@@ -1,0 +1,530 @@
+{
+ "id": "sports-c1",
+ "topic": "sports",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "sports.to-clinch-the-title",
+   "t": {
+    "en": "to clinch the title",
+    "uk": "здобути титул",
+    "ru": "завоевать титул",
+    "pl": "zapewnić sobie tytuł",
+    "de": "den Titel sichern",
+    "fr": "décrocher le titre",
+    "es": "proclamarse campeón",
+    "it": "conquistare il titolo",
+    "pt": "garantir o título",
+    "tr": "şampiyonluğu garantilemek"
+   },
+   "ex": {
+    "en": "They clinched the title with two games to spare."
+   }
+  },
+  {
+   "id": "sports.gruelling",
+   "t": {
+    "en": "gruelling",
+    "uk": "виснажливий",
+    "ru": "изнурительный",
+    "pl": "wyczerpujący",
+    "de": "zermürbend",
+    "fr": "éreintant",
+    "es": "agotador",
+    "it": "estenuante",
+    "pt": "extenuante",
+    "tr": "yıpratıcı"
+   },
+   "ex": {
+    "en": "The mountain stage was gruelling."
+   }
+  },
+  {
+   "id": "sports.to-choke-under-pressure",
+   "t": {
+    "en": "to choke under pressure",
+    "uk": "зламатися під тиском",
+    "ru": "сломаться под давлением",
+    "pl": "załamać się pod presją",
+    "de": "unter Druck versagen",
+    "fr": "craquer sous la pression",
+    "es": "venirse abajo bajo presión",
+    "it": "crollare sotto pressione",
+    "pt": "travar sob pressão",
+    "tr": "baskı altında çökmek"
+   },
+   "ex": {
+    "en": "He choked under pressure and missed the putt."
+   }
+  },
+  {
+   "id": "sports.to-throw-in-the-towel",
+   "t": {
+    "en": "to throw in the towel",
+    "uk": "викинути білий прапор",
+    "ru": "выбросить белый флаг",
+    "pl": "rzucić ręcznik",
+    "de": "das Handtuch werfen",
+    "fr": "jeter l'éponge",
+    "es": "tirar la toalla",
+    "it": "gettare la spugna",
+    "pt": "jogar a toalha",
+    "tr": "havlu atmak"
+   },
+   "ex": {
+    "en": "His corner threw in the towel in round eight."
+   }
+  },
+  {
+   "id": "sports.winning-streak",
+   "t": {
+    "en": "winning streak",
+    "uk": "переможна серія",
+    "ru": "победная серия",
+    "pl": "seria zwycięstw",
+    "de": "Siegesserie",
+    "fr": "série de victoires",
+    "es": "racha ganadora",
+    "it": "striscia di vittorie",
+    "pt": "sequência de vitórias",
+    "tr": "galibiyet serisi"
+   },
+   "ex": {
+    "en": "Their winning streak ended at twelve."
+   }
+  },
+  {
+   "id": "sports.to-pace-oneself",
+   "t": {
+    "en": "to pace oneself",
+    "uk": "розподіляти сили",
+    "ru": "распределять силы",
+    "pl": "rozkładać siły",
+    "de": "sich die Kräfte einteilen",
+    "fr": "gérer son effort",
+    "es": "dosificar las fuerzas",
+    "it": "dosare le forze",
+    "pt": "dosar o ritmo",
+    "tr": "temposunu ayarlamak"
+   },
+   "ex": {
+    "en": "Pace yourself or you'll fade by mile twenty."
+   }
+  },
+  {
+   "id": "sports.periodisation",
+   "t": {
+    "en": "periodisation",
+    "uk": "періодизація",
+    "ru": "периодизация",
+    "pl": "periodyzacja",
+    "de": "Periodisierung",
+    "fr": "périodisation",
+    "es": "periodización",
+    "it": "periodizzazione",
+    "pt": "periodização",
+    "tr": "periyotlama"
+   },
+   "ex": {
+    "en": "Periodisation structures training across the year."
+   }
+  },
+  {
+   "id": "sports.hypertrophy",
+   "t": {
+    "en": "hypertrophy",
+    "uk": "гіпертрофія",
+    "ru": "гипертрофия",
+    "pl": "hipertrofia",
+    "de": "Hypertrophie",
+    "fr": "hypertrophie",
+    "es": "hipertrofia",
+    "it": "ipertrofia",
+    "pt": "hipertrofia",
+    "tr": "hipertrofi"
+   },
+   "ex": {
+    "en": "Moderate reps are best for hypertrophy."
+   }
+  },
+  {
+   "id": "sports.lactate-threshold",
+   "t": {
+    "en": "lactate threshold",
+    "uk": "лактатний поріг",
+    "ru": "лактатный порог",
+    "pl": "próg mleczanowy",
+    "de": "Laktatschwelle",
+    "fr": "seuil lactique",
+    "es": "umbral de lactato",
+    "it": "soglia del lattato",
+    "pt": "limiar de lactato",
+    "tr": "laktat eşiği"
+   },
+   "ex": {
+    "en": "Tempo runs raise your lactate threshold."
+   }
+  },
+  {
+   "id": "sports.plyometrics",
+   "t": {
+    "en": "plyometrics",
+    "uk": "пліометрика",
+    "ru": "плиометрика",
+    "pl": "plyometria",
+    "de": "Plyometrie",
+    "fr": "pliométrie",
+    "es": "pliometría",
+    "it": "pliometria",
+    "pt": "pliometria",
+    "tr": "pliometrik antrenman"
+   },
+   "ex": {
+    "en": "Plyometrics develop explosive power."
+   }
+  },
+  {
+   "id": "sports.deload-week",
+   "t": {
+    "en": "deload week",
+    "uk": "розвантажувальний тиждень",
+    "ru": "разгрузочная неделя",
+    "pl": "tydzień rozładowania",
+    "de": "Entlastungswoche",
+    "fr": "semaine de décharge",
+    "es": "semana de descarga",
+    "it": "settimana di scarico",
+    "pt": "semana de deload",
+    "tr": "hafifletme haftası"
+   },
+   "ex": {
+    "en": "Schedule a deload week every month."
+   }
+  },
+  {
+   "id": "sports.altitude-training",
+   "t": {
+    "en": "altitude training",
+    "uk": "тренування на висоті",
+    "ru": "тренировки на высоте",
+    "pl": "trening wysokogórski",
+    "de": "Höhentraining",
+    "fr": "entraînement en altitude",
+    "es": "entrenamiento en altura",
+    "it": "allenamento in altura",
+    "pt": "treinamento em altitude",
+    "tr": "yüksek irtifa antrenmanı"
+   },
+   "ex": {
+    "en": "Altitude training boosts red blood cells."
+   }
+  },
+  {
+   "id": "sports.dark-horse",
+   "t": {
+    "en": "dark horse",
+    "uk": "темна конячка",
+    "ru": "тёмная лошадка",
+    "pl": "czarny koń",
+    "de": "Geheimfavorit",
+    "fr": "outsider surprise",
+    "es": "tapado",
+    "it": "outsider a sorpresa",
+    "pt": "zebra",
+    "tr": "sürpriz aday"
+   },
+   "ex": {
+    "en": "Denmark are the dark horse of the tournament."
+   }
+  },
+  {
+   "id": "sports.photo-finish",
+   "t": {
+    "en": "photo finish",
+    "uk": "фотофініш",
+    "ru": "фотофиниш",
+    "pl": "fotokomórka",
+    "de": "Fotofinish",
+    "fr": "photo-finish",
+    "es": "foto de llegada",
+    "it": "fotofinish",
+    "pt": "photo finish",
+    "tr": "fotofiniş"
+   },
+   "ex": {
+    "en": "The sprint was decided by a photo finish."
+   }
+  },
+  {
+   "id": "sports.nail-biter",
+   "t": {
+    "en": "nail-biter",
+    "uk": "напружений матч",
+    "ru": "напряжённый матч",
+    "pl": "mecz trzymający w napięciu",
+    "de": "Krimi",
+    "fr": "match à suspense",
+    "es": "partido de infarto",
+    "it": "partita al cardiopalma",
+    "pt": "jogo de roer as unhas",
+    "tr": "nefes kesen maç"
+   },
+   "ex": {
+    "en": "The final was a real nail-biter."
+   }
+  },
+  {
+   "id": "sports.to-bench-a-player",
+   "t": {
+    "en": "to bench a player",
+    "uk": "посадити гравця на лаву",
+    "ru": "посадить игрока на скамейку",
+    "pl": "posadzić zawodnika na ławce",
+    "de": "einen Spieler auf die Bank setzen",
+    "fr": "mettre un joueur sur le banc",
+    "es": "dejar a un jugador en el banquillo",
+    "it": "mettere in panchina",
+    "pt": "deixar no banco",
+    "tr": "oyuncuyu yedeğe çekmek"
+   },
+   "ex": {
+    "en": "The coach benched the striker for the final."
+   }
+  },
+  {
+   "id": "sports.to-eke-out-a-win",
+   "t": {
+    "en": "to eke out a win",
+    "uk": "вирвати перемогу",
+    "ru": "вырвать победу",
+    "pl": "wyszarpać zwycięstwo",
+    "de": "einen knappen Sieg erringen",
+    "fr": "arracher la victoire",
+    "es": "arañar la victoria",
+    "it": "strappare la vittoria",
+    "pt": "arrancar a vitória",
+    "tr": "zar zor kazanmak"
+   },
+   "ex": {
+    "en": "They eked out a win in stoppage time."
+   }
+  },
+  {
+   "id": "sports.to-rack-up-points",
+   "t": {
+    "en": "to rack up points",
+    "uk": "набирати очки",
+    "ru": "набирать очки",
+    "pl": "zdobywać punkty",
+    "de": "Punkte sammeln",
+    "fr": "accumuler des points",
+    "es": "acumular puntos",
+    "it": "accumulare punti",
+    "pt": "acumular pontos",
+    "tr": "puan toplamak"
+   },
+   "ex": {
+    "en": "She racked up forty points in one game."
+   }
+  },
+  {
+   "id": "sports.to-taper",
+   "t": {
+    "en": "to taper",
+    "uk": "знижувати навантаження",
+    "ru": "снижать нагрузку",
+    "pl": "zmniejszać obciążenie",
+    "de": "das Training reduzieren",
+    "fr": "réduire la charge",
+    "es": "bajar la carga",
+    "it": "scaricare",
+    "pt": "reduzir a carga",
+    "tr": "yükü azaltmak"
+   },
+   "ex": {
+    "en": "Taper for two weeks before the marathon."
+   }
+  },
+  {
+   "id": "sports.to-outclass",
+   "t": {
+    "en": "to outclass",
+    "uk": "бути на голову вищим",
+    "ru": "быть на голову выше",
+    "pl": "zdeklasować",
+    "de": "deklassieren",
+    "fr": "surclasser",
+    "es": "superar con creces",
+    "it": "surclassare",
+    "pt": "superar de longe",
+    "tr": "fark atmak"
+   },
+   "ex": {
+    "en": "The champions outclassed them in every area."
+   }
+  },
+  {
+   "id": "sports.second-wind",
+   "t": {
+    "en": "second wind",
+    "uk": "друге дихання",
+    "ru": "второе дыхание",
+    "pl": "drugi oddech",
+    "de": "zweite Luft",
+    "fr": "second souffle",
+    "es": "segundo aire",
+    "it": "secondo fiato",
+    "pt": "segundo fôlego",
+    "tr": "ikinci nefes"
+   },
+   "ex": {
+    "en": "I got my second wind after the hill."
+   }
+  },
+  {
+   "id": "sports.to-go-the-distance",
+   "t": {
+    "en": "to go the distance",
+    "uk": "пройти всю дистанцію",
+    "ru": "пройти всю дистанцию",
+    "pl": "wytrwać do końca",
+    "de": "bis zum Ende durchhalten",
+    "fr": "tenir la distance",
+    "es": "aguantar hasta el final",
+    "it": "arrivare fino in fondo",
+    "pt": "aguentar até o fim",
+    "tr": "sonuna kadar dayanmak"
+   },
+   "ex": {
+    "en": "Few boxers go the distance with him."
+   }
+  },
+  {
+   "id": "sports.peak-condition",
+   "t": {
+    "en": "peak condition",
+    "uk": "пік форми",
+    "ru": "пик формы",
+    "pl": "szczyt formy",
+    "de": "Topform",
+    "fr": "forme optimale",
+    "es": "plenitud de forma",
+    "it": "massima forma",
+    "pt": "auge da forma",
+    "tr": "zirve formu"
+   },
+   "ex": {
+    "en": "She arrived in peak condition."
+   }
+  },
+  {
+   "id": "sports.muscle-memory",
+   "t": {
+    "en": "muscle memory",
+    "uk": "м'язова пам'ять",
+    "ru": "мышечная память",
+    "pl": "pamięć mięśniowa",
+    "de": "Muskelgedächtnis",
+    "fr": "mémoire musculaire",
+    "es": "memoria muscular",
+    "it": "memoria muscolare",
+    "pt": "memória muscular",
+    "tr": "kas hafızası"
+   },
+   "ex": {
+    "en": "Muscle memory makes the swing automatic."
+   }
+  },
+  {
+   "id": "sports.to-hit-the-wall",
+   "t": {
+    "en": "to hit the wall",
+    "uk": "впертися в стіну",
+    "ru": "упереться в стену",
+    "pl": "odciąć się",
+    "de": "gegen die Wand laufen",
+    "fr": "frapper le mur",
+    "es": "darse contra el muro",
+    "it": "andare in crisi",
+    "pt": "quebrar",
+    "tr": "duvara toslamak"
+   },
+   "ex": {
+    "en": "Most runners hit the wall around 30 km."
+   }
+  },
+  {
+   "id": "sports.cramp",
+   "t": {
+    "en": "cramp",
+    "uk": "судома",
+    "ru": "судорога",
+    "pl": "skurcz",
+    "de": "Krampf",
+    "fr": "crampe",
+    "es": "calambre",
+    "it": "crampo",
+    "pt": "cãibra",
+    "tr": "kramp"
+   },
+   "ex": {
+    "en": "He went down with cramp in extra time."
+   }
+  },
+  {
+   "id": "sports.agility",
+   "t": {
+    "en": "agility",
+    "uk": "спритність",
+    "ru": "ловкость",
+    "pl": "zwinność",
+    "de": "Wendigkeit",
+    "fr": "agilité",
+    "es": "agilidad",
+    "it": "agilità",
+    "pt": "agilidade",
+    "tr": "çeviklik"
+   },
+   "ex": {
+    "en": "Ladder drills improve agility."
+   }
+  },
+  {
+   "id": "sports.spectator-sport",
+   "t": {
+    "en": "spectator sport",
+    "uk": "видовищний спорт",
+    "ru": "зрелищный спорт",
+    "pl": "sport widowiskowy",
+    "de": "Zuschauersport",
+    "fr": "sport-spectacle",
+    "es": "deporte de masas",
+    "it": "sport da spettatori",
+    "pt": "esporte de espectadores",
+    "tr": "seyirlik spor"
+   },
+   "ex": {
+    "en": "Darts has become a real spectator sport."
+   }
+  },
+  {
+   "id": "sports.to-retire-from-sport",
+   "t": {
+    "en": "to retire from sport",
+    "uk": "завершити кар'єру",
+    "ru": "завершить карьеру",
+    "pl": "zakończyć karierę",
+    "de": "die Karriere beenden",
+    "fr": "prendre sa retraite sportive",
+    "es": "retirarse del deporte",
+    "it": "ritirarsi dallo sport",
+    "pt": "se aposentar do esporte",
+    "tr": "sporu bırakmak"
+   },
+   "ex": {
+    "en": "She retired from sport at thirty-four."
+   }
+  }
+ ]
+}

@@ -1,0 +1,476 @@
+{
+ "id": "emergency-c1",
+ "topic": "emergency",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emergency.naturalisation",
+   "t": {
+    "en": "naturalisation",
+    "uk": "натуралізація",
+    "ru": "натурализация",
+    "pl": "naturalizacja",
+    "de": "Einbürgerung",
+    "fr": "naturalisation",
+    "es": "naturalización",
+    "it": "naturalizzazione",
+    "pt": "naturalização",
+    "tr": "vatandaşlığa kabul"
+   },
+   "ex": {
+    "en": "Naturalisation requires a language test."
+   }
+  },
+  {
+   "id": "emergency.statelessness",
+   "t": {
+    "en": "statelessness",
+    "uk": "безгромадянство",
+    "ru": "безгражданство",
+    "pl": "bezpaństwowość",
+    "de": "Staatenlosigkeit",
+    "fr": "apatridie",
+    "es": "apatridia",
+    "it": "apolidia",
+    "pt": "apatridia",
+    "tr": "vatansızlık"
+   },
+   "ex": {
+    "en": "Statelessness leaves people without basic rights."
+   }
+  },
+  {
+   "id": "emergency.affidavit",
+   "t": {
+    "en": "affidavit",
+    "uk": "письмова присяжна заява",
+    "ru": "письменное показание под присягой",
+    "pl": "oświadczenie pod przysięgą",
+    "de": "eidesstattliche Erklärung",
+    "fr": "déclaration sous serment",
+    "es": "declaración jurada",
+    "it": "dichiarazione giurata",
+    "pt": "declaração juramentada",
+    "tr": "yeminli beyan"
+   },
+   "ex": {
+    "en": "The court accepted her affidavit."
+   }
+  },
+  {
+   "id": "emergency.waiver",
+   "t": {
+    "en": "waiver",
+    "uk": "відмова від права",
+    "ru": "отказ от права",
+    "pl": "zrzeczenie się",
+    "de": "Verzichtserklärung",
+    "fr": "renonciation",
+    "es": "renuncia",
+    "it": "rinuncia",
+    "pt": "renúncia",
+    "tr": "feragat"
+   },
+   "ex": {
+    "en": "Sign the waiver before the trip."
+   }
+  },
+  {
+   "id": "emergency.exemption",
+   "t": {
+    "en": "exemption",
+    "uk": "звільнення від обов'язку",
+    "ru": "освобождение от обязанности",
+    "pl": "zwolnienie",
+    "de": "Befreiung",
+    "fr": "exemption",
+    "es": "exención",
+    "it": "esenzione",
+    "pt": "isenção",
+    "tr": "muafiyet"
+   },
+   "ex": {
+    "en": "Students may qualify for an exemption."
+   }
+  },
+  {
+   "id": "emergency.jurisdiction",
+   "t": {
+    "en": "jurisdiction",
+    "uk": "юрисдикція",
+    "ru": "юрисдикция",
+    "pl": "jurysdykcja",
+    "de": "Zuständigkeit",
+    "fr": "compétence",
+    "es": "jurisdicción",
+    "it": "giurisdizione",
+    "pt": "jurisdição",
+    "tr": "yargı yetkisi"
+   },
+   "ex": {
+    "en": "This matter falls outside our jurisdiction."
+   }
+  },
+  {
+   "id": "emergency.injunction",
+   "t": {
+    "en": "injunction",
+    "uk": "судова заборона",
+    "ru": "судебный запрет",
+    "pl": "nakaz sądowy",
+    "de": "einstweilige Verfügung",
+    "fr": "injonction",
+    "es": "medida cautelar",
+    "it": "ingiunzione",
+    "pt": "liminar",
+    "tr": "ihtiyati tedbir"
+   },
+   "ex": {
+    "en": "The judge granted an injunction."
+   }
+  },
+  {
+   "id": "emergency.to-lodge-an-appeal",
+   "t": {
+    "en": "to lodge an appeal",
+    "uk": "подавати апеляцію",
+    "ru": "подавать апелляцию",
+    "pl": "wnieść apelację",
+    "de": "Berufung einlegen",
+    "fr": "interjeter appel",
+    "es": "interponer un recurso",
+    "it": "presentare ricorso",
+    "pt": "interpor recurso",
+    "tr": "temyize başvurmak"
+   },
+   "ex": {
+    "en": "Her lawyer lodged an appeal immediately."
+   }
+  },
+  {
+   "id": "emergency.procedural-error",
+   "t": {
+    "en": "procedural error",
+    "uk": "процесуальна помилка",
+    "ru": "процессуальная ошибка",
+    "pl": "uchybienie proceduralne",
+    "de": "Verfahrensfehler",
+    "fr": "vice de procédure",
+    "es": "vicio de procedimiento",
+    "it": "vizio procedurale",
+    "pt": "vício processual",
+    "tr": "usul hatası"
+   },
+   "ex": {
+    "en": "The case collapsed over a procedural error."
+   }
+  },
+  {
+   "id": "emergency.grace-period",
+   "t": {
+    "en": "grace period",
+    "uk": "пільговий період",
+    "ru": "льготный период",
+    "pl": "okres karencji",
+    "de": "Nachfrist",
+    "fr": "délai de grâce",
+    "es": "periodo de gracia",
+    "it": "periodo di tolleranza",
+    "pt": "período de carência",
+    "tr": "ek süre"
+   },
+   "ex": {
+    "en": "There is a ten-day grace period."
+   }
+  },
+  {
+   "id": "emergency.retroactive",
+   "t": {
+    "en": "retroactive",
+    "uk": "зі зворотною силою",
+    "ru": "имеющий обратную силу",
+    "pl": "z mocą wsteczną",
+    "de": "rückwirkend",
+    "fr": "rétroactif",
+    "es": "retroactivo",
+    "it": "retroattivo",
+    "pt": "retroativo",
+    "tr": "geriye dönük"
+   },
+   "ex": {
+    "en": "The new rule is not retroactive."
+   }
+  },
+  {
+   "id": "emergency.to-expedite",
+   "t": {
+    "en": "to expedite",
+    "uk": "прискорювати",
+    "ru": "ускорять",
+    "pl": "przyspieszać",
+    "de": "beschleunigen",
+    "fr": "accélérer",
+    "es": "agilizar",
+    "it": "accelerare",
+    "pt": "agilizar",
+    "tr": "hızlandırmak"
+   },
+   "ex": {
+    "en": "Can you expedite my passport renewal?"
+   }
+  },
+  {
+   "id": "emergency.perjury",
+   "t": {
+    "en": "perjury",
+    "uk": "неправдиві свідчення",
+    "ru": "лжесвидетельство",
+    "pl": "krzywoprzysięstwo",
+    "de": "Meineid",
+    "fr": "faux témoignage",
+    "es": "perjurio",
+    "it": "falsa testimonianza",
+    "pt": "perjúrio",
+    "tr": "yalan tanıklık"
+   },
+   "ex": {
+    "en": "Lying under oath is perjury."
+   }
+  },
+  {
+   "id": "emergency.extenuating-circumstances",
+   "t": {
+    "en": "extenuating circumstances",
+    "uk": "пом'якшувальні обставини",
+    "ru": "смягчающие обстоятельства",
+    "pl": "okoliczności łagodzące",
+    "de": "mildernde Umstände",
+    "fr": "circonstances atténuantes",
+    "es": "circunstancias atenuantes",
+    "it": "circostanze attenuanti",
+    "pt": "circunstâncias atenuantes",
+    "tr": "hafifletici nedenler"
+   },
+   "ex": {
+    "en": "The judge considered extenuating circumstances."
+   }
+  },
+  {
+   "id": "emergency.negligence",
+   "t": {
+    "en": "negligence",
+    "uk": "недбалість",
+    "ru": "халатность",
+    "pl": "zaniedbanie",
+    "de": "Fahrlässigkeit",
+    "fr": "négligence",
+    "es": "negligencia",
+    "it": "negligenza",
+    "pt": "negligência",
+    "tr": "ihmal"
+   },
+   "ex": {
+    "en": "The hospital was sued for negligence."
+   }
+  },
+  {
+   "id": "emergency.acquittal",
+   "t": {
+    "en": "acquittal",
+    "uk": "виправдувальний вирок",
+    "ru": "оправдательный приговор",
+    "pl": "uniewinnienie",
+    "de": "Freispruch",
+    "fr": "acquittement",
+    "es": "absolución",
+    "it": "assoluzione",
+    "pt": "absolvição",
+    "tr": "beraat"
+   },
+   "ex": {
+    "en": "The trial ended in an acquittal."
+   }
+  },
+  {
+   "id": "emergency.bail",
+   "t": {
+    "en": "bail",
+    "uk": "застава",
+    "ru": "залог",
+    "pl": "kaucja",
+    "de": "Kaution",
+    "fr": "caution",
+    "es": "fianza",
+    "it": "cauzione",
+    "pt": "fiança",
+    "tr": "kefalet"
+   },
+   "ex": {
+    "en": "Bail was set at ten thousand dollars."
+   }
+  },
+  {
+   "id": "emergency.restraining-order",
+   "t": {
+    "en": "restraining order",
+    "uk": "охоронний ордер",
+    "ru": "охранный ордер",
+    "pl": "zakaz zbliżania się",
+    "de": "Kontaktverbot",
+    "fr": "ordonnance d'éloignement",
+    "es": "orden de alejamiento",
+    "it": "ordine restrittivo",
+    "pt": "medida protetiva",
+    "tr": "uzaklaştırma kararı"
+   },
+   "ex": {
+    "en": "She obtained a restraining order against him."
+   }
+  },
+  {
+   "id": "emergency.summons",
+   "t": {
+    "en": "summons",
+    "uk": "повістка",
+    "ru": "повестка",
+    "pl": "wezwanie",
+    "de": "Vorladung",
+    "fr": "convocation",
+    "es": "citación",
+    "it": "citazione",
+    "pt": "intimação",
+    "tr": "celp"
+   },
+   "ex": {
+    "en": "He received a summons to appear in court."
+   }
+  },
+  {
+   "id": "emergency.warrant",
+   "t": {
+    "en": "warrant",
+    "uk": "ордер",
+    "ru": "ордер",
+    "pl": "nakaz",
+    "de": "Haftbefehl",
+    "fr": "mandat",
+    "es": "orden judicial",
+    "it": "mandato",
+    "pt": "mandado",
+    "tr": "arama kararı"
+   },
+   "ex": {
+    "en": "The police had a warrant to search the flat."
+   }
+  },
+  {
+   "id": "emergency.due-process",
+   "t": {
+    "en": "due process",
+    "uk": "належна правова процедура",
+    "ru": "надлежащая правовая процедура",
+    "pl": "rzetelny proces",
+    "de": "ordentliches Verfahren",
+    "fr": "procédure régulière",
+    "es": "debido proceso",
+    "it": "giusto processo",
+    "pt": "devido processo legal",
+    "tr": "adil yargılanma"
+   },
+   "ex": {
+    "en": "Everyone is entitled to due process."
+   }
+  },
+  {
+   "id": "emergency.discretionary",
+   "t": {
+    "en": "discretionary",
+    "uk": "на власний розсуд",
+    "ru": "по усмотрению",
+    "pl": "uznaniowy",
+    "de": "nach Ermessen",
+    "fr": "discrétionnaire",
+    "es": "discrecional",
+    "it": "discrezionale",
+    "pt": "discricionário",
+    "tr": "takdire bağlı"
+   },
+   "ex": {
+    "en": "The decision is entirely discretionary."
+   }
+  },
+  {
+   "id": "emergency.to-overturn",
+   "t": {
+    "en": "to overturn",
+    "uk": "скасовувати",
+    "ru": "отменять",
+    "pl": "uchylić",
+    "de": "aufheben",
+    "fr": "annuler",
+    "es": "revocar",
+    "it": "ribaltare",
+    "pt": "reverter",
+    "tr": "bozmak"
+   },
+   "ex": {
+    "en": "The appeal court overturned the ruling."
+   }
+  },
+  {
+   "id": "emergency.null-and-void",
+   "t": {
+    "en": "null and void",
+    "uk": "недійсний",
+    "ru": "недействительный",
+    "pl": "nieważny",
+    "de": "null und nichtig",
+    "fr": "nul et non avenu",
+    "es": "nulo y sin efecto",
+    "it": "nullo",
+    "pt": "nulo e sem efeito",
+    "tr": "hükümsüz"
+   },
+   "ex": {
+    "en": "The contract is now null and void."
+   }
+  },
+  {
+   "id": "emergency.subrogation",
+   "t": {
+    "en": "subrogation",
+    "uk": "суброгація",
+    "ru": "суброгация",
+    "pl": "regres ubezpieczeniowy",
+    "de": "Regress",
+    "fr": "subrogation",
+    "es": "subrogación",
+    "it": "surrogazione",
+    "pt": "sub-rogação",
+    "tr": "rücu"
+   },
+   "ex": {
+    "en": "The insurer recovered the money through subrogation."
+   }
+  },
+  {
+   "id": "emergency.triage",
+   "t": {
+    "en": "triage",
+    "uk": "сортування постраждалих",
+    "ru": "сортировка пострадавших",
+    "pl": "segregacja medyczna",
+    "de": "Triage",
+    "fr": "triage",
+    "es": "triaje",
+    "it": "triage",
+    "pt": "triagem",
+    "tr": "triyaj"
+   },
+   "ex": {
+    "en": "Paramedics carried out triage at the scene."
+   }
+  }
+ ]
+}

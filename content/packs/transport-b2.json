@@ -1,0 +1,512 @@
+{
+ "id": "transport-b2",
+ "topic": "transport",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "transport.congestion-charge",
+   "t": {
+    "en": "congestion charge",
+    "uk": "плата за в'їзд у центр",
+    "ru": "плата за въезд в центр",
+    "pl": "opłata za wjazd do centrum",
+    "de": "City-Maut",
+    "fr": "péage urbain",
+    "es": "tasa de congestión",
+    "it": "pedaggio urbano",
+    "pt": "pedágio urbano",
+    "tr": "trafik yoğunluğu ücreti"
+   },
+   "ex": {
+    "en": "London has a congestion charge."
+   }
+  },
+  {
+   "id": "transport.drunk-driving",
+   "t": {
+    "en": "drunk driving",
+    "uk": "водіння в нетверезому стані",
+    "ru": "вождение в нетрезвом виде",
+    "pl": "jazda po pijanemu",
+    "de": "Trunkenheit am Steuer",
+    "fr": "conduite en état d'ivresse",
+    "es": "conducir ebrio",
+    "it": "guida in stato di ebbrezza",
+    "pt": "dirigir embriagado",
+    "tr": "alkollü araç kullanma"
+   },
+   "ex": {
+    "en": "Drunk driving costs you your license."
+   }
+  },
+  {
+   "id": "transport.speed-camera",
+   "t": {
+    "en": "speed camera",
+    "uk": "камера контролю швидкості",
+    "ru": "камера контроля скорости",
+    "pl": "fotoradar",
+    "de": "Blitzer",
+    "fr": "radar",
+    "es": "radar de velocidad",
+    "it": "autovelox",
+    "pt": "radar de velocidade",
+    "tr": "hız kamerası"
+   },
+   "ex": {
+    "en": "A speed camera caught him at ninety."
+   }
+  },
+  {
+   "id": "transport.to-skid",
+   "t": {
+    "en": "to skid",
+    "uk": "піти в занос",
+    "ru": "пойти юзом",
+    "pl": "wpaść w poślizg",
+    "de": "ins Schleudern geraten",
+    "fr": "déraper",
+    "es": "derrapar",
+    "it": "sbandare",
+    "pt": "derrapar",
+    "tr": "kaymak"
+   },
+   "ex": {
+    "en": "The car skidded on the wet road."
+   }
+  },
+  {
+   "id": "transport.black-ice",
+   "t": {
+    "en": "black ice",
+    "uk": "ожеледиця",
+    "ru": "гололёд",
+    "pl": "gołoledź",
+    "de": "Glatteis",
+    "fr": "verglas",
+    "es": "placa de hielo",
+    "it": "ghiaccio sulla strada",
+    "pt": "gelo na pista",
+    "tr": "buzlanma"
+   },
+   "ex": {
+    "en": "Watch out for black ice tonight."
+   }
+  },
+  {
+   "id": "transport.license-plate",
+   "t": {
+    "en": "license plate",
+    "uk": "номерний знак",
+    "ru": "номерной знак",
+    "pl": "tablica rejestracyjna",
+    "de": "Nummernschild",
+    "fr": "plaque d'immatriculation",
+    "es": "matrícula",
+    "it": "targa",
+    "pt": "placa",
+    "tr": "plaka"
+   },
+   "ex": {
+    "en": "Did you note the license plate?"
+   }
+  },
+  {
+   "id": "transport.vehicle-registration",
+   "t": {
+    "en": "vehicle registration",
+    "uk": "техпаспорт",
+    "ru": "свидетельство о регистрации",
+    "pl": "dowód rejestracyjny",
+    "de": "Fahrzeugschein",
+    "fr": "carte grise",
+    "es": "permiso de circulación",
+    "it": "libretto di circolazione",
+    "pt": "documento do veículo",
+    "tr": "ruhsat"
+   },
+   "ex": {
+    "en": "Keep the vehicle registration in the car."
+   }
+  },
+  {
+   "id": "transport.roadworthiness-test",
+   "t": {
+    "en": "roadworthiness test",
+    "uk": "техогляд",
+    "ru": "техосмотр",
+    "pl": "przegląd techniczny",
+    "de": "TÜV",
+    "fr": "contrôle technique",
+    "es": "ITV",
+    "it": "revisione",
+    "pt": "vistoria",
+    "tr": "muayene"
+   },
+   "ex": {
+    "en": "My car passed the roadworthiness test."
+   }
+  },
+  {
+   "id": "transport.fuel-consumption",
+   "t": {
+    "en": "fuel consumption",
+    "uk": "витрата пального",
+    "ru": "расход топлива",
+    "pl": "zużycie paliwa",
+    "de": "Kraftstoffverbrauch",
+    "fr": "consommation de carburant",
+    "es": "consumo de combustible",
+    "it": "consumo di carburante",
+    "pt": "consumo de combustível",
+    "tr": "yakıt tüketimi"
+   },
+   "ex": {
+    "en": "This model has low fuel consumption."
+   }
+  },
+  {
+   "id": "transport.electric-vehicle",
+   "t": {
+    "en": "electric vehicle",
+    "uk": "електромобіль",
+    "ru": "электромобиль",
+    "pl": "samochód elektryczny",
+    "de": "Elektroauto",
+    "fr": "voiture électrique",
+    "es": "coche eléctrico",
+    "it": "auto elettrica",
+    "pt": "carro elétrico",
+    "tr": "elektrikli araç"
+   },
+   "ex": {
+    "en": "Electric vehicles are quiet."
+   }
+  },
+  {
+   "id": "transport.charging-station",
+   "t": {
+    "en": "charging station",
+    "uk": "зарядна станція",
+    "ru": "зарядная станция",
+    "pl": "stacja ładowania",
+    "de": "Ladestation",
+    "fr": "borne de recharge",
+    "es": "punto de recarga",
+    "it": "colonnina di ricarica",
+    "pt": "estação de recarga",
+    "tr": "şarj istasyonu"
+   },
+   "ex": {
+    "en": "Is there a charging station nearby?"
+   }
+  },
+  {
+   "id": "transport.public-transport",
+   "t": {
+    "en": "public transport",
+    "uk": "громадський транспорт",
+    "ru": "общественный транспорт",
+    "pl": "transport publiczny",
+    "de": "öffentliche Verkehrsmittel",
+    "fr": "transports en commun",
+    "es": "transporte público",
+    "it": "trasporto pubblico",
+    "pt": "transporte público",
+    "tr": "toplu taşıma"
+   },
+   "ex": {
+    "en": "Public transport is free on Sundays."
+   }
+  },
+  {
+   "id": "transport.fare-evasion",
+   "t": {
+    "en": "fare evasion",
+    "uk": "безквитковий проїзд",
+    "ru": "безбилетный проезд",
+    "pl": "jazda na gapę",
+    "de": "Schwarzfahren",
+    "fr": "fraude dans les transports",
+    "es": "viajar sin billete",
+    "it": "viaggiare senza biglietto",
+    "pt": "viajar sem pagar",
+    "tr": "kaçak yolculuk"
+   },
+   "ex": {
+    "en": "Fare evasion carries a heavy fine."
+   }
+  },
+  {
+   "id": "transport.rear-view-mirror",
+   "t": {
+    "en": "rear-view mirror",
+    "uk": "дзеркало заднього виду",
+    "ru": "зеркало заднего вида",
+    "pl": "lusterko wsteczne",
+    "de": "Rückspiegel",
+    "fr": "rétroviseur",
+    "es": "retrovisor",
+    "it": "specchietto retrovisore",
+    "pt": "retrovisor",
+    "tr": "dikiz aynası"
+   },
+   "ex": {
+    "en": "Adjust the rear-view mirror first."
+   }
+  },
+  {
+   "id": "transport.blind-spot",
+   "t": {
+    "en": "blind spot",
+    "uk": "сліпа зона",
+    "ru": "слепая зона",
+    "pl": "martwe pole",
+    "de": "toter Winkel",
+    "fr": "angle mort",
+    "es": "ángulo muerto",
+    "it": "angolo cieco",
+    "pt": "ponto cego",
+    "tr": "kör nokta"
+   },
+   "ex": {
+    "en": "Always check your blind spot."
+   }
+  },
+  {
+   "id": "transport.to-tailgate",
+   "t": {
+    "en": "to tailgate",
+    "uk": "їхати впритул",
+    "ru": "ехать впритык",
+    "pl": "jechać na zderzaku",
+    "de": "zu dicht auffahren",
+    "fr": "coller au pare-chocs",
+    "es": "pegarse al coche de delante",
+    "it": "stare attaccati",
+    "pt": "colar no carro da frente",
+    "tr": "çok yakın takip etmek"
+   },
+   "ex": {
+    "en": "Stop tailgating, it's dangerous."
+   }
+  },
+  {
+   "id": "transport.to-pull-over",
+   "t": {
+    "en": "to pull over",
+    "uk": "з'їхати на узбіччя",
+    "ru": "съехать на обочину",
+    "pl": "zjechać na pobocze",
+    "de": "an den Straßenrand fahren",
+    "fr": "se ranger sur le côté",
+    "es": "apartarse a un lado",
+    "it": "accostare",
+    "pt": "encostar",
+    "tr": "kenara çekmek"
+   },
+   "ex": {
+    "en": "The police told him to pull over."
+   }
+  },
+  {
+   "id": "transport.hard-shoulder",
+   "t": {
+    "en": "hard shoulder",
+    "uk": "узбіччя",
+    "ru": "обочина",
+    "pl": "pobocze",
+    "de": "Standstreifen",
+    "fr": "bande d'arrêt d'urgence",
+    "es": "arcén",
+    "it": "corsia d'emergenza",
+    "pt": "acostamento",
+    "tr": "emniyet şeridi"
+   },
+   "ex": {
+    "en": "We stopped on the hard shoulder."
+   }
+  },
+  {
+   "id": "transport.diversion",
+   "t": {
+    "en": "diversion",
+    "uk": "об'їзд",
+    "ru": "объезд",
+    "pl": "objazd",
+    "de": "Umleitung",
+    "fr": "déviation",
+    "es": "desvío",
+    "it": "deviazione",
+    "pt": "desvio",
+    "tr": "servis yolu"
+   },
+   "ex": {
+    "en": "Follow the diversion signs."
+   }
+  },
+  {
+   "id": "transport.to-swerve",
+   "t": {
+    "en": "to swerve",
+    "uk": "різко вивернути кермо",
+    "ru": "резко вильнуть",
+    "pl": "gwałtownie skręcić",
+    "de": "ausweichen",
+    "fr": "faire une embardée",
+    "es": "dar un volantazo",
+    "it": "sterzare bruscamente",
+    "pt": "desviar bruscamente",
+    "tr": "ani manevra yapmak"
+   },
+   "ex": {
+    "en": "She swerved to avoid a dog."
+   }
+  },
+  {
+   "id": "transport.stopping-distance",
+   "t": {
+    "en": "stopping distance",
+    "uk": "гальмівний шлях",
+    "ru": "тормозной путь",
+    "pl": "droga hamowania",
+    "de": "Bremsweg",
+    "fr": "distance d'arrêt",
+    "es": "distancia de frenado",
+    "it": "spazio di frenata",
+    "pt": "distância de frenagem",
+    "tr": "fren mesafesi"
+   },
+   "ex": {
+    "en": "Stopping distance doubles in the rain."
+   }
+  },
+  {
+   "id": "transport.roadside-assistance",
+   "t": {
+    "en": "roadside assistance",
+    "uk": "допомога на дорозі",
+    "ru": "помощь на дороге",
+    "pl": "pomoc drogowa",
+    "de": "Pannenhilfe",
+    "fr": "assistance routière",
+    "es": "asistencia en carretera",
+    "it": "soccorso stradale",
+    "pt": "assistência na estrada",
+    "tr": "yol yardımı"
+   },
+   "ex": {
+    "en": "Call roadside assistance if you break down."
+   }
+  },
+  {
+   "id": "transport.cruise-control",
+   "t": {
+    "en": "cruise control",
+    "uk": "круїз-контроль",
+    "ru": "круиз-контроль",
+    "pl": "tempomat",
+    "de": "Tempomat",
+    "fr": "régulateur de vitesse",
+    "es": "control de crucero",
+    "it": "cruise control",
+    "pt": "piloto automático",
+    "tr": "hız sabitleyici"
+   },
+   "ex": {
+    "en": "I use cruise control on long trips."
+   }
+  },
+  {
+   "id": "transport.gridlock",
+   "t": {
+    "en": "gridlock",
+    "uk": "повний затор",
+    "ru": "глухая пробка",
+    "pl": "paraliż ruchu",
+    "de": "Verkehrskollaps",
+    "fr": "paralysie du trafic",
+    "es": "colapso circulatorio",
+    "it": "paralisi del traffico",
+    "pt": "congestionamento total",
+    "tr": "trafik kilitlenmesi"
+   },
+   "ex": {
+    "en": "The snow caused total gridlock."
+   }
+  },
+  {
+   "id": "transport.designated-driver",
+   "t": {
+    "en": "designated driver",
+    "uk": "тверезий водій",
+    "ru": "трезвый водитель",
+    "pl": "wyznaczony kierowca",
+    "de": "Fahrer des Abends",
+    "fr": "capitaine de soirée",
+    "es": "conductor designado",
+    "it": "guidatore designato",
+    "pt": "motorista da rodada",
+    "tr": "ayık sürücü"
+   },
+   "ex": {
+    "en": "I'm the designated driver tonight."
+   }
+  },
+  {
+   "id": "transport.bike-sharing",
+   "t": {
+    "en": "bike sharing",
+    "uk": "прокат велосипедів",
+    "ru": "прокат велосипедов",
+    "pl": "rower miejski",
+    "de": "Leihfahrrad",
+    "fr": "vélo en libre-service",
+    "es": "bicicleta compartida",
+    "it": "bike sharing",
+    "pt": "bicicleta compartilhada",
+    "tr": "bisiklet paylaşımı"
+   },
+   "ex": {
+    "en": "Bike sharing is popular in the city."
+   }
+  },
+  {
+   "id": "transport.park-and-ride",
+   "t": {
+    "en": "park and ride",
+    "uk": "перехоплювальна парковка",
+    "ru": "перехватывающая парковка",
+    "pl": "parking P+R",
+    "de": "Park-and-ride-Platz",
+    "fr": "parking relais",
+    "es": "aparcamiento disuasorio",
+    "it": "parcheggio di interscambio",
+    "pt": "estacionamento integrado",
+    "tr": "park et devam et"
+   },
+   "ex": {
+    "en": "Use the park and ride outside town."
+   }
+  },
+  {
+   "id": "transport.off-peak",
+   "t": {
+    "en": "off-peak",
+    "uk": "непіковий час",
+    "ru": "непиковое время",
+    "pl": "poza godzinami szczytu",
+    "de": "außerhalb der Stoßzeiten",
+    "fr": "heures creuses",
+    "es": "hora valle",
+    "it": "orario non di punta",
+    "pt": "fora do horário de pico",
+    "tr": "yoğun olmayan saatler"
+   },
+   "ex": {
+    "en": "Off-peak tickets are much cheaper."
+   }
+  }
+ ]
+}

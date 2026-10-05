@@ -1,0 +1,512 @@
+{
+ "id": "business-b2",
+ "topic": "business",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "business.stakeholder",
+   "t": {
+    "en": "stakeholder",
+    "uk": "зацікавлена сторона",
+    "ru": "заинтересованная сторона",
+    "pl": "interesariusz",
+    "de": "Stakeholder",
+    "fr": "partie prenante",
+    "es": "parte interesada",
+    "it": "parte interessata",
+    "pt": "parte interessada",
+    "tr": "paydaş"
+   },
+   "ex": {
+    "en": "We informed all stakeholders about the change."
+   }
+  },
+  {
+   "id": "business.leverage",
+   "t": {
+    "en": "leverage",
+    "uk": "важіль впливу",
+    "ru": "рычаг влияния",
+    "pl": "przewaga negocjacyjna",
+    "de": "Druckmittel",
+    "fr": "levier",
+    "es": "poder de negociación",
+    "it": "leva",
+    "pt": "poder de barganha",
+    "tr": "pazarlık gücü"
+   },
+   "ex": {
+    "en": "Their size gives them leverage in talks."
+   }
+  },
+  {
+   "id": "business.concession",
+   "t": {
+    "en": "concession",
+    "uk": "поступка",
+    "ru": "уступка",
+    "pl": "ustępstwo",
+    "de": "Zugeständnis",
+    "fr": "concession",
+    "es": "concesión",
+    "it": "concessione",
+    "pt": "concessão",
+    "tr": "taviz"
+   },
+   "ex": {
+    "en": "We made a small concession on price."
+   }
+  },
+  {
+   "id": "business.to-close-a-deal",
+   "t": {
+    "en": "to close a deal",
+    "uk": "закрити угоду",
+    "ru": "закрыть сделку",
+    "pl": "sfinalizować umowę",
+    "de": "Deal abschließen",
+    "fr": "conclure une vente",
+    "es": "cerrar un acuerdo",
+    "it": "chiudere un accordo",
+    "pt": "fechar um acordo",
+    "tr": "anlaşmayı sonuçlandırmak"
+   },
+   "ex": {
+    "en": "We closed the deal on Thursday."
+   }
+  },
+  {
+   "id": "business.counteroffer",
+   "t": {
+    "en": "counteroffer",
+    "uk": "зустрічна пропозиція",
+    "ru": "встречное предложение",
+    "pl": "kontroferta",
+    "de": "Gegenangebot",
+    "fr": "contre-offre",
+    "es": "contraoferta",
+    "it": "controfferta",
+    "pt": "contraproposta",
+    "tr": "karşı teklif"
+   },
+   "ex": {
+    "en": "They sent a counteroffer the next day."
+   }
+  },
+  {
+   "id": "business.breach-of-contract",
+   "t": {
+    "en": "breach of contract",
+    "uk": "порушення договору",
+    "ru": "нарушение договора",
+    "pl": "naruszenie umowy",
+    "de": "Vertragsbruch",
+    "fr": "rupture de contrat",
+    "es": "incumplimiento de contrato",
+    "it": "violazione del contratto",
+    "pt": "quebra de contrato",
+    "tr": "sözleşme ihlali"
+   },
+   "ex": {
+    "en": "Late delivery is a breach of contract."
+   }
+  },
+  {
+   "id": "business.clause",
+   "t": {
+    "en": "clause",
+    "uk": "пункт договору",
+    "ru": "пункт договора",
+    "pl": "klauzula",
+    "de": "Klausel",
+    "fr": "clause",
+    "es": "cláusula",
+    "it": "clausola",
+    "pt": "cláusula",
+    "tr": "madde"
+   },
+   "ex": {
+    "en": "Read clause five carefully."
+   }
+  },
+  {
+   "id": "business.liability",
+   "t": {
+    "en": "liability",
+    "uk": "відповідальність",
+    "ru": "ответственность",
+    "pl": "odpowiedzialność",
+    "de": "Haftung",
+    "fr": "responsabilité",
+    "es": "responsabilidad",
+    "it": "responsabilità",
+    "pt": "responsabilidade",
+    "tr": "yükümlülük"
+   },
+   "ex": {
+    "en": "The contract limits our liability."
+   }
+  },
+  {
+   "id": "business.non-disclosure-agreement",
+   "t": {
+    "en": "non-disclosure agreement",
+    "uk": "угода про нерозголошення",
+    "ru": "соглашение о неразглашении",
+    "pl": "umowa o poufności",
+    "de": "Geheimhaltungsvereinbarung",
+    "fr": "accord de confidentialité",
+    "es": "acuerdo de confidencialidad",
+    "it": "accordo di riservatezza",
+    "pt": "acordo de confidencialidade",
+    "tr": "gizlilik sözleşmesi"
+   },
+   "ex": {
+    "en": "Please sign the non-disclosure agreement first."
+   }
+  },
+  {
+   "id": "business.due-diligence",
+   "t": {
+    "en": "due diligence",
+    "uk": "комплексна перевірка",
+    "ru": "комплексная проверка",
+    "pl": "badanie due diligence",
+    "de": "Sorgfaltsprüfung",
+    "fr": "audit préalable",
+    "es": "diligencia debida",
+    "it": "due diligence",
+    "pt": "due diligence",
+    "tr": "durum tespiti"
+   },
+   "ex": {
+    "en": "They did due diligence before buying."
+   }
+  },
+  {
+   "id": "business.merger",
+   "t": {
+    "en": "merger",
+    "uk": "злиття",
+    "ru": "слияние",
+    "pl": "fuzja",
+    "de": "Fusion",
+    "fr": "fusion",
+    "es": "fusión",
+    "it": "fusione",
+    "pt": "fusão",
+    "tr": "birleşme"
+   },
+   "ex": {
+    "en": "The merger created a market leader."
+   }
+  },
+  {
+   "id": "business.acquisition",
+   "t": {
+    "en": "acquisition",
+    "uk": "поглинання",
+    "ru": "поглощение",
+    "pl": "przejęcie",
+    "de": "Übernahme",
+    "fr": "acquisition",
+    "es": "adquisición",
+    "it": "acquisizione",
+    "pt": "aquisição",
+    "tr": "satın alma"
+   },
+   "ex": {
+    "en": "The acquisition cost two billion dollars."
+   }
+  },
+  {
+   "id": "business.subsidiary",
+   "t": {
+    "en": "subsidiary",
+    "uk": "дочірня компанія",
+    "ru": "дочерняя компания",
+    "pl": "spółka zależna",
+    "de": "Tochtergesellschaft",
+    "fr": "filiale",
+    "es": "filial",
+    "it": "società controllata",
+    "pt": "subsidiária",
+    "tr": "bağlı şirket"
+   },
+   "ex": {
+    "en": "Their subsidiary operates in Brazil."
+   }
+  },
+  {
+   "id": "business.parent-company",
+   "t": {
+    "en": "parent company",
+    "uk": "материнська компанія",
+    "ru": "материнская компания",
+    "pl": "spółka matka",
+    "de": "Muttergesellschaft",
+    "fr": "société mère",
+    "es": "empresa matriz",
+    "it": "società madre",
+    "pt": "empresa-mãe",
+    "tr": "ana şirket"
+   },
+   "ex": {
+    "en": "The parent company is based in Tokyo."
+   }
+  },
+  {
+   "id": "business.board-of-directors",
+   "t": {
+    "en": "board of directors",
+    "uk": "рада директорів",
+    "ru": "совет директоров",
+    "pl": "rada nadzorcza",
+    "de": "Vorstand",
+    "fr": "conseil d'administration",
+    "es": "consejo de administración",
+    "it": "consiglio di amministrazione",
+    "pt": "conselho de administração",
+    "tr": "yönetim kurulu"
+   },
+   "ex": {
+    "en": "The board of directors meets quarterly."
+   }
+  },
+  {
+   "id": "business.chief-executive-officer",
+   "t": {
+    "en": "chief executive officer",
+    "uk": "генеральний директор",
+    "ru": "генеральный директор",
+    "pl": "prezes",
+    "de": "Geschäftsführer",
+    "fr": "directeur général",
+    "es": "director ejecutivo",
+    "it": "amministratore delegato",
+    "pt": "diretor executivo",
+    "tr": "genel müdür"
+   },
+   "ex": {
+    "en": "The chief executive officer resigned yesterday."
+   }
+  },
+  {
+   "id": "business.supply-chain",
+   "t": {
+    "en": "supply chain",
+    "uk": "ланцюг постачання",
+    "ru": "цепочка поставок",
+    "pl": "łańcuch dostaw",
+    "de": "Lieferkette",
+    "fr": "chaîne d'approvisionnement",
+    "es": "cadena de suministro",
+    "it": "catena di approvvigionamento",
+    "pt": "cadeia de suprimentos",
+    "tr": "tedarik zinciri"
+   },
+   "ex": {
+    "en": "The storm disrupted our supply chain."
+   }
+  },
+  {
+   "id": "business.cash-flow",
+   "t": {
+    "en": "cash flow",
+    "uk": "грошовий потік",
+    "ru": "денежный поток",
+    "pl": "przepływ gotówki",
+    "de": "Cashflow",
+    "fr": "trésorerie",
+    "es": "flujo de caja",
+    "it": "flusso di cassa",
+    "pt": "fluxo de caixa",
+    "tr": "nakit akışı"
+   },
+   "ex": {
+    "en": "Cash flow is tight this quarter."
+   }
+  },
+  {
+   "id": "business.profit-margin",
+   "t": {
+    "en": "profit margin",
+    "uk": "маржа прибутку",
+    "ru": "норма прибыли",
+    "pl": "marża zysku",
+    "de": "Gewinnspanne",
+    "fr": "marge bénéficiaire",
+    "es": "margen de beneficio",
+    "it": "margine di profitto",
+    "pt": "margem de lucro",
+    "tr": "kâr marjı"
+   },
+   "ex": {
+    "en": "Our profit margin is fifteen percent."
+   }
+  },
+  {
+   "id": "business.break-even-point",
+   "t": {
+    "en": "break-even point",
+    "uk": "точка беззбитковості",
+    "ru": "точка безубыточности",
+    "pl": "próg rentowności",
+    "de": "Gewinnschwelle",
+    "fr": "seuil de rentabilité",
+    "es": "punto de equilibrio",
+    "it": "punto di pareggio",
+    "pt": "ponto de equilíbrio",
+    "tr": "başabaş noktası"
+   },
+   "ex": {
+    "en": "We reached the break-even point in March."
+   }
+  },
+  {
+   "id": "business.market-share",
+   "t": {
+    "en": "market share",
+    "uk": "частка ринку",
+    "ru": "доля рынка",
+    "pl": "udział w rynku",
+    "de": "Marktanteil",
+    "fr": "part de marché",
+    "es": "cuota de mercado",
+    "it": "quota di mercato",
+    "pt": "participação de mercado",
+    "tr": "pazar payı"
+   },
+   "ex": {
+    "en": "Our market share grew to twenty percent."
+   }
+  },
+  {
+   "id": "business.target-audience",
+   "t": {
+    "en": "target audience",
+    "uk": "цільова аудиторія",
+    "ru": "целевая аудитория",
+    "pl": "grupa docelowa",
+    "de": "Zielgruppe",
+    "fr": "public cible",
+    "es": "público objetivo",
+    "it": "pubblico di riferimento",
+    "pt": "público-alvo",
+    "tr": "hedef kitle"
+   },
+   "ex": {
+    "en": "Our target audience is young parents."
+   }
+  },
+  {
+   "id": "business.brand-awareness",
+   "t": {
+    "en": "brand awareness",
+    "uk": "впізнаваність бренду",
+    "ru": "узнаваемость бренда",
+    "pl": "rozpoznawalność marki",
+    "de": "Markenbekanntheit",
+    "fr": "notoriété de la marque",
+    "es": "reconocimiento de marca",
+    "it": "notorietà del marchio",
+    "pt": "reconhecimento da marca",
+    "tr": "marka bilinirliği"
+   },
+   "ex": {
+    "en": "The ads increased brand awareness."
+   }
+  },
+  {
+   "id": "business.sales-lead",
+   "t": {
+    "en": "sales lead",
+    "uk": "потенційний клієнт",
+    "ru": "потенциальный клиент",
+    "pl": "potencjalny klient",
+    "de": "Interessent",
+    "fr": "prospect",
+    "es": "cliente potencial",
+    "it": "potenziale cliente",
+    "pt": "lead",
+    "tr": "potansiyel müşteri"
+   },
+   "ex": {
+    "en": "The fair gave us fifty sales leads."
+   }
+  },
+  {
+   "id": "business.conversion-rate",
+   "t": {
+    "en": "conversion rate",
+    "uk": "коефіцієнт конверсії",
+    "ru": "коэффициент конверсии",
+    "pl": "współczynnik konwersji",
+    "de": "Konversionsrate",
+    "fr": "taux de conversion",
+    "es": "tasa de conversión",
+    "it": "tasso di conversione",
+    "pt": "taxa de conversão",
+    "tr": "dönüşüm oranı"
+   },
+   "ex": {
+    "en": "The new page doubled our conversion rate."
+   }
+  },
+  {
+   "id": "business.to-outsource",
+   "t": {
+    "en": "to outsource",
+    "uk": "передавати на аутсорсинг",
+    "ru": "передавать на аутсорсинг",
+    "pl": "zlecać na zewnątrz",
+    "de": "auslagern",
+    "fr": "externaliser",
+    "es": "externalizar",
+    "it": "esternalizzare",
+    "pt": "terceirizar",
+    "tr": "dış kaynak kullanmak"
+   },
+   "ex": {
+    "en": "We outsource our customer support."
+   }
+  },
+  {
+   "id": "business.key-performance-indicator",
+   "t": {
+    "en": "key performance indicator",
+    "uk": "ключовий показник ефективності",
+    "ru": "ключевой показатель эффективности",
+    "pl": "kluczowy wskaźnik efektywności",
+    "de": "Leistungskennzahl",
+    "fr": "indicateur clé de performance",
+    "es": "indicador clave de rendimiento",
+    "it": "indicatore chiave di prestazione",
+    "pt": "indicador-chave de desempenho",
+    "tr": "temel performans göstergesi"
+   },
+   "ex": {
+    "en": "Each team tracks three key performance indicators."
+   }
+  },
+  {
+   "id": "business.bottom-line",
+   "t": {
+    "en": "bottom line",
+    "uk": "чистий прибуток",
+    "ru": "чистая прибыль",
+    "pl": "wynik netto",
+    "de": "Nettoergebnis",
+    "fr": "résultat net",
+    "es": "resultado final",
+    "it": "risultato netto",
+    "pt": "resultado líquido",
+    "tr": "net kâr"
+   },
+   "ex": {
+    "en": "The cuts improved our bottom line."
+   }
+  }
+ ]
+}

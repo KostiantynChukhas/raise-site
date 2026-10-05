@@ -1,0 +1,530 @@
+{
+ "id": "nature-a2",
+ "topic": "nature",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "nature.storm",
+   "t": {
+    "en": "storm",
+    "uk": "буря",
+    "ru": "буря",
+    "pl": "burza",
+    "de": "Sturm",
+    "fr": "tempête",
+    "es": "tormenta",
+    "it": "tempesta",
+    "pt": "tempestade",
+    "tr": "fırtına"
+   },
+   "ex": {
+    "en": "A big storm is coming tonight."
+   }
+  },
+  {
+   "id": "nature.fog",
+   "t": {
+    "en": "fog",
+    "uk": "туман",
+    "ru": "туман",
+    "pl": "mgła",
+    "de": "Nebel",
+    "fr": "brouillard",
+    "es": "niebla",
+    "it": "nebbia",
+    "pt": "neblina",
+    "tr": "sis"
+   },
+   "ex": {
+    "en": "Drive slowly in the fog."
+   }
+  },
+  {
+   "id": "nature.ice",
+   "t": {
+    "en": "ice",
+    "uk": "лід",
+    "ru": "лёд",
+    "pl": "lód",
+    "de": "Eis",
+    "fr": "glace",
+    "es": "hielo",
+    "it": "ghiaccio",
+    "pt": "gelo",
+    "tr": "buz"
+   },
+   "ex": {
+    "en": "Be careful, there is ice on the road."
+   }
+  },
+  {
+   "id": "nature.umbrella",
+   "t": {
+    "en": "umbrella",
+    "uk": "парасолька",
+    "ru": "зонт",
+    "pl": "parasol",
+    "de": "Regenschirm",
+    "fr": "parapluie",
+    "es": "paraguas",
+    "it": "ombrello",
+    "pt": "guarda-chuva",
+    "tr": "şemsiye"
+   },
+   "ex": {
+    "en": "I forgot my umbrella at home."
+   }
+  },
+  {
+   "id": "nature.temperature",
+   "t": {
+    "en": "temperature",
+    "uk": "температура",
+    "ru": "температура",
+    "pl": "temperatura",
+    "de": "Temperatur",
+    "fr": "température",
+    "es": "temperatura",
+    "it": "temperatura",
+    "pt": "temperatura",
+    "tr": "sıcaklık"
+   },
+   "ex": {
+    "en": "The temperature will drop tonight."
+   }
+  },
+  {
+   "id": "nature.degree",
+   "t": {
+    "en": "degree",
+    "uk": "градус",
+    "ru": "градус",
+    "pl": "stopień",
+    "de": "Grad",
+    "fr": "degré",
+    "es": "grado",
+    "it": "grado",
+    "pt": "grau",
+    "tr": "derece"
+   },
+   "ex": {
+    "en": "It is twenty degrees today."
+   }
+  },
+  {
+   "id": "nature.weather-forecast",
+   "t": {
+    "en": "weather forecast",
+    "uk": "прогноз погоди",
+    "ru": "прогноз погоды",
+    "pl": "prognoza pogody",
+    "de": "Wettervorhersage",
+    "fr": "prévisions météo",
+    "es": "pronóstico del tiempo",
+    "it": "previsioni del tempo",
+    "pt": "previsão do tempo",
+    "tr": "hava durumu"
+   },
+   "ex": {
+    "en": "The weather forecast says rain tomorrow."
+   }
+  },
+  {
+   "id": "nature.sunny",
+   "t": {
+    "en": "sunny",
+    "uk": "сонячно",
+    "ru": "солнечно",
+    "pl": "słonecznie",
+    "de": "sonnig",
+    "fr": "ensoleillé",
+    "es": "soleado",
+    "it": "soleggiato",
+    "pt": "ensolarado",
+    "tr": "güneşli"
+   },
+   "ex": {
+    "en": "It will be sunny all weekend."
+   }
+  },
+  {
+   "id": "nature.cloudy",
+   "t": {
+    "en": "cloudy",
+    "uk": "хмарно",
+    "ru": "облачно",
+    "pl": "pochmurno",
+    "de": "bewölkt",
+    "fr": "nuageux",
+    "es": "nublado",
+    "it": "nuvoloso",
+    "pt": "nublado",
+    "tr": "bulutlu"
+   },
+   "ex": {
+    "en": "It is cloudy but not cold."
+   }
+  },
+  {
+   "id": "nature.windy",
+   "t": {
+    "en": "windy",
+    "uk": "вітряно",
+    "ru": "ветрено",
+    "pl": "wietrznie",
+    "de": "windig",
+    "fr": "venteux",
+    "es": "ventoso",
+    "it": "ventoso",
+    "pt": "ventando",
+    "tr": "rüzgarlı"
+   },
+   "ex": {
+    "en": "It is too windy for a picnic."
+   }
+  },
+  {
+   "id": "nature.lake",
+   "t": {
+    "en": "lake",
+    "uk": "озеро",
+    "ru": "озеро",
+    "pl": "jezioro",
+    "de": "See",
+    "fr": "lac",
+    "es": "lago",
+    "it": "lago",
+    "pt": "lago",
+    "tr": "göl"
+   },
+   "ex": {
+    "en": "We have a house by the lake."
+   }
+  },
+  {
+   "id": "nature.beach",
+   "t": {
+    "en": "beach",
+    "uk": "пляж",
+    "ru": "пляж",
+    "pl": "plaża",
+    "de": "Strand",
+    "fr": "plage",
+    "es": "playa",
+    "it": "spiaggia",
+    "pt": "praia",
+    "tr": "plaj"
+   },
+   "ex": {
+    "en": "The beach is empty in the morning."
+   }
+  },
+  {
+   "id": "nature.hill",
+   "t": {
+    "en": "hill",
+    "uk": "пагорб",
+    "ru": "холм",
+    "pl": "wzgórze",
+    "de": "Hügel",
+    "fr": "colline",
+    "es": "colina",
+    "it": "collina",
+    "pt": "colina",
+    "tr": "tepe"
+   },
+   "ex": {
+    "en": "The village is on a small hill."
+   }
+  },
+  {
+   "id": "nature.field",
+   "t": {
+    "en": "field",
+    "uk": "поле",
+    "ru": "поле",
+    "pl": "pole",
+    "de": "Feld",
+    "fr": "champ",
+    "es": "campo",
+    "it": "campo",
+    "pt": "campo",
+    "tr": "tarla"
+   },
+   "ex": {
+    "en": "Cows stand in the green field."
+   }
+  },
+  {
+   "id": "nature.island",
+   "t": {
+    "en": "island",
+    "uk": "острів",
+    "ru": "остров",
+    "pl": "wyspa",
+    "de": "Insel",
+    "fr": "île",
+    "es": "isla",
+    "it": "isola",
+    "pt": "ilha",
+    "tr": "ada"
+   },
+   "ex": {
+    "en": "We took a boat to the island."
+   }
+  },
+  {
+   "id": "nature.desert",
+   "t": {
+    "en": "desert",
+    "uk": "пустеля",
+    "ru": "пустыня",
+    "pl": "pustynia",
+    "de": "Wüste",
+    "fr": "désert",
+    "es": "desierto",
+    "it": "deserto",
+    "pt": "deserto",
+    "tr": "çöl"
+   },
+   "ex": {
+    "en": "It never rains in the desert."
+   }
+  },
+  {
+   "id": "nature.cow",
+   "t": {
+    "en": "cow",
+    "uk": "корова",
+    "ru": "корова",
+    "pl": "krowa",
+    "de": "Kuh",
+    "fr": "vache",
+    "es": "vaca",
+    "it": "mucca",
+    "pt": "vaca",
+    "tr": "inek"
+   },
+   "ex": {
+    "en": "The cow gives us milk."
+   }
+  },
+  {
+   "id": "nature.sheep",
+   "t": {
+    "en": "sheep",
+    "uk": "вівця",
+    "ru": "овца",
+    "pl": "owca",
+    "de": "Schaf",
+    "fr": "mouton",
+    "es": "oveja",
+    "it": "pecora",
+    "pt": "ovelha",
+    "tr": "koyun"
+   },
+   "ex": {
+    "en": "Sheep eat grass on the hill."
+   }
+  },
+  {
+   "id": "nature.pig",
+   "t": {
+    "en": "pig",
+    "uk": "свиня",
+    "ru": "свинья",
+    "pl": "świnia",
+    "de": "Schwein",
+    "fr": "cochon",
+    "es": "cerdo",
+    "it": "maiale",
+    "pt": "porco",
+    "tr": "domuz"
+   },
+   "ex": {
+    "en": "The pig sleeps in the mud."
+   }
+  },
+  {
+   "id": "nature.rabbit",
+   "t": {
+    "en": "rabbit",
+    "uk": "кролик",
+    "ru": "кролик",
+    "pl": "królik",
+    "de": "Kaninchen",
+    "fr": "lapin",
+    "es": "conejo",
+    "it": "coniglio",
+    "pt": "coelho",
+    "tr": "tavşan"
+   },
+   "ex": {
+    "en": "A rabbit ran across the garden."
+   }
+  },
+  {
+   "id": "nature.bee",
+   "t": {
+    "en": "bee",
+    "uk": "бджола",
+    "ru": "пчела",
+    "pl": "pszczoła",
+    "de": "Biene",
+    "fr": "abeille",
+    "es": "abeja",
+    "it": "ape",
+    "pt": "abelha",
+    "tr": "arı"
+   },
+   "ex": {
+    "en": "A bee is on the flower."
+   }
+  },
+  {
+   "id": "nature.butterfly",
+   "t": {
+    "en": "butterfly",
+    "uk": "метелик",
+    "ru": "бабочка",
+    "pl": "motyl",
+    "de": "Schmetterling",
+    "fr": "papillon",
+    "es": "mariposa",
+    "it": "farfalla",
+    "pt": "borboleta",
+    "tr": "kelebek"
+   },
+   "ex": {
+    "en": "A blue butterfly landed on my hand."
+   }
+  },
+  {
+   "id": "nature.wolf",
+   "t": {
+    "en": "wolf",
+    "uk": "вовк",
+    "ru": "волк",
+    "pl": "wilk",
+    "de": "Wolf",
+    "fr": "loup",
+    "es": "lobo",
+    "it": "lupo",
+    "pt": "lobo",
+    "tr": "kurt"
+   },
+   "ex": {
+    "en": "We heard a wolf at night."
+   }
+  },
+  {
+   "id": "nature.bear",
+   "t": {
+    "en": "bear",
+    "uk": "ведмідь",
+    "ru": "медведь",
+    "pl": "niedźwiedź",
+    "de": "Bär",
+    "fr": "ours",
+    "es": "oso",
+    "it": "orso",
+    "pt": "urso",
+    "tr": "ayı"
+   },
+   "ex": {
+    "en": "Bears sleep in winter."
+   }
+  },
+  {
+   "id": "nature.to-grow",
+   "t": {
+    "en": "to grow",
+    "uk": "рости",
+    "ru": "расти",
+    "pl": "rosnąć",
+    "de": "wachsen",
+    "fr": "pousser",
+    "es": "crecer",
+    "it": "crescere",
+    "pt": "crescer",
+    "tr": "büyümek"
+   },
+   "ex": {
+    "en": "Tomatoes grow well in the sun."
+   }
+  },
+  {
+   "id": "nature.to-plant",
+   "t": {
+    "en": "to plant",
+    "uk": "садити",
+    "ru": "сажать",
+    "pl": "sadzić",
+    "de": "pflanzen",
+    "fr": "planter",
+    "es": "plantar",
+    "it": "piantare",
+    "pt": "plantar",
+    "tr": "dikmek"
+   },
+   "ex": {
+    "en": "We plant trees every spring."
+   }
+  },
+  {
+   "id": "nature.stone",
+   "t": {
+    "en": "stone",
+    "uk": "камінь",
+    "ru": "камень",
+    "pl": "kamień",
+    "de": "Stein",
+    "fr": "pierre",
+    "es": "piedra",
+    "it": "pietra",
+    "pt": "pedra",
+    "tr": "taş"
+   },
+   "ex": {
+    "en": "The path is made of stones."
+   }
+  },
+  {
+   "id": "nature.sand",
+   "t": {
+    "en": "sand",
+    "uk": "пісок",
+    "ru": "песок",
+    "pl": "piasek",
+    "de": "Sand",
+    "fr": "sable",
+    "es": "arena",
+    "it": "sabbia",
+    "pt": "areia",
+    "tr": "kum"
+   },
+   "ex": {
+    "en": "The sand is hot under my feet."
+   }
+  },
+  {
+   "id": "nature.wave",
+   "t": {
+    "en": "wave",
+    "uk": "хвиля",
+    "ru": "волна",
+    "pl": "fala",
+    "de": "Welle",
+    "fr": "vague",
+    "es": "ola",
+    "it": "onda",
+    "pt": "onda",
+    "tr": "dalga"
+   },
+   "ex": {
+    "en": "The waves are big today."
+   }
+  }
+ ]
+}

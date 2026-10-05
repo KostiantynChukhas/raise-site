@@ -1,0 +1,476 @@
+{
+ "id": "health-a1",
+ "topic": "health",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "health.body",
+   "t": {
+    "en": "body",
+    "uk": "тіло",
+    "ru": "тело",
+    "pl": "ciało",
+    "de": "Körper",
+    "fr": "corps",
+    "es": "cuerpo",
+    "it": "corpo",
+    "pt": "corpo",
+    "tr": "vücut"
+   },
+   "ex": {
+    "en": "My body needs rest."
+   }
+  },
+  {
+   "id": "health.head",
+   "t": {
+    "en": "head",
+    "uk": "голова",
+    "ru": "голова",
+    "pl": "głowa",
+    "de": "Kopf",
+    "fr": "tête",
+    "es": "cabeza",
+    "it": "testa",
+    "pt": "cabeça",
+    "tr": "baş"
+   },
+   "ex": {
+    "en": "My head hurts today."
+   }
+  },
+  {
+   "id": "health.hand",
+   "t": {
+    "en": "hand",
+    "uk": "рука",
+    "ru": "рука",
+    "pl": "ręka",
+    "de": "Hand",
+    "fr": "main",
+    "es": "mano",
+    "it": "mano",
+    "pt": "mão",
+    "tr": "el"
+   },
+   "ex": {
+    "en": "Wash your hands before eating."
+   }
+  },
+  {
+   "id": "health.foot",
+   "t": {
+    "en": "foot",
+    "uk": "стопа",
+    "ru": "стопа",
+    "pl": "stopa",
+    "de": "Fuß",
+    "fr": "pied",
+    "es": "pie",
+    "it": "piede",
+    "pt": "pé",
+    "tr": "ayak"
+   },
+   "ex": {
+    "en": "My left foot hurts."
+   }
+  },
+  {
+   "id": "health.eye",
+   "t": {
+    "en": "eye",
+    "uk": "око",
+    "ru": "глаз",
+    "pl": "oko",
+    "de": "Auge",
+    "fr": "œil",
+    "es": "ojo",
+    "it": "occhio",
+    "pt": "olho",
+    "tr": "göz"
+   },
+   "ex": {
+    "en": "Close your eyes and relax."
+   }
+  },
+  {
+   "id": "health.stomach",
+   "t": {
+    "en": "stomach",
+    "uk": "живіт",
+    "ru": "живот",
+    "pl": "brzuch",
+    "de": "Bauch",
+    "fr": "ventre",
+    "es": "estómago",
+    "it": "stomaco",
+    "pt": "estômago",
+    "tr": "mide"
+   },
+   "ex": {
+    "en": "My stomach hurts."
+   }
+  },
+  {
+   "id": "health.nurse",
+   "t": {
+    "en": "nurse",
+    "uk": "медсестра",
+    "ru": "медсестра",
+    "pl": "pielęgniarka",
+    "de": "Krankenschwester",
+    "fr": "infirmière",
+    "es": "enfermera",
+    "it": "infermiera",
+    "pt": "enfermeira",
+    "tr": "hemşire"
+   },
+   "ex": {
+    "en": "The nurse will help you."
+   }
+  },
+  {
+   "id": "health.pharmacy",
+   "t": {
+    "en": "pharmacy",
+    "uk": "аптека",
+    "ru": "аптека",
+    "pl": "apteka",
+    "de": "Apotheke",
+    "fr": "pharmacie",
+    "es": "farmacia",
+    "it": "farmacia",
+    "pt": "farmácia",
+    "tr": "eczane"
+   },
+   "ex": {
+    "en": "The pharmacy is open until nine."
+   }
+  },
+  {
+   "id": "health.medicine",
+   "t": {
+    "en": "medicine",
+    "uk": "ліки",
+    "ru": "лекарство",
+    "pl": "lekarstwo",
+    "de": "Medikament",
+    "fr": "médicament",
+    "es": "medicamento",
+    "it": "medicina",
+    "pt": "remédio",
+    "tr": "ilaç"
+   },
+   "ex": {
+    "en": "Take this medicine twice a day."
+   }
+  },
+  {
+   "id": "health.pill",
+   "t": {
+    "en": "pill",
+    "uk": "таблетка",
+    "ru": "таблетка",
+    "pl": "tabletka",
+    "de": "Tablette",
+    "fr": "comprimé",
+    "es": "pastilla",
+    "it": "pastiglia",
+    "pt": "comprimido",
+    "tr": "hap"
+   },
+   "ex": {
+    "en": "Take one pill with water."
+   }
+  },
+  {
+   "id": "health.healthy",
+   "t": {
+    "en": "healthy",
+    "uk": "здоровий",
+    "ru": "здоровый",
+    "pl": "zdrowy",
+    "de": "gesund",
+    "fr": "en bonne santé",
+    "es": "sano",
+    "it": "sano",
+    "pt": "saudável",
+    "tr": "sağlıklı"
+   },
+   "ex": {
+    "en": "She is young and healthy."
+   }
+  },
+  {
+   "id": "health.pain",
+   "t": {
+    "en": "pain",
+    "uk": "біль",
+    "ru": "боль",
+    "pl": "ból",
+    "de": "Schmerz",
+    "fr": "douleur",
+    "es": "dolor",
+    "it": "dolore",
+    "pt": "dor",
+    "tr": "ağrı"
+   },
+   "ex": {
+    "en": "Where is the pain?"
+   }
+  },
+  {
+   "id": "health.headache",
+   "t": {
+    "en": "headache",
+    "uk": "головний біль",
+    "ru": "головная боль",
+    "pl": "ból głowy",
+    "de": "Kopfschmerzen",
+    "fr": "mal de tête",
+    "es": "dolor de cabeza",
+    "it": "mal di testa",
+    "pt": "dor de cabeça",
+    "tr": "baş ağrısı"
+   },
+   "ex": {
+    "en": "I have a headache."
+   }
+  },
+  {
+   "id": "health.fever",
+   "t": {
+    "en": "fever",
+    "uk": "температура",
+    "ru": "температура",
+    "pl": "gorączka",
+    "de": "Fieber",
+    "fr": "fièvre",
+    "es": "fiebre",
+    "it": "febbre",
+    "pt": "febre",
+    "tr": "ateş"
+   },
+   "ex": {
+    "en": "He has a fever."
+   }
+  },
+  {
+   "id": "health.cold",
+   "t": {
+    "en": "cold",
+    "uk": "застуда",
+    "ru": "простуда",
+    "pl": "przeziębienie",
+    "de": "Erkältung",
+    "fr": "rhume",
+    "es": "resfriado",
+    "it": "raffreddore",
+    "pt": "resfriado",
+    "tr": "soğuk algınlığı"
+   },
+   "ex": {
+    "en": "I have a cold."
+   }
+  },
+  {
+   "id": "health.cough",
+   "t": {
+    "en": "cough",
+    "uk": "кашель",
+    "ru": "кашель",
+    "pl": "kaszel",
+    "de": "Husten",
+    "fr": "toux",
+    "es": "tos",
+    "it": "tosse",
+    "pt": "tosse",
+    "tr": "öksürük"
+   },
+   "ex": {
+    "en": "The cough is getting worse."
+   }
+  },
+  {
+   "id": "health.to-sleep",
+   "t": {
+    "en": "to sleep",
+    "uk": "спати",
+    "ru": "спать",
+    "pl": "spać",
+    "de": "schlafen",
+    "fr": "dormir",
+    "es": "dormir",
+    "it": "dormire",
+    "pt": "dormir",
+    "tr": "uyumak"
+   },
+   "ex": {
+    "en": "You need to sleep more."
+   }
+  },
+  {
+   "id": "health.to-rest",
+   "t": {
+    "en": "to rest",
+    "uk": "відпочивати",
+    "ru": "отдыхать",
+    "pl": "odpoczywać",
+    "de": "sich ausruhen",
+    "fr": "se reposer",
+    "es": "descansar",
+    "it": "riposare",
+    "pt": "descansar",
+    "tr": "dinlenmek"
+   },
+   "ex": {
+    "en": "Stay home and rest."
+   }
+  },
+  {
+   "id": "health.to-drink-water",
+   "t": {
+    "en": "to drink water",
+    "uk": "пити воду",
+    "ru": "пить воду",
+    "pl": "pić wodę",
+    "de": "Wasser trinken",
+    "fr": "boire de l'eau",
+    "es": "beber agua",
+    "it": "bere acqua",
+    "pt": "beber água",
+    "tr": "su içmek"
+   },
+   "ex": {
+    "en": "Drink water every day."
+   }
+  },
+  {
+   "id": "health.to-walk",
+   "t": {
+    "en": "to walk",
+    "uk": "ходити пішки",
+    "ru": "ходить пешком",
+    "pl": "chodzić",
+    "de": "zu Fuß gehen",
+    "fr": "marcher",
+    "es": "caminar",
+    "it": "camminare",
+    "pt": "caminhar",
+    "tr": "yürümek"
+   },
+   "ex": {
+    "en": "I walk to work every day."
+   }
+  },
+  {
+   "id": "health.to-run",
+   "t": {
+    "en": "to run",
+    "uk": "бігати",
+    "ru": "бегать",
+    "pl": "biegać",
+    "de": "laufen",
+    "fr": "courir",
+    "es": "correr",
+    "it": "correre",
+    "pt": "correr",
+    "tr": "koşmak"
+   },
+   "ex": {
+    "en": "We run in the park."
+   }
+  },
+  {
+   "id": "health.i-feel-bad",
+   "t": {
+    "en": "I feel bad",
+    "uk": "мені погано",
+    "ru": "мне плохо",
+    "pl": "źle się czuję",
+    "de": "mir geht es schlecht",
+    "fr": "je me sens mal",
+    "es": "me siento mal",
+    "it": "mi sento male",
+    "pt": "estou passando mal",
+    "tr": "kendimi kötü hissediyorum"
+   },
+   "ex": {
+    "en": "I feel bad, can I go home?"
+   }
+  },
+  {
+   "id": "health.it-hurts",
+   "t": {
+    "en": "it hurts",
+    "uk": "болить",
+    "ru": "болит",
+    "pl": "boli",
+    "de": "es tut weh",
+    "fr": "ça fait mal",
+    "es": "me duele",
+    "it": "fa male",
+    "pt": "dói",
+    "tr": "acıyor"
+   },
+   "ex": {
+    "en": "It hurts here."
+   }
+  },
+  {
+   "id": "health.help",
+   "t": {
+    "en": "help!",
+    "uk": "допоможіть!",
+    "ru": "помогите!",
+    "pl": "pomocy!",
+    "de": "Hilfe!",
+    "fr": "au secours !",
+    "es": "¡socorro!",
+    "it": "aiuto!",
+    "pt": "socorro!",
+    "tr": "imdat!"
+   },
+   "ex": {
+    "en": "Help! Call a doctor!"
+   }
+  },
+  {
+   "id": "health.doctors-appointment",
+   "t": {
+    "en": "doctor's appointment",
+    "uk": "запис до лікаря",
+    "ru": "запись к врачу",
+    "pl": "wizyta u lekarza",
+    "de": "Arzttermin",
+    "fr": "rendez-vous chez le médecin",
+    "es": "cita con el médico",
+    "it": "appuntamento dal medico",
+    "pt": "consulta médica",
+    "tr": "doktor randevusu"
+   },
+   "ex": {
+    "en": "I have a doctor's appointment at ten."
+   }
+  },
+  {
+   "id": "health.to-get-well",
+   "t": {
+    "en": "to get well",
+    "uk": "одужати",
+    "ru": "выздороветь",
+    "pl": "wyzdrowieć",
+    "de": "gesund werden",
+    "fr": "guérir",
+    "es": "recuperarse",
+    "it": "guarire",
+    "pt": "ficar bom",
+    "tr": "iyileşmek"
+   },
+   "ex": {
+    "en": "I hope you get well soon."
+   }
+  }
+ ]
+}

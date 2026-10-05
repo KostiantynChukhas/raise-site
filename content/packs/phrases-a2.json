@@ -1,0 +1,512 @@
+{
+ "id": "phrases-a2",
+ "topic": "phrases",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "phrases.no-problem",
+   "t": {
+    "en": "no problem",
+    "uk": "без проблем",
+    "ru": "без проблем",
+    "pl": "nie ma problemu",
+    "de": "kein Problem",
+    "fr": "pas de problème",
+    "es": "no hay problema",
+    "it": "nessun problema",
+    "pt": "sem problema",
+    "tr": "sorun değil"
+   },
+   "ex": {
+    "en": "No problem, I can wait."
+   }
+  },
+  {
+   "id": "phrases.of-course",
+   "t": {
+    "en": "of course",
+    "uk": "звичайно",
+    "ru": "конечно",
+    "pl": "oczywiście",
+    "de": "natürlich",
+    "fr": "bien sûr",
+    "es": "claro",
+    "it": "certo",
+    "pt": "claro",
+    "tr": "tabii ki"
+   },
+   "ex": {
+    "en": "Of course you can come with us."
+   }
+  },
+  {
+   "id": "phrases.i-dont-know",
+   "t": {
+    "en": "I don't know",
+    "uk": "я не знаю",
+    "ru": "я не знаю",
+    "pl": "nie wiem",
+    "de": "ich weiß nicht",
+    "fr": "je ne sais pas",
+    "es": "no sé",
+    "it": "non lo so",
+    "pt": "não sei",
+    "tr": "bilmiyorum"
+   },
+   "ex": {
+    "en": "I don't know where he lives."
+   }
+  },
+  {
+   "id": "phrases.i-think-so",
+   "t": {
+    "en": "I think so",
+    "uk": "думаю, так",
+    "ru": "думаю, да",
+    "pl": "myślę, że tak",
+    "de": "ich glaube schon",
+    "fr": "je pense que oui",
+    "es": "creo que sí",
+    "it": "penso di sì",
+    "pt": "acho que sim",
+    "tr": "sanırım öyle"
+   },
+   "ex": {
+    "en": "Is the shop open? I think so."
+   }
+  },
+  {
+   "id": "phrases.i-agree",
+   "t": {
+    "en": "I agree",
+    "uk": "я згоден",
+    "ru": "я согласен",
+    "pl": "zgadzam się",
+    "de": "ich bin einverstanden",
+    "fr": "je suis d'accord",
+    "es": "estoy de acuerdo",
+    "it": "sono d'accordo",
+    "pt": "concordo",
+    "tr": "katılıyorum"
+   },
+   "ex": {
+    "en": "I agree, the film was great."
+   }
+  },
+  {
+   "id": "phrases.good-luck",
+   "t": {
+    "en": "good luck",
+    "uk": "удачі",
+    "ru": "удачи",
+    "pl": "powodzenia",
+    "de": "viel Glück",
+    "fr": "bonne chance",
+    "es": "buena suerte",
+    "it": "buona fortuna",
+    "pt": "boa sorte",
+    "tr": "iyi şanslar"
+   },
+   "ex": {
+    "en": "Good luck with your exam!"
+   }
+  },
+  {
+   "id": "phrases.happy-birthday",
+   "t": {
+    "en": "happy birthday",
+    "uk": "з днем народження",
+    "ru": "с днём рождения",
+    "pl": "wszystkiego najlepszego",
+    "de": "alles Gute zum Geburtstag",
+    "fr": "joyeux anniversaire",
+    "es": "feliz cumpleaños",
+    "it": "buon compleanno",
+    "pt": "feliz aniversário",
+    "tr": "doğum günün kutlu olsun"
+   },
+   "ex": {
+    "en": "Happy birthday, Lena!"
+   }
+  },
+  {
+   "id": "phrases.congratulations",
+   "t": {
+    "en": "congratulations",
+    "uk": "вітаю",
+    "ru": "поздравляю",
+    "pl": "gratulacje",
+    "de": "herzlichen Glückwunsch",
+    "fr": "félicitations",
+    "es": "felicidades",
+    "it": "congratulazioni",
+    "pt": "parabéns",
+    "tr": "tebrikler"
+   },
+   "ex": {
+    "en": "Congratulations on your new job!"
+   }
+  },
+  {
+   "id": "phrases.cheers",
+   "t": {
+    "en": "cheers! (toast)",
+    "uk": "будьмо!",
+    "ru": "за здоровье!",
+    "pl": "na zdrowie!",
+    "de": "Prost!",
+    "fr": "santé !",
+    "es": "¡salud!",
+    "it": "cin cin!",
+    "pt": "saúde!",
+    "tr": "şerefe!"
+   },
+   "ex": {
+    "en": "Cheers! To your new home."
+   }
+  },
+  {
+   "id": "phrases.bless-you",
+   "t": {
+    "en": "bless you (after sneezing)",
+    "uk": "будь здоровий",
+    "ru": "будь здоров",
+    "pl": "na zdrowie",
+    "de": "Gesundheit",
+    "fr": "à tes souhaits",
+    "es": "salud",
+    "it": "salute",
+    "pt": "saúde",
+    "tr": "çok yaşa"
+   },
+   "ex": {
+    "en": "Bless you! Are you catching a cold?"
+   }
+  },
+  {
+   "id": "phrases.take-care",
+   "t": {
+    "en": "take care",
+    "uk": "бережи себе",
+    "ru": "береги себя",
+    "pl": "trzymaj się",
+    "de": "pass auf dich auf",
+    "fr": "prends soin de toi",
+    "es": "cuídate",
+    "it": "stammi bene",
+    "pt": "se cuida",
+    "tr": "kendine iyi bak"
+   },
+   "ex": {
+    "en": "Take care, and call me soon."
+   }
+  },
+  {
+   "id": "phrases.what-time-is-it",
+   "t": {
+    "en": "what time is it?",
+    "uk": "котра година?",
+    "ru": "который час?",
+    "pl": "która godzina?",
+    "de": "wie spät ist es?",
+    "fr": "quelle heure est-il ?",
+    "es": "¿qué hora es?",
+    "it": "che ore sono?",
+    "pt": "que horas são?",
+    "tr": "saat kaç?"
+   },
+   "ex": {
+    "en": "Excuse me, what time is it?"
+   }
+  },
+  {
+   "id": "phrases.just-a-moment",
+   "t": {
+    "en": "just a moment",
+    "uk": "хвилинку",
+    "ru": "минутку",
+    "pl": "chwileczkę",
+    "de": "einen Moment",
+    "fr": "un instant",
+    "es": "un momento",
+    "it": "un attimo",
+    "pt": "só um momento",
+    "tr": "bir dakika"
+   },
+   "ex": {
+    "en": "Just a moment, I'll check."
+   }
+  },
+  {
+   "id": "phrases.come-in",
+   "t": {
+    "en": "come in",
+    "uk": "заходьте",
+    "ru": "входите",
+    "pl": "proszę wejść",
+    "de": "herein",
+    "fr": "entrez",
+    "es": "pase",
+    "it": "avanti",
+    "pt": "entre",
+    "tr": "buyurun, girin"
+   },
+   "ex": {
+    "en": "Come in, the door is open."
+   }
+  },
+  {
+   "id": "phrases.have-a-seat",
+   "t": {
+    "en": "have a seat",
+    "uk": "сідайте",
+    "ru": "присаживайтесь",
+    "pl": "proszę usiąść",
+    "de": "nehmen Sie Platz",
+    "fr": "asseyez-vous",
+    "es": "siéntese",
+    "it": "si accomodi",
+    "pt": "sente-se",
+    "tr": "oturun"
+   },
+   "ex": {
+    "en": "Have a seat, the doctor is coming."
+   }
+  },
+  {
+   "id": "phrases.help-yourself",
+   "t": {
+    "en": "help yourself",
+    "uk": "пригощайтеся",
+    "ru": "угощайтесь",
+    "pl": "częstuj się",
+    "de": "bedien dich",
+    "fr": "sers-toi",
+    "es": "sírvete",
+    "it": "serviti",
+    "pt": "fique à vontade",
+    "tr": "buyurun, alın"
+   },
+   "ex": {
+    "en": "Help yourself to some cake."
+   }
+  },
+  {
+   "id": "phrases.make-yourself-at-home",
+   "t": {
+    "en": "make yourself at home",
+    "uk": "почувайтеся як удома",
+    "ru": "чувствуйте себя как дома",
+    "pl": "czuj się jak u siebie",
+    "de": "fühl dich wie zu Hause",
+    "fr": "fais comme chez toi",
+    "es": "siéntete como en casa",
+    "it": "fai come a casa tua",
+    "pt": "sinta-se em casa",
+    "tr": "kendi evin gibi davran"
+   },
+   "ex": {
+    "en": "Make yourself at home, I'll make tea."
+   }
+  },
+  {
+   "id": "phrases.im-sorry-to-hear-that",
+   "t": {
+    "en": "I'm sorry to hear that",
+    "uk": "мені шкода це чути",
+    "ru": "мне жаль это слышать",
+    "pl": "przykro mi to słyszeć",
+    "de": "das tut mir leid",
+    "fr": "je suis désolé de l'apprendre",
+    "es": "lamento oírlo",
+    "it": "mi dispiace",
+    "pt": "sinto muito",
+    "tr": "üzüldüm"
+   },
+   "ex": {
+    "en": "You're ill? I'm sorry to hear that."
+   }
+  },
+  {
+   "id": "phrases.never-mind",
+   "t": {
+    "en": "never mind",
+    "uk": "нічого страшного",
+    "ru": "ничего страшного",
+    "pl": "nieważne",
+    "de": "macht nichts",
+    "fr": "ce n'est pas grave",
+    "es": "no importa",
+    "it": "non importa",
+    "pt": "deixa pra lá",
+    "tr": "boş ver"
+   },
+   "ex": {
+    "en": "Never mind, we'll try again tomorrow."
+   }
+  },
+  {
+   "id": "phrases.what-a-pity",
+   "t": {
+    "en": "what a pity",
+    "uk": "як шкода",
+    "ru": "как жаль",
+    "pl": "jaka szkoda",
+    "de": "wie schade",
+    "fr": "quel dommage",
+    "es": "qué pena",
+    "it": "che peccato",
+    "pt": "que pena",
+    "tr": "ne yazık"
+   },
+   "ex": {
+    "en": "What a pity you can't come."
+   }
+  },
+  {
+   "id": "phrases.hurry-up",
+   "t": {
+    "en": "hurry up",
+    "uk": "поквапся",
+    "ru": "поторопись",
+    "pl": "pospiesz się",
+    "de": "beeil dich",
+    "fr": "dépêche-toi",
+    "es": "date prisa",
+    "it": "sbrigati",
+    "pt": "anda logo",
+    "tr": "acele et"
+   },
+   "ex": {
+    "en": "Hurry up, the bus is leaving."
+   }
+  },
+  {
+   "id": "phrases.lets-go",
+   "t": {
+    "en": "let's go",
+    "uk": "ходімо",
+    "ru": "пойдём",
+    "pl": "chodźmy",
+    "de": "los geht's",
+    "fr": "allons-y",
+    "es": "vamos",
+    "it": "andiamo",
+    "pt": "vamos",
+    "tr": "hadi gidelim"
+   },
+   "ex": {
+    "en": "Everyone is ready, let's go."
+   }
+  },
+  {
+   "id": "phrases.me-too",
+   "t": {
+    "en": "me too",
+    "uk": "я теж",
+    "ru": "я тоже",
+    "pl": "ja też",
+    "de": "ich auch",
+    "fr": "moi aussi",
+    "es": "yo también",
+    "it": "anch'io",
+    "pt": "eu também",
+    "tr": "ben de"
+   },
+   "ex": {
+    "en": "I love pizza. Me too!"
+   }
+  },
+  {
+   "id": "phrases.by-the-way",
+   "t": {
+    "en": "by the way",
+    "uk": "до речі",
+    "ru": "кстати",
+    "pl": "przy okazji",
+    "de": "übrigens",
+    "fr": "au fait",
+    "es": "por cierto",
+    "it": "a proposito",
+    "pt": "aliás",
+    "tr": "bu arada"
+   },
+   "ex": {
+    "en": "By the way, Sam called you."
+   }
+  },
+  {
+   "id": "phrases.for-example",
+   "t": {
+    "en": "for example",
+    "uk": "наприклад",
+    "ru": "например",
+    "pl": "na przykład",
+    "de": "zum Beispiel",
+    "fr": "par exemple",
+    "es": "por ejemplo",
+    "it": "per esempio",
+    "pt": "por exemplo",
+    "tr": "örneğin"
+   },
+   "ex": {
+    "en": "I like fruit, for example apples."
+   }
+  },
+  {
+   "id": "phrases.and-so-on",
+   "t": {
+    "en": "and so on",
+    "uk": "і так далі",
+    "ru": "и так далее",
+    "pl": "i tak dalej",
+    "de": "und so weiter",
+    "fr": "et ainsi de suite",
+    "es": "etcétera",
+    "it": "eccetera",
+    "pt": "e assim por diante",
+    "tr": "ve saire"
+   },
+   "ex": {
+    "en": "Buy bread, milk, eggs and so on."
+   }
+  },
+  {
+   "id": "phrases.see-you-tomorrow",
+   "t": {
+    "en": "see you tomorrow",
+    "uk": "до завтра",
+    "ru": "до завтра",
+    "pl": "do jutra",
+    "de": "bis morgen",
+    "fr": "à demain",
+    "es": "hasta mañana",
+    "it": "a domani",
+    "pt": "até amanhã",
+    "tr": "yarın görüşürüz"
+   },
+   "ex": {
+    "en": "Good work today, see you tomorrow."
+   }
+  },
+  {
+   "id": "phrases.what-does-it-mean",
+   "t": {
+    "en": "what does it mean?",
+    "uk": "що це означає?",
+    "ru": "что это значит?",
+    "pl": "co to znaczy?",
+    "de": "was bedeutet das?",
+    "fr": "qu'est-ce que ça veut dire ?",
+    "es": "¿qué significa?",
+    "it": "cosa significa?",
+    "pt": "o que significa?",
+    "tr": "bu ne demek?"
+   },
+   "ex": {
+    "en": "This word is new, what does it mean?"
+   }
+  }
+ ]
+}

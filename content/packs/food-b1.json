@@ -1,0 +1,530 @@
+{
+ "id": "food-b1",
+ "topic": "food",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "food.ingredient",
+   "t": {
+    "en": "ingredient",
+    "uk": "інгредієнт",
+    "ru": "ингредиент",
+    "pl": "składnik",
+    "de": "Zutat",
+    "fr": "ingrédient",
+    "es": "ingrediente",
+    "it": "ingrediente",
+    "pt": "ingrediente",
+    "tr": "malzeme"
+   },
+   "ex": {
+    "en": "Check the ingredients before you start."
+   }
+  },
+  {
+   "id": "food.recipe",
+   "t": {
+    "en": "recipe",
+    "uk": "рецепт",
+    "ru": "рецепт",
+    "pl": "przepis",
+    "de": "Rezept",
+    "fr": "recette",
+    "es": "receta",
+    "it": "ricetta",
+    "pt": "receita",
+    "tr": "tarif"
+   },
+   "ex": {
+    "en": "This recipe is from my grandmother."
+   }
+  },
+  {
+   "id": "food.to-fry",
+   "t": {
+    "en": "to fry",
+    "uk": "смажити",
+    "ru": "жарить",
+    "pl": "smażyć",
+    "de": "braten",
+    "fr": "faire frire",
+    "es": "freír",
+    "it": "friggere",
+    "pt": "fritar",
+    "tr": "kızartmak"
+   },
+   "ex": {
+    "en": "Fry the onions until golden."
+   }
+  },
+  {
+   "id": "food.to-boil",
+   "t": {
+    "en": "to boil",
+    "uk": "варити",
+    "ru": "варить",
+    "pl": "gotować",
+    "de": "kochen",
+    "fr": "faire bouillir",
+    "es": "hervir",
+    "it": "bollire",
+    "pt": "ferver",
+    "tr": "haşlamak"
+   },
+   "ex": {
+    "en": "Boil the eggs for ten minutes."
+   }
+  },
+  {
+   "id": "food.to-bake",
+   "t": {
+    "en": "to bake",
+    "uk": "пекти",
+    "ru": "печь",
+    "pl": "piec",
+    "de": "backen",
+    "fr": "cuire au four",
+    "es": "hornear",
+    "it": "cuocere al forno",
+    "pt": "assar",
+    "tr": "fırında pişirmek"
+   },
+   "ex": {
+    "en": "Bake the bread for forty minutes."
+   }
+  },
+  {
+   "id": "food.to-grill",
+   "t": {
+    "en": "to grill",
+    "uk": "смажити на грилі",
+    "ru": "жарить на гриле",
+    "pl": "grillować",
+    "de": "grillen",
+    "fr": "griller",
+    "es": "asar a la parrilla",
+    "it": "grigliare",
+    "pt": "grelhar",
+    "tr": "ızgara yapmak"
+   },
+   "ex": {
+    "en": "We grilled fish on the beach."
+   }
+  },
+  {
+   "id": "food.to-chop",
+   "t": {
+    "en": "to chop",
+    "uk": "нарізати",
+    "ru": "нарезать",
+    "pl": "siekać",
+    "de": "hacken",
+    "fr": "hacher",
+    "es": "picar",
+    "it": "tritare",
+    "pt": "picar",
+    "tr": "doğramak"
+   },
+   "ex": {
+    "en": "Chop the garlic finely."
+   }
+  },
+  {
+   "id": "food.to-stir",
+   "t": {
+    "en": "to stir",
+    "uk": "помішувати",
+    "ru": "помешивать",
+    "pl": "mieszać",
+    "de": "umrühren",
+    "fr": "remuer",
+    "es": "remover",
+    "it": "mescolare",
+    "pt": "mexer",
+    "tr": "karıştırmak"
+   },
+   "ex": {
+    "en": "Stir the sauce slowly."
+   }
+  },
+  {
+   "id": "food.frying-pan",
+   "t": {
+    "en": "frying pan",
+    "uk": "сковорода",
+    "ru": "сковорода",
+    "pl": "patelnia",
+    "de": "Pfanne",
+    "fr": "poêle",
+    "es": "sartén",
+    "it": "padella",
+    "pt": "frigideira",
+    "tr": "tava"
+   },
+   "ex": {
+    "en": "Heat the frying pan first."
+   }
+  },
+  {
+   "id": "food.starter",
+   "t": {
+    "en": "starter",
+    "uk": "закуска",
+    "ru": "закуска",
+    "pl": "przystawka",
+    "de": "Vorspeise",
+    "fr": "entrée",
+    "es": "entrante",
+    "it": "antipasto",
+    "pt": "entrada",
+    "tr": "başlangıç"
+   },
+   "ex": {
+    "en": "Shall we share a starter?"
+   }
+  },
+  {
+   "id": "food.main-course",
+   "t": {
+    "en": "main course",
+    "uk": "основна страва",
+    "ru": "основное блюдо",
+    "pl": "danie główne",
+    "de": "Hauptgericht",
+    "fr": "plat principal",
+    "es": "plato principal",
+    "it": "secondo",
+    "pt": "prato principal",
+    "tr": "ana yemek"
+   },
+   "ex": {
+    "en": "For the main course, I'll have steak."
+   }
+  },
+  {
+   "id": "food.side-dish",
+   "t": {
+    "en": "side dish",
+    "uk": "гарнір",
+    "ru": "гарнир",
+    "pl": "dodatek",
+    "de": "Beilage",
+    "fr": "accompagnement",
+    "es": "guarnición",
+    "it": "contorno",
+    "pt": "acompanhamento",
+    "tr": "garnitür"
+   },
+   "ex": {
+    "en": "Fries come as a side dish."
+   }
+  },
+  {
+   "id": "food.portion",
+   "t": {
+    "en": "portion",
+    "uk": "порція",
+    "ru": "порция",
+    "pl": "porcja",
+    "de": "Portion",
+    "fr": "portion",
+    "es": "ración",
+    "it": "porzione",
+    "pt": "porção",
+    "tr": "porsiyon"
+   },
+   "ex": {
+    "en": "The portions here are huge."
+   }
+  },
+  {
+   "id": "food.leftovers",
+   "t": {
+    "en": "leftovers",
+    "uk": "залишки їжі",
+    "ru": "остатки еды",
+    "pl": "resztki",
+    "de": "Reste",
+    "fr": "restes",
+    "es": "sobras",
+    "it": "avanzi",
+    "pt": "sobras",
+    "tr": "artan yemek"
+   },
+   "ex": {
+    "en": "We ate the leftovers for lunch."
+   }
+  },
+  {
+   "id": "food.sauce",
+   "t": {
+    "en": "sauce",
+    "uk": "соус",
+    "ru": "соус",
+    "pl": "sos",
+    "de": "Soße",
+    "fr": "sauce",
+    "es": "salsa",
+    "it": "salsa",
+    "pt": "molho",
+    "tr": "sos"
+   },
+   "ex": {
+    "en": "The sauce is a bit salty."
+   }
+  },
+  {
+   "id": "food.homemade",
+   "t": {
+    "en": "homemade",
+    "uk": "домашній",
+    "ru": "домашний",
+    "pl": "domowy",
+    "de": "hausgemacht",
+    "fr": "fait maison",
+    "es": "casero",
+    "it": "fatto in casa",
+    "pt": "caseiro",
+    "tr": "ev yapımı"
+   },
+   "ex": {
+    "en": "Everything here is homemade."
+   }
+  },
+  {
+   "id": "food.raw",
+   "t": {
+    "en": "raw",
+    "uk": "сирий",
+    "ru": "сырой",
+    "pl": "surowy",
+    "de": "roh",
+    "fr": "cru",
+    "es": "crudo",
+    "it": "crudo",
+    "pt": "cru",
+    "tr": "çiğ"
+   },
+   "ex": {
+    "en": "The fish is served raw."
+   }
+  },
+  {
+   "id": "food.well-done",
+   "t": {
+    "en": "well done",
+    "uk": "добре просмажений",
+    "ru": "хорошо прожаренный",
+    "pl": "dobrze wysmażony",
+    "de": "durchgebraten",
+    "fr": "bien cuit",
+    "es": "muy hecho",
+    "it": "ben cotto",
+    "pt": "bem passado",
+    "tr": "iyi pişmiş"
+   },
+   "ex": {
+    "en": "I'd like my steak well done."
+   }
+  },
+  {
+   "id": "food.rare",
+   "t": {
+    "en": "rare",
+    "uk": "з кров'ю",
+    "ru": "с кровью",
+    "pl": "krwisty",
+    "de": "blutig",
+    "fr": "saignant",
+    "es": "poco hecho",
+    "it": "al sangue",
+    "pt": "mal passado",
+    "tr": "az pişmiş"
+   },
+   "ex": {
+    "en": "He always orders his steak rare."
+   }
+  },
+  {
+   "id": "food.allergic-to",
+   "t": {
+    "en": "allergic to",
+    "uk": "мати алергію на",
+    "ru": "аллергия на",
+    "pl": "uczulony na",
+    "de": "allergisch gegen",
+    "fr": "allergique à",
+    "es": "alérgico a",
+    "it": "allergico a",
+    "pt": "alérgico a",
+    "tr": "alerjisi olmak"
+   },
+   "ex": {
+    "en": "I'm allergic to nuts."
+   }
+  },
+  {
+   "id": "food.gluten-free",
+   "t": {
+    "en": "gluten-free",
+    "uk": "без глютену",
+    "ru": "без глютена",
+    "pl": "bezglutenowy",
+    "de": "glutenfrei",
+    "fr": "sans gluten",
+    "es": "sin gluten",
+    "it": "senza glutine",
+    "pt": "sem glúten",
+    "tr": "glütensiz"
+   },
+   "ex": {
+    "en": "Do you have gluten-free bread?"
+   }
+  },
+  {
+   "id": "food.lactose-intolerant",
+   "t": {
+    "en": "lactose intolerant",
+    "uk": "непереносимість лактози",
+    "ru": "непереносимость лактозы",
+    "pl": "nietolerancja laktozy",
+    "de": "laktoseintolerant",
+    "fr": "intolérant au lactose",
+    "es": "intolerante a la lactosa",
+    "it": "intollerante al lattosio",
+    "pt": "intolerante à lactose",
+    "tr": "laktoz intoleransı"
+   },
+   "ex": {
+    "en": "My sister is lactose intolerant."
+   }
+  },
+  {
+   "id": "food.dairy-products",
+   "t": {
+    "en": "dairy products",
+    "uk": "молочні продукти",
+    "ru": "молочные продукты",
+    "pl": "nabiał",
+    "de": "Milchprodukte",
+    "fr": "produits laitiers",
+    "es": "lácteos",
+    "it": "latticini",
+    "pt": "laticínios",
+    "tr": "süt ürünleri"
+   },
+   "ex": {
+    "en": "He avoids dairy products."
+   }
+  },
+  {
+   "id": "food.home-delivery",
+   "t": {
+    "en": "home delivery",
+    "uk": "доставка додому",
+    "ru": "доставка на дом",
+    "pl": "dostawa do domu",
+    "de": "Lieferservice",
+    "fr": "livraison à domicile",
+    "es": "entrega a domicilio",
+    "it": "consegna a domicilio",
+    "pt": "entrega em casa",
+    "tr": "eve teslimat"
+   },
+   "ex": {
+    "en": "Do you offer home delivery?"
+   }
+  },
+  {
+   "id": "food.to-reheat",
+   "t": {
+    "en": "to reheat",
+    "uk": "розігріти",
+    "ru": "разогреть",
+    "pl": "podgrzać",
+    "de": "aufwärmen",
+    "fr": "réchauffer",
+    "es": "recalentar",
+    "it": "riscaldare",
+    "pt": "esquentar",
+    "tr": "ısıtmak"
+   },
+   "ex": {
+    "en": "Reheat the soup before serving."
+   }
+  },
+  {
+   "id": "food.to-taste",
+   "t": {
+    "en": "to taste",
+    "uk": "куштувати",
+    "ru": "пробовать",
+    "pl": "próbować",
+    "de": "probieren",
+    "fr": "goûter",
+    "es": "probar",
+    "it": "assaggiare",
+    "pt": "provar",
+    "tr": "tatmak"
+   },
+   "ex": {
+    "en": "Taste the sauce and add salt."
+   }
+  },
+  {
+   "id": "food.expiry-date",
+   "t": {
+    "en": "expiry date",
+    "uk": "термін придатності",
+    "ru": "срок годности",
+    "pl": "data ważności",
+    "de": "Haltbarkeitsdatum",
+    "fr": "date de péremption",
+    "es": "fecha de caducidad",
+    "it": "data di scadenza",
+    "pt": "data de validade",
+    "tr": "son kullanma tarihi"
+   },
+   "ex": {
+    "en": "Check the expiry date on the milk."
+   }
+  },
+  {
+   "id": "food.organic",
+   "t": {
+    "en": "organic",
+    "uk": "органічний",
+    "ru": "органический",
+    "pl": "ekologiczny",
+    "de": "Bio",
+    "fr": "bio",
+    "es": "ecológico",
+    "it": "biologico",
+    "pt": "orgânico",
+    "tr": "organik"
+   },
+   "ex": {
+    "en": "We buy organic eggs."
+   }
+  },
+  {
+   "id": "food.to-go-off",
+   "t": {
+    "en": "to go off",
+    "uk": "зіпсуватися",
+    "ru": "испортиться",
+    "pl": "zepsuć się",
+    "de": "schlecht werden",
+    "fr": "se gâter",
+    "es": "estropearse",
+    "it": "andare a male",
+    "pt": "estragar",
+    "tr": "bozulmak"
+   },
+   "ex": {
+    "en": "The milk has gone off."
+   }
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "id": "transport-a2",
+ "topic": "transport",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "transport.traffic-jam",
+   "t": {
+    "en": "traffic jam",
+    "uk": "затор",
+    "ru": "пробка",
+    "pl": "korek",
+    "de": "Stau",
+    "fr": "embouteillage",
+    "es": "atasco",
+    "it": "ingorgo",
+    "pt": "engarrafamento",
+    "tr": "trafik sıkışıklığı"
+   },
+   "ex": {
+    "en": "We were stuck in a traffic jam."
+   }
+  },
+  {
+   "id": "transport.rush-hour",
+   "t": {
+    "en": "rush hour",
+    "uk": "година пік",
+    "ru": "час пик",
+    "pl": "godziny szczytu",
+    "de": "Stoßzeit",
+    "fr": "heure de pointe",
+    "es": "hora punta",
+    "it": "ora di punta",
+    "pt": "horário de pico",
+    "tr": "yoğun saat"
+   },
+   "ex": {
+    "en": "Avoid driving during rush hour."
+   }
+  },
+  {
+   "id": "transport.drivers-license",
+   "t": {
+    "en": "driver's license",
+    "uk": "водійські права",
+    "ru": "водительские права",
+    "pl": "prawo jazdy",
+    "de": "Führerschein",
+    "fr": "permis de conduire",
+    "es": "carné de conducir",
+    "it": "patente",
+    "pt": "carteira de motorista",
+    "tr": "ehliyet"
+   },
+   "ex": {
+    "en": "Can I see your driver's license?"
+   }
+  },
+  {
+   "id": "transport.seat-belt",
+   "t": {
+    "en": "seat belt",
+    "uk": "ремінь безпеки",
+    "ru": "ремень безопасности",
+    "pl": "pas bezpieczeństwa",
+    "de": "Sicherheitsgurt",
+    "fr": "ceinture de sécurité",
+    "es": "cinturón de seguridad",
+    "it": "cintura di sicurezza",
+    "pt": "cinto de segurança",
+    "tr": "emniyet kemeri"
+   },
+   "ex": {
+    "en": "Fasten your seat belt, please."
+   }
+  },
+  {
+   "id": "transport.to-park",
+   "t": {
+    "en": "to park",
+    "uk": "паркуватися",
+    "ru": "парковаться",
+    "pl": "parkować",
+    "de": "parken",
+    "fr": "se garer",
+    "es": "aparcar",
+    "it": "parcheggiare",
+    "pt": "estacionar",
+    "tr": "park etmek"
+   },
+   "ex": {
+    "en": "Where can I park the car?"
+   }
+  },
+  {
+   "id": "transport.to-fill-up",
+   "t": {
+    "en": "to fill up",
+    "uk": "заправитися",
+    "ru": "заправиться",
+    "pl": "zatankować",
+    "de": "tanken",
+    "fr": "faire le plein",
+    "es": "echar gasolina",
+    "it": "fare benzina",
+    "pt": "abastecer",
+    "tr": "benzin almak"
+   },
+   "ex": {
+    "en": "We need to fill up before the trip."
+   }
+  },
+  {
+   "id": "transport.steering-wheel",
+   "t": {
+    "en": "steering wheel",
+    "uk": "кермо",
+    "ru": "руль",
+    "pl": "kierownica",
+    "de": "Lenkrad",
+    "fr": "volant",
+    "es": "volante",
+    "it": "volante",
+    "pt": "volante",
+    "tr": "direksiyon"
+   },
+   "ex": {
+    "en": "Keep both hands on the steering wheel."
+   }
+  },
+  {
+   "id": "transport.tire",
+   "t": {
+    "en": "tire",
+    "uk": "шина",
+    "ru": "шина",
+    "pl": "opona",
+    "de": "Reifen",
+    "fr": "pneu",
+    "es": "neumático",
+    "it": "pneumatico",
+    "pt": "pneu",
+    "tr": "lastik"
+   },
+   "ex": {
+    "en": "Check the tires before you leave."
+   }
+  },
+  {
+   "id": "transport.to-commute",
+   "t": {
+    "en": "to commute",
+    "uk": "їздити на роботу",
+    "ru": "ездить на работу",
+    "pl": "dojeżdżać do pracy",
+    "de": "pendeln",
+    "fr": "faire la navette",
+    "es": "ir al trabajo",
+    "it": "fare il pendolare",
+    "pt": "ir para o trabalho",
+    "tr": "işe gidip gelmek"
+   },
+   "ex": {
+    "en": "I commute by train every day."
+   }
+  },
+  {
+   "id": "transport.monthly-pass",
+   "t": {
+    "en": "monthly pass",
+    "uk": "проїзний",
+    "ru": "проездной",
+    "pl": "bilet miesięczny",
+    "de": "Monatskarte",
+    "fr": "abonnement mensuel",
+    "es": "abono mensual",
+    "it": "abbonamento mensile",
+    "pt": "passe mensal",
+    "tr": "aylık abonman"
+   },
+   "ex": {
+    "en": "A monthly pass is cheaper for me."
+   }
+  },
+  {
+   "id": "transport.to-validate-a-ticket",
+   "t": {
+    "en": "to validate a ticket",
+    "uk": "закомпостувати квиток",
+    "ru": "прокомпостировать билет",
+    "pl": "skasować bilet",
+    "de": "Fahrschein entwerten",
+    "fr": "composter le billet",
+    "es": "validar el billete",
+    "it": "timbrare il biglietto",
+    "pt": "validar o bilhete",
+    "tr": "bileti onaylamak"
+   },
+   "ex": {
+    "en": "Validate your ticket before boarding."
+   }
+  },
+  {
+   "id": "transport.ticket-machine",
+   "t": {
+    "en": "ticket machine",
+    "uk": "квитковий автомат",
+    "ru": "билетный автомат",
+    "pl": "biletomat",
+    "de": "Fahrkartenautomat",
+    "fr": "distributeur de billets",
+    "es": "máquina de billetes",
+    "it": "biglietteria automatica",
+    "pt": "máquina de bilhetes",
+    "tr": "bilet otomatı"
+   },
+   "ex": {
+    "en": "The ticket machine only takes coins."
+   }
+  },
+  {
+   "id": "transport.ticket-inspector",
+   "t": {
+    "en": "ticket inspector",
+    "uk": "контролер",
+    "ru": "контролёр",
+    "pl": "kontroler",
+    "de": "Kontrolleur",
+    "fr": "contrôleur",
+    "es": "revisor",
+    "it": "controllore",
+    "pt": "fiscal",
+    "tr": "bilet kontrolörü"
+   },
+   "ex": {
+    "en": "The ticket inspector checked my pass."
+   }
+  },
+  {
+   "id": "transport.route",
+   "t": {
+    "en": "route",
+    "uk": "маршрут",
+    "ru": "маршрут",
+    "pl": "trasa",
+    "de": "Strecke",
+    "fr": "itinéraire",
+    "es": "ruta",
+    "it": "percorso",
+    "pt": "rota",
+    "tr": "güzergah"
+   },
+   "ex": {
+    "en": "Which route does this bus take?"
+   }
+  },
+  {
+   "id": "transport.line",
+   "t": {
+    "en": "line",
+    "uk": "лінія",
+    "ru": "линия",
+    "pl": "linia",
+    "de": "Linie",
+    "fr": "ligne",
+    "es": "línea",
+    "it": "linea",
+    "pt": "linha",
+    "tr": "hat"
+   },
+   "ex": {
+    "en": "Take the red line to the center."
+   }
+  },
+  {
+   "id": "transport.to-transfer",
+   "t": {
+    "en": "to transfer",
+    "uk": "пересісти",
+    "ru": "пересесть",
+    "pl": "przesiąść się",
+    "de": "umsteigen",
+    "fr": "changer",
+    "es": "hacer transbordo",
+    "it": "cambiare",
+    "pt": "fazer baldeação",
+    "tr": "aktarma yapmak"
+   },
+   "ex": {
+    "en": "Transfer to the blue line here."
+   }
+  },
+  {
+   "id": "transport.intersection",
+   "t": {
+    "en": "intersection",
+    "uk": "перехрестя",
+    "ru": "перекрёсток",
+    "pl": "skrzyżowanie",
+    "de": "Kreuzung",
+    "fr": "carrefour",
+    "es": "cruce",
+    "it": "incrocio",
+    "pt": "cruzamento",
+    "tr": "kavşak"
+   },
+   "ex": {
+    "en": "Turn left at the next intersection."
+   }
+  },
+  {
+   "id": "transport.roundabout",
+   "t": {
+    "en": "roundabout",
+    "uk": "кільцева розв'язка",
+    "ru": "круговой перекрёсток",
+    "pl": "rondo",
+    "de": "Kreisverkehr",
+    "fr": "rond-point",
+    "es": "rotonda",
+    "it": "rotonda",
+    "pt": "rotatória",
+    "tr": "dönel kavşak"
+   },
+   "ex": {
+    "en": "Take the second exit at the roundabout."
+   }
+  },
+  {
+   "id": "transport.highway",
+   "t": {
+    "en": "highway",
+    "uk": "автомагістраль",
+    "ru": "шоссе",
+    "pl": "autostrada",
+    "de": "Autobahn",
+    "fr": "autoroute",
+    "es": "autopista",
+    "it": "autostrada",
+    "pt": "rodovia",
+    "tr": "otoyol"
+   },
+   "ex": {
+    "en": "We took the highway to the coast."
+   }
+  },
+  {
+   "id": "transport.speed-limit",
+   "t": {
+    "en": "speed limit",
+    "uk": "обмеження швидкості",
+    "ru": "ограничение скорости",
+    "pl": "ograniczenie prędkości",
+    "de": "Geschwindigkeitsbegrenzung",
+    "fr": "limitation de vitesse",
+    "es": "límite de velocidad",
+    "it": "limite di velocità",
+    "pt": "limite de velocidade",
+    "tr": "hız sınırı"
+   },
+   "ex": {
+    "en": "The speed limit here is fifty."
+   }
+  },
+  {
+   "id": "transport.to-overtake",
+   "t": {
+    "en": "to overtake",
+    "uk": "обганяти",
+    "ru": "обгонять",
+    "pl": "wyprzedzać",
+    "de": "überholen",
+    "fr": "doubler",
+    "es": "adelantar",
+    "it": "sorpassare",
+    "pt": "ultrapassar",
+    "tr": "sollamak"
+   },
+   "ex": {
+    "en": "Don't overtake on a bend."
+   }
+  },
+  {
+   "id": "transport.to-brake",
+   "t": {
+    "en": "to brake",
+    "uk": "гальмувати",
+    "ru": "тормозить",
+    "pl": "hamować",
+    "de": "bremsen",
+    "fr": "freiner",
+    "es": "frenar",
+    "it": "frenare",
+    "pt": "frear",
+    "tr": "fren yapmak"
+   },
+   "ex": {
+    "en": "Brake gently on wet roads."
+   }
+  },
+  {
+   "id": "transport.to-honk",
+   "t": {
+    "en": "to honk",
+    "uk": "сигналити",
+    "ru": "сигналить",
+    "pl": "trąbić",
+    "de": "hupen",
+    "fr": "klaxonner",
+    "es": "tocar el claxon",
+    "it": "suonare il clacson",
+    "pt": "buzinar",
+    "tr": "korna çalmak"
+   },
+   "ex": {
+    "en": "Don't honk near the hospital."
+   }
+  },
+  {
+   "id": "transport.bike-lane",
+   "t": {
+    "en": "bike lane",
+    "uk": "велодоріжка",
+    "ru": "велодорожка",
+    "pl": "ścieżka rowerowa",
+    "de": "Radweg",
+    "fr": "piste cyclable",
+    "es": "carril bici",
+    "it": "pista ciclabile",
+    "pt": "ciclovia",
+    "tr": "bisiklet yolu"
+   },
+   "ex": {
+    "en": "Stay in the bike lane."
+   }
+  },
+  {
+   "id": "transport.scooter",
+   "t": {
+    "en": "scooter",
+    "uk": "самокат",
+    "ru": "самокат",
+    "pl": "hulajnoga",
+    "de": "Roller",
+    "fr": "trottinette",
+    "es": "patinete",
+    "it": "monopattino",
+    "pt": "patinete",
+    "tr": "scooter"
+   },
+   "ex": {
+    "en": "She rides a scooter to class."
+   }
+  },
+  {
+   "id": "transport.to-call-a-taxi",
+   "t": {
+    "en": "to call a taxi",
+    "uk": "викликати таксі",
+    "ru": "вызвать такси",
+    "pl": "zamówić taksówkę",
+    "de": "Taxi rufen",
+    "fr": "appeler un taxi",
+    "es": "pedir un taxi",
+    "it": "chiamare un taxi",
+    "pt": "chamar um táxi",
+    "tr": "taksi çağırmak"
+   },
+   "ex": {
+    "en": "Let's call a taxi, it's late."
+   }
+  },
+  {
+   "id": "transport.trunk",
+   "t": {
+    "en": "trunk",
+    "uk": "багажник",
+    "ru": "багажник",
+    "pl": "bagażnik",
+    "de": "Kofferraum",
+    "fr": "coffre",
+    "es": "maletero",
+    "it": "bagagliaio",
+    "pt": "porta-malas",
+    "tr": "bagaj"
+   },
+   "ex": {
+    "en": "Put the bags in the trunk."
+   }
+  }
+ ]
+}

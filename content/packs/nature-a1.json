@@ -1,0 +1,512 @@
+{
+ "id": "nature-a1",
+ "topic": "nature",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "nature.sun",
+   "t": {
+    "en": "sun",
+    "uk": "сонце",
+    "ru": "солнце",
+    "pl": "słońce",
+    "de": "Sonne",
+    "fr": "soleil",
+    "es": "sol",
+    "it": "sole",
+    "pt": "sol",
+    "tr": "güneş"
+   },
+   "ex": {
+    "en": "The sun is shining today."
+   }
+  },
+  {
+   "id": "nature.rain",
+   "t": {
+    "en": "rain",
+    "uk": "дощ",
+    "ru": "дождь",
+    "pl": "deszcz",
+    "de": "Regen",
+    "fr": "pluie",
+    "es": "lluvia",
+    "it": "pioggia",
+    "pt": "chuva",
+    "tr": "yağmur"
+   },
+   "ex": {
+    "en": "We need more rain this summer."
+   }
+  },
+  {
+   "id": "nature.snow",
+   "t": {
+    "en": "snow",
+    "uk": "сніг",
+    "ru": "снег",
+    "pl": "śnieg",
+    "de": "Schnee",
+    "fr": "neige",
+    "es": "nieve",
+    "it": "neve",
+    "pt": "neve",
+    "tr": "kar"
+   },
+   "ex": {
+    "en": "The snow is deep in the mountains."
+   }
+  },
+  {
+   "id": "nature.wind",
+   "t": {
+    "en": "wind",
+    "uk": "вітер",
+    "ru": "ветер",
+    "pl": "wiatr",
+    "de": "Wind",
+    "fr": "vent",
+    "es": "viento",
+    "it": "vento",
+    "pt": "vento",
+    "tr": "rüzgar"
+   },
+   "ex": {
+    "en": "The wind is very strong today."
+   }
+  },
+  {
+   "id": "nature.cloud",
+   "t": {
+    "en": "cloud",
+    "uk": "хмара",
+    "ru": "облако",
+    "pl": "chmura",
+    "de": "Wolke",
+    "fr": "nuage",
+    "es": "nube",
+    "it": "nuvola",
+    "pt": "nuvem",
+    "tr": "bulut"
+   },
+   "ex": {
+    "en": "There is one big cloud in the sky."
+   }
+  },
+  {
+   "id": "nature.hot",
+   "t": {
+    "en": "hot",
+    "uk": "спекотно",
+    "ru": "жарко",
+    "pl": "gorąco",
+    "de": "heiß",
+    "fr": "chaud",
+    "es": "caluroso",
+    "it": "caldo",
+    "pt": "quente",
+    "tr": "sıcak"
+   },
+   "ex": {
+    "en": "It is very hot in August."
+   }
+  },
+  {
+   "id": "nature.warm",
+   "t": {
+    "en": "warm",
+    "uk": "тепло",
+    "ru": "тепло",
+    "pl": "ciepło",
+    "de": "warm",
+    "fr": "doux",
+    "es": "templado",
+    "it": "tiepido",
+    "pt": "morno",
+    "tr": "ılık"
+   },
+   "ex": {
+    "en": "The water is warm in July."
+   }
+  },
+  {
+   "id": "nature.tree",
+   "t": {
+    "en": "tree",
+    "uk": "дерево",
+    "ru": "дерево",
+    "pl": "drzewo",
+    "de": "Baum",
+    "fr": "arbre",
+    "es": "árbol",
+    "it": "albero",
+    "pt": "árvore",
+    "tr": "ağaç"
+   },
+   "ex": {
+    "en": "A bird sits in the tree."
+   }
+  },
+  {
+   "id": "nature.flower",
+   "t": {
+    "en": "flower",
+    "uk": "квітка",
+    "ru": "цветок",
+    "pl": "kwiat",
+    "de": "Blume",
+    "fr": "fleur",
+    "es": "flor",
+    "it": "fiore",
+    "pt": "flor",
+    "tr": "çiçek"
+   },
+   "ex": {
+    "en": "She gave me a red flower."
+   }
+  },
+  {
+   "id": "nature.grass",
+   "t": {
+    "en": "grass",
+    "uk": "трава",
+    "ru": "трава",
+    "pl": "trawa",
+    "de": "Gras",
+    "fr": "herbe",
+    "es": "hierba",
+    "it": "erba",
+    "pt": "grama",
+    "tr": "çimen"
+   },
+   "ex": {
+    "en": "The grass is wet in the morning."
+   }
+  },
+  {
+   "id": "nature.river",
+   "t": {
+    "en": "river",
+    "uk": "річка",
+    "ru": "река",
+    "pl": "rzeka",
+    "de": "Fluss",
+    "fr": "rivière",
+    "es": "río",
+    "it": "fiume",
+    "pt": "rio",
+    "tr": "nehir"
+   },
+   "ex": {
+    "en": "We swim in the river in summer."
+   }
+  },
+  {
+   "id": "nature.sea",
+   "t": {
+    "en": "sea",
+    "uk": "море",
+    "ru": "море",
+    "pl": "morze",
+    "de": "Meer",
+    "fr": "mer",
+    "es": "mar",
+    "it": "mare",
+    "pt": "mar",
+    "tr": "deniz"
+   },
+   "ex": {
+    "en": "The sea is blue and calm."
+   }
+  },
+  {
+   "id": "nature.mountain",
+   "t": {
+    "en": "mountain",
+    "uk": "гора",
+    "ru": "гора",
+    "pl": "góra",
+    "de": "Berg",
+    "fr": "montagne",
+    "es": "montaña",
+    "it": "montagna",
+    "pt": "montanha",
+    "tr": "dağ"
+   },
+   "ex": {
+    "en": "That mountain is very high."
+   }
+  },
+  {
+   "id": "nature.forest",
+   "t": {
+    "en": "forest",
+    "uk": "ліс",
+    "ru": "лес",
+    "pl": "las",
+    "de": "Wald",
+    "fr": "forêt",
+    "es": "bosque",
+    "it": "bosco",
+    "pt": "floresta",
+    "tr": "orman"
+   },
+   "ex": {
+    "en": "We walk in the forest on Sundays."
+   }
+  },
+  {
+   "id": "nature.dog",
+   "t": {
+    "en": "dog",
+    "uk": "собака",
+    "ru": "собака",
+    "pl": "pies",
+    "de": "Hund",
+    "fr": "chien",
+    "es": "perro",
+    "it": "cane",
+    "pt": "cachorro",
+    "tr": "köpek"
+   },
+   "ex": {
+    "en": "The dog runs in the park."
+   }
+  },
+  {
+   "id": "nature.cat",
+   "t": {
+    "en": "cat",
+    "uk": "кіт",
+    "ru": "кошка",
+    "pl": "kot",
+    "de": "Katze",
+    "fr": "chat",
+    "es": "gato",
+    "it": "gatto",
+    "pt": "gato",
+    "tr": "kedi"
+   },
+   "ex": {
+    "en": "The cat sleeps in the sun."
+   }
+  },
+  {
+   "id": "nature.bird",
+   "t": {
+    "en": "bird",
+    "uk": "птах",
+    "ru": "птица",
+    "pl": "ptak",
+    "de": "Vogel",
+    "fr": "oiseau",
+    "es": "pájaro",
+    "it": "uccello",
+    "pt": "pássaro",
+    "tr": "kuş"
+   },
+   "ex": {
+    "en": "A small bird sings every morning."
+   }
+  },
+  {
+   "id": "nature.horse",
+   "t": {
+    "en": "horse",
+    "uk": "кінь",
+    "ru": "лошадь",
+    "pl": "koń",
+    "de": "Pferd",
+    "fr": "cheval",
+    "es": "caballo",
+    "it": "cavallo",
+    "pt": "cavalo",
+    "tr": "at"
+   },
+   "ex": {
+    "en": "The horse eats grass."
+   }
+  },
+  {
+   "id": "nature.spring",
+   "t": {
+    "en": "spring",
+    "uk": "весна",
+    "ru": "весна",
+    "pl": "wiosna",
+    "de": "Frühling",
+    "fr": "printemps",
+    "es": "primavera",
+    "it": "primavera",
+    "pt": "primavera",
+    "tr": "ilkbahar"
+   },
+   "ex": {
+    "en": "Flowers open in spring."
+   }
+  },
+  {
+   "id": "nature.summer",
+   "t": {
+    "en": "summer",
+    "uk": "літо",
+    "ru": "лето",
+    "pl": "lato",
+    "de": "Sommer",
+    "fr": "été",
+    "es": "verano",
+    "it": "estate",
+    "pt": "verão",
+    "tr": "yaz"
+   },
+   "ex": {
+    "en": "We go to the beach in summer."
+   }
+  },
+  {
+   "id": "nature.autumn",
+   "t": {
+    "en": "autumn",
+    "uk": "осінь",
+    "ru": "осень",
+    "pl": "jesień",
+    "de": "Herbst",
+    "fr": "automne",
+    "es": "otoño",
+    "it": "autunno",
+    "pt": "outono",
+    "tr": "sonbahar"
+   },
+   "ex": {
+    "en": "Leaves fall in autumn."
+   }
+  },
+  {
+   "id": "nature.winter",
+   "t": {
+    "en": "winter",
+    "uk": "зима",
+    "ru": "зима",
+    "pl": "zima",
+    "de": "Winter",
+    "fr": "hiver",
+    "es": "invierno",
+    "it": "inverno",
+    "pt": "inverno",
+    "tr": "kış"
+   },
+   "ex": {
+    "en": "Winter is long and cold here."
+   }
+  },
+  {
+   "id": "nature.sky",
+   "t": {
+    "en": "sky",
+    "uk": "небо",
+    "ru": "небо",
+    "pl": "niebo",
+    "de": "Himmel",
+    "fr": "ciel",
+    "es": "cielo",
+    "it": "cielo",
+    "pt": "céu",
+    "tr": "gökyüzü"
+   },
+   "ex": {
+    "en": "The sky is grey today."
+   }
+  },
+  {
+   "id": "nature.star",
+   "t": {
+    "en": "star",
+    "uk": "зірка",
+    "ru": "звезда",
+    "pl": "gwiazda",
+    "de": "Stern",
+    "fr": "étoile",
+    "es": "estrella",
+    "it": "stella",
+    "pt": "estrela",
+    "tr": "yıldız"
+   },
+   "ex": {
+    "en": "I can see a bright star."
+   }
+  },
+  {
+   "id": "nature.moon",
+   "t": {
+    "en": "moon",
+    "uk": "місяць",
+    "ru": "луна",
+    "pl": "księżyc",
+    "de": "Mond",
+    "fr": "lune",
+    "es": "luna",
+    "it": "luna",
+    "pt": "lua",
+    "tr": "ay"
+   },
+   "ex": {
+    "en": "The moon is full tonight."
+   }
+  },
+  {
+   "id": "nature.it-is-raining",
+   "t": {
+    "en": "it is raining",
+    "uk": "іде дощ",
+    "ru": "идёт дождь",
+    "pl": "pada deszcz",
+    "de": "es regnet",
+    "fr": "il pleut",
+    "es": "está lloviendo",
+    "it": "piove",
+    "pt": "está chovendo",
+    "tr": "yağmur yağıyor"
+   },
+   "ex": {
+    "en": "It is raining, take an umbrella."
+   }
+  },
+  {
+   "id": "nature.nice-weather",
+   "t": {
+    "en": "nice weather",
+    "uk": "гарна погода",
+    "ru": "хорошая погода",
+    "pl": "ładna pogoda",
+    "de": "schönes Wetter",
+    "fr": "beau temps",
+    "es": "buen tiempo",
+    "it": "bel tempo",
+    "pt": "tempo bom",
+    "tr": "güzel hava"
+   },
+   "ex": {
+    "en": "We have nice weather this week."
+   }
+  },
+  {
+   "id": "nature.leaf",
+   "t": {
+    "en": "leaf",
+    "uk": "листок",
+    "ru": "лист",
+    "pl": "liść",
+    "de": "Blatt",
+    "fr": "feuille",
+    "es": "hoja",
+    "it": "foglia",
+    "pt": "folha",
+    "tr": "yaprak"
+   },
+   "ex": {
+    "en": "A yellow leaf fell on the ground."
+   }
+  }
+ ]
+}

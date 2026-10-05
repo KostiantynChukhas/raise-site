@@ -1,0 +1,512 @@
+{
+ "id": "transport-a1",
+ "topic": "transport",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "transport.car",
+   "t": {
+    "en": "car",
+    "uk": "машина",
+    "ru": "машина",
+    "pl": "samochód",
+    "de": "Auto",
+    "fr": "voiture",
+    "es": "coche",
+    "it": "macchina",
+    "pt": "carro",
+    "tr": "araba"
+   },
+   "ex": {
+    "en": "My car is red."
+   }
+  },
+  {
+   "id": "transport.bicycle",
+   "t": {
+    "en": "bicycle",
+    "uk": "велосипед",
+    "ru": "велосипед",
+    "pl": "rower",
+    "de": "Fahrrad",
+    "fr": "vélo",
+    "es": "bicicleta",
+    "it": "bicicletta",
+    "pt": "bicicleta",
+    "tr": "bisiklet"
+   },
+   "ex": {
+    "en": "I go to school by bicycle."
+   }
+  },
+  {
+   "id": "transport.tram",
+   "t": {
+    "en": "tram",
+    "uk": "трамвай",
+    "ru": "трамвай",
+    "pl": "tramwaj",
+    "de": "Straßenbahn",
+    "fr": "tramway",
+    "es": "tranvía",
+    "it": "tram",
+    "pt": "bonde",
+    "tr": "tramvay"
+   },
+   "ex": {
+    "en": "The tram stops here."
+   }
+  },
+  {
+   "id": "transport.street",
+   "t": {
+    "en": "street",
+    "uk": "вулиця",
+    "ru": "улица",
+    "pl": "ulica",
+    "de": "Straße",
+    "fr": "rue",
+    "es": "calle",
+    "it": "via",
+    "pt": "rua",
+    "tr": "sokak"
+   },
+   "ex": {
+    "en": "I live on this street."
+   }
+  },
+  {
+   "id": "transport.road",
+   "t": {
+    "en": "road",
+    "uk": "дорога",
+    "ru": "дорога",
+    "pl": "droga",
+    "de": "Landstraße",
+    "fr": "route",
+    "es": "carretera",
+    "it": "strada",
+    "pt": "estrada",
+    "tr": "yol"
+   },
+   "ex": {
+    "en": "The road is closed today."
+   }
+  },
+  {
+   "id": "transport.to-drive",
+   "t": {
+    "en": "to drive",
+    "uk": "водити машину",
+    "ru": "водить машину",
+    "pl": "prowadzić samochód",
+    "de": "Auto fahren",
+    "fr": "conduire",
+    "es": "conducir",
+    "it": "guidare",
+    "pt": "dirigir",
+    "tr": "araba kullanmak"
+   },
+   "ex": {
+    "en": "Can you drive?"
+   }
+  },
+  {
+   "id": "transport.station",
+   "t": {
+    "en": "station",
+    "uk": "вокзал",
+    "ru": "вокзал",
+    "pl": "dworzec",
+    "de": "Bahnhof",
+    "fr": "gare",
+    "es": "estación",
+    "it": "stazione",
+    "pt": "estação",
+    "tr": "istasyon"
+   },
+   "ex": {
+    "en": "The station is near the park."
+   }
+  },
+  {
+   "id": "transport.to-turn-left",
+   "t": {
+    "en": "to turn left",
+    "uk": "повернути ліворуч",
+    "ru": "повернуть налево",
+    "pl": "skręcić w lewo",
+    "de": "links abbiegen",
+    "fr": "tourner à gauche",
+    "es": "girar a la izquierda",
+    "it": "girare a sinistra",
+    "pt": "virar à esquerda",
+    "tr": "sola dönmek"
+   },
+   "ex": {
+    "en": "Turn left at the bank."
+   }
+  },
+  {
+   "id": "transport.to-turn-right",
+   "t": {
+    "en": "to turn right",
+    "uk": "повернути праворуч",
+    "ru": "повернуть направо",
+    "pl": "skręcić w prawo",
+    "de": "rechts abbiegen",
+    "fr": "tourner à droite",
+    "es": "girar a la derecha",
+    "it": "girare a destra",
+    "pt": "virar à direita",
+    "tr": "sağa dönmek"
+   },
+   "ex": {
+    "en": "Turn right after the bridge."
+   }
+  },
+  {
+   "id": "transport.straight-ahead",
+   "t": {
+    "en": "straight ahead",
+    "uk": "прямо",
+    "ru": "прямо",
+    "pl": "prosto",
+    "de": "geradeaus",
+    "fr": "tout droit",
+    "es": "todo recto",
+    "it": "dritto",
+    "pt": "em frente",
+    "tr": "dümdüz"
+   },
+   "ex": {
+    "en": "Go straight ahead for two blocks."
+   }
+  },
+  {
+   "id": "transport.traffic-light",
+   "t": {
+    "en": "traffic light",
+    "uk": "світлофор",
+    "ru": "светофор",
+    "pl": "sygnalizacja świetlna",
+    "de": "Ampel",
+    "fr": "feu rouge",
+    "es": "semáforo",
+    "it": "semaforo",
+    "pt": "semáforo",
+    "tr": "trafik ışığı"
+   },
+   "ex": {
+    "en": "Stop at the traffic light."
+   }
+  },
+  {
+   "id": "transport.to-stop",
+   "t": {
+    "en": "to stop",
+    "uk": "зупинитися",
+    "ru": "остановиться",
+    "pl": "zatrzymać się",
+    "de": "anhalten",
+    "fr": "s'arrêter",
+    "es": "parar",
+    "it": "fermarsi",
+    "pt": "parar",
+    "tr": "durmak"
+   },
+   "ex": {
+    "en": "The bus stops here."
+   }
+  },
+  {
+   "id": "transport.near",
+   "t": {
+    "en": "near",
+    "uk": "поруч",
+    "ru": "рядом",
+    "pl": "blisko",
+    "de": "in der Nähe",
+    "fr": "près",
+    "es": "cerca",
+    "it": "vicino",
+    "pt": "perto",
+    "tr": "yakın"
+   },
+   "ex": {
+    "en": "The station is near here."
+   }
+  },
+  {
+   "id": "transport.far",
+   "t": {
+    "en": "far",
+    "uk": "далеко",
+    "ru": "далеко",
+    "pl": "daleko",
+    "de": "weit",
+    "fr": "loin",
+    "es": "lejos",
+    "it": "lontano",
+    "pt": "longe",
+    "tr": "uzak"
+   },
+   "ex": {
+    "en": "Is the hotel far from here?"
+   }
+  },
+  {
+   "id": "transport.slow",
+   "t": {
+    "en": "slow",
+    "uk": "повільно",
+    "ru": "медленно",
+    "pl": "powoli",
+    "de": "langsam",
+    "fr": "lentement",
+    "es": "despacio",
+    "it": "lentamente",
+    "pt": "devagar",
+    "tr": "yavaş"
+   },
+   "ex": {
+    "en": "Please drive slowly here."
+   }
+  },
+  {
+   "id": "transport.motorcycle",
+   "t": {
+    "en": "motorcycle",
+    "uk": "мотоцикл",
+    "ru": "мотоцикл",
+    "pl": "motocykl",
+    "de": "Motorrad",
+    "fr": "moto",
+    "es": "moto",
+    "it": "moto",
+    "pt": "moto",
+    "tr": "motosiklet"
+   },
+   "ex": {
+    "en": "He rides a motorcycle to work."
+   }
+  },
+  {
+   "id": "transport.truck",
+   "t": {
+    "en": "truck",
+    "uk": "вантажівка",
+    "ru": "грузовик",
+    "pl": "ciężarówka",
+    "de": "Lkw",
+    "fr": "camion",
+    "es": "camión",
+    "it": "camion",
+    "pt": "caminhão",
+    "tr": "kamyon"
+   },
+   "ex": {
+    "en": "A big truck blocked the road."
+   }
+  },
+  {
+   "id": "transport.bridge",
+   "t": {
+    "en": "bridge",
+    "uk": "міст",
+    "ru": "мост",
+    "pl": "most",
+    "de": "Brücke",
+    "fr": "pont",
+    "es": "puente",
+    "it": "ponte",
+    "pt": "ponte",
+    "tr": "köprü"
+   },
+   "ex": {
+    "en": "Cross the bridge and turn left."
+   }
+  },
+  {
+   "id": "transport.corner",
+   "t": {
+    "en": "corner",
+    "uk": "ріг",
+    "ru": "угол",
+    "pl": "róg",
+    "de": "Ecke",
+    "fr": "coin",
+    "es": "esquina",
+    "it": "angolo",
+    "pt": "esquina",
+    "tr": "köşe"
+   },
+   "ex": {
+    "en": "The shop is on the corner."
+   }
+  },
+  {
+   "id": "transport.parking-lot",
+   "t": {
+    "en": "parking lot",
+    "uk": "парковка",
+    "ru": "парковка",
+    "pl": "parking",
+    "de": "Parkplatz",
+    "fr": "parking",
+    "es": "aparcamiento",
+    "it": "parcheggio",
+    "pt": "estacionamento",
+    "tr": "otopark"
+   },
+   "ex": {
+    "en": "The parking lot is full."
+   }
+  },
+  {
+   "id": "transport.gas-station",
+   "t": {
+    "en": "gas station",
+    "uk": "заправка",
+    "ru": "заправка",
+    "pl": "stacja benzynowa",
+    "de": "Tankstelle",
+    "fr": "station-service",
+    "es": "gasolinera",
+    "it": "benzinaio",
+    "pt": "posto de gasolina",
+    "tr": "benzin istasyonu"
+   },
+   "ex": {
+    "en": "Is there a gas station nearby?"
+   }
+  },
+  {
+   "id": "transport.driver",
+   "t": {
+    "en": "driver",
+    "uk": "водій",
+    "ru": "водитель",
+    "pl": "kierowca",
+    "de": "Fahrer",
+    "fr": "chauffeur",
+    "es": "conductor",
+    "it": "autista",
+    "pt": "motorista",
+    "tr": "sürücü"
+   },
+   "ex": {
+    "en": "The driver was very friendly."
+   }
+  },
+  {
+   "id": "transport.passenger",
+   "t": {
+    "en": "passenger",
+    "uk": "пасажир",
+    "ru": "пассажир",
+    "pl": "pasażer",
+    "de": "Fahrgast",
+    "fr": "passager",
+    "es": "pasajero",
+    "it": "passeggero",
+    "pt": "passageiro",
+    "tr": "yolcu"
+   },
+   "ex": {
+    "en": "The bus has twenty passengers."
+   }
+  },
+  {
+   "id": "transport.to-get-on",
+   "t": {
+    "en": "to get on",
+    "uk": "сісти",
+    "ru": "сесть",
+    "pl": "wsiąść",
+    "de": "einsteigen",
+    "fr": "monter",
+    "es": "subir",
+    "it": "salire",
+    "pt": "subir",
+    "tr": "binmek"
+   },
+   "ex": {
+    "en": "Get on the bus at the next stop."
+   }
+  },
+  {
+   "id": "transport.to-get-off",
+   "t": {
+    "en": "to get off",
+    "uk": "вийти",
+    "ru": "выйти",
+    "pl": "wysiąść",
+    "de": "aussteigen",
+    "fr": "descendre",
+    "es": "bajar",
+    "it": "scendere",
+    "pt": "descer",
+    "tr": "inmek"
+   },
+   "ex": {
+    "en": "I get off at the third stop."
+   }
+  },
+  {
+   "id": "transport.next-stop",
+   "t": {
+    "en": "next stop",
+    "uk": "наступна зупинка",
+    "ru": "следующая остановка",
+    "pl": "następny przystanek",
+    "de": "nächste Haltestelle",
+    "fr": "prochain arrêt",
+    "es": "próxima parada",
+    "it": "prossima fermata",
+    "pt": "próxima parada",
+    "tr": "sonraki durak"
+   },
+   "ex": {
+    "en": "The next stop is the museum."
+   }
+  },
+  {
+   "id": "transport.crosswalk",
+   "t": {
+    "en": "crosswalk",
+    "uk": "пішохідний перехід",
+    "ru": "пешеходный переход",
+    "pl": "przejście dla pieszych",
+    "de": "Zebrastreifen",
+    "fr": "passage piéton",
+    "es": "paso de peatones",
+    "it": "strisce pedonali",
+    "pt": "faixa de pedestres",
+    "tr": "yaya geçidi"
+   },
+   "ex": {
+    "en": "Use the crosswalk to cross the road."
+   }
+  },
+  {
+   "id": "transport.sidewalk",
+   "t": {
+    "en": "sidewalk",
+    "uk": "тротуар",
+    "ru": "тротуар",
+    "pl": "chodnik",
+    "de": "Bürgersteig",
+    "fr": "trottoir",
+    "es": "acera",
+    "it": "marciapiede",
+    "pt": "calçada",
+    "tr": "kaldırım"
+   },
+   "ex": {
+    "en": "Please walk on the sidewalk."
+   }
+  }
+ ]
+}

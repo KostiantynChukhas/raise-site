@@ -1,0 +1,548 @@
+{
+ "id": "food-a1",
+ "topic": "food",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "food.bread",
+   "t": {
+    "en": "bread",
+    "uk": "хліб",
+    "ru": "хлеб",
+    "pl": "chleb",
+    "de": "Brot",
+    "fr": "pain",
+    "es": "pan",
+    "it": "pane",
+    "pt": "pão",
+    "tr": "ekmek"
+   },
+   "ex": {
+    "en": "I buy fresh bread every morning."
+   }
+  },
+  {
+   "id": "food.water",
+   "t": {
+    "en": "water",
+    "uk": "вода",
+    "ru": "вода",
+    "pl": "woda",
+    "de": "Wasser",
+    "fr": "eau",
+    "es": "agua",
+    "it": "acqua",
+    "pt": "água",
+    "tr": "su"
+   },
+   "ex": {
+    "en": "Can I have some water, please?"
+   }
+  },
+  {
+   "id": "food.coffee",
+   "t": {
+    "en": "coffee",
+    "uk": "кава",
+    "ru": "кофе",
+    "pl": "kawa",
+    "de": "Kaffee",
+    "fr": "café",
+    "es": "café",
+    "it": "caffè",
+    "pt": "café",
+    "tr": "kahve"
+   },
+   "ex": {
+    "en": "I drink coffee every morning."
+   }
+  },
+  {
+   "id": "food.tea",
+   "t": {
+    "en": "tea",
+    "uk": "чай",
+    "ru": "чай",
+    "pl": "herbata",
+    "de": "Tee",
+    "fr": "thé",
+    "es": "té",
+    "it": "tè",
+    "pt": "chá",
+    "tr": "çay"
+   },
+   "ex": {
+    "en": "Would you like some tea?"
+   }
+  },
+  {
+   "id": "food.milk",
+   "t": {
+    "en": "milk",
+    "uk": "молоко",
+    "ru": "молоко",
+    "pl": "mleko",
+    "de": "Milch",
+    "fr": "lait",
+    "es": "leche",
+    "it": "latte",
+    "pt": "leite",
+    "tr": "süt"
+   },
+   "ex": {
+    "en": "We need more milk."
+   }
+  },
+  {
+   "id": "food.egg",
+   "t": {
+    "en": "egg",
+    "uk": "яйце",
+    "ru": "яйцо",
+    "pl": "jajko",
+    "de": "Ei",
+    "fr": "œuf",
+    "es": "huevo",
+    "it": "uovo",
+    "pt": "ovo",
+    "tr": "yumurta"
+   },
+   "ex": {
+    "en": "I eat an egg for breakfast."
+   }
+  },
+  {
+   "id": "food.rice",
+   "t": {
+    "en": "rice",
+    "uk": "рис",
+    "ru": "рис",
+    "pl": "ryż",
+    "de": "Reis",
+    "fr": "riz",
+    "es": "arroz",
+    "it": "riso",
+    "pt": "arroz",
+    "tr": "pirinç"
+   },
+   "ex": {
+    "en": "Rice is cheap and filling."
+   }
+  },
+  {
+   "id": "food.meat",
+   "t": {
+    "en": "meat",
+    "uk": "м'ясо",
+    "ru": "мясо",
+    "pl": "mięso",
+    "de": "Fleisch",
+    "fr": "viande",
+    "es": "carne",
+    "it": "carne",
+    "pt": "carne",
+    "tr": "et"
+   },
+   "ex": {
+    "en": "I don't eat meat."
+   }
+  },
+  {
+   "id": "food.chicken",
+   "t": {
+    "en": "chicken",
+    "uk": "курка",
+    "ru": "курица",
+    "pl": "kurczak",
+    "de": "Hähnchen",
+    "fr": "poulet",
+    "es": "pollo",
+    "it": "pollo",
+    "pt": "frango",
+    "tr": "tavuk"
+   },
+   "ex": {
+    "en": "The chicken is very good here."
+   }
+  },
+  {
+   "id": "food.fish",
+   "t": {
+    "en": "fish",
+    "uk": "риба",
+    "ru": "рыба",
+    "pl": "ryba",
+    "de": "Fisch",
+    "fr": "poisson",
+    "es": "pescado",
+    "it": "pesce",
+    "pt": "peixe",
+    "tr": "balık"
+   },
+   "ex": {
+    "en": "We had fish for dinner."
+   }
+  },
+  {
+   "id": "food.fruit",
+   "t": {
+    "en": "fruit",
+    "uk": "фрукти",
+    "ru": "фрукты",
+    "pl": "owoce",
+    "de": "Obst",
+    "fr": "fruits",
+    "es": "fruta",
+    "it": "frutta",
+    "pt": "fruta",
+    "tr": "meyve"
+   },
+   "ex": {
+    "en": "Eat more fruit every day."
+   }
+  },
+  {
+   "id": "food.vegetables",
+   "t": {
+    "en": "vegetables",
+    "uk": "овочі",
+    "ru": "овощи",
+    "pl": "warzywa",
+    "de": "Gemüse",
+    "fr": "légumes",
+    "es": "verduras",
+    "it": "verdure",
+    "pt": "legumes",
+    "tr": "sebze"
+   },
+   "ex": {
+    "en": "The vegetables are fresh."
+   }
+  },
+  {
+   "id": "food.apple",
+   "t": {
+    "en": "apple",
+    "uk": "яблуко",
+    "ru": "яблоко",
+    "pl": "jabłko",
+    "de": "Apfel",
+    "fr": "pomme",
+    "es": "manzana",
+    "it": "mela",
+    "pt": "maçã",
+    "tr": "elma"
+   },
+   "ex": {
+    "en": "An apple a day is good."
+   }
+  },
+  {
+   "id": "food.cheese",
+   "t": {
+    "en": "cheese",
+    "uk": "сир",
+    "ru": "сыр",
+    "pl": "ser",
+    "de": "Käse",
+    "fr": "fromage",
+    "es": "queso",
+    "it": "formaggio",
+    "pt": "queijo",
+    "tr": "peynir"
+   },
+   "ex": {
+    "en": "I love French cheese."
+   }
+  },
+  {
+   "id": "food.sugar",
+   "t": {
+    "en": "sugar",
+    "uk": "цукор",
+    "ru": "сахар",
+    "pl": "cukier",
+    "de": "Zucker",
+    "fr": "sucre",
+    "es": "azúcar",
+    "it": "zucchero",
+    "pt": "açúcar",
+    "tr": "şeker"
+   },
+   "ex": {
+    "en": "No sugar in my coffee, please."
+   }
+  },
+  {
+   "id": "food.salt",
+   "t": {
+    "en": "salt",
+    "uk": "сіль",
+    "ru": "соль",
+    "pl": "sól",
+    "de": "Salz",
+    "fr": "sel",
+    "es": "sal",
+    "it": "sale",
+    "pt": "sal",
+    "tr": "tuz"
+   },
+   "ex": {
+    "en": "Pass the salt, please."
+   }
+  },
+  {
+   "id": "food.breakfast",
+   "t": {
+    "en": "breakfast",
+    "uk": "сніданок",
+    "ru": "завтрак",
+    "pl": "śniadanie",
+    "de": "Frühstück",
+    "fr": "petit-déjeuner",
+    "es": "desayuno",
+    "it": "colazione",
+    "pt": "café da manhã",
+    "tr": "kahvaltı"
+   },
+   "ex": {
+    "en": "Breakfast is at eight."
+   }
+  },
+  {
+   "id": "food.lunch",
+   "t": {
+    "en": "lunch",
+    "uk": "обід",
+    "ru": "обед",
+    "pl": "obiad",
+    "de": "Mittagessen",
+    "fr": "déjeuner",
+    "es": "almuerzo",
+    "it": "pranzo",
+    "pt": "almoço",
+    "tr": "öğle yemeği"
+   },
+   "ex": {
+    "en": "Let's have lunch together."
+   }
+  },
+  {
+   "id": "food.dinner",
+   "t": {
+    "en": "dinner",
+    "uk": "вечеря",
+    "ru": "ужин",
+    "pl": "kolacja",
+    "de": "Abendessen",
+    "fr": "dîner",
+    "es": "cena",
+    "it": "cena",
+    "pt": "jantar",
+    "tr": "akşam yemeği"
+   },
+   "ex": {
+    "en": "Dinner is ready."
+   }
+  },
+  {
+   "id": "food.to-eat",
+   "t": {
+    "en": "to eat",
+    "uk": "їсти",
+    "ru": "есть",
+    "pl": "jeść",
+    "de": "essen",
+    "fr": "manger",
+    "es": "comer",
+    "it": "mangiare",
+    "pt": "comer",
+    "tr": "yemek"
+   },
+   "ex": {
+    "en": "What do you want to eat?"
+   }
+  },
+  {
+   "id": "food.to-drink",
+   "t": {
+    "en": "to drink",
+    "uk": "пити",
+    "ru": "пить",
+    "pl": "pić",
+    "de": "trinken",
+    "fr": "boire",
+    "es": "beber",
+    "it": "bere",
+    "pt": "beber",
+    "tr": "içmek"
+   },
+   "ex": {
+    "en": "I want to drink something cold."
+   }
+  },
+  {
+   "id": "food.hungry",
+   "t": {
+    "en": "hungry",
+    "uk": "голодний",
+    "ru": "голодный",
+    "pl": "głodny",
+    "de": "hungrig",
+    "fr": "avoir faim",
+    "es": "tener hambre",
+    "it": "avere fame",
+    "pt": "com fome",
+    "tr": "aç"
+   },
+   "ex": {
+    "en": "I'm very hungry."
+   }
+  },
+  {
+   "id": "food.thirsty",
+   "t": {
+    "en": "thirsty",
+    "uk": "хотіти пити",
+    "ru": "хотеть пить",
+    "pl": "spragniony",
+    "de": "durstig",
+    "fr": "avoir soif",
+    "es": "tener sed",
+    "it": "avere sete",
+    "pt": "com sede",
+    "tr": "susamış"
+   },
+   "ex": {
+    "en": "Are you thirsty?"
+   }
+  },
+  {
+   "id": "food.delicious",
+   "t": {
+    "en": "delicious",
+    "uk": "смачний",
+    "ru": "вкусный",
+    "pl": "pyszny",
+    "de": "lecker",
+    "fr": "délicieux",
+    "es": "delicioso",
+    "it": "delizioso",
+    "pt": "delicioso",
+    "tr": "lezzetli"
+   },
+   "ex": {
+    "en": "This soup is delicious!"
+   }
+  },
+  {
+   "id": "food.menu",
+   "t": {
+    "en": "menu",
+    "uk": "меню",
+    "ru": "меню",
+    "pl": "menu",
+    "de": "Speisekarte",
+    "fr": "carte",
+    "es": "menú",
+    "it": "menù",
+    "pt": "cardápio",
+    "tr": "menü"
+   },
+   "ex": {
+    "en": "Can we see the menu, please?"
+   }
+  },
+  {
+   "id": "food.the-bill",
+   "t": {
+    "en": "the bill",
+    "uk": "рахунок",
+    "ru": "счёт",
+    "pl": "rachunek",
+    "de": "Rechnung",
+    "fr": "addition",
+    "es": "cuenta",
+    "it": "conto",
+    "pt": "conta",
+    "tr": "hesap"
+   },
+   "ex": {
+    "en": "The bill, please."
+   }
+  },
+  {
+   "id": "food.waiter",
+   "t": {
+    "en": "waiter",
+    "uk": "офіціант",
+    "ru": "официант",
+    "pl": "kelner",
+    "de": "Kellner",
+    "fr": "serveur",
+    "es": "camarero",
+    "it": "cameriere",
+    "pt": "garçom",
+    "tr": "garson"
+   },
+   "ex": {
+    "en": "The waiter brought our drinks."
+   }
+  },
+  {
+   "id": "food.a-table-for-two",
+   "t": {
+    "en": "a table for two",
+    "uk": "столик на двох",
+    "ru": "столик на двоих",
+    "pl": "stolik dla dwóch osób",
+    "de": "Tisch für zwei",
+    "fr": "table pour deux",
+    "es": "mesa para dos",
+    "it": "tavolo per due",
+    "pt": "mesa para dois",
+    "tr": "iki kişilik masa"
+   },
+   "ex": {
+    "en": "A table for two, please."
+   }
+  },
+  {
+   "id": "food.id-like",
+   "t": {
+    "en": "I'd like...",
+    "uk": "Я хотів би...",
+    "ru": "Я хотел бы...",
+    "pl": "Poproszę...",
+    "de": "Ich hätte gern...",
+    "fr": "Je voudrais...",
+    "es": "Quisiera...",
+    "it": "Vorrei...",
+    "pt": "Eu gostaria de...",
+    "tr": "... istiyorum"
+   },
+   "ex": {
+    "en": "I'd like a coffee, please."
+   }
+  },
+  {
+   "id": "food.enjoy-your-meal",
+   "t": {
+    "en": "enjoy your meal",
+    "uk": "смачного",
+    "ru": "приятного аппетита",
+    "pl": "smacznego",
+    "de": "guten Appetit",
+    "fr": "bon appétit",
+    "es": "buen provecho",
+    "it": "buon appetito",
+    "pt": "bom apetite",
+    "tr": "afiyet olsun"
+   },
+   "ex": {
+    "en": "Enjoy your meal!"
+   }
+  }
+ ]
+}

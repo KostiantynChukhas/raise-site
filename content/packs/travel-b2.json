@@ -1,0 +1,530 @@
+{
+ "id": "travel-b2",
+ "topic": "travel",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "travel.overbooking",
+   "t": {
+    "en": "overbooking",
+    "uk": "овербукінг",
+    "ru": "овербукинг",
+    "pl": "overbooking",
+    "de": "Überbuchung",
+    "fr": "surréservation",
+    "es": "sobreventa",
+    "it": "overbooking",
+    "pt": "overbooking",
+    "tr": "fazla rezervasyon"
+   },
+   "ex": {
+    "en": "Overbooking left ten passengers without seats."
+   }
+  },
+  {
+   "id": "travel.be-stranded",
+   "t": {
+    "en": "to be stranded",
+    "uk": "застрягти",
+    "ru": "застрять",
+    "pl": "utknąć",
+    "de": "festsitzen",
+    "fr": "être bloqué",
+    "es": "quedarse tirado",
+    "it": "rimanere bloccato",
+    "pt": "ficar preso",
+    "tr": "mahsur kalmak"
+   },
+   "ex": {
+    "en": "We were stranded at the airport overnight."
+   }
+  },
+  {
+   "id": "travel.compensation",
+   "t": {
+    "en": "compensation",
+    "uk": "компенсація",
+    "ru": "компенсация",
+    "pl": "odszkodowanie",
+    "de": "Entschädigung",
+    "fr": "indemnisation",
+    "es": "compensación",
+    "it": "risarcimento",
+    "pt": "indenização",
+    "tr": "tazminat"
+   },
+   "ex": {
+    "en": "You can claim compensation for the delay."
+   }
+  },
+  {
+   "id": "travel.baggage-allowance",
+   "t": {
+    "en": "baggage allowance",
+    "uk": "норма багажу",
+    "ru": "норма багажа",
+    "pl": "limit bagażu",
+    "de": "Freigepäck",
+    "fr": "franchise bagages",
+    "es": "franquicia de equipaje",
+    "it": "franchigia bagaglio",
+    "pt": "franquia de bagagem",
+    "tr": "bagaj hakkı"
+   },
+   "ex": {
+    "en": "The baggage allowance is 23 kilos."
+   }
+  },
+  {
+   "id": "travel.excess-baggage",
+   "t": {
+    "en": "excess baggage",
+    "uk": "надлишок багажу",
+    "ru": "перевес багажа",
+    "pl": "nadbagaż",
+    "de": "Übergepäck",
+    "fr": "excédent de bagages",
+    "es": "exceso de equipaje",
+    "it": "bagaglio in eccesso",
+    "pt": "excesso de bagagem",
+    "tr": "fazla bagaj"
+   },
+   "ex": {
+    "en": "We paid a fee for excess baggage."
+   }
+  },
+  {
+   "id": "travel.boarding-time",
+   "t": {
+    "en": "boarding time",
+    "uk": "час посадки",
+    "ru": "время посадки",
+    "pl": "czas wejścia na pokład",
+    "de": "Boardingzeit",
+    "fr": "heure d'embarquement",
+    "es": "hora de embarque",
+    "it": "orario d'imbarco",
+    "pt": "horário de embarque",
+    "tr": "biniş saati"
+   },
+   "ex": {
+    "en": "Boarding time is printed on the pass."
+   }
+  },
+  {
+   "id": "travel.connecting-flight",
+   "t": {
+    "en": "connecting flight",
+    "uk": "стикувальний рейс",
+    "ru": "стыковочный рейс",
+    "pl": "lot przesiadkowy",
+    "de": "Anschlussflug",
+    "fr": "vol de correspondance",
+    "es": "vuelo de conexión",
+    "it": "volo in coincidenza",
+    "pt": "voo de conexão",
+    "tr": "bağlantılı uçuş"
+   },
+   "ex": {
+    "en": "Our connecting flight leaves from terminal two."
+   }
+  },
+  {
+   "id": "travel.reschedule",
+   "t": {
+    "en": "to reschedule",
+    "uk": "перенести",
+    "ru": "перенести",
+    "pl": "przełożyć",
+    "de": "umbuchen",
+    "fr": "reporter",
+    "es": "reprogramar",
+    "it": "riprogrammare",
+    "pt": "remarcar",
+    "tr": "yeniden planlamak"
+   },
+   "ex": {
+    "en": "Can I reschedule my flight for Monday?"
+   }
+  },
+  {
+   "id": "travel.frequent-flyer-program",
+   "t": {
+    "en": "frequent flyer program",
+    "uk": "програма лояльності авіакомпанії",
+    "ru": "программа для часто летающих",
+    "pl": "program dla często latających",
+    "de": "Vielfliegerprogramm",
+    "fr": "programme de fidélité aérien",
+    "es": "programa de viajero frecuente",
+    "it": "programma frequent flyer",
+    "pt": "programa de milhagem",
+    "tr": "sık uçan yolcu programı"
+   },
+   "ex": {
+    "en": "Join the frequent flyer program to earn points."
+   }
+  },
+  {
+   "id": "travel.air-miles",
+   "t": {
+    "en": "air miles",
+    "uk": "бонусні милі",
+    "ru": "бонусные мили",
+    "pl": "mile lotnicze",
+    "de": "Flugmeilen",
+    "fr": "miles aériens",
+    "es": "millas aéreas",
+    "it": "miglia aeree",
+    "pt": "milhas aéreas",
+    "tr": "uçuş milleri"
+   },
+   "ex": {
+    "en": "I paid for the ticket with air miles."
+   }
+  },
+  {
+   "id": "travel.business-class",
+   "t": {
+    "en": "business class",
+    "uk": "бізнес-клас",
+    "ru": "бизнес-класс",
+    "pl": "klasa biznes",
+    "de": "Businessclass",
+    "fr": "classe affaires",
+    "es": "clase ejecutiva",
+    "it": "business class",
+    "pt": "classe executiva",
+    "tr": "business sınıfı"
+   },
+   "ex": {
+    "en": "The company flew her business class."
+   }
+  },
+  {
+   "id": "travel.economy-class",
+   "t": {
+    "en": "economy class",
+    "uk": "економклас",
+    "ru": "экономкласс",
+    "pl": "klasa ekonomiczna",
+    "de": "Economyclass",
+    "fr": "classe économique",
+    "es": "clase turista",
+    "it": "classe economica",
+    "pt": "classe econômica",
+    "tr": "ekonomi sınıfı"
+   },
+   "ex": {
+    "en": "Economy class seats are quite narrow."
+   }
+  },
+  {
+   "id": "travel.duty-free-shop",
+   "t": {
+    "en": "duty-free shop",
+    "uk": "магазин дьюті-фрі",
+    "ru": "магазин дьюти-фри",
+    "pl": "sklep wolnocłowy",
+    "de": "Duty-free-Shop",
+    "fr": "boutique hors taxes",
+    "es": "tienda libre de impuestos",
+    "it": "duty free",
+    "pt": "free shop",
+    "tr": "gümrüksüz mağaza"
+   },
+   "ex": {
+    "en": "She bought perfume at the duty-free shop."
+   }
+  },
+  {
+   "id": "travel.customs-declaration",
+   "t": {
+    "en": "customs declaration",
+    "uk": "митна декларація",
+    "ru": "таможенная декларация",
+    "pl": "deklaracja celna",
+    "de": "Zollerklärung",
+    "fr": "déclaration en douane",
+    "es": "declaración de aduana",
+    "it": "dichiarazione doganale",
+    "pt": "declaração alfandegária",
+    "tr": "gümrük beyannamesi"
+   },
+   "ex": {
+    "en": "Fill in the customs declaration before landing."
+   }
+  },
+  {
+   "id": "travel.declare-goods",
+   "t": {
+    "en": "to declare goods",
+    "uk": "декларувати товари",
+    "ru": "декларировать товары",
+    "pl": "zgłosić do oclenia",
+    "de": "verzollen",
+    "fr": "déclarer des marchandises",
+    "es": "declarar mercancías",
+    "it": "dichiarare merci",
+    "pt": "declarar mercadorias",
+    "tr": "beyan etmek"
+   },
+   "ex": {
+    "en": "Do you have anything to declare?"
+   }
+  },
+  {
+   "id": "travel.entry-requirements",
+   "t": {
+    "en": "entry requirements",
+    "uk": "умови в'їзду",
+    "ru": "условия въезда",
+    "pl": "wymogi wjazdowe",
+    "de": "Einreisebestimmungen",
+    "fr": "conditions d'entrée",
+    "es": "requisitos de entrada",
+    "it": "requisiti d'ingresso",
+    "pt": "requisitos de entrada",
+    "tr": "giriş şartları"
+   },
+   "ex": {
+    "en": "Check the entry requirements before you fly."
+   }
+  },
+  {
+   "id": "travel.travel-advisory",
+   "t": {
+    "en": "travel advisory",
+    "uk": "попередження для мандрівників",
+    "ru": "предупреждение для путешественников",
+    "pl": "ostrzeżenie dla podróżnych",
+    "de": "Reisewarnung",
+    "fr": "avis aux voyageurs",
+    "es": "aviso de viaje",
+    "it": "avviso di viaggio",
+    "pt": "alerta de viagem",
+    "tr": "seyahat uyarısı"
+   },
+   "ex": {
+    "en": "The government issued a travel advisory."
+   }
+  },
+  {
+   "id": "travel.miss-a-connection",
+   "t": {
+    "en": "to miss a connection",
+    "uk": "пропустити стикування",
+    "ru": "опоздать на стыковку",
+    "pl": "nie zdążyć na przesiadkę",
+    "de": "Anschluss verpassen",
+    "fr": "rater sa correspondance",
+    "es": "perder la conexión",
+    "it": "perdere la coincidenza",
+    "pt": "perder a conexão",
+    "tr": "aktarmayı kaçırmak"
+   },
+   "ex": {
+    "en": "The delay made us miss our connection."
+   }
+  },
+  {
+   "id": "travel.peak-season",
+   "t": {
+    "en": "peak season",
+    "uk": "високий сезон",
+    "ru": "высокий сезон",
+    "pl": "sezon wysoki",
+    "de": "Hochsaison",
+    "fr": "haute saison",
+    "es": "temporada alta",
+    "it": "alta stagione",
+    "pt": "alta temporada",
+    "tr": "yüksek sezon"
+   },
+   "ex": {
+    "en": "Prices double in peak season."
+   }
+  },
+  {
+   "id": "travel.low-season",
+   "t": {
+    "en": "low season",
+    "uk": "низький сезон",
+    "ru": "низкий сезон",
+    "pl": "poza sezonem",
+    "de": "Nebensaison",
+    "fr": "basse saison",
+    "es": "temporada baja",
+    "it": "bassa stagione",
+    "pt": "baixa temporada",
+    "tr": "düşük sezon"
+   },
+   "ex": {
+    "en": "The beaches are empty in low season."
+   }
+  },
+  {
+   "id": "travel.low-cost-airline",
+   "t": {
+    "en": "low-cost airline",
+    "uk": "лоукостер",
+    "ru": "лоукостер",
+    "pl": "tania linia lotnicza",
+    "de": "Billigfluglinie",
+    "fr": "compagnie low cost",
+    "es": "aerolínea de bajo coste",
+    "it": "compagnia low cost",
+    "pt": "companhia aérea de baixo custo",
+    "tr": "düşük maliyetli havayolu"
+   },
+   "ex": {
+    "en": "Low-cost airlines charge extra for luggage."
+   }
+  },
+  {
+   "id": "travel.get-around",
+   "t": {
+    "en": "to get around",
+    "uk": "пересуватися містом",
+    "ru": "передвигаться по городу",
+    "pl": "poruszać się po mieście",
+    "de": "sich fortbewegen",
+    "fr": "se déplacer",
+    "es": "moverse",
+    "it": "spostarsi",
+    "pt": "se locomover",
+    "tr": "dolaşmak"
+   },
+   "ex": {
+    "en": "It is easy to get around by bike."
+   }
+  },
+  {
+   "id": "travel.set-off",
+   "t": {
+    "en": "to set off",
+    "uk": "вирушати",
+    "ru": "отправляться в путь",
+    "pl": "wyruszać",
+    "de": "aufbrechen",
+    "fr": "se mettre en route",
+    "es": "ponerse en camino",
+    "it": "mettersi in viaggio",
+    "pt": "partir",
+    "tr": "yola çıkmak"
+   },
+   "ex": {
+    "en": "We set off before sunrise."
+   }
+  },
+  {
+   "id": "travel.airport-transfer",
+   "t": {
+    "en": "airport transfer",
+    "uk": "трансфер з аеропорту",
+    "ru": "трансфер из аэропорта",
+    "pl": "transfer z lotniska",
+    "de": "Flughafentransfer",
+    "fr": "transfert aéroport",
+    "es": "traslado al aeropuerto",
+    "it": "transfer aeroportuale",
+    "pt": "transfer do aeroporto",
+    "tr": "havalimanı transferi"
+   },
+   "ex": {
+    "en": "The hotel offers a free airport transfer."
+   }
+  },
+  {
+   "id": "travel.motion-sickness",
+   "t": {
+    "en": "motion sickness",
+    "uk": "заколисування",
+    "ru": "укачивание",
+    "pl": "choroba lokomocyjna",
+    "de": "Reisekrankheit",
+    "fr": "mal des transports",
+    "es": "mareo",
+    "it": "mal d'auto",
+    "pt": "enjoo",
+    "tr": "araç tutması"
+   },
+   "ex": {
+    "en": "She gets motion sickness on boats."
+   }
+  },
+  {
+   "id": "travel.explore",
+   "t": {
+    "en": "to explore",
+    "uk": "досліджувати",
+    "ru": "исследовать",
+    "pl": "eksplorować",
+    "de": "erkunden",
+    "fr": "explorer",
+    "es": "explorar",
+    "it": "esplorare",
+    "pt": "explorar",
+    "tr": "keşfetmek"
+   },
+   "ex": {
+    "en": "We spent the day exploring the old town."
+   }
+  },
+  {
+   "id": "travel.landmark",
+   "t": {
+    "en": "landmark",
+    "uk": "визначна пам'ятка",
+    "ru": "достопримечательность",
+    "pl": "zabytek",
+    "de": "Wahrzeichen",
+    "fr": "monument emblématique",
+    "es": "lugar emblemático",
+    "it": "punto di riferimento",
+    "pt": "ponto turístico",
+    "tr": "simge yapı"
+   },
+   "ex": {
+    "en": "The tower is the city's most famous landmark."
+   }
+  },
+  {
+   "id": "travel.tourist-trap",
+   "t": {
+    "en": "tourist trap",
+    "uk": "пастка для туристів",
+    "ru": "ловушка для туристов",
+    "pl": "pułapka na turystów",
+    "de": "Touristenfalle",
+    "fr": "piège à touristes",
+    "es": "trampa para turistas",
+    "it": "trappola per turisti",
+    "pt": "armadilha para turistas",
+    "tr": "turist tuzağı"
+   },
+   "ex": {
+    "en": "That restaurant is a real tourist trap."
+   }
+  },
+  {
+   "id": "travel.travel-light",
+   "t": {
+    "en": "to travel light",
+    "uk": "подорожувати без зайвого багажу",
+    "ru": "путешествовать налегке",
+    "pl": "podróżować z lekkim bagażem",
+    "de": "mit leichtem Gepäck reisen",
+    "fr": "voyager léger",
+    "es": "viajar ligero",
+    "it": "viaggiare leggero",
+    "pt": "viajar leve",
+    "tr": "hafif seyahat etmek"
+   },
+   "ex": {
+    "en": "I always try to travel light."
+   }
+  }
+ ]
+}

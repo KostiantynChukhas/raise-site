@@ -1,0 +1,494 @@
+{
+ "id": "finance-c1",
+ "topic": "finance",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "finance.liquidity",
+   "t": {
+    "en": "liquidity",
+    "uk": "ліквідність",
+    "ru": "ликвидность",
+    "pl": "płynność",
+    "de": "Liquidität",
+    "fr": "liquidité",
+    "es": "liquidez",
+    "it": "liquidità",
+    "pt": "liquidez",
+    "tr": "likidite"
+   },
+   "ex": {
+    "en": "The bank is facing a liquidity crisis."
+   }
+  },
+  {
+   "id": "finance.solvency",
+   "t": {
+    "en": "solvency",
+    "uk": "платоспроможність",
+    "ru": "платёжеспособность",
+    "pl": "wypłacalność",
+    "de": "Zahlungsfähigkeit",
+    "fr": "solvabilité",
+    "es": "solvencia",
+    "it": "solvibilità",
+    "pt": "solvência",
+    "tr": "ödeme gücü"
+   },
+   "ex": {
+    "en": "Auditors questioned the firm's solvency."
+   }
+  },
+  {
+   "id": "finance.hedging",
+   "t": {
+    "en": "hedging",
+    "uk": "хеджування",
+    "ru": "хеджирование",
+    "pl": "zabezpieczanie ryzyka",
+    "de": "Absicherung",
+    "fr": "couverture",
+    "es": "cobertura",
+    "it": "copertura",
+    "pt": "hedge",
+    "tr": "riskten korunma"
+   },
+   "ex": {
+    "en": "Hedging protects us against currency risk."
+   }
+  },
+  {
+   "id": "finance.depreciation",
+   "t": {
+    "en": "depreciation",
+    "uk": "амортизація",
+    "ru": "амортизация",
+    "pl": "amortyzacja",
+    "de": "Abschreibung",
+    "fr": "amortissement",
+    "es": "depreciación",
+    "it": "ammortamento",
+    "pt": "depreciação",
+    "tr": "amortisman"
+   },
+   "ex": {
+    "en": "Depreciation reduces the car's value every year."
+   }
+  },
+  {
+   "id": "finance.capital-gains",
+   "t": {
+    "en": "capital gains",
+    "uk": "приріст капіталу",
+    "ru": "прирост капитала",
+    "pl": "zyski kapitałowe",
+    "de": "Kapitalerträge",
+    "fr": "plus-values",
+    "es": "ganancias de capital",
+    "it": "plusvalenze",
+    "pt": "ganhos de capital",
+    "tr": "sermaye kazancı"
+   },
+   "ex": {
+    "en": "Capital gains are taxed when you sell."
+   }
+  },
+  {
+   "id": "finance.to-write-off",
+   "t": {
+    "en": "to write off",
+    "uk": "списати",
+    "ru": "списать",
+    "pl": "spisać na straty",
+    "de": "abschreiben",
+    "fr": "passer en perte",
+    "es": "dar de baja",
+    "it": "stralciare",
+    "pt": "dar baixa",
+    "tr": "zarar yazmak"
+   },
+   "ex": {
+    "en": "The bank wrote off the bad loans."
+   }
+  },
+  {
+   "id": "finance.tax-evasion",
+   "t": {
+    "en": "tax evasion",
+    "uk": "ухилення від податків",
+    "ru": "уклонение от налогов",
+    "pl": "uchylanie się od podatków",
+    "de": "Steuerhinterziehung",
+    "fr": "fraude fiscale",
+    "es": "evasión fiscal",
+    "it": "evasione fiscale",
+    "pt": "sonegação fiscal",
+    "tr": "vergi kaçakçılığı"
+   },
+   "ex": {
+    "en": "He was jailed for tax evasion."
+   }
+  },
+  {
+   "id": "finance.money-laundering",
+   "t": {
+    "en": "money laundering",
+    "uk": "відмивання грошей",
+    "ru": "отмывание денег",
+    "pl": "pranie pieniędzy",
+    "de": "Geldwäsche",
+    "fr": "blanchiment d'argent",
+    "es": "blanqueo de capitales",
+    "it": "riciclaggio di denaro",
+    "pt": "lavagem de dinheiro",
+    "tr": "kara para aklama"
+   },
+   "ex": {
+    "en": "The bank was fined for money laundering."
+   }
+  },
+  {
+   "id": "finance.windfall",
+   "t": {
+    "en": "windfall",
+    "uk": "несподіваний прибуток",
+    "ru": "нежданная прибыль",
+    "pl": "nieoczekiwany zysk",
+    "de": "unverhoffter Gewinn",
+    "fr": "aubaine",
+    "es": "ganancia inesperada",
+    "it": "guadagno inaspettato",
+    "pt": "ganho inesperado",
+    "tr": "beklenmedik kazanç"
+   },
+   "ex": {
+    "en": "The inheritance was an unexpected windfall."
+   }
+  },
+  {
+   "id": "finance.to-live-beyond-ones-means",
+   "t": {
+    "en": "to live beyond one's means",
+    "uk": "жити не по кишені",
+    "ru": "жить не по средствам",
+    "pl": "żyć ponad stan",
+    "de": "über seine Verhältnisse leben",
+    "fr": "vivre au-dessus de ses moyens",
+    "es": "vivir por encima de sus posibilidades",
+    "it": "vivere al di sopra dei propri mezzi",
+    "pt": "viver além das posses",
+    "tr": "ayağını yorganına göre uzatmamak"
+   },
+   "ex": {
+    "en": "They lived beyond their means for years."
+   }
+  },
+  {
+   "id": "finance.to-tighten-ones-belt",
+   "t": {
+    "en": "to tighten one's belt",
+    "uk": "затягнути пасок",
+    "ru": "затянуть пояс",
+    "pl": "zacisnąć pasa",
+    "de": "den Gürtel enger schnallen",
+    "fr": "se serrer la ceinture",
+    "es": "apretarse el cinturón",
+    "it": "tirare la cinghia",
+    "pt": "apertar o cinto",
+    "tr": "kemerleri sıkmak"
+   },
+   "ex": {
+    "en": "We had to tighten our belts after the layoff."
+   }
+  },
+  {
+   "id": "finance.nest-egg",
+   "t": {
+    "en": "nest egg",
+    "uk": "заначка на майбутнє",
+    "ru": "заначка на будущее",
+    "pl": "odłożone oszczędności",
+    "de": "Notgroschen fürs Alter",
+    "fr": "bas de laine",
+    "es": "ahorros para el futuro",
+    "it": "gruzzolo",
+    "pt": "pé-de-meia",
+    "tr": "kenara konmuş para"
+   },
+   "ex": {
+    "en": "They built a nest egg for retirement."
+   }
+  },
+  {
+   "id": "finance.to-break-even",
+   "t": {
+    "en": "to break even",
+    "uk": "вийти в нуль",
+    "ru": "выйти в ноль",
+    "pl": "wyjść na zero",
+    "de": "kostendeckend arbeiten",
+    "fr": "rentrer dans ses frais",
+    "es": "cubrir gastos",
+    "it": "andare in pareggio",
+    "pt": "empatar",
+    "tr": "başa baş gelmek"
+   },
+   "ex": {
+    "en": "The café broke even in its second year."
+   }
+  },
+  {
+   "id": "finance.in-the-red",
+   "t": {
+    "en": "in the red",
+    "uk": "у мінусі",
+    "ru": "в минусе",
+    "pl": "na minusie",
+    "de": "in den roten Zahlen",
+    "fr": "dans le rouge",
+    "es": "en números rojos",
+    "it": "in rosso",
+    "pt": "no vermelho",
+    "tr": "zararda"
+   },
+   "ex": {
+    "en": "The company has been in the red all year."
+   }
+  },
+  {
+   "id": "finance.in-the-black",
+   "t": {
+    "en": "in the black",
+    "uk": "у плюсі",
+    "ru": "в плюсе",
+    "pl": "na plusie",
+    "de": "in den schwarzen Zahlen",
+    "fr": "dans le vert",
+    "es": "en números negros",
+    "it": "in attivo",
+    "pt": "no azul",
+    "tr": "kârda"
+   },
+   "ex": {
+    "en": "We are finally back in the black."
+   }
+  },
+  {
+   "id": "finance.yield",
+   "t": {
+    "en": "yield",
+    "uk": "дохідність",
+    "ru": "доходность",
+    "pl": "rentowność",
+    "de": "Rendite",
+    "fr": "rendement",
+    "es": "rendimiento",
+    "it": "rendimento",
+    "pt": "rendimento",
+    "tr": "getiri"
+   },
+   "ex": {
+    "en": "Bond yields rose sharply this week."
+   }
+  },
+  {
+   "id": "finance.volatility",
+   "t": {
+    "en": "volatility",
+    "uk": "волатильність",
+    "ru": "волатильность",
+    "pl": "zmienność",
+    "de": "Volatilität",
+    "fr": "volatilité",
+    "es": "volatilidad",
+    "it": "volatilità",
+    "pt": "volatilidade",
+    "tr": "oynaklık"
+   },
+   "ex": {
+    "en": "Market volatility scared off investors."
+   }
+  },
+  {
+   "id": "finance.bear-market",
+   "t": {
+    "en": "bear market",
+    "uk": "ведмежий ринок",
+    "ru": "медвежий рынок",
+    "pl": "bessa",
+    "de": "Baisse",
+    "fr": "marché baissier",
+    "es": "mercado bajista",
+    "it": "mercato ribassista",
+    "pt": "mercado em baixa",
+    "tr": "ayı piyasası"
+   },
+   "ex": {
+    "en": "A bear market can last for years."
+   }
+  },
+  {
+   "id": "finance.bull-market",
+   "t": {
+    "en": "bull market",
+    "uk": "бичачий ринок",
+    "ru": "бычий рынок",
+    "pl": "hossa",
+    "de": "Hausse",
+    "fr": "marché haussier",
+    "es": "mercado alcista",
+    "it": "mercato rialzista",
+    "pt": "mercado em alta",
+    "tr": "boğa piyasası"
+   },
+   "ex": {
+    "en": "Everyone makes money in a bull market."
+   }
+  },
+  {
+   "id": "finance.fiscal-year",
+   "t": {
+    "en": "fiscal year",
+    "uk": "фінансовий рік",
+    "ru": "финансовый год",
+    "pl": "rok obrotowy",
+    "de": "Geschäftsjahr",
+    "fr": "exercice fiscal",
+    "es": "ejercicio fiscal",
+    "it": "anno fiscale",
+    "pt": "ano fiscal",
+    "tr": "mali yıl"
+   },
+   "ex": {
+    "en": "Our fiscal year ends in March."
+   }
+  },
+  {
+   "id": "finance.audit",
+   "t": {
+    "en": "audit",
+    "uk": "аудит",
+    "ru": "аудит",
+    "pl": "audyt",
+    "de": "Prüfung",
+    "fr": "audit",
+    "es": "auditoría",
+    "it": "revisione contabile",
+    "pt": "auditoria",
+    "tr": "denetim"
+   },
+   "ex": {
+    "en": "The audit revealed several irregularities."
+   }
+  },
+  {
+   "id": "finance.embezzlement",
+   "t": {
+    "en": "embezzlement",
+    "uk": "розтрата",
+    "ru": "растрата",
+    "pl": "sprzeniewierzenie",
+    "de": "Veruntreuung",
+    "fr": "détournement de fonds",
+    "es": "malversación",
+    "it": "appropriazione indebita",
+    "pt": "desvio de dinheiro",
+    "tr": "zimmete geçirme"
+   },
+   "ex": {
+    "en": "The accountant was charged with embezzlement."
+   }
+  },
+  {
+   "id": "finance.escrow",
+   "t": {
+    "en": "escrow",
+    "uk": "ескроу-рахунок",
+    "ru": "эскроу-счёт",
+    "pl": "rachunek powierniczy",
+    "de": "Treuhandkonto",
+    "fr": "compte séquestre",
+    "es": "depósito en garantía",
+    "it": "deposito a garanzia",
+    "pt": "conta caução",
+    "tr": "emanet hesabı"
+   },
+   "ex": {
+    "en": "The deposit is held in escrow until closing."
+   }
+  },
+  {
+   "id": "finance.annuity",
+   "t": {
+    "en": "annuity",
+    "uk": "ануїтет",
+    "ru": "аннуитет",
+    "pl": "renta dożywotnia",
+    "de": "Leibrente",
+    "fr": "rente viagère",
+    "es": "renta vitalicia",
+    "it": "rendita vitalizia",
+    "pt": "renda vitalícia",
+    "tr": "yıllık gelir sigortası"
+   },
+   "ex": {
+    "en": "An annuity pays a fixed income for life."
+   }
+  },
+  {
+   "id": "finance.to-foot-the-bill",
+   "t": {
+    "en": "to foot the bill",
+    "uk": "взяти витрати на себе",
+    "ru": "взять расходы на себя",
+    "pl": "pokryć koszty",
+    "de": "die Rechnung übernehmen",
+    "fr": "régler la note",
+    "es": "correr con los gastos",
+    "it": "pagare il conto per tutti",
+    "pt": "arcar com as despesas",
+    "tr": "masrafları üstlenmek"
+   },
+   "ex": {
+    "en": "Taxpayers will foot the bill for the stadium."
+   }
+  },
+  {
+   "id": "finance.creditworthy",
+   "t": {
+    "en": "creditworthy",
+    "uk": "кредитоспроможний",
+    "ru": "кредитоспособный",
+    "pl": "wiarygodny kredytowo",
+    "de": "kreditwürdig",
+    "fr": "solvable",
+    "es": "solvente",
+    "it": "meritevole di credito",
+    "pt": "com bom crédito",
+    "tr": "kredibilitesi yüksek"
+   },
+   "ex": {
+    "en": "Only creditworthy clients get the lowest rates."
+   }
+  },
+  {
+   "id": "finance.disposable-income",
+   "t": {
+    "en": "disposable income",
+    "uk": "вільні кошти",
+    "ru": "свободные средства",
+    "pl": "dochód rozporządzalny",
+    "de": "verfügbares Einkommen",
+    "fr": "revenu disponible",
+    "es": "renta disponible",
+    "it": "reddito disponibile",
+    "pt": "renda disponível",
+    "tr": "harcanabilir gelir"
+   },
+   "ex": {
+    "en": "Rising rents eat into disposable income."
+   }
+  }
+ ]
+}

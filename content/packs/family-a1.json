@@ -1,0 +1,530 @@
+{
+ "id": "family-a1",
+ "topic": "family",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "family.family",
+   "t": {
+    "en": "family",
+    "uk": "сім'я",
+    "ru": "семья",
+    "pl": "rodzina",
+    "de": "Familie",
+    "fr": "famille",
+    "es": "familia",
+    "it": "famiglia",
+    "pt": "família",
+    "tr": "aile"
+   },
+   "ex": {
+    "en": "I have a big family."
+   }
+  },
+  {
+   "id": "family.mother",
+   "t": {
+    "en": "mother",
+    "uk": "мати",
+    "ru": "мать",
+    "pl": "matka",
+    "de": "Mutter",
+    "fr": "mère",
+    "es": "madre",
+    "it": "madre",
+    "pt": "mãe",
+    "tr": "anne"
+   },
+   "ex": {
+    "en": "My mother is a teacher."
+   }
+  },
+  {
+   "id": "family.father",
+   "t": {
+    "en": "father",
+    "uk": "батько",
+    "ru": "отец",
+    "pl": "ojciec",
+    "de": "Vater",
+    "fr": "père",
+    "es": "padre",
+    "it": "padre",
+    "pt": "pai",
+    "tr": "baba"
+   },
+   "ex": {
+    "en": "My father works in a bank."
+   }
+  },
+  {
+   "id": "family.parents",
+   "t": {
+    "en": "parents",
+    "uk": "батьки",
+    "ru": "родители",
+    "pl": "rodzice",
+    "de": "Eltern",
+    "fr": "parents",
+    "es": "padres",
+    "it": "genitori",
+    "pt": "pais",
+    "tr": "anne baba"
+   },
+   "ex": {
+    "en": "My parents live in the city."
+   }
+  },
+  {
+   "id": "family.brother",
+   "t": {
+    "en": "brother",
+    "uk": "брат",
+    "ru": "брат",
+    "pl": "brat",
+    "de": "Bruder",
+    "fr": "frère",
+    "es": "hermano",
+    "it": "fratello",
+    "pt": "irmão",
+    "tr": "erkek kardeş"
+   },
+   "ex": {
+    "en": "I have one brother."
+   }
+  },
+  {
+   "id": "family.sister",
+   "t": {
+    "en": "sister",
+    "uk": "сестра",
+    "ru": "сестра",
+    "pl": "siostra",
+    "de": "Schwester",
+    "fr": "sœur",
+    "es": "hermana",
+    "it": "sorella",
+    "pt": "irmã",
+    "tr": "kız kardeş"
+   },
+   "ex": {
+    "en": "My sister is ten years old."
+   }
+  },
+  {
+   "id": "family.son",
+   "t": {
+    "en": "son",
+    "uk": "син",
+    "ru": "сын",
+    "pl": "syn",
+    "de": "Sohn",
+    "fr": "fils",
+    "es": "hijo",
+    "it": "figlio",
+    "pt": "filho",
+    "tr": "oğul"
+   },
+   "ex": {
+    "en": "Their son plays football."
+   }
+  },
+  {
+   "id": "family.daughter",
+   "t": {
+    "en": "daughter",
+    "uk": "дочка",
+    "ru": "дочь",
+    "pl": "córka",
+    "de": "Tochter",
+    "fr": "fille",
+    "es": "hija",
+    "it": "figlia",
+    "pt": "filha",
+    "tr": "kız"
+   },
+   "ex": {
+    "en": "Our daughter likes to draw."
+   }
+  },
+  {
+   "id": "family.baby",
+   "t": {
+    "en": "baby",
+    "uk": "немовля",
+    "ru": "малыш",
+    "pl": "niemowlę",
+    "de": "Baby",
+    "fr": "bébé",
+    "es": "bebé",
+    "it": "neonato",
+    "pt": "bebê",
+    "tr": "bebek"
+   },
+   "ex": {
+    "en": "The baby is sleeping now."
+   }
+  },
+  {
+   "id": "family.child",
+   "t": {
+    "en": "child",
+    "uk": "дитина",
+    "ru": "ребёнок",
+    "pl": "dziecko",
+    "de": "Kind",
+    "fr": "enfant",
+    "es": "niño",
+    "it": "bambino",
+    "pt": "criança",
+    "tr": "çocuk"
+   },
+   "ex": {
+    "en": "The child is playing outside."
+   }
+  },
+  {
+   "id": "family.grandmother",
+   "t": {
+    "en": "grandmother",
+    "uk": "бабуся",
+    "ru": "бабушка",
+    "pl": "babcia",
+    "de": "Großmutter",
+    "fr": "grand-mère",
+    "es": "abuela",
+    "it": "nonna",
+    "pt": "avó",
+    "tr": "büyükanne"
+   },
+   "ex": {
+    "en": "My grandmother bakes great cakes."
+   }
+  },
+  {
+   "id": "family.grandfather",
+   "t": {
+    "en": "grandfather",
+    "uk": "дідусь",
+    "ru": "дедушка",
+    "pl": "dziadek",
+    "de": "Großvater",
+    "fr": "grand-père",
+    "es": "abuelo",
+    "it": "nonno",
+    "pt": "avô",
+    "tr": "büyükbaba"
+   },
+   "ex": {
+    "en": "My grandfather is eighty."
+   }
+  },
+  {
+   "id": "family.husband",
+   "t": {
+    "en": "husband",
+    "uk": "чоловік",
+    "ru": "муж",
+    "pl": "mąż",
+    "de": "Ehemann",
+    "fr": "mari",
+    "es": "marido",
+    "it": "marito",
+    "pt": "marido",
+    "tr": "koca"
+   },
+   "ex": {
+    "en": "Her husband is a doctor."
+   }
+  },
+  {
+   "id": "family.wife",
+   "t": {
+    "en": "wife",
+    "uk": "дружина",
+    "ru": "жена",
+    "pl": "żona",
+    "de": "Ehefrau",
+    "fr": "femme",
+    "es": "esposa",
+    "it": "moglie",
+    "pt": "esposa",
+    "tr": "eş"
+   },
+   "ex": {
+    "en": "This is my wife, Anna."
+   }
+  },
+  {
+   "id": "family.aunt",
+   "t": {
+    "en": "aunt",
+    "uk": "тітка",
+    "ru": "тётя",
+    "pl": "ciocia",
+    "de": "Tante",
+    "fr": "tante",
+    "es": "tía",
+    "it": "zia",
+    "pt": "tia",
+    "tr": "teyze"
+   },
+   "ex": {
+    "en": "My aunt lives in London."
+   }
+  },
+  {
+   "id": "family.uncle",
+   "t": {
+    "en": "uncle",
+    "uk": "дядько",
+    "ru": "дядя",
+    "pl": "wujek",
+    "de": "Onkel",
+    "fr": "oncle",
+    "es": "tío",
+    "it": "zio",
+    "pt": "tio",
+    "tr": "amca"
+   },
+   "ex": {
+    "en": "My uncle has a dog."
+   }
+  },
+  {
+   "id": "family.cousin",
+   "t": {
+    "en": "cousin",
+    "uk": "двоюрідний брат",
+    "ru": "двоюродный брат",
+    "pl": "kuzyn",
+    "de": "Cousin",
+    "fr": "cousin",
+    "es": "primo",
+    "it": "cugino",
+    "pt": "primo",
+    "tr": "kuzen"
+   },
+   "ex": {
+    "en": "My cousin is my best friend."
+   }
+  },
+  {
+   "id": "family.friend",
+   "t": {
+    "en": "friend",
+    "uk": "друг",
+    "ru": "друг",
+    "pl": "przyjaciel",
+    "de": "Freund",
+    "fr": "ami",
+    "es": "amigo",
+    "it": "amico",
+    "pt": "amigo",
+    "tr": "arkadaş"
+   },
+   "ex": {
+    "en": "Tom is my good friend."
+   }
+  },
+  {
+   "id": "family.man",
+   "t": {
+    "en": "man",
+    "uk": "чоловік",
+    "ru": "мужчина",
+    "pl": "mężczyzna",
+    "de": "Mann",
+    "fr": "homme",
+    "es": "hombre",
+    "it": "uomo",
+    "pt": "homem",
+    "tr": "adam"
+   },
+   "ex": {
+    "en": "That man is my teacher."
+   }
+  },
+  {
+   "id": "family.woman",
+   "t": {
+    "en": "woman",
+    "uk": "жінка",
+    "ru": "женщина",
+    "pl": "kobieta",
+    "de": "Frau",
+    "fr": "femme",
+    "es": "mujer",
+    "it": "donna",
+    "pt": "mulher",
+    "tr": "kadın"
+   },
+   "ex": {
+    "en": "The woman in red is my aunt."
+   }
+  },
+  {
+   "id": "family.boy",
+   "t": {
+    "en": "boy",
+    "uk": "хлопчик",
+    "ru": "мальчик",
+    "pl": "chłopiec",
+    "de": "Junge",
+    "fr": "garçon",
+    "es": "niño",
+    "it": "ragazzo",
+    "pt": "menino",
+    "tr": "erkek çocuk"
+   },
+   "ex": {
+    "en": "The boy is seven years old."
+   }
+  },
+  {
+   "id": "family.girl",
+   "t": {
+    "en": "girl",
+    "uk": "дівчинка",
+    "ru": "девочка",
+    "pl": "dziewczynka",
+    "de": "Mädchen",
+    "fr": "fille",
+    "es": "niña",
+    "it": "ragazza",
+    "pt": "menina",
+    "tr": "kız çocuk"
+   },
+   "ex": {
+    "en": "The girl has a red bag."
+   }
+  },
+  {
+   "id": "family.old",
+   "t": {
+    "en": "old",
+    "uk": "старий",
+    "ru": "старый",
+    "pl": "stary",
+    "de": "alt",
+    "fr": "vieux",
+    "es": "viejo",
+    "it": "vecchio",
+    "pt": "velho",
+    "tr": "yaşlı"
+   },
+   "ex": {
+    "en": "My grandfather is very old."
+   }
+  },
+  {
+   "id": "family.young",
+   "t": {
+    "en": "young",
+    "uk": "молодий",
+    "ru": "молодой",
+    "pl": "młody",
+    "de": "jung",
+    "fr": "jeune",
+    "es": "joven",
+    "it": "giovane",
+    "pt": "jovem",
+    "tr": "genç"
+   },
+   "ex": {
+    "en": "My parents are still young."
+   }
+  },
+  {
+   "id": "family.tall",
+   "t": {
+    "en": "tall",
+    "uk": "високий",
+    "ru": "высокий",
+    "pl": "wysoki",
+    "de": "groß",
+    "fr": "grand",
+    "es": "alto",
+    "it": "alto",
+    "pt": "alto",
+    "tr": "uzun boylu"
+   },
+   "ex": {
+    "en": "My brother is very tall."
+   }
+  },
+  {
+   "id": "family.short",
+   "t": {
+    "en": "short",
+    "uk": "низький",
+    "ru": "низкий",
+    "pl": "niski",
+    "de": "klein",
+    "fr": "petit",
+    "es": "bajo",
+    "it": "basso",
+    "pt": "baixo",
+    "tr": "kısa boylu"
+   },
+   "ex": {
+    "en": "My sister is short."
+   }
+  },
+  {
+   "id": "family.married",
+   "t": {
+    "en": "married",
+    "uk": "одружений",
+    "ru": "женат",
+    "pl": "żonaty",
+    "de": "verheiratet",
+    "fr": "marié",
+    "es": "casado",
+    "it": "sposato",
+    "pt": "casado",
+    "tr": "evli"
+   },
+   "ex": {
+    "en": "Are you married?"
+   }
+  },
+  {
+   "id": "family.how-old-are-you",
+   "t": {
+    "en": "How old are you?",
+    "uk": "Скільки тобі років?",
+    "ru": "Сколько тебе лет?",
+    "pl": "Ile masz lat?",
+    "de": "Wie alt bist du?",
+    "fr": "Quel âge as-tu ?",
+    "es": "¿Cuántos años tienes?",
+    "it": "Quanti anni hai?",
+    "pt": "Quantos anos você tem?",
+    "tr": "Kaç yaşındasın?"
+   },
+   "ex": {
+    "en": "How old are you? I am twenty."
+   }
+  },
+  {
+   "id": "family.to-have-children",
+   "t": {
+    "en": "to have children",
+    "uk": "мати дітей",
+    "ru": "иметь детей",
+    "pl": "mieć dzieci",
+    "de": "Kinder haben",
+    "fr": "avoir des enfants",
+    "es": "tener hijos",
+    "it": "avere figli",
+    "pt": "ter filhos",
+    "tr": "çocuk sahibi olmak"
+   },
+   "ex": {
+    "en": "Do you have children?"
+   }
+  }
+ ]
+}

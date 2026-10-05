@@ -1,0 +1,530 @@
+{
+ "id": "it-a1",
+ "topic": "it",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "it.computer",
+   "t": {
+    "en": "computer",
+    "uk": "комп'ютер",
+    "ru": "компьютер",
+    "pl": "komputer",
+    "de": "Computer",
+    "fr": "ordinateur",
+    "es": "ordenador",
+    "it": "computer",
+    "pt": "computador",
+    "tr": "bilgisayar"
+   },
+   "ex": {
+    "en": "My computer is very old."
+   }
+  },
+  {
+   "id": "it.laptop",
+   "t": {
+    "en": "laptop",
+    "uk": "ноутбук",
+    "ru": "ноутбук",
+    "pl": "laptop",
+    "de": "Laptop",
+    "fr": "ordinateur portable",
+    "es": "portátil",
+    "it": "portatile",
+    "pt": "notebook",
+    "tr": "dizüstü bilgisayar"
+   },
+   "ex": {
+    "en": "I take my laptop to work."
+   }
+  },
+  {
+   "id": "it.phone",
+   "t": {
+    "en": "phone",
+    "uk": "телефон",
+    "ru": "телефон",
+    "pl": "telefon",
+    "de": "Telefon",
+    "fr": "téléphone",
+    "es": "teléfono",
+    "it": "telefono",
+    "pt": "celular",
+    "tr": "telefon"
+   },
+   "ex": {
+    "en": "My phone is in my bag."
+   }
+  },
+  {
+   "id": "it.screen",
+   "t": {
+    "en": "screen",
+    "uk": "екран",
+    "ru": "экран",
+    "pl": "ekran",
+    "de": "Bildschirm",
+    "fr": "écran",
+    "es": "pantalla",
+    "it": "schermo",
+    "pt": "tela",
+    "tr": "ekran"
+   },
+   "ex": {
+    "en": "The screen is too bright."
+   }
+  },
+  {
+   "id": "it.keyboard",
+   "t": {
+    "en": "keyboard",
+    "uk": "клавіатура",
+    "ru": "клавиатура",
+    "pl": "klawiatura",
+    "de": "Tastatur",
+    "fr": "clavier",
+    "es": "teclado",
+    "it": "tastiera",
+    "pt": "teclado",
+    "tr": "klavye"
+   },
+   "ex": {
+    "en": "This keyboard is small."
+   }
+  },
+  {
+   "id": "it.mouse",
+   "t": {
+    "en": "mouse",
+    "uk": "мишка",
+    "ru": "мышь",
+    "pl": "myszka",
+    "de": "Maus",
+    "fr": "souris",
+    "es": "ratón",
+    "it": "mouse",
+    "pt": "mouse",
+    "tr": "fare"
+   },
+   "ex": {
+    "en": "The mouse does not work."
+   }
+  },
+  {
+   "id": "it.password",
+   "t": {
+    "en": "password",
+    "uk": "пароль",
+    "ru": "пароль",
+    "pl": "hasło",
+    "de": "Passwort",
+    "fr": "mot de passe",
+    "es": "contraseña",
+    "it": "password",
+    "pt": "senha",
+    "tr": "şifre"
+   },
+   "ex": {
+    "en": "I forgot my password."
+   }
+  },
+  {
+   "id": "it.internet",
+   "t": {
+    "en": "internet",
+    "uk": "інтернет",
+    "ru": "интернет",
+    "pl": "internet",
+    "de": "Internet",
+    "fr": "internet",
+    "es": "internet",
+    "it": "internet",
+    "pt": "internet",
+    "tr": "internet"
+   },
+   "ex": {
+    "en": "The internet is slow today."
+   }
+  },
+  {
+   "id": "it.website",
+   "t": {
+    "en": "website",
+    "uk": "вебсайт",
+    "ru": "сайт",
+    "pl": "strona internetowa",
+    "de": "Website",
+    "fr": "site web",
+    "es": "sitio web",
+    "it": "sito web",
+    "pt": "site",
+    "tr": "web sitesi"
+   },
+   "ex": {
+    "en": "Our website is new."
+   }
+  },
+  {
+   "id": "it.app",
+   "t": {
+    "en": "app",
+    "uk": "застосунок",
+    "ru": "приложение",
+    "pl": "aplikacja",
+    "de": "App",
+    "fr": "application",
+    "es": "aplicación",
+    "it": "app",
+    "pt": "aplicativo",
+    "tr": "uygulama"
+   },
+   "ex": {
+    "en": "Open the app on your phone."
+   }
+  },
+  {
+   "id": "it.to-click",
+   "t": {
+    "en": "to click",
+    "uk": "клацнути",
+    "ru": "нажать",
+    "pl": "kliknąć",
+    "de": "klicken",
+    "fr": "cliquer",
+    "es": "hacer clic",
+    "it": "cliccare",
+    "pt": "clicar",
+    "tr": "tıklamak"
+   },
+   "ex": {
+    "en": "Click the blue button."
+   }
+  },
+  {
+   "id": "it.to-download",
+   "t": {
+    "en": "to download",
+    "uk": "завантажити",
+    "ru": "скачать",
+    "pl": "pobrać",
+    "de": "herunterladen",
+    "fr": "télécharger",
+    "es": "descargar",
+    "it": "scaricare",
+    "pt": "baixar",
+    "tr": "indirmek"
+   },
+   "ex": {
+    "en": "Download the file here."
+   }
+  },
+  {
+   "id": "it.to-upload",
+   "t": {
+    "en": "to upload",
+    "uk": "вивантажити",
+    "ru": "загрузить",
+    "pl": "przesłać",
+    "de": "hochladen",
+    "fr": "téléverser",
+    "es": "subir",
+    "it": "caricare",
+    "pt": "enviar",
+    "tr": "yüklemek"
+   },
+   "ex": {
+    "en": "Upload your photo."
+   }
+  },
+  {
+   "id": "it.file",
+   "t": {
+    "en": "file",
+    "uk": "файл",
+    "ru": "файл",
+    "pl": "plik",
+    "de": "Datei",
+    "fr": "fichier",
+    "es": "archivo",
+    "it": "file",
+    "pt": "arquivo",
+    "tr": "dosya"
+   },
+   "ex": {
+    "en": "Where is the file?"
+   }
+  },
+  {
+   "id": "it.folder",
+   "t": {
+    "en": "folder",
+    "uk": "папка",
+    "ru": "папка",
+    "pl": "folder",
+    "de": "Ordner",
+    "fr": "dossier",
+    "es": "carpeta",
+    "it": "cartella",
+    "pt": "pasta",
+    "tr": "klasör"
+   },
+   "ex": {
+    "en": "Put it in the new folder."
+   }
+  },
+  {
+   "id": "it.to-save",
+   "t": {
+    "en": "to save",
+    "uk": "зберегти",
+    "ru": "сохранить",
+    "pl": "zapisać",
+    "de": "speichern",
+    "fr": "enregistrer",
+    "es": "guardar",
+    "it": "salvare",
+    "pt": "salvar",
+    "tr": "kaydetmek"
+   },
+   "ex": {
+    "en": "Save your work often."
+   }
+  },
+  {
+   "id": "it.to-delete",
+   "t": {
+    "en": "to delete",
+    "uk": "видалити",
+    "ru": "удалить",
+    "pl": "usunąć",
+    "de": "löschen",
+    "fr": "supprimer",
+    "es": "borrar",
+    "it": "eliminare",
+    "pt": "apagar",
+    "tr": "silmek"
+   },
+   "ex": {
+    "en": "Delete the old photos."
+   }
+  },
+  {
+   "id": "it.to-print",
+   "t": {
+    "en": "to print",
+    "uk": "роздрукувати",
+    "ru": "распечатать",
+    "pl": "wydrukować",
+    "de": "drucken",
+    "fr": "imprimer",
+    "es": "imprimir",
+    "it": "stampare",
+    "pt": "imprimir",
+    "tr": "yazdırmak"
+   },
+   "ex": {
+    "en": "Print two copies, please."
+   }
+  },
+  {
+   "id": "it.printer",
+   "t": {
+    "en": "printer",
+    "uk": "принтер",
+    "ru": "принтер",
+    "pl": "drukarka",
+    "de": "Drucker",
+    "fr": "imprimante",
+    "es": "impresora",
+    "it": "stampante",
+    "pt": "impressora",
+    "tr": "yazıcı"
+   },
+   "ex": {
+    "en": "The printer is out of paper."
+   }
+  },
+  {
+   "id": "it.to-turn-on",
+   "t": {
+    "en": "to turn on",
+    "uk": "увімкнути",
+    "ru": "включить",
+    "pl": "włączyć",
+    "de": "einschalten",
+    "fr": "allumer",
+    "es": "encender",
+    "it": "accendere",
+    "pt": "ligar",
+    "tr": "açmak"
+   },
+   "ex": {
+    "en": "Turn on the computer."
+   }
+  },
+  {
+   "id": "it.to-turn-off",
+   "t": {
+    "en": "to turn off",
+    "uk": "вимкнути",
+    "ru": "выключить",
+    "pl": "wyłączyć",
+    "de": "ausschalten",
+    "fr": "éteindre",
+    "es": "apagar",
+    "it": "spegnere",
+    "pt": "desligar",
+    "tr": "kapatmak"
+   },
+   "ex": {
+    "en": "Turn off your phone, please."
+   }
+  },
+  {
+   "id": "it.to-restart",
+   "t": {
+    "en": "to restart",
+    "uk": "перезавантажити",
+    "ru": "перезагрузить",
+    "pl": "uruchomić ponownie",
+    "de": "neu starten",
+    "fr": "redémarrer",
+    "es": "reiniciar",
+    "it": "riavviare",
+    "pt": "reiniciar",
+    "tr": "yeniden başlatmak"
+   },
+   "ex": {
+    "en": "Restart the laptop and try again."
+   }
+  },
+  {
+   "id": "it.to-log-in",
+   "t": {
+    "en": "to log in",
+    "uk": "увійти",
+    "ru": "войти",
+    "pl": "zalogować się",
+    "de": "sich anmelden",
+    "fr": "se connecter",
+    "es": "iniciar sesión",
+    "it": "accedere",
+    "pt": "fazer login",
+    "tr": "giriş yapmak"
+   },
+   "ex": {
+    "en": "Log in with your email."
+   }
+  },
+  {
+   "id": "it.to-log-out",
+   "t": {
+    "en": "to log out",
+    "uk": "вийти",
+    "ru": "выйти",
+    "pl": "wylogować się",
+    "de": "sich abmelden",
+    "fr": "se déconnecter",
+    "es": "cerrar sesión",
+    "it": "uscire",
+    "pt": "sair",
+    "tr": "çıkış yapmak"
+   },
+   "ex": {
+    "en": "Log out when you finish."
+   }
+  },
+  {
+   "id": "it.to-search",
+   "t": {
+    "en": "to search",
+    "uk": "шукати",
+    "ru": "искать",
+    "pl": "szukać",
+    "de": "suchen",
+    "fr": "rechercher",
+    "es": "buscar",
+    "it": "cercare",
+    "pt": "pesquisar",
+    "tr": "aramak"
+   },
+   "ex": {
+    "en": "Search for the name online."
+   }
+  },
+  {
+   "id": "it.to-send",
+   "t": {
+    "en": "to send",
+    "uk": "надіслати",
+    "ru": "отправить",
+    "pl": "wysłać",
+    "de": "senden",
+    "fr": "envoyer",
+    "es": "enviar",
+    "it": "inviare",
+    "pt": "enviar",
+    "tr": "göndermek"
+   },
+   "ex": {
+    "en": "Send the photo to me."
+   }
+  },
+  {
+   "id": "it.to-install",
+   "t": {
+    "en": "to install",
+    "uk": "встановити",
+    "ru": "установить",
+    "pl": "zainstalować",
+    "de": "installieren",
+    "fr": "installer",
+    "es": "instalar",
+    "it": "installare",
+    "pt": "instalar",
+    "tr": "kurmak"
+   },
+   "ex": {
+    "en": "Install the app first."
+   }
+  },
+  {
+   "id": "it.wifi",
+   "t": {
+    "en": "wifi",
+    "uk": "вайфай",
+    "ru": "вайфай",
+    "pl": "wi-fi",
+    "de": "WLAN",
+    "fr": "wifi",
+    "es": "wifi",
+    "it": "wifi",
+    "pt": "wi-fi",
+    "tr": "wifi"
+   },
+   "ex": {
+    "en": "What is the wifi password?"
+   }
+  },
+  {
+   "id": "it.charger",
+   "t": {
+    "en": "charger",
+    "uk": "зарядка",
+    "ru": "зарядка",
+    "pl": "ładowarka",
+    "de": "Ladegerät",
+    "fr": "chargeur",
+    "es": "cargador",
+    "it": "caricabatterie",
+    "pt": "carregador",
+    "tr": "şarj aleti"
+   },
+   "ex": {
+    "en": "I need a charger for my phone."
+   }
+  }
+ ]
+}

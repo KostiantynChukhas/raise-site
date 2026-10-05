@@ -1,0 +1,512 @@
+{
+ "id": "sports-a1",
+ "topic": "sports",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "sports.sport",
+   "t": {
+    "en": "sport",
+    "uk": "спорт",
+    "ru": "спорт",
+    "pl": "sport",
+    "de": "Sport",
+    "fr": "sport",
+    "es": "deporte",
+    "it": "sport",
+    "pt": "esporte",
+    "tr": "spor"
+   },
+   "ex": {
+    "en": "My favourite sport is football."
+   }
+  },
+  {
+   "id": "sports.ball",
+   "t": {
+    "en": "ball",
+    "uk": "м'яч",
+    "ru": "мяч",
+    "pl": "piłka",
+    "de": "Ball",
+    "fr": "ballon",
+    "es": "pelota",
+    "it": "palla",
+    "pt": "bola",
+    "tr": "top"
+   },
+   "ex": {
+    "en": "Throw me the ball, please."
+   }
+  },
+  {
+   "id": "sports.football",
+   "t": {
+    "en": "football",
+    "uk": "футбол",
+    "ru": "футбол",
+    "pl": "piłka nożna",
+    "de": "Fußball",
+    "fr": "football",
+    "es": "fútbol",
+    "it": "calcio",
+    "pt": "futebol",
+    "tr": "futbol"
+   },
+   "ex": {
+    "en": "We play football every Saturday."
+   }
+  },
+  {
+   "id": "sports.basketball",
+   "t": {
+    "en": "basketball",
+    "uk": "баскетбол",
+    "ru": "баскетбол",
+    "pl": "koszykówka",
+    "de": "Basketball",
+    "fr": "basket-ball",
+    "es": "baloncesto",
+    "it": "pallacanestro",
+    "pt": "basquete",
+    "tr": "basketbol"
+   },
+   "ex": {
+    "en": "He is tall and plays basketball."
+   }
+  },
+  {
+   "id": "sports.tennis",
+   "t": {
+    "en": "tennis",
+    "uk": "теніс",
+    "ru": "теннис",
+    "pl": "tenis",
+    "de": "Tennis",
+    "fr": "tennis",
+    "es": "tenis",
+    "it": "tennis",
+    "pt": "tênis",
+    "tr": "tenis"
+   },
+   "ex": {
+    "en": "Do you want to play tennis today?"
+   }
+  },
+  {
+   "id": "sports.to-swim",
+   "t": {
+    "en": "to swim",
+    "uk": "плавати",
+    "ru": "плавать",
+    "pl": "pływać",
+    "de": "schwimmen",
+    "fr": "nager",
+    "es": "nadar",
+    "it": "nuotare",
+    "pt": "nadar",
+    "tr": "yüzmek"
+   },
+   "ex": {
+    "en": "Can you swim?"
+   }
+  },
+  {
+   "id": "sports.to-jump",
+   "t": {
+    "en": "to jump",
+    "uk": "стрибати",
+    "ru": "прыгать",
+    "pl": "skakać",
+    "de": "springen",
+    "fr": "sauter",
+    "es": "saltar",
+    "it": "saltare",
+    "pt": "pular",
+    "tr": "zıplamak"
+   },
+   "ex": {
+    "en": "The children jump into the water."
+   }
+  },
+  {
+   "id": "sports.to-play",
+   "t": {
+    "en": "to play",
+    "uk": "грати",
+    "ru": "играть",
+    "pl": "grać",
+    "de": "spielen",
+    "fr": "jouer",
+    "es": "jugar",
+    "it": "giocare",
+    "pt": "jogar",
+    "tr": "oynamak"
+   },
+   "ex": {
+    "en": "Let's play after school."
+   }
+  },
+  {
+   "id": "sports.team",
+   "t": {
+    "en": "team",
+    "uk": "команда",
+    "ru": "команда",
+    "pl": "drużyna",
+    "de": "Mannschaft",
+    "fr": "équipe",
+    "es": "equipo",
+    "it": "squadra",
+    "pt": "time",
+    "tr": "takım"
+   },
+   "ex": {
+    "en": "Our team has eleven players."
+   }
+  },
+  {
+   "id": "sports.player",
+   "t": {
+    "en": "player",
+    "uk": "гравець",
+    "ru": "игрок",
+    "pl": "zawodnik",
+    "de": "Spieler",
+    "fr": "joueur",
+    "es": "jugador",
+    "it": "giocatore",
+    "pt": "jogador",
+    "tr": "oyuncu"
+   },
+   "ex": {
+    "en": "He is the best player on the team."
+   }
+  },
+  {
+   "id": "sports.to-win",
+   "t": {
+    "en": "to win",
+    "uk": "вигравати",
+    "ru": "выигрывать",
+    "pl": "wygrywać",
+    "de": "gewinnen",
+    "fr": "gagner",
+    "es": "ganar",
+    "it": "vincere",
+    "pt": "ganhar",
+    "tr": "kazanmak"
+   },
+   "ex": {
+    "en": "I hope we win tonight."
+   }
+  },
+  {
+   "id": "sports.to-lose",
+   "t": {
+    "en": "to lose",
+    "uk": "програвати",
+    "ru": "проигрывать",
+    "pl": "przegrywać",
+    "de": "verlieren",
+    "fr": "perdre",
+    "es": "perder",
+    "it": "perdere",
+    "pt": "perder",
+    "tr": "kaybetmek"
+   },
+   "ex": {
+    "en": "We lost the game two to one."
+   }
+  },
+  {
+   "id": "sports.goal",
+   "t": {
+    "en": "goal",
+    "uk": "гол",
+    "ru": "гол",
+    "pl": "gol",
+    "de": "Tor",
+    "fr": "but",
+    "es": "gol",
+    "it": "gol",
+    "pt": "gol",
+    "tr": "gol"
+   },
+   "ex": {
+    "en": "What a beautiful goal!"
+   }
+  },
+  {
+   "id": "sports.gym",
+   "t": {
+    "en": "gym",
+    "uk": "спортзал",
+    "ru": "спортзал",
+    "pl": "siłownia",
+    "de": "Fitnessstudio",
+    "fr": "salle de sport",
+    "es": "gimnasio",
+    "it": "palestra",
+    "pt": "academia",
+    "tr": "spor salonu"
+   },
+   "ex": {
+    "en": "I go to the gym three times a week."
+   }
+  },
+  {
+   "id": "sports.coach",
+   "t": {
+    "en": "coach",
+    "uk": "тренер",
+    "ru": "тренер",
+    "pl": "trener",
+    "de": "Trainer",
+    "fr": "entraîneur",
+    "es": "entrenador",
+    "it": "allenatore",
+    "pt": "treinador",
+    "tr": "antrenör"
+   },
+   "ex": {
+    "en": "The coach is talking to the players."
+   }
+  },
+  {
+   "id": "sports.to-ride-a-bike",
+   "t": {
+    "en": "to ride a bike",
+    "uk": "кататися на велосипеді",
+    "ru": "кататься на велосипеде",
+    "pl": "jeździć na rowerze",
+    "de": "Fahrrad fahren",
+    "fr": "faire du vélo",
+    "es": "montar en bici",
+    "it": "andare in bicicletta",
+    "pt": "andar de bicicleta",
+    "tr": "bisiklet sürmek"
+   },
+   "ex": {
+    "en": "I ride my bike to work."
+   }
+  },
+  {
+   "id": "sports.swimming-pool",
+   "t": {
+    "en": "swimming pool",
+    "uk": "басейн",
+    "ru": "бассейн",
+    "pl": "basen",
+    "de": "Schwimmbad",
+    "fr": "piscine",
+    "es": "piscina",
+    "it": "piscina",
+    "pt": "piscina",
+    "tr": "yüzme havuzu"
+   },
+   "ex": {
+    "en": "The swimming pool opens at six."
+   }
+  },
+  {
+   "id": "sports.match",
+   "t": {
+    "en": "match",
+    "uk": "матч",
+    "ru": "матч",
+    "pl": "mecz",
+    "de": "Spiel",
+    "fr": "match",
+    "es": "partido",
+    "it": "partita",
+    "pt": "partida",
+    "tr": "maç"
+   },
+   "ex": {
+    "en": "Are you watching the match tonight?"
+   }
+  },
+  {
+   "id": "sports.stadium",
+   "t": {
+    "en": "stadium",
+    "uk": "стадіон",
+    "ru": "стадион",
+    "pl": "stadion",
+    "de": "Stadion",
+    "fr": "stade",
+    "es": "estadio",
+    "it": "stadio",
+    "pt": "estádio",
+    "tr": "stadyum"
+   },
+   "ex": {
+    "en": "The stadium is full of fans."
+   }
+  },
+  {
+   "id": "sports.fast",
+   "t": {
+    "en": "fast",
+    "uk": "швидкий",
+    "ru": "быстрый",
+    "pl": "szybki",
+    "de": "schnell",
+    "fr": "rapide",
+    "es": "rápido",
+    "it": "veloce",
+    "pt": "rápido",
+    "tr": "hızlı"
+   },
+   "ex": {
+    "en": "She is a very fast runner."
+   }
+  },
+  {
+   "id": "sports.strong",
+   "t": {
+    "en": "strong",
+    "uk": "сильний",
+    "ru": "сильный",
+    "pl": "silny",
+    "de": "stark",
+    "fr": "fort",
+    "es": "fuerte",
+    "it": "forte",
+    "pt": "forte",
+    "tr": "güçlü"
+   },
+   "ex": {
+    "en": "He is strong and lifts heavy things."
+   }
+  },
+  {
+   "id": "sports.to-go-for-a-walk",
+   "t": {
+    "en": "to go for a walk",
+    "uk": "йти на прогулянку",
+    "ru": "идти на прогулку",
+    "pl": "iść na spacer",
+    "de": "spazieren gehen",
+    "fr": "se promener",
+    "es": "dar un paseo",
+    "it": "fare una passeggiata",
+    "pt": "dar uma caminhada",
+    "tr": "yürüyüşe çıkmak"
+   },
+   "ex": {
+    "en": "Let's go for a walk after lunch."
+   }
+  },
+  {
+   "id": "sports.to-ski",
+   "t": {
+    "en": "to ski",
+    "uk": "кататися на лижах",
+    "ru": "кататься на лыжах",
+    "pl": "jeździć na nartach",
+    "de": "Ski fahren",
+    "fr": "skier",
+    "es": "esquiar",
+    "it": "sciare",
+    "pt": "esquiar",
+    "tr": "kayak yapmak"
+   },
+   "ex": {
+    "en": "We ski in the mountains in winter."
+   }
+  },
+  {
+   "id": "sports.race",
+   "t": {
+    "en": "race",
+    "uk": "перегони",
+    "ru": "гонка",
+    "pl": "wyścig",
+    "de": "Rennen",
+    "fr": "course",
+    "es": "carrera",
+    "it": "gara",
+    "pt": "corrida",
+    "tr": "yarış"
+   },
+   "ex": {
+    "en": "The race begins at nine o'clock."
+   }
+  },
+  {
+   "id": "sports.to-throw",
+   "t": {
+    "en": "to throw",
+    "uk": "кидати",
+    "ru": "бросать",
+    "pl": "rzucać",
+    "de": "werfen",
+    "fr": "lancer",
+    "es": "lanzar",
+    "it": "lanciare",
+    "pt": "jogar",
+    "tr": "atmak"
+   },
+   "ex": {
+    "en": "Throw the ball to your friend."
+   }
+  },
+  {
+   "id": "sports.to-catch",
+   "t": {
+    "en": "to catch",
+    "uk": "ловити",
+    "ru": "ловить",
+    "pl": "łapać",
+    "de": "fangen",
+    "fr": "attraper",
+    "es": "atrapar",
+    "it": "prendere",
+    "pt": "pegar",
+    "tr": "yakalamak"
+   },
+   "ex": {
+    "en": "Catch the ball with both hands."
+   }
+  },
+  {
+   "id": "sports.sneakers",
+   "t": {
+    "en": "sneakers",
+    "uk": "кросівки",
+    "ru": "кроссовки",
+    "pl": "buty sportowe",
+    "de": "Turnschuhe",
+    "fr": "baskets",
+    "es": "zapatillas",
+    "it": "scarpe da ginnastica",
+    "pt": "tênis",
+    "tr": "spor ayakkabı"
+   },
+   "ex": {
+    "en": "I need new sneakers for running."
+   }
+  },
+  {
+   "id": "sports.to-train",
+   "t": {
+    "en": "to train",
+    "uk": "тренуватися",
+    "ru": "тренироваться",
+    "pl": "trenować",
+    "de": "trainieren",
+    "fr": "s'entraîner",
+    "es": "entrenar",
+    "it": "allenarsi",
+    "pt": "treinar",
+    "tr": "antrenman yapmak"
+   },
+   "ex": {
+    "en": "The team trains every evening."
+   }
+  }
+ ]
+}

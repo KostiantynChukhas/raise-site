@@ -1,0 +1,494 @@
+{
+ "id": "it-b1",
+ "topic": "it",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "it.software",
+   "t": {
+    "en": "software",
+    "uk": "програмне забезпечення",
+    "ru": "программное обеспечение",
+    "pl": "oprogramowanie",
+    "de": "Software",
+    "fr": "logiciel",
+    "es": "software",
+    "it": "software",
+    "pt": "software",
+    "tr": "yazılım"
+   },
+   "ex": {
+    "en": "The software needs a license."
+   }
+  },
+  {
+   "id": "it.hardware",
+   "t": {
+    "en": "hardware",
+    "uk": "апаратне забезпечення",
+    "ru": "железо",
+    "pl": "sprzęt",
+    "de": "Hardware",
+    "fr": "matériel",
+    "es": "hardware",
+    "it": "hardware",
+    "pt": "hardware",
+    "tr": "donanım"
+   },
+   "ex": {
+    "en": "The problem is with the hardware."
+   }
+  },
+  {
+   "id": "it.server",
+   "t": {
+    "en": "server",
+    "uk": "сервер",
+    "ru": "сервер",
+    "pl": "serwer",
+    "de": "Server",
+    "fr": "serveur",
+    "es": "servidor",
+    "it": "server",
+    "pt": "servidor",
+    "tr": "sunucu"
+   },
+   "ex": {
+    "en": "The server is down again."
+   }
+  },
+  {
+   "id": "it.database",
+   "t": {
+    "en": "database",
+    "uk": "база даних",
+    "ru": "база данных",
+    "pl": "baza danych",
+    "de": "Datenbank",
+    "fr": "base de données",
+    "es": "base de datos",
+    "it": "database",
+    "pt": "banco de dados",
+    "tr": "veritabanı"
+   },
+   "ex": {
+    "en": "All users are in the database."
+   }
+  },
+  {
+   "id": "it.network",
+   "t": {
+    "en": "network",
+    "uk": "мережа",
+    "ru": "сеть",
+    "pl": "sieć",
+    "de": "Netzwerk",
+    "fr": "réseau",
+    "es": "red",
+    "it": "rete",
+    "pt": "rede",
+    "tr": "ağ"
+   },
+   "ex": {
+    "en": "The office network is slow today."
+   }
+  },
+  {
+   "id": "it.developer",
+   "t": {
+    "en": "developer",
+    "uk": "розробник",
+    "ru": "разработчик",
+    "pl": "programista",
+    "de": "Entwickler",
+    "fr": "développeur",
+    "es": "desarrollador",
+    "it": "sviluppatore",
+    "pt": "desenvolvedor",
+    "tr": "geliştirici"
+   },
+   "ex": {
+    "en": "Our developers fixed it quickly."
+   }
+  },
+  {
+   "id": "it.user-interface",
+   "t": {
+    "en": "user interface",
+    "uk": "інтерфейс користувача",
+    "ru": "интерфейс",
+    "pl": "interfejs użytkownika",
+    "de": "Benutzeroberfläche",
+    "fr": "interface utilisateur",
+    "es": "interfaz de usuario",
+    "it": "interfaccia utente",
+    "pt": "interface do usuário",
+    "tr": "kullanıcı arayüzü"
+   },
+   "ex": {
+    "en": "The user interface is clean and simple."
+   }
+  },
+  {
+   "id": "it.feature",
+   "t": {
+    "en": "feature",
+    "uk": "функція",
+    "ru": "функция",
+    "pl": "funkcja",
+    "de": "Funktion",
+    "fr": "fonctionnalité",
+    "es": "función",
+    "it": "funzionalità",
+    "pt": "funcionalidade",
+    "tr": "özellik"
+   },
+   "ex": {
+    "en": "This feature is very popular."
+   }
+  },
+  {
+   "id": "it.release",
+   "t": {
+    "en": "release",
+    "uk": "реліз",
+    "ru": "релиз",
+    "pl": "wydanie",
+    "de": "Release",
+    "fr": "version",
+    "es": "lanzamiento",
+    "it": "rilascio",
+    "pt": "lançamento",
+    "tr": "sürüm"
+   },
+   "ex": {
+    "en": "The next release is on Friday."
+   }
+  },
+  {
+   "id": "it.to-deploy",
+   "t": {
+    "en": "to deploy",
+    "uk": "розгорнути",
+    "ru": "развернуть",
+    "pl": "wdrożyć",
+    "de": "bereitstellen",
+    "fr": "déployer",
+    "es": "desplegar",
+    "it": "distribuire",
+    "pt": "implantar",
+    "tr": "dağıtmak"
+   },
+   "ex": {
+    "en": "We deploy every Tuesday."
+   }
+  },
+  {
+   "id": "it.to-test",
+   "t": {
+    "en": "to test",
+    "uk": "тестувати",
+    "ru": "тестировать",
+    "pl": "testować",
+    "de": "testen",
+    "fr": "tester",
+    "es": "probar",
+    "it": "testare",
+    "pt": "testar",
+    "tr": "test etmek"
+   },
+   "ex": {
+    "en": "Test it before the release."
+   }
+  },
+  {
+   "id": "it.to-fix",
+   "t": {
+    "en": "to fix",
+    "uk": "виправити",
+    "ru": "исправить",
+    "pl": "naprawić",
+    "de": "beheben",
+    "fr": "corriger",
+    "es": "arreglar",
+    "it": "risolvere",
+    "pt": "corrigir",
+    "tr": "düzeltmek"
+   },
+   "ex": {
+    "en": "Can you fix this today?"
+   }
+  },
+  {
+   "id": "it.to-troubleshoot",
+   "t": {
+    "en": "to troubleshoot",
+    "uk": "усувати неполадки",
+    "ru": "устранять неполадки",
+    "pl": "rozwiązywać problemy",
+    "de": "Fehler beheben",
+    "fr": "dépanner",
+    "es": "solucionar problemas",
+    "it": "risolvere problemi",
+    "pt": "solucionar problemas",
+    "tr": "sorun gidermek"
+   },
+   "ex": {
+    "en": "Support will troubleshoot the issue."
+   }
+  },
+  {
+   "id": "it.device",
+   "t": {
+    "en": "device",
+    "uk": "пристрій",
+    "ru": "устройство",
+    "pl": "urządzenie",
+    "de": "Gerät",
+    "fr": "appareil",
+    "es": "dispositivo",
+    "it": "dispositivo",
+    "pt": "dispositivo",
+    "tr": "cihaz"
+   },
+   "ex": {
+    "en": "The app works on any device."
+   }
+  },
+  {
+   "id": "it.operating-system",
+   "t": {
+    "en": "operating system",
+    "uk": "операційна система",
+    "ru": "операционная система",
+    "pl": "system operacyjny",
+    "de": "Betriebssystem",
+    "fr": "système d'exploitation",
+    "es": "sistema operativo",
+    "it": "sistema operativo",
+    "pt": "sistema operacional",
+    "tr": "işletim sistemi"
+   },
+   "ex": {
+    "en": "Which operating system do you use?"
+   }
+  },
+  {
+   "id": "it.to-sync",
+   "t": {
+    "en": "to sync",
+    "uk": "синхронізувати",
+    "ru": "синхронизировать",
+    "pl": "synchronizować",
+    "de": "synchronisieren",
+    "fr": "synchroniser",
+    "es": "sincronizar",
+    "it": "sincronizzare",
+    "pt": "sincronizar",
+    "tr": "senkronize etmek"
+   },
+   "ex": {
+    "en": "Sync your contacts with the cloud."
+   }
+  },
+  {
+   "id": "it.to-encrypt",
+   "t": {
+    "en": "to encrypt",
+    "uk": "шифрувати",
+    "ru": "шифровать",
+    "pl": "szyfrować",
+    "de": "verschlüsseln",
+    "fr": "chiffrer",
+    "es": "cifrar",
+    "it": "crittografare",
+    "pt": "criptografar",
+    "tr": "şifrelemek"
+   },
+   "ex": {
+    "en": "All messages are encrypted."
+   }
+  },
+  {
+   "id": "it.cybersecurity",
+   "t": {
+    "en": "cybersecurity",
+    "uk": "кібербезпека",
+    "ru": "кибербезопасность",
+    "pl": "cyberbezpieczeństwo",
+    "de": "Cybersicherheit",
+    "fr": "cybersécurité",
+    "es": "ciberseguridad",
+    "it": "sicurezza informatica",
+    "pt": "segurança cibernética",
+    "tr": "siber güvenlik"
+   },
+   "ex": {
+    "en": "Cybersecurity is a top priority."
+   }
+  },
+  {
+   "id": "it.permission",
+   "t": {
+    "en": "permission",
+    "uk": "дозвіл",
+    "ru": "разрешение",
+    "pl": "uprawnienie",
+    "de": "Berechtigung",
+    "fr": "autorisation",
+    "es": "permiso",
+    "it": "autorizzazione",
+    "pt": "permissão",
+    "tr": "izin"
+   },
+   "ex": {
+    "en": "The app asks for camera permission."
+   }
+  },
+  {
+   "id": "it.workaround",
+   "t": {
+    "en": "workaround",
+    "uk": "обхідний шлях",
+    "ru": "обходной путь",
+    "pl": "obejście",
+    "de": "Workaround",
+    "fr": "solution de contournement",
+    "es": "solución temporal",
+    "it": "soluzione alternativa",
+    "pt": "solução alternativa",
+    "tr": "geçici çözüm"
+   },
+   "ex": {
+    "en": "There is a workaround for the bug."
+   }
+  },
+  {
+   "id": "it.downtime",
+   "t": {
+    "en": "downtime",
+    "uk": "простій",
+    "ru": "простой",
+    "pl": "przestój",
+    "de": "Ausfallzeit",
+    "fr": "temps d'arrêt",
+    "es": "tiempo de inactividad",
+    "it": "tempo di inattività",
+    "pt": "tempo de inatividade",
+    "tr": "kesinti süresi"
+   },
+   "ex": {
+    "en": "We had two hours of downtime."
+   }
+  },
+  {
+   "id": "it.sprint",
+   "t": {
+    "en": "sprint",
+    "uk": "спринт",
+    "ru": "спринт",
+    "pl": "sprint",
+    "de": "Sprint",
+    "fr": "sprint",
+    "es": "sprint",
+    "it": "sprint",
+    "pt": "sprint",
+    "tr": "sprint"
+   },
+   "ex": {
+    "en": "This sprint ends on Thursday."
+   }
+  },
+  {
+   "id": "it.standup",
+   "t": {
+    "en": "standup",
+    "uk": "стендап",
+    "ru": "стендап",
+    "pl": "standup",
+    "de": "Standup",
+    "fr": "stand-up",
+    "es": "reunión diaria",
+    "it": "stand-up",
+    "pt": "daily",
+    "tr": "günlük toplantı"
+   },
+   "ex": {
+    "en": "Standup is at nine every morning."
+   }
+  },
+  {
+   "id": "it.to-roll-out",
+   "t": {
+    "en": "to roll out",
+    "uk": "поступово впроваджувати",
+    "ru": "внедрять",
+    "pl": "wdrażać stopniowo",
+    "de": "ausrollen",
+    "fr": "déployer progressivement",
+    "es": "implantar",
+    "it": "distribuire gradualmente",
+    "pt": "liberar aos poucos",
+    "tr": "kademeli olarak sunmak"
+   },
+   "ex": {
+    "en": "We will roll out the change next week."
+   }
+  },
+  {
+   "id": "it.outage",
+   "t": {
+    "en": "outage",
+    "uk": "збій",
+    "ru": "сбой",
+    "pl": "awaria",
+    "de": "Ausfall",
+    "fr": "panne",
+    "es": "caída",
+    "it": "interruzione",
+    "pt": "queda",
+    "tr": "kesinti"
+   },
+   "ex": {
+    "en": "The outage lasted thirty minutes."
+   }
+  },
+  {
+   "id": "it.demo",
+   "t": {
+    "en": "demo",
+    "uk": "демо",
+    "ru": "демо",
+    "pl": "demo",
+    "de": "Demo",
+    "fr": "démo",
+    "es": "demo",
+    "it": "demo",
+    "pt": "demonstração",
+    "tr": "demo"
+   },
+   "ex": {
+    "en": "Let's do a demo for the client."
+   }
+  },
+  {
+   "id": "it.dashboard",
+   "t": {
+    "en": "dashboard",
+    "uk": "панель показників",
+    "ru": "дашборд",
+    "pl": "panel",
+    "de": "Dashboard",
+    "fr": "tableau de bord",
+    "es": "panel de control",
+    "it": "dashboard",
+    "pt": "painel",
+    "tr": "gösterge paneli"
+   },
+   "ex": {
+    "en": "Check the numbers on the dashboard."
+   }
+  }
+ ]
+}

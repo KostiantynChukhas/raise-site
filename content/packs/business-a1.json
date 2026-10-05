@@ -1,0 +1,548 @@
+{
+ "id": "business-a1",
+ "topic": "business",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "business.company",
+   "t": {
+    "en": "company",
+    "uk": "компанія",
+    "ru": "компания",
+    "pl": "firma",
+    "de": "Firma",
+    "fr": "entreprise",
+    "es": "empresa",
+    "it": "azienda",
+    "pt": "empresa",
+    "tr": "şirket"
+   },
+   "ex": {
+    "en": "She works for a big company."
+   }
+  },
+  {
+   "id": "business.boss",
+   "t": {
+    "en": "boss",
+    "uk": "начальник",
+    "ru": "начальник",
+    "pl": "szef",
+    "de": "Chef",
+    "fr": "patron",
+    "es": "jefe",
+    "it": "capo",
+    "pt": "chefe",
+    "tr": "patron"
+   },
+   "ex": {
+    "en": "My boss is in a meeting."
+   }
+  },
+  {
+   "id": "business.employee",
+   "t": {
+    "en": "employee",
+    "uk": "працівник",
+    "ru": "сотрудник",
+    "pl": "pracownik",
+    "de": "Mitarbeiter",
+    "fr": "employé",
+    "es": "empleado",
+    "it": "dipendente",
+    "pt": "funcionário",
+    "tr": "çalışan"
+   },
+   "ex": {
+    "en": "The company has fifty employees."
+   }
+  },
+  {
+   "id": "business.customer",
+   "t": {
+    "en": "customer",
+    "uk": "клієнт",
+    "ru": "клиент",
+    "pl": "klient",
+    "de": "Kunde",
+    "fr": "client",
+    "es": "cliente",
+    "it": "cliente",
+    "pt": "cliente",
+    "tr": "müşteri"
+   },
+   "ex": {
+    "en": "The customer is always right."
+   }
+  },
+  {
+   "id": "business.price",
+   "t": {
+    "en": "price",
+    "uk": "ціна",
+    "ru": "цена",
+    "pl": "cena",
+    "de": "Preis",
+    "fr": "prix",
+    "es": "precio",
+    "it": "prezzo",
+    "pt": "preço",
+    "tr": "fiyat"
+   },
+   "ex": {
+    "en": "What is the price of this laptop?"
+   }
+  },
+  {
+   "id": "business.to-buy",
+   "t": {
+    "en": "to buy",
+    "uk": "купувати",
+    "ru": "покупать",
+    "pl": "kupować",
+    "de": "kaufen",
+    "fr": "acheter",
+    "es": "comprar",
+    "it": "comprare",
+    "pt": "comprar",
+    "tr": "satın almak"
+   },
+   "ex": {
+    "en": "We want to buy a new printer."
+   }
+  },
+  {
+   "id": "business.to-sell",
+   "t": {
+    "en": "to sell",
+    "uk": "продавати",
+    "ru": "продавать",
+    "pl": "sprzedawać",
+    "de": "verkaufen",
+    "fr": "vendre",
+    "es": "vender",
+    "it": "vendere",
+    "pt": "vender",
+    "tr": "satmak"
+   },
+   "ex": {
+    "en": "They sell phones online."
+   }
+  },
+  {
+   "id": "business.to-pay",
+   "t": {
+    "en": "to pay",
+    "uk": "платити",
+    "ru": "платить",
+    "pl": "płacić",
+    "de": "bezahlen",
+    "fr": "payer",
+    "es": "pagar",
+    "it": "pagare",
+    "pt": "pagar",
+    "tr": "ödemek"
+   },
+   "ex": {
+    "en": "Can I pay by card?"
+   }
+  },
+  {
+   "id": "business.money",
+   "t": {
+    "en": "money",
+    "uk": "гроші",
+    "ru": "деньги",
+    "pl": "pieniądze",
+    "de": "Geld",
+    "fr": "argent",
+    "es": "dinero",
+    "it": "soldi",
+    "pt": "dinheiro",
+    "tr": "para"
+   },
+   "ex": {
+    "en": "We need more money for the project."
+   }
+  },
+  {
+   "id": "business.office",
+   "t": {
+    "en": "office",
+    "uk": "офіс",
+    "ru": "офис",
+    "pl": "biuro",
+    "de": "Büro",
+    "fr": "bureau",
+    "es": "oficina",
+    "it": "ufficio",
+    "pt": "escritório",
+    "tr": "ofis"
+   },
+   "ex": {
+    "en": "The office opens at nine."
+   }
+  },
+  {
+   "id": "business.meeting",
+   "t": {
+    "en": "meeting",
+    "uk": "нарада",
+    "ru": "совещание",
+    "pl": "zebranie",
+    "de": "Besprechung",
+    "fr": "réunion",
+    "es": "reunión",
+    "it": "riunione",
+    "pt": "reunião",
+    "tr": "toplantı"
+   },
+   "ex": {
+    "en": "The meeting starts at ten."
+   }
+  },
+  {
+   "id": "business.job",
+   "t": {
+    "en": "job",
+    "uk": "робота",
+    "ru": "работа",
+    "pl": "praca",
+    "de": "Arbeitsstelle",
+    "fr": "travail",
+    "es": "trabajo",
+    "it": "lavoro",
+    "pt": "emprego",
+    "tr": "iş"
+   },
+   "ex": {
+    "en": "I have a new job."
+   }
+  },
+  {
+   "id": "business.contract",
+   "t": {
+    "en": "contract",
+    "uk": "договір",
+    "ru": "договор",
+    "pl": "umowa",
+    "de": "Vertrag",
+    "fr": "contrat",
+    "es": "contrato",
+    "it": "contratto",
+    "pt": "contrato",
+    "tr": "sözleşme"
+   },
+   "ex": {
+    "en": "Please read the contract carefully."
+   }
+  },
+  {
+   "id": "business.to-sign",
+   "t": {
+    "en": "to sign",
+    "uk": "підписувати",
+    "ru": "подписывать",
+    "pl": "podpisywać",
+    "de": "unterschreiben",
+    "fr": "signer",
+    "es": "firmar",
+    "it": "firmare",
+    "pt": "assinar",
+    "tr": "imzalamak"
+   },
+   "ex": {
+    "en": "Sign here, please."
+   }
+  },
+  {
+   "id": "business.invoice",
+   "t": {
+    "en": "invoice",
+    "uk": "рахунок-фактура",
+    "ru": "счёт",
+    "pl": "faktura",
+    "de": "Rechnung",
+    "fr": "facture",
+    "es": "factura",
+    "it": "fattura",
+    "pt": "nota fiscal",
+    "tr": "fatura"
+   },
+   "ex": {
+    "en": "Send me the invoice by email."
+   }
+  },
+  {
+   "id": "business.discount",
+   "t": {
+    "en": "discount",
+    "uk": "знижка",
+    "ru": "скидка",
+    "pl": "rabat",
+    "de": "Rabatt",
+    "fr": "remise",
+    "es": "descuento",
+    "it": "sconto",
+    "pt": "desconto",
+    "tr": "indirim"
+   },
+   "ex": {
+    "en": "Can you give me a discount?"
+   }
+  },
+  {
+   "id": "business.product",
+   "t": {
+    "en": "product",
+    "uk": "продукт",
+    "ru": "продукт",
+    "pl": "produkt",
+    "de": "Produkt",
+    "fr": "produit",
+    "es": "producto",
+    "it": "prodotto",
+    "pt": "produto",
+    "tr": "ürün"
+   },
+   "ex": {
+    "en": "This is our new product."
+   }
+  },
+  {
+   "id": "business.shop",
+   "t": {
+    "en": "shop",
+    "uk": "магазин",
+    "ru": "магазин",
+    "pl": "sklep",
+    "de": "Geschäft",
+    "fr": "magasin",
+    "es": "tienda",
+    "it": "negozio",
+    "pt": "loja",
+    "tr": "dükkan"
+   },
+   "ex": {
+    "en": "The shop closes at eight."
+   }
+  },
+  {
+   "id": "business.cheap",
+   "t": {
+    "en": "cheap",
+    "uk": "дешевий",
+    "ru": "дешёвый",
+    "pl": "tani",
+    "de": "billig",
+    "fr": "bon marché",
+    "es": "barato",
+    "it": "economico",
+    "pt": "barato",
+    "tr": "ucuz"
+   },
+   "ex": {
+    "en": "This phone is very cheap."
+   }
+  },
+  {
+   "id": "business.expensive",
+   "t": {
+    "en": "expensive",
+    "uk": "дорогий",
+    "ru": "дорогой",
+    "pl": "drogi",
+    "de": "teuer",
+    "fr": "cher",
+    "es": "caro",
+    "it": "caro",
+    "pt": "caro",
+    "tr": "pahalı"
+   },
+   "ex": {
+    "en": "The new office is too expensive."
+   }
+  },
+  {
+   "id": "business.business-card",
+   "t": {
+    "en": "business card",
+    "uk": "візитка",
+    "ru": "визитка",
+    "pl": "wizytówka",
+    "de": "Visitenkarte",
+    "fr": "carte de visite",
+    "es": "tarjeta de visita",
+    "it": "biglietto da visita",
+    "pt": "cartão de visita",
+    "tr": "kartvizit"
+   },
+   "ex": {
+    "en": "Here is my business card."
+   }
+  },
+  {
+   "id": "business.colleague",
+   "t": {
+    "en": "colleague",
+    "uk": "колега",
+    "ru": "коллега",
+    "pl": "kolega z pracy",
+    "de": "Kollege",
+    "fr": "collègue",
+    "es": "colega",
+    "it": "collega",
+    "pt": "colega",
+    "tr": "iş arkadaşı"
+   },
+   "ex": {
+    "en": "My colleague is from Spain."
+   }
+  },
+  {
+   "id": "business.to-work",
+   "t": {
+    "en": "to work",
+    "uk": "працювати",
+    "ru": "работать",
+    "pl": "pracować",
+    "de": "arbeiten",
+    "fr": "travailler",
+    "es": "trabajar",
+    "it": "lavorare",
+    "pt": "trabalhar",
+    "tr": "çalışmak"
+   },
+   "ex": {
+    "en": "I work from Monday to Friday."
+   }
+  },
+  {
+   "id": "business.salary",
+   "t": {
+    "en": "salary",
+    "uk": "зарплата",
+    "ru": "зарплата",
+    "pl": "pensja",
+    "de": "Gehalt",
+    "fr": "salaire",
+    "es": "sueldo",
+    "it": "stipendio",
+    "pt": "salário",
+    "tr": "maaş"
+   },
+   "ex": {
+    "en": "The salary is paid monthly."
+   }
+  },
+  {
+   "id": "business.email",
+   "t": {
+    "en": "email",
+    "uk": "електронний лист",
+    "ru": "электронное письмо",
+    "pl": "e-mail",
+    "de": "E-Mail",
+    "fr": "e-mail",
+    "es": "correo electrónico",
+    "it": "e-mail",
+    "pt": "e-mail",
+    "tr": "e-posta"
+   },
+   "ex": {
+    "en": "I will send you an email."
+   }
+  },
+  {
+   "id": "business.deadline",
+   "t": {
+    "en": "deadline",
+    "uk": "дедлайн",
+    "ru": "срок сдачи",
+    "pl": "termin",
+    "de": "Frist",
+    "fr": "date limite",
+    "es": "fecha límite",
+    "it": "scadenza",
+    "pt": "prazo",
+    "tr": "son tarih"
+   },
+   "ex": {
+    "en": "The deadline is on Friday."
+   }
+  },
+  {
+   "id": "business.appointment",
+   "t": {
+    "en": "appointment",
+    "uk": "призначена зустріч",
+    "ru": "встреча",
+    "pl": "umówione spotkanie",
+    "de": "Termin",
+    "fr": "rendez-vous",
+    "es": "cita",
+    "it": "appuntamento",
+    "pt": "compromisso",
+    "tr": "randevu"
+   },
+   "ex": {
+    "en": "I have an appointment at two."
+   }
+  },
+  {
+   "id": "business.cash",
+   "t": {
+    "en": "cash",
+    "uk": "готівка",
+    "ru": "наличные",
+    "pl": "gotówka",
+    "de": "Bargeld",
+    "fr": "espèces",
+    "es": "efectivo",
+    "it": "contanti",
+    "pt": "dinheiro vivo",
+    "tr": "nakit"
+   },
+   "ex": {
+    "en": "We only accept cash."
+   }
+  },
+  {
+   "id": "business.receipt",
+   "t": {
+    "en": "receipt",
+    "uk": "чек",
+    "ru": "чек",
+    "pl": "paragon",
+    "de": "Quittung",
+    "fr": "reçu",
+    "es": "recibo",
+    "it": "scontrino",
+    "pt": "recibo",
+    "tr": "fiş"
+   },
+   "ex": {
+    "en": "Keep the receipt, please."
+   }
+  },
+  {
+   "id": "business.to-call-back",
+   "t": {
+    "en": "to call back",
+    "uk": "передзвонити",
+    "ru": "перезвонить",
+    "pl": "oddzwonić",
+    "de": "zurückrufen",
+    "fr": "rappeler",
+    "es": "devolver la llamada",
+    "it": "richiamare",
+    "pt": "retornar a ligação",
+    "tr": "geri aramak"
+   },
+   "ex": {
+    "en": "I will call you back later."
+   }
+  }
+ ]
+}

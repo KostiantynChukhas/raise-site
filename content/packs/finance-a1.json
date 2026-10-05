@@ -1,0 +1,548 @@
+{
+ "id": "finance-a1",
+ "topic": "finance",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "finance.coin",
+   "t": {
+    "en": "coin",
+    "uk": "монета",
+    "ru": "монета",
+    "pl": "moneta",
+    "de": "Münze",
+    "fr": "pièce",
+    "es": "moneda",
+    "it": "moneta",
+    "pt": "moeda",
+    "tr": "madeni para"
+   },
+   "ex": {
+    "en": "I found a coin on the floor."
+   }
+  },
+  {
+   "id": "finance.banknote",
+   "t": {
+    "en": "banknote",
+    "uk": "банкнота",
+    "ru": "купюра",
+    "pl": "banknot",
+    "de": "Geldschein",
+    "fr": "billet",
+    "es": "billete",
+    "it": "banconota",
+    "pt": "nota",
+    "tr": "banknot"
+   },
+   "ex": {
+    "en": "He gave me a fifty-euro banknote."
+   }
+  },
+  {
+   "id": "finance.bank",
+   "t": {
+    "en": "bank",
+    "uk": "банк",
+    "ru": "банк",
+    "pl": "bank",
+    "de": "Bank",
+    "fr": "banque",
+    "es": "banco",
+    "it": "banca",
+    "pt": "banco",
+    "tr": "banka"
+   },
+   "ex": {
+    "en": "The bank opens at nine."
+   }
+  },
+  {
+   "id": "finance.card",
+   "t": {
+    "en": "card",
+    "uk": "картка",
+    "ru": "карта",
+    "pl": "karta",
+    "de": "Karte",
+    "fr": "carte",
+    "es": "tarjeta",
+    "it": "carta",
+    "pt": "cartão",
+    "tr": "kart"
+   },
+   "ex": {
+    "en": "Put your card in the machine."
+   }
+  },
+  {
+   "id": "finance.atm",
+   "t": {
+    "en": "ATM",
+    "uk": "банкомат",
+    "ru": "банкомат",
+    "pl": "bankomat",
+    "de": "Geldautomat",
+    "fr": "distributeur",
+    "es": "cajero automático",
+    "it": "bancomat",
+    "pt": "caixa eletrônico",
+    "tr": "ATM"
+   },
+   "ex": {
+    "en": "Is there an ATM near here?"
+   }
+  },
+  {
+   "id": "finance.pin-code",
+   "t": {
+    "en": "PIN code",
+    "uk": "пін-код",
+    "ru": "пин-код",
+    "pl": "kod PIN",
+    "de": "PIN",
+    "fr": "code PIN",
+    "es": "código PIN",
+    "it": "codice PIN",
+    "pt": "senha do cartão",
+    "tr": "şifre"
+   },
+   "ex": {
+    "en": "Please enter your PIN code."
+   }
+  },
+  {
+   "id": "finance.to-withdraw-money",
+   "t": {
+    "en": "to withdraw money",
+    "uk": "знімати гроші",
+    "ru": "снимать деньги",
+    "pl": "wypłacać pieniądze",
+    "de": "Geld abheben",
+    "fr": "retirer de l'argent",
+    "es": "sacar dinero",
+    "it": "prelevare",
+    "pt": "sacar dinheiro",
+    "tr": "para çekmek"
+   },
+   "ex": {
+    "en": "I need to withdraw money today."
+   }
+  },
+  {
+   "id": "finance.free",
+   "t": {
+    "en": "free",
+    "uk": "безкоштовний",
+    "ru": "бесплатный",
+    "pl": "bezpłatny",
+    "de": "kostenlos",
+    "fr": "gratuit",
+    "es": "gratis",
+    "it": "gratuito",
+    "pt": "grátis",
+    "tr": "ücretsiz"
+   },
+   "ex": {
+    "en": "The app is free."
+   }
+  },
+  {
+   "id": "finance.change",
+   "t": {
+    "en": "change",
+    "uk": "решта",
+    "ru": "сдача",
+    "pl": "reszta",
+    "de": "Wechselgeld",
+    "fr": "monnaie",
+    "es": "cambio",
+    "it": "resto",
+    "pt": "troco",
+    "tr": "para üstü"
+   },
+   "ex": {
+    "en": "Keep the change, please."
+   }
+  },
+  {
+   "id": "finance.wallet",
+   "t": {
+    "en": "wallet",
+    "uk": "гаманець",
+    "ru": "кошелёк",
+    "pl": "portfel",
+    "de": "Geldbörse",
+    "fr": "portefeuille",
+    "es": "cartera",
+    "it": "portafoglio",
+    "pt": "carteira",
+    "tr": "cüzdan"
+   },
+   "ex": {
+    "en": "I left my wallet at home."
+   }
+  },
+  {
+   "id": "finance.how-much",
+   "t": {
+    "en": "how much",
+    "uk": "скільки",
+    "ru": "сколько",
+    "pl": "ile",
+    "de": "wie viel",
+    "fr": "combien",
+    "es": "cuánto",
+    "it": "quanto",
+    "pt": "quanto",
+    "tr": "ne kadar"
+   },
+   "ex": {
+    "en": "How much is this coffee?"
+   }
+  },
+  {
+   "id": "finance.to-cost",
+   "t": {
+    "en": "to cost",
+    "uk": "коштувати",
+    "ru": "стоить",
+    "pl": "kosztować",
+    "de": "kosten",
+    "fr": "coûter",
+    "es": "costar",
+    "it": "costare",
+    "pt": "custar",
+    "tr": "mal olmak"
+   },
+   "ex": {
+    "en": "The ticket costs ten euros."
+   }
+  },
+  {
+   "id": "finance.bill",
+   "t": {
+    "en": "bill",
+    "uk": "рахунок",
+    "ru": "счёт",
+    "pl": "rachunek",
+    "de": "Rechnung",
+    "fr": "facture",
+    "es": "factura",
+    "it": "bolletta",
+    "pt": "conta",
+    "tr": "fatura"
+   },
+   "ex": {
+    "en": "The electricity bill came today."
+   }
+  },
+  {
+   "id": "finance.to-save-money",
+   "t": {
+    "en": "to save money",
+    "uk": "заощаджувати гроші",
+    "ru": "копить деньги",
+    "pl": "oszczędzać pieniądze",
+    "de": "Geld sparen",
+    "fr": "économiser de l'argent",
+    "es": "ahorrar dinero",
+    "it": "risparmiare",
+    "pt": "economizar dinheiro",
+    "tr": "para biriktirmek"
+   },
+   "ex": {
+    "en": "I save money every month."
+   }
+  },
+  {
+   "id": "finance.rich",
+   "t": {
+    "en": "rich",
+    "uk": "багатий",
+    "ru": "богатый",
+    "pl": "bogaty",
+    "de": "reich",
+    "fr": "riche",
+    "es": "rico",
+    "it": "ricco",
+    "pt": "rico",
+    "tr": "zengin"
+   },
+   "ex": {
+    "en": "Her uncle is very rich."
+   }
+  },
+  {
+   "id": "finance.poor",
+   "t": {
+    "en": "poor",
+    "uk": "бідний",
+    "ru": "бедный",
+    "pl": "biedny",
+    "de": "arm",
+    "fr": "pauvre",
+    "es": "pobre",
+    "it": "povero",
+    "pt": "pobre",
+    "tr": "fakir"
+   },
+   "ex": {
+    "en": "They were poor but happy."
+   }
+  },
+  {
+   "id": "finance.euro",
+   "t": {
+    "en": "euro",
+    "uk": "євро",
+    "ru": "евро",
+    "pl": "euro",
+    "de": "Euro",
+    "fr": "euro",
+    "es": "euro",
+    "it": "euro",
+    "pt": "euro",
+    "tr": "avro"
+   },
+   "ex": {
+    "en": "It costs twenty euros."
+   }
+  },
+  {
+   "id": "finance.dollar",
+   "t": {
+    "en": "dollar",
+    "uk": "долар",
+    "ru": "доллар",
+    "pl": "dolar",
+    "de": "Dollar",
+    "fr": "dollar",
+    "es": "dólar",
+    "it": "dollaro",
+    "pt": "dólar",
+    "tr": "dolar"
+   },
+   "ex": {
+    "en": "I have five dollars left."
+   }
+  },
+  {
+   "id": "finance.account",
+   "t": {
+    "en": "account",
+    "uk": "рахунок у банку",
+    "ru": "счёт в банке",
+    "pl": "konto",
+    "de": "Konto",
+    "fr": "compte",
+    "es": "cuenta",
+    "it": "conto",
+    "pt": "conta bancária",
+    "tr": "hesap"
+   },
+   "ex": {
+    "en": "The money is in my account."
+   }
+  },
+  {
+   "id": "finance.to-spend",
+   "t": {
+    "en": "to spend",
+    "uk": "витрачати",
+    "ru": "тратить",
+    "pl": "wydawać",
+    "de": "ausgeben",
+    "fr": "dépenser",
+    "es": "gastar",
+    "it": "spendere",
+    "pt": "gastar",
+    "tr": "harcamak"
+   },
+   "ex": {
+    "en": "Don't spend all your money."
+   }
+  },
+  {
+   "id": "finance.tip",
+   "t": {
+    "en": "tip",
+    "uk": "чайові",
+    "ru": "чаевые",
+    "pl": "napiwek",
+    "de": "Trinkgeld",
+    "fr": "pourboire",
+    "es": "propina",
+    "it": "mancia",
+    "pt": "gorjeta",
+    "tr": "bahşiş"
+   },
+   "ex": {
+    "en": "We left a tip for the waiter."
+   }
+  },
+  {
+   "id": "finance.to-lose-money",
+   "t": {
+    "en": "to lose money",
+    "uk": "втрачати гроші",
+    "ru": "терять деньги",
+    "pl": "tracić pieniądze",
+    "de": "Geld verlieren",
+    "fr": "perdre de l'argent",
+    "es": "perder dinero",
+    "it": "perdere soldi",
+    "pt": "perder dinheiro",
+    "tr": "para kaybetmek"
+   },
+   "ex": {
+    "en": "I don't want to lose money."
+   }
+  },
+  {
+   "id": "finance.pound",
+   "t": {
+    "en": "pound",
+    "uk": "фунт",
+    "ru": "фунт",
+    "pl": "funt",
+    "de": "Pfund",
+    "fr": "livre",
+    "es": "libra",
+    "it": "sterlina",
+    "pt": "libra",
+    "tr": "sterlin"
+   },
+   "ex": {
+    "en": "It costs ten pounds."
+   }
+  },
+  {
+   "id": "finance.cent",
+   "t": {
+    "en": "cent",
+    "uk": "цент",
+    "ru": "цент",
+    "pl": "cent",
+    "de": "Cent",
+    "fr": "centime",
+    "es": "céntimo",
+    "it": "centesimo",
+    "pt": "centavo",
+    "tr": "sent"
+   },
+   "ex": {
+    "en": "It costs fifty cents."
+   }
+  },
+  {
+   "id": "finance.to-change-money",
+   "t": {
+    "en": "to change money",
+    "uk": "міняти гроші",
+    "ru": "менять деньги",
+    "pl": "wymieniać pieniądze",
+    "de": "Geld wechseln",
+    "fr": "changer de l'argent",
+    "es": "cambiar dinero",
+    "it": "cambiare soldi",
+    "pt": "trocar dinheiro",
+    "tr": "para bozdurmak"
+   },
+   "ex": {
+    "en": "Where can I change money?"
+   }
+  },
+  {
+   "id": "finance.pocket-money",
+   "t": {
+    "en": "pocket money",
+    "uk": "кишенькові гроші",
+    "ru": "карманные деньги",
+    "pl": "kieszonkowe",
+    "de": "Taschengeld",
+    "fr": "argent de poche",
+    "es": "paga",
+    "it": "paghetta",
+    "pt": "mesada",
+    "tr": "harçlık"
+   },
+   "ex": {
+    "en": "My son gets pocket money every week."
+   }
+  },
+  {
+   "id": "finance.purse",
+   "t": {
+    "en": "purse",
+    "uk": "гаманець",
+    "ru": "кошелёк",
+    "pl": "portmonetka",
+    "de": "Geldbörse",
+    "fr": "porte-monnaie",
+    "es": "monedero",
+    "it": "borsellino",
+    "pt": "carteira",
+    "tr": "cüzdan"
+   },
+   "ex": {
+    "en": "My purse is in my bag."
+   }
+  },
+  {
+   "id": "finance.to-count-money",
+   "t": {
+    "en": "to count money",
+    "uk": "рахувати гроші",
+    "ru": "считать деньги",
+    "pl": "liczyć pieniądze",
+    "de": "Geld zählen",
+    "fr": "compter l'argent",
+    "es": "contar el dinero",
+    "it": "contare i soldi",
+    "pt": "contar o dinheiro",
+    "tr": "para saymak"
+   },
+   "ex": {
+    "en": "Please count the money again."
+   }
+  },
+  {
+   "id": "finance.to-pay-in-cash",
+   "t": {
+    "en": "to pay in cash",
+    "uk": "платити готівкою",
+    "ru": "платить наличными",
+    "pl": "płacić gotówką",
+    "de": "bar bezahlen",
+    "fr": "payer en espèces",
+    "es": "pagar en efectivo",
+    "it": "pagare in contanti",
+    "pt": "pagar em dinheiro",
+    "tr": "nakit ödemek"
+   },
+   "ex": {
+    "en": "Can I pay in cash?"
+   }
+  },
+  {
+   "id": "finance.pay-day",
+   "t": {
+    "en": "pay day",
+    "uk": "день зарплати",
+    "ru": "день зарплаты",
+    "pl": "dzień wypłaty",
+    "de": "Zahltag",
+    "fr": "jour de paie",
+    "es": "día de pago",
+    "it": "giorno di paga",
+    "pt": "dia do pagamento",
+    "tr": "maaş günü"
+   },
+   "ex": {
+    "en": "Friday is pay day."
+   }
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "relationships-b1",
+ "topic": "relationships",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "relationships.crush",
+   "t": {
+    "en": "crush",
+    "uk": "симпатія",
+    "ru": "симпатия",
+    "pl": "obiekt westchnień",
+    "de": "Schwarm",
+    "fr": "béguin",
+    "es": "amor platónico",
+    "it": "cotta",
+    "pt": "crush",
+    "tr": "hoşlanılan kişi"
+   },
+   "ex": {
+    "en": "She has a new crush at work."
+   }
+  },
+  {
+   "id": "relationships.to-have-a-crush-on",
+   "t": {
+    "en": "to have a crush on",
+    "uk": "бути закоханим у",
+    "ru": "быть влюблённым в",
+    "pl": "podkochiwać się w",
+    "de": "verknallt sein in",
+    "fr": "avoir le béguin pour",
+    "es": "estar colado por",
+    "it": "avere una cotta per",
+    "pt": "estar a fim de",
+    "tr": "birinden hoşlanmak"
+   },
+   "ex": {
+    "en": "I had a crush on him for years."
+   }
+  },
+  {
+   "id": "relationships.soulmate",
+   "t": {
+    "en": "soulmate",
+    "uk": "споріднена душа",
+    "ru": "родственная душа",
+    "pl": "bratnia dusza",
+    "de": "Seelenverwandter",
+    "fr": "âme sœur",
+    "es": "alma gemela",
+    "it": "anima gemella",
+    "pt": "alma gêmea",
+    "tr": "ruh eşi"
+   },
+   "ex": {
+    "en": "I think you are my soulmate."
+   }
+  },
+  {
+   "id": "relationships.to-propose",
+   "t": {
+    "en": "to propose",
+    "uk": "зробити пропозицію",
+    "ru": "сделать предложение",
+    "pl": "oświadczyć się",
+    "de": "einen Heiratsantrag machen",
+    "fr": "demander en mariage",
+    "es": "pedir matrimonio",
+    "it": "fare la proposta di matrimonio",
+    "pt": "pedir em casamento",
+    "tr": "evlenme teklif etmek"
+   },
+   "ex": {
+    "en": "He proposed on the beach."
+   }
+  },
+  {
+   "id": "relationships.to-cheat-on-someone",
+   "t": {
+    "en": "to cheat on someone",
+    "uk": "зраджувати",
+    "ru": "изменять",
+    "pl": "zdradzać",
+    "de": "fremdgehen",
+    "fr": "tromper",
+    "es": "engañar",
+    "it": "tradire",
+    "pt": "trair",
+    "tr": "aldatmak"
+   },
+   "ex": {
+    "en": "She found out he cheated on her."
+   }
+  },
+  {
+   "id": "relationships.faithful",
+   "t": {
+    "en": "faithful",
+    "uk": "вірний",
+    "ru": "верный",
+    "pl": "wierny",
+    "de": "treu",
+    "fr": "fidèle",
+    "es": "fiel",
+    "it": "fedele",
+    "pt": "fiel",
+    "tr": "sadık"
+   },
+   "ex": {
+    "en": "He has always been faithful."
+   }
+  },
+  {
+   "id": "relationships.affection",
+   "t": {
+    "en": "affection",
+    "uk": "ніжність",
+    "ru": "нежность",
+    "pl": "czułość",
+    "de": "Zuneigung",
+    "fr": "tendresse",
+    "es": "afecto",
+    "it": "affetto",
+    "pt": "carinho",
+    "tr": "şefkat"
+   },
+   "ex": {
+    "en": "She shows a lot of affection."
+   }
+  },
+  {
+   "id": "relationships.to-support",
+   "t": {
+    "en": "to support",
+    "uk": "підтримувати",
+    "ru": "поддерживать",
+    "pl": "wspierać",
+    "de": "unterstützen",
+    "fr": "soutenir",
+    "es": "apoyar",
+    "it": "sostenere",
+    "pt": "apoiar",
+    "tr": "desteklemek"
+   },
+   "ex": {
+    "en": "She supported me through everything."
+   }
+  },
+  {
+   "id": "relationships.closeness",
+   "t": {
+    "en": "closeness",
+    "uk": "близькість",
+    "ru": "близость",
+    "pl": "bliskość",
+    "de": "Nähe",
+    "fr": "intimité",
+    "es": "cercanía",
+    "it": "vicinanza",
+    "pt": "proximidade",
+    "tr": "yakınlık"
+   },
+   "ex": {
+    "en": "We lost that closeness over time."
+   }
+  },
+  {
+   "id": "relationships.commitment",
+   "t": {
+    "en": "commitment",
+    "uk": "відданість",
+    "ru": "серьёзные намерения",
+    "pl": "zaangażowanie",
+    "de": "feste Bindung",
+    "fr": "engagement",
+    "es": "compromiso",
+    "it": "impegno",
+    "pt": "compromisso",
+    "tr": "bağlılık"
+   },
+   "ex": {
+    "en": "He is afraid of commitment."
+   }
+  },
+  {
+   "id": "relationships.long-distance-relationship",
+   "t": {
+    "en": "long-distance relationship",
+    "uk": "стосунки на відстані",
+    "ru": "отношения на расстоянии",
+    "pl": "związek na odległość",
+    "de": "Fernbeziehung",
+    "fr": "relation à distance",
+    "es": "relación a distancia",
+    "it": "relazione a distanza",
+    "pt": "relacionamento à distância",
+    "tr": "uzak mesafe ilişkisi"
+   },
+   "ex": {
+    "en": "Long-distance relationships are hard."
+   }
+  },
+  {
+   "id": "relationships.to-ghost-someone",
+   "t": {
+    "en": "to ghost someone",
+    "uk": "зникнути без пояснень",
+    "ru": "пропасть без объяснений",
+    "pl": "zniknąć bez słowa",
+    "de": "ghosten",
+    "fr": "ghoster",
+    "es": "hacer ghosting",
+    "it": "ghostare",
+    "pt": "dar um gelo",
+    "tr": "ortadan kaybolmak"
+   },
+   "ex": {
+    "en": "He ghosted me after two dates."
+   }
+  },
+  {
+   "id": "relationships.dating-app",
+   "t": {
+    "en": "dating app",
+    "uk": "застосунок для знайомств",
+    "ru": "приложение для знакомств",
+    "pl": "aplikacja randkowa",
+    "de": "Dating-App",
+    "fr": "appli de rencontres",
+    "es": "app de citas",
+    "it": "app di incontri",
+    "pt": "aplicativo de namoro",
+    "tr": "flört uygulaması"
+   },
+   "ex": {
+    "en": "They met on a dating app."
+   }
+  },
+  {
+   "id": "relationships.blind-date",
+   "t": {
+    "en": "blind date",
+    "uk": "побачення наосліп",
+    "ru": "свидание вслепую",
+    "pl": "randka w ciemno",
+    "de": "Blind Date",
+    "fr": "rendez-vous arrangé",
+    "es": "cita a ciegas",
+    "it": "appuntamento al buio",
+    "pt": "encontro às cegas",
+    "tr": "kör randevu"
+   },
+   "ex": {
+    "en": "My sister set me up on a blind date."
+   }
+  },
+  {
+   "id": "relationships.chemistry",
+   "t": {
+    "en": "chemistry",
+    "uk": "хімія між людьми",
+    "ru": "химия между людьми",
+    "pl": "chemia",
+    "de": "Chemie",
+    "fr": "alchimie",
+    "es": "química",
+    "it": "chimica",
+    "pt": "química",
+    "tr": "elektrik"
+   },
+   "ex": {
+    "en": "There was no chemistry between us."
+   }
+  },
+  {
+   "id": "relationships.to-have-feelings-for",
+   "t": {
+    "en": "to have feelings for",
+    "uk": "мати почуття до",
+    "ru": "испытывать чувства к",
+    "pl": "mieć uczucia do",
+    "de": "Gefühle haben für",
+    "fr": "avoir des sentiments pour",
+    "es": "sentir algo por",
+    "it": "provare qualcosa per",
+    "pt": "ter sentimentos por",
+    "tr": "birine karşı hisleri olmak"
+   },
+   "ex": {
+    "en": "I still have feelings for her."
+   }
+  },
+  {
+   "id": "relationships.heartbroken",
+   "t": {
+    "en": "heartbroken",
+    "uk": "з розбитим серцем",
+    "ru": "с разбитым сердцем",
+    "pl": "ze złamanym sercem",
+    "de": "mit gebrochenem Herzen",
+    "fr": "le cœur brisé",
+    "es": "con el corazón roto",
+    "it": "con il cuore spezzato",
+    "pt": "de coração partido",
+    "tr": "kalbi kırık"
+   },
+   "ex": {
+    "en": "He was heartbroken after the breakup."
+   }
+  },
+  {
+   "id": "relationships.to-move-on",
+   "t": {
+    "en": "to move on",
+    "uk": "рухатися далі",
+    "ru": "жить дальше",
+    "pl": "iść dalej",
+    "de": "nach vorne schauen",
+    "fr": "tourner la page",
+    "es": "pasar página",
+    "it": "voltare pagina",
+    "pt": "seguir em frente",
+    "tr": "hayatına devam etmek"
+   },
+   "ex": {
+    "en": "It's time to move on."
+   }
+  },
+  {
+   "id": "relationships.to-get-over-someone",
+   "t": {
+    "en": "to get over someone",
+    "uk": "забути когось",
+    "ru": "забыть кого-то",
+    "pl": "zapomnieć o kimś",
+    "de": "über jemanden hinwegkommen",
+    "fr": "se remettre de quelqu'un",
+    "es": "superar a alguien",
+    "it": "dimenticare qualcuno",
+    "pt": "superar alguém",
+    "tr": "birini unutmak"
+   },
+   "ex": {
+    "en": "It took me a year to get over him."
+   }
+  },
+  {
+   "id": "relationships.to-dump-someone",
+   "t": {
+    "en": "to dump someone",
+    "uk": "кинути когось",
+    "ru": "бросить кого-то",
+    "pl": "rzucić kogoś",
+    "de": "jemanden abservieren",
+    "fr": "plaquer quelqu'un",
+    "es": "dejar plantado a alguien",
+    "it": "mollare qualcuno",
+    "pt": "dar um fora em alguém",
+    "tr": "birini terk etmek"
+   },
+   "ex": {
+    "en": "She dumped him by text message."
+   }
+  },
+  {
+   "id": "relationships.misunderstanding",
+   "t": {
+    "en": "misunderstanding",
+    "uk": "непорозуміння",
+    "ru": "недопонимание",
+    "pl": "nieporozumienie",
+    "de": "Missverständnis",
+    "fr": "malentendu",
+    "es": "malentendido",
+    "it": "malinteso",
+    "pt": "mal-entendido",
+    "tr": "yanlış anlama"
+   },
+   "ex": {
+    "en": "It was just a misunderstanding."
+   }
+  },
+  {
+   "id": "relationships.to-make-an-effort",
+   "t": {
+    "en": "to make an effort",
+    "uk": "докладати зусиль",
+    "ru": "стараться",
+    "pl": "starać się",
+    "de": "sich Mühe geben",
+    "fr": "faire des efforts",
+    "es": "esforzarse",
+    "it": "impegnarsi",
+    "pt": "se esforçar",
+    "tr": "çaba göstermek"
+   },
+   "ex": {
+    "en": "You need to make an effort too."
+   }
+  },
+  {
+   "id": "relationships.quality-time",
+   "t": {
+    "en": "quality time",
+    "uk": "час удвох",
+    "ru": "время вдвоём",
+    "pl": "wspólny czas",
+    "de": "gemeinsame Zeit",
+    "fr": "moments à deux",
+    "es": "tiempo de calidad",
+    "it": "tempo di qualità",
+    "pt": "tempo de qualidade",
+    "tr": "baş başa zaman"
+   },
+   "ex": {
+    "en": "We need more quality time together."
+   }
+  },
+  {
+   "id": "relationships.to-spoil-someone",
+   "t": {
+    "en": "to spoil someone",
+    "uk": "балувати",
+    "ru": "баловать",
+    "pl": "rozpieszczać",
+    "de": "verwöhnen",
+    "fr": "gâter",
+    "es": "mimar",
+    "it": "viziare",
+    "pt": "mimar",
+    "tr": "şımartmak"
+   },
+   "ex": {
+    "en": "He loves to spoil his wife."
+   }
+  },
+  {
+   "id": "relationships.to-settle-down",
+   "t": {
+    "en": "to settle down",
+    "uk": "завести сім'ю",
+    "ru": "остепениться",
+    "pl": "ustatkować się",
+    "de": "sesshaft werden",
+    "fr": "se poser",
+    "es": "sentar cabeza",
+    "it": "mettere la testa a posto",
+    "pt": "sossegar",
+    "tr": "yuva kurmak"
+   },
+   "ex": {
+    "en": "She is ready to settle down."
+   }
+  },
+  {
+   "id": "relationships.to-be-on-the-same-page",
+   "t": {
+    "en": "to be on the same page",
+    "uk": "бути на одній хвилі",
+    "ru": "быть на одной волне",
+    "pl": "nadawać na tych samych falach",
+    "de": "auf einer Wellenlänge sein",
+    "fr": "être sur la même longueur d'onde",
+    "es": "estar en la misma onda",
+    "it": "essere sulla stessa lunghezza d'onda",
+    "pt": "estar na mesma sintonia",
+    "tr": "aynı frekansta olmak"
+   },
+   "ex": {
+    "en": "We are on the same page about kids."
+   }
+  },
+  {
+   "id": "relationships.to-stand-someone-up",
+   "t": {
+    "en": "to stand someone up",
+    "uk": "не прийти на побачення",
+    "ru": "продинамить",
+    "pl": "wystawić kogoś",
+    "de": "jemanden versetzen",
+    "fr": "poser un lapin",
+    "es": "dejar plantado",
+    "it": "dare buca",
+    "pt": "dar um bolo",
+    "tr": "birini ekmek"
+   },
+   "ex": {
+    "en": "He stood me up last night."
+   }
+  },
+  {
+   "id": "relationships.to-have-a-fight",
+   "t": {
+    "en": "to have a fight",
+    "uk": "посваритися",
+    "ru": "поссориться",
+    "pl": "pokłócić się",
+    "de": "Streit haben",
+    "fr": "avoir une dispute",
+    "es": "pelearse",
+    "it": "avere una lite",
+    "pt": "ter uma briga",
+    "tr": "kavga etmek"
+   },
+   "ex": {
+    "en": "We had a big fight yesterday."
+   }
+  },
+  {
+   "id": "relationships.to-match",
+   "t": {
+    "en": "to match",
+    "uk": "отримати метч",
+    "ru": "получить мэтч",
+    "pl": "mieć match",
+    "de": "ein Match haben",
+    "fr": "matcher",
+    "es": "hacer match",
+    "it": "fare match",
+    "pt": "dar match",
+    "tr": "eşleşmek"
+   },
+   "ex": {
+    "en": "We matched on the app yesterday."
+   }
+  }
+ ]
+}

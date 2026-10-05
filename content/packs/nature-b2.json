@@ -1,0 +1,530 @@
+{
+ "id": "nature-b2",
+ "topic": "nature",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "nature.climate-change",
+   "t": {
+    "en": "climate change",
+    "uk": "зміна клімату",
+    "ru": "изменение климата",
+    "pl": "zmiana klimatu",
+    "de": "Klimawandel",
+    "fr": "changement climatique",
+    "es": "cambio climático",
+    "it": "cambiamento climatico",
+    "pt": "mudança climática",
+    "tr": "iklim değişikliği"
+   },
+   "ex": {
+    "en": "Climate change affects every country."
+   }
+  },
+  {
+   "id": "nature.global-warming",
+   "t": {
+    "en": "global warming",
+    "uk": "глобальне потепління",
+    "ru": "глобальное потепление",
+    "pl": "globalne ocieplenie",
+    "de": "Erderwärmung",
+    "fr": "réchauffement climatique",
+    "es": "calentamiento global",
+    "it": "riscaldamento globale",
+    "pt": "aquecimento global",
+    "tr": "küresel ısınma"
+   },
+   "ex": {
+    "en": "Global warming is melting the ice caps."
+   }
+  },
+  {
+   "id": "nature.greenhouse-gas",
+   "t": {
+    "en": "greenhouse gas",
+    "uk": "парниковий газ",
+    "ru": "парниковый газ",
+    "pl": "gaz cieplarniany",
+    "de": "Treibhausgas",
+    "fr": "gaz à effet de serre",
+    "es": "gas de efecto invernadero",
+    "it": "gas serra",
+    "pt": "gás de efeito estufa",
+    "tr": "sera gazı"
+   },
+   "ex": {
+    "en": "Cars release greenhouse gases."
+   }
+  },
+  {
+   "id": "nature.carbon-footprint",
+   "t": {
+    "en": "carbon footprint",
+    "uk": "вуглецевий слід",
+    "ru": "углеродный след",
+    "pl": "ślad węglowy",
+    "de": "CO2-Fußabdruck",
+    "fr": "empreinte carbone",
+    "es": "huella de carbono",
+    "it": "impronta di carbonio",
+    "pt": "pegada de carbono",
+    "tr": "karbon ayak izi"
+   },
+   "ex": {
+    "en": "Flying increases your carbon footprint."
+   }
+  },
+  {
+   "id": "nature.renewable-energy",
+   "t": {
+    "en": "renewable energy",
+    "uk": "відновлювана енергія",
+    "ru": "возобновляемая энергия",
+    "pl": "energia odnawialna",
+    "de": "erneuerbare Energie",
+    "fr": "énergie renouvelable",
+    "es": "energía renovable",
+    "it": "energia rinnovabile",
+    "pt": "energia renovável",
+    "tr": "yenilenebilir enerji"
+   },
+   "ex": {
+    "en": "Our town runs on renewable energy."
+   }
+  },
+  {
+   "id": "nature.biodiversity",
+   "t": {
+    "en": "biodiversity",
+    "uk": "біорізноманіття",
+    "ru": "биоразнообразие",
+    "pl": "bioróżnorodność",
+    "de": "Artenvielfalt",
+    "fr": "biodiversité",
+    "es": "biodiversidad",
+    "it": "biodiversità",
+    "pt": "biodiversidade",
+    "tr": "biyoçeşitlilik"
+   },
+   "ex": {
+    "en": "Biodiversity is declining worldwide."
+   }
+  },
+  {
+   "id": "nature.ecosystem",
+   "t": {
+    "en": "ecosystem",
+    "uk": "екосистема",
+    "ru": "экосистема",
+    "pl": "ekosystem",
+    "de": "Ökosystem",
+    "fr": "écosystème",
+    "es": "ecosistema",
+    "it": "ecosistema",
+    "pt": "ecossistema",
+    "tr": "ekosistem"
+   },
+   "ex": {
+    "en": "A coral reef is a fragile ecosystem."
+   }
+  },
+  {
+   "id": "nature.habitat",
+   "t": {
+    "en": "habitat",
+    "uk": "середовище існування",
+    "ru": "среда обитания",
+    "pl": "siedlisko",
+    "de": "Lebensraum",
+    "fr": "habitat",
+    "es": "hábitat",
+    "it": "habitat",
+    "pt": "habitat",
+    "tr": "yaşam alanı"
+   },
+   "ex": {
+    "en": "Pandas are losing their habitat."
+   }
+  },
+  {
+   "id": "nature.endangered-species",
+   "t": {
+    "en": "endangered species",
+    "uk": "вид під загрозою зникнення",
+    "ru": "вымирающий вид",
+    "pl": "gatunek zagrożony",
+    "de": "bedrohte Art",
+    "fr": "espèce menacée",
+    "es": "especie en peligro",
+    "it": "specie in pericolo",
+    "pt": "espécie ameaçada",
+    "tr": "nesli tükenmekte olan tür"
+   },
+   "ex": {
+    "en": "Tigers are an endangered species."
+   }
+  },
+  {
+   "id": "nature.extinction",
+   "t": {
+    "en": "extinction",
+    "uk": "вимирання",
+    "ru": "вымирание",
+    "pl": "wymieranie",
+    "de": "Aussterben",
+    "fr": "extinction",
+    "es": "extinción",
+    "it": "estinzione",
+    "pt": "extinção",
+    "tr": "yok oluş"
+   },
+   "ex": {
+    "en": "Many frogs face extinction."
+   }
+  },
+  {
+   "id": "nature.deforestation",
+   "t": {
+    "en": "deforestation",
+    "uk": "вирубка лісів",
+    "ru": "вырубка лесов",
+    "pl": "wylesianie",
+    "de": "Abholzung",
+    "fr": "déforestation",
+    "es": "deforestación",
+    "it": "deforestazione",
+    "pt": "desmatamento",
+    "tr": "ormansızlaşma"
+   },
+   "ex": {
+    "en": "Deforestation destroys animal homes."
+   }
+  },
+  {
+   "id": "nature.conservation",
+   "t": {
+    "en": "conservation",
+    "uk": "охорона природи",
+    "ru": "охрана природы",
+    "pl": "ochrona przyrody",
+    "de": "Naturschutz",
+    "fr": "protection de la nature",
+    "es": "conservación",
+    "it": "conservazione",
+    "pt": "conservação",
+    "tr": "doğa koruma"
+   },
+   "ex": {
+    "en": "She works in wildlife conservation."
+   }
+  },
+  {
+   "id": "nature.sustainable",
+   "t": {
+    "en": "sustainable",
+    "uk": "сталий",
+    "ru": "устойчивый",
+    "pl": "zrównoważony",
+    "de": "nachhaltig",
+    "fr": "durable",
+    "es": "sostenible",
+    "it": "sostenibile",
+    "pt": "sustentável",
+    "tr": "sürdürülebilir"
+   },
+   "ex": {
+    "en": "We need sustainable farming methods."
+   }
+  },
+  {
+   "id": "nature.fossil-fuels",
+   "t": {
+    "en": "fossil fuels",
+    "uk": "викопне паливо",
+    "ru": "ископаемое топливо",
+    "pl": "paliwa kopalne",
+    "de": "fossile Brennstoffe",
+    "fr": "combustibles fossiles",
+    "es": "combustibles fósiles",
+    "it": "combustibili fossili",
+    "pt": "combustíveis fósseis",
+    "tr": "fosil yakıtlar"
+   },
+   "ex": {
+    "en": "Burning fossil fuels warms the planet."
+   }
+  },
+  {
+   "id": "nature.emissions",
+   "t": {
+    "en": "emissions",
+    "uk": "викиди",
+    "ru": "выбросы",
+    "pl": "emisje",
+    "de": "Emissionen",
+    "fr": "émissions",
+    "es": "emisiones",
+    "it": "emissioni",
+    "pt": "emissões",
+    "tr": "emisyonlar"
+   },
+   "ex": {
+    "en": "The factory must cut its emissions."
+   }
+  },
+  {
+   "id": "nature.wildfire",
+   "t": {
+    "en": "wildfire",
+    "uk": "лісова пожежа",
+    "ru": "лесной пожар",
+    "pl": "pożar lasu",
+    "de": "Waldbrand",
+    "fr": "feu de forêt",
+    "es": "incendio forestal",
+    "it": "incendio boschivo",
+    "pt": "incêndio florestal",
+    "tr": "orman yangını"
+   },
+   "ex": {
+    "en": "A wildfire spread across the hills."
+   }
+  },
+  {
+   "id": "nature.hurricane",
+   "t": {
+    "en": "hurricane",
+    "uk": "ураган",
+    "ru": "ураган",
+    "pl": "huragan",
+    "de": "Hurrikan",
+    "fr": "ouragan",
+    "es": "huracán",
+    "it": "uragano",
+    "pt": "furacão",
+    "tr": "kasırga"
+   },
+   "ex": {
+    "en": "The hurricane hit the coast at night."
+   }
+  },
+  {
+   "id": "nature.tornado",
+   "t": {
+    "en": "tornado",
+    "uk": "торнадо",
+    "ru": "торнадо",
+    "pl": "tornado",
+    "de": "Tornado",
+    "fr": "tornade",
+    "es": "tornado",
+    "it": "tornado",
+    "pt": "tornado",
+    "tr": "hortum"
+   },
+   "ex": {
+    "en": "A tornado destroyed several houses."
+   }
+  },
+  {
+   "id": "nature.volcano",
+   "t": {
+    "en": "volcano",
+    "uk": "вулкан",
+    "ru": "вулкан",
+    "pl": "wulkan",
+    "de": "Vulkan",
+    "fr": "volcan",
+    "es": "volcán",
+    "it": "vulcano",
+    "pt": "vulcão",
+    "tr": "yanardağ"
+   },
+   "ex": {
+    "en": "The volcano has been quiet for years."
+   }
+  },
+  {
+   "id": "nature.glacier",
+   "t": {
+    "en": "glacier",
+    "uk": "льодовик",
+    "ru": "ледник",
+    "pl": "lodowiec",
+    "de": "Gletscher",
+    "fr": "glacier",
+    "es": "glaciar",
+    "it": "ghiacciaio",
+    "pt": "geleira",
+    "tr": "buzul"
+   },
+   "ex": {
+    "en": "The glacier is shrinking every year."
+   }
+  },
+  {
+   "id": "nature.tide",
+   "t": {
+    "en": "tide",
+    "uk": "приплив і відплив",
+    "ru": "прилив и отлив",
+    "pl": "pływ",
+    "de": "Gezeiten",
+    "fr": "marée",
+    "es": "marea",
+    "it": "marea",
+    "pt": "maré",
+    "tr": "gelgit"
+   },
+   "ex": {
+    "en": "Check the tide before you swim."
+   }
+  },
+  {
+   "id": "nature.erosion",
+   "t": {
+    "en": "erosion",
+    "uk": "ерозія",
+    "ru": "эрозия",
+    "pl": "erozja",
+    "de": "Erosion",
+    "fr": "érosion",
+    "es": "erosión",
+    "it": "erosione",
+    "pt": "erosão",
+    "tr": "erozyon"
+   },
+   "ex": {
+    "en": "Erosion is eating away the cliffs."
+   }
+  },
+  {
+   "id": "nature.wetland",
+   "t": {
+    "en": "wetland",
+    "uk": "водно-болотні угіддя",
+    "ru": "водно-болотные угодья",
+    "pl": "tereny podmokłe",
+    "de": "Feuchtgebiet",
+    "fr": "zone humide",
+    "es": "humedal",
+    "it": "zona umida",
+    "pt": "área alagada",
+    "tr": "sulak alan"
+   },
+   "ex": {
+    "en": "Many birds nest in the wetland."
+   }
+  },
+  {
+   "id": "nature.meadow",
+   "t": {
+    "en": "meadow",
+    "uk": "лука",
+    "ru": "луг",
+    "pl": "łąka",
+    "de": "Wiese",
+    "fr": "prairie",
+    "es": "pradera",
+    "it": "prato",
+    "pt": "campina",
+    "tr": "çayır"
+   },
+   "ex": {
+    "en": "The meadow is full of wild flowers."
+   }
+  },
+  {
+   "id": "nature.predator",
+   "t": {
+    "en": "predator",
+    "uk": "хижак",
+    "ru": "хищник",
+    "pl": "drapieżnik",
+    "de": "Raubtier",
+    "fr": "prédateur",
+    "es": "depredador",
+    "it": "predatore",
+    "pt": "predador",
+    "tr": "yırtıcı"
+   },
+   "ex": {
+    "en": "The eagle is a skilled predator."
+   }
+  },
+  {
+   "id": "nature.prey",
+   "t": {
+    "en": "prey",
+    "uk": "здобич",
+    "ru": "добыча",
+    "pl": "ofiara",
+    "de": "Beute",
+    "fr": "proie",
+    "es": "presa",
+    "it": "preda",
+    "pt": "presa",
+    "tr": "av"
+   },
+   "ex": {
+    "en": "Mice are easy prey for owls."
+   }
+  },
+  {
+   "id": "nature.migration",
+   "t": {
+    "en": "migration",
+    "uk": "міграція",
+    "ru": "миграция",
+    "pl": "migracja",
+    "de": "Wanderung",
+    "fr": "migration",
+    "es": "migración",
+    "it": "migrazione",
+    "pt": "migração",
+    "tr": "göç"
+   },
+   "ex": {
+    "en": "Bird migration starts in September."
+   }
+  },
+  {
+   "id": "nature.to-hibernate",
+   "t": {
+    "en": "to hibernate",
+    "uk": "впадати в сплячку",
+    "ru": "впадать в спячку",
+    "pl": "zapadać w sen zimowy",
+    "de": "Winterschlaf halten",
+    "fr": "hiberner",
+    "es": "hibernar",
+    "it": "andare in letargo",
+    "pt": "hibernar",
+    "tr": "kış uykusuna yatmak"
+   },
+   "ex": {
+    "en": "Bears hibernate through the winter."
+   }
+  },
+  {
+   "id": "nature.to-pollinate",
+   "t": {
+    "en": "to pollinate",
+    "uk": "запилювати",
+    "ru": "опылять",
+    "pl": "zapylać",
+    "de": "bestäuben",
+    "fr": "polliniser",
+    "es": "polinizar",
+    "it": "impollinare",
+    "pt": "polinizar",
+    "tr": "tozlaştırmak"
+   },
+   "ex": {
+    "en": "Bees pollinate the apple trees."
+   }
+  }
+ ]
+}

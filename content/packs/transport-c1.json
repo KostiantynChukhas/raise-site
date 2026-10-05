@@ -1,0 +1,530 @@
+{
+ "id": "transport-c1",
+ "topic": "transport",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "transport.backseat-driver",
+   "t": {
+    "en": "backseat driver",
+    "uk": "порадник із заднього сидіння",
+    "ru": "советчик с заднего сиденья",
+    "pl": "pasażer-doradca",
+    "de": "Beifahrer, der reinredet",
+    "fr": "passager qui donne des leçons",
+    "es": "copiloto sabelotodo",
+    "it": "passeggero che dà consigli",
+    "pt": "motorista de banco de trás",
+    "tr": "arka koltuk şoförü"
+   },
+   "ex": {
+    "en": "Stop being such a backseat driver."
+   }
+  },
+  {
+   "id": "transport.road-rage",
+   "t": {
+    "en": "road rage",
+    "uk": "дорожня агресія",
+    "ru": "агрессия на дороге",
+    "pl": "agresja drogowa",
+    "de": "Aggression im Straßenverkehr",
+    "fr": "rage au volant",
+    "es": "furia al volante",
+    "it": "rabbia al volante",
+    "pt": "fúria no trânsito",
+    "tr": "yol öfkesi"
+   },
+   "ex": {
+    "en": "Road rage is on the rise."
+   }
+  },
+  {
+   "id": "transport.to-run-over",
+   "t": {
+    "en": "to run over",
+    "uk": "переїхати",
+    "ru": "сбить",
+    "pl": "potrącić",
+    "de": "überfahren",
+    "fr": "renverser",
+    "es": "atropellar",
+    "it": "investire",
+    "pt": "atropelar",
+    "tr": "çarpıp ezmek"
+   },
+   "ex": {
+    "en": "A cyclist was nearly run over."
+   }
+  },
+  {
+   "id": "transport.pile-up",
+   "t": {
+    "en": "pile-up",
+    "uk": "масове ДТП",
+    "ru": "массовое ДТП",
+    "pl": "karambol",
+    "de": "Massenkarambolage",
+    "fr": "carambolage",
+    "es": "choque múltiple",
+    "it": "tamponamento a catena",
+    "pt": "engavetamento",
+    "tr": "zincirleme kaza"
+   },
+   "ex": {
+    "en": "Fog caused a ten-car pile-up."
+   }
+  },
+  {
+   "id": "transport.fender-bender",
+   "t": {
+    "en": "fender bender",
+    "uk": "дрібне ДТП",
+    "ru": "мелкое ДТП",
+    "pl": "stłuczka",
+    "de": "Blechschaden",
+    "fr": "accrochage",
+    "es": "choque leve",
+    "it": "tamponamento leggero",
+    "pt": "batidinha",
+    "tr": "ufak çarpışma"
+   },
+   "ex": {
+    "en": "It was just a fender bender."
+   }
+  },
+  {
+   "id": "transport.jaywalking",
+   "t": {
+    "en": "jaywalking",
+    "uk": "перехід у недозволеному місці",
+    "ru": "переход в неположенном месте",
+    "pl": "przechodzenie w niedozwolonym miejscu",
+    "de": "unerlaubtes Überqueren",
+    "fr": "traversée hors passage piéton",
+    "es": "cruzar fuera del paso",
+    "it": "attraversare fuori dalle strisce",
+    "pt": "atravessar fora da faixa",
+    "tr": "kural dışı yaya geçişi"
+   },
+   "ex": {
+    "en": "Jaywalking is fined in some cities."
+   }
+  },
+  {
+   "id": "transport.traffic-calming",
+   "t": {
+    "en": "traffic calming",
+    "uk": "заспокоєння руху",
+    "ru": "успокоение движения",
+    "pl": "uspokojenie ruchu",
+    "de": "Verkehrsberuhigung",
+    "fr": "apaisement de la circulation",
+    "es": "calmado del tráfico",
+    "it": "moderazione del traffico",
+    "pt": "moderação de tráfego",
+    "tr": "trafik sakinleştirme"
+   },
+   "ex": {
+    "en": "The council added traffic calming measures."
+   }
+  },
+  {
+   "id": "transport.speed-bump",
+   "t": {
+    "en": "speed bump",
+    "uk": "лежачий поліцейський",
+    "ru": "лежачий полицейский",
+    "pl": "próg zwalniający",
+    "de": "Bodenschwelle",
+    "fr": "ralentisseur",
+    "es": "badén",
+    "it": "dosso",
+    "pt": "lombada",
+    "tr": "kasis"
+   },
+   "ex": {
+    "en": "Slow down for the speed bump."
+   }
+  },
+  {
+   "id": "transport.thoroughfare",
+   "t": {
+    "en": "thoroughfare",
+    "uk": "магістраль",
+    "ru": "магистраль",
+    "pl": "arteria komunikacyjna",
+    "de": "Durchgangsstraße",
+    "fr": "artère",
+    "es": "vía principal",
+    "it": "arteria stradale",
+    "pt": "via principal",
+    "tr": "ana cadde"
+   },
+   "ex": {
+    "en": "This is the city's main thoroughfare."
+   }
+  },
+  {
+   "id": "transport.behind-the-wheel",
+   "t": {
+    "en": "behind the wheel",
+    "uk": "за кермом",
+    "ru": "за рулём",
+    "pl": "za kierownicą",
+    "de": "am Steuer",
+    "fr": "au volant",
+    "es": "al volante",
+    "it": "al volante",
+    "pt": "ao volante",
+    "tr": "direksiyon başında"
+   },
+   "ex": {
+    "en": "Never text while behind the wheel."
+   }
+  },
+  {
+   "id": "transport.to-hitch-a-ride",
+   "t": {
+    "en": "to hitch a ride",
+    "uk": "зловити попутку",
+    "ru": "поймать попутку",
+    "pl": "złapać stopa",
+    "de": "per Anhalter fahren",
+    "fr": "faire du stop",
+    "es": "hacer autostop",
+    "it": "fare l'autostop",
+    "pt": "pegar carona",
+    "tr": "otostop çekmek"
+   },
+   "ex": {
+    "en": "We hitched a ride to the village."
+   }
+  },
+  {
+   "id": "transport.to-floor-it",
+   "t": {
+    "en": "to floor it",
+    "uk": "втопити газ",
+    "ru": "утопить газ",
+    "pl": "wcisnąć gaz do dechy",
+    "de": "Vollgas geben",
+    "fr": "appuyer à fond",
+    "es": "pisar a fondo",
+    "it": "schiacciare l'acceleratore",
+    "pt": "pisar fundo",
+    "tr": "gaza köklemek"
+   },
+   "ex": {
+    "en": "He floored it when the light changed."
+   }
+  },
+  {
+   "id": "transport.to-coast",
+   "t": {
+    "en": "to coast",
+    "uk": "котитися накатом",
+    "ru": "ехать накатом",
+    "pl": "jechać na luzie",
+    "de": "im Leerlauf rollen",
+    "fr": "rouler en roue libre",
+    "es": "ir en punto muerto",
+    "it": "andare in folle",
+    "pt": "ir no ponto morto",
+    "tr": "boşta gitmek"
+   },
+   "ex": {
+    "en": "Don't coast downhill in neutral."
+   }
+  },
+  {
+   "id": "transport.hairpin-bend",
+   "t": {
+    "en": "hairpin bend",
+    "uk": "крутий серпантинний поворот",
+    "ru": "крутой поворот серпантина",
+    "pl": "ostry zakręt",
+    "de": "Haarnadelkurve",
+    "fr": "épingle à cheveux",
+    "es": "curva cerrada",
+    "it": "tornante",
+    "pt": "curva fechada",
+    "tr": "keskin viraj"
+   },
+   "ex": {
+    "en": "The mountain road has many hairpin bends."
+   }
+  },
+  {
+   "id": "transport.wheel-clamp",
+   "t": {
+    "en": "wheel clamp",
+    "uk": "блокиратор колеса",
+    "ru": "блокиратор колёс",
+    "pl": "blokada na koło",
+    "de": "Parkkralle",
+    "fr": "sabot de Denver",
+    "es": "cepo",
+    "it": "ganasce",
+    "pt": "trava de roda",
+    "tr": "tekerlek kilidi"
+   },
+   "ex": {
+    "en": "They put a wheel clamp on my car."
+   }
+  },
+  {
+   "id": "transport.to-tow-away",
+   "t": {
+    "en": "to tow away",
+    "uk": "евакуювати",
+    "ru": "эвакуировать",
+    "pl": "odholować",
+    "de": "abschleppen",
+    "fr": "mettre en fourrière",
+    "es": "llevarse la grúa",
+    "it": "rimuovere",
+    "pt": "guinchar",
+    "tr": "çektirmek"
+   },
+   "ex": {
+    "en": "Illegally parked cars will be towed away."
+   }
+  },
+  {
+   "id": "transport.pedestrian-zone",
+   "t": {
+    "en": "pedestrian zone",
+    "uk": "пішохідна зона",
+    "ru": "пешеходная зона",
+    "pl": "strefa piesza",
+    "de": "Fußgängerzone",
+    "fr": "zone piétonne",
+    "es": "zona peatonal",
+    "it": "zona pedonale",
+    "pt": "zona de pedestres",
+    "tr": "yaya bölgesi"
+   },
+   "ex": {
+    "en": "The old town is a pedestrian zone."
+   }
+  },
+  {
+   "id": "transport.low-emission-zone",
+   "t": {
+    "en": "low-emission zone",
+    "uk": "зона низьких викидів",
+    "ru": "зона низких выбросов",
+    "pl": "strefa czystego transportu",
+    "de": "Umweltzone",
+    "fr": "zone à faibles émissions",
+    "es": "zona de bajas emisiones",
+    "it": "zona a basse emissioni",
+    "pt": "zona de baixa emissão",
+    "tr": "düşük emisyon bölgesi"
+   },
+   "ex": {
+    "en": "Old diesels can't enter the low-emission zone."
+   }
+  },
+  {
+   "id": "transport.to-rear-end",
+   "t": {
+    "en": "to rear-end",
+    "uk": "врізатися ззаду",
+    "ru": "въехать сзади",
+    "pl": "uderzyć w tył",
+    "de": "auffahren",
+    "fr": "emboutir par l'arrière",
+    "es": "chocar por detrás",
+    "it": "tamponare",
+    "pt": "bater na traseira",
+    "tr": "arkadan çarpmak"
+   },
+   "ex": {
+    "en": "A van rear-ended us at the lights."
+   }
+  },
+  {
+   "id": "transport.autonomous-vehicle",
+   "t": {
+    "en": "autonomous vehicle",
+    "uk": "безпілотний автомобіль",
+    "ru": "беспилотный автомобиль",
+    "pl": "pojazd autonomiczny",
+    "de": "selbstfahrendes Auto",
+    "fr": "véhicule autonome",
+    "es": "vehículo autónomo",
+    "it": "veicolo autonomo",
+    "pt": "veículo autônomo",
+    "tr": "otonom araç"
+   },
+   "ex": {
+    "en": "Autonomous vehicles are being tested here."
+   }
+  },
+  {
+   "id": "transport.bollard",
+   "t": {
+    "en": "bollard",
+    "uk": "стовпчик",
+    "ru": "столбик",
+    "pl": "słupek",
+    "de": "Poller",
+    "fr": "potelet",
+    "es": "bolardo",
+    "it": "dissuasore",
+    "pt": "balizador",
+    "tr": "bariyer direği"
+   },
+   "ex": {
+    "en": "Bollards keep cars off the square."
+   }
+  },
+  {
+   "id": "transport.to-merge",
+   "t": {
+    "en": "to merge",
+    "uk": "влитися в потік",
+    "ru": "влиться в поток",
+    "pl": "włączyć się do ruchu",
+    "de": "sich einfädeln",
+    "fr": "s'insérer",
+    "es": "incorporarse",
+    "it": "immettersi",
+    "pt": "entrar no fluxo",
+    "tr": "trafiğe katılmak"
+   },
+   "ex": {
+    "en": "Merge carefully onto the motorway."
+   }
+  },
+  {
+   "id": "transport.curb",
+   "t": {
+    "en": "curb",
+    "uk": "бордюр",
+    "ru": "бордюр",
+    "pl": "krawężnik",
+    "de": "Bordstein",
+    "fr": "bordure du trottoir",
+    "es": "bordillo",
+    "it": "cordolo",
+    "pt": "meio-fio",
+    "tr": "kaldırım taşı"
+   },
+   "ex": {
+    "en": "He scraped the wheel on the curb."
+   }
+  },
+  {
+   "id": "transport.aquaplaning",
+   "t": {
+    "en": "aquaplaning",
+    "uk": "аквапланування",
+    "ru": "аквапланирование",
+    "pl": "aquaplaning",
+    "de": "Aquaplaning",
+    "fr": "aquaplaning",
+    "es": "aquaplaning",
+    "it": "aquaplaning",
+    "pt": "aquaplanagem",
+    "tr": "su kızaklaması"
+   },
+   "ex": {
+    "en": "Heavy rain brings a risk of aquaplaning."
+   }
+  },
+  {
+   "id": "transport.to-cut-someone-off",
+   "t": {
+    "en": "to cut someone off",
+    "uk": "підрізати",
+    "ru": "подрезать",
+    "pl": "zajechać drogę",
+    "de": "schneiden",
+    "fr": "faire une queue de poisson",
+    "es": "cerrar el paso",
+    "it": "tagliare la strada",
+    "pt": "dar uma fechada",
+    "tr": "önünü kesmek"
+   },
+   "ex": {
+    "en": "That taxi just cut me off."
+   }
+  },
+  {
+   "id": "transport.through-traffic",
+   "t": {
+    "en": "through traffic",
+    "uk": "транзитний рух",
+    "ru": "транзитное движение",
+    "pl": "ruch tranzytowy",
+    "de": "Durchgangsverkehr",
+    "fr": "trafic de transit",
+    "es": "tráfico de paso",
+    "it": "traffico di attraversamento",
+    "pt": "tráfego de passagem",
+    "tr": "transit trafiği"
+   },
+   "ex": {
+    "en": "Through traffic is banned in the center."
+   }
+  },
+  {
+   "id": "transport.overpass",
+   "t": {
+    "en": "overpass",
+    "uk": "естакада",
+    "ru": "эстакада",
+    "pl": "wiadukt",
+    "de": "Überführung",
+    "fr": "pont routier",
+    "es": "paso elevado",
+    "it": "cavalcavia",
+    "pt": "viaduto",
+    "tr": "üst geçit"
+   },
+   "ex": {
+    "en": "The overpass crosses the railway."
+   }
+  },
+  {
+   "id": "transport.underpass",
+   "t": {
+    "en": "underpass",
+    "uk": "підземний перехід",
+    "ru": "подземный переход",
+    "pl": "przejście podziemne",
+    "de": "Unterführung",
+    "fr": "passage souterrain",
+    "es": "paso subterráneo",
+    "it": "sottopassaggio",
+    "pt": "passagem subterrânea",
+    "tr": "alt geçit"
+   },
+   "ex": {
+    "en": "Use the underpass to reach the platform."
+   }
+  },
+  {
+   "id": "transport.rail-strike",
+   "t": {
+    "en": "rail strike",
+    "uk": "страйк залізничників",
+    "ru": "забастовка железнодорожников",
+    "pl": "strajk kolejarzy",
+    "de": "Bahnstreik",
+    "fr": "grève des trains",
+    "es": "huelga de trenes",
+    "it": "sciopero dei treni",
+    "pt": "greve dos trens",
+    "tr": "tren grevi"
+   },
+   "ex": {
+    "en": "The rail strike stranded thousands."
+   }
+  }
+ ]
+}

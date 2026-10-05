@@ -1,0 +1,548 @@
+{
+ "id": "relationships-a1",
+ "topic": "relationships",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "relationships.boyfriend",
+   "t": {
+    "en": "boyfriend",
+    "uk": "хлопець",
+    "ru": "парень",
+    "pl": "chłopak",
+    "de": "fester Freund",
+    "fr": "petit ami",
+    "es": "novio",
+    "it": "ragazzo",
+    "pt": "namorado",
+    "tr": "erkek arkadaş"
+   },
+   "ex": {
+    "en": "This is my boyfriend, Tom."
+   }
+  },
+  {
+   "id": "relationships.girlfriend",
+   "t": {
+    "en": "girlfriend",
+    "uk": "дівчина",
+    "ru": "девушка",
+    "pl": "dziewczyna",
+    "de": "feste Freundin",
+    "fr": "petite amie",
+    "es": "novia",
+    "it": "ragazza",
+    "pt": "namorada",
+    "tr": "kız arkadaş"
+   },
+   "ex": {
+    "en": "My girlfriend likes flowers."
+   }
+  },
+  {
+   "id": "relationships.kiss",
+   "t": {
+    "en": "kiss",
+    "uk": "поцілунок",
+    "ru": "поцелуй",
+    "pl": "pocałunek",
+    "de": "Kuss",
+    "fr": "bisou",
+    "es": "beso",
+    "it": "bacio",
+    "pt": "beijo",
+    "tr": "öpücük"
+   },
+   "ex": {
+    "en": "She gave him a kiss."
+   }
+  },
+  {
+   "id": "relationships.hug",
+   "t": {
+    "en": "hug",
+    "uk": "обійми",
+    "ru": "объятие",
+    "pl": "przytulenie",
+    "de": "Umarmung",
+    "fr": "câlin",
+    "es": "abrazo",
+    "it": "abbraccio",
+    "pt": "abraço",
+    "tr": "sarılma"
+   },
+   "ex": {
+    "en": "Give me a hug."
+   }
+  },
+  {
+   "id": "relationships.date",
+   "t": {
+    "en": "date",
+    "uk": "побачення",
+    "ru": "свидание",
+    "pl": "randka",
+    "de": "Date",
+    "fr": "rendez-vous",
+    "es": "cita",
+    "it": "appuntamento",
+    "pt": "encontro",
+    "tr": "randevu"
+   },
+   "ex": {
+    "en": "We have a date tonight."
+   }
+  },
+  {
+   "id": "relationships.i-love-you",
+   "t": {
+    "en": "I love you",
+    "uk": "Я тебе кохаю",
+    "ru": "Я тебя люблю",
+    "pl": "Kocham cię",
+    "de": "Ich liebe dich",
+    "fr": "Je t'aime",
+    "es": "Te quiero",
+    "it": "Ti amo",
+    "pt": "Eu te amo",
+    "tr": "Seni seviyorum"
+   },
+   "ex": {
+    "en": "He said 'I love you' first."
+   }
+  },
+  {
+   "id": "relationships.couple",
+   "t": {
+    "en": "couple",
+    "uk": "пара",
+    "ru": "пара",
+    "pl": "para",
+    "de": "Paar",
+    "fr": "couple",
+    "es": "pareja",
+    "it": "coppia",
+    "pt": "casal",
+    "tr": "çift"
+   },
+   "ex": {
+    "en": "They are a lovely couple."
+   }
+  },
+  {
+   "id": "relationships.single",
+   "t": {
+    "en": "single",
+    "uk": "неодружений",
+    "ru": "холостой",
+    "pl": "singiel",
+    "de": "Single",
+    "fr": "célibataire",
+    "es": "soltero",
+    "it": "single",
+    "pt": "solteiro",
+    "tr": "bekar"
+   },
+   "ex": {
+    "en": "I am single right now."
+   }
+  },
+  {
+   "id": "relationships.to-meet",
+   "t": {
+    "en": "to meet",
+    "uk": "познайомитися",
+    "ru": "познакомиться",
+    "pl": "poznać",
+    "de": "kennenlernen",
+    "fr": "rencontrer",
+    "es": "conocer",
+    "it": "conoscere",
+    "pt": "conhecer",
+    "tr": "tanışmak"
+   },
+   "ex": {
+    "en": "Where did you two meet?"
+   }
+  },
+  {
+   "id": "relationships.heart",
+   "t": {
+    "en": "heart",
+    "uk": "серце",
+    "ru": "сердце",
+    "pl": "serce",
+    "de": "Herz",
+    "fr": "cœur",
+    "es": "corazón",
+    "it": "cuore",
+    "pt": "coração",
+    "tr": "kalp"
+   },
+   "ex": {
+    "en": "My heart beats fast near you."
+   }
+  },
+  {
+   "id": "relationships.gift",
+   "t": {
+    "en": "gift",
+    "uk": "подарунок",
+    "ru": "подарок",
+    "pl": "prezent",
+    "de": "Geschenk",
+    "fr": "cadeau",
+    "es": "regalo",
+    "it": "regalo",
+    "pt": "presente",
+    "tr": "hediye"
+   },
+   "ex": {
+    "en": "He bought her a small gift."
+   }
+  },
+  {
+   "id": "relationships.flowers",
+   "t": {
+    "en": "flowers",
+    "uk": "квіти",
+    "ru": "цветы",
+    "pl": "kwiaty",
+    "de": "Blumen",
+    "fr": "fleurs",
+    "es": "flores",
+    "it": "fiori",
+    "pt": "flores",
+    "tr": "çiçekler"
+   },
+   "ex": {
+    "en": "I brought you flowers."
+   }
+  },
+  {
+   "id": "relationships.to-text",
+   "t": {
+    "en": "to text",
+    "uk": "писати повідомлення",
+    "ru": "писать сообщения",
+    "pl": "pisać wiadomości",
+    "de": "eine Nachricht schreiben",
+    "fr": "envoyer un message",
+    "es": "mandar un mensaje",
+    "it": "mandare un messaggio",
+    "pt": "mandar mensagem",
+    "tr": "mesaj atmak"
+   },
+   "ex": {
+    "en": "Text me when you get home."
+   }
+  },
+  {
+   "id": "relationships.to-miss-someone",
+   "t": {
+    "en": "to miss someone",
+    "uk": "сумувати за кимось",
+    "ru": "скучать по кому-то",
+    "pl": "tęsknić za kimś",
+    "de": "jemanden vermissen",
+    "fr": "manquer à (tu me manques)",
+    "es": "echar de menos",
+    "it": "sentire la mancanza di",
+    "pt": "sentir falta de",
+    "tr": "özlemek"
+   },
+   "ex": {
+    "en": "I miss you so much."
+   }
+  },
+  {
+   "id": "relationships.together",
+   "t": {
+    "en": "together",
+    "uk": "разом",
+    "ru": "вместе",
+    "pl": "razem",
+    "de": "zusammen",
+    "fr": "ensemble",
+    "es": "juntos",
+    "it": "insieme",
+    "pt": "juntos",
+    "tr": "birlikte"
+   },
+   "ex": {
+    "en": "We are happy together."
+   }
+  },
+  {
+   "id": "relationships.alone",
+   "t": {
+    "en": "alone",
+    "uk": "сам",
+    "ru": "один",
+    "pl": "sam",
+    "de": "allein",
+    "fr": "seul",
+    "es": "solo",
+    "it": "da solo",
+    "pt": "sozinho",
+    "tr": "yalnız"
+   },
+   "ex": {
+    "en": "I don't want to be alone."
+   }
+  },
+  {
+   "id": "relationships.to-invite",
+   "t": {
+    "en": "to invite",
+    "uk": "запрошувати",
+    "ru": "приглашать",
+    "pl": "zapraszać",
+    "de": "einladen",
+    "fr": "inviter",
+    "es": "invitar",
+    "it": "invitare",
+    "pt": "convidar",
+    "tr": "davet etmek"
+   },
+   "ex": {
+    "en": "She invited me to dinner."
+   }
+  },
+  {
+   "id": "relationships.best-friend",
+   "t": {
+    "en": "best friend",
+    "uk": "найкращий друг",
+    "ru": "лучший друг",
+    "pl": "najlepszy przyjaciel",
+    "de": "bester Freund",
+    "fr": "meilleur ami",
+    "es": "mejor amigo",
+    "it": "migliore amico",
+    "pt": "melhor amigo",
+    "tr": "en iyi arkadaş"
+   },
+   "ex": {
+    "en": "Anna is my best friend."
+   }
+  },
+  {
+   "id": "relationships.to-hold-hands",
+   "t": {
+    "en": "to hold hands",
+    "uk": "триматися за руки",
+    "ru": "держаться за руки",
+    "pl": "trzymać się za ręce",
+    "de": "Händchen halten",
+    "fr": "se tenir la main",
+    "es": "ir de la mano",
+    "it": "tenersi per mano",
+    "pt": "dar as mãos",
+    "tr": "el ele tutuşmak"
+   },
+   "ex": {
+    "en": "They walked holding hands."
+   }
+  },
+  {
+   "id": "relationships.darling",
+   "t": {
+    "en": "darling",
+    "uk": "коханий",
+    "ru": "дорогой",
+    "pl": "kochanie",
+    "de": "Schatz",
+    "fr": "chéri",
+    "es": "cariño",
+    "it": "tesoro",
+    "pt": "querido",
+    "tr": "canım"
+   },
+   "ex": {
+    "en": "Good morning, darling!"
+   }
+  },
+  {
+   "id": "relationships.love",
+   "t": {
+    "en": "love",
+    "uk": "кохання",
+    "ru": "любовь",
+    "pl": "miłość",
+    "de": "Liebe",
+    "fr": "amour",
+    "es": "amor",
+    "it": "amore",
+    "pt": "amor",
+    "tr": "aşk"
+   },
+   "ex": {
+    "en": "Love is important."
+   }
+  },
+  {
+   "id": "relationships.to-hug",
+   "t": {
+    "en": "to hug",
+    "uk": "обіймати",
+    "ru": "обнимать",
+    "pl": "przytulać",
+    "de": "umarmen",
+    "fr": "faire un câlin",
+    "es": "abrazar",
+    "it": "abbracciare",
+    "pt": "abraçar",
+    "tr": "sarılmak"
+   },
+   "ex": {
+    "en": "She hugged her mother."
+   }
+  },
+  {
+   "id": "relationships.to-kiss",
+   "t": {
+    "en": "to kiss",
+    "uk": "цілувати",
+    "ru": "целовать",
+    "pl": "całować",
+    "de": "küssen",
+    "fr": "embrasser",
+    "es": "besar",
+    "it": "baciare",
+    "pt": "beijar",
+    "tr": "öpmek"
+   },
+   "ex": {
+    "en": "He kissed her goodbye."
+   }
+  },
+  {
+   "id": "relationships.to-marry",
+   "t": {
+    "en": "to marry",
+    "uk": "одружуватися",
+    "ru": "жениться",
+    "pl": "brać ślub",
+    "de": "heiraten",
+    "fr": "se marier",
+    "es": "casarse",
+    "it": "sposarsi",
+    "pt": "casar",
+    "tr": "evlenmek"
+   },
+   "ex": {
+    "en": "Will you marry me?"
+   }
+  },
+  {
+   "id": "relationships.sweetheart",
+   "t": {
+    "en": "sweetheart",
+    "uk": "любий",
+    "ru": "дорогой",
+    "pl": "kochanie",
+    "de": "Schatz",
+    "fr": "chéri",
+    "es": "cariño",
+    "it": "tesoro",
+    "pt": "querido",
+    "tr": "tatlım"
+   },
+   "ex": {
+    "en": "Good morning, sweetheart."
+   }
+  },
+  {
+   "id": "relationships.to-go-on-a-date",
+   "t": {
+    "en": "to go on a date",
+    "uk": "піти на побачення",
+    "ru": "пойти на свидание",
+    "pl": "iść na randkę",
+    "de": "ein Date haben",
+    "fr": "sortir avec quelqu'un",
+    "es": "tener una cita",
+    "it": "uscire insieme",
+    "pt": "sair para um encontro",
+    "tr": "buluşmaya gitmek"
+   },
+   "ex": {
+    "en": "We went on a date last night."
+   }
+  },
+  {
+   "id": "relationships.to-chat",
+   "t": {
+    "en": "to chat",
+    "uk": "балакати",
+    "ru": "болтать",
+    "pl": "gadać",
+    "de": "plaudern",
+    "fr": "bavarder",
+    "es": "charlar",
+    "it": "chiacchierare",
+    "pt": "bater papo",
+    "tr": "sohbet etmek"
+   },
+   "ex": {
+    "en": "We chatted for hours."
+   }
+  },
+  {
+   "id": "relationships.ring",
+   "t": {
+    "en": "ring",
+    "uk": "каблучка",
+    "ru": "кольцо",
+    "pl": "pierścionek",
+    "de": "Ring",
+    "fr": "bague",
+    "es": "anillo",
+    "it": "anello",
+    "pt": "anel",
+    "tr": "yüzük"
+   },
+   "ex": {
+    "en": "He gave her a ring."
+   }
+  },
+  {
+   "id": "relationships.see-you-soon",
+   "t": {
+    "en": "see you soon",
+    "uk": "до скорої зустрічі",
+    "ru": "до скорого",
+    "pl": "do zobaczenia wkrótce",
+    "de": "bis bald",
+    "fr": "à bientôt",
+    "es": "hasta pronto",
+    "it": "a presto",
+    "pt": "até logo",
+    "tr": "yakında görüşürüz"
+   },
+   "ex": {
+    "en": "Bye, see you soon!"
+   }
+  },
+  {
+   "id": "relationships.to-say-sorry",
+   "t": {
+    "en": "to say sorry",
+    "uk": "вибачатися",
+    "ru": "извиняться",
+    "pl": "przepraszać",
+    "de": "sich entschuldigen",
+    "fr": "s'excuser",
+    "es": "pedir perdón",
+    "it": "chiedere scusa",
+    "pt": "pedir desculpa",
+    "tr": "özür dilemek"
+   },
+   "ex": {
+    "en": "He said sorry to his friend."
+   }
+  }
+ ]
+}

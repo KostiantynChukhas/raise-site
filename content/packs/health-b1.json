@@ -1,0 +1,476 @@
+{
+ "id": "health-b1",
+ "topic": "health",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "health.blood-pressure",
+   "t": {
+    "en": "blood pressure",
+    "uk": "тиск",
+    "ru": "давление",
+    "pl": "ciśnienie",
+    "de": "Blutdruck",
+    "fr": "tension artérielle",
+    "es": "presión arterial",
+    "it": "pressione",
+    "pt": "pressão arterial",
+    "tr": "tansiyon"
+   },
+   "ex": {
+    "en": "Your blood pressure is a bit high."
+   }
+  },
+  {
+   "id": "health.pulse",
+   "t": {
+    "en": "pulse",
+    "uk": "пульс",
+    "ru": "пульс",
+    "pl": "puls",
+    "de": "Puls",
+    "fr": "pouls",
+    "es": "pulso",
+    "it": "polso",
+    "pt": "pulso",
+    "tr": "nabız"
+   },
+   "ex": {
+    "en": "The nurse checked my pulse."
+   }
+  },
+  {
+   "id": "health.to-breathe",
+   "t": {
+    "en": "to breathe",
+    "uk": "дихати",
+    "ru": "дышать",
+    "pl": "oddychać",
+    "de": "atmen",
+    "fr": "respirer",
+    "es": "respirar",
+    "it": "respirare",
+    "pt": "respirar",
+    "tr": "nefes almak"
+   },
+   "ex": {
+    "en": "Breathe in slowly."
+   }
+  },
+  {
+   "id": "health.infection",
+   "t": {
+    "en": "infection",
+    "uk": "інфекція",
+    "ru": "инфекция",
+    "pl": "infekcja",
+    "de": "Infektion",
+    "fr": "infection",
+    "es": "infección",
+    "it": "infezione",
+    "pt": "infecção",
+    "tr": "enfeksiyon"
+   },
+   "ex": {
+    "en": "The wound has an infection."
+   }
+  },
+  {
+   "id": "health.antibiotics",
+   "t": {
+    "en": "antibiotics",
+    "uk": "антибіотики",
+    "ru": "антибиотики",
+    "pl": "antybiotyki",
+    "de": "Antibiotika",
+    "fr": "antibiotiques",
+    "es": "antibióticos",
+    "it": "antibiotici",
+    "pt": "antibióticos",
+    "tr": "antibiyotik"
+   },
+   "ex": {
+    "en": "Finish all the antibiotics."
+   }
+  },
+  {
+   "id": "health.vaccine",
+   "t": {
+    "en": "vaccine",
+    "uk": "вакцина",
+    "ru": "вакцина",
+    "pl": "szczepionka",
+    "de": "Impfstoff",
+    "fr": "vaccin",
+    "es": "vacuna",
+    "it": "vaccino",
+    "pt": "vacina",
+    "tr": "aşı"
+   },
+   "ex": {
+    "en": "The vaccine is free."
+   }
+  },
+  {
+   "id": "health.to-get-vaccinated",
+   "t": {
+    "en": "to get vaccinated",
+    "uk": "вакцинуватися",
+    "ru": "сделать прививку",
+    "pl": "zaszczepić się",
+    "de": "sich impfen lassen",
+    "fr": "se faire vacciner",
+    "es": "vacunarse",
+    "it": "vaccinarsi",
+    "pt": "se vacinar",
+    "tr": "aşı olmak"
+   },
+   "ex": {
+    "en": "I got vaccinated last week."
+   }
+  },
+  {
+   "id": "health.blood-test",
+   "t": {
+    "en": "blood test",
+    "uk": "аналіз крові",
+    "ru": "анализ крови",
+    "pl": "badanie krwi",
+    "de": "Blutuntersuchung",
+    "fr": "prise de sang",
+    "es": "análisis de sangre",
+    "it": "esame del sangue",
+    "pt": "exame de sangue",
+    "tr": "kan tahlili"
+   },
+   "ex": {
+    "en": "The blood test results are ready."
+   }
+  },
+  {
+   "id": "health.x-ray",
+   "t": {
+    "en": "X-ray",
+    "uk": "рентген",
+    "ru": "рентген",
+    "pl": "rentgen",
+    "de": "Röntgen",
+    "fr": "radio",
+    "es": "radiografía",
+    "it": "radiografia",
+    "pt": "raio-x",
+    "tr": "röntgen"
+   },
+   "ex": {
+    "en": "They took an X-ray of my arm."
+   }
+  },
+  {
+   "id": "health.side-effect",
+   "t": {
+    "en": "side effect",
+    "uk": "побічний ефект",
+    "ru": "побочный эффект",
+    "pl": "skutek uboczny",
+    "de": "Nebenwirkung",
+    "fr": "effet secondaire",
+    "es": "efecto secundario",
+    "it": "effetto collaterale",
+    "pt": "efeito colateral",
+    "tr": "yan etki"
+   },
+   "ex": {
+    "en": "Drowsiness is a common side effect."
+   }
+  },
+  {
+   "id": "health.dose",
+   "t": {
+    "en": "dose",
+    "uk": "доза",
+    "ru": "доза",
+    "pl": "dawka",
+    "de": "Dosis",
+    "fr": "dose",
+    "es": "dosis",
+    "it": "dose",
+    "pt": "dose",
+    "tr": "doz"
+   },
+   "ex": {
+    "en": "Do not exceed the dose."
+   }
+  },
+  {
+   "id": "health.ointment",
+   "t": {
+    "en": "ointment",
+    "uk": "мазь",
+    "ru": "мазь",
+    "pl": "maść",
+    "de": "Salbe",
+    "fr": "pommade",
+    "es": "pomada",
+    "it": "pomata",
+    "pt": "pomada",
+    "tr": "merhem"
+   },
+   "ex": {
+    "en": "Apply the ointment twice a day."
+   }
+  },
+  {
+   "id": "health.drops",
+   "t": {
+    "en": "drops",
+    "uk": "краплі",
+    "ru": "капли",
+    "pl": "krople",
+    "de": "Tropfen",
+    "fr": "gouttes",
+    "es": "gotas",
+    "it": "gocce",
+    "pt": "gotas",
+    "tr": "damla"
+   },
+   "ex": {
+    "en": "Use two drops in each eye."
+   }
+  },
+  {
+   "id": "health.waiting-room",
+   "t": {
+    "en": "waiting room",
+    "uk": "зал очікування",
+    "ru": "комната ожидания",
+    "pl": "poczekalnia",
+    "de": "Wartezimmer",
+    "fr": "salle d'attente",
+    "es": "sala de espera",
+    "it": "sala d'attesa",
+    "pt": "sala de espera",
+    "tr": "bekleme odası"
+   },
+   "ex": {
+    "en": "Please sit in the waiting room."
+   }
+  },
+  {
+   "id": "health.specialist",
+   "t": {
+    "en": "specialist",
+    "uk": "вузький спеціаліст",
+    "ru": "узкий специалист",
+    "pl": "specjalista",
+    "de": "Facharzt",
+    "fr": "spécialiste",
+    "es": "especialista",
+    "it": "specialista",
+    "pt": "especialista",
+    "tr": "uzman doktor"
+   },
+   "ex": {
+    "en": "You should see a specialist."
+   }
+  },
+  {
+   "id": "health.check-up",
+   "t": {
+    "en": "check-up",
+    "uk": "профілактичний огляд",
+    "ru": "профилактический осмотр",
+    "pl": "badanie kontrolne",
+    "de": "Vorsorgeuntersuchung",
+    "fr": "bilan de santé",
+    "es": "chequeo médico",
+    "it": "check-up",
+    "pt": "check-up",
+    "tr": "check-up"
+   },
+   "ex": {
+    "en": "I have a check-up every year."
+   }
+  },
+  {
+   "id": "health.chronic",
+   "t": {
+    "en": "chronic",
+    "uk": "хронічний",
+    "ru": "хронический",
+    "pl": "przewlekły",
+    "de": "chronisch",
+    "fr": "chronique",
+    "es": "crónico",
+    "it": "cronico",
+    "pt": "crônico",
+    "tr": "kronik"
+   },
+   "ex": {
+    "en": "He has chronic back pain."
+   }
+  },
+  {
+   "id": "health.to-faint",
+   "t": {
+    "en": "to faint",
+    "uk": "знепритомніти",
+    "ru": "упасть в обморок",
+    "pl": "zemdleć",
+    "de": "ohnmächtig werden",
+    "fr": "s'évanouir",
+    "es": "desmayarse",
+    "it": "svenire",
+    "pt": "desmaiar",
+    "tr": "bayılmak"
+   },
+   "ex": {
+    "en": "She fainted in the heat."
+   }
+  },
+  {
+   "id": "health.rash",
+   "t": {
+    "en": "rash",
+    "uk": "висип",
+    "ru": "сыпь",
+    "pl": "wysypka",
+    "de": "Ausschlag",
+    "fr": "éruption cutanée",
+    "es": "sarpullido",
+    "it": "eruzione cutanea",
+    "pt": "erupção na pele",
+    "tr": "döküntü"
+   },
+   "ex": {
+    "en": "The rash appeared after lunch."
+   }
+  },
+  {
+   "id": "health.swollen",
+   "t": {
+    "en": "swollen",
+    "uk": "набряклий",
+    "ru": "опухший",
+    "pl": "spuchnięty",
+    "de": "geschwollen",
+    "fr": "enflé",
+    "es": "hinchado",
+    "it": "gonfio",
+    "pt": "inchado",
+    "tr": "şiş"
+   },
+   "ex": {
+    "en": "My ankle is swollen."
+   }
+  },
+  {
+   "id": "health.sprain",
+   "t": {
+    "en": "sprain",
+    "uk": "розтягнення",
+    "ru": "растяжение",
+    "pl": "skręcenie",
+    "de": "Verstauchung",
+    "fr": "entorse",
+    "es": "esguince",
+    "it": "distorsione",
+    "pt": "torção",
+    "tr": "burkulma"
+   },
+   "ex": {
+    "en": "It is only a sprain, not a break."
+   }
+  },
+  {
+   "id": "health.to-break-a-bone",
+   "t": {
+    "en": "to break a bone",
+    "uk": "зламати кістку",
+    "ru": "сломать кость",
+    "pl": "złamać kość",
+    "de": "einen Knochen brechen",
+    "fr": "se casser un os",
+    "es": "romperse un hueso",
+    "it": "rompersi un osso",
+    "pt": "quebrar um osso",
+    "tr": "kemik kırmak"
+   },
+   "ex": {
+    "en": "He broke a bone skiing."
+   }
+  },
+  {
+   "id": "health.stitches",
+   "t": {
+    "en": "stitches",
+    "uk": "шви",
+    "ru": "швы",
+    "pl": "szwy",
+    "de": "Stiche",
+    "fr": "points de suture",
+    "es": "puntos",
+    "it": "punti",
+    "pt": "pontos",
+    "tr": "dikiş"
+   },
+   "ex": {
+    "en": "The cut needed five stitches."
+   }
+  },
+  {
+   "id": "health.to-warm-up",
+   "t": {
+    "en": "to warm up",
+    "uk": "розминатися",
+    "ru": "разминаться",
+    "pl": "rozgrzewać się",
+    "de": "sich aufwärmen",
+    "fr": "s'échauffer",
+    "es": "calentar",
+    "it": "riscaldarsi",
+    "pt": "aquecer",
+    "tr": "ısınmak"
+   },
+   "ex": {
+    "en": "Always warm up before running."
+   }
+  },
+  {
+   "id": "health.balanced-diet",
+   "t": {
+    "en": "balanced diet",
+    "uk": "збалансоване харчування",
+    "ru": "сбалансированное питание",
+    "pl": "zbilansowana dieta",
+    "de": "ausgewogene Ernährung",
+    "fr": "alimentation équilibrée",
+    "es": "dieta equilibrada",
+    "it": "dieta equilibrata",
+    "pt": "alimentação equilibrada",
+    "tr": "dengeli beslenme"
+   },
+   "ex": {
+    "en": "A balanced diet keeps you strong."
+   }
+  },
+  {
+   "id": "health.mental-health",
+   "t": {
+    "en": "mental health",
+    "uk": "психічне здоров'я",
+    "ru": "психическое здоровье",
+    "pl": "zdrowie psychiczne",
+    "de": "psychische Gesundheit",
+    "fr": "santé mentale",
+    "es": "salud mental",
+    "it": "salute mentale",
+    "pt": "saúde mental",
+    "tr": "ruh sağlığı"
+   },
+   "ex": {
+    "en": "Mental health matters too."
+   }
+  }
+ ]
+}

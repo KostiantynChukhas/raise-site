@@ -1,0 +1,512 @@
+{
+ "id": "travel-b1",
+ "topic": "travel",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "travel.itinerary",
+   "t": {
+    "en": "itinerary",
+    "uk": "маршрут",
+    "ru": "маршрут",
+    "pl": "plan podróży",
+    "de": "Reiseroute",
+    "fr": "itinéraire",
+    "es": "itinerario",
+    "it": "itinerario",
+    "pt": "roteiro",
+    "tr": "seyahat planı"
+   },
+   "ex": {
+    "en": "Our itinerary includes three cities."
+   }
+  },
+  {
+   "id": "travel.customs",
+   "t": {
+    "en": "customs",
+    "uk": "митниця",
+    "ru": "таможня",
+    "pl": "odprawa celna",
+    "de": "Zoll",
+    "fr": "douane",
+    "es": "aduana",
+    "it": "dogana",
+    "pt": "alfândega",
+    "tr": "gümrük"
+   },
+   "ex": {
+    "en": "We waited an hour at customs."
+   }
+  },
+  {
+   "id": "travel.passport-control",
+   "t": {
+    "en": "passport control",
+    "uk": "паспортний контроль",
+    "ru": "паспортный контроль",
+    "pl": "kontrola paszportowa",
+    "de": "Passkontrolle",
+    "fr": "contrôle des passeports",
+    "es": "control de pasaportes",
+    "it": "controllo passaporti",
+    "pt": "controle de passaporte",
+    "tr": "pasaport kontrolü"
+   },
+   "ex": {
+    "en": "The line at passport control was long."
+   }
+  },
+  {
+   "id": "travel.travel-insurance",
+   "t": {
+    "en": "travel insurance",
+    "uk": "туристична страховка",
+    "ru": "туристическая страховка",
+    "pl": "ubezpieczenie podróżne",
+    "de": "Reiseversicherung",
+    "fr": "assurance voyage",
+    "es": "seguro de viaje",
+    "it": "assicurazione di viaggio",
+    "pt": "seguro viagem",
+    "tr": "seyahat sigortası"
+   },
+   "ex": {
+    "en": "Always buy travel insurance before a trip."
+   }
+  },
+  {
+   "id": "travel.carry-on-luggage",
+   "t": {
+    "en": "carry-on luggage",
+    "uk": "ручна поклажа",
+    "ru": "ручная кладь",
+    "pl": "bagaż podręczny",
+    "de": "Handgepäck",
+    "fr": "bagage à main",
+    "es": "equipaje de mano",
+    "it": "bagaglio a mano",
+    "pt": "bagagem de mão",
+    "tr": "el bagajı"
+   },
+   "ex": {
+    "en": "Only one piece of carry-on luggage is allowed."
+   }
+  },
+  {
+   "id": "travel.baggage-claim",
+   "t": {
+    "en": "baggage claim",
+    "uk": "видача багажу",
+    "ru": "выдача багажа",
+    "pl": "odbiór bagażu",
+    "de": "Gepäckausgabe",
+    "fr": "retrait des bagages",
+    "es": "recogida de equipajes",
+    "it": "ritiro bagagli",
+    "pt": "esteira de bagagem",
+    "tr": "bagaj alım"
+   },
+   "ex": {
+    "en": "Meet me at baggage claim."
+   }
+  },
+  {
+   "id": "travel.layover",
+   "t": {
+    "en": "layover",
+    "uk": "пересадка",
+    "ru": "пересадка",
+    "pl": "przesiadka",
+    "de": "Zwischenstopp",
+    "fr": "escale",
+    "es": "escala",
+    "it": "scalo",
+    "pt": "escala",
+    "tr": "aktarma"
+   },
+   "ex": {
+    "en": "We have a three-hour layover in Dubai."
+   }
+  },
+  {
+   "id": "travel.board",
+   "t": {
+    "en": "to board",
+    "uk": "сідати на борт",
+    "ru": "подниматься на борт",
+    "pl": "wsiadać na pokład",
+    "de": "einsteigen",
+    "fr": "embarquer",
+    "es": "embarcar",
+    "it": "imbarcarsi",
+    "pt": "embarcar",
+    "tr": "biniş yapmak"
+   },
+   "ex": {
+    "en": "Passengers may now board the plane."
+   }
+  },
+  {
+   "id": "travel.land",
+   "t": {
+    "en": "to land",
+    "uk": "приземлятися",
+    "ru": "приземляться",
+    "pl": "lądować",
+    "de": "landen",
+    "fr": "atterrir",
+    "es": "aterrizar",
+    "it": "atterrare",
+    "pt": "pousar",
+    "tr": "iniş yapmak"
+   },
+   "ex": {
+    "en": "We will land in twenty minutes."
+   }
+  },
+  {
+   "id": "travel.take-off",
+   "t": {
+    "en": "to take off",
+    "uk": "злітати",
+    "ru": "взлетать",
+    "pl": "startować",
+    "de": "abheben",
+    "fr": "décoller",
+    "es": "despegar",
+    "it": "decollare",
+    "pt": "decolar",
+    "tr": "havalanmak"
+   },
+   "ex": {
+    "en": "The plane took off on time."
+   }
+  },
+  {
+   "id": "travel.jet-lag",
+   "t": {
+    "en": "jet lag",
+    "uk": "джетлаг",
+    "ru": "джетлаг",
+    "pl": "jet lag",
+    "de": "Jetlag",
+    "fr": "décalage horaire",
+    "es": "jet lag",
+    "it": "jet lag",
+    "pt": "jet lag",
+    "tr": "jet lag"
+   },
+   "ex": {
+    "en": "The jet lag lasted three days."
+   }
+  },
+  {
+   "id": "travel.time-zone",
+   "t": {
+    "en": "time zone",
+    "uk": "часовий пояс",
+    "ru": "часовой пояс",
+    "pl": "strefa czasowa",
+    "de": "Zeitzone",
+    "fr": "fuseau horaire",
+    "es": "zona horaria",
+    "it": "fuso orario",
+    "pt": "fuso horário",
+    "tr": "saat dilimi"
+   },
+   "ex": {
+    "en": "We crossed three time zones."
+   }
+  },
+  {
+   "id": "travel.direct-flight",
+   "t": {
+    "en": "direct flight",
+    "uk": "прямий рейс",
+    "ru": "прямой рейс",
+    "pl": "lot bezpośredni",
+    "de": "Direktflug",
+    "fr": "vol direct",
+    "es": "vuelo directo",
+    "it": "volo diretto",
+    "pt": "voo direto",
+    "tr": "direkt uçuş"
+   },
+   "ex": {
+    "en": "Is there a direct flight to Lisbon?"
+   }
+  },
+  {
+   "id": "travel.aisle-seat",
+   "t": {
+    "en": "aisle seat",
+    "uk": "місце біля проходу",
+    "ru": "место у прохода",
+    "pl": "miejsce przy przejściu",
+    "de": "Gangplatz",
+    "fr": "place côté couloir",
+    "es": "asiento de pasillo",
+    "it": "posto corridoio",
+    "pt": "assento no corredor",
+    "tr": "koridor tarafı koltuk"
+   },
+   "ex": {
+    "en": "An aisle seat is easier for stretching."
+   }
+  },
+  {
+   "id": "travel.confirm-a-booking",
+   "t": {
+    "en": "to confirm a booking",
+    "uk": "підтвердити бронювання",
+    "ru": "подтвердить бронь",
+    "pl": "potwierdzić rezerwację",
+    "de": "Buchung bestätigen",
+    "fr": "confirmer une réservation",
+    "es": "confirmar una reserva",
+    "it": "confermare una prenotazione",
+    "pt": "confirmar uma reserva",
+    "tr": "rezervasyonu onaylamak"
+   },
+   "ex": {
+    "en": "Please confirm your booking by email."
+   }
+  },
+  {
+   "id": "travel.cancellation",
+   "t": {
+    "en": "cancellation",
+    "uk": "скасування",
+    "ru": "отмена",
+    "pl": "odwołanie",
+    "de": "Stornierung",
+    "fr": "annulation",
+    "es": "cancelación",
+    "it": "cancellazione",
+    "pt": "cancelamento",
+    "tr": "iptal"
+   },
+   "ex": {
+    "en": "There is a fee for late cancellation."
+   }
+  },
+  {
+   "id": "travel.upgrade",
+   "t": {
+    "en": "to upgrade",
+    "uk": "підвищити клас",
+    "ru": "повысить класс",
+    "pl": "podnieść klasę",
+    "de": "upgraden",
+    "fr": "surclasser",
+    "es": "mejorar la categoría",
+    "it": "fare l'upgrade",
+    "pt": "fazer upgrade",
+    "tr": "üst sınıfa geçmek"
+   },
+   "ex": {
+    "en": "They offered to upgrade our room."
+   }
+  },
+  {
+   "id": "travel.all-inclusive",
+   "t": {
+    "en": "all-inclusive",
+    "uk": "все включено",
+    "ru": "всё включено",
+    "pl": "all inclusive",
+    "de": "All-inclusive",
+    "fr": "tout compris",
+    "es": "todo incluido",
+    "it": "tutto incluso",
+    "pt": "tudo incluído",
+    "tr": "her şey dahil"
+   },
+   "ex": {
+    "en": "We chose an all-inclusive resort."
+   }
+  },
+  {
+   "id": "travel.guided-tour",
+   "t": {
+    "en": "guided tour",
+    "uk": "екскурсія з гідом",
+    "ru": "экскурсия с гидом",
+    "pl": "wycieczka z przewodnikiem",
+    "de": "Führung",
+    "fr": "visite guidée",
+    "es": "visita guiada",
+    "it": "visita guidata",
+    "pt": "visita guiada",
+    "tr": "rehberli tur"
+   },
+   "ex": {
+    "en": "The guided tour starts at ten."
+   }
+  },
+  {
+   "id": "travel.accommodation",
+   "t": {
+    "en": "accommodation",
+    "uk": "житло",
+    "ru": "жильё",
+    "pl": "nocleg",
+    "de": "Unterkunft",
+    "fr": "hébergement",
+    "es": "alojamiento",
+    "it": "alloggio",
+    "pt": "hospedagem",
+    "tr": "konaklama"
+   },
+   "ex": {
+    "en": "Accommodation is not included in the price."
+   }
+  },
+  {
+   "id": "travel.bed-and-breakfast",
+   "t": {
+    "en": "bed and breakfast",
+    "uk": "ночівля зі сніданком",
+    "ru": "ночлег с завтраком",
+    "pl": "nocleg ze śniadaniem",
+    "de": "Pension mit Frühstück",
+    "fr": "chambre d'hôtes",
+    "es": "alojamiento con desayuno",
+    "it": "bed and breakfast",
+    "pt": "pousada",
+    "tr": "pansiyon"
+   },
+   "ex": {
+    "en": "We stayed at a cozy bed and breakfast."
+   }
+  },
+  {
+   "id": "travel.check-availability",
+   "t": {
+    "en": "to check availability",
+    "uk": "перевірити наявність місць",
+    "ru": "проверить наличие мест",
+    "pl": "sprawdzić dostępność",
+    "de": "Verfügbarkeit prüfen",
+    "fr": "vérifier la disponibilité",
+    "es": "comprobar la disponibilidad",
+    "it": "verificare la disponibilità",
+    "pt": "verificar a disponibilidade",
+    "tr": "müsaitlik kontrol etmek"
+   },
+   "ex": {
+    "en": "Let me check availability for those dates."
+   }
+  },
+  {
+   "id": "travel.fully-booked",
+   "t": {
+    "en": "fully booked",
+    "uk": "немає вільних місць",
+    "ru": "мест нет",
+    "pl": "brak wolnych miejsc",
+    "de": "ausgebucht",
+    "fr": "complet",
+    "es": "completo",
+    "it": "al completo",
+    "pt": "lotado",
+    "tr": "dolu"
+   },
+   "ex": {
+    "en": "Sorry, the hotel is fully booked."
+   }
+  },
+  {
+   "id": "travel.road-trip",
+   "t": {
+    "en": "road trip",
+    "uk": "автоподорож",
+    "ru": "автопутешествие",
+    "pl": "podróż samochodem",
+    "de": "Roadtrip",
+    "fr": "road trip",
+    "es": "viaje por carretera",
+    "it": "viaggio in macchina",
+    "pt": "viagem de carro",
+    "tr": "karayolu yolculuğu"
+   },
+   "ex": {
+    "en": "We planned a road trip along the coast."
+   }
+  },
+  {
+   "id": "travel.ferry",
+   "t": {
+    "en": "ferry",
+    "uk": "пором",
+    "ru": "паром",
+    "pl": "prom",
+    "de": "Fähre",
+    "fr": "ferry",
+    "es": "ferri",
+    "it": "traghetto",
+    "pt": "balsa",
+    "tr": "feribot"
+   },
+   "ex": {
+    "en": "The ferry to the island takes an hour."
+   }
+  },
+  {
+   "id": "travel.ticket-office",
+   "t": {
+    "en": "ticket office",
+    "uk": "каса",
+    "ru": "касса",
+    "pl": "kasa biletowa",
+    "de": "Fahrkartenschalter",
+    "fr": "guichet",
+    "es": "taquilla",
+    "it": "biglietteria",
+    "pt": "bilheteria",
+    "tr": "gişe"
+   },
+   "ex": {
+    "en": "The ticket office closes at six."
+   }
+  },
+  {
+   "id": "travel.lost-and-found",
+   "t": {
+    "en": "lost and found",
+    "uk": "бюро знахідок",
+    "ru": "бюро находок",
+    "pl": "biuro rzeczy znalezionych",
+    "de": "Fundbüro",
+    "fr": "objets trouvés",
+    "es": "objetos perdidos",
+    "it": "oggetti smarriti",
+    "pt": "achados e perdidos",
+    "tr": "kayıp eşya bürosu"
+   },
+   "ex": {
+    "en": "Ask at lost and found for your umbrella."
+   }
+  },
+  {
+   "id": "travel.travel-agency",
+   "t": {
+    "en": "travel agency",
+    "uk": "туристична агенція",
+    "ru": "турагентство",
+    "pl": "biuro podróży",
+    "de": "Reisebüro",
+    "fr": "agence de voyages",
+    "es": "agencia de viajes",
+    "it": "agenzia di viaggi",
+    "pt": "agência de viagens",
+    "tr": "seyahat acentesi"
+   },
+   "ex": {
+    "en": "We booked the tour through a travel agency."
+   }
+  }
+ ]
+}

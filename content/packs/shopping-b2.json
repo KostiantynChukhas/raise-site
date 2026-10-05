@@ -1,0 +1,440 @@
+{
+ "id": "shopping-b2",
+ "topic": "shopping",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "shopping.window-shopping",
+   "t": {
+    "en": "window shopping",
+    "uk": "розглядання вітрин",
+    "ru": "разглядывание витрин",
+    "pl": "oglądanie wystaw",
+    "de": "Schaufensterbummel",
+    "fr": "lèche-vitrine",
+    "es": "ir de escaparates",
+    "it": "guardare le vetrine",
+    "pt": "olhar vitrines",
+    "tr": "vitrin gezmek"
+   },
+   "ex": {
+    "en": "We spent the afternoon window shopping."
+   }
+  },
+  {
+   "id": "shopping.impulse-purchase",
+   "t": {
+    "en": "impulse purchase",
+    "uk": "імпульсивна покупка",
+    "ru": "импульсивная покупка",
+    "pl": "zakup pod wpływem impulsu",
+    "de": "Impulskauf",
+    "fr": "achat impulsif",
+    "es": "compra impulsiva",
+    "it": "acquisto d'impulso",
+    "pt": "compra por impulso",
+    "tr": "anlık alışveriş"
+   },
+   "ex": {
+    "en": "The candles were an impulse purchase."
+   }
+  },
+  {
+   "id": "shopping.to-overcharge",
+   "t": {
+    "en": "to overcharge",
+    "uk": "завищувати ціну",
+    "ru": "завышать цену",
+    "pl": "zawyżać cenę",
+    "de": "zu viel berechnen",
+    "fr": "faire payer trop cher",
+    "es": "cobrar de más",
+    "it": "far pagare troppo",
+    "pt": "cobrar a mais",
+    "tr": "fazla ücret almak"
+   },
+   "ex": {
+    "en": "The taxi driver overcharged us."
+   }
+  },
+  {
+   "id": "shopping.rip-off",
+   "t": {
+    "en": "rip-off",
+    "uk": "обдиралівка",
+    "ru": "обдираловка",
+    "pl": "zdzierstwo",
+    "de": "Abzocke",
+    "fr": "arnaque",
+    "es": "estafa",
+    "it": "fregatura",
+    "pt": "roubo",
+    "tr": "kazık"
+   },
+   "ex": {
+    "en": "Ten euros for coffee is a rip-off."
+   }
+  },
+  {
+   "id": "shopping.markup",
+   "t": {
+    "en": "markup",
+    "uk": "націнка",
+    "ru": "наценка",
+    "pl": "narzut",
+    "de": "Aufschlag",
+    "fr": "marge",
+    "es": "margen comercial",
+    "it": "ricarico",
+    "pt": "margem de lucro",
+    "tr": "kâr marjı"
+   },
+   "ex": {
+    "en": "The markup on drinks is huge."
+   }
+  },
+  {
+   "id": "shopping.wholesale",
+   "t": {
+    "en": "wholesale",
+    "uk": "оптова торгівля",
+    "ru": "оптовая торговля",
+    "pl": "handel hurtowy",
+    "de": "Großhandel",
+    "fr": "commerce de gros",
+    "es": "venta al por mayor",
+    "it": "vendita all'ingrosso",
+    "pt": "atacado",
+    "tr": "toptan"
+   },
+   "ex": {
+    "en": "We buy our fabric wholesale."
+   }
+  },
+  {
+   "id": "shopping.inventory",
+   "t": {
+    "en": "inventory",
+    "uk": "товарні запаси",
+    "ru": "товарные запасы",
+    "pl": "zapasy",
+    "de": "Lagerbestand",
+    "fr": "stock",
+    "es": "existencias",
+    "it": "scorte",
+    "pt": "estoque",
+    "tr": "stok"
+   },
+   "ex": {
+    "en": "We check the inventory every month."
+   }
+  },
+  {
+   "id": "shopping.consumer",
+   "t": {
+    "en": "consumer",
+    "uk": "споживач",
+    "ru": "потребитель",
+    "pl": "konsument",
+    "de": "Verbraucher",
+    "fr": "consommateur",
+    "es": "consumidor",
+    "it": "consumatore",
+    "pt": "consumidor",
+    "tr": "tüketici"
+   },
+   "ex": {
+    "en": "Consumers want lower prices."
+   }
+  },
+  {
+   "id": "shopping.consumer-rights",
+   "t": {
+    "en": "consumer rights",
+    "uk": "права споживачів",
+    "ru": "права потребителей",
+    "pl": "prawa konsumenta",
+    "de": "Verbraucherrechte",
+    "fr": "droits des consommateurs",
+    "es": "derechos del consumidor",
+    "it": "diritti del consumatore",
+    "pt": "direitos do consumidor",
+    "tr": "tüketici hakları"
+   },
+   "ex": {
+    "en": "Know your consumer rights before buying."
+   }
+  },
+  {
+   "id": "shopping.faulty",
+   "t": {
+    "en": "faulty",
+    "uk": "бракований",
+    "ru": "бракованный",
+    "pl": "wadliwy",
+    "de": "fehlerhaft",
+    "fr": "défectueux",
+    "es": "defectuoso",
+    "it": "difettoso",
+    "pt": "com defeito",
+    "tr": "kusurlu"
+   },
+   "ex": {
+    "en": "The zip is faulty."
+   }
+  },
+  {
+   "id": "shopping.to-be-entitled-to-a-refund",
+   "t": {
+    "en": "to be entitled to a refund",
+    "uk": "мати право на повернення коштів",
+    "ru": "иметь право на возврат денег",
+    "pl": "mieć prawo do zwrotu pieniędzy",
+    "de": "Anspruch auf Rückerstattung haben",
+    "fr": "avoir droit à un remboursement",
+    "es": "tener derecho a un reembolso",
+    "it": "avere diritto a un rimborso",
+    "pt": "ter direito a reembolso",
+    "tr": "para iadesi hakkına sahip olmak"
+   },
+   "ex": {
+    "en": "You are entitled to a full refund."
+   }
+  },
+  {
+   "id": "shopping.to-dispute-a-charge",
+   "t": {
+    "en": "to dispute a charge",
+    "uk": "оскаржити списання",
+    "ru": "оспорить списание",
+    "pl": "zakwestionować obciążenie",
+    "de": "eine Abbuchung anfechten",
+    "fr": "contester un prélèvement",
+    "es": "disputar un cargo",
+    "it": "contestare un addebito",
+    "pt": "contestar uma cobrança",
+    "tr": "bir ödemeye itiraz etmek"
+   },
+   "ex": {
+    "en": "I disputed the charge with my bank."
+   }
+  },
+  {
+   "id": "shopping.subscription",
+   "t": {
+    "en": "subscription",
+    "uk": "підписка",
+    "ru": "подписка",
+    "pl": "subskrypcja",
+    "de": "Abonnement",
+    "fr": "abonnement",
+    "es": "suscripción",
+    "it": "abbonamento",
+    "pt": "assinatura",
+    "tr": "abonelik"
+   },
+   "ex": {
+    "en": "Cancel the subscription before it renews."
+   }
+  },
+  {
+   "id": "shopping.to-cancel-an-order",
+   "t": {
+    "en": "to cancel an order",
+    "uk": "скасувати замовлення",
+    "ru": "отменить заказ",
+    "pl": "anulować zamówienie",
+    "de": "eine Bestellung stornieren",
+    "fr": "annuler une commande",
+    "es": "cancelar un pedido",
+    "it": "annullare un ordine",
+    "pt": "cancelar um pedido",
+    "tr": "siparişi iptal etmek"
+   },
+   "ex": {
+    "en": "Can I still cancel my order?"
+   }
+  },
+  {
+   "id": "shopping.estimated-delivery-time",
+   "t": {
+    "en": "estimated delivery time",
+    "uk": "орієнтовний термін доставки",
+    "ru": "ориентировочный срок доставки",
+    "pl": "szacowany czas dostawy",
+    "de": "voraussichtliche Lieferzeit",
+    "fr": "délai de livraison estimé",
+    "es": "plazo de entrega estimado",
+    "it": "tempi di consegna stimati",
+    "pt": "prazo estimado de entrega",
+    "tr": "tahmini teslimat süresi"
+   },
+   "ex": {
+    "en": "The estimated delivery time is five days."
+   }
+  },
+  {
+   "id": "shopping.to-pre-order",
+   "t": {
+    "en": "to pre-order",
+    "uk": "зробити передзамовлення",
+    "ru": "сделать предзаказ",
+    "pl": "zamówić w przedsprzedaży",
+    "de": "vorbestellen",
+    "fr": "précommander",
+    "es": "hacer un pedido anticipado",
+    "it": "preordinare",
+    "pt": "comprar na pré-venda",
+    "tr": "ön sipariş vermek"
+   },
+   "ex": {
+    "en": "You can pre-order the new phone today."
+   }
+  },
+  {
+   "id": "shopping.limited-edition",
+   "t": {
+    "en": "limited edition",
+    "uk": "обмежена серія",
+    "ru": "ограниченная серия",
+    "pl": "edycja limitowana",
+    "de": "limitierte Auflage",
+    "fr": "édition limitée",
+    "es": "edición limitada",
+    "it": "edizione limitata",
+    "pt": "edição limitada",
+    "tr": "sınırlı üretim"
+   },
+   "ex": {
+    "en": "Only 500 limited edition pairs exist."
+   }
+  },
+  {
+   "id": "shopping.price-comparison",
+   "t": {
+    "en": "price comparison",
+    "uk": "порівняння цін",
+    "ru": "сравнение цен",
+    "pl": "porównanie cen",
+    "de": "Preisvergleich",
+    "fr": "comparaison de prix",
+    "es": "comparación de precios",
+    "it": "confronto dei prezzi",
+    "pt": "comparação de preços",
+    "tr": "fiyat karşılaştırması"
+   },
+   "ex": {
+    "en": "Use a price comparison site first."
+   }
+  },
+  {
+   "id": "shopping.to-shop-around",
+   "t": {
+    "en": "to shop around",
+    "uk": "порівнювати пропозиції",
+    "ru": "присматриваться к ценам",
+    "pl": "porównywać oferty",
+    "de": "Preise vergleichen",
+    "fr": "comparer les offres",
+    "es": "comparar precios",
+    "it": "confrontare le offerte",
+    "pt": "pesquisar preços",
+    "tr": "fiyat araştırması yapmak"
+   },
+   "ex": {
+    "en": "Shop around before you decide."
+   }
+  },
+  {
+   "id": "shopping.flash-sale",
+   "t": {
+    "en": "flash sale",
+    "uk": "флеш-розпродаж",
+    "ru": "флеш-распродажа",
+    "pl": "błyskawiczna wyprzedaż",
+    "de": "Blitzangebot",
+    "fr": "vente flash",
+    "es": "venta flash",
+    "it": "offerta lampo",
+    "pt": "oferta relâmpago",
+    "tr": "flaş indirim"
+   },
+   "ex": {
+    "en": "The flash sale ends at midnight."
+   }
+  },
+  {
+   "id": "shopping.clearance-sale",
+   "t": {
+    "en": "clearance sale",
+    "uk": "розпродаж залишків",
+    "ru": "распродажа остатков",
+    "pl": "wyprzedaż końcówek",
+    "de": "Räumungsverkauf",
+    "fr": "liquidation",
+    "es": "liquidación",
+    "it": "svendita",
+    "pt": "queima de estoque",
+    "tr": "tasfiye indirimi"
+   },
+   "ex": {
+    "en": "Everything must go in the clearance sale."
+   }
+  },
+  {
+   "id": "shopping.made-to-measure",
+   "t": {
+    "en": "made to measure",
+    "uk": "пошитий на замовлення",
+    "ru": "сшитый на заказ",
+    "pl": "szyty na miarę",
+    "de": "maßgeschneidert",
+    "fr": "sur mesure",
+    "es": "a medida",
+    "it": "su misura",
+    "pt": "sob medida",
+    "tr": "ısmarlama"
+   },
+   "ex": {
+    "en": "He wears made to measure suits."
+   }
+  },
+  {
+   "id": "shopping.to-alter",
+   "t": {
+    "en": "to alter",
+    "uk": "підігнати (одяг)",
+    "ru": "подогнать (по фигуре)",
+    "pl": "przerobić (ubranie)",
+    "de": "ändern lassen",
+    "fr": "retoucher",
+    "es": "arreglar (una prenda)",
+    "it": "modificare (un capo)",
+    "pt": "ajustar (uma roupa)",
+    "tr": "tadil ettirmek"
+   },
+   "ex": {
+    "en": "The tailor can alter the sleeves."
+   }
+  },
+  {
+   "id": "shopping.durable",
+   "t": {
+    "en": "durable",
+    "uk": "довговічний",
+    "ru": "прочный",
+    "pl": "trwały",
+    "de": "langlebig",
+    "fr": "résistant",
+    "es": "resistente",
+    "it": "resistente",
+    "pt": "durável",
+    "tr": "dayanıklı"
+   },
+   "ex": {
+    "en": "These boots are durable and warm."
+   }
+  }
+ ]
+}

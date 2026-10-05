@@ -1,0 +1,494 @@
+{
+ "id": "sports-b2",
+ "topic": "sports",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "sports.sportsmanship",
+   "t": {
+    "en": "sportsmanship",
+    "uk": "спортивна поведінка",
+    "ru": "спортивное поведение",
+    "pl": "postawa fair play",
+    "de": "Sportsgeist",
+    "fr": "esprit sportif",
+    "es": "deportividad",
+    "it": "sportività",
+    "pt": "espírito esportivo",
+    "tr": "sportmenlik"
+   },
+   "ex": {
+    "en": "She showed great sportsmanship after losing."
+   }
+  },
+  {
+   "id": "sports.doping",
+   "t": {
+    "en": "doping",
+    "uk": "допінг",
+    "ru": "допинг",
+    "pl": "doping",
+    "de": "Doping",
+    "fr": "dopage",
+    "es": "dopaje",
+    "it": "doping",
+    "pt": "doping",
+    "tr": "doping"
+   },
+   "ex": {
+    "en": "The sprinter was banned for doping."
+   }
+  },
+  {
+   "id": "sports.to-disqualify",
+   "t": {
+    "en": "to disqualify",
+    "uk": "дискваліфікувати",
+    "ru": "дисквалифицировать",
+    "pl": "zdyskwalifikować",
+    "de": "disqualifizieren",
+    "fr": "disqualifier",
+    "es": "descalificar",
+    "it": "squalificare",
+    "pt": "desclassificar",
+    "tr": "diskalifiye etmek"
+   },
+   "ex": {
+    "en": "Two runners were disqualified for false starts."
+   }
+  },
+  {
+   "id": "sports.tactics",
+   "t": {
+    "en": "tactics",
+    "uk": "тактика",
+    "ru": "тактика",
+    "pl": "taktyka",
+    "de": "Taktik",
+    "fr": "tactique",
+    "es": "táctica",
+    "it": "tattica",
+    "pt": "tática",
+    "tr": "taktik"
+   },
+   "ex": {
+    "en": "The coach changed tactics at half-time."
+   }
+  },
+  {
+   "id": "sports.underdog",
+   "t": {
+    "en": "underdog",
+    "uk": "аутсайдер",
+    "ru": "аутсайдер",
+    "pl": "outsider",
+    "de": "Außenseiter",
+    "fr": "outsider",
+    "es": "el menos favorito",
+    "it": "sfavorito",
+    "pt": "azarão",
+    "tr": "zayıf taraf"
+   },
+   "ex": {
+    "en": "Everyone loves it when the underdog wins."
+   }
+  },
+  {
+   "id": "sports.home-advantage",
+   "t": {
+    "en": "home advantage",
+    "uk": "перевага домашнього поля",
+    "ru": "преимущество домашнего поля",
+    "pl": "atut własnego boiska",
+    "de": "Heimvorteil",
+    "fr": "avantage du terrain",
+    "es": "ventaja de local",
+    "it": "vantaggio del fattore campo",
+    "pt": "vantagem de jogar em casa",
+    "tr": "ev sahibi avantajı"
+   },
+   "ex": {
+    "en": "Home advantage made the difference."
+   }
+  },
+  {
+   "id": "sports.rookie",
+   "t": {
+    "en": "rookie",
+    "uk": "новачок",
+    "ru": "новичок",
+    "pl": "debiutant",
+    "de": "Neuling",
+    "fr": "débutant",
+    "es": "novato",
+    "it": "esordiente",
+    "pt": "novato",
+    "tr": "çaylak"
+   },
+   "ex": {
+    "en": "The rookie scored on his debut."
+   }
+  },
+  {
+   "id": "sports.veteran",
+   "t": {
+    "en": "veteran",
+    "uk": "ветеран",
+    "ru": "ветеран",
+    "pl": "weteran",
+    "de": "Routinier",
+    "fr": "vétéran",
+    "es": "veterano",
+    "it": "veterano",
+    "pt": "veterano",
+    "tr": "tecrübeli oyuncu"
+   },
+   "ex": {
+    "en": "The veteran still leads the defence."
+   }
+  },
+  {
+   "id": "sports.sponsor",
+   "t": {
+    "en": "sponsor",
+    "uk": "спонсор",
+    "ru": "спонсор",
+    "pl": "sponsor",
+    "de": "Sponsor",
+    "fr": "sponsor",
+    "es": "patrocinador",
+    "it": "sponsor",
+    "pt": "patrocinador",
+    "tr": "sponsor"
+   },
+   "ex": {
+    "en": "The club is looking for a new sponsor."
+   }
+  },
+  {
+   "id": "sports.to-pull-a-muscle",
+   "t": {
+    "en": "to pull a muscle",
+    "uk": "розтягнути м'яз",
+    "ru": "потянуть мышцу",
+    "pl": "naciągnąć mięsień",
+    "de": "sich einen Muskel zerren",
+    "fr": "se claquer un muscle",
+    "es": "sufrir un tirón",
+    "it": "stirarsi un muscolo",
+    "pt": "distender um músculo",
+    "tr": "kas çekmek"
+   },
+   "ex": {
+    "en": "I pulled a muscle during the sprint."
+   }
+  },
+  {
+   "id": "sports.rehabilitation",
+   "t": {
+    "en": "rehabilitation",
+    "uk": "реабілітація",
+    "ru": "реабилитация",
+    "pl": "rehabilitacja",
+    "de": "Reha",
+    "fr": "rééducation",
+    "es": "rehabilitación",
+    "it": "riabilitazione",
+    "pt": "reabilitação",
+    "tr": "rehabilitasyon"
+   },
+   "ex": {
+    "en": "Rehabilitation after surgery took six months."
+   }
+  },
+  {
+   "id": "sports.flexibility",
+   "t": {
+    "en": "flexibility",
+    "uk": "гнучкість",
+    "ru": "гибкость",
+    "pl": "gibkość",
+    "de": "Beweglichkeit",
+    "fr": "souplesse",
+    "es": "flexibilidad",
+    "it": "flessibilità",
+    "pt": "flexibilidade",
+    "tr": "esneklik"
+   },
+   "ex": {
+    "en": "Gymnasts need exceptional flexibility."
+   }
+  },
+  {
+   "id": "sports.plateau",
+   "t": {
+    "en": "plateau",
+    "uk": "плато",
+    "ru": "плато",
+    "pl": "zastój",
+    "de": "Plateau",
+    "fr": "plateau",
+    "es": "estancamiento",
+    "it": "stallo",
+    "pt": "platô",
+    "tr": "plato"
+   },
+   "ex": {
+    "en": "My progress has hit a plateau."
+   }
+  },
+  {
+   "id": "sports.overtraining",
+   "t": {
+    "en": "overtraining",
+    "uk": "перетренованість",
+    "ru": "перетренированность",
+    "pl": "przetrenowanie",
+    "de": "Übertraining",
+    "fr": "surentraînement",
+    "es": "sobreentrenamiento",
+    "it": "sovrallenamento",
+    "pt": "overtraining",
+    "tr": "aşırı antrenman"
+   },
+   "ex": {
+    "en": "Overtraining leads to fatigue and injury."
+   }
+  },
+  {
+   "id": "sports.interval-training",
+   "t": {
+    "en": "interval training",
+    "uk": "інтервальне тренування",
+    "ru": "интервальная тренировка",
+    "pl": "trening interwałowy",
+    "de": "Intervalltraining",
+    "fr": "entraînement fractionné",
+    "es": "entrenamiento por intervalos",
+    "it": "allenamento a intervalli",
+    "pt": "treino intervalado",
+    "tr": "interval antrenmanı"
+   },
+   "ex": {
+    "en": "Interval training improves speed quickly."
+   }
+  },
+  {
+   "id": "sports.rest-day",
+   "t": {
+    "en": "rest day",
+    "uk": "день відпочинку",
+    "ru": "день отдыха",
+    "pl": "dzień odpoczynku",
+    "de": "Ruhetag",
+    "fr": "jour de repos",
+    "es": "día de descanso",
+    "it": "giorno di riposo",
+    "pt": "dia de descanso",
+    "tr": "dinlenme günü"
+   },
+   "ex": {
+    "en": "Sunday is my rest day."
+   }
+  },
+  {
+   "id": "sports.heart-rate",
+   "t": {
+    "en": "heart rate",
+    "uk": "пульс",
+    "ru": "пульс",
+    "pl": "tętno",
+    "de": "Herzfrequenz",
+    "fr": "fréquence cardiaque",
+    "es": "frecuencia cardíaca",
+    "it": "frequenza cardiaca",
+    "pt": "frequência cardíaca",
+    "tr": "nabız"
+   },
+   "ex": {
+    "en": "Keep your heart rate under 150."
+   }
+  },
+  {
+   "id": "sports.cool-down",
+   "t": {
+    "en": "cool-down",
+    "uk": "заминка",
+    "ru": "заминка",
+    "pl": "schłodzenie",
+    "de": "Abwärmen",
+    "fr": "retour au calme",
+    "es": "vuelta a la calma",
+    "it": "defaticamento",
+    "pt": "desaquecimento",
+    "tr": "soğuma"
+   },
+   "ex": {
+    "en": "Finish with a five-minute cool-down."
+   }
+  },
+  {
+   "id": "sports.comeback",
+   "t": {
+    "en": "comeback",
+    "uk": "камбек",
+    "ru": "камбэк",
+    "pl": "powrót",
+    "de": "Comeback",
+    "fr": "retour",
+    "es": "remontada",
+    "it": "rimonta",
+    "pt": "virada",
+    "tr": "geri dönüş"
+   },
+   "ex": {
+    "en": "They staged an incredible comeback."
+   }
+  },
+  {
+   "id": "sports.knockout",
+   "t": {
+    "en": "knockout",
+    "uk": "нокаут",
+    "ru": "нокаут",
+    "pl": "nokaut",
+    "de": "K.o.",
+    "fr": "K.-O.",
+    "es": "nocaut",
+    "it": "KO",
+    "pt": "nocaute",
+    "tr": "nakavt"
+   },
+   "ex": {
+    "en": "He won by knockout in round three."
+   }
+  },
+  {
+   "id": "sports.to-hold-the-record",
+   "t": {
+    "en": "to hold the record",
+    "uk": "тримати рекорд",
+    "ru": "удерживать рекорд",
+    "pl": "być rekordzistą",
+    "de": "den Rekord halten",
+    "fr": "détenir le record",
+    "es": "tener el récord",
+    "it": "detenere il record",
+    "pt": "deter o recorde",
+    "tr": "rekoru elinde tutmak"
+   },
+   "ex": {
+    "en": "She still holds the national record."
+   }
+  },
+  {
+   "id": "sports.tiebreaker",
+   "t": {
+    "en": "tiebreaker",
+    "uk": "тай-брейк",
+    "ru": "тай-брейк",
+    "pl": "tie-break",
+    "de": "Tiebreak",
+    "fr": "jeu décisif",
+    "es": "desempate",
+    "it": "tie-break",
+    "pt": "tie-break",
+    "tr": "tie-break"
+   },
+   "ex": {
+    "en": "The set was decided in a tiebreaker."
+   }
+  },
+  {
+   "id": "sports.to-be-sidelined",
+   "t": {
+    "en": "to be sidelined",
+    "uk": "вибути через травму",
+    "ru": "выбыть из-за травмы",
+    "pl": "pauzować",
+    "de": "ausfallen",
+    "fr": "être indisponible",
+    "es": "estar de baja",
+    "it": "essere fuori gioco",
+    "pt": "ficar afastado",
+    "tr": "kadro dışı kalmak"
+   },
+   "ex": {
+    "en": "He is sidelined with a knee injury."
+   }
+  },
+  {
+   "id": "sports.amateur",
+   "t": {
+    "en": "amateur",
+    "uk": "аматор",
+    "ru": "любитель",
+    "pl": "amator",
+    "de": "Amateur",
+    "fr": "amateur",
+    "es": "aficionado",
+    "it": "dilettante",
+    "pt": "amador",
+    "tr": "amatör"
+   },
+   "ex": {
+    "en": "The race is open to amateurs."
+   }
+  },
+  {
+   "id": "sports.professional-athlete",
+   "t": {
+    "en": "professional athlete",
+    "uk": "професійний спортсмен",
+    "ru": "профессиональный спортсмен",
+    "pl": "zawodowy sportowiec",
+    "de": "Profisportler",
+    "fr": "athlète professionnel",
+    "es": "deportista profesional",
+    "it": "atleta professionista",
+    "pt": "atleta profissional",
+    "tr": "profesyonel sporcu"
+   },
+   "ex": {
+    "en": "Professional athletes train full-time."
+   }
+  },
+  {
+   "id": "sports.to-coach",
+   "t": {
+    "en": "to coach",
+    "uk": "тренувати",
+    "ru": "тренировать",
+    "pl": "trenować (kogoś)",
+    "de": "trainieren (jemanden)",
+    "fr": "entraîner",
+    "es": "entrenar (a alguien)",
+    "it": "allenare",
+    "pt": "treinar (alguém)",
+    "tr": "çalıştırmak"
+   },
+   "ex": {
+    "en": "She coaches the under-16 team."
+   }
+  },
+  {
+   "id": "sports.to-be-in-the-lead",
+   "t": {
+    "en": "to be in the lead",
+    "uk": "лідирувати",
+    "ru": "лидировать",
+    "pl": "prowadzić",
+    "de": "in Führung liegen",
+    "fr": "être en tête",
+    "es": "ir en cabeza",
+    "it": "essere in testa",
+    "pt": "estar na liderança",
+    "tr": "önde olmak"
+   },
+   "ex": {
+    "en": "She was in the lead until the final bend."
+   }
+  }
+ ]
+}

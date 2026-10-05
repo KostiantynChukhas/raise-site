@@ -1,0 +1,476 @@
+{
+ "id": "family-b1",
+ "topic": "family",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "family.relatives",
+   "t": {
+    "en": "relatives",
+    "uk": "родичі",
+    "ru": "родственники",
+    "pl": "krewni",
+    "de": "Verwandte",
+    "fr": "proches",
+    "es": "parientes",
+    "it": "parenti",
+    "pt": "parentes",
+    "tr": "akrabalar"
+   },
+   "ex": {
+    "en": "All our relatives came to the party."
+   }
+  },
+  {
+   "id": "family.in-laws",
+   "t": {
+    "en": "in-laws",
+    "uk": "родичі чоловіка або дружини",
+    "ru": "родня со стороны супруга",
+    "pl": "teściowie",
+    "de": "Schwiegereltern",
+    "fr": "beaux-parents",
+    "es": "suegros",
+    "it": "suoceri",
+    "pt": "sogros",
+    "tr": "kayınlar"
+   },
+   "ex": {
+    "en": "We spend Christmas with my in-laws."
+   }
+  },
+  {
+   "id": "family.mother-in-law",
+   "t": {
+    "en": "mother-in-law",
+    "uk": "свекруха",
+    "ru": "свекровь",
+    "pl": "teściowa",
+    "de": "Schwiegermutter",
+    "fr": "belle-mère",
+    "es": "suegra",
+    "it": "suocera",
+    "pt": "sogra",
+    "tr": "kayınvalide"
+   },
+   "ex": {
+    "en": "My mother-in-law cooks very well."
+   }
+  },
+  {
+   "id": "family.father-in-law",
+   "t": {
+    "en": "father-in-law",
+    "uk": "тесть",
+    "ru": "тесть",
+    "pl": "teść",
+    "de": "Schwiegervater",
+    "fr": "beau-père",
+    "es": "suegro",
+    "it": "suocero",
+    "pt": "sogro",
+    "tr": "kayınpeder"
+   },
+   "ex": {
+    "en": "My father-in-law loves fishing."
+   }
+  },
+  {
+   "id": "family.stepfather",
+   "t": {
+    "en": "stepfather",
+    "uk": "вітчим",
+    "ru": "отчим",
+    "pl": "ojczym",
+    "de": "Stiefvater",
+    "fr": "beau-père",
+    "es": "padrastro",
+    "it": "patrigno",
+    "pt": "padrasto",
+    "tr": "üvey baba"
+   },
+   "ex": {
+    "en": "My stepfather taught me to drive."
+   }
+  },
+  {
+   "id": "family.stepmother",
+   "t": {
+    "en": "stepmother",
+    "uk": "мачуха",
+    "ru": "мачеха",
+    "pl": "macocha",
+    "de": "Stiefmutter",
+    "fr": "belle-mère",
+    "es": "madrastra",
+    "it": "matrigna",
+    "pt": "madrasta",
+    "tr": "üvey anne"
+   },
+   "ex": {
+    "en": "Her stepmother is very friendly."
+   }
+  },
+  {
+   "id": "family.single-mother",
+   "t": {
+    "en": "single mother",
+    "uk": "мати-одиначка",
+    "ru": "мать-одиночка",
+    "pl": "samotna matka",
+    "de": "alleinerziehende Mutter",
+    "fr": "mère célibataire",
+    "es": "madre soltera",
+    "it": "madre single",
+    "pt": "mãe solteira",
+    "tr": "bekar anne"
+   },
+   "ex": {
+    "en": "She is a single mother of two."
+   }
+  },
+  {
+   "id": "family.divorced",
+   "t": {
+    "en": "divorced",
+    "uk": "розлучений",
+    "ru": "разведённый",
+    "pl": "rozwiedziony",
+    "de": "geschieden",
+    "fr": "divorcé",
+    "es": "divorciado",
+    "it": "divorziato",
+    "pt": "divorciado",
+    "tr": "boşanmış"
+   },
+   "ex": {
+    "en": "My parents are divorced."
+   }
+  },
+  {
+   "id": "family.engaged",
+   "t": {
+    "en": "engaged",
+    "uk": "заручений",
+    "ru": "помолвленный",
+    "pl": "zaręczony",
+    "de": "verlobt",
+    "fr": "fiancé",
+    "es": "comprometido",
+    "it": "fidanzato",
+    "pt": "noivo",
+    "tr": "nişanlı"
+   },
+   "ex": {
+    "en": "My sister is engaged to Mark."
+   }
+  },
+  {
+   "id": "family.generation",
+   "t": {
+    "en": "generation",
+    "uk": "покоління",
+    "ru": "поколение",
+    "pl": "pokolenie",
+    "de": "Generation",
+    "fr": "génération",
+    "es": "generación",
+    "it": "generazione",
+    "pt": "geração",
+    "tr": "nesil"
+   },
+   "ex": {
+    "en": "Three generations live in this house."
+   }
+  },
+  {
+   "id": "family.to-bring-up",
+   "t": {
+    "en": "to bring up",
+    "uk": "виховувати",
+    "ru": "воспитывать",
+    "pl": "wychowywać",
+    "de": "erziehen",
+    "fr": "élever",
+    "es": "criar",
+    "it": "crescere",
+    "pt": "criar",
+    "tr": "yetiştirmek"
+   },
+   "ex": {
+    "en": "She brought up four children alone."
+   }
+  },
+  {
+   "id": "family.childhood",
+   "t": {
+    "en": "childhood",
+    "uk": "дитинство",
+    "ru": "детство",
+    "pl": "dzieciństwo",
+    "de": "Kindheit",
+    "fr": "enfance",
+    "es": "infancia",
+    "it": "infanzia",
+    "pt": "infância",
+    "tr": "çocukluk"
+   },
+   "ex": {
+    "en": "I had a happy childhood."
+   }
+  },
+  {
+   "id": "family.teenager",
+   "t": {
+    "en": "teenager",
+    "uk": "підліток",
+    "ru": "подросток",
+    "pl": "nastolatek",
+    "de": "Teenager",
+    "fr": "adolescent",
+    "es": "adolescente",
+    "it": "adolescente",
+    "pt": "adolescente",
+    "tr": "ergen"
+   },
+   "ex": {
+    "en": "Our son is a teenager now."
+   }
+  },
+  {
+   "id": "family.adult",
+   "t": {
+    "en": "adult",
+    "uk": "дорослий",
+    "ru": "взрослый",
+    "pl": "dorosły",
+    "de": "Erwachsener",
+    "fr": "adulte",
+    "es": "adulto",
+    "it": "adulto",
+    "pt": "adulto",
+    "tr": "yetişkin"
+   },
+   "ex": {
+    "en": "Both children are adults now."
+   }
+  },
+  {
+   "id": "family.funeral",
+   "t": {
+    "en": "funeral",
+    "uk": "похорон",
+    "ru": "похороны",
+    "pl": "pogrzeb",
+    "de": "Beerdigung",
+    "fr": "enterrement",
+    "es": "funeral",
+    "it": "funerale",
+    "pt": "funeral",
+    "tr": "cenaze"
+   },
+   "ex": {
+    "en": "The funeral is on Thursday."
+   }
+  },
+  {
+   "id": "family.to-pass-away",
+   "t": {
+    "en": "to pass away",
+    "uk": "померти",
+    "ru": "скончаться",
+    "pl": "odejść",
+    "de": "versterben",
+    "fr": "décéder",
+    "es": "fallecer",
+    "it": "venire a mancare",
+    "pt": "falecer",
+    "tr": "vefat etmek"
+   },
+   "ex": {
+    "en": "My grandmother passed away in May."
+   }
+  },
+  {
+   "id": "family.to-adopt",
+   "t": {
+    "en": "to adopt",
+    "uk": "усиновити",
+    "ru": "усыновить",
+    "pl": "adoptować",
+    "de": "adoptieren",
+    "fr": "adopter",
+    "es": "adoptar",
+    "it": "adottare",
+    "pt": "adotar",
+    "tr": "evlat edinmek"
+   },
+   "ex": {
+    "en": "They adopted a little girl."
+   }
+  },
+  {
+   "id": "family.personality",
+   "t": {
+    "en": "personality",
+    "uk": "характер",
+    "ru": "характер",
+    "pl": "osobowość",
+    "de": "Persönlichkeit",
+    "fr": "personnalité",
+    "es": "personalidad",
+    "it": "personalità",
+    "pt": "personalidade",
+    "tr": "kişilik"
+   },
+   "ex": {
+    "en": "She has a warm personality."
+   }
+  },
+  {
+   "id": "family.stubborn",
+   "t": {
+    "en": "stubborn",
+    "uk": "впертий",
+    "ru": "упрямый",
+    "pl": "uparty",
+    "de": "stur",
+    "fr": "têtu",
+    "es": "terco",
+    "it": "testardo",
+    "pt": "teimoso",
+    "tr": "inatçı"
+   },
+   "ex": {
+    "en": "My brother can be very stubborn."
+   }
+  },
+  {
+   "id": "family.generous",
+   "t": {
+    "en": "generous",
+    "uk": "щедрий",
+    "ru": "щедрый",
+    "pl": "hojny",
+    "de": "großzügig",
+    "fr": "généreux",
+    "es": "generoso",
+    "it": "generoso",
+    "pt": "generoso",
+    "tr": "cömert"
+   },
+   "ex": {
+    "en": "My grandfather is very generous."
+   }
+  },
+  {
+   "id": "family.reliable",
+   "t": {
+    "en": "reliable",
+    "uk": "надійний",
+    "ru": "надёжный",
+    "pl": "niezawodny",
+    "de": "zuverlässig",
+    "fr": "fiable",
+    "es": "fiable",
+    "it": "affidabile",
+    "pt": "confiável",
+    "tr": "güvenilir"
+   },
+   "ex": {
+    "en": "A good friend is reliable."
+   }
+  },
+  {
+   "id": "family.curly-hair",
+   "t": {
+    "en": "curly hair",
+    "uk": "кучеряве волосся",
+    "ru": "кудрявые волосы",
+    "pl": "kręcone włosy",
+    "de": "lockige Haare",
+    "fr": "cheveux bouclés",
+    "es": "pelo rizado",
+    "it": "capelli ricci",
+    "pt": "cabelo cacheado",
+    "tr": "kıvırcık saç"
+   },
+   "ex": {
+    "en": "My daughter has curly hair."
+   }
+  },
+  {
+   "id": "family.freckles",
+   "t": {
+    "en": "freckles",
+    "uk": "ластовиння",
+    "ru": "веснушки",
+    "pl": "piegi",
+    "de": "Sommersprossen",
+    "fr": "taches de rousseur",
+    "es": "pecas",
+    "it": "lentiggini",
+    "pt": "sardas",
+    "tr": "çiller"
+   },
+   "ex": {
+    "en": "He has freckles on his nose."
+   }
+  },
+  {
+   "id": "family.wrinkles",
+   "t": {
+    "en": "wrinkles",
+    "uk": "зморшки",
+    "ru": "морщины",
+    "pl": "zmarszczki",
+    "de": "Falten",
+    "fr": "rides",
+    "es": "arrugas",
+    "it": "rughe",
+    "pt": "rugas",
+    "tr": "kırışıklıklar"
+   },
+   "ex": {
+    "en": "Grandma has wrinkles around her eyes."
+   }
+  },
+  {
+   "id": "family.to-make-friends",
+   "t": {
+    "en": "to make friends",
+    "uk": "заводити друзів",
+    "ru": "заводить друзей",
+    "pl": "zawierać przyjaźnie",
+    "de": "Freunde finden",
+    "fr": "se faire des amis",
+    "es": "hacer amigos",
+    "it": "fare amicizia",
+    "pt": "fazer amigos",
+    "tr": "arkadaş edinmek"
+   },
+   "ex": {
+    "en": "It is easy to make friends here."
+   }
+  },
+  {
+   "id": "family.to-keep-in-touch",
+   "t": {
+    "en": "to keep in touch",
+    "uk": "підтримувати зв'язок",
+    "ru": "поддерживать связь",
+    "pl": "utrzymywać kontakt",
+    "de": "in Kontakt bleiben",
+    "fr": "rester en contact",
+    "es": "mantener el contacto",
+    "it": "tenersi in contatto",
+    "pt": "manter contato",
+    "tr": "iletişimde kalmak"
+   },
+   "ex": {
+    "en": "We still keep in touch by email."
+   }
+  }
+ ]
+}

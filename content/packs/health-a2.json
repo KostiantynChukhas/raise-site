@@ -1,0 +1,476 @@
+{
+ "id": "health-a2",
+ "topic": "health",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "health.symptom",
+   "t": {
+    "en": "symptom",
+    "uk": "симптом",
+    "ru": "симптом",
+    "pl": "objaw",
+    "de": "Symptom",
+    "fr": "symptôme",
+    "es": "síntoma",
+    "it": "sintomo",
+    "pt": "sintoma",
+    "tr": "belirti"
+   },
+   "ex": {
+    "en": "What are your symptoms?"
+   }
+  },
+  {
+   "id": "health.sore-throat",
+   "t": {
+    "en": "sore throat",
+    "uk": "біль у горлі",
+    "ru": "боль в горле",
+    "pl": "ból gardła",
+    "de": "Halsschmerzen",
+    "fr": "mal de gorge",
+    "es": "dolor de garganta",
+    "it": "mal di gola",
+    "pt": "dor de garganta",
+    "tr": "boğaz ağrısı"
+   },
+   "ex": {
+    "en": "I have a sore throat."
+   }
+  },
+  {
+   "id": "health.runny-nose",
+   "t": {
+    "en": "runny nose",
+    "uk": "нежить",
+    "ru": "насморк",
+    "pl": "katar",
+    "de": "Schnupfen",
+    "fr": "nez qui coule",
+    "es": "mocos",
+    "it": "naso che cola",
+    "pt": "nariz escorrendo",
+    "tr": "burun akıntısı"
+   },
+   "ex": {
+    "en": "A runny nose is annoying."
+   }
+  },
+  {
+   "id": "health.flu",
+   "t": {
+    "en": "flu",
+    "uk": "грип",
+    "ru": "грипп",
+    "pl": "grypa",
+    "de": "Grippe",
+    "fr": "grippe",
+    "es": "gripe",
+    "it": "influenza",
+    "pt": "gripe",
+    "tr": "grip"
+   },
+   "ex": {
+    "en": "He is in bed with the flu."
+   }
+  },
+  {
+   "id": "health.to-sneeze",
+   "t": {
+    "en": "to sneeze",
+    "uk": "чхати",
+    "ru": "чихать",
+    "pl": "kichać",
+    "de": "niesen",
+    "fr": "éternuer",
+    "es": "estornudar",
+    "it": "starnutire",
+    "pt": "espirrar",
+    "tr": "hapşırmak"
+   },
+   "ex": {
+    "en": "I sneeze all morning in spring."
+   }
+  },
+  {
+   "id": "health.nausea",
+   "t": {
+    "en": "nausea",
+    "uk": "нудота",
+    "ru": "тошнота",
+    "pl": "mdłości",
+    "de": "Übelkeit",
+    "fr": "nausée",
+    "es": "náuseas",
+    "it": "nausea",
+    "pt": "enjoo",
+    "tr": "mide bulantısı"
+   },
+   "ex": {
+    "en": "The pills can cause nausea."
+   }
+  },
+  {
+   "id": "health.i-feel-dizzy",
+   "t": {
+    "en": "I feel dizzy",
+    "uk": "у мене паморочиться в голові",
+    "ru": "у меня кружится голова",
+    "pl": "kręci mi się w głowie",
+    "de": "mir ist schwindelig",
+    "fr": "j'ai la tête qui tourne",
+    "es": "estoy mareado",
+    "it": "mi gira la testa",
+    "pt": "estou tonto",
+    "tr": "başım dönüyor"
+   },
+   "ex": {
+    "en": "I feel dizzy when I stand up."
+   }
+  },
+  {
+   "id": "health.allergy",
+   "t": {
+    "en": "allergy",
+    "uk": "алергія",
+    "ru": "аллергия",
+    "pl": "alergia",
+    "de": "Allergie",
+    "fr": "allergie",
+    "es": "alergia",
+    "it": "allergia",
+    "pt": "alergia",
+    "tr": "alerji"
+   },
+   "ex": {
+    "en": "Do you have any allergies?"
+   }
+  },
+  {
+   "id": "health.prescription",
+   "t": {
+    "en": "prescription",
+    "uk": "рецепт",
+    "ru": "рецепт",
+    "pl": "recepta",
+    "de": "Rezept",
+    "fr": "ordonnance",
+    "es": "receta",
+    "it": "ricetta",
+    "pt": "receita",
+    "tr": "reçete"
+   },
+   "ex": {
+    "en": "You need a prescription for this."
+   }
+  },
+  {
+   "id": "health.painkiller",
+   "t": {
+    "en": "painkiller",
+    "uk": "знеболювальне",
+    "ru": "обезболивающее",
+    "pl": "środek przeciwbólowy",
+    "de": "Schmerzmittel",
+    "fr": "antidouleur",
+    "es": "analgésico",
+    "it": "antidolorifico",
+    "pt": "analgésico",
+    "tr": "ağrı kesici"
+   },
+   "ex": {
+    "en": "Do you have a painkiller?"
+   }
+  },
+  {
+   "id": "health.bandage",
+   "t": {
+    "en": "bandage",
+    "uk": "бинт",
+    "ru": "бинт",
+    "pl": "bandaż",
+    "de": "Verband",
+    "fr": "bandage",
+    "es": "venda",
+    "it": "benda",
+    "pt": "atadura",
+    "tr": "bandaj"
+   },
+   "ex": {
+    "en": "Put a bandage on the wound."
+   }
+  },
+  {
+   "id": "health.band-aid",
+   "t": {
+    "en": "band-aid",
+    "uk": "пластир",
+    "ru": "пластырь",
+    "pl": "plaster",
+    "de": "Pflaster",
+    "fr": "pansement",
+    "es": "tirita",
+    "it": "cerotto",
+    "pt": "curativo",
+    "tr": "yara bandı"
+   },
+   "ex": {
+    "en": "I need a band-aid for my finger."
+   }
+  },
+  {
+   "id": "health.thermometer",
+   "t": {
+    "en": "thermometer",
+    "uk": "термометр",
+    "ru": "термометр",
+    "pl": "termometr",
+    "de": "Thermometer",
+    "fr": "thermomètre",
+    "es": "termómetro",
+    "it": "termometro",
+    "pt": "termômetro",
+    "tr": "termometre"
+   },
+   "ex": {
+    "en": "Where is the thermometer?"
+   }
+  },
+  {
+   "id": "health.blood",
+   "t": {
+    "en": "blood",
+    "uk": "кров",
+    "ru": "кровь",
+    "pl": "krew",
+    "de": "Blut",
+    "fr": "sang",
+    "es": "sangre",
+    "it": "sangue",
+    "pt": "sangue",
+    "tr": "kan"
+   },
+   "ex": {
+    "en": "There is blood on his shirt."
+   }
+  },
+  {
+   "id": "health.tooth",
+   "t": {
+    "en": "tooth",
+    "uk": "зуб",
+    "ru": "зуб",
+    "pl": "ząb",
+    "de": "Zahn",
+    "fr": "dent",
+    "es": "diente",
+    "it": "dente",
+    "pt": "dente",
+    "tr": "diş"
+   },
+   "ex": {
+    "en": "My tooth hurts."
+   }
+  },
+  {
+   "id": "health.dentist",
+   "t": {
+    "en": "dentist",
+    "uk": "стоматолог",
+    "ru": "стоматолог",
+    "pl": "dentysta",
+    "de": "Zahnarzt",
+    "fr": "dentiste",
+    "es": "dentista",
+    "it": "dentista",
+    "pt": "dentista",
+    "tr": "diş hekimi"
+   },
+   "ex": {
+    "en": "I go to the dentist twice a year."
+   }
+  },
+  {
+   "id": "health.back-pain",
+   "t": {
+    "en": "back pain",
+    "uk": "біль у спині",
+    "ru": "боль в спине",
+    "pl": "ból pleców",
+    "de": "Rückenschmerzen",
+    "fr": "mal de dos",
+    "es": "dolor de espalda",
+    "it": "mal di schiena",
+    "pt": "dor nas costas",
+    "tr": "sırt ağrısı"
+   },
+   "ex": {
+    "en": "Sitting all day gives me back pain."
+   }
+  },
+  {
+   "id": "health.to-catch-a-cold",
+   "t": {
+    "en": "to catch a cold",
+    "uk": "застудитися",
+    "ru": "простудиться",
+    "pl": "przeziębić się",
+    "de": "sich erkälten",
+    "fr": "attraper un rhume",
+    "es": "resfriarse",
+    "it": "prendere il raffreddore",
+    "pt": "pegar um resfriado",
+    "tr": "üşütmek"
+   },
+   "ex": {
+    "en": "Wear a coat or you'll catch a cold."
+   }
+  },
+  {
+   "id": "health.to-take-medicine",
+   "t": {
+    "en": "to take medicine",
+    "uk": "приймати ліки",
+    "ru": "принимать лекарство",
+    "pl": "brać lekarstwo",
+    "de": "Medikamente nehmen",
+    "fr": "prendre un médicament",
+    "es": "tomar medicamentos",
+    "it": "prendere la medicina",
+    "pt": "tomar remédio",
+    "tr": "ilaç almak"
+   },
+   "ex": {
+    "en": "Did you take your medicine?"
+   }
+  },
+  {
+   "id": "health.injury",
+   "t": {
+    "en": "injury",
+    "uk": "травма",
+    "ru": "травма",
+    "pl": "uraz",
+    "de": "Verletzung",
+    "fr": "blessure",
+    "es": "lesión",
+    "it": "infortunio",
+    "pt": "lesão",
+    "tr": "yaralanma"
+   },
+   "ex": {
+    "en": "It was a small injury."
+   }
+  },
+  {
+   "id": "health.to-fall",
+   "t": {
+    "en": "to fall",
+    "uk": "падати",
+    "ru": "падать",
+    "pl": "upaść",
+    "de": "hinfallen",
+    "fr": "tomber",
+    "es": "caerse",
+    "it": "cadere",
+    "pt": "cair",
+    "tr": "düşmek"
+   },
+   "ex": {
+    "en": "She fell on the ice."
+   }
+  },
+  {
+   "id": "health.to-exercise",
+   "t": {
+    "en": "to exercise",
+    "uk": "займатися спортом",
+    "ru": "заниматься спортом",
+    "pl": "ćwiczyć",
+    "de": "Sport treiben",
+    "fr": "faire de l'exercice",
+    "es": "hacer ejercicio",
+    "it": "fare esercizio",
+    "pt": "fazer exercício",
+    "tr": "egzersiz yapmak"
+   },
+   "ex": {
+    "en": "Try to exercise three times a week."
+   }
+  },
+  {
+   "id": "health.diet",
+   "t": {
+    "en": "diet",
+    "uk": "дієта",
+    "ru": "диета",
+    "pl": "dieta",
+    "de": "Diät",
+    "fr": "régime",
+    "es": "dieta",
+    "it": "dieta",
+    "pt": "dieta",
+    "tr": "diyet"
+   },
+   "ex": {
+    "en": "She is on a diet."
+   }
+  },
+  {
+   "id": "health.to-lose-weight",
+   "t": {
+    "en": "to lose weight",
+    "uk": "схуднути",
+    "ru": "похудеть",
+    "pl": "schudnąć",
+    "de": "abnehmen",
+    "fr": "maigrir",
+    "es": "adelgazar",
+    "it": "dimagrire",
+    "pt": "emagrecer",
+    "tr": "kilo vermek"
+   },
+   "ex": {
+    "en": "I want to lose weight."
+   }
+  },
+  {
+   "id": "health.stress",
+   "t": {
+    "en": "stress",
+    "uk": "стрес",
+    "ru": "стресс",
+    "pl": "stres",
+    "de": "Stress",
+    "fr": "stress",
+    "es": "estrés",
+    "it": "stress",
+    "pt": "estresse",
+    "tr": "stres"
+   },
+   "ex": {
+    "en": "Too much stress is bad for you."
+   }
+  },
+  {
+   "id": "health.get-well-soon",
+   "t": {
+    "en": "get well soon",
+    "uk": "одужуй швидше",
+    "ru": "выздоравливай",
+    "pl": "wracaj do zdrowia",
+    "de": "gute Besserung",
+    "fr": "bon rétablissement",
+    "es": "que te mejores",
+    "it": "guarisci presto",
+    "pt": "melhoras",
+    "tr": "geçmiş olsun"
+   },
+   "ex": {
+    "en": "Get well soon, Anna!"
+   }
+  }
+ ]
+}

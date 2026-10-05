@@ -1,0 +1,530 @@
+{
+ "id": "sports-b1",
+ "topic": "sports",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "sports.to-compete",
+   "t": {
+    "en": "to compete",
+    "uk": "змагатися",
+    "ru": "соревноваться",
+    "pl": "rywalizować",
+    "de": "antreten",
+    "fr": "concourir",
+    "es": "competir",
+    "it": "gareggiare",
+    "pt": "competir",
+    "tr": "yarışmak"
+   },
+   "ex": {
+    "en": "She will compete in the national championship."
+   }
+  },
+  {
+   "id": "sports.competition",
+   "t": {
+    "en": "competition",
+    "uk": "змагання",
+    "ru": "соревнование",
+    "pl": "zawody",
+    "de": "Wettkampf",
+    "fr": "compétition",
+    "es": "competición",
+    "it": "competizione",
+    "pt": "competição",
+    "tr": "müsabaka"
+   },
+   "ex": {
+    "en": "The competition attracts athletes from many countries."
+   }
+  },
+  {
+   "id": "sports.to-beat",
+   "t": {
+    "en": "to beat",
+    "uk": "перемогти",
+    "ru": "победить",
+    "pl": "pokonać",
+    "de": "besiegen",
+    "fr": "battre",
+    "es": "vencer",
+    "it": "battere",
+    "pt": "vencer",
+    "tr": "yenmek"
+   },
+   "ex": {
+    "en": "They beat the champions three to nil."
+   }
+  },
+  {
+   "id": "sports.personal-best",
+   "t": {
+    "en": "personal best",
+    "uk": "особистий рекорд",
+    "ru": "личный рекорд",
+    "pl": "rekord życiowy",
+    "de": "persönliche Bestleistung",
+    "fr": "record personnel",
+    "es": "marca personal",
+    "it": "record personale",
+    "pt": "recorde pessoal",
+    "tr": "kişisel rekor"
+   },
+   "ex": {
+    "en": "I set a personal best in the 10k."
+   }
+  },
+  {
+   "id": "sports.endurance",
+   "t": {
+    "en": "endurance",
+    "uk": "витривалість",
+    "ru": "выносливость",
+    "pl": "wytrzymałość",
+    "de": "Ausdauer",
+    "fr": "endurance",
+    "es": "resistencia",
+    "it": "resistenza",
+    "pt": "resistência",
+    "tr": "dayanıklılık"
+   },
+   "ex": {
+    "en": "Long runs build endurance."
+   }
+  },
+  {
+   "id": "sports.penalty",
+   "t": {
+    "en": "penalty",
+    "uk": "пенальті",
+    "ru": "пенальти",
+    "pl": "rzut karny",
+    "de": "Elfmeter",
+    "fr": "penalty",
+    "es": "penalti",
+    "it": "rigore",
+    "pt": "pênalti",
+    "tr": "penaltı"
+   },
+   "ex": {
+    "en": "The referee gave a penalty."
+   }
+  },
+  {
+   "id": "sports.substitute",
+   "t": {
+    "en": "substitute",
+    "uk": "запасний гравець",
+    "ru": "запасной игрок",
+    "pl": "rezerwowy",
+    "de": "Ersatzspieler",
+    "fr": "remplaçant",
+    "es": "suplente",
+    "it": "riserva",
+    "pt": "reserva",
+    "tr": "yedek oyuncu"
+   },
+   "ex": {
+    "en": "The substitute came on in the second half."
+   }
+  },
+  {
+   "id": "sports.league",
+   "t": {
+    "en": "league",
+    "uk": "ліга",
+    "ru": "лига",
+    "pl": "liga",
+    "de": "Liga",
+    "fr": "ligue",
+    "es": "liga",
+    "it": "campionato",
+    "pt": "liga",
+    "tr": "lig"
+   },
+   "ex": {
+    "en": "Our club plays in the second league."
+   }
+  },
+  {
+   "id": "sports.season",
+   "t": {
+    "en": "season",
+    "uk": "сезон",
+    "ru": "сезон",
+    "pl": "sezon",
+    "de": "Saison",
+    "fr": "saison",
+    "es": "temporada",
+    "it": "stagione",
+    "pt": "temporada",
+    "tr": "sezon"
+   },
+   "ex": {
+    "en": "The season starts in August."
+   }
+  },
+  {
+   "id": "sports.treadmill",
+   "t": {
+    "en": "treadmill",
+    "uk": "бігова доріжка (тренажер)",
+    "ru": "беговая дорожка (тренажёр)",
+    "pl": "bieżnia elektryczna",
+    "de": "Laufband",
+    "fr": "tapis de course",
+    "es": "cinta de correr",
+    "it": "tapis roulant",
+    "pt": "esteira",
+    "tr": "koşu bandı"
+   },
+   "ex": {
+    "en": "I ran five kilometres on the treadmill."
+   }
+  },
+  {
+   "id": "sports.dumbbell",
+   "t": {
+    "en": "dumbbell",
+    "uk": "гантель",
+    "ru": "гантель",
+    "pl": "hantla",
+    "de": "Hantel",
+    "fr": "haltère",
+    "es": "mancuerna",
+    "it": "manubrio",
+    "pt": "halter",
+    "tr": "dambıl"
+   },
+   "ex": {
+    "en": "Pick up a lighter dumbbell."
+   }
+  },
+  {
+   "id": "sports.push-up",
+   "t": {
+    "en": "push-up",
+    "uk": "віджимання",
+    "ru": "отжимание",
+    "pl": "pompka",
+    "de": "Liegestütz",
+    "fr": "pompe",
+    "es": "flexión",
+    "it": "flessione",
+    "pt": "flexão",
+    "tr": "şınav"
+   },
+   "ex": {
+    "en": "Do twenty push-ups every morning."
+   }
+  },
+  {
+   "id": "sports.squat",
+   "t": {
+    "en": "squat",
+    "uk": "присідання",
+    "ru": "приседание",
+    "pl": "przysiad",
+    "de": "Kniebeuge",
+    "fr": "squat",
+    "es": "sentadilla",
+    "it": "squat",
+    "pt": "agachamento",
+    "tr": "squat"
+   },
+   "ex": {
+    "en": "Squats strengthen your legs."
+   }
+  },
+  {
+   "id": "sports.pull-up",
+   "t": {
+    "en": "pull-up",
+    "uk": "підтягування",
+    "ru": "подтягивание",
+    "pl": "podciąganie",
+    "de": "Klimmzug",
+    "fr": "traction",
+    "es": "dominada",
+    "it": "trazione",
+    "pt": "barra fixa",
+    "tr": "barfiks"
+   },
+   "ex": {
+    "en": "I can do ten pull-ups now."
+   }
+  },
+  {
+   "id": "sports.repetition",
+   "t": {
+    "en": "repetition",
+    "uk": "повторення",
+    "ru": "повторение",
+    "pl": "powtórzenie",
+    "de": "Wiederholung",
+    "fr": "répétition",
+    "es": "repetición",
+    "it": "ripetizione",
+    "pt": "repetição",
+    "tr": "tekrar"
+   },
+   "ex": {
+    "en": "Do three sets of twelve repetitions."
+   }
+  },
+  {
+   "id": "sports.cardio",
+   "t": {
+    "en": "cardio",
+    "uk": "кардіо",
+    "ru": "кардио",
+    "pl": "cardio",
+    "de": "Ausdauertraining",
+    "fr": "cardio",
+    "es": "cardio",
+    "it": "cardio",
+    "pt": "cardio",
+    "tr": "kardiyo"
+   },
+   "ex": {
+    "en": "I do cardio on Mondays and Thursdays."
+   }
+  },
+  {
+   "id": "sports.strength-training",
+   "t": {
+    "en": "strength training",
+    "uk": "силові тренування",
+    "ru": "силовые тренировки",
+    "pl": "trening siłowy",
+    "de": "Krafttraining",
+    "fr": "musculation",
+    "es": "entrenamiento de fuerza",
+    "it": "allenamento di forza",
+    "pt": "musculação",
+    "tr": "kuvvet antrenmanı"
+   },
+   "ex": {
+    "en": "Strength training protects your bones."
+   }
+  },
+  {
+   "id": "sports.to-recover",
+   "t": {
+    "en": "to recover",
+    "uk": "відновлюватися",
+    "ru": "восстанавливаться",
+    "pl": "regenerować się",
+    "de": "sich erholen",
+    "fr": "récupérer",
+    "es": "recuperarse",
+    "it": "recuperare",
+    "pt": "se recuperar",
+    "tr": "toparlanmak"
+   },
+   "ex": {
+    "en": "Your body needs time to recover."
+   }
+  },
+  {
+   "id": "sports.to-qualify",
+   "t": {
+    "en": "to qualify",
+    "uk": "пройти відбір",
+    "ru": "пройти отбор",
+    "pl": "zakwalifikować się",
+    "de": "sich qualifizieren",
+    "fr": "se qualifier",
+    "es": "clasificarse",
+    "it": "qualificarsi",
+    "pt": "se classificar",
+    "tr": "elemeyi geçmek"
+   },
+   "ex": {
+    "en": "She qualified for the Olympics."
+   }
+  },
+  {
+   "id": "sports.extra-time",
+   "t": {
+    "en": "extra time",
+    "uk": "додатковий час",
+    "ru": "дополнительное время",
+    "pl": "dogrywka",
+    "de": "Verlängerung",
+    "fr": "prolongation",
+    "es": "prórroga",
+    "it": "tempi supplementari",
+    "pt": "prorrogação",
+    "tr": "uzatma"
+   },
+   "ex": {
+    "en": "The match went into extra time."
+   }
+  },
+  {
+   "id": "sports.to-be-out-of-breath",
+   "t": {
+    "en": "to be out of breath",
+    "uk": "задихатися",
+    "ru": "запыхаться",
+    "pl": "nie móc złapać tchu",
+    "de": "außer Atem sein",
+    "fr": "être essoufflé",
+    "es": "estar sin aliento",
+    "it": "avere il fiatone",
+    "pt": "ficar sem fôlego",
+    "tr": "nefes nefese kalmak"
+   },
+   "ex": {
+    "en": "I was out of breath after the stairs."
+   }
+  },
+  {
+   "id": "sports.rock-climbing",
+   "t": {
+    "en": "rock climbing",
+    "uk": "скелелазіння",
+    "ru": "скалолазание",
+    "pl": "wspinaczka",
+    "de": "Klettern",
+    "fr": "escalade",
+    "es": "escalada",
+    "it": "arrampicata",
+    "pt": "escalada",
+    "tr": "kaya tırmanışı"
+   },
+   "ex": {
+    "en": "Rock climbing needs strong fingers."
+   }
+  },
+  {
+   "id": "sports.marathon",
+   "t": {
+    "en": "marathon",
+    "uk": "марафон",
+    "ru": "марафон",
+    "pl": "maraton",
+    "de": "Marathon",
+    "fr": "marathon",
+    "es": "maratón",
+    "it": "maratona",
+    "pt": "maratona",
+    "tr": "maraton"
+   },
+   "ex": {
+    "en": "He finished his first marathon in four hours."
+   }
+  },
+  {
+   "id": "sports.to-keep-fit",
+   "t": {
+    "en": "to keep fit",
+    "uk": "підтримувати форму",
+    "ru": "поддерживать форму",
+    "pl": "utrzymywać formę",
+    "de": "sich fit halten",
+    "fr": "garder la forme",
+    "es": "mantenerse en forma",
+    "it": "tenersi in forma",
+    "pt": "manter a forma",
+    "tr": "formda kalmak"
+   },
+   "ex": {
+    "en": "Cycling is a cheap way to keep fit."
+   }
+  },
+  {
+   "id": "sports.protein-shake",
+   "t": {
+    "en": "protein shake",
+    "uk": "протеїновий коктейль",
+    "ru": "протеиновый коктейль",
+    "pl": "shake białkowy",
+    "de": "Proteinshake",
+    "fr": "shake protéiné",
+    "es": "batido de proteínas",
+    "it": "frullato proteico",
+    "pt": "shake de proteína",
+    "tr": "protein içeceği"
+   },
+   "ex": {
+    "en": "He drinks a protein shake after training."
+   }
+  },
+  {
+   "id": "sports.to-break-a-record",
+   "t": {
+    "en": "to break a record",
+    "uk": "побити рекорд",
+    "ru": "побить рекорд",
+    "pl": "pobić rekord",
+    "de": "einen Rekord brechen",
+    "fr": "battre un record",
+    "es": "batir un récord",
+    "it": "battere un record",
+    "pt": "quebrar um recorde",
+    "tr": "rekor kırmak"
+   },
+   "ex": {
+    "en": "She broke the world record by a second."
+   }
+  },
+  {
+   "id": "sports.teamwork",
+   "t": {
+    "en": "teamwork",
+    "uk": "командна робота",
+    "ru": "командная работа",
+    "pl": "praca zespołowa",
+    "de": "Teamarbeit",
+    "fr": "esprit d'équipe",
+    "es": "trabajo en equipo",
+    "it": "gioco di squadra",
+    "pt": "trabalho em equipe",
+    "tr": "takım çalışması"
+   },
+   "ex": {
+    "en": "Good teamwork won us the match."
+   }
+  },
+  {
+   "id": "sports.to-give-up",
+   "t": {
+    "en": "to give up",
+    "uk": "здаватися",
+    "ru": "сдаваться",
+    "pl": "poddawać się",
+    "de": "aufgeben",
+    "fr": "abandonner",
+    "es": "rendirse",
+    "it": "arrendersi",
+    "pt": "desistir",
+    "tr": "pes etmek"
+   },
+   "ex": {
+    "en": "Never give up before the finish line."
+   }
+  },
+  {
+   "id": "sports.hiking-trail",
+   "t": {
+    "en": "hiking trail",
+    "uk": "туристичний маршрут",
+    "ru": "туристический маршрут",
+    "pl": "szlak turystyczny",
+    "de": "Wanderweg",
+    "fr": "sentier de randonnée",
+    "es": "ruta de senderismo",
+    "it": "sentiero escursionistico",
+    "pt": "trilha",
+    "tr": "yürüyüş parkuru"
+   },
+   "ex": {
+    "en": "The hiking trail is well marked."
+   }
+  }
+ ]
+}

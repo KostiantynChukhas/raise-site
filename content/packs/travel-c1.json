@@ -1,0 +1,548 @@
+{
+ "id": "travel-c1",
+ "topic": "travel",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "travel.wanderlust",
+   "t": {
+    "en": "wanderlust",
+    "uk": "жага мандрів",
+    "ru": "тяга к путешествиям",
+    "pl": "żądza podróży",
+    "de": "Fernweh",
+    "fr": "envie de voyager",
+    "es": "ansia de viajar",
+    "it": "voglia di viaggiare",
+    "pt": "sede de viajar",
+    "tr": "gezme tutkusu"
+   },
+   "ex": {
+    "en": "Her wanderlust took her to forty countries."
+   }
+  },
+  {
+   "id": "travel.globetrotter",
+   "t": {
+    "en": "globetrotter",
+    "uk": "мандрівник світом",
+    "ru": "путешественник по миру",
+    "pl": "globtroter",
+    "de": "Weltenbummler",
+    "fr": "globe-trotteur",
+    "es": "trotamundos",
+    "it": "giramondo",
+    "pt": "viajante do mundo",
+    "tr": "dünya gezgini"
+   },
+   "ex": {
+    "en": "My uncle is a real globetrotter."
+   }
+  },
+  {
+   "id": "travel.bucket-list",
+   "t": {
+    "en": "bucket list",
+    "uk": "список бажань",
+    "ru": "список желаний",
+    "pl": "lista marzeń",
+    "de": "Löffelliste",
+    "fr": "liste de choses à faire avant de mourir",
+    "es": "lista de deseos",
+    "it": "lista dei desideri",
+    "pt": "lista de desejos",
+    "tr": "hayal listesi"
+   },
+   "ex": {
+    "en": "Iceland is at the top of my bucket list."
+   }
+  },
+  {
+   "id": "travel.embark-on-a-journey",
+   "t": {
+    "en": "to embark on a journey",
+    "uk": "вирушити в подорож",
+    "ru": "отправиться в путешествие",
+    "pl": "wyruszyć w podróż",
+    "de": "Reise antreten",
+    "fr": "entreprendre un voyage",
+    "es": "emprender un viaje",
+    "it": "intraprendere un viaggio",
+    "pt": "embarcar numa jornada",
+    "tr": "bir yolculuğa başlamak"
+   },
+   "ex": {
+    "en": "They embarked on a journey across Asia."
+   }
+  },
+  {
+   "id": "travel.odyssey",
+   "t": {
+    "en": "odyssey",
+    "uk": "одіссея",
+    "ru": "одиссея",
+    "pl": "odyseja",
+    "de": "Odyssee",
+    "fr": "odyssée",
+    "es": "odisea",
+    "it": "odissea",
+    "pt": "odisseia",
+    "tr": "uzun serüven"
+   },
+   "ex": {
+    "en": "Getting home became a two-day odyssey."
+   }
+  },
+  {
+   "id": "travel.detour",
+   "t": {
+    "en": "detour",
+    "uk": "об'їзд",
+    "ru": "объезд",
+    "pl": "objazd",
+    "de": "Umweg",
+    "fr": "détour",
+    "es": "desvío",
+    "it": "deviazione",
+    "pt": "desvio",
+    "tr": "dolambaçlı yol"
+   },
+   "ex": {
+    "en": "We took a detour through the mountains."
+   }
+  },
+  {
+   "id": "travel.wander",
+   "t": {
+    "en": "to wander",
+    "uk": "блукати неквапом",
+    "ru": "бродить без цели",
+    "pl": "włóczyć się",
+    "de": "umherschlendern",
+    "fr": "flâner",
+    "es": "deambular",
+    "it": "gironzolare",
+    "pt": "perambular",
+    "tr": "aylak aylak dolaşmak"
+   },
+   "ex": {
+    "en": "We wandered through the narrow streets."
+   }
+  },
+  {
+   "id": "travel.trek",
+   "t": {
+    "en": "to trek",
+    "uk": "ходити в похід",
+    "ru": "ходить в поход",
+    "pl": "wędrować",
+    "de": "wandern",
+    "fr": "randonner",
+    "es": "hacer senderismo",
+    "it": "fare trekking",
+    "pt": "fazer trilha",
+    "tr": "doğa yürüyüşü yapmak"
+   },
+   "ex": {
+    "en": "They trekked for five days in Nepal."
+   }
+  },
+  {
+   "id": "travel.remote",
+   "t": {
+    "en": "remote",
+    "uk": "віддалений",
+    "ru": "отдалённый",
+    "pl": "odległy",
+    "de": "abgelegen",
+    "fr": "reculé",
+    "es": "remoto",
+    "it": "remoto",
+    "pt": "remoto",
+    "tr": "ücra"
+   },
+   "ex": {
+    "en": "The village is remote and hard to reach."
+   }
+  },
+  {
+   "id": "travel.picturesque",
+   "t": {
+    "en": "picturesque",
+    "uk": "мальовничий",
+    "ru": "живописный",
+    "pl": "malowniczy",
+    "de": "malerisch",
+    "fr": "pittoresque",
+    "es": "pintoresco",
+    "it": "pittoresco",
+    "pt": "pitoresco",
+    "tr": "pitoresk"
+   },
+   "ex": {
+    "en": "The harbor is incredibly picturesque."
+   }
+  },
+  {
+   "id": "travel.breathtaking",
+   "t": {
+    "en": "breathtaking",
+    "uk": "захопливий",
+    "ru": "захватывающий дух",
+    "pl": "zapierający dech",
+    "de": "atemberaubend",
+    "fr": "à couper le souffle",
+    "es": "impresionante",
+    "it": "mozzafiato",
+    "pt": "de tirar o fôlego",
+    "tr": "nefes kesici"
+   },
+   "ex": {
+    "en": "The view from the summit was breathtaking."
+   }
+  },
+  {
+   "id": "travel.secluded",
+   "t": {
+    "en": "secluded",
+    "uk": "відлюдний",
+    "ru": "уединённый",
+    "pl": "ustronny",
+    "de": "abgeschieden",
+    "fr": "isolé",
+    "es": "apartado",
+    "it": "appartato",
+    "pt": "isolado",
+    "tr": "tenha"
+   },
+   "ex": {
+    "en": "We found a secluded beach."
+   }
+  },
+  {
+   "id": "travel.bustling",
+   "t": {
+    "en": "bustling",
+    "uk": "гамірний",
+    "ru": "оживлённый",
+    "pl": "tętniący życiem",
+    "de": "belebt",
+    "fr": "animé",
+    "es": "bullicioso",
+    "it": "animato",
+    "pt": "movimentado",
+    "tr": "hareketli"
+   },
+   "ex": {
+    "en": "The market was bustling at dawn."
+   }
+  },
+  {
+   "id": "travel.sprawling",
+   "t": {
+    "en": "sprawling",
+    "uk": "розлогий",
+    "ru": "раскинувшийся",
+    "pl": "rozległy",
+    "de": "weitläufig",
+    "fr": "tentaculaire",
+    "es": "extenso",
+    "it": "esteso",
+    "pt": "extenso",
+    "tr": "yayılmış"
+   },
+   "ex": {
+    "en": "Mexico City is a sprawling metropolis."
+   }
+  },
+  {
+   "id": "travel.disembark",
+   "t": {
+    "en": "to disembark",
+    "uk": "сходити на берег",
+    "ru": "сходить с борта",
+    "pl": "schodzić z pokładu",
+    "de": "von Bord gehen",
+    "fr": "débarquer",
+    "es": "desembarcar",
+    "it": "sbarcare",
+    "pt": "desembarcar",
+    "tr": "inmek"
+   },
+   "ex": {
+    "en": "Passengers disembarked at the port."
+   }
+  },
+  {
+   "id": "travel.turbulence",
+   "t": {
+    "en": "turbulence",
+    "uk": "турбулентність",
+    "ru": "турбулентность",
+    "pl": "turbulencje",
+    "de": "Turbulenzen",
+    "fr": "turbulences",
+    "es": "turbulencias",
+    "it": "turbolenza",
+    "pt": "turbulência",
+    "tr": "türbülans"
+   },
+   "ex": {
+    "en": "We hit heavy turbulence over the Alps."
+   }
+  },
+  {
+   "id": "travel.divert-a-flight",
+   "t": {
+    "en": "to divert a flight",
+    "uk": "перенаправити рейс",
+    "ru": "перенаправить рейс",
+    "pl": "przekierować lot",
+    "de": "Flug umleiten",
+    "fr": "dérouter un vol",
+    "es": "desviar un vuelo",
+    "it": "dirottare un volo",
+    "pt": "desviar um voo",
+    "tr": "uçuşu yönlendirmek"
+   },
+   "ex": {
+    "en": "The storm forced them to divert the flight."
+   }
+  },
+  {
+   "id": "travel.tarmac",
+   "t": {
+    "en": "tarmac",
+    "uk": "злітна смуга",
+    "ru": "лётное поле",
+    "pl": "płyta lotniska",
+    "de": "Rollfeld",
+    "fr": "tarmac",
+    "es": "pista",
+    "it": "pista",
+    "pt": "pista",
+    "tr": "pist"
+   },
+   "ex": {
+    "en": "We sat on the tarmac for an hour."
+   }
+  },
+  {
+   "id": "travel.repatriation",
+   "t": {
+    "en": "repatriation",
+    "uk": "репатріація",
+    "ru": "репатриация",
+    "pl": "repatriacja",
+    "de": "Rückführung",
+    "fr": "rapatriement",
+    "es": "repatriación",
+    "it": "rimpatrio",
+    "pt": "repatriação",
+    "tr": "ülkeye geri gönderme"
+   },
+   "ex": {
+    "en": "The insurance covers repatriation costs."
+   }
+  },
+  {
+   "id": "travel.nomadic",
+   "t": {
+    "en": "nomadic",
+    "uk": "кочовий",
+    "ru": "кочевой",
+    "pl": "koczowniczy",
+    "de": "nomadisch",
+    "fr": "nomade",
+    "es": "nómada",
+    "it": "nomade",
+    "pt": "nômade",
+    "tr": "göçebe"
+   },
+   "ex": {
+    "en": "She leads a nomadic lifestyle."
+   }
+  },
+  {
+   "id": "travel.pilgrimage",
+   "t": {
+    "en": "pilgrimage",
+    "uk": "паломництво",
+    "ru": "паломничество",
+    "pl": "pielgrzymka",
+    "de": "Pilgerfahrt",
+    "fr": "pèlerinage",
+    "es": "peregrinación",
+    "it": "pellegrinaggio",
+    "pt": "peregrinação",
+    "tr": "hac yolculuğu"
+   },
+   "ex": {
+    "en": "Thousands make the pilgrimage every year."
+   }
+  },
+  {
+   "id": "travel.excursion",
+   "t": {
+    "en": "excursion",
+    "uk": "екскурсія",
+    "ru": "экскурсия",
+    "pl": "wycieczka",
+    "de": "Ausflug",
+    "fr": "excursion",
+    "es": "excursión",
+    "it": "escursione",
+    "pt": "excursão",
+    "tr": "gezinti"
+   },
+   "ex": {
+    "en": "The ship offers excursions at each port."
+   }
+  },
+  {
+   "id": "travel.getaway",
+   "t": {
+    "en": "getaway",
+    "uk": "короткий відпочинок",
+    "ru": "короткий отдых",
+    "pl": "krótki wypad",
+    "de": "Kurzurlaub",
+    "fr": "escapade",
+    "es": "escapada",
+    "it": "fuga",
+    "pt": "escapada",
+    "tr": "kısa kaçamak"
+   },
+   "ex": {
+    "en": "We need a weekend getaway."
+   }
+  },
+  {
+   "id": "travel.go-backpacking",
+   "t": {
+    "en": "to go backpacking",
+    "uk": "подорожувати з рюкзаком",
+    "ru": "путешествовать с рюкзаком",
+    "pl": "podróżować z plecakiem",
+    "de": "Rucksackreise machen",
+    "fr": "voyager en sac à dos",
+    "es": "viajar de mochilero",
+    "it": "viaggiare con lo zaino in spalla",
+    "pt": "viajar de mochilão",
+    "tr": "sırt çantasıyla gezmek"
+   },
+   "ex": {
+    "en": "After college I went backpacking in Peru."
+   }
+  },
+  {
+   "id": "travel.off-the-beaten-track",
+   "t": {
+    "en": "off the beaten track",
+    "uk": "далеко від туристичних стежок",
+    "ru": "вдали от проторённых троп",
+    "pl": "z dala od utartych szlaków",
+    "de": "abseits der Touristenpfade",
+    "fr": "hors des sentiers battus",
+    "es": "fuera de las rutas turísticas",
+    "it": "fuori dai sentieri battuti",
+    "pt": "fora do circuito turístico",
+    "tr": "turistik olmayan yerlerde"
+   },
+   "ex": {
+    "en": "We prefer places off the beaten track."
+   }
+  },
+  {
+   "id": "travel.retrace-ones-steps",
+   "t": {
+    "en": "to retrace one's steps",
+    "uk": "повернутися тим самим шляхом",
+    "ru": "вернуться по своим следам",
+    "pl": "wrócić po własnych śladach",
+    "de": "gleichen Weg zurückgehen",
+    "fr": "revenir sur ses pas",
+    "es": "volver sobre sus pasos",
+    "it": "tornare sui propri passi",
+    "pt": "voltar pelo mesmo caminho",
+    "tr": "geldiği yoldan geri dönmek"
+   },
+   "ex": {
+    "en": "We had to retrace our steps to the hotel."
+   }
+  },
+  {
+   "id": "travel.soak-up-the-atmosphere",
+   "t": {
+    "en": "to soak up the atmosphere",
+    "uk": "насолоджуватися атмосферою",
+    "ru": "проникнуться атмосферой",
+    "pl": "chłonąć atmosferę",
+    "de": "Atmosphäre aufsaugen",
+    "fr": "s'imprégner de l'ambiance",
+    "es": "empaparse del ambiente",
+    "it": "assaporare l'atmosfera",
+    "pt": "absorver a atmosfera",
+    "tr": "atmosferi içine çekmek"
+   },
+   "ex": {
+    "en": "Sit in the square and soak up the atmosphere."
+   }
+  },
+  {
+   "id": "travel.homesickness",
+   "t": {
+    "en": "homesickness",
+    "uk": "туга за домом",
+    "ru": "тоска по дому",
+    "pl": "tęsknota za domem",
+    "de": "Heimweh",
+    "fr": "mal du pays",
+    "es": "añoranza del hogar",
+    "it": "nostalgia di casa",
+    "pt": "saudade de casa",
+    "tr": "ev özlemi"
+   },
+   "ex": {
+    "en": "Homesickness hit her after a month abroad."
+   }
+  },
+  {
+   "id": "travel.culture-shock",
+   "t": {
+    "en": "culture shock",
+    "uk": "культурний шок",
+    "ru": "культурный шок",
+    "pl": "szok kulturowy",
+    "de": "Kulturschock",
+    "fr": "choc culturel",
+    "es": "choque cultural",
+    "it": "shock culturale",
+    "pt": "choque cultural",
+    "tr": "kültür şoku"
+   },
+   "ex": {
+    "en": "The culture shock wore off after a few weeks."
+   }
+  },
+  {
+   "id": "travel.overstay-a-visa",
+   "t": {
+    "en": "to overstay a visa",
+    "uk": "перевищити термін візи",
+    "ru": "просрочить визу",
+    "pl": "przekroczyć termin wizy",
+    "de": "Visum überziehen",
+    "fr": "dépasser la durée du visa",
+    "es": "exceder la visa",
+    "it": "superare la durata del visto",
+    "pt": "exceder o prazo do visto",
+    "tr": "vize süresini aşmak"
+   },
+   "ex": {
+    "en": "Never overstay a visa; the fines are steep."
+   }
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "id": "travel-a2",
+ "topic": "travel",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "travel.boarding-pass",
+   "t": {
+    "en": "boarding pass",
+    "uk": "посадковий талон",
+    "ru": "посадочный талон",
+    "pl": "karta pokładowa",
+    "de": "Bordkarte",
+    "fr": "carte d'embarquement",
+    "es": "tarjeta de embarque",
+    "it": "carta d'imbarco",
+    "pt": "cartão de embarque",
+    "tr": "biniş kartı"
+   },
+   "ex": {
+    "en": "Show your boarding pass at the gate."
+   }
+  },
+  {
+   "id": "travel.check-in",
+   "t": {
+    "en": "check-in",
+    "uk": "реєстрація",
+    "ru": "регистрация",
+    "pl": "odprawa",
+    "de": "Check-in",
+    "fr": "enregistrement",
+    "es": "facturación",
+    "it": "check-in",
+    "pt": "check-in",
+    "tr": "check-in"
+   },
+   "ex": {
+    "en": "Check-in opens two hours before the flight."
+   }
+  },
+  {
+   "id": "travel.gate",
+   "t": {
+    "en": "gate",
+    "uk": "вихід на посадку",
+    "ru": "выход на посадку",
+    "pl": "bramka",
+    "de": "Flugsteig",
+    "fr": "porte d'embarquement",
+    "es": "puerta de embarque",
+    "it": "gate",
+    "pt": "portão",
+    "tr": "kapı"
+   },
+   "ex": {
+    "en": "Our gate is B12."
+   }
+  },
+  {
+   "id": "travel.flight",
+   "t": {
+    "en": "flight",
+    "uk": "рейс",
+    "ru": "рейс",
+    "pl": "lot",
+    "de": "Flug",
+    "fr": "vol",
+    "es": "vuelo",
+    "it": "volo",
+    "pt": "voo",
+    "tr": "uçuş"
+   },
+   "ex": {
+    "en": "The flight takes two hours."
+   }
+  },
+  {
+   "id": "travel.departure",
+   "t": {
+    "en": "departure",
+    "uk": "відправлення",
+    "ru": "отправление",
+    "pl": "odjazd",
+    "de": "Abfahrt",
+    "fr": "départ",
+    "es": "salida",
+    "it": "partenza",
+    "pt": "partida",
+    "tr": "kalkış"
+   },
+   "ex": {
+    "en": "Departure is at seven in the morning."
+   }
+  },
+  {
+   "id": "travel.arrival",
+   "t": {
+    "en": "arrival",
+    "uk": "прибуття",
+    "ru": "прибытие",
+    "pl": "przyjazd",
+    "de": "Ankunft",
+    "fr": "arrivée",
+    "es": "llegada",
+    "it": "arrivo",
+    "pt": "chegada",
+    "tr": "varış"
+   },
+   "ex": {
+    "en": "Arrival time is 6:30 p.m."
+   }
+  },
+  {
+   "id": "travel.one-way-ticket",
+   "t": {
+    "en": "one-way ticket",
+    "uk": "квиток в один бік",
+    "ru": "билет в одну сторону",
+    "pl": "bilet w jedną stronę",
+    "de": "einfache Fahrkarte",
+    "fr": "aller simple",
+    "es": "billete de ida",
+    "it": "biglietto di sola andata",
+    "pt": "passagem só de ida",
+    "tr": "tek yön bilet"
+   },
+   "ex": {
+    "en": "A one-way ticket to Berlin, please."
+   }
+  },
+  {
+   "id": "travel.round-trip-ticket",
+   "t": {
+    "en": "round-trip ticket",
+    "uk": "квиток туди й назад",
+    "ru": "билет туда и обратно",
+    "pl": "bilet w obie strony",
+    "de": "Hin- und Rückfahrkarte",
+    "fr": "aller-retour",
+    "es": "billete de ida y vuelta",
+    "it": "biglietto di andata e ritorno",
+    "pt": "passagem de ida e volta",
+    "tr": "gidiş dönüş bilet"
+   },
+   "ex": {
+    "en": "A round-trip ticket is cheaper."
+   }
+  },
+  {
+   "id": "travel.platform",
+   "t": {
+    "en": "platform",
+    "uk": "платформа",
+    "ru": "платформа",
+    "pl": "peron",
+    "de": "Bahnsteig",
+    "fr": "quai",
+    "es": "andén",
+    "it": "binario",
+    "pt": "plataforma",
+    "tr": "peron"
+   },
+   "ex": {
+    "en": "The train leaves from platform four."
+   }
+  },
+  {
+   "id": "travel.miss-the-train",
+   "t": {
+    "en": "to miss the train",
+    "uk": "запізнитися на потяг",
+    "ru": "опоздать на поезд",
+    "pl": "spóźnić się na pociąg",
+    "de": "Zug verpassen",
+    "fr": "rater le train",
+    "es": "perder el tren",
+    "it": "perdere il treno",
+    "pt": "perder o trem",
+    "tr": "treni kaçırmak"
+   },
+   "ex": {
+    "en": "Hurry, or we will miss the train!"
+   }
+  },
+  {
+   "id": "travel.rent-a-car",
+   "t": {
+    "en": "to rent a car",
+    "uk": "орендувати автомобіль",
+    "ru": "арендовать машину",
+    "pl": "wynająć samochód",
+    "de": "Auto mieten",
+    "fr": "louer une voiture",
+    "es": "alquilar un coche",
+    "it": "noleggiare un'auto",
+    "pt": "alugar um carro",
+    "tr": "araba kiralamak"
+   },
+   "ex": {
+    "en": "We want to rent a car for a week."
+   }
+  },
+  {
+   "id": "travel.tour-guide",
+   "t": {
+    "en": "tour guide",
+    "uk": "гід",
+    "ru": "гид",
+    "pl": "przewodnik",
+    "de": "Reiseleiter",
+    "fr": "guide touristique",
+    "es": "guía turístico",
+    "it": "guida turistica",
+    "pt": "guia turístico",
+    "tr": "tur rehberi"
+   },
+   "ex": {
+    "en": "Our tour guide speaks four languages."
+   }
+  },
+  {
+   "id": "travel.sightseeing",
+   "t": {
+    "en": "sightseeing",
+    "uk": "огляд пам'яток",
+    "ru": "осмотр достопримечательностей",
+    "pl": "zwiedzanie",
+    "de": "Sightseeing",
+    "fr": "visite touristique",
+    "es": "turismo",
+    "it": "giro turistico",
+    "pt": "passeio turístico",
+    "tr": "gezip görme"
+   },
+   "ex": {
+    "en": "We went sightseeing all day."
+   }
+  },
+  {
+   "id": "travel.souvenir",
+   "t": {
+    "en": "souvenir",
+    "uk": "сувенір",
+    "ru": "сувенир",
+    "pl": "pamiątka",
+    "de": "Souvenir",
+    "fr": "souvenir",
+    "es": "recuerdo",
+    "it": "souvenir",
+    "pt": "lembrança",
+    "tr": "hediyelik eşya"
+   },
+   "ex": {
+    "en": "I bought a souvenir for my mother."
+   }
+  },
+  {
+   "id": "travel.pack",
+   "t": {
+    "en": "to pack",
+    "uk": "пакувати валізу",
+    "ru": "собирать чемодан",
+    "pl": "pakować się",
+    "de": "packen",
+    "fr": "faire sa valise",
+    "es": "hacer la maleta",
+    "it": "fare la valigia",
+    "pt": "fazer as malas",
+    "tr": "bavul hazırlamak"
+   },
+   "ex": {
+    "en": "I still need to pack for the trip."
+   }
+  },
+  {
+   "id": "travel.backpack",
+   "t": {
+    "en": "backpack",
+    "uk": "рюкзак",
+    "ru": "рюкзак",
+    "pl": "plecak",
+    "de": "Rucksack",
+    "fr": "sac à dos",
+    "es": "mochila",
+    "it": "zaino",
+    "pt": "mochila",
+    "tr": "sırt çantası"
+   },
+   "ex": {
+    "en": "My backpack is full of books."
+   }
+  },
+  {
+   "id": "travel.hostel",
+   "t": {
+    "en": "hostel",
+    "uk": "хостел",
+    "ru": "хостел",
+    "pl": "hostel",
+    "de": "Hostel",
+    "fr": "auberge de jeunesse",
+    "es": "albergue",
+    "it": "ostello",
+    "pt": "albergue",
+    "tr": "hostel"
+   },
+   "ex": {
+    "en": "The hostel was cheap and clean."
+   }
+  },
+  {
+   "id": "travel.double-room",
+   "t": {
+    "en": "double room",
+    "uk": "двомісний номер",
+    "ru": "двухместный номер",
+    "pl": "pokój dwuosobowy",
+    "de": "Doppelzimmer",
+    "fr": "chambre double",
+    "es": "habitación doble",
+    "it": "camera doppia",
+    "pt": "quarto duplo",
+    "tr": "çift kişilik oda"
+   },
+   "ex": {
+    "en": "We would like a double room."
+   }
+  },
+  {
+   "id": "travel.check-out",
+   "t": {
+    "en": "to check out",
+    "uk": "виселитися",
+    "ru": "выехать из отеля",
+    "pl": "wymeldować się",
+    "de": "auschecken",
+    "fr": "libérer la chambre",
+    "es": "hacer el check-out",
+    "it": "fare il check-out",
+    "pt": "fazer o check-out",
+    "tr": "otelden çıkış yapmak"
+   },
+   "ex": {
+    "en": "We have to check out by noon."
+   }
+  },
+  {
+   "id": "travel.city-center",
+   "t": {
+    "en": "city center",
+    "uk": "центр міста",
+    "ru": "центр города",
+    "pl": "centrum miasta",
+    "de": "Stadtzentrum",
+    "fr": "centre-ville",
+    "es": "centro de la ciudad",
+    "it": "centro città",
+    "pt": "centro da cidade",
+    "tr": "şehir merkezi"
+   },
+   "ex": {
+    "en": "The hotel is in the city center."
+   }
+  },
+  {
+   "id": "travel.get-lost",
+   "t": {
+    "en": "to get lost",
+    "uk": "заблукати",
+    "ru": "заблудиться",
+    "pl": "zgubić się",
+    "de": "sich verlaufen",
+    "fr": "se perdre",
+    "es": "perderse",
+    "it": "perdersi",
+    "pt": "se perder",
+    "tr": "kaybolmak"
+   },
+   "ex": {
+    "en": "We got lost in the old town."
+   }
+  },
+  {
+   "id": "travel.tourist",
+   "t": {
+    "en": "tourist",
+    "uk": "турист",
+    "ru": "турист",
+    "pl": "turysta",
+    "de": "Tourist",
+    "fr": "touriste",
+    "es": "turista",
+    "it": "turista",
+    "pt": "turista",
+    "tr": "turist"
+   },
+   "ex": {
+    "en": "The beach was full of tourists."
+   }
+  },
+  {
+   "id": "travel.change-trains",
+   "t": {
+    "en": "to change trains",
+    "uk": "пересісти на інший потяг",
+    "ru": "сделать пересадку",
+    "pl": "przesiąść się",
+    "de": "umsteigen",
+    "fr": "changer de train",
+    "es": "hacer transbordo",
+    "it": "cambiare treno",
+    "pt": "fazer baldeação",
+    "tr": "aktarma yapmak"
+   },
+   "ex": {
+    "en": "You need to change trains in Lyon."
+   }
+  },
+  {
+   "id": "travel.seat",
+   "t": {
+    "en": "seat",
+    "uk": "місце",
+    "ru": "место",
+    "pl": "miejsce",
+    "de": "Sitzplatz",
+    "fr": "siège",
+    "es": "asiento",
+    "it": "posto",
+    "pt": "assento",
+    "tr": "koltuk"
+   },
+   "ex": {
+    "en": "Is this seat free?"
+   }
+  },
+  {
+   "id": "travel.window-seat",
+   "t": {
+    "en": "window seat",
+    "uk": "місце біля вікна",
+    "ru": "место у окна",
+    "pl": "miejsce przy oknie",
+    "de": "Fensterplatz",
+    "fr": "place côté hublot",
+    "es": "asiento de ventanilla",
+    "it": "posto al finestrino",
+    "pt": "assento na janela",
+    "tr": "cam kenarı koltuk"
+   },
+   "ex": {
+    "en": "I would prefer a window seat."
+   }
+  },
+  {
+   "id": "travel.bus-stop",
+   "t": {
+    "en": "bus stop",
+    "uk": "зупинка",
+    "ru": "остановка",
+    "pl": "przystanek",
+    "de": "Haltestelle",
+    "fr": "arrêt de bus",
+    "es": "parada de autobús",
+    "it": "fermata",
+    "pt": "ponto de ônibus",
+    "tr": "otobüs durağı"
+   },
+   "ex": {
+    "en": "The bus stop is around the corner."
+   }
+  },
+  {
+   "id": "travel.subway",
+   "t": {
+    "en": "subway",
+    "uk": "метро",
+    "ru": "метро",
+    "pl": "metro",
+    "de": "U-Bahn",
+    "fr": "métro",
+    "es": "metro",
+    "it": "metropolitana",
+    "pt": "metrô",
+    "tr": "metro"
+   },
+   "ex": {
+    "en": "Take the subway to the museum."
+   }
+  }
+ ]
+}

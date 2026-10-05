@@ -1,0 +1,548 @@
+{
+ "id": "food-c1",
+ "topic": "food",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "food.to-braise",
+   "t": {
+    "en": "to braise",
+    "uk": "тушити",
+    "ru": "тушить",
+    "pl": "dusić",
+    "de": "schmoren",
+    "fr": "braiser",
+    "es": "estofar",
+    "it": "brasare",
+    "pt": "brasear",
+    "tr": "ağır ateşte pişirmek"
+   },
+   "ex": {
+    "en": "Braise the beef for three hours."
+   }
+  },
+  {
+   "id": "food.to-poach",
+   "t": {
+    "en": "to poach",
+    "uk": "варити пашот",
+    "ru": "варить пашот",
+    "pl": "gotować bez wrzenia",
+    "de": "pochieren",
+    "fr": "pocher",
+    "es": "escalfar",
+    "it": "cuocere in camicia",
+    "pt": "pochear",
+    "tr": "poşe etmek"
+   },
+   "ex": {
+    "en": "Poach the eggs for three minutes."
+   }
+  },
+  {
+   "id": "food.to-caramelise",
+   "t": {
+    "en": "to caramelise",
+    "uk": "карамелізувати",
+    "ru": "карамелизовать",
+    "pl": "karmelizować",
+    "de": "karamellisieren",
+    "fr": "caraméliser",
+    "es": "caramelizar",
+    "it": "caramellare",
+    "pt": "caramelizar",
+    "tr": "karamelize etmek"
+   },
+   "ex": {
+    "en": "Caramelise the onions slowly."
+   }
+  },
+  {
+   "id": "food.to-deglaze",
+   "t": {
+    "en": "to deglaze",
+    "uk": "деглазувати",
+    "ru": "деглазировать",
+    "pl": "deglasować",
+    "de": "ablöschen",
+    "fr": "déglacer",
+    "es": "desglasar",
+    "it": "sfumare",
+    "pt": "deglacear",
+    "tr": "deglaze etmek"
+   },
+   "ex": {
+    "en": "Deglaze the pan with white wine."
+   }
+  },
+  {
+   "id": "food.to-reduce-a-sauce",
+   "t": {
+    "en": "to reduce a sauce",
+    "uk": "уварювати соус",
+    "ru": "уваривать соус",
+    "pl": "redukować sos",
+    "de": "Soße einkochen",
+    "fr": "faire réduire une sauce",
+    "es": "reducir una salsa",
+    "it": "far restringere una salsa",
+    "pt": "reduzir um molho",
+    "tr": "sosu koyulaştırmak"
+   },
+   "ex": {
+    "en": "Reduce the sauce by half."
+   }
+  },
+  {
+   "id": "food.to-blanch",
+   "t": {
+    "en": "to blanch",
+    "uk": "бланшувати",
+    "ru": "бланшировать",
+    "pl": "blanszować",
+    "de": "blanchieren",
+    "fr": "blanchir",
+    "es": "escaldar",
+    "it": "sbollentare",
+    "pt": "branquear",
+    "tr": "blanşe etmek"
+   },
+   "ex": {
+    "en": "Blanch the beans in boiling water."
+   }
+  },
+  {
+   "id": "food.to-sear",
+   "t": {
+    "en": "to sear",
+    "uk": "обсмажувати до скоринки",
+    "ru": "обжаривать до корочки",
+    "pl": "obsmażać",
+    "de": "scharf anbraten",
+    "fr": "saisir",
+    "es": "sellar",
+    "it": "rosolare",
+    "pt": "selar",
+    "tr": "mühürlemek"
+   },
+   "ex": {
+    "en": "Sear the steak on both sides."
+   }
+  },
+  {
+   "id": "food.to-fold-in",
+   "t": {
+    "en": "to fold in",
+    "uk": "обережно вмішати",
+    "ru": "аккуратно вмешать",
+    "pl": "delikatnie wmieszać",
+    "de": "unterheben",
+    "fr": "incorporer délicatement",
+    "es": "incorporar con movimientos envolventes",
+    "it": "incorporare delicatamente",
+    "pt": "incorporar delicadamente",
+    "tr": "yavaşça katmak"
+   },
+   "ex": {
+    "en": "Fold in the egg whites gently."
+   }
+  },
+  {
+   "id": "food.to-prove-dough",
+   "t": {
+    "en": "to prove dough",
+    "uk": "дати тісту підійти",
+    "ru": "дать тесту подойти",
+    "pl": "pozostawić do wyrośnięcia",
+    "de": "gehen lassen",
+    "fr": "laisser lever",
+    "es": "dejar levar",
+    "it": "far lievitare",
+    "pt": "deixar crescer",
+    "tr": "mayalanmaya bırakmak"
+   },
+   "ex": {
+    "en": "Leave the dough to prove overnight."
+   }
+  },
+  {
+   "id": "food.to-render-fat",
+   "t": {
+    "en": "to render fat",
+    "uk": "витоплювати жир",
+    "ru": "вытапливать жир",
+    "pl": "wytapiać tłuszcz",
+    "de": "Fett auslassen",
+    "fr": "faire fondre le gras",
+    "es": "derretir la grasa",
+    "it": "sciogliere il grasso",
+    "pt": "derreter a gordura",
+    "tr": "yağı eritmek"
+   },
+   "ex": {
+    "en": "Render the fat slowly over low heat."
+   }
+  },
+  {
+   "id": "food.al-dente",
+   "t": {
+    "en": "al dente",
+    "uk": "аль денте",
+    "ru": "аль денте",
+    "pl": "al dente",
+    "de": "al dente",
+    "fr": "al dente",
+    "es": "al dente",
+    "it": "al dente",
+    "pt": "al dente",
+    "tr": "al dente"
+   },
+   "ex": {
+    "en": "Cook the pasta al dente."
+   }
+  },
+  {
+   "id": "food.umami",
+   "t": {
+    "en": "umami",
+    "uk": "умамі",
+    "ru": "умами",
+    "pl": "umami",
+    "de": "Umami",
+    "fr": "umami",
+    "es": "umami",
+    "it": "umami",
+    "pt": "umami",
+    "tr": "umami"
+   },
+   "ex": {
+    "en": "Mushrooms are rich in umami."
+   }
+  },
+  {
+   "id": "food.palate",
+   "t": {
+    "en": "palate",
+    "uk": "смак",
+    "ru": "вкус",
+    "pl": "podniebienie",
+    "de": "Gaumen",
+    "fr": "palais",
+    "es": "paladar",
+    "it": "palato",
+    "pt": "paladar",
+    "tr": "damak"
+   },
+   "ex": {
+    "en": "She has a very refined palate."
+   }
+  },
+  {
+   "id": "food.aftertaste",
+   "t": {
+    "en": "aftertaste",
+    "uk": "післясмак",
+    "ru": "послевкусие",
+    "pl": "posmak",
+    "de": "Nachgeschmack",
+    "fr": "arrière-goût",
+    "es": "regusto",
+    "it": "retrogusto",
+    "pt": "retrogosto",
+    "tr": "ağızda kalan tat"
+   },
+   "ex": {
+    "en": "The wine has a bitter aftertaste."
+   }
+  },
+  {
+   "id": "food.to-pair-wine-with",
+   "t": {
+    "en": "to pair wine with",
+    "uk": "підбирати вино до",
+    "ru": "подбирать вино к",
+    "pl": "dobierać wino do",
+    "de": "Wein kombinieren mit",
+    "fr": "accorder le vin avec",
+    "es": "maridar el vino con",
+    "it": "abbinare il vino a",
+    "pt": "harmonizar o vinho com",
+    "tr": "şarapla eşleştirmek"
+   },
+   "ex": {
+    "en": "Pair this wine with fish."
+   }
+  },
+  {
+   "id": "food.foodie",
+   "t": {
+    "en": "foodie",
+    "uk": "гурман",
+    "ru": "гурман",
+    "pl": "smakosz",
+    "de": "Feinschmecker",
+    "fr": "fin gourmet",
+    "es": "sibarita",
+    "it": "buongustaio",
+    "pt": "amante da boa comida",
+    "tr": "yemek tutkunu"
+   },
+   "ex": {
+    "en": "My brother is a real foodie."
+   }
+  },
+  {
+   "id": "food.gastronomy",
+   "t": {
+    "en": "gastronomy",
+    "uk": "гастрономія",
+    "ru": "гастрономия",
+    "pl": "gastronomia",
+    "de": "Gastronomie",
+    "fr": "gastronomie",
+    "es": "gastronomía",
+    "it": "gastronomia",
+    "pt": "gastronomia",
+    "tr": "gastronomi"
+   },
+   "ex": {
+    "en": "Lyon is famous for its gastronomy."
+   }
+  },
+  {
+   "id": "food.hearty",
+   "t": {
+    "en": "hearty",
+    "uk": "ситний",
+    "ru": "сытный",
+    "pl": "sycący",
+    "de": "deftig",
+    "fr": "copieux",
+    "es": "contundente",
+    "it": "sostanzioso",
+    "pt": "substancioso",
+    "tr": "doyurucu"
+   },
+   "ex": {
+    "en": "A hearty stew for a cold night."
+   }
+  },
+  {
+   "id": "food.melt-in-the-mouth",
+   "t": {
+    "en": "melt-in-the-mouth",
+    "uk": "тане в роті",
+    "ru": "тает во рту",
+    "pl": "rozpływa się w ustach",
+    "de": "zart schmelzend",
+    "fr": "fondant",
+    "es": "que se deshace en la boca",
+    "it": "che si scioglie in bocca",
+    "pt": "que derrete na boca",
+    "tr": "ağızda dağılan"
+   },
+   "ex": {
+    "en": "The pork was melt-in-the-mouth tender."
+   }
+  },
+  {
+   "id": "food.rancid",
+   "t": {
+    "en": "rancid",
+    "uk": "прогірклий",
+    "ru": "прогорклый",
+    "pl": "zjełczały",
+    "de": "ranzig",
+    "fr": "rance",
+    "es": "rancio",
+    "it": "rancido",
+    "pt": "rançoso",
+    "tr": "acılaşmış"
+   },
+   "ex": {
+    "en": "The butter smells rancid."
+   }
+  },
+  {
+   "id": "food.stale",
+   "t": {
+    "en": "stale",
+    "uk": "черствий",
+    "ru": "чёрствый",
+    "pl": "czerstwy",
+    "de": "altbacken",
+    "fr": "rassis",
+    "es": "duro",
+    "it": "raffermo",
+    "pt": "amanhecido",
+    "tr": "bayat"
+   },
+   "ex": {
+    "en": "The bread has gone stale."
+   }
+  },
+  {
+   "id": "food.to-wolf-down",
+   "t": {
+    "en": "to wolf down",
+    "uk": "проковтнути",
+    "ru": "проглотить",
+    "pl": "pożreć",
+    "de": "verschlingen",
+    "fr": "engloutir",
+    "es": "engullir",
+    "it": "divorare",
+    "pt": "devorar",
+    "tr": "silip süpürmek"
+   },
+   "ex": {
+    "en": "He wolfed down his lunch in minutes."
+   }
+  },
+  {
+   "id": "food.to-nibble",
+   "t": {
+    "en": "to nibble",
+    "uk": "покусувати",
+    "ru": "грызть понемногу",
+    "pl": "skubać",
+    "de": "knabbern",
+    "fr": "grignoter",
+    "es": "picotear",
+    "it": "sgranocchiare",
+    "pt": "beliscar",
+    "tr": "atıştırmak"
+   },
+   "ex": {
+    "en": "She nibbled on some crackers."
+   }
+  },
+  {
+   "id": "food.a-dash-of",
+   "t": {
+    "en": "a dash of",
+    "uk": "крапля",
+    "ru": "капля",
+    "pl": "odrobina",
+    "de": "Spritzer",
+    "fr": "trait de",
+    "es": "chorrito de",
+    "it": "goccio di",
+    "pt": "um fio de",
+    "tr": "bir damla"
+   },
+   "ex": {
+    "en": "Add a dash of vinegar."
+   }
+  },
+  {
+   "id": "food.to-go-down-a-treat",
+   "t": {
+    "en": "to go down a treat",
+    "uk": "смакувати всім",
+    "ru": "прийтись по вкусу",
+    "pl": "bardzo smakować",
+    "de": "gut ankommen",
+    "fr": "régaler tout le monde",
+    "es": "ser todo un éxito",
+    "it": "andare a ruba",
+    "pt": "fazer o maior sucesso",
+    "tr": "çok beğenilmek"
+   },
+   "ex": {
+    "en": "The cake went down a treat."
+   }
+  },
+  {
+   "id": "food.to-have-a-sweet-tooth",
+   "t": {
+    "en": "to have a sweet tooth",
+    "uk": "бути ласуном",
+    "ru": "быть сладкоежкой",
+    "pl": "lubić słodycze",
+    "de": "eine Naschkatze sein",
+    "fr": "être gourmand",
+    "es": "ser goloso",
+    "it": "essere goloso",
+    "pt": "ser formiguinha",
+    "tr": "tatlı düşkünü olmak"
+   },
+   "ex": {
+    "en": "I've always had a sweet tooth."
+   }
+  },
+  {
+   "id": "food.mouth-watering",
+   "t": {
+    "en": "mouth-watering",
+    "uk": "апетитний",
+    "ru": "аппетитный",
+    "pl": "apetyczny",
+    "de": "appetitlich",
+    "fr": "appétissant",
+    "es": "apetitoso",
+    "it": "appetitoso",
+    "pt": "apetitoso",
+    "tr": "ağız sulandıran"
+   },
+   "ex": {
+    "en": "A mouth-watering display of pastries."
+   }
+  },
+  {
+   "id": "food.to-be-off-ones-food",
+   "t": {
+    "en": "to be off one's food",
+    "uk": "втратити апетит",
+    "ru": "потерять аппетит",
+    "pl": "stracić apetyt",
+    "de": "keinen Appetit haben",
+    "fr": "ne pas avoir d'appétit",
+    "es": "estar desganado",
+    "it": "essere inappetente",
+    "pt": "estar sem apetite",
+    "tr": "iştahı kesilmek"
+   },
+   "ex": {
+    "en": "He's been off his food all week."
+   }
+  },
+  {
+   "id": "food.offal",
+   "t": {
+    "en": "offal",
+    "uk": "субпродукти",
+    "ru": "субпродукты",
+    "pl": "podroby",
+    "de": "Innereien",
+    "fr": "abats",
+    "es": "casquería",
+    "it": "frattaglie",
+    "pt": "miúdos",
+    "tr": "sakatat"
+   },
+   "ex": {
+    "en": "Offal is popular in traditional cooking."
+   }
+  },
+  {
+   "id": "food.to-whet-ones-appetite",
+   "t": {
+    "en": "to whet one's appetite",
+    "uk": "розпалити апетит",
+    "ru": "разжечь аппетит",
+    "pl": "zaostrzyć apetyt",
+    "de": "Appetit anregen",
+    "fr": "ouvrir l'appétit",
+    "es": "abrir el apetito",
+    "it": "stuzzicare l'appetito",
+    "pt": "abrir o apetite",
+    "tr": "iştah açmak"
+   },
+   "ex": {
+    "en": "A small starter to whet your appetite."
+   }
+  }
+ ]
+}

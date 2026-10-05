@@ -1,0 +1,530 @@
+{
+ "id": "home-a1",
+ "topic": "home",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "home.house",
+   "t": {
+    "en": "house",
+    "uk": "будинок",
+    "ru": "дом",
+    "pl": "dom",
+    "de": "Haus",
+    "fr": "maison",
+    "es": "casa",
+    "it": "casa",
+    "pt": "casa",
+    "tr": "ev"
+   },
+   "ex": {
+    "en": "We live in a small house."
+   }
+  },
+  {
+   "id": "home.apartment",
+   "t": {
+    "en": "apartment",
+    "uk": "квартира",
+    "ru": "квартира",
+    "pl": "mieszkanie",
+    "de": "Wohnung",
+    "fr": "appartement",
+    "es": "apartamento",
+    "it": "appartamento",
+    "pt": "apartamento",
+    "tr": "daire"
+   },
+   "ex": {
+    "en": "My apartment is on the third floor."
+   }
+  },
+  {
+   "id": "home.room",
+   "t": {
+    "en": "room",
+    "uk": "кімната",
+    "ru": "комната",
+    "pl": "pokój",
+    "de": "Zimmer",
+    "fr": "pièce",
+    "es": "habitación",
+    "it": "stanza",
+    "pt": "cômodo",
+    "tr": "oda"
+   },
+   "ex": {
+    "en": "This room is very bright."
+   }
+  },
+  {
+   "id": "home.kitchen",
+   "t": {
+    "en": "kitchen",
+    "uk": "кухня",
+    "ru": "кухня",
+    "pl": "kuchnia",
+    "de": "Küche",
+    "fr": "cuisine",
+    "es": "cocina",
+    "it": "cucina",
+    "pt": "cozinha",
+    "tr": "mutfak"
+   },
+   "ex": {
+    "en": "The kitchen is next to the living room."
+   }
+  },
+  {
+   "id": "home.bedroom",
+   "t": {
+    "en": "bedroom",
+    "uk": "спальня",
+    "ru": "спальня",
+    "pl": "sypialnia",
+    "de": "Schlafzimmer",
+    "fr": "chambre",
+    "es": "dormitorio",
+    "it": "camera da letto",
+    "pt": "quarto",
+    "tr": "yatak odası"
+   },
+   "ex": {
+    "en": "The bedroom has a big window."
+   }
+  },
+  {
+   "id": "home.bathroom",
+   "t": {
+    "en": "bathroom",
+    "uk": "ванна кімната",
+    "ru": "ванная",
+    "pl": "łazienka",
+    "de": "Badezimmer",
+    "fr": "salle de bain",
+    "es": "baño",
+    "it": "bagno",
+    "pt": "banheiro",
+    "tr": "banyo"
+   },
+   "ex": {
+    "en": "The bathroom is at the end of the hall."
+   }
+  },
+  {
+   "id": "home.living-room",
+   "t": {
+    "en": "living room",
+    "uk": "вітальня",
+    "ru": "гостиная",
+    "pl": "salon",
+    "de": "Wohnzimmer",
+    "fr": "salon",
+    "es": "sala de estar",
+    "it": "soggiorno",
+    "pt": "sala de estar",
+    "tr": "oturma odası"
+   },
+   "ex": {
+    "en": "We watch TV in the living room."
+   }
+  },
+  {
+   "id": "home.door",
+   "t": {
+    "en": "door",
+    "uk": "двері",
+    "ru": "дверь",
+    "pl": "drzwi",
+    "de": "Tür",
+    "fr": "porte",
+    "es": "puerta",
+    "it": "porta",
+    "pt": "porta",
+    "tr": "kapı"
+   },
+   "ex": {
+    "en": "Please close the door."
+   }
+  },
+  {
+   "id": "home.window",
+   "t": {
+    "en": "window",
+    "uk": "вікно",
+    "ru": "окно",
+    "pl": "okno",
+    "de": "Fenster",
+    "fr": "fenêtre",
+    "es": "ventana",
+    "it": "finestra",
+    "pt": "janela",
+    "tr": "pencere"
+   },
+   "ex": {
+    "en": "Open the window, it is hot."
+   }
+  },
+  {
+   "id": "home.wall",
+   "t": {
+    "en": "wall",
+    "uk": "стіна",
+    "ru": "стена",
+    "pl": "ściana",
+    "de": "Wand",
+    "fr": "mur",
+    "es": "pared",
+    "it": "parete",
+    "pt": "parede",
+    "tr": "duvar"
+   },
+   "ex": {
+    "en": "There is a picture on the wall."
+   }
+  },
+  {
+   "id": "home.floor",
+   "t": {
+    "en": "floor",
+    "uk": "підлога",
+    "ru": "пол",
+    "pl": "podłoga",
+    "de": "Fußboden",
+    "fr": "sol",
+    "es": "suelo",
+    "it": "pavimento",
+    "pt": "chão",
+    "tr": "zemin"
+   },
+   "ex": {
+    "en": "The cat is sleeping on the floor."
+   }
+  },
+  {
+   "id": "home.bed",
+   "t": {
+    "en": "bed",
+    "uk": "ліжко",
+    "ru": "кровать",
+    "pl": "łóżko",
+    "de": "Bett",
+    "fr": "lit",
+    "es": "cama",
+    "it": "letto",
+    "pt": "cama",
+    "tr": "yatak"
+   },
+   "ex": {
+    "en": "I go to bed at eleven."
+   }
+  },
+  {
+   "id": "home.table",
+   "t": {
+    "en": "table",
+    "uk": "стіл",
+    "ru": "стол",
+    "pl": "stół",
+    "de": "Tisch",
+    "fr": "table",
+    "es": "mesa",
+    "it": "tavolo",
+    "pt": "mesa",
+    "tr": "masa"
+   },
+   "ex": {
+    "en": "Put the plates on the table."
+   }
+  },
+  {
+   "id": "home.chair",
+   "t": {
+    "en": "chair",
+    "uk": "стілець",
+    "ru": "стул",
+    "pl": "krzesło",
+    "de": "Stuhl",
+    "fr": "chaise",
+    "es": "silla",
+    "it": "sedia",
+    "pt": "cadeira",
+    "tr": "sandalye"
+   },
+   "ex": {
+    "en": "We need one more chair."
+   }
+  },
+  {
+   "id": "home.sofa",
+   "t": {
+    "en": "sofa",
+    "uk": "диван",
+    "ru": "диван",
+    "pl": "kanapa",
+    "de": "Sofa",
+    "fr": "canapé",
+    "es": "sofá",
+    "it": "divano",
+    "pt": "sofá",
+    "tr": "kanepe"
+   },
+   "ex": {
+    "en": "Sit down on the sofa."
+   }
+  },
+  {
+   "id": "home.lamp",
+   "t": {
+    "en": "lamp",
+    "uk": "лампа",
+    "ru": "лампа",
+    "pl": "lampa",
+    "de": "Lampe",
+    "fr": "lampe",
+    "es": "lámpara",
+    "it": "lampada",
+    "pt": "luminária",
+    "tr": "lamba"
+   },
+   "ex": {
+    "en": "Turn on the lamp, please."
+   }
+  },
+  {
+   "id": "home.key",
+   "t": {
+    "en": "key",
+    "uk": "ключ",
+    "ru": "ключ",
+    "pl": "klucz",
+    "de": "Schlüssel",
+    "fr": "clé",
+    "es": "llave",
+    "it": "chiave",
+    "pt": "chave",
+    "tr": "anahtar"
+   },
+   "ex": {
+    "en": "I forgot my key at home."
+   }
+  },
+  {
+   "id": "home.to-rent",
+   "t": {
+    "en": "to rent",
+    "uk": "орендувати",
+    "ru": "снимать",
+    "pl": "wynajmować",
+    "de": "mieten",
+    "fr": "louer",
+    "es": "alquilar",
+    "it": "affittare",
+    "pt": "alugar",
+    "tr": "kiralamak"
+   },
+   "ex": {
+    "en": "I want to rent a small flat."
+   }
+  },
+  {
+   "id": "home.rent",
+   "t": {
+    "en": "rent",
+    "uk": "орендна плата",
+    "ru": "арендная плата",
+    "pl": "czynsz",
+    "de": "Miete",
+    "fr": "loyer",
+    "es": "alquiler",
+    "it": "affitto",
+    "pt": "aluguel",
+    "tr": "kira"
+   },
+   "ex": {
+    "en": "The rent is 800 euros a month."
+   }
+  },
+  {
+   "id": "home.neighbour",
+   "t": {
+    "en": "neighbour",
+    "uk": "сусід",
+    "ru": "сосед",
+    "pl": "sąsiad",
+    "de": "Nachbar",
+    "fr": "voisin",
+    "es": "vecino",
+    "it": "vicino",
+    "pt": "vizinho",
+    "tr": "komşu"
+   },
+   "ex": {
+    "en": "My neighbour is very friendly."
+   }
+  },
+  {
+   "id": "home.fridge",
+   "t": {
+    "en": "fridge",
+    "uk": "холодильник",
+    "ru": "холодильник",
+    "pl": "lodówka",
+    "de": "Kühlschrank",
+    "fr": "frigo",
+    "es": "nevera",
+    "it": "frigorifero",
+    "pt": "geladeira",
+    "tr": "buzdolabı"
+   },
+   "ex": {
+    "en": "The milk is in the fridge."
+   }
+  },
+  {
+   "id": "home.stove",
+   "t": {
+    "en": "stove",
+    "uk": "плита",
+    "ru": "плита",
+    "pl": "kuchenka",
+    "de": "Herd",
+    "fr": "cuisinière",
+    "es": "cocina",
+    "it": "fornelli",
+    "pt": "fogão",
+    "tr": "ocak"
+   },
+   "ex": {
+    "en": "Turn off the stove after cooking."
+   }
+  },
+  {
+   "id": "home.shower",
+   "t": {
+    "en": "shower",
+    "uk": "душ",
+    "ru": "душ",
+    "pl": "prysznic",
+    "de": "Dusche",
+    "fr": "douche",
+    "es": "ducha",
+    "it": "doccia",
+    "pt": "chuveiro",
+    "tr": "duş"
+   },
+   "ex": {
+    "en": "I take a shower every morning."
+   }
+  },
+  {
+   "id": "home.toilet",
+   "t": {
+    "en": "toilet",
+    "uk": "туалет",
+    "ru": "туалет",
+    "pl": "toaleta",
+    "de": "WC",
+    "fr": "WC",
+    "es": "váter",
+    "it": "water",
+    "pt": "vaso sanitário",
+    "tr": "tuvalet"
+   },
+   "ex": {
+    "en": "The toilet is not working."
+   }
+  },
+  {
+   "id": "home.to-live",
+   "t": {
+    "en": "to live",
+    "uk": "жити",
+    "ru": "жить",
+    "pl": "mieszkać",
+    "de": "wohnen",
+    "fr": "habiter",
+    "es": "vivir",
+    "it": "abitare",
+    "pt": "morar",
+    "tr": "oturmak"
+   },
+   "ex": {
+    "en": "Where do you live?"
+   }
+  },
+  {
+   "id": "home.to-clean",
+   "t": {
+    "en": "to clean",
+    "uk": "прибирати",
+    "ru": "убирать",
+    "pl": "sprzątać",
+    "de": "putzen",
+    "fr": "nettoyer",
+    "es": "limpiar",
+    "it": "pulire",
+    "pt": "limpar",
+    "tr": "temizlemek"
+   },
+   "ex": {
+    "en": "I clean the flat on Saturdays."
+   }
+  },
+  {
+   "id": "home.stairs",
+   "t": {
+    "en": "stairs",
+    "uk": "сходи",
+    "ru": "лестница",
+    "pl": "schody",
+    "de": "Treppe",
+    "fr": "escalier",
+    "es": "escaleras",
+    "it": "scale",
+    "pt": "escada",
+    "tr": "merdiven"
+   },
+   "ex": {
+    "en": "The stairs are on the left."
+   }
+  },
+  {
+   "id": "home.garden",
+   "t": {
+    "en": "garden",
+    "uk": "сад",
+    "ru": "сад",
+    "pl": "ogród",
+    "de": "Garten",
+    "fr": "jardin",
+    "es": "jardín",
+    "it": "giardino",
+    "pt": "jardim",
+    "tr": "bahçe"
+   },
+   "ex": {
+    "en": "The children play in the garden."
+   }
+  },
+  {
+   "id": "home.at-home",
+   "t": {
+    "en": "at home",
+    "uk": "вдома",
+    "ru": "дома",
+    "pl": "w domu",
+    "de": "zu Hause",
+    "fr": "à la maison",
+    "es": "en casa",
+    "it": "a casa",
+    "pt": "em casa",
+    "tr": "evde"
+   },
+   "ex": {
+    "en": "I am at home tonight."
+   }
+  }
+ ]
+}

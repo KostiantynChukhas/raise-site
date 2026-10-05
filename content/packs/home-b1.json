@@ -1,0 +1,548 @@
+{
+ "id": "home-b1",
+ "topic": "home",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "home.lease-agreement",
+   "t": {
+    "en": "lease agreement",
+    "uk": "договір оренди",
+    "ru": "договор аренды",
+    "pl": "umowa najmu",
+    "de": "Mietvertrag",
+    "fr": "bail",
+    "es": "contrato de alquiler",
+    "it": "contratto di affitto",
+    "pt": "contrato de aluguel",
+    "tr": "kira sözleşmesi"
+   },
+   "ex": {
+    "en": "Read the lease agreement carefully."
+   }
+  },
+  {
+   "id": "home.to-sign-a-lease",
+   "t": {
+    "en": "to sign a lease",
+    "uk": "підписати договір оренди",
+    "ru": "подписать договор аренды",
+    "pl": "podpisać umowę najmu",
+    "de": "Mietvertrag unterschreiben",
+    "fr": "signer un bail",
+    "es": "firmar el contrato de alquiler",
+    "it": "firmare il contratto di affitto",
+    "pt": "assinar o contrato de aluguel",
+    "tr": "kira sözleşmesi imzalamak"
+   },
+   "ex": {
+    "en": "We signed a lease for one year."
+   }
+  },
+  {
+   "id": "home.utilities",
+   "t": {
+    "en": "utilities",
+    "uk": "комунальні послуги",
+    "ru": "коммунальные услуги",
+    "pl": "media",
+    "de": "Nebenkosten",
+    "fr": "charges",
+    "es": "suministros",
+    "it": "utenze",
+    "pt": "contas de consumo",
+    "tr": "faturalar"
+   },
+   "ex": {
+    "en": "Utilities are not included in the rent."
+   }
+  },
+  {
+   "id": "home.gas-bill",
+   "t": {
+    "en": "gas bill",
+    "uk": "рахунок за газ",
+    "ru": "счёт за газ",
+    "pl": "rachunek za gaz",
+    "de": "Gasrechnung",
+    "fr": "facture de gaz",
+    "es": "factura del gas",
+    "it": "bolletta del gas",
+    "pt": "conta de gás",
+    "tr": "gaz faturası"
+   },
+   "ex": {
+    "en": "The gas bill was high this winter."
+   }
+  },
+  {
+   "id": "home.internet-connection",
+   "t": {
+    "en": "internet connection",
+    "uk": "підключення до інтернету",
+    "ru": "подключение к интернету",
+    "pl": "łącze internetowe",
+    "de": "Internetanschluss",
+    "fr": "connexion internet",
+    "es": "conexión a internet",
+    "it": "connessione internet",
+    "pt": "conexão de internet",
+    "tr": "internet bağlantısı"
+   },
+   "ex": {
+    "en": "Does the flat have an internet connection?"
+   }
+  },
+  {
+   "id": "home.furnished",
+   "t": {
+    "en": "furnished",
+    "uk": "мебльований",
+    "ru": "меблированный",
+    "pl": "umeblowany",
+    "de": "möbliert",
+    "fr": "meublé",
+    "es": "amueblado",
+    "it": "ammobiliato",
+    "pt": "mobiliado",
+    "tr": "eşyalı"
+   },
+   "ex": {
+    "en": "We are looking for a furnished flat."
+   }
+  },
+  {
+   "id": "home.to-furnish",
+   "t": {
+    "en": "to furnish",
+    "uk": "мебліювати",
+    "ru": "обставлять",
+    "pl": "umeblować",
+    "de": "einrichten",
+    "fr": "meubler",
+    "es": "amueblar",
+    "it": "arredare",
+    "pt": "mobiliar",
+    "tr": "döşemek"
+   },
+   "ex": {
+    "en": "It took months to furnish the house."
+   }
+  },
+  {
+   "id": "home.plumber",
+   "t": {
+    "en": "plumber",
+    "uk": "сантехнік",
+    "ru": "сантехник",
+    "pl": "hydraulik",
+    "de": "Klempner",
+    "fr": "plombier",
+    "es": "fontanero",
+    "it": "idraulico",
+    "pt": "encanador",
+    "tr": "tesisatçı"
+   },
+   "ex": {
+    "en": "The plumber is coming at ten."
+   }
+  },
+  {
+   "id": "home.electrician",
+   "t": {
+    "en": "electrician",
+    "uk": "електрик",
+    "ru": "электрик",
+    "pl": "elektryk",
+    "de": "Elektriker",
+    "fr": "électricien",
+    "es": "electricista",
+    "it": "elettricista",
+    "pt": "eletricista",
+    "tr": "elektrikçi"
+   },
+   "ex": {
+    "en": "We need an electrician for the sockets."
+   }
+  },
+  {
+   "id": "home.to-repair",
+   "t": {
+    "en": "to repair",
+    "uk": "ремонтувати",
+    "ru": "чинить",
+    "pl": "naprawiać",
+    "de": "reparieren",
+    "fr": "réparer",
+    "es": "reparar",
+    "it": "riparare",
+    "pt": "consertar",
+    "tr": "tamir etmek"
+   },
+   "ex": {
+    "en": "Who can repair the washing machine?"
+   }
+  },
+  {
+   "id": "home.leak",
+   "t": {
+    "en": "leak",
+    "uk": "протікання",
+    "ru": "протечка",
+    "pl": "przeciek",
+    "de": "Leck",
+    "fr": "fuite",
+    "es": "fuga de agua",
+    "it": "perdita",
+    "pt": "vazamento",
+    "tr": "sızıntı"
+   },
+   "ex": {
+    "en": "There is a leak under the sink."
+   }
+  },
+  {
+   "id": "home.blocked-drain",
+   "t": {
+    "en": "blocked drain",
+    "uk": "засмічений злив",
+    "ru": "засор",
+    "pl": "zatkany odpływ",
+    "de": "verstopfter Abfluss",
+    "fr": "canalisation bouchée",
+    "es": "desagüe atascado",
+    "it": "scarico otturato",
+    "pt": "ralo entupido",
+    "tr": "tıkalı gider"
+   },
+   "ex": {
+    "en": "The shower has a blocked drain."
+   }
+  },
+  {
+   "id": "home.power-cut",
+   "t": {
+    "en": "power cut",
+    "uk": "відключення світла",
+    "ru": "отключение электричества",
+    "pl": "przerwa w dostawie prądu",
+    "de": "Stromausfall",
+    "fr": "coupure de courant",
+    "es": "apagón",
+    "it": "blackout",
+    "pt": "queda de energia",
+    "tr": "elektrik kesintisi"
+   },
+   "ex": {
+    "en": "There was a power cut last night."
+   }
+  },
+  {
+   "id": "home.light-bulb",
+   "t": {
+    "en": "light bulb",
+    "uk": "лампочка",
+    "ru": "лампочка",
+    "pl": "żarówka",
+    "de": "Glühbirne",
+    "fr": "ampoule",
+    "es": "bombilla",
+    "it": "lampadina",
+    "pt": "lâmpada",
+    "tr": "ampul"
+   },
+   "ex": {
+    "en": "The light bulb in the hall burned out."
+   }
+  },
+  {
+   "id": "home.to-change-a-light-bulb",
+   "t": {
+    "en": "to change a light bulb",
+    "uk": "замінити лампочку",
+    "ru": "поменять лампочку",
+    "pl": "wymienić żarówkę",
+    "de": "Glühbirne wechseln",
+    "fr": "changer une ampoule",
+    "es": "cambiar una bombilla",
+    "it": "cambiare una lampadina",
+    "pt": "trocar a lâmpada",
+    "tr": "ampul değiştirmek"
+   },
+   "ex": {
+    "en": "Can you change the light bulb?"
+   }
+  },
+  {
+   "id": "home.smoke-detector",
+   "t": {
+    "en": "smoke detector",
+    "uk": "датчик диму",
+    "ru": "датчик дыма",
+    "pl": "czujnik dymu",
+    "de": "Rauchmelder",
+    "fr": "détecteur de fumée",
+    "es": "detector de humo",
+    "it": "rilevatore di fumo",
+    "pt": "detector de fumaça",
+    "tr": "duman dedektörü"
+   },
+   "ex": {
+    "en": "Every bedroom needs a smoke detector."
+   }
+  },
+  {
+   "id": "home.to-renovate",
+   "t": {
+    "en": "to renovate",
+    "uk": "робити ремонт",
+    "ru": "делать ремонт",
+    "pl": "remontować",
+    "de": "renovieren",
+    "fr": "rénover",
+    "es": "reformar",
+    "it": "ristrutturare",
+    "pt": "reformar",
+    "tr": "tadilat yapmak"
+   },
+   "ex": {
+    "en": "They are renovating the kitchen."
+   }
+  },
+  {
+   "id": "home.to-paint-the-walls",
+   "t": {
+    "en": "to paint the walls",
+    "uk": "фарбувати стіни",
+    "ru": "красить стены",
+    "pl": "malować ściany",
+    "de": "Wände streichen",
+    "fr": "peindre les murs",
+    "es": "pintar las paredes",
+    "it": "dipingere le pareti",
+    "pt": "pintar as paredes",
+    "tr": "duvarları boyamak"
+   },
+   "ex": {
+    "en": "We painted the walls white."
+   }
+  },
+  {
+   "id": "home.wallpaper",
+   "t": {
+    "en": "wallpaper",
+    "uk": "шпалери",
+    "ru": "обои",
+    "pl": "tapeta",
+    "de": "Tapete",
+    "fr": "papier peint",
+    "es": "papel pintado",
+    "it": "carta da parati",
+    "pt": "papel de parede",
+    "tr": "duvar kağıdı"
+   },
+   "ex": {
+    "en": "The old wallpaper is peeling off."
+   }
+  },
+  {
+   "id": "home.doorbell",
+   "t": {
+    "en": "doorbell",
+    "uk": "дверний дзвінок",
+    "ru": "дверной звонок",
+    "pl": "dzwonek do drzwi",
+    "de": "Türklingel",
+    "fr": "sonnette",
+    "es": "timbre",
+    "it": "campanello",
+    "pt": "campainha",
+    "tr": "kapı zili"
+   },
+   "ex": {
+    "en": "The doorbell rang twice."
+   }
+  },
+  {
+   "id": "home.intercom",
+   "t": {
+    "en": "intercom",
+    "uk": "домофон",
+    "ru": "домофон",
+    "pl": "domofon",
+    "de": "Gegensprechanlage",
+    "fr": "interphone",
+    "es": "portero automático",
+    "it": "citofono",
+    "pt": "interfone",
+    "tr": "diyafon"
+   },
+   "ex": {
+    "en": "Press the intercom and I will open."
+   }
+  },
+  {
+   "id": "home.mailbox",
+   "t": {
+    "en": "mailbox",
+    "uk": "поштова скринька",
+    "ru": "почтовый ящик",
+    "pl": "skrzynka pocztowa",
+    "de": "Briefkasten",
+    "fr": "boîte aux lettres",
+    "es": "buzón",
+    "it": "cassetta della posta",
+    "pt": "caixa de correio",
+    "tr": "posta kutusu"
+   },
+   "ex": {
+    "en": "Check the mailbox for the letter."
+   }
+  },
+  {
+   "id": "home.lift",
+   "t": {
+    "en": "lift",
+    "uk": "ліфт",
+    "ru": "лифт",
+    "pl": "winda",
+    "de": "Aufzug",
+    "fr": "ascenseur",
+    "es": "ascensor",
+    "it": "ascensore",
+    "pt": "elevador",
+    "tr": "asansör"
+   },
+   "ex": {
+    "en": "The lift is out of order."
+   }
+  },
+  {
+   "id": "home.ground-floor",
+   "t": {
+    "en": "ground floor",
+    "uk": "перший поверх",
+    "ru": "первый этаж",
+    "pl": "parter",
+    "de": "Erdgeschoss",
+    "fr": "rez-de-chaussée",
+    "es": "planta baja",
+    "it": "piano terra",
+    "pt": "térreo",
+    "tr": "zemin kat"
+   },
+   "ex": {
+    "en": "The shop is on the ground floor."
+   }
+  },
+  {
+   "id": "home.housing-estate",
+   "t": {
+    "en": "housing estate",
+    "uk": "житловий комплекс",
+    "ru": "жилой комплекс",
+    "pl": "osiedle",
+    "de": "Wohnsiedlung",
+    "fr": "lotissement",
+    "es": "urbanización",
+    "it": "complesso residenziale",
+    "pt": "conjunto habitacional",
+    "tr": "site"
+   },
+   "ex": {
+    "en": "They live on a new housing estate."
+   }
+  },
+  {
+   "id": "home.flatmate",
+   "t": {
+    "en": "flatmate",
+    "uk": "сусід по квартирі",
+    "ru": "сосед по квартире",
+    "pl": "współlokator",
+    "de": "Mitbewohner",
+    "fr": "colocataire",
+    "es": "compañero de piso",
+    "it": "coinquilino",
+    "pt": "colega de apartamento",
+    "tr": "ev arkadaşı"
+   },
+   "ex": {
+    "en": "My flatmate cooks dinner on Fridays."
+   }
+  },
+  {
+   "id": "home.to-share-a-flat",
+   "t": {
+    "en": "to share a flat",
+    "uk": "знімати квартиру разом",
+    "ru": "снимать квартиру вместе",
+    "pl": "dzielić mieszkanie",
+    "de": "sich eine Wohnung teilen",
+    "fr": "être en colocation",
+    "es": "compartir piso",
+    "it": "condividere l'appartamento",
+    "pt": "dividir apartamento",
+    "tr": "evi paylaşmak"
+   },
+   "ex": {
+    "en": "I share a flat with two students."
+   }
+  },
+  {
+   "id": "home.to-water-the-plants",
+   "t": {
+    "en": "to water the plants",
+    "uk": "поливати рослини",
+    "ru": "поливать растения",
+    "pl": "podlewać rośliny",
+    "de": "Pflanzen gießen",
+    "fr": "arroser les plantes",
+    "es": "regar las plantas",
+    "it": "innaffiare le piante",
+    "pt": "regar as plantas",
+    "tr": "bitkileri sulamak"
+   },
+   "ex": {
+    "en": "Please water the plants while I am away."
+   }
+  },
+  {
+   "id": "home.to-iron",
+   "t": {
+    "en": "to iron",
+    "uk": "прасувати",
+    "ru": "гладить",
+    "pl": "prasować",
+    "de": "bügeln",
+    "fr": "repasser",
+    "es": "planchar",
+    "it": "stirare",
+    "pt": "passar roupa",
+    "tr": "ütü yapmak"
+   },
+   "ex": {
+    "en": "I hate ironing shirts."
+   }
+  },
+  {
+   "id": "home.to-make-the-bed",
+   "t": {
+    "en": "to make the bed",
+    "uk": "застеляти ліжко",
+    "ru": "заправлять кровать",
+    "pl": "ścielić łóżko",
+    "de": "Bett machen",
+    "fr": "faire le lit",
+    "es": "hacer la cama",
+    "it": "fare il letto",
+    "pt": "arrumar a cama",
+    "tr": "yatağı toplamak"
+   },
+   "ex": {
+    "en": "Make your bed before breakfast."
+   }
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "id": "finance-b1",
+ "topic": "finance",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "finance.savings-account",
+   "t": {
+    "en": "savings account",
+    "uk": "ощадний рахунок",
+    "ru": "сберегательный счёт",
+    "pl": "konto oszczędnościowe",
+    "de": "Sparkonto",
+    "fr": "compte d'épargne",
+    "es": "cuenta de ahorros",
+    "it": "conto di risparmio",
+    "pt": "conta poupança",
+    "tr": "tasarruf hesabı"
+   },
+   "ex": {
+    "en": "I keep my savings in a savings account."
+   }
+  },
+  {
+   "id": "finance.mortgage",
+   "t": {
+    "en": "mortgage",
+    "uk": "іпотека",
+    "ru": "ипотека",
+    "pl": "kredyt hipoteczny",
+    "de": "Hypothek",
+    "fr": "prêt immobilier",
+    "es": "hipoteca",
+    "it": "mutuo",
+    "pt": "financiamento imobiliário",
+    "tr": "konut kredisi"
+   },
+   "ex": {
+    "en": "We pay our mortgage every month."
+   }
+  },
+  {
+   "id": "finance.investment",
+   "t": {
+    "en": "investment",
+    "uk": "інвестиція",
+    "ru": "инвестиция",
+    "pl": "inwestycja",
+    "de": "Investition",
+    "fr": "investissement",
+    "es": "inversión",
+    "it": "investimento",
+    "pt": "investimento",
+    "tr": "yatırım"
+   },
+   "ex": {
+    "en": "It was a good investment."
+   }
+  },
+  {
+   "id": "finance.interest-rate",
+   "t": {
+    "en": "interest rate",
+    "uk": "відсоткова ставка",
+    "ru": "процентная ставка",
+    "pl": "stopa procentowa",
+    "de": "Zinssatz",
+    "fr": "taux d'intérêt",
+    "es": "tipo de interés",
+    "it": "tasso di interesse",
+    "pt": "taxa de juros",
+    "tr": "faiz oranı"
+   },
+   "ex": {
+    "en": "The interest rate is five percent."
+   }
+  },
+  {
+   "id": "finance.credit-limit",
+   "t": {
+    "en": "credit limit",
+    "uk": "кредитний ліміт",
+    "ru": "кредитный лимит",
+    "pl": "limit kredytowy",
+    "de": "Kreditlimit",
+    "fr": "plafond de crédit",
+    "es": "límite de crédito",
+    "it": "limite di credito",
+    "pt": "limite do cartão",
+    "tr": "kredi limiti"
+   },
+   "ex": {
+    "en": "I reached my credit limit."
+   }
+  },
+  {
+   "id": "finance.overdraft",
+   "t": {
+    "en": "overdraft",
+    "uk": "овердрафт",
+    "ru": "овердрафт",
+    "pl": "debet na koncie",
+    "de": "Dispo",
+    "fr": "découvert",
+    "es": "descubierto",
+    "it": "scoperto",
+    "pt": "cheque especial",
+    "tr": "kredili mevduat"
+   },
+   "ex": {
+    "en": "I went into my overdraft again."
+   }
+  },
+  {
+   "id": "finance.to-pay-in-installments",
+   "t": {
+    "en": "to pay in installments",
+    "uk": "платити частинами",
+    "ru": "платить в рассрочку",
+    "pl": "płacić w ratach",
+    "de": "in Raten zahlen",
+    "fr": "payer en plusieurs fois",
+    "es": "pagar a plazos",
+    "it": "pagare a rate",
+    "pt": "parcelar",
+    "tr": "taksitle ödemek"
+   },
+   "ex": {
+    "en": "You can pay in installments."
+   }
+  },
+  {
+   "id": "finance.fee",
+   "t": {
+    "en": "fee",
+    "uk": "комісія",
+    "ru": "комиссия",
+    "pl": "opłata",
+    "de": "Gebühr",
+    "fr": "frais",
+    "es": "comisión",
+    "it": "commissione",
+    "pt": "tarifa",
+    "tr": "ücret"
+   },
+   "ex": {
+    "en": "The bank charges a monthly fee."
+   }
+  },
+  {
+   "id": "finance.to-afford",
+   "t": {
+    "en": "to afford",
+    "uk": "могти собі дозволити",
+    "ru": "позволить себе",
+    "pl": "móc sobie pozwolić",
+    "de": "sich leisten können",
+    "fr": "avoir les moyens",
+    "es": "permitirse",
+    "it": "permettersi",
+    "pt": "poder pagar",
+    "tr": "gücü yetmek"
+   },
+   "ex": {
+    "en": "We can't afford a new car."
+   }
+  },
+  {
+   "id": "finance.to-run-out-of-money",
+   "t": {
+    "en": "to run out of money",
+    "uk": "залишитися без грошей",
+    "ru": "остаться без денег",
+    "pl": "zostać bez pieniędzy",
+    "de": "kein Geld mehr haben",
+    "fr": "ne plus avoir d'argent",
+    "es": "quedarse sin dinero",
+    "it": "rimanere senza soldi",
+    "pt": "ficar sem dinheiro",
+    "tr": "parası bitmek"
+   },
+   "ex": {
+    "en": "We ran out of money on the trip."
+   }
+  },
+  {
+   "id": "finance.cashback",
+   "t": {
+    "en": "cashback",
+    "uk": "кешбек",
+    "ru": "кешбэк",
+    "pl": "cashback",
+    "de": "Cashback",
+    "fr": "cashback",
+    "es": "reembolso en efectivo",
+    "it": "cashback",
+    "pt": "cashback",
+    "tr": "nakit iade"
+   },
+   "ex": {
+    "en": "This card gives two percent cashback."
+   }
+  },
+  {
+   "id": "finance.to-pay-off-a-debt",
+   "t": {
+    "en": "to pay off a debt",
+    "uk": "погасити борг",
+    "ru": "погасить долг",
+    "pl": "spłacić dług",
+    "de": "Schulden abbezahlen",
+    "fr": "rembourser une dette",
+    "es": "saldar una deuda",
+    "it": "estinguere un debito",
+    "pt": "quitar uma dívida",
+    "tr": "borcu kapatmak"
+   },
+   "ex": {
+    "en": "I finally paid off my debt."
+   }
+  },
+  {
+   "id": "finance.contactless-payment",
+   "t": {
+    "en": "contactless payment",
+    "uk": "безконтактна оплата",
+    "ru": "бесконтактная оплата",
+    "pl": "płatność zbliżeniowa",
+    "de": "kontaktloses Bezahlen",
+    "fr": "paiement sans contact",
+    "es": "pago sin contacto",
+    "it": "pagamento contactless",
+    "pt": "pagamento por aproximação",
+    "tr": "temassız ödeme"
+   },
+   "ex": {
+    "en": "Contactless payment is quick and easy."
+   }
+  },
+  {
+   "id": "finance.to-block-a-card",
+   "t": {
+    "en": "to block a card",
+    "uk": "заблокувати картку",
+    "ru": "заблокировать карту",
+    "pl": "zablokować kartę",
+    "de": "Karte sperren",
+    "fr": "bloquer une carte",
+    "es": "bloquear una tarjeta",
+    "it": "bloccare una carta",
+    "pt": "bloquear um cartão",
+    "tr": "kartı bloke etmek"
+   },
+   "ex": {
+    "en": "I lost my card, please block it."
+   }
+  },
+  {
+   "id": "finance.scam",
+   "t": {
+    "en": "scam",
+    "uk": "шахрайство",
+    "ru": "мошенничество",
+    "pl": "oszustwo",
+    "de": "Betrug",
+    "fr": "arnaque",
+    "es": "estafa",
+    "it": "truffa",
+    "pt": "golpe",
+    "tr": "dolandırıcılık"
+   },
+   "ex": {
+    "en": "That email is a scam."
+   }
+  },
+  {
+   "id": "finance.pay-rise",
+   "t": {
+    "en": "pay rise",
+    "uk": "підвищення зарплати",
+    "ru": "повышение зарплаты",
+    "pl": "podwyżka",
+    "de": "Gehaltserhöhung",
+    "fr": "augmentation",
+    "es": "aumento de sueldo",
+    "it": "aumento di stipendio",
+    "pt": "aumento de salário",
+    "tr": "zam"
+   },
+   "ex": {
+    "en": "I asked my boss for a pay rise."
+   }
+  },
+  {
+   "id": "finance.gross-salary",
+   "t": {
+    "en": "gross salary",
+    "uk": "зарплата до вирахувань",
+    "ru": "зарплата до вычетов",
+    "pl": "pensja brutto",
+    "de": "Bruttogehalt",
+    "fr": "salaire brut",
+    "es": "salario bruto",
+    "it": "stipendio lordo",
+    "pt": "salário bruto",
+    "tr": "brüt maaş"
+   },
+   "ex": {
+    "en": "The gross salary is 3,000 euros."
+   }
+  },
+  {
+   "id": "finance.net-salary",
+   "t": {
+    "en": "net salary",
+    "uk": "зарплата на руки",
+    "ru": "зарплата на руки",
+    "pl": "pensja netto",
+    "de": "Nettogehalt",
+    "fr": "salaire net",
+    "es": "salario neto",
+    "it": "stipendio netto",
+    "pt": "salário líquido",
+    "tr": "net maaş"
+   },
+   "ex": {
+    "en": "My net salary is much lower."
+   }
+  },
+  {
+   "id": "finance.due-date",
+   "t": {
+    "en": "due date",
+    "uk": "термін оплати",
+    "ru": "срок оплаты",
+    "pl": "termin płatności",
+    "de": "Fälligkeitsdatum",
+    "fr": "date d'échéance",
+    "es": "fecha de vencimiento",
+    "it": "data di scadenza",
+    "pt": "data de vencimento",
+    "tr": "son ödeme tarihi"
+   },
+   "ex": {
+    "en": "The due date is the fifteenth."
+   }
+  },
+  {
+   "id": "finance.late-fee",
+   "t": {
+    "en": "late fee",
+    "uk": "пеня за прострочення",
+    "ru": "штраф за просрочку",
+    "pl": "opłata za opóźnienie",
+    "de": "Mahngebühr",
+    "fr": "pénalité de retard",
+    "es": "recargo por mora",
+    "it": "penale per ritardo",
+    "pt": "multa por atraso",
+    "tr": "gecikme cezası"
+   },
+   "ex": {
+    "en": "They charged me a late fee."
+   }
+  },
+  {
+   "id": "finance.to-apply-for-a-loan",
+   "t": {
+    "en": "to apply for a loan",
+    "uk": "подати заявку на кредит",
+    "ru": "подать заявку на кредит",
+    "pl": "złożyć wniosek o kredyt",
+    "de": "Kredit beantragen",
+    "fr": "demander un prêt",
+    "es": "solicitar un préstamo",
+    "it": "richiedere un prestito",
+    "pt": "solicitar um empréstimo",
+    "tr": "kredi başvurusu yapmak"
+   },
+   "ex": {
+    "en": "We applied for a loan last week."
+   }
+  },
+  {
+   "id": "finance.to-repay",
+   "t": {
+    "en": "to repay",
+    "uk": "повертати (борг)",
+    "ru": "возвращать (долг)",
+    "pl": "spłacać",
+    "de": "zurückzahlen",
+    "fr": "rembourser",
+    "es": "devolver (dinero)",
+    "it": "restituire",
+    "pt": "devolver (dinheiro)",
+    "tr": "geri ödemek"
+   },
+   "ex": {
+    "en": "I will repay you next week."
+   }
+  },
+  {
+   "id": "finance.statement",
+   "t": {
+    "en": "bank statement",
+    "uk": "виписка з рахунку",
+    "ru": "выписка по счёту",
+    "pl": "wyciąg z konta",
+    "de": "Kontoauszug",
+    "fr": "relevé de compte",
+    "es": "extracto bancario",
+    "it": "estratto conto",
+    "pt": "extrato bancário",
+    "tr": "hesap ekstresi"
+   },
+   "ex": {
+    "en": "I checked my bank statement online."
+   }
+  },
+  {
+   "id": "finance.direct-debit",
+   "t": {
+    "en": "direct debit",
+    "uk": "автоматичне списання",
+    "ru": "автоплатёж",
+    "pl": "polecenie zapłaty",
+    "de": "Lastschrift",
+    "fr": "prélèvement automatique",
+    "es": "domiciliación bancaria",
+    "it": "addebito diretto",
+    "pt": "débito automático",
+    "tr": "otomatik ödeme"
+   },
+   "ex": {
+    "en": "I pay my phone bill by direct debit."
+   }
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "id": "culture-b2",
+ "topic": "culture",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "culture.masterpiece",
+   "t": {
+    "en": "masterpiece",
+    "uk": "шедевр",
+    "ru": "шедевр",
+    "pl": "arcydzieło",
+    "de": "Meisterwerk",
+    "fr": "chef-d'œuvre",
+    "es": "obra maestra",
+    "it": "capolavoro",
+    "pt": "obra-prima",
+    "tr": "başyapıt"
+   },
+   "ex": {
+    "en": "Critics called the film a masterpiece."
+   }
+  },
+  {
+   "id": "culture.critically-acclaimed",
+   "t": {
+    "en": "critically acclaimed",
+    "uk": "визнаний критиками",
+    "ru": "признанный критиками",
+    "pl": "doceniony przez krytyków",
+    "de": "von der Kritik gefeiert",
+    "fr": "salué par la critique",
+    "es": "aclamado por la crítica",
+    "it": "acclamato dalla critica",
+    "pt": "aclamado pela crítica",
+    "tr": "eleştirmenlerce beğenilen"
+   },
+   "ex": {
+    "en": "Her critically acclaimed novel won three prizes."
+   }
+  },
+  {
+   "id": "culture.cliche",
+   "t": {
+    "en": "cliché",
+    "uk": "кліше",
+    "ru": "клише",
+    "pl": "banał",
+    "de": "Klischee",
+    "fr": "cliché",
+    "es": "cliché",
+    "it": "cliché",
+    "pt": "clichê",
+    "tr": "klişe"
+   },
+   "ex": {
+    "en": "The script is full of clichés."
+   }
+  },
+  {
+   "id": "culture.cult-classic",
+   "t": {
+    "en": "cult classic",
+    "uk": "культова класика",
+    "ru": "культовая классика",
+    "pl": "kultowy klasyk",
+    "de": "Kultklassiker",
+    "fr": "classique culte",
+    "es": "clásico de culto",
+    "it": "classico di culto",
+    "pt": "clássico cult",
+    "tr": "kült klasik"
+   },
+   "ex": {
+    "en": "The film flopped but became a cult classic."
+   }
+  },
+  {
+   "id": "culture.film-adaptation",
+   "t": {
+    "en": "film adaptation",
+    "uk": "екранізація",
+    "ru": "экранизация",
+    "pl": "ekranizacja",
+    "de": "Verfilmung",
+    "fr": "adaptation cinématographique",
+    "es": "adaptación cinematográfica",
+    "it": "adattamento cinematografico",
+    "pt": "adaptação para o cinema",
+    "tr": "sinema uyarlaması"
+   },
+   "ex": {
+    "en": "The film adaptation is loyal to the book."
+   }
+  },
+  {
+   "id": "culture.screenplay",
+   "t": {
+    "en": "screenplay",
+    "uk": "сценарій",
+    "ru": "сценарий",
+    "pl": "scenariusz",
+    "de": "Drehbuch",
+    "fr": "scénario",
+    "es": "guion",
+    "it": "sceneggiatura",
+    "pt": "roteiro",
+    "tr": "senaryo"
+   },
+   "ex": {
+    "en": "She wrote the screenplay in six weeks."
+   }
+  },
+  {
+   "id": "culture.cinematography",
+   "t": {
+    "en": "cinematography",
+    "uk": "операторська робота",
+    "ru": "операторская работа",
+    "pl": "zdjęcia",
+    "de": "Kameraführung",
+    "fr": "photographie",
+    "es": "fotografía",
+    "it": "fotografia",
+    "pt": "fotografia",
+    "tr": "görüntü yönetimi"
+   },
+   "ex": {
+    "en": "The cinematography is stunning."
+   }
+  },
+  {
+   "id": "culture.directors-cut",
+   "t": {
+    "en": "director's cut",
+    "uk": "режисерська версія",
+    "ru": "режиссёрская версия",
+    "pl": "wersja reżyserska",
+    "de": "Director's Cut",
+    "fr": "version du réalisateur",
+    "es": "montaje del director",
+    "it": "versione del regista",
+    "pt": "versão do diretor",
+    "tr": "yönetmen kurgusu"
+   },
+   "ex": {
+    "en": "The director's cut is forty minutes longer."
+   }
+  },
+  {
+   "id": "culture.premiere",
+   "t": {
+    "en": "premiere",
+    "uk": "прем'єра",
+    "ru": "премьера",
+    "pl": "premiera",
+    "de": "Premiere",
+    "fr": "première",
+    "es": "estreno",
+    "it": "prima",
+    "pt": "estreia",
+    "tr": "prömiyer"
+   },
+   "ex": {
+    "en": "The premiere is in Cannes next month."
+   }
+  },
+  {
+   "id": "culture.encore",
+   "t": {
+    "en": "encore",
+    "uk": "виступ на біс",
+    "ru": "выступление на бис",
+    "pl": "bis",
+    "de": "Zugabe",
+    "fr": "rappel",
+    "es": "bis",
+    "it": "bis",
+    "pt": "bis",
+    "tr": "bis"
+   },
+   "ex": {
+    "en": "The band played two songs as an encore."
+   }
+  },
+  {
+   "id": "culture.backstage",
+   "t": {
+    "en": "backstage",
+    "uk": "за лаштунками",
+    "ru": "за кулисами",
+    "pl": "za kulisami",
+    "de": "hinter der Bühne",
+    "fr": "dans les coulisses",
+    "es": "entre bastidores",
+    "it": "dietro le quinte",
+    "pt": "nos bastidores",
+    "tr": "kuliste"
+   },
+   "ex": {
+    "en": "We met the singer backstage."
+   }
+  },
+  {
+   "id": "culture.sold-out",
+   "t": {
+    "en": "sold out",
+    "uk": "усі квитки продано",
+    "ru": "все билеты проданы",
+    "pl": "wyprzedane",
+    "de": "ausverkauft",
+    "fr": "complet",
+    "es": "agotado",
+    "it": "tutto esaurito",
+    "pt": "esgotado",
+    "tr": "biletler tükendi"
+   },
+   "ex": {
+    "en": "The show was sold out in an hour."
+   }
+  },
+  {
+   "id": "culture.venue",
+   "t": {
+    "en": "venue",
+    "uk": "місце проведення",
+    "ru": "место проведения",
+    "pl": "miejsce imprezy",
+    "de": "Veranstaltungsort",
+    "fr": "lieu",
+    "es": "recinto",
+    "it": "locale",
+    "pt": "local do evento",
+    "tr": "mekân"
+   },
+   "ex": {
+    "en": "The venue holds about two thousand people."
+   }
+  },
+  {
+   "id": "culture.line-up",
+   "t": {
+    "en": "line-up",
+    "uk": "склад виконавців",
+    "ru": "состав исполнителей",
+    "pl": "skład wykonawców",
+    "de": "Line-up",
+    "fr": "programmation",
+    "es": "cartel",
+    "it": "line-up",
+    "pt": "line-up",
+    "tr": "sanatçı kadrosu"
+   },
+   "ex": {
+    "en": "This year's festival line-up is incredible."
+   }
+  },
+  {
+   "id": "culture.cover-version",
+   "t": {
+    "en": "cover version",
+    "uk": "кавер",
+    "ru": "кавер",
+    "pl": "cover",
+    "de": "Coverversion",
+    "fr": "reprise",
+    "es": "versión",
+    "it": "cover",
+    "pt": "cover",
+    "tr": "cover"
+   },
+   "ex": {
+    "en": "Their cover version is better than the original."
+   }
+  },
+  {
+   "id": "culture.remix",
+   "t": {
+    "en": "remix",
+    "uk": "ремікс",
+    "ru": "ремикс",
+    "pl": "remiks",
+    "de": "Remix",
+    "fr": "remix",
+    "es": "remix",
+    "it": "remix",
+    "pt": "remix",
+    "tr": "remiks"
+   },
+   "ex": {
+    "en": "The DJ played a remix of the song."
+   }
+  },
+  {
+   "id": "culture.indie",
+   "t": {
+    "en": "indie",
+    "uk": "інді",
+    "ru": "инди",
+    "pl": "niezależny",
+    "de": "Indie-",
+    "fr": "indépendant",
+    "es": "independiente",
+    "it": "indie",
+    "pt": "indie",
+    "tr": "bağımsız"
+   },
+   "ex": {
+    "en": "She mostly listens to indie bands."
+   }
+  },
+  {
+   "id": "culture.mainstream",
+   "t": {
+    "en": "mainstream",
+    "uk": "мейнстрім",
+    "ru": "мейнстрим",
+    "pl": "mainstream",
+    "de": "Mainstream",
+    "fr": "grand public",
+    "es": "comercial",
+    "it": "mainstream",
+    "pt": "mainstream",
+    "tr": "ana akım"
+   },
+   "ex": {
+    "en": "The band went mainstream after that album."
+   }
+  },
+  {
+   "id": "culture.memoir",
+   "t": {
+    "en": "memoir",
+    "uk": "мемуари",
+    "ru": "мемуары",
+    "pl": "wspomnienia",
+    "de": "Memoiren",
+    "fr": "mémoires",
+    "es": "memorias",
+    "it": "memorie",
+    "pt": "memórias",
+    "tr": "anı kitabı"
+   },
+   "ex": {
+    "en": "The actor is publishing his memoir."
+   }
+  },
+  {
+   "id": "culture.narrator",
+   "t": {
+    "en": "narrator",
+    "uk": "оповідач",
+    "ru": "рассказчик",
+    "pl": "narrator",
+    "de": "Erzähler",
+    "fr": "narrateur",
+    "es": "narrador",
+    "it": "narratore",
+    "pt": "narrador",
+    "tr": "anlatıcı"
+   },
+   "ex": {
+    "en": "The narrator is a ten-year-old boy."
+   }
+  },
+  {
+   "id": "culture.publisher",
+   "t": {
+    "en": "publisher",
+    "uk": "видавництво",
+    "ru": "издательство",
+    "pl": "wydawnictwo",
+    "de": "Verlag",
+    "fr": "maison d'édition",
+    "es": "editorial",
+    "it": "casa editrice",
+    "pt": "editora",
+    "tr": "yayınevi"
+   },
+   "ex": {
+    "en": "A big publisher bought the rights."
+   }
+  },
+  {
+   "id": "culture.protagonist",
+   "t": {
+    "en": "protagonist",
+    "uk": "головний герой",
+    "ru": "главный герой",
+    "pl": "główny bohater",
+    "de": "Hauptfigur",
+    "fr": "protagoniste",
+    "es": "protagonista",
+    "it": "protagonista",
+    "pt": "protagonista",
+    "tr": "başkahraman"
+   },
+   "ex": {
+    "en": "The protagonist is a retired detective."
+   }
+  },
+  {
+   "id": "culture.curator",
+   "t": {
+    "en": "curator",
+    "uk": "куратор",
+    "ru": "куратор",
+    "pl": "kurator",
+    "de": "Kurator",
+    "fr": "commissaire d'exposition",
+    "es": "comisario",
+    "it": "curatore",
+    "pt": "curador",
+    "tr": "küratör"
+   },
+   "ex": {
+    "en": "The curator chose forty works for the show."
+   }
+  },
+  {
+   "id": "culture.installation",
+   "t": {
+    "en": "installation",
+    "uk": "інсталяція",
+    "ru": "инсталляция",
+    "pl": "instalacja",
+    "de": "Installation",
+    "fr": "installation",
+    "es": "instalación",
+    "it": "installazione",
+    "pt": "instalação",
+    "tr": "enstalasyon"
+   },
+   "ex": {
+    "en": "The installation fills the whole room."
+   }
+  },
+  {
+   "id": "culture.breaking-news",
+   "t": {
+    "en": "breaking news",
+    "uk": "термінові новини",
+    "ru": "срочные новости",
+    "pl": "wiadomości z ostatniej chwili",
+    "de": "Eilmeldung",
+    "fr": "dernière minute",
+    "es": "última hora",
+    "it": "ultime notizie",
+    "pt": "últimas notícias",
+    "tr": "son dakika"
+   },
+   "ex": {
+    "en": "Breaking news interrupted the programme."
+   }
+  },
+  {
+   "id": "culture.editorial",
+   "t": {
+    "en": "editorial",
+    "uk": "редакційна стаття",
+    "ru": "редакционная статья",
+    "pl": "artykuł redakcyjny",
+    "de": "Leitartikel",
+    "fr": "éditorial",
+    "es": "editorial",
+    "it": "editoriale",
+    "pt": "editorial",
+    "tr": "başyazı"
+   },
+   "ex": {
+    "en": "The editorial criticised the government."
+   }
+  },
+  {
+   "id": "culture.tabloid",
+   "t": {
+    "en": "tabloid",
+    "uk": "таблоїд",
+    "ru": "таблоид",
+    "pl": "tabloid",
+    "de": "Boulevardzeitung",
+    "fr": "tabloïd",
+    "es": "tabloide",
+    "it": "tabloid",
+    "pt": "tabloide",
+    "tr": "magazin gazetesi"
+   },
+   "ex": {
+    "en": "The tabloids love celebrity gossip."
+   }
+  },
+  {
+   "id": "culture.press-conference",
+   "t": {
+    "en": "press conference",
+    "uk": "прес-конференція",
+    "ru": "пресс-конференция",
+    "pl": "konferencja prasowa",
+    "de": "Pressekonferenz",
+    "fr": "conférence de presse",
+    "es": "rueda de prensa",
+    "it": "conferenza stampa",
+    "pt": "coletiva de imprensa",
+    "tr": "basın toplantısı"
+   },
+   "ex": {
+    "en": "The director held a press conference."
+   }
+  },
+  {
+   "id": "culture.to-go-viral",
+   "t": {
+    "en": "to go viral",
+    "uk": "стати вірусним",
+    "ru": "завируситься",
+    "pl": "stać się viralem",
+    "de": "viral gehen",
+    "fr": "devenir viral",
+    "es": "hacerse viral",
+    "it": "diventare virale",
+    "pt": "viralizar",
+    "tr": "viral olmak"
+   },
+   "ex": {
+    "en": "The video went viral overnight."
+   }
+  },
+  {
+   "id": "culture.to-get-hooked-on-a-series",
+   "t": {
+    "en": "to get hooked on a series",
+    "uk": "підсісти на серіал",
+    "ru": "подсесть на сериал",
+    "pl": "wciągnąć się w serial",
+    "de": "von einer Serie nicht loskommen",
+    "fr": "devenir accro à une série",
+    "es": "engancharse a una serie",
+    "it": "appassionarsi a una serie",
+    "pt": "ficar viciado em uma série",
+    "tr": "bir diziye takılıp kalmak"
+   },
+   "ex": {
+    "en": "I got hooked on the series after one episode."
+   }
+  }
+ ]
+}

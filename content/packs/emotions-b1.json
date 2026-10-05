@@ -1,0 +1,530 @@
+{
+ "id": "emotions-b1",
+ "topic": "emotions",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emotions.anxious",
+   "t": {
+    "en": "anxious",
+    "uk": "тривожний",
+    "ru": "тревожный",
+    "pl": "niespokojny",
+    "de": "ängstlich",
+    "fr": "anxieux",
+    "es": "ansioso",
+    "it": "ansioso",
+    "pt": "ansioso",
+    "tr": "kaygılı"
+   },
+   "ex": {
+    "en": "I feel anxious before interviews."
+   }
+  },
+  {
+   "id": "emotions.frustrated",
+   "t": {
+    "en": "frustrated",
+    "uk": "фрустрований",
+    "ru": "раздосадованный",
+    "pl": "sfrustrowany",
+    "de": "frustriert",
+    "fr": "frustré",
+    "es": "frustrado",
+    "it": "frustrado",
+    "pt": "frustrado",
+    "tr": "hüsrana uğramış"
+   },
+   "ex": {
+    "en": "I'm frustrated with this slow computer."
+   }
+  },
+  {
+   "id": "emotions.grateful",
+   "t": {
+    "en": "grateful",
+    "uk": "вдячний",
+    "ru": "благодарный",
+    "pl": "wdzięczny",
+    "de": "dankbar",
+    "fr": "reconnaissant",
+    "es": "agradecido",
+    "it": "grato",
+    "pt": "grato",
+    "tr": "minnettar"
+   },
+   "ex": {
+    "en": "I am grateful for your help."
+   }
+  },
+  {
+   "id": "emotions.guilty",
+   "t": {
+    "en": "guilty",
+    "uk": "винний",
+    "ru": "виноватый",
+    "pl": "winny",
+    "de": "schuldig",
+    "fr": "coupable",
+    "es": "culpable",
+    "it": "colpevole",
+    "pt": "culpado",
+    "tr": "suçlu"
+   },
+   "ex": {
+    "en": "I feel guilty about forgetting her birthday."
+   }
+  },
+  {
+   "id": "emotions.to-be-ashamed",
+   "t": {
+    "en": "to be ashamed",
+    "uk": "соромитися",
+    "ru": "стыдиться",
+    "pl": "wstydzić się",
+    "de": "sich schämen",
+    "fr": "avoir honte",
+    "es": "sentir vergüenza",
+    "it": "vergognarsi",
+    "pt": "ter vergonha",
+    "tr": "utanmak"
+   },
+   "ex": {
+    "en": "He is ashamed of what he said."
+   }
+  },
+  {
+   "id": "emotions.curious",
+   "t": {
+    "en": "curious",
+    "uk": "допитливий",
+    "ru": "любопытный",
+    "pl": "ciekawy",
+    "de": "neugierig",
+    "fr": "curieux",
+    "es": "curioso",
+    "it": "curioso",
+    "pt": "curioso",
+    "tr": "meraklı"
+   },
+   "ex": {
+    "en": "I'm curious about your new job."
+   }
+  },
+  {
+   "id": "emotions.hopeful",
+   "t": {
+    "en": "hopeful",
+    "uk": "сповнений надії",
+    "ru": "полный надежды",
+    "pl": "pełen nadziei",
+    "de": "hoffnungsvoll",
+    "fr": "plein d'espoir",
+    "es": "esperanzado",
+    "it": "fiducioso",
+    "pt": "esperançoso",
+    "tr": "umutlu"
+   },
+   "ex": {
+    "en": "We are hopeful about the future."
+   }
+  },
+  {
+   "id": "emotions.satisfied",
+   "t": {
+    "en": "satisfied",
+    "uk": "задоволений",
+    "ru": "довольный",
+    "pl": "zadowolony",
+    "de": "zufrieden",
+    "fr": "satisfait",
+    "es": "satisfecho",
+    "it": "soddisfatto",
+    "pt": "satisfeito",
+    "tr": "tatmin olmuş"
+   },
+   "ex": {
+    "en": "Are you satisfied with the service?"
+   }
+  },
+  {
+   "id": "emotions.annoyed",
+   "t": {
+    "en": "annoyed",
+    "uk": "роздратований",
+    "ru": "раздражённый",
+    "pl": "zirytowany",
+    "de": "genervt",
+    "fr": "agacé",
+    "es": "molesto",
+    "it": "infastidito",
+    "pt": "irritado",
+    "tr": "sinirli"
+   },
+   "ex": {
+    "en": "She was annoyed by the delay."
+   }
+  },
+  {
+   "id": "emotions.overwhelmed",
+   "t": {
+    "en": "overwhelmed",
+    "uk": "приголомшений",
+    "ru": "ошеломлённый",
+    "pl": "przytłoczony",
+    "de": "überfordert",
+    "fr": "dépassé",
+    "es": "abrumado",
+    "it": "sopraffatto",
+    "pt": "sobrecarregado",
+    "tr": "bunalmış"
+   },
+   "ex": {
+    "en": "I feel overwhelmed by all this work."
+   }
+  },
+  {
+   "id": "emotions.to-be-homesick",
+   "t": {
+    "en": "to be homesick",
+    "uk": "сумувати за домом",
+    "ru": "тосковать по дому",
+    "pl": "tęsknić za domem",
+    "de": "Heimweh haben",
+    "fr": "avoir le mal du pays",
+    "es": "sentir nostalgia de casa",
+    "it": "avere nostalgia di casa",
+    "pt": "sentir saudade de casa",
+    "tr": "evini özlemek"
+   },
+   "ex": {
+    "en": "She was homesick during her first semester."
+   }
+  },
+  {
+   "id": "emotions.touched",
+   "t": {
+    "en": "touched",
+    "uk": "зворушений",
+    "ru": "тронутый",
+    "pl": "wzruszony",
+    "de": "gerührt",
+    "fr": "touché",
+    "es": "conmovido",
+    "it": "commosso",
+    "pt": "comovido",
+    "tr": "duygulanmış"
+   },
+   "ex": {
+    "en": "I was touched by their kindness."
+   }
+  },
+  {
+   "id": "emotions.relieved",
+   "t": {
+    "en": "relieved",
+    "uk": "з полегшенням",
+    "ru": "с облегчением",
+    "pl": "z ulgą",
+    "de": "erleichtert",
+    "fr": "soulagé",
+    "es": "aliviado",
+    "it": "sollevato",
+    "pt": "aliviado",
+    "tr": "rahatlamış"
+   },
+   "ex": {
+    "en": "I was relieved to hear the news."
+   }
+  },
+  {
+   "id": "emotions.to-calm-down",
+   "t": {
+    "en": "to calm down",
+    "uk": "заспокоїтися",
+    "ru": "успокоиться",
+    "pl": "uspokoić się",
+    "de": "sich beruhigen",
+    "fr": "se calmer",
+    "es": "calmarse",
+    "it": "calmarsi",
+    "pt": "se acalmar",
+    "tr": "sakinleşmek"
+   },
+   "ex": {
+    "en": "Take a breath and calm down."
+   }
+  },
+  {
+   "id": "emotions.to-cheer-up",
+   "t": {
+    "en": "to cheer up",
+    "uk": "підбадьоритися",
+    "ru": "приободриться",
+    "pl": "rozchmurzyć się",
+    "de": "sich aufheitern",
+    "fr": "se remonter le moral",
+    "es": "animarse",
+    "it": "tirarsi su",
+    "pt": "animar-se",
+    "tr": "neşelenmek"
+   },
+   "ex": {
+    "en": "Cheer up, things will get better."
+   }
+  },
+  {
+   "id": "emotions.to-get-on-someones-nerves",
+   "t": {
+    "en": "to get on someone's nerves",
+    "uk": "діяти на нерви",
+    "ru": "действовать на нервы",
+    "pl": "działać na nerwy",
+    "de": "auf die Nerven gehen",
+    "fr": "taper sur les nerfs",
+    "es": "sacar de quicio",
+    "it": "dare sui nervi",
+    "pt": "dar nos nervos",
+    "tr": "sinir etmek"
+   },
+   "ex": {
+    "en": "That noise is getting on my nerves."
+   }
+  },
+  {
+   "id": "emotions.to-lose-ones-temper",
+   "t": {
+    "en": "to lose one's temper",
+    "uk": "втратити самовладання",
+    "ru": "выйти из себя",
+    "pl": "stracić panowanie nad sobą",
+    "de": "die Beherrschung verlieren",
+    "fr": "s'emporter",
+    "es": "perder los estribos",
+    "it": "perdere le staffe",
+    "pt": "perder a cabeça",
+    "tr": "çileden çıkmak"
+   },
+   "ex": {
+    "en": "He lost his temper in the meeting."
+   }
+  },
+  {
+   "id": "emotions.to-look-forward-to",
+   "t": {
+    "en": "to look forward to",
+    "uk": "з нетерпінням чекати",
+    "ru": "с нетерпением ждать",
+    "pl": "nie móc się doczekać",
+    "de": "sich freuen auf",
+    "fr": "avoir hâte de",
+    "es": "tener ganas de",
+    "it": "non vedere l'ora di",
+    "pt": "estar ansioso por",
+    "tr": "dört gözle beklemek"
+   },
+   "ex": {
+    "en": "I'm looking forward to the weekend."
+   }
+  },
+  {
+   "id": "emotions.to-regret",
+   "t": {
+    "en": "to regret",
+    "uk": "шкодувати",
+    "ru": "сожалеть",
+    "pl": "żałować",
+    "de": "bereuen",
+    "fr": "regretter",
+    "es": "arrepentirse",
+    "it": "pentirsi",
+    "pt": "arrepender-se",
+    "tr": "pişman olmak"
+   },
+   "ex": {
+    "en": "I regret not calling her."
+   }
+  },
+  {
+   "id": "emotions.to-admire",
+   "t": {
+    "en": "to admire",
+    "uk": "захоплюватися",
+    "ru": "восхищаться",
+    "pl": "podziwiać",
+    "de": "bewundern",
+    "fr": "admirer",
+    "es": "admirar",
+    "it": "ammirare",
+    "pt": "admirar",
+    "tr": "hayran olmak"
+   },
+   "ex": {
+    "en": "I admire her courage."
+   }
+  },
+  {
+   "id": "emotions.to-envy",
+   "t": {
+    "en": "to envy",
+    "uk": "заздрити",
+    "ru": "завидовать",
+    "pl": "zazdrościć",
+    "de": "beneiden",
+    "fr": "envier",
+    "es": "envidiar",
+    "it": "invidiare",
+    "pt": "invejar",
+    "tr": "kıskanmak"
+   },
+   "ex": {
+    "en": "I envy people who sleep well."
+   }
+  },
+  {
+   "id": "emotions.to-doubt",
+   "t": {
+    "en": "to doubt",
+    "uk": "сумніватися",
+    "ru": "сомневаться",
+    "pl": "wątpić",
+    "de": "zweifeln",
+    "fr": "douter",
+    "es": "dudar",
+    "it": "dubitare",
+    "pt": "duvidar",
+    "tr": "şüphe etmek"
+   },
+   "ex": {
+    "en": "I doubt he will come."
+   }
+  },
+  {
+   "id": "emotions.to-put-up-with",
+   "t": {
+    "en": "to put up with",
+    "uk": "миритися з",
+    "ru": "мириться с",
+    "pl": "znosić",
+    "de": "sich abfinden mit",
+    "fr": "supporter",
+    "es": "aguantar",
+    "it": "sopportare",
+    "pt": "aguentar",
+    "tr": "katlanmak"
+   },
+   "ex": {
+    "en": "I can't put up with his rudeness."
+   }
+  },
+  {
+   "id": "emotions.honestly",
+   "t": {
+    "en": "honestly",
+    "uk": "чесно кажучи",
+    "ru": "честно говоря",
+    "pl": "szczerze mówiąc",
+    "de": "ehrlich gesagt",
+    "fr": "franchement",
+    "es": "sinceramente",
+    "it": "onestamente",
+    "pt": "sinceramente",
+    "tr": "açıkçası"
+   },
+   "ex": {
+    "en": "Honestly, I didn't like the film."
+   }
+  },
+  {
+   "id": "emotions.im-afraid-that",
+   "t": {
+    "en": "I'm afraid that...",
+    "uk": "боюся, що",
+    "ru": "боюсь, что",
+    "pl": "obawiam się, że",
+    "de": "ich fürchte, dass",
+    "fr": "je crains que",
+    "es": "me temo que",
+    "it": "temo che",
+    "pt": "receio que",
+    "tr": "korkarım"
+   },
+   "ex": {
+    "en": "I'm afraid that we are late."
+   }
+  },
+  {
+   "id": "emotions.to-feel-sorry-for",
+   "t": {
+    "en": "to feel sorry for",
+    "uk": "жаліти",
+    "ru": "жалеть",
+    "pl": "współczuć",
+    "de": "Mitleid haben mit",
+    "fr": "plaindre",
+    "es": "sentir lástima por",
+    "it": "dispiacersi per",
+    "pt": "sentir pena de",
+    "tr": "acımak"
+   },
+   "ex": {
+    "en": "I feel sorry for the new guy."
+   }
+  },
+  {
+   "id": "emotions.to-feel-down",
+   "t": {
+    "en": "to feel down",
+    "uk": "бути пригніченим",
+    "ru": "быть подавленным",
+    "pl": "być przygnębionym",
+    "de": "niedergeschlagen sein",
+    "fr": "avoir le cafard",
+    "es": "estar desanimado",
+    "it": "essere giù",
+    "pt": "estar pra baixo",
+    "tr": "moralsiz olmak"
+   },
+   "ex": {
+    "en": "I've been feeling down all week."
+   }
+  },
+  {
+   "id": "emotions.cheerful",
+   "t": {
+    "en": "cheerful",
+    "uk": "веселий",
+    "ru": "весёлый",
+    "pl": "wesoły",
+    "de": "fröhlich",
+    "fr": "joyeux",
+    "es": "alegre",
+    "it": "allegro",
+    "pt": "alegre",
+    "tr": "neşeli"
+   },
+   "ex": {
+    "en": "She is always cheerful in the morning."
+   }
+  },
+  {
+   "id": "emotions.passionate",
+   "t": {
+    "en": "passionate",
+    "uk": "пристрасний",
+    "ru": "страстный",
+    "pl": "pełen pasji",
+    "de": "leidenschaftlich",
+    "fr": "passionné",
+    "es": "apasionado",
+    "it": "appassionato",
+    "pt": "apaixonado",
+    "tr": "tutkulu"
+   },
+   "ex": {
+    "en": "He is passionate about music."
+   }
+  }
+ ]
+}

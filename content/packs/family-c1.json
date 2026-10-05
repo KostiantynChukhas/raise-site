@@ -1,0 +1,548 @@
+{
+ "id": "family-c1",
+ "topic": "family",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "family.next-of-kin",
+   "t": {
+    "en": "next of kin",
+    "uk": "найближчий родич",
+    "ru": "ближайший родственник",
+    "pl": "najbliższy krewny",
+    "de": "nächster Angehöriger",
+    "fr": "plus proche parent",
+    "es": "pariente más cercano",
+    "it": "parente più prossimo",
+    "pt": "parente mais próximo",
+    "tr": "en yakın akraba"
+   },
+   "ex": {
+    "en": "Please name your next of kin on the form."
+   }
+  },
+  {
+   "id": "family.lineage",
+   "t": {
+    "en": "lineage",
+    "uk": "родовід",
+    "ru": "родословная",
+    "pl": "rodowód",
+    "de": "Abstammung",
+    "fr": "lignée",
+    "es": "linaje",
+    "it": "lignaggio",
+    "pt": "linhagem",
+    "tr": "soy"
+   },
+   "ex": {
+    "en": "She can trace her lineage back centuries."
+   }
+  },
+  {
+   "id": "family.estranged",
+   "t": {
+    "en": "estranged",
+    "uk": "відчужений",
+    "ru": "отдалившийся",
+    "pl": "skłócony",
+    "de": "entfremdet",
+    "fr": "brouillé",
+    "es": "distanciado",
+    "it": "allontanato",
+    "pt": "afastado",
+    "tr": "arası açık"
+   },
+   "ex": {
+    "en": "He is estranged from his father."
+   }
+  },
+  {
+   "id": "family.to-disown",
+   "t": {
+    "en": "to disown",
+    "uk": "зректися",
+    "ru": "отречься от",
+    "pl": "wyrzec się",
+    "de": "verstoßen",
+    "fr": "renier",
+    "es": "repudiar",
+    "it": "ripudiare",
+    "pt": "deserdar",
+    "tr": "evlatlıktan reddetmek"
+   },
+   "ex": {
+    "en": "Her parents threatened to disown her."
+   }
+  },
+  {
+   "id": "family.foster-parent",
+   "t": {
+    "en": "foster parent",
+    "uk": "прийомний батько",
+    "ru": "приёмный родитель",
+    "pl": "rodzic zastępczy",
+    "de": "Pflegeelternteil",
+    "fr": "parent d'accueil",
+    "es": "padre de acogida",
+    "it": "genitore affidatario",
+    "pt": "pai adotivo temporário",
+    "tr": "koruyucu aile"
+   },
+   "ex": {
+    "en": "They became foster parents last year."
+   }
+  },
+  {
+   "id": "family.late",
+   "t": {
+    "en": "late (deceased)",
+    "uk": "покійний",
+    "ru": "покойный",
+    "pl": "świętej pamięci",
+    "de": "verstorben",
+    "fr": "feu",
+    "es": "difunto",
+    "it": "defunto",
+    "pt": "falecido",
+    "tr": "merhum"
+   },
+   "ex": {
+    "en": "My late grandfather built this house."
+   }
+  },
+  {
+   "id": "family.bereavement",
+   "t": {
+    "en": "bereavement",
+    "uk": "тяжка втрата",
+    "ru": "тяжёлая утрата",
+    "pl": "żałoba",
+    "de": "Trauerfall",
+    "fr": "deuil",
+    "es": "duelo",
+    "it": "lutto",
+    "pt": "luto",
+    "tr": "yas"
+   },
+   "ex": {
+    "en": "She took leave after her bereavement."
+   }
+  },
+  {
+   "id": "family.matriarch",
+   "t": {
+    "en": "matriarch",
+    "uk": "глава роду",
+    "ru": "глава семьи",
+    "pl": "matriarchini",
+    "de": "Familienoberhaupt",
+    "fr": "matriarche",
+    "es": "matriarca",
+    "it": "matriarca",
+    "pt": "matriarca",
+    "tr": "ailenin reisi"
+   },
+   "ex": {
+    "en": "Grandma is the matriarch of our family."
+   }
+  },
+  {
+   "id": "family.firstborn",
+   "t": {
+    "en": "firstborn",
+    "uk": "первісток",
+    "ru": "первенец",
+    "pl": "pierworodny",
+    "de": "Erstgeborener",
+    "fr": "aîné",
+    "es": "primogénito",
+    "it": "primogenito",
+    "pt": "primogênito",
+    "tr": "ilk çocuk"
+   },
+   "ex": {
+    "en": "The firstborn inherited the farm."
+   }
+  },
+  {
+   "id": "family.spitting-image",
+   "t": {
+    "en": "spitting image",
+    "uk": "точна копія",
+    "ru": "точная копия",
+    "pl": "wykapany",
+    "de": "Ebenbild",
+    "fr": "portrait craché",
+    "es": "vivo retrato",
+    "it": "ritratto sputato",
+    "pt": "cara de um, focinho de outro",
+    "tr": "hık demiş burnundan düşmüş"
+   },
+   "ex": {
+    "en": "He is the spitting image of his dad."
+   }
+  },
+  {
+   "id": "family.black-sheep",
+   "t": {
+    "en": "black sheep",
+    "uk": "біла ворона",
+    "ru": "паршивая овца",
+    "pl": "czarna owca",
+    "de": "schwarzes Schaf",
+    "fr": "mouton noir",
+    "es": "oveja negra",
+    "it": "pecora nera",
+    "pt": "ovelha negra",
+    "tr": "kara koyun"
+   },
+   "ex": {
+    "en": "My uncle is the black sheep of the family."
+   }
+  },
+  {
+   "id": "family.doting",
+   "t": {
+    "en": "doting",
+    "uk": "який душі не чує",
+    "ru": "души не чающий",
+    "pl": "rozkochany",
+    "de": "vernarrt",
+    "fr": "gâteau",
+    "es": "que adora a",
+    "it": "adorante",
+    "pt": "babão",
+    "tr": "düşkün"
+   },
+   "ex": {
+    "en": "She has two doting grandparents."
+   }
+  },
+  {
+   "id": "family.overbearing",
+   "t": {
+    "en": "overbearing",
+    "uk": "владний",
+    "ru": "властный",
+    "pl": "apodyktyczny",
+    "de": "herrisch",
+    "fr": "autoritaire",
+    "es": "dominante",
+    "it": "prepotente",
+    "pt": "dominador",
+    "tr": "baskıcı"
+   },
+   "ex": {
+    "en": "His mother can be rather overbearing."
+   }
+  },
+  {
+   "id": "family.aloof",
+   "t": {
+    "en": "aloof",
+    "uk": "відсторонений",
+    "ru": "отчуждённый",
+    "pl": "wyniosły",
+    "de": "distanziert",
+    "fr": "distant",
+    "es": "distante",
+    "it": "distaccato",
+    "pt": "distante",
+    "tr": "mesafeli"
+   },
+   "ex": {
+    "en": "My cousin seems aloof at parties."
+   }
+  },
+  {
+   "id": "family.affable",
+   "t": {
+    "en": "affable",
+    "uk": "привітний",
+    "ru": "приветливый",
+    "pl": "uprzejmy",
+    "de": "umgänglich",
+    "fr": "affable",
+    "es": "afable",
+    "it": "affabile",
+    "pt": "afável",
+    "tr": "cana yakın"
+   },
+   "ex": {
+    "en": "Her father is an affable, easy host."
+   }
+  },
+  {
+   "id": "family.gregarious",
+   "t": {
+    "en": "gregarious",
+    "uk": "компанійський",
+    "ru": "компанейский",
+    "pl": "towarzyski z natury",
+    "de": "gesellig",
+    "fr": "grégaire",
+    "es": "sociable",
+    "it": "gregario",
+    "pt": "gregário",
+    "tr": "sosyal"
+   },
+   "ex": {
+    "en": "My brother is gregarious and loves crowds."
+   }
+  },
+  {
+   "id": "family.unassuming",
+   "t": {
+    "en": "unassuming",
+    "uk": "скромний",
+    "ru": "скромный",
+    "pl": "skromny",
+    "de": "bescheiden",
+    "fr": "modeste",
+    "es": "modesto",
+    "it": "modesto",
+    "pt": "despretensioso",
+    "tr": "gösterişsiz"
+   },
+   "ex": {
+    "en": "Despite his success he is unassuming."
+   }
+  },
+  {
+   "id": "family.shrewd",
+   "t": {
+    "en": "shrewd",
+    "uk": "проникливий",
+    "ru": "проницательный",
+    "pl": "przebiegły",
+    "de": "gewieft",
+    "fr": "perspicace",
+    "es": "astuto",
+    "it": "scaltro",
+    "pt": "astuto",
+    "tr": "kurnaz"
+   },
+   "ex": {
+    "en": "My grandmother is a shrewd judge of people."
+   }
+  },
+  {
+   "id": "family.gaunt",
+   "t": {
+    "en": "gaunt",
+    "uk": "виснажений",
+    "ru": "измождённый",
+    "pl": "wychudzony",
+    "de": "hager",
+    "fr": "émacié",
+    "es": "demacrado",
+    "it": "emaciato",
+    "pt": "macilento",
+    "tr": "bir deri bir kemik"
+   },
+   "ex": {
+    "en": "He looked gaunt after the illness."
+   }
+  },
+  {
+   "id": "family.stocky",
+   "t": {
+    "en": "stocky",
+    "uk": "кремезний",
+    "ru": "коренастый",
+    "pl": "krępy",
+    "de": "stämmig",
+    "fr": "trapu",
+    "es": "fornido",
+    "it": "tarchiato",
+    "pt": "atarracado",
+    "tr": "tıknaz"
+   },
+   "ex": {
+    "en": "My uncle is a stocky man with big hands."
+   }
+  },
+  {
+   "id": "family.dishevelled",
+   "t": {
+    "en": "dishevelled",
+    "uk": "розпатланий",
+    "ru": "растрёпанный",
+    "pl": "rozczochrany",
+    "de": "zerzaust",
+    "fr": "échevelé",
+    "es": "desaliñado",
+    "it": "scarmigliato",
+    "pt": "desgrenhado",
+    "tr": "dağınık"
+   },
+   "ex": {
+    "en": "The children came home dishevelled."
+   }
+  },
+  {
+   "id": "family.to-dote-on",
+   "t": {
+    "en": "to dote on",
+    "uk": "душі не чути в",
+    "ru": "души не чаять в",
+    "pl": "nie widzieć świata poza",
+    "de": "vernarrt sein in",
+    "fr": "être gaga de",
+    "es": "adorar a",
+    "it": "stravedere per",
+    "pt": "ser louco por",
+    "tr": "üstüne titremek"
+   },
+   "ex": {
+    "en": "Grandpa dotes on his grandchildren."
+   }
+  },
+  {
+   "id": "family.fair-weather-friend",
+   "t": {
+    "en": "fair-weather friend",
+    "uk": "ненадійний друг",
+    "ru": "друг до первой беды",
+    "pl": "przyjaciel na dobre czasy",
+    "de": "Schönwetterfreund",
+    "fr": "ami des beaux jours",
+    "es": "amigo de conveniencia",
+    "it": "amico del bel tempo",
+    "pt": "amigo das horas boas",
+    "tr": "iyi gün dostu"
+   },
+   "ex": {
+    "en": "He turned out to be a fair-weather friend."
+   }
+  },
+  {
+   "id": "family.through-thick-and-thin",
+   "t": {
+    "en": "through thick and thin",
+    "uk": "і в горі, і в радості",
+    "ru": "и в горе, и в радости",
+    "pl": "na dobre i na złe",
+    "de": "durch dick und dünn",
+    "fr": "contre vents et marées",
+    "es": "en las buenas y en las malas",
+    "it": "nella buona e nella cattiva sorte",
+    "pt": "na alegria e na tristeza",
+    "tr": "iyi günde kötü günde"
+   },
+   "ex": {
+    "en": "They stayed friends through thick and thin."
+   }
+  },
+  {
+   "id": "family.to-confide-in",
+   "t": {
+    "en": "to confide in",
+    "uk": "довіритися",
+    "ru": "довериться",
+    "pl": "zwierzyć się",
+    "de": "sich anvertrauen",
+    "fr": "se confier à",
+    "es": "confiarse a",
+    "it": "confidarsi con",
+    "pt": "confiar em",
+    "tr": "içini dökmek"
+   },
+   "ex": {
+    "en": "I can always confide in my sister."
+   }
+  },
+  {
+   "id": "family.kindred-spirit",
+   "t": {
+    "en": "kindred spirit",
+    "uk": "споріднена душа",
+    "ru": "родственная душа",
+    "pl": "bratnia dusza",
+    "de": "Seelenverwandter",
+    "fr": "âme sœur",
+    "es": "alma gemela",
+    "it": "anima affine",
+    "pt": "alma gêmea",
+    "tr": "ruh ikizi"
+   },
+   "ex": {
+    "en": "I found a kindred spirit in my colleague."
+   }
+  },
+  {
+   "id": "family.to-rekindle-a-friendship",
+   "t": {
+    "en": "to rekindle a friendship",
+    "uk": "відновити дружбу",
+    "ru": "возродить дружбу",
+    "pl": "odnowić przyjaźń",
+    "de": "eine Freundschaft wiederbeleben",
+    "fr": "raviver une amitié",
+    "es": "reavivar una amistad",
+    "it": "riallacciare un'amicizia",
+    "pt": "reatar uma amizade",
+    "tr": "dostluğu canlandırmak"
+   },
+   "ex": {
+    "en": "We rekindled our friendship after years."
+   }
+  },
+  {
+   "id": "family.to-bear-a-grudge",
+   "t": {
+    "en": "to bear a grudge",
+    "uk": "тримати образу",
+    "ru": "затаить обиду",
+    "pl": "chować urazę",
+    "de": "nachtragend sein",
+    "fr": "garder rancune",
+    "es": "guardar rencor",
+    "it": "serbare rancore",
+    "pt": "guardar rancor",
+    "tr": "kin tutmak"
+   },
+   "ex": {
+    "en": "My aunt still bears a grudge against him."
+   }
+  },
+  {
+   "id": "family.empty-nest",
+   "t": {
+    "en": "empty nest",
+    "uk": "порожнє гніздо",
+    "ru": "пустое гнездо",
+    "pl": "puste gniazdo",
+    "de": "leeres Nest",
+    "fr": "nid vide",
+    "es": "nido vacío",
+    "it": "nido vuoto",
+    "pt": "ninho vazio",
+    "tr": "boş yuva"
+   },
+   "ex": {
+    "en": "They struggled with the empty nest."
+   }
+  },
+  {
+   "id": "family.to-come-of-age",
+   "t": {
+    "en": "to come of age",
+    "uk": "досягти повноліття",
+    "ru": "достичь совершеннолетия",
+    "pl": "osiągnąć pełnoletność",
+    "de": "volljährig werden",
+    "fr": "atteindre la majorité",
+    "es": "alcanzar la mayoría de edad",
+    "it": "diventare maggiorenne",
+    "pt": "atingir a maioridade",
+    "tr": "reşit olmak"
+   },
+   "ex": {
+    "en": "My son comes of age next spring."
+   }
+  }
+ ]
+}

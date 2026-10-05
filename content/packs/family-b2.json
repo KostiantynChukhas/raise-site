@@ -1,0 +1,494 @@
+{
+ "id": "family-b2",
+ "topic": "family",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "family.extended-family",
+   "t": {
+    "en": "extended family",
+    "uk": "велика родина",
+    "ru": "большая семья",
+    "pl": "dalsza rodzina",
+    "de": "Großfamilie",
+    "fr": "famille élargie",
+    "es": "familia extensa",
+    "it": "famiglia allargata",
+    "pt": "família extensa",
+    "tr": "geniş aile"
+   },
+   "ex": {
+    "en": "My extended family gathers every summer."
+   }
+  },
+  {
+   "id": "family.upbringing",
+   "t": {
+    "en": "upbringing",
+    "uk": "виховання",
+    "ru": "воспитание",
+    "pl": "wychowanie",
+    "de": "Erziehung",
+    "fr": "éducation",
+    "es": "educación",
+    "it": "educazione",
+    "pt": "criação",
+    "tr": "yetiştirilme"
+   },
+   "ex": {
+    "en": "She had a strict upbringing."
+   }
+  },
+  {
+   "id": "family.household",
+   "t": {
+    "en": "household",
+    "uk": "домогосподарство",
+    "ru": "домохозяйство",
+    "pl": "gospodarstwo domowe",
+    "de": "Haushalt",
+    "fr": "foyer",
+    "es": "hogar",
+    "it": "nucleo familiare",
+    "pt": "família",
+    "tr": "hane"
+   },
+   "ex": {
+    "en": "There are five people in our household."
+   }
+  },
+  {
+   "id": "family.breadwinner",
+   "t": {
+    "en": "breadwinner",
+    "uk": "годувальник",
+    "ru": "кормилец",
+    "pl": "żywiciel rodziny",
+    "de": "Ernährer",
+    "fr": "soutien de famille",
+    "es": "sostén de la familia",
+    "it": "capofamiglia",
+    "pt": "provedor",
+    "tr": "evin geçimini sağlayan"
+   },
+   "ex": {
+    "en": "My mother was the main breadwinner."
+   }
+  },
+  {
+   "id": "family.sibling-rivalry",
+   "t": {
+    "en": "sibling rivalry",
+    "uk": "суперництво між братами й сестрами",
+    "ru": "соперничество между детьми",
+    "pl": "rywalizacja rodzeństwa",
+    "de": "Geschwisterrivalität",
+    "fr": "rivalité fraternelle",
+    "es": "rivalidad entre hermanos",
+    "it": "rivalità tra fratelli",
+    "pt": "rivalidade entre irmãos",
+    "tr": "kardeş rekabeti"
+   },
+   "ex": {
+    "en": "Sibling rivalry is normal in families."
+   }
+  },
+  {
+   "id": "family.half-brother",
+   "t": {
+    "en": "half-brother",
+    "uk": "зведений брат",
+    "ru": "сводный брат",
+    "pl": "brat przyrodni",
+    "de": "Halbbruder",
+    "fr": "demi-frère",
+    "es": "medio hermano",
+    "it": "fratellastro",
+    "pt": "meio-irmão",
+    "tr": "üvey kardeş"
+   },
+   "ex": {
+    "en": "I have a half-brother in Canada."
+   }
+  },
+  {
+   "id": "family.godmother",
+   "t": {
+    "en": "godmother",
+    "uk": "хрещена мати",
+    "ru": "крёстная мать",
+    "pl": "matka chrzestna",
+    "de": "Patin",
+    "fr": "marraine",
+    "es": "madrina",
+    "it": "madrina",
+    "pt": "madrinha",
+    "tr": "vaftiz annesi"
+   },
+   "ex": {
+    "en": "My godmother sends me a card every year."
+   }
+  },
+  {
+   "id": "family.widow",
+   "t": {
+    "en": "widow",
+    "uk": "вдова",
+    "ru": "вдова",
+    "pl": "wdowa",
+    "de": "Witwe",
+    "fr": "veuve",
+    "es": "viuda",
+    "it": "vedova",
+    "pt": "viúva",
+    "tr": "dul kadın"
+   },
+   "ex": {
+    "en": "She became a widow at fifty."
+   }
+  },
+  {
+   "id": "family.orphan",
+   "t": {
+    "en": "orphan",
+    "uk": "сирота",
+    "ru": "сирота",
+    "pl": "sierota",
+    "de": "Waise",
+    "fr": "orphelin",
+    "es": "huérfano",
+    "it": "orfano",
+    "pt": "órfão",
+    "tr": "yetim"
+   },
+   "ex": {
+    "en": "He was an orphan raised by his aunt."
+   }
+  },
+  {
+   "id": "family.custody",
+   "t": {
+    "en": "custody",
+    "uk": "опіка",
+    "ru": "опека",
+    "pl": "opieka nad dzieckiem",
+    "de": "Sorgerecht",
+    "fr": "garde",
+    "es": "custodia",
+    "it": "affidamento",
+    "pt": "guarda",
+    "tr": "velayet"
+   },
+   "ex": {
+    "en": "The mother got custody of the children."
+   }
+  },
+  {
+   "id": "family.inheritance",
+   "t": {
+    "en": "inheritance",
+    "uk": "спадщина",
+    "ru": "наследство",
+    "pl": "spadek",
+    "de": "Erbe",
+    "fr": "héritage",
+    "es": "herencia",
+    "it": "eredità",
+    "pt": "herança",
+    "tr": "miras"
+   },
+   "ex": {
+    "en": "They argued over the inheritance."
+   }
+  },
+  {
+   "id": "family.family-tree",
+   "t": {
+    "en": "family tree",
+    "uk": "родовідне дерево",
+    "ru": "генеалогическое древо",
+    "pl": "drzewo genealogiczne",
+    "de": "Stammbaum",
+    "fr": "arbre généalogique",
+    "es": "árbol genealógico",
+    "it": "albero genealogico",
+    "pt": "árvore genealógica",
+    "tr": "soy ağacı"
+   },
+   "ex": {
+    "en": "My uncle is researching our family tree."
+   }
+  },
+  {
+   "id": "family.ancestor",
+   "t": {
+    "en": "ancestor",
+    "uk": "предок",
+    "ru": "предок",
+    "pl": "przodek",
+    "de": "Vorfahre",
+    "fr": "ancêtre",
+    "es": "antepasado",
+    "it": "antenato",
+    "pt": "antepassado",
+    "tr": "ata"
+   },
+   "ex": {
+    "en": "Our ancestors came from Ireland."
+   }
+  },
+  {
+   "id": "family.descendant",
+   "t": {
+    "en": "descendant",
+    "uk": "нащадок",
+    "ru": "потомок",
+    "pl": "potomek",
+    "de": "Nachkomme",
+    "fr": "descendant",
+    "es": "descendiente",
+    "it": "discendente",
+    "pt": "descendente",
+    "tr": "torun"
+   },
+   "ex": {
+    "en": "She is a descendant of a famous poet."
+   }
+  },
+  {
+   "id": "family.to-take-after",
+   "t": {
+    "en": "to take after",
+    "uk": "вдатися в",
+    "ru": "пойти в",
+    "pl": "wdać się w",
+    "de": "nachschlagen",
+    "fr": "tenir de",
+    "es": "salir a",
+    "it": "prendere da",
+    "pt": "puxar a",
+    "tr": "çekmek"
+   },
+   "ex": {
+    "en": "He takes after his father."
+   }
+  },
+  {
+   "id": "family.to-look-up-to",
+   "t": {
+    "en": "to look up to",
+    "uk": "захоплюватися",
+    "ru": "равняться на",
+    "pl": "podziwiać",
+    "de": "aufsehen zu",
+    "fr": "admirer",
+    "es": "admirar",
+    "it": "ammirare",
+    "pt": "admirar",
+    "tr": "örnek almak"
+   },
+   "ex": {
+    "en": "I always looked up to my grandfather."
+   }
+  },
+  {
+   "id": "family.to-fall-out-with",
+   "t": {
+    "en": "to fall out with",
+    "uk": "посваритися з",
+    "ru": "поссориться с",
+    "pl": "pokłócić się z",
+    "de": "sich zerstreiten mit",
+    "fr": "se brouiller avec",
+    "es": "pelearse con",
+    "it": "litigare con",
+    "pt": "brigar com",
+    "tr": "arası açılmak"
+   },
+   "ex": {
+    "en": "She fell out with her brother last year."
+   }
+  },
+  {
+   "id": "family.to-drift-apart",
+   "t": {
+    "en": "to drift apart",
+    "uk": "віддалитися одне від одного",
+    "ru": "отдалиться друг от друга",
+    "pl": "oddalić się od siebie",
+    "de": "sich auseinanderleben",
+    "fr": "s'éloigner",
+    "es": "distanciarse",
+    "it": "allontanarsi",
+    "pt": "se afastar",
+    "tr": "birbirinden uzaklaşmak"
+   },
+   "ex": {
+    "en": "We drifted apart after school."
+   }
+  },
+  {
+   "id": "family.trustworthy",
+   "t": {
+    "en": "trustworthy",
+    "uk": "такий, якому можна довіряти",
+    "ru": "заслуживающий доверия",
+    "pl": "godny zaufania",
+    "de": "vertrauenswürdig",
+    "fr": "digne de confiance",
+    "es": "de confianza",
+    "it": "affidabile",
+    "pt": "digno de confiança",
+    "tr": "güvenilir"
+   },
+   "ex": {
+    "en": "My cousin is completely trustworthy."
+   }
+  },
+  {
+   "id": "family.easygoing",
+   "t": {
+    "en": "easygoing",
+    "uk": "спокійний і поступливий",
+    "ru": "лёгкий в общении",
+    "pl": "wyluzowany",
+    "de": "gelassen",
+    "fr": "facile à vivre",
+    "es": "tranquilo",
+    "it": "accomodante",
+    "pt": "tranquilo",
+    "tr": "rahat"
+   },
+   "ex": {
+    "en": "My dad is easygoing about most things."
+   }
+  },
+  {
+   "id": "family.self-confident",
+   "t": {
+    "en": "self-confident",
+    "uk": "впевнений у собі",
+    "ru": "уверенный в себе",
+    "pl": "pewny siebie",
+    "de": "selbstbewusst",
+    "fr": "sûr de soi",
+    "es": "seguro de sí mismo",
+    "it": "sicuro di sé",
+    "pt": "autoconfiante",
+    "tr": "özgüvenli"
+   },
+   "ex": {
+    "en": "My sister is very self-confident."
+   }
+  },
+  {
+   "id": "family.bad-tempered",
+   "t": {
+    "en": "bad-tempered",
+    "uk": "запальний",
+    "ru": "вспыльчивый",
+    "pl": "porywczy",
+    "de": "jähzornig",
+    "fr": "irascible",
+    "es": "malhumorado",
+    "it": "irascibile",
+    "pt": "mal-humorado",
+    "tr": "aksi"
+   },
+   "ex": {
+    "en": "Grandpa gets bad-tempered when tired."
+   }
+  },
+  {
+   "id": "family.outgoing",
+   "t": {
+    "en": "outgoing",
+    "uk": "товариський",
+    "ru": "общительный",
+    "pl": "towarzyski",
+    "de": "kontaktfreudig",
+    "fr": "sociable",
+    "es": "extrovertido",
+    "it": "socievole",
+    "pt": "extrovertido",
+    "tr": "dışa dönük"
+   },
+   "ex": {
+    "en": "My niece is outgoing and talkative."
+   }
+  },
+  {
+   "id": "family.sensitive",
+   "t": {
+    "en": "sensitive",
+    "uk": "чутливий",
+    "ru": "чувствительный",
+    "pl": "wrażliwy",
+    "de": "sensibel",
+    "fr": "sensible",
+    "es": "sensible",
+    "it": "sensibile",
+    "pt": "sensível",
+    "tr": "hassas"
+   },
+   "ex": {
+    "en": "My son is a sensitive boy."
+   }
+  },
+  {
+   "id": "family.broad-shouldered",
+   "t": {
+    "en": "broad-shouldered",
+    "uk": "широкоплечий",
+    "ru": "широкоплечий",
+    "pl": "barczysty",
+    "de": "breitschultrig",
+    "fr": "aux épaules larges",
+    "es": "de hombros anchos",
+    "it": "dalle spalle larghe",
+    "pt": "de ombros largos",
+    "tr": "geniş omuzlu"
+   },
+   "ex": {
+    "en": "My uncle is tall and broad-shouldered."
+   }
+  },
+  {
+   "id": "family.middle-aged",
+   "t": {
+    "en": "middle-aged",
+    "uk": "середнього віку",
+    "ru": "средних лет",
+    "pl": "w średnim wieku",
+    "de": "mittleren Alters",
+    "fr": "d'âge mûr",
+    "es": "de mediana edad",
+    "it": "di mezza età",
+    "pt": "de meia-idade",
+    "tr": "orta yaşlı"
+   },
+   "ex": {
+    "en": "A middle-aged man opened the door."
+   }
+  },
+  {
+   "id": "family.to-start-a-family",
+   "t": {
+    "en": "to start a family",
+    "uk": "створити сім'ю",
+    "ru": "завести семью",
+    "pl": "założyć rodzinę",
+    "de": "eine Familie gründen",
+    "fr": "fonder une famille",
+    "es": "formar una familia",
+    "it": "mettere su famiglia",
+    "pt": "formar uma família",
+    "tr": "aile kurmak"
+   },
+   "ex": {
+    "en": "They plan to start a family soon."
+   }
+  }
+ ]
+}

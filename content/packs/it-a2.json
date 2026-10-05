@@ -1,0 +1,512 @@
+{
+ "id": "it-a2",
+ "topic": "it",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "it.update",
+   "t": {
+    "en": "update",
+    "uk": "оновлення",
+    "ru": "обновление",
+    "pl": "aktualizacja",
+    "de": "Update",
+    "fr": "mise à jour",
+    "es": "actualización",
+    "it": "aggiornamento",
+    "pt": "atualização",
+    "tr": "güncelleme"
+   },
+   "ex": {
+    "en": "There is a new update for the app."
+   }
+  },
+  {
+   "id": "it.settings",
+   "t": {
+    "en": "settings",
+    "uk": "налаштування",
+    "ru": "настройки",
+    "pl": "ustawienia",
+    "de": "Einstellungen",
+    "fr": "paramètres",
+    "es": "ajustes",
+    "it": "impostazioni",
+    "pt": "configurações",
+    "tr": "ayarlar"
+   },
+   "ex": {
+    "en": "Change the language in settings."
+   }
+  },
+  {
+   "id": "it.username",
+   "t": {
+    "en": "username",
+    "uk": "ім'я користувача",
+    "ru": "имя пользователя",
+    "pl": "nazwa użytkownika",
+    "de": "Benutzername",
+    "fr": "nom d'utilisateur",
+    "es": "nombre de usuario",
+    "it": "nome utente",
+    "pt": "nome de usuário",
+    "tr": "kullanıcı adı"
+   },
+   "ex": {
+    "en": "Your username is your email."
+   }
+  },
+  {
+   "id": "it.to-sign-up",
+   "t": {
+    "en": "to sign up",
+    "uk": "зареєструватися",
+    "ru": "зарегистрироваться",
+    "pl": "zarejestrować się",
+    "de": "sich registrieren",
+    "fr": "s'inscrire",
+    "es": "registrarse",
+    "it": "registrarsi",
+    "pt": "cadastrar-se",
+    "tr": "kaydolmak"
+   },
+   "ex": {
+    "en": "Sign up for free today."
+   }
+  },
+  {
+   "id": "it.link",
+   "t": {
+    "en": "link",
+    "uk": "посилання",
+    "ru": "ссылка",
+    "pl": "link",
+    "de": "Link",
+    "fr": "lien",
+    "es": "enlace",
+    "it": "link",
+    "pt": "link",
+    "tr": "bağlantı"
+   },
+   "ex": {
+    "en": "Click the link in the email."
+   }
+  },
+  {
+   "id": "it.browser",
+   "t": {
+    "en": "browser",
+    "uk": "браузер",
+    "ru": "браузер",
+    "pl": "przeglądarka",
+    "de": "Browser",
+    "fr": "navigateur",
+    "es": "navegador",
+    "it": "browser",
+    "pt": "navegador",
+    "tr": "tarayıcı"
+   },
+   "ex": {
+    "en": "Open it in another browser."
+   }
+  },
+  {
+   "id": "it.backup",
+   "t": {
+    "en": "backup",
+    "uk": "резервна копія",
+    "ru": "резервная копия",
+    "pl": "kopia zapasowa",
+    "de": "Backup",
+    "fr": "sauvegarde",
+    "es": "copia de seguridad",
+    "it": "backup",
+    "pt": "backup",
+    "tr": "yedek"
+   },
+   "ex": {
+    "en": "Do you have a backup of the files?"
+   }
+  },
+  {
+   "id": "it.to-share",
+   "t": {
+    "en": "to share",
+    "uk": "поділитися",
+    "ru": "поделиться",
+    "pl": "udostępnić",
+    "de": "teilen",
+    "fr": "partager",
+    "es": "compartir",
+    "it": "condividere",
+    "pt": "compartilhar",
+    "tr": "paylaşmak"
+   },
+   "ex": {
+    "en": "Share the document with the team."
+   }
+  },
+  {
+   "id": "it.notification",
+   "t": {
+    "en": "notification",
+    "uk": "сповіщення",
+    "ru": "уведомление",
+    "pl": "powiadomienie",
+    "de": "Benachrichtigung",
+    "fr": "notification",
+    "es": "notificación",
+    "it": "notifica",
+    "pt": "notificação",
+    "tr": "bildirim"
+   },
+   "ex": {
+    "en": "I got a notification from the app."
+   }
+  },
+  {
+   "id": "it.bug",
+   "t": {
+    "en": "bug",
+    "uk": "баг",
+    "ru": "баг",
+    "pl": "błąd",
+    "de": "Bug",
+    "fr": "bug",
+    "es": "error",
+    "it": "bug",
+    "pt": "bug",
+    "tr": "hata"
+   },
+   "ex": {
+    "en": "There is a bug in the new version."
+   }
+  },
+  {
+   "id": "it.error-message",
+   "t": {
+    "en": "error message",
+    "uk": "повідомлення про помилку",
+    "ru": "сообщение об ошибке",
+    "pl": "komunikat o błędzie",
+    "de": "Fehlermeldung",
+    "fr": "message d'erreur",
+    "es": "mensaje de error",
+    "it": "messaggio di errore",
+    "pt": "mensagem de erro",
+    "tr": "hata mesajı"
+   },
+   "ex": {
+    "en": "I see an error message on the screen."
+   }
+  },
+  {
+   "id": "it.to-crash",
+   "t": {
+    "en": "to crash",
+    "uk": "зависнути й закритися",
+    "ru": "вылететь",
+    "pl": "zawiesić się",
+    "de": "abstürzen",
+    "fr": "planter",
+    "es": "bloquearse",
+    "it": "andare in crash",
+    "pt": "travar",
+    "tr": "çökmek"
+   },
+   "ex": {
+    "en": "The app crashes when I open it."
+   }
+  },
+  {
+   "id": "it.to-freeze",
+   "t": {
+    "en": "to freeze",
+    "uk": "зависнути",
+    "ru": "зависнуть",
+    "pl": "zaciąć się",
+    "de": "einfrieren",
+    "fr": "se figer",
+    "es": "quedarse colgado",
+    "it": "bloccarsi",
+    "pt": "congelar",
+    "tr": "donmak"
+   },
+   "ex": {
+    "en": "My screen froze again."
+   }
+  },
+  {
+   "id": "it.storage",
+   "t": {
+    "en": "storage",
+    "uk": "пам'ять",
+    "ru": "память",
+    "pl": "pamięć",
+    "de": "Speicherplatz",
+    "fr": "espace de stockage",
+    "es": "almacenamiento",
+    "it": "spazio di archiviazione",
+    "pt": "armazenamento",
+    "tr": "depolama alanı"
+   },
+   "ex": {
+    "en": "My phone has no storage left."
+   }
+  },
+  {
+   "id": "it.battery",
+   "t": {
+    "en": "battery",
+    "uk": "батарея",
+    "ru": "батарея",
+    "pl": "bateria",
+    "de": "Akku",
+    "fr": "batterie",
+    "es": "batería",
+    "it": "batteria",
+    "pt": "bateria",
+    "tr": "pil"
+   },
+   "ex": {
+    "en": "The battery is almost empty."
+   }
+  },
+  {
+   "id": "it.webcam",
+   "t": {
+    "en": "webcam",
+    "uk": "вебкамера",
+    "ru": "веб-камера",
+    "pl": "kamerka internetowa",
+    "de": "Webcam",
+    "fr": "webcam",
+    "es": "cámara web",
+    "it": "webcam",
+    "pt": "webcam",
+    "tr": "web kamerası"
+   },
+   "ex": {
+    "en": "Please turn on your webcam."
+   }
+  },
+  {
+   "id": "it.video-call",
+   "t": {
+    "en": "video call",
+    "uk": "відеодзвінок",
+    "ru": "видеозвонок",
+    "pl": "rozmowa wideo",
+    "de": "Videoanruf",
+    "fr": "appel vidéo",
+    "es": "videollamada",
+    "it": "videochiamata",
+    "pt": "chamada de vídeo",
+    "tr": "görüntülü arama"
+   },
+   "ex": {
+    "en": "We have a video call at ten."
+   }
+  },
+  {
+   "id": "it.to-share-your-screen",
+   "t": {
+    "en": "to share your screen",
+    "uk": "показати свій екран",
+    "ru": "показать экран",
+    "pl": "udostępnić ekran",
+    "de": "Bildschirm teilen",
+    "fr": "partager son écran",
+    "es": "compartir pantalla",
+    "it": "condividere lo schermo",
+    "pt": "compartilhar a tela",
+    "tr": "ekran paylaşmak"
+   },
+   "ex": {
+    "en": "Can you share your screen?"
+   }
+  },
+  {
+   "id": "it.to-copy-and-paste",
+   "t": {
+    "en": "to copy and paste",
+    "uk": "скопіювати і вставити",
+    "ru": "скопировать и вставить",
+    "pl": "skopiować i wkleić",
+    "de": "kopieren und einfügen",
+    "fr": "copier-coller",
+    "es": "copiar y pegar",
+    "it": "copiare e incollare",
+    "pt": "copiar e colar",
+    "tr": "kopyalayıp yapıştırmak"
+   },
+   "ex": {
+    "en": "Copy and paste the text here."
+   }
+  },
+  {
+   "id": "it.attachment",
+   "t": {
+    "en": "attachment",
+    "uk": "вкладення",
+    "ru": "вложение",
+    "pl": "załącznik",
+    "de": "Anhang",
+    "fr": "pièce jointe",
+    "es": "archivo adjunto",
+    "it": "allegato",
+    "pt": "anexo",
+    "tr": "ek"
+   },
+   "ex": {
+    "en": "The attachment is too big."
+   }
+  },
+  {
+   "id": "it.to-connect",
+   "t": {
+    "en": "to connect",
+    "uk": "підключитися",
+    "ru": "подключиться",
+    "pl": "połączyć się",
+    "de": "verbinden",
+    "fr": "se connecter",
+    "es": "conectarse",
+    "it": "connettersi",
+    "pt": "conectar",
+    "tr": "bağlanmak"
+   },
+   "ex": {
+    "en": "I cannot connect to the wifi."
+   }
+  },
+  {
+   "id": "it.to-disconnect",
+   "t": {
+    "en": "to disconnect",
+    "uk": "відключитися",
+    "ru": "отключиться",
+    "pl": "rozłączyć się",
+    "de": "trennen",
+    "fr": "se déconnecter",
+    "es": "desconectarse",
+    "it": "disconnettersi",
+    "pt": "desconectar",
+    "tr": "bağlantıyı kesmek"
+   },
+   "ex": {
+    "en": "The call disconnected twice."
+   }
+  },
+  {
+   "id": "it.to-reset",
+   "t": {
+    "en": "to reset",
+    "uk": "скинути",
+    "ru": "сбросить",
+    "pl": "zresetować",
+    "de": "zurücksetzen",
+    "fr": "réinitialiser",
+    "es": "restablecer",
+    "it": "resettare",
+    "pt": "redefinir",
+    "tr": "sıfırlamak"
+   },
+   "ex": {
+    "en": "Reset your password here."
+   }
+  },
+  {
+   "id": "it.spam",
+   "t": {
+    "en": "spam",
+    "uk": "спам",
+    "ru": "спам",
+    "pl": "spam",
+    "de": "Spam",
+    "fr": "spam",
+    "es": "spam",
+    "it": "spam",
+    "pt": "spam",
+    "tr": "spam"
+   },
+   "ex": {
+    "en": "Check your spam folder."
+   }
+  },
+  {
+   "id": "it.virus",
+   "t": {
+    "en": "virus",
+    "uk": "вірус",
+    "ru": "вирус",
+    "pl": "wirus",
+    "de": "Virus",
+    "fr": "virus",
+    "es": "virus",
+    "it": "virus",
+    "pt": "vírus",
+    "tr": "virüs"
+   },
+   "ex": {
+    "en": "My laptop has a virus."
+   }
+  },
+  {
+   "id": "it.to-scroll",
+   "t": {
+    "en": "to scroll",
+    "uk": "гортати",
+    "ru": "прокручивать",
+    "pl": "przewijać",
+    "de": "scrollen",
+    "fr": "faire défiler",
+    "es": "desplazarse",
+    "it": "scorrere",
+    "pt": "rolar",
+    "tr": "kaydırmak"
+   },
+   "ex": {
+    "en": "Scroll down to see more."
+   }
+  },
+  {
+   "id": "it.to-zoom-in",
+   "t": {
+    "en": "to zoom in",
+    "uk": "збільшити",
+    "ru": "увеличить",
+    "pl": "powiększyć",
+    "de": "heranzoomen",
+    "fr": "zoomer",
+    "es": "ampliar",
+    "it": "ingrandire",
+    "pt": "dar zoom",
+    "tr": "yakınlaştırmak"
+   },
+   "ex": {
+    "en": "Zoom in to read the text."
+   }
+  },
+  {
+   "id": "it.shortcut",
+   "t": {
+    "en": "shortcut",
+    "uk": "гаряча клавіша",
+    "ru": "горячая клавиша",
+    "pl": "skrót klawiszowy",
+    "de": "Tastenkombination",
+    "fr": "raccourci clavier",
+    "es": "atajo de teclado",
+    "it": "scorciatoia",
+    "pt": "atalho",
+    "tr": "kısayol"
+   },
+   "ex": {
+    "en": "Use a shortcut to save time."
+   }
+  }
+ ]
+}

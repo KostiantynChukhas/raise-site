@@ -1,0 +1,530 @@
+{
+ "id": "emotions-a2",
+ "topic": "emotions",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emotions.to-be-nervous",
+   "t": {
+    "en": "to be nervous",
+    "uk": "нервувати",
+    "ru": "нервничать",
+    "pl": "denerwować się",
+    "de": "nervös sein",
+    "fr": "être nerveux",
+    "es": "estar nervioso",
+    "it": "essere nervoso",
+    "pt": "estar nervoso",
+    "tr": "gergin olmak"
+   },
+   "ex": {
+    "en": "I am nervous before the exam."
+   }
+  },
+  {
+   "id": "emotions.shy",
+   "t": {
+    "en": "shy",
+    "uk": "сором'язливий",
+    "ru": "застенчивый",
+    "pl": "nieśmiały",
+    "de": "schüchtern",
+    "fr": "timide",
+    "es": "tímido",
+    "it": "timido",
+    "pt": "tímido",
+    "tr": "utangaç"
+   },
+   "ex": {
+    "en": "My son is shy with strangers."
+   }
+  },
+  {
+   "id": "emotions.proud",
+   "t": {
+    "en": "proud",
+    "uk": "гордий",
+    "ru": "гордый",
+    "pl": "dumny",
+    "de": "stolz",
+    "fr": "fier",
+    "es": "orgulloso",
+    "it": "orgoglioso",
+    "pt": "orgulhoso",
+    "tr": "gururlu"
+   },
+   "ex": {
+    "en": "We are proud of you."
+   }
+  },
+  {
+   "id": "emotions.jealous",
+   "t": {
+    "en": "jealous",
+    "uk": "ревнивий",
+    "ru": "ревнивый",
+    "pl": "zazdrosny",
+    "de": "eifersüchtig",
+    "fr": "jaloux",
+    "es": "celoso",
+    "it": "geloso",
+    "pt": "ciumento",
+    "tr": "kıskanç"
+   },
+   "ex": {
+    "en": "Her boyfriend is very jealous."
+   }
+  },
+  {
+   "id": "emotions.disappointed",
+   "t": {
+    "en": "disappointed",
+    "uk": "розчарований",
+    "ru": "разочарованный",
+    "pl": "rozczarowany",
+    "de": "enttäuscht",
+    "fr": "déçu",
+    "es": "decepcionado",
+    "it": "deluso",
+    "pt": "decepcionado",
+    "tr": "hayal kırıklığına uğramış"
+   },
+   "ex": {
+    "en": "I was disappointed with the result."
+   }
+  },
+  {
+   "id": "emotions.relaxed",
+   "t": {
+    "en": "relaxed",
+    "uk": "розслаблений",
+    "ru": "расслабленный",
+    "pl": "zrelaksowany",
+    "de": "entspannt",
+    "fr": "détendu",
+    "es": "relajado",
+    "it": "rilassato",
+    "pt": "relaxado",
+    "tr": "rahat"
+   },
+   "ex": {
+    "en": "I feel relaxed on the beach."
+   }
+  },
+  {
+   "id": "emotions.stressed",
+   "t": {
+    "en": "stressed",
+    "uk": "у стресі",
+    "ru": "в стрессе",
+    "pl": "zestresowany",
+    "de": "gestresst",
+    "fr": "stressé",
+    "es": "estresado",
+    "it": "stressato",
+    "pt": "estressado",
+    "tr": "stresli"
+   },
+   "ex": {
+    "en": "She is stressed at work."
+   }
+  },
+  {
+   "id": "emotions.embarrassed",
+   "t": {
+    "en": "embarrassed",
+    "uk": "збентежений",
+    "ru": "смущённый",
+    "pl": "zawstydzony",
+    "de": "verlegen",
+    "fr": "gêné",
+    "es": "avergonzado",
+    "it": "imbarazzato",
+    "pt": "envergonhado",
+    "tr": "mahcup"
+   },
+   "ex": {
+    "en": "I was embarrassed by my mistake."
+   }
+  },
+  {
+   "id": "emotions.confused",
+   "t": {
+    "en": "confused",
+    "uk": "розгублений",
+    "ru": "растерянный",
+    "pl": "zdezorientowany",
+    "de": "verwirrt",
+    "fr": "perdu",
+    "es": "confundido",
+    "it": "confuso",
+    "pt": "confuso",
+    "tr": "kafası karışmış"
+   },
+   "ex": {
+    "en": "I am confused by these rules."
+   }
+  },
+  {
+   "id": "emotions.upset",
+   "t": {
+    "en": "upset",
+    "uk": "засмучений",
+    "ru": "расстроенный",
+    "pl": "zdenerwowany",
+    "de": "aufgebracht",
+    "fr": "contrarié",
+    "es": "disgustado",
+    "it": "turbato",
+    "pt": "chateado",
+    "tr": "keyfi kaçmış"
+   },
+   "ex": {
+    "en": "She is upset about the news."
+   }
+  },
+  {
+   "id": "emotions.in-a-good-mood",
+   "t": {
+    "en": "in a good mood",
+    "uk": "у гарному настрої",
+    "ru": "в хорошем настроении",
+    "pl": "w dobrym humorze",
+    "de": "gut gelaunt",
+    "fr": "de bonne humeur",
+    "es": "de buen humor",
+    "it": "di buon umore",
+    "pt": "de bom humor",
+    "tr": "keyfi yerinde"
+   },
+   "ex": {
+    "en": "The boss is in a good mood today."
+   }
+  },
+  {
+   "id": "emotions.in-a-bad-mood",
+   "t": {
+    "en": "in a bad mood",
+    "uk": "у поганому настрої",
+    "ru": "в плохом настроении",
+    "pl": "w złym humorze",
+    "de": "schlecht gelaunt",
+    "fr": "de mauvaise humeur",
+    "es": "de mal humor",
+    "it": "di cattivo umore",
+    "pt": "de mau humor",
+    "tr": "keyifsiz"
+   },
+   "ex": {
+    "en": "Don't talk to him, he's in a bad mood."
+   }
+  },
+  {
+   "id": "emotions.to-miss",
+   "t": {
+    "en": "to miss (someone)",
+    "uk": "сумувати за",
+    "ru": "скучать по",
+    "pl": "tęsknić za",
+    "de": "vermissen",
+    "fr": "manquer",
+    "es": "echar de menos",
+    "it": "sentire la mancanza di",
+    "pt": "sentir falta de",
+    "tr": "özlemek"
+   },
+   "ex": {
+    "en": "I miss my friends."
+   }
+  },
+  {
+   "id": "emotions.to-hate",
+   "t": {
+    "en": "to hate",
+    "uk": "ненавидіти",
+    "ru": "ненавидеть",
+    "pl": "nienawidzić",
+    "de": "hassen",
+    "fr": "détester",
+    "es": "odiar",
+    "it": "odiare",
+    "pt": "odiar",
+    "tr": "nefret etmek"
+   },
+   "ex": {
+    "en": "I hate waiting in line."
+   }
+  },
+  {
+   "id": "emotions.to-enjoy",
+   "t": {
+    "en": "to enjoy",
+    "uk": "насолоджуватися",
+    "ru": "наслаждаться",
+    "pl": "cieszyć się",
+    "de": "genießen",
+    "fr": "profiter de",
+    "es": "disfrutar",
+    "it": "godersi",
+    "pt": "aproveitar",
+    "tr": "keyif almak"
+   },
+   "ex": {
+    "en": "Enjoy your weekend!"
+   }
+  },
+  {
+   "id": "emotions.to-hope",
+   "t": {
+    "en": "to hope",
+    "uk": "сподіватися",
+    "ru": "надеяться",
+    "pl": "mieć nadzieję",
+    "de": "hoffen",
+    "fr": "espérer",
+    "es": "esperar",
+    "it": "sperare",
+    "pt": "esperar",
+    "tr": "ummak"
+   },
+   "ex": {
+    "en": "I hope you feel better soon."
+   }
+  },
+  {
+   "id": "emotions.to-be-afraid-of",
+   "t": {
+    "en": "to be afraid of",
+    "uk": "боятися",
+    "ru": "бояться",
+    "pl": "bać się",
+    "de": "Angst haben vor",
+    "fr": "avoir peur de",
+    "es": "tener miedo de",
+    "it": "avere paura di",
+    "pt": "ter medo de",
+    "tr": "korkmak"
+   },
+   "ex": {
+    "en": "I am afraid of spiders."
+   }
+  },
+  {
+   "id": "emotions.mood",
+   "t": {
+    "en": "mood",
+    "uk": "настрій",
+    "ru": "настроение",
+    "pl": "nastrój",
+    "de": "Stimmung",
+    "fr": "humeur",
+    "es": "estado de ánimo",
+    "it": "umore",
+    "pt": "humor",
+    "tr": "ruh hali"
+   },
+   "ex": {
+    "en": "Music changes my mood."
+   }
+  },
+  {
+   "id": "emotions.to-be-in-love",
+   "t": {
+    "en": "to be in love",
+    "uk": "бути закоханим",
+    "ru": "быть влюблённым",
+    "pl": "być zakochanym",
+    "de": "verliebt sein",
+    "fr": "être amoureux",
+    "es": "estar enamorado",
+    "it": "essere innamorato",
+    "pt": "estar apaixonado",
+    "tr": "aşık olmak"
+   },
+   "ex": {
+    "en": "They are in love."
+   }
+  },
+  {
+   "id": "emotions.to-get-angry",
+   "t": {
+    "en": "to get angry",
+    "uk": "розізлитися",
+    "ru": "разозлиться",
+    "pl": "rozzłościć się",
+    "de": "wütend werden",
+    "fr": "se mettre en colère",
+    "es": "enfadarse",
+    "it": "arrabbiarsi",
+    "pt": "ficar bravo",
+    "tr": "kızmak"
+   },
+   "ex": {
+    "en": "Please don't get angry."
+   }
+  },
+  {
+   "id": "emotions.glad",
+   "t": {
+    "en": "glad",
+    "uk": "радий",
+    "ru": "рад",
+    "pl": "ucieszony",
+    "de": "froh",
+    "fr": "content",
+    "es": "contento",
+    "it": "contento",
+    "pt": "contente",
+    "tr": "memnun"
+   },
+   "ex": {
+    "en": "I'm glad you came."
+   }
+  },
+  {
+   "id": "emotions.i-dont-care",
+   "t": {
+    "en": "I don't care",
+    "uk": "мені байдуже",
+    "ru": "мне всё равно",
+    "pl": "nie obchodzi mnie to",
+    "de": "das ist mir egal",
+    "fr": "ça m'est égal",
+    "es": "me da igual",
+    "it": "non mi importa",
+    "pt": "não me importo",
+    "tr": "umurumda değil"
+   },
+   "ex": {
+    "en": "Honestly, I don't care what they think."
+   }
+  },
+  {
+   "id": "emotions.to-have-fun",
+   "t": {
+    "en": "to have fun",
+    "uk": "веселитися",
+    "ru": "веселиться",
+    "pl": "dobrze się bawić",
+    "de": "Spaß haben",
+    "fr": "s'amuser",
+    "es": "divertirse",
+    "it": "divertirsi",
+    "pt": "se divertir",
+    "tr": "eğlenmek"
+   },
+   "ex": {
+    "en": "We had fun at the party."
+   }
+  },
+  {
+   "id": "emotions.to-be-fed-up",
+   "t": {
+    "en": "to be fed up",
+    "uk": "бути ситим по горло",
+    "ru": "быть сытым по горло",
+    "pl": "mieć dość",
+    "de": "die Nase voll haben",
+    "fr": "en avoir marre",
+    "es": "estar harto",
+    "it": "essere stufo",
+    "pt": "estar farto",
+    "tr": "bıkmak"
+   },
+   "ex": {
+    "en": "I'm fed up with this noise."
+   }
+  },
+  {
+   "id": "emotions.to-complain",
+   "t": {
+    "en": "to complain",
+    "uk": "скаржитися",
+    "ru": "жаловаться",
+    "pl": "narzekać",
+    "de": "sich beschweren",
+    "fr": "se plaindre",
+    "es": "quejarse",
+    "it": "lamentarsi",
+    "pt": "reclamar",
+    "tr": "şikayet etmek"
+   },
+   "ex": {
+    "en": "He always complains about the weather."
+   }
+  },
+  {
+   "id": "emotions.to-disagree",
+   "t": {
+    "en": "to disagree",
+    "uk": "не погоджуватися",
+    "ru": "не соглашаться",
+    "pl": "nie zgadzać się",
+    "de": "nicht zustimmen",
+    "fr": "ne pas être d'accord",
+    "es": "no estar de acuerdo",
+    "it": "non essere d'accordo",
+    "pt": "discordar",
+    "tr": "katılmamak"
+   },
+   "ex": {
+    "en": "Sorry, I disagree."
+   }
+  },
+  {
+   "id": "emotions.in-my-opinion",
+   "t": {
+    "en": "in my opinion",
+    "uk": "на мою думку",
+    "ru": "по-моему",
+    "pl": "moim zdaniem",
+    "de": "meiner Meinung nach",
+    "fr": "à mon avis",
+    "es": "en mi opinión",
+    "it": "secondo me",
+    "pt": "na minha opinião",
+    "tr": "bence"
+   },
+   "ex": {
+    "en": "In my opinion, it's too expensive."
+   }
+  },
+  {
+   "id": "emotions.i-think-that",
+   "t": {
+    "en": "I think that...",
+    "uk": "я думаю, що",
+    "ru": "я думаю, что",
+    "pl": "myślę, że",
+    "de": "ich glaube, dass",
+    "fr": "je pense que",
+    "es": "creo que",
+    "it": "penso che",
+    "pt": "eu acho que",
+    "tr": "sanırım"
+   },
+   "ex": {
+    "en": "I think that he is right."
+   }
+  },
+  {
+   "id": "emotions.sure",
+   "t": {
+    "en": "sure",
+    "uk": "впевнений",
+    "ru": "уверенный",
+    "pl": "pewny",
+    "de": "sicher",
+    "fr": "sûr",
+    "es": "seguro",
+    "it": "sicuro",
+    "pt": "seguro",
+    "tr": "emin"
+   },
+   "ex": {
+    "en": "Are you sure about this?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "food-a2",
+ "topic": "food",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "food.soup",
+   "t": {
+    "en": "soup",
+    "uk": "суп",
+    "ru": "суп",
+    "pl": "zupa",
+    "de": "Suppe",
+    "fr": "soupe",
+    "es": "sopa",
+    "it": "zuppa",
+    "pt": "sopa",
+    "tr": "çorba"
+   },
+   "ex": {
+    "en": "The soup of the day is tomato."
+   }
+  },
+  {
+   "id": "food.salad",
+   "t": {
+    "en": "salad",
+    "uk": "салат",
+    "ru": "салат",
+    "pl": "sałatka",
+    "de": "Salat",
+    "fr": "salade",
+    "es": "ensalada",
+    "it": "insalata",
+    "pt": "salada",
+    "tr": "salata"
+   },
+   "ex": {
+    "en": "I'll have a green salad."
+   }
+  },
+  {
+   "id": "food.sandwich",
+   "t": {
+    "en": "sandwich",
+    "uk": "сендвіч",
+    "ru": "сэндвич",
+    "pl": "kanapka",
+    "de": "Sandwich",
+    "fr": "sandwich",
+    "es": "sándwich",
+    "it": "panino",
+    "pt": "sanduíche",
+    "tr": "sandviç"
+   },
+   "ex": {
+    "en": "I made a cheese sandwich."
+   }
+  },
+  {
+   "id": "food.pizza",
+   "t": {
+    "en": "pizza",
+    "uk": "піца",
+    "ru": "пицца",
+    "pl": "pizza",
+    "de": "Pizza",
+    "fr": "pizza",
+    "es": "pizza",
+    "it": "pizza",
+    "pt": "pizza",
+    "tr": "pizza"
+   },
+   "ex": {
+    "en": "Let's order pizza tonight."
+   }
+  },
+  {
+   "id": "food.pasta",
+   "t": {
+    "en": "pasta",
+    "uk": "макарони",
+    "ru": "макароны",
+    "pl": "makaron",
+    "de": "Nudeln",
+    "fr": "pâtes",
+    "es": "pasta",
+    "it": "pasta",
+    "pt": "macarrão",
+    "tr": "makarna"
+   },
+   "ex": {
+    "en": "Pasta is quick to cook."
+   }
+  },
+  {
+   "id": "food.potato",
+   "t": {
+    "en": "potato",
+    "uk": "картопля",
+    "ru": "картофель",
+    "pl": "ziemniak",
+    "de": "Kartoffel",
+    "fr": "pomme de terre",
+    "es": "patata",
+    "it": "patata",
+    "pt": "batata",
+    "tr": "patates"
+   },
+   "ex": {
+    "en": "Potatoes grow well here."
+   }
+  },
+  {
+   "id": "food.onion",
+   "t": {
+    "en": "onion",
+    "uk": "цибуля",
+    "ru": "лук",
+    "pl": "cebula",
+    "de": "Zwiebel",
+    "fr": "oignon",
+    "es": "cebolla",
+    "it": "cipolla",
+    "pt": "cebola",
+    "tr": "soğan"
+   },
+   "ex": {
+    "en": "Cut the onion into small pieces."
+   }
+  },
+  {
+   "id": "food.butter",
+   "t": {
+    "en": "butter",
+    "uk": "вершкове масло",
+    "ru": "сливочное масло",
+    "pl": "masło",
+    "de": "Butter",
+    "fr": "beurre",
+    "es": "mantequilla",
+    "it": "burro",
+    "pt": "manteiga",
+    "tr": "tereyağı"
+   },
+   "ex": {
+    "en": "Spread butter on the toast."
+   }
+  },
+  {
+   "id": "food.oil",
+   "t": {
+    "en": "oil",
+    "uk": "олія",
+    "ru": "растительное масло",
+    "pl": "olej",
+    "de": "Öl",
+    "fr": "huile",
+    "es": "aceite",
+    "it": "olio",
+    "pt": "óleo",
+    "tr": "yağ"
+   },
+   "ex": {
+    "en": "Heat some oil in the pan."
+   }
+  },
+  {
+   "id": "food.dessert",
+   "t": {
+    "en": "dessert",
+    "uk": "десерт",
+    "ru": "десерт",
+    "pl": "deser",
+    "de": "Nachtisch",
+    "fr": "dessert",
+    "es": "postre",
+    "it": "dolce",
+    "pt": "sobremesa",
+    "tr": "tatlı"
+   },
+   "ex": {
+    "en": "Would you like a dessert?"
+   }
+  },
+  {
+   "id": "food.ice-cream",
+   "t": {
+    "en": "ice cream",
+    "uk": "морозиво",
+    "ru": "мороженое",
+    "pl": "lody",
+    "de": "Eis",
+    "fr": "glace",
+    "es": "helado",
+    "it": "gelato",
+    "pt": "sorvete",
+    "tr": "dondurma"
+   },
+   "ex": {
+    "en": "The kids want ice cream."
+   }
+  },
+  {
+   "id": "food.cake",
+   "t": {
+    "en": "cake",
+    "uk": "торт",
+    "ru": "торт",
+    "pl": "ciasto",
+    "de": "Kuchen",
+    "fr": "gâteau",
+    "es": "pastel",
+    "it": "torta",
+    "pt": "bolo",
+    "tr": "kek"
+   },
+   "ex": {
+    "en": "She baked a chocolate cake."
+   }
+  },
+  {
+   "id": "food.juice",
+   "t": {
+    "en": "juice",
+    "uk": "сік",
+    "ru": "сок",
+    "pl": "sok",
+    "de": "Saft",
+    "fr": "jus",
+    "es": "zumo",
+    "it": "succo",
+    "pt": "suco",
+    "tr": "meyve suyu"
+   },
+   "ex": {
+    "en": "A glass of orange juice, please."
+   }
+  },
+  {
+   "id": "food.sparkling-water",
+   "t": {
+    "en": "sparkling water",
+    "uk": "газована вода",
+    "ru": "газированная вода",
+    "pl": "woda gazowana",
+    "de": "Sprudelwasser",
+    "fr": "eau gazeuse",
+    "es": "agua con gas",
+    "it": "acqua frizzante",
+    "pt": "água com gás",
+    "tr": "soda"
+   },
+   "ex": {
+    "en": "Still or sparkling water?"
+   }
+  },
+  {
+   "id": "food.fork",
+   "t": {
+    "en": "fork",
+    "uk": "виделка",
+    "ru": "вилка",
+    "pl": "widelec",
+    "de": "Gabel",
+    "fr": "fourchette",
+    "es": "tenedor",
+    "it": "forchetta",
+    "pt": "garfo",
+    "tr": "çatal"
+   },
+   "ex": {
+    "en": "Could I have a fork?"
+   }
+  },
+  {
+   "id": "food.knife",
+   "t": {
+    "en": "knife",
+    "uk": "ніж",
+    "ru": "нож",
+    "pl": "nóż",
+    "de": "Messer",
+    "fr": "couteau",
+    "es": "cuchillo",
+    "it": "coltello",
+    "pt": "faca",
+    "tr": "bıçak"
+   },
+   "ex": {
+    "en": "This knife is not sharp."
+   }
+  },
+  {
+   "id": "food.spoon",
+   "t": {
+    "en": "spoon",
+    "uk": "ложка",
+    "ru": "ложка",
+    "pl": "łyżka",
+    "de": "Löffel",
+    "fr": "cuillère",
+    "es": "cuchara",
+    "it": "cucchiaio",
+    "pt": "colher",
+    "tr": "kaşık"
+   },
+   "ex": {
+    "en": "Eat the soup with a spoon."
+   }
+  },
+  {
+   "id": "food.plate",
+   "t": {
+    "en": "plate",
+    "uk": "тарілка",
+    "ru": "тарелка",
+    "pl": "talerz",
+    "de": "Teller",
+    "fr": "assiette",
+    "es": "plato",
+    "it": "piatto",
+    "pt": "prato",
+    "tr": "tabak"
+   },
+   "ex": {
+    "en": "Put the plates on the table."
+   }
+  },
+  {
+   "id": "food.glass",
+   "t": {
+    "en": "glass",
+    "uk": "склянка",
+    "ru": "стакан",
+    "pl": "szklanka",
+    "de": "Glas",
+    "fr": "verre",
+    "es": "vaso",
+    "it": "bicchiere",
+    "pt": "copo",
+    "tr": "bardak"
+   },
+   "ex": {
+    "en": "Pour the water into a glass."
+   }
+  },
+  {
+   "id": "food.to-cook",
+   "t": {
+    "en": "to cook",
+    "uk": "готувати",
+    "ru": "готовить",
+    "pl": "gotować",
+    "de": "kochen",
+    "fr": "cuisiner",
+    "es": "cocinar",
+    "it": "cucinare",
+    "pt": "cozinhar",
+    "tr": "yemek yapmak"
+   },
+   "ex": {
+    "en": "I cook dinner every evening."
+   }
+  },
+  {
+   "id": "food.to-order",
+   "t": {
+    "en": "to order",
+    "uk": "замовляти",
+    "ru": "заказывать",
+    "pl": "zamawiać",
+    "de": "bestellen",
+    "fr": "commander",
+    "es": "pedir",
+    "it": "ordinare",
+    "pt": "pedir",
+    "tr": "sipariş vermek"
+   },
+   "ex": {
+    "en": "Are you ready to order?"
+   }
+  },
+  {
+   "id": "food.to-book-a-table",
+   "t": {
+    "en": "to book a table",
+    "uk": "забронювати столик",
+    "ru": "забронировать столик",
+    "pl": "zarezerwować stolik",
+    "de": "einen Tisch reservieren",
+    "fr": "réserver une table",
+    "es": "reservar una mesa",
+    "it": "prenotare un tavolo",
+    "pt": "reservar uma mesa",
+    "tr": "masa ayırtmak"
+   },
+   "ex": {
+    "en": "I booked a table for seven."
+   }
+  },
+  {
+   "id": "food.takeaway",
+   "t": {
+    "en": "takeaway",
+    "uk": "їжа на винос",
+    "ru": "еда навынос",
+    "pl": "na wynos",
+    "de": "zum Mitnehmen",
+    "fr": "à emporter",
+    "es": "para llevar",
+    "it": "da asporto",
+    "pt": "para viagem",
+    "tr": "paket servis"
+   },
+   "ex": {
+    "en": "Let's get a takeaway tonight."
+   }
+  },
+  {
+   "id": "food.vegetarian",
+   "t": {
+    "en": "vegetarian",
+    "uk": "вегетаріанський",
+    "ru": "вегетарианский",
+    "pl": "wegetariański",
+    "de": "vegetarisch",
+    "fr": "végétarien",
+    "es": "vegetariano",
+    "it": "vegetariano",
+    "pt": "vegetariano",
+    "tr": "vejetaryen"
+   },
+   "ex": {
+    "en": "Do you have vegetarian dishes?"
+   }
+  },
+  {
+   "id": "food.spicy",
+   "t": {
+    "en": "spicy",
+    "uk": "гострий",
+    "ru": "острый",
+    "pl": "ostry",
+    "de": "scharf",
+    "fr": "épicé",
+    "es": "picante",
+    "it": "piccante",
+    "pt": "apimentado",
+    "tr": "acı"
+   },
+   "ex": {
+    "en": "Is this dish very spicy?"
+   }
+  },
+  {
+   "id": "food.sweet",
+   "t": {
+    "en": "sweet",
+    "uk": "солодкий",
+    "ru": "сладкий",
+    "pl": "słodki",
+    "de": "süß",
+    "fr": "sucré",
+    "es": "dulce",
+    "it": "dolce",
+    "pt": "doce",
+    "tr": "tatlı"
+   },
+   "ex": {
+    "en": "The tea is too sweet."
+   }
+  },
+  {
+   "id": "food.fresh",
+   "t": {
+    "en": "fresh",
+    "uk": "свіжий",
+    "ru": "свежий",
+    "pl": "świeży",
+    "de": "frisch",
+    "fr": "frais",
+    "es": "fresco",
+    "it": "fresco",
+    "pt": "fresco",
+    "tr": "taze"
+   },
+   "ex": {
+    "en": "The bread is still fresh."
+   }
+  },
+  {
+   "id": "food.im-full",
+   "t": {
+    "en": "I'm full",
+    "uk": "я наївся",
+    "ru": "я наелся",
+    "pl": "najadłem się",
+    "de": "ich bin satt",
+    "fr": "je n'ai plus faim",
+    "es": "estoy lleno",
+    "it": "sono pieno",
+    "pt": "estou satisfeito",
+    "tr": "doydum"
+   },
+   "ex": {
+    "en": "No dessert, thanks, I'm full."
+   }
+  },
+  {
+   "id": "food.snack",
+   "t": {
+    "en": "snack",
+    "uk": "перекус",
+    "ru": "перекус",
+    "pl": "przekąska",
+    "de": "Snack",
+    "fr": "en-cas",
+    "es": "tentempié",
+    "it": "spuntino",
+    "pt": "lanche",
+    "tr": "atıştırmalık"
+   },
+   "ex": {
+    "en": "I need a quick snack."
+   }
+  }
+ ]
+}

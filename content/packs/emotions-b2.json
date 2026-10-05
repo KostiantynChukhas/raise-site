@@ -1,0 +1,548 @@
+{
+ "id": "emotions-b2",
+ "topic": "emotions",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emotions.resentment",
+   "t": {
+    "en": "resentment",
+    "uk": "образа",
+    "ru": "обида",
+    "pl": "uraza",
+    "de": "Groll",
+    "fr": "ressentiment",
+    "es": "resentimiento",
+    "it": "risentimento",
+    "pt": "ressentimento",
+    "tr": "kırgınlık"
+   },
+   "ex": {
+    "en": "He still feels resentment towards his former boss."
+   }
+  },
+  {
+   "id": "emotions.contempt",
+   "t": {
+    "en": "contempt",
+    "uk": "зневага",
+    "ru": "презрение",
+    "pl": "pogarda",
+    "de": "Verachtung",
+    "fr": "mépris",
+    "es": "desprecio",
+    "it": "disprezzo",
+    "pt": "desprezo",
+    "tr": "küçümseme"
+   },
+   "ex": {
+    "en": "She looked at him with contempt."
+   }
+  },
+  {
+   "id": "emotions.empathy",
+   "t": {
+    "en": "empathy",
+    "uk": "емпатія",
+    "ru": "эмпатия",
+    "pl": "empatia",
+    "de": "Empathie",
+    "fr": "empathie",
+    "es": "empatía",
+    "it": "empatia",
+    "pt": "empatia",
+    "tr": "empati"
+   },
+   "ex": {
+    "en": "Good managers show empathy."
+   }
+  },
+  {
+   "id": "emotions.compassion",
+   "t": {
+    "en": "compassion",
+    "uk": "співчуття",
+    "ru": "сострадание",
+    "pl": "współczucie",
+    "de": "Mitgefühl",
+    "fr": "compassion",
+    "es": "compasión",
+    "it": "compassione",
+    "pt": "compaixão",
+    "tr": "şefkat"
+   },
+   "ex": {
+    "en": "The nurse treated him with compassion."
+   }
+  },
+  {
+   "id": "emotions.indifference",
+   "t": {
+    "en": "indifference",
+    "uk": "байдужість",
+    "ru": "безразличие",
+    "pl": "obojętność",
+    "de": "Gleichgültigkeit",
+    "fr": "indifférence",
+    "es": "indiferencia",
+    "it": "indifferenza",
+    "pt": "indiferença",
+    "tr": "kayıtsızlık"
+   },
+   "ex": {
+    "en": "His indifference hurt her deeply."
+   }
+  },
+  {
+   "id": "emotions.enthusiasm",
+   "t": {
+    "en": "enthusiasm",
+    "uk": "ентузіазм",
+    "ru": "энтузиазм",
+    "pl": "entuzjazm",
+    "de": "Begeisterung",
+    "fr": "enthousiasme",
+    "es": "entusiasmo",
+    "it": "entusiasmo",
+    "pt": "entusiasmo",
+    "tr": "coşku"
+   },
+   "ex": {
+    "en": "The team welcomed the plan with enthusiasm."
+   }
+  },
+  {
+   "id": "emotions.melancholy",
+   "t": {
+    "en": "melancholy",
+    "uk": "меланхолія",
+    "ru": "меланхолия",
+    "pl": "melancholia",
+    "de": "Melancholie",
+    "fr": "mélancolie",
+    "es": "melancolía",
+    "it": "malinconia",
+    "pt": "melancolia",
+    "tr": "hüzün"
+   },
+   "ex": {
+    "en": "Autumn fills me with melancholy."
+   }
+  },
+  {
+   "id": "emotions.irritable",
+   "t": {
+    "en": "irritable",
+    "uk": "дратівливий",
+    "ru": "раздражительный",
+    "pl": "drażliwy",
+    "de": "reizbar",
+    "fr": "irritable",
+    "es": "irritable",
+    "it": "irritabile",
+    "pt": "irritável",
+    "tr": "asabi"
+   },
+   "ex": {
+    "en": "He gets irritable when he's hungry."
+   }
+  },
+  {
+   "id": "emotions.apprehensive",
+   "t": {
+    "en": "apprehensive",
+    "uk": "стривожений",
+    "ru": "опасающийся",
+    "pl": "pełen obaw",
+    "de": "beklommen",
+    "fr": "plein d'appréhension",
+    "es": "aprensivo",
+    "it": "apprensivo",
+    "pt": "apreensivo",
+    "tr": "tedirgin"
+   },
+   "ex": {
+    "en": "I'm apprehensive about the surgery."
+   }
+  },
+  {
+   "id": "emotions.exasperated",
+   "t": {
+    "en": "exasperated",
+    "uk": "доведений до відчаю",
+    "ru": "выведенный из себя",
+    "pl": "rozdrażniony",
+    "de": "entnervt",
+    "fr": "exaspéré",
+    "es": "exasperado",
+    "it": "esasperato",
+    "pt": "exasperado",
+    "tr": "çileden çıkmış"
+   },
+   "ex": {
+    "en": "The teacher was exasperated by the noise."
+   }
+  },
+  {
+   "id": "emotions.overjoyed",
+   "t": {
+    "en": "overjoyed",
+    "uk": "безмежно щасливий",
+    "ru": "вне себя от радости",
+    "pl": "przeszczęśliwy",
+    "de": "überglücklich",
+    "fr": "fou de joie",
+    "es": "loco de alegría",
+    "it": "felicissimo",
+    "pt": "radiante",
+    "tr": "sevinçten uçmuş"
+   },
+   "ex": {
+    "en": "They were overjoyed at the news."
+   }
+  },
+  {
+   "id": "emotions.devastated",
+   "t": {
+    "en": "devastated",
+    "uk": "спустошений",
+    "ru": "опустошённый",
+    "pl": "zdruzgotany",
+    "de": "am Boden zerstört",
+    "fr": "anéanti",
+    "es": "destrozado",
+    "it": "distrutto",
+    "pt": "arrasado",
+    "tr": "yıkılmış"
+   },
+   "ex": {
+    "en": "She was devastated by the loss."
+   }
+  },
+  {
+   "id": "emotions.thrilled",
+   "t": {
+    "en": "thrilled",
+    "uk": "у захваті",
+    "ru": "в восторге",
+    "pl": "zachwycony",
+    "de": "begeistert",
+    "fr": "ravi",
+    "es": "encantado",
+    "it": "entusiasta",
+    "pt": "empolgado",
+    "tr": "çok heyecanlı"
+   },
+   "ex": {
+    "en": "I'm thrilled to join the team."
+   }
+  },
+  {
+   "id": "emotions.bitter",
+   "t": {
+    "en": "bitter",
+    "uk": "озлоблений",
+    "ru": "озлобленный",
+    "pl": "zgorzkniały",
+    "de": "verbittert",
+    "fr": "amer",
+    "es": "amargado",
+    "it": "amareggiato",
+    "pt": "amargurado",
+    "tr": "küskün"
+   },
+   "ex": {
+    "en": "He became bitter after the divorce."
+   }
+  },
+  {
+   "id": "emotions.to-dread",
+   "t": {
+    "en": "to dread",
+    "uk": "страшенно боятися",
+    "ru": "страшиться",
+    "pl": "panicznie się bać",
+    "de": "sich grauen vor",
+    "fr": "redouter",
+    "es": "temer",
+    "it": "temere",
+    "pt": "temer",
+    "tr": "ödü kopmak"
+   },
+   "ex": {
+    "en": "I dread Monday meetings."
+   }
+  },
+  {
+   "id": "emotions.hesitant",
+   "t": {
+    "en": "hesitant",
+    "uk": "нерішучий",
+    "ru": "нерешительный",
+    "pl": "niezdecydowany",
+    "de": "zögerlich",
+    "fr": "hésitant",
+    "es": "indeciso",
+    "it": "esitante",
+    "pt": "hesitante",
+    "tr": "tereddütlü"
+   },
+   "ex": {
+    "en": "She was hesitant to accept the offer."
+   }
+  },
+  {
+   "id": "emotions.reluctantly",
+   "t": {
+    "en": "reluctantly",
+    "uk": "неохоче",
+    "ru": "неохотно",
+    "pl": "niechętnie",
+    "de": "widerwillig",
+    "fr": "à contrecœur",
+    "es": "de mala gana",
+    "it": "controvoglia",
+    "pt": "a contragosto",
+    "tr": "isteksizce"
+   },
+   "ex": {
+    "en": "He reluctantly agreed to help."
+   }
+  },
+  {
+   "id": "emotions.gloomy",
+   "t": {
+    "en": "gloomy",
+    "uk": "похмурий",
+    "ru": "мрачный",
+    "pl": "ponury",
+    "de": "düster",
+    "fr": "morose",
+    "es": "sombrío",
+    "it": "cupo",
+    "pt": "sombrio",
+    "tr": "kasvetli"
+   },
+   "ex": {
+    "en": "Why are you so gloomy today?"
+   }
+  },
+  {
+   "id": "emotions.uneasy",
+   "t": {
+    "en": "uneasy",
+    "uk": "неспокійний",
+    "ru": "неспокойный",
+    "pl": "zaniepokojony",
+    "de": "unbehaglich",
+    "fr": "mal à l'aise",
+    "es": "inquieto",
+    "it": "inquieto",
+    "pt": "inquieto",
+    "tr": "huzursuz"
+   },
+   "ex": {
+    "en": "I felt uneasy about the deal."
+   }
+  },
+  {
+   "id": "emotions.to-be-taken-aback",
+   "t": {
+    "en": "to be taken aback",
+    "uk": "сторопіти",
+    "ru": "опешить",
+    "pl": "osłupieć",
+    "de": "verblüfft sein",
+    "fr": "être décontenancé",
+    "es": "quedarse desconcertado",
+    "it": "rimanere sconcertato",
+    "pt": "ficar desconcertado",
+    "tr": "afallamak"
+   },
+   "ex": {
+    "en": "I was taken aback by his reaction."
+   }
+  },
+  {
+   "id": "emotions.to-take-offence",
+   "t": {
+    "en": "to take offence",
+    "uk": "образитися",
+    "ru": "обидеться",
+    "pl": "obrazić się",
+    "de": "beleidigt sein",
+    "fr": "se vexer",
+    "es": "ofenderse",
+    "it": "offendersi",
+    "pt": "ficar ofendido",
+    "tr": "alınmak"
+   },
+   "ex": {
+    "en": "Please don't take offence."
+   }
+  },
+  {
+   "id": "emotions.to-vent",
+   "t": {
+    "en": "to vent",
+    "uk": "випустити пару",
+    "ru": "выпустить пар",
+    "pl": "wyładować emocje",
+    "de": "Dampf ablassen",
+    "fr": "se défouler",
+    "es": "desahogarse",
+    "it": "sfogarsi",
+    "pt": "desabafar",
+    "tr": "içini dökmek"
+   },
+   "ex": {
+    "en": "Sometimes you just need to vent."
+   }
+  },
+  {
+   "id": "emotions.to-bottle-up-ones-feelings",
+   "t": {
+    "en": "to bottle up one's feelings",
+    "uk": "тримати почуття в собі",
+    "ru": "держать чувства в себе",
+    "pl": "tłumić uczucia",
+    "de": "Gefühle unterdrücken",
+    "fr": "refouler ses sentiments",
+    "es": "reprimir los sentimientos",
+    "it": "reprimere i sentimenti",
+    "pt": "guardar os sentimentos",
+    "tr": "duygularını bastırmak"
+   },
+   "ex": {
+    "en": "Don't bottle up your feelings."
+   }
+  },
+  {
+   "id": "emotions.to-get-carried-away",
+   "t": {
+    "en": "to get carried away",
+    "uk": "захопитися",
+    "ru": "увлечься",
+    "pl": "dać się ponieść",
+    "de": "sich hinreißen lassen",
+    "fr": "s'emballer",
+    "es": "dejarse llevar",
+    "it": "lasciarsi trasportare",
+    "pt": "se empolgar",
+    "tr": "kendini kaptırmak"
+   },
+   "ex": {
+    "en": "Sorry, I got carried away."
+   }
+  },
+  {
+   "id": "emotions.to-lose-heart",
+   "t": {
+    "en": "to lose heart",
+    "uk": "занепасти духом",
+    "ru": "пасть духом",
+    "pl": "tracić ducha",
+    "de": "den Mut verlieren",
+    "fr": "perdre courage",
+    "es": "desanimarse",
+    "it": "perdersi d'animo",
+    "pt": "desanimar",
+    "tr": "cesaretini kaybetmek"
+   },
+   "ex": {
+    "en": "Don't lose heart after one failure."
+   }
+  },
+  {
+   "id": "emotions.mixed-feelings",
+   "t": {
+    "en": "mixed feelings",
+    "uk": "змішані почуття",
+    "ru": "смешанные чувства",
+    "pl": "mieszane uczucia",
+    "de": "gemischte Gefühle",
+    "fr": "sentiments mitigés",
+    "es": "sentimientos encontrados",
+    "it": "sentimenti contrastanti",
+    "pt": "sentimentos contraditórios",
+    "tr": "karışık duygular"
+   },
+   "ex": {
+    "en": "I have mixed feelings about moving."
+   }
+  },
+  {
+   "id": "emotions.to-have-a-soft-spot-for",
+   "t": {
+    "en": "to have a soft spot for",
+    "uk": "мати слабкість до",
+    "ru": "питать слабость к",
+    "pl": "mieć słabość do",
+    "de": "eine Schwäche haben für",
+    "fr": "avoir un faible pour",
+    "es": "tener debilidad por",
+    "it": "avere un debole per",
+    "pt": "ter um fraco por",
+    "tr": "zaafı olmak"
+   },
+   "ex": {
+    "en": "She has a soft spot for stray cats."
+   }
+  },
+  {
+   "id": "emotions.to-hold-a-grudge",
+   "t": {
+    "en": "to hold a grudge",
+    "uk": "тримати образу",
+    "ru": "затаить обиду",
+    "pl": "chować urazę",
+    "de": "nachtragend sein",
+    "fr": "garder rancune",
+    "es": "guardar rencor",
+    "it": "serbare rancore",
+    "pt": "guardar rancor",
+    "tr": "kin tutmak"
+   },
+   "ex": {
+    "en": "He never holds a grudge."
+   }
+  },
+  {
+   "id": "emotions.to-be-in-two-minds",
+   "t": {
+    "en": "to be in two minds",
+    "uk": "вагатися",
+    "ru": "колебаться",
+    "pl": "wahać się",
+    "de": "hin- und hergerissen sein",
+    "fr": "être partagé",
+    "es": "estar indeciso",
+    "it": "essere combattuto",
+    "pt": "estar em dúvida",
+    "tr": "kararsız olmak"
+   },
+   "ex": {
+    "en": "I'm in two minds about the job offer."
+   }
+  },
+  {
+   "id": "emotions.with-all-due-respect",
+   "t": {
+    "en": "with all due respect",
+    "uk": "з усією повагою",
+    "ru": "при всём уважении",
+    "pl": "z całym szacunkiem",
+    "de": "bei allem Respekt",
+    "fr": "sauf votre respect",
+    "es": "con el debido respeto",
+    "it": "con tutto il rispetto",
+    "pt": "com todo o respeito",
+    "tr": "kusura bakmayın ama"
+   },
+   "ex": {
+    "en": "With all due respect, that's wrong."
+   }
+  }
+ ]
+}

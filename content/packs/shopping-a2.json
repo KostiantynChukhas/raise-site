@@ -1,0 +1,548 @@
+{
+ "id": "shopping-a2",
+ "topic": "shopping",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "shopping.shopping-mall",
+   "t": {
+    "en": "shopping mall",
+    "uk": "торговий центр",
+    "ru": "торговый центр",
+    "pl": "centrum handlowe",
+    "de": "Einkaufszentrum",
+    "fr": "centre commercial",
+    "es": "centro comercial",
+    "it": "centro commerciale",
+    "pt": "shopping",
+    "tr": "AVM"
+   },
+   "ex": {
+    "en": "We met at the shopping mall."
+   }
+  },
+  {
+   "id": "shopping.shop-window",
+   "t": {
+    "en": "shop window",
+    "uk": "вітрина",
+    "ru": "витрина",
+    "pl": "witryna sklepowa",
+    "de": "Schaufenster",
+    "fr": "vitrine",
+    "es": "escaparate",
+    "it": "vetrina",
+    "pt": "vitrine",
+    "tr": "vitrin"
+   },
+   "ex": {
+    "en": "I saw the bag in the shop window."
+   }
+  },
+  {
+   "id": "shopping.shopping-cart",
+   "t": {
+    "en": "shopping cart",
+    "uk": "візок",
+    "ru": "тележка",
+    "pl": "wózek",
+    "de": "Einkaufswagen",
+    "fr": "chariot",
+    "es": "carrito",
+    "it": "carrello",
+    "pt": "carrinho",
+    "tr": "alışveriş arabası"
+   },
+   "ex": {
+    "en": "Grab a shopping cart at the entrance."
+   }
+  },
+  {
+   "id": "shopping.basket",
+   "t": {
+    "en": "basket",
+    "uk": "кошик",
+    "ru": "корзина",
+    "pl": "koszyk",
+    "de": "Korb",
+    "fr": "panier",
+    "es": "cesta",
+    "it": "cestino",
+    "pt": "cesta",
+    "tr": "sepet"
+   },
+   "ex": {
+    "en": "A basket is enough for today."
+   }
+  },
+  {
+   "id": "shopping.to-pay-by-card",
+   "t": {
+    "en": "to pay by card",
+    "uk": "платити карткою",
+    "ru": "платить картой",
+    "pl": "płacić kartą",
+    "de": "mit Karte zahlen",
+    "fr": "payer par carte",
+    "es": "pagar con tarjeta",
+    "it": "pagare con la carta",
+    "pt": "pagar no cartão",
+    "tr": "kartla ödemek"
+   },
+   "ex": {
+    "en": "I'd like to pay by card."
+   }
+  },
+  {
+   "id": "shopping.to-exchange",
+   "t": {
+    "en": "to exchange",
+    "uk": "обміняти",
+    "ru": "обменять",
+    "pl": "wymienić",
+    "de": "umtauschen",
+    "fr": "échanger",
+    "es": "cambiar",
+    "it": "cambiare",
+    "pt": "trocar",
+    "tr": "değiştirmek"
+   },
+   "ex": {
+    "en": "Can I exchange it for a bigger size?"
+   }
+  },
+  {
+   "id": "shopping.refund",
+   "t": {
+    "en": "refund",
+    "uk": "повернення грошей",
+    "ru": "возврат денег",
+    "pl": "zwrot pieniędzy",
+    "de": "Rückerstattung",
+    "fr": "remboursement",
+    "es": "reembolso",
+    "it": "rimborso",
+    "pt": "reembolso",
+    "tr": "para iadesi"
+   },
+   "ex": {
+    "en": "I'd like a refund, please."
+   }
+  },
+  {
+   "id": "shopping.sale",
+   "t": {
+    "en": "sale",
+    "uk": "розпродаж",
+    "ru": "распродажа",
+    "pl": "wyprzedaż",
+    "de": "Schlussverkauf",
+    "fr": "soldes",
+    "es": "rebajas",
+    "it": "saldi",
+    "pt": "liquidação",
+    "tr": "sezon indirimi"
+   },
+   "ex": {
+    "en": "The winter sale starts tomorrow."
+   }
+  },
+  {
+   "id": "shopping.special-offer",
+   "t": {
+    "en": "special offer",
+    "uk": "акція",
+    "ru": "акция",
+    "pl": "promocja",
+    "de": "Sonderangebot",
+    "fr": "promotion",
+    "es": "oferta especial",
+    "it": "offerta speciale",
+    "pt": "promoção",
+    "tr": "kampanya"
+   },
+   "ex": {
+    "en": "This cheese is on special offer."
+   }
+  },
+  {
+   "id": "shopping.to-fit",
+   "t": {
+    "en": "to fit",
+    "uk": "підходити за розміром",
+    "ru": "подходить по размеру",
+    "pl": "pasować",
+    "de": "passen",
+    "fr": "aller",
+    "es": "quedar bien",
+    "it": "andare bene",
+    "pt": "servir",
+    "tr": "olmak"
+   },
+   "ex": {
+    "en": "Does this jacket fit you?"
+   }
+  },
+  {
+   "id": "shopping.too-tight",
+   "t": {
+    "en": "too tight",
+    "uk": "затісний",
+    "ru": "слишком тесный",
+    "pl": "za ciasny",
+    "de": "zu eng",
+    "fr": "trop serré",
+    "es": "demasiado apretado",
+    "it": "troppo stretto",
+    "pt": "apertado demais",
+    "tr": "çok dar"
+   },
+   "ex": {
+    "en": "These jeans are too tight."
+   }
+  },
+  {
+   "id": "shopping.too-loose",
+   "t": {
+    "en": "too loose",
+    "uk": "завеликий",
+    "ru": "слишком свободный",
+    "pl": "za luźny",
+    "de": "zu weit",
+    "fr": "trop large",
+    "es": "demasiado holgado",
+    "it": "troppo largo",
+    "pt": "largo demais",
+    "tr": "çok bol"
+   },
+   "ex": {
+    "en": "The sweater is too loose on me."
+   }
+  },
+  {
+   "id": "shopping.medium-size",
+   "t": {
+    "en": "medium size",
+    "uk": "середній розмір",
+    "ru": "средний размер",
+    "pl": "rozmiar M",
+    "de": "mittlere Größe",
+    "fr": "taille M",
+    "es": "talla M",
+    "it": "taglia M",
+    "pt": "tamanho M",
+    "tr": "orta beden"
+   },
+   "ex": {
+    "en": "Do you have this in a medium size?"
+   }
+  },
+  {
+   "id": "shopping.sweater",
+   "t": {
+    "en": "sweater",
+    "uk": "светр",
+    "ru": "свитер",
+    "pl": "sweter",
+    "de": "Pullover",
+    "fr": "pull",
+    "es": "suéter",
+    "it": "maglione",
+    "pt": "suéter",
+    "tr": "kazak"
+   },
+   "ex": {
+    "en": "This wool sweater is warm."
+   }
+  },
+  {
+   "id": "shopping.skirt",
+   "t": {
+    "en": "skirt",
+    "uk": "спідниця",
+    "ru": "юбка",
+    "pl": "spódnica",
+    "de": "Rock",
+    "fr": "jupe",
+    "es": "falda",
+    "it": "gonna",
+    "pt": "saia",
+    "tr": "etek"
+   },
+   "ex": {
+    "en": "The skirt comes in three colours."
+   }
+  },
+  {
+   "id": "shopping.socks",
+   "t": {
+    "en": "socks",
+    "uk": "шкарпетки",
+    "ru": "носки",
+    "pl": "skarpetki",
+    "de": "Socken",
+    "fr": "chaussettes",
+    "es": "calcetines",
+    "it": "calzini",
+    "pt": "meias",
+    "tr": "çorap"
+   },
+   "ex": {
+    "en": "I bought five pairs of socks."
+   }
+  },
+  {
+   "id": "shopping.jeans",
+   "t": {
+    "en": "jeans",
+    "uk": "джинси",
+    "ru": "джинсы",
+    "pl": "dżinsy",
+    "de": "Jeans",
+    "fr": "jean",
+    "es": "vaqueros",
+    "it": "jeans",
+    "pt": "calça jeans",
+    "tr": "kot pantolon"
+   },
+   "ex": {
+    "en": "Where are the jeans?"
+   }
+  },
+  {
+   "id": "shopping.to-order-online",
+   "t": {
+    "en": "to order online",
+    "uk": "замовити онлайн",
+    "ru": "заказать онлайн",
+    "pl": "zamówić przez internet",
+    "de": "online bestellen",
+    "fr": "commander en ligne",
+    "es": "pedir por internet",
+    "it": "ordinare online",
+    "pt": "pedir pela internet",
+    "tr": "internetten sipariş vermek"
+   },
+   "ex": {
+    "en": "It's cheaper to order online."
+   }
+  },
+  {
+   "id": "shopping.free-shipping",
+   "t": {
+    "en": "free shipping",
+    "uk": "безкоштовна доставка",
+    "ru": "бесплатная доставка",
+    "pl": "darmowa dostawa",
+    "de": "kostenloser Versand",
+    "fr": "livraison gratuite",
+    "es": "envío gratis",
+    "it": "spedizione gratuita",
+    "pt": "frete grátis",
+    "tr": "ücretsiz kargo"
+   },
+   "ex": {
+    "en": "Orders over fifty euros get free shipping."
+   }
+  },
+  {
+   "id": "shopping.shop-assistant",
+   "t": {
+    "en": "shop assistant",
+    "uk": "продавець-консультант",
+    "ru": "продавец-консультант",
+    "pl": "sprzedawca",
+    "de": "Verkäufer",
+    "fr": "vendeur",
+    "es": "dependiente",
+    "it": "commesso",
+    "pt": "vendedor",
+    "tr": "satış görevlisi"
+   },
+   "ex": {
+    "en": "Ask the shop assistant for help."
+   }
+  },
+  {
+   "id": "shopping.half-price",
+   "t": {
+    "en": "half price",
+    "uk": "за півціни",
+    "ru": "за полцены",
+    "pl": "za pół ceny",
+    "de": "zum halben Preis",
+    "fr": "à moitié prix",
+    "es": "a mitad de precio",
+    "it": "a metà prezzo",
+    "pt": "pela metade do preço",
+    "tr": "yarı fiyatına"
+   },
+   "ex": {
+    "en": "I got these boots at half price."
+   }
+  },
+  {
+   "id": "shopping.voucher",
+   "t": {
+    "en": "voucher",
+    "uk": "ваучер",
+    "ru": "купон",
+    "pl": "bon",
+    "de": "Gutschein",
+    "fr": "bon d'achat",
+    "es": "vale",
+    "it": "buono",
+    "pt": "vale",
+    "tr": "kupon"
+   },
+   "ex": {
+    "en": "I paid with a gift voucher."
+   }
+  },
+  {
+   "id": "shopping.discount-code",
+   "t": {
+    "en": "discount code",
+    "uk": "код знижки",
+    "ru": "промокод",
+    "pl": "kod rabatowy",
+    "de": "Rabattcode",
+    "fr": "code promo",
+    "es": "código de descuento",
+    "it": "codice sconto",
+    "pt": "cupom de desconto",
+    "tr": "indirim kodu"
+   },
+   "ex": {
+    "en": "Enter the discount code at checkout."
+   }
+  },
+  {
+   "id": "shopping.to-be-on-sale",
+   "t": {
+    "en": "to be on sale",
+    "uk": "бути зі знижкою",
+    "ru": "продаваться со скидкой",
+    "pl": "być w promocji",
+    "de": "im Angebot sein",
+    "fr": "être en promotion",
+    "es": "estar de oferta",
+    "it": "essere in offerta",
+    "pt": "estar em promoção",
+    "tr": "indirimde olmak"
+   },
+   "ex": {
+    "en": "These shoes are on sale this week."
+   }
+  },
+  {
+   "id": "shopping.to-track-an-order",
+   "t": {
+    "en": "to track an order",
+    "uk": "відстежувати замовлення",
+    "ru": "отслеживать заказ",
+    "pl": "śledzić zamówienie",
+    "de": "Bestellung verfolgen",
+    "fr": "suivre une commande",
+    "es": "rastrear un pedido",
+    "it": "tracciare un ordine",
+    "pt": "rastrear um pedido",
+    "tr": "siparişi takip etmek"
+   },
+   "ex": {
+    "en": "You can track your order online."
+   }
+  },
+  {
+   "id": "shopping.self-checkout",
+   "t": {
+    "en": "self-checkout",
+    "uk": "каса самообслуговування",
+    "ru": "касса самообслуживания",
+    "pl": "kasa samoobsługowa",
+    "de": "Selbstbedienungskasse",
+    "fr": "caisse automatique",
+    "es": "caja de autoservicio",
+    "it": "cassa automatica",
+    "pt": "caixa de autoatendimento",
+    "tr": "self-servis kasa"
+   },
+   "ex": {
+    "en": "Use the self-checkout if you're in a hurry."
+   }
+  },
+  {
+   "id": "shopping.damaged",
+   "t": {
+    "en": "damaged",
+    "uk": "пошкоджений",
+    "ru": "повреждённый",
+    "pl": "uszkodzony",
+    "de": "beschädigt",
+    "fr": "abîmé",
+    "es": "dañado",
+    "it": "danneggiato",
+    "pt": "danificado",
+    "tr": "hasarlı"
+   },
+   "ex": {
+    "en": "The box arrived damaged."
+   }
+  },
+  {
+   "id": "shopping.to-get-a-refund",
+   "t": {
+    "en": "to get a refund",
+    "uk": "отримати повернення грошей",
+    "ru": "получить возврат денег",
+    "pl": "dostać zwrot pieniędzy",
+    "de": "Geld zurückbekommen",
+    "fr": "se faire rembourser",
+    "es": "que te devuelvan el dinero",
+    "it": "farsi rimborsare",
+    "pt": "receber o reembolso",
+    "tr": "para iadesi almak"
+   },
+   "ex": {
+    "en": "Can I get a refund without a receipt?"
+   }
+  },
+  {
+   "id": "shopping.good-value",
+   "t": {
+    "en": "good value",
+    "uk": "вигідно",
+    "ru": "выгодно",
+    "pl": "opłacalny",
+    "de": "preiswert",
+    "fr": "bon rapport qualité-prix",
+    "es": "buena relación calidad-precio",
+    "it": "conveniente",
+    "pt": "custo-benefício bom",
+    "tr": "fiyatına değer"
+   },
+   "ex": {
+    "en": "This phone is really good value."
+   }
+  },
+  {
+   "id": "shopping.changing-room",
+   "t": {
+    "en": "changing room",
+    "uk": "примірочна",
+    "ru": "примерочная",
+    "pl": "przymierzalnia",
+    "de": "Umkleidekabine",
+    "fr": "cabine d'essayage",
+    "es": "probador",
+    "it": "camerino",
+    "pt": "provador",
+    "tr": "soyunma kabini"
+   },
+   "ex": {
+    "en": "The changing rooms are at the back."
+   }
+  }
+ ]
+}

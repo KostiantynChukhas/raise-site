@@ -1,0 +1,548 @@
+{
+ "id": "education-a2",
+ "topic": "education",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "education.university",
+   "t": {
+    "en": "university",
+    "uk": "університет",
+    "ru": "университет",
+    "pl": "uniwersytet",
+    "de": "Universität",
+    "fr": "université",
+    "es": "universidad",
+    "it": "università",
+    "pt": "universidade",
+    "tr": "üniversite"
+   },
+   "ex": {
+    "en": "She studies at a big university."
+   }
+  },
+  {
+   "id": "education.primary-school",
+   "t": {
+    "en": "primary school",
+    "uk": "початкова школа",
+    "ru": "начальная школа",
+    "pl": "szkoła podstawowa",
+    "de": "Grundschule",
+    "fr": "école primaire",
+    "es": "escuela primaria",
+    "it": "scuola elementare",
+    "pt": "ensino fundamental",
+    "tr": "ilkokul"
+   },
+   "ex": {
+    "en": "My son goes to primary school."
+   }
+  },
+  {
+   "id": "education.secondary-school",
+   "t": {
+    "en": "secondary school",
+    "uk": "середня школа",
+    "ru": "средняя школа",
+    "pl": "szkoła średnia",
+    "de": "weiterführende Schule",
+    "fr": "collège",
+    "es": "escuela secundaria",
+    "it": "scuola secondaria",
+    "pt": "ensino médio",
+    "tr": "ortaokul"
+   },
+   "ex": {
+    "en": "He is in secondary school now."
+   }
+  },
+  {
+   "id": "education.kindergarten",
+   "t": {
+    "en": "kindergarten",
+    "uk": "дитячий садок",
+    "ru": "детский сад",
+    "pl": "przedszkole",
+    "de": "Kindergarten",
+    "fr": "maternelle",
+    "es": "jardín de infancia",
+    "it": "asilo",
+    "pt": "jardim de infância",
+    "tr": "anaokulu"
+   },
+   "ex": {
+    "en": "The kids are at kindergarten."
+   }
+  },
+  {
+   "id": "education.exam",
+   "t": {
+    "en": "exam",
+    "uk": "іспит",
+    "ru": "экзамен",
+    "pl": "egzamin",
+    "de": "Prüfung",
+    "fr": "examen",
+    "es": "examen final",
+    "it": "esame",
+    "pt": "exame",
+    "tr": "final sınavı"
+   },
+   "ex": {
+    "en": "The exam is next week."
+   }
+  },
+  {
+   "id": "education.grade",
+   "t": {
+    "en": "grade",
+    "uk": "оцінка",
+    "ru": "оценка",
+    "pl": "ocena",
+    "de": "Note",
+    "fr": "note",
+    "es": "nota",
+    "it": "voto",
+    "pt": "nota",
+    "tr": "not"
+   },
+   "ex": {
+    "en": "I got a good grade."
+   }
+  },
+  {
+   "id": "education.to-pass",
+   "t": {
+    "en": "to pass",
+    "uk": "скласти",
+    "ru": "сдать",
+    "pl": "zdać",
+    "de": "bestehen",
+    "fr": "réussir",
+    "es": "aprobar",
+    "it": "superare",
+    "pt": "passar",
+    "tr": "geçmek"
+   },
+   "ex": {
+    "en": "I hope I pass the exam."
+   }
+  },
+  {
+   "id": "education.to-fail",
+   "t": {
+    "en": "to fail",
+    "uk": "провалити",
+    "ru": "провалить",
+    "pl": "oblać",
+    "de": "durchfallen",
+    "fr": "échouer",
+    "es": "suspender",
+    "it": "bocciare",
+    "pt": "reprovar",
+    "tr": "kalmak"
+   },
+   "ex": {
+    "en": "He failed the maths test."
+   }
+  },
+  {
+   "id": "education.to-study",
+   "t": {
+    "en": "to study",
+    "uk": "навчатися",
+    "ru": "заниматься",
+    "pl": "studiować",
+    "de": "studieren",
+    "fr": "étudier",
+    "es": "estudiar",
+    "it": "studiare",
+    "pt": "estudar",
+    "tr": "çalışmak"
+   },
+   "ex": {
+    "en": "I study every evening."
+   }
+  },
+  {
+   "id": "education.to-teach",
+   "t": {
+    "en": "to teach",
+    "uk": "викладати",
+    "ru": "преподавать",
+    "pl": "uczyć",
+    "de": "unterrichten",
+    "fr": "enseigner",
+    "es": "enseñar",
+    "it": "insegnare",
+    "pt": "ensinar",
+    "tr": "öğretmek"
+   },
+   "ex": {
+    "en": "She teaches history."
+   }
+  },
+  {
+   "id": "education.to-explain",
+   "t": {
+    "en": "to explain",
+    "uk": "пояснювати",
+    "ru": "объяснять",
+    "pl": "wyjaśniać",
+    "de": "erklären",
+    "fr": "expliquer",
+    "es": "explicar",
+    "it": "spiegare",
+    "pt": "explicar",
+    "tr": "açıklamak"
+   },
+   "ex": {
+    "en": "Can you explain this again?"
+   }
+  },
+  {
+   "id": "education.to-repeat",
+   "t": {
+    "en": "to repeat",
+    "uk": "повторювати",
+    "ru": "повторять",
+    "pl": "powtarzać",
+    "de": "wiederholen",
+    "fr": "répéter",
+    "es": "repetir",
+    "it": "ripetere",
+    "pt": "repetir",
+    "tr": "tekrarlamak"
+   },
+   "ex": {
+    "en": "Repeat the word after me."
+   }
+  },
+  {
+   "id": "education.to-remember",
+   "t": {
+    "en": "to remember",
+    "uk": "запам'ятовувати",
+    "ru": "запоминать",
+    "pl": "zapamiętywać",
+    "de": "sich merken",
+    "fr": "retenir",
+    "es": "recordar",
+    "it": "ricordare",
+    "pt": "lembrar",
+    "tr": "hatırlamak"
+   },
+   "ex": {
+    "en": "I can't remember the date."
+   }
+  },
+  {
+   "id": "education.mistake",
+   "t": {
+    "en": "mistake",
+    "uk": "помилка",
+    "ru": "ошибка",
+    "pl": "błąd",
+    "de": "Fehler",
+    "fr": "erreur",
+    "es": "error",
+    "it": "errore",
+    "pt": "erro",
+    "tr": "hata"
+   },
+   "ex": {
+    "en": "I made two mistakes."
+   }
+  },
+  {
+   "id": "education.exercise",
+   "t": {
+    "en": "exercise",
+    "uk": "вправа",
+    "ru": "упражнение",
+    "pl": "ćwiczenie",
+    "de": "Übung",
+    "fr": "exercice",
+    "es": "ejercicio",
+    "it": "esercizio",
+    "pt": "exercício",
+    "tr": "alıştırma"
+   },
+   "ex": {
+    "en": "Do exercise three at home."
+   }
+  },
+  {
+   "id": "education.page",
+   "t": {
+    "en": "page",
+    "uk": "сторінка",
+    "ru": "страница",
+    "pl": "strona",
+    "de": "Seite",
+    "fr": "page",
+    "es": "página",
+    "it": "pagina",
+    "pt": "página",
+    "tr": "sayfa"
+   },
+   "ex": {
+    "en": "Turn to page twenty."
+   }
+  },
+  {
+   "id": "education.dictionary",
+   "t": {
+    "en": "dictionary",
+    "uk": "словник",
+    "ru": "словарь",
+    "pl": "słownik",
+    "de": "Wörterbuch",
+    "fr": "dictionnaire",
+    "es": "diccionario",
+    "it": "dizionario",
+    "pt": "dicionário",
+    "tr": "sözlük"
+   },
+   "ex": {
+    "en": "Look it up in the dictionary."
+   }
+  },
+  {
+   "id": "education.ruler",
+   "t": {
+    "en": "ruler",
+    "uk": "лінійка",
+    "ru": "линейка",
+    "pl": "linijka",
+    "de": "Lineal",
+    "fr": "règle",
+    "es": "regla",
+    "it": "righello",
+    "pt": "régua",
+    "tr": "cetvel"
+   },
+   "ex": {
+    "en": "Draw a line with a ruler."
+   }
+  },
+  {
+   "id": "education.eraser",
+   "t": {
+    "en": "eraser",
+    "uk": "гумка",
+    "ru": "ластик",
+    "pl": "gumka",
+    "de": "Radiergummi",
+    "fr": "gomme",
+    "es": "goma",
+    "it": "gomma",
+    "pt": "borracha",
+    "tr": "silgi"
+   },
+   "ex": {
+    "en": "Can I use your eraser?"
+   }
+  },
+  {
+   "id": "education.science",
+   "t": {
+    "en": "science",
+    "uk": "природознавство",
+    "ru": "естествознание",
+    "pl": "przyroda",
+    "de": "Naturwissenschaft",
+    "fr": "sciences",
+    "es": "ciencias",
+    "it": "scienze",
+    "pt": "ciências",
+    "tr": "fen bilgisi"
+   },
+   "ex": {
+    "en": "We have science after lunch."
+   }
+  },
+  {
+   "id": "education.history",
+   "t": {
+    "en": "history",
+    "uk": "історія",
+    "ru": "история",
+    "pl": "historia",
+    "de": "Geschichte",
+    "fr": "histoire",
+    "es": "historia",
+    "it": "storia",
+    "pt": "história",
+    "tr": "tarih"
+   },
+   "ex": {
+    "en": "History is my favourite subject."
+   }
+  },
+  {
+   "id": "education.geography",
+   "t": {
+    "en": "geography",
+    "uk": "географія",
+    "ru": "география",
+    "pl": "geografia",
+    "de": "Erdkunde",
+    "fr": "géographie",
+    "es": "geografía",
+    "it": "geografia",
+    "pt": "geografia",
+    "tr": "coğrafya"
+   },
+   "ex": {
+    "en": "We learn about rivers in geography."
+   }
+  },
+  {
+   "id": "education.foreign-language",
+   "t": {
+    "en": "foreign language",
+    "uk": "іноземна мова",
+    "ru": "иностранный язык",
+    "pl": "język obcy",
+    "de": "Fremdsprache",
+    "fr": "langue étrangère",
+    "es": "idioma extranjero",
+    "it": "lingua straniera",
+    "pt": "língua estrangeira",
+    "tr": "yabancı dil"
+   },
+   "ex": {
+    "en": "I speak two foreign languages."
+   }
+  },
+  {
+   "id": "education.physical-education",
+   "t": {
+    "en": "physical education",
+    "uk": "фізкультура",
+    "ru": "физкультура",
+    "pl": "wychowanie fizyczne",
+    "de": "Sportunterricht",
+    "fr": "EPS",
+    "es": "educación física",
+    "it": "educazione fisica",
+    "pt": "educação física",
+    "tr": "beden eğitimi"
+   },
+   "ex": {
+    "en": "We play football in physical education."
+   }
+  },
+  {
+   "id": "education.school-year",
+   "t": {
+    "en": "school year",
+    "uk": "навчальний рік",
+    "ru": "учебный год",
+    "pl": "rok szkolny",
+    "de": "Schuljahr",
+    "fr": "année scolaire",
+    "es": "curso escolar",
+    "it": "anno scolastico",
+    "pt": "ano letivo",
+    "tr": "eğitim yılı"
+   },
+   "ex": {
+    "en": "The school year starts in September."
+   }
+  },
+  {
+   "id": "education.holidays",
+   "t": {
+    "en": "holidays",
+    "uk": "канікули",
+    "ru": "каникулы",
+    "pl": "wakacje",
+    "de": "Ferien",
+    "fr": "vacances",
+    "es": "vacaciones",
+    "it": "vacanze",
+    "pt": "férias",
+    "tr": "tatil"
+   },
+   "ex": {
+    "en": "The summer holidays are long."
+   }
+  },
+  {
+   "id": "education.canteen",
+   "t": {
+    "en": "canteen",
+    "uk": "їдальня",
+    "ru": "столовая",
+    "pl": "stołówka",
+    "de": "Mensa",
+    "fr": "cantine",
+    "es": "comedor",
+    "it": "mensa",
+    "pt": "cantina",
+    "tr": "yemekhane"
+   },
+   "ex": {
+    "en": "We eat lunch in the canteen."
+   }
+  },
+  {
+   "id": "education.classmate",
+   "t": {
+    "en": "classmate",
+    "uk": "однокласник",
+    "ru": "одноклассник",
+    "pl": "kolega z klasy",
+    "de": "Mitschüler",
+    "fr": "camarade de classe",
+    "es": "compañero de clase",
+    "it": "compagno di classe",
+    "pt": "colega de classe",
+    "tr": "sınıf arkadaşı"
+   },
+   "ex": {
+    "en": "My classmate helped me."
+   }
+  },
+  {
+   "id": "education.uniform",
+   "t": {
+    "en": "uniform",
+    "uk": "шкільна форма",
+    "ru": "школьная форма",
+    "pl": "mundurek",
+    "de": "Schuluniform",
+    "fr": "uniforme",
+    "es": "uniforme",
+    "it": "divisa",
+    "pt": "uniforme",
+    "tr": "okul forması"
+   },
+   "ex": {
+    "en": "Students wear a blue uniform."
+   }
+  },
+  {
+   "id": "education.to-be-late",
+   "t": {
+    "en": "to be late",
+    "uk": "запізнюватися",
+    "ru": "опаздывать",
+    "pl": "spóźniać się",
+    "de": "zu spät kommen",
+    "fr": "être en retard",
+    "es": "llegar tarde",
+    "it": "arrivare in ritardo",
+    "pt": "chegar atrasado",
+    "tr": "geç kalmak"
+   },
+   "ex": {
+    "en": "Don't be late for class."
+   }
+  }
+ ]
+}

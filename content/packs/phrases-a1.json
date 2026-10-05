@@ -1,0 +1,476 @@
+{
+ "id": "phrases-a1",
+ "topic": "phrases",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "phrases.hello",
+   "t": {
+    "en": "hello",
+    "uk": "привіт",
+    "ru": "привет",
+    "pl": "cześć",
+    "de": "hallo",
+    "fr": "bonjour",
+    "es": "hola",
+    "it": "ciao",
+    "pt": "oi",
+    "tr": "merhaba"
+   },
+   "ex": {
+    "en": "Hello, how can I help you?"
+   }
+  },
+  {
+   "id": "phrases.good-morning",
+   "t": {
+    "en": "good morning",
+    "uk": "доброго ранку",
+    "ru": "доброе утро",
+    "pl": "dzień dobry",
+    "de": "guten Morgen",
+    "fr": "bonjour",
+    "es": "buenos días",
+    "it": "buongiorno",
+    "pt": "bom dia",
+    "tr": "günaydın"
+   },
+   "ex": {
+    "en": "Good morning, did you sleep well?"
+   }
+  },
+  {
+   "id": "phrases.good-evening",
+   "t": {
+    "en": "good evening",
+    "uk": "добрий вечір",
+    "ru": "добрый вечер",
+    "pl": "dobry wieczór",
+    "de": "guten Abend",
+    "fr": "bonsoir",
+    "es": "buenas tardes",
+    "it": "buonasera",
+    "pt": "boa noite",
+    "tr": "iyi akşamlar"
+   },
+   "ex": {
+    "en": "Good evening, welcome to the restaurant."
+   }
+  },
+  {
+   "id": "phrases.good-night",
+   "t": {
+    "en": "good night",
+    "uk": "на добраніч",
+    "ru": "спокойной ночи",
+    "pl": "dobranoc",
+    "de": "gute Nacht",
+    "fr": "bonne nuit",
+    "es": "buenas noches",
+    "it": "buonanotte",
+    "pt": "boa noite, durma bem",
+    "tr": "iyi geceler"
+   },
+   "ex": {
+    "en": "Good night, see you tomorrow."
+   }
+  },
+  {
+   "id": "phrases.goodbye",
+   "t": {
+    "en": "goodbye",
+    "uk": "до побачення",
+    "ru": "до свидания",
+    "pl": "do widzenia",
+    "de": "auf Wiedersehen",
+    "fr": "au revoir",
+    "es": "adiós",
+    "it": "arrivederci",
+    "pt": "tchau",
+    "tr": "hoşça kalın"
+   },
+   "ex": {
+    "en": "Goodbye, and thank you for everything."
+   }
+  },
+  {
+   "id": "phrases.see-you-later",
+   "t": {
+    "en": "see you later",
+    "uk": "до зустрічі",
+    "ru": "до встречи",
+    "pl": "do zobaczenia",
+    "de": "bis später",
+    "fr": "à plus tard",
+    "es": "hasta luego",
+    "it": "a dopo",
+    "pt": "até logo",
+    "tr": "görüşürüz"
+   },
+   "ex": {
+    "en": "See you later at the café."
+   }
+  },
+  {
+   "id": "phrases.please",
+   "t": {
+    "en": "please",
+    "uk": "будь ласка",
+    "ru": "пожалуйста",
+    "pl": "proszę",
+    "de": "bitte",
+    "fr": "s'il vous plaît",
+    "es": "por favor",
+    "it": "per favore",
+    "pt": "por favor",
+    "tr": "lütfen"
+   },
+   "ex": {
+    "en": "A coffee, please."
+   }
+  },
+  {
+   "id": "phrases.thank-you",
+   "t": {
+    "en": "thank you",
+    "uk": "дякую",
+    "ru": "спасибо",
+    "pl": "dziękuję",
+    "de": "danke",
+    "fr": "merci",
+    "es": "gracias",
+    "it": "grazie",
+    "pt": "obrigado",
+    "tr": "teşekkür ederim"
+   },
+   "ex": {
+    "en": "Thank you for your help."
+   }
+  },
+  {
+   "id": "phrases.thank-you-very-much",
+   "t": {
+    "en": "thank you very much",
+    "uk": "дуже дякую",
+    "ru": "большое спасибо",
+    "pl": "dziękuję bardzo",
+    "de": "vielen Dank",
+    "fr": "merci beaucoup",
+    "es": "muchas gracias",
+    "it": "grazie mille",
+    "pt": "muito obrigado",
+    "tr": "çok teşekkür ederim"
+   },
+   "ex": {
+    "en": "Thank you very much, that was kind."
+   }
+  },
+  {
+   "id": "phrases.youre-welcome",
+   "t": {
+    "en": "you're welcome",
+    "uk": "нема за що",
+    "ru": "не за что",
+    "pl": "nie ma za co",
+    "de": "gern geschehen",
+    "fr": "de rien",
+    "es": "de nada",
+    "it": "prego",
+    "pt": "de nada",
+    "tr": "rica ederim"
+   },
+   "ex": {
+    "en": "You're welcome, it was no trouble."
+   }
+  },
+  {
+   "id": "phrases.sorry",
+   "t": {
+    "en": "sorry",
+    "uk": "вибачте",
+    "ru": "извините",
+    "pl": "przepraszam",
+    "de": "Entschuldigung",
+    "fr": "désolé",
+    "es": "perdón",
+    "it": "scusa",
+    "pt": "desculpe",
+    "tr": "özür dilerim"
+   },
+   "ex": {
+    "en": "Sorry, I'm late."
+   }
+  },
+  {
+   "id": "phrases.excuse-me",
+   "t": {
+    "en": "excuse me",
+    "uk": "перепрошую",
+    "ru": "простите",
+    "pl": "przepraszam, czy mogę",
+    "de": "Entschuldigen Sie",
+    "fr": "excusez-moi",
+    "es": "disculpe",
+    "it": "mi scusi",
+    "pt": "com licença",
+    "tr": "affedersiniz"
+   },
+   "ex": {
+    "en": "Excuse me, where is the station?"
+   }
+  },
+  {
+   "id": "phrases.yes",
+   "t": {
+    "en": "yes",
+    "uk": "так",
+    "ru": "да",
+    "pl": "tak",
+    "de": "ja",
+    "fr": "oui",
+    "es": "sí",
+    "it": "sì",
+    "pt": "sim",
+    "tr": "evet"
+   },
+   "ex": {
+    "en": "Yes, I would like some tea."
+   }
+  },
+  {
+   "id": "phrases.no",
+   "t": {
+    "en": "no",
+    "uk": "ні",
+    "ru": "нет",
+    "pl": "nie",
+    "de": "nein",
+    "fr": "non",
+    "es": "no",
+    "it": "no",
+    "pt": "não",
+    "tr": "hayır"
+   },
+   "ex": {
+    "en": "No, thank you."
+   }
+  },
+  {
+   "id": "phrases.im-fine-thanks",
+   "t": {
+    "en": "I'm fine, thanks",
+    "uk": "добре, дякую",
+    "ru": "хорошо, спасибо",
+    "pl": "dobrze, dziękuję",
+    "de": "gut, danke",
+    "fr": "ça va, merci",
+    "es": "bien, gracias",
+    "it": "bene, grazie",
+    "pt": "bem, obrigado",
+    "tr": "iyiyim, teşekkürler"
+   },
+   "ex": {
+    "en": "I'm fine, thanks. And you?"
+   }
+  },
+  {
+   "id": "phrases.nice-to-meet-you",
+   "t": {
+    "en": "nice to meet you",
+    "uk": "приємно познайомитися",
+    "ru": "приятно познакомиться",
+    "pl": "miło mi",
+    "de": "freut mich",
+    "fr": "enchanté",
+    "es": "mucho gusto",
+    "it": "piacere",
+    "pt": "prazer",
+    "tr": "memnun oldum"
+   },
+   "ex": {
+    "en": "Nice to meet you, Mr. Lee."
+   }
+  },
+  {
+   "id": "phrases.my-name-is",
+   "t": {
+    "en": "my name is...",
+    "uk": "мене звати...",
+    "ru": "меня зовут...",
+    "pl": "mam na imię...",
+    "de": "ich heiße...",
+    "fr": "je m'appelle...",
+    "es": "me llamo...",
+    "it": "mi chiamo...",
+    "pt": "meu nome é...",
+    "tr": "benim adım..."
+   },
+   "ex": {
+    "en": "My name is Tom."
+   }
+  },
+  {
+   "id": "phrases.whats-your-name",
+   "t": {
+    "en": "what's your name?",
+    "uk": "як вас звати?",
+    "ru": "как вас зовут?",
+    "pl": "jak masz na imię?",
+    "de": "wie heißt du?",
+    "fr": "comment tu t'appelles ?",
+    "es": "¿cómo te llamas?",
+    "it": "come ti chiami?",
+    "pt": "qual é o seu nome?",
+    "tr": "adın ne?"
+   },
+   "ex": {
+    "en": "What's your name? I'm Maria."
+   }
+  },
+  {
+   "id": "phrases.do-you-speak-english",
+   "t": {
+    "en": "do you speak English?",
+    "uk": "ви говорите англійською?",
+    "ru": "вы говорите по-английски?",
+    "pl": "czy mówisz po angielsku?",
+    "de": "sprechen Sie Englisch?",
+    "fr": "parlez-vous anglais ?",
+    "es": "¿habla inglés?",
+    "it": "parla inglese?",
+    "pt": "você fala inglês?",
+    "tr": "İngilizce biliyor musunuz?"
+   },
+   "ex": {
+    "en": "Excuse me, do you speak English?"
+   }
+  },
+  {
+   "id": "phrases.can-you-repeat-please",
+   "t": {
+    "en": "can you repeat, please?",
+    "uk": "повторіть, будь ласка",
+    "ru": "повторите, пожалуйста",
+    "pl": "proszę powtórzyć",
+    "de": "können Sie das wiederholen?",
+    "fr": "pouvez-vous répéter ?",
+    "es": "¿puede repetir?",
+    "it": "può ripetere?",
+    "pt": "pode repetir?",
+    "tr": "tekrar eder misiniz?"
+   },
+   "ex": {
+    "en": "Can you repeat, please? It's noisy."
+   }
+  },
+  {
+   "id": "phrases.speak-slowly-please",
+   "t": {
+    "en": "speak slowly, please",
+    "uk": "говоріть повільніше, будь ласка",
+    "ru": "говорите медленнее, пожалуйста",
+    "pl": "proszę mówić wolniej",
+    "de": "bitte langsamer",
+    "fr": "parlez plus lentement",
+    "es": "más despacio, por favor",
+    "it": "più lentamente, per favore",
+    "pt": "fale devagar, por favor",
+    "tr": "yavaş konuşun lütfen"
+   },
+   "ex": {
+    "en": "Speak slowly, please, I'm learning."
+   }
+  },
+  {
+   "id": "phrases.how-much-is-it",
+   "t": {
+    "en": "how much is it?",
+    "uk": "скільки це коштує?",
+    "ru": "сколько это стоит?",
+    "pl": "ile to kosztuje?",
+    "de": "wie viel kostet das?",
+    "fr": "c'est combien ?",
+    "es": "¿cuánto cuesta?",
+    "it": "quanto costa?",
+    "pt": "quanto custa?",
+    "tr": "bu ne kadar?"
+   },
+   "ex": {
+    "en": "How much is it? Ten euros?"
+   }
+  },
+  {
+   "id": "phrases.where-is",
+   "t": {
+    "en": "where is...?",
+    "uk": "де...?",
+    "ru": "где...?",
+    "pl": "gdzie jest...?",
+    "de": "wo ist...?",
+    "fr": "où est... ?",
+    "es": "¿dónde está...?",
+    "it": "dov'è...?",
+    "pt": "onde fica...?",
+    "tr": "... nerede?"
+   },
+   "ex": {
+    "en": "Where is the bathroom?"
+   }
+  },
+  {
+   "id": "phrases.welcome",
+   "t": {
+    "en": "welcome",
+    "uk": "ласкаво просимо",
+    "ru": "добро пожаловать",
+    "pl": "witamy",
+    "de": "willkommen",
+    "fr": "bienvenue",
+    "es": "bienvenido",
+    "it": "benvenuto",
+    "pt": "bem-vindo",
+    "tr": "hoş geldiniz"
+   },
+   "ex": {
+    "en": "Welcome to our home!"
+   }
+  },
+  {
+   "id": "phrases.have-a-nice-day",
+   "t": {
+    "en": "have a nice day",
+    "uk": "гарного дня",
+    "ru": "хорошего дня",
+    "pl": "miłego dnia",
+    "de": "schönen Tag noch",
+    "fr": "bonne journée",
+    "es": "que tengas un buen día",
+    "it": "buona giornata",
+    "pt": "tenha um bom dia",
+    "tr": "iyi günler"
+   },
+   "ex": {
+    "en": "Bye, have a nice day!"
+   }
+  },
+  {
+   "id": "phrases.okay",
+   "t": {
+    "en": "okay",
+    "uk": "гаразд",
+    "ru": "ладно",
+    "pl": "dobrze",
+    "de": "in Ordnung",
+    "fr": "d'accord",
+    "es": "vale",
+    "it": "va bene",
+    "pt": "tá bom",
+    "tr": "tamam"
+   },
+   "ex": {
+    "en": "Okay, let's meet at six."
+   }
+  }
+ ]
+}

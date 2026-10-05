@@ -1,0 +1,548 @@
+{
+ "id": "culture-b1",
+ "topic": "culture",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "culture.plot",
+   "t": {
+    "en": "plot",
+    "uk": "сюжет",
+    "ru": "сюжет",
+    "pl": "fabuła",
+    "de": "Handlung",
+    "fr": "intrigue",
+    "es": "trama",
+    "it": "trama",
+    "pt": "enredo",
+    "tr": "olay örgüsü"
+   },
+   "ex": {
+    "en": "The plot was hard to follow."
+   }
+  },
+  {
+   "id": "culture.character",
+   "t": {
+    "en": "character",
+    "uk": "персонаж",
+    "ru": "персонаж",
+    "pl": "postać",
+    "de": "Figur",
+    "fr": "personnage",
+    "es": "personaje",
+    "it": "personaggio",
+    "pt": "personagem",
+    "tr": "karakter"
+   },
+   "ex": {
+    "en": "Who is your favourite character?"
+   }
+  },
+  {
+   "id": "culture.ending",
+   "t": {
+    "en": "ending",
+    "uk": "кінцівка",
+    "ru": "концовка",
+    "pl": "zakończenie",
+    "de": "Ende",
+    "fr": "fin",
+    "es": "final",
+    "it": "finale",
+    "pt": "final",
+    "tr": "son"
+   },
+   "ex": {
+    "en": "I didn't like the ending."
+   }
+  },
+  {
+   "id": "culture.soundtrack",
+   "t": {
+    "en": "soundtrack",
+    "uk": "саундтрек",
+    "ru": "саундтрек",
+    "pl": "ścieżka dźwiękowa",
+    "de": "Soundtrack",
+    "fr": "bande originale",
+    "es": "banda sonora",
+    "it": "colonna sonora",
+    "pt": "trilha sonora",
+    "tr": "film müziği"
+   },
+   "ex": {
+    "en": "The soundtrack is better than the film."
+   }
+  },
+  {
+   "id": "culture.subtitles",
+   "t": {
+    "en": "subtitles",
+    "uk": "субтитри",
+    "ru": "субтитры",
+    "pl": "napisy",
+    "de": "Untertitel",
+    "fr": "sous-titres",
+    "es": "subtítulos",
+    "it": "sottotitoli",
+    "pt": "legendas",
+    "tr": "altyazı"
+   },
+   "ex": {
+    "en": "Can you turn on the subtitles?"
+   }
+  },
+  {
+   "id": "culture.dubbed",
+   "t": {
+    "en": "dubbed",
+    "uk": "дубльований",
+    "ru": "дублированный",
+    "pl": "z dubbingiem",
+    "de": "synchronisiert",
+    "fr": "doublé",
+    "es": "doblado",
+    "it": "doppiato",
+    "pt": "dublado",
+    "tr": "dublajlı"
+   },
+   "ex": {
+    "en": "Is the film dubbed or subtitled?"
+   }
+  },
+  {
+   "id": "culture.trailer",
+   "t": {
+    "en": "trailer",
+    "uk": "трейлер",
+    "ru": "трейлер",
+    "pl": "zwiastun",
+    "de": "Trailer",
+    "fr": "bande-annonce",
+    "es": "tráiler",
+    "it": "trailer",
+    "pt": "trailer",
+    "tr": "fragman"
+   },
+   "ex": {
+    "en": "The trailer looks really exciting."
+   }
+  },
+  {
+   "id": "culture.review",
+   "t": {
+    "en": "review",
+    "uk": "рецензія",
+    "ru": "рецензия",
+    "pl": "recenzja",
+    "de": "Rezension",
+    "fr": "critique",
+    "es": "reseña",
+    "it": "recensione",
+    "pt": "resenha",
+    "tr": "inceleme"
+   },
+   "ex": {
+    "en": "The film got terrible reviews."
+   }
+  },
+  {
+   "id": "culture.rating",
+   "t": {
+    "en": "rating",
+    "uk": "рейтинг",
+    "ru": "рейтинг",
+    "pl": "ocena",
+    "de": "Bewertung",
+    "fr": "note",
+    "es": "puntuación",
+    "it": "valutazione",
+    "pt": "nota",
+    "tr": "puan"
+   },
+   "ex": {
+    "en": "It has a rating of nine out of ten."
+   }
+  },
+  {
+   "id": "culture.box-office",
+   "t": {
+    "en": "box office",
+    "uk": "касові збори",
+    "ru": "кассовые сборы",
+    "pl": "wyniki kasowe",
+    "de": "Kinokasse",
+    "fr": "box-office",
+    "es": "taquilla",
+    "it": "botteghino",
+    "pt": "bilheteria",
+    "tr": "gişe"
+   },
+   "ex": {
+    "en": "The film broke box office records."
+   }
+  },
+  {
+   "id": "culture.genre",
+   "t": {
+    "en": "genre",
+    "uk": "жанр",
+    "ru": "жанр",
+    "pl": "gatunek",
+    "de": "Genre",
+    "fr": "genre",
+    "es": "género",
+    "it": "genere",
+    "pt": "gênero",
+    "tr": "tür"
+   },
+   "ex": {
+    "en": "What genre of music do you like?"
+   }
+  },
+  {
+   "id": "culture.documentary",
+   "t": {
+    "en": "documentary",
+    "uk": "документальний фільм",
+    "ru": "документальный фильм",
+    "pl": "film dokumentalny",
+    "de": "Dokumentarfilm",
+    "fr": "documentaire",
+    "es": "documental",
+    "it": "documentario",
+    "pt": "documentário",
+    "tr": "belgesel"
+   },
+   "ex": {
+    "en": "We watched a documentary about whales."
+   }
+  },
+  {
+   "id": "culture.thriller",
+   "t": {
+    "en": "thriller",
+    "uk": "трилер",
+    "ru": "триллер",
+    "pl": "thriller",
+    "de": "Thriller",
+    "fr": "thriller",
+    "es": "thriller",
+    "it": "thriller",
+    "pt": "suspense",
+    "tr": "gerilim filmi"
+   },
+   "ex": {
+    "en": "This thriller kept me awake all night."
+   }
+  },
+  {
+   "id": "culture.sequel",
+   "t": {
+    "en": "sequel",
+    "uk": "продовження",
+    "ru": "сиквел",
+    "pl": "kontynuacja",
+    "de": "Fortsetzung",
+    "fr": "suite",
+    "es": "secuela",
+    "it": "seguito",
+    "pt": "continuação",
+    "tr": "devam filmi"
+   },
+   "ex": {
+    "en": "The sequel comes out next year."
+   }
+  },
+  {
+   "id": "culture.bestseller",
+   "t": {
+    "en": "bestseller",
+    "uk": "бестселер",
+    "ru": "бестселлер",
+    "pl": "bestseller",
+    "de": "Bestseller",
+    "fr": "best-seller",
+    "es": "superventas",
+    "it": "bestseller",
+    "pt": "best-seller",
+    "tr": "çok satan"
+   },
+   "ex": {
+    "en": "Her first novel became a bestseller."
+   }
+  },
+  {
+   "id": "culture.chapter",
+   "t": {
+    "en": "chapter",
+    "uk": "розділ",
+    "ru": "глава",
+    "pl": "rozdział",
+    "de": "Kapitel",
+    "fr": "chapitre",
+    "es": "capítulo",
+    "it": "capitolo",
+    "pt": "capítulo",
+    "tr": "bölüm"
+   },
+   "ex": {
+    "en": "I'm on chapter five."
+   }
+  },
+  {
+   "id": "culture.audiobook",
+   "t": {
+    "en": "audiobook",
+    "uk": "аудіокнига",
+    "ru": "аудиокнига",
+    "pl": "audiobook",
+    "de": "Hörbuch",
+    "fr": "livre audio",
+    "es": "audiolibro",
+    "it": "audiolibro",
+    "pt": "audiolivro",
+    "tr": "sesli kitap"
+   },
+   "ex": {
+    "en": "I listen to audiobooks while driving."
+   }
+  },
+  {
+   "id": "culture.podcast",
+   "t": {
+    "en": "podcast",
+    "uk": "подкаст",
+    "ru": "подкаст",
+    "pl": "podcast",
+    "de": "Podcast",
+    "fr": "podcast",
+    "es": "pódcast",
+    "it": "podcast",
+    "pt": "podcast",
+    "tr": "podcast"
+   },
+   "ex": {
+    "en": "Do you know any good history podcasts?"
+   }
+  },
+  {
+   "id": "culture.streaming-service",
+   "t": {
+    "en": "streaming service",
+    "uk": "стрімінговий сервіс",
+    "ru": "стриминговый сервис",
+    "pl": "serwis streamingowy",
+    "de": "Streamingdienst",
+    "fr": "service de streaming",
+    "es": "plataforma de streaming",
+    "it": "servizio di streaming",
+    "pt": "serviço de streaming",
+    "tr": "yayın platformu"
+   },
+   "ex": {
+    "en": "Which streaming service do you use?"
+   }
+  },
+  {
+   "id": "culture.to-binge-watch",
+   "t": {
+    "en": "to binge-watch",
+    "uk": "дивитися запоєм",
+    "ru": "смотреть запоем",
+    "pl": "oglądać ciurkiem",
+    "de": "am Stück schauen",
+    "fr": "regarder d'une traite",
+    "es": "ver del tirón",
+    "it": "guardare tutto d'un fiato",
+    "pt": "maratonar",
+    "tr": "arka arkaya izlemek"
+   },
+   "ex": {
+    "en": "We binge-watched the whole season."
+   }
+  },
+  {
+   "id": "culture.live-performance",
+   "t": {
+    "en": "live performance",
+    "uk": "живий виступ",
+    "ru": "живое выступление",
+    "pl": "występ na żywo",
+    "de": "Live-Auftritt",
+    "fr": "spectacle en direct",
+    "es": "actuación en vivo",
+    "it": "esibizione dal vivo",
+    "pt": "apresentação ao vivo",
+    "tr": "canlı performans"
+   },
+   "ex": {
+    "en": "Nothing beats a live performance."
+   }
+  },
+  {
+   "id": "culture.lyrics",
+   "t": {
+    "en": "lyrics",
+    "uk": "текст пісні",
+    "ru": "текст песни",
+    "pl": "tekst piosenki",
+    "de": "Songtext",
+    "fr": "paroles",
+    "es": "letra",
+    "it": "testo",
+    "pt": "letra",
+    "tr": "şarkı sözleri"
+   },
+   "ex": {
+    "en": "I can't understand the lyrics."
+   }
+  },
+  {
+   "id": "culture.choir",
+   "t": {
+    "en": "choir",
+    "uk": "хор",
+    "ru": "хор",
+    "pl": "chór",
+    "de": "Chor",
+    "fr": "chorale",
+    "es": "coro",
+    "it": "coro",
+    "pt": "coral",
+    "tr": "koro"
+   },
+   "ex": {
+    "en": "She sings in a church choir."
+   }
+  },
+  {
+   "id": "culture.rehearsal",
+   "t": {
+    "en": "rehearsal",
+    "uk": "репетиція",
+    "ru": "репетиция",
+    "pl": "próba",
+    "de": "Probe",
+    "fr": "répétition",
+    "es": "ensayo",
+    "it": "prova",
+    "pt": "ensaio",
+    "tr": "prova"
+   },
+   "ex": {
+    "en": "We have a rehearsal on Thursday."
+   }
+  },
+  {
+   "id": "culture.sculpture",
+   "t": {
+    "en": "sculpture",
+    "uk": "скульптура",
+    "ru": "скульптура",
+    "pl": "rzeźba",
+    "de": "Skulptur",
+    "fr": "sculpture",
+    "es": "escultura",
+    "it": "scultura",
+    "pt": "escultura",
+    "tr": "heykel"
+   },
+   "ex": {
+    "en": "The sculpture is made of bronze."
+   }
+  },
+  {
+   "id": "culture.headline",
+   "t": {
+    "en": "headline",
+    "uk": "заголовок",
+    "ru": "заголовок",
+    "pl": "nagłówek",
+    "de": "Schlagzeile",
+    "fr": "gros titre",
+    "es": "titular",
+    "it": "titolo",
+    "pt": "manchete",
+    "tr": "manşet"
+   },
+   "ex": {
+    "en": "The headline was misleading."
+   }
+  },
+  {
+   "id": "culture.journalist",
+   "t": {
+    "en": "journalist",
+    "uk": "журналіст",
+    "ru": "журналист",
+    "pl": "dziennikarz",
+    "de": "Journalist",
+    "fr": "journaliste",
+    "es": "periodista",
+    "it": "giornalista",
+    "pt": "jornalista",
+    "tr": "gazeteci"
+   },
+   "ex": {
+    "en": "A journalist asked him about the scandal."
+   }
+  },
+  {
+   "id": "culture.stand-up-comedy",
+   "t": {
+    "en": "stand-up comedy",
+    "uk": "стендап",
+    "ru": "стендап",
+    "pl": "stand-up",
+    "de": "Stand-up-Comedy",
+    "fr": "stand-up",
+    "es": "monólogo cómico",
+    "it": "stand-up",
+    "pt": "stand-up",
+    "tr": "stand-up"
+   },
+   "ex": {
+    "en": "We saw some stand-up comedy last night."
+   }
+  },
+  {
+   "id": "culture.to-hang-out-with-friends",
+   "t": {
+    "en": "to hang out with friends",
+    "uk": "тусуватися з друзями",
+    "ru": "тусоваться с друзьями",
+    "pl": "spędzać czas z przyjaciółmi",
+    "de": "mit Freunden abhängen",
+    "fr": "traîner avec des amis",
+    "es": "pasar el rato con amigos",
+    "it": "stare con gli amici",
+    "pt": "sair com os amigos",
+    "tr": "arkadaşlarla takılmak"
+   },
+   "ex": {
+    "en": "I just hung out with friends all weekend."
+   }
+  },
+  {
+   "id": "culture.crime-novel",
+   "t": {
+    "en": "crime novel",
+    "uk": "детектив",
+    "ru": "детектив",
+    "pl": "kryminał",
+    "de": "Krimi",
+    "fr": "roman policier",
+    "es": "novela policíaca",
+    "it": "giallo",
+    "pt": "romance policial",
+    "tr": "polisiye"
+   },
+   "ex": {
+    "en": "She reads crime novels on holiday."
+   }
+  }
+ ]
+}

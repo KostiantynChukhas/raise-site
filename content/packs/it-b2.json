@@ -1,0 +1,530 @@
+{
+ "id": "it-b2",
+ "topic": "it",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "it.scalability",
+   "t": {
+    "en": "scalability",
+    "uk": "масштабованість",
+    "ru": "масштабируемость",
+    "pl": "skalowalność",
+    "de": "Skalierbarkeit",
+    "fr": "évolutivité",
+    "es": "escalabilidad",
+    "it": "scalabilità",
+    "pt": "escalabilidade",
+    "tr": "ölçeklenebilirlik"
+   },
+   "ex": {
+    "en": "Scalability is our main concern."
+   }
+  },
+  {
+   "id": "it.infrastructure",
+   "t": {
+    "en": "infrastructure",
+    "uk": "інфраструктура",
+    "ru": "инфраструктура",
+    "pl": "infrastruktura",
+    "de": "Infrastruktur",
+    "fr": "infrastructure",
+    "es": "infraestructura",
+    "it": "infrastruttura",
+    "pt": "infraestrutura",
+    "tr": "altyapı"
+   },
+   "ex": {
+    "en": "We moved our infrastructure to the cloud."
+   }
+  },
+  {
+   "id": "it.integration",
+   "t": {
+    "en": "integration",
+    "uk": "інтеграція",
+    "ru": "интеграция",
+    "pl": "integracja",
+    "de": "Integration",
+    "fr": "intégration",
+    "es": "integración",
+    "it": "integrazione",
+    "pt": "integração",
+    "tr": "entegrasyon"
+   },
+   "ex": {
+    "en": "The payment integration is ready."
+   }
+  },
+  {
+   "id": "it.api",
+   "t": {
+    "en": "API",
+    "uk": "API",
+    "ru": "API",
+    "pl": "API",
+    "de": "API",
+    "fr": "API",
+    "es": "API",
+    "it": "API",
+    "pt": "API",
+    "tr": "API"
+   },
+   "ex": {
+    "en": "Our API has rate limits."
+   }
+  },
+  {
+   "id": "it.roadmap",
+   "t": {
+    "en": "roadmap",
+    "uk": "дорожня карта",
+    "ru": "дорожная карта",
+    "pl": "mapa drogowa",
+    "de": "Roadmap",
+    "fr": "feuille de route",
+    "es": "hoja de ruta",
+    "it": "roadmap",
+    "pt": "roadmap",
+    "tr": "yol haritası"
+   },
+   "ex": {
+    "en": "It is not on the roadmap this year."
+   }
+  },
+  {
+   "id": "it.backlog",
+   "t": {
+    "en": "backlog",
+    "uk": "беклог",
+    "ru": "бэклог",
+    "pl": "backlog",
+    "de": "Backlog",
+    "fr": "backlog",
+    "es": "backlog",
+    "it": "backlog",
+    "pt": "backlog",
+    "tr": "iş listesi"
+   },
+   "ex": {
+    "en": "Add the task to the backlog."
+   }
+  },
+  {
+   "id": "it.technical-debt",
+   "t": {
+    "en": "technical debt",
+    "uk": "технічний борг",
+    "ru": "технический долг",
+    "pl": "dług techniczny",
+    "de": "technische Schulden",
+    "fr": "dette technique",
+    "es": "deuda técnica",
+    "it": "debito tecnico",
+    "pt": "dívida técnica",
+    "tr": "teknik borç"
+   },
+   "ex": {
+    "en": "Technical debt is slowing us down."
+   }
+  },
+  {
+   "id": "it.milestone",
+   "t": {
+    "en": "milestone",
+    "uk": "віха",
+    "ru": "веха",
+    "pl": "kamień milowy",
+    "de": "Meilenstein",
+    "fr": "jalon",
+    "es": "hito",
+    "it": "traguardo",
+    "pt": "marco",
+    "tr": "kilometre taşı"
+   },
+   "ex": {
+    "en": "We hit the first milestone early."
+   }
+  },
+  {
+   "id": "it.prototype",
+   "t": {
+    "en": "prototype",
+    "uk": "прототип",
+    "ru": "прототип",
+    "pl": "prototyp",
+    "de": "Prototyp",
+    "fr": "prototype",
+    "es": "prototipo",
+    "it": "prototipo",
+    "pt": "protótipo",
+    "tr": "prototip"
+   },
+   "ex": {
+    "en": "The prototype is ready for testing."
+   }
+  },
+  {
+   "id": "it.mvp",
+   "t": {
+    "en": "MVP",
+    "uk": "мінімально життєздатний продукт",
+    "ru": "MVP",
+    "pl": "MVP",
+    "de": "MVP",
+    "fr": "produit minimum viable",
+    "es": "producto mínimo viable",
+    "it": "MVP",
+    "pt": "MVP",
+    "tr": "minimum uygulanabilir ürün"
+   },
+   "ex": {
+    "en": "Let's ship the MVP first."
+   }
+  },
+  {
+   "id": "it.to-iterate",
+   "t": {
+    "en": "to iterate",
+    "uk": "ітерувати",
+    "ru": "итерировать",
+    "pl": "iterować",
+    "de": "iterieren",
+    "fr": "itérer",
+    "es": "iterar",
+    "it": "iterare",
+    "pt": "iterar",
+    "tr": "yinelemek"
+   },
+   "ex": {
+    "en": "We iterate based on user feedback."
+   }
+  },
+  {
+   "id": "it.requirements",
+   "t": {
+    "en": "requirements",
+    "uk": "вимоги",
+    "ru": "требования",
+    "pl": "wymagania",
+    "de": "Anforderungen",
+    "fr": "exigences",
+    "es": "requisitos",
+    "it": "requisiti",
+    "pt": "requisitos",
+    "tr": "gereksinimler"
+   },
+   "ex": {
+    "en": "The requirements changed again."
+   }
+  },
+  {
+   "id": "it.trade-off",
+   "t": {
+    "en": "trade-off",
+    "uk": "компроміс",
+    "ru": "компромисс",
+    "pl": "kompromis",
+    "de": "Kompromiss",
+    "fr": "compromis",
+    "es": "compensación",
+    "it": "compromesso",
+    "pt": "trade-off",
+    "tr": "ödünleşim"
+   },
+   "ex": {
+    "en": "Speed versus quality is a trade-off."
+   }
+  },
+  {
+   "id": "it.bottleneck",
+   "t": {
+    "en": "bottleneck",
+    "uk": "вузьке місце",
+    "ru": "узкое место",
+    "pl": "wąskie gardło",
+    "de": "Engpass",
+    "fr": "goulot d'étranglement",
+    "es": "cuello de botella",
+    "it": "collo di bottiglia",
+    "pt": "gargalo",
+    "tr": "darboğaz"
+   },
+   "ex": {
+    "en": "Code review is the bottleneck."
+   }
+  },
+  {
+   "id": "it.to-escalate",
+   "t": {
+    "en": "to escalate",
+    "uk": "ескалювати",
+    "ru": "эскалировать",
+    "pl": "eskalować",
+    "de": "eskalieren",
+    "fr": "faire remonter",
+    "es": "escalar",
+    "it": "inoltrare",
+    "pt": "escalar",
+    "tr": "üst kademeye iletmek"
+   },
+   "ex": {
+    "en": "Escalate the issue to the manager."
+   }
+  },
+  {
+   "id": "it.to-prioritize",
+   "t": {
+    "en": "to prioritize",
+    "uk": "пріоритезувати",
+    "ru": "приоритизировать",
+    "pl": "nadać priorytet",
+    "de": "priorisieren",
+    "fr": "prioriser",
+    "es": "priorizar",
+    "it": "dare priorità",
+    "pt": "priorizar",
+    "tr": "önceliklendirmek"
+   },
+   "ex": {
+    "en": "We need to prioritize the bugs."
+   }
+  },
+  {
+   "id": "it.to-onboard",
+   "t": {
+    "en": "to onboard",
+    "uk": "адаптувати",
+    "ru": "онбордить",
+    "pl": "wdrożyć",
+    "de": "einarbeiten",
+    "fr": "intégrer",
+    "es": "incorporar",
+    "it": "inserire",
+    "pt": "integrar",
+    "tr": "işe alıştırmak"
+   },
+   "ex": {
+    "en": "We onboard new hires in a week."
+   }
+  },
+  {
+   "id": "it.scope-creep",
+   "t": {
+    "en": "scope creep",
+    "uk": "розширення обсягу робіт",
+    "ru": "расползание объёма",
+    "pl": "rozrost zakresu",
+    "de": "schleichende Ausweitung",
+    "fr": "dérive des objectifs",
+    "es": "ampliación del alcance",
+    "it": "espansione incontrollata",
+    "pt": "aumento de escopo",
+    "tr": "kapsam kayması"
+   },
+   "ex": {
+    "en": "Scope creep delayed the project."
+   }
+  },
+  {
+   "id": "it.deliverable",
+   "t": {
+    "en": "deliverable",
+    "uk": "результат роботи",
+    "ru": "результат работы",
+    "pl": "produkt końcowy",
+    "de": "Liefergegenstand",
+    "fr": "livrable",
+    "es": "entregable",
+    "it": "deliverable",
+    "pt": "entrega",
+    "tr": "teslimat"
+   },
+   "ex": {
+    "en": "The report is the final deliverable."
+   }
+  },
+  {
+   "id": "it.to-automate",
+   "t": {
+    "en": "to automate",
+    "uk": "автоматизувати",
+    "ru": "автоматизировать",
+    "pl": "zautomatyzować",
+    "de": "automatisieren",
+    "fr": "automatiser",
+    "es": "automatizar",
+    "it": "automatizzare",
+    "pt": "automatizar",
+    "tr": "otomatikleştirmek"
+   },
+   "ex": {
+    "en": "We automated the weekly reports."
+   }
+  },
+  {
+   "id": "it.open-source",
+   "t": {
+    "en": "open source",
+    "uk": "відкритий код",
+    "ru": "открытый исходный код",
+    "pl": "otwarte oprogramowanie",
+    "de": "Open Source",
+    "fr": "open source",
+    "es": "código abierto",
+    "it": "open source",
+    "pt": "código aberto",
+    "tr": "açık kaynak"
+   },
+   "ex": {
+    "en": "The tool is open source."
+   }
+  },
+  {
+   "id": "it.bandwidth",
+   "t": {
+    "en": "bandwidth",
+    "uk": "пропускна здатність",
+    "ru": "пропускная способность",
+    "pl": "przepustowość",
+    "de": "Bandbreite",
+    "fr": "bande passante",
+    "es": "ancho de banda",
+    "it": "larghezza di banda",
+    "pt": "largura de banda",
+    "tr": "bant genişliği"
+   },
+   "ex": {
+    "en": "Video calls use a lot of bandwidth."
+   }
+  },
+  {
+   "id": "it.latency",
+   "t": {
+    "en": "latency",
+    "uk": "затримка",
+    "ru": "задержка",
+    "pl": "opóźnienie",
+    "de": "Latenz",
+    "fr": "latence",
+    "es": "latencia",
+    "it": "latenza",
+    "pt": "latência",
+    "tr": "gecikme"
+   },
+   "ex": {
+    "en": "Users complain about high latency."
+   }
+  },
+  {
+   "id": "it.to-migrate",
+   "t": {
+    "en": "to migrate",
+    "uk": "мігрувати",
+    "ru": "мигрировать",
+    "pl": "migrować",
+    "de": "migrieren",
+    "fr": "migrer",
+    "es": "migrar",
+    "it": "migrare",
+    "pt": "migrar",
+    "tr": "taşımak"
+   },
+   "ex": {
+    "en": "We migrated to a new database."
+   }
+  },
+  {
+   "id": "it.legacy-system",
+   "t": {
+    "en": "legacy system",
+    "uk": "застаріла система",
+    "ru": "устаревшая система",
+    "pl": "system odziedziczony",
+    "de": "Altsystem",
+    "fr": "système hérité",
+    "es": "sistema heredado",
+    "it": "sistema legacy",
+    "pt": "sistema legado",
+    "tr": "eski sistem"
+   },
+   "ex": {
+    "en": "The legacy system still runs payroll."
+   }
+  },
+  {
+   "id": "it.proof-of-concept",
+   "t": {
+    "en": "proof of concept",
+    "uk": "підтвердження концепції",
+    "ru": "проверка концепции",
+    "pl": "dowód koncepcji",
+    "de": "Machbarkeitsnachweis",
+    "fr": "preuve de concept",
+    "es": "prueba de concepto",
+    "it": "proof of concept",
+    "pt": "prova de conceito",
+    "tr": "kavram kanıtı"
+   },
+   "ex": {
+    "en": "We built a proof of concept in a week."
+   }
+  },
+  {
+   "id": "it.retrospective",
+   "t": {
+    "en": "retrospective",
+    "uk": "ретроспектива",
+    "ru": "ретроспектива",
+    "pl": "retrospektywa",
+    "de": "Retrospektive",
+    "fr": "rétrospective",
+    "es": "retrospectiva",
+    "it": "retrospettiva",
+    "pt": "retrospectiva",
+    "tr": "retrospektif"
+   },
+   "ex": {
+    "en": "The retrospective is after the sprint."
+   }
+  },
+  {
+   "id": "it.blocker",
+   "t": {
+    "en": "blocker",
+    "uk": "блокер",
+    "ru": "блокер",
+    "pl": "blokada",
+    "de": "Blocker",
+    "fr": "blocage",
+    "es": "bloqueo",
+    "it": "blocco",
+    "pt": "impedimento",
+    "tr": "engel"
+   },
+   "ex": {
+    "en": "Any blockers today?"
+   }
+  },
+  {
+   "id": "it.to-ship",
+   "t": {
+    "en": "to ship",
+    "uk": "випустити",
+    "ru": "выпустить",
+    "pl": "wypuścić",
+    "de": "ausliefern",
+    "fr": "livrer",
+    "es": "lanzar",
+    "it": "rilasciare",
+    "pt": "lançar",
+    "tr": "yayınlamak"
+   },
+   "ex": {
+    "en": "We ship the feature tomorrow."
+   }
+  }
+ ]
+}

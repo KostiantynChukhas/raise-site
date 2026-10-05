@@ -1,0 +1,530 @@
+{
+ "id": "emergency-b1",
+ "topic": "emergency",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emergency.immigration-office",
+   "t": {
+    "en": "immigration office",
+    "uk": "міграційна служба",
+    "ru": "миграционная служба",
+    "pl": "urząd ds. cudzoziemców",
+    "de": "Ausländerbehörde",
+    "fr": "service de l'immigration",
+    "es": "oficina de extranjería",
+    "it": "ufficio immigrazione",
+    "pt": "departamento de imigração",
+    "tr": "göç idaresi"
+   },
+   "ex": {
+    "en": "I have to go to the immigration office tomorrow."
+   }
+  },
+  {
+   "id": "emergency.immigration",
+   "t": {
+    "en": "immigration",
+    "uk": "імміграція",
+    "ru": "иммиграция",
+    "pl": "imigracja",
+    "de": "Einwanderung",
+    "fr": "immigration",
+    "es": "inmigración",
+    "it": "immigrazione",
+    "pt": "imigração",
+    "tr": "göç"
+   },
+   "ex": {
+    "en": "Immigration rules changed this year."
+   }
+  },
+  {
+   "id": "emergency.citizenship",
+   "t": {
+    "en": "citizenship",
+    "uk": "громадянство",
+    "ru": "гражданство",
+    "pl": "obywatelstwo",
+    "de": "Staatsbürgerschaft",
+    "fr": "nationalité",
+    "es": "ciudadanía",
+    "it": "cittadinanza",
+    "pt": "cidadania",
+    "tr": "vatandaşlık"
+   },
+   "ex": {
+    "en": "She applied for citizenship last year."
+   }
+  },
+  {
+   "id": "emergency.to-renew",
+   "t": {
+    "en": "to renew",
+    "uk": "продовжувати",
+    "ru": "продлевать",
+    "pl": "przedłużać",
+    "de": "verlängern",
+    "fr": "renouveler",
+    "es": "renovar",
+    "it": "rinnovare",
+    "pt": "renovar",
+    "tr": "yenilemek"
+   },
+   "ex": {
+    "en": "I need to renew my permit soon."
+   }
+  },
+  {
+   "id": "emergency.temporary",
+   "t": {
+    "en": "temporary",
+    "uk": "тимчасовий",
+    "ru": "временный",
+    "pl": "tymczasowy",
+    "de": "befristet",
+    "fr": "temporaire",
+    "es": "temporal",
+    "it": "temporaneo",
+    "pt": "temporário",
+    "tr": "geçici"
+   },
+   "ex": {
+    "en": "This is only a temporary permit."
+   }
+  },
+  {
+   "id": "emergency.permanent",
+   "t": {
+    "en": "permanent",
+    "uk": "постійний",
+    "ru": "постоянный",
+    "pl": "stały",
+    "de": "unbefristet",
+    "fr": "permanent",
+    "es": "permanente",
+    "it": "permanente",
+    "pt": "permanente",
+    "tr": "kalıcı"
+   },
+   "ex": {
+    "en": "He finally got permanent residence."
+   }
+  },
+  {
+   "id": "emergency.health-insurance",
+   "t": {
+    "en": "health insurance",
+    "uk": "медичне страхування",
+    "ru": "медицинская страховка",
+    "pl": "ubezpieczenie zdrowotne",
+    "de": "Krankenversicherung",
+    "fr": "assurance maladie",
+    "es": "seguro médico",
+    "it": "assicurazione sanitaria",
+    "pt": "plano de saúde",
+    "tr": "sağlık sigortası"
+   },
+   "ex": {
+    "en": "Health insurance is compulsory here."
+   }
+  },
+  {
+   "id": "emergency.car-insurance",
+   "t": {
+    "en": "car insurance",
+    "uk": "автострахування",
+    "ru": "автострахование",
+    "pl": "ubezpieczenie samochodu",
+    "de": "Kfz-Versicherung",
+    "fr": "assurance auto",
+    "es": "seguro de coche",
+    "it": "assicurazione auto",
+    "pt": "seguro de carro",
+    "tr": "araç sigortası"
+   },
+   "ex": {
+    "en": "My car insurance covers theft."
+   }
+  },
+  {
+   "id": "emergency.insurance-policy",
+   "t": {
+    "en": "insurance policy",
+    "uk": "страховий поліс",
+    "ru": "страховой полис",
+    "pl": "polisa ubezpieczeniowa",
+    "de": "Versicherungspolice",
+    "fr": "police d'assurance",
+    "es": "póliza de seguro",
+    "it": "polizza assicurativa",
+    "pt": "apólice de seguro",
+    "tr": "sigorta poliçesi"
+   },
+   "ex": {
+    "en": "Read your insurance policy carefully."
+   }
+  },
+  {
+   "id": "emergency.insurance-claim",
+   "t": {
+    "en": "insurance claim",
+    "uk": "страхова заява",
+    "ru": "страховое требование",
+    "pl": "roszczenie ubezpieczeniowe",
+    "de": "Schadensmeldung",
+    "fr": "déclaration de sinistre",
+    "es": "reclamación al seguro",
+    "it": "richiesta di risarcimento",
+    "pt": "acionamento do seguro",
+    "tr": "sigorta talebi"
+   },
+   "ex": {
+    "en": "I filed an insurance claim after the flood."
+   }
+  },
+  {
+   "id": "emergency.to-be-insured",
+   "t": {
+    "en": "to be insured",
+    "uk": "бути застрахованим",
+    "ru": "быть застрахованным",
+    "pl": "być ubezpieczonym",
+    "de": "versichert sein",
+    "fr": "être assuré",
+    "es": "estar asegurado",
+    "it": "essere assicurato",
+    "pt": "estar segurado",
+    "tr": "sigortalı olmak"
+   },
+   "ex": {
+    "en": "Are you insured against fire?"
+   }
+  },
+  {
+   "id": "emergency.birth-certificate",
+   "t": {
+    "en": "birth certificate",
+    "uk": "свідоцтво про народження",
+    "ru": "свидетельство о рождении",
+    "pl": "akt urodzenia",
+    "de": "Geburtsurkunde",
+    "fr": "acte de naissance",
+    "es": "partida de nacimiento",
+    "it": "certificato di nascita",
+    "pt": "certidão de nascimento",
+    "tr": "doğum belgesi"
+   },
+   "ex": {
+    "en": "Bring your child's birth certificate."
+   }
+  },
+  {
+   "id": "emergency.marriage-certificate",
+   "t": {
+    "en": "marriage certificate",
+    "uk": "свідоцтво про шлюб",
+    "ru": "свидетельство о браке",
+    "pl": "akt małżeństwa",
+    "de": "Heiratsurkunde",
+    "fr": "acte de mariage",
+    "es": "certificado de matrimonio",
+    "it": "certificato di matrimonio",
+    "pt": "certidão de casamento",
+    "tr": "evlilik cüzdanı"
+   },
+   "ex": {
+    "en": "They asked for our marriage certificate."
+   }
+  },
+  {
+   "id": "emergency.notary",
+   "t": {
+    "en": "notary",
+    "uk": "нотаріус",
+    "ru": "нотариус",
+    "pl": "notariusz",
+    "de": "Notar",
+    "fr": "notaire",
+    "es": "notario",
+    "it": "notaio",
+    "pt": "tabelião",
+    "tr": "noter"
+   },
+   "ex": {
+    "en": "The contract was signed at the notary."
+   }
+  },
+  {
+   "id": "emergency.certified-translation",
+   "t": {
+    "en": "certified translation",
+    "uk": "завірений переклад",
+    "ru": "заверенный перевод",
+    "pl": "tłumaczenie przysięgłe",
+    "de": "beglaubigte Übersetzung",
+    "fr": "traduction certifiée",
+    "es": "traducción jurada",
+    "it": "traduzione giurata",
+    "pt": "tradução juramentada",
+    "tr": "yeminli tercüme"
+   },
+   "ex": {
+    "en": "They require a certified translation of the diploma."
+   }
+  },
+  {
+   "id": "emergency.apostille",
+   "t": {
+    "en": "apostille",
+    "uk": "апостиль",
+    "ru": "апостиль",
+    "pl": "apostille",
+    "de": "Apostille",
+    "fr": "apostille",
+    "es": "apostilla",
+    "it": "apostille",
+    "pt": "apostila",
+    "tr": "apostil"
+   },
+   "ex": {
+    "en": "Your documents need an apostille."
+   }
+  },
+  {
+   "id": "emergency.civil-servant",
+   "t": {
+    "en": "civil servant",
+    "uk": "держслужбовець",
+    "ru": "госслужащий",
+    "pl": "urzędnik",
+    "de": "Beamter",
+    "fr": "fonctionnaire",
+    "es": "funcionario",
+    "it": "impiegato pubblico",
+    "pt": "funcionário público",
+    "tr": "memur"
+   },
+   "ex": {
+    "en": "The civil servant checked my papers."
+   }
+  },
+  {
+   "id": "emergency.official",
+   "t": {
+    "en": "official",
+    "uk": "офіційний",
+    "ru": "официальный",
+    "pl": "urzędowy",
+    "de": "amtlich",
+    "fr": "officiel",
+    "es": "oficial",
+    "it": "ufficiale",
+    "pt": "oficial",
+    "tr": "resmi"
+   },
+   "ex": {
+    "en": "You will receive an official letter."
+   }
+  },
+  {
+   "id": "emergency.legal",
+   "t": {
+    "en": "legal",
+    "uk": "законний",
+    "ru": "законный",
+    "pl": "legalny",
+    "de": "legal",
+    "fr": "légal",
+    "es": "legal",
+    "it": "legale",
+    "pt": "legal",
+    "tr": "yasal"
+   },
+   "ex": {
+    "en": "Is it legal to work on a tourist visa?"
+   }
+  },
+  {
+   "id": "emergency.illegal",
+   "t": {
+    "en": "illegal",
+    "uk": "незаконний",
+    "ru": "незаконный",
+    "pl": "nielegalny",
+    "de": "illegal",
+    "fr": "illégal",
+    "es": "ilegal",
+    "it": "illegale",
+    "pt": "ilegal",
+    "tr": "yasa dışı"
+   },
+   "ex": {
+    "en": "Parking here is illegal."
+   }
+  },
+  {
+   "id": "emergency.complaint",
+   "t": {
+    "en": "complaint",
+    "uk": "скарга",
+    "ru": "жалоба",
+    "pl": "skarga",
+    "de": "Beschwerde",
+    "fr": "réclamation",
+    "es": "queja",
+    "it": "reclamo",
+    "pt": "reclamação",
+    "tr": "şikayet"
+   },
+   "ex": {
+    "en": "I want to make a formal complaint."
+   }
+  },
+  {
+   "id": "emergency.to-arrest",
+   "t": {
+    "en": "to arrest",
+    "uk": "заарештовувати",
+    "ru": "арестовывать",
+    "pl": "aresztować",
+    "de": "verhaften",
+    "fr": "arrêter",
+    "es": "detener",
+    "it": "arrestare",
+    "pt": "prender",
+    "tr": "tutuklamak"
+   },
+   "ex": {
+    "en": "The police arrested two men."
+   }
+  },
+  {
+   "id": "emergency.lawyer",
+   "t": {
+    "en": "lawyer",
+    "uk": "адвокат",
+    "ru": "адвокат",
+    "pl": "adwokat",
+    "de": "Anwalt",
+    "fr": "avocat",
+    "es": "abogado",
+    "it": "avvocato",
+    "pt": "advogado",
+    "tr": "avukat"
+   },
+   "ex": {
+    "en": "I want to speak to a lawyer."
+   }
+  },
+  {
+   "id": "emergency.to-evacuate",
+   "t": {
+    "en": "to evacuate",
+    "uk": "евакуювати",
+    "ru": "эвакуировать",
+    "pl": "ewakuować",
+    "de": "evakuieren",
+    "fr": "évacuer",
+    "es": "evacuar",
+    "it": "evacuare",
+    "pt": "evacuar",
+    "tr": "tahliye etmek"
+   },
+   "ex": {
+    "en": "They evacuated the whole building."
+   }
+  },
+  {
+   "id": "emergency.flood",
+   "t": {
+    "en": "flood",
+    "uk": "повінь",
+    "ru": "наводнение",
+    "pl": "powódź",
+    "de": "Überschwemmung",
+    "fr": "inondation",
+    "es": "inundación",
+    "it": "alluvione",
+    "pt": "enchente",
+    "tr": "sel"
+   },
+   "ex": {
+    "en": "The flood damaged many houses."
+   }
+  },
+  {
+   "id": "emergency.earthquake",
+   "t": {
+    "en": "earthquake",
+    "uk": "землетрус",
+    "ru": "землетрясение",
+    "pl": "trzęsienie ziemi",
+    "de": "Erdbeben",
+    "fr": "tremblement de terre",
+    "es": "terremoto",
+    "it": "terremoto",
+    "pt": "terremoto",
+    "tr": "deprem"
+   },
+   "ex": {
+    "en": "The earthquake woke everyone up."
+   }
+  },
+  {
+   "id": "emergency.rescue",
+   "t": {
+    "en": "rescue",
+    "uk": "порятунок",
+    "ru": "спасение",
+    "pl": "ratunek",
+    "de": "Rettung",
+    "fr": "sauvetage",
+    "es": "rescate",
+    "it": "salvataggio",
+    "pt": "resgate",
+    "tr": "kurtarma"
+   },
+   "ex": {
+    "en": "The rescue took three hours."
+   }
+  },
+  {
+   "id": "emergency.to-lose-consciousness",
+   "t": {
+    "en": "to lose consciousness",
+    "uk": "втрачати свідомість",
+    "ru": "терять сознание",
+    "pl": "stracić przytomność",
+    "de": "ohnmächtig werden",
+    "fr": "perdre connaissance",
+    "es": "perder el conocimiento",
+    "it": "perdere i sensi",
+    "pt": "desmaiar",
+    "tr": "bayılmak"
+   },
+   "ex": {
+    "en": "She lost consciousness for a minute."
+   }
+  },
+  {
+   "id": "emergency.tow-truck",
+   "t": {
+    "en": "tow truck",
+    "uk": "евакуатор",
+    "ru": "эвакуатор",
+    "pl": "laweta",
+    "de": "Abschleppwagen",
+    "fr": "dépanneuse",
+    "es": "grúa",
+    "it": "carro attrezzi",
+    "pt": "guincho",
+    "tr": "çekici"
+   },
+   "ex": {
+    "en": "We had to call a tow truck."
+   }
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "id": "family-a2",
+ "topic": "family",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "family.grandparents",
+   "t": {
+    "en": "grandparents",
+    "uk": "бабуся й дідусь",
+    "ru": "бабушка и дедушка",
+    "pl": "dziadkowie",
+    "de": "Großeltern",
+    "fr": "grands-parents",
+    "es": "abuelos",
+    "it": "nonni",
+    "pt": "avós",
+    "tr": "büyükanne ve büyükbaba"
+   },
+   "ex": {
+    "en": "We visit our grandparents every Sunday."
+   }
+  },
+  {
+   "id": "family.grandson",
+   "t": {
+    "en": "grandson",
+    "uk": "онук",
+    "ru": "внук",
+    "pl": "wnuk",
+    "de": "Enkel",
+    "fr": "petit-fils",
+    "es": "nieto",
+    "it": "nipote",
+    "pt": "neto",
+    "tr": "erkek torun"
+   },
+   "ex": {
+    "en": "Her grandson is three years old."
+   }
+  },
+  {
+   "id": "family.granddaughter",
+   "t": {
+    "en": "granddaughter",
+    "uk": "онука",
+    "ru": "внучка",
+    "pl": "wnuczka",
+    "de": "Enkelin",
+    "fr": "petite-fille",
+    "es": "nieta",
+    "it": "nipote",
+    "pt": "neta",
+    "tr": "kız torun"
+   },
+   "ex": {
+    "en": "His granddaughter lives in Spain."
+   }
+  },
+  {
+   "id": "family.nephew",
+   "t": {
+    "en": "nephew",
+    "uk": "племінник",
+    "ru": "племянник",
+    "pl": "siostrzeniec",
+    "de": "Neffe",
+    "fr": "neveu",
+    "es": "sobrino",
+    "it": "nipote",
+    "pt": "sobrinho",
+    "tr": "yeğen"
+   },
+   "ex": {
+    "en": "My nephew starts school this year."
+   }
+  },
+  {
+   "id": "family.niece",
+   "t": {
+    "en": "niece",
+    "uk": "племінниця",
+    "ru": "племянница",
+    "pl": "siostrzenica",
+    "de": "Nichte",
+    "fr": "nièce",
+    "es": "sobrina",
+    "it": "nipote",
+    "pt": "sobrinha",
+    "tr": "kız yeğen"
+   },
+   "ex": {
+    "en": "My niece loves horses."
+   }
+  },
+  {
+   "id": "family.twins",
+   "t": {
+    "en": "twins",
+    "uk": "близнюки",
+    "ru": "близнецы",
+    "pl": "bliźnięta",
+    "de": "Zwillinge",
+    "fr": "jumeaux",
+    "es": "gemelos",
+    "it": "gemelli",
+    "pt": "gêmeos",
+    "tr": "ikizler"
+   },
+   "ex": {
+    "en": "They have twins, a boy and a girl."
+   }
+  },
+  {
+   "id": "family.neighbor",
+   "t": {
+    "en": "neighbor",
+    "uk": "сусід",
+    "ru": "сосед",
+    "pl": "sąsiad",
+    "de": "Nachbar",
+    "fr": "voisin",
+    "es": "vecino",
+    "it": "vicino",
+    "pt": "vizinho",
+    "tr": "komşu"
+   },
+   "ex": {
+    "en": "Our neighbor has two cats."
+   }
+  },
+  {
+   "id": "family.only-child",
+   "t": {
+    "en": "only child",
+    "uk": "єдина дитина",
+    "ru": "единственный ребёнок",
+    "pl": "jedynak",
+    "de": "Einzelkind",
+    "fr": "enfant unique",
+    "es": "hijo único",
+    "it": "figlio unico",
+    "pt": "filho único",
+    "tr": "tek çocuk"
+   },
+   "ex": {
+    "en": "I am an only child."
+   }
+  },
+  {
+   "id": "family.to-get-married",
+   "t": {
+    "en": "to get married",
+    "uk": "одружитися",
+    "ru": "пожениться",
+    "pl": "pobrać się",
+    "de": "heiraten",
+    "fr": "se marier",
+    "es": "casarse",
+    "it": "sposarsi",
+    "pt": "casar-se",
+    "tr": "evlenmek"
+   },
+   "ex": {
+    "en": "They got married last summer."
+   }
+  },
+  {
+   "id": "family.wedding",
+   "t": {
+    "en": "wedding",
+    "uk": "весілля",
+    "ru": "свадьба",
+    "pl": "ślub",
+    "de": "Hochzeit",
+    "fr": "mariage",
+    "es": "boda",
+    "it": "matrimonio",
+    "pt": "casamento",
+    "tr": "düğün"
+   },
+   "ex": {
+    "en": "The wedding is in June."
+   }
+  },
+  {
+   "id": "family.birthday",
+   "t": {
+    "en": "birthday",
+    "uk": "день народження",
+    "ru": "день рождения",
+    "pl": "urodziny",
+    "de": "Geburtstag",
+    "fr": "anniversaire",
+    "es": "cumpleaños",
+    "it": "compleanno",
+    "pt": "aniversário",
+    "tr": "doğum günü"
+   },
+   "ex": {
+    "en": "Happy birthday, Grandma!"
+   }
+  },
+  {
+   "id": "family.to-be-born",
+   "t": {
+    "en": "to be born",
+    "uk": "народитися",
+    "ru": "родиться",
+    "pl": "urodzić się",
+    "de": "geboren werden",
+    "fr": "naître",
+    "es": "nacer",
+    "it": "nascere",
+    "pt": "nascer",
+    "tr": "doğmak"
+   },
+   "ex": {
+    "en": "I was born in 1995."
+   }
+  },
+  {
+   "id": "family.to-grow-up",
+   "t": {
+    "en": "to grow up",
+    "uk": "виростати",
+    "ru": "вырасти",
+    "pl": "dorastać",
+    "de": "aufwachsen",
+    "fr": "grandir",
+    "es": "crecer",
+    "it": "crescere",
+    "pt": "crescer",
+    "tr": "büyümek"
+   },
+   "ex": {
+    "en": "I grew up in a small town."
+   }
+  },
+  {
+   "id": "family.to-look-like",
+   "t": {
+    "en": "to look like",
+    "uk": "бути схожим на",
+    "ru": "быть похожим на",
+    "pl": "wyglądać jak",
+    "de": "aussehen wie",
+    "fr": "ressembler à",
+    "es": "parecerse a",
+    "it": "assomigliare a",
+    "pt": "parecer com",
+    "tr": "benzemek"
+   },
+   "ex": {
+    "en": "You look like your mother."
+   }
+  },
+  {
+   "id": "family.blond-hair",
+   "t": {
+    "en": "blond hair",
+    "uk": "світле волосся",
+    "ru": "светлые волосы",
+    "pl": "blond włosy",
+    "de": "blonde Haare",
+    "fr": "cheveux blonds",
+    "es": "pelo rubio",
+    "it": "capelli biondi",
+    "pt": "cabelo loiro",
+    "tr": "sarı saç"
+   },
+   "ex": {
+    "en": "My sister has blond hair."
+   }
+  },
+  {
+   "id": "family.dark-hair",
+   "t": {
+    "en": "dark hair",
+    "uk": "темне волосся",
+    "ru": "тёмные волосы",
+    "pl": "ciemne włosy",
+    "de": "dunkle Haare",
+    "fr": "cheveux foncés",
+    "es": "pelo oscuro",
+    "it": "capelli scuri",
+    "pt": "cabelo escuro",
+    "tr": "koyu saç"
+   },
+   "ex": {
+    "en": "My father has dark hair."
+   }
+  },
+  {
+   "id": "family.beard",
+   "t": {
+    "en": "beard",
+    "uk": "борода",
+    "ru": "борода",
+    "pl": "broda",
+    "de": "Bart",
+    "fr": "barbe",
+    "es": "barba",
+    "it": "barba",
+    "pt": "barba",
+    "tr": "sakal"
+   },
+   "ex": {
+    "en": "My uncle has a long beard."
+   }
+  },
+  {
+   "id": "family.glasses",
+   "t": {
+    "en": "glasses",
+    "uk": "окуляри",
+    "ru": "очки",
+    "pl": "okulary",
+    "de": "Brille",
+    "fr": "lunettes",
+    "es": "gafas",
+    "it": "occhiali",
+    "pt": "óculos",
+    "tr": "gözlük"
+   },
+   "ex": {
+    "en": "My grandfather wears glasses."
+   }
+  },
+  {
+   "id": "family.slim",
+   "t": {
+    "en": "slim",
+    "uk": "стрункий",
+    "ru": "стройный",
+    "pl": "szczupły",
+    "de": "schlank",
+    "fr": "mince",
+    "es": "delgado",
+    "it": "magro",
+    "pt": "magro",
+    "tr": "ince"
+   },
+   "ex": {
+    "en": "She is tall and slim."
+   }
+  },
+  {
+   "id": "family.kind",
+   "t": {
+    "en": "kind",
+    "uk": "добрий",
+    "ru": "добрый",
+    "pl": "miły",
+    "de": "nett",
+    "fr": "gentil",
+    "es": "amable",
+    "it": "gentile",
+    "pt": "gentil",
+    "tr": "nazik"
+   },
+   "ex": {
+    "en": "My grandmother is very kind."
+   }
+  },
+  {
+   "id": "family.to-get-along-with",
+   "t": {
+    "en": "to get along with",
+    "uk": "ладнати з",
+    "ru": "ладить с",
+    "pl": "dogadywać się z",
+    "de": "sich verstehen mit",
+    "fr": "s'entendre avec",
+    "es": "llevarse bien con",
+    "it": "andare d'accordo con",
+    "pt": "se dar bem com",
+    "tr": "iyi geçinmek"
+   },
+   "ex": {
+    "en": "I get along with my sister."
+   }
+  },
+  {
+   "id": "family.pregnant",
+   "t": {
+    "en": "pregnant",
+    "uk": "вагітна",
+    "ru": "беременная",
+    "pl": "w ciąży",
+    "de": "schwanger",
+    "fr": "enceinte",
+    "es": "embarazada",
+    "it": "incinta",
+    "pt": "grávida",
+    "tr": "hamile"
+   },
+   "ex": {
+    "en": "My cousin is pregnant."
+   }
+  },
+  {
+   "id": "family.older-brother",
+   "t": {
+    "en": "older brother",
+    "uk": "старший брат",
+    "ru": "старший брат",
+    "pl": "starszy brat",
+    "de": "älterer Bruder",
+    "fr": "grand frère",
+    "es": "hermano mayor",
+    "it": "fratello maggiore",
+    "pt": "irmão mais velho",
+    "tr": "ağabey"
+   },
+   "ex": {
+    "en": "My older brother is a pilot."
+   }
+  },
+  {
+   "id": "family.to-meet-friends",
+   "t": {
+    "en": "to meet friends",
+    "uk": "зустрічатися з друзями",
+    "ru": "встречаться с друзьями",
+    "pl": "spotykać się z przyjaciółmi",
+    "de": "Freunde treffen",
+    "fr": "voir des amis",
+    "es": "quedar con amigos",
+    "it": "vedere gli amici",
+    "pt": "encontrar amigos",
+    "tr": "arkadaşlarla buluşmak"
+   },
+   "ex": {
+    "en": "I meet friends on Fridays."
+   }
+  }
+ ]
+}

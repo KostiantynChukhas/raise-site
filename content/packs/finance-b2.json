@@ -1,0 +1,530 @@
+{
+ "id": "finance-b2",
+ "topic": "finance",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "finance.tax-return",
+   "t": {
+    "en": "tax return",
+    "uk": "податкова декларація",
+    "ru": "налоговая декларация",
+    "pl": "zeznanie podatkowe",
+    "de": "Steuererklärung",
+    "fr": "déclaration de revenus",
+    "es": "declaración de la renta",
+    "it": "dichiarazione dei redditi",
+    "pt": "declaração de imposto de renda",
+    "tr": "vergi beyannamesi"
+   },
+   "ex": {
+    "en": "I filed my tax return in April."
+   }
+  },
+  {
+   "id": "finance.tax-deduction",
+   "t": {
+    "en": "tax deduction",
+    "uk": "податкове вирахування",
+    "ru": "налоговый вычет",
+    "pl": "odliczenie od podatku",
+    "de": "Steuerabzug",
+    "fr": "déduction fiscale",
+    "es": "deducción fiscal",
+    "it": "detrazione fiscale",
+    "pt": "dedução fiscal",
+    "tr": "vergi indirimi"
+   },
+   "ex": {
+    "en": "Childcare costs count as a tax deduction."
+   }
+  },
+  {
+   "id": "finance.vat",
+   "t": {
+    "en": "VAT",
+    "uk": "ПДВ",
+    "ru": "НДС",
+    "pl": "VAT",
+    "de": "Mehrwertsteuer",
+    "fr": "TVA",
+    "es": "IVA",
+    "it": "IVA",
+    "pt": "ICMS",
+    "tr": "KDV"
+   },
+   "ex": {
+    "en": "The price does not include VAT."
+   }
+  },
+  {
+   "id": "finance.income-tax",
+   "t": {
+    "en": "income tax",
+    "uk": "податок на доходи",
+    "ru": "подоходный налог",
+    "pl": "podatek dochodowy",
+    "de": "Einkommensteuer",
+    "fr": "impôt sur le revenu",
+    "es": "impuesto sobre la renta",
+    "it": "imposta sul reddito",
+    "pt": "imposto de renda",
+    "tr": "gelir vergisi"
+   },
+   "ex": {
+    "en": "Income tax is deducted from my salary."
+   }
+  },
+  {
+   "id": "finance.shares",
+   "t": {
+    "en": "shares",
+    "uk": "акції",
+    "ru": "акции",
+    "pl": "akcje",
+    "de": "Aktien",
+    "fr": "actions",
+    "es": "acciones",
+    "it": "azioni",
+    "pt": "ações",
+    "tr": "hisse senetleri"
+   },
+   "ex": {
+    "en": "She bought shares in a tech company."
+   }
+  },
+  {
+   "id": "finance.bond",
+   "t": {
+    "en": "bond",
+    "uk": "облігація",
+    "ru": "облигация",
+    "pl": "obligacja",
+    "de": "Anleihe",
+    "fr": "obligation",
+    "es": "bono",
+    "it": "obbligazione",
+    "pt": "título",
+    "tr": "tahvil"
+   },
+   "ex": {
+    "en": "Government bonds are a safe investment."
+   }
+  },
+  {
+   "id": "finance.dividend",
+   "t": {
+    "en": "dividend",
+    "uk": "дивіденд",
+    "ru": "дивиденд",
+    "pl": "dywidenda",
+    "de": "Dividende",
+    "fr": "dividende",
+    "es": "dividendo",
+    "it": "dividendo",
+    "pt": "dividendo",
+    "tr": "temettü"
+   },
+   "ex": {
+    "en": "The company pays a dividend twice a year."
+   }
+  },
+  {
+   "id": "finance.stock-exchange",
+   "t": {
+    "en": "stock exchange",
+    "uk": "фондова біржа",
+    "ru": "фондовая биржа",
+    "pl": "giełda",
+    "de": "Börse",
+    "fr": "bourse",
+    "es": "bolsa de valores",
+    "it": "borsa",
+    "pt": "bolsa de valores",
+    "tr": "borsa"
+   },
+   "ex": {
+    "en": "The company is listed on the stock exchange."
+   }
+  },
+  {
+   "id": "finance.portfolio",
+   "t": {
+    "en": "portfolio",
+    "uk": "інвестиційний портфель",
+    "ru": "инвестиционный портфель",
+    "pl": "portfel inwestycyjny",
+    "de": "Portfolio",
+    "fr": "portefeuille",
+    "es": "cartera de inversiones",
+    "it": "portafoglio",
+    "pt": "carteira de investimentos",
+    "tr": "portföy"
+   },
+   "ex": {
+    "en": "My portfolio lost value last month."
+   }
+  },
+  {
+   "id": "finance.mutual-fund",
+   "t": {
+    "en": "mutual fund",
+    "uk": "інвестиційний фонд",
+    "ru": "паевой фонд",
+    "pl": "fundusz inwestycyjny",
+    "de": "Investmentfonds",
+    "fr": "fonds commun de placement",
+    "es": "fondo de inversión",
+    "it": "fondo comune",
+    "pt": "fundo de investimento",
+    "tr": "yatırım fonu"
+   },
+   "ex": {
+    "en": "A mutual fund spreads the risk."
+   }
+  },
+  {
+   "id": "finance.return-on-investment",
+   "t": {
+    "en": "return on investment",
+    "uk": "прибутковість інвестицій",
+    "ru": "доходность инвестиций",
+    "pl": "zwrot z inwestycji",
+    "de": "Rendite",
+    "fr": "retour sur investissement",
+    "es": "rentabilidad",
+    "it": "rendimento",
+    "pt": "retorno sobre investimento",
+    "tr": "yatırım getirisi"
+   },
+   "ex": {
+    "en": "The return on investment was eight percent."
+   }
+  },
+  {
+   "id": "finance.inflation",
+   "t": {
+    "en": "inflation",
+    "uk": "інфляція",
+    "ru": "инфляция",
+    "pl": "inflacja",
+    "de": "Inflation",
+    "fr": "inflation",
+    "es": "inflación",
+    "it": "inflazione",
+    "pt": "inflação",
+    "tr": "enflasyon"
+   },
+   "ex": {
+    "en": "Inflation makes everything more expensive."
+   }
+  },
+  {
+   "id": "finance.compound-interest",
+   "t": {
+    "en": "compound interest",
+    "uk": "складні відсотки",
+    "ru": "сложные проценты",
+    "pl": "procent składany",
+    "de": "Zinseszins",
+    "fr": "intérêts composés",
+    "es": "interés compuesto",
+    "it": "interesse composto",
+    "pt": "juros compostos",
+    "tr": "bileşik faiz"
+   },
+   "ex": {
+    "en": "Compound interest grows your savings faster."
+   }
+  },
+  {
+   "id": "finance.down-payment",
+   "t": {
+    "en": "down payment",
+    "uk": "перший внесок",
+    "ru": "первоначальный взнос",
+    "pl": "wkład własny",
+    "de": "Anzahlung",
+    "fr": "apport initial",
+    "es": "entrada",
+    "it": "acconto",
+    "pt": "entrada",
+    "tr": "peşinat"
+   },
+   "ex": {
+    "en": "We saved for a down payment on a house."
+   }
+  },
+  {
+   "id": "finance.collateral",
+   "t": {
+    "en": "collateral",
+    "uk": "застава",
+    "ru": "залог",
+    "pl": "zabezpieczenie",
+    "de": "Sicherheit",
+    "fr": "garantie",
+    "es": "garantía",
+    "it": "garanzia",
+    "pt": "garantia",
+    "tr": "teminat"
+   },
+   "ex": {
+    "en": "The house serves as collateral."
+   }
+  },
+  {
+   "id": "finance.guarantor",
+   "t": {
+    "en": "guarantor",
+    "uk": "поручитель",
+    "ru": "поручитель",
+    "pl": "poręczyciel",
+    "de": "Bürge",
+    "fr": "garant",
+    "es": "avalista",
+    "it": "garante",
+    "pt": "fiador",
+    "tr": "kefil"
+   },
+   "ex": {
+    "en": "My father was the guarantor for my loan."
+   }
+  },
+  {
+   "id": "finance.to-go-bankrupt",
+   "t": {
+    "en": "to go bankrupt",
+    "uk": "збанкрутувати",
+    "ru": "обанкротиться",
+    "pl": "zbankrutować",
+    "de": "pleitegehen",
+    "fr": "faire faillite",
+    "es": "quebrar",
+    "it": "fallire",
+    "pt": "falir",
+    "tr": "iflas etmek"
+   },
+   "ex": {
+    "en": "The company went bankrupt last year."
+   }
+  },
+  {
+   "id": "finance.credit-score",
+   "t": {
+    "en": "credit score",
+    "uk": "кредитний рейтинг",
+    "ru": "кредитный рейтинг",
+    "pl": "zdolność kredytowa",
+    "de": "Bonität",
+    "fr": "cote de crédit",
+    "es": "historial crediticio",
+    "it": "affidabilità creditizia",
+    "pt": "score de crédito",
+    "tr": "kredi notu"
+   },
+   "ex": {
+    "en": "A good credit score helps you get a loan."
+   }
+  },
+  {
+   "id": "finance.financial-advisor",
+   "t": {
+    "en": "financial advisor",
+    "uk": "фінансовий консультант",
+    "ru": "финансовый консультант",
+    "pl": "doradca finansowy",
+    "de": "Finanzberater",
+    "fr": "conseiller financier",
+    "es": "asesor financiero",
+    "it": "consulente finanziario",
+    "pt": "consultor financeiro",
+    "tr": "finansal danışman"
+   },
+   "ex": {
+    "en": "Talk to a financial advisor first."
+   }
+  },
+  {
+   "id": "finance.assets",
+   "t": {
+    "en": "assets",
+    "uk": "активи",
+    "ru": "активы",
+    "pl": "aktywa",
+    "de": "Vermögenswerte",
+    "fr": "actifs",
+    "es": "activos",
+    "it": "attività",
+    "pt": "ativos",
+    "tr": "varlıklar"
+   },
+   "ex": {
+    "en": "The company sold some of its assets."
+   }
+  },
+  {
+   "id": "finance.liabilities",
+   "t": {
+    "en": "liabilities",
+    "uk": "зобов'язання",
+    "ru": "обязательства",
+    "pl": "zobowiązania",
+    "de": "Verbindlichkeiten",
+    "fr": "passif",
+    "es": "pasivos",
+    "it": "passività",
+    "pt": "passivos",
+    "tr": "yükümlülükler"
+   },
+   "ex": {
+    "en": "Their liabilities exceed their assets."
+   }
+  },
+  {
+   "id": "finance.emergency-fund",
+   "t": {
+    "en": "emergency fund",
+    "uk": "фінансова подушка",
+    "ru": "финансовая подушка",
+    "pl": "poduszka finansowa",
+    "de": "Notgroschen",
+    "fr": "fonds d'urgence",
+    "es": "fondo de emergencia",
+    "it": "fondo di emergenza",
+    "pt": "reserva de emergência",
+    "tr": "acil durum fonu"
+   },
+   "ex": {
+    "en": "Keep three months of expenses as an emergency fund."
+   }
+  },
+  {
+   "id": "finance.to-diversify",
+   "t": {
+    "en": "to diversify",
+    "uk": "диверсифікувати",
+    "ru": "диверсифицировать",
+    "pl": "dywersyfikować",
+    "de": "diversifizieren",
+    "fr": "diversifier",
+    "es": "diversificar",
+    "it": "diversificare",
+    "pt": "diversificar",
+    "tr": "çeşitlendirmek"
+   },
+   "ex": {
+    "en": "Experts advise you to diversify your investments."
+   }
+  },
+  {
+   "id": "finance.to-default-on-a-loan",
+   "t": {
+    "en": "to default on a loan",
+    "uk": "не виплатити кредит",
+    "ru": "не выплатить кредит",
+    "pl": "nie spłacić kredytu",
+    "de": "Kredit nicht bedienen",
+    "fr": "ne pas rembourser un prêt",
+    "es": "incumplir un préstamo",
+    "it": "non rimborsare un prestito",
+    "pt": "dar calote no empréstimo",
+    "tr": "krediyi ödeyememek"
+   },
+   "ex": {
+    "en": "Many borrowers defaulted on their loans."
+   }
+  },
+  {
+   "id": "finance.net-worth",
+   "t": {
+    "en": "net worth",
+    "uk": "чисті статки",
+    "ru": "чистый капитал",
+    "pl": "majątek netto",
+    "de": "Nettovermögen",
+    "fr": "patrimoine net",
+    "es": "patrimonio neto",
+    "it": "patrimonio netto",
+    "pt": "patrimônio líquido",
+    "tr": "net servet"
+   },
+   "ex": {
+    "en": "Her net worth is over a million."
+   }
+  },
+  {
+   "id": "finance.cryptocurrency",
+   "t": {
+    "en": "cryptocurrency",
+    "uk": "криптовалюта",
+    "ru": "криптовалюта",
+    "pl": "kryptowaluta",
+    "de": "Kryptowährung",
+    "fr": "cryptomonnaie",
+    "es": "criptomoneda",
+    "it": "criptovaluta",
+    "pt": "criptomoeda",
+    "tr": "kripto para"
+   },
+   "ex": {
+    "en": "Cryptocurrency prices change very quickly."
+   }
+  },
+  {
+   "id": "finance.retirement-plan",
+   "t": {
+    "en": "retirement plan",
+    "uk": "пенсійний план",
+    "ru": "пенсионный план",
+    "pl": "plan emerytalny",
+    "de": "Altersvorsorge",
+    "fr": "plan de retraite",
+    "es": "plan de pensiones",
+    "it": "piano pensionistico",
+    "pt": "plano de previdência",
+    "tr": "emeklilik planı"
+   },
+   "ex": {
+    "en": "Start a retirement plan while you are young."
+   }
+  },
+  {
+   "id": "finance.payslip",
+   "t": {
+    "en": "payslip",
+    "uk": "розрахунковий лист",
+    "ru": "расчётный лист",
+    "pl": "pasek wypłaty",
+    "de": "Gehaltsabrechnung",
+    "fr": "fiche de paie",
+    "es": "nómina",
+    "it": "busta paga",
+    "pt": "holerite",
+    "tr": "maaş bordrosu"
+   },
+   "ex": {
+    "en": "Check your payslip for the deductions."
+   }
+  },
+  {
+   "id": "finance.exchange-rate-fluctuations",
+   "t": {
+    "en": "exchange rate fluctuations",
+    "uk": "коливання курсу",
+    "ru": "колебания курса",
+    "pl": "wahania kursu",
+    "de": "Wechselkursschwankungen",
+    "fr": "fluctuations du taux de change",
+    "es": "fluctuaciones del tipo de cambio",
+    "it": "oscillazioni del cambio",
+    "pt": "oscilações do câmbio",
+    "tr": "kur dalgalanmaları"
+   },
+   "ex": {
+    "en": "Exchange rate fluctuations hurt our profits."
+   }
+  }
+ ]
+}

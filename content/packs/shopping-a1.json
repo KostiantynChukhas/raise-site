@@ -1,0 +1,548 @@
+{
+ "id": "shopping-a1",
+ "topic": "shopping",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "shopping.bank-card",
+   "t": {
+    "en": "bank card",
+    "uk": "банківська картка",
+    "ru": "банковская карта",
+    "pl": "karta płatnicza",
+    "de": "Bankkarte",
+    "fr": "carte bancaire",
+    "es": "tarjeta bancaria",
+    "it": "carta bancaria",
+    "pt": "cartão",
+    "tr": "banka kartı"
+   },
+   "ex": {
+    "en": "I forgot my bank card at home."
+   }
+  },
+  {
+   "id": "shopping.supermarket",
+   "t": {
+    "en": "supermarket",
+    "uk": "супермаркет",
+    "ru": "супермаркет",
+    "pl": "supermarket",
+    "de": "Supermarkt",
+    "fr": "supermarché",
+    "es": "supermercado",
+    "it": "supermercato",
+    "pt": "supermercado",
+    "tr": "süpermarket"
+   },
+   "ex": {
+    "en": "The supermarket is near my house."
+   }
+  },
+  {
+   "id": "shopping.market",
+   "t": {
+    "en": "market",
+    "uk": "ринок",
+    "ru": "рынок",
+    "pl": "targ",
+    "de": "Markt",
+    "fr": "marché",
+    "es": "mercado",
+    "it": "mercato",
+    "pt": "feira",
+    "tr": "pazar"
+   },
+   "ex": {
+    "en": "We buy fruit at the market."
+   }
+  },
+  {
+   "id": "shopping.shopping-bag",
+   "t": {
+    "en": "shopping bag",
+    "uk": "пакет",
+    "ru": "пакет",
+    "pl": "torba na zakupy",
+    "de": "Einkaufstüte",
+    "fr": "sac",
+    "es": "bolsa",
+    "it": "busta",
+    "pt": "sacola",
+    "tr": "poşet"
+   },
+   "ex": {
+    "en": "Do you need a shopping bag?"
+   }
+  },
+  {
+   "id": "shopping.size",
+   "t": {
+    "en": "size",
+    "uk": "розмір",
+    "ru": "размер",
+    "pl": "rozmiar",
+    "de": "Größe",
+    "fr": "taille",
+    "es": "talla",
+    "it": "taglia",
+    "pt": "tamanho",
+    "tr": "beden"
+   },
+   "ex": {
+    "en": "What size are you?"
+   }
+  },
+  {
+   "id": "shopping.small",
+   "t": {
+    "en": "small",
+    "uk": "маленький",
+    "ru": "маленький",
+    "pl": "mały",
+    "de": "klein",
+    "fr": "petit",
+    "es": "pequeño",
+    "it": "piccolo",
+    "pt": "pequeno",
+    "tr": "küçük"
+   },
+   "ex": {
+    "en": "I need a small, please."
+   }
+  },
+  {
+   "id": "shopping.big",
+   "t": {
+    "en": "big",
+    "uk": "великий",
+    "ru": "большой",
+    "pl": "duży",
+    "de": "groß",
+    "fr": "grand",
+    "es": "grande",
+    "it": "grande",
+    "pt": "grande",
+    "tr": "büyük"
+   },
+   "ex": {
+    "en": "This coat is too big for me."
+   }
+  },
+  {
+   "id": "shopping.to-try-on",
+   "t": {
+    "en": "to try on",
+    "uk": "приміряти",
+    "ru": "примерить",
+    "pl": "przymierzyć",
+    "de": "anprobieren",
+    "fr": "essayer",
+    "es": "probarse",
+    "it": "provare",
+    "pt": "experimentar",
+    "tr": "denemek"
+   },
+   "ex": {
+    "en": "Can I try on this dress?"
+   }
+  },
+  {
+   "id": "shopping.fitting-room",
+   "t": {
+    "en": "fitting room",
+    "uk": "примірочна",
+    "ru": "примерочная",
+    "pl": "przymierzalnia",
+    "de": "Umkleidekabine",
+    "fr": "cabine d'essayage",
+    "es": "probador",
+    "it": "camerino",
+    "pt": "provador",
+    "tr": "soyunma kabini"
+   },
+   "ex": {
+    "en": "The fitting room is over there."
+   }
+  },
+  {
+   "id": "shopping.shirt",
+   "t": {
+    "en": "shirt",
+    "uk": "сорочка",
+    "ru": "рубашка",
+    "pl": "koszula",
+    "de": "Hemd",
+    "fr": "chemise",
+    "es": "camisa",
+    "it": "camicia",
+    "pt": "camisa",
+    "tr": "gömlek"
+   },
+   "ex": {
+    "en": "I like this blue shirt."
+   }
+  },
+  {
+   "id": "shopping.trousers",
+   "t": {
+    "en": "trousers",
+    "uk": "штани",
+    "ru": "брюки",
+    "pl": "spodnie",
+    "de": "Hose",
+    "fr": "pantalon",
+    "es": "pantalones",
+    "it": "pantaloni",
+    "pt": "calça",
+    "tr": "pantolon"
+   },
+   "ex": {
+    "en": "These trousers are too long."
+   }
+  },
+  {
+   "id": "shopping.shoes",
+   "t": {
+    "en": "shoes",
+    "uk": "взуття",
+    "ru": "обувь",
+    "pl": "buty",
+    "de": "Schuhe",
+    "fr": "chaussures",
+    "es": "zapatos",
+    "it": "scarpe",
+    "pt": "sapatos",
+    "tr": "ayakkabı"
+   },
+   "ex": {
+    "en": "I need new shoes for work."
+   }
+  },
+  {
+   "id": "shopping.dress",
+   "t": {
+    "en": "dress",
+    "uk": "сукня",
+    "ru": "платье",
+    "pl": "sukienka",
+    "de": "Kleid",
+    "fr": "robe",
+    "es": "vestido",
+    "it": "vestito",
+    "pt": "vestido",
+    "tr": "elbise"
+   },
+   "ex": {
+    "en": "She bought a red dress."
+   }
+  },
+  {
+   "id": "shopping.jacket",
+   "t": {
+    "en": "jacket",
+    "uk": "куртка",
+    "ru": "куртка",
+    "pl": "kurtka",
+    "de": "Jacke",
+    "fr": "veste",
+    "es": "chaqueta",
+    "it": "giacca",
+    "pt": "jaqueta",
+    "tr": "ceket"
+   },
+   "ex": {
+    "en": "Is this jacket on sale?"
+   }
+  },
+  {
+   "id": "shopping.open",
+   "t": {
+    "en": "open",
+    "uk": "відчинено",
+    "ru": "открыто",
+    "pl": "otwarte",
+    "de": "geöffnet",
+    "fr": "ouvert",
+    "es": "abierto",
+    "it": "aperto",
+    "pt": "aberto",
+    "tr": "açık"
+   },
+   "ex": {
+    "en": "Is the shop open on Sunday?"
+   }
+  },
+  {
+   "id": "shopping.closed",
+   "t": {
+    "en": "closed",
+    "uk": "зачинено",
+    "ru": "закрыто",
+    "pl": "zamknięte",
+    "de": "geschlossen",
+    "fr": "fermé",
+    "es": "cerrado",
+    "it": "chiuso",
+    "pt": "fechado",
+    "tr": "kapalı"
+   },
+   "ex": {
+    "en": "Sorry, we are closed now."
+   }
+  },
+  {
+   "id": "shopping.checkout",
+   "t": {
+    "en": "checkout",
+    "uk": "каса",
+    "ru": "касса",
+    "pl": "kasa",
+    "de": "Kasse",
+    "fr": "caisse",
+    "es": "caja",
+    "it": "cassa",
+    "pt": "caixa",
+    "tr": "kasa"
+   },
+   "ex": {
+    "en": "Please pay at the checkout."
+   }
+  },
+  {
+   "id": "shopping.shopping-list",
+   "t": {
+    "en": "shopping list",
+    "uk": "список покупок",
+    "ru": "список покупок",
+    "pl": "lista zakupów",
+    "de": "Einkaufsliste",
+    "fr": "liste de courses",
+    "es": "lista de la compra",
+    "it": "lista della spesa",
+    "pt": "lista de compras",
+    "tr": "alışveriş listesi"
+   },
+   "ex": {
+    "en": "Milk is on the shopping list."
+   }
+  },
+  {
+   "id": "shopping.to-go-shopping",
+   "t": {
+    "en": "to go shopping",
+    "uk": "ходити за покупками",
+    "ru": "ходить за покупками",
+    "pl": "robić zakupy",
+    "de": "einkaufen gehen",
+    "fr": "faire les courses",
+    "es": "ir de compras",
+    "it": "fare shopping",
+    "pt": "fazer compras",
+    "tr": "alışverişe gitmek"
+   },
+   "ex": {
+    "en": "Let's go shopping on Saturday."
+   }
+  },
+  {
+   "id": "shopping.cashier",
+   "t": {
+    "en": "cashier",
+    "uk": "касир",
+    "ru": "кассир",
+    "pl": "kasjer",
+    "de": "Kassierer",
+    "fr": "caissier",
+    "es": "cajero",
+    "it": "cassiere",
+    "pt": "caixa",
+    "tr": "kasiyer"
+   },
+   "ex": {
+    "en": "The cashier gave me my change."
+   }
+  },
+  {
+   "id": "shopping.bag",
+   "t": {
+    "en": "bag",
+    "uk": "сумка",
+    "ru": "сумка",
+    "pl": "torba",
+    "de": "Tasche",
+    "fr": "sac",
+    "es": "bolsa",
+    "it": "borsa",
+    "pt": "sacola",
+    "tr": "çanta"
+   },
+   "ex": {
+    "en": "Do you need a bag?"
+   }
+  },
+  {
+   "id": "shopping.clothes",
+   "t": {
+    "en": "clothes",
+    "uk": "одяг",
+    "ru": "одежда",
+    "pl": "ubrania",
+    "de": "Kleidung",
+    "fr": "vêtements",
+    "es": "ropa",
+    "it": "vestiti",
+    "pt": "roupas",
+    "tr": "giysi"
+   },
+   "ex": {
+    "en": "I need new clothes."
+   }
+  },
+  {
+   "id": "shopping.t-shirt",
+   "t": {
+    "en": "T-shirt",
+    "uk": "футболка",
+    "ru": "футболка",
+    "pl": "koszulka",
+    "de": "T-Shirt",
+    "fr": "t-shirt",
+    "es": "camiseta",
+    "it": "maglietta",
+    "pt": "camiseta",
+    "tr": "tişört"
+   },
+   "ex": {
+    "en": "This T-shirt is too small."
+   }
+  },
+  {
+   "id": "shopping.coat",
+   "t": {
+    "en": "coat",
+    "uk": "пальто",
+    "ru": "пальто",
+    "pl": "płaszcz",
+    "de": "Mantel",
+    "fr": "manteau",
+    "es": "abrigo",
+    "it": "cappotto",
+    "pt": "casaco",
+    "tr": "palto"
+   },
+   "ex": {
+    "en": "I bought a warm coat."
+   }
+  },
+  {
+   "id": "shopping.hat",
+   "t": {
+    "en": "hat",
+    "uk": "капелюх",
+    "ru": "шляпа",
+    "pl": "kapelusz",
+    "de": "Hut",
+    "fr": "chapeau",
+    "es": "sombrero",
+    "it": "cappello",
+    "pt": "chapéu",
+    "tr": "şapka"
+   },
+   "ex": {
+    "en": "That hat looks nice."
+   }
+  },
+  {
+   "id": "shopping.too-expensive",
+   "t": {
+    "en": "too expensive",
+    "uk": "занадто дорого",
+    "ru": "слишком дорого",
+    "pl": "za drogo",
+    "de": "zu teuer",
+    "fr": "trop cher",
+    "es": "demasiado caro",
+    "it": "troppo caro",
+    "pt": "caro demais",
+    "tr": "çok pahalı"
+   },
+   "ex": {
+    "en": "Sorry, that's too expensive."
+   }
+  },
+  {
+   "id": "shopping.i-m-just-looking",
+   "t": {
+    "en": "I'm just looking",
+    "uk": "я просто дивлюся",
+    "ru": "я просто смотрю",
+    "pl": "tylko oglądam",
+    "de": "ich schaue nur",
+    "fr": "je regarde seulement",
+    "es": "solo estoy mirando",
+    "it": "sto solo guardando",
+    "pt": "só estou olhando",
+    "tr": "sadece bakıyorum"
+   },
+   "ex": {
+    "en": "No thanks, I'm just looking."
+   }
+  },
+  {
+   "id": "shopping.to-choose",
+   "t": {
+    "en": "to choose",
+    "uk": "вибирати",
+    "ru": "выбирать",
+    "pl": "wybierać",
+    "de": "auswählen",
+    "fr": "choisir",
+    "es": "elegir",
+    "it": "scegliere",
+    "pt": "escolher",
+    "tr": "seçmek"
+   },
+   "ex": {
+    "en": "Choose a colour you like."
+   }
+  },
+  {
+   "id": "shopping.opening-hours",
+   "t": {
+    "en": "opening hours",
+    "uk": "години роботи",
+    "ru": "часы работы",
+    "pl": "godziny otwarcia",
+    "de": "Öffnungszeiten",
+    "fr": "horaires d'ouverture",
+    "es": "horario de apertura",
+    "it": "orari di apertura",
+    "pt": "horário de funcionamento",
+    "tr": "çalışma saatleri"
+   },
+   "ex": {
+    "en": "What are the opening hours?"
+   }
+  },
+  {
+   "id": "shopping.bakery",
+   "t": {
+    "en": "bakery",
+    "uk": "пекарня",
+    "ru": "булочная",
+    "pl": "piekarnia",
+    "de": "Bäckerei",
+    "fr": "boulangerie",
+    "es": "panadería",
+    "it": "panetteria",
+    "pt": "padaria",
+    "tr": "fırın"
+   },
+   "ex": {
+    "en": "The bakery opens at seven."
+   }
+  }
+ ]
+}

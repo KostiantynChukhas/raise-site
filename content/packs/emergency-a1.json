@@ -1,0 +1,512 @@
+{
+ "id": "emergency-a1",
+ "topic": "emergency",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emergency.help",
+   "t": {
+    "en": "help",
+    "uk": "допомога",
+    "ru": "помощь",
+    "pl": "pomoc",
+    "de": "Hilfe",
+    "fr": "aide",
+    "es": "ayuda",
+    "it": "aiuto",
+    "pt": "ajuda",
+    "tr": "yardım"
+   },
+   "ex": {
+    "en": "Help! I need help!"
+   }
+  },
+  {
+   "id": "emergency.emergency",
+   "t": {
+    "en": "emergency",
+    "uk": "надзвичайна ситуація",
+    "ru": "чрезвычайная ситуация",
+    "pl": "nagły wypadek",
+    "de": "Notfall",
+    "fr": "urgence",
+    "es": "emergencia",
+    "it": "emergenza",
+    "pt": "emergência",
+    "tr": "acil durum"
+   },
+   "ex": {
+    "en": "This is an emergency."
+   }
+  },
+  {
+   "id": "emergency.police",
+   "t": {
+    "en": "police",
+    "uk": "поліція",
+    "ru": "полиция",
+    "pl": "policja",
+    "de": "Polizei",
+    "fr": "police",
+    "es": "policía",
+    "it": "polizia",
+    "pt": "polícia",
+    "tr": "polis"
+   },
+   "ex": {
+    "en": "Call the police, please."
+   }
+  },
+  {
+   "id": "emergency.ambulance",
+   "t": {
+    "en": "ambulance",
+    "uk": "швидка допомога",
+    "ru": "скорая помощь",
+    "pl": "karetka",
+    "de": "Krankenwagen",
+    "fr": "ambulance",
+    "es": "ambulancia",
+    "it": "ambulanza",
+    "pt": "ambulância",
+    "tr": "ambulans"
+   },
+   "ex": {
+    "en": "We need an ambulance now."
+   }
+  },
+  {
+   "id": "emergency.fire",
+   "t": {
+    "en": "fire",
+    "uk": "пожежа",
+    "ru": "пожар",
+    "pl": "pożar",
+    "de": "Feuer",
+    "fr": "incendie",
+    "es": "incendio",
+    "it": "incendio",
+    "pt": "incêndio",
+    "tr": "yangın"
+   },
+   "ex": {
+    "en": "There is a fire in the kitchen."
+   }
+  },
+  {
+   "id": "emergency.fire-brigade",
+   "t": {
+    "en": "fire brigade",
+    "uk": "пожежна служба",
+    "ru": "пожарная служба",
+    "pl": "straż pożarna",
+    "de": "Feuerwehr",
+    "fr": "pompiers",
+    "es": "bomberos",
+    "it": "vigili del fuoco",
+    "pt": "bombeiros",
+    "tr": "itfaiye"
+   },
+   "ex": {
+    "en": "The fire brigade is coming."
+   }
+  },
+  {
+   "id": "emergency.doctor",
+   "t": {
+    "en": "doctor",
+    "uk": "лікар",
+    "ru": "врач",
+    "pl": "lekarz",
+    "de": "Arzt",
+    "fr": "médecin",
+    "es": "médico",
+    "it": "medico",
+    "pt": "médico",
+    "tr": "doktor"
+   },
+   "ex": {
+    "en": "I need a doctor."
+   }
+  },
+  {
+   "id": "emergency.hospital",
+   "t": {
+    "en": "hospital",
+    "uk": "лікарня",
+    "ru": "больница",
+    "pl": "szpital",
+    "de": "Krankenhaus",
+    "fr": "hôpital",
+    "es": "hospital",
+    "it": "ospedale",
+    "pt": "hospital",
+    "tr": "hastane"
+   },
+   "ex": {
+    "en": "Where is the nearest hospital?"
+   }
+  },
+  {
+   "id": "emergency.accident",
+   "t": {
+    "en": "accident",
+    "uk": "нещасний випадок",
+    "ru": "несчастный случай",
+    "pl": "wypadek",
+    "de": "Unfall",
+    "fr": "accident",
+    "es": "accidente",
+    "it": "incidente",
+    "pt": "acidente",
+    "tr": "kaza"
+   },
+   "ex": {
+    "en": "There was an accident on the road."
+   }
+  },
+  {
+   "id": "emergency.danger",
+   "t": {
+    "en": "danger",
+    "uk": "небезпека",
+    "ru": "опасность",
+    "pl": "niebezpieczeństwo",
+    "de": "Gefahr",
+    "fr": "danger",
+    "es": "peligro",
+    "it": "pericolo",
+    "pt": "perigo",
+    "tr": "tehlike"
+   },
+   "ex": {
+    "en": "Danger! Do not enter."
+   }
+  },
+  {
+   "id": "emergency.safe",
+   "t": {
+    "en": "safe",
+    "uk": "у безпеці",
+    "ru": "в безопасности",
+    "pl": "bezpieczny",
+    "de": "sicher",
+    "fr": "en sécurité",
+    "es": "a salvo",
+    "it": "al sicuro",
+    "pt": "seguro",
+    "tr": "güvende"
+   },
+   "ex": {
+    "en": "Don't worry, you are safe now."
+   }
+  },
+  {
+   "id": "emergency.hurt",
+   "t": {
+    "en": "hurt",
+    "uk": "поранений",
+    "ru": "раненый",
+    "pl": "ranny",
+    "de": "verletzt",
+    "fr": "blessé",
+    "es": "herido",
+    "it": "ferito",
+    "pt": "machucado",
+    "tr": "yaralı"
+   },
+   "ex": {
+    "en": "Is anyone hurt?"
+   }
+  },
+  {
+   "id": "emergency.to-call",
+   "t": {
+    "en": "to call",
+    "uk": "дзвонити",
+    "ru": "звонить",
+    "pl": "dzwonić",
+    "de": "anrufen",
+    "fr": "appeler",
+    "es": "llamar",
+    "it": "chiamare",
+    "pt": "ligar",
+    "tr": "aramak"
+   },
+   "ex": {
+    "en": "Call 112 in an emergency."
+   }
+  },
+  {
+   "id": "emergency.emergency-number",
+   "t": {
+    "en": "emergency number",
+    "uk": "номер екстреної служби",
+    "ru": "номер экстренной службы",
+    "pl": "numer alarmowy",
+    "de": "Notrufnummer",
+    "fr": "numéro d'urgence",
+    "es": "número de emergencia",
+    "it": "numero di emergenza",
+    "pt": "número de emergência",
+    "tr": "acil numara"
+   },
+   "ex": {
+    "en": "What is the emergency number here?"
+   }
+  },
+  {
+   "id": "emergency.lost",
+   "t": {
+    "en": "lost",
+    "uk": "загублений",
+    "ru": "потерянный",
+    "pl": "zgubiony",
+    "de": "verloren",
+    "fr": "perdu",
+    "es": "perdido",
+    "it": "perso",
+    "pt": "perdido",
+    "tr": "kayıp"
+   },
+   "ex": {
+    "en": "My passport is lost."
+   }
+  },
+  {
+   "id": "emergency.stolen",
+   "t": {
+    "en": "stolen",
+    "uk": "вкрадений",
+    "ru": "украденный",
+    "pl": "skradziony",
+    "de": "gestohlen",
+    "fr": "volé",
+    "es": "robado",
+    "it": "rubato",
+    "pt": "roubado",
+    "tr": "çalınmış"
+   },
+   "ex": {
+    "en": "My phone was stolen."
+   }
+  },
+  {
+   "id": "emergency.thief",
+   "t": {
+    "en": "thief",
+    "uk": "злодій",
+    "ru": "вор",
+    "pl": "złodziej",
+    "de": "Dieb",
+    "fr": "voleur",
+    "es": "ladrón",
+    "it": "ladro",
+    "pt": "ladrão",
+    "tr": "hırsız"
+   },
+   "ex": {
+    "en": "Stop the thief!"
+   }
+  },
+  {
+   "id": "emergency.passport",
+   "t": {
+    "en": "passport",
+    "uk": "паспорт",
+    "ru": "паспорт",
+    "pl": "paszport",
+    "de": "Reisepass",
+    "fr": "passeport",
+    "es": "pasaporte",
+    "it": "passaporto",
+    "pt": "passaporte",
+    "tr": "pasaport"
+   },
+   "ex": {
+    "en": "Please show me your passport."
+   }
+  },
+  {
+   "id": "emergency.document",
+   "t": {
+    "en": "document",
+    "uk": "документ",
+    "ru": "документ",
+    "pl": "dokument",
+    "de": "Dokument",
+    "fr": "document",
+    "es": "documento",
+    "it": "documento",
+    "pt": "documento",
+    "tr": "belge"
+   },
+   "ex": {
+    "en": "Do you have your documents with you?"
+   }
+  },
+  {
+   "id": "emergency.visa",
+   "t": {
+    "en": "visa",
+    "uk": "віза",
+    "ru": "виза",
+    "pl": "wiza",
+    "de": "Visum",
+    "fr": "visa",
+    "es": "visado",
+    "it": "visto",
+    "pt": "visto",
+    "tr": "vize"
+   },
+   "ex": {
+    "en": "I need a visa for this country."
+   }
+  },
+  {
+   "id": "emergency.name",
+   "t": {
+    "en": "name",
+    "uk": "ім'я",
+    "ru": "имя",
+    "pl": "imię",
+    "de": "Name",
+    "fr": "nom",
+    "es": "nombre",
+    "it": "nome",
+    "pt": "nome",
+    "tr": "ad"
+   },
+   "ex": {
+    "en": "Write your name here."
+   }
+  },
+  {
+   "id": "emergency.surname",
+   "t": {
+    "en": "surname",
+    "uk": "прізвище",
+    "ru": "фамилия",
+    "pl": "nazwisko",
+    "de": "Nachname",
+    "fr": "nom de famille",
+    "es": "apellido",
+    "it": "cognome",
+    "pt": "sobrenome",
+    "tr": "soyadı"
+   },
+   "ex": {
+    "en": "What is your surname?"
+   }
+  },
+  {
+   "id": "emergency.date-of-birth",
+   "t": {
+    "en": "date of birth",
+    "uk": "дата народження",
+    "ru": "дата рождения",
+    "pl": "data urodzenia",
+    "de": "Geburtsdatum",
+    "fr": "date de naissance",
+    "es": "fecha de nacimiento",
+    "it": "data di nascita",
+    "pt": "data de nascimento",
+    "tr": "doğum tarihi"
+   },
+   "ex": {
+    "en": "Please write your date of birth."
+   }
+  },
+  {
+   "id": "emergency.address",
+   "t": {
+    "en": "address",
+    "uk": "адреса",
+    "ru": "адрес",
+    "pl": "adres",
+    "de": "Adresse",
+    "fr": "adresse",
+    "es": "dirección",
+    "it": "indirizzo",
+    "pt": "endereço",
+    "tr": "adres"
+   },
+   "ex": {
+    "en": "What is your address?"
+   }
+  },
+  {
+   "id": "emergency.phone-number",
+   "t": {
+    "en": "phone number",
+    "uk": "номер телефону",
+    "ru": "номер телефона",
+    "pl": "numer telefonu",
+    "de": "Telefonnummer",
+    "fr": "numéro de téléphone",
+    "es": "número de teléfono",
+    "it": "numero di telefono",
+    "pt": "número de telefone",
+    "tr": "telefon numarası"
+   },
+   "ex": {
+    "en": "Can I have your phone number?"
+   }
+  },
+  {
+   "id": "emergency.signature",
+   "t": {
+    "en": "signature",
+    "uk": "підпис",
+    "ru": "подпись",
+    "pl": "podpis",
+    "de": "Unterschrift",
+    "fr": "signature",
+    "es": "firma",
+    "it": "firma",
+    "pt": "assinatura",
+    "tr": "imza"
+   },
+   "ex": {
+    "en": "Put your signature at the bottom."
+   }
+  },
+  {
+   "id": "emergency.form",
+   "t": {
+    "en": "form",
+    "uk": "бланк",
+    "ru": "бланк",
+    "pl": "formularz",
+    "de": "Formular",
+    "fr": "formulaire",
+    "es": "formulario",
+    "it": "modulo",
+    "pt": "formulário",
+    "tr": "form"
+   },
+   "ex": {
+    "en": "Fill in this form, please."
+   }
+  },
+  {
+   "id": "emergency.insurance",
+   "t": {
+    "en": "insurance",
+    "uk": "страхування",
+    "ru": "страховка",
+    "pl": "ubezpieczenie",
+    "de": "Versicherung",
+    "fr": "assurance",
+    "es": "seguro",
+    "it": "assicurazione",
+    "pt": "seguro",
+    "tr": "sigorta"
+   },
+   "ex": {
+    "en": "Do you have insurance?"
+   }
+  }
+ ]
+}

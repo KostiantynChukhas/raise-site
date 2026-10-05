@@ -1,0 +1,530 @@
+{
+ "id": "emotions-a1",
+ "topic": "emotions",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emotions.happy",
+   "t": {
+    "en": "happy",
+    "uk": "щасливий",
+    "ru": "счастливый",
+    "pl": "szczęśliwy",
+    "de": "glücklich",
+    "fr": "heureux",
+    "es": "feliz",
+    "it": "felice",
+    "pt": "feliz",
+    "tr": "mutlu"
+   },
+   "ex": {
+    "en": "I am very happy today."
+   }
+  },
+  {
+   "id": "emotions.sad",
+   "t": {
+    "en": "sad",
+    "uk": "сумний",
+    "ru": "грустный",
+    "pl": "smutny",
+    "de": "traurig",
+    "fr": "triste",
+    "es": "triste",
+    "it": "triste",
+    "pt": "triste",
+    "tr": "üzgün"
+   },
+   "ex": {
+    "en": "She is sad because her friend left."
+   }
+  },
+  {
+   "id": "emotions.tired",
+   "t": {
+    "en": "tired",
+    "uk": "втомлений",
+    "ru": "усталый",
+    "pl": "zmęczony",
+    "de": "müde",
+    "fr": "fatigué",
+    "es": "cansado",
+    "it": "stanco",
+    "pt": "cansado",
+    "tr": "yorgun"
+   },
+   "ex": {
+    "en": "I am tired after work."
+   }
+  },
+  {
+   "id": "emotions.angry",
+   "t": {
+    "en": "angry",
+    "uk": "злий",
+    "ru": "злой",
+    "pl": "zły",
+    "de": "wütend",
+    "fr": "en colère",
+    "es": "enfadado",
+    "it": "arrabbiato",
+    "pt": "bravo",
+    "tr": "kızgın"
+   },
+   "ex": {
+    "en": "Why are you angry with me?"
+   }
+  },
+  {
+   "id": "emotions.scared",
+   "t": {
+    "en": "scared",
+    "uk": "наляканий",
+    "ru": "напуганный",
+    "pl": "przestraszony",
+    "de": "verängstigt",
+    "fr": "effrayé",
+    "es": "asustado",
+    "it": "spaventato",
+    "pt": "assustado",
+    "tr": "korkmuş"
+   },
+   "ex": {
+    "en": "The child is scared of the dark."
+   }
+  },
+  {
+   "id": "emotions.to-be-bored",
+   "t": {
+    "en": "to be bored",
+    "uk": "нудьгувати",
+    "ru": "скучать",
+    "pl": "nudzić się",
+    "de": "sich langweilen",
+    "fr": "s'ennuyer",
+    "es": "aburrirse",
+    "it": "annoiarsi",
+    "pt": "estar entediado",
+    "tr": "sıkılmak"
+   },
+   "ex": {
+    "en": "I am bored, let's go out."
+   }
+  },
+  {
+   "id": "emotions.im-fine",
+   "t": {
+    "en": "I'm fine",
+    "uk": "у мене все добре",
+    "ru": "у меня всё хорошо",
+    "pl": "wszystko w porządku",
+    "de": "mir geht es gut",
+    "fr": "je vais bien",
+    "es": "estoy bien",
+    "it": "sto bene",
+    "pt": "estou bem",
+    "tr": "iyiyim"
+   },
+   "ex": {
+    "en": "I'm fine, thanks for asking."
+   }
+  },
+  {
+   "id": "emotions.good",
+   "t": {
+    "en": "good",
+    "uk": "добре",
+    "ru": "хорошо",
+    "pl": "dobrze",
+    "de": "gut",
+    "fr": "bien",
+    "es": "bien",
+    "it": "bene",
+    "pt": "bem",
+    "tr": "iyi"
+   },
+   "ex": {
+    "en": "I feel good this morning."
+   }
+  },
+  {
+   "id": "emotions.bad",
+   "t": {
+    "en": "bad",
+    "uk": "погано",
+    "ru": "плохо",
+    "pl": "źle",
+    "de": "schlecht",
+    "fr": "mal",
+    "es": "mal",
+    "it": "male",
+    "pt": "mal",
+    "tr": "kötü"
+   },
+   "ex": {
+    "en": "I feel bad about yesterday."
+   }
+  },
+  {
+   "id": "emotions.to-like",
+   "t": {
+    "en": "to like",
+    "uk": "подобатися",
+    "ru": "нравиться",
+    "pl": "lubić",
+    "de": "mögen",
+    "fr": "aimer bien",
+    "es": "gustar",
+    "it": "piacere",
+    "pt": "gostar",
+    "tr": "beğenmek"
+   },
+   "ex": {
+    "en": "I like this song a lot."
+   }
+  },
+  {
+   "id": "emotions.to-love",
+   "t": {
+    "en": "to love",
+    "uk": "любити",
+    "ru": "любить",
+    "pl": "kochać",
+    "de": "lieben",
+    "fr": "aimer",
+    "es": "amar",
+    "it": "amare",
+    "pt": "amar",
+    "tr": "sevmek"
+   },
+   "ex": {
+    "en": "I love my family."
+   }
+  },
+  {
+   "id": "emotions.to-cry",
+   "t": {
+    "en": "to cry",
+    "uk": "плакати",
+    "ru": "плакать",
+    "pl": "płakać",
+    "de": "weinen",
+    "fr": "pleurer",
+    "es": "llorar",
+    "it": "piangere",
+    "pt": "chorar",
+    "tr": "ağlamak"
+   },
+   "ex": {
+    "en": "The baby is crying again."
+   }
+  },
+  {
+   "id": "emotions.to-laugh",
+   "t": {
+    "en": "to laugh",
+    "uk": "сміятися",
+    "ru": "смеяться",
+    "pl": "śmiać się",
+    "de": "lachen",
+    "fr": "rire",
+    "es": "reír",
+    "it": "ridere",
+    "pt": "rir",
+    "tr": "gülmek"
+   },
+   "ex": {
+    "en": "We laughed all evening."
+   }
+  },
+  {
+   "id": "emotions.to-smile",
+   "t": {
+    "en": "to smile",
+    "uk": "усміхатися",
+    "ru": "улыбаться",
+    "pl": "uśmiechać się",
+    "de": "lächeln",
+    "fr": "sourire",
+    "es": "sonreír",
+    "it": "sorridere",
+    "pt": "sorrir",
+    "tr": "gülümsemek"
+   },
+   "ex": {
+    "en": "She smiled at me."
+   }
+  },
+  {
+   "id": "emotions.surprised",
+   "t": {
+    "en": "surprised",
+    "uk": "здивований",
+    "ru": "удивлённый",
+    "pl": "zaskoczony",
+    "de": "überrascht",
+    "fr": "surpris",
+    "es": "sorprendido",
+    "it": "sorpreso",
+    "pt": "surpreso",
+    "tr": "şaşırmış"
+   },
+   "ex": {
+    "en": "I was surprised by the gift."
+   }
+  },
+  {
+   "id": "emotions.sick",
+   "t": {
+    "en": "sick",
+    "uk": "хворий",
+    "ru": "больной",
+    "pl": "chory",
+    "de": "krank",
+    "fr": "malade",
+    "es": "enfermo",
+    "it": "malato",
+    "pt": "doente",
+    "tr": "hasta"
+   },
+   "ex": {
+    "en": "I feel sick today."
+   }
+  },
+  {
+   "id": "emotions.calm",
+   "t": {
+    "en": "calm",
+    "uk": "спокійний",
+    "ru": "спокойный",
+    "pl": "spokojny",
+    "de": "ruhig",
+    "fr": "calme",
+    "es": "tranquilo",
+    "it": "calmo",
+    "pt": "calmo",
+    "tr": "sakin"
+   },
+   "ex": {
+    "en": "Please stay calm."
+   }
+  },
+  {
+   "id": "emotions.nice",
+   "t": {
+    "en": "nice",
+    "uk": "милий",
+    "ru": "милый",
+    "pl": "miły",
+    "de": "nett",
+    "fr": "gentil",
+    "es": "amable",
+    "it": "gentile",
+    "pt": "simpático",
+    "tr": "hoş"
+   },
+   "ex": {
+    "en": "Your teacher is very nice."
+   }
+  },
+  {
+   "id": "emotions.im-sorry",
+   "t": {
+    "en": "I'm sorry",
+    "uk": "вибачте",
+    "ru": "извините",
+    "pl": "przepraszam",
+    "de": "es tut mir leid",
+    "fr": "je suis désolé",
+    "es": "lo siento",
+    "it": "mi dispiace",
+    "pt": "desculpe",
+    "tr": "üzgünüm"
+   },
+   "ex": {
+    "en": "I'm sorry, I was wrong."
+   }
+  },
+  {
+   "id": "emotions.worried",
+   "t": {
+    "en": "worried",
+    "uk": "стурбований",
+    "ru": "обеспокоенный",
+    "pl": "zmartwiony",
+    "de": "besorgt",
+    "fr": "inquiet",
+    "es": "preocupado",
+    "it": "preoccupato",
+    "pt": "preocupado",
+    "tr": "endişeli"
+   },
+   "ex": {
+    "en": "My mother is worried about me."
+   }
+  },
+  {
+   "id": "emotions.lonely",
+   "t": {
+    "en": "lonely",
+    "uk": "самотній",
+    "ru": "одинокий",
+    "pl": "samotny",
+    "de": "einsam",
+    "fr": "seul",
+    "es": "solo",
+    "it": "solo",
+    "pt": "sozinho",
+    "tr": "yalnız"
+   },
+   "ex": {
+    "en": "He feels lonely in the new city."
+   }
+  },
+  {
+   "id": "emotions.how-are-you",
+   "t": {
+    "en": "How are you?",
+    "uk": "Як справи?",
+    "ru": "Как дела?",
+    "pl": "Jak się masz?",
+    "de": "Wie geht's?",
+    "fr": "Comment ça va ?",
+    "es": "¿Cómo estás?",
+    "it": "Come stai?",
+    "pt": "Como você está?",
+    "tr": "Nasılsın?"
+   },
+   "ex": {
+    "en": "Hi Anna, how are you?"
+   }
+  },
+  {
+   "id": "emotions.excited",
+   "t": {
+    "en": "excited",
+    "uk": "схвильований",
+    "ru": "взволнованный",
+    "pl": "podekscytowany",
+    "de": "aufgeregt",
+    "fr": "enthousiaste",
+    "es": "emocionado",
+    "it": "emozionato",
+    "pt": "animado",
+    "tr": "heyecanlı"
+   },
+   "ex": {
+    "en": "The kids are excited about the trip."
+   }
+  },
+  {
+   "id": "emotions.not-bad",
+   "t": {
+    "en": "not bad",
+    "uk": "непогано",
+    "ru": "неплохо",
+    "pl": "nieźle",
+    "de": "nicht schlecht",
+    "fr": "pas mal",
+    "es": "no está mal",
+    "it": "non male",
+    "pt": "nada mal",
+    "tr": "fena değil"
+   },
+   "ex": {
+    "en": "How am I? Not bad, thanks."
+   }
+  },
+  {
+   "id": "emotions.great",
+   "t": {
+    "en": "great",
+    "uk": "чудово",
+    "ru": "отлично",
+    "pl": "świetnie",
+    "de": "super",
+    "fr": "génial",
+    "es": "genial",
+    "it": "benissimo",
+    "pt": "ótimo",
+    "tr": "harika"
+   },
+   "ex": {
+    "en": "I feel great after the holiday."
+   }
+  },
+  {
+   "id": "emotions.terrible",
+   "t": {
+    "en": "terrible",
+    "uk": "жахливо",
+    "ru": "ужасно",
+    "pl": "okropnie",
+    "de": "schrecklich",
+    "fr": "horrible",
+    "es": "horrible",
+    "it": "terribile",
+    "pt": "horrível",
+    "tr": "berbat"
+   },
+   "ex": {
+    "en": "I feel terrible this morning."
+   }
+  },
+  {
+   "id": "emotions.to-feel",
+   "t": {
+    "en": "to feel",
+    "uk": "почуватися",
+    "ru": "чувствовать себя",
+    "pl": "czuć się",
+    "de": "sich fühlen",
+    "fr": "se sentir",
+    "es": "sentirse",
+    "it": "sentirsi",
+    "pt": "sentir-se",
+    "tr": "hissetmek"
+   },
+   "ex": {
+    "en": "How do you feel now?"
+   }
+  },
+  {
+   "id": "emotions.feeling",
+   "t": {
+    "en": "feeling",
+    "uk": "почуття",
+    "ru": "чувство",
+    "pl": "uczucie",
+    "de": "Gefühl",
+    "fr": "sentiment",
+    "es": "sentimiento",
+    "it": "sentimento",
+    "pt": "sentimento",
+    "tr": "duygu"
+   },
+   "ex": {
+    "en": "It is a strange feeling."
+   }
+  },
+  {
+   "id": "emotions.to-be-sleepy",
+   "t": {
+    "en": "to be sleepy",
+    "uk": "хотіти спати",
+    "ru": "хотеть спать",
+    "pl": "być śpiącym",
+    "de": "schläfrig sein",
+    "fr": "avoir sommeil",
+    "es": "tener sueño",
+    "it": "avere sonno",
+    "pt": "estar com sono",
+    "tr": "uykusu gelmek"
+   },
+   "ex": {
+    "en": "I am sleepy, good night."
+   }
+  }
+ ]
+}

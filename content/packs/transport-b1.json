@@ -1,0 +1,494 @@
+{
+ "id": "transport-b1",
+ "topic": "transport",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "transport.road-works",
+   "t": {
+    "en": "road works",
+    "uk": "дорожні роботи",
+    "ru": "дорожные работы",
+    "pl": "roboty drogowe",
+    "de": "Baustelle",
+    "fr": "travaux",
+    "es": "obras",
+    "it": "lavori in corso",
+    "pt": "obras na pista",
+    "tr": "yol çalışması"
+   },
+   "ex": {
+    "en": "Road works are slowing the traffic."
+   }
+  },
+  {
+   "id": "transport.one-way-street",
+   "t": {
+    "en": "one-way street",
+    "uk": "вулиця з одностороннім рухом",
+    "ru": "улица с односторонним движением",
+    "pl": "ulica jednokierunkowa",
+    "de": "Einbahnstraße",
+    "fr": "sens unique",
+    "es": "calle de sentido único",
+    "it": "senso unico",
+    "pt": "rua de mão única",
+    "tr": "tek yönlü yol"
+   },
+   "ex": {
+    "en": "You can't turn here, it's a one-way street."
+   }
+  },
+  {
+   "id": "transport.dead-end",
+   "t": {
+    "en": "dead end",
+    "uk": "глухий кут",
+    "ru": "тупик",
+    "pl": "ślepa ulica",
+    "de": "Sackgasse",
+    "fr": "impasse",
+    "es": "callejón sin salida",
+    "it": "vicolo cieco",
+    "pt": "rua sem saída",
+    "tr": "çıkmaz sokak"
+   },
+   "ex": {
+    "en": "The GPS led us into a dead end."
+   }
+  },
+  {
+   "id": "transport.to-run-a-red-light",
+   "t": {
+    "en": "to run a red light",
+    "uk": "проїхати на червоне",
+    "ru": "проехать на красный",
+    "pl": "przejechać na czerwonym",
+    "de": "bei Rot fahren",
+    "fr": "griller un feu rouge",
+    "es": "saltarse un semáforo",
+    "it": "passare col rosso",
+    "pt": "furar o sinal vermelho",
+    "tr": "kırmızı ışıkta geçmek"
+   },
+   "ex": {
+    "en": "He ran a red light and got fined."
+   }
+  },
+  {
+   "id": "transport.flat-tire",
+   "t": {
+    "en": "flat tire",
+    "uk": "спущене колесо",
+    "ru": "спущенное колесо",
+    "pl": "przebita opona",
+    "de": "Reifenpanne",
+    "fr": "crevaison",
+    "es": "pinchazo",
+    "it": "gomma a terra",
+    "pt": "pneu furado",
+    "tr": "patlak lastik"
+   },
+   "ex": {
+    "en": "We had a flat tire on the way."
+   }
+  },
+  {
+   "id": "transport.breakdown",
+   "t": {
+    "en": "breakdown",
+    "uk": "поломка",
+    "ru": "поломка",
+    "pl": "awaria",
+    "de": "Panne",
+    "fr": "panne",
+    "es": "avería",
+    "it": "guasto",
+    "pt": "pane",
+    "tr": "arıza"
+   },
+   "ex": {
+    "en": "The breakdown happened on the highway."
+   }
+  },
+  {
+   "id": "transport.mechanic",
+   "t": {
+    "en": "mechanic",
+    "uk": "механік",
+    "ru": "механик",
+    "pl": "mechanik",
+    "de": "Mechaniker",
+    "fr": "mécanicien",
+    "es": "mecánico",
+    "it": "meccanico",
+    "pt": "mecânico",
+    "tr": "tamirci"
+   },
+   "ex": {
+    "en": "The mechanic fixed the brakes."
+   }
+  },
+  {
+   "id": "transport.pedestrian",
+   "t": {
+    "en": "pedestrian",
+    "uk": "пішохід",
+    "ru": "пешеход",
+    "pl": "pieszy",
+    "de": "Fußgänger",
+    "fr": "piéton",
+    "es": "peatón",
+    "it": "pedone",
+    "pt": "pedestre",
+    "tr": "yaya"
+   },
+   "ex": {
+    "en": "Pedestrians have priority here."
+   }
+  },
+  {
+   "id": "transport.traffic",
+   "t": {
+    "en": "traffic",
+    "uk": "дорожній рух",
+    "ru": "дорожное движение",
+    "pl": "ruch uliczny",
+    "de": "Verkehr",
+    "fr": "circulation",
+    "es": "tráfico",
+    "it": "traffico",
+    "pt": "trânsito",
+    "tr": "trafik"
+   },
+   "ex": {
+    "en": "Traffic is heavy this morning."
+   }
+  },
+  {
+   "id": "transport.toll",
+   "t": {
+    "en": "toll",
+    "uk": "плата за проїзд",
+    "ru": "плата за проезд",
+    "pl": "opłata za przejazd",
+    "de": "Maut",
+    "fr": "péage",
+    "es": "peaje",
+    "it": "pedaggio",
+    "pt": "pedágio",
+    "tr": "geçiş ücreti"
+   },
+   "ex": {
+    "en": "You pay a toll on this bridge."
+   }
+  },
+  {
+   "id": "transport.lane",
+   "t": {
+    "en": "lane",
+    "uk": "смуга",
+    "ru": "полоса",
+    "pl": "pas ruchu",
+    "de": "Fahrspur",
+    "fr": "voie",
+    "es": "carril",
+    "it": "corsia",
+    "pt": "faixa",
+    "tr": "şerit"
+   },
+   "ex": {
+    "en": "Keep to the right lane."
+   }
+  },
+  {
+   "id": "transport.to-change-lanes",
+   "t": {
+    "en": "to change lanes",
+    "uk": "перестроїтися",
+    "ru": "перестроиться",
+    "pl": "zmienić pas",
+    "de": "Spur wechseln",
+    "fr": "changer de voie",
+    "es": "cambiar de carril",
+    "it": "cambiare corsia",
+    "pt": "mudar de faixa",
+    "tr": "şerit değiştirmek"
+   },
+   "ex": {
+    "en": "Signal before you change lanes."
+   }
+  },
+  {
+   "id": "transport.gps-navigation",
+   "t": {
+    "en": "GPS navigation",
+    "uk": "навігатор",
+    "ru": "навигатор",
+    "pl": "nawigacja",
+    "de": "Navi",
+    "fr": "GPS",
+    "es": "GPS",
+    "it": "navigatore",
+    "pt": "GPS",
+    "tr": "navigasyon"
+   },
+   "ex": {
+    "en": "The GPS navigation took us a strange way."
+   }
+  },
+  {
+   "id": "transport.to-give-way",
+   "t": {
+    "en": "to give way",
+    "uk": "поступитися дорогою",
+    "ru": "уступить дорогу",
+    "pl": "ustąpić pierwszeństwa",
+    "de": "Vorfahrt gewähren",
+    "fr": "céder le passage",
+    "es": "ceder el paso",
+    "it": "dare la precedenza",
+    "pt": "dar a preferência",
+    "tr": "yol vermek"
+   },
+   "ex": {
+    "en": "Give way to traffic from the right."
+   }
+  },
+  {
+   "id": "transport.right-of-way",
+   "t": {
+    "en": "right of way",
+    "uk": "перевага в русі",
+    "ru": "преимущество",
+    "pl": "pierwszeństwo",
+    "de": "Vorfahrt",
+    "fr": "priorité",
+    "es": "prioridad",
+    "it": "precedenza",
+    "pt": "preferência",
+    "tr": "geçiş önceliği"
+   },
+   "ex": {
+    "en": "Who has the right of way here?"
+   }
+  },
+  {
+   "id": "transport.parking-meter",
+   "t": {
+    "en": "parking meter",
+    "uk": "паркомат",
+    "ru": "паркомат",
+    "pl": "parkomat",
+    "de": "Parkuhr",
+    "fr": "parcmètre",
+    "es": "parquímetro",
+    "it": "parchimetro",
+    "pt": "parquímetro",
+    "tr": "parkmetre"
+   },
+   "ex": {
+    "en": "The parking meter takes cards too."
+   }
+  },
+  {
+   "id": "transport.parking-ticket",
+   "t": {
+    "en": "parking ticket",
+    "uk": "штраф за паркування",
+    "ru": "штраф за парковку",
+    "pl": "mandat za parkowanie",
+    "de": "Strafzettel",
+    "fr": "PV de stationnement",
+    "es": "multa de aparcamiento",
+    "it": "multa per divieto di sosta",
+    "pt": "multa de estacionamento",
+    "tr": "park cezası"
+   },
+   "ex": {
+    "en": "I found a parking ticket on my windshield."
+   }
+  },
+  {
+   "id": "transport.windshield",
+   "t": {
+    "en": "windshield",
+    "uk": "лобове скло",
+    "ru": "лобовое стекло",
+    "pl": "przednia szyba",
+    "de": "Windschutzscheibe",
+    "fr": "pare-brise",
+    "es": "parabrisas",
+    "it": "parabrezza",
+    "pt": "para-brisa",
+    "tr": "ön cam"
+   },
+   "ex": {
+    "en": "A stone cracked the windshield."
+   }
+  },
+  {
+   "id": "transport.headlights",
+   "t": {
+    "en": "headlights",
+    "uk": "фари",
+    "ru": "фары",
+    "pl": "reflektory",
+    "de": "Scheinwerfer",
+    "fr": "phares",
+    "es": "faros",
+    "it": "fari",
+    "pt": "faróis",
+    "tr": "farlar"
+   },
+   "ex": {
+    "en": "Turn on your headlights at night."
+   }
+  },
+  {
+   "id": "transport.turn-signal",
+   "t": {
+    "en": "turn signal",
+    "uk": "поворотник",
+    "ru": "поворотник",
+    "pl": "kierunkowskaz",
+    "de": "Blinker",
+    "fr": "clignotant",
+    "es": "intermitente",
+    "it": "freccia",
+    "pt": "seta",
+    "tr": "sinyal"
+   },
+   "ex": {
+    "en": "Use your turn signal before turning."
+   }
+  },
+  {
+   "id": "transport.to-reverse",
+   "t": {
+    "en": "to reverse",
+    "uk": "здавати назад",
+    "ru": "сдавать назад",
+    "pl": "cofać",
+    "de": "rückwärts fahren",
+    "fr": "reculer",
+    "es": "dar marcha atrás",
+    "it": "fare retromarcia",
+    "pt": "dar ré",
+    "tr": "geri geri gitmek"
+   },
+   "ex": {
+    "en": "Reverse slowly into the space."
+   }
+  },
+  {
+   "id": "transport.carpooling",
+   "t": {
+    "en": "carpooling",
+    "uk": "спільні поїздки",
+    "ru": "совместные поездки",
+    "pl": "wspólne dojazdy",
+    "de": "Fahrgemeinschaft",
+    "fr": "covoiturage",
+    "es": "coche compartido",
+    "it": "car pooling",
+    "pt": "carona",
+    "tr": "araç paylaşımı"
+   },
+   "ex": {
+    "en": "Carpooling saves money and fuel."
+   }
+  },
+  {
+   "id": "transport.cancelled",
+   "t": {
+    "en": "cancelled",
+    "uk": "скасовано",
+    "ru": "отменён",
+    "pl": "odwołany",
+    "de": "gestrichen",
+    "fr": "annulé",
+    "es": "cancelado",
+    "it": "cancellato",
+    "pt": "cancelado",
+    "tr": "iptal edildi"
+   },
+   "ex": {
+    "en": "The last train was cancelled."
+   }
+  },
+  {
+   "id": "transport.shuttle-bus",
+   "t": {
+    "en": "shuttle bus",
+    "uk": "шатл",
+    "ru": "шаттл",
+    "pl": "autobus wahadłowy",
+    "de": "Shuttlebus",
+    "fr": "navette",
+    "es": "autobús lanzadera",
+    "it": "navetta",
+    "pt": "ônibus de traslado",
+    "tr": "servis"
+   },
+   "ex": {
+    "en": "A shuttle bus runs every ten minutes."
+   }
+  },
+  {
+   "id": "transport.commuter-train",
+   "t": {
+    "en": "commuter train",
+    "uk": "приміська електричка",
+    "ru": "электричка",
+    "pl": "pociąg podmiejski",
+    "de": "S-Bahn",
+    "fr": "train de banlieue",
+    "es": "tren de cercanías",
+    "it": "treno pendolari",
+    "pt": "trem de subúrbio",
+    "tr": "banliyö treni"
+   },
+   "ex": {
+    "en": "The commuter train was packed."
+   }
+  },
+  {
+   "id": "transport.to-drop-off",
+   "t": {
+    "en": "to drop off",
+    "uk": "висадити",
+    "ru": "высадить",
+    "pl": "podrzucić",
+    "de": "absetzen",
+    "fr": "déposer",
+    "es": "dejar",
+    "it": "lasciare",
+    "pt": "deixar",
+    "tr": "bırakmak"
+   },
+   "ex": {
+    "en": "Can you drop me off at the station?"
+   }
+  },
+  {
+   "id": "transport.to-pick-up",
+   "t": {
+    "en": "to pick up",
+    "uk": "забрати",
+    "ru": "забрать",
+    "pl": "odebrać",
+    "de": "abholen",
+    "fr": "passer prendre",
+    "es": "recoger",
+    "it": "passare a prendere",
+    "pt": "buscar",
+    "tr": "almak"
+   },
+   "ex": {
+    "en": "I'll pick you up at seven."
+   }
+  }
+ ]
+}

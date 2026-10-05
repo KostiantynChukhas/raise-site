@@ -1,0 +1,494 @@
+{
+ "id": "health-c1",
+ "topic": "health",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "health.prognosis",
+   "t": {
+    "en": "prognosis",
+    "uk": "прогноз",
+    "ru": "прогноз",
+    "pl": "rokowanie",
+    "de": "Prognose",
+    "fr": "pronostic",
+    "es": "pronóstico",
+    "it": "prognosi",
+    "pt": "prognóstico",
+    "tr": "prognoz"
+   },
+   "ex": {
+    "en": "The prognosis is good."
+   }
+  },
+  {
+   "id": "health.relapse",
+   "t": {
+    "en": "relapse",
+    "uk": "рецидив",
+    "ru": "рецидив",
+    "pl": "nawrót",
+    "de": "Rückfall",
+    "fr": "rechute",
+    "es": "recaída",
+    "it": "ricaduta",
+    "pt": "recaída",
+    "tr": "nüks"
+   },
+   "ex": {
+    "en": "A relapse is possible under stress."
+   }
+  },
+  {
+   "id": "health.remission",
+   "t": {
+    "en": "remission",
+    "uk": "ремісія",
+    "ru": "ремиссия",
+    "pl": "remisja",
+    "de": "Remission",
+    "fr": "rémission",
+    "es": "remisión",
+    "it": "remissione",
+    "pt": "remissão",
+    "tr": "remisyon"
+   },
+   "ex": {
+    "en": "She has been in remission for a year."
+   }
+  },
+  {
+   "id": "health.benign",
+   "t": {
+    "en": "benign",
+    "uk": "доброякісний",
+    "ru": "доброкачественный",
+    "pl": "łagodny",
+    "de": "gutartig",
+    "fr": "bénin",
+    "es": "benigno",
+    "it": "benigno",
+    "pt": "benigno",
+    "tr": "iyi huylu"
+   },
+   "ex": {
+    "en": "The tumour was benign."
+   }
+  },
+  {
+   "id": "health.malignant",
+   "t": {
+    "en": "malignant",
+    "uk": "злоякісний",
+    "ru": "злокачественный",
+    "pl": "złośliwy",
+    "de": "bösartig",
+    "fr": "malin",
+    "es": "maligno",
+    "it": "maligno",
+    "pt": "maligno",
+    "tr": "kötü huylu"
+   },
+   "ex": {
+    "en": "The biopsy showed a malignant growth."
+   }
+  },
+  {
+   "id": "health.informed-consent",
+   "t": {
+    "en": "informed consent",
+    "uk": "інформована згода",
+    "ru": "информированное согласие",
+    "pl": "świadoma zgoda",
+    "de": "Einwilligung nach Aufklärung",
+    "fr": "consentement éclairé",
+    "es": "consentimiento informado",
+    "it": "consenso informato",
+    "pt": "consentimento informado",
+    "tr": "aydınlatılmış onam"
+   },
+   "ex": {
+    "en": "Sign the informed consent form."
+   }
+  },
+  {
+   "id": "health.palliative-care",
+   "t": {
+    "en": "palliative care",
+    "uk": "паліативна допомога",
+    "ru": "паллиативная помощь",
+    "pl": "opieka paliatywna",
+    "de": "Palliativversorgung",
+    "fr": "soins palliatifs",
+    "es": "cuidados paliativos",
+    "it": "cure palliative",
+    "pt": "cuidados paliativos",
+    "tr": "palyatif bakım"
+   },
+   "ex": {
+    "en": "Palliative care focuses on comfort."
+   }
+  },
+  {
+   "id": "health.flare-up",
+   "t": {
+    "en": "flare-up",
+    "uk": "загострення",
+    "ru": "обострение",
+    "pl": "zaostrzenie",
+    "de": "Schub",
+    "fr": "poussée",
+    "es": "brote",
+    "it": "riacutizzazione",
+    "pt": "crise",
+    "tr": "alevlenme"
+   },
+   "ex": {
+    "en": "Cold weather triggers a flare-up."
+   }
+  },
+  {
+   "id": "health.underlying-condition",
+   "t": {
+    "en": "underlying condition",
+    "uk": "супутнє захворювання",
+    "ru": "сопутствующее заболевание",
+    "pl": "choroba współistniejąca",
+    "de": "Vorerkrankung",
+    "fr": "pathologie sous-jacente",
+    "es": "enfermedad subyacente",
+    "it": "patologia di base",
+    "pt": "doença preexistente",
+    "tr": "altta yatan hastalık"
+   },
+   "ex": {
+    "en": "Do you have any underlying conditions?"
+   }
+  },
+  {
+   "id": "health.adverse-reaction",
+   "t": {
+    "en": "adverse reaction",
+    "uk": "небажана реакція",
+    "ru": "нежелательная реакция",
+    "pl": "reakcja niepożądana",
+    "de": "unerwünschte Reaktion",
+    "fr": "réaction indésirable",
+    "es": "reacción adversa",
+    "it": "reazione avversa",
+    "pt": "reação adversa",
+    "tr": "advers reaksiyon"
+   },
+   "ex": {
+    "en": "Report any adverse reaction immediately."
+   }
+  },
+  {
+   "id": "health.placebo-effect",
+   "t": {
+    "en": "placebo effect",
+    "uk": "ефект плацебо",
+    "ru": "эффект плацебо",
+    "pl": "efekt placebo",
+    "de": "Placeboeffekt",
+    "fr": "effet placebo",
+    "es": "efecto placebo",
+    "it": "effetto placebo",
+    "pt": "efeito placebo",
+    "tr": "plasebo etkisi"
+   },
+   "ex": {
+    "en": "The placebo effect is surprisingly strong."
+   }
+  },
+  {
+   "id": "health.antibiotic-resistance",
+   "t": {
+    "en": "antibiotic resistance",
+    "uk": "стійкість до антибіотиків",
+    "ru": "устойчивость к антибиотикам",
+    "pl": "antybiotykooporność",
+    "de": "Antibiotikaresistenz",
+    "fr": "résistance aux antibiotiques",
+    "es": "resistencia a los antibióticos",
+    "it": "resistenza agli antibiotici",
+    "pt": "resistência a antibióticos",
+    "tr": "antibiyotik direnci"
+   },
+   "ex": {
+    "en": "Antibiotic resistance is a global threat."
+   }
+  },
+  {
+   "id": "health.hereditary",
+   "t": {
+    "en": "hereditary",
+    "uk": "спадковий",
+    "ru": "наследственный",
+    "pl": "dziedziczny",
+    "de": "erblich",
+    "fr": "héréditaire",
+    "es": "hereditario",
+    "it": "ereditario",
+    "pt": "hereditário",
+    "tr": "kalıtsal"
+   },
+   "ex": {
+    "en": "The condition is hereditary."
+   }
+  },
+  {
+   "id": "health.to-be-under-the-weather",
+   "t": {
+    "en": "to be under the weather",
+    "uk": "нездужати",
+    "ru": "неважно себя чувствовать",
+    "pl": "czuć się niewyraźnie",
+    "de": "angeschlagen sein",
+    "fr": "ne pas être dans son assiette",
+    "es": "estar pachucho",
+    "it": "essere giù di tono",
+    "pt": "estar meio adoentado",
+    "tr": "keyifsiz olmak"
+   },
+   "ex": {
+    "en": "I'm a bit under the weather today."
+   }
+  },
+  {
+   "id": "health.to-be-on-the-mend",
+   "t": {
+    "en": "to be on the mend",
+    "uk": "іти на поправку",
+    "ru": "идти на поправку",
+    "pl": "wracać do zdrowia",
+    "de": "auf dem Weg der Besserung sein",
+    "fr": "être en voie de guérison",
+    "es": "ir mejorando",
+    "it": "essere in via di guarigione",
+    "pt": "estar se recuperando",
+    "tr": "toparlanmak"
+   },
+   "ex": {
+    "en": "Dad is on the mend after surgery."
+   }
+  },
+  {
+   "id": "health.fit-as-a-fiddle",
+   "t": {
+    "en": "fit as a fiddle",
+    "uk": "здоровий як бик",
+    "ru": "здоров как бык",
+    "pl": "zdrów jak ryba",
+    "de": "kerngesund",
+    "fr": "en pleine forme",
+    "es": "sano como una manzana",
+    "it": "sano come un pesce",
+    "pt": "forte como um touro",
+    "tr": "turp gibi"
+   },
+   "ex": {
+    "en": "At eighty she is fit as a fiddle."
+   }
+  },
+  {
+   "id": "health.hypochondriac",
+   "t": {
+    "en": "hypochondriac",
+    "uk": "іпохондрик",
+    "ru": "ипохондрик",
+    "pl": "hipochondryk",
+    "de": "Hypochonder",
+    "fr": "hypocondriaque",
+    "es": "hipocondríaco",
+    "it": "ipocondriaco",
+    "pt": "hipocondríaco",
+    "tr": "hastalık hastası"
+   },
+   "ex": {
+    "en": "My uncle is a bit of a hypochondriac."
+   }
+  },
+  {
+   "id": "health.withdrawal-symptoms",
+   "t": {
+    "en": "withdrawal symptoms",
+    "uk": "синдром відміни",
+    "ru": "синдром отмены",
+    "pl": "objawy odstawienia",
+    "de": "Entzugserscheinungen",
+    "fr": "symptômes de sevrage",
+    "es": "síndrome de abstinencia",
+    "it": "sintomi di astinenza",
+    "pt": "síndrome de abstinência",
+    "tr": "yoksunluk belirtileri"
+   },
+   "ex": {
+    "en": "Quitting caffeine caused withdrawal symptoms."
+   }
+  },
+  {
+   "id": "health.outpatient",
+   "t": {
+    "en": "outpatient",
+    "uk": "амбулаторний",
+    "ru": "амбулаторный",
+    "pl": "ambulatoryjny",
+    "de": "ambulant",
+    "fr": "ambulatoire",
+    "es": "ambulatorio",
+    "it": "ambulatoriale",
+    "pt": "ambulatorial",
+    "tr": "ayakta tedavi"
+   },
+   "ex": {
+    "en": "It is an outpatient procedure."
+   }
+  },
+  {
+   "id": "health.intensive-care-unit",
+   "t": {
+    "en": "intensive care unit",
+    "uk": "реанімація",
+    "ru": "реанимация",
+    "pl": "OIOM",
+    "de": "Intensivstation",
+    "fr": "réanimation",
+    "es": "UCI",
+    "it": "terapia intensiva",
+    "pt": "UTI",
+    "tr": "yoğun bakım"
+   },
+   "ex": {
+    "en": "He spent two nights in intensive care."
+   }
+  },
+  {
+   "id": "health.to-resuscitate",
+   "t": {
+    "en": "to resuscitate",
+    "uk": "реанімувати",
+    "ru": "реанимировать",
+    "pl": "reanimować",
+    "de": "wiederbeleben",
+    "fr": "réanimer",
+    "es": "reanimar",
+    "it": "rianimare",
+    "pt": "reanimar",
+    "tr": "canlandırmak"
+   },
+   "ex": {
+    "en": "Paramedics resuscitated the patient."
+   }
+  },
+  {
+   "id": "health.sleep-hygiene",
+   "t": {
+    "en": "sleep hygiene",
+    "uk": "гігієна сну",
+    "ru": "гигиена сна",
+    "pl": "higiena snu",
+    "de": "Schlafhygiene",
+    "fr": "hygiène du sommeil",
+    "es": "higiene del sueño",
+    "it": "igiene del sonno",
+    "pt": "higiene do sono",
+    "tr": "uyku hijyeni"
+   },
+   "ex": {
+    "en": "Good sleep hygiene means no screens in bed."
+   }
+  },
+  {
+   "id": "health.mindfulness",
+   "t": {
+    "en": "mindfulness",
+    "uk": "усвідомленість",
+    "ru": "осознанность",
+    "pl": "uważność",
+    "de": "Achtsamkeit",
+    "fr": "pleine conscience",
+    "es": "atención plena",
+    "it": "consapevolezza",
+    "pt": "atenção plena",
+    "tr": "farkındalık"
+   },
+   "ex": {
+    "en": "Mindfulness helps me manage stress."
+   }
+  },
+  {
+   "id": "health.to-taper-off",
+   "t": {
+    "en": "to taper off",
+    "uk": "поступово відмінити",
+    "ru": "постепенно отменить",
+    "pl": "stopniowo odstawiać",
+    "de": "ausschleichen",
+    "fr": "arrêter progressivement",
+    "es": "retirar gradualmente",
+    "it": "sospendere gradualmente",
+    "pt": "retirar gradualmente",
+    "tr": "yavaş yavaş bırakmak"
+   },
+   "ex": {
+    "en": "Taper off the medication over two weeks."
+   }
+  },
+  {
+   "id": "health.drug-interaction",
+   "t": {
+    "en": "drug interaction",
+    "uk": "взаємодія ліків",
+    "ru": "взаимодействие лекарств",
+    "pl": "interakcja leków",
+    "de": "Wechselwirkung",
+    "fr": "interaction médicamenteuse",
+    "es": "interacción medicamentosa",
+    "it": "interazione farmacologica",
+    "pt": "interação medicamentosa",
+    "tr": "ilaç etkileşimi"
+   },
+   "ex": {
+    "en": "Ask about drug interactions first."
+   }
+  },
+  {
+   "id": "health.screening",
+   "t": {
+    "en": "screening",
+    "uk": "скринінг",
+    "ru": "скрининг",
+    "pl": "badanie przesiewowe",
+    "de": "Früherkennung",
+    "fr": "dépistage",
+    "es": "cribado",
+    "it": "screening",
+    "pt": "rastreamento",
+    "tr": "tarama"
+   },
+   "ex": {
+    "en": "Regular screening saves lives."
+   }
+  },
+  {
+   "id": "health.life-expectancy",
+   "t": {
+    "en": "life expectancy",
+    "uk": "тривалість життя",
+    "ru": "продолжительность жизни",
+    "pl": "średnia długość życia",
+    "de": "Lebenserwartung",
+    "fr": "espérance de vie",
+    "es": "esperanza de vida",
+    "it": "aspettativa di vita",
+    "pt": "expectativa de vida",
+    "tr": "yaşam beklentisi"
+   },
+   "ex": {
+    "en": "Life expectancy keeps rising."
+   }
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "id": "sports-a2",
+ "topic": "sports",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "sports.to-score-a-goal",
+   "t": {
+    "en": "to score a goal",
+    "uk": "забити гол",
+    "ru": "забить гол",
+    "pl": "strzelić gola",
+    "de": "ein Tor schießen",
+    "fr": "marquer un but",
+    "es": "marcar un gol",
+    "it": "segnare un gol",
+    "pt": "marcar um gol",
+    "tr": "gol atmak"
+   },
+   "ex": {
+    "en": "She scored a goal in the last minute."
+   }
+  },
+  {
+   "id": "sports.referee",
+   "t": {
+    "en": "referee",
+    "uk": "суддя",
+    "ru": "судья",
+    "pl": "sędzia",
+    "de": "Schiedsrichter",
+    "fr": "arbitre",
+    "es": "árbitro",
+    "it": "arbitro",
+    "pt": "árbitro",
+    "tr": "hakem"
+   },
+   "ex": {
+    "en": "The referee showed a yellow card."
+   }
+  },
+  {
+   "id": "sports.fan",
+   "t": {
+    "en": "fan",
+    "uk": "вболівальник",
+    "ru": "болельщик",
+    "pl": "kibic",
+    "de": "Fan",
+    "fr": "supporter",
+    "es": "aficionado",
+    "it": "tifoso",
+    "pt": "torcedor",
+    "tr": "taraftar"
+   },
+   "ex": {
+    "en": "The fans sang the whole match."
+   }
+  },
+  {
+   "id": "sports.championship",
+   "t": {
+    "en": "championship",
+    "uk": "чемпіонат",
+    "ru": "чемпионат",
+    "pl": "mistrzostwa",
+    "de": "Meisterschaft",
+    "fr": "championnat",
+    "es": "campeonato",
+    "it": "campionato",
+    "pt": "campeonato",
+    "tr": "şampiyona"
+   },
+   "ex": {
+    "en": "They won the championship last year."
+   }
+  },
+  {
+   "id": "sports.medal",
+   "t": {
+    "en": "medal",
+    "uk": "медаль",
+    "ru": "медаль",
+    "pl": "medal",
+    "de": "Medaille",
+    "fr": "médaille",
+    "es": "medalla",
+    "it": "medaglia",
+    "pt": "medalha",
+    "tr": "madalya"
+   },
+   "ex": {
+    "en": "He won a gold medal."
+   }
+  },
+  {
+   "id": "sports.workout",
+   "t": {
+    "en": "workout",
+    "uk": "тренування",
+    "ru": "тренировка",
+    "pl": "trening",
+    "de": "Training",
+    "fr": "séance de sport",
+    "es": "entrenamiento",
+    "it": "allenamento",
+    "pt": "treino",
+    "tr": "antrenman"
+   },
+   "ex": {
+    "en": "My workout takes about an hour."
+   }
+  },
+  {
+   "id": "sports.warm-up",
+   "t": {
+    "en": "warm-up",
+    "uk": "розминка",
+    "ru": "разминка",
+    "pl": "rozgrzewka",
+    "de": "Aufwärmen",
+    "fr": "échauffement",
+    "es": "calentamiento",
+    "it": "riscaldamento",
+    "pt": "aquecimento",
+    "tr": "ısınma"
+   },
+   "ex": {
+    "en": "Start with a short warm-up."
+   }
+  },
+  {
+   "id": "sports.to-stretch",
+   "t": {
+    "en": "to stretch",
+    "uk": "розтягуватися",
+    "ru": "растягиваться",
+    "pl": "rozciągać się",
+    "de": "sich dehnen",
+    "fr": "s'étirer",
+    "es": "estirar",
+    "it": "fare stretching",
+    "pt": "alongar",
+    "tr": "esnemek"
+   },
+   "ex": {
+    "en": "Always stretch after running."
+   }
+  },
+  {
+   "id": "sports.muscle",
+   "t": {
+    "en": "muscle",
+    "uk": "м'яз",
+    "ru": "мышца",
+    "pl": "mięsień",
+    "de": "Muskel",
+    "fr": "muscle",
+    "es": "músculo",
+    "it": "muscolo",
+    "pt": "músculo",
+    "tr": "kas"
+   },
+   "ex": {
+    "en": "My muscles hurt after the workout."
+   }
+  },
+  {
+   "id": "sports.fitness",
+   "t": {
+    "en": "fitness",
+    "uk": "фізична форма",
+    "ru": "физическая форма",
+    "pl": "kondycja",
+    "de": "Fitness",
+    "fr": "forme physique",
+    "es": "forma física",
+    "it": "forma fisica",
+    "pt": "condicionamento físico",
+    "tr": "kondisyon"
+   },
+   "ex": {
+    "en": "Her fitness has improved a lot."
+   }
+  },
+  {
+   "id": "sports.to-go-jogging",
+   "t": {
+    "en": "to go jogging",
+    "uk": "бігати підтюпцем",
+    "ru": "бегать трусцой",
+    "pl": "biegać",
+    "de": "joggen gehen",
+    "fr": "faire du jogging",
+    "es": "salir a correr",
+    "it": "fare jogging",
+    "pt": "fazer corrida",
+    "tr": "koşuya çıkmak"
+   },
+   "ex": {
+    "en": "I go jogging before breakfast."
+   }
+  },
+  {
+   "id": "sports.to-go-hiking",
+   "t": {
+    "en": "to go hiking",
+    "uk": "ходити в похід",
+    "ru": "ходить в поход",
+    "pl": "chodzić po górach",
+    "de": "wandern gehen",
+    "fr": "faire de la randonnée",
+    "es": "hacer senderismo",
+    "it": "fare escursioni",
+    "pt": "fazer trilha",
+    "tr": "doğa yürüyüşüne çıkmak"
+   },
+   "ex": {
+    "en": "We went hiking in the hills."
+   }
+  },
+  {
+   "id": "sports.volleyball",
+   "t": {
+    "en": "volleyball",
+    "uk": "волейбол",
+    "ru": "волейбол",
+    "pl": "siatkówka",
+    "de": "Volleyball",
+    "fr": "volley-ball",
+    "es": "voleibol",
+    "it": "pallavolo",
+    "pt": "vôlei",
+    "tr": "voleybol"
+   },
+   "ex": {
+    "en": "We played volleyball on the beach."
+   }
+  },
+  {
+   "id": "sports.boxing",
+   "t": {
+    "en": "boxing",
+    "uk": "бокс",
+    "ru": "бокс",
+    "pl": "boks",
+    "de": "Boxen",
+    "fr": "boxe",
+    "es": "boxeo",
+    "it": "pugilato",
+    "pt": "boxe",
+    "tr": "boks"
+   },
+   "ex": {
+    "en": "He started boxing at fifteen."
+   }
+  },
+  {
+   "id": "sports.yoga",
+   "t": {
+    "en": "yoga",
+    "uk": "йога",
+    "ru": "йога",
+    "pl": "joga",
+    "de": "Yoga",
+    "fr": "yoga",
+    "es": "yoga",
+    "it": "yoga",
+    "pt": "ioga",
+    "tr": "yoga"
+   },
+   "ex": {
+    "en": "Yoga helps me relax."
+   }
+  },
+  {
+   "id": "sports.helmet",
+   "t": {
+    "en": "helmet",
+    "uk": "шолом",
+    "ru": "шлем",
+    "pl": "kask",
+    "de": "Helm",
+    "fr": "casque",
+    "es": "casco",
+    "it": "casco",
+    "pt": "capacete",
+    "tr": "kask"
+   },
+   "ex": {
+    "en": "Wear a helmet when you cycle."
+   }
+  },
+  {
+   "id": "sports.to-kick",
+   "t": {
+    "en": "to kick",
+    "uk": "бити ногою",
+    "ru": "пинать",
+    "pl": "kopać",
+    "de": "treten",
+    "fr": "frapper du pied",
+    "es": "patear",
+    "it": "calciare",
+    "pt": "chutar",
+    "tr": "tekmelemek"
+   },
+   "ex": {
+    "en": "Kick the ball into the net."
+   }
+  },
+  {
+   "id": "sports.final",
+   "t": {
+    "en": "final",
+    "uk": "фінал",
+    "ru": "финал",
+    "pl": "finał",
+    "de": "Finale",
+    "fr": "finale",
+    "es": "final",
+    "it": "finale",
+    "pt": "final",
+    "tr": "final"
+   },
+   "ex": {
+    "en": "The final is on Sunday."
+   }
+  },
+  {
+   "id": "sports.draw",
+   "t": {
+    "en": "draw",
+    "uk": "нічия",
+    "ru": "ничья",
+    "pl": "remis",
+    "de": "Unentschieden",
+    "fr": "match nul",
+    "es": "empate",
+    "it": "pareggio",
+    "pt": "empate",
+    "tr": "beraberlik"
+   },
+   "ex": {
+    "en": "The match ended in a draw."
+   }
+  },
+  {
+   "id": "sports.to-cheer",
+   "t": {
+    "en": "to cheer",
+    "uk": "вболівати",
+    "ru": "болеть",
+    "pl": "kibicować",
+    "de": "anfeuern",
+    "fr": "encourager",
+    "es": "animar",
+    "it": "fare il tifo",
+    "pt": "torcer",
+    "tr": "tezahürat yapmak"
+   },
+   "ex": {
+    "en": "We cheered for our team."
+   }
+  },
+  {
+   "id": "sports.to-lift-weights",
+   "t": {
+    "en": "to lift weights",
+    "uk": "піднімати вагу",
+    "ru": "поднимать штангу",
+    "pl": "podnosić ciężary",
+    "de": "Gewichte heben",
+    "fr": "soulever des poids",
+    "es": "levantar pesas",
+    "it": "sollevare pesi",
+    "pt": "levantar peso",
+    "tr": "ağırlık kaldırmak"
+   },
+   "ex": {
+    "en": "He lifts weights twice a week."
+   }
+  },
+  {
+   "id": "sports.gym-membership",
+   "t": {
+    "en": "gym membership",
+    "uk": "абонемент у спортзал",
+    "ru": "абонемент в спортзал",
+    "pl": "karnet na siłownię",
+    "de": "Mitgliedschaft im Fitnessstudio",
+    "fr": "abonnement à la salle",
+    "es": "suscripción al gimnasio",
+    "it": "abbonamento in palestra",
+    "pt": "plano da academia",
+    "tr": "spor salonu üyeliği"
+   },
+   "ex": {
+    "en": "My gym membership expires next month."
+   }
+  },
+  {
+   "id": "sports.sports-equipment",
+   "t": {
+    "en": "sports equipment",
+    "uk": "спортивний інвентар",
+    "ru": "спортивный инвентарь",
+    "pl": "sprzęt sportowy",
+    "de": "Sportausrüstung",
+    "fr": "équipement sportif",
+    "es": "material deportivo",
+    "it": "attrezzatura sportiva",
+    "pt": "equipamento esportivo",
+    "tr": "spor ekipmanı"
+   },
+   "ex": {
+    "en": "Bring your own sports equipment."
+   }
+  },
+  {
+   "id": "sports.to-be-in-shape",
+   "t": {
+    "en": "to be in shape",
+    "uk": "бути у формі",
+    "ru": "быть в форме",
+    "pl": "być w formie",
+    "de": "in Form sein",
+    "fr": "être en forme",
+    "es": "estar en forma",
+    "it": "essere in forma",
+    "pt": "estar em forma",
+    "tr": "formda olmak"
+   },
+   "ex": {
+    "en": "I want to be in shape for summer."
+   }
+  },
+  {
+   "id": "sports.tournament",
+   "t": {
+    "en": "tournament",
+    "uk": "турнір",
+    "ru": "турнир",
+    "pl": "turniej",
+    "de": "Turnier",
+    "fr": "tournoi",
+    "es": "torneo",
+    "it": "torneo",
+    "pt": "torneio",
+    "tr": "turnuva"
+   },
+   "ex": {
+    "en": "The chess tournament lasts three days."
+   }
+  },
+  {
+   "id": "sports.running-track",
+   "t": {
+    "en": "running track",
+    "uk": "бігова доріжка",
+    "ru": "беговая дорожка",
+    "pl": "bieżnia",
+    "de": "Laufbahn",
+    "fr": "piste d'athlétisme",
+    "es": "pista de atletismo",
+    "it": "pista di atletica",
+    "pt": "pista de corrida",
+    "tr": "koşu pisti"
+   },
+   "ex": {
+    "en": "The school has a new running track."
+   }
+  },
+  {
+   "id": "sports.to-skate",
+   "t": {
+    "en": "to skate",
+    "uk": "кататися на ковзанах",
+    "ru": "кататься на коньках",
+    "pl": "jeździć na łyżwach",
+    "de": "Schlittschuh laufen",
+    "fr": "patiner",
+    "es": "patinar",
+    "it": "pattinare",
+    "pt": "patinar",
+    "tr": "paten kaymak"
+   },
+   "ex": {
+    "en": "We skate on the lake in winter."
+   }
+  },
+  {
+   "id": "sports.opponent",
+   "t": {
+    "en": "opponent",
+    "uk": "суперник",
+    "ru": "соперник",
+    "pl": "przeciwnik",
+    "de": "Gegner",
+    "fr": "adversaire",
+    "es": "rival",
+    "it": "avversario",
+    "pt": "adversário",
+    "tr": "rakip"
+   },
+   "ex": {
+    "en": "Our opponent is very strong."
+   }
+  },
+  {
+   "id": "sports.locker-room",
+   "t": {
+    "en": "locker room",
+    "uk": "роздягальня",
+    "ru": "раздевалка",
+    "pl": "szatnia",
+    "de": "Umkleidekabine",
+    "fr": "vestiaire",
+    "es": "vestuario",
+    "it": "spogliatoio",
+    "pt": "vestiário",
+    "tr": "soyunma odası"
+   },
+   "ex": {
+    "en": "Leave your bag in the locker room."
+   }
+  },
+  {
+   "id": "sports.half-time",
+   "t": {
+    "en": "half-time",
+    "uk": "перерва",
+    "ru": "перерыв",
+    "pl": "przerwa",
+    "de": "Halbzeit",
+    "fr": "mi-temps",
+    "es": "descanso",
+    "it": "intervallo",
+    "pt": "intervalo",
+    "tr": "devre arası"
+   },
+   "ex": {
+    "en": "The score at half-time was one all."
+   }
+  }
+ ]
+}

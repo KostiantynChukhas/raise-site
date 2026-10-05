@@ -1,0 +1,512 @@
+{
+ "id": "education-a1",
+ "topic": "education",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "education.school",
+   "t": {
+    "en": "school",
+    "uk": "школа",
+    "ru": "школа",
+    "pl": "szkoła",
+    "de": "Schule",
+    "fr": "école",
+    "es": "escuela",
+    "it": "scuola",
+    "pt": "escola",
+    "tr": "okul"
+   },
+   "ex": {
+    "en": "My school is near the park."
+   }
+  },
+  {
+   "id": "education.teacher",
+   "t": {
+    "en": "teacher",
+    "uk": "вчитель",
+    "ru": "учитель",
+    "pl": "nauczyciel",
+    "de": "Lehrer",
+    "fr": "professeur",
+    "es": "profesor",
+    "it": "insegnante",
+    "pt": "professor",
+    "tr": "öğretmen"
+   },
+   "ex": {
+    "en": "The teacher is very kind."
+   }
+  },
+  {
+   "id": "education.student",
+   "t": {
+    "en": "student",
+    "uk": "учень",
+    "ru": "ученик",
+    "pl": "uczeń",
+    "de": "Schüler",
+    "fr": "élève",
+    "es": "estudiante",
+    "it": "studente",
+    "pt": "aluno",
+    "tr": "öğrenci"
+   },
+   "ex": {
+    "en": "I am a student."
+   }
+  },
+  {
+   "id": "education.classroom",
+   "t": {
+    "en": "classroom",
+    "uk": "клас",
+    "ru": "класс",
+    "pl": "sala lekcyjna",
+    "de": "Klassenzimmer",
+    "fr": "salle de classe",
+    "es": "aula",
+    "it": "aula",
+    "pt": "sala de aula",
+    "tr": "sınıf"
+   },
+   "ex": {
+    "en": "The classroom is on the second floor."
+   }
+  },
+  {
+   "id": "education.lesson",
+   "t": {
+    "en": "lesson",
+    "uk": "урок",
+    "ru": "урок",
+    "pl": "lekcja",
+    "de": "Unterrichtsstunde",
+    "fr": "cours",
+    "es": "clase",
+    "it": "lezione",
+    "pt": "aula",
+    "tr": "ders"
+   },
+   "ex": {
+    "en": "The lesson starts at nine."
+   }
+  },
+  {
+   "id": "education.notebook",
+   "t": {
+    "en": "notebook",
+    "uk": "зошит",
+    "ru": "тетрадь",
+    "pl": "zeszyt",
+    "de": "Heft",
+    "fr": "cahier",
+    "es": "cuaderno",
+    "it": "quaderno",
+    "pt": "caderno",
+    "tr": "defter"
+   },
+   "ex": {
+    "en": "Write it in your notebook."
+   }
+  },
+  {
+   "id": "education.pen",
+   "t": {
+    "en": "pen",
+    "uk": "ручка",
+    "ru": "ручка",
+    "pl": "długopis",
+    "de": "Kugelschreiber",
+    "fr": "stylo",
+    "es": "bolígrafo",
+    "it": "penna",
+    "pt": "caneta",
+    "tr": "kalem"
+   },
+   "ex": {
+    "en": "Can I borrow a pen?"
+   }
+  },
+  {
+   "id": "education.pencil",
+   "t": {
+    "en": "pencil",
+    "uk": "олівець",
+    "ru": "карандаш",
+    "pl": "ołówek",
+    "de": "Bleistift",
+    "fr": "crayon",
+    "es": "lápiz",
+    "it": "matita",
+    "pt": "lápis",
+    "tr": "kurşun kalem"
+   },
+   "ex": {
+    "en": "Use a pencil for the drawing."
+   }
+  },
+  {
+   "id": "education.desk",
+   "t": {
+    "en": "desk",
+    "uk": "парта",
+    "ru": "парта",
+    "pl": "ławka",
+    "de": "Schulbank",
+    "fr": "bureau",
+    "es": "pupitre",
+    "it": "banco",
+    "pt": "carteira",
+    "tr": "sıra"
+   },
+   "ex": {
+    "en": "Sit at your desk."
+   }
+  },
+  {
+   "id": "education.board",
+   "t": {
+    "en": "board",
+    "uk": "дошка",
+    "ru": "доска",
+    "pl": "tablica",
+    "de": "Tafel",
+    "fr": "tableau",
+    "es": "pizarra",
+    "it": "lavagna",
+    "pt": "quadro",
+    "tr": "tahta"
+   },
+   "ex": {
+    "en": "Look at the board."
+   }
+  },
+  {
+   "id": "education.homework",
+   "t": {
+    "en": "homework",
+    "uk": "домашнє завдання",
+    "ru": "домашнее задание",
+    "pl": "praca domowa",
+    "de": "Hausaufgaben",
+    "fr": "devoirs",
+    "es": "deberes",
+    "it": "compiti",
+    "pt": "dever de casa",
+    "tr": "ödev"
+   },
+   "ex": {
+    "en": "I have a lot of homework today."
+   }
+  },
+  {
+   "id": "education.to-learn",
+   "t": {
+    "en": "to learn",
+    "uk": "вчити",
+    "ru": "учить",
+    "pl": "uczyć się",
+    "de": "lernen",
+    "fr": "apprendre",
+    "es": "aprender",
+    "it": "imparare",
+    "pt": "aprender",
+    "tr": "öğrenmek"
+   },
+   "ex": {
+    "en": "I want to learn English."
+   }
+  },
+  {
+   "id": "education.to-write",
+   "t": {
+    "en": "to write",
+    "uk": "писати",
+    "ru": "писать",
+    "pl": "pisać",
+    "de": "schreiben",
+    "fr": "écrire",
+    "es": "escribir",
+    "it": "scrivere",
+    "pt": "escrever",
+    "tr": "yazmak"
+   },
+   "ex": {
+    "en": "Write your name here."
+   }
+  },
+  {
+   "id": "education.to-listen",
+   "t": {
+    "en": "to listen",
+    "uk": "слухати",
+    "ru": "слушать",
+    "pl": "słuchać",
+    "de": "zuhören",
+    "fr": "écouter",
+    "es": "escuchar",
+    "it": "ascoltare",
+    "pt": "ouvir",
+    "tr": "dinlemek"
+   },
+   "ex": {
+    "en": "Listen to the teacher."
+   }
+  },
+  {
+   "id": "education.to-ask",
+   "t": {
+    "en": "to ask",
+    "uk": "запитувати",
+    "ru": "спрашивать",
+    "pl": "pytać",
+    "de": "fragen",
+    "fr": "demander",
+    "es": "preguntar",
+    "it": "chiedere",
+    "pt": "perguntar",
+    "tr": "sormak"
+   },
+   "ex": {
+    "en": "Ask if you don't understand."
+   }
+  },
+  {
+   "id": "education.to-answer",
+   "t": {
+    "en": "to answer",
+    "uk": "відповідати",
+    "ru": "отвечать",
+    "pl": "odpowiadać",
+    "de": "antworten",
+    "fr": "répondre",
+    "es": "responder",
+    "it": "rispondere",
+    "pt": "responder",
+    "tr": "cevap vermek"
+   },
+   "ex": {
+    "en": "Please answer the question."
+   }
+  },
+  {
+   "id": "education.question",
+   "t": {
+    "en": "question",
+    "uk": "питання",
+    "ru": "вопрос",
+    "pl": "pytanie",
+    "de": "Frage",
+    "fr": "question",
+    "es": "pregunta",
+    "it": "domanda",
+    "pt": "pergunta",
+    "tr": "soru"
+   },
+   "ex": {
+    "en": "I have a question."
+   }
+  },
+  {
+   "id": "education.answer",
+   "t": {
+    "en": "answer",
+    "uk": "відповідь",
+    "ru": "ответ",
+    "pl": "odpowiedź",
+    "de": "Antwort",
+    "fr": "réponse",
+    "es": "respuesta",
+    "it": "risposta",
+    "pt": "resposta",
+    "tr": "cevap"
+   },
+   "ex": {
+    "en": "The answer is correct."
+   }
+  },
+  {
+   "id": "education.test",
+   "t": {
+    "en": "test",
+    "uk": "контрольна",
+    "ru": "контрольная",
+    "pl": "sprawdzian",
+    "de": "Test",
+    "fr": "contrôle",
+    "es": "examen",
+    "it": "verifica",
+    "pt": "prova",
+    "tr": "sınav"
+   },
+   "ex": {
+    "en": "We have a test on Friday."
+   }
+  },
+  {
+   "id": "education.break",
+   "t": {
+    "en": "break",
+    "uk": "перерва",
+    "ru": "перемена",
+    "pl": "przerwa",
+    "de": "Pause",
+    "fr": "récréation",
+    "es": "recreo",
+    "it": "ricreazione",
+    "pt": "recreio",
+    "tr": "teneffüs"
+   },
+   "ex": {
+    "en": "The break is ten minutes long."
+   }
+  },
+  {
+   "id": "education.timetable",
+   "t": {
+    "en": "timetable",
+    "uk": "розклад",
+    "ru": "расписание",
+    "pl": "plan lekcji",
+    "de": "Stundenplan",
+    "fr": "emploi du temps",
+    "es": "horario",
+    "it": "orario",
+    "pt": "horário",
+    "tr": "ders programı"
+   },
+   "ex": {
+    "en": "Check the timetable for tomorrow."
+   }
+  },
+  {
+   "id": "education.subject",
+   "t": {
+    "en": "subject",
+    "uk": "предмет",
+    "ru": "предмет",
+    "pl": "przedmiot",
+    "de": "Fach",
+    "fr": "matière",
+    "es": "asignatura",
+    "it": "materia",
+    "pt": "matéria",
+    "tr": "ders"
+   },
+   "ex": {
+    "en": "What is your favourite subject?"
+   }
+  },
+  {
+   "id": "education.maths",
+   "t": {
+    "en": "maths",
+    "uk": "математика",
+    "ru": "математика",
+    "pl": "matematyka",
+    "de": "Mathe",
+    "fr": "maths",
+    "es": "matemáticas",
+    "it": "matematica",
+    "pt": "matemática",
+    "tr": "matematik"
+   },
+   "ex": {
+    "en": "Maths is hard for me."
+   }
+  },
+  {
+   "id": "education.school-bag",
+   "t": {
+    "en": "school bag",
+    "uk": "рюкзак",
+    "ru": "рюкзак",
+    "pl": "plecak",
+    "de": "Schulranzen",
+    "fr": "cartable",
+    "es": "mochila",
+    "it": "zaino",
+    "pt": "mochila",
+    "tr": "okul çantası"
+   },
+   "ex": {
+    "en": "My school bag is heavy."
+   }
+  },
+  {
+   "id": "education.library",
+   "t": {
+    "en": "library",
+    "uk": "бібліотека",
+    "ru": "библиотека",
+    "pl": "biblioteka",
+    "de": "Bibliothek",
+    "fr": "bibliothèque",
+    "es": "biblioteca",
+    "it": "biblioteca",
+    "pt": "biblioteca",
+    "tr": "kütüphane"
+   },
+   "ex": {
+    "en": "I study in the library."
+   }
+  },
+  {
+   "id": "education.easy",
+   "t": {
+    "en": "easy",
+    "uk": "легкий",
+    "ru": "лёгкий",
+    "pl": "łatwy",
+    "de": "leicht",
+    "fr": "facile",
+    "es": "fácil",
+    "it": "facile",
+    "pt": "fácil",
+    "tr": "kolay"
+   },
+   "ex": {
+    "en": "This exercise is easy."
+   }
+  },
+  {
+   "id": "education.difficult",
+   "t": {
+    "en": "difficult",
+    "uk": "важкий",
+    "ru": "трудный",
+    "pl": "trudny",
+    "de": "schwierig",
+    "fr": "difficile",
+    "es": "difícil",
+    "it": "difficile",
+    "pt": "difícil",
+    "tr": "zor"
+   },
+   "ex": {
+    "en": "The test was difficult."
+   }
+  },
+  {
+   "id": "education.i-dont-understand",
+   "t": {
+    "en": "I don't understand",
+    "uk": "я не розумію",
+    "ru": "я не понимаю",
+    "pl": "nie rozumiem",
+    "de": "ich verstehe nicht",
+    "fr": "je ne comprends pas",
+    "es": "no entiendo",
+    "it": "non capisco",
+    "pt": "não entendo",
+    "tr": "anlamıyorum"
+   },
+   "ex": {
+    "en": "Sorry, I don't understand."
+   }
+  }
+ ]
+}

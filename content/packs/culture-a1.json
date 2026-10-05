@@ -1,0 +1,548 @@
+{
+ "id": "culture-a1",
+ "topic": "culture",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "culture.film",
+   "t": {
+    "en": "film",
+    "uk": "фільм",
+    "ru": "фильм",
+    "pl": "film",
+    "de": "Film",
+    "fr": "film",
+    "es": "película",
+    "it": "film",
+    "pt": "filme",
+    "tr": "film"
+   },
+   "ex": {
+    "en": "We watched a film last night."
+   }
+  },
+  {
+   "id": "culture.music",
+   "t": {
+    "en": "music",
+    "uk": "музика",
+    "ru": "музыка",
+    "pl": "muzyka",
+    "de": "Musik",
+    "fr": "musique",
+    "es": "música",
+    "it": "musica",
+    "pt": "música",
+    "tr": "müzik"
+   },
+   "ex": {
+    "en": "I love music."
+   }
+  },
+  {
+   "id": "culture.book",
+   "t": {
+    "en": "book",
+    "uk": "книга",
+    "ru": "книга",
+    "pl": "książka",
+    "de": "Buch",
+    "fr": "livre",
+    "es": "libro",
+    "it": "libro",
+    "pt": "livro",
+    "tr": "kitap"
+   },
+   "ex": {
+    "en": "This book is very good."
+   }
+  },
+  {
+   "id": "culture.song",
+   "t": {
+    "en": "song",
+    "uk": "пісня",
+    "ru": "песня",
+    "pl": "piosenka",
+    "de": "Lied",
+    "fr": "chanson",
+    "es": "canción",
+    "it": "canzone",
+    "pt": "canção",
+    "tr": "şarkı"
+   },
+   "ex": {
+    "en": "What is your favourite song?"
+   }
+  },
+  {
+   "id": "culture.cinema",
+   "t": {
+    "en": "cinema",
+    "uk": "кінотеатр",
+    "ru": "кинотеатр",
+    "pl": "kino",
+    "de": "Kino",
+    "fr": "cinéma",
+    "es": "cine",
+    "it": "cinema",
+    "pt": "cinema",
+    "tr": "sinema"
+   },
+   "ex": {
+    "en": "Let's go to the cinema tonight."
+   }
+  },
+  {
+   "id": "culture.museum",
+   "t": {
+    "en": "museum",
+    "uk": "музей",
+    "ru": "музей",
+    "pl": "muzeum",
+    "de": "Museum",
+    "fr": "musée",
+    "es": "museo",
+    "it": "museo",
+    "pt": "museu",
+    "tr": "müze"
+   },
+   "ex": {
+    "en": "The museum opens at ten."
+   }
+  },
+  {
+   "id": "culture.theatre",
+   "t": {
+    "en": "theatre",
+    "uk": "театр",
+    "ru": "театр",
+    "pl": "teatr",
+    "de": "Theater",
+    "fr": "théâtre",
+    "es": "teatro",
+    "it": "teatro",
+    "pt": "teatro",
+    "tr": "tiyatro"
+   },
+   "ex": {
+    "en": "We went to the theatre on Saturday."
+   }
+  },
+  {
+   "id": "culture.concert",
+   "t": {
+    "en": "concert",
+    "uk": "концерт",
+    "ru": "концерт",
+    "pl": "koncert",
+    "de": "Konzert",
+    "fr": "concert",
+    "es": "concierto",
+    "it": "concerto",
+    "pt": "show",
+    "tr": "konser"
+   },
+   "ex": {
+    "en": "The concert starts at eight."
+   }
+  },
+  {
+   "id": "culture.ticket",
+   "t": {
+    "en": "ticket",
+    "uk": "квиток",
+    "ru": "билет",
+    "pl": "bilet",
+    "de": "Eintrittskarte",
+    "fr": "billet",
+    "es": "entrada",
+    "it": "biglietto",
+    "pt": "ingresso",
+    "tr": "bilet"
+   },
+   "ex": {
+    "en": "How much is a ticket?"
+   }
+  },
+  {
+   "id": "culture.to-watch",
+   "t": {
+    "en": "to watch",
+    "uk": "дивитися",
+    "ru": "смотреть",
+    "pl": "oglądać",
+    "de": "sehen",
+    "fr": "regarder",
+    "es": "ver",
+    "it": "guardare",
+    "pt": "assistir",
+    "tr": "izlemek"
+   },
+   "ex": {
+    "en": "I like to watch films at home."
+   }
+  },
+  {
+   "id": "culture.to-listen-to-music",
+   "t": {
+    "en": "to listen to music",
+    "uk": "слухати музику",
+    "ru": "слушать музыку",
+    "pl": "słuchać muzyki",
+    "de": "Musik hören",
+    "fr": "écouter de la musique",
+    "es": "escuchar música",
+    "it": "ascoltare musica",
+    "pt": "ouvir música",
+    "tr": "müzik dinlemek"
+   },
+   "ex": {
+    "en": "She listens to music every morning."
+   }
+  },
+  {
+   "id": "culture.to-read",
+   "t": {
+    "en": "to read",
+    "uk": "читати",
+    "ru": "читать",
+    "pl": "czytać",
+    "de": "lesen",
+    "fr": "lire",
+    "es": "leer",
+    "it": "leggere",
+    "pt": "ler",
+    "tr": "okumak"
+   },
+   "ex": {
+    "en": "I read before bed."
+   }
+  },
+  {
+   "id": "culture.to-sing",
+   "t": {
+    "en": "to sing",
+    "uk": "співати",
+    "ru": "петь",
+    "pl": "śpiewać",
+    "de": "singen",
+    "fr": "chanter",
+    "es": "cantar",
+    "it": "cantare",
+    "pt": "cantar",
+    "tr": "şarkı söylemek"
+   },
+   "ex": {
+    "en": "He sings in the shower."
+   }
+  },
+  {
+   "id": "culture.to-dance",
+   "t": {
+    "en": "to dance",
+    "uk": "танцювати",
+    "ru": "танцевать",
+    "pl": "tańczyć",
+    "de": "tanzen",
+    "fr": "danser",
+    "es": "bailar",
+    "it": "ballare",
+    "pt": "dançar",
+    "tr": "dans etmek"
+   },
+   "ex": {
+    "en": "Do you want to dance?"
+   }
+  },
+  {
+   "id": "culture.to-draw",
+   "t": {
+    "en": "to draw",
+    "uk": "малювати",
+    "ru": "рисовать",
+    "pl": "rysować",
+    "de": "zeichnen",
+    "fr": "dessiner",
+    "es": "dibujar",
+    "it": "disegnare",
+    "pt": "desenhar",
+    "tr": "çizmek"
+   },
+   "ex": {
+    "en": "My daughter loves to draw."
+   }
+  },
+  {
+   "id": "culture.painting",
+   "t": {
+    "en": "painting",
+    "uk": "картина",
+    "ru": "картина",
+    "pl": "obraz",
+    "de": "Gemälde",
+    "fr": "tableau",
+    "es": "cuadro",
+    "it": "quadro",
+    "pt": "quadro",
+    "tr": "tablo"
+   },
+   "ex": {
+    "en": "This painting is very old."
+   }
+  },
+  {
+   "id": "culture.photo",
+   "t": {
+    "en": "photo",
+    "uk": "фото",
+    "ru": "фото",
+    "pl": "zdjęcie",
+    "de": "Foto",
+    "fr": "photo",
+    "es": "foto",
+    "it": "foto",
+    "pt": "foto",
+    "tr": "fotoğraf"
+   },
+   "ex": {
+    "en": "Can I take a photo here?"
+   }
+  },
+  {
+   "id": "culture.tv",
+   "t": {
+    "en": "TV",
+    "uk": "телевізор",
+    "ru": "телевизор",
+    "pl": "telewizja",
+    "de": "Fernsehen",
+    "fr": "télé",
+    "es": "tele",
+    "it": "TV",
+    "pt": "TV",
+    "tr": "televizyon"
+   },
+   "ex": {
+    "en": "What's on TV tonight?"
+   }
+  },
+  {
+   "id": "culture.radio",
+   "t": {
+    "en": "radio",
+    "uk": "радіо",
+    "ru": "радио",
+    "pl": "radio",
+    "de": "Radio",
+    "fr": "radio",
+    "es": "radio",
+    "it": "radio",
+    "pt": "rádio",
+    "tr": "radyo"
+   },
+   "ex": {
+    "en": "I listen to the radio in the car."
+   }
+  },
+  {
+   "id": "culture.newspaper",
+   "t": {
+    "en": "newspaper",
+    "uk": "газета",
+    "ru": "газета",
+    "pl": "gazeta",
+    "de": "Zeitung",
+    "fr": "journal",
+    "es": "periódico",
+    "it": "giornale",
+    "pt": "jornal",
+    "tr": "gazete"
+   },
+   "ex": {
+    "en": "My father reads the newspaper every day."
+   }
+  },
+  {
+   "id": "culture.game",
+   "t": {
+    "en": "game",
+    "uk": "гра",
+    "ru": "игра",
+    "pl": "gra",
+    "de": "Spiel",
+    "fr": "jeu",
+    "es": "juego",
+    "it": "gioco",
+    "pt": "jogo",
+    "tr": "oyun"
+   },
+   "ex": {
+    "en": "Let's play a game."
+   }
+  },
+  {
+   "id": "culture.party",
+   "t": {
+    "en": "party",
+    "uk": "вечірка",
+    "ru": "вечеринка",
+    "pl": "impreza",
+    "de": "Party",
+    "fr": "fête",
+    "es": "fiesta",
+    "it": "festa",
+    "pt": "festa",
+    "tr": "parti"
+   },
+   "ex": {
+    "en": "Are you coming to the party?"
+   }
+  },
+  {
+   "id": "culture.to-play-the-guitar",
+   "t": {
+    "en": "to play the guitar",
+    "uk": "грати на гітарі",
+    "ru": "играть на гитаре",
+    "pl": "grać na gitarze",
+    "de": "Gitarre spielen",
+    "fr": "jouer de la guitare",
+    "es": "tocar la guitarra",
+    "it": "suonare la chitarra",
+    "pt": "tocar violão",
+    "tr": "gitar çalmak"
+   },
+   "ex": {
+    "en": "My brother plays the guitar."
+   }
+  },
+  {
+   "id": "culture.actor",
+   "t": {
+    "en": "actor",
+    "uk": "актор",
+    "ru": "актёр",
+    "pl": "aktor",
+    "de": "Schauspieler",
+    "fr": "acteur",
+    "es": "actor",
+    "it": "attore",
+    "pt": "ator",
+    "tr": "oyuncu"
+   },
+   "ex": {
+    "en": "He is a famous actor."
+   }
+  },
+  {
+   "id": "culture.singer",
+   "t": {
+    "en": "singer",
+    "uk": "співак",
+    "ru": "певец",
+    "pl": "piosenkarz",
+    "de": "Sänger",
+    "fr": "chanteur",
+    "es": "cantante",
+    "it": "cantante",
+    "pt": "cantor",
+    "tr": "şarkıcı"
+   },
+   "ex": {
+    "en": "She is a great singer."
+   }
+  },
+  {
+   "id": "culture.story",
+   "t": {
+    "en": "story",
+    "uk": "історія",
+    "ru": "история",
+    "pl": "historia",
+    "de": "Geschichte",
+    "fr": "histoire",
+    "es": "historia",
+    "it": "storia",
+    "pt": "história",
+    "tr": "hikâye"
+   },
+   "ex": {
+    "en": "Tell me a story."
+   }
+  },
+  {
+   "id": "culture.favourite",
+   "t": {
+    "en": "favourite",
+    "uk": "улюблений",
+    "ru": "любимый",
+    "pl": "ulubiony",
+    "de": "Lieblings-",
+    "fr": "préféré",
+    "es": "favorito",
+    "it": "preferito",
+    "pt": "favorito",
+    "tr": "favori"
+   },
+   "ex": {
+    "en": "What's your favourite film?"
+   }
+  },
+  {
+   "id": "culture.funny",
+   "t": {
+    "en": "funny",
+    "uk": "смішний",
+    "ru": "смешной",
+    "pl": "śmieszny",
+    "de": "lustig",
+    "fr": "drôle",
+    "es": "gracioso",
+    "it": "divertente",
+    "pt": "engraçado",
+    "tr": "komik"
+   },
+   "ex": {
+    "en": "That film was really funny."
+   }
+  },
+  {
+   "id": "culture.boring",
+   "t": {
+    "en": "boring",
+    "uk": "нудний",
+    "ru": "скучный",
+    "pl": "nudny",
+    "de": "langweilig",
+    "fr": "ennuyeux",
+    "es": "aburrido",
+    "it": "noioso",
+    "pt": "chato",
+    "tr": "sıkıcı"
+   },
+   "ex": {
+    "en": "The book was a bit boring."
+   }
+  },
+  {
+   "id": "culture.interesting",
+   "t": {
+    "en": "interesting",
+    "uk": "цікавий",
+    "ru": "интересный",
+    "pl": "ciekawy",
+    "de": "interessant",
+    "fr": "intéressant",
+    "es": "interesante",
+    "it": "interessante",
+    "pt": "interessante",
+    "tr": "ilginç"
+   },
+   "ex": {
+    "en": "The museum was very interesting."
+   }
+  }
+ ]
+}

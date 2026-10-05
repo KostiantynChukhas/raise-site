@@ -1,0 +1,548 @@
+{
+ "id": "culture-c1",
+ "topic": "culture",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "culture.avant-garde",
+   "t": {
+    "en": "avant-garde",
+    "uk": "авангардний",
+    "ru": "авангардный",
+    "pl": "awangardowy",
+    "de": "avantgardistisch",
+    "fr": "avant-gardiste",
+    "es": "vanguardista",
+    "it": "d'avanguardia",
+    "pt": "vanguardista",
+    "tr": "avangart"
+   },
+   "ex": {
+    "en": "The gallery shows avant-garde work only."
+   }
+  },
+  {
+   "id": "culture.highbrow",
+   "t": {
+    "en": "highbrow",
+    "uk": "високоінтелектуальний",
+    "ru": "высоколобый",
+    "pl": "dla intelektualistów",
+    "de": "anspruchsvoll",
+    "fr": "intellectuel",
+    "es": "intelectual",
+    "it": "intellettuale",
+    "pt": "erudito",
+    "tr": "entelektüel"
+   },
+   "ex": {
+    "en": "He only reads highbrow literary fiction."
+   }
+  },
+  {
+   "id": "culture.lowbrow",
+   "t": {
+    "en": "lowbrow",
+    "uk": "невибагливий",
+    "ru": "низкопробный",
+    "pl": "niewybredny",
+    "de": "anspruchslos",
+    "fr": "de bas niveau",
+    "es": "vulgar",
+    "it": "di basso livello",
+    "pt": "de gosto duvidoso",
+    "tr": "bayağı"
+   },
+   "ex": {
+    "en": "Critics dismissed it as lowbrow entertainment."
+   }
+  },
+  {
+   "id": "culture.pastiche",
+   "t": {
+    "en": "pastiche",
+    "uk": "пастиш",
+    "ru": "пастиш",
+    "pl": "pastisz",
+    "de": "Pastiche",
+    "fr": "pastiche",
+    "es": "pastiche",
+    "it": "pastiche",
+    "pt": "pastiche",
+    "tr": "pastiş"
+   },
+   "ex": {
+    "en": "The film is a pastiche of old westerns."
+   }
+  },
+  {
+   "id": "culture.satire",
+   "t": {
+    "en": "satire",
+    "uk": "сатира",
+    "ru": "сатира",
+    "pl": "satyra",
+    "de": "Satire",
+    "fr": "satire",
+    "es": "sátira",
+    "it": "satira",
+    "pt": "sátira",
+    "tr": "hiciv"
+   },
+   "ex": {
+    "en": "The novel is a sharp political satire."
+   }
+  },
+  {
+   "id": "culture.allegory",
+   "t": {
+    "en": "allegory",
+    "uk": "алегорія",
+    "ru": "аллегория",
+    "pl": "alegoria",
+    "de": "Allegorie",
+    "fr": "allégorie",
+    "es": "alegoría",
+    "it": "allegoria",
+    "pt": "alegoria",
+    "tr": "alegori"
+   },
+   "ex": {
+    "en": "The story works as an allegory of war."
+   }
+  },
+  {
+   "id": "culture.pretentious",
+   "t": {
+    "en": "pretentious",
+    "uk": "претензійний",
+    "ru": "претенциозный",
+    "pl": "pretensjonalny",
+    "de": "prätentiös",
+    "fr": "prétentieux",
+    "es": "pretencioso",
+    "it": "pretenzioso",
+    "pt": "pretensioso",
+    "tr": "özenti"
+   },
+   "ex": {
+    "en": "I found the play pretentious and dull."
+   }
+  },
+  {
+   "id": "culture.derivative",
+   "t": {
+    "en": "derivative",
+    "uk": "вторинний",
+    "ru": "вторичный",
+    "pl": "wtórny",
+    "de": "abgekupfert",
+    "fr": "sans originalité",
+    "es": "poco original",
+    "it": "derivativo",
+    "pt": "derivativo",
+    "tr": "özgün olmayan"
+   },
+   "ex": {
+    "en": "The album feels derivative and safe."
+   }
+  },
+  {
+   "id": "culture.poignant",
+   "t": {
+    "en": "poignant",
+    "uk": "зворушливий",
+    "ru": "пронзительный",
+    "pl": "przejmujący",
+    "de": "ergreifend",
+    "fr": "poignant",
+    "es": "conmovedor",
+    "it": "struggente",
+    "pt": "comovente",
+    "tr": "dokunaklı"
+   },
+   "ex": {
+    "en": "The final scene is quietly poignant."
+   }
+  },
+  {
+   "id": "culture.gripping",
+   "t": {
+    "en": "gripping",
+    "uk": "захопливий",
+    "ru": "захватывающий",
+    "pl": "trzymający w napięciu",
+    "de": "fesselnd",
+    "fr": "captivant",
+    "es": "apasionante",
+    "it": "avvincente",
+    "pt": "envolvente",
+    "tr": "sürükleyici"
+   },
+   "ex": {
+    "en": "It's a gripping read from page one."
+   }
+  },
+  {
+   "id": "culture.overrated",
+   "t": {
+    "en": "overrated",
+    "uk": "переоцінений",
+    "ru": "переоценённый",
+    "pl": "przereklamowany",
+    "de": "überbewertet",
+    "fr": "surestimé",
+    "es": "sobrevalorado",
+    "it": "sopravvalutato",
+    "pt": "superestimado",
+    "tr": "abartılmış"
+   },
+   "ex": {
+    "en": "Honestly, I think the show is overrated."
+   }
+  },
+  {
+   "id": "culture.understated",
+   "t": {
+    "en": "understated",
+    "uk": "стриманий",
+    "ru": "сдержанный",
+    "pl": "stonowany",
+    "de": "zurückhaltend",
+    "fr": "sobre",
+    "es": "sobrio",
+    "it": "sobrio",
+    "pt": "discreto",
+    "tr": "sade"
+   },
+   "ex": {
+    "en": "Her understated performance won the award."
+   }
+  },
+  {
+   "id": "culture.plot-twist",
+   "t": {
+    "en": "plot twist",
+    "uk": "несподіваний поворот",
+    "ru": "неожиданный поворот",
+    "pl": "zwrot akcji",
+    "de": "Wendung",
+    "fr": "rebondissement",
+    "es": "giro argumental",
+    "it": "colpo di scena",
+    "pt": "reviravolta",
+    "tr": "ters köşe"
+   },
+   "ex": {
+    "en": "Nobody saw that plot twist coming."
+   }
+  },
+  {
+   "id": "culture.cliffhanger",
+   "t": {
+    "en": "cliffhanger",
+    "uk": "кліфгенгер",
+    "ru": "клиффхэнгер",
+    "pl": "cliffhanger",
+    "de": "Cliffhanger",
+    "fr": "cliffhanger",
+    "es": "final en suspenso",
+    "it": "cliffhanger",
+    "pt": "gancho",
+    "tr": "merakta bırakan son"
+   },
+   "ex": {
+    "en": "Every episode ends on a cliffhanger."
+   }
+  },
+  {
+   "id": "culture.magnum-opus",
+   "t": {
+    "en": "magnum opus",
+    "uk": "головний твір",
+    "ru": "главное произведение",
+    "pl": "opus magnum",
+    "de": "Hauptwerk",
+    "fr": "œuvre majeure",
+    "es": "obra cumbre",
+    "it": "opera magna",
+    "pt": "magnum opus",
+    "tr": "en büyük eseri"
+   },
+   "ex": {
+    "en": "This symphony is his magnum opus."
+   }
+  },
+  {
+   "id": "culture.body-of-work",
+   "t": {
+    "en": "body of work",
+    "uk": "творчий доробок",
+    "ru": "творческое наследие",
+    "pl": "dorobek",
+    "de": "Gesamtwerk",
+    "fr": "œuvre",
+    "es": "obra",
+    "it": "opera omnia",
+    "pt": "obra completa",
+    "tr": "tüm eserleri"
+   },
+   "ex": {
+    "en": "Her body of work spans five decades."
+   }
+  },
+  {
+   "id": "culture.zeitgeist",
+   "t": {
+    "en": "zeitgeist",
+    "uk": "дух часу",
+    "ru": "дух времени",
+    "pl": "duch czasu",
+    "de": "Zeitgeist",
+    "fr": "air du temps",
+    "es": "espíritu de la época",
+    "it": "spirito del tempo",
+    "pt": "espírito da época",
+    "tr": "zamanın ruhu"
+   },
+   "ex": {
+    "en": "The album captured the zeitgeist perfectly."
+   }
+  },
+  {
+   "id": "culture.aficionado",
+   "t": {
+    "en": "aficionado",
+    "uk": "шанувальник",
+    "ru": "страстный поклонник",
+    "pl": "miłośnik",
+    "de": "Liebhaber",
+    "fr": "passionné",
+    "es": "aficionado",
+    "it": "appassionato",
+    "pt": "aficionado",
+    "tr": "tutkun"
+   },
+   "ex": {
+    "en": "He's a real jazz aficionado."
+   }
+  },
+  {
+   "id": "culture.connoisseur",
+   "t": {
+    "en": "connoisseur",
+    "uk": "знавець",
+    "ru": "знаток",
+    "pl": "koneser",
+    "de": "Kenner",
+    "fr": "connaisseur",
+    "es": "entendido",
+    "it": "intenditore",
+    "pt": "conhecedor",
+    "tr": "erbap"
+   },
+   "ex": {
+    "en": "She is a connoisseur of modern art."
+   }
+  },
+  {
+   "id": "culture.to-pan",
+   "t": {
+    "en": "to pan",
+    "uk": "розгромити",
+    "ru": "разгромить",
+    "pl": "zjechać",
+    "de": "verreißen",
+    "fr": "descendre en flammes",
+    "es": "destrozar",
+    "it": "stroncare",
+    "pt": "detonar",
+    "tr": "yerden yere vurmak"
+   },
+   "ex": {
+    "en": "The critics panned his latest film."
+   }
+  },
+  {
+   "id": "culture.to-rave-about",
+   "t": {
+    "en": "to rave about",
+    "uk": "захоплено відгукуватися",
+    "ru": "восторгаться",
+    "pl": "zachwycać się",
+    "de": "schwärmen von",
+    "fr": "s'extasier sur",
+    "es": "deshacerse en elogios",
+    "it": "andare in visibilio per",
+    "pt": "elogiar muito",
+    "tr": "göklere çıkarmak"
+   },
+   "ex": {
+    "en": "Everyone is raving about the new play."
+   }
+  },
+  {
+   "id": "culture.hype",
+   "t": {
+    "en": "hype",
+    "uk": "ажіотаж",
+    "ru": "ажиотаж",
+    "pl": "szum",
+    "de": "Hype",
+    "fr": "battage médiatique",
+    "es": "bombo publicitario",
+    "it": "hype",
+    "pt": "hype",
+    "tr": "abartılı reklam"
+   },
+   "ex": {
+    "en": "The film didn't live up to the hype."
+   }
+  },
+  {
+   "id": "culture.sensationalism",
+   "t": {
+    "en": "sensationalism",
+    "uk": "сенсаційність",
+    "ru": "погоня за сенсациями",
+    "pl": "pogoń za sensacją",
+    "de": "Sensationsgier",
+    "fr": "sensationnalisme",
+    "es": "sensacionalismo",
+    "it": "sensazionalismo",
+    "pt": "sensacionalismo",
+    "tr": "sansasyonellik"
+   },
+   "ex": {
+    "en": "Readers are tired of sensationalism."
+   }
+  },
+  {
+   "id": "culture.paywall",
+   "t": {
+    "en": "paywall",
+    "uk": "платний доступ",
+    "ru": "платный доступ",
+    "pl": "paywall",
+    "de": "Bezahlschranke",
+    "fr": "mur payant",
+    "es": "muro de pago",
+    "it": "paywall",
+    "pt": "paywall",
+    "tr": "ücretli erişim"
+   },
+   "ex": {
+    "en": "The article is behind a paywall."
+   }
+  },
+  {
+   "id": "culture.op-ed",
+   "t": {
+    "en": "op-ed",
+    "uk": "авторська колонка",
+    "ru": "авторская колонка",
+    "pl": "felieton",
+    "de": "Gastkommentar",
+    "fr": "tribune",
+    "es": "columna de opinión",
+    "it": "editoriale d'opinione",
+    "pt": "artigo de opinião",
+    "tr": "köşe yazısı"
+   },
+   "ex": {
+    "en": "She wrote an op-ed on press freedom."
+   }
+  },
+  {
+   "id": "culture.censorship",
+   "t": {
+    "en": "censorship",
+    "uk": "цензура",
+    "ru": "цензура",
+    "pl": "cenzura",
+    "de": "Zensur",
+    "fr": "censure",
+    "es": "censura",
+    "it": "censura",
+    "pt": "censura",
+    "tr": "sansür"
+   },
+   "ex": {
+    "en": "The film was banned under censorship laws."
+   }
+  },
+  {
+   "id": "culture.patron-of-the-arts",
+   "t": {
+    "en": "patron of the arts",
+    "uk": "меценат",
+    "ru": "меценат",
+    "pl": "mecenas",
+    "de": "Mäzen",
+    "fr": "mécène",
+    "es": "mecenas",
+    "it": "mecenate",
+    "pt": "mecenas",
+    "tr": "sanat hamisi"
+   },
+   "ex": {
+    "en": "A wealthy patron of the arts funded the museum."
+   }
+  },
+  {
+   "id": "culture.repertoire",
+   "t": {
+    "en": "repertoire",
+    "uk": "репертуар",
+    "ru": "репертуар",
+    "pl": "repertuar",
+    "de": "Repertoire",
+    "fr": "répertoire",
+    "es": "repertorio",
+    "it": "repertorio",
+    "pt": "repertório",
+    "tr": "repertuvar"
+   },
+   "ex": {
+    "en": "The orchestra has a broad repertoire."
+   }
+  },
+  {
+   "id": "culture.to-improvise",
+   "t": {
+    "en": "to improvise",
+    "uk": "імпровізувати",
+    "ru": "импровизировать",
+    "pl": "improwizować",
+    "de": "improvisieren",
+    "fr": "improviser",
+    "es": "improvisar",
+    "it": "improvvisare",
+    "pt": "improvisar",
+    "tr": "doğaçlama yapmak"
+   },
+   "ex": {
+    "en": "Jazz musicians improvise on stage."
+   }
+  },
+  {
+   "id": "culture.guilty-pleasure",
+   "t": {
+    "en": "guilty pleasure",
+    "uk": "грішна втіха",
+    "ru": "постыдное удовольствие",
+    "pl": "grzeszna przyjemność",
+    "de": "heimliches Vergnügen",
+    "fr": "plaisir coupable",
+    "es": "placer culpable",
+    "it": "piacere proibito",
+    "pt": "prazer culposo",
+    "tr": "gizli zevk"
+   },
+   "ex": {
+    "en": "Reality TV is my guilty pleasure."
+   }
+  }
+ ]
+}

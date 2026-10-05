@@ -1,0 +1,494 @@
+{
+ "id": "home-b2",
+ "topic": "home",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "home.to-take-out-a-mortgage",
+   "t": {
+    "en": "to take out a mortgage",
+    "uk": "взяти іпотеку",
+    "ru": "взять ипотеку",
+    "pl": "wziąć kredyt hipoteczny",
+    "de": "Hypothek aufnehmen",
+    "fr": "contracter un prêt immobilier",
+    "es": "pedir una hipoteca",
+    "it": "accendere un mutuo",
+    "pt": "fazer um financiamento",
+    "tr": "konut kredisi çekmek"
+   },
+   "ex": {
+    "en": "They took out a mortgage to buy it."
+   }
+  },
+  {
+   "id": "home.property-tax",
+   "t": {
+    "en": "property tax",
+    "uk": "податок на нерухомість",
+    "ru": "налог на недвижимость",
+    "pl": "podatek od nieruchomości",
+    "de": "Grundsteuer",
+    "fr": "taxe foncière",
+    "es": "impuesto de bienes inmuebles",
+    "it": "imposta sugli immobili",
+    "pt": "IPTU",
+    "tr": "emlak vergisi"
+   },
+   "ex": {
+    "en": "Property tax is due in April."
+   }
+  },
+  {
+   "id": "home.to-give-notice",
+   "t": {
+    "en": "to give notice",
+    "uk": "повідомити про виїзд",
+    "ru": "уведомить о выезде",
+    "pl": "wypowiedzieć umowę",
+    "de": "kündigen",
+    "fr": "donner son préavis",
+    "es": "dar el preaviso",
+    "it": "dare la disdetta",
+    "pt": "avisar que vai sair",
+    "tr": "çıkış bildirimi yapmak"
+   },
+   "ex": {
+    "en": "You must give notice in writing."
+   }
+  },
+  {
+   "id": "home.to-evict",
+   "t": {
+    "en": "to evict",
+    "uk": "виселяти",
+    "ru": "выселять",
+    "pl": "eksmitować",
+    "de": "zwangsräumen",
+    "fr": "expulser",
+    "es": "desahuciar",
+    "it": "sfrattare",
+    "pt": "despejar",
+    "tr": "tahliye etmek"
+   },
+   "ex": {
+    "en": "The landlord cannot evict you without reason."
+   }
+  },
+  {
+   "id": "home.eviction",
+   "t": {
+    "en": "eviction",
+    "uk": "виселення",
+    "ru": "выселение",
+    "pl": "eksmisja",
+    "de": "Zwangsräumung",
+    "fr": "expulsion",
+    "es": "desahucio",
+    "it": "sfratto",
+    "pt": "despejo",
+    "tr": "tahliye"
+   },
+   "ex": {
+    "en": "She received an eviction notice."
+   }
+  },
+  {
+   "id": "home.to-get-the-deposit-back",
+   "t": {
+    "en": "to get the deposit back",
+    "uk": "повернути заставу",
+    "ru": "вернуть залог",
+    "pl": "odzyskać kaucję",
+    "de": "Kaution zurückbekommen",
+    "fr": "récupérer la caution",
+    "es": "recuperar la fianza",
+    "it": "riavere la cauzione",
+    "pt": "receber a caução de volta",
+    "tr": "depozitoyu geri almak"
+   },
+   "ex": {
+    "en": "We got the full deposit back."
+   }
+  },
+  {
+   "id": "home.inventory-check",
+   "t": {
+    "en": "inventory check",
+    "uk": "опис майна",
+    "ru": "опись имущества",
+    "pl": "protokół zdawczo-odbiorczy",
+    "de": "Übergabeprotokoll",
+    "fr": "état des lieux",
+    "es": "inventario",
+    "it": "verbale di consegna",
+    "pt": "vistoria",
+    "tr": "teslim tutanağı"
+   },
+   "ex": {
+    "en": "The inventory check is on moving day."
+   }
+  },
+  {
+   "id": "home.wear-and-tear",
+   "t": {
+    "en": "wear and tear",
+    "uk": "природний знос",
+    "ru": "естественный износ",
+    "pl": "normalne zużycie",
+    "de": "normale Abnutzung",
+    "fr": "usure normale",
+    "es": "desgaste normal",
+    "it": "normale usura",
+    "pt": "desgaste natural",
+    "tr": "normal aşınma"
+   },
+   "ex": {
+    "en": "Normal wear and tear is not charged."
+   }
+  },
+  {
+   "id": "home.to-sublet",
+   "t": {
+    "en": "to sublet",
+    "uk": "здавати в суборенду",
+    "ru": "сдавать в субаренду",
+    "pl": "podnajmować",
+    "de": "untervermieten",
+    "fr": "sous-louer",
+    "es": "subarrendar",
+    "it": "subaffittare",
+    "pt": "sublocar",
+    "tr": "alt kiraya vermek"
+   },
+   "ex": {
+    "en": "You may not sublet without permission."
+   }
+  },
+  {
+   "id": "home.home-insurance",
+   "t": {
+    "en": "home insurance",
+    "uk": "страхування житла",
+    "ru": "страхование жилья",
+    "pl": "ubezpieczenie mieszkania",
+    "de": "Hausratversicherung",
+    "fr": "assurance habitation",
+    "es": "seguro de hogar",
+    "it": "assicurazione sulla casa",
+    "pt": "seguro residencial",
+    "tr": "konut sigortası"
+   },
+   "ex": {
+    "en": "Home insurance covers water damage."
+   }
+  },
+  {
+   "id": "home.damp",
+   "t": {
+    "en": "damp",
+    "uk": "вологість",
+    "ru": "сырость",
+    "pl": "wilgoć",
+    "de": "Feuchtigkeit",
+    "fr": "humidité",
+    "es": "humedad",
+    "it": "umidità",
+    "pt": "umidade",
+    "tr": "rutubet"
+   },
+   "ex": {
+    "en": "There is damp on the bedroom wall."
+   }
+  },
+  {
+   "id": "home.mould",
+   "t": {
+    "en": "mould",
+    "uk": "пліснява",
+    "ru": "плесень",
+    "pl": "pleśń",
+    "de": "Schimmel",
+    "fr": "moisissure",
+    "es": "moho",
+    "it": "muffa",
+    "pt": "mofo",
+    "tr": "küf"
+   },
+   "ex": {
+    "en": "Mould is growing in the bathroom."
+   }
+  },
+  {
+   "id": "home.draught",
+   "t": {
+    "en": "draught",
+    "uk": "протяг",
+    "ru": "сквозняк",
+    "pl": "przeciąg",
+    "de": "Zugluft",
+    "fr": "courant d'air",
+    "es": "corriente de aire",
+    "it": "corrente d'aria",
+    "pt": "corrente de ar",
+    "tr": "cereyan"
+   },
+   "ex": {
+    "en": "I can feel a draught from the window."
+   }
+  },
+  {
+   "id": "home.insulation",
+   "t": {
+    "en": "insulation",
+    "uk": "утеплення",
+    "ru": "утепление",
+    "pl": "izolacja",
+    "de": "Dämmung",
+    "fr": "isolation",
+    "es": "aislamiento",
+    "it": "isolamento",
+    "pt": "isolamento térmico",
+    "tr": "yalıtım"
+   },
+   "ex": {
+    "en": "Good insulation lowers the heating bill."
+   }
+  },
+  {
+   "id": "home.boiler",
+   "t": {
+    "en": "boiler",
+    "uk": "котел",
+    "ru": "котёл",
+    "pl": "kocioł",
+    "de": "Heizkessel",
+    "fr": "chaudière",
+    "es": "caldera",
+    "it": "caldaia",
+    "pt": "aquecedor",
+    "tr": "kombi"
+   },
+   "ex": {
+    "en": "The boiler needs a yearly service."
+   }
+  },
+  {
+   "id": "home.radiator",
+   "t": {
+    "en": "radiator",
+    "uk": "батарея",
+    "ru": "батарея",
+    "pl": "kaloryfer",
+    "de": "Heizkörper",
+    "fr": "radiateur",
+    "es": "radiador",
+    "it": "termosifone",
+    "pt": "radiador",
+    "tr": "radyatör"
+   },
+   "ex": {
+    "en": "The radiator in the hall is cold."
+   }
+  },
+  {
+   "id": "home.thermostat",
+   "t": {
+    "en": "thermostat",
+    "uk": "термостат",
+    "ru": "термостат",
+    "pl": "termostat",
+    "de": "Thermostat",
+    "fr": "thermostat",
+    "es": "termostato",
+    "it": "termostato",
+    "pt": "termostato",
+    "tr": "termostat"
+   },
+   "ex": {
+    "en": "Set the thermostat to twenty degrees."
+   }
+  },
+  {
+   "id": "home.fuse-box",
+   "t": {
+    "en": "fuse box",
+    "uk": "електрощиток",
+    "ru": "электрощиток",
+    "pl": "skrzynka bezpieczników",
+    "de": "Sicherungskasten",
+    "fr": "tableau électrique",
+    "es": "cuadro eléctrico",
+    "it": "quadro elettrico",
+    "pt": "quadro de luz",
+    "tr": "sigorta kutusu"
+   },
+   "ex": {
+    "en": "The fuse box is in the hallway."
+   }
+  },
+  {
+   "id": "home.circuit-breaker",
+   "t": {
+    "en": "circuit breaker",
+    "uk": "автоматичний вимикач",
+    "ru": "автомат",
+    "pl": "bezpiecznik",
+    "de": "Sicherung",
+    "fr": "disjoncteur",
+    "es": "interruptor automático",
+    "it": "salvavita",
+    "pt": "disjuntor",
+    "tr": "sigorta"
+   },
+   "ex": {
+    "en": "The circuit breaker tripped again."
+   }
+  },
+  {
+   "id": "home.dripping-tap",
+   "t": {
+    "en": "dripping tap",
+    "uk": "кран, що капає",
+    "ru": "капающий кран",
+    "pl": "kapiący kran",
+    "de": "tropfender Wasserhahn",
+    "fr": "robinet qui goutte",
+    "es": "grifo que gotea",
+    "it": "rubinetto che gocciola",
+    "pt": "torneira pingando",
+    "tr": "damlayan musluk"
+   },
+   "ex": {
+    "en": "A dripping tap wastes a lot of water."
+   }
+  },
+  {
+   "id": "home.to-tighten-a-screw",
+   "t": {
+    "en": "to tighten a screw",
+    "uk": "закрутити шуруп",
+    "ru": "затянуть винт",
+    "pl": "dokręcić śrubę",
+    "de": "Schraube anziehen",
+    "fr": "serrer une vis",
+    "es": "apretar un tornillo",
+    "it": "stringere una vite",
+    "pt": "apertar um parafuso",
+    "tr": "vida sıkmak"
+   },
+   "ex": {
+    "en": "Just tighten the screw on the hinge."
+   }
+  },
+  {
+   "id": "home.to-put-up-a-shelf",
+   "t": {
+    "en": "to put up a shelf",
+    "uk": "повісити полицю",
+    "ru": "повесить полку",
+    "pl": "powiesić półkę",
+    "de": "Regal anbringen",
+    "fr": "fixer une étagère",
+    "es": "colgar una estantería",
+    "it": "montare una mensola",
+    "pt": "instalar uma prateleira",
+    "tr": "raf takmak"
+   },
+   "ex": {
+    "en": "I put up a shelf in the kitchen."
+   }
+  },
+  {
+   "id": "home.stepladder",
+   "t": {
+    "en": "stepladder",
+    "uk": "стрем'янка",
+    "ru": "стремянка",
+    "pl": "drabina",
+    "de": "Trittleiter",
+    "fr": "escabeau",
+    "es": "escalera de mano",
+    "it": "scaletta",
+    "pt": "escada dobrável",
+    "tr": "katlanır merdiven"
+   },
+   "ex": {
+    "en": "Use the stepladder to reach the top."
+   }
+  },
+  {
+   "id": "home.drill",
+   "t": {
+    "en": "drill",
+    "uk": "дриль",
+    "ru": "дрель",
+    "pl": "wiertarka",
+    "de": "Bohrmaschine",
+    "fr": "perceuse",
+    "es": "taladro",
+    "it": "trapano",
+    "pt": "furadeira",
+    "tr": "matkap"
+   },
+   "ex": {
+    "en": "Can I borrow your drill?"
+   }
+  },
+  {
+   "id": "home.handyman",
+   "t": {
+    "en": "handyman",
+    "uk": "майстер",
+    "ru": "мастер",
+    "pl": "złota rączka",
+    "de": "Handwerker",
+    "fr": "homme à tout faire",
+    "es": "manitas",
+    "it": "tuttofare",
+    "pt": "faz-tudo",
+    "tr": "tamirci"
+   },
+   "ex": {
+    "en": "The handyman fixed the door in minutes."
+   }
+  },
+  {
+   "id": "home.noise-complaint",
+   "t": {
+    "en": "noise complaint",
+    "uk": "скарга на шум",
+    "ru": "жалоба на шум",
+    "pl": "skarga na hałas",
+    "de": "Lärmbeschwerde",
+    "fr": "plainte pour bruit",
+    "es": "queja por ruido",
+    "it": "reclamo per il rumore",
+    "pt": "reclamação de barulho",
+    "tr": "gürültü şikayeti"
+   },
+   "ex": {
+    "en": "The neighbours filed a noise complaint."
+   }
+  },
+  {
+   "id": "home.homeowners-association",
+   "t": {
+    "en": "homeowners' association",
+    "uk": "ОСББ",
+    "ru": "ТСЖ",
+    "pl": "wspólnota mieszkaniowa",
+    "de": "Eigentümergemeinschaft",
+    "fr": "copropriété",
+    "es": "comunidad de propietarios",
+    "it": "condominio",
+    "pt": "condomínio",
+    "tr": "site yönetimi"
+   },
+   "ex": {
+    "en": "The homeowners' association meets monthly."
+   }
+  }
+ ]
+}

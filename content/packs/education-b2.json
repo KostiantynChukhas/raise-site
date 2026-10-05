@@ -1,0 +1,548 @@
+{
+ "id": "education-b2",
+ "topic": "education",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "education.bachelors-degree",
+   "t": {
+    "en": "bachelor's degree",
+    "uk": "ступінь бакалавра",
+    "ru": "степень бакалавра",
+    "pl": "licencjat",
+    "de": "Bachelorabschluss",
+    "fr": "licence",
+    "es": "grado",
+    "it": "laurea triennale",
+    "pt": "bacharelado",
+    "tr": "lisans diploması"
+   },
+   "ex": {
+    "en": "He finished his bachelor's degree in 2020."
+   }
+  },
+  {
+   "id": "education.masters-degree",
+   "t": {
+    "en": "master's degree",
+    "uk": "ступінь магістра",
+    "ru": "степень магистра",
+    "pl": "magisterium",
+    "de": "Masterabschluss",
+    "fr": "master",
+    "es": "máster",
+    "it": "laurea magistrale",
+    "pt": "mestrado",
+    "tr": "yüksek lisans"
+   },
+   "ex": {
+    "en": "She is doing a master's degree in economics."
+   }
+  },
+  {
+   "id": "education.phd",
+   "t": {
+    "en": "PhD",
+    "uk": "докторський ступінь",
+    "ru": "докторская степень",
+    "pl": "doktorat",
+    "de": "Doktortitel",
+    "fr": "doctorat",
+    "es": "doctorado",
+    "it": "dottorato",
+    "pt": "doutorado",
+    "tr": "doktora"
+   },
+   "ex": {
+    "en": "He is writing his PhD on climate policy."
+   }
+  },
+  {
+   "id": "education.thesis",
+   "t": {
+    "en": "thesis",
+    "uk": "дипломна робота",
+    "ru": "дипломная работа",
+    "pl": "praca dyplomowa",
+    "de": "Abschlussarbeit",
+    "fr": "mémoire",
+    "es": "tesis",
+    "it": "tesi",
+    "pt": "monografia",
+    "tr": "tez"
+   },
+   "ex": {
+    "en": "My thesis is about renewable energy."
+   }
+  },
+  {
+   "id": "education.supervisor",
+   "t": {
+    "en": "supervisor",
+    "uk": "науковий керівник",
+    "ru": "научный руководитель",
+    "pl": "promotor",
+    "de": "Betreuer",
+    "fr": "directeur de mémoire",
+    "es": "tutor de tesis",
+    "it": "relatore",
+    "pt": "orientador",
+    "tr": "tez danışmanı"
+   },
+   "ex": {
+    "en": "My supervisor approved the outline."
+   }
+  },
+  {
+   "id": "education.curriculum",
+   "t": {
+    "en": "curriculum",
+    "uk": "навчальна програма",
+    "ru": "учебная программа",
+    "pl": "program nauczania",
+    "de": "Lehrplan",
+    "fr": "programme scolaire",
+    "es": "plan de estudios",
+    "it": "programma di studi",
+    "pt": "currículo",
+    "tr": "müfredat"
+   },
+   "ex": {
+    "en": "The curriculum includes coding."
+   }
+  },
+  {
+   "id": "education.syllabus",
+   "t": {
+    "en": "syllabus",
+    "uk": "силабус",
+    "ru": "программа курса",
+    "pl": "sylabus",
+    "de": "Kursplan",
+    "fr": "plan de cours",
+    "es": "programa de la asignatura",
+    "it": "programma del corso",
+    "pt": "ementa",
+    "tr": "ders izlencesi"
+   },
+   "ex": {
+    "en": "The syllabus lists all the readings."
+   }
+  },
+  {
+   "id": "education.semester",
+   "t": {
+    "en": "semester",
+    "uk": "семестр",
+    "ru": "семестр",
+    "pl": "semestr",
+    "de": "Semester",
+    "fr": "semestre",
+    "es": "semestre",
+    "it": "semestre",
+    "pt": "semestre",
+    "tr": "dönem"
+   },
+   "ex": {
+    "en": "The semester ends in January."
+   }
+  },
+  {
+   "id": "education.credits",
+   "t": {
+    "en": "credits",
+    "uk": "кредити",
+    "ru": "зачётные единицы",
+    "pl": "punkty ECTS",
+    "de": "Leistungspunkte",
+    "fr": "crédits",
+    "es": "créditos",
+    "it": "crediti",
+    "pt": "créditos",
+    "tr": "kredi"
+   },
+   "ex": {
+    "en": "You need sixty credits this year."
+   }
+  },
+  {
+   "id": "education.seminar",
+   "t": {
+    "en": "seminar",
+    "uk": "семінар",
+    "ru": "семинар",
+    "pl": "seminarium",
+    "de": "Seminar",
+    "fr": "séminaire",
+    "es": "seminario",
+    "it": "seminario",
+    "pt": "seminário",
+    "tr": "seminer"
+   },
+   "ex": {
+    "en": "We discuss the readings in the seminar."
+   }
+  },
+  {
+   "id": "education.admission",
+   "t": {
+    "en": "admission",
+    "uk": "вступ",
+    "ru": "поступление",
+    "pl": "rekrutacja",
+    "de": "Zulassung",
+    "fr": "admission",
+    "es": "admisión",
+    "it": "ammissione",
+    "pt": "admissão",
+    "tr": "kabul"
+   },
+   "ex": {
+    "en": "Admission to the programme is competitive."
+   }
+  },
+  {
+   "id": "education.entrance-exam",
+   "t": {
+    "en": "entrance exam",
+    "uk": "вступний іспит",
+    "ru": "вступительный экзамен",
+    "pl": "egzamin wstępny",
+    "de": "Aufnahmeprüfung",
+    "fr": "concours d'entrée",
+    "es": "examen de ingreso",
+    "it": "test d'ammissione",
+    "pt": "vestibular",
+    "tr": "giriş sınavı"
+   },
+   "ex": {
+    "en": "She passed the entrance exam easily."
+   }
+  },
+  {
+   "id": "education.student-loan",
+   "t": {
+    "en": "student loan",
+    "uk": "студентський кредит",
+    "ru": "кредит на обучение",
+    "pl": "kredyt studencki",
+    "de": "Studienkredit",
+    "fr": "prêt étudiant",
+    "es": "préstamo estudiantil",
+    "it": "prestito d'onore",
+    "pt": "financiamento estudantil",
+    "tr": "öğrenim kredisi"
+   },
+   "ex": {
+    "en": "He is still paying off his student loan."
+   }
+  },
+  {
+   "id": "education.exchange-programme",
+   "t": {
+    "en": "exchange programme",
+    "uk": "програма обміну",
+    "ru": "программа обмена",
+    "pl": "program wymiany",
+    "de": "Austauschprogramm",
+    "fr": "programme d'échange",
+    "es": "programa de intercambio",
+    "it": "programma di scambio",
+    "pt": "programa de intercâmbio",
+    "tr": "değişim programı"
+   },
+   "ex": {
+    "en": "I spent a year on an exchange programme."
+   }
+  },
+  {
+   "id": "education.internship",
+   "t": {
+    "en": "internship",
+    "uk": "стажування",
+    "ru": "стажировка",
+    "pl": "staż",
+    "de": "Praktikum",
+    "fr": "stage",
+    "es": "prácticas",
+    "it": "tirocinio",
+    "pt": "estágio",
+    "tr": "staj"
+   },
+   "ex": {
+    "en": "The internship counts towards the degree."
+   }
+  },
+  {
+   "id": "education.vocational-training",
+   "t": {
+    "en": "vocational training",
+    "uk": "професійна освіта",
+    "ru": "профессиональное обучение",
+    "pl": "szkolenie zawodowe",
+    "de": "Berufsausbildung",
+    "fr": "formation professionnelle",
+    "es": "formación profesional",
+    "it": "formazione professionale",
+    "pt": "ensino profissionalizante",
+    "tr": "mesleki eğitim"
+   },
+   "ex": {
+    "en": "He chose vocational training over university."
+   }
+  },
+  {
+   "id": "education.plagiarism",
+   "t": {
+    "en": "plagiarism",
+    "uk": "плагіат",
+    "ru": "плагиат",
+    "pl": "plagiat",
+    "de": "Plagiat",
+    "fr": "plagiat",
+    "es": "plagio",
+    "it": "plagio",
+    "pt": "plágio",
+    "tr": "intihal"
+   },
+   "ex": {
+    "en": "Plagiarism leads to automatic failure."
+   }
+  },
+  {
+   "id": "education.to-cite",
+   "t": {
+    "en": "to cite",
+    "uk": "цитувати",
+    "ru": "цитировать",
+    "pl": "cytować",
+    "de": "zitieren",
+    "fr": "citer",
+    "es": "citar",
+    "it": "citare",
+    "pt": "citar",
+    "tr": "alıntı yapmak"
+   },
+   "ex": {
+    "en": "Always cite your sources correctly."
+   }
+  },
+  {
+   "id": "education.to-submit",
+   "t": {
+    "en": "to submit",
+    "uk": "здати",
+    "ru": "сдать работу",
+    "pl": "złożyć",
+    "de": "einreichen",
+    "fr": "rendre",
+    "es": "entregar",
+    "it": "consegnare",
+    "pt": "entregar",
+    "tr": "teslim etmek"
+   },
+   "ex": {
+    "en": "Submit your essay by Friday."
+   }
+  },
+  {
+   "id": "education.to-resit",
+   "t": {
+    "en": "to resit",
+    "uk": "перескладати",
+    "ru": "пересдавать",
+    "pl": "poprawiać egzamin",
+    "de": "nachschreiben",
+    "fr": "repasser",
+    "es": "recuperar",
+    "it": "ripetere l'esame",
+    "pt": "refazer a prova",
+    "tr": "bütünlemeye girmek"
+   },
+   "ex": {
+    "en": "I have to resit the chemistry exam."
+   }
+  },
+  {
+   "id": "education.to-drop-out",
+   "t": {
+    "en": "to drop out",
+    "uk": "кинути навчання",
+    "ru": "бросить учёбу",
+    "pl": "rzucić studia",
+    "de": "abbrechen",
+    "fr": "abandonner ses études",
+    "es": "abandonar los estudios",
+    "it": "abbandonare gli studi",
+    "pt": "largar os estudos",
+    "tr": "okulu bırakmak"
+   },
+   "ex": {
+    "en": "He dropped out in his second year."
+   }
+  },
+  {
+   "id": "education.to-major-in",
+   "t": {
+    "en": "to major in",
+    "uk": "спеціалізуватися на",
+    "ru": "специализироваться на",
+    "pl": "specjalizować się w",
+    "de": "als Hauptfach studieren",
+    "fr": "se spécialiser en",
+    "es": "especializarse en",
+    "it": "specializzarsi in",
+    "pt": "se formar em",
+    "tr": "bölümünde okumak"
+   },
+   "ex": {
+    "en": "She majored in computer science."
+   }
+  },
+  {
+   "id": "education.to-defend",
+   "t": {
+    "en": "to defend",
+    "uk": "захищати",
+    "ru": "защищать",
+    "pl": "bronić",
+    "de": "verteidigen",
+    "fr": "soutenir",
+    "es": "defender",
+    "it": "discutere",
+    "pt": "defender",
+    "tr": "savunmak"
+   },
+   "ex": {
+    "en": "I defend my thesis in June."
+   }
+  },
+  {
+   "id": "education.research",
+   "t": {
+    "en": "research",
+    "uk": "дослідження",
+    "ru": "исследование",
+    "pl": "badania",
+    "de": "Forschung",
+    "fr": "recherche",
+    "es": "investigación",
+    "it": "ricerca",
+    "pt": "pesquisa",
+    "tr": "araştırma"
+   },
+   "ex": {
+    "en": "Her research focuses on sleep."
+   }
+  },
+  {
+   "id": "education.literacy",
+   "t": {
+    "en": "literacy",
+    "uk": "грамотність",
+    "ru": "грамотность",
+    "pl": "umiejętność czytania i pisania",
+    "de": "Lesekompetenz",
+    "fr": "alphabétisation",
+    "es": "alfabetización",
+    "it": "alfabetizzazione",
+    "pt": "alfabetização",
+    "tr": "okuryazarlık"
+   },
+   "ex": {
+    "en": "Literacy rates have improved."
+   }
+  },
+  {
+   "id": "education.gap-year",
+   "t": {
+    "en": "gap year",
+    "uk": "рік перерви",
+    "ru": "год перерыва",
+    "pl": "rok przerwy",
+    "de": "Auszeit nach der Schule",
+    "fr": "année sabbatique",
+    "es": "año sabático",
+    "it": "anno sabbatico",
+    "pt": "ano sabático",
+    "tr": "ara yıl"
+   },
+   "ex": {
+    "en": "He took a gap year before university."
+   }
+  },
+  {
+   "id": "education.extracurricular",
+   "t": {
+    "en": "extracurricular",
+    "uk": "позакласний",
+    "ru": "внеклассный",
+    "pl": "pozalekcyjny",
+    "de": "außerschulisch",
+    "fr": "extrascolaire",
+    "es": "extraescolar",
+    "it": "extracurricolare",
+    "pt": "extracurricular",
+    "tr": "ders dışı"
+   },
+   "ex": {
+    "en": "Drama club is an extracurricular activity."
+   }
+  },
+  {
+   "id": "education.compulsory",
+   "t": {
+    "en": "compulsory",
+    "uk": "обов'язковий",
+    "ru": "обязательный",
+    "pl": "obowiązkowy",
+    "de": "verpflichtend",
+    "fr": "obligatoire",
+    "es": "obligatorio",
+    "it": "obbligatorio",
+    "pt": "obrigatório",
+    "tr": "zorunlu"
+   },
+   "ex": {
+    "en": "Maths is compulsory until sixteen."
+   }
+  },
+  {
+   "id": "education.optional-module",
+   "t": {
+    "en": "optional module",
+    "uk": "вибірковий курс",
+    "ru": "курс по выбору",
+    "pl": "przedmiot do wyboru",
+    "de": "Wahlfach",
+    "fr": "option",
+    "es": "asignatura optativa",
+    "it": "corso a scelta",
+    "pt": "disciplina optativa",
+    "tr": "seçmeli ders"
+   },
+   "ex": {
+    "en": "I picked photography as an optional module."
+   }
+  },
+  {
+   "id": "education.peer-review",
+   "t": {
+    "en": "peer review",
+    "uk": "взаємне оцінювання",
+    "ru": "взаимное оценивание",
+    "pl": "ocena koleżeńska",
+    "de": "Peer-Review",
+    "fr": "évaluation par les pairs",
+    "es": "evaluación entre pares",
+    "it": "revisione tra pari",
+    "pt": "avaliação por pares",
+    "tr": "akran değerlendirmesi"
+   },
+   "ex": {
+    "en": "We did peer review of each other's drafts."
+   }
+  }
+ ]
+}

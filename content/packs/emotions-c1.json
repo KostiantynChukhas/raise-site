@@ -1,0 +1,530 @@
+{
+ "id": "emotions-c1",
+ "topic": "emotions",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emotions.exhilarated",
+   "t": {
+    "en": "exhilarated",
+    "uk": "сповнений піднесення",
+    "ru": "воодушевлённый",
+    "pl": "rozradowany",
+    "de": "beschwingt",
+    "fr": "grisé",
+    "es": "exultante",
+    "it": "esaltato",
+    "pt": "exultante",
+    "tr": "coşmuş"
+   },
+   "ex": {
+    "en": "We felt exhilarated after the climb."
+   }
+  },
+  {
+   "id": "emotions.despondent",
+   "t": {
+    "en": "despondent",
+    "uk": "зневірений",
+    "ru": "удручённый",
+    "pl": "przygnębiony",
+    "de": "mutlos",
+    "fr": "abattu",
+    "es": "abatido",
+    "it": "abbattuto",
+    "pt": "abatido",
+    "tr": "umutsuz"
+   },
+   "ex": {
+    "en": "He grew despondent after months of rejection."
+   }
+  },
+  {
+   "id": "emotions.wistful",
+   "t": {
+    "en": "wistful",
+    "uk": "тужливий",
+    "ru": "тоскливый",
+    "pl": "tęskny",
+    "de": "wehmütig",
+    "fr": "mélancolique",
+    "es": "melancólico",
+    "it": "malinconico",
+    "pt": "saudoso",
+    "tr": "hüzünlü"
+   },
+   "ex": {
+    "en": "She gave the old house a wistful look."
+   }
+  },
+  {
+   "id": "emotions.sullen",
+   "t": {
+    "en": "sullen",
+    "uk": "насуплений",
+    "ru": "угрюмый",
+    "pl": "nadąsany",
+    "de": "mürrisch",
+    "fr": "maussade",
+    "es": "hosco",
+    "it": "imbronciato",
+    "pt": "emburrado",
+    "tr": "somurtkan"
+   },
+   "ex": {
+    "en": "The teenager sat in sullen silence."
+   }
+  },
+  {
+   "id": "emotions.smug",
+   "t": {
+    "en": "smug",
+    "uk": "самовдоволений",
+    "ru": "самодовольный",
+    "pl": "zadowolony z siebie",
+    "de": "selbstgefällig",
+    "fr": "suffisant",
+    "es": "engreído",
+    "it": "compiaciuto",
+    "pt": "presunçoso",
+    "tr": "kendini beğenmiş"
+   },
+   "ex": {
+    "en": "He gave a smug little smile."
+   }
+  },
+  {
+   "id": "emotions.livid",
+   "t": {
+    "en": "livid",
+    "uk": "розлючений",
+    "ru": "взбешённый",
+    "pl": "wściekły",
+    "de": "fuchsteufelswild",
+    "fr": "furieux",
+    "es": "furioso",
+    "it": "furibondo",
+    "pt": "furioso",
+    "tr": "küplere binmiş"
+   },
+   "ex": {
+    "en": "Dad was livid when he saw the dent."
+   }
+  },
+  {
+   "id": "emotions.petrified",
+   "t": {
+    "en": "petrified",
+    "uk": "заціпенілий від страху",
+    "ru": "оцепеневший от страха",
+    "pl": "skamieniały ze strachu",
+    "de": "starr vor Angst",
+    "fr": "pétrifié",
+    "es": "petrificado",
+    "it": "pietrificato",
+    "pt": "petrificado",
+    "tr": "korkudan donmuş"
+   },
+   "ex": {
+    "en": "I was petrified during the turbulence."
+   }
+  },
+  {
+   "id": "emotions.flabbergasted",
+   "t": {
+    "en": "flabbergasted",
+    "uk": "ошелешений",
+    "ru": "ошарашенный",
+    "pl": "oniemiały",
+    "de": "baff",
+    "fr": "sidéré",
+    "es": "pasmado",
+    "it": "sbalordito",
+    "pt": "boquiaberto",
+    "tr": "şaşkına dönmüş"
+   },
+   "ex": {
+    "en": "We were flabbergasted by the price."
+   }
+  },
+  {
+   "id": "emotions.mortified",
+   "t": {
+    "en": "mortified",
+    "uk": "вкрай присоромлений",
+    "ru": "сгорающий от стыда",
+    "pl": "zażenowany",
+    "de": "zutiefst beschämt",
+    "fr": "mortifié",
+    "es": "mortificado",
+    "it": "mortificato",
+    "pt": "mortificado",
+    "tr": "yerin dibine girmiş"
+   },
+   "ex": {
+    "en": "I was mortified when my phone rang."
+   }
+  },
+  {
+   "id": "emotions.a-lump-in-ones-throat",
+   "t": {
+    "en": "a lump in one's throat",
+    "uk": "клубок у горлі",
+    "ru": "ком в горле",
+    "pl": "gula w gardle",
+    "de": "Kloß im Hals",
+    "fr": "boule dans la gorge",
+    "es": "nudo en la garganta",
+    "it": "nodo alla gola",
+    "pt": "nó na garganta",
+    "tr": "boğazında düğüm"
+   },
+   "ex": {
+    "en": "I had a lump in my throat during the speech."
+   }
+  },
+  {
+   "id": "emotions.complacent",
+   "t": {
+    "en": "complacent",
+    "uk": "самозаспокоєний",
+    "ru": "самоуспокоенный",
+    "pl": "zadufany",
+    "de": "selbstzufrieden",
+    "fr": "trop sûr de soi",
+    "es": "autocomplaciente",
+    "it": "autocompiaciuto",
+    "pt": "acomodado",
+    "tr": "rehavete kapılmış"
+   },
+   "ex": {
+    "en": "Success made the team complacent."
+   }
+  },
+  {
+   "id": "emotions.apathetic",
+   "t": {
+    "en": "apathetic",
+    "uk": "апатичний",
+    "ru": "апатичный",
+    "pl": "apatyczny",
+    "de": "apathisch",
+    "fr": "apathique",
+    "es": "apático",
+    "it": "apatico",
+    "pt": "apático",
+    "tr": "duyarsız"
+   },
+   "ex": {
+    "en": "Voters have become apathetic."
+   }
+  },
+  {
+   "id": "emotions.ambivalent",
+   "t": {
+    "en": "ambivalent",
+    "uk": "амбівалентний",
+    "ru": "двойственный",
+    "pl": "ambiwalentny",
+    "de": "zwiespältig",
+    "fr": "ambivalent",
+    "es": "ambivalente",
+    "it": "ambivalente",
+    "pt": "ambivalente",
+    "tr": "ikircikli"
+   },
+   "ex": {
+    "en": "I'm ambivalent about the new policy."
+   }
+  },
+  {
+   "id": "emotions.jaded",
+   "t": {
+    "en": "jaded",
+    "uk": "пересичений",
+    "ru": "пресыщенный",
+    "pl": "znużony",
+    "de": "abgestumpft",
+    "fr": "blasé",
+    "es": "hastiado",
+    "it": "disilluso",
+    "pt": "enfastiado",
+    "tr": "bezmiş"
+   },
+   "ex": {
+    "en": "Years in sales left him jaded."
+   }
+  },
+  {
+   "id": "emotions.sheepish",
+   "t": {
+    "en": "sheepish",
+    "uk": "знічений",
+    "ru": "сконфуженный",
+    "pl": "speszony",
+    "de": "kleinlaut",
+    "fr": "penaud",
+    "es": "abochornado",
+    "it": "impacciato",
+    "pt": "sem graça",
+    "tr": "süklüm püklüm"
+   },
+   "ex": {
+    "en": "He gave a sheepish grin and apologised."
+   }
+  },
+  {
+   "id": "emotions.elated",
+   "t": {
+    "en": "elated",
+    "uk": "окрилений",
+    "ru": "окрылённый",
+    "pl": "uradowany",
+    "de": "hocherfreut",
+    "fr": "exalté",
+    "es": "eufórico",
+    "it": "euforico",
+    "pt": "eufórico",
+    "tr": "mest olmuş"
+   },
+   "ex": {
+    "en": "She was elated by the promotion."
+   }
+  },
+  {
+   "id": "emotions.at-the-end-of-ones-tether",
+   "t": {
+    "en": "at the end of one's tether",
+    "uk": "на межі сил",
+    "ru": "на пределе",
+    "pl": "u kresu wytrzymałości",
+    "de": "am Ende seiner Kräfte",
+    "fr": "à bout",
+    "es": "al límite",
+    "it": "allo stremo",
+    "pt": "no limite",
+    "tr": "sabrının sonunda"
+   },
+   "ex": {
+    "en": "I'm at the end of my tether with this project."
+   }
+  },
+  {
+   "id": "emotions.agitated",
+   "t": {
+    "en": "agitated",
+    "uk": "збуджений",
+    "ru": "взвинченный",
+    "pl": "wzburzony",
+    "de": "aufgewühlt",
+    "fr": "agité",
+    "es": "agitado",
+    "it": "agitato",
+    "pt": "agitado",
+    "tr": "telaşlı"
+   },
+   "ex": {
+    "en": "The patient became agitated at night."
+   }
+  },
+  {
+   "id": "emotions.to-be-on-edge",
+   "t": {
+    "en": "to be on edge",
+    "uk": "бути на нервах",
+    "ru": "быть на взводе",
+    "pl": "być jak na szpilkach",
+    "de": "nervös und gereizt sein",
+    "fr": "être à cran",
+    "es": "estar con los nervios de punta",
+    "it": "essere sulle spine",
+    "pt": "estar com os nervos à flor da pele",
+    "tr": "diken üstünde olmak"
+   },
+   "ex": {
+    "en": "Everyone was on edge before the results."
+   }
+  },
+  {
+   "id": "emotions.on-cloud-nine",
+   "t": {
+    "en": "on cloud nine",
+    "uk": "на сьомому небі",
+    "ru": "на седьмом небе",
+    "pl": "w siódmym niebie",
+    "de": "im siebten Himmel",
+    "fr": "aux anges",
+    "es": "en el séptimo cielo",
+    "it": "al settimo cielo",
+    "pt": "nas nuvens",
+    "tr": "bulutların üstünde"
+   },
+   "ex": {
+    "en": "Since the wedding he's been on cloud nine."
+   }
+  },
+  {
+   "id": "emotions.down-in-the-dumps",
+   "t": {
+    "en": "down in the dumps",
+    "uk": "як у воду опущений",
+    "ru": "как в воду опущенный",
+    "pl": "w dołku",
+    "de": "in einem Tief",
+    "fr": "le moral à zéro",
+    "es": "de capa caída",
+    "it": "giù di morale",
+    "pt": "na fossa",
+    "tr": "moralsiz"
+   },
+   "ex": {
+    "en": "He's been down in the dumps since the breakup."
+   }
+  },
+  {
+   "id": "emotions.to-be-beside-oneself",
+   "t": {
+    "en": "to be beside oneself",
+    "uk": "нетямитися",
+    "ru": "быть вне себя",
+    "pl": "nie posiadać się",
+    "de": "außer sich sein",
+    "fr": "être hors de soi",
+    "es": "estar fuera de sí",
+    "it": "essere fuori di sé",
+    "pt": "estar fora de si",
+    "tr": "kendinden geçmek"
+   },
+   "ex": {
+    "en": "She was beside herself with worry."
+   }
+  },
+  {
+   "id": "emotions.to-get-something-off-ones-chest",
+   "t": {
+    "en": "to get something off one's chest",
+    "uk": "вилити душу",
+    "ru": "излить душу",
+    "pl": "zrzucić ciężar z serca",
+    "de": "sich etwas von der Seele reden",
+    "fr": "vider son sac",
+    "es": "quitarse un peso de encima",
+    "it": "togliersi un peso dallo stomaco",
+    "pt": "tirar um peso do peito",
+    "tr": "içini boşaltmak"
+   },
+   "ex": {
+    "en": "I need to get something off my chest."
+   }
+  },
+  {
+   "id": "emotions.butterflies-in-ones-stomach",
+   "t": {
+    "en": "butterflies in one's stomach",
+    "uk": "метелики в животі",
+    "ru": "бабочки в животе",
+    "pl": "motyle w brzuchu",
+    "de": "Schmetterlinge im Bauch",
+    "fr": "des papillons dans le ventre",
+    "es": "mariposas en el estómago",
+    "it": "farfalle nello stomaco",
+    "pt": "frio na barriga",
+    "tr": "karnında kelebekler"
+   },
+   "ex": {
+    "en": "I get butterflies in my stomach before speaking."
+   }
+  },
+  {
+   "id": "emotions.to-sulk",
+   "t": {
+    "en": "to sulk",
+    "uk": "дутися",
+    "ru": "дуться",
+    "pl": "dąsać się",
+    "de": "schmollen",
+    "fr": "bouder",
+    "es": "estar de morros",
+    "it": "tenere il broncio",
+    "pt": "ficar emburrado",
+    "tr": "surat asmak"
+   },
+   "ex": {
+    "en": "Stop sulking and talk to me."
+   }
+  },
+  {
+   "id": "emotions.to-gloat",
+   "t": {
+    "en": "to gloat",
+    "uk": "зловтішатися",
+    "ru": "злорадствовать",
+    "pl": "napawać się",
+    "de": "sich hämisch freuen",
+    "fr": "jubiler",
+    "es": "regodearse",
+    "it": "gongolare",
+    "pt": "regozijar-se",
+    "tr": "oh çekmek"
+   },
+   "ex": {
+    "en": "Don't gloat over their defeat."
+   }
+  },
+  {
+   "id": "emotions.to-seethe",
+   "t": {
+    "en": "to seethe",
+    "uk": "кипіти від злості",
+    "ru": "кипеть от злости",
+    "pl": "kipieć ze złości",
+    "de": "vor Wut kochen",
+    "fr": "bouillir de rage",
+    "es": "hervir de rabia",
+    "it": "ribollire di rabbia",
+    "pt": "ferver de raiva",
+    "tr": "öfkeden kudurmak"
+   },
+   "ex": {
+    "en": "He was seething after the insult."
+   }
+  },
+  {
+   "id": "emotions.to-brood",
+   "t": {
+    "en": "to brood",
+    "uk": "гризти себе думками",
+    "ru": "изводить себя мыслями",
+    "pl": "rozpamiętywać",
+    "de": "grübeln",
+    "fr": "ruminer",
+    "es": "darle vueltas",
+    "it": "rimuginare",
+    "pt": "remoer",
+    "tr": "kafayı takmak"
+   },
+   "ex": {
+    "en": "Stop brooding over what she said."
+   }
+  },
+  {
+   "id": "emotions.to-wallow-in-self-pity",
+   "t": {
+    "en": "to wallow in self-pity",
+    "uk": "тонути в жалю до себе",
+    "ru": "упиваться жалостью к себе",
+    "pl": "tonąć w użalaniu się nad sobą",
+    "de": "sich in Selbstmitleid suhlen",
+    "fr": "s'apitoyer sur son sort",
+    "es": "revolcarse en la autocompasión",
+    "it": "crogiolarsi nell'autocommiserazione",
+    "pt": "afundar na autopiedade",
+    "tr": "kendine acımak"
+   },
+   "ex": {
+    "en": "Don't wallow in self-pity, do something."
+   }
+  }
+ ]
+}

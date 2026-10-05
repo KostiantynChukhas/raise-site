@@ -1,0 +1,494 @@
+{
+ "id": "nature-b1",
+ "topic": "nature",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "nature.thunder",
+   "t": {
+    "en": "thunder",
+    "uk": "грім",
+    "ru": "гром",
+    "pl": "grzmot",
+    "de": "Donner",
+    "fr": "tonnerre",
+    "es": "trueno",
+    "it": "tuono",
+    "pt": "trovão",
+    "tr": "gök gürültüsü"
+   },
+   "ex": {
+    "en": "The thunder woke the children."
+   }
+  },
+  {
+   "id": "nature.lightning",
+   "t": {
+    "en": "lightning",
+    "uk": "блискавка",
+    "ru": "молния",
+    "pl": "błyskawica",
+    "de": "Blitz",
+    "fr": "éclair",
+    "es": "relámpago",
+    "it": "fulmine",
+    "pt": "relâmpago",
+    "tr": "şimşek"
+   },
+   "ex": {
+    "en": "Lightning hit the old tree."
+   }
+  },
+  {
+   "id": "nature.hail",
+   "t": {
+    "en": "hail",
+    "uk": "град",
+    "ru": "град",
+    "pl": "grad",
+    "de": "Hagel",
+    "fr": "grêle",
+    "es": "granizo",
+    "it": "grandine",
+    "pt": "granizo",
+    "tr": "dolu"
+   },
+   "ex": {
+    "en": "The hail damaged our car."
+   }
+  },
+  {
+   "id": "nature.drought",
+   "t": {
+    "en": "drought",
+    "uk": "посуха",
+    "ru": "засуха",
+    "pl": "susza",
+    "de": "Dürre",
+    "fr": "sécheresse",
+    "es": "sequía",
+    "it": "siccità",
+    "pt": "seca",
+    "tr": "kuraklık"
+   },
+   "ex": {
+    "en": "The drought ruined the harvest."
+   }
+  },
+  {
+   "id": "nature.heatwave",
+   "t": {
+    "en": "heatwave",
+    "uk": "спека",
+    "ru": "жара",
+    "pl": "fala upałów",
+    "de": "Hitzewelle",
+    "fr": "canicule",
+    "es": "ola de calor",
+    "it": "ondata di caldo",
+    "pt": "onda de calor",
+    "tr": "sıcak hava dalgası"
+   },
+   "ex": {
+    "en": "A heatwave is expected next week."
+   }
+  },
+  {
+   "id": "nature.frost",
+   "t": {
+    "en": "frost",
+    "uk": "мороз",
+    "ru": "мороз",
+    "pl": "mróz",
+    "de": "Frost",
+    "fr": "gel",
+    "es": "helada",
+    "it": "gelo",
+    "pt": "geada",
+    "tr": "don"
+   },
+   "ex": {
+    "en": "There was frost on the windows."
+   }
+  },
+  {
+   "id": "nature.rainbow",
+   "t": {
+    "en": "rainbow",
+    "uk": "веселка",
+    "ru": "радуга",
+    "pl": "tęcza",
+    "de": "Regenbogen",
+    "fr": "arc-en-ciel",
+    "es": "arcoíris",
+    "it": "arcobaleno",
+    "pt": "arco-íris",
+    "tr": "gökkuşağı"
+   },
+   "ex": {
+    "en": "Look, a rainbow over the hills!"
+   }
+  },
+  {
+   "id": "nature.humidity",
+   "t": {
+    "en": "humidity",
+    "uk": "вологість",
+    "ru": "влажность",
+    "pl": "wilgotność",
+    "de": "Luftfeuchtigkeit",
+    "fr": "humidité",
+    "es": "humedad",
+    "it": "umidità",
+    "pt": "umidade",
+    "tr": "nem"
+   },
+   "ex": {
+    "en": "The humidity makes it feel hotter."
+   }
+  },
+  {
+   "id": "nature.breeze",
+   "t": {
+    "en": "breeze",
+    "uk": "легкий вітерець",
+    "ru": "лёгкий ветерок",
+    "pl": "lekki wiatr",
+    "de": "Brise",
+    "fr": "brise",
+    "es": "brisa",
+    "it": "brezza",
+    "pt": "brisa",
+    "tr": "meltem"
+   },
+   "ex": {
+    "en": "A cool breeze came from the sea."
+   }
+  },
+  {
+   "id": "nature.climate",
+   "t": {
+    "en": "climate",
+    "uk": "клімат",
+    "ru": "климат",
+    "pl": "klimat",
+    "de": "Klima",
+    "fr": "climat",
+    "es": "clima",
+    "it": "clima",
+    "pt": "clima",
+    "tr": "iklim"
+   },
+   "ex": {
+    "en": "The climate here is mild."
+   }
+  },
+  {
+   "id": "nature.environment",
+   "t": {
+    "en": "environment",
+    "uk": "довкілля",
+    "ru": "окружающая среда",
+    "pl": "środowisko",
+    "de": "Umwelt",
+    "fr": "environnement",
+    "es": "medio ambiente",
+    "it": "ambiente",
+    "pt": "meio ambiente",
+    "tr": "çevre"
+   },
+   "ex": {
+    "en": "We must protect the environment."
+   }
+  },
+  {
+   "id": "nature.pollution",
+   "t": {
+    "en": "pollution",
+    "uk": "забруднення",
+    "ru": "загрязнение",
+    "pl": "zanieczyszczenie",
+    "de": "Verschmutzung",
+    "fr": "pollution",
+    "es": "contaminación",
+    "it": "inquinamento",
+    "pt": "poluição",
+    "tr": "kirlilik"
+   },
+   "ex": {
+    "en": "Air pollution is bad in big cities."
+   }
+  },
+  {
+   "id": "nature.recycling",
+   "t": {
+    "en": "recycling",
+    "uk": "переробка відходів",
+    "ru": "переработка отходов",
+    "pl": "recykling",
+    "de": "Recycling",
+    "fr": "recyclage",
+    "es": "reciclaje",
+    "it": "riciclaggio",
+    "pt": "reciclagem",
+    "tr": "geri dönüşüm"
+   },
+   "ex": {
+    "en": "Recycling saves energy and resources."
+   }
+  },
+  {
+   "id": "nature.wildlife",
+   "t": {
+    "en": "wildlife",
+    "uk": "дика природа",
+    "ru": "дикая природа",
+    "pl": "dzika przyroda",
+    "de": "Tierwelt",
+    "fr": "faune",
+    "es": "fauna",
+    "it": "fauna selvatica",
+    "pt": "vida selvagem",
+    "tr": "yaban hayatı"
+   },
+   "ex": {
+    "en": "The park is full of wildlife."
+   }
+  },
+  {
+   "id": "nature.to-protect",
+   "t": {
+    "en": "to protect",
+    "uk": "захищати",
+    "ru": "защищать",
+    "pl": "chronić",
+    "de": "schützen",
+    "fr": "protéger",
+    "es": "proteger",
+    "it": "proteggere",
+    "pt": "proteger",
+    "tr": "korumak"
+   },
+   "ex": {
+    "en": "We protect the forest from fires."
+   }
+  },
+  {
+   "id": "nature.valley",
+   "t": {
+    "en": "valley",
+    "uk": "долина",
+    "ru": "долина",
+    "pl": "dolina",
+    "de": "Tal",
+    "fr": "vallée",
+    "es": "valle",
+    "it": "valle",
+    "pt": "vale",
+    "tr": "vadi"
+   },
+   "ex": {
+    "en": "The village lies in a green valley."
+   }
+  },
+  {
+   "id": "nature.waterfall",
+   "t": {
+    "en": "waterfall",
+    "uk": "водоспад",
+    "ru": "водопад",
+    "pl": "wodospad",
+    "de": "Wasserfall",
+    "fr": "cascade",
+    "es": "cascada",
+    "it": "cascata",
+    "pt": "cachoeira",
+    "tr": "şelale"
+   },
+   "ex": {
+    "en": "We walked to the waterfall."
+   }
+  },
+  {
+   "id": "nature.cliff",
+   "t": {
+    "en": "cliff",
+    "uk": "скеля",
+    "ru": "утёс",
+    "pl": "klif",
+    "de": "Klippe",
+    "fr": "falaise",
+    "es": "acantilado",
+    "it": "scogliera",
+    "pt": "penhasco",
+    "tr": "uçurum"
+   },
+   "ex": {
+    "en": "Do not go near the cliff."
+   }
+  },
+  {
+   "id": "nature.cave",
+   "t": {
+    "en": "cave",
+    "uk": "печера",
+    "ru": "пещера",
+    "pl": "jaskinia",
+    "de": "Höhle",
+    "fr": "grotte",
+    "es": "cueva",
+    "it": "grotta",
+    "pt": "caverna",
+    "tr": "mağara"
+   },
+   "ex": {
+    "en": "Bats live in the cave."
+   }
+  },
+  {
+   "id": "nature.coast",
+   "t": {
+    "en": "coast",
+    "uk": "узбережжя",
+    "ru": "побережье",
+    "pl": "wybrzeże",
+    "de": "Küste",
+    "fr": "côte",
+    "es": "costa",
+    "it": "costa",
+    "pt": "litoral",
+    "tr": "kıyı"
+   },
+   "ex": {
+    "en": "The coast is beautiful in spring."
+   }
+  },
+  {
+   "id": "nature.rainforest",
+   "t": {
+    "en": "rainforest",
+    "uk": "тропічний ліс",
+    "ru": "тропический лес",
+    "pl": "las deszczowy",
+    "de": "Regenwald",
+    "fr": "forêt tropicale",
+    "es": "selva tropical",
+    "it": "foresta pluviale",
+    "pt": "floresta tropical",
+    "tr": "yağmur ormanı"
+   },
+   "ex": {
+    "en": "The rainforest is home to many species."
+   }
+  },
+  {
+   "id": "nature.root",
+   "t": {
+    "en": "root",
+    "uk": "корінь",
+    "ru": "корень",
+    "pl": "korzeń",
+    "de": "Wurzel",
+    "fr": "racine",
+    "es": "raíz",
+    "it": "radice",
+    "pt": "raiz",
+    "tr": "kök"
+   },
+   "ex": {
+    "en": "The roots go deep into the ground."
+   }
+  },
+  {
+   "id": "nature.seed",
+   "t": {
+    "en": "seed",
+    "uk": "насіння",
+    "ru": "семя",
+    "pl": "nasiono",
+    "de": "Samen",
+    "fr": "graine",
+    "es": "semilla",
+    "it": "seme",
+    "pt": "semente",
+    "tr": "tohum"
+   },
+   "ex": {
+    "en": "Plant the seeds in April."
+   }
+  },
+  {
+   "id": "nature.harvest",
+   "t": {
+    "en": "harvest",
+    "uk": "врожай",
+    "ru": "урожай",
+    "pl": "zbiory",
+    "de": "Ernte",
+    "fr": "récolte",
+    "es": "cosecha",
+    "it": "raccolto",
+    "pt": "colheita",
+    "tr": "hasat"
+   },
+   "ex": {
+    "en": "The harvest was good this year."
+   }
+  },
+  {
+   "id": "nature.deer",
+   "t": {
+    "en": "deer",
+    "uk": "олень",
+    "ru": "олень",
+    "pl": "jeleń",
+    "de": "Hirsch",
+    "fr": "cerf",
+    "es": "ciervo",
+    "it": "cervo",
+    "pt": "veado",
+    "tr": "geyik"
+   },
+   "ex": {
+    "en": "We saw a deer in the woods."
+   }
+  },
+  {
+   "id": "nature.fox",
+   "t": {
+    "en": "fox",
+    "uk": "лисиця",
+    "ru": "лиса",
+    "pl": "lis",
+    "de": "Fuchs",
+    "fr": "renard",
+    "es": "zorro",
+    "it": "volpe",
+    "pt": "raposa",
+    "tr": "tilki"
+   },
+   "ex": {
+    "en": "A fox visits our garden at night."
+   }
+  },
+  {
+   "id": "nature.to-melt",
+   "t": {
+    "en": "to melt",
+    "uk": "танути",
+    "ru": "таять",
+    "pl": "topnieć",
+    "de": "schmelzen",
+    "fr": "fondre",
+    "es": "derretirse",
+    "it": "sciogliersi",
+    "pt": "derreter",
+    "tr": "erimek"
+   },
+   "ex": {
+    "en": "The snow melts in March."
+   }
+  }
+ ]
+}

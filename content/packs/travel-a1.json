@@ -1,0 +1,548 @@
+{
+ "id": "travel-a1",
+ "topic": "travel",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "travel.airport",
+   "t": {
+    "en": "airport",
+    "uk": "аеропорт",
+    "ru": "аэропорт",
+    "pl": "lotnisko",
+    "de": "Flughafen",
+    "fr": "aéroport",
+    "es": "aeropuerto",
+    "it": "aeroporto",
+    "pt": "aeroporto",
+    "tr": "havalimanı"
+   },
+   "ex": {
+    "en": "The airport is far from the city."
+   }
+  },
+  {
+   "id": "travel.hotel",
+   "t": {
+    "en": "hotel",
+    "uk": "готель",
+    "ru": "отель",
+    "pl": "hotel",
+    "de": "Hotel",
+    "fr": "hôtel",
+    "es": "hotel",
+    "it": "albergo",
+    "pt": "hotel",
+    "tr": "otel"
+   },
+   "ex": {
+    "en": "We stayed in a small hotel."
+   }
+  },
+  {
+   "id": "travel.train",
+   "t": {
+    "en": "train",
+    "uk": "потяг",
+    "ru": "поезд",
+    "pl": "pociąg",
+    "de": "Zug",
+    "fr": "train",
+    "es": "tren",
+    "it": "treno",
+    "pt": "trem",
+    "tr": "tren"
+   },
+   "ex": {
+    "en": "The train leaves at eight."
+   }
+  },
+  {
+   "id": "travel.bus",
+   "t": {
+    "en": "bus",
+    "uk": "автобус",
+    "ru": "автобус",
+    "pl": "autobus",
+    "de": "Bus",
+    "fr": "bus",
+    "es": "autobús",
+    "it": "autobus",
+    "pt": "ônibus",
+    "tr": "otobüs"
+   },
+   "ex": {
+    "en": "Take the bus to the beach."
+   }
+  },
+  {
+   "id": "travel.taxi",
+   "t": {
+    "en": "taxi",
+    "uk": "таксі",
+    "ru": "такси",
+    "pl": "taksówka",
+    "de": "Taxi",
+    "fr": "taxi",
+    "es": "taxi",
+    "it": "taxi",
+    "pt": "táxi",
+    "tr": "taksi"
+   },
+   "ex": {
+    "en": "Can you call a taxi?"
+   }
+  },
+  {
+   "id": "travel.map",
+   "t": {
+    "en": "map",
+    "uk": "мапа",
+    "ru": "карта",
+    "pl": "mapa",
+    "de": "Karte",
+    "fr": "carte",
+    "es": "mapa",
+    "it": "mappa",
+    "pt": "mapa",
+    "tr": "harita"
+   },
+   "ex": {
+    "en": "Do you have a map of the city?"
+   }
+  },
+  {
+   "id": "travel.left",
+   "t": {
+    "en": "left",
+    "uk": "ліворуч",
+    "ru": "налево",
+    "pl": "w lewo",
+    "de": "links",
+    "fr": "à gauche",
+    "es": "a la izquierda",
+    "it": "a sinistra",
+    "pt": "à esquerda",
+    "tr": "sol"
+   },
+   "ex": {
+    "en": "Turn left at the bank."
+   }
+  },
+  {
+   "id": "travel.right",
+   "t": {
+    "en": "right",
+    "uk": "праворуч",
+    "ru": "направо",
+    "pl": "w prawo",
+    "de": "rechts",
+    "fr": "à droite",
+    "es": "a la derecha",
+    "it": "a destra",
+    "pt": "à direita",
+    "tr": "sağ"
+   },
+   "ex": {
+    "en": "The hotel is on the right."
+   }
+  },
+  {
+   "id": "travel.how-much",
+   "t": {
+    "en": "how much?",
+    "uk": "скільки коштує?",
+    "ru": "сколько стоит?",
+    "pl": "ile kosztuje?",
+    "de": "wie viel kostet das?",
+    "fr": "combien ça coûte ?",
+    "es": "¿cuánto cuesta?",
+    "it": "quanto costa?",
+    "pt": "quanto custa?",
+    "tr": "ne kadar?"
+   },
+   "ex": {
+    "en": "How much is a ticket?"
+   }
+  },
+  {
+   "id": "travel.where-is",
+   "t": {
+    "en": "where is…?",
+    "uk": "де знаходиться…?",
+    "ru": "где находится…?",
+    "pl": "gdzie jest…?",
+    "de": "wo ist…?",
+    "fr": "où est… ?",
+    "es": "¿dónde está…?",
+    "it": "dov'è…?",
+    "pt": "onde fica…?",
+    "tr": "… nerede?"
+   },
+   "ex": {
+    "en": "Where is the station?"
+   }
+  },
+  {
+   "id": "travel.luggage",
+   "t": {
+    "en": "luggage",
+    "uk": "багаж",
+    "ru": "багаж",
+    "pl": "bagaż",
+    "de": "Gepäck",
+    "fr": "bagages",
+    "es": "equipaje",
+    "it": "bagaglio",
+    "pt": "bagagem",
+    "tr": "bagaj"
+   },
+   "ex": {
+    "en": "Where is my luggage?"
+   }
+  },
+  {
+   "id": "travel.exit",
+   "t": {
+    "en": "exit",
+    "uk": "вихід",
+    "ru": "выход",
+    "pl": "wyjście",
+    "de": "Ausgang",
+    "fr": "sortie",
+    "es": "salida",
+    "it": "uscita",
+    "pt": "saída",
+    "tr": "çıkış"
+   },
+   "ex": {
+    "en": "The exit is over there."
+   }
+  },
+  {
+   "id": "travel.delay",
+   "t": {
+    "en": "delay",
+    "uk": "затримка",
+    "ru": "задержка",
+    "pl": "opóźnienie",
+    "de": "Verspätung",
+    "fr": "retard",
+    "es": "retraso",
+    "it": "ritardo",
+    "pt": "atraso",
+    "tr": "gecikme"
+   },
+   "ex": {
+    "en": "There is a one-hour delay."
+   }
+  },
+  {
+   "id": "travel.reservation",
+   "t": {
+    "en": "reservation",
+    "uk": "бронювання",
+    "ru": "бронь",
+    "pl": "rezerwacja",
+    "de": "Reservierung",
+    "fr": "réservation",
+    "es": "reserva",
+    "it": "prenotazione",
+    "pt": "reserva",
+    "tr": "rezervasyon"
+   },
+   "ex": {
+    "en": "I have a reservation for tonight."
+   }
+  },
+  {
+   "id": "travel.plane",
+   "t": {
+    "en": "plane",
+    "uk": "літак",
+    "ru": "самолёт",
+    "pl": "samolot",
+    "de": "Flugzeug",
+    "fr": "avion",
+    "es": "avión",
+    "it": "aereo",
+    "pt": "avião",
+    "tr": "uçak"
+   },
+   "ex": {
+    "en": "The plane leaves at nine."
+   }
+  },
+  {
+   "id": "travel.to-travel",
+   "t": {
+    "en": "to travel",
+    "uk": "подорожувати",
+    "ru": "путешествовать",
+    "pl": "podróżować",
+    "de": "reisen",
+    "fr": "voyager",
+    "es": "viajar",
+    "it": "viaggiare",
+    "pt": "viajar",
+    "tr": "seyahat etmek"
+   },
+   "ex": {
+    "en": "I love to travel in summer."
+   }
+  },
+  {
+   "id": "travel.suitcase",
+   "t": {
+    "en": "suitcase",
+    "uk": "валіза",
+    "ru": "чемодан",
+    "pl": "walizka",
+    "de": "Koffer",
+    "fr": "valise",
+    "es": "maleta",
+    "it": "valigia",
+    "pt": "mala",
+    "tr": "bavul"
+   },
+   "ex": {
+    "en": "My suitcase is very heavy."
+   }
+  },
+  {
+   "id": "travel.to-book",
+   "t": {
+    "en": "to book",
+    "uk": "бронювати",
+    "ru": "бронировать",
+    "pl": "rezerwować",
+    "de": "buchen",
+    "fr": "réserver",
+    "es": "reservar",
+    "it": "prenotare",
+    "pt": "reservar",
+    "tr": "rezervasyon yapmak"
+   },
+   "ex": {
+    "en": "I want to book a room."
+   }
+  },
+  {
+   "id": "travel.trip",
+   "t": {
+    "en": "trip",
+    "uk": "подорож",
+    "ru": "поездка",
+    "pl": "podróż",
+    "de": "Reise",
+    "fr": "voyage",
+    "es": "viaje",
+    "it": "viaggio",
+    "pt": "viagem",
+    "tr": "gezi"
+   },
+   "ex": {
+    "en": "Have a nice trip!"
+   }
+  },
+  {
+   "id": "travel.to-arrive",
+   "t": {
+    "en": "to arrive",
+    "uk": "прибувати",
+    "ru": "прибывать",
+    "pl": "przyjeżdżać",
+    "de": "ankommen",
+    "fr": "arriver",
+    "es": "llegar",
+    "it": "arrivare",
+    "pt": "chegar",
+    "tr": "varmak"
+   },
+   "ex": {
+    "en": "The train arrives at nine."
+   }
+  },
+  {
+   "id": "travel.to-leave",
+   "t": {
+    "en": "to leave",
+    "uk": "від'їжджати",
+    "ru": "уезжать",
+    "pl": "wyjeżdżać",
+    "de": "abfahren",
+    "fr": "partir",
+    "es": "salir",
+    "it": "partire",
+    "pt": "partir",
+    "tr": "ayrılmak"
+   },
+   "ex": {
+    "en": "We leave tomorrow morning."
+   }
+  },
+  {
+   "id": "travel.to-fly",
+   "t": {
+    "en": "to fly",
+    "uk": "летіти",
+    "ru": "лететь",
+    "pl": "lecieć",
+    "de": "fliegen",
+    "fr": "prendre l'avion",
+    "es": "volar",
+    "it": "volare",
+    "pt": "voar",
+    "tr": "uçmak"
+   },
+   "ex": {
+    "en": "I'm flying to Rome on Monday."
+   }
+  },
+  {
+   "id": "travel.city",
+   "t": {
+    "en": "city",
+    "uk": "місто",
+    "ru": "город",
+    "pl": "miasto",
+    "de": "Stadt",
+    "fr": "ville",
+    "es": "ciudad",
+    "it": "città",
+    "pt": "cidade",
+    "tr": "şehir"
+   },
+   "ex": {
+    "en": "Paris is a big city."
+   }
+  },
+  {
+   "id": "travel.country",
+   "t": {
+    "en": "country",
+    "uk": "країна",
+    "ru": "страна",
+    "pl": "kraj",
+    "de": "Land",
+    "fr": "pays",
+    "es": "país",
+    "it": "paese",
+    "pt": "país",
+    "tr": "ülke"
+   },
+   "ex": {
+    "en": "Which country are you from?"
+   }
+  },
+  {
+   "id": "travel.to-visit",
+   "t": {
+    "en": "to visit",
+    "uk": "відвідувати",
+    "ru": "посещать",
+    "pl": "zwiedzać",
+    "de": "besuchen",
+    "fr": "visiter",
+    "es": "visitar",
+    "it": "visitare",
+    "pt": "visitar",
+    "tr": "ziyaret etmek"
+   },
+   "ex": {
+    "en": "We visited the old town."
+   }
+  },
+  {
+   "id": "travel.train-station",
+   "t": {
+    "en": "train station",
+    "uk": "вокзал",
+    "ru": "вокзал",
+    "pl": "dworzec kolejowy",
+    "de": "Bahnhof",
+    "fr": "gare",
+    "es": "estación de tren",
+    "it": "stazione",
+    "pt": "estação de trem",
+    "tr": "tren istasyonu"
+   },
+   "ex": {
+    "en": "Is the train station far?"
+   }
+  },
+  {
+   "id": "travel.to-check-in",
+   "t": {
+    "en": "to check in",
+    "uk": "реєструватися",
+    "ru": "регистрироваться",
+    "pl": "zameldować się",
+    "de": "einchecken",
+    "fr": "s'enregistrer",
+    "es": "hacer el check-in",
+    "it": "fare il check-in",
+    "pt": "fazer check-in",
+    "tr": "giriş yapmak"
+   },
+   "ex": {
+    "en": "You can check in at two o'clock."
+   }
+  },
+  {
+   "id": "travel.boat",
+   "t": {
+    "en": "boat",
+    "uk": "човен",
+    "ru": "лодка",
+    "pl": "łódź",
+    "de": "Boot",
+    "fr": "bateau",
+    "es": "barco",
+    "it": "barca",
+    "pt": "barco",
+    "tr": "tekne"
+   },
+   "ex": {
+    "en": "We took a boat to the island."
+   }
+  },
+  {
+   "id": "travel.i-m-lost",
+   "t": {
+    "en": "I'm lost",
+    "uk": "я заблукав",
+    "ru": "я заблудился",
+    "pl": "zgubiłem się",
+    "de": "ich habe mich verlaufen",
+    "fr": "je suis perdu",
+    "es": "estoy perdido",
+    "it": "mi sono perso",
+    "pt": "estou perdido",
+    "tr": "kayboldum"
+   },
+   "ex": {
+    "en": "Excuse me, I'm lost."
+   }
+  },
+  {
+   "id": "travel.postcard",
+   "t": {
+    "en": "postcard",
+    "uk": "листівка",
+    "ru": "открытка",
+    "pl": "pocztówka",
+    "de": "Postkarte",
+    "fr": "carte postale",
+    "es": "postal",
+    "it": "cartolina",
+    "pt": "cartão-postal",
+    "tr": "kartpostal"
+   },
+   "ex": {
+    "en": "I sent a postcard from Lisbon."
+   }
+  }
+ ]
+}

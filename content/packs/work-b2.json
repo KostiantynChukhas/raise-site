@@ -1,0 +1,548 @@
+{
+ "id": "work-b2",
+ "topic": "work",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "work.to-headhunt",
+   "t": {
+    "en": "to headhunt",
+    "uk": "переманювати фахівців",
+    "ru": "переманивать специалистов",
+    "pl": "podkupywać specjalistów",
+    "de": "abwerben",
+    "fr": "chasser des têtes",
+    "es": "cazar talentos",
+    "it": "fare headhunting",
+    "pt": "caçar talentos",
+    "tr": "transfer etmek"
+   },
+   "ex": {
+    "en": "She was headhunted by a rival firm."
+   }
+  },
+  {
+   "id": "work.severance-pay",
+   "t": {
+    "en": "severance pay",
+    "uk": "вихідна допомога",
+    "ru": "выходное пособие",
+    "pl": "odprawa",
+    "de": "Abfindung",
+    "fr": "indemnité de licenciement",
+    "es": "indemnización por despido",
+    "it": "liquidazione",
+    "pt": "indenização por demissão",
+    "tr": "kıdem tazminatı"
+   },
+   "ex": {
+    "en": "He received six months of severance pay."
+   }
+  },
+  {
+   "id": "work.to-downsize",
+   "t": {
+    "en": "to downsize",
+    "uk": "скорочувати штат",
+    "ru": "сокращать штат",
+    "pl": "redukować zatrudnienie",
+    "de": "Stellen abbauen",
+    "fr": "réduire les effectifs",
+    "es": "reducir la plantilla",
+    "it": "ridurre il personale",
+    "pt": "reduzir o quadro",
+    "tr": "küçülmeye gitmek"
+   },
+   "ex": {
+    "en": "The company is downsizing again."
+   }
+  },
+  {
+   "id": "work.to-follow-up",
+   "t": {
+    "en": "to follow up",
+    "uk": "нагадати про себе",
+    "ru": "напомнить о себе",
+    "pl": "skontaktować się ponownie",
+    "de": "nachfassen",
+    "fr": "relancer",
+    "es": "hacer seguimiento",
+    "it": "dare seguito",
+    "pt": "dar continuidade",
+    "tr": "takip etmek"
+   },
+   "ex": {
+    "en": "I'll follow up with the client tomorrow."
+   }
+  },
+  {
+   "id": "work.to-touch-base",
+   "t": {
+    "en": "to touch base",
+    "uk": "коротко зв'язатися",
+    "ru": "коротко связаться",
+    "pl": "zdzwonić się na chwilę",
+    "de": "sich kurz abstimmen",
+    "fr": "faire un point rapide",
+    "es": "ponerse al día",
+    "it": "sentirsi brevemente",
+    "pt": "dar um alinhamento rápido",
+    "tr": "kısaca görüşmek"
+   },
+   "ex": {
+    "en": "Let's touch base on Monday."
+   }
+  },
+  {
+   "id": "work.work-life-balance",
+   "t": {
+    "en": "work-life balance",
+    "uk": "баланс між роботою і життям",
+    "ru": "баланс работы и жизни",
+    "pl": "równowaga praca-życie",
+    "de": "Work-Life-Balance",
+    "fr": "équilibre vie pro-vie perso",
+    "es": "conciliación laboral",
+    "it": "equilibrio vita-lavoro",
+    "pt": "equilíbrio entre vida e trabalho",
+    "tr": "iş-yaşam dengesi"
+   },
+   "ex": {
+    "en": "I need a better work-life balance."
+   }
+  },
+  {
+   "id": "work.staff-turnover",
+   "t": {
+    "en": "staff turnover",
+    "uk": "плинність кадрів",
+    "ru": "текучесть кадров",
+    "pl": "rotacja pracowników",
+    "de": "Personalfluktuation",
+    "fr": "rotation du personnel",
+    "es": "rotación de personal",
+    "it": "turnover del personale",
+    "pt": "rotatividade de pessoal",
+    "tr": "personel devir hızı"
+   },
+   "ex": {
+    "en": "Staff turnover is very high here."
+   }
+  },
+  {
+   "id": "work.to-micromanage",
+   "t": {
+    "en": "to micromanage",
+    "uk": "контролювати кожен крок",
+    "ru": "контролировать каждый шаг",
+    "pl": "kontrolować każdy krok",
+    "de": "jeden Schritt kontrollieren",
+    "fr": "faire du micromanagement",
+    "es": "microgestionar",
+    "it": "controllare ogni dettaglio",
+    "pt": "microgerenciar",
+    "tr": "her adımı kontrol etmek"
+   },
+   "ex": {
+    "en": "My boss micromanages everything."
+   }
+  },
+  {
+   "id": "work.to-take-the-initiative",
+   "t": {
+    "en": "to take the initiative",
+    "uk": "проявляти ініціативу",
+    "ru": "проявлять инициативу",
+    "pl": "przejmować inicjatywę",
+    "de": "die Initiative ergreifen",
+    "fr": "prendre l'initiative",
+    "es": "tomar la iniciativa",
+    "it": "prendere l'iniziativa",
+    "pt": "tomar a iniciativa",
+    "tr": "inisiyatif almak"
+   },
+   "ex": {
+    "en": "She took the initiative and fixed it."
+   }
+  },
+  {
+   "id": "work.to-think-outside-the-box",
+   "t": {
+    "en": "to think outside the box",
+    "uk": "мислити нестандартно",
+    "ru": "мыслить нестандартно",
+    "pl": "myśleć nieszablonowo",
+    "de": "um die Ecke denken",
+    "fr": "sortir des sentiers battus",
+    "es": "pensar de forma creativa",
+    "it": "pensare fuori dagli schemi",
+    "pt": "pensar fora da caixa",
+    "tr": "kalıpların dışında düşünmek"
+   },
+   "ex": {
+    "en": "We need to think outside the box."
+   }
+  },
+  {
+   "id": "work.action-item",
+   "t": {
+    "en": "action item",
+    "uk": "пункт до виконання",
+    "ru": "пункт к выполнению",
+    "pl": "zadanie do wykonania",
+    "de": "Maßnahme",
+    "fr": "action à mener",
+    "es": "tarea pendiente",
+    "it": "azione da intraprendere",
+    "pt": "item de ação",
+    "tr": "aksiyon maddesi"
+   },
+   "ex": {
+    "en": "Here are the action items from today."
+   }
+  },
+  {
+   "id": "work.to-wrap-up",
+   "t": {
+    "en": "to wrap up",
+    "uk": "підбивати підсумки",
+    "ru": "подводить итоги",
+    "pl": "podsumować",
+    "de": "abschließen",
+    "fr": "conclure",
+    "es": "concluir",
+    "it": "concludere",
+    "pt": "encerrar",
+    "tr": "toparlamak"
+   },
+   "ex": {
+    "en": "Let's wrap up the meeting."
+   }
+  },
+  {
+   "id": "work.to-cut-corners",
+   "t": {
+    "en": "to cut corners",
+    "uk": "халтурити",
+    "ru": "халтурить",
+    "pl": "iść na skróty",
+    "de": "schlampig arbeiten",
+    "fr": "bâcler le travail",
+    "es": "hacer las cosas a medias",
+    "it": "fare le cose alla meno peggio",
+    "pt": "fazer de qualquer jeito",
+    "tr": "baştan savma yapmak"
+   },
+   "ex": {
+    "en": "Don't cut corners on safety."
+   }
+  },
+  {
+   "id": "work.to-pull-your-weight",
+   "t": {
+    "en": "to pull your weight",
+    "uk": "робити свою частину роботи",
+    "ru": "выполнять свою часть работы",
+    "pl": "robić swoje",
+    "de": "seinen Teil beitragen",
+    "fr": "faire sa part",
+    "es": "hacer su parte",
+    "it": "fare la propria parte",
+    "pt": "fazer a sua parte",
+    "tr": "üzerine düşeni yapmak"
+   },
+   "ex": {
+    "en": "Everyone has to pull their weight."
+   }
+  },
+  {
+   "id": "work.glass-ceiling",
+   "t": {
+    "en": "glass ceiling",
+    "uk": "скляна стеля",
+    "ru": "стеклянный потолок",
+    "pl": "szklany sufit",
+    "de": "gläserne Decke",
+    "fr": "plafond de verre",
+    "es": "techo de cristal",
+    "it": "soffitto di cristallo",
+    "pt": "teto de vidro",
+    "tr": "cam tavan"
+   },
+   "ex": {
+    "en": "Many women still face a glass ceiling."
+   }
+  },
+  {
+   "id": "work.to-step-down",
+   "t": {
+    "en": "to step down",
+    "uk": "піти з посади",
+    "ru": "уйти с должности",
+    "pl": "ustąpić ze stanowiska",
+    "de": "zurücktreten",
+    "fr": "se retirer",
+    "es": "dejar el cargo",
+    "it": "dimettersi",
+    "pt": "deixar o cargo",
+    "tr": "görevden ayrılmak"
+   },
+   "ex": {
+    "en": "The CEO stepped down last week."
+   }
+  },
+  {
+   "id": "work.overqualified",
+   "t": {
+    "en": "overqualified",
+    "uk": "надто кваліфікований",
+    "ru": "слишком квалифицированный",
+    "pl": "zbyt wykwalifikowany",
+    "de": "überqualifiziert",
+    "fr": "surqualifié",
+    "es": "sobrecualificado",
+    "it": "troppo qualificato",
+    "pt": "qualificado demais",
+    "tr": "aşırı nitelikli"
+   },
+   "ex": {
+    "en": "They said I was overqualified."
+   }
+  },
+  {
+   "id": "work.non-compete-clause",
+   "t": {
+    "en": "non-compete clause",
+    "uk": "умова про неконкуренцію",
+    "ru": "условие о неконкуренции",
+    "pl": "zakaz konkurencji",
+    "de": "Wettbewerbsverbot",
+    "fr": "clause de non-concurrence",
+    "es": "cláusula de no competencia",
+    "it": "patto di non concorrenza",
+    "pt": "cláusula de não concorrência",
+    "tr": "rekabet yasağı maddesi"
+   },
+   "ex": {
+    "en": "The contract has a non-compete clause."
+   }
+  },
+  {
+   "id": "work.to-shortlist",
+   "t": {
+    "en": "to shortlist",
+    "uk": "відібрати фіналістів",
+    "ru": "отобрать финалистов",
+    "pl": "wybrać do ścisłego grona",
+    "de": "in die engere Auswahl nehmen",
+    "fr": "présélectionner",
+    "es": "preseleccionar",
+    "it": "preselezionare",
+    "pt": "pré-selecionar",
+    "tr": "kısa listeye almak"
+   },
+   "ex": {
+    "en": "Five candidates were shortlisted."
+   }
+  },
+  {
+   "id": "work.to-underperform",
+   "t": {
+    "en": "to underperform",
+    "uk": "працювати нижче очікувань",
+    "ru": "работать ниже ожиданий",
+    "pl": "osiągać słabe wyniki",
+    "de": "hinter den Erwartungen bleiben",
+    "fr": "être sous-performant",
+    "es": "rendir por debajo de lo esperado",
+    "it": "avere un rendimento scarso",
+    "pt": "ter desempenho abaixo do esperado",
+    "tr": "düşük performans göstermek"
+   },
+   "ex": {
+    "en": "The team underperformed this quarter."
+   }
+  },
+  {
+   "id": "work.to-mentor",
+   "t": {
+    "en": "to mentor",
+    "uk": "бути наставником",
+    "ru": "быть наставником",
+    "pl": "być mentorem",
+    "de": "als Mentor betreuen",
+    "fr": "encadrer",
+    "es": "ser mentor de",
+    "it": "fare da mentore",
+    "pt": "orientar",
+    "tr": "mentorluk yapmak"
+   },
+   "ex": {
+    "en": "She mentors two junior developers."
+   }
+  },
+  {
+   "id": "work.to-lay-off",
+   "t": {
+    "en": "to lay off",
+    "uk": "скорочувати (працівників)",
+    "ru": "сокращать (сотрудников)",
+    "pl": "zwalniać (z powodu redukcji)",
+    "de": "entlassen",
+    "fr": "licencier",
+    "es": "despedir (por recorte)",
+    "it": "licenziare",
+    "pt": "demitir (por corte)",
+    "tr": "işten çıkarmak"
+   },
+   "ex": {
+    "en": "The company laid off fifty people."
+   }
+  },
+  {
+   "id": "work.to-be-made-redundant",
+   "t": {
+    "en": "to be made redundant",
+    "uk": "потрапити під скорочення",
+    "ru": "попасть под сокращение",
+    "pl": "zostać zwolnionym z redukcji",
+    "de": "betriebsbedingt gekündigt werden",
+    "fr": "être licencié économique",
+    "es": "ser despedido por reajuste",
+    "it": "essere licenziato per esubero",
+    "pt": "ser demitido por corte",
+    "tr": "işten çıkarılmak"
+   },
+   "ex": {
+    "en": "Two hundred staff were made redundant."
+   }
+  },
+  {
+   "id": "work.to-oversee",
+   "t": {
+    "en": "to oversee",
+    "uk": "наглядати за",
+    "ru": "курировать",
+    "pl": "nadzorować",
+    "de": "beaufsichtigen",
+    "fr": "superviser",
+    "es": "supervisar",
+    "it": "supervisionare",
+    "pt": "supervisionar",
+    "tr": "denetlemek"
+   },
+   "ex": {
+    "en": "She oversees three regional teams."
+   }
+  },
+  {
+   "id": "work.to-exceed-expectations",
+   "t": {
+    "en": "to exceed expectations",
+    "uk": "перевершити очікування",
+    "ru": "превзойти ожидания",
+    "pl": "przekroczyć oczekiwania",
+    "de": "Erwartungen übertreffen",
+    "fr": "dépasser les attentes",
+    "es": "superar las expectativas",
+    "it": "superare le aspettative",
+    "pt": "superar as expectativas",
+    "tr": "beklentileri aşmak"
+   },
+   "ex": {
+    "en": "Her work exceeded all expectations."
+   }
+  },
+  {
+   "id": "work.line-manager",
+   "t": {
+    "en": "line manager",
+    "uk": "безпосередній керівник",
+    "ru": "непосредственный руководитель",
+    "pl": "bezpośredni przełożony",
+    "de": "direkter Vorgesetzter",
+    "fr": "supérieur hiérarchique",
+    "es": "jefe directo",
+    "it": "responsabile diretto",
+    "pt": "gestor direto",
+    "tr": "bağlı olunan yönetici"
+   },
+   "ex": {
+    "en": "Talk to your line manager first."
+   }
+  },
+  {
+   "id": "work.career-path",
+   "t": {
+    "en": "career path",
+    "uk": "кар'єрний шлях",
+    "ru": "карьерный путь",
+    "pl": "ścieżka kariery",
+    "de": "Karriereweg",
+    "fr": "parcours professionnel",
+    "es": "trayectoria profesional",
+    "it": "percorso di carriera",
+    "pt": "trajetória profissional",
+    "tr": "kariyer yolu"
+   },
+   "ex": {
+    "en": "We discussed my career path."
+   }
+  },
+  {
+   "id": "work.to-fall-short",
+   "t": {
+    "en": "to fall short",
+    "uk": "не дотягувати",
+    "ru": "не дотягивать",
+    "pl": "nie spełniać oczekiwań",
+    "de": "hinter den Erwartungen zurückbleiben",
+    "fr": "ne pas être à la hauteur",
+    "es": "quedarse corto",
+    "it": "non essere all'altezza",
+    "pt": "ficar aquém",
+    "tr": "yetersiz kalmak"
+   },
+   "ex": {
+    "en": "Sales fell short of the target."
+   }
+  },
+  {
+   "id": "work.to-postpone",
+   "t": {
+    "en": "to postpone",
+    "uk": "відкладати",
+    "ru": "откладывать",
+    "pl": "przełożyć",
+    "de": "verschieben",
+    "fr": "reporter",
+    "es": "aplazar",
+    "it": "rinviare",
+    "pt": "adiar",
+    "tr": "ertelemek"
+   },
+   "ex": {
+    "en": "The meeting was postponed until Friday."
+   }
+  },
+  {
+   "id": "work.to-liaise",
+   "t": {
+    "en": "to liaise",
+    "uk": "підтримувати зв'язок",
+    "ru": "координировать взаимодействие",
+    "pl": "współpracować",
+    "de": "sich abstimmen",
+    "fr": "assurer la liaison",
+    "es": "coordinarse",
+    "it": "coordinarsi",
+    "pt": "fazer a ligação",
+    "tr": "irtibat kurmak"
+   },
+   "ex": {
+    "en": "You will liaise with the sales team."
+   }
+  }
+ ]
+}

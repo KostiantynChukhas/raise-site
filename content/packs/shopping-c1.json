@@ -1,0 +1,530 @@
+{
+ "id": "shopping-c1",
+ "topic": "shopping",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "shopping.chargeback",
+   "t": {
+    "en": "chargeback",
+    "uk": "чарджбек",
+    "ru": "чарджбэк",
+    "pl": "obciążenie zwrotne",
+    "de": "Rückbuchung",
+    "fr": "rétrofacturation",
+    "es": "contracargo",
+    "it": "storno",
+    "pt": "estorno",
+    "tr": "ters ibraz"
+   },
+   "ex": {
+    "en": "I requested a chargeback from my bank."
+   }
+  },
+  {
+   "id": "shopping.dynamic-pricing",
+   "t": {
+    "en": "dynamic pricing",
+    "uk": "динамічне ціноутворення",
+    "ru": "динамическое ценообразование",
+    "pl": "dynamiczne ustalanie cen",
+    "de": "dynamische Preisgestaltung",
+    "fr": "tarification dynamique",
+    "es": "precios dinámicos",
+    "it": "prezzi dinamici",
+    "pt": "precificação dinâmica",
+    "tr": "dinamik fiyatlandırma"
+   },
+   "ex": {
+    "en": "Airlines rely on dynamic pricing."
+   }
+  },
+  {
+   "id": "shopping.price-gouging",
+   "t": {
+    "en": "price gouging",
+    "uk": "цінове здирництво",
+    "ru": "взвинчивание цен",
+    "pl": "zawyżanie cen",
+    "de": "Wucher",
+    "fr": "prix abusifs",
+    "es": "especulación de precios",
+    "it": "speculazione sui prezzi",
+    "pt": "abuso de preços",
+    "tr": "fahiş fiyat"
+   },
+   "ex": {
+    "en": "Price gouging after the storm was shameful."
+   }
+  },
+  {
+   "id": "shopping.loss-leader",
+   "t": {
+    "en": "loss leader",
+    "uk": "товар-приманка",
+    "ru": "товар-приманка",
+    "pl": "produkt wabik",
+    "de": "Lockvogelangebot",
+    "fr": "produit d'appel",
+    "es": "producto gancho",
+    "it": "prodotto civetta",
+    "pt": "produto isca",
+    "tr": "yem ürün"
+   },
+   "ex": {
+    "en": "Cheap milk is their loss leader."
+   }
+  },
+  {
+   "id": "shopping.upselling",
+   "t": {
+    "en": "upselling",
+    "uk": "апсейл",
+    "ru": "апселлинг",
+    "pl": "sprzedaż droższej wersji",
+    "de": "Upselling",
+    "fr": "montée en gamme",
+    "es": "upselling",
+    "it": "upselling",
+    "pt": "upsell",
+    "tr": "üst satış"
+   },
+   "ex": {
+    "en": "The staff are trained in upselling."
+   }
+  },
+  {
+   "id": "shopping.bait-and-switch",
+   "t": {
+    "en": "bait and switch",
+    "uk": "принада й підміна",
+    "ru": "приманка и подмена",
+    "pl": "reklama-przynęta",
+    "de": "Lockvogeltaktik",
+    "fr": "publicité-appât",
+    "es": "cebo y cambio",
+    "it": "pubblicità civetta",
+    "pt": "isca e troca",
+    "tr": "yemleme taktiği"
+   },
+   "ex": {
+    "en": "That advert was a bait and switch."
+   }
+  },
+  {
+   "id": "shopping.buyers-remorse",
+   "t": {
+    "en": "buyer's remorse",
+    "uk": "каяття покупця",
+    "ru": "раскаяние покупателя",
+    "pl": "wyrzuty sumienia po zakupie",
+    "de": "Kaufreue",
+    "fr": "regret d'achat",
+    "es": "arrepentimiento del comprador",
+    "it": "rimorso dell'acquirente",
+    "pt": "arrependimento da compra",
+    "tr": "alışveriş pişmanlığı"
+   },
+   "ex": {
+    "en": "Buyer's remorse set in the next morning."
+   }
+  },
+  {
+   "id": "shopping.retail-therapy",
+   "t": {
+    "en": "retail therapy",
+    "uk": "шопінг-терапія",
+    "ru": "шопинг-терапия",
+    "pl": "terapia zakupowa",
+    "de": "Shoppingtherapie",
+    "fr": "thérapie par le shopping",
+    "es": "terapia de compras",
+    "it": "shopping terapeutico",
+    "pt": "terapia de compras",
+    "tr": "alışveriş terapisi"
+   },
+   "ex": {
+    "en": "I need some retail therapy after this week."
+   }
+  },
+  {
+   "id": "shopping.to-splurge",
+   "t": {
+    "en": "to splurge",
+    "uk": "розщедритися",
+    "ru": "раскошелиться",
+    "pl": "zaszaleć",
+    "de": "sich etwas gönnen",
+    "fr": "faire des folies",
+    "es": "darse un capricho",
+    "it": "fare una pazzia",
+    "pt": "esbanjar",
+    "tr": "bol keseden harcamak"
+   },
+   "ex": {
+    "en": "We splurged on a designer sofa."
+   }
+  },
+  {
+   "id": "shopping.to-skimp-on",
+   "t": {
+    "en": "to skimp on",
+    "uk": "економити на",
+    "ru": "экономить на",
+    "pl": "oszczędzać na",
+    "de": "sparen an",
+    "fr": "lésiner sur",
+    "es": "escatimar en",
+    "it": "lesinare su",
+    "pt": "economizar em",
+    "tr": "kısmak"
+   },
+   "ex": {
+    "en": "Don't skimp on good shoes."
+   }
+  },
+  {
+   "id": "shopping.conspicuous-consumption",
+   "t": {
+    "en": "conspicuous consumption",
+    "uk": "показне споживання",
+    "ru": "демонстративное потребление",
+    "pl": "konsumpcja na pokaz",
+    "de": "Geltungskonsum",
+    "fr": "consommation ostentatoire",
+    "es": "consumo ostentoso",
+    "it": "consumo vistoso",
+    "pt": "consumo conspícuo",
+    "tr": "gösterişçi tüketim"
+   },
+   "ex": {
+    "en": "Luxury cars are conspicuous consumption."
+   }
+  },
+  {
+   "id": "shopping.to-pay-through-the-nose",
+   "t": {
+    "en": "to pay through the nose",
+    "uk": "платити втридорога",
+    "ru": "платить втридорога",
+    "pl": "przepłacić",
+    "de": "sich dumm und dämlich zahlen",
+    "fr": "payer les yeux de la tête",
+    "es": "pagar un ojo de la cara",
+    "it": "pagare un occhio della testa",
+    "pt": "pagar os olhos da cara",
+    "tr": "dünyanın parasını ödemek"
+   },
+   "ex": {
+    "en": "We paid through the nose for the tickets."
+   }
+  },
+  {
+   "id": "shopping.daylight-robbery",
+   "t": {
+    "en": "daylight robbery",
+    "uk": "грабіж серед білого дня",
+    "ru": "грабёж средь бела дня",
+    "pl": "rozbój w biały dzień",
+    "de": "Nepp",
+    "fr": "c'est du vol",
+    "es": "un robo a mano armada",
+    "it": "una rapina a mano armata",
+    "pt": "um assalto",
+    "tr": "düpedüz soygun"
+   },
+   "ex": {
+    "en": "Those parking fees are daylight robbery."
+   }
+  },
+  {
+   "id": "shopping.planned-obsolescence",
+   "t": {
+    "en": "planned obsolescence",
+    "uk": "запланована застарілість",
+    "ru": "запланированное устаревание",
+    "pl": "planowane postarzanie produktu",
+    "de": "geplante Obsoleszenz",
+    "fr": "obsolescence programmée",
+    "es": "obsolescencia programada",
+    "it": "obsolescenza programmata",
+    "pt": "obsolescência programada",
+    "tr": "planlı eskitme"
+   },
+   "ex": {
+    "en": "Planned obsolescence keeps us buying phones."
+   }
+  },
+  {
+   "id": "shopping.fast-fashion",
+   "t": {
+    "en": "fast fashion",
+    "uk": "швидка мода",
+    "ru": "быстрая мода",
+    "pl": "szybka moda",
+    "de": "Fast Fashion",
+    "fr": "mode jetable",
+    "es": "moda rápida",
+    "it": "fast fashion",
+    "pt": "moda rápida",
+    "tr": "hızlı moda"
+   },
+   "ex": {
+    "en": "Fast fashion harms the environment."
+   }
+  },
+  {
+   "id": "shopping.to-take-in",
+   "t": {
+    "en": "to take in",
+    "uk": "ушити",
+    "ru": "ушить",
+    "pl": "zwęzić",
+    "de": "enger machen",
+    "fr": "reprendre (un vêtement)",
+    "es": "estrechar",
+    "it": "stringere",
+    "pt": "apertar (uma roupa)",
+    "tr": "daraltmak"
+   },
+   "ex": {
+    "en": "The tailor took in the waist."
+   }
+  },
+  {
+   "id": "shopping.off-the-rack",
+   "t": {
+    "en": "off the rack",
+    "uk": "готовий одяг",
+    "ru": "готовая одежда",
+    "pl": "z wieszaka",
+    "de": "von der Stange",
+    "fr": "prêt-à-porter",
+    "es": "de confección",
+    "it": "prêt-à-porter",
+    "pt": "prêt-à-porter",
+    "tr": "hazır giyim"
+   },
+   "ex": {
+    "en": "He buys his suits off the rack."
+   }
+  },
+  {
+   "id": "shopping.garment",
+   "t": {
+    "en": "garment",
+    "uk": "предмет одягу",
+    "ru": "предмет одежды",
+    "pl": "część garderoby",
+    "de": "Kleidungsstück",
+    "fr": "vêtement",
+    "es": "prenda",
+    "it": "capo",
+    "pt": "peça de roupa",
+    "tr": "giysi"
+   },
+   "ex": {
+    "en": "Each garment is inspected by hand."
+   }
+  },
+  {
+   "id": "shopping.shoplifting",
+   "t": {
+    "en": "shoplifting",
+    "uk": "крадіжка в магазині",
+    "ru": "магазинная кража",
+    "pl": "kradzież sklepowa",
+    "de": "Ladendiebstahl",
+    "fr": "vol à l'étalage",
+    "es": "hurto en tiendas",
+    "it": "taccheggio",
+    "pt": "furto em loja",
+    "tr": "mağaza hırsızlığı"
+   },
+   "ex": {
+    "en": "Shoplifting costs retailers billions."
+   }
+  },
+  {
+   "id": "shopping.to-recoup",
+   "t": {
+    "en": "to recoup",
+    "uk": "повернути витрати",
+    "ru": "окупить затраты",
+    "pl": "odzyskać koszty",
+    "de": "wieder hereinholen",
+    "fr": "récupérer ses frais",
+    "es": "recuperar lo invertido",
+    "it": "recuperare le spese",
+    "pt": "recuperar o investimento",
+    "tr": "masrafı geri kazanmak"
+   },
+   "ex": {
+    "en": "They recouped the cost within a year."
+   }
+  },
+  {
+   "id": "shopping.surcharge",
+   "t": {
+    "en": "surcharge",
+    "uk": "доплата",
+    "ru": "надбавка",
+    "pl": "dopłata",
+    "de": "Zuschlag",
+    "fr": "supplément",
+    "es": "recargo",
+    "it": "sovrapprezzo",
+    "pt": "sobretaxa",
+    "tr": "ek ücret"
+   },
+   "ex": {
+    "en": "There is a surcharge for card payments."
+   }
+  },
+  {
+   "id": "shopping.itemised-receipt",
+   "t": {
+    "en": "itemised receipt",
+    "uk": "детальний чек",
+    "ru": "детализированный чек",
+    "pl": "paragon z wyszczególnieniem",
+    "de": "Einzelaufstellung",
+    "fr": "reçu détaillé",
+    "es": "recibo detallado",
+    "it": "ricevuta dettagliata",
+    "pt": "recibo detalhado",
+    "tr": "ayrıntılı fiş"
+   },
+   "ex": {
+    "en": "Could I have an itemised receipt?"
+   }
+  },
+  {
+   "id": "shopping.cooling-off-period",
+   "t": {
+    "en": "cooling-off period",
+    "uk": "період на відмову від покупки",
+    "ru": "период охлаждения",
+    "pl": "okres na odstąpienie od umowy",
+    "de": "Widerrufsfrist",
+    "fr": "délai de rétractation",
+    "es": "periodo de desistimiento",
+    "it": "periodo di ripensamento",
+    "pt": "prazo de arrependimento",
+    "tr": "cayma süresi"
+   },
+   "ex": {
+    "en": "The cooling-off period is fourteen days."
+   }
+  },
+  {
+   "id": "shopping.restocking-fee",
+   "t": {
+    "en": "restocking fee",
+    "uk": "плата за повернення на склад",
+    "ru": "плата за возврат на склад",
+    "pl": "opłata za zwrot towaru",
+    "de": "Wiedereinlagerungsgebühr",
+    "fr": "frais de remise en stock",
+    "es": "cargo por reposición",
+    "it": "spese di restocking",
+    "pt": "taxa de reposição",
+    "tr": "stoğa iade ücreti"
+   },
+   "ex": {
+    "en": "Returns carry a restocking fee."
+   }
+  },
+  {
+   "id": "shopping.knock-off",
+   "t": {
+    "en": "knock-off",
+    "uk": "дешева підробка",
+    "ru": "дешёвая подделка",
+    "pl": "tania podróbka",
+    "de": "billige Kopie",
+    "fr": "copie bon marché",
+    "es": "imitación barata",
+    "it": "tarocco",
+    "pt": "imitação barata",
+    "tr": "çakma"
+   },
+   "ex": {
+    "en": "The market sells designer knock-offs."
+   }
+  },
+  {
+   "id": "shopping.to-snap-up",
+   "t": {
+    "en": "to snap up",
+    "uk": "розхапати",
+    "ru": "расхватать",
+    "pl": "rozchwytać",
+    "de": "sich schnappen",
+    "fr": "sauter sur",
+    "es": "pillar",
+    "it": "accaparrarsi",
+    "pt": "arrematar",
+    "tr": "kapışmak"
+   },
+   "ex": {
+    "en": "Shoppers snapped up the bargains quickly."
+   }
+  },
+  {
+   "id": "shopping.penny-pincher",
+   "t": {
+    "en": "penny-pincher",
+    "uk": "скнара",
+    "ru": "скряга",
+    "pl": "skąpiec",
+    "de": "Pfennigfuchser",
+    "fr": "radin",
+    "es": "tacaño",
+    "it": "taccagno",
+    "pt": "pão-duro",
+    "tr": "cimri"
+   },
+   "ex": {
+    "en": "My uncle is a real penny-pincher."
+   }
+  },
+  {
+   "id": "shopping.to-shell-out",
+   "t": {
+    "en": "to shell out",
+    "uk": "викласти (гроші)",
+    "ru": "выложить (деньги)",
+    "pl": "wybulić",
+    "de": "blechen",
+    "fr": "casquer",
+    "es": "desembolsar",
+    "it": "sborsare",
+    "pt": "desembolsar",
+    "tr": "para bayılmak"
+   },
+   "ex": {
+    "en": "I shelled out 300 euros for the jacket."
+   }
+  },
+  {
+   "id": "shopping.sticker-shock",
+   "t": {
+    "en": "sticker shock",
+    "uk": "шок від ціни",
+    "ru": "шок от цены",
+    "pl": "szok cenowy",
+    "de": "Preisschock",
+    "fr": "choc du prix",
+    "es": "shock por el precio",
+    "it": "shock da prezzo",
+    "pt": "susto com o preço",
+    "tr": "fiyat şoku"
+   },
+   "ex": {
+    "en": "I got sticker shock at the dealership."
+   }
+  }
+ ]
+}

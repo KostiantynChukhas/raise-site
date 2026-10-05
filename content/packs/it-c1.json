@@ -1,0 +1,530 @@
+{
+ "id": "it-c1",
+ "topic": "it",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "it.to-deprecate",
+   "t": {
+    "en": "to deprecate",
+    "uk": "оголосити застарілим",
+    "ru": "объявить устаревшим",
+    "pl": "wycofywać",
+    "de": "als veraltet markieren",
+    "fr": "rendre obsolète",
+    "es": "dejar obsoleto",
+    "it": "deprecare",
+    "pt": "descontinuar",
+    "tr": "kullanımdan kaldırmak"
+   },
+   "ex": {
+    "en": "The old endpoint is deprecated."
+   }
+  },
+  {
+   "id": "it.to-refactor",
+   "t": {
+    "en": "to refactor",
+    "uk": "рефакторити",
+    "ru": "рефакторить",
+    "pl": "refaktoryzować",
+    "de": "refaktorisieren",
+    "fr": "refactoriser",
+    "es": "refactorizar",
+    "it": "rifattorizzare",
+    "pt": "refatorar",
+    "tr": "yeniden yapılandırmak"
+   },
+   "ex": {
+    "en": "We refactored the billing module."
+   }
+  },
+  {
+   "id": "it.single-point-of-failure",
+   "t": {
+    "en": "single point of failure",
+    "uk": "єдина точка відмови",
+    "ru": "единая точка отказа",
+    "pl": "pojedynczy punkt awarii",
+    "de": "Single Point of Failure",
+    "fr": "point de défaillance unique",
+    "es": "punto único de fallo",
+    "it": "singolo punto di guasto",
+    "pt": "ponto único de falha",
+    "tr": "tek hata noktası"
+   },
+   "ex": {
+    "en": "That server is a single point of failure."
+   }
+  },
+  {
+   "id": "it.vendor-lock-in",
+   "t": {
+    "en": "vendor lock-in",
+    "uk": "прив'язка до постачальника",
+    "ru": "привязка к поставщику",
+    "pl": "uzależnienie od dostawcy",
+    "de": "Anbieterabhängigkeit",
+    "fr": "dépendance à un fournisseur",
+    "es": "dependencia del proveedor",
+    "it": "vincolo al fornitore",
+    "pt": "dependência de fornecedor",
+    "tr": "tedarikçi bağımlılığı"
+   },
+   "ex": {
+    "en": "Avoid vendor lock-in where possible."
+   }
+  },
+  {
+   "id": "it.to-sunset",
+   "t": {
+    "en": "to sunset",
+    "uk": "припинити підтримку",
+    "ru": "закрыть",
+    "pl": "wygaszać",
+    "de": "einstellen",
+    "fr": "mettre fin à",
+    "es": "retirar",
+    "it": "dismettere",
+    "pt": "descontinuar",
+    "tr": "sonlandırmak"
+   },
+   "ex": {
+    "en": "We will sunset the app in June."
+   }
+  },
+  {
+   "id": "it.resilience",
+   "t": {
+    "en": "resilience",
+    "uk": "стійкість",
+    "ru": "отказоустойчивость",
+    "pl": "odporność",
+    "de": "Ausfallsicherheit",
+    "fr": "résilience",
+    "es": "resiliencia",
+    "it": "resilienza",
+    "pt": "resiliência",
+    "tr": "dayanıklılık"
+   },
+   "ex": {
+    "en": "Resilience matters more than speed."
+   }
+  },
+  {
+   "id": "it.observability",
+   "t": {
+    "en": "observability",
+    "uk": "спостережуваність",
+    "ru": "наблюдаемость",
+    "pl": "obserwowalność",
+    "de": "Beobachtbarkeit",
+    "fr": "observabilité",
+    "es": "observabilidad",
+    "it": "osservabilità",
+    "pt": "observabilidade",
+    "tr": "gözlemlenebilirlik"
+   },
+   "ex": {
+    "en": "Better observability shortens incidents."
+   }
+  },
+  {
+   "id": "it.throughput",
+   "t": {
+    "en": "throughput",
+    "uk": "пропускна спроможність",
+    "ru": "производительность",
+    "pl": "przepustowość systemu",
+    "de": "Durchsatz",
+    "fr": "débit",
+    "es": "rendimiento",
+    "it": "velocità effettiva",
+    "pt": "vazão",
+    "tr": "iş hacmi"
+   },
+   "ex": {
+    "en": "Throughput doubled after the upgrade."
+   }
+  },
+  {
+   "id": "it.redundancy",
+   "t": {
+    "en": "redundancy",
+    "uk": "резервування",
+    "ru": "резервирование",
+    "pl": "nadmiarowość",
+    "de": "Redundanz",
+    "fr": "redondance",
+    "es": "redundancia",
+    "it": "ridondanza",
+    "pt": "redundância",
+    "tr": "yedeklilik"
+   },
+   "ex": {
+    "en": "We added redundancy to the network."
+   }
+  },
+  {
+   "id": "it.failover",
+   "t": {
+    "en": "failover",
+    "uk": "аварійне перемикання",
+    "ru": "аварийное переключение",
+    "pl": "przełączanie awaryjne",
+    "de": "Failover",
+    "fr": "basculement",
+    "es": "conmutación por error",
+    "it": "failover",
+    "pt": "failover",
+    "tr": "yük devretme"
+   },
+   "ex": {
+    "en": "Failover kicked in within seconds."
+   }
+  },
+  {
+   "id": "it.to-provision",
+   "t": {
+    "en": "to provision",
+    "uk": "виділити ресурси",
+    "ru": "выделить ресурсы",
+    "pl": "udostępnić zasoby",
+    "de": "bereitstellen",
+    "fr": "provisionner",
+    "es": "aprovisionar",
+    "it": "predisporre",
+    "pt": "provisionar",
+    "tr": "sağlamak"
+   },
+   "ex": {
+    "en": "Provision two more servers for testing."
+   }
+  },
+  {
+   "id": "it.compliance",
+   "t": {
+    "en": "compliance",
+    "uk": "відповідність вимогам",
+    "ru": "соответствие требованиям",
+    "pl": "zgodność z przepisami",
+    "de": "Compliance",
+    "fr": "conformité",
+    "es": "cumplimiento normativo",
+    "it": "conformità",
+    "pt": "conformidade",
+    "tr": "uyumluluk"
+   },
+   "ex": {
+    "en": "Compliance audits take weeks."
+   }
+  },
+  {
+   "id": "it.postmortem",
+   "t": {
+    "en": "postmortem",
+    "uk": "розбір інциденту",
+    "ru": "разбор инцидента",
+    "pl": "analiza po incydencie",
+    "de": "Nachbesprechung",
+    "fr": "analyse post-incident",
+    "es": "análisis post mortem",
+    "it": "analisi post mortem",
+    "pt": "post-mortem",
+    "tr": "olay sonrası analiz"
+   },
+   "ex": {
+    "en": "The postmortem is blameless."
+   }
+  },
+  {
+   "id": "it.root-cause",
+   "t": {
+    "en": "root cause",
+    "uk": "першопричина",
+    "ru": "первопричина",
+    "pl": "przyczyna źródłowa",
+    "de": "Grundursache",
+    "fr": "cause profonde",
+    "es": "causa raíz",
+    "it": "causa principale",
+    "pt": "causa raiz",
+    "tr": "kök neden"
+   },
+   "ex": {
+    "en": "We found the root cause yesterday."
+   }
+  },
+  {
+   "id": "it.to-mitigate",
+   "t": {
+    "en": "to mitigate",
+    "uk": "пом'якшити",
+    "ru": "смягчить",
+    "pl": "ograniczyć",
+    "de": "abmildern",
+    "fr": "atténuer",
+    "es": "mitigar",
+    "it": "mitigare",
+    "pt": "mitigar",
+    "tr": "hafifletmek"
+   },
+   "ex": {
+    "en": "We mitigated the risk with backups."
+   }
+  },
+  {
+   "id": "it.edge-case",
+   "t": {
+    "en": "edge case",
+    "uk": "граничний випадок",
+    "ru": "крайний случай",
+    "pl": "przypadek brzegowy",
+    "de": "Grenzfall",
+    "fr": "cas limite",
+    "es": "caso límite",
+    "it": "caso limite",
+    "pt": "caso extremo",
+    "tr": "uç durum"
+   },
+   "ex": {
+    "en": "That is an edge case we missed."
+   }
+  },
+  {
+   "id": "it.hotfix",
+   "t": {
+    "en": "hotfix",
+    "uk": "термінове виправлення",
+    "ru": "хотфикс",
+    "pl": "poprawka awaryjna",
+    "de": "Hotfix",
+    "fr": "correctif urgent",
+    "es": "parche urgente",
+    "it": "hotfix",
+    "pt": "hotfix",
+    "tr": "acil düzeltme"
+   },
+   "ex": {
+    "en": "We pushed a hotfix overnight."
+   }
+  },
+  {
+   "id": "it.regression",
+   "t": {
+    "en": "regression",
+    "uk": "регресія",
+    "ru": "регрессия",
+    "pl": "regresja",
+    "de": "Regression",
+    "fr": "régression",
+    "es": "regresión",
+    "it": "regressione",
+    "pt": "regressão",
+    "tr": "gerileme"
+   },
+   "ex": {
+    "en": "The update caused a regression."
+   }
+  },
+  {
+   "id": "it.churn",
+   "t": {
+    "en": "churn",
+    "uk": "відтік клієнтів",
+    "ru": "отток клиентов",
+    "pl": "odpływ klientów",
+    "de": "Abwanderung",
+    "fr": "attrition",
+    "es": "tasa de cancelación",
+    "it": "abbandono",
+    "pt": "churn",
+    "tr": "müşteri kaybı"
+   },
+   "ex": {
+    "en": "Churn dropped after the redesign."
+   }
+  },
+  {
+   "id": "it.to-triage",
+   "t": {
+    "en": "to triage",
+    "uk": "сортувати за пріоритетом",
+    "ru": "триажировать",
+    "pl": "ustalać priorytety",
+    "de": "sichten",
+    "fr": "trier",
+    "es": "clasificar",
+    "it": "smistare",
+    "pt": "triar",
+    "tr": "önceliğe göre ayırmak"
+   },
+   "ex": {
+    "en": "We triage bugs every morning."
+   }
+  },
+  {
+   "id": "it.to-decouple",
+   "t": {
+    "en": "to decouple",
+    "uk": "роз'єднати",
+    "ru": "разделить",
+    "pl": "rozdzielić",
+    "de": "entkoppeln",
+    "fr": "découpler",
+    "es": "desacoplar",
+    "it": "disaccoppiare",
+    "pt": "desacoplar",
+    "tr": "ayrıştırmak"
+   },
+   "ex": {
+    "en": "Decouple the services for easier scaling."
+   }
+  },
+  {
+   "id": "it.interoperability",
+   "t": {
+    "en": "interoperability",
+    "uk": "сумісність",
+    "ru": "совместимость",
+    "pl": "interoperacyjność",
+    "de": "Interoperabilität",
+    "fr": "interopérabilité",
+    "es": "interoperabilidad",
+    "it": "interoperabilità",
+    "pt": "interoperabilidade",
+    "tr": "birlikte çalışabilirlik"
+   },
+   "ex": {
+    "en": "Interoperability with legacy tools is key."
+   }
+  },
+  {
+   "id": "it.hardening",
+   "t": {
+    "en": "hardening",
+    "uk": "посилення захисту",
+    "ru": "усиление защиты",
+    "pl": "utwardzanie",
+    "de": "Härtung",
+    "fr": "durcissement",
+    "es": "endurecimiento",
+    "it": "irrobustimento",
+    "pt": "fortalecimento",
+    "tr": "sıkılaştırma"
+   },
+   "ex": {
+    "en": "Server hardening is on the checklist."
+   }
+  },
+  {
+   "id": "it.to-future-proof",
+   "t": {
+    "en": "to future-proof",
+    "uk": "зробити перспективним",
+    "ru": "защитить от устаревания",
+    "pl": "zabezpieczyć na przyszłość",
+    "de": "zukunftssicher machen",
+    "fr": "pérenniser",
+    "es": "preparar para el futuro",
+    "it": "rendere a prova di futuro",
+    "pt": "preparar para o futuro",
+    "tr": "geleceğe hazırlamak"
+   },
+   "ex": {
+    "en": "We want to future-proof the platform."
+   }
+  },
+  {
+   "id": "it.greenfield",
+   "t": {
+    "en": "greenfield",
+    "uk": "з нуля",
+    "ru": "с нуля",
+    "pl": "od zera",
+    "de": "auf der grünen Wiese",
+    "fr": "à partir de zéro",
+    "es": "desde cero",
+    "it": "da zero",
+    "pt": "do zero",
+    "tr": "sıfırdan"
+   },
+   "ex": {
+    "en": "It is a greenfield project."
+   }
+  },
+  {
+   "id": "it.to-pivot",
+   "t": {
+    "en": "to pivot",
+    "uk": "змінити стратегію",
+    "ru": "сменить стратегию",
+    "pl": "zmienić strategię",
+    "de": "umschwenken",
+    "fr": "pivoter",
+    "es": "pivotar",
+    "it": "cambiare rotta",
+    "pt": "pivotar",
+    "tr": "yön değiştirmek"
+   },
+   "ex": {
+    "en": "The startup pivoted to enterprise clients."
+   }
+  },
+  {
+   "id": "it.runway",
+   "t": {
+    "en": "runway",
+    "uk": "запас коштів",
+    "ru": "запас денег",
+    "pl": "zapas gotówki",
+    "de": "finanzielle Reichweite",
+    "fr": "réserve de trésorerie",
+    "es": "margen de liquidez",
+    "it": "autonomia finanziaria",
+    "pt": "fôlego financeiro",
+    "tr": "nakit ömrü"
+   },
+   "ex": {
+    "en": "We have twelve months of runway."
+   }
+  },
+  {
+   "id": "it.to-dogfood",
+   "t": {
+    "en": "to dogfood",
+    "uk": "тестувати на собі",
+    "ru": "тестировать на себе",
+    "pl": "testować na sobie",
+    "de": "selbst nutzen",
+    "fr": "tester en interne",
+    "es": "usar internamente",
+    "it": "usare internamente",
+    "pt": "usar internamente",
+    "tr": "kendi ürününü kullanmak"
+   },
+   "ex": {
+    "en": "We dogfood every release internally."
+   }
+  },
+  {
+   "id": "it.attack-surface",
+   "t": {
+    "en": "attack surface",
+    "uk": "поверхня атаки",
+    "ru": "поверхность атаки",
+    "pl": "powierzchnia ataku",
+    "de": "Angriffsfläche",
+    "fr": "surface d'attaque",
+    "es": "superficie de ataque",
+    "it": "superficie di attacco",
+    "pt": "superfície de ataque",
+    "tr": "saldırı yüzeyi"
+   },
+   "ex": {
+    "en": "Fewer services means a smaller attack surface."
+   }
+  }
+ ]
+}

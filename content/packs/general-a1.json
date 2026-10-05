@@ -1,0 +1,548 @@
+{
+ "id": "general-a1",
+ "topic": "general",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "general.today",
+   "t": {
+    "en": "today",
+    "uk": "сьогодні",
+    "ru": "сегодня",
+    "pl": "dzisiaj",
+    "de": "heute",
+    "fr": "aujourd'hui",
+    "es": "hoy",
+    "it": "oggi",
+    "pt": "hoje",
+    "tr": "bugün"
+   },
+   "ex": {
+    "en": "Today is Monday."
+   }
+  },
+  {
+   "id": "general.tomorrow",
+   "t": {
+    "en": "tomorrow",
+    "uk": "завтра",
+    "ru": "завтра",
+    "pl": "jutro",
+    "de": "morgen",
+    "fr": "demain",
+    "es": "mañana",
+    "it": "domani",
+    "pt": "amanhã",
+    "tr": "yarın"
+   },
+   "ex": {
+    "en": "See you tomorrow."
+   }
+  },
+  {
+   "id": "general.yesterday",
+   "t": {
+    "en": "yesterday",
+    "uk": "вчора",
+    "ru": "вчера",
+    "pl": "wczoraj",
+    "de": "gestern",
+    "fr": "hier",
+    "es": "ayer",
+    "it": "ieri",
+    "pt": "ontem",
+    "tr": "dün"
+   },
+   "ex": {
+    "en": "It rained yesterday."
+   }
+  },
+  {
+   "id": "general.now",
+   "t": {
+    "en": "now",
+    "uk": "зараз",
+    "ru": "сейчас",
+    "pl": "teraz",
+    "de": "jetzt",
+    "fr": "maintenant",
+    "es": "ahora",
+    "it": "adesso",
+    "pt": "agora",
+    "tr": "şimdi"
+   },
+   "ex": {
+    "en": "I am busy now."
+   }
+  },
+  {
+   "id": "general.morning",
+   "t": {
+    "en": "morning",
+    "uk": "ранок",
+    "ru": "утро",
+    "pl": "rano",
+    "de": "Morgen",
+    "fr": "matin",
+    "es": "mañana",
+    "it": "mattina",
+    "pt": "manhã",
+    "tr": "sabah"
+   },
+   "ex": {
+    "en": "I drink coffee in the morning."
+   }
+  },
+  {
+   "id": "general.afternoon",
+   "t": {
+    "en": "afternoon",
+    "uk": "після обіду",
+    "ru": "после обеда",
+    "pl": "popołudnie",
+    "de": "Nachmittag",
+    "fr": "après-midi",
+    "es": "tarde",
+    "it": "pomeriggio",
+    "pt": "tarde",
+    "tr": "öğleden sonra"
+   },
+   "ex": {
+    "en": "The meeting is in the afternoon."
+   }
+  },
+  {
+   "id": "general.night",
+   "t": {
+    "en": "night",
+    "uk": "ніч",
+    "ru": "ночь",
+    "pl": "noc",
+    "de": "Nacht",
+    "fr": "nuit",
+    "es": "noche",
+    "it": "notte",
+    "pt": "noite",
+    "tr": "gece"
+   },
+   "ex": {
+    "en": "Good night, sleep well."
+   }
+  },
+  {
+   "id": "general.week",
+   "t": {
+    "en": "week",
+    "uk": "тиждень",
+    "ru": "неделя",
+    "pl": "tydzień",
+    "de": "Woche",
+    "fr": "semaine",
+    "es": "semana",
+    "it": "settimana",
+    "pt": "semana",
+    "tr": "hafta"
+   },
+   "ex": {
+    "en": "I work five days a week."
+   }
+  },
+  {
+   "id": "general.hour",
+   "t": {
+    "en": "hour",
+    "uk": "година",
+    "ru": "час",
+    "pl": "godzina",
+    "de": "Stunde",
+    "fr": "heure",
+    "es": "hora",
+    "it": "ora",
+    "pt": "hora",
+    "tr": "saat"
+   },
+   "ex": {
+    "en": "The film is two hours long."
+   }
+  },
+  {
+   "id": "general.to-go",
+   "t": {
+    "en": "to go",
+    "uk": "йти",
+    "ru": "идти",
+    "pl": "iść",
+    "de": "gehen",
+    "fr": "aller",
+    "es": "ir",
+    "it": "andare",
+    "pt": "ir",
+    "tr": "gitmek"
+   },
+   "ex": {
+    "en": "I go to school by bus."
+   }
+  },
+  {
+   "id": "general.to-want",
+   "t": {
+    "en": "to want",
+    "uk": "хотіти",
+    "ru": "хотеть",
+    "pl": "chcieć",
+    "de": "wollen",
+    "fr": "vouloir",
+    "es": "querer",
+    "it": "volere",
+    "pt": "querer",
+    "tr": "istemek"
+   },
+   "ex": {
+    "en": "I want a cup of tea."
+   }
+  },
+  {
+   "id": "general.to-have",
+   "t": {
+    "en": "to have",
+    "uk": "мати",
+    "ru": "иметь",
+    "pl": "mieć",
+    "de": "haben",
+    "fr": "avoir",
+    "es": "tener",
+    "it": "avere",
+    "pt": "ter",
+    "tr": "sahip olmak"
+   },
+   "ex": {
+    "en": "I have two brothers."
+   }
+  },
+  {
+   "id": "general.day",
+   "t": {
+    "en": "day",
+    "uk": "день",
+    "ru": "день",
+    "pl": "dzień",
+    "de": "Tag",
+    "fr": "jour",
+    "es": "día",
+    "it": "giorno",
+    "pt": "dia",
+    "tr": "gün"
+   },
+   "ex": {
+    "en": "It is a beautiful day."
+   }
+  },
+  {
+   "id": "general.month",
+   "t": {
+    "en": "month",
+    "uk": "місяць",
+    "ru": "месяц",
+    "pl": "miesiąc",
+    "de": "Monat",
+    "fr": "mois",
+    "es": "mes",
+    "it": "mese",
+    "pt": "mês",
+    "tr": "ay"
+   },
+   "ex": {
+    "en": "I will come next month."
+   }
+  },
+  {
+   "id": "general.year",
+   "t": {
+    "en": "year",
+    "uk": "рік",
+    "ru": "год",
+    "pl": "rok",
+    "de": "Jahr",
+    "fr": "année",
+    "es": "año",
+    "it": "anno",
+    "pt": "ano",
+    "tr": "yıl"
+   },
+   "ex": {
+    "en": "Happy new year!"
+   }
+  },
+  {
+   "id": "general.evening",
+   "t": {
+    "en": "evening",
+    "uk": "вечір",
+    "ru": "вечер",
+    "pl": "wieczór",
+    "de": "Abend",
+    "fr": "soir",
+    "es": "tarde",
+    "it": "sera",
+    "pt": "noite",
+    "tr": "akşam"
+   },
+   "ex": {
+    "en": "See you this evening."
+   }
+  },
+  {
+   "id": "general.minute",
+   "t": {
+    "en": "minute",
+    "uk": "хвилина",
+    "ru": "минута",
+    "pl": "minuta",
+    "de": "Minute",
+    "fr": "minute",
+    "es": "minuto",
+    "it": "minuto",
+    "pt": "minuto",
+    "tr": "dakika"
+   },
+   "ex": {
+    "en": "Wait a minute, please."
+   }
+  },
+  {
+   "id": "general.time",
+   "t": {
+    "en": "time",
+    "uk": "час",
+    "ru": "время",
+    "pl": "czas",
+    "de": "Zeit",
+    "fr": "temps",
+    "es": "tiempo",
+    "it": "tempo",
+    "pt": "tempo",
+    "tr": "zaman"
+   },
+   "ex": {
+    "en": "I don't have time today."
+   }
+  },
+  {
+   "id": "general.here",
+   "t": {
+    "en": "here",
+    "uk": "тут",
+    "ru": "здесь",
+    "pl": "tutaj",
+    "de": "hier",
+    "fr": "ici",
+    "es": "aquí",
+    "it": "qui",
+    "pt": "aqui",
+    "tr": "burada"
+   },
+   "ex": {
+    "en": "Come here, please."
+   }
+  },
+  {
+   "id": "general.there",
+   "t": {
+    "en": "there",
+    "uk": "там",
+    "ru": "там",
+    "pl": "tam",
+    "de": "dort",
+    "fr": "là",
+    "es": "allí",
+    "it": "lì",
+    "pt": "lá",
+    "tr": "orada"
+   },
+   "ex": {
+    "en": "The bus stop is over there."
+   }
+  },
+  {
+   "id": "general.to-know",
+   "t": {
+    "en": "to know",
+    "uk": "знати",
+    "ru": "знать",
+    "pl": "wiedzieć",
+    "de": "wissen",
+    "fr": "savoir",
+    "es": "saber",
+    "it": "sapere",
+    "pt": "saber",
+    "tr": "bilmek"
+   },
+   "ex": {
+    "en": "I don't know."
+   }
+  },
+  {
+   "id": "general.to-see",
+   "t": {
+    "en": "to see",
+    "uk": "бачити",
+    "ru": "видеть",
+    "pl": "widzieć",
+    "de": "sehen",
+    "fr": "voir",
+    "es": "ver",
+    "it": "vedere",
+    "pt": "ver",
+    "tr": "görmek"
+   },
+   "ex": {
+    "en": "I can see the sea."
+   }
+  },
+  {
+   "id": "general.to-come",
+   "t": {
+    "en": "to come",
+    "uk": "приходити",
+    "ru": "приходить",
+    "pl": "przychodzić",
+    "de": "kommen",
+    "fr": "venir",
+    "es": "venir",
+    "it": "venire",
+    "pt": "vir",
+    "tr": "gelmek"
+   },
+   "ex": {
+    "en": "Come to my house tonight."
+   }
+  },
+  {
+   "id": "general.to-speak",
+   "t": {
+    "en": "to speak",
+    "uk": "говорити",
+    "ru": "говорить",
+    "pl": "mówić",
+    "de": "sprechen",
+    "fr": "parler",
+    "es": "hablar",
+    "it": "parlare",
+    "pt": "falar",
+    "tr": "konuşmak"
+   },
+   "ex": {
+    "en": "Do you speak English?"
+   }
+  },
+  {
+   "id": "general.to-understand",
+   "t": {
+    "en": "to understand",
+    "uk": "розуміти",
+    "ru": "понимать",
+    "pl": "rozumieć",
+    "de": "verstehen",
+    "fr": "comprendre",
+    "es": "entender",
+    "it": "capire",
+    "pt": "entender",
+    "tr": "anlamak"
+   },
+   "ex": {
+    "en": "I don't understand."
+   }
+  },
+  {
+   "id": "general.to-do",
+   "t": {
+    "en": "to do",
+    "uk": "робити",
+    "ru": "делать",
+    "pl": "robić",
+    "de": "machen",
+    "fr": "faire",
+    "es": "hacer",
+    "it": "fare",
+    "pt": "fazer",
+    "tr": "yapmak"
+   },
+   "ex": {
+    "en": "What do you do on Sundays?"
+   }
+  },
+  {
+   "id": "general.to-say",
+   "t": {
+    "en": "to say",
+    "uk": "казати",
+    "ru": "говорить (сказать)",
+    "pl": "powiedzieć",
+    "de": "sagen",
+    "fr": "dire",
+    "es": "decir",
+    "it": "dire",
+    "pt": "dizer",
+    "tr": "söylemek"
+   },
+   "ex": {
+    "en": "What did you say?"
+   }
+  },
+  {
+   "id": "general.maybe",
+   "t": {
+    "en": "maybe",
+    "uk": "можливо",
+    "ru": "может быть",
+    "pl": "może",
+    "de": "vielleicht",
+    "fr": "peut-être",
+    "es": "quizás",
+    "it": "forse",
+    "pt": "talvez",
+    "tr": "belki"
+   },
+   "ex": {
+    "en": "Maybe tomorrow."
+   }
+  },
+  {
+   "id": "general.very",
+   "t": {
+    "en": "very",
+    "uk": "дуже",
+    "ru": "очень",
+    "pl": "bardzo",
+    "de": "sehr",
+    "fr": "très",
+    "es": "muy",
+    "it": "molto",
+    "pt": "muito",
+    "tr": "çok"
+   },
+   "ex": {
+    "en": "This is very good."
+   }
+  },
+  {
+   "id": "general.again",
+   "t": {
+    "en": "again",
+    "uk": "знову",
+    "ru": "снова",
+    "pl": "znowu",
+    "de": "wieder",
+    "fr": "encore",
+    "es": "otra vez",
+    "it": "di nuovo",
+    "pt": "de novo",
+    "tr": "tekrar"
+   },
+   "ex": {
+    "en": "Say it again, please."
+   }
+  }
+ ]
+}

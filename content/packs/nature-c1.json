@@ -1,0 +1,548 @@
+{
+ "id": "nature-c1",
+ "topic": "nature",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "nature.drizzle",
+   "t": {
+    "en": "drizzle",
+    "uk": "мряка",
+    "ru": "морось",
+    "pl": "mżawka",
+    "de": "Nieselregen",
+    "fr": "bruine",
+    "es": "llovizna",
+    "it": "pioggerella",
+    "pt": "garoa",
+    "tr": "çisenti"
+   },
+   "ex": {
+    "en": "A light drizzle fell all morning."
+   }
+  },
+  {
+   "id": "nature.downpour",
+   "t": {
+    "en": "downpour",
+    "uk": "злива",
+    "ru": "ливень",
+    "pl": "ulewa",
+    "de": "Wolkenbruch",
+    "fr": "averse",
+    "es": "aguacero",
+    "it": "acquazzone",
+    "pt": "aguaceiro",
+    "tr": "sağanak"
+   },
+   "ex": {
+    "en": "We got caught in a sudden downpour."
+   }
+  },
+  {
+   "id": "nature.sleet",
+   "t": {
+    "en": "sleet",
+    "uk": "мокрий сніг",
+    "ru": "мокрый снег",
+    "pl": "deszcz ze śniegiem",
+    "de": "Schneeregen",
+    "fr": "neige fondue",
+    "es": "aguanieve",
+    "it": "nevischio",
+    "pt": "chuva com neve",
+    "tr": "sulu kar"
+   },
+   "ex": {
+    "en": "Sleet made the pavements slippery."
+   }
+  },
+  {
+   "id": "nature.blizzard",
+   "t": {
+    "en": "blizzard",
+    "uk": "хуртовина",
+    "ru": "метель",
+    "pl": "zamieć",
+    "de": "Schneesturm",
+    "fr": "blizzard",
+    "es": "ventisca",
+    "it": "bufera di neve",
+    "pt": "nevasca",
+    "tr": "kar fırtınası"
+   },
+   "ex": {
+    "en": "The blizzard closed the mountain pass."
+   }
+  },
+  {
+   "id": "nature.overcast",
+   "t": {
+    "en": "overcast",
+    "uk": "похмуро",
+    "ru": "пасмурно",
+    "pl": "pochmurnie",
+    "de": "bedeckt",
+    "fr": "couvert",
+    "es": "cubierto",
+    "it": "coperto",
+    "pt": "encoberto",
+    "tr": "kapalı"
+   },
+   "ex": {
+    "en": "The sky stayed overcast all day."
+   }
+  },
+  {
+   "id": "nature.muggy",
+   "t": {
+    "en": "muggy",
+    "uk": "задушливо",
+    "ru": "душно",
+    "pl": "parno",
+    "de": "schwül",
+    "fr": "lourd",
+    "es": "bochornoso",
+    "it": "afoso",
+    "pt": "abafado",
+    "tr": "bunaltıcı"
+   },
+   "ex": {
+    "en": "It is muggy before the storm."
+   }
+  },
+  {
+   "id": "nature.dew",
+   "t": {
+    "en": "dew",
+    "uk": "роса",
+    "ru": "роса",
+    "pl": "rosa",
+    "de": "Tau",
+    "fr": "rosée",
+    "es": "rocío",
+    "it": "rugiada",
+    "pt": "orvalho",
+    "tr": "çiy"
+   },
+   "ex": {
+    "en": "The grass was wet with dew."
+   }
+  },
+  {
+   "id": "nature.mist",
+   "t": {
+    "en": "mist",
+    "uk": "імла",
+    "ru": "дымка",
+    "pl": "mgiełka",
+    "de": "Dunst",
+    "fr": "brume",
+    "es": "bruma",
+    "it": "foschia",
+    "pt": "névoa",
+    "tr": "pus"
+   },
+   "ex": {
+    "en": "A thin mist hung over the lake."
+   }
+  },
+  {
+   "id": "nature.thaw",
+   "t": {
+    "en": "thaw",
+    "uk": "відлига",
+    "ru": "оттепель",
+    "pl": "odwilż",
+    "de": "Tauwetter",
+    "fr": "dégel",
+    "es": "deshielo",
+    "it": "disgelo",
+    "pt": "degelo",
+    "tr": "çözülme"
+   },
+   "ex": {
+    "en": "The thaw turned the roads to mud."
+   }
+  },
+  {
+   "id": "nature.avalanche",
+   "t": {
+    "en": "avalanche",
+    "uk": "лавина",
+    "ru": "лавина",
+    "pl": "lawina",
+    "de": "Lawine",
+    "fr": "avalanche",
+    "es": "avalancha",
+    "it": "valanga",
+    "pt": "avalanche",
+    "tr": "çığ"
+   },
+   "ex": {
+    "en": "An avalanche buried the ski trail."
+   }
+  },
+  {
+   "id": "nature.landslide",
+   "t": {
+    "en": "landslide",
+    "uk": "зсув",
+    "ru": "оползень",
+    "pl": "osuwisko",
+    "de": "Erdrutsch",
+    "fr": "glissement de terrain",
+    "es": "deslizamiento de tierra",
+    "it": "frana",
+    "pt": "deslizamento de terra",
+    "tr": "toprak kayması"
+   },
+   "ex": {
+    "en": "Heavy rain triggered a landslide."
+   }
+  },
+  {
+   "id": "nature.monsoon",
+   "t": {
+    "en": "monsoon",
+    "uk": "мусон",
+    "ru": "муссон",
+    "pl": "monsun",
+    "de": "Monsun",
+    "fr": "mousson",
+    "es": "monzón",
+    "it": "monsone",
+    "pt": "monção",
+    "tr": "muson"
+   },
+   "ex": {
+    "en": "The monsoon arrives in June."
+   }
+  },
+  {
+   "id": "nature.permafrost",
+   "t": {
+    "en": "permafrost",
+    "uk": "вічна мерзлота",
+    "ru": "вечная мерзлота",
+    "pl": "wieczna zmarzlina",
+    "de": "Permafrost",
+    "fr": "pergélisol",
+    "es": "permafrost",
+    "it": "permafrost",
+    "pt": "permafrost",
+    "tr": "donmuş toprak"
+   },
+   "ex": {
+    "en": "The permafrost is starting to thaw."
+   }
+  },
+  {
+   "id": "nature.ozone-layer",
+   "t": {
+    "en": "ozone layer",
+    "uk": "озоновий шар",
+    "ru": "озоновый слой",
+    "pl": "warstwa ozonowa",
+    "de": "Ozonschicht",
+    "fr": "couche d'ozone",
+    "es": "capa de ozono",
+    "it": "strato di ozono",
+    "pt": "camada de ozônio",
+    "tr": "ozon tabakası"
+   },
+   "ex": {
+    "en": "The ozone layer is slowly recovering."
+   }
+  },
+  {
+   "id": "nature.carbon-offset",
+   "t": {
+    "en": "carbon offset",
+    "uk": "компенсація викидів вуглецю",
+    "ru": "компенсация выбросов углерода",
+    "pl": "kompensacja emisji CO2",
+    "de": "CO2-Kompensation",
+    "fr": "compensation carbone",
+    "es": "compensación de carbono",
+    "it": "compensazione delle emissioni",
+    "pt": "compensação de carbono",
+    "tr": "karbon dengeleme"
+   },
+   "ex": {
+    "en": "The airline offers a carbon offset."
+   }
+  },
+  {
+   "id": "nature.reforestation",
+   "t": {
+    "en": "reforestation",
+    "uk": "відновлення лісів",
+    "ru": "восстановление лесов",
+    "pl": "zalesianie",
+    "de": "Wiederaufforstung",
+    "fr": "reboisement",
+    "es": "reforestación",
+    "it": "rimboschimento",
+    "pt": "reflorestamento",
+    "tr": "ağaçlandırma"
+   },
+   "ex": {
+    "en": "Reforestation brought the birds back."
+   }
+  },
+  {
+   "id": "nature.moss",
+   "t": {
+    "en": "moss",
+    "uk": "мох",
+    "ru": "мох",
+    "pl": "mech",
+    "de": "Moos",
+    "fr": "mousse",
+    "es": "musgo",
+    "it": "muschio",
+    "pt": "musgo",
+    "tr": "yosun"
+   },
+   "ex": {
+    "en": "Soft moss covered the stones."
+   }
+  },
+  {
+   "id": "nature.lichen",
+   "t": {
+    "en": "lichen",
+    "uk": "лишайник",
+    "ru": "лишайник",
+    "pl": "porost",
+    "de": "Flechte",
+    "fr": "lichen",
+    "es": "liquen",
+    "it": "lichene",
+    "pt": "líquen",
+    "tr": "liken"
+   },
+   "ex": {
+    "en": "Lichen grows on the north side."
+   }
+  },
+  {
+   "id": "nature.fern",
+   "t": {
+    "en": "fern",
+    "uk": "папороть",
+    "ru": "папоротник",
+    "pl": "paproć",
+    "de": "Farn",
+    "fr": "fougère",
+    "es": "helecho",
+    "it": "felce",
+    "pt": "samambaia",
+    "tr": "eğrelti otu"
+   },
+   "ex": {
+    "en": "Ferns love shade and damp soil."
+   }
+  },
+  {
+   "id": "nature.undergrowth",
+   "t": {
+    "en": "undergrowth",
+    "uk": "підлісок",
+    "ru": "подлесок",
+    "pl": "poszycie",
+    "de": "Unterholz",
+    "fr": "sous-bois",
+    "es": "maleza",
+    "it": "sottobosco",
+    "pt": "vegetação rasteira",
+    "tr": "çalılık"
+   },
+   "ex": {
+    "en": "Something moved in the undergrowth."
+   }
+  },
+  {
+   "id": "nature.canopy",
+   "t": {
+    "en": "canopy",
+    "uk": "крони дерев",
+    "ru": "кроны деревьев",
+    "pl": "korony drzew",
+    "de": "Kronendach",
+    "fr": "canopée",
+    "es": "dosel",
+    "it": "chioma",
+    "pt": "copa das árvores",
+    "tr": "ağaç örtüsü"
+   },
+   "ex": {
+    "en": "Monkeys live high in the canopy."
+   }
+  },
+  {
+   "id": "nature.foliage",
+   "t": {
+    "en": "foliage",
+    "uk": "листя",
+    "ru": "листва",
+    "pl": "listowie",
+    "de": "Laub",
+    "fr": "feuillage",
+    "es": "follaje",
+    "it": "fogliame",
+    "pt": "folhagem",
+    "tr": "yapraklar"
+   },
+   "ex": {
+    "en": "The autumn foliage is spectacular."
+   }
+  },
+  {
+   "id": "nature.thicket",
+   "t": {
+    "en": "thicket",
+    "uk": "хаща",
+    "ru": "чаща",
+    "pl": "gąszcz",
+    "de": "Dickicht",
+    "fr": "fourré",
+    "es": "matorral",
+    "it": "boscaglia",
+    "pt": "matagal",
+    "tr": "sık çalılık"
+   },
+   "ex": {
+    "en": "The deer hid in a thicket."
+   }
+  },
+  {
+   "id": "nature.estuary",
+   "t": {
+    "en": "estuary",
+    "uk": "гирло річки",
+    "ru": "устье реки",
+    "pl": "ujście rzeki",
+    "de": "Mündung",
+    "fr": "estuaire",
+    "es": "estuario",
+    "it": "estuario",
+    "pt": "estuário",
+    "tr": "haliç"
+   },
+   "ex": {
+    "en": "Seals rest in the estuary."
+   }
+  },
+  {
+   "id": "nature.ridge",
+   "t": {
+    "en": "ridge",
+    "uk": "хребет",
+    "ru": "хребет",
+    "pl": "grzbiet",
+    "de": "Grat",
+    "fr": "crête",
+    "es": "cresta",
+    "it": "cresta",
+    "pt": "cume",
+    "tr": "sırt"
+   },
+   "ex": {
+    "en": "We hiked along the ridge."
+   }
+  },
+  {
+   "id": "nature.gorge",
+   "t": {
+    "en": "gorge",
+    "uk": "ущелина",
+    "ru": "ущелье",
+    "pl": "wąwóz",
+    "de": "Schlucht",
+    "fr": "gorge",
+    "es": "desfiladero",
+    "it": "gola",
+    "pt": "desfiladeiro",
+    "tr": "boğaz"
+   },
+   "ex": {
+    "en": "The river cut a deep gorge."
+   }
+  },
+  {
+   "id": "nature.nocturnal",
+   "t": {
+    "en": "nocturnal",
+    "uk": "нічний",
+    "ru": "ночной",
+    "pl": "nocny",
+    "de": "nachtaktiv",
+    "fr": "nocturne",
+    "es": "nocturno",
+    "it": "notturno",
+    "pt": "noturno",
+    "tr": "gece aktif"
+   },
+   "ex": {
+    "en": "Owls are nocturnal hunters."
+   }
+  },
+  {
+   "id": "nature.to-graze",
+   "t": {
+    "en": "to graze",
+    "uk": "пастися",
+    "ru": "пастись",
+    "pl": "paść się",
+    "de": "grasen",
+    "fr": "paître",
+    "es": "pastar",
+    "it": "pascolare",
+    "pt": "pastar",
+    "tr": "otlamak"
+   },
+   "ex": {
+    "en": "Sheep graze on the hillside."
+   }
+  },
+  {
+   "id": "nature.torrential-rain",
+   "t": {
+    "en": "torrential rain",
+    "uk": "проливний дощ",
+    "ru": "проливной дождь",
+    "pl": "ulewny deszcz",
+    "de": "sintflutartiger Regen",
+    "fr": "pluie torrentielle",
+    "es": "lluvia torrencial",
+    "it": "pioggia torrenziale",
+    "pt": "chuva torrencial",
+    "tr": "sağanak yağış"
+   },
+   "ex": {
+    "en": "Torrential rain flooded the valley."
+   }
+  },
+  {
+   "id": "nature.the-calm-before-the-storm",
+   "t": {
+    "en": "the calm before the storm",
+    "uk": "затишшя перед бурею",
+    "ru": "затишье перед бурей",
+    "pl": "cisza przed burzą",
+    "de": "Ruhe vor dem Sturm",
+    "fr": "le calme avant la tempête",
+    "es": "la calma antes de la tormenta",
+    "it": "la quiete prima della tempesta",
+    "pt": "a calmaria antes da tempestade",
+    "tr": "fırtına öncesi sessizlik"
+   },
+   "ex": {
+    "en": "Enjoy the calm before the storm."
+   }
+  }
+ ]
+}

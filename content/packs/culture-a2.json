@@ -1,0 +1,530 @@
+{
+ "id": "culture-a2",
+ "topic": "culture",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "culture.tv-series",
+   "t": {
+    "en": "TV series",
+    "uk": "серіал",
+    "ru": "сериал",
+    "pl": "serial",
+    "de": "Serie",
+    "fr": "série",
+    "es": "serie",
+    "it": "serie TV",
+    "pt": "série",
+    "tr": "dizi"
+   },
+   "ex": {
+    "en": "Which TV series are you watching now?"
+   }
+  },
+  {
+   "id": "culture.episode",
+   "t": {
+    "en": "episode",
+    "uk": "серія",
+    "ru": "серия",
+    "pl": "odcinek",
+    "de": "Folge",
+    "fr": "épisode",
+    "es": "episodio",
+    "it": "episodio",
+    "pt": "episódio",
+    "tr": "bölüm"
+   },
+   "ex": {
+    "en": "The last episode was amazing."
+   }
+  },
+  {
+   "id": "culture.novel",
+   "t": {
+    "en": "novel",
+    "uk": "роман",
+    "ru": "роман",
+    "pl": "powieść",
+    "de": "Roman",
+    "fr": "roman",
+    "es": "novela",
+    "it": "romanzo",
+    "pt": "romance",
+    "tr": "roman"
+   },
+   "ex": {
+    "en": "She is reading a long novel."
+   }
+  },
+  {
+   "id": "culture.comedy",
+   "t": {
+    "en": "comedy",
+    "uk": "комедія",
+    "ru": "комедия",
+    "pl": "komedia",
+    "de": "Komödie",
+    "fr": "comédie",
+    "es": "comedia",
+    "it": "commedia",
+    "pt": "comédia",
+    "tr": "komedi"
+   },
+   "ex": {
+    "en": "I prefer comedies to dramas."
+   }
+  },
+  {
+   "id": "culture.horror-film",
+   "t": {
+    "en": "horror film",
+    "uk": "фільм жахів",
+    "ru": "фильм ужасов",
+    "pl": "horror",
+    "de": "Horrorfilm",
+    "fr": "film d'horreur",
+    "es": "película de terror",
+    "it": "film horror",
+    "pt": "filme de terror",
+    "tr": "korku filmi"
+   },
+   "ex": {
+    "en": "I never watch horror films alone."
+   }
+  },
+  {
+   "id": "culture.cartoon",
+   "t": {
+    "en": "cartoon",
+    "uk": "мультфільм",
+    "ru": "мультфильм",
+    "pl": "kreskówka",
+    "de": "Zeichentrickfilm",
+    "fr": "dessin animé",
+    "es": "dibujos animados",
+    "it": "cartone animato",
+    "pt": "desenho animado",
+    "tr": "çizgi film"
+   },
+   "ex": {
+    "en": "The kids are watching cartoons."
+   }
+  },
+  {
+   "id": "culture.band",
+   "t": {
+    "en": "band",
+    "uk": "гурт",
+    "ru": "группа",
+    "pl": "zespół",
+    "de": "Band",
+    "fr": "groupe",
+    "es": "grupo",
+    "it": "gruppo",
+    "pt": "banda",
+    "tr": "grup"
+   },
+   "ex": {
+    "en": "My favourite band is playing tonight."
+   }
+  },
+  {
+   "id": "culture.album",
+   "t": {
+    "en": "album",
+    "uk": "альбом",
+    "ru": "альбом",
+    "pl": "album",
+    "de": "Album",
+    "fr": "album",
+    "es": "álbum",
+    "it": "album",
+    "pt": "álbum",
+    "tr": "albüm"
+   },
+   "ex": {
+    "en": "Their new album is out today."
+   }
+  },
+  {
+   "id": "culture.playlist",
+   "t": {
+    "en": "playlist",
+    "uk": "плейлист",
+    "ru": "плейлист",
+    "pl": "playlista",
+    "de": "Playlist",
+    "fr": "playlist",
+    "es": "lista de reproducción",
+    "it": "playlist",
+    "pt": "playlist",
+    "tr": "çalma listesi"
+   },
+   "ex": {
+    "en": "I made a playlist for the trip."
+   }
+  },
+  {
+   "id": "culture.headphones",
+   "t": {
+    "en": "headphones",
+    "uk": "навушники",
+    "ru": "наушники",
+    "pl": "słuchawki",
+    "de": "Kopfhörer",
+    "fr": "écouteurs",
+    "es": "auriculares",
+    "it": "cuffie",
+    "pt": "fones de ouvido",
+    "tr": "kulaklık"
+   },
+   "ex": {
+    "en": "I forgot my headphones at home."
+   }
+  },
+  {
+   "id": "culture.art-gallery",
+   "t": {
+    "en": "art gallery",
+    "uk": "художня галерея",
+    "ru": "художественная галерея",
+    "pl": "galeria sztuki",
+    "de": "Kunstgalerie",
+    "fr": "galerie d'art",
+    "es": "galería de arte",
+    "it": "galleria d'arte",
+    "pt": "galeria de arte",
+    "tr": "sanat galerisi"
+   },
+   "ex": {
+    "en": "There's a new art gallery in town."
+   }
+  },
+  {
+   "id": "culture.exhibition",
+   "t": {
+    "en": "exhibition",
+    "uk": "виставка",
+    "ru": "выставка",
+    "pl": "wystawa",
+    "de": "Ausstellung",
+    "fr": "exposition",
+    "es": "exposición",
+    "it": "mostra",
+    "pt": "exposição",
+    "tr": "sergi"
+   },
+   "ex": {
+    "en": "The exhibition closes next week."
+   }
+  },
+  {
+   "id": "culture.festival",
+   "t": {
+    "en": "festival",
+    "uk": "фестиваль",
+    "ru": "фестиваль",
+    "pl": "festiwal",
+    "de": "Festival",
+    "fr": "festival",
+    "es": "festival",
+    "it": "festival",
+    "pt": "festival",
+    "tr": "festival"
+   },
+   "ex": {
+    "en": "We go to a music festival every summer."
+   }
+  },
+  {
+   "id": "culture.nightclub",
+   "t": {
+    "en": "nightclub",
+    "uk": "нічний клуб",
+    "ru": "ночной клуб",
+    "pl": "klub nocny",
+    "de": "Nachtclub",
+    "fr": "boîte de nuit",
+    "es": "discoteca",
+    "it": "discoteca",
+    "pt": "balada",
+    "tr": "gece kulübü"
+   },
+   "ex": {
+    "en": "They danced in a nightclub until three."
+   }
+  },
+  {
+   "id": "culture.bar",
+   "t": {
+    "en": "bar",
+    "uk": "бар",
+    "ru": "бар",
+    "pl": "bar",
+    "de": "Bar",
+    "fr": "bar",
+    "es": "bar",
+    "it": "bar",
+    "pt": "bar",
+    "tr": "bar"
+   },
+   "ex": {
+    "en": "Let's meet at the bar after work."
+   }
+  },
+  {
+   "id": "culture.to-go-out",
+   "t": {
+    "en": "to go out",
+    "uk": "вийти в місто",
+    "ru": "сходить куда-нибудь",
+    "pl": "wyjść na miasto",
+    "de": "ausgehen",
+    "fr": "sortir",
+    "es": "salir",
+    "it": "uscire",
+    "pt": "sair",
+    "tr": "dışarı çıkmak"
+   },
+   "ex": {
+    "en": "Do you want to go out on Friday?"
+   }
+  },
+  {
+   "id": "culture.to-book-tickets",
+   "t": {
+    "en": "to book tickets",
+    "uk": "забронювати квитки",
+    "ru": "забронировать билеты",
+    "pl": "zarezerwować bilety",
+    "de": "Karten reservieren",
+    "fr": "réserver des billets",
+    "es": "reservar entradas",
+    "it": "prenotare i biglietti",
+    "pt": "reservar ingressos",
+    "tr": "bilet ayırtmak"
+   },
+   "ex": {
+    "en": "I booked tickets for Saturday night."
+   }
+  },
+  {
+   "id": "culture.to-take-photos",
+   "t": {
+    "en": "to take photos",
+    "uk": "фотографувати",
+    "ru": "фотографировать",
+    "pl": "robić zdjęcia",
+    "de": "Fotos machen",
+    "fr": "prendre des photos",
+    "es": "sacar fotos",
+    "it": "fare foto",
+    "pt": "tirar fotos",
+    "tr": "fotoğraf çekmek"
+   },
+   "ex": {
+    "en": "You can't take photos in this room."
+   }
+  },
+  {
+   "id": "culture.magazine",
+   "t": {
+    "en": "magazine",
+    "uk": "журнал",
+    "ru": "журнал",
+    "pl": "czasopismo",
+    "de": "Zeitschrift",
+    "fr": "magazine",
+    "es": "revista",
+    "it": "rivista",
+    "pt": "revista",
+    "tr": "dergi"
+   },
+   "ex": {
+    "en": "She buys a fashion magazine every month."
+   }
+  },
+  {
+   "id": "culture.news",
+   "t": {
+    "en": "news",
+    "uk": "новини",
+    "ru": "новости",
+    "pl": "wiadomości",
+    "de": "Nachrichten",
+    "fr": "actualités",
+    "es": "noticias",
+    "it": "notizie",
+    "pt": "notícias",
+    "tr": "haberler"
+   },
+   "ex": {
+    "en": "Did you see the news this morning?"
+   }
+  },
+  {
+   "id": "culture.hobby",
+   "t": {
+    "en": "hobby",
+    "uk": "хобі",
+    "ru": "хобби",
+    "pl": "hobby",
+    "de": "Hobby",
+    "fr": "passe-temps",
+    "es": "afición",
+    "it": "hobby",
+    "pt": "hobby",
+    "tr": "hobi"
+   },
+   "ex": {
+    "en": "What are your hobbies?"
+   }
+  },
+  {
+   "id": "culture.to-collect",
+   "t": {
+    "en": "to collect",
+    "uk": "колекціонувати",
+    "ru": "коллекционировать",
+    "pl": "kolekcjonować",
+    "de": "sammeln",
+    "fr": "collectionner",
+    "es": "coleccionar",
+    "it": "collezionare",
+    "pt": "colecionar",
+    "tr": "koleksiyon yapmak"
+   },
+   "ex": {
+    "en": "He collects old records."
+   }
+  },
+  {
+   "id": "culture.to-paint",
+   "t": {
+    "en": "to paint",
+    "uk": "малювати фарбами",
+    "ru": "рисовать красками",
+    "pl": "malować",
+    "de": "malen",
+    "fr": "peindre",
+    "es": "pintar",
+    "it": "dipingere",
+    "pt": "pintar",
+    "tr": "resim yapmak"
+   },
+   "ex": {
+    "en": "She paints on weekends."
+   }
+  },
+  {
+   "id": "culture.poem",
+   "t": {
+    "en": "poem",
+    "uk": "вірш",
+    "ru": "стихотворение",
+    "pl": "wiersz",
+    "de": "Gedicht",
+    "fr": "poème",
+    "es": "poema",
+    "it": "poesia",
+    "pt": "poema",
+    "tr": "şiir"
+   },
+   "ex": {
+    "en": "He wrote a poem for her."
+   }
+  },
+  {
+   "id": "culture.writer",
+   "t": {
+    "en": "writer",
+    "uk": "письменник",
+    "ru": "писатель",
+    "pl": "pisarz",
+    "de": "Schriftsteller",
+    "fr": "écrivain",
+    "es": "escritor",
+    "it": "scrittore",
+    "pt": "escritor",
+    "tr": "yazar"
+   },
+   "ex": {
+    "en": "She is my favourite writer."
+   }
+  },
+  {
+   "id": "culture.artist",
+   "t": {
+    "en": "artist",
+    "uk": "художник",
+    "ru": "художник",
+    "pl": "artysta",
+    "de": "Künstler",
+    "fr": "artiste",
+    "es": "artista",
+    "it": "artista",
+    "pt": "artista",
+    "tr": "sanatçı"
+   },
+   "ex": {
+    "en": "The artist lives in Berlin."
+   }
+  },
+  {
+   "id": "culture.musician",
+   "t": {
+    "en": "musician",
+    "uk": "музикант",
+    "ru": "музыкант",
+    "pl": "muzyk",
+    "de": "Musiker",
+    "fr": "musicien",
+    "es": "músico",
+    "it": "musicista",
+    "pt": "músico",
+    "tr": "müzisyen"
+   },
+   "ex": {
+    "en": "My uncle is a jazz musician."
+   }
+  },
+  {
+   "id": "culture.famous",
+   "t": {
+    "en": "famous",
+    "uk": "відомий",
+    "ru": "известный",
+    "pl": "sławny",
+    "de": "berühmt",
+    "fr": "célèbre",
+    "es": "famoso",
+    "it": "famoso",
+    "pt": "famoso",
+    "tr": "ünlü"
+   },
+   "ex": {
+    "en": "This painting is very famous."
+   }
+  },
+  {
+   "id": "culture.video-game",
+   "t": {
+    "en": "video game",
+    "uk": "відеогра",
+    "ru": "видеоигра",
+    "pl": "gra wideo",
+    "de": "Videospiel",
+    "fr": "jeu vidéo",
+    "es": "videojuego",
+    "it": "videogioco",
+    "pt": "videogame",
+    "tr": "video oyunu"
+   },
+   "ex": {
+    "en": "He plays video games every evening."
+   }
+  }
+ ]
+}

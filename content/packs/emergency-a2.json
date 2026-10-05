@@ -1,0 +1,512 @@
+{
+ "id": "emergency-a2",
+ "topic": "emergency",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emergency.police-station",
+   "t": {
+    "en": "police station",
+    "uk": "відділок поліції",
+    "ru": "отделение полиции",
+    "pl": "komisariat",
+    "de": "Polizeiwache",
+    "fr": "commissariat",
+    "es": "comisaría",
+    "it": "commissariato",
+    "pt": "delegacia",
+    "tr": "karakol"
+   },
+   "ex": {
+    "en": "Go to the nearest police station."
+   }
+  },
+  {
+   "id": "emergency.police-officer",
+   "t": {
+    "en": "police officer",
+    "uk": "поліцейський",
+    "ru": "полицейский",
+    "pl": "policjant",
+    "de": "Polizist",
+    "fr": "policier",
+    "es": "policía",
+    "it": "poliziotto",
+    "pt": "policial",
+    "tr": "polis memuru"
+   },
+   "ex": {
+    "en": "A police officer asked for my ID."
+   }
+  },
+  {
+   "id": "emergency.to-report",
+   "t": {
+    "en": "to report",
+    "uk": "заявити",
+    "ru": "заявить",
+    "pl": "zgłosić",
+    "de": "melden",
+    "fr": "signaler",
+    "es": "denunciar",
+    "it": "denunciare",
+    "pt": "registrar ocorrência",
+    "tr": "bildirmek"
+   },
+   "ex": {
+    "en": "I want to report a theft."
+   }
+  },
+  {
+   "id": "emergency.police-report",
+   "t": {
+    "en": "police report",
+    "uk": "протокол",
+    "ru": "протокол",
+    "pl": "protokół policyjny",
+    "de": "Polizeibericht",
+    "fr": "procès-verbal",
+    "es": "denuncia",
+    "it": "denuncia",
+    "pt": "boletim de ocorrência",
+    "tr": "polis tutanağı"
+   },
+   "ex": {
+    "en": "The insurance needs a police report."
+   }
+  },
+  {
+   "id": "emergency.witness",
+   "t": {
+    "en": "witness",
+    "uk": "свідок",
+    "ru": "свидетель",
+    "pl": "świadek",
+    "de": "Zeuge",
+    "fr": "témoin",
+    "es": "testigo",
+    "it": "testimone",
+    "pt": "testemunha",
+    "tr": "tanık"
+   },
+   "ex": {
+    "en": "Were there any witnesses?"
+   }
+  },
+  {
+   "id": "emergency.car-accident",
+   "t": {
+    "en": "car accident",
+    "uk": "ДТП",
+    "ru": "ДТП",
+    "pl": "wypadek samochodowy",
+    "de": "Autounfall",
+    "fr": "accident de voiture",
+    "es": "accidente de coche",
+    "it": "incidente stradale",
+    "pt": "acidente de carro",
+    "tr": "trafik kazası"
+   },
+   "ex": {
+    "en": "He had a car accident yesterday."
+   }
+  },
+  {
+   "id": "emergency.injured",
+   "t": {
+    "en": "injured",
+    "uk": "травмований",
+    "ru": "пострадавший",
+    "pl": "poszkodowany",
+    "de": "verunglückt",
+    "fr": "accidenté",
+    "es": "lesionado",
+    "it": "infortunato",
+    "pt": "ferido",
+    "tr": "yaralanmış"
+   },
+   "ex": {
+    "en": "Two people were injured in the crash."
+   }
+  },
+  {
+   "id": "emergency.first-aid",
+   "t": {
+    "en": "first aid",
+    "uk": "перша допомога",
+    "ru": "первая помощь",
+    "pl": "pierwsza pomoc",
+    "de": "Erste Hilfe",
+    "fr": "premiers secours",
+    "es": "primeros auxilios",
+    "it": "primo soccorso",
+    "pt": "primeiros socorros",
+    "tr": "ilk yardım"
+   },
+   "ex": {
+    "en": "Do you know first aid?"
+   }
+  },
+  {
+   "id": "emergency.emergency-exit",
+   "t": {
+    "en": "emergency exit",
+    "uk": "аварійний вихід",
+    "ru": "аварийный выход",
+    "pl": "wyjście ewakuacyjne",
+    "de": "Notausgang",
+    "fr": "sortie de secours",
+    "es": "salida de emergencia",
+    "it": "uscita di emergenza",
+    "pt": "saída de emergência",
+    "tr": "acil çıkış"
+   },
+   "ex": {
+    "en": "The emergency exit is on the left."
+   }
+  },
+  {
+   "id": "emergency.fire-alarm",
+   "t": {
+    "en": "fire alarm",
+    "uk": "пожежна сигналізація",
+    "ru": "пожарная сигнализация",
+    "pl": "alarm przeciwpożarowy",
+    "de": "Feueralarm",
+    "fr": "alarme incendie",
+    "es": "alarma de incendios",
+    "it": "allarme antincendio",
+    "pt": "alarme de incêndio",
+    "tr": "yangın alarmı"
+   },
+   "ex": {
+    "en": "The fire alarm went off at night."
+   }
+  },
+  {
+   "id": "emergency.smoke",
+   "t": {
+    "en": "smoke",
+    "uk": "дим",
+    "ru": "дым",
+    "pl": "dym",
+    "de": "Rauch",
+    "fr": "fumée",
+    "es": "humo",
+    "it": "fumo",
+    "pt": "fumaça",
+    "tr": "duman"
+   },
+   "ex": {
+    "en": "I can smell smoke."
+   }
+  },
+  {
+   "id": "emergency.break-in",
+   "t": {
+    "en": "break-in",
+    "uk": "проникнення зі зломом",
+    "ru": "взлом",
+    "pl": "włamanie",
+    "de": "Einbruch",
+    "fr": "cambriolage",
+    "es": "robo con allanamiento",
+    "it": "furto con scasso",
+    "pt": "arrombamento",
+    "tr": "hırsızlık"
+   },
+   "ex": {
+    "en": "There was a break-in next door."
+   }
+  },
+  {
+   "id": "emergency.embassy",
+   "t": {
+    "en": "embassy",
+    "uk": "посольство",
+    "ru": "посольство",
+    "pl": "ambasada",
+    "de": "Botschaft",
+    "fr": "ambassade",
+    "es": "embajada",
+    "it": "ambasciata",
+    "pt": "embaixada",
+    "tr": "büyükelçilik"
+   },
+   "ex": {
+    "en": "Contact your embassy if you lose your passport."
+   }
+  },
+  {
+   "id": "emergency.consulate",
+   "t": {
+    "en": "consulate",
+    "uk": "консульство",
+    "ru": "консульство",
+    "pl": "konsulat",
+    "de": "Konsulat",
+    "fr": "consulat",
+    "es": "consulado",
+    "it": "consolato",
+    "pt": "consulado",
+    "tr": "konsolosluk"
+   },
+   "ex": {
+    "en": "The consulate is closed on Fridays."
+   }
+  },
+  {
+   "id": "emergency.residence-permit",
+   "t": {
+    "en": "residence permit",
+    "uk": "посвідка на проживання",
+    "ru": "вид на жительство",
+    "pl": "karta pobytu",
+    "de": "Aufenthaltstitel",
+    "fr": "titre de séjour",
+    "es": "permiso de residencia",
+    "it": "permesso di soggiorno",
+    "pt": "autorização de residência",
+    "tr": "ikamet izni"
+   },
+   "ex": {
+    "en": "My residence permit is valid for two years."
+   }
+  },
+  {
+   "id": "emergency.work-permit",
+   "t": {
+    "en": "work permit",
+    "uk": "дозвіл на роботу",
+    "ru": "разрешение на работу",
+    "pl": "zezwolenie na pracę",
+    "de": "Arbeitserlaubnis",
+    "fr": "permis de travail",
+    "es": "permiso de trabajo",
+    "it": "permesso di lavoro",
+    "pt": "autorização de trabalho",
+    "tr": "çalışma izni"
+   },
+   "ex": {
+    "en": "You need a work permit first."
+   }
+  },
+  {
+   "id": "emergency.id-card",
+   "t": {
+    "en": "ID card",
+    "uk": "ID-картка",
+    "ru": "удостоверение личности",
+    "pl": "dowód osobisty",
+    "de": "Personalausweis",
+    "fr": "carte d'identité",
+    "es": "DNI",
+    "it": "carta d'identità",
+    "pt": "RG",
+    "tr": "kimlik kartı"
+   },
+   "ex": {
+    "en": "Bring your ID card to the office."
+   }
+  },
+  {
+   "id": "emergency.driving-licence",
+   "t": {
+    "en": "driving licence",
+    "uk": "водійське посвідчення",
+    "ru": "водительские права",
+    "pl": "prawo jazdy",
+    "de": "Führerschein",
+    "fr": "permis de conduire",
+    "es": "carnet de conducir",
+    "it": "patente",
+    "pt": "carteira de motorista",
+    "tr": "ehliyet"
+   },
+   "ex": {
+    "en": "May I see your driving licence?"
+   }
+  },
+  {
+   "id": "emergency.queue",
+   "t": {
+    "en": "queue",
+    "uk": "черга",
+    "ru": "очередь",
+    "pl": "kolejka",
+    "de": "Warteschlange",
+    "fr": "file d'attente",
+    "es": "cola",
+    "it": "fila",
+    "pt": "fila",
+    "tr": "sıra"
+   },
+   "ex": {
+    "en": "The queue was very long."
+   }
+  },
+  {
+   "id": "emergency.to-apply",
+   "t": {
+    "en": "to apply",
+    "uk": "подавати заяву",
+    "ru": "подавать заявление",
+    "pl": "składać wniosek",
+    "de": "beantragen",
+    "fr": "faire une demande",
+    "es": "solicitar",
+    "it": "fare domanda",
+    "pt": "solicitar",
+    "tr": "başvurmak"
+   },
+   "ex": {
+    "en": "You can apply online."
+   }
+  },
+  {
+   "id": "emergency.application",
+   "t": {
+    "en": "application",
+    "uk": "заява",
+    "ru": "заявление",
+    "pl": "wniosek",
+    "de": "Antrag",
+    "fr": "demande",
+    "es": "solicitud",
+    "it": "domanda",
+    "pt": "requerimento",
+    "tr": "başvuru"
+   },
+   "ex": {
+    "en": "My application is still being processed."
+   }
+  },
+  {
+   "id": "emergency.to-register",
+   "t": {
+    "en": "to register",
+    "uk": "реєструватися",
+    "ru": "регистрироваться",
+    "pl": "meldować się",
+    "de": "sich anmelden",
+    "fr": "s'inscrire",
+    "es": "empadronarse",
+    "it": "registrarsi",
+    "pt": "se registrar",
+    "tr": "kayıt yaptırmak"
+   },
+   "ex": {
+    "en": "You must register your new address."
+   }
+  },
+  {
+   "id": "emergency.stamp",
+   "t": {
+    "en": "stamp",
+    "uk": "печатка",
+    "ru": "печать",
+    "pl": "pieczątka",
+    "de": "Stempel",
+    "fr": "tampon",
+    "es": "sello",
+    "it": "timbro",
+    "pt": "carimbo",
+    "tr": "damga"
+   },
+   "ex": {
+    "en": "The form needs an official stamp."
+   }
+  },
+  {
+   "id": "emergency.copy",
+   "t": {
+    "en": "copy",
+    "uk": "копія",
+    "ru": "копия",
+    "pl": "kopia",
+    "de": "Kopie",
+    "fr": "copie",
+    "es": "copia",
+    "it": "copia",
+    "pt": "cópia",
+    "tr": "kopya"
+   },
+   "ex": {
+    "en": "Bring a copy of your passport."
+   }
+  },
+  {
+   "id": "emergency.original",
+   "t": {
+    "en": "original",
+    "uk": "оригінал",
+    "ru": "оригинал",
+    "pl": "oryginał",
+    "de": "Original",
+    "fr": "original",
+    "es": "original",
+    "it": "originale",
+    "pt": "original",
+    "tr": "asıl belge"
+   },
+   "ex": {
+    "en": "They want to see the original."
+   }
+  },
+  {
+   "id": "emergency.valid",
+   "t": {
+    "en": "valid",
+    "uk": "дійсний",
+    "ru": "действительный",
+    "pl": "ważny",
+    "de": "gültig",
+    "fr": "valable",
+    "es": "válido",
+    "it": "valido",
+    "pt": "válido",
+    "tr": "geçerli"
+   },
+   "ex": {
+    "en": "Is your visa still valid?"
+   }
+  },
+  {
+   "id": "emergency.expired",
+   "t": {
+    "en": "expired",
+    "uk": "прострочений",
+    "ru": "просроченный",
+    "pl": "przeterminowany",
+    "de": "abgelaufen",
+    "fr": "expiré",
+    "es": "caducado",
+    "it": "scaduto",
+    "pt": "vencido",
+    "tr": "süresi dolmuş"
+   },
+   "ex": {
+    "en": "Your passport has expired."
+   }
+  },
+  {
+   "id": "emergency.fine",
+   "t": {
+    "en": "fine",
+    "uk": "штраф",
+    "ru": "штраф",
+    "pl": "mandat",
+    "de": "Bußgeld",
+    "fr": "amende",
+    "es": "multa",
+    "it": "multa",
+    "pt": "multa",
+    "tr": "para cezası"
+   },
+   "ex": {
+    "en": "I got a fine for parking here."
+   }
+  }
+ ]
+}

@@ -1,0 +1,476 @@
+{
+ "id": "shopping-b1",
+ "topic": "shopping",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "shopping.to-browse",
+   "t": {
+    "en": "to browse",
+    "uk": "просто дивитися",
+    "ru": "просто смотреть",
+    "pl": "oglądać",
+    "de": "stöbern",
+    "fr": "regarder sans acheter",
+    "es": "echar un vistazo",
+    "it": "dare un'occhiata",
+    "pt": "dar uma olhada",
+    "tr": "bakınmak"
+   },
+   "ex": {
+    "en": "I'm just browsing, thanks."
+   }
+  },
+  {
+   "id": "shopping.to-haggle",
+   "t": {
+    "en": "to haggle",
+    "uk": "торгуватися",
+    "ru": "торговаться",
+    "pl": "targować się",
+    "de": "feilschen",
+    "fr": "marchander",
+    "es": "regatear",
+    "it": "contrattare",
+    "pt": "pechinchar",
+    "tr": "pazarlık etmek"
+   },
+   "ex": {
+    "en": "You can haggle at the market."
+   }
+  },
+  {
+   "id": "shopping.bargain",
+   "t": {
+    "en": "bargain",
+    "uk": "вигідна покупка",
+    "ru": "выгодная покупка",
+    "pl": "okazja",
+    "de": "Schnäppchen",
+    "fr": "bonne affaire",
+    "es": "ganga",
+    "it": "affare",
+    "pt": "pechincha",
+    "tr": "kelepir"
+   },
+   "ex": {
+    "en": "This coat was a real bargain."
+   }
+  },
+  {
+   "id": "shopping.price-tag",
+   "t": {
+    "en": "price tag",
+    "uk": "цінник",
+    "ru": "ценник",
+    "pl": "metka z ceną",
+    "de": "Preisschild",
+    "fr": "étiquette de prix",
+    "es": "etiqueta de precio",
+    "it": "cartellino del prezzo",
+    "pt": "etiqueta de preço",
+    "tr": "fiyat etiketi"
+   },
+   "ex": {
+    "en": "There is no price tag on this."
+   }
+  },
+  {
+   "id": "shopping.return-policy",
+   "t": {
+    "en": "return policy",
+    "uk": "умови повернення",
+    "ru": "условия возврата",
+    "pl": "zasady zwrotów",
+    "de": "Rückgabebedingungen",
+    "fr": "conditions de retour",
+    "es": "política de devoluciones",
+    "it": "politica di reso",
+    "pt": "política de devolução",
+    "tr": "iade koşulları"
+   },
+   "ex": {
+    "en": "What is your return policy?"
+   }
+  },
+  {
+   "id": "shopping.to-return",
+   "t": {
+    "en": "to return",
+    "uk": "повернути",
+    "ru": "вернуть",
+    "pl": "zwrócić",
+    "de": "zurückgeben",
+    "fr": "rapporter",
+    "es": "devolver",
+    "it": "restituire",
+    "pt": "devolver",
+    "tr": "iade etmek"
+   },
+   "ex": {
+    "en": "I'd like to return these shoes."
+   }
+  },
+  {
+   "id": "shopping.loyalty-card",
+   "t": {
+    "en": "loyalty card",
+    "uk": "картка лояльності",
+    "ru": "карта лояльности",
+    "pl": "karta lojalnościowa",
+    "de": "Kundenkarte",
+    "fr": "carte de fidélité",
+    "es": "tarjeta de fidelidad",
+    "it": "carta fedeltà",
+    "pt": "cartão fidelidade",
+    "tr": "sadakat kartı"
+   },
+   "ex": {
+    "en": "Do you have a loyalty card?"
+   }
+  },
+  {
+   "id": "shopping.gift-card",
+   "t": {
+    "en": "gift card",
+    "uk": "подарункова картка",
+    "ru": "подарочная карта",
+    "pl": "karta podarunkowa",
+    "de": "Geschenkkarte",
+    "fr": "carte cadeau",
+    "es": "tarjeta regalo",
+    "it": "carta regalo",
+    "pt": "vale-presente",
+    "tr": "hediye kartı"
+   },
+   "ex": {
+    "en": "I got a gift card for my birthday."
+   }
+  },
+  {
+   "id": "shopping.coupon",
+   "t": {
+    "en": "coupon",
+    "uk": "купон",
+    "ru": "купон",
+    "pl": "kupon",
+    "de": "Gutschein",
+    "fr": "bon de réduction",
+    "es": "cupón",
+    "it": "buono sconto",
+    "pt": "cupom",
+    "tr": "kupon"
+   },
+   "ex": {
+    "en": "This coupon gives ten percent off."
+   }
+  },
+  {
+   "id": "shopping.in-stock",
+   "t": {
+    "en": "in stock",
+    "uk": "в наявності",
+    "ru": "в наличии",
+    "pl": "dostępny",
+    "de": "auf Lager",
+    "fr": "en stock",
+    "es": "en stock",
+    "it": "disponibile",
+    "pt": "em estoque",
+    "tr": "stokta var"
+   },
+   "ex": {
+    "en": "Is this model in stock?"
+   }
+  },
+  {
+   "id": "shopping.out-of-stock",
+   "t": {
+    "en": "out of stock",
+    "uk": "немає в наявності",
+    "ru": "нет в наличии",
+    "pl": "brak w magazynie",
+    "de": "nicht vorrätig",
+    "fr": "en rupture de stock",
+    "es": "agotado",
+    "it": "esaurito",
+    "pt": "esgotado",
+    "tr": "stokta yok"
+   },
+   "ex": {
+    "en": "Sorry, that size is out of stock."
+   }
+  },
+  {
+   "id": "shopping.to-suit",
+   "t": {
+    "en": "to suit",
+    "uk": "личити",
+    "ru": "идти (к лицу)",
+    "pl": "pasować (komuś)",
+    "de": "stehen (jemandem)",
+    "fr": "aller (à quelqu'un)",
+    "es": "favorecer",
+    "it": "stare bene (a qualcuno)",
+    "pt": "ficar bem (em alguém)",
+    "tr": "yakışmak"
+   },
+   "ex": {
+    "en": "That colour really suits you."
+   }
+  },
+  {
+   "id": "shopping.fabric",
+   "t": {
+    "en": "fabric",
+    "uk": "тканина",
+    "ru": "ткань",
+    "pl": "tkanina",
+    "de": "Stoff",
+    "fr": "tissu",
+    "es": "tela",
+    "it": "tessuto",
+    "pt": "tecido",
+    "tr": "kumaş"
+   },
+   "ex": {
+    "en": "The fabric feels very soft."
+   }
+  },
+  {
+   "id": "shopping.cotton",
+   "t": {
+    "en": "cotton",
+    "uk": "бавовна",
+    "ru": "хлопок",
+    "pl": "bawełna",
+    "de": "Baumwolle",
+    "fr": "coton",
+    "es": "algodón",
+    "it": "cotone",
+    "pt": "algodão",
+    "tr": "pamuk"
+   },
+   "ex": {
+    "en": "Is this shirt pure cotton?"
+   }
+  },
+  {
+   "id": "shopping.wool",
+   "t": {
+    "en": "wool",
+    "uk": "вовна",
+    "ru": "шерсть",
+    "pl": "wełna",
+    "de": "Wolle",
+    "fr": "laine",
+    "es": "lana",
+    "it": "lana",
+    "pt": "lã",
+    "tr": "yün"
+   },
+   "ex": {
+    "en": "The scarf is made of wool."
+   }
+  },
+  {
+   "id": "shopping.leather",
+   "t": {
+    "en": "leather",
+    "uk": "шкіра",
+    "ru": "кожа",
+    "pl": "skóra",
+    "de": "Leder",
+    "fr": "cuir",
+    "es": "cuero",
+    "it": "pelle",
+    "pt": "couro",
+    "tr": "deri"
+   },
+   "ex": {
+    "en": "Is this bag real leather?"
+   }
+  },
+  {
+   "id": "shopping.second-hand",
+   "t": {
+    "en": "second-hand",
+    "uk": "вживаний",
+    "ru": "подержанный",
+    "pl": "używany",
+    "de": "gebraucht",
+    "fr": "d'occasion",
+    "es": "de segunda mano",
+    "it": "di seconda mano",
+    "pt": "de segunda mão",
+    "tr": "ikinci el"
+   },
+   "ex": {
+    "en": "I love second-hand bookshops."
+   }
+  },
+  {
+   "id": "shopping.fake",
+   "t": {
+    "en": "fake",
+    "uk": "підробка",
+    "ru": "подделка",
+    "pl": "podróbka",
+    "de": "Fälschung",
+    "fr": "contrefaçon",
+    "es": "falsificación",
+    "it": "falso",
+    "pt": "falsificação",
+    "tr": "taklit"
+   },
+   "ex": {
+    "en": "That watch is a fake."
+   }
+  },
+  {
+   "id": "shopping.to-add-to-cart",
+   "t": {
+    "en": "to add to cart",
+    "uk": "додати в кошик",
+    "ru": "добавить в корзину",
+    "pl": "dodać do koszyka",
+    "de": "in den Warenkorb legen",
+    "fr": "ajouter au panier",
+    "es": "añadir al carrito",
+    "it": "aggiungere al carrello",
+    "pt": "adicionar ao carrinho",
+    "tr": "sepete eklemek"
+   },
+   "ex": {
+    "en": "Add the item to your cart."
+   }
+  },
+  {
+   "id": "shopping.to-place-an-order",
+   "t": {
+    "en": "to place an order",
+    "uk": "оформити замовлення",
+    "ru": "оформить заказ",
+    "pl": "złożyć zamówienie",
+    "de": "eine Bestellung aufgeben",
+    "fr": "passer une commande",
+    "es": "hacer un pedido",
+    "it": "effettuare un ordine",
+    "pt": "fazer um pedido",
+    "tr": "sipariş vermek"
+   },
+   "ex": {
+    "en": "I placed an order last night."
+   }
+  },
+  {
+   "id": "shopping.tracking-number",
+   "t": {
+    "en": "tracking number",
+    "uk": "номер відстеження",
+    "ru": "номер отслеживания",
+    "pl": "numer śledzenia",
+    "de": "Sendungsnummer",
+    "fr": "numéro de suivi",
+    "es": "número de seguimiento",
+    "it": "numero di tracciamento",
+    "pt": "código de rastreio",
+    "tr": "kargo takip numarası"
+   },
+   "ex": {
+    "en": "The email has your tracking number."
+   }
+  },
+  {
+   "id": "shopping.to-track-a-parcel",
+   "t": {
+    "en": "to track a parcel",
+    "uk": "відстежити посилку",
+    "ru": "отследить посылку",
+    "pl": "śledzić przesyłkę",
+    "de": "ein Paket verfolgen",
+    "fr": "suivre un colis",
+    "es": "rastrear un paquete",
+    "it": "tracciare un pacco",
+    "pt": "rastrear uma encomenda",
+    "tr": "kargoyu takip etmek"
+   },
+   "ex": {
+    "en": "You can track your parcel online."
+   }
+  },
+  {
+   "id": "shopping.value-for-money",
+   "t": {
+    "en": "value for money",
+    "uk": "співвідношення ціни та якості",
+    "ru": "соотношение цены и качества",
+    "pl": "stosunek jakości do ceny",
+    "de": "Preis-Leistungs-Verhältnis",
+    "fr": "rapport qualité-prix",
+    "es": "relación calidad-precio",
+    "it": "rapporto qualità-prezzo",
+    "pt": "custo-benefício",
+    "tr": "fiyat-performans"
+   },
+   "ex": {
+    "en": "This laptop is great value for money."
+   }
+  },
+  {
+   "id": "shopping.gift-wrapping",
+   "t": {
+    "en": "gift wrapping",
+    "uk": "подарункова упаковка",
+    "ru": "подарочная упаковка",
+    "pl": "pakowanie na prezent",
+    "de": "Geschenkverpackung",
+    "fr": "emballage cadeau",
+    "es": "envoltorio de regalo",
+    "it": "confezione regalo",
+    "pt": "embrulho para presente",
+    "tr": "hediye paketi"
+   },
+   "ex": {
+    "en": "Do you offer gift wrapping?"
+   }
+  },
+  {
+   "id": "shopping.department-store",
+   "t": {
+    "en": "department store",
+    "uk": "універмаг",
+    "ru": "универмаг",
+    "pl": "dom towarowy",
+    "de": "Kaufhaus",
+    "fr": "grand magasin",
+    "es": "grandes almacenes",
+    "it": "grande magazzino",
+    "pt": "loja de departamentos",
+    "tr": "büyük mağaza"
+   },
+   "ex": {
+    "en": "The department store has six floors."
+   }
+  },
+  {
+   "id": "shopping.to-pay-in-instalments",
+   "t": {
+    "en": "to pay in instalments",
+    "uk": "платити частинами",
+    "ru": "платить в рассрочку",
+    "pl": "płacić w ratach",
+    "de": "in Raten zahlen",
+    "fr": "payer en plusieurs fois",
+    "es": "pagar a plazos",
+    "it": "pagare a rate",
+    "pt": "pagar parcelado",
+    "tr": "taksitle ödemek"
+   },
+   "ex": {
+    "en": "Can I pay in instalments?"
+   }
+  }
+ ]
+}

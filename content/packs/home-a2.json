@@ -1,0 +1,548 @@
+{
+ "id": "home-a2",
+ "topic": "home",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "home.hallway",
+   "t": {
+    "en": "hallway",
+    "uk": "коридор",
+    "ru": "коридор",
+    "pl": "przedpokój",
+    "de": "Flur",
+    "fr": "couloir",
+    "es": "pasillo",
+    "it": "corridoio",
+    "pt": "corredor",
+    "tr": "koridor"
+   },
+   "ex": {
+    "en": "Leave your shoes in the hallway."
+   }
+  },
+  {
+   "id": "home.balcony",
+   "t": {
+    "en": "balcony",
+    "uk": "балкон",
+    "ru": "балкон",
+    "pl": "balkon",
+    "de": "Balkon",
+    "fr": "balcon",
+    "es": "balcón",
+    "it": "balcone",
+    "pt": "varanda",
+    "tr": "balkon"
+   },
+   "ex": {
+    "en": "We have breakfast on the balcony."
+   }
+  },
+  {
+   "id": "home.basement",
+   "t": {
+    "en": "basement",
+    "uk": "підвал",
+    "ru": "подвал",
+    "pl": "piwnica",
+    "de": "Keller",
+    "fr": "sous-sol",
+    "es": "sótano",
+    "it": "seminterrato",
+    "pt": "porão",
+    "tr": "bodrum"
+   },
+   "ex": {
+    "en": "The bikes are in the basement."
+   }
+  },
+  {
+   "id": "home.attic",
+   "t": {
+    "en": "attic",
+    "uk": "горище",
+    "ru": "чердак",
+    "pl": "strych",
+    "de": "Dachboden",
+    "fr": "grenier",
+    "es": "desván",
+    "it": "soffitta",
+    "pt": "sótão",
+    "tr": "çatı katı"
+   },
+   "ex": {
+    "en": "Old boxes are stored in the attic."
+   }
+  },
+  {
+   "id": "home.garage",
+   "t": {
+    "en": "garage",
+    "uk": "гараж",
+    "ru": "гараж",
+    "pl": "garaż",
+    "de": "Garage",
+    "fr": "garage",
+    "es": "garaje",
+    "it": "garage",
+    "pt": "garagem",
+    "tr": "garaj"
+   },
+   "ex": {
+    "en": "The car is in the garage."
+   }
+  },
+  {
+   "id": "home.wardrobe",
+   "t": {
+    "en": "wardrobe",
+    "uk": "шафа",
+    "ru": "шкаф",
+    "pl": "szafa",
+    "de": "Kleiderschrank",
+    "fr": "armoire",
+    "es": "armario",
+    "it": "armadio",
+    "pt": "guarda-roupa",
+    "tr": "gardırop"
+   },
+   "ex": {
+    "en": "Hang your coat in the wardrobe."
+   }
+  },
+  {
+   "id": "home.shelf",
+   "t": {
+    "en": "shelf",
+    "uk": "полиця",
+    "ru": "полка",
+    "pl": "półka",
+    "de": "Regal",
+    "fr": "étagère",
+    "es": "estante",
+    "it": "mensola",
+    "pt": "prateleira",
+    "tr": "raf"
+   },
+   "ex": {
+    "en": "The books are on the top shelf."
+   }
+  },
+  {
+   "id": "home.mirror",
+   "t": {
+    "en": "mirror",
+    "uk": "дзеркало",
+    "ru": "зеркало",
+    "pl": "lustro",
+    "de": "Spiegel",
+    "fr": "miroir",
+    "es": "espejo",
+    "it": "specchio",
+    "pt": "espelho",
+    "tr": "ayna"
+   },
+   "ex": {
+    "en": "There is a mirror in the hall."
+   }
+  },
+  {
+   "id": "home.curtain",
+   "t": {
+    "en": "curtain",
+    "uk": "штора",
+    "ru": "штора",
+    "pl": "zasłona",
+    "de": "Vorhang",
+    "fr": "rideau",
+    "es": "cortina",
+    "it": "tenda",
+    "pt": "cortina",
+    "tr": "perde"
+   },
+   "ex": {
+    "en": "Close the curtains, please."
+   }
+  },
+  {
+   "id": "home.carpet",
+   "t": {
+    "en": "carpet",
+    "uk": "килим",
+    "ru": "ковёр",
+    "pl": "dywan",
+    "de": "Teppich",
+    "fr": "tapis",
+    "es": "alfombra",
+    "it": "tappeto",
+    "pt": "tapete",
+    "tr": "halı"
+   },
+   "ex": {
+    "en": "The carpet is soft and warm."
+   }
+  },
+  {
+   "id": "home.pillow",
+   "t": {
+    "en": "pillow",
+    "uk": "подушка",
+    "ru": "подушка",
+    "pl": "poduszka",
+    "de": "Kissen",
+    "fr": "oreiller",
+    "es": "almohada",
+    "it": "cuscino",
+    "pt": "travesseiro",
+    "tr": "yastık"
+   },
+   "ex": {
+    "en": "I need a softer pillow."
+   }
+  },
+  {
+   "id": "home.blanket",
+   "t": {
+    "en": "blanket",
+    "uk": "ковдра",
+    "ru": "одеяло",
+    "pl": "koc",
+    "de": "Decke",
+    "fr": "couverture",
+    "es": "manta",
+    "it": "coperta",
+    "pt": "cobertor",
+    "tr": "battaniye"
+   },
+   "ex": {
+    "en": "Take a blanket, it is cold."
+   }
+  },
+  {
+   "id": "home.washing-machine",
+   "t": {
+    "en": "washing machine",
+    "uk": "пральна машина",
+    "ru": "стиральная машина",
+    "pl": "pralka",
+    "de": "Waschmaschine",
+    "fr": "machine à laver",
+    "es": "lavadora",
+    "it": "lavatrice",
+    "pt": "máquina de lavar",
+    "tr": "çamaşır makinesi"
+   },
+   "ex": {
+    "en": "The washing machine is broken again."
+   }
+  },
+  {
+   "id": "home.dishwasher",
+   "t": {
+    "en": "dishwasher",
+    "uk": "посудомийна машина",
+    "ru": "посудомоечная машина",
+    "pl": "zmywarka",
+    "de": "Geschirrspüler",
+    "fr": "lave-vaisselle",
+    "es": "lavavajillas",
+    "it": "lavastoviglie",
+    "pt": "lava-louças",
+    "tr": "bulaşık makinesi"
+   },
+   "ex": {
+    "en": "Put the plates in the dishwasher."
+   }
+  },
+  {
+   "id": "home.oven",
+   "t": {
+    "en": "oven",
+    "uk": "духовка",
+    "ru": "духовка",
+    "pl": "piekarnik",
+    "de": "Backofen",
+    "fr": "four",
+    "es": "horno",
+    "it": "forno",
+    "pt": "forno",
+    "tr": "fırın"
+   },
+   "ex": {
+    "en": "The cake is in the oven."
+   }
+  },
+  {
+   "id": "home.microwave",
+   "t": {
+    "en": "microwave",
+    "uk": "мікрохвильовка",
+    "ru": "микроволновка",
+    "pl": "mikrofalówka",
+    "de": "Mikrowelle",
+    "fr": "micro-ondes",
+    "es": "microondas",
+    "it": "microonde",
+    "pt": "micro-ondas",
+    "tr": "mikrodalga"
+   },
+   "ex": {
+    "en": "Heat the soup in the microwave."
+   }
+  },
+  {
+   "id": "home.sink",
+   "t": {
+    "en": "sink",
+    "uk": "раковина",
+    "ru": "раковина",
+    "pl": "zlew",
+    "de": "Spüle",
+    "fr": "évier",
+    "es": "fregadero",
+    "it": "lavandino",
+    "pt": "pia",
+    "tr": "lavabo"
+   },
+   "ex": {
+    "en": "The dishes are in the sink."
+   }
+  },
+  {
+   "id": "home.tap",
+   "t": {
+    "en": "tap",
+    "uk": "кран",
+    "ru": "кран",
+    "pl": "kran",
+    "de": "Wasserhahn",
+    "fr": "robinet",
+    "es": "grifo",
+    "it": "rubinetto",
+    "pt": "torneira",
+    "tr": "musluk"
+   },
+   "ex": {
+    "en": "Turn off the tap."
+   }
+  },
+  {
+   "id": "home.electricity",
+   "t": {
+    "en": "electricity",
+    "uk": "електрика",
+    "ru": "электричество",
+    "pl": "prąd",
+    "de": "Strom",
+    "fr": "électricité",
+    "es": "electricidad",
+    "it": "elettricità",
+    "pt": "eletricidade",
+    "tr": "elektrik"
+   },
+   "ex": {
+    "en": "Electricity is included in the rent."
+   }
+  },
+  {
+   "id": "home.water-bill",
+   "t": {
+    "en": "water bill",
+    "uk": "рахунок за воду",
+    "ru": "счёт за воду",
+    "pl": "rachunek za wodę",
+    "de": "Wasserrechnung",
+    "fr": "facture d'eau",
+    "es": "factura del agua",
+    "it": "bolletta dell'acqua",
+    "pt": "conta de água",
+    "tr": "su faturası"
+   },
+   "ex": {
+    "en": "The water bill arrived yesterday."
+   }
+  },
+  {
+   "id": "home.heating",
+   "t": {
+    "en": "heating",
+    "uk": "опалення",
+    "ru": "отопление",
+    "pl": "ogrzewanie",
+    "de": "Heizung",
+    "fr": "chauffage",
+    "es": "calefacción",
+    "it": "riscaldamento",
+    "pt": "aquecimento",
+    "tr": "ısıtma"
+   },
+   "ex": {
+    "en": "The heating does not work."
+   }
+  },
+  {
+   "id": "home.landlord",
+   "t": {
+    "en": "landlord",
+    "uk": "орендодавець",
+    "ru": "арендодатель",
+    "pl": "właściciel mieszkania",
+    "de": "Vermieter",
+    "fr": "propriétaire",
+    "es": "casero",
+    "it": "padrone di casa",
+    "pt": "proprietário",
+    "tr": "ev sahibi"
+   },
+   "ex": {
+    "en": "Call the landlord about the heating."
+   }
+  },
+  {
+   "id": "home.tenant",
+   "t": {
+    "en": "tenant",
+    "uk": "орендар",
+    "ru": "арендатор",
+    "pl": "najemca",
+    "de": "Mieter",
+    "fr": "locataire",
+    "es": "inquilino",
+    "it": "inquilino",
+    "pt": "inquilino",
+    "tr": "kiracı"
+   },
+   "ex": {
+    "en": "The new tenant moves in on Monday."
+   }
+  },
+  {
+   "id": "home.deposit",
+   "t": {
+    "en": "deposit",
+    "uk": "застава",
+    "ru": "залог",
+    "pl": "kaucja",
+    "de": "Kaution",
+    "fr": "caution",
+    "es": "fianza",
+    "it": "cauzione",
+    "pt": "caução",
+    "tr": "depozito"
+   },
+   "ex": {
+    "en": "The deposit is two months' rent."
+   }
+  },
+  {
+   "id": "home.to-move-in",
+   "t": {
+    "en": "to move in",
+    "uk": "заселятися",
+    "ru": "въезжать",
+    "pl": "wprowadzać się",
+    "de": "einziehen",
+    "fr": "emménager",
+    "es": "mudarse a",
+    "it": "trasferirsi",
+    "pt": "mudar-se para",
+    "tr": "taşınmak"
+   },
+   "ex": {
+    "en": "We move in next week."
+   }
+  },
+  {
+   "id": "home.to-move-out",
+   "t": {
+    "en": "to move out",
+    "uk": "виїжджати",
+    "ru": "съезжать",
+    "pl": "wyprowadzać się",
+    "de": "ausziehen",
+    "fr": "déménager",
+    "es": "mudarse de",
+    "it": "traslocare",
+    "pt": "mudar-se de",
+    "tr": "evden çıkmak"
+   },
+   "ex": {
+    "en": "They moved out last month."
+   }
+  },
+  {
+   "id": "home.to-tidy-up",
+   "t": {
+    "en": "to tidy up",
+    "uk": "наводити лад",
+    "ru": "наводить порядок",
+    "pl": "porządkować",
+    "de": "aufräumen",
+    "fr": "ranger",
+    "es": "ordenar",
+    "it": "mettere in ordine",
+    "pt": "arrumar",
+    "tr": "toplamak"
+   },
+   "ex": {
+    "en": "Tidy up your room, please."
+   }
+  },
+  {
+   "id": "home.to-do-the-laundry",
+   "t": {
+    "en": "to do the laundry",
+    "uk": "прати",
+    "ru": "стирать",
+    "pl": "robić pranie",
+    "de": "Wäsche waschen",
+    "fr": "faire la lessive",
+    "es": "hacer la colada",
+    "it": "fare il bucato",
+    "pt": "lavar roupa",
+    "tr": "çamaşır yıkamak"
+   },
+   "ex": {
+    "en": "I do the laundry on Sundays."
+   }
+  },
+  {
+   "id": "home.to-take-out-the-rubbish",
+   "t": {
+    "en": "to take out the rubbish",
+    "uk": "виносити сміття",
+    "ru": "выносить мусор",
+    "pl": "wynosić śmieci",
+    "de": "Müll rausbringen",
+    "fr": "sortir les poubelles",
+    "es": "sacar la basura",
+    "it": "portare fuori la spazzatura",
+    "pt": "tirar o lixo",
+    "tr": "çöpü atmak"
+   },
+   "ex": {
+    "en": "Can you take out the rubbish?"
+   }
+  },
+  {
+   "id": "home.to-vacuum",
+   "t": {
+    "en": "to vacuum",
+    "uk": "пилососити",
+    "ru": "пылесосить",
+    "pl": "odkurzać",
+    "de": "staubsaugen",
+    "fr": "passer l'aspirateur",
+    "es": "pasar la aspiradora",
+    "it": "passare l'aspirapolvere",
+    "pt": "passar o aspirador",
+    "tr": "süpürge çekmek"
+   },
+   "ex": {
+    "en": "I vacuum the carpet twice a week."
+   }
+  }
+ ]
+}

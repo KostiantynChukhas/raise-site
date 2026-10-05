@@ -1,0 +1,548 @@
+{
+ "id": "education-c1",
+ "topic": "education",
+ "level": "c1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "education.academia",
+   "t": {
+    "en": "academia",
+    "uk": "академічне середовище",
+    "ru": "академическая среда",
+    "pl": "środowisko akademickie",
+    "de": "akademische Welt",
+    "fr": "monde universitaire",
+    "es": "mundo académico",
+    "it": "mondo accademico",
+    "pt": "meio acadêmico",
+    "tr": "akademi dünyası"
+   },
+   "ex": {
+    "en": "She left academia for industry."
+   }
+  },
+  {
+   "id": "education.tenure",
+   "t": {
+    "en": "tenure",
+    "uk": "безстроковий контракт",
+    "ru": "бессрочный контракт",
+    "pl": "stała posada akademicka",
+    "de": "Lebenszeitprofessur",
+    "fr": "titularisation",
+    "es": "plaza fija",
+    "it": "cattedra a tempo indeterminato",
+    "pt": "estabilidade acadêmica",
+    "tr": "kadro"
+   },
+   "ex": {
+    "en": "He was granted tenure last year."
+   }
+  },
+  {
+   "id": "education.dissertation",
+   "t": {
+    "en": "dissertation",
+    "uk": "дисертація",
+    "ru": "диссертация",
+    "pl": "rozprawa doktorska",
+    "de": "Dissertation",
+    "fr": "thèse",
+    "es": "tesis doctoral",
+    "it": "tesi di dottorato",
+    "pt": "tese de doutorado",
+    "tr": "doktora tezi"
+   },
+   "ex": {
+    "en": "His dissertation ran to four hundred pages."
+   }
+  },
+  {
+   "id": "education.viva",
+   "t": {
+    "en": "viva",
+    "uk": "захист дисертації",
+    "ru": "защита диссертации",
+    "pl": "obrona doktoratu",
+    "de": "Disputation",
+    "fr": "soutenance",
+    "es": "defensa de tesis",
+    "it": "discussione della tesi",
+    "pt": "defesa de tese",
+    "tr": "tez savunması"
+   },
+   "ex": {
+    "en": "The viva lasted three hours."
+   }
+  },
+  {
+   "id": "education.peer-reviewed-journal",
+   "t": {
+    "en": "peer-reviewed journal",
+    "uk": "рецензований журнал",
+    "ru": "рецензируемый журнал",
+    "pl": "czasopismo recenzowane",
+    "de": "Fachzeitschrift mit Peer-Review",
+    "fr": "revue à comité de lecture",
+    "es": "revista arbitrada",
+    "it": "rivista peer-reviewed",
+    "pt": "revista com revisão por pares",
+    "tr": "hakemli dergi"
+   },
+   "ex": {
+    "en": "Her paper appeared in a peer-reviewed journal."
+   }
+  },
+  {
+   "id": "education.sabbatical",
+   "t": {
+    "en": "sabbatical",
+    "uk": "творча відпустка",
+    "ru": "творческий отпуск",
+    "pl": "urlop naukowy",
+    "de": "Forschungsfreisemester",
+    "fr": "congé sabbatique",
+    "es": "año sabático académico",
+    "it": "anno sabbatico accademico",
+    "pt": "licença sabática",
+    "tr": "araştırma izni"
+   },
+   "ex": {
+    "en": "The professor is on sabbatical this year."
+   }
+  },
+  {
+   "id": "education.alma-mater",
+   "t": {
+    "en": "alma mater",
+    "uk": "альма-матер",
+    "ru": "альма-матер",
+    "pl": "alma mater",
+    "de": "Alma Mater",
+    "fr": "alma mater",
+    "es": "alma máter",
+    "it": "alma mater",
+    "pt": "alma mater",
+    "tr": "mezun olunan okul"
+   },
+   "ex": {
+    "en": "He donated a library to his alma mater."
+   }
+  },
+  {
+   "id": "education.alumni",
+   "t": {
+    "en": "alumni",
+    "uk": "випускники",
+    "ru": "выпускники",
+    "pl": "absolwenci",
+    "de": "Ehemalige",
+    "fr": "anciens élèves",
+    "es": "antiguos alumnos",
+    "it": "ex studenti",
+    "pt": "ex-alunos",
+    "tr": "mezunlar"
+   },
+   "ex": {
+    "en": "The alumni network is very active."
+   }
+  },
+  {
+   "id": "education.rote-learning",
+   "t": {
+    "en": "rote learning",
+    "uk": "зубріння",
+    "ru": "зубрёжка",
+    "pl": "wkuwanie na pamięć",
+    "de": "Auswendiglernen",
+    "fr": "apprentissage par cœur",
+    "es": "aprendizaje memorístico",
+    "it": "apprendimento mnemonico",
+    "pt": "decoreba",
+    "tr": "ezberci öğrenme"
+   },
+   "ex": {
+    "en": "Rote learning rarely builds understanding."
+   }
+  },
+  {
+   "id": "education.critical-thinking",
+   "t": {
+    "en": "critical thinking",
+    "uk": "критичне мислення",
+    "ru": "критическое мышление",
+    "pl": "myślenie krytyczne",
+    "de": "kritisches Denken",
+    "fr": "esprit critique",
+    "es": "pensamiento crítico",
+    "it": "pensiero critico",
+    "pt": "pensamento crítico",
+    "tr": "eleştirel düşünme"
+   },
+   "ex": {
+    "en": "The course aims to develop critical thinking."
+   }
+  },
+  {
+   "id": "education.lifelong-learning",
+   "t": {
+    "en": "lifelong learning",
+    "uk": "навчання впродовж життя",
+    "ru": "обучение в течение всей жизни",
+    "pl": "uczenie się przez całe życie",
+    "de": "lebenslanges Lernen",
+    "fr": "formation tout au long de la vie",
+    "es": "aprendizaje permanente",
+    "it": "apprendimento permanente",
+    "pt": "aprendizagem ao longo da vida",
+    "tr": "hayat boyu öğrenme"
+   },
+   "ex": {
+    "en": "Lifelong learning keeps your skills fresh."
+   }
+  },
+  {
+   "id": "education.pedagogy",
+   "t": {
+    "en": "pedagogy",
+    "uk": "педагогіка",
+    "ru": "педагогика",
+    "pl": "pedagogika",
+    "de": "Pädagogik",
+    "fr": "pédagogie",
+    "es": "pedagogía",
+    "it": "pedagogia",
+    "pt": "pedagogia",
+    "tr": "pedagoji"
+   },
+   "ex": {
+    "en": "Her pedagogy relies on group work."
+   }
+  },
+  {
+   "id": "education.accreditation",
+   "t": {
+    "en": "accreditation",
+    "uk": "акредитація",
+    "ru": "аккредитация",
+    "pl": "akredytacja",
+    "de": "Akkreditierung",
+    "fr": "accréditation",
+    "es": "acreditación",
+    "it": "accreditamento",
+    "pt": "credenciamento",
+    "tr": "akreditasyon"
+   },
+   "ex": {
+    "en": "The programme lost its accreditation."
+   }
+  },
+  {
+   "id": "education.grade-inflation",
+   "t": {
+    "en": "grade inflation",
+    "uk": "завищення оцінок",
+    "ru": "завышение оценок",
+    "pl": "inflacja ocen",
+    "de": "Noteninflation",
+    "fr": "inflation des notes",
+    "es": "inflación de notas",
+    "it": "inflazione dei voti",
+    "pt": "inflação de notas",
+    "tr": "not enflasyonu"
+   },
+   "ex": {
+    "en": "Critics blame grade inflation for the results."
+   }
+  },
+  {
+   "id": "education.truancy",
+   "t": {
+    "en": "truancy",
+    "uk": "прогули",
+    "ru": "прогулы",
+    "pl": "wagary",
+    "de": "Schulschwänzen",
+    "fr": "absentéisme scolaire",
+    "es": "absentismo escolar",
+    "it": "assenteismo scolastico",
+    "pt": "evasão escolar",
+    "tr": "okuldan kaçma"
+   },
+   "ex": {
+    "en": "Truancy rates rose sharply last year."
+   }
+  },
+  {
+   "id": "education.to-expel",
+   "t": {
+    "en": "to expel",
+    "uk": "відрахувати",
+    "ru": "отчислить",
+    "pl": "wydalić",
+    "de": "ausschließen",
+    "fr": "renvoyer",
+    "es": "expulsar",
+    "it": "espellere",
+    "pt": "expulsar",
+    "tr": "okuldan atmak"
+   },
+   "ex": {
+    "en": "Two students were expelled for cheating."
+   }
+  },
+  {
+   "id": "education.to-grasp",
+   "t": {
+    "en": "to grasp",
+    "uk": "осягнути",
+    "ru": "уловить",
+    "pl": "pojąć",
+    "de": "begreifen",
+    "fr": "saisir",
+    "es": "captar",
+    "it": "afferrare",
+    "pt": "captar",
+    "tr": "kavramak"
+   },
+   "ex": {
+    "en": "She quickly grasped the main idea."
+   }
+  },
+  {
+   "id": "education.to-cram",
+   "t": {
+    "en": "to cram",
+    "uk": "зубрити",
+    "ru": "зубрить",
+    "pl": "wkuwać",
+    "de": "pauken",
+    "fr": "bachoter",
+    "es": "empollar",
+    "it": "sgobbare",
+    "pt": "estudar na véspera",
+    "tr": "ineklemek"
+   },
+   "ex": {
+    "en": "I crammed all night before the exam."
+   }
+  },
+  {
+   "id": "education.to-scrape-through",
+   "t": {
+    "en": "to scrape through",
+    "uk": "ледве скласти",
+    "ru": "еле сдать",
+    "pl": "ledwo zdać",
+    "de": "gerade so bestehen",
+    "fr": "réussir de justesse",
+    "es": "aprobar por los pelos",
+    "it": "passare per il rotto della cuffia",
+    "pt": "passar raspando",
+    "tr": "kıl payı geçmek"
+   },
+   "ex": {
+    "en": "He scraped through with the minimum mark."
+   }
+  },
+  {
+   "id": "education.to-excel",
+   "t": {
+    "en": "to excel",
+    "uk": "відзначатися",
+    "ru": "блистать",
+    "pl": "celować",
+    "de": "glänzen",
+    "fr": "exceller",
+    "es": "destacar",
+    "it": "eccellere",
+    "pt": "se destacar",
+    "tr": "üstün başarı göstermek"
+   },
+   "ex": {
+    "en": "She excelled in every subject."
+   }
+  },
+  {
+   "id": "education.to-sit-an-exam",
+   "t": {
+    "en": "to sit an exam",
+    "uk": "складати іспит",
+    "ru": "сдавать экзамен",
+    "pl": "przystępować do egzaminu",
+    "de": "eine Prüfung ablegen",
+    "fr": "passer un examen",
+    "es": "presentarse a un examen",
+    "it": "sostenere un esame",
+    "pt": "prestar um exame",
+    "tr": "sınava girmek"
+   },
+   "ex": {
+    "en": "Candidates sit the exam in May."
+   }
+  },
+  {
+   "id": "education.to-brush-up-on",
+   "t": {
+    "en": "to brush up on",
+    "uk": "освіжити знання",
+    "ru": "освежить знания",
+    "pl": "odświeżyć wiedzę",
+    "de": "auffrischen",
+    "fr": "se remettre à niveau",
+    "es": "refrescar",
+    "it": "rinfrescare",
+    "pt": "dar uma relembrada",
+    "tr": "bilgilerini tazelemek"
+   },
+   "ex": {
+    "en": "I need to brush up on my French."
+   }
+  },
+  {
+   "id": "education.learning-curve",
+   "t": {
+    "en": "learning curve",
+    "uk": "крива навчання",
+    "ru": "кривая обучения",
+    "pl": "krzywa uczenia się",
+    "de": "Lernkurve",
+    "fr": "courbe d'apprentissage",
+    "es": "curva de aprendizaje",
+    "it": "curva di apprendimento",
+    "pt": "curva de aprendizado",
+    "tr": "öğrenme eğrisi"
+   },
+   "ex": {
+    "en": "The software has a steep learning curve."
+   }
+  },
+  {
+   "id": "education.honours",
+   "t": {
+    "en": "honours",
+    "uk": "з відзнакою",
+    "ru": "с отличием",
+    "pl": "z wyróżnieniem",
+    "de": "mit Auszeichnung",
+    "fr": "avec mention",
+    "es": "con honores",
+    "it": "con lode",
+    "pt": "com louvor",
+    "tr": "onur derecesi"
+   },
+   "ex": {
+    "en": "She graduated with honours."
+   }
+  },
+  {
+   "id": "education.valedictorian",
+   "t": {
+    "en": "valedictorian",
+    "uk": "найкращий випускник",
+    "ru": "лучший выпускник",
+    "pl": "najlepszy absolwent",
+    "de": "Jahrgangsbester",
+    "fr": "major de promotion",
+    "es": "mejor estudiante de la promoción",
+    "it": "primo del corso",
+    "pt": "orador da turma",
+    "tr": "okul birincisi"
+   },
+   "ex": {
+    "en": "The valedictorian gave a moving speech."
+   }
+  },
+  {
+   "id": "education.special-needs",
+   "t": {
+    "en": "special needs",
+    "uk": "особливі освітні потреби",
+    "ru": "особые образовательные потребности",
+    "pl": "specjalne potrzeby edukacyjne",
+    "de": "Förderbedarf",
+    "fr": "besoins éducatifs particuliers",
+    "es": "necesidades educativas especiales",
+    "it": "bisogni educativi speciali",
+    "pt": "necessidades especiais",
+    "tr": "özel eğitim ihtiyacı"
+   },
+   "ex": {
+    "en": "The school supports pupils with special needs."
+   }
+  },
+  {
+   "id": "education.streaming",
+   "t": {
+    "en": "streaming",
+    "uk": "розподіл за рівнем",
+    "ru": "распределение по уровню",
+    "pl": "podział na poziomy",
+    "de": "Leistungsdifferenzierung",
+    "fr": "classes de niveau",
+    "es": "agrupación por niveles",
+    "it": "divisione per livelli",
+    "pt": "divisão por nível",
+    "tr": "seviye gruplaması"
+   },
+   "ex": {
+    "en": "Streaming by ability is controversial."
+   }
+  },
+  {
+   "id": "education.distance-learning",
+   "t": {
+    "en": "distance learning",
+    "uk": "дистанційне навчання",
+    "ru": "дистанционное обучение",
+    "pl": "nauczanie na odległość",
+    "de": "Fernunterricht",
+    "fr": "enseignement à distance",
+    "es": "educación a distancia",
+    "it": "didattica a distanza",
+    "pt": "ensino a distância",
+    "tr": "uzaktan eğitim"
+   },
+   "ex": {
+    "en": "Distance learning suits working parents."
+   }
+  },
+  {
+   "id": "education.underachiever",
+   "t": {
+    "en": "underachiever",
+    "uk": "той, хто вчиться нижче можливостей",
+    "ru": "не реализующий свой потенциал",
+    "pl": "uczeń poniżej możliwości",
+    "de": "Minderleister",
+    "fr": "élève sous-performant",
+    "es": "estudiante de bajo rendimiento",
+    "it": "studente sotto le aspettative",
+    "pt": "aluno abaixo do potencial",
+    "tr": "potansiyelinin altında kalan"
+   },
+   "ex": {
+    "en": "He was a bright but chronic underachiever."
+   }
+  },
+  {
+   "id": "education.in-depth",
+   "t": {
+    "en": "in-depth",
+    "uk": "поглиблений",
+    "ru": "углублённый",
+    "pl": "pogłębiony",
+    "de": "vertieft",
+    "fr": "approfondi",
+    "es": "en profundidad",
+    "it": "approfondito",
+    "pt": "aprofundado",
+    "tr": "derinlemesine"
+   },
+   "ex": {
+    "en": "The module offers in-depth analysis."
+   }
+  }
+ ]
+}

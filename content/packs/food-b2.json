@@ -1,0 +1,548 @@
+{
+ "id": "food-b2",
+ "topic": "food",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "food.to-season",
+   "t": {
+    "en": "to season",
+    "uk": "приправляти",
+    "ru": "приправлять",
+    "pl": "doprawiać",
+    "de": "würzen",
+    "fr": "assaisonner",
+    "es": "sazonar",
+    "it": "condire",
+    "pt": "temperar",
+    "tr": "baharatlamak"
+   },
+   "ex": {
+    "en": "Season the meat with pepper."
+   }
+  },
+  {
+   "id": "food.to-marinate",
+   "t": {
+    "en": "to marinate",
+    "uk": "маринувати",
+    "ru": "мариновать",
+    "pl": "marynować",
+    "de": "marinieren",
+    "fr": "faire mariner",
+    "es": "marinar",
+    "it": "marinare",
+    "pt": "marinar",
+    "tr": "marine etmek"
+   },
+   "ex": {
+    "en": "Marinate the chicken overnight."
+   }
+  },
+  {
+   "id": "food.to-simmer",
+   "t": {
+    "en": "to simmer",
+    "uk": "варити на повільному вогні",
+    "ru": "варить на медленном огне",
+    "pl": "gotować na wolnym ogniu",
+    "de": "köcheln lassen",
+    "fr": "laisser mijoter",
+    "es": "cocer a fuego lento",
+    "it": "far sobbollire",
+    "pt": "cozinhar em fogo baixo",
+    "tr": "kısık ateşte pişirmek"
+   },
+   "ex": {
+    "en": "Let the sauce simmer for an hour."
+   }
+  },
+  {
+   "id": "food.to-saute",
+   "t": {
+    "en": "to sauté",
+    "uk": "обсмажувати",
+    "ru": "обжаривать",
+    "pl": "podsmażać",
+    "de": "anbraten",
+    "fr": "faire sauter",
+    "es": "saltear",
+    "it": "saltare in padella",
+    "pt": "refogar",
+    "tr": "sote etmek"
+   },
+   "ex": {
+    "en": "Sauté the mushrooms in butter."
+   }
+  },
+  {
+   "id": "food.to-whisk",
+   "t": {
+    "en": "to whisk",
+    "uk": "збивати",
+    "ru": "взбивать",
+    "pl": "ubijać",
+    "de": "schlagen",
+    "fr": "fouetter",
+    "es": "batir",
+    "it": "sbattere",
+    "pt": "bater",
+    "tr": "çırpmak"
+   },
+   "ex": {
+    "en": "Whisk the eggs with sugar."
+   }
+  },
+  {
+   "id": "food.to-knead",
+   "t": {
+    "en": "to knead",
+    "uk": "місити",
+    "ru": "месить",
+    "pl": "wyrabiać",
+    "de": "kneten",
+    "fr": "pétrir",
+    "es": "amasar",
+    "it": "impastare",
+    "pt": "sovar",
+    "tr": "yoğurmak"
+   },
+   "ex": {
+    "en": "Knead the dough for ten minutes."
+   }
+  },
+  {
+   "id": "food.dough",
+   "t": {
+    "en": "dough",
+    "uk": "тісто",
+    "ru": "тесто",
+    "pl": "ciasto",
+    "de": "Teig",
+    "fr": "pâte",
+    "es": "masa",
+    "it": "impasto",
+    "pt": "massa",
+    "tr": "hamur"
+   },
+   "ex": {
+    "en": "Let the dough rise."
+   }
+  },
+  {
+   "id": "food.to-garnish",
+   "t": {
+    "en": "to garnish",
+    "uk": "прикрашати",
+    "ru": "украшать",
+    "pl": "dekorować",
+    "de": "garnieren",
+    "fr": "garnir",
+    "es": "decorar",
+    "it": "guarnire",
+    "pt": "decorar",
+    "tr": "süslemek"
+   },
+   "ex": {
+    "en": "Garnish with fresh parsley."
+   }
+  },
+  {
+   "id": "food.to-drizzle",
+   "t": {
+    "en": "to drizzle",
+    "uk": "збризнути",
+    "ru": "сбрызнуть",
+    "pl": "skropić",
+    "de": "beträufeln",
+    "fr": "arroser d'un filet",
+    "es": "rociar",
+    "it": "irrorare",
+    "pt": "regar",
+    "tr": "gezdirmek"
+   },
+   "ex": {
+    "en": "Drizzle olive oil over the salad."
+   }
+  },
+  {
+   "id": "food.to-dice",
+   "t": {
+    "en": "to dice",
+    "uk": "нарізати кубиками",
+    "ru": "нарезать кубиками",
+    "pl": "kroić w kostkę",
+    "de": "würfeln",
+    "fr": "couper en dés",
+    "es": "cortar en dados",
+    "it": "tagliare a dadini",
+    "pt": "cortar em cubos",
+    "tr": "küp küp doğramak"
+   },
+   "ex": {
+    "en": "Dice the carrots evenly."
+   }
+  },
+  {
+   "id": "food.a-pinch-of-salt",
+   "t": {
+    "en": "a pinch of salt",
+    "uk": "дрібка солі",
+    "ru": "щепотка соли",
+    "pl": "szczypta soli",
+    "de": "Prise Salz",
+    "fr": "pincée de sel",
+    "es": "pizca de sal",
+    "it": "pizzico di sale",
+    "pt": "pitada de sal",
+    "tr": "bir tutam tuz"
+   },
+   "ex": {
+    "en": "Add a pinch of salt."
+   }
+  },
+  {
+   "id": "food.tasting-menu",
+   "t": {
+    "en": "tasting menu",
+    "uk": "дегустаційне меню",
+    "ru": "дегустационное меню",
+    "pl": "menu degustacyjne",
+    "de": "Degustationsmenü",
+    "fr": "menu dégustation",
+    "es": "menú de degustación",
+    "it": "menu degustazione",
+    "pt": "menu degustação",
+    "tr": "tadım menüsü"
+   },
+   "ex": {
+    "en": "The tasting menu has eight courses."
+   }
+  },
+  {
+   "id": "food.set-menu",
+   "t": {
+    "en": "set menu",
+    "uk": "комплексний обід",
+    "ru": "комплексный обед",
+    "pl": "zestaw",
+    "de": "Menü",
+    "fr": "formule",
+    "es": "menú del día",
+    "it": "menu fisso",
+    "pt": "menu executivo",
+    "tr": "fiks menü"
+   },
+   "ex": {
+    "en": "The set menu is good value."
+   }
+  },
+  {
+   "id": "food.dietary-requirements",
+   "t": {
+    "en": "dietary requirements",
+    "uk": "дієтичні потреби",
+    "ru": "диетические потребности",
+    "pl": "wymagania dietetyczne",
+    "de": "Ernährungsbedürfnisse",
+    "fr": "régimes alimentaires particuliers",
+    "es": "necesidades dietéticas",
+    "it": "esigenze alimentari",
+    "pt": "restrições alimentares",
+    "tr": "diyet gereksinimleri"
+   },
+   "ex": {
+    "en": "Let us know any dietary requirements."
+   }
+  },
+  {
+   "id": "food.cross-contamination",
+   "t": {
+    "en": "cross-contamination",
+    "uk": "перехресне забруднення",
+    "ru": "перекрёстное загрязнение",
+    "pl": "zanieczyszczenie krzyżowe",
+    "de": "Kreuzkontamination",
+    "fr": "contamination croisée",
+    "es": "contaminación cruzada",
+    "it": "contaminazione crociata",
+    "pt": "contaminação cruzada",
+    "tr": "çapraz bulaşma"
+   },
+   "ex": {
+    "en": "Avoid cross-contamination with raw meat."
+   }
+  },
+  {
+   "id": "food.nutritional-information",
+   "t": {
+    "en": "nutritional information",
+    "uk": "харчова цінність",
+    "ru": "пищевая ценность",
+    "pl": "wartość odżywcza",
+    "de": "Nährwertangaben",
+    "fr": "valeurs nutritionnelles",
+    "es": "información nutricional",
+    "it": "valori nutrizionali",
+    "pt": "informação nutricional",
+    "tr": "besin değerleri"
+   },
+   "ex": {
+    "en": "Read the nutritional information on the label."
+   }
+  },
+  {
+   "id": "food.shelf-life",
+   "t": {
+    "en": "shelf life",
+    "uk": "термін зберігання",
+    "ru": "срок хранения",
+    "pl": "okres przydatności",
+    "de": "Haltbarkeit",
+    "fr": "durée de conservation",
+    "es": "vida útil",
+    "it": "conservabilità",
+    "pt": "prazo de validade",
+    "tr": "raf ömrü"
+   },
+   "ex": {
+    "en": "Canned food has a long shelf life."
+   }
+  },
+  {
+   "id": "food.catering",
+   "t": {
+    "en": "catering",
+    "uk": "кейтеринг",
+    "ru": "кейтеринг",
+    "pl": "catering",
+    "de": "Catering",
+    "fr": "traiteur",
+    "es": "catering",
+    "it": "catering",
+    "pt": "bufê",
+    "tr": "catering"
+   },
+   "ex": {
+    "en": "We hired catering for the wedding."
+   }
+  },
+  {
+   "id": "food.service-charge",
+   "t": {
+    "en": "service charge",
+    "uk": "плата за обслуговування",
+    "ru": "плата за обслуживание",
+    "pl": "opłata za obsługę",
+    "de": "Bedienungszuschlag",
+    "fr": "frais de service",
+    "es": "cargo por servicio",
+    "it": "servizio",
+    "pt": "taxa de serviço",
+    "tr": "servis ücreti"
+   },
+   "ex": {
+    "en": "A service charge is included."
+   }
+  },
+  {
+   "id": "food.to-split-the-bill",
+   "t": {
+    "en": "to split the bill",
+    "uk": "розділити рахунок",
+    "ru": "разделить счёт",
+    "pl": "podzielić rachunek",
+    "de": "die Rechnung teilen",
+    "fr": "partager l'addition",
+    "es": "dividir la cuenta",
+    "it": "dividere il conto",
+    "pt": "dividir a conta",
+    "tr": "hesabı bölüşmek"
+   },
+   "ex": {
+    "en": "Shall we split the bill?"
+   }
+  },
+  {
+   "id": "food.overcooked",
+   "t": {
+    "en": "overcooked",
+    "uk": "переварений",
+    "ru": "переваренный",
+    "pl": "rozgotowany",
+    "de": "verkocht",
+    "fr": "trop cuit",
+    "es": "demasiado hecho",
+    "it": "scotto",
+    "pt": "cozido demais",
+    "tr": "fazla pişmiş"
+   },
+   "ex": {
+    "en": "The pasta was overcooked."
+   }
+  },
+  {
+   "id": "food.undercooked",
+   "t": {
+    "en": "undercooked",
+    "uk": "недоварений",
+    "ru": "недоваренный",
+    "pl": "niedogotowany",
+    "de": "nicht durch",
+    "fr": "pas assez cuit",
+    "es": "poco cocinado",
+    "it": "poco cotto",
+    "pt": "malcozido",
+    "tr": "yeterince pişmemiş"
+   },
+   "ex": {
+    "en": "The chicken was undercooked."
+   }
+  },
+  {
+   "id": "food.bland",
+   "t": {
+    "en": "bland",
+    "uk": "прісний",
+    "ru": "пресный",
+    "pl": "mdły",
+    "de": "fad",
+    "fr": "fade",
+    "es": "soso",
+    "it": "insipido",
+    "pt": "sem gosto",
+    "tr": "yavan"
+   },
+   "ex": {
+    "en": "The soup was rather bland."
+   }
+  },
+  {
+   "id": "food.savoury",
+   "t": {
+    "en": "savoury",
+    "uk": "несолодкий",
+    "ru": "несладкий",
+    "pl": "wytrawny",
+    "de": "herzhaft",
+    "fr": "salé",
+    "es": "salado",
+    "it": "salato",
+    "pt": "salgado",
+    "tr": "tuzlu"
+   },
+   "ex": {
+    "en": "I prefer savoury snacks."
+   }
+  },
+  {
+   "id": "food.crispy",
+   "t": {
+    "en": "crispy",
+    "uk": "хрусткий",
+    "ru": "хрустящий",
+    "pl": "chrupiący",
+    "de": "knusprig",
+    "fr": "croustillant",
+    "es": "crujiente",
+    "it": "croccante",
+    "pt": "crocante",
+    "tr": "çıtır"
+   },
+   "ex": {
+    "en": "The skin should be crispy."
+   }
+  },
+  {
+   "id": "food.tender",
+   "t": {
+    "en": "tender",
+    "uk": "ніжний",
+    "ru": "нежный",
+    "pl": "delikatny",
+    "de": "zart",
+    "fr": "tendre",
+    "es": "tierno",
+    "it": "tenero",
+    "pt": "macio",
+    "tr": "yumuşak"
+   },
+   "ex": {
+    "en": "The lamb was wonderfully tender."
+   }
+  },
+  {
+   "id": "food.juicy",
+   "t": {
+    "en": "juicy",
+    "uk": "соковитий",
+    "ru": "сочный",
+    "pl": "soczysty",
+    "de": "saftig",
+    "fr": "juteux",
+    "es": "jugoso",
+    "it": "succoso",
+    "pt": "suculento",
+    "tr": "sulu"
+   },
+   "ex": {
+    "en": "These peaches are so juicy."
+   }
+  },
+  {
+   "id": "food.to-preheat",
+   "t": {
+    "en": "to preheat",
+    "uk": "попередньо розігріти",
+    "ru": "предварительно разогреть",
+    "pl": "nagrzać",
+    "de": "vorheizen",
+    "fr": "préchauffer",
+    "es": "precalentar",
+    "it": "preriscaldare",
+    "pt": "pré-aquecer",
+    "tr": "önceden ısıtmak"
+   },
+   "ex": {
+    "en": "Preheat the oven to 180 degrees."
+   }
+  },
+  {
+   "id": "food.to-deep-fry",
+   "t": {
+    "en": "to deep-fry",
+    "uk": "смажити у фритюрі",
+    "ru": "жарить во фритюре",
+    "pl": "smażyć w głębokim tłuszczu",
+    "de": "frittieren",
+    "fr": "faire frire dans l'huile",
+    "es": "freír en abundante aceite",
+    "it": "friggere in immersione",
+    "pt": "fritar por imersão",
+    "tr": "bol yağda kızartmak"
+   },
+   "ex": {
+    "en": "Deep-fry the dough until golden."
+   }
+  },
+  {
+   "id": "food.seasonal-produce",
+   "t": {
+    "en": "seasonal produce",
+    "uk": "сезонні продукти",
+    "ru": "сезонные продукты",
+    "pl": "produkty sezonowe",
+    "de": "saisonale Produkte",
+    "fr": "produits de saison",
+    "es": "productos de temporada",
+    "it": "prodotti di stagione",
+    "pt": "produtos da estação",
+    "tr": "mevsimlik ürünler"
+   },
+   "ex": {
+    "en": "The chef uses only seasonal produce."
+   }
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "id": "work-a1",
+ "topic": "work",
+ "level": "a1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "work.phone-call",
+   "t": {
+    "en": "phone call",
+    "uk": "телефонний дзвінок",
+    "ru": "телефонный звонок",
+    "pl": "rozmowa telefoniczna",
+    "de": "Anruf",
+    "fr": "appel téléphonique",
+    "es": "llamada",
+    "it": "telefonata",
+    "pt": "ligação",
+    "tr": "telefon görüşmesi"
+   },
+   "ex": {
+    "en": "I have a phone call at two."
+   }
+  },
+  {
+   "id": "work.lunch-break",
+   "t": {
+    "en": "lunch break",
+    "uk": "обідня перерва",
+    "ru": "обеденный перерыв",
+    "pl": "przerwa na lunch",
+    "de": "Mittagspause",
+    "fr": "pause déjeuner",
+    "es": "hora de comer",
+    "it": "pausa pranzo",
+    "pt": "horário de almoço",
+    "tr": "öğle tatili"
+   },
+   "ex": {
+    "en": "Lunch break is from twelve to one."
+   }
+  },
+  {
+   "id": "work.schedule",
+   "t": {
+    "en": "schedule",
+    "uk": "графік",
+    "ru": "график",
+    "pl": "grafik",
+    "de": "Zeitplan",
+    "fr": "horaire",
+    "es": "horario",
+    "it": "orario",
+    "pt": "horário",
+    "tr": "program"
+   },
+   "ex": {
+    "en": "What is your schedule this week?"
+   }
+  },
+  {
+   "id": "work.to-start-work",
+   "t": {
+    "en": "to start work",
+    "uk": "починати роботу",
+    "ru": "начинать работу",
+    "pl": "zaczynać pracę",
+    "de": "mit der Arbeit anfangen",
+    "fr": "commencer le travail",
+    "es": "empezar a trabajar",
+    "it": "iniziare a lavorare",
+    "pt": "começar a trabalhar",
+    "tr": "işe başlamak"
+   },
+   "ex": {
+    "en": "I start work at eight."
+   }
+  },
+  {
+   "id": "work.to-finish-work",
+   "t": {
+    "en": "to finish work",
+    "uk": "закінчувати роботу",
+    "ru": "заканчивать работу",
+    "pl": "kończyć pracę",
+    "de": "Feierabend machen",
+    "fr": "finir le travail",
+    "es": "terminar de trabajar",
+    "it": "finire di lavorare",
+    "pt": "terminar o trabalho",
+    "tr": "işten çıkmak"
+   },
+   "ex": {
+    "en": "We finish work at five."
+   }
+  },
+  {
+   "id": "work.vacation",
+   "t": {
+    "en": "vacation",
+    "uk": "відпустка",
+    "ru": "отпуск",
+    "pl": "urlop",
+    "de": "Urlaub",
+    "fr": "congés",
+    "es": "vacaciones",
+    "it": "ferie",
+    "pt": "férias",
+    "tr": "tatil"
+   },
+   "ex": {
+    "en": "I am on vacation next week."
+   }
+  },
+  {
+   "id": "work.day-off",
+   "t": {
+    "en": "day off",
+    "uk": "вихідний",
+    "ru": "выходной",
+    "pl": "dzień wolny",
+    "de": "freier Tag",
+    "fr": "jour de congé",
+    "es": "día libre",
+    "it": "giorno libero",
+    "pt": "dia de folga",
+    "tr": "izin günü"
+   },
+   "ex": {
+    "en": "Monday is my day off."
+   }
+  },
+  {
+   "id": "work.busy",
+   "t": {
+    "en": "busy",
+    "uk": "зайнятий",
+    "ru": "занятой",
+    "pl": "zajęty",
+    "de": "beschäftigt",
+    "fr": "occupé",
+    "es": "ocupado",
+    "it": "impegnato",
+    "pt": "ocupado",
+    "tr": "meşgul"
+   },
+   "ex": {
+    "en": "I am very busy today."
+   }
+  },
+  {
+   "id": "work.task",
+   "t": {
+    "en": "task",
+    "uk": "завдання",
+    "ru": "задача",
+    "pl": "zadanie",
+    "de": "Aufgabe",
+    "fr": "tâche",
+    "es": "tarea",
+    "it": "compito",
+    "pt": "tarefa",
+    "tr": "görev"
+   },
+   "ex": {
+    "en": "This task is easy."
+   }
+  },
+  {
+   "id": "work.to-help",
+   "t": {
+    "en": "to help",
+    "uk": "допомагати",
+    "ru": "помогать",
+    "pl": "pomagać",
+    "de": "helfen",
+    "fr": "aider",
+    "es": "ayudar",
+    "it": "aiutare",
+    "pt": "ajudar",
+    "tr": "yardım etmek"
+   },
+   "ex": {
+    "en": "Can you help me with this?"
+   }
+  },
+  {
+   "id": "work.interview",
+   "t": {
+    "en": "interview",
+    "uk": "співбесіда",
+    "ru": "собеседование",
+    "pl": "rozmowa kwalifikacyjna",
+    "de": "Vorstellungsgespräch",
+    "fr": "entretien",
+    "es": "entrevista",
+    "it": "colloquio",
+    "pt": "entrevista",
+    "tr": "mülakat"
+   },
+   "ex": {
+    "en": "My interview is on Friday."
+   }
+  },
+  {
+   "id": "work.to-hire",
+   "t": {
+    "en": "to hire",
+    "uk": "наймати",
+    "ru": "нанимать",
+    "pl": "zatrudniać",
+    "de": "einstellen",
+    "fr": "embaucher",
+    "es": "contratar",
+    "it": "assumere",
+    "pt": "contratar",
+    "tr": "işe almak"
+   },
+   "ex": {
+    "en": "They want to hire two people."
+   }
+  },
+  {
+   "id": "work.weekend",
+   "t": {
+    "en": "weekend",
+    "uk": "вихідні",
+    "ru": "выходные",
+    "pl": "weekend",
+    "de": "Wochenende",
+    "fr": "week-end",
+    "es": "fin de semana",
+    "it": "fine settimana",
+    "pt": "fim de semana",
+    "tr": "hafta sonu"
+   },
+   "ex": {
+    "en": "I don't work on the weekend."
+   }
+  },
+  {
+   "id": "work.full-time",
+   "t": {
+    "en": "full-time",
+    "uk": "на повну ставку",
+    "ru": "на полную ставку",
+    "pl": "na pełny etat",
+    "de": "Vollzeit",
+    "fr": "à temps plein",
+    "es": "a tiempo completo",
+    "it": "a tempo pieno",
+    "pt": "em tempo integral",
+    "tr": "tam zamanlı"
+   },
+   "ex": {
+    "en": "It is a full-time job."
+   }
+  },
+  {
+   "id": "work.part-time",
+   "t": {
+    "en": "part-time",
+    "uk": "на неповну ставку",
+    "ru": "на неполную ставку",
+    "pl": "na pół etatu",
+    "de": "Teilzeit",
+    "fr": "à temps partiel",
+    "es": "a tiempo parcial",
+    "it": "part-time",
+    "pt": "em meio período",
+    "tr": "yarı zamanlı"
+   },
+   "ex": {
+    "en": "She works part-time."
+   }
+  },
+  {
+   "id": "work.late",
+   "t": {
+    "en": "late",
+    "uk": "запізно",
+    "ru": "поздно",
+    "pl": "spóźniony",
+    "de": "spät",
+    "fr": "en retard",
+    "es": "tarde",
+    "it": "in ritardo",
+    "pt": "atrasado",
+    "tr": "geç"
+   },
+   "ex": {
+    "en": "Sorry, I am late."
+   }
+  },
+  {
+   "id": "work.worker",
+   "t": {
+    "en": "worker",
+    "uk": "робітник",
+    "ru": "рабочий",
+    "pl": "pracownik",
+    "de": "Arbeiter",
+    "fr": "ouvrier",
+    "es": "trabajador",
+    "it": "lavoratore",
+    "pt": "trabalhador",
+    "tr": "işçi"
+   },
+   "ex": {
+    "en": "The workers start at six."
+   }
+  },
+  {
+   "id": "work.night-shift",
+   "t": {
+    "en": "night shift",
+    "uk": "нічна зміна",
+    "ru": "ночная смена",
+    "pl": "nocna zmiana",
+    "de": "Nachtschicht",
+    "fr": "équipe de nuit",
+    "es": "turno de noche",
+    "it": "turno di notte",
+    "pt": "turno da noite",
+    "tr": "gece vardiyası"
+   },
+   "ex": {
+    "en": "I'm on the night shift this week."
+   }
+  },
+  {
+   "id": "work.on-time",
+   "t": {
+    "en": "on time",
+    "uk": "вчасно",
+    "ru": "вовремя",
+    "pl": "na czas",
+    "de": "pünktlich",
+    "fr": "à l'heure",
+    "es": "a tiempo",
+    "it": "in orario",
+    "pt": "na hora",
+    "tr": "zamanında"
+   },
+   "ex": {
+    "en": "Please be on time."
+   }
+  },
+  {
+   "id": "work.to-get-a-job",
+   "t": {
+    "en": "to get a job",
+    "uk": "отримати роботу",
+    "ru": "получить работу",
+    "pl": "dostać pracę",
+    "de": "Arbeit finden",
+    "fr": "trouver un travail",
+    "es": "conseguir trabajo",
+    "it": "trovare lavoro",
+    "pt": "conseguir um emprego",
+    "tr": "iş bulmak"
+   },
+   "ex": {
+    "en": "She got a job at the bank."
+   }
+  },
+  {
+   "id": "work.coffee-break",
+   "t": {
+    "en": "coffee break",
+    "uk": "перерва на каву",
+    "ru": "перерыв на кофе",
+    "pl": "przerwa na kawę",
+    "de": "Kaffeepause",
+    "fr": "pause-café",
+    "es": "pausa para el café",
+    "it": "pausa caffè",
+    "pt": "pausa para o café",
+    "tr": "kahve molası"
+   },
+   "ex": {
+    "en": "Let's have a coffee break."
+   }
+  },
+  {
+   "id": "work.to-get-paid",
+   "t": {
+    "en": "to get paid",
+    "uk": "отримувати зарплату",
+    "ru": "получать зарплату",
+    "pl": "dostawać wypłatę",
+    "de": "bezahlt werden",
+    "fr": "être payé",
+    "es": "cobrar",
+    "it": "essere pagato",
+    "pt": "receber o salário",
+    "tr": "maaş almak"
+   },
+   "ex": {
+    "en": "I get paid on Fridays."
+   }
+  },
+  {
+   "id": "work.per-hour",
+   "t": {
+    "en": "per hour",
+    "uk": "за годину",
+    "ru": "в час",
+    "pl": "za godzinę",
+    "de": "pro Stunde",
+    "fr": "de l'heure",
+    "es": "por hora",
+    "it": "all'ora",
+    "pt": "por hora",
+    "tr": "saat başına"
+   },
+   "ex": {
+    "en": "They pay twelve euros per hour."
+   }
+  },
+  {
+   "id": "work.to-answer-the-phone",
+   "t": {
+    "en": "to answer the phone",
+    "uk": "відповідати на дзвінок",
+    "ru": "отвечать на звонок",
+    "pl": "odbierać telefon",
+    "de": "ans Telefon gehen",
+    "fr": "répondre au téléphone",
+    "es": "contestar el teléfono",
+    "it": "rispondere al telefono",
+    "pt": "atender o telefone",
+    "tr": "telefona cevap vermek"
+   },
+   "ex": {
+    "en": "Can you answer the phone, please?"
+   }
+  },
+  {
+   "id": "work.new-job",
+   "t": {
+    "en": "new job",
+    "uk": "нова робота",
+    "ru": "новая работа",
+    "pl": "nowa praca",
+    "de": "neuer Job",
+    "fr": "nouveau travail",
+    "es": "trabajo nuevo",
+    "it": "nuovo lavoro",
+    "pt": "emprego novo",
+    "tr": "yeni iş"
+   },
+   "ex": {
+    "en": "I start my new job on Monday."
+   }
+  },
+  {
+   "id": "work.first-day",
+   "t": {
+    "en": "first day",
+    "uk": "перший день",
+    "ru": "первый день",
+    "pl": "pierwszy dzień",
+    "de": "erster Tag",
+    "fr": "premier jour",
+    "es": "primer día",
+    "it": "primo giorno",
+    "pt": "primeiro dia",
+    "tr": "ilk gün"
+   },
+   "ex": {
+    "en": "Today is my first day at work."
+   }
+  },
+  {
+   "id": "work.to-have-lunch",
+   "t": {
+    "en": "to have lunch",
+    "uk": "обідати",
+    "ru": "обедать",
+    "pl": "jeść lunch",
+    "de": "zu Mittag essen",
+    "fr": "déjeuner",
+    "es": "almorzar",
+    "it": "pranzare",
+    "pt": "almoçar",
+    "tr": "öğle yemeği yemek"
+   },
+   "ex": {
+    "en": "We have lunch at one."
+   }
+  },
+  {
+   "id": "work.hard-working",
+   "t": {
+    "en": "hard-working",
+    "uk": "працьовитий",
+    "ru": "трудолюбивый",
+    "pl": "pracowity",
+    "de": "fleißig",
+    "fr": "travailleur",
+    "es": "trabajador",
+    "it": "laborioso",
+    "pt": "trabalhador",
+    "tr": "çalışkan"
+   },
+   "ex": {
+    "en": "She is a hard-working nurse."
+   }
+  },
+  {
+   "id": "work.cook",
+   "t": {
+    "en": "cook",
+    "uk": "кухар",
+    "ru": "повар",
+    "pl": "kucharz",
+    "de": "Koch",
+    "fr": "cuisinier",
+    "es": "cocinero",
+    "it": "cuoco",
+    "pt": "cozinheiro",
+    "tr": "aşçı"
+   },
+   "ex": {
+    "en": "He works as a cook."
+   }
+  },
+  {
+   "id": "work.cleaner",
+   "t": {
+    "en": "cleaner",
+    "uk": "прибиральник",
+    "ru": "уборщик",
+    "pl": "sprzątacz",
+    "de": "Reinigungskraft",
+    "fr": "agent d'entretien",
+    "es": "limpiador",
+    "it": "addetto alle pulizie",
+    "pt": "faxineiro",
+    "tr": "temizlikçi"
+   },
+   "ex": {
+    "en": "The cleaner comes every morning."
+   }
+  }
+ ]
+}

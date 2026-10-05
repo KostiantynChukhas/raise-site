@@ -1,0 +1,458 @@
+{
+ "id": "finance-a2",
+ "topic": "finance",
+ "level": "a2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "finance.bank-account",
+   "t": {
+    "en": "bank account",
+    "uk": "банківський рахунок",
+    "ru": "банковский счёт",
+    "pl": "konto bankowe",
+    "de": "Bankkonto",
+    "fr": "compte bancaire",
+    "es": "cuenta bancaria",
+    "it": "conto bancario",
+    "pt": "conta bancária",
+    "tr": "banka hesabı"
+   },
+   "ex": {
+    "en": "I opened a bank account yesterday."
+   }
+  },
+  {
+   "id": "finance.credit-card",
+   "t": {
+    "en": "credit card",
+    "uk": "кредитна картка",
+    "ru": "кредитная карта",
+    "pl": "karta kredytowa",
+    "de": "Kreditkarte",
+    "fr": "carte de crédit",
+    "es": "tarjeta de crédito",
+    "it": "carta di credito",
+    "pt": "cartão de crédito",
+    "tr": "kredi kartı"
+   },
+   "ex": {
+    "en": "I paid with my credit card."
+   }
+  },
+  {
+   "id": "finance.debit-card",
+   "t": {
+    "en": "debit card",
+    "uk": "дебетова картка",
+    "ru": "дебетовая карта",
+    "pl": "karta debetowa",
+    "de": "Debitkarte",
+    "fr": "carte de débit",
+    "es": "tarjeta de débito",
+    "it": "carta di debito",
+    "pt": "cartão de débito",
+    "tr": "banka kartı"
+   },
+   "ex": {
+    "en": "My debit card expires next month."
+   }
+  },
+  {
+   "id": "finance.to-open-an-account",
+   "t": {
+    "en": "to open an account",
+    "uk": "відкрити рахунок",
+    "ru": "открыть счёт",
+    "pl": "założyć konto",
+    "de": "Konto eröffnen",
+    "fr": "ouvrir un compte",
+    "es": "abrir una cuenta",
+    "it": "aprire un conto",
+    "pt": "abrir uma conta",
+    "tr": "hesap açmak"
+   },
+   "ex": {
+    "en": "You need your passport to open an account."
+   }
+  },
+  {
+   "id": "finance.to-deposit-money",
+   "t": {
+    "en": "to deposit money",
+    "uk": "вносити гроші",
+    "ru": "вносить деньги",
+    "pl": "wpłacać pieniądze",
+    "de": "Geld einzahlen",
+    "fr": "déposer de l'argent",
+    "es": "ingresar dinero",
+    "it": "versare denaro",
+    "pt": "depositar dinheiro",
+    "tr": "para yatırmak"
+   },
+   "ex": {
+    "en": "I deposited money into my account."
+   }
+  },
+  {
+   "id": "finance.to-transfer-money",
+   "t": {
+    "en": "to transfer money",
+    "uk": "переказувати гроші",
+    "ru": "переводить деньги",
+    "pl": "przelewać pieniądze",
+    "de": "Geld überweisen",
+    "fr": "virer de l'argent",
+    "es": "transferir dinero",
+    "it": "trasferire denaro",
+    "pt": "transferir dinheiro",
+    "tr": "para transfer etmek"
+   },
+   "ex": {
+    "en": "Can you transfer money to my account?"
+   }
+  },
+  {
+   "id": "finance.online-banking",
+   "t": {
+    "en": "online banking",
+    "uk": "онлайн-банкінг",
+    "ru": "онлайн-банкинг",
+    "pl": "bankowość internetowa",
+    "de": "Online-Banking",
+    "fr": "banque en ligne",
+    "es": "banca en línea",
+    "it": "banca online",
+    "pt": "internet banking",
+    "tr": "internet bankacılığı"
+   },
+   "ex": {
+    "en": "I use online banking every day."
+   }
+  },
+  {
+   "id": "finance.banking-app",
+   "t": {
+    "en": "banking app",
+    "uk": "банківський застосунок",
+    "ru": "банковское приложение",
+    "pl": "aplikacja bankowa",
+    "de": "Banking-App",
+    "fr": "application bancaire",
+    "es": "aplicación del banco",
+    "it": "app della banca",
+    "pt": "aplicativo do banco",
+    "tr": "banka uygulaması"
+   },
+   "ex": {
+    "en": "The banking app shows my balance."
+   }
+  },
+  {
+   "id": "finance.balance",
+   "t": {
+    "en": "balance",
+    "uk": "баланс",
+    "ru": "баланс",
+    "pl": "saldo",
+    "de": "Kontostand",
+    "fr": "solde",
+    "es": "saldo",
+    "it": "saldo",
+    "pt": "saldo",
+    "tr": "bakiye"
+   },
+   "ex": {
+    "en": "My balance is almost zero."
+   }
+  },
+  {
+   "id": "finance.to-check-the-balance",
+   "t": {
+    "en": "to check the balance",
+    "uk": "перевірити баланс",
+    "ru": "проверить баланс",
+    "pl": "sprawdzić saldo",
+    "de": "Kontostand prüfen",
+    "fr": "vérifier le solde",
+    "es": "consultar el saldo",
+    "it": "controllare il saldo",
+    "pt": "consultar o saldo",
+    "tr": "bakiyeyi kontrol etmek"
+   },
+   "ex": {
+    "en": "Let me check the balance first."
+   }
+  },
+  {
+   "id": "finance.loan",
+   "t": {
+    "en": "loan",
+    "uk": "позика",
+    "ru": "кредит",
+    "pl": "pożyczka",
+    "de": "Kredit",
+    "fr": "prêt",
+    "es": "préstamo",
+    "it": "prestito",
+    "pt": "empréstimo",
+    "tr": "kredi"
+   },
+   "ex": {
+    "en": "We took a loan for the car."
+   }
+  },
+  {
+   "id": "finance.to-borrow",
+   "t": {
+    "en": "to borrow",
+    "uk": "позичати (у когось)",
+    "ru": "занимать (у кого-то)",
+    "pl": "pożyczać (od kogoś)",
+    "de": "sich leihen",
+    "fr": "emprunter",
+    "es": "pedir prestado",
+    "it": "prendere in prestito",
+    "pt": "pegar emprestado",
+    "tr": "ödünç almak"
+   },
+   "ex": {
+    "en": "Can I borrow twenty euros?"
+   }
+  },
+  {
+   "id": "finance.to-lend",
+   "t": {
+    "en": "to lend",
+    "uk": "позичати (комусь)",
+    "ru": "одалживать (кому-то)",
+    "pl": "pożyczać (komuś)",
+    "de": "leihen",
+    "fr": "prêter",
+    "es": "prestar",
+    "it": "prestare",
+    "pt": "emprestar",
+    "tr": "ödünç vermek"
+   },
+   "ex": {
+    "en": "I lent him some money."
+   }
+  },
+  {
+   "id": "finance.debt",
+   "t": {
+    "en": "debt",
+    "uk": "борг",
+    "ru": "долг",
+    "pl": "dług",
+    "de": "Schulden",
+    "fr": "dette",
+    "es": "deuda",
+    "it": "debito",
+    "pt": "dívida",
+    "tr": "borç"
+   },
+   "ex": {
+    "en": "He has a big debt."
+   }
+  },
+  {
+   "id": "finance.utility-bills",
+   "t": {
+    "en": "utility bills",
+    "uk": "комунальні платежі",
+    "ru": "коммунальные платежи",
+    "pl": "rachunki za media",
+    "de": "Nebenkosten",
+    "fr": "factures d'énergie",
+    "es": "facturas de servicios",
+    "it": "bollette",
+    "pt": "contas de luz e água",
+    "tr": "faturalar"
+   },
+   "ex": {
+    "en": "Utility bills are high in winter."
+   }
+  },
+  {
+   "id": "finance.to-pay-the-bill",
+   "t": {
+    "en": "to pay the bill",
+    "uk": "оплатити рахунок",
+    "ru": "оплатить счёт",
+    "pl": "zapłacić rachunek",
+    "de": "Rechnung bezahlen",
+    "fr": "régler la facture",
+    "es": "pagar la factura",
+    "it": "pagare il conto",
+    "pt": "pagar a conta",
+    "tr": "faturayı ödemek"
+   },
+   "ex": {
+    "en": "I forgot to pay the bill."
+   }
+  },
+  {
+   "id": "finance.exchange-rate",
+   "t": {
+    "en": "exchange rate",
+    "uk": "курс валют",
+    "ru": "курс валют",
+    "pl": "kurs wymiany",
+    "de": "Wechselkurs",
+    "fr": "taux de change",
+    "es": "tipo de cambio",
+    "it": "tasso di cambio",
+    "pt": "taxa de câmbio",
+    "tr": "döviz kuru"
+   },
+   "ex": {
+    "en": "The exchange rate is good today."
+   }
+  },
+  {
+   "id": "finance.to-exchange-money",
+   "t": {
+    "en": "to exchange money",
+    "uk": "обмінювати гроші",
+    "ru": "обменивать деньги",
+    "pl": "wymieniać pieniądze",
+    "de": "Geld wechseln",
+    "fr": "changer de l'argent",
+    "es": "cambiar dinero",
+    "it": "cambiare soldi",
+    "pt": "trocar dinheiro",
+    "tr": "para bozdurmak"
+   },
+   "ex": {
+    "en": "Where can I exchange money?"
+   }
+  },
+  {
+   "id": "finance.currency",
+   "t": {
+    "en": "currency",
+    "uk": "валюта",
+    "ru": "валюта",
+    "pl": "waluta",
+    "de": "Währung",
+    "fr": "devise",
+    "es": "moneda",
+    "it": "valuta",
+    "pt": "moeda",
+    "tr": "para birimi"
+   },
+   "ex": {
+    "en": "What currency do they use in Turkey?"
+   }
+  },
+  {
+   "id": "finance.income",
+   "t": {
+    "en": "income",
+    "uk": "дохід",
+    "ru": "доход",
+    "pl": "dochód",
+    "de": "Einkommen",
+    "fr": "revenu",
+    "es": "ingresos",
+    "it": "reddito",
+    "pt": "renda",
+    "tr": "gelir"
+   },
+   "ex": {
+    "en": "Our income went up this year."
+   }
+  },
+  {
+   "id": "finance.expenses",
+   "t": {
+    "en": "expenses",
+    "uk": "витрати",
+    "ru": "расходы",
+    "pl": "wydatki",
+    "de": "Ausgaben",
+    "fr": "dépenses",
+    "es": "gastos",
+    "it": "spese",
+    "pt": "despesas",
+    "tr": "giderler"
+   },
+   "ex": {
+    "en": "I write down all my expenses."
+   }
+  },
+  {
+   "id": "finance.tax",
+   "t": {
+    "en": "tax",
+    "uk": "податок",
+    "ru": "налог",
+    "pl": "podatek",
+    "de": "Steuer",
+    "fr": "impôt",
+    "es": "impuesto",
+    "it": "tassa",
+    "pt": "imposto",
+    "tr": "vergi"
+   },
+   "ex": {
+    "en": "The price includes tax."
+   }
+  },
+  {
+   "id": "finance.monthly-payment",
+   "t": {
+    "en": "monthly payment",
+    "uk": "щомісячний платіж",
+    "ru": "ежемесячный платёж",
+    "pl": "miesięczna rata",
+    "de": "Monatsrate",
+    "fr": "mensualité",
+    "es": "cuota mensual",
+    "it": "rata mensile",
+    "pt": "parcela mensal",
+    "tr": "aylık ödeme"
+   },
+   "ex": {
+    "en": "The monthly payment is 200 euros."
+   }
+  },
+  {
+   "id": "finance.savings",
+   "t": {
+    "en": "savings",
+    "uk": "заощадження",
+    "ru": "сбережения",
+    "pl": "oszczędności",
+    "de": "Ersparnisse",
+    "fr": "économies",
+    "es": "ahorros",
+    "it": "risparmi",
+    "pt": "poupança",
+    "tr": "birikim"
+   },
+   "ex": {
+    "en": "I used my savings for the holiday."
+   }
+  },
+  {
+   "id": "finance.to-owe",
+   "t": {
+    "en": "to owe",
+    "uk": "бути винним",
+    "ru": "быть должным",
+    "pl": "być winnym",
+    "de": "schulden",
+    "fr": "devoir",
+    "es": "deber",
+    "it": "dovere",
+    "pt": "dever",
+    "tr": "borçlu olmak"
+   },
+   "ex": {
+    "en": "You owe me ten euros."
+   }
+  }
+ ]
+}

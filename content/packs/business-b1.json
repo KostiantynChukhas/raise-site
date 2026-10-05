@@ -1,0 +1,494 @@
+{
+ "id": "business-b1",
+ "topic": "business",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "business.to-make-a-deal",
+   "t": {
+    "en": "to make a deal",
+    "uk": "укласти угоду",
+    "ru": "заключить сделку",
+    "pl": "zawrzeć umowę",
+    "de": "Geschäft abschließen",
+    "fr": "conclure un accord",
+    "es": "cerrar un trato",
+    "it": "concludere un affare",
+    "pt": "fechar um negócio",
+    "tr": "anlaşma yapmak"
+   },
+   "ex": {
+    "en": "We made a deal with the supplier."
+   }
+  },
+  {
+   "id": "business.proposal",
+   "t": {
+    "en": "proposal",
+    "uk": "ділова пропозиція",
+    "ru": "коммерческое предложение",
+    "pl": "propozycja",
+    "de": "Vorschlag",
+    "fr": "proposition",
+    "es": "propuesta",
+    "it": "proposta",
+    "pt": "proposta",
+    "tr": "öneri"
+   },
+   "ex": {
+    "en": "Send us your proposal by Friday."
+   }
+  },
+  {
+   "id": "business.quote",
+   "t": {
+    "en": "quote",
+    "uk": "цінова пропозиція",
+    "ru": "расчёт стоимости",
+    "pl": "wycena",
+    "de": "Kostenvoranschlag",
+    "fr": "devis",
+    "es": "presupuesto",
+    "it": "preventivo",
+    "pt": "orçamento",
+    "tr": "fiyat teklifi"
+   },
+   "ex": {
+    "en": "Can you send me a quote?"
+   }
+  },
+  {
+   "id": "business.terms-and-conditions",
+   "t": {
+    "en": "terms and conditions",
+    "uk": "умови договору",
+    "ru": "условия договора",
+    "pl": "warunki umowy",
+    "de": "Geschäftsbedingungen",
+    "fr": "conditions générales",
+    "es": "términos y condiciones",
+    "it": "termini e condizioni",
+    "pt": "termos e condições",
+    "tr": "şartlar ve koşullar"
+   },
+   "ex": {
+    "en": "Please read the terms and conditions."
+   }
+  },
+  {
+   "id": "business.to-meet-a-deadline",
+   "t": {
+    "en": "to meet a deadline",
+    "uk": "вкластися в термін",
+    "ru": "уложиться в срок",
+    "pl": "dotrzymać terminu",
+    "de": "Frist einhalten",
+    "fr": "respecter un délai",
+    "es": "cumplir el plazo",
+    "it": "rispettare la scadenza",
+    "pt": "cumprir o prazo",
+    "tr": "son tarihe yetişmek"
+   },
+   "ex": {
+    "en": "We must meet the deadline."
+   }
+  },
+  {
+   "id": "business.sales-target",
+   "t": {
+    "en": "sales target",
+    "uk": "план продажів",
+    "ru": "план продаж",
+    "pl": "cel sprzedażowy",
+    "de": "Verkaufsziel",
+    "fr": "objectif de vente",
+    "es": "objetivo de ventas",
+    "it": "obiettivo di vendita",
+    "pt": "meta de vendas",
+    "tr": "satış hedefi"
+   },
+   "ex": {
+    "en": "We reached our sales target."
+   }
+  },
+  {
+   "id": "business.revenue",
+   "t": {
+    "en": "revenue",
+    "uk": "дохід",
+    "ru": "выручка",
+    "pl": "przychód",
+    "de": "Umsatz",
+    "fr": "chiffre d'affaires",
+    "es": "ingresos",
+    "it": "fatturato",
+    "pt": "receita",
+    "tr": "gelir"
+   },
+   "ex": {
+    "en": "Revenue grew by ten percent."
+   }
+  },
+  {
+   "id": "business.costs",
+   "t": {
+    "en": "costs",
+    "uk": "витрати",
+    "ru": "расходы",
+    "pl": "koszty",
+    "de": "Kosten",
+    "fr": "coûts",
+    "es": "costes",
+    "it": "costi",
+    "pt": "custos",
+    "tr": "maliyetler"
+   },
+   "ex": {
+    "en": "We need to cut costs."
+   }
+  },
+  {
+   "id": "business.to-invest",
+   "t": {
+    "en": "to invest",
+    "uk": "інвестувати",
+    "ru": "инвестировать",
+    "pl": "inwestować",
+    "de": "investieren",
+    "fr": "investir",
+    "es": "invertir",
+    "it": "investire",
+    "pt": "investir",
+    "tr": "yatırım yapmak"
+   },
+   "ex": {
+    "en": "They invested in new machines."
+   }
+  },
+  {
+   "id": "business.investor",
+   "t": {
+    "en": "investor",
+    "uk": "інвестор",
+    "ru": "инвестор",
+    "pl": "inwestor",
+    "de": "Investor",
+    "fr": "investisseur",
+    "es": "inversor",
+    "it": "investitore",
+    "pt": "investidor",
+    "tr": "yatırımcı"
+   },
+   "ex": {
+    "en": "We are looking for an investor."
+   }
+  },
+  {
+   "id": "business.business-partner",
+   "t": {
+    "en": "business partner",
+    "uk": "бізнес-партнер",
+    "ru": "бизнес-партнёр",
+    "pl": "wspólnik",
+    "de": "Geschäftspartner",
+    "fr": "partenaire commercial",
+    "es": "socio",
+    "it": "socio in affari",
+    "pt": "sócio",
+    "tr": "iş ortağı"
+   },
+   "ex": {
+    "en": "My business partner handles sales."
+   }
+  },
+  {
+   "id": "business.branch",
+   "t": {
+    "en": "branch",
+    "uk": "філія",
+    "ru": "филиал",
+    "pl": "oddział",
+    "de": "Filiale",
+    "fr": "succursale",
+    "es": "sucursal",
+    "it": "filiale",
+    "pt": "filial",
+    "tr": "şube"
+   },
+   "ex": {
+    "en": "We opened a branch in Berlin."
+   }
+  },
+  {
+   "id": "business.headquarters",
+   "t": {
+    "en": "headquarters",
+    "uk": "головний офіс",
+    "ru": "головной офис",
+    "pl": "siedziba główna",
+    "de": "Hauptsitz",
+    "fr": "siège social",
+    "es": "sede central",
+    "it": "sede centrale",
+    "pt": "sede",
+    "tr": "genel merkez"
+   },
+   "ex": {
+    "en": "The headquarters are in London."
+   }
+  },
+  {
+   "id": "business.to-launch",
+   "t": {
+    "en": "to launch",
+    "uk": "запускати",
+    "ru": "запускать",
+    "pl": "wprowadzać na rynek",
+    "de": "einführen",
+    "fr": "lancer",
+    "es": "lanzar",
+    "it": "lanciare",
+    "pt": "lançar",
+    "tr": "piyasaya sürmek"
+   },
+   "ex": {
+    "en": "We will launch the app in May."
+   }
+  },
+  {
+   "id": "business.campaign",
+   "t": {
+    "en": "campaign",
+    "uk": "кампанія",
+    "ru": "кампания",
+    "pl": "kampania",
+    "de": "Kampagne",
+    "fr": "campagne",
+    "es": "campaña",
+    "it": "campagna",
+    "pt": "campanha",
+    "tr": "kampanya"
+   },
+   "ex": {
+    "en": "The campaign starts next month."
+   }
+  },
+  {
+   "id": "business.feedback",
+   "t": {
+    "en": "feedback",
+    "uk": "відгук",
+    "ru": "обратная связь",
+    "pl": "opinia",
+    "de": "Feedback",
+    "fr": "retour",
+    "es": "comentarios",
+    "it": "feedback",
+    "pt": "feedback",
+    "tr": "geri bildirim"
+   },
+   "ex": {
+    "en": "We got positive feedback from clients."
+   }
+  },
+  {
+   "id": "business.to-compromise",
+   "t": {
+    "en": "to compromise",
+    "uk": "іти на компроміс",
+    "ru": "идти на компромисс",
+    "pl": "iść na kompromis",
+    "de": "Kompromiss eingehen",
+    "fr": "faire un compromis",
+    "es": "ceder",
+    "it": "scendere a compromessi",
+    "pt": "chegar a um meio-termo",
+    "tr": "uzlaşmak"
+   },
+   "ex": {
+    "en": "Both sides had to compromise."
+   }
+  },
+  {
+   "id": "business.warranty",
+   "t": {
+    "en": "warranty",
+    "uk": "гарантія",
+    "ru": "гарантия",
+    "pl": "gwarancja",
+    "de": "Garantie",
+    "fr": "garantie",
+    "es": "garantía",
+    "it": "garanzia",
+    "pt": "garantia",
+    "tr": "garanti"
+   },
+   "ex": {
+    "en": "The warranty lasts two years."
+   }
+  },
+  {
+   "id": "business.to-recruit",
+   "t": {
+    "en": "to recruit",
+    "uk": "набирати персонал",
+    "ru": "набирать персонал",
+    "pl": "rekrutować",
+    "de": "rekrutieren",
+    "fr": "recruter",
+    "es": "reclutar",
+    "it": "reclutare",
+    "pt": "recrutar",
+    "tr": "eleman almak"
+   },
+   "ex": {
+    "en": "We are recruiting new staff."
+   }
+  },
+  {
+   "id": "business.to-resign",
+   "t": {
+    "en": "to resign",
+    "uk": "звільнятися",
+    "ru": "увольняться",
+    "pl": "rezygnować z pracy",
+    "de": "kündigen",
+    "fr": "démissionner",
+    "es": "dimitir",
+    "it": "dimettersi",
+    "pt": "pedir demissão",
+    "tr": "istifa etmek"
+   },
+   "ex": {
+    "en": "He resigned after five years."
+   }
+  },
+  {
+   "id": "business.employer",
+   "t": {
+    "en": "employer",
+    "uk": "роботодавець",
+    "ru": "работодатель",
+    "pl": "pracodawca",
+    "de": "Arbeitgeber",
+    "fr": "employeur",
+    "es": "empleador",
+    "it": "datore di lavoro",
+    "pt": "empregador",
+    "tr": "işveren"
+   },
+   "ex": {
+    "en": "My employer offers health insurance."
+   }
+  },
+  {
+   "id": "business.strategy",
+   "t": {
+    "en": "strategy",
+    "uk": "стратегія",
+    "ru": "стратегия",
+    "pl": "strategia",
+    "de": "Strategie",
+    "fr": "stratégie",
+    "es": "estrategia",
+    "it": "strategia",
+    "pt": "estratégia",
+    "tr": "strateji"
+   },
+   "ex": {
+    "en": "We need a new marketing strategy."
+   }
+  },
+  {
+   "id": "business.agreement",
+   "t": {
+    "en": "agreement",
+    "uk": "угода",
+    "ru": "соглашение",
+    "pl": "porozumienie",
+    "de": "Vereinbarung",
+    "fr": "accord",
+    "es": "acuerdo",
+    "it": "accordo",
+    "pt": "acordo",
+    "tr": "anlaşma"
+   },
+   "ex": {
+    "en": "Both sides signed the agreement."
+   }
+  },
+  {
+   "id": "business.to-expand",
+   "t": {
+    "en": "to expand",
+    "uk": "розширюватися",
+    "ru": "расширяться",
+    "pl": "rozwijać się",
+    "de": "expandieren",
+    "fr": "se développer",
+    "es": "expandirse",
+    "it": "espandersi",
+    "pt": "expandir",
+    "tr": "büyümek"
+   },
+   "ex": {
+    "en": "The company wants to expand abroad."
+   }
+  },
+  {
+   "id": "business.staff",
+   "t": {
+    "en": "staff",
+    "uk": "персонал",
+    "ru": "персонал",
+    "pl": "personel",
+    "de": "Personal",
+    "fr": "personnel",
+    "es": "personal",
+    "it": "personale",
+    "pt": "pessoal",
+    "tr": "personel"
+   },
+   "ex": {
+    "en": "The staff work very hard."
+   }
+  },
+  {
+   "id": "business.to-promote",
+   "t": {
+    "en": "to promote",
+    "uk": "підвищувати на посаді",
+    "ru": "повышать в должности",
+    "pl": "awansować",
+    "de": "befördern",
+    "fr": "promouvoir",
+    "es": "ascender",
+    "it": "promuovere",
+    "pt": "promover",
+    "tr": "terfi ettirmek"
+   },
+   "ex": {
+    "en": "She was promoted to manager."
+   }
+  },
+  {
+   "id": "business.retail",
+   "t": {
+    "en": "retail",
+    "uk": "роздрібна торгівля",
+    "ru": "розничная торговля",
+    "pl": "handel detaliczny",
+    "de": "Einzelhandel",
+    "fr": "commerce de détail",
+    "es": "venta al por menor",
+    "it": "vendita al dettaglio",
+    "pt": "varejo",
+    "tr": "perakende"
+   },
+   "ex": {
+    "en": "She has experience in retail."
+   }
+  }
+ ]
+}

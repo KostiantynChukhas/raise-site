@@ -1,0 +1,548 @@
+{
+ "id": "emergency-b2",
+ "topic": "emergency",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "emergency.bureaucracy",
+   "t": {
+    "en": "bureaucracy",
+    "uk": "бюрократія",
+    "ru": "бюрократия",
+    "pl": "biurokracja",
+    "de": "Bürokratie",
+    "fr": "bureaucratie",
+    "es": "burocracia",
+    "it": "burocrazia",
+    "pt": "burocracia",
+    "tr": "bürokrasi"
+   },
+   "ex": {
+    "en": "The bureaucracy here is exhausting."
+   }
+  },
+  {
+   "id": "emergency.red-tape",
+   "t": {
+    "en": "red tape",
+    "uk": "бюрократична тяганина",
+    "ru": "бюрократическая волокита",
+    "pl": "biurokratyczna mitręga",
+    "de": "Amtsschimmel",
+    "fr": "paperasserie",
+    "es": "trabas burocráticas",
+    "it": "lungaggini burocratiche",
+    "pt": "burocracia excessiva",
+    "tr": "kırtasiyecilik"
+   },
+   "ex": {
+    "en": "Red tape delayed the project for months."
+   }
+  },
+  {
+   "id": "emergency.paperwork",
+   "t": {
+    "en": "paperwork",
+    "uk": "паперова робота",
+    "ru": "бумажная волокита",
+    "pl": "papierkowa robota",
+    "de": "Papierkram",
+    "fr": "paperasse",
+    "es": "papeleo",
+    "it": "scartoffie",
+    "pt": "papelada",
+    "tr": "evrak işleri"
+   },
+   "ex": {
+    "en": "There is a lot of paperwork to do."
+   }
+  },
+  {
+   "id": "emergency.regulation",
+   "t": {
+    "en": "regulation",
+    "uk": "норматив",
+    "ru": "нормативный акт",
+    "pl": "przepis",
+    "de": "Vorschrift",
+    "fr": "réglementation",
+    "es": "normativa",
+    "it": "regolamento",
+    "pt": "regulamento",
+    "tr": "yönetmelik"
+   },
+   "ex": {
+    "en": "New regulations come into force in May."
+   }
+  },
+  {
+   "id": "emergency.to-comply-with",
+   "t": {
+    "en": "to comply with",
+    "uk": "дотримуватися",
+    "ru": "соблюдать",
+    "pl": "przestrzegać",
+    "de": "einhalten",
+    "fr": "respecter",
+    "es": "cumplir con",
+    "it": "rispettare",
+    "pt": "cumprir",
+    "tr": "uymak"
+   },
+   "ex": {
+    "en": "Companies must comply with the law."
+   }
+  },
+  {
+   "id": "emergency.applicant",
+   "t": {
+    "en": "applicant",
+    "uk": "заявник",
+    "ru": "заявитель",
+    "pl": "wnioskodawca",
+    "de": "Antragsteller",
+    "fr": "demandeur",
+    "es": "solicitante",
+    "it": "richiedente",
+    "pt": "requerente",
+    "tr": "başvuru sahibi"
+   },
+   "ex": {
+    "en": "Each applicant must attend in person."
+   }
+  },
+  {
+   "id": "emergency.proof-of-address",
+   "t": {
+    "en": "proof of address",
+    "uk": "підтвердження адреси",
+    "ru": "подтверждение адреса",
+    "pl": "potwierdzenie adresu",
+    "de": "Meldebescheinigung",
+    "fr": "justificatif de domicile",
+    "es": "comprobante de domicilio",
+    "it": "prova di residenza",
+    "pt": "comprovante de residência",
+    "tr": "ikametgah belgesi"
+   },
+   "ex": {
+    "en": "A utility bill counts as proof of address."
+   }
+  },
+  {
+   "id": "emergency.proof-of-income",
+   "t": {
+    "en": "proof of income",
+    "uk": "довідка про доходи",
+    "ru": "справка о доходах",
+    "pl": "zaświadczenie o dochodach",
+    "de": "Einkommensnachweis",
+    "fr": "justificatif de revenus",
+    "es": "comprobante de ingresos",
+    "it": "prova di reddito",
+    "pt": "comprovante de renda",
+    "tr": "gelir belgesi"
+   },
+   "ex": {
+    "en": "The landlord asked for proof of income."
+   }
+  },
+  {
+   "id": "emergency.tax-number",
+   "t": {
+    "en": "tax number",
+    "uk": "податковий номер",
+    "ru": "налоговый номер",
+    "pl": "numer NIP",
+    "de": "Steuernummer",
+    "fr": "numéro fiscal",
+    "es": "número de identificación fiscal",
+    "it": "codice fiscale",
+    "pt": "CPF",
+    "tr": "vergi numarası"
+   },
+   "ex": {
+    "en": "You need a tax number to get paid."
+   }
+  },
+  {
+   "id": "emergency.power-of-attorney",
+   "t": {
+    "en": "power of attorney",
+    "uk": "довіреність",
+    "ru": "доверенность",
+    "pl": "pełnomocnictwo",
+    "de": "Vollmacht",
+    "fr": "procuration",
+    "es": "poder notarial",
+    "it": "procura",
+    "pt": "procuração",
+    "tr": "vekaletname"
+   },
+   "ex": {
+    "en": "My sister has power of attorney for me."
+   }
+  },
+  {
+   "id": "emergency.to-appeal",
+   "t": {
+    "en": "to appeal",
+    "uk": "оскаржувати",
+    "ru": "обжаловать",
+    "pl": "odwołać się",
+    "de": "Einspruch einlegen",
+    "fr": "faire appel",
+    "es": "recurrir",
+    "it": "fare ricorso",
+    "pt": "recorrer",
+    "tr": "itiraz etmek"
+   },
+   "ex": {
+    "en": "You can appeal within thirty days."
+   }
+  },
+  {
+   "id": "emergency.rejection",
+   "t": {
+    "en": "rejection",
+    "uk": "відмова",
+    "ru": "отказ",
+    "pl": "odmowa",
+    "de": "Ablehnung",
+    "fr": "refus",
+    "es": "denegación",
+    "it": "rifiuto",
+    "pt": "indeferimento",
+    "tr": "ret"
+   },
+   "ex": {
+    "en": "The rejection letter arrived yesterday."
+   }
+  },
+  {
+   "id": "emergency.approval",
+   "t": {
+    "en": "approval",
+    "uk": "схвалення",
+    "ru": "одобрение",
+    "pl": "zatwierdzenie",
+    "de": "Genehmigung",
+    "fr": "approbation",
+    "es": "aprobación",
+    "it": "approvazione",
+    "pt": "aprovação",
+    "tr": "onay"
+   },
+   "ex": {
+    "en": "We are still waiting for approval."
+   }
+  },
+  {
+   "id": "emergency.processing-time",
+   "t": {
+    "en": "processing time",
+    "uk": "строк розгляду",
+    "ru": "срок рассмотрения",
+    "pl": "czas rozpatrywania",
+    "de": "Bearbeitungszeit",
+    "fr": "délai de traitement",
+    "es": "plazo de tramitación",
+    "it": "tempi di elaborazione",
+    "pt": "prazo de análise",
+    "tr": "işlem süresi"
+   },
+   "ex": {
+    "en": "The processing time is about six weeks."
+   }
+  },
+  {
+   "id": "emergency.fingerprints",
+   "t": {
+    "en": "fingerprints",
+    "uk": "відбитки пальців",
+    "ru": "отпечатки пальцев",
+    "pl": "odciski palców",
+    "de": "Fingerabdrücke",
+    "fr": "empreintes digitales",
+    "es": "huellas dactilares",
+    "it": "impronte digitali",
+    "pt": "impressões digitais",
+    "tr": "parmak izi"
+   },
+   "ex": {
+    "en": "They took my fingerprints at the office."
+   }
+  },
+  {
+   "id": "emergency.criminal-record",
+   "t": {
+    "en": "criminal record",
+    "uk": "судимість",
+    "ru": "судимость",
+    "pl": "zaświadczenie o niekaralności",
+    "de": "Führungszeugnis",
+    "fr": "casier judiciaire",
+    "es": "antecedentes penales",
+    "it": "casellario giudiziale",
+    "pt": "antecedentes criminais",
+    "tr": "sabıka kaydı"
+   },
+   "ex": {
+    "en": "You must submit your criminal record."
+   }
+  },
+  {
+   "id": "emergency.asylum",
+   "t": {
+    "en": "asylum",
+    "uk": "притулок",
+    "ru": "убежище",
+    "pl": "azyl",
+    "de": "Asyl",
+    "fr": "asile",
+    "es": "asilo",
+    "it": "asilo",
+    "pt": "asilo",
+    "tr": "sığınma"
+   },
+   "ex": {
+    "en": "He applied for asylum in Germany."
+   }
+  },
+  {
+   "id": "emergency.refugee",
+   "t": {
+    "en": "refugee",
+    "uk": "біженець",
+    "ru": "беженец",
+    "pl": "uchodźca",
+    "de": "Flüchtling",
+    "fr": "réfugié",
+    "es": "refugiado",
+    "it": "rifugiato",
+    "pt": "refugiado",
+    "tr": "mülteci"
+   },
+   "ex": {
+    "en": "Thousands of refugees crossed the border."
+   }
+  },
+  {
+   "id": "emergency.deportation",
+   "t": {
+    "en": "deportation",
+    "uk": "депортація",
+    "ru": "депортация",
+    "pl": "deportacja",
+    "de": "Abschiebung",
+    "fr": "expulsion",
+    "es": "deportación",
+    "it": "espulsione",
+    "pt": "deportação",
+    "tr": "sınır dışı etme"
+   },
+   "ex": {
+    "en": "He faces deportation next month."
+   }
+  },
+  {
+   "id": "emergency.liability-insurance",
+   "t": {
+    "en": "liability insurance",
+    "uk": "страхування відповідальності",
+    "ru": "страхование ответственности",
+    "pl": "ubezpieczenie OC",
+    "de": "Haftpflichtversicherung",
+    "fr": "assurance responsabilité civile",
+    "es": "seguro de responsabilidad civil",
+    "it": "assicurazione di responsabilità civile",
+    "pt": "seguro de responsabilidade civil",
+    "tr": "sorumluluk sigortası"
+   },
+   "ex": {
+    "en": "Liability insurance is highly recommended."
+   }
+  },
+  {
+   "id": "emergency.coverage",
+   "t": {
+    "en": "coverage",
+    "uk": "страхове покриття",
+    "ru": "страховое покрытие",
+    "pl": "zakres ochrony",
+    "de": "Versicherungsschutz",
+    "fr": "couverture",
+    "es": "cobertura",
+    "it": "copertura",
+    "pt": "cobertura",
+    "tr": "teminat"
+   },
+   "ex": {
+    "en": "Does the coverage include dental care?"
+   }
+  },
+  {
+   "id": "emergency.deductible",
+   "t": {
+    "en": "deductible",
+    "uk": "франшиза",
+    "ru": "франшиза",
+    "pl": "udział własny",
+    "de": "Selbstbeteiligung",
+    "fr": "franchise",
+    "es": "franquicia",
+    "it": "franchigia",
+    "pt": "franquia",
+    "tr": "muafiyet"
+   },
+   "ex": {
+    "en": "The deductible is five hundred euros."
+   }
+  },
+  {
+   "id": "emergency.premium",
+   "t": {
+    "en": "premium",
+    "uk": "страховий внесок",
+    "ru": "страховой взнос",
+    "pl": "składka",
+    "de": "Beitrag",
+    "fr": "prime",
+    "es": "prima",
+    "it": "premio",
+    "pt": "prêmio",
+    "tr": "prim"
+   },
+   "ex": {
+    "en": "My premium went up this year."
+   }
+  },
+  {
+   "id": "emergency.to-reimburse",
+   "t": {
+    "en": "to reimburse",
+    "uk": "відшкодовувати",
+    "ru": "возмещать",
+    "pl": "zwracać koszty",
+    "de": "erstatten",
+    "fr": "rembourser",
+    "es": "reembolsar",
+    "it": "rimborsare",
+    "pt": "reembolsar",
+    "tr": "geri ödemek"
+   },
+   "ex": {
+    "en": "The insurer will reimburse the costs."
+   }
+  },
+  {
+   "id": "emergency.to-testify",
+   "t": {
+    "en": "to testify",
+    "uk": "давати свідчення",
+    "ru": "давать показания",
+    "pl": "zeznawać",
+    "de": "aussagen",
+    "fr": "témoigner",
+    "es": "declarar",
+    "it": "testimoniare",
+    "pt": "depor",
+    "tr": "ifade vermek"
+   },
+   "ex": {
+    "en": "She agreed to testify in court."
+   }
+  },
+  {
+   "id": "emergency.to-press-charges",
+   "t": {
+    "en": "to press charges",
+    "uk": "подавати позов",
+    "ru": "подавать иск",
+    "pl": "wnieść oskarżenie",
+    "de": "Anzeige erstatten",
+    "fr": "porter plainte",
+    "es": "presentar cargos",
+    "it": "sporgere denuncia",
+    "pt": "prestar queixa",
+    "tr": "suç duyurusunda bulunmak"
+   },
+   "ex": {
+    "en": "The victim decided to press charges."
+   }
+  },
+  {
+   "id": "emergency.suspect",
+   "t": {
+    "en": "suspect",
+    "uk": "підозрюваний",
+    "ru": "подозреваемый",
+    "pl": "podejrzany",
+    "de": "Verdächtiger",
+    "fr": "suspect",
+    "es": "sospechoso",
+    "it": "sospettato",
+    "pt": "suspeito",
+    "tr": "şüpheli"
+   },
+   "ex": {
+    "en": "The suspect was released on bail."
+   }
+  },
+  {
+   "id": "emergency.case-number",
+   "t": {
+    "en": "case number",
+    "uk": "номер справи",
+    "ru": "номер дела",
+    "pl": "numer sprawy",
+    "de": "Aktenzeichen",
+    "fr": "numéro de dossier",
+    "es": "número de expediente",
+    "it": "numero di pratica",
+    "pt": "número do processo",
+    "tr": "dosya numarası"
+   },
+   "ex": {
+    "en": "Please quote your case number."
+   }
+  },
+  {
+   "id": "emergency.hit-and-run",
+   "t": {
+    "en": "hit-and-run",
+    "uk": "втеча з місця ДТП",
+    "ru": "скрытие с места ДТП",
+    "pl": "ucieczka z miejsca wypadku",
+    "de": "Fahrerflucht",
+    "fr": "délit de fuite",
+    "es": "fuga tras un atropello",
+    "it": "omissione di soccorso",
+    "pt": "fuga do local do acidente",
+    "tr": "kaza yerinden kaçma"
+   },
+   "ex": {
+    "en": "The police are investigating a hit-and-run."
+   }
+  },
+  {
+   "id": "emergency.hazard",
+   "t": {
+    "en": "hazard",
+    "uk": "загроза",
+    "ru": "угроза",
+    "pl": "zagrożenie",
+    "de": "Gefahrenquelle",
+    "fr": "risque",
+    "es": "riesgo",
+    "it": "rischio",
+    "pt": "risco",
+    "tr": "tehlike kaynağı"
+   },
+   "ex": {
+    "en": "Loose cables are a fire hazard."
+   }
+  }
+ ]
+}

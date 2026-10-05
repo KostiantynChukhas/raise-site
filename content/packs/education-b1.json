@@ -1,0 +1,494 @@
+{
+ "id": "education-b1",
+ "topic": "education",
+ "level": "b1",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "education.lecture",
+   "t": {
+    "en": "lecture",
+    "uk": "лекція",
+    "ru": "лекция",
+    "pl": "wykład",
+    "de": "Vorlesung",
+    "fr": "cours magistral",
+    "es": "clase magistral",
+    "it": "lezione frontale",
+    "pt": "palestra",
+    "tr": "ders anlatımı"
+   },
+   "ex": {
+    "en": "The lecture lasted two hours."
+   }
+  },
+  {
+   "id": "education.professor",
+   "t": {
+    "en": "professor",
+    "uk": "професор",
+    "ru": "профессор",
+    "pl": "profesor",
+    "de": "Professor",
+    "fr": "professeur d'université",
+    "es": "catedrático",
+    "it": "professore",
+    "pt": "professor universitário",
+    "tr": "profesör"
+   },
+   "ex": {
+    "en": "The professor answered our questions."
+   }
+  },
+  {
+   "id": "education.campus",
+   "t": {
+    "en": "campus",
+    "uk": "кампус",
+    "ru": "кампус",
+    "pl": "kampus",
+    "de": "Campus",
+    "fr": "campus",
+    "es": "campus",
+    "it": "campus",
+    "pt": "campus",
+    "tr": "kampüs"
+   },
+   "ex": {
+    "en": "The campus has a new gym."
+   }
+  },
+  {
+   "id": "education.faculty",
+   "t": {
+    "en": "faculty",
+    "uk": "факультет",
+    "ru": "факультет",
+    "pl": "wydział",
+    "de": "Fakultät",
+    "fr": "faculté",
+    "es": "facultad",
+    "it": "facoltà",
+    "pt": "faculdade",
+    "tr": "fakülte"
+   },
+   "ex": {
+    "en": "He studies at the law faculty."
+   }
+  },
+  {
+   "id": "education.scholarship",
+   "t": {
+    "en": "scholarship",
+    "uk": "стипендія",
+    "ru": "стипендия",
+    "pl": "stypendium",
+    "de": "Stipendium",
+    "fr": "bourse",
+    "es": "beca",
+    "it": "borsa di studio",
+    "pt": "bolsa de estudos",
+    "tr": "burs"
+   },
+   "ex": {
+    "en": "She won a scholarship to study abroad."
+   }
+  },
+  {
+   "id": "education.tuition-fees",
+   "t": {
+    "en": "tuition fees",
+    "uk": "плата за навчання",
+    "ru": "плата за обучение",
+    "pl": "czesne",
+    "de": "Studiengebühren",
+    "fr": "frais de scolarité",
+    "es": "matrícula",
+    "it": "tasse universitarie",
+    "pt": "mensalidade",
+    "tr": "okul ücreti"
+   },
+   "ex": {
+    "en": "Tuition fees are rising every year."
+   }
+  },
+  {
+   "id": "education.essay",
+   "t": {
+    "en": "essay",
+    "uk": "есе",
+    "ru": "эссе",
+    "pl": "wypracowanie",
+    "de": "Aufsatz",
+    "fr": "dissertation",
+    "es": "ensayo",
+    "it": "tema",
+    "pt": "redação",
+    "tr": "kompozisyon"
+   },
+   "ex": {
+    "en": "I have to write an essay tonight."
+   }
+  },
+  {
+   "id": "education.assignment",
+   "t": {
+    "en": "assignment",
+    "uk": "завдання",
+    "ru": "задание",
+    "pl": "zadanie",
+    "de": "Aufgabe",
+    "fr": "devoir",
+    "es": "tarea",
+    "it": "compito",
+    "pt": "trabalho",
+    "tr": "ödev projesi"
+   },
+   "ex": {
+    "en": "The assignment is due on Monday."
+   }
+  },
+  {
+   "id": "education.to-revise",
+   "t": {
+    "en": "to revise",
+    "uk": "повторювати матеріал",
+    "ru": "повторять материал",
+    "pl": "powtarzać materiał",
+    "de": "den Stoff wiederholen",
+    "fr": "réviser",
+    "es": "repasar",
+    "it": "ripassare",
+    "pt": "revisar",
+    "tr": "tekrar etmek"
+   },
+   "ex": {
+    "en": "I need to revise for the exam."
+   }
+  },
+  {
+   "id": "education.to-cheat",
+   "t": {
+    "en": "to cheat",
+    "uk": "списувати",
+    "ru": "списывать",
+    "pl": "ściągać",
+    "de": "schummeln",
+    "fr": "tricher",
+    "es": "copiar",
+    "it": "copiare",
+    "pt": "colar",
+    "tr": "kopya çekmek"
+   },
+   "ex": {
+    "en": "He was caught cheating in the test."
+   }
+  },
+  {
+   "id": "education.to-graduate",
+   "t": {
+    "en": "to graduate",
+    "uk": "закінчити навчання",
+    "ru": "окончить учёбу",
+    "pl": "ukończyć studia",
+    "de": "einen Abschluss machen",
+    "fr": "obtenir son diplôme",
+    "es": "graduarse",
+    "it": "laurearsi",
+    "pt": "se formar",
+    "tr": "mezun olmak"
+   },
+   "ex": {
+    "en": "She graduated last summer."
+   }
+  },
+  {
+   "id": "education.to-enrol",
+   "t": {
+    "en": "to enrol",
+    "uk": "записатися",
+    "ru": "записаться",
+    "pl": "zapisać się",
+    "de": "sich einschreiben",
+    "fr": "s'inscrire",
+    "es": "matricularse",
+    "it": "iscriversi",
+    "pt": "se matricular",
+    "tr": "kayıt olmak"
+   },
+   "ex": {
+    "en": "I enrolled in a Spanish course."
+   }
+  },
+  {
+   "id": "education.to-attend",
+   "t": {
+    "en": "to attend",
+    "uk": "відвідувати",
+    "ru": "посещать",
+    "pl": "uczęszczać",
+    "de": "besuchen",
+    "fr": "assister à",
+    "es": "asistir a",
+    "it": "frequentare",
+    "pt": "frequentar",
+    "tr": "katılmak"
+   },
+   "ex": {
+    "en": "You must attend all the classes."
+   }
+  },
+  {
+   "id": "education.to-skip-class",
+   "t": {
+    "en": "to skip class",
+    "uk": "прогулювати",
+    "ru": "прогуливать",
+    "pl": "wagarować",
+    "de": "schwänzen",
+    "fr": "sécher les cours",
+    "es": "faltar a clase",
+    "it": "marinare la scuola",
+    "pt": "matar aula",
+    "tr": "dersi asmak"
+   },
+   "ex": {
+    "en": "He often skips class on Fridays."
+   }
+  },
+  {
+   "id": "education.course",
+   "t": {
+    "en": "course",
+    "uk": "курс",
+    "ru": "курс",
+    "pl": "kurs",
+    "de": "Kurs",
+    "fr": "formation",
+    "es": "curso",
+    "it": "corso",
+    "pt": "curso",
+    "tr": "kurs"
+   },
+   "ex": {
+    "en": "The course lasts six weeks."
+   }
+  },
+  {
+   "id": "education.online-course",
+   "t": {
+    "en": "online course",
+    "uk": "онлайн-курс",
+    "ru": "онлайн-курс",
+    "pl": "kurs online",
+    "de": "Online-Kurs",
+    "fr": "cours en ligne",
+    "es": "curso en línea",
+    "it": "corso online",
+    "pt": "curso online",
+    "tr": "çevrimiçi kurs"
+   },
+   "ex": {
+    "en": "I'm taking an online course in design."
+   }
+  },
+  {
+   "id": "education.certificate",
+   "t": {
+    "en": "certificate",
+    "uk": "сертифікат",
+    "ru": "сертификат",
+    "pl": "certyfikat",
+    "de": "Zertifikat",
+    "fr": "certificat",
+    "es": "certificado",
+    "it": "certificato",
+    "pt": "certificado",
+    "tr": "sertifika"
+   },
+   "ex": {
+    "en": "You get a certificate at the end."
+   }
+  },
+  {
+   "id": "education.textbook",
+   "t": {
+    "en": "textbook",
+    "uk": "підручник",
+    "ru": "учебник",
+    "pl": "podręcznik",
+    "de": "Lehrbuch",
+    "fr": "manuel",
+    "es": "libro de texto",
+    "it": "libro di testo",
+    "pt": "livro didático",
+    "tr": "ders kitabı"
+   },
+   "ex": {
+    "en": "The textbook is expensive."
+   }
+  },
+  {
+   "id": "education.oral-exam",
+   "t": {
+    "en": "oral exam",
+    "uk": "усний іспит",
+    "ru": "устный экзамен",
+    "pl": "egzamin ustny",
+    "de": "mündliche Prüfung",
+    "fr": "oral",
+    "es": "examen oral",
+    "it": "esame orale",
+    "pt": "prova oral",
+    "tr": "sözlü sınav"
+   },
+   "ex": {
+    "en": "The oral exam made me nervous."
+   }
+  },
+  {
+   "id": "education.multiple-choice",
+   "t": {
+    "en": "multiple choice",
+    "uk": "тест з варіантами",
+    "ru": "тест с вариантами",
+    "pl": "test wyboru",
+    "de": "Multiple-Choice",
+    "fr": "QCM",
+    "es": "opción múltiple",
+    "it": "risposta multipla",
+    "pt": "múltipla escolha",
+    "tr": "çoktan seçmeli"
+   },
+   "ex": {
+    "en": "The test is multiple choice."
+   }
+  },
+  {
+   "id": "education.school-report",
+   "t": {
+    "en": "school report",
+    "uk": "табель",
+    "ru": "табель",
+    "pl": "świadectwo",
+    "de": "Zeugnis",
+    "fr": "bulletin",
+    "es": "boletín de notas",
+    "it": "pagella",
+    "pt": "boletim",
+    "tr": "karne"
+   },
+   "ex": {
+    "en": "Her school report was excellent."
+   }
+  },
+  {
+   "id": "education.head-teacher",
+   "t": {
+    "en": "head teacher",
+    "uk": "директор школи",
+    "ru": "директор школы",
+    "pl": "dyrektor szkoły",
+    "de": "Schulleiter",
+    "fr": "directeur",
+    "es": "director",
+    "it": "preside",
+    "pt": "diretor da escola",
+    "tr": "okul müdürü"
+   },
+   "ex": {
+    "en": "The head teacher spoke to the parents."
+   }
+  },
+  {
+   "id": "education.parents-evening",
+   "t": {
+    "en": "parents' evening",
+    "uk": "батьківські збори",
+    "ru": "родительское собрание",
+    "pl": "wywiadówka",
+    "de": "Elternabend",
+    "fr": "réunion parents-profs",
+    "es": "reunión de padres",
+    "it": "colloquio con i genitori",
+    "pt": "reunião de pais",
+    "tr": "veli toplantısı"
+   },
+   "ex": {
+    "en": "Parents' evening is on Thursday."
+   }
+  },
+  {
+   "id": "education.private-tutor",
+   "t": {
+    "en": "private tutor",
+    "uk": "репетитор",
+    "ru": "репетитор",
+    "pl": "korepetytor",
+    "de": "Nachhilfelehrer",
+    "fr": "professeur particulier",
+    "es": "profesor particular",
+    "it": "insegnante privato",
+    "pt": "professor particular",
+    "tr": "özel öğretmen"
+   },
+   "ex": {
+    "en": "She has a private tutor for maths."
+   }
+  },
+  {
+   "id": "education.student-id",
+   "t": {
+    "en": "student ID",
+    "uk": "студентський квиток",
+    "ru": "студенческий билет",
+    "pl": "legitymacja studencka",
+    "de": "Studentenausweis",
+    "fr": "carte d'étudiant",
+    "es": "carnet de estudiante",
+    "it": "tessera universitaria",
+    "pt": "carteirinha de estudante",
+    "tr": "öğrenci kimliği"
+   },
+   "ex": {
+    "en": "Show your student ID for a discount."
+   }
+  },
+  {
+   "id": "education.dormitory",
+   "t": {
+    "en": "dormitory",
+    "uk": "гуртожиток",
+    "ru": "общежитие",
+    "pl": "akademik",
+    "de": "Studentenwohnheim",
+    "fr": "résidence universitaire",
+    "es": "residencia de estudiantes",
+    "it": "studentato",
+    "pt": "alojamento estudantil",
+    "tr": "yurt"
+   },
+   "ex": {
+    "en": "I live in a dormitory on campus."
+   }
+  },
+  {
+   "id": "education.strict",
+   "t": {
+    "en": "strict",
+    "uk": "суворий",
+    "ru": "строгий",
+    "pl": "surowy",
+    "de": "streng",
+    "fr": "sévère",
+    "es": "estricto",
+    "it": "severo",
+    "pt": "rigoroso",
+    "tr": "katı"
+   },
+   "ex": {
+    "en": "Our chemistry teacher is very strict."
+   }
+  }
+ ]
+}

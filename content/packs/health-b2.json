@@ -1,0 +1,512 @@
+{
+ "id": "health-b2",
+ "topic": "health",
+ "level": "b2",
+ "version": 1,
+ "concepts": [
+  {
+   "id": "health.diagnosis",
+   "t": {
+    "en": "diagnosis",
+    "uk": "діагноз",
+    "ru": "диагноз",
+    "pl": "diagnoza",
+    "de": "Diagnose",
+    "fr": "diagnostic",
+    "es": "diagnóstico",
+    "it": "diagnosi",
+    "pt": "diagnóstico",
+    "tr": "teşhis"
+   },
+   "ex": {
+    "en": "The diagnosis was a relief."
+   }
+  },
+  {
+   "id": "health.treatment",
+   "t": {
+    "en": "treatment",
+    "uk": "лікування",
+    "ru": "лечение",
+    "pl": "leczenie",
+    "de": "Behandlung",
+    "fr": "traitement",
+    "es": "tratamiento",
+    "it": "cura",
+    "pt": "tratamento",
+    "tr": "tedavi"
+   },
+   "ex": {
+    "en": "The treatment lasts six weeks."
+   }
+  },
+  {
+   "id": "health.surgery",
+   "t": {
+    "en": "surgery",
+    "uk": "операція",
+    "ru": "операция",
+    "pl": "operacja",
+    "de": "Operation",
+    "fr": "opération",
+    "es": "cirugía",
+    "it": "intervento chirurgico",
+    "pt": "cirurgia",
+    "tr": "ameliyat"
+   },
+   "ex": {
+    "en": "She needs knee surgery."
+   }
+  },
+  {
+   "id": "health.anaesthesia",
+   "t": {
+    "en": "anaesthesia",
+    "uk": "наркоз",
+    "ru": "наркоз",
+    "pl": "znieczulenie",
+    "de": "Narkose",
+    "fr": "anesthésie",
+    "es": "anestesia",
+    "it": "anestesia",
+    "pt": "anestesia",
+    "tr": "anestezi"
+   },
+   "ex": {
+    "en": "You will be under anaesthesia."
+   }
+  },
+  {
+   "id": "health.second-opinion",
+   "t": {
+    "en": "second opinion",
+    "uk": "думка іншого лікаря",
+    "ru": "мнение другого врача",
+    "pl": "druga opinia",
+    "de": "Zweitmeinung",
+    "fr": "deuxième avis",
+    "es": "segunda opinión",
+    "it": "secondo parere",
+    "pt": "segunda opinião",
+    "tr": "ikinci görüş"
+   },
+   "ex": {
+    "en": "I want to get a second opinion."
+   }
+  },
+  {
+   "id": "health.over-the-counter",
+   "t": {
+    "en": "over-the-counter",
+    "uk": "без рецепта",
+    "ru": "без рецепта",
+    "pl": "bez recepty",
+    "de": "rezeptfrei",
+    "fr": "sans ordonnance",
+    "es": "sin receta",
+    "it": "senza ricetta",
+    "pt": "sem receita",
+    "tr": "reçetesiz"
+   },
+   "ex": {
+    "en": "Is this available over-the-counter?"
+   }
+  },
+  {
+   "id": "health.generic-drug",
+   "t": {
+    "en": "generic drug",
+    "uk": "генерик",
+    "ru": "дженерик",
+    "pl": "lek generyczny",
+    "de": "Generikum",
+    "fr": "médicament générique",
+    "es": "genérico",
+    "it": "farmaco generico",
+    "pt": "genérico",
+    "tr": "jenerik ilaç"
+   },
+   "ex": {
+    "en": "The generic drug is much cheaper."
+   }
+  },
+  {
+   "id": "health.contraindication",
+   "t": {
+    "en": "contraindication",
+    "uk": "протипоказання",
+    "ru": "противопоказание",
+    "pl": "przeciwwskazanie",
+    "de": "Gegenanzeige",
+    "fr": "contre-indication",
+    "es": "contraindicación",
+    "it": "controindicazione",
+    "pt": "contraindicação",
+    "tr": "kontrendikasyon"
+   },
+   "ex": {
+    "en": "Read the contraindications first."
+   }
+  },
+  {
+   "id": "health.medical-history",
+   "t": {
+    "en": "medical history",
+    "uk": "історія хвороби",
+    "ru": "история болезни",
+    "pl": "historia choroby",
+    "de": "Krankengeschichte",
+    "fr": "antécédents médicaux",
+    "es": "historial médico",
+    "it": "anamnesi",
+    "pt": "histórico médico",
+    "tr": "tıbbi geçmiş"
+   },
+   "ex": {
+    "en": "The doctor asked about my medical history."
+   }
+  },
+  {
+   "id": "health.immune-system",
+   "t": {
+    "en": "immune system",
+    "uk": "імунітет",
+    "ru": "иммунитет",
+    "pl": "układ odpornościowy",
+    "de": "Immunsystem",
+    "fr": "système immunitaire",
+    "es": "sistema inmunológico",
+    "it": "sistema immunitario",
+    "pt": "sistema imunológico",
+    "tr": "bağışıklık sistemi"
+   },
+   "ex": {
+    "en": "Sleep strengthens the immune system."
+   }
+  },
+  {
+   "id": "health.inflammation",
+   "t": {
+    "en": "inflammation",
+    "uk": "запалення",
+    "ru": "воспаление",
+    "pl": "stan zapalny",
+    "de": "Entzündung",
+    "fr": "inflammation",
+    "es": "inflamación",
+    "it": "infiammazione",
+    "pt": "inflamação",
+    "tr": "iltihap"
+   },
+   "ex": {
+    "en": "The swelling is caused by inflammation."
+   }
+  },
+  {
+   "id": "health.contagious",
+   "t": {
+    "en": "contagious",
+    "uk": "заразний",
+    "ru": "заразный",
+    "pl": "zaraźliwy",
+    "de": "ansteckend",
+    "fr": "contagieux",
+    "es": "contagioso",
+    "it": "contagioso",
+    "pt": "contagioso",
+    "tr": "bulaşıcı"
+   },
+   "ex": {
+    "en": "Is it contagious?"
+   }
+  },
+  {
+   "id": "health.to-come-down-with",
+   "t": {
+    "en": "to come down with",
+    "uk": "захворіти на",
+    "ru": "заболеть",
+    "pl": "zachorować na",
+    "de": "erkranken an",
+    "fr": "attraper",
+    "es": "caer enfermo de",
+    "it": "ammalarsi di",
+    "pt": "ficar doente de",
+    "tr": "hastalanmak"
+   },
+   "ex": {
+    "en": "I came down with the flu."
+   }
+  },
+  {
+   "id": "health.numb",
+   "t": {
+    "en": "numb",
+    "uk": "онімілий",
+    "ru": "онемевший",
+    "pl": "zdrętwiały",
+    "de": "taub",
+    "fr": "engourdi",
+    "es": "entumecido",
+    "it": "intorpidito",
+    "pt": "dormente",
+    "tr": "uyuşmuş"
+   },
+   "ex": {
+    "en": "My fingers feel numb."
+   }
+  },
+  {
+   "id": "health.shortness-of-breath",
+   "t": {
+    "en": "shortness of breath",
+    "uk": "задишка",
+    "ru": "одышка",
+    "pl": "duszność",
+    "de": "Atemnot",
+    "fr": "essoufflement",
+    "es": "falta de aire",
+    "it": "fiato corto",
+    "pt": "falta de ar",
+    "tr": "nefes darlığı"
+   },
+   "ex": {
+    "en": "He complained of shortness of breath."
+   }
+  },
+  {
+   "id": "health.to-prescribe",
+   "t": {
+    "en": "to prescribe",
+    "uk": "виписати",
+    "ru": "выписать",
+    "pl": "przepisać",
+    "de": "verschreiben",
+    "fr": "prescrire",
+    "es": "recetar",
+    "it": "prescrivere",
+    "pt": "receitar",
+    "tr": "reçete yazmak"
+   },
+   "ex": {
+    "en": "The doctor prescribed antibiotics."
+   }
+  },
+  {
+   "id": "health.physiotherapy",
+   "t": {
+    "en": "physiotherapy",
+    "uk": "фізіотерапія",
+    "ru": "физиотерапия",
+    "pl": "fizjoterapia",
+    "de": "Physiotherapie",
+    "fr": "kinésithérapie",
+    "es": "fisioterapia",
+    "it": "fisioterapia",
+    "pt": "fisioterapia",
+    "tr": "fizyoterapi"
+   },
+   "ex": {
+    "en": "Physiotherapy helped my shoulder."
+   }
+  },
+  {
+   "id": "health.insomnia",
+   "t": {
+    "en": "insomnia",
+    "uk": "безсоння",
+    "ru": "бессонница",
+    "pl": "bezsenność",
+    "de": "Schlaflosigkeit",
+    "fr": "insomnie",
+    "es": "insomnio",
+    "it": "insonnia",
+    "pt": "insônia",
+    "tr": "uykusuzluk"
+   },
+   "ex": {
+    "en": "Stress causes insomnia."
+   }
+  },
+  {
+   "id": "health.burnout",
+   "t": {
+    "en": "burnout",
+    "uk": "вигорання",
+    "ru": "выгорание",
+    "pl": "wypalenie",
+    "de": "Burnout",
+    "fr": "burn-out",
+    "es": "agotamiento",
+    "it": "burnout",
+    "pt": "burnout",
+    "tr": "tükenmişlik"
+   },
+   "ex": {
+    "en": "He took time off for burnout."
+   }
+  },
+  {
+   "id": "health.anxiety",
+   "t": {
+    "en": "anxiety",
+    "uk": "тривожність",
+    "ru": "тревожность",
+    "pl": "lęk",
+    "de": "Angstzustände",
+    "fr": "anxiété",
+    "es": "ansiedad",
+    "it": "ansia",
+    "pt": "ansiedade",
+    "tr": "kaygı"
+   },
+   "ex": {
+    "en": "Anxiety can affect sleep."
+   }
+  },
+  {
+   "id": "health.therapist",
+   "t": {
+    "en": "therapist",
+    "uk": "психотерапевт",
+    "ru": "психотерапевт",
+    "pl": "terapeuta",
+    "de": "Therapeut",
+    "fr": "thérapeute",
+    "es": "terapeuta",
+    "it": "terapeuta",
+    "pt": "terapeuta",
+    "tr": "terapist"
+   },
+   "ex": {
+    "en": "I talk to a therapist every week."
+   }
+  },
+  {
+   "id": "health.to-cope-with",
+   "t": {
+    "en": "to cope with",
+    "uk": "справлятися з",
+    "ru": "справляться с",
+    "pl": "radzić sobie z",
+    "de": "zurechtkommen mit",
+    "fr": "faire face à",
+    "es": "lidiar con",
+    "it": "affrontare",
+    "pt": "lidar com",
+    "tr": "başa çıkmak"
+   },
+   "ex": {
+    "en": "How do you cope with stress?"
+   }
+  },
+  {
+   "id": "health.metabolism",
+   "t": {
+    "en": "metabolism",
+    "uk": "обмін речовин",
+    "ru": "обмен веществ",
+    "pl": "metabolizm",
+    "de": "Stoffwechsel",
+    "fr": "métabolisme",
+    "es": "metabolismo",
+    "it": "metabolismo",
+    "pt": "metabolismo",
+    "tr": "metabolizma"
+   },
+   "ex": {
+    "en": "Metabolism slows with age."
+   }
+  },
+  {
+   "id": "health.protein",
+   "t": {
+    "en": "protein",
+    "uk": "білок",
+    "ru": "белок",
+    "pl": "białko",
+    "de": "Eiweiß",
+    "fr": "protéines",
+    "es": "proteína",
+    "it": "proteine",
+    "pt": "proteína",
+    "tr": "protein"
+   },
+   "ex": {
+    "en": "Eggs are rich in protein."
+   }
+  },
+  {
+   "id": "health.dehydration",
+   "t": {
+    "en": "dehydration",
+    "uk": "зневоднення",
+    "ru": "обезвоживание",
+    "pl": "odwodnienie",
+    "de": "Dehydrierung",
+    "fr": "déshydratation",
+    "es": "deshidratación",
+    "it": "disidratazione",
+    "pt": "desidratação",
+    "tr": "dehidrasyon"
+   },
+   "ex": {
+    "en": "Headaches can be a sign of dehydration."
+   }
+  },
+  {
+   "id": "health.to-overdo-it",
+   "t": {
+    "en": "to overdo it",
+    "uk": "перестаратися",
+    "ru": "перестараться",
+    "pl": "przesadzić",
+    "de": "es übertreiben",
+    "fr": "en faire trop",
+    "es": "pasarse",
+    "it": "esagerare",
+    "pt": "exagerar",
+    "tr": "aşırıya kaçmak"
+   },
+   "ex": {
+    "en": "Don't overdo it on your first day."
+   }
+  },
+  {
+   "id": "health.sedentary-lifestyle",
+   "t": {
+    "en": "sedentary lifestyle",
+    "uk": "малорухливий спосіб життя",
+    "ru": "малоподвижный образ жизни",
+    "pl": "siedzący tryb życia",
+    "de": "sitzender Lebensstil",
+    "fr": "mode de vie sédentaire",
+    "es": "vida sedentaria",
+    "it": "vita sedentaria",
+    "pt": "sedentarismo",
+    "tr": "hareketsiz yaşam"
+   },
+   "ex": {
+    "en": "A sedentary lifestyle is risky."
+   }
+  },
+  {
+   "id": "health.follow-up-appointment",
+   "t": {
+    "en": "follow-up appointment",
+    "uk": "повторний прийом",
+    "ru": "повторный приём",
+    "pl": "wizyta kontrolna",
+    "de": "Nachsorgetermin",
+    "fr": "rendez-vous de suivi",
+    "es": "cita de seguimiento",
+    "it": "visita di controllo",
+    "pt": "consulta de retorno",
+    "tr": "kontrol randevusu"
+   },
+   "ex": {
+    "en": "Book a follow-up appointment in two weeks."
+   }
+  }
+ ]
+}
