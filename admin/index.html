@@ -61,8 +61,8 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 
 <dialog id="dlgSettings"><h3 style="margin-top:0">Settings</h3>
 <div class="grid10" style="grid-template-columns:1fr 1fr">
-<label class="f">GitHub owner <input id="sOwner" placeholder="your-github-username"></label>
-<label class="f">Repository <input id="sRepo" placeholder="raise"></label>
+<label class="f">GitHub owner <input id="sOwner" value="KostiantynChukhas" placeholder="your-github-username"></label>
+<label class="f">Repository <input id="sRepo" value="raise-site" placeholder="raise-site"></label>
 <label class="f">Branch <input id="sBranch" value="main"></label>
 <label class="f">Content folder in repo <input id="sPath" value="content"></label>
 <label class="f" style="grid-column:1/3">GitHub token (fine-grained, Contents read/write) <input id="sToken" type="password" placeholder="github_pat_…"></label>
@@ -193,6 +193,6 @@ $("#sSave").onclick=()=>{["owner","repo","branch","path","token","anthropic"].fo
 $("#btnReload").onclick=()=>{if(dirty.size&&!confirm("Discard unpublished changes?"))return;load()};
 $("#search").oninput=()=>{renderList();if(current)renderEditor()};
 window.addEventListener("beforeunload",e=>{if(dirty.size||deleted.size){e.preventDefault();e.returnValue=""}});
-const params=new URLSearchParams(location.search);if(params.get("owner")){S.set("owner",params.get("owner"));S.set("repo",params.get("repo")||"raise")}
+const params=new URLSearchParams(location.search);if(params.get("owner")){S.set("owner",params.get("owner"));S.set("repo",params.get("repo")||"raise-site")}
 load();
 </script></body></html>
