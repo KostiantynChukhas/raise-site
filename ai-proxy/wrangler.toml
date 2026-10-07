@@ -1,0 +1,8 @@
+name = "raise-ai"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+OPENAI_MODEL = "gpt-4o-mini"
+DAILY_LIMIT = "20"
+ADMIN_ORIGIN = "https://kostiantynchukhas.github.io"
