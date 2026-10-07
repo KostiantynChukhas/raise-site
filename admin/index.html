@@ -71,7 +71,7 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 <label class="f">Branch <input id="sBranch" value="main"></label>
 <label class="f">Content folder in repo <input id="sPath" value="content"></label>
 <label class="f" style="grid-column:1/3">GitHub token (fine-grained, Contents read/write) <input id="sToken" type="password" placeholder="github_pat_…"></label>
-<label class="f" style="grid-column:1/3">AI proxy URL (server/ai-proxy) <input id="sProxy" value="https://raise-ai.k-chukhas.workers.dev"></label>
+<label class="f" style="grid-column:1/3">AI proxy URL (server/ai-proxy) <input id="sProxy" value="https://raise-ai.raise-app.workers.dev"></label>
 <label class="f" style="grid-column:1/3">Admin token (ADMIN_TOKEN of the proxy — not the OpenAI key) <input id="sAdmintoken" type="password"></label>
 </div>
 <p class="kbd">Everything is stored in this browser's localStorage only.</p>
@@ -98,7 +98,8 @@ let manifest=null, packs={}, shas={}, dirty=new Set(), current=null, deleted=new
 
 const $=s=>document.querySelector(s);
 function toast(msg,err){const t=$("#toast");t.textContent=msg;t.className="toast show"+(err?" err":"");clearTimeout(t._x);t._x=setTimeout(()=>t.className="toast",err?6000:3000)}
-function cfg(){return{owner:S.get("owner"),repo:S.get("repo"),branch:S.get("branch")||"main",path:(S.get("path")||"content").replace(/^\/|\/$/g,""),token:S.get("token"),proxy:(S.get("proxy")||"").replace(/\/$/,""),admintoken:S.get("admintoken")}}
+
+function cfg(){const px=(S.get("proxy")||"https://raise-ai.raise-app.workers.dev").replace("raise-ai.k-chukhas.workers.dev","raise-ai.raise-app.workers.dev");return{owner:S.get("owner"),repo:S.get("repo"),branch:S.get("branch")||"main",path:(S.get("path")||"content").replace(/^\/|\/$/g,""),token:S.get("token"),proxy:px.replace(/\/$/,""),admintoken:S.get("admintoken")}}
 function api(p,opt={}){const c=cfg();return fetch("https://api.github.com"+p,{...opt,headers:{Authorization:"Bearer "+c.token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.headers||{})}})}
 const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
 
