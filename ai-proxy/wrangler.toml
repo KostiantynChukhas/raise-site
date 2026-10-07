@@ -6,3 +6,12 @@ compatibility_date = "2026-01-01"
 OPENAI_MODEL = "gpt-4o-mini"
 DAILY_LIMIT = "20"
 ADMIN_ORIGIN = "https://kostiantynchukhas.github.io"
+
+[[kv_namespaces]]
+binding = "USAGE"
+id = "16dd377732d246128a7fb4d6d0e78a76"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "raise-analytics"
+database_id = "1745d607-3df0-43c0-8f70-c3ca94456984"

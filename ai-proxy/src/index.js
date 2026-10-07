@@ -11,6 +11,8 @@ export default {
     try {
       if (url.pathname === "/v1/set") return await appSet(body, req, env);
       if (url.pathname === "/admin/pack") return cors(await adminPack(body, req, env), env);
+      if (url.pathname === "/v1/event") return await appEvents(body, req, env);
+      if (url.pathname === "/admin/stats") return cors(await adminStats(body, req, env), env);
       return json({ error: "not_found" }, 404);
     } catch (e) {
       return json({ error: "server", detail: String(e).slice(0, 200) }, 502);
@@ -75,8 +77,60 @@ async function underLimit(key, env) {
 function json(o, status = 200) { return new Response(JSON.stringify(o), { status, headers: { "content-type": "application/json" } }); }
 function cors(res, env) {
   const h = new Headers(res.headers);
-  h.set("access-control-allow-origin", env.ADMIN_ORIGIN || "https://kostiantynchukhas.github.io");
+  h.set("access-control-allow-origin", env.ADMIN_ORIGIN || "https://raise-words.pages.dev");
   h.set("access-control-allow-headers", "content-type, authorization");
   h.set("access-control-allow-methods", "POST, OPTIONS");
   return new Response(res.body, { status: res.status, headers: h });
+}
+
+// ---------- Analytics (D1 binding "DB") ----------
+let schemaReady = false;
+async function ensureSchema(env) {
+  if (schemaReady) return;
+  await env.DB.batch([
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS events (ts INTEGER, day TEXT, uid TEXT, name TEXT, screen TEXT, props TEXT, ver TEXT, lang TEXT, premium INTEGER)"),
+    env.DB.prepare("CREATE INDEX IF NOT EXISTS ev_day ON events(day)"),
+    env.DB.prepare("CREATE INDEX IF NOT EXISTS ev_uid ON events(uid, ts)"),
+    env.DB.prepare("CREATE INDEX IF NOT EXISTS ev_name ON events(name, day)"),
+  ]);
+  schemaReady = true;
+}
+const clip = (v, n) => (v == null ? null : String(v).slice(0, n));
+// App → POST /v1/event { uid, ver, lang, premium, events:[{name, screen, props, ts}] }  (anonymous install id, no personal data)
+async function appEvents(b, req, env) {
+  if (!env.DB) return json({ ok: false, error: "no_db" }, 200);
+  const uid = clip(b.uid, 64); if (!uid) return json({ error: "bad_request" }, 400);
+  const evs = (Array.isArray(b.events) ? b.events : []).slice(0, 50);
+  if (!evs.length) return json({ ok: true, n: 0 });
+  await ensureSchema(env);
+  const now = Date.now();
+  const stmt = env.DB.prepare("INSERT INTO events (ts, day, uid, name, screen, props, ver, lang, premium) VALUES (?,?,?,?,?,?,?,?,?)");
+  const rows = evs.map(e => {
+    let ts = parseInt(e.ts) || now; if (Math.abs(ts - now) > 7 * 864e5) ts = now;
+    return stmt.bind(ts, new Date(ts).toISOString().slice(0, 10), uid, clip(e.name, 48) || "event", clip(e.screen, 48),
+      e.props ? clip(JSON.stringify(e.props), 400) : null, clip(b.ver, 16), clip(b.lang, 8), b.premium ? 1 : 0);
+  });
+  await env.DB.batch(rows);
+  return json({ ok: true, n: rows.length });
+}
+const FUNNEL = ["first_open", "onb_welcome", "onb_language", "onb_goals", "onb_watch", "onb_level", "onb_result", "paywall_view", "trial_or_purchase", "face_installed"];
+async function adminStats(b, req, env) {
+  const auth = req.headers.get("authorization") || "";
+  if (!env.ADMIN_TOKEN || auth !== `Bearer ${env.ADMIN_TOKEN}`) return json({ error: "unauthorized" }, 401);
+  if (!env.DB) return json({ error: "no_db" }, 500);
+  await ensureSchema(env);
+  const days = Math.min(90, Math.max(1, parseInt(b.days) || 30));
+  const from = new Date(Date.now() - (days - 1) * 864e5).toISOString().slice(0, 10);
+  const q = (sql, ...a) => env.DB.prepare(sql).bind(...a).all().then(r => r.results || []);
+  const [funnelRows, screens, lastScreens, daily, paywall, totals] = await Promise.all([
+    q(`SELECT name, COUNT(DISTINCT uid) users FROM events WHERE day >= ? AND name IN (${FUNNEL.map(() => "?").join(",")}) GROUP BY name`, from, ...FUNNEL),
+    q("SELECT screen, COUNT(*) views, COUNT(DISTINCT uid) users FROM events WHERE day >= ? AND name = 'screen_view' GROUP BY screen ORDER BY users DESC LIMIT 60", from),
+    q(`SELECT screen, COUNT(*) users FROM (SELECT uid, screen, ROW_NUMBER() OVER (PARTITION BY uid ORDER BY ts DESC) rn FROM events WHERE day >= ? AND screen IS NOT NULL) WHERE rn = 1 GROUP BY screen ORDER BY users DESC LIMIT 40`, from),
+    q("SELECT day, COUNT(DISTINCT uid) users, SUM(name = 'first_open') installs, COUNT(*) events FROM events WHERE day >= ? GROUP BY day ORDER BY day", from),
+    q("SELECT json_extract(props, '$.context') context, SUM(name = 'paywall_view') views, SUM(name = 'trial_or_purchase') purchases FROM events WHERE day >= ? AND name IN ('paywall_view','trial_or_purchase') GROUP BY context ORDER BY views DESC", from),
+    q("SELECT COUNT(DISTINCT uid) users, COUNT(*) events, SUM(premium) premiumEvents FROM events WHERE day >= ?", from),
+  ]);
+  const fm = Object.fromEntries(funnelRows.map(r => [r.name, r.users]));
+  const funnel = FUNNEL.map(n => ({ step: n, users: fm[n] || 0 }));
+  return json({ from, days, totals: totals[0] || {}, funnel, screens, lastScreens, daily, paywall });
 }

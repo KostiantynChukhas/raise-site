@@ -30,7 +30,7 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 <body>
 <header><b>Raise Admin</b><span class="muted" id="repoLabel">not connected</span><span class="sp"></span>
 <span id="dirtyLabel" class="dirty"></span>
-<button id="btnSettings">Settings</button><button id="btnReload">Reload</button><button class="primary" id="btnPublish" disabled>Publish changes</button></header>
+<button id="btnStats">Analytics</button><button id="btnSettings">Settings</button><button id="btnReload">Reload</button><button class="primary" id="btnPublish" disabled>Publish changes</button></header>
 
 <div class="layout">
 <aside>
@@ -59,6 +59,11 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 </main>
 </div>
 
+<dialog id="dlgStats" style="width:min(1100px,96vw)"><div class="row" style="margin-top:0"><h3 style="margin:0">Analytics</h3><span class="sp" style="flex:1"></span>
+<select id="stDays"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select>
+<button id="stLoad">Refresh</button><button onclick="this.closest('dialog').close()">Close</button></div>
+<div id="stBody" class="muted">Loading…</div></dialog>
+<style>.bar{height:22px;border-radius:7px;background:linear-gradient(90deg,var(--lime),var(--mint));min-width:2px}.brow{display:grid;grid-template-columns:170px 1fr 120px;gap:10px;align-items:center;margin:6px 0;font-size:13px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.kpi b{font-size:24px;display:block}.drop{color:var(--coral);font-size:12px}</style>
 <dialog id="dlgSettings"><h3 style="margin-top:0">Settings</h3>
 <div class="grid10" style="grid-template-columns:1fr 1fr">
 <label class="f">GitHub owner <input id="sOwner" value="KostiantynChukhas" placeholder="your-github-username"></label>
@@ -196,4 +201,28 @@ $("#search").oninput=()=>{renderList();if(current)renderEditor()};
 window.addEventListener("beforeunload",e=>{if(dirty.size||deleted.size){e.preventDefault();e.returnValue=""}});
 const params=new URLSearchParams(location.search);if(params.get("owner")){S.set("owner",params.get("owner"));S.set("repo",params.get("repo")||"raise-site")}
 load();
+
+// ---------- Analytics (proxy /admin/stats → D1) ----------
+const STEP_LABEL={first_open:"App opened",onb_welcome:"Welcome",onb_language:"Languages",onb_goals:"Goals",onb_watch:"Watch size",onb_level:"Level test",onb_result:"Result",paywall_view:"Paywall shown",trial_or_purchase:"Trial / purchase",face_installed:"Face installed"};
+function esc(x){return String(x??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+async function loadStats(){
+  const c=cfg(); if(!c.proxy||!c.admintoken){$("#stBody").innerHTML="Add the AI proxy URL and Admin token in <b>Settings</b> first.";return}
+  $("#stBody").textContent="Loading…";
+  try{
+    const r=await fetch(c.proxy+"/admin/stats",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+c.admintoken},body:JSON.stringify({days:+$("#stDays").value})});
+    const d=await r.json(); if(!r.ok) throw new Error(d.error||r.status);
+    const top=Math.max(1,...d.funnel.map(f=>f.users));
+    let h=`<div class="kpis"><div class="card kpi"><span class="muted">Users</span><b>${d.totals.users||0}</b></div><div class="card kpi"><span class="muted">Events</span><b>${d.totals.events||0}</b></div><div class="card kpi"><span class="muted">Installs</span><b>${d.funnel[0].users}</b></div><div class="card kpi"><span class="muted">Purchases</span><b>${(d.funnel.find(f=>f.step==="trial_or_purchase")||{}).users||0}</b></div></div>`;
+    h+=`<div class="card"><h3 style="margin-top:0">Funnel — where users drop off</h3>`;
+    d.funnel.forEach((f,i)=>{const prev=i?d.funnel[i-1].users:0;const lost=i&&prev?Math.round((1-f.users/prev)*100):null;
+      h+=`<div class="brow"><span>${esc(STEP_LABEL[f.step]||f.step)}</span><div class="bar" style="width:${f.users/top*100}%"></div><span>${f.users}${lost!==null&&lost>0?` <span class="drop">−${lost}%</span>`:""}</span></div>`});
+    h+=`</div><div class="row" style="align-items:flex-start;gap:16px"><div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Last screen before leaving</h3><table><tr><th>screen</th><th>users</th></tr>${d.lastScreens.map(x=>`<tr><td>${esc(x.screen)}</td><td>${x.users}</td></tr>`).join("")}</table></div>`;
+    h+=`<div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Screens</h3><table><tr><th>screen</th><th>users</th><th>views</th></tr>${d.screens.map(x=>`<tr><td>${esc(x.screen)}</td><td>${x.users}</td><td>${x.views}</td></tr>`).join("")}</table></div></div>`;
+    h+=`<div class="row" style="align-items:flex-start;gap:16px"><div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Paywall by trigger</h3><table><tr><th>context</th><th>shown</th><th>bought</th><th>conv.</th></tr>${d.paywall.map(x=>`<tr><td>${esc(x.context||"—")}</td><td>${x.views}</td><td>${x.purchases}</td><td>${x.views?Math.round(x.purchases/x.views*1000)/10:0}%</td></tr>`).join("")}</table></div>`;
+    h+=`<div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Daily</h3><table><tr><th>day</th><th>users</th><th>installs</th><th>events</th></tr>${d.daily.slice().reverse().map(x=>`<tr><td>${x.day}</td><td>${x.users}</td><td>${x.installs}</td><td>${x.events}</td></tr>`).join("")}</table></div></div>`;
+    $("#stBody").innerHTML=h;
+  }catch(e){$("#stBody").innerHTML=`<span class="dirty">Could not load: ${esc(e.message)}</span>`}
+}
+$("#btnStats").onclick=()=>{$("#dlgStats").showModal();loadStats()};
+$("#stLoad").onclick=loadStats;$("#stDays").onchange=loadStats;
 </script></body></html>
