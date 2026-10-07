@@ -2,7 +2,7 @@
  "id": "health-a2",
  "topic": "health",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "health.symptom",
@@ -470,6 +470,402 @@
    },
    "ex": {
     "en": "Get well soon, Anna!"
+   }
+  },
+  {
+   "id": "health.earache",
+   "t": {
+    "en": "earache",
+    "uk": "біль у вусі",
+    "ru": "боль в ухе",
+    "pl": "ból ucha",
+    "de": "Ohrenschmerzen",
+    "fr": "mal d'oreille",
+    "es": "dolor de oído",
+    "it": "mal d'orecchio",
+    "pt": "dor de ouvido",
+    "tr": "kulak ağrısı"
+   },
+   "ex": {
+    "en": "The child has an earache."
+   }
+  },
+  {
+   "id": "health.cut",
+   "t": {
+    "en": "cut",
+    "uk": "поріз",
+    "ru": "порез",
+    "pl": "skaleczenie",
+    "de": "Schnittwunde",
+    "fr": "coupure",
+    "es": "corte",
+    "it": "taglio",
+    "pt": "corte",
+    "tr": "kesik"
+   },
+   "ex": {
+    "en": "Put a plaster on the cut."
+   }
+  },
+  {
+   "id": "health.bruise",
+   "t": {
+    "en": "bruise",
+    "uk": "синець",
+    "ru": "синяк",
+    "pl": "siniak",
+    "de": "blauer Fleck",
+    "fr": "bleu",
+    "es": "moratón",
+    "it": "livido",
+    "pt": "hematoma",
+    "tr": "morluk"
+   },
+   "ex": {
+    "en": "I have a bruise on my leg."
+   }
+  },
+  {
+   "id": "health.to-vomit",
+   "t": {
+    "en": "to vomit",
+    "uk": "блювати",
+    "ru": "рвать",
+    "pl": "wymiotować",
+    "de": "sich übergeben",
+    "fr": "vomir",
+    "es": "vomitar",
+    "it": "vomitare",
+    "pt": "vomitar",
+    "tr": "kusmak"
+   },
+   "ex": {
+    "en": "The baby vomited after eating."
+   }
+  },
+  {
+   "id": "health.diarrhea",
+   "t": {
+    "en": "diarrhea",
+    "uk": "діарея",
+    "ru": "диарея",
+    "pl": "biegunka",
+    "de": "Durchfall",
+    "fr": "diarrhée",
+    "es": "diarrea",
+    "it": "diarrea",
+    "pt": "diarreia",
+    "tr": "ishal"
+   },
+   "ex": {
+    "en": "Drink water if you have diarrhea."
+   }
+  },
+  {
+   "id": "health.to-hurt",
+   "t": {
+    "en": "to hurt",
+    "uk": "боліти",
+    "ru": "болеть",
+    "pl": "boleć",
+    "de": "wehtun",
+    "fr": "faire mal",
+    "es": "doler",
+    "it": "fare male",
+    "pt": "doer",
+    "tr": "ağrımak"
+   },
+   "ex": {
+    "en": "My feet hurt."
+   }
+  },
+  {
+   "id": "health.syrup",
+   "t": {
+    "en": "syrup",
+    "uk": "сироп",
+    "ru": "сироп",
+    "pl": "syrop",
+    "de": "Sirup",
+    "fr": "sirop",
+    "es": "jarabe",
+    "it": "sciroppo",
+    "pt": "xarope",
+    "tr": "şurup"
+   },
+   "ex": {
+    "en": "Take this cough syrup."
+   }
+  },
+  {
+   "id": "health.tablet",
+   "t": {
+    "en": "tablet",
+    "uk": "таблетка",
+    "ru": "таблетка",
+    "pl": "tabletka",
+    "de": "Tablette",
+    "fr": "comprimé",
+    "es": "comprimido",
+    "it": "compressa",
+    "pt": "comprimido",
+    "tr": "tablet"
+   },
+   "ex": {
+    "en": "Take one tablet twice a day."
+   }
+  },
+  {
+   "id": "health.vitamin",
+   "t": {
+    "en": "vitamin",
+    "uk": "вітамін",
+    "ru": "витамин",
+    "pl": "witamina",
+    "de": "Vitamin",
+    "fr": "vitamine",
+    "es": "vitamina",
+    "it": "vitamina",
+    "pt": "vitamina",
+    "tr": "vitamin"
+   },
+   "ex": {
+    "en": "Oranges are full of vitamin C."
+   }
+  },
+  {
+   "id": "health.ankle",
+   "t": {
+    "en": "ankle",
+    "uk": "щиколотка",
+    "ru": "лодыжка",
+    "pl": "kostka",
+    "de": "Knöchel",
+    "fr": "cheville",
+    "es": "tobillo",
+    "it": "caviglia",
+    "pt": "tornozelo",
+    "tr": "ayak bileği"
+   },
+   "ex": {
+    "en": "I twisted my ankle."
+   }
+  },
+  {
+   "id": "health.wrist",
+   "t": {
+    "en": "wrist",
+    "uk": "зап'ясток",
+    "ru": "запястье",
+    "pl": "nadgarstek",
+    "de": "Handgelenk",
+    "fr": "poignet",
+    "es": "muñeca",
+    "it": "polso",
+    "pt": "pulso",
+    "tr": "el bileği"
+   },
+   "ex": {
+    "en": "My wrist is swollen."
+   }
+  },
+  {
+   "id": "health.elbow",
+   "t": {
+    "en": "elbow",
+    "uk": "лікоть",
+    "ru": "локоть",
+    "pl": "łokieć",
+    "de": "Ellbogen",
+    "fr": "coude",
+    "es": "codo",
+    "it": "gomito",
+    "pt": "cotovelo",
+    "tr": "dirsek"
+   },
+   "ex": {
+    "en": "I hit my elbow on the door."
+   }
+  },
+  {
+   "id": "health.toe",
+   "t": {
+    "en": "toe",
+    "uk": "палець ноги",
+    "ru": "палец ноги",
+    "pl": "palec u nogi",
+    "de": "Zeh",
+    "fr": "orteil",
+    "es": "dedo del pie",
+    "it": "dito del piede",
+    "pt": "dedo do pé",
+    "tr": "ayak parmağı"
+   },
+   "ex": {
+    "en": "I broke my little toe."
+   }
+  },
+  {
+   "id": "health.lungs",
+   "t": {
+    "en": "lungs",
+    "uk": "легені",
+    "ru": "лёгкие",
+    "pl": "płuca",
+    "de": "Lunge",
+    "fr": "poumons",
+    "es": "pulmones",
+    "it": "polmoni",
+    "pt": "pulmões",
+    "tr": "akciğerler"
+   },
+   "ex": {
+    "en": "Smoking damages your lungs."
+   }
+  },
+  {
+   "id": "health.bone",
+   "t": {
+    "en": "bone",
+    "uk": "кістка",
+    "ru": "кость",
+    "pl": "kość",
+    "de": "Knochen",
+    "fr": "os",
+    "es": "hueso",
+    "it": "osso",
+    "pt": "osso",
+    "tr": "kemik"
+   },
+   "ex": {
+    "en": "Milk is good for your bones."
+   }
+  },
+  {
+   "id": "health.to-feel-better",
+   "t": {
+    "en": "to feel better",
+    "uk": "почуватися краще",
+    "ru": "чувствовать себя лучше",
+    "pl": "czuć się lepiej",
+    "de": "sich besser fühlen",
+    "fr": "se sentir mieux",
+    "es": "sentirse mejor",
+    "it": "sentirsi meglio",
+    "pt": "sentir-se melhor",
+    "tr": "daha iyi hissetmek"
+   },
+   "ex": {
+    "en": "I feel better today."
+   }
+  },
+  {
+   "id": "health.clinic",
+   "t": {
+    "en": "clinic",
+    "uk": "клініка",
+    "ru": "клиника",
+    "pl": "przychodnia",
+    "de": "Klinik",
+    "fr": "clinique",
+    "es": "clínica",
+    "it": "clinica",
+    "pt": "clínica",
+    "tr": "klinik"
+   },
+   "ex": {
+    "en": "The clinic opens at eight."
+   }
+  },
+  {
+   "id": "health.to-stay-in-bed",
+   "t": {
+    "en": "to stay in bed",
+    "uk": "лежати в ліжку",
+    "ru": "лежать в постели",
+    "pl": "leżeć w łóżku",
+    "de": "im Bett bleiben",
+    "fr": "rester au lit",
+    "es": "quedarse en cama",
+    "it": "restare a letto",
+    "pt": "ficar de cama",
+    "tr": "yatakta kalmak"
+   },
+   "ex": {
+    "en": "The doctor told me to stay in bed."
+   }
+  },
+  {
+   "id": "health.to-make-an-appointment",
+   "t": {
+    "en": "to make an appointment",
+    "uk": "записатися на прийом",
+    "ru": "записаться на приём",
+    "pl": "umówić się na wizytę",
+    "de": "einen Termin vereinbaren",
+    "fr": "prendre rendez-vous",
+    "es": "pedir cita",
+    "it": "prendere un appuntamento",
+    "pt": "marcar uma consulta",
+    "tr": "randevu almak"
+   },
+   "ex": {
+    "en": "I need to make an appointment."
+   }
+  },
+  {
+   "id": "health.to-be-allergic-to",
+   "t": {
+    "en": "to be allergic to",
+    "uk": "мати алергію на",
+    "ru": "иметь аллергию на",
+    "pl": "mieć alergię na",
+    "de": "allergisch sein gegen",
+    "fr": "être allergique à",
+    "es": "ser alérgico a",
+    "it": "essere allergico a",
+    "pt": "ser alérgico a",
+    "tr": "alerjisi olmak"
+   },
+   "ex": {
+    "en": "I'm allergic to cats."
+   }
+  },
+  {
+   "id": "health.blister",
+   "t": {
+    "en": "blister",
+    "uk": "пухир",
+    "ru": "волдырь",
+    "pl": "pęcherz",
+    "de": "Blase",
+    "fr": "ampoule",
+    "es": "ampolla",
+    "it": "vescica",
+    "pt": "bolha",
+    "tr": "su toplaması"
+   },
+   "ex": {
+    "en": "New shoes gave me a blister."
+   }
+  },
+  {
+   "id": "health.sunburn",
+   "t": {
+    "en": "sunburn",
+    "uk": "сонячний опік",
+    "ru": "солнечный ожог",
+    "pl": "oparzenie słoneczne",
+    "de": "Sonnenbrand",
+    "fr": "coup de soleil",
+    "es": "quemadura solar",
+    "it": "scottatura",
+    "pt": "queimadura solar",
+    "tr": "güneş yanığı"
+   },
+   "ex": {
+    "en": "Use sunscreen to avoid sunburn."
    }
   }
  ]

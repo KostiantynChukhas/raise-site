@@ -2,7 +2,7 @@
  "id": "work-b1",
  "topic": "work",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "work.to-get-a-raise",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Open-plan offices can be noisy."
+   }
+  },
+  {
+   "id": "work.job-application",
+   "t": {
+    "en": "job application",
+    "uk": "заявка на роботу",
+    "ru": "заявление о приёме на работу",
+    "pl": "podanie o pracę",
+    "de": "Bewerbung",
+    "fr": "candidature",
+    "es": "solicitud de empleo",
+    "it": "candidatura",
+    "pt": "candidatura",
+    "tr": "iş başvurusu"
+   },
+   "ex": {
+    "en": "I sent my job application yesterday."
+   }
+  },
+  {
+   "id": "work.to-supervise",
+   "t": {
+    "en": "to supervise",
+    "uk": "наглядати",
+    "ru": "контролировать",
+    "pl": "nadzorować",
+    "de": "beaufsichtigen",
+    "fr": "superviser",
+    "es": "supervisar",
+    "it": "supervisionare",
+    "pt": "supervisionar",
+    "tr": "denetlemek"
+   },
+   "ex": {
+    "en": "She supervises five workers."
+   }
+  },
+  {
+   "id": "work.team-player",
+   "t": {
+    "en": "team player",
+    "uk": "командний гравець",
+    "ru": "командный игрок",
+    "pl": "gracz zespołowy",
+    "de": "Teamplayer",
+    "fr": "joueur d'équipe",
+    "es": "jugador de equipo",
+    "it": "giocatore di squadra",
+    "pt": "jogador de equipe",
+    "tr": "takım oyuncusu"
+   },
+   "ex": {
+    "en": "We're looking for a real team player."
+   }
+  },
+  {
+   "id": "work.conference-call",
+   "t": {
+    "en": "conference call",
+    "uk": "конференц-дзвінок",
+    "ru": "конференц-звонок",
+    "pl": "telekonferencja",
+    "de": "Telefonkonferenz",
+    "fr": "conférence téléphonique",
+    "es": "conferencia telefónica",
+    "it": "teleconferenza",
+    "pt": "teleconferência",
+    "tr": "konferans görüşmesi"
+   },
+   "ex": {
+    "en": "We have a conference call at three."
+   }
+  },
+  {
+   "id": "work.career-change",
+   "t": {
+    "en": "career change",
+    "uk": "зміна професії",
+    "ru": "смена профессии",
+    "pl": "zmiana zawodu",
+    "de": "Berufswechsel",
+    "fr": "reconversion professionnelle",
+    "es": "cambio de profesión",
+    "it": "cambio di carriera",
+    "pt": "mudança de carreira",
+    "tr": "kariyer değişikliği"
+   },
+   "ex": {
+    "en": "At forty, she made a career change."
+   }
+  },
+  {
+   "id": "work.workplace-safety",
+   "t": {
+    "en": "workplace safety",
+    "uk": "безпека на роботі",
+    "ru": "безопасность на рабочем месте",
+    "pl": "bezpieczeństwo w pracy",
+    "de": "Arbeitssicherheit",
+    "fr": "sécurité au travail",
+    "es": "seguridad laboral",
+    "it": "sicurezza sul lavoro",
+    "pt": "segurança no trabalho",
+    "tr": "iş güvenliği"
+   },
+   "ex": {
+    "en": "Workplace safety is our top priority."
+   }
+  },
+  {
+   "id": "work.employment",
+   "t": {
+    "en": "employment",
+    "uk": "працевлаштування",
+    "ru": "трудоустройство",
+    "pl": "zatrudnienie",
+    "de": "Beschäftigung",
+    "fr": "emploi",
+    "es": "empleo",
+    "it": "occupazione",
+    "pt": "emprego",
+    "tr": "istihdam"
+   },
+   "ex": {
+    "en": "Employment in the city is rising."
+   }
+  },
+  {
+   "id": "work.job-title",
+   "t": {
+    "en": "job title",
+    "uk": "посада",
+    "ru": "должность",
+    "pl": "stanowisko",
+    "de": "Berufsbezeichnung",
+    "fr": "intitulé de poste",
+    "es": "cargo",
+    "it": "qualifica",
+    "pt": "cargo",
+    "tr": "unvan"
+   },
+   "ex": {
+    "en": "What's your job title?"
+   }
+  },
+  {
+   "id": "work.trade-union",
+   "t": {
+    "en": "trade union",
+    "uk": "профспілка",
+    "ru": "профсоюз",
+    "pl": "związek zawodowy",
+    "de": "Gewerkschaft",
+    "fr": "syndicat",
+    "es": "sindicato",
+    "it": "sindacato",
+    "pt": "sindicato",
+    "tr": "sendika"
+   },
+   "ex": {
+    "en": "She joined a trade union."
+   }
+  },
+  {
+   "id": "work.strike",
+   "t": {
+    "en": "strike",
+    "uk": "страйк",
+    "ru": "забастовка",
+    "pl": "strajk",
+    "de": "Streik",
+    "fr": "grève",
+    "es": "huelga",
+    "it": "sciopero",
+    "pt": "greve",
+    "tr": "grev"
+   },
+   "ex": {
+    "en": "The workers are on strike."
+   }
+  },
+  {
+   "id": "work.achievement",
+   "t": {
+    "en": "achievement",
+    "uk": "досягнення",
+    "ru": "достижение",
+    "pl": "osiągnięcie",
+    "de": "Erfolg",
+    "fr": "réussite",
+    "es": "logro",
+    "it": "risultato",
+    "pt": "conquista",
+    "tr": "başarı"
+   },
+   "ex": {
+    "en": "Finishing the project was a big achievement."
+   }
+  },
+  {
+   "id": "work.responsibility",
+   "t": {
+    "en": "responsibility",
+    "uk": "відповідальність",
+    "ru": "ответственность",
+    "pl": "odpowiedzialność",
+    "de": "Verantwortung",
+    "fr": "responsabilité",
+    "es": "responsabilidad",
+    "it": "responsabilità",
+    "pt": "responsabilidade",
+    "tr": "sorumluluk"
+   },
+   "ex": {
+    "en": "It's my responsibility to train new staff."
+   }
+  },
+  {
+   "id": "work.job-satisfaction",
+   "t": {
+    "en": "job satisfaction",
+    "uk": "задоволеність роботою",
+    "ru": "удовлетворённость работой",
+    "pl": "satysfakcja z pracy",
+    "de": "Arbeitszufriedenheit",
+    "fr": "satisfaction au travail",
+    "es": "satisfacción laboral",
+    "it": "soddisfazione lavorativa",
+    "pt": "satisfação no trabalho",
+    "tr": "iş tatmini"
+   },
+   "ex": {
+    "en": "Job satisfaction matters more than money."
+   }
+  },
+  {
+   "id": "work.remote-work",
+   "t": {
+    "en": "remote work",
+    "uk": "віддалена робота",
+    "ru": "удалённая работа",
+    "pl": "praca zdalna",
+    "de": "Telearbeit",
+    "fr": "télétravail",
+    "es": "teletrabajo",
+    "it": "lavoro da remoto",
+    "pt": "trabalho remoto",
+    "tr": "uzaktan çalışma"
+   },
+   "ex": {
+    "en": "Remote work has become very common."
+   }
+  },
+  {
+   "id": "work.job-security",
+   "t": {
+    "en": "job security",
+    "uk": "гарантія зайнятості",
+    "ru": "гарантия занятости",
+    "pl": "bezpieczeństwo zatrudnienia",
+    "de": "Arbeitsplatzsicherheit",
+    "fr": "sécurité de l'emploi",
+    "es": "estabilidad laboral",
+    "it": "sicurezza del lavoro",
+    "pt": "estabilidade no emprego",
+    "tr": "iş güvencesi"
+   },
+   "ex": {
+    "en": "Many people value job security."
+   }
+  },
+  {
+   "id": "work.working-conditions",
+   "t": {
+    "en": "working conditions",
+    "uk": "умови праці",
+    "ru": "условия труда",
+    "pl": "warunki pracy",
+    "de": "Arbeitsbedingungen",
+    "fr": "conditions de travail",
+    "es": "condiciones laborales",
+    "it": "condizioni di lavoro",
+    "pt": "condições de trabalho",
+    "tr": "çalışma koşulları"
+   },
+   "ex": {
+    "en": "The working conditions here are excellent."
+   }
+  },
+  {
+   "id": "work.paid-leave",
+   "t": {
+    "en": "paid leave",
+    "uk": "оплачувана відпустка",
+    "ru": "оплачиваемый отпуск",
+    "pl": "płatny urlop",
+    "de": "bezahlter Urlaub",
+    "fr": "congé payé",
+    "es": "vacaciones pagadas",
+    "it": "ferie retribuite",
+    "pt": "férias remuneradas",
+    "tr": "ücretli izin"
+   },
+   "ex": {
+    "en": "We get twenty days of paid leave."
+   }
+  },
+  {
+   "id": "work.minimum-wage",
+   "t": {
+    "en": "minimum wage",
+    "uk": "мінімальна зарплата",
+    "ru": "минимальная зарплата",
+    "pl": "płaca minimalna",
+    "de": "Mindestlohn",
+    "fr": "salaire minimum",
+    "es": "salario mínimo",
+    "it": "salario minimo",
+    "pt": "salário mínimo",
+    "tr": "asgari ücret"
+   },
+   "ex": {
+    "en": "The minimum wage went up this year."
+   }
+  },
+  {
+   "id": "work.to-lead-a-team",
+   "t": {
+    "en": "to lead a team",
+    "uk": "керувати командою",
+    "ru": "руководить командой",
+    "pl": "kierować zespołem",
+    "de": "ein Team leiten",
+    "fr": "diriger une équipe",
+    "es": "dirigir un equipo",
+    "it": "guidare una squadra",
+    "pt": "liderar uma equipe",
+    "tr": "ekip yönetmek"
+   },
+   "ex": {
+    "en": "She leads a team of ten people."
+   }
+  },
+  {
+   "id": "work.to-set-goals",
+   "t": {
+    "en": "to set goals",
+    "uk": "ставити цілі",
+    "ru": "ставить цели",
+    "pl": "wyznaczać cele",
+    "de": "Ziele setzen",
+    "fr": "fixer des objectifs",
+    "es": "fijar objetivos",
+    "it": "fissare obiettivi",
+    "pt": "definir metas",
+    "tr": "hedef belirlemek"
+   },
+   "ex": {
+    "en": "We set goals at the start of each year."
    }
   }
  ]

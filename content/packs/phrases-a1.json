@@ -2,7 +2,7 @@
  "id": "phrases-a1",
  "topic": "phrases",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "phrases.hello",
@@ -470,6 +470,420 @@
    },
    "ex": {
     "en": "Okay, let's meet at six."
+   }
+  },
+  {
+   "id": "phrases.bye",
+   "t": {
+    "en": "bye",
+    "uk": "бувай",
+    "ru": "пока",
+    "pl": "pa",
+    "de": "tschüss",
+    "fr": "salut",
+    "es": "chao",
+    "it": "ciao",
+    "pt": "tchau",
+    "tr": "hoşça kal"
+   },
+   "ex": {
+    "en": "Bye, see you tomorrow!"
+   }
+  },
+  {
+   "id": "phrases.good-afternoon",
+   "t": {
+    "en": "good afternoon",
+    "uk": "добрий день",
+    "ru": "добрый день",
+    "pl": "dzień dobry",
+    "de": "guten Tag",
+    "fr": "bonjour",
+    "es": "buenas tardes",
+    "it": "buon pomeriggio",
+    "pt": "boa tarde",
+    "tr": "tünaydın"
+   },
+   "ex": {
+    "en": "Good afternoon, how are you?"
+   }
+  },
+  {
+   "id": "phrases.i-understand",
+   "t": {
+    "en": "I understand",
+    "uk": "я розумію",
+    "ru": "я понимаю",
+    "pl": "rozumiem",
+    "de": "ich verstehe",
+    "fr": "je comprends",
+    "es": "entiendo",
+    "it": "capisco",
+    "pt": "entendo",
+    "tr": "anlıyorum"
+   },
+   "ex": {
+    "en": "Yes, I understand you."
+   }
+  },
+  {
+   "id": "phrases.where-are-you-from",
+   "t": {
+    "en": "where are you from?",
+    "uk": "звідки ти?",
+    "ru": "откуда ты?",
+    "pl": "skąd jesteś?",
+    "de": "woher kommst du?",
+    "fr": "d'où viens-tu ?",
+    "es": "¿de dónde eres?",
+    "it": "di dove sei?",
+    "pt": "de onde você é?",
+    "tr": "nerelisin?"
+   },
+   "ex": {
+    "en": "Where are you from? I'm from Spain."
+   }
+  },
+  {
+   "id": "phrases.i-m-from",
+   "t": {
+    "en": "I'm from...",
+    "uk": "я з...",
+    "ru": "я из...",
+    "pl": "jestem z...",
+    "de": "ich komme aus...",
+    "fr": "je viens de...",
+    "es": "soy de...",
+    "it": "sono di...",
+    "pt": "sou de...",
+    "tr": "...'dan geliyorum"
+   },
+   "ex": {
+    "en": "I'm from Ukraine."
+   }
+  },
+  {
+   "id": "phrases.i-like-it",
+   "t": {
+    "en": "I like it",
+    "uk": "мені подобається",
+    "ru": "мне нравится",
+    "pl": "podoba mi się",
+    "de": "das gefällt mir",
+    "fr": "ça me plaît",
+    "es": "me gusta",
+    "it": "mi piace",
+    "pt": "eu gosto",
+    "tr": "hoşuma gidiyor"
+   },
+   "ex": {
+    "en": "This song is great, I like it."
+   }
+  },
+  {
+   "id": "phrases.i-don-t-like-it",
+   "t": {
+    "en": "I don't like it",
+    "uk": "мені не подобається",
+    "ru": "мне не нравится",
+    "pl": "nie podoba mi się",
+    "de": "das gefällt mir nicht",
+    "fr": "ça ne me plaît pas",
+    "es": "no me gusta",
+    "it": "non mi piace",
+    "pt": "não gosto",
+    "tr": "hoşuma gitmiyor"
+   },
+   "ex": {
+    "en": "The colour is ugly, I don't like it."
+   }
+  },
+  {
+   "id": "phrases.no-thanks",
+   "t": {
+    "en": "no, thanks",
+    "uk": "ні, дякую",
+    "ru": "нет, спасибо",
+    "pl": "nie, dziękuję",
+    "de": "nein, danke",
+    "fr": "non, merci",
+    "es": "no, gracias",
+    "it": "no, grazie",
+    "pt": "não, obrigado",
+    "tr": "hayır, teşekkürler"
+   },
+   "ex": {
+    "en": "More tea? No, thanks."
+   }
+  },
+  {
+   "id": "phrases.yes-please",
+   "t": {
+    "en": "yes, please",
+    "uk": "так, будь ласка",
+    "ru": "да, пожалуйста",
+    "pl": "tak, poproszę",
+    "de": "ja, bitte",
+    "fr": "oui, s'il vous plaît",
+    "es": "sí, por favor",
+    "it": "sì, per favore",
+    "pt": "sim, por favor",
+    "tr": "evet, lütfen"
+   },
+   "ex": {
+    "en": "Coffee? Yes, please."
+   }
+  },
+  {
+   "id": "phrases.here-you-are",
+   "t": {
+    "en": "here you are",
+    "uk": "ось, будь ласка",
+    "ru": "вот, пожалуйста",
+    "pl": "proszę",
+    "de": "bitte schön",
+    "fr": "voilà",
+    "es": "aquí tiene",
+    "it": "ecco a lei",
+    "pt": "aqui está",
+    "tr": "buyurun"
+   },
+   "ex": {
+    "en": "Here you are, your ticket."
+   }
+  },
+  {
+   "id": "phrases.how-do-you-say",
+   "t": {
+    "en": "how do you say...?",
+    "uk": "як сказати...?",
+    "ru": "как сказать...?",
+    "pl": "jak się mówi...?",
+    "de": "wie sagt man...?",
+    "fr": "comment dit-on... ?",
+    "es": "¿cómo se dice...?",
+    "it": "come si dice...?",
+    "pt": "como se diz...?",
+    "tr": "... nasıl denir?"
+   },
+   "ex": {
+    "en": "How do you say \"apple\" in Polish?"
+   }
+  },
+  {
+   "id": "phrases.what-is-this",
+   "t": {
+    "en": "what is this?",
+    "uk": "що це?",
+    "ru": "что это?",
+    "pl": "co to jest?",
+    "de": "was ist das?",
+    "fr": "qu'est-ce que c'est ?",
+    "es": "¿qué es esto?",
+    "it": "che cos'è?",
+    "pt": "o que é isso?",
+    "tr": "bu ne?"
+   },
+   "ex": {
+    "en": "What is this? It's a new phone."
+   }
+  },
+  {
+   "id": "phrases.can-i-help-you",
+   "t": {
+    "en": "can I help you?",
+    "uk": "чим можу допомогти?",
+    "ru": "чем могу помочь?",
+    "pl": "czy mogę pomóc?",
+    "de": "kann ich helfen?",
+    "fr": "je peux vous aider ?",
+    "es": "¿puedo ayudarle?",
+    "it": "posso aiutarla?",
+    "pt": "posso ajudar?",
+    "tr": "yardımcı olabilir miyim?"
+   },
+   "ex": {
+    "en": "Good morning, can I help you?"
+   }
+  },
+  {
+   "id": "phrases.great",
+   "t": {
+    "en": "great!",
+    "uk": "чудово!",
+    "ru": "отлично!",
+    "pl": "świetnie!",
+    "de": "super!",
+    "fr": "super !",
+    "es": "¡genial!",
+    "it": "fantastico!",
+    "pt": "ótimo!",
+    "tr": "harika!"
+   },
+   "ex": {
+    "en": "You passed the test? Great!"
+   }
+  },
+  {
+   "id": "phrases.i-m-tired",
+   "t": {
+    "en": "I'm tired",
+    "uk": "я втомився",
+    "ru": "я устал",
+    "pl": "jestem zmęczony",
+    "de": "ich bin müde",
+    "fr": "je suis fatigué",
+    "es": "estoy cansado",
+    "it": "sono stanco",
+    "pt": "estou cansado",
+    "tr": "yorgunum"
+   },
+   "ex": {
+    "en": "I'm tired, I want to sleep."
+   }
+  },
+  {
+   "id": "phrases.i-m-hungry",
+   "t": {
+    "en": "I'm hungry",
+    "uk": "я голодний",
+    "ru": "я голоден",
+    "pl": "jestem głodny",
+    "de": "ich habe Hunger",
+    "fr": "j'ai faim",
+    "es": "tengo hambre",
+    "it": "ho fame",
+    "pt": "estou com fome",
+    "tr": "acıktım"
+   },
+   "ex": {
+    "en": "I'm hungry, let's eat."
+   }
+  },
+  {
+   "id": "phrases.i-m-thirsty",
+   "t": {
+    "en": "I'm thirsty",
+    "uk": "я хочу пити",
+    "ru": "я хочу пить",
+    "pl": "chce mi się pić",
+    "de": "ich habe Durst",
+    "fr": "j'ai soif",
+    "es": "tengo sed",
+    "it": "ho sete",
+    "pt": "estou com sede",
+    "tr": "susadım"
+   },
+   "ex": {
+    "en": "I'm thirsty, can I have some water?"
+   }
+  },
+  {
+   "id": "phrases.and-you",
+   "t": {
+    "en": "and you?",
+    "uk": "а ти?",
+    "ru": "а ты?",
+    "pl": "a ty?",
+    "de": "und du?",
+    "fr": "et toi ?",
+    "es": "¿y tú?",
+    "it": "e tu?",
+    "pt": "e você?",
+    "tr": "ya sen?"
+   },
+   "ex": {
+    "en": "I'm fine, thanks. And you?"
+   }
+  },
+  {
+   "id": "phrases.very-well",
+   "t": {
+    "en": "very well",
+    "uk": "дуже добре",
+    "ru": "очень хорошо",
+    "pl": "bardzo dobrze",
+    "de": "sehr gut",
+    "fr": "très bien",
+    "es": "muy bien",
+    "it": "molto bene",
+    "pt": "muito bem",
+    "tr": "çok iyi"
+   },
+   "ex": {
+    "en": "I'm very well, thank you."
+   }
+  },
+  {
+   "id": "phrases.where-do-you-live",
+   "t": {
+    "en": "where do you live?",
+    "uk": "де ти живеш?",
+    "ru": "где ты живёшь?",
+    "pl": "gdzie mieszkasz?",
+    "de": "wo wohnst du?",
+    "fr": "où habites-tu ?",
+    "es": "¿dónde vives?",
+    "it": "dove abiti?",
+    "pt": "onde você mora?",
+    "tr": "nerede yaşıyorsun?"
+   },
+   "ex": {
+    "en": "Where do you live? In Kyiv."
+   }
+  },
+  {
+   "id": "phrases.where-is-the-toilet",
+   "t": {
+    "en": "where is the toilet?",
+    "uk": "де туалет?",
+    "ru": "где туалет?",
+    "pl": "gdzie jest toaleta?",
+    "de": "wo ist die Toilette?",
+    "fr": "où sont les toilettes ?",
+    "es": "¿dónde está el baño?",
+    "it": "dov'è il bagno?",
+    "pt": "onde fica o banheiro?",
+    "tr": "tuvalet nerede?"
+   },
+   "ex": {
+    "en": "Excuse me, where is the toilet?"
+   }
+  },
+  {
+   "id": "phrases.see-you-on-monday",
+   "t": {
+    "en": "see you on Monday",
+    "uk": "до понеділка",
+    "ru": "до понедельника",
+    "pl": "do poniedziałku",
+    "de": "bis Montag",
+    "fr": "à lundi",
+    "es": "hasta el lunes",
+    "it": "a lunedì",
+    "pt": "até segunda",
+    "tr": "pazartesi görüşürüz"
+   },
+   "ex": {
+    "en": "Have a good weekend, see you on Monday!"
+   }
+  },
+  {
+   "id": "phrases.i-m-cold",
+   "t": {
+    "en": "I'm cold",
+    "uk": "мені холодно",
+    "ru": "мне холодно",
+    "pl": "jest mi zimno",
+    "de": "mir ist kalt",
+    "fr": "j'ai froid",
+    "es": "tengo frío",
+    "it": "ho freddo",
+    "pt": "estou com frio",
+    "tr": "üşüyorum"
+   },
+   "ex": {
+    "en": "Close the window, please. I'm cold."
    }
   }
  ]

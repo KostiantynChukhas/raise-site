@@ -2,7 +2,7 @@
  "id": "shopping-b1",
  "topic": "shopping",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "shopping.to-browse",
@@ -470,6 +470,420 @@
    },
    "ex": {
     "en": "Can I pay in instalments?"
+   }
+  },
+  {
+   "id": "shopping.purchase",
+   "t": {
+    "en": "purchase",
+    "uk": "покупка",
+    "ru": "покупка",
+    "pl": "zakup",
+    "de": "Kauf",
+    "fr": "achat",
+    "es": "compra",
+    "it": "acquisto",
+    "pt": "compra",
+    "tr": "satın alma"
+   },
+   "ex": {
+    "en": "Keep the receipt for your purchase."
+   }
+  },
+  {
+   "id": "shopping.vintage",
+   "t": {
+    "en": "vintage",
+    "uk": "вінтажний",
+    "ru": "винтажный",
+    "pl": "vintage",
+    "de": "Vintage",
+    "fr": "vintage",
+    "es": "vintage",
+    "it": "vintage",
+    "pt": "vintage",
+    "tr": "vintage"
+   },
+   "ex": {
+    "en": "She loves vintage clothes."
+   }
+  },
+  {
+   "id": "shopping.charity-shop",
+   "t": {
+    "en": "charity shop",
+    "uk": "благодійний магазин",
+    "ru": "благотворительный магазин",
+    "pl": "sklep charytatywny",
+    "de": "Wohltätigkeitsladen",
+    "fr": "boutique solidaire",
+    "es": "tienda solidaria",
+    "it": "negozio solidale",
+    "pt": "brechó beneficente",
+    "tr": "yardım mağazası"
+   },
+   "ex": {
+    "en": "I found this jacket in a charity shop."
+   }
+  },
+  {
+   "id": "shopping.flea-market",
+   "t": {
+    "en": "flea market",
+    "uk": "блошиний ринок",
+    "ru": "блошиный рынок",
+    "pl": "pchli targ",
+    "de": "Flohmarkt",
+    "fr": "marché aux puces",
+    "es": "mercadillo",
+    "it": "mercatino delle pulci",
+    "pt": "mercado de pulgas",
+    "tr": "bit pazarı"
+   },
+   "ex": {
+    "en": "We bought an old lamp at the flea market."
+   }
+  },
+  {
+   "id": "shopping.boutique",
+   "t": {
+    "en": "boutique",
+    "uk": "бутик",
+    "ru": "бутик",
+    "pl": "butik",
+    "de": "Boutique",
+    "fr": "boutique",
+    "es": "boutique",
+    "it": "boutique",
+    "pt": "butique",
+    "tr": "butik"
+   },
+   "ex": {
+    "en": "She opened a small boutique downtown."
+   }
+  },
+  {
+   "id": "shopping.overpriced",
+   "t": {
+    "en": "overpriced",
+    "uk": "із завищеною ціною",
+    "ru": "с завышенной ценой",
+    "pl": "przepłacony",
+    "de": "überteuert",
+    "fr": "hors de prix",
+    "es": "sobrevalorado",
+    "it": "sovrapprezzato",
+    "pt": "caro demais",
+    "tr": "aşırı pahalı"
+   },
+   "ex": {
+    "en": "Everything in this shop is overpriced."
+   }
+  },
+  {
+   "id": "shopping.luxury",
+   "t": {
+    "en": "luxury",
+    "uk": "розкіш",
+    "ru": "роскошь",
+    "pl": "luksus",
+    "de": "Luxus",
+    "fr": "luxe",
+    "es": "lujo",
+    "it": "lusso",
+    "pt": "luxo",
+    "tr": "lüks"
+   },
+   "ex": {
+    "en": "This watch is a real luxury."
+   }
+  },
+  {
+   "id": "shopping.designer-clothes",
+   "t": {
+    "en": "designer clothes",
+    "uk": "дизайнерський одяг",
+    "ru": "дизайнерская одежда",
+    "pl": "ubrania markowe",
+    "de": "Designerkleidung",
+    "fr": "vêtements de créateurs",
+    "es": "ropa de diseño",
+    "it": "abiti firmati",
+    "pt": "roupa de grife",
+    "tr": "markalı giysi"
+   },
+   "ex": {
+    "en": "He only wears designer clothes."
+   }
+  },
+  {
+   "id": "shopping.genuine",
+   "t": {
+    "en": "genuine",
+    "uk": "справжній",
+    "ru": "подлинный",
+    "pl": "oryginalny",
+    "de": "echt",
+    "fr": "authentique",
+    "es": "auténtico",
+    "it": "autentico",
+    "pt": "genuíno",
+    "tr": "hakiki"
+   },
+   "ex": {
+    "en": "Is this genuine leather?"
+   }
+  },
+  {
+   "id": "shopping.mannequin",
+   "t": {
+    "en": "mannequin",
+    "uk": "манекен",
+    "ru": "манекен",
+    "pl": "manekin",
+    "de": "Schaufensterpuppe",
+    "fr": "mannequin",
+    "es": "maniquí",
+    "it": "manichino",
+    "pt": "manequim",
+    "tr": "manken"
+   },
+   "ex": {
+    "en": "I want the dress on that mannequin."
+   }
+  },
+  {
+   "id": "shopping.hanger",
+   "t": {
+    "en": "hanger",
+    "uk": "вішак",
+    "ru": "вешалка",
+    "pl": "wieszak",
+    "de": "Kleiderbügel",
+    "fr": "cintre",
+    "es": "percha",
+    "it": "gruccia",
+    "pt": "cabide",
+    "tr": "askı"
+   },
+   "ex": {
+    "en": "Please put it back on the hanger."
+   }
+  },
+  {
+   "id": "shopping.tailor",
+   "t": {
+    "en": "tailor",
+    "uk": "кравець",
+    "ru": "портной",
+    "pl": "krawiec",
+    "de": "Schneider",
+    "fr": "tailleur",
+    "es": "sastre",
+    "it": "sarto",
+    "pt": "alfaiate",
+    "tr": "terzi"
+   },
+   "ex": {
+    "en": "The tailor shortened my trousers."
+   }
+  },
+  {
+   "id": "shopping.zip",
+   "t": {
+    "en": "zip",
+    "uk": "блискавка",
+    "ru": "молния",
+    "pl": "zamek błyskawiczny",
+    "de": "Reißverschluss",
+    "fr": "fermeture éclair",
+    "es": "cremallera",
+    "it": "cerniera",
+    "pt": "zíper",
+    "tr": "fermuar"
+   },
+   "ex": {
+    "en": "The zip on this jacket is broken."
+   }
+  },
+  {
+   "id": "shopping.silk",
+   "t": {
+    "en": "silk",
+    "uk": "шовк",
+    "ru": "шёлк",
+    "pl": "jedwab",
+    "de": "Seide",
+    "fr": "soie",
+    "es": "seda",
+    "it": "seta",
+    "pt": "seda",
+    "tr": "ipek"
+   },
+   "ex": {
+    "en": "This scarf is made of silk."
+   }
+  },
+  {
+   "id": "shopping.linen",
+   "t": {
+    "en": "linen",
+    "uk": "льон",
+    "ru": "лён",
+    "pl": "len",
+    "de": "Leinen",
+    "fr": "lin",
+    "es": "lino",
+    "it": "lino",
+    "pt": "linho",
+    "tr": "keten"
+   },
+   "ex": {
+    "en": "Linen shirts are perfect for summer."
+   }
+  },
+  {
+   "id": "shopping.denim",
+   "t": {
+    "en": "denim",
+    "uk": "джинсова тканина",
+    "ru": "джинсовая ткань",
+    "pl": "dżins",
+    "de": "Jeansstoff",
+    "fr": "denim",
+    "es": "tela vaquera",
+    "it": "denim",
+    "pt": "tecido jeans",
+    "tr": "kot kumaş"
+   },
+   "ex": {
+    "en": "This denim jacket is my favourite."
+   }
+  },
+  {
+   "id": "shopping.trendy",
+   "t": {
+    "en": "trendy",
+    "uk": "трендовий",
+    "ru": "трендовый",
+    "pl": "na czasie",
+    "de": "trendy",
+    "fr": "tendance",
+    "es": "de tendencia",
+    "it": "di tendenza",
+    "pt": "moderno",
+    "tr": "trend"
+   },
+   "ex": {
+    "en": "They sell trendy clothes for teenagers."
+   }
+  },
+  {
+   "id": "shopping.out-of-fashion",
+   "t": {
+    "en": "out of fashion",
+    "uk": "немодний",
+    "ru": "вышедший из моды",
+    "pl": "niemodny",
+    "de": "aus der Mode",
+    "fr": "démodé",
+    "es": "pasado de moda",
+    "it": "fuori moda",
+    "pt": "fora de moda",
+    "tr": "modası geçmiş"
+   },
+   "ex": {
+    "en": "Those shoes are out of fashion now."
+   }
+  },
+  {
+   "id": "shopping.price-cut",
+   "t": {
+    "en": "price cut",
+    "uk": "зниження ціни",
+    "ru": "снижение цены",
+    "pl": "obniżka ceny",
+    "de": "Preissenkung",
+    "fr": "baisse de prix",
+    "es": "reducción de precio",
+    "it": "riduzione di prezzo",
+    "pt": "redução de preço",
+    "tr": "fiyat indirimi"
+   },
+   "ex": {
+    "en": "There's a big price cut on TVs."
+   }
+  },
+  {
+   "id": "shopping.card-declined",
+   "t": {
+    "en": "card declined",
+    "uk": "картку відхилено",
+    "ru": "карта отклонена",
+    "pl": "karta odrzucona",
+    "de": "Karte abgelehnt",
+    "fr": "carte refusée",
+    "es": "tarjeta rechazada",
+    "it": "carta rifiutata",
+    "pt": "cartão recusado",
+    "tr": "kart reddedildi"
+   },
+   "ex": {
+    "en": "Sorry, your card was declined."
+   }
+  },
+  {
+   "id": "shopping.shopaholic",
+   "t": {
+    "en": "shopaholic",
+    "uk": "шопоголік",
+    "ru": "шопоголик",
+    "pl": "zakupoholik",
+    "de": "Kaufsüchtiger",
+    "fr": "accro du shopping",
+    "es": "adicto a las compras",
+    "it": "maniaco dello shopping",
+    "pt": "viciado em compras",
+    "tr": "alışveriş bağımlısı"
+   },
+   "ex": {
+    "en": "My sister is a real shopaholic."
+   }
+  },
+  {
+   "id": "shopping.customer-review",
+   "t": {
+    "en": "customer review",
+    "uk": "відгук покупця",
+    "ru": "отзыв покупателя",
+    "pl": "opinia klienta",
+    "de": "Kundenbewertung",
+    "fr": "avis client",
+    "es": "reseña de cliente",
+    "it": "recensione del cliente",
+    "pt": "avaliação de cliente",
+    "tr": "müşteri yorumu"
+   },
+   "ex": {
+    "en": "I always read customer reviews first."
+   }
+  },
+  {
+   "id": "shopping.to-pay-cash",
+   "t": {
+    "en": "to pay cash",
+    "uk": "платити готівкою",
+    "ru": "платить наличными",
+    "pl": "płacić gotówką",
+    "de": "bar bezahlen",
+    "fr": "payer en espèces",
+    "es": "pagar en efectivo",
+    "it": "pagare in contanti",
+    "pt": "pagar em dinheiro",
+    "tr": "nakit ödemek"
+   },
+   "ex": {
+    "en": "Can I pay cash?"
    }
   }
  ]

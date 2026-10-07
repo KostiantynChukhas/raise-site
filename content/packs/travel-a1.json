@@ -2,7 +2,7 @@
  "id": "travel-a1",
  "topic": "travel",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "travel.airport",
@@ -542,6 +542,348 @@
    },
    "ex": {
     "en": "I sent a postcard from Lisbon."
+   }
+  },
+  {
+   "id": "travel.holiday",
+   "t": {
+    "en": "holiday",
+    "uk": "відпустка",
+    "ru": "отпуск",
+    "pl": "wakacje",
+    "de": "Urlaub",
+    "fr": "vacances",
+    "es": "vacaciones",
+    "it": "vacanze",
+    "pt": "férias",
+    "tr": "tatil"
+   },
+   "ex": {
+    "en": "We go on holiday in August."
+   }
+  },
+  {
+   "id": "travel.square",
+   "t": {
+    "en": "square",
+    "uk": "площа",
+    "ru": "площадь",
+    "pl": "plac",
+    "de": "Platz",
+    "fr": "place",
+    "es": "plaza",
+    "it": "piazza",
+    "pt": "praça",
+    "tr": "meydan"
+   },
+   "ex": {
+    "en": "The café is on the main square."
+   }
+  },
+  {
+   "id": "travel.old-town",
+   "t": {
+    "en": "old town",
+    "uk": "старе місто",
+    "ru": "старый город",
+    "pl": "stare miasto",
+    "de": "Altstadt",
+    "fr": "vieille ville",
+    "es": "casco antiguo",
+    "it": "centro storico",
+    "pt": "centro histórico",
+    "tr": "eski şehir"
+   },
+   "ex": {
+    "en": "Let's walk around the old town."
+   }
+  },
+  {
+   "id": "travel.village",
+   "t": {
+    "en": "village",
+    "uk": "село",
+    "ru": "деревня",
+    "pl": "wieś",
+    "de": "Dorf",
+    "fr": "village",
+    "es": "pueblo",
+    "it": "paese",
+    "pt": "aldeia",
+    "tr": "köy"
+   },
+   "ex": {
+    "en": "We stayed in a small village."
+   }
+  },
+  {
+   "id": "travel.sunglasses",
+   "t": {
+    "en": "sunglasses",
+    "uk": "сонцезахисні окуляри",
+    "ru": "солнцезащитные очки",
+    "pl": "okulary przeciwsłoneczne",
+    "de": "Sonnenbrille",
+    "fr": "lunettes de soleil",
+    "es": "gafas de sol",
+    "it": "occhiali da sole",
+    "pt": "óculos de sol",
+    "tr": "güneş gözlüğü"
+   },
+   "ex": {
+    "en": "Don't forget your sunglasses."
+   }
+  },
+  {
+   "id": "travel.train-ticket",
+   "t": {
+    "en": "train ticket",
+    "uk": "квиток на потяг",
+    "ru": "билет на поезд",
+    "pl": "bilet na pociąg",
+    "de": "Zugfahrkarte",
+    "fr": "billet de train",
+    "es": "billete de tren",
+    "it": "biglietto del treno",
+    "pt": "passagem de trem",
+    "tr": "tren bileti"
+   },
+   "ex": {
+    "en": "I bought a train ticket online."
+   }
+  },
+  {
+   "id": "travel.north",
+   "t": {
+    "en": "north",
+    "uk": "північ",
+    "ru": "север",
+    "pl": "północ",
+    "de": "Norden",
+    "fr": "nord",
+    "es": "norte",
+    "it": "nord",
+    "pt": "norte",
+    "tr": "kuzey"
+   },
+   "ex": {
+    "en": "We drove north to the mountains."
+   }
+  },
+  {
+   "id": "travel.south",
+   "t": {
+    "en": "south",
+    "uk": "південь",
+    "ru": "юг",
+    "pl": "południe",
+    "de": "Süden",
+    "fr": "sud",
+    "es": "sur",
+    "it": "sud",
+    "pt": "sul",
+    "tr": "güney"
+   },
+   "ex": {
+    "en": "In winter we travel south."
+   }
+  },
+  {
+   "id": "travel.east",
+   "t": {
+    "en": "east",
+    "uk": "схід",
+    "ru": "восток",
+    "pl": "wschód",
+    "de": "Osten",
+    "fr": "est",
+    "es": "este",
+    "it": "est",
+    "pt": "leste",
+    "tr": "doğu"
+   },
+   "ex": {
+    "en": "The sun rises in the east."
+   }
+  },
+  {
+   "id": "travel.west",
+   "t": {
+    "en": "west",
+    "uk": "захід",
+    "ru": "запад",
+    "pl": "zachód",
+    "de": "Westen",
+    "fr": "ouest",
+    "es": "oeste",
+    "it": "ovest",
+    "pt": "oeste",
+    "tr": "batı"
+   },
+   "ex": {
+    "en": "The beach is west of the city."
+   }
+  },
+  {
+   "id": "travel.castle",
+   "t": {
+    "en": "castle",
+    "uk": "замок",
+    "ru": "замок",
+    "pl": "zamek",
+    "de": "Burg",
+    "fr": "château",
+    "es": "castillo",
+    "it": "castello",
+    "pt": "castelo",
+    "tr": "kale"
+   },
+   "ex": {
+    "en": "We visited an old castle."
+   }
+  },
+  {
+   "id": "travel.zoo",
+   "t": {
+    "en": "zoo",
+    "uk": "зоопарк",
+    "ru": "зоопарк",
+    "pl": "zoo",
+    "de": "Zoo",
+    "fr": "zoo",
+    "es": "zoológico",
+    "it": "zoo",
+    "pt": "zoológico",
+    "tr": "hayvanat bahçesi"
+   },
+   "ex": {
+    "en": "The children loved the zoo."
+   }
+  },
+  {
+   "id": "travel.park",
+   "t": {
+    "en": "park",
+    "uk": "парк",
+    "ru": "парк",
+    "pl": "park",
+    "de": "Park",
+    "fr": "parc",
+    "es": "parque",
+    "it": "parco",
+    "pt": "parque",
+    "tr": "park"
+   },
+   "ex": {
+    "en": "There's a big park near the hotel."
+   }
+  },
+  {
+   "id": "travel.to-come-back",
+   "t": {
+    "en": "to come back",
+    "uk": "повертатися",
+    "ru": "возвращаться",
+    "pl": "wracać",
+    "de": "zurückkommen",
+    "fr": "revenir",
+    "es": "volver",
+    "it": "tornare",
+    "pt": "voltar",
+    "tr": "geri dönmek"
+   },
+   "ex": {
+    "en": "We come back home on Sunday."
+   }
+  },
+  {
+   "id": "travel.church",
+   "t": {
+    "en": "church",
+    "uk": "церква",
+    "ru": "церковь",
+    "pl": "kościół",
+    "de": "Kirche",
+    "fr": "église",
+    "es": "iglesia",
+    "it": "chiesa",
+    "pt": "igreja",
+    "tr": "kilise"
+   },
+   "ex": {
+    "en": "The old church is beautiful."
+   }
+  },
+  {
+   "id": "travel.tower",
+   "t": {
+    "en": "tower",
+    "uk": "вежа",
+    "ru": "башня",
+    "pl": "wieża",
+    "de": "Turm",
+    "fr": "tour",
+    "es": "torre",
+    "it": "torre",
+    "pt": "torre",
+    "tr": "kule"
+   },
+   "ex": {
+    "en": "You can climb the tower."
+   }
+  },
+  {
+   "id": "travel.hotel-room",
+   "t": {
+    "en": "hotel room",
+    "uk": "готельний номер",
+    "ru": "гостиничный номер",
+    "pl": "pokój hotelowy",
+    "de": "Hotelzimmer",
+    "fr": "chambre d'hôtel",
+    "es": "habitación de hotel",
+    "it": "camera d'albergo",
+    "pt": "quarto de hotel",
+    "tr": "otel odası"
+   },
+   "ex": {
+    "en": "Our hotel room is very small."
+   }
+  },
+  {
+   "id": "travel.entrance",
+   "t": {
+    "en": "entrance",
+    "uk": "вхід",
+    "ru": "вход",
+    "pl": "wejście",
+    "de": "Eingang",
+    "fr": "entrée",
+    "es": "entrada",
+    "it": "ingresso",
+    "pt": "entrada",
+    "tr": "giriş"
+   },
+   "ex": {
+    "en": "The entrance is on the left."
+   }
+  },
+  {
+   "id": "travel.to-take-a-photo",
+   "t": {
+    "en": "to take a photo",
+    "uk": "сфотографувати",
+    "ru": "сфотографировать",
+    "pl": "zrobić zdjęcie",
+    "de": "ein Foto machen",
+    "fr": "prendre une photo",
+    "es": "sacar una foto",
+    "it": "fare una foto",
+    "pt": "tirar uma foto",
+    "tr": "fotoğraf çekmek"
+   },
+   "ex": {
+    "en": "Can you take a photo of us?"
    }
   }
  ]

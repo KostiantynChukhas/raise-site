@@ -2,7 +2,7 @@
  "id": "home-b1",
  "topic": "home",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "home.lease-agreement",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Make your bed before breakfast."
+   }
+  },
+  {
+   "id": "home.spacious",
+   "t": {
+    "en": "spacious",
+    "uk": "просторий",
+    "ru": "просторный",
+    "pl": "przestronny",
+    "de": "geräumig",
+    "fr": "spacieux",
+    "es": "espacioso",
+    "it": "spazioso",
+    "pt": "espaçoso",
+    "tr": "ferah"
+   },
+   "ex": {
+    "en": "The flat is bright and spacious."
+   }
+  },
+  {
+   "id": "home.cramped",
+   "t": {
+    "en": "cramped",
+    "uk": "тісний",
+    "ru": "тесный",
+    "pl": "ciasny",
+    "de": "beengt",
+    "fr": "exigu",
+    "es": "estrecho",
+    "it": "angusto",
+    "pt": "apertado",
+    "tr": "dar"
+   },
+   "ex": {
+    "en": "Our first flat was very cramped."
+   }
+  },
+  {
+   "id": "home.detached-house",
+   "t": {
+    "en": "detached house",
+    "uk": "окремий будинок",
+    "ru": "отдельный дом",
+    "pl": "dom wolnostojący",
+    "de": "Einfamilienhaus",
+    "fr": "maison individuelle",
+    "es": "casa unifamiliar",
+    "it": "casa indipendente",
+    "pt": "casa independente",
+    "tr": "müstakil ev"
+   },
+   "ex": {
+    "en": "They bought a detached house."
+   }
+  },
+  {
+   "id": "home.terraced-house",
+   "t": {
+    "en": "terraced house",
+    "uk": "таунхаус",
+    "ru": "таунхаус",
+    "pl": "szeregowiec",
+    "de": "Reihenhaus",
+    "fr": "maison mitoyenne",
+    "es": "casa adosada",
+    "it": "villetta a schiera",
+    "pt": "casa geminada",
+    "tr": "sıra ev"
+   },
+   "ex": {
+    "en": "We live in a terraced house."
+   }
+  },
+  {
+   "id": "home.studio-flat",
+   "t": {
+    "en": "studio flat",
+    "uk": "квартира-студія",
+    "ru": "квартира-студия",
+    "pl": "kawalerka",
+    "de": "Einzimmerwohnung",
+    "fr": "studio",
+    "es": "estudio",
+    "it": "monolocale",
+    "pt": "estúdio",
+    "tr": "stüdyo daire"
+   },
+   "ex": {
+    "en": "She rents a studio flat in the centre."
+   }
+  },
+  {
+   "id": "home.estate-agent",
+   "t": {
+    "en": "estate agent",
+    "uk": "рієлтор",
+    "ru": "риелтор",
+    "pl": "agent nieruchomości",
+    "de": "Immobilienmakler",
+    "fr": "agent immobilier",
+    "es": "agente inmobiliario",
+    "it": "agente immobiliare",
+    "pt": "corretor de imóveis",
+    "tr": "emlakçı"
+   },
+   "ex": {
+    "en": "The estate agent showed us three flats."
+   }
+  },
+  {
+   "id": "home.household-appliance",
+   "t": {
+    "en": "household appliance",
+    "uk": "побутовий прилад",
+    "ru": "бытовой прибор",
+    "pl": "urządzenie AGD",
+    "de": "Haushaltsgerät",
+    "fr": "appareil ménager",
+    "es": "electrodoméstico",
+    "it": "elettrodomestico",
+    "pt": "eletrodoméstico",
+    "tr": "ev aleti"
+   },
+   "ex": {
+    "en": "The fridge is our oldest household appliance."
+   }
+  },
+  {
+   "id": "home.to-unpack",
+   "t": {
+    "en": "to unpack",
+    "uk": "розпаковувати",
+    "ru": "распаковывать",
+    "pl": "rozpakowywać",
+    "de": "auspacken",
+    "fr": "déballer",
+    "es": "desempaquetar",
+    "it": "disimballare",
+    "pt": "desembalar",
+    "tr": "eşyaları açmak"
+   },
+   "ex": {
+    "en": "We still need to unpack the boxes."
+   }
+  },
+  {
+   "id": "home.removal-van",
+   "t": {
+    "en": "removal van",
+    "uk": "фургон для переїзду",
+    "ru": "фургон для переезда",
+    "pl": "samochód do przeprowadzki",
+    "de": "Umzugswagen",
+    "fr": "camion de déménagement",
+    "es": "camión de mudanzas",
+    "it": "furgone per traslochi",
+    "pt": "caminhão de mudança",
+    "tr": "nakliye kamyonu"
+   },
+   "ex": {
+    "en": "The removal van arrives at nine."
+   }
+  },
+  {
+   "id": "home.to-move-house",
+   "t": {
+    "en": "to move house",
+    "uk": "переїжджати",
+    "ru": "переезжать",
+    "pl": "przeprowadzać się",
+    "de": "umziehen",
+    "fr": "déménager",
+    "es": "mudarse",
+    "it": "traslocare",
+    "pt": "mudar-se",
+    "tr": "taşınmak"
+   },
+   "ex": {
+    "en": "We plan to move house in May."
+   }
+  },
+  {
+   "id": "home.storeroom",
+   "t": {
+    "en": "storeroom",
+    "uk": "комора",
+    "ru": "кладовая",
+    "pl": "schowek",
+    "de": "Abstellraum",
+    "fr": "débarras",
+    "es": "trastero",
+    "it": "ripostiglio",
+    "pt": "quarto de despejo",
+    "tr": "depo odası"
+   },
+   "ex": {
+    "en": "The old toys are in the storeroom."
+   }
+  },
+  {
+   "id": "home.shed",
+   "t": {
+    "en": "shed",
+    "uk": "сарай",
+    "ru": "сарай",
+    "pl": "szopa",
+    "de": "Schuppen",
+    "fr": "abri de jardin",
+    "es": "cobertizo",
+    "it": "capanno",
+    "pt": "galpão",
+    "tr": "bahçe kulübesi"
+   },
+   "ex": {
+    "en": "The bikes are in the shed."
+   }
+  },
+  {
+   "id": "home.lawn",
+   "t": {
+    "en": "lawn",
+    "uk": "газон",
+    "ru": "газон",
+    "pl": "trawnik",
+    "de": "Rasen",
+    "fr": "pelouse",
+    "es": "césped",
+    "it": "prato",
+    "pt": "gramado",
+    "tr": "çimen"
+   },
+   "ex": {
+    "en": "The children play on the lawn."
+   }
+  },
+  {
+   "id": "home.to-mow-the-lawn",
+   "t": {
+    "en": "to mow the lawn",
+    "uk": "косити газон",
+    "ru": "косить газон",
+    "pl": "kosić trawnik",
+    "de": "den Rasen mähen",
+    "fr": "tondre la pelouse",
+    "es": "cortar el césped",
+    "it": "tagliare l'erba",
+    "pt": "cortar a grama",
+    "tr": "çimleri biçmek"
+   },
+   "ex": {
+    "en": "Dad mows the lawn on Sundays."
+   }
+  },
+  {
+   "id": "home.window-sill",
+   "t": {
+    "en": "window sill",
+    "uk": "підвіконня",
+    "ru": "подоконник",
+    "pl": "parapet",
+    "de": "Fensterbank",
+    "fr": "rebord de fenêtre",
+    "es": "alféizar",
+    "it": "davanzale",
+    "pt": "parapeito",
+    "tr": "pencere pervazı"
+   },
+   "ex": {
+    "en": "The cat sleeps on the window sill."
+   }
+  },
+  {
+   "id": "home.blinds",
+   "t": {
+    "en": "blinds",
+    "uk": "жалюзі",
+    "ru": "жалюзи",
+    "pl": "żaluzje",
+    "de": "Jalousie",
+    "fr": "store",
+    "es": "persiana",
+    "it": "veneziana",
+    "pt": "persiana",
+    "tr": "jaluzi"
+   },
+   "ex": {
+    "en": "Close the blinds, it's too sunny."
+   }
+  },
+  {
+   "id": "home.to-lay-the-table",
+   "t": {
+    "en": "to lay the table",
+    "uk": "накривати на стіл",
+    "ru": "накрывать на стол",
+    "pl": "nakrywać do stołu",
+    "de": "den Tisch decken",
+    "fr": "mettre la table",
+    "es": "poner la mesa",
+    "it": "apparecchiare la tavola",
+    "pt": "pôr a mesa",
+    "tr": "sofrayı kurmak"
+   },
+   "ex": {
+    "en": "Can you lay the table for dinner?"
+   }
+  },
+  {
+   "id": "home.to-fold-clothes",
+   "t": {
+    "en": "to fold clothes",
+    "uk": "складати одяг",
+    "ru": "складывать одежду",
+    "pl": "składać ubrania",
+    "de": "Wäsche zusammenlegen",
+    "fr": "plier les vêtements",
+    "es": "doblar la ropa",
+    "it": "piegare i vestiti",
+    "pt": "dobrar a roupa",
+    "tr": "çamaşırları katlamak"
+   },
+   "ex": {
+    "en": "I fold clothes while watching TV."
+   }
+  },
+  {
+   "id": "home.spare-room",
+   "t": {
+    "en": "spare room",
+    "uk": "гостьова кімната",
+    "ru": "гостевая комната",
+    "pl": "pokój gościnny",
+    "de": "Gästezimmer",
+    "fr": "chambre d'amis",
+    "es": "habitación de invitados",
+    "it": "camera degli ospiti",
+    "pt": "quarto de hóspedes",
+    "tr": "misafir odası"
+   },
+   "ex": {
+    "en": "You can sleep in the spare room."
+   }
+  },
+  {
+   "id": "home.to-knock-on-the-door",
+   "t": {
+    "en": "to knock on the door",
+    "uk": "стукати у двері",
+    "ru": "стучать в дверь",
+    "pl": "pukać do drzwi",
+    "de": "an die Tür klopfen",
+    "fr": "frapper à la porte",
+    "es": "llamar a la puerta",
+    "it": "bussare alla porta",
+    "pt": "bater à porta",
+    "tr": "kapıyı çalmak"
+   },
+   "ex": {
+    "en": "Someone is knocking on the door."
    }
   }
  ]

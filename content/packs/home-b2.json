@@ -2,7 +2,7 @@
  "id": "home-b2",
  "topic": "home",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "home.to-take-out-a-mortgage",
@@ -488,6 +488,402 @@
    },
    "ex": {
     "en": "The homeowners' association meets monthly."
+   }
+  },
+  {
+   "id": "home.homeowner",
+   "t": {
+    "en": "homeowner",
+    "uk": "власник житла",
+    "ru": "домовладелец",
+    "pl": "właściciel domu",
+    "de": "Hausbesitzer",
+    "fr": "propriétaire",
+    "es": "propietario de vivienda",
+    "it": "proprietario di casa",
+    "pt": "proprietário de imóvel",
+    "tr": "ev sahibi"
+   },
+   "ex": {
+    "en": "Every homeowner pays property tax."
+   }
+  },
+  {
+   "id": "home.real-estate",
+   "t": {
+    "en": "real estate",
+    "uk": "нерухомість",
+    "ru": "недвижимость",
+    "pl": "nieruchomości",
+    "de": "Immobilien",
+    "fr": "immobilier",
+    "es": "bienes raíces",
+    "it": "immobili",
+    "pt": "imóveis",
+    "tr": "gayrimenkul"
+   },
+   "ex": {
+    "en": "Real estate prices keep rising."
+   }
+  },
+  {
+   "id": "home.tenancy",
+   "t": {
+    "en": "tenancy",
+    "uk": "оренда",
+    "ru": "аренда",
+    "pl": "najem",
+    "de": "Mietverhältnis",
+    "fr": "location",
+    "es": "arrendamiento",
+    "it": "locazione",
+    "pt": "arrendamento",
+    "tr": "kiracılık"
+   },
+   "ex": {
+    "en": "Our tenancy ends in June."
+   }
+  },
+  {
+   "id": "home.burglary",
+   "t": {
+    "en": "burglary",
+    "uk": "квартирна крадіжка",
+    "ru": "квартирная кража",
+    "pl": "włamanie",
+    "de": "Einbruch",
+    "fr": "cambriolage",
+    "es": "robo en vivienda",
+    "it": "furto in casa",
+    "pt": "arrombamento",
+    "tr": "hırsızlık"
+   },
+   "ex": {
+    "en": "There was a burglary next door."
+   }
+  },
+  {
+   "id": "home.to-break-in",
+   "t": {
+    "en": "to break in",
+    "uk": "вдиратися",
+    "ru": "вламываться",
+    "pl": "włamać się",
+    "de": "einbrechen",
+    "fr": "cambrioler",
+    "es": "entrar a robar",
+    "it": "entrare con scasso",
+    "pt": "arrombar",
+    "tr": "zorla girmek"
+   },
+   "ex": {
+    "en": "Thieves tried to break in last night."
+   }
+  },
+  {
+   "id": "home.cooker-hood",
+   "t": {
+    "en": "cooker hood",
+    "uk": "витяжка",
+    "ru": "вытяжка",
+    "pl": "okap",
+    "de": "Dunstabzugshaube",
+    "fr": "hotte",
+    "es": "campana extractora",
+    "it": "cappa",
+    "pt": "exaustor",
+    "tr": "aspiratör"
+   },
+   "ex": {
+    "en": "Turn on the cooker hood when frying."
+   }
+  },
+  {
+   "id": "home.water-heater",
+   "t": {
+    "en": "water heater",
+    "uk": "бойлер",
+    "ru": "водонагреватель",
+    "pl": "podgrzewacz wody",
+    "de": "Warmwasserbereiter",
+    "fr": "chauffe-eau",
+    "es": "calentador de agua",
+    "it": "scaldabagno",
+    "pt": "aquecedor de água",
+    "tr": "şofben"
+   },
+   "ex": {
+    "en": "The water heater needs a new part."
+   }
+  },
+  {
+   "id": "home.burst-pipe",
+   "t": {
+    "en": "burst pipe",
+    "uk": "прорвана труба",
+    "ru": "прорванная труба",
+    "pl": "pęknięta rura",
+    "de": "Rohrbruch",
+    "fr": "tuyau éclaté",
+    "es": "tubería rota",
+    "it": "tubo rotto",
+    "pt": "cano estourado",
+    "tr": "patlak boru"
+   },
+   "ex": {
+    "en": "A burst pipe flooded the kitchen."
+   }
+  },
+  {
+   "id": "home.double-glazing",
+   "t": {
+    "en": "double glazing",
+    "uk": "склопакет",
+    "ru": "стеклопакет",
+    "pl": "podwójne szyby",
+    "de": "Doppelverglasung",
+    "fr": "double vitrage",
+    "es": "doble acristalamiento",
+    "it": "doppi vetri",
+    "pt": "vidro duplo",
+    "tr": "çift cam"
+   },
+   "ex": {
+    "en": "Double glazing keeps the heat in."
+   }
+  },
+  {
+   "id": "home.underfloor-heating",
+   "t": {
+    "en": "underfloor heating",
+    "uk": "тепла підлога",
+    "ru": "тёплый пол",
+    "pl": "ogrzewanie podłogowe",
+    "de": "Fußbodenheizung",
+    "fr": "chauffage au sol",
+    "es": "suelo radiante",
+    "it": "riscaldamento a pavimento",
+    "pt": "piso aquecido",
+    "tr": "yerden ısıtma"
+   },
+   "ex": {
+    "en": "The bathroom has underfloor heating."
+   }
+  },
+  {
+   "id": "home.energy-efficient",
+   "t": {
+    "en": "energy-efficient",
+    "uk": "енергоефективний",
+    "ru": "энергоэффективный",
+    "pl": "energooszczędny",
+    "de": "energieeffizient",
+    "fr": "économe en énergie",
+    "es": "eficiente energéticamente",
+    "it": "a basso consumo",
+    "pt": "energeticamente eficiente",
+    "tr": "enerji verimli"
+   },
+   "ex": {
+    "en": "Our new fridge is energy-efficient."
+   }
+  },
+  {
+   "id": "home.solar-panels",
+   "t": {
+    "en": "solar panels",
+    "uk": "сонячні панелі",
+    "ru": "солнечные панели",
+    "pl": "panele słoneczne",
+    "de": "Solarmodule",
+    "fr": "panneaux solaires",
+    "es": "paneles solares",
+    "it": "pannelli solari",
+    "pt": "painéis solares",
+    "tr": "güneş panelleri"
+   },
+   "ex": {
+    "en": "We put solar panels on the roof."
+   }
+  },
+  {
+   "id": "home.toolbox",
+   "t": {
+    "en": "toolbox",
+    "uk": "ящик для інструментів",
+    "ru": "ящик для инструментов",
+    "pl": "skrzynka na narzędzia",
+    "de": "Werkzeugkasten",
+    "fr": "boîte à outils",
+    "es": "caja de herramientas",
+    "it": "cassetta degli attrezzi",
+    "pt": "caixa de ferramentas",
+    "tr": "alet çantası"
+   },
+   "ex": {
+    "en": "The pliers are in the toolbox."
+   }
+  },
+  {
+   "id": "home.hammer",
+   "t": {
+    "en": "hammer",
+    "uk": "молоток",
+    "ru": "молоток",
+    "pl": "młotek",
+    "de": "Hammer",
+    "fr": "marteau",
+    "es": "martillo",
+    "it": "martello",
+    "pt": "martelo",
+    "tr": "çekiç"
+   },
+   "ex": {
+    "en": "Pass me the hammer, please."
+   }
+  },
+  {
+   "id": "home.screwdriver",
+   "t": {
+    "en": "screwdriver",
+    "uk": "викрутка",
+    "ru": "отвёртка",
+    "pl": "śrubokręt",
+    "de": "Schraubenzieher",
+    "fr": "tournevis",
+    "es": "destornillador",
+    "it": "cacciavite",
+    "pt": "chave de fenda",
+    "tr": "tornavida"
+   },
+   "ex": {
+    "en": "I need a small screwdriver."
+   }
+  },
+  {
+   "id": "home.nail",
+   "t": {
+    "en": "nail",
+    "uk": "цвях",
+    "ru": "гвоздь",
+    "pl": "gwóźdź",
+    "de": "Nagel",
+    "fr": "clou",
+    "es": "clavo",
+    "it": "chiodo",
+    "pt": "prego",
+    "tr": "çivi"
+   },
+   "ex": {
+    "en": "Hang the picture on that nail."
+   }
+  },
+  {
+   "id": "home.diy",
+   "t": {
+    "en": "DIY",
+    "uk": "майстрування",
+    "ru": "ремонт своими руками",
+    "pl": "majsterkowanie",
+    "de": "Heimwerken",
+    "fr": "bricolage",
+    "es": "bricolaje",
+    "it": "fai da te",
+    "pt": "faça você mesmo",
+    "tr": "kendin yap"
+   },
+   "ex": {
+    "en": "He loves DIY at the weekend."
+   }
+  },
+  {
+   "id": "home.plunger",
+   "t": {
+    "en": "plunger",
+    "uk": "вантуз",
+    "ru": "вантуз",
+    "pl": "przepychacz",
+    "de": "Saugglocke",
+    "fr": "ventouse",
+    "es": "desatascador",
+    "it": "sturalavandini",
+    "pt": "desentupidor",
+    "tr": "vantuz"
+   },
+   "ex": {
+    "en": "We need a plunger for the toilet."
+   }
+  },
+  {
+   "id": "home.to-redecorate",
+   "t": {
+    "en": "to redecorate",
+    "uk": "робити косметичний ремонт",
+    "ru": "делать косметический ремонт",
+    "pl": "odnawiać",
+    "de": "renovieren",
+    "fr": "refaire la déco",
+    "es": "redecorar",
+    "it": "rinnovare l'arredamento",
+    "pt": "redecorar",
+    "tr": "yeniden dekore etmek"
+   },
+   "ex": {
+    "en": "We redecorated the bedroom last spring."
+   }
+  },
+  {
+   "id": "home.tape-measure",
+   "t": {
+    "en": "tape measure",
+    "uk": "рулетка",
+    "ru": "рулетка",
+    "pl": "miarka",
+    "de": "Maßband",
+    "fr": "mètre ruban",
+    "es": "cinta métrica",
+    "it": "metro a nastro",
+    "pt": "fita métrica",
+    "tr": "şerit metre"
+   },
+   "ex": {
+    "en": "Use a tape measure before buying a sofa."
+   }
+  },
+  {
+   "id": "home.gutter",
+   "t": {
+    "en": "gutter",
+    "uk": "ринва",
+    "ru": "водосточный желоб",
+    "pl": "rynna",
+    "de": "Dachrinne",
+    "fr": "gouttière",
+    "es": "canalón",
+    "it": "grondaia",
+    "pt": "calha",
+    "tr": "oluk"
+   },
+   "ex": {
+    "en": "Leaves are blocking the gutter."
+   }
+  },
+  {
+   "id": "home.rent-increase",
+   "t": {
+    "en": "rent increase",
+    "uk": "підвищення орендної плати",
+    "ru": "повышение арендной платы",
+    "pl": "podwyżka czynszu",
+    "de": "Mieterhöhung",
+    "fr": "augmentation de loyer",
+    "es": "subida del alquiler",
+    "it": "aumento dell'affitto",
+    "pt": "aumento do aluguel",
+    "tr": "kira artışı"
+   },
+   "ex": {
+    "en": "The landlord announced a rent increase."
    }
   }
  ]

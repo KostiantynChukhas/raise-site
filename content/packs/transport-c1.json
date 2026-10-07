@@ -2,7 +2,7 @@
  "id": "transport-c1",
  "topic": "transport",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "transport.backseat-driver",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "The rail strike stranded thousands."
+   }
+  },
+  {
+   "id": "transport.rolling-stock",
+   "t": {
+    "en": "rolling stock",
+    "uk": "рухомий склад",
+    "ru": "подвижной состав",
+    "pl": "tabor kolejowy",
+    "de": "rollendes Material",
+    "fr": "matériel roulant",
+    "es": "material rodante",
+    "it": "materiale rotabile",
+    "pt": "material circulante",
+    "tr": "demiryolu taşıtları"
+   },
+   "ex": {
+    "en": "The railway is replacing its old rolling stock."
+   }
+  },
+  {
+   "id": "transport.to-slam-on-the-brakes",
+   "t": {
+    "en": "to slam on the brakes",
+    "uk": "різко загальмувати",
+    "ru": "резко затормозить",
+    "pl": "gwałtownie zahamować",
+    "de": "eine Vollbremsung machen",
+    "fr": "piler",
+    "es": "frenar en seco",
+    "it": "inchiodare",
+    "pt": "frear bruscamente",
+    "tr": "sert fren yapmak"
+   },
+   "ex": {
+    "en": "I had to slam on the brakes when a dog ran out."
+   }
+  },
+  {
+   "id": "transport.commuter-belt",
+   "t": {
+    "en": "commuter belt",
+    "uk": "приміська зона",
+    "ru": "пригородная зона",
+    "pl": "strefa podmiejska",
+    "de": "Speckgürtel",
+    "fr": "grande banlieue",
+    "es": "área metropolitana",
+    "it": "hinterland",
+    "pt": "região metropolitana",
+    "tr": "banliyö kuşağı"
+   },
+   "ex": {
+    "en": "House prices are rising in the commuter belt."
+   }
+  },
+  {
+   "id": "transport.last-mile",
+   "t": {
+    "en": "last mile",
+    "uk": "остання миля",
+    "ru": "последняя миля",
+    "pl": "ostatnia mila",
+    "de": "letzte Meile",
+    "fr": "dernier kilomètre",
+    "es": "última milla",
+    "it": "ultimo miglio",
+    "pt": "última milha",
+    "tr": "son kilometre"
+   },
+   "ex": {
+    "en": "E-scooters can solve the last mile problem."
+   }
+  },
+  {
+   "id": "transport.to-undertake",
+   "t": {
+    "en": "to undertake",
+    "uk": "обганяти справа",
+    "ru": "обгонять справа",
+    "pl": "wyprzedzać z prawej strony",
+    "de": "rechts überholen",
+    "fr": "doubler par la droite",
+    "es": "adelantar por la derecha",
+    "it": "sorpassare a destra",
+    "pt": "ultrapassar pela direita",
+    "tr": "sağdan sollamak"
+   },
+   "ex": {
+    "en": "It's illegal to undertake on the motorway."
+   }
+  },
+  {
+   "id": "transport.dangerous-driving",
+   "t": {
+    "en": "dangerous driving",
+    "uk": "небезпечне водіння",
+    "ru": "опасное вождение",
+    "pl": "niebezpieczna jazda",
+    "de": "gefährliches Fahren",
+    "fr": "conduite dangereuse",
+    "es": "conducción temeraria",
+    "it": "guida pericolosa",
+    "pt": "direção perigosa",
+    "tr": "tehlikeli sürüş"
+   },
+   "ex": {
+    "en": "He was charged with dangerous driving."
+   }
+  },
+  {
+   "id": "transport.to-hail-a-cab",
+   "t": {
+    "en": "to hail a cab",
+    "uk": "зупинити таксі",
+    "ru": "поймать такси",
+    "pl": "złapać taksówkę",
+    "de": "ein Taxi heranwinken",
+    "fr": "héler un taxi",
+    "es": "parar un taxi",
+    "it": "fermare un taxi",
+    "pt": "fazer sinal para um táxi",
+    "tr": "taksi çevirmek"
+   },
+   "ex": {
+    "en": "She stepped into the road to hail a cab."
+   }
+  },
+  {
+   "id": "transport.fuel-efficient",
+   "t": {
+    "en": "fuel-efficient",
+    "uk": "економний",
+    "ru": "экономичный",
+    "pl": "oszczędny",
+    "de": "sparsam",
+    "fr": "économe en carburant",
+    "es": "de bajo consumo",
+    "it": "a basso consumo",
+    "pt": "econômico",
+    "tr": "yakıt tasarruflu"
+   },
+   "ex": {
+    "en": "We need a more fuel-efficient car."
+   }
+  },
+  {
+   "id": "transport.pothole",
+   "t": {
+    "en": "pothole",
+    "uk": "вибоїна",
+    "ru": "выбоина",
+    "pl": "dziura w jezdni",
+    "de": "Schlagloch",
+    "fr": "nid-de-poule",
+    "es": "bache",
+    "it": "buca",
+    "pt": "buraco",
+    "tr": "çukur"
+   },
+   "ex": {
+    "en": "I hit a pothole and burst a tire."
+   }
+  },
+  {
+   "id": "transport.tailback",
+   "t": {
+    "en": "tailback",
+    "uk": "довгий затор",
+    "ru": "длинная пробка",
+    "pl": "długi korek",
+    "de": "Rückstau",
+    "fr": "longue file de voitures",
+    "es": "retención",
+    "it": "coda",
+    "pt": "fila de carros",
+    "tr": "uzun araç kuyruğu"
+   },
+   "ex": {
+    "en": "The crash caused a five-mile tailback."
+   }
+  },
+  {
+   "id": "transport.off-ramp",
+   "t": {
+    "en": "off-ramp",
+    "uk": "з'їзд",
+    "ru": "съезд",
+    "pl": "zjazd",
+    "de": "Ausfahrt",
+    "fr": "bretelle de sortie",
+    "es": "rampa de salida",
+    "it": "svincolo di uscita",
+    "pt": "saída",
+    "tr": "çıkış rampası"
+   },
+   "ex": {
+    "en": "Take the next off-ramp to the airport."
+   }
+  },
+  {
+   "id": "transport.on-ramp",
+   "t": {
+    "en": "on-ramp",
+    "uk": "в'їзд",
+    "ru": "въезд",
+    "pl": "wjazd",
+    "de": "Auffahrt",
+    "fr": "bretelle d'accès",
+    "es": "rampa de acceso",
+    "it": "rampa di accesso",
+    "pt": "rampa de acesso",
+    "tr": "giriş rampası"
+   },
+   "ex": {
+    "en": "Accelerate on the on-ramp before merging."
+   }
+  },
+  {
+   "id": "transport.traffic-island",
+   "t": {
+    "en": "traffic island",
+    "uk": "острівець безпеки",
+    "ru": "островок безопасности",
+    "pl": "wysepka",
+    "de": "Verkehrsinsel",
+    "fr": "îlot directionnel",
+    "es": "isleta",
+    "it": "isola spartitraffico",
+    "pt": "ilha de tráfego",
+    "tr": "trafik adası"
+   },
+   "ex": {
+    "en": "Wait on the traffic island halfway across."
+   }
+  },
+  {
+   "id": "transport.median-strip",
+   "t": {
+    "en": "median strip",
+    "uk": "розділювальна смуга",
+    "ru": "разделительная полоса",
+    "pl": "pas rozdzielający",
+    "de": "Mittelstreifen",
+    "fr": "terre-plein central",
+    "es": "mediana",
+    "it": "spartitraffico",
+    "pt": "canteiro central",
+    "tr": "orta refüj"
+   },
+   "ex": {
+    "en": "Trees were planted along the median strip."
+   }
+  },
+  {
+   "id": "transport.to-idle",
+   "t": {
+    "en": "to idle",
+    "uk": "працювати на холостому ходу",
+    "ru": "работать на холостом ходу",
+    "pl": "pracować na biegu jałowym",
+    "de": "im Leerlauf laufen",
+    "fr": "tourner au ralenti",
+    "es": "estar al ralentí",
+    "it": "girare al minimo",
+    "pt": "ficar em marcha lenta",
+    "tr": "rölantide çalışmak"
+   },
+   "ex": {
+    "en": "Don't leave the engine idling outside the school."
+   }
+  },
+  {
+   "id": "transport.skid-marks",
+   "t": {
+    "en": "skid marks",
+    "uk": "сліди гальмування",
+    "ru": "следы торможения",
+    "pl": "ślady hamowania",
+    "de": "Bremsspuren",
+    "fr": "traces de freinage",
+    "es": "marcas de frenada",
+    "it": "segni di frenata",
+    "pt": "marcas de frenagem",
+    "tr": "fren izleri"
+   },
+   "ex": {
+    "en": "Police measured the skid marks on the road."
+   }
+  },
+  {
+   "id": "transport.stowaway",
+   "t": {
+    "en": "stowaway",
+    "uk": "безбілетний пасажир",
+    "ru": "безбилетный пассажир",
+    "pl": "pasażer na gapę",
+    "de": "blinder Passagier",
+    "fr": "passager clandestin",
+    "es": "polizón",
+    "it": "clandestino",
+    "pt": "clandestino",
+    "tr": "kaçak yolcu"
+   },
+   "ex": {
+    "en": "A stowaway was found hiding on the ferry."
+   }
+  },
+  {
+   "id": "transport.tire-tread",
+   "t": {
+    "en": "tire tread",
+    "uk": "протектор шини",
+    "ru": "протектор шины",
+    "pl": "bieżnik opony",
+    "de": "Reifenprofil",
+    "fr": "bande de roulement",
+    "es": "dibujo del neumático",
+    "it": "battistrada",
+    "pt": "banda de rodagem",
+    "tr": "lastik dişi"
+   },
+   "ex": {
+    "en": "The tire tread is too worn to be safe."
+   }
+  },
+  {
+   "id": "transport.turning-circle",
+   "t": {
+    "en": "turning circle",
+    "uk": "радіус розвороту",
+    "ru": "радиус разворота",
+    "pl": "promień skrętu",
+    "de": "Wendekreis",
+    "fr": "rayon de braquage",
+    "es": "radio de giro",
+    "it": "raggio di sterzata",
+    "pt": "raio de giro",
+    "tr": "dönüş çapı"
+   },
+   "ex": {
+    "en": "Small cars have a tight turning circle."
+   }
+  },
+  {
+   "id": "transport.to-veer-off-the-road",
+   "t": {
+    "en": "to veer off the road",
+    "uk": "з'їхати з дороги",
+    "ru": "съехать с дороги",
+    "pl": "zjechać z drogi",
+    "de": "von der Straße abkommen",
+    "fr": "quitter la route",
+    "es": "salirse de la carretera",
+    "it": "uscire di strada",
+    "pt": "sair da estrada",
+    "tr": "yoldan çıkmak"
+   },
+   "ex": {
+    "en": "The truck veered off the road into a ditch."
+   }
+  },
+  {
+   "id": "transport.multi-storey-car-park",
+   "t": {
+    "en": "multi-storey car park",
+    "uk": "багаторівневий паркінг",
+    "ru": "многоуровневый паркинг",
+    "pl": "parking wielopoziomowy",
+    "de": "Parkhaus",
+    "fr": "parking à étages",
+    "es": "aparcamiento de varias plantas",
+    "it": "parcheggio multipiano",
+    "pt": "edifício-garagem",
+    "tr": "katlı otopark"
+   },
+   "ex": {
+    "en": "I left the car in the multi-storey car park."
    }
   }
  ]

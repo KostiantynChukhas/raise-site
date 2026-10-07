@@ -2,7 +2,7 @@
  "id": "emotions-b2",
  "topic": "emotions",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emotions.resentment",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "With all due respect, that's wrong."
+   }
+  },
+  {
+   "id": "emotions.grief",
+   "t": {
+    "en": "grief",
+    "uk": "горе",
+    "ru": "горе",
+    "pl": "żal",
+    "de": "Trauer",
+    "fr": "chagrin",
+    "es": "pena",
+    "it": "dolore",
+    "pt": "pesar",
+    "tr": "keder"
+   },
+   "ex": {
+    "en": "She was overcome with grief."
+   }
+  },
+  {
+   "id": "emotions.despair",
+   "t": {
+    "en": "despair",
+    "uk": "відчай",
+    "ru": "отчаяние",
+    "pl": "rozpacz",
+    "de": "Verzweiflung",
+    "fr": "désespoir",
+    "es": "desesperación",
+    "it": "disperazione",
+    "pt": "desespero",
+    "tr": "umutsuzluk"
+   },
+   "ex": {
+    "en": "He shook his head in despair."
+   }
+  },
+  {
+   "id": "emotions.remorse",
+   "t": {
+    "en": "remorse",
+    "uk": "каяття",
+    "ru": "раскаяние",
+    "pl": "wyrzuty sumienia",
+    "de": "Reue",
+    "fr": "remords",
+    "es": "remordimiento",
+    "it": "rimorso",
+    "pt": "remorso",
+    "tr": "pişmanlık"
+   },
+   "ex": {
+    "en": "He showed no remorse for his actions."
+   }
+  },
+  {
+   "id": "emotions.nostalgia",
+   "t": {
+    "en": "nostalgia",
+    "uk": "ностальгія",
+    "ru": "ностальгия",
+    "pl": "nostalgia",
+    "de": "Nostalgie",
+    "fr": "nostalgie",
+    "es": "nostalgia",
+    "it": "nostalgia",
+    "pt": "nostalgia",
+    "tr": "nostalji"
+   },
+   "ex": {
+    "en": "Old songs fill me with nostalgia."
+   }
+  },
+  {
+   "id": "emotions.gratitude",
+   "t": {
+    "en": "gratitude",
+    "uk": "вдячність",
+    "ru": "благодарность",
+    "pl": "wdzięczność",
+    "de": "Dankbarkeit",
+    "fr": "gratitude",
+    "es": "gratitud",
+    "it": "gratitudine",
+    "pt": "gratidão",
+    "tr": "minnettarlık"
+   },
+   "ex": {
+    "en": "I want to express my gratitude."
+   }
+  },
+  {
+   "id": "emotions.longing",
+   "t": {
+    "en": "longing",
+    "uk": "туга",
+    "ru": "тоска",
+    "pl": "tęsknota",
+    "de": "Sehnsucht",
+    "fr": "désir",
+    "es": "anhelo",
+    "it": "struggimento",
+    "pt": "saudade",
+    "tr": "özlem"
+   },
+   "ex": {
+    "en": "She felt a longing for home."
+   }
+  },
+  {
+   "id": "emotions.outrage",
+   "t": {
+    "en": "outrage",
+    "uk": "обурення",
+    "ru": "возмущение",
+    "pl": "oburzenie",
+    "de": "Empörung",
+    "fr": "indignation",
+    "es": "indignación",
+    "it": "indignazione",
+    "pt": "indignação",
+    "tr": "infial"
+   },
+   "ex": {
+    "en": "The decision caused public outrage."
+   }
+  },
+  {
+   "id": "emotions.distressed",
+   "t": {
+    "en": "distressed",
+    "uk": "стривожений",
+    "ru": "встревоженный",
+    "pl": "strapiony",
+    "de": "bekümmert",
+    "fr": "angoissé",
+    "es": "angustiado",
+    "it": "angosciato",
+    "pt": "angustiado",
+    "tr": "sıkıntılı"
+   },
+   "ex": {
+    "en": "She sounded distressed on the phone."
+   }
+  },
+  {
+   "id": "emotions.resilient",
+   "t": {
+    "en": "resilient",
+    "uk": "стійкий",
+    "ru": "стойкий",
+    "pl": "odporny",
+    "de": "widerstandsfähig",
+    "fr": "résilient",
+    "es": "resiliente",
+    "it": "resiliente",
+    "pt": "resiliente",
+    "tr": "dayanıklı"
+   },
+   "ex": {
+    "en": "Children are often very resilient."
+   }
+  },
+  {
+   "id": "emotions.vulnerable",
+   "t": {
+    "en": "vulnerable",
+    "uk": "вразливий",
+    "ru": "уязвимый",
+    "pl": "bezbronny",
+    "de": "verletzlich",
+    "fr": "vulnérable",
+    "es": "vulnerable",
+    "it": "vulnerabile",
+    "pt": "vulnerável",
+    "tr": "savunmasız"
+   },
+   "ex": {
+    "en": "He felt vulnerable after the breakup."
+   }
+  },
+  {
+   "id": "emotions.to-resent",
+   "t": {
+    "en": "to resent",
+    "uk": "відчувати образу",
+    "ru": "обижаться на",
+    "pl": "mieć za złe",
+    "de": "übelnehmen",
+    "fr": "en vouloir à",
+    "es": "guardar rencor",
+    "it": "risentirsi",
+    "pt": "ressentir-se",
+    "tr": "içerlemek"
+   },
+   "ex": {
+    "en": "She resents being treated like a child."
+   }
+  },
+  {
+   "id": "emotions.to-sympathize",
+   "t": {
+    "en": "to sympathize",
+    "uk": "співчувати",
+    "ru": "сочувствовать",
+    "pl": "współczuć",
+    "de": "mitfühlen",
+    "fr": "compatir",
+    "es": "compadecerse",
+    "it": "provare compassione",
+    "pt": "compadecer-se",
+    "tr": "halinden anlamak"
+   },
+   "ex": {
+    "en": "I sympathize with your situation."
+   }
+  },
+  {
+   "id": "emotions.morale",
+   "t": {
+    "en": "morale",
+    "uk": "моральний дух",
+    "ru": "боевой дух",
+    "pl": "morale",
+    "de": "Moral",
+    "fr": "moral",
+    "es": "moral",
+    "it": "morale",
+    "pt": "moral",
+    "tr": "moral"
+   },
+   "ex": {
+    "en": "Team morale is very low."
+   }
+  },
+  {
+   "id": "emotions.self-esteem",
+   "t": {
+    "en": "self-esteem",
+    "uk": "самооцінка",
+    "ru": "самооценка",
+    "pl": "poczucie własnej wartości",
+    "de": "Selbstwertgefühl",
+    "fr": "estime de soi",
+    "es": "autoestima",
+    "it": "autostima",
+    "pt": "autoestima",
+    "tr": "özsaygı"
+   },
+   "ex": {
+    "en": "Praise can boost self-esteem."
+   }
+  },
+  {
+   "id": "emotions.to-keep-calm",
+   "t": {
+    "en": "to keep calm",
+    "uk": "зберігати спокій",
+    "ru": "сохранять спокойствие",
+    "pl": "zachować spokój",
+    "de": "ruhig bleiben",
+    "fr": "garder son calme",
+    "es": "mantener la calma",
+    "it": "mantenere la calma",
+    "pt": "manter a calma",
+    "tr": "sakin kalmak"
+   },
+   "ex": {
+    "en": "Try to keep calm and breathe."
+   }
+  },
+  {
+   "id": "emotions.to-freak-out",
+   "t": {
+    "en": "to freak out",
+    "uk": "психувати",
+    "ru": "психовать",
+    "pl": "wpaść w panikę",
+    "de": "ausflippen",
+    "fr": "paniquer",
+    "es": "perder los nervios",
+    "it": "dare di matto",
+    "pt": "surtar",
+    "tr": "çıldırmak"
+   },
+   "ex": {
+    "en": "Don't freak out, it's just a scratch."
+   }
+  },
+  {
+   "id": "emotions.tearful",
+   "t": {
+    "en": "tearful",
+    "uk": "заплаканий",
+    "ru": "заплаканный",
+    "pl": "zapłakany",
+    "de": "weinerlich",
+    "fr": "en larmes",
+    "es": "lloroso",
+    "it": "in lacrime",
+    "pt": "choroso",
+    "tr": "ağlamaklı"
+   },
+   "ex": {
+    "en": "She gave a tearful goodbye."
+   }
+  },
+  {
+   "id": "emotions.composed",
+   "t": {
+    "en": "composed",
+    "uk": "стриманий",
+    "ru": "сдержанный",
+    "pl": "opanowany",
+    "de": "gefasst",
+    "fr": "posé",
+    "es": "sereno",
+    "it": "composto",
+    "pt": "sereno",
+    "tr": "soğukkanlı"
+   },
+   "ex": {
+    "en": "He remained composed under pressure."
+   }
+  },
+  {
+   "id": "emotions.euphoria",
+   "t": {
+    "en": "euphoria",
+    "uk": "ейфорія",
+    "ru": "эйфория",
+    "pl": "euforia",
+    "de": "Euphorie",
+    "fr": "euphorie",
+    "es": "euforia",
+    "it": "euforia",
+    "pt": "euforia",
+    "tr": "öfori"
+   },
+   "ex": {
+    "en": "The fans were in a state of euphoria."
+   }
+  },
+  {
+   "id": "emotions.heartache",
+   "t": {
+    "en": "heartache",
+    "uk": "душевний біль",
+    "ru": "сердечная боль",
+    "pl": "cierpienie",
+    "de": "Herzschmerz",
+    "fr": "chagrin d'amour",
+    "es": "desamor",
+    "it": "pena d'amore",
+    "pt": "mágoa",
+    "tr": "gönül yarası"
+   },
+   "ex": {
+    "en": "Time heals heartache."
    }
   }
  ]

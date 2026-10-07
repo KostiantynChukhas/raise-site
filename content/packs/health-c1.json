@@ -2,7 +2,7 @@
  "id": "health-c1",
  "topic": "health",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "health.prognosis",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "Life expectancy keeps rising."
+   }
+  },
+  {
+   "id": "health.comorbidity",
+   "t": {
+    "en": "comorbidity",
+    "uk": "супутнє захворювання",
+    "ru": "сопутствующее заболевание",
+    "pl": "choroba współistniejąca",
+    "de": "Komorbidität",
+    "fr": "comorbidité",
+    "es": "comorbilidad",
+    "it": "comorbilità",
+    "pt": "comorbidade",
+    "tr": "eşlik eden hastalık"
+   },
+   "ex": {
+    "en": "Diabetes is a common comorbidity."
+   }
+  },
+  {
+   "id": "health.pathogen",
+   "t": {
+    "en": "pathogen",
+    "uk": "патоген",
+    "ru": "патоген",
+    "pl": "patogen",
+    "de": "Krankheitserreger",
+    "fr": "pathogène",
+    "es": "patógeno",
+    "it": "patogeno",
+    "pt": "patógeno",
+    "tr": "patojen"
+   },
+   "ex": {
+    "en": "The pathogen spreads through water."
+   }
+  },
+  {
+   "id": "health.susceptible",
+   "t": {
+    "en": "susceptible",
+    "uk": "сприйнятливий",
+    "ru": "восприимчивый",
+    "pl": "podatny",
+    "de": "anfällig",
+    "fr": "vulnérable",
+    "es": "propenso",
+    "it": "suscettibile",
+    "pt": "suscetível",
+    "tr": "yatkın"
+   },
+   "ex": {
+    "en": "Older people are more susceptible to flu."
+   }
+  },
+  {
+   "id": "health.debilitating",
+   "t": {
+    "en": "debilitating",
+    "uk": "виснажливий",
+    "ru": "изнурительный",
+    "pl": "wyniszczający",
+    "de": "kräftezehrend",
+    "fr": "débilitant",
+    "es": "debilitante",
+    "it": "debilitante",
+    "pt": "debilitante",
+    "tr": "zayıflatıcı"
+   },
+   "ex": {
+    "en": "She suffers from debilitating migraines."
+   }
+  },
+  {
+   "id": "health.terminal-illness",
+   "t": {
+    "en": "terminal illness",
+    "uk": "невиліковна хвороба",
+    "ru": "неизлечимая болезнь",
+    "pl": "nieuleczalna choroba",
+    "de": "unheilbare Krankheit",
+    "fr": "maladie incurable",
+    "es": "enfermedad terminal",
+    "it": "malattia terminale",
+    "pt": "doença terminal",
+    "tr": "ölümcül hastalık"
+   },
+   "ex": {
+    "en": "He was diagnosed with a terminal illness."
+   }
+  },
+  {
+   "id": "health.acute",
+   "t": {
+    "en": "acute",
+    "uk": "гострий",
+    "ru": "острый",
+    "pl": "ostry",
+    "de": "akut",
+    "fr": "aigu",
+    "es": "agudo",
+    "it": "acuto",
+    "pt": "agudo",
+    "tr": "akut"
+   },
+   "ex": {
+    "en": "She was admitted with acute pain."
+   }
+  },
+  {
+   "id": "health.to-alleviate",
+   "t": {
+    "en": "to alleviate",
+    "uk": "полегшувати",
+    "ru": "облегчать",
+    "pl": "łagodzić",
+    "de": "lindern",
+    "fr": "soulager",
+    "es": "aliviar",
+    "it": "alleviare",
+    "pt": "aliviar",
+    "tr": "hafifletmek"
+   },
+   "ex": {
+    "en": "This drug alleviates the pain."
+   }
+  },
+  {
+   "id": "health.to-exacerbate",
+   "t": {
+    "en": "to exacerbate",
+    "uk": "загострювати",
+    "ru": "обострять",
+    "pl": "zaostrzać",
+    "de": "verschlimmern",
+    "fr": "aggraver",
+    "es": "agravar",
+    "it": "aggravare",
+    "pt": "agravar",
+    "tr": "şiddetlendirmek"
+   },
+   "ex": {
+    "en": "Stress can exacerbate asthma."
+   }
+  },
+  {
+   "id": "health.to-contract",
+   "t": {
+    "en": "to contract",
+    "uk": "заразитися",
+    "ru": "заразиться",
+    "pl": "zarazić się",
+    "de": "sich zuziehen",
+    "fr": "contracter",
+    "es": "contraer",
+    "it": "contrarre",
+    "pt": "contrair",
+    "tr": "kapmak"
+   },
+   "ex": {
+    "en": "He contracted malaria abroad."
+   }
+  },
+  {
+   "id": "health.incubation-period",
+   "t": {
+    "en": "incubation period",
+    "uk": "інкубаційний період",
+    "ru": "инкубационный период",
+    "pl": "okres inkubacji",
+    "de": "Inkubationszeit",
+    "fr": "période d'incubation",
+    "es": "período de incubación",
+    "it": "periodo di incubazione",
+    "pt": "período de incubação",
+    "tr": "kuluçka dönemi"
+   },
+   "ex": {
+    "en": "The incubation period is two weeks."
+   }
+  },
+  {
+   "id": "health.autoimmune-disease",
+   "t": {
+    "en": "autoimmune disease",
+    "uk": "аутоімунне захворювання",
+    "ru": "аутоиммунное заболевание",
+    "pl": "choroba autoimmunologiczna",
+    "de": "Autoimmunerkrankung",
+    "fr": "maladie auto-immune",
+    "es": "enfermedad autoinmune",
+    "it": "malattia autoimmune",
+    "pt": "doença autoimune",
+    "tr": "otoimmün hastalık"
+   },
+   "ex": {
+    "en": "Lupus is an autoimmune disease."
+   }
+  },
+  {
+   "id": "health.psychosomatic",
+   "t": {
+    "en": "psychosomatic",
+    "uk": "психосоматичний",
+    "ru": "психосоматический",
+    "pl": "psychosomatyczny",
+    "de": "psychosomatisch",
+    "fr": "psychosomatique",
+    "es": "psicosomático",
+    "it": "psicosomatico",
+    "pt": "psicossomático",
+    "tr": "psikosomatik"
+   },
+   "ex": {
+    "en": "Her pain may be psychosomatic."
+   }
+  },
+  {
+   "id": "health.holistic",
+   "t": {
+    "en": "holistic",
+    "uk": "холістичний",
+    "ru": "холистический",
+    "pl": "holistyczny",
+    "de": "ganzheitlich",
+    "fr": "holistique",
+    "es": "holístico",
+    "it": "olistico",
+    "pt": "holístico",
+    "tr": "bütüncül"
+   },
+   "ex": {
+    "en": "She prefers a holistic approach to health."
+   }
+  },
+  {
+   "id": "health.to-convalesce",
+   "t": {
+    "en": "to convalesce",
+    "uk": "одужувати",
+    "ru": "выздоравливать",
+    "pl": "wracać do zdrowia",
+    "de": "genesen",
+    "fr": "être en convalescence",
+    "es": "convalecer",
+    "it": "essere convalescente",
+    "pt": "convalescer",
+    "tr": "nekahat dönemi geçirmek"
+   },
+   "ex": {
+    "en": "He went to the seaside to convalesce."
+   }
+  },
+  {
+   "id": "health.sedative",
+   "t": {
+    "en": "sedative",
+    "uk": "заспокійливе",
+    "ru": "успокоительное",
+    "pl": "środek uspokajający",
+    "de": "Beruhigungsmittel",
+    "fr": "sédatif",
+    "es": "sedante",
+    "it": "sedativo",
+    "pt": "sedativo",
+    "tr": "yatıştırıcı"
+   },
+   "ex": {
+    "en": "The nurse gave him a sedative."
+   }
+  },
+  {
+   "id": "health.congenital",
+   "t": {
+    "en": "congenital",
+    "uk": "вроджений",
+    "ru": "врождённый",
+    "pl": "wrodzony",
+    "de": "angeboren",
+    "fr": "congénital",
+    "es": "congénito",
+    "it": "congenito",
+    "pt": "congênito",
+    "tr": "doğuştan"
+   },
+   "ex": {
+    "en": "She has a congenital heart defect."
+   }
+  },
+  {
+   "id": "health.degenerative",
+   "t": {
+    "en": "degenerative",
+    "uk": "дегенеративний",
+    "ru": "дегенеративный",
+    "pl": "zwyrodnieniowy",
+    "de": "degenerativ",
+    "fr": "dégénératif",
+    "es": "degenerativo",
+    "it": "degenerativo",
+    "pt": "degenerativo",
+    "tr": "dejeneratif"
+   },
+   "ex": {
+    "en": "Arthritis is a degenerative disease."
+   }
+  },
+  {
+   "id": "health.cardiovascular",
+   "t": {
+    "en": "cardiovascular",
+    "uk": "серцево-судинний",
+    "ru": "сердечно-сосудистый",
+    "pl": "sercowo-naczyniowy",
+    "de": "kardiovaskulär",
+    "fr": "cardiovasculaire",
+    "es": "cardiovascular",
+    "it": "cardiovascolare",
+    "pt": "cardiovascular",
+    "tr": "kardiyovasküler"
+   },
+   "ex": {
+    "en": "Exercise improves cardiovascular health."
+   }
+  },
+  {
+   "id": "health.to-be-laid-up",
+   "t": {
+    "en": "to be laid up",
+    "uk": "бути прикутим до ліжка",
+    "ru": "быть прикованным к постели",
+    "pl": "być przykutym do łóżka",
+    "de": "bettlägerig sein",
+    "fr": "être alité",
+    "es": "guardar cama",
+    "it": "essere costretto a letto",
+    "pt": "estar acamado",
+    "tr": "yatağa düşmek"
+   },
+   "ex": {
+    "en": "I was laid up with flu for a week."
+   }
+  },
+  {
+   "id": "health.run-down",
+   "t": {
+    "en": "run-down",
+    "uk": "виснажений",
+    "ru": "измотанный",
+    "pl": "wyczerpany",
+    "de": "abgespannt",
+    "fr": "à plat",
+    "es": "agotado",
+    "it": "giù di corda",
+    "pt": "esgotado",
+    "tr": "bitkin"
+   },
+   "ex": {
+    "en": "I've been feeling run-down lately."
+   }
+  },
+  {
+   "id": "health.lethargy",
+   "t": {
+    "en": "lethargy",
+    "uk": "млявість",
+    "ru": "вялость",
+    "pl": "letarg",
+    "de": "Lethargie",
+    "fr": "léthargie",
+    "es": "letargo",
+    "it": "letargia",
+    "pt": "letargia",
+    "tr": "uyuşukluk"
+   },
+   "ex": {
+    "en": "Lethargy can be a sign of anaemia."
+   }
+  },
+  {
+   "id": "health.to-pull-through",
+   "t": {
+    "en": "to pull through",
+    "uk": "викарабкатися",
+    "ru": "выкарабкаться",
+    "pl": "wylizać się",
+    "de": "durchkommen",
+    "fr": "s'en sortir",
+    "es": "salir adelante",
+    "it": "farcela",
+    "pt": "safar-se",
+    "tr": "atlatmak"
+   },
+   "ex": {
+    "en": "The doctors think she'll pull through."
+   }
+  },
+  {
+   "id": "health.pins-and-needles",
+   "t": {
+    "en": "pins and needles",
+    "uk": "поколювання",
+    "ru": "мурашки",
+    "pl": "mrowienie",
+    "de": "Kribbeln",
+    "fr": "fourmillements",
+    "es": "hormigueo",
+    "it": "formicolio",
+    "pt": "formigueiro",
+    "tr": "karıncalanma"
+   },
+   "ex": {
+    "en": "I've got pins and needles in my foot."
    }
   }
  ]

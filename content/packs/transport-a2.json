@@ -2,7 +2,7 @@
  "id": "transport-a2",
  "topic": "transport",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "transport.traffic-jam",
@@ -488,6 +488,402 @@
    },
    "ex": {
     "en": "Put the bags in the trunk."
+   }
+  },
+  {
+   "id": "transport.engine",
+   "t": {
+    "en": "engine",
+    "uk": "двигун",
+    "ru": "двигатель",
+    "pl": "silnik",
+    "de": "Motor",
+    "fr": "moteur",
+    "es": "motor",
+    "it": "motore",
+    "pt": "motor",
+    "tr": "motor"
+   },
+   "ex": {
+    "en": "The engine makes a strange noise."
+   }
+  },
+  {
+   "id": "transport.brake",
+   "t": {
+    "en": "brake",
+    "uk": "гальмо",
+    "ru": "тормоз",
+    "pl": "hamulec",
+    "de": "Bremse",
+    "fr": "frein",
+    "es": "freno",
+    "it": "freno",
+    "pt": "freio",
+    "tr": "fren"
+   },
+   "ex": {
+    "en": "Press the brake gently."
+   }
+  },
+  {
+   "id": "transport.fuel",
+   "t": {
+    "en": "fuel",
+    "uk": "пальне",
+    "ru": "топливо",
+    "pl": "paliwo",
+    "de": "Kraftstoff",
+    "fr": "carburant",
+    "es": "combustible",
+    "it": "carburante",
+    "pt": "combustível",
+    "tr": "yakıt"
+   },
+   "ex": {
+    "en": "We are low on fuel."
+   }
+  },
+  {
+   "id": "transport.road-sign",
+   "t": {
+    "en": "road sign",
+    "uk": "дорожній знак",
+    "ru": "дорожный знак",
+    "pl": "znak drogowy",
+    "de": "Verkehrsschild",
+    "fr": "panneau de signalisation",
+    "es": "señal de tráfico",
+    "it": "segnale stradale",
+    "pt": "placa de trânsito",
+    "tr": "trafik işareti"
+   },
+   "ex": {
+    "en": "Did you see that road sign?"
+   }
+  },
+  {
+   "id": "transport.parking-space",
+   "t": {
+    "en": "parking space",
+    "uk": "місце для паркування",
+    "ru": "парковочное место",
+    "pl": "miejsce parkingowe",
+    "de": "Parkplatz",
+    "fr": "place de parking",
+    "es": "plaza de aparcamiento",
+    "it": "posto auto",
+    "pt": "vaga",
+    "tr": "park yeri"
+   },
+   "ex": {
+    "en": "It's hard to find a parking space here."
+   }
+  },
+  {
+   "id": "transport.car-wash",
+   "t": {
+    "en": "car wash",
+    "uk": "автомийка",
+    "ru": "автомойка",
+    "pl": "myjnia samochodowa",
+    "de": "Autowaschanlage",
+    "fr": "station de lavage",
+    "es": "lavadero de coches",
+    "it": "autolavaggio",
+    "pt": "lava-jato",
+    "tr": "oto yıkama"
+   },
+   "ex": {
+    "en": "Let's take the car to the car wash."
+   }
+  },
+  {
+   "id": "transport.car-rental",
+   "t": {
+    "en": "car rental",
+    "uk": "прокат автомобілів",
+    "ru": "прокат автомобилей",
+    "pl": "wypożyczalnia samochodów",
+    "de": "Autovermietung",
+    "fr": "location de voitures",
+    "es": "alquiler de coches",
+    "it": "noleggio auto",
+    "pt": "aluguel de carros",
+    "tr": "araç kiralama"
+   },
+   "ex": {
+    "en": "The car rental office is at the airport."
+   }
+  },
+  {
+   "id": "transport.to-accelerate",
+   "t": {
+    "en": "to accelerate",
+    "uk": "прискорюватися",
+    "ru": "ускоряться",
+    "pl": "przyspieszać",
+    "de": "beschleunigen",
+    "fr": "accélérer",
+    "es": "acelerar",
+    "it": "accelerare",
+    "pt": "acelerar",
+    "tr": "hızlanmak"
+   },
+   "ex": {
+    "en": "Don't accelerate near the school."
+   }
+  },
+  {
+   "id": "transport.to-slow-down",
+   "t": {
+    "en": "to slow down",
+    "uk": "сповільнюватися",
+    "ru": "замедляться",
+    "pl": "zwalniać",
+    "de": "langsamer fahren",
+    "fr": "ralentir",
+    "es": "reducir la velocidad",
+    "it": "rallentare",
+    "pt": "desacelerar",
+    "tr": "yavaşlamak"
+   },
+   "ex": {
+    "en": "Slow down, the road is wet."
+   }
+  },
+  {
+   "id": "transport.tram-stop",
+   "t": {
+    "en": "tram stop",
+    "uk": "трамвайна зупинка",
+    "ru": "трамвайная остановка",
+    "pl": "przystanek tramwajowy",
+    "de": "Straßenbahnhaltestelle",
+    "fr": "arrêt de tram",
+    "es": "parada de tranvía",
+    "it": "fermata del tram",
+    "pt": "parada de bonde",
+    "tr": "tramvay durağı"
+   },
+   "ex": {
+    "en": "Get off at the next tram stop."
+   }
+  },
+  {
+   "id": "transport.fare",
+   "t": {
+    "en": "fare",
+    "uk": "вартість проїзду",
+    "ru": "стоимость проезда",
+    "pl": "opłata za przejazd",
+    "de": "Fahrpreis",
+    "fr": "prix du billet",
+    "es": "tarifa",
+    "it": "tariffa",
+    "pt": "tarifa",
+    "tr": "bilet ücreti"
+   },
+   "ex": {
+    "en": "The bus fare went up again."
+   }
+  },
+  {
+   "id": "transport.to-miss-the-bus",
+   "t": {
+    "en": "to miss the bus",
+    "uk": "запізнитися на автобус",
+    "ru": "опоздать на автобус",
+    "pl": "spóźnić się na autobus",
+    "de": "den Bus verpassen",
+    "fr": "rater le bus",
+    "es": "perder el autobús",
+    "it": "perdere l'autobus",
+    "pt": "perder o ônibus",
+    "tr": "otobüsü kaçırmak"
+   },
+   "ex": {
+    "en": "Hurry or we'll miss the bus."
+   }
+  },
+  {
+   "id": "transport.to-catch-the-bus",
+   "t": {
+    "en": "to catch the bus",
+    "uk": "встигнути на автобус",
+    "ru": "успеть на автобус",
+    "pl": "zdążyć na autobus",
+    "de": "den Bus erwischen",
+    "fr": "attraper le bus",
+    "es": "coger el autobús",
+    "it": "prendere l'autobus",
+    "pt": "pegar o ônibus",
+    "tr": "otobüse yetişmek"
+   },
+   "ex": {
+    "en": "I ran to catch the bus."
+   }
+  },
+  {
+   "id": "transport.traffic-police",
+   "t": {
+    "en": "traffic police",
+    "uk": "дорожня поліція",
+    "ru": "дорожная полиция",
+    "pl": "policja drogowa",
+    "de": "Verkehrspolizei",
+    "fr": "police routière",
+    "es": "policía de tráfico",
+    "it": "polizia stradale",
+    "pt": "polícia de trânsito",
+    "tr": "trafik polisi"
+   },
+   "ex": {
+    "en": "The traffic police stopped our car."
+   }
+  },
+  {
+   "id": "transport.hood",
+   "t": {
+    "en": "hood",
+    "uk": "капот",
+    "ru": "капот",
+    "pl": "maska",
+    "de": "Motorhaube",
+    "fr": "capot",
+    "es": "capó",
+    "it": "cofano",
+    "pt": "capô",
+    "tr": "kaput"
+   },
+   "ex": {
+    "en": "He opened the hood to check the oil."
+   }
+  },
+  {
+   "id": "transport.side-mirror",
+   "t": {
+    "en": "side mirror",
+    "uk": "бокове дзеркало",
+    "ru": "боковое зеркало",
+    "pl": "lusterko boczne",
+    "de": "Seitenspiegel",
+    "fr": "rétroviseur latéral",
+    "es": "espejo lateral",
+    "it": "specchietto laterale",
+    "pt": "retrovisor lateral",
+    "tr": "yan ayna"
+   },
+   "ex": {
+    "en": "Check your side mirror before you turn."
+   }
+  },
+  {
+   "id": "transport.gear",
+   "t": {
+    "en": "gear",
+    "uk": "передача",
+    "ru": "передача",
+    "pl": "bieg",
+    "de": "Gang",
+    "fr": "vitesse",
+    "es": "marcha",
+    "it": "marcia",
+    "pt": "marcha",
+    "tr": "vites"
+   },
+   "ex": {
+    "en": "Change to second gear."
+   }
+  },
+  {
+   "id": "transport.to-start-the-car",
+   "t": {
+    "en": "to start the car",
+    "uk": "заводити машину",
+    "ru": "заводить машину",
+    "pl": "odpalać samochód",
+    "de": "das Auto starten",
+    "fr": "démarrer la voiture",
+    "es": "arrancar el coche",
+    "it": "accendere la macchina",
+    "pt": "ligar o carro",
+    "tr": "arabayı çalıştırmak"
+   },
+   "ex": {
+    "en": "It's so cold I can't start the car."
+   }
+  },
+  {
+   "id": "transport.spare-tire",
+   "t": {
+    "en": "spare tire",
+    "uk": "запасне колесо",
+    "ru": "запасное колесо",
+    "pl": "koło zapasowe",
+    "de": "Ersatzrad",
+    "fr": "roue de secours",
+    "es": "rueda de repuesto",
+    "it": "ruota di scorta",
+    "pt": "estepe",
+    "tr": "stepne"
+   },
+   "ex": {
+    "en": "The spare tire is in the trunk."
+   }
+  },
+  {
+   "id": "transport.driving-lesson",
+   "t": {
+    "en": "driving lesson",
+    "uk": "урок водіння",
+    "ru": "урок вождения",
+    "pl": "lekcja jazdy",
+    "de": "Fahrstunde",
+    "fr": "leçon de conduite",
+    "es": "clase de conducir",
+    "it": "lezione di guida",
+    "pt": "aula de direção",
+    "tr": "sürüş dersi"
+   },
+   "ex": {
+    "en": "I have my first driving lesson today."
+   }
+  },
+  {
+   "id": "transport.driving-school",
+   "t": {
+    "en": "driving school",
+    "uk": "автошкола",
+    "ru": "автошкола",
+    "pl": "szkoła jazdy",
+    "de": "Fahrschule",
+    "fr": "auto-école",
+    "es": "autoescuela",
+    "it": "scuola guida",
+    "pt": "autoescola",
+    "tr": "sürücü kursu"
+   },
+   "ex": {
+    "en": "She signed up for driving school."
+   }
+  },
+  {
+   "id": "transport.passenger-seat",
+   "t": {
+    "en": "passenger seat",
+    "uk": "пасажирське сидіння",
+    "ru": "пассажирское сиденье",
+    "pl": "siedzenie pasażera",
+    "de": "Beifahrersitz",
+    "fr": "siège passager",
+    "es": "asiento del copiloto",
+    "it": "sedile del passeggero",
+    "pt": "banco do passageiro",
+    "tr": "yolcu koltuğu"
+   },
+   "ex": {
+    "en": "My bag is on the passenger seat."
    }
   }
  ]

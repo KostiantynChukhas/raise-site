@@ -2,7 +2,7 @@
  "id": "home-a1",
  "topic": "home",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "home.house",
@@ -524,6 +524,366 @@
    },
    "ex": {
     "en": "I am at home tonight."
+   }
+  },
+  {
+   "id": "home.ceiling",
+   "t": {
+    "en": "ceiling",
+    "uk": "стеля",
+    "ru": "потолок",
+    "pl": "sufit",
+    "de": "Decke",
+    "fr": "plafond",
+    "es": "techo",
+    "it": "soffitto",
+    "pt": "teto",
+    "tr": "tavan"
+   },
+   "ex": {
+    "en": "The ceiling in this room is very high."
+   }
+  },
+  {
+   "id": "home.roof",
+   "t": {
+    "en": "roof",
+    "uk": "дах",
+    "ru": "крыша",
+    "pl": "dach",
+    "de": "Dach",
+    "fr": "toit",
+    "es": "tejado",
+    "it": "tetto",
+    "pt": "telhado",
+    "tr": "çatı"
+   },
+   "ex": {
+    "en": "Our house has a red roof."
+   }
+  },
+  {
+   "id": "home.bath",
+   "t": {
+    "en": "bath",
+    "uk": "ванна",
+    "ru": "ванна",
+    "pl": "wanna",
+    "de": "Badewanne",
+    "fr": "baignoire",
+    "es": "bañera",
+    "it": "vasca da bagno",
+    "pt": "banheira",
+    "tr": "küvet"
+   },
+   "ex": {
+    "en": "I take a bath every evening."
+   }
+  },
+  {
+   "id": "home.cupboard",
+   "t": {
+    "en": "cupboard",
+    "uk": "шафка",
+    "ru": "шкаф",
+    "pl": "szafka",
+    "de": "Schrank",
+    "fr": "placard",
+    "es": "armario",
+    "it": "armadio",
+    "pt": "armário",
+    "tr": "dolap"
+   },
+   "ex": {
+    "en": "The cups are in the cupboard."
+   }
+  },
+  {
+   "id": "home.clock",
+   "t": {
+    "en": "clock",
+    "uk": "годинник",
+    "ru": "часы",
+    "pl": "zegar",
+    "de": "Uhr",
+    "fr": "horloge",
+    "es": "reloj",
+    "it": "orologio",
+    "pt": "relógio",
+    "tr": "saat"
+   },
+   "ex": {
+    "en": "The clock on the wall is slow."
+   }
+  },
+  {
+   "id": "home.towel",
+   "t": {
+    "en": "towel",
+    "uk": "рушник",
+    "ru": "полотенце",
+    "pl": "ręcznik",
+    "de": "Handtuch",
+    "fr": "serviette",
+    "es": "toalla",
+    "it": "asciugamano",
+    "pt": "toalha",
+    "tr": "havlu"
+   },
+   "ex": {
+    "en": "Can I have a clean towel?"
+   }
+  },
+  {
+   "id": "home.soap",
+   "t": {
+    "en": "soap",
+    "uk": "мило",
+    "ru": "мыло",
+    "pl": "mydło",
+    "de": "Seife",
+    "fr": "savon",
+    "es": "jabón",
+    "it": "sapone",
+    "pt": "sabonete",
+    "tr": "sabun"
+   },
+   "ex": {
+    "en": "Wash your hands with soap."
+   }
+  },
+  {
+   "id": "home.armchair",
+   "t": {
+    "en": "armchair",
+    "uk": "крісло",
+    "ru": "кресло",
+    "pl": "fotel",
+    "de": "Sessel",
+    "fr": "fauteuil",
+    "es": "sillón",
+    "it": "poltrona",
+    "pt": "poltrona",
+    "tr": "koltuk"
+   },
+   "ex": {
+    "en": "Grandpa sleeps in his armchair."
+   }
+  },
+  {
+   "id": "home.dining-room",
+   "t": {
+    "en": "dining room",
+    "uk": "їдальня",
+    "ru": "столовая",
+    "pl": "jadalnia",
+    "de": "Esszimmer",
+    "fr": "salle à manger",
+    "es": "comedor",
+    "it": "sala da pranzo",
+    "pt": "sala de jantar",
+    "tr": "yemek odası"
+   },
+   "ex": {
+    "en": "We eat in the dining room."
+   }
+  },
+  {
+   "id": "home.upstairs",
+   "t": {
+    "en": "upstairs",
+    "uk": "нагорі",
+    "ru": "наверху",
+    "pl": "na górze",
+    "de": "oben",
+    "fr": "en haut",
+    "es": "arriba",
+    "it": "di sopra",
+    "pt": "lá em cima",
+    "tr": "üst katta"
+   },
+   "ex": {
+    "en": "My bedroom is upstairs."
+   }
+  },
+  {
+   "id": "home.downstairs",
+   "t": {
+    "en": "downstairs",
+    "uk": "внизу",
+    "ru": "внизу",
+    "pl": "na dole",
+    "de": "unten",
+    "fr": "en bas",
+    "es": "abajo",
+    "it": "di sotto",
+    "pt": "lá embaixo",
+    "tr": "alt katta"
+   },
+   "ex": {
+    "en": "The kitchen is downstairs."
+   }
+  },
+  {
+   "id": "home.to-wash",
+   "t": {
+    "en": "to wash",
+    "uk": "мити",
+    "ru": "мыть",
+    "pl": "myć",
+    "de": "waschen",
+    "fr": "laver",
+    "es": "lavar",
+    "it": "lavare",
+    "pt": "lavar",
+    "tr": "yıkamak"
+   },
+   "ex": {
+    "en": "I wash my hands before dinner."
+   }
+  },
+  {
+   "id": "home.bin",
+   "t": {
+    "en": "bin",
+    "uk": "смітник",
+    "ru": "мусорное ведро",
+    "pl": "kosz na śmieci",
+    "de": "Mülleimer",
+    "fr": "poubelle",
+    "es": "cubo de basura",
+    "it": "pattumiera",
+    "pt": "lixeira",
+    "tr": "çöp kutusu"
+   },
+   "ex": {
+    "en": "Put the paper in the bin."
+   }
+  },
+  {
+   "id": "home.light",
+   "t": {
+    "en": "light",
+    "uk": "світло",
+    "ru": "свет",
+    "pl": "światło",
+    "de": "Licht",
+    "fr": "lumière",
+    "es": "luz",
+    "it": "luce",
+    "pt": "luz",
+    "tr": "ışık"
+   },
+   "ex": {
+    "en": "Turn on the light, please."
+   }
+  },
+  {
+   "id": "home.picture",
+   "t": {
+    "en": "picture",
+    "uk": "картина",
+    "ru": "картина",
+    "pl": "obraz",
+    "de": "Bild",
+    "fr": "tableau",
+    "es": "cuadro",
+    "it": "quadro",
+    "pt": "quadro",
+    "tr": "tablo"
+   },
+   "ex": {
+    "en": "There is a picture on the wall."
+   }
+  },
+  {
+   "id": "home.cup",
+   "t": {
+    "en": "cup",
+    "uk": "чашка",
+    "ru": "чашка",
+    "pl": "filiżanka",
+    "de": "Tasse",
+    "fr": "tasse",
+    "es": "taza",
+    "it": "tazza",
+    "pt": "xícara",
+    "tr": "fincan"
+   },
+   "ex": {
+    "en": "This cup is for tea."
+   }
+  },
+  {
+   "id": "home.drawer",
+   "t": {
+    "en": "drawer",
+    "uk": "шухляда",
+    "ru": "ящик",
+    "pl": "szuflada",
+    "de": "Schublade",
+    "fr": "tiroir",
+    "es": "cajón",
+    "it": "cassetto",
+    "pt": "gaveta",
+    "tr": "çekmece"
+   },
+   "ex": {
+    "en": "The forks are in the top drawer."
+   }
+  },
+  {
+   "id": "home.front-door",
+   "t": {
+    "en": "front door",
+    "uk": "вхідні двері",
+    "ru": "входная дверь",
+    "pl": "drzwi wejściowe",
+    "de": "Haustür",
+    "fr": "porte d'entrée",
+    "es": "puerta principal",
+    "it": "porta d'ingresso",
+    "pt": "porta da frente",
+    "tr": "ön kapı"
+   },
+   "ex": {
+    "en": "Someone is at the front door."
+   }
+  },
+  {
+   "id": "home.to-come-in",
+   "t": {
+    "en": "to come in",
+    "uk": "заходити",
+    "ru": "входить",
+    "pl": "wchodzić",
+    "de": "hereinkommen",
+    "fr": "entrer",
+    "es": "entrar",
+    "it": "entrare",
+    "pt": "entrar",
+    "tr": "içeri girmek"
+   },
+   "ex": {
+    "en": "Come in and take off your shoes."
+   }
+  },
+  {
+   "id": "home.rug",
+   "t": {
+    "en": "rug",
+    "uk": "килимок",
+    "ru": "коврик",
+    "pl": "dywanik",
+    "de": "Teppich",
+    "fr": "tapis",
+    "es": "alfombra",
+    "it": "tappeto",
+    "pt": "tapete",
+    "tr": "kilim"
+   },
+   "ex": {
+    "en": "The cat sleeps on the rug."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "shopping-b2",
  "topic": "shopping",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "shopping.window-shopping",
@@ -434,6 +434,474 @@
    },
    "ex": {
     "en": "These boots are durable and warm."
+   }
+  },
+  {
+   "id": "shopping.retailer",
+   "t": {
+    "en": "retailer",
+    "uk": "роздрібний продавець",
+    "ru": "розничный продавец",
+    "pl": "sprzedawca detaliczny",
+    "de": "Einzelhändler",
+    "fr": "détaillant",
+    "es": "minorista",
+    "it": "rivenditore",
+    "pt": "varejista",
+    "tr": "perakendeci"
+   },
+   "ex": {
+    "en": "The retailer offers free returns."
+   }
+  },
+  {
+   "id": "shopping.alterations",
+   "t": {
+    "en": "alterations",
+    "uk": "підгонка одягу",
+    "ru": "подгонка одежды",
+    "pl": "poprawki krawieckie",
+    "de": "Änderungsarbeiten",
+    "fr": "retouches",
+    "es": "arreglos",
+    "it": "modifiche sartoriali",
+    "pt": "ajustes",
+    "tr": "tadilat"
+   },
+   "ex": {
+    "en": "The shop does alterations for free."
+   }
+  },
+  {
+   "id": "shopping.slim-fit",
+   "t": {
+    "en": "slim fit",
+    "uk": "приталений",
+    "ru": "приталенный",
+    "pl": "dopasowany krój",
+    "de": "schmal geschnitten",
+    "fr": "coupe ajustée",
+    "es": "corte entallado",
+    "it": "taglio aderente",
+    "pt": "corte justo",
+    "tr": "dar kesim"
+   },
+   "ex": {
+    "en": "Do you have this shirt in slim fit?"
+   }
+  },
+  {
+   "id": "shopping.proof-of-purchase",
+   "t": {
+    "en": "proof of purchase",
+    "uk": "підтвердження покупки",
+    "ru": "подтверждение покупки",
+    "pl": "dowód zakupu",
+    "de": "Kaufbeleg",
+    "fr": "preuve d'achat",
+    "es": "comprobante de compra",
+    "it": "prova d'acquisto",
+    "pt": "comprovante de compra",
+    "tr": "satın alma belgesi"
+   },
+   "ex": {
+    "en": "You need proof of purchase for a refund."
+   }
+  },
+  {
+   "id": "shopping.small-print",
+   "t": {
+    "en": "small print",
+    "uk": "дрібний шрифт",
+    "ru": "мелкий шрифт",
+    "pl": "drobny druk",
+    "de": "Kleingedrucktes",
+    "fr": "petits caractères",
+    "es": "letra pequeña",
+    "it": "scritte in piccolo",
+    "pt": "letras miúdas",
+    "tr": "küçük puntolu yazı"
+   },
+   "ex": {
+    "en": "Always read the small print."
+   }
+  },
+  {
+   "id": "shopping.extended-warranty",
+   "t": {
+    "en": "extended warranty",
+    "uk": "розширена гарантія",
+    "ru": "расширенная гарантия",
+    "pl": "przedłużona gwarancja",
+    "de": "Garantieverlängerung",
+    "fr": "extension de garantie",
+    "es": "garantía extendida",
+    "it": "garanzia estesa",
+    "pt": "garantia estendida",
+    "tr": "uzatılmış garanti"
+   },
+   "ex": {
+    "en": "Would you like an extended warranty?"
+   }
+  },
+  {
+   "id": "shopping.loyalty-points",
+   "t": {
+    "en": "loyalty points",
+    "uk": "бонусні бали",
+    "ru": "бонусные баллы",
+    "pl": "punkty lojalnościowe",
+    "de": "Treuepunkte",
+    "fr": "points de fidélité",
+    "es": "puntos de fidelidad",
+    "it": "punti fedeltà",
+    "pt": "pontos de fidelidade",
+    "tr": "sadakat puanı"
+   },
+   "ex": {
+    "en": "I paid with my loyalty points."
+   }
+  },
+  {
+   "id": "shopping.product-recall",
+   "t": {
+    "en": "product recall",
+    "uk": "відкликання товару",
+    "ru": "отзыв товара",
+    "pl": "wycofanie produktu",
+    "de": "Produktrückruf",
+    "fr": "rappel de produit",
+    "es": "retirada del producto",
+    "it": "richiamo del prodotto",
+    "pt": "recall de produto",
+    "tr": "ürün geri çağırma"
+   },
+   "ex": {
+    "en": "The company announced a product recall."
+   }
+  },
+  {
+   "id": "shopping.in-bulk",
+   "t": {
+    "en": "in bulk",
+    "uk": "оптом",
+    "ru": "оптом",
+    "pl": "hurtowo",
+    "de": "in großen Mengen",
+    "fr": "en gros",
+    "es": "al por mayor",
+    "it": "all'ingrosso",
+    "pt": "no atacado",
+    "tr": "toptan"
+   },
+   "ex": {
+    "en": "It's cheaper to buy rice in bulk."
+   }
+  },
+  {
+   "id": "shopping.to-stock-up",
+   "t": {
+    "en": "to stock up",
+    "uk": "запасатися",
+    "ru": "запасаться",
+    "pl": "robić zapasy",
+    "de": "sich eindecken",
+    "fr": "faire des provisions",
+    "es": "abastecerse",
+    "it": "fare scorta",
+    "pt": "estocar",
+    "tr": "stok yapmak"
+   },
+   "ex": {
+    "en": "We stocked up on water before the storm."
+   }
+  },
+  {
+   "id": "shopping.panic-buying",
+   "t": {
+    "en": "panic buying",
+    "uk": "панічні закупи",
+    "ru": "панические закупки",
+    "pl": "panikarskie zakupy",
+    "de": "Hamsterkäufe",
+    "fr": "achats de panique",
+    "es": "compras de pánico",
+    "it": "accaparramento",
+    "pt": "compras de pânico",
+    "tr": "panik alışverişi"
+   },
+   "ex": {
+    "en": "Panic buying left the shelves empty."
+   }
+  },
+  {
+   "id": "shopping.unboxing",
+   "t": {
+    "en": "unboxing",
+    "uk": "розпакування",
+    "ru": "распаковка",
+    "pl": "rozpakowywanie",
+    "de": "Auspacken",
+    "fr": "déballage",
+    "es": "desempaquetado",
+    "it": "spacchettamento",
+    "pt": "desembalagem",
+    "tr": "kutu açılışı"
+   },
+   "ex": {
+    "en": "He filmed the unboxing of his new phone."
+   }
+  },
+  {
+   "id": "shopping.freebie",
+   "t": {
+    "en": "freebie",
+    "uk": "безкоштовний подарунок",
+    "ru": "бесплатный подарок",
+    "pl": "gratis",
+    "de": "Werbegeschenk",
+    "fr": "cadeau promotionnel",
+    "es": "regalo promocional",
+    "it": "omaggio",
+    "pt": "brinde",
+    "tr": "bedava hediye"
+   },
+   "ex": {
+    "en": "The magazine came with a freebie."
+   }
+  },
+  {
+   "id": "shopping.free-sample",
+   "t": {
+    "en": "free sample",
+    "uk": "безкоштовний зразок",
+    "ru": "бесплатный образец",
+    "pl": "darmowa próbka",
+    "de": "Gratisprobe",
+    "fr": "échantillon gratuit",
+    "es": "muestra gratuita",
+    "it": "campione gratuito",
+    "pt": "amostra grátis",
+    "tr": "ücretsiz numune"
+   },
+   "ex": {
+    "en": "They gave out free samples of perfume."
+   }
+  },
+  {
+   "id": "shopping.high-street",
+   "t": {
+    "en": "high street",
+    "uk": "головна торгова вулиця",
+    "ru": "главная торговая улица",
+    "pl": "główna ulica handlowa",
+    "de": "Einkaufsstraße",
+    "fr": "rue commerçante",
+    "es": "calle comercial",
+    "it": "via commerciale",
+    "pt": "rua comercial",
+    "tr": "alışveriş caddesi"
+   },
+   "ex": {
+    "en": "Many high street shops have closed."
+   }
+  },
+  {
+   "id": "shopping.e-commerce",
+   "t": {
+    "en": "e-commerce",
+    "uk": "електронна комерція",
+    "ru": "электронная коммерция",
+    "pl": "e-handel",
+    "de": "E-Commerce",
+    "fr": "commerce en ligne",
+    "es": "comercio electrónico",
+    "it": "commercio elettronico",
+    "pt": "comércio eletrônico",
+    "tr": "e-ticaret"
+   },
+   "ex": {
+    "en": "E-commerce is growing every year."
+   }
+  },
+  {
+   "id": "shopping.marketplace",
+   "t": {
+    "en": "marketplace",
+    "uk": "маркетплейс",
+    "ru": "маркетплейс",
+    "pl": "platforma handlowa",
+    "de": "Marktplatz",
+    "fr": "place de marché",
+    "es": "mercado en línea",
+    "it": "mercato online",
+    "pt": "mercado online",
+    "tr": "pazar yeri"
+   },
+   "ex": {
+    "en": "I sell old books on an online marketplace."
+   }
+  },
+  {
+   "id": "shopping.duty-free",
+   "t": {
+    "en": "duty-free",
+    "uk": "безмитний",
+    "ru": "беспошлинный",
+    "pl": "bezcłowy",
+    "de": "zollfrei",
+    "fr": "hors taxes",
+    "es": "libre de impuestos",
+    "it": "esente da dazio",
+    "pt": "livre de impostos",
+    "tr": "gümrüksüz"
+   },
+   "ex": {
+    "en": "We bought perfume at the duty-free shop."
+   }
+  },
+  {
+   "id": "shopping.pick-up-point",
+   "t": {
+    "en": "pick-up point",
+    "uk": "пункт видачі",
+    "ru": "пункт выдачи",
+    "pl": "punkt odbioru",
+    "de": "Abholstelle",
+    "fr": "point relais",
+    "es": "punto de recogida",
+    "it": "punto di ritiro",
+    "pt": "ponto de retirada",
+    "tr": "teslim alma noktası"
+   },
+   "ex": {
+    "en": "Collect your parcel at the pick-up point."
+   }
+  },
+  {
+   "id": "shopping.price-range",
+   "t": {
+    "en": "price range",
+    "uk": "ціновий діапазон",
+    "ru": "ценовой диапазон",
+    "pl": "przedział cenowy",
+    "de": "Preisklasse",
+    "fr": "gamme de prix",
+    "es": "rango de precios",
+    "it": "fascia di prezzo",
+    "pt": "faixa de preço",
+    "tr": "fiyat aralığı"
+   },
+   "ex": {
+    "en": "What's your price range?"
+   }
+  },
+  {
+   "id": "shopping.buy-now-pay-later",
+   "t": {
+    "en": "buy now, pay later",
+    "uk": "купуй зараз, плати потім",
+    "ru": "покупай сейчас, плати потом",
+    "pl": "kup teraz, zapłać później",
+    "de": "jetzt kaufen, später zahlen",
+    "fr": "achetez maintenant, payez plus tard",
+    "es": "compra ahora, paga después",
+    "it": "compra ora, paga dopo",
+    "pt": "compre agora, pague depois",
+    "tr": "şimdi al, sonra öde"
+   },
+   "ex": {
+    "en": "Many shops now offer buy now, pay later."
+   }
+  },
+  {
+   "id": "shopping.brand-loyalty",
+   "t": {
+    "en": "brand loyalty",
+    "uk": "лояльність до бренду",
+    "ru": "лояльность к бренду",
+    "pl": "lojalność wobec marki",
+    "de": "Markentreue",
+    "fr": "fidélité à la marque",
+    "es": "lealtad a la marca",
+    "it": "fedeltà al marchio",
+    "pt": "fidelidade à marca",
+    "tr": "marka sadakati"
+   },
+   "ex": {
+    "en": "Brand loyalty is hard to build."
+   }
+  },
+  {
+   "id": "shopping.showroom",
+   "t": {
+    "en": "showroom",
+    "uk": "шоурум",
+    "ru": "шоурум",
+    "pl": "salon wystawowy",
+    "de": "Ausstellungsraum",
+    "fr": "salle d'exposition",
+    "es": "sala de exposición",
+    "it": "salone espositivo",
+    "pt": "showroom",
+    "tr": "teşhir salonu"
+   },
+   "ex": {
+    "en": "We saw the sofa in the showroom."
+   }
+  },
+  {
+   "id": "shopping.price-hike",
+   "t": {
+    "en": "price hike",
+    "uk": "підвищення цін",
+    "ru": "повышение цен",
+    "pl": "podwyżka cen",
+    "de": "Preiserhöhung",
+    "fr": "hausse des prix",
+    "es": "subida de precios",
+    "it": "aumento dei prezzi",
+    "pt": "aumento de preços",
+    "tr": "zam"
+   },
+   "ex": {
+    "en": "Customers complained about the price hike."
+   }
+  },
+  {
+   "id": "shopping.interest-free",
+   "t": {
+    "en": "interest-free",
+    "uk": "безвідсотковий",
+    "ru": "беспроцентный",
+    "pl": "nieoprocentowany",
+    "de": "zinsfrei",
+    "fr": "sans intérêts",
+    "es": "sin intereses",
+    "it": "a interessi zero",
+    "pt": "sem juros",
+    "tr": "faizsiz"
+   },
+   "ex": {
+    "en": "You can pay in interest-free instalments."
+   }
+  },
+  {
+   "id": "shopping.cash-on-delivery",
+   "t": {
+    "en": "cash on delivery",
+    "uk": "оплата при отриманні",
+    "ru": "наложенный платёж",
+    "pl": "płatność przy odbiorze",
+    "de": "Nachnahme",
+    "fr": "paiement à la livraison",
+    "es": "contra reembolso",
+    "it": "pagamento alla consegna",
+    "pt": "pagamento na entrega",
+    "tr": "kapıda ödeme"
+   },
+   "ex": {
+    "en": "I chose cash on delivery."
    }
   }
  ]

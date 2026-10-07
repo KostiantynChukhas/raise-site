@@ -2,7 +2,7 @@
  "id": "general-a1",
  "topic": "general",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "general.today",
@@ -542,6 +542,312 @@
    },
    "ex": {
     "en": "Say it again, please."
+   }
+  },
+  {
+   "id": "general.second",
+   "t": {
+    "en": "second",
+    "uk": "секунда",
+    "ru": "секунда",
+    "pl": "sekunda",
+    "de": "Sekunde",
+    "fr": "seconde",
+    "es": "segundo",
+    "it": "secondo",
+    "pt": "segundo",
+    "tr": "saniye"
+   },
+   "ex": {
+    "en": "Wait a second, please."
+   }
+  },
+  {
+   "id": "general.noon",
+   "t": {
+    "en": "noon",
+    "uk": "полудень",
+    "ru": "полдень",
+    "pl": "południe",
+    "de": "Mittag",
+    "fr": "midi",
+    "es": "mediodía",
+    "it": "mezzogiorno",
+    "pt": "meio-dia",
+    "tr": "öğle"
+   },
+   "ex": {
+    "en": "We eat lunch at noon."
+   }
+  },
+  {
+   "id": "general.midnight",
+   "t": {
+    "en": "midnight",
+    "uk": "північ",
+    "ru": "полночь",
+    "pl": "północ",
+    "de": "Mitternacht",
+    "fr": "minuit",
+    "es": "medianoche",
+    "it": "mezzanotte",
+    "pt": "meia-noite",
+    "tr": "gece yarısı"
+   },
+   "ex": {
+    "en": "The party ended at midnight."
+   }
+  },
+  {
+   "id": "general.soon",
+   "t": {
+    "en": "soon",
+    "uk": "скоро",
+    "ru": "скоро",
+    "pl": "wkrótce",
+    "de": "bald",
+    "fr": "bientôt",
+    "es": "pronto",
+    "it": "presto",
+    "pt": "em breve",
+    "tr": "yakında"
+   },
+   "ex": {
+    "en": "See you soon!"
+   }
+  },
+  {
+   "id": "general.later",
+   "t": {
+    "en": "later",
+    "uk": "пізніше",
+    "ru": "позже",
+    "pl": "później",
+    "de": "später",
+    "fr": "plus tard",
+    "es": "más tarde",
+    "it": "più tardi",
+    "pt": "mais tarde",
+    "tr": "sonra"
+   },
+   "ex": {
+    "en": "I will call you later."
+   }
+  },
+  {
+   "id": "general.monday",
+   "t": {
+    "en": "Monday",
+    "uk": "понеділок",
+    "ru": "понедельник",
+    "pl": "poniedziałek",
+    "de": "Montag",
+    "fr": "lundi",
+    "es": "lunes",
+    "it": "lunedì",
+    "pt": "segunda-feira",
+    "tr": "pazartesi"
+   },
+   "ex": {
+    "en": "I start work on Monday."
+   }
+  },
+  {
+   "id": "general.sunday",
+   "t": {
+    "en": "Sunday",
+    "uk": "неділя",
+    "ru": "воскресенье",
+    "pl": "niedziela",
+    "de": "Sonntag",
+    "fr": "dimanche",
+    "es": "domingo",
+    "it": "domenica",
+    "pt": "domingo",
+    "tr": "pazar"
+   },
+   "ex": {
+    "en": "We rest on Sunday."
+   }
+  },
+  {
+   "id": "general.to-give",
+   "t": {
+    "en": "to give",
+    "uk": "давати",
+    "ru": "давать",
+    "pl": "dawać",
+    "de": "geben",
+    "fr": "donner",
+    "es": "dar",
+    "it": "dare",
+    "pt": "dar",
+    "tr": "vermek"
+   },
+   "ex": {
+    "en": "Give me the book, please."
+   }
+  },
+  {
+   "id": "general.to-take",
+   "t": {
+    "en": "to take",
+    "uk": "брати",
+    "ru": "брать",
+    "pl": "brać",
+    "de": "nehmen",
+    "fr": "prendre",
+    "es": "tomar",
+    "it": "prendere",
+    "pt": "pegar",
+    "tr": "almak"
+   },
+   "ex": {
+    "en": "Take an umbrella with you."
+   }
+  },
+  {
+   "id": "general.to-look",
+   "t": {
+    "en": "to look",
+    "uk": "дивитися",
+    "ru": "смотреть",
+    "pl": "patrzeć",
+    "de": "schauen",
+    "fr": "regarder",
+    "es": "mirar",
+    "it": "guardare",
+    "pt": "olhar",
+    "tr": "bakmak"
+   },
+   "ex": {
+    "en": "Look at this photo."
+   }
+  },
+  {
+   "id": "general.to-hear",
+   "t": {
+    "en": "to hear",
+    "uk": "чути",
+    "ru": "слышать",
+    "pl": "słyszeć",
+    "de": "hören",
+    "fr": "entendre",
+    "es": "oír",
+    "it": "sentire",
+    "pt": "ouvir",
+    "tr": "duymak"
+   },
+   "ex": {
+    "en": "I can't hear you."
+   }
+  },
+  {
+   "id": "general.to-think",
+   "t": {
+    "en": "to think",
+    "uk": "думати",
+    "ru": "думать",
+    "pl": "myśleć",
+    "de": "denken",
+    "fr": "penser",
+    "es": "pensar",
+    "it": "pensare",
+    "pt": "pensar",
+    "tr": "düşünmek"
+   },
+   "ex": {
+    "en": "I think it's a good idea."
+   }
+  },
+  {
+   "id": "general.to-begin",
+   "t": {
+    "en": "to begin",
+    "uk": "починати",
+    "ru": "начинать",
+    "pl": "zaczynać",
+    "de": "beginnen",
+    "fr": "commencer",
+    "es": "empezar",
+    "it": "cominciare",
+    "pt": "começar",
+    "tr": "başlamak"
+   },
+   "ex": {
+    "en": "The film begins at eight."
+   }
+  },
+  {
+   "id": "general.a-lot",
+   "t": {
+    "en": "a lot",
+    "uk": "багато",
+    "ru": "много",
+    "pl": "dużo",
+    "de": "viel",
+    "fr": "beaucoup",
+    "es": "mucho",
+    "it": "molto",
+    "pt": "muito",
+    "tr": "çok"
+   },
+   "ex": {
+    "en": "I work a lot."
+   }
+  },
+  {
+   "id": "general.a-little",
+   "t": {
+    "en": "a little",
+    "uk": "трохи",
+    "ru": "немного",
+    "pl": "trochę",
+    "de": "ein bisschen",
+    "fr": "un peu",
+    "es": "un poco",
+    "it": "un po'",
+    "pt": "um pouco",
+    "tr": "biraz"
+   },
+   "ex": {
+    "en": "I speak a little English."
+   }
+  },
+  {
+   "id": "general.also",
+   "t": {
+    "en": "also",
+    "uk": "також",
+    "ru": "также",
+    "pl": "też",
+    "de": "auch",
+    "fr": "aussi",
+    "es": "también",
+    "it": "anche",
+    "pt": "também",
+    "tr": "ayrıca"
+   },
+   "ex": {
+    "en": "I also like tea."
+   }
+  },
+  {
+   "id": "general.nothing",
+   "t": {
+    "en": "nothing",
+    "uk": "нічого",
+    "ru": "ничего",
+    "pl": "nic",
+    "de": "nichts",
+    "fr": "rien",
+    "es": "nada",
+    "it": "niente",
+    "pt": "nada",
+    "tr": "hiçbir şey"
+   },
+   "ex": {
+    "en": "There is nothing in the box."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "emotions-b1",
  "topic": "emotions",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emotions.anxious",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "He is passionate about music."
+   }
+  },
+  {
+   "id": "emotions.loneliness",
+   "t": {
+    "en": "loneliness",
+    "uk": "самотність",
+    "ru": "одиночество",
+    "pl": "samotność",
+    "de": "Einsamkeit",
+    "fr": "solitude",
+    "es": "soledad",
+    "it": "solitudine",
+    "pt": "solidão",
+    "tr": "yalnızlık"
+   },
+   "ex": {
+    "en": "Loneliness can be hard for old people."
+   }
+  },
+  {
+   "id": "emotions.pride",
+   "t": {
+    "en": "pride",
+    "uk": "гордість",
+    "ru": "гордость",
+    "pl": "duma",
+    "de": "Stolz",
+    "fr": "fierté",
+    "es": "orgullo",
+    "it": "orgoglio",
+    "pt": "orgulho",
+    "tr": "gurur"
+   },
+   "ex": {
+    "en": "She spoke with pride about her son."
+   }
+  },
+  {
+   "id": "emotions.jealousy",
+   "t": {
+    "en": "jealousy",
+    "uk": "ревнощі",
+    "ru": "ревность",
+    "pl": "zazdrość",
+    "de": "Eifersucht",
+    "fr": "jalousie",
+    "es": "celos",
+    "it": "gelosia",
+    "pt": "ciúme",
+    "tr": "kıskançlık"
+   },
+   "ex": {
+    "en": "Jealousy ruined their friendship."
+   }
+  },
+  {
+   "id": "emotions.shame",
+   "t": {
+    "en": "shame",
+    "uk": "сором",
+    "ru": "стыд",
+    "pl": "wstyd",
+    "de": "Scham",
+    "fr": "honte",
+    "es": "vergüenza",
+    "it": "vergogna",
+    "pt": "vergonha",
+    "tr": "utanç"
+   },
+   "ex": {
+    "en": "He felt shame for lying."
+   }
+  },
+  {
+   "id": "emotions.tense",
+   "t": {
+    "en": "tense",
+    "uk": "напружений",
+    "ru": "напряжённый",
+    "pl": "spięty",
+    "de": "angespannt",
+    "fr": "tendu",
+    "es": "tenso",
+    "it": "teso",
+    "pt": "tenso",
+    "tr": "gergin"
+   },
+   "ex": {
+    "en": "Everyone was tense before the exam."
+   }
+  },
+  {
+   "id": "emotions.moody",
+   "t": {
+    "en": "moody",
+    "uk": "примхливий",
+    "ru": "капризный",
+    "pl": "humorzasty",
+    "de": "launisch",
+    "fr": "lunatique",
+    "es": "temperamental",
+    "it": "lunatico",
+    "pt": "temperamental",
+    "tr": "huysuz"
+   },
+   "ex": {
+    "en": "Teenagers can be moody."
+   }
+  },
+  {
+   "id": "emotions.to-blush",
+   "t": {
+    "en": "to blush",
+    "uk": "червоніти",
+    "ru": "краснеть",
+    "pl": "rumienić się",
+    "de": "erröten",
+    "fr": "rougir",
+    "es": "sonrojarse",
+    "it": "arrossire",
+    "pt": "corar",
+    "tr": "kızarmak"
+   },
+   "ex": {
+    "en": "She blushed when he smiled."
+   }
+  },
+  {
+   "id": "emotions.to-sigh",
+   "t": {
+    "en": "to sigh",
+    "uk": "зітхати",
+    "ru": "вздыхать",
+    "pl": "wzdychać",
+    "de": "seufzen",
+    "fr": "soupirer",
+    "es": "suspirar",
+    "it": "sospirare",
+    "pt": "suspirar",
+    "tr": "iç çekmek"
+   },
+   "ex": {
+    "en": "He sighed and closed the book."
+   }
+  },
+  {
+   "id": "emotions.to-tremble",
+   "t": {
+    "en": "to tremble",
+    "uk": "тремтіти",
+    "ru": "дрожать",
+    "pl": "drżeć",
+    "de": "zittern",
+    "fr": "trembler",
+    "es": "temblar",
+    "it": "tremare",
+    "pt": "tremer",
+    "tr": "titremek"
+   },
+   "ex": {
+    "en": "Her hands trembled with fear."
+   }
+  },
+  {
+   "id": "emotions.terrified",
+   "t": {
+    "en": "terrified",
+    "uk": "нажаханий",
+    "ru": "в ужасе",
+    "pl": "przerażony",
+    "de": "verängstigt",
+    "fr": "terrifié",
+    "es": "aterrorizado",
+    "it": "terrorizzato",
+    "pt": "aterrorizado",
+    "tr": "dehşete düşmüş"
+   },
+   "ex": {
+    "en": "I'm terrified of spiders."
+   }
+  },
+  {
+   "id": "emotions.delighted",
+   "t": {
+    "en": "delighted",
+    "uk": "у захваті",
+    "ru": "в восторге",
+    "pl": "zachwycony",
+    "de": "begeistert",
+    "fr": "ravi",
+    "es": "encantado",
+    "it": "felicissimo",
+    "pt": "encantado",
+    "tr": "çok memnun"
+   },
+   "ex": {
+    "en": "We're delighted with the news."
+   }
+  },
+  {
+   "id": "emotions.furious",
+   "t": {
+    "en": "furious",
+    "uk": "розлючений",
+    "ru": "разъярённый",
+    "pl": "wściekły",
+    "de": "wütend",
+    "fr": "furieux",
+    "es": "furioso",
+    "it": "furioso",
+    "pt": "furioso",
+    "tr": "öfkeli"
+   },
+   "ex": {
+    "en": "She was furious with him."
+   }
+  },
+  {
+   "id": "emotions.depressed",
+   "t": {
+    "en": "depressed",
+    "uk": "пригнічений",
+    "ru": "подавленный",
+    "pl": "przygnębiony",
+    "de": "deprimiert",
+    "fr": "déprimé",
+    "es": "deprimido",
+    "it": "depresso",
+    "pt": "deprimido",
+    "tr": "depresif"
+   },
+   "ex": {
+    "en": "He felt depressed after losing his job."
+   }
+  },
+  {
+   "id": "emotions.to-offend",
+   "t": {
+    "en": "to offend",
+    "uk": "ображати",
+    "ru": "обижать",
+    "pl": "obrażać",
+    "de": "beleidigen",
+    "fr": "offenser",
+    "es": "ofender",
+    "it": "offendere",
+    "pt": "ofender",
+    "tr": "gücendirmek"
+   },
+   "ex": {
+    "en": "I didn't mean to offend you."
+   }
+  },
+  {
+   "id": "emotions.to-encourage",
+   "t": {
+    "en": "to encourage",
+    "uk": "підбадьорювати",
+    "ru": "ободрять",
+    "pl": "zachęcać",
+    "de": "ermutigen",
+    "fr": "encourager",
+    "es": "animar",
+    "it": "incoraggiare",
+    "pt": "encorajar",
+    "tr": "cesaret vermek"
+   },
+   "ex": {
+    "en": "My parents encouraged me to try."
+   }
+  },
+  {
+   "id": "emotions.to-comfort",
+   "t": {
+    "en": "to comfort",
+    "uk": "втішати",
+    "ru": "утешать",
+    "pl": "pocieszać",
+    "de": "trösten",
+    "fr": "consoler",
+    "es": "consolar",
+    "it": "consolare",
+    "pt": "consolar",
+    "tr": "teselli etmek"
+   },
+   "ex": {
+    "en": "She tried to comfort the crying child."
+   }
+  },
+  {
+   "id": "emotions.to-express",
+   "t": {
+    "en": "to express",
+    "uk": "висловлювати",
+    "ru": "выражать",
+    "pl": "wyrażać",
+    "de": "ausdrücken",
+    "fr": "exprimer",
+    "es": "expresar",
+    "it": "esprimere",
+    "pt": "expressar",
+    "tr": "ifade etmek"
+   },
+   "ex": {
+    "en": "It's hard to express my feelings."
+   }
+  },
+  {
+   "id": "emotions.to-burst-into-tears",
+   "t": {
+    "en": "to burst into tears",
+    "uk": "розплакатися",
+    "ru": "расплакаться",
+    "pl": "wybuchnąć płaczem",
+    "de": "in Tränen ausbrechen",
+    "fr": "fondre en larmes",
+    "es": "romper a llorar",
+    "it": "scoppiare a piangere",
+    "pt": "desatar a chorar",
+    "tr": "gözyaşlarına boğulmak"
+   },
+   "ex": {
+    "en": "She burst into tears at the news."
+   }
+  },
+  {
+   "id": "emotions.emotional",
+   "t": {
+    "en": "emotional",
+    "uk": "емоційний",
+    "ru": "эмоциональный",
+    "pl": "emocjonalny",
+    "de": "emotional",
+    "fr": "émotif",
+    "es": "emocional",
+    "it": "emotivo",
+    "pt": "emocional",
+    "tr": "duygusal"
+   },
+   "ex": {
+    "en": "Weddings make me emotional."
+   }
+  },
+  {
+   "id": "emotions.mood-swings",
+   "t": {
+    "en": "mood swings",
+    "uk": "перепади настрою",
+    "ru": "перепады настроения",
+    "pl": "wahania nastroju",
+    "de": "Stimmungsschwankungen",
+    "fr": "sautes d'humeur",
+    "es": "cambios de humor",
+    "it": "sbalzi d'umore",
+    "pt": "mudanças de humor",
+    "tr": "ruh hali değişimi"
+   },
+   "ex": {
+    "en": "Stress can cause mood swings."
+   }
+  },
+  {
+   "id": "emotions.peaceful",
+   "t": {
+    "en": "peaceful",
+    "uk": "умиротворений",
+    "ru": "умиротворённый",
+    "pl": "spokojny",
+    "de": "friedlich",
+    "fr": "paisible",
+    "es": "tranquilo",
+    "it": "sereno",
+    "pt": "tranquilo",
+    "tr": "huzurlu"
+   },
+   "ex": {
+    "en": "I feel peaceful by the sea."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "shopping-a1",
  "topic": "shopping",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "shopping.bank-card",
@@ -542,6 +542,348 @@
    },
    "ex": {
     "en": "The bakery opens at seven."
+   }
+  },
+  {
+   "id": "shopping.suit",
+   "t": {
+    "en": "suit",
+    "uk": "костюм",
+    "ru": "костюм",
+    "pl": "garnitur",
+    "de": "Anzug",
+    "fr": "costume",
+    "es": "traje",
+    "it": "completo",
+    "pt": "terno",
+    "tr": "takım elbise"
+   },
+   "ex": {
+    "en": "He bought a new suit for work."
+   }
+  },
+  {
+   "id": "shopping.bookshop",
+   "t": {
+    "en": "bookshop",
+    "uk": "книгарня",
+    "ru": "книжный магазин",
+    "pl": "księgarnia",
+    "de": "Buchhandlung",
+    "fr": "librairie",
+    "es": "librería",
+    "it": "libreria",
+    "pt": "livraria",
+    "tr": "kitapçı"
+   },
+   "ex": {
+    "en": "The bookshop is next to the bank."
+   }
+  },
+  {
+   "id": "shopping.shoe-shop",
+   "t": {
+    "en": "shoe shop",
+    "uk": "взуттєвий магазин",
+    "ru": "обувной магазин",
+    "pl": "sklep obuwniczy",
+    "de": "Schuhgeschäft",
+    "fr": "magasin de chaussures",
+    "es": "zapatería",
+    "it": "negozio di scarpe",
+    "pt": "sapataria",
+    "tr": "ayakkabı mağazası"
+   },
+   "ex": {
+    "en": "Is there a shoe shop near here?"
+   }
+  },
+  {
+   "id": "shopping.clothes-shop",
+   "t": {
+    "en": "clothes shop",
+    "uk": "магазин одягу",
+    "ru": "магазин одежды",
+    "pl": "sklep odzieżowy",
+    "de": "Bekleidungsgeschäft",
+    "fr": "magasin de vêtements",
+    "es": "tienda de ropa",
+    "it": "negozio di abbigliamento",
+    "pt": "loja de roupas",
+    "tr": "giyim mağazası"
+   },
+   "ex": {
+    "en": "She works in a clothes shop."
+   }
+  },
+  {
+   "id": "shopping.gloves",
+   "t": {
+    "en": "gloves",
+    "uk": "рукавички",
+    "ru": "перчатки",
+    "pl": "rękawiczki",
+    "de": "Handschuhe",
+    "fr": "gants",
+    "es": "guantes",
+    "it": "guanti",
+    "pt": "luvas",
+    "tr": "eldiven"
+   },
+   "ex": {
+    "en": "I need warm gloves for winter."
+   }
+  },
+  {
+   "id": "shopping.scarf",
+   "t": {
+    "en": "scarf",
+    "uk": "шарф",
+    "ru": "шарф",
+    "pl": "szalik",
+    "de": "Schal",
+    "fr": "écharpe",
+    "es": "bufanda",
+    "it": "sciarpa",
+    "pt": "cachecol",
+    "tr": "atkı"
+   },
+   "ex": {
+    "en": "This red scarf is very soft."
+   }
+  },
+  {
+   "id": "shopping.belt",
+   "t": {
+    "en": "belt",
+    "uk": "ремінь",
+    "ru": "ремень",
+    "pl": "pasek",
+    "de": "Gürtel",
+    "fr": "ceinture",
+    "es": "cinturón",
+    "it": "cintura",
+    "pt": "cinto",
+    "tr": "kemer"
+   },
+   "ex": {
+    "en": "I need a black belt."
+   }
+  },
+  {
+   "id": "shopping.boots",
+   "t": {
+    "en": "boots",
+    "uk": "чоботи",
+    "ru": "сапоги",
+    "pl": "kozaki",
+    "de": "Stiefel",
+    "fr": "bottes",
+    "es": "botas",
+    "it": "stivali",
+    "pt": "botas",
+    "tr": "çizme"
+   },
+   "ex": {
+    "en": "These boots are too big."
+   }
+  },
+  {
+   "id": "shopping.shorts",
+   "t": {
+    "en": "shorts",
+    "uk": "шорти",
+    "ru": "шорты",
+    "pl": "szorty",
+    "de": "Shorts",
+    "fr": "short",
+    "es": "pantalones cortos",
+    "it": "pantaloncini",
+    "pt": "short",
+    "tr": "şort"
+   },
+   "ex": {
+    "en": "I want blue shorts for the summer."
+   }
+  },
+  {
+   "id": "shopping.blouse",
+   "t": {
+    "en": "blouse",
+    "uk": "блузка",
+    "ru": "блузка",
+    "pl": "bluzka",
+    "de": "Bluse",
+    "fr": "chemisier",
+    "es": "blusa",
+    "it": "camicetta",
+    "pt": "blusa",
+    "tr": "bluz"
+   },
+   "ex": {
+    "en": "She bought a white blouse."
+   }
+  },
+  {
+   "id": "shopping.tie",
+   "t": {
+    "en": "tie",
+    "uk": "краватка",
+    "ru": "галстук",
+    "pl": "krawat",
+    "de": "Krawatte",
+    "fr": "cravate",
+    "es": "corbata",
+    "it": "cravatta",
+    "pt": "gravata",
+    "tr": "kravat"
+   },
+   "ex": {
+    "en": "This tie goes well with your shirt."
+   }
+  },
+  {
+   "id": "shopping.to-look-for",
+   "t": {
+    "en": "to look for",
+    "uk": "шукати",
+    "ru": "искать",
+    "pl": "szukać",
+    "de": "suchen",
+    "fr": "chercher",
+    "es": "buscar",
+    "it": "cercare",
+    "pt": "procurar",
+    "tr": "aramak"
+   },
+   "ex": {
+    "en": "I'm looking for a green dress."
+   }
+  },
+  {
+   "id": "shopping.grocery-store",
+   "t": {
+    "en": "grocery store",
+    "uk": "продуктовий магазин",
+    "ru": "продуктовый магазин",
+    "pl": "sklep spożywczy",
+    "de": "Lebensmittelgeschäft",
+    "fr": "épicerie",
+    "es": "tienda de alimentación",
+    "it": "negozio di alimentari",
+    "pt": "mercearia",
+    "tr": "bakkal"
+   },
+   "ex": {
+    "en": "I buy milk at the grocery store."
+   }
+  },
+  {
+   "id": "shopping.pyjamas",
+   "t": {
+    "en": "pyjamas",
+    "uk": "піжама",
+    "ru": "пижама",
+    "pl": "piżama",
+    "de": "Schlafanzug",
+    "fr": "pyjama",
+    "es": "pijama",
+    "it": "pigiama",
+    "pt": "pijama",
+    "tr": "pijama"
+   },
+   "ex": {
+    "en": "These pyjamas are on sale."
+   }
+  },
+  {
+   "id": "shopping.kiosk",
+   "t": {
+    "en": "kiosk",
+    "uk": "кіоск",
+    "ru": "киоск",
+    "pl": "kiosk",
+    "de": "Kiosk",
+    "fr": "kiosque",
+    "es": "quiosco",
+    "it": "edicola",
+    "pt": "quiosque",
+    "tr": "büfe"
+   },
+   "ex": {
+    "en": "I bought water at the kiosk."
+   }
+  },
+  {
+   "id": "shopping.flower-shop",
+   "t": {
+    "en": "flower shop",
+    "uk": "квітковий магазин",
+    "ru": "цветочный магазин",
+    "pl": "kwiaciarnia",
+    "de": "Blumenladen",
+    "fr": "fleuriste",
+    "es": "floristería",
+    "it": "fioraio",
+    "pt": "floricultura",
+    "tr": "çiçekçi"
+   },
+   "ex": {
+    "en": "The flower shop opens at nine."
+   }
+  },
+  {
+   "id": "shopping.toy-shop",
+   "t": {
+    "en": "toy shop",
+    "uk": "магазин іграшок",
+    "ru": "магазин игрушек",
+    "pl": "sklep z zabawkami",
+    "de": "Spielwarengeschäft",
+    "fr": "magasin de jouets",
+    "es": "juguetería",
+    "it": "negozio di giocattoli",
+    "pt": "loja de brinquedos",
+    "tr": "oyuncakçı"
+   },
+   "ex": {
+    "en": "The children love the toy shop."
+   }
+  },
+  {
+   "id": "shopping.sandals",
+   "t": {
+    "en": "sandals",
+    "uk": "сандалі",
+    "ru": "сандалии",
+    "pl": "sandały",
+    "de": "Sandalen",
+    "fr": "sandales",
+    "es": "sandalias",
+    "it": "sandali",
+    "pt": "sandálias",
+    "tr": "sandalet"
+   },
+   "ex": {
+    "en": "I need new sandals for the beach."
+   }
+  },
+  {
+   "id": "shopping.a-pair-of-shoes",
+   "t": {
+    "en": "a pair of shoes",
+    "uk": "пара взуття",
+    "ru": "пара обуви",
+    "pl": "para butów",
+    "de": "ein Paar Schuhe",
+    "fr": "une paire de chaussures",
+    "es": "un par de zapatos",
+    "it": "un paio di scarpe",
+    "pt": "um par de sapatos",
+    "tr": "bir çift ayakkabı"
+   },
+   "ex": {
+    "en": "I bought a pair of shoes today."
    }
   }
  ]

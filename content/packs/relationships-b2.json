@@ -2,7 +2,7 @@
  "id": "relationships-b2",
  "topic": "relationships",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "relationships.to-take-someone-for-granted",
@@ -470,6 +470,420 @@
    },
    "ex": {
     "en": "His jealousy was a red flag."
+   }
+  },
+  {
+   "id": "relationships.intimacy",
+   "t": {
+    "en": "intimacy",
+    "uk": "інтимність",
+    "ru": "интимность",
+    "pl": "intymność",
+    "de": "Intimität",
+    "fr": "intimité",
+    "es": "intimidad",
+    "it": "intimità",
+    "pt": "intimidade",
+    "tr": "samimiyet"
+   },
+   "ex": {
+    "en": "Intimacy takes time to build."
+   }
+  },
+  {
+   "id": "relationships.passion",
+   "t": {
+    "en": "passion",
+    "uk": "пристрасть",
+    "ru": "страсть",
+    "pl": "namiętność",
+    "de": "Leidenschaft",
+    "fr": "passion",
+    "es": "pasión",
+    "it": "passione",
+    "pt": "paixão",
+    "tr": "tutku"
+   },
+   "ex": {
+    "en": "The passion faded after a few years."
+   }
+  },
+  {
+   "id": "relationships.envy",
+   "t": {
+    "en": "envy",
+    "uk": "заздрість",
+    "ru": "зависть",
+    "pl": "zawiść",
+    "de": "Neid",
+    "fr": "envie",
+    "es": "envidia",
+    "it": "invidia",
+    "pt": "inveja",
+    "tr": "haset"
+   },
+   "ex": {
+    "en": "Envy can poison a friendship."
+   }
+  },
+  {
+   "id": "relationships.to-adore",
+   "t": {
+    "en": "to adore",
+    "uk": "обожнювати",
+    "ru": "обожать",
+    "pl": "uwielbiać",
+    "de": "vergöttern",
+    "fr": "adorer",
+    "es": "adorar",
+    "it": "adorare",
+    "pt": "adorar",
+    "tr": "tapmak"
+   },
+   "ex": {
+    "en": "He absolutely adores his wife."
+   }
+  },
+  {
+   "id": "relationships.to-cherish",
+   "t": {
+    "en": "to cherish",
+    "uk": "дорожити",
+    "ru": "дорожить",
+    "pl": "cenić sobie",
+    "de": "wertschätzen",
+    "fr": "chérir",
+    "es": "atesorar",
+    "it": "avere a cuore",
+    "pt": "estimar",
+    "tr": "değer vermek"
+   },
+   "ex": {
+    "en": "I cherish every moment with you."
+   }
+  },
+  {
+   "id": "relationships.compatible",
+   "t": {
+    "en": "compatible",
+    "uk": "сумісний",
+    "ru": "совместимый",
+    "pl": "pasujący do siebie",
+    "de": "kompatibel",
+    "fr": "compatible",
+    "es": "compatible",
+    "it": "compatibile",
+    "pt": "compatível",
+    "tr": "uyumlu"
+   },
+   "ex": {
+    "en": "We're just not compatible."
+   }
+  },
+  {
+   "id": "relationships.toxic",
+   "t": {
+    "en": "toxic",
+    "uk": "токсичний",
+    "ru": "токсичный",
+    "pl": "toksyczny",
+    "de": "toxisch",
+    "fr": "toxique",
+    "es": "tóxico",
+    "it": "tossico",
+    "pt": "tóxico",
+    "tr": "toksik"
+   },
+   "ex": {
+    "en": "She finally left a toxic relationship."
+   }
+  },
+  {
+   "id": "relationships.manipulative",
+   "t": {
+    "en": "manipulative",
+    "uk": "маніпулятивний",
+    "ru": "манипулятивный",
+    "pl": "manipulacyjny",
+    "de": "manipulativ",
+    "fr": "manipulateur",
+    "es": "manipulador",
+    "it": "manipolatore",
+    "pt": "manipulador",
+    "tr": "manipülatif"
+   },
+   "ex": {
+    "en": "Her ex was very manipulative."
+   }
+  },
+  {
+   "id": "relationships.love-language",
+   "t": {
+    "en": "love language",
+    "uk": "мова любові",
+    "ru": "язык любви",
+    "pl": "język miłości",
+    "de": "Liebessprache",
+    "fr": "langage de l'amour",
+    "es": "lenguaje del amor",
+    "it": "linguaggio dell'amore",
+    "pt": "linguagem do amor",
+    "tr": "sevgi dili"
+   },
+   "ex": {
+    "en": "His love language is quality time."
+   }
+  },
+  {
+   "id": "relationships.to-reassure",
+   "t": {
+    "en": "to reassure",
+    "uk": "заспокоїти",
+    "ru": "успокоить",
+    "pl": "uspokoić",
+    "de": "beruhigen",
+    "fr": "rassurer",
+    "es": "tranquilizar",
+    "it": "rassicurare",
+    "pt": "tranquilizar",
+    "tr": "içini rahatlatmak"
+   },
+   "ex": {
+    "en": "He reassured her that he loved her."
+   }
+  },
+  {
+   "id": "relationships.flirtatious",
+   "t": {
+    "en": "flirtatious",
+    "uk": "кокетливий",
+    "ru": "кокетливый",
+    "pl": "zalotny",
+    "de": "kokett",
+    "fr": "charmeur",
+    "es": "coqueto",
+    "it": "civettuolo",
+    "pt": "namorador",
+    "tr": "flörtöz"
+   },
+   "ex": {
+    "en": "She gave him a flirtatious smile."
+   }
+  },
+  {
+   "id": "relationships.infidelity",
+   "t": {
+    "en": "infidelity",
+    "uk": "невірність",
+    "ru": "неверность",
+    "pl": "niewierność",
+    "de": "Untreue",
+    "fr": "infidélité",
+    "es": "infidelidad",
+    "it": "infedeltà",
+    "pt": "infidelidade",
+    "tr": "sadakatsizlik"
+   },
+   "ex": {
+    "en": "Infidelity destroyed their marriage."
+   }
+  },
+  {
+   "id": "relationships.affair",
+   "t": {
+    "en": "affair",
+    "uk": "роман на стороні",
+    "ru": "роман на стороне",
+    "pl": "romans",
+    "de": "Affäre",
+    "fr": "liaison",
+    "es": "aventura",
+    "it": "tresca",
+    "pt": "caso",
+    "tr": "yasak aşk"
+   },
+   "ex": {
+    "en": "He had an affair with a colleague."
+   }
+  },
+  {
+   "id": "relationships.mutual-respect",
+   "t": {
+    "en": "mutual respect",
+    "uk": "взаємна повага",
+    "ru": "взаимное уважение",
+    "pl": "wzajemny szacunek",
+    "de": "gegenseitiger Respekt",
+    "fr": "respect mutuel",
+    "es": "respeto mutuo",
+    "it": "rispetto reciproco",
+    "pt": "respeito mútuo",
+    "tr": "karşılıklı saygı"
+   },
+   "ex": {
+    "en": "Their marriage is built on mutual respect."
+   }
+  },
+  {
+   "id": "relationships.to-come-clean",
+   "t": {
+    "en": "to come clean",
+    "uk": "зізнатися",
+    "ru": "признаться",
+    "pl": "przyznać się",
+    "de": "auspacken",
+    "fr": "tout avouer",
+    "es": "sincerarse",
+    "it": "vuotare il sacco",
+    "pt": "abrir o jogo",
+    "tr": "itiraf etmek"
+   },
+   "ex": {
+    "en": "He finally came clean about his past."
+   }
+  },
+  {
+   "id": "relationships.on-the-rocks",
+   "t": {
+    "en": "on the rocks",
+    "uk": "на межі розриву",
+    "ru": "на грани разрыва",
+    "pl": "w kryzysie",
+    "de": "in der Krise",
+    "fr": "en crise",
+    "es": "en crisis",
+    "it": "in crisi",
+    "pt": "em crise",
+    "tr": "kriz içinde"
+   },
+   "ex": {
+    "en": "Their marriage is on the rocks."
+   }
+  },
+  {
+   "id": "relationships.significant-other",
+   "t": {
+    "en": "significant other",
+    "uk": "друга половинка",
+    "ru": "вторая половинка",
+    "pl": "druga połówka",
+    "de": "bessere Hälfte",
+    "fr": "moitié",
+    "es": "media naranja",
+    "it": "dolce metà",
+    "pt": "cara-metade",
+    "tr": "hayat arkadaşı"
+   },
+   "ex": {
+    "en": "Feel free to bring your significant other."
+   }
+  },
+  {
+   "id": "relationships.pet-name",
+   "t": {
+    "en": "pet name",
+    "uk": "пестливе прізвисько",
+    "ru": "ласковое прозвище",
+    "pl": "pieszczotliwe przezwisko",
+    "de": "Kosename",
+    "fr": "petit nom",
+    "es": "apodo cariñoso",
+    "it": "nomignolo",
+    "pt": "apelido carinhoso",
+    "tr": "tatlı lakap"
+   },
+   "ex": {
+    "en": "\"Bunny\" is her pet name for him."
+   }
+  },
+  {
+   "id": "relationships.to-make-a-move",
+   "t": {
+    "en": "to make a move",
+    "uk": "зробити перший крок",
+    "ru": "сделать первый шаг",
+    "pl": "zrobić pierwszy krok",
+    "de": "den ersten Schritt machen",
+    "fr": "faire le premier pas",
+    "es": "dar el primer paso",
+    "it": "fare la prima mossa",
+    "pt": "dar o primeiro passo",
+    "tr": "ilk adımı atmak"
+   },
+   "ex": {
+    "en": "He was too shy to make a move."
+   }
+  },
+  {
+   "id": "relationships.trust-issues",
+   "t": {
+    "en": "trust issues",
+    "uk": "проблеми з довірою",
+    "ru": "проблемы с доверием",
+    "pl": "problemy z zaufaniem",
+    "de": "Vertrauensprobleme",
+    "fr": "problèmes de confiance",
+    "es": "problemas de confianza",
+    "it": "problemi di fiducia",
+    "pt": "problemas de confiança",
+    "tr": "güven sorunları"
+   },
+   "ex": {
+    "en": "After the divorce, she had trust issues."
+   }
+  },
+  {
+   "id": "relationships.controlling",
+   "t": {
+    "en": "controlling",
+    "uk": "контролюючий",
+    "ru": "контролирующий",
+    "pl": "kontrolujący",
+    "de": "kontrollsüchtig",
+    "fr": "autoritaire",
+    "es": "controlador",
+    "it": "controllante",
+    "pt": "controlador",
+    "tr": "kontrolcü"
+   },
+   "ex": {
+    "en": "Her boyfriend is very controlling."
+   }
+  },
+  {
+   "id": "relationships.emotional-support",
+   "t": {
+    "en": "emotional support",
+    "uk": "емоційна підтримка",
+    "ru": "эмоциональная поддержка",
+    "pl": "wsparcie emocjonalne",
+    "de": "emotionale Unterstützung",
+    "fr": "soutien émotionnel",
+    "es": "apoyo emocional",
+    "it": "supporto emotivo",
+    "pt": "apoio emocional",
+    "tr": "duygusal destek"
+   },
+   "ex": {
+    "en": "Partners should give emotional support."
+   }
+  },
+  {
+   "id": "relationships.to-grow-closer",
+   "t": {
+    "en": "to grow closer",
+    "uk": "зблизитися",
+    "ru": "сблизиться",
+    "pl": "zbliżyć się",
+    "de": "sich näherkommen",
+    "fr": "se rapprocher",
+    "es": "unirse más",
+    "it": "avvicinarsi",
+    "pt": "aproximar-se",
+    "tr": "yakınlaşmak"
+   },
+   "ex": {
+    "en": "We grew closer during the trip."
    }
   }
  ]

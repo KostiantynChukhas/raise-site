@@ -2,7 +2,7 @@
  "id": "work-a1",
  "topic": "work",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "work.phone-call",
@@ -542,6 +542,312 @@
    },
    "ex": {
     "en": "The cleaner comes every morning."
+   }
+  },
+  {
+   "id": "work.pilot",
+   "t": {
+    "en": "pilot",
+    "uk": "пілот",
+    "ru": "пилот",
+    "pl": "pilot",
+    "de": "Pilot",
+    "fr": "pilote",
+    "es": "piloto",
+    "it": "pilota",
+    "pt": "piloto",
+    "tr": "pilot"
+   },
+   "ex": {
+    "en": "The pilot flies the plane."
+   }
+  },
+  {
+   "id": "work.baker",
+   "t": {
+    "en": "baker",
+    "uk": "пекар",
+    "ru": "пекарь",
+    "pl": "piekarz",
+    "de": "Bäcker",
+    "fr": "boulanger",
+    "es": "panadero",
+    "it": "fornaio",
+    "pt": "padeiro",
+    "tr": "fırıncı"
+   },
+   "ex": {
+    "en": "The baker starts work at four."
+   }
+  },
+  {
+   "id": "work.builder",
+   "t": {
+    "en": "builder",
+    "uk": "будівельник",
+    "ru": "строитель",
+    "pl": "budowlaniec",
+    "de": "Bauarbeiter",
+    "fr": "maçon",
+    "es": "albañil",
+    "it": "muratore",
+    "pt": "pedreiro",
+    "tr": "inşaat işçisi"
+   },
+   "ex": {
+    "en": "The builder is fixing our roof."
+   }
+  },
+  {
+   "id": "work.hairdresser",
+   "t": {
+    "en": "hairdresser",
+    "uk": "перукар",
+    "ru": "парикмахер",
+    "pl": "fryzjer",
+    "de": "Friseur",
+    "fr": "coiffeur",
+    "es": "peluquero",
+    "it": "parrucchiere",
+    "pt": "cabeleireiro",
+    "tr": "kuaför"
+   },
+   "ex": {
+    "en": "My sister is a hairdresser."
+   }
+  },
+  {
+   "id": "work.postman",
+   "t": {
+    "en": "postman",
+    "uk": "листоноша",
+    "ru": "почтальон",
+    "pl": "listonosz",
+    "de": "Briefträger",
+    "fr": "facteur",
+    "es": "cartero",
+    "it": "postino",
+    "pt": "carteiro",
+    "tr": "postacı"
+   },
+   "ex": {
+    "en": "The postman comes every morning."
+   }
+  },
+  {
+   "id": "work.taxi-driver",
+   "t": {
+    "en": "taxi driver",
+    "uk": "таксист",
+    "ru": "таксист",
+    "pl": "taksówkarz",
+    "de": "Taxifahrer",
+    "fr": "chauffeur de taxi",
+    "es": "taxista",
+    "it": "tassista",
+    "pt": "taxista",
+    "tr": "taksi şoförü"
+   },
+   "ex": {
+    "en": "The taxi driver knows the city well."
+   }
+  },
+  {
+   "id": "work.office-worker",
+   "t": {
+    "en": "office worker",
+    "uk": "офісний працівник",
+    "ru": "офисный работник",
+    "pl": "pracownik biurowy",
+    "de": "Büroangestellter",
+    "fr": "employé de bureau",
+    "es": "oficinista",
+    "it": "impiegato",
+    "pt": "funcionário de escritório",
+    "tr": "ofis çalışanı"
+   },
+   "ex": {
+    "en": "My brother is an office worker."
+   }
+  },
+  {
+   "id": "work.at-work",
+   "t": {
+    "en": "at work",
+    "uk": "на роботі",
+    "ru": "на работе",
+    "pl": "w pracy",
+    "de": "bei der Arbeit",
+    "fr": "au travail",
+    "es": "en el trabajo",
+    "it": "al lavoro",
+    "pt": "no trabalho",
+    "tr": "işte"
+   },
+   "ex": {
+    "en": "I'm at work until five."
+   }
+  },
+  {
+   "id": "work.morning-shift",
+   "t": {
+    "en": "morning shift",
+    "uk": "ранкова зміна",
+    "ru": "утренняя смена",
+    "pl": "poranna zmiana",
+    "de": "Frühschicht",
+    "fr": "équipe du matin",
+    "es": "turno de mañana",
+    "it": "turno di mattina",
+    "pt": "turno da manhã",
+    "tr": "sabah vardiyası"
+   },
+   "ex": {
+    "en": "I work the morning shift today."
+   }
+  },
+  {
+   "id": "work.apron",
+   "t": {
+    "en": "apron",
+    "uk": "фартух",
+    "ru": "фартук",
+    "pl": "fartuch",
+    "de": "Schürze",
+    "fr": "tablier",
+    "es": "delantal",
+    "it": "grembiule",
+    "pt": "avental",
+    "tr": "önlük"
+   },
+   "ex": {
+    "en": "The baker wears a white apron."
+   }
+  },
+  {
+   "id": "work.office-chair",
+   "t": {
+    "en": "office chair",
+    "uk": "офісне крісло",
+    "ru": "офисное кресло",
+    "pl": "krzesło biurowe",
+    "de": "Bürostuhl",
+    "fr": "chaise de bureau",
+    "es": "silla de oficina",
+    "it": "sedia da ufficio",
+    "pt": "cadeira de escritório",
+    "tr": "ofis koltuğu"
+   },
+   "ex": {
+    "en": "I need a new office chair."
+   }
+  },
+  {
+   "id": "work.stapler",
+   "t": {
+    "en": "stapler",
+    "uk": "степлер",
+    "ru": "степлер",
+    "pl": "zszywacz",
+    "de": "Hefter",
+    "fr": "agrafeuse",
+    "es": "grapadora",
+    "it": "spillatrice",
+    "pt": "grampeador",
+    "tr": "zımba"
+   },
+   "ex": {
+    "en": "Can I borrow your stapler?"
+   }
+  },
+  {
+   "id": "work.engineer",
+   "t": {
+    "en": "engineer",
+    "uk": "інженер",
+    "ru": "инженер",
+    "pl": "inżynier",
+    "de": "Ingenieur",
+    "fr": "ingénieur",
+    "es": "ingeniero",
+    "it": "ingegnere",
+    "pt": "engenheiro",
+    "tr": "mühendis"
+   },
+   "ex": {
+    "en": "My father is an engineer."
+   }
+  },
+  {
+   "id": "work.vet",
+   "t": {
+    "en": "vet",
+    "uk": "ветеринар",
+    "ru": "ветеринар",
+    "pl": "weterynarz",
+    "de": "Tierarzt",
+    "fr": "vétérinaire",
+    "es": "veterinario",
+    "it": "veterinario",
+    "pt": "veterinário",
+    "tr": "veteriner"
+   },
+   "ex": {
+    "en": "The vet looks after sick animals."
+   }
+  },
+  {
+   "id": "work.gardener",
+   "t": {
+    "en": "gardener",
+    "uk": "садівник",
+    "ru": "садовник",
+    "pl": "ogrodnik",
+    "de": "Gärtner",
+    "fr": "jardinier",
+    "es": "jardinero",
+    "it": "giardiniere",
+    "pt": "jardineiro",
+    "tr": "bahçıvan"
+   },
+   "ex": {
+    "en": "The gardener works in the park."
+   }
+  },
+  {
+   "id": "work.soldier",
+   "t": {
+    "en": "soldier",
+    "uk": "солдат",
+    "ru": "солдат",
+    "pl": "żołnierz",
+    "de": "Soldat",
+    "fr": "soldat",
+    "es": "soldado",
+    "it": "soldato",
+    "pt": "soldado",
+    "tr": "asker"
+   },
+   "ex": {
+    "en": "Her son is a soldier."
+   }
+  },
+  {
+   "id": "work.job-center",
+   "t": {
+    "en": "job center",
+    "uk": "центр зайнятості",
+    "ru": "центр занятости",
+    "pl": "urząd pracy",
+    "de": "Jobcenter",
+    "fr": "agence pour l'emploi",
+    "es": "oficina de empleo",
+    "it": "centro per l'impiego",
+    "pt": "agência de empregos",
+    "tr": "iş kurumu"
+   },
+   "ex": {
+    "en": "He went to the job center for help."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "phrases-a2",
  "topic": "phrases",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "phrases.no-problem",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "This word is new, what does it mean?"
+   }
+  },
+  {
+   "id": "phrases.see-you-next-week",
+   "t": {
+    "en": "see you next week",
+    "uk": "до наступного тижня",
+    "ru": "до следующей недели",
+    "pl": "do zobaczenia za tydzień",
+    "de": "bis nächste Woche",
+    "fr": "à la semaine prochaine",
+    "es": "hasta la semana que viene",
+    "it": "alla prossima settimana",
+    "pt": "até a próxima semana",
+    "tr": "haftaya görüşürüz"
+   },
+   "ex": {
+    "en": "Have a nice weekend, see you next week!"
+   }
+  },
+  {
+   "id": "phrases.i-m-not-sure",
+   "t": {
+    "en": "I'm not sure",
+    "uk": "я не впевнений",
+    "ru": "я не уверен",
+    "pl": "nie jestem pewien",
+    "de": "ich bin nicht sicher",
+    "fr": "je ne suis pas sûr",
+    "es": "no estoy seguro",
+    "it": "non sono sicuro",
+    "pt": "não tenho certeza",
+    "tr": "emin değilim"
+   },
+   "ex": {
+    "en": "I'm not sure what time it starts."
+   }
+  },
+  {
+   "id": "phrases.i-don-t-think-so",
+   "t": {
+    "en": "I don't think so",
+    "uk": "не думаю",
+    "ru": "не думаю",
+    "pl": "nie sądzę",
+    "de": "ich glaube nicht",
+    "fr": "je ne crois pas",
+    "es": "no creo",
+    "it": "non credo",
+    "pt": "acho que não",
+    "tr": "sanmıyorum"
+   },
+   "ex": {
+    "en": "Will it rain? I don't think so."
+   }
+  },
+  {
+   "id": "phrases.it-doesn-t-matter",
+   "t": {
+    "en": "it doesn't matter",
+    "uk": "неважливо",
+    "ru": "неважно",
+    "pl": "nieważne",
+    "de": "das macht nichts",
+    "fr": "ça ne fait rien",
+    "es": "no importa",
+    "it": "non importa",
+    "pt": "não importa",
+    "tr": "önemli değil"
+   },
+   "ex": {
+    "en": "You're late, but it doesn't matter."
+   }
+  },
+  {
+   "id": "phrases.what-s-wrong",
+   "t": {
+    "en": "what's wrong?",
+    "uk": "що не так?",
+    "ru": "что не так?",
+    "pl": "co jest nie tak?",
+    "de": "was ist los?",
+    "fr": "qu'est-ce qui ne va pas ?",
+    "es": "¿qué te pasa?",
+    "it": "che cosa c'è?",
+    "pt": "o que houve?",
+    "tr": "sorun ne?"
+   },
+   "ex": {
+    "en": "You look sad. What's wrong?"
+   }
+  },
+  {
+   "id": "phrases.what-s-new",
+   "t": {
+    "en": "what's new?",
+    "uk": "що нового?",
+    "ru": "что нового?",
+    "pl": "co nowego?",
+    "de": "was gibt's Neues?",
+    "fr": "quoi de neuf ?",
+    "es": "¿qué hay de nuevo?",
+    "it": "che c'è di nuovo?",
+    "pt": "quais as novidades?",
+    "tr": "ne var ne yok?"
+   },
+   "ex": {
+    "en": "Hi Tom, what's new?"
+   }
+  },
+  {
+   "id": "phrases.be-careful",
+   "t": {
+    "en": "be careful",
+    "uk": "будь обережний",
+    "ru": "будь осторожен",
+    "pl": "uważaj",
+    "de": "pass auf",
+    "fr": "fais attention",
+    "es": "ten cuidado",
+    "it": "stai attento",
+    "pt": "tome cuidado",
+    "tr": "dikkat et"
+   },
+   "ex": {
+    "en": "Be careful, the floor is wet."
+   }
+  },
+  {
+   "id": "phrases.have-fun",
+   "t": {
+    "en": "have fun",
+    "uk": "розважайся",
+    "ru": "повеселись",
+    "pl": "baw się dobrze",
+    "de": "viel Spaß",
+    "fr": "amuse-toi bien",
+    "es": "diviértete",
+    "it": "divertiti",
+    "pt": "divirta-se",
+    "tr": "iyi eğlenceler"
+   },
+   "ex": {
+    "en": "Have fun at the party!"
+   }
+  },
+  {
+   "id": "phrases.happy-new-year",
+   "t": {
+    "en": "happy new year",
+    "uk": "з Новим роком",
+    "ru": "с Новым годом",
+    "pl": "szczęśliwego Nowego Roku",
+    "de": "frohes neues Jahr",
+    "fr": "bonne année",
+    "es": "feliz año nuevo",
+    "it": "felice anno nuovo",
+    "pt": "feliz ano novo",
+    "tr": "mutlu yıllar"
+   },
+   "ex": {
+    "en": "Happy New Year to you and your family!"
+   }
+  },
+  {
+   "id": "phrases.merry-christmas",
+   "t": {
+    "en": "merry Christmas",
+    "uk": "веселого Різдва",
+    "ru": "с Рождеством",
+    "pl": "Wesołych Świąt",
+    "de": "frohe Weihnachten",
+    "fr": "joyeux Noël",
+    "es": "feliz Navidad",
+    "it": "buon Natale",
+    "pt": "feliz Natal",
+    "tr": "mutlu Noeller"
+   },
+   "ex": {
+    "en": "Merry Christmas, everyone!"
+   }
+  },
+  {
+   "id": "phrases.what-happened",
+   "t": {
+    "en": "what happened?",
+    "uk": "що сталося?",
+    "ru": "что случилось?",
+    "pl": "co się stało?",
+    "de": "was ist passiert?",
+    "fr": "que s'est-il passé ?",
+    "es": "¿qué pasó?",
+    "it": "cos'è successo?",
+    "pt": "o que aconteceu?",
+    "tr": "ne oldu?"
+   },
+   "ex": {
+    "en": "Your car is damaged. What happened?"
+   }
+  },
+  {
+   "id": "phrases.i-m-busy",
+   "t": {
+    "en": "I'm busy",
+    "uk": "я зайнятий",
+    "ru": "я занят",
+    "pl": "jestem zajęty",
+    "de": "ich bin beschäftigt",
+    "fr": "je suis occupé",
+    "es": "estoy ocupado",
+    "it": "sono occupato",
+    "pt": "estou ocupado",
+    "tr": "meşgulüm"
+   },
+   "ex": {
+    "en": "Sorry, I'm busy right now."
+   }
+  },
+  {
+   "id": "phrases.how-was-your-day",
+   "t": {
+    "en": "how was your day?",
+    "uk": "як пройшов день?",
+    "ru": "как прошёл день?",
+    "pl": "jak minął dzień?",
+    "de": "wie war dein Tag?",
+    "fr": "ta journée s'est bien passée ?",
+    "es": "¿qué tal tu día?",
+    "it": "com'è andata la giornata?",
+    "pt": "como foi o seu dia?",
+    "tr": "günün nasıldı?"
+   },
+   "ex": {
+    "en": "Hi, honey! How was your day?"
+   }
+  },
+  {
+   "id": "phrases.it-s-my-turn",
+   "t": {
+    "en": "it's my turn",
+    "uk": "моя черга",
+    "ru": "моя очередь",
+    "pl": "moja kolej",
+    "de": "ich bin dran",
+    "fr": "c'est mon tour",
+    "es": "me toca a mí",
+    "it": "tocca a me",
+    "pt": "é a minha vez",
+    "tr": "sıra bende"
+   },
+   "ex": {
+    "en": "Give me the dice, it's my turn."
+   }
+  },
+  {
+   "id": "phrases.i-m-on-my-way",
+   "t": {
+    "en": "I'm on my way",
+    "uk": "я вже в дорозі",
+    "ru": "я уже в пути",
+    "pl": "jestem w drodze",
+    "de": "ich bin unterwegs",
+    "fr": "je suis en route",
+    "es": "voy de camino",
+    "it": "sto arrivando",
+    "pt": "estou a caminho",
+    "tr": "yoldayım"
+   },
+   "ex": {
+    "en": "Wait for me, I'm on my way."
+   }
+  },
+  {
+   "id": "phrases.same-to-you",
+   "t": {
+    "en": "same to you",
+    "uk": "і тобі також",
+    "ru": "и тебе того же",
+    "pl": "nawzajem",
+    "de": "gleichfalls",
+    "fr": "pareillement",
+    "es": "igualmente",
+    "it": "altrettanto",
+    "pt": "igualmente",
+    "tr": "sana da"
+   },
+   "ex": {
+    "en": "Have a nice day! Same to you."
+   }
+  },
+  {
+   "id": "phrases.cheer-up",
+   "t": {
+    "en": "cheer up",
+    "uk": "не сумуй",
+    "ru": "не грусти",
+    "pl": "głowa do góry",
+    "de": "Kopf hoch",
+    "fr": "courage",
+    "es": "ánimo",
+    "it": "tirati su",
+    "pt": "anime-se",
+    "tr": "neşelen"
+   },
+   "ex": {
+    "en": "Cheer up, it's not so bad."
+   }
+  },
+  {
+   "id": "phrases.what-a-surprise",
+   "t": {
+    "en": "what a surprise!",
+    "uk": "який сюрприз!",
+    "ru": "какой сюрприз!",
+    "pl": "co za niespodzianka!",
+    "de": "was für eine Überraschung!",
+    "fr": "quelle surprise !",
+    "es": "¡qué sorpresa!",
+    "it": "che sorpresa!",
+    "pt": "que surpresa!",
+    "tr": "ne sürpriz!"
+   },
+   "ex": {
+    "en": "You're here? What a surprise!"
+   }
+  },
+  {
+   "id": "phrases.don-t-worry",
+   "t": {
+    "en": "don't worry",
+    "uk": "не хвилюйся",
+    "ru": "не волнуйся",
+    "pl": "nie martw się",
+    "de": "keine Sorge",
+    "fr": "ne t'inquiète pas",
+    "es": "no te preocupes",
+    "it": "non preoccuparti",
+    "pt": "não se preocupe",
+    "tr": "merak etme"
+   },
+   "ex": {
+    "en": "Don't worry, everything will be fine."
+   }
+  },
+  {
+   "id": "phrases.i-m-ready",
+   "t": {
+    "en": "I'm ready",
+    "uk": "я готовий",
+    "ru": "я готов",
+    "pl": "jestem gotowy",
+    "de": "ich bin bereit",
+    "fr": "je suis prêt",
+    "es": "estoy listo",
+    "it": "sono pronto",
+    "pt": "estou pronto",
+    "tr": "hazırım"
+   },
+   "ex": {
+    "en": "I'm ready, let's go."
+   }
+  },
+  {
+   "id": "phrases.sorry-i-m-late",
+   "t": {
+    "en": "sorry I'm late",
+    "uk": "вибач, що запізнився",
+    "ru": "извини, что опоздал",
+    "pl": "przepraszam za spóźnienie",
+    "de": "entschuldige die Verspätung",
+    "fr": "désolé du retard",
+    "es": "perdón por llegar tarde",
+    "it": "scusa il ritardo",
+    "pt": "desculpe o atraso",
+    "tr": "geç kaldığım için özür dilerim"
+   },
+   "ex": {
+    "en": "Sorry I'm late, the bus didn't come."
+   }
+  },
+  {
+   "id": "phrases.my-pleasure",
+   "t": {
+    "en": "my pleasure",
+    "uk": "з задоволенням",
+    "ru": "с удовольствием",
+    "pl": "cała przyjemność po mojej stronie",
+    "de": "gern geschehen",
+    "fr": "avec plaisir",
+    "es": "un placer",
+    "it": "è un piacere",
+    "pt": "o prazer é meu",
+    "tr": "rica ederim"
+   },
+   "ex": {
+    "en": "Thanks for your help! My pleasure."
    }
   }
  ]

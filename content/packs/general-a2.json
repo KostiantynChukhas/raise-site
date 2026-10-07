@@ -2,7 +2,7 @@
  "id": "general-a2",
  "topic": "general",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "general.to-wake-up",
@@ -488,6 +488,402 @@
    },
    "ex": {
     "en": "I need more time."
+   }
+  },
+  {
+   "id": "general.calendar",
+   "t": {
+    "en": "calendar",
+    "uk": "календар",
+    "ru": "календарь",
+    "pl": "kalendarz",
+    "de": "Kalender",
+    "fr": "calendrier",
+    "es": "calendario",
+    "it": "calendario",
+    "pt": "calendário",
+    "tr": "takvim"
+   },
+   "ex": {
+    "en": "Check the calendar for the date."
+   }
+  },
+  {
+   "id": "general.the-day-after-tomorrow",
+   "t": {
+    "en": "the day after tomorrow",
+    "uk": "післязавтра",
+    "ru": "послезавтра",
+    "pl": "pojutrze",
+    "de": "übermorgen",
+    "fr": "après-demain",
+    "es": "pasado mañana",
+    "it": "dopodomani",
+    "pt": "depois de amanhã",
+    "tr": "öbür gün"
+   },
+   "ex": {
+    "en": "We leave the day after tomorrow."
+   }
+  },
+  {
+   "id": "general.last-night",
+   "t": {
+    "en": "last night",
+    "uk": "минулої ночі",
+    "ru": "прошлой ночью",
+    "pl": "zeszłej nocy",
+    "de": "gestern Abend",
+    "fr": "hier soir",
+    "es": "anoche",
+    "it": "ieri sera",
+    "pt": "ontem à noite",
+    "tr": "dün gece"
+   },
+   "ex": {
+    "en": "I slept badly last night."
+   }
+  },
+  {
+   "id": "general.tonight",
+   "t": {
+    "en": "tonight",
+    "uk": "сьогодні ввечері",
+    "ru": "сегодня вечером",
+    "pl": "dziś wieczorem",
+    "de": "heute Abend",
+    "fr": "ce soir",
+    "es": "esta noche",
+    "it": "stasera",
+    "pt": "hoje à noite",
+    "tr": "bu gece"
+   },
+   "ex": {
+    "en": "Are you free tonight?"
+   }
+  },
+  {
+   "id": "general.to-forget",
+   "t": {
+    "en": "to forget",
+    "uk": "забувати",
+    "ru": "забывать",
+    "pl": "zapominać",
+    "de": "vergessen",
+    "fr": "oublier",
+    "es": "olvidar",
+    "it": "dimenticare",
+    "pt": "esquecer",
+    "tr": "unutmak"
+   },
+   "ex": {
+    "en": "Don't forget your keys."
+   }
+  },
+  {
+   "id": "general.to-continue",
+   "t": {
+    "en": "to continue",
+    "uk": "продовжувати",
+    "ru": "продолжать",
+    "pl": "kontynuować",
+    "de": "fortsetzen",
+    "fr": "continuer",
+    "es": "continuar",
+    "it": "continuare",
+    "pt": "continuar",
+    "tr": "devam etmek"
+   },
+   "ex": {
+    "en": "Let's continue tomorrow."
+   }
+  },
+  {
+   "id": "general.to-hurry",
+   "t": {
+    "en": "to hurry",
+    "uk": "поспішати",
+    "ru": "спешить",
+    "pl": "spieszyć się",
+    "de": "sich beeilen",
+    "fr": "se dépêcher",
+    "es": "darse prisa",
+    "it": "sbrigarsi",
+    "pt": "apressar-se",
+    "tr": "acele etmek"
+   },
+   "ex": {
+    "en": "We need to hurry."
+   }
+  },
+  {
+   "id": "general.rarely",
+   "t": {
+    "en": "rarely",
+    "uk": "рідко",
+    "ru": "редко",
+    "pl": "rzadko",
+    "de": "selten",
+    "fr": "rarement",
+    "es": "rara vez",
+    "it": "raramente",
+    "pt": "raramente",
+    "tr": "nadiren"
+   },
+   "ex": {
+    "en": "I rarely watch TV."
+   }
+  },
+  {
+   "id": "general.already",
+   "t": {
+    "en": "already",
+    "uk": "вже",
+    "ru": "уже",
+    "pl": "już",
+    "de": "schon",
+    "fr": "déjà",
+    "es": "ya",
+    "it": "già",
+    "pt": "já",
+    "tr": "zaten"
+   },
+   "ex": {
+    "en": "I have already eaten."
+   }
+  },
+  {
+   "id": "general.still",
+   "t": {
+    "en": "still",
+    "uk": "ще",
+    "ru": "всё ещё",
+    "pl": "wciąż",
+    "de": "noch",
+    "fr": "encore",
+    "es": "todavía",
+    "it": "ancora",
+    "pt": "ainda",
+    "tr": "hâlâ"
+   },
+   "ex": {
+    "en": "She is still asleep."
+   }
+  },
+  {
+   "id": "general.once",
+   "t": {
+    "en": "once",
+    "uk": "один раз",
+    "ru": "один раз",
+    "pl": "raz",
+    "de": "einmal",
+    "fr": "une fois",
+    "es": "una vez",
+    "it": "una volta",
+    "pt": "uma vez",
+    "tr": "bir kez"
+   },
+   "ex": {
+    "en": "I go to the gym once a week."
+   }
+  },
+  {
+   "id": "general.twice",
+   "t": {
+    "en": "twice",
+    "uk": "двічі",
+    "ru": "дважды",
+    "pl": "dwa razy",
+    "de": "zweimal",
+    "fr": "deux fois",
+    "es": "dos veces",
+    "it": "due volte",
+    "pt": "duas vezes",
+    "tr": "iki kez"
+   },
+   "ex": {
+    "en": "I call my mom twice a week."
+   }
+  },
+  {
+   "id": "general.alarm-clock",
+   "t": {
+    "en": "alarm clock",
+    "uk": "будильник",
+    "ru": "будильник",
+    "pl": "budzik",
+    "de": "Wecker",
+    "fr": "réveil",
+    "es": "despertador",
+    "it": "sveglia",
+    "pt": "despertador",
+    "tr": "çalar saat"
+   },
+   "ex": {
+    "en": "My alarm clock rings at seven."
+   }
+  },
+  {
+   "id": "general.to-set-an-alarm",
+   "t": {
+    "en": "to set an alarm",
+    "uk": "ставити будильник",
+    "ru": "ставить будильник",
+    "pl": "nastawiać budzik",
+    "de": "den Wecker stellen",
+    "fr": "mettre un réveil",
+    "es": "poner el despertador",
+    "it": "puntare la sveglia",
+    "pt": "colocar o despertador",
+    "tr": "alarm kurmak"
+   },
+   "ex": {
+    "en": "I set an alarm for six."
+   }
+  },
+  {
+   "id": "general.to-take-a-shower",
+   "t": {
+    "en": "to take a shower",
+    "uk": "приймати душ",
+    "ru": "принимать душ",
+    "pl": "brać prysznic",
+    "de": "duschen",
+    "fr": "prendre une douche",
+    "es": "ducharse",
+    "it": "fare la doccia",
+    "pt": "tomar banho",
+    "tr": "duş almak"
+   },
+   "ex": {
+    "en": "I take a shower every morning."
+   }
+  },
+  {
+   "id": "general.to-do-the-dishes",
+   "t": {
+    "en": "to do the dishes",
+    "uk": "мити посуд",
+    "ru": "мыть посуду",
+    "pl": "zmywać naczynia",
+    "de": "abwaschen",
+    "fr": "faire la vaisselle",
+    "es": "fregar los platos",
+    "it": "lavare i piatti",
+    "pt": "lavar a louça",
+    "tr": "bulaşık yıkamak"
+   },
+   "ex": {
+    "en": "It's your turn to do the dishes."
+   }
+  },
+  {
+   "id": "general.to-relax",
+   "t": {
+    "en": "to relax",
+    "uk": "розслаблятися",
+    "ru": "расслабляться",
+    "pl": "odpoczywać",
+    "de": "sich entspannen",
+    "fr": "se détendre",
+    "es": "relajarse",
+    "it": "rilassarsi",
+    "pt": "relaxar",
+    "tr": "rahatlamak"
+   },
+   "ex": {
+    "en": "I relax with a book in the evening."
+   }
+  },
+  {
+   "id": "general.weekday",
+   "t": {
+    "en": "weekday",
+    "uk": "будній день",
+    "ru": "будний день",
+    "pl": "dzień powszedni",
+    "de": "Wochentag",
+    "fr": "jour de semaine",
+    "es": "día laborable",
+    "it": "giorno feriale",
+    "pt": "dia útil",
+    "tr": "hafta içi"
+   },
+   "ex": {
+    "en": "The shop is open on weekdays."
+   }
+  },
+  {
+   "id": "general.plan",
+   "t": {
+    "en": "plan",
+    "uk": "план",
+    "ru": "план",
+    "pl": "plan",
+    "de": "Plan",
+    "fr": "plan",
+    "es": "plan",
+    "it": "piano",
+    "pt": "plano",
+    "tr": "plan"
+   },
+   "ex": {
+    "en": "What's the plan for today?"
+   }
+  },
+  {
+   "id": "general.to-be-ready",
+   "t": {
+    "en": "to be ready",
+    "uk": "бути готовим",
+    "ru": "быть готовым",
+    "pl": "być gotowym",
+    "de": "bereit sein",
+    "fr": "être prêt",
+    "es": "estar listo",
+    "it": "essere pronto",
+    "pt": "estar pronto",
+    "tr": "hazır olmak"
+   },
+   "ex": {
+    "en": "Are you ready to go?"
+   }
+  },
+  {
+   "id": "general.to-stay-up-late",
+   "t": {
+    "en": "to stay up late",
+    "uk": "лягати спати пізно",
+    "ru": "поздно ложиться спать",
+    "pl": "siedzieć do późna",
+    "de": "lange aufbleiben",
+    "fr": "se coucher tard",
+    "es": "trasnochar",
+    "it": "fare tardi",
+    "pt": "dormir tarde",
+    "tr": "geç saate kadar oturmak"
+   },
+   "ex": {
+    "en": "I stayed up late watching a film."
+   }
+  },
+  {
+   "id": "general.to-take-a-nap",
+   "t": {
+    "en": "to take a nap",
+    "uk": "подрімати",
+    "ru": "вздремнуть",
+    "pl": "zdrzemnąć się",
+    "de": "ein Nickerchen machen",
+    "fr": "faire une sieste",
+    "es": "echar una siesta",
+    "it": "fare un pisolino",
+    "pt": "tirar uma soneca",
+    "tr": "kestirmek"
+   },
+   "ex": {
+    "en": "I take a nap after lunch."
    }
   }
  ]

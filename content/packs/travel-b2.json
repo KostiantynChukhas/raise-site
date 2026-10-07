@@ -2,7 +2,7 @@
  "id": "travel-b2",
  "topic": "travel",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "travel.overbooking",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "I always try to travel light."
+   }
+  },
+  {
+   "id": "travel.stopover",
+   "t": {
+    "en": "stopover",
+    "uk": "зупинка в дорозі",
+    "ru": "промежуточная остановка",
+    "pl": "przystanek w podróży",
+    "de": "Zwischenstopp",
+    "fr": "escale",
+    "es": "escala",
+    "it": "scalo",
+    "pt": "escala",
+    "tr": "ara durak"
+   },
+   "ex": {
+    "en": "We had a two-day stopover in Dubai."
+   }
+  },
+  {
+   "id": "travel.red-eye-flight",
+   "t": {
+    "en": "red-eye flight",
+    "uk": "нічний рейс",
+    "ru": "ночной рейс",
+    "pl": "nocny lot",
+    "de": "Nachtflug",
+    "fr": "vol de nuit",
+    "es": "vuelo nocturno",
+    "it": "volo notturno",
+    "pt": "voo noturno",
+    "tr": "gece uçuşu"
+   },
+   "ex": {
+    "en": "I took the red-eye flight to New York."
+   }
+  },
+  {
+   "id": "travel.cancellation-fee",
+   "t": {
+    "en": "cancellation fee",
+    "uk": "плата за скасування",
+    "ru": "плата за отмену",
+    "pl": "opłata za anulowanie",
+    "de": "Stornogebühr",
+    "fr": "frais d'annulation",
+    "es": "gastos de cancelación",
+    "it": "penale di cancellazione",
+    "pt": "taxa de cancelamento",
+    "tr": "iptal ücreti"
+   },
+   "ex": {
+    "en": "There's a cancellation fee of fifty euros."
+   }
+  },
+  {
+   "id": "travel.heritage-site",
+   "t": {
+    "en": "heritage site",
+    "uk": "об'єкт спадщини",
+    "ru": "объект наследия",
+    "pl": "obiekt dziedzictwa",
+    "de": "Kulturerbestätte",
+    "fr": "site du patrimoine",
+    "es": "sitio patrimonial",
+    "it": "sito patrimonio",
+    "pt": "patrimônio histórico",
+    "tr": "miras alanı"
+   },
+   "ex": {
+    "en": "The old town is a World Heritage site."
+   }
+  },
+  {
+   "id": "travel.travel-voucher",
+   "t": {
+    "en": "travel voucher",
+    "uk": "ваучер на подорож",
+    "ru": "туристический ваучер",
+    "pl": "voucher podróżny",
+    "de": "Reisegutschein",
+    "fr": "bon de voyage",
+    "es": "bono de viaje",
+    "it": "voucher di viaggio",
+    "pt": "voucher de viagem",
+    "tr": "seyahat kuponu"
+   },
+   "ex": {
+    "en": "The airline gave us a travel voucher."
+   }
+  },
+  {
+   "id": "travel.priority-boarding",
+   "t": {
+    "en": "priority boarding",
+    "uk": "пріоритетна посадка",
+    "ru": "приоритетная посадка",
+    "pl": "priorytetowe wejście na pokład",
+    "de": "bevorzugtes Boarding",
+    "fr": "embarquement prioritaire",
+    "es": "embarque prioritario",
+    "it": "imbarco prioritario",
+    "pt": "embarque prioritário",
+    "tr": "öncelikli biniş"
+   },
+   "ex": {
+    "en": "I paid extra for priority boarding."
+   }
+  },
+  {
+   "id": "travel.legroom",
+   "t": {
+    "en": "legroom",
+    "uk": "місце для ніг",
+    "ru": "место для ног",
+    "pl": "miejsce na nogi",
+    "de": "Beinfreiheit",
+    "fr": "espace pour les jambes",
+    "es": "espacio para las piernas",
+    "it": "spazio per le gambe",
+    "pt": "espaço para as pernas",
+    "tr": "diz mesafesi"
+   },
+   "ex": {
+    "en": "There's not much legroom in economy."
+   }
+  },
+  {
+   "id": "travel.to-hit-the-road",
+   "t": {
+    "en": "to hit the road",
+    "uk": "вирушати в дорогу",
+    "ru": "отправляться в путь",
+    "pl": "ruszać w drogę",
+    "de": "sich auf den Weg machen",
+    "fr": "prendre la route",
+    "es": "ponerse en camino",
+    "it": "mettersi in viaggio",
+    "pt": "pegar a estrada",
+    "tr": "yola çıkmak"
+   },
+   "ex": {
+    "en": "We'll hit the road early tomorrow."
+   }
+  },
+  {
+   "id": "travel.travel-companion",
+   "t": {
+    "en": "travel companion",
+    "uk": "попутник",
+    "ru": "попутчик",
+    "pl": "towarzysz podróży",
+    "de": "Reisebegleiter",
+    "fr": "compagnon de voyage",
+    "es": "compañero de viaje",
+    "it": "compagno di viaggio",
+    "pt": "companheiro de viagem",
+    "tr": "yol arkadaşı"
+   },
+   "ex": {
+    "en": "She was a great travel companion."
+   }
+  },
+  {
+   "id": "travel.tourist-visa",
+   "t": {
+    "en": "tourist visa",
+    "uk": "туристична віза",
+    "ru": "туристическая виза",
+    "pl": "wiza turystyczna",
+    "de": "Touristenvisum",
+    "fr": "visa touristique",
+    "es": "visado de turista",
+    "it": "visto turistico",
+    "pt": "visto de turista",
+    "tr": "turist vizesi"
+   },
+   "ex": {
+    "en": "I entered the country on a tourist visa."
+   }
+  },
+  {
+   "id": "travel.local-cuisine",
+   "t": {
+    "en": "local cuisine",
+    "uk": "місцева кухня",
+    "ru": "местная кухня",
+    "pl": "kuchnia lokalna",
+    "de": "einheimische Küche",
+    "fr": "cuisine locale",
+    "es": "cocina local",
+    "it": "cucina locale",
+    "pt": "culinária local",
+    "tr": "yerel mutfak"
+   },
+   "ex": {
+    "en": "We loved the local cuisine."
+   }
+  },
+  {
+   "id": "travel.long-haul-flight",
+   "t": {
+    "en": "long-haul flight",
+    "uk": "далекомагістральний рейс",
+    "ru": "дальнемагистральный рейс",
+    "pl": "lot długodystansowy",
+    "de": "Langstreckenflug",
+    "fr": "vol long-courrier",
+    "es": "vuelo de larga distancia",
+    "it": "volo a lungo raggio",
+    "pt": "voo de longa distância",
+    "tr": "uzun mesafe uçuşu"
+   },
+   "ex": {
+    "en": "Long-haul flights make me exhausted."
+   }
+  },
+  {
+   "id": "travel.overhead-locker",
+   "t": {
+    "en": "overhead locker",
+    "uk": "багажна полиця",
+    "ru": "багажная полка",
+    "pl": "schowek na bagaż",
+    "de": "Gepäckfach",
+    "fr": "compartiment à bagages",
+    "es": "compartimento superior",
+    "it": "cappelliera",
+    "pt": "bagageiro",
+    "tr": "bagaj dolabı"
+   },
+   "ex": {
+    "en": "Put your bag in the overhead locker."
+   }
+  },
+  {
+   "id": "travel.hidden-gem",
+   "t": {
+    "en": "hidden gem",
+    "uk": "прихована перлина",
+    "ru": "скрытая жемчужина",
+    "pl": "ukryta perełka",
+    "de": "Geheimtipp",
+    "fr": "pépite cachée",
+    "es": "joya escondida",
+    "it": "gioiello nascosto",
+    "pt": "joia escondida",
+    "tr": "saklı cennet"
+   },
+   "ex": {
+    "en": "This little café is a hidden gem."
+   }
+  },
+  {
+   "id": "travel.day-trip",
+   "t": {
+    "en": "day trip",
+    "uk": "одноденна поїздка",
+    "ru": "однодневная поездка",
+    "pl": "wycieczka jednodniowa",
+    "de": "Tagesausflug",
+    "fr": "excursion d'une journée",
+    "es": "excursión de un día",
+    "it": "gita di un giorno",
+    "pt": "passeio de um dia",
+    "tr": "günübirlik gezi"
+   },
+   "ex": {
+    "en": "We took a day trip to the coast."
+   }
+  },
+  {
+   "id": "travel.travel-ban",
+   "t": {
+    "en": "travel ban",
+    "uk": "заборона на поїздки",
+    "ru": "запрет на поездки",
+    "pl": "zakaz podróży",
+    "de": "Reiseverbot",
+    "fr": "interdiction de voyager",
+    "es": "prohibición de viajar",
+    "it": "divieto di viaggio",
+    "pt": "proibição de viagens",
+    "tr": "seyahat yasağı"
+   },
+   "ex": {
+    "en": "The government lifted the travel ban."
+   }
+  },
+  {
+   "id": "travel.border-crossing",
+   "t": {
+    "en": "border crossing",
+    "uk": "пункт пропуску",
+    "ru": "пункт пропуска",
+    "pl": "przejście graniczne",
+    "de": "Grenzübergang",
+    "fr": "poste-frontière",
+    "es": "paso fronterizo",
+    "it": "valico di frontiera",
+    "pt": "posto de fronteira",
+    "tr": "sınır kapısı"
+   },
+   "ex": {
+    "en": "We waited hours at the border crossing."
+   }
+  },
+  {
+   "id": "travel.travel-blogger",
+   "t": {
+    "en": "travel blogger",
+    "uk": "тревел-блогер",
+    "ru": "тревел-блогер",
+    "pl": "blogger podróżniczy",
+    "de": "Reiseblogger",
+    "fr": "blogueur voyage",
+    "es": "bloguero de viajes",
+    "it": "travel blogger",
+    "pt": "blogueiro de viagens",
+    "tr": "seyahat blogcusu"
+   },
+   "ex": {
+    "en": "She works as a travel blogger."
+   }
+  },
+  {
+   "id": "travel.complimentary",
+   "t": {
+    "en": "complimentary",
+    "uk": "безкоштовний",
+    "ru": "бесплатный",
+    "pl": "bezpłatny",
+    "de": "kostenlos",
+    "fr": "offert",
+    "es": "de cortesía",
+    "it": "in omaggio",
+    "pt": "de cortesia",
+    "tr": "ücretsiz"
+   },
+   "ex": {
+    "en": "The hotel offers complimentary breakfast."
+   }
+  },
+  {
+   "id": "travel.boutique-hotel",
+   "t": {
+    "en": "boutique hotel",
+    "uk": "бутик-готель",
+    "ru": "бутик-отель",
+    "pl": "hotel butikowy",
+    "de": "Boutique-Hotel",
+    "fr": "hôtel de charme",
+    "es": "hotel boutique",
+    "it": "hotel boutique",
+    "pt": "hotel boutique",
+    "tr": "butik otel"
+   },
+   "ex": {
+    "en": "We stayed in a small boutique hotel."
+   }
+  },
+  {
+   "id": "travel.safari",
+   "t": {
+    "en": "safari",
+    "uk": "сафарі",
+    "ru": "сафари",
+    "pl": "safari",
+    "de": "Safari",
+    "fr": "safari",
+    "es": "safari",
+    "it": "safari",
+    "pt": "safári",
+    "tr": "safari"
+   },
+   "ex": {
+    "en": "They went on safari in Kenya."
    }
   }
  ]

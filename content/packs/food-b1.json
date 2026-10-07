@@ -2,7 +2,7 @@
  "id": "food-b1",
  "topic": "food",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "food.ingredient",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "The milk has gone off."
+   }
+  },
+  {
+   "id": "food.cutlery",
+   "t": {
+    "en": "cutlery",
+    "uk": "столові прибори",
+    "ru": "столовые приборы",
+    "pl": "sztućce",
+    "de": "Besteck",
+    "fr": "couverts",
+    "es": "cubiertos",
+    "it": "posate",
+    "pt": "talheres",
+    "tr": "çatal bıçak takımı"
+   },
+   "ex": {
+    "en": "Could you put the cutlery on the table?"
+   }
+  },
+  {
+   "id": "food.appetite",
+   "t": {
+    "en": "appetite",
+    "uk": "апетит",
+    "ru": "аппетит",
+    "pl": "apetyt",
+    "de": "Appetit",
+    "fr": "appétit",
+    "es": "apetito",
+    "it": "appetito",
+    "pt": "apetite",
+    "tr": "iştah"
+   },
+   "ex": {
+    "en": "The walk gave me a good appetite."
+   }
+  },
+  {
+   "id": "food.to-slice",
+   "t": {
+    "en": "to slice",
+    "uk": "нарізати скибочками",
+    "ru": "нарезать ломтиками",
+    "pl": "kroić w plasterki",
+    "de": "in Scheiben schneiden",
+    "fr": "trancher",
+    "es": "cortar en rodajas",
+    "it": "affettare",
+    "pt": "fatiar",
+    "tr": "dilimlemek"
+   },
+   "ex": {
+    "en": "Slice the bread thinly."
+   }
+  },
+  {
+   "id": "food.to-grate",
+   "t": {
+    "en": "to grate",
+    "uk": "терти на тертці",
+    "ru": "тереть на тёрке",
+    "pl": "trzeć na tarce",
+    "de": "reiben",
+    "fr": "râper",
+    "es": "rallar",
+    "it": "grattugiare",
+    "pt": "ralar",
+    "tr": "rendelemek"
+   },
+   "ex": {
+    "en": "Grate some cheese over the pasta."
+   }
+  },
+  {
+   "id": "food.to-roast",
+   "t": {
+    "en": "to roast",
+    "uk": "запікати",
+    "ru": "запекать",
+    "pl": "piec",
+    "de": "braten",
+    "fr": "rôtir",
+    "es": "asar",
+    "it": "arrostire",
+    "pt": "assar",
+    "tr": "fırında kızartmak"
+   },
+   "ex": {
+    "en": "We roast a chicken every Sunday."
+   }
+  },
+  {
+   "id": "food.to-steam",
+   "t": {
+    "en": "to steam",
+    "uk": "готувати на пару",
+    "ru": "готовить на пару",
+    "pl": "gotować na parze",
+    "de": "dämpfen",
+    "fr": "cuire à la vapeur",
+    "es": "cocinar al vapor",
+    "it": "cuocere al vapore",
+    "pt": "cozinhar no vapor",
+    "tr": "buharda pişirmek"
+   },
+   "ex": {
+    "en": "Steam the vegetables for five minutes."
+   }
+  },
+  {
+   "id": "food.to-defrost",
+   "t": {
+    "en": "to defrost",
+    "uk": "розморожувати",
+    "ru": "размораживать",
+    "pl": "rozmrażać",
+    "de": "auftauen",
+    "fr": "décongeler",
+    "es": "descongelar",
+    "it": "scongelare",
+    "pt": "descongelar",
+    "tr": "buzunu çözdürmek"
+   },
+   "ex": {
+    "en": "Defrost the meat in the fridge overnight."
+   }
+  },
+  {
+   "id": "food.saucepan",
+   "t": {
+    "en": "saucepan",
+    "uk": "каструля",
+    "ru": "кастрюля",
+    "pl": "rondel",
+    "de": "Kochtopf",
+    "fr": "casserole",
+    "es": "cazo",
+    "it": "pentola",
+    "pt": "panela",
+    "tr": "tencere"
+   },
+   "ex": {
+    "en": "Heat the milk in a small saucepan."
+   }
+  },
+  {
+   "id": "food.cutting-board",
+   "t": {
+    "en": "cutting board",
+    "uk": "обробна дошка",
+    "ru": "разделочная доска",
+    "pl": "deska do krojenia",
+    "de": "Schneidebrett",
+    "fr": "planche à découper",
+    "es": "tabla de cortar",
+    "it": "tagliere",
+    "pt": "tábua de corte",
+    "tr": "kesme tahtası"
+   },
+   "ex": {
+    "en": "Use a clean cutting board for the meat."
+   }
+  },
+  {
+   "id": "food.wholemeal",
+   "t": {
+    "en": "wholemeal",
+    "uk": "цільнозерновий",
+    "ru": "цельнозерновой",
+    "pl": "pełnoziarnisty",
+    "de": "Vollkorn",
+    "fr": "complet",
+    "es": "integral",
+    "it": "integrale",
+    "pt": "integral",
+    "tr": "tam buğday"
+   },
+   "ex": {
+    "en": "I prefer wholemeal bread."
+   }
+  },
+  {
+   "id": "food.low-fat",
+   "t": {
+    "en": "low-fat",
+    "uk": "знежирений",
+    "ru": "обезжиренный",
+    "pl": "niskotłuszczowy",
+    "de": "fettarm",
+    "fr": "allégé",
+    "es": "bajo en grasa",
+    "it": "magro",
+    "pt": "com pouca gordura",
+    "tr": "az yağlı"
+   },
+   "ex": {
+    "en": "She always buys low-fat yogurt."
+   }
+  },
+  {
+   "id": "food.processed-food",
+   "t": {
+    "en": "processed food",
+    "uk": "оброблені продукти",
+    "ru": "обработанные продукты",
+    "pl": "żywność przetworzona",
+    "de": "verarbeitete Lebensmittel",
+    "fr": "aliments transformés",
+    "es": "alimentos procesados",
+    "it": "alimenti trasformati",
+    "pt": "alimentos processados",
+    "tr": "işlenmiş gıda"
+   },
+   "ex": {
+    "en": "Try to eat less processed food."
+   }
+  },
+  {
+   "id": "food.junk-food",
+   "t": {
+    "en": "junk food",
+    "uk": "шкідлива їжа",
+    "ru": "вредная еда",
+    "pl": "niezdrowe jedzenie",
+    "de": "Junkfood",
+    "fr": "malbouffe",
+    "es": "comida basura",
+    "it": "cibo spazzatura",
+    "pt": "junk food",
+    "tr": "abur cubur"
+   },
+   "ex": {
+    "en": "Teenagers often eat too much junk food."
+   }
+  },
+  {
+   "id": "food.calories",
+   "t": {
+    "en": "calories",
+    "uk": "калорії",
+    "ru": "калории",
+    "pl": "kalorie",
+    "de": "Kalorien",
+    "fr": "calories",
+    "es": "calorías",
+    "it": "calorie",
+    "pt": "calorias",
+    "tr": "kalori"
+   },
+   "ex": {
+    "en": "This cake has a lot of calories."
+   }
+  },
+  {
+   "id": "food.herbs",
+   "t": {
+    "en": "herbs",
+    "uk": "пряні трави",
+    "ru": "пряные травы",
+    "pl": "zioła",
+    "de": "Kräuter",
+    "fr": "fines herbes",
+    "es": "hierbas aromáticas",
+    "it": "erbe aromatiche",
+    "pt": "ervas",
+    "tr": "taze otlar"
+   },
+   "ex": {
+    "en": "Add fresh herbs at the end."
+   }
+  },
+  {
+   "id": "food.spices",
+   "t": {
+    "en": "spices",
+    "uk": "спеції",
+    "ru": "специи",
+    "pl": "przyprawy",
+    "de": "Gewürze",
+    "fr": "épices",
+    "es": "especias",
+    "it": "spezie",
+    "pt": "especiarias",
+    "tr": "baharatlar"
+   },
+   "ex": {
+    "en": "Indian food uses many spices."
+   }
+  },
+  {
+   "id": "food.flavour",
+   "t": {
+    "en": "flavour",
+    "uk": "смак",
+    "ru": "вкус",
+    "pl": "smak",
+    "de": "Geschmack",
+    "fr": "saveur",
+    "es": "sabor",
+    "it": "sapore",
+    "pt": "sabor",
+    "tr": "lezzet"
+   },
+   "ex": {
+    "en": "Which ice cream flavour do you want?"
+   }
+  },
+  {
+   "id": "food.to-skip-a-meal",
+   "t": {
+    "en": "to skip a meal",
+    "uk": "пропустити прийом їжі",
+    "ru": "пропустить приём пищи",
+    "pl": "opuścić posiłek",
+    "de": "eine Mahlzeit auslassen",
+    "fr": "sauter un repas",
+    "es": "saltarse una comida",
+    "it": "saltare un pasto",
+    "pt": "pular uma refeição",
+    "tr": "öğün atlamak"
+   },
+   "ex": {
+    "en": "It's not healthy to skip a meal."
+   }
+  },
+  {
+   "id": "food.to-dine-out",
+   "t": {
+    "en": "to dine out",
+    "uk": "вечеряти поза домом",
+    "ru": "ужинать в ресторане",
+    "pl": "jeść na mieście",
+    "de": "auswärts essen",
+    "fr": "dîner au restaurant",
+    "es": "cenar fuera",
+    "it": "mangiare fuori",
+    "pt": "comer fora",
+    "tr": "dışarıda yemek"
+   },
+   "ex": {
+    "en": "We dine out every Friday night."
+   }
+  },
+  {
+   "id": "food.buffet",
+   "t": {
+    "en": "buffet",
+    "uk": "шведський стіл",
+    "ru": "шведский стол",
+    "pl": "bufet",
+    "de": "Buffet",
+    "fr": "buffet",
+    "es": "bufé",
+    "it": "buffet",
+    "pt": "bufê",
+    "tr": "açık büfe"
+   },
+   "ex": {
+    "en": "Breakfast is a buffet at this hotel."
+   }
+  },
+  {
+   "id": "food.chef",
+   "t": {
+    "en": "chef",
+    "uk": "шеф-кухар",
+    "ru": "шеф-повар",
+    "pl": "szef kuchni",
+    "de": "Küchenchef",
+    "fr": "chef",
+    "es": "chef",
+    "it": "chef",
+    "pt": "chef",
+    "tr": "şef"
+   },
+   "ex": {
+    "en": "The chef came out to greet us."
    }
   }
  ]

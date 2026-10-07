@@ -2,7 +2,7 @@
  "id": "transport-b1",
  "topic": "transport",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "transport.road-works",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "I'll pick you up at seven."
+   }
+  },
+  {
+   "id": "transport.driving-test",
+   "t": {
+    "en": "driving test",
+    "uk": "іспит з водіння",
+    "ru": "экзамен по вождению",
+    "pl": "egzamin na prawo jazdy",
+    "de": "Fahrprüfung",
+    "fr": "examen du permis",
+    "es": "examen de conducir",
+    "it": "esame di guida",
+    "pt": "exame de direção",
+    "tr": "ehliyet sınavı"
+   },
+   "ex": {
+    "en": "He passed his driving test first time."
+   }
+  },
+  {
+   "id": "transport.to-speed",
+   "t": {
+    "en": "to speed",
+    "uk": "перевищувати швидкість",
+    "ru": "превышать скорость",
+    "pl": "przekraczać prędkość",
+    "de": "zu schnell fahren",
+    "fr": "faire un excès de vitesse",
+    "es": "exceder el límite de velocidad",
+    "it": "superare il limite di velocità",
+    "pt": "ultrapassar o limite de velocidade",
+    "tr": "hız yapmak"
+   },
+   "ex": {
+    "en": "He was fined for speeding."
+   }
+  },
+  {
+   "id": "transport.airbag",
+   "t": {
+    "en": "airbag",
+    "uk": "подушка безпеки",
+    "ru": "подушка безопасности",
+    "pl": "poduszka powietrzna",
+    "de": "Airbag",
+    "fr": "airbag",
+    "es": "airbag",
+    "it": "airbag",
+    "pt": "airbag",
+    "tr": "hava yastığı"
+   },
+   "ex": {
+    "en": "The airbag saved her life."
+   }
+  },
+  {
+   "id": "transport.gearbox",
+   "t": {
+    "en": "gearbox",
+    "uk": "коробка передач",
+    "ru": "коробка передач",
+    "pl": "skrzynia biegów",
+    "de": "Getriebe",
+    "fr": "boîte de vitesses",
+    "es": "caja de cambios",
+    "it": "cambio",
+    "pt": "câmbio",
+    "tr": "şanzıman"
+   },
+   "ex": {
+    "en": "The mechanic had to repair the gearbox."
+   }
+  },
+  {
+   "id": "transport.exhaust-pipe",
+   "t": {
+    "en": "exhaust pipe",
+    "uk": "вихлопна труба",
+    "ru": "выхлопная труба",
+    "pl": "rura wydechowa",
+    "de": "Auspuff",
+    "fr": "pot d'échappement",
+    "es": "tubo de escape",
+    "it": "tubo di scarico",
+    "pt": "escapamento",
+    "tr": "egzoz borusu"
+   },
+   "ex": {
+    "en": "Smoke was coming from the exhaust pipe."
+   }
+  },
+  {
+   "id": "transport.bumper",
+   "t": {
+    "en": "bumper",
+    "uk": "бампер",
+    "ru": "бампер",
+    "pl": "zderzak",
+    "de": "Stoßstange",
+    "fr": "pare-chocs",
+    "es": "parachoques",
+    "it": "paraurti",
+    "pt": "para-choque",
+    "tr": "tampon"
+   },
+   "ex": {
+    "en": "Someone scratched my rear bumper."
+   }
+  },
+  {
+   "id": "transport.wipers",
+   "t": {
+    "en": "wipers",
+    "uk": "склоочисники",
+    "ru": "дворники",
+    "pl": "wycieraczki",
+    "de": "Scheibenwischer",
+    "fr": "essuie-glaces",
+    "es": "limpiaparabrisas",
+    "it": "tergicristalli",
+    "pt": "limpadores de para-brisa",
+    "tr": "silecekler"
+   },
+   "ex": {
+    "en": "Turn on the wipers, it's raining."
+   }
+  },
+  {
+   "id": "transport.to-give-a-lift",
+   "t": {
+    "en": "to give a lift",
+    "uk": "підвезти",
+    "ru": "подвезти",
+    "pl": "podwieźć",
+    "de": "mitnehmen",
+    "fr": "emmener en voiture",
+    "es": "llevar en coche",
+    "it": "dare un passaggio",
+    "pt": "dar uma carona",
+    "tr": "arabayla bırakmak"
+   },
+   "ex": {
+    "en": "Can you give me a lift to the station?"
+   }
+  },
+  {
+   "id": "transport.hitchhiking",
+   "t": {
+    "en": "hitchhiking",
+    "uk": "автостоп",
+    "ru": "автостоп",
+    "pl": "autostop",
+    "de": "Trampen",
+    "fr": "auto-stop",
+    "es": "autostop",
+    "it": "autostop",
+    "pt": "carona",
+    "tr": "otostop"
+   },
+   "ex": {
+    "en": "They travelled across Europe by hitchhiking."
+   }
+  },
+  {
+   "id": "transport.crash",
+   "t": {
+    "en": "crash",
+    "uk": "аварія",
+    "ru": "авария",
+    "pl": "zderzenie",
+    "de": "Zusammenstoß",
+    "fr": "collision",
+    "es": "choque",
+    "it": "scontro",
+    "pt": "batida",
+    "tr": "çarpışma"
+   },
+   "ex": {
+    "en": "Nobody was hurt in the crash."
+   }
+  },
+  {
+   "id": "transport.level-crossing",
+   "t": {
+    "en": "level crossing",
+    "uk": "залізничний переїзд",
+    "ru": "железнодорожный переезд",
+    "pl": "przejazd kolejowy",
+    "de": "Bahnübergang",
+    "fr": "passage à niveau",
+    "es": "paso a nivel",
+    "it": "passaggio a livello",
+    "pt": "passagem de nível",
+    "tr": "hemzemin geçit"
+   },
+   "ex": {
+    "en": "Stop at the level crossing when the lights flash."
+   }
+  },
+  {
+   "id": "transport.railway",
+   "t": {
+    "en": "railway",
+    "uk": "залізниця",
+    "ru": "железная дорога",
+    "pl": "kolej",
+    "de": "Eisenbahn",
+    "fr": "chemin de fer",
+    "es": "ferrocarril",
+    "it": "ferrovia",
+    "pt": "ferrovia",
+    "tr": "demiryolu"
+   },
+   "ex": {
+    "en": "The railway runs along the coast."
+   }
+  },
+  {
+   "id": "transport.vehicle",
+   "t": {
+    "en": "vehicle",
+    "uk": "транспортний засіб",
+    "ru": "транспортное средство",
+    "pl": "pojazd",
+    "de": "Fahrzeug",
+    "fr": "véhicule",
+    "es": "vehículo",
+    "it": "veicolo",
+    "pt": "veículo",
+    "tr": "araç"
+   },
+   "ex": {
+    "en": "No vehicles are allowed in the park."
+   }
+  },
+  {
+   "id": "transport.fuel-tank",
+   "t": {
+    "en": "fuel tank",
+    "uk": "паливний бак",
+    "ru": "топливный бак",
+    "pl": "bak paliwa",
+    "de": "Tank",
+    "fr": "réservoir",
+    "es": "depósito",
+    "it": "serbatoio",
+    "pt": "tanque de combustível",
+    "tr": "yakıt deposu"
+   },
+   "ex": {
+    "en": "The fuel tank is almost empty."
+   }
+  },
+  {
+   "id": "transport.to-run-out-of-gas",
+   "t": {
+    "en": "to run out of gas",
+    "uk": "залишитися без пального",
+    "ru": "остаться без бензина",
+    "pl": "zostać bez paliwa",
+    "de": "kein Benzin mehr haben",
+    "fr": "tomber en panne d'essence",
+    "es": "quedarse sin gasolina",
+    "it": "rimanere senza benzina",
+    "pt": "ficar sem gasolina",
+    "tr": "benzini bitmek"
+   },
+   "ex": {
+    "en": "We ran out of gas on the highway."
+   }
+  },
+  {
+   "id": "transport.electric-scooter",
+   "t": {
+    "en": "electric scooter",
+    "uk": "електросамокат",
+    "ru": "электросамокат",
+    "pl": "hulajnoga elektryczna",
+    "de": "E-Scooter",
+    "fr": "trottinette électrique",
+    "es": "patinete eléctrico",
+    "it": "monopattino elettrico",
+    "pt": "patinete elétrico",
+    "tr": "elektrikli scooter"
+   },
+   "ex": {
+    "en": "I ride an electric scooter to work."
+   }
+  },
+  {
+   "id": "transport.cyclist",
+   "t": {
+    "en": "cyclist",
+    "uk": "велосипедист",
+    "ru": "велосипедист",
+    "pl": "rowerzysta",
+    "de": "Radfahrer",
+    "fr": "cycliste",
+    "es": "ciclista",
+    "it": "ciclista",
+    "pt": "ciclista",
+    "tr": "bisikletçi"
+   },
+   "ex": {
+    "en": "Watch out for cyclists when you open the door."
+   }
+  },
+  {
+   "id": "transport.motorist",
+   "t": {
+    "en": "motorist",
+    "uk": "автомобіліст",
+    "ru": "автомобилист",
+    "pl": "kierowca",
+    "de": "Autofahrer",
+    "fr": "automobiliste",
+    "es": "automovilista",
+    "it": "automobilista",
+    "pt": "motorista",
+    "tr": "sürücü"
+   },
+   "ex": {
+    "en": "Motorists should expect delays today."
+   }
+  },
+  {
+   "id": "transport.road-safety",
+   "t": {
+    "en": "road safety",
+    "uk": "безпека дорожнього руху",
+    "ru": "безопасность дорожного движения",
+    "pl": "bezpieczeństwo ruchu drogowego",
+    "de": "Verkehrssicherheit",
+    "fr": "sécurité routière",
+    "es": "seguridad vial",
+    "it": "sicurezza stradale",
+    "pt": "segurança no trânsito",
+    "tr": "trafik güvenliği"
+   },
+   "ex": {
+    "en": "Children learn about road safety at school."
+   }
+  },
+  {
+   "id": "transport.traffic-rules",
+   "t": {
+    "en": "traffic rules",
+    "uk": "правила дорожнього руху",
+    "ru": "правила дорожного движения",
+    "pl": "przepisy ruchu drogowego",
+    "de": "Verkehrsregeln",
+    "fr": "code de la route",
+    "es": "normas de tráfico",
+    "it": "codice della strada",
+    "pt": "regras de trânsito",
+    "tr": "trafik kuralları"
+   },
+   "ex": {
+    "en": "Traffic rules are different in every country."
+   }
+  },
+  {
+   "id": "transport.to-buckle-up",
+   "t": {
+    "en": "to buckle up",
+    "uk": "пристебнутися",
+    "ru": "пристегнуться",
+    "pl": "zapiąć pasy",
+    "de": "sich anschnallen",
+    "fr": "attacher sa ceinture",
+    "es": "abrocharse el cinturón",
+    "it": "allacciare la cintura",
+    "pt": "colocar o cinto",
+    "tr": "emniyet kemerini takmak"
+   },
+   "ex": {
+    "en": "Please buckle up before we leave."
+   }
+  },
+  {
+   "id": "transport.signpost",
+   "t": {
+    "en": "signpost",
+    "uk": "дорожній вказівник",
+    "ru": "дорожный указатель",
+    "pl": "drogowskaz",
+    "de": "Wegweiser",
+    "fr": "panneau indicateur",
+    "es": "señal indicadora",
+    "it": "cartello stradale",
+    "pt": "placa de sinalização",
+    "tr": "yol tabelası"
+   },
+   "ex": {
+    "en": "Follow the signpost to the city centre."
+   }
+  },
+  {
+   "id": "transport.road-closure",
+   "t": {
+    "en": "road closure",
+    "uk": "перекриття дороги",
+    "ru": "перекрытие дороги",
+    "pl": "zamknięcie drogi",
+    "de": "Straßensperrung",
+    "fr": "route barrée",
+    "es": "corte de carretera",
+    "it": "chiusura della strada",
+    "pt": "interdição da via",
+    "tr": "yol kapanması"
+   },
+   "ex": {
+    "en": "There's a road closure because of the marathon."
    }
   }
  ]

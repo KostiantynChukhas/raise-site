@@ -2,7 +2,7 @@
  "id": "transport-a1",
  "topic": "transport",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "transport.car",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "Please walk on the sidewalk."
+   }
+  },
+  {
+   "id": "transport.van",
+   "t": {
+    "en": "van",
+    "uk": "фургон",
+    "ru": "фургон",
+    "pl": "furgonetka",
+    "de": "Transporter",
+    "fr": "camionnette",
+    "es": "furgoneta",
+    "it": "furgone",
+    "pt": "van",
+    "tr": "kamyonet"
+   },
+   "ex": {
+    "en": "We moved our furniture in a van."
+   }
+  },
+  {
+   "id": "transport.wheel",
+   "t": {
+    "en": "wheel",
+    "uk": "колесо",
+    "ru": "колесо",
+    "pl": "koło",
+    "de": "Rad",
+    "fr": "roue",
+    "es": "rueda",
+    "it": "ruota",
+    "pt": "roda",
+    "tr": "tekerlek"
+   },
+   "ex": {
+    "en": "A bicycle has two wheels."
+   }
+  },
+  {
+   "id": "transport.on-foot",
+   "t": {
+    "en": "on foot",
+    "uk": "пішки",
+    "ru": "пешком",
+    "pl": "pieszo",
+    "de": "zu Fuß",
+    "fr": "à pied",
+    "es": "a pie",
+    "it": "a piedi",
+    "pt": "a pé",
+    "tr": "yürüyerek"
+   },
+   "ex": {
+    "en": "I go to school on foot."
+   }
+  },
+  {
+   "id": "transport.by-car",
+   "t": {
+    "en": "by car",
+    "uk": "на машині",
+    "ru": "на машине",
+    "pl": "samochodem",
+    "de": "mit dem Auto",
+    "fr": "en voiture",
+    "es": "en coche",
+    "it": "in macchina",
+    "pt": "de carro",
+    "tr": "arabayla"
+   },
+   "ex": {
+    "en": "We usually travel by car."
+   }
+  },
+  {
+   "id": "transport.by-bus",
+   "t": {
+    "en": "by bus",
+    "uk": "автобусом",
+    "ru": "на автобусе",
+    "pl": "autobusem",
+    "de": "mit dem Bus",
+    "fr": "en bus",
+    "es": "en autobús",
+    "it": "in autobus",
+    "pt": "de ônibus",
+    "tr": "otobüsle"
+   },
+   "ex": {
+    "en": "She goes to work by bus."
+   }
+  },
+  {
+   "id": "transport.by-bike",
+   "t": {
+    "en": "by bike",
+    "uk": "на велосипеді",
+    "ru": "на велосипеде",
+    "pl": "rowerem",
+    "de": "mit dem Fahrrad",
+    "fr": "à vélo",
+    "es": "en bicicleta",
+    "it": "in bicicletta",
+    "pt": "de bicicleta",
+    "tr": "bisikletle"
+   },
+   "ex": {
+    "en": "I come to work by bike."
+   }
+  },
+  {
+   "id": "transport.helicopter",
+   "t": {
+    "en": "helicopter",
+    "uk": "гелікоптер",
+    "ru": "вертолёт",
+    "pl": "helikopter",
+    "de": "Hubschrauber",
+    "fr": "hélicoptère",
+    "es": "helicóptero",
+    "it": "elicottero",
+    "pt": "helicóptero",
+    "tr": "helikopter"
+   },
+   "ex": {
+    "en": "A helicopter landed on the roof."
+   }
+  },
+  {
+   "id": "transport.ship",
+   "t": {
+    "en": "ship",
+    "uk": "корабель",
+    "ru": "корабль",
+    "pl": "statek",
+    "de": "Schiff",
+    "fr": "navire",
+    "es": "buque",
+    "it": "nave",
+    "pt": "navio",
+    "tr": "gemi"
+   },
+   "ex": {
+    "en": "The ship leaves the port at noon."
+   }
+  },
+  {
+   "id": "transport.to-cross-the-street",
+   "t": {
+    "en": "to cross the street",
+    "uk": "переходити вулицю",
+    "ru": "переходить улицу",
+    "pl": "przechodzić przez ulicę",
+    "de": "die Straße überqueren",
+    "fr": "traverser la rue",
+    "es": "cruzar la calle",
+    "it": "attraversare la strada",
+    "pt": "atravessar a rua",
+    "tr": "caddeyi geçmek"
+   },
+   "ex": {
+    "en": "Look both ways before you cross the street."
+   }
+  },
+  {
+   "id": "transport.bus-driver",
+   "t": {
+    "en": "bus driver",
+    "uk": "водій автобуса",
+    "ru": "водитель автобуса",
+    "pl": "kierowca autobusu",
+    "de": "Busfahrer",
+    "fr": "chauffeur de bus",
+    "es": "conductor de autobús",
+    "it": "autista dell'autobus",
+    "pt": "motorista de ônibus",
+    "tr": "otobüs şoförü"
+   },
+   "ex": {
+    "en": "The bus driver said hello to me."
+   }
+  },
+  {
+   "id": "transport.car-key",
+   "t": {
+    "en": "car key",
+    "uk": "ключ від машини",
+    "ru": "ключ от машины",
+    "pl": "kluczyk do samochodu",
+    "de": "Autoschlüssel",
+    "fr": "clé de voiture",
+    "es": "llave del coche",
+    "it": "chiave della macchina",
+    "pt": "chave do carro",
+    "tr": "araba anahtarı"
+   },
+   "ex": {
+    "en": "I can't find my car key."
+   }
+  },
+  {
+   "id": "transport.gasoline",
+   "t": {
+    "en": "gasoline",
+    "uk": "бензин",
+    "ru": "бензин",
+    "pl": "benzyna",
+    "de": "Benzin",
+    "fr": "essence",
+    "es": "gasolina",
+    "it": "benzina",
+    "pt": "gasolina",
+    "tr": "benzin"
+   },
+   "ex": {
+    "en": "Gasoline is expensive this month."
+   }
+  },
+  {
+   "id": "transport.bus-ticket",
+   "t": {
+    "en": "bus ticket",
+    "uk": "квиток на автобус",
+    "ru": "билет на автобус",
+    "pl": "bilet autobusowy",
+    "de": "Busfahrkarte",
+    "fr": "ticket de bus",
+    "es": "billete de autobús",
+    "it": "biglietto dell'autobus",
+    "pt": "passagem de ônibus",
+    "tr": "otobüs bileti"
+   },
+   "ex": {
+    "en": "You can buy a bus ticket from the driver."
+   }
+  },
+  {
+   "id": "transport.back-seat",
+   "t": {
+    "en": "back seat",
+    "uk": "заднє сидіння",
+    "ru": "заднее сиденье",
+    "pl": "tylne siedzenie",
+    "de": "Rücksitz",
+    "fr": "siège arrière",
+    "es": "asiento trasero",
+    "it": "sedile posteriore",
+    "pt": "banco de trás",
+    "tr": "arka koltuk"
+   },
+   "ex": {
+    "en": "The kids sit in the back seat."
+   }
+  },
+  {
+   "id": "transport.front-seat",
+   "t": {
+    "en": "front seat",
+    "uk": "переднє сидіння",
+    "ru": "переднее сиденье",
+    "pl": "przednie siedzenie",
+    "de": "Vordersitz",
+    "fr": "siège avant",
+    "es": "asiento delantero",
+    "it": "sedile anteriore",
+    "pt": "banco da frente",
+    "tr": "ön koltuk"
+   },
+   "ex": {
+    "en": "Can I sit in the front seat?"
+   }
+  },
+  {
+   "id": "transport.green-light",
+   "t": {
+    "en": "green light",
+    "uk": "зелене світло",
+    "ru": "зелёный свет",
+    "pl": "zielone światło",
+    "de": "grüne Ampel",
+    "fr": "feu vert",
+    "es": "luz verde",
+    "it": "semaforo verde",
+    "pt": "sinal verde",
+    "tr": "yeşil ışık"
+   },
+   "ex": {
+    "en": "Wait for the green light."
+   }
+  },
+  {
+   "id": "transport.red-light",
+   "t": {
+    "en": "red light",
+    "uk": "червоне світло",
+    "ru": "красный свет",
+    "pl": "czerwone światło",
+    "de": "rote Ampel",
+    "fr": "feu rouge",
+    "es": "luz roja",
+    "it": "semaforo rosso",
+    "pt": "sinal vermelho",
+    "tr": "kırmızı ışık"
+   },
+   "ex": {
+    "en": "Stop at the red light."
+   }
+  },
+  {
+   "id": "transport.bus-station",
+   "t": {
+    "en": "bus station",
+    "uk": "автовокзал",
+    "ru": "автовокзал",
+    "pl": "dworzec autobusowy",
+    "de": "Busbahnhof",
+    "fr": "gare routière",
+    "es": "estación de autobuses",
+    "it": "stazione degli autobus",
+    "pt": "rodoviária",
+    "tr": "otogar"
+   },
+   "ex": {
+    "en": "The bus station is next to the market."
+   }
+  },
+  {
+   "id": "transport.tunnel",
+   "t": {
+    "en": "tunnel",
+    "uk": "тунель",
+    "ru": "тоннель",
+    "pl": "tunel",
+    "de": "Tunnel",
+    "fr": "tunnel",
+    "es": "túnel",
+    "it": "galleria",
+    "pt": "túnel",
+    "tr": "tünel"
+   },
+   "ex": {
+    "en": "The train goes through a long tunnel."
+   }
+  },
+  {
+   "id": "transport.to-wait-for-the-bus",
+   "t": {
+    "en": "to wait for the bus",
+    "uk": "чекати на автобус",
+    "ru": "ждать автобус",
+    "pl": "czekać na autobus",
+    "de": "auf den Bus warten",
+    "fr": "attendre le bus",
+    "es": "esperar el autobús",
+    "it": "aspettare l'autobus",
+    "pt": "esperar o ônibus",
+    "tr": "otobüs beklemek"
+   },
+   "ex": {
+    "en": "We waited for the bus in the rain."
+   }
+  },
+  {
+   "id": "transport.minibus",
+   "t": {
+    "en": "minibus",
+    "uk": "мікроавтобус",
+    "ru": "микроавтобус",
+    "pl": "minibus",
+    "de": "Kleinbus",
+    "fr": "minibus",
+    "es": "microbús",
+    "it": "minibus",
+    "pt": "micro-ônibus",
+    "tr": "minibüs"
+   },
+   "ex": {
+    "en": "A minibus takes us to the hotel."
+   }
+  },
+  {
+   "id": "transport.to-turn-around",
+   "t": {
+    "en": "to turn around",
+    "uk": "розвернутися",
+    "ru": "развернуться",
+    "pl": "zawrócić",
+    "de": "wenden",
+    "fr": "faire demi-tour",
+    "es": "dar la vuelta",
+    "it": "fare inversione",
+    "pt": "dar meia-volta",
+    "tr": "geri dönmek"
+   },
+   "ex": {
+    "en": "We went the wrong way, so let's turn around."
    }
   }
  ]

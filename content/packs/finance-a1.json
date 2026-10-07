@@ -2,7 +2,7 @@
  "id": "finance-a1",
  "topic": "finance",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "finance.coin",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Friday is pay day."
+   }
+  },
+  {
+   "id": "finance.piggy-bank",
+   "t": {
+    "en": "piggy bank",
+    "uk": "скарбничка",
+    "ru": "копилка",
+    "pl": "skarbonka",
+    "de": "Sparschwein",
+    "fr": "tirelire",
+    "es": "hucha",
+    "it": "salvadanaio",
+    "pt": "cofrinho",
+    "tr": "kumbara"
+   },
+   "ex": {
+    "en": "My son keeps his coins in a piggy bank."
+   }
+  },
+  {
+   "id": "finance.to-pay-back",
+   "t": {
+    "en": "to pay back",
+    "uk": "повернути гроші",
+    "ru": "вернуть деньги",
+    "pl": "oddać pieniądze",
+    "de": "zurückzahlen",
+    "fr": "rembourser",
+    "es": "devolver el dinero",
+    "it": "restituire i soldi",
+    "pt": "devolver o dinheiro",
+    "tr": "geri ödemek"
+   },
+   "ex": {
+    "en": "I will pay you back tomorrow."
+   }
+  },
+  {
+   "id": "finance.cash-desk",
+   "t": {
+    "en": "cash desk",
+    "uk": "каса",
+    "ru": "касса",
+    "pl": "kasa",
+    "de": "Kasse",
+    "fr": "caisse",
+    "es": "caja",
+    "it": "cassa",
+    "pt": "caixa",
+    "tr": "kasa"
+   },
+   "ex": {
+    "en": "Please pay at the cash desk."
+   }
+  },
+  {
+   "id": "finance.bank-clerk",
+   "t": {
+    "en": "bank clerk",
+    "uk": "банківський службовець",
+    "ru": "банковский служащий",
+    "pl": "urzędnik bankowy",
+    "de": "Bankangestellter",
+    "fr": "employé de banque",
+    "es": "empleado de banco",
+    "it": "impiegato di banca",
+    "pt": "bancário",
+    "tr": "banka memuru"
+   },
+   "ex": {
+    "en": "The bank clerk helped me open an account."
+   }
+  },
+  {
+   "id": "finance.a-lot-of-money",
+   "t": {
+    "en": "a lot of money",
+    "uk": "багато грошей",
+    "ru": "много денег",
+    "pl": "dużo pieniędzy",
+    "de": "viel Geld",
+    "fr": "beaucoup d'argent",
+    "es": "mucho dinero",
+    "it": "tanti soldi",
+    "pt": "muito dinheiro",
+    "tr": "çok para"
+   },
+   "ex": {
+    "en": "A new car costs a lot of money."
+   }
+  },
+  {
+   "id": "finance.to-win-money",
+   "t": {
+    "en": "to win money",
+    "uk": "виграти гроші",
+    "ru": "выиграть деньги",
+    "pl": "wygrać pieniądze",
+    "de": "Geld gewinnen",
+    "fr": "gagner de l'argent",
+    "es": "ganar dinero",
+    "it": "vincere soldi",
+    "pt": "ganhar dinheiro",
+    "tr": "para kazanmak"
+   },
+   "ex": {
+    "en": "She wants to win money in a quiz show."
+   }
+  },
+  {
+   "id": "finance.lottery",
+   "t": {
+    "en": "lottery",
+    "uk": "лотерея",
+    "ru": "лотерея",
+    "pl": "loteria",
+    "de": "Lotterie",
+    "fr": "loterie",
+    "es": "lotería",
+    "it": "lotteria",
+    "pt": "loteria",
+    "tr": "piyango"
+   },
+   "ex": {
+    "en": "He plays the lottery every week."
+   }
+  },
+  {
+   "id": "finance.lottery-ticket",
+   "t": {
+    "en": "lottery ticket",
+    "uk": "лотерейний квиток",
+    "ru": "лотерейный билет",
+    "pl": "los na loterię",
+    "de": "Lottoschein",
+    "fr": "billet de loterie",
+    "es": "billete de lotería",
+    "it": "biglietto della lotteria",
+    "pt": "bilhete de loteria",
+    "tr": "piyango bileti"
+   },
+   "ex": {
+    "en": "I bought a lottery ticket today."
+   }
+  },
+  {
+   "id": "finance.to-give-change",
+   "t": {
+    "en": "to give change",
+    "uk": "дати решту",
+    "ru": "дать сдачу",
+    "pl": "wydać resztę",
+    "de": "Wechselgeld herausgeben",
+    "fr": "rendre la monnaie",
+    "es": "dar el cambio",
+    "it": "dare il resto",
+    "pt": "dar o troco",
+    "tr": "para üstü vermek"
+   },
+   "ex": {
+    "en": "The cashier forgot to give me change."
+   }
+  },
+  {
+   "id": "finance.i-have-no-money",
+   "t": {
+    "en": "I have no money",
+    "uk": "у мене немає грошей",
+    "ru": "у меня нет денег",
+    "pl": "nie mam pieniędzy",
+    "de": "ich habe kein Geld",
+    "fr": "je n'ai pas d'argent",
+    "es": "no tengo dinero",
+    "it": "non ho soldi",
+    "pt": "não tenho dinheiro",
+    "tr": "param yok"
+   },
+   "ex": {
+    "en": "Sorry, I have no money today."
+   }
+  },
+  {
+   "id": "finance.card-machine",
+   "t": {
+    "en": "card machine",
+    "uk": "платіжний термінал",
+    "ru": "платёжный терминал",
+    "pl": "terminal płatniczy",
+    "de": "Kartenterminal",
+    "fr": "terminal de paiement",
+    "es": "terminal de pago",
+    "it": "terminale POS",
+    "pt": "máquina de cartão",
+    "tr": "POS cihazı"
+   },
+   "ex": {
+    "en": "The card machine is not working."
+   }
+  },
+  {
+   "id": "finance.cash-only",
+   "t": {
+    "en": "cash only",
+    "uk": "тільки готівка",
+    "ru": "только наличные",
+    "pl": "tylko gotówka",
+    "de": "nur Barzahlung",
+    "fr": "espèces uniquement",
+    "es": "solo efectivo",
+    "it": "solo contanti",
+    "pt": "só dinheiro",
+    "tr": "sadece nakit"
+   },
+   "ex": {
+    "en": "This small café takes cash only."
+   }
+  },
+  {
+   "id": "finance.keep-the-change",
+   "t": {
+    "en": "keep the change",
+    "uk": "решти не треба",
+    "ru": "сдачи не надо",
+    "pl": "reszty nie trzeba",
+    "de": "stimmt so",
+    "fr": "gardez la monnaie",
+    "es": "quédese con el cambio",
+    "it": "tenga il resto",
+    "pt": "fique com o troco",
+    "tr": "üstü kalsın"
+   },
+   "ex": {
+    "en": "Here's ten euros, keep the change."
+   }
+  },
+  {
+   "id": "finance.card-or-cash",
+   "t": {
+    "en": "card or cash?",
+    "uk": "карткою чи готівкою?",
+    "ru": "картой или наличными?",
+    "pl": "kartą czy gotówką?",
+    "de": "Karte oder bar?",
+    "fr": "carte ou espèces ?",
+    "es": "¿tarjeta o efectivo?",
+    "it": "carta o contanti?",
+    "pt": "cartão ou dinheiro?",
+    "tr": "kart mı nakit mi?"
+   },
+   "ex": {
+    "en": "\"Card or cash?\" asked the waiter."
+   }
+  },
+  {
+   "id": "finance.paper-money",
+   "t": {
+    "en": "paper money",
+    "uk": "паперові гроші",
+    "ru": "бумажные деньги",
+    "pl": "pieniądze papierowe",
+    "de": "Papiergeld",
+    "fr": "papier-monnaie",
+    "es": "papel moneda",
+    "it": "cartamoneta",
+    "pt": "papel-moeda",
+    "tr": "kâğıt para"
+   },
+   "ex": {
+    "en": "Paper money is lighter than coins."
+   }
+  },
+  {
+   "id": "finance.gold-coin",
+   "t": {
+    "en": "gold coin",
+    "uk": "золота монета",
+    "ru": "золотая монета",
+    "pl": "złota moneta",
+    "de": "Goldmünze",
+    "fr": "pièce d'or",
+    "es": "moneda de oro",
+    "it": "moneta d'oro",
+    "pt": "moeda de ouro",
+    "tr": "altın sikke"
+   },
+   "ex": {
+    "en": "The museum has an old gold coin."
+   }
+  },
+  {
+   "id": "finance.total",
+   "t": {
+    "en": "total",
+    "uk": "загальна сума",
+    "ru": "итог",
+    "pl": "suma",
+    "de": "Gesamtbetrag",
+    "fr": "total",
+    "es": "total",
+    "it": "totale",
+    "pt": "total",
+    "tr": "toplam"
+   },
+   "ex": {
+    "en": "What is the total, please?"
+   }
+  },
+  {
+   "id": "finance.to-pay-too-much",
+   "t": {
+    "en": "to pay too much",
+    "uk": "переплатити",
+    "ru": "переплатить",
+    "pl": "przepłacić",
+    "de": "zu viel bezahlen",
+    "fr": "payer trop cher",
+    "es": "pagar demasiado",
+    "it": "pagare troppo",
+    "pt": "pagar demais",
+    "tr": "fazla ödemek"
+   },
+   "ex": {
+    "en": "I think I paid too much for this."
+   }
+  },
+  {
+   "id": "finance.to-pay-half",
+   "t": {
+    "en": "to pay half",
+    "uk": "заплатити половину",
+    "ru": "заплатить половину",
+    "pl": "zapłacić połowę",
+    "de": "die Hälfte bezahlen",
+    "fr": "payer la moitié",
+    "es": "pagar la mitad",
+    "it": "pagare la metà",
+    "pt": "pagar a metade",
+    "tr": "yarısını ödemek"
+   },
+   "ex": {
+    "en": "Let's each pay half of the bill."
+   }
+  },
+  {
+   "id": "finance.to-pay-later",
+   "t": {
+    "en": "to pay later",
+    "uk": "заплатити пізніше",
+    "ru": "заплатить позже",
+    "pl": "zapłacić później",
+    "de": "später bezahlen",
+    "fr": "payer plus tard",
+    "es": "pagar más tarde",
+    "it": "pagare più tardi",
+    "pt": "pagar mais tarde",
+    "tr": "sonra ödemek"
+   },
+   "ex": {
+    "en": "Can I pay later?"
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "health-b2",
  "topic": "health",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "health.diagnosis",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "Book a follow-up appointment in two weeks."
+   }
+  },
+  {
+   "id": "health.to-diagnose",
+   "t": {
+    "en": "to diagnose",
+    "uk": "діагностувати",
+    "ru": "диагностировать",
+    "pl": "diagnozować",
+    "de": "diagnostizieren",
+    "fr": "diagnostiquer",
+    "es": "diagnosticar",
+    "it": "diagnosticare",
+    "pt": "diagnosticar",
+    "tr": "teşhis koymak"
+   },
+   "ex": {
+    "en": "Doctors diagnosed her with asthma."
+   }
+  },
+  {
+   "id": "health.to-recuperate",
+   "t": {
+    "en": "to recuperate",
+    "uk": "оговтуватися",
+    "ru": "поправляться",
+    "pl": "dochodzić do siebie",
+    "de": "sich erholen",
+    "fr": "récupérer",
+    "es": "recuperarse",
+    "it": "rimettersi",
+    "pt": "recuperar-se",
+    "tr": "toparlanmak"
+   },
+   "ex": {
+    "en": "He's recuperating at home after surgery."
+   }
+  },
+  {
+   "id": "health.asymptomatic",
+   "t": {
+    "en": "asymptomatic",
+    "uk": "безсимптомний",
+    "ru": "бессимптомный",
+    "pl": "bezobjawowy",
+    "de": "asymptomatisch",
+    "fr": "asymptomatique",
+    "es": "asintomático",
+    "it": "asintomatico",
+    "pt": "assintomático",
+    "tr": "asemptomatik"
+   },
+   "ex": {
+    "en": "Many patients are asymptomatic."
+   }
+  },
+  {
+   "id": "health.outbreak",
+   "t": {
+    "en": "outbreak",
+    "uk": "спалах",
+    "ru": "вспышка",
+    "pl": "wybuch",
+    "de": "Ausbruch",
+    "fr": "flambée",
+    "es": "brote",
+    "it": "focolaio",
+    "pt": "surto",
+    "tr": "salgın"
+   },
+   "ex": {
+    "en": "There was an outbreak of measles."
+   }
+  },
+  {
+   "id": "health.epidemic",
+   "t": {
+    "en": "epidemic",
+    "uk": "епідемія",
+    "ru": "эпидемия",
+    "pl": "epidemia",
+    "de": "Epidemie",
+    "fr": "épidémie",
+    "es": "epidemia",
+    "it": "epidemia",
+    "pt": "epidemia",
+    "tr": "epidemi"
+   },
+   "ex": {
+    "en": "The flu epidemic closed schools."
+   }
+  },
+  {
+   "id": "health.nutrient",
+   "t": {
+    "en": "nutrient",
+    "uk": "поживна речовина",
+    "ru": "питательное вещество",
+    "pl": "składnik odżywczy",
+    "de": "Nährstoff",
+    "fr": "nutriment",
+    "es": "nutriente",
+    "it": "nutriente",
+    "pt": "nutriente",
+    "tr": "besin maddesi"
+   },
+   "ex": {
+    "en": "Vegetables are rich in nutrients."
+   }
+  },
+  {
+   "id": "health.fibre",
+   "t": {
+    "en": "fibre",
+    "uk": "клітковина",
+    "ru": "клетчатка",
+    "pl": "błonnik",
+    "de": "Ballaststoffe",
+    "fr": "fibres",
+    "es": "fibra",
+    "it": "fibre",
+    "pt": "fibra",
+    "tr": "lif"
+   },
+   "ex": {
+    "en": "Oats are high in fibre."
+   }
+  },
+  {
+   "id": "health.to-undergo-surgery",
+   "t": {
+    "en": "to undergo surgery",
+    "uk": "перенести операцію",
+    "ru": "перенести операцию",
+    "pl": "przejść operację",
+    "de": "sich operieren lassen",
+    "fr": "subir une opération",
+    "es": "operarse",
+    "it": "operarsi",
+    "pt": "ser operado",
+    "tr": "ameliyat olmak"
+   },
+   "ex": {
+    "en": "She will undergo surgery next week."
+   }
+  },
+  {
+   "id": "health.to-be-hospitalized",
+   "t": {
+    "en": "to be hospitalized",
+    "uk": "бути госпіталізованим",
+    "ru": "быть госпитализированным",
+    "pl": "trafić do szpitala",
+    "de": "ins Krankenhaus kommen",
+    "fr": "être hospitalisé",
+    "es": "ser hospitalizado",
+    "it": "essere ricoverato",
+    "pt": "ser internado",
+    "tr": "hastaneye yatırılmak"
+   },
+   "ex": {
+    "en": "He was hospitalized with pneumonia."
+   }
+  },
+  {
+   "id": "health.to-be-discharged",
+   "t": {
+    "en": "to be discharged",
+    "uk": "бути виписаним",
+    "ru": "быть выписанным",
+    "pl": "zostać wypisanym",
+    "de": "entlassen werden",
+    "fr": "sortir de l'hôpital",
+    "es": "recibir el alta",
+    "it": "essere dimesso",
+    "pt": "ter alta",
+    "tr": "taburcu olmak"
+   },
+   "ex": {
+    "en": "She was discharged after three days."
+   }
+  },
+  {
+   "id": "health.gp",
+   "t": {
+    "en": "GP",
+    "uk": "сімейний лікар",
+    "ru": "семейный врач",
+    "pl": "lekarz rodzinny",
+    "de": "Hausarzt",
+    "fr": "médecin généraliste",
+    "es": "médico de cabecera",
+    "it": "medico di base",
+    "pt": "clínico geral",
+    "tr": "aile hekimi"
+   },
+   "ex": {
+    "en": "Ask your GP for advice."
+   }
+  },
+  {
+   "id": "health.referral",
+   "t": {
+    "en": "referral",
+    "uk": "направлення",
+    "ru": "направление",
+    "pl": "skierowanie",
+    "de": "Überweisung",
+    "fr": "lettre d'orientation",
+    "es": "derivación",
+    "it": "impegnativa",
+    "pt": "encaminhamento",
+    "tr": "sevk"
+   },
+   "ex": {
+    "en": "You need a referral to see a specialist."
+   }
+  },
+  {
+   "id": "health.mri-scan",
+   "t": {
+    "en": "MRI scan",
+    "uk": "МРТ",
+    "ru": "МРТ",
+    "pl": "rezonans magnetyczny",
+    "de": "MRT",
+    "fr": "IRM",
+    "es": "resonancia magnética",
+    "it": "risonanza magnetica",
+    "pt": "ressonância magnética",
+    "tr": "MR çekimi"
+   },
+   "ex": {
+    "en": "The MRI scan showed no damage."
+   }
+  },
+  {
+   "id": "health.ultrasound",
+   "t": {
+    "en": "ultrasound",
+    "uk": "УЗД",
+    "ru": "УЗИ",
+    "pl": "USG",
+    "de": "Ultraschall",
+    "fr": "échographie",
+    "es": "ecografía",
+    "it": "ecografia",
+    "pt": "ultrassom",
+    "tr": "ultrason"
+   },
+   "ex": {
+    "en": "The ultrasound showed twins."
+   }
+  },
+  {
+   "id": "health.blood-sugar",
+   "t": {
+    "en": "blood sugar",
+    "uk": "цукор у крові",
+    "ru": "сахар в крови",
+    "pl": "cukier we krwi",
+    "de": "Blutzucker",
+    "fr": "glycémie",
+    "es": "azúcar en sangre",
+    "it": "glicemia",
+    "pt": "glicemia",
+    "tr": "kan şekeri"
+   },
+   "ex": {
+    "en": "Check your blood sugar regularly."
+   }
+  },
+  {
+   "id": "health.obesity",
+   "t": {
+    "en": "obesity",
+    "uk": "ожиріння",
+    "ru": "ожирение",
+    "pl": "otyłość",
+    "de": "Fettleibigkeit",
+    "fr": "obésité",
+    "es": "obesidad",
+    "it": "obesità",
+    "pt": "obesidade",
+    "tr": "obezite"
+   },
+   "ex": {
+    "en": "Obesity is a growing problem."
+   }
+  },
+  {
+   "id": "health.addiction",
+   "t": {
+    "en": "addiction",
+    "uk": "залежність",
+    "ru": "зависимость",
+    "pl": "uzależnienie",
+    "de": "Sucht",
+    "fr": "dépendance",
+    "es": "adicción",
+    "it": "dipendenza",
+    "pt": "vício",
+    "tr": "bağımlılık"
+   },
+   "ex": {
+    "en": "He sought help for his addiction."
+   }
+  },
+  {
+   "id": "health.eating-disorder",
+   "t": {
+    "en": "eating disorder",
+    "uk": "розлад харчування",
+    "ru": "расстройство питания",
+    "pl": "zaburzenie odżywiania",
+    "de": "Essstörung",
+    "fr": "trouble alimentaire",
+    "es": "trastorno alimentario",
+    "it": "disturbo alimentare",
+    "pt": "transtorno alimentar",
+    "tr": "yeme bozukluğu"
+   },
+   "ex": {
+    "en": "She recovered from an eating disorder."
+   }
+  },
+  {
+   "id": "health.depression",
+   "t": {
+    "en": "depression",
+    "uk": "депресія",
+    "ru": "депрессия",
+    "pl": "depresja",
+    "de": "Depression",
+    "fr": "dépression",
+    "es": "depresión",
+    "it": "depressione",
+    "pt": "depressão",
+    "tr": "depresyon"
+   },
+   "ex": {
+    "en": "Depression is a serious illness."
+   }
+  },
+  {
+   "id": "health.hay-fever",
+   "t": {
+    "en": "hay fever",
+    "uk": "сінна лихоманка",
+    "ru": "сенная лихорадка",
+    "pl": "katar sienny",
+    "de": "Heuschnupfen",
+    "fr": "rhume des foins",
+    "es": "fiebre del heno",
+    "it": "raffreddore da fieno",
+    "pt": "rinite alérgica",
+    "tr": "saman nezlesi"
+   },
+   "ex": {
+    "en": "My hay fever is bad in spring."
+   }
+  },
+  {
+   "id": "health.posture",
+   "t": {
+    "en": "posture",
+    "uk": "постава",
+    "ru": "осанка",
+    "pl": "postawa",
+    "de": "Körperhaltung",
+    "fr": "posture",
+    "es": "postura",
+    "it": "postura",
+    "pt": "postura",
+    "tr": "duruş"
+   },
+   "ex": {
+    "en": "Good posture protects your back."
+   }
+  },
+  {
+   "id": "health.joint-pain",
+   "t": {
+    "en": "joint pain",
+    "uk": "біль у суглобах",
+    "ru": "боль в суставах",
+    "pl": "ból stawów",
+    "de": "Gelenkschmerzen",
+    "fr": "douleurs articulaires",
+    "es": "dolor articular",
+    "it": "dolori articolari",
+    "pt": "dor nas articulações",
+    "tr": "eklem ağrısı"
+   },
+   "ex": {
+    "en": "Cold weather worsens my joint pain."
    }
   }
  ]

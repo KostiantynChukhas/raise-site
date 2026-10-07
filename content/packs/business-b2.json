@@ -2,7 +2,7 @@
  "id": "business-b2",
  "topic": "business",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "business.stakeholder",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "The cuts improved our bottom line."
+   }
+  },
+  {
+   "id": "business.turnover",
+   "t": {
+    "en": "turnover",
+    "uk": "оборот",
+    "ru": "оборот",
+    "pl": "obrót",
+    "de": "Umsatz",
+    "fr": "chiffre d'affaires",
+    "es": "facturación",
+    "it": "fatturato",
+    "pt": "faturamento",
+    "tr": "ciro"
+   },
+   "ex": {
+    "en": "Our annual turnover is two million."
+   }
+  },
+  {
+   "id": "business.revenue-stream",
+   "t": {
+    "en": "revenue stream",
+    "uk": "джерело доходу",
+    "ru": "источник дохода",
+    "pl": "źródło przychodu",
+    "de": "Einnahmequelle",
+    "fr": "source de revenus",
+    "es": "fuente de ingresos",
+    "it": "fonte di ricavi",
+    "pt": "fonte de receita",
+    "tr": "gelir kaynağı"
+   },
+   "ex": {
+    "en": "Ads are our main revenue stream."
+   }
+  },
+  {
+   "id": "business.benchmark",
+   "t": {
+    "en": "benchmark",
+    "uk": "орієнтир",
+    "ru": "ориентир",
+    "pl": "punkt odniesienia",
+    "de": "Maßstab",
+    "fr": "référence",
+    "es": "referencia",
+    "it": "punto di riferimento",
+    "pt": "referência",
+    "tr": "kıyaslama ölçütü"
+   },
+   "ex": {
+    "en": "Their product is the industry benchmark."
+   }
+  },
+  {
+   "id": "business.quarterly-report",
+   "t": {
+    "en": "quarterly report",
+    "uk": "квартальний звіт",
+    "ru": "квартальный отчёт",
+    "pl": "raport kwartalny",
+    "de": "Quartalsbericht",
+    "fr": "rapport trimestriel",
+    "es": "informe trimestral",
+    "it": "relazione trimestrale",
+    "pt": "relatório trimestral",
+    "tr": "üç aylık rapor"
+   },
+   "ex": {
+    "en": "The quarterly report looks good."
+   }
+  },
+  {
+   "id": "business.sales-forecast",
+   "t": {
+    "en": "sales forecast",
+    "uk": "прогноз продажів",
+    "ru": "прогноз продаж",
+    "pl": "prognoza sprzedaży",
+    "de": "Absatzprognose",
+    "fr": "prévision des ventes",
+    "es": "previsión de ventas",
+    "it": "previsione delle vendite",
+    "pt": "previsão de vendas",
+    "tr": "satış tahmini"
+   },
+   "ex": {
+    "en": "We revised the sales forecast."
+   }
+  },
+  {
+   "id": "business.franchise",
+   "t": {
+    "en": "franchise",
+    "uk": "франшиза",
+    "ru": "франшиза",
+    "pl": "franczyza",
+    "de": "Franchise",
+    "fr": "franchise",
+    "es": "franquicia",
+    "it": "franchising",
+    "pt": "franquia",
+    "tr": "bayilik"
+   },
+   "ex": {
+    "en": "He bought a coffee shop franchise."
+   }
+  },
+  {
+   "id": "business.patent",
+   "t": {
+    "en": "patent",
+    "uk": "патент",
+    "ru": "патент",
+    "pl": "patent",
+    "de": "Patent",
+    "fr": "brevet",
+    "es": "patente",
+    "it": "brevetto",
+    "pt": "patente",
+    "tr": "patent"
+   },
+   "ex": {
+    "en": "They applied for a patent."
+   }
+  },
+  {
+   "id": "business.trademark",
+   "t": {
+    "en": "trademark",
+    "uk": "торговельна марка",
+    "ru": "товарный знак",
+    "pl": "znak towarowy",
+    "de": "Marke",
+    "fr": "marque déposée",
+    "es": "marca registrada",
+    "it": "marchio registrato",
+    "pt": "marca registrada",
+    "tr": "ticari marka"
+   },
+   "ex": {
+    "en": "The name is a registered trademark."
+   }
+  },
+  {
+   "id": "business.market-leader",
+   "t": {
+    "en": "market leader",
+    "uk": "лідер ринку",
+    "ru": "лидер рынка",
+    "pl": "lider rynku",
+    "de": "Marktführer",
+    "fr": "leader du marché",
+    "es": "líder del mercado",
+    "it": "leader di mercato",
+    "pt": "líder de mercado",
+    "tr": "pazar lideri"
+   },
+   "ex": {
+    "en": "They are the market leader in Europe."
+   }
+  },
+  {
+   "id": "business.niche-market",
+   "t": {
+    "en": "niche market",
+    "uk": "ринкова ніша",
+    "ru": "рыночная ниша",
+    "pl": "nisza rynkowa",
+    "de": "Nischenmarkt",
+    "fr": "marché de niche",
+    "es": "nicho de mercado",
+    "it": "mercato di nicchia",
+    "pt": "nicho de mercado",
+    "tr": "niş pazar"
+   },
+   "ex": {
+    "en": "They focus on a niche market."
+   }
+  },
+  {
+   "id": "business.customer-loyalty",
+   "t": {
+    "en": "customer loyalty",
+    "uk": "лояльність клієнтів",
+    "ru": "лояльность клиентов",
+    "pl": "lojalność klientów",
+    "de": "Kundentreue",
+    "fr": "fidélité des clients",
+    "es": "fidelidad del cliente",
+    "it": "fedeltà dei clienti",
+    "pt": "fidelidade do cliente",
+    "tr": "müşteri sadakati"
+   },
+   "ex": {
+    "en": "Good service builds customer loyalty."
+   }
+  },
+  {
+   "id": "business.fringe-benefits",
+   "t": {
+    "en": "fringe benefits",
+    "uk": "соціальний пакет",
+    "ru": "социальный пакет",
+    "pl": "świadczenia pozapłacowe",
+    "de": "Zusatzleistungen",
+    "fr": "avantages sociaux",
+    "es": "beneficios adicionales",
+    "it": "benefici accessori",
+    "pt": "benefícios adicionais",
+    "tr": "yan haklar"
+   },
+   "ex": {
+    "en": "The job comes with good fringe benefits."
+   }
+  },
+  {
+   "id": "business.takeover",
+   "t": {
+    "en": "takeover",
+    "uk": "поглинання",
+    "ru": "поглощение",
+    "pl": "przejęcie",
+    "de": "Übernahme",
+    "fr": "prise de contrôle",
+    "es": "absorción",
+    "it": "rilevamento",
+    "pt": "tomada de controle",
+    "tr": "devralma"
+   },
+   "ex": {
+    "en": "The takeover was completed last month."
+   }
+  },
+  {
+   "id": "business.annual-report",
+   "t": {
+    "en": "annual report",
+    "uk": "річний звіт",
+    "ru": "годовой отчёт",
+    "pl": "raport roczny",
+    "de": "Geschäftsbericht",
+    "fr": "rapport annuel",
+    "es": "informe anual",
+    "it": "relazione annuale",
+    "pt": "relatório anual",
+    "tr": "yıllık rapor"
+   },
+   "ex": {
+    "en": "The annual report is published in March."
+   }
+  },
+  {
+   "id": "business.corporate-culture",
+   "t": {
+    "en": "corporate culture",
+    "uk": "корпоративна культура",
+    "ru": "корпоративная культура",
+    "pl": "kultura organizacyjna",
+    "de": "Unternehmenskultur",
+    "fr": "culture d'entreprise",
+    "es": "cultura empresarial",
+    "it": "cultura aziendale",
+    "pt": "cultura organizacional",
+    "tr": "kurum kültürü"
+   },
+   "ex": {
+    "en": "Their corporate culture is very open."
+   }
+  },
+  {
+   "id": "business.unique-selling-point",
+   "t": {
+    "en": "unique selling point",
+    "uk": "унікальна торгова пропозиція",
+    "ru": "уникальное торговое предложение",
+    "pl": "unikalna propozycja sprzedaży",
+    "de": "Alleinstellungsmerkmal",
+    "fr": "proposition unique de vente",
+    "es": "propuesta única de venta",
+    "it": "punto di forza unico",
+    "pt": "proposta única de venda",
+    "tr": "benzersiz satış teklifi"
+   },
+   "ex": {
+    "en": "Price is our unique selling point."
+   }
+  },
+  {
+   "id": "business.competitive-advantage",
+   "t": {
+    "en": "competitive advantage",
+    "uk": "конкурентна перевага",
+    "ru": "конкурентное преимущество",
+    "pl": "przewaga konkurencyjna",
+    "de": "Wettbewerbsvorteil",
+    "fr": "avantage concurrentiel",
+    "es": "ventaja competitiva",
+    "it": "vantaggio competitivo",
+    "pt": "vantagem competitiva",
+    "tr": "rekabet avantajı"
+   },
+   "ex": {
+    "en": "Speed gives us a competitive advantage."
+   }
+  },
+  {
+   "id": "business.incentive",
+   "t": {
+    "en": "incentive",
+    "uk": "стимул",
+    "ru": "стимул",
+    "pl": "zachęta",
+    "de": "Anreiz",
+    "fr": "incitation",
+    "es": "incentivo",
+    "it": "incentivo",
+    "pt": "incentivo",
+    "tr": "teşvik"
+   },
+   "ex": {
+    "en": "Bonuses are a strong incentive."
+   }
+  },
+  {
+   "id": "business.tariff",
+   "t": {
+    "en": "tariff",
+    "uk": "мито",
+    "ru": "пошлина",
+    "pl": "cło",
+    "de": "Zoll",
+    "fr": "droit de douane",
+    "es": "arancel",
+    "it": "dazio",
+    "pt": "tarifa alfandegária",
+    "tr": "gümrük vergisi"
+   },
+   "ex": {
+    "en": "The new tariff hurt exports."
+   }
+  },
+  {
+   "id": "business.to-enter-a-market",
+   "t": {
+    "en": "to enter a market",
+    "uk": "вийти на ринок",
+    "ru": "выйти на рынок",
+    "pl": "wejść na rynek",
+    "de": "einen Markt erschließen",
+    "fr": "pénétrer un marché",
+    "es": "entrar en un mercado",
+    "it": "entrare in un mercato",
+    "pt": "entrar em um mercado",
+    "tr": "pazara girmek"
+   },
+   "ex": {
+    "en": "They want to enter the Asian market."
+   }
+  },
+  {
+   "id": "business.customer-base",
+   "t": {
+    "en": "customer base",
+    "uk": "клієнтська база",
+    "ru": "клиентская база",
+    "pl": "baza klientów",
+    "de": "Kundenstamm",
+    "fr": "clientèle",
+    "es": "cartera de clientes",
+    "it": "clientela",
+    "pt": "base de clientes",
+    "tr": "müşteri tabanı"
+   },
+   "ex": {
+    "en": "We have a loyal customer base."
+   }
+  },
+  {
+   "id": "business.operating-costs",
+   "t": {
+    "en": "operating costs",
+    "uk": "операційні витрати",
+    "ru": "операционные расходы",
+    "pl": "koszty operacyjne",
+    "de": "Betriebskosten",
+    "fr": "coûts d'exploitation",
+    "es": "costes operativos",
+    "it": "costi operativi",
+    "pt": "custos operacionais",
+    "tr": "işletme giderleri"
+   },
+   "ex": {
+    "en": "Operating costs rose by ten percent."
    }
   }
  ]

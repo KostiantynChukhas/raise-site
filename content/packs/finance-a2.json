@@ -2,7 +2,7 @@
  "id": "finance-a2",
  "topic": "finance",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "finance.bank-account",
@@ -452,6 +452,456 @@
    },
    "ex": {
     "en": "You owe me ten euros."
+   }
+  },
+  {
+   "id": "finance.wages",
+   "t": {
+    "en": "wages",
+    "uk": "заробіток",
+    "ru": "заработок",
+    "pl": "płaca",
+    "de": "Lohn",
+    "fr": "paie",
+    "es": "sueldo",
+    "it": "paga",
+    "pt": "ordenado",
+    "tr": "ücret"
+   },
+   "ex": {
+    "en": "His weekly wages are not very high."
+   }
+  },
+  {
+   "id": "finance.cheque",
+   "t": {
+    "en": "cheque",
+    "uk": "чек",
+    "ru": "чек",
+    "pl": "czek",
+    "de": "Scheck",
+    "fr": "chèque",
+    "es": "cheque",
+    "it": "assegno",
+    "pt": "cheque",
+    "tr": "çek"
+   },
+   "ex": {
+    "en": "She paid for the sofa by cheque."
+   }
+  },
+  {
+   "id": "finance.credit",
+   "t": {
+    "en": "credit",
+    "uk": "кредит",
+    "ru": "кредит",
+    "pl": "kredyt",
+    "de": "Kredit",
+    "fr": "crédit",
+    "es": "crédito",
+    "it": "credito",
+    "pt": "crédito",
+    "tr": "kredi"
+   },
+   "ex": {
+    "en": "They bought the TV on credit."
+   }
+  },
+  {
+   "id": "finance.money-problems",
+   "t": {
+    "en": "money problems",
+    "uk": "проблеми з грошима",
+    "ru": "проблемы с деньгами",
+    "pl": "kłopoty finansowe",
+    "de": "Geldprobleme",
+    "fr": "problèmes d'argent",
+    "es": "problemas de dinero",
+    "it": "problemi di soldi",
+    "pt": "problemas de dinheiro",
+    "tr": "para sorunları"
+   },
+   "ex": {
+    "en": "He has money problems this month."
+   }
+  },
+  {
+   "id": "finance.to-save-up",
+   "t": {
+    "en": "to save up",
+    "uk": "накопичувати",
+    "ru": "копить",
+    "pl": "uzbierać",
+    "de": "zusammensparen",
+    "fr": "mettre de l'argent de côté",
+    "es": "ahorrar para",
+    "it": "risparmiare per",
+    "pt": "juntar dinheiro",
+    "tr": "para biriktirmek"
+   },
+   "ex": {
+    "en": "I'm saving up for a new bike."
+   }
+  },
+  {
+   "id": "finance.to-share-costs",
+   "t": {
+    "en": "to share costs",
+    "uk": "розділити витрати",
+    "ru": "разделить расходы",
+    "pl": "dzielić koszty",
+    "de": "Kosten teilen",
+    "fr": "partager les frais",
+    "es": "compartir gastos",
+    "it": "dividere le spese",
+    "pt": "dividir as despesas",
+    "tr": "masrafları paylaşmak"
+   },
+   "ex": {
+    "en": "We share costs for the flat."
+   }
+  },
+  {
+   "id": "finance.cash-withdrawal",
+   "t": {
+    "en": "cash withdrawal",
+    "uk": "зняття готівки",
+    "ru": "снятие наличных",
+    "pl": "wypłata gotówki",
+    "de": "Bargeldabhebung",
+    "fr": "retrait d'espèces",
+    "es": "retirada de efectivo",
+    "it": "prelievo di contanti",
+    "pt": "saque",
+    "tr": "para çekme"
+   },
+   "ex": {
+    "en": "Each cash withdrawal costs one euro."
+   }
+  },
+  {
+   "id": "finance.bank-fee",
+   "t": {
+    "en": "bank fee",
+    "uk": "банківська комісія",
+    "ru": "банковская комиссия",
+    "pl": "opłata bankowa",
+    "de": "Bankgebühr",
+    "fr": "frais bancaires",
+    "es": "comisión bancaria",
+    "it": "commissione bancaria",
+    "pt": "tarifa bancária",
+    "tr": "banka ücreti"
+   },
+   "ex": {
+    "en": "The bank fee is two euros a month."
+   }
+  },
+  {
+   "id": "finance.to-top-up",
+   "t": {
+    "en": "to top up",
+    "uk": "поповнити",
+    "ru": "пополнить",
+    "pl": "doładować",
+    "de": "aufladen",
+    "fr": "recharger",
+    "es": "recargar",
+    "it": "ricaricare",
+    "pt": "recarregar",
+    "tr": "bakiye yüklemek"
+   },
+   "ex": {
+    "en": "I need to top up my phone."
+   }
+  },
+  {
+   "id": "finance.mobile-payment",
+   "t": {
+    "en": "mobile payment",
+    "uk": "мобільний платіж",
+    "ru": "мобильный платёж",
+    "pl": "płatność mobilna",
+    "de": "mobiles Bezahlen",
+    "fr": "paiement mobile",
+    "es": "pago móvil",
+    "it": "pagamento mobile",
+    "pt": "pagamento móvel",
+    "tr": "mobil ödeme"
+   },
+   "ex": {
+    "en": "Mobile payment is fast and easy."
+   }
+  },
+  {
+   "id": "finance.account-number",
+   "t": {
+    "en": "account number",
+    "uk": "номер рахунку",
+    "ru": "номер счёта",
+    "pl": "numer konta",
+    "de": "Kontonummer",
+    "fr": "numéro de compte",
+    "es": "número de cuenta",
+    "it": "numero di conto",
+    "pt": "número da conta",
+    "tr": "hesap numarası"
+   },
+   "ex": {
+    "en": "Write your account number here."
+   }
+  },
+  {
+   "id": "finance.card-number",
+   "t": {
+    "en": "card number",
+    "uk": "номер картки",
+    "ru": "номер карты",
+    "pl": "numer karty",
+    "de": "Kartennummer",
+    "fr": "numéro de carte",
+    "es": "número de tarjeta",
+    "it": "numero della carta",
+    "pt": "número do cartão",
+    "tr": "kart numarası"
+   },
+   "ex": {
+    "en": "Never share your card number."
+   }
+  },
+  {
+   "id": "finance.to-waste-money",
+   "t": {
+    "en": "to waste money",
+    "uk": "марнувати гроші",
+    "ru": "тратить деньги впустую",
+    "pl": "marnować pieniądze",
+    "de": "Geld verschwenden",
+    "fr": "gaspiller de l'argent",
+    "es": "malgastar dinero",
+    "it": "sprecare soldi",
+    "pt": "desperdiçar dinheiro",
+    "tr": "para israf etmek"
+   },
+   "ex": {
+    "en": "Don't waste money on things you don't need."
+   }
+  },
+  {
+   "id": "finance.to-be-broke",
+   "t": {
+    "en": "to be broke",
+    "uk": "бути на мілині",
+    "ru": "быть на мели",
+    "pl": "być spłukanym",
+    "de": "pleite sein",
+    "fr": "être fauché",
+    "es": "estar sin blanca",
+    "it": "essere al verde",
+    "pt": "estar sem dinheiro",
+    "tr": "meteliksiz olmak"
+   },
+   "ex": {
+    "en": "I can't come out tonight, I'm broke."
+   }
+  },
+  {
+   "id": "finance.price-increase",
+   "t": {
+    "en": "price increase",
+    "uk": "підвищення цін",
+    "ru": "повышение цен",
+    "pl": "podwyżka cen",
+    "de": "Preiserhöhung",
+    "fr": "hausse des prix",
+    "es": "subida de precios",
+    "it": "aumento dei prezzi",
+    "pt": "aumento de preços",
+    "tr": "fiyat artışı"
+   },
+   "ex": {
+    "en": "Everyone is talking about the price increase."
+   }
+  },
+  {
+   "id": "finance.to-pay-online",
+   "t": {
+    "en": "to pay online",
+    "uk": "платити онлайн",
+    "ru": "платить онлайн",
+    "pl": "płacić online",
+    "de": "online bezahlen",
+    "fr": "payer en ligne",
+    "es": "pagar en línea",
+    "it": "pagare online",
+    "pt": "pagar online",
+    "tr": "online ödemek"
+   },
+   "ex": {
+    "en": "I usually pay online."
+   }
+  },
+  {
+   "id": "finance.exchange-office",
+   "t": {
+    "en": "exchange office",
+    "uk": "обмінний пункт",
+    "ru": "обменный пункт",
+    "pl": "kantor",
+    "de": "Wechselstube",
+    "fr": "bureau de change",
+    "es": "casa de cambio",
+    "it": "ufficio cambi",
+    "pt": "casa de câmbio",
+    "tr": "döviz bürosu"
+   },
+   "ex": {
+    "en": "The exchange office is near the station."
+   }
+  },
+  {
+   "id": "finance.bank-loan",
+   "t": {
+    "en": "bank loan",
+    "uk": "банківський кредит",
+    "ru": "банковский кредит",
+    "pl": "kredyt bankowy",
+    "de": "Bankkredit",
+    "fr": "prêt bancaire",
+    "es": "préstamo bancario",
+    "it": "prestito bancario",
+    "pt": "empréstimo bancário",
+    "tr": "banka kredisi"
+   },
+   "ex": {
+    "en": "They took a bank loan for the car."
+   }
+  },
+  {
+   "id": "finance.foreign-currency",
+   "t": {
+    "en": "foreign currency",
+    "uk": "іноземна валюта",
+    "ru": "иностранная валюта",
+    "pl": "waluta obca",
+    "de": "Fremdwährung",
+    "fr": "devise étrangère",
+    "es": "moneda extranjera",
+    "it": "valuta estera",
+    "pt": "moeda estrangeira",
+    "tr": "döviz"
+   },
+   "ex": {
+    "en": "Do you accept foreign currency?"
+   }
+  },
+  {
+   "id": "finance.interest",
+   "t": {
+    "en": "interest",
+    "uk": "відсотки",
+    "ru": "проценты",
+    "pl": "odsetki",
+    "de": "Zinsen",
+    "fr": "intérêts",
+    "es": "intereses",
+    "it": "interessi",
+    "pt": "juros",
+    "tr": "faiz"
+   },
+   "ex": {
+    "en": "The bank pays interest on my savings."
+   }
+  },
+  {
+   "id": "finance.bank-branch",
+   "t": {
+    "en": "bank branch",
+    "uk": "відділення банку",
+    "ru": "отделение банка",
+    "pl": "oddział banku",
+    "de": "Bankfiliale",
+    "fr": "agence bancaire",
+    "es": "sucursal bancaria",
+    "it": "filiale bancaria",
+    "pt": "agência bancária",
+    "tr": "banka şubesi"
+   },
+   "ex": {
+    "en": "The bank branch closes at five."
+   }
+  },
+  {
+   "id": "finance.to-cash-a-cheque",
+   "t": {
+    "en": "to cash a cheque",
+    "uk": "обготівкувати чек",
+    "ru": "обналичить чек",
+    "pl": "zrealizować czek",
+    "de": "einen Scheck einlösen",
+    "fr": "encaisser un chèque",
+    "es": "cobrar un cheque",
+    "it": "incassare un assegno",
+    "pt": "descontar um cheque",
+    "tr": "çeki bozdurmak"
+   },
+   "ex": {
+    "en": "I went to the bank to cash a cheque."
+   }
+  },
+  {
+   "id": "finance.loose-change",
+   "t": {
+    "en": "loose change",
+    "uk": "дрібні гроші",
+    "ru": "мелочь",
+    "pl": "drobne",
+    "de": "Kleingeld",
+    "fr": "petite monnaie",
+    "es": "suelto",
+    "it": "spiccioli",
+    "pt": "trocado",
+    "tr": "bozuk para"
+   },
+   "ex": {
+    "en": "I have some loose change in my pocket."
+   }
+  },
+  {
+   "id": "finance.price-list",
+   "t": {
+    "en": "price list",
+    "uk": "прайс-лист",
+    "ru": "прайс-лист",
+    "pl": "cennik",
+    "de": "Preisliste",
+    "fr": "liste de prix",
+    "es": "lista de precios",
+    "it": "listino prezzi",
+    "pt": "tabela de preços",
+    "tr": "fiyat listesi"
+   },
+   "ex": {
+    "en": "Can I see the price list?"
+   }
+  },
+  {
+   "id": "finance.to-be-in-debt",
+   "t": {
+    "en": "to be in debt",
+    "uk": "бути в боргах",
+    "ru": "быть в долгах",
+    "pl": "być zadłużonym",
+    "de": "verschuldet sein",
+    "fr": "être endetté",
+    "es": "estar endeudado",
+    "it": "essere indebitato",
+    "pt": "estar endividado",
+    "tr": "borçlu olmak"
+   },
+   "ex": {
+    "en": "Many students are in debt."
    }
   }
  ]

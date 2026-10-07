@@ -2,7 +2,7 @@
  "id": "transport-b2",
  "topic": "transport",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "transport.congestion-charge",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "Off-peak tickets are much cheaper."
+   }
+  },
+  {
+   "id": "transport.exhaust-fumes",
+   "t": {
+    "en": "exhaust fumes",
+    "uk": "вихлопні гази",
+    "ru": "выхлопные газы",
+    "pl": "spaliny",
+    "de": "Abgase",
+    "fr": "gaz d'échappement",
+    "es": "gases de escape",
+    "it": "gas di scarico",
+    "pt": "gases de escape",
+    "tr": "egzoz gazı"
+   },
+   "ex": {
+    "en": "Exhaust fumes make the air in the city dirty."
+   }
+  },
+  {
+   "id": "transport.hybrid-car",
+   "t": {
+    "en": "hybrid car",
+    "uk": "гібридний автомобіль",
+    "ru": "гибридный автомобиль",
+    "pl": "samochód hybrydowy",
+    "de": "Hybridauto",
+    "fr": "voiture hybride",
+    "es": "coche híbrido",
+    "it": "auto ibrida",
+    "pt": "carro híbrido",
+    "tr": "hibrit araç"
+   },
+   "ex": {
+    "en": "A hybrid car uses less fuel in town."
+   }
+  },
+  {
+   "id": "transport.traffic-offence",
+   "t": {
+    "en": "traffic offence",
+    "uk": "порушення ПДР",
+    "ru": "нарушение ПДД",
+    "pl": "wykroczenie drogowe",
+    "de": "Verkehrsverstoß",
+    "fr": "infraction routière",
+    "es": "infracción de tráfico",
+    "it": "infrazione stradale",
+    "pt": "infração de trânsito",
+    "tr": "trafik ihlali"
+   },
+   "ex": {
+    "en": "Using your phone while driving is a traffic offence."
+   }
+  },
+  {
+   "id": "transport.penalty-points",
+   "t": {
+    "en": "penalty points",
+    "uk": "штрафні бали",
+    "ru": "штрафные баллы",
+    "pl": "punkty karne",
+    "de": "Strafpunkte",
+    "fr": "points de pénalité",
+    "es": "puntos de penalización",
+    "it": "punti di penalità",
+    "pt": "pontos na carteira",
+    "tr": "ceza puanı"
+   },
+   "ex": {
+    "en": "He got three penalty points for speeding."
+   }
+  },
+  {
+   "id": "transport.driving-ban",
+   "t": {
+    "en": "driving ban",
+    "uk": "позбавлення прав",
+    "ru": "лишение прав",
+    "pl": "zakaz prowadzenia pojazdów",
+    "de": "Fahrverbot",
+    "fr": "suspension de permis",
+    "es": "retirada del carné",
+    "it": "sospensione della patente",
+    "pt": "suspensão da carteira",
+    "tr": "ehliyet iptali"
+   },
+   "ex": {
+    "en": "She received a six-month driving ban."
+   }
+  },
+  {
+   "id": "transport.breathalyser",
+   "t": {
+    "en": "breathalyser",
+    "uk": "алкотестер",
+    "ru": "алкотестер",
+    "pl": "alkomat",
+    "de": "Alkoholtester",
+    "fr": "éthylotest",
+    "es": "alcoholímetro",
+    "it": "etilometro",
+    "pt": "bafômetro",
+    "tr": "alkolmetre"
+   },
+   "ex": {
+    "en": "The police asked him to blow into a breathalyser."
+   }
+  },
+  {
+   "id": "transport.traffic-flow",
+   "t": {
+    "en": "traffic flow",
+    "uk": "транспортний потік",
+    "ru": "транспортный поток",
+    "pl": "płynność ruchu",
+    "de": "Verkehrsfluss",
+    "fr": "flux de circulation",
+    "es": "flujo de tráfico",
+    "it": "flusso del traffico",
+    "pt": "fluxo de trânsito",
+    "tr": "trafik akışı"
+   },
+   "ex": {
+    "en": "New lights have improved traffic flow."
+   }
+  },
+  {
+   "id": "transport.to-lose-control",
+   "t": {
+    "en": "to lose control",
+    "uk": "втратити керування",
+    "ru": "потерять управление",
+    "pl": "stracić panowanie nad pojazdem",
+    "de": "die Kontrolle verlieren",
+    "fr": "perdre le contrôle",
+    "es": "perder el control",
+    "it": "perdere il controllo",
+    "pt": "perder o controle",
+    "tr": "kontrolü kaybetmek"
+   },
+   "ex": {
+    "en": "The driver lost control on the icy road."
+   }
+  },
+  {
+   "id": "transport.head-on-collision",
+   "t": {
+    "en": "head-on collision",
+    "uk": "лобове зіткнення",
+    "ru": "лобовое столкновение",
+    "pl": "zderzenie czołowe",
+    "de": "Frontalzusammenstoß",
+    "fr": "collision frontale",
+    "es": "choque frontal",
+    "it": "scontro frontale",
+    "pt": "colisão frontal",
+    "tr": "kafa kafaya çarpışma"
+   },
+   "ex": {
+    "en": "Two lorries were involved in a head-on collision."
+   }
+  },
+  {
+   "id": "transport.tire-pressure",
+   "t": {
+    "en": "tire pressure",
+    "uk": "тиск у шинах",
+    "ru": "давление в шинах",
+    "pl": "ciśnienie w oponach",
+    "de": "Reifendruck",
+    "fr": "pression des pneus",
+    "es": "presión de los neumáticos",
+    "it": "pressione delle gomme",
+    "pt": "pressão dos pneus",
+    "tr": "lastik basıncı"
+   },
+   "ex": {
+    "en": "Check your tire pressure before a long trip."
+   }
+  },
+  {
+   "id": "transport.four-wheel-drive",
+   "t": {
+    "en": "four-wheel drive",
+    "uk": "повний привід",
+    "ru": "полный привод",
+    "pl": "napęd na cztery koła",
+    "de": "Allradantrieb",
+    "fr": "quatre roues motrices",
+    "es": "tracción a las cuatro ruedas",
+    "it": "trazione integrale",
+    "pt": "tração nas quatro rodas",
+    "tr": "dört çeker"
+   },
+   "ex": {
+    "en": "You need four-wheel drive on these mountain roads."
+   }
+  },
+  {
+   "id": "transport.handbrake",
+   "t": {
+    "en": "handbrake",
+    "uk": "ручне гальмо",
+    "ru": "ручной тормоз",
+    "pl": "hamulec ręczny",
+    "de": "Handbremse",
+    "fr": "frein à main",
+    "es": "freno de mano",
+    "it": "freno a mano",
+    "pt": "freio de mão",
+    "tr": "el freni"
+   },
+   "ex": {
+    "en": "Always put the handbrake on when you park on a hill."
+   }
+  },
+  {
+   "id": "transport.clutch",
+   "t": {
+    "en": "clutch",
+    "uk": "зчеплення",
+    "ru": "сцепление",
+    "pl": "sprzęgło",
+    "de": "Kupplung",
+    "fr": "embrayage",
+    "es": "embrague",
+    "it": "frizione",
+    "pt": "embreagem",
+    "tr": "debriyaj"
+   },
+   "ex": {
+    "en": "Press the clutch before you change gear."
+   }
+  },
+  {
+   "id": "transport.manual-transmission",
+   "t": {
+    "en": "manual transmission",
+    "uk": "механічна коробка передач",
+    "ru": "механическая коробка передач",
+    "pl": "manualna skrzynia biegów",
+    "de": "Schaltgetriebe",
+    "fr": "boîte manuelle",
+    "es": "cambio manual",
+    "it": "cambio manuale",
+    "pt": "câmbio manual",
+    "tr": "manuel şanzıman"
+   },
+   "ex": {
+    "en": "Most cars in Europe have a manual transmission."
+   }
+  },
+  {
+   "id": "transport.automatic-transmission",
+   "t": {
+    "en": "automatic transmission",
+    "uk": "автоматична коробка передач",
+    "ru": "автоматическая коробка передач",
+    "pl": "automatyczna skrzynia biegów",
+    "de": "Automatikgetriebe",
+    "fr": "boîte automatique",
+    "es": "cambio automático",
+    "it": "cambio automatico",
+    "pt": "câmbio automático",
+    "tr": "otomatik şanzıman"
+   },
+   "ex": {
+    "en": "An automatic transmission is easier in city traffic."
+   }
+  },
+  {
+   "id": "transport.toll-road",
+   "t": {
+    "en": "toll road",
+    "uk": "платна дорога",
+    "ru": "платная дорога",
+    "pl": "droga płatna",
+    "de": "Mautstraße",
+    "fr": "route à péage",
+    "es": "carretera de peaje",
+    "it": "strada a pedaggio",
+    "pt": "estrada com pedágio",
+    "tr": "ücretli yol"
+   },
+   "ex": {
+    "en": "We avoided the toll road to save money."
+   }
+  },
+  {
+   "id": "transport.ring-road",
+   "t": {
+    "en": "ring road",
+    "uk": "кільцева дорога",
+    "ru": "кольцевая дорога",
+    "pl": "obwodnica",
+    "de": "Ringstraße",
+    "fr": "périphérique",
+    "es": "carretera de circunvalación",
+    "it": "tangenziale",
+    "pt": "anel viário",
+    "tr": "çevre yolu"
+   },
+   "ex": {
+    "en": "Take the ring road to avoid the centre."
+   }
+  },
+  {
+   "id": "transport.ride-hailing-app",
+   "t": {
+    "en": "ride-hailing app",
+    "uk": "застосунок для виклику таксі",
+    "ru": "приложение для вызова такси",
+    "pl": "aplikacja przewozowa",
+    "de": "Fahrdienst-App",
+    "fr": "application de VTC",
+    "es": "aplicación de VTC",
+    "it": "app per prenotare corse",
+    "pt": "aplicativo de transporte",
+    "tr": "araç çağırma uygulaması"
+   },
+   "ex": {
+    "en": "I booked a ride through a ride-hailing app."
+   }
+  },
+  {
+   "id": "transport.test-drive",
+   "t": {
+    "en": "test drive",
+    "uk": "тест-драйв",
+    "ru": "тест-драйв",
+    "pl": "jazda próbna",
+    "de": "Probefahrt",
+    "fr": "essai sur route",
+    "es": "prueba de conducción",
+    "it": "giro di prova",
+    "pt": "test drive",
+    "tr": "test sürüşü"
+   },
+   "ex": {
+    "en": "Can I take the car for a test drive?"
+   }
+  },
+  {
+   "id": "transport.used-car",
+   "t": {
+    "en": "used car",
+    "uk": "вживаний автомобіль",
+    "ru": "подержанный автомобиль",
+    "pl": "używany samochód",
+    "de": "Gebrauchtwagen",
+    "fr": "voiture d'occasion",
+    "es": "coche de segunda mano",
+    "it": "auto usata",
+    "pt": "carro usado",
+    "tr": "ikinci el araba"
+   },
+   "ex": {
+    "en": "Buying a used car can save you money."
+   }
+  },
+  {
+   "id": "transport.car-sharing",
+   "t": {
+    "en": "car sharing",
+    "uk": "каршеринг",
+    "ru": "каршеринг",
+    "pl": "carsharing",
+    "de": "Carsharing",
+    "fr": "autopartage",
+    "es": "coche compartido",
+    "it": "car sharing",
+    "pt": "compartilhamento de carros",
+    "tr": "araç paylaşımı"
+   },
+   "ex": {
+    "en": "Car sharing is popular in big cities."
+   }
+  },
+  {
+   "id": "transport.dashcam",
+   "t": {
+    "en": "dashcam",
+    "uk": "відеореєстратор",
+    "ru": "видеорегистратор",
+    "pl": "wideorejestrator",
+    "de": "Dashcam",
+    "fr": "caméra embarquée",
+    "es": "cámara de salpicadero",
+    "it": "telecamera da cruscotto",
+    "pt": "câmera veicular",
+    "tr": "araç kamerası"
+   },
+   "ex": {
+    "en": "The dashcam recorded the whole accident."
    }
   }
  ]

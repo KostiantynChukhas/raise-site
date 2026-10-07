@@ -2,7 +2,7 @@
  "id": "culture-b1",
  "topic": "culture",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "culture.plot",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "She reads crime novels on holiday."
+   }
+  },
+  {
+   "id": "culture.science-fiction",
+   "t": {
+    "en": "science fiction",
+    "uk": "наукова фантастика",
+    "ru": "научная фантастика",
+    "pl": "fantastyka naukowa",
+    "de": "Science-Fiction",
+    "fr": "science-fiction",
+    "es": "ciencia ficción",
+    "it": "fantascienza",
+    "pt": "ficção científica",
+    "tr": "bilim kurgu"
+   },
+   "ex": {
+    "en": "I love science fiction books."
+   }
+  },
+  {
+   "id": "culture.romantic-comedy",
+   "t": {
+    "en": "romantic comedy",
+    "uk": "романтична комедія",
+    "ru": "романтическая комедия",
+    "pl": "komedia romantyczna",
+    "de": "Liebeskomödie",
+    "fr": "comédie romantique",
+    "es": "comedia romántica",
+    "it": "commedia romantica",
+    "pt": "comédia romântica",
+    "tr": "romantik komedi"
+   },
+   "ex": {
+    "en": "Let's watch a romantic comedy."
+   }
+  },
+  {
+   "id": "culture.fantasy",
+   "t": {
+    "en": "fantasy",
+    "uk": "фентезі",
+    "ru": "фэнтези",
+    "pl": "fantasy",
+    "de": "Fantasy",
+    "fr": "fantasy",
+    "es": "fantasía",
+    "it": "fantasy",
+    "pt": "fantasia",
+    "tr": "fantastik"
+   },
+   "ex": {
+    "en": "She writes fantasy novels."
+   }
+  },
+  {
+   "id": "culture.biography",
+   "t": {
+    "en": "biography",
+    "uk": "біографія",
+    "ru": "биография",
+    "pl": "biografia",
+    "de": "Biografie",
+    "fr": "biographie",
+    "es": "biografía",
+    "it": "biografia",
+    "pt": "biografia",
+    "tr": "biyografi"
+   },
+   "ex": {
+    "en": "I'm reading a biography of Mozart."
+   }
+  },
+  {
+   "id": "culture.short-story",
+   "t": {
+    "en": "short story",
+    "uk": "оповідання",
+    "ru": "рассказ",
+    "pl": "opowiadanie",
+    "de": "Kurzgeschichte",
+    "fr": "nouvelle",
+    "es": "relato corto",
+    "it": "racconto",
+    "pt": "conto",
+    "tr": "öykü"
+   },
+   "ex": {
+    "en": "He wrote a short story about his village."
+   }
+  },
+  {
+   "id": "culture.author",
+   "t": {
+    "en": "author",
+    "uk": "автор",
+    "ru": "автор",
+    "pl": "autor",
+    "de": "Autor",
+    "fr": "auteur",
+    "es": "autor",
+    "it": "autore",
+    "pt": "autor",
+    "tr": "yazar"
+   },
+   "ex": {
+    "en": "Who is the author of this book?"
+   }
+  },
+  {
+   "id": "culture.illustration",
+   "t": {
+    "en": "illustration",
+    "uk": "ілюстрація",
+    "ru": "иллюстрация",
+    "pl": "ilustracja",
+    "de": "Illustration",
+    "fr": "illustration",
+    "es": "ilustración",
+    "it": "illustrazione",
+    "pt": "ilustração",
+    "tr": "illüstrasyon"
+   },
+   "ex": {
+    "en": "The illustrations in this book are beautiful."
+   }
+  },
+  {
+   "id": "culture.portrait",
+   "t": {
+    "en": "portrait",
+    "uk": "портрет",
+    "ru": "портрет",
+    "pl": "portret",
+    "de": "Porträt",
+    "fr": "portrait",
+    "es": "retrato",
+    "it": "ritratto",
+    "pt": "retrato",
+    "tr": "portre"
+   },
+   "ex": {
+    "en": "There is a portrait of the queen."
+   }
+  },
+  {
+   "id": "culture.orchestra",
+   "t": {
+    "en": "orchestra",
+    "uk": "оркестр",
+    "ru": "оркестр",
+    "pl": "orkiestra",
+    "de": "Orchester",
+    "fr": "orchestre",
+    "es": "orquesta",
+    "it": "orchestra",
+    "pt": "orquestra",
+    "tr": "orkestra"
+   },
+   "ex": {
+    "en": "The orchestra played Beethoven."
+   }
+  },
+  {
+   "id": "culture.conductor",
+   "t": {
+    "en": "conductor",
+    "uk": "диригент",
+    "ru": "дирижёр",
+    "pl": "dyrygent",
+    "de": "Dirigent",
+    "fr": "chef d'orchestre",
+    "es": "director de orquesta",
+    "it": "direttore d'orchestra",
+    "pt": "maestro",
+    "tr": "orkestra şefi"
+   },
+   "ex": {
+    "en": "The conductor raised his hands."
+   }
+  },
+  {
+   "id": "culture.composer",
+   "t": {
+    "en": "composer",
+    "uk": "композитор",
+    "ru": "композитор",
+    "pl": "kompozytor",
+    "de": "Komponist",
+    "fr": "compositeur",
+    "es": "compositor",
+    "it": "compositore",
+    "pt": "compositor",
+    "tr": "besteci"
+   },
+   "ex": {
+    "en": "Chopin is my favourite composer."
+   }
+  },
+  {
+   "id": "culture.classical-music",
+   "t": {
+    "en": "classical music",
+    "uk": "класична музика",
+    "ru": "классическая музыка",
+    "pl": "muzyka klasyczna",
+    "de": "klassische Musik",
+    "fr": "musique classique",
+    "es": "música clásica",
+    "it": "musica classica",
+    "pt": "música clássica",
+    "tr": "klasik müzik"
+   },
+   "ex": {
+    "en": "I study with classical music on."
+   }
+  },
+  {
+   "id": "culture.tune",
+   "t": {
+    "en": "tune",
+    "uk": "мелодія",
+    "ru": "мелодия",
+    "pl": "melodia",
+    "de": "Melodie",
+    "fr": "mélodie",
+    "es": "melodía",
+    "it": "melodia",
+    "pt": "melodia",
+    "tr": "melodi"
+   },
+   "ex": {
+    "en": "I can't get this tune out of my head."
+   }
+  },
+  {
+   "id": "culture.to-compose",
+   "t": {
+    "en": "to compose",
+    "uk": "складати музику",
+    "ru": "сочинять музыку",
+    "pl": "komponować",
+    "de": "komponieren",
+    "fr": "composer",
+    "es": "componer",
+    "it": "comporre",
+    "pt": "compor",
+    "tr": "beste yapmak"
+   },
+   "ex": {
+    "en": "He composed the music for the film."
+   }
+  },
+  {
+   "id": "culture.to-record",
+   "t": {
+    "en": "to record",
+    "uk": "записувати",
+    "ru": "записывать",
+    "pl": "nagrywać",
+    "de": "aufnehmen",
+    "fr": "enregistrer",
+    "es": "grabar",
+    "it": "registrare",
+    "pt": "gravar",
+    "tr": "kaydetmek"
+   },
+   "ex": {
+    "en": "The band is recording a new album."
+   }
+  },
+  {
+   "id": "culture.recording-studio",
+   "t": {
+    "en": "recording studio",
+    "uk": "студія звукозапису",
+    "ru": "студия звукозаписи",
+    "pl": "studio nagraniowe",
+    "de": "Tonstudio",
+    "fr": "studio d'enregistrement",
+    "es": "estudio de grabación",
+    "it": "studio di registrazione",
+    "pt": "estúdio de gravação",
+    "tr": "kayıt stüdyosu"
+   },
+   "ex": {
+    "en": "They spent a month in the recording studio."
+   }
+  },
+  {
+   "id": "culture.tour",
+   "t": {
+    "en": "tour",
+    "uk": "гастролі",
+    "ru": "гастроли",
+    "pl": "trasa koncertowa",
+    "de": "Tournee",
+    "fr": "tournée",
+    "es": "gira",
+    "it": "tournée",
+    "pt": "turnê",
+    "tr": "turne"
+   },
+   "ex": {
+    "en": "The band is on tour in Asia."
+   }
+  },
+  {
+   "id": "culture.cast",
+   "t": {
+    "en": "cast",
+    "uk": "акторський склад",
+    "ru": "актёрский состав",
+    "pl": "obsada",
+    "de": "Besetzung",
+    "fr": "distribution",
+    "es": "reparto",
+    "it": "cast",
+    "pt": "elenco",
+    "tr": "oyuncu kadrosu"
+   },
+   "ex": {
+    "en": "The film has a great cast."
+   }
+  },
+  {
+   "id": "culture.special-effects",
+   "t": {
+    "en": "special effects",
+    "uk": "спецефекти",
+    "ru": "спецэффекты",
+    "pl": "efekty specjalne",
+    "de": "Spezialeffekte",
+    "fr": "effets spéciaux",
+    "es": "efectos especiales",
+    "it": "effetti speciali",
+    "pt": "efeitos especiais",
+    "tr": "özel efektler"
+   },
+   "ex": {
+    "en": "The special effects were amazing."
+   }
+  },
+  {
+   "id": "culture.scene",
+   "t": {
+    "en": "scene",
+    "uk": "сцена",
+    "ru": "сцена",
+    "pl": "scena",
+    "de": "Szene",
+    "fr": "scène",
+    "es": "escena",
+    "it": "scena",
+    "pt": "cena",
+    "tr": "sahne"
+   },
+   "ex": {
+    "en": "The last scene made me cry."
    }
   }
  ]

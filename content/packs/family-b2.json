@@ -2,7 +2,7 @@
  "id": "family-b2",
  "topic": "family",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "family.extended-family",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "They plan to start a family soon."
+   }
+  },
+  {
+   "id": "family.widower",
+   "t": {
+    "en": "widower",
+    "uk": "вдівець",
+    "ru": "вдовец",
+    "pl": "wdowiec",
+    "de": "Witwer",
+    "fr": "veuf",
+    "es": "viudo",
+    "it": "vedovo",
+    "pt": "viúvo",
+    "tr": "dul erkek"
+   },
+   "ex": {
+    "en": "He has been a widower for years."
+   }
+  },
+  {
+   "id": "family.half-sister",
+   "t": {
+    "en": "half-sister",
+    "uk": "зведена сестра",
+    "ru": "сводная сестра",
+    "pl": "przyrodnia siostra",
+    "de": "Halbschwester",
+    "fr": "demi-sœur",
+    "es": "media hermana",
+    "it": "sorellastra",
+    "pt": "meia-irmã",
+    "tr": "üvey kız kardeş"
+   },
+   "ex": {
+    "en": "I met my half-sister for the first time."
+   }
+  },
+  {
+   "id": "family.godfather",
+   "t": {
+    "en": "godfather",
+    "uk": "хрещений батько",
+    "ru": "крёстный отец",
+    "pl": "ojciec chrzestny",
+    "de": "Pate",
+    "fr": "parrain",
+    "es": "padrino",
+    "it": "padrino",
+    "pt": "padrinho",
+    "tr": "vaftiz babası"
+   },
+   "ex": {
+    "en": "My godfather sends me a card every year."
+   }
+  },
+  {
+   "id": "family.godchild",
+   "t": {
+    "en": "godchild",
+    "uk": "хрещеник",
+    "ru": "крестник",
+    "pl": "chrześniak",
+    "de": "Patenkind",
+    "fr": "filleul",
+    "es": "ahijado",
+    "it": "figlioccio",
+    "pt": "afilhado",
+    "tr": "vaftiz çocuğu"
+   },
+   "ex": {
+    "en": "She bought a gift for her godchild."
+   }
+  },
+  {
+   "id": "family.to-inherit",
+   "t": {
+    "en": "to inherit",
+    "uk": "успадковувати",
+    "ru": "наследовать",
+    "pl": "dziedziczyć",
+    "de": "erben",
+    "fr": "hériter",
+    "es": "heredar",
+    "it": "ereditare",
+    "pt": "herdar",
+    "tr": "miras almak"
+   },
+   "ex": {
+    "en": "She inherited the house from her aunt."
+   }
+  },
+  {
+   "id": "family.heir",
+   "t": {
+    "en": "heir",
+    "uk": "спадкоємець",
+    "ru": "наследник",
+    "pl": "spadkobierca",
+    "de": "Erbe",
+    "fr": "héritier",
+    "es": "heredero",
+    "it": "erede",
+    "pt": "herdeiro",
+    "tr": "varis"
+   },
+   "ex": {
+    "en": "He is the only heir to the fortune."
+   }
+  },
+  {
+   "id": "family.family-ties",
+   "t": {
+    "en": "family ties",
+    "uk": "родинні зв'язки",
+    "ru": "семейные узы",
+    "pl": "więzi rodzinne",
+    "de": "Familienbande",
+    "fr": "liens familiaux",
+    "es": "lazos familiares",
+    "it": "legami familiari",
+    "pt": "laços familiares",
+    "tr": "aile bağları"
+   },
+   "ex": {
+    "en": "Family ties are strong in our village."
+   }
+  },
+  {
+   "id": "family.nuclear-family",
+   "t": {
+    "en": "nuclear family",
+    "uk": "нуклеарна сім'я",
+    "ru": "нуклеарная семья",
+    "pl": "rodzina nuklearna",
+    "de": "Kernfamilie",
+    "fr": "famille nucléaire",
+    "es": "familia nuclear",
+    "it": "famiglia nucleare",
+    "pt": "família nuclear",
+    "tr": "çekirdek aile"
+   },
+   "ex": {
+    "en": "The nuclear family is changing."
+   }
+  },
+  {
+   "id": "family.adoption",
+   "t": {
+    "en": "adoption",
+    "uk": "усиновлення",
+    "ru": "усыновление",
+    "pl": "adopcja",
+    "de": "Adoption",
+    "fr": "adoption",
+    "es": "adopción",
+    "it": "adozione",
+    "pt": "adoção",
+    "tr": "evlat edinme"
+   },
+   "ex": {
+    "en": "They chose adoption to grow their family."
+   }
+  },
+  {
+   "id": "family.maiden-name",
+   "t": {
+    "en": "maiden name",
+    "uk": "дівоче прізвище",
+    "ru": "девичья фамилия",
+    "pl": "nazwisko panieńskie",
+    "de": "Mädchenname",
+    "fr": "nom de jeune fille",
+    "es": "apellido de soltera",
+    "it": "cognome da nubile",
+    "pt": "nome de solteira",
+    "tr": "kızlık soyadı"
+   },
+   "ex": {
+    "en": "She kept her maiden name."
+   }
+  },
+  {
+   "id": "family.to-be-close-to",
+   "t": {
+    "en": "to be close to",
+    "uk": "бути близьким з",
+    "ru": "быть близким с",
+    "pl": "być blisko z",
+    "de": "nahestehen",
+    "fr": "être proche de",
+    "es": "estar unido a",
+    "it": "essere legato a",
+    "pt": "ser próximo de",
+    "tr": "yakın olmak"
+   },
+   "ex": {
+    "en": "I'm very close to my sister."
+   }
+  },
+  {
+   "id": "family.considerate",
+   "t": {
+    "en": "considerate",
+    "uk": "уважний",
+    "ru": "внимательный",
+    "pl": "taktowny",
+    "de": "rücksichtsvoll",
+    "fr": "prévenant",
+    "es": "considerado",
+    "it": "riguardoso",
+    "pt": "atencioso",
+    "tr": "düşünceli"
+   },
+   "ex": {
+    "en": "It was considerate of you to call."
+   }
+  },
+  {
+   "id": "family.tolerant",
+   "t": {
+    "en": "tolerant",
+    "uk": "толерантний",
+    "ru": "терпимый",
+    "pl": "tolerancyjny",
+    "de": "tolerant",
+    "fr": "tolérant",
+    "es": "tolerante",
+    "it": "tollerante",
+    "pt": "tolerante",
+    "tr": "hoşgörülü"
+   },
+   "ex": {
+    "en": "My parents are tolerant and open."
+   }
+  },
+  {
+   "id": "family.mature",
+   "t": {
+    "en": "mature",
+    "uk": "зрілий",
+    "ru": "зрелый",
+    "pl": "dojrzały",
+    "de": "reif",
+    "fr": "mûr",
+    "es": "maduro",
+    "it": "maturo",
+    "pt": "maduro",
+    "tr": "olgun"
+   },
+   "ex": {
+    "en": "She is very mature for her age."
+   }
+  },
+  {
+   "id": "family.immature",
+   "t": {
+    "en": "immature",
+    "uk": "незрілий",
+    "ru": "незрелый",
+    "pl": "niedojrzały",
+    "de": "unreif",
+    "fr": "immature",
+    "es": "inmaduro",
+    "it": "immaturo",
+    "pt": "imaturo",
+    "tr": "olgunlaşmamış"
+   },
+   "ex": {
+    "en": "Stop being so immature!"
+   }
+  },
+  {
+   "id": "family.slender",
+   "t": {
+    "en": "slender",
+    "uk": "стрункий",
+    "ru": "стройный",
+    "pl": "smukły",
+    "de": "schlank",
+    "fr": "svelte",
+    "es": "esbelto",
+    "it": "snello",
+    "pt": "esbelto",
+    "tr": "ince"
+   },
+   "ex": {
+    "en": "She is tall and slender."
+   }
+  },
+  {
+   "id": "family.plump",
+   "t": {
+    "en": "plump",
+    "uk": "пухкий",
+    "ru": "пухлый",
+    "pl": "pulchny",
+    "de": "mollig",
+    "fr": "potelé",
+    "es": "rellenito",
+    "it": "paffuto",
+    "pt": "rechonchudo",
+    "tr": "tombul"
+   },
+   "ex": {
+    "en": "The baby has plump cheeks."
+   }
+  },
+  {
+   "id": "family.dimples",
+   "t": {
+    "en": "dimples",
+    "uk": "ямочки",
+    "ru": "ямочки",
+    "pl": "dołeczki",
+    "de": "Grübchen",
+    "fr": "fossettes",
+    "es": "hoyuelos",
+    "it": "fossette",
+    "pt": "covinhas",
+    "tr": "gamzeler"
+   },
+   "ex": {
+    "en": "She has dimples when she smiles."
+   }
+  },
+  {
+   "id": "family.receding-hairline",
+   "t": {
+    "en": "receding hairline",
+    "uk": "залисини",
+    "ru": "залысины",
+    "pl": "zakola",
+    "de": "Geheimratsecken",
+    "fr": "front dégarni",
+    "es": "entradas",
+    "it": "stempiatura",
+    "pt": "entradas",
+    "tr": "alnı açılmış"
+   },
+   "ex": {
+    "en": "Dad has a receding hairline."
+   }
+  },
+  {
+   "id": "family.family-reunion",
+   "t": {
+    "en": "family reunion",
+    "uk": "сімейна зустріч",
+    "ru": "семейная встреча",
+    "pl": "zjazd rodzinny",
+    "de": "Familientreffen",
+    "fr": "réunion de famille",
+    "es": "reunión familiar",
+    "it": "riunione di famiglia",
+    "pt": "reunião de família",
+    "tr": "aile toplantısı"
+   },
+   "ex": {
+    "en": "We have a family reunion every summer."
+   }
+  },
+  {
+   "id": "family.generation-gap",
+   "t": {
+    "en": "generation gap",
+    "uk": "розрив поколінь",
+    "ru": "разрыв поколений",
+    "pl": "przepaść pokoleniowa",
+    "de": "Generationenkonflikt",
+    "fr": "fossé des générations",
+    "es": "brecha generacional",
+    "it": "divario generazionale",
+    "pt": "conflito de gerações",
+    "tr": "kuşak çatışması"
+   },
+   "ex": {
+    "en": "The generation gap causes arguments."
+   }
+  },
+  {
+   "id": "family.overprotective",
+   "t": {
+    "en": "overprotective",
+    "uk": "надмірно опікуючий",
+    "ru": "чрезмерно опекающий",
+    "pl": "nadopiekuńczy",
+    "de": "überfürsorglich",
+    "fr": "surprotecteur",
+    "es": "sobreprotector",
+    "it": "iperprotettivo",
+    "pt": "superprotetor",
+    "tr": "aşırı korumacı"
+   },
+   "ex": {
+    "en": "Her parents are very overprotective."
+   }
+  },
+  {
+   "id": "family.stepbrother",
+   "t": {
+    "en": "stepbrother",
+    "uk": "зведений брат",
+    "ru": "сводный брат",
+    "pl": "przyrodni brat",
+    "de": "Stiefbruder",
+    "fr": "demi-frère",
+    "es": "hermanastro",
+    "it": "fratellastro",
+    "pt": "meio-irmão",
+    "tr": "üvey erkek kardeş"
+   },
+   "ex": {
+    "en": "My stepbrother moved in last year."
    }
   }
  ]

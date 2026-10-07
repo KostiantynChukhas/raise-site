@@ -2,7 +2,7 @@
  "id": "business-b1",
  "topic": "business",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "business.to-make-a-deal",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "She has experience in retail."
+   }
+  },
+  {
+   "id": "business.to-export",
+   "t": {
+    "en": "to export",
+    "uk": "експортувати",
+    "ru": "экспортировать",
+    "pl": "eksportować",
+    "de": "exportieren",
+    "fr": "exporter",
+    "es": "exportar",
+    "it": "esportare",
+    "pt": "exportar",
+    "tr": "ihraç etmek"
+   },
+   "ex": {
+    "en": "They export wine to China."
+   }
+  },
+  {
+   "id": "business.to-import",
+   "t": {
+    "en": "to import",
+    "uk": "імпортувати",
+    "ru": "импортировать",
+    "pl": "importować",
+    "de": "importieren",
+    "fr": "importer",
+    "es": "importar",
+    "it": "importare",
+    "pt": "importar",
+    "tr": "ithal etmek"
+   },
+   "ex": {
+    "en": "We import coffee from Brazil."
+   }
+  },
+  {
+   "id": "business.entrepreneur",
+   "t": {
+    "en": "entrepreneur",
+    "uk": "підприємець",
+    "ru": "предприниматель",
+    "pl": "przedsiębiorca",
+    "de": "Unternehmer",
+    "fr": "entrepreneur",
+    "es": "emprendedor",
+    "it": "imprenditore",
+    "pt": "empreendedor",
+    "tr": "girişimci"
+   },
+   "ex": {
+    "en": "She is a young entrepreneur."
+   }
+  },
+  {
+   "id": "business.startup",
+   "t": {
+    "en": "startup",
+    "uk": "стартап",
+    "ru": "стартап",
+    "pl": "startup",
+    "de": "Start-up",
+    "fr": "start-up",
+    "es": "startup",
+    "it": "startup",
+    "pt": "startup",
+    "tr": "girişim şirketi"
+   },
+   "ex": {
+    "en": "He works for a tech startup."
+   }
+  },
+  {
+   "id": "business.to-set-up-a-business",
+   "t": {
+    "en": "to set up a business",
+    "uk": "заснувати бізнес",
+    "ru": "основать бизнес",
+    "pl": "założyć firmę",
+    "de": "ein Unternehmen gründen",
+    "fr": "créer une entreprise",
+    "es": "montar un negocio",
+    "it": "avviare un'attività",
+    "pt": "abrir um negócio",
+    "tr": "iş kurmak"
+   },
+   "ex": {
+    "en": "They set up a business together."
+   }
+  },
+  {
+   "id": "business.efficient",
+   "t": {
+    "en": "efficient",
+    "uk": "ефективний",
+    "ru": "эффективный",
+    "pl": "wydajny",
+    "de": "effizient",
+    "fr": "efficace",
+    "es": "eficiente",
+    "it": "efficiente",
+    "pt": "eficiente",
+    "tr": "verimli"
+   },
+   "ex": {
+    "en": "We need a more efficient system."
+   }
+  },
+  {
+   "id": "business.demand",
+   "t": {
+    "en": "demand",
+    "uk": "попит",
+    "ru": "спрос",
+    "pl": "popyt",
+    "de": "Nachfrage",
+    "fr": "demande",
+    "es": "demanda",
+    "it": "domanda",
+    "pt": "demanda",
+    "tr": "talep"
+   },
+   "ex": {
+    "en": "Demand for electric cars is growing."
+   }
+  },
+  {
+   "id": "business.supply",
+   "t": {
+    "en": "supply",
+    "uk": "пропозиція",
+    "ru": "предложение",
+    "pl": "podaż",
+    "de": "Angebot",
+    "fr": "offre",
+    "es": "oferta",
+    "it": "offerta",
+    "pt": "oferta",
+    "tr": "arz"
+   },
+   "ex": {
+    "en": "Supply can't keep up with demand."
+   }
+  },
+  {
+   "id": "business.market-research",
+   "t": {
+    "en": "market research",
+    "uk": "дослідження ринку",
+    "ru": "исследование рынка",
+    "pl": "badanie rynku",
+    "de": "Marktforschung",
+    "fr": "étude de marché",
+    "es": "estudio de mercado",
+    "it": "ricerca di mercato",
+    "pt": "pesquisa de mercado",
+    "tr": "pazar araştırması"
+   },
+   "ex": {
+    "en": "Market research shows people want it."
+   }
+  },
+  {
+   "id": "business.business-plan",
+   "t": {
+    "en": "business plan",
+    "uk": "бізнес-план",
+    "ru": "бизнес-план",
+    "pl": "biznesplan",
+    "de": "Businessplan",
+    "fr": "plan d'affaires",
+    "es": "plan de negocio",
+    "it": "piano aziendale",
+    "pt": "plano de negócios",
+    "tr": "iş planı"
+   },
+   "ex": {
+    "en": "The bank wants to see our business plan."
+   }
+  },
+  {
+   "id": "business.trade-fair",
+   "t": {
+    "en": "trade fair",
+    "uk": "виставка-ярмарок",
+    "ru": "выставка-ярмарка",
+    "pl": "targi",
+    "de": "Messe",
+    "fr": "salon professionnel",
+    "es": "feria comercial",
+    "it": "fiera",
+    "pt": "feira comercial",
+    "tr": "fuar"
+   },
+   "ex": {
+    "en": "We met them at a trade fair."
+   }
+  },
+  {
+   "id": "business.to-advertise",
+   "t": {
+    "en": "to advertise",
+    "uk": "рекламувати",
+    "ru": "рекламировать",
+    "pl": "reklamować",
+    "de": "werben",
+    "fr": "faire de la publicité",
+    "es": "anunciar",
+    "it": "pubblicizzare",
+    "pt": "anunciar",
+    "tr": "reklam yapmak"
+   },
+   "ex": {
+    "en": "We advertise on social media."
+   }
+  },
+  {
+   "id": "business.slogan",
+   "t": {
+    "en": "slogan",
+    "uk": "слоган",
+    "ru": "слоган",
+    "pl": "slogan",
+    "de": "Slogan",
+    "fr": "slogan",
+    "es": "eslogan",
+    "it": "slogan",
+    "pt": "slogan",
+    "tr": "slogan"
+   },
+   "ex": {
+    "en": "Their slogan is easy to remember."
+   }
+  },
+  {
+   "id": "business.growth",
+   "t": {
+    "en": "growth",
+    "uk": "зростання",
+    "ru": "рост",
+    "pl": "wzrost",
+    "de": "Wachstum",
+    "fr": "croissance",
+    "es": "crecimiento",
+    "it": "crescita",
+    "pt": "crescimento",
+    "tr": "büyüme"
+   },
+   "ex": {
+    "en": "The company has seen strong growth."
+   }
+  },
+  {
+   "id": "business.sales",
+   "t": {
+    "en": "sales",
+    "uk": "продажі",
+    "ru": "продажи",
+    "pl": "sprzedaż",
+    "de": "Verkaufszahlen",
+    "fr": "ventes",
+    "es": "ventas",
+    "it": "vendite",
+    "pt": "vendas",
+    "tr": "satışlar"
+   },
+   "ex": {
+    "en": "Sales went up in December."
+   }
+  },
+  {
+   "id": "business.sales-rep",
+   "t": {
+    "en": "sales rep",
+    "uk": "торговий представник",
+    "ru": "торговый представитель",
+    "pl": "przedstawiciel handlowy",
+    "de": "Handelsvertreter",
+    "fr": "représentant commercial",
+    "es": "representante de ventas",
+    "it": "rappresentante",
+    "pt": "representante comercial",
+    "tr": "satış temsilcisi"
+   },
+   "ex": {
+    "en": "A sales rep will call you tomorrow."
+   }
+  },
+  {
+   "id": "business.to-renew-a-contract",
+   "t": {
+    "en": "to renew a contract",
+    "uk": "продовжити контракт",
+    "ru": "продлить контракт",
+    "pl": "przedłużyć umowę",
+    "de": "einen Vertrag verlängern",
+    "fr": "renouveler un contrat",
+    "es": "renovar un contrato",
+    "it": "rinnovare un contratto",
+    "pt": "renovar um contrato",
+    "tr": "sözleşmeyi yenilemek"
+   },
+   "ex": {
+    "en": "They decided to renew the contract."
+   }
+  },
+  {
+   "id": "business.to-run-a-business",
+   "t": {
+    "en": "to run a business",
+    "uk": "вести бізнес",
+    "ru": "вести бизнес",
+    "pl": "prowadzić firmę",
+    "de": "ein Unternehmen führen",
+    "fr": "gérer une entreprise",
+    "es": "dirigir un negocio",
+    "it": "gestire un'attività",
+    "pt": "administrar um negócio",
+    "tr": "iş yürütmek"
+   },
+   "ex": {
+    "en": "It's hard to run a business alone."
+   }
+  },
+  {
+   "id": "business.product-range",
+   "t": {
+    "en": "product range",
+    "uk": "асортимент",
+    "ru": "ассортимент",
+    "pl": "asortyment",
+    "de": "Sortiment",
+    "fr": "gamme de produits",
+    "es": "gama de productos",
+    "it": "gamma di prodotti",
+    "pt": "linha de produtos",
+    "tr": "ürün yelpazesi"
+   },
+   "ex": {
+    "en": "We have a wide product range."
+   }
+  },
+  {
+   "id": "business.trade",
+   "t": {
+    "en": "trade",
+    "uk": "торгівля",
+    "ru": "торговля",
+    "pl": "handel",
+    "de": "Handel",
+    "fr": "commerce",
+    "es": "comercio",
+    "it": "commercio",
+    "pt": "comércio",
+    "tr": "ticaret"
+   },
+   "ex": {
+    "en": "Trade between the two countries grew."
+   }
+  },
+  {
+   "id": "business.manufacturer",
+   "t": {
+    "en": "manufacturer",
+    "uk": "виробник",
+    "ru": "производитель",
+    "pl": "producent",
+    "de": "Hersteller",
+    "fr": "fabricant",
+    "es": "fabricante",
+    "it": "produttore",
+    "pt": "fabricante",
+    "tr": "üretici"
+   },
+   "ex": {
+    "en": "The manufacturer offers a warranty."
+   }
+  },
+  {
+   "id": "business.to-manufacture",
+   "t": {
+    "en": "to manufacture",
+    "uk": "виготовляти",
+    "ru": "производить",
+    "pl": "produkować",
+    "de": "herstellen",
+    "fr": "fabriquer",
+    "es": "fabricar",
+    "it": "fabbricare",
+    "pt": "fabricar",
+    "tr": "üretmek"
+   },
+   "ex": {
+    "en": "They manufacture shoes in Italy."
+   }
+  },
+  {
+   "id": "business.production",
+   "t": {
+    "en": "production",
+    "uk": "виробництво",
+    "ru": "производство",
+    "pl": "produkcja",
+    "de": "Produktion",
+    "fr": "production",
+    "es": "producción",
+    "it": "produzione",
+    "pt": "produção",
+    "tr": "üretim"
+   },
+   "ex": {
+    "en": "Production stopped for two days."
    }
   }
  ]

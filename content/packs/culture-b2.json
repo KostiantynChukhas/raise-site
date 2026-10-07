@@ -2,7 +2,7 @@
  "id": "culture-b2",
  "topic": "culture",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "culture.masterpiece",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "I got hooked on the series after one episode."
+   }
+  },
+  {
+   "id": "culture.still-life",
+   "t": {
+    "en": "still life",
+    "uk": "натюрморт",
+    "ru": "натюрморт",
+    "pl": "martwa natura",
+    "de": "Stillleben",
+    "fr": "nature morte",
+    "es": "bodegón",
+    "it": "natura morta",
+    "pt": "natureza-morta",
+    "tr": "natürmort"
+   },
+   "ex": {
+    "en": "She painted a still life with apples."
+   }
+  },
+  {
+   "id": "culture.abstract-art",
+   "t": {
+    "en": "abstract art",
+    "uk": "абстрактне мистецтво",
+    "ru": "абстрактное искусство",
+    "pl": "sztuka abstrakcyjna",
+    "de": "abstrakte Kunst",
+    "fr": "art abstrait",
+    "es": "arte abstracto",
+    "it": "arte astratta",
+    "pt": "arte abstrata",
+    "tr": "soyut sanat"
+   },
+   "ex": {
+    "en": "I don't really understand abstract art."
+   }
+  },
+  {
+   "id": "culture.contemporary-art",
+   "t": {
+    "en": "contemporary art",
+    "uk": "сучасне мистецтво",
+    "ru": "современное искусство",
+    "pl": "sztuka współczesna",
+    "de": "zeitgenössische Kunst",
+    "fr": "art contemporain",
+    "es": "arte contemporáneo",
+    "it": "arte contemporanea",
+    "pt": "arte contemporânea",
+    "tr": "çağdaş sanat"
+   },
+   "ex": {
+    "en": "The gallery shows contemporary art."
+   }
+  },
+  {
+   "id": "culture.cultural-heritage",
+   "t": {
+    "en": "cultural heritage",
+    "uk": "культурна спадщина",
+    "ru": "культурное наследие",
+    "pl": "dziedzictwo kulturowe",
+    "de": "Kulturerbe",
+    "fr": "patrimoine culturel",
+    "es": "patrimonio cultural",
+    "it": "patrimonio culturale",
+    "pt": "patrimônio cultural",
+    "tr": "kültürel miras"
+   },
+   "ex": {
+    "en": "We must protect our cultural heritage."
+   }
+  },
+  {
+   "id": "culture.folklore",
+   "t": {
+    "en": "folklore",
+    "uk": "фольклор",
+    "ru": "фольклор",
+    "pl": "folklor",
+    "de": "Folklore",
+    "fr": "folklore",
+    "es": "folclore",
+    "it": "folclore",
+    "pt": "folclore",
+    "tr": "folklor"
+   },
+   "ex": {
+    "en": "The festival celebrates local folklore."
+   }
+  },
+  {
+   "id": "culture.mythology",
+   "t": {
+    "en": "mythology",
+    "uk": "міфологія",
+    "ru": "мифология",
+    "pl": "mitologia",
+    "de": "Mythologie",
+    "fr": "mythologie",
+    "es": "mitología",
+    "it": "mitologia",
+    "pt": "mitologia",
+    "tr": "mitoloji"
+   },
+   "ex": {
+    "en": "He loves Greek mythology."
+   }
+  },
+  {
+   "id": "culture.anthology",
+   "t": {
+    "en": "anthology",
+    "uk": "антологія",
+    "ru": "антология",
+    "pl": "antologia",
+    "de": "Anthologie",
+    "fr": "anthologie",
+    "es": "antología",
+    "it": "antologia",
+    "pt": "antologia",
+    "tr": "antoloji"
+   },
+   "ex": {
+    "en": "Her poem was published in an anthology."
+   }
+  },
+  {
+   "id": "culture.prequel",
+   "t": {
+    "en": "prequel",
+    "uk": "приквел",
+    "ru": "приквел",
+    "pl": "prequel",
+    "de": "Prequel",
+    "fr": "préquelle",
+    "es": "precuela",
+    "it": "prequel",
+    "pt": "prequel",
+    "tr": "prequel"
+   },
+   "ex": {
+    "en": "The prequel tells the hero's early life."
+   }
+  },
+  {
+   "id": "culture.remake",
+   "t": {
+    "en": "remake",
+    "uk": "рімейк",
+    "ru": "ремейк",
+    "pl": "remake",
+    "de": "Remake",
+    "fr": "remake",
+    "es": "remake",
+    "it": "remake",
+    "pt": "remake",
+    "tr": "yeniden çevrim"
+   },
+   "ex": {
+    "en": "The remake is better than the original."
+   }
+  },
+  {
+   "id": "culture.audition",
+   "t": {
+    "en": "audition",
+    "uk": "прослуховування",
+    "ru": "прослушивание",
+    "pl": "przesłuchanie",
+    "de": "Vorsprechen",
+    "fr": "audition",
+    "es": "audición",
+    "it": "provino",
+    "pt": "audição",
+    "tr": "seçme"
+   },
+   "ex": {
+    "en": "She has an audition for the musical."
+   }
+  },
+  {
+   "id": "culture.stage-fright",
+   "t": {
+    "en": "stage fright",
+    "uk": "страх сцени",
+    "ru": "боязнь сцены",
+    "pl": "trema",
+    "de": "Lampenfieber",
+    "fr": "trac",
+    "es": "miedo escénico",
+    "it": "ansia da palcoscenico",
+    "pt": "medo de palco",
+    "tr": "sahne korkusu"
+   },
+   "ex": {
+    "en": "He suffers from terrible stage fright."
+   }
+  },
+  {
+   "id": "culture.standing-ovation",
+   "t": {
+    "en": "standing ovation",
+    "uk": "овація стоячи",
+    "ru": "овация стоя",
+    "pl": "owacja na stojąco",
+    "de": "stehende Ovationen",
+    "fr": "ovation debout",
+    "es": "ovación de pie",
+    "it": "ovazione in piedi",
+    "pt": "ovação de pé",
+    "tr": "ayakta alkış"
+   },
+   "ex": {
+    "en": "The pianist got a standing ovation."
+   }
+  },
+  {
+   "id": "culture.blockbuster",
+   "t": {
+    "en": "blockbuster",
+    "uk": "блокбастер",
+    "ru": "блокбастер",
+    "pl": "kasowy hit",
+    "de": "Kassenschlager",
+    "fr": "superproduction",
+    "es": "éxito de taquilla",
+    "it": "successo al botteghino",
+    "pt": "sucesso de bilheteria",
+    "tr": "gişe rekortmeni"
+   },
+   "ex": {
+    "en": "It was the biggest blockbuster of the summer."
+   }
+  },
+  {
+   "id": "culture.columnist",
+   "t": {
+    "en": "columnist",
+    "uk": "колумніст",
+    "ru": "обозреватель",
+    "pl": "felietonista",
+    "de": "Kolumnist",
+    "fr": "chroniqueur",
+    "es": "columnista",
+    "it": "editorialista",
+    "pt": "colunista",
+    "tr": "köşe yazarı"
+   },
+   "ex": {
+    "en": "She is a columnist for a national paper."
+   }
+  },
+  {
+   "id": "culture.press-freedom",
+   "t": {
+    "en": "press freedom",
+    "uk": "свобода преси",
+    "ru": "свобода прессы",
+    "pl": "wolność prasy",
+    "de": "Pressefreiheit",
+    "fr": "liberté de la presse",
+    "es": "libertad de prensa",
+    "it": "libertà di stampa",
+    "pt": "liberdade de imprensa",
+    "tr": "basın özgürlüğü"
+   },
+   "ex": {
+    "en": "Press freedom is under threat."
+   }
+  },
+  {
+   "id": "culture.fake-news",
+   "t": {
+    "en": "fake news",
+    "uk": "фейкові новини",
+    "ru": "фейковые новости",
+    "pl": "fałszywe wiadomości",
+    "de": "Falschnachrichten",
+    "fr": "fausses nouvelles",
+    "es": "noticias falsas",
+    "it": "notizie false",
+    "pt": "notícias falsas",
+    "tr": "sahte haber"
+   },
+   "ex": {
+    "en": "Fake news spreads fast online."
+   }
+  },
+  {
+   "id": "culture.biopic",
+   "t": {
+    "en": "biopic",
+    "uk": "байопік",
+    "ru": "байопик",
+    "pl": "film biograficzny",
+    "de": "Filmbiografie",
+    "fr": "film biographique",
+    "es": "película biográfica",
+    "it": "film biografico",
+    "pt": "filme biográfico",
+    "tr": "biyografik film"
+   },
+   "ex": {
+    "en": "The biopic tells the singer's life story."
+   }
+  },
+  {
+   "id": "culture.aesthetic",
+   "t": {
+    "en": "aesthetic",
+    "uk": "естетичний",
+    "ru": "эстетичный",
+    "pl": "estetyczny",
+    "de": "ästhetisch",
+    "fr": "esthétique",
+    "es": "estético",
+    "it": "estetico",
+    "pt": "estético",
+    "tr": "estetik"
+   },
+   "ex": {
+    "en": "The building has great aesthetic value."
+   }
+  },
+  {
+   "id": "culture.metaphor",
+   "t": {
+    "en": "metaphor",
+    "uk": "метафора",
+    "ru": "метафора",
+    "pl": "metafora",
+    "de": "Metapher",
+    "fr": "métaphore",
+    "es": "metáfora",
+    "it": "metafora",
+    "pt": "metáfora",
+    "tr": "metafor"
+   },
+   "ex": {
+    "en": "The poem is full of metaphors."
+   }
+  },
+  {
+   "id": "culture.symbolism",
+   "t": {
+    "en": "symbolism",
+    "uk": "символізм",
+    "ru": "символизм",
+    "pl": "symbolika",
+    "de": "Symbolik",
+    "fr": "symbolisme",
+    "es": "simbolismo",
+    "it": "simbolismo",
+    "pt": "simbolismo",
+    "tr": "sembolizm"
+   },
+   "ex": {
+    "en": "The film is rich in symbolism."
    }
   }
  ]

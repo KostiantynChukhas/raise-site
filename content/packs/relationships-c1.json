@@ -2,7 +2,7 @@
  "id": "relationships-c1",
  "topic": "relationships",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "relationships.to-smother",
@@ -506,6 +506,366 @@
    },
    "ex": {
     "en": "She is way out of my league."
+   }
+  },
+  {
+   "id": "relationships.fidelity",
+   "t": {
+    "en": "fidelity",
+    "uk": "вірність",
+    "ru": "верность",
+    "pl": "wierność",
+    "de": "Treue",
+    "fr": "fidélité",
+    "es": "fidelidad",
+    "it": "fedeltà",
+    "pt": "fidelidade",
+    "tr": "sadakat"
+   },
+   "ex": {
+    "en": "They promised each other fidelity."
+   }
+  },
+  {
+   "id": "relationships.suitor",
+   "t": {
+    "en": "suitor",
+    "uk": "залицяльник",
+    "ru": "ухажёр",
+    "pl": "zalotnik",
+    "de": "Verehrer",
+    "fr": "prétendant",
+    "es": "pretendiente",
+    "it": "corteggiatore",
+    "pt": "pretendente",
+    "tr": "talip"
+   },
+   "ex": {
+    "en": "She rejected every suitor."
+   }
+  },
+  {
+   "id": "relationships.amicable",
+   "t": {
+    "en": "amicable",
+    "uk": "мирний",
+    "ru": "мирный",
+    "pl": "polubowny",
+    "de": "einvernehmlich",
+    "fr": "à l'amiable",
+    "es": "amistoso",
+    "it": "amichevole",
+    "pt": "amigável",
+    "tr": "dostane"
+   },
+   "ex": {
+    "en": "Their divorce was surprisingly amicable."
+   }
+  },
+  {
+   "id": "relationships.acrimonious",
+   "t": {
+    "en": "acrimonious",
+    "uk": "запеклий",
+    "ru": "ожесточённый",
+    "pl": "zajadły",
+    "de": "erbittert",
+    "fr": "acrimonieux",
+    "es": "enconado",
+    "it": "aspro",
+    "pt": "acrimonioso",
+    "tr": "çekişmeli"
+   },
+   "ex": {
+    "en": "It was an acrimonious divorce."
+   }
+  },
+  {
+   "id": "relationships.to-reciprocate",
+   "t": {
+    "en": "to reciprocate",
+    "uk": "відповідати взаємністю",
+    "ru": "отвечать взаимностью",
+    "pl": "odwzajemniać",
+    "de": "erwidern",
+    "fr": "rendre la pareille",
+    "es": "corresponder",
+    "it": "ricambiare",
+    "pt": "corresponder",
+    "tr": "karşılık vermek"
+   },
+   "ex": {
+    "en": "He didn't reciprocate her feelings."
+   }
+  },
+  {
+   "id": "relationships.to-jilt",
+   "t": {
+    "en": "to jilt",
+    "uk": "покинути",
+    "ru": "бросить",
+    "pl": "porzucić",
+    "de": "sitzen lassen",
+    "fr": "plaquer",
+    "es": "dejar plantado",
+    "it": "mollare",
+    "pt": "abandonar",
+    "tr": "terk etmek"
+   },
+   "ex": {
+    "en": "She was jilted at the altar."
+   }
+  },
+  {
+   "id": "relationships.to-commiserate",
+   "t": {
+    "en": "to commiserate",
+    "uk": "співчувати",
+    "ru": "сочувствовать",
+    "pl": "współczuć",
+    "de": "mitfühlen",
+    "fr": "compatir",
+    "es": "compatir",
+    "it": "compatire",
+    "pt": "compadecer-se",
+    "tr": "dert ortağı olmak"
+   },
+   "ex": {
+    "en": "Friends came over to commiserate."
+   }
+  },
+  {
+   "id": "relationships.ardent",
+   "t": {
+    "en": "ardent",
+    "uk": "палкий",
+    "ru": "пылкий",
+    "pl": "żarliwy",
+    "de": "glühend",
+    "fr": "ardent",
+    "es": "ardiente",
+    "it": "ardente",
+    "pt": "ardente",
+    "tr": "ateşli"
+   },
+   "ex": {
+    "en": "He was an ardent admirer of hers."
+   }
+  },
+  {
+   "id": "relationships.heartthrob",
+   "t": {
+    "en": "heartthrob",
+    "uk": "серцеїд",
+    "ru": "сердцеед",
+    "pl": "łamacz serc",
+    "de": "Schwarm",
+    "fr": "idole",
+    "es": "rompecorazones",
+    "it": "rubacuori",
+    "pt": "galã",
+    "tr": "jön"
+   },
+   "ex": {
+    "en": "The actor became a teen heartthrob."
+   }
+  },
+  {
+   "id": "relationships.rapport",
+   "t": {
+    "en": "rapport",
+    "uk": "взаєморозуміння",
+    "ru": "взаимопонимание",
+    "pl": "porozumienie",
+    "de": "gutes Verhältnis",
+    "fr": "complicité",
+    "es": "sintonía",
+    "it": "intesa",
+    "pt": "sintonia",
+    "tr": "uyum"
+   },
+   "ex": {
+    "en": "They built an instant rapport."
+   }
+  },
+  {
+   "id": "relationships.codependent",
+   "t": {
+    "en": "codependent",
+    "uk": "співзалежний",
+    "ru": "созависимый",
+    "pl": "współuzależniony",
+    "de": "co-abhängig",
+    "fr": "codépendant",
+    "es": "codependiente",
+    "it": "codipendente",
+    "pt": "codependente",
+    "tr": "eş bağımlı"
+   },
+   "ex": {
+    "en": "They had a codependent relationship."
+   }
+  },
+  {
+   "id": "relationships.adultery",
+   "t": {
+    "en": "adultery",
+    "uk": "подружня зрада",
+    "ru": "супружеская измена",
+    "pl": "cudzołóstwo",
+    "de": "Ehebruch",
+    "fr": "adultère",
+    "es": "adulterio",
+    "it": "adulterio",
+    "pt": "adultério",
+    "tr": "zina"
+   },
+   "ex": {
+    "en": "Adultery was grounds for divorce."
+   }
+  },
+  {
+   "id": "relationships.to-spurn",
+   "t": {
+    "en": "to spurn",
+    "uk": "відкинути",
+    "ru": "отвергнуть",
+    "pl": "odtrącić",
+    "de": "verschmähen",
+    "fr": "éconduire",
+    "es": "desdeñar",
+    "it": "respingere",
+    "pt": "desprezar",
+    "tr": "geri çevirmek"
+   },
+   "ex": {
+    "en": "She spurned his advances."
+   }
+  },
+  {
+   "id": "relationships.amorous",
+   "t": {
+    "en": "amorous",
+    "uk": "любовний",
+    "ru": "любовный",
+    "pl": "miłosny",
+    "de": "verliebt",
+    "fr": "amoureux",
+    "es": "amoroso",
+    "it": "amoroso",
+    "pt": "amoroso",
+    "tr": "aşk dolu"
+   },
+   "ex": {
+    "en": "He sent her an amorous letter."
+   }
+  },
+  {
+   "id": "relationships.philanderer",
+   "t": {
+    "en": "philanderer",
+    "uk": "бабій",
+    "ru": "бабник",
+    "pl": "kobieciarz",
+    "de": "Schürzenjäger",
+    "fr": "coureur de jupons",
+    "es": "mujeriego",
+    "it": "donnaiolo",
+    "pt": "mulherengo",
+    "tr": "çapkın"
+   },
+   "ex": {
+    "en": "Her husband was a notorious philanderer."
+   }
+  },
+  {
+   "id": "relationships.conjugal",
+   "t": {
+    "en": "conjugal",
+    "uk": "подружній",
+    "ru": "супружеский",
+    "pl": "małżeński",
+    "de": "ehelich",
+    "fr": "conjugal",
+    "es": "conyugal",
+    "it": "coniugale",
+    "pt": "conjugal",
+    "tr": "evliliğe ait"
+   },
+   "ex": {
+    "en": "They shared a conjugal home for decades."
+   }
+  },
+  {
+   "id": "relationships.matchmaker",
+   "t": {
+    "en": "matchmaker",
+    "uk": "сваха",
+    "ru": "сваха",
+    "pl": "swatka",
+    "de": "Ehestifter",
+    "fr": "marieur",
+    "es": "casamentero",
+    "it": "sensale",
+    "pt": "casamenteiro",
+    "tr": "çöpçatan"
+   },
+   "ex": {
+    "en": "My aunt likes to play matchmaker."
+   }
+  },
+  {
+   "id": "relationships.reconciliation",
+   "t": {
+    "en": "reconciliation",
+    "uk": "примирення",
+    "ru": "примирение",
+    "pl": "pojednanie",
+    "de": "Versöhnung",
+    "fr": "réconciliation",
+    "es": "reconciliación",
+    "it": "riconciliazione",
+    "pt": "reconciliação",
+    "tr": "barışma"
+   },
+   "ex": {
+    "en": "A reconciliation seemed impossible."
+   }
+  },
+  {
+   "id": "relationships.irreconcilable",
+   "t": {
+    "en": "irreconcilable",
+    "uk": "непримиренний",
+    "ru": "непримиримый",
+    "pl": "nie do pogodzenia",
+    "de": "unvereinbar",
+    "fr": "inconciliable",
+    "es": "irreconciliable",
+    "it": "inconciliabile",
+    "pt": "irreconciliável",
+    "tr": "uzlaşmaz"
+   },
+   "ex": {
+    "en": "They cited irreconcilable differences."
+   }
+  },
+  {
+   "id": "relationships.heart-to-heart",
+   "t": {
+    "en": "heart-to-heart",
+    "uk": "відверта розмова",
+    "ru": "разговор по душам",
+    "pl": "szczera rozmowa",
+    "de": "offenes Gespräch",
+    "fr": "cœur à cœur",
+    "es": "charla sincera",
+    "it": "conversazione a cuore aperto",
+    "pt": "conversa franca",
+    "tr": "dertleşme"
+   },
+   "ex": {
+    "en": "We had a long heart-to-heart."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "shopping-a2",
  "topic": "shopping",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "shopping.shopping-mall",
@@ -542,6 +542,348 @@
    },
    "ex": {
     "en": "The changing rooms are at the back."
+   }
+  },
+  {
+   "id": "shopping.to-queue",
+   "t": {
+    "en": "to queue",
+    "uk": "стояти в черзі",
+    "ru": "стоять в очереди",
+    "pl": "stać w kolejce",
+    "de": "Schlange stehen",
+    "fr": "faire la queue",
+    "es": "hacer cola",
+    "it": "fare la fila",
+    "pt": "fazer fila",
+    "tr": "sırada beklemek"
+   },
+   "ex": {
+    "en": "We had to queue for twenty minutes."
+   }
+  },
+  {
+   "id": "shopping.plastic-bag",
+   "t": {
+    "en": "plastic bag",
+    "uk": "пластиковий пакет",
+    "ru": "пластиковый пакет",
+    "pl": "torba plastikowa",
+    "de": "Plastiktüte",
+    "fr": "sac plastique",
+    "es": "bolsa de plástico",
+    "it": "sacchetto di plastica",
+    "pt": "sacola plástica",
+    "tr": "plastik poşet"
+   },
+   "ex": {
+    "en": "Do you need a plastic bag?"
+   }
+  },
+  {
+   "id": "shopping.reusable-bag",
+   "t": {
+    "en": "reusable bag",
+    "uk": "багаторазова сумка",
+    "ru": "многоразовая сумка",
+    "pl": "torba wielokrotnego użytku",
+    "de": "Mehrwegtasche",
+    "fr": "sac réutilisable",
+    "es": "bolsa reutilizable",
+    "it": "borsa riutilizzabile",
+    "pt": "sacola reutilizável",
+    "tr": "bez çanta"
+   },
+   "ex": {
+    "en": "I always bring a reusable bag."
+   }
+  },
+  {
+   "id": "shopping.gift-shop",
+   "t": {
+    "en": "gift shop",
+    "uk": "сувенірний магазин",
+    "ru": "сувенирный магазин",
+    "pl": "sklep z pamiątkami",
+    "de": "Geschenkeladen",
+    "fr": "boutique de souvenirs",
+    "es": "tienda de regalos",
+    "it": "negozio di souvenir",
+    "pt": "loja de presentes",
+    "tr": "hediyelik eşya dükkanı"
+   },
+   "ex": {
+    "en": "The museum has a nice gift shop."
+   }
+  },
+  {
+   "id": "shopping.online-shop",
+   "t": {
+    "en": "online shop",
+    "uk": "інтернет-магазин",
+    "ru": "интернет-магазин",
+    "pl": "sklep internetowy",
+    "de": "Onlineshop",
+    "fr": "boutique en ligne",
+    "es": "tienda online",
+    "it": "negozio online",
+    "pt": "loja online",
+    "tr": "online mağaza"
+   },
+   "ex": {
+    "en": "I ordered it from an online shop."
+   }
+  },
+  {
+   "id": "shopping.parcel",
+   "t": {
+    "en": "parcel",
+    "uk": "посилка",
+    "ru": "посылка",
+    "pl": "paczka",
+    "de": "Paket",
+    "fr": "colis",
+    "es": "paquete",
+    "it": "pacco",
+    "pt": "encomenda",
+    "tr": "koli"
+   },
+   "ex": {
+    "en": "My parcel arrived this morning."
+   }
+  },
+  {
+   "id": "shopping.seller",
+   "t": {
+    "en": "seller",
+    "uk": "продавець",
+    "ru": "продавец",
+    "pl": "sprzedawca",
+    "de": "Verkäufer",
+    "fr": "vendeur",
+    "es": "vendedor",
+    "it": "venditore",
+    "pt": "vendedor",
+    "tr": "satıcı"
+   },
+   "ex": {
+    "en": "The seller gave me a discount."
+   }
+  },
+  {
+   "id": "shopping.buyer",
+   "t": {
+    "en": "buyer",
+    "uk": "покупець",
+    "ru": "покупатель",
+    "pl": "kupujący",
+    "de": "Käufer",
+    "fr": "acheteur",
+    "es": "comprador",
+    "it": "acquirente",
+    "pt": "comprador",
+    "tr": "alıcı"
+   },
+   "ex": {
+    "en": "The buyer paid in cash."
+   }
+  },
+  {
+   "id": "shopping.stall",
+   "t": {
+    "en": "stall",
+    "uk": "ятка",
+    "ru": "ларёк",
+    "pl": "stragan",
+    "de": "Stand",
+    "fr": "étal",
+    "es": "puesto",
+    "it": "bancarella",
+    "pt": "banca",
+    "tr": "pazar tezgahı"
+   },
+   "ex": {
+    "en": "She sells fruit at a market stall."
+   }
+  },
+  {
+   "id": "shopping.to-compare",
+   "t": {
+    "en": "to compare",
+    "uk": "порівнювати",
+    "ru": "сравнивать",
+    "pl": "porównywać",
+    "de": "vergleichen",
+    "fr": "comparer",
+    "es": "comparar",
+    "it": "confrontare",
+    "pt": "comparar",
+    "tr": "karşılaştırmak"
+   },
+   "ex": {
+    "en": "Let's compare the prices first."
+   }
+  },
+  {
+   "id": "shopping.quality",
+   "t": {
+    "en": "quality",
+    "uk": "якість",
+    "ru": "качество",
+    "pl": "jakość",
+    "de": "Qualität",
+    "fr": "qualité",
+    "es": "calidad",
+    "it": "qualità",
+    "pt": "qualidade",
+    "tr": "kalite"
+   },
+   "ex": {
+    "en": "The quality of this coat is great."
+   }
+  },
+  {
+   "id": "shopping.brand-new",
+   "t": {
+    "en": "brand new",
+    "uk": "абсолютно новий",
+    "ru": "совершенно новый",
+    "pl": "fabrycznie nowy",
+    "de": "brandneu",
+    "fr": "tout neuf",
+    "es": "nuevo a estrenar",
+    "it": "nuovo di zecca",
+    "pt": "novinho em folha",
+    "tr": "yepyeni"
+   },
+   "ex": {
+    "en": "The phone is brand new."
+   }
+  },
+  {
+   "id": "shopping.affordable",
+   "t": {
+    "en": "affordable",
+    "uk": "доступний",
+    "ru": "доступный",
+    "pl": "przystępny cenowo",
+    "de": "erschwinglich",
+    "fr": "abordable",
+    "es": "asequible",
+    "it": "accessibile",
+    "pt": "acessível",
+    "tr": "uygun fiyatlı"
+   },
+   "ex": {
+    "en": "These shoes are stylish and affordable."
+   }
+  },
+  {
+   "id": "shopping.pocket",
+   "t": {
+    "en": "pocket",
+    "uk": "кишеня",
+    "ru": "карман",
+    "pl": "kieszeń",
+    "de": "Tasche",
+    "fr": "poche",
+    "es": "bolsillo",
+    "it": "tasca",
+    "pt": "bolso",
+    "tr": "cep"
+   },
+   "ex": {
+    "en": "The jacket has two pockets."
+   }
+  },
+  {
+   "id": "shopping.striped",
+   "t": {
+    "en": "striped",
+    "uk": "смугастий",
+    "ru": "полосатый",
+    "pl": "w paski",
+    "de": "gestreift",
+    "fr": "rayé",
+    "es": "de rayas",
+    "it": "a righe",
+    "pt": "listrado",
+    "tr": "çizgili"
+   },
+   "ex": {
+    "en": "I like your striped shirt."
+   }
+  },
+  {
+   "id": "shopping.to-go-with",
+   "t": {
+    "en": "to go with",
+    "uk": "поєднуватися з",
+    "ru": "сочетаться с",
+    "pl": "pasować do",
+    "de": "passen zu",
+    "fr": "aller avec",
+    "es": "combinar con",
+    "it": "stare bene con",
+    "pt": "combinar com",
+    "tr": "yakışmak"
+   },
+   "ex": {
+    "en": "Does this bag go with my dress?"
+   }
+  },
+  {
+   "id": "shopping.fashionable",
+   "t": {
+    "en": "fashionable",
+    "uk": "модний",
+    "ru": "модный",
+    "pl": "modny",
+    "de": "modisch",
+    "fr": "à la mode",
+    "es": "de moda",
+    "it": "alla moda",
+    "pt": "na moda",
+    "tr": "modaya uygun"
+   },
+   "ex": {
+    "en": "She always wears fashionable clothes."
+   }
+  },
+  {
+   "id": "shopping.contactless",
+   "t": {
+    "en": "contactless",
+    "uk": "безконтактний",
+    "ru": "бесконтактный",
+    "pl": "zbliżeniowy",
+    "de": "kontaktlos",
+    "fr": "sans contact",
+    "es": "sin contacto",
+    "it": "contactless",
+    "pt": "por aproximação",
+    "tr": "temassız"
+   },
+   "ex": {
+    "en": "You can pay contactless here."
+   }
+  },
+  {
+   "id": "shopping.groceries",
+   "t": {
+    "en": "groceries",
+    "uk": "продукти",
+    "ru": "продукты",
+    "pl": "zakupy spożywcze",
+    "de": "Lebensmittel",
+    "fr": "courses",
+    "es": "comestibles",
+    "it": "generi alimentari",
+    "pt": "mantimentos",
+    "tr": "erzak"
+   },
+   "ex": {
+    "en": "I carried the groceries home."
    }
   }
  ]

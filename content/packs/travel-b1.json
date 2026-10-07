@@ -2,7 +2,7 @@
  "id": "travel-b1",
  "topic": "travel",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "travel.itinerary",
@@ -506,6 +506,384 @@
    },
    "ex": {
     "en": "We booked the tour through a travel agency."
+   }
+  },
+  {
+   "id": "travel.package-holiday",
+   "t": {
+    "en": "package holiday",
+    "uk": "пакетний тур",
+    "ru": "пакетный тур",
+    "pl": "wczasy zorganizowane",
+    "de": "Pauschalreise",
+    "fr": "voyage organisé",
+    "es": "viaje organizado",
+    "it": "viaggio organizzato",
+    "pt": "pacote de viagem",
+    "tr": "paket tur"
+   },
+   "ex": {
+    "en": "A package holiday includes flights and hotel."
+   }
+  },
+  {
+   "id": "travel.phrasebook",
+   "t": {
+    "en": "phrasebook",
+    "uk": "розмовник",
+    "ru": "разговорник",
+    "pl": "rozmówki",
+    "de": "Sprachführer",
+    "fr": "guide de conversation",
+    "es": "libro de frases",
+    "it": "frasario",
+    "pt": "guia de conversação",
+    "tr": "konuşma kılavuzu"
+   },
+   "ex": {
+    "en": "I bought a phrasebook before the trip."
+   }
+  },
+  {
+   "id": "travel.destination",
+   "t": {
+    "en": "destination",
+    "uk": "пункт призначення",
+    "ru": "пункт назначения",
+    "pl": "cel podróży",
+    "de": "Reiseziel",
+    "fr": "destination",
+    "es": "destino",
+    "it": "destinazione",
+    "pt": "destino",
+    "tr": "varış yeri"
+   },
+   "ex": {
+    "en": "Paris is a popular destination."
+   }
+  },
+  {
+   "id": "travel.backpacker",
+   "t": {
+    "en": "backpacker",
+    "uk": "бекпекер",
+    "ru": "бэкпекер",
+    "pl": "backpacker",
+    "de": "Rucksacktourist",
+    "fr": "routard",
+    "es": "mochilero",
+    "it": "saccopelista",
+    "pt": "mochileiro",
+    "tr": "sırt çantalı gezgin"
+   },
+   "ex": {
+    "en": "The hostel was full of backpackers."
+   }
+  },
+  {
+   "id": "travel.scenery",
+   "t": {
+    "en": "scenery",
+    "uk": "краєвиди",
+    "ru": "пейзаж",
+    "pl": "krajobraz",
+    "de": "Landschaft",
+    "fr": "paysage",
+    "es": "paisaje",
+    "it": "paesaggio",
+    "pt": "paisagem",
+    "tr": "manzara"
+   },
+   "ex": {
+    "en": "The scenery here is beautiful."
+   }
+  },
+  {
+   "id": "travel.cruise",
+   "t": {
+    "en": "cruise",
+    "uk": "круїз",
+    "ru": "круиз",
+    "pl": "rejs",
+    "de": "Kreuzfahrt",
+    "fr": "croisière",
+    "es": "crucero",
+    "it": "crociera",
+    "pt": "cruzeiro",
+    "tr": "gemi turu"
+   },
+   "ex": {
+    "en": "We went on a cruise around the islands."
+   }
+  },
+  {
+   "id": "travel.check-out-time",
+   "t": {
+    "en": "check-out time",
+    "uk": "час виїзду",
+    "ru": "время выезда",
+    "pl": "godzina wymeldowania",
+    "de": "Check-out-Zeit",
+    "fr": "heure de départ",
+    "es": "hora de salida",
+    "it": "orario di check-out",
+    "pt": "horário de check-out",
+    "tr": "çıkış saati"
+   },
+   "ex": {
+    "en": "Check-out time is at noon."
+   }
+  },
+  {
+   "id": "travel.room-service",
+   "t": {
+    "en": "room service",
+    "uk": "обслуговування номерів",
+    "ru": "обслуживание номеров",
+    "pl": "obsługa pokoju",
+    "de": "Zimmerservice",
+    "fr": "service d'étage",
+    "es": "servicio de habitaciones",
+    "it": "servizio in camera",
+    "pt": "serviço de quarto",
+    "tr": "oda servisi"
+   },
+   "ex": {
+    "en": "We ordered breakfast from room service."
+   }
+  },
+  {
+   "id": "travel.travel-documents",
+   "t": {
+    "en": "travel documents",
+    "uk": "документи для подорожі",
+    "ru": "документы для поездки",
+    "pl": "dokumenty podróżne",
+    "de": "Reisedokumente",
+    "fr": "documents de voyage",
+    "es": "documentos de viaje",
+    "it": "documenti di viaggio",
+    "pt": "documentos de viagem",
+    "tr": "seyahat belgeleri"
+   },
+   "ex": {
+    "en": "Keep your travel documents safe."
+   }
+  },
+  {
+   "id": "travel.departure-lounge",
+   "t": {
+    "en": "departure lounge",
+    "uk": "зал вильоту",
+    "ru": "зал вылета",
+    "pl": "hala odlotów",
+    "de": "Abflughalle",
+    "fr": "salle d'embarquement",
+    "es": "sala de embarque",
+    "it": "sala partenze",
+    "pt": "sala de embarque",
+    "tr": "bekleme salonu"
+   },
+   "ex": {
+    "en": "We waited in the departure lounge."
+   }
+  },
+  {
+   "id": "travel.security-check",
+   "t": {
+    "en": "security check",
+    "uk": "контроль безпеки",
+    "ru": "досмотр",
+    "pl": "kontrola bezpieczeństwa",
+    "de": "Sicherheitskontrolle",
+    "fr": "contrôle de sécurité",
+    "es": "control de seguridad",
+    "it": "controllo di sicurezza",
+    "pt": "controle de segurança",
+    "tr": "güvenlik kontrolü"
+   },
+   "ex": {
+    "en": "The security check took forty minutes."
+   }
+  },
+  {
+   "id": "travel.night-train",
+   "t": {
+    "en": "night train",
+    "uk": "нічний потяг",
+    "ru": "ночной поезд",
+    "pl": "pociąg nocny",
+    "de": "Nachtzug",
+    "fr": "train de nuit",
+    "es": "tren nocturno",
+    "it": "treno notturno",
+    "pt": "trem noturno",
+    "tr": "gece treni"
+   },
+   "ex": {
+    "en": "We took the night train to Vienna."
+   }
+  },
+  {
+   "id": "travel.local",
+   "t": {
+    "en": "local",
+    "uk": "місцевий",
+    "ru": "местный",
+    "pl": "miejscowy",
+    "de": "einheimisch",
+    "fr": "local",
+    "es": "local",
+    "it": "locale",
+    "pt": "local",
+    "tr": "yerel"
+   },
+   "ex": {
+    "en": "Ask a local for directions."
+   }
+  },
+  {
+   "id": "travel.on-a-budget",
+   "t": {
+    "en": "on a budget",
+    "uk": "з обмеженим бюджетом",
+    "ru": "с ограниченным бюджетом",
+    "pl": "z ograniczonym budżetem",
+    "de": "mit kleinem Budget",
+    "fr": "avec un petit budget",
+    "es": "con poco presupuesto",
+    "it": "con un budget limitato",
+    "pt": "com orçamento apertado",
+    "tr": "kısıtlı bütçeyle"
+   },
+   "ex": {
+    "en": "We travel on a budget."
+   }
+  },
+  {
+   "id": "travel.hotel-lobby",
+   "t": {
+    "en": "hotel lobby",
+    "uk": "вестибюль готелю",
+    "ru": "вестибюль отеля",
+    "pl": "hol hotelowy",
+    "de": "Hotellobby",
+    "fr": "hall de l'hôtel",
+    "es": "vestíbulo del hotel",
+    "it": "hall dell'albergo",
+    "pt": "saguão do hotel",
+    "tr": "otel lobisi"
+   },
+   "ex": {
+    "en": "Let's meet in the hotel lobby."
+   }
+  },
+  {
+   "id": "travel.departure-board",
+   "t": {
+    "en": "departure board",
+    "uk": "табло відправлення",
+    "ru": "табло отправления",
+    "pl": "tablica odjazdów",
+    "de": "Abfahrtstafel",
+    "fr": "tableau des départs",
+    "es": "panel de salidas",
+    "it": "tabellone delle partenze",
+    "pt": "painel de partidas",
+    "tr": "kalkış panosu"
+   },
+   "ex": {
+    "en": "Check the departure board for your platform."
+   }
+  },
+  {
+   "id": "travel.to-book-in-advance",
+   "t": {
+    "en": "to book in advance",
+    "uk": "бронювати заздалегідь",
+    "ru": "бронировать заранее",
+    "pl": "rezerwować z wyprzedzeniem",
+    "de": "im Voraus buchen",
+    "fr": "réserver à l'avance",
+    "es": "reservar con antelación",
+    "it": "prenotare in anticipo",
+    "pt": "reservar com antecedência",
+    "tr": "önceden rezervasyon yapmak"
+   },
+   "ex": {
+    "en": "It's cheaper to book in advance."
+   }
+  },
+  {
+   "id": "travel.tourist-attraction",
+   "t": {
+    "en": "tourist attraction",
+    "uk": "туристична пам'ятка",
+    "ru": "достопримечательность",
+    "pl": "atrakcja turystyczna",
+    "de": "Sehenswürdigkeit",
+    "fr": "attraction touristique",
+    "es": "atracción turística",
+    "it": "attrazione turistica",
+    "pt": "atração turística",
+    "tr": "turistik yer"
+   },
+   "ex": {
+    "en": "The castle is a popular tourist attraction."
+   }
+  },
+  {
+   "id": "travel.travel-adapter",
+   "t": {
+    "en": "travel adapter",
+    "uk": "перехідник",
+    "ru": "переходник",
+    "pl": "przejściówka",
+    "de": "Reiseadapter",
+    "fr": "adaptateur de voyage",
+    "es": "adaptador de viaje",
+    "it": "adattatore da viaggio",
+    "pt": "adaptador de tomada",
+    "tr": "seyahat adaptörü"
+   },
+   "ex": {
+    "en": "Don't forget a travel adapter."
+   }
+  },
+  {
+   "id": "travel.check-in-desk",
+   "t": {
+    "en": "check-in desk",
+    "uk": "стійка реєстрації",
+    "ru": "стойка регистрации",
+    "pl": "stanowisko odprawy",
+    "de": "Check-in-Schalter",
+    "fr": "comptoir d'enregistrement",
+    "es": "mostrador de facturación",
+    "it": "banco del check-in",
+    "pt": "balcão de check-in",
+    "tr": "check-in bankosu"
+   },
+   "ex": {
+    "en": "Go to the check-in desk first."
+   }
+  },
+  {
+   "id": "travel.scenic-route",
+   "t": {
+    "en": "scenic route",
+    "uk": "мальовничий маршрут",
+    "ru": "живописный маршрут",
+    "pl": "malownicza trasa",
+    "de": "Panoramastrecke",
+    "fr": "route pittoresque",
+    "es": "ruta panorámica",
+    "it": "percorso panoramico",
+    "pt": "rota panorâmica",
+    "tr": "manzaralı yol"
+   },
+   "ex": {
+    "en": "We took the scenic route home."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "health-b1",
  "topic": "health",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "health.blood-pressure",
@@ -470,6 +470,420 @@
    },
    "ex": {
     "en": "Mental health matters too."
+   }
+  },
+  {
+   "id": "health.recovery",
+   "t": {
+    "en": "recovery",
+    "uk": "одужання",
+    "ru": "выздоровление",
+    "pl": "powrót do zdrowia",
+    "de": "Genesung",
+    "fr": "guérison",
+    "es": "recuperación",
+    "it": "guarigione",
+    "pt": "recuperação",
+    "tr": "iyileşme"
+   },
+   "ex": {
+    "en": "I wish you a quick recovery."
+   }
+  },
+  {
+   "id": "health.operation",
+   "t": {
+    "en": "operation",
+    "uk": "операція",
+    "ru": "операция",
+    "pl": "operacja",
+    "de": "Operation",
+    "fr": "opération",
+    "es": "operación",
+    "it": "operazione",
+    "pt": "operação",
+    "tr": "ameliyat"
+   },
+   "ex": {
+    "en": "The operation went well."
+   }
+  },
+  {
+   "id": "health.to-examine",
+   "t": {
+    "en": "to examine",
+    "uk": "оглядати",
+    "ru": "осматривать",
+    "pl": "badać",
+    "de": "untersuchen",
+    "fr": "examiner",
+    "es": "examinar",
+    "it": "visitare",
+    "pt": "examinar",
+    "tr": "muayene etmek"
+   },
+   "ex": {
+    "en": "The doctor examined my throat."
+   }
+  },
+  {
+   "id": "health.ward",
+   "t": {
+    "en": "ward",
+    "uk": "палата",
+    "ru": "палата",
+    "pl": "oddział",
+    "de": "Station",
+    "fr": "service",
+    "es": "planta",
+    "it": "reparto",
+    "pt": "enfermaria",
+    "tr": "servis"
+   },
+   "ex": {
+    "en": "He's in the children's ward."
+   }
+  },
+  {
+   "id": "health.to-swallow",
+   "t": {
+    "en": "to swallow",
+    "uk": "ковтати",
+    "ru": "глотать",
+    "pl": "połykać",
+    "de": "schlucken",
+    "fr": "avaler",
+    "es": "tragar",
+    "it": "inghiottire",
+    "pt": "engolir",
+    "tr": "yutmak"
+   },
+   "ex": {
+    "en": "It hurts when I swallow."
+   }
+  },
+  {
+   "id": "health.to-cure",
+   "t": {
+    "en": "to cure",
+    "uk": "вилікувати",
+    "ru": "вылечить",
+    "pl": "wyleczyć",
+    "de": "heilen",
+    "fr": "guérir",
+    "es": "curar",
+    "it": "curare",
+    "pt": "curar",
+    "tr": "tedavi etmek"
+   },
+   "ex": {
+    "en": "This medicine can cure the infection."
+   }
+  },
+  {
+   "id": "health.to-heal",
+   "t": {
+    "en": "to heal",
+    "uk": "загоюватися",
+    "ru": "заживать",
+    "pl": "goić się",
+    "de": "verheilen",
+    "fr": "cicatriser",
+    "es": "cicatrizar",
+    "it": "rimarginarsi",
+    "pt": "cicatrizar",
+    "tr": "iyileşmek"
+   },
+   "ex": {
+    "en": "The wound healed quickly."
+   }
+  },
+  {
+   "id": "health.scar",
+   "t": {
+    "en": "scar",
+    "uk": "шрам",
+    "ru": "шрам",
+    "pl": "blizna",
+    "de": "Narbe",
+    "fr": "cicatrice",
+    "es": "cicatriz",
+    "it": "cicatrice",
+    "pt": "cicatriz",
+    "tr": "yara izi"
+   },
+   "ex": {
+    "en": "He has a scar on his face."
+   }
+  },
+  {
+   "id": "health.fracture",
+   "t": {
+    "en": "fracture",
+    "uk": "перелом",
+    "ru": "перелом",
+    "pl": "złamanie",
+    "de": "Bruch",
+    "fr": "fracture",
+    "es": "fractura",
+    "it": "frattura",
+    "pt": "fratura",
+    "tr": "kırık"
+   },
+   "ex": {
+    "en": "The X-ray showed a fracture."
+   }
+  },
+  {
+   "id": "health.allergic-reaction",
+   "t": {
+    "en": "allergic reaction",
+    "uk": "алергічна реакція",
+    "ru": "аллергическая реакция",
+    "pl": "reakcja alergiczna",
+    "de": "allergische Reaktion",
+    "fr": "réaction allergique",
+    "es": "reacción alérgica",
+    "it": "reazione allergica",
+    "pt": "reação alérgica",
+    "tr": "alerjik reaksiyon"
+   },
+   "ex": {
+    "en": "She had an allergic reaction to nuts."
+   }
+  },
+  {
+   "id": "health.asthma",
+   "t": {
+    "en": "asthma",
+    "uk": "астма",
+    "ru": "астма",
+    "pl": "astma",
+    "de": "Asthma",
+    "fr": "asthme",
+    "es": "asma",
+    "it": "asma",
+    "pt": "asma",
+    "tr": "astım"
+   },
+   "ex": {
+    "en": "My son has asthma."
+   }
+  },
+  {
+   "id": "health.diabetes",
+   "t": {
+    "en": "diabetes",
+    "uk": "діабет",
+    "ru": "диабет",
+    "pl": "cukrzyca",
+    "de": "Diabetes",
+    "fr": "diabète",
+    "es": "diabetes",
+    "it": "diabete",
+    "pt": "diabetes",
+    "tr": "diyabet"
+   },
+   "ex": {
+    "en": "He controls his diabetes with diet."
+   }
+  },
+  {
+   "id": "health.stroke",
+   "t": {
+    "en": "stroke",
+    "uk": "інсульт",
+    "ru": "инсульт",
+    "pl": "udar",
+    "de": "Schlaganfall",
+    "fr": "AVC",
+    "es": "derrame cerebral",
+    "it": "ictus",
+    "pt": "AVC",
+    "tr": "inme"
+   },
+   "ex": {
+    "en": "My grandfather had a stroke."
+   }
+  },
+  {
+   "id": "health.cholesterol",
+   "t": {
+    "en": "cholesterol",
+    "uk": "холестерин",
+    "ru": "холестерин",
+    "pl": "cholesterol",
+    "de": "Cholesterin",
+    "fr": "cholestérol",
+    "es": "colesterol",
+    "it": "colesterolo",
+    "pt": "colesterol",
+    "tr": "kolesterol"
+   },
+   "ex": {
+    "en": "Fried food raises cholesterol."
+   }
+  },
+  {
+   "id": "health.migraine",
+   "t": {
+    "en": "migraine",
+    "uk": "мігрень",
+    "ru": "мигрень",
+    "pl": "migrena",
+    "de": "Migräne",
+    "fr": "migraine",
+    "es": "migraña",
+    "it": "emicrania",
+    "pt": "enxaqueca",
+    "tr": "migren"
+   },
+   "ex": {
+    "en": "I stayed home with a migraine."
+   }
+  },
+  {
+   "id": "health.food-poisoning",
+   "t": {
+    "en": "food poisoning",
+    "uk": "харчове отруєння",
+    "ru": "пищевое отравление",
+    "pl": "zatrucie pokarmowe",
+    "de": "Lebensmittelvergiftung",
+    "fr": "intoxication alimentaire",
+    "es": "intoxicación alimentaria",
+    "it": "intossicazione alimentare",
+    "pt": "intoxicação alimentar",
+    "tr": "gıda zehirlenmesi"
+   },
+   "ex": {
+    "en": "Bad fish gave me food poisoning."
+   }
+  },
+  {
+   "id": "health.to-get-worse",
+   "t": {
+    "en": "to get worse",
+    "uk": "погіршуватися",
+    "ru": "ухудшаться",
+    "pl": "pogarszać się",
+    "de": "sich verschlechtern",
+    "fr": "empirer",
+    "es": "empeorar",
+    "it": "peggiorare",
+    "pt": "piorar",
+    "tr": "kötüleşmek"
+   },
+   "ex": {
+    "en": "Call me if it gets worse."
+   }
+  },
+  {
+   "id": "health.to-quit-smoking",
+   "t": {
+    "en": "to quit smoking",
+    "uk": "кинути палити",
+    "ru": "бросить курить",
+    "pl": "rzucić palenie",
+    "de": "mit dem Rauchen aufhören",
+    "fr": "arrêter de fumer",
+    "es": "dejar de fumar",
+    "it": "smettere di fumare",
+    "pt": "parar de fumar",
+    "tr": "sigarayı bırakmak"
+   },
+   "ex": {
+    "en": "My dad quit smoking last year."
+   }
+  },
+  {
+   "id": "health.overweight",
+   "t": {
+    "en": "overweight",
+    "uk": "з надмірною вагою",
+    "ru": "с лишним весом",
+    "pl": "z nadwagą",
+    "de": "übergewichtig",
+    "fr": "en surpoids",
+    "es": "con sobrepeso",
+    "it": "in sovrappeso",
+    "pt": "acima do peso",
+    "tr": "kilolu"
+   },
+   "ex": {
+    "en": "The doctor said I'm overweight."
+   }
+  },
+  {
+   "id": "health.to-give-blood",
+   "t": {
+    "en": "to give blood",
+    "uk": "здавати кров",
+    "ru": "сдавать кровь",
+    "pl": "oddawać krew",
+    "de": "Blut spenden",
+    "fr": "donner son sang",
+    "es": "donar sangre",
+    "it": "donare il sangue",
+    "pt": "doar sangue",
+    "tr": "kan bağışlamak"
+   },
+   "ex": {
+    "en": "I give blood twice a year."
+   }
+  },
+  {
+   "id": "health.to-be-on-a-diet",
+   "t": {
+    "en": "to be on a diet",
+    "uk": "бути на дієті",
+    "ru": "сидеть на диете",
+    "pl": "być na diecie",
+    "de": "auf Diät sein",
+    "fr": "être au régime",
+    "es": "estar a dieta",
+    "it": "essere a dieta",
+    "pt": "estar de dieta",
+    "tr": "diyette olmak"
+   },
+   "ex": {
+    "en": "No cake for me, I'm on a diet."
+   }
+  },
+  {
+   "id": "health.bacteria",
+   "t": {
+    "en": "bacteria",
+    "uk": "бактерії",
+    "ru": "бактерии",
+    "pl": "bakterie",
+    "de": "Bakterien",
+    "fr": "bactéries",
+    "es": "bacterias",
+    "it": "batteri",
+    "pt": "bactérias",
+    "tr": "bakteri"
+   },
+   "ex": {
+    "en": "Soap kills bacteria."
+   }
+  },
+  {
+   "id": "health.hygiene",
+   "t": {
+    "en": "hygiene",
+    "uk": "гігієна",
+    "ru": "гигиена",
+    "pl": "higiena",
+    "de": "Hygiene",
+    "fr": "hygiène",
+    "es": "higiene",
+    "it": "igiene",
+    "pt": "higiene",
+    "tr": "hijyen"
+   },
+   "ex": {
+    "en": "Good hygiene prevents disease."
    }
   }
  ]

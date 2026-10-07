@@ -2,7 +2,7 @@
  "id": "food-c1",
  "topic": "food",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "food.to-braise",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "A small starter to whet your appetite."
+   }
+  },
+  {
+   "id": "food.to-emulsify",
+   "t": {
+    "en": "to emulsify",
+    "uk": "емульгувати",
+    "ru": "эмульгировать",
+    "pl": "emulgować",
+    "de": "emulgieren",
+    "fr": "émulsionner",
+    "es": "emulsionar",
+    "it": "emulsionare",
+    "pt": "emulsionar",
+    "tr": "emülsiyon yapmak"
+   },
+   "ex": {
+    "en": "Whisk quickly to emulsify the oil and vinegar."
+   }
+  },
+  {
+   "id": "food.to-infuse",
+   "t": {
+    "en": "to infuse",
+    "uk": "настоювати",
+    "ru": "настаивать",
+    "pl": "zaparzać",
+    "de": "ziehen lassen",
+    "fr": "infuser",
+    "es": "infusionar",
+    "it": "lasciare in infusione",
+    "pt": "infundir",
+    "tr": "demlemek"
+   },
+   "ex": {
+    "en": "Let the herbs infuse in the hot oil."
+   }
+  },
+  {
+   "id": "food.to-curdle",
+   "t": {
+    "en": "to curdle",
+    "uk": "згортатися",
+    "ru": "свернуться",
+    "pl": "zsiadać się",
+    "de": "gerinnen",
+    "fr": "cailler",
+    "es": "cortarse",
+    "it": "cagliare",
+    "pt": "coalhar",
+    "tr": "kesilmek"
+   },
+   "ex": {
+    "en": "The milk curdled in the heat."
+   }
+  },
+  {
+   "id": "food.to-flambe",
+   "t": {
+    "en": "to flambé",
+    "uk": "фламбувати",
+    "ru": "фламбировать",
+    "pl": "flambirować",
+    "de": "flambieren",
+    "fr": "flamber",
+    "es": "flambear",
+    "it": "flambare",
+    "pt": "flambar",
+    "tr": "flambe yapmak"
+   },
+   "ex": {
+    "en": "The waiter flambéed the dessert at our table."
+   }
+  },
+  {
+   "id": "food.delicacy",
+   "t": {
+    "en": "delicacy",
+    "uk": "делікатес",
+    "ru": "деликатес",
+    "pl": "przysmak",
+    "de": "Delikatesse",
+    "fr": "mets raffiné",
+    "es": "manjar",
+    "it": "prelibatezza",
+    "pt": "iguaria",
+    "tr": "özel lezzet"
+   },
+   "ex": {
+    "en": "Snails are considered a delicacy in France."
+   }
+  },
+  {
+   "id": "food.gourmet",
+   "t": {
+    "en": "gourmet",
+    "uk": "гурман",
+    "ru": "гурман",
+    "pl": "smakosz",
+    "de": "Feinschmecker",
+    "fr": "gourmet",
+    "es": "gourmet",
+    "it": "buongustaio",
+    "pt": "gourmet",
+    "tr": "gurme"
+   },
+   "ex": {
+    "en": "He is a true gourmet who loves fine food."
+   }
+  },
+  {
+   "id": "food.pungent",
+   "t": {
+    "en": "pungent",
+    "uk": "їдкий",
+    "ru": "едкий",
+    "pl": "gryzący",
+    "de": "beißend",
+    "fr": "âcre",
+    "es": "acre",
+    "it": "pungente",
+    "pt": "pungente",
+    "tr": "keskin"
+   },
+   "ex": {
+    "en": "The cheese had a pungent smell."
+   }
+  },
+  {
+   "id": "food.cloying",
+   "t": {
+    "en": "cloying",
+    "uk": "приторний",
+    "ru": "приторный",
+    "pl": "mdły",
+    "de": "übersüß",
+    "fr": "écœurant",
+    "es": "empalagoso",
+    "it": "stucchevole",
+    "pt": "enjoativo",
+    "tr": "aşırı tatlı"
+   },
+   "ex": {
+    "en": "The dessert was rich to the point of being cloying."
+   }
+  },
+  {
+   "id": "food.scrumptious",
+   "t": {
+    "en": "scrumptious",
+    "uk": "пресмачний",
+    "ru": "вкуснейший",
+    "pl": "przepyszny",
+    "de": "köstlich",
+    "fr": "succulent",
+    "es": "riquísimo",
+    "it": "squisito",
+    "pt": "gostosíssimo",
+    "tr": "nefis"
+   },
+   "ex": {
+    "en": "Grandma's apple pie is scrumptious."
+   }
+  },
+  {
+   "id": "food.unpalatable",
+   "t": {
+    "en": "unpalatable",
+    "uk": "неїстівний",
+    "ru": "несъедобный",
+    "pl": "niejadalny",
+    "de": "ungenießbar",
+    "fr": "immangeable",
+    "es": "incomible",
+    "it": "immangiabile",
+    "pt": "intragável",
+    "tr": "yenmez"
+   },
+   "ex": {
+    "en": "The burnt stew was completely unpalatable."
+   }
+  },
+  {
+   "id": "food.to-gorge-on",
+   "t": {
+    "en": "to gorge on",
+    "uk": "об'їдатися",
+    "ru": "объедаться",
+    "pl": "objadać się",
+    "de": "sich vollstopfen",
+    "fr": "se gaver de",
+    "es": "atiborrarse de",
+    "it": "abbuffarsi di",
+    "pt": "empanturrar-se de",
+    "tr": "tıka basa yemek"
+   },
+   "ex": {
+    "en": "We gorged on cake at the party."
+   }
+  },
+  {
+   "id": "food.to-savour",
+   "t": {
+    "en": "to savour",
+    "uk": "смакувати",
+    "ru": "смаковать",
+    "pl": "delektować się",
+    "de": "genießen",
+    "fr": "savourer",
+    "es": "saborear",
+    "it": "assaporare",
+    "pt": "saborear",
+    "tr": "tadını çıkarmak"
+   },
+   "ex": {
+    "en": "Savour every bite of this cheese."
+   }
+  },
+  {
+   "id": "food.artisanal",
+   "t": {
+    "en": "artisanal",
+    "uk": "ремісничий",
+    "ru": "ремесленный",
+    "pl": "rzemieślniczy",
+    "de": "handwerklich",
+    "fr": "artisanal",
+    "es": "artesanal",
+    "it": "artigianale",
+    "pt": "artesanal",
+    "tr": "el yapımı"
+   },
+   "ex": {
+    "en": "The shop sells artisanal cheeses."
+   }
+  },
+  {
+   "id": "food.haute-cuisine",
+   "t": {
+    "en": "haute cuisine",
+    "uk": "висока кухня",
+    "ru": "высокая кухня",
+    "pl": "wykwintna kuchnia",
+    "de": "Haute Cuisine",
+    "fr": "haute cuisine",
+    "es": "alta cocina",
+    "it": "alta cucina",
+    "pt": "alta gastronomia",
+    "tr": "yüksek mutfak"
+   },
+   "ex": {
+    "en": "The chef trained in French haute cuisine."
+   }
+  },
+  {
+   "id": "food.sommelier",
+   "t": {
+    "en": "sommelier",
+    "uk": "сомельє",
+    "ru": "сомелье",
+    "pl": "sommelier",
+    "de": "Sommelier",
+    "fr": "sommelier",
+    "es": "sumiller",
+    "it": "sommelier",
+    "pt": "sommelier",
+    "tr": "sommelier"
+   },
+   "ex": {
+    "en": "Ask the sommelier to recommend a wine."
+   }
+  },
+  {
+   "id": "food.ravenous",
+   "t": {
+    "en": "ravenous",
+    "uk": "страшенно голодний",
+    "ru": "зверски голодный",
+    "pl": "wygłodniały",
+    "de": "ausgehungert",
+    "fr": "affamé",
+    "es": "hambriento",
+    "it": "affamato",
+    "pt": "faminto",
+    "tr": "kurt gibi aç"
+   },
+   "ex": {
+    "en": "After the hike we were ravenous."
+   }
+  },
+  {
+   "id": "food.food-for-thought",
+   "t": {
+    "en": "food for thought",
+    "uk": "їжа для роздумів",
+    "ru": "пища для размышлений",
+    "pl": "temat do przemyśleń",
+    "de": "Denkanstoß",
+    "fr": "matière à réflexion",
+    "es": "materia de reflexión",
+    "it": "spunto di riflessione",
+    "pt": "matéria para reflexão",
+    "tr": "düşündürücü bir konu"
+   },
+   "ex": {
+    "en": "Her speech gave us food for thought."
+   }
+  },
+  {
+   "id": "food.to-temper",
+   "t": {
+    "en": "to temper",
+    "uk": "темперувати",
+    "ru": "темперировать",
+    "pl": "temperować",
+    "de": "temperieren",
+    "fr": "tempérer",
+    "es": "atemperar",
+    "it": "temperare",
+    "pt": "temperar",
+    "tr": "temperlemek"
+   },
+   "ex": {
+    "en": "You need to temper the chocolate for a glossy finish."
+   }
+  },
+  {
+   "id": "food.gluttony",
+   "t": {
+    "en": "gluttony",
+    "uk": "обжерливість",
+    "ru": "обжорство",
+    "pl": "obżarstwo",
+    "de": "Völlerei",
+    "fr": "gloutonnerie",
+    "es": "glotonería",
+    "it": "ingordigia",
+    "pt": "gula",
+    "tr": "oburluk"
+   },
+   "ex": {
+    "en": "The feast was an exercise in gluttony."
+   }
+  },
+  {
+   "id": "food.brine",
+   "t": {
+    "en": "brine",
+    "uk": "розсіл",
+    "ru": "рассол",
+    "pl": "solanka",
+    "de": "Salzlake",
+    "fr": "saumure",
+    "es": "salmuera",
+    "it": "salamoia",
+    "pt": "salmoura",
+    "tr": "salamura"
+   },
+   "ex": {
+    "en": "Leave the turkey in brine overnight."
    }
   }
  ]

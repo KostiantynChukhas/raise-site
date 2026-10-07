@@ -2,7 +2,7 @@
  "id": "culture-a2",
  "topic": "culture",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "culture.tv-series",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "He plays video games every evening."
+   }
+  },
+  {
+   "id": "culture.stage",
+   "t": {
+    "en": "stage",
+    "uk": "сцена",
+    "ru": "сцена",
+    "pl": "scena",
+    "de": "Bühne",
+    "fr": "scène",
+    "es": "escenario",
+    "it": "palco",
+    "pt": "palco",
+    "tr": "sahne"
+   },
+   "ex": {
+    "en": "The band is on the stage."
+   }
+  },
+  {
+   "id": "culture.audience",
+   "t": {
+    "en": "audience",
+    "uk": "публіка",
+    "ru": "зрители",
+    "pl": "publiczność",
+    "de": "Publikum",
+    "fr": "public",
+    "es": "público",
+    "it": "pubblico",
+    "pt": "público",
+    "tr": "seyirci"
+   },
+   "ex": {
+    "en": "The audience loved the show."
+   }
+  },
+  {
+   "id": "culture.tradition",
+   "t": {
+    "en": "tradition",
+    "uk": "традиція",
+    "ru": "традиция",
+    "pl": "tradycja",
+    "de": "Tradition",
+    "fr": "tradition",
+    "es": "tradición",
+    "it": "tradizione",
+    "pt": "tradição",
+    "tr": "gelenek"
+   },
+   "ex": {
+    "en": "It's an old family tradition."
+   }
+  },
+  {
+   "id": "culture.custom",
+   "t": {
+    "en": "custom",
+    "uk": "звичай",
+    "ru": "обычай",
+    "pl": "zwyczaj",
+    "de": "Brauch",
+    "fr": "coutume",
+    "es": "costumbre",
+    "it": "usanza",
+    "pt": "costume",
+    "tr": "adet"
+   },
+   "ex": {
+    "en": "It's a local custom to give flowers."
+   }
+  },
+  {
+   "id": "culture.folk-music",
+   "t": {
+    "en": "folk music",
+    "uk": "народна музика",
+    "ru": "народная музыка",
+    "pl": "muzyka ludowa",
+    "de": "Volksmusik",
+    "fr": "musique folklorique",
+    "es": "música folclórica",
+    "it": "musica folk",
+    "pt": "música folclórica",
+    "tr": "halk müziği"
+   },
+   "ex": {
+    "en": "My grandfather loves folk music."
+   }
+  },
+  {
+   "id": "culture.folk-dance",
+   "t": {
+    "en": "folk dance",
+    "uk": "народний танець",
+    "ru": "народный танец",
+    "pl": "taniec ludowy",
+    "de": "Volkstanz",
+    "fr": "danse folklorique",
+    "es": "baile folclórico",
+    "it": "danza popolare",
+    "pt": "dança folclórica",
+    "tr": "halk dansı"
+   },
+   "ex": {
+    "en": "The children learned a folk dance."
+   }
+  },
+  {
+   "id": "culture.costume",
+   "t": {
+    "en": "costume",
+    "uk": "костюм",
+    "ru": "костюм",
+    "pl": "kostium",
+    "de": "Kostüm",
+    "fr": "costume",
+    "es": "disfraz",
+    "it": "costume",
+    "pt": "fantasia",
+    "tr": "kostüm"
+   },
+   "ex": {
+    "en": "She wore a pirate costume."
+   }
+  },
+  {
+   "id": "culture.puppet-show",
+   "t": {
+    "en": "puppet show",
+    "uk": "лялькова вистава",
+    "ru": "кукольный спектакль",
+    "pl": "przedstawienie kukiełkowe",
+    "de": "Puppentheater",
+    "fr": "spectacle de marionnettes",
+    "es": "teatro de títeres",
+    "it": "spettacolo di marionette",
+    "pt": "teatro de fantoches",
+    "tr": "kukla gösterisi"
+   },
+   "ex": {
+    "en": "The kids loved the puppet show."
+   }
+  },
+  {
+   "id": "culture.play",
+   "t": {
+    "en": "play",
+    "uk": "п’єса",
+    "ru": "пьеса",
+    "pl": "sztuka",
+    "de": "Theaterstück",
+    "fr": "pièce de théâtre",
+    "es": "obra de teatro",
+    "it": "spettacolo teatrale",
+    "pt": "peça de teatro",
+    "tr": "tiyatro oyunu"
+   },
+   "ex": {
+    "en": "We saw a play by Shakespeare."
+   }
+  },
+  {
+   "id": "culture.opera",
+   "t": {
+    "en": "opera",
+    "uk": "опера",
+    "ru": "опера",
+    "pl": "opera",
+    "de": "Oper",
+    "fr": "opéra",
+    "es": "ópera",
+    "it": "opera",
+    "pt": "ópera",
+    "tr": "opera"
+   },
+   "ex": {
+    "en": "They went to the opera last night."
+   }
+  },
+  {
+   "id": "culture.ballet",
+   "t": {
+    "en": "ballet",
+    "uk": "балет",
+    "ru": "балет",
+    "pl": "balet",
+    "de": "Ballett",
+    "fr": "ballet",
+    "es": "ballet",
+    "it": "balletto",
+    "pt": "balé",
+    "tr": "bale"
+   },
+   "ex": {
+    "en": "My daughter does ballet."
+   }
+  },
+  {
+   "id": "culture.jazz",
+   "t": {
+    "en": "jazz",
+    "uk": "джаз",
+    "ru": "джаз",
+    "pl": "jazz",
+    "de": "Jazz",
+    "fr": "jazz",
+    "es": "jazz",
+    "it": "jazz",
+    "pt": "jazz",
+    "tr": "caz"
+   },
+   "ex": {
+    "en": "We listened to jazz in a small bar."
+   }
+  },
+  {
+   "id": "culture.rock-music",
+   "t": {
+    "en": "rock music",
+    "uk": "рок-музика",
+    "ru": "рок-музыка",
+    "pl": "muzyka rockowa",
+    "de": "Rockmusik",
+    "fr": "musique rock",
+    "es": "música rock",
+    "it": "musica rock",
+    "pt": "música rock",
+    "tr": "rock müzik"
+   },
+   "ex": {
+    "en": "He only listens to rock music."
+   }
+  },
+  {
+   "id": "culture.drummer",
+   "t": {
+    "en": "drummer",
+    "uk": "барабанщик",
+    "ru": "барабанщик",
+    "pl": "perkusista",
+    "de": "Schlagzeuger",
+    "fr": "batteur",
+    "es": "baterista",
+    "it": "batterista",
+    "pt": "baterista",
+    "tr": "davulcu"
+   },
+   "ex": {
+    "en": "The drummer is the best in the band."
+   }
+  },
+  {
+   "id": "culture.guitarist",
+   "t": {
+    "en": "guitarist",
+    "uk": "гітарист",
+    "ru": "гитарист",
+    "pl": "gitarzysta",
+    "de": "Gitarrist",
+    "fr": "guitariste",
+    "es": "guitarrista",
+    "it": "chitarrista",
+    "pt": "guitarrista",
+    "tr": "gitarist"
+   },
+   "ex": {
+    "en": "The guitarist played a long solo."
+   }
+  },
+  {
+   "id": "culture.to-perform",
+   "t": {
+    "en": "to perform",
+    "uk": "виступати",
+    "ru": "выступать",
+    "pl": "występować",
+    "de": "auftreten",
+    "fr": "se produire",
+    "es": "actuar",
+    "it": "esibirsi",
+    "pt": "apresentar-se",
+    "tr": "sahne almak"
+   },
+   "ex": {
+    "en": "The band performs every Friday."
+   }
+  },
+  {
+   "id": "culture.interval",
+   "t": {
+    "en": "interval",
+    "uk": "антракт",
+    "ru": "антракт",
+    "pl": "przerwa",
+    "de": "Pause",
+    "fr": "entracte",
+    "es": "entreacto",
+    "it": "intervallo",
+    "pt": "intervalo",
+    "tr": "perde arası"
+   },
+   "ex": {
+    "en": "We bought drinks in the interval."
+   }
+  },
+  {
+   "id": "culture.applause",
+   "t": {
+    "en": "applause",
+    "uk": "оплески",
+    "ru": "аплодисменты",
+    "pl": "oklaski",
+    "de": "Applaus",
+    "fr": "applaudissements",
+    "es": "aplausos",
+    "it": "applausi",
+    "pt": "aplausos",
+    "tr": "alkış"
+   },
+   "ex": {
+    "en": "The applause lasted five minutes."
+   }
+  },
+  {
+   "id": "culture.statue",
+   "t": {
+    "en": "statue",
+    "uk": "статуя",
+    "ru": "статуя",
+    "pl": "posąg",
+    "de": "Statue",
+    "fr": "statue",
+    "es": "estatua",
+    "it": "statua",
+    "pt": "estátua",
+    "tr": "heykel"
+   },
+   "ex": {
+    "en": "There is a statue in the square."
+   }
+  },
+  {
+   "id": "culture.poet",
+   "t": {
+    "en": "poet",
+    "uk": "поет",
+    "ru": "поэт",
+    "pl": "poeta",
+    "de": "Dichter",
+    "fr": "poète",
+    "es": "poeta",
+    "it": "poeta",
+    "pt": "poeta",
+    "tr": "şair"
+   },
+   "ex": {
+    "en": "He is a famous poet."
+   }
+  },
+  {
+   "id": "culture.fairy-tale",
+   "t": {
+    "en": "fairy tale",
+    "uk": "казка",
+    "ru": "сказка",
+    "pl": "baśń",
+    "de": "Märchen",
+    "fr": "conte de fées",
+    "es": "cuento de hadas",
+    "it": "fiaba",
+    "pt": "conto de fadas",
+    "tr": "masal"
+   },
+   "ex": {
+    "en": "My mum read me a fairy tale."
    }
   }
  ]

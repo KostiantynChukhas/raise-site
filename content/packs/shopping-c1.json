@@ -2,7 +2,7 @@
  "id": "shopping-c1",
  "topic": "shopping",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "shopping.chargeback",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "I got sticker shock at the dealership."
+   }
+  },
+  {
+   "id": "shopping.consumerism",
+   "t": {
+    "en": "consumerism",
+    "uk": "споживацтво",
+    "ru": "потребительство",
+    "pl": "konsumpcjonizm",
+    "de": "Konsumismus",
+    "fr": "consumérisme",
+    "es": "consumismo",
+    "it": "consumismo",
+    "pt": "consumismo",
+    "tr": "tüketimcilik"
+   },
+   "ex": {
+    "en": "The film is a critique of consumerism."
+   }
+  },
+  {
+   "id": "shopping.materialism",
+   "t": {
+    "en": "materialism",
+    "uk": "матеріалізм",
+    "ru": "материализм",
+    "pl": "materializm",
+    "de": "Materialismus",
+    "fr": "matérialisme",
+    "es": "materialismo",
+    "it": "materialismo",
+    "pt": "materialismo",
+    "tr": "materyalizm"
+   },
+   "ex": {
+    "en": "He rejected the materialism of modern life."
+   }
+  },
+  {
+   "id": "shopping.haute-couture",
+   "t": {
+    "en": "haute couture",
+    "uk": "висока мода",
+    "ru": "высокая мода",
+    "pl": "haute couture",
+    "de": "Haute Couture",
+    "fr": "haute couture",
+    "es": "alta costura",
+    "it": "alta moda",
+    "pt": "alta costura",
+    "tr": "yüksek moda"
+   },
+   "ex": {
+    "en": "She works for a haute couture house."
+   }
+  },
+  {
+   "id": "shopping.to-peruse",
+   "t": {
+    "en": "to peruse",
+    "uk": "уважно переглядати",
+    "ru": "внимательно просматривать",
+    "pl": "przeglądać",
+    "de": "durchsehen",
+    "fr": "parcourir",
+    "es": "examinar",
+    "it": "esaminare",
+    "pt": "examinar",
+    "tr": "incelemek"
+   },
+   "ex": {
+    "en": "She perused the menu of luxury brands."
+   }
+  },
+  {
+   "id": "shopping.frugal",
+   "t": {
+    "en": "frugal",
+    "uk": "ощадливий",
+    "ru": "бережливый",
+    "pl": "oszczędny",
+    "de": "sparsam",
+    "fr": "économe",
+    "es": "frugal",
+    "it": "parsimonioso",
+    "pt": "poupador",
+    "tr": "tutumlu"
+   },
+   "ex": {
+    "en": "He lives a frugal life."
+   }
+  },
+  {
+   "id": "shopping.spendthrift",
+   "t": {
+    "en": "spendthrift",
+    "uk": "марнотратник",
+    "ru": "транжира",
+    "pl": "rozrzutnik",
+    "de": "Verschwender",
+    "fr": "dépensier",
+    "es": "manirroto",
+    "it": "spendaccione",
+    "pt": "gastador",
+    "tr": "savurgan"
+   },
+   "ex": {
+    "en": "Her husband is a real spendthrift."
+   }
+  },
+  {
+   "id": "shopping.extravagant",
+   "t": {
+    "en": "extravagant",
+    "uk": "марнотратний",
+    "ru": "расточительный",
+    "pl": "rozrzutny",
+    "de": "verschwenderisch",
+    "fr": "dispendieux",
+    "es": "derrochador",
+    "it": "dispendioso",
+    "pt": "extravagante",
+    "tr": "müsrif"
+   },
+   "ex": {
+    "en": "That was an extravagant purchase."
+   }
+  },
+  {
+   "id": "shopping.to-squander",
+   "t": {
+    "en": "to squander",
+    "uk": "розтринькувати",
+    "ru": "транжирить",
+    "pl": "trwonić",
+    "de": "verschwenden",
+    "fr": "gaspiller",
+    "es": "despilfarrar",
+    "it": "sperperare",
+    "pt": "esbanjar",
+    "tr": "çarçur etmek"
+   },
+   "ex": {
+    "en": "He squandered his savings on gadgets."
+   }
+  },
+  {
+   "id": "shopping.exorbitant",
+   "t": {
+    "en": "exorbitant",
+    "uk": "непомірний",
+    "ru": "непомерный",
+    "pl": "wygórowany",
+    "de": "überhöht",
+    "fr": "exorbitant",
+    "es": "desorbitado",
+    "it": "esorbitante",
+    "pt": "exorbitante",
+    "tr": "fahiş"
+   },
+   "ex": {
+    "en": "They charge exorbitant prices."
+   }
+  },
+  {
+   "id": "shopping.price-point",
+   "t": {
+    "en": "price point",
+    "uk": "цінова категорія",
+    "ru": "ценовая категория",
+    "pl": "pułap cenowy",
+    "de": "Preispunkt",
+    "fr": "niveau de prix",
+    "es": "punto de precio",
+    "it": "livello di prezzo",
+    "pt": "patamar de preço",
+    "tr": "fiyat noktası"
+   },
+   "ex": {
+    "en": "The product sells well at that price point."
+   }
+  },
+  {
+   "id": "shopping.cross-selling",
+   "t": {
+    "en": "cross-selling",
+    "uk": "перехресні продажі",
+    "ru": "перекрёстные продажи",
+    "pl": "sprzedaż krzyżowa",
+    "de": "Cross-Selling",
+    "fr": "vente croisée",
+    "es": "venta cruzada",
+    "it": "vendita incrociata",
+    "pt": "venda cruzada",
+    "tr": "çapraz satış"
+   },
+   "ex": {
+    "en": "Cross-selling boosts average order value."
+   }
+  },
+  {
+   "id": "shopping.footfall",
+   "t": {
+    "en": "footfall",
+    "uk": "відвідуваність",
+    "ru": "посещаемость",
+    "pl": "ruch klientów",
+    "de": "Kundenfrequenz",
+    "fr": "fréquentation",
+    "es": "afluencia de clientes",
+    "it": "afflusso di clienti",
+    "pt": "fluxo de clientes",
+    "tr": "müşteri trafiği"
+   },
+   "ex": {
+    "en": "Footfall dropped after the new mall opened."
+   }
+  },
+  {
+   "id": "shopping.brick-and-mortar",
+   "t": {
+    "en": "brick-and-mortar",
+    "uk": "офлайн-магазин",
+    "ru": "офлайн-магазин",
+    "pl": "sklep stacjonarny",
+    "de": "stationärer Handel",
+    "fr": "magasin physique",
+    "es": "tienda física",
+    "it": "negozio fisico",
+    "pt": "loja física",
+    "tr": "fiziksel mağaza"
+   },
+   "ex": {
+    "en": "Brick-and-mortar stores struggle online."
+   }
+  },
+  {
+   "id": "shopping.dropshipping",
+   "t": {
+    "en": "dropshipping",
+    "uk": "дропшипінг",
+    "ru": "дропшиппинг",
+    "pl": "dropshipping",
+    "de": "Dropshipping",
+    "fr": "dropshipping",
+    "es": "dropshipping",
+    "it": "dropshipping",
+    "pt": "dropshipping",
+    "tr": "dropshipping"
+   },
+   "ex": {
+    "en": "He started a dropshipping business."
+   }
+  },
+  {
+   "id": "shopping.customs-duty",
+   "t": {
+    "en": "customs duty",
+    "uk": "мито",
+    "ru": "таможенная пошлина",
+    "pl": "cło",
+    "de": "Zoll",
+    "fr": "droits de douane",
+    "es": "arancel",
+    "it": "dazio doganale",
+    "pt": "taxa alfandegária",
+    "tr": "gümrük vergisi"
+   },
+   "ex": {
+    "en": "I had to pay customs duty on the parcel."
+   }
+  },
+  {
+   "id": "shopping.haberdashery",
+   "t": {
+    "en": "haberdashery",
+    "uk": "галантерея",
+    "ru": "галантерея",
+    "pl": "pasmanteria",
+    "de": "Kurzwaren",
+    "fr": "mercerie",
+    "es": "mercería",
+    "it": "merceria",
+    "pt": "armarinho",
+    "tr": "tuhafiye"
+   },
+   "ex": {
+    "en": "Buttons are sold in the haberdashery."
+   }
+  },
+  {
+   "id": "shopping.merchandise",
+   "t": {
+    "en": "merchandise",
+    "uk": "товари",
+    "ru": "товары",
+    "pl": "towary",
+    "de": "Waren",
+    "fr": "marchandise",
+    "es": "mercancía",
+    "it": "merce",
+    "pt": "mercadoria",
+    "tr": "ticari mal"
+   },
+   "ex": {
+    "en": "Damaged merchandise cannot be returned."
+   }
+  },
+  {
+   "id": "shopping.stockist",
+   "t": {
+    "en": "stockist",
+    "uk": "авторизований продавець",
+    "ru": "официальный продавец",
+    "pl": "autoryzowany sprzedawca",
+    "de": "Vertragshändler",
+    "fr": "revendeur agréé",
+    "es": "distribuidor autorizado",
+    "it": "rivenditore autorizzato",
+    "pt": "revendedor autorizado",
+    "tr": "yetkili satıcı"
+   },
+   "ex": {
+    "en": "Find your nearest stockist online."
+   }
+  },
+  {
+   "id": "shopping.to-rummage",
+   "t": {
+    "en": "to rummage",
+    "uk": "нишпорити",
+    "ru": "рыться",
+    "pl": "szperać",
+    "de": "wühlen",
+    "fr": "fouiller",
+    "es": "hurgar",
+    "it": "frugare",
+    "pt": "remexer",
+    "tr": "eşelemek"
+   },
+   "ex": {
+    "en": "She rummaged through the bargain bin."
+   }
+  },
+  {
+   "id": "shopping.counterfeit",
+   "t": {
+    "en": "counterfeit",
+    "uk": "підроблений",
+    "ru": "поддельный",
+    "pl": "podrobiony",
+    "de": "gefälscht",
+    "fr": "contrefait",
+    "es": "falsificado",
+    "it": "contraffatto",
+    "pt": "falsificado",
+    "tr": "taklit"
+   },
+   "ex": {
+    "en": "Police seized counterfeit handbags."
+   }
+  },
+  {
+   "id": "shopping.markdown",
+   "t": {
+    "en": "markdown",
+    "uk": "уцінка",
+    "ru": "уценка",
+    "pl": "przecena",
+    "de": "Preisnachlass",
+    "fr": "démarque",
+    "es": "rebaja",
+    "it": "ribasso",
+    "pt": "remarcação",
+    "tr": "indirim"
+   },
+   "ex": {
+    "en": "There's a 30% markdown on winter coats."
    }
   }
  ]

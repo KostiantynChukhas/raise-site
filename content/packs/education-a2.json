@@ -2,7 +2,7 @@
  "id": "education-a2",
  "topic": "education",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "education.university",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Don't be late for class."
+   }
+  },
+  {
+   "id": "education.to-practise",
+   "t": {
+    "en": "to practise",
+    "uk": "практикуватися",
+    "ru": "практиковаться",
+    "pl": "ćwiczyć",
+    "de": "üben",
+    "fr": "s'entraîner",
+    "es": "practicar",
+    "it": "esercitarsi",
+    "pt": "praticar",
+    "tr": "pratik yapmak"
+   },
+   "ex": {
+    "en": "I practise my French every day."
+   }
+  },
+  {
+   "id": "education.to-translate",
+   "t": {
+    "en": "to translate",
+    "uk": "перекладати",
+    "ru": "переводить",
+    "pl": "tłumaczyć",
+    "de": "übersetzen",
+    "fr": "traduire",
+    "es": "traducir",
+    "it": "tradurre",
+    "pt": "traduzir",
+    "tr": "çevirmek"
+   },
+   "ex": {
+    "en": "Can you translate this sentence?"
+   }
+  },
+  {
+   "id": "education.to-pronounce",
+   "t": {
+    "en": "to pronounce",
+    "uk": "вимовляти",
+    "ru": "произносить",
+    "pl": "wymawiać",
+    "de": "aussprechen",
+    "fr": "prononcer",
+    "es": "pronunciar",
+    "it": "pronunciare",
+    "pt": "pronunciar",
+    "tr": "telaffuz etmek"
+   },
+   "ex": {
+    "en": "How do you pronounce this word?"
+   }
+  },
+  {
+   "id": "education.to-correct",
+   "t": {
+    "en": "to correct",
+    "uk": "виправляти",
+    "ru": "исправлять",
+    "pl": "poprawiać",
+    "de": "korrigieren",
+    "fr": "corriger",
+    "es": "corregir",
+    "it": "correggere",
+    "pt": "corrigir",
+    "tr": "düzeltmek"
+   },
+   "ex": {
+    "en": "The teacher corrects our tests."
+   }
+  },
+  {
+   "id": "education.to-improve",
+   "t": {
+    "en": "to improve",
+    "uk": "покращувати",
+    "ru": "улучшать",
+    "pl": "doskonalić",
+    "de": "verbessern",
+    "fr": "améliorer",
+    "es": "mejorar",
+    "it": "migliorare",
+    "pt": "melhorar",
+    "tr": "geliştirmek"
+   },
+   "ex": {
+    "en": "I want to improve my English."
+   }
+  },
+  {
+   "id": "education.result",
+   "t": {
+    "en": "result",
+    "uk": "результат",
+    "ru": "результат",
+    "pl": "wynik",
+    "de": "Ergebnis",
+    "fr": "résultat",
+    "es": "resultado",
+    "it": "risultato",
+    "pt": "resultado",
+    "tr": "sonuç"
+   },
+   "ex": {
+    "en": "The exam results come out in June."
+   }
+  },
+  {
+   "id": "education.to-be-absent",
+   "t": {
+    "en": "to be absent",
+    "uk": "бути відсутнім",
+    "ru": "отсутствовать",
+    "pl": "być nieobecnym",
+    "de": "fehlen",
+    "fr": "être absent",
+    "es": "faltar",
+    "it": "essere assente",
+    "pt": "faltar",
+    "tr": "devamsızlık yapmak"
+   },
+   "ex": {
+    "en": "Tom was absent yesterday."
+   }
+  },
+  {
+   "id": "education.biology",
+   "t": {
+    "en": "biology",
+    "uk": "біологія",
+    "ru": "биология",
+    "pl": "biologia",
+    "de": "Biologie",
+    "fr": "biologie",
+    "es": "biología",
+    "it": "biologia",
+    "pt": "biologia",
+    "tr": "biyoloji"
+   },
+   "ex": {
+    "en": "Biology is my favourite subject."
+   }
+  },
+  {
+   "id": "education.physics",
+   "t": {
+    "en": "physics",
+    "uk": "фізика",
+    "ru": "физика",
+    "pl": "fizyka",
+    "de": "Physik",
+    "fr": "physique",
+    "es": "física",
+    "it": "fisica",
+    "pt": "física",
+    "tr": "fizik"
+   },
+   "ex": {
+    "en": "Physics is quite hard for me."
+   }
+  },
+  {
+   "id": "education.calculator",
+   "t": {
+    "en": "calculator",
+    "uk": "калькулятор",
+    "ru": "калькулятор",
+    "pl": "kalkulator",
+    "de": "Taschenrechner",
+    "fr": "calculatrice",
+    "es": "calculadora",
+    "it": "calcolatrice",
+    "pt": "calculadora",
+    "tr": "hesap makinesi"
+   },
+   "ex": {
+    "en": "You can use a calculator in the test."
+   }
+  },
+  {
+   "id": "education.pencil-sharpener",
+   "t": {
+    "en": "pencil sharpener",
+    "uk": "точилка",
+    "ru": "точилка",
+    "pl": "temperówka",
+    "de": "Anspitzer",
+    "fr": "taille-crayon",
+    "es": "sacapuntas",
+    "it": "temperamatite",
+    "pt": "apontador",
+    "tr": "kalemtıraş"
+   },
+   "ex": {
+    "en": "Can I borrow your pencil sharpener?"
+   }
+  },
+  {
+   "id": "education.highlighter",
+   "t": {
+    "en": "highlighter",
+    "uk": "маркер",
+    "ru": "маркер",
+    "pl": "zakreślacz",
+    "de": "Textmarker",
+    "fr": "surligneur",
+    "es": "subrayador",
+    "it": "evidenziatore",
+    "pt": "marca-texto",
+    "tr": "fosforlu kalem"
+   },
+   "ex": {
+    "en": "Mark the key words with a highlighter."
+   }
+  },
+  {
+   "id": "education.school-trip",
+   "t": {
+    "en": "school trip",
+    "uk": "шкільна екскурсія",
+    "ru": "школьная экскурсия",
+    "pl": "wycieczka szkolna",
+    "de": "Klassenfahrt",
+    "fr": "sortie scolaire",
+    "es": "excursión escolar",
+    "it": "gita scolastica",
+    "pt": "excursão escolar",
+    "tr": "okul gezisi"
+   },
+   "ex": {
+    "en": "We went on a school trip to the museum."
+   }
+  },
+  {
+   "id": "education.to-underline",
+   "t": {
+    "en": "to underline",
+    "uk": "підкреслювати",
+    "ru": "подчёркивать",
+    "pl": "podkreślać",
+    "de": "unterstreichen",
+    "fr": "souligner",
+    "es": "subrayar",
+    "it": "sottolineare",
+    "pt": "sublinhar",
+    "tr": "altını çizmek"
+   },
+   "ex": {
+    "en": "Underline the verbs in the text."
+   }
+  },
+  {
+   "id": "education.to-fill-in",
+   "t": {
+    "en": "to fill in",
+    "uk": "заповнювати",
+    "ru": "заполнять",
+    "pl": "uzupełniać",
+    "de": "ausfüllen",
+    "fr": "remplir",
+    "es": "rellenar",
+    "it": "compilare",
+    "pt": "preencher",
+    "tr": "doldurmak"
+   },
+   "ex": {
+    "en": "Fill in the gaps with the right word."
+   }
+  },
+  {
+   "id": "education.to-hand-in",
+   "t": {
+    "en": "to hand in",
+    "uk": "здавати",
+    "ru": "сдавать",
+    "pl": "oddawać",
+    "de": "abgeben",
+    "fr": "rendre",
+    "es": "entregar",
+    "it": "consegnare",
+    "pt": "entregar",
+    "tr": "teslim etmek"
+   },
+   "ex": {
+    "en": "Hand in your homework on Monday."
+   }
+  },
+  {
+   "id": "education.vocabulary",
+   "t": {
+    "en": "vocabulary",
+    "uk": "словниковий запас",
+    "ru": "словарный запас",
+    "pl": "słownictwo",
+    "de": "Wortschatz",
+    "fr": "vocabulaire",
+    "es": "vocabulario",
+    "it": "lessico",
+    "pt": "vocabulário",
+    "tr": "kelime dağarcığı"
+   },
+   "ex": {
+    "en": "Learning vocabulary takes time."
+   }
+  },
+  {
+   "id": "education.grammar",
+   "t": {
+    "en": "grammar",
+    "uk": "граматика",
+    "ru": "грамматика",
+    "pl": "gramatyka",
+    "de": "Grammatik",
+    "fr": "grammaire",
+    "es": "gramática",
+    "it": "grammatica",
+    "pt": "gramática",
+    "tr": "dilbilgisi"
+   },
+   "ex": {
+    "en": "German grammar is not easy."
+   }
+  },
+  {
+   "id": "education.to-guess",
+   "t": {
+    "en": "to guess",
+    "uk": "вгадувати",
+    "ru": "угадывать",
+    "pl": "zgadywać",
+    "de": "raten",
+    "fr": "deviner",
+    "es": "adivinar",
+    "it": "indovinare",
+    "pt": "adivinhar",
+    "tr": "tahmin etmek"
+   },
+   "ex": {
+    "en": "Try to guess the meaning of the word."
+   }
+  },
+  {
+   "id": "education.lazy",
+   "t": {
+    "en": "lazy",
+    "uk": "лінивий",
+    "ru": "ленивый",
+    "pl": "leniwy",
+    "de": "faul",
+    "fr": "paresseux",
+    "es": "perezoso",
+    "it": "pigro",
+    "pt": "preguiçoso",
+    "tr": "tembel"
+   },
+   "ex": {
+    "en": "He is clever but a bit lazy."
    }
   }
  ]

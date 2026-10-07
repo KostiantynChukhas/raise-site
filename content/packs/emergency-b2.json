@@ -2,7 +2,7 @@
  "id": "emergency-b2",
  "topic": "emergency",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emergency.bureaucracy",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Loose cables are a fire hazard."
+   }
+  },
+  {
+   "id": "emergency.aftershock",
+   "t": {
+    "en": "aftershock",
+    "uk": "афтершок",
+    "ru": "афтершок",
+    "pl": "wstrząs wtórny",
+    "de": "Nachbeben",
+    "fr": "réplique",
+    "es": "réplica",
+    "it": "scossa di assestamento",
+    "pt": "tremor secundário",
+    "tr": "artçı sarsıntı"
+   },
+   "ex": {
+    "en": "Several aftershocks followed the earthquake."
+   }
+  },
+  {
+   "id": "emergency.state-of-emergency",
+   "t": {
+    "en": "state of emergency",
+    "uk": "надзвичайний стан",
+    "ru": "чрезвычайное положение",
+    "pl": "stan wyjątkowy",
+    "de": "Ausnahmezustand",
+    "fr": "état d'urgence",
+    "es": "estado de emergencia",
+    "it": "stato di emergenza",
+    "pt": "estado de emergência",
+    "tr": "olağanüstü hal"
+   },
+   "ex": {
+    "en": "The government declared a state of emergency."
+   }
+  },
+  {
+   "id": "emergency.curfew",
+   "t": {
+    "en": "curfew",
+    "uk": "комендантська година",
+    "ru": "комендантский час",
+    "pl": "godzina policyjna",
+    "de": "Ausgangssperre",
+    "fr": "couvre-feu",
+    "es": "toque de queda",
+    "it": "coprifuoco",
+    "pt": "toque de recolher",
+    "tr": "sokağa çıkma yasağı"
+   },
+   "ex": {
+    "en": "There is a curfew from ten p.m."
+   }
+  },
+  {
+   "id": "emergency.looting",
+   "t": {
+    "en": "looting",
+    "uk": "мародерство",
+    "ru": "мародёрство",
+    "pl": "grabież",
+    "de": "Plünderung",
+    "fr": "pillage",
+    "es": "saqueo",
+    "it": "saccheggio",
+    "pt": "saque",
+    "tr": "yağma"
+   },
+   "ex": {
+    "en": "Looting began after the storm."
+   }
+  },
+  {
+   "id": "emergency.to-cordon-off",
+   "t": {
+    "en": "to cordon off",
+    "uk": "оточувати",
+    "ru": "оцеплять",
+    "pl": "odgradzać",
+    "de": "absperren",
+    "fr": "boucler",
+    "es": "acordonar",
+    "it": "transennare",
+    "pt": "isolar",
+    "tr": "kordon altına almak"
+   },
+   "ex": {
+    "en": "Police cordoned off the street."
+   }
+  },
+  {
+   "id": "emergency.eyewitness",
+   "t": {
+    "en": "eyewitness",
+    "uk": "очевидець",
+    "ru": "очевидец",
+    "pl": "naoczny świadek",
+    "de": "Augenzeuge",
+    "fr": "témoin oculaire",
+    "es": "testigo presencial",
+    "it": "testimone oculare",
+    "pt": "testemunha ocular",
+    "tr": "görgü tanığı"
+   },
+   "ex": {
+    "en": "An eyewitness described the driver."
+   }
+  },
+  {
+   "id": "emergency.statement",
+   "t": {
+    "en": "statement",
+    "uk": "показання",
+    "ru": "показания",
+    "pl": "zeznanie",
+    "de": "Aussage",
+    "fr": "déposition",
+    "es": "declaración",
+    "it": "deposizione",
+    "pt": "depoimento",
+    "tr": "ifade"
+   },
+   "ex": {
+    "en": "I gave a statement to the police."
+   }
+  },
+  {
+   "id": "emergency.to-detain",
+   "t": {
+    "en": "to detain",
+    "uk": "затримувати",
+    "ru": "задерживать",
+    "pl": "zatrzymywać",
+    "de": "festhalten",
+    "fr": "détenir",
+    "es": "detener",
+    "it": "trattenere",
+    "pt": "deter",
+    "tr": "gözaltına almak"
+   },
+   "ex": {
+    "en": "He was detained at the airport."
+   }
+  },
+  {
+   "id": "emergency.legal-aid",
+   "t": {
+    "en": "legal aid",
+    "uk": "безоплатна правова допомога",
+    "ru": "бесплатная юридическая помощь",
+    "pl": "pomoc prawna",
+    "de": "Prozesskostenhilfe",
+    "fr": "aide juridictionnelle",
+    "es": "asistencia jurídica gratuita",
+    "it": "gratuito patrocinio",
+    "pt": "assistência jurídica gratuita",
+    "tr": "adli yardım"
+   },
+   "ex": {
+    "en": "You may be entitled to legal aid."
+   }
+  },
+  {
+   "id": "emergency.sworn-translator",
+   "t": {
+    "en": "sworn translator",
+    "uk": "присяжний перекладач",
+    "ru": "присяжный переводчик",
+    "pl": "tłumacz przysięgły",
+    "de": "vereidigter Übersetzer",
+    "fr": "traducteur assermenté",
+    "es": "traductor jurado",
+    "it": "traduttore giurato",
+    "pt": "tradutor juramentado",
+    "tr": "yeminli tercüman"
+   },
+   "ex": {
+    "en": "The documents need a sworn translator."
+   }
+  },
+  {
+   "id": "emergency.dual-citizenship",
+   "t": {
+    "en": "dual citizenship",
+    "uk": "подвійне громадянство",
+    "ru": "двойное гражданство",
+    "pl": "podwójne obywatelstwo",
+    "de": "doppelte Staatsbürgerschaft",
+    "fr": "double nationalité",
+    "es": "doble nacionalidad",
+    "it": "doppia cittadinanza",
+    "pt": "dupla cidadania",
+    "tr": "çifte vatandaşlık"
+   },
+   "ex": {
+    "en": "She has dual citizenship."
+   }
+  },
+  {
+   "id": "emergency.visa-extension",
+   "t": {
+    "en": "visa extension",
+    "uk": "продовження візи",
+    "ru": "продление визы",
+    "pl": "przedłużenie wizy",
+    "de": "Visumverlängerung",
+    "fr": "prolongation de visa",
+    "es": "prórroga de visado",
+    "it": "proroga del visto",
+    "pt": "prorrogação de visto",
+    "tr": "vize uzatma"
+   },
+   "ex": {
+    "en": "I applied for a visa extension."
+   }
+  },
+  {
+   "id": "emergency.to-forge",
+   "t": {
+    "en": "to forge",
+    "uk": "підробляти",
+    "ru": "подделывать",
+    "pl": "podrabiać",
+    "de": "fälschen",
+    "fr": "falsifier",
+    "es": "falsificar",
+    "it": "falsificare",
+    "pt": "falsificar",
+    "tr": "sahtesini yapmak"
+   },
+   "ex": {
+    "en": "He forged his employer's signature."
+   }
+  },
+  {
+   "id": "emergency.hostage",
+   "t": {
+    "en": "hostage",
+    "uk": "заручник",
+    "ru": "заложник",
+    "pl": "zakładnik",
+    "de": "Geisel",
+    "fr": "otage",
+    "es": "rehén",
+    "it": "ostaggio",
+    "pt": "refém",
+    "tr": "rehine"
+   },
+   "ex": {
+    "en": "The hostages were released unharmed."
+   }
+  },
+  {
+   "id": "emergency.defibrillator",
+   "t": {
+    "en": "defibrillator",
+    "uk": "дефібрилятор",
+    "ru": "дефибриллятор",
+    "pl": "defibrylator",
+    "de": "Defibrillator",
+    "fr": "défibrillateur",
+    "es": "desfibrilador",
+    "it": "defibrillatore",
+    "pt": "desfibrilador",
+    "tr": "defibrilatör"
+   },
+   "ex": {
+    "en": "There is a defibrillator near the entrance."
+   }
+  },
+  {
+   "id": "emergency.tourniquet",
+   "t": {
+    "en": "tourniquet",
+    "uk": "джгут",
+    "ru": "жгут",
+    "pl": "opaska uciskowa",
+    "de": "Aderpresse",
+    "fr": "garrot",
+    "es": "torniquete",
+    "it": "laccio emostatico",
+    "pt": "torniquete",
+    "tr": "turnike"
+   },
+   "ex": {
+    "en": "Apply a tourniquet to stop the bleeding."
+   }
+  },
+  {
+   "id": "emergency.vandalism",
+   "t": {
+    "en": "vandalism",
+    "uk": "вандалізм",
+    "ru": "вандализм",
+    "pl": "wandalizm",
+    "de": "Vandalismus",
+    "fr": "vandalisme",
+    "es": "vandalismo",
+    "it": "vandalismo",
+    "pt": "vandalismo",
+    "tr": "vandalizm"
+   },
+   "ex": {
+    "en": "The bus stop was damaged by vandalism."
+   }
+  },
+  {
+   "id": "emergency.bomb-threat",
+   "t": {
+    "en": "bomb threat",
+    "uk": "загроза вибуху",
+    "ru": "угроза взрыва",
+    "pl": "alarm bombowy",
+    "de": "Bombendrohung",
+    "fr": "alerte à la bombe",
+    "es": "amenaza de bomba",
+    "it": "allarme bomba",
+    "pt": "ameaça de bomba",
+    "tr": "bomba ihbarı"
+   },
+   "ex": {
+    "en": "The station was evacuated after a bomb threat."
+   }
+  },
+  {
+   "id": "emergency.damage",
+   "t": {
+    "en": "damage",
+    "uk": "збитки",
+    "ru": "ущерб",
+    "pl": "szkoda",
+    "de": "Schaden",
+    "fr": "dommage",
+    "es": "daño",
+    "it": "danno",
+    "pt": "dano",
+    "tr": "hasar"
+   },
+   "ex": {
+    "en": "The flood caused serious damage."
+   }
+  },
+  {
+   "id": "emergency.interpreter",
+   "t": {
+    "en": "interpreter",
+    "uk": "перекладач",
+    "ru": "переводчик",
+    "pl": "tłumacz",
+    "de": "Dolmetscher",
+    "fr": "interprète",
+    "es": "intérprete",
+    "it": "interprete",
+    "pt": "intérprete",
+    "tr": "tercüman"
+   },
+   "ex": {
+    "en": "You have the right to an interpreter."
    }
   }
  ]

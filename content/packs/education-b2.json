@@ -2,7 +2,7 @@
  "id": "education-b2",
  "topic": "education",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "education.bachelors-degree",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "We did peer review of each other's drafts."
+   }
+  },
+  {
+   "id": "education.to-assess",
+   "t": {
+    "en": "to assess",
+    "uk": "оцінювати",
+    "ru": "оценивать",
+    "pl": "oceniać",
+    "de": "bewerten",
+    "fr": "évaluer",
+    "es": "evaluar",
+    "it": "valutare",
+    "pt": "avaliar",
+    "tr": "değerlendirmek"
+   },
+   "ex": {
+    "en": "Teachers assess students in many ways."
+   }
+  },
+  {
+   "id": "education.bibliography",
+   "t": {
+    "en": "bibliography",
+    "uk": "бібліографія",
+    "ru": "библиография",
+    "pl": "bibliografia",
+    "de": "Literaturverzeichnis",
+    "fr": "bibliographie",
+    "es": "bibliografía",
+    "it": "bibliografia",
+    "pt": "bibliografia",
+    "tr": "kaynakça"
+   },
+   "ex": {
+    "en": "Add a bibliography at the end."
+   }
+  },
+  {
+   "id": "education.footnote",
+   "t": {
+    "en": "footnote",
+    "uk": "виноска",
+    "ru": "сноска",
+    "pl": "przypis",
+    "de": "Fußnote",
+    "fr": "note de bas de page",
+    "es": "nota al pie",
+    "it": "nota a piè di pagina",
+    "pt": "nota de rodapé",
+    "tr": "dipnot"
+   },
+   "ex": {
+    "en": "Put the source in a footnote."
+   }
+  },
+  {
+   "id": "education.extension",
+   "t": {
+    "en": "extension",
+    "uk": "продовження терміну",
+    "ru": "продление срока",
+    "pl": "przedłużenie terminu",
+    "de": "Fristverlängerung",
+    "fr": "report de délai",
+    "es": "prórroga",
+    "it": "proroga",
+    "pt": "prorrogação de prazo",
+    "tr": "süre uzatımı"
+   },
+   "ex": {
+    "en": "I asked my tutor for an extension."
+   }
+  },
+  {
+   "id": "education.undergraduate",
+   "t": {
+    "en": "undergraduate",
+    "uk": "студент бакалаврату",
+    "ru": "студент бакалавриата",
+    "pl": "student studiów licencjackich",
+    "de": "Bachelorstudent",
+    "fr": "étudiant en licence",
+    "es": "estudiante de grado",
+    "it": "studente universitario",
+    "pt": "aluno de graduação",
+    "tr": "lisans öğrencisi"
+   },
+   "ex": {
+    "en": "Most undergraduates live on campus."
+   }
+  },
+  {
+   "id": "education.dean",
+   "t": {
+    "en": "dean",
+    "uk": "декан",
+    "ru": "декан",
+    "pl": "dziekan",
+    "de": "Dekan",
+    "fr": "doyen",
+    "es": "decano",
+    "it": "preside di facoltà",
+    "pt": "diretor da faculdade",
+    "tr": "dekan"
+   },
+   "ex": {
+    "en": "The dean signed my application."
+   }
+  },
+  {
+   "id": "education.lecture-hall",
+   "t": {
+    "en": "lecture hall",
+    "uk": "лекційна аудиторія",
+    "ru": "лекционная аудитория",
+    "pl": "sala wykładowa",
+    "de": "Hörsaal",
+    "fr": "amphithéâtre",
+    "es": "aula magna",
+    "it": "aula",
+    "pt": "anfiteatro",
+    "tr": "amfi"
+   },
+   "ex": {
+    "en": "The lecture hall was completely full."
+   }
+  },
+  {
+   "id": "education.methodology",
+   "t": {
+    "en": "methodology",
+    "uk": "методологія",
+    "ru": "методология",
+    "pl": "metodologia",
+    "de": "Methodik",
+    "fr": "méthodologie",
+    "es": "metodología",
+    "it": "metodologia",
+    "pt": "metodologia",
+    "tr": "metodoloji"
+   },
+   "ex": {
+    "en": "Describe your methodology clearly."
+   }
+  },
+  {
+   "id": "education.hypothesis",
+   "t": {
+    "en": "hypothesis",
+    "uk": "гіпотеза",
+    "ru": "гипотеза",
+    "pl": "hipoteza",
+    "de": "Hypothese",
+    "fr": "hypothèse",
+    "es": "hipótesis",
+    "it": "ipotesi",
+    "pt": "hipótese",
+    "tr": "hipotez"
+   },
+   "ex": {
+    "en": "The data supports our hypothesis."
+   }
+  },
+  {
+   "id": "education.to-proofread",
+   "t": {
+    "en": "to proofread",
+    "uk": "вичитувати",
+    "ru": "вычитывать",
+    "pl": "robić korektę",
+    "de": "Korrektur lesen",
+    "fr": "relire",
+    "es": "revisar",
+    "it": "correggere le bozze",
+    "pt": "revisar",
+    "tr": "redaksiyon yapmak"
+   },
+   "ex": {
+    "en": "Always proofread your essay."
+   }
+  },
+  {
+   "id": "education.to-paraphrase",
+   "t": {
+    "en": "to paraphrase",
+    "uk": "перефразовувати",
+    "ru": "перефразировать",
+    "pl": "parafrazować",
+    "de": "paraphrasieren",
+    "fr": "paraphraser",
+    "es": "parafrasear",
+    "it": "parafrasare",
+    "pt": "parafrasear",
+    "tr": "başka sözlerle ifade etmek"
+   },
+   "ex": {
+    "en": "Paraphrase the quote in your own words."
+   }
+  },
+  {
+   "id": "education.mock-exam",
+   "t": {
+    "en": "mock exam",
+    "uk": "пробний іспит",
+    "ru": "пробный экзамен",
+    "pl": "egzamin próbny",
+    "de": "Probeprüfung",
+    "fr": "examen blanc",
+    "es": "simulacro de examen",
+    "it": "simulazione d'esame",
+    "pt": "simulado",
+    "tr": "deneme sınavı"
+   },
+   "ex": {
+    "en": "We have mock exams in January."
+   }
+  },
+  {
+   "id": "education.higher-education",
+   "t": {
+    "en": "higher education",
+    "uk": "вища освіта",
+    "ru": "высшее образование",
+    "pl": "szkolnictwo wyższe",
+    "de": "Hochschulbildung",
+    "fr": "enseignement supérieur",
+    "es": "educación superior",
+    "it": "istruzione universitaria",
+    "pt": "ensino superior",
+    "tr": "yükseköğretim"
+   },
+   "ex": {
+    "en": "Higher education is free in some countries."
+   }
+  },
+  {
+   "id": "education.academic-year",
+   "t": {
+    "en": "academic year",
+    "uk": "навчальний рік",
+    "ru": "учебный год",
+    "pl": "rok akademicki",
+    "de": "Studienjahr",
+    "fr": "année universitaire",
+    "es": "curso académico",
+    "it": "anno accademico",
+    "pt": "ano letivo",
+    "tr": "akademik yıl"
+   },
+   "ex": {
+    "en": "The academic year starts in October."
+   }
+  },
+  {
+   "id": "education.bilingual",
+   "t": {
+    "en": "bilingual",
+    "uk": "двомовний",
+    "ru": "двуязычный",
+    "pl": "dwujęzyczny",
+    "de": "zweisprachig",
+    "fr": "bilingue",
+    "es": "bilingüe",
+    "it": "bilingue",
+    "pt": "bilíngue",
+    "tr": "iki dilli"
+   },
+   "ex": {
+    "en": "She went to a bilingual school."
+   }
+  },
+  {
+   "id": "education.gifted",
+   "t": {
+    "en": "gifted",
+    "uk": "обдарований",
+    "ru": "одарённый",
+    "pl": "uzdolniony",
+    "de": "begabt",
+    "fr": "doué",
+    "es": "superdotado",
+    "it": "dotato",
+    "pt": "superdotado",
+    "tr": "üstün yetenekli"
+   },
+   "ex": {
+    "en": "The school runs a programme for gifted children."
+   }
+  },
+  {
+   "id": "education.mentor",
+   "t": {
+    "en": "mentor",
+    "uk": "наставник",
+    "ru": "наставник",
+    "pl": "mentor",
+    "de": "Mentor",
+    "fr": "mentor",
+    "es": "mentor",
+    "it": "mentore",
+    "pt": "mentor",
+    "tr": "akıl hocası"
+   },
+   "ex": {
+    "en": "Every new student gets a mentor."
+   }
+  },
+  {
+   "id": "education.illiterate",
+   "t": {
+    "en": "illiterate",
+    "uk": "неписьменний",
+    "ru": "неграмотный",
+    "pl": "niepiśmienny",
+    "de": "analphabetisch",
+    "fr": "analphabète",
+    "es": "analfabeto",
+    "it": "analfabeta",
+    "pt": "analfabeto",
+    "tr": "okuma yazma bilmeyen"
+   },
+   "ex": {
+    "en": "Her grandmother was illiterate."
+   }
+  },
+  {
+   "id": "education.homeschooling",
+   "t": {
+    "en": "homeschooling",
+    "uk": "домашнє навчання",
+    "ru": "домашнее обучение",
+    "pl": "edukacja domowa",
+    "de": "Heimunterricht",
+    "fr": "école à la maison",
+    "es": "educación en casa",
+    "it": "istruzione parentale",
+    "pt": "educação domiciliar",
+    "tr": "evde eğitim"
+   },
+   "ex": {
+    "en": "Homeschooling is popular in some countries."
+   }
+  },
+  {
+   "id": "education.research-paper",
+   "t": {
+    "en": "research paper",
+    "uk": "наукова стаття",
+    "ru": "научная статья",
+    "pl": "artykuł naukowy",
+    "de": "Fachartikel",
+    "fr": "article scientifique",
+    "es": "artículo científico",
+    "it": "articolo scientifico",
+    "pt": "artigo científico",
+    "tr": "bilimsel makale"
+   },
+   "ex": {
+    "en": "She published her first research paper."
    }
   }
  ]

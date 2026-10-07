@@ -2,7 +2,7 @@
  "id": "emotions-a2",
  "topic": "emotions",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emotions.to-be-nervous",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "Are you sure about this?"
+   }
+  },
+  {
+   "id": "emotions.joy",
+   "t": {
+    "en": "joy",
+    "uk": "радість",
+    "ru": "радость",
+    "pl": "radość",
+    "de": "Freude",
+    "fr": "joie",
+    "es": "alegría",
+    "it": "gioia",
+    "pt": "alegria",
+    "tr": "sevinç"
+   },
+   "ex": {
+    "en": "She jumped with joy."
+   }
+  },
+  {
+   "id": "emotions.happiness",
+   "t": {
+    "en": "happiness",
+    "uk": "щастя",
+    "ru": "счастье",
+    "pl": "szczęście",
+    "de": "Glück",
+    "fr": "bonheur",
+    "es": "felicidad",
+    "it": "felicità",
+    "pt": "felicidade",
+    "tr": "mutluluk"
+   },
+   "ex": {
+    "en": "Money can't buy happiness."
+   }
+  },
+  {
+   "id": "emotions.sadness",
+   "t": {
+    "en": "sadness",
+    "uk": "смуток",
+    "ru": "грусть",
+    "pl": "smutek",
+    "de": "Traurigkeit",
+    "fr": "tristesse",
+    "es": "tristeza",
+    "it": "tristezza",
+    "pt": "tristeza",
+    "tr": "üzüntü"
+   },
+   "ex": {
+    "en": "I felt deep sadness."
+   }
+  },
+  {
+   "id": "emotions.anger",
+   "t": {
+    "en": "anger",
+    "uk": "гнів",
+    "ru": "гнев",
+    "pl": "złość",
+    "de": "Wut",
+    "fr": "colère",
+    "es": "ira",
+    "it": "rabbia",
+    "pt": "raiva",
+    "tr": "öfke"
+   },
+   "ex": {
+    "en": "He couldn't hide his anger."
+   }
+  },
+  {
+   "id": "emotions.surprise",
+   "t": {
+    "en": "surprise",
+    "uk": "здивування",
+    "ru": "удивление",
+    "pl": "zaskoczenie",
+    "de": "Überraschung",
+    "fr": "surprise",
+    "es": "sorpresa",
+    "it": "sorpresa",
+    "pt": "surpresa",
+    "tr": "şaşkınlık"
+   },
+   "ex": {
+    "en": "To my surprise, she said yes."
+   }
+  },
+  {
+   "id": "emotions.emotion",
+   "t": {
+    "en": "emotion",
+    "uk": "емоція",
+    "ru": "эмоция",
+    "pl": "emocja",
+    "de": "Emotion",
+    "fr": "émotion",
+    "es": "emoción",
+    "it": "emozione",
+    "pt": "emoção",
+    "tr": "duygu"
+   },
+   "ex": {
+    "en": "Music can show strong emotion."
+   }
+  },
+  {
+   "id": "emotions.worry",
+   "t": {
+    "en": "worry",
+    "uk": "турбота",
+    "ru": "беспокойство",
+    "pl": "zmartwienie",
+    "de": "Sorge",
+    "fr": "inquiétude",
+    "es": "preocupación",
+    "it": "preoccupazione",
+    "pt": "preocupação",
+    "tr": "endişe"
+   },
+   "ex": {
+    "en": "My biggest worry is money."
+   }
+  },
+  {
+   "id": "emotions.to-scare",
+   "t": {
+    "en": "to scare",
+    "uk": "лякати",
+    "ru": "пугать",
+    "pl": "straszyć",
+    "de": "erschrecken",
+    "fr": "faire peur",
+    "es": "asustar",
+    "it": "spaventare",
+    "pt": "assustar",
+    "tr": "korkutmak"
+   },
+   "ex": {
+    "en": "You scared me!"
+   }
+  },
+  {
+   "id": "emotions.to-dream",
+   "t": {
+    "en": "to dream",
+    "uk": "мріяти",
+    "ru": "мечтать",
+    "pl": "marzyć",
+    "de": "träumen",
+    "fr": "rêver",
+    "es": "soñar",
+    "it": "sognare",
+    "pt": "sonhar",
+    "tr": "hayal etmek"
+   },
+   "ex": {
+    "en": "I dream of a trip to Japan."
+   }
+  },
+  {
+   "id": "emotions.loving",
+   "t": {
+    "en": "loving",
+    "uk": "люблячий",
+    "ru": "любящий",
+    "pl": "kochający",
+    "de": "liebevoll",
+    "fr": "affectueux",
+    "es": "cariñoso",
+    "it": "affettuoso",
+    "pt": "carinhoso",
+    "tr": "sevgi dolu"
+   },
+   "ex": {
+    "en": "She is a loving mother."
+   }
+  },
+  {
+   "id": "emotions.crazy",
+   "t": {
+    "en": "crazy",
+    "uk": "божевільний",
+    "ru": "сумасшедший",
+    "pl": "szalony",
+    "de": "verrückt",
+    "fr": "fou",
+    "es": "loco",
+    "it": "pazzo",
+    "pt": "louco",
+    "tr": "deli"
+   },
+   "ex": {
+    "en": "This noise drives me crazy."
+   }
+  },
+  {
+   "id": "emotions.disgusting",
+   "t": {
+    "en": "disgusting",
+    "uk": "огидний",
+    "ru": "отвратительный",
+    "pl": "obrzydliwy",
+    "de": "ekelhaft",
+    "fr": "dégoûtant",
+    "es": "asqueroso",
+    "it": "disgustoso",
+    "pt": "nojento",
+    "tr": "iğrenç"
+   },
+   "ex": {
+    "en": "The smell is disgusting."
+   }
+  },
+  {
+   "id": "emotions.wonderful",
+   "t": {
+    "en": "wonderful",
+    "uk": "чудовий",
+    "ru": "замечательный",
+    "pl": "wspaniały",
+    "de": "wunderbar",
+    "fr": "merveilleux",
+    "es": "maravilloso",
+    "it": "meraviglioso",
+    "pt": "maravilhoso",
+    "tr": "harika"
+   },
+   "ex": {
+    "en": "We had a wonderful day."
+   }
+  },
+  {
+   "id": "emotions.awful",
+   "t": {
+    "en": "awful",
+    "uk": "жахливий",
+    "ru": "ужасный",
+    "pl": "okropny",
+    "de": "furchtbar",
+    "fr": "affreux",
+    "es": "horrible",
+    "it": "orribile",
+    "pt": "horrível",
+    "tr": "berbat"
+   },
+   "ex": {
+    "en": "I feel awful today."
+   }
+  },
+  {
+   "id": "emotions.pleased",
+   "t": {
+    "en": "pleased",
+    "uk": "задоволений",
+    "ru": "довольный",
+    "pl": "zadowolony",
+    "de": "erfreut",
+    "fr": "content",
+    "es": "contento",
+    "it": "contento",
+    "pt": "contente",
+    "tr": "memnun"
+   },
+   "ex": {
+    "en": "I'm pleased with my results."
+   }
+  },
+  {
+   "id": "emotions.amazing",
+   "t": {
+    "en": "amazing",
+    "uk": "дивовижний",
+    "ru": "потрясающий",
+    "pl": "niesamowity",
+    "de": "erstaunlich",
+    "fr": "incroyable",
+    "es": "increíble",
+    "it": "incredibile",
+    "pt": "incrível",
+    "tr": "inanılmaz"
+   },
+   "ex": {
+    "en": "The concert was amazing."
+   }
+  },
+  {
+   "id": "emotions.rude",
+   "t": {
+    "en": "rude",
+    "uk": "грубий",
+    "ru": "грубый",
+    "pl": "niegrzeczny",
+    "de": "unhöflich",
+    "fr": "impoli",
+    "es": "maleducado",
+    "it": "maleducato",
+    "pt": "mal-educado",
+    "tr": "kaba"
+   },
+   "ex": {
+    "en": "Don't be rude to your sister."
+   }
+  },
+  {
+   "id": "emotions.to-laugh-at",
+   "t": {
+    "en": "to laugh at",
+    "uk": "сміятися з",
+    "ru": "смеяться над",
+    "pl": "śmiać się z",
+    "de": "lachen über",
+    "fr": "se moquer de",
+    "es": "reírse de",
+    "it": "ridere di",
+    "pt": "rir de",
+    "tr": "-e gülmek"
+   },
+   "ex": {
+    "en": "They laughed at my joke."
+   }
+  },
+  {
+   "id": "emotions.to-giggle",
+   "t": {
+    "en": "to giggle",
+    "uk": "хихикати",
+    "ru": "хихикать",
+    "pl": "chichotać",
+    "de": "kichern",
+    "fr": "glousser",
+    "es": "reírse tontamente",
+    "it": "ridacchiare",
+    "pt": "dar risadinhas",
+    "tr": "kıkırdamak"
+   },
+   "ex": {
+    "en": "The girls giggled at the back."
+   }
+  },
+  {
+   "id": "emotions.nightmare",
+   "t": {
+    "en": "nightmare",
+    "uk": "кошмар",
+    "ru": "кошмар",
+    "pl": "koszmar",
+    "de": "Albtraum",
+    "fr": "cauchemar",
+    "es": "pesadilla",
+    "it": "incubo",
+    "pt": "pesadelo",
+    "tr": "kabus"
+   },
+   "ex": {
+    "en": "I had a nightmare last night."
+   }
+  },
+  {
+   "id": "emotions.to-be-lucky",
+   "t": {
+    "en": "to be lucky",
+    "uk": "пощастити",
+    "ru": "повезти",
+    "pl": "mieć szczęście",
+    "de": "Glück haben",
+    "fr": "avoir de la chance",
+    "es": "tener suerte",
+    "it": "essere fortunato",
+    "pt": "ter sorte",
+    "tr": "şanslı olmak"
+   },
+   "ex": {
+    "en": "We were lucky with the weather."
    }
   }
  ]

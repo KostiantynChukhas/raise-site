@@ -2,7 +2,7 @@
  "id": "finance-b2",
  "topic": "finance",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "finance.tax-return",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "Exchange rate fluctuations hurt our profits."
+   }
+  },
+  {
+   "id": "finance.counterfeit-money",
+   "t": {
+    "en": "counterfeit money",
+    "uk": "фальшиві гроші",
+    "ru": "фальшивые деньги",
+    "pl": "fałszywe pieniądze",
+    "de": "Falschgeld",
+    "fr": "fausse monnaie",
+    "es": "dinero falso",
+    "it": "denaro falso",
+    "pt": "dinheiro falso",
+    "tr": "sahte para"
+   },
+   "ex": {
+    "en": "The police found counterfeit money in the car."
+   }
+  },
+  {
+   "id": "finance.crowdfunding",
+   "t": {
+    "en": "crowdfunding",
+    "uk": "краудфандинг",
+    "ru": "краудфандинг",
+    "pl": "crowdfunding",
+    "de": "Crowdfunding",
+    "fr": "financement participatif",
+    "es": "micromecenazgo",
+    "it": "crowdfunding",
+    "pt": "financiamento coletivo",
+    "tr": "kitlesel fonlama"
+   },
+   "ex": {
+    "en": "They raised the money through crowdfunding."
+   }
+  },
+  {
+   "id": "finance.recession",
+   "t": {
+    "en": "recession",
+    "uk": "рецесія",
+    "ru": "рецессия",
+    "pl": "recesja",
+    "de": "Rezession",
+    "fr": "récession",
+    "es": "recesión",
+    "it": "recessione",
+    "pt": "recessão",
+    "tr": "durgunluk"
+   },
+   "ex": {
+    "en": "The country fell into recession."
+   }
+  },
+  {
+   "id": "finance.deflation",
+   "t": {
+    "en": "deflation",
+    "uk": "дефляція",
+    "ru": "дефляция",
+    "pl": "deflacja",
+    "de": "Deflation",
+    "fr": "déflation",
+    "es": "deflación",
+    "it": "deflazione",
+    "pt": "deflação",
+    "tr": "deflasyon"
+   },
+   "ex": {
+    "en": "Deflation can be bad for the economy."
+   }
+  },
+  {
+   "id": "finance.fixed-rate",
+   "t": {
+    "en": "fixed rate",
+    "uk": "фіксована ставка",
+    "ru": "фиксированная ставка",
+    "pl": "stała stopa procentowa",
+    "de": "Festzins",
+    "fr": "taux fixe",
+    "es": "tipo fijo",
+    "it": "tasso fisso",
+    "pt": "taxa fixa",
+    "tr": "sabit faiz"
+   },
+   "ex": {
+    "en": "We chose a mortgage with a fixed rate."
+   }
+  },
+  {
+   "id": "finance.variable-rate",
+   "t": {
+    "en": "variable rate",
+    "uk": "змінна ставка",
+    "ru": "плавающая ставка",
+    "pl": "zmienna stopa procentowa",
+    "de": "variabler Zins",
+    "fr": "taux variable",
+    "es": "tipo variable",
+    "it": "tasso variabile",
+    "pt": "taxa variável",
+    "tr": "değişken faiz"
+   },
+   "ex": {
+    "en": "A variable rate can go up suddenly."
+   }
+  },
+  {
+   "id": "finance.credit-history",
+   "t": {
+    "en": "credit history",
+    "uk": "кредитна історія",
+    "ru": "кредитная история",
+    "pl": "historia kredytowa",
+    "de": "Kredithistorie",
+    "fr": "historique de crédit",
+    "es": "historial crediticio",
+    "it": "storia creditizia",
+    "pt": "histórico de crédito",
+    "tr": "kredi geçmişi"
+   },
+   "ex": {
+    "en": "A good credit history makes borrowing easier."
+   }
+  },
+  {
+   "id": "finance.bounced-cheque",
+   "t": {
+    "en": "bounced cheque",
+    "uk": "чек без покриття",
+    "ru": "чек без покрытия",
+    "pl": "czek bez pokrycia",
+    "de": "geplatzter Scheck",
+    "fr": "chèque sans provision",
+    "es": "cheque sin fondos",
+    "it": "assegno scoperto",
+    "pt": "cheque sem fundos",
+    "tr": "karşılıksız çek"
+   },
+   "ex": {
+    "en": "The shop charged him for a bounced cheque."
+   }
+  },
+  {
+   "id": "finance.shareholder",
+   "t": {
+    "en": "shareholder",
+    "uk": "акціонер",
+    "ru": "акционер",
+    "pl": "akcjonariusz",
+    "de": "Aktionär",
+    "fr": "actionnaire",
+    "es": "accionista",
+    "it": "azionista",
+    "pt": "acionista",
+    "tr": "hissedar"
+   },
+   "ex": {
+    "en": "Every shareholder can vote at the meeting."
+   }
+  },
+  {
+   "id": "finance.stockbroker",
+   "t": {
+    "en": "stockbroker",
+    "uk": "біржовий брокер",
+    "ru": "биржевой брокер",
+    "pl": "makler giełdowy",
+    "de": "Börsenmakler",
+    "fr": "courtier en bourse",
+    "es": "corredor de bolsa",
+    "it": "agente di borsa",
+    "pt": "corretor da bolsa",
+    "tr": "borsa aracısı"
+   },
+   "ex": {
+    "en": "She works as a stockbroker in London."
+   }
+  },
+  {
+   "id": "finance.lump-sum",
+   "t": {
+    "en": "lump sum",
+    "uk": "одноразова виплата",
+    "ru": "единовременная выплата",
+    "pl": "jednorazowa wypłata",
+    "de": "Einmalzahlung",
+    "fr": "somme forfaitaire",
+    "es": "pago único",
+    "it": "somma forfettaria",
+    "pt": "pagamento único",
+    "tr": "toplu ödeme"
+   },
+   "ex": {
+    "en": "He received a lump sum when he retired."
+   }
+  },
+  {
+   "id": "finance.overheads",
+   "t": {
+    "en": "overheads",
+    "uk": "накладні витрати",
+    "ru": "накладные расходы",
+    "pl": "koszty ogólne",
+    "de": "Gemeinkosten",
+    "fr": "frais généraux",
+    "es": "gastos generales",
+    "it": "spese generali",
+    "pt": "despesas gerais",
+    "tr": "genel giderler"
+   },
+   "ex": {
+    "en": "Low overheads keep our prices down."
+   }
+  },
+  {
+   "id": "finance.lucrative",
+   "t": {
+    "en": "lucrative",
+    "uk": "прибутковий",
+    "ru": "прибыльный",
+    "pl": "lukratywny",
+    "de": "lukrativ",
+    "fr": "lucratif",
+    "es": "lucrativo",
+    "it": "redditizio",
+    "pt": "lucrativo",
+    "tr": "kazançlı"
+   },
+   "ex": {
+    "en": "He found a lucrative job abroad."
+   }
+  },
+  {
+   "id": "finance.to-splash-out",
+   "t": {
+    "en": "to splash out",
+    "uk": "розщедритися",
+    "ru": "раскошелиться",
+    "pl": "zaszaleć",
+    "de": "sich etwas gönnen",
+    "fr": "faire une folie",
+    "es": "darse un capricho",
+    "it": "concedersi uno sfizio",
+    "pt": "fazer uma extravagância",
+    "tr": "cömertçe harcamak"
+   },
+   "ex": {
+    "en": "We splashed out on a nice dinner."
+   }
+  },
+  {
+   "id": "finance.to-cost-a-fortune",
+   "t": {
+    "en": "to cost a fortune",
+    "uk": "коштувати цілий статок",
+    "ru": "стоить целое состояние",
+    "pl": "kosztować fortunę",
+    "de": "ein Vermögen kosten",
+    "fr": "coûter une fortune",
+    "es": "costar una fortuna",
+    "it": "costare una fortuna",
+    "pt": "custar uma fortuna",
+    "tr": "servete mal olmak"
+   },
+   "ex": {
+    "en": "That watch must cost a fortune."
+   }
+  },
+  {
+   "id": "finance.pension-fund",
+   "t": {
+    "en": "pension fund",
+    "uk": "пенсійний фонд",
+    "ru": "пенсионный фонд",
+    "pl": "fundusz emerytalny",
+    "de": "Pensionsfonds",
+    "fr": "fonds de pension",
+    "es": "fondo de pensiones",
+    "it": "fondo pensione",
+    "pt": "fundo de pensão",
+    "tr": "emeklilik fonu"
+   },
+   "ex": {
+    "en": "Part of my salary goes into a pension fund."
+   }
+  },
+  {
+   "id": "finance.beneficiary",
+   "t": {
+    "en": "beneficiary",
+    "uk": "бенефіціар",
+    "ru": "бенефициар",
+    "pl": "beneficjent",
+    "de": "Begünstigter",
+    "fr": "bénéficiaire",
+    "es": "beneficiario",
+    "it": "beneficiario",
+    "pt": "beneficiário",
+    "tr": "lehtar"
+   },
+   "ex": {
+    "en": "Add the beneficiary before sending the money."
+   }
+  },
+  {
+   "id": "finance.central-bank",
+   "t": {
+    "en": "central bank",
+    "uk": "центральний банк",
+    "ru": "центральный банк",
+    "pl": "bank centralny",
+    "de": "Zentralbank",
+    "fr": "banque centrale",
+    "es": "banco central",
+    "it": "banca centrale",
+    "pt": "banco central",
+    "tr": "merkez bankası"
+   },
+   "ex": {
+    "en": "The central bank raised interest rates."
+   }
+  },
+  {
+   "id": "finance.economic-growth",
+   "t": {
+    "en": "economic growth",
+    "uk": "економічне зростання",
+    "ru": "экономический рост",
+    "pl": "wzrost gospodarczy",
+    "de": "Wirtschaftswachstum",
+    "fr": "croissance économique",
+    "es": "crecimiento económico",
+    "it": "crescita economica",
+    "pt": "crescimento econômico",
+    "tr": "ekonomik büyüme"
+   },
+   "ex": {
+    "en": "Economic growth slowed last year."
+   }
+  },
+  {
+   "id": "finance.downturn",
+   "t": {
+    "en": "downturn",
+    "uk": "спад",
+    "ru": "спад",
+    "pl": "spowolnienie",
+    "de": "Abschwung",
+    "fr": "ralentissement",
+    "es": "desaceleración",
+    "it": "flessione",
+    "pt": "desaceleração",
+    "tr": "gerileme"
+   },
+   "ex": {
+    "en": "Many shops closed during the downturn."
+   }
+  },
+  {
+   "id": "finance.loan-shark",
+   "t": {
+    "en": "loan shark",
+    "uk": "лихвар",
+    "ru": "ростовщик",
+    "pl": "lichwiarz",
+    "de": "Kredithai",
+    "fr": "usurier",
+    "es": "usurero",
+    "it": "strozzino",
+    "pt": "agiota",
+    "tr": "tefeci"
+   },
+   "ex": {
+    "en": "Never borrow money from a loan shark."
    }
   }
  ]

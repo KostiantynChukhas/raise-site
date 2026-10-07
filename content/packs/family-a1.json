@@ -2,7 +2,7 @@
  "id": "family-a1",
  "topic": "family",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "family.family",
@@ -524,6 +524,348 @@
    },
    "ex": {
     "en": "Do you have children?"
+   }
+  },
+  {
+   "id": "family.mom",
+   "t": {
+    "en": "mom",
+    "uk": "мама",
+    "ru": "мама",
+    "pl": "mama",
+    "de": "Mama",
+    "fr": "maman",
+    "es": "mamá",
+    "it": "mamma",
+    "pt": "mamãe",
+    "tr": "anne"
+   },
+   "ex": {
+    "en": "My mom makes great pancakes."
+   }
+  },
+  {
+   "id": "family.dad",
+   "t": {
+    "en": "dad",
+    "uk": "тато",
+    "ru": "папа",
+    "pl": "tata",
+    "de": "Papa",
+    "fr": "papa",
+    "es": "papá",
+    "it": "papà",
+    "pt": "papai",
+    "tr": "baba"
+   },
+   "ex": {
+    "en": "My dad drives me to school."
+   }
+  },
+  {
+   "id": "family.grandma",
+   "t": {
+    "en": "grandma",
+    "uk": "бабуся",
+    "ru": "бабушка",
+    "pl": "babcia",
+    "de": "Oma",
+    "fr": "mamie",
+    "es": "abuelita",
+    "it": "nonna",
+    "pt": "vovó",
+    "tr": "nine"
+   },
+   "ex": {
+    "en": "Grandma lives in the country."
+   }
+  },
+  {
+   "id": "family.grandpa",
+   "t": {
+    "en": "grandpa",
+    "uk": "дідусь",
+    "ru": "дедушка",
+    "pl": "dziadek",
+    "de": "Opa",
+    "fr": "papi",
+    "es": "abuelito",
+    "it": "nonno",
+    "pt": "vovô",
+    "tr": "dede"
+   },
+   "ex": {
+    "en": "Grandpa tells funny stories."
+   }
+  },
+  {
+   "id": "family.pet",
+   "t": {
+    "en": "pet",
+    "uk": "домашня тварина",
+    "ru": "домашнее животное",
+    "pl": "zwierzątko domowe",
+    "de": "Haustier",
+    "fr": "animal de compagnie",
+    "es": "mascota",
+    "it": "animale domestico",
+    "pt": "animal de estimação",
+    "tr": "evcil hayvan"
+   },
+   "ex": {
+    "en": "Do you have a pet?"
+   }
+  },
+  {
+   "id": "family.to-live-with",
+   "t": {
+    "en": "to live with",
+    "uk": "жити з",
+    "ru": "жить с",
+    "pl": "mieszkać z",
+    "de": "wohnen mit",
+    "fr": "vivre avec",
+    "es": "vivir con",
+    "it": "vivere con",
+    "pt": "morar com",
+    "tr": "ile yaşamak"
+   },
+   "ex": {
+    "en": "I live with my parents."
+   }
+  },
+  {
+   "id": "family.big-family",
+   "t": {
+    "en": "big family",
+    "uk": "велика сім'я",
+    "ru": "большая семья",
+    "pl": "duża rodzina",
+    "de": "große Familie",
+    "fr": "famille nombreuse",
+    "es": "familia numerosa",
+    "it": "famiglia numerosa",
+    "pt": "família grande",
+    "tr": "kalabalık aile"
+   },
+   "ex": {
+    "en": "She comes from a big family."
+   }
+  },
+  {
+   "id": "family.small-family",
+   "t": {
+    "en": "small family",
+    "uk": "маленька сім'я",
+    "ru": "маленькая семья",
+    "pl": "mała rodzina",
+    "de": "kleine Familie",
+    "fr": "petite famille",
+    "es": "familia pequeña",
+    "it": "famiglia piccola",
+    "pt": "família pequena",
+    "tr": "küçük aile"
+   },
+   "ex": {
+    "en": "We are a small family."
+   }
+  },
+  {
+   "id": "family.years-old",
+   "t": {
+    "en": "years old",
+    "uk": "років",
+    "ru": "лет",
+    "pl": "lat",
+    "de": "Jahre alt",
+    "fr": "ans",
+    "es": "años",
+    "it": "anni",
+    "pt": "anos",
+    "tr": "yaşında"
+   },
+   "ex": {
+    "en": "My son is five years old."
+   }
+  },
+  {
+   "id": "family.toy",
+   "t": {
+    "en": "toy",
+    "uk": "іграшка",
+    "ru": "игрушка",
+    "pl": "zabawka",
+    "de": "Spielzeug",
+    "fr": "jouet",
+    "es": "juguete",
+    "it": "giocattolo",
+    "pt": "brinquedo",
+    "tr": "oyuncak"
+   },
+   "ex": {
+    "en": "The baby loves this toy."
+   }
+  },
+  {
+   "id": "family.person",
+   "t": {
+    "en": "person",
+    "uk": "людина",
+    "ru": "человек",
+    "pl": "osoba",
+    "de": "Person",
+    "fr": "personne",
+    "es": "persona",
+    "it": "persona",
+    "pt": "pessoa",
+    "tr": "kişi"
+   },
+   "ex": {
+    "en": "She is a nice person."
+   }
+  },
+  {
+   "id": "family.last-name",
+   "t": {
+    "en": "last name",
+    "uk": "прізвище",
+    "ru": "фамилия",
+    "pl": "nazwisko",
+    "de": "Nachname",
+    "fr": "nom de famille",
+    "es": "apellido",
+    "it": "cognome",
+    "pt": "sobrenome",
+    "tr": "soyadı"
+   },
+   "ex": {
+    "en": "What is your last name?"
+   }
+  },
+  {
+   "id": "family.pretty",
+   "t": {
+    "en": "pretty",
+    "uk": "гарненький",
+    "ru": "симпатичный",
+    "pl": "ładny",
+    "de": "hübsch",
+    "fr": "joli",
+    "es": "bonito",
+    "it": "carino",
+    "pt": "bonito",
+    "tr": "güzel"
+   },
+   "ex": {
+    "en": "Your daughter is very pretty."
+   }
+  },
+  {
+   "id": "family.long-hair",
+   "t": {
+    "en": "long hair",
+    "uk": "довге волосся",
+    "ru": "длинные волосы",
+    "pl": "długie włosy",
+    "de": "lange Haare",
+    "fr": "cheveux longs",
+    "es": "pelo largo",
+    "it": "capelli lunghi",
+    "pt": "cabelo comprido",
+    "tr": "uzun saç"
+   },
+   "ex": {
+    "en": "My sister has long hair."
+   }
+  },
+  {
+   "id": "family.short-hair",
+   "t": {
+    "en": "short hair",
+    "uk": "коротке волосся",
+    "ru": "короткие волосы",
+    "pl": "krótkie włosy",
+    "de": "kurze Haare",
+    "fr": "cheveux courts",
+    "es": "pelo corto",
+    "it": "capelli corti",
+    "pt": "cabelo curto",
+    "tr": "kısa saç"
+   },
+   "ex": {
+    "en": "Dad has short hair."
+   }
+  },
+  {
+   "id": "family.blue-eyes",
+   "t": {
+    "en": "blue eyes",
+    "uk": "блакитні очі",
+    "ru": "голубые глаза",
+    "pl": "niebieskie oczy",
+    "de": "blaue Augen",
+    "fr": "yeux bleus",
+    "es": "ojos azules",
+    "it": "occhi azzurri",
+    "pt": "olhos azuis",
+    "tr": "mavi gözler"
+   },
+   "ex": {
+    "en": "The baby has blue eyes."
+   }
+  },
+  {
+   "id": "family.brown-eyes",
+   "t": {
+    "en": "brown eyes",
+    "uk": "карі очі",
+    "ru": "карие глаза",
+    "pl": "brązowe oczy",
+    "de": "braune Augen",
+    "fr": "yeux marron",
+    "es": "ojos marrones",
+    "it": "occhi castani",
+    "pt": "olhos castanhos",
+    "tr": "kahverengi gözler"
+   },
+   "ex": {
+    "en": "I have brown eyes like my mom."
+   }
+  },
+  {
+   "id": "family.thin",
+   "t": {
+    "en": "thin",
+    "uk": "худий",
+    "ru": "худой",
+    "pl": "chudy",
+    "de": "dünn",
+    "fr": "mince",
+    "es": "delgado",
+    "it": "magro",
+    "pt": "magro",
+    "tr": "zayıf"
+   },
+   "ex": {
+    "en": "My brother is tall and thin."
+   }
+  },
+  {
+   "id": "family.who-is-this",
+   "t": {
+    "en": "Who is this?",
+    "uk": "Хто це?",
+    "ru": "Кто это?",
+    "pl": "Kto to jest?",
+    "de": "Wer ist das?",
+    "fr": "Qui est-ce ?",
+    "es": "¿Quién es?",
+    "it": "Chi è?",
+    "pt": "Quem é?",
+    "tr": "Bu kim?"
+   },
+   "ex": {
+    "en": "Who is this in the photo?"
    }
   }
  ]

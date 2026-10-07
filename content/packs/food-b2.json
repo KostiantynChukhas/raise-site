@@ -2,7 +2,7 @@
  "id": "food-b2",
  "topic": "food",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "food.to-season",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "The chef uses only seasonal produce."
+   }
+  },
+  {
+   "id": "food.to-sprinkle",
+   "t": {
+    "en": "to sprinkle",
+    "uk": "посипати",
+    "ru": "посыпать",
+    "pl": "posypać",
+    "de": "bestreuen",
+    "fr": "saupoudrer",
+    "es": "espolvorear",
+    "it": "cospargere",
+    "pt": "polvilhar",
+    "tr": "serpmek"
+   },
+   "ex": {
+    "en": "Sprinkle some sugar on the pancakes."
+   }
+  },
+  {
+   "id": "food.to-grind",
+   "t": {
+    "en": "to grind",
+    "uk": "молоти",
+    "ru": "молоть",
+    "pl": "mielić",
+    "de": "mahlen",
+    "fr": "moudre",
+    "es": "moler",
+    "it": "macinare",
+    "pt": "moer",
+    "tr": "öğütmek"
+   },
+   "ex": {
+    "en": "I grind my coffee beans every morning."
+   }
+  },
+  {
+   "id": "food.to-strain",
+   "t": {
+    "en": "to strain",
+    "uk": "проціджувати",
+    "ru": "процеживать",
+    "pl": "odcedzić",
+    "de": "abseihen",
+    "fr": "égoutter",
+    "es": "colar",
+    "it": "scolare",
+    "pt": "coar",
+    "tr": "süzmek"
+   },
+   "ex": {
+    "en": "Strain the pasta and add the sauce."
+   }
+  },
+  {
+   "id": "food.to-mince",
+   "t": {
+    "en": "to mince",
+    "uk": "подрібнювати",
+    "ru": "измельчать",
+    "pl": "siekać",
+    "de": "hacken",
+    "fr": "hacher",
+    "es": "picar",
+    "it": "tritare",
+    "pt": "picar",
+    "tr": "kıymak"
+   },
+   "ex": {
+    "en": "Mince the garlic finely."
+   }
+  },
+  {
+   "id": "food.to-soak",
+   "t": {
+    "en": "to soak",
+    "uk": "замочувати",
+    "ru": "замачивать",
+    "pl": "moczyć",
+    "de": "einweichen",
+    "fr": "faire tremper",
+    "es": "poner en remojo",
+    "it": "mettere a bagno",
+    "pt": "deixar de molho",
+    "tr": "suda bekletmek"
+   },
+   "ex": {
+    "en": "Soak the beans overnight."
+   }
+  },
+  {
+   "id": "food.to-thicken",
+   "t": {
+    "en": "to thicken",
+    "uk": "загущувати",
+    "ru": "загущать",
+    "pl": "zagęszczać",
+    "de": "andicken",
+    "fr": "épaissir",
+    "es": "espesar",
+    "it": "addensare",
+    "pt": "engrossar",
+    "tr": "koyulaştırmak"
+   },
+   "ex": {
+    "en": "Use flour to thicken the sauce."
+   }
+  },
+  {
+   "id": "food.to-stuff",
+   "t": {
+    "en": "to stuff",
+    "uk": "фарширувати",
+    "ru": "фаршировать",
+    "pl": "nadziewać",
+    "de": "füllen",
+    "fr": "farcir",
+    "es": "rellenar",
+    "it": "farcire",
+    "pt": "rechear",
+    "tr": "doldurmak"
+   },
+   "ex": {
+    "en": "We stuffed the peppers with rice and meat."
+   }
+  },
+  {
+   "id": "food.broth",
+   "t": {
+    "en": "broth",
+    "uk": "бульйон",
+    "ru": "бульон",
+    "pl": "bulion",
+    "de": "Brühe",
+    "fr": "bouillon",
+    "es": "caldo",
+    "it": "brodo",
+    "pt": "caldo",
+    "tr": "et suyu"
+   },
+   "ex": {
+    "en": "Chicken broth is good when you're ill."
+   }
+  },
+  {
+   "id": "food.sourdough",
+   "t": {
+    "en": "sourdough",
+    "uk": "хліб на заквасці",
+    "ru": "хлеб на закваске",
+    "pl": "chleb na zakwasie",
+    "de": "Sauerteigbrot",
+    "fr": "pain au levain",
+    "es": "pan de masa madre",
+    "it": "pane con lievito madre",
+    "pt": "pão de fermentação natural",
+    "tr": "ekşi maya ekmeği"
+   },
+   "ex": {
+    "en": "This bakery sells excellent sourdough."
+   }
+  },
+  {
+   "id": "food.fermented",
+   "t": {
+    "en": "fermented",
+    "uk": "ферментований",
+    "ru": "ферментированный",
+    "pl": "fermentowany",
+    "de": "fermentiert",
+    "fr": "fermenté",
+    "es": "fermentado",
+    "it": "fermentato",
+    "pt": "fermentado",
+    "tr": "fermente"
+   },
+   "ex": {
+    "en": "Kimchi is a fermented cabbage dish."
+   }
+  },
+  {
+   "id": "food.pickled",
+   "t": {
+    "en": "pickled",
+    "uk": "маринований",
+    "ru": "маринованный",
+    "pl": "marynowany",
+    "de": "eingelegt",
+    "fr": "mariné",
+    "es": "encurtido",
+    "it": "sottaceto",
+    "pt": "em conserva",
+    "tr": "turşu"
+   },
+   "ex": {
+    "en": "Pickled cucumbers go well with potatoes."
+   }
+  },
+  {
+   "id": "food.smoked",
+   "t": {
+    "en": "smoked",
+    "uk": "копчений",
+    "ru": "копчёный",
+    "pl": "wędzony",
+    "de": "geräuchert",
+    "fr": "fumé",
+    "es": "ahumado",
+    "it": "affumicato",
+    "pt": "defumado",
+    "tr": "füme"
+   },
+   "ex": {
+    "en": "We had smoked salmon on toast."
+   }
+  },
+  {
+   "id": "food.ripe",
+   "t": {
+    "en": "ripe",
+    "uk": "стиглий",
+    "ru": "спелый",
+    "pl": "dojrzały",
+    "de": "reif",
+    "fr": "mûr",
+    "es": "maduro",
+    "it": "maturo",
+    "pt": "maduro",
+    "tr": "olgun"
+   },
+   "ex": {
+    "en": "These bananas aren't ripe yet."
+   }
+  },
+  {
+   "id": "food.craving",
+   "t": {
+    "en": "craving",
+    "uk": "тяга",
+    "ru": "тяга",
+    "pl": "zachcianka",
+    "de": "Heißhunger",
+    "fr": "envie",
+    "es": "antojo",
+    "it": "voglia",
+    "pt": "desejo",
+    "tr": "aşırı istek"
+   },
+   "ex": {
+    "en": "I have a sudden craving for chocolate."
+   }
+  },
+  {
+   "id": "food.nutritious",
+   "t": {
+    "en": "nutritious",
+    "uk": "поживний",
+    "ru": "питательный",
+    "pl": "pożywny",
+    "de": "nahrhaft",
+    "fr": "nutritif",
+    "es": "nutritivo",
+    "it": "nutriente",
+    "pt": "nutritivo",
+    "tr": "besleyici"
+   },
+   "ex": {
+    "en": "Lentils are cheap and nutritious."
+   }
+  },
+  {
+   "id": "food.staple-food",
+   "t": {
+    "en": "staple food",
+    "uk": "основний продукт харчування",
+    "ru": "основной продукт питания",
+    "pl": "podstawowy produkt spożywczy",
+    "de": "Grundnahrungsmittel",
+    "fr": "aliment de base",
+    "es": "alimento básico",
+    "it": "alimento base",
+    "pt": "alimento básico",
+    "tr": "temel gıda"
+   },
+   "ex": {
+    "en": "Rice is a staple food in Asia."
+   }
+  },
+  {
+   "id": "food.food-waste",
+   "t": {
+    "en": "food waste",
+    "uk": "харчові відходи",
+    "ru": "пищевые отходы",
+    "pl": "marnowanie żywności",
+    "de": "Lebensmittelverschwendung",
+    "fr": "gaspillage alimentaire",
+    "es": "desperdicio de alimentos",
+    "it": "spreco alimentare",
+    "pt": "desperdício de alimentos",
+    "tr": "gıda israfı"
+   },
+   "ex": {
+    "en": "Planning meals helps reduce food waste."
+   }
+  },
+  {
+   "id": "food.additives",
+   "t": {
+    "en": "additives",
+    "uk": "харчові добавки",
+    "ru": "пищевые добавки",
+    "pl": "dodatki do żywności",
+    "de": "Zusatzstoffe",
+    "fr": "additifs",
+    "es": "aditivos",
+    "it": "additivi",
+    "pt": "aditivos",
+    "tr": "katkı maddeleri"
+   },
+   "ex": {
+    "en": "Many snacks are full of additives."
+   }
+  },
+  {
+   "id": "food.street-food",
+   "t": {
+    "en": "street food",
+    "uk": "вулична їжа",
+    "ru": "уличная еда",
+    "pl": "jedzenie uliczne",
+    "de": "Streetfood",
+    "fr": "cuisine de rue",
+    "es": "comida callejera",
+    "it": "cibo di strada",
+    "pt": "comida de rua",
+    "tr": "sokak yemeği"
+   },
+   "ex": {
+    "en": "Bangkok is famous for its street food."
+   }
+  },
+  {
+   "id": "food.preservatives",
+   "t": {
+    "en": "preservatives",
+    "uk": "консерванти",
+    "ru": "консерванты",
+    "pl": "konserwanty",
+    "de": "Konservierungsstoffe",
+    "fr": "conservateurs",
+    "es": "conservantes",
+    "it": "conservanti",
+    "pt": "conservantes",
+    "tr": "koruyucu maddeler"
+   },
+   "ex": {
+    "en": "This jam contains no preservatives."
    }
   }
  ]

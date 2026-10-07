@@ -2,7 +2,7 @@
  "id": "finance-c1",
  "topic": "finance",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "finance.liquidity",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "Rising rents eat into disposable income."
+   }
+  },
+  {
+   "id": "finance.stagflation",
+   "t": {
+    "en": "stagflation",
+    "uk": "стагфляція",
+    "ru": "стагфляция",
+    "pl": "stagflacja",
+    "de": "Stagflation",
+    "fr": "stagflation",
+    "es": "estanflación",
+    "it": "stagflazione",
+    "pt": "estagflação",
+    "tr": "stagflasyon"
+   },
+   "ex": {
+    "en": "Stagflation combines high inflation with low growth."
+   }
+  },
+  {
+   "id": "finance.venture-capital",
+   "t": {
+    "en": "venture capital",
+    "uk": "венчурний капітал",
+    "ru": "венчурный капитал",
+    "pl": "kapitał wysokiego ryzyka",
+    "de": "Risikokapital",
+    "fr": "capital-risque",
+    "es": "capital riesgo",
+    "it": "capitale di rischio",
+    "pt": "capital de risco",
+    "tr": "risk sermayesi"
+   },
+   "ex": {
+    "en": "The startup is backed by venture capital."
+   }
+  },
+  {
+   "id": "finance.hedge-fund",
+   "t": {
+    "en": "hedge fund",
+    "uk": "хедж-фонд",
+    "ru": "хедж-фонд",
+    "pl": "fundusz hedgingowy",
+    "de": "Hedgefonds",
+    "fr": "fonds spéculatif",
+    "es": "fondo de cobertura",
+    "it": "fondo speculativo",
+    "pt": "fundo de hedge",
+    "tr": "hedge fonu"
+   },
+   "ex": {
+    "en": "He manages a hedge fund in New York."
+   }
+  },
+  {
+   "id": "finance.short-selling",
+   "t": {
+    "en": "short selling",
+    "uk": "короткий продаж",
+    "ru": "короткая продажа",
+    "pl": "krótka sprzedaż",
+    "de": "Leerverkauf",
+    "fr": "vente à découvert",
+    "es": "venta en corto",
+    "it": "vendita allo scoperto",
+    "pt": "venda a descoberto",
+    "tr": "açığa satış"
+   },
+   "ex": {
+    "en": "Short selling was banned during the crisis."
+   }
+  },
+  {
+   "id": "finance.bailout",
+   "t": {
+    "en": "bailout",
+    "uk": "фінансова допомога",
+    "ru": "финансовая помощь",
+    "pl": "pakiet ratunkowy",
+    "de": "Rettungspaket",
+    "fr": "plan de sauvetage",
+    "es": "rescate financiero",
+    "it": "salvataggio",
+    "pt": "resgate financeiro",
+    "tr": "kurtarma paketi"
+   },
+   "ex": {
+    "en": "The government approved a bailout for the banks."
+   }
+  },
+  {
+   "id": "finance.austerity",
+   "t": {
+    "en": "austerity",
+    "uk": "жорстка економія",
+    "ru": "жёсткая экономия",
+    "pl": "polityka oszczędności",
+    "de": "Sparpolitik",
+    "fr": "austérité",
+    "es": "austeridad",
+    "it": "austerità",
+    "pt": "austeridade",
+    "tr": "kemer sıkma"
+   },
+   "ex": {
+    "en": "Years of austerity hit public services."
+   }
+  },
+  {
+   "id": "finance.monetary-policy",
+   "t": {
+    "en": "monetary policy",
+    "uk": "монетарна політика",
+    "ru": "денежно-кредитная политика",
+    "pl": "polityka pieniężna",
+    "de": "Geldpolitik",
+    "fr": "politique monétaire",
+    "es": "política monetaria",
+    "it": "politica monetaria",
+    "pt": "política monetária",
+    "tr": "para politikası"
+   },
+   "ex": {
+    "en": "Monetary policy is set by the central bank."
+   }
+  },
+  {
+   "id": "finance.budget-deficit",
+   "t": {
+    "en": "budget deficit",
+    "uk": "дефіцит бюджету",
+    "ru": "дефицит бюджета",
+    "pl": "deficyt budżetowy",
+    "de": "Haushaltsdefizit",
+    "fr": "déficit budgétaire",
+    "es": "déficit presupuestario",
+    "it": "deficit di bilancio",
+    "pt": "déficit orçamentário",
+    "tr": "bütçe açığı"
+   },
+   "ex": {
+    "en": "The budget deficit grew again this year."
+   }
+  },
+  {
+   "id": "finance.national-debt",
+   "t": {
+    "en": "national debt",
+    "uk": "державний борг",
+    "ru": "государственный долг",
+    "pl": "dług publiczny",
+    "de": "Staatsverschuldung",
+    "fr": "dette publique",
+    "es": "deuda pública",
+    "it": "debito pubblico",
+    "pt": "dívida pública",
+    "tr": "kamu borcu"
+   },
+   "ex": {
+    "en": "The national debt has reached a record high."
+   }
+  },
+  {
+   "id": "finance.insolvency",
+   "t": {
+    "en": "insolvency",
+    "uk": "неплатоспроможність",
+    "ru": "неплатёжеспособность",
+    "pl": "niewypłacalność",
+    "de": "Insolvenz",
+    "fr": "insolvabilité",
+    "es": "insolvencia",
+    "it": "insolvenza",
+    "pt": "insolvência",
+    "tr": "ödeme aczi"
+   },
+   "ex": {
+    "en": "The firm filed for insolvency in March."
+   }
+  },
+  {
+   "id": "finance.creditor",
+   "t": {
+    "en": "creditor",
+    "uk": "кредитор",
+    "ru": "кредитор",
+    "pl": "wierzyciel",
+    "de": "Gläubiger",
+    "fr": "créancier",
+    "es": "acreedor",
+    "it": "creditore",
+    "pt": "credor",
+    "tr": "alacaklı"
+   },
+   "ex": {
+    "en": "The creditors want their money back."
+   }
+  },
+  {
+   "id": "finance.debtor",
+   "t": {
+    "en": "debtor",
+    "uk": "боржник",
+    "ru": "должник",
+    "pl": "dłużnik",
+    "de": "Schuldner",
+    "fr": "débiteur",
+    "es": "deudor",
+    "it": "debitore",
+    "pt": "devedor",
+    "tr": "borçlu"
+   },
+   "ex": {
+    "en": "The debtor agreed to a new payment plan."
+   }
+  },
+  {
+   "id": "finance.in-arrears",
+   "t": {
+    "en": "in arrears",
+    "uk": "із заборгованістю",
+    "ru": "с задолженностью",
+    "pl": "z zaległościami",
+    "de": "im Rückstand",
+    "fr": "en retard de paiement",
+    "es": "atrasado en los pagos",
+    "it": "in arretrato",
+    "pt": "em atraso",
+    "tr": "ödemesi gecikmiş"
+   },
+   "ex": {
+    "en": "They are three months in arrears with the rent."
+   }
+  },
+  {
+   "id": "finance.cash-cow",
+   "t": {
+    "en": "cash cow",
+    "uk": "дійна корова",
+    "ru": "дойная корова",
+    "pl": "dojna krowa",
+    "de": "Melkkuh",
+    "fr": "vache à lait",
+    "es": "vaca lechera",
+    "it": "gallina dalle uova d'oro",
+    "pt": "galinha dos ovos de ouro",
+    "tr": "altın yumurtlayan tavuk"
+   },
+   "ex": {
+    "en": "That old product is still the company's cash cow."
+   }
+  },
+  {
+   "id": "finance.destitute",
+   "t": {
+    "en": "destitute",
+    "uk": "злиденний",
+    "ru": "обездоленный",
+    "pl": "bez środków do życia",
+    "de": "mittellos",
+    "fr": "démuni",
+    "es": "indigente",
+    "it": "indigente",
+    "pt": "indigente",
+    "tr": "muhtaç"
+   },
+   "ex": {
+    "en": "The war left thousands destitute."
+   }
+  },
+  {
+   "id": "finance.to-scrimp-and-save",
+   "t": {
+    "en": "to scrimp and save",
+    "uk": "на всьому економити",
+    "ru": "экономить на всём",
+    "pl": "oszczędzać na wszystkim",
+    "de": "jeden Cent umdrehen",
+    "fr": "économiser sou par sou",
+    "es": "ahorrar hasta el último céntimo",
+    "it": "risparmiare su tutto",
+    "pt": "economizar cada centavo",
+    "tr": "dişinden tırnağından artırmak"
+   },
+   "ex": {
+    "en": "They scrimped and saved to buy a house."
+   }
+  },
+  {
+   "id": "finance.to-rake-in",
+   "t": {
+    "en": "to rake in",
+    "uk": "загрібати гроші",
+    "ru": "загребать деньги",
+    "pl": "zgarniać pieniądze",
+    "de": "absahnen",
+    "fr": "se faire un fric fou",
+    "es": "forrarse",
+    "it": "fare soldi a palate",
+    "pt": "faturar alto",
+    "tr": "para basmak"
+   },
+   "ex": {
+    "en": "The new app is raking in millions."
+   }
+  },
+  {
+   "id": "finance.to-bankroll",
+   "t": {
+    "en": "to bankroll",
+    "uk": "фінансувати",
+    "ru": "финансировать",
+    "pl": "finansować",
+    "de": "finanzieren",
+    "fr": "financer",
+    "es": "financiar",
+    "it": "finanziare",
+    "pt": "bancar",
+    "tr": "finanse etmek"
+   },
+   "ex": {
+    "en": "A rich uncle bankrolled the project."
+   }
+  },
+  {
+   "id": "finance.tax-haven",
+   "t": {
+    "en": "tax haven",
+    "uk": "податковий рай",
+    "ru": "налоговый рай",
+    "pl": "raj podatkowy",
+    "de": "Steueroase",
+    "fr": "paradis fiscal",
+    "es": "paraíso fiscal",
+    "it": "paradiso fiscale",
+    "pt": "paraíso fiscal",
+    "tr": "vergi cenneti"
+   },
+   "ex": {
+    "en": "The money was hidden in a tax haven."
+   }
+  },
+  {
+   "id": "finance.insider-trading",
+   "t": {
+    "en": "insider trading",
+    "uk": "інсайдерська торгівля",
+    "ru": "инсайдерская торговля",
+    "pl": "handel poufnymi informacjami",
+    "de": "Insiderhandel",
+    "fr": "délit d'initié",
+    "es": "uso de información privilegiada",
+    "it": "insider trading",
+    "pt": "uso de informação privilegiada",
+    "tr": "içeriden bilgi ticareti"
+   },
+   "ex": {
+    "en": "He was jailed for insider trading."
+   }
+  },
+  {
+   "id": "finance.kickback",
+   "t": {
+    "en": "kickback",
+    "uk": "відкат",
+    "ru": "откат",
+    "pl": "łapówka",
+    "de": "Schmiergeld",
+    "fr": "pot-de-vin",
+    "es": "comisión ilegal",
+    "it": "tangente",
+    "pt": "propina",
+    "tr": "rüşvet"
+   },
+   "ex": {
+    "en": "The official took a kickback from the contractor."
+   }
+  },
+  {
+   "id": "finance.securities",
+   "t": {
+    "en": "securities",
+    "uk": "цінні папери",
+    "ru": "ценные бумаги",
+    "pl": "papiery wartościowe",
+    "de": "Wertpapiere",
+    "fr": "titres",
+    "es": "valores",
+    "it": "titoli",
+    "pt": "valores mobiliários",
+    "tr": "menkul kıymetler"
+   },
+   "ex": {
+    "en": "The bank invests in government securities."
+   }
+  },
+  {
+   "id": "finance.to-plummet",
+   "t": {
+    "en": "to plummet",
+    "uk": "різко падати",
+    "ru": "резко падать",
+    "pl": "gwałtownie spadać",
+    "de": "einbrechen",
+    "fr": "dégringoler",
+    "es": "desplomarse",
+    "it": "crollare",
+    "pt": "despencar",
+    "tr": "hızla düşmek"
+   },
+   "ex": {
+    "en": "Share prices plummeted after the news."
    }
   }
  ]

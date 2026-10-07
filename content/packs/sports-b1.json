@@ -2,7 +2,7 @@
  "id": "sports-b1",
  "topic": "sports",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "sports.to-compete",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "The hiking trail is well marked."
+   }
+  },
+  {
+   "id": "sports.martial-arts",
+   "t": {
+    "en": "martial arts",
+    "uk": "бойові мистецтва",
+    "ru": "боевые искусства",
+    "pl": "sztuki walki",
+    "de": "Kampfsport",
+    "fr": "arts martiaux",
+    "es": "artes marciales",
+    "it": "arti marziali",
+    "pt": "artes marciais",
+    "tr": "dövüş sanatları"
+   },
+   "ex": {
+    "en": "He practises martial arts."
+   }
+  },
+  {
+   "id": "sports.defender",
+   "t": {
+    "en": "defender",
+    "uk": "захисник",
+    "ru": "защитник",
+    "pl": "obrońca",
+    "de": "Verteidiger",
+    "fr": "défenseur",
+    "es": "defensa",
+    "it": "difensore",
+    "pt": "zagueiro",
+    "tr": "defans oyuncusu"
+   },
+   "ex": {
+    "en": "The defender blocked the shot."
+   }
+  },
+  {
+   "id": "sports.striker",
+   "t": {
+    "en": "striker",
+    "uk": "нападник",
+    "ru": "нападающий",
+    "pl": "napastnik",
+    "de": "Stürmer",
+    "fr": "attaquant",
+    "es": "delantero",
+    "it": "attaccante",
+    "pt": "atacante",
+    "tr": "forvet"
+   },
+   "ex": {
+    "en": "Their striker scored twice."
+   }
+  },
+  {
+   "id": "sports.midfielder",
+   "t": {
+    "en": "midfielder",
+    "uk": "півзахисник",
+    "ru": "полузащитник",
+    "pl": "pomocnik",
+    "de": "Mittelfeldspieler",
+    "fr": "milieu de terrain",
+    "es": "centrocampista",
+    "it": "centrocampista",
+    "pt": "meio-campista",
+    "tr": "orta saha oyuncusu"
+   },
+   "ex": {
+    "en": "The midfielder controls the game."
+   }
+  },
+  {
+   "id": "sports.corner-kick",
+   "t": {
+    "en": "corner kick",
+    "uk": "кутовий удар",
+    "ru": "угловой удар",
+    "pl": "rzut rożny",
+    "de": "Eckstoß",
+    "fr": "corner",
+    "es": "saque de esquina",
+    "it": "calcio d'angolo",
+    "pt": "escanteio",
+    "tr": "korner"
+   },
+   "ex": {
+    "en": "They scored from a corner kick."
+   }
+  },
+  {
+   "id": "sports.free-kick",
+   "t": {
+    "en": "free kick",
+    "uk": "штрафний удар",
+    "ru": "штрафной удар",
+    "pl": "rzut wolny",
+    "de": "Freistoß",
+    "fr": "coup franc",
+    "es": "tiro libre",
+    "it": "calcio di punizione",
+    "pt": "tiro livre",
+    "tr": "serbest vuruş"
+   },
+   "ex": {
+    "en": "He took the free kick himself."
+   }
+  },
+  {
+   "id": "sports.offside",
+   "t": {
+    "en": "offside",
+    "uk": "офсайд",
+    "ru": "офсайд",
+    "pl": "spalony",
+    "de": "Abseits",
+    "fr": "hors-jeu",
+    "es": "fuera de juego",
+    "it": "fuorigioco",
+    "pt": "impedimento",
+    "tr": "ofsayt"
+   },
+   "ex": {
+    "en": "The goal didn't count because of offside."
+   }
+  },
+  {
+   "id": "sports.red-card",
+   "t": {
+    "en": "red card",
+    "uk": "червона картка",
+    "ru": "красная карточка",
+    "pl": "czerwona kartka",
+    "de": "rote Karte",
+    "fr": "carton rouge",
+    "es": "tarjeta roja",
+    "it": "cartellino rosso",
+    "pt": "cartão vermelho",
+    "tr": "kırmızı kart"
+   },
+   "ex": {
+    "en": "The referee showed him a red card."
+   }
+  },
+  {
+   "id": "sports.foul",
+   "t": {
+    "en": "foul",
+    "uk": "фол",
+    "ru": "фол",
+    "pl": "faul",
+    "de": "Foul",
+    "fr": "faute",
+    "es": "falta",
+    "it": "fallo",
+    "pt": "falta",
+    "tr": "faul"
+   },
+   "ex": {
+    "en": "That was a clear foul."
+   }
+  },
+  {
+   "id": "sports.scoreboard",
+   "t": {
+    "en": "scoreboard",
+    "uk": "табло",
+    "ru": "табло",
+    "pl": "tablica wyników",
+    "de": "Anzeigetafel",
+    "fr": "tableau d'affichage",
+    "es": "marcador",
+    "it": "tabellone",
+    "pt": "placar eletrônico",
+    "tr": "skor tabelası"
+   },
+   "ex": {
+    "en": "Look at the scoreboard!"
+   }
+  },
+  {
+   "id": "sports.relay-race",
+   "t": {
+    "en": "relay race",
+    "uk": "естафета",
+    "ru": "эстафета",
+    "pl": "sztafeta",
+    "de": "Staffellauf",
+    "fr": "course de relais",
+    "es": "carrera de relevos",
+    "it": "staffetta",
+    "pt": "corrida de revezamento",
+    "tr": "bayrak yarışı"
+   },
+   "ex": {
+    "en": "Our class won the relay race."
+   }
+  },
+  {
+   "id": "sports.finish-line",
+   "t": {
+    "en": "finish line",
+    "uk": "лінія фінішу",
+    "ru": "линия финиша",
+    "pl": "linia mety",
+    "de": "Ziellinie",
+    "fr": "ligne d'arrivée",
+    "es": "línea de meta",
+    "it": "traguardo",
+    "pt": "linha de chegada",
+    "tr": "bitiş çizgisi"
+   },
+   "ex": {
+    "en": "She collapsed after the finish line."
+   }
+  },
+  {
+   "id": "sports.to-get-injured",
+   "t": {
+    "en": "to get injured",
+    "uk": "травмуватися",
+    "ru": "получить травму",
+    "pl": "doznać kontuzji",
+    "de": "sich verletzen",
+    "fr": "se blesser",
+    "es": "lesionarse",
+    "it": "infortunarsi",
+    "pt": "lesionar-se",
+    "tr": "sakatlanmak"
+   },
+   "ex": {
+    "en": "Warm up so you don't get injured."
+   }
+  },
+  {
+   "id": "sports.skipping-rope",
+   "t": {
+    "en": "skipping rope",
+    "uk": "скакалка",
+    "ru": "скакалка",
+    "pl": "skakanka",
+    "de": "Springseil",
+    "fr": "corde à sauter",
+    "es": "comba",
+    "it": "corda per saltare",
+    "pt": "corda de pular",
+    "tr": "atlama ipi"
+   },
+   "ex": {
+    "en": "Boxers train with a skipping rope."
+   }
+  },
+  {
+   "id": "sports.personal-trainer",
+   "t": {
+    "en": "personal trainer",
+    "uk": "персональний тренер",
+    "ru": "персональный тренер",
+    "pl": "trener personalny",
+    "de": "Personal Trainer",
+    "fr": "entraîneur personnel",
+    "es": "entrenador personal",
+    "it": "personal trainer",
+    "pt": "personal trainer",
+    "tr": "kişisel antrenör"
+   },
+   "ex": {
+    "en": "My personal trainer is very strict."
+   }
+  },
+  {
+   "id": "sports.spectator",
+   "t": {
+    "en": "spectator",
+    "uk": "глядач",
+    "ru": "зритель",
+    "pl": "widz",
+    "de": "Zuschauer",
+    "fr": "spectateur",
+    "es": "espectador",
+    "it": "spettatore",
+    "pt": "espectador",
+    "tr": "seyirci"
+   },
+   "ex": {
+    "en": "Thousands of spectators filled the stadium."
+   }
+  },
+  {
+   "id": "sports.lap",
+   "t": {
+    "en": "lap",
+    "uk": "коло",
+    "ru": "круг",
+    "pl": "okrążenie",
+    "de": "Runde",
+    "fr": "tour",
+    "es": "vuelta",
+    "it": "giro",
+    "pt": "volta",
+    "tr": "tur"
+   },
+   "ex": {
+    "en": "He ran ten laps of the track."
+   }
+  },
+  {
+   "id": "sports.fair-play",
+   "t": {
+    "en": "fair play",
+    "uk": "чесна гра",
+    "ru": "честная игра",
+    "pl": "fair play",
+    "de": "Fairplay",
+    "fr": "fair-play",
+    "es": "juego limpio",
+    "it": "fair play",
+    "pt": "jogo limpo",
+    "tr": "fair play"
+   },
+   "ex": {
+    "en": "The team won an award for fair play."
+   }
+  },
+  {
+   "id": "sports.semi-final",
+   "t": {
+    "en": "semi-final",
+    "uk": "півфінал",
+    "ru": "полуфинал",
+    "pl": "półfinał",
+    "de": "Halbfinale",
+    "fr": "demi-finale",
+    "es": "semifinal",
+    "it": "semifinale",
+    "pt": "semifinal",
+    "tr": "yarı final"
+   },
+   "ex": {
+    "en": "They lost in the semi-final."
+   }
+  },
+  {
+   "id": "sports.quarter-final",
+   "t": {
+    "en": "quarter-final",
+    "uk": "чвертьфінал",
+    "ru": "четвертьфинал",
+    "pl": "ćwierćfinał",
+    "de": "Viertelfinale",
+    "fr": "quart de finale",
+    "es": "cuartos de final",
+    "it": "quarti di finale",
+    "pt": "quartas de final",
+    "tr": "çeyrek final"
+   },
+   "ex": {
+    "en": "The quarter-final is on Sunday."
+   }
+  },
+  {
+   "id": "sports.gymnastics",
+   "t": {
+    "en": "gymnastics",
+    "uk": "гімнастика",
+    "ru": "гимнастика",
+    "pl": "gimnastyka",
+    "de": "Turnen",
+    "fr": "gymnastique",
+    "es": "gimnasia",
+    "it": "ginnastica",
+    "pt": "ginástica",
+    "tr": "jimnastik"
+   },
+   "ex": {
+    "en": "She has done gymnastics since she was five."
    }
   }
  ]

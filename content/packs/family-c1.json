@@ -2,7 +2,7 @@
  "id": "family-c1",
  "topic": "family",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "family.next-of-kin",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "My son comes of age next spring."
+   }
+  },
+  {
+   "id": "family.kinship",
+   "t": {
+    "en": "kinship",
+    "uk": "спорідненість",
+    "ru": "родство",
+    "pl": "pokrewieństwo",
+    "de": "Verwandtschaft",
+    "fr": "parenté",
+    "es": "parentesco",
+    "it": "parentela",
+    "pt": "parentesco",
+    "tr": "akrabalık"
+   },
+   "ex": {
+    "en": "Kinship matters deeply in their culture."
+   }
+  },
+  {
+   "id": "family.offspring",
+   "t": {
+    "en": "offspring",
+    "uk": "нащадки",
+    "ru": "потомство",
+    "pl": "potomstwo",
+    "de": "Nachkommen",
+    "fr": "progéniture",
+    "es": "descendencia",
+    "it": "prole",
+    "pt": "prole",
+    "tr": "zürriyet"
+   },
+   "ex": {
+    "en": "Parents want the best for their offspring."
+   }
+  },
+  {
+   "id": "family.forebears",
+   "t": {
+    "en": "forebears",
+    "uk": "праотці",
+    "ru": "праотцы",
+    "pl": "przodkowie",
+    "de": "Vorfahren",
+    "fr": "aïeux",
+    "es": "antepasados",
+    "it": "avi",
+    "pt": "antepassados",
+    "tr": "ecdat"
+   },
+   "ex": {
+    "en": "Our forebears came from Ireland."
+   }
+  },
+  {
+   "id": "family.patriarch",
+   "t": {
+    "en": "patriarch",
+    "uk": "патріарх",
+    "ru": "патриарх",
+    "pl": "patriarcha",
+    "de": "Patriarch",
+    "fr": "patriarche",
+    "es": "patriarca",
+    "it": "patriarca",
+    "pt": "patriarca",
+    "tr": "aile reisi"
+   },
+   "ex": {
+    "en": "Grandpa was the family patriarch."
+   }
+  },
+  {
+   "id": "family.heirloom",
+   "t": {
+    "en": "heirloom",
+    "uk": "сімейна реліквія",
+    "ru": "семейная реликвия",
+    "pl": "pamiątka rodzinna",
+    "de": "Erbstück",
+    "fr": "objet de famille",
+    "es": "reliquia familiar",
+    "it": "cimelio di famiglia",
+    "pt": "relíquia de família",
+    "tr": "aile yadigârı"
+   },
+   "ex": {
+    "en": "This ring is a family heirloom."
+   }
+  },
+  {
+   "id": "family.birthright",
+   "t": {
+    "en": "birthright",
+    "uk": "право первородства",
+    "ru": "право первородства",
+    "pl": "prawo z urodzenia",
+    "de": "Geburtsrecht",
+    "fr": "droit de naissance",
+    "es": "derecho de nacimiento",
+    "it": "diritto di nascita",
+    "pt": "direito de nascença",
+    "tr": "doğuştan hak"
+   },
+   "ex": {
+    "en": "Land was seen as his birthright."
+   }
+  },
+  {
+   "id": "family.alimony",
+   "t": {
+    "en": "alimony",
+    "uk": "аліменти",
+    "ru": "алименты",
+    "pl": "alimenty",
+    "de": "Unterhalt",
+    "fr": "pension alimentaire",
+    "es": "pensión alimenticia",
+    "it": "alimenti",
+    "pt": "pensão alimentícia",
+    "tr": "nafaka"
+   },
+   "ex": {
+    "en": "He pays alimony to his ex-wife."
+   }
+  },
+  {
+   "id": "family.prenup",
+   "t": {
+    "en": "prenup",
+    "uk": "шлюбний договір",
+    "ru": "брачный контракт",
+    "pl": "intercyza",
+    "de": "Ehevertrag",
+    "fr": "contrat de mariage",
+    "es": "acuerdo prenupcial",
+    "it": "accordo prematrimoniale",
+    "pt": "acordo pré-nupcial",
+    "tr": "evlilik sözleşmesi"
+   },
+   "ex": {
+    "en": "They signed a prenup before the wedding."
+   }
+  },
+  {
+   "id": "family.like-father-like-son",
+   "t": {
+    "en": "like father, like son",
+    "uk": "яблуко від яблуні недалеко падає",
+    "ru": "яблоко от яблони недалеко падает",
+    "pl": "niedaleko pada jabłko od jabłoni",
+    "de": "wie der Vater, so der Sohn",
+    "fr": "tel père, tel fils",
+    "es": "de tal palo, tal astilla",
+    "it": "tale padre, tale figlio",
+    "pt": "filho de peixe, peixinho é",
+    "tr": "armut dibine düşer"
+   },
+   "ex": {
+    "en": "He loves fishing too: like father, like son."
+   }
+  },
+  {
+   "id": "family.to-run-in-the-family",
+   "t": {
+    "en": "to run in the family",
+    "uk": "бути сімейною рисою",
+    "ru": "передаваться в семье",
+    "pl": "być rodzinną cechą",
+    "de": "in der Familie liegen",
+    "fr": "être de famille",
+    "es": "venir de familia",
+    "it": "essere di famiglia",
+    "pt": "ser de família",
+    "tr": "aileden gelmek"
+   },
+   "ex": {
+    "en": "Red hair runs in the family."
+   }
+  },
+  {
+   "id": "family.cantankerous",
+   "t": {
+    "en": "cantankerous",
+    "uk": "сварливий",
+    "ru": "сварливый",
+    "pl": "zrzędliwy",
+    "de": "streitsüchtig",
+    "fr": "acariâtre",
+    "es": "cascarrabias",
+    "it": "bisbetico",
+    "pt": "rabugento",
+    "tr": "huysuz"
+   },
+   "ex": {
+    "en": "My cantankerous uncle complains about everything."
+   }
+  },
+  {
+   "id": "family.headstrong",
+   "t": {
+    "en": "headstrong",
+    "uk": "норовливий",
+    "ru": "своенравный",
+    "pl": "krnąbrny",
+    "de": "eigensinnig",
+    "fr": "têtu",
+    "es": "testarudo",
+    "it": "testardo",
+    "pt": "teimoso",
+    "tr": "dik kafalı"
+   },
+   "ex": {
+    "en": "She was a headstrong teenager."
+   }
+  },
+  {
+   "id": "family.portly",
+   "t": {
+    "en": "portly",
+    "uk": "огрядний",
+    "ru": "дородный",
+    "pl": "korpulentny",
+    "de": "beleibt",
+    "fr": "corpulent",
+    "es": "corpulento",
+    "it": "corpulento",
+    "pt": "corpulento",
+    "tr": "göbekli"
+   },
+   "ex": {
+    "en": "A portly gentleman opened the door."
+   }
+  },
+  {
+   "id": "family.weather-beaten",
+   "t": {
+    "en": "weather-beaten",
+    "uk": "обвітрений",
+    "ru": "обветренный",
+    "pl": "ogorzały",
+    "de": "wettergegerbt",
+    "fr": "buriné",
+    "es": "curtido",
+    "it": "segnato dalle intemperie",
+    "pt": "curtido",
+    "tr": "yıpranmış"
+   },
+   "ex": {
+    "en": "The old fisherman had a weather-beaten face."
+   }
+  },
+  {
+   "id": "family.family-feud",
+   "t": {
+    "en": "family feud",
+    "uk": "родинна ворожнеча",
+    "ru": "семейная вражда",
+    "pl": "waśń rodzinna",
+    "de": "Familienfehde",
+    "fr": "querelle familiale",
+    "es": "disputa familiar",
+    "it": "faida familiare",
+    "pt": "rixa familiar",
+    "tr": "aile kavgası"
+   },
+   "ex": {
+    "en": "The family feud lasted decades."
+   }
+  },
+  {
+   "id": "family.apple-of-ones-eye",
+   "t": {
+    "en": "apple of one's eye",
+    "uk": "світло в віконці",
+    "ru": "свет в окошке",
+    "pl": "oczko w głowie",
+    "de": "Augapfel",
+    "fr": "la prunelle de ses yeux",
+    "es": "la niña de sus ojos",
+    "it": "la pupilla dei suoi occhi",
+    "pt": "a menina dos olhos",
+    "tr": "gözbebeği"
+   },
+   "ex": {
+    "en": "His granddaughter is the apple of his eye."
+   }
+  },
+  {
+   "id": "family.surrogate-mother",
+   "t": {
+    "en": "surrogate mother",
+    "uk": "сурогатна мати",
+    "ru": "суррогатная мать",
+    "pl": "matka zastępcza",
+    "de": "Leihmutter",
+    "fr": "mère porteuse",
+    "es": "madre de alquiler",
+    "it": "madre surrogata",
+    "pt": "barriga de aluguel",
+    "tr": "taşıyıcı anne"
+   },
+   "ex": {
+    "en": "They had a baby with a surrogate mother."
+   }
+  },
+  {
+   "id": "family.illegitimate",
+   "t": {
+    "en": "illegitimate",
+    "uk": "позашлюбний",
+    "ru": "внебрачный",
+    "pl": "nieślubny",
+    "de": "unehelich",
+    "fr": "illégitime",
+    "es": "ilegítimo",
+    "it": "illegittimo",
+    "pt": "ilegítimo",
+    "tr": "gayrimeşru"
+   },
+   "ex": {
+    "en": "The king had an illegitimate son."
+   }
+  },
+  {
+   "id": "family.to-provide-for",
+   "t": {
+    "en": "to provide for",
+    "uk": "утримувати",
+    "ru": "обеспечивать",
+    "pl": "utrzymywać",
+    "de": "versorgen",
+    "fr": "subvenir aux besoins de",
+    "es": "mantener",
+    "it": "mantenere",
+    "pt": "sustentar",
+    "tr": "geçindirmek"
+   },
+   "ex": {
+    "en": "He works hard to provide for his family."
+   }
+  },
+  {
+   "id": "family.wiry",
+   "t": {
+    "en": "wiry",
+    "uk": "жилавий",
+    "ru": "жилистый",
+    "pl": "żylasty",
+    "de": "drahtig",
+    "fr": "sec et nerveux",
+    "es": "fibroso",
+    "it": "nerboruto",
+    "pt": "magro e rijo",
+    "tr": "kaslı ve ince"
+   },
+   "ex": {
+    "en": "Her grandfather is small but wiry."
    }
   }
  ]

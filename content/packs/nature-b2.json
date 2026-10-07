@@ -2,7 +2,7 @@
  "id": "nature-b2",
  "topic": "nature",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "nature.climate-change",
@@ -524,6 +524,366 @@
    },
    "ex": {
     "en": "Bees pollinate the apple trees."
+   }
+  },
+  {
+   "id": "nature.coral-reef",
+   "t": {
+    "en": "coral reef",
+    "uk": "кораловий риф",
+    "ru": "коралловый риф",
+    "pl": "rafa koralowa",
+    "de": "Korallenriff",
+    "fr": "récif corallien",
+    "es": "arrecife de coral",
+    "it": "barriera corallina",
+    "pt": "recife de coral",
+    "tr": "mercan resifi"
+   },
+   "ex": {
+    "en": "The coral reef is full of colourful fish."
+   }
+  },
+  {
+   "id": "nature.food-chain",
+   "t": {
+    "en": "food chain",
+    "uk": "харчовий ланцюг",
+    "ru": "пищевая цепь",
+    "pl": "łańcuch pokarmowy",
+    "de": "Nahrungskette",
+    "fr": "chaîne alimentaire",
+    "es": "cadena alimentaria",
+    "it": "catena alimentare",
+    "pt": "cadeia alimentar",
+    "tr": "besin zinciri"
+   },
+   "ex": {
+    "en": "Sharks are at the top of the food chain."
+   }
+  },
+  {
+   "id": "nature.species",
+   "t": {
+    "en": "species",
+    "uk": "вид",
+    "ru": "вид",
+    "pl": "gatunek",
+    "de": "Art",
+    "fr": "espèce",
+    "es": "especie",
+    "it": "specie",
+    "pt": "espécie",
+    "tr": "tür"
+   },
+   "ex": {
+    "en": "Scientists found a new species of frog."
+   }
+  },
+  {
+   "id": "nature.mammal",
+   "t": {
+    "en": "mammal",
+    "uk": "ссавець",
+    "ru": "млекопитающее",
+    "pl": "ssak",
+    "de": "Säugetier",
+    "fr": "mammifère",
+    "es": "mamífero",
+    "it": "mammifero",
+    "pt": "mamífero",
+    "tr": "memeli"
+   },
+   "ex": {
+    "en": "A whale is a mammal, not a fish."
+   }
+  },
+  {
+   "id": "nature.reptile",
+   "t": {
+    "en": "reptile",
+    "uk": "плазун",
+    "ru": "рептилия",
+    "pl": "gad",
+    "de": "Reptil",
+    "fr": "reptile",
+    "es": "reptil",
+    "it": "rettile",
+    "pt": "réptil",
+    "tr": "sürüngen"
+   },
+   "ex": {
+    "en": "Lizards and snakes are reptiles."
+   }
+  },
+  {
+   "id": "nature.evolution",
+   "t": {
+    "en": "evolution",
+    "uk": "еволюція",
+    "ru": "эволюция",
+    "pl": "ewolucja",
+    "de": "Evolution",
+    "fr": "évolution",
+    "es": "evolución",
+    "it": "evoluzione",
+    "pt": "evolução",
+    "tr": "evrim"
+   },
+   "ex": {
+    "en": "Darwin studied evolution."
+   }
+  },
+  {
+   "id": "nature.landscape",
+   "t": {
+    "en": "landscape",
+    "uk": "краєвид",
+    "ru": "пейзаж",
+    "pl": "krajobraz",
+    "de": "Landschaft",
+    "fr": "paysage",
+    "es": "paisaje",
+    "it": "paesaggio",
+    "pt": "paisagem",
+    "tr": "manzara"
+   },
+   "ex": {
+    "en": "The landscape here is breathtaking."
+   }
+  },
+  {
+   "id": "nature.solar-panel",
+   "t": {
+    "en": "solar panel",
+    "uk": "сонячна панель",
+    "ru": "солнечная панель",
+    "pl": "panel słoneczny",
+    "de": "Solarpanel",
+    "fr": "panneau solaire",
+    "es": "panel solar",
+    "it": "pannello solare",
+    "pt": "painel solar",
+    "tr": "güneş paneli"
+   },
+   "ex": {
+    "en": "They put solar panels on the roof."
+   }
+  },
+  {
+   "id": "nature.wind-turbine",
+   "t": {
+    "en": "wind turbine",
+    "uk": "вітрова турбіна",
+    "ru": "ветряная турбина",
+    "pl": "turbina wiatrowa",
+    "de": "Windrad",
+    "fr": "éolienne",
+    "es": "aerogenerador",
+    "it": "turbina eolica",
+    "pt": "turbina eólica",
+    "tr": "rüzgar türbini"
+   },
+   "ex": {
+    "en": "A wind turbine produces clean energy."
+   }
+  },
+  {
+   "id": "nature.natural-disaster",
+   "t": {
+    "en": "natural disaster",
+    "uk": "стихійне лихо",
+    "ru": "стихийное бедствие",
+    "pl": "klęska żywiołowa",
+    "de": "Naturkatastrophe",
+    "fr": "catastrophe naturelle",
+    "es": "desastre natural",
+    "it": "disastro naturale",
+    "pt": "desastre natural",
+    "tr": "doğal afet"
+   },
+   "ex": {
+    "en": "The flood was a terrible natural disaster."
+   }
+  },
+  {
+   "id": "nature.to-adapt",
+   "t": {
+    "en": "to adapt",
+    "uk": "пристосовуватися",
+    "ru": "приспосабливаться",
+    "pl": "przystosowywać się",
+    "de": "sich anpassen",
+    "fr": "s'adapter",
+    "es": "adaptarse",
+    "it": "adattarsi",
+    "pt": "adaptar-se",
+    "tr": "uyum sağlamak"
+   },
+   "ex": {
+    "en": "Animals adapt to a changing climate."
+   }
+  },
+  {
+   "id": "nature.landfill",
+   "t": {
+    "en": "landfill",
+    "uk": "сміттєзвалище",
+    "ru": "свалка",
+    "pl": "wysypisko",
+    "de": "Mülldeponie",
+    "fr": "décharge",
+    "es": "vertedero",
+    "it": "discarica",
+    "pt": "aterro sanitário",
+    "tr": "çöp sahası"
+   },
+   "ex": {
+    "en": "Too much plastic ends up in landfill."
+   }
+  },
+  {
+   "id": "nature.compost",
+   "t": {
+    "en": "compost",
+    "uk": "компост",
+    "ru": "компост",
+    "pl": "kompost",
+    "de": "Kompost",
+    "fr": "compost",
+    "es": "compost",
+    "it": "compost",
+    "pt": "composto",
+    "tr": "kompost"
+   },
+   "ex": {
+    "en": "We turn kitchen waste into compost."
+   }
+  },
+  {
+   "id": "nature.to-evaporate",
+   "t": {
+    "en": "to evaporate",
+    "uk": "випаровуватися",
+    "ru": "испаряться",
+    "pl": "parować",
+    "de": "verdunsten",
+    "fr": "s'évaporer",
+    "es": "evaporarse",
+    "it": "evaporare",
+    "pt": "evaporar",
+    "tr": "buharlaşmak"
+   },
+   "ex": {
+    "en": "Water evaporates in the heat."
+   }
+  },
+  {
+   "id": "nature.water-cycle",
+   "t": {
+    "en": "water cycle",
+    "uk": "кругообіг води",
+    "ru": "круговорот воды",
+    "pl": "obieg wody",
+    "de": "Wasserkreislauf",
+    "fr": "cycle de l'eau",
+    "es": "ciclo del agua",
+    "it": "ciclo dell'acqua",
+    "pt": "ciclo da água",
+    "tr": "su döngüsü"
+   },
+   "ex": {
+    "en": "Rain is part of the water cycle."
+   }
+  },
+  {
+   "id": "nature.atmosphere",
+   "t": {
+    "en": "atmosphere",
+    "uk": "атмосфера",
+    "ru": "атмосфера",
+    "pl": "atmosfera",
+    "de": "Atmosphäre",
+    "fr": "atmosphère",
+    "es": "atmósfera",
+    "it": "atmosfera",
+    "pt": "atmosfera",
+    "tr": "atmosfer"
+   },
+   "ex": {
+    "en": "Gases trap heat in the atmosphere."
+   }
+  },
+  {
+   "id": "nature.poaching",
+   "t": {
+    "en": "poaching",
+    "uk": "браконьєрство",
+    "ru": "браконьерство",
+    "pl": "kłusownictwo",
+    "de": "Wilderei",
+    "fr": "braconnage",
+    "es": "caza furtiva",
+    "it": "bracconaggio",
+    "pt": "caça ilegal",
+    "tr": "kaçak avcılık"
+   },
+   "ex": {
+    "en": "Poaching threatens elephants in Africa."
+   }
+  },
+  {
+   "id": "nature.nature-reserve",
+   "t": {
+    "en": "nature reserve",
+    "uk": "заповідник",
+    "ru": "заповедник",
+    "pl": "rezerwat przyrody",
+    "de": "Naturschutzgebiet",
+    "fr": "réserve naturelle",
+    "es": "reserva natural",
+    "it": "riserva naturale",
+    "pt": "reserva natural",
+    "tr": "doğa koruma alanı"
+   },
+   "ex": {
+    "en": "Rare birds nest in the nature reserve."
+   }
+  },
+  {
+   "id": "nature.vegetation",
+   "t": {
+    "en": "vegetation",
+    "uk": "рослинність",
+    "ru": "растительность",
+    "pl": "roślinność",
+    "de": "Vegetation",
+    "fr": "végétation",
+    "es": "vegetación",
+    "it": "vegetazione",
+    "pt": "vegetação",
+    "tr": "bitki örtüsü"
+   },
+   "ex": {
+    "en": "The island has thick vegetation."
+   }
+  },
+  {
+   "id": "nature.herd",
+   "t": {
+    "en": "herd",
+    "uk": "стадо",
+    "ru": "стадо",
+    "pl": "stado",
+    "de": "Herde",
+    "fr": "troupeau",
+    "es": "manada",
+    "it": "mandria",
+    "pt": "rebanho",
+    "tr": "sürü"
+   },
+   "ex": {
+    "en": "A herd of cows crossed the road."
    }
   }
  ]

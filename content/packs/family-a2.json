@@ -2,7 +2,7 @@
  "id": "family-a2",
  "topic": "family",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "family.grandparents",
@@ -434,6 +434,474 @@
    },
    "ex": {
     "en": "I meet friends on Fridays."
+   }
+  },
+  {
+   "id": "family.siblings",
+   "t": {
+    "en": "siblings",
+    "uk": "брати і сестри",
+    "ru": "братья и сёстры",
+    "pl": "rodzeństwo",
+    "de": "Geschwister",
+    "fr": "frères et sœurs",
+    "es": "hermanos",
+    "it": "fratelli",
+    "pt": "irmãos",
+    "tr": "kardeşler"
+   },
+   "ex": {
+    "en": "I have two siblings."
+   }
+  },
+  {
+   "id": "family.younger-sister",
+   "t": {
+    "en": "younger sister",
+    "uk": "молодша сестра",
+    "ru": "младшая сестра",
+    "pl": "młodsza siostra",
+    "de": "jüngere Schwester",
+    "fr": "sœur cadette",
+    "es": "hermana menor",
+    "it": "sorella minore",
+    "pt": "irmã mais nova",
+    "tr": "küçük kız kardeş"
+   },
+   "ex": {
+    "en": "My younger sister is ten."
+   }
+  },
+  {
+   "id": "family.older-sister",
+   "t": {
+    "en": "older sister",
+    "uk": "старша сестра",
+    "ru": "старшая сестра",
+    "pl": "starsza siostra",
+    "de": "ältere Schwester",
+    "fr": "sœur aînée",
+    "es": "hermana mayor",
+    "it": "sorella maggiore",
+    "pt": "irmã mais velha",
+    "tr": "abla"
+   },
+   "ex": {
+    "en": "My older sister lives in Paris."
+   }
+  },
+  {
+   "id": "family.younger-brother",
+   "t": {
+    "en": "younger brother",
+    "uk": "молодший брат",
+    "ru": "младший брат",
+    "pl": "młodszy brat",
+    "de": "jüngerer Bruder",
+    "fr": "frère cadet",
+    "es": "hermano menor",
+    "it": "fratello minore",
+    "pt": "irmão mais novo",
+    "tr": "küçük erkek kardeş"
+   },
+   "ex": {
+    "en": "My younger brother plays football."
+   }
+  },
+  {
+   "id": "family.bride",
+   "t": {
+    "en": "bride",
+    "uk": "наречена",
+    "ru": "невеста",
+    "pl": "panna młoda",
+    "de": "Braut",
+    "fr": "mariée",
+    "es": "novia",
+    "it": "sposa",
+    "pt": "noiva",
+    "tr": "gelin"
+   },
+   "ex": {
+    "en": "The bride wore a white dress."
+   }
+  },
+  {
+   "id": "family.groom",
+   "t": {
+    "en": "groom",
+    "uk": "наречений",
+    "ru": "жених",
+    "pl": "pan młody",
+    "de": "Bräutigam",
+    "fr": "marié",
+    "es": "novio",
+    "it": "sposo",
+    "pt": "noivo",
+    "tr": "damat"
+   },
+   "ex": {
+    "en": "The groom looked nervous."
+   }
+  },
+  {
+   "id": "family.handsome",
+   "t": {
+    "en": "handsome",
+    "uk": "вродливий",
+    "ru": "красивый",
+    "pl": "przystojny",
+    "de": "gut aussehend",
+    "fr": "beau",
+    "es": "guapo",
+    "it": "bello",
+    "pt": "bonito",
+    "tr": "yakışıklı"
+   },
+   "ex": {
+    "en": "Her husband is very handsome."
+   }
+  },
+  {
+   "id": "family.straight-hair",
+   "t": {
+    "en": "straight hair",
+    "uk": "пряме волосся",
+    "ru": "прямые волосы",
+    "pl": "proste włosy",
+    "de": "glatte Haare",
+    "fr": "cheveux raides",
+    "es": "pelo liso",
+    "it": "capelli lisci",
+    "pt": "cabelo liso",
+    "tr": "düz saç"
+   },
+   "ex": {
+    "en": "She has long straight hair."
+   }
+  },
+  {
+   "id": "family.red-hair",
+   "t": {
+    "en": "red hair",
+    "uk": "руде волосся",
+    "ru": "рыжие волосы",
+    "pl": "rude włosy",
+    "de": "rote Haare",
+    "fr": "cheveux roux",
+    "es": "pelo pelirrojo",
+    "it": "capelli rossi",
+    "pt": "cabelo ruivo",
+    "tr": "kızıl saç"
+   },
+   "ex": {
+    "en": "Both twins have red hair."
+   }
+  },
+  {
+   "id": "family.grey-hair",
+   "t": {
+    "en": "grey hair",
+    "uk": "сиве волосся",
+    "ru": "седые волосы",
+    "pl": "siwe włosy",
+    "de": "graue Haare",
+    "fr": "cheveux gris",
+    "es": "pelo canoso",
+    "it": "capelli grigi",
+    "pt": "cabelo grisalho",
+    "tr": "kır saç"
+   },
+   "ex": {
+    "en": "Grandpa has grey hair."
+   }
+  },
+  {
+   "id": "family.moustache",
+   "t": {
+    "en": "moustache",
+    "uk": "вуса",
+    "ru": "усы",
+    "pl": "wąsy",
+    "de": "Schnurrbart",
+    "fr": "moustache",
+    "es": "bigote",
+    "it": "baffi",
+    "pt": "bigode",
+    "tr": "bıyık"
+   },
+   "ex": {
+    "en": "My uncle has a big moustache."
+   }
+  },
+  {
+   "id": "family.bald",
+   "t": {
+    "en": "bald",
+    "uk": "лисий",
+    "ru": "лысый",
+    "pl": "łysy",
+    "de": "glatzköpfig",
+    "fr": "chauve",
+    "es": "calvo",
+    "it": "calvo",
+    "pt": "careca",
+    "tr": "kel"
+   },
+   "ex": {
+    "en": "My grandfather is bald."
+   }
+  },
+  {
+   "id": "family.polite",
+   "t": {
+    "en": "polite",
+    "uk": "ввічливий",
+    "ru": "вежливый",
+    "pl": "grzeczny",
+    "de": "höflich",
+    "fr": "poli",
+    "es": "educado",
+    "it": "educato",
+    "pt": "educado",
+    "tr": "kibar"
+   },
+   "ex": {
+    "en": "The children are very polite."
+   }
+  },
+  {
+   "id": "family.gentle",
+   "t": {
+    "en": "gentle",
+    "uk": "лагідний",
+    "ru": "ласковый",
+    "pl": "łagodny",
+    "de": "sanft",
+    "fr": "doux",
+    "es": "tierno",
+    "it": "gentile",
+    "pt": "gentil",
+    "tr": "nazik"
+   },
+   "ex": {
+    "en": "Grandpa is a gentle old man."
+   }
+  },
+  {
+   "id": "family.quiet",
+   "t": {
+    "en": "quiet",
+    "uk": "тихий",
+    "ru": "тихий",
+    "pl": "cichy",
+    "de": "still",
+    "fr": "discret",
+    "es": "callado",
+    "it": "tranquillo",
+    "pt": "quieto",
+    "tr": "sessiz"
+   },
+   "ex": {
+    "en": "She is a quiet girl."
+   }
+  },
+  {
+   "id": "family.friendly",
+   "t": {
+    "en": "friendly",
+    "uk": "доброзичливий",
+    "ru": "дружелюбный",
+    "pl": "przyjazny",
+    "de": "freundlich",
+    "fr": "aimable",
+    "es": "amable",
+    "it": "cordiale",
+    "pt": "simpático",
+    "tr": "arkadaş canlısı"
+   },
+   "ex": {
+    "en": "Our neighbors are friendly."
+   }
+  },
+  {
+   "id": "family.naughty",
+   "t": {
+    "en": "naughty",
+    "uk": "неслухняний",
+    "ru": "непослушный",
+    "pl": "niegrzeczny",
+    "de": "unartig",
+    "fr": "désobéissant",
+    "es": "travieso",
+    "it": "birichino",
+    "pt": "travesso",
+    "tr": "yaramaz"
+   },
+   "ex": {
+    "en": "The naughty boy broke a window."
+   }
+  },
+  {
+   "id": "family.clever",
+   "t": {
+    "en": "clever",
+    "uk": "розумний",
+    "ru": "умный",
+    "pl": "mądry",
+    "de": "klug",
+    "fr": "intelligent",
+    "es": "listo",
+    "it": "intelligente",
+    "pt": "inteligente",
+    "tr": "zeki"
+   },
+   "ex": {
+    "en": "Your daughter is very clever."
+   }
+  },
+  {
+   "id": "family.honest",
+   "t": {
+    "en": "honest",
+    "uk": "чесний",
+    "ru": "честный",
+    "pl": "uczciwy",
+    "de": "ehrlich",
+    "fr": "honnête",
+    "es": "honesto",
+    "it": "onesto",
+    "pt": "honesto",
+    "tr": "dürüst"
+   },
+   "ex": {
+    "en": "My father is an honest man."
+   }
+  },
+  {
+   "id": "family.to-babysit",
+   "t": {
+    "en": "to babysit",
+    "uk": "няньчити",
+    "ru": "сидеть с ребёнком",
+    "pl": "opiekować się dzieckiem",
+    "de": "babysitten",
+    "fr": "faire du baby-sitting",
+    "es": "cuidar niños",
+    "it": "fare da babysitter",
+    "pt": "ser babá",
+    "tr": "çocuk bakmak"
+   },
+   "ex": {
+    "en": "I babysit on Friday nights."
+   }
+  },
+  {
+   "id": "family.wedding-anniversary",
+   "t": {
+    "en": "wedding anniversary",
+    "uk": "річниця весілля",
+    "ru": "годовщина свадьбы",
+    "pl": "rocznica ślubu",
+    "de": "Hochzeitstag",
+    "fr": "anniversaire de mariage",
+    "es": "aniversario de boda",
+    "it": "anniversario di matrimonio",
+    "pt": "aniversário de casamento",
+    "tr": "evlilik yıldönümü"
+   },
+   "ex": {
+    "en": "It's my parents' wedding anniversary."
+   }
+  },
+  {
+   "id": "family.family-dinner",
+   "t": {
+    "en": "family dinner",
+    "uk": "сімейна вечеря",
+    "ru": "семейный ужин",
+    "pl": "rodzinny obiad",
+    "de": "Familienessen",
+    "fr": "dîner en famille",
+    "es": "cena familiar",
+    "it": "cena di famiglia",
+    "pt": "jantar em família",
+    "tr": "aile yemeği"
+   },
+   "ex": {
+    "en": "We have a family dinner on Sundays."
+   }
+  },
+  {
+   "id": "family.medium-height",
+   "t": {
+    "en": "medium height",
+    "uk": "середнього зросту",
+    "ru": "среднего роста",
+    "pl": "średniego wzrostu",
+    "de": "mittelgroß",
+    "fr": "de taille moyenne",
+    "es": "de estatura media",
+    "it": "di statura media",
+    "pt": "de estatura média",
+    "tr": "orta boylu"
+   },
+   "ex": {
+    "en": "He is of medium height."
+   }
+  },
+  {
+   "id": "family.to-celebrate",
+   "t": {
+    "en": "to celebrate",
+    "uk": "святкувати",
+    "ru": "праздновать",
+    "pl": "świętować",
+    "de": "feiern",
+    "fr": "fêter",
+    "es": "celebrar",
+    "it": "festeggiare",
+    "pt": "comemorar",
+    "tr": "kutlamak"
+   },
+   "ex": {
+    "en": "We celebrate Christmas together."
+   }
+  },
+  {
+   "id": "family.family-member",
+   "t": {
+    "en": "family member",
+    "uk": "член сім'ї",
+    "ru": "член семьи",
+    "pl": "członek rodziny",
+    "de": "Familienmitglied",
+    "fr": "membre de la famille",
+    "es": "miembro de la familia",
+    "it": "membro della famiglia",
+    "pt": "membro da família",
+    "tr": "aile üyesi"
+   },
+   "ex": {
+    "en": "Every family member helps at home."
+   }
+  },
+  {
+   "id": "family.housewife",
+   "t": {
+    "en": "housewife",
+    "uk": "домогосподарка",
+    "ru": "домохозяйка",
+    "pl": "gospodyni domowa",
+    "de": "Hausfrau",
+    "fr": "femme au foyer",
+    "es": "ama de casa",
+    "it": "casalinga",
+    "pt": "dona de casa",
+    "tr": "ev hanımı"
+   },
+   "ex": {
+    "en": "My grandmother was a housewife."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "emotions-c1",
  "topic": "emotions",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emotions.exhilarated",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "Don't wallow in self-pity, do something."
+   }
+  },
+  {
+   "id": "emotions.anguish",
+   "t": {
+    "en": "anguish",
+    "uk": "мука",
+    "ru": "мучение",
+    "pl": "udręka",
+    "de": "Qual",
+    "fr": "angoisse",
+    "es": "angustia",
+    "it": "angoscia",
+    "pt": "angústia",
+    "tr": "ıstırap"
+   },
+   "ex": {
+    "en": "She cried out in anguish."
+   }
+  },
+  {
+   "id": "emotions.serene",
+   "t": {
+    "en": "serene",
+    "uk": "безтурботний",
+    "ru": "безмятежный",
+    "pl": "pogodny",
+    "de": "gelassen",
+    "fr": "serein",
+    "es": "sereno",
+    "it": "sereno",
+    "pt": "sereno",
+    "tr": "dingin"
+   },
+   "ex": {
+    "en": "Her face looked serene."
+   }
+  },
+  {
+   "id": "emotions.crestfallen",
+   "t": {
+    "en": "crestfallen",
+    "uk": "пригнічений",
+    "ru": "удручённый",
+    "pl": "przybity",
+    "de": "niedergeschlagen",
+    "fr": "déconfit",
+    "es": "cabizbajo",
+    "it": "abbattuto",
+    "pt": "abatido",
+    "tr": "morali bozuk"
+   },
+   "ex": {
+    "en": "He looked crestfallen after the loss."
+   }
+  },
+  {
+   "id": "emotions.forlorn",
+   "t": {
+    "en": "forlorn",
+    "uk": "знедолений",
+    "ru": "покинутый",
+    "pl": "opuszczony",
+    "de": "verlassen",
+    "fr": "délaissé",
+    "es": "desamparado",
+    "it": "sconsolato",
+    "pt": "desamparado",
+    "tr": "kimsesiz"
+   },
+   "ex": {
+    "en": "A forlorn puppy sat in the rain."
+   }
+  },
+  {
+   "id": "emotions.irate",
+   "t": {
+    "en": "irate",
+    "uk": "розлючений",
+    "ru": "разгневанный",
+    "pl": "rozgniewany",
+    "de": "erzürnt",
+    "fr": "courroucé",
+    "es": "airado",
+    "it": "adirato",
+    "pt": "irado",
+    "tr": "hiddetli"
+   },
+   "ex": {
+    "en": "An irate customer called twice."
+   }
+  },
+  {
+   "id": "emotions.euphoric",
+   "t": {
+    "en": "euphoric",
+    "uk": "у стані ейфорії",
+    "ru": "в эйфории",
+    "pl": "euforyczny",
+    "de": "euphorisch",
+    "fr": "euphorique",
+    "es": "eufórico",
+    "it": "euforico",
+    "pt": "eufórico",
+    "tr": "coşkulu"
+   },
+   "ex": {
+    "en": "The winners were euphoric."
+   }
+  },
+  {
+   "id": "emotions.disgruntled",
+   "t": {
+    "en": "disgruntled",
+    "uk": "невдоволений",
+    "ru": "недовольный",
+    "pl": "niezadowolony",
+    "de": "verärgert",
+    "fr": "mécontent",
+    "es": "descontento",
+    "it": "scontento",
+    "pt": "descontente",
+    "tr": "hoşnutsuz"
+   },
+   "ex": {
+    "en": "Disgruntled staff went on strike."
+   }
+  },
+  {
+   "id": "emotions.vindictive",
+   "t": {
+    "en": "vindictive",
+    "uk": "мстивий",
+    "ru": "мстительный",
+    "pl": "mściwy",
+    "de": "rachsüchtig",
+    "fr": "vindicatif",
+    "es": "vengativo",
+    "it": "vendicativo",
+    "pt": "vingativo",
+    "tr": "kinci"
+   },
+   "ex": {
+    "en": "His vindictive comments hurt everyone."
+   }
+  },
+  {
+   "id": "emotions.remorseful",
+   "t": {
+    "en": "remorseful",
+    "uk": "сповнений каяття",
+    "ru": "раскаивающийся",
+    "pl": "skruszony",
+    "de": "reumütig",
+    "fr": "plein de remords",
+    "es": "arrepentido",
+    "it": "pentito",
+    "pt": "arrependido",
+    "tr": "pişman"
+   },
+   "ex": {
+    "en": "He seemed genuinely remorseful."
+   }
+  },
+  {
+   "id": "emotions.indignant",
+   "t": {
+    "en": "indignant",
+    "uk": "обурений",
+    "ru": "возмущённый",
+    "pl": "oburzony",
+    "de": "empört",
+    "fr": "indigné",
+    "es": "indignado",
+    "it": "indignato",
+    "pt": "indignado",
+    "tr": "içerlemiş"
+   },
+   "ex": {
+    "en": "She was indignant at the accusation."
+   }
+  },
+  {
+   "id": "emotions.trepidation",
+   "t": {
+    "en": "trepidation",
+    "uk": "трепет",
+    "ru": "трепет",
+    "pl": "niepokój",
+    "de": "Beklommenheit",
+    "fr": "appréhension",
+    "es": "inquietud",
+    "it": "trepidazione",
+    "pt": "apreensão",
+    "tr": "endişe"
+   },
+   "ex": {
+    "en": "I opened the letter with trepidation."
+   }
+  },
+  {
+   "id": "emotions.catharsis",
+   "t": {
+    "en": "catharsis",
+    "uk": "катарсис",
+    "ru": "катарсис",
+    "pl": "katharsis",
+    "de": "Katharsis",
+    "fr": "catharsis",
+    "es": "catarsis",
+    "it": "catarsi",
+    "pt": "catarse",
+    "tr": "katarsis"
+   },
+   "ex": {
+    "en": "Writing was a catharsis for her."
+   }
+  },
+  {
+   "id": "emotions.to-fume",
+   "t": {
+    "en": "to fume",
+    "uk": "кипіти від злості",
+    "ru": "кипеть от злости",
+    "pl": "kipieć ze złości",
+    "de": "vor Wut kochen",
+    "fr": "fulminer",
+    "es": "echar humo",
+    "it": "fumare di rabbia",
+    "pt": "espumar de raiva",
+    "tr": "köpürmek"
+   },
+   "ex": {
+    "en": "He was fuming about the delay."
+   }
+  },
+  {
+   "id": "emotions.heavy-hearted",
+   "t": {
+    "en": "heavy-hearted",
+    "uk": "з важким серцем",
+    "ru": "с тяжёлым сердцем",
+    "pl": "z ciężkim sercem",
+    "de": "schweren Herzens",
+    "fr": "le cœur lourd",
+    "es": "apesadumbrado",
+    "it": "col cuore pesante",
+    "pt": "de coração pesado",
+    "tr": "içi burkulmuş"
+   },
+   "ex": {
+    "en": "We left, heavy-hearted, at dawn."
+   }
+  },
+  {
+   "id": "emotions.to-lash-out",
+   "t": {
+    "en": "to lash out",
+    "uk": "накинутися",
+    "ru": "наброситься",
+    "pl": "wyładować się",
+    "de": "ausrasten",
+    "fr": "s'en prendre à",
+    "es": "arremeter contra",
+    "it": "scagliarsi contro",
+    "pt": "atacar",
+    "tr": "saldırmak"
+   },
+   "ex": {
+    "en": "He lashed out at his friends."
+   }
+  },
+  {
+   "id": "emotions.in-high-spirits",
+   "t": {
+    "en": "in high spirits",
+    "uk": "у піднесеному настрої",
+    "ru": "в приподнятом настроении",
+    "pl": "w doskonałym humorze",
+    "de": "in Hochstimmung",
+    "fr": "de très bonne humeur",
+    "es": "de muy buen humor",
+    "it": "di ottimo umore",
+    "pt": "muito animado",
+    "tr": "keyfi yerinde"
+   },
+   "ex": {
+    "en": "The team was in high spirits."
+   }
+  },
+  {
+   "id": "emotions.fickle",
+   "t": {
+    "en": "fickle",
+    "uk": "мінливий",
+    "ru": "непостоянный",
+    "pl": "zmienny",
+    "de": "wankelmütig",
+    "fr": "inconstant",
+    "es": "voluble",
+    "it": "volubile",
+    "pt": "volúvel",
+    "tr": "dönek"
+   },
+   "ex": {
+    "en": "Fans can be fickle."
+   }
+  },
+  {
+   "id": "emotions.on-tenterhooks",
+   "t": {
+    "en": "on tenterhooks",
+    "uk": "як на голках",
+    "ru": "как на иголках",
+    "pl": "jak na szpilkach",
+    "de": "wie auf Kohlen",
+    "fr": "sur des charbons ardents",
+    "es": "en ascuas",
+    "it": "sulle spine",
+    "pt": "aflito",
+    "tr": "diken üstünde"
+   },
+   "ex": {
+    "en": "We were on tenterhooks all night."
+   }
+  },
+  {
+   "id": "emotions.pent-up",
+   "t": {
+    "en": "pent-up",
+    "uk": "стримуваний",
+    "ru": "сдерживаемый",
+    "pl": "tłumiony",
+    "de": "aufgestaut",
+    "fr": "refoulé",
+    "es": "contenido",
+    "it": "represso",
+    "pt": "reprimido",
+    "tr": "bastırılmış"
+   },
+   "ex": {
+    "en": "She released years of pent-up anger."
+   }
+  },
+  {
+   "id": "emotions.to-be-choked-up",
+   "t": {
+    "en": "to be choked up",
+    "uk": "розчулитися",
+    "ru": "расчувствоваться",
+    "pl": "wzruszyć się",
+    "de": "gerührt sein",
+    "fr": "être ému",
+    "es": "emocionarse",
+    "it": "commuoversi",
+    "pt": "emocionar-se",
+    "tr": "duygulanmak"
+   },
+   "ex": {
+    "en": "I was choked up during his speech."
+   }
+  },
+  {
+   "id": "emotions.to-snap-at",
+   "t": {
+    "en": "to snap at",
+    "uk": "огризатися",
+    "ru": "огрызаться",
+    "pl": "warknąć na",
+    "de": "anfahren",
+    "fr": "rembarrer",
+    "es": "contestar mal",
+    "it": "rispondere male",
+    "pt": "ser ríspido",
+    "tr": "terslemek"
+   },
+   "ex": {
+    "en": "Sorry I snapped at you earlier."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "travel-a2",
  "topic": "travel",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "travel.boarding-pass",
@@ -488,6 +488,366 @@
    },
    "ex": {
     "en": "Take the subway to the museum."
+   }
+  },
+  {
+   "id": "travel.tourist-office",
+   "t": {
+    "en": "tourist office",
+    "uk": "туристичний офіс",
+    "ru": "туристический офис",
+    "pl": "informacja turystyczna",
+    "de": "Touristeninformation",
+    "fr": "office de tourisme",
+    "es": "oficina de turismo",
+    "it": "ufficio turistico",
+    "pt": "centro de informações turísticas",
+    "tr": "turizm bürosu"
+   },
+   "ex": {
+    "en": "Ask for a map at the tourist office."
+   }
+  },
+  {
+   "id": "travel.double-bed",
+   "t": {
+    "en": "double bed",
+    "uk": "двоспальне ліжко",
+    "ru": "двуспальная кровать",
+    "pl": "łóżko podwójne",
+    "de": "Doppelbett",
+    "fr": "lit double",
+    "es": "cama de matrimonio",
+    "it": "letto matrimoniale",
+    "pt": "cama de casal",
+    "tr": "çift kişilik yatak"
+   },
+   "ex": {
+    "en": "The room has a big double bed."
+   }
+  },
+  {
+   "id": "travel.weekend-trip",
+   "t": {
+    "en": "weekend trip",
+    "uk": "поїздка на вихідні",
+    "ru": "поездка на выходные",
+    "pl": "wyjazd weekendowy",
+    "de": "Wochenendausflug",
+    "fr": "escapade de week-end",
+    "es": "escapada de fin de semana",
+    "it": "gita del fine settimana",
+    "pt": "viagem de fim de semana",
+    "tr": "hafta sonu gezisi"
+   },
+   "ex": {
+    "en": "We're planning a weekend trip to Prague."
+   }
+  },
+  {
+   "id": "travel.sleeping-bag",
+   "t": {
+    "en": "sleeping bag",
+    "uk": "спальний мішок",
+    "ru": "спальный мешок",
+    "pl": "śpiwór",
+    "de": "Schlafsack",
+    "fr": "sac de couchage",
+    "es": "saco de dormir",
+    "it": "sacco a pelo",
+    "pt": "saco de dormir",
+    "tr": "uyku tulumu"
+   },
+   "ex": {
+    "en": "Bring a warm sleeping bag."
+   }
+  },
+  {
+   "id": "travel.to-ask-the-way",
+   "t": {
+    "en": "to ask the way",
+    "uk": "питати дорогу",
+    "ru": "спрашивать дорогу",
+    "pl": "pytać o drogę",
+    "de": "nach dem Weg fragen",
+    "fr": "demander son chemin",
+    "es": "preguntar el camino",
+    "it": "chiedere la strada",
+    "pt": "pedir informações",
+    "tr": "yol sormak"
+   },
+   "ex": {
+    "en": "Let's ask the way to the station."
+   }
+  },
+  {
+   "id": "travel.single-room",
+   "t": {
+    "en": "single room",
+    "uk": "одномісний номер",
+    "ru": "одноместный номер",
+    "pl": "pokój jednoosobowy",
+    "de": "Einzelzimmer",
+    "fr": "chambre simple",
+    "es": "habitación individual",
+    "it": "camera singola",
+    "pt": "quarto de solteiro",
+    "tr": "tek kişilik oda"
+   },
+   "ex": {
+    "en": "I booked a single room for two nights."
+   }
+  },
+  {
+   "id": "travel.reception",
+   "t": {
+    "en": "reception",
+    "uk": "рецепція",
+    "ru": "ресепшен",
+    "pl": "recepcja",
+    "de": "Rezeption",
+    "fr": "réception",
+    "es": "recepción",
+    "it": "reception",
+    "pt": "recepção",
+    "tr": "resepsiyon"
+   },
+   "ex": {
+    "en": "Leave the key at reception."
+   }
+  },
+  {
+   "id": "travel.breakfast-included",
+   "t": {
+    "en": "breakfast included",
+    "uk": "сніданок включено",
+    "ru": "завтрак включён",
+    "pl": "śniadanie wliczone",
+    "de": "Frühstück inklusive",
+    "fr": "petit-déjeuner inclus",
+    "es": "desayuno incluido",
+    "it": "colazione inclusa",
+    "pt": "café da manhã incluso",
+    "tr": "kahvaltı dahil"
+   },
+   "ex": {
+    "en": "Is breakfast included in the price?"
+   }
+  },
+  {
+   "id": "travel.guidebook",
+   "t": {
+    "en": "guidebook",
+    "uk": "путівник",
+    "ru": "путеводитель",
+    "pl": "przewodnik",
+    "de": "Reiseführer",
+    "fr": "guide touristique",
+    "es": "guía de viaje",
+    "it": "guida turistica",
+    "pt": "guia de viagem",
+    "tr": "rehber kitap"
+   },
+   "ex": {
+    "en": "I read about the city in my guidebook."
+   }
+  },
+  {
+   "id": "travel.campsite",
+   "t": {
+    "en": "campsite",
+    "uk": "кемпінг",
+    "ru": "кемпинг",
+    "pl": "kemping",
+    "de": "Campingplatz",
+    "fr": "camping",
+    "es": "camping",
+    "it": "campeggio",
+    "pt": "camping",
+    "tr": "kamp alanı"
+   },
+   "ex": {
+    "en": "The campsite is next to a lake."
+   }
+  },
+  {
+   "id": "travel.tent",
+   "t": {
+    "en": "tent",
+    "uk": "намет",
+    "ru": "палатка",
+    "pl": "namiot",
+    "de": "Zelt",
+    "fr": "tente",
+    "es": "tienda de campaña",
+    "it": "tenda",
+    "pt": "barraca",
+    "tr": "çadır"
+   },
+   "ex": {
+    "en": "We slept in a tent by the river."
+   }
+  },
+  {
+   "id": "travel.to-go-abroad",
+   "t": {
+    "en": "to go abroad",
+    "uk": "їхати за кордон",
+    "ru": "ехать за границу",
+    "pl": "jechać za granicę",
+    "de": "ins Ausland reisen",
+    "fr": "partir à l'étranger",
+    "es": "ir al extranjero",
+    "it": "andare all'estero",
+    "pt": "ir para o exterior",
+    "tr": "yurt dışına gitmek"
+   },
+   "ex": {
+    "en": "We go abroad every summer."
+   }
+  },
+  {
+   "id": "travel.foreign",
+   "t": {
+    "en": "foreign",
+    "uk": "іноземний",
+    "ru": "иностранный",
+    "pl": "zagraniczny",
+    "de": "ausländisch",
+    "fr": "étranger",
+    "es": "extranjero",
+    "it": "straniero",
+    "pt": "estrangeiro",
+    "tr": "yabancı"
+   },
+   "ex": {
+    "en": "It's exciting to visit a foreign country."
+   }
+  },
+  {
+   "id": "travel.on-holiday",
+   "t": {
+    "en": "on holiday",
+    "uk": "у відпустці",
+    "ru": "в отпуске",
+    "pl": "na urlopie",
+    "de": "im Urlaub",
+    "fr": "en vacances",
+    "es": "de vacaciones",
+    "it": "in vacanza",
+    "pt": "de férias",
+    "tr": "tatilde"
+   },
+   "ex": {
+    "en": "We are on holiday in Spain."
+   }
+  },
+  {
+   "id": "travel.traveler",
+   "t": {
+    "en": "traveler",
+    "uk": "мандрівник",
+    "ru": "путешественник",
+    "pl": "podróżnik",
+    "de": "Reisender",
+    "fr": "voyageur",
+    "es": "viajero",
+    "it": "viaggiatore",
+    "pt": "viajante",
+    "tr": "gezgin"
+   },
+   "ex": {
+    "en": "Many travelers visit the city in summer."
+   }
+  },
+  {
+   "id": "travel.sea-view",
+   "t": {
+    "en": "sea view",
+    "uk": "вид на море",
+    "ru": "вид на море",
+    "pl": "widok na morze",
+    "de": "Meerblick",
+    "fr": "vue sur la mer",
+    "es": "vista al mar",
+    "it": "vista mare",
+    "pt": "vista para o mar",
+    "tr": "deniz manzarası"
+   },
+   "ex": {
+    "en": "I'd like a room with a sea view."
+   }
+  },
+  {
+   "id": "travel.to-sunbathe",
+   "t": {
+    "en": "to sunbathe",
+    "uk": "засмагати",
+    "ru": "загорать",
+    "pl": "opalać się",
+    "de": "sich sonnen",
+    "fr": "bronzer",
+    "es": "tomar el sol",
+    "it": "prendere il sole",
+    "pt": "tomar sol",
+    "tr": "güneşlenmek"
+   },
+   "ex": {
+    "en": "We like to sunbathe by the pool."
+   }
+  },
+  {
+   "id": "travel.crowded",
+   "t": {
+    "en": "crowded",
+    "uk": "переповнений",
+    "ru": "переполненный",
+    "pl": "zatłoczony",
+    "de": "überfüllt",
+    "fr": "bondé",
+    "es": "abarrotado",
+    "it": "affollato",
+    "pt": "lotado",
+    "tr": "kalabalık"
+   },
+   "ex": {
+    "en": "The beach was very crowded."
+   }
+  },
+  {
+   "id": "travel.to-miss-the-flight",
+   "t": {
+    "en": "to miss the flight",
+    "uk": "запізнитися на рейс",
+    "ru": "опоздать на рейс",
+    "pl": "spóźnić się na samolot",
+    "de": "den Flug verpassen",
+    "fr": "rater son vol",
+    "es": "perder el vuelo",
+    "it": "perdere il volo",
+    "pt": "perder o voo",
+    "tr": "uçağı kaçırmak"
+   },
+   "ex": {
+    "en": "Hurry, or we'll miss the flight!"
+   }
+  },
+  {
+   "id": "travel.lost-luggage",
+   "t": {
+    "en": "lost luggage",
+    "uk": "загублений багаж",
+    "ru": "потерянный багаж",
+    "pl": "zagubiony bagaż",
+    "de": "verlorenes Gepäck",
+    "fr": "bagages perdus",
+    "es": "equipaje perdido",
+    "it": "bagaglio smarrito",
+    "pt": "bagagem extraviada",
+    "tr": "kayıp bagaj"
+   },
+   "ex": {
+    "en": "I need to report lost luggage."
    }
   }
  ]

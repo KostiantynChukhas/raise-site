@@ -2,7 +2,7 @@
  "id": "emergency-a2",
  "topic": "emergency",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emergency.police-station",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "I got a fine for parking here."
+   }
+  },
+  {
+   "id": "emergency.to-bleed",
+   "t": {
+    "en": "to bleed",
+    "uk": "кровоточити",
+    "ru": "кровоточить",
+    "pl": "krwawić",
+    "de": "bluten",
+    "fr": "saigner",
+    "es": "sangrar",
+    "it": "sanguinare",
+    "pt": "sangrar",
+    "tr": "kanamak"
+   },
+   "ex": {
+    "en": "His nose is bleeding."
+   }
+  },
+  {
+   "id": "emergency.wound",
+   "t": {
+    "en": "wound",
+    "uk": "рана",
+    "ru": "рана",
+    "pl": "rana",
+    "de": "Wunde",
+    "fr": "blessure",
+    "es": "herida",
+    "it": "ferita",
+    "pt": "ferida",
+    "tr": "yara"
+   },
+   "ex": {
+    "en": "Clean the wound with water."
+   }
+  },
+  {
+   "id": "emergency.emergency-room",
+   "t": {
+    "en": "emergency room",
+    "uk": "приймальне відділення",
+    "ru": "приёмный покой",
+    "pl": "izba przyjęć",
+    "de": "Notaufnahme",
+    "fr": "urgences",
+    "es": "urgencias",
+    "it": "pronto soccorso",
+    "pt": "pronto-socorro",
+    "tr": "acil servis"
+   },
+   "ex": {
+    "en": "We took him to the emergency room."
+   }
+  },
+  {
+   "id": "emergency.burn",
+   "t": {
+    "en": "burn",
+    "uk": "опік",
+    "ru": "ожог",
+    "pl": "oparzenie",
+    "de": "Verbrennung",
+    "fr": "brûlure",
+    "es": "quemadura",
+    "it": "ustione",
+    "pt": "queimadura",
+    "tr": "yanık"
+   },
+   "ex": {
+    "en": "Put cold water on the burn."
+   }
+  },
+  {
+   "id": "emergency.lifeguard",
+   "t": {
+    "en": "lifeguard",
+    "uk": "рятувальник",
+    "ru": "спасатель",
+    "pl": "ratownik",
+    "de": "Rettungsschwimmer",
+    "fr": "maître-nageur",
+    "es": "socorrista",
+    "it": "bagnino",
+    "pt": "salva-vidas",
+    "tr": "cankurtaran"
+   },
+   "ex": {
+    "en": "The lifeguard saved the boy."
+   }
+  },
+  {
+   "id": "emergency.siren",
+   "t": {
+    "en": "siren",
+    "uk": "сирена",
+    "ru": "сирена",
+    "pl": "syrena",
+    "de": "Sirene",
+    "fr": "sirène",
+    "es": "sirena",
+    "it": "sirena",
+    "pt": "sirene",
+    "tr": "siren"
+   },
+   "ex": {
+    "en": "I can hear a siren outside."
+   }
+  },
+  {
+   "id": "emergency.theft",
+   "t": {
+    "en": "theft",
+    "uk": "крадіжка",
+    "ru": "кража",
+    "pl": "kradzież",
+    "de": "Diebstahl",
+    "fr": "vol",
+    "es": "robo",
+    "it": "furto",
+    "pt": "furto",
+    "tr": "hırsızlık"
+   },
+   "ex": {
+    "en": "Theft is common in tourist areas."
+   }
+  },
+  {
+   "id": "emergency.robbery",
+   "t": {
+    "en": "robbery",
+    "uk": "пограбування",
+    "ru": "ограбление",
+    "pl": "napad",
+    "de": "Raub",
+    "fr": "braquage",
+    "es": "atraco",
+    "it": "rapina",
+    "pt": "assalto",
+    "tr": "soygun"
+   },
+   "ex": {
+    "en": "There was a robbery at the bank."
+   }
+  },
+  {
+   "id": "emergency.pickpocket",
+   "t": {
+    "en": "pickpocket",
+    "uk": "кишеньковий злодій",
+    "ru": "карманник",
+    "pl": "kieszonkowiec",
+    "de": "Taschendieb",
+    "fr": "pickpocket",
+    "es": "carterista",
+    "it": "borseggiatore",
+    "pt": "batedor de carteira",
+    "tr": "yankesici"
+   },
+   "ex": {
+    "en": "Watch out for pickpockets on the metro."
+   }
+  },
+  {
+   "id": "emergency.lost-property",
+   "t": {
+    "en": "lost property",
+    "uk": "бюро знахідок",
+    "ru": "бюро находок",
+    "pl": "biuro rzeczy znalezionych",
+    "de": "Fundbüro",
+    "fr": "objets trouvés",
+    "es": "objetos perdidos",
+    "it": "oggetti smarriti",
+    "pt": "achados e perdidos",
+    "tr": "kayıp eşya bürosu"
+   },
+   "ex": {
+    "en": "Ask at lost property for your umbrella."
+   }
+  },
+  {
+   "id": "emergency.fire-extinguisher",
+   "t": {
+    "en": "fire extinguisher",
+    "uk": "вогнегасник",
+    "ru": "огнетушитель",
+    "pl": "gaśnica",
+    "de": "Feuerlöscher",
+    "fr": "extincteur",
+    "es": "extintor",
+    "it": "estintore",
+    "pt": "extintor",
+    "tr": "yangın söndürücü"
+   },
+   "ex": {
+    "en": "There is a fire extinguisher in the kitchen."
+   }
+  },
+  {
+   "id": "emergency.to-break-down",
+   "t": {
+    "en": "to break down",
+    "uk": "зламатися",
+    "ru": "сломаться",
+    "pl": "zepsuć się",
+    "de": "eine Panne haben",
+    "fr": "tomber en panne",
+    "es": "averiarse",
+    "it": "guastarsi",
+    "pt": "quebrar",
+    "tr": "arızalanmak"
+   },
+   "ex": {
+    "en": "Our car broke down on the motorway."
+   }
+  },
+  {
+   "id": "emergency.office-hours",
+   "t": {
+    "en": "office hours",
+    "uk": "години прийому",
+    "ru": "часы приёма",
+    "pl": "godziny przyjęć",
+    "de": "Sprechzeiten",
+    "fr": "heures d'ouverture",
+    "es": "horario de atención",
+    "it": "orario di apertura",
+    "pt": "horário de atendimento",
+    "tr": "çalışma saatleri"
+   },
+   "ex": {
+    "en": "Office hours are from nine to one."
+   }
+  },
+  {
+   "id": "emergency.counter",
+   "t": {
+    "en": "counter",
+    "uk": "віконце",
+    "ru": "окошко",
+    "pl": "okienko",
+    "de": "Schalter",
+    "fr": "guichet",
+    "es": "ventanilla",
+    "it": "sportello",
+    "pt": "guichê",
+    "tr": "gişe"
+   },
+   "ex": {
+    "en": "Please go to counter number three."
+   }
+  },
+  {
+   "id": "emergency.passport-photo",
+   "t": {
+    "en": "passport photo",
+    "uk": "фото на паспорт",
+    "ru": "фото на паспорт",
+    "pl": "zdjęcie paszportowe",
+    "de": "Passfoto",
+    "fr": "photo d'identité",
+    "es": "foto de carné",
+    "it": "fototessera",
+    "pt": "foto 3x4",
+    "tr": "vesikalık fotoğraf"
+   },
+   "ex": {
+    "en": "You need two passport photos."
+   }
+  },
+  {
+   "id": "emergency.place-of-birth",
+   "t": {
+    "en": "place of birth",
+    "uk": "місце народження",
+    "ru": "место рождения",
+    "pl": "miejsce urodzenia",
+    "de": "Geburtsort",
+    "fr": "lieu de naissance",
+    "es": "lugar de nacimiento",
+    "it": "luogo di nascita",
+    "pt": "local de nascimento",
+    "tr": "doğum yeri"
+   },
+   "ex": {
+    "en": "Write your place of birth on the form."
+   }
+  },
+  {
+   "id": "emergency.marital-status",
+   "t": {
+    "en": "marital status",
+    "uk": "сімейний стан",
+    "ru": "семейное положение",
+    "pl": "stan cywilny",
+    "de": "Familienstand",
+    "fr": "situation familiale",
+    "es": "estado civil",
+    "it": "stato civile",
+    "pt": "estado civil",
+    "tr": "medeni hal"
+   },
+   "ex": {
+    "en": "What is your marital status?"
+   }
+  },
+  {
+   "id": "emergency.poison",
+   "t": {
+    "en": "poison",
+    "uk": "отрута",
+    "ru": "яд",
+    "pl": "trucizna",
+    "de": "Gift",
+    "fr": "poison",
+    "es": "veneno",
+    "it": "veleno",
+    "pt": "veneno",
+    "tr": "zehir"
+   },
+   "ex": {
+    "en": "Keep the poison away from children."
+   }
+  },
+  {
+   "id": "emergency.to-drown",
+   "t": {
+    "en": "to drown",
+    "uk": "тонути",
+    "ru": "тонуть",
+    "pl": "tonąć",
+    "de": "ertrinken",
+    "fr": "se noyer",
+    "es": "ahogarse",
+    "it": "annegare",
+    "pt": "afogar-se",
+    "tr": "boğulmak"
+   },
+   "ex": {
+    "en": "He almost drowned in the lake."
+   }
+  },
+  {
+   "id": "emergency.is-anyone-hurt",
+   "t": {
+    "en": "is anyone hurt?",
+    "uk": "Хтось поранений?",
+    "ru": "Кто-нибудь ранен?",
+    "pl": "Czy ktoś jest ranny?",
+    "de": "Ist jemand verletzt?",
+    "fr": "Il y a des blessés ?",
+    "es": "¿Hay algún herido?",
+    "it": "C'è qualcuno ferito?",
+    "pt": "Alguém está ferido?",
+    "tr": "Yaralı var mı?"
+   },
+   "ex": {
+    "en": "Is anyone hurt? Call for help!"
+   }
+  },
+  {
+   "id": "emergency.security-guard",
+   "t": {
+    "en": "security guard",
+    "uk": "охоронець",
+    "ru": "охранник",
+    "pl": "ochroniarz",
+    "de": "Wachmann",
+    "fr": "agent de sécurité",
+    "es": "vigilante de seguridad",
+    "it": "guardia giurata",
+    "pt": "segurança",
+    "tr": "güvenlik görevlisi"
+   },
+   "ex": {
+    "en": "Tell the security guard what happened."
+   }
+  },
+  {
+   "id": "emergency.to-attack",
+   "t": {
+    "en": "to attack",
+    "uk": "нападати",
+    "ru": "нападать",
+    "pl": "atakować",
+    "de": "angreifen",
+    "fr": "attaquer",
+    "es": "atacar",
+    "it": "attaccare",
+    "pt": "atacar",
+    "tr": "saldırmak"
+   },
+   "ex": {
+    "en": "A dog attacked him in the park."
    }
   }
  ]

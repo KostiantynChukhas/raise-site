@@ -2,7 +2,7 @@
  "id": "sports-a2",
  "topic": "sports",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "sports.to-score-a-goal",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "The score at half-time was one all."
+   }
+  },
+  {
+   "id": "sports.athlete",
+   "t": {
+    "en": "athlete",
+    "uk": "спортсмен",
+    "ru": "спортсмен",
+    "pl": "sportowiec",
+    "de": "Sportler",
+    "fr": "athlète",
+    "es": "atleta",
+    "it": "atleta",
+    "pt": "atleta",
+    "tr": "sporcu"
+   },
+   "ex": {
+    "en": "She is a professional athlete."
+   }
+  },
+  {
+   "id": "sports.cycling",
+   "t": {
+    "en": "cycling",
+    "uk": "велоспорт",
+    "ru": "велоспорт",
+    "pl": "kolarstwo",
+    "de": "Radsport",
+    "fr": "cyclisme",
+    "es": "ciclismo",
+    "it": "ciclismo",
+    "pt": "ciclismo",
+    "tr": "bisiklet sporu"
+   },
+   "ex": {
+    "en": "Cycling is popular in the Netherlands."
+   }
+  },
+  {
+   "id": "sports.sportswear",
+   "t": {
+    "en": "sportswear",
+    "uk": "спортивний одяг",
+    "ru": "спортивная одежда",
+    "pl": "odzież sportowa",
+    "de": "Sportkleidung",
+    "fr": "vêtements de sport",
+    "es": "ropa deportiva",
+    "it": "abbigliamento sportivo",
+    "pt": "roupa esportiva",
+    "tr": "spor kıyafeti"
+   },
+   "ex": {
+    "en": "This shop sells sportswear."
+   }
+  },
+  {
+   "id": "sports.tracksuit",
+   "t": {
+    "en": "tracksuit",
+    "uk": "спортивний костюм",
+    "ru": "спортивный костюм",
+    "pl": "dres",
+    "de": "Trainingsanzug",
+    "fr": "survêtement",
+    "es": "chándal",
+    "it": "tuta da ginnastica",
+    "pt": "agasalho",
+    "tr": "eşofman"
+   },
+   "ex": {
+    "en": "He wears a tracksuit to the gym."
+   }
+  },
+  {
+   "id": "sports.handball",
+   "t": {
+    "en": "handball",
+    "uk": "гандбол",
+    "ru": "гандбол",
+    "pl": "piłka ręczna",
+    "de": "Handball",
+    "fr": "handball",
+    "es": "balonmano",
+    "it": "pallamano",
+    "pt": "handebol",
+    "tr": "hentbol"
+   },
+   "ex": {
+    "en": "Handball is a fast team sport."
+   }
+  },
+  {
+   "id": "sports.table-tennis",
+   "t": {
+    "en": "table tennis",
+    "uk": "настільний теніс",
+    "ru": "настольный теннис",
+    "pl": "tenis stołowy",
+    "de": "Tischtennis",
+    "fr": "tennis de table",
+    "es": "tenis de mesa",
+    "it": "tennis da tavolo",
+    "pt": "tênis de mesa",
+    "tr": "masa tenisi"
+   },
+   "ex": {
+    "en": "We play table tennis at lunch."
+   }
+  },
+  {
+   "id": "sports.badminton",
+   "t": {
+    "en": "badminton",
+    "uk": "бадмінтон",
+    "ru": "бадминтон",
+    "pl": "badminton",
+    "de": "Badminton",
+    "fr": "badminton",
+    "es": "bádminton",
+    "it": "badminton",
+    "pt": "badminton",
+    "tr": "badminton"
+   },
+   "ex": {
+    "en": "Badminton is great exercise."
+   }
+  },
+  {
+   "id": "sports.surfing",
+   "t": {
+    "en": "surfing",
+    "uk": "серфінг",
+    "ru": "серфинг",
+    "pl": "surfing",
+    "de": "Surfen",
+    "fr": "surf",
+    "es": "surf",
+    "it": "surf",
+    "pt": "surfe",
+    "tr": "sörf"
+   },
+   "ex": {
+    "en": "He goes surfing every summer."
+   }
+  },
+  {
+   "id": "sports.to-sweat",
+   "t": {
+    "en": "to sweat",
+    "uk": "пітніти",
+    "ru": "потеть",
+    "pl": "pocić się",
+    "de": "schwitzen",
+    "fr": "transpirer",
+    "es": "sudar",
+    "it": "sudare",
+    "pt": "suar",
+    "tr": "terlemek"
+   },
+   "ex": {
+    "en": "I always sweat a lot in the gym."
+   }
+  },
+  {
+   "id": "sports.to-pass-the-ball",
+   "t": {
+    "en": "to pass the ball",
+    "uk": "передавати м'яч",
+    "ru": "передавать мяч",
+    "pl": "podawać piłkę",
+    "de": "den Ball abspielen",
+    "fr": "passer le ballon",
+    "es": "pasar el balón",
+    "it": "passare la palla",
+    "pt": "passar a bola",
+    "tr": "pas vermek"
+   },
+   "ex": {
+    "en": "Pass the ball to your teammate!"
+   }
+  },
+  {
+   "id": "sports.trophy",
+   "t": {
+    "en": "trophy",
+    "uk": "трофей",
+    "ru": "трофей",
+    "pl": "trofeum",
+    "de": "Trophäe",
+    "fr": "trophée",
+    "es": "trofeo",
+    "it": "trofeo",
+    "pt": "troféu",
+    "tr": "kupa"
+   },
+   "ex": {
+    "en": "The captain lifted the trophy."
+   }
+  },
+  {
+   "id": "sports.gold-medal",
+   "t": {
+    "en": "gold medal",
+    "uk": "золота медаль",
+    "ru": "золотая медаль",
+    "pl": "złoty medal",
+    "de": "Goldmedaille",
+    "fr": "médaille d'or",
+    "es": "medalla de oro",
+    "it": "medaglia d'oro",
+    "pt": "medalha de ouro",
+    "tr": "altın madalya"
+   },
+   "ex": {
+    "en": "She won a gold medal."
+   }
+  },
+  {
+   "id": "sports.first-place",
+   "t": {
+    "en": "first place",
+    "uk": "перше місце",
+    "ru": "первое место",
+    "pl": "pierwsze miejsce",
+    "de": "erster Platz",
+    "fr": "première place",
+    "es": "primer puesto",
+    "it": "primo posto",
+    "pt": "primeiro lugar",
+    "tr": "birincilik"
+   },
+   "ex": {
+    "en": "Our team finished in first place."
+   }
+  },
+  {
+   "id": "sports.tennis-court",
+   "t": {
+    "en": "tennis court",
+    "uk": "тенісний корт",
+    "ru": "теннисный корт",
+    "pl": "kort tenisowy",
+    "de": "Tennisplatz",
+    "fr": "court de tennis",
+    "es": "pista de tenis",
+    "it": "campo da tennis",
+    "pt": "quadra de tênis",
+    "tr": "tenis kortu"
+   },
+   "ex": {
+    "en": "The tennis court is free now."
+   }
+  },
+  {
+   "id": "sports.swimsuit",
+   "t": {
+    "en": "swimsuit",
+    "uk": "купальник",
+    "ru": "купальник",
+    "pl": "kostium kąpielowy",
+    "de": "Badeanzug",
+    "fr": "maillot de bain",
+    "es": "bañador",
+    "it": "costume da bagno",
+    "pt": "maiô",
+    "tr": "mayo"
+   },
+   "ex": {
+    "en": "Don't forget your swimsuit."
+   }
+  },
+  {
+   "id": "sports.swimming-goggles",
+   "t": {
+    "en": "swimming goggles",
+    "uk": "окуляри для плавання",
+    "ru": "очки для плавания",
+    "pl": "okulary pływackie",
+    "de": "Schwimmbrille",
+    "fr": "lunettes de natation",
+    "es": "gafas de natación",
+    "it": "occhialini da nuoto",
+    "pt": "óculos de natação",
+    "tr": "yüzücü gözlüğü"
+   },
+   "ex": {
+    "en": "My swimming goggles are foggy."
+   }
+  },
+  {
+   "id": "sports.to-dive",
+   "t": {
+    "en": "to dive",
+    "uk": "пірнати",
+    "ru": "нырять",
+    "pl": "nurkować",
+    "de": "tauchen",
+    "fr": "plonger",
+    "es": "zambullirse",
+    "it": "tuffarsi",
+    "pt": "mergulhar",
+    "tr": "dalmak"
+   },
+   "ex": {
+    "en": "Don't dive into shallow water."
+   }
+  },
+  {
+   "id": "sports.sailing",
+   "t": {
+    "en": "sailing",
+    "uk": "вітрильний спорт",
+    "ru": "парусный спорт",
+    "pl": "żeglarstwo",
+    "de": "Segeln",
+    "fr": "voile",
+    "es": "vela",
+    "it": "vela",
+    "pt": "vela",
+    "tr": "yelken"
+   },
+   "ex": {
+    "en": "They took up sailing last year."
+   }
+  },
+  {
+   "id": "sports.horse-riding",
+   "t": {
+    "en": "horse riding",
+    "uk": "верхова їзда",
+    "ru": "верховая езда",
+    "pl": "jazda konna",
+    "de": "Reiten",
+    "fr": "équitation",
+    "es": "equitación",
+    "it": "equitazione",
+    "pt": "equitação",
+    "tr": "binicilik"
+   },
+   "ex": {
+    "en": "She has horse riding lessons."
+   }
+  },
+  {
+   "id": "sports.team-captain",
+   "t": {
+    "en": "team captain",
+    "uk": "капітан команди",
+    "ru": "капитан команды",
+    "pl": "kapitan drużyny",
+    "de": "Mannschaftskapitän",
+    "fr": "capitaine d'équipe",
+    "es": "capitán del equipo",
+    "it": "capitano della squadra",
+    "pt": "capitão do time",
+    "tr": "takım kaptanı"
+   },
+   "ex": {
+    "en": "He was chosen as team captain."
    }
   }
  ]

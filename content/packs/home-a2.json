@@ -2,7 +2,7 @@
  "id": "home-a2",
  "topic": "home",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "home.hallway",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "I vacuum the carpet twice a week."
+   }
+  },
+  {
+   "id": "home.cosy",
+   "t": {
+    "en": "cosy",
+    "uk": "затишний",
+    "ru": "уютный",
+    "pl": "przytulny",
+    "de": "gemütlich",
+    "fr": "douillet",
+    "es": "acogedor",
+    "it": "accogliente",
+    "pt": "aconchegante",
+    "tr": "rahat"
+   },
+   "ex": {
+    "en": "Our living room is very cosy."
+   }
+  },
+  {
+   "id": "home.noisy",
+   "t": {
+    "en": "noisy",
+    "uk": "галасливий",
+    "ru": "шумный",
+    "pl": "hałaśliwy",
+    "de": "laut",
+    "fr": "bruyant",
+    "es": "ruidoso",
+    "it": "rumoroso",
+    "pt": "barulhento",
+    "tr": "gürültülü"
+   },
+   "ex": {
+    "en": "Our street is quite noisy."
+   }
+  },
+  {
+   "id": "home.bright",
+   "t": {
+    "en": "bright",
+    "uk": "світлий",
+    "ru": "светлый",
+    "pl": "jasny",
+    "de": "hell",
+    "fr": "lumineux",
+    "es": "luminoso",
+    "it": "luminoso",
+    "pt": "claro",
+    "tr": "aydınlık"
+   },
+   "ex": {
+    "en": "The kitchen is bright and sunny."
+   }
+  },
+  {
+   "id": "home.fence",
+   "t": {
+    "en": "fence",
+    "uk": "паркан",
+    "ru": "забор",
+    "pl": "płot",
+    "de": "Zaun",
+    "fr": "clôture",
+    "es": "valla",
+    "it": "recinto",
+    "pt": "cerca",
+    "tr": "çit"
+   },
+   "ex": {
+    "en": "The dog jumped over the fence."
+   }
+  },
+  {
+   "id": "home.chest-of-drawers",
+   "t": {
+    "en": "chest of drawers",
+    "uk": "комод",
+    "ru": "комод",
+    "pl": "komoda",
+    "de": "Kommode",
+    "fr": "commode",
+    "es": "cómoda",
+    "it": "cassettiera",
+    "pt": "cômoda",
+    "tr": "şifonyer"
+   },
+   "ex": {
+    "en": "My socks are in the chest of drawers."
+   }
+  },
+  {
+   "id": "home.bookcase",
+   "t": {
+    "en": "bookcase",
+    "uk": "книжкова шафа",
+    "ru": "книжный шкаф",
+    "pl": "regał na książki",
+    "de": "Bücherregal",
+    "fr": "bibliothèque",
+    "es": "estantería",
+    "it": "libreria",
+    "pt": "estante",
+    "tr": "kitaplık"
+   },
+   "ex": {
+    "en": "The bookcase is full of novels."
+   }
+  },
+  {
+   "id": "home.bedside-table",
+   "t": {
+    "en": "bedside table",
+    "uk": "тумбочка",
+    "ru": "тумбочка",
+    "pl": "szafka nocna",
+    "de": "Nachttisch",
+    "fr": "table de chevet",
+    "es": "mesita de noche",
+    "it": "comodino",
+    "pt": "mesa de cabeceira",
+    "tr": "komodin"
+   },
+   "ex": {
+    "en": "My phone is on the bedside table."
+   }
+  },
+  {
+   "id": "home.bed-sheet",
+   "t": {
+    "en": "bed sheet",
+    "uk": "простирадло",
+    "ru": "простыня",
+    "pl": "prześcieradło",
+    "de": "Bettlaken",
+    "fr": "drap",
+    "es": "sábana",
+    "it": "lenzuolo",
+    "pt": "lençol",
+    "tr": "çarşaf"
+   },
+   "ex": {
+    "en": "I change the bed sheets every week."
+   }
+  },
+  {
+   "id": "home.iron",
+   "t": {
+    "en": "iron",
+    "uk": "праска",
+    "ru": "утюг",
+    "pl": "żelazko",
+    "de": "Bügeleisen",
+    "fr": "fer à repasser",
+    "es": "plancha",
+    "it": "ferro da stiro",
+    "pt": "ferro de passar",
+    "tr": "ütü"
+   },
+   "ex": {
+    "en": "Be careful, the iron is hot."
+   }
+  },
+  {
+   "id": "home.kettle",
+   "t": {
+    "en": "kettle",
+    "uk": "чайник",
+    "ru": "чайник",
+    "pl": "czajnik",
+    "de": "Wasserkocher",
+    "fr": "bouilloire",
+    "es": "hervidor",
+    "it": "bollitore",
+    "pt": "chaleira",
+    "tr": "su ısıtıcısı"
+   },
+   "ex": {
+    "en": "Switch the kettle on, please."
+   }
+  },
+  {
+   "id": "home.freezer",
+   "t": {
+    "en": "freezer",
+    "uk": "морозильник",
+    "ru": "морозилка",
+    "pl": "zamrażarka",
+    "de": "Gefrierschrank",
+    "fr": "congélateur",
+    "es": "congelador",
+    "it": "congelatore",
+    "pt": "congelador",
+    "tr": "derin dondurucu"
+   },
+   "ex": {
+    "en": "The ice cream is in the freezer."
+   }
+  },
+  {
+   "id": "home.socket",
+   "t": {
+    "en": "socket",
+    "uk": "розетка",
+    "ru": "розетка",
+    "pl": "gniazdko",
+    "de": "Steckdose",
+    "fr": "prise",
+    "es": "enchufe",
+    "it": "presa",
+    "pt": "tomada",
+    "tr": "priz"
+   },
+   "ex": {
+    "en": "Is there a socket near the bed?"
+   }
+  },
+  {
+   "id": "home.light-switch",
+   "t": {
+    "en": "light switch",
+    "uk": "вимикач",
+    "ru": "выключатель",
+    "pl": "włącznik światła",
+    "de": "Lichtschalter",
+    "fr": "interrupteur",
+    "es": "interruptor",
+    "it": "interruttore",
+    "pt": "interruptor",
+    "tr": "ışık anahtarı"
+   },
+   "ex": {
+    "en": "The light switch is by the door."
+   }
+  },
+  {
+   "id": "home.doormat",
+   "t": {
+    "en": "doormat",
+    "uk": "килимок біля дверей",
+    "ru": "коврик у двери",
+    "pl": "wycieraczka",
+    "de": "Fußmatte",
+    "fr": "paillasson",
+    "es": "felpudo",
+    "it": "zerbino",
+    "pt": "capacho",
+    "tr": "paspas"
+   },
+   "ex": {
+    "en": "Wipe your feet on the doormat."
+   }
+  },
+  {
+   "id": "home.lock",
+   "t": {
+    "en": "lock",
+    "uk": "замок",
+    "ru": "замок",
+    "pl": "zamek",
+    "de": "Schloss",
+    "fr": "serrure",
+    "es": "cerradura",
+    "it": "serratura",
+    "pt": "fechadura",
+    "tr": "kilit"
+   },
+   "ex": {
+    "en": "The lock on the door is broken."
+   }
+  },
+  {
+   "id": "home.to-dust",
+   "t": {
+    "en": "to dust",
+    "uk": "витирати пил",
+    "ru": "вытирать пыль",
+    "pl": "ścierać kurze",
+    "de": "Staub wischen",
+    "fr": "faire la poussière",
+    "es": "quitar el polvo",
+    "it": "spolverare",
+    "pt": "tirar o pó",
+    "tr": "toz almak"
+   },
+   "ex": {
+    "en": "I dust the shelves on Saturdays."
+   }
+  },
+  {
+   "id": "home.to-mop-the-floor",
+   "t": {
+    "en": "to mop the floor",
+    "uk": "мити підлогу",
+    "ru": "мыть пол",
+    "pl": "myć podłogę",
+    "de": "den Boden wischen",
+    "fr": "laver le sol",
+    "es": "fregar el suelo",
+    "it": "lavare il pavimento",
+    "pt": "passar pano no chão",
+    "tr": "yeri silmek"
+   },
+   "ex": {
+    "en": "He mops the floor every Sunday."
+   }
+  },
+  {
+   "id": "home.to-wash-the-dishes",
+   "t": {
+    "en": "to wash the dishes",
+    "uk": "мити посуд",
+    "ru": "мыть посуду",
+    "pl": "zmywać naczynia",
+    "de": "abwaschen",
+    "fr": "faire la vaisselle",
+    "es": "fregar los platos",
+    "it": "lavare i piatti",
+    "pt": "lavar a louça",
+    "tr": "bulaşık yıkamak"
+   },
+   "ex": {
+    "en": "It's your turn to wash the dishes."
+   }
+  },
+  {
+   "id": "home.to-lock-the-door",
+   "t": {
+    "en": "to lock the door",
+    "uk": "замикати двері",
+    "ru": "запирать дверь",
+    "pl": "zamykać drzwi na klucz",
+    "de": "die Tür abschließen",
+    "fr": "fermer la porte à clé",
+    "es": "cerrar la puerta con llave",
+    "it": "chiudere la porta a chiave",
+    "pt": "trancar a porta",
+    "tr": "kapıyı kilitlemek"
+   },
+   "ex": {
+    "en": "Don't forget to lock the door."
+   }
+  },
+  {
+   "id": "home.housework",
+   "t": {
+    "en": "housework",
+    "uk": "хатня робота",
+    "ru": "работа по дому",
+    "pl": "prace domowe",
+    "de": "Hausarbeit",
+    "fr": "tâches ménagères",
+    "es": "tareas domésticas",
+    "it": "faccende domestiche",
+    "pt": "tarefas domésticas",
+    "tr": "ev işi"
+   },
+   "ex": {
+    "en": "I share the housework with my wife."
    }
   }
  ]

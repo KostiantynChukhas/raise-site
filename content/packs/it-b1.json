@@ -2,7 +2,7 @@
  "id": "it-b1",
  "topic": "it",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "it.software",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "Check the numbers on the dashboard."
+   }
+  },
+  {
+   "id": "it.user",
+   "t": {
+    "en": "user",
+    "uk": "користувач",
+    "ru": "пользователь",
+    "pl": "użytkownik",
+    "de": "Benutzer",
+    "fr": "utilisateur",
+    "es": "usuario",
+    "it": "utente",
+    "pt": "usuário",
+    "tr": "kullanıcı"
+   },
+   "ex": {
+    "en": "The app has a million users."
+   }
+  },
+  {
+   "id": "it.to-code",
+   "t": {
+    "en": "to code",
+    "uk": "програмувати",
+    "ru": "программировать",
+    "pl": "programować",
+    "de": "programmieren",
+    "fr": "coder",
+    "es": "programar",
+    "it": "programmare",
+    "pt": "programar",
+    "tr": "kod yazmak"
+   },
+   "ex": {
+    "en": "She learned to code at school."
+   }
+  },
+  {
+   "id": "it.code",
+   "t": {
+    "en": "code",
+    "uk": "код",
+    "ru": "код",
+    "pl": "kod",
+    "de": "Code",
+    "fr": "code",
+    "es": "código",
+    "it": "codice",
+    "pt": "código",
+    "tr": "kod"
+   },
+   "ex": {
+    "en": "There is a mistake in the code."
+   }
+  },
+  {
+   "id": "it.programming-language",
+   "t": {
+    "en": "programming language",
+    "uk": "мова програмування",
+    "ru": "язык программирования",
+    "pl": "język programowania",
+    "de": "Programmiersprache",
+    "fr": "langage de programmation",
+    "es": "lenguaje de programación",
+    "it": "linguaggio di programmazione",
+    "pt": "linguagem de programação",
+    "tr": "programlama dili"
+   },
+   "ex": {
+    "en": "Python is a popular programming language."
+   }
+  },
+  {
+   "id": "it.cloud-storage",
+   "t": {
+    "en": "cloud storage",
+    "uk": "хмарне сховище",
+    "ru": "облачное хранилище",
+    "pl": "chmura",
+    "de": "Cloud-Speicher",
+    "fr": "stockage en ligne",
+    "es": "almacenamiento en la nube",
+    "it": "archiviazione cloud",
+    "pt": "armazenamento em nuvem",
+    "tr": "bulut depolama"
+   },
+   "ex": {
+    "en": "All my photos are in cloud storage."
+   }
+  },
+  {
+   "id": "it.firewall",
+   "t": {
+    "en": "firewall",
+    "uk": "брандмауер",
+    "ru": "брандмауэр",
+    "pl": "zapora sieciowa",
+    "de": "Firewall",
+    "fr": "pare-feu",
+    "es": "cortafuegos",
+    "it": "firewall",
+    "pt": "firewall",
+    "tr": "güvenlik duvarı"
+   },
+   "ex": {
+    "en": "The firewall blocked the connection."
+   }
+  },
+  {
+   "id": "it.malware",
+   "t": {
+    "en": "malware",
+    "uk": "шкідливе ПЗ",
+    "ru": "вредоносное ПО",
+    "pl": "złośliwe oprogramowanie",
+    "de": "Schadsoftware",
+    "fr": "logiciel malveillant",
+    "es": "malware",
+    "it": "malware",
+    "pt": "malware",
+    "tr": "kötü amaçlı yazılım"
+   },
+   "ex": {
+    "en": "The email contained malware."
+   }
+  },
+  {
+   "id": "it.antivirus",
+   "t": {
+    "en": "antivirus",
+    "uk": "антивірус",
+    "ru": "антивирус",
+    "pl": "antywirus",
+    "de": "Antivirenprogramm",
+    "fr": "antivirus",
+    "es": "antivirus",
+    "it": "antivirus",
+    "pt": "antivírus",
+    "tr": "antivirüs"
+   },
+   "ex": {
+    "en": "Keep your antivirus up to date."
+   }
+  },
+  {
+   "id": "it.hacker",
+   "t": {
+    "en": "hacker",
+    "uk": "хакер",
+    "ru": "хакер",
+    "pl": "haker",
+    "de": "Hacker",
+    "fr": "pirate informatique",
+    "es": "pirata informático",
+    "it": "hacker",
+    "pt": "hacker",
+    "tr": "bilgisayar korsanı"
+   },
+   "ex": {
+    "en": "A hacker stole thousands of passwords."
+   }
+  },
+  {
+   "id": "it.data",
+   "t": {
+    "en": "data",
+    "uk": "дані",
+    "ru": "данные",
+    "pl": "dane",
+    "de": "Daten",
+    "fr": "données",
+    "es": "datos",
+    "it": "dati",
+    "pt": "dados",
+    "tr": "veri"
+   },
+   "ex": {
+    "en": "We collect data about our users."
+   }
+  },
+  {
+   "id": "it.version",
+   "t": {
+    "en": "version",
+    "uk": "версія",
+    "ru": "версия",
+    "pl": "wersja",
+    "de": "Version",
+    "fr": "version",
+    "es": "versión",
+    "it": "versione",
+    "pt": "versão",
+    "tr": "sürüm"
+   },
+   "ex": {
+    "en": "Download the latest version."
+   }
+  },
+  {
+   "id": "it.tech-support",
+   "t": {
+    "en": "tech support",
+    "uk": "техпідтримка",
+    "ru": "техподдержка",
+    "pl": "wsparcie techniczne",
+    "de": "technischer Support",
+    "fr": "support technique",
+    "es": "soporte técnico",
+    "it": "assistenza tecnica",
+    "pt": "suporte técnico",
+    "tr": "teknik destek"
+   },
+   "ex": {
+    "en": "Call tech support if it fails again."
+   }
+  },
+  {
+   "id": "it.spreadsheet",
+   "t": {
+    "en": "spreadsheet",
+    "uk": "електронна таблиця",
+    "ru": "электронная таблица",
+    "pl": "arkusz kalkulacyjny",
+    "de": "Tabellenkalkulation",
+    "fr": "tableur",
+    "es": "hoja de cálculo",
+    "it": "foglio di calcolo",
+    "pt": "planilha",
+    "tr": "elektronik tablo"
+   },
+   "ex": {
+    "en": "I keep my budget in a spreadsheet."
+   }
+  },
+  {
+   "id": "it.to-format",
+   "t": {
+    "en": "to format",
+    "uk": "форматувати",
+    "ru": "форматировать",
+    "pl": "formatować",
+    "de": "formatieren",
+    "fr": "formater",
+    "es": "formatear",
+    "it": "formattare",
+    "pt": "formatar",
+    "tr": "biçimlendirmek"
+   },
+   "ex": {
+    "en": "Format the text before printing."
+   }
+  },
+  {
+   "id": "it.to-compress",
+   "t": {
+    "en": "to compress",
+    "uk": "стискати",
+    "ru": "сжимать",
+    "pl": "kompresować",
+    "de": "komprimieren",
+    "fr": "compresser",
+    "es": "comprimir",
+    "it": "comprimere",
+    "pt": "compactar",
+    "tr": "sıkıştırmak"
+   },
+   "ex": {
+    "en": "Compress the photos before sending."
+   }
+  },
+  {
+   "id": "it.router",
+   "t": {
+    "en": "router",
+    "uk": "роутер",
+    "ru": "роутер",
+    "pl": "router",
+    "de": "Router",
+    "fr": "routeur",
+    "es": "router",
+    "it": "router",
+    "pt": "roteador",
+    "tr": "modem"
+   },
+   "ex": {
+    "en": "Restart the router if the wifi is slow."
+   }
+  },
+  {
+   "id": "it.login-details",
+   "t": {
+    "en": "login details",
+    "uk": "дані для входу",
+    "ru": "данные для входа",
+    "pl": "dane logowania",
+    "de": "Zugangsdaten",
+    "fr": "identifiants",
+    "es": "datos de acceso",
+    "it": "credenziali",
+    "pt": "dados de acesso",
+    "tr": "giriş bilgileri"
+   },
+   "ex": {
+    "en": "Never share your login details."
+   }
+  },
+  {
+   "id": "it.privacy-settings",
+   "t": {
+    "en": "privacy settings",
+    "uk": "налаштування приватності",
+    "ru": "настройки конфиденциальности",
+    "pl": "ustawienia prywatności",
+    "de": "Datenschutzeinstellungen",
+    "fr": "paramètres de confidentialité",
+    "es": "configuración de privacidad",
+    "it": "impostazioni della privacy",
+    "pt": "configurações de privacidade",
+    "tr": "gizlilik ayarları"
+   },
+   "ex": {
+    "en": "Check your privacy settings."
+   }
+  },
+  {
+   "id": "it.phishing",
+   "t": {
+    "en": "phishing",
+    "uk": "фішинг",
+    "ru": "фишинг",
+    "pl": "phishing",
+    "de": "Phishing",
+    "fr": "hameçonnage",
+    "es": "phishing",
+    "it": "phishing",
+    "pt": "phishing",
+    "tr": "kimlik avı"
+   },
+   "ex": {
+    "en": "That email is a phishing attempt."
+   }
+  },
+  {
+   "id": "it.to-hack",
+   "t": {
+    "en": "to hack",
+    "uk": "зламувати",
+    "ru": "взламывать",
+    "pl": "hakować",
+    "de": "hacken",
+    "fr": "pirater",
+    "es": "hackear",
+    "it": "hackerare",
+    "pt": "hackear",
+    "tr": "hacklemek"
+   },
+   "ex": {
+    "en": "Someone hacked my account."
+   }
+  },
+  {
+   "id": "it.cursor",
+   "t": {
+    "en": "cursor",
+    "uk": "курсор",
+    "ru": "курсор",
+    "pl": "kursor",
+    "de": "Cursor",
+    "fr": "curseur",
+    "es": "cursor",
+    "it": "cursore",
+    "pt": "cursor",
+    "tr": "imleç"
+   },
+   "ex": {
+    "en": "Move the cursor to the top."
+   }
+  },
+  {
+   "id": "it.to-drag",
+   "t": {
+    "en": "to drag",
+    "uk": "перетягувати",
+    "ru": "перетаскивать",
+    "pl": "przeciągać",
+    "de": "ziehen",
+    "fr": "faire glisser",
+    "es": "arrastrar",
+    "it": "trascinare",
+    "pt": "arrastar",
+    "tr": "sürüklemek"
+   },
+   "ex": {
+    "en": "Drag the file into the folder."
+   }
+  },
+  {
+   "id": "it.search-results",
+   "t": {
+    "en": "search results",
+    "uk": "результати пошуку",
+    "ru": "результаты поиска",
+    "pl": "wyniki wyszukiwania",
+    "de": "Suchergebnisse",
+    "fr": "résultats de recherche",
+    "es": "resultados de búsqueda",
+    "it": "risultati di ricerca",
+    "pt": "resultados da pesquisa",
+    "tr": "arama sonuçları"
+   },
+   "ex": {
+    "en": "Our shop is first in the search results."
    }
   }
  ]

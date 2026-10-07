@@ -2,7 +2,7 @@
  "id": "health-a1",
  "topic": "health",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "health.body",
@@ -470,6 +470,438 @@
    },
    "ex": {
     "en": "I hope you get well soon."
+   }
+  },
+  {
+   "id": "health.arm",
+   "t": {
+    "en": "arm",
+    "uk": "рука",
+    "ru": "рука",
+    "pl": "ręka",
+    "de": "Arm",
+    "fr": "bras",
+    "es": "brazo",
+    "it": "braccio",
+    "pt": "braço",
+    "tr": "kol"
+   },
+   "ex": {
+    "en": "My arm hurts."
+   }
+  },
+  {
+   "id": "health.leg",
+   "t": {
+    "en": "leg",
+    "uk": "нога",
+    "ru": "нога",
+    "pl": "noga",
+    "de": "Bein",
+    "fr": "jambe",
+    "es": "pierna",
+    "it": "gamba",
+    "pt": "perna",
+    "tr": "bacak"
+   },
+   "ex": {
+    "en": "My leg hurts after the run."
+   }
+  },
+  {
+   "id": "health.nose",
+   "t": {
+    "en": "nose",
+    "uk": "ніс",
+    "ru": "нос",
+    "pl": "nos",
+    "de": "Nase",
+    "fr": "nez",
+    "es": "nariz",
+    "it": "naso",
+    "pt": "nariz",
+    "tr": "burun"
+   },
+   "ex": {
+    "en": "My nose is red."
+   }
+  },
+  {
+   "id": "health.mouth",
+   "t": {
+    "en": "mouth",
+    "uk": "рот",
+    "ru": "рот",
+    "pl": "usta",
+    "de": "Mund",
+    "fr": "bouche",
+    "es": "boca",
+    "it": "bocca",
+    "pt": "boca",
+    "tr": "ağız"
+   },
+   "ex": {
+    "en": "Open your mouth, please."
+   }
+  },
+  {
+   "id": "health.ear",
+   "t": {
+    "en": "ear",
+    "uk": "вухо",
+    "ru": "ухо",
+    "pl": "ucho",
+    "de": "Ohr",
+    "fr": "oreille",
+    "es": "oreja",
+    "it": "orecchio",
+    "pt": "orelha",
+    "tr": "kulak"
+   },
+   "ex": {
+    "en": "My ear hurts."
+   }
+  },
+  {
+   "id": "health.back",
+   "t": {
+    "en": "back",
+    "uk": "спина",
+    "ru": "спина",
+    "pl": "plecy",
+    "de": "Rücken",
+    "fr": "dos",
+    "es": "espalda",
+    "it": "schiena",
+    "pt": "costas",
+    "tr": "sırt"
+   },
+   "ex": {
+    "en": "Sit with your back straight."
+   }
+  },
+  {
+   "id": "health.ill",
+   "t": {
+    "en": "ill",
+    "uk": "хворий",
+    "ru": "больной",
+    "pl": "chory",
+    "de": "krank",
+    "fr": "malade",
+    "es": "enfermo",
+    "it": "malato",
+    "pt": "doente",
+    "tr": "hasta"
+   },
+   "ex": {
+    "en": "He is ill today."
+   }
+  },
+  {
+   "id": "health.neck",
+   "t": {
+    "en": "neck",
+    "uk": "шия",
+    "ru": "шея",
+    "pl": "szyja",
+    "de": "Hals",
+    "fr": "cou",
+    "es": "cuello",
+    "it": "collo",
+    "pt": "pescoço",
+    "tr": "boyun"
+   },
+   "ex": {
+    "en": "My neck is stiff."
+   }
+  },
+  {
+   "id": "health.finger",
+   "t": {
+    "en": "finger",
+    "uk": "палець",
+    "ru": "палец",
+    "pl": "palec",
+    "de": "Finger",
+    "fr": "doigt",
+    "es": "dedo",
+    "it": "dito",
+    "pt": "dedo",
+    "tr": "parmak"
+   },
+   "ex": {
+    "en": "I cut my finger."
+   }
+  },
+  {
+   "id": "health.knee",
+   "t": {
+    "en": "knee",
+    "uk": "коліно",
+    "ru": "колено",
+    "pl": "kolano",
+    "de": "Knie",
+    "fr": "genou",
+    "es": "rodilla",
+    "it": "ginocchio",
+    "pt": "joelho",
+    "tr": "diz"
+   },
+   "ex": {
+    "en": "My knee hurts."
+   }
+  },
+  {
+   "id": "health.shoulder",
+   "t": {
+    "en": "shoulder",
+    "uk": "плече",
+    "ru": "плечо",
+    "pl": "ramię",
+    "de": "Schulter",
+    "fr": "épaule",
+    "es": "hombro",
+    "it": "spalla",
+    "pt": "ombro",
+    "tr": "omuz"
+   },
+   "ex": {
+    "en": "He hurt his shoulder."
+   }
+  },
+  {
+   "id": "health.skin",
+   "t": {
+    "en": "skin",
+    "uk": "шкіра",
+    "ru": "кожа",
+    "pl": "skóra",
+    "de": "Haut",
+    "fr": "peau",
+    "es": "piel",
+    "it": "pelle",
+    "pt": "pele",
+    "tr": "cilt"
+   },
+   "ex": {
+    "en": "The sun is bad for your skin."
+   }
+  },
+  {
+   "id": "health.stomachache",
+   "t": {
+    "en": "stomachache",
+    "uk": "біль у животі",
+    "ru": "боль в животе",
+    "pl": "ból brzucha",
+    "de": "Bauchschmerzen",
+    "fr": "mal de ventre",
+    "es": "dolor de barriga",
+    "it": "mal di pancia",
+    "pt": "dor de barriga",
+    "tr": "karın ağrısı"
+   },
+   "ex": {
+    "en": "I have a stomachache."
+   }
+  },
+  {
+   "id": "health.toothache",
+   "t": {
+    "en": "toothache",
+    "uk": "зубний біль",
+    "ru": "зубная боль",
+    "pl": "ból zęba",
+    "de": "Zahnschmerzen",
+    "fr": "mal de dents",
+    "es": "dolor de muelas",
+    "it": "mal di denti",
+    "pt": "dor de dente",
+    "tr": "diş ağrısı"
+   },
+   "ex": {
+    "en": "I need a dentist for my toothache."
+   }
+  },
+  {
+   "id": "health.to-feel-good",
+   "t": {
+    "en": "to feel good",
+    "uk": "почуватися добре",
+    "ru": "чувствовать себя хорошо",
+    "pl": "czuć się dobrze",
+    "de": "sich gut fühlen",
+    "fr": "se sentir bien",
+    "es": "sentirse bien",
+    "it": "sentirsi bene",
+    "pt": "sentir-se bem",
+    "tr": "iyi hissetmek"
+   },
+   "ex": {
+    "en": "I feel good today."
+   }
+  },
+  {
+   "id": "health.weak",
+   "t": {
+    "en": "weak",
+    "uk": "слабкий",
+    "ru": "слабый",
+    "pl": "słaby",
+    "de": "schwach",
+    "fr": "faible",
+    "es": "débil",
+    "it": "debole",
+    "pt": "fraco",
+    "tr": "zayıf"
+   },
+   "ex": {
+    "en": "I feel weak after the flu."
+   }
+  },
+  {
+   "id": "health.patient",
+   "t": {
+    "en": "patient",
+    "uk": "пацієнт",
+    "ru": "пациент",
+    "pl": "pacjent",
+    "de": "Patient",
+    "fr": "patient",
+    "es": "paciente",
+    "it": "paziente",
+    "pt": "paciente",
+    "tr": "hasta"
+   },
+   "ex": {
+    "en": "The patient is sleeping."
+   }
+  },
+  {
+   "id": "health.to-see-a-doctor",
+   "t": {
+    "en": "to see a doctor",
+    "uk": "піти до лікаря",
+    "ru": "сходить к врачу",
+    "pl": "iść do lekarza",
+    "de": "zum Arzt gehen",
+    "fr": "consulter un médecin",
+    "es": "ir al médico",
+    "it": "andare dal medico",
+    "pt": "ir ao médico",
+    "tr": "doktora gitmek"
+   },
+   "ex": {
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "health.chest",
+   "t": {
+    "en": "chest",
+    "uk": "груди",
+    "ru": "грудь",
+    "pl": "klatka piersiowa",
+    "de": "Brust",
+    "fr": "poitrine",
+    "es": "pecho",
+    "it": "petto",
+    "pt": "peito",
+    "tr": "göğüs"
+   },
+   "ex": {
+    "en": "I have a pain in my chest."
+   }
+  },
+  {
+   "id": "health.face",
+   "t": {
+    "en": "face",
+    "uk": "обличчя",
+    "ru": "лицо",
+    "pl": "twarz",
+    "de": "Gesicht",
+    "fr": "visage",
+    "es": "cara",
+    "it": "viso",
+    "pt": "rosto",
+    "tr": "yüz"
+   },
+   "ex": {
+    "en": "Wash your face."
+   }
+  },
+  {
+   "id": "health.to-cough",
+   "t": {
+    "en": "to cough",
+    "uk": "кашляти",
+    "ru": "кашлять",
+    "pl": "kaszleć",
+    "de": "husten",
+    "fr": "tousser",
+    "es": "toser",
+    "it": "tossire",
+    "pt": "tossir",
+    "tr": "öksürmek"
+   },
+   "ex": {
+    "en": "He coughs all night."
+   }
+  },
+  {
+   "id": "health.to-wash-ones-hands",
+   "t": {
+    "en": "to wash one's hands",
+    "uk": "мити руки",
+    "ru": "мыть руки",
+    "pl": "myć ręce",
+    "de": "sich die Hände waschen",
+    "fr": "se laver les mains",
+    "es": "lavarse las manos",
+    "it": "lavarsi le mani",
+    "pt": "lavar as mãos",
+    "tr": "ellerini yıkamak"
+   },
+   "ex": {
+    "en": "Wash your hands before eating."
+   }
+  },
+  {
+   "id": "health.tongue",
+   "t": {
+    "en": "tongue",
+    "uk": "язик",
+    "ru": "язык",
+    "pl": "język",
+    "de": "Zunge",
+    "fr": "langue",
+    "es": "lengua",
+    "it": "lingua",
+    "pt": "língua",
+    "tr": "dil"
+   },
+   "ex": {
+    "en": "Show me your tongue, please."
+   }
+  },
+  {
+   "id": "health.health",
+   "t": {
+    "en": "health",
+    "uk": "здоров'я",
+    "ru": "здоровье",
+    "pl": "zdrowie",
+    "de": "Gesundheit",
+    "fr": "santé",
+    "es": "salud",
+    "it": "salute",
+    "pt": "saúde",
+    "tr": "sağlık"
+   },
+   "ex": {
+    "en": "Health is more important than money."
    }
   }
  ]

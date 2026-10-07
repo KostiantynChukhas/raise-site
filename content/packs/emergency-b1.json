@@ -2,7 +2,7 @@
  "id": "emergency-b1",
  "topic": "emergency",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emergency.immigration-office",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "We had to call a tow truck."
+   }
+  },
+  {
+   "id": "emergency.gas-leak",
+   "t": {
+    "en": "gas leak",
+    "uk": "витік газу",
+    "ru": "утечка газа",
+    "pl": "wyciek gazu",
+    "de": "Gasleck",
+    "fr": "fuite de gaz",
+    "es": "fuga de gas",
+    "it": "fuga di gas",
+    "pt": "vazamento de gás",
+    "tr": "gaz kaçağı"
+   },
+   "ex": {
+    "en": "I think there's a gas leak in the kitchen."
+   }
+  },
+  {
+   "id": "emergency.paramedic",
+   "t": {
+    "en": "paramedic",
+    "uk": "парамедик",
+    "ru": "фельдшер скорой помощи",
+    "pl": "ratownik medyczny",
+    "de": "Sanitäter",
+    "fr": "ambulancier",
+    "es": "paramédico",
+    "it": "paramedico",
+    "pt": "paramédico",
+    "tr": "sağlık görevlisi"
+   },
+   "ex": {
+    "en": "The paramedics arrived in ten minutes."
+   }
+  },
+  {
+   "id": "emergency.stretcher",
+   "t": {
+    "en": "stretcher",
+    "uk": "ноші",
+    "ru": "носилки",
+    "pl": "nosze",
+    "de": "Trage",
+    "fr": "brancard",
+    "es": "camilla",
+    "it": "barella",
+    "pt": "maca",
+    "tr": "sedye"
+   },
+   "ex": {
+    "en": "They carried him out on a stretcher."
+   }
+  },
+  {
+   "id": "emergency.victim",
+   "t": {
+    "en": "victim",
+    "uk": "жертва",
+    "ru": "жертва",
+    "pl": "ofiara",
+    "de": "Opfer",
+    "fr": "victime",
+    "es": "víctima",
+    "it": "vittima",
+    "pt": "vítima",
+    "tr": "kurban"
+   },
+   "ex": {
+    "en": "The victim was taken to hospital."
+   }
+  },
+  {
+   "id": "emergency.assault",
+   "t": {
+    "en": "assault",
+    "uk": "напад",
+    "ru": "нападение",
+    "pl": "napaść",
+    "de": "Überfall",
+    "fr": "agression",
+    "es": "agresión",
+    "it": "aggressione",
+    "pt": "agressão",
+    "tr": "saldırı"
+   },
+   "ex": {
+    "en": "He reported the assault to the police."
+   }
+  },
+  {
+   "id": "emergency.to-threaten",
+   "t": {
+    "en": "to threaten",
+    "uk": "погрожувати",
+    "ru": "угрожать",
+    "pl": "grozić",
+    "de": "bedrohen",
+    "fr": "menacer",
+    "es": "amenazar",
+    "it": "minacciare",
+    "pt": "ameaçar",
+    "tr": "tehdit etmek"
+   },
+   "ex": {
+    "en": "The man threatened him with a knife."
+   }
+  },
+  {
+   "id": "emergency.in-person",
+   "t": {
+    "en": "in person",
+    "uk": "особисто",
+    "ru": "лично",
+    "pl": "osobiście",
+    "de": "persönlich",
+    "fr": "en personne",
+    "es": "en persona",
+    "it": "di persona",
+    "pt": "pessoalmente",
+    "tr": "şahsen"
+   },
+   "ex": {
+    "en": "You must apply in person."
+   }
+  },
+  {
+   "id": "emergency.waiting-list",
+   "t": {
+    "en": "waiting list",
+    "uk": "список очікування",
+    "ru": "лист ожидания",
+    "pl": "lista oczekujących",
+    "de": "Warteliste",
+    "fr": "liste d'attente",
+    "es": "lista de espera",
+    "it": "lista d'attesa",
+    "pt": "lista de espera",
+    "tr": "bekleme listesi"
+   },
+   "ex": {
+    "en": "We are on the waiting list for a flat."
+   }
+  },
+  {
+   "id": "emergency.identity-theft",
+   "t": {
+    "en": "identity theft",
+    "uk": "крадіжка особистих даних",
+    "ru": "кража личных данных",
+    "pl": "kradzież tożsamości",
+    "de": "Identitätsdiebstahl",
+    "fr": "usurpation d'identité",
+    "es": "robo de identidad",
+    "it": "furto d'identità",
+    "pt": "roubo de identidade",
+    "tr": "kimlik hırsızlığı"
+   },
+   "ex": {
+    "en": "Identity theft is a growing problem."
+   }
+  },
+  {
+   "id": "emergency.shelter",
+   "t": {
+    "en": "shelter",
+    "uk": "укриття",
+    "ru": "убежище",
+    "pl": "schronienie",
+    "de": "Notunterkunft",
+    "fr": "abri",
+    "es": "refugio",
+    "it": "rifugio",
+    "pt": "abrigo",
+    "tr": "sığınak"
+   },
+   "ex": {
+    "en": "Families found shelter in the school."
+   }
+  },
+  {
+   "id": "emergency.missing",
+   "t": {
+    "en": "missing",
+    "uk": "зниклий безвісти",
+    "ru": "пропавший без вести",
+    "pl": "zaginiony",
+    "de": "vermisst",
+    "fr": "disparu",
+    "es": "desaparecido",
+    "it": "scomparso",
+    "pt": "desaparecido",
+    "tr": "kayıp"
+   },
+   "ex": {
+    "en": "Two hikers are still missing."
+   }
+  },
+  {
+   "id": "emergency.emergency-services",
+   "t": {
+    "en": "emergency services",
+    "uk": "екстрені служби",
+    "ru": "экстренные службы",
+    "pl": "służby ratunkowe",
+    "de": "Rettungsdienste",
+    "fr": "services d'urgence",
+    "es": "servicios de emergencia",
+    "it": "servizi di emergenza",
+    "pt": "serviços de emergência",
+    "tr": "acil servisler"
+   },
+   "ex": {
+    "en": "The emergency services arrived quickly."
+   }
+  },
+  {
+   "id": "emergency.heart-attack",
+   "t": {
+    "en": "heart attack",
+    "uk": "серцевий напад",
+    "ru": "сердечный приступ",
+    "pl": "zawał serca",
+    "de": "Herzinfarkt",
+    "fr": "crise cardiaque",
+    "es": "infarto",
+    "it": "infarto",
+    "pt": "ataque cardíaco",
+    "tr": "kalp krizi"
+   },
+   "ex": {
+    "en": "He had a heart attack at work."
+   }
+  },
+  {
+   "id": "emergency.fraud",
+   "t": {
+    "en": "fraud",
+    "uk": "шахрайство",
+    "ru": "мошенничество",
+    "pl": "oszustwo",
+    "de": "Betrug",
+    "fr": "fraude",
+    "es": "fraude",
+    "it": "frode",
+    "pt": "fraude",
+    "tr": "dolandırıcılık"
+   },
+   "ex": {
+    "en": "She was a victim of online fraud."
+   }
+  },
+  {
+   "id": "emergency.to-confirm",
+   "t": {
+    "en": "to confirm",
+    "uk": "підтверджувати",
+    "ru": "подтверждать",
+    "pl": "potwierdzać",
+    "de": "bestätigen",
+    "fr": "confirmer",
+    "es": "confirmar",
+    "it": "confermare",
+    "pt": "confirmar",
+    "tr": "onaylamak"
+   },
+   "ex": {
+    "en": "Please confirm your appointment by email."
+   }
+  },
+  {
+   "id": "emergency.tsunami",
+   "t": {
+    "en": "tsunami",
+    "uk": "цунамі",
+    "ru": "цунами",
+    "pl": "tsunami",
+    "de": "Tsunami",
+    "fr": "tsunami",
+    "es": "tsunami",
+    "it": "tsunami",
+    "pt": "tsunami",
+    "tr": "tsunami"
+   },
+   "ex": {
+    "en": "A tsunami warning was issued after the quake."
+   }
+  },
+  {
+   "id": "emergency.evacuation",
+   "t": {
+    "en": "evacuation",
+    "uk": "евакуація",
+    "ru": "эвакуация",
+    "pl": "ewakuacja",
+    "de": "Evakuierung",
+    "fr": "évacuation",
+    "es": "evacuación",
+    "it": "evacuazione",
+    "pt": "evacuação",
+    "tr": "tahliye"
+   },
+   "ex": {
+    "en": "The evacuation took two hours."
+   }
+  },
+  {
+   "id": "emergency.first-aid-kit",
+   "t": {
+    "en": "first aid kit",
+    "uk": "аптечка",
+    "ru": "аптечка",
+    "pl": "apteczka",
+    "de": "Verbandskasten",
+    "fr": "trousse de secours",
+    "es": "botiquín",
+    "it": "cassetta di pronto soccorso",
+    "pt": "kit de primeiros socorros",
+    "tr": "ilk yardım çantası"
+   },
+   "ex": {
+    "en": "Keep a first aid kit in your car."
+   }
+  },
+  {
+   "id": "emergency.to-rescue",
+   "t": {
+    "en": "to rescue",
+    "uk": "рятувати",
+    "ru": "спасать",
+    "pl": "ratować",
+    "de": "retten",
+    "fr": "secourir",
+    "es": "rescatar",
+    "it": "salvare",
+    "pt": "resgatar",
+    "tr": "kurtarmak"
+   },
+   "ex": {
+    "en": "Firefighters rescued the whole family."
+   }
+  },
+  {
+   "id": "emergency.burglar",
+   "t": {
+    "en": "burglar",
+    "uk": "квартирний злодій",
+    "ru": "взломщик",
+    "pl": "włamywacz",
+    "de": "Einbrecher",
+    "fr": "cambrioleur",
+    "es": "ladrón",
+    "it": "scassinatore",
+    "pt": "arrombador",
+    "tr": "hırsız"
+   },
+   "ex": {
+    "en": "The burglar got in through the window."
+   }
+  },
+  {
+   "id": "emergency.evidence",
+   "t": {
+    "en": "evidence",
+    "uk": "докази",
+    "ru": "доказательства",
+    "pl": "dowody",
+    "de": "Beweise",
+    "fr": "preuves",
+    "es": "pruebas",
+    "it": "prove",
+    "pt": "provas",
+    "tr": "kanıt"
+   },
+   "ex": {
+    "en": "The police found new evidence."
    }
   }
  ]

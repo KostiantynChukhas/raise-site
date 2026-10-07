@@ -2,7 +2,7 @@
  "id": "home-c1",
  "topic": "home",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "home.to-make-oneself-at-home",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Mind the creaky floorboard by the door."
+   }
+  },
+  {
+   "id": "home.cul-de-sac",
+   "t": {
+    "en": "cul-de-sac",
+    "uk": "тупик",
+    "ru": "тупик",
+    "pl": "ślepa uliczka",
+    "de": "Sackgasse",
+    "fr": "impasse",
+    "es": "callejón sin salida",
+    "it": "vicolo cieco",
+    "pt": "beco sem saída",
+    "tr": "çıkmaz sokak"
+   },
+   "ex": {
+    "en": "They live at the end of a cul-de-sac."
+   }
+  },
+  {
+   "id": "home.homely",
+   "t": {
+    "en": "homely",
+    "uk": "домашній",
+    "ru": "домашний",
+    "pl": "swojski",
+    "de": "heimelig",
+    "fr": "chaleureux",
+    "es": "hogareño",
+    "it": "familiare",
+    "pt": "acolhedor",
+    "tr": "samimi"
+   },
+   "ex": {
+    "en": "The guesthouse had a homely feel."
+   }
+  },
+  {
+   "id": "home.sparsely-furnished",
+   "t": {
+    "en": "sparsely furnished",
+    "uk": "скупо мебльований",
+    "ru": "скудно обставленный",
+    "pl": "skromnie umeblowany",
+    "de": "spärlich möbliert",
+    "fr": "peu meublé",
+    "es": "escasamente amueblado",
+    "it": "arredato in modo spartano",
+    "pt": "pouco mobiliado",
+    "tr": "az eşyalı"
+   },
+   "ex": {
+    "en": "The room was sparsely furnished."
+   }
+  },
+  {
+   "id": "home.to-house-sit",
+   "t": {
+    "en": "to house-sit",
+    "uk": "доглядати за чужим домом",
+    "ru": "присматривать за домом",
+    "pl": "pilnować domu",
+    "de": "das Haus hüten",
+    "fr": "garder la maison",
+    "es": "cuidar la casa",
+    "it": "badare alla casa",
+    "pt": "tomar conta da casa",
+    "tr": "eve göz kulak olmak"
+   },
+   "ex": {
+    "en": "I'm house-sitting for my aunt this week."
+   }
+  },
+  {
+   "id": "home.homebody",
+   "t": {
+    "en": "homebody",
+    "uk": "домосід",
+    "ru": "домосед",
+    "pl": "domator",
+    "de": "Stubenhocker",
+    "fr": "casanier",
+    "es": "persona casera",
+    "it": "pantofolaio",
+    "pt": "caseiro",
+    "tr": "evcimen"
+   },
+   "ex": {
+    "en": "He's a real homebody."
+   }
+  },
+  {
+   "id": "home.lodger",
+   "t": {
+    "en": "lodger",
+    "uk": "квартирант",
+    "ru": "жилец",
+    "pl": "sublokator",
+    "de": "Untermieter",
+    "fr": "pensionnaire",
+    "es": "huésped",
+    "it": "pensionante",
+    "pt": "inquilino",
+    "tr": "pansiyoner"
+   },
+   "ex": {
+    "en": "We take in a lodger to help with bills."
+   }
+  },
+  {
+   "id": "home.conservatory",
+   "t": {
+    "en": "conservatory",
+    "uk": "зимовий сад",
+    "ru": "зимний сад",
+    "pl": "ogród zimowy",
+    "de": "Wintergarten",
+    "fr": "véranda",
+    "es": "jardín de invierno",
+    "it": "giardino d'inverno",
+    "pt": "jardim de inverno",
+    "tr": "kış bahçesi"
+   },
+   "ex": {
+    "en": "They drink tea in the conservatory."
+   }
+  },
+  {
+   "id": "home.loft-conversion",
+   "t": {
+    "en": "loft conversion",
+    "uk": "переобладнання горища",
+    "ru": "переоборудование чердака",
+    "pl": "adaptacja poddasza",
+    "de": "Dachausbau",
+    "fr": "aménagement des combles",
+    "es": "reforma de buhardilla",
+    "it": "recupero del sottotetto",
+    "pt": "conversão do sótão",
+    "tr": "çatı katı dönüşümü"
+   },
+   "ex": {
+    "en": "A loft conversion added a bedroom."
+   }
+  },
+  {
+   "id": "home.bay-window",
+   "t": {
+    "en": "bay window",
+    "uk": "еркер",
+    "ru": "эркер",
+    "pl": "wykusz",
+    "de": "Erkerfenster",
+    "fr": "bow-window",
+    "es": "mirador",
+    "it": "bovindo",
+    "pt": "janela de sacada",
+    "tr": "cumba penceresi"
+   },
+   "ex": {
+    "en": "A sofa stood in the bay window."
+   }
+  },
+  {
+   "id": "home.subsidence",
+   "t": {
+    "en": "subsidence",
+    "uk": "просідання ґрунту",
+    "ru": "оседание грунта",
+    "pl": "osiadanie gruntu",
+    "de": "Bodensenkung",
+    "fr": "affaissement de terrain",
+    "es": "hundimiento del terreno",
+    "it": "cedimento del terreno",
+    "pt": "afundamento do solo",
+    "tr": "zemin çökmesi"
+   },
+   "ex": {
+    "en": "Subsidence caused cracks in the walls."
+   }
+  },
+  {
+   "id": "home.gentrification",
+   "t": {
+    "en": "gentrification",
+    "uk": "джентрифікація",
+    "ru": "джентрификация",
+    "pl": "gentryfikacja",
+    "de": "Gentrifizierung",
+    "fr": "gentrification",
+    "es": "gentrificación",
+    "it": "gentrificazione",
+    "pt": "gentrificação",
+    "tr": "soylulaştırma"
+   },
+   "ex": {
+    "en": "Gentrification has pushed rents up."
+   }
+  },
+  {
+   "id": "home.nook",
+   "t": {
+    "en": "nook",
+    "uk": "куточок",
+    "ru": "уголок",
+    "pl": "zakątek",
+    "de": "Ecke",
+    "fr": "recoin",
+    "es": "rincón",
+    "it": "angolino",
+    "pt": "cantinho",
+    "tr": "köşe"
+   },
+   "ex": {
+    "en": "She reads in a sunny nook."
+   }
+  },
+  {
+   "id": "home.knick-knacks",
+   "t": {
+    "en": "knick-knacks",
+    "uk": "дрібнички",
+    "ru": "безделушки",
+    "pl": "bibeloty",
+    "de": "Nippes",
+    "fr": "bibelots",
+    "es": "chucherías",
+    "it": "soprammobili",
+    "pt": "bugigangas",
+    "tr": "biblolar"
+   },
+   "ex": {
+    "en": "The shelves were full of knick-knacks."
+   }
+  },
+  {
+   "id": "home.upkeep",
+   "t": {
+    "en": "upkeep",
+    "uk": "утримання",
+    "ru": "содержание",
+    "pl": "utrzymanie",
+    "de": "Instandhaltung",
+    "fr": "entretien",
+    "es": "mantenimiento",
+    "it": "manutenzione",
+    "pt": "manutenção",
+    "tr": "bakım"
+   },
+   "ex": {
+    "en": "The upkeep of an old house is costly."
+   }
+  },
+  {
+   "id": "home.disrepair",
+   "t": {
+    "en": "disrepair",
+    "uk": "занедбаний стан",
+    "ru": "запущенное состояние",
+    "pl": "zły stan techniczny",
+    "de": "Verfall",
+    "fr": "délabrement",
+    "es": "mal estado",
+    "it": "degrado",
+    "pt": "mau estado",
+    "tr": "bakımsızlık"
+   },
+   "ex": {
+    "en": "The barn has fallen into disrepair."
+   }
+  },
+  {
+   "id": "home.to-settle-in",
+   "t": {
+    "en": "to settle in",
+    "uk": "облаштовуватися",
+    "ru": "обустраиваться",
+    "pl": "zadomowić się",
+    "de": "sich einleben",
+    "fr": "s'installer",
+    "es": "instalarse",
+    "it": "ambientarsi",
+    "pt": "instalar-se",
+    "tr": "alışmak"
+   },
+   "ex": {
+    "en": "It took us weeks to settle in."
+   }
+  },
+  {
+   "id": "home.abode",
+   "t": {
+    "en": "abode",
+    "uk": "оселя",
+    "ru": "обитель",
+    "pl": "domostwo",
+    "de": "Wohnstätte",
+    "fr": "demeure",
+    "es": "morada",
+    "it": "dimora",
+    "pt": "morada",
+    "tr": "mesken"
+   },
+   "ex": {
+    "en": "Welcome to my humble abode."
+   }
+  },
+  {
+   "id": "home.doer-upper",
+   "t": {
+    "en": "doer-upper",
+    "uk": "будинок під ремонт",
+    "ru": "дом под ремонт",
+    "pl": "dom do remontu",
+    "de": "Renovierungsobjekt",
+    "fr": "maison à rénover",
+    "es": "casa para reformar",
+    "it": "casa da ristrutturare",
+    "pt": "casa para reformar",
+    "tr": "tadilat gerektiren ev"
+   },
+   "ex": {
+    "en": "They bought a doer-upper in the country."
+   }
+  },
+  {
+   "id": "home.draughty",
+   "t": {
+    "en": "draughty",
+    "uk": "з протягами",
+    "ru": "продуваемый",
+    "pl": "pełen przeciągów",
+    "de": "zugig",
+    "fr": "plein de courants d'air",
+    "es": "con corrientes de aire",
+    "it": "pieno di spifferi",
+    "pt": "cheio de correntes de ar",
+    "tr": "cereyanlı"
+   },
+   "ex": {
+    "en": "The old cottage is cold and draughty."
+   }
+  },
+  {
+   "id": "home.threshold",
+   "t": {
+    "en": "threshold",
+    "uk": "поріг",
+    "ru": "порог",
+    "pl": "próg",
+    "de": "Schwelle",
+    "fr": "seuil",
+    "es": "umbral",
+    "it": "soglia",
+    "pt": "soleira",
+    "tr": "eşik"
+   },
+   "ex": {
+    "en": "He carried her over the threshold."
    }
   }
  ]

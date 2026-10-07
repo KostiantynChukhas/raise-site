@@ -2,7 +2,7 @@
  "id": "travel-c1",
  "topic": "travel",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "travel.wanderlust",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Never overstay a visa; the fines are steep."
+   }
+  },
+  {
+   "id": "travel.staycation",
+   "t": {
+    "en": "staycation",
+    "uk": "відпустка вдома",
+    "ru": "отпуск дома",
+    "pl": "urlop w domu",
+    "de": "Urlaub zu Hause",
+    "fr": "vacances à la maison",
+    "es": "vacaciones en casa",
+    "it": "vacanze a casa",
+    "pt": "férias em casa",
+    "tr": "evde tatil"
+   },
+   "ex": {
+    "en": "This year we're having a staycation."
+   }
+  },
+  {
+   "id": "travel.travelogue",
+   "t": {
+    "en": "travelogue",
+    "uk": "подорожні нотатки",
+    "ru": "путевые заметки",
+    "pl": "dziennik podróży",
+    "de": "Reisebericht",
+    "fr": "récit de voyage",
+    "es": "libro de viajes",
+    "it": "diario di viaggio",
+    "pt": "relato de viagem",
+    "tr": "seyahatname"
+   },
+   "ex": {
+    "en": "He published a travelogue about Asia."
+   }
+  },
+  {
+   "id": "travel.sojourn",
+   "t": {
+    "en": "sojourn",
+    "uk": "перебування",
+    "ru": "пребывание",
+    "pl": "pobyt",
+    "de": "Aufenthalt",
+    "fr": "séjour",
+    "es": "estancia",
+    "it": "soggiorno",
+    "pt": "estadia",
+    "tr": "kalış"
+   },
+   "ex": {
+    "en": "After a brief sojourn in Rome, we headed north."
+   }
+  },
+  {
+   "id": "travel.untouched",
+   "t": {
+    "en": "untouched",
+    "uk": "незайманий",
+    "ru": "нетронутый",
+    "pl": "dziewiczy",
+    "de": "unberührt",
+    "fr": "préservé",
+    "es": "virgen",
+    "it": "incontaminato",
+    "pt": "intocado",
+    "tr": "el değmemiş"
+   },
+   "ex": {
+    "en": "The island's beaches are untouched."
+   }
+  },
+  {
+   "id": "travel.idyllic",
+   "t": {
+    "en": "idyllic",
+    "uk": "ідилічний",
+    "ru": "идиллический",
+    "pl": "idylliczny",
+    "de": "idyllisch",
+    "fr": "idyllique",
+    "es": "idílico",
+    "it": "idilliaco",
+    "pt": "idílico",
+    "tr": "idilik"
+   },
+   "ex": {
+    "en": "We found an idyllic village by the lake."
+   }
+  },
+  {
+   "id": "travel.quaint",
+   "t": {
+    "en": "quaint",
+    "uk": "чарівний",
+    "ru": "очаровательный",
+    "pl": "uroczy",
+    "de": "urig",
+    "fr": "charmant",
+    "es": "pintoresco",
+    "it": "caratteristico",
+    "pt": "pitoresco",
+    "tr": "şirin"
+   },
+   "ex": {
+    "en": "It's a quaint little fishing village."
+   }
+  },
+  {
+   "id": "travel.far-flung",
+   "t": {
+    "en": "far-flung",
+    "uk": "віддалений",
+    "ru": "отдалённый",
+    "pl": "odległy",
+    "de": "entlegen",
+    "fr": "lointain",
+    "es": "remoto",
+    "it": "lontano",
+    "pt": "longínquo",
+    "tr": "uzak"
+   },
+   "ex": {
+    "en": "They travel to far-flung corners of the world."
+   }
+  },
+  {
+   "id": "travel.to-venture",
+   "t": {
+    "en": "to venture",
+    "uk": "наважуватися",
+    "ru": "отваживаться",
+    "pl": "zapuszczać się",
+    "de": "sich wagen",
+    "fr": "s'aventurer",
+    "es": "aventurarse",
+    "it": "avventurarsi",
+    "pt": "aventurar-se",
+    "tr": "maceraya atılmak"
+   },
+   "ex": {
+    "en": "We ventured deep into the jungle."
+   }
+  },
+  {
+   "id": "travel.in-transit",
+   "t": {
+    "en": "in transit",
+    "uk": "транзитом",
+    "ru": "транзитом",
+    "pl": "w tranzycie",
+    "de": "auf der Durchreise",
+    "fr": "en transit",
+    "es": "en tránsito",
+    "it": "in transito",
+    "pt": "em trânsito",
+    "tr": "aktarmada"
+   },
+   "ex": {
+    "en": "Passengers in transit must stay airside."
+   }
+  },
+  {
+   "id": "travel.expat",
+   "t": {
+    "en": "expat",
+    "uk": "експат",
+    "ru": "экспат",
+    "pl": "ekspat",
+    "de": "Expat",
+    "fr": "expatrié",
+    "es": "expatriado",
+    "it": "espatriato",
+    "pt": "expatriado",
+    "tr": "gurbetçi"
+   },
+   "ex": {
+    "en": "He has lived as an expat in Lisbon for years."
+   }
+  },
+  {
+   "id": "travel.inn",
+   "t": {
+    "en": "inn",
+    "uk": "заїжджий двір",
+    "ru": "постоялый двор",
+    "pl": "zajazd",
+    "de": "Gasthof",
+    "fr": "auberge",
+    "es": "posada",
+    "it": "locanda",
+    "pt": "estalagem",
+    "tr": "han"
+   },
+   "ex": {
+    "en": "We spent the night at a country inn."
+   }
+  },
+  {
+   "id": "travel.hinterland",
+   "t": {
+    "en": "hinterland",
+    "uk": "глибинка",
+    "ru": "глубинка",
+    "pl": "interior kraju",
+    "de": "Hinterland",
+    "fr": "arrière-pays",
+    "es": "interior",
+    "it": "entroterra",
+    "pt": "interior",
+    "tr": "iç bölge"
+   },
+   "ex": {
+    "en": "We explored the hinterland by car."
+   }
+  },
+  {
+   "id": "travel.overland",
+   "t": {
+    "en": "overland",
+    "uk": "суходолом",
+    "ru": "по суше",
+    "pl": "drogą lądową",
+    "de": "auf dem Landweg",
+    "fr": "par voie terrestre",
+    "es": "por tierra",
+    "it": "via terra",
+    "pt": "por terra",
+    "tr": "kara yoluyla"
+   },
+   "ex": {
+    "en": "They travelled overland to India."
+   }
+  },
+  {
+   "id": "travel.cosmopolitan",
+   "t": {
+    "en": "cosmopolitan",
+    "uk": "космополітичний",
+    "ru": "космополитичный",
+    "pl": "kosmopolityczny",
+    "de": "kosmopolitisch",
+    "fr": "cosmopolite",
+    "es": "cosmopolita",
+    "it": "cosmopolita",
+    "pt": "cosmopolita",
+    "tr": "kozmopolit"
+   },
+   "ex": {
+    "en": "London is a truly cosmopolitan city."
+   }
+  },
+  {
+   "id": "travel.awe-inspiring",
+   "t": {
+    "en": "awe-inspiring",
+    "uk": "вражаючий",
+    "ru": "впечатляющий",
+    "pl": "imponujący",
+    "de": "ehrfurchtgebietend",
+    "fr": "grandiose",
+    "es": "impresionante",
+    "it": "maestoso",
+    "pt": "impressionante",
+    "tr": "hayranlık uyandıran"
+   },
+   "ex": {
+    "en": "The view from the summit was awe-inspiring."
+   }
+  },
+  {
+   "id": "travel.to-stretch-one-s-legs",
+   "t": {
+    "en": "to stretch one's legs",
+    "uk": "розім'яти ноги",
+    "ru": "размять ноги",
+    "pl": "rozprostować nogi",
+    "de": "sich die Beine vertreten",
+    "fr": "se dégourdir les jambes",
+    "es": "estirar las piernas",
+    "it": "sgranchirsi le gambe",
+    "pt": "esticar as pernas",
+    "tr": "biraz dolaşmak"
+   },
+   "ex": {
+    "en": "Let's stop and stretch our legs."
+   }
+  },
+  {
+   "id": "travel.to-get-one-s-bearings",
+   "t": {
+    "en": "to get one's bearings",
+    "uk": "зорієнтуватися",
+    "ru": "сориентироваться",
+    "pl": "zorientować się",
+    "de": "sich orientieren",
+    "fr": "s'orienter",
+    "es": "orientarse",
+    "it": "orientarsi",
+    "pt": "se orientar",
+    "tr": "yönünü bulmak"
+   },
+   "ex": {
+    "en": "It took me a day to get my bearings."
+   }
+  },
+  {
+   "id": "travel.tourist-hotspot",
+   "t": {
+    "en": "tourist hotspot",
+    "uk": "туристична мекка",
+    "ru": "туристическая мекка",
+    "pl": "turystyczna mekka",
+    "de": "Touristenmagnet",
+    "fr": "haut lieu touristique",
+    "es": "punto turístico",
+    "it": "meta turistica",
+    "pt": "ponto turístico",
+    "tr": "popüler turistik yer"
+   },
+   "ex": {
+    "en": "The old harbour is a tourist hotspot."
+   }
+  },
+  {
+   "id": "travel.overtourism",
+   "t": {
+    "en": "overtourism",
+    "uk": "надмірний туризм",
+    "ru": "чрезмерный туризм",
+    "pl": "nadmierna turystyka",
+    "de": "Overtourism",
+    "fr": "surtourisme",
+    "es": "masificación turística",
+    "it": "overtourism",
+    "pt": "turismo excessivo",
+    "tr": "aşırı turizm"
+   },
+   "ex": {
+    "en": "Venice struggles with overtourism."
+   }
+  },
+  {
+   "id": "travel.panoramic-view",
+   "t": {
+    "en": "panoramic view",
+    "uk": "панорамний вид",
+    "ru": "панорамный вид",
+    "pl": "widok panoramiczny",
+    "de": "Panoramablick",
+    "fr": "vue panoramique",
+    "es": "vista panorámica",
+    "it": "vista panoramica",
+    "pt": "vista panorâmica",
+    "tr": "panoramik manzara"
+   },
+   "ex": {
+    "en": "The tower offers a panoramic view."
    }
   }
  ]

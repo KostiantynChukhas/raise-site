@@ -2,7 +2,7 @@
  "id": "it-b2",
  "topic": "it",
  "level": "b2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "it.scalability",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "We ship the feature tomorrow."
+   }
+  },
+  {
+   "id": "it.algorithm",
+   "t": {
+    "en": "algorithm",
+    "uk": "алгоритм",
+    "ru": "алгоритм",
+    "pl": "algorytm",
+    "de": "Algorithmus",
+    "fr": "algorithme",
+    "es": "algoritmo",
+    "it": "algoritmo",
+    "pt": "algoritmo",
+    "tr": "algoritma"
+   },
+   "ex": {
+    "en": "The algorithm recommends new songs."
+   }
+  },
+  {
+   "id": "it.machine-learning",
+   "t": {
+    "en": "machine learning",
+    "uk": "машинне навчання",
+    "ru": "машинное обучение",
+    "pl": "uczenie maszynowe",
+    "de": "maschinelles Lernen",
+    "fr": "apprentissage automatique",
+    "es": "aprendizaje automático",
+    "it": "apprendimento automatico",
+    "pt": "aprendizado de máquina",
+    "tr": "makine öğrenimi"
+   },
+   "ex": {
+    "en": "We use machine learning to detect fraud."
+   }
+  },
+  {
+   "id": "it.ai",
+   "t": {
+    "en": "AI",
+    "uk": "ШІ",
+    "ru": "ИИ",
+    "pl": "SI",
+    "de": "KI",
+    "fr": "IA",
+    "es": "IA",
+    "it": "IA",
+    "pt": "IA",
+    "tr": "YZ"
+   },
+   "ex": {
+    "en": "AI can now write simple code."
+   }
+  },
+  {
+   "id": "it.data-breach",
+   "t": {
+    "en": "data breach",
+    "uk": "витік даних",
+    "ru": "утечка данных",
+    "pl": "wyciek danych",
+    "de": "Datenleck",
+    "fr": "fuite de données",
+    "es": "filtración de datos",
+    "it": "violazione dei dati",
+    "pt": "vazamento de dados",
+    "tr": "veri ihlali"
+   },
+   "ex": {
+    "en": "The data breach exposed customer emails."
+   }
+  },
+  {
+   "id": "it.encryption",
+   "t": {
+    "en": "encryption",
+    "uk": "шифрування",
+    "ru": "шифрование",
+    "pl": "szyfrowanie",
+    "de": "Verschlüsselung",
+    "fr": "chiffrement",
+    "es": "cifrado",
+    "it": "crittografia",
+    "pt": "criptografia",
+    "tr": "şifreleme"
+   },
+   "ex": {
+    "en": "Strong encryption protects your messages."
+   }
+  },
+  {
+   "id": "it.authentication",
+   "t": {
+    "en": "authentication",
+    "uk": "автентифікація",
+    "ru": "аутентификация",
+    "pl": "uwierzytelnianie",
+    "de": "Authentifizierung",
+    "fr": "authentification",
+    "es": "autenticación",
+    "it": "autenticazione",
+    "pt": "autenticação",
+    "tr": "kimlik doğrulama"
+   },
+   "ex": {
+    "en": "The app uses two-factor authentication."
+   }
+  },
+  {
+   "id": "it.version-control",
+   "t": {
+    "en": "version control",
+    "uk": "контроль версій",
+    "ru": "контроль версий",
+    "pl": "kontrola wersji",
+    "de": "Versionskontrolle",
+    "fr": "contrôle de version",
+    "es": "control de versiones",
+    "it": "controllo di versione",
+    "pt": "controle de versão",
+    "tr": "sürüm kontrolü"
+   },
+   "ex": {
+    "en": "Git is a version control system."
+   }
+  },
+  {
+   "id": "it.to-debug",
+   "t": {
+    "en": "to debug",
+    "uk": "налагоджувати",
+    "ru": "отлаживать",
+    "pl": "debugować",
+    "de": "debuggen",
+    "fr": "déboguer",
+    "es": "depurar",
+    "it": "debuggare",
+    "pt": "depurar",
+    "tr": "hata ayıklamak"
+   },
+   "ex": {
+    "en": "It took hours to debug the script."
+   }
+  },
+  {
+   "id": "it.code-review",
+   "t": {
+    "en": "code review",
+    "uk": "рев'ю коду",
+    "ru": "ревью кода",
+    "pl": "przegląd kodu",
+    "de": "Code-Review",
+    "fr": "revue de code",
+    "es": "revisión de código",
+    "it": "revisione del codice",
+    "pt": "revisão de código",
+    "tr": "kod incelemesi"
+   },
+   "ex": {
+    "en": "Every change needs a code review."
+   }
+  },
+  {
+   "id": "it.user-experience",
+   "t": {
+    "en": "user experience",
+    "uk": "користувацький досвід",
+    "ru": "пользовательский опыт",
+    "pl": "doświadczenie użytkownika",
+    "de": "Nutzererlebnis",
+    "fr": "expérience utilisateur",
+    "es": "experiencia de usuario",
+    "it": "esperienza utente",
+    "pt": "experiência do usuário",
+    "tr": "kullanıcı deneyimi"
+   },
+   "ex": {
+    "en": "The redesign improved the user experience."
+   }
+  },
+  {
+   "id": "it.cloud-computing",
+   "t": {
+    "en": "cloud computing",
+    "uk": "хмарні обчислення",
+    "ru": "облачные вычисления",
+    "pl": "chmura obliczeniowa",
+    "de": "Cloud-Computing",
+    "fr": "informatique en nuage",
+    "es": "computación en la nube",
+    "it": "cloud computing",
+    "pt": "computação em nuvem",
+    "tr": "bulut bilişim"
+   },
+   "ex": {
+    "en": "Cloud computing cut our server costs."
+   }
+  },
+  {
+   "id": "it.to-back-up",
+   "t": {
+    "en": "to back up",
+    "uk": "створювати резервну копію",
+    "ru": "создавать резервную копию",
+    "pl": "tworzyć kopię zapasową",
+    "de": "sichern",
+    "fr": "sauvegarder",
+    "es": "hacer una copia de seguridad",
+    "it": "fare il backup",
+    "pt": "fazer backup",
+    "tr": "yedeklemek"
+   },
+   "ex": {
+    "en": "Back up your files every week."
+   }
+  },
+  {
+   "id": "it.cross-platform",
+   "t": {
+    "en": "cross-platform",
+    "uk": "кросплатформний",
+    "ru": "кроссплатформенный",
+    "pl": "wieloplatformowy",
+    "de": "plattformübergreifend",
+    "fr": "multiplateforme",
+    "es": "multiplataforma",
+    "it": "multipiattaforma",
+    "pt": "multiplataforma",
+    "tr": "platformlar arası"
+   },
+   "ex": {
+    "en": "We need a cross-platform app."
+   }
+  },
+  {
+   "id": "it.user-friendly",
+   "t": {
+    "en": "user-friendly",
+    "uk": "зручний у використанні",
+    "ru": "удобный в использовании",
+    "pl": "przyjazny dla użytkownika",
+    "de": "benutzerfreundlich",
+    "fr": "convivial",
+    "es": "fácil de usar",
+    "it": "facile da usare",
+    "pt": "fácil de usar",
+    "tr": "kullanıcı dostu"
+   },
+   "ex": {
+    "en": "The new interface is very user-friendly."
+   }
+  },
+  {
+   "id": "it.beta-version",
+   "t": {
+    "en": "beta version",
+    "uk": "бета-версія",
+    "ru": "бета-версия",
+    "pl": "wersja beta",
+    "de": "Betaversion",
+    "fr": "version bêta",
+    "es": "versión beta",
+    "it": "versione beta",
+    "pt": "versão beta",
+    "tr": "beta sürümü"
+   },
+   "ex": {
+    "en": "You can test the beta version now."
+   }
+  },
+  {
+   "id": "it.patch",
+   "t": {
+    "en": "patch",
+    "uk": "патч",
+    "ru": "патч",
+    "pl": "łatka",
+    "de": "Patch",
+    "fr": "correctif",
+    "es": "parche",
+    "it": "patch",
+    "pt": "correção",
+    "tr": "yama"
+   },
+   "ex": {
+    "en": "Install the security patch today."
+   }
+  },
+  {
+   "id": "it.bug-report",
+   "t": {
+    "en": "bug report",
+    "uk": "звіт про помилку",
+    "ru": "отчёт об ошибке",
+    "pl": "zgłoszenie błędu",
+    "de": "Fehlerbericht",
+    "fr": "rapport de bug",
+    "es": "informe de errores",
+    "it": "segnalazione di bug",
+    "pt": "relatório de bug",
+    "tr": "hata raporu"
+   },
+   "ex": {
+    "en": "Please attach logs to the bug report."
+   }
+  },
+  {
+   "id": "it.framework",
+   "t": {
+    "en": "framework",
+    "uk": "фреймворк",
+    "ru": "фреймворк",
+    "pl": "framework",
+    "de": "Framework",
+    "fr": "framework",
+    "es": "framework",
+    "it": "framework",
+    "pt": "framework",
+    "tr": "çatı"
+   },
+   "ex": {
+    "en": "We built the site with a new framework."
+   }
+  },
+  {
+   "id": "it.to-scale",
+   "t": {
+    "en": "to scale",
+    "uk": "масштабувати",
+    "ru": "масштабировать",
+    "pl": "skalować",
+    "de": "skalieren",
+    "fr": "mettre à l'échelle",
+    "es": "escalar",
+    "it": "scalare",
+    "pt": "escalar",
+    "tr": "ölçeklendirmek"
+   },
+   "ex": {
+    "en": "The system must scale to a million users."
+   }
+  },
+  {
+   "id": "it.use-case",
+   "t": {
+    "en": "use case",
+    "uk": "сценарій використання",
+    "ru": "сценарий использования",
+    "pl": "przypadek użycia",
+    "de": "Anwendungsfall",
+    "fr": "cas d'usage",
+    "es": "caso de uso",
+    "it": "caso d'uso",
+    "pt": "caso de uso",
+    "tr": "kullanım senaryosu"
+   },
+   "ex": {
+    "en": "Let's write down the main use cases."
+   }
+  },
+  {
+   "id": "it.tech-stack",
+   "t": {
+    "en": "tech stack",
+    "uk": "технологічний стек",
+    "ru": "технологический стек",
+    "pl": "stos technologiczny",
+    "de": "Tech-Stack",
+    "fr": "stack technique",
+    "es": "stack tecnológico",
+    "it": "stack tecnologico",
+    "pt": "stack tecnológico",
+    "tr": "teknoloji yığını"
+   },
+   "ex": {
+    "en": "What is your company's tech stack?"
    }
   }
  ]

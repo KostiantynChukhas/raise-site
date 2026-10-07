@@ -2,7 +2,7 @@
  "id": "family-b1",
  "topic": "family",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "family.relatives",
@@ -470,6 +470,438 @@
    },
    "ex": {
     "en": "We still keep in touch by email."
+   }
+  },
+  {
+   "id": "family.sister-in-law",
+   "t": {
+    "en": "sister-in-law",
+    "uk": "зовиця",
+    "ru": "золовка",
+    "pl": "szwagierka",
+    "de": "Schwägerin",
+    "fr": "belle-sœur",
+    "es": "cuñada",
+    "it": "cognata",
+    "pt": "cunhada",
+    "tr": "görümce"
+   },
+   "ex": {
+    "en": "My sister-in-law is a doctor."
+   }
+  },
+  {
+   "id": "family.brother-in-law",
+   "t": {
+    "en": "brother-in-law",
+    "uk": "шурин",
+    "ru": "шурин",
+    "pl": "szwagier",
+    "de": "Schwager",
+    "fr": "beau-frère",
+    "es": "cuñado",
+    "it": "cognato",
+    "pt": "cunhado",
+    "tr": "kayınbirader"
+   },
+   "ex": {
+    "en": "My brother-in-law helped us move."
+   }
+  },
+  {
+   "id": "family.son-in-law",
+   "t": {
+    "en": "son-in-law",
+    "uk": "зять",
+    "ru": "зять",
+    "pl": "zięć",
+    "de": "Schwiegersohn",
+    "fr": "gendre",
+    "es": "yerno",
+    "it": "genero",
+    "pt": "genro",
+    "tr": "damat"
+   },
+   "ex": {
+    "en": "Their son-in-law is from Spain."
+   }
+  },
+  {
+   "id": "family.daughter-in-law",
+   "t": {
+    "en": "daughter-in-law",
+    "uk": "невістка",
+    "ru": "невестка",
+    "pl": "synowa",
+    "de": "Schwiegertochter",
+    "fr": "belle-fille",
+    "es": "nuera",
+    "it": "nuora",
+    "pt": "nora",
+    "tr": "gelin"
+   },
+   "ex": {
+    "en": "She gets on well with her daughter-in-law."
+   }
+  },
+  {
+   "id": "family.stepson",
+   "t": {
+    "en": "stepson",
+    "uk": "пасинок",
+    "ru": "пасынок",
+    "pl": "pasierb",
+    "de": "Stiefsohn",
+    "fr": "beau-fils",
+    "es": "hijastro",
+    "it": "figliastro",
+    "pt": "enteado",
+    "tr": "üvey oğul"
+   },
+   "ex": {
+    "en": "He adopted his stepson."
+   }
+  },
+  {
+   "id": "family.stepdaughter",
+   "t": {
+    "en": "stepdaughter",
+    "uk": "падчерка",
+    "ru": "падчерица",
+    "pl": "pasierbica",
+    "de": "Stieftochter",
+    "fr": "belle-fille",
+    "es": "hijastra",
+    "it": "figliastra",
+    "pt": "enteada",
+    "tr": "üvey kız"
+   },
+   "ex": {
+    "en": "Her stepdaughter is at university."
+   }
+  },
+  {
+   "id": "family.great-grandmother",
+   "t": {
+    "en": "great-grandmother",
+    "uk": "прабабуся",
+    "ru": "прабабушка",
+    "pl": "prababcia",
+    "de": "Urgroßmutter",
+    "fr": "arrière-grand-mère",
+    "es": "bisabuela",
+    "it": "bisnonna",
+    "pt": "bisavó",
+    "tr": "büyük büyükanne"
+   },
+   "ex": {
+    "en": "My great-grandmother is ninety-five."
+   }
+  },
+  {
+   "id": "family.great-grandfather",
+   "t": {
+    "en": "great-grandfather",
+    "uk": "прадід",
+    "ru": "прадедушка",
+    "pl": "pradziadek",
+    "de": "Urgroßvater",
+    "fr": "arrière-grand-père",
+    "es": "bisabuelo",
+    "it": "bisnonno",
+    "pt": "bisavô",
+    "tr": "büyük büyükbaba"
+   },
+   "ex": {
+    "en": "My great-grandfather was a farmer."
+   }
+  },
+  {
+   "id": "family.marriage",
+   "t": {
+    "en": "marriage",
+    "uk": "шлюб",
+    "ru": "брак",
+    "pl": "małżeństwo",
+    "de": "Ehe",
+    "fr": "mariage",
+    "es": "matrimonio",
+    "it": "matrimonio",
+    "pt": "casamento",
+    "tr": "evlilik"
+   },
+   "ex": {
+    "en": "They have a happy marriage."
+   }
+  },
+  {
+   "id": "family.elderly",
+   "t": {
+    "en": "elderly",
+    "uk": "літній",
+    "ru": "пожилой",
+    "pl": "starszy",
+    "de": "betagt",
+    "fr": "âgé",
+    "es": "anciano",
+    "it": "anziano",
+    "pt": "idoso",
+    "tr": "yaşlı"
+   },
+   "ex": {
+    "en": "She looks after her elderly father."
+   }
+  },
+  {
+   "id": "family.toddler",
+   "t": {
+    "en": "toddler",
+    "uk": "малюк",
+    "ru": "малыш",
+    "pl": "maluch",
+    "de": "Kleinkind",
+    "fr": "bambin",
+    "es": "niño pequeño",
+    "it": "bambino piccolo",
+    "pt": "criança pequena",
+    "tr": "küçük çocuk"
+   },
+   "ex": {
+    "en": "Toddlers need a lot of attention."
+   }
+  },
+  {
+   "id": "family.nanny",
+   "t": {
+    "en": "nanny",
+    "uk": "няня",
+    "ru": "няня",
+    "pl": "niania",
+    "de": "Kindermädchen",
+    "fr": "nounou",
+    "es": "niñera",
+    "it": "tata",
+    "pt": "babá",
+    "tr": "dadı"
+   },
+   "ex": {
+    "en": "The nanny picks up the kids at three."
+   }
+  },
+  {
+   "id": "family.to-resemble",
+   "t": {
+    "en": "to resemble",
+    "uk": "бути схожим",
+    "ru": "быть похожим",
+    "pl": "przypominać",
+    "de": "ähneln",
+    "fr": "ressembler",
+    "es": "parecerse",
+    "it": "somigliare",
+    "pt": "parecer-se",
+    "tr": "benzemek"
+   },
+   "ex": {
+    "en": "She resembles her grandmother."
+   }
+  },
+  {
+   "id": "family.ambitious",
+   "t": {
+    "en": "ambitious",
+    "uk": "амбітний",
+    "ru": "амбициозный",
+    "pl": "ambitny",
+    "de": "ehrgeizig",
+    "fr": "ambitieux",
+    "es": "ambicioso",
+    "it": "ambizioso",
+    "pt": "ambicioso",
+    "tr": "hırslı"
+   },
+   "ex": {
+    "en": "My cousin is very ambitious."
+   }
+  },
+  {
+   "id": "family.selfish",
+   "t": {
+    "en": "selfish",
+    "uk": "егоїстичний",
+    "ru": "эгоистичный",
+    "pl": "samolubny",
+    "de": "egoistisch",
+    "fr": "égoïste",
+    "es": "egoísta",
+    "it": "egoista",
+    "pt": "egoísta",
+    "tr": "bencil"
+   },
+   "ex": {
+    "en": "Don't be so selfish!"
+   }
+  },
+  {
+   "id": "family.great-aunt",
+   "t": {
+    "en": "great-aunt",
+    "uk": "двоюрідна бабуся",
+    "ru": "двоюродная бабушка",
+    "pl": "cioteczna babcia",
+    "de": "Großtante",
+    "fr": "grand-tante",
+    "es": "tía abuela",
+    "it": "prozia",
+    "pt": "tia-avó",
+    "tr": "büyük teyze"
+   },
+   "ex": {
+    "en": "My great-aunt still rides a bike."
+   }
+  },
+  {
+   "id": "family.caring",
+   "t": {
+    "en": "caring",
+    "uk": "турботливий",
+    "ru": "заботливый",
+    "pl": "troskliwy",
+    "de": "fürsorglich",
+    "fr": "attentionné",
+    "es": "atento",
+    "it": "premuroso",
+    "pt": "atencioso",
+    "tr": "şefkatli"
+   },
+   "ex": {
+    "en": "He is a caring father."
+   }
+  },
+  {
+   "id": "family.spoiled",
+   "t": {
+    "en": "spoiled",
+    "uk": "розпещений",
+    "ru": "избалованный",
+    "pl": "rozpieszczony",
+    "de": "verwöhnt",
+    "fr": "gâté",
+    "es": "mimado",
+    "it": "viziato",
+    "pt": "mimado",
+    "tr": "şımarık"
+   },
+   "ex": {
+    "en": "The spoiled child wanted more toys."
+   }
+  },
+  {
+   "id": "family.to-scold",
+   "t": {
+    "en": "to scold",
+    "uk": "сварити",
+    "ru": "ругать",
+    "pl": "besztać",
+    "de": "schimpfen",
+    "fr": "gronder",
+    "es": "regañar",
+    "it": "sgridare",
+    "pt": "repreender",
+    "tr": "azarlamak"
+   },
+   "ex": {
+    "en": "Mum scolded me for being late."
+   }
+  },
+  {
+   "id": "family.to-obey",
+   "t": {
+    "en": "to obey",
+    "uk": "слухатися",
+    "ru": "слушаться",
+    "pl": "słuchać się",
+    "de": "gehorchen",
+    "fr": "obéir",
+    "es": "obedecer",
+    "it": "obbedire",
+    "pt": "obedecer",
+    "tr": "itaat etmek"
+   },
+   "ex": {
+    "en": "Children should obey their parents."
+   }
+  },
+  {
+   "id": "family.pale",
+   "t": {
+    "en": "pale",
+    "uk": "блідий",
+    "ru": "бледный",
+    "pl": "blady",
+    "de": "blass",
+    "fr": "pâle",
+    "es": "pálido",
+    "it": "pallido",
+    "pt": "pálido",
+    "tr": "solgun"
+   },
+   "ex": {
+    "en": "She has pale skin and dark hair."
+   }
+  },
+  {
+   "id": "family.well-built",
+   "t": {
+    "en": "well-built",
+    "uk": "кремезний",
+    "ru": "крепкого телосложения",
+    "pl": "dobrze zbudowany",
+    "de": "kräftig gebaut",
+    "fr": "bien bâti",
+    "es": "fornido",
+    "it": "ben piantato",
+    "pt": "robusto",
+    "tr": "iri yapılı"
+   },
+   "ex": {
+    "en": "Her brother is tall and well-built."
+   }
+  },
+  {
+   "id": "family.household-chores",
+   "t": {
+    "en": "household chores",
+    "uk": "хатні справи",
+    "ru": "домашние дела",
+    "pl": "obowiązki domowe",
+    "de": "Hausarbeit",
+    "fr": "tâches ménagères",
+    "es": "tareas domésticas",
+    "it": "faccende domestiche",
+    "pt": "tarefas domésticas",
+    "tr": "ev işleri"
+   },
+   "ex": {
+    "en": "We share the household chores."
+   }
+  },
+  {
+   "id": "family.retired",
+   "t": {
+    "en": "retired",
+    "uk": "на пенсії",
+    "ru": "на пенсии",
+    "pl": "na emeryturze",
+    "de": "im Ruhestand",
+    "fr": "à la retraite",
+    "es": "jubilado",
+    "it": "in pensione",
+    "pt": "aposentado",
+    "tr": "emekli"
+   },
+   "ex": {
+    "en": "My parents are both retired."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "food-a2",
  "topic": "food",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "food.soup",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "I need a quick snack."
+   }
+  },
+  {
+   "id": "food.mushroom",
+   "t": {
+    "en": "mushroom",
+    "uk": "гриб",
+    "ru": "гриб",
+    "pl": "grzyb",
+    "de": "Pilz",
+    "fr": "champignon",
+    "es": "champiñón",
+    "it": "fungo",
+    "pt": "cogumelo",
+    "tr": "mantar"
+   },
+   "ex": {
+    "en": "I'd like a pizza with mushrooms."
+   }
+  },
+  {
+   "id": "food.garlic",
+   "t": {
+    "en": "garlic",
+    "uk": "часник",
+    "ru": "чеснок",
+    "pl": "czosnek",
+    "de": "Knoblauch",
+    "fr": "ail",
+    "es": "ajo",
+    "it": "aglio",
+    "pt": "alho",
+    "tr": "sarımsak"
+   },
+   "ex": {
+    "en": "This sauce has a lot of garlic."
+   }
+  },
+  {
+   "id": "food.flour",
+   "t": {
+    "en": "flour",
+    "uk": "борошно",
+    "ru": "мука",
+    "pl": "mąka",
+    "de": "Mehl",
+    "fr": "farine",
+    "es": "harina",
+    "it": "farina",
+    "pt": "farinha",
+    "tr": "un"
+   },
+   "ex": {
+    "en": "You need flour to make bread."
+   }
+  },
+  {
+   "id": "food.beans",
+   "t": {
+    "en": "beans",
+    "uk": "квасоля",
+    "ru": "фасоль",
+    "pl": "fasola",
+    "de": "Bohnen",
+    "fr": "haricots",
+    "es": "alubias",
+    "it": "fagioli",
+    "pt": "feijão",
+    "tr": "fasulye"
+   },
+   "ex": {
+    "en": "We had rice and beans for dinner."
+   }
+  },
+  {
+   "id": "food.nuts",
+   "t": {
+    "en": "nuts",
+    "uk": "горіхи",
+    "ru": "орехи",
+    "pl": "orzechy",
+    "de": "Nüsse",
+    "fr": "noix",
+    "es": "frutos secos",
+    "it": "frutta secca",
+    "pt": "nozes",
+    "tr": "kuruyemiş"
+   },
+   "ex": {
+    "en": "He is allergic to nuts."
+   }
+  },
+  {
+   "id": "food.lamb",
+   "t": {
+    "en": "lamb",
+    "uk": "баранина",
+    "ru": "баранина",
+    "pl": "jagnięcina",
+    "de": "Lammfleisch",
+    "fr": "agneau",
+    "es": "cordero",
+    "it": "agnello",
+    "pt": "cordeiro",
+    "tr": "kuzu eti"
+   },
+   "ex": {
+    "en": "We cooked lamb for Easter."
+   }
+  },
+  {
+   "id": "food.seafood",
+   "t": {
+    "en": "seafood",
+    "uk": "морепродукти",
+    "ru": "морепродукты",
+    "pl": "owoce morza",
+    "de": "Meeresfrüchte",
+    "fr": "fruits de mer",
+    "es": "marisco",
+    "it": "frutti di mare",
+    "pt": "frutos do mar",
+    "tr": "deniz ürünleri"
+   },
+   "ex": {
+    "en": "This restaurant is famous for its seafood."
+   }
+  },
+  {
+   "id": "food.steak",
+   "t": {
+    "en": "steak",
+    "uk": "стейк",
+    "ru": "стейк",
+    "pl": "stek",
+    "de": "Steak",
+    "fr": "steak",
+    "es": "bistec",
+    "it": "bistecca",
+    "pt": "bife",
+    "tr": "biftek"
+   },
+   "ex": {
+    "en": "I'll have the steak, please."
+   }
+  },
+  {
+   "id": "food.salmon",
+   "t": {
+    "en": "salmon",
+    "uk": "лосось",
+    "ru": "лосось",
+    "pl": "łosoś",
+    "de": "Lachs",
+    "fr": "saumon",
+    "es": "salmón",
+    "it": "salmone",
+    "pt": "salmão",
+    "tr": "somon"
+   },
+   "ex": {
+    "en": "Salmon is good for your health."
+   }
+  },
+  {
+   "id": "food.sour",
+   "t": {
+    "en": "sour",
+    "uk": "кислий",
+    "ru": "кислый",
+    "pl": "kwaśny",
+    "de": "sauer",
+    "fr": "acide",
+    "es": "agrio",
+    "it": "aspro",
+    "pt": "azedo",
+    "tr": "ekşi"
+   },
+   "ex": {
+    "en": "This lemon is very sour."
+   }
+  },
+  {
+   "id": "food.salty",
+   "t": {
+    "en": "salty",
+    "uk": "солоний",
+    "ru": "солёный",
+    "pl": "słony",
+    "de": "salzig",
+    "fr": "salé",
+    "es": "salado",
+    "it": "salato",
+    "pt": "salgado",
+    "tr": "tuzlu"
+   },
+   "ex": {
+    "en": "The soup is too salty."
+   }
+  },
+  {
+   "id": "food.to-peel",
+   "t": {
+    "en": "to peel",
+    "uk": "чистити",
+    "ru": "чистить",
+    "pl": "obierać",
+    "de": "schälen",
+    "fr": "éplucher",
+    "es": "pelar",
+    "it": "sbucciare",
+    "pt": "descascar",
+    "tr": "soymak"
+   },
+   "ex": {
+    "en": "Peel the potatoes first."
+   }
+  },
+  {
+   "id": "food.to-mix",
+   "t": {
+    "en": "to mix",
+    "uk": "змішувати",
+    "ru": "смешивать",
+    "pl": "mieszać",
+    "de": "mischen",
+    "fr": "mélanger",
+    "es": "mezclar",
+    "it": "mescolare",
+    "pt": "misturar",
+    "tr": "karıştırmak"
+   },
+   "ex": {
+    "en": "Mix the eggs and the sugar."
+   }
+  },
+  {
+   "id": "food.bowl",
+   "t": {
+    "en": "bowl",
+    "uk": "миска",
+    "ru": "миска",
+    "pl": "miska",
+    "de": "Schüssel",
+    "fr": "bol",
+    "es": "cuenco",
+    "it": "ciotola",
+    "pt": "tigela",
+    "tr": "kase"
+   },
+   "ex": {
+    "en": "Put the salad in a big bowl."
+   }
+  },
+  {
+   "id": "food.napkin",
+   "t": {
+    "en": "napkin",
+    "uk": "серветка",
+    "ru": "салфетка",
+    "pl": "serwetka",
+    "de": "Serviette",
+    "fr": "serviette",
+    "es": "servilleta",
+    "it": "tovagliolo",
+    "pt": "guardanapo",
+    "tr": "peçete"
+   },
+   "ex": {
+    "en": "Could we have some napkins, please?"
+   }
+  },
+  {
+   "id": "food.lemonade",
+   "t": {
+    "en": "lemonade",
+    "uk": "лимонад",
+    "ru": "лимонад",
+    "pl": "lemoniada",
+    "de": "Limonade",
+    "fr": "limonade",
+    "es": "limonada",
+    "it": "limonata",
+    "pt": "limonada",
+    "tr": "limonata"
+   },
+   "ex": {
+    "en": "Homemade lemonade is perfect in summer."
+   }
+  },
+  {
+   "id": "food.pancakes",
+   "t": {
+    "en": "pancakes",
+    "uk": "млинці",
+    "ru": "блины",
+    "pl": "naleśniki",
+    "de": "Pfannkuchen",
+    "fr": "crêpes",
+    "es": "tortitas",
+    "it": "frittelle",
+    "pt": "panquecas",
+    "tr": "pankek"
+   },
+   "ex": {
+    "en": "We make pancakes on Sunday mornings."
+   }
+  },
+  {
+   "id": "food.omelette",
+   "t": {
+    "en": "omelette",
+    "uk": "омлет",
+    "ru": "омлет",
+    "pl": "omlet",
+    "de": "Omelett",
+    "fr": "omelette",
+    "es": "tortilla francesa",
+    "it": "frittata",
+    "pt": "omelete",
+    "tr": "omlet"
+   },
+   "ex": {
+    "en": "I made a cheese omelette."
+   }
+  },
+  {
+   "id": "food.bottle",
+   "t": {
+    "en": "bottle",
+    "uk": "пляшка",
+    "ru": "бутылка",
+    "pl": "butelka",
+    "de": "Flasche",
+    "fr": "bouteille",
+    "es": "botella",
+    "it": "bottiglia",
+    "pt": "garrafa",
+    "tr": "şişe"
+   },
+   "ex": {
+    "en": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "food.jar",
+   "t": {
+    "en": "jar",
+    "uk": "банка",
+    "ru": "банка",
+    "pl": "słoik",
+    "de": "Schraubglas",
+    "fr": "bocal",
+    "es": "tarro",
+    "it": "barattolo",
+    "pt": "pote",
+    "tr": "kavanoz"
+   },
+   "ex": {
+    "en": "Can you open this jar of honey?"
+   }
+  },
+  {
+   "id": "food.vegan",
+   "t": {
+    "en": "vegan",
+    "uk": "веганський",
+    "ru": "веганский",
+    "pl": "wegański",
+    "de": "vegan",
+    "fr": "végan",
+    "es": "vegano",
+    "it": "vegano",
+    "pt": "vegano",
+    "tr": "vegan"
+   },
+   "ex": {
+    "en": "Do you have any vegan dishes?"
    }
   }
  ]

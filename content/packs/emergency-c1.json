@@ -2,7 +2,7 @@
  "id": "emergency-c1",
  "topic": "emergency",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emergency.naturalisation",
@@ -470,6 +470,438 @@
    },
    "ex": {
     "en": "Paramedics carried out triage at the scene."
+   }
+  },
+  {
+   "id": "emergency.smoke-inhalation",
+   "t": {
+    "en": "smoke inhalation",
+    "uk": "отруєння димом",
+    "ru": "отравление дымом",
+    "pl": "zatrucie dymem",
+    "de": "Rauchvergiftung",
+    "fr": "intoxication par la fumée",
+    "es": "inhalación de humo",
+    "it": "intossicazione da fumo",
+    "pt": "inalação de fumaça",
+    "tr": "dumandan zehirlenme"
+   },
+   "ex": {
+    "en": "Two people were treated for smoke inhalation."
+   }
+  },
+  {
+   "id": "emergency.bystander",
+   "t": {
+    "en": "bystander",
+    "uk": "випадковий перехожий",
+    "ru": "случайный прохожий",
+    "pl": "przypadkowy świadek",
+    "de": "Passant",
+    "fr": "passant",
+    "es": "transeúnte",
+    "it": "passante",
+    "pt": "transeunte",
+    "tr": "yoldan geçen"
+   },
+   "ex": {
+    "en": "A bystander called the emergency services."
+   }
+  },
+  {
+   "id": "emergency.contingency-plan",
+   "t": {
+    "en": "contingency plan",
+    "uk": "запасний план",
+    "ru": "запасной план",
+    "pl": "plan awaryjny",
+    "de": "Notfallplan",
+    "fr": "plan d'urgence",
+    "es": "plan de contingencia",
+    "it": "piano di emergenza",
+    "pt": "plano de contingência",
+    "tr": "acil durum planı"
+   },
+   "ex": {
+    "en": "Every company needs a contingency plan."
+   }
+  },
+  {
+   "id": "emergency.aftermath",
+   "t": {
+    "en": "aftermath",
+    "uk": "наслідки",
+    "ru": "последствия",
+    "pl": "następstwa",
+    "de": "Nachwirkungen",
+    "fr": "conséquences",
+    "es": "secuelas",
+    "it": "conseguenze",
+    "pt": "consequências",
+    "tr": "akıbet"
+   },
+   "ex": {
+    "en": "In the aftermath of the quake, many were homeless."
+   }
+  },
+  {
+   "id": "emergency.search-party",
+   "t": {
+    "en": "search party",
+    "uk": "пошукова група",
+    "ru": "поисковая группа",
+    "pl": "ekipa poszukiwawcza",
+    "de": "Suchtrupp",
+    "fr": "équipe de recherche",
+    "es": "equipo de búsqueda",
+    "it": "squadra di ricerca",
+    "pt": "equipe de busca",
+    "tr": "arama ekibi"
+   },
+   "ex": {
+    "en": "A search party set off at dawn."
+   }
+  },
+  {
+   "id": "emergency.displaced-person",
+   "t": {
+    "en": "displaced person",
+    "uk": "переміщена особа",
+    "ru": "перемещённое лицо",
+    "pl": "osoba przesiedlona",
+    "de": "Vertriebener",
+    "fr": "personne déplacée",
+    "es": "desplazado",
+    "it": "sfollato",
+    "pt": "deslocado",
+    "tr": "yerinden edilmiş kişi"
+   },
+   "ex": {
+    "en": "Thousands of displaced people need shelter."
+   }
+  },
+  {
+   "id": "emergency.manslaughter",
+   "t": {
+    "en": "manslaughter",
+    "uk": "ненавмисне вбивство",
+    "ru": "непредумышленное убийство",
+    "pl": "zabójstwo nieumyślne",
+    "de": "fahrlässige Tötung",
+    "fr": "homicide involontaire",
+    "es": "homicidio involuntario",
+    "it": "omicidio colposo",
+    "pt": "homicídio culposo",
+    "tr": "taksirle öldürme"
+   },
+   "ex": {
+    "en": "The driver was charged with manslaughter."
+   }
+  },
+  {
+   "id": "emergency.to-plead-guilty",
+   "t": {
+    "en": "to plead guilty",
+    "uk": "визнати провину",
+    "ru": "признать вину",
+    "pl": "przyznać się do winy",
+    "de": "sich schuldig bekennen",
+    "fr": "plaider coupable",
+    "es": "declararse culpable",
+    "it": "dichiararsi colpevole",
+    "pt": "declarar-se culpado",
+    "tr": "suçunu kabul etmek"
+   },
+   "ex": {
+    "en": "He decided to plead guilty."
+   }
+  },
+  {
+   "id": "emergency.to-incriminate",
+   "t": {
+    "en": "to incriminate",
+    "uk": "викривати",
+    "ru": "изобличать",
+    "pl": "obciążać",
+    "de": "belasten",
+    "fr": "incriminer",
+    "es": "incriminar",
+    "it": "incriminare",
+    "pt": "incriminar",
+    "tr": "suçlu göstermek"
+   },
+   "ex": {
+    "en": "The evidence could incriminate her."
+   }
+  },
+  {
+   "id": "emergency.probation",
+   "t": {
+    "en": "probation",
+    "uk": "умовний термін",
+    "ru": "условный срок",
+    "pl": "wyrok w zawieszeniu",
+    "de": "Bewährung",
+    "fr": "sursis probatoire",
+    "es": "libertad condicional",
+    "it": "libertà vigilata",
+    "pt": "liberdade condicional",
+    "tr": "denetimli serbestlik"
+   },
+   "ex": {
+    "en": "He was sentenced to two years' probation."
+   }
+  },
+  {
+   "id": "emergency.statute-of-limitations",
+   "t": {
+    "en": "statute of limitations",
+    "uk": "строк давності",
+    "ru": "срок давности",
+    "pl": "przedawnienie",
+    "de": "Verjährung",
+    "fr": "prescription",
+    "es": "prescripción",
+    "it": "prescrizione",
+    "pt": "prescrição",
+    "tr": "zamanaşımı"
+   },
+   "ex": {
+    "en": "The statute of limitations has expired."
+   }
+  },
+  {
+   "id": "emergency.legal-guardian",
+   "t": {
+    "en": "legal guardian",
+    "uk": "законний опікун",
+    "ru": "законный опекун",
+    "pl": "opiekun prawny",
+    "de": "Vormund",
+    "fr": "tuteur légal",
+    "es": "tutor legal",
+    "it": "tutore legale",
+    "pt": "tutor legal",
+    "tr": "yasal vasi"
+   },
+   "ex": {
+    "en": "A legal guardian must sign the form."
+   }
+  },
+  {
+   "id": "emergency.precautionary",
+   "t": {
+    "en": "precautionary",
+    "uk": "запобіжний",
+    "ru": "предупредительный",
+    "pl": "zapobiegawczy",
+    "de": "vorsorglich",
+    "fr": "préventif",
+    "es": "preventivo",
+    "it": "precauzionale",
+    "pt": "preventivo",
+    "tr": "ihtiyati"
+   },
+   "ex": {
+    "en": "The school closed as a precautionary measure."
+   }
+  },
+  {
+   "id": "emergency.fatality",
+   "t": {
+    "en": "fatality",
+    "uk": "загиблий",
+    "ru": "погибший",
+    "pl": "ofiara śmiertelna",
+    "de": "Todesopfer",
+    "fr": "victime mortelle",
+    "es": "víctima mortal",
+    "it": "vittima",
+    "pt": "vítima fatal",
+    "tr": "ölü"
+   },
+   "ex": {
+    "en": "There were no fatalities in the crash."
+   }
+  },
+  {
+   "id": "emergency.collateral-damage",
+   "t": {
+    "en": "collateral damage",
+    "uk": "супутні втрати",
+    "ru": "сопутствующий ущерб",
+    "pl": "straty uboczne",
+    "de": "Kollateralschaden",
+    "fr": "dommages collatéraux",
+    "es": "daños colaterales",
+    "it": "danni collaterali",
+    "pt": "danos colaterais",
+    "tr": "yan hasar"
+   },
+   "ex": {
+    "en": "Civilians often suffer collateral damage."
+   }
+  },
+  {
+   "id": "emergency.to-disperse",
+   "t": {
+    "en": "to disperse",
+    "uk": "розганяти",
+    "ru": "разгонять",
+    "pl": "rozpędzać",
+    "de": "zerstreuen",
+    "fr": "disperser",
+    "es": "dispersar",
+    "it": "disperdere",
+    "pt": "dispersar",
+    "tr": "dağıtmak"
+   },
+   "ex": {
+    "en": "Police used water to disperse the crowd."
+   }
+  },
+  {
+   "id": "emergency.civil-unrest",
+   "t": {
+    "en": "civil unrest",
+    "uk": "громадські заворушення",
+    "ru": "гражданские беспорядки",
+    "pl": "niepokoje społeczne",
+    "de": "Unruhen",
+    "fr": "troubles civils",
+    "es": "disturbios civiles",
+    "it": "disordini civili",
+    "pt": "distúrbios civis",
+    "tr": "toplumsal kargaşa"
+   },
+   "ex": {
+    "en": "The country faces weeks of civil unrest."
+   }
+  },
+  {
+   "id": "emergency.critical-condition",
+   "t": {
+    "en": "critical condition",
+    "uk": "критичний стан",
+    "ru": "критическое состояние",
+    "pl": "stan krytyczny",
+    "de": "kritischer Zustand",
+    "fr": "état critique",
+    "es": "estado crítico",
+    "it": "condizioni critiche",
+    "pt": "estado crítico",
+    "tr": "kritik durum"
+   },
+   "ex": {
+    "en": "The driver is in critical condition."
+   }
+  },
+  {
+   "id": "emergency.life-threatening",
+   "t": {
+    "en": "life-threatening",
+    "uk": "небезпечний для життя",
+    "ru": "опасный для жизни",
+    "pl": "zagrażający życiu",
+    "de": "lebensbedrohlich",
+    "fr": "potentiellement mortel",
+    "es": "potencialmente mortal",
+    "it": "pericoloso per la vita",
+    "pt": "potencialmente fatal",
+    "tr": "hayati tehlike taşıyan"
+   },
+   "ex": {
+    "en": "His injuries are not life-threatening."
+   }
+  },
+  {
+   "id": "emergency.humanitarian-aid",
+   "t": {
+    "en": "humanitarian aid",
+    "uk": "гуманітарна допомога",
+    "ru": "гуманитарная помощь",
+    "pl": "pomoc humanitarna",
+    "de": "humanitäre Hilfe",
+    "fr": "aide humanitaire",
+    "es": "ayuda humanitaria",
+    "it": "aiuti umanitari",
+    "pt": "ajuda humanitária",
+    "tr": "insani yardım"
+   },
+   "ex": {
+    "en": "Humanitarian aid reached the region."
+   }
+  },
+  {
+   "id": "emergency.hypothermia",
+   "t": {
+    "en": "hypothermia",
+    "uk": "переохолодження",
+    "ru": "переохлаждение",
+    "pl": "hipotermia",
+    "de": "Unterkühlung",
+    "fr": "hypothermie",
+    "es": "hipotermia",
+    "it": "ipotermia",
+    "pt": "hipotermia",
+    "tr": "hipotermi"
+   },
+   "ex": {
+    "en": "The climbers were suffering from hypothermia."
+   }
+  },
+  {
+   "id": "emergency.anaphylactic-shock",
+   "t": {
+    "en": "anaphylactic shock",
+    "uk": "анафілактичний шок",
+    "ru": "анафилактический шок",
+    "pl": "wstrząs anafilaktyczny",
+    "de": "anaphylaktischer Schock",
+    "fr": "choc anaphylactique",
+    "es": "shock anafiláctico",
+    "it": "shock anafilattico",
+    "pt": "choque anafilático",
+    "tr": "anafilaktik şok"
+   },
+   "ex": {
+    "en": "A bee sting sent him into anaphylactic shock."
+   }
+  },
+  {
+   "id": "emergency.riot",
+   "t": {
+    "en": "riot",
+    "uk": "масові заворушення",
+    "ru": "беспорядки",
+    "pl": "zamieszki",
+    "de": "Krawall",
+    "fr": "émeute",
+    "es": "disturbio",
+    "it": "sommossa",
+    "pt": "tumulto",
+    "tr": "ayaklanma"
+   },
+   "ex": {
+    "en": "The protest turned into a riot."
+   }
+  },
+  {
+   "id": "emergency.false-alarm",
+   "t": {
+    "en": "false alarm",
+    "uk": "хибна тривога",
+    "ru": "ложная тревога",
+    "pl": "fałszywy alarm",
+    "de": "Fehlalarm",
+    "fr": "fausse alerte",
+    "es": "falsa alarma",
+    "it": "falso allarme",
+    "pt": "alarme falso",
+    "tr": "yanlış alarm"
+   },
+   "ex": {
+    "en": "Don't worry, it was a false alarm."
    }
   }
  ]

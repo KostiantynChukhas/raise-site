@@ -2,7 +2,7 @@
  "id": "it-c1",
  "topic": "it",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "it.to-deprecate",
@@ -524,6 +524,384 @@
    },
    "ex": {
     "en": "Fewer services means a smaller attack surface."
+   }
+  },
+  {
+   "id": "it.microservices",
+   "t": {
+    "en": "microservices",
+    "uk": "мікросервіси",
+    "ru": "микросервисы",
+    "pl": "mikroserwisy",
+    "de": "Microservices",
+    "fr": "microservices",
+    "es": "microservicios",
+    "it": "microservizi",
+    "pt": "microsserviços",
+    "tr": "mikro hizmetler"
+   },
+   "ex": {
+    "en": "We split the monolith into microservices."
+   }
+  },
+  {
+   "id": "it.containerization",
+   "t": {
+    "en": "containerization",
+    "uk": "контейнеризація",
+    "ru": "контейнеризация",
+    "pl": "konteneryzacja",
+    "de": "Containerisierung",
+    "fr": "conteneurisation",
+    "es": "contenedorización",
+    "it": "containerizzazione",
+    "pt": "conteinerização",
+    "tr": "konteynerleştirme"
+   },
+   "ex": {
+    "en": "Containerization simplified our deployments."
+   }
+  },
+  {
+   "id": "it.load-balancing",
+   "t": {
+    "en": "load balancing",
+    "uk": "балансування навантаження",
+    "ru": "балансировка нагрузки",
+    "pl": "równoważenie obciążenia",
+    "de": "Lastverteilung",
+    "fr": "équilibrage de charge",
+    "es": "balanceo de carga",
+    "it": "bilanciamento del carico",
+    "pt": "balanceamento de carga",
+    "tr": "yük dengeleme"
+   },
+   "ex": {
+    "en": "Load balancing spreads traffic across servers."
+   }
+  },
+  {
+   "id": "it.zero-day-exploit",
+   "t": {
+    "en": "zero-day exploit",
+    "uk": "експлойт нульового дня",
+    "ru": "эксплойт нулевого дня",
+    "pl": "exploit dnia zerowego",
+    "de": "Zero-Day-Exploit",
+    "fr": "exploit zero-day",
+    "es": "exploit de día cero",
+    "it": "exploit zero-day",
+    "pt": "exploit de dia zero",
+    "tr": "sıfır gün açığı"
+   },
+   "ex": {
+    "en": "Attackers used a zero-day exploit."
+   }
+  },
+  {
+   "id": "it.penetration-test",
+   "t": {
+    "en": "penetration test",
+    "uk": "тест на проникнення",
+    "ru": "тест на проникновение",
+    "pl": "test penetracyjny",
+    "de": "Penetrationstest",
+    "fr": "test d'intrusion",
+    "es": "prueba de penetración",
+    "it": "test di penetrazione",
+    "pt": "teste de invasão",
+    "tr": "sızma testi"
+   },
+   "ex": {
+    "en": "We hired experts for a penetration test."
+   }
+  },
+  {
+   "id": "it.uptime",
+   "t": {
+    "en": "uptime",
+    "uk": "час безвідмовної роботи",
+    "ru": "время безотказной работы",
+    "pl": "czas dostępności",
+    "de": "Verfügbarkeit",
+    "fr": "disponibilité",
+    "es": "tiempo de actividad",
+    "it": "tempo di attività",
+    "pt": "tempo de atividade",
+    "tr": "çalışma süresi"
+   },
+   "ex": {
+    "en": "We guarantee 99.9% uptime."
+   }
+  },
+  {
+   "id": "it.pipeline",
+   "t": {
+    "en": "pipeline",
+    "uk": "конвеєр",
+    "ru": "конвейер",
+    "pl": "potok",
+    "de": "Pipeline",
+    "fr": "pipeline",
+    "es": "pipeline",
+    "it": "pipeline",
+    "pt": "pipeline",
+    "tr": "işlem hattı"
+   },
+   "ex": {
+    "en": "The build pipeline failed overnight."
+   }
+  },
+  {
+   "id": "it.to-roll-back",
+   "t": {
+    "en": "to roll back",
+    "uk": "відкочувати",
+    "ru": "откатывать",
+    "pl": "wycofywać zmiany",
+    "de": "zurückrollen",
+    "fr": "revenir en arrière",
+    "es": "revertir",
+    "it": "ripristinare",
+    "pt": "reverter",
+    "tr": "geri döndürmek"
+   },
+   "ex": {
+    "en": "We had to roll back the release."
+   }
+  },
+  {
+   "id": "it.abstraction",
+   "t": {
+    "en": "abstraction",
+    "uk": "абстракція",
+    "ru": "абстракция",
+    "pl": "abstrakcja",
+    "de": "Abstraktion",
+    "fr": "abstraction",
+    "es": "abstracción",
+    "it": "astrazione",
+    "pt": "abstração",
+    "tr": "soyutlama"
+   },
+   "ex": {
+    "en": "This abstraction hides the complexity."
+   }
+  },
+  {
+   "id": "it.codebase",
+   "t": {
+    "en": "codebase",
+    "uk": "кодова база",
+    "ru": "кодовая база",
+    "pl": "baza kodu",
+    "de": "Codebasis",
+    "fr": "base de code",
+    "es": "base de código",
+    "it": "base di codice",
+    "pt": "base de código",
+    "tr": "kod tabanı"
+   },
+   "ex": {
+    "en": "The codebase is over ten years old."
+   }
+  },
+  {
+   "id": "it.data-sovereignty",
+   "t": {
+    "en": "data sovereignty",
+    "uk": "суверенітет даних",
+    "ru": "суверенитет данных",
+    "pl": "suwerenność danych",
+    "de": "Datensouveränität",
+    "fr": "souveraineté des données",
+    "es": "soberanía de datos",
+    "it": "sovranità dei dati",
+    "pt": "soberania de dados",
+    "tr": "veri egemenliği"
+   },
+   "ex": {
+    "en": "Data sovereignty laws limit where we host."
+   }
+  },
+  {
+   "id": "it.sandbox",
+   "t": {
+    "en": "sandbox",
+    "uk": "пісочниця",
+    "ru": "песочница",
+    "pl": "piaskownica",
+    "de": "Sandbox",
+    "fr": "bac à sable",
+    "es": "entorno aislado",
+    "it": "sandbox",
+    "pt": "sandbox",
+    "tr": "korumalı alan"
+   },
+   "ex": {
+    "en": "Test the code in a sandbox first."
+   }
+  },
+  {
+   "id": "it.concurrency",
+   "t": {
+    "en": "concurrency",
+    "uk": "конкурентність",
+    "ru": "параллелизм",
+    "pl": "współbieżność",
+    "de": "Nebenläufigkeit",
+    "fr": "concurrence",
+    "es": "concurrencia",
+    "it": "concorrenza",
+    "pt": "concorrência",
+    "tr": "eşzamanlılık"
+   },
+   "ex": {
+    "en": "Concurrency bugs are hard to reproduce."
+   }
+  },
+  {
+   "id": "it.feature-flag",
+   "t": {
+    "en": "feature flag",
+    "uk": "прапорець функції",
+    "ru": "флаг функции",
+    "pl": "flaga funkcji",
+    "de": "Feature-Flag",
+    "fr": "feature flag",
+    "es": "bandera de funcionalidad",
+    "it": "feature flag",
+    "pt": "sinalizador de recurso",
+    "tr": "özellik bayrağı"
+   },
+   "ex": {
+    "en": "Hide the new page behind a feature flag."
+   }
+  },
+  {
+   "id": "it.zero-trust",
+   "t": {
+    "en": "zero trust",
+    "uk": "нульова довіра",
+    "ru": "нулевое доверие",
+    "pl": "zero trust",
+    "de": "Zero Trust",
+    "fr": "confiance zéro",
+    "es": "confianza cero",
+    "it": "zero trust",
+    "pt": "confiança zero",
+    "tr": "sıfır güven"
+   },
+   "ex": {
+    "en": "Our network follows a zero trust model."
+   }
+  },
+  {
+   "id": "it.single-sign-on",
+   "t": {
+    "en": "single sign-on",
+    "uk": "єдиний вхід",
+    "ru": "единый вход",
+    "pl": "logowanie jednokrotne",
+    "de": "Single Sign-On",
+    "fr": "authentification unique",
+    "es": "inicio de sesión único",
+    "it": "accesso unico",
+    "pt": "login único",
+    "tr": "tek oturum açma"
+   },
+   "ex": {
+    "en": "Single sign-on saves employees time."
+   }
+  },
+  {
+   "id": "it.disaster-recovery",
+   "t": {
+    "en": "disaster recovery",
+    "uk": "аварійне відновлення",
+    "ru": "аварийное восстановление",
+    "pl": "odtwarzanie po awarii",
+    "de": "Notfallwiederherstellung",
+    "fr": "reprise après sinistre",
+    "es": "recuperación ante desastres",
+    "it": "ripristino di emergenza",
+    "pt": "recuperação de desastres",
+    "tr": "felaket kurtarma"
+   },
+   "ex": {
+    "en": "Test your disaster recovery plan yearly."
+   }
+  },
+  {
+   "id": "it.to-throttle",
+   "t": {
+    "en": "to throttle",
+    "uk": "обмежувати швидкість",
+    "ru": "ограничивать скорость",
+    "pl": "ograniczać przepustowość",
+    "de": "drosseln",
+    "fr": "brider",
+    "es": "limitar la velocidad",
+    "it": "limitare la velocità",
+    "pt": "limitar a velocidade",
+    "tr": "hızı kısıtlamak"
+   },
+   "ex": {
+    "en": "The provider throttles heavy users."
+   }
+  },
+  {
+   "id": "it.edge-computing",
+   "t": {
+    "en": "edge computing",
+    "uk": "граничні обчислення",
+    "ru": "граничные вычисления",
+    "pl": "przetwarzanie brzegowe",
+    "de": "Edge-Computing",
+    "fr": "informatique en périphérie",
+    "es": "computación en el borde",
+    "it": "edge computing",
+    "pt": "computação de borda",
+    "tr": "uç bilişim"
+   },
+   "ex": {
+    "en": "Edge computing reduces latency for devices."
+   }
+  },
+  {
+   "id": "it.caching",
+   "t": {
+    "en": "caching",
+    "uk": "кешування",
+    "ru": "кэширование",
+    "pl": "buforowanie",
+    "de": "Caching",
+    "fr": "mise en cache",
+    "es": "almacenamiento en caché",
+    "it": "memorizzazione nella cache",
+    "pt": "armazenamento em cache",
+    "tr": "önbelleğe alma"
+   },
+   "ex": {
+    "en": "Caching made the site twice as fast."
+   }
+  },
+  {
+   "id": "it.orchestration",
+   "t": {
+    "en": "orchestration",
+    "uk": "оркестрація",
+    "ru": "оркестрация",
+    "pl": "orkiestracja",
+    "de": "Orchestrierung",
+    "fr": "orchestration",
+    "es": "orquestación",
+    "it": "orchestrazione",
+    "pt": "orquestração",
+    "tr": "orkestrasyon"
+   },
+   "ex": {
+    "en": "Kubernetes handles container orchestration."
    }
   }
  ]

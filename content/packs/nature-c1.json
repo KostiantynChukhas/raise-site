@@ -2,7 +2,7 @@
  "id": "nature-c1",
  "topic": "nature",
  "level": "c1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "nature.drizzle",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Enjoy the calm before the storm."
+   }
+  },
+  {
+   "id": "nature.arid",
+   "t": {
+    "en": "arid",
+    "uk": "посушливий",
+    "ru": "засушливый",
+    "pl": "suchy",
+    "de": "dürr",
+    "fr": "aride",
+    "es": "árido",
+    "it": "arido",
+    "pt": "árido",
+    "tr": "kurak"
+   },
+   "ex": {
+    "en": "Few plants survive in this arid region."
+   }
+  },
+  {
+   "id": "nature.scorching",
+   "t": {
+    "en": "scorching",
+    "uk": "пекучий",
+    "ru": "палящий",
+    "pl": "skwarny",
+    "de": "brütend heiß",
+    "fr": "torride",
+    "es": "abrasador",
+    "it": "torrido",
+    "pt": "escaldante",
+    "tr": "kavurucu"
+   },
+   "ex": {
+    "en": "We hid from the scorching sun."
+   }
+  },
+  {
+   "id": "nature.tundra",
+   "t": {
+    "en": "tundra",
+    "uk": "тундра",
+    "ru": "тундра",
+    "pl": "tundra",
+    "de": "Tundra",
+    "fr": "toundra",
+    "es": "tundra",
+    "it": "tundra",
+    "pt": "tundra",
+    "tr": "tundra"
+   },
+   "ex": {
+    "en": "Reindeer live in the tundra."
+   }
+  },
+  {
+   "id": "nature.savanna",
+   "t": {
+    "en": "savanna",
+    "uk": "савана",
+    "ru": "саванна",
+    "pl": "sawanna",
+    "de": "Savanne",
+    "fr": "savane",
+    "es": "sabana",
+    "it": "savana",
+    "pt": "savana",
+    "tr": "savan"
+   },
+   "ex": {
+    "en": "Zebras graze on the savanna."
+   }
+  },
+  {
+   "id": "nature.marsh",
+   "t": {
+    "en": "marsh",
+    "uk": "болото",
+    "ru": "болото",
+    "pl": "bagno",
+    "de": "Sumpf",
+    "fr": "marais",
+    "es": "pantano",
+    "it": "palude",
+    "pt": "pântano",
+    "tr": "bataklık"
+   },
+   "ex": {
+    "en": "Herons hunt in the marsh."
+   }
+  },
+  {
+   "id": "nature.dune",
+   "t": {
+    "en": "dune",
+    "uk": "дюна",
+    "ru": "дюна",
+    "pl": "wydma",
+    "de": "Düne",
+    "fr": "dune",
+    "es": "duna",
+    "it": "duna",
+    "pt": "duna",
+    "tr": "kumul"
+   },
+   "ex": {
+    "en": "We climbed a huge sand dune."
+   }
+  },
+  {
+   "id": "nature.tributary",
+   "t": {
+    "en": "tributary",
+    "uk": "притока",
+    "ru": "приток",
+    "pl": "dopływ",
+    "de": "Nebenfluss",
+    "fr": "affluent",
+    "es": "afluente",
+    "it": "affluente",
+    "pt": "afluente",
+    "tr": "akarsu kolu"
+   },
+   "ex": {
+    "en": "This stream is a tributary of the Danube."
+   }
+  },
+  {
+   "id": "nature.crater",
+   "t": {
+    "en": "crater",
+    "uk": "кратер",
+    "ru": "кратер",
+    "pl": "krater",
+    "de": "Krater",
+    "fr": "cratère",
+    "es": "cráter",
+    "it": "cratere",
+    "pt": "cratera",
+    "tr": "krater"
+   },
+   "ex": {
+    "en": "A lake formed in the old crater."
+   }
+  },
+  {
+   "id": "nature.lava",
+   "t": {
+    "en": "lava",
+    "uk": "лава",
+    "ru": "лава",
+    "pl": "lawa",
+    "de": "Lava",
+    "fr": "lave",
+    "es": "lava",
+    "it": "lava",
+    "pt": "lava",
+    "tr": "lav"
+   },
+   "ex": {
+    "en": "Hot lava flowed down the volcano."
+   }
+  },
+  {
+   "id": "nature.bark",
+   "t": {
+    "en": "bark",
+    "uk": "кора",
+    "ru": "кора",
+    "pl": "kora",
+    "de": "Rinde",
+    "fr": "écorce",
+    "es": "corteza",
+    "it": "corteccia",
+    "pt": "casca",
+    "tr": "ağaç kabuğu"
+   },
+   "ex": {
+    "en": "The deer ate the bark of the young trees."
+   }
+  },
+  {
+   "id": "nature.pollen",
+   "t": {
+    "en": "pollen",
+    "uk": "пилок",
+    "ru": "пыльца",
+    "pl": "pyłek",
+    "de": "Pollen",
+    "fr": "pollen",
+    "es": "polen",
+    "it": "polline",
+    "pt": "pólen",
+    "tr": "polen"
+   },
+   "ex": {
+    "en": "Bees carry pollen from flower to flower."
+   }
+  },
+  {
+   "id": "nature.to-wither",
+   "t": {
+    "en": "to wither",
+    "uk": "в'янути",
+    "ru": "вянуть",
+    "pl": "więdnąć",
+    "de": "welken",
+    "fr": "se faner",
+    "es": "marchitarse",
+    "it": "appassire",
+    "pt": "murchar",
+    "tr": "solmak"
+   },
+   "ex": {
+    "en": "The flowers withered in the heat."
+   }
+  },
+  {
+   "id": "nature.to-sprout",
+   "t": {
+    "en": "to sprout",
+    "uk": "проростати",
+    "ru": "прорастать",
+    "pl": "kiełkować",
+    "de": "keimen",
+    "fr": "germer",
+    "es": "brotar",
+    "it": "germogliare",
+    "pt": "brotar",
+    "tr": "filizlenmek"
+   },
+   "ex": {
+    "en": "The seeds began to sprout."
+   }
+  },
+  {
+   "id": "nature.burrow",
+   "t": {
+    "en": "burrow",
+    "uk": "нора",
+    "ru": "нора",
+    "pl": "nora",
+    "de": "Bau",
+    "fr": "terrier",
+    "es": "madriguera",
+    "it": "tana",
+    "pt": "toca",
+    "tr": "in"
+   },
+   "ex": {
+    "en": "The rabbit disappeared into its burrow."
+   }
+  },
+  {
+   "id": "nature.invasive-species",
+   "t": {
+    "en": "invasive species",
+    "uk": "інвазивний вид",
+    "ru": "инвазивный вид",
+    "pl": "gatunek inwazyjny",
+    "de": "invasive Art",
+    "fr": "espèce invasive",
+    "es": "especie invasora",
+    "it": "specie invasiva",
+    "pt": "espécie invasora",
+    "tr": "istilacı tür"
+   },
+   "ex": {
+    "en": "An invasive species can harm local wildlife."
+   }
+  },
+  {
+   "id": "nature.solstice",
+   "t": {
+    "en": "solstice",
+    "uk": "сонцестояння",
+    "ru": "солнцестояние",
+    "pl": "przesilenie",
+    "de": "Sonnenwende",
+    "fr": "solstice",
+    "es": "solsticio",
+    "it": "solstizio",
+    "pt": "solstício",
+    "tr": "gündönümü"
+   },
+   "ex": {
+    "en": "The summer solstice is the longest day."
+   }
+  },
+  {
+   "id": "nature.equinox",
+   "t": {
+    "en": "equinox",
+    "uk": "рівнодення",
+    "ru": "равноденствие",
+    "pl": "równonoc",
+    "de": "Tagundnachtgleiche",
+    "fr": "équinoxe",
+    "es": "equinoccio",
+    "it": "equinozio",
+    "pt": "equinócio",
+    "tr": "ekinoks"
+   },
+   "ex": {
+    "en": "At the equinox, day and night are equal."
+   }
+  },
+  {
+   "id": "nature.pristine",
+   "t": {
+    "en": "pristine",
+    "uk": "незайманий",
+    "ru": "нетронутый",
+    "pl": "dziewiczy",
+    "de": "unberührt",
+    "fr": "vierge",
+    "es": "virgen",
+    "it": "incontaminato",
+    "pt": "intocado",
+    "tr": "bozulmamış"
+   },
+   "ex": {
+    "en": "The island has pristine beaches."
+   }
+  },
+  {
+   "id": "nature.to-deplete",
+   "t": {
+    "en": "to deplete",
+    "uk": "виснажувати",
+    "ru": "истощать",
+    "pl": "wyczerpywać",
+    "de": "erschöpfen",
+    "fr": "épuiser",
+    "es": "agotar",
+    "it": "esaurire",
+    "pt": "esgotar",
+    "tr": "tüketmek"
+   },
+   "ex": {
+    "en": "Overfishing depletes the oceans."
+   }
+  },
+  {
+   "id": "nature.cloudburst",
+   "t": {
+    "en": "cloudburst",
+    "uk": "злива",
+    "ru": "ливень",
+    "pl": "oberwanie chmury",
+    "de": "Wolkenbruch",
+    "fr": "trombe d'eau",
+    "es": "aguacero",
+    "it": "nubifragio",
+    "pt": "tromba-d'água",
+    "tr": "sağanak"
+   },
+   "ex": {
+    "en": "A sudden cloudburst flooded the streets."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "business-a2",
  "topic": "business",
  "level": "a2",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "business.to-negotiate",
@@ -434,6 +434,474 @@
    },
    "ex": {
     "en": "We deliver within two days."
+   }
+  },
+  {
+   "id": "business.candidate",
+   "t": {
+    "en": "candidate",
+    "uk": "кандидат",
+    "ru": "кандидат",
+    "pl": "kandydat",
+    "de": "Kandidat",
+    "fr": "candidat",
+    "es": "candidato",
+    "it": "candidato",
+    "pt": "candidato",
+    "tr": "aday"
+   },
+   "ex": {
+    "en": "We have three candidates for the job."
+   }
+  },
+  {
+   "id": "business.to-arrange-a-meeting",
+   "t": {
+    "en": "to arrange a meeting",
+    "uk": "домовитися про зустріч",
+    "ru": "договориться о встрече",
+    "pl": "umówić spotkanie",
+    "de": "ein Treffen vereinbaren",
+    "fr": "organiser une réunion",
+    "es": "concertar una reunión",
+    "it": "fissare una riunione",
+    "pt": "marcar uma reunião",
+    "tr": "toplantı ayarlamak"
+   },
+   "ex": {
+    "en": "Can we arrange a meeting for Friday?"
+   }
+  },
+  {
+   "id": "business.client",
+   "t": {
+    "en": "client",
+    "uk": "клієнт",
+    "ru": "клиент",
+    "pl": "klient",
+    "de": "Kunde",
+    "fr": "client",
+    "es": "cliente",
+    "it": "cliente",
+    "pt": "cliente",
+    "tr": "müşteri"
+   },
+   "ex": {
+    "en": "I have lunch with a client today."
+   }
+  },
+  {
+   "id": "business.goods",
+   "t": {
+    "en": "goods",
+    "uk": "товари",
+    "ru": "товары",
+    "pl": "towary",
+    "de": "Waren",
+    "fr": "marchandises",
+    "es": "mercancías",
+    "it": "merci",
+    "pt": "mercadorias",
+    "tr": "mallar"
+   },
+   "ex": {
+    "en": "The goods arrive on Monday."
+   }
+  },
+  {
+   "id": "business.logo",
+   "t": {
+    "en": "logo",
+    "uk": "логотип",
+    "ru": "логотип",
+    "pl": "logo",
+    "de": "Logo",
+    "fr": "logo",
+    "es": "logotipo",
+    "it": "logo",
+    "pt": "logotipo",
+    "tr": "logo"
+   },
+   "ex": {
+    "en": "The new logo is blue and white."
+   }
+  },
+  {
+   "id": "business.success",
+   "t": {
+    "en": "success",
+    "uk": "успіх",
+    "ru": "успех",
+    "pl": "sukces",
+    "de": "Erfolg",
+    "fr": "succès",
+    "es": "éxito",
+    "it": "successo",
+    "pt": "sucesso",
+    "tr": "başarı"
+   },
+   "ex": {
+    "en": "The new product was a big success."
+   }
+  },
+  {
+   "id": "business.brochure",
+   "t": {
+    "en": "brochure",
+    "uk": "брошура",
+    "ru": "брошюра",
+    "pl": "broszura",
+    "de": "Broschüre",
+    "fr": "brochure",
+    "es": "folleto",
+    "it": "opuscolo",
+    "pt": "folheto",
+    "tr": "broşür"
+   },
+   "ex": {
+    "en": "Take a brochure about our services."
+   }
+  },
+  {
+   "id": "business.catalogue",
+   "t": {
+    "en": "catalogue",
+    "uk": "каталог",
+    "ru": "каталог",
+    "pl": "katalog",
+    "de": "Katalog",
+    "fr": "catalogue",
+    "es": "catálogo",
+    "it": "catalogo",
+    "pt": "catálogo",
+    "tr": "katalog"
+   },
+   "ex": {
+    "en": "All our products are in the catalogue."
+   }
+  },
+  {
+   "id": "business.sample",
+   "t": {
+    "en": "sample",
+    "uk": "зразок",
+    "ru": "образец",
+    "pl": "próbka",
+    "de": "Muster",
+    "fr": "échantillon",
+    "es": "muestra",
+    "it": "campione",
+    "pt": "amostra",
+    "tr": "numune"
+   },
+   "ex": {
+    "en": "They sent us a free sample."
+   }
+  },
+  {
+   "id": "business.packaging",
+   "t": {
+    "en": "packaging",
+    "uk": "упаковка",
+    "ru": "упаковка",
+    "pl": "opakowanie",
+    "de": "Verpackung",
+    "fr": "emballage",
+    "es": "embalaje",
+    "it": "imballaggio",
+    "pt": "embalagem",
+    "tr": "ambalaj"
+   },
+   "ex": {
+    "en": "The packaging is made of paper."
+   }
+  },
+  {
+   "id": "business.shipment",
+   "t": {
+    "en": "shipment",
+    "uk": "відправлення",
+    "ru": "отгрузка",
+    "pl": "przesyłka",
+    "de": "Sendung",
+    "fr": "expédition",
+    "es": "envío",
+    "it": "spedizione",
+    "pt": "remessa",
+    "tr": "sevkiyat"
+   },
+   "ex": {
+    "en": "The shipment left the warehouse today."
+   }
+  },
+  {
+   "id": "business.position",
+   "t": {
+    "en": "position",
+    "uk": "посада",
+    "ru": "должность",
+    "pl": "stanowisko",
+    "de": "Position",
+    "fr": "poste",
+    "es": "puesto",
+    "it": "posizione",
+    "pt": "cargo",
+    "tr": "pozisyon"
+   },
+   "ex": {
+    "en": "She applied for a position in sales."
+   }
+  },
+  {
+   "id": "business.small-business",
+   "t": {
+    "en": "small business",
+    "uk": "малий бізнес",
+    "ru": "малый бизнес",
+    "pl": "mała firma",
+    "de": "Kleinunternehmen",
+    "fr": "petite entreprise",
+    "es": "pequeña empresa",
+    "it": "piccola impresa",
+    "pt": "pequena empresa",
+    "tr": "küçük işletme"
+   },
+   "ex": {
+    "en": "They run a small business in town."
+   }
+  },
+  {
+   "id": "business.regular-customer",
+   "t": {
+    "en": "regular customer",
+    "uk": "постійний клієнт",
+    "ru": "постоянный клиент",
+    "pl": "stały klient",
+    "de": "Stammkunde",
+    "fr": "client habituel",
+    "es": "cliente habitual",
+    "it": "cliente abituale",
+    "pt": "cliente fiel",
+    "tr": "daimi müşteri"
+   },
+   "ex": {
+    "en": "He is one of our regular customers."
+   }
+  },
+  {
+   "id": "business.conference",
+   "t": {
+    "en": "conference",
+    "uk": "конференція",
+    "ru": "конференция",
+    "pl": "konferencja",
+    "de": "Konferenz",
+    "fr": "conférence",
+    "es": "conferencia",
+    "it": "conferenza",
+    "pt": "conferência",
+    "tr": "konferans"
+   },
+   "ex": {
+    "en": "I'm going to a conference in Paris."
+   }
+  },
+  {
+   "id": "business.workshop",
+   "t": {
+    "en": "workshop",
+    "uk": "семінар",
+    "ru": "семинар",
+    "pl": "warsztaty",
+    "de": "Workshop",
+    "fr": "atelier",
+    "es": "taller",
+    "it": "workshop",
+    "pt": "workshop",
+    "tr": "atölye çalışması"
+   },
+   "ex": {
+    "en": "We have a marketing workshop today."
+   }
+  },
+  {
+   "id": "business.to-contact",
+   "t": {
+    "en": "to contact",
+    "uk": "зв’язатися",
+    "ru": "связаться",
+    "pl": "skontaktować się",
+    "de": "kontaktieren",
+    "fr": "contacter",
+    "es": "contactar",
+    "it": "contattare",
+    "pt": "entrar em contato",
+    "tr": "iletişime geçmek"
+   },
+   "ex": {
+    "en": "Please contact me by email."
+   }
+  },
+  {
+   "id": "business.contact-details",
+   "t": {
+    "en": "contact details",
+    "uk": "контактні дані",
+    "ru": "контактные данные",
+    "pl": "dane kontaktowe",
+    "de": "Kontaktdaten",
+    "fr": "coordonnées",
+    "es": "datos de contacto",
+    "it": "recapiti",
+    "pt": "dados de contato",
+    "tr": "iletişim bilgileri"
+   },
+   "ex": {
+    "en": "Please leave your contact details."
+   }
+  },
+  {
+   "id": "business.management",
+   "t": {
+    "en": "management",
+    "uk": "керівництво",
+    "ru": "руководство",
+    "pl": "kierownictwo",
+    "de": "Geschäftsleitung",
+    "fr": "direction",
+    "es": "dirección",
+    "it": "direzione",
+    "pt": "gestão",
+    "tr": "yönetim"
+   },
+   "ex": {
+    "en": "The management made a new decision."
+   }
+  },
+  {
+   "id": "business.to-discuss",
+   "t": {
+    "en": "to discuss",
+    "uk": "обговорювати",
+    "ru": "обсуждать",
+    "pl": "omawiać",
+    "de": "besprechen",
+    "fr": "discuter",
+    "es": "discutir",
+    "it": "discutere",
+    "pt": "discutir",
+    "tr": "görüşmek"
+   },
+   "ex": {
+    "en": "Let's discuss the price tomorrow."
+   }
+  },
+  {
+   "id": "business.sales-department",
+   "t": {
+    "en": "sales department",
+    "uk": "відділ продажів",
+    "ru": "отдел продаж",
+    "pl": "dział sprzedaży",
+    "de": "Vertriebsabteilung",
+    "fr": "service commercial",
+    "es": "departamento de ventas",
+    "it": "ufficio vendite",
+    "pt": "departamento de vendas",
+    "tr": "satış departmanı"
+   },
+   "ex": {
+    "en": "She works in the sales department."
+   }
+  },
+  {
+   "id": "business.delivery-date",
+   "t": {
+    "en": "delivery date",
+    "uk": "дата доставки",
+    "ru": "дата доставки",
+    "pl": "termin dostawy",
+    "de": "Liefertermin",
+    "fr": "date de livraison",
+    "es": "fecha de entrega",
+    "it": "data di consegna",
+    "pt": "data de entrega",
+    "tr": "teslim tarihi"
+   },
+   "ex": {
+    "en": "What is the delivery date?"
+   }
+  },
+  {
+   "id": "business.to-check",
+   "t": {
+    "en": "to check",
+    "uk": "перевіряти",
+    "ru": "проверять",
+    "pl": "sprawdzać",
+    "de": "prüfen",
+    "fr": "vérifier",
+    "es": "comprobar",
+    "it": "controllare",
+    "pt": "verificar",
+    "tr": "kontrol etmek"
+   },
+   "ex": {
+    "en": "Please check the invoice."
+   }
+  },
+  {
+   "id": "business.to-reduce-prices",
+   "t": {
+    "en": "to reduce prices",
+    "uk": "знижувати ціни",
+    "ru": "снижать цены",
+    "pl": "obniżać ceny",
+    "de": "Preise senken",
+    "fr": "baisser les prix",
+    "es": "bajar los precios",
+    "it": "abbassare i prezzi",
+    "pt": "baixar os preços",
+    "tr": "fiyatları düşürmek"
+   },
+   "ex": {
+    "en": "The shop reduced prices in January."
+   }
+  },
+  {
+   "id": "business.to-raise-prices",
+   "t": {
+    "en": "to raise prices",
+    "uk": "підвищувати ціни",
+    "ru": "повышать цены",
+    "pl": "podnosić ceny",
+    "de": "Preise erhöhen",
+    "fr": "augmenter les prix",
+    "es": "subir los precios",
+    "it": "aumentare i prezzi",
+    "pt": "aumentar os preços",
+    "tr": "fiyatları artırmak"
+   },
+   "ex": {
+    "en": "They raised prices again."
+   }
+  },
+  {
+   "id": "business.to-present",
+   "t": {
+    "en": "to present",
+    "uk": "презентувати",
+    "ru": "презентовать",
+    "pl": "prezentować",
+    "de": "präsentieren",
+    "fr": "présenter",
+    "es": "presentar",
+    "it": "presentare",
+    "pt": "apresentar",
+    "tr": "sunmak"
+   },
+   "ex": {
+    "en": "I will present the results on Friday."
    }
   }
  ]

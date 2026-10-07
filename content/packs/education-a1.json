@@ -2,7 +2,7 @@
  "id": "education-a1",
  "topic": "education",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "education.school",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "Sorry, I don't understand."
+   }
+  },
+  {
+   "id": "education.to-count",
+   "t": {
+    "en": "to count",
+    "uk": "рахувати",
+    "ru": "считать",
+    "pl": "liczyć",
+    "de": "zählen",
+    "fr": "compter",
+    "es": "contar",
+    "it": "contare",
+    "pt": "contar",
+    "tr": "saymak"
+   },
+   "ex": {
+    "en": "The children learn to count to ten."
+   }
+  },
+  {
+   "id": "education.word",
+   "t": {
+    "en": "word",
+    "uk": "слово",
+    "ru": "слово",
+    "pl": "słowo",
+    "de": "Wort",
+    "fr": "mot",
+    "es": "palabra",
+    "it": "parola",
+    "pt": "palavra",
+    "tr": "kelime"
+   },
+   "ex": {
+    "en": "What does this word mean?"
+   }
+  },
+  {
+   "id": "education.alphabet",
+   "t": {
+    "en": "alphabet",
+    "uk": "алфавіт",
+    "ru": "алфавит",
+    "pl": "alfabet",
+    "de": "Alphabet",
+    "fr": "alphabet",
+    "es": "alfabeto",
+    "it": "alfabeto",
+    "pt": "alfabeto",
+    "tr": "alfabe"
+   },
+   "ex": {
+    "en": "We learn the alphabet in the first year."
+   }
+  },
+  {
+   "id": "education.number",
+   "t": {
+    "en": "number",
+    "uk": "число",
+    "ru": "число",
+    "pl": "liczba",
+    "de": "Zahl",
+    "fr": "nombre",
+    "es": "número",
+    "it": "numero",
+    "pt": "número",
+    "tr": "sayı"
+   },
+   "ex": {
+    "en": "Write the number on the board."
+   }
+  },
+  {
+   "id": "education.paper",
+   "t": {
+    "en": "paper",
+    "uk": "папір",
+    "ru": "бумага",
+    "pl": "papier",
+    "de": "Papier",
+    "fr": "papier",
+    "es": "papel",
+    "it": "carta",
+    "pt": "papel",
+    "tr": "kâğıt"
+   },
+   "ex": {
+    "en": "I need a sheet of paper."
+   }
+  },
+  {
+   "id": "education.class",
+   "t": {
+    "en": "class",
+    "uk": "клас",
+    "ru": "класс",
+    "pl": "klasa",
+    "de": "Klasse",
+    "fr": "classe",
+    "es": "clase",
+    "it": "classe",
+    "pt": "turma",
+    "tr": "sınıf"
+   },
+   "ex": {
+    "en": "There are twenty pupils in my class."
+   }
+  },
+  {
+   "id": "education.pupil",
+   "t": {
+    "en": "pupil",
+    "uk": "учень",
+    "ru": "ученик",
+    "pl": "uczeń",
+    "de": "Schüler",
+    "fr": "élève",
+    "es": "alumno",
+    "it": "alunno",
+    "pt": "aluno",
+    "tr": "öğrenci"
+   },
+   "ex": {
+    "en": "Every pupil has a desk."
+   }
+  },
+  {
+   "id": "education.to-spell",
+   "t": {
+    "en": "to spell",
+    "uk": "вимовляти по літерах",
+    "ru": "произносить по буквам",
+    "pl": "literować",
+    "de": "buchstabieren",
+    "fr": "épeler",
+    "es": "deletrear",
+    "it": "compitare",
+    "pt": "soletrar",
+    "tr": "hecelemek"
+   },
+   "ex": {
+    "en": "Can you spell your name?"
+   }
+  },
+  {
+   "id": "education.to-sit-down",
+   "t": {
+    "en": "to sit down",
+    "uk": "сідати",
+    "ru": "садиться",
+    "pl": "siadać",
+    "de": "sich setzen",
+    "fr": "s'asseoir",
+    "es": "sentarse",
+    "it": "sedersi",
+    "pt": "sentar-se",
+    "tr": "oturmak"
+   },
+   "ex": {
+    "en": "Please sit down and open your books."
+   }
+  },
+  {
+   "id": "education.to-stand-up",
+   "t": {
+    "en": "to stand up",
+    "uk": "вставати",
+    "ru": "вставать",
+    "pl": "wstawać",
+    "de": "aufstehen",
+    "fr": "se lever",
+    "es": "levantarse",
+    "it": "alzarsi",
+    "pt": "levantar-se",
+    "tr": "ayağa kalkmak"
+   },
+   "ex": {
+    "en": "Stand up when the teacher comes in."
+   }
+  },
+  {
+   "id": "education.correct",
+   "t": {
+    "en": "correct",
+    "uk": "правильний",
+    "ru": "правильный",
+    "pl": "poprawny",
+    "de": "richtig",
+    "fr": "correct",
+    "es": "correcto",
+    "it": "corretto",
+    "pt": "correto",
+    "tr": "doğru"
+   },
+   "ex": {
+    "en": "Your answer is correct."
+   }
+  },
+  {
+   "id": "education.wrong",
+   "t": {
+    "en": "wrong",
+    "uk": "неправильний",
+    "ru": "неправильный",
+    "pl": "błędny",
+    "de": "falsch",
+    "fr": "faux",
+    "es": "incorrecto",
+    "it": "sbagliato",
+    "pt": "errado",
+    "tr": "yanlış"
+   },
+   "ex": {
+    "en": "That answer is wrong."
+   }
+  },
+  {
+   "id": "education.glue",
+   "t": {
+    "en": "glue",
+    "uk": "клей",
+    "ru": "клей",
+    "pl": "klej",
+    "de": "Kleber",
+    "fr": "colle",
+    "es": "pegamento",
+    "it": "colla",
+    "pt": "cola",
+    "tr": "yapıştırıcı"
+   },
+   "ex": {
+    "en": "I need some glue for my picture."
+   }
+  },
+  {
+   "id": "education.scissors",
+   "t": {
+    "en": "scissors",
+    "uk": "ножиці",
+    "ru": "ножницы",
+    "pl": "nożyczki",
+    "de": "Schere",
+    "fr": "ciseaux",
+    "es": "tijeras",
+    "it": "forbici",
+    "pt": "tesoura",
+    "tr": "makas"
+   },
+   "ex": {
+    "en": "Cut the paper with scissors."
+   }
+  },
+  {
+   "id": "education.pencil-case",
+   "t": {
+    "en": "pencil case",
+    "uk": "пенал",
+    "ru": "пенал",
+    "pl": "piórnik",
+    "de": "Federmäppchen",
+    "fr": "trousse",
+    "es": "estuche",
+    "it": "astuccio",
+    "pt": "estojo",
+    "tr": "kalem kutusu"
+   },
+   "ex": {
+    "en": "My pencil case is blue."
+   }
+  },
+  {
+   "id": "education.schoolyard",
+   "t": {
+    "en": "schoolyard",
+    "uk": "шкільне подвір'я",
+    "ru": "школьный двор",
+    "pl": "boisko szkolne",
+    "de": "Schulhof",
+    "fr": "cour d'école",
+    "es": "patio de la escuela",
+    "it": "cortile della scuola",
+    "pt": "pátio da escola",
+    "tr": "okul bahçesi"
+   },
+   "ex": {
+    "en": "The children play in the schoolyard."
+   }
+  },
+  {
+   "id": "education.sentence",
+   "t": {
+    "en": "sentence",
+    "uk": "речення",
+    "ru": "предложение",
+    "pl": "zdanie",
+    "de": "Satz",
+    "fr": "phrase",
+    "es": "oración",
+    "it": "frase",
+    "pt": "frase",
+    "tr": "cümle"
+   },
+   "ex": {
+    "en": "Write a sentence with this word."
+   }
+  },
+  {
+   "id": "education.english",
+   "t": {
+    "en": "English",
+    "uk": "англійська",
+    "ru": "английский",
+    "pl": "angielski",
+    "de": "Englisch",
+    "fr": "anglais",
+    "es": "inglés",
+    "it": "inglese",
+    "pt": "inglês",
+    "tr": "İngilizce"
+   },
+   "ex": {
+    "en": "We have English on Monday."
+   }
+  },
+  {
+   "id": "education.to-finish",
+   "t": {
+    "en": "to finish",
+    "uk": "закінчувати",
+    "ru": "заканчивать",
+    "pl": "kończyć",
+    "de": "beenden",
+    "fr": "finir",
+    "es": "terminar",
+    "it": "finire",
+    "pt": "terminar",
+    "tr": "bitirmek"
+   },
+   "ex": {
+    "en": "Finish the exercise at home."
+   }
+  },
+  {
+   "id": "education.to-try",
+   "t": {
+    "en": "to try",
+    "uk": "намагатися",
+    "ru": "пытаться",
+    "pl": "próbować",
+    "de": "versuchen",
+    "fr": "essayer",
+    "es": "intentar",
+    "it": "provare",
+    "pt": "tentar",
+    "tr": "denemek"
+   },
+   "ex": {
+    "en": "Try again, please."
+   }
+  },
+  {
+   "id": "education.to-open",
+   "t": {
+    "en": "to open",
+    "uk": "відкривати",
+    "ru": "открывать",
+    "pl": "otwierać",
+    "de": "öffnen",
+    "fr": "ouvrir",
+    "es": "abrir",
+    "it": "aprire",
+    "pt": "abrir",
+    "tr": "açmak"
+   },
+   "ex": {
+    "en": "Open your notebooks, please."
+   }
+  },
+  {
+   "id": "education.to-close",
+   "t": {
+    "en": "to close",
+    "uk": "закривати",
+    "ru": "закрывать",
+    "pl": "zamykać",
+    "de": "schließen",
+    "fr": "fermer",
+    "es": "cerrar",
+    "it": "chiudere",
+    "pt": "fechar",
+    "tr": "kapatmak"
+   },
+   "ex": {
+    "en": "Close your books now."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "food-a1",
  "topic": "food",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "food.bread",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "Enjoy your meal!"
+   }
+  },
+  {
+   "id": "food.banana",
+   "t": {
+    "en": "banana",
+    "uk": "банан",
+    "ru": "банан",
+    "pl": "banan",
+    "de": "Banane",
+    "fr": "banane",
+    "es": "plátano",
+    "it": "banana",
+    "pt": "banana",
+    "tr": "muz"
+   },
+   "ex": {
+    "en": "I eat a banana every morning."
+   }
+  },
+  {
+   "id": "food.orange",
+   "t": {
+    "en": "orange",
+    "uk": "апельсин",
+    "ru": "апельсин",
+    "pl": "pomarańcza",
+    "de": "Orange",
+    "fr": "orange",
+    "es": "naranja",
+    "it": "arancia",
+    "pt": "laranja",
+    "tr": "portakal"
+   },
+   "ex": {
+    "en": "This orange is very sweet."
+   }
+  },
+  {
+   "id": "food.tomato",
+   "t": {
+    "en": "tomato",
+    "uk": "помідор",
+    "ru": "помидор",
+    "pl": "pomidor",
+    "de": "Tomate",
+    "fr": "tomate",
+    "es": "tomate",
+    "it": "pomodoro",
+    "pt": "tomate",
+    "tr": "domates"
+   },
+   "ex": {
+    "en": "Cut the tomato for the salad."
+   }
+  },
+  {
+   "id": "food.carrot",
+   "t": {
+    "en": "carrot",
+    "uk": "морква",
+    "ru": "морковь",
+    "pl": "marchewka",
+    "de": "Karotte",
+    "fr": "carotte",
+    "es": "zanahoria",
+    "it": "carota",
+    "pt": "cenoura",
+    "tr": "havuç"
+   },
+   "ex": {
+    "en": "The rabbit is eating a carrot."
+   }
+  },
+  {
+   "id": "food.cucumber",
+   "t": {
+    "en": "cucumber",
+    "uk": "огірок",
+    "ru": "огурец",
+    "pl": "ogórek",
+    "de": "Gurke",
+    "fr": "concombre",
+    "es": "pepino",
+    "it": "cetriolo",
+    "pt": "pepino",
+    "tr": "salatalık"
+   },
+   "ex": {
+    "en": "I like cucumber in my sandwich."
+   }
+  },
+  {
+   "id": "food.beer",
+   "t": {
+    "en": "beer",
+    "uk": "пиво",
+    "ru": "пиво",
+    "pl": "piwo",
+    "de": "Bier",
+    "fr": "bière",
+    "es": "cerveza",
+    "it": "birra",
+    "pt": "cerveja",
+    "tr": "bira"
+   },
+   "ex": {
+    "en": "Two beers, please."
+   }
+  },
+  {
+   "id": "food.wine",
+   "t": {
+    "en": "wine",
+    "uk": "вино",
+    "ru": "вино",
+    "pl": "wino",
+    "de": "Wein",
+    "fr": "vin",
+    "es": "vino",
+    "it": "vino",
+    "pt": "vinho",
+    "tr": "şarap"
+   },
+   "ex": {
+    "en": "Would you like red or white wine?"
+   }
+  },
+  {
+   "id": "food.cherry",
+   "t": {
+    "en": "cherry",
+    "uk": "вишня",
+    "ru": "вишня",
+    "pl": "wiśnia",
+    "de": "Kirsche",
+    "fr": "cerise",
+    "es": "cereza",
+    "it": "ciliegia",
+    "pt": "cereja",
+    "tr": "kiraz"
+   },
+   "ex": {
+    "en": "There is a cherry on top of the cake."
+   }
+  },
+  {
+   "id": "food.chocolate",
+   "t": {
+    "en": "chocolate",
+    "uk": "шоколад",
+    "ru": "шоколад",
+    "pl": "czekolada",
+    "de": "Schokolade",
+    "fr": "chocolat",
+    "es": "chocolate",
+    "it": "cioccolato",
+    "pt": "chocolate",
+    "tr": "çikolata"
+   },
+   "ex": {
+    "en": "Children love chocolate."
+   }
+  },
+  {
+   "id": "food.honey",
+   "t": {
+    "en": "honey",
+    "uk": "мед",
+    "ru": "мёд",
+    "pl": "miód",
+    "de": "Honig",
+    "fr": "miel",
+    "es": "miel",
+    "it": "miele",
+    "pt": "mel",
+    "tr": "bal"
+   },
+   "ex": {
+    "en": "I put honey in my tea."
+   }
+  },
+  {
+   "id": "food.jam",
+   "t": {
+    "en": "jam",
+    "uk": "варення",
+    "ru": "варенье",
+    "pl": "dżem",
+    "de": "Marmelade",
+    "fr": "confiture",
+    "es": "mermelada",
+    "it": "marmellata",
+    "pt": "geleia",
+    "tr": "reçel"
+   },
+   "ex": {
+    "en": "She has toast with jam for breakfast."
+   }
+  },
+  {
+   "id": "food.yogurt",
+   "t": {
+    "en": "yogurt",
+    "uk": "йогурт",
+    "ru": "йогурт",
+    "pl": "jogurt",
+    "de": "Joghurt",
+    "fr": "yaourt",
+    "es": "yogur",
+    "it": "yogurt",
+    "pt": "iogurte",
+    "tr": "yoğurt"
+   },
+   "ex": {
+    "en": "I eat yogurt with fruit."
+   }
+  },
+  {
+   "id": "food.sausage",
+   "t": {
+    "en": "sausage",
+    "uk": "сосиска",
+    "ru": "сосиска",
+    "pl": "kiełbaska",
+    "de": "Würstchen",
+    "fr": "saucisse",
+    "es": "salchicha",
+    "it": "salsiccia",
+    "pt": "salsicha",
+    "tr": "sosis"
+   },
+   "ex": {
+    "en": "He had a sausage for lunch."
+   }
+  },
+  {
+   "id": "food.beef",
+   "t": {
+    "en": "beef",
+    "uk": "яловичина",
+    "ru": "говядина",
+    "pl": "wołowina",
+    "de": "Rindfleisch",
+    "fr": "bœuf",
+    "es": "ternera",
+    "it": "manzo",
+    "pt": "carne bovina",
+    "tr": "sığır eti"
+   },
+   "ex": {
+    "en": "This soup is made with beef."
+   }
+  },
+  {
+   "id": "food.pork",
+   "t": {
+    "en": "pork",
+    "uk": "свинина",
+    "ru": "свинина",
+    "pl": "wieprzowina",
+    "de": "Schweinefleisch",
+    "fr": "porc",
+    "es": "cerdo",
+    "it": "maiale",
+    "pt": "carne de porco",
+    "tr": "domuz eti"
+   },
+   "ex": {
+    "en": "I don't eat pork."
+   }
+  },
+  {
+   "id": "food.lemon",
+   "t": {
+    "en": "lemon",
+    "uk": "лимон",
+    "ru": "лимон",
+    "pl": "cytryna",
+    "de": "Zitrone",
+    "fr": "citron",
+    "es": "limón",
+    "it": "limone",
+    "pt": "limão",
+    "tr": "limon"
+   },
+   "ex": {
+    "en": "Tea with lemon, please."
+   }
+  },
+  {
+   "id": "food.grapes",
+   "t": {
+    "en": "grapes",
+    "uk": "виноград",
+    "ru": "виноград",
+    "pl": "winogrona",
+    "de": "Weintrauben",
+    "fr": "raisin",
+    "es": "uvas",
+    "it": "uva",
+    "pt": "uvas",
+    "tr": "üzüm"
+   },
+   "ex": {
+    "en": "These grapes are sweet."
+   }
+  },
+  {
+   "id": "food.strawberry",
+   "t": {
+    "en": "strawberry",
+    "uk": "полуниця",
+    "ru": "клубника",
+    "pl": "truskawka",
+    "de": "Erdbeere",
+    "fr": "fraise",
+    "es": "fresa",
+    "it": "fragola",
+    "pt": "morango",
+    "tr": "çilek"
+   },
+   "ex": {
+    "en": "I love strawberry ice cream."
+   }
+  },
+  {
+   "id": "food.tasty",
+   "t": {
+    "en": "tasty",
+    "uk": "смачний",
+    "ru": "вкусный",
+    "pl": "smaczny",
+    "de": "lecker",
+    "fr": "savoureux",
+    "es": "sabroso",
+    "it": "gustoso",
+    "pt": "gostoso",
+    "tr": "lezzetli"
+   },
+   "ex": {
+    "en": "This soup is very tasty."
+   }
+  },
+  {
+   "id": "food.biscuit",
+   "t": {
+    "en": "biscuit",
+    "uk": "печиво",
+    "ru": "печенье",
+    "pl": "herbatnik",
+    "de": "Keks",
+    "fr": "biscuit",
+    "es": "galleta",
+    "it": "biscotto",
+    "pt": "biscoito",
+    "tr": "bisküvi"
+   },
+   "ex": {
+    "en": "Would you like a biscuit with your tea?"
    }
   }
  ]

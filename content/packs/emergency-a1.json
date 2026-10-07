@@ -2,7 +2,7 @@
  "id": "emergency-a1",
  "topic": "emergency",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emergency.help",
@@ -506,6 +506,402 @@
    },
    "ex": {
     "en": "Do you have insurance?"
+   }
+  },
+  {
+   "id": "emergency.call-the-police",
+   "t": {
+    "en": "call the police!",
+    "uk": "Викличте поліцію!",
+    "ru": "Вызовите полицию!",
+    "pl": "Wezwij policję!",
+    "de": "Rufen Sie die Polizei!",
+    "fr": "Appelez la police !",
+    "es": "¡Llame a la policía!",
+    "it": "Chiami la polizia!",
+    "pt": "Chame a polícia!",
+    "tr": "Polisi arayın!"
+   },
+   "ex": {
+    "en": "Someone shouted, \"Call the police!\""
+   }
+  },
+  {
+   "id": "emergency.call-an-ambulance",
+   "t": {
+    "en": "call an ambulance!",
+    "uk": "Викличте швидку!",
+    "ru": "Вызовите скорую!",
+    "pl": "Wezwij karetkę!",
+    "de": "Rufen Sie einen Krankenwagen!",
+    "fr": "Appelez une ambulance !",
+    "es": "¡Llame a una ambulancia!",
+    "it": "Chiami un'ambulanza!",
+    "pt": "Chame uma ambulância!",
+    "tr": "Ambulans çağırın!"
+   },
+   "ex": {
+    "en": "He's not breathing, call an ambulance!"
+   }
+  },
+  {
+   "id": "emergency.be-careful",
+   "t": {
+    "en": "be careful!",
+    "uk": "Обережно!",
+    "ru": "Осторожно!",
+    "pl": "Uważaj!",
+    "de": "Vorsicht!",
+    "fr": "Attention !",
+    "es": "¡Cuidado!",
+    "it": "Attenzione!",
+    "pt": "Cuidado!",
+    "tr": "Dikkat et!"
+   },
+   "ex": {
+    "en": "Be careful! The floor is wet."
+   }
+  },
+  {
+   "id": "emergency.quick",
+   "t": {
+    "en": "quick!",
+    "uk": "Швидко!",
+    "ru": "Быстро!",
+    "pl": "Szybko!",
+    "de": "Schnell!",
+    "fr": "Vite !",
+    "es": "¡Rápido!",
+    "it": "Presto!",
+    "pt": "Rápido!",
+    "tr": "Çabuk!"
+   },
+   "ex": {
+    "en": "Quick! Get out of the building!"
+   }
+  },
+  {
+   "id": "emergency.firefighter",
+   "t": {
+    "en": "firefighter",
+    "uk": "пожежник",
+    "ru": "пожарный",
+    "pl": "strażak",
+    "de": "Feuerwehrmann",
+    "fr": "pompier",
+    "es": "bombero",
+    "it": "vigile del fuoco",
+    "pt": "bombeiro",
+    "tr": "itfaiyeci"
+   },
+   "ex": {
+    "en": "The firefighter saved the cat."
+   }
+  },
+  {
+   "id": "emergency.first-name",
+   "t": {
+    "en": "first name",
+    "uk": "ім'я",
+    "ru": "имя",
+    "pl": "imię",
+    "de": "Vorname",
+    "fr": "prénom",
+    "es": "nombre de pila",
+    "it": "nome di battesimo",
+    "pt": "primeiro nome",
+    "tr": "ad"
+   },
+   "ex": {
+    "en": "Write your first name here."
+   }
+  },
+  {
+   "id": "emergency.to-steal",
+   "t": {
+    "en": "to steal",
+    "uk": "красти",
+    "ru": "красть",
+    "pl": "kraść",
+    "de": "stehlen",
+    "fr": "voler",
+    "es": "robar",
+    "it": "rubare",
+    "pt": "roubar",
+    "tr": "çalmak"
+   },
+   "ex": {
+    "en": "Someone stole my bag."
+   }
+  },
+  {
+   "id": "emergency.broken",
+   "t": {
+    "en": "broken",
+    "uk": "зламаний",
+    "ru": "сломанный",
+    "pl": "złamany",
+    "de": "gebrochen",
+    "fr": "cassé",
+    "es": "roto",
+    "it": "rotto",
+    "pt": "quebrado",
+    "tr": "kırık"
+   },
+   "ex": {
+    "en": "I think my arm is broken."
+   }
+  },
+  {
+   "id": "emergency.are-you-ok",
+   "t": {
+    "en": "are you OK?",
+    "uk": "З вами все гаразд?",
+    "ru": "С вами всё в порядке?",
+    "pl": "Wszystko w porządku?",
+    "de": "Alles in Ordnung?",
+    "fr": "Ça va ?",
+    "es": "¿Está bien?",
+    "it": "Sta bene?",
+    "pt": "Você está bem?",
+    "tr": "İyi misiniz?"
+   },
+   "ex": {
+    "en": "Are you OK? You look pale."
+   }
+  },
+  {
+   "id": "emergency.i-need-help",
+   "t": {
+    "en": "I need help",
+    "uk": "Мені потрібна допомога",
+    "ru": "Мне нужна помощь",
+    "pl": "Potrzebuję pomocy",
+    "de": "Ich brauche Hilfe",
+    "fr": "J'ai besoin d'aide",
+    "es": "Necesito ayuda",
+    "it": "Ho bisogno di aiuto",
+    "pt": "Preciso de ajuda",
+    "tr": "Yardıma ihtiyacım var"
+   },
+   "ex": {
+    "en": "Please, I need help."
+   }
+  },
+  {
+   "id": "emergency.dangerous",
+   "t": {
+    "en": "dangerous",
+    "uk": "небезпечний",
+    "ru": "опасный",
+    "pl": "niebezpieczny",
+    "de": "gefährlich",
+    "fr": "dangereux",
+    "es": "peligroso",
+    "it": "pericoloso",
+    "pt": "perigoso",
+    "tr": "tehlikeli"
+   },
+   "ex": {
+    "en": "This road is dangerous at night."
+   }
+  },
+  {
+   "id": "emergency.stop",
+   "t": {
+    "en": "stop!",
+    "uk": "Стій!",
+    "ru": "Стой!",
+    "pl": "Stój!",
+    "de": "Halt!",
+    "fr": "Arrête !",
+    "es": "¡Alto!",
+    "it": "Fermo!",
+    "pt": "Pare!",
+    "tr": "Dur!"
+   },
+   "ex": {
+    "en": "Stop! There's a car coming!"
+   }
+  },
+  {
+   "id": "emergency.age",
+   "t": {
+    "en": "age",
+    "uk": "вік",
+    "ru": "возраст",
+    "pl": "wiek",
+    "de": "Alter",
+    "fr": "âge",
+    "es": "edad",
+    "it": "età",
+    "pt": "idade",
+    "tr": "yaş"
+   },
+   "ex": {
+    "en": "Write your age on the form."
+   }
+  },
+  {
+   "id": "emergency.to-shout",
+   "t": {
+    "en": "to shout",
+    "uk": "кричати",
+    "ru": "кричать",
+    "pl": "krzyczeć",
+    "de": "schreien",
+    "fr": "crier",
+    "es": "gritar",
+    "it": "gridare",
+    "pt": "gritar",
+    "tr": "bağırmak"
+   },
+   "ex": {
+    "en": "I heard someone shout for help."
+   }
+  },
+  {
+   "id": "emergency.police-car",
+   "t": {
+    "en": "police car",
+    "uk": "поліцейська машина",
+    "ru": "полицейская машина",
+    "pl": "radiowóz",
+    "de": "Polizeiauto",
+    "fr": "voiture de police",
+    "es": "coche de policía",
+    "it": "auto della polizia",
+    "pt": "viatura policial",
+    "tr": "polis arabası"
+   },
+   "ex": {
+    "en": "A police car stopped outside the house."
+   }
+  },
+  {
+   "id": "emergency.fire-engine",
+   "t": {
+    "en": "fire engine",
+    "uk": "пожежна машина",
+    "ru": "пожарная машина",
+    "pl": "wóz strażacki",
+    "de": "Feuerwehrauto",
+    "fr": "camion de pompiers",
+    "es": "camión de bomberos",
+    "it": "autopompa",
+    "pt": "caminhão de bombeiros",
+    "tr": "itfaiye aracı"
+   },
+   "ex": {
+    "en": "The fire engine arrived in five minutes."
+   }
+  },
+  {
+   "id": "emergency.im-hurt",
+   "t": {
+    "en": "I'm hurt",
+    "uk": "Я поранився",
+    "ru": "Я поранился",
+    "pl": "Jestem ranny",
+    "de": "Ich bin verletzt",
+    "fr": "Je suis blessé",
+    "es": "Estoy herido",
+    "it": "Sono ferito",
+    "pt": "Estou ferido",
+    "tr": "Yaralandım"
+   },
+   "ex": {
+    "en": "Help me, I'm hurt!"
+   }
+  },
+  {
+   "id": "emergency.urgent",
+   "t": {
+    "en": "urgent",
+    "uk": "терміновий",
+    "ru": "срочный",
+    "pl": "pilny",
+    "de": "dringend",
+    "fr": "urgent",
+    "es": "urgente",
+    "it": "urgente",
+    "pt": "urgente",
+    "tr": "acil"
+   },
+   "ex": {
+    "en": "It's urgent, please hurry."
+   }
+  },
+  {
+   "id": "emergency.alarm",
+   "t": {
+    "en": "alarm",
+    "uk": "сигналізація",
+    "ru": "сигнализация",
+    "pl": "alarm",
+    "de": "Alarm",
+    "fr": "alarme",
+    "es": "alarma",
+    "it": "allarme",
+    "pt": "alarme",
+    "tr": "alarm"
+   },
+   "ex": {
+    "en": "The alarm is ringing."
+   }
+  },
+  {
+   "id": "emergency.to-find",
+   "t": {
+    "en": "to find",
+    "uk": "знаходити",
+    "ru": "находить",
+    "pl": "znajdować",
+    "de": "finden",
+    "fr": "trouver",
+    "es": "encontrar",
+    "it": "trovare",
+    "pt": "encontrar",
+    "tr": "bulmak"
+   },
+   "ex": {
+    "en": "I can't find my keys."
+   }
+  },
+  {
+   "id": "emergency.stay-calm",
+   "t": {
+    "en": "stay calm",
+    "uk": "Зберігайте спокій",
+    "ru": "Сохраняйте спокойствие",
+    "pl": "Zachowaj spokój",
+    "de": "Ruhe bewahren",
+    "fr": "Restez calme",
+    "es": "Mantenga la calma",
+    "it": "Mantenga la calma",
+    "pt": "Mantenha a calma",
+    "tr": "Sakin olun"
+   },
+   "ex": {
+    "en": "Stay calm and wait for help."
+   }
+  },
+  {
+   "id": "emergency.dont-move",
+   "t": {
+    "en": "don't move",
+    "uk": "Не рухайтеся",
+    "ru": "Не двигайтесь",
+    "pl": "Nie ruszaj się",
+    "de": "Nicht bewegen",
+    "fr": "Ne bougez pas",
+    "es": "No se mueva",
+    "it": "Non si muova",
+    "pt": "Não se mexa",
+    "tr": "Kımıldamayın"
+   },
+   "ex": {
+    "en": "Don't move, the ambulance is coming."
    }
   }
  ]

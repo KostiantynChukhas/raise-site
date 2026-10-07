@@ -2,7 +2,7 @@
  "id": "emotions-a1",
  "topic": "emotions",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "emotions.happy",
@@ -524,6 +524,348 @@
    },
    "ex": {
     "en": "I am sleepy, good night."
+   }
+  },
+  {
+   "id": "emotions.fear",
+   "t": {
+    "en": "fear",
+    "uk": "страх",
+    "ru": "страх",
+    "pl": "strach",
+    "de": "Angst",
+    "fr": "peur",
+    "es": "miedo",
+    "it": "paura",
+    "pt": "medo",
+    "tr": "korku"
+   },
+   "ex": {
+    "en": "Fear is a normal feeling."
+   }
+  },
+  {
+   "id": "emotions.fun",
+   "t": {
+    "en": "fun",
+    "uk": "розвага",
+    "ru": "веселье",
+    "pl": "zabawa",
+    "de": "Spaß",
+    "fr": "amusement",
+    "es": "diversión",
+    "it": "divertimento",
+    "pt": "diversão",
+    "tr": "eğlence"
+   },
+   "ex": {
+    "en": "We had a lot of fun."
+   }
+  },
+  {
+   "id": "emotions.smile",
+   "t": {
+    "en": "smile",
+    "uk": "усмішка",
+    "ru": "улыбка",
+    "pl": "uśmiech",
+    "de": "Lächeln",
+    "fr": "sourire",
+    "es": "sonrisa",
+    "it": "sorriso",
+    "pt": "sorriso",
+    "tr": "gülümseme"
+   },
+   "ex": {
+    "en": "She has a lovely smile."
+   }
+  },
+  {
+   "id": "emotions.laughter",
+   "t": {
+    "en": "laughter",
+    "uk": "сміх",
+    "ru": "смех",
+    "pl": "śmiech",
+    "de": "Lachen",
+    "fr": "rire",
+    "es": "risa",
+    "it": "risata",
+    "pt": "riso",
+    "tr": "kahkaha"
+   },
+   "ex": {
+    "en": "I heard laughter in the room."
+   }
+  },
+  {
+   "id": "emotions.tears",
+   "t": {
+    "en": "tears",
+    "uk": "сльози",
+    "ru": "слёзы",
+    "pl": "łzy",
+    "de": "Tränen",
+    "fr": "larmes",
+    "es": "lágrimas",
+    "it": "lacrime",
+    "pt": "lágrimas",
+    "tr": "gözyaşları"
+   },
+   "ex": {
+    "en": "There were tears in her eyes."
+   }
+  },
+  {
+   "id": "emotions.unhappy",
+   "t": {
+    "en": "unhappy",
+    "uk": "нещасний",
+    "ru": "несчастный",
+    "pl": "nieszczęśliwy",
+    "de": "unglücklich",
+    "fr": "malheureux",
+    "es": "infeliz",
+    "it": "infelice",
+    "pt": "infeliz",
+    "tr": "mutsuz"
+   },
+   "ex": {
+    "en": "He looks unhappy today."
+   }
+  },
+  {
+   "id": "emotions.scary",
+   "t": {
+    "en": "scary",
+    "uk": "страшний",
+    "ru": "страшный",
+    "pl": "straszny",
+    "de": "gruselig",
+    "fr": "effrayant",
+    "es": "aterrador",
+    "it": "spaventoso",
+    "pt": "assustador",
+    "tr": "korkunç"
+   },
+   "ex": {
+    "en": "That dog is scary."
+   }
+  },
+  {
+   "id": "emotions.to-worry",
+   "t": {
+    "en": "to worry",
+    "uk": "хвилюватися",
+    "ru": "волноваться",
+    "pl": "martwić się",
+    "de": "sich Sorgen machen",
+    "fr": "s'inquiéter",
+    "es": "preocuparse",
+    "it": "preoccuparsi",
+    "pt": "preocupar-se",
+    "tr": "endişelenmek"
+   },
+   "ex": {
+    "en": "Mum always worries about me."
+   }
+  },
+  {
+   "id": "emotions.dont-worry",
+   "t": {
+    "en": "Don't worry!",
+    "uk": "Не хвилюйся!",
+    "ru": "Не волнуйся!",
+    "pl": "Nie martw się!",
+    "de": "Keine Sorge!",
+    "fr": "Ne t'inquiète pas !",
+    "es": "¡No te preocupes!",
+    "it": "Non preoccuparti!",
+    "pt": "Não se preocupe!",
+    "tr": "Merak etme!"
+   },
+   "ex": {
+    "en": "Don't worry, it's fine."
+   }
+  },
+  {
+   "id": "emotions.bad-day",
+   "t": {
+    "en": "bad day",
+    "uk": "поганий день",
+    "ru": "плохой день",
+    "pl": "zły dzień",
+    "de": "schlechter Tag",
+    "fr": "mauvaise journée",
+    "es": "mal día",
+    "it": "brutta giornata",
+    "pt": "dia ruim",
+    "tr": "kötü gün"
+   },
+   "ex": {
+    "en": "I had a bad day at school."
+   }
+  },
+  {
+   "id": "emotions.to-feel-bad",
+   "t": {
+    "en": "to feel bad",
+    "uk": "почуватися погано",
+    "ru": "чувствовать себя плохо",
+    "pl": "czuć się źle",
+    "de": "sich schlecht fühlen",
+    "fr": "se sentir mal",
+    "es": "sentirse mal",
+    "it": "sentirsi male",
+    "pt": "sentir-se mal",
+    "tr": "kötü hissetmek"
+   },
+   "ex": {
+    "en": "I feel bad about the mistake."
+   }
+  },
+  {
+   "id": "emotions.cool",
+   "t": {
+    "en": "Cool!",
+    "uk": "Круто!",
+    "ru": "Круто!",
+    "pl": "Super!",
+    "de": "Cool!",
+    "fr": "Cool !",
+    "es": "¡Genial!",
+    "it": "Fico!",
+    "pt": "Legal!",
+    "tr": "Harika!"
+   },
+   "ex": {
+    "en": "Cool! Let's go to the park."
+   }
+  },
+  {
+   "id": "emotions.wow",
+   "t": {
+    "en": "wow!",
+    "uk": "Ого!",
+    "ru": "Ого!",
+    "pl": "Łał!",
+    "de": "Wow!",
+    "fr": "Waouh !",
+    "es": "¡Guau!",
+    "it": "Wow!",
+    "pt": "Uau!",
+    "tr": "Vay!"
+   },
+   "ex": {
+    "en": "Wow! What a great gift!"
+   }
+  },
+  {
+   "id": "emotions.so-so",
+   "t": {
+    "en": "so-so",
+    "uk": "так собі",
+    "ru": "так себе",
+    "pl": "tak sobie",
+    "de": "so lala",
+    "fr": "comme ci, comme ça",
+    "es": "más o menos",
+    "it": "così così",
+    "pt": "mais ou menos",
+    "tr": "şöyle böyle"
+   },
+   "ex": {
+    "en": "I feel so-so today."
+   }
+  },
+  {
+   "id": "emotions.mad",
+   "t": {
+    "en": "mad",
+    "uk": "злий",
+    "ru": "злой",
+    "pl": "zły",
+    "de": "sauer",
+    "fr": "fâché",
+    "es": "enfadado",
+    "it": "arrabbiato",
+    "pt": "bravo",
+    "tr": "kızgın"
+   },
+   "ex": {
+    "en": "Dad is mad at me."
+   }
+  },
+  {
+   "id": "emotions.oh-no",
+   "t": {
+    "en": "Oh no!",
+    "uk": "О ні!",
+    "ru": "О нет!",
+    "pl": "O nie!",
+    "de": "Oh nein!",
+    "fr": "Oh non !",
+    "es": "¡Oh, no!",
+    "it": "Oh no!",
+    "pt": "Ah, não!",
+    "tr": "Eyvah!"
+   },
+   "ex": {
+    "en": "Oh no! I lost my keys."
+   }
+  },
+  {
+   "id": "emotions.i-miss-you",
+   "t": {
+    "en": "I miss you",
+    "uk": "Я сумую за тобою",
+    "ru": "Я скучаю по тебе",
+    "pl": "Tęsknię za tobą",
+    "de": "Ich vermisse dich",
+    "fr": "Tu me manques",
+    "es": "Te echo de menos",
+    "it": "Mi manchi",
+    "pt": "Sinto sua falta",
+    "tr": "Seni özledim"
+   },
+   "ex": {
+    "en": "I miss you, Grandma."
+   }
+  },
+  {
+   "id": "emotions.big-smile",
+   "t": {
+    "en": "big smile",
+    "uk": "широка усмішка",
+    "ru": "широкая улыбка",
+    "pl": "szeroki uśmiech",
+    "de": "breites Lächeln",
+    "fr": "grand sourire",
+    "es": "gran sonrisa",
+    "it": "gran sorriso",
+    "pt": "sorriso largo",
+    "tr": "kocaman gülümseme"
+   },
+   "ex": {
+    "en": "He came in with a big smile."
+   }
+  },
+  {
+   "id": "emotions.brave",
+   "t": {
+    "en": "brave",
+    "uk": "хоробрий",
+    "ru": "храбрый",
+    "pl": "odważny",
+    "de": "mutig",
+    "fr": "courageux",
+    "es": "valiente",
+    "it": "coraggioso",
+    "pt": "corajoso",
+    "tr": "cesur"
+   },
+   "ex": {
+    "en": "You were very brave at the doctor's."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "education-b1",
  "topic": "education",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "education.lecture",
@@ -488,6 +488,420 @@
    },
    "ex": {
     "en": "Our chemistry teacher is very strict."
+   }
+  },
+  {
+   "id": "education.to-memorise",
+   "t": {
+    "en": "to memorise",
+    "uk": "вивчати напам'ять",
+    "ru": "заучивать",
+    "pl": "uczyć się na pamięć",
+    "de": "auswendig lernen",
+    "fr": "apprendre par cœur",
+    "es": "memorizar",
+    "it": "memorizzare",
+    "pt": "decorar",
+    "tr": "ezberlemek"
+   },
+   "ex": {
+    "en": "I need to memorise these dates."
+   }
+  },
+  {
+   "id": "education.group-project",
+   "t": {
+    "en": "group project",
+    "uk": "груповий проєкт",
+    "ru": "групповой проект",
+    "pl": "projekt grupowy",
+    "de": "Gruppenprojekt",
+    "fr": "projet de groupe",
+    "es": "proyecto en grupo",
+    "it": "progetto di gruppo",
+    "pt": "trabalho em grupo",
+    "tr": "grup projesi"
+   },
+   "ex": {
+    "en": "We are working on a group project."
+   }
+  },
+  {
+   "id": "education.attendance",
+   "t": {
+    "en": "attendance",
+    "uk": "відвідуваність",
+    "ru": "посещаемость",
+    "pl": "frekwencja",
+    "de": "Anwesenheit",
+    "fr": "assiduité",
+    "es": "asistencia",
+    "it": "frequenza",
+    "pt": "frequência",
+    "tr": "devam"
+   },
+   "ex": {
+    "en": "Attendance is compulsory for this course."
+   }
+  },
+  {
+   "id": "education.to-concentrate",
+   "t": {
+    "en": "to concentrate",
+    "uk": "зосереджуватися",
+    "ru": "сосредотачиваться",
+    "pl": "skupiać się",
+    "de": "sich konzentrieren",
+    "fr": "se concentrer",
+    "es": "concentrarse",
+    "it": "concentrarsi",
+    "pt": "concentrar-se",
+    "tr": "konsantre olmak"
+   },
+   "ex": {
+    "en": "I can't concentrate with this noise."
+   }
+  },
+  {
+   "id": "education.knowledge",
+   "t": {
+    "en": "knowledge",
+    "uk": "знання",
+    "ru": "знания",
+    "pl": "wiedza",
+    "de": "Wissen",
+    "fr": "connaissances",
+    "es": "conocimiento",
+    "it": "conoscenza",
+    "pt": "conhecimento",
+    "tr": "bilgi"
+   },
+   "ex": {
+    "en": "Reading increases your knowledge."
+   }
+  },
+  {
+   "id": "education.library-card",
+   "t": {
+    "en": "library card",
+    "uk": "читацький квиток",
+    "ru": "читательский билет",
+    "pl": "karta biblioteczna",
+    "de": "Bibliotheksausweis",
+    "fr": "carte de bibliothèque",
+    "es": "carné de biblioteca",
+    "it": "tessera della biblioteca",
+    "pt": "carteirinha da biblioteca",
+    "tr": "kütüphane kartı"
+   },
+   "ex": {
+    "en": "You need a library card to borrow books."
+   }
+  },
+  {
+   "id": "education.lecturer",
+   "t": {
+    "en": "lecturer",
+    "uk": "викладач",
+    "ru": "преподаватель",
+    "pl": "wykładowca",
+    "de": "Dozent",
+    "fr": "enseignant",
+    "es": "profesor universitario",
+    "it": "docente",
+    "pt": "professor universitário",
+    "tr": "öğretim görevlisi"
+   },
+   "ex": {
+    "en": "Our lecturer speaks very fast."
+   }
+  },
+  {
+   "id": "education.average-grade",
+   "t": {
+    "en": "average grade",
+    "uk": "середній бал",
+    "ru": "средний балл",
+    "pl": "średnia ocen",
+    "de": "Notendurchschnitt",
+    "fr": "moyenne",
+    "es": "nota media",
+    "it": "media dei voti",
+    "pt": "média",
+    "tr": "not ortalaması"
+   },
+   "ex": {
+    "en": "Her average grade is very high."
+   }
+  },
+  {
+   "id": "education.diploma",
+   "t": {
+    "en": "diploma",
+    "uk": "диплом",
+    "ru": "диплом",
+    "pl": "dyplom",
+    "de": "Diplom",
+    "fr": "diplôme",
+    "es": "diploma",
+    "it": "diploma",
+    "pt": "diploma",
+    "tr": "diploma"
+   },
+   "ex": {
+    "en": "She received her diploma in June."
+   }
+  },
+  {
+   "id": "education.graduation-ceremony",
+   "t": {
+    "en": "graduation ceremony",
+    "uk": "випускний",
+    "ru": "выпускной",
+    "pl": "rozdanie dyplomów",
+    "de": "Abschlussfeier",
+    "fr": "remise des diplômes",
+    "es": "ceremonia de graduación",
+    "it": "cerimonia di laurea",
+    "pt": "formatura",
+    "tr": "mezuniyet töreni"
+   },
+   "ex": {
+    "en": "My parents came to my graduation ceremony."
+   }
+  },
+  {
+   "id": "education.cheat-sheet",
+   "t": {
+    "en": "cheat sheet",
+    "uk": "шпаргалка",
+    "ru": "шпаргалка",
+    "pl": "ściąga",
+    "de": "Spickzettel",
+    "fr": "antisèche",
+    "es": "chuleta",
+    "it": "bigliettino",
+    "pt": "cola",
+    "tr": "kopya kağıdı"
+   },
+   "ex": {
+    "en": "The teacher found his cheat sheet."
+   }
+  },
+  {
+   "id": "education.laboratory",
+   "t": {
+    "en": "laboratory",
+    "uk": "лабораторія",
+    "ru": "лаборатория",
+    "pl": "laboratorium",
+    "de": "Labor",
+    "fr": "laboratoire",
+    "es": "laboratorio",
+    "it": "laboratorio",
+    "pt": "laboratório",
+    "tr": "laboratuvar"
+   },
+   "ex": {
+    "en": "We do experiments in the laboratory."
+   }
+  },
+  {
+   "id": "education.experiment",
+   "t": {
+    "en": "experiment",
+    "uk": "експеримент",
+    "ru": "эксперимент",
+    "pl": "eksperyment",
+    "de": "Experiment",
+    "fr": "expérience",
+    "es": "experimento",
+    "it": "esperimento",
+    "pt": "experimento",
+    "tr": "deney"
+   },
+   "ex": {
+    "en": "The experiment went wrong."
+   }
+  },
+  {
+   "id": "education.topic",
+   "t": {
+    "en": "topic",
+    "uk": "тема",
+    "ru": "тема",
+    "pl": "temat",
+    "de": "Thema",
+    "fr": "sujet",
+    "es": "tema",
+    "it": "argomento",
+    "pt": "tema",
+    "tr": "konu"
+   },
+   "ex": {
+    "en": "Choose a topic for your essay."
+   }
+  },
+  {
+   "id": "education.summary",
+   "t": {
+    "en": "summary",
+    "uk": "стислий виклад",
+    "ru": "краткое содержание",
+    "pl": "streszczenie",
+    "de": "Zusammenfassung",
+    "fr": "résumé",
+    "es": "resumen",
+    "it": "riassunto",
+    "pt": "resumo",
+    "tr": "özet"
+   },
+   "ex": {
+    "en": "Write a summary of the text."
+   }
+  },
+  {
+   "id": "education.motivation",
+   "t": {
+    "en": "motivation",
+    "uk": "мотивація",
+    "ru": "мотивация",
+    "pl": "motywacja",
+    "de": "Motivation",
+    "fr": "motivation",
+    "es": "motivación",
+    "it": "motivazione",
+    "pt": "motivação",
+    "tr": "motivasyon"
+   },
+   "ex": {
+    "en": "Students need motivation to learn."
+   }
+  },
+  {
+   "id": "education.discipline",
+   "t": {
+    "en": "discipline",
+    "uk": "дисципліна",
+    "ru": "дисциплина",
+    "pl": "dyscyplina",
+    "de": "Disziplin",
+    "fr": "discipline",
+    "es": "disciplina",
+    "it": "disciplina",
+    "pt": "disciplina",
+    "tr": "disiplin"
+   },
+   "ex": {
+    "en": "The school has strict discipline."
+   }
+  },
+  {
+   "id": "education.boarding-school",
+   "t": {
+    "en": "boarding school",
+    "uk": "школа-інтернат",
+    "ru": "школа-интернат",
+    "pl": "szkoła z internatem",
+    "de": "Internat",
+    "fr": "internat",
+    "es": "internado",
+    "it": "collegio",
+    "pt": "internato",
+    "tr": "yatılı okul"
+   },
+   "ex": {
+    "en": "He went to a boarding school in England."
+   }
+  },
+  {
+   "id": "education.state-school",
+   "t": {
+    "en": "state school",
+    "uk": "державна школа",
+    "ru": "государственная школа",
+    "pl": "szkoła publiczna",
+    "de": "staatliche Schule",
+    "fr": "école publique",
+    "es": "escuela pública",
+    "it": "scuola statale",
+    "pt": "escola pública",
+    "tr": "devlet okulu"
+   },
+   "ex": {
+    "en": "Most children go to a state school."
+   }
+  },
+  {
+   "id": "education.private-school",
+   "t": {
+    "en": "private school",
+    "uk": "приватна школа",
+    "ru": "частная школа",
+    "pl": "szkoła prywatna",
+    "de": "Privatschule",
+    "fr": "école privée",
+    "es": "escuela privada",
+    "it": "scuola privata",
+    "pt": "escola particular",
+    "tr": "özel okul"
+   },
+   "ex": {
+    "en": "Private schools can be very expensive."
+   }
+  },
+  {
+   "id": "education.to-behave",
+   "t": {
+    "en": "to behave",
+    "uk": "поводитися",
+    "ru": "вести себя",
+    "pl": "zachowywać się",
+    "de": "sich benehmen",
+    "fr": "se comporter",
+    "es": "comportarse",
+    "it": "comportarsi",
+    "pt": "comportar-se",
+    "tr": "davranmak"
+   },
+   "ex": {
+    "en": "Please behave in class."
+   }
+  },
+  {
+   "id": "education.to-make-progress",
+   "t": {
+    "en": "to make progress",
+    "uk": "робити успіхи",
+    "ru": "делать успехи",
+    "pl": "robić postępy",
+    "de": "Fortschritte machen",
+    "fr": "faire des progrès",
+    "es": "progresar",
+    "it": "fare progressi",
+    "pt": "progredir",
+    "tr": "ilerleme kaydetmek"
+   },
+   "ex": {
+    "en": "You are making good progress."
+   }
+  },
+  {
+   "id": "education.skill",
+   "t": {
+    "en": "skill",
+    "uk": "навичка",
+    "ru": "навык",
+    "pl": "umiejętność",
+    "de": "Fähigkeit",
+    "fr": "compétence",
+    "es": "habilidad",
+    "it": "abilità",
+    "pt": "habilidade",
+    "tr": "beceri"
+   },
+   "ex": {
+    "en": "Writing is an important skill."
    }
   }
  ]

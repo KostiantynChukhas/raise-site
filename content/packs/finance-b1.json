@@ -2,7 +2,7 @@
  "id": "finance-b1",
  "topic": "finance",
  "level": "b1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "finance.savings-account",
@@ -434,6 +434,474 @@
    },
    "ex": {
     "en": "I pay my phone bill by direct debit."
+   }
+  },
+  {
+   "id": "finance.to-budget",
+   "t": {
+    "en": "to budget",
+    "uk": "планувати бюджет",
+    "ru": "планировать бюджет",
+    "pl": "planować wydatki",
+    "de": "haushalten",
+    "fr": "faire un budget",
+    "es": "presupuestar",
+    "it": "pianificare le spese",
+    "pt": "fazer um orçamento",
+    "tr": "bütçe yapmak"
+   },
+   "ex": {
+    "en": "We need to budget more carefully this year."
+   }
+  },
+  {
+   "id": "finance.financial",
+   "t": {
+    "en": "financial",
+    "uk": "фінансовий",
+    "ru": "финансовый",
+    "pl": "finansowy",
+    "de": "finanziell",
+    "fr": "financier",
+    "es": "financiero",
+    "it": "finanziario",
+    "pt": "financeiro",
+    "tr": "mali"
+   },
+   "ex": {
+    "en": "The company had financial difficulties."
+   }
+  },
+  {
+   "id": "finance.wealthy",
+   "t": {
+    "en": "wealthy",
+    "uk": "заможний",
+    "ru": "состоятельный",
+    "pl": "zamożny",
+    "de": "wohlhabend",
+    "fr": "aisé",
+    "es": "adinerado",
+    "it": "benestante",
+    "pt": "abastado",
+    "tr": "varlıklı"
+   },
+   "ex": {
+    "en": "He comes from a wealthy family."
+   }
+  },
+  {
+   "id": "finance.thrifty",
+   "t": {
+    "en": "thrifty",
+    "uk": "ощадливий",
+    "ru": "бережливый",
+    "pl": "oszczędny",
+    "de": "sparsam",
+    "fr": "économe",
+    "es": "ahorrador",
+    "it": "parsimonioso",
+    "pt": "poupador",
+    "tr": "tutumlu"
+   },
+   "ex": {
+    "en": "My grandmother is very thrifty."
+   }
+  },
+  {
+   "id": "finance.stingy",
+   "t": {
+    "en": "stingy",
+    "uk": "скупий",
+    "ru": "скупой",
+    "pl": "skąpy",
+    "de": "geizig",
+    "fr": "avare",
+    "es": "tacaño",
+    "it": "tirchio",
+    "pt": "pão-duro",
+    "tr": "cimri"
+   },
+   "ex": {
+    "en": "Don't be stingy, it's your turn to pay."
+   }
+  },
+  {
+   "id": "finance.tax-free",
+   "t": {
+    "en": "tax-free",
+    "uk": "неоподатковуваний",
+    "ru": "не облагаемый налогом",
+    "pl": "wolny od podatku",
+    "de": "steuerfrei",
+    "fr": "exonéré d'impôt",
+    "es": "libre de impuestos",
+    "it": "esentasse",
+    "pt": "isento de impostos",
+    "tr": "vergisiz"
+   },
+   "ex": {
+    "en": "You can buy tax-free goods at the airport."
+   }
+  },
+  {
+   "id": "finance.to-overspend",
+   "t": {
+    "en": "to overspend",
+    "uk": "перевитрачати",
+    "ru": "перерасходовать",
+    "pl": "wydawać za dużo",
+    "de": "zu viel ausgeben",
+    "fr": "trop dépenser",
+    "es": "gastar de más",
+    "it": "spendere troppo",
+    "pt": "gastar demais",
+    "tr": "fazla harcamak"
+   },
+   "ex": {
+    "en": "It's easy to overspend at Christmas."
+   }
+  },
+  {
+   "id": "finance.commission",
+   "t": {
+    "en": "commission",
+    "uk": "комісія",
+    "ru": "комиссия",
+    "pl": "prowizja",
+    "de": "Provision",
+    "fr": "commission",
+    "es": "comisión",
+    "it": "commissione",
+    "pt": "comissão",
+    "tr": "komisyon"
+   },
+   "ex": {
+    "en": "The agent takes a ten percent commission."
+   }
+  },
+  {
+   "id": "finance.advance-payment",
+   "t": {
+    "en": "advance payment",
+    "uk": "передоплата",
+    "ru": "предоплата",
+    "pl": "przedpłata",
+    "de": "Vorauszahlung",
+    "fr": "acompte",
+    "es": "anticipo",
+    "it": "anticipo",
+    "pt": "pagamento antecipado",
+    "tr": "ön ödeme"
+   },
+   "ex": {
+    "en": "The hotel asked for an advance payment."
+   }
+  },
+  {
+   "id": "finance.standing-order",
+   "t": {
+    "en": "standing order",
+    "uk": "постійне доручення",
+    "ru": "постоянное поручение",
+    "pl": "zlecenie stałe",
+    "de": "Dauerauftrag",
+    "fr": "virement permanent",
+    "es": "transferencia periódica",
+    "it": "bonifico periodico",
+    "pt": "transferência programada",
+    "tr": "düzenli ödeme talimatı"
+   },
+   "ex": {
+    "en": "I pay my rent by standing order."
+   }
+  },
+  {
+   "id": "finance.transaction",
+   "t": {
+    "en": "transaction",
+    "uk": "транзакція",
+    "ru": "транзакция",
+    "pl": "transakcja",
+    "de": "Transaktion",
+    "fr": "transaction",
+    "es": "transacción",
+    "it": "transazione",
+    "pt": "transação",
+    "tr": "işlem"
+   },
+   "ex": {
+    "en": "Check every transaction on your statement."
+   }
+  },
+  {
+   "id": "finance.donation",
+   "t": {
+    "en": "donation",
+    "uk": "пожертва",
+    "ru": "пожертвование",
+    "pl": "darowizna",
+    "de": "Spende",
+    "fr": "don",
+    "es": "donativo",
+    "it": "donazione",
+    "pt": "doação",
+    "tr": "bağış"
+   },
+   "ex": {
+    "en": "They made a donation to the hospital."
+   }
+  },
+  {
+   "id": "finance.to-donate",
+   "t": {
+    "en": "to donate",
+    "uk": "жертвувати",
+    "ru": "жертвовать",
+    "pl": "przekazać darowiznę",
+    "de": "spenden",
+    "fr": "faire un don",
+    "es": "donar",
+    "it": "donare",
+    "pt": "doar",
+    "tr": "bağışlamak"
+   },
+   "ex": {
+    "en": "I donate to a children's charity every year."
+   }
+  },
+  {
+   "id": "finance.pay-cut",
+   "t": {
+    "en": "pay cut",
+    "uk": "зниження зарплати",
+    "ru": "снижение зарплаты",
+    "pl": "obniżka pensji",
+    "de": "Gehaltskürzung",
+    "fr": "baisse de salaire",
+    "es": "recorte salarial",
+    "it": "taglio dello stipendio",
+    "pt": "corte salarial",
+    "tr": "maaş kesintisi"
+   },
+   "ex": {
+    "en": "The staff accepted a pay cut."
+   }
+  },
+  {
+   "id": "finance.unemployment-benefit",
+   "t": {
+    "en": "unemployment benefit",
+    "uk": "допомога по безробіттю",
+    "ru": "пособие по безработице",
+    "pl": "zasiłek dla bezrobotnych",
+    "de": "Arbeitslosengeld",
+    "fr": "allocation chômage",
+    "es": "subsidio de desempleo",
+    "it": "sussidio di disoccupazione",
+    "pt": "seguro-desemprego",
+    "tr": "işsizlik maaşı"
+   },
+   "ex": {
+    "en": "He gets unemployment benefit while he looks for work."
+   }
+  },
+  {
+   "id": "finance.to-be-overdrawn",
+   "t": {
+    "en": "to be overdrawn",
+    "uk": "піти в мінус",
+    "ru": "уйти в минус",
+    "pl": "mieć debet",
+    "de": "im Minus sein",
+    "fr": "être à découvert",
+    "es": "tener un descubierto",
+    "it": "essere scoperto",
+    "pt": "estar no cheque especial",
+    "tr": "hesabı eksiye düşmek"
+   },
+   "ex": {
+    "en": "I was overdrawn by fifty euros last month."
+   }
+  },
+  {
+   "id": "finance.safe-deposit-box",
+   "t": {
+    "en": "safe deposit box",
+    "uk": "банківська комірка",
+    "ru": "банковская ячейка",
+    "pl": "skrytka bankowa",
+    "de": "Schließfach",
+    "fr": "coffre bancaire",
+    "es": "caja de seguridad",
+    "it": "cassetta di sicurezza",
+    "pt": "cofre bancário",
+    "tr": "kiralık kasa"
+   },
+   "ex": {
+    "en": "She keeps her jewellery in a safe deposit box."
+   }
+  },
+  {
+   "id": "finance.digital-wallet",
+   "t": {
+    "en": "digital wallet",
+    "uk": "цифровий гаманець",
+    "ru": "цифровой кошелёк",
+    "pl": "portfel cyfrowy",
+    "de": "digitale Geldbörse",
+    "fr": "portefeuille numérique",
+    "es": "monedero digital",
+    "it": "portafoglio digitale",
+    "pt": "carteira digital",
+    "tr": "dijital cüzdan"
+   },
+   "ex": {
+    "en": "I paid with my digital wallet."
+   }
+  },
+  {
+   "id": "finance.to-earn-a-living",
+   "t": {
+    "en": "to earn a living",
+    "uk": "заробляти на життя",
+    "ru": "зарабатывать на жизнь",
+    "pl": "zarabiać na życie",
+    "de": "seinen Lebensunterhalt verdienen",
+    "fr": "gagner sa vie",
+    "es": "ganarse la vida",
+    "it": "guadagnarsi da vivere",
+    "pt": "ganhar a vida",
+    "tr": "geçimini sağlamak"
+   },
+   "ex": {
+    "en": "He earns a living as a taxi driver."
+   }
+  },
+  {
+   "id": "finance.cost-of-living",
+   "t": {
+    "en": "cost of living",
+    "uk": "вартість життя",
+    "ru": "стоимость жизни",
+    "pl": "koszty utrzymania",
+    "de": "Lebenshaltungskosten",
+    "fr": "coût de la vie",
+    "es": "coste de la vida",
+    "it": "costo della vita",
+    "pt": "custo de vida",
+    "tr": "geçim maliyeti"
+   },
+   "ex": {
+    "en": "The cost of living keeps rising."
+   }
+  },
+  {
+   "id": "finance.joint-account",
+   "t": {
+    "en": "joint account",
+    "uk": "спільний рахунок",
+    "ru": "совместный счёт",
+    "pl": "wspólne konto",
+    "de": "Gemeinschaftskonto",
+    "fr": "compte joint",
+    "es": "cuenta conjunta",
+    "it": "conto cointestato",
+    "pt": "conta conjunta",
+    "tr": "ortak hesap"
+   },
+   "ex": {
+    "en": "We opened a joint account after the wedding."
+   }
+  },
+  {
+   "id": "finance.current-account",
+   "t": {
+    "en": "current account",
+    "uk": "поточний рахунок",
+    "ru": "текущий счёт",
+    "pl": "rachunek bieżący",
+    "de": "Girokonto",
+    "fr": "compte courant",
+    "es": "cuenta corriente",
+    "it": "conto corrente",
+    "pt": "conta corrente",
+    "tr": "vadesiz hesap"
+   },
+   "ex": {
+    "en": "My salary goes into my current account."
+   }
+  },
+  {
+   "id": "finance.economical",
+   "t": {
+    "en": "economical",
+    "uk": "економний",
+    "ru": "экономичный",
+    "pl": "ekonomiczny",
+    "de": "wirtschaftlich",
+    "fr": "économique",
+    "es": "económico",
+    "it": "economico",
+    "pt": "econômico",
+    "tr": "ekonomik"
+   },
+   "ex": {
+    "en": "A small car is more economical to run."
+   }
+  },
+  {
+   "id": "finance.to-put-aside",
+   "t": {
+    "en": "to put aside",
+    "uk": "відкладати",
+    "ru": "откладывать",
+    "pl": "odkładać",
+    "de": "zurücklegen",
+    "fr": "mettre de côté",
+    "es": "apartar",
+    "it": "mettere da parte",
+    "pt": "guardar",
+    "tr": "kenara koymak"
+   },
+   "ex": {
+    "en": "I put aside some money every week."
+   }
+  },
+  {
+   "id": "finance.economy",
+   "t": {
+    "en": "economy",
+    "uk": "економіка",
+    "ru": "экономика",
+    "pl": "gospodarka",
+    "de": "Wirtschaft",
+    "fr": "économie",
+    "es": "economía",
+    "it": "economia",
+    "pt": "economia",
+    "tr": "ekonomi"
+   },
+   "ex": {
+    "en": "The economy is growing slowly."
+   }
+  },
+  {
+   "id": "finance.charity",
+   "t": {
+    "en": "charity",
+    "uk": "благодійність",
+    "ru": "благотворительность",
+    "pl": "dobroczynność",
+    "de": "Wohltätigkeit",
+    "fr": "bienfaisance",
+    "es": "caridad",
+    "it": "beneficenza",
+    "pt": "caridade",
+    "tr": "hayır işi"
+   },
+   "ex": {
+    "en": "She gives money to charity."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "business-a1",
  "topic": "business",
  "level": "a1",
- "version": 1,
+ "version": 2,
  "concepts": [
   {
    "id": "business.company",
@@ -542,6 +542,366 @@
    },
    "ex": {
     "en": "I will call you back later."
+   }
+  },
+  {
+   "id": "business.director",
+   "t": {
+    "en": "director",
+    "uk": "директор",
+    "ru": "директор",
+    "pl": "dyrektor",
+    "de": "Direktor",
+    "fr": "directeur",
+    "es": "director",
+    "it": "direttore",
+    "pt": "diretor",
+    "tr": "müdür"
+   },
+   "ex": {
+    "en": "The director is in her office."
+   }
+  },
+  {
+   "id": "business.secretary",
+   "t": {
+    "en": "secretary",
+    "uk": "секретар",
+    "ru": "секретарь",
+    "pl": "sekretarz",
+    "de": "Sekretär",
+    "fr": "secrétaire",
+    "es": "secretario",
+    "it": "segretario",
+    "pt": "secretário",
+    "tr": "sekreter"
+   },
+   "ex": {
+    "en": "Ask the secretary for help."
+   }
+  },
+  {
+   "id": "business.businessman",
+   "t": {
+    "en": "businessman",
+    "uk": "бізнесмен",
+    "ru": "бизнесмен",
+    "pl": "biznesmen",
+    "de": "Geschäftsmann",
+    "fr": "homme d'affaires",
+    "es": "hombre de negocios",
+    "it": "uomo d'affari",
+    "pt": "homem de negócios",
+    "tr": "iş adamı"
+   },
+   "ex": {
+    "en": "He is a successful businessman."
+   }
+  },
+  {
+   "id": "business.businesswoman",
+   "t": {
+    "en": "businesswoman",
+    "uk": "ділова жінка",
+    "ru": "деловая женщина",
+    "pl": "bizneswoman",
+    "de": "Geschäftsfrau",
+    "fr": "femme d'affaires",
+    "es": "mujer de negocios",
+    "it": "donna d'affari",
+    "pt": "mulher de negócios",
+    "tr": "iş kadını"
+   },
+   "ex": {
+    "en": "She is a busy businesswoman."
+   }
+  },
+  {
+   "id": "business.business",
+   "t": {
+    "en": "business",
+    "uk": "бізнес",
+    "ru": "бизнес",
+    "pl": "biznes",
+    "de": "Geschäft",
+    "fr": "entreprise",
+    "es": "negocio",
+    "it": "attività",
+    "pt": "negócio",
+    "tr": "işletme"
+   },
+   "ex": {
+    "en": "He has his own business."
+   }
+  },
+  {
+   "id": "business.visitor",
+   "t": {
+    "en": "visitor",
+    "uk": "відвідувач",
+    "ru": "посетитель",
+    "pl": "odwiedzający",
+    "de": "Besucher",
+    "fr": "visiteur",
+    "es": "visitante",
+    "it": "visitatore",
+    "pt": "visitante",
+    "tr": "ziyaretçi"
+   },
+   "ex": {
+    "en": "A visitor is waiting at the door."
+   }
+  },
+  {
+   "id": "business.service",
+   "t": {
+    "en": "service",
+    "uk": "послуга",
+    "ru": "услуга",
+    "pl": "usługa",
+    "de": "Dienstleistung",
+    "fr": "service",
+    "es": "servicio",
+    "it": "servizio",
+    "pt": "serviço",
+    "tr": "hizmet"
+   },
+   "ex": {
+    "en": "We offer a fast service."
+   }
+  },
+  {
+   "id": "business.owner",
+   "t": {
+    "en": "owner",
+    "uk": "власник",
+    "ru": "владелец",
+    "pl": "właściciel",
+    "de": "Inhaber",
+    "fr": "propriétaire",
+    "es": "propietario",
+    "it": "proprietario",
+    "pt": "dono",
+    "tr": "sahip"
+   },
+   "ex": {
+    "en": "The owner of the shop is Anna."
+   }
+  },
+  {
+   "id": "business.important",
+   "t": {
+    "en": "important",
+    "uk": "важливий",
+    "ru": "важный",
+    "pl": "ważny",
+    "de": "wichtig",
+    "fr": "important",
+    "es": "importante",
+    "it": "importante",
+    "pt": "importante",
+    "tr": "önemli"
+   },
+   "ex": {
+    "en": "This meeting is very important."
+   }
+  },
+  {
+   "id": "business.to-open-a-shop",
+   "t": {
+    "en": "to open a shop",
+    "uk": "відкрити магазин",
+    "ru": "открыть магазин",
+    "pl": "otworzyć sklep",
+    "de": "einen Laden eröffnen",
+    "fr": "ouvrir un magasin",
+    "es": "abrir una tienda",
+    "it": "aprire un negozio",
+    "pt": "abrir uma loja",
+    "tr": "dükkân açmak"
+   },
+   "ex": {
+    "en": "She wants to open a shop."
+   }
+  },
+  {
+   "id": "business.company-car",
+   "t": {
+    "en": "company car",
+    "uk": "службовий автомобіль",
+    "ru": "служебная машина",
+    "pl": "samochód służbowy",
+    "de": "Firmenwagen",
+    "fr": "voiture de fonction",
+    "es": "coche de empresa",
+    "it": "auto aziendale",
+    "pt": "carro da empresa",
+    "tr": "şirket arabası"
+   },
+   "ex": {
+    "en": "He drives a company car."
+   }
+  },
+  {
+   "id": "business.coffee-machine",
+   "t": {
+    "en": "coffee machine",
+    "uk": "кавоварка",
+    "ru": "кофемашина",
+    "pl": "ekspres do kawy",
+    "de": "Kaffeemaschine",
+    "fr": "machine à café",
+    "es": "cafetera",
+    "it": "macchina del caffè",
+    "pt": "máquina de café",
+    "tr": "kahve makinesi"
+   },
+   "ex": {
+    "en": "The coffee machine is in the kitchen."
+   }
+  },
+  {
+   "id": "business.for-sale",
+   "t": {
+    "en": "for sale",
+    "uk": "на продаж",
+    "ru": "на продажу",
+    "pl": "na sprzedaż",
+    "de": "zu verkaufen",
+    "fr": "à vendre",
+    "es": "en venta",
+    "it": "in vendita",
+    "pt": "à venda",
+    "tr": "satılık"
+   },
+   "ex": {
+    "en": "This car is for sale."
+   }
+  },
+  {
+   "id": "business.name-tag",
+   "t": {
+    "en": "name tag",
+    "uk": "бейдж",
+    "ru": "бейдж",
+    "pl": "identyfikator",
+    "de": "Namensschild",
+    "fr": "badge",
+    "es": "credencial",
+    "it": "cartellino",
+    "pt": "crachá",
+    "tr": "yaka kartı"
+   },
+   "ex": {
+    "en": "Please wear your name tag."
+   }
+  },
+  {
+   "id": "business.to-meet-a-client",
+   "t": {
+    "en": "to meet a client",
+    "uk": "зустрітися з клієнтом",
+    "ru": "встретиться с клиентом",
+    "pl": "spotkać się z klientem",
+    "de": "einen Kunden treffen",
+    "fr": "rencontrer un client",
+    "es": "reunirse con un cliente",
+    "it": "incontrare un cliente",
+    "pt": "encontrar um cliente",
+    "tr": "müşteriyle buluşmak"
+   },
+   "ex": {
+    "en": "I meet a client at ten."
+   }
+  },
+  {
+   "id": "business.work-phone",
+   "t": {
+    "en": "work phone",
+    "uk": "робочий телефон",
+    "ru": "рабочий телефон",
+    "pl": "telefon służbowy",
+    "de": "Diensttelefon",
+    "fr": "téléphone professionnel",
+    "es": "teléfono del trabajo",
+    "it": "telefono di lavoro",
+    "pt": "telefone do trabalho",
+    "tr": "iş telefonu"
+   },
+   "ex": {
+    "en": "Call me on my work phone."
+   }
+  },
+  {
+   "id": "business.office-building",
+   "t": {
+    "en": "office building",
+    "uk": "офісна будівля",
+    "ru": "офисное здание",
+    "pl": "biurowiec",
+    "de": "Bürogebäude",
+    "fr": "immeuble de bureaux",
+    "es": "edificio de oficinas",
+    "it": "edificio per uffici",
+    "pt": "prédio comercial",
+    "tr": "ofis binası"
+   },
+   "ex": {
+    "en": "Our office building is very tall."
+   }
+  },
+  {
+   "id": "business.working-day",
+   "t": {
+    "en": "working day",
+    "uk": "робочий день",
+    "ru": "рабочий день",
+    "pl": "dzień roboczy",
+    "de": "Arbeitstag",
+    "fr": "jour ouvrable",
+    "es": "día laborable",
+    "it": "giorno lavorativo",
+    "pt": "dia útil",
+    "tr": "iş günü"
+   },
+   "ex": {
+    "en": "Monday is a working day."
+   }
+  },
+  {
+   "id": "business.to-work-hard",
+   "t": {
+    "en": "to work hard",
+    "uk": "багато працювати",
+    "ru": "много работать",
+    "pl": "ciężko pracować",
+    "de": "hart arbeiten",
+    "fr": "travailler dur",
+    "es": "trabajar duro",
+    "it": "lavorare sodo",
+    "pt": "trabalhar duro",
+    "tr": "çok çalışmak"
+   },
+   "ex": {
+    "en": "She works hard every day."
+   }
+  },
+  {
+   "id": "business.new-employee",
+   "t": {
+    "en": "new employee",
+    "uk": "новий працівник",
+    "ru": "новый сотрудник",
+    "pl": "nowy pracownik",
+    "de": "neuer Mitarbeiter",
+    "fr": "nouvel employé",
+    "es": "nuevo empleado",
+    "it": "nuovo dipendente",
+    "pt": "novo funcionário",
+    "tr": "yeni çalışan"
+   },
+   "ex": {
+    "en": "Say hello to our new employee."
    }
   }
  ]
