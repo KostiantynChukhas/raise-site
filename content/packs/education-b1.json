@@ -2,7 +2,7 @@
  "id": "education-b1",
  "topic": "education",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "education.lecture",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Writing is an important skill."
+   }
+  },
+  {
+   "id": "education.to-apply-for",
+   "t": {
+    "en": "to apply for",
+    "uk": "подавати заявку на",
+    "ru": "подавать заявку на",
+    "pl": "ubiegać się o",
+    "de": "sich bewerben um",
+    "fr": "postuler à",
+    "es": "solicitar",
+    "it": "fare domanda per",
+    "pt": "candidatar-se a",
+    "tr": "başvurmak"
+   },
+   "ex": {
+    "en": "She applied for a scholarship."
+   }
+  },
+  {
+   "id": "education.application-form",
+   "t": {
+    "en": "application form",
+    "uk": "бланк заяви",
+    "ru": "бланк заявления",
+    "pl": "formularz zgłoszeniowy",
+    "de": "Anmeldeformular",
+    "fr": "formulaire de candidature",
+    "es": "formulario de solicitud",
+    "it": "modulo di domanda",
+    "pt": "formulário de inscrição",
+    "tr": "başvuru formu"
+   },
+   "ex": {
+    "en": "Fill in the application form."
+   }
+  },
+  {
+   "id": "education.to-praise",
+   "t": {
+    "en": "to praise",
+    "uk": "хвалити",
+    "ru": "хвалить",
+    "pl": "chwalić",
+    "de": "loben",
+    "fr": "féliciter",
+    "es": "elogiar",
+    "it": "lodare",
+    "pt": "elogiar",
+    "tr": "övmek"
+   },
+   "ex": {
+    "en": "The teacher praised my essay."
+   }
+  },
+  {
+   "id": "education.to-punish",
+   "t": {
+    "en": "to punish",
+    "uk": "карати",
+    "ru": "наказывать",
+    "pl": "karać",
+    "de": "bestrafen",
+    "fr": "punir",
+    "es": "castigar",
+    "it": "punire",
+    "pt": "castigar",
+    "tr": "cezalandırmak"
+   },
+   "ex": {
+    "en": "The school punished the bullies."
+   }
+  },
+  {
+   "id": "education.school-rules",
+   "t": {
+    "en": "school rules",
+    "uk": "шкільні правила",
+    "ru": "школьные правила",
+    "pl": "regulamin szkoły",
+    "de": "Schulordnung",
+    "fr": "règlement intérieur",
+    "es": "normas del colegio",
+    "it": "regolamento scolastico",
+    "pt": "regras da escola",
+    "tr": "okul kuralları"
+   },
+   "ex": {
+    "en": "Read the school rules carefully."
+   }
+  },
+  {
+   "id": "education.exam-results",
+   "t": {
+    "en": "exam results",
+    "uk": "результати іспитів",
+    "ru": "результаты экзаменов",
+    "pl": "wyniki egzaminów",
+    "de": "Prüfungsergebnisse",
+    "fr": "résultats d'examen",
+    "es": "resultados de los exámenes",
+    "it": "risultati degli esami",
+    "pt": "resultados das provas",
+    "tr": "sınav sonuçları"
+   },
+   "ex": {
+    "en": "Exam results come out in July."
+   }
+  },
+  {
+   "id": "education.to-study-abroad",
+   "t": {
+    "en": "to study abroad",
+    "uk": "навчатися за кордоном",
+    "ru": "учиться за границей",
+    "pl": "studiować za granicą",
+    "de": "im Ausland studieren",
+    "fr": "étudier à l'étranger",
+    "es": "estudiar en el extranjero",
+    "it": "studiare all'estero",
+    "pt": "estudar no exterior",
+    "tr": "yurt dışında okumak"
+   },
+   "ex": {
+    "en": "I want to study abroad next year."
+   }
+  },
+  {
+   "id": "education.exchange-student",
+   "t": {
+    "en": "exchange student",
+    "uk": "студент за обміном",
+    "ru": "студент по обмену",
+    "pl": "student z wymiany",
+    "de": "Austauschstudent",
+    "fr": "étudiant en échange",
+    "es": "estudiante de intercambio",
+    "it": "studente di scambio",
+    "pt": "estudante de intercâmbio",
+    "tr": "değişim öğrencisi"
+   },
+   "ex": {
+    "en": "An exchange student lives with us."
+   }
+  },
+  {
+   "id": "education.international-student",
+   "t": {
+    "en": "international student",
+    "uk": "іноземний студент",
+    "ru": "иностранный студент",
+    "pl": "student zagraniczny",
+    "de": "internationaler Student",
+    "fr": "étudiant étranger",
+    "es": "estudiante extranjero",
+    "it": "studente straniero",
+    "pt": "estudante estrangeiro",
+    "tr": "uluslararası öğrenci"
+   },
+   "ex": {
+    "en": "Many international students study here."
+   }
+  },
+  {
+   "id": "education.education-system",
+   "t": {
+    "en": "education system",
+    "uk": "система освіти",
+    "ru": "система образования",
+    "pl": "system edukacji",
+    "de": "Bildungssystem",
+    "fr": "système éducatif",
+    "es": "sistema educativo",
+    "it": "sistema d'istruzione",
+    "pt": "sistema educacional",
+    "tr": "eğitim sistemi"
+   },
+   "ex": {
+    "en": "The education system is changing."
+   }
+  },
+  {
+   "id": "education.to-pay-attention",
+   "t": {
+    "en": "to pay attention",
+    "uk": "звертати увагу",
+    "ru": "обращать внимание",
+    "pl": "uważać",
+    "de": "aufpassen",
+    "fr": "faire attention",
+    "es": "prestar atención",
+    "it": "fare attenzione",
+    "pt": "prestar atenção",
+    "tr": "dikkat etmek"
+   },
+   "ex": {
+    "en": "Please pay attention in class."
+   }
+  },
+  {
+   "id": "education.to-distract",
+   "t": {
+    "en": "to distract",
+    "uk": "відволікати",
+    "ru": "отвлекать",
+    "pl": "rozpraszać",
+    "de": "ablenken",
+    "fr": "distraire",
+    "es": "distraer",
+    "it": "distrarre",
+    "pt": "distrair",
+    "tr": "dikkatini dağıtmak"
+   },
+   "ex": {
+    "en": "Don't distract your classmates."
+   }
+  },
+  {
+   "id": "education.study-group",
+   "t": {
+    "en": "study group",
+    "uk": "група для спільного навчання",
+    "ru": "группа для совместной учёбы",
+    "pl": "grupa do nauki",
+    "de": "Lerngruppe",
+    "fr": "groupe d'étude",
+    "es": "grupo de estudio",
+    "it": "gruppo di studio",
+    "pt": "grupo de estudos",
+    "tr": "çalışma grubu"
+   },
+   "ex": {
+    "en": "Our study group meets on Mondays."
+   }
+  },
+  {
+   "id": "education.revision",
+   "t": {
+    "en": "revision",
+    "uk": "повторення",
+    "ru": "повторение",
+    "pl": "powtórka",
+    "de": "Wiederholung",
+    "fr": "révisions",
+    "es": "repaso",
+    "it": "ripasso",
+    "pt": "revisão",
+    "tr": "tekrar"
+   },
+   "ex": {
+    "en": "Revision starts a month before exams."
+   }
+  },
+  {
+   "id": "education.handwriting",
+   "t": {
+    "en": "handwriting",
+    "uk": "почерк",
+    "ru": "почерк",
+    "pl": "charakter pisma",
+    "de": "Handschrift",
+    "fr": "écriture",
+    "es": "letra",
+    "it": "calligrafia",
+    "pt": "letra",
+    "tr": "el yazısı"
+   },
+   "ex": {
+    "en": "Your handwriting is hard to read."
+   }
+  },
+  {
+   "id": "education.spelling-mistake",
+   "t": {
+    "en": "spelling mistake",
+    "uk": "орфографічна помилка",
+    "ru": "орфографическая ошибка",
+    "pl": "błąd ortograficzny",
+    "de": "Rechtschreibfehler",
+    "fr": "faute d'orthographe",
+    "es": "falta de ortografía",
+    "it": "errore di ortografia",
+    "pt": "erro de ortografia",
+    "tr": "yazım hatası"
+   },
+   "ex": {
+    "en": "There's a spelling mistake here."
+   }
+  },
+  {
+   "id": "education.pronunciation",
+   "t": {
+    "en": "pronunciation",
+    "uk": "вимова",
+    "ru": "произношение",
+    "pl": "wymowa",
+    "de": "Aussprache",
+    "fr": "prononciation",
+    "es": "pronunciación",
+    "it": "pronuncia",
+    "pt": "pronúncia",
+    "tr": "telaffuz"
+   },
+   "ex": {
+    "en": "Her pronunciation is very good."
+   }
+  },
+  {
+   "id": "education.fluent",
+   "t": {
+    "en": "fluent",
+    "uk": "вільний",
+    "ru": "беглый",
+    "pl": "płynny",
+    "de": "fließend",
+    "fr": "courant",
+    "es": "fluido",
+    "it": "fluente",
+    "pt": "fluente",
+    "tr": "akıcı"
+   },
+   "ex": {
+    "en": "She is fluent in German."
+   }
+  },
+  {
+   "id": "education.native-speaker",
+   "t": {
+    "en": "native speaker",
+    "uk": "носій мови",
+    "ru": "носитель языка",
+    "pl": "rodzimy użytkownik języka",
+    "de": "Muttersprachler",
+    "fr": "locuteur natif",
+    "es": "hablante nativo",
+    "it": "madrelingua",
+    "pt": "falante nativo",
+    "tr": "ana dili konuşan kişi"
+   },
+   "ex": {
+    "en": "Our teacher is a native speaker."
+   }
+  },
+  {
+   "id": "education.accent",
+   "t": {
+    "en": "accent",
+    "uk": "акцент",
+    "ru": "акцент",
+    "pl": "akcent",
+    "de": "Akzent",
+    "fr": "accent",
+    "es": "acento",
+    "it": "accento",
+    "pt": "sotaque",
+    "tr": "aksan"
+   },
+   "ex": {
+    "en": "He has a strong French accent."
+   }
+  },
+  {
+   "id": "education.intermediate",
+   "t": {
+    "en": "intermediate",
+    "uk": "середній рівень",
+    "ru": "средний уровень",
+    "pl": "poziom średnio zaawansowany",
+    "de": "Mittelstufe",
+    "fr": "niveau intermédiaire",
+    "es": "nivel intermedio",
+    "it": "livello intermedio",
+    "pt": "nível intermediário",
+    "tr": "orta seviye"
+   },
+   "ex": {
+    "en": "I'm in the intermediate class."
+   }
+  },
+  {
+   "id": "education.advanced",
+   "t": {
+    "en": "advanced",
+    "uk": "просунутий",
+    "ru": "продвинутый",
+    "pl": "zaawansowany",
+    "de": "fortgeschritten",
+    "fr": "avancé",
+    "es": "avanzado",
+    "it": "avanzato",
+    "pt": "avançado",
+    "tr": "ileri düzey"
+   },
+   "ex": {
+    "en": "This is an advanced course."
+   }
+  },
+  {
+   "id": "education.placement-test",
+   "t": {
+    "en": "placement test",
+    "uk": "тест на визначення рівня",
+    "ru": "тест на определение уровня",
+    "pl": "test poziomujący",
+    "de": "Einstufungstest",
+    "fr": "test de niveau",
+    "es": "prueba de nivel",
+    "it": "test di livello",
+    "pt": "teste de nivelamento",
+    "tr": "seviye tespit sınavı"
+   },
+   "ex": {
+    "en": "Take the placement test first."
+   }
+  },
+  {
+   "id": "education.enrolment",
+   "t": {
+    "en": "enrolment",
+    "uk": "зарахування",
+    "ru": "зачисление",
+    "pl": "zapisy",
+    "de": "Einschreibung",
+    "fr": "inscription",
+    "es": "matrícula",
+    "it": "iscrizione",
+    "pt": "matrícula",
+    "tr": "kayıt"
+   },
+   "ex": {
+    "en": "Enrolment closes on Friday."
+   }
+  },
+  {
+   "id": "education.school-nurse",
+   "t": {
+    "en": "school nurse",
+    "uk": "шкільна медсестра",
+    "ru": "школьная медсестра",
+    "pl": "pielęgniarka szkolna",
+    "de": "Schulkrankenschwester",
+    "fr": "infirmière scolaire",
+    "es": "enfermera escolar",
+    "it": "infermiera scolastica",
+    "pt": "enfermeira da escola",
+    "tr": "okul hemşiresi"
+   },
+   "ex": {
+    "en": "I felt sick and saw the school nurse."
+   }
+  },
+  {
+   "id": "education.student-union",
+   "t": {
+    "en": "student union",
+    "uk": "студентська рада",
+    "ru": "студенческий совет",
+    "pl": "samorząd studencki",
+    "de": "Studierendenvertretung",
+    "fr": "association étudiante",
+    "es": "asociación de estudiantes",
+    "it": "associazione studentesca",
+    "pt": "diretório acadêmico",
+    "tr": "öğrenci birliği"
+   },
+   "ex": {
+    "en": "Join the student union this year."
+   }
+  },
+  {
+   "id": "education.school-counsellor",
+   "t": {
+    "en": "school counsellor",
+    "uk": "шкільний психолог",
+    "ru": "школьный психолог",
+    "pl": "psycholog szkolny",
+    "de": "Schulpsychologe",
+    "fr": "psychologue scolaire",
+    "es": "psicólogo escolar",
+    "it": "psicologo scolastico",
+    "pt": "psicólogo escolar",
+    "tr": "rehber öğretmen"
+   },
+   "ex": {
+    "en": "Talk to the school counsellor."
+   }
+  },
+  {
+   "id": "education.careers-advice",
+   "t": {
+    "en": "careers advice",
+    "uk": "профорієнтація",
+    "ru": "профориентация",
+    "pl": "doradztwo zawodowe",
+    "de": "Berufsberatung",
+    "fr": "orientation professionnelle",
+    "es": "orientación profesional",
+    "it": "orientamento professionale",
+    "pt": "orientação profissional",
+    "tr": "kariyer danışmanlığı"
+   },
+   "ex": {
+    "en": "We got careers advice at school."
+   }
+  },
+  {
+   "id": "education.to-repeat-a-year",
+   "t": {
+    "en": "to repeat a year",
+    "uk": "залишитися на другий рік",
+    "ru": "остаться на второй год",
+    "pl": "powtarzać klasę",
+    "de": "sitzenbleiben",
+    "fr": "redoubler",
+    "es": "repetir curso",
+    "it": "ripetere l'anno",
+    "pt": "repetir de ano",
+    "tr": "sınıfta kalmak"
+   },
+   "ex": {
+    "en": "He had to repeat a year."
+   }
+  },
+  {
+   "id": "education.talented",
+   "t": {
+    "en": "talented",
+    "uk": "талановитий",
+    "ru": "талантливый",
+    "pl": "utalentowany",
+    "de": "talentiert",
+    "fr": "talentueux",
+    "es": "talentoso",
+    "it": "talentuoso",
+    "pt": "talentoso",
+    "tr": "yetenekli"
+   },
+   "ex": {
+    "en": "She is a talented student."
+   }
+  },
+  {
+   "id": "education.outstanding",
+   "t": {
+    "en": "outstanding",
+    "uk": "видатний",
+    "ru": "выдающийся",
+    "pl": "wybitny",
+    "de": "hervorragend",
+    "fr": "remarquable",
+    "es": "sobresaliente",
+    "it": "eccezionale",
+    "pt": "excepcional",
+    "tr": "olağanüstü"
+   },
+   "ex": {
+    "en": "His results are outstanding."
+   }
+  },
+  {
+   "id": "education.paragraph",
+   "t": {
+    "en": "paragraph",
+    "uk": "абзац",
+    "ru": "абзац",
+    "pl": "akapit",
+    "de": "Absatz",
+    "fr": "paragraphe",
+    "es": "párrafo",
+    "it": "paragrafo",
+    "pt": "parágrafo",
+    "tr": "paragraf"
+   },
+   "ex": {
+    "en": "Write one paragraph about yourself."
+   }
+  },
+  {
+   "id": "education.to-summarise",
+   "t": {
+    "en": "to summarise",
+    "uk": "стисло викладати",
+    "ru": "кратко излагать",
+    "pl": "streszczać",
+    "de": "zusammenfassen",
+    "fr": "résumer",
+    "es": "resumir",
+    "it": "riassumere",
+    "pt": "resumir",
+    "tr": "özetlemek"
+   },
+   "ex": {
+    "en": "Summarise the text in five lines."
+   }
+  },
+  {
+   "id": "education.to-analyse",
+   "t": {
+    "en": "to analyse",
+    "uk": "аналізувати",
+    "ru": "анализировать",
+    "pl": "analizować",
+    "de": "analysieren",
+    "fr": "analyser",
+    "es": "analizar",
+    "it": "analizzare",
+    "pt": "analisar",
+    "tr": "analiz etmek"
+   },
+   "ex": {
+    "en": "Analyse the poem's structure."
+   }
+  },
+  {
+   "id": "education.debate",
+   "t": {
+    "en": "debate",
+    "uk": "дебати",
+    "ru": "дебаты",
+    "pl": "debata",
+    "de": "Debatte",
+    "fr": "débat",
+    "es": "debate",
+    "it": "dibattito",
+    "pt": "debate",
+    "tr": "münazara"
+   },
+   "ex": {
+    "en": "We had a class debate."
+   }
+  },
+  {
+   "id": "education.discussion",
+   "t": {
+    "en": "discussion",
+    "uk": "обговорення",
+    "ru": "обсуждение",
+    "pl": "dyskusja",
+    "de": "Diskussion",
+    "fr": "discussion",
+    "es": "discusión",
+    "it": "discussione",
+    "pt": "discussão",
+    "tr": "tartışma"
+   },
+   "ex": {
+    "en": "The discussion was interesting."
+   }
+  },
+  {
+   "id": "education.to-take-part-in",
+   "t": {
+    "en": "to take part in",
+    "uk": "брати участь у",
+    "ru": "принимать участие в",
+    "pl": "brać udział w",
+    "de": "teilnehmen an",
+    "fr": "participer à",
+    "es": "participar en",
+    "it": "partecipare a",
+    "pt": "participar de",
+    "tr": "katılmak"
+   },
+   "ex": {
+    "en": "I took part in the competition."
+   }
+  },
+  {
+   "id": "education.absence",
+   "t": {
+    "en": "absence",
+    "uk": "відсутність",
+    "ru": "отсутствие",
+    "pl": "nieobecność",
+    "de": "Abwesenheit",
+    "fr": "absence",
+    "es": "ausencia",
+    "it": "assenza",
+    "pt": "falta",
+    "tr": "devamsızlık"
+   },
+   "ex": {
+    "en": "Too many absences are a problem."
+   }
+  },
+  {
+   "id": "education.to-miss-a-lesson",
+   "t": {
+    "en": "to miss a lesson",
+    "uk": "пропускати урок",
+    "ru": "пропускать урок",
+    "pl": "opuszczać lekcję",
+    "de": "eine Stunde verpassen",
+    "fr": "manquer un cours",
+    "es": "faltar a clase",
+    "it": "perdere una lezione",
+    "pt": "perder uma aula",
+    "tr": "ders kaçırmak"
+   },
+   "ex": {
+    "en": "I missed a lesson because I was ill."
+   }
+  },
+  {
+   "id": "education.online-learning",
+   "t": {
+    "en": "online learning",
+    "uk": "онлайн-навчання",
+    "ru": "онлайн-обучение",
+    "pl": "nauka online",
+    "de": "Online-Lernen",
+    "fr": "apprentissage en ligne",
+    "es": "aprendizaje en línea",
+    "it": "apprendimento online",
+    "pt": "aprendizado online",
+    "tr": "çevrimiçi öğrenme"
+   },
+   "ex": {
+    "en": "Online learning is very flexible."
+   }
+  },
+  {
+   "id": "education.deputy-head",
+   "t": {
+    "en": "deputy head",
+    "uk": "заступник директора",
+    "ru": "заместитель директора",
+    "pl": "wicedyrektor",
+    "de": "stellvertretender Schulleiter",
+    "fr": "directeur adjoint",
+    "es": "subdirector",
+    "it": "vicepreside",
+    "pt": "vice-diretor",
+    "tr": "müdür yardımcısı"
+   },
+   "ex": {
+    "en": "The deputy head called my parents."
+   }
+  },
+  {
+   "id": "education.education",
+   "t": {
+    "en": "education",
+    "uk": "освіта",
+    "ru": "образование",
+    "pl": "edukacja",
+    "de": "Bildung",
+    "fr": "éducation",
+    "es": "educación",
+    "it": "istruzione",
+    "pt": "educação",
+    "tr": "eğitim"
+   },
+   "ex": {
+    "en": "Education is the key to success."
+   }
+  },
+  {
+   "id": "education.high-school",
+   "t": {
+    "en": "high school",
+    "uk": "старша школа",
+    "ru": "старшая школа",
+    "pl": "liceum",
+    "de": "Oberschule",
+    "fr": "lycée",
+    "es": "instituto",
+    "it": "liceo",
+    "pt": "ensino médio",
+    "tr": "lise"
+   },
+   "ex": {
+    "en": "She's in her last year of high school."
+   }
+  },
+  {
+   "id": "education.to-describe",
+   "t": {
+    "en": "to describe",
+    "uk": "описувати",
+    "ru": "описывать",
+    "pl": "opisywać",
+    "de": "beschreiben",
+    "fr": "décrire",
+    "es": "describir",
+    "it": "descrivere",
+    "pt": "descrever",
+    "tr": "tarif etmek"
+   },
+   "ex": {
+    "en": "Describe the picture in English."
+   }
+  },
+  {
+   "id": "education.opinion",
+   "t": {
+    "en": "opinion",
+    "uk": "думка",
+    "ru": "мнение",
+    "pl": "opinia",
+    "de": "Meinung",
+    "fr": "opinion",
+    "es": "opinión",
+    "it": "opinione",
+    "pt": "opinião",
+    "tr": "görüş"
+   },
+   "ex": {
+    "en": "What's your opinion on this?"
+   }
+  },
+  {
+   "id": "education.source",
+   "t": {
+    "en": "source",
+    "uk": "джерело",
+    "ru": "источник",
+    "pl": "źródło",
+    "de": "Quelle",
+    "fr": "source",
+    "es": "fuente",
+    "it": "fonte",
+    "pt": "fonte",
+    "tr": "kaynak"
+   },
+   "ex": {
+    "en": "Always check your sources."
+   }
+  },
+  {
+   "id": "education.well-behaved",
+   "t": {
+    "en": "well-behaved",
+    "uk": "слухняний",
+    "ru": "послушный",
+    "pl": "grzeczny",
+    "de": "brav",
+    "fr": "sage",
+    "es": "obediente",
+    "it": "educato",
+    "pt": "comportado",
+    "tr": "uslu"
+   },
+   "ex": {
+    "en": "The class was well-behaved today."
+   }
+  },
+  {
+   "id": "education.concentration",
+   "t": {
+    "en": "concentration",
+    "uk": "зосередженість",
+    "ru": "сосредоточенность",
+    "pl": "koncentracja",
+    "de": "Konzentration",
+    "fr": "concentration",
+    "es": "concentración",
+    "it": "concentrazione",
+    "pt": "concentração",
+    "tr": "konsantrasyon"
+   },
+   "ex": {
+    "en": "Noise ruins my concentration."
+   }
+  },
+  {
+   "id": "education.focused",
+   "t": {
+    "en": "focused",
+    "uk": "зосереджений",
+    "ru": "сосредоточенный",
+    "pl": "skupiony",
+    "de": "konzentriert",
+    "fr": "concentré",
+    "es": "concentrado",
+    "it": "concentrato",
+    "pt": "focado",
+    "tr": "odaklanmış"
+   },
+   "ex": {
+    "en": "Stay focused during the exam."
+   }
+  },
+  {
+   "id": "education.homework-diary",
+   "t": {
+    "en": "homework diary",
+    "uk": "щоденник",
+    "ru": "дневник",
+    "pl": "dzienniczek",
+    "de": "Hausaufgabenheft",
+    "fr": "cahier de textes",
+    "es": "agenda escolar",
+    "it": "diario scolastico",
+    "pt": "agenda escolar",
+    "tr": "ödev defteri"
+   },
+   "ex": {
+    "en": "Write it in your homework diary."
    }
   }
  ]

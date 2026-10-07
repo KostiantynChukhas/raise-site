@@ -2,7 +2,7 @@
  "id": "nature-a2",
  "topic": "nature",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "nature.storm",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "There are fish in the pond."
+   }
+  },
+  {
+   "id": "nature.snowflake",
+   "t": {
+    "en": "snowflake",
+    "uk": "сніжинка",
+    "ru": "снежинка",
+    "pl": "płatek śniegu",
+    "de": "Schneeflocke",
+    "fr": "flocon de neige",
+    "es": "copo de nieve",
+    "it": "fiocco di neve",
+    "pt": "floco de neve",
+    "tr": "kar tanesi"
+   },
+   "ex": {
+    "en": "A snowflake fell on my nose."
+   }
+  },
+  {
+   "id": "nature.puddle",
+   "t": {
+    "en": "puddle",
+    "uk": "калюжа",
+    "ru": "лужа",
+    "pl": "kałuża",
+    "de": "Pfütze",
+    "fr": "flaque",
+    "es": "charco",
+    "it": "pozzanghera",
+    "pt": "poça",
+    "tr": "su birikintisi"
+   },
+   "ex": {
+    "en": "The child jumped into the puddle."
+   }
+  },
+  {
+   "id": "nature.raindrop",
+   "t": {
+    "en": "raindrop",
+    "uk": "дощова крапля",
+    "ru": "капля дождя",
+    "pl": "kropla deszczu",
+    "de": "Regentropfen",
+    "fr": "goutte de pluie",
+    "es": "gota de lluvia",
+    "it": "goccia di pioggia",
+    "pt": "gota de chuva",
+    "tr": "yağmur damlası"
+   },
+   "ex": {
+    "en": "I felt a raindrop on my face."
+   }
+  },
+  {
+   "id": "nature.freezing",
+   "t": {
+    "en": "freezing",
+    "uk": "морозний",
+    "ru": "морозный",
+    "pl": "lodowaty",
+    "de": "eiskalt",
+    "fr": "glacial",
+    "es": "helado",
+    "it": "gelido",
+    "pt": "congelante",
+    "tr": "buz gibi"
+   },
+   "ex": {
+    "en": "It's freezing outside."
+   }
+  },
+  {
+   "id": "nature.foggy",
+   "t": {
+    "en": "foggy",
+    "uk": "туманний",
+    "ru": "туманный",
+    "pl": "mglisty",
+    "de": "neblig",
+    "fr": "brumeux",
+    "es": "con niebla",
+    "it": "nebbioso",
+    "pt": "nebuloso",
+    "tr": "sisli"
+   },
+   "ex": {
+    "en": "It was a foggy morning."
+   }
+  },
+  {
+   "id": "nature.icy",
+   "t": {
+    "en": "icy",
+    "uk": "крижаний",
+    "ru": "ледяной",
+    "pl": "oblodzony",
+    "de": "vereist",
+    "fr": "verglacé",
+    "es": "helado",
+    "it": "ghiacciato",
+    "pt": "congelado",
+    "tr": "buzlu"
+   },
+   "ex": {
+    "en": "The roads are icy today."
+   }
+  },
+  {
+   "id": "nature.mild",
+   "t": {
+    "en": "mild",
+    "uk": "м'який",
+    "ru": "мягкий",
+    "pl": "łagodny",
+    "de": "mild",
+    "fr": "doux",
+    "es": "templado",
+    "it": "mite",
+    "pt": "ameno",
+    "tr": "ılıman"
+   },
+   "ex": {
+    "en": "We had a mild winter."
+   }
+  },
+  {
+   "id": "nature.heavy-rain",
+   "t": {
+    "en": "heavy rain",
+    "uk": "злива",
+    "ru": "ливень",
+    "pl": "ulewa",
+    "de": "starker Regen",
+    "fr": "forte pluie",
+    "es": "lluvia intensa",
+    "it": "pioggia forte",
+    "pt": "chuva forte",
+    "tr": "şiddetli yağmur"
+   },
+   "ex": {
+    "en": "Heavy rain is expected tonight."
+   }
+  },
+  {
+   "id": "nature.strong-wind",
+   "t": {
+    "en": "strong wind",
+    "uk": "сильний вітер",
+    "ru": "сильный ветер",
+    "pl": "silny wiatr",
+    "de": "starker Wind",
+    "fr": "vent fort",
+    "es": "viento fuerte",
+    "it": "vento forte",
+    "pt": "vento forte",
+    "tr": "kuvvetli rüzgar"
+   },
+   "ex": {
+    "en": "A strong wind broke the fence."
+   }
+  },
+  {
+   "id": "nature.fresh-air",
+   "t": {
+    "en": "fresh air",
+    "uk": "свіже повітря",
+    "ru": "свежий воздух",
+    "pl": "świeże powietrze",
+    "de": "frische Luft",
+    "fr": "air frais",
+    "es": "aire fresco",
+    "it": "aria fresca",
+    "pt": "ar fresco",
+    "tr": "temiz hava"
+   },
+   "ex": {
+    "en": "Let's get some fresh air."
+   }
+  },
+  {
+   "id": "nature.national-park",
+   "t": {
+    "en": "national park",
+    "uk": "національний парк",
+    "ru": "национальный парк",
+    "pl": "park narodowy",
+    "de": "Nationalpark",
+    "fr": "parc national",
+    "es": "parque nacional",
+    "it": "parco nazionale",
+    "pt": "parque nacional",
+    "tr": "milli park"
+   },
+   "ex": {
+    "en": "We visited a national park."
+   }
+  },
+  {
+   "id": "nature.campfire",
+   "t": {
+    "en": "campfire",
+    "uk": "багаття",
+    "ru": "костёр",
+    "pl": "ognisko",
+    "de": "Lagerfeuer",
+    "fr": "feu de camp",
+    "es": "hoguera",
+    "it": "falò",
+    "pt": "fogueira",
+    "tr": "kamp ateşi"
+   },
+   "ex": {
+    "en": "We sat around the campfire."
+   }
+  },
+  {
+   "id": "nature.to-hike",
+   "t": {
+    "en": "to hike",
+    "uk": "ходити в похід",
+    "ru": "ходить в поход",
+    "pl": "wędrować",
+    "de": "wandern",
+    "fr": "faire de la randonnée",
+    "es": "hacer senderismo",
+    "it": "fare escursioni",
+    "pt": "fazer trilha",
+    "tr": "yürüyüş yapmak"
+   },
+   "ex": {
+    "en": "We like to hike in the hills."
+   }
+  },
+  {
+   "id": "nature.trail",
+   "t": {
+    "en": "trail",
+    "uk": "стежка",
+    "ru": "тропа",
+    "pl": "szlak",
+    "de": "Wanderweg",
+    "fr": "sentier",
+    "es": "sendero",
+    "it": "sentiero",
+    "pt": "trilha",
+    "tr": "patika"
+   },
+   "ex": {
+    "en": "This trail goes to the lake."
+   }
+  },
+  {
+   "id": "nature.shore",
+   "t": {
+    "en": "shore",
+    "uk": "берег",
+    "ru": "берег",
+    "pl": "brzeg",
+    "de": "Ufer",
+    "fr": "rivage",
+    "es": "orilla",
+    "it": "riva",
+    "pt": "margem",
+    "tr": "kıyı"
+   },
+   "ex": {
+    "en": "We walked along the shore."
+   }
+  },
+  {
+   "id": "nature.to-bark",
+   "t": {
+    "en": "to bark",
+    "uk": "гавкати",
+    "ru": "лаять",
+    "pl": "szczekać",
+    "de": "bellen",
+    "fr": "aboyer",
+    "es": "ladrar",
+    "it": "abbaiare",
+    "pt": "latir",
+    "tr": "havlamak"
+   },
+   "ex": {
+    "en": "The dog barks at night."
+   }
+  },
+  {
+   "id": "nature.to-bite",
+   "t": {
+    "en": "to bite",
+    "uk": "кусати",
+    "ru": "кусать",
+    "pl": "gryźć",
+    "de": "beißen",
+    "fr": "mordre",
+    "es": "morder",
+    "it": "mordere",
+    "pt": "morder",
+    "tr": "ısırmak"
+   },
+   "ex": {
+    "en": "Does your dog bite?"
+   }
+  },
+  {
+   "id": "nature.to-sting",
+   "t": {
+    "en": "to sting",
+    "uk": "жалити",
+    "ru": "жалить",
+    "pl": "żądlić",
+    "de": "stechen",
+    "fr": "piquer",
+    "es": "picar",
+    "it": "pungere",
+    "pt": "picar",
+    "tr": "sokmak"
+   },
+   "ex": {
+    "en": "Bees can sting."
+   }
+  },
+  {
+   "id": "nature.paw",
+   "t": {
+    "en": "paw",
+    "uk": "лапа",
+    "ru": "лапа",
+    "pl": "łapa",
+    "de": "Pfote",
+    "fr": "patte",
+    "es": "pata",
+    "it": "zampa",
+    "pt": "pata",
+    "tr": "pati"
+   },
+   "ex": {
+    "en": "The cat licked its paw."
+   }
+  },
+  {
+   "id": "nature.beak",
+   "t": {
+    "en": "beak",
+    "uk": "дзьоб",
+    "ru": "клюв",
+    "pl": "dziób",
+    "de": "Schnabel",
+    "fr": "bec",
+    "es": "pico",
+    "it": "becco",
+    "pt": "bico",
+    "tr": "gaga"
+   },
+   "ex": {
+    "en": "The bird has a yellow beak."
+   }
+  },
+  {
+   "id": "nature.ladybug",
+   "t": {
+    "en": "ladybug",
+    "uk": "сонечко",
+    "ru": "божья коровка",
+    "pl": "biedronka",
+    "de": "Marienkäfer",
+    "fr": "coccinelle",
+    "es": "mariquita",
+    "it": "coccinella",
+    "pt": "joaninha",
+    "tr": "uğur böceği"
+   },
+   "ex": {
+    "en": "A ladybug landed on my hand."
+   }
+  },
+  {
+   "id": "nature.caterpillar",
+   "t": {
+    "en": "caterpillar",
+    "uk": "гусінь",
+    "ru": "гусеница",
+    "pl": "gąsienica",
+    "de": "Raupe",
+    "fr": "chenille",
+    "es": "oruga",
+    "it": "bruco",
+    "pt": "lagarta",
+    "tr": "tırtıl"
+   },
+   "ex": {
+    "en": "The caterpillar eats leaves."
+   }
+  },
+  {
+   "id": "nature.octopus",
+   "t": {
+    "en": "octopus",
+    "uk": "восьминіг",
+    "ru": "осьминог",
+    "pl": "ośmiornica",
+    "de": "Krake",
+    "fr": "pieuvre",
+    "es": "pulpo",
+    "it": "polpo",
+    "pt": "polvo",
+    "tr": "ahtapot"
+   },
+   "ex": {
+    "en": "An octopus has eight arms."
+   }
+  },
+  {
+   "id": "nature.crab",
+   "t": {
+    "en": "crab",
+    "uk": "краб",
+    "ru": "краб",
+    "pl": "krab",
+    "de": "Krabbe",
+    "fr": "crabe",
+    "es": "cangrejo",
+    "it": "granchio",
+    "pt": "caranguejo",
+    "tr": "yengeç"
+   },
+   "ex": {
+    "en": "A crab walked across the sand."
+   }
+  },
+  {
+   "id": "nature.sunflower",
+   "t": {
+    "en": "sunflower",
+    "uk": "соняшник",
+    "ru": "подсолнух",
+    "pl": "słonecznik",
+    "de": "Sonnenblume",
+    "fr": "tournesol",
+    "es": "girasol",
+    "it": "girasole",
+    "pt": "girassol",
+    "tr": "ayçiçeği"
+   },
+   "ex": {
+    "en": "The sunflower follows the sun."
+   }
+  },
+  {
+   "id": "nature.palm-tree",
+   "t": {
+    "en": "palm tree",
+    "uk": "пальма",
+    "ru": "пальма",
+    "pl": "palma",
+    "de": "Palme",
+    "fr": "palmier",
+    "es": "palmera",
+    "it": "palma",
+    "pt": "palmeira",
+    "tr": "palmiye"
+   },
+   "ex": {
+    "en": "There's a palm tree on the beach."
+   }
+  },
+  {
+   "id": "nature.berry",
+   "t": {
+    "en": "berry",
+    "uk": "ягода",
+    "ru": "ягода",
+    "pl": "jagoda",
+    "de": "Beere",
+    "fr": "baie",
+    "es": "baya",
+    "it": "bacca",
+    "pt": "baga",
+    "tr": "orman meyvesi"
+   },
+   "ex": {
+    "en": "Don't eat that berry."
+   }
+  },
+  {
+   "id": "nature.swan",
+   "t": {
+    "en": "swan",
+    "uk": "лебідь",
+    "ru": "лебедь",
+    "pl": "łabędź",
+    "de": "Schwan",
+    "fr": "cygne",
+    "es": "cisne",
+    "it": "cigno",
+    "pt": "cisne",
+    "tr": "kuğu"
+   },
+   "ex": {
+    "en": "A white swan swam on the lake."
+   }
+  },
+  {
+   "id": "nature.pigeon",
+   "t": {
+    "en": "pigeon",
+    "uk": "голуб",
+    "ru": "голубь",
+    "pl": "gołąb",
+    "de": "Taube",
+    "fr": "pigeon",
+    "es": "paloma",
+    "it": "piccione",
+    "pt": "pombo",
+    "tr": "güvercin"
+   },
+   "ex": {
+    "en": "Pigeons are everywhere in the city."
+   }
+  },
+  {
+   "id": "nature.worm",
+   "t": {
+    "en": "worm",
+    "uk": "черв'як",
+    "ru": "червяк",
+    "pl": "robak",
+    "de": "Wurm",
+    "fr": "ver",
+    "es": "gusano",
+    "it": "verme",
+    "pt": "minhoca",
+    "tr": "solucan"
+   },
+   "ex": {
+    "en": "The bird caught a worm."
    }
   }
  ]

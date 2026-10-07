@@ -2,7 +2,7 @@
  "id": "phrases-b1",
  "topic": "phrases",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "phrases.to-be-honest",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "You look worried. What's the matter?"
+   }
+  },
+  {
+   "id": "phrases.i-look-forward-to-it",
+   "t": {
+    "en": "I look forward to it",
+    "uk": "з нетерпінням чекаю",
+    "ru": "с нетерпением жду",
+    "pl": "nie mogę się doczekać",
+    "de": "ich freue mich darauf",
+    "fr": "j'ai hâte",
+    "es": "tengo muchas ganas",
+    "it": "non vedo l'ora",
+    "pt": "estou ansioso por isso",
+    "tr": "dört gözle bekliyorum"
+   },
+   "ex": {
+    "en": "The trip? I look forward to it."
+   }
+  },
+  {
+   "id": "phrases.what-a-shame",
+   "t": {
+    "en": "what a shame",
+    "uk": "як шкода",
+    "ru": "как жаль",
+    "pl": "jaka szkoda",
+    "de": "wie schade",
+    "fr": "quel dommage",
+    "es": "qué lástima",
+    "it": "che peccato",
+    "pt": "que pena",
+    "tr": "ne yazık"
+   },
+   "ex": {
+    "en": "You missed the party? What a shame."
+   }
+  },
+  {
+   "id": "phrases.id-love-to",
+   "t": {
+    "en": "I'd love to",
+    "uk": "із задоволенням",
+    "ru": "с удовольствием",
+    "pl": "chętnie",
+    "de": "sehr gern",
+    "fr": "avec plaisir",
+    "es": "me encantaría",
+    "it": "mi piacerebbe molto",
+    "pt": "eu adoraria",
+    "tr": "çok isterim"
+   },
+   "ex": {
+    "en": "Dinner tonight? I'd love to."
+   }
+  },
+  {
+   "id": "phrases.i-dont-mind",
+   "t": {
+    "en": "I don't mind",
+    "uk": "я не проти",
+    "ru": "я не против",
+    "pl": "nie mam nic przeciwko",
+    "de": "es macht mir nichts aus",
+    "fr": "ça ne me dérange pas",
+    "es": "no me importa",
+    "it": "non mi dispiace",
+    "pt": "não me importo",
+    "tr": "benim için sorun değil"
+   },
+   "ex": {
+    "en": "I don't mind waiting."
+   }
+  },
+  {
+   "id": "phrases.you-never-know",
+   "t": {
+    "en": "you never know",
+    "uk": "ніколи не знаєш",
+    "ru": "никогда не знаешь",
+    "pl": "nigdy nie wiadomo",
+    "de": "man weiß nie",
+    "fr": "on ne sait jamais",
+    "es": "nunca se sabe",
+    "it": "non si sa mai",
+    "pt": "nunca se sabe",
+    "tr": "belli olmaz"
+   },
+   "ex": {
+    "en": "Take an umbrella. You never know."
+   }
+  },
+  {
+   "id": "phrases.its-about-time",
+   "t": {
+    "en": "it's about time",
+    "uk": "давно пора",
+    "ru": "давно пора",
+    "pl": "najwyższy czas",
+    "de": "wurde auch Zeit",
+    "fr": "il était temps",
+    "es": "ya era hora",
+    "it": "era ora",
+    "pt": "já era hora",
+    "tr": "tam zamanı"
+   },
+   "ex": {
+    "en": "You're here! It's about time."
+   }
+  },
+  {
+   "id": "phrases.count-me-in",
+   "t": {
+    "en": "count me in",
+    "uk": "я в ділі",
+    "ru": "я в деле",
+    "pl": "wchodzę w to",
+    "de": "ich bin dabei",
+    "fr": "je suis partant",
+    "es": "cuenta conmigo",
+    "it": "ci sto",
+    "pt": "pode contar comigo",
+    "tr": "ben de varım"
+   },
+   "ex": {
+    "en": "A trip to Paris? Count me in!"
+   }
+  },
+  {
+   "id": "phrases.count-me-out",
+   "t": {
+    "en": "count me out",
+    "uk": "без мене",
+    "ru": "без меня",
+    "pl": "beze mnie",
+    "de": "ohne mich",
+    "fr": "sans moi",
+    "es": "no cuentes conmigo",
+    "it": "non contare su di me",
+    "pt": "tô fora",
+    "tr": "ben yokum"
+   },
+   "ex": {
+    "en": "Running at 6 a.m.? Count me out."
+   }
+  },
+  {
+   "id": "phrases.i-give-up",
+   "t": {
+    "en": "I give up",
+    "uk": "я здаюся",
+    "ru": "я сдаюсь",
+    "pl": "poddaję się",
+    "de": "ich gebe auf",
+    "fr": "j'abandonne",
+    "es": "me rindo",
+    "it": "mi arrendo",
+    "pt": "eu desisto",
+    "tr": "pes ediyorum"
+   },
+   "ex": {
+    "en": "This puzzle is too hard. I give up."
+   }
+  },
+  {
+   "id": "phrases.im-fed-up",
+   "t": {
+    "en": "I'm fed up",
+    "uk": "мені набридло",
+    "ru": "мне надоело",
+    "pl": "mam dość",
+    "de": "ich habe die Nase voll",
+    "fr": "j'en ai marre",
+    "es": "estoy harto",
+    "it": "sono stufo",
+    "pt": "estou farto",
+    "tr": "bıktım"
+   },
+   "ex": {
+    "en": "I'm fed up with this rain."
+   }
+  },
+  {
+   "id": "phrases.thats-enough",
+   "t": {
+    "en": "that's enough",
+    "uk": "досить",
+    "ru": "хватит",
+    "pl": "dość tego",
+    "de": "das reicht",
+    "fr": "ça suffit",
+    "es": "ya basta",
+    "it": "basta così",
+    "pt": "chega",
+    "tr": "yeter"
+   },
+   "ex": {
+    "en": "That's enough, stop it now."
+   }
+  },
+  {
+   "id": "phrases.suit-yourself",
+   "t": {
+    "en": "suit yourself",
+    "uk": "як хочеш",
+    "ru": "как хочешь",
+    "pl": "jak chcesz",
+    "de": "wie du willst",
+    "fr": "comme tu veux",
+    "es": "como quieras",
+    "it": "come vuoi",
+    "pt": "você que sabe",
+    "tr": "nasıl istersen"
+   },
+   "ex": {
+    "en": "You don't want any? Suit yourself."
+   }
+  },
+  {
+   "id": "phrases.mind-your-own-business",
+   "t": {
+    "en": "mind your own business",
+    "uk": "не твоя справа",
+    "ru": "не твоё дело",
+    "pl": "pilnuj swego nosa",
+    "de": "kümmere dich um deinen Kram",
+    "fr": "occupe-toi de tes affaires",
+    "es": "no te metas",
+    "it": "fatti gli affari tuoi",
+    "pt": "cuida da sua vida",
+    "tr": "sen kendi işine bak"
+   },
+   "ex": {
+    "en": "Please mind your own business."
+   }
+  },
+  {
+   "id": "phrases.dont-mention-it",
+   "t": {
+    "en": "don't mention it",
+    "uk": "нема за що",
+    "ru": "не за что",
+    "pl": "nie ma za co",
+    "de": "keine Ursache",
+    "fr": "il n'y a pas de quoi",
+    "es": "no hay de qué",
+    "it": "non c'è di che",
+    "pt": "não há de quê",
+    "tr": "lafı bile olmaz"
+   },
+   "ex": {
+    "en": "Thanks a lot! Don't mention it."
+   }
+  },
+  {
+   "id": "phrases.not-at-all",
+   "t": {
+    "en": "not at all",
+    "uk": "зовсім ні",
+    "ru": "вовсе нет",
+    "pl": "wcale nie",
+    "de": "überhaupt nicht",
+    "fr": "pas du tout",
+    "es": "en absoluto",
+    "it": "per niente",
+    "pt": "de jeito nenhum",
+    "tr": "hiç de değil"
+   },
+   "ex": {
+    "en": "Are you tired? Not at all."
+   }
+  },
+  {
+   "id": "phrases.its-no-use",
+   "t": {
+    "en": "it's no use",
+    "uk": "марно",
+    "ru": "бесполезно",
+    "pl": "nie ma sensu",
+    "de": "es hat keinen Zweck",
+    "fr": "ça ne sert à rien",
+    "es": "es inútil",
+    "it": "è inutile",
+    "pt": "não adianta",
+    "tr": "faydası yok"
+   },
+   "ex": {
+    "en": "It's no use calling, he's away."
+   }
+  },
+  {
+   "id": "phrases.i-cant-help-it",
+   "t": {
+    "en": "I can't help it",
+    "uk": "нічого не можу вдіяти",
+    "ru": "ничего не могу поделать",
+    "pl": "nic na to nie poradzę",
+    "de": "ich kann nichts dafür",
+    "fr": "je n'y peux rien",
+    "es": "no lo puedo evitar",
+    "it": "non posso farci niente",
+    "pt": "não consigo evitar",
+    "tr": "elimde değil"
+   },
+   "ex": {
+    "en": "I laugh when I'm nervous. I can't help it."
+   }
+  },
+  {
+   "id": "phrases.how-come",
+   "t": {
+    "en": "how come?",
+    "uk": "як так?",
+    "ru": "как так?",
+    "pl": "jak to?",
+    "de": "wieso?",
+    "fr": "comment ça se fait ?",
+    "es": "¿y eso?",
+    "it": "come mai?",
+    "pt": "como assim?",
+    "tr": "nasıl yani?"
+   },
+   "ex": {
+    "en": "You're not coming? How come?"
+   }
+  },
+  {
+   "id": "phrases.so-what",
+   "t": {
+    "en": "so what?",
+    "uk": "ну і що?",
+    "ru": "ну и что?",
+    "pl": "no i co?",
+    "de": "na und?",
+    "fr": "et alors ?",
+    "es": "¿y qué?",
+    "it": "e allora?",
+    "pt": "e daí?",
+    "tr": "ne olmuş yani?"
+   },
+   "ex": {
+    "en": "It's late. So what?"
+   }
+  },
+  {
+   "id": "phrases.what-for",
+   "t": {
+    "en": "what for?",
+    "uk": "навіщо?",
+    "ru": "зачем?",
+    "pl": "po co?",
+    "de": "wozu?",
+    "fr": "pour quoi faire ?",
+    "es": "¿para qué?",
+    "it": "a che scopo?",
+    "pt": "pra quê?",
+    "tr": "ne için?"
+   },
+   "ex": {
+    "en": "You need money? What for?"
+   }
+  },
+  {
+   "id": "phrases.go-ahead",
+   "t": {
+    "en": "go ahead",
+    "uk": "давай",
+    "ru": "давай",
+    "pl": "śmiało",
+    "de": "nur zu",
+    "fr": "vas-y",
+    "es": "adelante",
+    "it": "fai pure",
+    "pt": "vai em frente",
+    "tr": "buyur"
+   },
+   "ex": {
+    "en": "Can I ask a question? Go ahead."
+   }
+  },
+  {
+   "id": "phrases.be-my-guest",
+   "t": {
+    "en": "be my guest",
+    "uk": "прошу",
+    "ru": "прошу",
+    "pl": "proszę bardzo",
+    "de": "bitte sehr",
+    "fr": "je t'en prie",
+    "es": "tú mismo",
+    "it": "prego, accomodati",
+    "pt": "fique à vontade",
+    "tr": "buyrun"
+   },
+   "ex": {
+    "en": "Want to try? Be my guest."
+   }
+  },
+  {
+   "id": "phrases.fingers-crossed",
+   "t": {
+    "en": "fingers crossed",
+    "uk": "тримаю кулаки",
+    "ru": "держу кулаки",
+    "pl": "trzymam kciuki",
+    "de": "Daumen drücken",
+    "fr": "je croise les doigts",
+    "es": "crucemos los dedos",
+    "it": "incrociamo le dita",
+    "pt": "vamos torcer",
+    "tr": "şans dile"
+   },
+   "ex": {
+    "en": "My exam is tomorrow. Fingers crossed!"
+   }
+  },
+  {
+   "id": "phrases.its-a-small-world",
+   "t": {
+    "en": "it's a small world",
+    "uk": "світ тісний",
+    "ru": "мир тесен",
+    "pl": "świat jest mały",
+    "de": "die Welt ist klein",
+    "fr": "le monde est petit",
+    "es": "el mundo es un pañuelo",
+    "it": "il mondo è piccolo",
+    "pt": "o mundo é pequeno",
+    "tr": "dünya küçük"
+   },
+   "ex": {
+    "en": "You know Anna too? It's a small world!"
+   }
+  },
+  {
+   "id": "phrases.whats-the-point",
+   "t": {
+    "en": "what's the point?",
+    "uk": "який сенс?",
+    "ru": "какой смысл?",
+    "pl": "jaki to ma sens?",
+    "de": "was soll das?",
+    "fr": "à quoi bon ?",
+    "es": "¿qué sentido tiene?",
+    "it": "che senso ha?",
+    "pt": "qual é o sentido?",
+    "tr": "ne anlamı var?"
+   },
+   "ex": {
+    "en": "What's the point of arguing?"
+   }
+  },
+  {
+   "id": "phrases.im-afraid-so",
+   "t": {
+    "en": "I'm afraid so",
+    "uk": "боюся, що так",
+    "ru": "боюсь, что да",
+    "pl": "obawiam się, że tak",
+    "de": "leider ja",
+    "fr": "j'en ai bien peur",
+    "es": "me temo que sí",
+    "it": "temo di sì",
+    "pt": "receio que sim",
+    "tr": "korkarım öyle"
+   },
+   "ex": {
+    "en": "Is it cancelled? I'm afraid so."
+   }
+  },
+  {
+   "id": "phrases.ill-think-about-it",
+   "t": {
+    "en": "I'll think about it",
+    "uk": "я подумаю",
+    "ru": "я подумаю",
+    "pl": "zastanowię się",
+    "de": "ich überlege es mir",
+    "fr": "je vais y réfléchir",
+    "es": "lo pensaré",
+    "it": "ci penserò",
+    "pt": "vou pensar",
+    "tr": "düşüneceğim"
+   },
+   "ex": {
+    "en": "Nice offer. I'll think about it."
+   }
+  },
+  {
+   "id": "phrases.im-not-in-the-mood",
+   "t": {
+    "en": "I'm not in the mood",
+    "uk": "я не в настрої",
+    "ru": "я не в настроении",
+    "pl": "nie mam nastroju",
+    "de": "ich habe keine Lust",
+    "fr": "je ne suis pas d'humeur",
+    "es": "no estoy de humor",
+    "it": "non sono dell'umore",
+    "pt": "não estou com vontade",
+    "tr": "havamda değilim"
+   },
+   "ex": {
+    "en": "I'm not in the mood to go out."
+   }
+  },
+  {
+   "id": "phrases.lets-get-started",
+   "t": {
+    "en": "let's get started",
+    "uk": "почнімо",
+    "ru": "давайте начнём",
+    "pl": "zaczynajmy",
+    "de": "fangen wir an",
+    "fr": "commençons",
+    "es": "empecemos",
+    "it": "cominciamo",
+    "pt": "vamos começar",
+    "tr": "başlayalım"
+   },
+   "ex": {
+    "en": "Everyone's here, let's get started."
+   }
+  },
+  {
+   "id": "phrases.that-reminds-me",
+   "t": {
+    "en": "that reminds me",
+    "uk": "це мені нагадало",
+    "ru": "это мне напомнило",
+    "pl": "to mi przypomina",
+    "de": "da fällt mir ein",
+    "fr": "ça me fait penser",
+    "es": "eso me recuerda",
+    "it": "questo mi ricorda",
+    "pt": "isso me lembra",
+    "tr": "aklıma geldi"
+   },
+   "ex": {
+    "en": "That reminds me, I need to call Mum."
+   }
+  },
+  {
+   "id": "phrases.let-me-think",
+   "t": {
+    "en": "let me think",
+    "uk": "дай подумати",
+    "ru": "дай подумать",
+    "pl": "niech pomyślę",
+    "de": "lass mich überlegen",
+    "fr": "laisse-moi réfléchir",
+    "es": "déjame pensar",
+    "it": "fammi pensare",
+    "pt": "deixa eu pensar",
+    "tr": "bir düşüneyim"
+   },
+   "ex": {
+    "en": "Hmm, let me think."
+   }
+  },
+  {
+   "id": "phrases.its-a-long-story",
+   "t": {
+    "en": "it's a long story",
+    "uk": "це довга історія",
+    "ru": "это долгая история",
+    "pl": "to długa historia",
+    "de": "das ist eine lange Geschichte",
+    "fr": "c'est une longue histoire",
+    "es": "es una larga historia",
+    "it": "è una lunga storia",
+    "pt": "é uma longa história",
+    "tr": "uzun hikaye"
+   },
+   "ex": {
+    "en": "Why did you move? It's a long story."
+   }
+  },
+  {
+   "id": "phrases.i-didnt-mean-it",
+   "t": {
+    "en": "I didn't mean it",
+    "uk": "я не навмисно",
+    "ru": "я не нарочно",
+    "pl": "nie chciałem",
+    "de": "ich habe es nicht so gemeint",
+    "fr": "je ne voulais pas dire ça",
+    "es": "no lo decía en serio",
+    "it": "non volevo dire questo",
+    "pt": "não foi por mal",
+    "tr": "öyle demek istemedim"
+   },
+   "ex": {
+    "en": "I'm sorry, I didn't mean it."
+   }
+  },
+  {
+   "id": "phrases.it-happens",
+   "t": {
+    "en": "it happens",
+    "uk": "буває",
+    "ru": "бывает",
+    "pl": "zdarza się",
+    "de": "kann passieren",
+    "fr": "ça arrive",
+    "es": "son cosas que pasan",
+    "it": "capita",
+    "pt": "acontece",
+    "tr": "olur böyle şeyler"
+   },
+   "ex": {
+    "en": "Don't worry, it happens."
+   }
+  },
+  {
+   "id": "phrases.i-mean-it",
+   "t": {
+    "en": "I mean it",
+    "uk": "я серйозно",
+    "ru": "я серьёзно",
+    "pl": "mówię poważnie",
+    "de": "ich meine es ernst",
+    "fr": "je suis sérieux",
+    "es": "lo digo en serio",
+    "it": "dico sul serio",
+    "pt": "estou falando sério",
+    "tr": "ciddiyim"
+   },
+   "ex": {
+    "en": "Thank you. I mean it."
+   }
+  },
+  {
+   "id": "phrases.no-hard-feelings",
+   "t": {
+    "en": "no hard feelings",
+    "uk": "без образ",
+    "ru": "без обид",
+    "pl": "bez urazy",
+    "de": "nichts für ungut",
+    "fr": "sans rancune",
+    "es": "sin rencor",
+    "it": "senza rancore",
+    "pt": "sem ressentimentos",
+    "tr": "alınma yok"
+   },
+   "ex": {
+    "en": "You won fair. No hard feelings."
+   }
+  },
+  {
+   "id": "phrases.sorry-to-bother-you",
+   "t": {
+    "en": "sorry to bother you",
+    "uk": "вибачте, що турбую",
+    "ru": "извините за беспокойство",
+    "pl": "przepraszam, że przeszkadzam",
+    "de": "entschuldigen Sie die Störung",
+    "fr": "désolé de vous déranger",
+    "es": "perdone la molestia",
+    "it": "scusi il disturbo",
+    "pt": "desculpe incomodar",
+    "tr": "rahatsız ettiğim için kusura bakmayın"
+   },
+   "ex": {
+    "en": "Sorry to bother you, but it's urgent."
+   }
+  },
+  {
+   "id": "phrases.too-good-to-be-true",
+   "t": {
+    "en": "too good to be true",
+    "uk": "занадто добре, щоб бути правдою",
+    "ru": "слишком хорошо, чтобы быть правдой",
+    "pl": "zbyt piękne, żeby było prawdziwe",
+    "de": "zu schön, um wahr zu sein",
+    "fr": "trop beau pour être vrai",
+    "es": "demasiado bueno para ser verdad",
+    "it": "troppo bello per essere vero",
+    "pt": "bom demais para ser verdade",
+    "tr": "gerçek olamayacak kadar iyi"
+   },
+   "ex": {
+    "en": "The price is too good to be true."
+   }
+  },
+  {
+   "id": "phrases.youll-see",
+   "t": {
+    "en": "you'll see",
+    "uk": "от побачиш",
+    "ru": "вот увидишь",
+    "pl": "zobaczysz",
+    "de": "du wirst sehen",
+    "fr": "tu verras",
+    "es": "ya verás",
+    "it": "vedrai",
+    "pt": "você vai ver",
+    "tr": "göreceksin"
+   },
+   "ex": {
+    "en": "It'll be fine, you'll see."
+   }
+  },
+  {
+   "id": "phrases.you-made-my-day",
+   "t": {
+    "en": "you made my day",
+    "uk": "ти мене дуже порадував",
+    "ru": "ты меня очень порадовал",
+    "pl": "poprawiłeś mi humor",
+    "de": "du hast mir den Tag gerettet",
+    "fr": "tu as illuminé ma journée",
+    "es": "me has alegrado el día",
+    "it": "mi hai fatto la giornata",
+    "pt": "você ganhou meu dia",
+    "tr": "günümü güzelleştirdin"
+   },
+   "ex": {
+    "en": "Thanks for the flowers, you made my day!"
+   }
+  },
+  {
+   "id": "phrases.dont-get-me-wrong",
+   "t": {
+    "en": "don't get me wrong",
+    "uk": "не зрозумій мене неправильно",
+    "ru": "не пойми меня неправильно",
+    "pl": "nie zrozum mnie źle",
+    "de": "versteh mich nicht falsch",
+    "fr": "comprends-moi bien",
+    "es": "no me malinterpretes",
+    "it": "non fraintendermi",
+    "pt": "não me entenda mal",
+    "tr": "yanlış anlama"
+   },
+   "ex": {
+    "en": "Don't get me wrong, I like him."
+   }
+  },
+  {
+   "id": "phrases.i-owe-you-one",
+   "t": {
+    "en": "I owe you one",
+    "uk": "я твій боржник",
+    "ru": "я твой должник",
+    "pl": "mam u ciebie dług",
+    "de": "ich schulde dir was",
+    "fr": "je te dois une fière chandelle",
+    "es": "te debo una",
+    "it": "te ne devo una",
+    "pt": "fico te devendo",
+    "tr": "sana borçlandım"
+   },
+   "ex": {
+    "en": "Thanks for the lift. I owe you one."
+   }
+  },
+  {
+   "id": "phrases.it-slipped-my-mind",
+   "t": {
+    "en": "it slipped my mind",
+    "uk": "у мене вилетіло з голови",
+    "ru": "у меня вылетело из головы",
+    "pl": "wyleciało mi z głowy",
+    "de": "es ist mir entfallen",
+    "fr": "ça m'est sorti de la tête",
+    "es": "se me pasó",
+    "it": "mi è passato di mente",
+    "pt": "me esqueci completamente",
+    "tr": "aklımdan çıkmış"
+   },
+   "ex": {
+    "en": "Sorry, it slipped my mind."
+   }
+  },
+  {
+   "id": "phrases.what-a-relief",
+   "t": {
+    "en": "what a relief",
+    "uk": "яке полегшення",
+    "ru": "какое облегчение",
+    "pl": "co za ulga",
+    "de": "was für eine Erleichterung",
+    "fr": "quel soulagement",
+    "es": "qué alivio",
+    "it": "che sollievo",
+    "pt": "que alívio",
+    "tr": "ne rahatlama"
+   },
+   "ex": {
+    "en": "You found the keys? What a relief!"
+   }
+  },
+  {
+   "id": "phrases.thank-goodness",
+   "t": {
+    "en": "thank goodness",
+    "uk": "слава богу",
+    "ru": "слава богу",
+    "pl": "dzięki Bogu",
+    "de": "Gott sei Dank",
+    "fr": "Dieu merci",
+    "es": "menos mal",
+    "it": "grazie al cielo",
+    "pt": "graças a Deus",
+    "tr": "çok şükür"
+   },
+   "ex": {
+    "en": "Thank goodness you're safe."
+   }
+  },
+  {
+   "id": "phrases.speaking-of-which",
+   "t": {
+    "en": "speaking of which",
+    "uk": "до речі",
+    "ru": "кстати",
+    "pl": "skoro o tym mowa",
+    "de": "apropos",
+    "fr": "à ce propos",
+    "es": "hablando de eso",
+    "it": "a proposito",
+    "pt": "falando nisso",
+    "tr": "lafı açılmışken"
+   },
+   "ex": {
+    "en": "Speaking of which, where's Tom?"
+   }
+  },
+  {
+   "id": "phrases.no-kidding",
+   "t": {
+    "en": "no kidding",
+    "uk": "без жартів",
+    "ru": "без шуток",
+    "pl": "bez żartów",
+    "de": "ohne Witz",
+    "fr": "sans blague",
+    "es": "en serio",
+    "it": "sul serio",
+    "pt": "sem brincadeira",
+    "tr": "şaka değil"
+   },
+   "ex": {
+    "en": "No kidding, I saw a bear!"
+   }
+  },
+  {
+   "id": "phrases.so-far-so-good",
+   "t": {
+    "en": "so far so good",
+    "uk": "поки що все добре",
+    "ru": "пока всё хорошо",
+    "pl": "na razie dobrze",
+    "de": "so weit, so gut",
+    "fr": "jusqu'ici tout va bien",
+    "es": "hasta ahora, todo bien",
+    "it": "finora tutto bene",
+    "pt": "até agora, tudo bem",
+    "tr": "şimdilik her şey yolunda"
+   },
+   "ex": {
+    "en": "How's the new job? So far so good."
+   }
+  },
+  {
+   "id": "phrases.as-you-wish",
+   "t": {
+    "en": "as you wish",
+    "uk": "як забажаєш",
+    "ru": "как пожелаешь",
+    "pl": "jak sobie życzysz",
+    "de": "wie du wünschst",
+    "fr": "comme tu voudras",
+    "es": "como desees",
+    "it": "come desideri",
+    "pt": "como quiser",
+    "tr": "nasıl arzu edersen"
+   },
+   "ex": {
+    "en": "We can leave now, as you wish."
+   }
+  },
+  {
+   "id": "phrases.its-getting-late",
+   "t": {
+    "en": "it's getting late",
+    "uk": "уже пізно",
+    "ru": "уже поздно",
+    "pl": "robi się późno",
+    "de": "es wird spät",
+    "fr": "il se fait tard",
+    "es": "se hace tarde",
+    "it": "si sta facendo tardi",
+    "pt": "está ficando tarde",
+    "tr": "geç oluyor"
+   },
+   "ex": {
+    "en": "It's getting late, I should go."
+   }
+  },
+  {
+   "id": "phrases.what-a-mess",
+   "t": {
+    "en": "what a mess",
+    "uk": "який безлад",
+    "ru": "какой беспорядок",
+    "pl": "co za bałagan",
+    "de": "was für ein Chaos",
+    "fr": "quel bazar",
+    "es": "qué desastre",
+    "it": "che disastro",
+    "pt": "que bagunça",
+    "tr": "ne karmaşa"
+   },
+   "ex": {
+    "en": "Look at this room! What a mess!"
    }
   }
  ]

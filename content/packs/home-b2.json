@@ -2,7 +2,7 @@
  "id": "home-b2",
  "topic": "home",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "home.to-take-out-a-mortgage",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "The landlord announced a rent increase."
+   }
+  },
+  {
+   "id": "home.to-pay-off-a-mortgage",
+   "t": {
+    "en": "to pay off a mortgage",
+    "uk": "виплатити іпотеку",
+    "ru": "выплатить ипотеку",
+    "pl": "spłacić kredyt hipoteczny",
+    "de": "eine Hypothek abbezahlen",
+    "fr": "rembourser un prêt immobilier",
+    "es": "pagar la hipoteca",
+    "it": "estinguere il mutuo",
+    "pt": "quitar a hipoteca",
+    "tr": "konut kredisini kapatmak"
+   },
+   "ex": {
+    "en": "It took them 25 years to pay off the mortgage."
+   }
+  },
+  {
+   "id": "home.asking-price",
+   "t": {
+    "en": "asking price",
+    "uk": "запитувана ціна",
+    "ru": "запрашиваемая цена",
+    "pl": "cena wywoławcza",
+    "de": "Angebotspreis",
+    "fr": "prix demandé",
+    "es": "precio de venta",
+    "it": "prezzo richiesto",
+    "pt": "preço pedido",
+    "tr": "istenen fiyat"
+   },
+   "ex": {
+    "en": "We offered less than the asking price."
+   }
+  },
+  {
+   "id": "home.property-market",
+   "t": {
+    "en": "property market",
+    "uk": "ринок нерухомості",
+    "ru": "рынок недвижимости",
+    "pl": "rynek nieruchomości",
+    "de": "Immobilienmarkt",
+    "fr": "marché immobilier",
+    "es": "mercado inmobiliario",
+    "it": "mercato immobiliare",
+    "pt": "mercado imobiliário",
+    "tr": "emlak piyasası"
+   },
+   "ex": {
+    "en": "The property market is slowing down."
+   }
+  },
+  {
+   "id": "home.to-put-up-for-sale",
+   "t": {
+    "en": "to put up for sale",
+    "uk": "виставити на продаж",
+    "ru": "выставить на продажу",
+    "pl": "wystawić na sprzedaż",
+    "de": "zum Verkauf anbieten",
+    "fr": "mettre en vente",
+    "es": "poner a la venta",
+    "it": "mettere in vendita",
+    "pt": "pôr à venda",
+    "tr": "satışa çıkarmak"
+   },
+   "ex": {
+    "en": "They put their house up for sale."
+   }
+  },
+  {
+   "id": "home.freehold",
+   "t": {
+    "en": "freehold",
+    "uk": "право власності",
+    "ru": "право собственности",
+    "pl": "pełna własność",
+    "de": "Eigentum",
+    "fr": "pleine propriété",
+    "es": "pleno dominio",
+    "it": "piena proprietà",
+    "pt": "propriedade plena",
+    "tr": "mülkiyet hakkı"
+   },
+   "ex": {
+    "en": "They own the freehold of the building."
+   }
+  },
+  {
+   "id": "home.leasehold",
+   "t": {
+    "en": "leasehold",
+    "uk": "довгострокова оренда",
+    "ru": "долгосрочная аренда",
+    "pl": "dzierżawa wieczysta",
+    "de": "Erbpacht",
+    "fr": "bail emphytéotique",
+    "es": "arrendamiento a largo plazo",
+    "it": "locazione a lungo termine",
+    "pt": "arrendamento de longo prazo",
+    "tr": "uzun süreli kiralama"
+   },
+   "ex": {
+    "en": "The flat is sold on a leasehold basis."
+   }
+  },
+  {
+   "id": "home.tenancy-agreement",
+   "t": {
+    "en": "tenancy agreement",
+    "uk": "договір оренди",
+    "ru": "договор аренды",
+    "pl": "umowa najmu",
+    "de": "Mietvertrag",
+    "fr": "contrat de location",
+    "es": "contrato de alquiler",
+    "it": "contratto d'affitto",
+    "pt": "contrato de aluguel",
+    "tr": "kira sözleşmesi"
+   },
+   "ex": {
+    "en": "Read the tenancy agreement carefully."
+   }
+  },
+  {
+   "id": "home.letting-agent",
+   "t": {
+    "en": "letting agent",
+    "uk": "агент з оренди",
+    "ru": "агент по аренде",
+    "pl": "pośrednik najmu",
+    "de": "Mietmakler",
+    "fr": "agent de location",
+    "es": "agente de alquileres",
+    "it": "agente immobiliare",
+    "pt": "corretor de aluguel",
+    "tr": "kiralama acentesi"
+   },
+   "ex": {
+    "en": "The letting agent showed us the flat."
+   }
+  },
+  {
+   "id": "home.house-hunting",
+   "t": {
+    "en": "house-hunting",
+    "uk": "пошук житла",
+    "ru": "поиск жилья",
+    "pl": "szukanie mieszkania",
+    "de": "Wohnungssuche",
+    "fr": "recherche de logement",
+    "es": "búsqueda de vivienda",
+    "it": "ricerca di casa",
+    "pt": "procura de casa",
+    "tr": "ev arama"
+   },
+   "ex": {
+    "en": "House-hunting can be exhausting."
+   }
+  },
+  {
+   "id": "home.building-survey",
+   "t": {
+    "en": "building survey",
+    "uk": "технічна експертиза будинку",
+    "ru": "техническая экспертиза дома",
+    "pl": "ekspertyza budowlana",
+    "de": "Baugutachten",
+    "fr": "expertise du bâtiment",
+    "es": "peritaje del inmueble",
+    "it": "perizia dell'immobile",
+    "pt": "vistoria do imóvel",
+    "tr": "bina ekspertizi"
+   },
+   "ex": {
+    "en": "The building survey found serious problems."
+   }
+  },
+  {
+   "id": "home.structural-damage",
+   "t": {
+    "en": "structural damage",
+    "uk": "пошкодження конструкції",
+    "ru": "повреждение конструкции",
+    "pl": "uszkodzenie konstrukcji",
+    "de": "Bauschaden",
+    "fr": "dommages structurels",
+    "es": "daños estructurales",
+    "it": "danni strutturali",
+    "pt": "dano estrutural",
+    "tr": "yapısal hasar"
+   },
+   "ex": {
+    "en": "The flood caused structural damage."
+   }
+  },
+  {
+   "id": "home.crack-in-the-wall",
+   "t": {
+    "en": "crack in the wall",
+    "uk": "тріщина в стіні",
+    "ru": "трещина в стене",
+    "pl": "pęknięcie w ścianie",
+    "de": "Riss in der Wand",
+    "fr": "fissure dans le mur",
+    "es": "grieta en la pared",
+    "it": "crepa nel muro",
+    "pt": "rachadura na parede",
+    "tr": "duvardaki çatlak"
+   },
+   "ex": {
+    "en": "There's a crack in the wall above the door."
+   }
+  },
+  {
+   "id": "home.leaky-roof",
+   "t": {
+    "en": "leaky roof",
+    "uk": "дах, що протікає",
+    "ru": "протекающая крыша",
+    "pl": "przeciekający dach",
+    "de": "undichtes Dach",
+    "fr": "toit qui fuit",
+    "es": "tejado con goteras",
+    "it": "tetto che perde",
+    "pt": "telhado com goteira",
+    "tr": "akan çatı"
+   },
+   "ex": {
+    "en": "We need to fix the leaky roof."
+   }
+  },
+  {
+   "id": "home.loose-tile",
+   "t": {
+    "en": "loose tile",
+    "uk": "розхитана черепиця",
+    "ru": "расшатанная черепица",
+    "pl": "luźna dachówka",
+    "de": "lockerer Dachziegel",
+    "fr": "tuile déplacée",
+    "es": "teja suelta",
+    "it": "tegola smossa",
+    "pt": "telha solta",
+    "tr": "gevşek kiremit"
+   },
+   "ex": {
+    "en": "The wind blew off a loose tile."
+   }
+  },
+  {
+   "id": "home.chimney",
+   "t": {
+    "en": "chimney",
+    "uk": "димар",
+    "ru": "дымоход",
+    "pl": "komin",
+    "de": "Schornstein",
+    "fr": "cheminée",
+    "es": "chimenea",
+    "it": "camino",
+    "pt": "chaminé",
+    "tr": "baca"
+   },
+   "ex": {
+    "en": "The chimney needs cleaning."
+   }
+  },
+  {
+   "id": "home.fireplace",
+   "t": {
+    "en": "fireplace",
+    "uk": "камін",
+    "ru": "камин",
+    "pl": "kominek",
+    "de": "Kamin",
+    "fr": "cheminée",
+    "es": "chimenea",
+    "it": "caminetto",
+    "pt": "lareira",
+    "tr": "şömine"
+   },
+   "ex": {
+    "en": "We sat by the fireplace."
+   }
+  },
+  {
+   "id": "home.pipework",
+   "t": {
+    "en": "pipework",
+    "uk": "трубопровід",
+    "ru": "трубопровод",
+    "pl": "instalacja rurowa",
+    "de": "Rohrleitungen",
+    "fr": "tuyauterie",
+    "es": "tuberías",
+    "it": "tubature",
+    "pt": "encanamento",
+    "tr": "tesisat"
+   },
+   "ex": {
+    "en": "The old pipework needs replacing."
+   }
+  },
+  {
+   "id": "home.faulty-wiring",
+   "t": {
+    "en": "faulty wiring",
+    "uk": "несправна проводка",
+    "ru": "неисправная проводка",
+    "pl": "wadliwa instalacja elektryczna",
+    "de": "fehlerhafte Verkabelung",
+    "fr": "installation électrique défectueuse",
+    "es": "cableado defectuoso",
+    "it": "impianto elettrico difettoso",
+    "pt": "fiação defeituosa",
+    "tr": "arızalı elektrik tesisatı"
+   },
+   "ex": {
+    "en": "The fire was caused by faulty wiring."
+   }
+  },
+  {
+   "id": "home.to-rewire",
+   "t": {
+    "en": "to rewire",
+    "uk": "замінити електропроводку",
+    "ru": "заменить электропроводку",
+    "pl": "wymienić instalację elektryczną",
+    "de": "neu verkabeln",
+    "fr": "refaire l'électricité",
+    "es": "cambiar el cableado",
+    "it": "rifare l'impianto elettrico",
+    "pt": "refazer a fiação",
+    "tr": "elektrik tesisatını yenilemek"
+   },
+   "ex": {
+    "en": "We had to rewire the whole house."
+   }
+  },
+  {
+   "id": "home.to-sand",
+   "t": {
+    "en": "to sand",
+    "uk": "шліфувати",
+    "ru": "шлифовать",
+    "pl": "szlifować",
+    "de": "abschleifen",
+    "fr": "poncer",
+    "es": "lijar",
+    "it": "carteggiare",
+    "pt": "lixar",
+    "tr": "zımparalamak"
+   },
+   "ex": {
+    "en": "Sand the door before painting it."
+   }
+  },
+  {
+   "id": "home.to-varnish",
+   "t": {
+    "en": "to varnish",
+    "uk": "лакувати",
+    "ru": "лакировать",
+    "pl": "lakierować",
+    "de": "lackieren",
+    "fr": "vernir",
+    "es": "barnizar",
+    "it": "verniciare",
+    "pt": "envernizar",
+    "tr": "verniklemek"
+   },
+   "ex": {
+    "en": "We varnished the wooden floor."
+   }
+  },
+  {
+   "id": "home.paintbrush",
+   "t": {
+    "en": "paintbrush",
+    "uk": "пензель",
+    "ru": "кисть",
+    "pl": "pędzel",
+    "de": "Pinsel",
+    "fr": "pinceau",
+    "es": "brocha",
+    "it": "pennello",
+    "pt": "pincel",
+    "tr": "boya fırçası"
+   },
+   "ex": {
+    "en": "Clean the paintbrush with water."
+   }
+  },
+  {
+   "id": "home.paint-roller",
+   "t": {
+    "en": "paint roller",
+    "uk": "валик для фарби",
+    "ru": "малярный валик",
+    "pl": "wałek malarski",
+    "de": "Farbroller",
+    "fr": "rouleau à peinture",
+    "es": "rodillo de pintura",
+    "it": "rullo per dipingere",
+    "pt": "rolo de pintura",
+    "tr": "boya rulosu"
+   },
+   "ex": {
+    "en": "A paint roller is faster than a brush."
+   }
+  },
+  {
+   "id": "home.primer",
+   "t": {
+    "en": "primer",
+    "uk": "ґрунтовка",
+    "ru": "грунтовка",
+    "pl": "podkład",
+    "de": "Grundierung",
+    "fr": "sous-couche",
+    "es": "imprimación",
+    "it": "primer",
+    "pt": "primer",
+    "tr": "astar boya"
+   },
+   "ex": {
+    "en": "Apply primer before the paint."
+   }
+  },
+  {
+   "id": "home.tiles",
+   "t": {
+    "en": "tiles",
+    "uk": "плитка",
+    "ru": "плитка",
+    "pl": "płytki",
+    "de": "Fliesen",
+    "fr": "carrelage",
+    "es": "azulejos",
+    "it": "piastrelle",
+    "pt": "azulejos",
+    "tr": "fayans"
+   },
+   "ex": {
+    "en": "We chose white tiles for the bathroom."
+   }
+  },
+  {
+   "id": "home.to-tile",
+   "t": {
+    "en": "to tile",
+    "uk": "класти плитку",
+    "ru": "класть плитку",
+    "pl": "kłaść płytki",
+    "de": "fliesen",
+    "fr": "carreler",
+    "es": "alicatar",
+    "it": "piastrellare",
+    "pt": "azulejar",
+    "tr": "fayans döşemek"
+   },
+   "ex": {
+    "en": "He tiled the kitchen floor himself."
+   }
+  },
+  {
+   "id": "home.grout",
+   "t": {
+    "en": "grout",
+    "uk": "затирка для швів",
+    "ru": "затирка для швов",
+    "pl": "fuga",
+    "de": "Fugenmasse",
+    "fr": "joint de carrelage",
+    "es": "lechada",
+    "it": "stucco per fughe",
+    "pt": "rejunte",
+    "tr": "derz dolgusu"
+   },
+   "ex": {
+    "en": "The grout between the tiles is black."
+   }
+  },
+  {
+   "id": "home.sealant",
+   "t": {
+    "en": "sealant",
+    "uk": "герметик",
+    "ru": "герметик",
+    "pl": "uszczelniacz",
+    "de": "Dichtmasse",
+    "fr": "mastic",
+    "es": "sellador",
+    "it": "sigillante",
+    "pt": "selante",
+    "tr": "silikon"
+   },
+   "ex": {
+    "en": "Put sealant around the bath."
+   }
+  },
+  {
+   "id": "home.spirit-level",
+   "t": {
+    "en": "spirit level",
+    "uk": "будівельний рівень",
+    "ru": "строительный уровень",
+    "pl": "poziomica",
+    "de": "Wasserwaage",
+    "fr": "niveau à bulle",
+    "es": "nivel de burbuja",
+    "it": "livella",
+    "pt": "nível de bolha",
+    "tr": "su terazisi"
+   },
+   "ex": {
+    "en": "Use a spirit level to hang the shelf."
+   }
+  },
+  {
+   "id": "home.pliers",
+   "t": {
+    "en": "pliers",
+    "uk": "плоскогубці",
+    "ru": "плоскогубцы",
+    "pl": "szczypce",
+    "de": "Zange",
+    "fr": "pince",
+    "es": "alicates",
+    "it": "pinze",
+    "pt": "alicate",
+    "tr": "pense"
+   },
+   "ex": {
+    "en": "Hand me the pliers, please."
+   }
+  },
+  {
+   "id": "home.wrench",
+   "t": {
+    "en": "wrench",
+    "uk": "гайковий ключ",
+    "ru": "гаечный ключ",
+    "pl": "klucz francuski",
+    "de": "Schraubenschlüssel",
+    "fr": "clé à molette",
+    "es": "llave inglesa",
+    "it": "chiave inglese",
+    "pt": "chave inglesa",
+    "tr": "İngiliz anahtarı"
+   },
+   "ex": {
+    "en": "Tighten the pipe with a wrench."
+   }
+  },
+  {
+   "id": "home.saw",
+   "t": {
+    "en": "saw",
+    "uk": "пилка",
+    "ru": "пила",
+    "pl": "piła",
+    "de": "Säge",
+    "fr": "scie",
+    "es": "sierra",
+    "it": "sega",
+    "pt": "serrote",
+    "tr": "testere"
+   },
+   "ex": {
+    "en": "Cut the wood with a saw."
+   }
+  },
+  {
+   "id": "home.wall-plug",
+   "t": {
+    "en": "wall plug",
+    "uk": "дюбель",
+    "ru": "дюбель",
+    "pl": "kołek rozporowy",
+    "de": "Dübel",
+    "fr": "cheville",
+    "es": "taco",
+    "it": "tassello",
+    "pt": "bucha",
+    "tr": "dübel"
+   },
+   "ex": {
+    "en": "Put a wall plug in the hole first."
+   }
+  },
+  {
+   "id": "home.extension-cord",
+   "t": {
+    "en": "extension cord",
+    "uk": "подовжувач",
+    "ru": "удлинитель",
+    "pl": "przedłużacz",
+    "de": "Verlängerungskabel",
+    "fr": "rallonge",
+    "es": "alargador",
+    "it": "prolunga",
+    "pt": "extensão",
+    "tr": "uzatma kablosu"
+   },
+   "ex": {
+    "en": "We need an extension cord for the lamp."
+   }
+  },
+  {
+   "id": "home.hinge",
+   "t": {
+    "en": "hinge",
+    "uk": "завіса",
+    "ru": "петля",
+    "pl": "zawias",
+    "de": "Scharnier",
+    "fr": "charnière",
+    "es": "bisagra",
+    "it": "cerniera",
+    "pt": "dobradiça",
+    "tr": "menteşe"
+   },
+   "ex": {
+    "en": "The door hinge is squeaking."
+   }
+  },
+  {
+   "id": "home.door-handle",
+   "t": {
+    "en": "door handle",
+    "uk": "дверна ручка",
+    "ru": "дверная ручка",
+    "pl": "klamka",
+    "de": "Türklinke",
+    "fr": "poignée de porte",
+    "es": "manilla de la puerta",
+    "it": "maniglia",
+    "pt": "maçaneta",
+    "tr": "kapı kolu"
+   },
+   "ex": {
+    "en": "The door handle came off."
+   }
+  },
+  {
+   "id": "home.peephole",
+   "t": {
+    "en": "peephole",
+    "uk": "вічко",
+    "ru": "глазок",
+    "pl": "wizjer",
+    "de": "Türspion",
+    "fr": "judas",
+    "es": "mirilla",
+    "it": "spioncino",
+    "pt": "olho mágico",
+    "tr": "kapı dürbünü"
+   },
+   "ex": {
+    "en": "Look through the peephole first."
+   }
+  },
+  {
+   "id": "home.deadbolt",
+   "t": {
+    "en": "deadbolt",
+    "uk": "засув",
+    "ru": "засов",
+    "pl": "zasuwa",
+    "de": "Riegelschloss",
+    "fr": "verrou",
+    "es": "cerrojo",
+    "it": "chiavistello",
+    "pt": "ferrolho",
+    "tr": "sürgü kilit"
+   },
+   "ex": {
+    "en": "We put a deadbolt on the front door."
+   }
+  },
+  {
+   "id": "home.burglar-alarm",
+   "t": {
+    "en": "burglar alarm",
+    "uk": "охоронна сигналізація",
+    "ru": "охранная сигнализация",
+    "pl": "alarm antywłamaniowy",
+    "de": "Einbruchmeldeanlage",
+    "fr": "alarme antivol",
+    "es": "alarma antirrobo",
+    "it": "antifurto",
+    "pt": "alarme contra roubo",
+    "tr": "hırsız alarmı"
+   },
+   "ex": {
+    "en": "The burglar alarm went off at night."
+   }
+  },
+  {
+   "id": "home.neighbourhood-watch",
+   "t": {
+    "en": "neighbourhood watch",
+    "uk": "сусідська варта",
+    "ru": "соседский дозор",
+    "pl": "straż sąsiedzka",
+    "de": "Nachbarschaftswache",
+    "fr": "voisins vigilants",
+    "es": "vigilancia vecinal",
+    "it": "controllo di vicinato",
+    "pt": "vigilância de bairro",
+    "tr": "mahalle bekçiliği"
+   },
+   "ex": {
+    "en": "Our street has a neighbourhood watch."
+   }
+  },
+  {
+   "id": "home.greenhouse",
+   "t": {
+    "en": "greenhouse",
+    "uk": "теплиця",
+    "ru": "теплица",
+    "pl": "szklarnia",
+    "de": "Gewächshaus",
+    "fr": "serre",
+    "es": "invernadero",
+    "it": "serra",
+    "pt": "estufa",
+    "tr": "sera"
+   },
+   "ex": {
+    "en": "We grow tomatoes in the greenhouse."
+   }
+  },
+  {
+   "id": "home.hedge",
+   "t": {
+    "en": "hedge",
+    "uk": "живопліт",
+    "ru": "живая изгородь",
+    "pl": "żywopłot",
+    "de": "Hecke",
+    "fr": "haie",
+    "es": "seto",
+    "it": "siepe",
+    "pt": "cerca viva",
+    "tr": "çit"
+   },
+   "ex": {
+    "en": "A tall hedge surrounds the garden."
+   }
+  },
+  {
+   "id": "home.to-trim-the-hedge",
+   "t": {
+    "en": "to trim the hedge",
+    "uk": "підстригати живопліт",
+    "ru": "подстригать живую изгородь",
+    "pl": "przycinać żywopłot",
+    "de": "die Hecke schneiden",
+    "fr": "tailler la haie",
+    "es": "recortar el seto",
+    "it": "potare la siepe",
+    "pt": "aparar a cerca viva",
+    "tr": "çiti budamak"
+   },
+   "ex": {
+    "en": "I trim the hedge every summer."
+   }
+  },
+  {
+   "id": "home.weeds",
+   "t": {
+    "en": "weeds",
+    "uk": "бур'яни",
+    "ru": "сорняки",
+    "pl": "chwasty",
+    "de": "Unkraut",
+    "fr": "mauvaises herbes",
+    "es": "malas hierbas",
+    "it": "erbacce",
+    "pt": "ervas daninhas",
+    "tr": "yabani otlar"
+   },
+   "ex": {
+    "en": "The garden is full of weeds."
+   }
+  },
+  {
+   "id": "home.garden-hose",
+   "t": {
+    "en": "garden hose",
+    "uk": "садовий шланг",
+    "ru": "садовый шланг",
+    "pl": "wąż ogrodowy",
+    "de": "Gartenschlauch",
+    "fr": "tuyau d'arrosage",
+    "es": "manguera",
+    "it": "tubo da giardino",
+    "pt": "mangueira",
+    "tr": "bahçe hortumu"
+   },
+   "ex": {
+    "en": "Water the plants with the garden hose."
+   }
+  },
+  {
+   "id": "home.communal-area",
+   "t": {
+    "en": "communal area",
+    "uk": "спільна зона",
+    "ru": "общая зона",
+    "pl": "część wspólna",
+    "de": "Gemeinschaftsbereich",
+    "fr": "parties communes",
+    "es": "zonas comunes",
+    "it": "aree comuni",
+    "pt": "área comum",
+    "tr": "ortak alan"
+   },
+   "ex": {
+    "en": "Don't leave bikes in the communal area."
+   }
+  },
+  {
+   "id": "home.caretaker",
+   "t": {
+    "en": "caretaker",
+    "uk": "доглядач будинку",
+    "ru": "управдом",
+    "pl": "dozorca",
+    "de": "Hausmeister",
+    "fr": "gardien",
+    "es": "conserje",
+    "it": "custode",
+    "pt": "zelador",
+    "tr": "kapıcı"
+   },
+   "ex": {
+    "en": "Ask the caretaker to fix the light."
+   }
+  },
+  {
+   "id": "home.thin-walls",
+   "t": {
+    "en": "thin walls",
+    "uk": "тонкі стіни",
+    "ru": "тонкие стены",
+    "pl": "cienkie ściany",
+    "de": "dünne Wände",
+    "fr": "murs fins",
+    "es": "paredes finas",
+    "it": "pareti sottili",
+    "pt": "paredes finas",
+    "tr": "ince duvarlar"
+   },
+   "ex": {
+    "en": "With thin walls you hear everything."
+   }
+  },
+  {
+   "id": "home.high-ceilings",
+   "t": {
+    "en": "high ceilings",
+    "uk": "високі стелі",
+    "ru": "высокие потолки",
+    "pl": "wysokie sufity",
+    "de": "hohe Decken",
+    "fr": "hauts plafonds",
+    "es": "techos altos",
+    "it": "soffitti alti",
+    "pt": "pé-direito alto",
+    "tr": "yüksek tavanlar"
+   },
+   "ex": {
+    "en": "Old flats often have high ceilings."
+   }
+  },
+  {
+   "id": "home.period-property",
+   "t": {
+    "en": "period property",
+    "uk": "історична будівля",
+    "ru": "старинный дом",
+    "pl": "zabytkowa kamienica",
+    "de": "Altbau",
+    "fr": "bâtiment ancien",
+    "es": "edificio de época",
+    "it": "immobile d'epoca",
+    "pt": "imóvel de época",
+    "tr": "tarihi bina"
+   },
+   "ex": {
+    "en": "They restored a period property."
+   }
+  },
+  {
+   "id": "home.new-build",
+   "t": {
+    "en": "new build",
+    "uk": "новобудова",
+    "ru": "новостройка",
+    "pl": "nowe budownictwo",
+    "de": "Neubau",
+    "fr": "construction neuve",
+    "es": "obra nueva",
+    "it": "nuova costruzione",
+    "pt": "imóvel novo",
+    "tr": "yeni bina"
+   },
+   "ex": {
+    "en": "They bought a flat in a new build."
    }
   }
  ]

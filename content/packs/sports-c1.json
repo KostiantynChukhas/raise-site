@@ -2,7 +2,7 @@
  "id": "sports-c1",
  "topic": "sports",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "sports.to-clinch-the-title",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "A sports psychologist helped her handle pressure."
+   }
+  },
+  {
+   "id": "sports.injury-prone",
+   "t": {
+    "en": "injury-prone",
+    "uk": "схильний до травм",
+    "ru": "подверженный травмам",
+    "pl": "podatny na kontuzje",
+    "de": "verletzungsanfällig",
+    "fr": "sujet aux blessures",
+    "es": "propenso a lesionarse",
+    "it": "soggetto a infortuni",
+    "pt": "propenso a lesões",
+    "tr": "sakatlığa yatkın"
+   },
+   "ex": {
+    "en": "He's talented but injury-prone."
+   }
+  },
+  {
+   "id": "sports.buzzer-beater",
+   "t": {
+    "en": "buzzer-beater",
+    "uk": "кидок на останній секунді",
+    "ru": "бросок на последней секунде",
+    "pl": "rzut równo z syreną",
+    "de": "Buzzer-Beater",
+    "fr": "panier au buzzer",
+    "es": "canasta sobre la bocina",
+    "it": "tiro allo scadere",
+    "pt": "cesta no estouro do cronômetro",
+    "tr": "son saniye basketi"
+   },
+   "ex": {
+    "en": "They won with a buzzer-beater."
+   }
+  },
+  {
+   "id": "sports.to-stage-a-comeback",
+   "t": {
+    "en": "to stage a comeback",
+    "uk": "відігратися",
+    "ru": "отыграться",
+    "pl": "odrobić straty",
+    "de": "eine Aufholjagd starten",
+    "fr": "effectuer une remontée",
+    "es": "remontar",
+    "it": "rimontare",
+    "pt": "virar o jogo",
+    "tr": "geri dönüş yapmak"
+   },
+   "ex": {
+    "en": "They staged a comeback from 3–0 down."
+   }
+  },
+  {
+   "id": "sports.to-romp-to-victory",
+   "t": {
+    "en": "to romp to victory",
+    "uk": "легко перемогти",
+    "ru": "легко победить",
+    "pl": "wygrać bez trudu",
+    "de": "einen Kantersieg einfahren",
+    "fr": "l'emporter haut la main",
+    "es": "ganar con holgura",
+    "it": "vincere a mani basse",
+    "pt": "vencer com folga",
+    "tr": "rahat kazanmak"
+   },
+   "ex": {
+    "en": "The champions romped to victory."
+   }
+  },
+  {
+   "id": "sports.relegation-battle",
+   "t": {
+    "en": "relegation battle",
+    "uk": "боротьба за виживання",
+    "ru": "борьба за выживание",
+    "pl": "walka o utrzymanie",
+    "de": "Abstiegskampf",
+    "fr": "lutte pour le maintien",
+    "es": "lucha por la permanencia",
+    "it": "lotta per la salvezza",
+    "pt": "luta contra o rebaixamento",
+    "tr": "küme düşme mücadelesi"
+   },
+   "ex": {
+    "en": "The club is stuck in a relegation battle."
+   }
+  },
+  {
+   "id": "sports.title-race",
+   "t": {
+    "en": "title race",
+    "uk": "боротьба за титул",
+    "ru": "борьба за титул",
+    "pl": "walka o tytuł",
+    "de": "Meisterschaftskampf",
+    "fr": "course au titre",
+    "es": "lucha por el título",
+    "it": "corsa al titolo",
+    "pt": "briga pelo título",
+    "tr": "şampiyonluk yarışı"
+   },
+   "ex": {
+    "en": "The title race is wide open."
+   }
+  },
+  {
+   "id": "sports.mid-table",
+   "t": {
+    "en": "mid-table",
+    "uk": "середина таблиці",
+    "ru": "середина таблицы",
+    "pl": "środek tabeli",
+    "de": "Tabellenmittelfeld",
+    "fr": "milieu de tableau",
+    "es": "mitad de la tabla",
+    "it": "metà classifica",
+    "pt": "meio da tabela",
+    "tr": "orta sıralar"
+   },
+   "ex": {
+    "en": "They finished mid-table again."
+   }
+  },
+  {
+   "id": "sports.to-sack-the-manager",
+   "t": {
+    "en": "to sack the manager",
+    "uk": "звільнити тренера",
+    "ru": "уволить тренера",
+    "pl": "zwolnić trenera",
+    "de": "den Trainer entlassen",
+    "fr": "limoger l'entraîneur",
+    "es": "destituir al entrenador",
+    "it": "esonerare l'allenatore",
+    "pt": "demitir o técnico",
+    "tr": "teknik direktörü kovmak"
+   },
+   "ex": {
+    "en": "The owners decided to sack the manager."
+   }
+  },
+  {
+   "id": "sports.caretaker-manager",
+   "t": {
+    "en": "caretaker manager",
+    "uk": "тимчасовий тренер",
+    "ru": "временный тренер",
+    "pl": "trener tymczasowy",
+    "de": "Interimstrainer",
+    "fr": "entraîneur intérimaire",
+    "es": "entrenador interino",
+    "it": "allenatore ad interim",
+    "pt": "técnico interino",
+    "tr": "geçici teknik direktör"
+   },
+   "ex": {
+    "en": "A caretaker manager took charge."
+   }
+  },
+  {
+   "id": "sports.free-agent",
+   "t": {
+    "en": "free agent",
+    "uk": "вільний агент",
+    "ru": "свободный агент",
+    "pl": "wolny zawodnik",
+    "de": "vereinsloser Spieler",
+    "fr": "joueur libre",
+    "es": "agente libre",
+    "it": "svincolato",
+    "pt": "agente livre",
+    "tr": "serbest oyuncu"
+   },
+   "ex": {
+    "en": "He joined the club as a free agent."
+   }
+  },
+  {
+   "id": "sports.to-peak",
+   "t": {
+    "en": "to peak",
+    "uk": "досягти піку форми",
+    "ru": "достичь пика формы",
+    "pl": "osiągnąć szczyt formy",
+    "de": "die Höchstform erreichen",
+    "fr": "atteindre son pic de forme",
+    "es": "alcanzar su mejor forma",
+    "it": "raggiungere l'apice della forma",
+    "pt": "atingir o auge",
+    "tr": "zirveye ulaşmak"
+   },
+   "ex": {
+    "en": "Athletes aim to peak at the Olympics."
+   }
+  },
+  {
+   "id": "sports.groin-strain",
+   "t": {
+    "en": "groin strain",
+    "uk": "розтягнення паху",
+    "ru": "растяжение паха",
+    "pl": "naciągnięcie pachwiny",
+    "de": "Leistenzerrung",
+    "fr": "élongation à l'aine",
+    "es": "distensión en la ingle",
+    "it": "stiramento all'inguine",
+    "pt": "estiramento na virilha",
+    "tr": "kasık gerilmesi"
+   },
+   "ex": {
+    "en": "He's out with a groin strain."
+   }
+  },
+  {
+   "id": "sports.shin-splints",
+   "t": {
+    "en": "shin splints",
+    "uk": "періостит гомілки",
+    "ru": "периостит голени",
+    "pl": "zapalenie okostnej piszczeli",
+    "de": "Schienbeinkantensyndrom",
+    "fr": "périostite tibiale",
+    "es": "periostitis tibial",
+    "it": "periostite tibiale",
+    "pt": "canelite",
+    "tr": "kaval kemiği ağrısı"
+   },
+   "ex": {
+    "en": "Running on concrete gave me shin splints."
+   }
+  },
+  {
+   "id": "sports.tennis-elbow",
+   "t": {
+    "en": "tennis elbow",
+    "uk": "тенісний лікоть",
+    "ru": "теннисный локоть",
+    "pl": "łokieć tenisisty",
+    "de": "Tennisarm",
+    "fr": "tennis-elbow",
+    "es": "codo de tenista",
+    "it": "gomito del tennista",
+    "pt": "cotovelo de tenista",
+    "tr": "tenisçi dirseği"
+   },
+   "ex": {
+    "en": "Tennis elbow can last for months."
+   }
+  },
+  {
+   "id": "sports.aerobic-capacity",
+   "t": {
+    "en": "aerobic capacity",
+    "uk": "аеробна витривалість",
+    "ru": "аэробная выносливость",
+    "pl": "wydolność tlenowa",
+    "de": "aerobe Kapazität",
+    "fr": "capacité aérobie",
+    "es": "capacidad aeróbica",
+    "it": "capacità aerobica",
+    "pt": "capacidade aeróbica",
+    "tr": "aerobik kapasite"
+   },
+   "ex": {
+    "en": "Long runs build aerobic capacity."
+   }
+  },
+  {
+   "id": "sports.explosive-power",
+   "t": {
+    "en": "explosive power",
+    "uk": "вибухова сила",
+    "ru": "взрывная сила",
+    "pl": "siła eksplozywna",
+    "de": "Schnellkraft",
+    "fr": "puissance explosive",
+    "es": "potencia explosiva",
+    "it": "forza esplosiva",
+    "pt": "potência explosiva",
+    "tr": "patlayıcı güç"
+   },
+   "ex": {
+    "en": "Sprinters need explosive power."
+   }
+  },
+  {
+   "id": "sports.hand-eye-coordination",
+   "t": {
+    "en": "hand-eye coordination",
+    "uk": "зорово-моторна координація",
+    "ru": "зрительно-моторная координация",
+    "pl": "koordynacja wzrokowo-ruchowa",
+    "de": "Hand-Auge-Koordination",
+    "fr": "coordination œil-main",
+    "es": "coordinación ojo-mano",
+    "it": "coordinazione occhio-mano",
+    "pt": "coordenação olho-mão",
+    "tr": "el-göz koordinasyonu"
+   },
+   "ex": {
+    "en": "Tennis requires good hand-eye coordination."
+   }
+  },
+  {
+   "id": "sports.cross-training",
+   "t": {
+    "en": "cross-training",
+    "uk": "кростренінг",
+    "ru": "кросс-тренинг",
+    "pl": "trening uzupełniający",
+    "de": "Crosstraining",
+    "fr": "entraînement croisé",
+    "es": "entrenamiento cruzado",
+    "it": "allenamento incrociato",
+    "pt": "treino cruzado",
+    "tr": "çapraz antrenman"
+   },
+   "ex": {
+    "en": "Cross-training reduces the risk of injury."
+   }
+  },
+  {
+   "id": "sports.carb-loading",
+   "t": {
+    "en": "carb-loading",
+    "uk": "вуглеводне завантаження",
+    "ru": "углеводная загрузка",
+    "pl": "ładowanie węglowodanów",
+    "de": "Carboloading",
+    "fr": "charge glucidique",
+    "es": "carga de carbohidratos",
+    "it": "carico di carboidrati",
+    "pt": "carga de carboidratos",
+    "tr": "karbonhidrat yüklemesi"
+   },
+   "ex": {
+    "en": "Marathon runners swear by carb-loading."
+   }
+  },
+  {
+   "id": "sports.paralympics",
+   "t": {
+    "en": "Paralympics",
+    "uk": "Паралімпійські ігри",
+    "ru": "Паралимпийские игры",
+    "pl": "igrzyska paraolimpijskie",
+    "de": "Paralympische Spiele",
+    "fr": "Jeux paralympiques",
+    "es": "Juegos Paralímpicos",
+    "it": "Paralimpiadi",
+    "pt": "Paralimpíadas",
+    "tr": "Paralimpik Oyunları"
+   },
+   "ex": {
+    "en": "She won three golds at the Paralympics."
+   }
+  },
+  {
+   "id": "sports.governing-body",
+   "t": {
+    "en": "governing body",
+    "uk": "керівний орган",
+    "ru": "руководящий орган",
+    "pl": "organ zarządzający",
+    "de": "Dachverband",
+    "fr": "instance dirigeante",
+    "es": "organismo rector",
+    "it": "organo di governo",
+    "pt": "órgão regulador",
+    "tr": "yönetim organı"
+   },
+   "ex": {
+    "en": "The sport's governing body changed the rules."
+   }
+  },
+  {
+   "id": "sports.lifetime-ban",
+   "t": {
+    "en": "lifetime ban",
+    "uk": "довічна дискваліфікація",
+    "ru": "пожизненная дисквалификация",
+    "pl": "dożywotnia dyskwalifikacja",
+    "de": "lebenslange Sperre",
+    "fr": "suspension à vie",
+    "es": "sanción de por vida",
+    "it": "squalifica a vita",
+    "pt": "banimento vitalício",
+    "tr": "ömür boyu men"
+   },
+   "ex": {
+    "en": "He received a lifetime ban for doping."
+   }
+  },
+  {
+   "id": "sports.to-throw-a-match",
+   "t": {
+    "en": "to throw a match",
+    "uk": "здати матч",
+    "ru": "сдать матч",
+    "pl": "sprzedać mecz",
+    "de": "ein Spiel verschieben",
+    "fr": "truquer un match",
+    "es": "amañar un partido",
+    "it": "vendere la partita",
+    "pt": "entregar o jogo",
+    "tr": "şike yapmak"
+   },
+   "ex": {
+    "en": "He was accused of trying to throw a match."
+   }
+  },
+  {
+   "id": "sports.unsportsmanlike",
+   "t": {
+    "en": "unsportsmanlike",
+    "uk": "неспортивний",
+    "ru": "неспортивный",
+    "pl": "niesportowy",
+    "de": "unsportlich",
+    "fr": "antisportif",
+    "es": "antideportivo",
+    "it": "antisportivo",
+    "pt": "antiesportivo",
+    "tr": "sportmenliğe aykırı"
+   },
+   "ex": {
+    "en": "That was unsportsmanlike behaviour."
+   }
+  },
+  {
+   "id": "sports.to-park-the-bus",
+   "t": {
+    "en": "to park the bus",
+    "uk": "поставити автобус",
+    "ru": "поставить автобус",
+    "pl": "postawić autobus",
+    "de": "Beton anrühren",
+    "fr": "garer le bus",
+    "es": "aparcar el autobús",
+    "it": "parcheggiare il pullman",
+    "pt": "estacionar o ônibus",
+    "tr": "otobüsü çekmek"
+   },
+   "ex": {
+    "en": "After scoring, they parked the bus."
+   }
+  },
+  {
+   "id": "sports.to-hold-ones-nerve",
+   "t": {
+    "en": "to hold one's nerve",
+    "uk": "зберегти холоднокровність",
+    "ru": "сохранить хладнокровие",
+    "pl": "zachować zimną krew",
+    "de": "die Nerven behalten",
+    "fr": "garder son sang-froid",
+    "es": "mantener la calma",
+    "it": "mantenere i nervi saldi",
+    "pt": "manter a calma",
+    "tr": "soğukkanlılığını korumak"
+   },
+   "ex": {
+    "en": "She held her nerve in the shoot-out."
+   }
+  },
+  {
+   "id": "sports.killer-instinct",
+   "t": {
+    "en": "killer instinct",
+    "uk": "інстинкт убивці",
+    "ru": "инстинкт убийцы",
+    "pl": "instynkt zabójcy",
+    "de": "Killerinstinkt",
+    "fr": "instinct de tueur",
+    "es": "instinto asesino",
+    "it": "istinto killer",
+    "pt": "instinto matador",
+    "tr": "öldürücü içgüdü"
+   },
+   "ex": {
+    "en": "Great strikers have a killer instinct."
+   }
+  },
+  {
+   "id": "sports.to-go-head-to-head",
+   "t": {
+    "en": "to go head-to-head",
+    "uk": "зійтися в двобої",
+    "ru": "сойтись в поединке",
+    "pl": "zmierzyć się bezpośrednio",
+    "de": "direkt gegeneinander antreten",
+    "fr": "s'affronter directement",
+    "es": "enfrentarse cara a cara",
+    "it": "affrontarsi testa a testa",
+    "pt": "enfrentar-se diretamente",
+    "tr": "kafa kafaya yarışmak"
+   },
+   "ex": {
+    "en": "The two rivals go head-to-head tonight."
+   }
+  },
+  {
+   "id": "sports.neck-and-neck",
+   "t": {
+    "en": "neck and neck",
+    "uk": "голова в голову",
+    "ru": "ноздря в ноздрю",
+    "pl": "łeb w łeb",
+    "de": "Kopf an Kopf",
+    "fr": "au coude-à-coude",
+    "es": "codo con codo",
+    "it": "testa a testa",
+    "pt": "cabeça a cabeça",
+    "tr": "başa baş"
+   },
+   "ex": {
+    "en": "The runners were neck and neck."
+   }
+  },
+  {
+   "id": "sports.to-set-the-pace",
+   "t": {
+    "en": "to set the pace",
+    "uk": "задавати темп",
+    "ru": "задавать темп",
+    "pl": "nadawać tempo",
+    "de": "das Tempo vorgeben",
+    "fr": "imprimer le rythme",
+    "es": "marcar el ritmo",
+    "it": "dettare il ritmo",
+    "pt": "ditar o ritmo",
+    "tr": "tempoyu belirlemek"
+   },
+   "ex": {
+    "en": "The Kenyan runner set the pace."
+   }
+  },
+  {
+   "id": "sports.pacesetter",
+   "t": {
+    "en": "pacesetter",
+    "uk": "лідер забігу",
+    "ru": "лидер забега",
+    "pl": "zając",
+    "de": "Tempomacher",
+    "fr": "lièvre",
+    "es": "liebre",
+    "it": "lepre",
+    "pt": "coelho",
+    "tr": "tempo koşucusu"
+   },
+   "ex": {
+    "en": "The pacesetter dropped out after 30 km."
+   }
+  },
+  {
+   "id": "sports.to-break-away",
+   "t": {
+    "en": "to break away",
+    "uk": "відірватися",
+    "ru": "оторваться",
+    "pl": "oderwać się",
+    "de": "sich absetzen",
+    "fr": "s'échapper",
+    "es": "escaparse",
+    "it": "andare in fuga",
+    "pt": "disparar na frente",
+    "tr": "öne kaçmak"
+   },
+   "ex": {
+    "en": "Two cyclists broke away from the group."
+   }
+  },
+  {
+   "id": "sports.peloton",
+   "t": {
+    "en": "peloton",
+    "uk": "пелотон",
+    "ru": "пелотон",
+    "pl": "peleton",
+    "de": "Hauptfeld",
+    "fr": "peloton",
+    "es": "pelotón",
+    "it": "gruppo",
+    "pt": "pelotão",
+    "tr": "ana grup"
+   },
+   "ex": {
+    "en": "The peloton raced through the village."
+   }
+  },
+  {
+   "id": "sports.yellow-jersey",
+   "t": {
+    "en": "yellow jersey",
+    "uk": "жовта майка",
+    "ru": "жёлтая майка",
+    "pl": "żółta koszulka",
+    "de": "Gelbes Trikot",
+    "fr": "maillot jaune",
+    "es": "maillot amarillo",
+    "it": "maglia gialla",
+    "pt": "camisa amarela",
+    "tr": "sarı mayo"
+   },
+   "ex": {
+    "en": "He wore the yellow jersey for a week."
+   }
+  },
+  {
+   "id": "sports.sports-pundit",
+   "t": {
+    "en": "sports pundit",
+    "uk": "спортивний оглядач",
+    "ru": "спортивный обозреватель",
+    "pl": "ekspert sportowy",
+    "de": "Sportexperte",
+    "fr": "consultant sportif",
+    "es": "analista deportivo",
+    "it": "opinionista sportivo",
+    "pt": "comentarista esportivo",
+    "tr": "spor yorumcusu"
+   },
+   "ex": {
+    "en": "The sports pundits disagreed about the penalty."
+   }
+  },
+  {
+   "id": "sports.season-ending-injury",
+   "t": {
+    "en": "season-ending injury",
+    "uk": "травма до кінця сезону",
+    "ru": "травма до конца сезона",
+    "pl": "kontuzja wykluczająca do końca sezonu",
+    "de": "saisonbeendende Verletzung",
+    "fr": "blessure qui met fin à la saison",
+    "es": "lesión que pone fin a la temporada",
+    "it": "infortunio di fine stagione",
+    "pt": "lesão que encerra a temporada",
+    "tr": "sezonu kapatan sakatlık"
+   },
+   "ex": {
+    "en": "He suffered a season-ending injury."
+   }
+  },
+  {
+   "id": "sports.to-make-the-cut",
+   "t": {
+    "en": "to make the cut",
+    "uk": "пройти відбір",
+    "ru": "пройти отбор",
+    "pl": "przejść selekcję",
+    "de": "es in die Auswahl schaffen",
+    "fr": "passer le cut",
+    "es": "pasar el corte",
+    "it": "superare il taglio",
+    "pt": "passar no corte",
+    "tr": "seçmeyi geçmek"
+   },
+   "ex": {
+    "en": "He didn't make the cut for the team."
+   }
+  },
+  {
+   "id": "sports.seeded-player",
+   "t": {
+    "en": "seeded player",
+    "uk": "сіяний гравець",
+    "ru": "сеяный игрок",
+    "pl": "rozstawiony zawodnik",
+    "de": "gesetzter Spieler",
+    "fr": "tête de série",
+    "es": "cabeza de serie",
+    "it": "testa di serie",
+    "pt": "cabeça de chave",
+    "tr": "seri başı oyuncu"
+   },
+   "ex": {
+    "en": "The top seeded player lost early."
+   }
+  },
+  {
+   "id": "sports.dead-heat",
+   "t": {
+    "en": "dead heat",
+    "uk": "одночасний фініш",
+    "ru": "одновременный финиш",
+    "pl": "równoczesny finisz",
+    "de": "totes Rennen",
+    "fr": "ex aequo",
+    "es": "llegada simultánea",
+    "it": "arrivo a pari merito",
+    "pt": "empate técnico",
+    "tr": "eşit bitiş"
+   },
+   "ex": {
+    "en": "The race ended in a dead heat."
+   }
+  },
+  {
+   "id": "sports.trash-talk",
+   "t": {
+    "en": "trash talk",
+    "uk": "словесні провокації",
+    "ru": "словесные провокации",
+    "pl": "słowne prowokacje",
+    "de": "Trashtalk",
+    "fr": "provocations verbales",
+    "es": "provocaciones verbales",
+    "it": "provocazioni verbali",
+    "pt": "provocação",
+    "tr": "laf atma"
+   },
+   "ex": {
+    "en": "There was a lot of trash talk before the fight."
+   }
+  },
+  {
+   "id": "sports.through-ball",
+   "t": {
+    "en": "through ball",
+    "uk": "пас на хід",
+    "ru": "пас на ход",
+    "pl": "prostopadłe podanie",
+    "de": "Steilpass",
+    "fr": "passe en profondeur",
+    "es": "pase al hueco",
+    "it": "passaggio filtrante",
+    "pt": "passe em profundidade",
+    "tr": "ara pası"
+   },
+   "ex": {
+    "en": "A perfect through ball set up the goal."
+   }
+  },
+  {
+   "id": "sports.volley",
+   "t": {
+    "en": "volley",
+    "uk": "удар з льоту",
+    "ru": "удар с лёта",
+    "pl": "wolej",
+    "de": "Volleyschuss",
+    "fr": "volée",
+    "es": "volea",
+    "it": "tiro al volo",
+    "pt": "voleio",
+    "tr": "vole"
+   },
+   "ex": {
+    "en": "He scored with a stunning volley."
+   }
+  },
+  {
+   "id": "sports.bicycle-kick",
+   "t": {
+    "en": "bicycle kick",
+    "uk": "удар через себе",
+    "ru": "удар через себя",
+    "pl": "przewrotka",
+    "de": "Fallrückzieher",
+    "fr": "retourné",
+    "es": "chilena",
+    "it": "rovesciata",
+    "pt": "bicicleta",
+    "tr": "rövaşata"
+   },
+   "ex": {
+    "en": "He scored with a bicycle kick."
+   }
+  },
+  {
+   "id": "sports.sell-out-crowd",
+   "t": {
+    "en": "sell-out crowd",
+    "uk": "аншлаг",
+    "ru": "аншлаг",
+    "pl": "komplet widzów",
+    "de": "ausverkauftes Stadion",
+    "fr": "stade comble",
+    "es": "lleno absoluto",
+    "it": "tutto esaurito",
+    "pt": "casa cheia",
+    "tr": "kapalı gişe"
+   },
+   "ex": {
+    "en": "They played in front of a sell-out crowd."
+   }
+  },
+  {
+   "id": "sports.hooliganism",
+   "t": {
+    "en": "hooliganism",
+    "uk": "футбольне хуліганство",
+    "ru": "футбольное хулиганство",
+    "pl": "chuligaństwo stadionowe",
+    "de": "Hooliganismus",
+    "fr": "hooliganisme",
+    "es": "violencia en el fútbol",
+    "it": "teppismo",
+    "pt": "violência nas torcidas",
+    "tr": "holiganizm"
+   },
+   "ex": {
+    "en": "The club fights against hooliganism."
+   }
+  },
+  {
+   "id": "sports.pitch-invasion",
+   "t": {
+    "en": "pitch invasion",
+    "uk": "вибігання вболівальників на поле",
+    "ru": "выбегание болельщиков на поле",
+    "pl": "wtargnięcie na boisko",
+    "de": "Platzsturm",
+    "fr": "envahissement du terrain",
+    "es": "invasión del campo",
+    "it": "invasione di campo",
+    "pt": "invasão de campo",
+    "tr": "saha işgali"
+   },
+   "ex": {
+    "en": "The title win sparked a pitch invasion."
+   }
+  },
+  {
+   "id": "sports.sports-science",
+   "t": {
+    "en": "sports science",
+    "uk": "спортивна наука",
+    "ru": "спортивная наука",
+    "pl": "nauka o sporcie",
+    "de": "Sportwissenschaft",
+    "fr": "sciences du sport",
+    "es": "ciencias del deporte",
+    "it": "scienze motorie",
+    "pt": "ciência do esporte",
+    "tr": "spor bilimi"
+   },
+   "ex": {
+    "en": "She has a degree in sports science."
+   }
+  },
+  {
+   "id": "sports.ultramarathon",
+   "t": {
+    "en": "ultramarathon",
+    "uk": "ультрамарафон",
+    "ru": "ультрамарафон",
+    "pl": "ultramaraton",
+    "de": "Ultramarathon",
+    "fr": "ultramarathon",
+    "es": "ultramaratón",
+    "it": "ultramaratona",
+    "pt": "ultramaratona",
+    "tr": "ultramaraton"
+   },
+   "ex": {
+    "en": "He ran a 100-km ultramarathon."
+   }
+  },
+  {
+   "id": "sports.to-hang-up-ones-boots",
+   "t": {
+    "en": "to hang up one's boots",
+    "uk": "повісити бутси на цвях",
+    "ru": "повесить бутсы на гвоздь",
+    "pl": "zawiesić buty na kołku",
+    "de": "die Fußballschuhe an den Nagel hängen",
+    "fr": "raccrocher les crampons",
+    "es": "colgar las botas",
+    "it": "appendere gli scarpini al chiodo",
+    "pt": "pendurar as chuteiras",
+    "tr": "kramponları asmak"
+   },
+   "ex": {
+    "en": "He hung up his boots at 38."
+   }
+  },
+  {
+   "id": "sports.to-make-ones-debut",
+   "t": {
+    "en": "to make one's debut",
+    "uk": "дебютувати",
+    "ru": "дебютировать",
+    "pl": "zadebiutować",
+    "de": "debütieren",
+    "fr": "faire ses débuts",
+    "es": "debutar",
+    "it": "debuttare",
+    "pt": "estrear",
+    "tr": "ilk maçına çıkmak"
+   },
+   "ex": {
+    "en": "He made his debut at seventeen."
    }
   }
  ]

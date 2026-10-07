@@ -2,7 +2,7 @@
  "id": "emergency-a2",
  "topic": "emergency",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emergency.police-station",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "A dog attacked him in the park."
+   }
+  },
+  {
+   "id": "emergency.to-call-for-help",
+   "t": {
+    "en": "to call for help",
+    "uk": "кликати на допомогу",
+    "ru": "звать на помощь",
+    "pl": "wołać o pomoc",
+    "de": "um Hilfe rufen",
+    "fr": "appeler à l'aide",
+    "es": "pedir ayuda",
+    "it": "chiedere aiuto",
+    "pt": "pedir socorro",
+    "tr": "yardım çağırmak"
+   },
+   "ex": {
+    "en": "She called for help from the window."
+   }
+  },
+  {
+   "id": "emergency.plaster",
+   "t": {
+    "en": "plaster",
+    "uk": "пластир",
+    "ru": "пластырь",
+    "pl": "plaster",
+    "de": "Pflaster",
+    "fr": "pansement",
+    "es": "tirita",
+    "it": "cerotto",
+    "pt": "band-aid",
+    "tr": "yara bandı"
+   },
+   "ex": {
+    "en": "Put a plaster on the cut."
+   }
+  },
+  {
+   "id": "emergency.traffic-accident",
+   "t": {
+    "en": "traffic accident",
+    "uk": "дорожньо-транспортна пригода",
+    "ru": "дорожно-транспортное происшествие",
+    "pl": "wypadek drogowy",
+    "de": "Verkehrsunfall",
+    "fr": "accident de la route",
+    "es": "accidente de tráfico",
+    "it": "incidente stradale",
+    "pt": "acidente de trânsito",
+    "tr": "trafik kazası"
+   },
+   "ex": {
+    "en": "There was a traffic accident on the bridge."
+   }
+  },
+  {
+   "id": "emergency.flat-tyre",
+   "t": {
+    "en": "flat tyre",
+    "uk": "спущене колесо",
+    "ru": "спущенное колесо",
+    "pl": "złapana guma",
+    "de": "Reifenpanne",
+    "fr": "pneu crevé",
+    "es": "pinchazo",
+    "it": "gomma a terra",
+    "pt": "pneu furado",
+    "tr": "patlak lastik"
+   },
+   "ex": {
+    "en": "We had a flat tyre on the motorway."
+   }
+  },
+  {
+   "id": "emergency.locksmith",
+   "t": {
+    "en": "locksmith",
+    "uk": "слюсар",
+    "ru": "слесарь",
+    "pl": "ślusarz",
+    "de": "Schlüsseldienst",
+    "fr": "serrurier",
+    "es": "cerrajero",
+    "it": "fabbro",
+    "pt": "chaveiro",
+    "tr": "çilingir"
+   },
+   "ex": {
+    "en": "Call a locksmith to open the door."
+   }
+  },
+  {
+   "id": "emergency.information-desk",
+   "t": {
+    "en": "information desk",
+    "uk": "довідкове бюро",
+    "ru": "справочное бюро",
+    "pl": "punkt informacyjny",
+    "de": "Informationsschalter",
+    "fr": "bureau d'information",
+    "es": "mostrador de información",
+    "it": "banco informazioni",
+    "pt": "balcão de informações",
+    "tr": "danışma"
+   },
+   "ex": {
+    "en": "Ask at the information desk."
+   }
+  },
+  {
+   "id": "emergency.to-book-an-appointment",
+   "t": {
+    "en": "to book an appointment",
+    "uk": "записатися на прийом",
+    "ru": "записаться на приём",
+    "pl": "umówić się na wizytę",
+    "de": "einen Termin vereinbaren",
+    "fr": "prendre rendez-vous",
+    "es": "pedir cita",
+    "it": "prendere un appuntamento",
+    "pt": "marcar uma consulta",
+    "tr": "randevu almak"
+   },
+   "ex": {
+    "en": "You must book an appointment online."
+   }
+  },
+  {
+   "id": "emergency.date-of-arrival",
+   "t": {
+    "en": "date of arrival",
+    "uk": "дата прибуття",
+    "ru": "дата прибытия",
+    "pl": "data przyjazdu",
+    "de": "Ankunftsdatum",
+    "fr": "date d'arrivée",
+    "es": "fecha de llegada",
+    "it": "data di arrivo",
+    "pt": "data de chegada",
+    "tr": "varış tarihi"
+   },
+   "ex": {
+    "en": "Write your date of arrival here."
+   }
+  },
+  {
+   "id": "emergency.photocopy",
+   "t": {
+    "en": "photocopy",
+    "uk": "ксерокопія",
+    "ru": "ксерокопия",
+    "pl": "kserokopia",
+    "de": "Fotokopie",
+    "fr": "photocopie",
+    "es": "fotocopia",
+    "it": "fotocopia",
+    "pt": "xerox",
+    "tr": "fotokopi"
+   },
+   "ex": {
+    "en": "Bring a photocopy of your passport."
+   }
+  },
+  {
+   "id": "emergency.smoke-alarm",
+   "t": {
+    "en": "smoke alarm",
+    "uk": "димовий датчик",
+    "ru": "датчик дыма",
+    "pl": "czujnik dymu",
+    "de": "Rauchmelder",
+    "fr": "détecteur de fumée",
+    "es": "detector de humo",
+    "it": "rilevatore di fumo",
+    "pt": "detector de fumaça",
+    "tr": "duman dedektörü"
+   },
+   "ex": {
+    "en": "The smoke alarm went off at night."
+   }
+  },
+  {
+   "id": "emergency.to-burn",
+   "t": {
+    "en": "to burn",
+    "uk": "горіти",
+    "ru": "гореть",
+    "pl": "palić się",
+    "de": "brennen",
+    "fr": "brûler",
+    "es": "arder",
+    "it": "bruciare",
+    "pt": "queimar",
+    "tr": "yanmak"
+   },
+   "ex": {
+    "en": "The house is burning!"
+   }
+  },
+  {
+   "id": "emergency.to-put-out",
+   "t": {
+    "en": "to put out",
+    "uk": "гасити",
+    "ru": "тушить",
+    "pl": "gasić",
+    "de": "löschen",
+    "fr": "éteindre",
+    "es": "apagar",
+    "it": "spegnere",
+    "pt": "apagar",
+    "tr": "söndürmek"
+   },
+   "ex": {
+    "en": "They put out the fire quickly."
+   }
+  },
+  {
+   "id": "emergency.gas",
+   "t": {
+    "en": "gas",
+    "uk": "газ",
+    "ru": "газ",
+    "pl": "gaz",
+    "de": "Gas",
+    "fr": "gaz",
+    "es": "gas",
+    "it": "gas",
+    "pt": "gás",
+    "tr": "gaz"
+   },
+   "ex": {
+    "en": "I can smell gas in the kitchen."
+   }
+  },
+  {
+   "id": "emergency.torch",
+   "t": {
+    "en": "torch",
+    "uk": "ліхтарик",
+    "ru": "фонарик",
+    "pl": "latarka",
+    "de": "Taschenlampe",
+    "fr": "lampe de poche",
+    "es": "linterna",
+    "it": "torcia",
+    "pt": "lanterna",
+    "tr": "el feneri"
+   },
+   "ex": {
+    "en": "Keep a torch near your bed."
+   }
+  },
+  {
+   "id": "emergency.panic",
+   "t": {
+    "en": "panic",
+    "uk": "паніка",
+    "ru": "паника",
+    "pl": "panika",
+    "de": "Panik",
+    "fr": "panique",
+    "es": "pánico",
+    "it": "panico",
+    "pt": "pânico",
+    "tr": "panik"
+   },
+   "ex": {
+    "en": "Stay calm, panic makes it worse."
+   }
+  },
+  {
+   "id": "emergency.slippery",
+   "t": {
+    "en": "slippery",
+    "uk": "слизький",
+    "ru": "скользкий",
+    "pl": "śliski",
+    "de": "rutschig",
+    "fr": "glissant",
+    "es": "resbaladizo",
+    "it": "scivoloso",
+    "pt": "escorregadio",
+    "tr": "kaygan"
+   },
+   "ex": {
+    "en": "Careful, the floor is slippery."
+   }
+  },
+  {
+   "id": "emergency.to-slip",
+   "t": {
+    "en": "to slip",
+    "uk": "послизнутися",
+    "ru": "поскользнуться",
+    "pl": "poślizgnąć się",
+    "de": "ausrutschen",
+    "fr": "glisser",
+    "es": "resbalar",
+    "it": "scivolare",
+    "pt": "escorregar",
+    "tr": "kaymak"
+   },
+   "ex": {
+    "en": "I slipped on the ice."
+   }
+  },
+  {
+   "id": "emergency.to-fall-over",
+   "t": {
+    "en": "to fall over",
+    "uk": "падати",
+    "ru": "падать",
+    "pl": "przewracać się",
+    "de": "hinfallen",
+    "fr": "tomber",
+    "es": "caerse",
+    "it": "cadere",
+    "pt": "cair",
+    "tr": "düşmek"
+   },
+   "ex": {
+    "en": "The old man fell over in the street."
+   }
+  },
+  {
+   "id": "emergency.emergency-contact",
+   "t": {
+    "en": "emergency contact",
+    "uk": "контакт для екстрених випадків",
+    "ru": "контакт для экстренной связи",
+    "pl": "kontakt alarmowy",
+    "de": "Notfallkontakt",
+    "fr": "contact d'urgence",
+    "es": "contacto de emergencia",
+    "it": "contatto di emergenza",
+    "pt": "contato de emergência",
+    "tr": "acil durum kişisi"
+   },
+   "ex": {
+    "en": "Who is your emergency contact?"
+   }
+  },
+  {
+   "id": "emergency.passport-number",
+   "t": {
+    "en": "passport number",
+    "uk": "номер паспорта",
+    "ru": "номер паспорта",
+    "pl": "numer paszportu",
+    "de": "Passnummer",
+    "fr": "numéro de passeport",
+    "es": "número de pasaporte",
+    "it": "numero di passaporto",
+    "pt": "número do passaporte",
+    "tr": "pasaport numarası"
+   },
+   "ex": {
+    "en": "Enter your passport number."
+   }
+  },
+  {
+   "id": "emergency.to-show-id",
+   "t": {
+    "en": "to show ID",
+    "uk": "показати посвідчення особи",
+    "ru": "показать удостоверение личности",
+    "pl": "okazać dowód tożsamości",
+    "de": "den Ausweis zeigen",
+    "fr": "présenter une pièce d'identité",
+    "es": "enseñar el DNI",
+    "it": "mostrare un documento",
+    "pt": "mostrar a identidade",
+    "tr": "kimlik göstermek"
+   },
+   "ex": {
+    "en": "You need to show ID at the door."
+   }
+  },
+  {
+   "id": "emergency.to-dial",
+   "t": {
+    "en": "to dial",
+    "uk": "набирати номер",
+    "ru": "набирать номер",
+    "pl": "wybierać numer",
+    "de": "wählen",
+    "fr": "composer un numéro",
+    "es": "marcar",
+    "it": "comporre il numero",
+    "pt": "discar",
+    "tr": "numarayı çevirmek"
+   },
+   "ex": {
+    "en": "Dial 112 in an emergency."
+   }
+  },
+  {
+   "id": "emergency.nearest-hospital",
+   "t": {
+    "en": "nearest hospital",
+    "uk": "найближча лікарня",
+    "ru": "ближайшая больница",
+    "pl": "najbliższy szpital",
+    "de": "nächstes Krankenhaus",
+    "fr": "hôpital le plus proche",
+    "es": "hospital más cercano",
+    "it": "ospedale più vicino",
+    "pt": "hospital mais próximo",
+    "tr": "en yakın hastane"
+   },
+   "ex": {
+    "en": "Where is the nearest hospital?"
+   }
+  },
+  {
+   "id": "emergency.fire-escape",
+   "t": {
+    "en": "fire escape",
+    "uk": "пожежні сходи",
+    "ru": "пожарная лестница",
+    "pl": "schody przeciwpożarowe",
+    "de": "Feuertreppe",
+    "fr": "escalier de secours",
+    "es": "escalera de incendios",
+    "it": "scala antincendio",
+    "pt": "escada de incêndio",
+    "tr": "yangın merdiveni"
+   },
+   "ex": {
+    "en": "Use the fire escape at the back."
+   }
+  },
+  {
+   "id": "emergency.to-push",
+   "t": {
+    "en": "to push",
+    "uk": "штовхати",
+    "ru": "толкать",
+    "pl": "pchać",
+    "de": "schubsen",
+    "fr": "pousser",
+    "es": "empujar",
+    "it": "spingere",
+    "pt": "empurrar",
+    "tr": "itmek"
+   },
+   "ex": {
+    "en": "Somebody pushed me in the crowd."
+   }
+  },
+  {
+   "id": "emergency.home-address",
+   "t": {
+    "en": "home address",
+    "uk": "домашня адреса",
+    "ru": "домашний адрес",
+    "pl": "adres zamieszkania",
+    "de": "Wohnadresse",
+    "fr": "adresse personnelle",
+    "es": "domicilio",
+    "it": "indirizzo di casa",
+    "pt": "endereço residencial",
+    "tr": "ev adresi"
+   },
+   "ex": {
+    "en": "Please give your home address."
+   }
+  },
+  {
+   "id": "emergency.to-wait-in-line",
+   "t": {
+    "en": "to wait in line",
+    "uk": "стояти в черзі",
+    "ru": "стоять в очереди",
+    "pl": "stać w kolejce",
+    "de": "Schlange stehen",
+    "fr": "faire la queue",
+    "es": "hacer cola",
+    "it": "fare la fila",
+    "pt": "ficar na fila",
+    "tr": "sırada beklemek"
+   },
+   "ex": {
+    "en": "We waited in line for an hour."
+   }
+  },
+  {
+   "id": "emergency.life-jacket",
+   "t": {
+    "en": "life jacket",
+    "uk": "рятувальний жилет",
+    "ru": "спасательный жилет",
+    "pl": "kamizelka ratunkowa",
+    "de": "Rettungsweste",
+    "fr": "gilet de sauvetage",
+    "es": "chaleco salvavidas",
+    "it": "giubbotto salvagente",
+    "pt": "colete salva-vidas",
+    "tr": "can yeleği"
+   },
+   "ex": {
+    "en": "Put on your life jacket now."
+   }
+  },
+  {
+   "id": "emergency.on-fire",
+   "t": {
+    "en": "on fire",
+    "uk": "у вогні",
+    "ru": "в огне",
+    "pl": "w ogniu",
+    "de": "in Flammen",
+    "fr": "en feu",
+    "es": "en llamas",
+    "it": "in fiamme",
+    "pt": "em chamas",
+    "tr": "yanıyor"
+   },
+   "ex": {
+    "en": "The car is on fire!"
+   }
+  },
+  {
+   "id": "emergency.to-catch-fire",
+   "t": {
+    "en": "to catch fire",
+    "uk": "загорітися",
+    "ru": "загореться",
+    "pl": "zapalić się",
+    "de": "Feuer fangen",
+    "fr": "prendre feu",
+    "es": "incendiarse",
+    "it": "prendere fuoco",
+    "pt": "pegar fogo",
+    "tr": "alev almak"
+   },
+   "ex": {
+    "en": "The curtains caught fire."
    }
   }
  ]

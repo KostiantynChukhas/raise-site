@@ -2,7 +2,7 @@
  "id": "finance-a1",
  "topic": "finance",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "finance.coin",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "Can I pay later?"
+   }
+  },
+  {
+   "id": "finance.to-have-money",
+   "t": {
+    "en": "to have money",
+    "uk": "мати гроші",
+    "ru": "иметь деньги",
+    "pl": "mieć pieniądze",
+    "de": "Geld haben",
+    "fr": "avoir de l'argent",
+    "es": "tener dinero",
+    "it": "avere soldi",
+    "pt": "ter dinheiro",
+    "tr": "parası olmak"
+   },
+   "ex": {
+    "en": "Do you have money for the bus?"
+   }
+  },
+  {
+   "id": "finance.to-need-money",
+   "t": {
+    "en": "to need money",
+    "uk": "потребувати грошей",
+    "ru": "нуждаться в деньгах",
+    "pl": "potrzebować pieniędzy",
+    "de": "Geld brauchen",
+    "fr": "avoir besoin d'argent",
+    "es": "necesitar dinero",
+    "it": "avere bisogno di soldi",
+    "pt": "precisar de dinheiro",
+    "tr": "paraya ihtiyacı olmak"
+   },
+   "ex": {
+    "en": "I need money for a new phone."
+   }
+  },
+  {
+   "id": "finance.for-free",
+   "t": {
+    "en": "for free",
+    "uk": "безкоштовно",
+    "ru": "бесплатно",
+    "pl": "za darmo",
+    "de": "umsonst",
+    "fr": "gratuitement",
+    "es": "gratis",
+    "it": "gratis",
+    "pt": "de graça",
+    "tr": "bedava"
+   },
+   "ex": {
+    "en": "Children travel for free."
+   }
+  },
+  {
+   "id": "finance.more-expensive",
+   "t": {
+    "en": "more expensive",
+    "uk": "дорожчий",
+    "ru": "дороже",
+    "pl": "droższy",
+    "de": "teurer",
+    "fr": "plus cher",
+    "es": "más caro",
+    "it": "più caro",
+    "pt": "mais caro",
+    "tr": "daha pahalı"
+   },
+   "ex": {
+    "en": "Coffee is more expensive here."
+   }
+  },
+  {
+   "id": "finance.best-price",
+   "t": {
+    "en": "best price",
+    "uk": "найкраща ціна",
+    "ru": "лучшая цена",
+    "pl": "najlepsza cena",
+    "de": "bester Preis",
+    "fr": "meilleur prix",
+    "es": "mejor precio",
+    "it": "miglior prezzo",
+    "pt": "melhor preço",
+    "tr": "en iyi fiyat"
+   },
+   "ex": {
+    "en": "They have the best price in town."
+   }
+  },
+  {
+   "id": "finance.to-find-money",
+   "t": {
+    "en": "to find money",
+    "uk": "знайти гроші",
+    "ru": "найти деньги",
+    "pl": "znaleźć pieniądze",
+    "de": "Geld finden",
+    "fr": "trouver de l'argent",
+    "es": "encontrar dinero",
+    "it": "trovare soldi",
+    "pt": "achar dinheiro",
+    "tr": "para bulmak"
+   },
+   "ex": {
+    "en": "I found money on the street."
+   }
+  },
+  {
+   "id": "finance.exact-change",
+   "t": {
+    "en": "exact change",
+    "uk": "точна сума",
+    "ru": "точная сумма",
+    "pl": "odliczona kwota",
+    "de": "abgezähltes Geld",
+    "fr": "appoint",
+    "es": "importe exacto",
+    "it": "soldi contati",
+    "pt": "valor exato",
+    "tr": "tam para"
+   },
+   "ex": {
+    "en": "Please have exact change for the bus."
+   }
+  },
+  {
+   "id": "finance.cost",
+   "t": {
+    "en": "cost",
+    "uk": "вартість",
+    "ru": "стоимость",
+    "pl": "koszt",
+    "de": "Kosten",
+    "fr": "coût",
+    "es": "coste",
+    "it": "costo",
+    "pt": "custo",
+    "tr": "maliyet"
+   },
+   "ex": {
+    "en": "The cost of the trip is low."
+   }
+  },
+  {
+   "id": "finance.to-pay-for",
+   "t": {
+    "en": "to pay for",
+    "uk": "платити за",
+    "ru": "платить за",
+    "pl": "płacić za",
+    "de": "bezahlen für",
+    "fr": "payer pour",
+    "es": "pagar por",
+    "it": "pagare per",
+    "pt": "pagar por",
+    "tr": "parasını ödemek"
+   },
+   "ex": {
+    "en": "Who will pay for the tickets?"
+   }
+  },
+  {
+   "id": "finance.lost-wallet",
+   "t": {
+    "en": "lost wallet",
+    "uk": "загублений гаманець",
+    "ru": "потерянный кошелёк",
+    "pl": "zgubiony portfel",
+    "de": "verlorene Geldbörse",
+    "fr": "portefeuille perdu",
+    "es": "cartera perdida",
+    "it": "portafoglio smarrito",
+    "pt": "carteira perdida",
+    "tr": "kayıp cüzdan"
+   },
+   "ex": {
+    "en": "Someone found my lost wallet."
+   }
+  },
+  {
+   "id": "finance.money-back",
+   "t": {
+    "en": "money back",
+    "uk": "повернення грошей",
+    "ru": "возврат денег",
+    "pl": "zwrot pieniędzy",
+    "de": "Geld zurück",
+    "fr": "argent remboursé",
+    "es": "devolución del dinero",
+    "it": "soldi indietro",
+    "pt": "dinheiro de volta",
+    "tr": "para iadesi"
+   },
+   "ex": {
+    "en": "I want my money back."
+   }
+  },
+  {
+   "id": "finance.ill-pay",
+   "t": {
+    "en": "I'll pay",
+    "uk": "я заплачу",
+    "ru": "я заплачу",
+    "pl": "ja zapłacę",
+    "de": "ich zahle",
+    "fr": "je paie",
+    "es": "yo pago",
+    "it": "pago io",
+    "pt": "eu pago",
+    "tr": "ben öderim"
+   },
+   "ex": {
+    "en": "Put your wallet away, I'll pay."
+   }
+  },
+  {
+   "id": "finance.to-pay-together",
+   "t": {
+    "en": "to pay together",
+    "uk": "платити разом",
+    "ru": "платить вместе",
+    "pl": "płacić razem",
+    "de": "zusammen zahlen",
+    "fr": "payer ensemble",
+    "es": "pagar juntos",
+    "it": "pagare insieme",
+    "pt": "pagar junto",
+    "tr": "birlikte ödemek"
+   },
+   "ex": {
+    "en": "Do you want to pay together?"
+   }
+  },
+  {
+   "id": "finance.to-pay-separately",
+   "t": {
+    "en": "to pay separately",
+    "uk": "платити окремо",
+    "ru": "платить отдельно",
+    "pl": "płacić osobno",
+    "de": "getrennt zahlen",
+    "fr": "payer séparément",
+    "es": "pagar por separado",
+    "it": "pagare separatamente",
+    "pt": "pagar separado",
+    "tr": "ayrı ödemek"
+   },
+   "ex": {
+    "en": "We'd like to pay separately."
+   }
+  },
+  {
+   "id": "finance.low-price",
+   "t": {
+    "en": "low price",
+    "uk": "низька ціна",
+    "ru": "низкая цена",
+    "pl": "niska cena",
+    "de": "niedriger Preis",
+    "fr": "prix bas",
+    "es": "precio bajo",
+    "it": "prezzo basso",
+    "pt": "preço baixo",
+    "tr": "düşük fiyat"
+   },
+   "ex": {
+    "en": "I like the low price."
+   }
+  },
+  {
+   "id": "finance.high-price",
+   "t": {
+    "en": "high price",
+    "uk": "висока ціна",
+    "ru": "высокая цена",
+    "pl": "wysoka cena",
+    "de": "hoher Preis",
+    "fr": "prix élevé",
+    "es": "precio alto",
+    "it": "prezzo alto",
+    "pt": "preço alto",
+    "tr": "yüksek fiyat"
+   },
+   "ex": {
+    "en": "The high price is a problem."
+   }
+  },
+  {
+   "id": "finance.to-cost-a-lot",
+   "t": {
+    "en": "to cost a lot",
+    "uk": "коштувати багато",
+    "ru": "стоить много",
+    "pl": "dużo kosztować",
+    "de": "viel kosten",
+    "fr": "coûter cher",
+    "es": "costar mucho",
+    "it": "costare molto",
+    "pt": "custar caro",
+    "tr": "çok para tutmak"
+   },
+   "ex": {
+    "en": "A new car costs a lot."
+   }
+  },
+  {
+   "id": "finance.a-little-money",
+   "t": {
+    "en": "a little money",
+    "uk": "трохи грошей",
+    "ru": "немного денег",
+    "pl": "trochę pieniędzy",
+    "de": "ein bisschen Geld",
+    "fr": "un peu d'argent",
+    "es": "un poco de dinero",
+    "it": "un po' di soldi",
+    "pt": "um pouco de dinheiro",
+    "tr": "biraz para"
+   },
+   "ex": {
+    "en": "I have a little money left."
+   }
+  },
+  {
+   "id": "finance.big-note",
+   "t": {
+    "en": "big note",
+    "uk": "велика купюра",
+    "ru": "крупная купюра",
+    "pl": "duży banknot",
+    "de": "großer Schein",
+    "fr": "grosse coupure",
+    "es": "billete grande",
+    "it": "banconota grossa",
+    "pt": "nota alta",
+    "tr": "büyük banknot"
+   },
+   "ex": {
+    "en": "I only have a big note."
+   }
+  },
+  {
+   "id": "finance.to-break-a-note",
+   "t": {
+    "en": "to break a note",
+    "uk": "розміняти купюру",
+    "ru": "разменять купюру",
+    "pl": "rozmienić banknot",
+    "de": "einen Schein wechseln",
+    "fr": "faire de la monnaie",
+    "es": "cambiar un billete",
+    "it": "cambiare una banconota",
+    "pt": "trocar uma nota",
+    "tr": "para bozdurmak"
+   },
+   "ex": {
+    "en": "Can you break a fifty-euro note?"
    }
   }
  ]

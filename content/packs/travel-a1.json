@@ -2,7 +2,7 @@
  "id": "travel-a1",
  "topic": "travel",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "travel.airport",
@@ -884,6 +884,384 @@
    },
    "ex": {
     "en": "Can you take a photo of us?"
+   }
+  },
+  {
+   "id": "travel.room-key",
+   "t": {
+    "en": "room key",
+    "uk": "ключ від номера",
+    "ru": "ключ от номера",
+    "pl": "klucz do pokoju",
+    "de": "Zimmerschlüssel",
+    "fr": "clé de la chambre",
+    "es": "llave de la habitación",
+    "it": "chiave della camera",
+    "pt": "chave do quarto",
+    "tr": "oda anahtarı"
+   },
+   "ex": {
+    "en": "I lost my room key."
+   }
+  },
+  {
+   "id": "travel.holiday-home",
+   "t": {
+    "en": "holiday home",
+    "uk": "будинок для відпочинку",
+    "ru": "дом для отдыха",
+    "pl": "domek letniskowy",
+    "de": "Ferienhaus",
+    "fr": "maison de vacances",
+    "es": "casa de vacaciones",
+    "it": "casa vacanze",
+    "pt": "casa de férias",
+    "tr": "yazlık"
+   },
+   "ex": {
+    "en": "We rent a holiday home by the lake."
+   }
+  },
+  {
+   "id": "travel.by-train",
+   "t": {
+    "en": "by train",
+    "uk": "потягом",
+    "ru": "на поезде",
+    "pl": "pociągiem",
+    "de": "mit dem Zug",
+    "fr": "en train",
+    "es": "en tren",
+    "it": "in treno",
+    "pt": "de trem",
+    "tr": "trenle"
+   },
+   "ex": {
+    "en": "We go to Paris by train."
+   }
+  },
+  {
+   "id": "travel.by-plane",
+   "t": {
+    "en": "by plane",
+    "uk": "літаком",
+    "ru": "на самолёте",
+    "pl": "samolotem",
+    "de": "mit dem Flugzeug",
+    "fr": "en avion",
+    "es": "en avión",
+    "it": "in aereo",
+    "pt": "de avião",
+    "tr": "uçakla"
+   },
+   "ex": {
+    "en": "It is faster to go by plane."
+   }
+  },
+  {
+   "id": "travel.by-boat",
+   "t": {
+    "en": "by boat",
+    "uk": "човном",
+    "ru": "на лодке",
+    "pl": "łodzią",
+    "de": "mit dem Boot",
+    "fr": "en bateau",
+    "es": "en barco",
+    "it": "in barca",
+    "pt": "de barco",
+    "tr": "tekneyle"
+   },
+   "ex": {
+    "en": "We went to the island by boat."
+   }
+  },
+  {
+   "id": "travel.hotel-bar",
+   "t": {
+    "en": "hotel bar",
+    "uk": "бар готелю",
+    "ru": "бар отеля",
+    "pl": "bar hotelowy",
+    "de": "Hotelbar",
+    "fr": "bar de l'hôtel",
+    "es": "bar del hotel",
+    "it": "bar dell'hotel",
+    "pt": "bar do hotel",
+    "tr": "otel barı"
+   },
+   "ex": {
+    "en": "Let's meet in the hotel bar."
+   }
+  },
+  {
+   "id": "travel.hotel-restaurant",
+   "t": {
+    "en": "hotel restaurant",
+    "uk": "ресторан готелю",
+    "ru": "ресторан отеля",
+    "pl": "restauracja hotelowa",
+    "de": "Hotelrestaurant",
+    "fr": "restaurant de l'hôtel",
+    "es": "restaurante del hotel",
+    "it": "ristorante dell'hotel",
+    "pt": "restaurante do hotel",
+    "tr": "otel restoranı"
+   },
+   "ex": {
+    "en": "We had dinner in the hotel restaurant."
+   }
+  },
+  {
+   "id": "travel.nice-view",
+   "t": {
+    "en": "nice view",
+    "uk": "гарний краєвид",
+    "ru": "красивый вид",
+    "pl": "ładny widok",
+    "de": "schöne Aussicht",
+    "fr": "belle vue",
+    "es": "bonitas vistas",
+    "it": "bella vista",
+    "pt": "vista bonita",
+    "tr": "güzel manzara"
+   },
+   "ex": {
+    "en": "Our room has a nice view."
+   }
+  },
+  {
+   "id": "travel.summer-holiday",
+   "t": {
+    "en": "summer holiday",
+    "uk": "літня відпустка",
+    "ru": "летний отпуск",
+    "pl": "wakacje letnie",
+    "de": "Sommerurlaub",
+    "fr": "vacances d'été",
+    "es": "vacaciones de verano",
+    "it": "vacanze estive",
+    "pt": "férias de verão",
+    "tr": "yaz tatili"
+   },
+   "ex": {
+    "en": "Where are you going for your summer holiday?"
+   }
+  },
+  {
+   "id": "travel.city-map",
+   "t": {
+    "en": "city map",
+    "uk": "мапа міста",
+    "ru": "карта города",
+    "pl": "plan miasta",
+    "de": "Stadtplan",
+    "fr": "plan de la ville",
+    "es": "plano de la ciudad",
+    "it": "piantina della città",
+    "pt": "mapa da cidade",
+    "tr": "şehir haritası"
+   },
+   "ex": {
+    "en": "Can I have a city map, please?"
+   }
+  },
+  {
+   "id": "travel.beach-holiday",
+   "t": {
+    "en": "beach holiday",
+    "uk": "відпочинок на пляжі",
+    "ru": "пляжный отдых",
+    "pl": "wakacje na plaży",
+    "de": "Strandurlaub",
+    "fr": "vacances à la plage",
+    "es": "vacaciones de playa",
+    "it": "vacanza al mare",
+    "pt": "férias na praia",
+    "tr": "plaj tatili"
+   },
+   "ex": {
+    "en": "We want a beach holiday this year."
+   }
+  },
+  {
+   "id": "travel.hotel-guest",
+   "t": {
+    "en": "hotel guest",
+    "uk": "гість готелю",
+    "ru": "гость отеля",
+    "pl": "gość hotelowy",
+    "de": "Hotelgast",
+    "fr": "client de l'hôtel",
+    "es": "huésped del hotel",
+    "it": "ospite dell'hotel",
+    "pt": "hóspede do hotel",
+    "tr": "otel misafiri"
+   },
+   "ex": {
+    "en": "The pool is only for hotel guests."
+   }
+  },
+  {
+   "id": "travel.pool",
+   "t": {
+    "en": "pool",
+    "uk": "басейн",
+    "ru": "бассейн",
+    "pl": "basen",
+    "de": "Pool",
+    "fr": "piscine",
+    "es": "piscina",
+    "it": "piscina",
+    "pt": "piscina",
+    "tr": "havuz"
+   },
+   "ex": {
+    "en": "The hotel has a big pool."
+   }
+  },
+  {
+   "id": "travel.sunscreen",
+   "t": {
+    "en": "sunscreen",
+    "uk": "сонцезахисний крем",
+    "ru": "солнцезащитный крем",
+    "pl": "krem z filtrem",
+    "de": "Sonnencreme",
+    "fr": "crème solaire",
+    "es": "crema solar",
+    "it": "crema solare",
+    "pt": "protetor solar",
+    "tr": "güneş kremi"
+   },
+   "ex": {
+    "en": "Don't forget the sunscreen."
+   }
+  },
+  {
+   "id": "travel.hot-water",
+   "t": {
+    "en": "hot water",
+    "uk": "гаряча вода",
+    "ru": "горячая вода",
+    "pl": "ciepła woda",
+    "de": "warmes Wasser",
+    "fr": "eau chaude",
+    "es": "agua caliente",
+    "it": "acqua calda",
+    "pt": "água quente",
+    "tr": "sıcak su"
+   },
+   "ex": {
+    "en": "There is no hot water in my room."
+   }
+  },
+  {
+   "id": "travel.room-number",
+   "t": {
+    "en": "room number",
+    "uk": "номер кімнати",
+    "ru": "номер комнаты",
+    "pl": "numer pokoju",
+    "de": "Zimmernummer",
+    "fr": "numéro de chambre",
+    "es": "número de habitación",
+    "it": "numero di camera",
+    "pt": "número do quarto",
+    "tr": "oda numarası"
+   },
+   "ex": {
+    "en": "What is your room number?"
+   }
+  },
+  {
+   "id": "travel.to-buy-a-ticket",
+   "t": {
+    "en": "to buy a ticket",
+    "uk": "купити квиток",
+    "ru": "купить билет",
+    "pl": "kupić bilet",
+    "de": "eine Fahrkarte kaufen",
+    "fr": "acheter un billet",
+    "es": "comprar un billete",
+    "it": "comprare un biglietto",
+    "pt": "comprar uma passagem",
+    "tr": "bilet almak"
+   },
+   "ex": {
+    "en": "Where can I buy a ticket?"
+   }
+  },
+  {
+   "id": "travel.seaside",
+   "t": {
+    "en": "seaside",
+    "uk": "узбережжя",
+    "ru": "морское побережье",
+    "pl": "nadmorze",
+    "de": "Meeresküste",
+    "fr": "bord de mer",
+    "es": "costa",
+    "it": "mare",
+    "pt": "litoral",
+    "tr": "deniz kenarı"
+   },
+   "ex": {
+    "en": "We spend every summer at the seaside."
+   }
+  },
+  {
+   "id": "travel.to-go-on-holiday",
+   "t": {
+    "en": "to go on holiday",
+    "uk": "їхати у відпустку",
+    "ru": "ехать в отпуск",
+    "pl": "jechać na wakacje",
+    "de": "in den Urlaub fahren",
+    "fr": "partir en vacances",
+    "es": "irse de vacaciones",
+    "it": "andare in vacanza",
+    "pt": "sair de férias",
+    "tr": "tatile gitmek"
+   },
+   "ex": {
+    "en": "We go on holiday in August."
+   }
+  },
+  {
+   "id": "travel.on-the-left",
+   "t": {
+    "en": "on the left",
+    "uk": "ліворуч",
+    "ru": "слева",
+    "pl": "po lewej",
+    "de": "links",
+    "fr": "à gauche",
+    "es": "a la izquierda",
+    "it": "a sinistra",
+    "pt": "à esquerda",
+    "tr": "solda"
+   },
+   "ex": {
+    "en": "The hotel is on the left."
+   }
+  },
+  {
+   "id": "travel.on-the-right",
+   "t": {
+    "en": "on the right",
+    "uk": "праворуч",
+    "ru": "справа",
+    "pl": "po prawej",
+    "de": "rechts",
+    "fr": "à droite",
+    "es": "a la derecha",
+    "it": "a destra",
+    "pt": "à direita",
+    "tr": "sağda"
+   },
+   "ex": {
+    "en": "The station is on the right."
    }
   }
  ]

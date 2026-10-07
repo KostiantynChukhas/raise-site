@@ -2,7 +2,7 @@
  "id": "emotions-b1",
  "topic": "emotions",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emotions.anxious",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "I feel peaceful by the sea."
+   }
+  },
+  {
+   "id": "emotions.disgusted",
+   "t": {
+    "en": "disgusted",
+    "uk": "сповнений відрази",
+    "ru": "испытывающий отвращение",
+    "pl": "zniesmaczony",
+    "de": "angewidert",
+    "fr": "dégoûté",
+    "es": "asqueado",
+    "it": "disgustato",
+    "pt": "enojado",
+    "tr": "iğrenmiş"
+   },
+   "ex": {
+    "en": "I was disgusted by the smell."
+   }
+  },
+  {
+   "id": "emotions.amused",
+   "t": {
+    "en": "amused",
+    "uk": "розвеселений",
+    "ru": "развеселённый",
+    "pl": "rozbawiony",
+    "de": "amüsiert",
+    "fr": "amusé",
+    "es": "divertido",
+    "it": "divertito",
+    "pt": "divertido",
+    "tr": "eğlenmiş"
+   },
+   "ex": {
+    "en": "She looked amused by the joke."
+   }
+  },
+  {
+   "id": "emotions.astonished",
+   "t": {
+    "en": "astonished",
+    "uk": "вражений",
+    "ru": "изумлённый",
+    "pl": "zdumiony",
+    "de": "erstaunt",
+    "fr": "stupéfait",
+    "es": "asombrado",
+    "it": "stupito",
+    "pt": "atônito",
+    "tr": "hayret içinde"
+   },
+   "ex": {
+    "en": "We were astonished at the price."
+   }
+  },
+  {
+   "id": "emotions.shocked",
+   "t": {
+    "en": "shocked",
+    "uk": "шокований",
+    "ru": "шокированный",
+    "pl": "zszokowany",
+    "de": "schockiert",
+    "fr": "choqué",
+    "es": "conmocionado",
+    "it": "scioccato",
+    "pt": "chocado",
+    "tr": "şok olmuş"
+   },
+   "ex": {
+    "en": "Everyone was shocked by the news."
+   }
+  },
+  {
+   "id": "emotions.horrified",
+   "t": {
+    "en": "horrified",
+    "uk": "нажаханий",
+    "ru": "в ужасе",
+    "pl": "przerażony",
+    "de": "entsetzt",
+    "fr": "horrifié",
+    "es": "horrorizado",
+    "it": "inorridito",
+    "pt": "horrorizado",
+    "tr": "dehşete düşmüş"
+   },
+   "ex": {
+    "en": "She was horrified to see the damage."
+   }
+  },
+  {
+   "id": "emotions.impatient",
+   "t": {
+    "en": "impatient",
+    "uk": "нетерплячий",
+    "ru": "нетерпеливый",
+    "pl": "niecierpliwy",
+    "de": "ungeduldig",
+    "fr": "impatient",
+    "es": "impaciente",
+    "it": "impaziente",
+    "pt": "impaciente",
+    "tr": "sabırsız"
+   },
+   "ex": {
+    "en": "Don't be so impatient!"
+   }
+  },
+  {
+   "id": "emotions.to-frighten",
+   "t": {
+    "en": "to frighten",
+    "uk": "лякати",
+    "ru": "пугать",
+    "pl": "straszyć",
+    "de": "erschrecken",
+    "fr": "effrayer",
+    "es": "asustar",
+    "it": "spaventare",
+    "pt": "assustar",
+    "tr": "korkutmak"
+   },
+   "ex": {
+    "en": "Loud noises frighten the baby."
+   }
+  },
+  {
+   "id": "emotions.to-upset",
+   "t": {
+    "en": "to upset",
+    "uk": "засмучувати",
+    "ru": "расстраивать",
+    "pl": "zasmucać",
+    "de": "aufregen",
+    "fr": "contrarier",
+    "es": "disgustar",
+    "it": "turbare",
+    "pt": "chatear",
+    "tr": "üzmek"
+   },
+   "ex": {
+    "en": "I didn't mean to upset you."
+   }
+  },
+  {
+   "id": "emotions.to-annoy",
+   "t": {
+    "en": "to annoy",
+    "uk": "дратувати",
+    "ru": "раздражать",
+    "pl": "denerwować",
+    "de": "ärgern",
+    "fr": "agacer",
+    "es": "molestar",
+    "it": "infastidire",
+    "pt": "irritar",
+    "tr": "sinirlendirmek"
+   },
+   "ex": {
+    "en": "My brother loves to annoy me."
+   }
+  },
+  {
+   "id": "emotions.to-disappoint",
+   "t": {
+    "en": "to disappoint",
+    "uk": "розчаровувати",
+    "ru": "разочаровывать",
+    "pl": "rozczarowywać",
+    "de": "enttäuschen",
+    "fr": "décevoir",
+    "es": "decepcionar",
+    "it": "deludere",
+    "pt": "decepcionar",
+    "tr": "hayal kırıklığına uğratmak"
+   },
+   "ex": {
+    "en": "I don't want to disappoint you."
+   }
+  },
+  {
+   "id": "emotions.to-amaze",
+   "t": {
+    "en": "to amaze",
+    "uk": "вражати",
+    "ru": "поражать",
+    "pl": "zdumiewać",
+    "de": "erstaunen",
+    "fr": "stupéfier",
+    "es": "asombrar",
+    "it": "stupire",
+    "pt": "maravilhar",
+    "tr": "hayran bırakmak"
+   },
+   "ex": {
+    "en": "Her talent amazes me."
+   }
+  },
+  {
+   "id": "emotions.to-embarrass",
+   "t": {
+    "en": "to embarrass",
+    "uk": "бентежити",
+    "ru": "смущать",
+    "pl": "zawstydzać",
+    "de": "in Verlegenheit bringen",
+    "fr": "embarrasser",
+    "es": "avergonzar",
+    "it": "imbarazzare",
+    "pt": "envergonhar",
+    "tr": "utandırmak"
+   },
+   "ex": {
+    "en": "Please don't embarrass me."
+   }
+  },
+  {
+   "id": "emotions.to-panic",
+   "t": {
+    "en": "to panic",
+    "uk": "панікувати",
+    "ru": "паниковать",
+    "pl": "panikować",
+    "de": "in Panik geraten",
+    "fr": "paniquer",
+    "es": "entrar en pánico",
+    "it": "andare nel panico",
+    "pt": "entrar em pânico",
+    "tr": "paniğe kapılmak"
+   },
+   "ex": {
+    "en": "Don't panic, it's okay."
+   }
+  },
+  {
+   "id": "emotions.boredom",
+   "t": {
+    "en": "boredom",
+    "uk": "нудьга",
+    "ru": "скука",
+    "pl": "nuda",
+    "de": "Langeweile",
+    "fr": "ennui",
+    "es": "aburrimiento",
+    "it": "noia",
+    "pt": "tédio",
+    "tr": "can sıkıntısı"
+   },
+   "ex": {
+    "en": "I ate out of boredom."
+   }
+  },
+  {
+   "id": "emotions.excitement",
+   "t": {
+    "en": "excitement",
+    "uk": "хвилювання",
+    "ru": "волнение",
+    "pl": "ekscytacja",
+    "de": "Aufregung",
+    "fr": "enthousiasme",
+    "es": "emoción",
+    "it": "emozione",
+    "pt": "empolgação",
+    "tr": "heyecan"
+   },
+   "ex": {
+    "en": "The kids couldn't sleep from excitement."
+   }
+  },
+  {
+   "id": "emotions.disappointment",
+   "t": {
+    "en": "disappointment",
+    "uk": "розчарування",
+    "ru": "разочарование",
+    "pl": "rozczarowanie",
+    "de": "Enttäuschung",
+    "fr": "déception",
+    "es": "decepción",
+    "it": "delusione",
+    "pt": "decepção",
+    "tr": "hayal kırıklığı"
+   },
+   "ex": {
+    "en": "The film was a big disappointment."
+   }
+  },
+  {
+   "id": "emotions.embarrassment",
+   "t": {
+    "en": "embarrassment",
+    "uk": "збентеження",
+    "ru": "смущение",
+    "pl": "zakłopotanie",
+    "de": "Verlegenheit",
+    "fr": "embarras",
+    "es": "vergüenza",
+    "it": "imbarazzo",
+    "pt": "vergonha",
+    "tr": "mahcubiyet"
+   },
+   "ex": {
+    "en": "His face turned red with embarrassment."
+   }
+  },
+  {
+   "id": "emotions.relief",
+   "t": {
+    "en": "relief",
+    "uk": "полегшення",
+    "ru": "облегчение",
+    "pl": "ulga",
+    "de": "Erleichterung",
+    "fr": "soulagement",
+    "es": "alivio",
+    "it": "sollievo",
+    "pt": "alívio",
+    "tr": "rahatlama"
+   },
+   "ex": {
+    "en": "What a relief!"
+   }
+  },
+  {
+   "id": "emotions.satisfaction",
+   "t": {
+    "en": "satisfaction",
+    "uk": "задоволення",
+    "ru": "удовлетворение",
+    "pl": "satysfakcja",
+    "de": "Zufriedenheit",
+    "fr": "satisfaction",
+    "es": "satisfacción",
+    "it": "soddisfazione",
+    "pt": "satisfação",
+    "tr": "memnuniyet"
+   },
+   "ex": {
+    "en": "Job satisfaction is important."
+   }
+  },
+  {
+   "id": "emotions.curiosity",
+   "t": {
+    "en": "curiosity",
+    "uk": "цікавість",
+    "ru": "любопытство",
+    "pl": "ciekawość",
+    "de": "Neugier",
+    "fr": "curiosité",
+    "es": "curiosidad",
+    "it": "curiosità",
+    "pt": "curiosidade",
+    "tr": "merak"
+   },
+   "ex": {
+    "en": "I asked out of curiosity."
+   }
+  },
+  {
+   "id": "emotions.confidence",
+   "t": {
+    "en": "confidence",
+    "uk": "впевненість",
+    "ru": "уверенность",
+    "pl": "pewność siebie",
+    "de": "Selbstvertrauen",
+    "fr": "confiance en soi",
+    "es": "confianza",
+    "it": "sicurezza",
+    "pt": "autoconfiança",
+    "tr": "özgüven"
+   },
+   "ex": {
+    "en": "She speaks with confidence."
+   }
+  },
+  {
+   "id": "emotions.to-lose-patience",
+   "t": {
+    "en": "to lose patience",
+    "uk": "втрачати терпіння",
+    "ru": "терять терпение",
+    "pl": "tracić cierpliwość",
+    "de": "die Geduld verlieren",
+    "fr": "perdre patience",
+    "es": "perder la paciencia",
+    "it": "perdere la pazienza",
+    "pt": "perder a paciência",
+    "tr": "sabrını kaybetmek"
+   },
+   "ex": {
+    "en": "The teacher lost patience with us."
+   }
+  },
+  {
+   "id": "emotions.to-be-in-tears",
+   "t": {
+    "en": "to be in tears",
+    "uk": "бути в сльозах",
+    "ru": "быть в слезах",
+    "pl": "być we łzach",
+    "de": "in Tränen aufgelöst sein",
+    "fr": "être en larmes",
+    "es": "estar llorando",
+    "it": "essere in lacrime",
+    "pt": "estar aos prantos",
+    "tr": "gözyaşları içinde olmak"
+   },
+   "ex": {
+    "en": "She was in tears after the film."
+   }
+  },
+  {
+   "id": "emotions.to-get-nervous",
+   "t": {
+    "en": "to get nervous",
+    "uk": "нервувати",
+    "ru": "нервничать",
+    "pl": "denerwować się",
+    "de": "nervös werden",
+    "fr": "devenir nerveux",
+    "es": "ponerse nervioso",
+    "it": "innervosirsi",
+    "pt": "ficar nervoso",
+    "tr": "gerilmek"
+   },
+   "ex": {
+    "en": "I get nervous before exams."
+   }
+  },
+  {
+   "id": "emotions.to-feel-at-ease",
+   "t": {
+    "en": "to feel at ease",
+    "uk": "почуватися невимушено",
+    "ru": "чувствовать себя непринуждённо",
+    "pl": "czuć się swobodnie",
+    "de": "sich wohlfühlen",
+    "fr": "se sentir à l'aise",
+    "es": "sentirse a gusto",
+    "it": "sentirsi a proprio agio",
+    "pt": "sentir-se à vontade",
+    "tr": "rahat hissetmek"
+   },
+   "ex": {
+    "en": "I feel at ease with you."
+   }
+  },
+  {
+   "id": "emotions.to-feel-left-out",
+   "t": {
+    "en": "to feel left out",
+    "uk": "почуватися зайвим",
+    "ru": "чувствовать себя лишним",
+    "pl": "czuć się pominiętym",
+    "de": "sich ausgeschlossen fühlen",
+    "fr": "se sentir exclu",
+    "es": "sentirse excluido",
+    "it": "sentirsi escluso",
+    "pt": "sentir-se excluído",
+    "tr": "dışlanmış hissetmek"
+   },
+   "ex": {
+    "en": "Nobody wants to feel left out."
+   }
+  },
+  {
+   "id": "emotions.to-feel-lost",
+   "t": {
+    "en": "to feel lost",
+    "uk": "почуватися розгубленим",
+    "ru": "чувствовать себя потерянным",
+    "pl": "czuć się zagubionym",
+    "de": "sich verloren fühlen",
+    "fr": "se sentir perdu",
+    "es": "sentirse perdido",
+    "it": "sentirsi perso",
+    "pt": "sentir-se perdido",
+    "tr": "kaybolmuş hissetmek"
+   },
+   "ex": {
+    "en": "I felt lost in the new city."
+   }
+  },
+  {
+   "id": "emotions.to-show-feelings",
+   "t": {
+    "en": "to show feelings",
+    "uk": "показувати почуття",
+    "ru": "показывать чувства",
+    "pl": "okazywać uczucia",
+    "de": "Gefühle zeigen",
+    "fr": "montrer ses sentiments",
+    "es": "mostrar los sentimientos",
+    "it": "mostrare i sentimenti",
+    "pt": "demonstrar sentimentos",
+    "tr": "duygularını göstermek"
+   },
+   "ex": {
+    "en": "He never shows his feelings."
+   }
+  },
+  {
+   "id": "emotions.to-hide-feelings",
+   "t": {
+    "en": "to hide feelings",
+    "uk": "приховувати почуття",
+    "ru": "скрывать чувства",
+    "pl": "ukrywać uczucia",
+    "de": "Gefühle verbergen",
+    "fr": "cacher ses sentiments",
+    "es": "ocultar los sentimientos",
+    "it": "nascondere i sentimenti",
+    "pt": "esconder os sentimentos",
+    "tr": "duygularını gizlemek"
+   },
+   "ex": {
+    "en": "It's hard to hide your feelings."
+   }
+  },
+  {
+   "id": "emotions.frightening",
+   "t": {
+    "en": "frightening",
+    "uk": "страшний",
+    "ru": "пугающий",
+    "pl": "przerażający",
+    "de": "beängstigend",
+    "fr": "effrayant",
+    "es": "aterrador",
+    "it": "spaventoso",
+    "pt": "assustador",
+    "tr": "korkutucu"
+   },
+   "ex": {
+    "en": "The film was quite frightening."
+   }
+  },
+  {
+   "id": "emotions.nervousness",
+   "t": {
+    "en": "nervousness",
+    "uk": "нервозність",
+    "ru": "нервозность",
+    "pl": "nerwowość",
+    "de": "Nervosität",
+    "fr": "nervosité",
+    "es": "nerviosismo",
+    "it": "nervosismo",
+    "pt": "nervosismo",
+    "tr": "gerginlik"
+   },
+   "ex": {
+    "en": "I tried to hide my nervousness."
+   }
+  },
+  {
+   "id": "emotions.to-be-keen-on",
+   "t": {
+    "en": "to be keen on",
+    "uk": "захоплюватися",
+    "ru": "увлекаться",
+    "pl": "przepadać za",
+    "de": "begeistert sein von",
+    "fr": "être passionné de",
+    "es": "ser aficionado a",
+    "it": "essere appassionato di",
+    "pt": "ser fã de",
+    "tr": "-e meraklı olmak"
+   },
+   "ex": {
+    "en": "I'm not keen on horror films."
+   }
+  },
+  {
+   "id": "emotions.irritated",
+   "t": {
+    "en": "irritated",
+    "uk": "роздратований",
+    "ru": "раздражённый",
+    "pl": "zirytowany",
+    "de": "gereizt",
+    "fr": "irrité",
+    "es": "irritado",
+    "it": "irritato",
+    "pt": "irritado",
+    "tr": "sinirli"
+   },
+   "ex": {
+    "en": "He sounded irritated on the phone."
+   }
+  },
+  {
+   "id": "emotions.desperate",
+   "t": {
+    "en": "desperate",
+    "uk": "у розпачі",
+    "ru": "отчаявшийся",
+    "pl": "zdesperowany",
+    "de": "verzweifelt",
+    "fr": "désespéré",
+    "es": "desesperado",
+    "it": "disperato",
+    "pt": "desesperado",
+    "tr": "çaresiz"
+   },
+   "ex": {
+    "en": "They were desperate for help."
+   }
+  },
+  {
+   "id": "emotions.helpless",
+   "t": {
+    "en": "helpless",
+    "uk": "безпорадний",
+    "ru": "беспомощный",
+    "pl": "bezradny",
+    "de": "hilflos",
+    "fr": "impuissant",
+    "es": "impotente",
+    "it": "impotente",
+    "pt": "desamparado",
+    "tr": "aciz"
+   },
+   "ex": {
+    "en": "I felt helpless watching him cry."
+   }
+  },
+  {
+   "id": "emotions.hopeless",
+   "t": {
+    "en": "hopeless",
+    "uk": "безнадійний",
+    "ru": "безнадёжный",
+    "pl": "beznadziejny",
+    "de": "hoffnungslos",
+    "fr": "sans espoir",
+    "es": "desesperanzado",
+    "it": "senza speranza",
+    "pt": "sem esperança",
+    "tr": "umutsuz"
+   },
+   "ex": {
+    "en": "The situation seemed hopeless."
+   }
+  },
+  {
+   "id": "emotions.to-be-mad-about",
+   "t": {
+    "en": "to be mad about",
+    "uk": "шаленіти від",
+    "ru": "быть без ума от",
+    "pl": "szaleć za",
+    "de": "verrückt sein nach",
+    "fr": "être fou de",
+    "es": "estar loco por",
+    "it": "andare pazzo per",
+    "pt": "ser louco por",
+    "tr": "-e bayılmak"
+   },
+   "ex": {
+    "en": "She's mad about horses."
+   }
+  },
+  {
+   "id": "emotions.to-feel-guilty",
+   "t": {
+    "en": "to feel guilty",
+    "uk": "відчувати провину",
+    "ru": "чувствовать вину",
+    "pl": "czuć się winnym",
+    "de": "sich schuldig fühlen",
+    "fr": "se sentir coupable",
+    "es": "sentirse culpable",
+    "it": "sentirsi in colpa",
+    "pt": "sentir-se culpado",
+    "tr": "suçlu hissetmek"
+   },
+   "ex": {
+    "en": "I feel guilty about lying."
+   }
+  },
+  {
+   "id": "emotions.to-make-someone-happy",
+   "t": {
+    "en": "to make someone happy",
+    "uk": "робити когось щасливим",
+    "ru": "делать кого-то счастливым",
+    "pl": "uszczęśliwiać kogoś",
+    "de": "jemanden glücklich machen",
+    "fr": "rendre quelqu'un heureux",
+    "es": "hacer feliz a alguien",
+    "it": "rendere felice qualcuno",
+    "pt": "fazer alguém feliz",
+    "tr": "birini mutlu etmek"
+   },
+   "ex": {
+    "en": "Small things make me happy."
+   }
+  },
+  {
+   "id": "emotions.stressful",
+   "t": {
+    "en": "stressful",
+    "uk": "стресовий",
+    "ru": "стрессовый",
+    "pl": "stresujący",
+    "de": "stressig",
+    "fr": "stressant",
+    "es": "estresante",
+    "it": "stressante",
+    "pt": "estressante",
+    "tr": "stresli"
+   },
+   "ex": {
+    "en": "Moving house is stressful."
+   }
+  },
+  {
+   "id": "emotions.joyful",
+   "t": {
+    "en": "joyful",
+    "uk": "радісний",
+    "ru": "радостный",
+    "pl": "radosny",
+    "de": "freudig",
+    "fr": "joyeux",
+    "es": "alegre",
+    "it": "gioioso",
+    "pt": "alegre",
+    "tr": "neşeli"
+   },
+   "ex": {
+    "en": "It was a joyful day."
+   }
+  },
+  {
+   "id": "emotions.fearless",
+   "t": {
+    "en": "fearless",
+    "uk": "безстрашний",
+    "ru": "бесстрашный",
+    "pl": "nieustraszony",
+    "de": "furchtlos",
+    "fr": "intrépide",
+    "es": "intrépido",
+    "it": "impavido",
+    "pt": "destemido",
+    "tr": "korkusuz"
+   },
+   "ex": {
+    "en": "The firefighter was fearless."
+   }
+  },
+  {
+   "id": "emotions.to-cry-with-joy",
+   "t": {
+    "en": "to cry with joy",
+    "uk": "плакати від радості",
+    "ru": "плакать от радости",
+    "pl": "płakać z radości",
+    "de": "vor Freude weinen",
+    "fr": "pleurer de joie",
+    "es": "llorar de alegría",
+    "it": "piangere di gioia",
+    "pt": "chorar de alegria",
+    "tr": "sevinçten ağlamak"
+   },
+   "ex": {
+    "en": "She cried with joy at the news."
+   }
+  },
+  {
+   "id": "emotions.hurtful",
+   "t": {
+    "en": "hurtful",
+    "uk": "кривдний",
+    "ru": "обидный",
+    "pl": "raniący",
+    "de": "verletzend",
+    "fr": "blessant",
+    "es": "hiriente",
+    "it": "offensivo",
+    "pt": "ofensivo",
+    "tr": "kırıcı"
+   },
+   "ex": {
+    "en": "That was a hurtful comment."
+   }
+  },
+  {
+   "id": "emotions.calming",
+   "t": {
+    "en": "calming",
+    "uk": "заспокійливий",
+    "ru": "успокаивающий",
+    "pl": "uspokajający",
+    "de": "beruhigend",
+    "fr": "apaisant",
+    "es": "tranquilizador",
+    "it": "rasserenante",
+    "pt": "calmante",
+    "tr": "sakinleştirici"
+   },
+   "ex": {
+    "en": "The music has a calming effect."
+   }
+  },
+  {
+   "id": "emotions.sorrow",
+   "t": {
+    "en": "sorrow",
+    "uk": "скорбота",
+    "ru": "скорбь",
+    "pl": "żal",
+    "de": "Kummer",
+    "fr": "chagrin",
+    "es": "pesar",
+    "it": "afflizione",
+    "pt": "pesar",
+    "tr": "keder"
+   },
+   "ex": {
+    "en": "She hid her sorrow well."
+   }
+  },
+  {
+   "id": "emotions.to-have-a-laugh",
+   "t": {
+    "en": "to have a laugh",
+    "uk": "посміятися",
+    "ru": "посмеяться",
+    "pl": "pośmiać się",
+    "de": "Spaß haben",
+    "fr": "rigoler",
+    "es": "echarse unas risas",
+    "it": "farsi una risata",
+    "pt": "dar risada",
+    "tr": "gülüp eğlenmek"
+   },
+   "ex": {
+    "en": "We had a good laugh at the party."
+   }
+  },
+  {
+   "id": "emotions.upsetting",
+   "t": {
+    "en": "upsetting",
+    "uk": "що засмучує",
+    "ru": "огорчительный",
+    "pl": "przykry",
+    "de": "belastend",
+    "fr": "bouleversant",
+    "es": "doloroso",
+    "it": "sconvolgente",
+    "pt": "perturbador",
+    "tr": "üzücü"
+   },
+   "ex": {
+    "en": "The news was very upsetting."
+   }
+  },
+  {
+   "id": "emotions.grumpy",
+   "t": {
+    "en": "grumpy",
+    "uk": "буркотливий",
+    "ru": "ворчливый",
+    "pl": "zrzędliwy",
+    "de": "grantig",
+    "fr": "grognon",
+    "es": "gruñón",
+    "it": "brontolone",
+    "pt": "rabugento",
+    "tr": "huysuz"
+   },
+   "ex": {
+    "en": "Dad is grumpy in the morning."
+   }
+  },
+  {
+   "id": "emotions.delight",
+   "t": {
+    "en": "delight",
+    "uk": "захват",
+    "ru": "восторг",
+    "pl": "zachwyt",
+    "de": "Entzücken",
+    "fr": "ravissement",
+    "es": "deleite",
+    "it": "gioia",
+    "pt": "deleite",
+    "tr": "sevinç"
+   },
+   "ex": {
+    "en": "The kids screamed with delight."
    }
   }
  ]

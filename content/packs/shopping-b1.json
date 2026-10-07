@@ -2,7 +2,7 @@
  "id": "shopping-b1",
  "topic": "shopping",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "shopping.to-browse",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "Can I pay cash?"
+   }
+  },
+  {
+   "id": "shopping.to-restock",
+   "t": {
+    "en": "to restock",
+    "uk": "поповнювати запаси",
+    "ru": "пополнять запасы",
+    "pl": "uzupełniać towar",
+    "de": "wieder auffüllen",
+    "fr": "réapprovisionner",
+    "es": "reponer",
+    "it": "rifornire",
+    "pt": "repor o estoque",
+    "tr": "stok yenilemek"
+   },
+   "ex": {
+    "en": "They restock the shelves every night."
+   }
+  },
+  {
+   "id": "shopping.new-arrivals",
+   "t": {
+    "en": "new arrivals",
+    "uk": "новинки",
+    "ru": "новинки",
+    "pl": "nowości",
+    "de": "Neuheiten",
+    "fr": "nouveautés",
+    "es": "novedades",
+    "it": "nuovi arrivi",
+    "pt": "novidades",
+    "tr": "yeni gelenler"
+   },
+   "ex": {
+    "en": "Check out the new arrivals."
+   }
+  },
+  {
+   "id": "shopping.new-collection",
+   "t": {
+    "en": "new collection",
+    "uk": "нова колекція",
+    "ru": "новая коллекция",
+    "pl": "nowa kolekcja",
+    "de": "neue Kollektion",
+    "fr": "nouvelle collection",
+    "es": "nueva colección",
+    "it": "nuova collezione",
+    "pt": "nova coleção",
+    "tr": "yeni koleksiyon"
+   },
+   "ex": {
+    "en": "The new collection is in stores now."
+   }
+  },
+  {
+   "id": "shopping.shopper",
+   "t": {
+    "en": "shopper",
+    "uk": "покупець",
+    "ru": "покупатель",
+    "pl": "kupujący",
+    "de": "Käufer",
+    "fr": "acheteur",
+    "es": "comprador",
+    "it": "acquirente",
+    "pt": "consumidor",
+    "tr": "alışverişçi"
+   },
+   "ex": {
+    "en": "The mall was full of shoppers."
+   }
+  },
+  {
+   "id": "shopping.shopping-spree",
+   "t": {
+    "en": "shopping spree",
+    "uk": "шопінг-марафон",
+    "ru": "шопинг-марафон",
+    "pl": "szał zakupów",
+    "de": "Einkaufsbummel",
+    "fr": "virée shopping",
+    "es": "ola de compras",
+    "it": "spese folli",
+    "pt": "maratona de compras",
+    "tr": "alışveriş çılgınlığı"
+   },
+   "ex": {
+    "en": "She went on a shopping spree."
+   }
+  },
+  {
+   "id": "shopping.to-treat-yourself",
+   "t": {
+    "en": "to treat yourself",
+    "uk": "побалувати себе",
+    "ru": "побаловать себя",
+    "pl": "sprawić sobie przyjemność",
+    "de": "sich etwas gönnen",
+    "fr": "se faire plaisir",
+    "es": "darse un capricho",
+    "it": "concedersi un regalo",
+    "pt": "se dar um mimo",
+    "tr": "kendini şımartmak"
+   },
+   "ex": {
+    "en": "Go on, treat yourself!"
+   }
+  },
+  {
+   "id": "shopping.price-drop",
+   "t": {
+    "en": "price drop",
+    "uk": "зниження ціни",
+    "ru": "снижение цены",
+    "pl": "obniżka ceny",
+    "de": "Preissenkung",
+    "fr": "baisse de prix",
+    "es": "bajada de precio",
+    "it": "calo di prezzo",
+    "pt": "queda de preço",
+    "tr": "fiyat düşüşü"
+   },
+   "ex": {
+    "en": "There was a big price drop."
+   }
+  },
+  {
+   "id": "shopping.reduced-price",
+   "t": {
+    "en": "reduced price",
+    "uk": "знижена ціна",
+    "ru": "сниженная цена",
+    "pl": "obniżona cena",
+    "de": "reduzierter Preis",
+    "fr": "prix réduit",
+    "es": "precio rebajado",
+    "it": "prezzo ridotto",
+    "pt": "preço reduzido",
+    "tr": "indirimli fiyat"
+   },
+   "ex": {
+    "en": "I got it at a reduced price."
+   }
+  },
+  {
+   "id": "shopping.to-get-a-discount",
+   "t": {
+    "en": "to get a discount",
+    "uk": "отримати знижку",
+    "ru": "получить скидку",
+    "pl": "dostać zniżkę",
+    "de": "einen Rabatt bekommen",
+    "fr": "obtenir une réduction",
+    "es": "conseguir un descuento",
+    "it": "ottenere uno sconto",
+    "pt": "conseguir um desconto",
+    "tr": "indirim almak"
+   },
+   "ex": {
+    "en": "Can I get a discount?"
+   }
+  },
+  {
+   "id": "shopping.student-discount",
+   "t": {
+    "en": "student discount",
+    "uk": "студентська знижка",
+    "ru": "студенческая скидка",
+    "pl": "zniżka studencka",
+    "de": "Studentenrabatt",
+    "fr": "réduction étudiante",
+    "es": "descuento para estudiantes",
+    "it": "sconto studenti",
+    "pt": "desconto de estudante",
+    "tr": "öğrenci indirimi"
+   },
+   "ex": {
+    "en": "Do you offer a student discount?"
+   }
+  },
+  {
+   "id": "shopping.online-payment",
+   "t": {
+    "en": "online payment",
+    "uk": "онлайн-оплата",
+    "ru": "онлайн-оплата",
+    "pl": "płatność online",
+    "de": "Online-Zahlung",
+    "fr": "paiement en ligne",
+    "es": "pago en línea",
+    "it": "pagamento online",
+    "pt": "pagamento online",
+    "tr": "online ödeme"
+   },
+   "ex": {
+    "en": "Online payment is quick."
+   }
+  },
+  {
+   "id": "shopping.secure-payment",
+   "t": {
+    "en": "secure payment",
+    "uk": "безпечна оплата",
+    "ru": "безопасная оплата",
+    "pl": "bezpieczna płatność",
+    "de": "sichere Zahlung",
+    "fr": "paiement sécurisé",
+    "es": "pago seguro",
+    "it": "pagamento sicuro",
+    "pt": "pagamento seguro",
+    "tr": "güvenli ödeme"
+   },
+   "ex": {
+    "en": "The site offers secure payment."
+   }
+  },
+  {
+   "id": "shopping.order-confirmation",
+   "t": {
+    "en": "order confirmation",
+    "uk": "підтвердження замовлення",
+    "ru": "подтверждение заказа",
+    "pl": "potwierdzenie zamówienia",
+    "de": "Bestellbestätigung",
+    "fr": "confirmation de commande",
+    "es": "confirmación del pedido",
+    "it": "conferma d'ordine",
+    "pt": "confirmação do pedido",
+    "tr": "sipariş onayı"
+   },
+   "ex": {
+    "en": "I got an order confirmation email."
+   }
+  },
+  {
+   "id": "shopping.delivery-address",
+   "t": {
+    "en": "delivery address",
+    "uk": "адреса доставки",
+    "ru": "адрес доставки",
+    "pl": "adres dostawy",
+    "de": "Lieferadresse",
+    "fr": "adresse de livraison",
+    "es": "dirección de entrega",
+    "it": "indirizzo di consegna",
+    "pt": "endereço de entrega",
+    "tr": "teslimat adresi"
+   },
+   "ex": {
+    "en": "Please check the delivery address."
+   }
+  },
+  {
+   "id": "shopping.delivery-fee",
+   "t": {
+    "en": "delivery fee",
+    "uk": "плата за доставку",
+    "ru": "плата за доставку",
+    "pl": "opłata za dostawę",
+    "de": "Liefergebühr",
+    "fr": "frais de livraison",
+    "es": "tarifa de entrega",
+    "it": "spese di consegna",
+    "pt": "taxa de entrega",
+    "tr": "teslimat ücreti"
+   },
+   "ex": {
+    "en": "The delivery fee is five euros."
+   }
+  },
+  {
+   "id": "shopping.shipping-costs",
+   "t": {
+    "en": "shipping costs",
+    "uk": "вартість пересилання",
+    "ru": "стоимость пересылки",
+    "pl": "koszty wysyłki",
+    "de": "Versandkosten",
+    "fr": "frais d'expédition",
+    "es": "gastos de envío",
+    "it": "spese di spedizione",
+    "pt": "custos de envio",
+    "tr": "kargo ücreti"
+   },
+   "ex": {
+    "en": "Shipping costs are included."
+   }
+  },
+  {
+   "id": "shopping.to-arrive-damaged",
+   "t": {
+    "en": "to arrive damaged",
+    "uk": "прийти пошкодженим",
+    "ru": "прийти повреждённым",
+    "pl": "dotrzeć uszkodzonym",
+    "de": "beschädigt ankommen",
+    "fr": "arriver endommagé",
+    "es": "llegar dañado",
+    "it": "arrivare danneggiato",
+    "pt": "chegar danificado",
+    "tr": "hasarlı gelmek"
+   },
+   "ex": {
+    "en": "The vase arrived damaged."
+   }
+  },
+  {
+   "id": "shopping.missing-item",
+   "t": {
+    "en": "missing item",
+    "uk": "відсутній товар",
+    "ru": "недостающий товар",
+    "pl": "brakujący produkt",
+    "de": "fehlender Artikel",
+    "fr": "article manquant",
+    "es": "artículo que falta",
+    "it": "articolo mancante",
+    "pt": "item faltando",
+    "tr": "eksik ürün"
+   },
+   "ex": {
+    "en": "There's a missing item in my order."
+   }
+  },
+  {
+   "id": "shopping.wrong-size",
+   "t": {
+    "en": "wrong size",
+    "uk": "не той розмір",
+    "ru": "не тот размер",
+    "pl": "zły rozmiar",
+    "de": "falsche Größe",
+    "fr": "mauvaise taille",
+    "es": "talla equivocada",
+    "it": "taglia sbagliata",
+    "pt": "tamanho errado",
+    "tr": "yanlış beden"
+   },
+   "ex": {
+    "en": "They sent the wrong size."
+   }
+  },
+  {
+   "id": "shopping.replacement",
+   "t": {
+    "en": "replacement",
+    "uk": "заміна",
+    "ru": "замена",
+    "pl": "wymiana",
+    "de": "Ersatz",
+    "fr": "remplacement",
+    "es": "sustitución",
+    "it": "sostituzione",
+    "pt": "substituição",
+    "tr": "değişim"
+   },
+   "ex": {
+    "en": "I'd like a replacement, please."
+   }
+  },
+  {
+   "id": "shopping.guarantee",
+   "t": {
+    "en": "guarantee",
+    "uk": "гарантія",
+    "ru": "гарантия",
+    "pl": "gwarancja",
+    "de": "Garantie",
+    "fr": "garantie",
+    "es": "garantía",
+    "it": "garanzia",
+    "pt": "garantia",
+    "tr": "garanti"
+   },
+   "ex": {
+    "en": "It has a two-year guarantee."
+   }
+  },
+  {
+   "id": "shopping.customer-complaint",
+   "t": {
+    "en": "customer complaint",
+    "uk": "скарга клієнта",
+    "ru": "жалоба клиента",
+    "pl": "reklamacja klienta",
+    "de": "Kundenbeschwerde",
+    "fr": "réclamation client",
+    "es": "queja del cliente",
+    "it": "reclamo del cliente",
+    "pt": "reclamação do cliente",
+    "tr": "müşteri şikâyeti"
+   },
+   "ex": {
+    "en": "We received a customer complaint."
+   }
+  },
+  {
+   "id": "shopping.outlet-store",
+   "t": {
+    "en": "outlet store",
+    "uk": "аутлет",
+    "ru": "аутлет",
+    "pl": "outlet",
+    "de": "Outlet",
+    "fr": "magasin d'usine",
+    "es": "outlet",
+    "it": "outlet",
+    "pt": "outlet",
+    "tr": "outlet mağaza"
+   },
+   "ex": {
+    "en": "Prices are lower at the outlet store."
+   }
+  },
+  {
+   "id": "shopping.street-market",
+   "t": {
+    "en": "street market",
+    "uk": "вуличний ринок",
+    "ru": "уличный рынок",
+    "pl": "targ uliczny",
+    "de": "Straßenmarkt",
+    "fr": "marché de rue",
+    "es": "mercadillo",
+    "it": "mercato all'aperto",
+    "pt": "feira de rua",
+    "tr": "semt pazarı"
+   },
+   "ex": {
+    "en": "We found it at a street market."
+   }
+  },
+  {
+   "id": "shopping.farmers-market",
+   "t": {
+    "en": "farmers' market",
+    "uk": "фермерський ринок",
+    "ru": "фермерский рынок",
+    "pl": "targ rolniczy",
+    "de": "Bauernmarkt",
+    "fr": "marché de producteurs",
+    "es": "mercado de agricultores",
+    "it": "mercato contadino",
+    "pt": "feira de produtores",
+    "tr": "üretici pazarı"
+   },
+   "ex": {
+    "en": "I buy eggs at the farmers' market."
+   }
+  },
+  {
+   "id": "shopping.antique-shop",
+   "t": {
+    "en": "antique shop",
+    "uk": "антикварна крамниця",
+    "ru": "антикварный магазин",
+    "pl": "antykwariat",
+    "de": "Antiquitätenladen",
+    "fr": "magasin d'antiquités",
+    "es": "tienda de antigüedades",
+    "it": "negozio di antiquariato",
+    "pt": "antiquário",
+    "tr": "antikacı"
+   },
+   "ex": {
+    "en": "This clock is from an antique shop."
+   }
+  },
+  {
+   "id": "shopping.pawn-shop",
+   "t": {
+    "en": "pawn shop",
+    "uk": "ломбард",
+    "ru": "ломбард",
+    "pl": "lombard",
+    "de": "Pfandhaus",
+    "fr": "prêteur sur gages",
+    "es": "casa de empeños",
+    "it": "banco dei pegni",
+    "pt": "casa de penhores",
+    "tr": "rehinci"
+   },
+   "ex": {
+    "en": "He sold his watch at a pawn shop."
+   }
+  },
+  {
+   "id": "shopping.stationery",
+   "t": {
+    "en": "stationery",
+    "uk": "канцтовари",
+    "ru": "канцтовары",
+    "pl": "artykuły papiernicze",
+    "de": "Schreibwaren",
+    "fr": "papeterie",
+    "es": "papelería",
+    "it": "cancelleria",
+    "pt": "papelaria",
+    "tr": "kırtasiye"
+   },
+   "ex": {
+    "en": "Stationery is on the second floor."
+   }
+  },
+  {
+   "id": "shopping.cosmetics",
+   "t": {
+    "en": "cosmetics",
+    "uk": "косметика",
+    "ru": "косметика",
+    "pl": "kosmetyki",
+    "de": "Kosmetik",
+    "fr": "cosmétiques",
+    "es": "cosméticos",
+    "it": "cosmetici",
+    "pt": "cosméticos",
+    "tr": "kozmetik"
+   },
+   "ex": {
+    "en": "She works in the cosmetics department."
+   }
+  },
+  {
+   "id": "shopping.perfume",
+   "t": {
+    "en": "perfume",
+    "uk": "парфуми",
+    "ru": "духи",
+    "pl": "perfumy",
+    "de": "Parfüm",
+    "fr": "parfum",
+    "es": "perfume",
+    "it": "profumo",
+    "pt": "perfume",
+    "tr": "parfüm"
+   },
+   "ex": {
+    "en": "This perfume smells amazing."
+   }
+  },
+  {
+   "id": "shopping.make-up",
+   "t": {
+    "en": "make-up",
+    "uk": "макіяж",
+    "ru": "макияж",
+    "pl": "makijaż",
+    "de": "Make-up",
+    "fr": "maquillage",
+    "es": "maquillaje",
+    "it": "trucco",
+    "pt": "maquiagem",
+    "tr": "makyaj"
+   },
+   "ex": {
+    "en": "She buys make-up online."
+   }
+  },
+  {
+   "id": "shopping.skincare",
+   "t": {
+    "en": "skincare",
+    "uk": "догляд за шкірою",
+    "ru": "уход за кожей",
+    "pl": "pielęgnacja skóry",
+    "de": "Hautpflege",
+    "fr": "soins de la peau",
+    "es": "cuidado de la piel",
+    "it": "cura della pelle",
+    "pt": "cuidados com a pele",
+    "tr": "cilt bakımı"
+   },
+   "ex": {
+    "en": "Skincare products are on sale."
+   }
+  },
+  {
+   "id": "shopping.accessories",
+   "t": {
+    "en": "accessories",
+    "uk": "аксесуари",
+    "ru": "аксессуары",
+    "pl": "akcesoria",
+    "de": "Accessoires",
+    "fr": "accessoires",
+    "es": "complementos",
+    "it": "accessori",
+    "pt": "acessórios",
+    "tr": "aksesuarlar"
+   },
+   "ex": {
+    "en": "Accessories are near the exit."
+   }
+  },
+  {
+   "id": "shopping.handmade",
+   "t": {
+    "en": "handmade",
+    "uk": "ручної роботи",
+    "ru": "ручной работы",
+    "pl": "ręcznie robiony",
+    "de": "handgemacht",
+    "fr": "fait main",
+    "es": "hecho a mano",
+    "it": "fatto a mano",
+    "pt": "feito à mão",
+    "tr": "el yapımı"
+   },
+   "ex": {
+    "en": "This bag is handmade."
+   }
+  },
+  {
+   "id": "shopping.label",
+   "t": {
+    "en": "label",
+    "uk": "етикетка",
+    "ru": "ярлык",
+    "pl": "metka",
+    "de": "Etikett",
+    "fr": "étiquette",
+    "es": "etiqueta",
+    "it": "etichetta",
+    "pt": "etiqueta",
+    "tr": "etiket"
+   },
+   "ex": {
+    "en": "Check the label for washing instructions."
+   }
+  },
+  {
+   "id": "shopping.well-made",
+   "t": {
+    "en": "well-made",
+    "uk": "якісно зроблений",
+    "ru": "качественный",
+    "pl": "dobrze wykonany",
+    "de": "gut verarbeitet",
+    "fr": "bien fait",
+    "es": "bien hecho",
+    "it": "ben fatto",
+    "pt": "bem-feito",
+    "tr": "iyi yapılmış"
+   },
+   "ex": {
+    "en": "These boots are well-made."
+   }
+  },
+  {
+   "id": "shopping.cheaply-made",
+   "t": {
+    "en": "cheaply made",
+    "uk": "дешево зроблений",
+    "ru": "дёшево сделанный",
+    "pl": "tandetny",
+    "de": "billig verarbeitet",
+    "fr": "de mauvaise facture",
+    "es": "de mala calidad",
+    "it": "fatto male",
+    "pt": "malfeito",
+    "tr": "kalitesiz"
+   },
+   "ex": {
+    "en": "The toy was cheaply made."
+   }
+  },
+  {
+   "id": "shopping.material",
+   "t": {
+    "en": "material",
+    "uk": "тканина",
+    "ru": "ткань",
+    "pl": "materiał",
+    "de": "Stoff",
+    "fr": "tissu",
+    "es": "tela",
+    "it": "tessuto",
+    "pt": "tecido",
+    "tr": "kumaş"
+   },
+   "ex": {
+    "en": "What material is this dress?"
+   }
+  },
+  {
+   "id": "shopping.polyester",
+   "t": {
+    "en": "polyester",
+    "uk": "поліестер",
+    "ru": "полиэстер",
+    "pl": "poliester",
+    "de": "Polyester",
+    "fr": "polyester",
+    "es": "poliéster",
+    "it": "poliestere",
+    "pt": "poliéster",
+    "tr": "polyester"
+   },
+   "ex": {
+    "en": "It's made of polyester."
+   }
+  },
+  {
+   "id": "shopping.velvet",
+   "t": {
+    "en": "velvet",
+    "uk": "оксамит",
+    "ru": "бархат",
+    "pl": "aksamit",
+    "de": "Samt",
+    "fr": "velours",
+    "es": "terciopelo",
+    "it": "velluto",
+    "pt": "veludo",
+    "tr": "kadife"
+   },
+   "ex": {
+    "en": "She wore a red velvet dress."
+   }
+  },
+  {
+   "id": "shopping.suede",
+   "t": {
+    "en": "suede",
+    "uk": "замша",
+    "ru": "замша",
+    "pl": "zamsz",
+    "de": "Wildleder",
+    "fr": "daim",
+    "es": "ante",
+    "it": "camoscio",
+    "pt": "camurça",
+    "tr": "süet"
+   },
+   "ex": {
+    "en": "Suede shoes hate the rain."
+   }
+  },
+  {
+   "id": "shopping.lace",
+   "t": {
+    "en": "lace",
+    "uk": "мереживо",
+    "ru": "кружево",
+    "pl": "koronka",
+    "de": "Spitze",
+    "fr": "dentelle",
+    "es": "encaje",
+    "it": "pizzo",
+    "pt": "renda",
+    "tr": "dantel"
+   },
+   "ex": {
+    "en": "The dress has lace sleeves."
+   }
+  },
+  {
+   "id": "shopping.floral",
+   "t": {
+    "en": "floral",
+    "uk": "квітковий",
+    "ru": "цветочный",
+    "pl": "w kwiaty",
+    "de": "geblümt",
+    "fr": "à fleurs",
+    "es": "de flores",
+    "it": "a fiori",
+    "pt": "florido",
+    "tr": "çiçekli"
+   },
+   "ex": {
+    "en": "I bought a floral skirt."
+   }
+  },
+  {
+   "id": "shopping.patterned",
+   "t": {
+    "en": "patterned",
+    "uk": "з візерунком",
+    "ru": "с узором",
+    "pl": "wzorzysty",
+    "de": "gemustert",
+    "fr": "à motifs",
+    "es": "estampado",
+    "it": "fantasia",
+    "pt": "estampado",
+    "tr": "desenli"
+   },
+   "ex": {
+    "en": "I prefer patterned shirts."
+   }
+  },
+  {
+   "id": "shopping.baggy",
+   "t": {
+    "en": "baggy",
+    "uk": "мішкуватий",
+    "ru": "мешковатый",
+    "pl": "workowaty",
+    "de": "weit",
+    "fr": "large",
+    "es": "holgado",
+    "it": "largo",
+    "pt": "largo",
+    "tr": "bol"
+   },
+   "ex": {
+    "en": "He likes baggy jeans."
+   }
+  },
+  {
+   "id": "shopping.oversized",
+   "t": {
+    "en": "oversized",
+    "uk": "оверсайз",
+    "ru": "оверсайз",
+    "pl": "oversize",
+    "de": "übergroß",
+    "fr": "oversize",
+    "es": "oversize",
+    "it": "oversize",
+    "pt": "oversized",
+    "tr": "oversize"
+   },
+   "ex": {
+    "en": "Oversized jackets are in fashion."
+   }
+  },
+  {
+   "id": "shopping.outfit",
+   "t": {
+    "en": "outfit",
+    "uk": "вбрання",
+    "ru": "наряд",
+    "pl": "strój",
+    "de": "Outfit",
+    "fr": "tenue",
+    "es": "conjunto",
+    "it": "outfit",
+    "pt": "look",
+    "tr": "kıyafet"
+   },
+   "ex": {
+    "en": "I love your outfit!"
+   }
+  },
+  {
+   "id": "shopping.to-dress-up",
+   "t": {
+    "en": "to dress up",
+    "uk": "наряджатися",
+    "ru": "наряжаться",
+    "pl": "stroić się",
+    "de": "sich schick machen",
+    "fr": "s'habiller chic",
+    "es": "arreglarse",
+    "it": "vestirsi elegante",
+    "pt": "se arrumar",
+    "tr": "şık giyinmek"
+   },
+   "ex": {
+    "en": "We dressed up for the party."
+   }
+  },
+  {
+   "id": "shopping.matching",
+   "t": {
+    "en": "matching",
+    "uk": "в тон",
+    "ru": "в тон",
+    "pl": "pasujący",
+    "de": "passend",
+    "fr": "assorti",
+    "es": "a juego",
+    "it": "abbinato",
+    "pt": "combinando",
+    "tr": "uyumlu"
+   },
+   "ex": {
+    "en": "She wore matching shoes and bag."
+   }
+  },
+  {
+   "id": "shopping.stylish",
+   "t": {
+    "en": "stylish",
+    "uk": "стильний",
+    "ru": "стильный",
+    "pl": "stylowy",
+    "de": "stilvoll",
+    "fr": "stylé",
+    "es": "con estilo",
+    "it": "alla moda",
+    "pt": "estiloso",
+    "tr": "şık"
+   },
+   "ex": {
+    "en": "That's a stylish coat."
+   }
+  },
+  {
+   "id": "shopping.elegant",
+   "t": {
+    "en": "elegant",
+    "uk": "елегантний",
+    "ru": "элегантный",
+    "pl": "elegancki",
+    "de": "elegant",
+    "fr": "élégant",
+    "es": "elegante",
+    "it": "elegante",
+    "pt": "elegante",
+    "tr": "zarif"
+   },
+   "ex": {
+    "en": "She looks so elegant."
    }
   }
  ]

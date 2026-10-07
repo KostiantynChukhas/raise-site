@@ -2,7 +2,7 @@
  "id": "work-b1",
  "topic": "work",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "work.to-get-a-raise",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "We set goals at the start of each year."
+   }
+  },
+  {
+   "id": "work.fixed-term-contract",
+   "t": {
+    "en": "fixed-term contract",
+    "uk": "строковий договір",
+    "ru": "срочный договор",
+    "pl": "umowa na czas określony",
+    "de": "befristeter Arbeitsvertrag",
+    "fr": "CDD",
+    "es": "contrato de duración determinada",
+    "it": "contratto a tempo determinato",
+    "pt": "contrato por prazo determinado",
+    "tr": "belirli süreli sözleşme"
+   },
+   "ex": {
+    "en": "She has a one-year fixed-term contract."
+   }
+  },
+  {
+   "id": "work.overtime-pay",
+   "t": {
+    "en": "overtime pay",
+    "uk": "оплата понаднормових",
+    "ru": "оплата сверхурочных",
+    "pl": "wynagrodzenie za nadgodziny",
+    "de": "Überstundenvergütung",
+    "fr": "rémunération des heures supplémentaires",
+    "es": "pago de horas extra",
+    "it": "retribuzione degli straordinari",
+    "pt": "pagamento de hora extra",
+    "tr": "fazla mesai ücreti"
+   },
+   "ex": {
+    "en": "Overtime pay is 50% higher."
+   }
+  },
+  {
+   "id": "work.annual-leave",
+   "t": {
+    "en": "annual leave",
+    "uk": "щорічна відпустка",
+    "ru": "ежегодный отпуск",
+    "pl": "urlop wypoczynkowy",
+    "de": "Jahresurlaub",
+    "fr": "congés annuels",
+    "es": "vacaciones anuales",
+    "it": "ferie annuali",
+    "pt": "férias anuais",
+    "tr": "yıllık izin"
+   },
+   "ex": {
+    "en": "I have 25 days of annual leave."
+   }
+  },
+  {
+   "id": "work.sick-pay",
+   "t": {
+    "en": "sick pay",
+    "uk": "лікарняні",
+    "ru": "больничные",
+    "pl": "zasiłek chorobowy",
+    "de": "Lohnfortzahlung",
+    "fr": "indemnités maladie",
+    "es": "baja pagada",
+    "it": "indennità di malattia",
+    "pt": "auxílio-doença",
+    "tr": "hastalık ödeneği"
+   },
+   "ex": {
+    "en": "Do you get sick pay?"
+   }
+  },
+  {
+   "id": "work.to-give-feedback",
+   "t": {
+    "en": "to give feedback",
+    "uk": "давати зворотний зв'язок",
+    "ru": "давать обратную связь",
+    "pl": "przekazać informację zwrotną",
+    "de": "Feedback geben",
+    "fr": "donner un retour",
+    "es": "dar feedback",
+    "it": "dare un riscontro",
+    "pt": "dar feedback",
+    "tr": "geri bildirim vermek"
+   },
+   "ex": {
+    "en": "My manager gives feedback every week."
+   }
+  },
+  {
+   "id": "work.progress",
+   "t": {
+    "en": "progress",
+    "uk": "прогрес",
+    "ru": "прогресс",
+    "pl": "postęp",
+    "de": "Fortschritt",
+    "fr": "progrès",
+    "es": "progreso",
+    "it": "progresso",
+    "pt": "progresso",
+    "tr": "ilerleme"
+   },
+   "ex": {
+    "en": "We made good progress today."
+   }
+  },
+  {
+   "id": "work.target",
+   "t": {
+    "en": "target",
+    "uk": "ціль",
+    "ru": "цель",
+    "pl": "cel",
+    "de": "Ziel",
+    "fr": "objectif",
+    "es": "objetivo",
+    "it": "obiettivo",
+    "pt": "meta",
+    "tr": "hedef"
+   },
+   "ex": {
+    "en": "Our target is 100 sales a month."
+   }
+  },
+  {
+   "id": "work.job-seeker",
+   "t": {
+    "en": "job seeker",
+    "uk": "шукач роботи",
+    "ru": "соискатель",
+    "pl": "osoba poszukująca pracy",
+    "de": "Arbeitssuchender",
+    "fr": "demandeur d'emploi",
+    "es": "demandante de empleo",
+    "it": "persona in cerca di lavoro",
+    "pt": "candidato a emprego",
+    "tr": "iş arayan"
+   },
+   "ex": {
+    "en": "Job seekers can get help at the job center."
+   }
+  },
+  {
+   "id": "work.unskilled",
+   "t": {
+    "en": "unskilled",
+    "uk": "некваліфікований",
+    "ru": "неквалифицированный",
+    "pl": "niewykwalifikowany",
+    "de": "ungelernt",
+    "fr": "non qualifié",
+    "es": "no cualificado",
+    "it": "non qualificato",
+    "pt": "não qualificado",
+    "tr": "vasıfsız"
+   },
+   "ex": {
+    "en": "They hired unskilled workers for the harvest."
+   }
+  },
+  {
+   "id": "work.to-train-staff",
+   "t": {
+    "en": "to train staff",
+    "uk": "навчати персонал",
+    "ru": "обучать персонал",
+    "pl": "szkolić pracowników",
+    "de": "Mitarbeiter schulen",
+    "fr": "former le personnel",
+    "es": "formar al personal",
+    "it": "formare il personale",
+    "pt": "treinar a equipe",
+    "tr": "personel eğitmek"
+   },
+   "ex": {
+    "en": "We train new staff for two weeks."
+   }
+  },
+  {
+   "id": "work.recruitment",
+   "t": {
+    "en": "recruitment",
+    "uk": "набір персоналу",
+    "ru": "подбор персонала",
+    "pl": "rekrutacja",
+    "de": "Personalbeschaffung",
+    "fr": "recrutement",
+    "es": "contratación",
+    "it": "reclutamento",
+    "pt": "recrutamento",
+    "tr": "işe alım"
+   },
+   "ex": {
+    "en": "Recruitment is getting harder."
+   }
+  },
+  {
+   "id": "work.interviewer",
+   "t": {
+    "en": "interviewer",
+    "uk": "інтерв'юер",
+    "ru": "интервьюер",
+    "pl": "osoba prowadząca rozmowę",
+    "de": "Interviewer",
+    "fr": "recruteur",
+    "es": "entrevistador",
+    "it": "selezionatore",
+    "pt": "entrevistador",
+    "tr": "mülakatçı"
+   },
+   "ex": {
+    "en": "The interviewer asked about my experience."
+   }
+  },
+  {
+   "id": "work.resignation",
+   "t": {
+    "en": "resignation",
+    "uk": "звільнення за власним бажанням",
+    "ru": "увольнение по собственному желанию",
+    "pl": "rezygnacja",
+    "de": "Kündigung",
+    "fr": "démission",
+    "es": "dimisión",
+    "it": "dimissioni",
+    "pt": "demissão",
+    "tr": "istifa"
+   },
+   "ex": {
+    "en": "His resignation surprised everyone."
+   }
+  },
+  {
+   "id": "work.retirement",
+   "t": {
+    "en": "retirement",
+    "uk": "вихід на пенсію",
+    "ru": "выход на пенсию",
+    "pl": "emerytura",
+    "de": "Ruhestand",
+    "fr": "retraite",
+    "es": "jubilación",
+    "it": "pensione",
+    "pt": "aposentadoria",
+    "tr": "emeklilik"
+   },
+   "ex": {
+    "en": "She is looking forward to her retirement."
+   }
+  },
+  {
+   "id": "work.branch-office",
+   "t": {
+    "en": "branch office",
+    "uk": "філія",
+    "ru": "филиал",
+    "pl": "oddział",
+    "de": "Zweigstelle",
+    "fr": "succursale",
+    "es": "sucursal",
+    "it": "filiale",
+    "pt": "filial",
+    "tr": "şube"
+   },
+   "ex": {
+    "en": "He works at our branch office in Kyiv."
+   }
+  },
+  {
+   "id": "work.flexitime",
+   "t": {
+    "en": "flexitime",
+    "uk": "гнучкий графік",
+    "ru": "гибкий график",
+    "pl": "elastyczny czas pracy",
+    "de": "Gleitzeit",
+    "fr": "horaires flexibles",
+    "es": "horario flexible",
+    "it": "orario flessibile",
+    "pt": "horário flexível",
+    "tr": "esnek mesai"
+   },
+   "ex": {
+    "en": "With flexitime I can start at ten."
+   }
+  },
+  {
+   "id": "work.to-report-to",
+   "t": {
+    "en": "to report to",
+    "uk": "підпорядковуватися",
+    "ru": "подчиняться",
+    "pl": "podlegać",
+    "de": "unterstellt sein",
+    "fr": "rendre compte à",
+    "es": "depender de",
+    "it": "riferire a",
+    "pt": "reportar-se a",
+    "tr": "bağlı olmak"
+   },
+   "ex": {
+    "en": "I report to the sales director."
+   }
+  },
+  {
+   "id": "work.personnel",
+   "t": {
+    "en": "personnel",
+    "uk": "персонал",
+    "ru": "персонал",
+    "pl": "kadry",
+    "de": "Personal",
+    "fr": "personnel",
+    "es": "personal",
+    "it": "personale",
+    "pt": "pessoal",
+    "tr": "personel"
+   },
+   "ex": {
+    "en": "All personnel must wear a badge."
+   }
+  },
+  {
+   "id": "work.payroll",
+   "t": {
+    "en": "payroll",
+    "uk": "зарплатна відомість",
+    "ru": "платёжная ведомость",
+    "pl": "lista płac",
+    "de": "Lohnabrechnung",
+    "fr": "paie",
+    "es": "nómina",
+    "it": "libro paga",
+    "pt": "folha de pagamento",
+    "tr": "bordro"
+   },
+   "ex": {
+    "en": "Payroll is processed on the 25th."
+   }
+  },
+  {
+   "id": "work.appraisal",
+   "t": {
+    "en": "appraisal",
+    "uk": "атестація",
+    "ru": "аттестация",
+    "pl": "ocena pracownicza",
+    "de": "Mitarbeiterbeurteilung",
+    "fr": "entretien d'évaluation",
+    "es": "evaluación",
+    "it": "valutazione",
+    "pt": "avaliação",
+    "tr": "değerlendirme"
+   },
+   "ex": {
+    "en": "My annual appraisal is next week."
+   }
+  },
+  {
+   "id": "work.to-cooperate",
+   "t": {
+    "en": "to cooperate",
+    "uk": "співпрацювати",
+    "ru": "сотрудничать",
+    "pl": "współpracować",
+    "de": "kooperieren",
+    "fr": "coopérer",
+    "es": "cooperar",
+    "it": "cooperare",
+    "pt": "cooperar",
+    "tr": "işbirliği yapmak"
+   },
+   "ex": {
+    "en": "The two teams must cooperate."
+   }
+  },
+  {
+   "id": "work.to-chair-a-meeting",
+   "t": {
+    "en": "to chair a meeting",
+    "uk": "головувати на засіданні",
+    "ru": "председательствовать на собрании",
+    "pl": "przewodniczyć zebraniu",
+    "de": "eine Sitzung leiten",
+    "fr": "présider une réunion",
+    "es": "presidir una reunión",
+    "it": "presiedere una riunione",
+    "pt": "presidir uma reunião",
+    "tr": "toplantıya başkanlık etmek"
+   },
+   "ex": {
+    "en": "Anna will chair the meeting today."
+   }
+  },
+  {
+   "id": "work.to-take-minutes",
+   "t": {
+    "en": "to take minutes",
+    "uk": "вести протокол",
+    "ru": "вести протокол",
+    "pl": "protokołować",
+    "de": "Protokoll führen",
+    "fr": "prendre le procès-verbal",
+    "es": "levantar acta",
+    "it": "redigere il verbale",
+    "pt": "redigir a ata",
+    "tr": "tutanak tutmak"
+   },
+   "ex": {
+    "en": "Can you take minutes today?"
+   }
+  },
+  {
+   "id": "work.workplace-stress",
+   "t": {
+    "en": "workplace stress",
+    "uk": "стрес на роботі",
+    "ru": "стресс на работе",
+    "pl": "stres w pracy",
+    "de": "Stress am Arbeitsplatz",
+    "fr": "stress au travail",
+    "es": "estrés laboral",
+    "it": "stress da lavoro",
+    "pt": "estresse no trabalho",
+    "tr": "iş stresi"
+   },
+   "ex": {
+    "en": "Workplace stress can make you ill."
+   }
+  },
+  {
+   "id": "work.to-be-overworked",
+   "t": {
+    "en": "to be overworked",
+    "uk": "бути перевантаженим роботою",
+    "ru": "быть перегруженным работой",
+    "pl": "być przepracowanym",
+    "de": "überarbeitet sein",
+    "fr": "être surmené",
+    "es": "estar sobrecargado de trabajo",
+    "it": "essere oberato di lavoro",
+    "pt": "estar sobrecarregado",
+    "tr": "aşırı çalışmak"
+   },
+   "ex": {
+    "en": "The nurses are overworked."
+   }
+  },
+  {
+   "id": "work.to-be-underpaid",
+   "t": {
+    "en": "to be underpaid",
+    "uk": "отримувати замало",
+    "ru": "получать слишком мало",
+    "pl": "być niedopłacanym",
+    "de": "unterbezahlt sein",
+    "fr": "être sous-payé",
+    "es": "estar mal pagado",
+    "it": "essere sottopagato",
+    "pt": "ser mal pago",
+    "tr": "düşük ücret almak"
+   },
+   "ex": {
+    "en": "Many teachers feel underpaid."
+   }
+  },
+  {
+   "id": "work.equal-pay",
+   "t": {
+    "en": "equal pay",
+    "uk": "рівна оплата праці",
+    "ru": "равная оплата труда",
+    "pl": "równe wynagrodzenie",
+    "de": "gleicher Lohn",
+    "fr": "égalité salariale",
+    "es": "igualdad salarial",
+    "it": "parità salariale",
+    "pt": "igualdade salarial",
+    "tr": "eşit ücret"
+   },
+   "ex": {
+    "en": "Women demand equal pay."
+   }
+  },
+  {
+   "id": "work.expenses-claim",
+   "t": {
+    "en": "expenses claim",
+    "uk": "заява на відшкодування витрат",
+    "ru": "заявка на возмещение расходов",
+    "pl": "rozliczenie wydatków",
+    "de": "Spesenabrechnung",
+    "fr": "note de frais",
+    "es": "nota de gastos",
+    "it": "nota spese",
+    "pt": "pedido de reembolso",
+    "tr": "masraf beyanı"
+   },
+   "ex": {
+    "en": "Submit your expenses claim by Friday."
+   }
+  },
+  {
+   "id": "work.to-brief",
+   "t": {
+    "en": "to brief",
+    "uk": "інструктувати",
+    "ru": "инструктировать",
+    "pl": "poinstruować",
+    "de": "instruieren",
+    "fr": "briefer",
+    "es": "informar",
+    "it": "istruire",
+    "pt": "instruir",
+    "tr": "bilgilendirmek"
+   },
+   "ex": {
+    "en": "The manager briefed us on the project."
+   }
+  },
+  {
+   "id": "work.briefing",
+   "t": {
+    "en": "briefing",
+    "uk": "брифінг",
+    "ru": "брифинг",
+    "pl": "odprawa",
+    "de": "Einweisung",
+    "fr": "briefing",
+    "es": "reunión informativa",
+    "it": "riunione informativa",
+    "pt": "reunião informativa",
+    "tr": "brifing"
+   },
+   "ex": {
+    "en": "There's a short briefing before every shift."
+   }
+  },
+  {
+   "id": "work.onboarding",
+   "t": {
+    "en": "onboarding",
+    "uk": "адаптація нових працівників",
+    "ru": "адаптация новых сотрудников",
+    "pl": "wdrożenie",
+    "de": "Einarbeitung",
+    "fr": "intégration",
+    "es": "incorporación",
+    "it": "inserimento",
+    "pt": "integração",
+    "tr": "oryantasyon"
+   },
+   "ex": {
+    "en": "Onboarding takes two weeks."
+   }
+  },
+  {
+   "id": "work.tight-deadline",
+   "t": {
+    "en": "tight deadline",
+    "uk": "стислий термін",
+    "ru": "сжатые сроки",
+    "pl": "napięty termin",
+    "de": "knappe Frist",
+    "fr": "délai serré",
+    "es": "plazo ajustado",
+    "it": "scadenza stretta",
+    "pt": "prazo apertado",
+    "tr": "dar teslim süresi"
+   },
+   "ex": {
+    "en": "We are working to a tight deadline."
+   }
+  },
+  {
+   "id": "work.to-report-back",
+   "t": {
+    "en": "to report back",
+    "uk": "доповісти",
+    "ru": "отчитаться",
+    "pl": "zdać relację",
+    "de": "Bericht erstatten",
+    "fr": "faire un compte rendu",
+    "es": "informar",
+    "it": "riferire",
+    "pt": "dar retorno",
+    "tr": "geri bildirmek"
+   },
+   "ex": {
+    "en": "Please report back after the meeting."
+   }
+  },
+  {
+   "id": "work.career-prospects",
+   "t": {
+    "en": "career prospects",
+    "uk": "кар'єрні перспективи",
+    "ru": "карьерные перспективы",
+    "pl": "perspektywy kariery",
+    "de": "Karriereaussichten",
+    "fr": "perspectives de carrière",
+    "es": "perspectivas profesionales",
+    "it": "prospettive di carriera",
+    "pt": "perspectivas de carreira",
+    "tr": "kariyer olanakları"
+   },
+   "ex": {
+    "en": "The job has good career prospects."
+   }
+  },
+  {
+   "id": "work.transferable-skills",
+   "t": {
+    "en": "transferable skills",
+    "uk": "універсальні навички",
+    "ru": "универсальные навыки",
+    "pl": "umiejętności uniwersalne",
+    "de": "übertragbare Fähigkeiten",
+    "fr": "compétences transférables",
+    "es": "habilidades transferibles",
+    "it": "competenze trasversali",
+    "pt": "habilidades transferíveis",
+    "tr": "aktarılabilir beceriler"
+   },
+   "ex": {
+    "en": "Teamwork is a transferable skill."
+   }
+  },
+  {
+   "id": "work.hard-skills",
+   "t": {
+    "en": "hard skills",
+    "uk": "професійні навички",
+    "ru": "профессиональные навыки",
+    "pl": "umiejętności twarde",
+    "de": "Fachkompetenzen",
+    "fr": "compétences techniques",
+    "es": "habilidades técnicas",
+    "it": "competenze tecniche",
+    "pt": "habilidades técnicas",
+    "tr": "teknik beceriler"
+   },
+   "ex": {
+    "en": "Coding is one of my hard skills."
+   }
+  },
+  {
+   "id": "work.to-retrain",
+   "t": {
+    "en": "to retrain",
+    "uk": "перекваліфікуватися",
+    "ru": "переквалифицироваться",
+    "pl": "przekwalifikować się",
+    "de": "umschulen",
+    "fr": "se reconvertir",
+    "es": "reciclarse",
+    "it": "riqualificarsi",
+    "pt": "requalificar-se",
+    "tr": "yeniden eğitim almak"
+   },
+   "ex": {
+    "en": "He retrained as a teacher at forty."
+   }
+  },
+  {
+   "id": "work.proactive",
+   "t": {
+    "en": "proactive",
+    "uk": "ініціативний",
+    "ru": "инициативный",
+    "pl": "proaktywny",
+    "de": "proaktiv",
+    "fr": "proactif",
+    "es": "proactivo",
+    "it": "proattivo",
+    "pt": "proativo",
+    "tr": "proaktif"
+   },
+   "ex": {
+    "en": "We want proactive employees."
+   }
+  },
+  {
+   "id": "work.team-building",
+   "t": {
+    "en": "team building",
+    "uk": "тімбілдинг",
+    "ru": "тимбилдинг",
+    "pl": "integracja zespołu",
+    "de": "Teambuilding",
+    "fr": "team building",
+    "es": "team building",
+    "it": "team building",
+    "pt": "integração de equipe",
+    "tr": "takım oluşturma etkinliği"
+   },
+   "ex": {
+    "en": "We went climbing for team building."
+   }
+  },
+  {
+   "id": "work.workplace-conflict",
+   "t": {
+    "en": "workplace conflict",
+    "uk": "конфлікт на роботі",
+    "ru": "конфликт на работе",
+    "pl": "konflikt w pracy",
+    "de": "Konflikt am Arbeitsplatz",
+    "fr": "conflit au travail",
+    "es": "conflicto laboral",
+    "it": "conflitto sul lavoro",
+    "pt": "conflito no trabalho",
+    "tr": "işyeri çatışması"
+   },
+   "ex": {
+    "en": "HR helps to resolve workplace conflict."
+   }
+  },
+  {
+   "id": "work.job-market",
+   "t": {
+    "en": "job market",
+    "uk": "ринок праці",
+    "ru": "рынок труда",
+    "pl": "rynek pracy",
+    "de": "Arbeitsmarkt",
+    "fr": "marché du travail",
+    "es": "mercado laboral",
+    "it": "mercato del lavoro",
+    "pt": "mercado de trabalho",
+    "tr": "iş piyasası"
+   },
+   "ex": {
+    "en": "The job market is tough right now."
+   }
+  },
+  {
+   "id": "work.parental-leave",
+   "t": {
+    "en": "parental leave",
+    "uk": "відпустка по догляду за дитиною",
+    "ru": "отпуск по уходу за ребёнком",
+    "pl": "urlop rodzicielski",
+    "de": "Elternzeit",
+    "fr": "congé parental",
+    "es": "permiso parental",
+    "it": "congedo parentale",
+    "pt": "licença parental",
+    "tr": "ebeveyn izni"
+   },
+   "ex": {
+    "en": "He took six months of parental leave."
+   }
+  },
+  {
+   "id": "work.paternity-leave",
+   "t": {
+    "en": "paternity leave",
+    "uk": "відпустка для батька",
+    "ru": "отпуск для отца",
+    "pl": "urlop ojcowski",
+    "de": "Vaterschaftsurlaub",
+    "fr": "congé de paternité",
+    "es": "permiso de paternidad",
+    "it": "congedo di paternità",
+    "pt": "licença-paternidade",
+    "tr": "babalık izni"
+   },
+   "ex": {
+    "en": "Paternity leave is two weeks."
+   }
+  },
+  {
+   "id": "work.to-work-remotely",
+   "t": {
+    "en": "to work remotely",
+    "uk": "працювати віддалено",
+    "ru": "работать удалённо",
+    "pl": "pracować zdalnie",
+    "de": "remote arbeiten",
+    "fr": "travailler à distance",
+    "es": "trabajar a distancia",
+    "it": "lavorare da remoto",
+    "pt": "trabalhar remotamente",
+    "tr": "uzaktan çalışmak"
+   },
+   "ex": {
+    "en": "I work remotely three days a week."
+   }
+  },
+  {
+   "id": "work.coworking-space",
+   "t": {
+    "en": "coworking space",
+    "uk": "коворкінг",
+    "ru": "коворкинг",
+    "pl": "przestrzeń coworkingowa",
+    "de": "Coworking-Space",
+    "fr": "espace de coworking",
+    "es": "espacio de coworking",
+    "it": "spazio di coworking",
+    "pt": "espaço de coworking",
+    "tr": "ortak çalışma alanı"
+   },
+   "ex": {
+    "en": "I rent a desk in a coworking space."
+   }
+  },
+  {
+   "id": "work.executive",
+   "t": {
+    "en": "executive",
+    "uk": "керівник",
+    "ru": "руководитель",
+    "pl": "członek kierownictwa",
+    "de": "Führungskraft",
+    "fr": "cadre dirigeant",
+    "es": "ejecutivo",
+    "it": "dirigente",
+    "pt": "executivo",
+    "tr": "yönetici"
+   },
+   "ex": {
+    "en": "She is a senior executive at the bank."
+   }
+  },
+  {
+   "id": "work.ceo",
+   "t": {
+    "en": "CEO",
+    "uk": "генеральний директор",
+    "ru": "генеральный директор",
+    "pl": "prezes",
+    "de": "Geschäftsführer",
+    "fr": "PDG",
+    "es": "director ejecutivo",
+    "it": "amministratore delegato",
+    "pt": "CEO",
+    "tr": "CEO"
+   },
+   "ex": {
+    "en": "The CEO announced the new plan."
+   }
+  },
+  {
+   "id": "work.subordinate",
+   "t": {
+    "en": "subordinate",
+    "uk": "підлеглий",
+    "ru": "подчинённый",
+    "pl": "podwładny",
+    "de": "Untergebener",
+    "fr": "subordonné",
+    "es": "subordinado",
+    "it": "subordinato",
+    "pt": "subordinado",
+    "tr": "ast"
+   },
+   "ex": {
+    "en": "He treats his subordinates fairly."
+   }
+  },
+  {
+   "id": "work.work-ethic",
+   "t": {
+    "en": "work ethic",
+    "uk": "ставлення до роботи",
+    "ru": "трудовая этика",
+    "pl": "etyka pracy",
+    "de": "Arbeitsmoral",
+    "fr": "éthique de travail",
+    "es": "ética laboral",
+    "it": "etica del lavoro",
+    "pt": "ética de trabalho",
+    "tr": "iş ahlakı"
+   },
+   "ex": {
+    "en": "She has a strong work ethic."
+   }
+  },
+  {
+   "id": "work.hands-on",
+   "t": {
+    "en": "hands-on",
+    "uk": "практичний",
+    "ru": "практический",
+    "pl": "praktyczny",
+    "de": "praxisnah",
+    "fr": "pratique",
+    "es": "práctico",
+    "it": "pratico",
+    "pt": "prático",
+    "tr": "uygulamalı"
+   },
+   "ex": {
+    "en": "The training is very hands-on."
    }
   }
  ]

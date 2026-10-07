@@ -2,7 +2,7 @@
  "id": "emotions-a2",
  "topic": "emotions",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emotions.to-be-nervous",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "We were lucky with the weather."
+   }
+  },
+  {
+   "id": "emotions.to-be-surprised",
+   "t": {
+    "en": "to be surprised",
+    "uk": "дивуватися",
+    "ru": "удивляться",
+    "pl": "być zaskoczonym",
+    "de": "überrascht sein",
+    "fr": "être surpris",
+    "es": "estar sorprendido",
+    "it": "essere sorpreso",
+    "pt": "ficar surpreso",
+    "tr": "şaşırmak"
+   },
+   "ex": {
+    "en": "I was surprised to see her."
+   }
+  },
+  {
+   "id": "emotions.to-be-excited-about",
+   "t": {
+    "en": "to be excited about",
+    "uk": "бути в захваті від",
+    "ru": "быть в восторге от",
+    "pl": "cieszyć się na",
+    "de": "sich freuen auf",
+    "fr": "avoir hâte de",
+    "es": "estar emocionado por",
+    "it": "essere entusiasta di",
+    "pt": "estar animado com",
+    "tr": "için heyecanlanmak"
+   },
+   "ex": {
+    "en": "I'm excited about the trip."
+   }
+  },
+  {
+   "id": "emotions.to-feel-safe",
+   "t": {
+    "en": "to feel safe",
+    "uk": "почуватися в безпеці",
+    "ru": "чувствовать себя в безопасности",
+    "pl": "czuć się bezpiecznie",
+    "de": "sich sicher fühlen",
+    "fr": "se sentir en sécurité",
+    "es": "sentirse seguro",
+    "it": "sentirsi al sicuro",
+    "pt": "sentir-se seguro",
+    "tr": "kendini güvende hissetmek"
+   },
+   "ex": {
+    "en": "I feel safe at home."
+   }
+  },
+  {
+   "id": "emotions.to-shout-at",
+   "t": {
+    "en": "to shout at",
+    "uk": "кричати на",
+    "ru": "кричать на",
+    "pl": "krzyczeć na",
+    "de": "anschreien",
+    "fr": "crier sur",
+    "es": "gritar a",
+    "it": "urlare contro",
+    "pt": "gritar com",
+    "tr": "-e bağırmak"
+   },
+   "ex": {
+    "en": "Don't shout at me!"
+   }
+  },
+  {
+   "id": "emotions.to-get-upset",
+   "t": {
+    "en": "to get upset",
+    "uk": "засмучуватися",
+    "ru": "расстраиваться",
+    "pl": "zdenerwować się",
+    "de": "sich aufregen",
+    "fr": "s'énerver",
+    "es": "disgustarse",
+    "it": "rimanerci male",
+    "pt": "ficar chateado",
+    "tr": "üzülmek"
+   },
+   "ex": {
+    "en": "She gets upset easily."
+   }
+  },
+  {
+   "id": "emotions.to-get-scared",
+   "t": {
+    "en": "to get scared",
+    "uk": "злякатися",
+    "ru": "испугаться",
+    "pl": "przestraszyć się",
+    "de": "Angst bekommen",
+    "fr": "prendre peur",
+    "es": "asustarse",
+    "it": "spaventarsi",
+    "pt": "ficar com medo",
+    "tr": "korkmak"
+   },
+   "ex": {
+    "en": "The dog got scared of the storm."
+   }
+  },
+  {
+   "id": "emotions.relaxing",
+   "t": {
+    "en": "relaxing",
+    "uk": "розслабливий",
+    "ru": "расслабляющий",
+    "pl": "relaksujący",
+    "de": "entspannend",
+    "fr": "relaxant",
+    "es": "relajante",
+    "it": "rilassante",
+    "pt": "relaxante",
+    "tr": "rahatlatıcı"
+   },
+   "ex": {
+    "en": "A hot bath is relaxing."
+   }
+  },
+  {
+   "id": "emotions.exciting",
+   "t": {
+    "en": "exciting",
+    "uk": "захопливий",
+    "ru": "захватывающий",
+    "pl": "ekscytujący",
+    "de": "aufregend",
+    "fr": "passionnant",
+    "es": "emocionante",
+    "it": "emozionante",
+    "pt": "emocionante",
+    "tr": "heyecan verici"
+   },
+   "ex": {
+    "en": "The match was exciting."
+   }
+  },
+  {
+   "id": "emotions.surprising",
+   "t": {
+    "en": "surprising",
+    "uk": "несподіваний",
+    "ru": "удивительный",
+    "pl": "zaskakujący",
+    "de": "überraschend",
+    "fr": "surprenant",
+    "es": "sorprendente",
+    "it": "sorprendente",
+    "pt": "surpreendente",
+    "tr": "şaşırtıcı"
+   },
+   "ex": {
+    "en": "The news was surprising."
+   }
+  },
+  {
+   "id": "emotions.frightened",
+   "t": {
+    "en": "frightened",
+    "uk": "наляканий",
+    "ru": "испуганный",
+    "pl": "przestraszony",
+    "de": "verängstigt",
+    "fr": "effrayé",
+    "es": "asustado",
+    "it": "spaventato",
+    "pt": "assustado",
+    "tr": "korkmuş"
+   },
+   "ex": {
+    "en": "The frightened cat hid."
+   }
+  },
+  {
+   "id": "emotions.unfriendly",
+   "t": {
+    "en": "unfriendly",
+    "uk": "непривітний",
+    "ru": "недружелюбный",
+    "pl": "nieprzyjazny",
+    "de": "unfreundlich",
+    "fr": "peu aimable",
+    "es": "antipático",
+    "it": "scortese",
+    "pt": "antipático",
+    "tr": "samimiyetsiz"
+   },
+   "ex": {
+    "en": "The waiter was unfriendly."
+   }
+  },
+  {
+   "id": "emotions.mean",
+   "t": {
+    "en": "mean",
+    "uk": "недобрий",
+    "ru": "злой",
+    "pl": "wredny",
+    "de": "gemein",
+    "fr": "méchant",
+    "es": "malo",
+    "it": "cattivo",
+    "pt": "malvado",
+    "tr": "kötü"
+   },
+   "ex": {
+    "en": "Don't be mean to your sister."
+   }
+  },
+  {
+   "id": "emotions.good-feeling",
+   "t": {
+    "en": "good feeling",
+    "uk": "добре відчуття",
+    "ru": "хорошее чувство",
+    "pl": "dobre przeczucie",
+    "de": "gutes Gefühl",
+    "fr": "bon pressentiment",
+    "es": "buena sensación",
+    "it": "bella sensazione",
+    "pt": "sensação boa",
+    "tr": "iyi bir his"
+   },
+   "ex": {
+    "en": "I have a good feeling about this."
+   }
+  },
+  {
+   "id": "emotions.tiredness",
+   "t": {
+    "en": "tiredness",
+    "uk": "втома",
+    "ru": "усталость",
+    "pl": "zmęczenie",
+    "de": "Müdigkeit",
+    "fr": "fatigue",
+    "es": "cansancio",
+    "it": "stanchezza",
+    "pt": "cansaço",
+    "tr": "yorgunluk"
+   },
+   "ex": {
+    "en": "Tiredness can make you sad."
+   }
+  },
+  {
+   "id": "emotions.to-be-pleased-with",
+   "t": {
+    "en": "to be pleased with",
+    "uk": "бути задоволеним",
+    "ru": "быть довольным",
+    "pl": "być zadowolonym z",
+    "de": "zufrieden sein mit",
+    "fr": "être content de",
+    "es": "estar contento con",
+    "it": "essere contento di",
+    "pt": "estar satisfeito com",
+    "tr": "-den memnun olmak"
+   },
+   "ex": {
+    "en": "I'm pleased with the result."
+   }
+  },
+  {
+   "id": "emotions.hope",
+   "t": {
+    "en": "hope",
+    "uk": "надія",
+    "ru": "надежда",
+    "pl": "nadzieja",
+    "de": "Hoffnung",
+    "fr": "espoir",
+    "es": "esperanza",
+    "it": "speranza",
+    "pt": "esperança",
+    "tr": "umut"
+   },
+   "ex": {
+    "en": "Never lose hope."
+   }
+  },
+  {
+   "id": "emotions.dont-cry",
+   "t": {
+    "en": "Don't cry!",
+    "uk": "Не плач!",
+    "ru": "Не плачь!",
+    "pl": "Nie płacz!",
+    "de": "Wein nicht!",
+    "fr": "Ne pleure pas !",
+    "es": "¡No llores!",
+    "it": "Non piangere!",
+    "pt": "Não chore!",
+    "tr": "Ağlama!"
+   },
+   "ex": {
+    "en": "Don't cry! It's only a game."
+   }
+  },
+  {
+   "id": "emotions.good-for-you",
+   "t": {
+    "en": "Good for you!",
+    "uk": "Молодець!",
+    "ru": "Молодец!",
+    "pl": "Brawo!",
+    "de": "Schön für dich!",
+    "fr": "Tant mieux pour toi !",
+    "es": "¡Me alegro por ti!",
+    "it": "Buon per te!",
+    "pt": "Que bom para você!",
+    "tr": "Sana ne mutlu!"
+   },
+   "ex": {
+    "en": "You passed? Good for you!"
+   }
+  },
+  {
+   "id": "emotions.poor-you",
+   "t": {
+    "en": "Poor you!",
+    "uk": "Бідолаха!",
+    "ru": "Бедняжка!",
+    "pl": "Biedactwo!",
+    "de": "Du Armer!",
+    "fr": "Mon pauvre !",
+    "es": "¡Pobrecito!",
+    "it": "Poverino!",
+    "pt": "Coitado!",
+    "tr": "Vah vah!"
+   },
+   "ex": {
+    "en": "You're sick again? Poor you!"
+   }
+  },
+  {
+   "id": "emotions.dont-be-sad",
+   "t": {
+    "en": "Don't be sad!",
+    "uk": "Не сумуй!",
+    "ru": "Не грусти!",
+    "pl": "Nie smuć się!",
+    "de": "Sei nicht traurig!",
+    "fr": "Ne sois pas triste !",
+    "es": "¡No estés triste!",
+    "it": "Non essere triste!",
+    "pt": "Não fique triste!",
+    "tr": "Üzülme!"
+   },
+   "ex": {
+    "en": "Don't be sad! We'll meet again."
+   }
+  },
+  {
+   "id": "emotions.sense-of-humour",
+   "t": {
+    "en": "sense of humour",
+    "uk": "почуття гумору",
+    "ru": "чувство юмора",
+    "pl": "poczucie humoru",
+    "de": "Sinn für Humor",
+    "fr": "sens de l'humour",
+    "es": "sentido del humor",
+    "it": "senso dell'umorismo",
+    "pt": "senso de humor",
+    "tr": "mizah anlayışı"
+   },
+   "ex": {
+    "en": "She has a great sense of humour."
+   }
+  },
+  {
+   "id": "emotions.angrily",
+   "t": {
+    "en": "angrily",
+    "uk": "сердито",
+    "ru": "сердито",
+    "pl": "ze złością",
+    "de": "wütend",
+    "fr": "avec colère",
+    "es": "con enfado",
+    "it": "con rabbia",
+    "pt": "com raiva",
+    "tr": "öfkeyle"
+   },
+   "ex": {
+    "en": "She shouted angrily."
+   }
+  },
+  {
+   "id": "emotions.proudly",
+   "t": {
+    "en": "proudly",
+    "uk": "гордо",
+    "ru": "гордо",
+    "pl": "dumnie",
+    "de": "stolz",
+    "fr": "fièrement",
+    "es": "con orgullo",
+    "it": "con orgoglio",
+    "pt": "com orgulho",
+    "tr": "gururla"
+   },
+   "ex": {
+    "en": "He proudly showed his medal."
+   }
+  },
+  {
+   "id": "emotions.unlucky",
+   "t": {
+    "en": "unlucky",
+    "uk": "невезучий",
+    "ru": "невезучий",
+    "pl": "pechowy",
+    "de": "glücklos",
+    "fr": "malchanceux",
+    "es": "desafortunado",
+    "it": "sfortunato",
+    "pt": "azarado",
+    "tr": "şanssız"
+   },
+   "ex": {
+    "en": "I'm so unlucky today."
+   }
+  },
+  {
+   "id": "emotions.to-look-happy",
+   "t": {
+    "en": "to look happy",
+    "uk": "виглядати щасливим",
+    "ru": "выглядеть счастливым",
+    "pl": "wyglądać na szczęśliwego",
+    "de": "glücklich aussehen",
+    "fr": "avoir l'air heureux",
+    "es": "parecer feliz",
+    "it": "sembrare felice",
+    "pt": "parecer feliz",
+    "tr": "mutlu görünmek"
+   },
+   "ex": {
+    "en": "You look happy today!"
+   }
+  },
+  {
+   "id": "emotions.to-look-sad",
+   "t": {
+    "en": "to look sad",
+    "uk": "виглядати сумним",
+    "ru": "выглядеть грустным",
+    "pl": "wyglądać na smutnego",
+    "de": "traurig aussehen",
+    "fr": "avoir l'air triste",
+    "es": "parecer triste",
+    "it": "sembrare triste",
+    "pt": "parecer triste",
+    "tr": "üzgün görünmek"
+   },
+   "ex": {
+    "en": "Why do you look so sad?"
+   }
+  },
+  {
+   "id": "emotions.to-look-worried",
+   "t": {
+    "en": "to look worried",
+    "uk": "виглядати стурбованим",
+    "ru": "выглядеть обеспокоенным",
+    "pl": "wyglądać na zmartwionego",
+    "de": "besorgt aussehen",
+    "fr": "avoir l'air inquiet",
+    "es": "parecer preocupado",
+    "it": "sembrare preoccupato",
+    "pt": "parecer preocupado",
+    "tr": "endişeli görünmek"
+   },
+   "ex": {
+    "en": "Mom looks worried."
+   }
+  },
+  {
+   "id": "emotions.to-get-excited",
+   "t": {
+    "en": "to get excited",
+    "uk": "розхвилюватися",
+    "ru": "разволноваться",
+    "pl": "ekscytować się",
+    "de": "sich begeistern",
+    "fr": "s'enthousiasmer",
+    "es": "emocionarse",
+    "it": "emozionarsi",
+    "pt": "ficar empolgado",
+    "tr": "heyecanlanmak"
+   },
+   "ex": {
+    "en": "The kids got excited about the snow."
+   }
+  },
+  {
+   "id": "emotions.pleasure",
+   "t": {
+    "en": "pleasure",
+    "uk": "насолода",
+    "ru": "удовольствие",
+    "pl": "przyjemność",
+    "de": "Vergnügen",
+    "fr": "plaisir",
+    "es": "placer",
+    "it": "piacere",
+    "pt": "prazer",
+    "tr": "zevk"
+   },
+   "ex": {
+    "en": "It's a pleasure to meet you."
+   }
+  },
+  {
+   "id": "emotions.cheerfully",
+   "t": {
+    "en": "cheerfully",
+    "uk": "весело",
+    "ru": "весело",
+    "pl": "wesoło",
+    "de": "munter",
+    "fr": "gaiement",
+    "es": "alegremente",
+    "it": "allegramente",
+    "pt": "alegremente",
+    "tr": "neşeyle"
+   },
+   "ex": {
+    "en": "She waved cheerfully."
    }
   }
  ]

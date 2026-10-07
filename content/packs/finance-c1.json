@@ -2,7 +2,7 @@
  "id": "finance-c1",
  "topic": "finance",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "finance.liquidity",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Share prices plummeted after the news."
+   }
+  },
+  {
+   "id": "finance.fiduciary",
+   "t": {
+    "en": "fiduciary",
+    "uk": "фідуціарний",
+    "ru": "фидуциарный",
+    "pl": "powierniczy",
+    "de": "treuhänderisch",
+    "fr": "fiduciaire",
+    "es": "fiduciario",
+    "it": "fiduciario",
+    "pt": "fiduciário",
+    "tr": "güvene dayalı"
+   },
+   "ex": {
+    "en": "Advisers have a fiduciary duty to clients."
+   }
+  },
+  {
+   "id": "finance.amortization",
+   "t": {
+    "en": "amortization",
+    "uk": "амортизація",
+    "ru": "амортизация",
+    "pl": "amortyzacja",
+    "de": "Tilgung",
+    "fr": "amortissement",
+    "es": "amortización",
+    "it": "ammortamento",
+    "pt": "amortização",
+    "tr": "amortisman"
+   },
+   "ex": {
+    "en": "The amortization period is 25 years."
+   }
+  },
+  {
+   "id": "finance.margin-call",
+   "t": {
+    "en": "margin call",
+    "uk": "маржин-кол",
+    "ru": "маржин-колл",
+    "pl": "wezwanie do uzupełnienia depozytu",
+    "de": "Nachschussforderung",
+    "fr": "appel de marge",
+    "es": "llamada de margen",
+    "it": "margin call",
+    "pt": "chamada de margem",
+    "tr": "teminat tamamlama çağrısı"
+   },
+   "ex": {
+    "en": "The trader got a margin call."
+   }
+  },
+  {
+   "id": "finance.derivatives",
+   "t": {
+    "en": "derivatives",
+    "uk": "деривативи",
+    "ru": "деривативы",
+    "pl": "instrumenty pochodne",
+    "de": "Derivate",
+    "fr": "produits dérivés",
+    "es": "derivados",
+    "it": "derivati",
+    "pt": "derivativos",
+    "tr": "türev araçlar"
+   },
+   "ex": {
+    "en": "Derivatives can magnify losses."
+   }
+  },
+  {
+   "id": "finance.futures",
+   "t": {
+    "en": "futures",
+    "uk": "ф'ючерси",
+    "ru": "фьючерсы",
+    "pl": "kontrakty terminowe",
+    "de": "Terminkontrakte",
+    "fr": "contrats à terme",
+    "es": "futuros",
+    "it": "contratti future",
+    "pt": "contratos futuros",
+    "tr": "vadeli işlemler"
+   },
+   "ex": {
+    "en": "He trades oil futures."
+   }
+  },
+  {
+   "id": "finance.arbitrage",
+   "t": {
+    "en": "arbitrage",
+    "uk": "арбітраж",
+    "ru": "арбитраж",
+    "pl": "arbitraż",
+    "de": "Arbitrage",
+    "fr": "arbitrage",
+    "es": "arbitraje",
+    "it": "arbitraggio",
+    "pt": "arbitragem",
+    "tr": "arbitraj"
+   },
+   "ex": {
+    "en": "They profit from currency arbitrage."
+   }
+  },
+  {
+   "id": "finance.to-underwrite",
+   "t": {
+    "en": "to underwrite",
+    "uk": "гарантувати розміщення",
+    "ru": "гарантировать размещение",
+    "pl": "gwarantować emisję",
+    "de": "eine Emission übernehmen",
+    "fr": "garantir une émission",
+    "es": "suscribir",
+    "it": "sottoscrivere",
+    "pt": "subscrever",
+    "tr": "aracılık üstlenmek"
+   },
+   "ex": {
+    "en": "Two banks underwrote the share issue."
+   }
+  },
+  {
+   "id": "finance.subprime",
+   "t": {
+    "en": "subprime",
+    "uk": "субстандартний",
+    "ru": "субстандартный",
+    "pl": "subprime",
+    "de": "zweitklassig",
+    "fr": "subprime",
+    "es": "subprime",
+    "it": "subprime",
+    "pt": "subprime",
+    "tr": "yüksek riskli"
+   },
+   "ex": {
+    "en": "Subprime loans caused the 2008 crisis."
+   }
+  },
+  {
+   "id": "finance.credit-crunch",
+   "t": {
+    "en": "credit crunch",
+    "uk": "кредитна криза",
+    "ru": "кредитный кризис",
+    "pl": "kryzys kredytowy",
+    "de": "Kreditklemme",
+    "fr": "resserrement du crédit",
+    "es": "restricción crediticia",
+    "it": "stretta creditizia",
+    "pt": "aperto de crédito",
+    "tr": "kredi sıkışıklığı"
+   },
+   "ex": {
+    "en": "Small firms suffered in the credit crunch."
+   }
+  },
+  {
+   "id": "finance.quantitative-easing",
+   "t": {
+    "en": "quantitative easing",
+    "uk": "кількісне пом'якшення",
+    "ru": "количественное смягчение",
+    "pl": "luzowanie ilościowe",
+    "de": "quantitative Lockerung",
+    "fr": "assouplissement quantitatif",
+    "es": "flexibilización cuantitativa",
+    "it": "allentamento quantitativo",
+    "pt": "flexibilização quantitativa",
+    "tr": "parasal genişleme"
+   },
+   "ex": {
+    "en": "Quantitative easing pumped money into banks."
+   }
+  },
+  {
+   "id": "finance.fiscal-stimulus",
+   "t": {
+    "en": "fiscal stimulus",
+    "uk": "фіскальне стимулювання",
+    "ru": "фискальное стимулирование",
+    "pl": "bodziec fiskalny",
+    "de": "Konjunkturpaket",
+    "fr": "relance budgétaire",
+    "es": "estímulo fiscal",
+    "it": "stimolo fiscale",
+    "pt": "estímulo fiscal",
+    "tr": "mali teşvik"
+   },
+   "ex": {
+    "en": "The fiscal stimulus boosted demand."
+   }
+  },
+  {
+   "id": "finance.sovereign-debt",
+   "t": {
+    "en": "sovereign debt",
+    "uk": "суверенний борг",
+    "ru": "суверенный долг",
+    "pl": "dług suwerenny",
+    "de": "Staatsverschuldung",
+    "fr": "dette souveraine",
+    "es": "deuda soberana",
+    "it": "debito sovrano",
+    "pt": "dívida soberana",
+    "tr": "egemen borç"
+   },
+   "ex": {
+    "en": "Investors fear a sovereign debt crisis."
+   }
+  },
+  {
+   "id": "finance.bank-run",
+   "t": {
+    "en": "bank run",
+    "uk": "масове зняття вкладів",
+    "ru": "массовое изъятие вкладов",
+    "pl": "run na bank",
+    "de": "Bankansturm",
+    "fr": "panique bancaire",
+    "es": "pánico bancario",
+    "it": "corsa agli sportelli",
+    "pt": "corrida bancária",
+    "tr": "banka hücumu"
+   },
+   "ex": {
+    "en": "Rumours triggered a bank run."
+   }
+  },
+  {
+   "id": "finance.systemic-risk",
+   "t": {
+    "en": "systemic risk",
+    "uk": "системний ризик",
+    "ru": "системный риск",
+    "pl": "ryzyko systemowe",
+    "de": "systemisches Risiko",
+    "fr": "risque systémique",
+    "es": "riesgo sistémico",
+    "it": "rischio sistemico",
+    "pt": "risco sistêmico",
+    "tr": "sistemik risk"
+   },
+   "ex": {
+    "en": "Big banks pose a systemic risk."
+   }
+  },
+  {
+   "id": "finance.too-big-to-fail",
+   "t": {
+    "en": "too big to fail",
+    "uk": "занадто великий, щоб впасти",
+    "ru": "слишком большой, чтобы рухнуть",
+    "pl": "zbyt duży, by upaść",
+    "de": "systemrelevant",
+    "fr": "trop gros pour faire faillite",
+    "es": "demasiado grande para caer",
+    "it": "troppo grande per fallire",
+    "pt": "grande demais para quebrar",
+    "tr": "batamayacak kadar büyük"
+   },
+   "ex": {
+    "en": "The bank was deemed too big to fail."
+   }
+  },
+  {
+   "id": "finance.moral-hazard",
+   "t": {
+    "en": "moral hazard",
+    "uk": "моральний ризик",
+    "ru": "моральный риск",
+    "pl": "pokusa nadużycia",
+    "de": "moralisches Risiko",
+    "fr": "aléa moral",
+    "es": "riesgo moral",
+    "it": "azzardo morale",
+    "pt": "risco moral",
+    "tr": "ahlaki tehlike"
+   },
+   "ex": {
+    "en": "Bailouts create moral hazard."
+   }
+  },
+  {
+   "id": "finance.to-make-a-killing",
+   "t": {
+    "en": "to make a killing",
+    "uk": "зірвати куш",
+    "ru": "сорвать куш",
+    "pl": "zbić fortunę",
+    "de": "einen Reibach machen",
+    "fr": "s'en mettre plein les poches",
+    "es": "forrarse",
+    "it": "fare soldi a palate",
+    "pt": "faturar alto",
+    "tr": "köşeyi dönmek"
+   },
+   "ex": {
+    "en": "They made a killing on the deal."
+   }
+  },
+  {
+   "id": "finance.to-break-the-bank",
+   "t": {
+    "en": "to break the bank",
+    "uk": "розорити",
+    "ru": "разорить",
+    "pl": "zrujnować",
+    "de": "arm machen",
+    "fr": "ruiner",
+    "es": "arruinar",
+    "it": "mandare in rovina",
+    "pt": "arruinar",
+    "tr": "cebi yakmak"
+   },
+   "ex": {
+    "en": "One dinner won't break the bank."
+   }
+  },
+  {
+   "id": "finance.strapped-for-cash",
+   "t": {
+    "en": "strapped for cash",
+    "uk": "у скруті з грошима",
+    "ru": "стеснённый в средствах",
+    "pl": "w finansowych tarapatach",
+    "de": "klamm",
+    "fr": "à sec",
+    "es": "pelado",
+    "it": "in bolletta",
+    "pt": "sem grana",
+    "tr": "parasız kalmış"
+   },
+   "ex": {
+    "en": "I'm a bit strapped for cash."
+   }
+  },
+  {
+   "id": "finance.on-a-shoestring",
+   "t": {
+    "en": "on a shoestring",
+    "uk": "з мінімальним бюджетом",
+    "ru": "с минимальным бюджетом",
+    "pl": "za grosze",
+    "de": "mit kleinem Budget",
+    "fr": "avec des bouts de ficelle",
+    "es": "con cuatro duros",
+    "it": "con quattro soldi",
+    "pt": "com orçamento apertado",
+    "tr": "kıt kanaat"
+   },
+   "ex": {
+    "en": "They started the firm on a shoestring."
+   }
+  },
+  {
+   "id": "finance.to-live-hand-to-mouth",
+   "t": {
+    "en": "to live hand to mouth",
+    "uk": "жити від зарплати до зарплати",
+    "ru": "жить от зарплаты до зарплаты",
+    "pl": "żyć z dnia na dzień",
+    "de": "von der Hand in den Mund leben",
+    "fr": "vivre au jour le jour",
+    "es": "vivir al día",
+    "it": "vivere alla giornata",
+    "pt": "viver com o dinheiro contado",
+    "tr": "günü gününe yaşamak"
+   },
+   "ex": {
+    "en": "Many families live hand to mouth."
+   }
+  },
+  {
+   "id": "finance.impecunious",
+   "t": {
+    "en": "impecunious",
+    "uk": "безгрошовий",
+    "ru": "безденежный",
+    "pl": "ubogi",
+    "de": "unbemittelt",
+    "fr": "impécunieux",
+    "es": "sin recursos",
+    "it": "squattrinato",
+    "pt": "sem recursos",
+    "tr": "parasız"
+   },
+   "ex": {
+    "en": "He was an impecunious student."
+   }
+  },
+  {
+   "id": "finance.affluent",
+   "t": {
+    "en": "affluent",
+    "uk": "заможний",
+    "ru": "зажиточный",
+    "pl": "zamożny",
+    "de": "wohlhabend",
+    "fr": "nanti",
+    "es": "acaudalado",
+    "it": "agiato",
+    "pt": "abastado",
+    "tr": "varlıklı"
+   },
+   "ex": {
+    "en": "They live in an affluent suburb."
+   }
+  },
+  {
+   "id": "finance.miserly",
+   "t": {
+    "en": "miserly",
+    "uk": "скнарий",
+    "ru": "скаредный",
+    "pl": "skąpy",
+    "de": "geizig",
+    "fr": "avare",
+    "es": "tacaño",
+    "it": "avaro",
+    "pt": "avarento",
+    "tr": "cimri"
+   },
+   "ex": {
+    "en": "His miserly uncle never gives gifts."
+   }
+  },
+  {
+   "id": "finance.penny-pinching",
+   "t": {
+    "en": "penny-pinching",
+    "uk": "скупердяйський",
+    "ru": "прижимистый",
+    "pl": "sknerowaty",
+    "de": "knauserig",
+    "fr": "radin",
+    "es": "rácano",
+    "it": "tirchio",
+    "pt": "pão-duro",
+    "tr": "eli sıkı"
+   },
+   "ex": {
+    "en": "Penny-pinching managers cut the bonus."
+   }
+  },
+  {
+   "id": "finance.profligate",
+   "t": {
+    "en": "profligate",
+    "uk": "марнотратний",
+    "ru": "расточительный",
+    "pl": "rozrzutny",
+    "de": "verschwenderisch",
+    "fr": "dépensier",
+    "es": "derrochador",
+    "it": "scialacquatore",
+    "pt": "esbanjador",
+    "tr": "savurgan"
+   },
+   "ex": {
+    "en": "The profligate heir lost everything."
+   }
+  },
+  {
+   "id": "finance.windfall-tax",
+   "t": {
+    "en": "windfall tax",
+    "uk": "податок на надприбуток",
+    "ru": "налог на сверхприбыль",
+    "pl": "podatek od nadzwyczajnych zysków",
+    "de": "Übergewinnsteuer",
+    "fr": "taxe sur les superprofits",
+    "es": "impuesto sobre beneficios extraordinarios",
+    "it": "tassa sugli extraprofitti",
+    "pt": "imposto sobre lucros extraordinários",
+    "tr": "aşırı kâr vergisi"
+   },
+   "ex": {
+    "en": "Energy firms faced a windfall tax."
+   }
+  },
+  {
+   "id": "finance.tax-loophole",
+   "t": {
+    "en": "tax loophole",
+    "uk": "податкова лазівка",
+    "ru": "налоговая лазейка",
+    "pl": "luka podatkowa",
+    "de": "Steuerschlupfloch",
+    "fr": "niche fiscale",
+    "es": "laguna fiscal",
+    "it": "scappatoia fiscale",
+    "pt": "brecha fiscal",
+    "tr": "vergi boşluğu"
+   },
+   "ex": {
+    "en": "They used a tax loophole."
+   }
+  },
+  {
+   "id": "finance.to-launder-money",
+   "t": {
+    "en": "to launder money",
+    "uk": "відмивати гроші",
+    "ru": "отмывать деньги",
+    "pl": "prać pieniądze",
+    "de": "Geld waschen",
+    "fr": "blanchir de l'argent",
+    "es": "blanquear dinero",
+    "it": "riciclare denaro",
+    "pt": "lavar dinheiro",
+    "tr": "kara para aklamak"
+   },
+   "ex": {
+    "en": "The gang laundered money through casinos."
+   }
+  },
+  {
+   "id": "finance.slush-fund",
+   "t": {
+    "en": "slush fund",
+    "uk": "чорна каса",
+    "ru": "чёрная касса",
+    "pl": "czarna kasa",
+    "de": "schwarze Kasse",
+    "fr": "caisse noire",
+    "es": "fondo de reptiles",
+    "it": "fondi neri",
+    "pt": "caixa dois",
+    "tr": "örtülü ödenek"
+   },
+   "ex": {
+    "en": "The minister had a secret slush fund."
+   }
+  },
+  {
+   "id": "finance.ponzi-scheme",
+   "t": {
+    "en": "Ponzi scheme",
+    "uk": "схема Понці",
+    "ru": "схема Понци",
+    "pl": "schemat Ponziego",
+    "de": "Schneeballsystem",
+    "fr": "système de Ponzi",
+    "es": "esquema Ponzi",
+    "it": "schema Ponzi",
+    "pt": "esquema Ponzi",
+    "tr": "Ponzi şeması"
+   },
+   "ex": {
+    "en": "Investors lost millions in a Ponzi scheme."
+   }
+  },
+  {
+   "id": "finance.pyramid-scheme",
+   "t": {
+    "en": "pyramid scheme",
+    "uk": "фінансова піраміда",
+    "ru": "финансовая пирамида",
+    "pl": "piramida finansowa",
+    "de": "Pyramidensystem",
+    "fr": "système pyramidal",
+    "es": "esquema piramidal",
+    "it": "schema piramidale",
+    "pt": "esquema de pirâmide",
+    "tr": "piramit şeması"
+   },
+   "ex": {
+    "en": "Don't join that pyramid scheme."
+   }
+  },
+  {
+   "id": "finance.to-embezzle",
+   "t": {
+    "en": "to embezzle",
+    "uk": "розкрадати кошти",
+    "ru": "присваивать средства",
+    "pl": "defraudować",
+    "de": "veruntreuen",
+    "fr": "détourner des fonds",
+    "es": "malversar",
+    "it": "appropriarsi indebitamente",
+    "pt": "desviar dinheiro",
+    "tr": "zimmetine geçirmek"
+   },
+   "ex": {
+    "en": "The clerk embezzled company funds."
+   }
+  },
+  {
+   "id": "finance.fraudster",
+   "t": {
+    "en": "fraudster",
+    "uk": "шахрай",
+    "ru": "мошенник",
+    "pl": "oszust",
+    "de": "Betrüger",
+    "fr": "escroc",
+    "es": "estafador",
+    "it": "truffatore",
+    "pt": "golpista",
+    "tr": "dolandırıcı"
+   },
+   "ex": {
+    "en": "The fraudster was jailed for five years."
+   }
+  },
+  {
+   "id": "finance.white-collar-crime",
+   "t": {
+    "en": "white-collar crime",
+    "uk": "злочини білих комірців",
+    "ru": "беловоротничковая преступность",
+    "pl": "przestępczość białych kołnierzyków",
+    "de": "Wirtschaftskriminalität",
+    "fr": "criminalité en col blanc",
+    "es": "delito de guante blanco",
+    "it": "criminalità dei colletti bianchi",
+    "pt": "crime de colarinho branco",
+    "tr": "beyaz yaka suçu"
+   },
+   "ex": {
+    "en": "White-collar crime is hard to prove."
+   }
+  },
+  {
+   "id": "finance.remuneration",
+   "t": {
+    "en": "remuneration",
+    "uk": "винагорода",
+    "ru": "вознаграждение",
+    "pl": "wynagrodzenie",
+    "de": "Vergütung",
+    "fr": "rémunération",
+    "es": "remuneración",
+    "it": "retribuzione",
+    "pt": "remuneração",
+    "tr": "ücret"
+   },
+   "ex": {
+    "en": "Directors' remuneration rose sharply."
+   }
+  },
+  {
+   "id": "finance.reimbursement",
+   "t": {
+    "en": "reimbursement",
+    "uk": "відшкодування",
+    "ru": "возмещение",
+    "pl": "zwrot kosztów",
+    "de": "Rückerstattung",
+    "fr": "remboursement",
+    "es": "reembolso",
+    "it": "rimborso",
+    "pt": "reembolso",
+    "tr": "geri ödeme"
+   },
+   "ex": {
+    "en": "Submit receipts for reimbursement."
+   }
+  },
+  {
+   "id": "finance.outlay",
+   "t": {
+    "en": "outlay",
+    "uk": "початкові витрати",
+    "ru": "затраты",
+    "pl": "nakład",
+    "de": "Aufwand",
+    "fr": "mise de fonds",
+    "es": "desembolso",
+    "it": "esborso",
+    "pt": "desembolso",
+    "tr": "masraf"
+   },
+   "ex": {
+    "en": "Solar panels need a big initial outlay."
+   }
+  },
+  {
+   "id": "finance.proceeds",
+   "t": {
+    "en": "proceeds",
+    "uk": "виручка",
+    "ru": "выручка",
+    "pl": "wpływy",
+    "de": "Erlös",
+    "fr": "recettes",
+    "es": "recaudación",
+    "it": "ricavato",
+    "pt": "renda",
+    "tr": "hasılat"
+   },
+   "ex": {
+    "en": "The proceeds go to charity."
+   }
+  },
+  {
+   "id": "finance.surplus",
+   "t": {
+    "en": "surplus",
+    "uk": "профіцит",
+    "ru": "профицит",
+    "pl": "nadwyżka",
+    "de": "Überschuss",
+    "fr": "excédent",
+    "es": "superávit",
+    "it": "avanzo",
+    "pt": "superávit",
+    "tr": "fazla"
+   },
+   "ex": {
+    "en": "The budget showed a surplus."
+   }
+  },
+  {
+   "id": "finance.to-offset",
+   "t": {
+    "en": "to offset",
+    "uk": "компенсувати",
+    "ru": "компенсировать",
+    "pl": "zrekompensować",
+    "de": "ausgleichen",
+    "fr": "compenser",
+    "es": "compensar",
+    "it": "compensare",
+    "pt": "compensar",
+    "tr": "dengelemek"
+   },
+   "ex": {
+    "en": "Gains offset the losses."
+   }
+  },
+  {
+   "id": "finance.to-accrue",
+   "t": {
+    "en": "to accrue",
+    "uk": "нараховуватися",
+    "ru": "начисляться",
+    "pl": "narastać",
+    "de": "auflaufen",
+    "fr": "s'accumuler",
+    "es": "devengarse",
+    "it": "maturare",
+    "pt": "acumular",
+    "tr": "tahakkuk etmek"
+   },
+   "ex": {
+    "en": "Interest accrues daily."
+   }
+  },
+  {
+   "id": "finance.to-levy-a-tax",
+   "t": {
+    "en": "to levy a tax",
+    "uk": "стягувати податок",
+    "ru": "взимать налог",
+    "pl": "nakładać podatek",
+    "de": "eine Steuer erheben",
+    "fr": "prélever un impôt",
+    "es": "imponer un impuesto",
+    "it": "imporre una tassa",
+    "pt": "cobrar um imposto",
+    "tr": "vergi koymak"
+   },
+   "ex": {
+    "en": "The city levied a tax on tourists."
+   }
+  },
+  {
+   "id": "finance.means-tested",
+   "t": {
+    "en": "means-tested",
+    "uk": "залежний від доходу",
+    "ru": "зависящий от дохода",
+    "pl": "zależny od dochodu",
+    "de": "einkommensabhängig",
+    "fr": "sous conditions de ressources",
+    "es": "condicionado a los ingresos",
+    "it": "in base al reddito",
+    "pt": "condicionado à renda",
+    "tr": "gelire bağlı"
+   },
+   "ex": {
+    "en": "The benefit is means-tested."
+   }
+  },
+  {
+   "id": "finance.welfare-state",
+   "t": {
+    "en": "welfare state",
+    "uk": "держава загального добробуту",
+    "ru": "государство всеобщего благосостояния",
+    "pl": "państwo opiekuńcze",
+    "de": "Sozialstaat",
+    "fr": "État-providence",
+    "es": "Estado del bienestar",
+    "it": "stato sociale",
+    "pt": "Estado de bem-estar social",
+    "tr": "sosyal devlet"
+   },
+   "ex": {
+    "en": "Sweden has a strong welfare state."
+   }
+  },
+  {
+   "id": "finance.universal-basic-income",
+   "t": {
+    "en": "universal basic income",
+    "uk": "безумовний базовий дохід",
+    "ru": "безусловный базовый доход",
+    "pl": "bezwarunkowy dochód podstawowy",
+    "de": "bedingungsloses Grundeinkommen",
+    "fr": "revenu universel",
+    "es": "renta básica universal",
+    "it": "reddito di base universale",
+    "pt": "renda básica universal",
+    "tr": "evrensel temel gelir"
+   },
+   "ex": {
+    "en": "Finland tested universal basic income."
+   }
+  },
+  {
+   "id": "finance.to-cook-the-books",
+   "t": {
+    "en": "to cook the books",
+    "uk": "фальсифікувати звітність",
+    "ru": "фальсифицировать отчётность",
+    "pl": "fałszować księgi",
+    "de": "die Bücher frisieren",
+    "fr": "truquer les comptes",
+    "es": "maquillar las cuentas",
+    "it": "truccare i conti",
+    "pt": "maquiar as contas",
+    "tr": "hesapları çarpıtmak"
+   },
+   "ex": {
+    "en": "The CEO cooked the books for years."
+   }
+  },
+  {
+   "id": "finance.creative-accounting",
+   "t": {
+    "en": "creative accounting",
+    "uk": "креативна бухгалтерія",
+    "ru": "креативная бухгалтерия",
+    "pl": "kreatywna księgowość",
+    "de": "kreative Buchführung",
+    "fr": "comptabilité créative",
+    "es": "contabilidad creativa",
+    "it": "contabilità creativa",
+    "pt": "contabilidade criativa",
+    "tr": "yaratıcı muhasebe"
+   },
+   "ex": {
+    "en": "The profits came from creative accounting."
+   }
+  },
+  {
+   "id": "finance.cash-in-hand",
+   "t": {
+    "en": "cash in hand",
+    "uk": "в конверті",
+    "ru": "в конверте",
+    "pl": "na czarno",
+    "de": "bar auf die Hand",
+    "fr": "de la main à la main",
+    "es": "en negro",
+    "it": "in nero",
+    "pt": "por fora",
+    "tr": "elden"
+   },
+   "ex": {
+    "en": "He gets paid cash in hand."
+   }
+  },
+  {
+   "id": "finance.shadow-economy",
+   "t": {
+    "en": "shadow economy",
+    "uk": "тіньова економіка",
+    "ru": "теневая экономика",
+    "pl": "szara strefa",
+    "de": "Schattenwirtschaft",
+    "fr": "économie souterraine",
+    "es": "economía sumergida",
+    "it": "economia sommersa",
+    "pt": "economia paralela",
+    "tr": "kayıt dışı ekonomi"
+   },
+   "ex": {
+    "en": "The shadow economy avoids all taxes."
    }
   }
  ]

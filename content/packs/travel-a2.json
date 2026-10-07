@@ -2,7 +2,7 @@
  "id": "travel-a2",
  "topic": "travel",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "travel.boarding-pass",
@@ -848,6 +848,600 @@
    },
    "ex": {
     "en": "I need to report lost luggage."
+   }
+  },
+  {
+   "id": "travel.tourist-map",
+   "t": {
+    "en": "tourist map",
+    "uk": "туристична мапа",
+    "ru": "туристическая карта",
+    "pl": "mapa turystyczna",
+    "de": "Touristenkarte",
+    "fr": "carte touristique",
+    "es": "mapa turístico",
+    "it": "mappa turistica",
+    "pt": "mapa turístico",
+    "tr": "turist haritası"
+   },
+   "ex": {
+    "en": "The tourist map shows all the museums."
+   }
+  },
+  {
+   "id": "travel.bus-tour",
+   "t": {
+    "en": "bus tour",
+    "uk": "автобусна екскурсія",
+    "ru": "автобусная экскурсия",
+    "pl": "wycieczka autokarowa",
+    "de": "Busrundfahrt",
+    "fr": "visite en bus",
+    "es": "recorrido en autobús",
+    "it": "giro in autobus",
+    "pt": "passeio de ônibus",
+    "tr": "otobüs turu"
+   },
+   "ex": {
+    "en": "We took a bus tour of the city."
+   }
+  },
+  {
+   "id": "travel.key-card",
+   "t": {
+    "en": "key card",
+    "uk": "ключ-картка",
+    "ru": "карта-ключ",
+    "pl": "karta do pokoju",
+    "de": "Schlüsselkarte",
+    "fr": "carte-clé",
+    "es": "tarjeta llave",
+    "it": "chiave magnetica",
+    "pt": "cartão-chave",
+    "tr": "kart anahtar"
+   },
+   "ex": {
+    "en": "My key card doesn't work."
+   }
+  },
+  {
+   "id": "travel.hotel-bill",
+   "t": {
+    "en": "hotel bill",
+    "uk": "рахунок у готелі",
+    "ru": "счёт в отеле",
+    "pl": "rachunek hotelowy",
+    "de": "Hotelrechnung",
+    "fr": "note d'hôtel",
+    "es": "factura del hotel",
+    "it": "conto dell'hotel",
+    "pt": "conta do hotel",
+    "tr": "otel faturası"
+   },
+   "ex": {
+    "en": "Can I pay the hotel bill by card?"
+   }
+  },
+  {
+   "id": "travel.taxi-rank",
+   "t": {
+    "en": "taxi rank",
+    "uk": "стоянка таксі",
+    "ru": "стоянка такси",
+    "pl": "postój taksówek",
+    "de": "Taxistand",
+    "fr": "station de taxis",
+    "es": "parada de taxis",
+    "it": "posteggio dei taxi",
+    "pt": "ponto de táxi",
+    "tr": "taksi durağı"
+   },
+   "ex": {
+    "en": "The taxi rank is outside the station."
+   }
+  },
+  {
+   "id": "travel.car-park",
+   "t": {
+    "en": "car park",
+    "uk": "автостоянка",
+    "ru": "автостоянка",
+    "pl": "parking",
+    "de": "Parkplatz",
+    "fr": "parking",
+    "es": "aparcamiento",
+    "it": "parcheggio",
+    "pt": "estacionamento",
+    "tr": "otopark"
+   },
+   "ex": {
+    "en": "The hotel has a free car park."
+   }
+  },
+  {
+   "id": "travel.petrol-station",
+   "t": {
+    "en": "petrol station",
+    "uk": "автозаправка",
+    "ru": "автозаправка",
+    "pl": "stacja benzynowa",
+    "de": "Tankstelle",
+    "fr": "station-service",
+    "es": "gasolinera",
+    "it": "distributore di benzina",
+    "pt": "posto de gasolina",
+    "tr": "benzin istasyonu"
+   },
+   "ex": {
+    "en": "We need to find a petrol station."
+   }
+  },
+  {
+   "id": "travel.luggage-trolley",
+   "t": {
+    "en": "luggage trolley",
+    "uk": "візок для багажу",
+    "ru": "багажная тележка",
+    "pl": "wózek bagażowy",
+    "de": "Gepäckwagen",
+    "fr": "chariot à bagages",
+    "es": "carro portaequipajes",
+    "it": "carrello portabagagli",
+    "pt": "carrinho de bagagem",
+    "tr": "bagaj arabası"
+   },
+   "ex": {
+    "en": "Take a luggage trolley for the suitcases."
+   }
+  },
+  {
+   "id": "travel.currency-exchange",
+   "t": {
+    "en": "currency exchange",
+    "uk": "обмін валют",
+    "ru": "обмен валюты",
+    "pl": "kantor",
+    "de": "Geldwechsel",
+    "fr": "bureau de change",
+    "es": "casa de cambio",
+    "it": "cambio valuta",
+    "pt": "casa de câmbio",
+    "tr": "döviz bürosu"
+   },
+   "ex": {
+    "en": "Is there a currency exchange at the airport?"
+   }
+  },
+  {
+   "id": "travel.local-time",
+   "t": {
+    "en": "local time",
+    "uk": "місцевий час",
+    "ru": "местное время",
+    "pl": "czas lokalny",
+    "de": "Ortszeit",
+    "fr": "heure locale",
+    "es": "hora local",
+    "it": "ora locale",
+    "pt": "horário local",
+    "tr": "yerel saat"
+   },
+   "ex": {
+    "en": "We land at six, local time."
+   }
+  },
+  {
+   "id": "travel.resort",
+   "t": {
+    "en": "resort",
+    "uk": "курорт",
+    "ru": "курорт",
+    "pl": "kurort",
+    "de": "Urlaubsort",
+    "fr": "station balnéaire",
+    "es": "centro turístico",
+    "it": "località turistica",
+    "pt": "resort",
+    "tr": "tatil köyü"
+   },
+   "ex": {
+    "en": "The resort has three pools."
+   }
+  },
+  {
+   "id": "travel.harbour",
+   "t": {
+    "en": "harbour",
+    "uk": "гавань",
+    "ru": "гавань",
+    "pl": "port",
+    "de": "Hafen",
+    "fr": "port",
+    "es": "puerto",
+    "it": "porto",
+    "pt": "porto",
+    "tr": "liman"
+   },
+   "ex": {
+    "en": "The boats leave from the harbour."
+   }
+  },
+  {
+   "id": "travel.cabin",
+   "t": {
+    "en": "cabin",
+    "uk": "каюта",
+    "ru": "каюта",
+    "pl": "kabina",
+    "de": "Kabine",
+    "fr": "cabine",
+    "es": "camarote",
+    "it": "cabina",
+    "pt": "cabine",
+    "tr": "kamara"
+   },
+   "ex": {
+    "en": "Our cabin is on the top deck."
+   }
+  },
+  {
+   "id": "travel.travel-bag",
+   "t": {
+    "en": "travel bag",
+    "uk": "дорожня сумка",
+    "ru": "дорожная сумка",
+    "pl": "torba podróżna",
+    "de": "Reisetasche",
+    "fr": "sac de voyage",
+    "es": "bolsa de viaje",
+    "it": "borsa da viaggio",
+    "pt": "bolsa de viagem",
+    "tr": "seyahat çantası"
+   },
+   "ex": {
+    "en": "I only need one travel bag."
+   }
+  },
+  {
+   "id": "travel.travel-plans",
+   "t": {
+    "en": "travel plans",
+    "uk": "плани на подорож",
+    "ru": "планы на поездку",
+    "pl": "plany podróżne",
+    "de": "Reisepläne",
+    "fr": "projets de voyage",
+    "es": "planes de viaje",
+    "it": "programmi di viaggio",
+    "pt": "planos de viagem",
+    "tr": "seyahat planları"
+   },
+   "ex": {
+    "en": "What are your travel plans for summer?"
+   }
+  },
+  {
+   "id": "travel.to-plan-a-trip",
+   "t": {
+    "en": "to plan a trip",
+    "uk": "планувати поїздку",
+    "ru": "планировать поездку",
+    "pl": "planować wycieczkę",
+    "de": "eine Reise planen",
+    "fr": "organiser un voyage",
+    "es": "planear un viaje",
+    "it": "organizzare un viaggio",
+    "pt": "planejar uma viagem",
+    "tr": "gezi planlamak"
+   },
+   "ex": {
+    "en": "We are planning a trip to Rome."
+   }
+  },
+  {
+   "id": "travel.day-ticket",
+   "t": {
+    "en": "day ticket",
+    "uk": "денний квиток",
+    "ru": "билет на день",
+    "pl": "bilet dobowy",
+    "de": "Tageskarte",
+    "fr": "billet journée",
+    "es": "billete de un día",
+    "it": "biglietto giornaliero",
+    "pt": "passe diário",
+    "tr": "günlük bilet"
+   },
+   "ex": {
+    "en": "A day ticket is cheaper."
+   }
+  },
+  {
+   "id": "travel.single-ticket",
+   "t": {
+    "en": "single ticket",
+    "uk": "квиток в один бік",
+    "ru": "билет в один конец",
+    "pl": "bilet w jedną stronę",
+    "de": "Einzelfahrkarte",
+    "fr": "aller simple",
+    "es": "billete sencillo",
+    "it": "biglietto di sola andata",
+    "pt": "bilhete simples",
+    "tr": "tek yön bileti"
+   },
+   "ex": {
+    "en": "A single ticket to Oxford, please."
+   }
+  },
+  {
+   "id": "travel.to-show-your-passport",
+   "t": {
+    "en": "to show your passport",
+    "uk": "показати паспорт",
+    "ru": "показать паспорт",
+    "pl": "pokazać paszport",
+    "de": "den Pass zeigen",
+    "fr": "montrer son passeport",
+    "es": "enseñar el pasaporte",
+    "it": "mostrare il passaporto",
+    "pt": "mostrar o passaporte",
+    "tr": "pasaportunu göstermek"
+   },
+   "ex": {
+    "en": "You must show your passport at the gate."
+   }
+  },
+  {
+   "id": "travel.hotel-staff",
+   "t": {
+    "en": "hotel staff",
+    "uk": "персонал готелю",
+    "ru": "персонал отеля",
+    "pl": "personel hotelu",
+    "de": "Hotelpersonal",
+    "fr": "personnel de l'hôtel",
+    "es": "personal del hotel",
+    "it": "personale dell'hotel",
+    "pt": "funcionários do hotel",
+    "tr": "otel personeli"
+   },
+   "ex": {
+    "en": "The hotel staff were very friendly."
+   }
+  },
+  {
+   "id": "travel.porter",
+   "t": {
+    "en": "porter",
+    "uk": "носильник",
+    "ru": "носильщик",
+    "pl": "bagażowy",
+    "de": "Gepäckträger",
+    "fr": "porteur",
+    "es": "maletero",
+    "it": "facchino",
+    "pt": "carregador",
+    "tr": "hamal"
+   },
+   "ex": {
+    "en": "The porter carried our bags."
+   }
+  },
+  {
+   "id": "travel.wake-up-call",
+   "t": {
+    "en": "wake-up call",
+    "uk": "дзвінок-будильник",
+    "ru": "звонок-будильник",
+    "pl": "budzenie telefoniczne",
+    "de": "Weckruf",
+    "fr": "réveil téléphonique",
+    "es": "llamada despertador",
+    "it": "sveglia telefonica",
+    "pt": "serviço de despertador",
+    "tr": "uyandırma servisi"
+   },
+   "ex": {
+    "en": "I'd like a wake-up call at seven."
+   }
+  },
+  {
+   "id": "travel.to-stay-overnight",
+   "t": {
+    "en": "to stay overnight",
+    "uk": "залишитися на ніч",
+    "ru": "остаться на ночь",
+    "pl": "zostać na noc",
+    "de": "übernachten",
+    "fr": "passer la nuit",
+    "es": "pasar la noche",
+    "it": "pernottare",
+    "pt": "pernoitar",
+    "tr": "gecelemek"
+   },
+   "ex": {
+    "en": "We stayed overnight in Lyon."
+   }
+  },
+  {
+   "id": "travel.youth-hostel",
+   "t": {
+    "en": "youth hostel",
+    "uk": "молодіжний хостел",
+    "ru": "молодёжный хостел",
+    "pl": "schronisko młodzieżowe",
+    "de": "Jugendherberge",
+    "fr": "auberge de jeunesse",
+    "es": "albergue juvenil",
+    "it": "ostello della gioventù",
+    "pt": "albergue da juventude",
+    "tr": "gençlik hosteli"
+   },
+   "ex": {
+    "en": "The youth hostel is cheap and clean."
+   }
+  },
+  {
+   "id": "travel.holiday-rental",
+   "t": {
+    "en": "holiday rental",
+    "uk": "житло для відпочинку",
+    "ru": "жильё для отдыха",
+    "pl": "wynajem wakacyjny",
+    "de": "Ferienwohnung",
+    "fr": "location de vacances",
+    "es": "alquiler vacacional",
+    "it": "casa in affitto per le vacanze",
+    "pt": "aluguel de temporada",
+    "tr": "tatil evi kiralama"
+   },
+   "ex": {
+    "en": "We found a holiday rental near the beach."
+   }
+  },
+  {
+   "id": "travel.city-tour",
+   "t": {
+    "en": "city tour",
+    "uk": "екскурсія містом",
+    "ru": "экскурсия по городу",
+    "pl": "wycieczka po mieście",
+    "de": "Stadtrundfahrt",
+    "fr": "visite de la ville",
+    "es": "visita por la ciudad",
+    "it": "giro della città",
+    "pt": "passeio pela cidade",
+    "tr": "şehir turu"
+   },
+   "ex": {
+    "en": "The city tour takes two hours."
+   }
+  },
+  {
+   "id": "travel.ski-resort",
+   "t": {
+    "en": "ski resort",
+    "uk": "гірськолижний курорт",
+    "ru": "горнолыжный курорт",
+    "pl": "ośrodek narciarski",
+    "de": "Skigebiet",
+    "fr": "station de ski",
+    "es": "estación de esquí",
+    "it": "stazione sciistica",
+    "pt": "estação de esqui",
+    "tr": "kayak merkezi"
+   },
+   "ex": {
+    "en": "The ski resort opens in December."
+   }
+  },
+  {
+   "id": "travel.cable-car",
+   "t": {
+    "en": "cable car",
+    "uk": "канатна дорога",
+    "ru": "канатная дорога",
+    "pl": "kolejka linowa",
+    "de": "Seilbahn",
+    "fr": "téléphérique",
+    "es": "teleférico",
+    "it": "funivia",
+    "pt": "teleférico",
+    "tr": "teleferik"
+   },
+   "ex": {
+    "en": "We took the cable car to the top."
+   }
+  },
+  {
+   "id": "travel.viewpoint",
+   "t": {
+    "en": "viewpoint",
+    "uk": "оглядовий майданчик",
+    "ru": "смотровая площадка",
+    "pl": "punkt widokowy",
+    "de": "Aussichtspunkt",
+    "fr": "point de vue",
+    "es": "mirador",
+    "it": "belvedere",
+    "pt": "mirante",
+    "tr": "seyir noktası"
+   },
+   "ex": {
+    "en": "Stop at the viewpoint for photos."
+   }
+  },
+  {
+   "id": "travel.tourist-area",
+   "t": {
+    "en": "tourist area",
+    "uk": "туристичний район",
+    "ru": "туристический район",
+    "pl": "okolica turystyczna",
+    "de": "Touristengebiet",
+    "fr": "zone touristique",
+    "es": "zona turística",
+    "it": "zona turistica",
+    "pt": "área turística",
+    "tr": "turistik bölge"
+   },
+   "ex": {
+    "en": "Prices are higher in the tourist area."
+   }
+  },
+  {
+   "id": "travel.to-go-sightseeing",
+   "t": {
+    "en": "to go sightseeing",
+    "uk": "оглядати пам'ятки",
+    "ru": "осматривать достопримечательности",
+    "pl": "zwiedzać",
+    "de": "Sehenswürdigkeiten besichtigen",
+    "fr": "faire du tourisme",
+    "es": "hacer turismo",
+    "it": "visitare i luoghi d'interesse",
+    "pt": "fazer turismo",
+    "tr": "gezip görmek"
+   },
+   "ex": {
+    "en": "Tomorrow we will go sightseeing."
+   }
+  },
+  {
+   "id": "travel.to-rent-a-bike",
+   "t": {
+    "en": "to rent a bike",
+    "uk": "взяти велосипед напрокат",
+    "ru": "взять велосипед напрокат",
+    "pl": "wypożyczyć rower",
+    "de": "ein Fahrrad mieten",
+    "fr": "louer un vélo",
+    "es": "alquilar una bici",
+    "it": "noleggiare una bici",
+    "pt": "alugar uma bicicleta",
+    "tr": "bisiklet kiralamak"
+   },
+   "ex": {
+    "en": "You can rent a bike at the hotel."
+   }
+  },
+  {
+   "id": "travel.left-luggage",
+   "t": {
+    "en": "left luggage",
+    "uk": "камера схову",
+    "ru": "камера хранения",
+    "pl": "przechowalnia bagażu",
+    "de": "Gepäckaufbewahrung",
+    "fr": "consigne à bagages",
+    "es": "consigna",
+    "it": "deposito bagagli",
+    "pt": "guarda-volumes",
+    "tr": "emanet bagaj"
+   },
+   "ex": {
+    "en": "Leave your bags at the left luggage."
    }
   }
  ]

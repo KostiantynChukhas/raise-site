@@ -2,7 +2,7 @@
  "id": "health-b2",
  "topic": "health",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "health.diagnosis",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Cold weather worsens my joint pain."
+   }
+  },
+  {
+   "id": "health.booster-shot",
+   "t": {
+    "en": "booster shot",
+    "uk": "бустерна доза",
+    "ru": "бустерная доза",
+    "pl": "dawka przypominająca",
+    "de": "Auffrischungsimpfung",
+    "fr": "dose de rappel",
+    "es": "dosis de refuerzo",
+    "it": "richiamo",
+    "pt": "dose de reforço",
+    "tr": "hatırlatma dozu"
+   },
+   "ex": {
+    "en": "I got my booster shot."
+   }
+  },
+  {
+   "id": "health.immunity",
+   "t": {
+    "en": "immunity",
+    "uk": "імунітет",
+    "ru": "иммунитет",
+    "pl": "odporność",
+    "de": "Immunität",
+    "fr": "immunité",
+    "es": "inmunidad",
+    "it": "immunità",
+    "pt": "imunidade",
+    "tr": "bağışıklık"
+   },
+   "ex": {
+    "en": "Vitamin C boosts immunity."
+   }
+  },
+  {
+   "id": "health.antibodies",
+   "t": {
+    "en": "antibodies",
+    "uk": "антитіла",
+    "ru": "антитела",
+    "pl": "przeciwciała",
+    "de": "Antikörper",
+    "fr": "anticorps",
+    "es": "anticuerpos",
+    "it": "anticorpi",
+    "pt": "anticorpos",
+    "tr": "antikorlar"
+   },
+   "ex": {
+    "en": "The test showed antibodies."
+   }
+  },
+  {
+   "id": "health.chronic-pain",
+   "t": {
+    "en": "chronic pain",
+    "uk": "хронічний біль",
+    "ru": "хроническая боль",
+    "pl": "przewlekły ból",
+    "de": "chronische Schmerzen",
+    "fr": "douleur chronique",
+    "es": "dolor crónico",
+    "it": "dolore cronico",
+    "pt": "dor crônica",
+    "tr": "kronik ağrı"
+   },
+   "ex": {
+    "en": "He lives with chronic pain."
+   }
+  },
+  {
+   "id": "health.coma",
+   "t": {
+    "en": "coma",
+    "uk": "кома",
+    "ru": "кома",
+    "pl": "śpiączka",
+    "de": "Koma",
+    "fr": "coma",
+    "es": "coma",
+    "it": "coma",
+    "pt": "coma",
+    "tr": "koma"
+   },
+   "ex": {
+    "en": "She was in a coma for a week."
+   }
+  },
+  {
+   "id": "health.transplant",
+   "t": {
+    "en": "transplant",
+    "uk": "пересадка",
+    "ru": "пересадка",
+    "pl": "przeszczep",
+    "de": "Transplantation",
+    "fr": "greffe",
+    "es": "trasplante",
+    "it": "trapianto",
+    "pt": "transplante",
+    "tr": "nakil"
+   },
+   "ex": {
+    "en": "He needs a heart transplant."
+   }
+  },
+  {
+   "id": "health.organ-donor",
+   "t": {
+    "en": "organ donor",
+    "uk": "донор органів",
+    "ru": "донор органов",
+    "pl": "dawca narządów",
+    "de": "Organspender",
+    "fr": "donneur d'organes",
+    "es": "donante de órganos",
+    "it": "donatore di organi",
+    "pt": "doador de órgãos",
+    "tr": "organ bağışçısı"
+   },
+   "ex": {
+    "en": "I'm a registered organ donor."
+   }
+  },
+  {
+   "id": "health.blood-transfusion",
+   "t": {
+    "en": "blood transfusion",
+    "uk": "переливання крові",
+    "ru": "переливание крови",
+    "pl": "transfuzja krwi",
+    "de": "Bluttransfusion",
+    "fr": "transfusion sanguine",
+    "es": "transfusión de sangre",
+    "it": "trasfusione di sangue",
+    "pt": "transfusão de sangue",
+    "tr": "kan nakli"
+   },
+   "ex": {
+    "en": "She needed a blood transfusion."
+   }
+  },
+  {
+   "id": "health.biopsy",
+   "t": {
+    "en": "biopsy",
+    "uk": "біопсія",
+    "ru": "биопсия",
+    "pl": "biopsja",
+    "de": "Biopsie",
+    "fr": "biopsie",
+    "es": "biopsia",
+    "it": "biopsia",
+    "pt": "biópsia",
+    "tr": "biyopsi"
+   },
+   "ex": {
+    "en": "The biopsy results are normal."
+   }
+  },
+  {
+   "id": "health.tumour",
+   "t": {
+    "en": "tumour",
+    "uk": "пухлина",
+    "ru": "опухоль",
+    "pl": "guz",
+    "de": "Tumor",
+    "fr": "tumeur",
+    "es": "tumor",
+    "it": "tumore",
+    "pt": "tumor",
+    "tr": "tümör"
+   },
+   "ex": {
+    "en": "The tumour was removed."
+   }
+  },
+  {
+   "id": "health.cancer",
+   "t": {
+    "en": "cancer",
+    "uk": "рак",
+    "ru": "рак",
+    "pl": "rak",
+    "de": "Krebs",
+    "fr": "cancer",
+    "es": "cáncer",
+    "it": "cancro",
+    "pt": "câncer",
+    "tr": "kanser"
+   },
+   "ex": {
+    "en": "Early tests can detect cancer."
+   }
+  },
+  {
+   "id": "health.chemotherapy",
+   "t": {
+    "en": "chemotherapy",
+    "uk": "хіміотерапія",
+    "ru": "химиотерапия",
+    "pl": "chemioterapia",
+    "de": "Chemotherapie",
+    "fr": "chimiothérapie",
+    "es": "quimioterapia",
+    "it": "chemioterapia",
+    "pt": "quimioterapia",
+    "tr": "kemoterapi"
+   },
+   "ex": {
+    "en": "She finished chemotherapy."
+   }
+  },
+  {
+   "id": "health.pacemaker",
+   "t": {
+    "en": "pacemaker",
+    "uk": "кардіостимулятор",
+    "ru": "кардиостимулятор",
+    "pl": "rozrusznik serca",
+    "de": "Herzschrittmacher",
+    "fr": "stimulateur cardiaque",
+    "es": "marcapasos",
+    "it": "pacemaker",
+    "pt": "marca-passo",
+    "tr": "kalp pili"
+   },
+   "ex": {
+    "en": "Grandpa has a pacemaker."
+   }
+  },
+  {
+   "id": "health.to-dislocate",
+   "t": {
+    "en": "to dislocate",
+    "uk": "вивихнути",
+    "ru": "вывихнуть",
+    "pl": "zwichnąć",
+    "de": "ausrenken",
+    "fr": "se démettre",
+    "es": "dislocarse",
+    "it": "slogarsi",
+    "pt": "deslocar",
+    "tr": "yerinden çıkarmak"
+   },
+   "ex": {
+    "en": "He dislocated his shoulder."
+   }
+  },
+  {
+   "id": "health.slipped-disc",
+   "t": {
+    "en": "slipped disc",
+    "uk": "міжхребцева грижа",
+    "ru": "межпозвоночная грыжа",
+    "pl": "wypadnięcie dysku",
+    "de": "Bandscheibenvorfall",
+    "fr": "hernie discale",
+    "es": "hernia discal",
+    "it": "ernia del disco",
+    "pt": "hérnia de disco",
+    "tr": "bel fıtığı"
+   },
+   "ex": {
+    "en": "A slipped disc is very painful."
+   }
+  },
+  {
+   "id": "health.whiplash",
+   "t": {
+    "en": "whiplash",
+    "uk": "хлистова травма",
+    "ru": "хлыстовая травма",
+    "pl": "uraz kręgosłupa szyjnego",
+    "de": "Schleudertrauma",
+    "fr": "coup du lapin",
+    "es": "latigazo cervical",
+    "it": "colpo di frusta",
+    "pt": "lesão cervical",
+    "tr": "boyun incinmesi"
+   },
+   "ex": {
+    "en": "He got whiplash in the crash."
+   }
+  },
+  {
+   "id": "health.mobility",
+   "t": {
+    "en": "mobility",
+    "uk": "рухливість",
+    "ru": "подвижность",
+    "pl": "sprawność ruchowa",
+    "de": "Beweglichkeit",
+    "fr": "mobilité",
+    "es": "movilidad",
+    "it": "mobilità",
+    "pt": "mobilidade",
+    "tr": "hareket kabiliyeti"
+   },
+   "ex": {
+    "en": "Exercise improves mobility."
+   }
+  },
+  {
+   "id": "health.disability",
+   "t": {
+    "en": "disability",
+    "uk": "інвалідність",
+    "ru": "инвалидность",
+    "pl": "niepełnosprawność",
+    "de": "Behinderung",
+    "fr": "handicap",
+    "es": "discapacidad",
+    "it": "disabilità",
+    "pt": "deficiência",
+    "tr": "engellilik"
+   },
+   "ex": {
+    "en": "He has a physical disability."
+   }
+  },
+  {
+   "id": "health.hearing-loss",
+   "t": {
+    "en": "hearing loss",
+    "uk": "втрата слуху",
+    "ru": "потеря слуха",
+    "pl": "utrata słuchu",
+    "de": "Hörverlust",
+    "fr": "perte auditive",
+    "es": "pérdida auditiva",
+    "it": "perdita dell'udito",
+    "pt": "perda auditiva",
+    "tr": "işitme kaybı"
+   },
+   "ex": {
+    "en": "Loud music can cause hearing loss."
+   }
+  },
+  {
+   "id": "health.short-sighted",
+   "t": {
+    "en": "short-sighted",
+    "uk": "короткозорий",
+    "ru": "близорукий",
+    "pl": "krótkowzroczny",
+    "de": "kurzsichtig",
+    "fr": "myope",
+    "es": "miope",
+    "it": "miope",
+    "pt": "míope",
+    "tr": "miyop"
+   },
+   "ex": {
+    "en": "I'm short-sighted and wear glasses."
+   }
+  },
+  {
+   "id": "health.long-sighted",
+   "t": {
+    "en": "long-sighted",
+    "uk": "далекозорий",
+    "ru": "дальнозоркий",
+    "pl": "dalekowzroczny",
+    "de": "weitsichtig",
+    "fr": "hypermétrope",
+    "es": "hipermétrope",
+    "it": "presbite",
+    "pt": "hipermetrope",
+    "tr": "hipermetrop"
+   },
+   "ex": {
+    "en": "He is long-sighted."
+   }
+  },
+  {
+   "id": "health.dementia",
+   "t": {
+    "en": "dementia",
+    "uk": "деменція",
+    "ru": "деменция",
+    "pl": "demencja",
+    "de": "Demenz",
+    "fr": "démence",
+    "es": "demencia",
+    "it": "demenza",
+    "pt": "demência",
+    "tr": "bunama"
+   },
+   "ex": {
+    "en": "Her father has dementia."
+   }
+  },
+  {
+   "id": "health.arthritis",
+   "t": {
+    "en": "arthritis",
+    "uk": "артрит",
+    "ru": "артрит",
+    "pl": "zapalenie stawów",
+    "de": "Arthritis",
+    "fr": "arthrite",
+    "es": "artritis",
+    "it": "artrite",
+    "pt": "artrite",
+    "tr": "artrit"
+   },
+   "ex": {
+    "en": "Arthritis makes his hands stiff."
+   }
+  },
+  {
+   "id": "health.pneumonia",
+   "t": {
+    "en": "pneumonia",
+    "uk": "запалення легень",
+    "ru": "воспаление лёгких",
+    "pl": "zapalenie płuc",
+    "de": "Lungenentzündung",
+    "fr": "pneumonie",
+    "es": "neumonía",
+    "it": "polmonite",
+    "pt": "pneumonia",
+    "tr": "zatürre"
+   },
+   "ex": {
+    "en": "He was in hospital with pneumonia."
+   }
+  },
+  {
+   "id": "health.bronchitis",
+   "t": {
+    "en": "bronchitis",
+    "uk": "бронхіт",
+    "ru": "бронхит",
+    "pl": "zapalenie oskrzeli",
+    "de": "Bronchitis",
+    "fr": "bronchite",
+    "es": "bronquitis",
+    "it": "bronchite",
+    "pt": "bronquite",
+    "tr": "bronşit"
+   },
+   "ex": {
+    "en": "Smokers often get bronchitis."
+   }
+  },
+  {
+   "id": "health.measles",
+   "t": {
+    "en": "measles",
+    "uk": "кір",
+    "ru": "корь",
+    "pl": "odra",
+    "de": "Masern",
+    "fr": "rougeole",
+    "es": "sarampión",
+    "it": "morbillo",
+    "pt": "sarampo",
+    "tr": "kızamık"
+   },
+   "ex": {
+    "en": "Measles is very contagious."
+   }
+  },
+  {
+   "id": "health.chickenpox",
+   "t": {
+    "en": "chickenpox",
+    "uk": "вітряна віспа",
+    "ru": "ветряная оспа",
+    "pl": "ospa wietrzna",
+    "de": "Windpocken",
+    "fr": "varicelle",
+    "es": "varicela",
+    "it": "varicella",
+    "pt": "catapora",
+    "tr": "su çiçeği"
+   },
+   "ex": {
+    "en": "My son has chickenpox."
+   }
+  },
+  {
+   "id": "health.eczema",
+   "t": {
+    "en": "eczema",
+    "uk": "екзема",
+    "ru": "экзема",
+    "pl": "egzema",
+    "de": "Ekzem",
+    "fr": "eczéma",
+    "es": "eccema",
+    "it": "eczema",
+    "pt": "eczema",
+    "tr": "egzama"
+   },
+   "ex": {
+    "en": "Eczema makes my skin itch."
+   }
+  },
+  {
+   "id": "health.acne",
+   "t": {
+    "en": "acne",
+    "uk": "акне",
+    "ru": "акне",
+    "pl": "trądzik",
+    "de": "Akne",
+    "fr": "acné",
+    "es": "acné",
+    "it": "acne",
+    "pt": "acne",
+    "tr": "sivilce"
+   },
+   "ex": {
+    "en": "Many teenagers have acne."
+   }
+  },
+  {
+   "id": "health.ulcer",
+   "t": {
+    "en": "ulcer",
+    "uk": "виразка",
+    "ru": "язва",
+    "pl": "wrzód",
+    "de": "Geschwür",
+    "fr": "ulcère",
+    "es": "úlcera",
+    "it": "ulcera",
+    "pt": "úlcera",
+    "tr": "ülser"
+   },
+   "ex": {
+    "en": "Stress can worsen an ulcer."
+   }
+  },
+  {
+   "id": "health.appendicitis",
+   "t": {
+    "en": "appendicitis",
+    "uk": "апендицит",
+    "ru": "аппендицит",
+    "pl": "zapalenie wyrostka",
+    "de": "Blinddarmentzündung",
+    "fr": "appendicite",
+    "es": "apendicitis",
+    "it": "appendicite",
+    "pt": "apendicite",
+    "tr": "apandisit"
+   },
+   "ex": {
+    "en": "He had surgery for appendicitis."
+   }
+  },
+  {
+   "id": "health.hormone",
+   "t": {
+    "en": "hormone",
+    "uk": "гормон",
+    "ru": "гормон",
+    "pl": "hormon",
+    "de": "Hormon",
+    "fr": "hormone",
+    "es": "hormona",
+    "it": "ormone",
+    "pt": "hormônio",
+    "tr": "hormon"
+   },
+   "ex": {
+    "en": "Stress affects hormone levels."
+   }
+  },
+  {
+   "id": "health.fertility",
+   "t": {
+    "en": "fertility",
+    "uk": "фертильність",
+    "ru": "фертильность",
+    "pl": "płodność",
+    "de": "Fruchtbarkeit",
+    "fr": "fertilité",
+    "es": "fertilidad",
+    "it": "fertilità",
+    "pt": "fertilidade",
+    "tr": "doğurganlık"
+   },
+   "ex": {
+    "en": "They went to a fertility clinic."
+   }
+  },
+  {
+   "id": "health.miscarriage",
+   "t": {
+    "en": "miscarriage",
+    "uk": "викидень",
+    "ru": "выкидыш",
+    "pl": "poronienie",
+    "de": "Fehlgeburt",
+    "fr": "fausse couche",
+    "es": "aborto espontáneo",
+    "it": "aborto spontaneo",
+    "pt": "aborto espontâneo",
+    "tr": "düşük"
+   },
+   "ex": {
+    "en": "She had a miscarriage last year."
+   }
+  },
+  {
+   "id": "health.contraception",
+   "t": {
+    "en": "contraception",
+    "uk": "контрацепція",
+    "ru": "контрацепция",
+    "pl": "antykoncepcja",
+    "de": "Verhütung",
+    "fr": "contraception",
+    "es": "anticoncepción",
+    "it": "contraccezione",
+    "pt": "contracepção",
+    "tr": "doğum kontrolü"
+   },
+   "ex": {
+    "en": "Ask your doctor about contraception."
+   }
+  },
+  {
+   "id": "health.carbohydrates",
+   "t": {
+    "en": "carbohydrates",
+    "uk": "вуглеводи",
+    "ru": "углеводы",
+    "pl": "węglowodany",
+    "de": "Kohlenhydrate",
+    "fr": "glucides",
+    "es": "hidratos de carbono",
+    "it": "carboidrati",
+    "pt": "carboidratos",
+    "tr": "karbonhidratlar"
+   },
+   "ex": {
+    "en": "Pasta is rich in carbohydrates."
+   }
+  },
+  {
+   "id": "health.saturated-fat",
+   "t": {
+    "en": "saturated fat",
+    "uk": "насичені жири",
+    "ru": "насыщенные жиры",
+    "pl": "tłuszcze nasycone",
+    "de": "gesättigte Fette",
+    "fr": "graisses saturées",
+    "es": "grasas saturadas",
+    "it": "grassi saturi",
+    "pt": "gordura saturada",
+    "tr": "doymuş yağ"
+   },
+   "ex": {
+    "en": "Avoid food high in saturated fat."
+   }
+  },
+  {
+   "id": "health.fasting",
+   "t": {
+    "en": "fasting",
+    "uk": "голодування",
+    "ru": "голодание",
+    "pl": "post",
+    "de": "Fasten",
+    "fr": "jeûne",
+    "es": "ayuno",
+    "it": "digiuno",
+    "pt": "jejum",
+    "tr": "açlık"
+   },
+   "ex": {
+    "en": "Fasting before the test is required."
+   }
+  },
+  {
+   "id": "health.supplements",
+   "t": {
+    "en": "supplements",
+    "uk": "харчові добавки",
+    "ru": "пищевые добавки",
+    "pl": "suplementy",
+    "de": "Nahrungsergänzungsmittel",
+    "fr": "compléments alimentaires",
+    "es": "suplementos",
+    "it": "integratori",
+    "pt": "suplementos",
+    "tr": "takviyeler"
+   },
+   "ex": {
+    "en": "Do you take any supplements?"
+   }
+  },
+  {
+   "id": "health.wellbeing",
+   "t": {
+    "en": "wellbeing",
+    "uk": "добробут",
+    "ru": "благополучие",
+    "pl": "dobre samopoczucie",
+    "de": "Wohlbefinden",
+    "fr": "bien-être",
+    "es": "bienestar",
+    "it": "benessere",
+    "pt": "bem-estar",
+    "tr": "esenlik"
+   },
+   "ex": {
+    "en": "Exercise improves your wellbeing."
+   }
+  },
+  {
+   "id": "health.self-care",
+   "t": {
+    "en": "self-care",
+    "uk": "турбота про себе",
+    "ru": "забота о себе",
+    "pl": "dbanie o siebie",
+    "de": "Selbstfürsorge",
+    "fr": "soins personnels",
+    "es": "autocuidado",
+    "it": "cura di sé",
+    "pt": "autocuidado",
+    "tr": "öz bakım"
+   },
+   "ex": {
+    "en": "Self-care isn't selfish."
+   }
+  },
+  {
+   "id": "health.panic-attack",
+   "t": {
+    "en": "panic attack",
+    "uk": "панічна атака",
+    "ru": "паническая атака",
+    "pl": "atak paniki",
+    "de": "Panikattacke",
+    "fr": "crise de panique",
+    "es": "ataque de pánico",
+    "it": "attacco di panico",
+    "pt": "ataque de pânico",
+    "tr": "panik atak"
+   },
+   "ex": {
+    "en": "She had a panic attack on the train."
+   }
+  },
+  {
+   "id": "health.counselling",
+   "t": {
+    "en": "counselling",
+    "uk": "психологічне консультування",
+    "ru": "психологическое консультирование",
+    "pl": "poradnictwo psychologiczne",
+    "de": "psychologische Beratung",
+    "fr": "soutien psychologique",
+    "es": "terapia psicológica",
+    "it": "consulenza psicologica",
+    "pt": "aconselhamento psicológico",
+    "tr": "psikolojik danışmanlık"
+   },
+   "ex": {
+    "en": "Counselling helped him a lot."
+   }
+  },
+  {
+   "id": "health.psychiatrist",
+   "t": {
+    "en": "psychiatrist",
+    "uk": "психіатр",
+    "ru": "психиатр",
+    "pl": "psychiatra",
+    "de": "Psychiater",
+    "fr": "psychiatre",
+    "es": "psiquiatra",
+    "it": "psichiatra",
+    "pt": "psiquiatra",
+    "tr": "psikiyatrist"
+   },
+   "ex": {
+    "en": "She was referred to a psychiatrist."
+   }
+  },
+  {
+   "id": "health.psychologist",
+   "t": {
+    "en": "psychologist",
+    "uk": "психолог",
+    "ru": "психолог",
+    "pl": "psycholog",
+    "de": "Psychologe",
+    "fr": "psychologue",
+    "es": "psicólogo",
+    "it": "psicologo",
+    "pt": "psicólogo",
+    "tr": "psikolog"
+   },
+   "ex": {
+    "en": "I talk to a psychologist weekly."
+   }
+  },
+  {
+   "id": "health.antidepressants",
+   "t": {
+    "en": "antidepressants",
+    "uk": "антидепресанти",
+    "ru": "антидепрессанты",
+    "pl": "leki przeciwdepresyjne",
+    "de": "Antidepressiva",
+    "fr": "antidépresseurs",
+    "es": "antidepresivos",
+    "it": "antidepressivi",
+    "pt": "antidepressivos",
+    "tr": "antidepresanlar"
+   },
+   "ex": {
+    "en": "He's taking antidepressants."
+   }
+  },
+  {
+   "id": "health.to-snore",
+   "t": {
+    "en": "to snore",
+    "uk": "хропіти",
+    "ru": "храпеть",
+    "pl": "chrapać",
+    "de": "schnarchen",
+    "fr": "ronfler",
+    "es": "roncar",
+    "it": "russare",
+    "pt": "roncar",
+    "tr": "horlamak"
+   },
+   "ex": {
+    "en": "My husband snores loudly."
+   }
+  },
+  {
+   "id": "health.fatigue",
+   "t": {
+    "en": "fatigue",
+    "uk": "втома",
+    "ru": "усталость",
+    "pl": "zmęczenie",
+    "de": "Erschöpfung",
+    "fr": "fatigue",
+    "es": "fatiga",
+    "it": "affaticamento",
+    "pt": "fadiga",
+    "tr": "yorgunluk"
+   },
+   "ex": {
+    "en": "Fatigue is a common symptom."
+   }
+  },
+  {
+   "id": "health.bedridden",
+   "t": {
+    "en": "bedridden",
+    "uk": "прикутий до ліжка",
+    "ru": "прикованный к постели",
+    "pl": "przykuty do łóżka",
+    "de": "bettlägerig",
+    "fr": "alité",
+    "es": "postrado en cama",
+    "it": "costretto a letto",
+    "pt": "acamado",
+    "tr": "yatalak"
+   },
+   "ex": {
+    "en": "He was bedridden for weeks."
+   }
+  },
+  {
+   "id": "health.anaemia",
+   "t": {
+    "en": "anaemia",
+    "uk": "анемія",
+    "ru": "анемия",
+    "pl": "anemia",
+    "de": "Anämie",
+    "fr": "anémie",
+    "es": "anemia",
+    "it": "anemia",
+    "pt": "anemia",
+    "tr": "kansızlık"
+   },
+   "ex": {
+    "en": "Anaemia can make you tired."
    }
   }
  ]

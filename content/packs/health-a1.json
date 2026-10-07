@@ -2,7 +2,7 @@
  "id": "health-a1",
  "topic": "health",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "health.body",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "Health is more important than money."
+   }
+  },
+  {
+   "id": "health.hair",
+   "t": {
+    "en": "hair",
+    "uk": "волосся",
+    "ru": "волосы",
+    "pl": "włosy",
+    "de": "Haare",
+    "fr": "cheveux",
+    "es": "pelo",
+    "it": "capelli",
+    "pt": "cabelo",
+    "tr": "saç"
+   },
+   "ex": {
+    "en": "She has long hair."
+   }
+  },
+  {
+   "id": "health.lips",
+   "t": {
+    "en": "lips",
+    "uk": "губи",
+    "ru": "губы",
+    "pl": "wargi",
+    "de": "Lippen",
+    "fr": "lèvres",
+    "es": "labios",
+    "it": "labbra",
+    "pt": "lábios",
+    "tr": "dudaklar"
+   },
+   "ex": {
+    "en": "My lips are dry."
+   }
+  },
+  {
+   "id": "health.throat",
+   "t": {
+    "en": "throat",
+    "uk": "горло",
+    "ru": "горло",
+    "pl": "gardło",
+    "de": "Hals",
+    "fr": "gorge",
+    "es": "garganta",
+    "it": "gola",
+    "pt": "garganta",
+    "tr": "boğaz"
+   },
+   "ex": {
+    "en": "My throat hurts."
+   }
+  },
+  {
+   "id": "health.thumb",
+   "t": {
+    "en": "thumb",
+    "uk": "великий палець",
+    "ru": "большой палец",
+    "pl": "kciuk",
+    "de": "Daumen",
+    "fr": "pouce",
+    "es": "pulgar",
+    "it": "pollice",
+    "pt": "polegar",
+    "tr": "başparmak"
+   },
+   "ex": {
+    "en": "I cut my thumb."
+   }
+  },
+  {
+   "id": "health.belly",
+   "t": {
+    "en": "belly",
+    "uk": "живіт",
+    "ru": "живот",
+    "pl": "brzuch",
+    "de": "Bauch",
+    "fr": "ventre",
+    "es": "barriga",
+    "it": "pancia",
+    "pt": "barriga",
+    "tr": "karın"
+   },
+   "ex": {
+    "en": "The baby has a round belly."
+   }
+  },
+  {
+   "id": "health.fit",
+   "t": {
+    "en": "fit",
+    "uk": "у формі",
+    "ru": "в форме",
+    "pl": "wysportowany",
+    "de": "fit",
+    "fr": "en forme",
+    "es": "en forma",
+    "it": "in forma",
+    "pt": "em forma",
+    "tr": "formda"
+   },
+   "ex": {
+    "en": "My dad is very fit."
+   }
+  },
+  {
+   "id": "health.to-lie-down",
+   "t": {
+    "en": "to lie down",
+    "uk": "лягати",
+    "ru": "ложиться",
+    "pl": "kłaść się",
+    "de": "sich hinlegen",
+    "fr": "s'allonger",
+    "es": "tumbarse",
+    "it": "sdraiarsi",
+    "pt": "deitar-se",
+    "tr": "uzanmak"
+   },
+   "ex": {
+    "en": "I need to lie down."
+   }
+  },
+  {
+   "id": "health.i-am-sick",
+   "t": {
+    "en": "I am sick",
+    "uk": "я хворий",
+    "ru": "я болен",
+    "pl": "jestem chory",
+    "de": "ich bin krank",
+    "fr": "je suis malade",
+    "es": "estoy enfermo",
+    "it": "sono malato",
+    "pt": "estou doente",
+    "tr": "hastayım"
+   },
+   "ex": {
+    "en": "I am sick today."
+   }
+  },
+  {
+   "id": "health.i-need-a-doctor",
+   "t": {
+    "en": "I need a doctor",
+    "uk": "мені потрібен лікар",
+    "ru": "мне нужен врач",
+    "pl": "potrzebuję lekarza",
+    "de": "ich brauche einen Arzt",
+    "fr": "j'ai besoin d'un médecin",
+    "es": "necesito un médico",
+    "it": "ho bisogno di un medico",
+    "pt": "preciso de um médico",
+    "tr": "doktora ihtiyacım var"
+   },
+   "ex": {
+    "en": "Help, I need a doctor!"
+   }
+  },
+  {
+   "id": "health.healthy-food",
+   "t": {
+    "en": "healthy food",
+    "uk": "здорова їжа",
+    "ru": "здоровая еда",
+    "pl": "zdrowe jedzenie",
+    "de": "gesundes Essen",
+    "fr": "nourriture saine",
+    "es": "comida sana",
+    "it": "cibo sano",
+    "pt": "comida saudável",
+    "tr": "sağlıklı yiyecek"
+   },
+   "ex": {
+    "en": "I like healthy food."
+   }
+  },
+  {
+   "id": "health.cream",
+   "t": {
+    "en": "cream",
+    "uk": "крем",
+    "ru": "крем",
+    "pl": "krem",
+    "de": "Creme",
+    "fr": "crème",
+    "es": "crema",
+    "it": "crema",
+    "pt": "creme",
+    "tr": "krem"
+   },
+   "ex": {
+    "en": "Put some cream on your skin."
+   }
+  },
+  {
+   "id": "health.tissue",
+   "t": {
+    "en": "tissue",
+    "uk": "паперова серветка",
+    "ru": "бумажная салфетка",
+    "pl": "chusteczka",
+    "de": "Taschentuch",
+    "fr": "mouchoir en papier",
+    "es": "pañuelo de papel",
+    "it": "fazzoletto di carta",
+    "pt": "lenço de papel",
+    "tr": "kağıt mendil"
+   },
+   "ex": {
+    "en": "Do you have a tissue?"
+   }
+  },
+  {
+   "id": "health.to-have-a-fever",
+   "t": {
+    "en": "to have a fever",
+    "uk": "мати температуру",
+    "ru": "иметь температуру",
+    "pl": "mieć gorączkę",
+    "de": "Fieber haben",
+    "fr": "avoir de la fièvre",
+    "es": "tener fiebre",
+    "it": "avere la febbre",
+    "pt": "estar com febre",
+    "tr": "ateşi olmak"
+   },
+   "ex": {
+    "en": "My son has a fever."
+   }
+  },
+  {
+   "id": "health.brain",
+   "t": {
+    "en": "brain",
+    "uk": "мозок",
+    "ru": "мозг",
+    "pl": "mózg",
+    "de": "Gehirn",
+    "fr": "cerveau",
+    "es": "cerebro",
+    "it": "cervello",
+    "pt": "cérebro",
+    "tr": "beyin"
+   },
+   "ex": {
+    "en": "The brain needs sleep."
+   }
+  },
+  {
+   "id": "health.eyebrow",
+   "t": {
+    "en": "eyebrow",
+    "uk": "брова",
+    "ru": "бровь",
+    "pl": "brew",
+    "de": "Augenbraue",
+    "fr": "sourcil",
+    "es": "ceja",
+    "it": "sopracciglio",
+    "pt": "sobrancelha",
+    "tr": "kaş"
+   },
+   "ex": {
+    "en": "He raised an eyebrow."
+   }
+  },
+  {
+   "id": "health.cheek",
+   "t": {
+    "en": "cheek",
+    "uk": "щока",
+    "ru": "щека",
+    "pl": "policzek",
+    "de": "Wange",
+    "fr": "joue",
+    "es": "mejilla",
+    "it": "guancia",
+    "pt": "bochecha",
+    "tr": "yanak"
+   },
+   "ex": {
+    "en": "Her cheeks are red."
+   }
+  },
+  {
+   "id": "health.chin",
+   "t": {
+    "en": "chin",
+    "uk": "підборіддя",
+    "ru": "подбородок",
+    "pl": "podbródek",
+    "de": "Kinn",
+    "fr": "menton",
+    "es": "barbilla",
+    "it": "mento",
+    "pt": "queixo",
+    "tr": "çene"
+   },
+   "ex": {
+    "en": "He has a cut on his chin."
+   }
+  },
+  {
+   "id": "health.hip",
+   "t": {
+    "en": "hip",
+    "uk": "стегно",
+    "ru": "бедро",
+    "pl": "biodro",
+    "de": "Hüfte",
+    "fr": "hanche",
+    "es": "cadera",
+    "it": "anca",
+    "pt": "quadril",
+    "tr": "kalça"
+   },
+   "ex": {
+    "en": "My hip hurts when I walk."
+   }
+  },
+  {
+   "id": "health.to-take-a-pill",
+   "t": {
+    "en": "to take a pill",
+    "uk": "прийняти таблетку",
+    "ru": "принять таблетку",
+    "pl": "wziąć tabletkę",
+    "de": "eine Tablette nehmen",
+    "fr": "prendre un comprimé",
+    "es": "tomar una pastilla",
+    "it": "prendere una pillola",
+    "pt": "tomar um comprimido",
+    "tr": "hap almak"
+   },
+   "ex": {
+    "en": "Take a pill after lunch."
+   }
+  },
+  {
+   "id": "health.sick-day",
+   "t": {
+    "en": "sick day",
+    "uk": "лікарняний день",
+    "ru": "день на больничном",
+    "pl": "dzień zwolnienia",
+    "de": "Krankheitstag",
+    "fr": "jour de maladie",
+    "es": "día de baja",
+    "it": "giorno di malattia",
+    "pt": "dia de folga por doença",
+    "tr": "hastalık izni günü"
+   },
+   "ex": {
+    "en": "I took a sick day."
    }
   }
  ]

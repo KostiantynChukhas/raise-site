@@ -2,7 +2,7 @@
  "id": "emergency-b1",
  "topic": "emergency",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emergency.immigration-office",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "The police found new evidence."
+   }
+  },
+  {
+   "id": "emergency.choking",
+   "t": {
+    "en": "choking",
+    "uk": "задуха",
+    "ru": "удушье",
+    "pl": "zadławienie",
+    "de": "Ersticken",
+    "fr": "étouffement",
+    "es": "atragantamiento",
+    "it": "soffocamento",
+    "pt": "engasgo",
+    "tr": "boğulma"
+   },
+   "ex": {
+    "en": "Choking is common in small children."
+   }
+  },
+  {
+   "id": "emergency.to-choke",
+   "t": {
+    "en": "to choke",
+    "uk": "вдавитися",
+    "ru": "подавиться",
+    "pl": "zadławić się",
+    "de": "sich verschlucken",
+    "fr": "s'étouffer",
+    "es": "atragantarse",
+    "it": "soffocare",
+    "pt": "engasgar-se",
+    "tr": "boğulmak"
+   },
+   "ex": {
+    "en": "He choked on a piece of meat."
+   }
+  },
+  {
+   "id": "emergency.overdose",
+   "t": {
+    "en": "overdose",
+    "uk": "передозування",
+    "ru": "передозировка",
+    "pl": "przedawkowanie",
+    "de": "Überdosis",
+    "fr": "overdose",
+    "es": "sobredosis",
+    "it": "overdose",
+    "pt": "overdose",
+    "tr": "aşırı doz"
+   },
+   "ex": {
+    "en": "She was taken to hospital after an overdose."
+   }
+  },
+  {
+   "id": "emergency.poisoning",
+   "t": {
+    "en": "poisoning",
+    "uk": "отруєння",
+    "ru": "отравление",
+    "pl": "zatrucie",
+    "de": "Vergiftung",
+    "fr": "empoisonnement",
+    "es": "intoxicación",
+    "it": "avvelenamento",
+    "pt": "envenenamento",
+    "tr": "zehirlenme"
+   },
+   "ex": {
+    "en": "Food poisoning can be dangerous."
+   }
+  },
+  {
+   "id": "emergency.to-sprain",
+   "t": {
+    "en": "to sprain",
+    "uk": "розтягнути",
+    "ru": "растянуть",
+    "pl": "skręcić",
+    "de": "verstauchen",
+    "fr": "se fouler",
+    "es": "torcerse",
+    "it": "slogarsi",
+    "pt": "torcer",
+    "tr": "burkmak"
+   },
+   "ex": {
+    "en": "I sprained my ankle on the stairs."
+   }
+  },
+  {
+   "id": "emergency.emergency-call",
+   "t": {
+    "en": "emergency call",
+    "uk": "екстрений виклик",
+    "ru": "экстренный вызов",
+    "pl": "zgłoszenie alarmowe",
+    "de": "Notruf",
+    "fr": "appel d'urgence",
+    "es": "llamada de emergencia",
+    "it": "chiamata di emergenza",
+    "pt": "chamada de emergência",
+    "tr": "acil çağrı"
+   },
+   "ex": {
+    "en": "The emergency call is free."
+   }
+  },
+  {
+   "id": "emergency.operator",
+   "t": {
+    "en": "operator",
+    "uk": "оператор",
+    "ru": "оператор",
+    "pl": "operator",
+    "de": "Telefonist",
+    "fr": "opérateur",
+    "es": "operador",
+    "it": "operatore",
+    "pt": "atendente",
+    "tr": "operatör"
+   },
+   "ex": {
+    "en": "The operator asked for my address."
+   }
+  },
+  {
+   "id": "emergency.helpline",
+   "t": {
+    "en": "helpline",
+    "uk": "гаряча лінія",
+    "ru": "горячая линия",
+    "pl": "infolinia",
+    "de": "Hotline",
+    "fr": "ligne d'assistance",
+    "es": "línea de ayuda",
+    "it": "linea di assistenza",
+    "pt": "linha de apoio",
+    "tr": "yardım hattı"
+   },
+   "ex": {
+    "en": "Call the helpline for advice."
+   }
+  },
+  {
+   "id": "emergency.rescue-team",
+   "t": {
+    "en": "rescue team",
+    "uk": "рятувальна команда",
+    "ru": "спасательная команда",
+    "pl": "ekipa ratunkowa",
+    "de": "Rettungsteam",
+    "fr": "équipe de secours",
+    "es": "equipo de rescate",
+    "it": "squadra di soccorso",
+    "pt": "equipe de resgate",
+    "tr": "kurtarma ekibi"
+   },
+   "ex": {
+    "en": "The rescue team found them alive."
+   }
+  },
+  {
+   "id": "emergency.fire-hydrant",
+   "t": {
+    "en": "fire hydrant",
+    "uk": "пожежний гідрант",
+    "ru": "пожарный гидрант",
+    "pl": "hydrant",
+    "de": "Hydrant",
+    "fr": "bouche d'incendie",
+    "es": "boca de incendios",
+    "it": "idrante",
+    "pt": "hidrante",
+    "tr": "yangın musluğu"
+   },
+   "ex": {
+    "en": "Don't park in front of the fire hydrant."
+   }
+  },
+  {
+   "id": "emergency.sprinkler",
+   "t": {
+    "en": "sprinkler",
+    "uk": "спринклер",
+    "ru": "спринклер",
+    "pl": "tryskacz",
+    "de": "Sprinkleranlage",
+    "fr": "gicleur",
+    "es": "rociador",
+    "it": "sprinkler",
+    "pt": "sprinkler",
+    "tr": "yangın fıskiyesi"
+   },
+   "ex": {
+    "en": "The sprinklers put out the fire."
+   }
+  },
+  {
+   "id": "emergency.escape-route",
+   "t": {
+    "en": "escape route",
+    "uk": "шлях евакуації",
+    "ru": "путь эвакуации",
+    "pl": "droga ewakuacyjna",
+    "de": "Fluchtweg",
+    "fr": "issue de secours",
+    "es": "ruta de evacuación",
+    "it": "via di fuga",
+    "pt": "rota de fuga",
+    "tr": "kaçış yolu"
+   },
+   "ex": {
+    "en": "Keep the escape route clear."
+   }
+  },
+  {
+   "id": "emergency.assembly-point",
+   "t": {
+    "en": "assembly point",
+    "uk": "місце збору",
+    "ru": "место сбора",
+    "pl": "miejsce zbiórki",
+    "de": "Sammelplatz",
+    "fr": "point de rassemblement",
+    "es": "punto de encuentro",
+    "it": "punto di raccolta",
+    "pt": "ponto de encontro",
+    "tr": "toplanma alanı"
+   },
+   "ex": {
+    "en": "Go to the assembly point outside."
+   }
+  },
+  {
+   "id": "emergency.fire-drill",
+   "t": {
+    "en": "fire drill",
+    "uk": "навчальна пожежна тривога",
+    "ru": "учебная пожарная тревога",
+    "pl": "ćwiczenia przeciwpożarowe",
+    "de": "Feueralarmübung",
+    "fr": "exercice d'incendie",
+    "es": "simulacro de incendio",
+    "it": "esercitazione antincendio",
+    "pt": "simulação de incêndio",
+    "tr": "yangın tatbikatı"
+   },
+   "ex": {
+    "en": "We have a fire drill every term."
+   }
+  },
+  {
+   "id": "emergency.storm-warning",
+   "t": {
+    "en": "storm warning",
+    "uk": "штормове попередження",
+    "ru": "штормовое предупреждение",
+    "pl": "ostrzeżenie przed burzą",
+    "de": "Unwetterwarnung",
+    "fr": "alerte tempête",
+    "es": "aviso de tormenta",
+    "it": "allerta meteo",
+    "pt": "alerta de tempestade",
+    "tr": "fırtına uyarısı"
+   },
+   "ex": {
+    "en": "There's a storm warning for tonight."
+   }
+  },
+  {
+   "id": "emergency.warning",
+   "t": {
+    "en": "warning",
+    "uk": "попередження",
+    "ru": "предупреждение",
+    "pl": "ostrzeżenie",
+    "de": "Warnung",
+    "fr": "avertissement",
+    "es": "advertencia",
+    "it": "avvertimento",
+    "pt": "aviso",
+    "tr": "uyarı"
+   },
+   "ex": {
+    "en": "Ignore the warning at your own risk."
+   }
+  },
+  {
+   "id": "emergency.to-warn",
+   "t": {
+    "en": "to warn",
+    "uk": "попереджати",
+    "ru": "предупреждать",
+    "pl": "ostrzegać",
+    "de": "warnen",
+    "fr": "avertir",
+    "es": "advertir",
+    "it": "avvertire",
+    "pt": "avisar",
+    "tr": "uyarmak"
+   },
+   "ex": {
+    "en": "They warned us about the flood."
+   }
+  },
+  {
+   "id": "emergency.forest-fire",
+   "t": {
+    "en": "forest fire",
+    "uk": "лісова пожежа",
+    "ru": "лесной пожар",
+    "pl": "pożar lasu",
+    "de": "Waldbrand",
+    "fr": "feu de forêt",
+    "es": "incendio forestal",
+    "it": "incendio boschivo",
+    "pt": "incêndio florestal",
+    "tr": "orman yangını"
+   },
+   "ex": {
+    "en": "The forest fire spread quickly."
+   }
+  },
+  {
+   "id": "emergency.blackout",
+   "t": {
+    "en": "blackout",
+    "uk": "відключення світла",
+    "ru": "отключение света",
+    "pl": "zaciemnienie",
+    "de": "Stromausfall",
+    "fr": "panne d'électricité",
+    "es": "apagón",
+    "it": "blackout",
+    "pt": "apagão",
+    "tr": "elektrik kesintisi"
+   },
+   "ex": {
+    "en": "The storm caused a blackout."
+   }
+  },
+  {
+   "id": "emergency.emergency-kit",
+   "t": {
+    "en": "emergency kit",
+    "uk": "тривожна валіза",
+    "ru": "тревожный чемоданчик",
+    "pl": "zestaw awaryjny",
+    "de": "Notfallset",
+    "fr": "kit d'urgence",
+    "es": "kit de emergencia",
+    "it": "kit di emergenza",
+    "pt": "kit de emergência",
+    "tr": "acil durum çantası"
+   },
+   "ex": {
+    "en": "Keep an emergency kit at home."
+   }
+  },
+  {
+   "id": "emergency.supplies",
+   "t": {
+    "en": "supplies",
+    "uk": "запаси",
+    "ru": "запасы",
+    "pl": "zapasy",
+    "de": "Vorräte",
+    "fr": "provisions",
+    "es": "suministros",
+    "it": "scorte",
+    "pt": "suprimentos",
+    "tr": "erzak"
+   },
+   "ex": {
+    "en": "We have supplies for three days."
+   }
+  },
+  {
+   "id": "emergency.missing-person",
+   "t": {
+    "en": "missing person",
+    "uk": "зниклий безвісти",
+    "ru": "пропавший без вести",
+    "pl": "osoba zaginiona",
+    "de": "vermisste Person",
+    "fr": "personne disparue",
+    "es": "persona desaparecida",
+    "it": "persona scomparsa",
+    "pt": "pessoa desaparecida",
+    "tr": "kayıp kişi"
+   },
+   "ex": {
+    "en": "They reported a missing person."
+   }
+  },
+  {
+   "id": "emergency.kidnapping",
+   "t": {
+    "en": "kidnapping",
+    "uk": "викрадення людини",
+    "ru": "похищение человека",
+    "pl": "porwanie",
+    "de": "Entführung",
+    "fr": "enlèvement",
+    "es": "secuestro",
+    "it": "rapimento",
+    "pt": "sequestro",
+    "tr": "adam kaçırma"
+   },
+   "ex": {
+    "en": "The kidnapping was on the news."
+   }
+  },
+  {
+   "id": "emergency.crime",
+   "t": {
+    "en": "crime",
+    "uk": "злочин",
+    "ru": "преступление",
+    "pl": "przestępstwo",
+    "de": "Verbrechen",
+    "fr": "crime",
+    "es": "delito",
+    "it": "reato",
+    "pt": "crime",
+    "tr": "suç"
+   },
+   "ex": {
+    "en": "Report the crime to the police."
+   }
+  },
+  {
+   "id": "emergency.criminal",
+   "t": {
+    "en": "criminal",
+    "uk": "злочинець",
+    "ru": "преступник",
+    "pl": "przestępca",
+    "de": "Verbrecher",
+    "fr": "criminel",
+    "es": "delincuente",
+    "it": "criminale",
+    "pt": "criminoso",
+    "tr": "suçlu"
+   },
+   "ex": {
+    "en": "The criminal was caught yesterday."
+   }
+  },
+  {
+   "id": "emergency.to-rob",
+   "t": {
+    "en": "to rob",
+    "uk": "грабувати",
+    "ru": "грабить",
+    "pl": "okradać",
+    "de": "ausrauben",
+    "fr": "dévaliser",
+    "es": "robar",
+    "it": "rapinare",
+    "pt": "assaltar",
+    "tr": "soymak"
+   },
+   "ex": {
+    "en": "Two men robbed the bank."
+   }
+  },
+  {
+   "id": "emergency.mugging",
+   "t": {
+    "en": "mugging",
+    "uk": "вуличний грабіж",
+    "ru": "уличное ограбление",
+    "pl": "napad rabunkowy",
+    "de": "Straßenraub",
+    "fr": "agression",
+    "es": "atraco",
+    "it": "rapina",
+    "pt": "assalto",
+    "tr": "gasp"
+   },
+   "ex": {
+    "en": "Muggings are common in this area."
+   }
+  },
+  {
+   "id": "emergency.harassment",
+   "t": {
+    "en": "harassment",
+    "uk": "переслідування",
+    "ru": "домогательство",
+    "pl": "nękanie",
+    "de": "Belästigung",
+    "fr": "harcèlement",
+    "es": "acoso",
+    "it": "molestie",
+    "pt": "assédio",
+    "tr": "taciz"
+   },
+   "ex": {
+    "en": "She reported the harassment to her boss."
+   }
+  },
+  {
+   "id": "emergency.domestic-violence",
+   "t": {
+    "en": "domestic violence",
+    "uk": "домашнє насильство",
+    "ru": "домашнее насилие",
+    "pl": "przemoc domowa",
+    "de": "häusliche Gewalt",
+    "fr": "violence conjugale",
+    "es": "violencia doméstica",
+    "it": "violenza domestica",
+    "pt": "violência doméstica",
+    "tr": "aile içi şiddet"
+   },
+   "ex": {
+    "en": "There is a hotline for domestic violence."
+   }
+  },
+  {
+   "id": "emergency.emergency-passport",
+   "t": {
+    "en": "emergency passport",
+    "uk": "тимчасовий паспорт",
+    "ru": "временный паспорт",
+    "pl": "paszport tymczasowy",
+    "de": "Notpass",
+    "fr": "passeport d'urgence",
+    "es": "pasaporte provisional",
+    "it": "passaporto temporaneo",
+    "pt": "passaporte de emergência",
+    "tr": "geçici pasaport"
+   },
+   "ex": {
+    "en": "The embassy issued an emergency passport."
+   }
+  },
+  {
+   "id": "emergency.travel-document",
+   "t": {
+    "en": "travel document",
+    "uk": "проїзний документ",
+    "ru": "проездной документ",
+    "pl": "dokument podróży",
+    "de": "Reisedokument",
+    "fr": "document de voyage",
+    "es": "documento de viaje",
+    "it": "documento di viaggio",
+    "pt": "documento de viagem",
+    "tr": "seyahat belgesi"
+   },
+   "ex": {
+    "en": "You need a valid travel document."
+   }
+  },
+  {
+   "id": "emergency.to-verify",
+   "t": {
+    "en": "to verify",
+    "uk": "перевіряти",
+    "ru": "проверять",
+    "pl": "weryfikować",
+    "de": "überprüfen",
+    "fr": "vérifier",
+    "es": "verificar",
+    "it": "verificare",
+    "pt": "verificar",
+    "tr": "doğrulamak"
+   },
+   "ex": {
+    "en": "We need to verify your identity."
+   }
+  },
+  {
+   "id": "emergency.proof-of-identity",
+   "t": {
+    "en": "proof of identity",
+    "uk": "документ, що посвідчує особу",
+    "ru": "документ, удостоверяющий личность",
+    "pl": "dowód tożsamości",
+    "de": "Identitätsnachweis",
+    "fr": "justificatif d'identité",
+    "es": "documento de identidad",
+    "it": "documento d'identità",
+    "pt": "comprovante de identidade",
+    "tr": "kimlik belgesi"
+   },
+   "ex": {
+    "en": "Bring proof of identity with you."
+   }
+  },
+  {
+   "id": "emergency.waiting-time",
+   "t": {
+    "en": "waiting time",
+    "uk": "час очікування",
+    "ru": "время ожидания",
+    "pl": "czas oczekiwania",
+    "de": "Wartezeit",
+    "fr": "temps d'attente",
+    "es": "tiempo de espera",
+    "it": "tempo di attesa",
+    "pt": "tempo de espera",
+    "tr": "bekleme süresi"
+   },
+   "ex": {
+    "en": "The waiting time is about two weeks."
+   }
+  },
+  {
+   "id": "emergency.alert",
+   "t": {
+    "en": "alert",
+    "uk": "сигнал тривоги",
+    "ru": "сигнал тревоги",
+    "pl": "alarm",
+    "de": "Alarm",
+    "fr": "alerte",
+    "es": "alerta",
+    "it": "allerta",
+    "pt": "alerta",
+    "tr": "alarm"
+   },
+   "ex": {
+    "en": "The phone sent an emergency alert."
+   }
+  },
+  {
+   "id": "emergency.to-break-into",
+   "t": {
+    "en": "to break into",
+    "uk": "вдиратися",
+    "ru": "вламываться",
+    "pl": "włamywać się",
+    "de": "einbrechen",
+    "fr": "entrer par effraction",
+    "es": "allanar",
+    "it": "scassinare",
+    "pt": "arrombar",
+    "tr": "zorla girmek"
+   },
+   "ex": {
+    "en": "Someone broke into our car."
+   }
+  },
+  {
+   "id": "emergency.suspicious",
+   "t": {
+    "en": "suspicious",
+    "uk": "підозрілий",
+    "ru": "подозрительный",
+    "pl": "podejrzany",
+    "de": "verdächtig",
+    "fr": "suspect",
+    "es": "sospechoso",
+    "it": "sospetto",
+    "pt": "suspeito",
+    "tr": "şüpheli"
+   },
+   "ex": {
+    "en": "Report any suspicious bags."
+   }
+  },
+  {
+   "id": "emergency.stranger",
+   "t": {
+    "en": "stranger",
+    "uk": "незнайомець",
+    "ru": "незнакомец",
+    "pl": "nieznajomy",
+    "de": "Fremder",
+    "fr": "inconnu",
+    "es": "desconocido",
+    "it": "sconosciuto",
+    "pt": "estranho",
+    "tr": "yabancı"
+   },
+   "ex": {
+    "en": "Don't open the door to strangers."
+   }
+  },
+  {
+   "id": "emergency.seriously-injured",
+   "t": {
+    "en": "seriously injured",
+    "uk": "тяжко поранений",
+    "ru": "тяжело ранен",
+    "pl": "ciężko ranny",
+    "de": "schwer verletzt",
+    "fr": "grièvement blessé",
+    "es": "herido grave",
+    "it": "ferito gravemente",
+    "pt": "gravemente ferido",
+    "tr": "ağır yaralı"
+   },
+   "ex": {
+    "en": "Two people were seriously injured."
+   }
+  },
+  {
+   "id": "emergency.bleeding",
+   "t": {
+    "en": "bleeding",
+    "uk": "кровотеча",
+    "ru": "кровотечение",
+    "pl": "krwawienie",
+    "de": "Blutung",
+    "fr": "saignement",
+    "es": "hemorragia",
+    "it": "emorragia",
+    "pt": "sangramento",
+    "tr": "kanama"
+   },
+   "ex": {
+    "en": "Press hard to stop the bleeding."
+   }
+  },
+  {
+   "id": "emergency.id-number",
+   "t": {
+    "en": "ID number",
+    "uk": "ідентифікаційний номер",
+    "ru": "идентификационный номер",
+    "pl": "numer identyfikacyjny",
+    "de": "Ausweisnummer",
+    "fr": "numéro d'identité",
+    "es": "número de identificación",
+    "it": "numero di identificazione",
+    "pt": "número de identidade",
+    "tr": "kimlik numarası"
+   },
+   "ex": {
+    "en": "Write your ID number in this box."
+   }
+  },
+  {
+   "id": "emergency.renewal",
+   "t": {
+    "en": "renewal",
+    "uk": "продовження",
+    "ru": "продление",
+    "pl": "przedłużenie",
+    "de": "Verlängerung",
+    "fr": "renouvellement",
+    "es": "renovación",
+    "it": "rinnovo",
+    "pt": "renovação",
+    "tr": "yenileme"
+   },
+   "ex": {
+    "en": "Passport renewal takes six weeks."
+   }
+  },
+  {
+   "id": "emergency.official-document",
+   "t": {
+    "en": "official document",
+    "uk": "офіційний документ",
+    "ru": "официальный документ",
+    "pl": "dokument urzędowy",
+    "de": "amtliches Dokument",
+    "fr": "document officiel",
+    "es": "documento oficial",
+    "it": "documento ufficiale",
+    "pt": "documento oficial",
+    "tr": "resmi belge"
+   },
+   "ex": {
+    "en": "This is an official document."
+   }
+  },
+  {
+   "id": "emergency.to-issue",
+   "t": {
+    "en": "to issue",
+    "uk": "видавати",
+    "ru": "выдавать",
+    "pl": "wydawać",
+    "de": "ausstellen",
+    "fr": "délivrer",
+    "es": "expedir",
+    "it": "rilasciare",
+    "pt": "emitir",
+    "tr": "düzenlemek"
+   },
+   "ex": {
+    "en": "The office issues new passports."
+   }
+  },
+  {
+   "id": "emergency.photo-id",
+   "t": {
+    "en": "photo ID",
+    "uk": "посвідчення з фото",
+    "ru": "удостоверение с фото",
+    "pl": "dokument ze zdjęciem",
+    "de": "Lichtbildausweis",
+    "fr": "pièce d'identité avec photo",
+    "es": "documento con foto",
+    "it": "documento con foto",
+    "pt": "documento com foto",
+    "tr": "fotoğraflı kimlik"
+   },
+   "ex": {
+    "en": "Please bring a photo ID."
+   }
+  },
+  {
+   "id": "emergency.town-hall",
+   "t": {
+    "en": "town hall",
+    "uk": "міська рада",
+    "ru": "мэрия",
+    "pl": "ratusz",
+    "de": "Rathaus",
+    "fr": "mairie",
+    "es": "ayuntamiento",
+    "it": "municipio",
+    "pt": "prefeitura",
+    "tr": "belediye binası"
+   },
+   "ex": {
+    "en": "Register your address at the town hall."
+   }
+  },
+  {
+   "id": "emergency.tax-office",
+   "t": {
+    "en": "tax office",
+    "uk": "податкова інспекція",
+    "ru": "налоговая инспекция",
+    "pl": "urząd skarbowy",
+    "de": "Finanzamt",
+    "fr": "centre des impôts",
+    "es": "Agencia Tributaria",
+    "it": "Agenzia delle Entrate",
+    "pt": "Receita Federal",
+    "tr": "vergi dairesi"
+   },
+   "ex": {
+    "en": "Send the form to the tax office."
+   }
+  },
+  {
+   "id": "emergency.change-of-address",
+   "t": {
+    "en": "change of address",
+    "uk": "зміна адреси",
+    "ru": "смена адреса",
+    "pl": "zmiana adresu",
+    "de": "Adressänderung",
+    "fr": "changement d'adresse",
+    "es": "cambio de domicilio",
+    "it": "cambio di indirizzo",
+    "pt": "mudança de endereço",
+    "tr": "adres değişikliği"
+   },
+   "ex": {
+    "en": "Report a change of address within two weeks."
+   }
+  },
+  {
+   "id": "emergency.registry-office",
+   "t": {
+    "en": "registry office",
+    "uk": "РАЦС",
+    "ru": "ЗАГС",
+    "pl": "urząd stanu cywilnego",
+    "de": "Standesamt",
+    "fr": "état civil",
+    "es": "Registro Civil",
+    "it": "anagrafe",
+    "pt": "cartório",
+    "tr": "nüfus müdürlüğü"
+   },
+   "ex": {
+    "en": "They got married at the registry office."
+   }
+  },
+  {
+   "id": "emergency.flammable",
+   "t": {
+    "en": "flammable",
+    "uk": "легкозаймистий",
+    "ru": "легковоспламеняющийся",
+    "pl": "łatwopalny",
+    "de": "leicht entzündlich",
+    "fr": "inflammable",
+    "es": "inflamable",
+    "it": "infiammabile",
+    "pt": "inflamável",
+    "tr": "yanıcı"
+   },
+   "ex": {
+    "en": "Keep flammable liquids away from heat."
    }
   }
  ]

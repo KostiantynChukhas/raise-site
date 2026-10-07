@@ -2,7 +2,7 @@
  "id": "transport-a1",
  "topic": "transport",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "transport.car",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "We went the wrong way, so let's turn around."
+   }
+  },
+  {
+   "id": "transport.train-driver",
+   "t": {
+    "en": "train driver",
+    "uk": "машиніст",
+    "ru": "машинист",
+    "pl": "maszynista",
+    "de": "Lokführer",
+    "fr": "conducteur de train",
+    "es": "maquinista",
+    "it": "macchinista",
+    "pt": "maquinista",
+    "tr": "makinist"
+   },
+   "ex": {
+    "en": "My uncle is a train driver."
+   }
+  },
+  {
+   "id": "transport.by-taxi",
+   "t": {
+    "en": "by taxi",
+    "uk": "на таксі",
+    "ru": "на такси",
+    "pl": "taksówką",
+    "de": "mit dem Taxi",
+    "fr": "en taxi",
+    "es": "en taxi",
+    "it": "in taxi",
+    "pt": "de táxi",
+    "tr": "taksiyle"
+   },
+   "ex": {
+    "en": "She went home by taxi."
+   }
+  },
+  {
+   "id": "transport.to-take-the-bus",
+   "t": {
+    "en": "to take the bus",
+    "uk": "сісти на автобус",
+    "ru": "поехать на автобусе",
+    "pl": "pojechać autobusem",
+    "de": "den Bus nehmen",
+    "fr": "prendre le bus",
+    "es": "coger el autobús",
+    "it": "prendere l'autobus",
+    "pt": "pegar o ônibus",
+    "tr": "otobüse binmek"
+   },
+   "ex": {
+    "en": "I take the bus to work."
+   }
+  },
+  {
+   "id": "transport.to-take-a-taxi",
+   "t": {
+    "en": "to take a taxi",
+    "uk": "взяти таксі",
+    "ru": "взять такси",
+    "pl": "wziąć taksówkę",
+    "de": "ein Taxi nehmen",
+    "fr": "prendre un taxi",
+    "es": "coger un taxi",
+    "it": "prendere un taxi",
+    "pt": "pegar um táxi",
+    "tr": "taksiye binmek"
+   },
+   "ex": {
+    "en": "It's late, let's take a taxi."
+   }
+  },
+  {
+   "id": "transport.yellow-light",
+   "t": {
+    "en": "yellow light",
+    "uk": "жовте світло",
+    "ru": "жёлтый свет",
+    "pl": "żółte światło",
+    "de": "gelbes Licht",
+    "fr": "feu orange",
+    "es": "luz ámbar",
+    "it": "luce gialla",
+    "pt": "sinal amarelo",
+    "tr": "sarı ışık"
+   },
+   "ex": {
+    "en": "Slow down at a yellow light."
+   }
+  },
+  {
+   "id": "transport.tractor",
+   "t": {
+    "en": "tractor",
+    "uk": "трактор",
+    "ru": "трактор",
+    "pl": "traktor",
+    "de": "Traktor",
+    "fr": "tracteur",
+    "es": "tractor",
+    "it": "trattore",
+    "pt": "trator",
+    "tr": "traktör"
+   },
+   "ex": {
+    "en": "A tractor is on the road."
+   }
+  },
+  {
+   "id": "transport.metro-station",
+   "t": {
+    "en": "metro station",
+    "uk": "станція метро",
+    "ru": "станция метро",
+    "pl": "stacja metra",
+    "de": "U-Bahn-Station",
+    "fr": "station de métro",
+    "es": "estación de metro",
+    "it": "stazione della metropolitana",
+    "pt": "estação de metrô",
+    "tr": "metro istasyonu"
+   },
+   "ex": {
+    "en": "Where is the nearest metro station?"
+   }
+  },
+  {
+   "id": "transport.electric-bike",
+   "t": {
+    "en": "electric bike",
+    "uk": "електровелосипед",
+    "ru": "электровелосипед",
+    "pl": "rower elektryczny",
+    "de": "E-Bike",
+    "fr": "vélo électrique",
+    "es": "bicicleta eléctrica",
+    "it": "bici elettrica",
+    "pt": "bicicleta elétrica",
+    "tr": "elektrikli bisiklet"
+   },
+   "ex": {
+    "en": "My electric bike is very fast."
+   }
+  },
+  {
+   "id": "transport.busy-road",
+   "t": {
+    "en": "busy road",
+    "uk": "жвава дорога",
+    "ru": "оживлённая дорога",
+    "pl": "ruchliwa droga",
+    "de": "stark befahrene Straße",
+    "fr": "route fréquentée",
+    "es": "carretera con mucho tráfico",
+    "it": "strada trafficata",
+    "pt": "rua movimentada",
+    "tr": "işlek yol"
+   },
+   "ex": {
+    "en": "Don't play near the busy road."
+   }
+  },
+  {
+   "id": "transport.main-road",
+   "t": {
+    "en": "main road",
+    "uk": "головна дорога",
+    "ru": "главная дорога",
+    "pl": "główna droga",
+    "de": "Hauptstraße",
+    "fr": "route principale",
+    "es": "carretera principal",
+    "it": "strada principale",
+    "pt": "estrada principal",
+    "tr": "ana yol"
+   },
+   "ex": {
+    "en": "The hotel is on the main road."
+   }
+  },
+  {
+   "id": "transport.night-bus",
+   "t": {
+    "en": "night bus",
+    "uk": "нічний автобус",
+    "ru": "ночной автобус",
+    "pl": "autobus nocny",
+    "de": "Nachtbus",
+    "fr": "bus de nuit",
+    "es": "autobús nocturno",
+    "it": "autobus notturno",
+    "pt": "ônibus noturno",
+    "tr": "gece otobüsü"
+   },
+   "ex": {
+    "en": "We took the night bus home."
+   }
+  },
+  {
+   "id": "transport.airport-bus",
+   "t": {
+    "en": "airport bus",
+    "uk": "автобус до аеропорту",
+    "ru": "автобус в аэропорт",
+    "pl": "autobus na lotnisko",
+    "de": "Flughafenbus",
+    "fr": "bus pour l'aéroport",
+    "es": "autobús al aeropuerto",
+    "it": "autobus per l'aeroporto",
+    "pt": "ônibus para o aeroporto",
+    "tr": "havalimanı otobüsü"
+   },
+   "ex": {
+    "en": "The airport bus leaves every hour."
+   }
+  },
+  {
+   "id": "transport.electric-car",
+   "t": {
+    "en": "electric car",
+    "uk": "електромобіль",
+    "ru": "электромобиль",
+    "pl": "samochód elektryczny",
+    "de": "Elektroauto",
+    "fr": "voiture électrique",
+    "es": "coche eléctrico",
+    "it": "auto elettrica",
+    "pt": "carro elétrico",
+    "tr": "elektrikli araba"
+   },
+   "ex": {
+    "en": "They bought an electric car."
+   }
+  },
+  {
+   "id": "transport.bus-lane",
+   "t": {
+    "en": "bus lane",
+    "uk": "смуга для автобусів",
+    "ru": "автобусная полоса",
+    "pl": "buspas",
+    "de": "Busspur",
+    "fr": "voie de bus",
+    "es": "carril bus",
+    "it": "corsia preferenziale",
+    "pt": "faixa de ônibus",
+    "tr": "otobüs şeridi"
+   },
+   "ex": {
+    "en": "Cars can't drive in the bus lane."
+   }
+  },
+  {
+   "id": "transport.rowing-boat",
+   "t": {
+    "en": "rowing boat",
+    "uk": "весловий човен",
+    "ru": "вёсельная лодка",
+    "pl": "łódź wiosłowa",
+    "de": "Ruderboot",
+    "fr": "barque",
+    "es": "barca de remos",
+    "it": "barca a remi",
+    "pt": "barco a remo",
+    "tr": "kayık"
+   },
+   "ex": {
+    "en": "We rented a rowing boat on the lake."
+   }
+  },
+  {
+   "id": "transport.sailboat",
+   "t": {
+    "en": "sailboat",
+    "uk": "вітрильник",
+    "ru": "парусник",
+    "pl": "żaglówka",
+    "de": "Segelboot",
+    "fr": "voilier",
+    "es": "velero",
+    "it": "barca a vela",
+    "pt": "veleiro",
+    "tr": "yelkenli"
+   },
+   "ex": {
+    "en": "A white sailboat is in the harbour."
+   }
+  },
+  {
+   "id": "transport.car-door",
+   "t": {
+    "en": "car door",
+    "uk": "дверцята машини",
+    "ru": "дверь машины",
+    "pl": "drzwi samochodu",
+    "de": "Autotür",
+    "fr": "portière",
+    "es": "puerta del coche",
+    "it": "portiera",
+    "pt": "porta do carro",
+    "tr": "araba kapısı"
+   },
+   "ex": {
+    "en": "Close the car door, please."
+   }
+  },
+  {
+   "id": "transport.bus-number",
+   "t": {
+    "en": "bus number",
+    "uk": "номер автобуса",
+    "ru": "номер автобуса",
+    "pl": "numer autobusu",
+    "de": "Busnummer",
+    "fr": "numéro de bus",
+    "es": "número de autobús",
+    "it": "numero dell'autobus",
+    "pt": "número do ônibus",
+    "tr": "otobüs numarası"
+   },
+   "ex": {
+    "en": "What's the bus number to the zoo?"
+   }
+  },
+  {
+   "id": "transport.kick-scooter",
+   "t": {
+    "en": "kick scooter",
+    "uk": "самокат",
+    "ru": "самокат",
+    "pl": "hulajnoga",
+    "de": "Tretroller",
+    "fr": "trottinette",
+    "es": "patinete",
+    "it": "monopattino",
+    "pt": "patinete",
+    "tr": "scooter"
+   },
+   "ex": {
+    "en": "My son rides his kick scooter to school."
+   }
+  },
+  {
+   "id": "transport.ticket-price",
+   "t": {
+    "en": "ticket price",
+    "uk": "ціна квитка",
+    "ru": "цена билета",
+    "pl": "cena biletu",
+    "de": "Fahrpreis",
+    "fr": "prix du billet",
+    "es": "precio del billete",
+    "it": "prezzo del biglietto",
+    "pt": "preço da passagem",
+    "tr": "bilet fiyatı"
+   },
+   "ex": {
+    "en": "The ticket price went up again."
    }
   }
  ]

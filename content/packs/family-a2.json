@@ -2,7 +2,7 @@
  "id": "family-a2",
  "topic": "family",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "family.grandparents",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "My grandmother was a housewife."
+   }
+  },
+  {
+   "id": "family.to-have-a-baby",
+   "t": {
+    "en": "to have a baby",
+    "uk": "народити дитину",
+    "ru": "родить ребёнка",
+    "pl": "mieć dziecko",
+    "de": "ein Baby bekommen",
+    "fr": "avoir un bébé",
+    "es": "tener un bebé",
+    "it": "avere un bambino",
+    "pt": "ter um bebê",
+    "tr": "bebek sahibi olmak"
+   },
+   "ex": {
+    "en": "They're going to have a baby."
+   }
+  },
+  {
+   "id": "family.to-be-called",
+   "t": {
+    "en": "to be called",
+    "uk": "називатися",
+    "ru": "называться",
+    "pl": "nazywać się",
+    "de": "heißen",
+    "fr": "s'appeler",
+    "es": "llamarse",
+    "it": "chiamarsi",
+    "pt": "chamar-se",
+    "tr": "adı olmak"
+   },
+   "ex": {
+    "en": "My cat is called Max."
+   }
+  },
+  {
+   "id": "family.family-holiday",
+   "t": {
+    "en": "family holiday",
+    "uk": "сімейна відпустка",
+    "ru": "семейный отпуск",
+    "pl": "rodzinne wakacje",
+    "de": "Familienurlaub",
+    "fr": "vacances en famille",
+    "es": "vacaciones en familia",
+    "it": "vacanza in famiglia",
+    "pt": "férias em família",
+    "tr": "aile tatili"
+   },
+   "ex": {
+    "en": "Our family holiday was in Spain."
+   }
+  },
+  {
+   "id": "family.to-visit-relatives",
+   "t": {
+    "en": "to visit relatives",
+    "uk": "відвідувати родичів",
+    "ru": "навещать родственников",
+    "pl": "odwiedzać krewnych",
+    "de": "Verwandte besuchen",
+    "fr": "rendre visite à la famille",
+    "es": "visitar a los parientes",
+    "it": "andare a trovare i parenti",
+    "pt": "visitar os parentes",
+    "tr": "akrabaları ziyaret etmek"
+   },
+   "ex": {
+    "en": "We visit relatives at Christmas."
+   }
+  },
+  {
+   "id": "family.grandchild",
+   "t": {
+    "en": "grandchild",
+    "uk": "онук",
+    "ru": "внук",
+    "pl": "wnuk",
+    "de": "Enkelkind",
+    "fr": "petit-enfant",
+    "es": "nieto",
+    "it": "nipote",
+    "pt": "neto",
+    "tr": "torun"
+   },
+   "ex": {
+    "en": "She has her first grandchild."
+   }
+  },
+  {
+   "id": "family.great-grandparents",
+   "t": {
+    "en": "great-grandparents",
+    "uk": "прадіди",
+    "ru": "прабабушки и прадедушки",
+    "pl": "pradziadkowie",
+    "de": "Urgroßeltern",
+    "fr": "arrière-grands-parents",
+    "es": "bisabuelos",
+    "it": "bisnonni",
+    "pt": "bisavós",
+    "tr": "büyük dede ve büyük nine"
+   },
+   "ex": {
+    "en": "My great-grandparents were farmers."
+   }
+  },
+  {
+   "id": "family.to-raise",
+   "t": {
+    "en": "to raise",
+    "uk": "виховувати",
+    "ru": "воспитывать",
+    "pl": "wychowywać",
+    "de": "großziehen",
+    "fr": "élever",
+    "es": "criar",
+    "it": "crescere",
+    "pt": "criar",
+    "tr": "yetiştirmek"
+   },
+   "ex": {
+    "en": "They raised four children."
+   }
+  },
+  {
+   "id": "family.bedtime-story",
+   "t": {
+    "en": "bedtime story",
+    "uk": "казка на ніч",
+    "ru": "сказка на ночь",
+    "pl": "bajka na dobranoc",
+    "de": "Gutenachtgeschichte",
+    "fr": "histoire du soir",
+    "es": "cuento para dormir",
+    "it": "favola della buonanotte",
+    "pt": "história para dormir",
+    "tr": "uyku masalı"
+   },
+   "ex": {
+    "en": "Dad reads me a bedtime story."
+   }
+  },
+  {
+   "id": "family.middle-name",
+   "t": {
+    "en": "middle name",
+    "uk": "друге ім'я",
+    "ru": "второе имя",
+    "pl": "drugie imię",
+    "de": "zweiter Vorname",
+    "fr": "deuxième prénom",
+    "es": "segundo nombre",
+    "it": "secondo nome",
+    "pt": "nome do meio",
+    "tr": "göbek adı"
+   },
+   "ex": {
+    "en": "What's your middle name?"
+   }
+  },
+  {
+   "id": "family.eldest",
+   "t": {
+    "en": "eldest",
+    "uk": "найстарший",
+    "ru": "самый старший",
+    "pl": "najstarszy",
+    "de": "älteste",
+    "fr": "aîné",
+    "es": "el mayor",
+    "it": "il maggiore",
+    "pt": "o mais velho",
+    "tr": "en büyük"
+   },
+   "ex": {
+    "en": "She is the eldest of five."
+   }
+  },
+  {
+   "id": "family.youngest",
+   "t": {
+    "en": "youngest",
+    "uk": "наймолодший",
+    "ru": "самый младший",
+    "pl": "najmłodszy",
+    "de": "jüngste",
+    "fr": "cadet",
+    "es": "el menor",
+    "it": "il più piccolo",
+    "pt": "caçula",
+    "tr": "en küçük"
+   },
+   "ex": {
+    "en": "I'm the youngest in my family."
+   }
+  },
+  {
+   "id": "family.middle-child",
+   "t": {
+    "en": "middle child",
+    "uk": "середня дитина",
+    "ru": "средний ребёнок",
+    "pl": "środkowe dziecko",
+    "de": "mittleres Kind",
+    "fr": "enfant du milieu",
+    "es": "hijo mediano",
+    "it": "figlio di mezzo",
+    "pt": "filho do meio",
+    "tr": "ortanca çocuk"
+   },
+   "ex": {
+    "en": "Being the middle child is hard."
+   }
+  },
+  {
+   "id": "family.newborn",
+   "t": {
+    "en": "newborn",
+    "uk": "новонароджений",
+    "ru": "новорождённый",
+    "pl": "noworodek",
+    "de": "Neugeborenes",
+    "fr": "nouveau-né",
+    "es": "recién nacido",
+    "it": "neonato",
+    "pt": "recém-nascido",
+    "tr": "yenidoğan"
+   },
+   "ex": {
+    "en": "Newborns sleep a lot."
+   }
+  },
+  {
+   "id": "family.serious",
+   "t": {
+    "en": "serious",
+    "uk": "серйозний",
+    "ru": "серьёзный",
+    "pl": "poważny",
+    "de": "ernst",
+    "fr": "sérieux",
+    "es": "serio",
+    "it": "serio",
+    "pt": "sério",
+    "tr": "ciddi"
+   },
+   "ex": {
+    "en": "My father is very serious."
+   }
+  },
+  {
+   "id": "family.wavy-hair",
+   "t": {
+    "en": "wavy hair",
+    "uk": "хвилясте волосся",
+    "ru": "волнистые волосы",
+    "pl": "falowane włosy",
+    "de": "welliges Haar",
+    "fr": "cheveux ondulés",
+    "es": "pelo ondulado",
+    "it": "capelli mossi",
+    "pt": "cabelo ondulado",
+    "tr": "dalgalı saç"
+   },
+   "ex": {
+    "en": "She has long wavy hair."
+   }
+  },
+  {
+   "id": "family.blue-eyed",
+   "t": {
+    "en": "blue-eyed",
+    "uk": "блакитноокий",
+    "ru": "голубоглазый",
+    "pl": "niebieskooki",
+    "de": "blauäugig",
+    "fr": "aux yeux bleus",
+    "es": "de ojos azules",
+    "it": "dagli occhi azzurri",
+    "pt": "de olhos azuis",
+    "tr": "mavi gözlü"
+   },
+   "ex": {
+    "en": "A blue-eyed baby smiled at me."
+   }
+  },
+  {
+   "id": "family.ugly",
+   "t": {
+    "en": "ugly",
+    "uk": "потворний",
+    "ru": "некрасивый",
+    "pl": "brzydki",
+    "de": "hässlich",
+    "fr": "laid",
+    "es": "feo",
+    "it": "brutto",
+    "pt": "feio",
+    "tr": "çirkin"
+   },
+   "ex": {
+    "en": "The duckling wasn't really ugly."
+   }
+  },
+  {
+   "id": "family.to-tell-stories",
+   "t": {
+    "en": "to tell stories",
+    "uk": "розповідати історії",
+    "ru": "рассказывать истории",
+    "pl": "opowiadać historie",
+    "de": "Geschichten erzählen",
+    "fr": "raconter des histoires",
+    "es": "contar historias",
+    "it": "raccontare storie",
+    "pt": "contar histórias",
+    "tr": "hikâye anlatmak"
+   },
+   "ex": {
+    "en": "Grandpa loves to tell stories."
+   }
+  },
+  {
+   "id": "family.to-look-young",
+   "t": {
+    "en": "to look young",
+    "uk": "виглядати молодо",
+    "ru": "выглядеть молодо",
+    "pl": "wyglądać młodo",
+    "de": "jung aussehen",
+    "fr": "faire jeune",
+    "es": "parecer joven",
+    "it": "sembrare giovane",
+    "pt": "parecer jovem",
+    "tr": "genç görünmek"
+   },
+   "ex": {
+    "en": "Your mum looks young!"
+   }
+  },
+  {
+   "id": "family.to-be-the-same-age",
+   "t": {
+    "en": "to be the same age",
+    "uk": "бути одного віку",
+    "ru": "быть ровесниками",
+    "pl": "być w tym samym wieku",
+    "de": "gleich alt sein",
+    "fr": "avoir le même âge",
+    "es": "tener la misma edad",
+    "it": "avere la stessa età",
+    "pt": "ter a mesma idade",
+    "tr": "aynı yaşta olmak"
+   },
+   "ex": {
+    "en": "We are the same age."
+   }
+  },
+  {
+   "id": "family.to-look-old",
+   "t": {
+    "en": "to look old",
+    "uk": "виглядати старим",
+    "ru": "выглядеть старым",
+    "pl": "wyglądać staro",
+    "de": "alt aussehen",
+    "fr": "faire vieux",
+    "es": "parecer mayor",
+    "it": "sembrare vecchio",
+    "pt": "parecer velho",
+    "tr": "yaşlı görünmek"
+   },
+   "ex": {
+    "en": "He looks old for his age."
+   }
+  },
+  {
+   "id": "family.to-share-a-room",
+   "t": {
+    "en": "to share a room",
+    "uk": "жити в одній кімнаті",
+    "ru": "жить в одной комнате",
+    "pl": "dzielić pokój",
+    "de": "sich ein Zimmer teilen",
+    "fr": "partager une chambre",
+    "es": "compartir habitación",
+    "it": "condividere la stanza",
+    "pt": "dividir o quarto",
+    "tr": "aynı odayı paylaşmak"
+   },
+   "ex": {
+    "en": "I share a room with my sister."
+   }
+  },
+  {
+   "id": "family.family-friend",
+   "t": {
+    "en": "family friend",
+    "uk": "друг сім'ї",
+    "ru": "друг семьи",
+    "pl": "przyjaciel rodziny",
+    "de": "Freund der Familie",
+    "fr": "ami de la famille",
+    "es": "amigo de la familia",
+    "it": "amico di famiglia",
+    "pt": "amigo da família",
+    "tr": "aile dostu"
+   },
+   "ex": {
+    "en": "He's an old family friend."
+   }
+  },
+  {
+   "id": "family.only-son",
+   "t": {
+    "en": "only son",
+    "uk": "єдиний син",
+    "ru": "единственный сын",
+    "pl": "jedyny syn",
+    "de": "einziger Sohn",
+    "fr": "fils unique",
+    "es": "hijo único",
+    "it": "figlio unico",
+    "pt": "filho único",
+    "tr": "tek oğul"
+   },
+   "ex": {
+    "en": "He is their only son."
+   }
+  },
+  {
+   "id": "family.to-be-alike",
+   "t": {
+    "en": "to be alike",
+    "uk": "бути схожими",
+    "ru": "быть похожими",
+    "pl": "być podobnym",
+    "de": "sich ähneln",
+    "fr": "se ressembler",
+    "es": "parecerse",
+    "it": "somigliarsi",
+    "pt": "ser parecidos",
+    "tr": "birbirine benzemek"
+   },
+   "ex": {
+    "en": "The twins are very alike."
+   }
+  },
+  {
+   "id": "family.family-trip",
+   "t": {
+    "en": "family trip",
+    "uk": "сімейна поїздка",
+    "ru": "семейная поездка",
+    "pl": "rodzinna wycieczka",
+    "de": "Familienausflug",
+    "fr": "sortie en famille",
+    "es": "excursión familiar",
+    "it": "gita in famiglia",
+    "pt": "passeio em família",
+    "tr": "aile gezisi"
+   },
+   "ex": {
+    "en": "We went on a family trip."
+   }
+  },
+  {
+   "id": "family.the-whole-family",
+   "t": {
+    "en": "the whole family",
+    "uk": "уся сім'я",
+    "ru": "вся семья",
+    "pl": "cała rodzina",
+    "de": "die ganze Familie",
+    "fr": "toute la famille",
+    "es": "toda la familia",
+    "it": "tutta la famiglia",
+    "pt": "a família toda",
+    "tr": "bütün aile"
+   },
+   "ex": {
+    "en": "The whole family came for dinner."
+   }
+  },
+  {
+   "id": "family.to-have-a-son",
+   "t": {
+    "en": "to have a son",
+    "uk": "мати сина",
+    "ru": "иметь сына",
+    "pl": "mieć syna",
+    "de": "einen Sohn haben",
+    "fr": "avoir un fils",
+    "es": "tener un hijo",
+    "it": "avere un figlio",
+    "pt": "ter um filho",
+    "tr": "oğlu olmak"
+   },
+   "ex": {
+    "en": "They have a son in Canada."
+   }
+  },
+  {
+   "id": "family.to-have-a-daughter",
+   "t": {
+    "en": "to have a daughter",
+    "uk": "мати доньку",
+    "ru": "иметь дочь",
+    "pl": "mieć córkę",
+    "de": "eine Tochter haben",
+    "fr": "avoir une fille",
+    "es": "tener una hija",
+    "it": "avere una figlia",
+    "pt": "ter uma filha",
+    "tr": "kızı olmak"
+   },
+   "ex": {
+    "en": "She has a daughter at university."
+   }
+  },
+  {
+   "id": "family.baby-brother",
+   "t": {
+    "en": "baby brother",
+    "uk": "молодший братик",
+    "ru": "младший братик",
+    "pl": "młodszy braciszek",
+    "de": "kleiner Bruder",
+    "fr": "petit frère",
+    "es": "hermanito",
+    "it": "fratellino",
+    "pt": "irmãozinho",
+    "tr": "küçük erkek kardeş"
+   },
+   "ex": {
+    "en": "I have a baby brother now!"
    }
   }
  ]

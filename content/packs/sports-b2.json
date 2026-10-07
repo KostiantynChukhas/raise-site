@@ -2,7 +2,7 @@
  "id": "sports-b2",
  "topic": "sports",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "sports.sportsmanship",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "They are dangerous from set pieces."
+   }
+  },
+  {
+   "id": "sports.crossbar",
+   "t": {
+    "en": "crossbar",
+    "uk": "поперечина",
+    "ru": "перекладина",
+    "pl": "poprzeczka",
+    "de": "Latte",
+    "fr": "barre transversale",
+    "es": "larguero",
+    "it": "traversa",
+    "pt": "travessão",
+    "tr": "üst direk"
+   },
+   "ex": {
+    "en": "The ball hit the crossbar."
+   }
+  },
+  {
+   "id": "sports.goal-difference",
+   "t": {
+    "en": "goal difference",
+    "uk": "різниця м'ячів",
+    "ru": "разница мячей",
+    "pl": "różnica bramek",
+    "de": "Tordifferenz",
+    "fr": "différence de buts",
+    "es": "diferencia de goles",
+    "it": "differenza reti",
+    "pt": "saldo de gols",
+    "tr": "averaj"
+   },
+   "ex": {
+    "en": "They won the league on goal difference."
+   }
+  },
+  {
+   "id": "sports.assist",
+   "t": {
+    "en": "assist",
+    "uk": "результативна передача",
+    "ru": "голевая передача",
+    "pl": "asysta",
+    "de": "Vorlage",
+    "fr": "passe décisive",
+    "es": "asistencia",
+    "it": "assist",
+    "pt": "assistência",
+    "tr": "asist"
+   },
+   "ex": {
+    "en": "He had two goals and an assist."
+   }
+  },
+  {
+   "id": "sports.squad",
+   "t": {
+    "en": "squad",
+    "uk": "склад команди",
+    "ru": "состав команды",
+    "pl": "kadra",
+    "de": "Kader",
+    "fr": "effectif",
+    "es": "plantilla",
+    "it": "rosa",
+    "pt": "elenco",
+    "tr": "kadro"
+   },
+   "ex": {
+    "en": "He was left out of the squad."
+   }
+  },
+  {
+   "id": "sports.to-sign-a-player",
+   "t": {
+    "en": "to sign a player",
+    "uk": "підписати гравця",
+    "ru": "подписать игрока",
+    "pl": "pozyskać zawodnika",
+    "de": "einen Spieler verpflichten",
+    "fr": "recruter un joueur",
+    "es": "fichar a un jugador",
+    "it": "ingaggiare un giocatore",
+    "pt": "contratar um jogador",
+    "tr": "oyuncu transfer etmek"
+   },
+   "ex": {
+    "en": "The club wants to sign a new player."
+   }
+  },
+  {
+   "id": "sports.hamstring",
+   "t": {
+    "en": "hamstring",
+    "uk": "задній м'яз стегна",
+    "ru": "задняя мышца бедра",
+    "pl": "mięsień dwugłowy uda",
+    "de": "hintere Oberschenkelmuskulatur",
+    "fr": "ischio-jambiers",
+    "es": "isquiotibiales",
+    "it": "bicipite femorale",
+    "pt": "posterior da coxa",
+    "tr": "arka uyluk kası"
+   },
+   "ex": {
+    "en": "He has a hamstring injury."
+   }
+  },
+  {
+   "id": "sports.physio",
+   "t": {
+    "en": "physio",
+    "uk": "фізіотерапевт",
+    "ru": "физиотерапевт",
+    "pl": "fizjoterapeuta",
+    "de": "Physiotherapeut",
+    "fr": "kiné",
+    "es": "fisio",
+    "it": "fisioterapista",
+    "pt": "fisioterapeuta",
+    "tr": "fizyoterapist"
+   },
+   "ex": {
+    "en": "The physio ran onto the pitch."
+   }
+  },
+  {
+   "id": "sports.athletic",
+   "t": {
+    "en": "athletic",
+    "uk": "спортивний",
+    "ru": "спортивный",
+    "pl": "wysportowany",
+    "de": "sportlich",
+    "fr": "sportif",
+    "es": "atlético",
+    "it": "atletico",
+    "pt": "atlético",
+    "tr": "atletik"
+   },
+   "ex": {
+    "en": "He has an athletic build."
+   }
+  },
+  {
+   "id": "sports.unbeaten",
+   "t": {
+    "en": "unbeaten",
+    "uk": "непереможний",
+    "ru": "непобеждённый",
+    "pl": "niepokonany",
+    "de": "ungeschlagen",
+    "fr": "invaincu",
+    "es": "invicto",
+    "it": "imbattuto",
+    "pt": "invicto",
+    "tr": "yenilgisiz"
+   },
+   "ex": {
+    "en": "They are unbeaten in ten games."
+   }
+  },
+  {
+   "id": "sports.to-retain-the-title",
+   "t": {
+    "en": "to retain the title",
+    "uk": "захистити титул",
+    "ru": "защитить титул",
+    "pl": "obronić tytuł",
+    "de": "den Titel verteidigen",
+    "fr": "conserver son titre",
+    "es": "revalidar el título",
+    "it": "difendere il titolo",
+    "pt": "manter o título",
+    "tr": "şampiyonluğu korumak"
+   },
+   "ex": {
+    "en": "Can she retain the title this year?"
+   }
+  },
+  {
+   "id": "sports.narrow-victory",
+   "t": {
+    "en": "narrow victory",
+    "uk": "мінімальна перемога",
+    "ru": "минимальная победа",
+    "pl": "nieznaczne zwycięstwo",
+    "de": "knapper Sieg",
+    "fr": "courte victoire",
+    "es": "victoria ajustada",
+    "it": "vittoria di misura",
+    "pt": "vitória apertada",
+    "tr": "kıl payı galibiyet"
+   },
+   "ex": {
+    "en": "It was a narrow victory, one–nil."
+   }
+  },
+  {
+   "id": "sports.crushing-defeat",
+   "t": {
+    "en": "crushing defeat",
+    "uk": "нищівна поразка",
+    "ru": "сокрушительное поражение",
+    "pl": "miażdżąca porażka",
+    "de": "vernichtende Niederlage",
+    "fr": "défaite écrasante",
+    "es": "derrota aplastante",
+    "it": "sconfitta schiacciante",
+    "pt": "derrota esmagadora",
+    "tr": "ağır yenilgi"
+   },
+   "ex": {
+    "en": "They suffered a crushing defeat."
+   }
+  },
+  {
+   "id": "sports.to-take-the-lead",
+   "t": {
+    "en": "to take the lead",
+    "uk": "вийти вперед",
+    "ru": "выйти вперёд",
+    "pl": "objąć prowadzenie",
+    "de": "in Führung gehen",
+    "fr": "prendre l'avantage",
+    "es": "ponerse por delante",
+    "it": "passare in vantaggio",
+    "pt": "passar à frente",
+    "tr": "öne geçmek"
+   },
+   "ex": {
+    "en": "We took the lead in the tenth minute."
+   }
+  },
+  {
+   "id": "sports.possession",
+   "t": {
+    "en": "possession",
+    "uk": "володіння м'ячем",
+    "ru": "владение мячом",
+    "pl": "posiadanie piłki",
+    "de": "Ballbesitz",
+    "fr": "possession",
+    "es": "posesión",
+    "it": "possesso palla",
+    "pt": "posse de bola",
+    "tr": "topa sahip olma"
+   },
+   "ex": {
+    "en": "They had seventy percent possession."
+   }
+  },
+  {
+   "id": "sports.formation",
+   "t": {
+    "en": "formation",
+    "uk": "тактична схема",
+    "ru": "расстановка",
+    "pl": "ustawienie",
+    "de": "Formation",
+    "fr": "dispositif",
+    "es": "esquema táctico",
+    "it": "modulo",
+    "pt": "esquema tático",
+    "tr": "diziliş"
+   },
+   "ex": {
+    "en": "The coach changed the formation."
+   }
+  },
+  {
+   "id": "sports.winger",
+   "t": {
+    "en": "winger",
+    "uk": "крайній півзахисник",
+    "ru": "крайний полузащитник",
+    "pl": "skrzydłowy",
+    "de": "Flügelspieler",
+    "fr": "ailier",
+    "es": "extremo",
+    "it": "ala",
+    "pt": "ponta",
+    "tr": "kanat oyuncusu"
+   },
+   "ex": {
+    "en": "The winger crossed the ball."
+   }
+  },
+  {
+   "id": "sports.captains-armband",
+   "t": {
+    "en": "captain's armband",
+    "uk": "капітанська пов'язка",
+    "ru": "капитанская повязка",
+    "pl": "opaska kapitańska",
+    "de": "Kapitänsbinde",
+    "fr": "brassard de capitaine",
+    "es": "brazalete de capitán",
+    "it": "fascia da capitano",
+    "pt": "braçadeira de capitão",
+    "tr": "kaptanlık pazubandı"
+   },
+   "ex": {
+    "en": "He wore the captain's armband."
+   }
+  },
+  {
+   "id": "sports.shin-guards",
+   "t": {
+    "en": "shin guards",
+    "uk": "щитки",
+    "ru": "щитки",
+    "pl": "nagolenniki",
+    "de": "Schienbeinschoner",
+    "fr": "protège-tibias",
+    "es": "espinilleras",
+    "it": "parastinchi",
+    "pt": "caneleiras",
+    "tr": "tekmelik"
+   },
+   "ex": {
+    "en": "Don't play without shin guards."
+   }
+  },
+  {
+   "id": "sports.mouthguard",
+   "t": {
+    "en": "mouthguard",
+    "uk": "капа",
+    "ru": "капа",
+    "pl": "ochraniacz na zęby",
+    "de": "Mundschutz",
+    "fr": "protège-dents",
+    "es": "protector bucal",
+    "it": "paradenti",
+    "pt": "protetor bucal",
+    "tr": "dişlik"
+   },
+   "ex": {
+    "en": "Boxers always wear a mouthguard."
+   }
+  },
+  {
+   "id": "sports.core-strength",
+   "t": {
+    "en": "core strength",
+    "uk": "сила м'язів кору",
+    "ru": "сила мышц кора",
+    "pl": "siła mięśni głębokich",
+    "de": "Rumpfkraft",
+    "fr": "force du tronc",
+    "es": "fuerza del core",
+    "it": "forza del core",
+    "pt": "força do core",
+    "tr": "core gücü"
+   },
+   "ex": {
+    "en": "Pilates improves core strength."
+   }
+  },
+  {
+   "id": "sports.body-fat",
+   "t": {
+    "en": "body fat",
+    "uk": "жирова маса",
+    "ru": "жировая масса",
+    "pl": "tkanka tłuszczowa",
+    "de": "Körperfett",
+    "fr": "masse grasse",
+    "es": "grasa corporal",
+    "it": "grasso corporeo",
+    "pt": "gordura corporal",
+    "tr": "vücut yağı"
+   },
+   "ex": {
+    "en": "He wants to reduce his body fat."
+   }
+  },
+  {
+   "id": "sports.muscle-mass",
+   "t": {
+    "en": "muscle mass",
+    "uk": "м'язова маса",
+    "ru": "мышечная масса",
+    "pl": "masa mięśniowa",
+    "de": "Muskelmasse",
+    "fr": "masse musculaire",
+    "es": "masa muscular",
+    "it": "massa muscolare",
+    "pt": "massa muscular",
+    "tr": "kas kütlesi"
+   },
+   "ex": {
+    "en": "You lose muscle mass as you age."
+   }
+  },
+  {
+   "id": "sports.to-build-muscle",
+   "t": {
+    "en": "to build muscle",
+    "uk": "нарощувати м'язи",
+    "ru": "наращивать мышцы",
+    "pl": "budować mięśnie",
+    "de": "Muskeln aufbauen",
+    "fr": "se muscler",
+    "es": "ganar músculo",
+    "it": "mettere su muscoli",
+    "pt": "ganhar massa muscular",
+    "tr": "kas yapmak"
+   },
+   "ex": {
+    "en": "Protein helps you build muscle."
+   }
+  },
+  {
+   "id": "sports.high-intensity",
+   "t": {
+    "en": "high-intensity",
+    "uk": "високоінтенсивний",
+    "ru": "высокоинтенсивный",
+    "pl": "o wysokiej intensywności",
+    "de": "hochintensiv",
+    "fr": "à haute intensité",
+    "es": "de alta intensidad",
+    "it": "ad alta intensità",
+    "pt": "de alta intensidade",
+    "tr": "yüksek yoğunluklu"
+   },
+   "ex": {
+    "en": "I prefer high-intensity workouts."
+   }
+  },
+  {
+   "id": "sports.record-holder",
+   "t": {
+    "en": "record holder",
+    "uk": "рекордсмен",
+    "ru": "рекордсмен",
+    "pl": "rekordzista",
+    "de": "Rekordhalter",
+    "fr": "détenteur du record",
+    "es": "plusmarquista",
+    "it": "primatista",
+    "pt": "recordista",
+    "tr": "rekortmen"
+   },
+   "ex": {
+    "en": "She is the national record holder."
+   }
+  },
+  {
+   "id": "sports.heavyweight",
+   "t": {
+    "en": "heavyweight",
+    "uk": "важковаговик",
+    "ru": "тяжеловес",
+    "pl": "zawodnik wagi ciężkiej",
+    "de": "Schwergewicht",
+    "fr": "poids lourd",
+    "es": "peso pesado",
+    "it": "peso massimo",
+    "pt": "peso-pesado",
+    "tr": "ağır sıklet"
+   },
+   "ex": {
+    "en": "He became heavyweight champion."
+   }
+  },
+  {
+   "id": "sports.to-be-sent-off",
+   "t": {
+    "en": "to be sent off",
+    "uk": "бути вилученим з поля",
+    "ru": "быть удалённым с поля",
+    "pl": "zostać wyrzuconym z boiska",
+    "de": "vom Platz gestellt werden",
+    "fr": "être expulsé",
+    "es": "ser expulsado",
+    "it": "essere espulso",
+    "pt": "ser expulso",
+    "tr": "oyundan atılmak"
+   },
+   "ex": {
+    "en": "He was sent off for a bad tackle."
+   }
+  },
+  {
+   "id": "sports.derby",
+   "t": {
+    "en": "derby",
+    "uk": "дербі",
+    "ru": "дерби",
+    "pl": "derby",
+    "de": "Derby",
+    "fr": "derby",
+    "es": "derbi",
+    "it": "derby",
+    "pt": "clássico",
+    "tr": "derbi"
+   },
+   "ex": {
+    "en": "The city derby is always exciting."
+   }
+  },
+  {
+   "id": "sports.rival",
+   "t": {
+    "en": "rival",
+    "uk": "суперник",
+    "ru": "соперник",
+    "pl": "rywal",
+    "de": "Rivale",
+    "fr": "rival",
+    "es": "rival",
+    "it": "rivale",
+    "pt": "rival",
+    "tr": "rakip"
+   },
+   "ex": {
+    "en": "They beat their old rivals."
+   }
+  },
+  {
+   "id": "sports.rivalry",
+   "t": {
+    "en": "rivalry",
+    "uk": "суперництво",
+    "ru": "соперничество",
+    "pl": "rywalizacja",
+    "de": "Rivalität",
+    "fr": "rivalité",
+    "es": "rivalidad",
+    "it": "rivalità",
+    "pt": "rivalidade",
+    "tr": "rekabet"
+   },
+   "ex": {
+    "en": "The rivalry between the clubs is famous."
+   }
+  },
+  {
+   "id": "sports.prize-money",
+   "t": {
+    "en": "prize money",
+    "uk": "призові",
+    "ru": "призовые",
+    "pl": "nagroda pieniężna",
+    "de": "Preisgeld",
+    "fr": "dotation",
+    "es": "premio en metálico",
+    "it": "montepremi",
+    "pt": "premiação em dinheiro",
+    "tr": "para ödülü"
+   },
+   "ex": {
+    "en": "The prize money is one million dollars."
+   }
+  },
+  {
+   "id": "sports.decathlon",
+   "t": {
+    "en": "decathlon",
+    "uk": "десятиборство",
+    "ru": "десятиборье",
+    "pl": "dziesięciobój",
+    "de": "Zehnkampf",
+    "fr": "décathlon",
+    "es": "decatlón",
+    "it": "decathlon",
+    "pt": "decatlo",
+    "tr": "dekatlon"
+   },
+   "ex": {
+    "en": "The decathlon has ten events."
+   }
+  },
+  {
+   "id": "sports.pole-vault",
+   "t": {
+    "en": "pole vault",
+    "uk": "стрибки з жердиною",
+    "ru": "прыжки с шестом",
+    "pl": "skok o tyczce",
+    "de": "Stabhochsprung",
+    "fr": "saut à la perche",
+    "es": "salto con pértiga",
+    "it": "salto con l'asta",
+    "pt": "salto com vara",
+    "tr": "sırıkla atlama"
+   },
+   "ex": {
+    "en": "He set a record in the pole vault."
+   }
+  },
+  {
+   "id": "sports.javelin-throw",
+   "t": {
+    "en": "javelin throw",
+    "uk": "метання списа",
+    "ru": "метание копья",
+    "pl": "rzut oszczepem",
+    "de": "Speerwurf",
+    "fr": "lancer du javelot",
+    "es": "lanzamiento de jabalina",
+    "it": "lancio del giavellotto",
+    "pt": "lançamento de dardo",
+    "tr": "cirit atma"
+   },
+   "ex": {
+    "en": "She won gold in the javelin throw."
+   }
+  },
+  {
+   "id": "sports.shot-put",
+   "t": {
+    "en": "shot put",
+    "uk": "штовхання ядра",
+    "ru": "толкание ядра",
+    "pl": "pchnięcie kulą",
+    "de": "Kugelstoßen",
+    "fr": "lancer du poids",
+    "es": "lanzamiento de peso",
+    "it": "getto del peso",
+    "pt": "arremesso de peso",
+    "tr": "gülle atma"
+   },
+   "ex": {
+    "en": "The shot put needs strong arms."
+   }
+  },
+  {
+   "id": "sports.to-withdraw",
+   "t": {
+    "en": "to withdraw",
+    "uk": "знятися зі змагань",
+    "ru": "сняться с соревнований",
+    "pl": "wycofać się",
+    "de": "sich zurückziehen",
+    "fr": "déclarer forfait",
+    "es": "retirarse",
+    "it": "ritirarsi",
+    "pt": "desistir",
+    "tr": "yarıştan çekilmek"
+   },
+   "ex": {
+    "en": "She had to withdraw because of injury."
+   }
+  },
+  {
+   "id": "sports.foam-roller",
+   "t": {
+    "en": "foam roller",
+    "uk": "масажний ролик",
+    "ru": "массажный ролик",
+    "pl": "roller do masażu",
+    "de": "Faszienrolle",
+    "fr": "rouleau de massage",
+    "es": "rodillo de espuma",
+    "it": "rullo massaggiante",
+    "pt": "rolo de liberação",
+    "tr": "köpük rulo"
+   },
+   "ex": {
+    "en": "Use a foam roller after running."
+   }
+  },
+  {
+   "id": "sports.resistance-band",
+   "t": {
+    "en": "resistance band",
+    "uk": "фітнес-резинка",
+    "ru": "фитнес-резинка",
+    "pl": "guma oporowa",
+    "de": "Widerstandsband",
+    "fr": "bande élastique",
+    "es": "banda elástica",
+    "it": "banda elastica",
+    "pt": "faixa elástica",
+    "tr": "direnç bandı"
+   },
+   "ex": {
+    "en": "I train with a resistance band at home."
+   }
+  },
+  {
+   "id": "sports.bodyweight-exercise",
+   "t": {
+    "en": "bodyweight exercise",
+    "uk": "вправа з власною вагою",
+    "ru": "упражнение с собственным весом",
+    "pl": "ćwiczenie z masą ciała",
+    "de": "Übung mit Körpergewicht",
+    "fr": "exercice au poids du corps",
+    "es": "ejercicio con peso corporal",
+    "it": "esercizio a corpo libero",
+    "pt": "exercício com peso corporal",
+    "tr": "vücut ağırlığı egzersizi"
+   },
+   "ex": {
+    "en": "A push-up is a bodyweight exercise."
+   }
+  },
+  {
+   "id": "sports.sprinter",
+   "t": {
+    "en": "sprinter",
+    "uk": "спринтер",
+    "ru": "спринтер",
+    "pl": "sprinter",
+    "de": "Sprinter",
+    "fr": "sprinteur",
+    "es": "velocista",
+    "it": "velocista",
+    "pt": "velocista",
+    "tr": "kısa mesafe koşucusu"
+   },
+   "ex": {
+    "en": "He is the fastest sprinter in Europe."
+   }
+  },
+  {
+   "id": "sports.long-distance-runner",
+   "t": {
+    "en": "long-distance runner",
+    "uk": "бігун на довгі дистанції",
+    "ru": "бегун на длинные дистанции",
+    "pl": "długodystansowiec",
+    "de": "Langstreckenläufer",
+    "fr": "coureur de fond",
+    "es": "corredor de fondo",
+    "it": "fondista",
+    "pt": "fundista",
+    "tr": "uzun mesafe koşucusu"
+   },
+   "ex": {
+    "en": "Long-distance runners need great endurance."
+   }
+  },
+  {
+   "id": "sports.penalty-area",
+   "t": {
+    "en": "penalty area",
+    "uk": "штрафний майданчик",
+    "ru": "штрафная площадь",
+    "pl": "pole karne",
+    "de": "Strafraum",
+    "fr": "surface de réparation",
+    "es": "área de penalti",
+    "it": "area di rigore",
+    "pt": "grande área",
+    "tr": "ceza sahası"
+   },
+   "ex": {
+    "en": "He was fouled in the penalty area."
+   }
+  },
+  {
+   "id": "sports.away-fans",
+   "t": {
+    "en": "away fans",
+    "uk": "вболівальники гостей",
+    "ru": "болельщики гостей",
+    "pl": "kibice gości",
+    "de": "Gästefans",
+    "fr": "supporters visiteurs",
+    "es": "afición visitante",
+    "it": "tifosi ospiti",
+    "pt": "torcida visitante",
+    "tr": "deplasman taraftarı"
+   },
+   "ex": {
+    "en": "The away fans sang all match."
+   }
+  },
+  {
+   "id": "sports.mascot",
+   "t": {
+    "en": "mascot",
+    "uk": "талісман",
+    "ru": "талисман",
+    "pl": "maskotka",
+    "de": "Maskottchen",
+    "fr": "mascotte",
+    "es": "mascota",
+    "it": "mascotte",
+    "pt": "mascote",
+    "tr": "maskot"
+   },
+   "ex": {
+    "en": "The team mascot is a lion."
+   }
+  },
+  {
+   "id": "sports.playoffs",
+   "t": {
+    "en": "playoffs",
+    "uk": "плей-оф",
+    "ru": "плей-офф",
+    "pl": "faza play-off",
+    "de": "Play-offs",
+    "fr": "play-offs",
+    "es": "eliminatorias",
+    "it": "play-off",
+    "pt": "mata-mata",
+    "tr": "play-off"
+   },
+   "ex": {
+    "en": "They reached the playoffs again."
+   }
+  },
+  {
+   "id": "sports.goalless-draw",
+   "t": {
+    "en": "goalless draw",
+    "uk": "нульова нічия",
+    "ru": "нулевая ничья",
+    "pl": "bezbramkowy remis",
+    "de": "torloses Unentschieden",
+    "fr": "match nul sans but",
+    "es": "empate sin goles",
+    "it": "pareggio senza reti",
+    "pt": "empate sem gols",
+    "tr": "golsüz beraberlik"
+   },
+   "ex": {
+    "en": "The game ended in a goalless draw."
+   }
+  },
+  {
+   "id": "sports.match-point",
+   "t": {
+    "en": "match point",
+    "uk": "матч-бол",
+    "ru": "матчбол",
+    "pl": "piłka meczowa",
+    "de": "Matchball",
+    "fr": "balle de match",
+    "es": "punto de partido",
+    "it": "match point",
+    "pt": "match point",
+    "tr": "maç sayısı"
+   },
+   "ex": {
+    "en": "She saved three match points."
+   }
+  },
+  {
+   "id": "sports.double-fault",
+   "t": {
+    "en": "double fault",
+    "uk": "подвійна помилка",
+    "ru": "двойная ошибка",
+    "pl": "podwójny błąd serwisowy",
+    "de": "Doppelfehler",
+    "fr": "double faute",
+    "es": "doble falta",
+    "it": "doppio fallo",
+    "pt": "dupla falta",
+    "tr": "çift hata"
+   },
+   "ex": {
+    "en": "He lost the game with a double fault."
+   }
+  },
+  {
+   "id": "sports.ace",
+   "t": {
+    "en": "ace",
+    "uk": "ейс",
+    "ru": "эйс",
+    "pl": "as serwisowy",
+    "de": "Ass",
+    "fr": "as",
+    "es": "ace",
+    "it": "ace",
+    "pt": "ace",
+    "tr": "as"
+   },
+   "ex": {
+    "en": "She served an ace on match point."
+   }
+  },
+  {
+   "id": "sports.deuce",
+   "t": {
+    "en": "deuce",
+    "uk": "рівно",
+    "ru": "ровно",
+    "pl": "równowaga",
+    "de": "Einstand",
+    "fr": "égalité",
+    "es": "iguales",
+    "it": "parità",
+    "pt": "iguais",
+    "tr": "beraberlik"
+   },
+   "ex": {
+    "en": "It's deuce again."
    }
   }
  ]

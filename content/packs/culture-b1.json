@@ -2,7 +2,7 @@
  "id": "culture-b1",
  "topic": "culture",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "culture.plot",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "The last scene made me cry."
+   }
+  },
+  {
+   "id": "culture.self-portrait",
+   "t": {
+    "en": "self-portrait",
+    "uk": "автопортрет",
+    "ru": "автопортрет",
+    "pl": "autoportret",
+    "de": "Selbstporträt",
+    "fr": "autoportrait",
+    "es": "autorretrato",
+    "it": "autoritratto",
+    "pt": "autorretrato",
+    "tr": "otoportre"
+   },
+   "ex": {
+    "en": "Van Gogh painted many self-portraits."
+   }
+  },
+  {
+   "id": "culture.watercolour",
+   "t": {
+    "en": "watercolour",
+    "uk": "акварель",
+    "ru": "акварель",
+    "pl": "akwarela",
+    "de": "Aquarell",
+    "fr": "aquarelle",
+    "es": "acuarela",
+    "it": "acquerello",
+    "pt": "aquarela",
+    "tr": "suluboya"
+   },
+   "ex": {
+    "en": "She paints with watercolours."
+   }
+  },
+  {
+   "id": "culture.oil-painting",
+   "t": {
+    "en": "oil painting",
+    "uk": "картина олією",
+    "ru": "картина маслом",
+    "pl": "obraz olejny",
+    "de": "Ölgemälde",
+    "fr": "peinture à l'huile",
+    "es": "pintura al óleo",
+    "it": "dipinto a olio",
+    "pt": "pintura a óleo",
+    "tr": "yağlı boya tablo"
+   },
+   "ex": {
+    "en": "This oil painting is very old."
+   }
+  },
+  {
+   "id": "culture.sketch",
+   "t": {
+    "en": "sketch",
+    "uk": "ескіз",
+    "ru": "эскиз",
+    "pl": "szkic",
+    "de": "Skizze",
+    "fr": "esquisse",
+    "es": "boceto",
+    "it": "schizzo",
+    "pt": "esboço",
+    "tr": "eskiz"
+   },
+   "ex": {
+    "en": "He made a quick sketch."
+   }
+  },
+  {
+   "id": "culture.canvas",
+   "t": {
+    "en": "canvas",
+    "uk": "полотно",
+    "ru": "холст",
+    "pl": "płótno",
+    "de": "Leinwand",
+    "fr": "toile",
+    "es": "lienzo",
+    "it": "tela",
+    "pt": "tela",
+    "tr": "tuval"
+   },
+   "ex": {
+    "en": "She paints on canvas."
+   }
+  },
+  {
+   "id": "culture.exhibit",
+   "t": {
+    "en": "exhibit",
+    "uk": "експонат",
+    "ru": "экспонат",
+    "pl": "eksponat",
+    "de": "Ausstellungsstück",
+    "fr": "objet exposé",
+    "es": "objeto expuesto",
+    "it": "reperto",
+    "pt": "peça em exibição",
+    "tr": "sergilenen eser"
+   },
+   "ex": {
+    "en": "Don't touch the exhibits."
+   }
+  },
+  {
+   "id": "culture.architecture",
+   "t": {
+    "en": "architecture",
+    "uk": "архітектура",
+    "ru": "архитектура",
+    "pl": "architektura",
+    "de": "Architektur",
+    "fr": "architecture",
+    "es": "arquitectura",
+    "it": "architettura",
+    "pt": "arquitetura",
+    "tr": "mimarlık"
+   },
+   "ex": {
+    "en": "I love Gothic architecture."
+   }
+  },
+  {
+   "id": "culture.poetry",
+   "t": {
+    "en": "poetry",
+    "uk": "поезія",
+    "ru": "поэзия",
+    "pl": "poezja",
+    "de": "Poesie",
+    "fr": "poésie",
+    "es": "poesía",
+    "it": "poesia",
+    "pt": "poesia",
+    "tr": "şiir"
+   },
+   "ex": {
+    "en": "He reads poetry in the evening."
+   }
+  },
+  {
+   "id": "culture.novelist",
+   "t": {
+    "en": "novelist",
+    "uk": "романіст",
+    "ru": "романист",
+    "pl": "powieściopisarz",
+    "de": "Romanautor",
+    "fr": "romancier",
+    "es": "novelista",
+    "it": "romanziere",
+    "pt": "romancista",
+    "tr": "romancı"
+   },
+   "ex": {
+    "en": "She is a famous novelist."
+   }
+  },
+  {
+   "id": "culture.paperback",
+   "t": {
+    "en": "paperback",
+    "uk": "книжка в м'якій обкладинці",
+    "ru": "книга в мягкой обложке",
+    "pl": "książka w miękkiej oprawie",
+    "de": "Taschenbuch",
+    "fr": "livre de poche",
+    "es": "libro de bolsillo",
+    "it": "tascabile",
+    "pt": "livro de bolso",
+    "tr": "ciltsiz kitap"
+   },
+   "ex": {
+    "en": "The paperback is much cheaper."
+   }
+  },
+  {
+   "id": "culture.e-book",
+   "t": {
+    "en": "e-book",
+    "uk": "електронна книга",
+    "ru": "электронная книга",
+    "pl": "e-book",
+    "de": "E-Book",
+    "fr": "livre numérique",
+    "es": "libro electrónico",
+    "it": "e-book",
+    "pt": "e-book",
+    "tr": "e-kitap"
+   },
+   "ex": {
+    "en": "I read e-books on the train."
+   }
+  },
+  {
+   "id": "culture.book-club",
+   "t": {
+    "en": "book club",
+    "uk": "книжковий клуб",
+    "ru": "книжный клуб",
+    "pl": "klub książki",
+    "de": "Lesekreis",
+    "fr": "club de lecture",
+    "es": "club de lectura",
+    "it": "club del libro",
+    "pt": "clube do livro",
+    "tr": "kitap kulübü"
+   },
+   "ex": {
+    "en": "Our book club meets monthly."
+   }
+  },
+  {
+   "id": "culture.edition",
+   "t": {
+    "en": "edition",
+    "uk": "видання",
+    "ru": "издание",
+    "pl": "wydanie",
+    "de": "Ausgabe",
+    "fr": "édition",
+    "es": "edición",
+    "it": "edizione",
+    "pt": "edição",
+    "tr": "baskı"
+   },
+   "ex": {
+    "en": "This is the first edition."
+   }
+  },
+  {
+   "id": "culture.main-character",
+   "t": {
+    "en": "main character",
+    "uk": "головний герой",
+    "ru": "главный герой",
+    "pl": "główny bohater",
+    "de": "Hauptfigur",
+    "fr": "personnage principal",
+    "es": "personaje principal",
+    "it": "personaggio principale",
+    "pt": "personagem principal",
+    "tr": "ana karakter"
+   },
+   "ex": {
+    "en": "The main character is a detective."
+   }
+  },
+  {
+   "id": "culture.happy-ending",
+   "t": {
+    "en": "happy ending",
+    "uk": "щасливий кінець",
+    "ru": "счастливый конец",
+    "pl": "szczęśliwe zakończenie",
+    "de": "Happy End",
+    "fr": "fin heureuse",
+    "es": "final feliz",
+    "it": "lieto fine",
+    "pt": "final feliz",
+    "tr": "mutlu son"
+   },
+   "ex": {
+    "en": "I prefer films with a happy ending."
+   }
+  },
+  {
+   "id": "culture.to-be-released",
+   "t": {
+    "en": "to be released",
+    "uk": "вийти на екрани",
+    "ru": "выйти на экраны",
+    "pl": "wejść na ekrany",
+    "de": "erscheinen",
+    "fr": "sortir",
+    "es": "estrenarse",
+    "it": "uscire",
+    "pt": "ser lançado",
+    "tr": "vizyona girmek"
+   },
+   "ex": {
+    "en": "The film will be released in May."
+   }
+  },
+  {
+   "id": "culture.release-date",
+   "t": {
+    "en": "release date",
+    "uk": "дата виходу",
+    "ru": "дата выхода",
+    "pl": "data premiery",
+    "de": "Erscheinungsdatum",
+    "fr": "date de sortie",
+    "es": "fecha de estreno",
+    "it": "data di uscita",
+    "pt": "data de lançamento",
+    "tr": "çıkış tarihi"
+   },
+   "ex": {
+    "en": "The release date is in June."
+   }
+  },
+  {
+   "id": "culture.film-critic",
+   "t": {
+    "en": "film critic",
+    "uk": "кінокритик",
+    "ru": "кинокритик",
+    "pl": "krytyk filmowy",
+    "de": "Filmkritiker",
+    "fr": "critique de cinéma",
+    "es": "crítico de cine",
+    "it": "critico cinematografico",
+    "pt": "crítico de cinema",
+    "tr": "film eleştirmeni"
+   },
+   "ex": {
+    "en": "The film critic loved it."
+   }
+  },
+  {
+   "id": "culture.award",
+   "t": {
+    "en": "award",
+    "uk": "нагорода",
+    "ru": "награда",
+    "pl": "nagroda",
+    "de": "Auszeichnung",
+    "fr": "prix",
+    "es": "premio",
+    "it": "premio",
+    "pt": "prêmio",
+    "tr": "ödül"
+   },
+   "ex": {
+    "en": "The film won three awards."
+   }
+  },
+  {
+   "id": "culture.to-win-an-award",
+   "t": {
+    "en": "to win an award",
+    "uk": "отримати нагороду",
+    "ru": "получить награду",
+    "pl": "zdobyć nagrodę",
+    "de": "einen Preis gewinnen",
+    "fr": "remporter un prix",
+    "es": "ganar un premio",
+    "it": "vincere un premio",
+    "pt": "ganhar um prêmio",
+    "tr": "ödül kazanmak"
+   },
+   "ex": {
+    "en": "Her book won an award."
+   }
+  },
+  {
+   "id": "culture.leading-role",
+   "t": {
+    "en": "leading role",
+    "uk": "головна роль",
+    "ru": "главная роль",
+    "pl": "główna rola",
+    "de": "Hauptrolle",
+    "fr": "rôle principal",
+    "es": "papel principal",
+    "it": "ruolo da protagonista",
+    "pt": "papel principal",
+    "tr": "başrol"
+   },
+   "ex": {
+    "en": "He has the leading role."
+   }
+  },
+  {
+   "id": "culture.to-star-in",
+   "t": {
+    "en": "to star in",
+    "uk": "грати головну роль у",
+    "ru": "играть главную роль в",
+    "pl": "grać główną rolę w",
+    "de": "die Hauptrolle spielen in",
+    "fr": "jouer le rôle principal dans",
+    "es": "protagonizar",
+    "it": "recitare da protagonista in",
+    "pt": "estrelar",
+    "tr": "başrol oynamak"
+   },
+   "ex": {
+    "en": "She stars in a new series."
+   }
+  },
+  {
+   "id": "culture.sitcom",
+   "t": {
+    "en": "sitcom",
+    "uk": "ситком",
+    "ru": "ситком",
+    "pl": "sitcom",
+    "de": "Sitcom",
+    "fr": "sitcom",
+    "es": "comedia de situación",
+    "it": "sitcom",
+    "pt": "sitcom",
+    "tr": "durum komedisi"
+   },
+   "ex": {
+    "en": "This sitcom is really funny."
+   }
+  },
+  {
+   "id": "culture.talk-show",
+   "t": {
+    "en": "talk show",
+    "uk": "ток-шоу",
+    "ru": "ток-шоу",
+    "pl": "talk-show",
+    "de": "Talkshow",
+    "fr": "talk-show",
+    "es": "programa de entrevistas",
+    "it": "talk show",
+    "pt": "talk show",
+    "tr": "talk şov"
+   },
+   "ex": {
+    "en": "He was a guest on a talk show."
+   }
+  },
+  {
+   "id": "culture.reality-show",
+   "t": {
+    "en": "reality show",
+    "uk": "реаліті-шоу",
+    "ru": "реалити-шоу",
+    "pl": "reality show",
+    "de": "Realityshow",
+    "fr": "émission de téléréalité",
+    "es": "reality show",
+    "it": "reality show",
+    "pt": "reality show",
+    "tr": "realite şov"
+   },
+   "ex": {
+    "en": "I never watch reality shows."
+   }
+  },
+  {
+   "id": "culture.viewer",
+   "t": {
+    "en": "viewer",
+    "uk": "глядач",
+    "ru": "зритель",
+    "pl": "widz",
+    "de": "Zuschauer",
+    "fr": "téléspectateur",
+    "es": "espectador",
+    "it": "spettatore",
+    "pt": "espectador",
+    "tr": "izleyici"
+   },
+   "ex": {
+    "en": "Millions of viewers watched it."
+   }
+  },
+  {
+   "id": "culture.radio-station",
+   "t": {
+    "en": "radio station",
+    "uk": "радіостанція",
+    "ru": "радиостанция",
+    "pl": "stacja radiowa",
+    "de": "Radiosender",
+    "fr": "station de radio",
+    "es": "emisora de radio",
+    "it": "stazione radio",
+    "pt": "estação de rádio",
+    "tr": "radyo istasyonu"
+   },
+   "ex": {
+    "en": "What's your favourite radio station?"
+   }
+  },
+  {
+   "id": "culture.dj",
+   "t": {
+    "en": "DJ",
+    "uk": "діджей",
+    "ru": "диджей",
+    "pl": "DJ",
+    "de": "DJ",
+    "fr": "DJ",
+    "es": "DJ",
+    "it": "DJ",
+    "pt": "DJ",
+    "tr": "DJ"
+   },
+   "ex": {
+    "en": "The DJ played great music."
+   }
+  },
+  {
+   "id": "culture.hit-song",
+   "t": {
+    "en": "hit song",
+    "uk": "хіт",
+    "ru": "хит",
+    "pl": "przebój",
+    "de": "Hit",
+    "fr": "tube",
+    "es": "éxito",
+    "it": "successo",
+    "pt": "sucesso",
+    "tr": "hit şarkı"
+   },
+   "ex": {
+    "en": "This hit song is everywhere."
+   }
+  },
+  {
+   "id": "culture.the-charts",
+   "t": {
+    "en": "the charts",
+    "uk": "хіт-парад",
+    "ru": "хит-парад",
+    "pl": "lista przebojów",
+    "de": "Charts",
+    "fr": "classement des ventes",
+    "es": "lista de éxitos",
+    "it": "classifica",
+    "pt": "parada de sucessos",
+    "tr": "müzik listesi"
+   },
+   "ex": {
+    "en": "The song is top of the charts."
+   }
+  },
+  {
+   "id": "culture.melody",
+   "t": {
+    "en": "melody",
+    "uk": "мелодія",
+    "ru": "мелодия",
+    "pl": "melodia",
+    "de": "Melodie",
+    "fr": "mélodie",
+    "es": "melodía",
+    "it": "melodia",
+    "pt": "melodia",
+    "tr": "melodi"
+   },
+   "ex": {
+    "en": "I can't forget this melody."
+   }
+  },
+  {
+   "id": "culture.rhythm",
+   "t": {
+    "en": "rhythm",
+    "uk": "ритм",
+    "ru": "ритм",
+    "pl": "rytm",
+    "de": "Rhythmus",
+    "fr": "rythme",
+    "es": "ritmo",
+    "it": "ritmo",
+    "pt": "ritmo",
+    "tr": "ritim"
+   },
+   "ex": {
+    "en": "Clap to the rhythm."
+   }
+  },
+  {
+   "id": "culture.to-sing-out-of-tune",
+   "t": {
+    "en": "to sing out of tune",
+    "uk": "фальшивити",
+    "ru": "фальшивить",
+    "pl": "fałszować",
+    "de": "falsch singen",
+    "fr": "chanter faux",
+    "es": "desafinar",
+    "it": "stonare",
+    "pt": "desafinar",
+    "tr": "detone olmak"
+   },
+   "ex": {
+    "en": "He always sings out of tune."
+   }
+  },
+  {
+   "id": "culture.cultural-event",
+   "t": {
+    "en": "cultural event",
+    "uk": "культурна подія",
+    "ru": "культурное событие",
+    "pl": "wydarzenie kulturalne",
+    "de": "Kulturveranstaltung",
+    "fr": "événement culturel",
+    "es": "evento cultural",
+    "it": "evento culturale",
+    "pt": "evento cultural",
+    "tr": "kültürel etkinlik"
+   },
+   "ex": {
+    "en": "The city has many cultural events."
+   }
+  },
+  {
+   "id": "culture.national-anthem",
+   "t": {
+    "en": "national anthem",
+    "uk": "державний гімн",
+    "ru": "государственный гимн",
+    "pl": "hymn narodowy",
+    "de": "Nationalhymne",
+    "fr": "hymne national",
+    "es": "himno nacional",
+    "it": "inno nazionale",
+    "pt": "hino nacional",
+    "tr": "milli marş"
+   },
+   "ex": {
+    "en": "Everyone stood for the national anthem."
+   }
+  },
+  {
+   "id": "culture.ceremony",
+   "t": {
+    "en": "ceremony",
+    "uk": "церемонія",
+    "ru": "церемония",
+    "pl": "ceremonia",
+    "de": "Zeremonie",
+    "fr": "cérémonie",
+    "es": "ceremonia",
+    "it": "cerimonia",
+    "pt": "cerimônia",
+    "tr": "tören"
+   },
+   "ex": {
+    "en": "The award ceremony was long."
+   }
+  },
+  {
+   "id": "culture.ritual",
+   "t": {
+    "en": "ritual",
+    "uk": "ритуал",
+    "ru": "ритуал",
+    "pl": "rytuał",
+    "de": "Ritual",
+    "fr": "rituel",
+    "es": "ritual",
+    "it": "rituale",
+    "pt": "ritual",
+    "tr": "ritüel"
+   },
+   "ex": {
+    "en": "Tea is a daily ritual here."
+   }
+  },
+  {
+   "id": "culture.harp",
+   "t": {
+    "en": "harp",
+    "uk": "арфа",
+    "ru": "арфа",
+    "pl": "harfa",
+    "de": "Harfe",
+    "fr": "harpe",
+    "es": "arpa",
+    "it": "arpa",
+    "pt": "harpa",
+    "tr": "arp"
+   },
+   "ex": {
+    "en": "She plays the harp beautifully."
+   }
+  },
+  {
+   "id": "culture.pianist",
+   "t": {
+    "en": "pianist",
+    "uk": "піаніст",
+    "ru": "пианист",
+    "pl": "pianista",
+    "de": "Pianist",
+    "fr": "pianiste",
+    "es": "pianista",
+    "it": "pianista",
+    "pt": "pianista",
+    "tr": "piyanist"
+   },
+   "ex": {
+    "en": "The pianist got a long applause."
+   }
+  },
+  {
+   "id": "culture.violinist",
+   "t": {
+    "en": "violinist",
+    "uk": "скрипаль",
+    "ru": "скрипач",
+    "pl": "skrzypek",
+    "de": "Geiger",
+    "fr": "violoniste",
+    "es": "violinista",
+    "it": "violinista",
+    "pt": "violinista",
+    "tr": "kemancı"
+   },
+   "ex": {
+    "en": "The violinist is only twelve."
+   }
+  },
+  {
+   "id": "culture.lead-singer",
+   "t": {
+    "en": "lead singer",
+    "uk": "соліст",
+    "ru": "солист",
+    "pl": "wokalista",
+    "de": "Leadsänger",
+    "fr": "chanteur principal",
+    "es": "vocalista",
+    "it": "voce solista",
+    "pt": "vocalista",
+    "tr": "solist"
+   },
+   "ex": {
+    "en": "The lead singer has a great voice."
+   }
+  },
+  {
+   "id": "culture.singer-songwriter",
+   "t": {
+    "en": "singer-songwriter",
+    "uk": "автор-виконавець",
+    "ru": "автор-исполнитель",
+    "pl": "piosenkarz i autor tekstów",
+    "de": "Liedermacher",
+    "fr": "auteur-compositeur-interprète",
+    "es": "cantautor",
+    "it": "cantautore",
+    "pt": "cantor e compositor",
+    "tr": "söz yazarı ve şarkıcı"
+   },
+   "ex": {
+    "en": "She is a talented singer-songwriter."
+   }
+  },
+  {
+   "id": "culture.graffiti",
+   "t": {
+    "en": "graffiti",
+    "uk": "графіті",
+    "ru": "граффити",
+    "pl": "graffiti",
+    "de": "Graffiti",
+    "fr": "graffiti",
+    "es": "grafiti",
+    "it": "graffiti",
+    "pt": "grafite",
+    "tr": "grafiti"
+   },
+   "ex": {
+    "en": "The wall is covered in graffiti."
+   }
+  },
+  {
+   "id": "culture.street-art",
+   "t": {
+    "en": "street art",
+    "uk": "вуличне мистецтво",
+    "ru": "уличное искусство",
+    "pl": "sztuka uliczna",
+    "de": "Straßenkunst",
+    "fr": "art urbain",
+    "es": "arte urbano",
+    "it": "arte di strada",
+    "pt": "arte de rua",
+    "tr": "sokak sanatı"
+   },
+   "ex": {
+    "en": "Berlin is famous for street art."
+   }
+  },
+  {
+   "id": "culture.animation",
+   "t": {
+    "en": "animation",
+    "uk": "анімація",
+    "ru": "анимация",
+    "pl": "animacja",
+    "de": "Animation",
+    "fr": "animation",
+    "es": "animación",
+    "it": "animazione",
+    "pt": "animação",
+    "tr": "animasyon"
+   },
+   "ex": {
+    "en": "The animation in this film is amazing."
+   }
+  },
+  {
+   "id": "culture.to-be-set-in",
+   "t": {
+    "en": "to be set in",
+    "uk": "відбуватися в",
+    "ru": "происходить в",
+    "pl": "rozgrywać się w",
+    "de": "spielen in",
+    "fr": "se dérouler à",
+    "es": "estar ambientado en",
+    "it": "essere ambientato in",
+    "pt": "se passar em",
+    "tr": "geçmek"
+   },
+   "ex": {
+    "en": "The story is set in Paris."
+   }
+  },
+  {
+   "id": "culture.setting",
+   "t": {
+    "en": "setting",
+    "uk": "місце дії",
+    "ru": "место действия",
+    "pl": "miejsce akcji",
+    "de": "Schauplatz",
+    "fr": "cadre",
+    "es": "ambientación",
+    "it": "ambientazione",
+    "pt": "cenário",
+    "tr": "mekân"
+   },
+   "ex": {
+    "en": "The setting is a small village."
+   }
+  },
+  {
+   "id": "culture.theme",
+   "t": {
+    "en": "theme",
+    "uk": "тема",
+    "ru": "тема",
+    "pl": "temat",
+    "de": "Thema",
+    "fr": "thème",
+    "es": "tema",
+    "it": "tema",
+    "pt": "tema",
+    "tr": "tema"
+   },
+   "ex": {
+    "en": "Love is the main theme."
+   }
+  },
+  {
+   "id": "culture.fashion",
+   "t": {
+    "en": "fashion",
+    "uk": "мода",
+    "ru": "мода",
+    "pl": "moda",
+    "de": "Mode",
+    "fr": "mode",
+    "es": "moda",
+    "it": "moda",
+    "pt": "moda",
+    "tr": "moda"
+   },
+   "ex": {
+    "en": "She is interested in fashion."
+   }
+  },
+  {
+   "id": "culture.title",
+   "t": {
+    "en": "title",
+    "uk": "назва",
+    "ru": "название",
+    "pl": "tytuł",
+    "de": "Titel",
+    "fr": "titre",
+    "es": "título",
+    "it": "titolo",
+    "pt": "título",
+    "tr": "başlık"
+   },
+   "ex": {
+    "en": "What's the title of the book?"
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "relationships-c1",
  "topic": "relationships",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "relationships.to-smother",
@@ -866,6 +866,942 @@
    },
    "ex": {
     "en": "We had a long heart-to-heart."
+   }
+  },
+  {
+   "id": "relationships.to-idolize",
+   "t": {
+    "en": "to idolize",
+    "uk": "обожнювати",
+    "ru": "боготворить",
+    "pl": "ubóstwiać",
+    "de": "vergöttern",
+    "fr": "idolâtrer",
+    "es": "idolatrar",
+    "it": "idolatrare",
+    "pt": "idolatrar",
+    "tr": "tapmak"
+   },
+   "ex": {
+    "en": "He idolizes his older brother."
+   }
+  },
+  {
+   "id": "relationships.adoration",
+   "t": {
+    "en": "adoration",
+    "uk": "обожнювання",
+    "ru": "обожание",
+    "pl": "uwielbienie",
+    "de": "Anbetung",
+    "fr": "adoration",
+    "es": "adoración",
+    "it": "adorazione",
+    "pt": "adoração",
+    "tr": "hayranlık"
+   },
+   "ex": {
+    "en": "She looked at him with adoration."
+   }
+  },
+  {
+   "id": "relationships.to-be-enamoured-of",
+   "t": {
+    "en": "to be enamoured of",
+    "uk": "бути закоханим у",
+    "ru": "быть очарованным",
+    "pl": "być zauroczonym",
+    "de": "verliebt sein in",
+    "fr": "être épris de",
+    "es": "estar prendado de",
+    "it": "essere invaghito di",
+    "pt": "estar encantado por",
+    "tr": "-e tutulmak"
+   },
+   "ex": {
+    "en": "He was enamoured of her voice."
+   }
+  },
+  {
+   "id": "relationships.lovesick",
+   "t": {
+    "en": "lovesick",
+    "uk": "хворий від кохання",
+    "ru": "влюблённый до безумия",
+    "pl": "chory z miłości",
+    "de": "liebeskrank",
+    "fr": "transi d'amour",
+    "es": "enfermo de amor",
+    "it": "malato d'amore",
+    "pt": "apaixonado demais",
+    "tr": "aşk acısı çeken"
+   },
+   "ex": {
+    "en": "He's like a lovesick teenager."
+   }
+  },
+  {
+   "id": "relationships.lovelorn",
+   "t": {
+    "en": "lovelorn",
+    "uk": "нещасний у коханні",
+    "ru": "страдающий от любви",
+    "pl": "nieszczęśliwie zakochany",
+    "de": "liebeskummerkrank",
+    "fr": "en mal d'amour",
+    "es": "desdichado en amor",
+    "it": "sofferente per amore",
+    "pt": "sofrendo por amor",
+    "tr": "aşkta mutsuz"
+   },
+   "ex": {
+    "en": "The song is about a lovelorn poet."
+   }
+  },
+  {
+   "id": "relationships.paramour",
+   "t": {
+    "en": "paramour",
+    "uk": "коханець",
+    "ru": "любовник",
+    "pl": "kochanek",
+    "de": "Liebhaber",
+    "fr": "amant",
+    "es": "amante",
+    "it": "amante",
+    "pt": "amante",
+    "tr": "gizli sevgili"
+   },
+   "ex": {
+    "en": "She met her paramour in secret."
+   }
+  },
+  {
+   "id": "relationships.mistress",
+   "t": {
+    "en": "mistress",
+    "uk": "коханка",
+    "ru": "любовница",
+    "pl": "kochanka",
+    "de": "Geliebte",
+    "fr": "maîtresse",
+    "es": "amante",
+    "it": "amante",
+    "pt": "amante",
+    "tr": "metres"
+   },
+   "ex": {
+    "en": "The king had a mistress."
+   }
+  },
+  {
+   "id": "relationships.betrothal",
+   "t": {
+    "en": "betrothal",
+    "uk": "заручини",
+    "ru": "обручение",
+    "pl": "zaręczyny",
+    "de": "Verlöbnis",
+    "fr": "fiançailles",
+    "es": "esponsales",
+    "it": "fidanzamento",
+    "pt": "noivado",
+    "tr": "nişan"
+   },
+   "ex": {
+    "en": "Their betrothal was arranged."
+   }
+  },
+  {
+   "id": "relationships.betrothed",
+   "t": {
+    "en": "betrothed",
+    "uk": "заручений",
+    "ru": "обручённый",
+    "pl": "zaręczony",
+    "de": "verlobt",
+    "fr": "fiancé",
+    "es": "prometido",
+    "it": "promesso sposo",
+    "pt": "noivo",
+    "tr": "nişanlı"
+   },
+   "ex": {
+    "en": "She met her betrothed at last."
+   }
+  },
+  {
+   "id": "relationships.nuptials",
+   "t": {
+    "en": "nuptials",
+    "uk": "шлюбна церемонія",
+    "ru": "бракосочетание",
+    "pl": "zaślubiny",
+    "de": "Vermählung",
+    "fr": "noces",
+    "es": "nupcias",
+    "it": "nozze",
+    "pt": "núpcias",
+    "tr": "nikâh"
+   },
+   "ex": {
+    "en": "The nuptials took place in June."
+   }
+  },
+  {
+   "id": "relationships.matrimony",
+   "t": {
+    "en": "matrimony",
+    "uk": "шлюб",
+    "ru": "супружество",
+    "pl": "małżeństwo",
+    "de": "Ehe",
+    "fr": "mariage",
+    "es": "matrimonio",
+    "it": "matrimonio",
+    "pt": "matrimônio",
+    "tr": "evlilik"
+   },
+   "ex": {
+    "en": "They were joined in holy matrimony."
+   }
+  },
+  {
+   "id": "relationships.marital",
+   "t": {
+    "en": "marital",
+    "uk": "подружній",
+    "ru": "супружеский",
+    "pl": "małżeński",
+    "de": "ehelich",
+    "fr": "conjugal",
+    "es": "marital",
+    "it": "coniugale",
+    "pt": "conjugal",
+    "tr": "evlilikle ilgili"
+   },
+   "ex": {
+    "en": "They had marital problems."
+   }
+  },
+  {
+   "id": "relationships.marital-bliss",
+   "t": {
+    "en": "marital bliss",
+    "uk": "подружнє щастя",
+    "ru": "супружеское счастье",
+    "pl": "szczęście małżeńskie",
+    "de": "Eheglück",
+    "fr": "bonheur conjugal",
+    "es": "felicidad conyugal",
+    "it": "felicità coniugale",
+    "pt": "felicidade conjugal",
+    "tr": "evlilik mutluluğu"
+   },
+   "ex": {
+    "en": "Ten years of marital bliss!"
+   }
+  },
+  {
+   "id": "relationships.spouse",
+   "t": {
+    "en": "spouse",
+    "uk": "чоловік або дружина",
+    "ru": "супруг",
+    "pl": "współmałżonek",
+    "de": "Ehepartner",
+    "fr": "conjoint",
+    "es": "cónyuge",
+    "it": "coniuge",
+    "pt": "cônjuge",
+    "tr": "eş"
+   },
+   "ex": {
+    "en": "Spouses may attend the dinner."
+   }
+  },
+  {
+   "id": "relationships.wedlock",
+   "t": {
+    "en": "wedlock",
+    "uk": "шлюб",
+    "ru": "брак",
+    "pl": "związek małżeński",
+    "de": "Ehe",
+    "fr": "mariage",
+    "es": "matrimonio",
+    "it": "vincolo matrimoniale",
+    "pt": "matrimônio",
+    "tr": "evlilik bağı"
+   },
+   "ex": {
+    "en": "He was born out of wedlock."
+   }
+  },
+  {
+   "id": "relationships.annulment",
+   "t": {
+    "en": "annulment",
+    "uk": "анулювання шлюбу",
+    "ru": "аннулирование брака",
+    "pl": "unieważnienie małżeństwa",
+    "de": "Annullierung",
+    "fr": "annulation",
+    "es": "anulación",
+    "it": "annullamento",
+    "pt": "anulação",
+    "tr": "evliliğin iptali"
+   },
+   "ex": {
+    "en": "She sought an annulment."
+   }
+  },
+  {
+   "id": "relationships.to-annul",
+   "t": {
+    "en": "to annul",
+    "uk": "анулювати",
+    "ru": "аннулировать",
+    "pl": "unieważnić",
+    "de": "annullieren",
+    "fr": "annuler",
+    "es": "anular",
+    "it": "annullare",
+    "pt": "anular",
+    "tr": "iptal etmek"
+   },
+   "ex": {
+    "en": "The marriage was annulled."
+   }
+  },
+  {
+   "id": "relationships.alienation",
+   "t": {
+    "en": "alienation",
+    "uk": "відчуження",
+    "ru": "отчуждение",
+    "pl": "wyobcowanie",
+    "de": "Entfremdung",
+    "fr": "aliénation",
+    "es": "alienación",
+    "it": "alienazione",
+    "pt": "alienação",
+    "tr": "yabancılaşma"
+   },
+   "ex": {
+    "en": "She felt a growing alienation."
+   }
+  },
+  {
+   "id": "relationships.rift",
+   "t": {
+    "en": "rift",
+    "uk": "розкол",
+    "ru": "разлад",
+    "pl": "rozdźwięk",
+    "de": "Zerwürfnis",
+    "fr": "brouille",
+    "es": "distanciamiento",
+    "it": "frattura",
+    "pt": "rompimento",
+    "tr": "anlaşmazlık"
+   },
+   "ex": {
+    "en": "The rift between them grew."
+   }
+  },
+  {
+   "id": "relationships.feud",
+   "t": {
+    "en": "feud",
+    "uk": "ворожнеча",
+    "ru": "вражда",
+    "pl": "waśń",
+    "de": "Fehde",
+    "fr": "querelle",
+    "es": "enemistad",
+    "it": "faida",
+    "pt": "rixa",
+    "tr": "husumet"
+   },
+   "ex": {
+    "en": "The family feud lasted years."
+   }
+  },
+  {
+   "id": "relationships.to-bury-the-hatchet",
+   "t": {
+    "en": "to bury the hatchet",
+    "uk": "зарити сокиру війни",
+    "ru": "зарыть топор войны",
+    "pl": "zakopać topór wojenny",
+    "de": "das Kriegsbeil begraben",
+    "fr": "enterrer la hache de guerre",
+    "es": "enterrar el hacha de guerra",
+    "it": "seppellire l'ascia di guerra",
+    "pt": "fazer as pazes",
+    "tr": "baltaları gömmek"
+   },
+   "ex": {
+    "en": "It's time to bury the hatchet."
+   }
+  },
+  {
+   "id": "relationships.to-mend-fences",
+   "t": {
+    "en": "to mend fences",
+    "uk": "налагодити стосунки",
+    "ru": "наладить отношения",
+    "pl": "naprawić relacje",
+    "de": "die Wogen glätten",
+    "fr": "recoller les morceaux",
+    "es": "hacer las paces",
+    "it": "ricucire i rapporti",
+    "pt": "reatar laços",
+    "tr": "arayı düzeltmek"
+   },
+   "ex": {
+    "en": "He called to mend fences."
+   }
+  },
+  {
+   "id": "relationships.olive-branch",
+   "t": {
+    "en": "olive branch",
+    "uk": "оливкова гілка",
+    "ru": "оливковая ветвь",
+    "pl": "gałązka oliwna",
+    "de": "Friedensangebot",
+    "fr": "rameau d'olivier",
+    "es": "ramo de olivo",
+    "it": "ramoscello d'ulivo",
+    "pt": "ramo de oliveira",
+    "tr": "zeytin dalı"
+   },
+   "ex": {
+    "en": "She offered an olive branch."
+   }
+  },
+  {
+   "id": "relationships.rapprochement",
+   "t": {
+    "en": "rapprochement",
+    "uk": "зближення",
+    "ru": "сближение",
+    "pl": "zbliżenie",
+    "de": "Annäherung",
+    "fr": "rapprochement",
+    "es": "acercamiento",
+    "it": "riavvicinamento",
+    "pt": "reaproximação",
+    "tr": "yakınlaşma"
+   },
+   "ex": {
+    "en": "A rapprochement seemed possible."
+   }
+  },
+  {
+   "id": "relationships.to-atone",
+   "t": {
+    "en": "to atone",
+    "uk": "спокутувати",
+    "ru": "искупать",
+    "pl": "odpokutować",
+    "de": "sühnen",
+    "fr": "expier",
+    "es": "expiar",
+    "it": "espiare",
+    "pt": "expiar",
+    "tr": "kefaret ödemek"
+   },
+   "ex": {
+    "en": "He tried to atone for his mistakes."
+   }
+  },
+  {
+   "id": "relationships.contrition",
+   "t": {
+    "en": "contrition",
+    "uk": "каяття",
+    "ru": "раскаяние",
+    "pl": "skrucha",
+    "de": "Reue",
+    "fr": "contrition",
+    "es": "contrición",
+    "it": "contrizione",
+    "pt": "contrição",
+    "tr": "pişmanlık"
+   },
+   "ex": {
+    "en": "She showed genuine contrition."
+   }
+  },
+  {
+   "id": "relationships.magnanimous",
+   "t": {
+    "en": "magnanimous",
+    "uk": "великодушний",
+    "ru": "великодушный",
+    "pl": "wielkoduszny",
+    "de": "großmütig",
+    "fr": "magnanime",
+    "es": "magnánimo",
+    "it": "magnanimo",
+    "pt": "magnânimo",
+    "tr": "yüce gönüllü"
+   },
+   "ex": {
+    "en": "He was magnanimous in forgiving her."
+   }
+  },
+  {
+   "id": "relationships.rancour",
+   "t": {
+    "en": "rancour",
+    "uk": "злоба",
+    "ru": "злоба",
+    "pl": "rozgoryczenie",
+    "de": "Groll",
+    "fr": "rancœur",
+    "es": "rencor",
+    "it": "astio",
+    "pt": "rancor",
+    "tr": "hınç"
+   },
+   "ex": {
+    "en": "They parted without rancour."
+   }
+  },
+  {
+   "id": "relationships.animosity",
+   "t": {
+    "en": "animosity",
+    "uk": "ворожість",
+    "ru": "враждебность",
+    "pl": "niechęć",
+    "de": "Feindseligkeit",
+    "fr": "animosité",
+    "es": "animosidad",
+    "it": "animosità",
+    "pt": "animosidade",
+    "tr": "düşmanlık"
+   },
+   "ex": {
+    "en": "There's no animosity between us."
+   }
+  },
+  {
+   "id": "relationships.enmity",
+   "t": {
+    "en": "enmity",
+    "uk": "ворожнеча",
+    "ru": "вражда",
+    "pl": "wrogość",
+    "de": "Feindschaft",
+    "fr": "inimitié",
+    "es": "enemistad",
+    "it": "inimicizia",
+    "pt": "inimizade",
+    "tr": "husumet"
+   },
+   "ex": {
+    "en": "Old enmity divided the families."
+   }
+  },
+  {
+   "id": "relationships.to-snub",
+   "t": {
+    "en": "to snub",
+    "uk": "ігнорувати",
+    "ru": "пренебречь",
+    "pl": "zlekceważyć",
+    "de": "brüskieren",
+    "fr": "snober",
+    "es": "desairar",
+    "it": "snobbare",
+    "pt": "esnobar",
+    "tr": "yüz vermemek"
+   },
+   "ex": {
+    "en": "She snubbed him at the party."
+   }
+  },
+  {
+   "id": "relationships.cold-shoulder",
+   "t": {
+    "en": "cold shoulder",
+    "uk": "холодне ставлення",
+    "ru": "холодный приём",
+    "pl": "chłodne traktowanie",
+    "de": "kalte Schulter",
+    "fr": "froideur",
+    "es": "frialdad",
+    "it": "freddezza",
+    "pt": "gelo",
+    "tr": "soğuk davranış"
+   },
+   "ex": {
+    "en": "He gave me the cold shoulder."
+   }
+  },
+  {
+   "id": "relationships.standoffish",
+   "t": {
+    "en": "standoffish",
+    "uk": "неприступний",
+    "ru": "неприступный",
+    "pl": "zdystansowany",
+    "de": "reserviert",
+    "fr": "distant",
+    "es": "distante",
+    "it": "scostante",
+    "pt": "distante",
+    "tr": "soğuk"
+   },
+   "ex": {
+    "en": "She seemed standoffish at first."
+   }
+  },
+  {
+   "id": "relationships.to-rebuff",
+   "t": {
+    "en": "to rebuff",
+    "uk": "відштовхнути",
+    "ru": "отвергнуть",
+    "pl": "odtrącić",
+    "de": "zurückweisen",
+    "fr": "repousser",
+    "es": "rechazar",
+    "it": "respingere",
+    "pt": "rejeitar",
+    "tr": "geri çevirmek"
+   },
+   "ex": {
+    "en": "She rebuffed his advances."
+   }
+  },
+  {
+   "id": "relationships.unwanted-advances",
+   "t": {
+    "en": "unwanted advances",
+    "uk": "небажані залицяння",
+    "ru": "нежелательные ухаживания",
+    "pl": "niechciane zaloty",
+    "de": "unerwünschte Annäherungsversuche",
+    "fr": "avances non désirées",
+    "es": "insinuaciones no deseadas",
+    "it": "avances indesiderate",
+    "pt": "investidas indesejadas",
+    "tr": "istenmeyen yakınlaşma"
+   },
+   "ex": {
+    "en": "She reported unwanted advances."
+   }
+  },
+  {
+   "id": "relationships.to-make-advances",
+   "t": {
+    "en": "to make advances",
+    "uk": "залицятися",
+    "ru": "приставать",
+    "pl": "zalecać się",
+    "de": "sich jemandem nähern",
+    "fr": "faire des avances",
+    "es": "insinuarse",
+    "it": "fare delle avances",
+    "pt": "dar em cima",
+    "tr": "yakınlaşmaya çalışmak"
+   },
+   "ex": {
+    "en": "He made advances to his colleague."
+   }
+  },
+  {
+   "id": "relationships.coquettish",
+   "t": {
+    "en": "coquettish",
+    "uk": "кокетливий",
+    "ru": "кокетливый",
+    "pl": "zalotny",
+    "de": "kokett",
+    "fr": "coquet",
+    "es": "coqueto",
+    "it": "civettuolo",
+    "pt": "coquete",
+    "tr": "cilveli"
+   },
+   "ex": {
+    "en": "She gave a coquettish laugh."
+   }
+  },
+  {
+   "id": "relationships.coy",
+   "t": {
+    "en": "coy",
+    "uk": "сором'язливо-кокетливий",
+    "ru": "жеманный",
+    "pl": "wstydliwy",
+    "de": "neckisch-schüchtern",
+    "fr": "faussement timide",
+    "es": "tímido",
+    "it": "ritroso",
+    "pt": "recatado",
+    "tr": "nazlı"
+   },
+   "ex": {
+    "en": "Don't be coy, tell me!"
+   }
+  },
+  {
+   "id": "relationships.alluring",
+   "t": {
+    "en": "alluring",
+    "uk": "звабливий",
+    "ru": "соблазнительный",
+    "pl": "ponętny",
+    "de": "verlockend",
+    "fr": "séduisant",
+    "es": "seductor",
+    "it": "seducente",
+    "pt": "sedutor",
+    "tr": "cazibeli"
+   },
+   "ex": {
+    "en": "She wore an alluring perfume."
+   }
+  },
+  {
+   "id": "relationships.to-captivate",
+   "t": {
+    "en": "to captivate",
+    "uk": "зачаровувати",
+    "ru": "пленять",
+    "pl": "urzekać",
+    "de": "fesseln",
+    "fr": "captiver",
+    "es": "cautivar",
+    "it": "affascinare",
+    "pt": "cativar",
+    "tr": "büyülemek"
+   },
+   "ex": {
+    "en": "Her smile captivated everyone."
+   }
+  },
+  {
+   "id": "relationships.dalliance",
+   "t": {
+    "en": "dalliance",
+    "uk": "флірт",
+    "ru": "интрижка",
+    "pl": "flirt",
+    "de": "Liebelei",
+    "fr": "amourette",
+    "es": "devaneo",
+    "it": "flirt",
+    "pt": "caso passageiro",
+    "tr": "gönül eğlendirme"
+   },
+   "ex": {
+    "en": "It was a brief dalliance."
+   }
+  },
+  {
+   "id": "relationships.liaison",
+   "t": {
+    "en": "liaison",
+    "uk": "любовний зв'язок",
+    "ru": "любовная связь",
+    "pl": "romans",
+    "de": "Liaison",
+    "fr": "liaison",
+    "es": "aventura",
+    "it": "relazione",
+    "pt": "caso amoroso",
+    "tr": "gizli ilişki"
+   },
+   "ex": {
+    "en": "Their liaison was kept secret."
+   }
+  },
+  {
+   "id": "relationships.tryst",
+   "t": {
+    "en": "tryst",
+    "uk": "таємне побачення",
+    "ru": "тайное свидание",
+    "pl": "schadzka",
+    "de": "Stelldichein",
+    "fr": "rendez-vous galant",
+    "es": "cita secreta",
+    "it": "convegno amoroso",
+    "pt": "encontro secreto",
+    "tr": "gizli buluşma"
+   },
+   "ex": {
+    "en": "They planned a midnight tryst."
+   }
+  },
+  {
+   "id": "relationships.promiscuous",
+   "t": {
+    "en": "promiscuous",
+    "uk": "розпусний",
+    "ru": "распутный",
+    "pl": "rozwiązły",
+    "de": "promisk",
+    "fr": "volage",
+    "es": "promiscuo",
+    "it": "promiscuo",
+    "pt": "promíscuo",
+    "tr": "hafifmeşrep"
+   },
+   "ex": {
+    "en": "He had a promiscuous past."
+   }
+  },
+  {
+   "id": "relationships.monogamous",
+   "t": {
+    "en": "monogamous",
+    "uk": "моногамний",
+    "ru": "моногамный",
+    "pl": "monogamiczny",
+    "de": "monogam",
+    "fr": "monogame",
+    "es": "monógamo",
+    "it": "monogamo",
+    "pt": "monogâmico",
+    "tr": "tek eşli"
+   },
+   "ex": {
+    "en": "They're in a monogamous relationship."
+   }
+  },
+  {
+   "id": "relationships.monogamy",
+   "t": {
+    "en": "monogamy",
+    "uk": "моногамія",
+    "ru": "моногамия",
+    "pl": "monogamia",
+    "de": "Monogamie",
+    "fr": "monogamie",
+    "es": "monogamia",
+    "it": "monogamia",
+    "pt": "monogamia",
+    "tr": "tek eşlilik"
+   },
+   "ex": {
+    "en": "They believe in monogamy."
+   }
+  },
+  {
+   "id": "relationships.polyamory",
+   "t": {
+    "en": "polyamory",
+    "uk": "поліамія",
+    "ru": "полиамория",
+    "pl": "poliamoria",
+    "de": "Polyamorie",
+    "fr": "polyamour",
+    "es": "poliamor",
+    "it": "poliamore",
+    "pt": "poliamor",
+    "tr": "poliamori"
+   },
+   "ex": {
+    "en": "Polyamory is more common now."
+   }
+  },
+  {
+   "id": "relationships.steadfast",
+   "t": {
+    "en": "steadfast",
+    "uk": "непохитний",
+    "ru": "непоколебимый",
+    "pl": "niezłomny",
+    "de": "standhaft",
+    "fr": "indéfectible",
+    "es": "inquebrantable",
+    "it": "saldo",
+    "pt": "firme",
+    "tr": "sarsılmaz"
+   },
+   "ex": {
+    "en": "She remained steadfast in her love."
+   }
+  },
+  {
+   "id": "relationships.camaraderie",
+   "t": {
+    "en": "camaraderie",
+    "uk": "товариськість",
+    "ru": "товарищество",
+    "pl": "koleżeństwo",
+    "de": "Kameradschaft",
+    "fr": "camaraderie",
+    "es": "camaradería",
+    "it": "cameratismo",
+    "pt": "camaradagem",
+    "tr": "dostluk ruhu"
+   },
+   "ex": {
+    "en": "I miss the camaraderie of the team."
+   }
+  },
+  {
+   "id": "relationships.intimate",
+   "t": {
+    "en": "intimate",
+    "uk": "інтимний",
+    "ru": "интимный",
+    "pl": "intymny",
+    "de": "intim",
+    "fr": "intime",
+    "es": "íntimo",
+    "it": "intimo",
+    "pt": "íntimo",
+    "tr": "samimi"
+   },
+   "ex": {
+    "en": "It was an intimate dinner for two."
+   }
+  },
+  {
+   "id": "relationships.congenial",
+   "t": {
+    "en": "congenial",
+    "uk": "приємний",
+    "ru": "приятный",
+    "pl": "sympatyczny",
+    "de": "angenehm",
+    "fr": "sympathique",
+    "es": "agradable",
+    "it": "piacevole",
+    "pt": "agradável",
+    "tr": "cana yakın"
+   },
+   "ex": {
+    "en": "He's a congenial companion."
+   }
+  },
+  {
+   "id": "relationships.to-forge-a-bond",
+   "t": {
+    "en": "to forge a bond",
+    "uk": "встановити зв'язок",
+    "ru": "установить связь",
+    "pl": "nawiązać więź",
+    "de": "eine Bindung aufbauen",
+    "fr": "tisser un lien",
+    "es": "forjar un vínculo",
+    "it": "creare un legame",
+    "pt": "criar um vínculo",
+    "tr": "bağ kurmak"
+   },
+   "ex": {
+    "en": "They forged a strong bond."
    }
   }
  ]

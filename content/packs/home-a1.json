@@ -2,7 +2,7 @@
  "id": "home-a1",
  "topic": "home",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "home.house",
@@ -884,6 +884,384 @@
    },
    "ex": {
     "en": "The cat sleeps on the rug."
+   }
+  },
+  {
+   "id": "home.flat",
+   "t": {
+    "en": "flat",
+    "uk": "квартира",
+    "ru": "квартира",
+    "pl": "mieszkanie",
+    "de": "Wohnung",
+    "fr": "appartement",
+    "es": "piso",
+    "it": "appartamento",
+    "pt": "apartamento",
+    "tr": "daire"
+   },
+   "ex": {
+    "en": "Our flat is on the third floor."
+   }
+  },
+  {
+   "id": "home.pan",
+   "t": {
+    "en": "pan",
+    "uk": "сковорідка",
+    "ru": "сковорода",
+    "pl": "patelnia",
+    "de": "Pfanne",
+    "fr": "poêle",
+    "es": "sartén",
+    "it": "padella",
+    "pt": "frigideira",
+    "tr": "tava"
+   },
+   "ex": {
+    "en": "Heat some oil in the pan."
+   }
+  },
+  {
+   "id": "home.pot",
+   "t": {
+    "en": "pot",
+    "uk": "каструля",
+    "ru": "кастрюля",
+    "pl": "garnek",
+    "de": "Topf",
+    "fr": "casserole",
+    "es": "olla",
+    "it": "pentola",
+    "pt": "panela",
+    "tr": "tencere"
+   },
+   "ex": {
+    "en": "The soup is in the big pot."
+   }
+  },
+  {
+   "id": "home.mug",
+   "t": {
+    "en": "mug",
+    "uk": "кухоль",
+    "ru": "кружка",
+    "pl": "kubek",
+    "de": "Becher",
+    "fr": "mug",
+    "es": "taza",
+    "it": "tazza",
+    "pt": "caneca",
+    "tr": "kupa"
+   },
+   "ex": {
+    "en": "I drink tea from this mug."
+   }
+  },
+  {
+   "id": "home.bookshelf",
+   "t": {
+    "en": "bookshelf",
+    "uk": "книжкова полиця",
+    "ru": "книжная полка",
+    "pl": "półka na książki",
+    "de": "Bücherregal",
+    "fr": "étagère à livres",
+    "es": "estantería",
+    "it": "scaffale",
+    "pt": "estante de livros",
+    "tr": "kitaplık"
+   },
+   "ex": {
+    "en": "The bookshelf is full."
+   }
+  },
+  {
+   "id": "home.stool",
+   "t": {
+    "en": "stool",
+    "uk": "табурет",
+    "ru": "табурет",
+    "pl": "taboret",
+    "de": "Hocker",
+    "fr": "tabouret",
+    "es": "taburete",
+    "it": "sgabello",
+    "pt": "banquinho",
+    "tr": "tabure"
+   },
+   "ex": {
+    "en": "Sit on the stool."
+   }
+  },
+  {
+   "id": "home.toothbrush",
+   "t": {
+    "en": "toothbrush",
+    "uk": "зубна щітка",
+    "ru": "зубная щётка",
+    "pl": "szczoteczka do zębów",
+    "de": "Zahnbürste",
+    "fr": "brosse à dents",
+    "es": "cepillo de dientes",
+    "it": "spazzolino",
+    "pt": "escova de dentes",
+    "tr": "diş fırçası"
+   },
+   "ex": {
+    "en": "My toothbrush is blue."
+   }
+  },
+  {
+   "id": "home.hairdryer",
+   "t": {
+    "en": "hairdryer",
+    "uk": "фен",
+    "ru": "фен",
+    "pl": "suszarka do włosów",
+    "de": "Föhn",
+    "fr": "sèche-cheveux",
+    "es": "secador de pelo",
+    "it": "asciugacapelli",
+    "pt": "secador de cabelo",
+    "tr": "saç kurutma makinesi"
+   },
+   "ex": {
+    "en": "The hairdryer is in the bathroom."
+   }
+  },
+  {
+   "id": "home.kitchen-table",
+   "t": {
+    "en": "kitchen table",
+    "uk": "кухонний стіл",
+    "ru": "кухонный стол",
+    "pl": "stół kuchenny",
+    "de": "Küchentisch",
+    "fr": "table de cuisine",
+    "es": "mesa de la cocina",
+    "it": "tavolo della cucina",
+    "pt": "mesa da cozinha",
+    "tr": "mutfak masası"
+   },
+   "ex": {
+    "en": "We eat at the kitchen table."
+   }
+  },
+  {
+   "id": "home.home",
+   "t": {
+    "en": "home",
+    "uk": "дім",
+    "ru": "дом",
+    "pl": "dom",
+    "de": "Zuhause",
+    "fr": "chez-soi",
+    "es": "hogar",
+    "it": "casa",
+    "pt": "lar",
+    "tr": "yuva"
+   },
+   "ex": {
+    "en": "Home is where my family is."
+   }
+  },
+  {
+   "id": "home.new",
+   "t": {
+    "en": "new",
+    "uk": "новий",
+    "ru": "новый",
+    "pl": "nowy",
+    "de": "neu",
+    "fr": "nouveau",
+    "es": "nuevo",
+    "it": "nuovo",
+    "pt": "novo",
+    "tr": "yeni"
+   },
+   "ex": {
+    "en": "We have a new sofa."
+   }
+  },
+  {
+   "id": "home.clean",
+   "t": {
+    "en": "clean",
+    "uk": "чистий",
+    "ru": "чистый",
+    "pl": "czysty",
+    "de": "sauber",
+    "fr": "propre",
+    "es": "limpio",
+    "it": "pulito",
+    "pt": "limpo",
+    "tr": "temiz"
+   },
+   "ex": {
+    "en": "The kitchen is clean."
+   }
+  },
+  {
+   "id": "home.dirty",
+   "t": {
+    "en": "dirty",
+    "uk": "брудний",
+    "ru": "грязный",
+    "pl": "brudny",
+    "de": "schmutzig",
+    "fr": "sale",
+    "es": "sucio",
+    "it": "sporco",
+    "pt": "sujo",
+    "tr": "kirli"
+   },
+   "ex": {
+    "en": "The floor is dirty."
+   }
+  },
+  {
+   "id": "home.houseplant",
+   "t": {
+    "en": "houseplant",
+    "uk": "кімнатна рослина",
+    "ru": "комнатное растение",
+    "pl": "roślina doniczkowa",
+    "de": "Zimmerpflanze",
+    "fr": "plante d'intérieur",
+    "es": "planta de interior",
+    "it": "pianta da appartamento",
+    "pt": "planta de casa",
+    "tr": "ev bitkisi"
+   },
+   "ex": {
+    "en": "I water my houseplant."
+   }
+  },
+  {
+   "id": "home.vase",
+   "t": {
+    "en": "vase",
+    "uk": "ваза",
+    "ru": "ваза",
+    "pl": "wazon",
+    "de": "Vase",
+    "fr": "vase",
+    "es": "jarrón",
+    "it": "vaso",
+    "pt": "vaso",
+    "tr": "vazo"
+   },
+   "ex": {
+    "en": "Put the flowers in a vase."
+   }
+  },
+  {
+   "id": "home.candle",
+   "t": {
+    "en": "candle",
+    "uk": "свічка",
+    "ru": "свеча",
+    "pl": "świeca",
+    "de": "Kerze",
+    "fr": "bougie",
+    "es": "vela",
+    "it": "candela",
+    "pt": "vela",
+    "tr": "mum"
+   },
+   "ex": {
+    "en": "She lights a candle."
+   }
+  },
+  {
+   "id": "home.to-stay-at-home",
+   "t": {
+    "en": "to stay at home",
+    "uk": "залишатися вдома",
+    "ru": "оставаться дома",
+    "pl": "zostać w domu",
+    "de": "zu Hause bleiben",
+    "fr": "rester à la maison",
+    "es": "quedarse en casa",
+    "it": "restare a casa",
+    "pt": "ficar em casa",
+    "tr": "evde kalmak"
+   },
+   "ex": {
+    "en": "I want to stay at home today."
+   }
+  },
+  {
+   "id": "home.flower-pot",
+   "t": {
+    "en": "flower pot",
+    "uk": "вазон",
+    "ru": "цветочный горшок",
+    "pl": "doniczka",
+    "de": "Blumentopf",
+    "fr": "pot de fleurs",
+    "es": "maceta",
+    "it": "vaso da fiori",
+    "pt": "vaso de flores",
+    "tr": "saksı"
+   },
+   "ex": {
+    "en": "The flower pot is on the window."
+   }
+  },
+  {
+   "id": "home.toilet-paper",
+   "t": {
+    "en": "toilet paper",
+    "uk": "туалетний папір",
+    "ru": "туалетная бумага",
+    "pl": "papier toaletowy",
+    "de": "Toilettenpapier",
+    "fr": "papier toilette",
+    "es": "papel higiénico",
+    "it": "carta igienica",
+    "pt": "papel higiênico",
+    "tr": "tuvalet kağıdı"
+   },
+   "ex": {
+    "en": "We need more toilet paper."
+   }
+  },
+  {
+   "id": "home.toothpaste",
+   "t": {
+    "en": "toothpaste",
+    "uk": "зубна паста",
+    "ru": "зубная паста",
+    "pl": "pasta do zębów",
+    "de": "Zahnpasta",
+    "fr": "dentifrice",
+    "es": "pasta de dientes",
+    "it": "dentifricio",
+    "pt": "pasta de dente",
+    "tr": "diş macunu"
+   },
+   "ex": {
+    "en": "The toothpaste is empty."
+   }
+  },
+  {
+   "id": "home.to-open-the-window",
+   "t": {
+    "en": "to open the window",
+    "uk": "відчинити вікно",
+    "ru": "открыть окно",
+    "pl": "otworzyć okno",
+    "de": "das Fenster öffnen",
+    "fr": "ouvrir la fenêtre",
+    "es": "abrir la ventana",
+    "it": "aprire la finestra",
+    "pt": "abrir a janela",
+    "tr": "pencereyi açmak"
+   },
+   "ex": {
+    "en": "Please open the window."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "home-a2",
  "topic": "home",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "home.hallway",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "I share the housework with my wife."
+   }
+  },
+  {
+   "id": "home.duvet",
+   "t": {
+    "en": "duvet",
+    "uk": "ковдра",
+    "ru": "одеяло",
+    "pl": "kołdra",
+    "de": "Bettdecke",
+    "fr": "couette",
+    "es": "edredón",
+    "it": "piumino",
+    "pt": "edredom",
+    "tr": "yorgan"
+   },
+   "ex": {
+    "en": "This duvet is very warm."
+   }
+  },
+  {
+   "id": "home.cushion",
+   "t": {
+    "en": "cushion",
+    "uk": "диванна подушка",
+    "ru": "диванная подушка",
+    "pl": "poduszka ozdobna",
+    "de": "Kissen",
+    "fr": "coussin",
+    "es": "cojín",
+    "it": "cuscino",
+    "pt": "almofada",
+    "tr": "minder"
+   },
+   "ex": {
+    "en": "There are two cushions on the sofa."
+   }
+  },
+  {
+   "id": "home.coat-hanger",
+   "t": {
+    "en": "coat hanger",
+    "uk": "вішак",
+    "ru": "вешалка",
+    "pl": "wieszak",
+    "de": "Kleiderbügel",
+    "fr": "cintre",
+    "es": "percha",
+    "it": "gruccia",
+    "pt": "cabide",
+    "tr": "elbise askısı"
+   },
+   "ex": {
+    "en": "Hang your shirt on a coat hanger."
+   }
+  },
+  {
+   "id": "home.laundry-basket",
+   "t": {
+    "en": "laundry basket",
+    "uk": "кошик для білизни",
+    "ru": "корзина для белья",
+    "pl": "kosz na pranie",
+    "de": "Wäschekorb",
+    "fr": "panier à linge",
+    "es": "cesto de la ropa",
+    "it": "cesto della biancheria",
+    "pt": "cesto de roupa",
+    "tr": "çamaşır sepeti"
+   },
+   "ex": {
+    "en": "Put dirty clothes in the laundry basket."
+   }
+  },
+  {
+   "id": "home.bucket",
+   "t": {
+    "en": "bucket",
+    "uk": "відро",
+    "ru": "ведро",
+    "pl": "wiadro",
+    "de": "Eimer",
+    "fr": "seau",
+    "es": "cubo",
+    "it": "secchio",
+    "pt": "balde",
+    "tr": "kova"
+   },
+   "ex": {
+    "en": "Fill the bucket with water."
+   }
+  },
+  {
+   "id": "home.mop",
+   "t": {
+    "en": "mop",
+    "uk": "швабра",
+    "ru": "швабра",
+    "pl": "mop",
+    "de": "Wischmopp",
+    "fr": "serpillière",
+    "es": "fregona",
+    "it": "mocio",
+    "pt": "esfregão",
+    "tr": "paspas"
+   },
+   "ex": {
+    "en": "The mop is in the cupboard."
+   }
+  },
+  {
+   "id": "home.broom",
+   "t": {
+    "en": "broom",
+    "uk": "мітла",
+    "ru": "метла",
+    "pl": "miotła",
+    "de": "Besen",
+    "fr": "balai",
+    "es": "escoba",
+    "it": "scopa",
+    "pt": "vassoura",
+    "tr": "süpürge"
+   },
+   "ex": {
+    "en": "Use the broom in the kitchen."
+   }
+  },
+  {
+   "id": "home.vacuum-cleaner",
+   "t": {
+    "en": "vacuum cleaner",
+    "uk": "пилосос",
+    "ru": "пылесос",
+    "pl": "odkurzacz",
+    "de": "Staubsauger",
+    "fr": "aspirateur",
+    "es": "aspiradora",
+    "it": "aspirapolvere",
+    "pt": "aspirador de pó",
+    "tr": "elektrikli süpürge"
+   },
+   "ex": {
+    "en": "Our vacuum cleaner is very loud."
+   }
+  },
+  {
+   "id": "home.washing-up-liquid",
+   "t": {
+    "en": "washing-up liquid",
+    "uk": "засіб для миття посуду",
+    "ru": "средство для мытья посуды",
+    "pl": "płyn do naczyń",
+    "de": "Spülmittel",
+    "fr": "liquide vaisselle",
+    "es": "líquido lavavajillas",
+    "it": "detersivo per i piatti",
+    "pt": "detergente de louça",
+    "tr": "bulaşık deterjanı"
+   },
+   "ex": {
+    "en": "We ran out of washing-up liquid."
+   }
+  },
+  {
+   "id": "home.tablecloth",
+   "t": {
+    "en": "tablecloth",
+    "uk": "скатертина",
+    "ru": "скатерть",
+    "pl": "obrus",
+    "de": "Tischdecke",
+    "fr": "nappe",
+    "es": "mantel",
+    "it": "tovaglia",
+    "pt": "toalha de mesa",
+    "tr": "masa örtüsü"
+   },
+   "ex": {
+    "en": "She put a white tablecloth on the table."
+   }
+  },
+  {
+   "id": "home.tray",
+   "t": {
+    "en": "tray",
+    "uk": "таця",
+    "ru": "поднос",
+    "pl": "taca",
+    "de": "Tablett",
+    "fr": "plateau",
+    "es": "bandeja",
+    "it": "vassoio",
+    "pt": "bandeja",
+    "tr": "tepsi"
+   },
+   "ex": {
+    "en": "He brought the cups on a tray."
+   }
+  },
+  {
+   "id": "home.toaster",
+   "t": {
+    "en": "toaster",
+    "uk": "тостер",
+    "ru": "тостер",
+    "pl": "toster",
+    "de": "Toaster",
+    "fr": "grille-pain",
+    "es": "tostadora",
+    "it": "tostapane",
+    "pt": "torradeira",
+    "tr": "ekmek kızartma makinesi"
+   },
+   "ex": {
+    "en": "The toaster is broken."
+   }
+  },
+  {
+   "id": "home.blender",
+   "t": {
+    "en": "blender",
+    "uk": "блендер",
+    "ru": "блендер",
+    "pl": "blender",
+    "de": "Mixer",
+    "fr": "mixeur",
+    "es": "batidora",
+    "it": "frullatore",
+    "pt": "liquidificador",
+    "tr": "blender"
+   },
+   "ex": {
+    "en": "I make smoothies in the blender."
+   }
+  },
+  {
+   "id": "home.coffee-table",
+   "t": {
+    "en": "coffee table",
+    "uk": "журнальний столик",
+    "ru": "журнальный столик",
+    "pl": "stolik kawowy",
+    "de": "Couchtisch",
+    "fr": "table basse",
+    "es": "mesa de centro",
+    "it": "tavolino",
+    "pt": "mesa de centro",
+    "tr": "sehpa"
+   },
+   "ex": {
+    "en": "The remote is on the coffee table."
+   }
+  },
+  {
+   "id": "home.desk-lamp",
+   "t": {
+    "en": "desk lamp",
+    "uk": "настільна лампа",
+    "ru": "настольная лампа",
+    "pl": "lampka biurkowa",
+    "de": "Schreibtischlampe",
+    "fr": "lampe de bureau",
+    "es": "lámpara de escritorio",
+    "it": "lampada da scrivania",
+    "pt": "luminária de mesa",
+    "tr": "masa lambası"
+   },
+   "ex": {
+    "en": "Turn on the desk lamp."
+   }
+  },
+  {
+   "id": "home.bunk-bed",
+   "t": {
+    "en": "bunk bed",
+    "uk": "двоярусне ліжко",
+    "ru": "двухъярусная кровать",
+    "pl": "łóżko piętrowe",
+    "de": "Etagenbett",
+    "fr": "lits superposés",
+    "es": "litera",
+    "it": "letto a castello",
+    "pt": "beliche",
+    "tr": "ranza"
+   },
+   "ex": {
+    "en": "The kids sleep in a bunk bed."
+   }
+  },
+  {
+   "id": "home.mattress",
+   "t": {
+    "en": "mattress",
+    "uk": "матрац",
+    "ru": "матрас",
+    "pl": "materac",
+    "de": "Matratze",
+    "fr": "matelas",
+    "es": "colchón",
+    "it": "materasso",
+    "pt": "colchão",
+    "tr": "yatak şiltesi"
+   },
+   "ex": {
+    "en": "This mattress is too soft."
+   }
+  },
+  {
+   "id": "home.to-sweep",
+   "t": {
+    "en": "to sweep",
+    "uk": "підмітати",
+    "ru": "подметать",
+    "pl": "zamiatać",
+    "de": "fegen",
+    "fr": "balayer",
+    "es": "barrer",
+    "it": "spazzare",
+    "pt": "varrer",
+    "tr": "süpürmek"
+   },
+   "ex": {
+    "en": "I sweep the floor every day."
+   }
+  },
+  {
+   "id": "home.to-change-the-sheets",
+   "t": {
+    "en": "to change the sheets",
+    "uk": "змінити постіль",
+    "ru": "сменить постельное бельё",
+    "pl": "zmienić pościel",
+    "de": "das Bett beziehen",
+    "fr": "changer les draps",
+    "es": "cambiar las sábanas",
+    "it": "cambiare le lenzuola",
+    "pt": "trocar os lençóis",
+    "tr": "çarşafları değiştirmek"
+   },
+   "ex": {
+    "en": "I change the sheets on Sunday."
+   }
+  },
+  {
+   "id": "home.to-hang-up-clothes",
+   "t": {
+    "en": "to hang up clothes",
+    "uk": "розвішувати одяг",
+    "ru": "вешать одежду",
+    "pl": "wieszać ubrania",
+    "de": "Kleidung aufhängen",
+    "fr": "suspendre les vêtements",
+    "es": "colgar la ropa",
+    "it": "appendere i vestiti",
+    "pt": "pendurar a roupa",
+    "tr": "kıyafetleri asmak"
+   },
+   "ex": {
+    "en": "Please hang up your clothes."
+   }
+  },
+  {
+   "id": "home.messy",
+   "t": {
+    "en": "messy",
+    "uk": "безладний",
+    "ru": "неубранный",
+    "pl": "nieposprzątany",
+    "de": "unordentlich",
+    "fr": "en désordre",
+    "es": "desordenado",
+    "it": "disordinato",
+    "pt": "bagunçado",
+    "tr": "dağınık"
+   },
+   "ex": {
+    "en": "His room is always messy."
+   }
+  },
+  {
+   "id": "home.tidy",
+   "t": {
+    "en": "tidy",
+    "uk": "охайний",
+    "ru": "аккуратный",
+    "pl": "uporządkowany",
+    "de": "ordentlich",
+    "fr": "bien rangé",
+    "es": "ordenado",
+    "it": "in ordine",
+    "pt": "arrumado",
+    "tr": "derli toplu"
+   },
+   "ex": {
+    "en": "Keep your desk tidy."
+   }
+  },
+  {
+   "id": "home.comfortable",
+   "t": {
+    "en": "comfortable",
+    "uk": "зручний",
+    "ru": "удобный",
+    "pl": "wygodny",
+    "de": "bequem",
+    "fr": "confortable",
+    "es": "cómodo",
+    "it": "comodo",
+    "pt": "confortável",
+    "tr": "rahat"
+   },
+   "ex": {
+    "en": "This armchair is very comfortable."
+   }
+  },
+  {
+   "id": "home.modern",
+   "t": {
+    "en": "modern",
+    "uk": "сучасний",
+    "ru": "современный",
+    "pl": "nowoczesny",
+    "de": "modern",
+    "fr": "moderne",
+    "es": "moderno",
+    "it": "moderno",
+    "pt": "moderno",
+    "tr": "modern"
+   },
+   "ex": {
+    "en": "They have a modern kitchen."
+   }
+  },
+  {
+   "id": "home.furniture",
+   "t": {
+    "en": "furniture",
+    "uk": "меблі",
+    "ru": "мебель",
+    "pl": "meble",
+    "de": "Möbel",
+    "fr": "meubles",
+    "es": "muebles",
+    "it": "mobili",
+    "pt": "móveis",
+    "tr": "mobilya"
+   },
+   "ex": {
+    "en": "We bought new furniture."
+   }
+  },
+  {
+   "id": "home.terrace",
+   "t": {
+    "en": "terrace",
+    "uk": "тераса",
+    "ru": "терраса",
+    "pl": "taras",
+    "de": "Terrasse",
+    "fr": "terrasse",
+    "es": "terraza",
+    "it": "terrazza",
+    "pt": "terraço",
+    "tr": "teras"
+   },
+   "ex": {
+    "en": "We have breakfast on the terrace."
+   }
+  },
+  {
+   "id": "home.back-garden",
+   "t": {
+    "en": "back garden",
+    "uk": "задній двір",
+    "ru": "сад за домом",
+    "pl": "ogród za domem",
+    "de": "Garten hinter dem Haus",
+    "fr": "jardin de derrière",
+    "es": "jardín trasero",
+    "it": "giardino sul retro",
+    "pt": "quintal",
+    "tr": "arka bahçe"
+   },
+   "ex": {
+    "en": "The kids play in the back garden."
+   }
+  },
+  {
+   "id": "home.neighbourhood",
+   "t": {
+    "en": "neighbourhood",
+    "uk": "район",
+    "ru": "район",
+    "pl": "okolica",
+    "de": "Nachbarschaft",
+    "fr": "quartier",
+    "es": "barrio",
+    "it": "quartiere",
+    "pt": "bairro",
+    "tr": "mahalle"
+   },
+   "ex": {
+    "en": "It's a quiet neighbourhood."
+   }
+  },
+  {
+   "id": "home.top-floor",
+   "t": {
+    "en": "top floor",
+    "uk": "верхній поверх",
+    "ru": "верхний этаж",
+    "pl": "ostatnie piętro",
+    "de": "oberstes Stockwerk",
+    "fr": "dernier étage",
+    "es": "último piso",
+    "it": "ultimo piano",
+    "pt": "último andar",
+    "tr": "en üst kat"
+   },
+   "ex": {
+    "en": "We live on the top floor."
+   }
+  },
+  {
+   "id": "home.spare-key",
+   "t": {
+    "en": "spare key",
+    "uk": "запасний ключ",
+    "ru": "запасной ключ",
+    "pl": "zapasowy klucz",
+    "de": "Ersatzschlüssel",
+    "fr": "double de clé",
+    "es": "llave de repuesto",
+    "it": "chiave di riserva",
+    "pt": "chave reserva",
+    "tr": "yedek anahtar"
+   },
+   "ex": {
+    "en": "My neighbour has a spare key."
    }
   }
  ]

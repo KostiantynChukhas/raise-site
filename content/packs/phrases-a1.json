@@ -2,7 +2,7 @@
  "id": "phrases-a1",
  "topic": "phrases",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "phrases.hello",
@@ -884,6 +884,384 @@
    },
    "ex": {
     "en": "Close the window, please. I'm cold."
+   }
+  },
+  {
+   "id": "phrases.hi",
+   "t": {
+    "en": "hi",
+    "uk": "привіт",
+    "ru": "привет",
+    "pl": "cześć",
+    "de": "hallo",
+    "fr": "salut",
+    "es": "hola",
+    "it": "ciao",
+    "pt": "oi",
+    "tr": "merhaba"
+   },
+   "ex": {
+    "en": "Hi, how are you?"
+   }
+  },
+  {
+   "id": "phrases.thanks",
+   "t": {
+    "en": "thanks",
+    "uk": "дякую",
+    "ru": "спасибо",
+    "pl": "dzięki",
+    "de": "danke",
+    "fr": "merci",
+    "es": "gracias",
+    "it": "grazie",
+    "pt": "obrigado",
+    "tr": "teşekkürler"
+   },
+   "ex": {
+    "en": "Thanks for your help."
+   }
+  },
+  {
+   "id": "phrases.wait-a-minute",
+   "t": {
+    "en": "wait a minute",
+    "uk": "зачекай хвилинку",
+    "ru": "подожди минутку",
+    "pl": "zaczekaj chwilę",
+    "de": "Moment mal",
+    "fr": "attends une minute",
+    "es": "espera un momento",
+    "it": "aspetta un attimo",
+    "pt": "espera um minuto",
+    "tr": "bir dakika bekle"
+   },
+   "ex": {
+    "en": "Wait a minute, I'm coming."
+   }
+  },
+  {
+   "id": "phrases.come-here",
+   "t": {
+    "en": "come here",
+    "uk": "іди сюди",
+    "ru": "иди сюда",
+    "pl": "chodź tutaj",
+    "de": "komm her",
+    "fr": "viens ici",
+    "es": "ven aquí",
+    "it": "vieni qui",
+    "pt": "vem aqui",
+    "tr": "buraya gel"
+   },
+   "ex": {
+    "en": "Come here, please."
+   }
+  },
+  {
+   "id": "phrases.look",
+   "t": {
+    "en": "look!",
+    "uk": "дивись!",
+    "ru": "смотри!",
+    "pl": "patrz!",
+    "de": "schau mal!",
+    "fr": "regarde !",
+    "es": "¡mira!",
+    "it": "guarda!",
+    "pt": "olha!",
+    "tr": "bak!"
+   },
+   "ex": {
+    "en": "Look! A rainbow!"
+   }
+  },
+  {
+   "id": "phrases.im-hot",
+   "t": {
+    "en": "I'm hot",
+    "uk": "мені спекотно",
+    "ru": "мне жарко",
+    "pl": "jest mi gorąco",
+    "de": "mir ist heiß",
+    "fr": "j'ai chaud",
+    "es": "tengo calor",
+    "it": "ho caldo",
+    "pt": "estou com calor",
+    "tr": "sıcakladım"
+   },
+   "ex": {
+    "en": "I'm hot. Open the window."
+   }
+  },
+  {
+   "id": "phrases.im-happy",
+   "t": {
+    "en": "I'm happy",
+    "uk": "я щасливий",
+    "ru": "я счастлив",
+    "pl": "jestem szczęśliwy",
+    "de": "ich bin glücklich",
+    "fr": "je suis heureux",
+    "es": "estoy feliz",
+    "it": "sono felice",
+    "pt": "estou feliz",
+    "tr": "mutluyum"
+   },
+   "ex": {
+    "en": "I'm happy to see you."
+   }
+  },
+  {
+   "id": "phrases.im-sad",
+   "t": {
+    "en": "I'm sad",
+    "uk": "мені сумно",
+    "ru": "мне грустно",
+    "pl": "jest mi smutno",
+    "de": "ich bin traurig",
+    "fr": "je suis triste",
+    "es": "estoy triste",
+    "it": "sono triste",
+    "pt": "estou triste",
+    "tr": "üzgünüm"
+   },
+   "ex": {
+    "en": "I'm sad today."
+   }
+  },
+  {
+   "id": "phrases.i-love-it",
+   "t": {
+    "en": "I love it",
+    "uk": "мені дуже подобається",
+    "ru": "мне очень нравится",
+    "pl": "uwielbiam to",
+    "de": "ich liebe es",
+    "fr": "j'adore",
+    "es": "me encanta",
+    "it": "lo adoro",
+    "pt": "eu adoro",
+    "tr": "bayıldım"
+   },
+   "ex": {
+    "en": "Thank you for the gift. I love it!"
+   }
+  },
+  {
+   "id": "phrases.really",
+   "t": {
+    "en": "really?",
+    "uk": "справді?",
+    "ru": "правда?",
+    "pl": "naprawdę?",
+    "de": "wirklich?",
+    "fr": "vraiment ?",
+    "es": "¿en serio?",
+    "it": "davvero?",
+    "pt": "sério?",
+    "tr": "gerçekten mi?"
+   },
+   "ex": {
+    "en": "Really? That's great!"
+   }
+  },
+  {
+   "id": "phrases.all-right",
+   "t": {
+    "en": "all right",
+    "uk": "гаразд",
+    "ru": "ладно",
+    "pl": "w porządku",
+    "de": "in Ordnung",
+    "fr": "d'accord",
+    "es": "vale",
+    "it": "va bene",
+    "pt": "tudo bem",
+    "tr": "tamam"
+   },
+   "ex": {
+    "en": "All right, let's go."
+   }
+  },
+  {
+   "id": "phrases.the-bill-please",
+   "t": {
+    "en": "the bill, please",
+    "uk": "рахунок, будь ласка",
+    "ru": "счёт, пожалуйста",
+    "pl": "poproszę rachunek",
+    "de": "die Rechnung, bitte",
+    "fr": "l'addition, s'il vous plaît",
+    "es": "la cuenta, por favor",
+    "it": "il conto, per favore",
+    "pt": "a conta, por favor",
+    "tr": "hesap lütfen"
+   },
+   "ex": {
+    "en": "Excuse me, the bill, please."
+   }
+  },
+  {
+   "id": "phrases.im-sick",
+   "t": {
+    "en": "I'm sick",
+    "uk": "я хворий",
+    "ru": "я болен",
+    "pl": "jestem chory",
+    "de": "ich bin krank",
+    "fr": "je suis malade",
+    "es": "estoy enfermo",
+    "it": "sono malato",
+    "pt": "estou doente",
+    "tr": "hastayım"
+   },
+   "ex": {
+    "en": "I'm sick, I can't come."
+   }
+  },
+  {
+   "id": "phrases.is-it-far",
+   "t": {
+    "en": "is it far?",
+    "uk": "це далеко?",
+    "ru": "это далеко?",
+    "pl": "czy to daleko?",
+    "de": "ist es weit?",
+    "fr": "c'est loin ?",
+    "es": "¿está lejos?",
+    "it": "è lontano?",
+    "pt": "é longe?",
+    "tr": "uzak mı?"
+   },
+   "ex": {
+    "en": "Is it far from here?"
+   }
+  },
+  {
+   "id": "phrases.i-speak-a-little",
+   "t": {
+    "en": "I speak a little",
+    "uk": "я трохи розмовляю",
+    "ru": "я немного говорю",
+    "pl": "mówię trochę",
+    "de": "ich spreche ein bisschen",
+    "fr": "je parle un peu",
+    "es": "hablo un poco",
+    "it": "parlo un po'",
+    "pt": "falo um pouco",
+    "tr": "biraz konuşuyorum"
+   },
+   "ex": {
+    "en": "I speak a little Spanish."
+   }
+  },
+  {
+   "id": "phrases.sleep-well",
+   "t": {
+    "en": "sleep well",
+    "uk": "спи добре",
+    "ru": "спи спокойно",
+    "pl": "śpij dobrze",
+    "de": "schlaf gut",
+    "fr": "dors bien",
+    "es": "que duermas bien",
+    "it": "dormi bene",
+    "pt": "durma bem",
+    "tr": "iyi uykular"
+   },
+   "ex": {
+    "en": "Good night, sleep well!"
+   }
+  },
+  {
+   "id": "phrases.let-me-see",
+   "t": {
+    "en": "let me see",
+    "uk": "дай подивитися",
+    "ru": "дай посмотреть",
+    "pl": "daj mi zobaczyć",
+    "de": "lass mich sehen",
+    "fr": "fais voir",
+    "es": "déjame ver",
+    "it": "fammi vedere",
+    "pt": "deixa eu ver",
+    "tr": "bir bakayım"
+   },
+   "ex": {
+    "en": "Let me see the photo."
+   }
+  },
+  {
+   "id": "phrases.good-idea",
+   "t": {
+    "en": "good idea",
+    "uk": "гарна ідея",
+    "ru": "хорошая идея",
+    "pl": "dobry pomysł",
+    "de": "gute Idee",
+    "fr": "bonne idée",
+    "es": "buena idea",
+    "it": "buona idea",
+    "pt": "boa ideia",
+    "tr": "iyi fikir"
+   },
+   "ex": {
+    "en": "Pizza tonight? Good idea!"
+   }
+  },
+  {
+   "id": "phrases.im-years-old",
+   "t": {
+    "en": "I'm ... years old",
+    "uk": "мені ... років",
+    "ru": "мне ... лет",
+    "pl": "mam ... lat",
+    "de": "ich bin ... Jahre alt",
+    "fr": "j'ai ... ans",
+    "es": "tengo ... años",
+    "it": "ho ... anni",
+    "pt": "tenho ... anos",
+    "tr": "... yaşındayım"
+   },
+   "ex": {
+    "en": "I'm ten years old."
+   }
+  },
+  {
+   "id": "phrases.im-late",
+   "t": {
+    "en": "I'm late",
+    "uk": "я запізнився",
+    "ru": "я опоздал",
+    "pl": "spóźniłem się",
+    "de": "ich bin spät dran",
+    "fr": "je suis en retard",
+    "es": "llego tarde",
+    "it": "sono in ritardo",
+    "pt": "estou atrasado",
+    "tr": "geç kaldım"
+   },
+   "ex": {
+    "en": "Sorry, I'm late!"
+   }
+  },
+  {
+   "id": "phrases.im-bored",
+   "t": {
+    "en": "I'm bored",
+    "uk": "мені нудно",
+    "ru": "мне скучно",
+    "pl": "nudzę się",
+    "de": "mir ist langweilig",
+    "fr": "je m'ennuie",
+    "es": "estoy aburrido",
+    "it": "mi annoio",
+    "pt": "estou entediado",
+    "tr": "sıkıldım"
+   },
+   "ex": {
+    "en": "I'm bored. Let's play a game."
    }
   }
  ]

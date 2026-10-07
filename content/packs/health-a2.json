@@ -2,7 +2,7 @@
  "id": "health-a2",
  "topic": "health",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "health.symptom",
@@ -866,6 +866,582 @@
    },
    "ex": {
     "en": "Use sunscreen to avoid sunburn."
+   }
+  },
+  {
+   "id": "health.heartburn",
+   "t": {
+    "en": "heartburn",
+    "uk": "печія",
+    "ru": "изжога",
+    "pl": "zgaga",
+    "de": "Sodbrennen",
+    "fr": "brûlures d'estomac",
+    "es": "ardor de estómago",
+    "it": "bruciore di stomaco",
+    "pt": "azia",
+    "tr": "mide yanması"
+   },
+   "ex": {
+    "en": "Spicy food gives me heartburn."
+   }
+  },
+  {
+   "id": "health.pharmacist",
+   "t": {
+    "en": "pharmacist",
+    "uk": "фармацевт",
+    "ru": "фармацевт",
+    "pl": "farmaceuta",
+    "de": "Apotheker",
+    "fr": "pharmacien",
+    "es": "farmacéutico",
+    "it": "farmacista",
+    "pt": "farmacêutico",
+    "tr": "eczacı"
+   },
+   "ex": {
+    "en": "Ask the pharmacist for advice."
+   }
+  },
+  {
+   "id": "health.to-feel-sick",
+   "t": {
+    "en": "to feel sick",
+    "uk": "відчувати нудоту",
+    "ru": "тошнить",
+    "pl": "mieć mdłości",
+    "de": "sich übel fühlen",
+    "fr": "avoir mal au cœur",
+    "es": "tener náuseas",
+    "it": "avere la nausea",
+    "pt": "estar enjoado",
+    "tr": "midesi bulanmak"
+   },
+   "ex": {
+    "en": "I feel sick on buses."
+   }
+  },
+  {
+   "id": "health.to-burn-oneself",
+   "t": {
+    "en": "to burn oneself",
+    "uk": "обпектися",
+    "ru": "обжечься",
+    "pl": "oparzyć się",
+    "de": "sich verbrennen",
+    "fr": "se brûler",
+    "es": "quemarse",
+    "it": "scottarsi",
+    "pt": "queimar-se",
+    "tr": "kendini yakmak"
+   },
+   "ex": {
+    "en": "I burned myself on the pan."
+   }
+  },
+  {
+   "id": "health.to-cut-oneself",
+   "t": {
+    "en": "to cut oneself",
+    "uk": "порізатися",
+    "ru": "порезаться",
+    "pl": "skaleczyć się",
+    "de": "sich schneiden",
+    "fr": "se couper",
+    "es": "cortarse",
+    "it": "tagliarsi",
+    "pt": "cortar-se",
+    "tr": "bir yerini kesmek"
+   },
+   "ex": {
+    "en": "Be careful not to cut yourself."
+   }
+  },
+  {
+   "id": "health.to-twist-ones-ankle",
+   "t": {
+    "en": "to twist one's ankle",
+    "uk": "підвернути ногу",
+    "ru": "подвернуть ногу",
+    "pl": "skręcić kostkę",
+    "de": "sich den Knöchel verstauchen",
+    "fr": "se tordre la cheville",
+    "es": "torcerse el tobillo",
+    "it": "storcersi la caviglia",
+    "pt": "torcer o tornozelo",
+    "tr": "bileğini burkmak"
+   },
+   "ex": {
+    "en": "I twisted my ankle running."
+   }
+  },
+  {
+   "id": "health.weight",
+   "t": {
+    "en": "weight",
+    "uk": "вага",
+    "ru": "вес",
+    "pl": "waga",
+    "de": "Gewicht",
+    "fr": "poids",
+    "es": "peso",
+    "it": "peso",
+    "pt": "peso",
+    "tr": "kilo"
+   },
+   "ex": {
+    "en": "Check your weight once a week."
+   }
+  },
+  {
+   "id": "health.to-put-on-weight",
+   "t": {
+    "en": "to put on weight",
+    "uk": "набирати вагу",
+    "ru": "набирать вес",
+    "pl": "przytyć",
+    "de": "zunehmen",
+    "fr": "prendre du poids",
+    "es": "engordar",
+    "it": "ingrassare",
+    "pt": "engordar",
+    "tr": "kilo almak"
+   },
+   "ex": {
+    "en": "I put on weight in winter."
+   }
+  },
+  {
+   "id": "health.healthy-lifestyle",
+   "t": {
+    "en": "healthy lifestyle",
+    "uk": "здоровий спосіб життя",
+    "ru": "здоровый образ жизни",
+    "pl": "zdrowy tryb życia",
+    "de": "gesunder Lebensstil",
+    "fr": "mode de vie sain",
+    "es": "estilo de vida saludable",
+    "it": "stile di vita sano",
+    "pt": "estilo de vida saudável",
+    "tr": "sağlıklı yaşam tarzı"
+   },
+   "ex": {
+    "en": "She has a healthy lifestyle."
+   }
+  },
+  {
+   "id": "health.unhealthy",
+   "t": {
+    "en": "unhealthy",
+    "uk": "шкідливий для здоров'я",
+    "ru": "вредный для здоровья",
+    "pl": "niezdrowy",
+    "de": "ungesund",
+    "fr": "malsain",
+    "es": "poco saludable",
+    "it": "malsano",
+    "pt": "pouco saudável",
+    "tr": "sağlıksız"
+   },
+   "ex": {
+    "en": "Fast food is unhealthy."
+   }
+  },
+  {
+   "id": "health.to-go-to-the-gym",
+   "t": {
+    "en": "to go to the gym",
+    "uk": "ходити в спортзал",
+    "ru": "ходить в спортзал",
+    "pl": "chodzić na siłownię",
+    "de": "ins Fitnessstudio gehen",
+    "fr": "aller à la salle de sport",
+    "es": "ir al gimnasio",
+    "it": "andare in palestra",
+    "pt": "ir à academia",
+    "tr": "spor salonuna gitmek"
+   },
+   "ex": {
+    "en": "I go to the gym on Mondays."
+   }
+  },
+  {
+   "id": "health.to-jog",
+   "t": {
+    "en": "to jog",
+    "uk": "бігати підтюпцем",
+    "ru": "бегать трусцой",
+    "pl": "biegać",
+    "de": "joggen",
+    "fr": "faire du jogging",
+    "es": "hacer footing",
+    "it": "fare jogging",
+    "pt": "correr",
+    "tr": "koşu yapmak"
+   },
+   "ex": {
+    "en": "I jog in the park."
+   }
+  },
+  {
+   "id": "health.to-take-a-temperature",
+   "t": {
+    "en": "to take a temperature",
+    "uk": "міряти температуру",
+    "ru": "мерить температуру",
+    "pl": "mierzyć temperaturę",
+    "de": "Fieber messen",
+    "fr": "prendre la température",
+    "es": "tomar la temperatura",
+    "it": "misurare la febbre",
+    "pt": "medir a temperatura",
+    "tr": "ateş ölçmek"
+   },
+   "ex": {
+    "en": "The nurse took my temperature."
+   }
+  },
+  {
+   "id": "health.face-mask",
+   "t": {
+    "en": "face mask",
+    "uk": "медична маска",
+    "ru": "медицинская маска",
+    "pl": "maseczka",
+    "de": "Mundschutz",
+    "fr": "masque",
+    "es": "mascarilla",
+    "it": "mascherina",
+    "pt": "máscara",
+    "tr": "maske"
+   },
+   "ex": {
+    "en": "Wear a face mask inside."
+   }
+  },
+  {
+   "id": "health.contact-lenses",
+   "t": {
+    "en": "contact lenses",
+    "uk": "контактні лінзи",
+    "ru": "контактные линзы",
+    "pl": "soczewki kontaktowe",
+    "de": "Kontaktlinsen",
+    "fr": "lentilles de contact",
+    "es": "lentillas",
+    "it": "lenti a contatto",
+    "pt": "lentes de contato",
+    "tr": "kontakt lens"
+   },
+   "ex": {
+    "en": "I wear contact lenses."
+   }
+  },
+  {
+   "id": "health.deaf",
+   "t": {
+    "en": "deaf",
+    "uk": "глухий",
+    "ru": "глухой",
+    "pl": "głuchy",
+    "de": "taub",
+    "fr": "sourd",
+    "es": "sordo",
+    "it": "sordo",
+    "pt": "surdo",
+    "tr": "sağır"
+   },
+   "ex": {
+    "en": "My grandpa is a bit deaf."
+   }
+  },
+  {
+   "id": "health.blind",
+   "t": {
+    "en": "blind",
+    "uk": "сліпий",
+    "ru": "слепой",
+    "pl": "niewidomy",
+    "de": "blind",
+    "fr": "aveugle",
+    "es": "ciego",
+    "it": "cieco",
+    "pt": "cego",
+    "tr": "kör"
+   },
+   "ex": {
+    "en": "The blind man has a dog."
+   }
+  },
+  {
+   "id": "health.wheelchair",
+   "t": {
+    "en": "wheelchair",
+    "uk": "інвалідний візок",
+    "ru": "инвалидная коляска",
+    "pl": "wózek inwalidzki",
+    "de": "Rollstuhl",
+    "fr": "fauteuil roulant",
+    "es": "silla de ruedas",
+    "it": "sedia a rotelle",
+    "pt": "cadeira de rodas",
+    "tr": "tekerlekli sandalye"
+   },
+   "ex": {
+    "en": "She uses a wheelchair."
+   }
+  },
+  {
+   "id": "health.crutches",
+   "t": {
+    "en": "crutches",
+    "uk": "милиці",
+    "ru": "костыли",
+    "pl": "kule",
+    "de": "Krücken",
+    "fr": "béquilles",
+    "es": "muletas",
+    "it": "stampelle",
+    "pt": "muletas",
+    "tr": "koltuk değnekleri"
+   },
+   "ex": {
+    "en": "He walks on crutches."
+   }
+  },
+  {
+   "id": "health.to-smoke",
+   "t": {
+    "en": "to smoke",
+    "uk": "курити",
+    "ru": "курить",
+    "pl": "palić",
+    "de": "rauchen",
+    "fr": "fumer",
+    "es": "fumar",
+    "it": "fumare",
+    "pt": "fumar",
+    "tr": "sigara içmek"
+   },
+   "ex": {
+    "en": "My uncle doesn't smoke."
+   }
+  },
+  {
+   "id": "health.to-shiver",
+   "t": {
+    "en": "to shiver",
+    "uk": "тремтіти",
+    "ru": "дрожать",
+    "pl": "drżeć",
+    "de": "zittern",
+    "fr": "grelotter",
+    "es": "tiritar",
+    "it": "tremare",
+    "pt": "tremer",
+    "tr": "titremek"
+   },
+   "ex": {
+    "en": "I'm shivering with cold."
+   }
+  },
+  {
+   "id": "health.itchy",
+   "t": {
+    "en": "itchy",
+    "uk": "свербіжний",
+    "ru": "зудящий",
+    "pl": "swędzący",
+    "de": "juckend",
+    "fr": "qui gratte",
+    "es": "que pica",
+    "it": "che prude",
+    "pt": "que coça",
+    "tr": "kaşıntılı"
+   },
+   "ex": {
+    "en": "My skin is itchy."
+   }
+  },
+  {
+   "id": "health.sore",
+   "t": {
+    "en": "sore",
+    "uk": "болючий",
+    "ru": "ноющий",
+    "pl": "obolały",
+    "de": "schmerzend",
+    "fr": "douloureux",
+    "es": "dolorido",
+    "it": "dolorante",
+    "pt": "dolorido",
+    "tr": "ağrılı"
+   },
+   "ex": {
+    "en": "My legs are sore."
+   }
+  },
+  {
+   "id": "health.stomach-bug",
+   "t": {
+    "en": "stomach bug",
+    "uk": "кишкова інфекція",
+    "ru": "кишечная инфекция",
+    "pl": "grypa żołądkowa",
+    "de": "Magen-Darm-Infekt",
+    "fr": "gastro",
+    "es": "virus estomacal",
+    "it": "virus intestinale",
+    "pt": "virose",
+    "tr": "mide virüsü"
+   },
+   "ex": {
+    "en": "Half the class has a stomach bug."
+   }
+  },
+  {
+   "id": "health.insect-bite",
+   "t": {
+    "en": "insect bite",
+    "uk": "укус комахи",
+    "ru": "укус насекомого",
+    "pl": "ukąszenie owada",
+    "de": "Insektenstich",
+    "fr": "piqûre d'insecte",
+    "es": "picadura de insecto",
+    "it": "puntura d'insetto",
+    "pt": "picada de inseto",
+    "tr": "böcek ısırığı"
+   },
+   "ex": {
+    "en": "This insect bite is itchy."
+   }
+  },
+  {
+   "id": "health.sleeping-pill",
+   "t": {
+    "en": "sleeping pill",
+    "uk": "снодійне",
+    "ru": "снотворное",
+    "pl": "tabletka nasenna",
+    "de": "Schlaftablette",
+    "fr": "somnifère",
+    "es": "somnífero",
+    "it": "sonnifero",
+    "pt": "remédio para dormir",
+    "tr": "uyku hapı"
+   },
+   "ex": {
+    "en": "Don't take a sleeping pill every night."
+   }
+  },
+  {
+   "id": "health.cough-medicine",
+   "t": {
+    "en": "cough medicine",
+    "uk": "ліки від кашлю",
+    "ru": "лекарство от кашля",
+    "pl": "lek na kaszel",
+    "de": "Hustenmittel",
+    "fr": "médicament contre la toux",
+    "es": "jarabe para la tos",
+    "it": "medicina per la tosse",
+    "pt": "remédio para tosse",
+    "tr": "öksürük ilacı"
+   },
+   "ex": {
+    "en": "Take this cough medicine."
+   }
+  },
+  {
+   "id": "health.eye-drops",
+   "t": {
+    "en": "eye drops",
+    "uk": "очні краплі",
+    "ru": "глазные капли",
+    "pl": "krople do oczu",
+    "de": "Augentropfen",
+    "fr": "collyre",
+    "es": "colirio",
+    "it": "collirio",
+    "pt": "colírio",
+    "tr": "göz damlası"
+   },
+   "ex": {
+    "en": "Use eye drops twice a day."
+   }
+  },
+  {
+   "id": "health.hearing-aid",
+   "t": {
+    "en": "hearing aid",
+    "uk": "слуховий апарат",
+    "ru": "слуховой аппарат",
+    "pl": "aparat słuchowy",
+    "de": "Hörgerät",
+    "fr": "appareil auditif",
+    "es": "audífono",
+    "it": "apparecchio acustico",
+    "pt": "aparelho auditivo",
+    "tr": "işitme cihazı"
+   },
+   "ex": {
+    "en": "Grandma wears a hearing aid."
+   }
+  },
+  {
+   "id": "health.to-get-sick",
+   "t": {
+    "en": "to get sick",
+    "uk": "захворіти",
+    "ru": "заболеть",
+    "pl": "zachorować",
+    "de": "krank werden",
+    "fr": "tomber malade",
+    "es": "ponerse enfermo",
+    "it": "ammalarsi",
+    "pt": "ficar doente",
+    "tr": "hastalanmak"
+   },
+   "ex": {
+    "en": "I always get sick in winter."
+   }
+  },
+  {
+   "id": "health.eyesight",
+   "t": {
+    "en": "eyesight",
+    "uk": "зір",
+    "ru": "зрение",
+    "pl": "wzrok",
+    "de": "Sehkraft",
+    "fr": "vue",
+    "es": "vista",
+    "it": "vista",
+    "pt": "visão",
+    "tr": "görme gücü"
+   },
+   "ex": {
+    "en": "My eyesight is getting worse."
+   }
+  },
+  {
+   "id": "health.nosebleed",
+   "t": {
+    "en": "nosebleed",
+    "uk": "носова кровотеча",
+    "ru": "носовое кровотечение",
+    "pl": "krwawienie z nosa",
+    "de": "Nasenbluten",
+    "fr": "saignement de nez",
+    "es": "hemorragia nasal",
+    "it": "sangue dal naso",
+    "pt": "sangramento nasal",
+    "tr": "burun kanaması"
+   },
+   "ex": {
+    "en": "He had a nosebleed."
    }
   }
  ]

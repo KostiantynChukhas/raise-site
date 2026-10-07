@@ -2,7 +2,7 @@
  "id": "work-a2",
  "topic": "work",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "work.to-apply-for-a-job",
@@ -866,6 +866,582 @@
    },
    "ex": {
     "en": "Friday is payday!"
+   }
+  },
+  {
+   "id": "work.to-work-shifts",
+   "t": {
+    "en": "to work shifts",
+    "uk": "працювати змінами",
+    "ru": "работать посменно",
+    "pl": "pracować na zmiany",
+    "de": "Schicht arbeiten",
+    "fr": "travailler en équipe",
+    "es": "trabajar por turnos",
+    "it": "lavorare a turni",
+    "pt": "trabalhar em turnos",
+    "tr": "vardiyalı çalışmak"
+   },
+   "ex": {
+    "en": "Nurses often work shifts."
+   }
+  },
+  {
+   "id": "work.to-take-a-day-off",
+   "t": {
+    "en": "to take a day off",
+    "uk": "взяти вихідний",
+    "ru": "взять выходной",
+    "pl": "wziąć dzień wolny",
+    "de": "sich einen Tag freinehmen",
+    "fr": "prendre un jour de congé",
+    "es": "tomarse un día libre",
+    "it": "prendersi un giorno libero",
+    "pt": "tirar um dia de folga",
+    "tr": "izin almak"
+   },
+   "ex": {
+    "en": "I'm taking a day off on Friday."
+   }
+  },
+  {
+   "id": "work.to-earn-money",
+   "t": {
+    "en": "to earn money",
+    "uk": "заробляти гроші",
+    "ru": "зарабатывать деньги",
+    "pl": "zarabiać pieniądze",
+    "de": "Geld verdienen",
+    "fr": "gagner de l'argent",
+    "es": "ganar dinero",
+    "it": "guadagnare soldi",
+    "pt": "ganhar dinheiro",
+    "tr": "para kazanmak"
+   },
+   "ex": {
+    "en": "Students work in summer to earn money."
+   }
+  },
+  {
+   "id": "work.to-work-part-time",
+   "t": {
+    "en": "to work part-time",
+    "uk": "працювати неповний день",
+    "ru": "работать неполный день",
+    "pl": "pracować na pół etatu",
+    "de": "Teilzeit arbeiten",
+    "fr": "travailler à temps partiel",
+    "es": "trabajar a tiempo parcial",
+    "it": "lavorare part-time",
+    "pt": "trabalhar meio período",
+    "tr": "yarı zamanlı çalışmak"
+   },
+   "ex": {
+    "en": "She works part-time in a café."
+   }
+  },
+  {
+   "id": "work.office-party",
+   "t": {
+    "en": "office party",
+    "uk": "корпоратив",
+    "ru": "корпоратив",
+    "pl": "impreza firmowa",
+    "de": "Betriebsfeier",
+    "fr": "fête de bureau",
+    "es": "fiesta de la oficina",
+    "it": "festa aziendale",
+    "pt": "festa da firma",
+    "tr": "ofis partisi"
+   },
+   "ex": {
+    "en": "The office party is on Friday."
+   }
+  },
+  {
+   "id": "work.desk-job",
+   "t": {
+    "en": "desk job",
+    "uk": "офісна робота",
+    "ru": "офисная работа",
+    "pl": "praca biurowa",
+    "de": "Bürojob",
+    "fr": "travail de bureau",
+    "es": "trabajo de oficina",
+    "it": "lavoro d'ufficio",
+    "pt": "trabalho de escritório",
+    "tr": "masa başı iş"
+   },
+   "ex": {
+    "en": "I don't want a desk job."
+   }
+  },
+  {
+   "id": "work.timesheet",
+   "t": {
+    "en": "timesheet",
+    "uk": "табель робочого часу",
+    "ru": "табель учёта времени",
+    "pl": "karta czasu pracy",
+    "de": "Stundenzettel",
+    "fr": "feuille de temps",
+    "es": "hoja de horas",
+    "it": "foglio presenze",
+    "pt": "folha de ponto",
+    "tr": "puantaj cetveli"
+   },
+   "ex": {
+    "en": "Fill in your timesheet every Friday."
+   }
+  },
+  {
+   "id": "work.to-be-promoted",
+   "t": {
+    "en": "to be promoted",
+    "uk": "отримати підвищення",
+    "ru": "получить повышение",
+    "pl": "awansować",
+    "de": "befördert werden",
+    "fr": "être promu",
+    "es": "ser ascendido",
+    "it": "essere promosso",
+    "pt": "ser promovido",
+    "tr": "terfi etmek"
+   },
+   "ex": {
+    "en": "She was promoted to manager."
+   }
+  },
+  {
+   "id": "work.head-office",
+   "t": {
+    "en": "head office",
+    "uk": "головний офіс",
+    "ru": "головной офис",
+    "pl": "centrala",
+    "de": "Hauptsitz",
+    "fr": "siège social",
+    "es": "oficina central",
+    "it": "sede centrale",
+    "pt": "matriz",
+    "tr": "genel müdürlük"
+   },
+   "ex": {
+    "en": "Head office is in London."
+   }
+  },
+  {
+   "id": "work.commute",
+   "t": {
+    "en": "commute",
+    "uk": "дорога на роботу",
+    "ru": "дорога на работу",
+    "pl": "dojazd do pracy",
+    "de": "Arbeitsweg",
+    "fr": "trajet domicile-travail",
+    "es": "trayecto al trabajo",
+    "it": "tragitto casa-lavoro",
+    "pt": "trajeto para o trabalho",
+    "tr": "işe gidiş geliş"
+   },
+   "ex": {
+    "en": "My commute takes an hour."
+   }
+  },
+  {
+   "id": "work.hourly-rate",
+   "t": {
+    "en": "hourly rate",
+    "uk": "погодинна ставка",
+    "ru": "почасовая ставка",
+    "pl": "stawka godzinowa",
+    "de": "Stundenlohn",
+    "fr": "taux horaire",
+    "es": "tarifa por hora",
+    "it": "tariffa oraria",
+    "pt": "valor por hora",
+    "tr": "saatlik ücret"
+   },
+   "ex": {
+    "en": "What is your hourly rate?"
+   }
+  },
+  {
+   "id": "work.trainee",
+   "t": {
+    "en": "trainee",
+    "uk": "стажер",
+    "ru": "стажёр",
+    "pl": "stażysta",
+    "de": "Praktikant",
+    "fr": "stagiaire",
+    "es": "becario",
+    "it": "tirocinante",
+    "pt": "estagiário",
+    "tr": "stajyer"
+   },
+   "ex": {
+    "en": "The new trainee starts on Monday."
+   }
+  },
+  {
+   "id": "work.apprentice",
+   "t": {
+    "en": "apprentice",
+    "uk": "учень",
+    "ru": "ученик",
+    "pl": "praktykant",
+    "de": "Lehrling",
+    "fr": "apprenti",
+    "es": "aprendiz",
+    "it": "apprendista",
+    "pt": "aprendiz",
+    "tr": "çırak"
+   },
+   "ex": {
+    "en": "He is an apprentice electrician."
+   }
+  },
+  {
+   "id": "work.apprenticeship",
+   "t": {
+    "en": "apprenticeship",
+    "uk": "професійне навчання",
+    "ru": "ученичество",
+    "pl": "praktyka zawodowa",
+    "de": "Ausbildung",
+    "fr": "apprentissage",
+    "es": "aprendizaje",
+    "it": "apprendistato",
+    "pt": "aprendizagem",
+    "tr": "çıraklık"
+   },
+   "ex": {
+    "en": "She is doing an apprenticeship as a cook."
+   }
+  },
+  {
+   "id": "work.to-miss-a-deadline",
+   "t": {
+    "en": "to miss a deadline",
+    "uk": "не встигнути до терміну",
+    "ru": "пропустить срок",
+    "pl": "nie dotrzymać terminu",
+    "de": "eine Frist verpassen",
+    "fr": "manquer une échéance",
+    "es": "no cumplir un plazo",
+    "it": "mancare una scadenza",
+    "pt": "perder um prazo",
+    "tr": "son tarihi kaçırmak"
+   },
+   "ex": {
+    "en": "We can't miss the deadline again."
+   }
+  },
+  {
+   "id": "work.permanent-contract",
+   "t": {
+    "en": "permanent contract",
+    "uk": "безстроковий договір",
+    "ru": "бессрочный договор",
+    "pl": "umowa na czas nieokreślony",
+    "de": "unbefristeter Vertrag",
+    "fr": "CDI",
+    "es": "contrato indefinido",
+    "it": "contratto a tempo indeterminato",
+    "pt": "contrato por prazo indeterminado",
+    "tr": "süresiz sözleşme"
+   },
+   "ex": {
+    "en": "I finally got a permanent contract."
+   }
+  },
+  {
+   "id": "work.temporary-contract",
+   "t": {
+    "en": "temporary contract",
+    "uk": "тимчасовий договір",
+    "ru": "временный договор",
+    "pl": "umowa tymczasowa",
+    "de": "befristeter Vertrag",
+    "fr": "contrat temporaire",
+    "es": "contrato temporal",
+    "it": "contratto a termine",
+    "pt": "contrato temporário",
+    "tr": "geçici sözleşme"
+   },
+   "ex": {
+    "en": "He is on a temporary contract."
+   }
+  },
+  {
+   "id": "work.to-work-overtime",
+   "t": {
+    "en": "to work overtime",
+    "uk": "працювати понаднормово",
+    "ru": "работать сверхурочно",
+    "pl": "pracować w nadgodzinach",
+    "de": "Überstunden machen",
+    "fr": "faire des heures supplémentaires",
+    "es": "hacer horas extra",
+    "it": "fare straordinari",
+    "pt": "fazer hora extra",
+    "tr": "fazla mesai yapmak"
+   },
+   "ex": {
+    "en": "I had to work overtime this week."
+   }
+  },
+  {
+   "id": "work.staff-meeting",
+   "t": {
+    "en": "staff meeting",
+    "uk": "збори персоналу",
+    "ru": "собрание сотрудников",
+    "pl": "zebranie pracowników",
+    "de": "Mitarbeiterbesprechung",
+    "fr": "réunion du personnel",
+    "es": "reunión de personal",
+    "it": "riunione del personale",
+    "pt": "reunião de equipe",
+    "tr": "personel toplantısı"
+   },
+   "ex": {
+    "en": "The staff meeting is at nine."
+   }
+  },
+  {
+   "id": "work.to-give-a-presentation",
+   "t": {
+    "en": "to give a presentation",
+    "uk": "робити презентацію",
+    "ru": "делать презентацию",
+    "pl": "przedstawić prezentację",
+    "de": "eine Präsentation halten",
+    "fr": "faire une présentation",
+    "es": "hacer una presentación",
+    "it": "fare una presentazione",
+    "pt": "fazer uma apresentação",
+    "tr": "sunum yapmak"
+   },
+   "ex": {
+    "en": "I have to give a presentation tomorrow."
+   }
+  },
+  {
+   "id": "work.to-make-a-decision",
+   "t": {
+    "en": "to make a decision",
+    "uk": "ухвалювати рішення",
+    "ru": "принимать решение",
+    "pl": "podjąć decyzję",
+    "de": "eine Entscheidung treffen",
+    "fr": "prendre une décision",
+    "es": "tomar una decisión",
+    "it": "prendere una decisione",
+    "pt": "tomar uma decisão",
+    "tr": "karar vermek"
+   },
+   "ex": {
+    "en": "The boss will make a decision today."
+   }
+  },
+  {
+   "id": "work.organized",
+   "t": {
+    "en": "organized",
+    "uk": "організований",
+    "ru": "организованный",
+    "pl": "zorganizowany",
+    "de": "organisiert",
+    "fr": "organisé",
+    "es": "organizado",
+    "it": "organizzato",
+    "pt": "organizado",
+    "tr": "düzenli"
+   },
+   "ex": {
+    "en": "She is very organized at work."
+   }
+  },
+  {
+   "id": "work.motivated",
+   "t": {
+    "en": "motivated",
+    "uk": "вмотивований",
+    "ru": "мотивированный",
+    "pl": "zmotywowany",
+    "de": "motiviert",
+    "fr": "motivé",
+    "es": "motivado",
+    "it": "motivato",
+    "pt": "motivado",
+    "tr": "motive"
+   },
+   "ex": {
+    "en": "We need motivated people."
+   }
+  },
+  {
+   "id": "work.skilled",
+   "t": {
+    "en": "skilled",
+    "uk": "кваліфікований",
+    "ru": "квалифицированный",
+    "pl": "wykwalifikowany",
+    "de": "qualifiziert",
+    "fr": "qualifié",
+    "es": "cualificado",
+    "it": "qualificato",
+    "pt": "qualificado",
+    "tr": "vasıflı"
+   },
+   "ex": {
+    "en": "He is a skilled worker."
+   }
+  },
+  {
+   "id": "work.experienced",
+   "t": {
+    "en": "experienced",
+    "uk": "досвідчений",
+    "ru": "опытный",
+    "pl": "doświadczony",
+    "de": "erfahren",
+    "fr": "expérimenté",
+    "es": "experimentado",
+    "it": "esperto",
+    "pt": "experiente",
+    "tr": "deneyimli"
+   },
+   "ex": {
+    "en": "We are looking for an experienced driver."
+   }
+  },
+  {
+   "id": "work.qualified",
+   "t": {
+    "en": "qualified",
+    "uk": "дипломований",
+    "ru": "дипломированный",
+    "pl": "dyplomowany",
+    "de": "ausgebildet",
+    "fr": "diplômé",
+    "es": "titulado",
+    "it": "abilitato",
+    "pt": "habilitado",
+    "tr": "kalifiye"
+   },
+   "ex": {
+    "en": "She is a qualified nurse."
+   }
+  },
+  {
+   "id": "work.part-time-job",
+   "t": {
+    "en": "part-time job",
+    "uk": "робота на неповний день",
+    "ru": "работа на неполный день",
+    "pl": "praca na pół etatu",
+    "de": "Teilzeitjob",
+    "fr": "emploi à temps partiel",
+    "es": "trabajo a tiempo parcial",
+    "it": "lavoro part-time",
+    "pt": "emprego de meio período",
+    "tr": "yarı zamanlı iş"
+   },
+   "ex": {
+    "en": "I have a part-time job in a shop."
+   }
+  },
+  {
+   "id": "work.summer-job",
+   "t": {
+    "en": "summer job",
+    "uk": "літня робота",
+    "ru": "летняя работа",
+    "pl": "praca wakacyjna",
+    "de": "Ferienjob",
+    "fr": "job d'été",
+    "es": "trabajo de verano",
+    "it": "lavoro estivo",
+    "pt": "trabalho de verão",
+    "tr": "yaz işi"
+   },
+   "ex": {
+    "en": "I had a summer job at the beach."
+   }
+  },
+  {
+   "id": "work.work-experience",
+   "t": {
+    "en": "work experience",
+    "uk": "досвід роботи",
+    "ru": "опыт работы",
+    "pl": "doświadczenie zawodowe",
+    "de": "Berufserfahrung",
+    "fr": "expérience professionnelle",
+    "es": "experiencia laboral",
+    "it": "esperienza lavorativa",
+    "pt": "experiência profissional",
+    "tr": "iş deneyimi"
+   },
+   "ex": {
+    "en": "Do you have any work experience?"
+   }
+  },
+  {
+   "id": "work.client-meeting",
+   "t": {
+    "en": "client meeting",
+    "uk": "зустріч із клієнтом",
+    "ru": "встреча с клиентом",
+    "pl": "spotkanie z klientem",
+    "de": "Kundentermin",
+    "fr": "rendez-vous client",
+    "es": "reunión con un cliente",
+    "it": "incontro con il cliente",
+    "pt": "reunião com cliente",
+    "tr": "müşteri toplantısı"
+   },
+   "ex": {
+    "en": "I have a client meeting at two."
+   }
+  },
+  {
+   "id": "work.wage",
+   "t": {
+    "en": "wage",
+    "uk": "заробітна плата",
+    "ru": "заработная плата",
+    "pl": "płaca",
+    "de": "Lohn",
+    "fr": "salaire",
+    "es": "sueldo",
+    "it": "paga",
+    "pt": "salário",
+    "tr": "ücret"
+   },
+   "ex": {
+    "en": "The wage is paid every week."
+   }
+  },
+  {
+   "id": "work.nine-to-five",
+   "t": {
+    "en": "nine-to-five",
+    "uk": "робота з дев'ятої до п'ятої",
+    "ru": "работа с девяти до пяти",
+    "pl": "praca od dziewiątej do piątej",
+    "de": "Nine-to-five-Job",
+    "fr": "boulot de bureau",
+    "es": "trabajo de nueve a cinco",
+    "it": "lavoro d'ufficio",
+    "pt": "trabalho das nove às cinco",
+    "tr": "mesai işi"
+   },
+   "ex": {
+    "en": "He hates his nine-to-five."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "it-a1",
  "topic": "it",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "it.computer",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "I write an email to my teacher."
+   }
+  },
+  {
+   "id": "it.space-bar",
+   "t": {
+    "en": "space bar",
+    "uk": "пробіл",
+    "ru": "пробел",
+    "pl": "spacja",
+    "de": "Leertaste",
+    "fr": "barre d'espace",
+    "es": "barra espaciadora",
+    "it": "barra spaziatrice",
+    "pt": "barra de espaço",
+    "tr": "boşluk tuşu"
+   },
+   "ex": {
+    "en": "Press the space bar to start."
+   }
+  },
+  {
+   "id": "it.enter-key",
+   "t": {
+    "en": "enter key",
+    "uk": "клавіша Enter",
+    "ru": "клавиша Enter",
+    "pl": "klawisz Enter",
+    "de": "Eingabetaste",
+    "fr": "touche Entrée",
+    "es": "tecla Intro",
+    "it": "tasto Invio",
+    "pt": "tecla Enter",
+    "tr": "Enter tuşu"
+   },
+   "ex": {
+    "en": "Type your name and press the enter key."
+   }
+  },
+  {
+   "id": "it.earphones",
+   "t": {
+    "en": "earphones",
+    "uk": "навушники-вкладиші",
+    "ru": "наушники-вкладыши",
+    "pl": "słuchawki douszne",
+    "de": "Ohrhörer",
+    "fr": "écouteurs",
+    "es": "auriculares",
+    "it": "auricolari",
+    "pt": "fones de ouvido",
+    "tr": "kulaklık"
+   },
+   "ex": {
+    "en": "I listen to music with earphones."
+   }
+  },
+  {
+   "id": "it.to-reply",
+   "t": {
+    "en": "to reply",
+    "uk": "відповідати",
+    "ru": "отвечать",
+    "pl": "odpowiadać",
+    "de": "antworten",
+    "fr": "répondre",
+    "es": "responder",
+    "it": "rispondere",
+    "pt": "responder",
+    "tr": "yanıtlamak"
+   },
+   "ex": {
+    "en": "Please reply to my email."
+   }
+  },
+  {
+   "id": "it.inbox",
+   "t": {
+    "en": "inbox",
+    "uk": "вхідні",
+    "ru": "входящие",
+    "pl": "skrzynka odbiorcza",
+    "de": "Posteingang",
+    "fr": "boîte de réception",
+    "es": "bandeja de entrada",
+    "it": "posta in arrivo",
+    "pt": "caixa de entrada",
+    "tr": "gelen kutusu"
+   },
+   "ex": {
+    "en": "I have ten emails in my inbox."
+   }
+  },
+  {
+   "id": "it.to-forward",
+   "t": {
+    "en": "to forward",
+    "uk": "пересилати",
+    "ru": "пересылать",
+    "pl": "przesyłać dalej",
+    "de": "weiterleiten",
+    "fr": "transférer",
+    "es": "reenviar",
+    "it": "inoltrare",
+    "pt": "encaminhar",
+    "tr": "iletmek"
+   },
+   "ex": {
+    "en": "Can you forward me the message?"
+   }
+  },
+  {
+   "id": "it.to-receive",
+   "t": {
+    "en": "to receive",
+    "uk": "отримувати",
+    "ru": "получать",
+    "pl": "otrzymywać",
+    "de": "empfangen",
+    "fr": "recevoir",
+    "es": "recibir",
+    "it": "ricevere",
+    "pt": "receber",
+    "tr": "almak"
+   },
+   "ex": {
+    "en": "Did you receive my photo?"
+   }
+  },
+  {
+   "id": "it.smartwatch",
+   "t": {
+    "en": "smartwatch",
+    "uk": "смарт-годинник",
+    "ru": "умные часы",
+    "pl": "smartwatch",
+    "de": "Smartwatch",
+    "fr": "montre connectée",
+    "es": "reloj inteligente",
+    "it": "smartwatch",
+    "pt": "relógio inteligente",
+    "tr": "akıllı saat"
+   },
+   "ex": {
+    "en": "My smartwatch counts my steps."
+   }
+  },
+  {
+   "id": "it.scanner",
+   "t": {
+    "en": "scanner",
+    "uk": "сканер",
+    "ru": "сканер",
+    "pl": "skaner",
+    "de": "Scanner",
+    "fr": "scanner",
+    "es": "escáner",
+    "it": "scanner",
+    "pt": "scanner",
+    "tr": "tarayıcı"
+   },
+   "ex": {
+    "en": "Put the page on the scanner."
+   }
+  },
+  {
+   "id": "it.pin",
+   "t": {
+    "en": "PIN",
+    "uk": "PIN-код",
+    "ru": "PIN-код",
+    "pl": "PIN",
+    "de": "PIN",
+    "fr": "code PIN",
+    "es": "PIN",
+    "it": "PIN",
+    "pt": "PIN",
+    "tr": "PIN kodu"
+   },
+   "ex": {
+    "en": "Don't tell anyone your PIN."
+   }
+  },
+  {
+   "id": "it.digital",
+   "t": {
+    "en": "digital",
+    "uk": "цифровий",
+    "ru": "цифровой",
+    "pl": "cyfrowy",
+    "de": "digital",
+    "fr": "numérique",
+    "es": "digital",
+    "it": "digitale",
+    "pt": "digital",
+    "tr": "dijital"
+   },
+   "ex": {
+    "en": "I have a digital camera."
+   }
+  },
+  {
+   "id": "it.selfie",
+   "t": {
+    "en": "selfie",
+    "uk": "селфі",
+    "ru": "селфи",
+    "pl": "selfie",
+    "de": "Selfie",
+    "fr": "selfie",
+    "es": "selfi",
+    "it": "selfie",
+    "pt": "selfie",
+    "tr": "özçekim"
+   },
+   "ex": {
+    "en": "Let's take a selfie!"
+   }
+  },
+  {
+   "id": "it.photo-album",
+   "t": {
+    "en": "photo album",
+    "uk": "фотоальбом",
+    "ru": "фотоальбом",
+    "pl": "album ze zdjęciami",
+    "de": "Fotoalbum",
+    "fr": "album photo",
+    "es": "álbum de fotos",
+    "it": "album fotografico",
+    "pt": "álbum de fotos",
+    "tr": "fotoğraf albümü"
+   },
+   "ex": {
+    "en": "The photo is in my phone's photo album."
+   }
+  },
+  {
+   "id": "it.contact",
+   "t": {
+    "en": "contact",
+    "uk": "контакт",
+    "ru": "контакт",
+    "pl": "kontakt",
+    "de": "Kontakt",
+    "fr": "contact",
+    "es": "contacto",
+    "it": "contatto",
+    "pt": "contato",
+    "tr": "kişi"
+   },
+   "ex": {
+    "en": "Add me as a contact."
+   }
+  },
+  {
+   "id": "it.ringtone",
+   "t": {
+    "en": "ringtone",
+    "uk": "рингтон",
+    "ru": "рингтон",
+    "pl": "dzwonek",
+    "de": "Klingelton",
+    "fr": "sonnerie",
+    "es": "tono de llamada",
+    "it": "suoneria",
+    "pt": "toque",
+    "tr": "zil sesi"
+   },
+   "ex": {
+    "en": "I like your ringtone."
+   }
+  },
+  {
+   "id": "it.text-message",
+   "t": {
+    "en": "text message",
+    "uk": "текстове повідомлення",
+    "ru": "текстовое сообщение",
+    "pl": "wiadomość tekstowa",
+    "de": "SMS",
+    "fr": "texto",
+    "es": "mensaje de texto",
+    "it": "messaggio",
+    "pt": "mensagem de texto",
+    "tr": "kısa mesaj"
+   },
+   "ex": {
+    "en": "I got a text message from Mum."
+   }
+  },
+  {
+   "id": "it.mobile-phone",
+   "t": {
+    "en": "mobile phone",
+    "uk": "мобільний телефон",
+    "ru": "мобильный телефон",
+    "pl": "telefon komórkowy",
+    "de": "Handy",
+    "fr": "téléphone portable",
+    "es": "teléfono móvil",
+    "it": "cellulare",
+    "pt": "celular",
+    "tr": "cep telefonu"
+   },
+   "ex": {
+    "en": "Turn off your mobile phone."
+   }
+  },
+  {
+   "id": "it.home-screen",
+   "t": {
+    "en": "home screen",
+    "uk": "головний екран",
+    "ru": "главный экран",
+    "pl": "ekran główny",
+    "de": "Startbildschirm",
+    "fr": "écran d'accueil",
+    "es": "pantalla de inicio",
+    "it": "schermata home",
+    "pt": "tela inicial",
+    "tr": "ana ekran"
+   },
+   "ex": {
+    "en": "The app is on my home screen."
+   }
+  },
+  {
+   "id": "it.to-open-an-app",
+   "t": {
+    "en": "to open an app",
+    "uk": "відкрити застосунок",
+    "ru": "открыть приложение",
+    "pl": "otworzyć aplikację",
+    "de": "eine App öffnen",
+    "fr": "ouvrir une appli",
+    "es": "abrir una aplicación",
+    "it": "aprire un'app",
+    "pt": "abrir um aplicativo",
+    "tr": "uygulama açmak"
+   },
+   "ex": {
+    "en": "Tap the icon to open an app."
+   }
+  },
+  {
+   "id": "it.game-console",
+   "t": {
+    "en": "game console",
+    "uk": "ігрова приставка",
+    "ru": "игровая приставка",
+    "pl": "konsola do gier",
+    "de": "Spielkonsole",
+    "fr": "console de jeux",
+    "es": "videoconsola",
+    "it": "console per videogiochi",
+    "pt": "console de videogame",
+    "tr": "oyun konsolu"
+   },
+   "ex": {
+    "en": "He got a game console for his birthday."
    }
   }
  ]

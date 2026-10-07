@@ -2,7 +2,7 @@
  "id": "emergency-a1",
  "topic": "emergency",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emergency.help",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "Don't move, the ambulance is coming."
+   }
+  },
+  {
+   "id": "emergency.to-escape",
+   "t": {
+    "en": "to escape",
+    "uk": "тікати",
+    "ru": "убегать",
+    "pl": "uciekać",
+    "de": "fliehen",
+    "fr": "s'échapper",
+    "es": "escapar",
+    "it": "scappare",
+    "pt": "escapar",
+    "tr": "kaçmak"
+   },
+   "ex": {
+    "en": "We escaped through the window."
+   }
+  },
+  {
+   "id": "emergency.call-a-doctor",
+   "t": {
+    "en": "call a doctor!",
+    "uk": "викличте лікаря!",
+    "ru": "вызовите врача!",
+    "pl": "wezwijcie lekarza!",
+    "de": "rufen Sie einen Arzt!",
+    "fr": "appelez un médecin !",
+    "es": "¡llamen a un médico!",
+    "it": "chiamate un medico!",
+    "pt": "chamem um médico!",
+    "tr": "doktor çağırın!"
+   },
+   "ex": {
+    "en": "He fell down, call a doctor!"
+   }
+  },
+  {
+   "id": "emergency.i-dont-feel-well",
+   "t": {
+    "en": "I don't feel well",
+    "uk": "мені погано",
+    "ru": "мне плохо",
+    "pl": "źle się czuję",
+    "de": "mir geht es nicht gut",
+    "fr": "je ne me sens pas bien",
+    "es": "no me encuentro bien",
+    "it": "non mi sento bene",
+    "pt": "não estou me sentindo bem",
+    "tr": "kendimi iyi hissetmiyorum"
+   },
+   "ex": {
+    "en": "I don't feel well, I need help."
+   }
+  },
+  {
+   "id": "emergency.im-ok",
+   "t": {
+    "en": "I'm OK",
+    "uk": "зі мною все гаразд",
+    "ru": "со мной всё в порядке",
+    "pl": "nic mi nie jest",
+    "de": "mir geht's gut",
+    "fr": "je vais bien",
+    "es": "estoy bien",
+    "it": "sto bene",
+    "pt": "estou bem",
+    "tr": "iyiyim"
+   },
+   "ex": {
+    "en": "Don't worry, I'm OK."
+   }
+  },
+  {
+   "id": "emergency.where-is-the-hospital",
+   "t": {
+    "en": "Where is the hospital?",
+    "uk": "Де лікарня?",
+    "ru": "Где больница?",
+    "pl": "Gdzie jest szpital?",
+    "de": "Wo ist das Krankenhaus?",
+    "fr": "Où est l'hôpital ?",
+    "es": "¿Dónde está el hospital?",
+    "it": "Dov'è l'ospedale?",
+    "pt": "Onde fica o hospital?",
+    "tr": "Hastane nerede?"
+   },
+   "ex": {
+    "en": "Excuse me, where is the hospital?"
+   }
+  },
+  {
+   "id": "emergency.i-lost-my-passport",
+   "t": {
+    "en": "I lost my passport",
+    "uk": "я загубив паспорт",
+    "ru": "я потерял паспорт",
+    "pl": "zgubiłem paszport",
+    "de": "ich habe meinen Pass verloren",
+    "fr": "j'ai perdu mon passeport",
+    "es": "he perdido el pasaporte",
+    "it": "ho perso il passaporto",
+    "pt": "perdi meu passaporte",
+    "tr": "pasaportumu kaybettim"
+   },
+   "ex": {
+    "en": "Help, I lost my passport!"
+   }
+  },
+  {
+   "id": "emergency.leave-me-alone",
+   "t": {
+    "en": "Leave me alone!",
+    "uk": "Дайте мені спокій!",
+    "ru": "Оставьте меня в покое!",
+    "pl": "Zostaw mnie w spokoju!",
+    "de": "Lass mich in Ruhe!",
+    "fr": "Laissez-moi tranquille !",
+    "es": "¡Déjame en paz!",
+    "it": "Lasciami in pace!",
+    "pt": "Me deixe em paz!",
+    "tr": "Beni rahat bırak!"
+   },
+   "ex": {
+    "en": "Leave me alone or I'll call the police!"
+   }
+  },
+  {
+   "id": "emergency.go-away",
+   "t": {
+    "en": "Go away!",
+    "uk": "Ідіть геть!",
+    "ru": "Уходите!",
+    "pl": "Odejdź!",
+    "de": "Geh weg!",
+    "fr": "Allez-vous-en !",
+    "es": "¡Vete!",
+    "it": "Vattene!",
+    "pt": "Vai embora!",
+    "tr": "Git buradan!"
+   },
+   "ex": {
+    "en": "Go away! I don't know you."
+   }
+  },
+  {
+   "id": "emergency.wait-here",
+   "t": {
+    "en": "Wait here",
+    "uk": "чекайте тут",
+    "ru": "ждите здесь",
+    "pl": "proszę tu poczekać",
+    "de": "warten Sie hier",
+    "fr": "attendez ici",
+    "es": "espere aquí",
+    "it": "aspetti qui",
+    "pt": "espere aqui",
+    "tr": "burada bekleyin"
+   },
+   "ex": {
+    "en": "Wait here, the doctor is coming."
+   }
+  },
+  {
+   "id": "emergency.hurry-up",
+   "t": {
+    "en": "Hurry up!",
+    "uk": "Швидше!",
+    "ru": "Быстрее!",
+    "pl": "Pospiesz się!",
+    "de": "Beeil dich!",
+    "fr": "Dépêche-toi !",
+    "es": "¡Date prisa!",
+    "it": "Sbrigati!",
+    "pt": "Anda logo!",
+    "tr": "Acele et!"
+   },
+   "ex": {
+    "en": "Hurry up! The bus is leaving."
+   }
+  },
+  {
+   "id": "emergency.nationality",
+   "t": {
+    "en": "nationality",
+    "uk": "громадянство",
+    "ru": "гражданство",
+    "pl": "obywatelstwo",
+    "de": "Staatsangehörigkeit",
+    "fr": "nationalité",
+    "es": "nacionalidad",
+    "it": "nazionalità",
+    "pt": "nacionalidade",
+    "tr": "uyruk"
+   },
+   "ex": {
+    "en": "Write your nationality on the form."
+   }
+  },
+  {
+   "id": "emergency.can-you-help-me",
+   "t": {
+    "en": "Can you help me?",
+    "uk": "Можете мені допомогти?",
+    "ru": "Можете мне помочь?",
+    "pl": "Może mi pan pomóc?",
+    "de": "Können Sie mir helfen?",
+    "fr": "Vous pouvez m'aider ?",
+    "es": "¿Puede ayudarme?",
+    "it": "Può aiutarmi?",
+    "pt": "Pode me ajudar?",
+    "tr": "Bana yardım edebilir misiniz?"
+   },
+   "ex": {
+    "en": "Excuse me, can you help me?"
+   }
+  },
+  {
+   "id": "emergency.its-an-emergency",
+   "t": {
+    "en": "It's an emergency",
+    "uk": "Це надзвичайна ситуація",
+    "ru": "Это экстренный случай",
+    "pl": "To nagły wypadek",
+    "de": "Es ist ein Notfall",
+    "fr": "C'est une urgence",
+    "es": "Es una emergencia",
+    "it": "È un'emergenza",
+    "pt": "É uma emergência",
+    "tr": "Bu acil bir durum"
+   },
+   "ex": {
+    "en": "Please hurry, it's an emergency."
+   }
+  },
+  {
+   "id": "emergency.dont-touch",
+   "t": {
+    "en": "Don't touch!",
+    "uk": "Не чіпайте!",
+    "ru": "Не трогайте!",
+    "pl": "Nie dotykaj!",
+    "de": "Nicht anfassen!",
+    "fr": "Ne touchez pas !",
+    "es": "¡No toques!",
+    "it": "Non toccare!",
+    "pt": "Não toque!",
+    "tr": "Dokunma!"
+   },
+   "ex": {
+    "en": "Don't touch! It's hot."
+   }
+  },
+  {
+   "id": "emergency.get-out",
+   "t": {
+    "en": "Get out!",
+    "uk": "Виходьте!",
+    "ru": "Выходите!",
+    "pl": "Wychodźcie!",
+    "de": "Raus!",
+    "fr": "Sortez !",
+    "es": "¡Salid!",
+    "it": "Uscite!",
+    "pt": "Saiam!",
+    "tr": "Dışarı çıkın!"
+   },
+   "ex": {
+    "en": "Get out! The building is on fire!"
+   }
+  },
+  {
+   "id": "emergency.im-scared",
+   "t": {
+    "en": "I'm scared",
+    "uk": "мені страшно",
+    "ru": "мне страшно",
+    "pl": "boję się",
+    "de": "ich habe Angst",
+    "fr": "j'ai peur",
+    "es": "tengo miedo",
+    "it": "ho paura",
+    "pt": "estou com medo",
+    "tr": "korkuyorum"
+   },
+   "ex": {
+    "en": "I'm scared, please stay with me."
+   }
+  },
+  {
+   "id": "emergency.gender",
+   "t": {
+    "en": "gender",
+    "uk": "стать",
+    "ru": "пол",
+    "pl": "płeć",
+    "de": "Geschlecht",
+    "fr": "sexe",
+    "es": "sexo",
+    "it": "sesso",
+    "pt": "sexo",
+    "tr": "cinsiyet"
+   },
+   "ex": {
+    "en": "Write your gender on the form."
+   }
+  },
+  {
+   "id": "emergency.stop-thief",
+   "t": {
+    "en": "Stop, thief!",
+    "uk": "Тримайте злодія!",
+    "ru": "Держите вора!",
+    "pl": "Łapać złodzieja!",
+    "de": "Haltet den Dieb!",
+    "fr": "Au voleur !",
+    "es": "¡Al ladrón!",
+    "it": "Al ladro!",
+    "pt": "Pega ladrão!",
+    "tr": "Hırsız var!"
+   },
+   "ex": {
+    "en": "Stop, thief! He took my bag!"
+   }
+  },
+  {
+   "id": "emergency.call-the-fire-brigade",
+   "t": {
+    "en": "Call the fire brigade!",
+    "uk": "Викличте пожежників!",
+    "ru": "Вызовите пожарных!",
+    "pl": "Wezwijcie straż pożarną!",
+    "de": "Rufen Sie die Feuerwehr!",
+    "fr": "Appelez les pompiers !",
+    "es": "¡Llamen a los bomberos!",
+    "it": "Chiamate i vigili del fuoco!",
+    "pt": "Chamem os bombeiros!",
+    "tr": "İtfaiyeyi arayın!"
+   },
+   "ex": {
+    "en": "Call the fire brigade! There's smoke!"
+   }
+  },
+  {
+   "id": "emergency.lost-child",
+   "t": {
+    "en": "lost child",
+    "uk": "загублена дитина",
+    "ru": "потерявшийся ребёнок",
+    "pl": "zagubione dziecko",
+    "de": "vermisstes Kind",
+    "fr": "enfant perdu",
+    "es": "niño perdido",
+    "it": "bambino smarrito",
+    "pt": "criança perdida",
+    "tr": "kayıp çocuk"
+   },
+   "ex": {
+    "en": "A lost child is waiting at the desk."
    }
   }
  ]

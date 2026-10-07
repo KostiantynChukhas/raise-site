@@ -2,7 +2,7 @@
  "id": "finance-b1",
  "topic": "finance",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "finance.savings-account",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "She gives money to charity."
+   }
+  },
+  {
+   "id": "finance.personal-loan",
+   "t": {
+    "en": "personal loan",
+    "uk": "споживчий кредит",
+    "ru": "потребительский кредит",
+    "pl": "kredyt gotówkowy",
+    "de": "Privatkredit",
+    "fr": "prêt personnel",
+    "es": "préstamo personal",
+    "it": "prestito personale",
+    "pt": "empréstimo pessoal",
+    "tr": "ihtiyaç kredisi"
+   },
+   "ex": {
+    "en": "She took a personal loan for the wedding."
+   }
+  },
+  {
+   "id": "finance.to-make-a-payment",
+   "t": {
+    "en": "to make a payment",
+    "uk": "здійснити платіж",
+    "ru": "совершить платёж",
+    "pl": "dokonać płatności",
+    "de": "eine Zahlung leisten",
+    "fr": "effectuer un paiement",
+    "es": "realizar un pago",
+    "it": "effettuare un pagamento",
+    "pt": "efetuar um pagamento",
+    "tr": "ödeme yapmak"
+   },
+   "ex": {
+    "en": "You can make a payment online."
+   }
+  },
+  {
+   "id": "finance.to-convert-currency",
+   "t": {
+    "en": "to convert currency",
+    "uk": "конвертувати валюту",
+    "ru": "конвертировать валюту",
+    "pl": "przeliczać walutę",
+    "de": "Währung umrechnen",
+    "fr": "convertir une devise",
+    "es": "convertir divisas",
+    "it": "convertire valuta",
+    "pt": "converter moeda",
+    "tr": "döviz çevirmek"
+   },
+   "ex": {
+    "en": "This app can convert currency."
+   }
+  },
+  {
+   "id": "finance.bank-robbery",
+   "t": {
+    "en": "bank robbery",
+    "uk": "пограбування банку",
+    "ru": "ограбление банка",
+    "pl": "napad na bank",
+    "de": "Banküberfall",
+    "fr": "braquage de banque",
+    "es": "atraco a un banco",
+    "it": "rapina in banca",
+    "pt": "assalto a banco",
+    "tr": "banka soygunu"
+   },
+   "ex": {
+    "en": "The bank robbery was on the news."
+   }
+  },
+  {
+   "id": "finance.cheque-book",
+   "t": {
+    "en": "cheque book",
+    "uk": "чекова книжка",
+    "ru": "чековая книжка",
+    "pl": "książeczka czekowa",
+    "de": "Scheckheft",
+    "fr": "chéquier",
+    "es": "talonario de cheques",
+    "it": "libretto degli assegni",
+    "pt": "talão de cheques",
+    "tr": "çek defteri"
+   },
+   "ex": {
+    "en": "My grandad still uses a cheque book."
+   }
+  },
+  {
+   "id": "finance.minimum-payment",
+   "t": {
+    "en": "minimum payment",
+    "uk": "мінімальний платіж",
+    "ru": "минимальный платёж",
+    "pl": "minimalna spłata",
+    "de": "Mindestzahlung",
+    "fr": "paiement minimum",
+    "es": "pago mínimo",
+    "it": "pagamento minimo",
+    "pt": "pagamento mínimo",
+    "tr": "asgari ödeme"
+   },
+   "ex": {
+    "en": "Paying only the minimum payment is costly."
+   }
+  },
+  {
+   "id": "finance.atm-fee",
+   "t": {
+    "en": "ATM fee",
+    "uk": "комісія банкомата",
+    "ru": "комиссия банкомата",
+    "pl": "opłata za bankomat",
+    "de": "Automatengebühr",
+    "fr": "frais de retrait",
+    "es": "comisión del cajero",
+    "it": "commissione di prelievo",
+    "pt": "taxa de saque",
+    "tr": "ATM ücreti"
+   },
+   "ex": {
+    "en": "Use your own bank to avoid an ATM fee."
+   }
+  },
+  {
+   "id": "finance.strong-currency",
+   "t": {
+    "en": "strong currency",
+    "uk": "сильна валюта",
+    "ru": "сильная валюта",
+    "pl": "silna waluta",
+    "de": "starke Währung",
+    "fr": "monnaie forte",
+    "es": "moneda fuerte",
+    "it": "valuta forte",
+    "pt": "moeda forte",
+    "tr": "güçlü para birimi"
+   },
+   "ex": {
+    "en": "The Swiss franc is a strong currency."
+   }
+  },
+  {
+   "id": "finance.weak-currency",
+   "t": {
+    "en": "weak currency",
+    "uk": "слабка валюта",
+    "ru": "слабая валюта",
+    "pl": "słaba waluta",
+    "de": "schwache Währung",
+    "fr": "monnaie faible",
+    "es": "moneda débil",
+    "it": "valuta debole",
+    "pt": "moeda fraca",
+    "tr": "zayıf para birimi"
+   },
+   "ex": {
+    "en": "A weak currency helps exports."
+   }
+  },
+  {
+   "id": "finance.financial-crisis",
+   "t": {
+    "en": "financial crisis",
+    "uk": "фінансова криза",
+    "ru": "финансовый кризис",
+    "pl": "kryzys finansowy",
+    "de": "Finanzkrise",
+    "fr": "crise financière",
+    "es": "crisis financiera",
+    "it": "crisi finanziaria",
+    "pt": "crise financeira",
+    "tr": "finansal kriz"
+   },
+   "ex": {
+    "en": "Many lost jobs in the financial crisis."
+   }
+  },
+  {
+   "id": "finance.stock-market",
+   "t": {
+    "en": "stock market",
+    "uk": "фондовий ринок",
+    "ru": "фондовый рынок",
+    "pl": "rynek akcji",
+    "de": "Aktienmarkt",
+    "fr": "marché boursier",
+    "es": "mercado de valores",
+    "it": "mercato azionario",
+    "pt": "mercado de ações",
+    "tr": "hisse senedi piyasası"
+   },
+   "ex": {
+    "en": "The stock market fell today."
+   }
+  },
+  {
+   "id": "finance.worthless",
+   "t": {
+    "en": "worthless",
+    "uk": "нічого не вартий",
+    "ru": "ничего не стоящий",
+    "pl": "bezwartościowy",
+    "de": "wertlos",
+    "fr": "sans valeur",
+    "es": "sin valor",
+    "it": "senza valore",
+    "pt": "sem valor",
+    "tr": "değersiz"
+   },
+   "ex": {
+    "en": "These old coins are worthless."
+   }
+  },
+  {
+   "id": "finance.valuable",
+   "t": {
+    "en": "valuable",
+    "uk": "цінний",
+    "ru": "ценный",
+    "pl": "cenny",
+    "de": "wertvoll",
+    "fr": "précieux",
+    "es": "valioso",
+    "it": "prezioso",
+    "pt": "valioso",
+    "tr": "değerli"
+   },
+   "ex": {
+    "en": "Keep valuable items in the safe."
+   }
+  },
+  {
+   "id": "finance.wealth",
+   "t": {
+    "en": "wealth",
+    "uk": "багатство",
+    "ru": "богатство",
+    "pl": "bogactwo",
+    "de": "Reichtum",
+    "fr": "richesse",
+    "es": "riqueza",
+    "it": "ricchezza",
+    "pt": "riqueza",
+    "tr": "zenginlik"
+   },
+   "ex": {
+    "en": "Wealth doesn't always bring happiness."
+   }
+  },
+  {
+   "id": "finance.spending",
+   "t": {
+    "en": "spending",
+    "uk": "витрати",
+    "ru": "траты",
+    "pl": "wydatki",
+    "de": "Ausgaben",
+    "fr": "dépenses",
+    "es": "gasto",
+    "it": "spesa",
+    "pt": "gastos",
+    "tr": "harcama"
+   },
+   "ex": {
+    "en": "We need to reduce our spending."
+   }
+  },
+  {
+   "id": "finance.accounting",
+   "t": {
+    "en": "accounting",
+    "uk": "бухгалтерія",
+    "ru": "бухгалтерия",
+    "pl": "księgowość",
+    "de": "Buchhaltung",
+    "fr": "comptabilité",
+    "es": "contabilidad",
+    "it": "contabilità",
+    "pt": "contabilidade",
+    "tr": "muhasebe"
+   },
+   "ex": {
+    "en": "She works in accounting."
+   }
+  },
+  {
+   "id": "finance.lender",
+   "t": {
+    "en": "lender",
+    "uk": "позикодавець",
+    "ru": "заимодавец",
+    "pl": "pożyczkodawca",
+    "de": "Kreditgeber",
+    "fr": "prêteur",
+    "es": "prestamista",
+    "it": "prestatore",
+    "pt": "credor",
+    "tr": "borç veren"
+   },
+   "ex": {
+    "en": "The lender wants the money back."
+   }
+  },
+  {
+   "id": "finance.borrower",
+   "t": {
+    "en": "borrower",
+    "uk": "позичальник",
+    "ru": "заёмщик",
+    "pl": "kredytobiorca",
+    "de": "Kreditnehmer",
+    "fr": "emprunteur",
+    "es": "prestatario",
+    "it": "mutuatario",
+    "pt": "tomador de empréstimo",
+    "tr": "borç alan"
+   },
+   "ex": {
+    "en": "The borrower must repay monthly."
+   }
+  },
+  {
+   "id": "finance.to-insure",
+   "t": {
+    "en": "to insure",
+    "uk": "страхувати",
+    "ru": "страховать",
+    "pl": "ubezpieczać",
+    "de": "versichern",
+    "fr": "assurer",
+    "es": "asegurar",
+    "it": "assicurare",
+    "pt": "segurar",
+    "tr": "sigortalamak"
+   },
+   "ex": {
+    "en": "We insure our house every year."
+   }
+  },
+  {
+   "id": "finance.to-be-overcharged",
+   "t": {
+    "en": "to be overcharged",
+    "uk": "бути обрахованим",
+    "ru": "быть обсчитанным",
+    "pl": "zostać naciągniętym",
+    "de": "zu viel berechnet bekommen",
+    "fr": "être surfacturé",
+    "es": "que te cobren de más",
+    "it": "farsi addebitare troppo",
+    "pt": "ser cobrado a mais",
+    "tr": "kazıklanmak"
+   },
+   "ex": {
+    "en": "I think I was overcharged."
+   }
+  },
+  {
+   "id": "finance.sort-code",
+   "t": {
+    "en": "sort code",
+    "uk": "код банку",
+    "ru": "код банка",
+    "pl": "numer rozliczeniowy banku",
+    "de": "Bankleitzahl",
+    "fr": "code banque",
+    "es": "código de entidad",
+    "it": "codice ABI",
+    "pt": "código da agência",
+    "tr": "banka şube kodu"
+   },
+   "ex": {
+    "en": "Enter the sort code and account number."
+   }
+  },
+  {
+   "id": "finance.financial-aid",
+   "t": {
+    "en": "financial aid",
+    "uk": "фінансова допомога",
+    "ru": "финансовая помощь",
+    "pl": "pomoc finansowa",
+    "de": "finanzielle Hilfe",
+    "fr": "aide financière",
+    "es": "ayuda económica",
+    "it": "aiuto finanziario",
+    "pt": "ajuda financeira",
+    "tr": "maddi yardım"
+   },
+   "ex": {
+    "en": "Students can apply for financial aid."
+   }
+  },
+  {
+   "id": "finance.grant",
+   "t": {
+    "en": "grant",
+    "uk": "грант",
+    "ru": "грант",
+    "pl": "dotacja",
+    "de": "Zuschuss",
+    "fr": "subvention",
+    "es": "subvención",
+    "it": "sovvenzione",
+    "pt": "subvenção",
+    "tr": "hibe"
+   },
+   "ex": {
+    "en": "The museum received a government grant."
+   }
+  },
+  {
+   "id": "finance.to-close-an-account",
+   "t": {
+    "en": "to close an account",
+    "uk": "закрити рахунок",
+    "ru": "закрыть счёт",
+    "pl": "zamknąć rachunek",
+    "de": "ein Konto kündigen",
+    "fr": "clôturer un compte",
+    "es": "cerrar una cuenta",
+    "it": "chiudere un conto",
+    "pt": "encerrar uma conta",
+    "tr": "hesap kapatmak"
+   },
+   "ex": {
+    "en": "I want to close my old account."
+   }
+  },
+  {
+   "id": "finance.household-budget",
+   "t": {
+    "en": "household budget",
+    "uk": "сімейний бюджет",
+    "ru": "семейный бюджет",
+    "pl": "budżet domowy",
+    "de": "Haushaltsbudget",
+    "fr": "budget familial",
+    "es": "presupuesto familiar",
+    "it": "bilancio familiare",
+    "pt": "orçamento doméstico",
+    "tr": "aile bütçesi"
+   },
+   "ex": {
+    "en": "We plan our household budget monthly."
+   }
+  },
+  {
+   "id": "finance.to-be-short-of-money",
+   "t": {
+    "en": "to be short of money",
+    "uk": "не мати достатньо грошей",
+    "ru": "испытывать нехватку денег",
+    "pl": "mieć mało pieniędzy",
+    "de": "wenig Geld haben",
+    "fr": "être à court d'argent",
+    "es": "andar corto de dinero",
+    "it": "essere a corto di soldi",
+    "pt": "estar com pouco dinheiro",
+    "tr": "para sıkıntısı çekmek"
+   },
+   "ex": {
+    "en": "I'm a bit short of money this week."
+   }
+  },
+  {
+   "id": "finance.withdrawal-limit",
+   "t": {
+    "en": "withdrawal limit",
+    "uk": "ліміт зняття готівки",
+    "ru": "лимит снятия наличных",
+    "pl": "limit wypłat",
+    "de": "Abhebungslimit",
+    "fr": "plafond de retrait",
+    "es": "límite de retirada",
+    "it": "limite di prelievo",
+    "pt": "limite de saque",
+    "tr": "para çekme limiti"
+   },
+   "ex": {
+    "en": "My daily withdrawal limit is 500 euros."
+   }
+  },
+  {
+   "id": "finance.social-security",
+   "t": {
+    "en": "social security",
+    "uk": "соціальне забезпечення",
+    "ru": "социальное обеспечение",
+    "pl": "zabezpieczenie społeczne",
+    "de": "Sozialversicherung",
+    "fr": "sécurité sociale",
+    "es": "Seguridad Social",
+    "it": "previdenza sociale",
+    "pt": "previdência social",
+    "tr": "sosyal güvenlik"
+   },
+   "ex": {
+    "en": "Part of my salary goes to social security."
+   }
+  },
+  {
+   "id": "finance.child-benefit",
+   "t": {
+    "en": "child benefit",
+    "uk": "допомога на дитину",
+    "ru": "пособие на ребёнка",
+    "pl": "zasiłek na dziecko",
+    "de": "Kindergeld",
+    "fr": "allocations familiales",
+    "es": "prestación por hijo",
+    "it": "assegno familiare",
+    "pt": "salário-família",
+    "tr": "çocuk yardımı"
+   },
+   "ex": {
+    "en": "Parents can get child benefit."
+   }
+  },
+  {
+   "id": "finance.credit-check",
+   "t": {
+    "en": "credit check",
+    "uk": "перевірка кредитної історії",
+    "ru": "проверка кредитной истории",
+    "pl": "sprawdzenie historii kredytowej",
+    "de": "Bonitätsprüfung",
+    "fr": "vérification de solvabilité",
+    "es": "estudio de solvencia",
+    "it": "verifica del credito",
+    "pt": "análise de crédito",
+    "tr": "kredi kontrolü"
+   },
+   "ex": {
+    "en": "The bank did a credit check."
+   }
+  },
+  {
+   "id": "finance.spending-habits",
+   "t": {
+    "en": "spending habits",
+    "uk": "звички у витратах",
+    "ru": "привычки в тратах",
+    "pl": "nawyki wydatkowe",
+    "de": "Ausgabeverhalten",
+    "fr": "habitudes de dépense",
+    "es": "hábitos de gasto",
+    "it": "abitudini di spesa",
+    "pt": "hábitos de consumo",
+    "tr": "harcama alışkanlıkları"
+   },
+   "ex": {
+    "en": "An app can track your spending habits."
+   }
+  },
+  {
+   "id": "finance.impulse-buy",
+   "t": {
+    "en": "impulse buy",
+    "uk": "імпульсивна покупка",
+    "ru": "импульсивная покупка",
+    "pl": "zakup impulsywny",
+    "de": "Impulskauf",
+    "fr": "achat impulsif",
+    "es": "compra impulsiva",
+    "it": "acquisto d'impulso",
+    "pt": "compra por impulso",
+    "tr": "dürtüsel alışveriş"
+   },
+   "ex": {
+    "en": "These shoes were an impulse buy."
+   }
+  },
+  {
+   "id": "finance.savings-goal",
+   "t": {
+    "en": "savings goal",
+    "uk": "мета заощаджень",
+    "ru": "цель накоплений",
+    "pl": "cel oszczędnościowy",
+    "de": "Sparziel",
+    "fr": "objectif d'épargne",
+    "es": "objetivo de ahorro",
+    "it": "obiettivo di risparmio",
+    "pt": "meta de economia",
+    "tr": "birikim hedefi"
+   },
+   "ex": {
+    "en": "My savings goal is a new bike."
+   }
+  },
+  {
+   "id": "finance.currency-converter",
+   "t": {
+    "en": "currency converter",
+    "uk": "конвертер валют",
+    "ru": "конвертер валют",
+    "pl": "przelicznik walut",
+    "de": "Währungsrechner",
+    "fr": "convertisseur de devises",
+    "es": "conversor de divisas",
+    "it": "convertitore di valuta",
+    "pt": "conversor de moedas",
+    "tr": "döviz çevirici"
+   },
+   "ex": {
+    "en": "I use a currency converter app."
+   }
+  },
+  {
+   "id": "finance.annual-income",
+   "t": {
+    "en": "annual income",
+    "uk": "річний дохід",
+    "ru": "годовой доход",
+    "pl": "dochód roczny",
+    "de": "Jahreseinkommen",
+    "fr": "revenu annuel",
+    "es": "ingresos anuales",
+    "it": "reddito annuo",
+    "pt": "renda anual",
+    "tr": "yıllık gelir"
+   },
+   "ex": {
+    "en": "What is your annual income?"
+   }
+  },
+  {
+   "id": "finance.monthly-income",
+   "t": {
+    "en": "monthly income",
+    "uk": "місячний дохід",
+    "ru": "ежемесячный доход",
+    "pl": "dochód miesięczny",
+    "de": "Monatseinkommen",
+    "fr": "revenu mensuel",
+    "es": "ingresos mensuales",
+    "it": "reddito mensile",
+    "pt": "renda mensal",
+    "tr": "aylık gelir"
+   },
+   "ex": {
+    "en": "Rent takes half my monthly income."
+   }
+  },
+  {
+   "id": "finance.household-income",
+   "t": {
+    "en": "household income",
+    "uk": "дохід домогосподарства",
+    "ru": "доход домохозяйства",
+    "pl": "dochód gospodarstwa domowego",
+    "de": "Haushaltseinkommen",
+    "fr": "revenu du ménage",
+    "es": "ingresos del hogar",
+    "it": "reddito familiare",
+    "pt": "renda familiar",
+    "tr": "hane geliri"
+   },
+   "ex": {
+    "en": "Household income has gone down."
+   }
+  },
+  {
+   "id": "finance.living-wage",
+   "t": {
+    "en": "living wage",
+    "uk": "гідна зарплата",
+    "ru": "достойная зарплата",
+    "pl": "płaca godziwa",
+    "de": "existenzsichernder Lohn",
+    "fr": "salaire décent",
+    "es": "salario digno",
+    "it": "salario dignitoso",
+    "pt": "salário digno",
+    "tr": "insanca yaşam ücreti"
+   },
+   "ex": {
+    "en": "Everyone deserves a living wage."
+   }
+  },
+  {
+   "id": "finance.well-off",
+   "t": {
+    "en": "well-off",
+    "uk": "забезпечений",
+    "ru": "обеспеченный",
+    "pl": "dobrze sytuowany",
+    "de": "gut situiert",
+    "fr": "aisé",
+    "es": "acomodado",
+    "it": "benestante",
+    "pt": "bem de vida",
+    "tr": "hali vakti yerinde"
+   },
+   "ex": {
+    "en": "Her family is quite well-off."
+   }
+  },
+  {
+   "id": "finance.hard-up",
+   "t": {
+    "en": "hard up",
+    "uk": "на мілині",
+    "ru": "на мели",
+    "pl": "krucho z kasą",
+    "de": "knapp bei Kasse",
+    "fr": "fauché",
+    "es": "sin blanca",
+    "it": "al verde",
+    "pt": "liso",
+    "tr": "eli dar"
+   },
+   "ex": {
+    "en": "Students are often hard up."
+   }
+  },
+  {
+   "id": "finance.security-deposit",
+   "t": {
+    "en": "security deposit",
+    "uk": "гарантійний внесок",
+    "ru": "залог",
+    "pl": "kaucja",
+    "de": "Kaution",
+    "fr": "dépôt de garantie",
+    "es": "fianza",
+    "it": "deposito cauzionale",
+    "pt": "caução",
+    "tr": "depozito"
+   },
+   "ex": {
+    "en": "The flat needs a security deposit."
+   }
+  },
+  {
+   "id": "finance.loan-repayment",
+   "t": {
+    "en": "loan repayment",
+    "uk": "погашення кредиту",
+    "ru": "погашение кредита",
+    "pl": "spłata kredytu",
+    "de": "Kreditrückzahlung",
+    "fr": "remboursement du prêt",
+    "es": "devolución del préstamo",
+    "it": "rimborso del prestito",
+    "pt": "pagamento do empréstimo",
+    "tr": "kredi geri ödemesi"
+   },
+   "ex": {
+    "en": "The loan repayment is due on Friday."
+   }
+  },
+  {
+   "id": "finance.annual-fee",
+   "t": {
+    "en": "annual fee",
+    "uk": "річна плата",
+    "ru": "годовая плата",
+    "pl": "opłata roczna",
+    "de": "Jahresgebühr",
+    "fr": "cotisation annuelle",
+    "es": "cuota anual",
+    "it": "canone annuale",
+    "pt": "anuidade",
+    "tr": "yıllık ücret"
+   },
+   "ex": {
+    "en": "This card has no annual fee."
+   }
+  },
+  {
+   "id": "finance.credit-card-bill",
+   "t": {
+    "en": "credit card bill",
+    "uk": "виписка за кредиткою",
+    "ru": "счёт по кредитной карте",
+    "pl": "rachunek za kartę kredytową",
+    "de": "Kreditkartenabrechnung",
+    "fr": "relevé de carte de crédit",
+    "es": "extracto de la tarjeta",
+    "it": "estratto conto della carta",
+    "pt": "fatura do cartão",
+    "tr": "kredi kartı ekstresi"
+   },
+   "ex": {
+    "en": "My credit card bill came today."
+   }
+  },
+  {
+   "id": "finance.spending-limit",
+   "t": {
+    "en": "spending limit",
+    "uk": "ліміт витрат",
+    "ru": "лимит расходов",
+    "pl": "limit wydatków",
+    "de": "Ausgabenlimit",
+    "fr": "plafond de dépenses",
+    "es": "límite de gasto",
+    "it": "limite di spesa",
+    "pt": "limite de gastos",
+    "tr": "harcama limiti"
+   },
+   "ex": {
+    "en": "I set a spending limit on my card."
+   }
+  },
+  {
+   "id": "finance.account-holder",
+   "t": {
+    "en": "account holder",
+    "uk": "власник рахунку",
+    "ru": "владелец счёта",
+    "pl": "posiadacz rachunku",
+    "de": "Kontoinhaber",
+    "fr": "titulaire du compte",
+    "es": "titular de la cuenta",
+    "it": "titolare del conto",
+    "pt": "titular da conta",
+    "tr": "hesap sahibi"
+   },
+   "ex": {
+    "en": "Only the account holder can sign."
+   }
+  },
+  {
+   "id": "finance.to-run-up-a-bill",
+   "t": {
+    "en": "to run up a bill",
+    "uk": "набрати рахунок",
+    "ru": "набрать счёт",
+    "pl": "nabić rachunek",
+    "de": "eine Rechnung auflaufen lassen",
+    "fr": "accumuler une note",
+    "es": "acumular una cuenta",
+    "it": "accumulare un conto",
+    "pt": "acumular uma conta",
+    "tr": "hesap kabartmak"
+   },
+   "ex": {
+    "en": "He ran up a huge phone bill."
+   }
+  },
+  {
+   "id": "finance.travellers-cheque",
+   "t": {
+    "en": "travellers' cheque",
+    "uk": "дорожній чек",
+    "ru": "дорожный чек",
+    "pl": "czek podróżny",
+    "de": "Reisescheck",
+    "fr": "chèque de voyage",
+    "es": "cheque de viaje",
+    "it": "traveller's cheque",
+    "pt": "cheque de viagem",
+    "tr": "seyahat çeki"
+   },
+   "ex": {
+    "en": "Few people use travellers' cheques now."
+   }
+  },
+  {
+   "id": "finance.rental-income",
+   "t": {
+    "en": "rental income",
+    "uk": "дохід від оренди",
+    "ru": "доход от аренды",
+    "pl": "dochód z najmu",
+    "de": "Mieteinnahmen",
+    "fr": "revenus locatifs",
+    "es": "ingresos por alquiler",
+    "it": "reddito da affitto",
+    "pt": "renda de aluguel",
+    "tr": "kira geliri"
+   },
+   "ex": {
+    "en": "They live on rental income."
+   }
+  },
+  {
+   "id": "finance.debt-collector",
+   "t": {
+    "en": "debt collector",
+    "uk": "колектор",
+    "ru": "коллектор",
+    "pl": "windykator",
+    "de": "Inkassobeauftragter",
+    "fr": "agent de recouvrement",
+    "es": "cobrador de deudas",
+    "it": "esattore",
+    "pt": "cobrador de dívidas",
+    "tr": "borç tahsildarı"
+   },
+   "ex": {
+    "en": "A debt collector called about the loan."
    }
   }
  ]

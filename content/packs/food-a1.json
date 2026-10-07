@@ -2,7 +2,7 @@
  "id": "food-a1",
  "topic": "food",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "food.bread",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "Would you like a biscuit with your tea?"
+   }
+  },
+  {
+   "id": "food.food",
+   "t": {
+    "en": "food",
+    "uk": "їжа",
+    "ru": "еда",
+    "pl": "jedzenie",
+    "de": "Essen",
+    "fr": "nourriture",
+    "es": "alimentos",
+    "it": "cibo",
+    "pt": "comida",
+    "tr": "yiyecek"
+   },
+   "ex": {
+    "en": "We need to buy some food."
+   }
+  },
+  {
+   "id": "food.meal",
+   "t": {
+    "en": "meal",
+    "uk": "прийом їжі",
+    "ru": "приём пищи",
+    "pl": "posiłek",
+    "de": "Mahlzeit",
+    "fr": "repas",
+    "es": "comida",
+    "it": "pasto",
+    "pt": "refeição",
+    "tr": "öğün"
+   },
+   "ex": {
+    "en": "Breakfast is my favourite meal."
+   }
+  },
+  {
+   "id": "food.a-drink",
+   "t": {
+    "en": "a drink",
+    "uk": "напій",
+    "ru": "напиток",
+    "pl": "napój",
+    "de": "Getränk",
+    "fr": "boisson",
+    "es": "bebida",
+    "it": "bevanda",
+    "pt": "bebida",
+    "tr": "içecek"
+   },
+   "ex": {
+    "en": "Would you like a drink?"
+   }
+  },
+  {
+   "id": "food.restaurant",
+   "t": {
+    "en": "restaurant",
+    "uk": "ресторан",
+    "ru": "ресторан",
+    "pl": "restauracja",
+    "de": "Restaurant",
+    "fr": "restaurant",
+    "es": "restaurante",
+    "it": "ristorante",
+    "pt": "restaurante",
+    "tr": "restoran"
+   },
+   "ex": {
+    "en": "Let's go to a restaurant tonight."
+   }
+  },
+  {
+   "id": "food.cafe",
+   "t": {
+    "en": "café",
+    "uk": "кав'ярня",
+    "ru": "кафе",
+    "pl": "kawiarnia",
+    "de": "Café",
+    "fr": "café",
+    "es": "cafetería",
+    "it": "caffè",
+    "pt": "cafeteria",
+    "tr": "kafe"
+   },
+   "ex": {
+    "en": "We met at a small café."
+   }
+  },
+  {
+   "id": "food.pear",
+   "t": {
+    "en": "pear",
+    "uk": "груша",
+    "ru": "груша",
+    "pl": "gruszka",
+    "de": "Birne",
+    "fr": "poire",
+    "es": "pera",
+    "it": "pera",
+    "pt": "pera",
+    "tr": "armut"
+   },
+   "ex": {
+    "en": "This pear is very sweet."
+   }
+  },
+  {
+   "id": "food.peach",
+   "t": {
+    "en": "peach",
+    "uk": "персик",
+    "ru": "персик",
+    "pl": "brzoskwinia",
+    "de": "Pfirsich",
+    "fr": "pêche",
+    "es": "melocotón",
+    "it": "pesca",
+    "pt": "pêssego",
+    "tr": "şeftali"
+   },
+   "ex": {
+    "en": "I love fresh peaches in summer."
+   }
+  },
+  {
+   "id": "food.watermelon",
+   "t": {
+    "en": "watermelon",
+    "uk": "кавун",
+    "ru": "арбуз",
+    "pl": "arbuz",
+    "de": "Wassermelone",
+    "fr": "pastèque",
+    "es": "sandía",
+    "it": "anguria",
+    "pt": "melancia",
+    "tr": "karpuz"
+   },
+   "ex": {
+    "en": "We ate watermelon on the beach."
+   }
+  },
+  {
+   "id": "food.plum",
+   "t": {
+    "en": "plum",
+    "uk": "слива",
+    "ru": "слива",
+    "pl": "śliwka",
+    "de": "Pflaume",
+    "fr": "prune",
+    "es": "ciruela",
+    "it": "prugna",
+    "pt": "ameixa",
+    "tr": "erik"
+   },
+   "ex": {
+    "en": "The plums are ripe now."
+   }
+  },
+  {
+   "id": "food.pineapple",
+   "t": {
+    "en": "pineapple",
+    "uk": "ананас",
+    "ru": "ананас",
+    "pl": "ananas",
+    "de": "Ananas",
+    "fr": "ananas",
+    "es": "piña",
+    "it": "ananas",
+    "pt": "abacaxi",
+    "tr": "ananas"
+   },
+   "ex": {
+    "en": "Do you like pineapple on pizza?"
+   }
+  },
+  {
+   "id": "food.ham",
+   "t": {
+    "en": "ham",
+    "uk": "шинка",
+    "ru": "ветчина",
+    "pl": "szynka",
+    "de": "Schinken",
+    "fr": "jambon",
+    "es": "jamón",
+    "it": "prosciutto",
+    "pt": "presunto",
+    "tr": "jambon"
+   },
+   "ex": {
+    "en": "I'd like a ham sandwich."
+   }
+  },
+  {
+   "id": "food.sweets",
+   "t": {
+    "en": "sweets",
+    "uk": "цукерки",
+    "ru": "конфеты",
+    "pl": "cukierki",
+    "de": "Süßigkeiten",
+    "fr": "bonbons",
+    "es": "caramelos",
+    "it": "caramelle",
+    "pt": "balas",
+    "tr": "şeker"
+   },
+   "ex": {
+    "en": "Children love sweets."
+   }
+  },
+  {
+   "id": "food.toast",
+   "t": {
+    "en": "toast",
+    "uk": "тост",
+    "ru": "тост",
+    "pl": "tost",
+    "de": "Toast",
+    "fr": "pain grillé",
+    "es": "tostada",
+    "it": "pane tostato",
+    "pt": "torrada",
+    "tr": "kızarmış ekmek"
+   },
+   "ex": {
+    "en": "I have toast for breakfast."
+   }
+  },
+  {
+   "id": "food.burger",
+   "t": {
+    "en": "burger",
+    "uk": "бургер",
+    "ru": "бургер",
+    "pl": "burger",
+    "de": "Burger",
+    "fr": "burger",
+    "es": "hamburguesa",
+    "it": "hamburger",
+    "pt": "hambúrguer",
+    "tr": "hamburger"
+   },
+   "ex": {
+    "en": "He ordered a burger and a cola."
+   }
+  },
+  {
+   "id": "food.hot-dog",
+   "t": {
+    "en": "hot dog",
+    "uk": "хот-дог",
+    "ru": "хот-дог",
+    "pl": "hot dog",
+    "de": "Hotdog",
+    "fr": "hot-dog",
+    "es": "perrito caliente",
+    "it": "hot dog",
+    "pt": "cachorro-quente",
+    "tr": "sosisli sandviç"
+   },
+   "ex": {
+    "en": "They sell hot dogs at the stadium."
+   }
+  },
+  {
+   "id": "food.fries",
+   "t": {
+    "en": "fries",
+    "uk": "картопля фрі",
+    "ru": "картофель фри",
+    "pl": "frytki",
+    "de": "Pommes",
+    "fr": "frites",
+    "es": "patatas fritas",
+    "it": "patatine fritte",
+    "pt": "batata frita",
+    "tr": "patates kızartması"
+   },
+   "ex": {
+    "en": "Can I have fries with that?"
+   }
+  },
+  {
+   "id": "food.orange-juice",
+   "t": {
+    "en": "orange juice",
+    "uk": "апельсиновий сік",
+    "ru": "апельсиновый сок",
+    "pl": "sok pomarańczowy",
+    "de": "Orangensaft",
+    "fr": "jus d'orange",
+    "es": "zumo de naranja",
+    "it": "succo d'arancia",
+    "pt": "suco de laranja",
+    "tr": "portakal suyu"
+   },
+   "ex": {
+    "en": "A glass of orange juice, please."
+   }
+  },
+  {
+   "id": "food.hot-chocolate",
+   "t": {
+    "en": "hot chocolate",
+    "uk": "гарячий шоколад",
+    "ru": "горячий шоколад",
+    "pl": "gorąca czekolada",
+    "de": "heiße Schokolade",
+    "fr": "chocolat chaud",
+    "es": "chocolate caliente",
+    "it": "cioccolata calda",
+    "pt": "chocolate quente",
+    "tr": "sıcak çikolata"
+   },
+   "ex": {
+    "en": "I drink hot chocolate in winter."
+   }
+  },
+  {
+   "id": "food.cup-of-tea",
+   "t": {
+    "en": "cup of tea",
+    "uk": "чашка чаю",
+    "ru": "чашка чая",
+    "pl": "filiżanka herbaty",
+    "de": "Tasse Tee",
+    "fr": "tasse de thé",
+    "es": "taza de té",
+    "it": "tazza di tè",
+    "pt": "xícara de chá",
+    "tr": "bir fincan çay"
+   },
+   "ex": {
+    "en": "Would you like a cup of tea?"
+   }
+  },
+  {
+   "id": "food.ketchup",
+   "t": {
+    "en": "ketchup",
+    "uk": "кетчуп",
+    "ru": "кетчуп",
+    "pl": "keczup",
+    "de": "Ketchup",
+    "fr": "ketchup",
+    "es": "kétchup",
+    "it": "ketchup",
+    "pt": "ketchup",
+    "tr": "ketçap"
+   },
+   "ex": {
+    "en": "Pass me the ketchup, please."
    }
   }
  ]

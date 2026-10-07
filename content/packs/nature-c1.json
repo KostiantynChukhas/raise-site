@@ -2,7 +2,7 @@
  "id": "nature-c1",
  "topic": "nature",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "nature.drizzle",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "A sudden cloudburst flooded the streets."
+   }
+  },
+  {
+   "id": "nature.flora",
+   "t": {
+    "en": "flora",
+    "uk": "флора",
+    "ru": "флора",
+    "pl": "flora",
+    "de": "Flora",
+    "fr": "flore",
+    "es": "flora",
+    "it": "flora",
+    "pt": "flora",
+    "tr": "flora"
+   },
+   "ex": {
+    "en": "The island has unique flora."
+   }
+  },
+  {
+   "id": "nature.fauna",
+   "t": {
+    "en": "fauna",
+    "uk": "фауна",
+    "ru": "фауна",
+    "pl": "fauna",
+    "de": "Fauna",
+    "fr": "faune",
+    "es": "fauna",
+    "it": "fauna",
+    "pt": "fauna",
+    "tr": "fauna"
+   },
+   "ex": {
+    "en": "Local fauna includes rare birds."
+   }
+  },
+  {
+   "id": "nature.aquifer",
+   "t": {
+    "en": "aquifer",
+    "uk": "водоносний шар",
+    "ru": "водоносный слой",
+    "pl": "warstwa wodonośna",
+    "de": "Grundwasserleiter",
+    "fr": "aquifère",
+    "es": "acuífero",
+    "it": "falda acquifera",
+    "pt": "aquífero",
+    "tr": "akifer"
+   },
+   "ex": {
+    "en": "The aquifer supplies the town."
+   }
+  },
+  {
+   "id": "nature.watershed",
+   "t": {
+    "en": "watershed",
+    "uk": "вододіл",
+    "ru": "водораздел",
+    "pl": "dział wodny",
+    "de": "Wasserscheide",
+    "fr": "ligne de partage des eaux",
+    "es": "divisoria de aguas",
+    "it": "spartiacque",
+    "pt": "divisor de águas",
+    "tr": "su bölümü çizgisi"
+   },
+   "ex": {
+    "en": "The ridge forms a watershed."
+   }
+  },
+  {
+   "id": "nature.headland",
+   "t": {
+    "en": "headland",
+    "uk": "мис",
+    "ru": "мыс",
+    "pl": "przylądek",
+    "de": "Landspitze",
+    "fr": "promontoire",
+    "es": "promontorio",
+    "it": "promontorio",
+    "pt": "promontório",
+    "tr": "burun"
+   },
+   "ex": {
+    "en": "We walked out to the headland."
+   }
+  },
+  {
+   "id": "nature.fjord",
+   "t": {
+    "en": "fjord",
+    "uk": "фіорд",
+    "ru": "фьорд",
+    "pl": "fiord",
+    "de": "Fjord",
+    "fr": "fjord",
+    "es": "fiordo",
+    "it": "fiordo",
+    "pt": "fiorde",
+    "tr": "fiyort"
+   },
+   "ex": {
+    "en": "The fjord was deep and narrow."
+   }
+  },
+  {
+   "id": "nature.archipelago",
+   "t": {
+    "en": "archipelago",
+    "uk": "архіпелаг",
+    "ru": "архипелаг",
+    "pl": "archipelag",
+    "de": "Archipel",
+    "fr": "archipel",
+    "es": "archipiélago",
+    "it": "arcipelago",
+    "pt": "arquipélago",
+    "tr": "takımada"
+   },
+   "ex": {
+    "en": "The archipelago has 200 islands."
+   }
+  },
+  {
+   "id": "nature.atoll",
+   "t": {
+    "en": "atoll",
+    "uk": "атол",
+    "ru": "атолл",
+    "pl": "atol",
+    "de": "Atoll",
+    "fr": "atoll",
+    "es": "atolón",
+    "it": "atollo",
+    "pt": "atol",
+    "tr": "atol"
+   },
+   "ex": {
+    "en": "An atoll is a ring of coral."
+   }
+  },
+  {
+   "id": "nature.sinkhole",
+   "t": {
+    "en": "sinkhole",
+    "uk": "карстова лійка",
+    "ru": "карстовая воронка",
+    "pl": "lej krasowy",
+    "de": "Erdfall",
+    "fr": "doline",
+    "es": "socavón",
+    "it": "dolina",
+    "pt": "dolina",
+    "tr": "obruk"
+   },
+   "ex": {
+    "en": "A sinkhole swallowed the road."
+   }
+  },
+  {
+   "id": "nature.geyser",
+   "t": {
+    "en": "geyser",
+    "uk": "гейзер",
+    "ru": "гейзер",
+    "pl": "gejzer",
+    "de": "Geysir",
+    "fr": "geyser",
+    "es": "géiser",
+    "it": "geyser",
+    "pt": "gêiser",
+    "tr": "gayzer"
+   },
+   "ex": {
+    "en": "The geyser erupts every hour."
+   }
+  },
+  {
+   "id": "nature.hot-spring",
+   "t": {
+    "en": "hot spring",
+    "uk": "гаряче джерело",
+    "ru": "горячий источник",
+    "pl": "gorące źródło",
+    "de": "heiße Quelle",
+    "fr": "source chaude",
+    "es": "fuente termal",
+    "it": "sorgente termale",
+    "pt": "fonte termal",
+    "tr": "kaplıca"
+   },
+   "ex": {
+    "en": "We bathed in a hot spring."
+   }
+  },
+  {
+   "id": "nature.magma",
+   "t": {
+    "en": "magma",
+    "uk": "магма",
+    "ru": "магма",
+    "pl": "magma",
+    "de": "Magma",
+    "fr": "magma",
+    "es": "magma",
+    "it": "magma",
+    "pt": "magma",
+    "tr": "magma"
+   },
+   "ex": {
+    "en": "Magma rises from deep below."
+   }
+  },
+  {
+   "id": "nature.fault-line",
+   "t": {
+    "en": "fault line",
+    "uk": "лінія розлому",
+    "ru": "линия разлома",
+    "pl": "linia uskoku",
+    "de": "Verwerfungslinie",
+    "fr": "ligne de faille",
+    "es": "línea de falla",
+    "it": "linea di faglia",
+    "pt": "linha de falha",
+    "tr": "fay hattı"
+   },
+   "ex": {
+    "en": "The city sits on a fault line."
+   }
+  },
+  {
+   "id": "nature.carbon-sink",
+   "t": {
+    "en": "carbon sink",
+    "uk": "поглинач вуглецю",
+    "ru": "поглотитель углерода",
+    "pl": "pochłaniacz dwutlenku węgla",
+    "de": "Kohlenstoffsenke",
+    "fr": "puits de carbone",
+    "es": "sumidero de carbono",
+    "it": "pozzo di carbonio",
+    "pt": "sumidouro de carbono",
+    "tr": "karbon yutağı"
+   },
+   "ex": {
+    "en": "Oceans act as a carbon sink."
+   }
+  },
+  {
+   "id": "nature.rewilding",
+   "t": {
+    "en": "rewilding",
+    "uk": "відновлення дикої природи",
+    "ru": "восстановление дикой природы",
+    "pl": "renaturyzacja",
+    "de": "Renaturierung",
+    "fr": "réensauvagement",
+    "es": "renaturalización",
+    "it": "rinaturalizzazione",
+    "pt": "renaturalização",
+    "tr": "yeniden yabanileştirme"
+   },
+   "ex": {
+    "en": "Rewilding brought the wolves back."
+   }
+  },
+  {
+   "id": "nature.overfishing",
+   "t": {
+    "en": "overfishing",
+    "uk": "надмірний вилов риби",
+    "ru": "чрезмерный вылов рыбы",
+    "pl": "przełowienie",
+    "de": "Überfischung",
+    "fr": "surpêche",
+    "es": "sobrepesca",
+    "it": "pesca eccessiva",
+    "pt": "sobrepesca",
+    "tr": "aşırı avlanma"
+   },
+   "ex": {
+    "en": "Overfishing threatens the cod."
+   }
+  },
+  {
+   "id": "nature.desertification",
+   "t": {
+    "en": "desertification",
+    "uk": "опустелювання",
+    "ru": "опустынивание",
+    "pl": "pustynnienie",
+    "de": "Desertifikation",
+    "fr": "désertification",
+    "es": "desertificación",
+    "it": "desertificazione",
+    "pt": "desertificação",
+    "tr": "çölleşme"
+   },
+   "ex": {
+    "en": "Desertification is spreading fast."
+   }
+  },
+  {
+   "id": "nature.sediment",
+   "t": {
+    "en": "sediment",
+    "uk": "осад",
+    "ru": "осадок",
+    "pl": "osad",
+    "de": "Sediment",
+    "fr": "sédiment",
+    "es": "sedimento",
+    "it": "sedimento",
+    "pt": "sedimento",
+    "tr": "tortu"
+   },
+   "ex": {
+    "en": "The river carries sediment to the sea."
+   }
+  },
+  {
+   "id": "nature.topsoil",
+   "t": {
+    "en": "topsoil",
+    "uk": "верхній шар ґрунту",
+    "ru": "верхний слой почвы",
+    "pl": "wierzchnia warstwa gleby",
+    "de": "Mutterboden",
+    "fr": "couche arable",
+    "es": "capa superficial del suelo",
+    "it": "strato superficiale del suolo",
+    "pt": "camada superficial do solo",
+    "tr": "üst toprak"
+   },
+   "ex": {
+    "en": "Wind blew the topsoil away."
+   }
+  },
+  {
+   "id": "nature.hedgerow",
+   "t": {
+    "en": "hedgerow",
+    "uk": "живопліт",
+    "ru": "живая изгородь",
+    "pl": "żywopłot",
+    "de": "Hecke",
+    "fr": "haie",
+    "es": "seto vivo",
+    "it": "siepe",
+    "pt": "cerca viva",
+    "tr": "çit"
+   },
+   "ex": {
+    "en": "Birds nest in the hedgerow."
+   }
+  },
+  {
+   "id": "nature.glade",
+   "t": {
+    "en": "glade",
+    "uk": "галявина",
+    "ru": "поляна",
+    "pl": "polana",
+    "de": "Lichtung",
+    "fr": "clairière",
+    "es": "claro",
+    "it": "radura",
+    "pt": "clareira",
+    "tr": "orman açıklığı"
+   },
+   "ex": {
+    "en": "Deer grazed in the glade."
+   }
+  },
+  {
+   "id": "nature.moor",
+   "t": {
+    "en": "moor",
+    "uk": "вересова пустка",
+    "ru": "вересковая пустошь",
+    "pl": "wrzosowisko",
+    "de": "Heideland",
+    "fr": "lande",
+    "es": "páramo",
+    "it": "brughiera",
+    "pt": "charneca",
+    "tr": "fundalık"
+   },
+   "ex": {
+    "en": "We crossed the windy moor."
+   }
+  },
+  {
+   "id": "nature.bog",
+   "t": {
+    "en": "bog",
+    "uk": "болото",
+    "ru": "болото",
+    "pl": "torfowisko",
+    "de": "Moor",
+    "fr": "tourbière",
+    "es": "turbera",
+    "it": "torbiera",
+    "pt": "turfeira",
+    "tr": "turbalık"
+   },
+   "ex": {
+    "en": "Don't step into the bog."
+   }
+  },
+  {
+   "id": "nature.deciduous",
+   "t": {
+    "en": "deciduous",
+    "uk": "листопадний",
+    "ru": "лиственный",
+    "pl": "liściasty",
+    "de": "laubabwerfend",
+    "fr": "caduc",
+    "es": "de hoja caduca",
+    "it": "deciduo",
+    "pt": "caducifólio",
+    "tr": "yaprak döken"
+   },
+   "ex": {
+    "en": "Oaks are deciduous trees."
+   }
+  },
+  {
+   "id": "nature.evergreen",
+   "t": {
+    "en": "evergreen",
+    "uk": "вічнозелений",
+    "ru": "вечнозелёный",
+    "pl": "wiecznie zielony",
+    "de": "immergrün",
+    "fr": "à feuilles persistantes",
+    "es": "de hoja perenne",
+    "it": "sempreverde",
+    "pt": "perene",
+    "tr": "her dem yeşil"
+   },
+   "ex": {
+    "en": "Pines are evergreen."
+   }
+  },
+  {
+   "id": "nature.coniferous-forest",
+   "t": {
+    "en": "coniferous forest",
+    "uk": "хвойний ліс",
+    "ru": "хвойный лес",
+    "pl": "las iglasty",
+    "de": "Nadelwald",
+    "fr": "forêt de conifères",
+    "es": "bosque de coníferas",
+    "it": "foresta di conifere",
+    "pt": "floresta de coníferas",
+    "tr": "iğne yapraklı orman"
+   },
+   "ex": {
+    "en": "A coniferous forest covers the hills."
+   }
+  },
+  {
+   "id": "nature.to-germinate",
+   "t": {
+    "en": "to germinate",
+    "uk": "проростати",
+    "ru": "прорастать",
+    "pl": "kiełkować",
+    "de": "keimen",
+    "fr": "germer",
+    "es": "germinar",
+    "it": "germinare",
+    "pt": "germinar",
+    "tr": "çimlenmek"
+   },
+   "ex": {
+    "en": "The seeds germinate in spring."
+   }
+  },
+  {
+   "id": "nature.photosynthesis",
+   "t": {
+    "en": "photosynthesis",
+    "uk": "фотосинтез",
+    "ru": "фотосинтез",
+    "pl": "fotosynteza",
+    "de": "Photosynthese",
+    "fr": "photosynthèse",
+    "es": "fotosíntesis",
+    "it": "fotosintesi",
+    "pt": "fotossíntese",
+    "tr": "fotosentez"
+   },
+   "ex": {
+    "en": "Plants need light for photosynthesis."
+   }
+  },
+  {
+   "id": "nature.symbiosis",
+   "t": {
+    "en": "symbiosis",
+    "uk": "симбіоз",
+    "ru": "симбиоз",
+    "pl": "symbioza",
+    "de": "Symbiose",
+    "fr": "symbiose",
+    "es": "simbiosis",
+    "it": "simbiosi",
+    "pt": "simbiose",
+    "tr": "ortak yaşam"
+   },
+   "ex": {
+    "en": "Bees and flowers live in symbiosis."
+   }
+  },
+  {
+   "id": "nature.camouflage",
+   "t": {
+    "en": "camouflage",
+    "uk": "маскування",
+    "ru": "маскировка",
+    "pl": "kamuflaż",
+    "de": "Tarnung",
+    "fr": "camouflage",
+    "es": "camuflaje",
+    "it": "mimetismo",
+    "pt": "camuflagem",
+    "tr": "kamuflaj"
+   },
+   "ex": {
+    "en": "The moth's camouflage is perfect."
+   }
+  },
+  {
+   "id": "nature.to-forage",
+   "t": {
+    "en": "to forage",
+    "uk": "шукати їжу",
+    "ru": "добывать корм",
+    "pl": "żerować",
+    "de": "nach Futter suchen",
+    "fr": "fourrager",
+    "es": "forrajear",
+    "it": "foraggiare",
+    "pt": "forragear",
+    "tr": "yiyecek aramak"
+   },
+   "ex": {
+    "en": "Bears forage for berries."
+   }
+  },
+  {
+   "id": "nature.to-spawn",
+   "t": {
+    "en": "to spawn",
+    "uk": "нереститися",
+    "ru": "нереститься",
+    "pl": "odbywać tarło",
+    "de": "laichen",
+    "fr": "frayer",
+    "es": "desovar",
+    "it": "deporre le uova",
+    "pt": "desovar",
+    "tr": "yumurtlamak"
+   },
+   "ex": {
+    "en": "Salmon return to spawn."
+   }
+  },
+  {
+   "id": "nature.migratory-bird",
+   "t": {
+    "en": "migratory bird",
+    "uk": "перелітний птах",
+    "ru": "перелётная птица",
+    "pl": "ptak wędrowny",
+    "de": "Zugvogel",
+    "fr": "oiseau migrateur",
+    "es": "ave migratoria",
+    "it": "uccello migratore",
+    "pt": "ave migratória",
+    "tr": "göçmen kuş"
+   },
+   "ex": {
+    "en": "Storks are migratory birds."
+   }
+  },
+  {
+   "id": "nature.hibernation",
+   "t": {
+    "en": "hibernation",
+    "uk": "сплячка",
+    "ru": "спячка",
+    "pl": "hibernacja",
+    "de": "Winterschlaf",
+    "fr": "hibernation",
+    "es": "hibernación",
+    "it": "letargo",
+    "pt": "hibernação",
+    "tr": "kış uykusu"
+   },
+   "ex": {
+    "en": "Bears wake up from hibernation."
+   }
+  },
+  {
+   "id": "nature.carnivore",
+   "t": {
+    "en": "carnivore",
+    "uk": "м'ясоїдна тварина",
+    "ru": "плотоядное животное",
+    "pl": "mięsożerca",
+    "de": "Fleischfresser",
+    "fr": "carnivore",
+    "es": "carnívoro",
+    "it": "carnivoro",
+    "pt": "carnívoro",
+    "tr": "etobur"
+   },
+   "ex": {
+    "en": "The wolf is a carnivore."
+   }
+  },
+  {
+   "id": "nature.herbivore",
+   "t": {
+    "en": "herbivore",
+    "uk": "травоїдна тварина",
+    "ru": "травоядное животное",
+    "pl": "roślinożerca",
+    "de": "Pflanzenfresser",
+    "fr": "herbivore",
+    "es": "herbívoro",
+    "it": "erbivoro",
+    "pt": "herbívoro",
+    "tr": "otobur"
+   },
+   "ex": {
+    "en": "A cow is a herbivore."
+   }
+  },
+  {
+   "id": "nature.scavenger",
+   "t": {
+    "en": "scavenger",
+    "uk": "падлоїд",
+    "ru": "падальщик",
+    "pl": "padlinożerca",
+    "de": "Aasfresser",
+    "fr": "charognard",
+    "es": "carroñero",
+    "it": "necrofago",
+    "pt": "necrófago",
+    "tr": "leşçil"
+   },
+   "ex": {
+    "en": "Hyenas are scavengers."
+   }
+  },
+  {
+   "id": "nature.apex-predator",
+   "t": {
+    "en": "apex predator",
+    "uk": "верховний хижак",
+    "ru": "высший хищник",
+    "pl": "drapieżnik szczytowy",
+    "de": "Spitzenprädator",
+    "fr": "superprédateur",
+    "es": "superdepredador",
+    "it": "superpredatore",
+    "pt": "predador de topo",
+    "tr": "zirve yırtıcısı"
+   },
+   "ex": {
+    "en": "The orca is an apex predator."
+   }
+  },
+  {
+   "id": "nature.plumage",
+   "t": {
+    "en": "plumage",
+    "uk": "оперення",
+    "ru": "оперение",
+    "pl": "upierzenie",
+    "de": "Gefieder",
+    "fr": "plumage",
+    "es": "plumaje",
+    "it": "piumaggio",
+    "pt": "plumagem",
+    "tr": "tüyler"
+   },
+   "ex": {
+    "en": "The male has bright plumage."
+   }
+  },
+  {
+   "id": "nature.antlers",
+   "t": {
+    "en": "antlers",
+    "uk": "роги (оленя)",
+    "ru": "рога (оленя)",
+    "pl": "poroże",
+    "de": "Geweih",
+    "fr": "bois",
+    "es": "cornamenta",
+    "it": "palco",
+    "pt": "galhada",
+    "tr": "geyik boynuzu"
+   },
+   "ex": {
+    "en": "The stag has huge antlers."
+   }
+  },
+  {
+   "id": "nature.talon",
+   "t": {
+    "en": "talon",
+    "uk": "кіготь (хижого птаха)",
+    "ru": "коготь (хищной птицы)",
+    "pl": "szpon",
+    "de": "Klaue",
+    "fr": "serre",
+    "es": "garra",
+    "it": "artiglio",
+    "pt": "garra",
+    "tr": "pençe"
+   },
+   "ex": {
+    "en": "The eagle grabbed it with its talons."
+   }
+  },
+  {
+   "id": "nature.tusk",
+   "t": {
+    "en": "tusk",
+    "uk": "бивень",
+    "ru": "бивень",
+    "pl": "kieł",
+    "de": "Stoßzahn",
+    "fr": "défense",
+    "es": "colmillo",
+    "it": "zanna",
+    "pt": "presa",
+    "tr": "fil dişi"
+   },
+   "ex": {
+    "en": "Elephants are killed for their tusks."
+   }
+  },
+  {
+   "id": "nature.venomous",
+   "t": {
+    "en": "venomous",
+    "uk": "отруйний",
+    "ru": "ядовитый",
+    "pl": "jadowity",
+    "de": "giftig",
+    "fr": "venimeux",
+    "es": "venenoso",
+    "it": "velenoso",
+    "pt": "venenoso",
+    "tr": "zehirli"
+   },
+   "ex": {
+    "en": "This snake is venomous."
+   }
+  },
+  {
+   "id": "nature.gale",
+   "t": {
+    "en": "gale",
+    "uk": "штормовий вітер",
+    "ru": "штормовой ветер",
+    "pl": "wichura",
+    "de": "Sturm",
+    "fr": "coup de vent",
+    "es": "vendaval",
+    "it": "burrasca",
+    "pt": "vendaval",
+    "tr": "şiddetli rüzgar"
+   },
+   "ex": {
+    "en": "A gale blew all night."
+   }
+  },
+  {
+   "id": "nature.haze",
+   "t": {
+    "en": "haze",
+    "uk": "серпанок",
+    "ru": "дымка",
+    "pl": "mgiełka",
+    "de": "Dunst",
+    "fr": "brume",
+    "es": "calima",
+    "it": "foschia",
+    "pt": "neblina",
+    "tr": "pus"
+   },
+   "ex": {
+    "en": "A haze hung over the city."
+   }
+  },
+  {
+   "id": "nature.smog",
+   "t": {
+    "en": "smog",
+    "uk": "смог",
+    "ru": "смог",
+    "pl": "smog",
+    "de": "Smog",
+    "fr": "smog",
+    "es": "esmog",
+    "it": "smog",
+    "pt": "smog",
+    "tr": "zehirli sis"
+   },
+   "ex": {
+    "en": "Smog is bad for your lungs."
+   }
+  },
+  {
+   "id": "nature.hoarfrost",
+   "t": {
+    "en": "hoarfrost",
+    "uk": "паморозь",
+    "ru": "изморозь",
+    "pl": "szadź",
+    "de": "Raureif",
+    "fr": "givre",
+    "es": "escarcha",
+    "it": "brina",
+    "pt": "geada",
+    "tr": "kırağı"
+   },
+   "ex": {
+    "en": "Hoarfrost covered the trees."
+   }
+  },
+  {
+   "id": "nature.low-tide",
+   "t": {
+    "en": "low tide",
+    "uk": "відплив",
+    "ru": "отлив",
+    "pl": "odpływ",
+    "de": "Ebbe",
+    "fr": "marée basse",
+    "es": "marea baja",
+    "it": "bassa marea",
+    "pt": "maré baixa",
+    "tr": "cezir"
+   },
+   "ex": {
+    "en": "We found shells at low tide."
+   }
+  },
+  {
+   "id": "nature.high-tide",
+   "t": {
+    "en": "high tide",
+    "uk": "приплив",
+    "ru": "прилив",
+    "pl": "przypływ",
+    "de": "Flut",
+    "fr": "marée haute",
+    "es": "marea alta",
+    "it": "alta marea",
+    "pt": "maré alta",
+    "tr": "med"
+   },
+   "ex": {
+    "en": "The beach floods at high tide."
+   }
+  },
+  {
+   "id": "nature.rip-current",
+   "t": {
+    "en": "rip current",
+    "uk": "відбійна течія",
+    "ru": "отбойное течение",
+    "pl": "prąd wsteczny",
+    "de": "Brandungsrückstrom",
+    "fr": "courant d'arrachement",
+    "es": "corriente de resaca",
+    "it": "corrente di risacca",
+    "pt": "corrente de retorno",
+    "tr": "geri akıntı"
+   },
+   "ex": {
+    "en": "Rip currents are dangerous."
    }
   }
  ]

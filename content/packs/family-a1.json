@@ -2,7 +2,7 @@
  "id": "family-a1",
  "topic": "family",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "family.family",
@@ -866,6 +866,402 @@
    },
    "ex": {
     "en": "Who is this in the photo?"
+   }
+  },
+  {
+   "id": "family.kid",
+   "t": {
+    "en": "kid",
+    "uk": "дитина",
+    "ru": "ребёнок",
+    "pl": "dziecko",
+    "de": "Kind",
+    "fr": "gamin",
+    "es": "crío",
+    "it": "bambino",
+    "pt": "criança",
+    "tr": "çocuk"
+   },
+   "ex": {
+    "en": "The kid is playing outside."
+   }
+  },
+  {
+   "id": "family.parent",
+   "t": {
+    "en": "parent",
+    "uk": "один з батьків",
+    "ru": "родитель",
+    "pl": "rodzic",
+    "de": "Elternteil",
+    "fr": "parent",
+    "es": "padre o madre",
+    "it": "genitore",
+    "pt": "pai ou mãe",
+    "tr": "ebeveyn"
+   },
+   "ex": {
+    "en": "Every parent wants the best."
+   }
+  },
+  {
+   "id": "family.children",
+   "t": {
+    "en": "children",
+    "uk": "діти",
+    "ru": "дети",
+    "pl": "dzieci",
+    "de": "Kinder",
+    "fr": "enfants",
+    "es": "niños",
+    "it": "bambini",
+    "pt": "crianças",
+    "tr": "çocuklar"
+   },
+   "ex": {
+    "en": "They have three children."
+   }
+  },
+  {
+   "id": "family.eyes",
+   "t": {
+    "en": "eyes",
+    "uk": "очі",
+    "ru": "глаза",
+    "pl": "oczy",
+    "de": "Augen",
+    "fr": "yeux",
+    "es": "ojos",
+    "it": "occhi",
+    "pt": "olhos",
+    "tr": "gözler"
+   },
+   "ex": {
+    "en": "He has kind eyes."
+   }
+  },
+  {
+   "id": "family.family-photo",
+   "t": {
+    "en": "family photo",
+    "uk": "сімейне фото",
+    "ru": "семейное фото",
+    "pl": "zdjęcie rodzinne",
+    "de": "Familienfoto",
+    "fr": "photo de famille",
+    "es": "foto de familia",
+    "it": "foto di famiglia",
+    "pt": "foto de família",
+    "tr": "aile fotoğrafı"
+   },
+   "ex": {
+    "en": "We take a family photo every year."
+   }
+  },
+  {
+   "id": "family.fat",
+   "t": {
+    "en": "fat",
+    "uk": "товстий",
+    "ru": "толстый",
+    "pl": "gruby",
+    "de": "dick",
+    "fr": "gros",
+    "es": "gordo",
+    "it": "grasso",
+    "pt": "gordo",
+    "tr": "şişman"
+   },
+   "ex": {
+    "en": "The cat is very fat."
+   }
+  },
+  {
+   "id": "family.my-family",
+   "t": {
+    "en": "my family",
+    "uk": "моя сім'я",
+    "ru": "моя семья",
+    "pl": "moja rodzina",
+    "de": "meine Familie",
+    "fr": "ma famille",
+    "es": "mi familia",
+    "it": "la mia famiglia",
+    "pt": "minha família",
+    "tr": "ailem"
+   },
+   "ex": {
+    "en": "I love my family."
+   }
+  },
+  {
+   "id": "family.happy-family",
+   "t": {
+    "en": "happy family",
+    "uk": "щаслива сім'я",
+    "ru": "счастливая семья",
+    "pl": "szczęśliwa rodzina",
+    "de": "glückliche Familie",
+    "fr": "famille heureuse",
+    "es": "familia feliz",
+    "it": "famiglia felice",
+    "pt": "família feliz",
+    "tr": "mutlu aile"
+   },
+   "ex": {
+    "en": "We are a happy family."
+   }
+  },
+  {
+   "id": "family.brother-and-sister",
+   "t": {
+    "en": "brother and sister",
+    "uk": "брат і сестра",
+    "ru": "брат и сестра",
+    "pl": "brat i siostra",
+    "de": "Bruder und Schwester",
+    "fr": "frère et sœur",
+    "es": "hermano y hermana",
+    "it": "fratello e sorella",
+    "pt": "irmão e irmã",
+    "tr": "erkek ve kız kardeş"
+   },
+   "ex": {
+    "en": "Tom and Anna are brother and sister."
+   }
+  },
+  {
+   "id": "family.to-have-a-brother",
+   "t": {
+    "en": "to have a brother",
+    "uk": "мати брата",
+    "ru": "иметь брата",
+    "pl": "mieć brata",
+    "de": "einen Bruder haben",
+    "fr": "avoir un frère",
+    "es": "tener un hermano",
+    "it": "avere un fratello",
+    "pt": "ter um irmão",
+    "tr": "erkek kardeşi olmak"
+   },
+   "ex": {
+    "en": "Do you have a brother?"
+   }
+  },
+  {
+   "id": "family.to-have-a-sister",
+   "t": {
+    "en": "to have a sister",
+    "uk": "мати сестру",
+    "ru": "иметь сестру",
+    "pl": "mieć siostrę",
+    "de": "eine Schwester haben",
+    "fr": "avoir une sœur",
+    "es": "tener una hermana",
+    "it": "avere una sorella",
+    "pt": "ter uma irmã",
+    "tr": "kız kardeşi olmak"
+   },
+   "ex": {
+    "en": "I have a little sister."
+   }
+  },
+  {
+   "id": "family.old-man",
+   "t": {
+    "en": "old man",
+    "uk": "старий чоловік",
+    "ru": "старик",
+    "pl": "starszy pan",
+    "de": "alter Mann",
+    "fr": "vieil homme",
+    "es": "anciano",
+    "it": "vecchio",
+    "pt": "homem idoso",
+    "tr": "yaşlı adam"
+   },
+   "ex": {
+    "en": "An old man lives next door."
+   }
+  },
+  {
+   "id": "family.old-woman",
+   "t": {
+    "en": "old woman",
+    "uk": "літня жінка",
+    "ru": "старушка",
+    "pl": "starsza pani",
+    "de": "alte Frau",
+    "fr": "vieille femme",
+    "es": "anciana",
+    "it": "vecchia",
+    "pt": "mulher idosa",
+    "tr": "yaşlı kadın"
+   },
+   "ex": {
+    "en": "The old woman has a cat."
+   }
+  },
+  {
+   "id": "family.green-eyes",
+   "t": {
+    "en": "green eyes",
+    "uk": "зелені очі",
+    "ru": "зелёные глаза",
+    "pl": "zielone oczy",
+    "de": "grüne Augen",
+    "fr": "yeux verts",
+    "es": "ojos verdes",
+    "it": "occhi verdi",
+    "pt": "olhos verdes",
+    "tr": "yeşil gözler"
+   },
+   "ex": {
+    "en": "My sister has green eyes."
+   }
+  },
+  {
+   "id": "family.black-hair",
+   "t": {
+    "en": "black hair",
+    "uk": "чорне волосся",
+    "ru": "чёрные волосы",
+    "pl": "czarne włosy",
+    "de": "schwarze Haare",
+    "fr": "cheveux noirs",
+    "es": "pelo negro",
+    "it": "capelli neri",
+    "pt": "cabelo preto",
+    "tr": "siyah saç"
+   },
+   "ex": {
+    "en": "He has short black hair."
+   }
+  },
+  {
+   "id": "family.lady",
+   "t": {
+    "en": "lady",
+    "uk": "пані",
+    "ru": "дама",
+    "pl": "pani",
+    "de": "Dame",
+    "fr": "dame",
+    "es": "señora",
+    "it": "signora",
+    "pt": "senhora",
+    "tr": "hanımefendi"
+   },
+   "ex": {
+    "en": "Who is that lady?"
+   }
+  },
+  {
+   "id": "family.people",
+   "t": {
+    "en": "people",
+    "uk": "люди",
+    "ru": "люди",
+    "pl": "ludzie",
+    "de": "Leute",
+    "fr": "gens",
+    "es": "gente",
+    "it": "gente",
+    "pt": "pessoas",
+    "tr": "insanlar"
+   },
+   "ex": {
+    "en": "Many people live here."
+   }
+  },
+  {
+   "id": "family.grown-up",
+   "t": {
+    "en": "grown-up",
+    "uk": "дорослий",
+    "ru": "взрослый",
+    "pl": "dorosły",
+    "de": "Erwachsener",
+    "fr": "grande personne",
+    "es": "mayor",
+    "it": "grande",
+    "pt": "gente grande",
+    "tr": "büyük"
+   },
+   "ex": {
+    "en": "Ask a grown-up for help."
+   }
+  },
+  {
+   "id": "family.mum-and-dad",
+   "t": {
+    "en": "mum and dad",
+    "uk": "мама й тато",
+    "ru": "мама и папа",
+    "pl": "mama i tata",
+    "de": "Mama und Papa",
+    "fr": "maman et papa",
+    "es": "mamá y papá",
+    "it": "mamma e papà",
+    "pt": "mamãe e papai",
+    "tr": "anne ve baba"
+   },
+   "ex": {
+    "en": "Mum and Dad are at work."
+   }
+  },
+  {
+   "id": "family.little-boy",
+   "t": {
+    "en": "little boy",
+    "uk": "маленький хлопчик",
+    "ru": "маленький мальчик",
+    "pl": "mały chłopiec",
+    "de": "kleiner Junge",
+    "fr": "petit garçon",
+    "es": "niño pequeño",
+    "it": "bambino piccolo",
+    "pt": "menininho",
+    "tr": "küçük oğlan"
+   },
+   "ex": {
+    "en": "A little boy is crying."
+   }
+  },
+  {
+   "id": "family.little-girl",
+   "t": {
+    "en": "little girl",
+    "uk": "маленька дівчинка",
+    "ru": "маленькая девочка",
+    "pl": "mała dziewczynka",
+    "de": "kleines Mädchen",
+    "fr": "petite fille",
+    "es": "niña pequeña",
+    "it": "bambina piccola",
+    "pt": "menininha",
+    "tr": "küçük kız"
+   },
+   "ex": {
+    "en": "She's a sweet little girl."
+   }
+  },
+  {
+   "id": "family.brown-hair",
+   "t": {
+    "en": "brown hair",
+    "uk": "каштанове волосся",
+    "ru": "каштановые волосы",
+    "pl": "brązowe włosy",
+    "de": "braune Haare",
+    "fr": "cheveux châtains",
+    "es": "pelo castaño",
+    "it": "capelli castani",
+    "pt": "cabelo castanho",
+    "tr": "kahverengi saç"
+   },
+   "ex": {
+    "en": "My mum has brown hair."
    }
   }
  ]

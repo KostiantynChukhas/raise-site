@@ -2,7 +2,7 @@
  "id": "nature-b1",
  "topic": "nature",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "nature.thunder",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "A hedgehog lives in our garden."
+   }
+  },
+  {
+   "id": "nature.full-moon",
+   "t": {
+    "en": "full moon",
+    "uk": "повний місяць",
+    "ru": "полнолуние",
+    "pl": "pełnia księżyca",
+    "de": "Vollmond",
+    "fr": "pleine lune",
+    "es": "luna llena",
+    "it": "luna piena",
+    "pt": "lua cheia",
+    "tr": "dolunay"
+   },
+   "ex": {
+    "en": "There's a full moon tonight."
+   }
+  },
+  {
+   "id": "nature.starry-sky",
+   "t": {
+    "en": "starry sky",
+    "uk": "зоряне небо",
+    "ru": "звёздное небо",
+    "pl": "gwiaździste niebo",
+    "de": "Sternenhimmel",
+    "fr": "ciel étoilé",
+    "es": "cielo estrellado",
+    "it": "cielo stellato",
+    "pt": "céu estrelado",
+    "tr": "yıldızlı gökyüzü"
+   },
+   "ex": {
+    "en": "We lay under the starry sky."
+   }
+  },
+  {
+   "id": "nature.horizon",
+   "t": {
+    "en": "horizon",
+    "uk": "обрій",
+    "ru": "горизонт",
+    "pl": "horyzont",
+    "de": "Horizont",
+    "fr": "horizon",
+    "es": "horizonte",
+    "it": "orizzonte",
+    "pt": "horizonte",
+    "tr": "ufuk"
+   },
+   "ex": {
+    "en": "A ship appeared on the horizon."
+   }
+  },
+  {
+   "id": "nature.icicle",
+   "t": {
+    "en": "icicle",
+    "uk": "бурулька",
+    "ru": "сосулька",
+    "pl": "sopel",
+    "de": "Eiszapfen",
+    "fr": "stalactite de glace",
+    "es": "carámbano",
+    "it": "ghiacciolo",
+    "pt": "pingente de gelo",
+    "tr": "buz saçağı"
+   },
+   "ex": {
+    "en": "An icicle hung from the roof."
+   }
+  },
+  {
+   "id": "nature.light-rain",
+   "t": {
+    "en": "light rain",
+    "uk": "дрібний дощ",
+    "ru": "небольшой дождь",
+    "pl": "lekki deszcz",
+    "de": "leichter Regen",
+    "fr": "pluie fine",
+    "es": "lluvia ligera",
+    "it": "pioggia leggera",
+    "pt": "chuva fraca",
+    "tr": "hafif yağmur"
+   },
+   "ex": {
+    "en": "Light rain is expected later."
+   }
+  },
+  {
+   "id": "nature.lighthouse",
+   "t": {
+    "en": "lighthouse",
+    "uk": "маяк",
+    "ru": "маяк",
+    "pl": "latarnia morska",
+    "de": "Leuchtturm",
+    "fr": "phare",
+    "es": "faro",
+    "it": "faro",
+    "pt": "farol",
+    "tr": "deniz feneri"
+   },
+   "ex": {
+    "en": "The lighthouse guides the ships."
+   }
+  },
+  {
+   "id": "nature.coastline",
+   "t": {
+    "en": "coastline",
+    "uk": "узбережжя",
+    "ru": "береговая линия",
+    "pl": "linia brzegowa",
+    "de": "Küstenlinie",
+    "fr": "littoral",
+    "es": "litoral",
+    "it": "costa",
+    "pt": "litoral",
+    "tr": "kıyı şeridi"
+   },
+   "ex": {
+    "en": "The coastline is very rocky."
+   }
+  },
+  {
+   "id": "nature.claw",
+   "t": {
+    "en": "claw",
+    "uk": "кіготь",
+    "ru": "коготь",
+    "pl": "pazur",
+    "de": "Kralle",
+    "fr": "griffe",
+    "es": "garra",
+    "it": "artiglio",
+    "pt": "garra",
+    "tr": "pençe"
+   },
+   "ex": {
+    "en": "The cat has sharp claws."
+   }
+  },
+  {
+   "id": "nature.horn",
+   "t": {
+    "en": "horn",
+    "uk": "ріг",
+    "ru": "рог",
+    "pl": "róg",
+    "de": "Horn",
+    "fr": "corne",
+    "es": "cuerno",
+    "it": "corno",
+    "pt": "chifre",
+    "tr": "boynuz"
+   },
+   "ex": {
+    "en": "The goat has two horns."
+   }
+  },
+  {
+   "id": "nature.hoof",
+   "t": {
+    "en": "hoof",
+    "uk": "копито",
+    "ru": "копыто",
+    "pl": "kopyto",
+    "de": "Huf",
+    "fr": "sabot",
+    "es": "pezuña",
+    "it": "zoccolo",
+    "pt": "casco",
+    "tr": "toynak"
+   },
+   "ex": {
+    "en": "The horse hurt its hoof."
+   }
+  },
+  {
+   "id": "nature.mane",
+   "t": {
+    "en": "mane",
+    "uk": "грива",
+    "ru": "грива",
+    "pl": "grzywa",
+    "de": "Mähne",
+    "fr": "crinière",
+    "es": "melena",
+    "it": "criniera",
+    "pt": "juba",
+    "tr": "yele"
+   },
+   "ex": {
+    "en": "The lion has a thick mane."
+   }
+  },
+  {
+   "id": "nature.fin",
+   "t": {
+    "en": "fin",
+    "uk": "плавець",
+    "ru": "плавник",
+    "pl": "płetwa",
+    "de": "Flosse",
+    "fr": "nageoire",
+    "es": "aleta",
+    "it": "pinna",
+    "pt": "barbatana",
+    "tr": "yüzgeç"
+   },
+   "ex": {
+    "en": "We saw a shark's fin."
+   }
+  },
+  {
+   "id": "nature.den",
+   "t": {
+    "en": "den",
+    "uk": "лігво",
+    "ru": "логово",
+    "pl": "nora",
+    "de": "Bau",
+    "fr": "tanière",
+    "es": "guarida",
+    "it": "tana",
+    "pt": "toca",
+    "tr": "in"
+   },
+   "ex": {
+    "en": "The fox returned to its den."
+   }
+  },
+  {
+   "id": "nature.hive",
+   "t": {
+    "en": "hive",
+    "uk": "вулик",
+    "ru": "улей",
+    "pl": "ul",
+    "de": "Bienenstock",
+    "fr": "ruche",
+    "es": "colmena",
+    "it": "alveare",
+    "pt": "colmeia",
+    "tr": "arı kovanı"
+   },
+   "ex": {
+    "en": "The hive is full of honey."
+   }
+  },
+  {
+   "id": "nature.spiderweb",
+   "t": {
+    "en": "spiderweb",
+    "uk": "павутина",
+    "ru": "паутина",
+    "pl": "pajęczyna",
+    "de": "Spinnennetz",
+    "fr": "toile d'araignée",
+    "es": "telaraña",
+    "it": "ragnatela",
+    "pt": "teia de aranha",
+    "tr": "örümcek ağı"
+   },
+   "ex": {
+    "en": "A spiderweb hung in the corner."
+   }
+  },
+  {
+   "id": "nature.dragonfly",
+   "t": {
+    "en": "dragonfly",
+    "uk": "бабка",
+    "ru": "стрекоза",
+    "pl": "ważka",
+    "de": "Libelle",
+    "fr": "libellule",
+    "es": "libélula",
+    "it": "libellula",
+    "pt": "libélula",
+    "tr": "yusufçuk"
+   },
+   "ex": {
+    "en": "A dragonfly flew over the pond."
+   }
+  },
+  {
+   "id": "nature.beetle",
+   "t": {
+    "en": "beetle",
+    "uk": "жук",
+    "ru": "жук",
+    "pl": "chrząszcz",
+    "de": "Käfer",
+    "fr": "scarabée",
+    "es": "escarabajo",
+    "it": "scarabeo",
+    "pt": "besouro",
+    "tr": "kınkanatlı böcek"
+   },
+   "ex": {
+    "en": "A black beetle crossed the path."
+   }
+  },
+  {
+   "id": "nature.moth",
+   "t": {
+    "en": "moth",
+    "uk": "нічний метелик",
+    "ru": "мотылёк",
+    "pl": "ćma",
+    "de": "Motte",
+    "fr": "papillon de nuit",
+    "es": "polilla",
+    "it": "falena",
+    "pt": "mariposa noturna",
+    "tr": "gece kelebeği"
+   },
+   "ex": {
+    "en": "A moth flew around the lamp."
+   }
+  },
+  {
+   "id": "nature.grasshopper",
+   "t": {
+    "en": "grasshopper",
+    "uk": "коник",
+    "ru": "кузнечик",
+    "pl": "konik polny",
+    "de": "Heuschrecke",
+    "fr": "sauterelle",
+    "es": "saltamontes",
+    "it": "cavalletta",
+    "pt": "gafanhoto",
+    "tr": "çekirge"
+   },
+   "ex": {
+    "en": "The grasshopper jumped away."
+   }
+  },
+  {
+   "id": "nature.jellyfish",
+   "t": {
+    "en": "jellyfish",
+    "uk": "медуза",
+    "ru": "медуза",
+    "pl": "meduza",
+    "de": "Qualle",
+    "fr": "méduse",
+    "es": "medusa",
+    "it": "medusa",
+    "pt": "água-viva",
+    "tr": "denizanası"
+   },
+   "ex": {
+    "en": "A jellyfish stung my leg."
+   }
+  },
+  {
+   "id": "nature.lobster",
+   "t": {
+    "en": "lobster",
+    "uk": "омар",
+    "ru": "омар",
+    "pl": "homar",
+    "de": "Hummer",
+    "fr": "homard",
+    "es": "bogavante",
+    "it": "astice",
+    "pt": "lagosta",
+    "tr": "ıstakoz"
+   },
+   "ex": {
+    "en": "The lobster has big claws."
+   }
+  },
+  {
+   "id": "nature.otter",
+   "t": {
+    "en": "otter",
+    "uk": "видра",
+    "ru": "выдра",
+    "pl": "wydra",
+    "de": "Otter",
+    "fr": "loutre",
+    "es": "nutria",
+    "it": "lontra",
+    "pt": "lontra",
+    "tr": "su samuru"
+   },
+   "ex": {
+    "en": "An otter swims in the river."
+   }
+  },
+  {
+   "id": "nature.beaver",
+   "t": {
+    "en": "beaver",
+    "uk": "бобер",
+    "ru": "бобр",
+    "pl": "bóbr",
+    "de": "Biber",
+    "fr": "castor",
+    "es": "castor",
+    "it": "castoro",
+    "pt": "castor",
+    "tr": "kunduz"
+   },
+   "ex": {
+    "en": "Beavers build dams."
+   }
+  },
+  {
+   "id": "nature.hare",
+   "t": {
+    "en": "hare",
+    "uk": "заєць",
+    "ru": "заяц",
+    "pl": "zając",
+    "de": "Hase",
+    "fr": "lièvre",
+    "es": "liebre",
+    "it": "lepre",
+    "pt": "lebre",
+    "tr": "yabani tavşanı"
+   },
+   "ex": {
+    "en": "A hare ran across the field."
+   }
+  },
+  {
+   "id": "nature.raccoon",
+   "t": {
+    "en": "raccoon",
+    "uk": "єнот",
+    "ru": "енот",
+    "pl": "szop",
+    "de": "Waschbär",
+    "fr": "raton laveur",
+    "es": "mapache",
+    "it": "procione",
+    "pt": "guaxinim",
+    "tr": "rakun"
+   },
+   "ex": {
+    "en": "A raccoon opened the bin."
+   }
+  },
+  {
+   "id": "nature.hippo",
+   "t": {
+    "en": "hippo",
+    "uk": "бегемот",
+    "ru": "бегемот",
+    "pl": "hipopotam",
+    "de": "Nilpferd",
+    "fr": "hippopotame",
+    "es": "hipopótamo",
+    "it": "ippopotamo",
+    "pt": "hipopótamo",
+    "tr": "su aygırı"
+   },
+   "ex": {
+    "en": "The hippo stays in the water."
+   }
+  },
+  {
+   "id": "nature.rhino",
+   "t": {
+    "en": "rhino",
+    "uk": "носоріг",
+    "ru": "носорог",
+    "pl": "nosorożec",
+    "de": "Nashorn",
+    "fr": "rhinocéros",
+    "es": "rinoceronte",
+    "it": "rinoceronte",
+    "pt": "rinoceronte",
+    "tr": "gergedan"
+   },
+   "ex": {
+    "en": "The rhino has a big horn."
+   }
+  },
+  {
+   "id": "nature.ostrich",
+   "t": {
+    "en": "ostrich",
+    "uk": "страус",
+    "ru": "страус",
+    "pl": "struś",
+    "de": "Strauß",
+    "fr": "autruche",
+    "es": "avestruz",
+    "it": "struzzo",
+    "pt": "avestruz",
+    "tr": "devekuşu"
+   },
+   "ex": {
+    "en": "An ostrich cannot fly."
+   }
+  },
+  {
+   "id": "nature.flamingo",
+   "t": {
+    "en": "flamingo",
+    "uk": "фламінго",
+    "ru": "фламинго",
+    "pl": "flaming",
+    "de": "Flamingo",
+    "fr": "flamant rose",
+    "es": "flamenco",
+    "it": "fenicottero",
+    "pt": "flamingo",
+    "tr": "flamingo"
+   },
+   "ex": {
+    "en": "Flamingos stand on one leg."
+   }
+  },
+  {
+   "id": "nature.peacock",
+   "t": {
+    "en": "peacock",
+    "uk": "павич",
+    "ru": "павлин",
+    "pl": "paw",
+    "de": "Pfau",
+    "fr": "paon",
+    "es": "pavo real",
+    "it": "pavone",
+    "pt": "pavão",
+    "tr": "tavus kuşu"
+   },
+   "ex": {
+    "en": "The peacock opened its tail."
+   }
+  },
+  {
+   "id": "nature.hawk",
+   "t": {
+    "en": "hawk",
+    "uk": "яструб",
+    "ru": "ястреб",
+    "pl": "jastrząb",
+    "de": "Habicht",
+    "fr": "épervier",
+    "es": "gavilán",
+    "it": "sparviero",
+    "pt": "gavião",
+    "tr": "şahin"
+   },
+   "ex": {
+    "en": "A hawk circled above us."
+   }
+  },
+  {
+   "id": "nature.woodpecker",
+   "t": {
+    "en": "woodpecker",
+    "uk": "дятел",
+    "ru": "дятел",
+    "pl": "dzięcioł",
+    "de": "Specht",
+    "fr": "pic",
+    "es": "pájaro carpintero",
+    "it": "picchio",
+    "pt": "pica-pau",
+    "tr": "ağaçkakan"
+   },
+   "ex": {
+    "en": "I heard a woodpecker."
+   }
+  },
+  {
+   "id": "nature.sparrow",
+   "t": {
+    "en": "sparrow",
+    "uk": "горобець",
+    "ru": "воробей",
+    "pl": "wróbel",
+    "de": "Spatz",
+    "fr": "moineau",
+    "es": "gorrión",
+    "it": "passero",
+    "pt": "pardal",
+    "tr": "serçe"
+   },
+   "ex": {
+    "en": "A sparrow sat on the fence."
+   }
+  },
+  {
+   "id": "nature.lizard",
+   "t": {
+    "en": "lizard",
+    "uk": "ящірка",
+    "ru": "ящерица",
+    "pl": "jaszczurka",
+    "de": "Eidechse",
+    "fr": "lézard",
+    "es": "lagarto",
+    "it": "lucertola",
+    "pt": "lagarto",
+    "tr": "kertenkele"
+   },
+   "ex": {
+    "en": "A lizard lay in the sun."
+   }
+  },
+  {
+   "id": "nature.oak",
+   "t": {
+    "en": "oak",
+    "uk": "дуб",
+    "ru": "дуб",
+    "pl": "dąb",
+    "de": "Eiche",
+    "fr": "chêne",
+    "es": "roble",
+    "it": "quercia",
+    "pt": "carvalho",
+    "tr": "meşe"
+   },
+   "ex": {
+    "en": "The old oak is huge."
+   }
+  },
+  {
+   "id": "nature.pine",
+   "t": {
+    "en": "pine",
+    "uk": "сосна",
+    "ru": "сосна",
+    "pl": "sosna",
+    "de": "Kiefer",
+    "fr": "pin",
+    "es": "pino",
+    "it": "pino",
+    "pt": "pinheiro",
+    "tr": "çam"
+   },
+   "ex": {
+    "en": "The forest is full of pines."
+   }
+  },
+  {
+   "id": "nature.daisy",
+   "t": {
+    "en": "daisy",
+    "uk": "ромашка",
+    "ru": "ромашка",
+    "pl": "stokrotka",
+    "de": "Gänseblümchen",
+    "fr": "pâquerette",
+    "es": "margarita",
+    "it": "margherita",
+    "pt": "margarida",
+    "tr": "papatya"
+   },
+   "ex": {
+    "en": "She picked a daisy."
+   }
+  },
+  {
+   "id": "nature.lily",
+   "t": {
+    "en": "lily",
+    "uk": "лілія",
+    "ru": "лилия",
+    "pl": "lilia",
+    "de": "Lilie",
+    "fr": "lys",
+    "es": "lirio",
+    "it": "giglio",
+    "pt": "lírio",
+    "tr": "zambak"
+   },
+   "ex": {
+    "en": "The lily smells lovely."
+   }
+  },
+  {
+   "id": "nature.cactus",
+   "t": {
+    "en": "cactus",
+    "uk": "кактус",
+    "ru": "кактус",
+    "pl": "kaktus",
+    "de": "Kaktus",
+    "fr": "cactus",
+    "es": "cactus",
+    "it": "cactus",
+    "pt": "cacto",
+    "tr": "kaktüs"
+   },
+   "ex": {
+    "en": "A cactus needs little water."
+   }
+  },
+  {
+   "id": "nature.hay",
+   "t": {
+    "en": "hay",
+    "uk": "сіно",
+    "ru": "сено",
+    "pl": "siano",
+    "de": "Heu",
+    "fr": "foin",
+    "es": "heno",
+    "it": "fieno",
+    "pt": "feno",
+    "tr": "saman"
+   },
+   "ex": {
+    "en": "The horses are eating hay."
+   }
+  },
+  {
+   "id": "nature.orchard",
+   "t": {
+    "en": "orchard",
+    "uk": "фруктовий сад",
+    "ru": "фруктовый сад",
+    "pl": "sad",
+    "de": "Obstgarten",
+    "fr": "verger",
+    "es": "huerto frutal",
+    "it": "frutteto",
+    "pt": "pomar",
+    "tr": "meyve bahçesi"
+   },
+   "ex": {
+    "en": "We picked apples in the orchard."
+   }
+  },
+  {
+   "id": "nature.vineyard",
+   "t": {
+    "en": "vineyard",
+    "uk": "виноградник",
+    "ru": "виноградник",
+    "pl": "winnica",
+    "de": "Weinberg",
+    "fr": "vignoble",
+    "es": "viñedo",
+    "it": "vigneto",
+    "pt": "vinhedo",
+    "tr": "bağ"
+   },
+   "ex": {
+    "en": "The vineyard is on a hill."
+   }
+  },
+  {
+   "id": "nature.to-roar",
+   "t": {
+    "en": "to roar",
+    "uk": "ревіти",
+    "ru": "рычать",
+    "pl": "ryczeć",
+    "de": "brüllen",
+    "fr": "rugir",
+    "es": "rugir",
+    "it": "ruggire",
+    "pt": "rugir",
+    "tr": "kükremek"
+   },
+   "ex": {
+    "en": "The lion began to roar."
+   }
+  },
+  {
+   "id": "nature.to-feed",
+   "t": {
+    "en": "to feed",
+    "uk": "годувати",
+    "ru": "кормить",
+    "pl": "karmić",
+    "de": "füttern",
+    "fr": "nourrir",
+    "es": "alimentar",
+    "it": "nutrire",
+    "pt": "alimentar",
+    "tr": "beslemek"
+   },
+   "ex": {
+    "en": "Please don't feed the animals."
+   }
+  },
+  {
+   "id": "nature.to-fish",
+   "t": {
+    "en": "to fish",
+    "uk": "ловити рибу",
+    "ru": "ловить рыбу",
+    "pl": "łowić ryby",
+    "de": "angeln",
+    "fr": "pêcher",
+    "es": "pescar",
+    "it": "pescare",
+    "pt": "pescar",
+    "tr": "balık tutmak"
+   },
+   "ex": {
+    "en": "We go to fish every Sunday."
+   }
+  },
+  {
+   "id": "nature.crow",
+   "t": {
+    "en": "crow",
+    "uk": "ворона",
+    "ru": "ворона",
+    "pl": "wrona",
+    "de": "Krähe",
+    "fr": "corneille",
+    "es": "corneja",
+    "it": "cornacchia",
+    "pt": "corvo",
+    "tr": "karga"
+   },
+   "ex": {
+    "en": "A crow sat on the roof."
+   }
+  },
+  {
+   "id": "nature.snail",
+   "t": {
+    "en": "snail",
+    "uk": "равлик",
+    "ru": "улитка",
+    "pl": "ślimak",
+    "de": "Schnecke",
+    "fr": "escargot",
+    "es": "caracol",
+    "it": "lumaca",
+    "pt": "caracol",
+    "tr": "salyangoz"
+   },
+   "ex": {
+    "en": "The snail moves very slowly."
+   }
+  },
+  {
+   "id": "nature.rat",
+   "t": {
+    "en": "rat",
+    "uk": "щур",
+    "ru": "крыса",
+    "pl": "szczur",
+    "de": "Ratte",
+    "fr": "rat",
+    "es": "rata",
+    "it": "ratto",
+    "pt": "rato",
+    "tr": "sıçan"
+   },
+   "ex": {
+    "en": "A rat ran under the car."
+   }
+  },
+  {
+   "id": "nature.mole",
+   "t": {
+    "en": "mole",
+    "uk": "кріт",
+    "ru": "крот",
+    "pl": "kret",
+    "de": "Maulwurf",
+    "fr": "taupe",
+    "es": "topo",
+    "it": "talpa",
+    "pt": "toupeira",
+    "tr": "köstebek"
+   },
+   "ex": {
+    "en": "A mole dug up our garden."
+   }
+  },
+  {
+   "id": "nature.to-float",
+   "t": {
+    "en": "to float",
+    "uk": "плавати на поверхні",
+    "ru": "плавать на поверхности",
+    "pl": "unosić się na wodzie",
+    "de": "schwimmen",
+    "fr": "flotter",
+    "es": "flotar",
+    "it": "galleggiare",
+    "pt": "flutuar",
+    "tr": "su yüzünde kalmak"
+   },
+   "ex": {
+    "en": "Wood floats on water."
    }
   }
  ]

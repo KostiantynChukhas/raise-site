@@ -2,7 +2,7 @@
  "id": "transport-a2",
  "topic": "transport",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "transport.traffic-jam",
@@ -884,6 +884,564 @@
    },
    "ex": {
     "en": "My bag is on the passenger seat."
+   }
+  },
+  {
+   "id": "transport.to-get-in-the-car",
+   "t": {
+    "en": "to get in the car",
+    "uk": "сісти в машину",
+    "ru": "сесть в машину",
+    "pl": "wsiąść do samochodu",
+    "de": "ins Auto einsteigen",
+    "fr": "monter en voiture",
+    "es": "subir al coche",
+    "it": "salire in macchina",
+    "pt": "entrar no carro",
+    "tr": "arabaya binmek"
+   },
+   "ex": {
+    "en": "Get in the car, we're late!"
+   }
+  },
+  {
+   "id": "transport.to-get-out-of-the-car",
+   "t": {
+    "en": "to get out of the car",
+    "uk": "вийти з машини",
+    "ru": "выйти из машины",
+    "pl": "wysiąść z samochodu",
+    "de": "aus dem Auto aussteigen",
+    "fr": "descendre de voiture",
+    "es": "bajar del coche",
+    "it": "scendere dalla macchina",
+    "pt": "sair do carro",
+    "tr": "arabadan inmek"
+   },
+   "ex": {
+    "en": "Please get out of the car."
+   }
+  },
+  {
+   "id": "transport.express-train",
+   "t": {
+    "en": "express train",
+    "uk": "експрес",
+    "ru": "скорый поезд",
+    "pl": "pociąg ekspresowy",
+    "de": "Schnellzug",
+    "fr": "train express",
+    "es": "tren expreso",
+    "it": "treno rapido",
+    "pt": "trem expresso",
+    "tr": "ekspres tren"
+   },
+   "ex": {
+    "en": "The express train doesn't stop here."
+   }
+  },
+  {
+   "id": "transport.carriage",
+   "t": {
+    "en": "carriage",
+    "uk": "вагон",
+    "ru": "вагон",
+    "pl": "wagon",
+    "de": "Wagen",
+    "fr": "voiture",
+    "es": "vagón",
+    "it": "carrozza",
+    "pt": "vagão",
+    "tr": "vagon"
+   },
+   "ex": {
+    "en": "Our seats are in carriage five."
+   }
+  },
+  {
+   "id": "transport.diesel",
+   "t": {
+    "en": "diesel",
+    "uk": "дизель",
+    "ru": "дизель",
+    "pl": "diesel",
+    "de": "Diesel",
+    "fr": "gazole",
+    "es": "diésel",
+    "it": "gasolio",
+    "pt": "diesel",
+    "tr": "dizel"
+   },
+   "ex": {
+    "en": "This car runs on diesel."
+   }
+  },
+  {
+   "id": "transport.to-be-delayed",
+   "t": {
+    "en": "to be delayed",
+    "uk": "затримуватися",
+    "ru": "задерживаться",
+    "pl": "mieć opóźnienie",
+    "de": "Verspätung haben",
+    "fr": "avoir du retard",
+    "es": "llevar retraso",
+    "it": "essere in ritardo",
+    "pt": "estar atrasado",
+    "tr": "rötar yapmak"
+   },
+   "ex": {
+    "en": "Our train is delayed by an hour."
+   }
+  },
+  {
+   "id": "transport.country-road",
+   "t": {
+    "en": "country road",
+    "uk": "сільська дорога",
+    "ru": "просёлочная дорога",
+    "pl": "droga wiejska",
+    "de": "Landstraße",
+    "fr": "route de campagne",
+    "es": "carretera comarcal",
+    "it": "strada di campagna",
+    "pt": "estrada rural",
+    "tr": "köy yolu"
+   },
+   "ex": {
+    "en": "We drove along a quiet country road."
+   }
+  },
+  {
+   "id": "transport.u-turn",
+   "t": {
+    "en": "U-turn",
+    "uk": "розворот",
+    "ru": "разворот",
+    "pl": "zawracanie",
+    "de": "Wende",
+    "fr": "demi-tour",
+    "es": "cambio de sentido",
+    "it": "inversione a U",
+    "pt": "retorno",
+    "tr": "U dönüşü"
+   },
+   "ex": {
+    "en": "You can't make a U-turn here."
+   }
+  },
+  {
+   "id": "transport.to-ride-a-motorbike",
+   "t": {
+    "en": "to ride a motorbike",
+    "uk": "їздити на мотоциклі",
+    "ru": "ездить на мотоцикле",
+    "pl": "jeździć na motocyklu",
+    "de": "Motorrad fahren",
+    "fr": "faire de la moto",
+    "es": "ir en moto",
+    "it": "andare in moto",
+    "pt": "andar de moto",
+    "tr": "motosiklet sürmek"
+   },
+   "ex": {
+    "en": "He learned to ride a motorbike."
+   }
+  },
+  {
+   "id": "transport.bike-lock",
+   "t": {
+    "en": "bike lock",
+    "uk": "велозамок",
+    "ru": "велозамок",
+    "pl": "zapięcie rowerowe",
+    "de": "Fahrradschloss",
+    "fr": "antivol de vélo",
+    "es": "candado de bici",
+    "it": "lucchetto per bici",
+    "pt": "cadeado de bicicleta",
+    "tr": "bisiklet kilidi"
+   },
+   "ex": {
+    "en": "Always use a bike lock."
+   }
+  },
+  {
+   "id": "transport.pedal",
+   "t": {
+    "en": "pedal",
+    "uk": "педаль",
+    "ru": "педаль",
+    "pl": "pedał",
+    "de": "Pedal",
+    "fr": "pédale",
+    "es": "pedal",
+    "it": "pedale",
+    "pt": "pedal",
+    "tr": "pedal"
+   },
+   "ex": {
+    "en": "My foot slipped off the pedal."
+   }
+  },
+  {
+   "id": "transport.long-distance-bus",
+   "t": {
+    "en": "long-distance bus",
+    "uk": "міжміський автобус",
+    "ru": "междугородний автобус",
+    "pl": "autobus dalekobieżny",
+    "de": "Fernbus",
+    "fr": "autocar",
+    "es": "autobús de largo recorrido",
+    "it": "pullman",
+    "pt": "ônibus de viagem",
+    "tr": "şehirlerarası otobüs"
+   },
+   "ex": {
+    "en": "The long-distance bus is cheaper than the train."
+   }
+  },
+  {
+   "id": "transport.gas-pedal",
+   "t": {
+    "en": "gas pedal",
+    "uk": "педаль газу",
+    "ru": "педаль газа",
+    "pl": "pedał gazu",
+    "de": "Gaspedal",
+    "fr": "pédale d'accélérateur",
+    "es": "acelerador",
+    "it": "acceleratore",
+    "pt": "acelerador",
+    "tr": "gaz pedalı"
+   },
+   "ex": {
+    "en": "Press the gas pedal gently."
+   }
+  },
+  {
+   "id": "transport.moped",
+   "t": {
+    "en": "moped",
+    "uk": "мопед",
+    "ru": "мопед",
+    "pl": "motorower",
+    "de": "Mofa",
+    "fr": "cyclomoteur",
+    "es": "ciclomotor",
+    "it": "motorino",
+    "pt": "ciclomotor",
+    "tr": "moped"
+   },
+   "ex": {
+    "en": "He rides a moped to school."
+   }
+  },
+  {
+   "id": "transport.to-be-stuck-in-traffic",
+   "t": {
+    "en": "to be stuck in traffic",
+    "uk": "стояти в заторі",
+    "ru": "стоять в пробке",
+    "pl": "stać w korku",
+    "de": "im Stau stehen",
+    "fr": "être coincé dans les bouchons",
+    "es": "estar atrapado en un atasco",
+    "it": "essere bloccato nel traffico",
+    "pt": "ficar preso no trânsito",
+    "tr": "trafikte sıkışmak"
+   },
+   "ex": {
+    "en": "Sorry, I'm stuck in traffic."
+   }
+  },
+  {
+   "id": "transport.speed",
+   "t": {
+    "en": "speed",
+    "uk": "швидкість",
+    "ru": "скорость",
+    "pl": "prędkość",
+    "de": "Geschwindigkeit",
+    "fr": "vitesse",
+    "es": "velocidad",
+    "it": "velocità",
+    "pt": "velocidade",
+    "tr": "hız"
+   },
+   "ex": {
+    "en": "Check your speed in the city."
+   }
+  },
+  {
+   "id": "transport.next-train",
+   "t": {
+    "en": "next train",
+    "uk": "наступний поїзд",
+    "ru": "следующий поезд",
+    "pl": "następny pociąg",
+    "de": "der nächste Zug",
+    "fr": "le prochain train",
+    "es": "el próximo tren",
+    "it": "il prossimo treno",
+    "pt": "o próximo trem",
+    "tr": "sonraki tren"
+   },
+   "ex": {
+    "en": "When is the next train to London?"
+   }
+  },
+  {
+   "id": "transport.last-bus",
+   "t": {
+    "en": "last bus",
+    "uk": "останній автобус",
+    "ru": "последний автобус",
+    "pl": "ostatni autobus",
+    "de": "der letzte Bus",
+    "fr": "le dernier bus",
+    "es": "el último autobús",
+    "it": "l'ultimo autobus",
+    "pt": "o último ônibus",
+    "tr": "son otobüs"
+   },
+   "ex": {
+    "en": "We missed the last bus."
+   }
+  },
+  {
+   "id": "transport.car-repair",
+   "t": {
+    "en": "car repair",
+    "uk": "ремонт автомобіля",
+    "ru": "ремонт автомобиля",
+    "pl": "naprawa samochodu",
+    "de": "Autoreparatur",
+    "fr": "réparation automobile",
+    "es": "reparación del coche",
+    "it": "riparazione dell'auto",
+    "pt": "conserto do carro",
+    "tr": "araba tamiri"
+   },
+   "ex": {
+    "en": "The car repair cost a lot."
+   }
+  },
+  {
+   "id": "transport.bike-rack",
+   "t": {
+    "en": "bike rack",
+    "uk": "велопарковка",
+    "ru": "велопарковка",
+    "pl": "stojak na rowery",
+    "de": "Fahrradständer",
+    "fr": "parking à vélos",
+    "es": "aparcabicis",
+    "it": "rastrelliera per bici",
+    "pt": "bicicletário",
+    "tr": "bisiklet park yeri"
+   },
+   "ex": {
+    "en": "Leave your bike at the bike rack."
+   }
+  },
+  {
+   "id": "transport.driving-instructor",
+   "t": {
+    "en": "driving instructor",
+    "uk": "інструктор з водіння",
+    "ru": "инструктор по вождению",
+    "pl": "instruktor jazdy",
+    "de": "Fahrlehrer",
+    "fr": "moniteur d'auto-école",
+    "es": "profesor de autoescuela",
+    "it": "istruttore di guida",
+    "pt": "instrutor de autoescola",
+    "tr": "sürücü eğitmeni"
+   },
+   "ex": {
+    "en": "My driving instructor is very patient."
+   }
+  },
+  {
+   "id": "transport.to-learn-to-drive",
+   "t": {
+    "en": "to learn to drive",
+    "uk": "вчитися водити",
+    "ru": "учиться водить",
+    "pl": "uczyć się prowadzić samochód",
+    "de": "Autofahren lernen",
+    "fr": "apprendre à conduire",
+    "es": "aprender a conducir",
+    "it": "imparare a guidare",
+    "pt": "aprender a dirigir",
+    "tr": "araba kullanmayı öğrenmek"
+   },
+   "ex": {
+    "en": "I want to learn to drive this year."
+   }
+  },
+  {
+   "id": "transport.trolleybus",
+   "t": {
+    "en": "trolleybus",
+    "uk": "тролейбус",
+    "ru": "троллейбус",
+    "pl": "trolejbus",
+    "de": "Oberleitungsbus",
+    "fr": "trolleybus",
+    "es": "trolebús",
+    "it": "filobus",
+    "pt": "trólebus",
+    "tr": "troleybüs"
+   },
+   "ex": {
+    "en": "The trolleybus goes to the city centre."
+   }
+  },
+  {
+   "id": "transport.double-decker-bus",
+   "t": {
+    "en": "double-decker bus",
+    "uk": "двоповерховий автобус",
+    "ru": "двухэтажный автобус",
+    "pl": "autobus piętrowy",
+    "de": "Doppeldeckerbus",
+    "fr": "bus à impériale",
+    "es": "autobús de dos pisos",
+    "it": "autobus a due piani",
+    "pt": "ônibus de dois andares",
+    "tr": "çift katlı otobüs"
+   },
+   "ex": {
+    "en": "Let's sit upstairs on the double-decker bus."
+   }
+  },
+  {
+   "id": "transport.child-seat",
+   "t": {
+    "en": "child seat",
+    "uk": "дитяче автокрісло",
+    "ru": "детское автокресло",
+    "pl": "fotelik samochodowy",
+    "de": "Kindersitz",
+    "fr": "siège auto",
+    "es": "silla de coche para niños",
+    "it": "seggiolino auto",
+    "pt": "cadeirinha de carro",
+    "tr": "çocuk koltuğu"
+   },
+   "ex": {
+    "en": "The baby sleeps in the child seat."
+   }
+  },
+  {
+   "id": "transport.bike-bell",
+   "t": {
+    "en": "bike bell",
+    "uk": "велосипедний дзвінок",
+    "ru": "велосипедный звонок",
+    "pl": "dzwonek rowerowy",
+    "de": "Fahrradklingel",
+    "fr": "sonnette de vélo",
+    "es": "timbre de bici",
+    "it": "campanello della bici",
+    "pt": "campainha de bicicleta",
+    "tr": "bisiklet zili"
+   },
+   "ex": {
+    "en": "Ring your bike bell at the corner."
+   }
+  },
+  {
+   "id": "transport.road-map",
+   "t": {
+    "en": "road map",
+    "uk": "карта автодоріг",
+    "ru": "карта автодорог",
+    "pl": "mapa drogowa",
+    "de": "Straßenkarte",
+    "fr": "carte routière",
+    "es": "mapa de carreteras",
+    "it": "carta stradale",
+    "pt": "mapa rodoviário",
+    "tr": "karayolu haritası"
+   },
+   "ex": {
+    "en": "We still use an old road map."
+   }
+  },
+  {
+   "id": "transport.bus-timetable",
+   "t": {
+    "en": "bus timetable",
+    "uk": "розклад автобусів",
+    "ru": "расписание автобусов",
+    "pl": "rozkład jazdy autobusów",
+    "de": "Busfahrplan",
+    "fr": "horaires des bus",
+    "es": "horario de autobuses",
+    "it": "orario degli autobus",
+    "pt": "horário dos ônibus",
+    "tr": "otobüs saatleri"
+   },
+   "ex": {
+    "en": "Check the bus timetable online."
+   }
+  },
+  {
+   "id": "transport.to-get-on-the-train",
+   "t": {
+    "en": "to get on the train",
+    "uk": "сісти в поїзд",
+    "ru": "сесть в поезд",
+    "pl": "wsiąść do pociągu",
+    "de": "in den Zug einsteigen",
+    "fr": "monter dans le train",
+    "es": "subir al tren",
+    "it": "salire sul treno",
+    "pt": "embarcar no trem",
+    "tr": "trene binmek"
+   },
+   "ex": {
+    "en": "Hurry, get on the train!"
+   }
+  },
+  {
+   "id": "transport.to-get-off-the-bus",
+   "t": {
+    "en": "to get off the bus",
+    "uk": "вийти з автобуса",
+    "ru": "выйти из автобуса",
+    "pl": "wysiąść z autobusu",
+    "de": "aus dem Bus aussteigen",
+    "fr": "descendre du bus",
+    "es": "bajar del autobús",
+    "it": "scendere dall'autobus",
+    "pt": "descer do ônibus",
+    "tr": "otobüsten inmek"
+   },
+   "ex": {
+    "en": "Get off the bus at the museum."
+   }
+  },
+  {
+   "id": "transport.seat-number",
+   "t": {
+    "en": "seat number",
+    "uk": "номер місця",
+    "ru": "номер места",
+    "pl": "numer miejsca",
+    "de": "Platznummer",
+    "fr": "numéro de place",
+    "es": "número de asiento",
+    "it": "numero del posto",
+    "pt": "número do assento",
+    "tr": "koltuk numarası"
+   },
+   "ex": {
+    "en": "What's your seat number?"
    }
   }
  ]

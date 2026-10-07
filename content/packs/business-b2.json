@@ -2,7 +2,7 @@
  "id": "business-b2",
  "topic": "business",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "business.stakeholder",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Operating costs rose by ten percent."
+   }
+  },
+  {
+   "id": "business.procurement",
+   "t": {
+    "en": "procurement",
+    "uk": "закупівлі",
+    "ru": "закупки",
+    "pl": "zaopatrzenie",
+    "de": "Beschaffung",
+    "fr": "approvisionnement",
+    "es": "adquisiciones",
+    "it": "approvvigionamento",
+    "pt": "compras",
+    "tr": "satın alma"
+   },
+   "ex": {
+    "en": "She works in procurement."
+   }
+  },
+  {
+   "id": "business.gross-profit",
+   "t": {
+    "en": "gross profit",
+    "uk": "валовий прибуток",
+    "ru": "валовая прибыль",
+    "pl": "zysk brutto",
+    "de": "Bruttogewinn",
+    "fr": "bénéfice brut",
+    "es": "beneficio bruto",
+    "it": "utile lordo",
+    "pt": "lucro bruto",
+    "tr": "brüt kâr"
+   },
+   "ex": {
+    "en": "Gross profit rose by 10%."
+   }
+  },
+  {
+   "id": "business.net-profit",
+   "t": {
+    "en": "net profit",
+    "uk": "чистий прибуток",
+    "ru": "чистая прибыль",
+    "pl": "zysk netto",
+    "de": "Nettogewinn",
+    "fr": "bénéfice net",
+    "es": "beneficio neto",
+    "it": "utile netto",
+    "pt": "lucro líquido",
+    "tr": "net kâr"
+   },
+   "ex": {
+    "en": "Net profit was lower this year."
+   }
+  },
+  {
+   "id": "business.business-model",
+   "t": {
+    "en": "business model",
+    "uk": "бізнес-модель",
+    "ru": "бизнес-модель",
+    "pl": "model biznesowy",
+    "de": "Geschäftsmodell",
+    "fr": "modèle économique",
+    "es": "modelo de negocio",
+    "it": "modello di business",
+    "pt": "modelo de negócio",
+    "tr": "iş modeli"
+   },
+   "ex": {
+    "en": "Their business model is simple."
+   }
+  },
+  {
+   "id": "business.market-trend",
+   "t": {
+    "en": "market trend",
+    "uk": "ринкова тенденція",
+    "ru": "рыночная тенденция",
+    "pl": "trend rynkowy",
+    "de": "Markttrend",
+    "fr": "tendance du marché",
+    "es": "tendencia del mercado",
+    "it": "tendenza del mercato",
+    "pt": "tendência de mercado",
+    "tr": "piyasa eğilimi"
+   },
+   "ex": {
+    "en": "We follow every market trend."
+   }
+  },
+  {
+   "id": "business.consumer-behaviour",
+   "t": {
+    "en": "consumer behaviour",
+    "uk": "поведінка споживачів",
+    "ru": "поведение потребителей",
+    "pl": "zachowania konsumentów",
+    "de": "Verbraucherverhalten",
+    "fr": "comportement du consommateur",
+    "es": "comportamiento del consumidor",
+    "it": "comportamento dei consumatori",
+    "pt": "comportamento do consumidor",
+    "tr": "tüketici davranışı"
+   },
+   "ex": {
+    "en": "Consumer behaviour is changing."
+   }
+  },
+  {
+   "id": "business.market-segment",
+   "t": {
+    "en": "market segment",
+    "uk": "сегмент ринку",
+    "ru": "сегмент рынка",
+    "pl": "segment rynku",
+    "de": "Marktsegment",
+    "fr": "segment de marché",
+    "es": "segmento de mercado",
+    "it": "segmento di mercato",
+    "pt": "segmento de mercado",
+    "tr": "pazar segmenti"
+   },
+   "ex": {
+    "en": "We target the luxury market segment."
+   }
+  },
+  {
+   "id": "business.lead-time",
+   "t": {
+    "en": "lead time",
+    "uk": "термін виконання",
+    "ru": "срок выполнения",
+    "pl": "czas realizacji",
+    "de": "Lieferzeit",
+    "fr": "délai de livraison",
+    "es": "plazo de entrega",
+    "it": "tempi di consegna",
+    "pt": "prazo de entrega",
+    "tr": "teslim süresi"
+   },
+   "ex": {
+    "en": "The lead time is four weeks."
+   }
+  },
+  {
+   "id": "business.distribution-channel",
+   "t": {
+    "en": "distribution channel",
+    "uk": "канал збуту",
+    "ru": "канал сбыта",
+    "pl": "kanał dystrybucji",
+    "de": "Vertriebskanal",
+    "fr": "canal de distribution",
+    "es": "canal de distribución",
+    "it": "canale di distribuzione",
+    "pt": "canal de distribuição",
+    "tr": "dağıtım kanalı"
+   },
+   "ex": {
+    "en": "Online is our main distribution channel."
+   }
+  },
+  {
+   "id": "business.to-cut-jobs",
+   "t": {
+    "en": "to cut jobs",
+    "uk": "скорочувати робочі місця",
+    "ru": "сокращать рабочие места",
+    "pl": "redukować etaty",
+    "de": "Stellen abbauen",
+    "fr": "supprimer des emplois",
+    "es": "recortar empleos",
+    "it": "tagliare posti di lavoro",
+    "pt": "cortar empregos",
+    "tr": "kadro azaltmak"
+   },
+   "ex": {
+    "en": "The firm will cut 200 jobs."
+   }
+  },
+  {
+   "id": "business.win-win",
+   "t": {
+    "en": "win-win",
+    "uk": "взаємовигідний",
+    "ru": "взаимовыгодный",
+    "pl": "korzystny dla obu stron",
+    "de": "für beide Seiten vorteilhaft",
+    "fr": "gagnant-gagnant",
+    "es": "beneficioso para ambos",
+    "it": "vantaggioso per entrambi",
+    "pt": "ganha-ganha",
+    "tr": "kazan-kazan"
+   },
+   "ex": {
+    "en": "It's a win-win situation."
+   }
+  },
+  {
+   "id": "business.terms-of-payment",
+   "t": {
+    "en": "terms of payment",
+    "uk": "умови оплати",
+    "ru": "условия оплаты",
+    "pl": "warunki płatności",
+    "de": "Zahlungsbedingungen",
+    "fr": "conditions de paiement",
+    "es": "condiciones de pago",
+    "it": "condizioni di pagamento",
+    "pt": "condições de pagamento",
+    "tr": "ödeme koşulları"
+   },
+   "ex": {
+    "en": "The terms of payment are 30 days."
+   }
+  },
+  {
+   "id": "business.letter-of-intent",
+   "t": {
+    "en": "letter of intent",
+    "uk": "лист про наміри",
+    "ru": "письмо о намерениях",
+    "pl": "list intencyjny",
+    "de": "Absichtserklärung",
+    "fr": "lettre d'intention",
+    "es": "carta de intenciones",
+    "it": "lettera d'intenti",
+    "pt": "carta de intenções",
+    "tr": "niyet mektubu"
+   },
+   "ex": {
+    "en": "Both sides signed a letter of intent."
+   }
+  },
+  {
+   "id": "business.to-draw-up-a-contract",
+   "t": {
+    "en": "to draw up a contract",
+    "uk": "скласти договір",
+    "ru": "составить договор",
+    "pl": "sporządzić umowę",
+    "de": "einen Vertrag aufsetzen",
+    "fr": "rédiger un contrat",
+    "es": "redactar un contrato",
+    "it": "redigere un contratto",
+    "pt": "redigir um contrato",
+    "tr": "sözleşme hazırlamak"
+   },
+   "ex": {
+    "en": "Our lawyer will draw up a contract."
+   }
+  },
+  {
+   "id": "business.termination",
+   "t": {
+    "en": "termination",
+    "uk": "розірвання договору",
+    "ru": "расторжение договора",
+    "pl": "rozwiązanie umowy",
+    "de": "Kündigung",
+    "fr": "résiliation",
+    "es": "rescisión",
+    "it": "rescissione",
+    "pt": "rescisão",
+    "tr": "fesih"
+   },
+   "ex": {
+    "en": "Termination requires 30 days' notice."
+   }
+  },
+  {
+   "id": "business.regulations",
+   "t": {
+    "en": "regulations",
+    "uk": "нормативні акти",
+    "ru": "нормативные акты",
+    "pl": "przepisy",
+    "de": "Vorschriften",
+    "fr": "réglementation",
+    "es": "normativa",
+    "it": "normativa",
+    "pt": "regulamentação",
+    "tr": "düzenlemeler"
+   },
+   "ex": {
+    "en": "New regulations start next year."
+   }
+  },
+  {
+   "id": "business.growth-rate",
+   "t": {
+    "en": "growth rate",
+    "uk": "темп зростання",
+    "ru": "темп роста",
+    "pl": "tempo wzrostu",
+    "de": "Wachstumsrate",
+    "fr": "taux de croissance",
+    "es": "tasa de crecimiento",
+    "it": "tasso di crescita",
+    "pt": "taxa de crescimento",
+    "tr": "büyüme oranı"
+   },
+   "ex": {
+    "en": "The growth rate slowed down."
+   }
+  },
+  {
+   "id": "business.market-value",
+   "t": {
+    "en": "market value",
+    "uk": "ринкова вартість",
+    "ru": "рыночная стоимость",
+    "pl": "wartość rynkowa",
+    "de": "Marktwert",
+    "fr": "valeur marchande",
+    "es": "valor de mercado",
+    "it": "valore di mercato",
+    "pt": "valor de mercado",
+    "tr": "piyasa değeri"
+   },
+   "ex": {
+    "en": "The market value of the firm doubled."
+   }
+  },
+  {
+   "id": "business.customer-retention",
+   "t": {
+    "en": "customer retention",
+    "uk": "утримання клієнтів",
+    "ru": "удержание клиентов",
+    "pl": "utrzymanie klientów",
+    "de": "Kundenbindung",
+    "fr": "fidélisation client",
+    "es": "retención de clientes",
+    "it": "fidelizzazione dei clienti",
+    "pt": "retenção de clientes",
+    "tr": "müşteriyi elde tutma"
+   },
+   "ex": {
+    "en": "Customer retention is cheaper than sales."
+   }
+  },
+  {
+   "id": "business.brand-image",
+   "t": {
+    "en": "brand image",
+    "uk": "імідж бренду",
+    "ru": "имидж бренда",
+    "pl": "wizerunek marki",
+    "de": "Markenimage",
+    "fr": "image de marque",
+    "es": "imagen de marca",
+    "it": "immagine del marchio",
+    "pt": "imagem da marca",
+    "tr": "marka imajı"
+   },
+   "ex": {
+    "en": "The scandal hurt their brand image."
+   }
+  },
+  {
+   "id": "business.public-relations",
+   "t": {
+    "en": "public relations",
+    "uk": "зв'язки з громадськістю",
+    "ru": "связи с общественностью",
+    "pl": "public relations",
+    "de": "Öffentlichkeitsarbeit",
+    "fr": "relations publiques",
+    "es": "relaciones públicas",
+    "it": "pubbliche relazioni",
+    "pt": "relações públicas",
+    "tr": "halkla ilişkiler"
+   },
+   "ex": {
+    "en": "She works in public relations."
+   }
+  },
+  {
+   "id": "business.press-release",
+   "t": {
+    "en": "press release",
+    "uk": "прес-реліз",
+    "ru": "пресс-релиз",
+    "pl": "komunikat prasowy",
+    "de": "Pressemitteilung",
+    "fr": "communiqué de presse",
+    "es": "comunicado de prensa",
+    "it": "comunicato stampa",
+    "pt": "comunicado à imprensa",
+    "tr": "basın bülteni"
+   },
+   "ex": {
+    "en": "We issued a press release today."
+   }
+  },
+  {
+   "id": "business.digital-marketing",
+   "t": {
+    "en": "digital marketing",
+    "uk": "цифровий маркетинг",
+    "ru": "цифровой маркетинг",
+    "pl": "marketing cyfrowy",
+    "de": "digitales Marketing",
+    "fr": "marketing numérique",
+    "es": "marketing digital",
+    "it": "marketing digitale",
+    "pt": "marketing digital",
+    "tr": "dijital pazarlama"
+   },
+   "ex": {
+    "en": "We spend more on digital marketing."
+   }
+  },
+  {
+   "id": "business.call-centre",
+   "t": {
+    "en": "call centre",
+    "uk": "кол-центр",
+    "ru": "колл-центр",
+    "pl": "call center",
+    "de": "Callcenter",
+    "fr": "centre d'appels",
+    "es": "centro de llamadas",
+    "it": "call center",
+    "pt": "central de atendimento",
+    "tr": "çağrı merkezi"
+   },
+   "ex": {
+    "en": "The call centre is open 24/7."
+   }
+  },
+  {
+   "id": "business.after-sales-service",
+   "t": {
+    "en": "after-sales service",
+    "uk": "післяпродажне обслуговування",
+    "ru": "послепродажное обслуживание",
+    "pl": "obsługa posprzedażowa",
+    "de": "Kundendienst",
+    "fr": "service après-vente",
+    "es": "servicio posventa",
+    "it": "assistenza post-vendita",
+    "pt": "serviço pós-venda",
+    "tr": "satış sonrası hizmet"
+   },
+   "ex": {
+    "en": "Their after-sales service is excellent."
+   }
+  },
+  {
+   "id": "business.quality-control",
+   "t": {
+    "en": "quality control",
+    "uk": "контроль якості",
+    "ru": "контроль качества",
+    "pl": "kontrola jakości",
+    "de": "Qualitätskontrolle",
+    "fr": "contrôle qualité",
+    "es": "control de calidad",
+    "it": "controllo qualità",
+    "pt": "controle de qualidade",
+    "tr": "kalite kontrolü"
+   },
+   "ex": {
+    "en": "Every item goes through quality control."
+   }
+  },
+  {
+   "id": "business.raw-materials",
+   "t": {
+    "en": "raw materials",
+    "uk": "сировина",
+    "ru": "сырьё",
+    "pl": "surowce",
+    "de": "Rohstoffe",
+    "fr": "matières premières",
+    "es": "materias primas",
+    "it": "materie prime",
+    "pt": "matérias-primas",
+    "tr": "hammaddeler"
+   },
+   "ex": {
+    "en": "The price of raw materials rose."
+   }
+  },
+  {
+   "id": "business.to-phase-out",
+   "t": {
+    "en": "to phase out",
+    "uk": "поступово припиняти",
+    "ru": "постепенно сворачивать",
+    "pl": "stopniowo wycofywać",
+    "de": "auslaufen lassen",
+    "fr": "supprimer progressivement",
+    "es": "eliminar gradualmente",
+    "it": "eliminare gradualmente",
+    "pt": "eliminar gradualmente",
+    "tr": "aşamalı olarak kaldırmak"
+   },
+   "ex": {
+    "en": "We will phase out the old model."
+   }
+  },
+  {
+   "id": "business.to-take-over",
+   "t": {
+    "en": "to take over",
+    "uk": "поглинати",
+    "ru": "поглощать",
+    "pl": "przejąć",
+    "de": "übernehmen",
+    "fr": "racheter",
+    "es": "adquirir",
+    "it": "rilevare",
+    "pt": "adquirir",
+    "tr": "devralmak"
+   },
+   "ex": {
+    "en": "A rival wants to take over the firm."
+   }
+  },
+  {
+   "id": "business.chairman",
+   "t": {
+    "en": "chairman",
+    "uk": "голова правління",
+    "ru": "председатель правления",
+    "pl": "przewodniczący zarządu",
+    "de": "Vorsitzender",
+    "fr": "président",
+    "es": "presidente",
+    "it": "presidente",
+    "pt": "presidente",
+    "tr": "yönetim kurulu başkanı"
+   },
+   "ex": {
+    "en": "The chairman opened the meeting."
+   }
+  },
+  {
+   "id": "business.business-ethics",
+   "t": {
+    "en": "business ethics",
+    "uk": "ділова етика",
+    "ru": "деловая этика",
+    "pl": "etyka biznesu",
+    "de": "Geschäftsethik",
+    "fr": "éthique des affaires",
+    "es": "ética empresarial",
+    "it": "etica aziendale",
+    "pt": "ética empresarial",
+    "tr": "iş etiği"
+   },
+   "ex": {
+    "en": "Business ethics matter to clients."
+   }
+  },
+  {
+   "id": "business.emerging-market",
+   "t": {
+    "en": "emerging market",
+    "uk": "ринок, що розвивається",
+    "ru": "развивающийся рынок",
+    "pl": "rynek wschodzący",
+    "de": "Schwellenmarkt",
+    "fr": "marché émergent",
+    "es": "mercado emergente",
+    "it": "mercato emergente",
+    "pt": "mercado emergente",
+    "tr": "gelişmekte olan pazar"
+   },
+   "ex": {
+    "en": "India is a key emerging market."
+   }
+  },
+  {
+   "id": "business.market-research-firm",
+   "t": {
+    "en": "market research firm",
+    "uk": "компанія з дослідження ринку",
+    "ru": "компания по исследованию рынка",
+    "pl": "firma badań rynku",
+    "de": "Marktforschungsinstitut",
+    "fr": "cabinet d'études de marché",
+    "es": "empresa de estudios de mercado",
+    "it": "società di ricerche di mercato",
+    "pt": "empresa de pesquisa de mercado",
+    "tr": "pazar araştırma şirketi"
+   },
+   "ex": {
+    "en": "We hired a market research firm."
+   }
+  },
+  {
+   "id": "business.asset",
+   "t": {
+    "en": "asset",
+    "uk": "актив",
+    "ru": "актив",
+    "pl": "składnik aktywów",
+    "de": "Vermögenswert",
+    "fr": "actif",
+    "es": "activo",
+    "it": "attività",
+    "pt": "ativo",
+    "tr": "varlık"
+   },
+   "ex": {
+    "en": "Our staff is our best asset."
+   }
+  },
+  {
+   "id": "business.sustainability",
+   "t": {
+    "en": "sustainability",
+    "uk": "сталий розвиток",
+    "ru": "устойчивое развитие",
+    "pl": "zrównoważony rozwój",
+    "de": "Nachhaltigkeit",
+    "fr": "durabilité",
+    "es": "sostenibilidad",
+    "it": "sostenibilità",
+    "pt": "sustentabilidade",
+    "tr": "sürdürülebilirlik"
+   },
+   "ex": {
+    "en": "Sustainability is part of our strategy."
+   }
+  },
+  {
+   "id": "business.workflow",
+   "t": {
+    "en": "workflow",
+    "uk": "робочий процес",
+    "ru": "рабочий процесс",
+    "pl": "przepływ pracy",
+    "de": "Arbeitsablauf",
+    "fr": "flux de travail",
+    "es": "flujo de trabajo",
+    "it": "flusso di lavoro",
+    "pt": "fluxo de trabalho",
+    "tr": "iş akışı"
+   },
+   "ex": {
+    "en": "The new software improved our workflow."
+   }
+  },
+  {
+   "id": "business.layoffs",
+   "t": {
+    "en": "layoffs",
+    "uk": "звільнення",
+    "ru": "увольнения",
+    "pl": "zwolnienia",
+    "de": "Entlassungen",
+    "fr": "licenciements",
+    "es": "despidos",
+    "it": "licenziamenti",
+    "pt": "demissões",
+    "tr": "işten çıkarmalar"
+   },
+   "ex": {
+    "en": "The layoffs shocked the staff."
+   }
+  },
+  {
+   "id": "business.to-raise-capital",
+   "t": {
+    "en": "to raise capital",
+    "uk": "залучати капітал",
+    "ru": "привлекать капитал",
+    "pl": "pozyskiwać kapitał",
+    "de": "Kapital beschaffen",
+    "fr": "lever des fonds",
+    "es": "captar capital",
+    "it": "raccogliere capitali",
+    "pt": "captar recursos",
+    "tr": "sermaye toplamak"
+   },
+   "ex": {
+    "en": "They raised capital from investors."
+   }
+  },
+  {
+   "id": "business.fixed-costs",
+   "t": {
+    "en": "fixed costs",
+    "uk": "постійні витрати",
+    "ru": "постоянные затраты",
+    "pl": "koszty stałe",
+    "de": "Fixkosten",
+    "fr": "coûts fixes",
+    "es": "costes fijos",
+    "it": "costi fissi",
+    "pt": "custos fixos",
+    "tr": "sabit maliyetler"
+   },
+   "ex": {
+    "en": "Rent is one of our fixed costs."
+   }
+  },
+  {
+   "id": "business.running-costs",
+   "t": {
+    "en": "running costs",
+    "uk": "експлуатаційні витрати",
+    "ru": "эксплуатационные расходы",
+    "pl": "koszty bieżące",
+    "de": "Betriebskosten",
+    "fr": "frais de fonctionnement",
+    "es": "gastos de funcionamiento",
+    "it": "costi di gestione",
+    "pt": "custos operacionais",
+    "tr": "işletme giderleri"
+   },
+   "ex": {
+    "en": "The running costs are low."
+   }
+  },
+  {
+   "id": "business.focus-group",
+   "t": {
+    "en": "focus group",
+    "uk": "фокус-група",
+    "ru": "фокус-группа",
+    "pl": "grupa fokusowa",
+    "de": "Fokusgruppe",
+    "fr": "groupe de discussion",
+    "es": "grupo focal",
+    "it": "focus group",
+    "pt": "grupo focal",
+    "tr": "odak grubu"
+   },
+   "ex": {
+    "en": "We tested the ad with a focus group."
+   }
+  },
+  {
+   "id": "business.pilot-project",
+   "t": {
+    "en": "pilot project",
+    "uk": "пілотний проєкт",
+    "ru": "пилотный проект",
+    "pl": "projekt pilotażowy",
+    "de": "Pilotprojekt",
+    "fr": "projet pilote",
+    "es": "proyecto piloto",
+    "it": "progetto pilota",
+    "pt": "projeto piloto",
+    "tr": "pilot proje"
+   },
+   "ex": {
+    "en": "The pilot project was a success."
+   }
+  },
+  {
+   "id": "business.product-development",
+   "t": {
+    "en": "product development",
+    "uk": "розробка продукту",
+    "ru": "разработка продукта",
+    "pl": "rozwój produktu",
+    "de": "Produktentwicklung",
+    "fr": "développement de produits",
+    "es": "desarrollo de productos",
+    "it": "sviluppo prodotto",
+    "pt": "desenvolvimento de produto",
+    "tr": "ürün geliştirme"
+   },
+   "ex": {
+    "en": "We invest in product development."
+   }
+  },
+  {
+   "id": "business.market-entry",
+   "t": {
+    "en": "market entry",
+    "uk": "вихід на ринок",
+    "ru": "выход на рынок",
+    "pl": "wejście na rynek",
+    "de": "Markteintritt",
+    "fr": "entrée sur le marché",
+    "es": "entrada en el mercado",
+    "it": "ingresso nel mercato",
+    "pt": "entrada no mercado",
+    "tr": "pazara giriş"
+   },
+   "ex": {
+    "en": "Market entry was harder than expected."
+   }
+  },
+  {
+   "id": "business.exclusive-rights",
+   "t": {
+    "en": "exclusive rights",
+    "uk": "ексклюзивні права",
+    "ru": "эксклюзивные права",
+    "pl": "prawa wyłączne",
+    "de": "Exklusivrechte",
+    "fr": "droits exclusifs",
+    "es": "derechos exclusivos",
+    "it": "diritti esclusivi",
+    "pt": "direitos exclusivos",
+    "tr": "münhasır haklar"
+   },
+   "ex": {
+    "en": "We have exclusive rights in Europe."
+   }
+  },
+  {
+   "id": "business.cold-calling",
+   "t": {
+    "en": "cold calling",
+    "uk": "холодні дзвінки",
+    "ru": "холодные звонки",
+    "pl": "cold calling",
+    "de": "Kaltakquise",
+    "fr": "démarchage téléphonique",
+    "es": "llamadas en frío",
+    "it": "chiamate a freddo",
+    "pt": "ligações frias",
+    "tr": "soğuk arama"
+   },
+   "ex": {
+    "en": "I hate cold calling."
+   }
+  },
+  {
+   "id": "business.account-manager",
+   "t": {
+    "en": "account manager",
+    "uk": "менеджер з роботи з клієнтами",
+    "ru": "менеджер по работе с клиентами",
+    "pl": "opiekun klienta",
+    "de": "Kundenbetreuer",
+    "fr": "chargé de clientèle",
+    "es": "gestor de cuentas",
+    "it": "account manager",
+    "pt": "gerente de contas",
+    "tr": "müşteri temsilcisi"
+   },
+   "ex": {
+    "en": "Your account manager will call you."
+   }
+  },
+  {
+   "id": "business.key-account",
+   "t": {
+    "en": "key account",
+    "uk": "ключовий клієнт",
+    "ru": "ключевой клиент",
+    "pl": "kluczowy klient",
+    "de": "Großkunde",
+    "fr": "grand compte",
+    "es": "cliente clave",
+    "it": "cliente chiave",
+    "pt": "cliente-chave",
+    "tr": "kilit müşteri"
+   },
+   "ex": {
+    "en": "This hotel chain is a key account."
+   }
+  },
+  {
+   "id": "business.pricing-strategy",
+   "t": {
+    "en": "pricing strategy",
+    "uk": "цінова стратегія",
+    "ru": "ценовая стратегия",
+    "pl": "strategia cenowa",
+    "de": "Preisstrategie",
+    "fr": "stratégie de prix",
+    "es": "estrategia de precios",
+    "it": "strategia di prezzo",
+    "pt": "estratégia de preços",
+    "tr": "fiyatlandırma stratejisi"
+   },
+   "ex": {
+    "en": "We need a new pricing strategy."
+   }
+  },
+  {
+   "id": "business.mass-market",
+   "t": {
+    "en": "mass market",
+    "uk": "масовий ринок",
+    "ru": "массовый рынок",
+    "pl": "rynek masowy",
+    "de": "Massenmarkt",
+    "fr": "marché de masse",
+    "es": "mercado de masas",
+    "it": "mercato di massa",
+    "pt": "mercado de massa",
+    "tr": "kitlesel pazar"
+   },
+   "ex": {
+    "en": "The phone is aimed at the mass market."
    }
   }
  ]

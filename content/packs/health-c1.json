@@ -2,7 +2,7 @@
  "id": "health-c1",
  "topic": "health",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "health.prognosis",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "I've got pins and needles in my foot."
+   }
+  },
+  {
+   "id": "health.to-deteriorate",
+   "t": {
+    "en": "to deteriorate",
+    "uk": "погіршуватися",
+    "ru": "ухудшаться",
+    "pl": "pogarszać się",
+    "de": "sich verschlechtern",
+    "fr": "se détériorer",
+    "es": "deteriorarse",
+    "it": "peggiorare",
+    "pt": "deteriorar-se",
+    "tr": "kötüleşmek"
+   },
+   "ex": {
+    "en": "His health began to deteriorate."
+   }
+  },
+  {
+   "id": "health.quarantine",
+   "t": {
+    "en": "quarantine",
+    "uk": "карантин",
+    "ru": "карантин",
+    "pl": "kwarantanna",
+    "de": "Quarantäne",
+    "fr": "quarantaine",
+    "es": "cuarentena",
+    "it": "quarantena",
+    "pt": "quarentena",
+    "tr": "karantina"
+   },
+   "ex": {
+    "en": "They were put in quarantine."
+   }
+  },
+  {
+   "id": "health.pandemic",
+   "t": {
+    "en": "pandemic",
+    "uk": "пандемія",
+    "ru": "пандемия",
+    "pl": "pandemia",
+    "de": "Pandemie",
+    "fr": "pandémie",
+    "es": "pandemia",
+    "it": "pandemia",
+    "pt": "pandemia",
+    "tr": "pandemi"
+   },
+   "ex": {
+    "en": "The pandemic changed our lives."
+   }
+  },
+  {
+   "id": "health.herd-immunity",
+   "t": {
+    "en": "herd immunity",
+    "uk": "колективний імунітет",
+    "ru": "коллективный иммунитет",
+    "pl": "odporność zbiorowa",
+    "de": "Herdenimmunität",
+    "fr": "immunité collective",
+    "es": "inmunidad de grupo",
+    "it": "immunità di gregge",
+    "pt": "imunidade de rebanho",
+    "tr": "sürü bağışıklığı"
+   },
+   "ex": {
+    "en": "Vaccines help build herd immunity."
+   }
+  },
+  {
+   "id": "health.vaccine-hesitancy",
+   "t": {
+    "en": "vaccine hesitancy",
+    "uk": "вагання щодо вакцинації",
+    "ru": "недоверие к вакцинам",
+    "pl": "niechęć do szczepień",
+    "de": "Impfskepsis",
+    "fr": "hésitation vaccinale",
+    "es": "reticencia a vacunarse",
+    "it": "esitazione vaccinale",
+    "pt": "hesitação vacinal",
+    "tr": "aşı tereddüdü"
+   },
+   "ex": {
+    "en": "Vaccine hesitancy is growing."
+   }
+  },
+  {
+   "id": "health.to-inoculate",
+   "t": {
+    "en": "to inoculate",
+    "uk": "щеплювати",
+    "ru": "прививать",
+    "pl": "szczepić",
+    "de": "impfen",
+    "fr": "inoculer",
+    "es": "inocular",
+    "it": "inoculare",
+    "pt": "inocular",
+    "tr": "aşılamak"
+   },
+   "ex": {
+    "en": "Children are inoculated early."
+   }
+  },
+  {
+   "id": "health.immunocompromised",
+   "t": {
+    "en": "immunocompromised",
+    "uk": "з ослабленим імунітетом",
+    "ru": "с ослабленным иммунитетом",
+    "pl": "z obniżoną odpornością",
+    "de": "immungeschwächt",
+    "fr": "immunodéprimé",
+    "es": "inmunodeprimido",
+    "it": "immunodepresso",
+    "pt": "imunocomprometido",
+    "tr": "bağışıklığı baskılanmış"
+   },
+   "ex": {
+    "en": "Immunocompromised people are at risk."
+   }
+  },
+  {
+   "id": "health.anaesthetic",
+   "t": {
+    "en": "anaesthetic",
+    "uk": "анестетик",
+    "ru": "анестетик",
+    "pl": "środek znieczulający",
+    "de": "Betäubungsmittel",
+    "fr": "anesthésique",
+    "es": "anestésico",
+    "it": "anestetico",
+    "pt": "anestésico",
+    "tr": "anestezik"
+   },
+   "ex": {
+    "en": "You'll get a local anaesthetic."
+   }
+  },
+  {
+   "id": "health.post-operative",
+   "t": {
+    "en": "post-operative",
+    "uk": "післяопераційний",
+    "ru": "послеоперационный",
+    "pl": "pooperacyjny",
+    "de": "postoperativ",
+    "fr": "postopératoire",
+    "es": "postoperatorio",
+    "it": "postoperatorio",
+    "pt": "pós-operatório",
+    "tr": "ameliyat sonrası"
+   },
+   "ex": {
+    "en": "Post-operative care is vital."
+   }
+  },
+  {
+   "id": "health.invasive",
+   "t": {
+    "en": "invasive",
+    "uk": "інвазивний",
+    "ru": "инвазивный",
+    "pl": "inwazyjny",
+    "de": "invasiv",
+    "fr": "invasif",
+    "es": "invasivo",
+    "it": "invasivo",
+    "pt": "invasivo",
+    "tr": "invaziv"
+   },
+   "ex": {
+    "en": "It's an invasive procedure."
+   }
+  },
+  {
+   "id": "health.non-invasive",
+   "t": {
+    "en": "non-invasive",
+    "uk": "неінвазивний",
+    "ru": "неинвазивный",
+    "pl": "nieinwazyjny",
+    "de": "nicht-invasiv",
+    "fr": "non invasif",
+    "es": "no invasivo",
+    "it": "non invasivo",
+    "pt": "não invasivo",
+    "tr": "invaziv olmayan"
+   },
+   "ex": {
+    "en": "The test is non-invasive."
+   }
+  },
+  {
+   "id": "health.keyhole-surgery",
+   "t": {
+    "en": "keyhole surgery",
+    "uk": "лапароскопія",
+    "ru": "лапароскопия",
+    "pl": "laparoskopia",
+    "de": "Schlüssellochchirurgie",
+    "fr": "cœlioscopie",
+    "es": "cirugía laparoscópica",
+    "it": "chirurgia laparoscopica",
+    "pt": "cirurgia laparoscópica",
+    "tr": "kapalı ameliyat"
+   },
+   "ex": {
+    "en": "Keyhole surgery heals faster."
+   }
+  },
+  {
+   "id": "health.misdiagnosis",
+   "t": {
+    "en": "misdiagnosis",
+    "uk": "хибний діагноз",
+    "ru": "ошибочный диагноз",
+    "pl": "błędna diagnoza",
+    "de": "Fehldiagnose",
+    "fr": "erreur de diagnostic",
+    "es": "diagnóstico erróneo",
+    "it": "diagnosi errata",
+    "pt": "diagnóstico errado",
+    "tr": "yanlış teşhis"
+   },
+   "ex": {
+    "en": "The misdiagnosis cost him months."
+   }
+  },
+  {
+   "id": "health.malpractice",
+   "t": {
+    "en": "malpractice",
+    "uk": "лікарська помилка",
+    "ru": "врачебная ошибка",
+    "pl": "błąd w sztuce lekarskiej",
+    "de": "Behandlungsfehler",
+    "fr": "faute médicale",
+    "es": "negligencia médica",
+    "it": "malasanità",
+    "pt": "erro médico",
+    "tr": "tıbbi hata"
+   },
+   "ex": {
+    "en": "They sued for malpractice."
+   }
+  },
+  {
+   "id": "health.bedside-manner",
+   "t": {
+    "en": "bedside manner",
+    "uk": "підхід до пацієнта",
+    "ru": "подход к пациенту",
+    "pl": "podejście do pacjenta",
+    "de": "Umgang mit Patienten",
+    "fr": "relation avec le patient",
+    "es": "trato con el paciente",
+    "it": "modo di fare col paziente",
+    "pt": "trato com o paciente",
+    "tr": "hastaya yaklaşım"
+   },
+   "ex": {
+    "en": "She has a lovely bedside manner."
+   }
+  },
+  {
+   "id": "health.clinical-trial",
+   "t": {
+    "en": "clinical trial",
+    "uk": "клінічне випробування",
+    "ru": "клиническое испытание",
+    "pl": "badanie kliniczne",
+    "de": "klinische Studie",
+    "fr": "essai clinique",
+    "es": "ensayo clínico",
+    "it": "sperimentazione clinica",
+    "pt": "ensaio clínico",
+    "tr": "klinik deneme"
+   },
+   "ex": {
+    "en": "He joined a clinical trial."
+   }
+  },
+  {
+   "id": "health.efficacy",
+   "t": {
+    "en": "efficacy",
+    "uk": "ефективність",
+    "ru": "эффективность",
+    "pl": "skuteczność",
+    "de": "Wirksamkeit",
+    "fr": "efficacité",
+    "es": "eficacia",
+    "it": "efficacia",
+    "pt": "eficácia",
+    "tr": "etkinlik"
+   },
+   "ex": {
+    "en": "The drug's efficacy is proven."
+   }
+  },
+  {
+   "id": "health.to-administer",
+   "t": {
+    "en": "to administer",
+    "uk": "вводити",
+    "ru": "вводить",
+    "pl": "podawać",
+    "de": "verabreichen",
+    "fr": "administrer",
+    "es": "administrar",
+    "it": "somministrare",
+    "pt": "administrar",
+    "tr": "uygulamak"
+   },
+   "ex": {
+    "en": "The nurse administered the drug."
+   }
+  },
+  {
+   "id": "health.regimen",
+   "t": {
+    "en": "regimen",
+    "uk": "режим лікування",
+    "ru": "режим лечения",
+    "pl": "schemat leczenia",
+    "de": "Behandlungsplan",
+    "fr": "traitement",
+    "es": "pauta",
+    "it": "regime terapeutico",
+    "pt": "esquema terapêutico",
+    "tr": "tedavi rejimi"
+   },
+   "ex": {
+    "en": "Stick to your regimen."
+   }
+  },
+  {
+   "id": "health.to-be-prone-to",
+   "t": {
+    "en": "to be prone to",
+    "uk": "бути схильним до",
+    "ru": "быть склонным к",
+    "pl": "być podatnym na",
+    "de": "anfällig sein für",
+    "fr": "être sujet à",
+    "es": "ser propenso a",
+    "it": "essere soggetto a",
+    "pt": "ser propenso a",
+    "tr": "yatkın olmak"
+   },
+   "ex": {
+    "en": "I'm prone to headaches."
+   }
+  },
+  {
+   "id": "health.predisposition",
+   "t": {
+    "en": "predisposition",
+    "uk": "схильність",
+    "ru": "предрасположенность",
+    "pl": "predyspozycja",
+    "de": "Veranlagung",
+    "fr": "prédisposition",
+    "es": "predisposición",
+    "it": "predisposizione",
+    "pt": "predisposição",
+    "tr": "yatkınlık"
+   },
+   "ex": {
+    "en": "There's a genetic predisposition."
+   }
+  },
+  {
+   "id": "health.ailment",
+   "t": {
+    "en": "ailment",
+    "uk": "нездужання",
+    "ru": "недомогание",
+    "pl": "dolegliwość",
+    "de": "Leiden",
+    "fr": "affection",
+    "es": "dolencia",
+    "it": "disturbo",
+    "pt": "enfermidade",
+    "tr": "rahatsızlık"
+   },
+   "ex": {
+    "en": "Minor ailments heal on their own."
+   }
+  },
+  {
+   "id": "health.malady",
+   "t": {
+    "en": "malady",
+    "uk": "недуг",
+    "ru": "недуг",
+    "pl": "przypadłość",
+    "de": "Gebrechen",
+    "fr": "mal",
+    "es": "mal",
+    "it": "male",
+    "pt": "mal",
+    "tr": "hastalık"
+   },
+   "ex": {
+    "en": "Loneliness is a modern malady."
+   }
+  },
+  {
+   "id": "health.frail",
+   "t": {
+    "en": "frail",
+    "uk": "кволий",
+    "ru": "немощный",
+    "pl": "wątły",
+    "de": "gebrechlich",
+    "fr": "frêle",
+    "es": "frágil",
+    "it": "fragile",
+    "pt": "frágil",
+    "tr": "güçsüz"
+   },
+   "ex": {
+    "en": "She is old and frail."
+   }
+  },
+  {
+   "id": "health.ailing",
+   "t": {
+    "en": "ailing",
+    "uk": "хворобливий",
+    "ru": "хворающий",
+    "pl": "niedomagający",
+    "de": "kränkelnd",
+    "fr": "souffrant",
+    "es": "enfermizo",
+    "it": "malaticcio",
+    "pt": "adoentado",
+    "tr": "hastalıklı"
+   },
+   "ex": {
+    "en": "He looks after his ailing mother."
+   }
+  },
+  {
+   "id": "health.sleep-deprivation",
+   "t": {
+    "en": "sleep deprivation",
+    "uk": "недосипання",
+    "ru": "недосыпание",
+    "pl": "niedobór snu",
+    "de": "Schlafmangel",
+    "fr": "privation de sommeil",
+    "es": "falta de sueño",
+    "it": "privazione del sonno",
+    "pt": "privação de sono",
+    "tr": "uykusuzluk"
+   },
+   "ex": {
+    "en": "Sleep deprivation affects memory."
+   }
+  },
+  {
+   "id": "health.chronic-fatigue",
+   "t": {
+    "en": "chronic fatigue",
+    "uk": "хронічна втома",
+    "ru": "хроническая усталость",
+    "pl": "przewlekłe zmęczenie",
+    "de": "chronische Müdigkeit",
+    "fr": "fatigue chronique",
+    "es": "fatiga crónica",
+    "it": "stanchezza cronica",
+    "pt": "fadiga crônica",
+    "tr": "kronik yorgunluk"
+   },
+   "ex": {
+    "en": "She suffers from chronic fatigue."
+   }
+  },
+  {
+   "id": "health.risk-factor",
+   "t": {
+    "en": "risk factor",
+    "uk": "фактор ризику",
+    "ru": "фактор риска",
+    "pl": "czynnik ryzyka",
+    "de": "Risikofaktor",
+    "fr": "facteur de risque",
+    "es": "factor de riesgo",
+    "it": "fattore di rischio",
+    "pt": "fator de risco",
+    "tr": "risk faktörü"
+   },
+   "ex": {
+    "en": "Smoking is a major risk factor."
+   }
+  },
+  {
+   "id": "health.preventive-care",
+   "t": {
+    "en": "preventive care",
+    "uk": "профілактика",
+    "ru": "профилактика",
+    "pl": "profilaktyka",
+    "de": "Vorsorge",
+    "fr": "soins préventifs",
+    "es": "atención preventiva",
+    "it": "medicina preventiva",
+    "pt": "cuidados preventivos",
+    "tr": "koruyucu sağlık"
+   },
+   "ex": {
+    "en": "Preventive care saves lives."
+   }
+  },
+  {
+   "id": "health.organ-failure",
+   "t": {
+    "en": "organ failure",
+    "uk": "відмова органів",
+    "ru": "отказ органов",
+    "pl": "niewydolność narządów",
+    "de": "Organversagen",
+    "fr": "défaillance d'organe",
+    "es": "fallo orgánico",
+    "it": "insufficienza d'organo",
+    "pt": "falência de órgãos",
+    "tr": "organ yetmezliği"
+   },
+   "ex": {
+    "en": "He died of organ failure."
+   }
+  },
+  {
+   "id": "health.cardiac-arrest",
+   "t": {
+    "en": "cardiac arrest",
+    "uk": "зупинка серця",
+    "ru": "остановка сердца",
+    "pl": "zatrzymanie akcji serca",
+    "de": "Herzstillstand",
+    "fr": "arrêt cardiaque",
+    "es": "paro cardíaco",
+    "it": "arresto cardiaco",
+    "pt": "parada cardíaca",
+    "tr": "kalp durması"
+   },
+   "ex": {
+    "en": "He went into cardiac arrest."
+   }
+  },
+  {
+   "id": "health.aneurysm",
+   "t": {
+    "en": "aneurysm",
+    "uk": "аневризма",
+    "ru": "аневризма",
+    "pl": "tętniak",
+    "de": "Aneurysma",
+    "fr": "anévrisme",
+    "es": "aneurisma",
+    "it": "aneurisma",
+    "pt": "aneurisma",
+    "tr": "anevrizma"
+   },
+   "ex": {
+    "en": "The scan revealed an aneurysm."
+   }
+  },
+  {
+   "id": "health.haemorrhage",
+   "t": {
+    "en": "haemorrhage",
+    "uk": "крововилив",
+    "ru": "кровоизлияние",
+    "pl": "krwotok",
+    "de": "Blutung",
+    "fr": "hémorragie",
+    "es": "hemorragia",
+    "it": "emorragia",
+    "pt": "hemorragia",
+    "tr": "kanama"
+   },
+   "ex": {
+    "en": "She suffered a brain haemorrhage."
+   }
+  },
+  {
+   "id": "health.seizure",
+   "t": {
+    "en": "seizure",
+    "uk": "напад",
+    "ru": "припадок",
+    "pl": "napad",
+    "de": "Anfall",
+    "fr": "crise",
+    "es": "convulsión",
+    "it": "crisi convulsiva",
+    "pt": "convulsão",
+    "tr": "nöbet"
+   },
+   "ex": {
+    "en": "He had a seizure at school."
+   }
+  },
+  {
+   "id": "health.epilepsy",
+   "t": {
+    "en": "epilepsy",
+    "uk": "епілепсія",
+    "ru": "эпилепсия",
+    "pl": "padaczka",
+    "de": "Epilepsie",
+    "fr": "épilepsie",
+    "es": "epilepsia",
+    "it": "epilessia",
+    "pt": "epilepsia",
+    "tr": "epilepsi"
+   },
+   "ex": {
+    "en": "Epilepsy can be controlled."
+   }
+  },
+  {
+   "id": "health.paralysis",
+   "t": {
+    "en": "paralysis",
+    "uk": "параліч",
+    "ru": "паралич",
+    "pl": "paraliż",
+    "de": "Lähmung",
+    "fr": "paralysie",
+    "es": "parálisis",
+    "it": "paralisi",
+    "pt": "paralisia",
+    "tr": "felç"
+   },
+   "ex": {
+    "en": "The stroke caused paralysis."
+   }
+  },
+  {
+   "id": "health.to-amputate",
+   "t": {
+    "en": "to amputate",
+    "uk": "ампутувати",
+    "ru": "ампутировать",
+    "pl": "amputować",
+    "de": "amputieren",
+    "fr": "amputer",
+    "es": "amputar",
+    "it": "amputare",
+    "pt": "amputar",
+    "tr": "ampute etmek"
+   },
+   "ex": {
+    "en": "They had to amputate his leg."
+   }
+  },
+  {
+   "id": "health.prosthesis",
+   "t": {
+    "en": "prosthesis",
+    "uk": "протез",
+    "ru": "протез",
+    "pl": "proteza",
+    "de": "Prothese",
+    "fr": "prothèse",
+    "es": "prótesis",
+    "it": "protesi",
+    "pt": "prótese",
+    "tr": "protez"
+   },
+   "ex": {
+    "en": "He walks with a prosthesis."
+   }
+  },
+  {
+   "id": "health.cyst",
+   "t": {
+    "en": "cyst",
+    "uk": "кіста",
+    "ru": "киста",
+    "pl": "torbiel",
+    "de": "Zyste",
+    "fr": "kyste",
+    "es": "quiste",
+    "it": "cisti",
+    "pt": "cisto",
+    "tr": "kist"
+   },
+   "ex": {
+    "en": "The cyst is harmless."
+   }
+  },
+  {
+   "id": "health.oncologist",
+   "t": {
+    "en": "oncologist",
+    "uk": "онколог",
+    "ru": "онколог",
+    "pl": "onkolog",
+    "de": "Onkologe",
+    "fr": "oncologue",
+    "es": "oncólogo",
+    "it": "oncologo",
+    "pt": "oncologista",
+    "tr": "onkolog"
+   },
+   "ex": {
+    "en": "She sees an oncologist monthly."
+   }
+  },
+  {
+   "id": "health.cardiologist",
+   "t": {
+    "en": "cardiologist",
+    "uk": "кардіолог",
+    "ru": "кардиолог",
+    "pl": "kardiolog",
+    "de": "Kardiologe",
+    "fr": "cardiologue",
+    "es": "cardiólogo",
+    "it": "cardiologo",
+    "pt": "cardiologista",
+    "tr": "kardiyolog"
+   },
+   "ex": {
+    "en": "My cardiologist ordered tests."
+   }
+  },
+  {
+   "id": "health.neurologist",
+   "t": {
+    "en": "neurologist",
+    "uk": "невролог",
+    "ru": "невролог",
+    "pl": "neurolog",
+    "de": "Neurologe",
+    "fr": "neurologue",
+    "es": "neurólogo",
+    "it": "neurologo",
+    "pt": "neurologista",
+    "tr": "nörolog"
+   },
+   "ex": {
+    "en": "The neurologist checked my reflexes."
+   }
+  },
+  {
+   "id": "health.paediatrician",
+   "t": {
+    "en": "paediatrician",
+    "uk": "педіатр",
+    "ru": "педиатр",
+    "pl": "pediatra",
+    "de": "Kinderarzt",
+    "fr": "pédiatre",
+    "es": "pediatra",
+    "it": "pediatra",
+    "pt": "pediatra",
+    "tr": "çocuk doktoru"
+   },
+   "ex": {
+    "en": "Take the baby to a paediatrician."
+   }
+  },
+  {
+   "id": "health.bloated",
+   "t": {
+    "en": "bloated",
+    "uk": "здутий",
+    "ru": "вздутый",
+    "pl": "wzdęty",
+    "de": "aufgebläht",
+    "fr": "ballonné",
+    "es": "hinchado",
+    "it": "gonfio",
+    "pt": "inchado",
+    "tr": "şişkin"
+   },
+   "ex": {
+    "en": "I feel bloated after dinner."
+   }
+  },
+  {
+   "id": "health.queasy",
+   "t": {
+    "en": "queasy",
+    "uk": "нудотний",
+    "ru": "подташнивающий",
+    "pl": "mający mdłości",
+    "de": "flau im Magen",
+    "fr": "nauséeux",
+    "es": "con el estómago revuelto",
+    "it": "nauseato",
+    "pt": "enjoado",
+    "tr": "midesi bulanık"
+   },
+   "ex": {
+    "en": "Boats make me queasy."
+   }
+  },
+  {
+   "id": "health.groggy",
+   "t": {
+    "en": "groggy",
+    "uk": "загальмований",
+    "ru": "заторможенный",
+    "pl": "otępiały",
+    "de": "benommen",
+    "fr": "groggy",
+    "es": "atontado",
+    "it": "intontito",
+    "pt": "grogue",
+    "tr": "sersem"
+   },
+   "ex": {
+    "en": "I feel groggy after the pills."
+   }
+  },
+  {
+   "id": "health.light-headed",
+   "t": {
+    "en": "light-headed",
+    "uk": "запаморочений",
+    "ru": "с головокружением",
+    "pl": "oszołomiony",
+    "de": "schwindelig",
+    "fr": "étourdi",
+    "es": "mareado",
+    "it": "stordito",
+    "pt": "tonto",
+    "tr": "başı dönen"
+   },
+   "ex": {
+    "en": "I felt light-headed and sat down."
+   }
+  },
+  {
+   "id": "health.feverish",
+   "t": {
+    "en": "feverish",
+    "uk": "гарячковий",
+    "ru": "лихорадочный",
+    "pl": "rozgorączkowany",
+    "de": "fiebrig",
+    "fr": "fiévreux",
+    "es": "febril",
+    "it": "febbricitante",
+    "pt": "febril",
+    "tr": "ateşli"
+   },
+   "ex": {
+    "en": "The child feels feverish."
+   }
+  },
+  {
+   "id": "health.to-be-off-colour",
+   "t": {
+    "en": "to be off colour",
+    "uk": "нездужати",
+    "ru": "неважно себя чувствовать",
+    "pl": "źle się czuć",
+    "de": "nicht ganz auf der Höhe sein",
+    "fr": "ne pas être dans son assiette",
+    "es": "no estar muy católico",
+    "it": "non sentirsi in forma",
+    "pt": "estar abatido",
+    "tr": "keyifsiz olmak"
+   },
+   "ex": {
+    "en": "You look a bit off colour."
+   }
+  },
+  {
+   "id": "health.a-clean-bill-of-health",
+   "t": {
+    "en": "a clean bill of health",
+    "uk": "довідка про здоров'я",
+    "ru": "справка о здоровье",
+    "pl": "zaświadczenie o zdrowiu",
+    "de": "Gesundheitszeugnis",
+    "fr": "certificat de bonne santé",
+    "es": "certificado de buena salud",
+    "it": "certificato di buona salute",
+    "pt": "atestado de boa saúde",
+    "tr": "sağlık onayı"
+   },
+   "ex": {
+    "en": "The doctor gave me a clean bill of health."
    }
   }
  ]

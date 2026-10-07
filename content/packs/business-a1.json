@@ -2,7 +2,7 @@
  "id": "business-a1",
  "topic": "business",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "business.company",
@@ -902,6 +902,366 @@
    },
    "ex": {
     "en": "Say hello to our new employee."
+   }
+  },
+  {
+   "id": "business.to-call-a-client",
+   "t": {
+    "en": "to call a client",
+    "uk": "зателефонувати клієнту",
+    "ru": "позвонить клиенту",
+    "pl": "zadzwonić do klienta",
+    "de": "einen Kunden anrufen",
+    "fr": "appeler un client",
+    "es": "llamar a un cliente",
+    "it": "chiamare un cliente",
+    "pt": "ligar para um cliente",
+    "tr": "müşteriyi aramak"
+   },
+   "ex": {
+    "en": "I need to call a client."
+   }
+  },
+  {
+   "id": "business.to-sell-online",
+   "t": {
+    "en": "to sell online",
+    "uk": "продавати онлайн",
+    "ru": "продавать онлайн",
+    "pl": "sprzedawać online",
+    "de": "online verkaufen",
+    "fr": "vendre en ligne",
+    "es": "vender por internet",
+    "it": "vendere online",
+    "pt": "vender on-line",
+    "tr": "internetten satmak"
+   },
+   "ex": {
+    "en": "We sell our bags online."
+   }
+  },
+  {
+   "id": "business.total-price",
+   "t": {
+    "en": "total price",
+    "uk": "загальна ціна",
+    "ru": "общая цена",
+    "pl": "cena całkowita",
+    "de": "Gesamtpreis",
+    "fr": "prix total",
+    "es": "precio total",
+    "it": "prezzo totale",
+    "pt": "preço total",
+    "tr": "toplam fiyat"
+   },
+   "ex": {
+    "en": "The total price is 200 euros."
+   }
+  },
+  {
+   "id": "business.to-work-together",
+   "t": {
+    "en": "to work together",
+    "uk": "працювати разом",
+    "ru": "работать вместе",
+    "pl": "pracować razem",
+    "de": "zusammenarbeiten",
+    "fr": "travailler ensemble",
+    "es": "trabajar juntos",
+    "it": "lavorare insieme",
+    "pt": "trabalhar juntos",
+    "tr": "birlikte çalışmak"
+   },
+   "ex": {
+    "en": "We work together on this."
+   }
+  },
+  {
+   "id": "business.to-send-an-email",
+   "t": {
+    "en": "to send an email",
+    "uk": "надіслати електронний лист",
+    "ru": "отправить электронное письмо",
+    "pl": "wysłać e-mail",
+    "de": "eine E-Mail schicken",
+    "fr": "envoyer un e-mail",
+    "es": "enviar un correo",
+    "it": "inviare un'e-mail",
+    "pt": "enviar um e-mail",
+    "tr": "e-posta göndermek"
+   },
+   "ex": {
+    "en": "I'll send an email today."
+   }
+  },
+  {
+   "id": "business.small-shop",
+   "t": {
+    "en": "small shop",
+    "uk": "невеликий магазин",
+    "ru": "небольшой магазин",
+    "pl": "mały sklep",
+    "de": "kleiner Laden",
+    "fr": "petite boutique",
+    "es": "tienda pequeña",
+    "it": "piccolo negozio",
+    "pt": "loja pequena",
+    "tr": "küçük dükkân"
+   },
+   "ex": {
+    "en": "She has a small shop in town."
+   }
+  },
+  {
+   "id": "business.to-start-a-business",
+   "t": {
+    "en": "to start a business",
+    "uk": "почати бізнес",
+    "ru": "начать бизнес",
+    "pl": "założyć firmę",
+    "de": "ein Geschäft gründen",
+    "fr": "créer une entreprise",
+    "es": "montar un negocio",
+    "it": "avviare un'attività",
+    "pt": "abrir um negócio",
+    "tr": "iş kurmak"
+   },
+   "ex": {
+    "en": "I want to start a business."
+   }
+  },
+  {
+   "id": "business.shopkeeper",
+   "t": {
+    "en": "shopkeeper",
+    "uk": "власник крамниці",
+    "ru": "владелец магазина",
+    "pl": "sklepikarz",
+    "de": "Ladenbesitzer",
+    "fr": "commerçant",
+    "es": "tendero",
+    "it": "negoziante",
+    "pt": "lojista",
+    "tr": "dükkân sahibi"
+   },
+   "ex": {
+    "en": "The shopkeeper is very friendly."
+   }
+  },
+  {
+   "id": "business.big-company",
+   "t": {
+    "en": "big company",
+    "uk": "велика компанія",
+    "ru": "большая компания",
+    "pl": "duża firma",
+    "de": "großes Unternehmen",
+    "fr": "grande entreprise",
+    "es": "empresa grande",
+    "it": "grande azienda",
+    "pt": "empresa grande",
+    "tr": "büyük şirket"
+   },
+   "ex": {
+    "en": "He works for a big company."
+   }
+  },
+  {
+   "id": "business.to-work-for",
+   "t": {
+    "en": "to work for",
+    "uk": "працювати на",
+    "ru": "работать на",
+    "pl": "pracować dla",
+    "de": "arbeiten für",
+    "fr": "travailler pour",
+    "es": "trabajar para",
+    "it": "lavorare per",
+    "pt": "trabalhar para",
+    "tr": "için çalışmak"
+   },
+   "ex": {
+    "en": "I work for a bank."
+   }
+  },
+  {
+   "id": "business.market-stall",
+   "t": {
+    "en": "market stall",
+    "uk": "ринковий прилавок",
+    "ru": "рыночный прилавок",
+    "pl": "stragan",
+    "de": "Marktstand",
+    "fr": "étal",
+    "es": "puesto del mercado",
+    "it": "bancarella",
+    "pt": "barraca de feira",
+    "tr": "pazar tezgâhı"
+   },
+   "ex": {
+    "en": "She sells fruit at a market stall."
+   }
+  },
+  {
+   "id": "business.street-seller",
+   "t": {
+    "en": "street seller",
+    "uk": "вуличний продавець",
+    "ru": "уличный продавец",
+    "pl": "sprzedawca uliczny",
+    "de": "Straßenhändler",
+    "fr": "vendeur de rue",
+    "es": "vendedor ambulante",
+    "it": "venditore ambulante",
+    "pt": "vendedor ambulante",
+    "tr": "seyyar satıcı"
+   },
+   "ex": {
+    "en": "The street seller has cheap hats."
+   }
+  },
+  {
+   "id": "business.to-make-money",
+   "t": {
+    "en": "to make money",
+    "uk": "заробляти гроші",
+    "ru": "зарабатывать деньги",
+    "pl": "zarabiać pieniądze",
+    "de": "Geld verdienen",
+    "fr": "gagner de l'argent",
+    "es": "ganar dinero",
+    "it": "guadagnare soldi",
+    "pt": "ganhar dinheiro",
+    "tr": "para kazanmak"
+   },
+   "ex": {
+    "en": "The shop makes good money."
+   }
+  },
+  {
+   "id": "business.handshake",
+   "t": {
+    "en": "handshake",
+    "uk": "рукостискання",
+    "ru": "рукопожатие",
+    "pl": "uścisk dłoni",
+    "de": "Händedruck",
+    "fr": "poignée de main",
+    "es": "apretón de manos",
+    "it": "stretta di mano",
+    "pt": "aperto de mão",
+    "tr": "tokalaşma"
+   },
+   "ex": {
+    "en": "He has a strong handshake."
+   }
+  },
+  {
+   "id": "business.to-shake-hands",
+   "t": {
+    "en": "to shake hands",
+    "uk": "потиснути руки",
+    "ru": "пожать руки",
+    "pl": "uścisnąć dłonie",
+    "de": "sich die Hand geben",
+    "fr": "se serrer la main",
+    "es": "darse la mano",
+    "it": "stringersi la mano",
+    "pt": "apertar as mãos",
+    "tr": "tokalaşmak"
+   },
+   "ex": {
+    "en": "We shook hands after the meeting."
+   }
+  },
+  {
+   "id": "business.business-lunch",
+   "t": {
+    "en": "business lunch",
+    "uk": "діловий обід",
+    "ru": "деловой обед",
+    "pl": "lunch biznesowy",
+    "de": "Geschäftsessen",
+    "fr": "déjeuner d'affaires",
+    "es": "comida de negocios",
+    "it": "pranzo di lavoro",
+    "pt": "almoço de negócios",
+    "tr": "iş yemeği"
+   },
+   "ex": {
+    "en": "I have a business lunch today."
+   }
+  },
+  {
+   "id": "business.to-visit-a-client",
+   "t": {
+    "en": "to visit a client",
+    "uk": "відвідати клієнта",
+    "ru": "навестить клиента",
+    "pl": "odwiedzić klienta",
+    "de": "einen Kunden besuchen",
+    "fr": "rendre visite à un client",
+    "es": "visitar a un cliente",
+    "it": "visitare un cliente",
+    "pt": "visitar um cliente",
+    "tr": "müşteriyi ziyaret etmek"
+   },
+   "ex": {
+    "en": "I visit a client every Monday."
+   }
+  },
+  {
+   "id": "business.to-leave-a-message",
+   "t": {
+    "en": "to leave a message",
+    "uk": "залишити повідомлення",
+    "ru": "оставить сообщение",
+    "pl": "zostawić wiadomość",
+    "de": "eine Nachricht hinterlassen",
+    "fr": "laisser un message",
+    "es": "dejar un mensaje",
+    "it": "lasciare un messaggio",
+    "pt": "deixar uma mensagem",
+    "tr": "mesaj bırakmak"
+   },
+   "ex": {
+    "en": "Can I leave a message for her?"
+   }
+  },
+  {
+   "id": "business.card-payment",
+   "t": {
+    "en": "card payment",
+    "uk": "оплата карткою",
+    "ru": "оплата картой",
+    "pl": "płatność kartą",
+    "de": "Kartenzahlung",
+    "fr": "paiement par carte",
+    "es": "pago con tarjeta",
+    "it": "pagamento con carta",
+    "pt": "pagamento com cartão",
+    "tr": "kartla ödeme"
+   },
+   "ex": {
+    "en": "We accept card payment."
+   }
+  },
+  {
+   "id": "business.company-name",
+   "t": {
+    "en": "company name",
+    "uk": "назва компанії",
+    "ru": "название компании",
+    "pl": "nazwa firmy",
+    "de": "Firmenname",
+    "fr": "nom de l'entreprise",
+    "es": "nombre de la empresa",
+    "it": "nome dell'azienda",
+    "pt": "nome da empresa",
+    "tr": "şirket adı"
+   },
+   "ex": {
+    "en": "Write the company name here."
    }
   }
  ]

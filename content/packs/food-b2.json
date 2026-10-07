@@ -2,7 +2,7 @@
  "id": "food-b2",
  "topic": "food",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "food.to-season",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "This jam contains no preservatives."
+   }
+  },
+  {
+   "id": "food.to-fillet",
+   "t": {
+    "en": "to fillet",
+    "uk": "розбирати на філе",
+    "ru": "разделывать на филе",
+    "pl": "filetować",
+    "de": "filetieren",
+    "fr": "lever les filets",
+    "es": "filetear",
+    "it": "sfilettare",
+    "pt": "filetar",
+    "tr": "fileto çıkarmak"
+   },
+   "ex": {
+    "en": "The chef filleted the fish quickly."
+   }
+  },
+  {
+   "id": "food.to-debone",
+   "t": {
+    "en": "to debone",
+    "uk": "видаляти кістки",
+    "ru": "удалять кости",
+    "pl": "trybować",
+    "de": "entbeinen",
+    "fr": "désosser",
+    "es": "deshuesar",
+    "it": "disossare",
+    "pt": "desossar",
+    "tr": "kemiklerini ayıklamak"
+   },
+   "ex": {
+    "en": "Debone the chicken thighs first."
+   }
+  },
+  {
+   "id": "food.to-skim",
+   "t": {
+    "en": "to skim",
+    "uk": "знімати піну",
+    "ru": "снимать пену",
+    "pl": "szumować",
+    "de": "abschöpfen",
+    "fr": "écumer",
+    "es": "espumar",
+    "it": "schiumare",
+    "pt": "escumar",
+    "tr": "köpüğünü almak"
+   },
+   "ex": {
+    "en": "Skim the fat off the soup."
+   }
+  },
+  {
+   "id": "food.to-puree",
+   "t": {
+    "en": "to purée",
+    "uk": "перетирати на пюре",
+    "ru": "измельчать в пюре",
+    "pl": "przecierać",
+    "de": "pürieren",
+    "fr": "réduire en purée",
+    "es": "triturar",
+    "it": "frullare",
+    "pt": "fazer purê",
+    "tr": "püre yapmak"
+   },
+   "ex": {
+    "en": "Purée the soup until smooth."
+   }
+  },
+  {
+   "id": "food.to-glaze",
+   "t": {
+    "en": "to glaze",
+    "uk": "глазурувати",
+    "ru": "глазировать",
+    "pl": "glazurować",
+    "de": "glasieren",
+    "fr": "glacer",
+    "es": "glasear",
+    "it": "glassare",
+    "pt": "glaçar",
+    "tr": "glase etmek"
+   },
+   "ex": {
+    "en": "Glaze the ham with honey."
+   }
+  },
+  {
+   "id": "food.to-ferment",
+   "t": {
+    "en": "to ferment",
+    "uk": "ферментувати",
+    "ru": "ферментировать",
+    "pl": "fermentować",
+    "de": "fermentieren",
+    "fr": "fermenter",
+    "es": "fermentar",
+    "it": "fermentare",
+    "pt": "fermentar",
+    "tr": "fermente etmek"
+   },
+   "ex": {
+    "en": "Leave the cabbage to ferment."
+   }
+  },
+  {
+   "id": "food.to-coat",
+   "t": {
+    "en": "to coat",
+    "uk": "обвалювати",
+    "ru": "обваливать",
+    "pl": "obtaczać",
+    "de": "wälzen",
+    "fr": "enrober",
+    "es": "rebozar",
+    "it": "ricoprire",
+    "pt": "envolver",
+    "tr": "bulamak"
+   },
+   "ex": {
+    "en": "Coat the chicken in flour."
+   }
+  },
+  {
+   "id": "food.batter",
+   "t": {
+    "en": "batter",
+    "uk": "рідке тісто",
+    "ru": "жидкое тесто",
+    "pl": "rzadkie ciasto",
+    "de": "Ausbackteig",
+    "fr": "pâte à frire",
+    "es": "masa para rebozar",
+    "it": "pastella",
+    "pt": "massa de empanar",
+    "tr": "sıvı hamur"
+   },
+   "ex": {
+    "en": "Dip the fish in batter."
+   }
+  },
+  {
+   "id": "food.breadcrumbs",
+   "t": {
+    "en": "breadcrumbs",
+    "uk": "панірувальні сухарі",
+    "ru": "панировочные сухари",
+    "pl": "bułka tarta",
+    "de": "Paniermehl",
+    "fr": "chapelure",
+    "es": "pan rallado",
+    "it": "pangrattato",
+    "pt": "farinha de rosca",
+    "tr": "galeta unu"
+   },
+   "ex": {
+    "en": "Roll the cutlets in breadcrumbs."
+   }
+  },
+  {
+   "id": "food.marinade",
+   "t": {
+    "en": "marinade",
+    "uk": "маринад",
+    "ru": "маринад",
+    "pl": "marynata",
+    "de": "Marinade",
+    "fr": "marinade",
+    "es": "marinada",
+    "it": "marinata",
+    "pt": "marinada",
+    "tr": "marine sosu"
+   },
+   "ex": {
+    "en": "Leave the meat in the marinade overnight."
+   }
+  },
+  {
+   "id": "food.charred",
+   "t": {
+    "en": "charred",
+    "uk": "обвуглений",
+    "ru": "обугленный",
+    "pl": "zwęglony",
+    "de": "verkohlt",
+    "fr": "carbonisé",
+    "es": "chamuscado",
+    "it": "bruciacchiato",
+    "pt": "chamuscado",
+    "tr": "közlenmiş"
+   },
+   "ex": {
+    "en": "I love charred peppers."
+   }
+  },
+  {
+   "id": "food.rind",
+   "t": {
+    "en": "rind",
+    "uk": "шкірка",
+    "ru": "корка",
+    "pl": "skórka",
+    "de": "Rinde",
+    "fr": "croûte",
+    "es": "corteza",
+    "it": "crosta",
+    "pt": "casca",
+    "tr": "kabuk"
+   },
+   "ex": {
+    "en": "Don't eat the cheese rind."
+   }
+  },
+  {
+   "id": "food.yolk",
+   "t": {
+    "en": "yolk",
+    "uk": "жовток",
+    "ru": "желток",
+    "pl": "żółtko",
+    "de": "Eigelb",
+    "fr": "jaune d'œuf",
+    "es": "yema",
+    "it": "tuorlo",
+    "pt": "gema",
+    "tr": "yumurta sarısı"
+   },
+   "ex": {
+    "en": "Separate the yolk from the white."
+   }
+  },
+  {
+   "id": "food.egg-white",
+   "t": {
+    "en": "egg white",
+    "uk": "яєчний білок",
+    "ru": "яичный белок",
+    "pl": "białko",
+    "de": "Eiweiß",
+    "fr": "blanc d'œuf",
+    "es": "clara",
+    "it": "albume",
+    "pt": "clara",
+    "tr": "yumurta akı"
+   },
+   "ex": {
+    "en": "Whisk the egg whites until stiff."
+   }
+  },
+  {
+   "id": "food.antioxidants",
+   "t": {
+    "en": "antioxidants",
+    "uk": "антиоксиданти",
+    "ru": "антиоксиданты",
+    "pl": "przeciwutleniacze",
+    "de": "Antioxidantien",
+    "fr": "antioxydants",
+    "es": "antioxidantes",
+    "it": "antiossidanti",
+    "pt": "antioxidantes",
+    "tr": "antioksidanlar"
+   },
+   "ex": {
+    "en": "Berries are full of antioxidants."
+   }
+  },
+  {
+   "id": "food.superfood",
+   "t": {
+    "en": "superfood",
+    "uk": "суперфуд",
+    "ru": "суперфуд",
+    "pl": "superfood",
+    "de": "Superfood",
+    "fr": "superaliment",
+    "es": "superalimento",
+    "it": "supercibo",
+    "pt": "superalimento",
+    "tr": "süper gıda"
+   },
+   "ex": {
+    "en": "Kale is called a superfood."
+   }
+  },
+  {
+   "id": "food.gooey",
+   "t": {
+    "en": "gooey",
+    "uk": "липкий",
+    "ru": "липкий",
+    "pl": "lepki",
+    "de": "klebrig",
+    "fr": "coulant",
+    "es": "pegajoso",
+    "it": "appiccicoso",
+    "pt": "pegajoso",
+    "tr": "yapış yapış"
+   },
+   "ex": {
+    "en": "The brownies were warm and gooey."
+   }
+  },
+  {
+   "id": "food.refined-sugar",
+   "t": {
+    "en": "refined sugar",
+    "uk": "рафінований цукор",
+    "ru": "рафинированный сахар",
+    "pl": "cukier rafinowany",
+    "de": "raffinierter Zucker",
+    "fr": "sucre raffiné",
+    "es": "azúcar refinado",
+    "it": "zucchero raffinato",
+    "pt": "açúcar refinado",
+    "tr": "rafine şeker"
+   },
+   "ex": {
+    "en": "Try to avoid refined sugar."
+   }
+  },
+  {
+   "id": "food.sweetener",
+   "t": {
+    "en": "sweetener",
+    "uk": "підсолоджувач",
+    "ru": "подсластитель",
+    "pl": "słodzik",
+    "de": "Süßstoff",
+    "fr": "édulcorant",
+    "es": "edulcorante",
+    "it": "dolcificante",
+    "pt": "adoçante",
+    "tr": "tatlandırıcı"
+   },
+   "ex": {
+    "en": "I take sweetener in my coffee."
+   }
+  },
+  {
+   "id": "food.food-bank",
+   "t": {
+    "en": "food bank",
+    "uk": "продовольчий банк",
+    "ru": "продовольственный банк",
+    "pl": "bank żywności",
+    "de": "Tafel",
+    "fr": "banque alimentaire",
+    "es": "banco de alimentos",
+    "it": "banco alimentare",
+    "pt": "banco de alimentos",
+    "tr": "gıda bankası"
+   },
+   "ex": {
+    "en": "They donate tins to the food bank."
+   }
+  },
+  {
+   "id": "food.hygiene-rating",
+   "t": {
+    "en": "hygiene rating",
+    "uk": "рейтинг гігієни",
+    "ru": "рейтинг гигиены",
+    "pl": "ocena higieny",
+    "de": "Hygienebewertung",
+    "fr": "note d'hygiène",
+    "es": "calificación sanitaria",
+    "it": "valutazione igienica",
+    "pt": "classificação sanitária",
+    "tr": "hijyen puanı"
+   },
+   "ex": {
+    "en": "The café has a top hygiene rating."
+   }
+  },
+  {
+   "id": "food.best-before",
+   "t": {
+    "en": "best before",
+    "uk": "найкраще спожити до",
+    "ru": "лучше употребить до",
+    "pl": "najlepiej spożyć przed",
+    "de": "mindestens haltbar bis",
+    "fr": "à consommer de préférence avant",
+    "es": "consumir preferentemente antes de",
+    "it": "da consumarsi preferibilmente entro",
+    "pt": "consumir de preferência antes de",
+    "tr": "tavsiye edilen tüketim tarihi"
+   },
+   "ex": {
+    "en": "Check the best before date."
+   }
+  },
+  {
+   "id": "food.use-by-date",
+   "t": {
+    "en": "use-by date",
+    "uk": "спожити до",
+    "ru": "употребить до",
+    "pl": "należy spożyć do",
+    "de": "Verbrauchsdatum",
+    "fr": "date limite de consommation",
+    "es": "fecha de caducidad",
+    "it": "data di scadenza",
+    "pt": "data de validade",
+    "tr": "son tüketim tarihi"
+   },
+   "ex": {
+    "en": "The milk is past its use-by date."
+   }
+  },
+  {
+   "id": "food.vacuum-packed",
+   "t": {
+    "en": "vacuum-packed",
+    "uk": "у вакуумній упаковці",
+    "ru": "в вакуумной упаковке",
+    "pl": "pakowany próżniowo",
+    "de": "vakuumverpackt",
+    "fr": "emballé sous vide",
+    "es": "envasado al vacío",
+    "it": "sottovuoto",
+    "pt": "embalado a vácuo",
+    "tr": "vakumlu paketlenmiş"
+   },
+   "ex": {
+    "en": "The cheese is vacuum-packed."
+   }
+  },
+  {
+   "id": "food.airtight-container",
+   "t": {
+    "en": "airtight container",
+    "uk": "герметичний контейнер",
+    "ru": "герметичный контейнер",
+    "pl": "szczelny pojemnik",
+    "de": "luftdichter Behälter",
+    "fr": "récipient hermétique",
+    "es": "recipiente hermético",
+    "it": "contenitore ermetico",
+    "pt": "pote hermético",
+    "tr": "hava geçirmez kap"
+   },
+   "ex": {
+    "en": "Store biscuits in an airtight container."
+   }
+  },
+  {
+   "id": "food.cling-film",
+   "t": {
+    "en": "cling film",
+    "uk": "харчова плівка",
+    "ru": "пищевая плёнка",
+    "pl": "folia spożywcza",
+    "de": "Frischhaltefolie",
+    "fr": "film alimentaire",
+    "es": "film transparente",
+    "it": "pellicola trasparente",
+    "pt": "filme plástico",
+    "tr": "streç film"
+   },
+   "ex": {
+    "en": "Cover the bowl with cling film."
+   }
+  },
+  {
+   "id": "food.a-la-carte",
+   "t": {
+    "en": "à la carte",
+    "uk": "з меню",
+    "ru": "по меню",
+    "pl": "à la carte",
+    "de": "à la carte",
+    "fr": "à la carte",
+    "es": "a la carta",
+    "it": "alla carta",
+    "pt": "à la carte",
+    "tr": "alakart"
+   },
+   "ex": {
+    "en": "We ordered à la carte."
+   }
+  },
+  {
+   "id": "food.corkage",
+   "t": {
+    "en": "corkage",
+    "uk": "плата за відкорковування",
+    "ru": "пробковый сбор",
+    "pl": "korkowe",
+    "de": "Korkgeld",
+    "fr": "droit de bouchon",
+    "es": "descorche",
+    "it": "diritto di tappo",
+    "pt": "taxa de rolha",
+    "tr": "şişe açma ücreti"
+   },
+   "ex": {
+    "en": "They charge corkage on your own wine."
+   }
+  },
+  {
+   "id": "food.signature-dish",
+   "t": {
+    "en": "signature dish",
+    "uk": "фірмова страва",
+    "ru": "фирменное блюдо",
+    "pl": "popisowe danie",
+    "de": "Spezialität des Hauses",
+    "fr": "plat signature",
+    "es": "plato estrella",
+    "it": "piatto forte",
+    "pt": "carro-chefe",
+    "tr": "imza yemeği"
+   },
+   "ex": {
+    "en": "Try the chef's signature dish."
+   }
+  },
+  {
+   "id": "food.comfort-food",
+   "t": {
+    "en": "comfort food",
+    "uk": "їжа для душі",
+    "ru": "еда для души",
+    "pl": "jedzenie na pocieszenie",
+    "de": "Wohlfühlessen",
+    "fr": "plat réconfortant",
+    "es": "comida reconfortante",
+    "it": "cibo consolatorio",
+    "pt": "comida afetiva",
+    "tr": "içini ısıtan yemek"
+   },
+   "ex": {
+    "en": "Mac and cheese is my comfort food."
+   }
+  },
+  {
+   "id": "food.finger-food",
+   "t": {
+    "en": "finger food",
+    "uk": "фуршетні закуски",
+    "ru": "фуршетные закуски",
+    "pl": "przekąski",
+    "de": "Fingerfood",
+    "fr": "bouchées",
+    "es": "comida para picar",
+    "it": "stuzzichini",
+    "pt": "petiscos",
+    "tr": "kokteyl yiyecekleri"
+   },
+   "ex": {
+    "en": "We served finger food at the party."
+   }
+  },
+  {
+   "id": "food.aperitif",
+   "t": {
+    "en": "aperitif",
+    "uk": "аперитив",
+    "ru": "аперитив",
+    "pl": "aperitif",
+    "de": "Aperitif",
+    "fr": "apéritif",
+    "es": "aperitivo",
+    "it": "aperitivo",
+    "pt": "aperitivo",
+    "tr": "aperatif"
+   },
+   "ex": {
+    "en": "Shall we have an aperitif first?"
+   }
+  },
+  {
+   "id": "food.full-bodied",
+   "t": {
+    "en": "full-bodied",
+    "uk": "насичений",
+    "ru": "насыщенный",
+    "pl": "treściwy",
+    "de": "vollmundig",
+    "fr": "corsé",
+    "es": "con cuerpo",
+    "it": "corposo",
+    "pt": "encorpado",
+    "tr": "gövdeli"
+   },
+   "ex": {
+    "en": "I prefer a full-bodied red."
+   }
+  },
+  {
+   "id": "food.crumbly",
+   "t": {
+    "en": "crumbly",
+    "uk": "розсипчастий",
+    "ru": "рассыпчатый",
+    "pl": "kruchy",
+    "de": "krümelig",
+    "fr": "friable",
+    "es": "desmenuzable",
+    "it": "friabile",
+    "pt": "esfarelento",
+    "tr": "ufalanan"
+   },
+   "ex": {
+    "en": "This cheese is soft and crumbly."
+   }
+  },
+  {
+   "id": "food.flaky",
+   "t": {
+    "en": "flaky",
+    "uk": "шаруватий",
+    "ru": "слоистый",
+    "pl": "listkowy",
+    "de": "blättrig",
+    "fr": "feuilleté",
+    "es": "hojaldrado",
+    "it": "sfogliato",
+    "pt": "folhado",
+    "tr": "kat kat"
+   },
+   "ex": {
+    "en": "Croissants have flaky pastry."
+   }
+  },
+  {
+   "id": "food.tangy",
+   "t": {
+    "en": "tangy",
+    "uk": "з кислинкою",
+    "ru": "с кислинкой",
+    "pl": "kwaskowy",
+    "de": "säuerlich",
+    "fr": "acidulé",
+    "es": "acidulado",
+    "it": "acidulo",
+    "pt": "azedinho",
+    "tr": "ekşimsi"
+   },
+   "ex": {
+    "en": "The sauce has a tangy flavour."
+   }
+  },
+  {
+   "id": "food.smoky",
+   "t": {
+    "en": "smoky",
+    "uk": "з димком",
+    "ru": "с дымком",
+    "pl": "dymny",
+    "de": "rauchig",
+    "fr": "au goût fumé",
+    "es": "con sabor ahumado",
+    "it": "dal sapore affumicato",
+    "pt": "com sabor defumado",
+    "tr": "isli"
+   },
+   "ex": {
+    "en": "I love the smoky taste of barbecue."
+   }
+  },
+  {
+   "id": "food.fluffy",
+   "t": {
+    "en": "fluffy",
+    "uk": "пухкий",
+    "ru": "пышный",
+    "pl": "puszysty",
+    "de": "fluffig",
+    "fr": "moelleux",
+    "es": "esponjoso",
+    "it": "soffice",
+    "pt": "fofo",
+    "tr": "kabarık"
+   },
+   "ex": {
+    "en": "The pancakes were light and fluffy."
+   }
+  },
+  {
+   "id": "food.stodgy",
+   "t": {
+    "en": "stodgy",
+    "uk": "важкий для шлунку",
+    "ru": "тяжёлый для желудка",
+    "pl": "ciężkostrawny",
+    "de": "schwer verdaulich",
+    "fr": "bourratif",
+    "es": "pesado",
+    "it": "pesante",
+    "pt": "pesado",
+    "tr": "ağır"
+   },
+   "ex": {
+    "en": "School dinners were stodgy."
+   }
+  },
+  {
+   "id": "food.velvety",
+   "t": {
+    "en": "velvety",
+    "uk": "оксамитовий",
+    "ru": "бархатистый",
+    "pl": "aksamitny",
+    "de": "samtig",
+    "fr": "velouté",
+    "es": "aterciopelado",
+    "it": "vellutato",
+    "pt": "aveludado",
+    "tr": "kadifemsi"
+   },
+   "ex": {
+    "en": "The soup had a velvety texture."
+   }
+  },
+  {
+   "id": "food.to-overeat",
+   "t": {
+    "en": "to overeat",
+    "uk": "переїдати",
+    "ru": "переедать",
+    "pl": "przejadać się",
+    "de": "zu viel essen",
+    "fr": "trop manger",
+    "es": "comer en exceso",
+    "it": "mangiare troppo",
+    "pt": "comer demais",
+    "tr": "aşırı yemek"
+   },
+   "ex": {
+    "en": "It's easy to overeat at holidays."
+   }
+  },
+  {
+   "id": "food.meal-prep",
+   "t": {
+    "en": "meal prep",
+    "uk": "приготування їжі наперед",
+    "ru": "приготовление еды заранее",
+    "pl": "przygotowywanie posiłków",
+    "de": "Meal Prep",
+    "fr": "préparation des repas",
+    "es": "preparar las comidas",
+    "it": "preparazione dei pasti",
+    "pt": "preparo de marmitas",
+    "tr": "önceden yemek hazırlama"
+   },
+   "ex": {
+    "en": "I do my meal prep on Sundays."
+   }
+  },
+  {
+   "id": "food.regional-cuisine",
+   "t": {
+    "en": "regional cuisine",
+    "uk": "регіональна кухня",
+    "ru": "региональная кухня",
+    "pl": "kuchnia regionalna",
+    "de": "regionale Küche",
+    "fr": "cuisine régionale",
+    "es": "cocina regional",
+    "it": "cucina regionale",
+    "pt": "culinária regional",
+    "tr": "yöresel mutfak"
+   },
+   "ex": {
+    "en": "We love trying regional cuisine."
+   }
+  },
+  {
+   "id": "food.to-grab-a-bite",
+   "t": {
+    "en": "to grab a bite",
+    "uk": "перекусити",
+    "ru": "перекусить",
+    "pl": "przekąsić coś",
+    "de": "eine Kleinigkeit essen",
+    "fr": "manger un morceau",
+    "es": "picar algo",
+    "it": "mangiare un boccone",
+    "pt": "comer alguma coisa",
+    "tr": "bir şeyler atıştırmak"
+   },
+   "ex": {
+    "en": "Let's grab a bite before the film."
+   }
+  },
+  {
+   "id": "food.to-pig-out",
+   "t": {
+    "en": "to pig out",
+    "uk": "об'їдатися",
+    "ru": "обжираться",
+    "pl": "obżerać się",
+    "de": "sich vollstopfen",
+    "fr": "s'empiffrer",
+    "es": "ponerse las botas",
+    "it": "abbuffarsi",
+    "pt": "se empanturrar",
+    "tr": "tıkınmak"
+   },
+   "ex": {
+    "en": "We pigged out on pizza."
+   }
+  },
+  {
+   "id": "food.to-cater-for",
+   "t": {
+    "en": "to cater for",
+    "uk": "обслуговувати банкет",
+    "ru": "обслуживать банкет",
+    "pl": "zapewniać catering",
+    "de": "bewirten",
+    "fr": "assurer le traiteur",
+    "es": "dar servicio de catering",
+    "it": "fornire il catering",
+    "pt": "fornecer bufê",
+    "tr": "yemek hizmeti vermek"
+   },
+   "ex": {
+    "en": "They cater for weddings and parties."
+   }
+  },
+  {
+   "id": "food.free-range",
+   "t": {
+    "en": "free-range",
+    "uk": "вільного вигулу",
+    "ru": "свободного выгула",
+    "pl": "z wolnego wybiegu",
+    "de": "aus Freilandhaltung",
+    "fr": "élevé en plein air",
+    "es": "de corral",
+    "it": "allevato all'aperto",
+    "pt": "caipira",
+    "tr": "serbest gezen"
+   },
+   "ex": {
+    "en": "We only buy free-range eggs."
+   }
+  },
+  {
+   "id": "food.locally-grown",
+   "t": {
+    "en": "locally grown",
+    "uk": "місцевого вирощування",
+    "ru": "местного производства",
+    "pl": "z lokalnych upraw",
+    "de": "regional angebaut",
+    "fr": "cultivé localement",
+    "es": "de cultivo local",
+    "it": "coltivato localmente",
+    "pt": "cultivado localmente",
+    "tr": "yerel olarak yetiştirilmiş"
+   },
+   "ex": {
+    "en": "We buy locally grown vegetables."
+   }
+  },
+  {
+   "id": "food.canapes",
+   "t": {
+    "en": "canapés",
+    "uk": "канапе",
+    "ru": "канапе",
+    "pl": "kanapki koktajlowe",
+    "de": "Häppchen",
+    "fr": "canapés",
+    "es": "canapés",
+    "it": "tartine",
+    "pt": "canapés",
+    "tr": "kanepe"
+   },
+   "ex": {
+    "en": "Waiters served canapés and champagne."
+   }
+  },
+  {
+   "id": "food.in-season",
+   "t": {
+    "en": "in season",
+    "uk": "у сезон",
+    "ru": "в сезон",
+    "pl": "w sezonie",
+    "de": "Saison haben",
+    "fr": "de saison",
+    "es": "de temporada",
+    "it": "di stagione",
+    "pt": "da estação",
+    "tr": "mevsiminde"
+   },
+   "ex": {
+    "en": "Strawberries are in season now."
    }
   }
  ]

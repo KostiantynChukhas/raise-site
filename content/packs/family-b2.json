@@ -2,7 +2,7 @@
  "id": "family-b2",
  "topic": "family",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "family.extended-family",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "My stepbrother moved in last year."
+   }
+  },
+  {
+   "id": "family.blended-family",
+   "t": {
+    "en": "blended family",
+    "uk": "змішана родина",
+    "ru": "смешанная семья",
+    "pl": "rodzina patchworkowa",
+    "de": "Patchworkfamilie",
+    "fr": "famille recomposée",
+    "es": "familia reconstituida",
+    "it": "famiglia allargata",
+    "pt": "família reconstituída",
+    "tr": "karma aile"
+   },
+   "ex": {
+    "en": "They are a happy blended family."
+   }
+  },
+  {
+   "id": "family.foster-family",
+   "t": {
+    "en": "foster family",
+    "uk": "прийомна сім'я",
+    "ru": "приёмная семья",
+    "pl": "rodzina zastępcza",
+    "de": "Pflegefamilie",
+    "fr": "famille d'accueil",
+    "es": "familia de acogida",
+    "it": "famiglia affidataria",
+    "pt": "família acolhedora",
+    "tr": "koruyucu aile"
+   },
+   "ex": {
+    "en": "She lives with a foster family."
+   }
+  },
+  {
+   "id": "family.to-foster",
+   "t": {
+    "en": "to foster",
+    "uk": "брати на виховання",
+    "ru": "брать на воспитание",
+    "pl": "wychowywać w rodzinie zastępczej",
+    "de": "in Pflege nehmen",
+    "fr": "accueillir un enfant",
+    "es": "acoger",
+    "it": "prendere in affido",
+    "pt": "acolher",
+    "tr": "koruyucu aile olmak"
+   },
+   "ex": {
+    "en": "They foster two boys."
+   }
+  },
+  {
+   "id": "family.adoptive-parents",
+   "t": {
+    "en": "adoptive parents",
+    "uk": "прийомні батьки",
+    "ru": "приёмные родители",
+    "pl": "rodzice adopcyjni",
+    "de": "Adoptiveltern",
+    "fr": "parents adoptifs",
+    "es": "padres adoptivos",
+    "it": "genitori adottivi",
+    "pt": "pais adotivos",
+    "tr": "evlat edinen ebeveynler"
+   },
+   "ex": {
+    "en": "He loves his adoptive parents."
+   }
+  },
+  {
+   "id": "family.birth-parents",
+   "t": {
+    "en": "birth parents",
+    "uk": "біологічні батьки",
+    "ru": "биологические родители",
+    "pl": "rodzice biologiczni",
+    "de": "leibliche Eltern",
+    "fr": "parents biologiques",
+    "es": "padres biológicos",
+    "it": "genitori biologici",
+    "pt": "pais biológicos",
+    "tr": "öz anne baba"
+   },
+   "ex": {
+    "en": "She found her birth parents."
+   }
+  },
+  {
+   "id": "family.dependants",
+   "t": {
+    "en": "dependants",
+    "uk": "утриманці",
+    "ru": "иждивенцы",
+    "pl": "osoby na utrzymaniu",
+    "de": "Unterhaltsberechtigte",
+    "fr": "personnes à charge",
+    "es": "personas a cargo",
+    "it": "persone a carico",
+    "pt": "dependentes",
+    "tr": "bakmakla yükümlü olunan kişiler"
+   },
+   "ex": {
+    "en": "How many dependants do you have?"
+   }
+  },
+  {
+   "id": "family.childcare",
+   "t": {
+    "en": "childcare",
+    "uk": "догляд за дітьми",
+    "ru": "уход за детьми",
+    "pl": "opieka nad dziećmi",
+    "de": "Kinderbetreuung",
+    "fr": "garde d'enfants",
+    "es": "cuidado infantil",
+    "it": "assistenza all'infanzia",
+    "pt": "cuidado infantil",
+    "tr": "çocuk bakımı"
+   },
+   "ex": {
+    "en": "Childcare is very expensive."
+   }
+  },
+  {
+   "id": "family.family-planning",
+   "t": {
+    "en": "family planning",
+    "uk": "планування сім'ї",
+    "ru": "планирование семьи",
+    "pl": "planowanie rodziny",
+    "de": "Familienplanung",
+    "fr": "planning familial",
+    "es": "planificación familiar",
+    "it": "pianificazione familiare",
+    "pt": "planejamento familiar",
+    "tr": "aile planlaması"
+   },
+   "ex": {
+    "en": "The clinic offers family planning."
+   }
+  },
+  {
+   "id": "family.to-conceive",
+   "t": {
+    "en": "to conceive",
+    "uk": "завагітніти",
+    "ru": "забеременеть",
+    "pl": "zajść w ciążę",
+    "de": "schwanger werden",
+    "fr": "concevoir",
+    "es": "concebir",
+    "it": "concepire",
+    "pt": "conceber",
+    "tr": "hamile kalmak"
+   },
+   "ex": {
+    "en": "They tried to conceive for years."
+   }
+  },
+  {
+   "id": "family.maternity-ward",
+   "t": {
+    "en": "maternity ward",
+    "uk": "пологове відділення",
+    "ru": "родильное отделение",
+    "pl": "oddział położniczy",
+    "de": "Entbindungsstation",
+    "fr": "service de maternité",
+    "es": "planta de maternidad",
+    "it": "reparto maternità",
+    "pt": "maternidade",
+    "tr": "doğumhane"
+   },
+   "ex": {
+    "en": "The baby was born in the maternity ward."
+   }
+  },
+  {
+   "id": "family.pram",
+   "t": {
+    "en": "pram",
+    "uk": "дитячий візок",
+    "ru": "детская коляска",
+    "pl": "wózek dziecięcy",
+    "de": "Kinderwagen",
+    "fr": "landau",
+    "es": "cochecito",
+    "it": "carrozzina",
+    "pt": "carrinho de bebê",
+    "tr": "bebek arabası"
+   },
+   "ex": {
+    "en": "She pushed the pram to the park."
+   }
+  },
+  {
+   "id": "family.cot",
+   "t": {
+    "en": "cot",
+    "uk": "дитяче ліжечко",
+    "ru": "детская кроватка",
+    "pl": "łóżeczko",
+    "de": "Kinderbett",
+    "fr": "lit de bébé",
+    "es": "cuna",
+    "it": "lettino",
+    "pt": "berço",
+    "tr": "bebek karyolası"
+   },
+   "ex": {
+    "en": "The baby is asleep in his cot."
+   }
+  },
+  {
+   "id": "family.nappy",
+   "t": {
+    "en": "nappy",
+    "uk": "підгузок",
+    "ru": "подгузник",
+    "pl": "pielucha",
+    "de": "Windel",
+    "fr": "couche",
+    "es": "pañal",
+    "it": "pannolino",
+    "pt": "fralda",
+    "tr": "bebek bezi"
+   },
+   "ex": {
+    "en": "Can you change the nappy?"
+   }
+  },
+  {
+   "id": "family.pacifier",
+   "t": {
+    "en": "pacifier",
+    "uk": "соска",
+    "ru": "пустышка",
+    "pl": "smoczek",
+    "de": "Schnuller",
+    "fr": "tétine",
+    "es": "chupete",
+    "it": "ciuccio",
+    "pt": "chupeta",
+    "tr": "emzik"
+   },
+   "ex": {
+    "en": "The baby dropped his pacifier."
+   }
+  },
+  {
+   "id": "family.to-breastfeed",
+   "t": {
+    "en": "to breastfeed",
+    "uk": "годувати грудьми",
+    "ru": "кормить грудью",
+    "pl": "karmić piersią",
+    "de": "stillen",
+    "fr": "allaiter",
+    "es": "amamantar",
+    "it": "allattare",
+    "pt": "amamentar",
+    "tr": "emzirmek"
+   },
+   "ex": {
+    "en": "She breastfed for six months."
+   }
+  },
+  {
+   "id": "family.to-throw-a-tantrum",
+   "t": {
+    "en": "to throw a tantrum",
+    "uk": "влаштовувати істерику",
+    "ru": "закатывать истерику",
+    "pl": "dostać napadu złości",
+    "de": "einen Wutanfall bekommen",
+    "fr": "faire une crise",
+    "es": "coger una rabieta",
+    "it": "fare i capricci",
+    "pt": "fazer birra",
+    "tr": "öfke nöbeti geçirmek"
+   },
+   "ex": {
+    "en": "Toddlers often throw tantrums."
+   }
+  },
+  {
+   "id": "family.family-resemblance",
+   "t": {
+    "en": "family resemblance",
+    "uk": "сімейна схожість",
+    "ru": "семейное сходство",
+    "pl": "rodzinne podobieństwo",
+    "de": "Familienähnlichkeit",
+    "fr": "air de famille",
+    "es": "parecido familiar",
+    "it": "somiglianza di famiglia",
+    "pt": "semelhança familiar",
+    "tr": "aile benzerliği"
+   },
+   "ex": {
+    "en": "There's a strong family resemblance."
+   }
+  },
+  {
+   "id": "family.to-go-grey",
+   "t": {
+    "en": "to go grey",
+    "uk": "сивіти",
+    "ru": "седеть",
+    "pl": "siwieć",
+    "de": "grau werden",
+    "fr": "grisonner",
+    "es": "encanecer",
+    "it": "ingrigire",
+    "pt": "ficar grisalho",
+    "tr": "saçları ağarmak"
+   },
+   "ex": {
+    "en": "Dad started to go grey at 40."
+   }
+  },
+  {
+   "id": "family.ageing",
+   "t": {
+    "en": "ageing",
+    "uk": "старіння",
+    "ru": "старение",
+    "pl": "starzenie się",
+    "de": "Altern",
+    "fr": "vieillissement",
+    "es": "envejecimiento",
+    "it": "invecchiamento",
+    "pt": "envelhecimento",
+    "tr": "yaşlanma"
+   },
+   "ex": {
+    "en": "Ageing is a natural process."
+   }
+  },
+  {
+   "id": "family.nursing-home",
+   "t": {
+    "en": "nursing home",
+    "uk": "будинок для літніх людей",
+    "ru": "дом престарелых",
+    "pl": "dom opieki",
+    "de": "Pflegeheim",
+    "fr": "maison de retraite",
+    "es": "residencia de ancianos",
+    "it": "casa di riposo",
+    "pt": "casa de repouso",
+    "tr": "huzurevi"
+   },
+   "ex": {
+    "en": "Grandma lives in a nursing home."
+   }
+  },
+  {
+   "id": "family.carer",
+   "t": {
+    "en": "carer",
+    "uk": "доглядальник",
+    "ru": "сиделка",
+    "pl": "opiekun",
+    "de": "Pfleger",
+    "fr": "aidant",
+    "es": "cuidador",
+    "it": "badante",
+    "pt": "cuidador",
+    "tr": "bakıcı"
+   },
+   "ex": {
+    "en": "She's a full-time carer for her mother."
+   }
+  },
+  {
+   "id": "family.close-knit",
+   "t": {
+    "en": "close-knit",
+    "uk": "згуртований",
+    "ru": "сплочённый",
+    "pl": "zżyty",
+    "de": "eng verbunden",
+    "fr": "très uni",
+    "es": "unido",
+    "it": "unito",
+    "pt": "unido",
+    "tr": "birbirine bağlı"
+   },
+   "ex": {
+    "en": "We're a close-knit family."
+   }
+  },
+  {
+   "id": "family.dysfunctional",
+   "t": {
+    "en": "dysfunctional",
+    "uk": "неблагополучний",
+    "ru": "неблагополучный",
+    "pl": "dysfunkcyjny",
+    "de": "dysfunktional",
+    "fr": "dysfonctionnel",
+    "es": "desestructurado",
+    "it": "disfunzionale",
+    "pt": "disfuncional",
+    "tr": "sorunlu"
+   },
+   "ex": {
+    "en": "He grew up in a dysfunctional family."
+   }
+  },
+  {
+   "id": "family.protective",
+   "t": {
+    "en": "protective",
+    "uk": "опікливий",
+    "ru": "оберегающий",
+    "pl": "opiekuńczy",
+    "de": "beschützend",
+    "fr": "protecteur",
+    "es": "protector",
+    "it": "protettivo",
+    "pt": "protetor",
+    "tr": "koruyucu"
+   },
+   "ex": {
+    "en": "He's very protective of his sister."
+   }
+  },
+  {
+   "id": "family.permissive",
+   "t": {
+    "en": "permissive",
+    "uk": "поблажливий",
+    "ru": "попустительский",
+    "pl": "pobłażliwy",
+    "de": "nachgiebig",
+    "fr": "permissif",
+    "es": "permisivo",
+    "it": "permissivo",
+    "pt": "permissivo",
+    "tr": "müsamahakâr"
+   },
+   "ex": {
+    "en": "They were permissive parents."
+   }
+  },
+  {
+   "id": "family.lenient",
+   "t": {
+    "en": "lenient",
+    "uk": "м'який",
+    "ru": "мягкий",
+    "pl": "łagodny",
+    "de": "nachsichtig",
+    "fr": "indulgent",
+    "es": "indulgente",
+    "it": "indulgente",
+    "pt": "brando",
+    "tr": "hoşgörülü"
+   },
+   "ex": {
+    "en": "Grandparents are often lenient."
+   }
+  },
+  {
+   "id": "family.badly-behaved",
+   "t": {
+    "en": "badly behaved",
+    "uk": "погано вихований",
+    "ru": "невоспитанный",
+    "pl": "niegrzeczny",
+    "de": "unartig",
+    "fr": "mal élevé",
+    "es": "maleducado",
+    "it": "maleducato",
+    "pt": "mal-educado",
+    "tr": "terbiyesiz"
+   },
+   "ex": {
+    "en": "The badly behaved boy was sent out."
+   }
+  },
+  {
+   "id": "family.cheeky",
+   "t": {
+    "en": "cheeky",
+    "uk": "зухвалий",
+    "ru": "дерзкий",
+    "pl": "bezczelny",
+    "de": "frech",
+    "fr": "effronté",
+    "es": "descarado",
+    "it": "sfacciato",
+    "pt": "atrevido",
+    "tr": "arsız"
+   },
+   "ex": {
+    "en": "Don't be cheeky to your mother!"
+   }
+  },
+  {
+   "id": "family.rebellious",
+   "t": {
+    "en": "rebellious",
+    "uk": "бунтівний",
+    "ru": "бунтарский",
+    "pl": "zbuntowany",
+    "de": "rebellisch",
+    "fr": "rebelle",
+    "es": "rebelde",
+    "it": "ribelle",
+    "pt": "rebelde",
+    "tr": "asi"
+   },
+   "ex": {
+    "en": "He was a rebellious teenager."
+   }
+  },
+  {
+   "id": "family.obedient",
+   "t": {
+    "en": "obedient",
+    "uk": "слухняний",
+    "ru": "послушный",
+    "pl": "posłuszny",
+    "de": "gehorsam",
+    "fr": "obéissant",
+    "es": "obediente",
+    "it": "obbediente",
+    "pt": "obediente",
+    "tr": "itaatkâr"
+   },
+   "ex": {
+    "en": "The dog is very obedient."
+   }
+  },
+  {
+   "id": "family.disobedient",
+   "t": {
+    "en": "disobedient",
+    "uk": "неслухняний",
+    "ru": "непослушный",
+    "pl": "nieposłuszny",
+    "de": "ungehorsam",
+    "fr": "désobéissant",
+    "es": "desobediente",
+    "it": "disobbediente",
+    "pt": "desobediente",
+    "tr": "itaatsiz"
+   },
+   "ex": {
+    "en": "A disobedient child needs patience."
+   }
+  },
+  {
+   "id": "family.last-will",
+   "t": {
+    "en": "last will",
+    "uk": "заповіт",
+    "ru": "завещание",
+    "pl": "testament",
+    "de": "Testament",
+    "fr": "testament",
+    "es": "testamento",
+    "it": "testamento",
+    "pt": "testamento",
+    "tr": "vasiyet"
+   },
+   "ex": {
+    "en": "He left everything in his last will."
+   }
+  },
+  {
+   "id": "family.surrogacy",
+   "t": {
+    "en": "surrogacy",
+    "uk": "сурогатне материнство",
+    "ru": "суррогатное материнство",
+    "pl": "macierzyństwo zastępcze",
+    "de": "Leihmutterschaft",
+    "fr": "gestation pour autrui",
+    "es": "gestación subrogada",
+    "it": "maternità surrogata",
+    "pt": "barriga de aluguel",
+    "tr": "taşıyıcı annelik"
+   },
+   "ex": {
+    "en": "Surrogacy is legal in some countries."
+   }
+  },
+  {
+   "id": "family.elderly-care",
+   "t": {
+    "en": "elderly care",
+    "uk": "догляд за літніми людьми",
+    "ru": "уход за пожилыми",
+    "pl": "opieka nad osobami starszymi",
+    "de": "Altenpflege",
+    "fr": "soins aux personnes âgées",
+    "es": "cuidado de mayores",
+    "it": "assistenza agli anziani",
+    "pt": "cuidado de idosos",
+    "tr": "yaşlı bakımı"
+   },
+   "ex": {
+    "en": "Elderly care is a big issue."
+   }
+  },
+  {
+   "id": "family.to-care-for",
+   "t": {
+    "en": "to care for",
+    "uk": "доглядати",
+    "ru": "ухаживать за",
+    "pl": "pielęgnować",
+    "de": "pflegen",
+    "fr": "prendre soin de",
+    "es": "cuidar a",
+    "it": "accudire",
+    "pt": "cuidar de",
+    "tr": "bakmak"
+   },
+   "ex": {
+    "en": "She cares for her sick father."
+   }
+  },
+  {
+   "id": "family.maternal-instinct",
+   "t": {
+    "en": "maternal instinct",
+    "uk": "материнський інстинкт",
+    "ru": "материнский инстинкт",
+    "pl": "instynkt macierzyński",
+    "de": "Mutterinstinkt",
+    "fr": "instinct maternel",
+    "es": "instinto maternal",
+    "it": "istinto materno",
+    "pt": "instinto materno",
+    "tr": "annelik içgüdüsü"
+   },
+   "ex": {
+    "en": "She has a strong maternal instinct."
+   }
+  },
+  {
+   "id": "family.childless",
+   "t": {
+    "en": "childless",
+    "uk": "бездітний",
+    "ru": "бездетный",
+    "pl": "bezdzietny",
+    "de": "kinderlos",
+    "fr": "sans enfants",
+    "es": "sin hijos",
+    "it": "senza figli",
+    "pt": "sem filhos",
+    "tr": "çocuksuz"
+   },
+   "ex": {
+    "en": "They were childless for years."
+   }
+  },
+  {
+   "id": "family.to-wean",
+   "t": {
+    "en": "to wean",
+    "uk": "відлучати від грудей",
+    "ru": "отнимать от груди",
+    "pl": "odstawiać od piersi",
+    "de": "abstillen",
+    "fr": "sevrer",
+    "es": "destetar",
+    "it": "svezzare",
+    "pt": "desmamar",
+    "tr": "sütten kesmek"
+   },
+   "ex": {
+    "en": "We weaned the baby at a year old."
+   }
+  },
+  {
+   "id": "family.family-background",
+   "t": {
+    "en": "family background",
+    "uk": "походження",
+    "ru": "происхождение",
+    "pl": "pochodzenie",
+    "de": "familiärer Hintergrund",
+    "fr": "milieu familial",
+    "es": "entorno familiar",
+    "it": "ambiente familiare",
+    "pt": "origem familiar",
+    "tr": "aile geçmişi"
+   },
+   "ex": {
+    "en": "She comes from a poor family background."
+   }
+  },
+  {
+   "id": "family.teenage-years",
+   "t": {
+    "en": "teenage years",
+    "uk": "підліткові роки",
+    "ru": "подростковые годы",
+    "pl": "lata nastoletnie",
+    "de": "Teenagerjahre",
+    "fr": "années d'adolescence",
+    "es": "años de adolescencia",
+    "it": "anni dell'adolescenza",
+    "pt": "anos de adolescência",
+    "tr": "ergenlik yılları"
+   },
+   "ex": {
+    "en": "My teenage years were fun."
+   }
+  },
+  {
+   "id": "family.age-gap",
+   "t": {
+    "en": "age gap",
+    "uk": "різниця у віці",
+    "ru": "разница в возрасте",
+    "pl": "różnica wieku",
+    "de": "Altersunterschied",
+    "fr": "écart d'âge",
+    "es": "diferencia de edad",
+    "it": "differenza d'età",
+    "pt": "diferença de idade",
+    "tr": "yaş farkı"
+   },
+   "ex": {
+    "en": "There's a big age gap between them."
+   }
+  },
+  {
+   "id": "family.parenting",
+   "t": {
+    "en": "parenting",
+    "uk": "виховання дітей",
+    "ru": "воспитание детей",
+    "pl": "wychowywanie dzieci",
+    "de": "Kindererziehung",
+    "fr": "éducation des enfants",
+    "es": "crianza",
+    "it": "educazione dei figli",
+    "pt": "criação dos filhos",
+    "tr": "ebeveynlik"
+   },
+   "ex": {
+    "en": "Parenting is a full-time job."
+   }
+  },
+  {
+   "id": "family.family-friendly",
+   "t": {
+    "en": "family-friendly",
+    "uk": "сімейний",
+    "ru": "подходящий для семей",
+    "pl": "przyjazny rodzinom",
+    "de": "familienfreundlich",
+    "fr": "familial",
+    "es": "apto para familias",
+    "it": "adatto alle famiglie",
+    "pt": "para toda a família",
+    "tr": "aileye uygun"
+   },
+   "ex": {
+    "en": "It's a family-friendly hotel."
+   }
+  },
+  {
+   "id": "family.stay-at-home-mum",
+   "t": {
+    "en": "stay-at-home mum",
+    "uk": "мама в декреті",
+    "ru": "мама в декрете",
+    "pl": "mama na pełen etat",
+    "de": "Hausfrau und Mutter",
+    "fr": "mère au foyer",
+    "es": "madre ama de casa",
+    "it": "mamma casalinga",
+    "pt": "mãe dona de casa",
+    "tr": "ev hanımı anne"
+   },
+   "ex": {
+    "en": "She chose to be a stay-at-home mum."
+   }
+  },
+  {
+   "id": "family.to-discipline",
+   "t": {
+    "en": "to discipline",
+    "uk": "привчати до дисципліни",
+    "ru": "приучать к дисциплине",
+    "pl": "dyscyplinować",
+    "de": "disziplinieren",
+    "fr": "discipliner",
+    "es": "disciplinar",
+    "it": "disciplinare",
+    "pt": "disciplinar",
+    "tr": "disipline etmek"
+   },
+   "ex": {
+    "en": "It's hard to discipline a toddler."
+   }
+  },
+  {
+   "id": "family.family-dynamics",
+   "t": {
+    "en": "family dynamics",
+    "uk": "сімейна динаміка",
+    "ru": "семейная динамика",
+    "pl": "dynamika rodziny",
+    "de": "Familiendynamik",
+    "fr": "dynamique familiale",
+    "es": "dinámica familiar",
+    "it": "dinamiche familiari",
+    "pt": "dinâmica familiar",
+    "tr": "aile dinamikleri"
+   },
+   "ex": {
+    "en": "A new baby changes family dynamics."
+   }
+  },
+  {
+   "id": "family.ageing-parents",
+   "t": {
+    "en": "ageing parents",
+    "uk": "літні батьки",
+    "ru": "стареющие родители",
+    "pl": "starzejący się rodzice",
+    "de": "alternde Eltern",
+    "fr": "parents vieillissants",
+    "es": "padres mayores",
+    "it": "genitori anziani",
+    "pt": "pais idosos",
+    "tr": "yaşlanan ebeveynler"
+   },
+   "ex": {
+    "en": "She looks after her ageing parents."
+   }
+  },
+  {
+   "id": "family.teething",
+   "t": {
+    "en": "teething",
+    "uk": "прорізування зубів",
+    "ru": "прорезывание зубов",
+    "pl": "ząbkowanie",
+    "de": "Zahnen",
+    "fr": "poussée dentaire",
+    "es": "dentición",
+    "it": "dentizione",
+    "pt": "dentição",
+    "tr": "diş çıkarma"
+   },
+   "ex": {
+    "en": "The baby is cranky from teething."
+   }
+  },
+  {
+   "id": "family.potty-training",
+   "t": {
+    "en": "potty training",
+    "uk": "привчання до горщика",
+    "ru": "приучение к горшку",
+    "pl": "nauka korzystania z nocnika",
+    "de": "Töpfchentraining",
+    "fr": "apprentissage de la propreté",
+    "es": "dejar el pañal",
+    "it": "spannolinamento",
+    "pt": "desfralde",
+    "tr": "tuvalet eğitimi"
+   },
+   "ex": {
+    "en": "Potty training takes patience."
+   }
+  },
+  {
+   "id": "family.au-pair",
+   "t": {
+    "en": "au pair",
+    "uk": "няня по обміну",
+    "ru": "няня по обмену",
+    "pl": "opiekunka au pair",
+    "de": "Au-pair",
+    "fr": "jeune fille au pair",
+    "es": "au pair",
+    "it": "ragazza alla pari",
+    "pt": "au pair",
+    "tr": "au pair"
+   },
+   "ex": {
+    "en": "Our au pair is from Spain."
    }
   }
  ]

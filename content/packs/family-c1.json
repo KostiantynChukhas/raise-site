@@ -2,7 +2,7 @@
  "id": "family-c1",
  "topic": "family",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "family.next-of-kin",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Her grandfather is small but wiry."
+   }
+  },
+  {
+   "id": "family.progeny",
+   "t": {
+    "en": "progeny",
+    "uk": "нащадки",
+    "ru": "потомство",
+    "pl": "potomstwo",
+    "de": "Nachkommenschaft",
+    "fr": "progéniture",
+    "es": "progenie",
+    "it": "progenie",
+    "pt": "prole",
+    "tr": "zürriyet"
+   },
+   "ex": {
+    "en": "He was proud of his progeny."
+   }
+  },
+  {
+   "id": "family.kin",
+   "t": {
+    "en": "kin",
+    "uk": "рідня",
+    "ru": "родня",
+    "pl": "krewni",
+    "de": "Verwandtschaft",
+    "fr": "parenté",
+    "es": "parientes",
+    "it": "parenti",
+    "pt": "parentes",
+    "tr": "akraba"
+   },
+   "ex": {
+    "en": "She has no kin left."
+   }
+  },
+  {
+   "id": "family.kith-and-kin",
+   "t": {
+    "en": "kith and kin",
+    "uk": "рідні та близькі",
+    "ru": "родные и близкие",
+    "pl": "bliscy i krewni",
+    "de": "Freunde und Verwandte",
+    "fr": "parents et amis",
+    "es": "familiares y amigos",
+    "it": "parenti e amici",
+    "pt": "parentes e amigos",
+    "tr": "eş dost"
+   },
+   "ex": {
+    "en": "He invited all his kith and kin."
+   }
+  },
+  {
+   "id": "family.blood-relative",
+   "t": {
+    "en": "blood relative",
+    "uk": "кровний родич",
+    "ru": "кровный родственник",
+    "pl": "krewny",
+    "de": "Blutsverwandter",
+    "fr": "parent par le sang",
+    "es": "pariente consanguíneo",
+    "it": "parente di sangue",
+    "pt": "parente de sangue",
+    "tr": "kan bağı olan akraba"
+   },
+   "ex": {
+    "en": "Only blood relatives were invited."
+   }
+  },
+  {
+   "id": "family.filial-duty",
+   "t": {
+    "en": "filial duty",
+    "uk": "синівський обов'язок",
+    "ru": "сыновний долг",
+    "pl": "synowski obowiązek",
+    "de": "Kindespflicht",
+    "fr": "devoir filial",
+    "es": "deber filial",
+    "it": "dovere filiale",
+    "pt": "dever filial",
+    "tr": "evlatlık görevi"
+   },
+   "ex": {
+    "en": "He saw it as his filial duty."
+   }
+  },
+  {
+   "id": "family.paternal",
+   "t": {
+    "en": "paternal",
+    "uk": "батьківський",
+    "ru": "отцовский",
+    "pl": "ojcowski",
+    "de": "väterlich",
+    "fr": "paternel",
+    "es": "paterno",
+    "it": "paterno",
+    "pt": "paterno",
+    "tr": "baba tarafından"
+   },
+   "ex": {
+    "en": "My paternal grandmother is Polish."
+   }
+  },
+  {
+   "id": "family.maternal",
+   "t": {
+    "en": "maternal",
+    "uk": "материнський",
+    "ru": "материнский",
+    "pl": "matczyny",
+    "de": "mütterlich",
+    "fr": "maternel",
+    "es": "materno",
+    "it": "materno",
+    "pt": "materno",
+    "tr": "anne tarafından"
+   },
+   "ex": {
+    "en": "His maternal uncle lives in Kyiv."
+   }
+  },
+  {
+   "id": "family.fraternal",
+   "t": {
+    "en": "fraternal",
+    "uk": "братній",
+    "ru": "братский",
+    "pl": "braterski",
+    "de": "brüderlich",
+    "fr": "fraternel",
+    "es": "fraternal",
+    "it": "fraterno",
+    "pt": "fraterno",
+    "tr": "kardeşçe"
+   },
+   "ex": {
+    "en": "Fraternal twins don't look alike."
+   }
+  },
+  {
+   "id": "family.avuncular",
+   "t": {
+    "en": "avuncular",
+    "uk": "по-батьківськи добрий",
+    "ru": "добродушно-покровительственный",
+    "pl": "ojcowsko życzliwy",
+    "de": "onkelhaft",
+    "fr": "bienveillant",
+    "es": "bonachón",
+    "it": "bonario",
+    "pt": "bonachão",
+    "tr": "babacan"
+   },
+   "ex": {
+    "en": "He had an avuncular manner."
+   }
+  },
+  {
+   "id": "family.widowhood",
+   "t": {
+    "en": "widowhood",
+    "uk": "вдівство",
+    "ru": "вдовство",
+    "pl": "wdowieństwo",
+    "de": "Witwenschaft",
+    "fr": "veuvage",
+    "es": "viudez",
+    "it": "vedovanza",
+    "pt": "viuvez",
+    "tr": "dulluk"
+   },
+   "ex": {
+    "en": "She faced years of widowhood."
+   }
+  },
+  {
+   "id": "family.bereaved",
+   "t": {
+    "en": "bereaved",
+    "uk": "у жалобі",
+    "ru": "понёсший утрату",
+    "pl": "pogrążony w żałobie",
+    "de": "hinterblieben",
+    "fr": "endeuillé",
+    "es": "doliente",
+    "it": "in lutto",
+    "pt": "enlutado",
+    "tr": "yaslı"
+   },
+   "ex": {
+    "en": "We sent flowers to the bereaved family."
+   }
+  },
+  {
+   "id": "family.to-be-orphaned",
+   "t": {
+    "en": "to be orphaned",
+    "uk": "осиротіти",
+    "ru": "осиротеть",
+    "pl": "zostać sierotą",
+    "de": "verwaisen",
+    "fr": "devenir orphelin",
+    "es": "quedarse huérfano",
+    "it": "rimanere orfano",
+    "pt": "ficar órfão",
+    "tr": "yetim kalmak"
+   },
+   "ex": {
+    "en": "He was orphaned at the age of six."
+   }
+  },
+  {
+   "id": "family.guardianship",
+   "t": {
+    "en": "guardianship",
+    "uk": "опіка",
+    "ru": "опека",
+    "pl": "opieka prawna",
+    "de": "Vormundschaft",
+    "fr": "tutelle",
+    "es": "tutela",
+    "it": "tutela",
+    "pt": "tutela",
+    "tr": "vasilik"
+   },
+   "ex": {
+    "en": "The court granted her guardianship."
+   }
+  },
+  {
+   "id": "family.custody-battle",
+   "t": {
+    "en": "custody battle",
+    "uk": "боротьба за опіку",
+    "ru": "борьба за опеку",
+    "pl": "walka o opiekę",
+    "de": "Sorgerechtsstreit",
+    "fr": "bataille pour la garde",
+    "es": "batalla por la custodia",
+    "it": "battaglia per l'affidamento",
+    "pt": "disputa pela guarda",
+    "tr": "velayet savaşı"
+   },
+   "ex": {
+    "en": "The custody battle lasted two years."
+   }
+  },
+  {
+   "id": "family.joint-custody",
+   "t": {
+    "en": "joint custody",
+    "uk": "спільна опіка",
+    "ru": "совместная опека",
+    "pl": "wspólna opieka",
+    "de": "gemeinsames Sorgerecht",
+    "fr": "garde partagée",
+    "es": "custodia compartida",
+    "it": "affidamento congiunto",
+    "pt": "guarda compartilhada",
+    "tr": "ortak velayet"
+   },
+   "ex": {
+    "en": "They agreed on joint custody."
+   }
+  },
+  {
+   "id": "family.child-support",
+   "t": {
+    "en": "child support",
+    "uk": "аліменти",
+    "ru": "алименты",
+    "pl": "alimenty",
+    "de": "Kindesunterhalt",
+    "fr": "pension alimentaire",
+    "es": "pensión alimenticia",
+    "it": "assegno di mantenimento",
+    "pt": "pensão alimentícia",
+    "tr": "nafaka"
+   },
+   "ex": {
+    "en": "He pays child support every month."
+   }
+  },
+  {
+   "id": "family.visitation-rights",
+   "t": {
+    "en": "visitation rights",
+    "uk": "право на спілкування з дитиною",
+    "ru": "право на общение с ребёнком",
+    "pl": "prawo do kontaktów z dzieckiem",
+    "de": "Umgangsrecht",
+    "fr": "droit de visite",
+    "es": "régimen de visitas",
+    "it": "diritto di visita",
+    "pt": "direito de visita",
+    "tr": "görüş hakkı"
+   },
+   "ex": {
+    "en": "He has visitation rights at weekends."
+   }
+  },
+  {
+   "id": "family.to-disinherit",
+   "t": {
+    "en": "to disinherit",
+    "uk": "позбавити спадщини",
+    "ru": "лишить наследства",
+    "pl": "wydziedziczyć",
+    "de": "enterben",
+    "fr": "déshériter",
+    "es": "desheredar",
+    "it": "diseredare",
+    "pt": "deserdar",
+    "tr": "mirastan mahrum etmek"
+   },
+   "ex": {
+    "en": "She threatened to disinherit him."
+   }
+  },
+  {
+   "id": "family.dynasty",
+   "t": {
+    "en": "dynasty",
+    "uk": "династія",
+    "ru": "династия",
+    "pl": "dynastia",
+    "de": "Dynastie",
+    "fr": "dynastie",
+    "es": "dinastía",
+    "it": "dinastia",
+    "pt": "dinastia",
+    "tr": "hanedan"
+   },
+   "ex": {
+    "en": "The family built a business dynasty."
+   }
+  },
+  {
+   "id": "family.clan",
+   "t": {
+    "en": "clan",
+    "uk": "клан",
+    "ru": "клан",
+    "pl": "klan",
+    "de": "Clan",
+    "fr": "clan",
+    "es": "clan",
+    "it": "clan",
+    "pt": "clã",
+    "tr": "klan"
+   },
+   "ex": {
+    "en": "The whole clan came for Christmas."
+   }
+  },
+  {
+   "id": "family.latchkey-kid",
+   "t": {
+    "en": "latchkey kid",
+    "uk": "дитина з ключем на шиї",
+    "ru": "ребёнок с ключом на шее",
+    "pl": "dziecko z kluczem na szyi",
+    "de": "Schlüsselkind",
+    "fr": "enfant livré à lui-même",
+    "es": "niño de la llave",
+    "it": "bambino con la chiave al collo",
+    "pt": "criança que fica sozinha em casa",
+    "tr": "anahtarlı çocuk"
+   },
+   "ex": {
+    "en": "I was a latchkey kid in the 90s."
+   }
+  },
+  {
+   "id": "family.boomerang-kid",
+   "t": {
+    "en": "boomerang kid",
+    "uk": "дитина-бумеранг",
+    "ru": "ребёнок-бумеранг",
+    "pl": "dziecko bumerang",
+    "de": "Bumerang-Kind",
+    "fr": "enfant boomerang",
+    "es": "hijo bumerán",
+    "it": "figlio boomerang",
+    "pt": "filho bumerangue",
+    "tr": "bumerang çocuk"
+   },
+   "ex": {
+    "en": "He's a boomerang kid, back home at 30."
+   }
+  },
+  {
+   "id": "family.helicopter-parent",
+   "t": {
+    "en": "helicopter parent",
+    "uk": "батько-гелікоптер",
+    "ru": "родитель-вертолёт",
+    "pl": "rodzic helikopter",
+    "de": "Helikopter-Elternteil",
+    "fr": "parent hélicoptère",
+    "es": "padre helicóptero",
+    "it": "genitore elicottero",
+    "pt": "pai helicóptero",
+    "tr": "helikopter ebeveyn"
+   },
+   "ex": {
+    "en": "She's a typical helicopter parent."
+   }
+  },
+  {
+   "id": "family.tiger-mother",
+   "t": {
+    "en": "tiger mother",
+    "uk": "мати-тигриця",
+    "ru": "мать-тигрица",
+    "pl": "tygrysia matka",
+    "de": "Tigermutter",
+    "fr": "mère tigre",
+    "es": "madre tigre",
+    "it": "madre tigre",
+    "pt": "mãe tigre",
+    "tr": "kaplan anne"
+   },
+   "ex": {
+    "en": "His tiger mother pushed him hard."
+   }
+  },
+  {
+   "id": "family.favouritism",
+   "t": {
+    "en": "favouritism",
+    "uk": "фаворитизм",
+    "ru": "фаворитизм",
+    "pl": "faworyzowanie",
+    "de": "Bevorzugung",
+    "fr": "favoritisme",
+    "es": "favoritismo",
+    "it": "favoritismo",
+    "pt": "favoritismo",
+    "tr": "kayırmacılık"
+   },
+   "ex": {
+    "en": "Parents should avoid favouritism."
+   }
+  },
+  {
+   "id": "family.to-take-sides",
+   "t": {
+    "en": "to take sides",
+    "uk": "ставати на чийсь бік",
+    "ru": "принимать чью-то сторону",
+    "pl": "opowiadać się po czyjejś stronie",
+    "de": "Partei ergreifen",
+    "fr": "prendre parti",
+    "es": "tomar partido",
+    "it": "schierarsi",
+    "pt": "tomar partido",
+    "tr": "taraf tutmak"
+   },
+   "ex": {
+    "en": "I won't take sides in your fight."
+   }
+  },
+  {
+   "id": "family.bad-blood",
+   "t": {
+    "en": "bad blood",
+    "uk": "ворожнеча",
+    "ru": "вражда",
+    "pl": "zła krew",
+    "de": "böses Blut",
+    "fr": "inimitié",
+    "es": "rencillas",
+    "it": "astio",
+    "pt": "rixa",
+    "tr": "düşmanlık"
+   },
+   "ex": {
+    "en": "There's bad blood between the cousins."
+   }
+  },
+  {
+   "id": "family.to-wear-the-trousers",
+   "t": {
+    "en": "to wear the trousers",
+    "uk": "бути головним у домі",
+    "ru": "командовать в семье",
+    "pl": "rządzić w domu",
+    "de": "die Hosen anhaben",
+    "fr": "porter la culotte",
+    "es": "llevar los pantalones",
+    "it": "portare i pantaloni",
+    "pt": "mandar em casa",
+    "tr": "evde sözü geçmek"
+   },
+   "ex": {
+    "en": "She wears the trousers in that house."
+   }
+  },
+  {
+   "id": "family.henpecked",
+   "t": {
+    "en": "henpecked",
+    "uk": "підкаблучник",
+    "ru": "подкаблучник",
+    "pl": "pantoflarz",
+    "de": "unter dem Pantoffel",
+    "fr": "dominé par sa femme",
+    "es": "calzonazos",
+    "it": "succube della moglie",
+    "pt": "pau-mandado",
+    "tr": "kılıbık"
+   },
+   "ex": {
+    "en": "Her henpecked husband agreed."
+   }
+  },
+  {
+   "id": "family.to-mollycoddle",
+   "t": {
+    "en": "to mollycoddle",
+    "uk": "няньчитися",
+    "ru": "нянчиться",
+    "pl": "niańczyć",
+    "de": "verhätscheln",
+    "fr": "surprotéger",
+    "es": "sobreproteger",
+    "it": "coccolare",
+    "pt": "mimar",
+    "tr": "el bebeği gibi büyütmek"
+   },
+   "ex": {
+    "en": "Stop mollycoddling the boy."
+   }
+  },
+  {
+   "id": "family.to-pamper",
+   "t": {
+    "en": "to pamper",
+    "uk": "балувати",
+    "ru": "баловать",
+    "pl": "rozpieszczać",
+    "de": "verwöhnen",
+    "fr": "choyer",
+    "es": "consentir",
+    "it": "viziare",
+    "pt": "paparicar",
+    "tr": "şımartmak"
+   },
+   "ex": {
+    "en": "Grandparents love to pamper the kids."
+   }
+  },
+  {
+   "id": "family.wayward",
+   "t": {
+    "en": "wayward",
+    "uk": "норовливий",
+    "ru": "своенравный",
+    "pl": "krnąbrny",
+    "de": "eigensinnig",
+    "fr": "dévoyé",
+    "es": "descarriado",
+    "it": "traviato",
+    "pt": "desencaminhado",
+    "tr": "dik başlı"
+   },
+   "ex": {
+    "en": "She worried about her wayward son."
+   }
+  },
+  {
+   "id": "family.precocious",
+   "t": {
+    "en": "precocious",
+    "uk": "розвинений не по літах",
+    "ru": "не по годам развитой",
+    "pl": "nad wiek rozwinięty",
+    "de": "frühreif",
+    "fr": "précoce",
+    "es": "precoz",
+    "it": "precoce",
+    "pt": "precoce",
+    "tr": "erken gelişmiş"
+   },
+   "ex": {
+    "en": "She was a precocious child."
+   }
+  },
+  {
+   "id": "family.prodigal-son",
+   "t": {
+    "en": "prodigal son",
+    "uk": "блудний син",
+    "ru": "блудный сын",
+    "pl": "syn marnotrawny",
+    "de": "verlorener Sohn",
+    "fr": "fils prodigue",
+    "es": "hijo pródigo",
+    "it": "figliol prodigo",
+    "pt": "filho pródigo",
+    "tr": "savurgan oğul"
+   },
+   "ex": {
+    "en": "The prodigal son came home."
+   }
+  },
+  {
+   "id": "family.family-estate",
+   "t": {
+    "en": "family estate",
+    "uk": "родовий маєток",
+    "ru": "родовое поместье",
+    "pl": "majątek rodzinny",
+    "de": "Familiengut",
+    "fr": "domaine familial",
+    "es": "finca familiar",
+    "it": "tenuta di famiglia",
+    "pt": "propriedade da família",
+    "tr": "aile mülkü"
+   },
+   "ex": {
+    "en": "They sold the family estate."
+   }
+  },
+  {
+   "id": "family.ancestry",
+   "t": {
+    "en": "ancestry",
+    "uk": "походження",
+    "ru": "происхождение",
+    "pl": "pochodzenie",
+    "de": "Abstammung",
+    "fr": "ascendance",
+    "es": "ascendencia",
+    "it": "ascendenza",
+    "pt": "ascendência",
+    "tr": "soy"
+   },
+   "ex": {
+    "en": "She has Irish ancestry."
+   }
+  },
+  {
+   "id": "family.genealogy",
+   "t": {
+    "en": "genealogy",
+    "uk": "генеалогія",
+    "ru": "генеалогия",
+    "pl": "genealogia",
+    "de": "Genealogie",
+    "fr": "généalogie",
+    "es": "genealogía",
+    "it": "genealogia",
+    "pt": "genealogia",
+    "tr": "şecere"
+   },
+   "ex": {
+    "en": "He's interested in genealogy."
+   }
+  },
+  {
+   "id": "family.to-marry-into",
+   "t": {
+    "en": "to marry into",
+    "uk": "поріднитися через шлюб",
+    "ru": "породниться через брак",
+    "pl": "wżenić się",
+    "de": "einheiraten",
+    "fr": "entrer par alliance dans",
+    "es": "emparentar con",
+    "it": "imparentarsi con",
+    "pt": "entrar para a família por casamento",
+    "tr": "evlilik yoluyla akraba olmak"
+   },
+   "ex": {
+    "en": "She married into a rich family."
+   }
+  },
+  {
+   "id": "family.arranged-marriage",
+   "t": {
+    "en": "arranged marriage",
+    "uk": "шлюб за домовленістю",
+    "ru": "брак по договорённости",
+    "pl": "małżeństwo aranżowane",
+    "de": "arrangierte Ehe",
+    "fr": "mariage arrangé",
+    "es": "matrimonio concertado",
+    "it": "matrimonio combinato",
+    "pt": "casamento arranjado",
+    "tr": "görücü usulü evlilik"
+   },
+   "ex": {
+    "en": "Their parents had an arranged marriage."
+   }
+  },
+  {
+   "id": "family.sham-marriage",
+   "t": {
+    "en": "sham marriage",
+    "uk": "фіктивний шлюб",
+    "ru": "фиктивный брак",
+    "pl": "fikcyjne małżeństwo",
+    "de": "Scheinehe",
+    "fr": "mariage blanc",
+    "es": "matrimonio de conveniencia",
+    "it": "matrimonio fittizio",
+    "pt": "casamento de fachada",
+    "tr": "sahte evlilik"
+   },
+   "ex": {
+    "en": "It was a sham marriage for a visa."
+   }
+  },
+  {
+   "id": "family.dowry",
+   "t": {
+    "en": "dowry",
+    "uk": "посаг",
+    "ru": "приданое",
+    "pl": "posag",
+    "de": "Mitgift",
+    "fr": "dot",
+    "es": "dote",
+    "it": "dote",
+    "pt": "dote",
+    "tr": "çeyiz"
+   },
+   "ex": {
+    "en": "Her dowry included land."
+   }
+  },
+  {
+   "id": "family.family-crest",
+   "t": {
+    "en": "family crest",
+    "uk": "родовий герб",
+    "ru": "фамильный герб",
+    "pl": "herb rodowy",
+    "de": "Familienwappen",
+    "fr": "blason familial",
+    "es": "escudo familiar",
+    "it": "stemma di famiglia",
+    "pt": "brasão de família",
+    "tr": "aile arması"
+   },
+   "ex": {
+    "en": "The family crest hangs above the fireplace."
+   }
+  },
+  {
+   "id": "family.to-fly-the-nest",
+   "t": {
+    "en": "to fly the nest",
+    "uk": "покинути батьківське гніздо",
+    "ru": "покинуть родительское гнездо",
+    "pl": "wyfrunąć z gniazda",
+    "de": "flügge werden",
+    "fr": "quitter le nid",
+    "es": "volar del nido",
+    "it": "lasciare il nido",
+    "pt": "sair do ninho",
+    "tr": "yuvadan uçmak"
+   },
+   "ex": {
+    "en": "Our kids have all flown the nest."
+   }
+  },
+  {
+   "id": "family.sprightly",
+   "t": {
+    "en": "sprightly",
+    "uk": "жвавий",
+    "ru": "бодрый",
+    "pl": "żwawy",
+    "de": "rüstig",
+    "fr": "alerte",
+    "es": "vital",
+    "it": "arzillo",
+    "pt": "bem-disposto",
+    "tr": "dinç"
+   },
+   "ex": {
+    "en": "She's a sprightly 80-year-old."
+   }
+  },
+  {
+   "id": "family.lanky",
+   "t": {
+    "en": "lanky",
+    "uk": "довготелесий",
+    "ru": "долговязый",
+    "pl": "tyczkowaty",
+    "de": "schlaksig",
+    "fr": "dégingandé",
+    "es": "larguirucho",
+    "it": "allampanato",
+    "pt": "desengonçado",
+    "tr": "sırık gibi"
+   },
+   "ex": {
+    "en": "Her lanky son plays basketball."
+   }
+  },
+  {
+   "id": "family.doddery",
+   "t": {
+    "en": "doddery",
+    "uk": "немічний",
+    "ru": "дряхлый",
+    "pl": "zniedołężniały",
+    "de": "tatterig",
+    "fr": "chancelant",
+    "es": "renqueante",
+    "it": "malfermo",
+    "pt": "trôpego",
+    "tr": "elden ayaktan düşmüş"
+   },
+   "ex": {
+    "en": "My doddery old uncle uses a cane."
+   }
+  },
+  {
+   "id": "family.wizened",
+   "t": {
+    "en": "wizened",
+    "uk": "зморщений",
+    "ru": "сморщенный",
+    "pl": "pomarszczony",
+    "de": "runzlig",
+    "fr": "ratatiné",
+    "es": "arrugado",
+    "it": "raggrinzito",
+    "pt": "enrugado",
+    "tr": "buruşuk"
+   },
+   "ex": {
+    "en": "A wizened old woman sold apples."
+   }
+  },
+  {
+   "id": "family.progenitor",
+   "t": {
+    "en": "progenitor",
+    "uk": "прабатько",
+    "ru": "прародитель",
+    "pl": "protoplasta",
+    "de": "Stammvater",
+    "fr": "aïeul",
+    "es": "progenitor",
+    "it": "capostipite",
+    "pt": "progenitor",
+    "tr": "ata"
+   },
+   "ex": {
+    "en": "He was the progenitor of a great family."
+   }
+  },
+  {
+   "id": "family.matrilineal",
+   "t": {
+    "en": "matrilineal",
+    "uk": "матрилінійний",
+    "ru": "матрилинейный",
+    "pl": "matrylinearny",
+    "de": "matrilinear",
+    "fr": "matrilinéaire",
+    "es": "matrilineal",
+    "it": "matrilineare",
+    "pt": "matrilinear",
+    "tr": "anasoylu"
+   },
+   "ex": {
+    "en": "It's a matrilineal society."
+   }
+  },
+  {
+   "id": "family.out-of-wedlock",
+   "t": {
+    "en": "out of wedlock",
+    "uk": "поза шлюбом",
+    "ru": "вне брака",
+    "pl": "poza małżeństwem",
+    "de": "unehelich",
+    "fr": "hors mariage",
+    "es": "fuera del matrimonio",
+    "it": "fuori dal matrimonio",
+    "pt": "fora do casamento",
+    "tr": "evlilik dışı"
+   },
+   "ex": {
+    "en": "He was born out of wedlock."
    }
   }
  ]

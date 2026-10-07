@@ -2,7 +2,7 @@
  "id": "travel-b2",
  "topic": "travel",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "travel.overbooking",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "They went on safari in Kenya."
+   }
+  },
+  {
+   "id": "travel.to-extend-a-stay",
+   "t": {
+    "en": "to extend a stay",
+    "uk": "продовжити перебування",
+    "ru": "продлить пребывание",
+    "pl": "przedłużyć pobyt",
+    "de": "den Aufenthalt verlängern",
+    "fr": "prolonger son séjour",
+    "es": "prolongar la estancia",
+    "it": "prolungare il soggiorno",
+    "pt": "prolongar a estadia",
+    "tr": "konaklamayı uzatmak"
+   },
+   "ex": {
+    "en": "We decided to extend our stay by two nights."
+   }
+  },
+  {
+   "id": "travel.cabin-crew",
+   "t": {
+    "en": "cabin crew",
+    "uk": "екіпаж салону",
+    "ru": "бортпроводники",
+    "pl": "personel pokładowy",
+    "de": "Kabinenpersonal",
+    "fr": "personnel de cabine",
+    "es": "tripulación de cabina",
+    "it": "personale di bordo",
+    "pt": "tripulação de cabine",
+    "tr": "kabin ekibi"
+   },
+   "ex": {
+    "en": "The cabin crew will now serve drinks."
+   }
+  },
+  {
+   "id": "travel.to-hitchhike",
+   "t": {
+    "en": "to hitchhike",
+    "uk": "подорожувати автостопом",
+    "ru": "путешествовать автостопом",
+    "pl": "jeździć autostopem",
+    "de": "trampen",
+    "fr": "faire de l'auto-stop",
+    "es": "hacer autoestop",
+    "it": "fare l'autostop",
+    "pt": "pegar carona",
+    "tr": "otostop yapmak"
+   },
+   "ex": {
+    "en": "They hitchhiked across Europe."
+   }
+  },
+  {
+   "id": "travel.luggage-lock",
+   "t": {
+    "en": "luggage lock",
+    "uk": "замок для валізи",
+    "ru": "замок для чемодана",
+    "pl": "kłódka do bagażu",
+    "de": "Kofferschloss",
+    "fr": "cadenas de valise",
+    "es": "candado de maleta",
+    "it": "lucchetto per valigia",
+    "pt": "cadeado de mala",
+    "tr": "bavul kilidi"
+   },
+   "ex": {
+    "en": "Use a luggage lock on your suitcase."
+   }
+  },
+  {
+   "id": "travel.voyage",
+   "t": {
+    "en": "voyage",
+    "uk": "морська подорож",
+    "ru": "морское путешествие",
+    "pl": "rejs",
+    "de": "Seereise",
+    "fr": "traversée",
+    "es": "travesía",
+    "it": "traversata",
+    "pt": "viagem marítima",
+    "tr": "deniz yolculuğu"
+   },
+   "ex": {
+    "en": "The voyage across the Atlantic took a week."
+   }
+  },
+  {
+   "id": "travel.off-season",
+   "t": {
+    "en": "off-season",
+    "uk": "міжсезоння",
+    "ru": "межсезонье",
+    "pl": "poza sezonem",
+    "de": "Nebensaison",
+    "fr": "hors saison",
+    "es": "temporada baja",
+    "it": "bassa stagione",
+    "pt": "baixa temporada",
+    "tr": "sezon dışı"
+   },
+   "ex": {
+    "en": "Hotels are cheaper in the off-season."
+   }
+  },
+  {
+   "id": "travel.travel-expenses",
+   "t": {
+    "en": "travel expenses",
+    "uk": "витрати на подорож",
+    "ru": "дорожные расходы",
+    "pl": "koszty podróży",
+    "de": "Reisekosten",
+    "fr": "frais de voyage",
+    "es": "gastos de viaje",
+    "it": "spese di viaggio",
+    "pt": "despesas de viagem",
+    "tr": "seyahat masrafları"
+   },
+   "ex": {
+    "en": "The company pays my travel expenses."
+   }
+  },
+  {
+   "id": "travel.no-vacancies",
+   "t": {
+    "en": "no vacancies",
+    "uk": "немає вільних місць",
+    "ru": "мест нет",
+    "pl": "brak wolnych miejsc",
+    "de": "belegt",
+    "fr": "complet",
+    "es": "completo",
+    "it": "al completo",
+    "pt": "sem vagas",
+    "tr": "boş oda yok"
+   },
+   "ex": {
+    "en": "The sign said \"no vacancies\"."
+   }
+  },
+  {
+   "id": "travel.hotel-chain",
+   "t": {
+    "en": "hotel chain",
+    "uk": "мережа готелів",
+    "ru": "сеть отелей",
+    "pl": "sieć hoteli",
+    "de": "Hotelkette",
+    "fr": "chaîne hôtelière",
+    "es": "cadena hotelera",
+    "it": "catena alberghiera",
+    "pt": "rede de hotéis",
+    "tr": "otel zinciri"
+   },
+   "ex": {
+    "en": "The hotel chain has branches worldwide."
+   }
+  },
+  {
+   "id": "travel.jet-lagged",
+   "t": {
+    "en": "jet-lagged",
+    "uk": "змучений зміною часових поясів",
+    "ru": "страдающий от джетлага",
+    "pl": "zmęczony zmianą stref czasowych",
+    "de": "vom Jetlag geplagt",
+    "fr": "décalé",
+    "es": "con desfase horario",
+    "it": "sotto jet lag",
+    "pt": "com jet lag",
+    "tr": "jet lag olmuş"
+   },
+   "ex": {
+    "en": "I'm still jet-lagged after the flight."
+   }
+  },
+  {
+   "id": "travel.to-rebook",
+   "t": {
+    "en": "to rebook",
+    "uk": "перебронювати",
+    "ru": "перебронировать",
+    "pl": "zmienić rezerwację",
+    "de": "umbuchen",
+    "fr": "modifier sa réservation",
+    "es": "cambiar la reserva",
+    "it": "riprenotare",
+    "pt": "remarcar",
+    "tr": "yeniden rezervasyon yapmak"
+   },
+   "ex": {
+    "en": "We had to rebook our flight."
+   }
+  },
+  {
+   "id": "travel.refundable",
+   "t": {
+    "en": "refundable",
+    "uk": "з поверненням коштів",
+    "ru": "возвратный",
+    "pl": "zwrotny",
+    "de": "erstattungsfähig",
+    "fr": "remboursable",
+    "es": "reembolsable",
+    "it": "rimborsabile",
+    "pt": "reembolsável",
+    "tr": "iade edilebilir"
+   },
+   "ex": {
+    "en": "Is this ticket refundable?"
+   }
+  },
+  {
+   "id": "travel.travel-buddy",
+   "t": {
+    "en": "travel buddy",
+    "uk": "компаньйон у подорожі",
+    "ru": "попутчик",
+    "pl": "towarzysz podróży",
+    "de": "Reisepartner",
+    "fr": "compagnon de route",
+    "es": "compañero de viaje",
+    "it": "compagno di viaggio",
+    "pt": "parceiro de viagem",
+    "tr": "yol arkadaşı"
+   },
+   "ex": {
+    "en": "I met my travel buddy in a hostel."
+   }
+  },
+  {
+   "id": "travel.transit-visa",
+   "t": {
+    "en": "transit visa",
+    "uk": "транзитна віза",
+    "ru": "транзитная виза",
+    "pl": "wiza tranzytowa",
+    "de": "Transitvisum",
+    "fr": "visa de transit",
+    "es": "visado de tránsito",
+    "it": "visto di transito",
+    "pt": "visto de trânsito",
+    "tr": "transit vizesi"
+   },
+   "ex": {
+    "en": "Do I need a transit visa for Dubai?"
+   }
+  },
+  {
+   "id": "travel.visa-free",
+   "t": {
+    "en": "visa-free",
+    "uk": "безвізовий",
+    "ru": "безвизовый",
+    "pl": "bezwizowy",
+    "de": "visumfrei",
+    "fr": "sans visa",
+    "es": "sin visado",
+    "it": "senza visto",
+    "pt": "isento de visto",
+    "tr": "vizesiz"
+   },
+   "ex": {
+    "en": "Travel to the EU is visa-free for us."
+   }
+  },
+  {
+   "id": "travel.to-clear-customs",
+   "t": {
+    "en": "to clear customs",
+    "uk": "пройти митницю",
+    "ru": "пройти таможню",
+    "pl": "przejść odprawę celną",
+    "de": "durch den Zoll gehen",
+    "fr": "passer la douane",
+    "es": "pasar la aduana",
+    "it": "passare la dogana",
+    "pt": "passar pela alfândega",
+    "tr": "gümrükten geçmek"
+   },
+   "ex": {
+    "en": "It took an hour to clear customs."
+   }
+  },
+  {
+   "id": "travel.customs-officer",
+   "t": {
+    "en": "customs officer",
+    "uk": "митник",
+    "ru": "таможенник",
+    "pl": "celnik",
+    "de": "Zollbeamter",
+    "fr": "douanier",
+    "es": "agente de aduanas",
+    "it": "doganiere",
+    "pt": "agente alfandegário",
+    "tr": "gümrük memuru"
+   },
+   "ex": {
+    "en": "The customs officer checked my bag."
+   }
+  },
+  {
+   "id": "travel.to-go-through-security",
+   "t": {
+    "en": "to go through security",
+    "uk": "пройти контроль безпеки",
+    "ru": "пройти досмотр",
+    "pl": "przejść kontrolę bezpieczeństwa",
+    "de": "durch die Sicherheitskontrolle gehen",
+    "fr": "passer le contrôle de sécurité",
+    "es": "pasar el control de seguridad",
+    "it": "passare i controlli di sicurezza",
+    "pt": "passar pela segurança",
+    "tr": "güvenlikten geçmek"
+   },
+   "ex": {
+    "en": "We went through security quickly."
+   }
+  },
+  {
+   "id": "travel.standby-ticket",
+   "t": {
+    "en": "standby ticket",
+    "uk": "квиток без гарантованого місця",
+    "ru": "билет без гарантии места",
+    "pl": "bilet standby",
+    "de": "Standby-Ticket",
+    "fr": "billet en stand-by",
+    "es": "billete en lista de espera",
+    "it": "biglietto in standby",
+    "pt": "passagem em lista de espera",
+    "tr": "standby bilet"
+   },
+   "ex": {
+    "en": "He flew home on a standby ticket."
+   }
+  },
+  {
+   "id": "travel.checked-baggage",
+   "t": {
+    "en": "checked baggage",
+    "uk": "зареєстрований багаж",
+    "ru": "зарегистрированный багаж",
+    "pl": "bagaż rejestrowany",
+    "de": "aufgegebenes Gepäck",
+    "fr": "bagage enregistré",
+    "es": "equipaje facturado",
+    "it": "bagaglio da stiva",
+    "pt": "bagagem despachada",
+    "tr": "kayıtlı bagaj"
+   },
+   "ex": {
+    "en": "Checked baggage costs extra."
+   }
+  },
+  {
+   "id": "travel.fragile",
+   "t": {
+    "en": "fragile",
+    "uk": "крихкий",
+    "ru": "хрупкий",
+    "pl": "kruchy",
+    "de": "zerbrechlich",
+    "fr": "fragile",
+    "es": "frágil",
+    "it": "fragile",
+    "pt": "frágil",
+    "tr": "kırılgan"
+   },
+   "ex": {
+    "en": "Mark the box as fragile."
+   }
+  },
+  {
+   "id": "travel.damaged-luggage",
+   "t": {
+    "en": "damaged luggage",
+    "uk": "пошкоджений багаж",
+    "ru": "повреждённый багаж",
+    "pl": "uszkodzony bagaż",
+    "de": "beschädigtes Gepäck",
+    "fr": "bagage endommagé",
+    "es": "equipaje dañado",
+    "it": "bagaglio danneggiato",
+    "pt": "bagagem danificada",
+    "tr": "hasarlı bagaj"
+   },
+   "ex": {
+    "en": "Report damaged luggage at this desk."
+   }
+  },
+  {
+   "id": "travel.to-file-a-claim",
+   "t": {
+    "en": "to file a claim",
+    "uk": "подати претензію",
+    "ru": "подать претензию",
+    "pl": "złożyć reklamację",
+    "de": "eine Schadensmeldung einreichen",
+    "fr": "déposer une réclamation",
+    "es": "presentar una reclamación",
+    "it": "presentare un reclamo",
+    "pt": "registrar uma reclamação",
+    "tr": "talepte bulunmak"
+   },
+   "ex": {
+    "en": "You can file a claim with the airline."
+   }
+  },
+  {
+   "id": "travel.emergency-landing",
+   "t": {
+    "en": "emergency landing",
+    "uk": "аварійна посадка",
+    "ru": "аварийная посадка",
+    "pl": "awaryjne lądowanie",
+    "de": "Notlandung",
+    "fr": "atterrissage d'urgence",
+    "es": "aterrizaje de emergencia",
+    "it": "atterraggio di emergenza",
+    "pt": "pouso de emergência",
+    "tr": "acil iniş"
+   },
+   "ex": {
+    "en": "The plane made an emergency landing."
+   }
+  },
+  {
+   "id": "travel.to-be-grounded",
+   "t": {
+    "en": "to be grounded",
+    "uk": "бути затриманим на землі",
+    "ru": "быть задержанным на земле",
+    "pl": "zostać uziemionym",
+    "de": "am Boden bleiben müssen",
+    "fr": "être cloué au sol",
+    "es": "quedarse en tierra",
+    "it": "restare a terra",
+    "pt": "ficar retido em terra",
+    "tr": "yerde kalmak"
+   },
+   "ex": {
+    "en": "All flights were grounded by the storm."
+   }
+  },
+  {
+   "id": "travel.air-traffic-control",
+   "t": {
+    "en": "air traffic control",
+    "uk": "диспетчерська служба",
+    "ru": "управление воздушным движением",
+    "pl": "kontrola ruchu lotniczego",
+    "de": "Flugsicherung",
+    "fr": "contrôle aérien",
+    "es": "control aéreo",
+    "it": "controllo del traffico aereo",
+    "pt": "controle de tráfego aéreo",
+    "tr": "hava trafik kontrolü"
+   },
+   "ex": {
+    "en": "Air traffic control delayed our take-off."
+   }
+  },
+  {
+   "id": "travel.airport-lounge",
+   "t": {
+    "en": "airport lounge",
+    "uk": "бізнес-зала аеропорту",
+    "ru": "бизнес-зал",
+    "pl": "salonik lotniskowy",
+    "de": "Flughafenlounge",
+    "fr": "salon d'aéroport",
+    "es": "sala VIP",
+    "it": "lounge aeroportuale",
+    "pt": "sala VIP",
+    "tr": "havalimanı salonu"
+   },
+   "ex": {
+    "en": "We relaxed in the airport lounge."
+   }
+  },
+  {
+   "id": "travel.last-minute-deal",
+   "t": {
+    "en": "last-minute deal",
+    "uk": "гаряча пропозиція",
+    "ru": "горящая путёвка",
+    "pl": "oferta last minute",
+    "de": "Last-Minute-Angebot",
+    "fr": "offre de dernière minute",
+    "es": "oferta de última hora",
+    "it": "offerta last minute",
+    "pt": "promoção de última hora",
+    "tr": "son dakika fırsatı"
+   },
+   "ex": {
+    "en": "We found a last-minute deal to Crete."
+   }
+  },
+  {
+   "id": "travel.early-bird-discount",
+   "t": {
+    "en": "early bird discount",
+    "uk": "знижка за раннє бронювання",
+    "ru": "скидка за раннее бронирование",
+    "pl": "zniżka za wczesną rezerwację",
+    "de": "Frühbucherrabatt",
+    "fr": "réduction pour réservation anticipée",
+    "es": "descuento por reserva anticipada",
+    "it": "sconto prenota prima",
+    "pt": "desconto antecipado",
+    "tr": "erken rezervasyon indirimi"
+   },
+   "ex": {
+    "en": "Book now for an early bird discount."
+   }
+  },
+  {
+   "id": "travel.eco-tourism",
+   "t": {
+    "en": "eco-tourism",
+    "uk": "екотуризм",
+    "ru": "экотуризм",
+    "pl": "ekoturystyka",
+    "de": "Ökotourismus",
+    "fr": "écotourisme",
+    "es": "ecoturismo",
+    "it": "ecoturismo",
+    "pt": "ecoturismo",
+    "tr": "ekoturizm"
+   },
+   "ex": {
+    "en": "Costa Rica is famous for eco-tourism."
+   }
+  },
+  {
+   "id": "travel.sustainable-travel",
+   "t": {
+    "en": "sustainable travel",
+    "uk": "сталий туризм",
+    "ru": "устойчивый туризм",
+    "pl": "zrównoważone podróżowanie",
+    "de": "nachhaltiges Reisen",
+    "fr": "voyage durable",
+    "es": "viaje sostenible",
+    "it": "viaggio sostenibile",
+    "pt": "viagem sustentável",
+    "tr": "sürdürülebilir seyahat"
+   },
+   "ex": {
+    "en": "Trains are part of sustainable travel."
+   }
+  },
+  {
+   "id": "travel.working-holiday",
+   "t": {
+    "en": "working holiday",
+    "uk": "робоча відпустка",
+    "ru": "рабочий отпуск",
+    "pl": "wakacje z pracą",
+    "de": "Work and Travel",
+    "fr": "vacances-travail",
+    "es": "vacaciones con trabajo",
+    "it": "vacanza-lavoro",
+    "pt": "intercâmbio de trabalho",
+    "tr": "çalışma tatili"
+   },
+   "ex": {
+    "en": "She went to Australia on a working holiday."
+   }
+  },
+  {
+   "id": "travel.language-barrier",
+   "t": {
+    "en": "language barrier",
+    "uk": "мовний бар'єр",
+    "ru": "языковой барьер",
+    "pl": "bariera językowa",
+    "de": "Sprachbarriere",
+    "fr": "barrière de la langue",
+    "es": "barrera del idioma",
+    "it": "barriera linguistica",
+    "pt": "barreira linguística",
+    "tr": "dil engeli"
+   },
+   "ex": {
+    "en": "The language barrier made it hard."
+   }
+  },
+  {
+   "id": "travel.local-customs",
+   "t": {
+    "en": "local customs",
+    "uk": "місцеві звичаї",
+    "ru": "местные обычаи",
+    "pl": "lokalne zwyczaje",
+    "de": "örtliche Bräuche",
+    "fr": "coutumes locales",
+    "es": "costumbres locales",
+    "it": "usanze locali",
+    "pt": "costumes locais",
+    "tr": "yerel gelenekler"
+   },
+   "ex": {
+    "en": "Try to respect local customs."
+   }
+  },
+  {
+   "id": "travel.etiquette",
+   "t": {
+    "en": "etiquette",
+    "uk": "етикет",
+    "ru": "этикет",
+    "pl": "etykieta",
+    "de": "Etikette",
+    "fr": "étiquette",
+    "es": "etiqueta",
+    "it": "galateo",
+    "pt": "etiqueta",
+    "tr": "görgü kuralları"
+   },
+   "ex": {
+    "en": "Learn the basic etiquette before you go."
+   }
+  },
+  {
+   "id": "travel.cruise-ship",
+   "t": {
+    "en": "cruise ship",
+    "uk": "круїзний лайнер",
+    "ru": "круизный лайнер",
+    "pl": "statek wycieczkowy",
+    "de": "Kreuzfahrtschiff",
+    "fr": "navire de croisière",
+    "es": "crucero",
+    "it": "nave da crociera",
+    "pt": "navio de cruzeiro",
+    "tr": "yolcu gemisi"
+   },
+   "ex": {
+    "en": "A huge cruise ship arrived in port."
+   }
+  },
+  {
+   "id": "travel.shore-excursion",
+   "t": {
+    "en": "shore excursion",
+    "uk": "берегова екскурсія",
+    "ru": "береговая экскурсия",
+    "pl": "wycieczka na ląd",
+    "de": "Landausflug",
+    "fr": "excursion à terre",
+    "es": "excursión en tierra",
+    "it": "escursione a terra",
+    "pt": "excursão em terra",
+    "tr": "kıyı turu"
+   },
+   "ex": {
+    "en": "We booked a shore excursion in Naples."
+   }
+  },
+  {
+   "id": "travel.port-of-call",
+   "t": {
+    "en": "port of call",
+    "uk": "порт заходу",
+    "ru": "порт захода",
+    "pl": "port zawinięcia",
+    "de": "Anlaufhafen",
+    "fr": "escale",
+    "es": "puerto de escala",
+    "it": "porto di scalo",
+    "pt": "porto de escala",
+    "tr": "uğrak limanı"
+   },
+   "ex": {
+    "en": "Our first port of call is Lisbon."
+   }
+  },
+  {
+   "id": "travel.marina",
+   "t": {
+    "en": "marina",
+    "uk": "яхтова гавань",
+    "ru": "яхтенная гавань",
+    "pl": "marina",
+    "de": "Jachthafen",
+    "fr": "marina",
+    "es": "puerto deportivo",
+    "it": "porticciolo",
+    "pt": "marina",
+    "tr": "yat limanı"
+   },
+   "ex": {
+    "en": "We had dinner by the marina."
+   }
+  },
+  {
+   "id": "travel.yacht",
+   "t": {
+    "en": "yacht",
+    "uk": "яхта",
+    "ru": "яхта",
+    "pl": "jacht",
+    "de": "Jacht",
+    "fr": "yacht",
+    "es": "yate",
+    "it": "yacht",
+    "pt": "iate",
+    "tr": "yat"
+   },
+   "ex": {
+    "en": "They spent a week on a yacht."
+   }
+  },
+  {
+   "id": "travel.glamping",
+   "t": {
+    "en": "glamping",
+    "uk": "глемпінг",
+    "ru": "глэмпинг",
+    "pl": "glamping",
+    "de": "Glamping",
+    "fr": "glamping",
+    "es": "glamping",
+    "it": "glamping",
+    "pt": "glamping",
+    "tr": "glamping"
+   },
+   "ex": {
+    "en": "Glamping is camping with comfort."
+   }
+  },
+  {
+   "id": "travel.to-extend-a-visa",
+   "t": {
+    "en": "to extend a visa",
+    "uk": "продовжити візу",
+    "ru": "продлить визу",
+    "pl": "przedłużyć wizę",
+    "de": "ein Visum verlängern",
+    "fr": "prolonger un visa",
+    "es": "prorrogar un visado",
+    "it": "prorogare un visto",
+    "pt": "prorrogar um visto",
+    "tr": "vizeyi uzatmak"
+   },
+   "ex": {
+    "en": "I need to extend my visa for a month."
+   }
+  },
+  {
+   "id": "travel.shared-bathroom",
+   "t": {
+    "en": "shared bathroom",
+    "uk": "спільна ванна кімната",
+    "ru": "общая ванная",
+    "pl": "wspólna łazienka",
+    "de": "Gemeinschaftsbad",
+    "fr": "salle de bains commune",
+    "es": "baño compartido",
+    "it": "bagno in comune",
+    "pt": "banheiro compartilhado",
+    "tr": "ortak banyo"
+   },
+   "ex": {
+    "en": "The cheap rooms have a shared bathroom."
+   }
+  },
+  {
+   "id": "travel.amenities",
+   "t": {
+    "en": "amenities",
+    "uk": "зручності",
+    "ru": "удобства",
+    "pl": "udogodnienia",
+    "de": "Ausstattung",
+    "fr": "équipements",
+    "es": "servicios",
+    "it": "servizi",
+    "pt": "comodidades",
+    "tr": "olanaklar"
+   },
+   "ex": {
+    "en": "The hotel has great amenities."
+   }
+  },
+  {
+   "id": "travel.self-guided-tour",
+   "t": {
+    "en": "self-guided tour",
+    "uk": "самостійна екскурсія",
+    "ru": "самостоятельная экскурсия",
+    "pl": "zwiedzanie na własną rękę",
+    "de": "Tour auf eigene Faust",
+    "fr": "visite libre",
+    "es": "visita por libre",
+    "it": "visita autoguidata",
+    "pt": "passeio autoguiado",
+    "tr": "rehbersiz tur"
+   },
+   "ex": {
+    "en": "We did a self-guided tour with an app."
+   }
+  },
+  {
+   "id": "travel.audio-guide",
+   "t": {
+    "en": "audio guide",
+    "uk": "аудіогід",
+    "ru": "аудиогид",
+    "pl": "audioprzewodnik",
+    "de": "Audioguide",
+    "fr": "audioguide",
+    "es": "audioguía",
+    "it": "audioguida",
+    "pt": "audioguia",
+    "tr": "sesli rehber"
+   },
+   "ex": {
+    "en": "The audio guide is in ten languages."
+   }
+  },
+  {
+   "id": "travel.entrance-fee",
+   "t": {
+    "en": "entrance fee",
+    "uk": "вхідна плата",
+    "ru": "плата за вход",
+    "pl": "opłata za wstęp",
+    "de": "Eintrittsgebühr",
+    "fr": "droit d'entrée",
+    "es": "precio de la entrada",
+    "it": "biglietto d'ingresso",
+    "pt": "taxa de entrada",
+    "tr": "giriş ücreti"
+   },
+   "ex": {
+    "en": "The entrance fee is fifteen euros."
+   }
+  },
+  {
+   "id": "travel.travel-restrictions",
+   "t": {
+    "en": "travel restrictions",
+    "uk": "обмеження на поїздки",
+    "ru": "ограничения на поездки",
+    "pl": "ograniczenia w podróżowaniu",
+    "de": "Reisebeschränkungen",
+    "fr": "restrictions de voyage",
+    "es": "restricciones de viaje",
+    "it": "restrizioni di viaggio",
+    "pt": "restrições de viagem",
+    "tr": "seyahat kısıtlamaları"
+   },
+   "ex": {
+    "en": "Check the travel restrictions before you go."
+   }
+  },
+  {
+   "id": "travel.tourist-tax",
+   "t": {
+    "en": "tourist tax",
+    "uk": "туристичний збір",
+    "ru": "туристический налог",
+    "pl": "opłata turystyczna",
+    "de": "Kurtaxe",
+    "fr": "taxe de séjour",
+    "es": "tasa turística",
+    "it": "tassa di soggiorno",
+    "pt": "taxa turística",
+    "tr": "turist vergisi"
+   },
+   "ex": {
+    "en": "The tourist tax is paid at the hotel."
+   }
+  },
+  {
+   "id": "travel.solo-travel",
+   "t": {
+    "en": "solo travel",
+    "uk": "самостійні подорожі",
+    "ru": "путешествия в одиночку",
+    "pl": "podróżowanie w pojedynkę",
+    "de": "Alleinreisen",
+    "fr": "voyage en solo",
+    "es": "viajar solo",
+    "it": "viaggiare da soli",
+    "pt": "viagem solo",
+    "tr": "tek başına seyahat"
+   },
+   "ex": {
+    "en": "Solo travel taught me a lot."
    }
   }
  ]

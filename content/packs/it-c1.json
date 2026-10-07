@@ -2,7 +2,7 @@
  "id": "it-c1",
  "topic": "it",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "it.to-deprecate",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Kubernetes handles container orchestration."
+   }
+  },
+  {
+   "id": "it.system-architecture",
+   "t": {
+    "en": "system architecture",
+    "uk": "архітектура системи",
+    "ru": "архитектура системы",
+    "pl": "architektura systemu",
+    "de": "Systemarchitektur",
+    "fr": "architecture système",
+    "es": "arquitectura del sistema",
+    "it": "architettura di sistema",
+    "pt": "arquitetura de sistema",
+    "tr": "sistem mimarisi"
+   },
+   "ex": {
+    "en": "We redesigned the system architecture."
+   }
+  },
+  {
+   "id": "it.monolith",
+   "t": {
+    "en": "monolith",
+    "uk": "моноліт",
+    "ru": "монолит",
+    "pl": "monolit",
+    "de": "Monolith",
+    "fr": "monolithe",
+    "es": "monolito",
+    "it": "monolite",
+    "pt": "monólito",
+    "tr": "monolit"
+   },
+   "ex": {
+    "en": "We split the monolith into services."
+   }
+  },
+  {
+   "id": "it.serverless",
+   "t": {
+    "en": "serverless",
+    "uk": "безсерверний",
+    "ru": "бессерверный",
+    "pl": "bezserwerowy",
+    "de": "serverlos",
+    "fr": "sans serveur",
+    "es": "sin servidor",
+    "it": "serverless",
+    "pt": "sem servidor",
+    "tr": "sunucusuz"
+   },
+   "ex": {
+    "en": "The API runs on a serverless platform."
+   }
+  },
+  {
+   "id": "it.virtual-machine",
+   "t": {
+    "en": "virtual machine",
+    "uk": "віртуальна машина",
+    "ru": "виртуальная машина",
+    "pl": "maszyna wirtualna",
+    "de": "virtuelle Maschine",
+    "fr": "machine virtuelle",
+    "es": "máquina virtual",
+    "it": "macchina virtuale",
+    "pt": "máquina virtual",
+    "tr": "sanal makine"
+   },
+   "ex": {
+    "en": "Each test runs in a virtual machine."
+   }
+  },
+  {
+   "id": "it.virtualization",
+   "t": {
+    "en": "virtualization",
+    "uk": "віртуалізація",
+    "ru": "виртуализация",
+    "pl": "wirtualizacja",
+    "de": "Virtualisierung",
+    "fr": "virtualisation",
+    "es": "virtualización",
+    "it": "virtualizzazione",
+    "pt": "virtualização",
+    "tr": "sanallaştırma"
+   },
+   "ex": {
+    "en": "Virtualization reduced our hardware costs."
+   }
+  },
+  {
+   "id": "it.container",
+   "t": {
+    "en": "container",
+    "uk": "контейнер",
+    "ru": "контейнер",
+    "pl": "kontener",
+    "de": "Container",
+    "fr": "conteneur",
+    "es": "contenedor",
+    "it": "container",
+    "pt": "contêiner",
+    "tr": "konteyner"
+   },
+   "ex": {
+    "en": "The app is packaged in a container."
+   }
+  },
+  {
+   "id": "it.cluster",
+   "t": {
+    "en": "cluster",
+    "uk": "кластер",
+    "ru": "кластер",
+    "pl": "klaster",
+    "de": "Cluster",
+    "fr": "cluster",
+    "es": "clúster",
+    "it": "cluster",
+    "pt": "cluster",
+    "tr": "küme"
+   },
+   "ex": {
+    "en": "We added three nodes to the cluster."
+   }
+  },
+  {
+   "id": "it.to-spin-up",
+   "t": {
+    "en": "to spin up",
+    "uk": "запустити",
+    "ru": "поднять",
+    "pl": "uruchomić",
+    "de": "hochfahren",
+    "fr": "lancer",
+    "es": "levantar",
+    "it": "avviare",
+    "pt": "subir",
+    "tr": "ayağa kaldırmak"
+   },
+   "ex": {
+    "en": "We can spin up a new server in minutes."
+   }
+  },
+  {
+   "id": "it.infrastructure-as-code",
+   "t": {
+    "en": "infrastructure as code",
+    "uk": "інфраструктура як код",
+    "ru": "инфраструктура как код",
+    "pl": "infrastruktura jako kod",
+    "de": "Infrastructure as Code",
+    "fr": "infrastructure en tant que code",
+    "es": "infraestructura como código",
+    "it": "infrastruttura come codice",
+    "pt": "infraestrutura como código",
+    "tr": "kod olarak altyapı"
+   },
+   "ex": {
+    "en": "We manage servers with infrastructure as code."
+   }
+  },
+  {
+   "id": "it.devops",
+   "t": {
+    "en": "DevOps",
+    "uk": "DevOps",
+    "ru": "DevOps",
+    "pl": "DevOps",
+    "de": "DevOps",
+    "fr": "DevOps",
+    "es": "DevOps",
+    "it": "DevOps",
+    "pt": "DevOps",
+    "tr": "DevOps"
+   },
+   "ex": {
+    "en": "She leads the DevOps team."
+   }
+  },
+  {
+   "id": "it.on-call",
+   "t": {
+    "en": "on-call",
+    "uk": "черговий",
+    "ru": "дежурный",
+    "pl": "dyżurny",
+    "de": "in Rufbereitschaft",
+    "fr": "d'astreinte",
+    "es": "de guardia",
+    "it": "reperibile",
+    "pt": "de plantão",
+    "tr": "nöbetçi"
+   },
+   "ex": {
+    "en": "I'm on-call this weekend."
+   }
+  },
+  {
+   "id": "it.incident-response",
+   "t": {
+    "en": "incident response",
+    "uk": "реагування на інциденти",
+    "ru": "реагирование на инциденты",
+    "pl": "reagowanie na incydenty",
+    "de": "Reaktion auf Vorfälle",
+    "fr": "réponse aux incidents",
+    "es": "respuesta a incidentes",
+    "it": "risposta agli incidenti",
+    "pt": "resposta a incidentes",
+    "tr": "olay müdahalesi"
+   },
+   "ex": {
+    "en": "Our incident response plan worked well."
+   }
+  },
+  {
+   "id": "it.sla",
+   "t": {
+    "en": "SLA",
+    "uk": "угода про рівень обслуговування",
+    "ru": "соглашение об уровне обслуживания",
+    "pl": "umowa SLA",
+    "de": "SLA",
+    "fr": "contrat de niveau de service",
+    "es": "acuerdo de nivel de servicio",
+    "it": "accordo sul livello di servizio",
+    "pt": "acordo de nível de serviço",
+    "tr": "hizmet seviyesi anlaşması"
+   },
+   "ex": {
+    "en": "The SLA promises 99.9% uptime."
+   }
+  },
+  {
+   "id": "it.memory-leak",
+   "t": {
+    "en": "memory leak",
+    "uk": "витік пам'яті",
+    "ru": "утечка памяти",
+    "pl": "wyciek pamięci",
+    "de": "Speicherleck",
+    "fr": "fuite de mémoire",
+    "es": "fuga de memoria",
+    "it": "perdita di memoria",
+    "pt": "vazamento de memória",
+    "tr": "bellek sızıntısı"
+   },
+   "ex": {
+    "en": "A memory leak slowed down the server."
+   }
+  },
+  {
+   "id": "it.race-condition",
+   "t": {
+    "en": "race condition",
+    "uk": "стан гонитви",
+    "ru": "состояние гонки",
+    "pl": "wyścig",
+    "de": "Race Condition",
+    "fr": "situation de compétition",
+    "es": "condición de carrera",
+    "it": "race condition",
+    "pt": "condição de corrida",
+    "tr": "yarış durumu"
+   },
+   "ex": {
+    "en": "The bug was caused by a race condition."
+   }
+  },
+  {
+   "id": "it.deadlock",
+   "t": {
+    "en": "deadlock",
+    "uk": "взаємне блокування",
+    "ru": "взаимная блокировка",
+    "pl": "zakleszczenie",
+    "de": "Deadlock",
+    "fr": "interblocage",
+    "es": "interbloqueo",
+    "it": "stallo",
+    "pt": "impasse",
+    "tr": "kilitlenme"
+   },
+   "ex": {
+    "en": "Two processes ended in a deadlock."
+   }
+  },
+  {
+   "id": "it.stack-trace",
+   "t": {
+    "en": "stack trace",
+    "uk": "трасування стека",
+    "ru": "трассировка стека",
+    "pl": "ślad stosu",
+    "de": "Stacktrace",
+    "fr": "trace de la pile",
+    "es": "traza de la pila",
+    "it": "stack trace",
+    "pt": "rastreamento de pilha",
+    "tr": "yığın izi"
+   },
+   "ex": {
+    "en": "Send me the full stack trace."
+   }
+  },
+  {
+   "id": "it.log-file",
+   "t": {
+    "en": "log file",
+    "uk": "файл журналу",
+    "ru": "файл журнала",
+    "pl": "plik dziennika",
+    "de": "Logdatei",
+    "fr": "fichier journal",
+    "es": "archivo de registro",
+    "it": "file di log",
+    "pt": "arquivo de log",
+    "tr": "günlük dosyası"
+   },
+   "ex": {
+    "en": "Check the log file for errors."
+   }
+  },
+  {
+   "id": "it.monitoring",
+   "t": {
+    "en": "monitoring",
+    "uk": "моніторинг",
+    "ru": "мониторинг",
+    "pl": "monitorowanie",
+    "de": "Überwachung",
+    "fr": "surveillance",
+    "es": "monitorización",
+    "it": "monitoraggio",
+    "pt": "monitoramento",
+    "tr": "izleme"
+   },
+   "ex": {
+    "en": "Monitoring alerted us to the outage."
+   }
+  },
+  {
+   "id": "it.telemetry",
+   "t": {
+    "en": "telemetry",
+    "uk": "телеметрія",
+    "ru": "телеметрия",
+    "pl": "telemetria",
+    "de": "Telemetrie",
+    "fr": "télémétrie",
+    "es": "telemetría",
+    "it": "telemetria",
+    "pt": "telemetria",
+    "tr": "telemetri"
+   },
+   "ex": {
+    "en": "Users can turn off telemetry."
+   }
+  },
+  {
+   "id": "it.metrics",
+   "t": {
+    "en": "metrics",
+    "uk": "метрики",
+    "ru": "метрики",
+    "pl": "metryki",
+    "de": "Metriken",
+    "fr": "métriques",
+    "es": "métricas",
+    "it": "metriche",
+    "pt": "métricas",
+    "tr": "metrikler"
+   },
+   "ex": {
+    "en": "We track key metrics on the dashboard."
+   }
+  },
+  {
+   "id": "it.code-freeze",
+   "t": {
+    "en": "code freeze",
+    "uk": "заморожування коду",
+    "ru": "заморозка кода",
+    "pl": "zamrożenie kodu",
+    "de": "Code-Freeze",
+    "fr": "gel du code",
+    "es": "congelación del código",
+    "it": "congelamento del codice",
+    "pt": "congelamento de código",
+    "tr": "kod dondurma"
+   },
+   "ex": {
+    "en": "There's a code freeze before the release."
+   }
+  },
+  {
+   "id": "it.release-cycle",
+   "t": {
+    "en": "release cycle",
+    "uk": "цикл релізів",
+    "ru": "цикл релизов",
+    "pl": "cykl wydań",
+    "de": "Release-Zyklus",
+    "fr": "cycle de publication",
+    "es": "ciclo de lanzamiento",
+    "it": "ciclo di rilascio",
+    "pt": "ciclo de lançamento",
+    "tr": "sürüm döngüsü"
+   },
+   "ex": {
+    "en": "We moved to a two-week release cycle."
+   }
+  },
+  {
+   "id": "it.release-notes",
+   "t": {
+    "en": "release notes",
+    "uk": "примітки до випуску",
+    "ru": "примечания к выпуску",
+    "pl": "informacje o wydaniu",
+    "de": "Versionshinweise",
+    "fr": "notes de version",
+    "es": "notas de la versión",
+    "it": "note di rilascio",
+    "pt": "notas de versão",
+    "tr": "sürüm notları"
+   },
+   "ex": {
+    "en": "Read the release notes before updating."
+   }
+  },
+  {
+   "id": "it.backwards-compatible",
+   "t": {
+    "en": "backwards compatible",
+    "uk": "зворотно сумісний",
+    "ru": "обратно совместимый",
+    "pl": "kompatybilny wstecz",
+    "de": "abwärtskompatibel",
+    "fr": "rétrocompatible",
+    "es": "retrocompatible",
+    "it": "retrocompatibile",
+    "pt": "retrocompatível",
+    "tr": "geriye dönük uyumlu"
+   },
+   "ex": {
+    "en": "The new API is backwards compatible."
+   }
+  },
+  {
+   "id": "it.breaking-change",
+   "t": {
+    "en": "breaking change",
+    "uk": "несумісна зміна",
+    "ru": "ломающее изменение",
+    "pl": "zmiana niekompatybilna",
+    "de": "Breaking Change",
+    "fr": "changement incompatible",
+    "es": "cambio incompatible",
+    "it": "modifica incompatibile",
+    "pt": "mudança incompatível",
+    "tr": "uyumluluğu bozan değişiklik"
+   },
+   "ex": {
+    "en": "Version 3 includes a breaking change."
+   }
+  },
+  {
+   "id": "it.to-sanitise-input",
+   "t": {
+    "en": "to sanitise input",
+    "uk": "очищати вхідні дані",
+    "ru": "очищать входные данные",
+    "pl": "oczyszczać dane wejściowe",
+    "de": "Eingaben bereinigen",
+    "fr": "assainir les entrées",
+    "es": "sanear la entrada",
+    "it": "sanificare l'input",
+    "pt": "sanitizar a entrada",
+    "tr": "girdiyi temizlemek"
+   },
+   "ex": {
+    "en": "Always sanitise input from users."
+   }
+  },
+  {
+   "id": "it.sql-injection",
+   "t": {
+    "en": "SQL injection",
+    "uk": "SQL-ін'єкція",
+    "ru": "SQL-инъекция",
+    "pl": "wstrzyknięcie SQL",
+    "de": "SQL-Injection",
+    "fr": "injection SQL",
+    "es": "inyección SQL",
+    "it": "SQL injection",
+    "pt": "injeção de SQL",
+    "tr": "SQL enjeksiyonu"
+   },
+   "ex": {
+    "en": "The form was open to SQL injection."
+   }
+  },
+  {
+   "id": "it.cross-site-scripting",
+   "t": {
+    "en": "cross-site scripting",
+    "uk": "міжсайтовий скриптинг",
+    "ru": "межсайтовый скриптинг",
+    "pl": "cross-site scripting",
+    "de": "Cross-Site-Scripting",
+    "fr": "script intersite",
+    "es": "secuencia de comandos en sitios cruzados",
+    "it": "cross-site scripting",
+    "pt": "cross-site scripting",
+    "tr": "siteler arası betik çalıştırma"
+   },
+   "ex": {
+    "en": "The audit found a cross-site scripting bug."
+   }
+  },
+  {
+   "id": "it.public-key",
+   "t": {
+    "en": "public key",
+    "uk": "відкритий ключ",
+    "ru": "открытый ключ",
+    "pl": "klucz publiczny",
+    "de": "öffentlicher Schlüssel",
+    "fr": "clé publique",
+    "es": "clave pública",
+    "it": "chiave pubblica",
+    "pt": "chave pública",
+    "tr": "açık anahtar"
+   },
+   "ex": {
+    "en": "Share your public key with the team."
+   }
+  },
+  {
+   "id": "it.private-key",
+   "t": {
+    "en": "private key",
+    "uk": "закритий ключ",
+    "ru": "закрытый ключ",
+    "pl": "klucz prywatny",
+    "de": "privater Schlüssel",
+    "fr": "clé privée",
+    "es": "clave privada",
+    "it": "chiave privata",
+    "pt": "chave privada",
+    "tr": "özel anahtar"
+   },
+   "ex": {
+    "en": "Never share your private key."
+   }
+  },
+  {
+   "id": "it.hashing",
+   "t": {
+    "en": "hashing",
+    "uk": "гешування",
+    "ru": "хеширование",
+    "pl": "haszowanie",
+    "de": "Hashing",
+    "fr": "hachage",
+    "es": "hashing",
+    "it": "hashing",
+    "pt": "hashing",
+    "tr": "hash'leme"
+   },
+   "ex": {
+    "en": "Passwords are protected by hashing."
+   }
+  },
+  {
+   "id": "it.access-token",
+   "t": {
+    "en": "access token",
+    "uk": "токен доступу",
+    "ru": "токен доступа",
+    "pl": "token dostępu",
+    "de": "Zugriffstoken",
+    "fr": "jeton d'accès",
+    "es": "token de acceso",
+    "it": "token di accesso",
+    "pt": "token de acesso",
+    "tr": "erişim belirteci"
+   },
+   "ex": {
+    "en": "The access token expires after an hour."
+   }
+  },
+  {
+   "id": "it.least-privilege",
+   "t": {
+    "en": "least privilege",
+    "uk": "мінімальні привілеї",
+    "ru": "минимальные привилегии",
+    "pl": "minimalne uprawnienia",
+    "de": "minimale Rechtevergabe",
+    "fr": "moindre privilège",
+    "es": "mínimo privilegio",
+    "it": "privilegio minimo",
+    "pt": "privilégio mínimo",
+    "tr": "en az ayrıcalık"
+   },
+   "ex": {
+    "en": "We follow the principle of least privilege."
+   }
+  },
+  {
+   "id": "it.threat-model",
+   "t": {
+    "en": "threat model",
+    "uk": "модель загроз",
+    "ru": "модель угроз",
+    "pl": "model zagrożeń",
+    "de": "Bedrohungsmodell",
+    "fr": "modèle de menace",
+    "es": "modelo de amenazas",
+    "it": "modello delle minacce",
+    "pt": "modelo de ameaças",
+    "tr": "tehdit modeli"
+   },
+   "ex": {
+    "en": "Update the threat model for the new feature."
+   }
+  },
+  {
+   "id": "it.security-audit",
+   "t": {
+    "en": "security audit",
+    "uk": "аудит безпеки",
+    "ru": "аудит безопасности",
+    "pl": "audyt bezpieczeństwa",
+    "de": "Sicherheitsaudit",
+    "fr": "audit de sécurité",
+    "es": "auditoría de seguridad",
+    "it": "audit di sicurezza",
+    "pt": "auditoria de segurança",
+    "tr": "güvenlik denetimi"
+   },
+   "ex": {
+    "en": "The security audit took two weeks."
+   }
+  },
+  {
+   "id": "it.bug-bounty",
+   "t": {
+    "en": "bug bounty",
+    "uk": "винагорода за знайдені вразливості",
+    "ru": "вознаграждение за найденные уязвимости",
+    "pl": "program bug bounty",
+    "de": "Bug-Bounty",
+    "fr": "prime aux bogues",
+    "es": "recompensa por errores",
+    "it": "bug bounty",
+    "pt": "recompensa por bugs",
+    "tr": "hata ödülü"
+   },
+   "ex": {
+    "en": "He earned money from a bug bounty."
+   }
+  },
+  {
+   "id": "it.social-engineering",
+   "t": {
+    "en": "social engineering",
+    "uk": "соціальна інженерія",
+    "ru": "социальная инженерия",
+    "pl": "socjotechnika",
+    "de": "Social Engineering",
+    "fr": "ingénierie sociale",
+    "es": "ingeniería social",
+    "it": "ingegneria sociale",
+    "pt": "engenharia social",
+    "tr": "sosyal mühendislik"
+   },
+   "ex": {
+    "en": "Phishing is a form of social engineering."
+   }
+  },
+  {
+   "id": "it.insider-threat",
+   "t": {
+    "en": "insider threat",
+    "uk": "внутрішня загроза",
+    "ru": "внутренняя угроза",
+    "pl": "zagrożenie wewnętrzne",
+    "de": "Insider-Bedrohung",
+    "fr": "menace interne",
+    "es": "amenaza interna",
+    "it": "minaccia interna",
+    "pt": "ameaça interna",
+    "tr": "içeriden tehdit"
+   },
+   "ex": {
+    "en": "An angry employee is an insider threat."
+   }
+  },
+  {
+   "id": "it.data-warehouse",
+   "t": {
+    "en": "data warehouse",
+    "uk": "сховище даних",
+    "ru": "хранилище данных",
+    "pl": "hurtownia danych",
+    "de": "Data-Warehouse",
+    "fr": "entrepôt de données",
+    "es": "almacén de datos",
+    "it": "data warehouse",
+    "pt": "armazém de dados",
+    "tr": "veri ambarı"
+   },
+   "ex": {
+    "en": "Sales data goes into the data warehouse."
+   }
+  },
+  {
+   "id": "it.schema",
+   "t": {
+    "en": "schema",
+    "uk": "схема",
+    "ru": "схема",
+    "pl": "schemat",
+    "de": "Schema",
+    "fr": "schéma",
+    "es": "esquema",
+    "it": "schema",
+    "pt": "esquema",
+    "tr": "şema"
+   },
+   "ex": {
+    "en": "We changed the database schema."
+   }
+  },
+  {
+   "id": "it.data-integrity",
+   "t": {
+    "en": "data integrity",
+    "uk": "цілісність даних",
+    "ru": "целостность данных",
+    "pl": "integralność danych",
+    "de": "Datenintegrität",
+    "fr": "intégrité des données",
+    "es": "integridad de los datos",
+    "it": "integrità dei dati",
+    "pt": "integridade dos dados",
+    "tr": "veri bütünlüğü"
+   },
+   "ex": {
+    "en": "Backups protect data integrity."
+   }
+  },
+  {
+   "id": "it.data-governance",
+   "t": {
+    "en": "data governance",
+    "uk": "управління даними",
+    "ru": "управление данными",
+    "pl": "zarządzanie danymi",
+    "de": "Data Governance",
+    "fr": "gouvernance des données",
+    "es": "gobernanza de datos",
+    "it": "governance dei dati",
+    "pt": "governança de dados",
+    "tr": "veri yönetişimi"
+   },
+   "ex": {
+    "en": "Data governance defines who owns the data."
+   }
+  },
+  {
+   "id": "it.large-language-model",
+   "t": {
+    "en": "large language model",
+    "uk": "велика мовна модель",
+    "ru": "большая языковая модель",
+    "pl": "duży model językowy",
+    "de": "großes Sprachmodell",
+    "fr": "grand modèle de langage",
+    "es": "modelo de lenguaje grande",
+    "it": "modello linguistico di grandi dimensioni",
+    "pt": "modelo de linguagem grande",
+    "tr": "büyük dil modeli"
+   },
+   "ex": {
+    "en": "A large language model wrote the summary."
+   }
+  },
+  {
+   "id": "it.neural-network",
+   "t": {
+    "en": "neural network",
+    "uk": "нейронна мережа",
+    "ru": "нейронная сеть",
+    "pl": "sieć neuronowa",
+    "de": "neuronales Netz",
+    "fr": "réseau de neurones",
+    "es": "red neuronal",
+    "it": "rete neurale",
+    "pt": "rede neural",
+    "tr": "sinir ağı"
+   },
+   "ex": {
+    "en": "The neural network recognises faces."
+   }
+  },
+  {
+   "id": "it.training-data",
+   "t": {
+    "en": "training data",
+    "uk": "навчальні дані",
+    "ru": "обучающие данные",
+    "pl": "dane treningowe",
+    "de": "Trainingsdaten",
+    "fr": "données d'entraînement",
+    "es": "datos de entrenamiento",
+    "it": "dati di addestramento",
+    "pt": "dados de treinamento",
+    "tr": "eğitim verisi"
+   },
+   "ex": {
+    "en": "The model is only as good as its training data."
+   }
+  },
+  {
+   "id": "it.to-fine-tune",
+   "t": {
+    "en": "to fine-tune",
+    "uk": "донавчати",
+    "ru": "дообучать",
+    "pl": "dostrajać",
+    "de": "feinabstimmen",
+    "fr": "affiner",
+    "es": "ajustar",
+    "it": "perfezionare",
+    "pt": "ajustar finamente",
+    "tr": "ince ayar yapmak"
+   },
+   "ex": {
+    "en": "We fine-tuned the model on our data."
+   }
+  },
+  {
+   "id": "it.hallucination",
+   "t": {
+    "en": "hallucination",
+    "uk": "галюцинація",
+    "ru": "галлюцинация",
+    "pl": "halucynacja",
+    "de": "Halluzination",
+    "fr": "hallucination",
+    "es": "alucinación",
+    "it": "allucinazione",
+    "pt": "alucinação",
+    "tr": "halüsinasyon"
+   },
+   "ex": {
+    "en": "Always check AI answers for hallucinations."
+   }
+  },
+  {
+   "id": "it.explainability",
+   "t": {
+    "en": "explainability",
+    "uk": "пояснюваність",
+    "ru": "объяснимость",
+    "pl": "wyjaśnialność",
+    "de": "Erklärbarkeit",
+    "fr": "explicabilité",
+    "es": "explicabilidad",
+    "it": "spiegabilità",
+    "pt": "explicabilidade",
+    "tr": "açıklanabilirlik"
+   },
+   "ex": {
+    "en": "Explainability builds trust in AI."
+   }
+  },
+  {
+   "id": "it.technical-lead",
+   "t": {
+    "en": "technical lead",
+    "uk": "технічний лідер",
+    "ru": "технический руководитель",
+    "pl": "lider techniczny",
+    "de": "technischer Leiter",
+    "fr": "responsable technique",
+    "es": "responsable técnico",
+    "it": "responsabile tecnico",
+    "pt": "líder técnico",
+    "tr": "teknik lider"
+   },
+   "ex": {
+    "en": "The technical lead approved the design."
    }
   }
  ]

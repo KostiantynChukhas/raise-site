@@ -2,7 +2,7 @@
  "id": "sports-a1",
  "topic": "sports",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "sports.sport",
@@ -884,6 +884,384 @@
    },
    "ex": {
     "en": "Do you want to play tennis on Saturday?"
+   }
+  },
+  {
+   "id": "sports.swimming",
+   "t": {
+    "en": "swimming",
+    "uk": "плавання",
+    "ru": "плавание",
+    "pl": "pływanie",
+    "de": "Schwimmen",
+    "fr": "natation",
+    "es": "natación",
+    "it": "nuoto",
+    "pt": "natação",
+    "tr": "yüzme"
+   },
+   "ex": {
+    "en": "Swimming is good for your back."
+   }
+  },
+  {
+   "id": "sports.running",
+   "t": {
+    "en": "running",
+    "uk": "біг",
+    "ru": "бег",
+    "pl": "bieganie",
+    "de": "Laufen",
+    "fr": "course à pied",
+    "es": "correr",
+    "it": "corsa",
+    "pt": "corrida",
+    "tr": "koşu"
+   },
+   "ex": {
+    "en": "Running makes me happy."
+   }
+  },
+  {
+   "id": "sports.skiing",
+   "t": {
+    "en": "skiing",
+    "uk": "катання на лижах",
+    "ru": "катание на лыжах",
+    "pl": "narciarstwo",
+    "de": "Skifahren",
+    "fr": "ski",
+    "es": "esquí",
+    "it": "sci",
+    "pt": "esqui",
+    "tr": "kayak"
+   },
+   "ex": {
+    "en": "We love skiing in winter."
+   }
+  },
+  {
+   "id": "sports.rugby",
+   "t": {
+    "en": "rugby",
+    "uk": "регбі",
+    "ru": "регби",
+    "pl": "rugby",
+    "de": "Rugby",
+    "fr": "rugby",
+    "es": "rugby",
+    "it": "rugby",
+    "pt": "rúgbi",
+    "tr": "ragbi"
+   },
+   "ex": {
+    "en": "Rugby is very popular in Wales."
+   }
+  },
+  {
+   "id": "sports.baseball",
+   "t": {
+    "en": "baseball",
+    "uk": "бейсбол",
+    "ru": "бейсбол",
+    "pl": "baseball",
+    "de": "Baseball",
+    "fr": "baseball",
+    "es": "béisbol",
+    "it": "baseball",
+    "pt": "beisebol",
+    "tr": "beyzbol"
+   },
+   "ex": {
+    "en": "They play baseball in the park."
+   }
+  },
+  {
+   "id": "sports.chess",
+   "t": {
+    "en": "chess",
+    "uk": "шахи",
+    "ru": "шахматы",
+    "pl": "szachy",
+    "de": "Schach",
+    "fr": "échecs",
+    "es": "ajedrez",
+    "it": "scacchi",
+    "pt": "xadrez",
+    "tr": "satranç"
+   },
+   "ex": {
+    "en": "Chess is a sport for the mind."
+   }
+  },
+  {
+   "id": "sports.karate",
+   "t": {
+    "en": "karate",
+    "uk": "карате",
+    "ru": "карате",
+    "pl": "karate",
+    "de": "Karate",
+    "fr": "karaté",
+    "es": "kárate",
+    "it": "karate",
+    "pt": "caratê",
+    "tr": "karate"
+   },
+   "ex": {
+    "en": "My son does karate after school."
+   }
+  },
+  {
+   "id": "sports.judo",
+   "t": {
+    "en": "judo",
+    "uk": "дзюдо",
+    "ru": "дзюдо",
+    "pl": "judo",
+    "de": "Judo",
+    "fr": "judo",
+    "es": "judo",
+    "it": "judo",
+    "pt": "judô",
+    "tr": "judo"
+   },
+   "ex": {
+    "en": "She goes to judo on Mondays."
+   }
+  },
+  {
+   "id": "sports.rule",
+   "t": {
+    "en": "rule",
+    "uk": "правило",
+    "ru": "правило",
+    "pl": "zasada",
+    "de": "Regel",
+    "fr": "règle",
+    "es": "regla",
+    "it": "regola",
+    "pt": "regra",
+    "tr": "kural"
+   },
+   "ex": {
+    "en": "Do you know the rules of the game?"
+   }
+  },
+  {
+   "id": "sports.to-go-swimming",
+   "t": {
+    "en": "to go swimming",
+    "uk": "піти поплавати",
+    "ru": "пойти поплавать",
+    "pl": "iść popływać",
+    "de": "schwimmen gehen",
+    "fr": "aller nager",
+    "es": "ir a nadar",
+    "it": "andare a nuotare",
+    "pt": "ir nadar",
+    "tr": "yüzmeye gitmek"
+   },
+   "ex": {
+    "en": "Let's go swimming tomorrow."
+   }
+  },
+  {
+   "id": "sports.to-go-skiing",
+   "t": {
+    "en": "to go skiing",
+    "uk": "поїхати кататися на лижах",
+    "ru": "поехать кататься на лыжах",
+    "pl": "jechać na narty",
+    "de": "Ski fahren gehen",
+    "fr": "aller skier",
+    "es": "ir a esquiar",
+    "it": "andare a sciare",
+    "pt": "ir esquiar",
+    "tr": "kayağa gitmek"
+   },
+   "ex": {
+    "en": "We go skiing every February."
+   }
+  },
+  {
+   "id": "sports.to-play-basketball",
+   "t": {
+    "en": "to play basketball",
+    "uk": "грати в баскетбол",
+    "ru": "играть в баскетбол",
+    "pl": "grać w koszykówkę",
+    "de": "Basketball spielen",
+    "fr": "jouer au basket",
+    "es": "jugar al baloncesto",
+    "it": "giocare a basket",
+    "pt": "jogar basquete",
+    "tr": "basketbol oynamak"
+   },
+   "ex": {
+    "en": "Tall boys like to play basketball."
+   }
+  },
+  {
+   "id": "sports.favourite-sport",
+   "t": {
+    "en": "favourite sport",
+    "uk": "улюблений вид спорту",
+    "ru": "любимый вид спорта",
+    "pl": "ulubiony sport",
+    "de": "Lieblingssport",
+    "fr": "sport préféré",
+    "es": "deporte favorito",
+    "it": "sport preferito",
+    "pt": "esporte favorito",
+    "tr": "en sevdiğim spor"
+   },
+   "ex": {
+    "en": "What's your favourite sport?"
+   }
+  },
+  {
+   "id": "sports.skateboard",
+   "t": {
+    "en": "skateboard",
+    "uk": "скейтборд",
+    "ru": "скейтборд",
+    "pl": "deskorolka",
+    "de": "Skateboard",
+    "fr": "skateboard",
+    "es": "monopatín",
+    "it": "skateboard",
+    "pt": "skate",
+    "tr": "kaykay"
+   },
+   "ex": {
+    "en": "He rides his skateboard to school."
+   }
+  },
+  {
+   "id": "sports.water-bottle",
+   "t": {
+    "en": "water bottle",
+    "uk": "пляшка для води",
+    "ru": "бутылка для воды",
+    "pl": "butelka na wodę",
+    "de": "Trinkflasche",
+    "fr": "gourde",
+    "es": "botella de agua",
+    "it": "borraccia",
+    "pt": "garrafa de água",
+    "tr": "su şişesi"
+   },
+   "ex": {
+    "en": "Don't forget your water bottle."
+   }
+  },
+  {
+   "id": "sports.start",
+   "t": {
+    "en": "start",
+    "uk": "старт",
+    "ru": "старт",
+    "pl": "start",
+    "de": "Start",
+    "fr": "départ",
+    "es": "salida",
+    "it": "partenza",
+    "pt": "largada",
+    "tr": "start"
+   },
+   "ex": {
+    "en": "The start is at nine o'clock."
+   }
+  },
+  {
+   "id": "sports.bike-ride",
+   "t": {
+    "en": "bike ride",
+    "uk": "прогулянка на велосипеді",
+    "ru": "прогулка на велосипеде",
+    "pl": "przejażdżka rowerowa",
+    "de": "Radtour",
+    "fr": "balade à vélo",
+    "es": "paseo en bici",
+    "it": "giro in bici",
+    "pt": "passeio de bicicleta",
+    "tr": "bisiklet turu"
+   },
+   "ex": {
+    "en": "Let's go for a bike ride."
+   }
+  },
+  {
+   "id": "sports.to-ride-a-horse",
+   "t": {
+    "en": "to ride a horse",
+    "uk": "їздити верхи",
+    "ru": "ездить верхом",
+    "pl": "jeździć konno",
+    "de": "reiten",
+    "fr": "monter à cheval",
+    "es": "montar a caballo",
+    "it": "andare a cavallo",
+    "pt": "andar a cavalo",
+    "tr": "ata binmek"
+   },
+   "ex": {
+    "en": "Can you ride a horse?"
+   }
+  },
+  {
+   "id": "sports.to-play-chess",
+   "t": {
+    "en": "to play chess",
+    "uk": "грати в шахи",
+    "ru": "играть в шахматы",
+    "pl": "grać w szachy",
+    "de": "Schach spielen",
+    "fr": "jouer aux échecs",
+    "es": "jugar al ajedrez",
+    "it": "giocare a scacchi",
+    "pt": "jogar xadrez",
+    "tr": "satranç oynamak"
+   },
+   "ex": {
+    "en": "My grandad taught me to play chess."
+   }
+  },
+  {
+   "id": "sports.come-on",
+   "t": {
+    "en": "Come on!",
+    "uk": "Давай!",
+    "ru": "Давай!",
+    "pl": "Dalej!",
+    "de": "Los!",
+    "fr": "Allez !",
+    "es": "¡Vamos!",
+    "it": "Forza!",
+    "pt": "Vamos!",
+    "tr": "Haydi!"
+   },
+   "ex": {
+    "en": "Come on, you can do it!"
+   }
+  },
+  {
+   "id": "sports.bowling",
+   "t": {
+    "en": "bowling",
+    "uk": "боулінг",
+    "ru": "боулинг",
+    "pl": "kręgle",
+    "de": "Bowling",
+    "fr": "bowling",
+    "es": "bolos",
+    "it": "bowling",
+    "pt": "boliche",
+    "tr": "bowling"
+   },
+   "ex": {
+    "en": "Let's go bowling tonight."
    }
   }
  ]

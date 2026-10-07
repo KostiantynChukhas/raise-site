@@ -2,7 +2,7 @@
  "id": "shopping-c1",
  "topic": "shopping",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "shopping.chargeback",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "There's a 30% markdown on winter coats."
+   }
+  },
+  {
+   "id": "shopping.a-steal",
+   "t": {
+    "en": "a steal",
+    "uk": "за безцінь",
+    "ru": "даром",
+    "pl": "okazja",
+    "de": "ein Schnäppchen",
+    "fr": "une affaire",
+    "es": "una ganga",
+    "it": "un affare",
+    "pt": "uma pechincha",
+    "tr": "kelepir"
+   },
+   "ex": {
+    "en": "At ten euros, it's a steal."
+   }
+  },
+  {
+   "id": "shopping.going-for-a-song",
+   "t": {
+    "en": "going for a song",
+    "uk": "майже задарма",
+    "ru": "почти даром",
+    "pl": "za grosze",
+    "de": "spottbillig",
+    "fr": "pour une bouchée de pain",
+    "es": "tirado de precio",
+    "it": "per quattro soldi",
+    "pt": "a preço de banana",
+    "tr": "yok pahasına"
+   },
+   "ex": {
+    "en": "Old furniture is going for a song."
+   }
+  },
+  {
+   "id": "shopping.pricey",
+   "t": {
+    "en": "pricey",
+    "uk": "дорогуватий",
+    "ru": "дороговатый",
+    "pl": "drogawy",
+    "de": "teuer",
+    "fr": "cher",
+    "es": "carillo",
+    "it": "caro",
+    "pt": "caro",
+    "tr": "pahalıca"
+   },
+   "ex": {
+    "en": "That café is a bit pricey."
+   }
+  },
+  {
+   "id": "shopping.steep",
+   "t": {
+    "en": "steep",
+    "uk": "захмарний",
+    "ru": "заоблачный",
+    "pl": "wygórowany",
+    "de": "gesalzen",
+    "fr": "salé",
+    "es": "desorbitado",
+    "it": "salato",
+    "pt": "salgado",
+    "tr": "fahiş"
+   },
+   "ex": {
+    "en": "The prices there are steep."
+   }
+  },
+  {
+   "id": "shopping.price-fixing",
+   "t": {
+    "en": "price-fixing",
+    "uk": "змова щодо цін",
+    "ru": "ценовой сговор",
+    "pl": "zmowa cenowa",
+    "de": "Preisabsprache",
+    "fr": "entente sur les prix",
+    "es": "fijación de precios",
+    "it": "cartello dei prezzi",
+    "pt": "cartel de preços",
+    "tr": "fiyat anlaşması"
+   },
+   "ex": {
+    "en": "The firms were fined for price-fixing."
+   }
+  },
+  {
+   "id": "shopping.to-mark-up",
+   "t": {
+    "en": "to mark up",
+    "uk": "робити націнку",
+    "ru": "делать наценку",
+    "pl": "podnieść cenę",
+    "de": "den Preis aufschlagen",
+    "fr": "majorer",
+    "es": "aumentar el precio",
+    "it": "ricaricare",
+    "pt": "remarcar para cima",
+    "tr": "fiyat artırmak"
+   },
+   "ex": {
+    "en": "They mark up imported goods."
+   }
+  },
+  {
+   "id": "shopping.to-slash-prices",
+   "t": {
+    "en": "to slash prices",
+    "uk": "різко знизити ціни",
+    "ru": "резко снизить цены",
+    "pl": "drastycznie obniżyć ceny",
+    "de": "Preise drastisch senken",
+    "fr": "casser les prix",
+    "es": "bajar los precios drásticamente",
+    "it": "tagliare i prezzi",
+    "pt": "cortar preços",
+    "tr": "fiyatları düşürmek"
+   },
+   "ex": {
+    "en": "Shops slashed prices after Christmas."
+   }
+  },
+  {
+   "id": "shopping.rock-bottom-prices",
+   "t": {
+    "en": "rock-bottom prices",
+    "uk": "найнижчі ціни",
+    "ru": "самые низкие цены",
+    "pl": "najniższe ceny",
+    "de": "Tiefstpreise",
+    "fr": "prix plancher",
+    "es": "precios de risa",
+    "it": "prezzi stracciati",
+    "pt": "preços baixíssimos",
+    "tr": "dip fiyatlar"
+   },
+   "ex": {
+    "en": "They sell at rock-bottom prices."
+   }
+  },
+  {
+   "id": "shopping.discounter",
+   "t": {
+    "en": "discounter",
+    "uk": "дискаунтер",
+    "ru": "дискаунтер",
+    "pl": "dyskont",
+    "de": "Discounter",
+    "fr": "magasin discount",
+    "es": "tienda de descuento",
+    "it": "discount",
+    "pt": "loja de descontos",
+    "tr": "indirim marketi"
+   },
+   "ex": {
+    "en": "I buy basics at the discounter."
+   }
+  },
+  {
+   "id": "shopping.pound-shop",
+   "t": {
+    "en": "pound shop",
+    "uk": "магазин усе по одній ціні",
+    "ru": "магазин фиксированной цены",
+    "pl": "sklep „wszystko za złotówkę”",
+    "de": "Ein-Euro-Laden",
+    "fr": "magasin à un euro",
+    "es": "tienda de todo a un euro",
+    "it": "negozio a un euro",
+    "pt": "loja de 1,99",
+    "tr": "her şey 1 lira dükkânı"
+   },
+   "ex": {
+    "en": "I got these candles at the pound shop."
+   }
+  },
+  {
+   "id": "shopping.hypermarket",
+   "t": {
+    "en": "hypermarket",
+    "uk": "гіпермаркет",
+    "ru": "гипермаркет",
+    "pl": "hipermarket",
+    "de": "Verbrauchermarkt",
+    "fr": "hypermarché",
+    "es": "hipermercado",
+    "it": "ipermercato",
+    "pt": "hipermercado",
+    "tr": "hipermarket"
+   },
+   "ex": {
+    "en": "The hypermarket sells everything."
+   }
+  },
+  {
+   "id": "shopping.emporium",
+   "t": {
+    "en": "emporium",
+    "uk": "торговий дім",
+    "ru": "торговый дом",
+    "pl": "dom towarowy",
+    "de": "Warenhaus",
+    "fr": "grand magasin",
+    "es": "emporio",
+    "it": "emporio",
+    "pt": "empório",
+    "tr": "büyük mağaza"
+   },
+   "ex": {
+    "en": "It's a vast antiques emporium."
+   }
+  },
+  {
+   "id": "shopping.vendor",
+   "t": {
+    "en": "vendor",
+    "uk": "продавець",
+    "ru": "продавец",
+    "pl": "sprzedawca",
+    "de": "Verkäufer",
+    "fr": "vendeur",
+    "es": "vendedor",
+    "it": "venditore",
+    "pt": "vendedor",
+    "tr": "satıcı"
+   },
+   "ex": {
+    "en": "The vendor gave me a good price."
+   }
+  },
+  {
+   "id": "shopping.hawker",
+   "t": {
+    "en": "hawker",
+    "uk": "вуличний торговець",
+    "ru": "уличный торговец",
+    "pl": "domokrążca",
+    "de": "Straßenhändler",
+    "fr": "colporteur",
+    "es": "vendedor ambulante",
+    "it": "venditore ambulante",
+    "pt": "camelô",
+    "tr": "seyyar satıcı"
+   },
+   "ex": {
+    "en": "Hawkers sell food on the beach."
+   }
+  },
+  {
+   "id": "shopping.street-vendor",
+   "t": {
+    "en": "street vendor",
+    "uk": "вуличний продавець",
+    "ru": "уличный продавец",
+    "pl": "sprzedawca uliczny",
+    "de": "fliegender Händler",
+    "fr": "marchand ambulant",
+    "es": "vendedor callejero",
+    "it": "venditore di strada",
+    "pt": "vendedor de rua",
+    "tr": "sokak satıcısı"
+   },
+   "ex": {
+    "en": "I bought corn from a street vendor."
+   }
+  },
+  {
+   "id": "shopping.to-tout",
+   "t": {
+    "en": "to tout",
+    "uk": "нав'язувати товар",
+    "ru": "навязывать товар",
+    "pl": "naganiać klientów",
+    "de": "anpreisen",
+    "fr": "racoler",
+    "es": "pregonar",
+    "it": "adescare clienti",
+    "pt": "aliciar",
+    "tr": "müşteri kovalamak"
+   },
+   "ex": {
+    "en": "Men were touting cheap watches."
+   }
+  },
+  {
+   "id": "shopping.mail-order",
+   "t": {
+    "en": "mail order",
+    "uk": "замовлення поштою",
+    "ru": "заказ по почте",
+    "pl": "sprzedaż wysyłkowa",
+    "de": "Versandhandel",
+    "fr": "vente par correspondance",
+    "es": "venta por correo",
+    "it": "vendita per corrispondenza",
+    "pt": "venda por correspondência",
+    "tr": "posta ile sipariş"
+   },
+   "ex": {
+    "en": "My grandma loved mail order shopping."
+   }
+  },
+  {
+   "id": "shopping.window-display",
+   "t": {
+    "en": "window display",
+    "uk": "вітрина",
+    "ru": "витрина",
+    "pl": "ekspozycja witrynowa",
+    "de": "Schaufensterauslage",
+    "fr": "vitrine",
+    "es": "escaparate",
+    "it": "vetrina",
+    "pt": "vitrine",
+    "tr": "vitrin düzeni"
+   },
+   "ex": {
+    "en": "The Christmas window display is stunning."
+   }
+  },
+  {
+   "id": "shopping.merchandising",
+   "t": {
+    "en": "merchandising",
+    "uk": "мерчандайзинг",
+    "ru": "мерчандайзинг",
+    "pl": "merchandising",
+    "de": "Merchandising",
+    "fr": "marchandisage",
+    "es": "merchandising",
+    "it": "merchandising",
+    "pt": "merchandising",
+    "tr": "ürün yerleştirme"
+   },
+   "ex": {
+    "en": "Good merchandising boosts sales."
+   }
+  },
+  {
+   "id": "shopping.point-of-sale",
+   "t": {
+    "en": "point of sale",
+    "uk": "точка продажу",
+    "ru": "точка продаж",
+    "pl": "punkt sprzedaży",
+    "de": "Verkaufsstelle",
+    "fr": "point de vente",
+    "es": "punto de venta",
+    "it": "punto vendita",
+    "pt": "ponto de venda",
+    "tr": "satış noktası"
+   },
+   "ex": {
+    "en": "Pay at the point of sale."
+   }
+  },
+  {
+   "id": "shopping.shrinkage",
+   "t": {
+    "en": "shrinkage",
+    "uk": "втрати товару",
+    "ru": "потери товара",
+    "pl": "ubytek towaru",
+    "de": "Inventurdifferenz",
+    "fr": "démarque inconnue",
+    "es": "merma",
+    "it": "ammanco",
+    "pt": "quebra de estoque",
+    "tr": "stok kaybı"
+   },
+   "ex": {
+    "en": "Theft causes most shrinkage."
+   }
+  },
+  {
+   "id": "shopping.stocktake",
+   "t": {
+    "en": "stocktake",
+    "uk": "інвентаризація",
+    "ru": "инвентаризация",
+    "pl": "inwentaryzacja",
+    "de": "Inventur",
+    "fr": "inventaire",
+    "es": "inventario",
+    "it": "inventario",
+    "pt": "inventário",
+    "tr": "stok sayımı"
+   },
+   "ex": {
+    "en": "The shop is closed for stocktake."
+   }
+  },
+  {
+   "id": "shopping.overstock",
+   "t": {
+    "en": "overstock",
+    "uk": "надлишок товару",
+    "ru": "излишек товара",
+    "pl": "nadmiar towaru",
+    "de": "Überbestand",
+    "fr": "surstock",
+    "es": "exceso de existencias",
+    "it": "sovrascorta",
+    "pt": "excesso de estoque",
+    "tr": "fazla stok"
+   },
+   "ex": {
+    "en": "They sell overstock at a discount."
+   }
+  },
+  {
+   "id": "shopping.end-of-line",
+   "t": {
+    "en": "end-of-line",
+    "uk": "знятий з виробництва",
+    "ru": "снятый с производства",
+    "pl": "końcówka serii",
+    "de": "Auslaufmodell",
+    "fr": "fin de série",
+    "es": "fin de serie",
+    "it": "fine serie",
+    "pt": "ponta de estoque",
+    "tr": "seri sonu"
+   },
+   "ex": {
+    "en": "End-of-line items are half price."
+   }
+  },
+  {
+   "id": "shopping.factory-seconds",
+   "t": {
+    "en": "factory seconds",
+    "uk": "товари з дефектом",
+    "ru": "товары с браком",
+    "pl": "towar drugiego gatunku",
+    "de": "Ware zweiter Wahl",
+    "fr": "articles de second choix",
+    "es": "artículos con tara",
+    "it": "articoli di seconda scelta",
+    "pt": "produtos com defeito",
+    "tr": "defolu ürünler"
+   },
+   "ex": {
+    "en": "Factory seconds are much cheaper."
+   }
+  },
+  {
+   "id": "shopping.closing-down-sale",
+   "t": {
+    "en": "closing-down sale",
+    "uk": "розпродаж через закриття",
+    "ru": "распродажа из-за закрытия",
+    "pl": "wyprzedaż likwidacyjna",
+    "de": "Räumungsverkauf",
+    "fr": "liquidation totale",
+    "es": "liquidación por cierre",
+    "it": "svendita totale",
+    "pt": "liquidação por fechamento",
+    "tr": "kapanış indirimi"
+   },
+   "ex": {
+    "en": "The bookshop is having a closing-down sale."
+   }
+  },
+  {
+   "id": "shopping.liquidation",
+   "t": {
+    "en": "liquidation",
+    "uk": "ліквідація",
+    "ru": "ликвидация",
+    "pl": "likwidacja",
+    "de": "Liquidation",
+    "fr": "liquidation",
+    "es": "liquidación",
+    "it": "liquidazione",
+    "pt": "liquidação",
+    "tr": "tasfiye"
+   },
+   "ex": {
+    "en": "The chain went into liquidation."
+   }
+  },
+  {
+   "id": "shopping.everything-must-go",
+   "t": {
+    "en": "everything must go",
+    "uk": "розпродаж усього",
+    "ru": "распродаём всё",
+    "pl": "wszystko musi zniknąć",
+    "de": "alles muss raus",
+    "fr": "tout doit disparaître",
+    "es": "se liquida todo",
+    "it": "svendiamo tutto",
+    "pt": "queima total",
+    "tr": "her şey satılık"
+   },
+   "ex": {
+    "en": "The sign said: everything must go!"
+   }
+  },
+  {
+   "id": "shopping.bundle",
+   "t": {
+    "en": "bundle",
+    "uk": "комплект",
+    "ru": "комплект",
+    "pl": "pakiet",
+    "de": "Paket",
+    "fr": "lot",
+    "es": "paquete",
+    "it": "pacchetto",
+    "pt": "pacote",
+    "tr": "paket"
+   },
+   "ex": {
+    "en": "The phone comes in a bundle with headphones."
+   }
+  },
+  {
+   "id": "shopping.add-on",
+   "t": {
+    "en": "add-on",
+    "uk": "доповнення",
+    "ru": "дополнение",
+    "pl": "dodatek",
+    "de": "Zusatzartikel",
+    "fr": "option",
+    "es": "complemento",
+    "it": "componente aggiuntivo",
+    "pt": "complemento",
+    "tr": "ek ürün"
+   },
+   "ex": {
+    "en": "Insurance is an optional add-on."
+   }
+  },
+  {
+   "id": "shopping.white-goods",
+   "t": {
+    "en": "white goods",
+    "uk": "велика побутова техніка",
+    "ru": "крупная бытовая техника",
+    "pl": "sprzęt AGD",
+    "de": "weiße Ware",
+    "fr": "électroménager",
+    "es": "electrodomésticos de línea blanca",
+    "it": "elettrodomestici bianchi",
+    "pt": "linha branca",
+    "tr": "beyaz eşya"
+   },
+   "ex": {
+    "en": "White goods are on the ground floor."
+   }
+  },
+  {
+   "id": "shopping.consumer-goods",
+   "t": {
+    "en": "consumer goods",
+    "uk": "споживчі товари",
+    "ru": "потребительские товары",
+    "pl": "dobra konsumpcyjne",
+    "de": "Konsumgüter",
+    "fr": "biens de consommation",
+    "es": "bienes de consumo",
+    "it": "beni di consumo",
+    "pt": "bens de consumo",
+    "tr": "tüketim malları"
+   },
+   "ex": {
+    "en": "Consumer goods prices rose again."
+   }
+  },
+  {
+   "id": "shopping.non-essentials",
+   "t": {
+    "en": "non-essentials",
+    "uk": "предмети не першої необхідності",
+    "ru": "товары не первой необходимости",
+    "pl": "rzeczy niekonieczne",
+    "de": "nicht lebensnotwendige Waren",
+    "fr": "produits non essentiels",
+    "es": "productos no esenciales",
+    "it": "beni non essenziali",
+    "pt": "itens não essenciais",
+    "tr": "zorunlu olmayan ürünler"
+   },
+   "ex": {
+    "en": "We cut back on non-essentials."
+   }
+  },
+  {
+   "id": "shopping.indulgence",
+   "t": {
+    "en": "indulgence",
+    "uk": "розкіш",
+    "ru": "баловство",
+    "pl": "przyjemność",
+    "de": "Luxus",
+    "fr": "petit plaisir",
+    "es": "capricho",
+    "it": "sfizio",
+    "pt": "luxo",
+    "tr": "keyif"
+   },
+   "ex": {
+    "en": "Chocolate is my one indulgence."
+   }
+  },
+  {
+   "id": "shopping.compulsive-buying",
+   "t": {
+    "en": "compulsive buying",
+    "uk": "компульсивні покупки",
+    "ru": "компульсивные покупки",
+    "pl": "kompulsywne kupowanie",
+    "de": "Kaufsucht",
+    "fr": "achat compulsif",
+    "es": "compra compulsiva",
+    "it": "acquisto compulsivo",
+    "pt": "compra compulsiva",
+    "tr": "kontrolsüz alışveriş"
+   },
+   "ex": {
+    "en": "Compulsive buying can ruin you."
+   }
+  },
+  {
+   "id": "shopping.to-hoard",
+   "t": {
+    "en": "to hoard",
+    "uk": "робити запаси",
+    "ru": "делать запасы",
+    "pl": "gromadzić",
+    "de": "horten",
+    "fr": "amasser",
+    "es": "acaparar",
+    "it": "accaparrare",
+    "pt": "acumular",
+    "tr": "istiflemek"
+   },
+   "ex": {
+    "en": "People hoarded toilet paper."
+   }
+  },
+  {
+   "id": "shopping.thrift-store",
+   "t": {
+    "en": "thrift store",
+    "uk": "секонд-хенд",
+    "ru": "секонд-хенд",
+    "pl": "sklep z używaną odzieżą",
+    "de": "Secondhandladen",
+    "fr": "friperie",
+    "es": "tienda de segunda mano",
+    "it": "negozio dell'usato",
+    "pt": "brechó",
+    "tr": "ikinci el mağazası"
+   },
+   "ex": {
+    "en": "I found this jacket in a thrift store."
+   }
+  },
+  {
+   "id": "shopping.to-economise",
+   "t": {
+    "en": "to economise",
+    "uk": "заощаджувати",
+    "ru": "экономить",
+    "pl": "oszczędzać",
+    "de": "sparen",
+    "fr": "économiser",
+    "es": "economizar",
+    "it": "risparmiare",
+    "pt": "economizar",
+    "tr": "tasarruf etmek"
+   },
+   "ex": {
+    "en": "We need to economise on food."
+   }
+  },
+  {
+   "id": "shopping.discerning",
+   "t": {
+    "en": "discerning",
+    "uk": "вибагливий",
+    "ru": "взыскательный",
+    "pl": "wymagający",
+    "de": "anspruchsvoll",
+    "fr": "exigeant",
+    "es": "exigente",
+    "it": "esigente",
+    "pt": "exigente",
+    "tr": "seçici"
+   },
+   "ex": {
+    "en": "This shop is for discerning buyers."
+   }
+  },
+  {
+   "id": "shopping.savvy-shopper",
+   "t": {
+    "en": "savvy shopper",
+    "uk": "кмітливий покупець",
+    "ru": "расчётливый покупатель",
+    "pl": "sprytny klient",
+    "de": "cleverer Käufer",
+    "fr": "consommateur avisé",
+    "es": "comprador astuto",
+    "it": "acquirente accorto",
+    "pt": "consumidor esperto",
+    "tr": "bilinçli alışverişçi"
+   },
+   "ex": {
+    "en": "A savvy shopper compares prices."
+   }
+  },
+  {
+   "id": "shopping.to-scrutinise",
+   "t": {
+    "en": "to scrutinise",
+    "uk": "ретельно вивчати",
+    "ru": "тщательно изучать",
+    "pl": "dokładnie analizować",
+    "de": "genau prüfen",
+    "fr": "examiner minutieusement",
+    "es": "examinar",
+    "it": "esaminare attentamente",
+    "pt": "examinar",
+    "tr": "incelemek"
+   },
+   "ex": {
+    "en": "Scrutinise the bill before paying."
+   }
+  },
+  {
+   "id": "shopping.to-scour-the-shops",
+   "t": {
+    "en": "to scour the shops",
+    "uk": "обходити всі магазини",
+    "ru": "обойти все магазины",
+    "pl": "przeszukać sklepy",
+    "de": "alle Läden abklappern",
+    "fr": "écumer les magasins",
+    "es": "recorrer todas las tiendas",
+    "it": "girare tutti i negozi",
+    "pt": "percorrer as lojas",
+    "tr": "dükkân dükkân dolaşmak"
+   },
+   "ex": {
+    "en": "I scoured the shops for a gift."
+   }
+  },
+  {
+   "id": "shopping.to-rifle-through",
+   "t": {
+    "en": "to rifle through",
+    "uk": "ритися в",
+    "ru": "рыться в",
+    "pl": "grzebać w",
+    "de": "durchwühlen",
+    "fr": "fouiller dans",
+    "es": "rebuscar en",
+    "it": "frugare in",
+    "pt": "vasculhar",
+    "tr": "karıştırmak"
+   },
+   "ex": {
+    "en": "She rifled through the sale rail."
+   }
+  },
+  {
+   "id": "shopping.bespoke",
+   "t": {
+    "en": "bespoke",
+    "uk": "на замовлення",
+    "ru": "на заказ",
+    "pl": "szyty na miarę",
+    "de": "maßgeschneidert",
+    "fr": "sur mesure",
+    "es": "a medida",
+    "it": "su misura",
+    "pt": "sob medida",
+    "tr": "ısmarlama"
+   },
+   "ex": {
+    "en": "He wears bespoke suits."
+   }
+  },
+  {
+   "id": "shopping.ready-to-wear",
+   "t": {
+    "en": "ready-to-wear",
+    "uk": "готовий одяг",
+    "ru": "готовая одежда",
+    "pl": "konfekcja",
+    "de": "Konfektion",
+    "fr": "prêt-à-porter",
+    "es": "prêt-à-porter",
+    "it": "prêt-à-porter",
+    "pt": "pronta entrega",
+    "tr": "hazır giyim"
+   },
+   "ex": {
+    "en": "The designer launched a ready-to-wear line."
+   }
+  },
+  {
+   "id": "shopping.apparel",
+   "t": {
+    "en": "apparel",
+    "uk": "одяг",
+    "ru": "одежда",
+    "pl": "odzież",
+    "de": "Bekleidung",
+    "fr": "habillement",
+    "es": "ropa",
+    "it": "abbigliamento",
+    "pt": "vestuário",
+    "tr": "giyim"
+   },
+   "ex": {
+    "en": "The store sells sports apparel."
+   }
+  },
+  {
+   "id": "shopping.attire",
+   "t": {
+    "en": "attire",
+    "uk": "вбрання",
+    "ru": "облачение",
+    "pl": "strój",
+    "de": "Kleidung",
+    "fr": "tenue",
+    "es": "atuendo",
+    "it": "tenuta",
+    "pt": "traje",
+    "tr": "kıyafet"
+   },
+   "ex": {
+    "en": "Business attire is required."
+   }
+  },
+  {
+   "id": "shopping.to-accessorise",
+   "t": {
+    "en": "to accessorise",
+    "uk": "доповнювати аксесуарами",
+    "ru": "дополнять аксессуарами",
+    "pl": "dodawać dodatki",
+    "de": "mit Accessoires kombinieren",
+    "fr": "accessoiriser",
+    "es": "complementar",
+    "it": "abbinare accessori",
+    "pt": "acessorizar",
+    "tr": "aksesuarla tamamlamak"
+   },
+   "ex": {
+    "en": "Accessorise with a silk scarf."
+   }
+  },
+  {
+   "id": "shopping.statement-piece",
+   "t": {
+    "en": "statement piece",
+    "uk": "акцентна річ",
+    "ru": "акцентная вещь",
+    "pl": "element przyciągający uwagę",
+    "de": "Statement-Piece",
+    "fr": "pièce forte",
+    "es": "prenda estrella",
+    "it": "capo statement",
+    "pt": "peça de destaque",
+    "tr": "dikkat çekici parça"
+   },
+   "ex": {
+    "en": "This necklace is a statement piece."
+   }
+  },
+  {
+   "id": "shopping.capsule-wardrobe",
+   "t": {
+    "en": "capsule wardrobe",
+    "uk": "капсульний гардероб",
+    "ru": "капсульный гардероб",
+    "pl": "garderoba kapsułowa",
+    "de": "Capsule Wardrobe",
+    "fr": "garde-robe capsule",
+    "es": "armario cápsula",
+    "it": "guardaroba capsula",
+    "pt": "guarda-roupa cápsula",
+    "tr": "kapsül gardırop"
+   },
+   "ex": {
+    "en": "A capsule wardrobe saves money."
    }
   }
  ]

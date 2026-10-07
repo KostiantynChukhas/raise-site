@@ -2,7 +2,7 @@
  "id": "food-a2",
  "topic": "food",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "food.soup",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "Do you have any vegan dishes?"
+   }
+  },
+  {
+   "id": "food.cabbage",
+   "t": {
+    "en": "cabbage",
+    "uk": "капуста",
+    "ru": "капуста",
+    "pl": "kapusta",
+    "de": "Kohl",
+    "fr": "chou",
+    "es": "col",
+    "it": "cavolo",
+    "pt": "repolho",
+    "tr": "lahana"
+   },
+   "ex": {
+    "en": "My grandma makes cabbage soup."
+   }
+  },
+  {
+   "id": "food.lettuce",
+   "t": {
+    "en": "lettuce",
+    "uk": "листовий салат",
+    "ru": "листовой салат",
+    "pl": "sałata",
+    "de": "Kopfsalat",
+    "fr": "laitue",
+    "es": "lechuga",
+    "it": "lattuga",
+    "pt": "alface",
+    "tr": "marul"
+   },
+   "ex": {
+    "en": "Wash the lettuce well."
+   }
+  },
+  {
+   "id": "food.broccoli",
+   "t": {
+    "en": "broccoli",
+    "uk": "броколі",
+    "ru": "брокколи",
+    "pl": "brokuły",
+    "de": "Brokkoli",
+    "fr": "brocoli",
+    "es": "brócoli",
+    "it": "broccoli",
+    "pt": "brócolis",
+    "tr": "brokoli"
+   },
+   "ex": {
+    "en": "Broccoli is good for you."
+   }
+  },
+  {
+   "id": "food.spinach",
+   "t": {
+    "en": "spinach",
+    "uk": "шпинат",
+    "ru": "шпинат",
+    "pl": "szpinak",
+    "de": "Spinat",
+    "fr": "épinards",
+    "es": "espinacas",
+    "it": "spinaci",
+    "pt": "espinafre",
+    "tr": "ıspanak"
+   },
+   "ex": {
+    "en": "I put spinach in my omelette."
+   }
+  },
+  {
+   "id": "food.pumpkin",
+   "t": {
+    "en": "pumpkin",
+    "uk": "гарбуз",
+    "ru": "тыква",
+    "pl": "dynia",
+    "de": "Kürbis",
+    "fr": "citrouille",
+    "es": "calabaza",
+    "it": "zucca",
+    "pt": "abóbora",
+    "tr": "bal kabağı"
+   },
+   "ex": {
+    "en": "We made pumpkin soup."
+   }
+  },
+  {
+   "id": "food.peas",
+   "t": {
+    "en": "peas",
+    "uk": "зелений горошок",
+    "ru": "зелёный горошек",
+    "pl": "groszek",
+    "de": "Erbsen",
+    "fr": "petits pois",
+    "es": "guisantes",
+    "it": "piselli",
+    "pt": "ervilhas",
+    "tr": "bezelye"
+   },
+   "ex": {
+    "en": "Add some peas to the rice."
+   }
+  },
+  {
+   "id": "food.raspberry",
+   "t": {
+    "en": "raspberry",
+    "uk": "малина",
+    "ru": "малина",
+    "pl": "malina",
+    "de": "Himbeere",
+    "fr": "framboise",
+    "es": "frambuesa",
+    "it": "lampone",
+    "pt": "framboesa",
+    "tr": "ahududu"
+   },
+   "ex": {
+    "en": "She picked raspberries in the garden."
+   }
+  },
+  {
+   "id": "food.blueberry",
+   "t": {
+    "en": "blueberry",
+    "uk": "чорниця",
+    "ru": "черника",
+    "pl": "borówka",
+    "de": "Heidelbeere",
+    "fr": "myrtille",
+    "es": "arándano",
+    "it": "mirtillo",
+    "pt": "mirtilo",
+    "tr": "yaban mersini"
+   },
+   "ex": {
+    "en": "I put blueberries on my yogurt."
+   }
+  },
+  {
+   "id": "food.avocado",
+   "t": {
+    "en": "avocado",
+    "uk": "авокадо",
+    "ru": "авокадо",
+    "pl": "awokado",
+    "de": "Avocado",
+    "fr": "avocat",
+    "es": "aguacate",
+    "it": "avocado",
+    "pt": "abacate",
+    "tr": "avokado"
+   },
+   "ex": {
+    "en": "Avocado on toast is popular."
+   }
+  },
+  {
+   "id": "food.mango",
+   "t": {
+    "en": "mango",
+    "uk": "манго",
+    "ru": "манго",
+    "pl": "mango",
+    "de": "Mango",
+    "fr": "mangue",
+    "es": "mango",
+    "it": "mango",
+    "pt": "manga",
+    "tr": "mango"
+   },
+   "ex": {
+    "en": "This mango is perfectly ripe."
+   }
+  },
+  {
+   "id": "food.bacon",
+   "t": {
+    "en": "bacon",
+    "uk": "бекон",
+    "ru": "бекон",
+    "pl": "boczek",
+    "de": "Speck",
+    "fr": "bacon",
+    "es": "beicon",
+    "it": "pancetta",
+    "pt": "bacon",
+    "tr": "domuz pastırması"
+   },
+   "ex": {
+    "en": "He had bacon and eggs."
+   }
+  },
+  {
+   "id": "food.tuna",
+   "t": {
+    "en": "tuna",
+    "uk": "тунець",
+    "ru": "тунец",
+    "pl": "tuńczyk",
+    "de": "Thunfisch",
+    "fr": "thon",
+    "es": "atún",
+    "it": "tonno",
+    "pt": "atum",
+    "tr": "ton balığı"
+   },
+   "ex": {
+    "en": "I made a tuna salad."
+   }
+  },
+  {
+   "id": "food.prawns",
+   "t": {
+    "en": "prawns",
+    "uk": "креветки",
+    "ru": "креветки",
+    "pl": "krewetki",
+    "de": "Garnelen",
+    "fr": "crevettes",
+    "es": "gambas",
+    "it": "gamberi",
+    "pt": "camarões",
+    "tr": "karides"
+   },
+   "ex": {
+    "en": "We ordered grilled prawns."
+   }
+  },
+  {
+   "id": "food.noodles",
+   "t": {
+    "en": "noodles",
+    "uk": "локшина",
+    "ru": "лапша",
+    "pl": "nudle",
+    "de": "Nudeln",
+    "fr": "nouilles",
+    "es": "fideos",
+    "it": "noodle",
+    "pt": "macarrão",
+    "tr": "erişte"
+   },
+   "ex": {
+    "en": "I had chicken noodles for lunch."
+   }
+  },
+  {
+   "id": "food.pie",
+   "t": {
+    "en": "pie",
+    "uk": "пиріг",
+    "ru": "пирог",
+    "pl": "placek",
+    "de": "Pastete",
+    "fr": "tourte",
+    "es": "pastel",
+    "it": "torta",
+    "pt": "torta",
+    "tr": "turta"
+   },
+   "ex": {
+    "en": "Mum baked an apple pie."
+   }
+  },
+  {
+   "id": "food.cereal",
+   "t": {
+    "en": "cereal",
+    "uk": "пластівці",
+    "ru": "хлопья",
+    "pl": "płatki śniadaniowe",
+    "de": "Frühstücksflocken",
+    "fr": "céréales",
+    "es": "cereales",
+    "it": "cereali",
+    "pt": "cereal",
+    "tr": "mısır gevreği"
+   },
+   "ex": {
+    "en": "The kids eat cereal with milk."
+   }
+  },
+  {
+   "id": "food.crisps",
+   "t": {
+    "en": "crisps",
+    "uk": "чипси",
+    "ru": "чипсы",
+    "pl": "chipsy",
+    "de": "Chips",
+    "fr": "chips",
+    "es": "patatas de bolsa",
+    "it": "patatine in busta",
+    "pt": "batata chips",
+    "tr": "cips"
+   },
+   "ex": {
+    "en": "A packet of crisps, please."
+   }
+  },
+  {
+   "id": "food.mustard",
+   "t": {
+    "en": "mustard",
+    "uk": "гірчиця",
+    "ru": "горчица",
+    "pl": "musztarda",
+    "de": "Senf",
+    "fr": "moutarde",
+    "es": "mostaza",
+    "it": "senape",
+    "pt": "mostarda",
+    "tr": "hardal"
+   },
+   "ex": {
+    "en": "Do you want mustard on your hot dog?"
+   }
+  },
+  {
+   "id": "food.mayonnaise",
+   "t": {
+    "en": "mayonnaise",
+    "uk": "майонез",
+    "ru": "майонез",
+    "pl": "majonez",
+    "de": "Mayonnaise",
+    "fr": "mayonnaise",
+    "es": "mayonesa",
+    "it": "maionese",
+    "pt": "maionese",
+    "tr": "mayonez"
+   },
+   "ex": {
+    "en": "No mayonnaise for me, thanks."
+   }
+  },
+  {
+   "id": "food.olive-oil",
+   "t": {
+    "en": "olive oil",
+    "uk": "оливкова олія",
+    "ru": "оливковое масло",
+    "pl": "oliwa z oliwek",
+    "de": "Olivenöl",
+    "fr": "huile d'olive",
+    "es": "aceite de oliva",
+    "it": "olio d'oliva",
+    "pt": "azeite",
+    "tr": "zeytinyağı"
+   },
+   "ex": {
+    "en": "Cook the onions in olive oil."
+   }
+  },
+  {
+   "id": "food.fried-egg",
+   "t": {
+    "en": "fried egg",
+    "uk": "смажене яйце",
+    "ru": "яичница-глазунья",
+    "pl": "jajko sadzone",
+    "de": "Spiegelei",
+    "fr": "œuf au plat",
+    "es": "huevo frito",
+    "it": "uovo fritto",
+    "pt": "ovo frito",
+    "tr": "sahanda yumurta"
+   },
+   "ex": {
+    "en": "I'd like a fried egg on toast."
+   }
+  },
+  {
+   "id": "food.scrambled-eggs",
+   "t": {
+    "en": "scrambled eggs",
+    "uk": "яєчня-бовтанка",
+    "ru": "яичница-болтунья",
+    "pl": "jajecznica",
+    "de": "Rührei",
+    "fr": "œufs brouillés",
+    "es": "huevos revueltos",
+    "it": "uova strapazzate",
+    "pt": "ovos mexidos",
+    "tr": "çırpılmış yumurta"
+   },
+   "ex": {
+    "en": "He makes great scrambled eggs."
+   }
+  },
+  {
+   "id": "food.mashed-potatoes",
+   "t": {
+    "en": "mashed potatoes",
+    "uk": "картопляне пюре",
+    "ru": "картофельное пюре",
+    "pl": "purée ziemniaczane",
+    "de": "Kartoffelpüree",
+    "fr": "purée de pommes de terre",
+    "es": "puré de patatas",
+    "it": "purè di patate",
+    "pt": "purê de batata",
+    "tr": "patates püresi"
+   },
+   "ex": {
+    "en": "Sausages with mashed potatoes, please."
+   }
+  },
+  {
+   "id": "food.fast-food",
+   "t": {
+    "en": "fast food",
+    "uk": "фастфуд",
+    "ru": "фастфуд",
+    "pl": "fast food",
+    "de": "Fast Food",
+    "fr": "restauration rapide",
+    "es": "comida rápida",
+    "it": "fast food",
+    "pt": "fast-food",
+    "tr": "fast food"
+   },
+   "ex": {
+    "en": "I try not to eat fast food."
+   }
+  },
+  {
+   "id": "food.to-pour",
+   "t": {
+    "en": "to pour",
+    "uk": "наливати",
+    "ru": "наливать",
+    "pl": "nalewać",
+    "de": "eingießen",
+    "fr": "verser",
+    "es": "verter",
+    "it": "versare",
+    "pt": "despejar",
+    "tr": "dökmek"
+   },
+   "ex": {
+    "en": "Pour the milk into the bowl."
+   }
+  },
+  {
+   "id": "food.to-heat",
+   "t": {
+    "en": "to heat",
+    "uk": "нагрівати",
+    "ru": "нагревать",
+    "pl": "podgrzewać",
+    "de": "erhitzen",
+    "fr": "chauffer",
+    "es": "calentar",
+    "it": "scaldare",
+    "pt": "aquecer",
+    "tr": "ısıtmak"
+   },
+   "ex": {
+    "en": "Heat the oil in a pan."
+   }
+  },
+  {
+   "id": "food.loaf",
+   "t": {
+    "en": "loaf",
+    "uk": "буханка",
+    "ru": "буханка",
+    "pl": "bochenek",
+    "de": "Laib",
+    "fr": "miche",
+    "es": "hogaza",
+    "it": "pagnotta",
+    "pt": "pão de forma",
+    "tr": "somun"
+   },
+   "ex": {
+    "en": "Buy a loaf of bread, please."
+   }
+  },
+  {
+   "id": "food.black-coffee",
+   "t": {
+    "en": "black coffee",
+    "uk": "чорна кава",
+    "ru": "чёрный кофе",
+    "pl": "czarna kawa",
+    "de": "schwarzer Kaffee",
+    "fr": "café noir",
+    "es": "café solo",
+    "it": "caffè nero",
+    "pt": "café puro",
+    "tr": "sade kahve"
+   },
+   "ex": {
+    "en": "I drink black coffee, no sugar."
+   }
+  },
+  {
+   "id": "food.slice",
+   "t": {
+    "en": "slice",
+    "uk": "скибка",
+    "ru": "ломтик",
+    "pl": "plasterek",
+    "de": "Scheibe",
+    "fr": "tranche",
+    "es": "loncha",
+    "it": "fetta",
+    "pt": "fatia",
+    "tr": "dilim"
+   },
+   "ex": {
+    "en": "Can I have a slice of cake?"
+   }
+  },
+  {
+   "id": "food.frozen",
+   "t": {
+    "en": "frozen",
+    "uk": "заморожений",
+    "ru": "замороженный",
+    "pl": "mrożony",
+    "de": "tiefgefroren",
+    "fr": "surgelé",
+    "es": "congelado",
+    "it": "surgelato",
+    "pt": "congelado",
+    "tr": "dondurulmuş"
+   },
+   "ex": {
+    "en": "We bought frozen peas."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "travel-b1",
  "topic": "travel",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "travel.itinerary",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "We took the scenic route home."
+   }
+  },
+  {
+   "id": "travel.booking-confirmation",
+   "t": {
+    "en": "booking confirmation",
+    "uk": "підтвердження бронювання",
+    "ru": "подтверждение бронирования",
+    "pl": "potwierdzenie rezerwacji",
+    "de": "Buchungsbestätigung",
+    "fr": "confirmation de réservation",
+    "es": "confirmación de la reserva",
+    "it": "conferma della prenotazione",
+    "pt": "confirmação de reserva",
+    "tr": "rezervasyon onayı"
+   },
+   "ex": {
+    "en": "Please print your booking confirmation."
+   }
+  },
+  {
+   "id": "travel.to-cancel-a-booking",
+   "t": {
+    "en": "to cancel a booking",
+    "uk": "скасувати бронювання",
+    "ru": "отменить бронирование",
+    "pl": "anulować rezerwację",
+    "de": "eine Buchung stornieren",
+    "fr": "annuler une réservation",
+    "es": "cancelar una reserva",
+    "it": "cancellare una prenotazione",
+    "pt": "cancelar uma reserva",
+    "tr": "rezervasyonu iptal etmek"
+   },
+   "ex": {
+    "en": "I had to cancel my booking."
+   }
+  },
+  {
+   "id": "travel.delayed-flight",
+   "t": {
+    "en": "delayed flight",
+    "uk": "затриманий рейс",
+    "ru": "задержанный рейс",
+    "pl": "opóźniony lot",
+    "de": "verspäteter Flug",
+    "fr": "vol retardé",
+    "es": "vuelo retrasado",
+    "it": "volo in ritardo",
+    "pt": "voo atrasado",
+    "tr": "rötarlı uçuş"
+   },
+   "ex": {
+    "en": "Our delayed flight finally left at noon."
+   }
+  },
+  {
+   "id": "travel.cancelled-flight",
+   "t": {
+    "en": "cancelled flight",
+    "uk": "скасований рейс",
+    "ru": "отменённый рейс",
+    "pl": "odwołany lot",
+    "de": "annullierter Flug",
+    "fr": "vol annulé",
+    "es": "vuelo cancelado",
+    "it": "volo cancellato",
+    "pt": "voo cancelado",
+    "tr": "iptal edilen uçuş"
+   },
+   "ex": {
+    "en": "We got a refund for the cancelled flight."
+   }
+  },
+  {
+   "id": "travel.online-check-in",
+   "t": {
+    "en": "online check-in",
+    "uk": "онлайн-реєстрація",
+    "ru": "онлайн-регистрация",
+    "pl": "odprawa online",
+    "de": "Online-Check-in",
+    "fr": "enregistrement en ligne",
+    "es": "facturación en línea",
+    "it": "check-in online",
+    "pt": "check-in online",
+    "tr": "online check-in"
+   },
+   "ex": {
+    "en": "Online check-in opens 24 hours before."
+   }
+  },
+  {
+   "id": "travel.e-ticket",
+   "t": {
+    "en": "e-ticket",
+    "uk": "електронний квиток",
+    "ru": "электронный билет",
+    "pl": "bilet elektroniczny",
+    "de": "E-Ticket",
+    "fr": "billet électronique",
+    "es": "billete electrónico",
+    "it": "biglietto elettronico",
+    "pt": "bilhete eletrônico",
+    "tr": "elektronik bilet"
+   },
+   "ex": {
+    "en": "You can show the e-ticket on your phone."
+   }
+  },
+  {
+   "id": "travel.flight-attendant",
+   "t": {
+    "en": "flight attendant",
+    "uk": "бортпровідник",
+    "ru": "бортпроводник",
+    "pl": "steward",
+    "de": "Flugbegleiter",
+    "fr": "agent de bord",
+    "es": "auxiliar de vuelo",
+    "it": "assistente di volo",
+    "pt": "comissário de bordo",
+    "tr": "kabin görevlisi"
+   },
+   "ex": {
+    "en": "The flight attendant brought us water."
+   }
+  },
+  {
+   "id": "travel.luggage-tag",
+   "t": {
+    "en": "luggage tag",
+    "uk": "багажна бирка",
+    "ru": "багажная бирка",
+    "pl": "przywieszka bagażowa",
+    "de": "Gepäckanhänger",
+    "fr": "étiquette de bagage",
+    "es": "etiqueta de equipaje",
+    "it": "etichetta del bagaglio",
+    "pt": "etiqueta de bagagem",
+    "tr": "bagaj etiketi"
+   },
+   "ex": {
+    "en": "Write your name on the luggage tag."
+   }
+  },
+  {
+   "id": "travel.bag-drop",
+   "t": {
+    "en": "bag drop",
+    "uk": "здача багажу",
+    "ru": "сдача багажа",
+    "pl": "nadanie bagażu",
+    "de": "Gepäckabgabe",
+    "fr": "dépôt des bagages",
+    "es": "entrega de equipaje",
+    "it": "consegna bagagli",
+    "pt": "despacho de bagagem",
+    "tr": "bagaj bırakma"
+   },
+   "ex": {
+    "en": "The bag drop closes 40 minutes before departure."
+   }
+  },
+  {
+   "id": "travel.half-board",
+   "t": {
+    "en": "half board",
+    "uk": "напівпансіон",
+    "ru": "полупансион",
+    "pl": "wyżywienie z dwoma posiłkami",
+    "de": "Halbpension",
+    "fr": "demi-pension",
+    "es": "media pensión",
+    "it": "mezza pensione",
+    "pt": "meia pensão",
+    "tr": "yarım pansiyon"
+   },
+   "ex": {
+    "en": "We booked a room with half board."
+   }
+  },
+  {
+   "id": "travel.full-board",
+   "t": {
+    "en": "full board",
+    "uk": "повний пансіон",
+    "ru": "полный пансион",
+    "pl": "pełne wyżywienie",
+    "de": "Vollpension",
+    "fr": "pension complète",
+    "es": "pensión completa",
+    "it": "pensione completa",
+    "pt": "pensão completa",
+    "tr": "tam pansiyon"
+   },
+   "ex": {
+    "en": "Full board includes three meals a day."
+   }
+  },
+  {
+   "id": "travel.self-catering",
+   "t": {
+    "en": "self-catering",
+    "uk": "з власним харчуванням",
+    "ru": "с самостоятельным питанием",
+    "pl": "z własnym wyżywieniem",
+    "de": "mit Selbstverpflegung",
+    "fr": "en gestion libre",
+    "es": "sin servicio de comidas",
+    "it": "con uso cucina",
+    "pt": "com cozinha própria",
+    "tr": "kendin pişir kendin ye"
+   },
+   "ex": {
+    "en": "We prefer self-catering apartments."
+   }
+  },
+  {
+   "id": "travel.minibar",
+   "t": {
+    "en": "minibar",
+    "uk": "міні-бар",
+    "ru": "мини-бар",
+    "pl": "minibarek",
+    "de": "Minibar",
+    "fr": "minibar",
+    "es": "minibar",
+    "it": "minibar",
+    "pt": "frigobar",
+    "tr": "minibar"
+   },
+   "ex": {
+    "en": "Drinks from the minibar are expensive."
+   }
+  },
+  {
+   "id": "travel.hotel-safe",
+   "t": {
+    "en": "hotel safe",
+    "uk": "сейф у номері",
+    "ru": "сейф в номере",
+    "pl": "sejf hotelowy",
+    "de": "Zimmersafe",
+    "fr": "coffre-fort",
+    "es": "caja fuerte",
+    "it": "cassaforte",
+    "pt": "cofre do hotel",
+    "tr": "otel kasası"
+   },
+   "ex": {
+    "en": "Keep your passport in the hotel safe."
+   }
+  },
+  {
+   "id": "travel.do-not-disturb",
+   "t": {
+    "en": "do not disturb",
+    "uk": "не турбувати",
+    "ru": "не беспокоить",
+    "pl": "nie przeszkadzać",
+    "de": "bitte nicht stören",
+    "fr": "ne pas déranger",
+    "es": "no molestar",
+    "it": "non disturbare",
+    "pt": "não perturbe",
+    "tr": "rahatsız etmeyin"
+   },
+   "ex": {
+    "en": "Hang the \"do not disturb\" sign on the door."
+   }
+  },
+  {
+   "id": "travel.housekeeping",
+   "t": {
+    "en": "housekeeping",
+    "uk": "служба прибирання",
+    "ru": "служба уборки",
+    "pl": "obsługa pokoi",
+    "de": "Zimmerreinigung",
+    "fr": "service de ménage",
+    "es": "servicio de limpieza",
+    "it": "servizio di pulizia",
+    "pt": "serviço de limpeza",
+    "tr": "kat hizmetleri"
+   },
+   "ex": {
+    "en": "Housekeeping cleans the rooms every morning."
+   }
+  },
+  {
+   "id": "travel.late-check-out",
+   "t": {
+    "en": "late check-out",
+    "uk": "пізній виїзд",
+    "ru": "поздний выезд",
+    "pl": "późne wymeldowanie",
+    "de": "später Check-out",
+    "fr": "départ tardif",
+    "es": "salida tardía",
+    "it": "check-out posticipato",
+    "pt": "check-out tardio",
+    "tr": "geç çıkış"
+   },
+   "ex": {
+    "en": "Can we have a late check-out?"
+   }
+  },
+  {
+   "id": "travel.early-check-in",
+   "t": {
+    "en": "early check-in",
+    "uk": "ранній заїзд",
+    "ru": "ранний заезд",
+    "pl": "wczesne zameldowanie",
+    "de": "früher Check-in",
+    "fr": "arrivée anticipée",
+    "es": "entrada anticipada",
+    "it": "check-in anticipato",
+    "pt": "check-in antecipado",
+    "tr": "erken giriş"
+   },
+   "ex": {
+    "en": "Early check-in costs twenty euros."
+   }
+  },
+  {
+   "id": "travel.city-break",
+   "t": {
+    "en": "city break",
+    "uk": "коротка поїздка до міста",
+    "ru": "короткая поездка в город",
+    "pl": "wypad do miasta",
+    "de": "Städtereise",
+    "fr": "escapade urbaine",
+    "es": "escapada urbana",
+    "it": "weekend in città",
+    "pt": "viagem curta à cidade",
+    "tr": "şehir tatili"
+   },
+   "ex": {
+    "en": "We went on a city break to Prague."
+   }
+  },
+  {
+   "id": "travel.walking-tour",
+   "t": {
+    "en": "walking tour",
+    "uk": "піша екскурсія",
+    "ru": "пешеходная экскурсия",
+    "pl": "wycieczka piesza",
+    "de": "Stadtführung zu Fuß",
+    "fr": "visite à pied",
+    "es": "visita a pie",
+    "it": "tour a piedi",
+    "pt": "passeio a pé",
+    "tr": "yürüyüş turu"
+   },
+   "ex": {
+    "en": "The walking tour starts at ten."
+   }
+  },
+  {
+   "id": "travel.boat-trip",
+   "t": {
+    "en": "boat trip",
+    "uk": "прогулянка на човні",
+    "ru": "прогулка на лодке",
+    "pl": "rejs statkiem",
+    "de": "Bootsfahrt",
+    "fr": "promenade en bateau",
+    "es": "paseo en barco",
+    "it": "gita in barca",
+    "pt": "passeio de barco",
+    "tr": "tekne gezisi"
+   },
+   "ex": {
+    "en": "We took a boat trip on the river."
+   }
+  },
+  {
+   "id": "travel.to-go-on-a-cruise",
+   "t": {
+    "en": "to go on a cruise",
+    "uk": "вирушити в круїз",
+    "ru": "отправиться в круиз",
+    "pl": "popłynąć w rejs",
+    "de": "eine Kreuzfahrt machen",
+    "fr": "faire une croisière",
+    "es": "hacer un crucero",
+    "it": "fare una crociera",
+    "pt": "fazer um cruzeiro",
+    "tr": "gemi turuna çıkmak"
+   },
+   "ex": {
+    "en": "My parents went on a cruise."
+   }
+  },
+  {
+   "id": "travel.to-apply-for-a-visa",
+   "t": {
+    "en": "to apply for a visa",
+    "uk": "подати заяву на візу",
+    "ru": "подать заявление на визу",
+    "pl": "ubiegać się o wizę",
+    "de": "ein Visum beantragen",
+    "fr": "demander un visa",
+    "es": "solicitar un visado",
+    "it": "richiedere un visto",
+    "pt": "solicitar um visto",
+    "tr": "vize başvurusu yapmak"
+   },
+   "ex": {
+    "en": "You need to apply for a visa early."
+   }
+  },
+  {
+   "id": "travel.valid-passport",
+   "t": {
+    "en": "valid passport",
+    "uk": "дійсний паспорт",
+    "ru": "действительный паспорт",
+    "pl": "ważny paszport",
+    "de": "gültiger Reisepass",
+    "fr": "passeport valide",
+    "es": "pasaporte válido",
+    "it": "passaporto valido",
+    "pt": "passaporte válido",
+    "tr": "geçerli pasaport"
+   },
+   "ex": {
+    "en": "You need a valid passport to travel."
+   }
+  },
+  {
+   "id": "travel.souvenir-shop",
+   "t": {
+    "en": "souvenir shop",
+    "uk": "сувенірна крамниця",
+    "ru": "сувенирный магазин",
+    "pl": "sklep z pamiątkami",
+    "de": "Souvenirladen",
+    "fr": "boutique de souvenirs",
+    "es": "tienda de recuerdos",
+    "it": "negozio di souvenir",
+    "pt": "loja de lembranças",
+    "tr": "hediyelik eşya dükkânı"
+   },
+   "ex": {
+    "en": "The souvenir shop sells postcards."
+   }
+  },
+  {
+   "id": "travel.local-market",
+   "t": {
+    "en": "local market",
+    "uk": "місцевий ринок",
+    "ru": "местный рынок",
+    "pl": "lokalny targ",
+    "de": "Wochenmarkt",
+    "fr": "marché local",
+    "es": "mercado local",
+    "it": "mercato locale",
+    "pt": "feira local",
+    "tr": "yerel pazar"
+   },
+   "ex": {
+    "en": "We bought fruit at the local market."
+   }
+  },
+  {
+   "id": "travel.travel-guide",
+   "t": {
+    "en": "travel guide",
+    "uk": "путівник",
+    "ru": "путеводитель",
+    "pl": "przewodnik turystyczny",
+    "de": "Reiseführer",
+    "fr": "guide de voyage",
+    "es": "guía de viaje",
+    "it": "guida turistica",
+    "pt": "guia de viagem",
+    "tr": "seyahat rehberi"
+   },
+   "ex": {
+    "en": "The travel guide recommends this café."
+   }
+  },
+  {
+   "id": "travel.campervan",
+   "t": {
+    "en": "campervan",
+    "uk": "автобудинок",
+    "ru": "автодом",
+    "pl": "kamper",
+    "de": "Wohnmobil",
+    "fr": "camping-car",
+    "es": "autocaravana",
+    "it": "camper",
+    "pt": "motorhome",
+    "tr": "karavan"
+   },
+   "ex": {
+    "en": "We travelled around Scotland in a campervan."
+   }
+  },
+  {
+   "id": "travel.caravan",
+   "t": {
+    "en": "caravan",
+    "uk": "причіп-дача",
+    "ru": "дом на колёсах",
+    "pl": "przyczepa kempingowa",
+    "de": "Wohnwagen",
+    "fr": "caravane",
+    "es": "caravana",
+    "it": "roulotte",
+    "pt": "trailer",
+    "tr": "çekme karavan"
+   },
+   "ex": {
+    "en": "They pulled a caravan behind the car."
+   }
+  },
+  {
+   "id": "travel.to-go-camping",
+   "t": {
+    "en": "to go camping",
+    "uk": "їхати в похід з наметом",
+    "ru": "ходить в поход с палаткой",
+    "pl": "jechać pod namiot",
+    "de": "zelten gehen",
+    "fr": "faire du camping",
+    "es": "ir de camping",
+    "it": "andare in campeggio",
+    "pt": "acampar",
+    "tr": "kampa gitmek"
+   },
+   "ex": {
+    "en": "We go camping every summer."
+   }
+  },
+  {
+   "id": "travel.to-pitch-a-tent",
+   "t": {
+    "en": "to pitch a tent",
+    "uk": "ставити намет",
+    "ru": "ставить палатку",
+    "pl": "rozbić namiot",
+    "de": "ein Zelt aufschlagen",
+    "fr": "planter une tente",
+    "es": "montar una tienda",
+    "it": "montare una tenda",
+    "pt": "armar uma barraca",
+    "tr": "çadır kurmak"
+   },
+   "ex": {
+    "en": "We pitched our tent near the river."
+   }
+  },
+  {
+   "id": "travel.guesthouse",
+   "t": {
+    "en": "guesthouse",
+    "uk": "гостьовий будинок",
+    "ru": "гостевой дом",
+    "pl": "pensjonat",
+    "de": "Gästehaus",
+    "fr": "maison d'hôtes",
+    "es": "casa de huéspedes",
+    "it": "pensione",
+    "pt": "pousada",
+    "tr": "misafirhane"
+   },
+   "ex": {
+    "en": "We stayed at a small guesthouse by the sea."
+   }
+  },
+  {
+   "id": "travel.beach-towel",
+   "t": {
+    "en": "beach towel",
+    "uk": "пляжний рушник",
+    "ru": "пляжное полотенце",
+    "pl": "ręcznik plażowy",
+    "de": "Strandtuch",
+    "fr": "serviette de plage",
+    "es": "toalla de playa",
+    "it": "telo da mare",
+    "pt": "toalha de praia",
+    "tr": "plaj havlusu"
+   },
+   "ex": {
+    "en": "Don't forget your beach towel."
+   }
+  },
+  {
+   "id": "travel.flip-flops",
+   "t": {
+    "en": "flip-flops",
+    "uk": "в'єтнамки",
+    "ru": "шлёпанцы",
+    "pl": "japonki",
+    "de": "Flip-Flops",
+    "fr": "tongs",
+    "es": "chanclas",
+    "it": "infradito",
+    "pt": "chinelos",
+    "tr": "parmak arası terlik"
+   },
+   "ex": {
+    "en": "I only wore flip-flops all week."
+   }
+  },
+  {
+   "id": "travel.to-get-a-tan",
+   "t": {
+    "en": "to get a tan",
+    "uk": "засмагнути",
+    "ru": "загореть",
+    "pl": "opalić się",
+    "de": "braun werden",
+    "fr": "bronzer",
+    "es": "ponerse moreno",
+    "it": "abbronzarsi",
+    "pt": "se bronzear",
+    "tr": "bronzlaşmak"
+   },
+   "ex": {
+    "en": "She got a tan on holiday."
+   }
+  },
+  {
+   "id": "travel.insect-repellent",
+   "t": {
+    "en": "insect repellent",
+    "uk": "засіб від комах",
+    "ru": "средство от насекомых",
+    "pl": "środek na owady",
+    "de": "Insektenschutzmittel",
+    "fr": "répulsif anti-insectes",
+    "es": "repelente de insectos",
+    "it": "repellente per insetti",
+    "pt": "repelente de insetos",
+    "tr": "böcek kovucu"
+   },
+   "ex": {
+    "en": "Take insect repellent to the jungle."
+   }
+  },
+  {
+   "id": "travel.first-aid-kit",
+   "t": {
+    "en": "first-aid kit",
+    "uk": "аптечка",
+    "ru": "аптечка",
+    "pl": "apteczka",
+    "de": "Verbandskasten",
+    "fr": "trousse de secours",
+    "es": "botiquín",
+    "it": "cassetta del pronto soccorso",
+    "pt": "kit de primeiros socorros",
+    "tr": "ilk yardım çantası"
+   },
+   "ex": {
+    "en": "Always pack a first-aid kit."
+   }
+  },
+  {
+   "id": "travel.travel-pillow",
+   "t": {
+    "en": "travel pillow",
+    "uk": "дорожня подушка",
+    "ru": "дорожная подушка",
+    "pl": "poduszka podróżna",
+    "de": "Nackenkissen",
+    "fr": "coussin de voyage",
+    "es": "almohada de viaje",
+    "it": "cuscino da viaggio",
+    "pt": "travesseiro de viagem",
+    "tr": "seyahat yastığı"
+   },
+   "ex": {
+    "en": "A travel pillow helps me sleep on planes."
+   }
+  },
+  {
+   "id": "travel.earplugs",
+   "t": {
+    "en": "earplugs",
+    "uk": "беруші",
+    "ru": "беруши",
+    "pl": "zatyczki do uszu",
+    "de": "Ohrstöpsel",
+    "fr": "bouchons d'oreilles",
+    "es": "tapones para los oídos",
+    "it": "tappi per le orecchie",
+    "pt": "protetores de ouvido",
+    "tr": "kulak tıkacı"
+   },
+   "ex": {
+    "en": "I use earplugs in noisy hostels."
+   }
+  },
+  {
+   "id": "travel.arrivals-hall",
+   "t": {
+    "en": "arrivals hall",
+    "uk": "зала прибуття",
+    "ru": "зал прилёта",
+    "pl": "hala przylotów",
+    "de": "Ankunftshalle",
+    "fr": "hall des arrivées",
+    "es": "sala de llegadas",
+    "it": "sala arrivi",
+    "pt": "saguão de desembarque",
+    "tr": "varış salonu"
+   },
+   "ex": {
+    "en": "I'll wait for you in the arrivals hall."
+   }
+  },
+  {
+   "id": "travel.terminal",
+   "t": {
+    "en": "terminal",
+    "uk": "термінал",
+    "ru": "терминал",
+    "pl": "terminal",
+    "de": "Terminal",
+    "fr": "terminal",
+    "es": "terminal",
+    "it": "terminal",
+    "pt": "terminal",
+    "tr": "terminal"
+   },
+   "ex": {
+    "en": "Our flight leaves from Terminal 2."
+   }
+  },
+  {
+   "id": "travel.car-hire",
+   "t": {
+    "en": "car hire",
+    "uk": "прокат автомобілів",
+    "ru": "прокат автомобилей",
+    "pl": "wypożyczalnia samochodów",
+    "de": "Autovermietung",
+    "fr": "location de voitures",
+    "es": "alquiler de coches",
+    "it": "autonoleggio",
+    "pt": "aluguel de carros",
+    "tr": "araç kiralama"
+   },
+   "ex": {
+    "en": "The car hire desk is next to the exit."
+   }
+  },
+  {
+   "id": "travel.sat-nav",
+   "t": {
+    "en": "sat nav",
+    "uk": "GPS-навігатор",
+    "ru": "GPS-навигатор",
+    "pl": "nawigacja GPS",
+    "de": "Navi",
+    "fr": "GPS",
+    "es": "GPS",
+    "it": "navigatore",
+    "pt": "GPS",
+    "tr": "navigasyon cihazı"
+   },
+   "ex": {
+    "en": "The sat nav took us the wrong way."
+   }
+  },
+  {
+   "id": "travel.journey",
+   "t": {
+    "en": "journey",
+    "uk": "подорож",
+    "ru": "поездка",
+    "pl": "podróż",
+    "de": "Reise",
+    "fr": "trajet",
+    "es": "viaje",
+    "it": "viaggio",
+    "pt": "viagem",
+    "tr": "yolculuk"
+   },
+   "ex": {
+    "en": "The journey takes about five hours."
+   }
+  },
+  {
+   "id": "travel.tourist-season",
+   "t": {
+    "en": "tourist season",
+    "uk": "туристичний сезон",
+    "ru": "туристический сезон",
+    "pl": "sezon turystyczny",
+    "de": "Reisesaison",
+    "fr": "saison touristique",
+    "es": "temporada turística",
+    "it": "stagione turistica",
+    "pt": "temporada turística",
+    "tr": "turizm sezonu"
+   },
+   "ex": {
+    "en": "The town is busy in the tourist season."
+   }
+  },
+  {
+   "id": "travel.historic-centre",
+   "t": {
+    "en": "historic centre",
+    "uk": "історичний центр",
+    "ru": "исторический центр",
+    "pl": "zabytkowe centrum",
+    "de": "historische Altstadt",
+    "fr": "centre historique",
+    "es": "casco histórico",
+    "it": "centro storico",
+    "pt": "centro histórico",
+    "tr": "tarihi merkez"
+   },
+   "ex": {
+    "en": "The hotel is in the historic centre."
+   }
+  },
+  {
+   "id": "travel.monument",
+   "t": {
+    "en": "monument",
+    "uk": "пам'ятник",
+    "ru": "памятник",
+    "pl": "pomnik",
+    "de": "Denkmal",
+    "fr": "monument",
+    "es": "monumento",
+    "it": "monumento",
+    "pt": "monumento",
+    "tr": "anıt"
+   },
+   "ex": {
+    "en": "This monument is 500 years old."
+   }
+  },
+  {
+   "id": "travel.ruins",
+   "t": {
+    "en": "ruins",
+    "uk": "руїни",
+    "ru": "руины",
+    "pl": "ruiny",
+    "de": "Ruinen",
+    "fr": "ruines",
+    "es": "ruinas",
+    "it": "rovine",
+    "pt": "ruínas",
+    "tr": "harabeler"
+   },
+   "ex": {
+    "en": "We visited the Roman ruins."
+   }
+  },
+  {
+   "id": "travel.meeting-point",
+   "t": {
+    "en": "meeting point",
+    "uk": "місце зустрічі",
+    "ru": "место встречи",
+    "pl": "miejsce zbiórki",
+    "de": "Treffpunkt",
+    "fr": "point de rendez-vous",
+    "es": "punto de encuentro",
+    "it": "punto d'incontro",
+    "pt": "ponto de encontro",
+    "tr": "buluşma noktası"
+   },
+   "ex": {
+    "en": "The meeting point is by the fountain."
+   }
+  },
+  {
+   "id": "travel.tour-group",
+   "t": {
+    "en": "tour group",
+    "uk": "туристична група",
+    "ru": "туристическая группа",
+    "pl": "grupa wycieczkowa",
+    "de": "Reisegruppe",
+    "fr": "groupe de touristes",
+    "es": "grupo turístico",
+    "it": "gruppo turistico",
+    "pt": "grupo de turistas",
+    "tr": "tur grubu"
+   },
+   "ex": {
+    "en": "Our tour group had twenty people."
+   }
+  },
+  {
+   "id": "travel.per-night",
+   "t": {
+    "en": "per night",
+    "uk": "за ніч",
+    "ru": "за ночь",
+    "pl": "za noc",
+    "de": "pro Nacht",
+    "fr": "par nuit",
+    "es": "por noche",
+    "it": "a notte",
+    "pt": "por noite",
+    "tr": "gecelik"
+   },
+   "ex": {
+    "en": "The room costs 80 euros per night."
    }
   }
  ]

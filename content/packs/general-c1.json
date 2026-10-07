@@ -2,7 +2,7 @@
  "id": "general-c1",
  "topic": "general",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "general.to-procrastinate",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Traffic moved at a snail's pace."
+   }
+  },
+  {
+   "id": "general.to-dither",
+   "t": {
+    "en": "to dither",
+    "uk": "вагатися",
+    "ru": "колебаться",
+    "pl": "wahać się",
+    "de": "zaudern",
+    "fr": "tergiverser",
+    "es": "titubear",
+    "it": "tentennare",
+    "pt": "hesitar",
+    "tr": "kararsız kalmak"
+   },
+   "ex": {
+    "en": "Stop dithering and decide."
+   }
+  },
+  {
+   "id": "general.to-vacillate",
+   "t": {
+    "en": "to vacillate",
+    "uk": "коливатися",
+    "ru": "колебаться",
+    "pl": "wahać się",
+    "de": "schwanken",
+    "fr": "osciller",
+    "es": "vacilar",
+    "it": "vacillare",
+    "pt": "vacilar",
+    "tr": "bocalamak"
+   },
+   "ex": {
+    "en": "He vacillated between two options."
+   }
+  },
+  {
+   "id": "general.to-adjourn",
+   "t": {
+    "en": "to adjourn",
+    "uk": "відкласти засідання",
+    "ru": "отложить заседание",
+    "pl": "odroczyć",
+    "de": "vertagen",
+    "fr": "ajourner",
+    "es": "aplazar",
+    "it": "rinviare",
+    "pt": "adiar",
+    "tr": "ertelemek"
+   },
+   "ex": {
+    "en": "The meeting was adjourned."
+   }
+  },
+  {
+   "id": "general.to-prolong",
+   "t": {
+    "en": "to prolong",
+    "uk": "подовжувати",
+    "ru": "продлевать",
+    "pl": "przedłużać",
+    "de": "verlängern",
+    "fr": "prolonger",
+    "es": "prolongar",
+    "it": "prolungare",
+    "pt": "prolongar",
+    "tr": "uzatmak"
+   },
+   "ex": {
+    "en": "Don't prolong the agony."
+   }
+  },
+  {
+   "id": "general.to-elapse",
+   "t": {
+    "en": "to elapse",
+    "uk": "минати",
+    "ru": "проходить",
+    "pl": "upływać",
+    "de": "verstreichen",
+    "fr": "s'écouler",
+    "es": "transcurrir",
+    "it": "trascorrere",
+    "pt": "decorrer",
+    "tr": "geçmek"
+   },
+   "ex": {
+    "en": "Two weeks elapsed."
+   }
+  },
+  {
+   "id": "general.to-coincide",
+   "t": {
+    "en": "to coincide",
+    "uk": "збігатися",
+    "ru": "совпадать",
+    "pl": "zbiegać się",
+    "de": "zusammenfallen",
+    "fr": "coïncider",
+    "es": "coincidir",
+    "it": "coincidere",
+    "pt": "coincidir",
+    "tr": "denk gelmek"
+   },
+   "ex": {
+    "en": "Our holidays coincide."
+   }
+  },
+  {
+   "id": "general.simultaneous",
+   "t": {
+    "en": "simultaneous",
+    "uk": "одночасний",
+    "ru": "одновременный",
+    "pl": "jednoczesny",
+    "de": "gleichzeitig",
+    "fr": "simultané",
+    "es": "simultáneo",
+    "it": "simultaneo",
+    "pt": "simultâneo",
+    "tr": "eşzamanlı"
+   },
+   "ex": {
+    "en": "There were two simultaneous calls."
+   }
+  },
+  {
+   "id": "general.concurrently",
+   "t": {
+    "en": "concurrently",
+    "uk": "паралельно",
+    "ru": "параллельно",
+    "pl": "równolegle",
+    "de": "parallel",
+    "fr": "parallèlement",
+    "es": "paralelamente",
+    "it": "parallelamente",
+    "pt": "paralelamente",
+    "tr": "eş zamanlı olarak"
+   },
+   "ex": {
+    "en": "Both projects run concurrently."
+   }
+  },
+  {
+   "id": "general.subsequently",
+   "t": {
+    "en": "subsequently",
+    "uk": "згодом",
+    "ru": "впоследствии",
+    "pl": "następnie",
+    "de": "anschließend",
+    "fr": "par la suite",
+    "es": "posteriormente",
+    "it": "successivamente",
+    "pt": "posteriormente",
+    "tr": "ardından"
+   },
+   "ex": {
+    "en": "He subsequently moved abroad."
+   }
+  },
+  {
+   "id": "general.forthcoming",
+   "t": {
+    "en": "forthcoming",
+    "uk": "майбутній",
+    "ru": "предстоящий",
+    "pl": "nadchodzący",
+    "de": "bevorstehend",
+    "fr": "à venir",
+    "es": "próximo",
+    "it": "prossimo",
+    "pt": "próximo",
+    "tr": "yaklaşan"
+   },
+   "ex": {
+    "en": "Details of forthcoming events."
+   }
+  },
+  {
+   "id": "general.prior-to",
+   "t": {
+    "en": "prior to",
+    "uk": "до",
+    "ru": "до",
+    "pl": "przed",
+    "de": "vor",
+    "fr": "avant",
+    "es": "antes de",
+    "it": "prima di",
+    "pt": "antes de",
+    "tr": "-den önce"
+   },
+   "ex": {
+    "en": "Call me prior to arrival."
+   }
+  },
+  {
+   "id": "general.in-retrospect",
+   "t": {
+    "en": "in retrospect",
+    "uk": "заднім числом",
+    "ru": "оглядываясь назад",
+    "pl": "z perspektywy czasu",
+    "de": "im Nachhinein",
+    "fr": "rétrospectivement",
+    "es": "en retrospectiva",
+    "it": "col senno di poi",
+    "pt": "em retrospecto",
+    "tr": "geriye dönüp bakınca"
+   },
+   "ex": {
+    "en": "In retrospect, it was a mistake."
+   }
+  },
+  {
+   "id": "general.to-reiterate",
+   "t": {
+    "en": "to reiterate",
+    "uk": "повторювати",
+    "ru": "повторять",
+    "pl": "powtarzać",
+    "de": "bekräftigen",
+    "fr": "réitérer",
+    "es": "reiterar",
+    "it": "ribadire",
+    "pt": "reiterar",
+    "tr": "yinelemek"
+   },
+   "ex": {
+    "en": "Let me reiterate the point."
+   }
+  },
+  {
+   "id": "general.meticulous",
+   "t": {
+    "en": "meticulous",
+    "uk": "скрупульозний",
+    "ru": "скрупулёзный",
+    "pl": "skrupulatny",
+    "de": "akribisch",
+    "fr": "méticuleux",
+    "es": "meticuloso",
+    "it": "meticoloso",
+    "pt": "meticuloso",
+    "tr": "titiz"
+   },
+   "ex": {
+    "en": "She is meticulous with details."
+   }
+  },
+  {
+   "id": "general.diligent",
+   "t": {
+    "en": "diligent",
+    "uk": "старанний",
+    "ru": "усердный",
+    "pl": "pilny",
+    "de": "fleißig",
+    "fr": "diligent",
+    "es": "diligente",
+    "it": "diligente",
+    "pt": "diligente",
+    "tr": "çalışkan"
+   },
+   "ex": {
+    "en": "He is a diligent worker."
+   }
+  },
+  {
+   "id": "general.to-keep-abreast-of",
+   "t": {
+    "en": "to keep abreast of",
+    "uk": "бути в курсі",
+    "ru": "быть в курсе",
+    "pl": "być na bieżąco z",
+    "de": "auf dem Laufenden bleiben",
+    "fr": "se tenir au courant de",
+    "es": "estar al tanto de",
+    "it": "tenersi al passo con",
+    "pt": "manter-se a par de",
+    "tr": "takip etmek"
+   },
+   "ex": {
+    "en": "I keep abreast of the news."
+   }
+  },
+  {
+   "id": "general.to-be-on-the-ball",
+   "t": {
+    "en": "to be on the ball",
+    "uk": "бути напоготові",
+    "ru": "быть начеку",
+    "pl": "być czujnym",
+    "de": "auf Zack sein",
+    "fr": "être vif",
+    "es": "estar atento",
+    "it": "essere sveglio",
+    "pt": "estar ligado",
+    "tr": "tetikte olmak"
+   },
+   "ex": {
+    "en": "You need to be on the ball."
+   }
+  },
+  {
+   "id": "general.cumbersome",
+   "t": {
+    "en": "cumbersome",
+    "uk": "громіздкий",
+    "ru": "громоздкий",
+    "pl": "nieporęczny",
+    "de": "umständlich",
+    "fr": "encombrant",
+    "es": "engorroso",
+    "it": "ingombrante",
+    "pt": "incômodo",
+    "tr": "hantal"
+   },
+   "ex": {
+    "en": "The process is cumbersome."
+   }
+  },
+  {
+   "id": "general.arduous",
+   "t": {
+    "en": "arduous",
+    "uk": "виснажливий",
+    "ru": "изнурительный",
+    "pl": "żmudny",
+    "de": "mühsam",
+    "fr": "ardu",
+    "es": "arduo",
+    "it": "arduo",
+    "pt": "árduo",
+    "tr": "meşakkatli"
+   },
+   "ex": {
+    "en": "It was an arduous journey."
+   }
+  },
+  {
+   "id": "general.painstaking",
+   "t": {
+    "en": "painstaking",
+    "uk": "копіткий",
+    "ru": "кропотливый",
+    "pl": "drobiazgowy",
+    "de": "sorgfältig",
+    "fr": "minutieux",
+    "es": "minucioso",
+    "it": "minuzioso",
+    "pt": "minucioso",
+    "tr": "özenli"
+   },
+   "ex": {
+    "en": "It took painstaking work."
+   }
+  },
+  {
+   "id": "general.to-slack-off",
+   "t": {
+    "en": "to slack off",
+    "uk": "байдикувати",
+    "ru": "бездельничать",
+    "pl": "obijać się",
+    "de": "nachlassen",
+    "fr": "se relâcher",
+    "es": "flojear",
+    "it": "battere la fiacca",
+    "pt": "fazer corpo mole",
+    "tr": "gevşemek"
+   },
+   "ex": {
+    "en": "Don't slack off now."
+   }
+  },
+  {
+   "id": "general.lackadaisical",
+   "t": {
+    "en": "lackadaisical",
+    "uk": "млявий",
+    "ru": "вялый",
+    "pl": "niedbały",
+    "de": "lustlos",
+    "fr": "nonchalant",
+    "es": "desganado",
+    "it": "svogliato",
+    "pt": "desleixado",
+    "tr": "gönülsüz"
+   },
+   "ex": {
+    "en": "His approach is lackadaisical."
+   }
+  },
+  {
+   "id": "general.inertia",
+   "t": {
+    "en": "inertia",
+    "uk": "інерція",
+    "ru": "инерция",
+    "pl": "bezwład",
+    "de": "Trägheit",
+    "fr": "inertie",
+    "es": "inercia",
+    "it": "inerzia",
+    "pt": "inércia",
+    "tr": "atalet"
+   },
+   "ex": {
+    "en": "I struggle with Monday inertia."
+   }
+  },
+  {
+   "id": "general.monotonous",
+   "t": {
+    "en": "monotonous",
+    "uk": "одноманітний",
+    "ru": "однообразный",
+    "pl": "monotonny",
+    "de": "eintönig",
+    "fr": "monotone",
+    "es": "monótono",
+    "it": "monotono",
+    "pt": "monótono",
+    "tr": "tekdüze"
+   },
+   "ex": {
+    "en": "The work is monotonous."
+   }
+  },
+  {
+   "id": "general.to-grind-to-a-halt",
+   "t": {
+    "en": "to grind to a halt",
+    "uk": "зупинитися",
+    "ru": "застопориться",
+    "pl": "stanąć w miejscu",
+    "de": "zum Erliegen kommen",
+    "fr": "s'immobiliser",
+    "es": "paralizarse",
+    "it": "fermarsi del tutto",
+    "pt": "parar completamente",
+    "tr": "durma noktasına gelmek"
+   },
+   "ex": {
+    "en": "Traffic ground to a halt."
+   }
+  },
+  {
+   "id": "general.to-be-in-limbo",
+   "t": {
+    "en": "to be in limbo",
+    "uk": "бути в підвішеному стані",
+    "ru": "быть в подвешенном состоянии",
+    "pl": "być w zawieszeniu",
+    "de": "in der Schwebe sein",
+    "fr": "être dans les limbes",
+    "es": "estar en el limbo",
+    "it": "essere in un limbo",
+    "pt": "estar no limbo",
+    "tr": "belirsizlik içinde olmak"
+   },
+   "ex": {
+    "en": "My plans are in limbo."
+   }
+  },
+  {
+   "id": "general.the-daily-grind",
+   "t": {
+    "en": "the daily grind",
+    "uk": "щоденна рутина",
+    "ru": "повседневная рутина",
+    "pl": "codzienny kierat",
+    "de": "Alltagstrott",
+    "fr": "train-train quotidien",
+    "es": "rutina diaria",
+    "it": "tran tran quotidiano",
+    "pt": "rotina pesada",
+    "tr": "günlük koşuşturma"
+   },
+   "ex": {
+    "en": "I need a break from the daily grind."
+   }
+  },
+  {
+   "id": "general.to-be-stretched-thin",
+   "t": {
+    "en": "to be stretched thin",
+    "uk": "розриватися",
+    "ru": "разрываться на части",
+    "pl": "być przeciążonym",
+    "de": "überlastet sein",
+    "fr": "être débordé",
+    "es": "estar desbordado",
+    "it": "essere oberato",
+    "pt": "estar sobrecarregado",
+    "tr": "aşırı yüklenmek"
+   },
+   "ex": {
+    "en": "We're stretched thin this month."
+   }
+  },
+  {
+   "id": "general.to-get-bogged-down",
+   "t": {
+    "en": "to get bogged down",
+    "uk": "загрузнути",
+    "ru": "увязнуть",
+    "pl": "ugrzęznąć",
+    "de": "sich verzetteln",
+    "fr": "s'enliser",
+    "es": "empantanarse",
+    "it": "impantanarsi",
+    "pt": "atolar-se",
+    "tr": "batağa saplanmak"
+   },
+   "ex": {
+    "en": "Don't get bogged down in details."
+   }
+  },
+  {
+   "id": "general.standstill",
+   "t": {
+    "en": "standstill",
+    "uk": "застій",
+    "ru": "застой",
+    "pl": "zastój",
+    "de": "Stillstand",
+    "fr": "point mort",
+    "es": "paralización",
+    "it": "stallo",
+    "pt": "paralisação",
+    "tr": "durgunluk"
+   },
+   "ex": {
+    "en": "Work came to a standstill."
+   }
+  },
+  {
+   "id": "general.stopgap",
+   "t": {
+    "en": "stopgap",
+    "uk": "тимчасовий захід",
+    "ru": "временная мера",
+    "pl": "rozwiązanie tymczasowe",
+    "de": "Notlösung",
+    "fr": "bouche-trou",
+    "es": "parche",
+    "it": "tappabuchi",
+    "pt": "quebra-galho",
+    "tr": "geçici çözüm"
+   },
+   "ex": {
+    "en": "It's only a stopgap."
+   }
+  },
+  {
+   "id": "general.makeshift",
+   "t": {
+    "en": "makeshift",
+    "uk": "імпровізований",
+    "ru": "импровизированный",
+    "pl": "prowizoryczny",
+    "de": "behelfsmäßig",
+    "fr": "de fortune",
+    "es": "improvisado",
+    "it": "improvvisato",
+    "pt": "improvisado",
+    "tr": "derme çatma"
+   },
+   "ex": {
+    "en": "We built a makeshift table."
+   }
+  },
+  {
+   "id": "general.to-wing-it",
+   "t": {
+    "en": "to wing it",
+    "uk": "імпровізувати",
+    "ru": "импровизировать",
+    "pl": "improwizować",
+    "de": "improvisieren",
+    "fr": "improviser",
+    "es": "improvisar",
+    "it": "andare a braccio",
+    "pt": "improvisar",
+    "tr": "doğaçlama yapmak"
+   },
+   "ex": {
+    "en": "I didn't prepare, I'll wing it."
+   }
+  },
+  {
+   "id": "general.off-the-cuff",
+   "t": {
+    "en": "off the cuff",
+    "uk": "експромтом",
+    "ru": "экспромтом",
+    "pl": "bez przygotowania",
+    "de": "aus dem Stegreif",
+    "fr": "au pied levé",
+    "es": "sin preparación",
+    "it": "a braccio",
+    "pt": "de improviso",
+    "tr": "hazırlıksız"
+   },
+   "ex": {
+    "en": "He spoke off the cuff."
+   }
+  },
+  {
+   "id": "general.at-the-drop-of-a-hat",
+   "t": {
+    "en": "at the drop of a hat",
+    "uk": "без вагань",
+    "ru": "не раздумывая",
+    "pl": "bez wahania",
+    "de": "ohne zu zögern",
+    "fr": "sans hésiter",
+    "es": "sin pensarlo",
+    "it": "su due piedi",
+    "pt": "sem pensar duas vezes",
+    "tr": "hiç düşünmeden"
+   },
+   "ex": {
+    "en": "She'd travel at the drop of a hat."
+   }
+  },
+  {
+   "id": "general.to-drag-ones-feet",
+   "t": {
+    "en": "to drag one's feet",
+    "uk": "тягнути час",
+    "ru": "тянуть время",
+    "pl": "ociągać się",
+    "de": "sich Zeit lassen",
+    "fr": "traîner les pieds",
+    "es": "dar largas",
+    "it": "tirarla per le lunghe",
+    "pt": "enrolar",
+    "tr": "ayak sürümek"
+   },
+   "ex": {
+    "en": "They're dragging their feet."
+   }
+  },
+  {
+   "id": "general.to-put-on-hold",
+   "t": {
+    "en": "to put on hold",
+    "uk": "відкласти",
+    "ru": "приостановить",
+    "pl": "wstrzymać",
+    "de": "auf Eis legen",
+    "fr": "mettre en suspens",
+    "es": "poner en espera",
+    "it": "mettere in sospeso",
+    "pt": "colocar em espera",
+    "tr": "askıya almak"
+   },
+   "ex": {
+    "en": "The project is on hold."
+   }
+  },
+  {
+   "id": "general.to-come-to-a-head",
+   "t": {
+    "en": "to come to a head",
+    "uk": "досягти критичної точки",
+    "ru": "достичь критической точки",
+    "pl": "osiągnąć punkt kulminacyjny",
+    "de": "sich zuspitzen",
+    "fr": "atteindre un point critique",
+    "es": "llegar a un punto crítico",
+    "it": "arrivare al culmine",
+    "pt": "chegar ao auge",
+    "tr": "doruğa ulaşmak"
+   },
+   "ex": {
+    "en": "Things came to a head last week."
+   }
+  },
+  {
+   "id": "general.time-and-again",
+   "t": {
+    "en": "time and again",
+    "uk": "раз у раз",
+    "ru": "раз за разом",
+    "pl": "raz po raz",
+    "de": "immer wieder",
+    "fr": "à maintes reprises",
+    "es": "una y otra vez",
+    "it": "più e più volte",
+    "pt": "repetidas vezes",
+    "tr": "defalarca"
+   },
+   "ex": {
+    "en": "I've told you time and again."
+   }
+  },
+  {
+   "id": "general.thereafter",
+   "t": {
+    "en": "thereafter",
+    "uk": "після цього",
+    "ru": "после этого",
+    "pl": "następnie",
+    "de": "danach",
+    "fr": "par la suite",
+    "es": "a partir de entonces",
+    "it": "in seguito",
+    "pt": "depois disso",
+    "tr": "bundan sonra"
+   },
+   "ex": {
+    "en": "Shortly thereafter, he left."
+   }
+  },
+  {
+   "id": "general.antiquated",
+   "t": {
+    "en": "antiquated",
+    "uk": "старомодний",
+    "ru": "старомодный",
+    "pl": "przestarzały",
+    "de": "antiquiert",
+    "fr": "archaïque",
+    "es": "anticuado",
+    "it": "antiquato",
+    "pt": "antiquado",
+    "tr": "eskimiş"
+   },
+   "ex": {
+    "en": "They use antiquated software."
+   }
+  },
+  {
+   "id": "general.obsolete",
+   "t": {
+    "en": "obsolete",
+    "uk": "застарілий",
+    "ru": "устарелый",
+    "pl": "przestarzały",
+    "de": "veraltet",
+    "fr": "obsolète",
+    "es": "obsoleto",
+    "it": "obsoleto",
+    "pt": "obsoleto",
+    "tr": "demode"
+   },
+   "ex": {
+    "en": "This phone is obsolete."
+   }
+  },
+  {
+   "id": "general.newfangled",
+   "t": {
+    "en": "newfangled",
+    "uk": "новомодний",
+    "ru": "новомодный",
+    "pl": "nowomodny",
+    "de": "neumodisch",
+    "fr": "dernier cri",
+    "es": "moderno",
+    "it": "moderno",
+    "pt": "moderninho",
+    "tr": "yeni moda"
+   },
+   "ex": {
+    "en": "I don't trust newfangled gadgets."
+   }
+  },
+  {
+   "id": "general.timeless",
+   "t": {
+    "en": "timeless",
+    "uk": "позачасовий",
+    "ru": "вне времени",
+    "pl": "ponadczasowy",
+    "de": "zeitlos",
+    "fr": "intemporel",
+    "es": "atemporal",
+    "it": "senza tempo",
+    "pt": "atemporal",
+    "tr": "zamansız"
+   },
+   "ex": {
+    "en": "It's a timeless classic."
+   }
+  },
+  {
+   "id": "general.age-old",
+   "t": {
+    "en": "age-old",
+    "uk": "споконвічний",
+    "ru": "извечный",
+    "pl": "odwieczny",
+    "de": "uralt",
+    "fr": "séculaire",
+    "es": "ancestral",
+    "it": "secolare",
+    "pt": "milenar",
+    "tr": "asırlık"
+   },
+   "ex": {
+    "en": "It's an age-old problem."
+   }
+  },
+  {
+   "id": "general.dormant",
+   "t": {
+    "en": "dormant",
+    "uk": "бездіяльний",
+    "ru": "бездействующий",
+    "pl": "uśpiony",
+    "de": "ruhend",
+    "fr": "en sommeil",
+    "es": "inactivo",
+    "it": "dormiente",
+    "pt": "adormecido",
+    "tr": "uykuda"
+   },
+   "ex": {
+    "en": "The idea lay dormant for years."
+   }
+  },
+  {
+   "id": "general.to-resume",
+   "t": {
+    "en": "to resume",
+    "uk": "відновлювати",
+    "ru": "возобновлять",
+    "pl": "wznawiać",
+    "de": "wieder aufnehmen",
+    "fr": "reprendre",
+    "es": "reanudar",
+    "it": "riprendere",
+    "pt": "retomar",
+    "tr": "yeniden başlamak"
+   },
+   "ex": {
+    "en": "We resume work on Monday."
+   }
+  },
+  {
+   "id": "general.hiatus",
+   "t": {
+    "en": "hiatus",
+    "uk": "перерва",
+    "ru": "перерыв",
+    "pl": "przerwa",
+    "de": "Pause",
+    "fr": "pause",
+    "es": "pausa",
+    "it": "pausa",
+    "pt": "hiato",
+    "tr": "ara"
+   },
+   "ex": {
+    "en": "The band is on hiatus."
+   }
+  },
+  {
+   "id": "general.respite",
+   "t": {
+    "en": "respite",
+    "uk": "перепочинок",
+    "ru": "передышка",
+    "pl": "wytchnienie",
+    "de": "Atempause",
+    "fr": "répit",
+    "es": "respiro",
+    "it": "tregua",
+    "pt": "trégua",
+    "tr": "soluklanma"
+   },
+   "ex": {
+    "en": "We had a brief respite."
+   }
+  },
+  {
+   "id": "general.reprieve",
+   "t": {
+    "en": "reprieve",
+    "uk": "відстрочка",
+    "ru": "отсрочка",
+    "pl": "odroczenie",
+    "de": "Aufschub",
+    "fr": "sursis",
+    "es": "indulto",
+    "it": "proroga",
+    "pt": "adiamento",
+    "tr": "erteleme"
+   },
+   "ex": {
+    "en": "The deadline got a reprieve."
    }
   }
  ]

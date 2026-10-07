@@ -2,7 +2,7 @@
  "id": "food-c1",
  "topic": "food",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "food.to-braise",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Leave the turkey in brine overnight."
+   }
+  },
+  {
+   "id": "food.to-julienne",
+   "t": {
+    "en": "to julienne",
+    "uk": "нарізати соломкою",
+    "ru": "нарезать соломкой",
+    "pl": "kroić w słupki",
+    "de": "in feine Streifen schneiden",
+    "fr": "tailler en julienne",
+    "es": "cortar en juliana",
+    "it": "tagliare a julienne",
+    "pt": "cortar em julienne",
+    "tr": "jülyen doğramak"
+   },
+   "ex": {
+    "en": "Julienne the carrots for the stir-fry."
+   }
+  },
+  {
+   "id": "food.to-macerate",
+   "t": {
+    "en": "to macerate",
+    "uk": "мацерувати",
+    "ru": "мацерировать",
+    "pl": "macerować",
+    "de": "mazerieren",
+    "fr": "macérer",
+    "es": "macerar",
+    "it": "macerare",
+    "pt": "macerar",
+    "tr": "maserasyon yapmak"
+   },
+   "ex": {
+    "en": "Macerate the berries in sugar."
+   }
+  },
+  {
+   "id": "food.sous-vide",
+   "t": {
+    "en": "sous-vide",
+    "uk": "су-від",
+    "ru": "су-вид",
+    "pl": "sous-vide",
+    "de": "Sous-vide-Garen",
+    "fr": "cuisson sous vide",
+    "es": "cocción al vacío",
+    "it": "cottura sottovuoto",
+    "pt": "sous-vide",
+    "tr": "sous-vide"
+   },
+   "ex": {
+    "en": "The steak was cooked sous-vide."
+   }
+  },
+  {
+   "id": "food.to-clarify-butter",
+   "t": {
+    "en": "to clarify butter",
+    "uk": "освітлювати масло",
+    "ru": "осветлять масло",
+    "pl": "klarować masło",
+    "de": "Butter klären",
+    "fr": "clarifier le beurre",
+    "es": "clarificar la mantequilla",
+    "it": "chiarificare il burro",
+    "pt": "clarificar a manteiga",
+    "tr": "sadeyağ yapmak"
+   },
+   "ex": {
+    "en": "Clarify the butter before frying."
+   }
+  },
+  {
+   "id": "food.roux",
+   "t": {
+    "en": "roux",
+    "uk": "засмажка з борошна",
+    "ru": "мучная пассеровка",
+    "pl": "zasmażka",
+    "de": "Mehlschwitze",
+    "fr": "roux",
+    "es": "roux",
+    "it": "roux",
+    "pt": "roux",
+    "tr": "meyane"
+   },
+   "ex": {
+    "en": "Start the sauce with a roux."
+   }
+  },
+  {
+   "id": "food.bain-marie",
+   "t": {
+    "en": "bain-marie",
+    "uk": "водяна баня",
+    "ru": "водяная баня",
+    "pl": "kąpiel wodna",
+    "de": "Wasserbad",
+    "fr": "bain-marie",
+    "es": "baño María",
+    "it": "bagnomaria",
+    "pt": "banho-maria",
+    "tr": "benmari"
+   },
+   "ex": {
+    "en": "Melt the chocolate in a bain-marie."
+   }
+  },
+  {
+   "id": "food.mise-en-place",
+   "t": {
+    "en": "mise en place",
+    "uk": "мізанплас",
+    "ru": "мизанплас",
+    "pl": "mise en place",
+    "de": "Mise en Place",
+    "fr": "mise en place",
+    "es": "mise en place",
+    "it": "mise en place",
+    "pt": "mise en place",
+    "tr": "mizanplas"
+   },
+   "ex": {
+    "en": "Good mise en place saves time."
+   }
+  },
+  {
+   "id": "food.coulis",
+   "t": {
+    "en": "coulis",
+    "uk": "кулі",
+    "ru": "кули",
+    "pl": "coulis",
+    "de": "Coulis",
+    "fr": "coulis",
+    "es": "coulis",
+    "it": "coulis",
+    "pt": "coulis",
+    "tr": "meyve sosu"
+   },
+   "ex": {
+    "en": "Serve with a raspberry coulis."
+   }
+  },
+  {
+   "id": "food.ganache",
+   "t": {
+    "en": "ganache",
+    "uk": "ганаш",
+    "ru": "ганаш",
+    "pl": "ganache",
+    "de": "Ganache",
+    "fr": "ganache",
+    "es": "ganache",
+    "it": "ganache",
+    "pt": "ganache",
+    "tr": "ganaj"
+   },
+   "ex": {
+    "en": "Cover the cake with chocolate ganache."
+   }
+  },
+  {
+   "id": "food.consomme",
+   "t": {
+    "en": "consommé",
+    "uk": "консоме",
+    "ru": "консоме",
+    "pl": "consommé",
+    "de": "Consommé",
+    "fr": "consommé",
+    "es": "consomé",
+    "it": "consommé",
+    "pt": "consomê",
+    "tr": "konsome"
+   },
+   "ex": {
+    "en": "The meal began with a clear consommé."
+   }
+  },
+  {
+   "id": "food.terrine",
+   "t": {
+    "en": "terrine",
+    "uk": "терин",
+    "ru": "террин",
+    "pl": "terrina",
+    "de": "Terrine",
+    "fr": "terrine",
+    "es": "terrina",
+    "it": "terrina",
+    "pt": "terrine",
+    "tr": "terrin"
+   },
+   "ex": {
+    "en": "We started with a duck terrine."
+   }
+  },
+  {
+   "id": "food.charcuterie",
+   "t": {
+    "en": "charcuterie",
+    "uk": "м'ясні делікатеси",
+    "ru": "мясные деликатесы",
+    "pl": "wędliny",
+    "de": "Wurstwaren",
+    "fr": "charcuterie",
+    "es": "embutidos",
+    "it": "salumi",
+    "pt": "frios",
+    "tr": "şarküteri"
+   },
+   "ex": {
+    "en": "They served a charcuterie board."
+   }
+  },
+  {
+   "id": "food.sweetbreads",
+   "t": {
+    "en": "sweetbreads",
+    "uk": "телячі залози",
+    "ru": "сладкое мясо",
+    "pl": "grasica",
+    "de": "Bries",
+    "fr": "ris de veau",
+    "es": "mollejas",
+    "it": "animelle",
+    "pt": "moleja",
+    "tr": "uykuluk"
+   },
+   "ex": {
+    "en": "Sweetbreads are a French delicacy."
+   }
+  },
+  {
+   "id": "food.tartare",
+   "t": {
+    "en": "tartare",
+    "uk": "тартар",
+    "ru": "тартар",
+    "pl": "tatar",
+    "de": "Tatar",
+    "fr": "tartare",
+    "es": "tartar",
+    "it": "tartare",
+    "pt": "tartar",
+    "tr": "tartar"
+   },
+   "ex": {
+    "en": "He ordered the beef tartare."
+   }
+  },
+  {
+   "id": "food.carpaccio",
+   "t": {
+    "en": "carpaccio",
+    "uk": "карпачо",
+    "ru": "карпаччо",
+    "pl": "carpaccio",
+    "de": "Carpaccio",
+    "fr": "carpaccio",
+    "es": "carpaccio",
+    "it": "carpaccio",
+    "pt": "carpaccio",
+    "tr": "karpaçyo"
+   },
+   "ex": {
+    "en": "The carpaccio was sliced paper-thin."
+   }
+  },
+  {
+   "id": "food.gristle",
+   "t": {
+    "en": "gristle",
+    "uk": "хрящ",
+    "ru": "хрящ",
+    "pl": "chrząstka",
+    "de": "Knorpel",
+    "fr": "cartilage",
+    "es": "cartílago",
+    "it": "cartilagine",
+    "pt": "cartilagem",
+    "tr": "kıkırdak"
+   },
+   "ex": {
+    "en": "The cheap steak was full of gristle."
+   }
+  },
+  {
+   "id": "food.marbling",
+   "t": {
+    "en": "marbling",
+    "uk": "мармуровість",
+    "ru": "мраморность",
+    "pl": "marmurkowatość",
+    "de": "Marmorierung",
+    "fr": "persillé",
+    "es": "veteado",
+    "it": "marezzatura",
+    "pt": "marmoreio",
+    "tr": "mermerleşme"
+   },
+   "ex": {
+    "en": "Good marbling makes beef tender."
+   }
+  },
+  {
+   "id": "food.dry-aged",
+   "t": {
+    "en": "dry-aged",
+    "uk": "сухої витримки",
+    "ru": "сухой выдержки",
+    "pl": "sezonowany na sucho",
+    "de": "trocken gereift",
+    "fr": "maturé à sec",
+    "es": "madurado en seco",
+    "it": "frollato a secco",
+    "pt": "maturado a seco",
+    "tr": "kuru dinlendirilmiş"
+   },
+   "ex": {
+    "en": "They serve dry-aged steaks."
+   }
+  },
+  {
+   "id": "food.grass-fed",
+   "t": {
+    "en": "grass-fed",
+    "uk": "трав'яного відгодовування",
+    "ru": "травяного откорма",
+    "pl": "karmiony trawą",
+    "de": "grasgefüttert",
+    "fr": "nourri à l'herbe",
+    "es": "alimentado con pasto",
+    "it": "nutrito ad erba",
+    "pt": "alimentado a pasto",
+    "tr": "otla beslenmiş"
+   },
+   "ex": {
+    "en": "We buy grass-fed beef."
+   }
+  },
+  {
+   "id": "food.gastropub",
+   "t": {
+    "en": "gastropub",
+    "uk": "гастропаб",
+    "ru": "гастропаб",
+    "pl": "gastropub",
+    "de": "Gastropub",
+    "fr": "gastropub",
+    "es": "gastropub",
+    "it": "gastropub",
+    "pt": "gastropub",
+    "tr": "gastropub"
+   },
+   "ex": {
+    "en": "We had lunch at a country gastropub."
+   }
+  },
+  {
+   "id": "food.michelin-star",
+   "t": {
+    "en": "Michelin star",
+    "uk": "зірка Мішлен",
+    "ru": "звезда Мишлен",
+    "pl": "gwiazdka Michelin",
+    "de": "Michelin-Stern",
+    "fr": "étoile Michelin",
+    "es": "estrella Michelin",
+    "it": "stella Michelin",
+    "pt": "estrela Michelin",
+    "tr": "Michelin yıldızı"
+   },
+   "ex": {
+    "en": "The restaurant won a Michelin star."
+   }
+  },
+  {
+   "id": "food.mouthfeel",
+   "t": {
+    "en": "mouthfeel",
+    "uk": "відчуття в роті",
+    "ru": "ощущение во рту",
+    "pl": "odczucie w ustach",
+    "de": "Mundgefühl",
+    "fr": "sensation en bouche",
+    "es": "textura en boca",
+    "it": "sensazione in bocca",
+    "pt": "sensação na boca",
+    "tr": "ağızda bıraktığı his"
+   },
+   "ex": {
+    "en": "The wine has a silky mouthfeel."
+   }
+  },
+  {
+   "id": "food.corked",
+   "t": {
+    "en": "corked",
+    "uk": "з присмаком пробки",
+    "ru": "с привкусом пробки",
+    "pl": "z posmakiem korka",
+    "de": "korkig",
+    "fr": "bouchonné",
+    "es": "acorchado",
+    "it": "che sa di tappo",
+    "pt": "com gosto de rolha",
+    "tr": "mantar kokulu"
+   },
+   "ex": {
+    "en": "I'm afraid this wine is corked."
+   }
+  },
+  {
+   "id": "food.piquant",
+   "t": {
+    "en": "piquant",
+    "uk": "пікантний",
+    "ru": "пикантный",
+    "pl": "pikantny",
+    "de": "pikant",
+    "fr": "piquant",
+    "es": "picante",
+    "it": "piccante",
+    "pt": "picante",
+    "tr": "acımsı"
+   },
+   "ex": {
+    "en": "The sauce has a piquant flavour."
+   }
+  },
+  {
+   "id": "food.astringent",
+   "t": {
+    "en": "astringent",
+    "uk": "терпкий",
+    "ru": "терпкий",
+    "pl": "cierpki",
+    "de": "adstringierend",
+    "fr": "astringent",
+    "es": "astringente",
+    "it": "astringente",
+    "pt": "adstringente",
+    "tr": "buruk"
+   },
+   "ex": {
+    "en": "Unripe persimmons taste astringent."
+   }
+  },
+  {
+   "id": "food.insipid",
+   "t": {
+    "en": "insipid",
+    "uk": "несмачний",
+    "ru": "безвкусный",
+    "pl": "mdły",
+    "de": "fade",
+    "fr": "insipide",
+    "es": "insípido",
+    "it": "insipido",
+    "pt": "insosso",
+    "tr": "tatsız"
+   },
+   "ex": {
+    "en": "The hospital food was insipid."
+   }
+  },
+  {
+   "id": "food.luscious",
+   "t": {
+    "en": "luscious",
+    "uk": "смаковитий",
+    "ru": "аппетитный",
+    "pl": "soczysty",
+    "de": "köstlich",
+    "fr": "succulent",
+    "es": "suculento",
+    "it": "succulento",
+    "pt": "suculento",
+    "tr": "nefis"
+   },
+   "ex": {
+    "en": "We ate luscious ripe mangoes."
+   }
+  },
+  {
+   "id": "food.delectable",
+   "t": {
+    "en": "delectable",
+    "uk": "смачнющий",
+    "ru": "восхитительный",
+    "pl": "przepyszny",
+    "de": "vorzüglich",
+    "fr": "délectable",
+    "es": "exquisito",
+    "it": "squisito",
+    "pt": "delicioso",
+    "tr": "enfes"
+   },
+   "ex": {
+    "en": "The desserts looked delectable."
+   }
+  },
+  {
+   "id": "food.sumptuous",
+   "t": {
+    "en": "sumptuous",
+    "uk": "розкішний",
+    "ru": "роскошный",
+    "pl": "wystawny",
+    "de": "üppig",
+    "fr": "somptueux",
+    "es": "suntuoso",
+    "it": "sontuoso",
+    "pt": "suntuoso",
+    "tr": "şatafatlı"
+   },
+   "ex": {
+    "en": "They laid on a sumptuous feast."
+   }
+  },
+  {
+   "id": "food.morsel",
+   "t": {
+    "en": "morsel",
+    "uk": "шматочок",
+    "ru": "кусочек",
+    "pl": "kąsek",
+    "de": "Bissen",
+    "fr": "bouchée",
+    "es": "bocado",
+    "it": "boccone",
+    "pt": "bocado",
+    "tr": "lokma"
+   },
+   "ex": {
+    "en": "He didn't leave a single morsel."
+   }
+  },
+  {
+   "id": "food.banquet",
+   "t": {
+    "en": "banquet",
+    "uk": "бенкет",
+    "ru": "банкет",
+    "pl": "bankiet",
+    "de": "Bankett",
+    "fr": "banquet",
+    "es": "banquete",
+    "it": "banchetto",
+    "pt": "banquete",
+    "tr": "ziyafet"
+   },
+   "ex": {
+    "en": "A banquet was held for the guests."
+   }
+  },
+  {
+   "id": "food.to-feast-on",
+   "t": {
+    "en": "to feast on",
+    "uk": "ласувати",
+    "ru": "лакомиться",
+    "pl": "zajadać się",
+    "de": "sich gütlich tun an",
+    "fr": "se régaler de",
+    "es": "darse un festín de",
+    "it": "banchettare con",
+    "pt": "se fartar de",
+    "tr": "ziyafet çekmek"
+   },
+   "ex": {
+    "en": "We feasted on fresh seafood."
+   }
+  },
+  {
+   "id": "food.glutton",
+   "t": {
+    "en": "glutton",
+    "uk": "ненажера",
+    "ru": "обжора",
+    "pl": "żarłok",
+    "de": "Vielfraß",
+    "fr": "glouton",
+    "es": "glotón",
+    "it": "ghiottone",
+    "pt": "glutão",
+    "tr": "obur"
+   },
+   "ex": {
+    "en": "Don't be a glutton, leave some for us."
+   }
+  },
+  {
+   "id": "food.gourmand",
+   "t": {
+    "en": "gourmand",
+    "uk": "любитель поїсти",
+    "ru": "любитель поесть",
+    "pl": "łakomczuch",
+    "de": "Schlemmer",
+    "fr": "gourmand",
+    "es": "comilón",
+    "it": "goloso",
+    "pt": "comilão",
+    "tr": "boğazına düşkün"
+   },
+   "ex": {
+    "en": "He's a gourmand who loves rich food."
+   }
+  },
+  {
+   "id": "food.culinary",
+   "t": {
+    "en": "culinary",
+    "uk": "кулінарний",
+    "ru": "кулинарный",
+    "pl": "kulinarny",
+    "de": "kulinarisch",
+    "fr": "culinaire",
+    "es": "culinario",
+    "it": "culinario",
+    "pt": "culinário",
+    "tr": "gastronomik"
+   },
+   "ex": {
+    "en": "Lyon is a culinary capital."
+   }
+  },
+  {
+   "id": "food.inedible",
+   "t": {
+    "en": "inedible",
+    "uk": "неїстівний",
+    "ru": "несъедобный",
+    "pl": "niejadalny",
+    "de": "ungenießbar",
+    "fr": "immangeable",
+    "es": "incomible",
+    "it": "immangiabile",
+    "pt": "não comestível",
+    "tr": "yenmez"
+   },
+   "ex": {
+    "en": "The burnt toast was inedible."
+   }
+  },
+  {
+   "id": "food.perishable",
+   "t": {
+    "en": "perishable",
+    "uk": "швидкопсувний",
+    "ru": "скоропортящийся",
+    "pl": "łatwo psujący się",
+    "de": "verderblich",
+    "fr": "périssable",
+    "es": "perecedero",
+    "it": "deperibile",
+    "pt": "perecível",
+    "tr": "çabuk bozulan"
+   },
+   "ex": {
+    "en": "Keep perishable food in the fridge."
+   }
+  },
+  {
+   "id": "food.epicure",
+   "t": {
+    "en": "epicure",
+    "uk": "епікуреєць",
+    "ru": "эпикуреец",
+    "pl": "epikurejczyk",
+    "de": "Feinschmecker",
+    "fr": "épicurien",
+    "es": "epicúreo",
+    "it": "epicureo",
+    "pt": "epicurista",
+    "tr": "zevk düşkünü"
+   },
+   "ex": {
+    "en": "As an epicure, he loves fine wines."
+   }
+  },
+  {
+   "id": "food.to-polish-off",
+   "t": {
+    "en": "to polish off",
+    "uk": "умяти",
+    "ru": "умять",
+    "pl": "spałaszować",
+    "de": "verputzen",
+    "fr": "liquider",
+    "es": "acabar con",
+    "it": "spazzolare",
+    "pt": "raspar o prato",
+    "tr": "silip süpürmek"
+   },
+   "ex": {
+    "en": "The kids polished off the whole cake."
+   }
+  },
+  {
+   "id": "food.to-pick-at-ones-food",
+   "t": {
+    "en": "to pick at one's food",
+    "uk": "колупатися в тарілці",
+    "ru": "ковыряться в тарелке",
+    "pl": "dłubać w talerzu",
+    "de": "im Essen herumstochern",
+    "fr": "chipoter",
+    "es": "comer sin ganas",
+    "it": "piluccare",
+    "pt": "beliscar a comida",
+    "tr": "yemeği didiklemek"
+   },
+   "ex": {
+    "en": "She just picked at her food."
+   }
+  },
+  {
+   "id": "food.to-eat-like-a-horse",
+   "t": {
+    "en": "to eat like a horse",
+    "uk": "їсти за трьох",
+    "ru": "есть за троих",
+    "pl": "jeść za dwóch",
+    "de": "wie ein Scheunendrescher essen",
+    "fr": "manger comme quatre",
+    "es": "comer como una lima",
+    "it": "mangiare come un lupo",
+    "pt": "comer como um boi",
+    "tr": "aç kurt gibi yemek"
+   },
+   "ex": {
+    "en": "Teenage boys eat like horses."
+   }
+  },
+  {
+   "id": "food.to-eat-like-a-bird",
+   "t": {
+    "en": "to eat like a bird",
+    "uk": "їсти як пташка",
+    "ru": "клевать как птичка",
+    "pl": "jeść jak ptaszek",
+    "de": "wie ein Spatz essen",
+    "fr": "manger comme un moineau",
+    "es": "comer como un pajarito",
+    "it": "mangiare come un uccellino",
+    "pt": "comer como um passarinho",
+    "tr": "kuş kadar yemek"
+   },
+   "ex": {
+    "en": "She eats like a bird."
+   }
+  },
+  {
+   "id": "food.a-piece-of-cake",
+   "t": {
+    "en": "a piece of cake",
+    "uk": "простіше простого",
+    "ru": "проще простого",
+    "pl": "bułka z masłem",
+    "de": "ein Kinderspiel",
+    "fr": "du gâteau",
+    "es": "pan comido",
+    "it": "un gioco da ragazzi",
+    "pt": "moleza",
+    "tr": "çocuk oyuncağı"
+   },
+   "ex": {
+    "en": "The recipe is a piece of cake."
+   }
+  },
+  {
+   "id": "food.to-spill-the-beans",
+   "t": {
+    "en": "to spill the beans",
+    "uk": "вибовкати секрет",
+    "ru": "проболтаться",
+    "pl": "wygadać się",
+    "de": "die Katze aus dem Sack lassen",
+    "fr": "vendre la mèche",
+    "es": "irse de la lengua",
+    "it": "vuotare il sacco",
+    "pt": "dar com a língua nos dentes",
+    "tr": "ağzından kaçırmak"
+   },
+   "ex": {
+    "en": "Who spilled the beans about the party?"
+   }
+  },
+  {
+   "id": "food.to-sugar-coat",
+   "t": {
+    "en": "to sugar-coat",
+    "uk": "прикрашати",
+    "ru": "приукрашивать",
+    "pl": "upiększać",
+    "de": "beschönigen",
+    "fr": "enjoliver",
+    "es": "edulcorar",
+    "it": "indorare la pillola",
+    "pt": "dourar a pílula",
+    "tr": "olduğundan iyi göstermek"
+   },
+   "ex": {
+    "en": "Don't sugar-coat the bad news."
+   }
+  },
+  {
+   "id": "food.half-baked",
+   "t": {
+    "en": "half-baked",
+    "uk": "непродуманий",
+    "ru": "непродуманный",
+    "pl": "niedopracowany",
+    "de": "unausgegoren",
+    "fr": "mal ficelé",
+    "es": "a medio cocer",
+    "it": "campato in aria",
+    "pt": "mal pensado",
+    "tr": "yarım yamalak"
+   },
+   "ex": {
+    "en": "That's a half-baked idea."
+   }
+  },
+  {
+   "id": "food.to-butter-up",
+   "t": {
+    "en": "to butter up",
+    "uk": "підлизуватися",
+    "ru": "подлизываться",
+    "pl": "podlizywać się",
+    "de": "Honig ums Maul schmieren",
+    "fr": "passer de la pommade",
+    "es": "hacer la pelota",
+    "it": "ingraziarsi",
+    "pt": "puxar o saco",
+    "tr": "yağ çekmek"
+   },
+   "ex": {
+    "en": "He's buttering up the boss."
+   }
+  },
+  {
+   "id": "food.to-cry-over-spilt-milk",
+   "t": {
+    "en": "to cry over spilt milk",
+    "uk": "плакати над розлитим молоком",
+    "ru": "плакать над пролитым молоком",
+    "pl": "płakać nad rozlanym mlekiem",
+    "de": "dem Vergangenen nachtrauern",
+    "fr": "pleurer sur le lait renversé",
+    "es": "llorar sobre la leche derramada",
+    "it": "piangere sul latte versato",
+    "pt": "chorar sobre o leite derramado",
+    "tr": "geçmişe ağlamak"
+   },
+   "ex": {
+    "en": "It's no use crying over spilt milk."
+   }
+  },
+  {
+   "id": "food.bread-and-butter",
+   "t": {
+    "en": "bread and butter",
+    "uk": "хліб насущний",
+    "ru": "хлеб насущный",
+    "pl": "chleb powszedni",
+    "de": "Brotberuf",
+    "fr": "gagne-pain",
+    "es": "el pan de cada día",
+    "it": "pane quotidiano",
+    "pt": "ganha-pão",
+    "tr": "ekmek kapısı"
+   },
+   "ex": {
+    "en": "Weddings are our bread and butter."
+   }
+  },
+  {
+   "id": "food.titbit",
+   "t": {
+    "en": "titbit",
+    "uk": "ласий шматочок",
+    "ru": "лакомый кусочек",
+    "pl": "smakołyk",
+    "de": "Leckerbissen",
+    "fr": "friandise",
+    "es": "golosina",
+    "it": "bocconcino",
+    "pt": "petisco",
+    "tr": "leziz lokma"
+   },
+   "ex": {
+    "en": "He fed the dog a titbit from his plate."
    }
   }
  ]

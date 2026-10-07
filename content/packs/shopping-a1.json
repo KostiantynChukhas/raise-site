@@ -2,7 +2,7 @@
  "id": "shopping-a1",
  "topic": "shopping",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "shopping.bank-card",
@@ -884,6 +884,384 @@
    },
    "ex": {
     "en": "I bought a pair of shoes today."
+   }
+  },
+  {
+   "id": "shopping.store",
+   "t": {
+    "en": "store",
+    "uk": "магазин",
+    "ru": "магазин",
+    "pl": "sklep",
+    "de": "Laden",
+    "fr": "magasin",
+    "es": "tienda",
+    "it": "negozio",
+    "pt": "loja",
+    "tr": "mağaza"
+   },
+   "ex": {
+    "en": "The store opens at nine."
+   }
+  },
+  {
+   "id": "shopping.colour",
+   "t": {
+    "en": "colour",
+    "uk": "колір",
+    "ru": "цвет",
+    "pl": "kolor",
+    "de": "Farbe",
+    "fr": "couleur",
+    "es": "color",
+    "it": "colore",
+    "pt": "cor",
+    "tr": "renk"
+   },
+   "ex": {
+    "en": "Do you have it in another colour?"
+   }
+  },
+  {
+   "id": "shopping.shoe-size",
+   "t": {
+    "en": "shoe size",
+    "uk": "розмір взуття",
+    "ru": "размер обуви",
+    "pl": "rozmiar buta",
+    "de": "Schuhgröße",
+    "fr": "pointure",
+    "es": "número de pie",
+    "it": "numero di scarpe",
+    "pt": "número do sapato",
+    "tr": "ayakkabı numarası"
+   },
+   "ex": {
+    "en": "What's your shoe size?"
+   }
+  },
+  {
+   "id": "shopping.i-would-like",
+   "t": {
+    "en": "I would like",
+    "uk": "я б хотів",
+    "ru": "я бы хотел",
+    "pl": "chciałbym",
+    "de": "ich hätte gern",
+    "fr": "je voudrais",
+    "es": "quisiera",
+    "it": "vorrei",
+    "pt": "eu queria",
+    "tr": "isterim"
+   },
+   "ex": {
+    "en": "I would like this bag, please."
+   }
+  },
+  {
+   "id": "shopping.butcher-s",
+   "t": {
+    "en": "butcher's",
+    "uk": "м'ясна крамниця",
+    "ru": "мясная лавка",
+    "pl": "sklep mięsny",
+    "de": "Metzgerei",
+    "fr": "boucherie",
+    "es": "carnicería",
+    "it": "macelleria",
+    "pt": "açougue",
+    "tr": "kasap"
+   },
+   "ex": {
+    "en": "I bought chicken at the butcher's."
+   }
+  },
+  {
+   "id": "shopping.greengrocer-s",
+   "t": {
+    "en": "greengrocer's",
+    "uk": "овочева крамниця",
+    "ru": "овощной магазин",
+    "pl": "warzywniak",
+    "de": "Gemüseladen",
+    "fr": "primeur",
+    "es": "frutería",
+    "it": "fruttivendolo",
+    "pt": "quitanda",
+    "tr": "manav"
+   },
+   "ex": {
+    "en": "The greengrocer's has fresh apples."
+   }
+  },
+  {
+   "id": "shopping.trainers",
+   "t": {
+    "en": "trainers",
+    "uk": "кросівки",
+    "ru": "кроссовки",
+    "pl": "buty sportowe",
+    "de": "Turnschuhe",
+    "fr": "baskets",
+    "es": "zapatillas de deporte",
+    "it": "scarpe da ginnastica",
+    "pt": "tênis",
+    "tr": "spor ayakkabı"
+   },
+   "ex": {
+    "en": "I need new trainers."
+   }
+  },
+  {
+   "id": "shopping.handbag",
+   "t": {
+    "en": "handbag",
+    "uk": "сумочка",
+    "ru": "сумочка",
+    "pl": "torebka",
+    "de": "Handtasche",
+    "fr": "sac à main",
+    "es": "bolso",
+    "it": "borsetta",
+    "pt": "bolsa",
+    "tr": "el çantası"
+   },
+   "ex": {
+    "en": "Her handbag is black."
+   }
+  },
+  {
+   "id": "shopping.watch",
+   "t": {
+    "en": "watch",
+    "uk": "наручний годинник",
+    "ru": "наручные часы",
+    "pl": "zegarek",
+    "de": "Armbanduhr",
+    "fr": "montre",
+    "es": "reloj",
+    "it": "orologio",
+    "pt": "relógio",
+    "tr": "kol saati"
+   },
+   "ex": {
+    "en": "This watch is a gift."
+   }
+  },
+  {
+   "id": "shopping.jewellery",
+   "t": {
+    "en": "jewellery",
+    "uk": "прикраси",
+    "ru": "украшения",
+    "pl": "biżuteria",
+    "de": "Schmuck",
+    "fr": "bijoux",
+    "es": "joyas",
+    "it": "gioielli",
+    "pt": "joias",
+    "tr": "mücevher"
+   },
+   "ex": {
+    "en": "She loves silver jewellery."
+   }
+  },
+  {
+   "id": "shopping.necklace",
+   "t": {
+    "en": "necklace",
+    "uk": "намисто",
+    "ru": "ожерелье",
+    "pl": "naszyjnik",
+    "de": "Halskette",
+    "fr": "collier",
+    "es": "collar",
+    "it": "collana",
+    "pt": "colar",
+    "tr": "kolye"
+   },
+   "ex": {
+    "en": "What a beautiful necklace!"
+   }
+  },
+  {
+   "id": "shopping.earrings",
+   "t": {
+    "en": "earrings",
+    "uk": "сережки",
+    "ru": "серьги",
+    "pl": "kolczyki",
+    "de": "Ohrringe",
+    "fr": "boucles d'oreilles",
+    "es": "pendientes",
+    "it": "orecchini",
+    "pt": "brincos",
+    "tr": "küpe"
+   },
+   "ex": {
+    "en": "These earrings are cheap."
+   }
+  },
+  {
+   "id": "shopping.bracelet",
+   "t": {
+    "en": "bracelet",
+    "uk": "браслет",
+    "ru": "браслет",
+    "pl": "bransoletka",
+    "de": "Armband",
+    "fr": "bracelet",
+    "es": "pulsera",
+    "it": "braccialetto",
+    "pt": "pulseira",
+    "tr": "bilezik"
+   },
+   "ex": {
+    "en": "I want a gold bracelet."
+   }
+  },
+  {
+   "id": "shopping.to-wear",
+   "t": {
+    "en": "to wear",
+    "uk": "носити",
+    "ru": "носить",
+    "pl": "nosić",
+    "de": "tragen",
+    "fr": "porter",
+    "es": "llevar",
+    "it": "indossare",
+    "pt": "usar",
+    "tr": "giymek"
+   },
+   "ex": {
+    "en": "I want to wear this dress today."
+   }
+  },
+  {
+   "id": "shopping.present",
+   "t": {
+    "en": "present",
+    "uk": "подарунок",
+    "ru": "подарок",
+    "pl": "prezent",
+    "de": "Geschenk",
+    "fr": "cadeau",
+    "es": "regalo",
+    "it": "regalo",
+    "pt": "presente",
+    "tr": "hediye"
+   },
+   "ex": {
+    "en": "This is a present for my mum."
+   }
+  },
+  {
+   "id": "shopping.paper-bag",
+   "t": {
+    "en": "paper bag",
+    "uk": "паперовий пакет",
+    "ru": "бумажный пакет",
+    "pl": "torba papierowa",
+    "de": "Papiertüte",
+    "fr": "sac en papier",
+    "es": "bolsa de papel",
+    "it": "sacchetto di carta",
+    "pt": "saco de papel",
+    "tr": "kâğıt torba"
+   },
+   "ex": {
+    "en": "Can I have a paper bag?"
+   }
+  },
+  {
+   "id": "shopping.till",
+   "t": {
+    "en": "till",
+    "uk": "каса",
+    "ru": "касса",
+    "pl": "kasa",
+    "de": "Kasse",
+    "fr": "caisse",
+    "es": "caja",
+    "it": "cassa",
+    "pt": "caixa",
+    "tr": "kasa"
+   },
+   "ex": {
+    "en": "Please pay at the till."
+   }
+  },
+  {
+   "id": "shopping.a-kilo-of",
+   "t": {
+    "en": "a kilo of",
+    "uk": "кілограм",
+    "ru": "килограмм",
+    "pl": "kilogram",
+    "de": "ein Kilo",
+    "fr": "un kilo de",
+    "es": "un kilo de",
+    "it": "un chilo di",
+    "pt": "um quilo de",
+    "tr": "bir kilo"
+   },
+   "ex": {
+    "en": "A kilo of apples, please."
+   }
+  },
+  {
+   "id": "shopping.underwear",
+   "t": {
+    "en": "underwear",
+    "uk": "нижня білизна",
+    "ru": "нижнее бельё",
+    "pl": "bielizna",
+    "de": "Unterwäsche",
+    "fr": "sous-vêtements",
+    "es": "ropa interior",
+    "it": "biancheria intima",
+    "pt": "roupa íntima",
+    "tr": "iç çamaşırı"
+   },
+   "ex": {
+    "en": "Underwear is on the first floor."
+   }
+  },
+  {
+   "id": "shopping.cap",
+   "t": {
+    "en": "cap",
+    "uk": "кепка",
+    "ru": "кепка",
+    "pl": "czapka z daszkiem",
+    "de": "Kappe",
+    "fr": "casquette",
+    "es": "gorra",
+    "it": "berretto",
+    "pt": "boné",
+    "tr": "şapka"
+   },
+   "ex": {
+    "en": "He wears a blue cap."
+   }
+  },
+  {
+   "id": "shopping.too-big",
+   "t": {
+    "en": "too big",
+    "uk": "завеликий",
+    "ru": "слишком большой",
+    "pl": "za duży",
+    "de": "zu groß",
+    "fr": "trop grand",
+    "es": "demasiado grande",
+    "it": "troppo grande",
+    "pt": "grande demais",
+    "tr": "çok büyük"
+   },
+   "ex": {
+    "en": "These shoes are too big."
    }
   }
  ]

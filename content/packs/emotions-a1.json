@@ -2,7 +2,7 @@
  "id": "emotions-a1",
  "topic": "emotions",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emotions.happy",
@@ -866,6 +866,402 @@
    },
    "ex": {
     "en": "You were very brave at the doctor's."
+   }
+  },
+  {
+   "id": "emotions.very-happy",
+   "t": {
+    "en": "very happy",
+    "uk": "дуже щасливий",
+    "ru": "очень счастливый",
+    "pl": "bardzo szczęśliwy",
+    "de": "sehr glücklich",
+    "fr": "très heureux",
+    "es": "muy feliz",
+    "it": "molto felice",
+    "pt": "muito feliz",
+    "tr": "çok mutlu"
+   },
+   "ex": {
+    "en": "I'm very happy today."
+   }
+  },
+  {
+   "id": "emotions.a-little-sad",
+   "t": {
+    "en": "a little sad",
+    "uk": "трохи сумний",
+    "ru": "немного грустный",
+    "pl": "trochę smutny",
+    "de": "ein bisschen traurig",
+    "fr": "un peu triste",
+    "es": "un poco triste",
+    "it": "un po' triste",
+    "pt": "um pouco triste",
+    "tr": "biraz üzgün"
+   },
+   "ex": {
+    "en": "She is a little sad."
+   }
+  },
+  {
+   "id": "emotions.to-be-happy",
+   "t": {
+    "en": "to be happy",
+    "uk": "бути щасливим",
+    "ru": "быть счастливым",
+    "pl": "być szczęśliwym",
+    "de": "glücklich sein",
+    "fr": "être heureux",
+    "es": "ser feliz",
+    "it": "essere felice",
+    "pt": "ser feliz",
+    "tr": "mutlu olmak"
+   },
+   "ex": {
+    "en": "I just want to be happy."
+   }
+  },
+  {
+   "id": "emotions.to-be-sad",
+   "t": {
+    "en": "to be sad",
+    "uk": "бути сумним",
+    "ru": "грустить",
+    "pl": "być smutnym",
+    "de": "traurig sein",
+    "fr": "être triste",
+    "es": "estar triste",
+    "it": "essere triste",
+    "pt": "estar triste",
+    "tr": "üzgün olmak"
+   },
+   "ex": {
+    "en": "It's okay to be sad."
+   }
+  },
+  {
+   "id": "emotions.to-be-angry",
+   "t": {
+    "en": "to be angry",
+    "uk": "сердитися",
+    "ru": "сердиться",
+    "pl": "złościć się",
+    "de": "wütend sein",
+    "fr": "être en colère",
+    "es": "estar enfadado",
+    "it": "essere arrabbiato",
+    "pt": "estar com raiva",
+    "tr": "kızgın olmak"
+   },
+   "ex": {
+    "en": "Please don't be angry."
+   }
+  },
+  {
+   "id": "emotions.happy-face",
+   "t": {
+    "en": "happy face",
+    "uk": "радісне обличчя",
+    "ru": "радостное лицо",
+    "pl": "wesoła buzia",
+    "de": "fröhliches Gesicht",
+    "fr": "visage joyeux",
+    "es": "cara feliz",
+    "it": "faccia felice",
+    "pt": "rosto feliz",
+    "tr": "mutlu yüz"
+   },
+   "ex": {
+    "en": "Draw a happy face."
+   }
+  },
+  {
+   "id": "emotions.sad-face",
+   "t": {
+    "en": "sad face",
+    "uk": "сумне обличчя",
+    "ru": "грустное лицо",
+    "pl": "smutna buzia",
+    "de": "trauriges Gesicht",
+    "fr": "visage triste",
+    "es": "cara triste",
+    "it": "faccia triste",
+    "pt": "rosto triste",
+    "tr": "üzgün yüz"
+   },
+   "ex": {
+    "en": "Why the sad face?"
+   }
+  },
+  {
+   "id": "emotions.silly",
+   "t": {
+    "en": "silly",
+    "uk": "дурненький",
+    "ru": "глупый",
+    "pl": "głupiutki",
+    "de": "albern",
+    "fr": "bête",
+    "es": "tonto",
+    "it": "sciocco",
+    "pt": "bobo",
+    "tr": "aptal"
+   },
+   "ex": {
+    "en": "Don't be silly!"
+   }
+  },
+  {
+   "id": "emotions.yay",
+   "t": {
+    "en": "Yay!",
+    "uk": "Ура!",
+    "ru": "Ура!",
+    "pl": "Hura!",
+    "de": "Juhu!",
+    "fr": "Youpi !",
+    "es": "¡Bien!",
+    "it": "Evviva!",
+    "pt": "Eba!",
+    "tr": "Yaşasın!"
+   },
+   "ex": {
+    "en": "Yay! We won!"
+   }
+  },
+  {
+   "id": "emotions.great-job",
+   "t": {
+    "en": "Great job!",
+    "uk": "Чудова робота!",
+    "ru": "Отличная работа!",
+    "pl": "Świetna robota!",
+    "de": "Gut gemacht!",
+    "fr": "Bravo !",
+    "es": "¡Buen trabajo!",
+    "it": "Ottimo lavoro!",
+    "pt": "Ótimo trabalho!",
+    "tr": "Aferin!"
+   },
+   "ex": {
+    "en": "Great job, Tom!"
+   }
+  },
+  {
+   "id": "emotions.very-sad",
+   "t": {
+    "en": "very sad",
+    "uk": "дуже сумний",
+    "ru": "очень грустный",
+    "pl": "bardzo smutny",
+    "de": "sehr traurig",
+    "fr": "très triste",
+    "es": "muy triste",
+    "it": "molto triste",
+    "pt": "muito triste",
+    "tr": "çok üzgün"
+   },
+   "ex": {
+    "en": "The film made me very sad."
+   }
+  },
+  {
+   "id": "emotions.to-scream",
+   "t": {
+    "en": "to scream",
+    "uk": "верещати",
+    "ru": "визжать",
+    "pl": "wrzeszczeć",
+    "de": "schreien",
+    "fr": "hurler",
+    "es": "chillar",
+    "it": "strillare",
+    "pt": "berrar",
+    "tr": "çığlık atmak"
+   },
+   "ex": {
+    "en": "Babies scream when they're hungry."
+   }
+  },
+  {
+   "id": "emotions.to-feel-happy",
+   "t": {
+    "en": "to feel happy",
+    "uk": "почуватися щасливим",
+    "ru": "чувствовать себя счастливым",
+    "pl": "czuć się szczęśliwym",
+    "de": "sich glücklich fühlen",
+    "fr": "se sentir heureux",
+    "es": "sentirse feliz",
+    "it": "sentirsi felice",
+    "pt": "sentir-se feliz",
+    "tr": "mutlu hissetmek"
+   },
+   "ex": {
+    "en": "Music makes me feel happy."
+   }
+  },
+  {
+   "id": "emotions.im-angry",
+   "t": {
+    "en": "I'm angry",
+    "uk": "Я злюся",
+    "ru": "Я злюсь",
+    "pl": "Jestem zły",
+    "de": "Ich bin wütend",
+    "fr": "Je suis en colère",
+    "es": "Estoy enfadado",
+    "it": "Sono arrabbiato",
+    "pt": "Estou com raiva",
+    "tr": "Kızgınım"
+   },
+   "ex": {
+    "en": "I'm angry with my brother."
+   }
+  },
+  {
+   "id": "emotions.to-feel-sad",
+   "t": {
+    "en": "to feel sad",
+    "uk": "відчувати смуток",
+    "ru": "чувствовать грусть",
+    "pl": "czuć smutek",
+    "de": "sich traurig fühlen",
+    "fr": "se sentir triste",
+    "es": "sentirse triste",
+    "it": "sentirsi triste",
+    "pt": "sentir-se triste",
+    "tr": "üzgün hissetmek"
+   },
+   "ex": {
+    "en": "Rainy days make me feel sad."
+   }
+  },
+  {
+   "id": "emotions.so-happy",
+   "t": {
+    "en": "so happy",
+    "uk": "такий щасливий",
+    "ru": "такой счастливый",
+    "pl": "taki szczęśliwy",
+    "de": "so glücklich",
+    "fr": "si heureux",
+    "es": "tan feliz",
+    "it": "così felice",
+    "pt": "tão feliz",
+    "tr": "o kadar mutlu"
+   },
+   "ex": {
+    "en": "I'm so happy for you!"
+   }
+  },
+  {
+   "id": "emotions.happily",
+   "t": {
+    "en": "happily",
+    "uk": "радісно",
+    "ru": "радостно",
+    "pl": "radośnie",
+    "de": "fröhlich",
+    "fr": "joyeusement",
+    "es": "felizmente",
+    "it": "felicemente",
+    "pt": "alegremente",
+    "tr": "mutlu bir şekilde"
+   },
+   "ex": {
+    "en": "The kids played happily."
+   }
+  },
+  {
+   "id": "emotions.sadly",
+   "t": {
+    "en": "sadly",
+    "uk": "сумно",
+    "ru": "грустно",
+    "pl": "smutno",
+    "de": "traurig",
+    "fr": "tristement",
+    "es": "tristemente",
+    "it": "tristemente",
+    "pt": "tristemente",
+    "tr": "üzgün bir şekilde"
+   },
+   "ex": {
+    "en": "He looked at me sadly."
+   }
+  },
+  {
+   "id": "emotions.so-sad",
+   "t": {
+    "en": "so sad",
+    "uk": "такий сумний",
+    "ru": "такой грустный",
+    "pl": "taki smutny",
+    "de": "so traurig",
+    "fr": "si triste",
+    "es": "tan triste",
+    "it": "così triste",
+    "pt": "tão triste",
+    "tr": "o kadar üzgün"
+   },
+   "ex": {
+    "en": "Why are you so sad?"
+   }
+  },
+  {
+   "id": "emotions.very-angry",
+   "t": {
+    "en": "very angry",
+    "uk": "дуже сердитий",
+    "ru": "очень сердитый",
+    "pl": "bardzo zły",
+    "de": "sehr wütend",
+    "fr": "très en colère",
+    "es": "muy enfadado",
+    "it": "molto arrabbiato",
+    "pt": "muito bravo",
+    "tr": "çok kızgın"
+   },
+   "ex": {
+    "en": "Dad was very angry."
+   }
+  },
+  {
+   "id": "emotions.to-feel-scared",
+   "t": {
+    "en": "to feel scared",
+    "uk": "відчувати страх",
+    "ru": "чувствовать страх",
+    "pl": "czuć strach",
+    "de": "Angst haben",
+    "fr": "avoir peur",
+    "es": "tener miedo",
+    "it": "avere paura",
+    "pt": "sentir medo",
+    "tr": "korku hissetmek"
+   },
+   "ex": {
+    "en": "I feel scared at night."
+   }
+  },
+  {
+   "id": "emotions.yuck",
+   "t": {
+    "en": "Yuck!",
+    "uk": "Фу!",
+    "ru": "Фу!",
+    "pl": "Fuj!",
+    "de": "Igitt!",
+    "fr": "Beurk !",
+    "es": "¡Puaj!",
+    "it": "Che schifo!",
+    "pt": "Eca!",
+    "tr": "Iğrenç!"
+   },
+   "ex": {
+    "en": "Yuck! I hate broccoli."
    }
   }
  ]

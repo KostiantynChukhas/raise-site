@@ -2,7 +2,7 @@
  "id": "work-c1",
  "topic": "work",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "work.golden-handshake",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "She took a career break to travel."
+   }
+  },
+  {
+   "id": "work.to-poach-staff",
+   "t": {
+    "en": "to poach staff",
+    "uk": "переманювати персонал",
+    "ru": "переманивать сотрудников",
+    "pl": "podkupywać pracowników",
+    "de": "Personal abwerben",
+    "fr": "débaucher du personnel",
+    "es": "robar personal",
+    "it": "sottrarre personale",
+    "pt": "roubar funcionários",
+    "tr": "eleman transfer etmek"
+   },
+   "ex": {
+    "en": "Rivals tried to poach our best staff."
+   }
+  },
+  {
+   "id": "work.brain-drain",
+   "t": {
+    "en": "brain drain",
+    "uk": "відплив мізків",
+    "ru": "утечка мозгов",
+    "pl": "drenaż mózgów",
+    "de": "Abwanderung von Fachkräften",
+    "fr": "fuite des cerveaux",
+    "es": "fuga de cerebros",
+    "it": "fuga di cervelli",
+    "pt": "fuga de cérebros",
+    "tr": "beyin göçü"
+   },
+   "ex": {
+    "en": "The country suffers from a brain drain."
+   }
+  },
+  {
+   "id": "work.attrition",
+   "t": {
+    "en": "attrition",
+    "uk": "природне скорочення кадрів",
+    "ru": "естественная убыль кадров",
+    "pl": "naturalna rotacja",
+    "de": "natürliche Fluktuation",
+    "fr": "départs naturels",
+    "es": "bajas naturales",
+    "it": "riduzione naturale del personale",
+    "pt": "rotatividade natural",
+    "tr": "doğal personel kaybı"
+   },
+   "ex": {
+    "en": "We'll reduce staff through attrition."
+   }
+  },
+  {
+   "id": "work.pen-pusher",
+   "t": {
+    "en": "pen-pusher",
+    "uk": "канцелярський щур",
+    "ru": "канцелярская крыса",
+    "pl": "gryzipiórek",
+    "de": "Bürohengst",
+    "fr": "gratte-papier",
+    "es": "chupatintas",
+    "it": "passacarte",
+    "pt": "burocrata",
+    "tr": "kalem efendisi"
+   },
+   "ex": {
+    "en": "He's just a pen-pusher in head office."
+   }
+  },
+  {
+   "id": "work.jobsworth",
+   "t": {
+    "en": "jobsworth",
+    "uk": "бюрократ-формаліст",
+    "ru": "бюрократ-формалист",
+    "pl": "służbista",
+    "de": "Paragraphenreiter",
+    "fr": "petit chef tatillon",
+    "es": "funcionario quisquilloso",
+    "it": "burocrate pignolo",
+    "pt": "burocrata inflexível",
+    "tr": "kuralcı memur"
+   },
+   "ex": {
+    "en": "Some jobsworth wouldn't let us in."
+   }
+  },
+  {
+   "id": "work.dogsbody",
+   "t": {
+    "en": "dogsbody",
+    "uk": "хлопчик на побігеньках",
+    "ru": "мальчик на побегушках",
+    "pl": "chłopiec na posyłki",
+    "de": "Mädchen für alles",
+    "fr": "homme à tout faire",
+    "es": "chico de los recados",
+    "it": "tuttofare",
+    "pt": "faz-tudo",
+    "tr": "ayak işlerine bakan"
+   },
+   "ex": {
+    "en": "I'm just the office dogsbody."
+   }
+  },
+  {
+   "id": "work.old-boys-network",
+   "t": {
+    "en": "old boys' network",
+    "uk": "кругова порука",
+    "ru": "круговая порука",
+    "pl": "układ koleżeński",
+    "de": "Seilschaft",
+    "fr": "réseau de copains",
+    "es": "red de enchufes",
+    "it": "rete di amicizie",
+    "pt": "rede de contatos",
+    "tr": "kayırmacılık ağı"
+   },
+   "ex": {
+    "en": "He got the job through the old boys' network."
+   }
+  },
+  {
+   "id": "work.to-schmooze",
+   "t": {
+    "en": "to schmooze",
+    "uk": "підлещуватися",
+    "ru": "подлизываться",
+    "pl": "nadskakiwać",
+    "de": "sich einschmeicheln",
+    "fr": "faire du charme",
+    "es": "hacer la pelota",
+    "it": "fare il ruffiano",
+    "pt": "bajular",
+    "tr": "yağ çekmek"
+   },
+   "ex": {
+    "en": "He spent the party schmoozing the bosses."
+   }
+  },
+  {
+   "id": "work.to-pull-strings",
+   "t": {
+    "en": "to pull strings",
+    "uk": "використовувати зв'язки",
+    "ru": "использовать связи",
+    "pl": "pociągać za sznurki",
+    "de": "Beziehungen spielen lassen",
+    "fr": "faire jouer ses relations",
+    "es": "mover hilos",
+    "it": "muovere le leve giuste",
+    "pt": "mexer os pauzinhos",
+    "tr": "torpil yaptırmak"
+   },
+   "ex": {
+    "en": "Her uncle pulled strings to get her hired."
+   }
+  },
+  {
+   "id": "work.to-bite-off-too-much",
+   "t": {
+    "en": "to bite off too much",
+    "uk": "взяти на себе забагато",
+    "ru": "взять на себя слишком много",
+    "pl": "wziąć na siebie za dużo",
+    "de": "sich übernehmen",
+    "fr": "avoir les yeux plus gros que le ventre",
+    "es": "abarcar demasiado",
+    "it": "fare il passo più lungo della gamba",
+    "pt": "abraçar o mundo",
+    "tr": "boyundan büyük işe kalkışmak"
+   },
+   "ex": {
+    "en": "I bit off too much with three projects."
+   }
+  },
+  {
+   "id": "work.blue-sky-thinking",
+   "t": {
+    "en": "blue-sky thinking",
+    "uk": "креативне мислення",
+    "ru": "креативное мышление",
+    "pl": "myślenie bez ograniczeń",
+    "de": "kreatives Querdenken",
+    "fr": "pensée créative",
+    "es": "pensamiento creativo",
+    "it": "pensiero creativo",
+    "pt": "pensamento criativo",
+    "tr": "sınırsız düşünce"
+   },
+   "ex": {
+    "en": "We need some blue-sky thinking here."
+   }
+  },
+  {
+   "id": "work.paradigm-shift",
+   "t": {
+    "en": "paradigm shift",
+    "uk": "зміна парадигми",
+    "ru": "смена парадигмы",
+    "pl": "zmiana paradygmatu",
+    "de": "Paradigmenwechsel",
+    "fr": "changement de paradigme",
+    "es": "cambio de paradigma",
+    "it": "cambio di paradigma",
+    "pt": "mudança de paradigma",
+    "tr": "paradigma değişimi"
+   },
+   "ex": {
+    "en": "Remote work was a paradigm shift."
+   }
+  },
+  {
+   "id": "work.outplacement",
+   "t": {
+    "en": "outplacement",
+    "uk": "аутплейсмент",
+    "ru": "аутплейсмент",
+    "pl": "outplacement",
+    "de": "Outplacement",
+    "fr": "outplacement",
+    "es": "recolocación",
+    "it": "outplacement",
+    "pt": "recolocação",
+    "tr": "outplacement"
+   },
+   "ex": {
+    "en": "The firm offered outplacement services."
+   }
+  },
+  {
+   "id": "work.sinecure",
+   "t": {
+    "en": "sinecure",
+    "uk": "синекура",
+    "ru": "синекура",
+    "pl": "synekura",
+    "de": "Sinekure",
+    "fr": "sinécure",
+    "es": "sinecura",
+    "it": "sinecura",
+    "pt": "sinecura",
+    "tr": "zahmetsiz makam"
+   },
+   "ex": {
+    "en": "His board seat is a sinecure."
+   }
+  },
+  {
+   "id": "work.tokenism",
+   "t": {
+    "en": "tokenism",
+    "uk": "показуха",
+    "ru": "показуха",
+    "pl": "tokenizm",
+    "de": "Alibipolitik",
+    "fr": "politique de façade",
+    "es": "inclusión simbólica",
+    "it": "tokenismo",
+    "pt": "tokenismo",
+    "tr": "göstermelik temsil"
+   },
+   "ex": {
+    "en": "Hiring one woman isn't diversity, it's tokenism."
+   }
+  },
+  {
+   "id": "work.unconscious-bias",
+   "t": {
+    "en": "unconscious bias",
+    "uk": "неусвідомлене упередження",
+    "ru": "неосознанная предвзятость",
+    "pl": "nieświadome uprzedzenia",
+    "de": "unbewusste Voreingenommenheit",
+    "fr": "biais inconscient",
+    "es": "sesgo inconsciente",
+    "it": "pregiudizio inconscio",
+    "pt": "viés inconsciente",
+    "tr": "bilinçsiz önyargı"
+   },
+   "ex": {
+    "en": "Training can reduce unconscious bias."
+   }
+  },
+  {
+   "id": "work.right-to-disconnect",
+   "t": {
+    "en": "right to disconnect",
+    "uk": "право на відключення",
+    "ru": "право на отключение",
+    "pl": "prawo do bycia offline",
+    "de": "Recht auf Nichterreichbarkeit",
+    "fr": "droit à la déconnexion",
+    "es": "derecho a la desconexión",
+    "it": "diritto alla disconnessione",
+    "pt": "direito à desconexão",
+    "tr": "bağlantıyı kesme hakkı"
+   },
+   "ex": {
+    "en": "France has a right to disconnect."
+   }
+  },
+  {
+   "id": "work.precarious-work",
+   "t": {
+    "en": "precarious work",
+    "uk": "нестабільна зайнятість",
+    "ru": "нестабильная занятость",
+    "pl": "praca niepewna",
+    "de": "prekäre Arbeit",
+    "fr": "travail précaire",
+    "es": "trabajo precario",
+    "it": "lavoro precario",
+    "pt": "trabalho precário",
+    "tr": "güvencesiz iş"
+   },
+   "ex": {
+    "en": "Precarious work is spreading among the young."
+   }
+  },
+  {
+   "id": "work.deskilling",
+   "t": {
+    "en": "deskilling",
+    "uk": "декваліфікація",
+    "ru": "деквалификация",
+    "pl": "dekwalifikacja",
+    "de": "Dequalifizierung",
+    "fr": "déqualification",
+    "es": "descualificación",
+    "it": "dequalificazione",
+    "pt": "desqualificação",
+    "tr": "vasıfsızlaşma"
+   },
+   "ex": {
+    "en": "Automation has led to deskilling."
+   }
+  },
+  {
+   "id": "work.disciplinary-hearing",
+   "t": {
+    "en": "disciplinary hearing",
+    "uk": "дисциплінарне слухання",
+    "ru": "дисциплинарное разбирательство",
+    "pl": "postępowanie dyscyplinarne",
+    "de": "Disziplinaranhörung",
+    "fr": "audition disciplinaire",
+    "es": "audiencia disciplinaria",
+    "it": "udienza disciplinare",
+    "pt": "audiência disciplinar",
+    "tr": "disiplin soruşturması"
+   },
+   "ex": {
+    "en": "He was called to a disciplinary hearing."
+   }
+  },
+  {
+   "id": "work.gross-misconduct",
+   "t": {
+    "en": "gross misconduct",
+    "uk": "грубе порушення",
+    "ru": "грубое нарушение",
+    "pl": "ciężkie naruszenie obowiązków",
+    "de": "grobes Fehlverhalten",
+    "fr": "faute grave",
+    "es": "falta grave",
+    "it": "grave negligenza",
+    "pt": "falta grave",
+    "tr": "ağır kusur"
+   },
+   "ex": {
+    "en": "She was fired for gross misconduct."
+   }
+  },
+  {
+   "id": "work.to-be-suspended",
+   "t": {
+    "en": "to be suspended",
+    "uk": "бути відстороненим",
+    "ru": "быть отстранённым",
+    "pl": "zostać zawieszonym",
+    "de": "suspendiert werden",
+    "fr": "être suspendu",
+    "es": "ser suspendido",
+    "it": "essere sospeso",
+    "pt": "ser suspenso",
+    "tr": "uzaklaştırılmak"
+   },
+   "ex": {
+    "en": "He was suspended on full pay."
+   }
+  },
+  {
+   "id": "work.employment-tribunal",
+   "t": {
+    "en": "employment tribunal",
+    "uk": "трудовий суд",
+    "ru": "трудовой суд",
+    "pl": "sąd pracy",
+    "de": "Arbeitsgericht",
+    "fr": "conseil de prud'hommes",
+    "es": "tribunal laboral",
+    "it": "tribunale del lavoro",
+    "pt": "tribunal do trabalho",
+    "tr": "iş mahkemesi"
+   },
+   "ex": {
+    "en": "She took her employer to an employment tribunal."
+   }
+  },
+  {
+   "id": "work.redundancy-package",
+   "t": {
+    "en": "redundancy package",
+    "uk": "вихідна допомога",
+    "ru": "выходное пособие",
+    "pl": "odprawa",
+    "de": "Abfindungspaket",
+    "fr": "indemnités de licenciement",
+    "es": "indemnización por despido",
+    "it": "pacchetto di buonuscita",
+    "pt": "pacote de demissão",
+    "tr": "kıdem tazminatı paketi"
+   },
+   "ex": {
+    "en": "He took a generous redundancy package."
+   }
+  },
+  {
+   "id": "work.relocation-package",
+   "t": {
+    "en": "relocation package",
+    "uk": "пакет на переїзд",
+    "ru": "пакет на переезд",
+    "pl": "pakiet relokacyjny",
+    "de": "Umzugspauschale",
+    "fr": "aide à la mobilité",
+    "es": "paquete de reubicación",
+    "it": "pacchetto di trasferimento",
+    "pt": "pacote de realocação",
+    "tr": "taşınma yardımı"
+   },
+   "ex": {
+    "en": "The job comes with a relocation package."
+   }
+  },
+  {
+   "id": "work.to-hold-the-fort",
+   "t": {
+    "en": "to hold the fort",
+    "uk": "залишатися за старшого",
+    "ru": "оставаться за главного",
+    "pl": "trzymać pieczę",
+    "de": "die Stellung halten",
+    "fr": "garder la boutique",
+    "es": "quedarse a cargo",
+    "it": "mandare avanti la baracca",
+    "pt": "segurar as pontas",
+    "tr": "kaleyi korumak"
+   },
+   "ex": {
+    "en": "Can you hold the fort while I'm away?"
+   }
+  },
+  {
+   "id": "work.to-pick-up-the-slack",
+   "t": {
+    "en": "to pick up the slack",
+    "uk": "підхопити роботу",
+    "ru": "взять на себя чужую работу",
+    "pl": "przejąć obowiązki",
+    "de": "einspringen",
+    "fr": "prendre le relais",
+    "es": "cubrir el hueco",
+    "it": "sopperire",
+    "pt": "cobrir a lacuna",
+    "tr": "açığı kapatmak"
+   },
+   "ex": {
+    "en": "When she left, I had to pick up the slack."
+   }
+  },
+  {
+   "id": "work.workhorse",
+   "t": {
+    "en": "workhorse",
+    "uk": "робоча конячка",
+    "ru": "рабочая лошадка",
+    "pl": "wół roboczy",
+    "de": "Arbeitstier",
+    "fr": "bourreau de travail",
+    "es": "burro de carga",
+    "it": "mulo da lavoro",
+    "pt": "burro de carga",
+    "tr": "iş beygiri"
+   },
+   "ex": {
+    "en": "He's the workhorse of the team."
+   }
+  },
+  {
+   "id": "work.busywork",
+   "t": {
+    "en": "busywork",
+    "uk": "робота для галочки",
+    "ru": "работа для галочки",
+    "pl": "praca dla zabicia czasu",
+    "de": "Beschäftigungstherapie",
+    "fr": "travail inutile",
+    "es": "trabajo de relleno",
+    "it": "lavoro inutile",
+    "pt": "trabalho inútil",
+    "tr": "oyalama işi"
+   },
+   "ex": {
+    "en": "This report is just busywork."
+   }
+  },
+  {
+   "id": "work.hot-seat",
+   "t": {
+    "en": "hot seat",
+    "uk": "гаряче крісло",
+    "ru": "горячее кресло",
+    "pl": "gorące krzesło",
+    "de": "Schleudersitz",
+    "fr": "sellette",
+    "es": "ojo del huracán",
+    "it": "graticola",
+    "pt": "berlinda",
+    "tr": "zor durum"
+   },
+   "ex": {
+    "en": "The CEO is in the hot seat after the losses."
+   }
+  },
+  {
+   "id": "work.to-cut-ones-teeth",
+   "t": {
+    "en": "to cut one's teeth",
+    "uk": "набути першого досвіду",
+    "ru": "набраться первого опыта",
+    "pl": "nabierać doświadczenia",
+    "de": "erste Erfahrungen sammeln",
+    "fr": "faire ses armes",
+    "es": "dar los primeros pasos",
+    "it": "farsi le ossa",
+    "pt": "dar os primeiros passos",
+    "tr": "ilk tecrübesini kazanmak"
+   },
+   "ex": {
+    "en": "She cut her teeth at a small agency."
+   }
+  },
+  {
+   "id": "work.seasoned-professional",
+   "t": {
+    "en": "seasoned professional",
+    "uk": "досвідчений фахівець",
+    "ru": "опытный профессионал",
+    "pl": "doświadczony profesjonalista",
+    "de": "erfahrener Profi",
+    "fr": "professionnel chevronné",
+    "es": "profesional experimentado",
+    "it": "professionista navigato",
+    "pt": "profissional experiente",
+    "tr": "deneyimli profesyonel"
+   },
+   "ex": {
+    "en": "We need a seasoned professional for this role."
+   }
+  },
+  {
+   "id": "work.jack-of-all-trades",
+   "t": {
+    "en": "jack of all trades",
+    "uk": "майстер на всі руки",
+    "ru": "мастер на все руки",
+    "pl": "złota rączka",
+    "de": "Alleskönner",
+    "fr": "touche-à-tout",
+    "es": "todoterreno",
+    "it": "tuttofare",
+    "pt": "pau para toda obra",
+    "tr": "her işi yapan"
+   },
+   "ex": {
+    "en": "In a start-up you must be a jack of all trades."
+   }
+  },
+  {
+   "id": "work.to-wear-many-hats",
+   "t": {
+    "en": "to wear many hats",
+    "uk": "виконувати багато ролей",
+    "ru": "совмещать много ролей",
+    "pl": "pełnić wiele ról",
+    "de": "viele Rollen haben",
+    "fr": "cumuler les casquettes",
+    "es": "desempeñar muchos papeles",
+    "it": "ricoprire molti ruoli",
+    "pt": "desempenhar vários papéis",
+    "tr": "birçok rol üstlenmek"
+   },
+   "ex": {
+    "en": "In a small firm, you wear many hats."
+   }
+  },
+  {
+   "id": "work.pay-freeze",
+   "t": {
+    "en": "pay freeze",
+    "uk": "заморожування зарплат",
+    "ru": "заморозка зарплат",
+    "pl": "zamrożenie płac",
+    "de": "Lohnstopp",
+    "fr": "gel des salaires",
+    "es": "congelación salarial",
+    "it": "blocco degli stipendi",
+    "pt": "congelamento salarial",
+    "tr": "maaş dondurma"
+   },
+   "ex": {
+    "en": "Staff face a two-year pay freeze."
+   }
+  },
+  {
+   "id": "work.to-dock-pay",
+   "t": {
+    "en": "to dock pay",
+    "uk": "утримувати із зарплати",
+    "ru": "удерживать из зарплаты",
+    "pl": "potrącić z pensji",
+    "de": "Lohn kürzen",
+    "fr": "retenir sur le salaire",
+    "es": "descontar del sueldo",
+    "it": "trattenere dallo stipendio",
+    "pt": "descontar do salário",
+    "tr": "maaştan kesmek"
+   },
+   "ex": {
+    "en": "They docked his pay for being late."
+   }
+  },
+  {
+   "id": "work.work-to-rule",
+   "t": {
+    "en": "work-to-rule",
+    "uk": "італійський страйк",
+    "ru": "итальянская забастовка",
+    "pl": "strajk włoski",
+    "de": "Dienst nach Vorschrift",
+    "fr": "grève du zèle",
+    "es": "huelga de celo",
+    "it": "sciopero bianco",
+    "pt": "operação padrão",
+    "tr": "kurallara göre çalışma eylemi"
+   },
+   "ex": {
+    "en": "The drivers began a work-to-rule."
+   }
+  },
+  {
+   "id": "work.picket-line",
+   "t": {
+    "en": "picket line",
+    "uk": "пікет страйкарів",
+    "ru": "пикет забастовщиков",
+    "pl": "pikieta strajkowa",
+    "de": "Streikposten",
+    "fr": "piquet de grève",
+    "es": "piquete",
+    "it": "picchetto",
+    "pt": "piquete",
+    "tr": "grev gözcü hattı"
+   },
+   "ex": {
+    "en": "Workers stood on the picket line all night."
+   }
+  },
+  {
+   "id": "work.walkout",
+   "t": {
+    "en": "walkout",
+    "uk": "стихійний страйк",
+    "ru": "стихийная забастовка",
+    "pl": "strajk",
+    "de": "Arbeitsniederlegung",
+    "fr": "débrayage",
+    "es": "abandono del trabajo",
+    "it": "astensione dal lavoro",
+    "pt": "paralisação",
+    "tr": "iş bırakma"
+   },
+   "ex": {
+    "en": "Staff staged a walkout over pay."
+   }
+  },
+  {
+   "id": "work.industrial-action",
+   "t": {
+    "en": "industrial action",
+    "uk": "страйкові дії",
+    "ru": "забастовочные действия",
+    "pl": "akcja protestacyjna",
+    "de": "Arbeitskampfmaßnahmen",
+    "fr": "mouvement social",
+    "es": "acciones sindicales",
+    "it": "azione sindacale",
+    "pt": "greve",
+    "tr": "grev eylemi"
+   },
+   "ex": {
+    "en": "The union threatened industrial action."
+   }
+  },
+  {
+   "id": "work.mediation",
+   "t": {
+    "en": "mediation",
+    "uk": "посередництво",
+    "ru": "посредничество",
+    "pl": "mediacja",
+    "de": "Mediation",
+    "fr": "médiation",
+    "es": "mediación",
+    "it": "mediazione",
+    "pt": "mediação",
+    "tr": "arabuluculuk"
+   },
+   "ex": {
+    "en": "The dispute went to mediation."
+   }
+  },
+  {
+   "id": "work.employee-engagement",
+   "t": {
+    "en": "employee engagement",
+    "uk": "залученість працівників",
+    "ru": "вовлечённость сотрудников",
+    "pl": "zaangażowanie pracowników",
+    "de": "Mitarbeiterengagement",
+    "fr": "engagement des employés",
+    "es": "compromiso de los empleados",
+    "it": "coinvolgimento dei dipendenti",
+    "pt": "engajamento dos funcionários",
+    "tr": "çalışan bağlılığı"
+   },
+   "ex": {
+    "en": "Employee engagement surveys are run yearly."
+   }
+  },
+  {
+   "id": "work.disengaged",
+   "t": {
+    "en": "disengaged",
+    "uk": "байдужий",
+    "ru": "безразличный",
+    "pl": "niezaangażowany",
+    "de": "unmotiviert",
+    "fr": "désengagé",
+    "es": "desmotivado",
+    "it": "demotivato",
+    "pt": "desmotivado",
+    "tr": "ilgisiz"
+   },
+   "ex": {
+    "en": "Disengaged workers are less productive."
+   }
+  },
+  {
+   "id": "work.careerist",
+   "t": {
+    "en": "careerist",
+    "uk": "кар'єрист",
+    "ru": "карьерист",
+    "pl": "karierowicz",
+    "de": "Karrierist",
+    "fr": "carriériste",
+    "es": "arribista",
+    "it": "carrierista",
+    "pt": "carreirista",
+    "tr": "kariyerist"
+   },
+   "ex": {
+    "en": "He's a careerist who ignores his team."
+   }
+  },
+  {
+   "id": "work.mission-statement",
+   "t": {
+    "en": "mission statement",
+    "uk": "місія компанії",
+    "ru": "миссия компании",
+    "pl": "deklaracja misji",
+    "de": "Leitbild",
+    "fr": "énoncé de mission",
+    "es": "declaración de misión",
+    "it": "dichiarazione d'intenti",
+    "pt": "declaração de missão",
+    "tr": "misyon bildirgesi"
+   },
+   "ex": {
+    "en": "Our mission statement is on the wall."
+   }
+  },
+  {
+   "id": "work.core-competency",
+   "t": {
+    "en": "core competency",
+    "uk": "ключова компетенція",
+    "ru": "ключевая компетенция",
+    "pl": "kluczowa kompetencja",
+    "de": "Kernkompetenz",
+    "fr": "compétence clé",
+    "es": "competencia clave",
+    "it": "competenza chiave",
+    "pt": "competência essencial",
+    "tr": "temel yetkinlik"
+   },
+   "ex": {
+    "en": "Design is our core competency."
+   }
+  },
+  {
+   "id": "work.aptitude-test",
+   "t": {
+    "en": "aptitude test",
+    "uk": "тест на здібності",
+    "ru": "тест на способности",
+    "pl": "test predyspozycji",
+    "de": "Eignungstest",
+    "fr": "test d'aptitude",
+    "es": "prueba de aptitud",
+    "it": "test attitudinale",
+    "pt": "teste de aptidão",
+    "tr": "yetenek testi"
+   },
+   "ex": {
+    "en": "Applicants must pass an aptitude test."
+   }
+  },
+  {
+   "id": "work.psychometric-test",
+   "t": {
+    "en": "psychometric test",
+    "uk": "психометричний тест",
+    "ru": "психометрический тест",
+    "pl": "test psychometryczny",
+    "de": "psychometrischer Test",
+    "fr": "test psychométrique",
+    "es": "test psicométrico",
+    "it": "test psicometrico",
+    "pt": "teste psicométrico",
+    "tr": "psikometrik test"
+   },
+   "ex": {
+    "en": "The firm uses psychometric tests in hiring."
+   }
+  },
+  {
+   "id": "work.assessment-centre",
+   "t": {
+    "en": "assessment centre",
+    "uk": "центр оцінювання",
+    "ru": "центр оценки",
+    "pl": "assessment center",
+    "de": "Assessment-Center",
+    "fr": "centre d'évaluation",
+    "es": "centro de evaluación",
+    "it": "assessment center",
+    "pt": "centro de avaliação",
+    "tr": "değerlendirme merkezi"
+   },
+   "ex": {
+    "en": "Graduates attend an assessment centre."
+   }
+  },
+  {
+   "id": "work.to-vet-candidates",
+   "t": {
+    "en": "to vet candidates",
+    "uk": "перевіряти кандидатів",
+    "ru": "проверять кандидатов",
+    "pl": "weryfikować kandydatów",
+    "de": "Bewerber überprüfen",
+    "fr": "vérifier les candidats",
+    "es": "investigar a los candidatos",
+    "it": "vagliare i candidati",
+    "pt": "investigar candidatos",
+    "tr": "adayları incelemek"
+   },
+   "ex": {
+    "en": "We vet candidates carefully."
+   }
+  },
+  {
+   "id": "work.to-skive-off",
+   "t": {
+    "en": "to skive off",
+    "uk": "прогулювати",
+    "ru": "прогуливать",
+    "pl": "wagarować",
+    "de": "blaumachen",
+    "fr": "sécher le travail",
+    "es": "escaquearse",
+    "it": "marinare il lavoro",
+    "pt": "matar o trabalho",
+    "tr": "işi asmak"
+   },
+   "ex": {
+    "en": "He skived off work to watch the match."
    }
   }
  ]

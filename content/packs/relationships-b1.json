@@ -2,7 +2,7 @@
  "id": "relationships-b1",
  "topic": "relationships",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "relationships.crush",
@@ -848,6 +848,960 @@
    },
    "ex": {
     "en": "The age difference doesn't matter to them."
+   }
+  },
+  {
+   "id": "relationships.to-date-someone",
+   "t": {
+    "en": "to date someone",
+    "uk": "зустрічатися з кимось",
+    "ru": "встречаться с кем-то",
+    "pl": "spotykać się z kimś",
+    "de": "mit jemandem zusammen sein",
+    "fr": "sortir avec quelqu'un",
+    "es": "salir con alguien",
+    "it": "uscire con qualcuno",
+    "pt": "namorar alguém",
+    "tr": "biriyle çıkmak"
+   },
+   "ex": {
+    "en": "She's dating someone from work."
+   }
+  },
+  {
+   "id": "relationships.online-dating",
+   "t": {
+    "en": "online dating",
+    "uk": "онлайн-знайомства",
+    "ru": "онлайн-знакомства",
+    "pl": "randki internetowe",
+    "de": "Online-Dating",
+    "fr": "rencontres en ligne",
+    "es": "citas en línea",
+    "it": "incontri online",
+    "pt": "namoro online",
+    "tr": "internetten flört"
+   },
+   "ex": {
+    "en": "They met through online dating."
+   }
+  },
+  {
+   "id": "relationships.dating-profile",
+   "t": {
+    "en": "dating profile",
+    "uk": "профіль для знайомств",
+    "ru": "анкета для знакомств",
+    "pl": "profil randkowy",
+    "de": "Dating-Profil",
+    "fr": "profil de rencontre",
+    "es": "perfil de citas",
+    "it": "profilo di incontri",
+    "pt": "perfil de namoro",
+    "tr": "tanışma profili"
+   },
+   "ex": {
+    "en": "Update your dating profile photo."
+   }
+  },
+  {
+   "id": "relationships.to-swipe-right",
+   "t": {
+    "en": "to swipe right",
+    "uk": "свайпнути вправо",
+    "ru": "свайпнуть вправо",
+    "pl": "przesunąć w prawo",
+    "de": "nach rechts wischen",
+    "fr": "swiper à droite",
+    "es": "deslizar a la derecha",
+    "it": "scorrere a destra",
+    "pt": "deslizar para a direita",
+    "tr": "sağa kaydırmak"
+   },
+   "ex": {
+    "en": "I swiped right on his profile."
+   }
+  },
+  {
+   "id": "relationships.to-fancy-someone",
+   "t": {
+    "en": "to fancy someone",
+    "uk": "мати симпатію до когось",
+    "ru": "запасть на кого-то",
+    "pl": "podobać się komuś",
+    "de": "auf jemanden stehen",
+    "fr": "craquer pour quelqu'un",
+    "es": "estar colado por alguien",
+    "it": "avere una cotta per qualcuno",
+    "pt": "estar a fim de alguém",
+    "tr": "birinden hoşlanmak"
+   },
+   "ex": {
+    "en": "I think he fancies you."
+   }
+  },
+  {
+   "id": "relationships.attractive",
+   "t": {
+    "en": "attractive",
+    "uk": "привабливий",
+    "ru": "привлекательный",
+    "pl": "atrakcyjny",
+    "de": "attraktiv",
+    "fr": "attirant",
+    "es": "atractivo",
+    "it": "attraente",
+    "pt": "atraente",
+    "tr": "çekici"
+   },
+   "ex": {
+    "en": "She finds him very attractive."
+   }
+  },
+  {
+   "id": "relationships.good-looking",
+   "t": {
+    "en": "good-looking",
+    "uk": "гарний",
+    "ru": "симпатичный",
+    "pl": "przystojny",
+    "de": "gut aussehend",
+    "fr": "beau",
+    "es": "guapo",
+    "it": "di bell'aspetto",
+    "pt": "bonito",
+    "tr": "yakışıklı"
+   },
+   "ex": {
+    "en": "Her brother is good-looking."
+   }
+  },
+  {
+   "id": "relationships.first-impression",
+   "t": {
+    "en": "first impression",
+    "uk": "перше враження",
+    "ru": "первое впечатление",
+    "pl": "pierwsze wrażenie",
+    "de": "erster Eindruck",
+    "fr": "première impression",
+    "es": "primera impresión",
+    "it": "prima impressione",
+    "pt": "primeira impressão",
+    "tr": "ilk izlenim"
+   },
+   "ex": {
+    "en": "My first impression was great."
+   }
+  },
+  {
+   "id": "relationships.romance",
+   "t": {
+    "en": "romance",
+    "uk": "роман",
+    "ru": "роман",
+    "pl": "romans",
+    "de": "Romanze",
+    "fr": "idylle",
+    "es": "romance",
+    "it": "storia d'amore",
+    "pt": "romance",
+    "tr": "aşk ilişkisi"
+   },
+   "ex": {
+    "en": "Their romance began in Paris."
+   }
+  },
+  {
+   "id": "relationships.love-story",
+   "t": {
+    "en": "love story",
+    "uk": "історія кохання",
+    "ru": "история любви",
+    "pl": "historia miłosna",
+    "de": "Liebesgeschichte",
+    "fr": "histoire d'amour",
+    "es": "historia de amor",
+    "it": "storia d'amore",
+    "pt": "história de amor",
+    "tr": "aşk hikâyesi"
+   },
+   "ex": {
+    "en": "Theirs is a real love story."
+   }
+  },
+  {
+   "id": "relationships.cheating",
+   "t": {
+    "en": "cheating",
+    "uk": "зрада",
+    "ru": "измена",
+    "pl": "zdrada",
+    "de": "Fremdgehen",
+    "fr": "tromperie",
+    "es": "infidelidad",
+    "it": "tradimento",
+    "pt": "traição",
+    "tr": "aldatma"
+   },
+   "ex": {
+    "en": "Cheating ended their marriage."
+   }
+  },
+  {
+   "id": "relationships.unfaithful",
+   "t": {
+    "en": "unfaithful",
+    "uk": "невірний",
+    "ru": "неверный",
+    "pl": "niewierny",
+    "de": "untreu",
+    "fr": "infidèle",
+    "es": "infiel",
+    "it": "infedele",
+    "pt": "infiel",
+    "tr": "sadakatsiz"
+   },
+   "ex": {
+    "en": "He was never unfaithful to her."
+   }
+  },
+  {
+   "id": "relationships.loyalty",
+   "t": {
+    "en": "loyalty",
+    "uk": "вірність",
+    "ru": "верность",
+    "pl": "lojalność",
+    "de": "Treue",
+    "fr": "loyauté",
+    "es": "lealtad",
+    "it": "lealtà",
+    "pt": "lealdade",
+    "tr": "sadakat"
+   },
+   "ex": {
+    "en": "I value loyalty above all."
+   }
+  },
+  {
+   "id": "relationships.argument",
+   "t": {
+    "en": "argument",
+    "uk": "суперечка",
+    "ru": "спор",
+    "pl": "kłótnia",
+    "de": "Streit",
+    "fr": "dispute",
+    "es": "discusión",
+    "it": "lite",
+    "pt": "discussão",
+    "tr": "tartışma"
+   },
+   "ex": {
+    "en": "We had an argument last night."
+   }
+  },
+  {
+   "id": "relationships.to-get-on-well",
+   "t": {
+    "en": "to get on well",
+    "uk": "ладнати",
+    "ru": "ладить",
+    "pl": "dobrze się dogadywać",
+    "de": "sich gut verstehen",
+    "fr": "bien s'entendre",
+    "es": "llevarse bien",
+    "it": "andare d'accordo",
+    "pt": "se dar bem",
+    "tr": "iyi anlaşmak"
+   },
+   "ex": {
+    "en": "We get on well with our neighbours."
+   }
+  },
+  {
+   "id": "relationships.to-split-up",
+   "t": {
+    "en": "to split up",
+    "uk": "розійтися",
+    "ru": "расстаться",
+    "pl": "rozstać się",
+    "de": "sich trennen",
+    "fr": "se séparer",
+    "es": "separarse",
+    "it": "lasciarsi",
+    "pt": "terminar",
+    "tr": "ayrılmak"
+   },
+   "ex": {
+    "en": "They split up last summer."
+   }
+  },
+  {
+   "id": "relationships.to-separate",
+   "t": {
+    "en": "to separate",
+    "uk": "розлучатися",
+    "ru": "разъезжаться",
+    "pl": "separować się",
+    "de": "sich trennen",
+    "fr": "se séparer",
+    "es": "separarse",
+    "it": "separarsi",
+    "pt": "se separar",
+    "tr": "ayrı yaşamak"
+   },
+   "ex": {
+    "en": "Her parents decided to separate."
+   }
+  },
+  {
+   "id": "relationships.separation",
+   "t": {
+    "en": "separation",
+    "uk": "розлука",
+    "ru": "разлука",
+    "pl": "separacja",
+    "de": "Trennung",
+    "fr": "séparation",
+    "es": "separación",
+    "it": "separazione",
+    "pt": "separação",
+    "tr": "ayrılık"
+   },
+   "ex": {
+    "en": "The separation was painful."
+   }
+  },
+  {
+   "id": "relationships.divorce",
+   "t": {
+    "en": "divorce",
+    "uk": "розлучення",
+    "ru": "развод",
+    "pl": "rozwód",
+    "de": "Scheidung",
+    "fr": "divorce",
+    "es": "divorcio",
+    "it": "divorzio",
+    "pt": "divórcio",
+    "tr": "boşanma"
+   },
+   "ex": {
+    "en": "The divorce took two years."
+   }
+  },
+  {
+   "id": "relationships.engagement",
+   "t": {
+    "en": "engagement",
+    "uk": "заручини",
+    "ru": "помолвка",
+    "pl": "zaręczyny",
+    "de": "Verlobung",
+    "fr": "fiançailles",
+    "es": "compromiso",
+    "it": "fidanzamento",
+    "pt": "noivado",
+    "tr": "nişan"
+   },
+   "ex": {
+    "en": "They announced their engagement."
+   }
+  },
+  {
+   "id": "relationships.engagement-party",
+   "t": {
+    "en": "engagement party",
+    "uk": "вечірка на честь заручин",
+    "ru": "вечеринка по случаю помолвки",
+    "pl": "przyjęcie zaręczynowe",
+    "de": "Verlobungsfeier",
+    "fr": "fête de fiançailles",
+    "es": "fiesta de compromiso",
+    "it": "festa di fidanzamento",
+    "pt": "festa de noivado",
+    "tr": "nişan partisi"
+   },
+   "ex": {
+    "en": "The engagement party is on Sunday."
+   }
+  },
+  {
+   "id": "relationships.stag-party",
+   "t": {
+    "en": "stag party",
+    "uk": "парубоцька вечірка",
+    "ru": "мальчишник",
+    "pl": "wieczór kawalerski",
+    "de": "Junggesellenabschied",
+    "fr": "enterrement de vie de garçon",
+    "es": "despedida de soltero",
+    "it": "addio al celibato",
+    "pt": "despedida de solteiro",
+    "tr": "bekârlığa veda partisi"
+   },
+   "ex": {
+    "en": "The stag party was in Prague."
+   }
+  },
+  {
+   "id": "relationships.hen-party",
+   "t": {
+    "en": "hen party",
+    "uk": "дівич-вечір",
+    "ru": "девичник",
+    "pl": "wieczór panieński",
+    "de": "Junggesellinnenabschied",
+    "fr": "enterrement de vie de jeune fille",
+    "es": "despedida de soltera",
+    "it": "addio al nubilato",
+    "pt": "despedida de solteira",
+    "tr": "kına gecesi"
+   },
+   "ex": {
+    "en": "We planned a hen party for Lisa."
+   }
+  },
+  {
+   "id": "relationships.wedding-reception",
+   "t": {
+    "en": "wedding reception",
+    "uk": "весільний банкет",
+    "ru": "свадебный банкет",
+    "pl": "przyjęcie weselne",
+    "de": "Hochzeitsfeier",
+    "fr": "réception de mariage",
+    "es": "banquete de boda",
+    "it": "ricevimento di nozze",
+    "pt": "festa de casamento",
+    "tr": "düğün yemeği"
+   },
+   "ex": {
+    "en": "The wedding reception was lovely."
+   }
+  },
+  {
+   "id": "relationships.to-exchange-rings",
+   "t": {
+    "en": "to exchange rings",
+    "uk": "обмінятися обручками",
+    "ru": "обменяться кольцами",
+    "pl": "wymienić się obrączkami",
+    "de": "Ringe tauschen",
+    "fr": "échanger les alliances",
+    "es": "intercambiar los anillos",
+    "it": "scambiarsi gli anelli",
+    "pt": "trocar as alianças",
+    "tr": "yüzük takmak"
+   },
+   "ex": {
+    "en": "The couple exchanged rings."
+   }
+  },
+  {
+   "id": "relationships.to-betray",
+   "t": {
+    "en": "to betray",
+    "uk": "зраджувати",
+    "ru": "предавать",
+    "pl": "zdradzić",
+    "de": "verraten",
+    "fr": "trahir",
+    "es": "traicionar",
+    "it": "tradire",
+    "pt": "trair",
+    "tr": "ihanet etmek"
+   },
+   "ex": {
+    "en": "I would never betray you."
+   }
+  },
+  {
+   "id": "relationships.companionship",
+   "t": {
+    "en": "companionship",
+    "uk": "товариство",
+    "ru": "общение",
+    "pl": "towarzystwo",
+    "de": "Gesellschaft",
+    "fr": "compagnie",
+    "es": "compañía",
+    "it": "compagnia",
+    "pt": "companheirismo",
+    "tr": "arkadaşlık"
+   },
+   "ex": {
+    "en": "Old people need companionship."
+   }
+  },
+  {
+   "id": "relationships.compromise",
+   "t": {
+    "en": "compromise",
+    "uk": "компроміс",
+    "ru": "компромисс",
+    "pl": "kompromis",
+    "de": "Kompromiss",
+    "fr": "compromis",
+    "es": "compromiso",
+    "it": "compromesso",
+    "pt": "acordo",
+    "tr": "uzlaşma"
+   },
+   "ex": {
+    "en": "Every relationship needs compromise."
+   }
+  },
+  {
+   "id": "relationships.forgiveness",
+   "t": {
+    "en": "forgiveness",
+    "uk": "прощення",
+    "ru": "прощение",
+    "pl": "przebaczenie",
+    "de": "Vergebung",
+    "fr": "pardon",
+    "es": "perdón",
+    "it": "perdono",
+    "pt": "perdão",
+    "tr": "af"
+   },
+   "ex": {
+    "en": "She asked for his forgiveness."
+   }
+  },
+  {
+   "id": "relationships.to-hurt-someone",
+   "t": {
+    "en": "to hurt someone",
+    "uk": "скривдити когось",
+    "ru": "обидеть кого-то",
+    "pl": "zranić kogoś",
+    "de": "jemanden verletzen",
+    "fr": "blesser quelqu'un",
+    "es": "hacer daño a alguien",
+    "it": "ferire qualcuno",
+    "pt": "magoar alguém",
+    "tr": "birini incitmek"
+   },
+   "ex": {
+    "en": "I didn't mean to hurt you."
+   }
+  },
+  {
+   "id": "relationships.hurt-feelings",
+   "t": {
+    "en": "hurt feelings",
+    "uk": "образа",
+    "ru": "обида",
+    "pl": "zranione uczucia",
+    "de": "verletzte Gefühle",
+    "fr": "blessure",
+    "es": "sentimientos heridos",
+    "it": "sentimenti feriti",
+    "pt": "mágoa",
+    "tr": "kırgınlık"
+   },
+   "ex": {
+    "en": "Sorry about your hurt feelings."
+   }
+  },
+  {
+   "id": "relationships.to-appreciate",
+   "t": {
+    "en": "to appreciate",
+    "uk": "цінувати",
+    "ru": "ценить",
+    "pl": "doceniać",
+    "de": "schätzen",
+    "fr": "apprécier",
+    "es": "valorar",
+    "it": "apprezzare",
+    "pt": "valorizar",
+    "tr": "takdir etmek"
+   },
+   "ex": {
+    "en": "I really appreciate you."
+   }
+  },
+  {
+   "id": "relationships.supportive",
+   "t": {
+    "en": "supportive",
+    "uk": "підтримуючий",
+    "ru": "поддерживающий",
+    "pl": "wspierający",
+    "de": "unterstützend",
+    "fr": "qui soutient",
+    "es": "que apoya",
+    "it": "di supporto",
+    "pt": "que apoia",
+    "tr": "destekleyici"
+   },
+   "ex": {
+    "en": "My partner is very supportive."
+   }
+  },
+  {
+   "id": "relationships.devoted",
+   "t": {
+    "en": "devoted",
+    "uk": "відданий",
+    "ru": "преданный",
+    "pl": "oddany",
+    "de": "ergeben",
+    "fr": "dévoué",
+    "es": "entregado",
+    "it": "devoto",
+    "pt": "dedicado",
+    "tr": "bağlı"
+   },
+   "ex": {
+    "en": "He is a devoted husband."
+   }
+  },
+  {
+   "id": "relationships.devotion",
+   "t": {
+    "en": "devotion",
+    "uk": "відданість",
+    "ru": "преданность",
+    "pl": "oddanie",
+    "de": "Hingabe",
+    "fr": "dévouement",
+    "es": "devoción",
+    "it": "devozione",
+    "pt": "devoção",
+    "tr": "bağlılık"
+   },
+   "ex": {
+    "en": "Her devotion to him is clear."
+   }
+  },
+  {
+   "id": "relationships.tenderness",
+   "t": {
+    "en": "tenderness",
+    "uk": "ніжність",
+    "ru": "нежность",
+    "pl": "czułość",
+    "de": "Zärtlichkeit",
+    "fr": "tendresse",
+    "es": "ternura",
+    "it": "tenerezza",
+    "pt": "ternura",
+    "tr": "şefkat"
+   },
+   "ex": {
+    "en": "He looked at her with tenderness."
+   }
+  },
+  {
+   "id": "relationships.warmth",
+   "t": {
+    "en": "warmth",
+    "uk": "теплота",
+    "ru": "теплота",
+    "pl": "ciepło",
+    "de": "Wärme",
+    "fr": "chaleur",
+    "es": "calidez",
+    "it": "calore",
+    "pt": "carinho",
+    "tr": "sıcaklık"
+   },
+   "ex": {
+    "en": "I miss the warmth of her smile."
+   }
+  },
+  {
+   "id": "relationships.to-communicate",
+   "t": {
+    "en": "to communicate",
+    "uk": "спілкуватися",
+    "ru": "общаться",
+    "pl": "komunikować się",
+    "de": "kommunizieren",
+    "fr": "communiquer",
+    "es": "comunicarse",
+    "it": "comunicare",
+    "pt": "se comunicar",
+    "tr": "iletişim kurmak"
+   },
+   "ex": {
+    "en": "Couples must communicate openly."
+   }
+  },
+  {
+   "id": "relationships.communication",
+   "t": {
+    "en": "communication",
+    "uk": "спілкування",
+    "ru": "общение",
+    "pl": "komunikacja",
+    "de": "Kommunikation",
+    "fr": "communication",
+    "es": "comunicación",
+    "it": "comunicazione",
+    "pt": "comunicação",
+    "tr": "iletişim"
+   },
+   "ex": {
+    "en": "Communication is the key."
+   }
+  },
+  {
+   "id": "relationships.to-express-feelings",
+   "t": {
+    "en": "to express feelings",
+    "uk": "висловлювати почуття",
+    "ru": "выражать чувства",
+    "pl": "wyrażać uczucia",
+    "de": "Gefühle ausdrücken",
+    "fr": "exprimer ses sentiments",
+    "es": "expresar sentimientos",
+    "it": "esprimere i sentimenti",
+    "pt": "expressar sentimentos",
+    "tr": "duygularını ifade etmek"
+   },
+   "ex": {
+    "en": "He finds it hard to express feelings."
+   }
+  },
+  {
+   "id": "relationships.to-show-affection",
+   "t": {
+    "en": "to show affection",
+    "uk": "проявляти ніжність",
+    "ru": "проявлять нежность",
+    "pl": "okazywać czułość",
+    "de": "Zuneigung zeigen",
+    "fr": "montrer de l'affection",
+    "es": "mostrar cariño",
+    "it": "mostrare affetto",
+    "pt": "demonstrar carinho",
+    "tr": "sevgi göstermek"
+   },
+   "ex": {
+    "en": "They often show affection in public."
+   }
+  },
+  {
+   "id": "relationships.to-lose-touch",
+   "t": {
+    "en": "to lose touch",
+    "uk": "втратити зв'язок",
+    "ru": "потерять связь",
+    "pl": "stracić kontakt",
+    "de": "den Kontakt verlieren",
+    "fr": "perdre contact",
+    "es": "perder el contacto",
+    "it": "perdere i contatti",
+    "pt": "perder contato",
+    "tr": "bağlantıyı kaybetmek"
+   },
+   "ex": {
+    "en": "We lost touch after school."
+   }
+  },
+  {
+   "id": "relationships.reunion",
+   "t": {
+    "en": "reunion",
+    "uk": "зустріч після розлуки",
+    "ru": "встреча после разлуки",
+    "pl": "ponowne spotkanie",
+    "de": "Wiedersehen",
+    "fr": "retrouvailles",
+    "es": "reencuentro",
+    "it": "ricongiungimento",
+    "pt": "reencontro",
+    "tr": "yeniden buluşma"
+   },
+   "ex": {
+    "en": "It was an emotional reunion."
+   }
+  },
+  {
+   "id": "relationships.acquaintance",
+   "t": {
+    "en": "acquaintance",
+    "uk": "знайомий",
+    "ru": "знакомый",
+    "pl": "znajomy",
+    "de": "Bekannter",
+    "fr": "connaissance",
+    "es": "conocido",
+    "it": "conoscente",
+    "pt": "conhecido",
+    "tr": "tanıdık"
+   },
+   "ex": {
+    "en": "He's just an acquaintance."
+   }
+  },
+  {
+   "id": "relationships.childhood-friend",
+   "t": {
+    "en": "childhood friend",
+    "uk": "друг дитинства",
+    "ru": "друг детства",
+    "pl": "przyjaciel z dzieciństwa",
+    "de": "Kindheitsfreund",
+    "fr": "ami d'enfance",
+    "es": "amigo de la infancia",
+    "it": "amico d'infanzia",
+    "pt": "amigo de infância",
+    "tr": "çocukluk arkadaşı"
+   },
+   "ex": {
+    "en": "She married her childhood friend."
+   }
+  },
+  {
+   "id": "relationships.social-circle",
+   "t": {
+    "en": "social circle",
+    "uk": "коло спілкування",
+    "ru": "круг общения",
+    "pl": "krąg znajomych",
+    "de": "Freundeskreis",
+    "fr": "cercle social",
+    "es": "círculo social",
+    "it": "cerchia sociale",
+    "pt": "círculo social",
+    "tr": "sosyal çevre"
+   },
+   "ex": {
+    "en": "My social circle is small."
+   }
+  },
+  {
+   "id": "relationships.to-set-someone-up",
+   "t": {
+    "en": "to set someone up",
+    "uk": "познайомити когось",
+    "ru": "свести кого-то",
+    "pl": "umówić kogoś z kimś",
+    "de": "jemanden verkuppeln",
+    "fr": "caser quelqu'un",
+    "es": "emparejar a alguien",
+    "it": "combinare un appuntamento",
+    "pt": "arranjar um encontro para alguém",
+    "tr": "birini biriyle tanıştırmak"
+   },
+   "ex": {
+    "en": "My sister set me up with Tom."
+   }
+  },
+  {
+   "id": "relationships.betrayal",
+   "t": {
+    "en": "betrayal",
+    "uk": "зрадництво",
+    "ru": "предательство",
+    "pl": "zdrada",
+    "de": "Verrat",
+    "fr": "trahison",
+    "es": "traición",
+    "it": "tradimento",
+    "pt": "traição",
+    "tr": "ihanet"
+   },
+   "ex": {
+    "en": "Lying to me was a betrayal."
+   }
+  },
+  {
+   "id": "relationships.to-move-in-together",
+   "t": {
+    "en": "to move in together",
+    "uk": "з'їхатися",
+    "ru": "съехаться",
+    "pl": "zamieszkać razem",
+    "de": "zusammenziehen",
+    "fr": "emménager ensemble",
+    "es": "irse a vivir juntos",
+    "it": "andare a vivere insieme",
+    "pt": "morar juntos",
+    "tr": "birlikte taşınmak"
+   },
+   "ex": {
+    "en": "We moved in together in May."
+   }
+  },
+  {
+   "id": "relationships.serious-relationship",
+   "t": {
+    "en": "serious relationship",
+    "uk": "серйозні стосунки",
+    "ru": "серьёзные отношения",
+    "pl": "poważny związek",
+    "de": "feste Beziehung",
+    "fr": "relation sérieuse",
+    "es": "relación seria",
+    "it": "relazione seria",
+    "pt": "relacionamento sério",
+    "tr": "ciddi ilişki"
+   },
+   "ex": {
+    "en": "I'm ready for a serious relationship."
+   }
+  },
+  {
+   "id": "relationships.casual-relationship",
+   "t": {
+    "en": "casual relationship",
+    "uk": "несерйозні стосунки",
+    "ru": "несерьёзные отношения",
+    "pl": "luźny związek",
+    "de": "lockere Beziehung",
+    "fr": "relation légère",
+    "es": "relación informal",
+    "it": "relazione occasionale",
+    "pt": "relacionamento casual",
+    "tr": "ciddi olmayan ilişki"
+   },
+   "ex": {
+    "en": "It was just a casual relationship."
+   }
+  },
+  {
+   "id": "relationships.love-triangle",
+   "t": {
+    "en": "love triangle",
+    "uk": "любовний трикутник",
+    "ru": "любовный треугольник",
+    "pl": "trójkąt miłosny",
+    "de": "Dreiecksbeziehung",
+    "fr": "triangle amoureux",
+    "es": "triángulo amoroso",
+    "it": "triangolo amoroso",
+    "pt": "triângulo amoroso",
+    "tr": "aşk üçgeni"
+   },
+   "ex": {
+    "en": "The film is about a love triangle."
+   }
+  },
+  {
+   "id": "relationships.white-lie",
+   "t": {
+    "en": "white lie",
+    "uk": "невинна брехня",
+    "ru": "ложь во спасение",
+    "pl": "niewinne kłamstewko",
+    "de": "Notlüge",
+    "fr": "pieux mensonge",
+    "es": "mentira piadosa",
+    "it": "bugia bianca",
+    "pt": "mentira inocente",
+    "tr": "beyaz yalan"
+   },
+   "ex": {
+    "en": "It was only a white lie."
    }
   }
  ]

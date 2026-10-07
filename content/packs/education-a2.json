@@ -2,7 +2,7 @@
  "id": "education-a2",
  "topic": "education",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "education.university",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "He is clever but a bit lazy."
+   }
+  },
+  {
+   "id": "education.to-tick",
+   "t": {
+    "en": "to tick",
+    "uk": "ставити галочку",
+    "ru": "ставить галочку",
+    "pl": "zaznaczać",
+    "de": "ankreuzen",
+    "fr": "cocher",
+    "es": "marcar",
+    "it": "spuntare",
+    "pt": "marcar",
+    "tr": "işaretlemek"
+   },
+   "ex": {
+    "en": "Tick the correct box."
+   }
+  },
+  {
+   "id": "education.to-prepare",
+   "t": {
+    "en": "to prepare",
+    "uk": "готуватися",
+    "ru": "готовиться",
+    "pl": "przygotowywać się",
+    "de": "sich vorbereiten",
+    "fr": "se préparer",
+    "es": "prepararse",
+    "it": "prepararsi",
+    "pt": "preparar-se",
+    "tr": "hazırlanmak"
+   },
+   "ex": {
+    "en": "I prepare for every test."
+   }
+  },
+  {
+   "id": "education.to-add",
+   "t": {
+    "en": "to add",
+    "uk": "додавати",
+    "ru": "складывать",
+    "pl": "dodawać",
+    "de": "addieren",
+    "fr": "additionner",
+    "es": "sumar",
+    "it": "addizionare",
+    "pt": "somar",
+    "tr": "toplamak"
+   },
+   "ex": {
+    "en": "Add two and three."
+   }
+  },
+  {
+   "id": "education.to-subtract",
+   "t": {
+    "en": "to subtract",
+    "uk": "віднімати",
+    "ru": "вычитать",
+    "pl": "odejmować",
+    "de": "subtrahieren",
+    "fr": "soustraire",
+    "es": "restar",
+    "it": "sottrarre",
+    "pt": "subtrair",
+    "tr": "çıkarmak"
+   },
+   "ex": {
+    "en": "Subtract five from ten."
+   }
+  },
+  {
+   "id": "education.to-divide",
+   "t": {
+    "en": "to divide",
+    "uk": "ділити",
+    "ru": "делить",
+    "pl": "dzielić",
+    "de": "teilen",
+    "fr": "diviser",
+    "es": "dividir",
+    "it": "dividere",
+    "pt": "dividir",
+    "tr": "bölmek"
+   },
+   "ex": {
+    "en": "Divide twelve by three."
+   }
+  },
+  {
+   "id": "education.to-multiply",
+   "t": {
+    "en": "to multiply",
+    "uk": "множити",
+    "ru": "умножать",
+    "pl": "mnożyć",
+    "de": "multiplizieren",
+    "fr": "multiplier",
+    "es": "multiplicar",
+    "it": "moltiplicare",
+    "pt": "multiplicar",
+    "tr": "çarpmak"
+   },
+   "ex": {
+    "en": "Multiply four by five."
+   }
+  },
+  {
+   "id": "education.literature",
+   "t": {
+    "en": "literature",
+    "uk": "література",
+    "ru": "литература",
+    "pl": "literatura",
+    "de": "Literatur",
+    "fr": "littérature",
+    "es": "literatura",
+    "it": "letteratura",
+    "pt": "literatura",
+    "tr": "edebiyat"
+   },
+   "ex": {
+    "en": "I love literature lessons."
+   }
+  },
+  {
+   "id": "education.computer-science",
+   "t": {
+    "en": "computer science",
+    "uk": "інформатика",
+    "ru": "информатика",
+    "pl": "informatyka",
+    "de": "Informatik",
+    "fr": "informatique",
+    "es": "informática",
+    "it": "informatica",
+    "pt": "informática",
+    "tr": "bilgisayar bilimi"
+   },
+   "ex": {
+    "en": "Computer science is my favourite subject."
+   }
+  },
+  {
+   "id": "education.school-bell",
+   "t": {
+    "en": "school bell",
+    "uk": "шкільний дзвоник",
+    "ru": "школьный звонок",
+    "pl": "dzwonek szkolny",
+    "de": "Schulklingel",
+    "fr": "sonnerie de l'école",
+    "es": "timbre del colegio",
+    "it": "campanella",
+    "pt": "sinal da escola",
+    "tr": "okul zili"
+   },
+   "ex": {
+    "en": "The school bell rings at eight."
+   }
+  },
+  {
+   "id": "education.playground",
+   "t": {
+    "en": "playground",
+    "uk": "ігровий майданчик",
+    "ru": "игровая площадка",
+    "pl": "plac zabaw",
+    "de": "Spielplatz",
+    "fr": "aire de jeux",
+    "es": "parque infantil",
+    "it": "parco giochi",
+    "pt": "parquinho",
+    "tr": "oyun parkı"
+   },
+   "ex": {
+    "en": "The children play on the playground."
+   }
+  },
+  {
+   "id": "education.locker",
+   "t": {
+    "en": "locker",
+    "uk": "шафка",
+    "ru": "шкафчик",
+    "pl": "szafka",
+    "de": "Schließfach",
+    "fr": "casier",
+    "es": "taquilla",
+    "it": "armadietto",
+    "pt": "armário",
+    "tr": "dolap"
+   },
+   "ex": {
+    "en": "My books are in my locker."
+   }
+  },
+  {
+   "id": "education.spelling",
+   "t": {
+    "en": "spelling",
+    "uk": "правопис",
+    "ru": "правописание",
+    "pl": "pisownia",
+    "de": "Rechtschreibung",
+    "fr": "orthographe",
+    "es": "ortografía",
+    "it": "ortografia",
+    "pt": "ortografia",
+    "tr": "yazım"
+   },
+   "ex": {
+    "en": "Please check your spelling."
+   }
+  },
+  {
+   "id": "education.chalk",
+   "t": {
+    "en": "chalk",
+    "uk": "крейда",
+    "ru": "мел",
+    "pl": "kreda",
+    "de": "Kreide",
+    "fr": "craie",
+    "es": "tiza",
+    "it": "gesso",
+    "pt": "giz",
+    "tr": "tebeşir"
+   },
+   "ex": {
+    "en": "The teacher writes with chalk."
+   }
+  },
+  {
+   "id": "education.whiteboard",
+   "t": {
+    "en": "whiteboard",
+    "uk": "біла дошка",
+    "ru": "маркерная доска",
+    "pl": "biała tablica",
+    "de": "Whiteboard",
+    "fr": "tableau blanc",
+    "es": "pizarra blanca",
+    "it": "lavagna bianca",
+    "pt": "quadro branco",
+    "tr": "beyaz tahta"
+   },
+   "ex": {
+    "en": "Write it on the whiteboard."
+   }
+  },
+  {
+   "id": "education.projector",
+   "t": {
+    "en": "projector",
+    "uk": "проєктор",
+    "ru": "проектор",
+    "pl": "projektor",
+    "de": "Beamer",
+    "fr": "vidéoprojecteur",
+    "es": "proyector",
+    "it": "proiettore",
+    "pt": "projetor",
+    "tr": "projeksiyon cihazı"
+   },
+   "ex": {
+    "en": "The projector doesn't work."
+   }
+  },
+  {
+   "id": "education.to-read-aloud",
+   "t": {
+    "en": "to read aloud",
+    "uk": "читати вголос",
+    "ru": "читать вслух",
+    "pl": "czytać na głos",
+    "de": "vorlesen",
+    "fr": "lire à voix haute",
+    "es": "leer en voz alta",
+    "it": "leggere ad alta voce",
+    "pt": "ler em voz alta",
+    "tr": "sesli okumak"
+   },
+   "ex": {
+    "en": "Please read the text aloud."
+   }
+  },
+  {
+   "id": "education.beginner",
+   "t": {
+    "en": "beginner",
+    "uk": "початківець",
+    "ru": "начинающий",
+    "pl": "początkujący",
+    "de": "Anfänger",
+    "fr": "débutant",
+    "es": "principiante",
+    "it": "principiante",
+    "pt": "iniciante",
+    "tr": "yeni başlayan"
+   },
+   "ex": {
+    "en": "This course is for beginners."
+   }
+  },
+  {
+   "id": "education.level",
+   "t": {
+    "en": "level",
+    "uk": "рівень",
+    "ru": "уровень",
+    "pl": "poziom",
+    "de": "Niveau",
+    "fr": "niveau",
+    "es": "nivel",
+    "it": "livello",
+    "pt": "nível",
+    "tr": "seviye"
+   },
+   "ex": {
+    "en": "What is your English level?"
+   }
+  },
+  {
+   "id": "education.worksheet",
+   "t": {
+    "en": "worksheet",
+    "uk": "робочий аркуш",
+    "ru": "рабочий лист",
+    "pl": "karta pracy",
+    "de": "Arbeitsblatt",
+    "fr": "fiche d'exercices",
+    "es": "ficha de trabajo",
+    "it": "scheda di esercizi",
+    "pt": "folha de exercícios",
+    "tr": "çalışma kâğıdı"
+   },
+   "ex": {
+    "en": "Finish the worksheet at home."
+   }
+  },
+  {
+   "id": "education.to-cross-out",
+   "t": {
+    "en": "to cross out",
+    "uk": "закреслювати",
+    "ru": "зачёркивать",
+    "pl": "skreślać",
+    "de": "durchstreichen",
+    "fr": "barrer",
+    "es": "tachar",
+    "it": "cancellare",
+    "pt": "riscar",
+    "tr": "üstünü çizmek"
+   },
+   "ex": {
+    "en": "Cross out the wrong word."
+   }
+  },
+  {
+   "id": "education.language-school",
+   "t": {
+    "en": "language school",
+    "uk": "мовна школа",
+    "ru": "языковая школа",
+    "pl": "szkoła językowa",
+    "de": "Sprachschule",
+    "fr": "école de langues",
+    "es": "academia de idiomas",
+    "it": "scuola di lingue",
+    "pt": "escola de idiomas",
+    "tr": "dil okulu"
+   },
+   "ex": {
+    "en": "She goes to a language school."
+   }
+  },
+  {
+   "id": "education.to-be-good-at",
+   "t": {
+    "en": "to be good at",
+    "uk": "добре знатися на",
+    "ru": "хорошо разбираться в",
+    "pl": "być dobrym z",
+    "de": "gut sein in",
+    "fr": "être bon en",
+    "es": "ser bueno en",
+    "it": "essere bravo in",
+    "pt": "ser bom em",
+    "tr": "-de iyi olmak"
+   },
+   "ex": {
+    "en": "I am good at maths."
+   }
+  },
+  {
+   "id": "education.to-do-homework",
+   "t": {
+    "en": "to do homework",
+    "uk": "робити домашнє завдання",
+    "ru": "делать домашнее задание",
+    "pl": "odrabiać lekcje",
+    "de": "Hausaufgaben machen",
+    "fr": "faire ses devoirs",
+    "es": "hacer los deberes",
+    "it": "fare i compiti",
+    "pt": "fazer a lição de casa",
+    "tr": "ödev yapmak"
+   },
+   "ex": {
+    "en": "I do my homework after dinner."
+   }
+  },
+  {
+   "id": "education.useful",
+   "t": {
+    "en": "useful",
+    "uk": "корисний",
+    "ru": "полезный",
+    "pl": "przydatny",
+    "de": "nützlich",
+    "fr": "utile",
+    "es": "útil",
+    "it": "utile",
+    "pt": "útil",
+    "tr": "faydalı"
+   },
+   "ex": {
+    "en": "This dictionary is very useful."
+   }
+  },
+  {
+   "id": "education.final-exam",
+   "t": {
+    "en": "final exam",
+    "uk": "підсумковий іспит",
+    "ru": "итоговый экзамен",
+    "pl": "egzamin końcowy",
+    "de": "Abschlussprüfung",
+    "fr": "examen final",
+    "es": "examen final",
+    "it": "esame finale",
+    "pt": "prova final",
+    "tr": "final sınavı"
+   },
+   "ex": {
+    "en": "The final exam is in June."
+   }
+  },
+  {
+   "id": "education.quiz",
+   "t": {
+    "en": "quiz",
+    "uk": "коротка контрольна",
+    "ru": "короткая контрольная",
+    "pl": "kartkówka",
+    "de": "Kurztest",
+    "fr": "interrogation",
+    "es": "control",
+    "it": "verifica",
+    "pt": "teste rápido",
+    "tr": "kısa sınav"
+   },
+   "ex": {
+    "en": "We have a quiz on Friday."
+   }
+  },
+  {
+   "id": "education.to-make-a-mistake",
+   "t": {
+    "en": "to make a mistake",
+    "uk": "робити помилку",
+    "ru": "делать ошибку",
+    "pl": "popełniać błąd",
+    "de": "einen Fehler machen",
+    "fr": "faire une erreur",
+    "es": "cometer un error",
+    "it": "fare un errore",
+    "pt": "cometer um erro",
+    "tr": "hata yapmak"
+   },
+   "ex": {
+    "en": "Everyone makes mistakes."
+   }
+  },
+  {
+   "id": "education.pe-kit",
+   "t": {
+    "en": "PE kit",
+    "uk": "спортивна форма",
+    "ru": "спортивная форма",
+    "pl": "strój na WF",
+    "de": "Sportzeug",
+    "fr": "tenue de sport",
+    "es": "ropa de deporte",
+    "it": "tuta da ginnastica",
+    "pt": "roupa de educação física",
+    "tr": "spor kıyafeti"
+   },
+   "ex": {
+    "en": "Don't forget your PE kit."
+   }
+  },
+  {
+   "id": "education.to-sharpen",
+   "t": {
+    "en": "to sharpen",
+    "uk": "загострювати",
+    "ru": "точить",
+    "pl": "temperować",
+    "de": "spitzen",
+    "fr": "tailler",
+    "es": "sacar punta",
+    "it": "temperare",
+    "pt": "apontar",
+    "tr": "açmak"
+   },
+   "ex": {
+    "en": "Sharpen your pencil, please."
+   }
+  },
+  {
+   "id": "education.maths-teacher",
+   "t": {
+    "en": "maths teacher",
+    "uk": "вчитель математики",
+    "ru": "учитель математики",
+    "pl": "nauczyciel matematyki",
+    "de": "Mathelehrer",
+    "fr": "professeur de maths",
+    "es": "profesor de matemáticas",
+    "it": "insegnante di matematica",
+    "pt": "professor de matemática",
+    "tr": "matematik öğretmeni"
+   },
+   "ex": {
+    "en": "Our maths teacher is strict."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "emotions-c1",
  "topic": "emotions",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emotions.exhilarated",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Sorry I snapped at you earlier."
+   }
+  },
+  {
+   "id": "emotions.exasperation",
+   "t": {
+    "en": "exasperation",
+    "uk": "роздратування",
+    "ru": "раздражение",
+    "pl": "irytacja",
+    "de": "Verärgerung",
+    "fr": "exaspération",
+    "es": "exasperación",
+    "it": "esasperazione",
+    "pt": "exasperação",
+    "tr": "bıkkınlık"
+   },
+   "ex": {
+    "en": "She sighed in exasperation."
+   }
+  },
+  {
+   "id": "emotions.indignation",
+   "t": {
+    "en": "indignation",
+    "uk": "обурення",
+    "ru": "негодование",
+    "pl": "oburzenie",
+    "de": "Empörung",
+    "fr": "indignation",
+    "es": "indignación",
+    "it": "indignazione",
+    "pt": "indignação",
+    "tr": "infial"
+   },
+   "ex": {
+    "en": "He spoke with indignation."
+   }
+  },
+  {
+   "id": "emotions.disillusionment",
+   "t": {
+    "en": "disillusionment",
+    "uk": "розчарованість",
+    "ru": "разочарованность",
+    "pl": "deziluzja",
+    "de": "Ernüchterung",
+    "fr": "désillusion",
+    "es": "desilusión",
+    "it": "disillusione",
+    "pt": "desilusão",
+    "tr": "düş kırıklığı"
+   },
+   "ex": {
+    "en": "Disillusionment with politics is growing."
+   }
+  },
+  {
+   "id": "emotions.disillusioned",
+   "t": {
+    "en": "disillusioned",
+    "uk": "розчарований",
+    "ru": "разочарованный",
+    "pl": "rozczarowany",
+    "de": "desillusioniert",
+    "fr": "désabusé",
+    "es": "desilusionado",
+    "it": "disilluso",
+    "pt": "desiludido",
+    "tr": "hayal kırıklığına uğramış"
+   },
+   "ex": {
+    "en": "Many voters feel disillusioned."
+   }
+  },
+  {
+   "id": "emotions.bewilderment",
+   "t": {
+    "en": "bewilderment",
+    "uk": "спантеличення",
+    "ru": "недоумение",
+    "pl": "oszołomienie",
+    "de": "Verwirrung",
+    "fr": "perplexité",
+    "es": "desconcierto",
+    "it": "smarrimento",
+    "pt": "perplexidade",
+    "tr": "şaşkınlık"
+   },
+   "ex": {
+    "en": "He stared in bewilderment."
+   }
+  },
+  {
+   "id": "emotions.consternation",
+   "t": {
+    "en": "consternation",
+    "uk": "сум'яття",
+    "ru": "замешательство",
+    "pl": "osłupienie",
+    "de": "Fassungslosigkeit",
+    "fr": "consternation",
+    "es": "consternación",
+    "it": "costernazione",
+    "pt": "consternação",
+    "tr": "hayret"
+   },
+   "ex": {
+    "en": "The news caused consternation."
+   }
+  },
+  {
+   "id": "emotions.morose",
+   "t": {
+    "en": "morose",
+    "uk": "похмурий",
+    "ru": "угрюмый",
+    "pl": "ponury",
+    "de": "verdrießlich",
+    "fr": "morose",
+    "es": "taciturno",
+    "it": "cupo",
+    "pt": "mal-humorado",
+    "tr": "asık suratlı"
+   },
+   "ex": {
+    "en": "He's been morose all week."
+   }
+  },
+  {
+   "id": "emotions.despondency",
+   "t": {
+    "en": "despondency",
+    "uk": "зневіра",
+    "ru": "уныние",
+    "pl": "przygnębienie",
+    "de": "Mutlosigkeit",
+    "fr": "abattement",
+    "es": "desánimo",
+    "it": "sconforto",
+    "pt": "desânimo",
+    "tr": "umutsuzluk"
+   },
+   "ex": {
+    "en": "A mood of despondency set in."
+   }
+  },
+  {
+   "id": "emotions.jubilant",
+   "t": {
+    "en": "jubilant",
+    "uk": "тріумфуючий",
+    "ru": "ликующий",
+    "pl": "rozradowany",
+    "de": "jubelnd",
+    "fr": "triomphant",
+    "es": "jubiloso",
+    "it": "esultante",
+    "pt": "exultante",
+    "tr": "sevinçten coşmuş"
+   },
+   "ex": {
+    "en": "The fans were jubilant."
+   }
+  },
+  {
+   "id": "emotions.rapturous",
+   "t": {
+    "en": "rapturous",
+    "uk": "захоплений",
+    "ru": "восторженный",
+    "pl": "entuzjastyczny",
+    "de": "begeistert",
+    "fr": "enthousiaste",
+    "es": "entusiasta",
+    "it": "entusiastico",
+    "pt": "entusiasmado",
+    "tr": "coşkulu"
+   },
+   "ex": {
+    "en": "The band got a rapturous welcome."
+   }
+  },
+  {
+   "id": "emotions.overwrought",
+   "t": {
+    "en": "overwrought",
+    "uk": "знервований",
+    "ru": "взвинченный",
+    "pl": "roztrzęsiony",
+    "de": "überreizt",
+    "fr": "à bout de nerfs",
+    "es": "sobreexcitado",
+    "it": "sovraeccitato",
+    "pt": "à flor da pele",
+    "tr": "aşırı gergin"
+   },
+   "ex": {
+    "en": "She was too overwrought to speak."
+   }
+  },
+  {
+   "id": "emotions.distraught",
+   "t": {
+    "en": "distraught",
+    "uk": "у відчаї",
+    "ru": "обезумевший от горя",
+    "pl": "zrozpaczony",
+    "de": "außer sich",
+    "fr": "bouleversé",
+    "es": "consternado",
+    "it": "sconvolto",
+    "pt": "transtornado",
+    "tr": "perişan"
+   },
+   "ex": {
+    "en": "The distraught mother called the police."
+   }
+  },
+  {
+   "id": "emotions.vexed",
+   "t": {
+    "en": "vexed",
+    "uk": "роздосадуваний",
+    "ru": "раздосадованный",
+    "pl": "rozdrażniony",
+    "de": "verärgert",
+    "fr": "contrarié",
+    "es": "molesto",
+    "it": "seccato",
+    "pt": "contrariado",
+    "tr": "canı sıkılmış"
+   },
+   "ex": {
+    "en": "He was vexed by the delay."
+   }
+  },
+  {
+   "id": "emotions.peeved",
+   "t": {
+    "en": "peeved",
+    "uk": "невдоволений",
+    "ru": "недовольный",
+    "pl": "wkurzony",
+    "de": "sauer",
+    "fr": "vexé",
+    "es": "mosqueado",
+    "it": "scocciato",
+    "pt": "aborrecido",
+    "tr": "bozulmuş"
+   },
+   "ex": {
+    "en": "She seemed a bit peeved."
+   }
+  },
+  {
+   "id": "emotions.misgivings",
+   "t": {
+    "en": "misgivings",
+    "uk": "сумніви",
+    "ru": "опасения",
+    "pl": "obawy",
+    "de": "Bedenken",
+    "fr": "appréhensions",
+    "es": "recelos",
+    "it": "dubbi",
+    "pt": "receios",
+    "tr": "kuşkular"
+   },
+   "ex": {
+    "en": "I have misgivings about the plan."
+   }
+  },
+  {
+   "id": "emotions.rattled",
+   "t": {
+    "en": "rattled",
+    "uk": "вибитий з колії",
+    "ru": "выбитый из колеи",
+    "pl": "wytrącony z równowagi",
+    "de": "aus der Fassung gebracht",
+    "fr": "déstabilisé",
+    "es": "alterado",
+    "it": "scosso",
+    "pt": "abalado",
+    "tr": "sarsılmış"
+   },
+   "ex": {
+    "en": "He was rattled by the question."
+   }
+  },
+  {
+   "id": "emotions.unnerved",
+   "t": {
+    "en": "unnerved",
+    "uk": "занепокоєний",
+    "ru": "встревоженный",
+    "pl": "zaniepokojony",
+    "de": "verunsichert",
+    "fr": "troublé",
+    "es": "inquieto",
+    "it": "turbato",
+    "pt": "desconcertado",
+    "tr": "huzursuz"
+   },
+   "ex": {
+    "en": "I felt unnerved by the silence."
+   }
+  },
+  {
+   "id": "emotions.ill-at-ease",
+   "t": {
+    "en": "ill at ease",
+    "uk": "не в своїй тарілці",
+    "ru": "не в своей тарелке",
+    "pl": "nieswojo",
+    "de": "unwohl",
+    "fr": "mal à l'aise",
+    "es": "incómodo",
+    "it": "a disagio",
+    "pt": "constrangido",
+    "tr": "rahatsız"
+   },
+   "ex": {
+    "en": "He looked ill at ease at the party."
+   }
+  },
+  {
+   "id": "emotions.disconcerted",
+   "t": {
+    "en": "disconcerted",
+    "uk": "збентежений",
+    "ru": "сбитый с толку",
+    "pl": "zbity z tropu",
+    "de": "irritiert",
+    "fr": "décontenancé",
+    "es": "desconcertado",
+    "it": "sconcertato",
+    "pt": "desconcertado",
+    "tr": "afallamış"
+   },
+   "ex": {
+    "en": "She was disconcerted by his stare."
+   }
+  },
+  {
+   "id": "emotions.nonchalant",
+   "t": {
+    "en": "nonchalant",
+    "uk": "незворушний",
+    "ru": "невозмутимый",
+    "pl": "nonszalancki",
+    "de": "lässig",
+    "fr": "nonchalant",
+    "es": "despreocupado",
+    "it": "noncurante",
+    "pt": "despreocupado",
+    "tr": "kayıtsız"
+   },
+   "ex": {
+    "en": "He tried to look nonchalant."
+   }
+  },
+  {
+   "id": "emotions.listless",
+   "t": {
+    "en": "listless",
+    "uk": "млявий",
+    "ru": "вялый",
+    "pl": "ospały",
+    "de": "lustlos",
+    "fr": "apathique",
+    "es": "desganado",
+    "it": "svogliato",
+    "pt": "sem ânimo",
+    "tr": "isteksiz"
+   },
+   "ex": {
+    "en": "The heat made everyone listless."
+   }
+  },
+  {
+   "id": "emotions.yearning",
+   "t": {
+    "en": "yearning",
+    "uk": "туга",
+    "ru": "тоска",
+    "pl": "tęsknota",
+    "de": "Sehnsucht",
+    "fr": "désir ardent",
+    "es": "anhelo",
+    "it": "struggimento",
+    "pt": "anseio",
+    "tr": "özlem"
+   },
+   "ex": {
+    "en": "She felt a yearning for home."
+   }
+  },
+  {
+   "id": "emotions.to-yearn",
+   "t": {
+    "en": "to yearn",
+    "uk": "прагнути",
+    "ru": "жаждать",
+    "pl": "tęsknić",
+    "de": "sich sehnen",
+    "fr": "aspirer à",
+    "es": "anhelar",
+    "it": "bramare",
+    "pt": "ansiar",
+    "tr": "özlemek"
+   },
+   "ex": {
+    "en": "He yearned to see the sea again."
+   }
+  },
+  {
+   "id": "emotions.to-lament",
+   "t": {
+    "en": "to lament",
+    "uk": "нарікати",
+    "ru": "сетовать",
+    "pl": "ubolewać",
+    "de": "beklagen",
+    "fr": "déplorer",
+    "es": "lamentar",
+    "it": "lamentare",
+    "pt": "lamentar",
+    "tr": "yakınmak"
+   },
+   "ex": {
+    "en": "She lamented the loss of her youth."
+   }
+  },
+  {
+   "id": "emotions.to-fret",
+   "t": {
+    "en": "to fret",
+    "uk": "журитися",
+    "ru": "переживать",
+    "pl": "zamartwiać się",
+    "de": "sich grämen",
+    "fr": "se tracasser",
+    "es": "agobiarse",
+    "it": "crucciarsi",
+    "pt": "afligir-se",
+    "tr": "kaygılanmak"
+   },
+   "ex": {
+    "en": "Don't fret, everything will be fine."
+   }
+  },
+  {
+   "id": "emotions.to-agonize",
+   "t": {
+    "en": "to agonize",
+    "uk": "мучитися",
+    "ru": "мучиться",
+    "pl": "zadręczać się",
+    "de": "sich quälen",
+    "fr": "se tourmenter",
+    "es": "atormentarse",
+    "it": "tormentarsi",
+    "pt": "angustiar-se",
+    "tr": "kendini yiyip bitirmek"
+   },
+   "ex": {
+    "en": "He agonized over the decision."
+   }
+  },
+  {
+   "id": "emotions.to-bristle",
+   "t": {
+    "en": "to bristle",
+    "uk": "наїжачуватися",
+    "ru": "ощетиниваться",
+    "pl": "zjeżyć się",
+    "de": "gereizt reagieren",
+    "fr": "se hérisser",
+    "es": "irritarse",
+    "it": "irritarsi",
+    "pt": "irritar-se",
+    "tr": "sinirlenmek"
+   },
+   "ex": {
+    "en": "She bristled at his comment."
+   }
+  },
+  {
+   "id": "emotions.to-cringe",
+   "t": {
+    "en": "to cringe",
+    "uk": "ніяковіти",
+    "ru": "испытывать неловкость",
+    "pl": "czuć zażenowanie",
+    "de": "sich fremdschämen",
+    "fr": "se crisper",
+    "es": "sentir vergüenza ajena",
+    "it": "provare imbarazzo",
+    "pt": "sentir vergonha alheia",
+    "tr": "utançtan büzülmek"
+   },
+   "ex": {
+    "en": "I cringe when I hear my voice."
+   }
+  },
+  {
+   "id": "emotions.to-wince",
+   "t": {
+    "en": "to wince",
+    "uk": "морщитися",
+    "ru": "морщиться",
+    "pl": "krzywić się",
+    "de": "zusammenzucken",
+    "fr": "grimacer",
+    "es": "hacer una mueca",
+    "it": "fare una smorfia",
+    "pt": "fazer careta",
+    "tr": "yüzünü buruşturmak"
+   },
+   "ex": {
+    "en": "He winced with pain."
+   }
+  },
+  {
+   "id": "emotions.to-be-in-a-huff",
+   "t": {
+    "en": "to be in a huff",
+    "uk": "дутися",
+    "ru": "дуться",
+    "pl": "być obrażonym",
+    "de": "beleidigt sein",
+    "fr": "bouder",
+    "es": "estar enfurruñado",
+    "it": "tenere il broncio",
+    "pt": "estar emburrado",
+    "tr": "surat asmak"
+   },
+   "ex": {
+    "en": "She's in a huff again."
+   }
+  },
+  {
+   "id": "emotions.to-keep-ones-chin-up",
+   "t": {
+    "en": "to keep one's chin up",
+    "uk": "не падати духом",
+    "ru": "не вешать нос",
+    "pl": "nie załamywać się",
+    "de": "den Kopf nicht hängen lassen",
+    "fr": "garder le moral",
+    "es": "no desanimarse",
+    "it": "non perdersi d'animo",
+    "pt": "não desanimar",
+    "tr": "moralini bozmamak"
+   },
+   "ex": {
+    "en": "Keep your chin up, it'll get better."
+   }
+  },
+  {
+   "id": "emotions.to-bite-ones-tongue",
+   "t": {
+    "en": "to bite one's tongue",
+    "uk": "прикусити язика",
+    "ru": "прикусить язык",
+    "pl": "ugryźć się w język",
+    "de": "sich auf die Zunge beißen",
+    "fr": "tenir sa langue",
+    "es": "morderse la lengua",
+    "it": "mordersi la lingua",
+    "pt": "morder a língua",
+    "tr": "dilini ısırmak"
+   },
+   "ex": {
+    "en": "I had to bite my tongue."
+   }
+  },
+  {
+   "id": "emotions.to-go-to-pieces",
+   "t": {
+    "en": "to go to pieces",
+    "uk": "розклеїтися",
+    "ru": "расклеиться",
+    "pl": "rozsypać się",
+    "de": "zusammenbrechen",
+    "fr": "craquer",
+    "es": "venirse abajo",
+    "it": "crollare",
+    "pt": "desmoronar",
+    "tr": "dağılmak"
+   },
+   "ex": {
+    "en": "She went to pieces after the divorce."
+   }
+  },
+  {
+   "id": "emotions.to-be-over-the-moon",
+   "t": {
+    "en": "to be over the moon",
+    "uk": "бути на сьомому небі",
+    "ru": "быть на седьмом небе",
+    "pl": "być w siódmym niebie",
+    "de": "im siebten Himmel sein",
+    "fr": "être aux anges",
+    "es": "estar en el séptimo cielo",
+    "it": "essere al settimo cielo",
+    "pt": "estar nas nuvens",
+    "tr": "havalara uçmak"
+   },
+   "ex": {
+    "en": "She was over the moon with her gift."
+   }
+  },
+  {
+   "id": "emotions.to-be-green-with-envy",
+   "t": {
+    "en": "to be green with envy",
+    "uk": "позеленіти від заздрощів",
+    "ru": "позеленеть от зависти",
+    "pl": "zzielenieć z zazdrości",
+    "de": "vor Neid platzen",
+    "fr": "être vert de jalousie",
+    "es": "morirse de envidia",
+    "it": "essere verde d'invidia",
+    "pt": "morrer de inveja",
+    "tr": "kıskançlıktan çatlamak"
+   },
+   "ex": {
+    "en": "He was green with envy."
+   }
+  },
+  {
+   "id": "emotions.to-see-red",
+   "t": {
+    "en": "to see red",
+    "uk": "розлютитися",
+    "ru": "прийти в бешенство",
+    "pl": "wpaść w szał",
+    "de": "rotsehen",
+    "fr": "voir rouge",
+    "es": "ponerse hecho una furia",
+    "it": "vedere rosso",
+    "pt": "ficar cego de raiva",
+    "tr": "gözü dönmek"
+   },
+   "ex": {
+    "en": "I saw red when he lied."
+   }
+  },
+  {
+   "id": "emotions.to-swallow-ones-pride",
+   "t": {
+    "en": "to swallow one's pride",
+    "uk": "переступити через гордість",
+    "ru": "поступиться гордостью",
+    "pl": "schować dumę do kieszeni",
+    "de": "über seinen Schatten springen",
+    "fr": "ravaler sa fierté",
+    "es": "tragarse el orgullo",
+    "it": "ingoiare l'orgoglio",
+    "pt": "engolir o orgulho",
+    "tr": "gururunu bir kenara bırakmak"
+   },
+   "ex": {
+    "en": "He swallowed his pride and apologised."
+   }
+  },
+  {
+   "id": "emotions.schadenfreude",
+   "t": {
+    "en": "schadenfreude",
+    "uk": "зловтіха",
+    "ru": "злорадство",
+    "pl": "złośliwa radość",
+    "de": "Schadenfreude",
+    "fr": "joie maligne",
+    "es": "regodeo",
+    "it": "gioia maligna",
+    "pt": "alegria maldosa",
+    "tr": "oh olsun duygusu"
+   },
+   "ex": {
+    "en": "He felt a touch of schadenfreude."
+   }
+  },
+  {
+   "id": "emotions.angst",
+   "t": {
+    "en": "angst",
+    "uk": "душевні муки",
+    "ru": "душевные терзания",
+    "pl": "lęk",
+    "de": "Angst",
+    "fr": "angoisse",
+    "es": "angustia",
+    "it": "angoscia",
+    "pt": "angústia",
+    "tr": "kaygı"
+   },
+   "ex": {
+    "en": "Teenage angst is normal."
+   }
+  },
+  {
+   "id": "emotions.equanimity",
+   "t": {
+    "en": "equanimity",
+    "uk": "незворушність",
+    "ru": "невозмутимость",
+    "pl": "spokój ducha",
+    "de": "Gleichmut",
+    "fr": "équanimité",
+    "es": "ecuanimidad",
+    "it": "equanimità",
+    "pt": "equanimidade",
+    "tr": "dinginlik"
+   },
+   "ex": {
+    "en": "She faced the crisis with equanimity."
+   }
+  },
+  {
+   "id": "emotions.composure",
+   "t": {
+    "en": "composure",
+    "uk": "самовладання",
+    "ru": "самообладание",
+    "pl": "opanowanie",
+    "de": "Fassung",
+    "fr": "sang-froid",
+    "es": "compostura",
+    "it": "compostezza",
+    "pt": "compostura",
+    "tr": "soğukkanlılık"
+   },
+   "ex": {
+    "en": "He lost his composure."
+   }
+  },
+  {
+   "id": "emotions.exuberance",
+   "t": {
+    "en": "exuberance",
+    "uk": "життєрадісність",
+    "ru": "бурная радость",
+    "pl": "entuzjazm",
+    "de": "Überschwang",
+    "fr": "exubérance",
+    "es": "exuberancia",
+    "it": "esuberanza",
+    "pt": "exuberância",
+    "tr": "coşkunluk"
+   },
+   "ex": {
+    "en": "The children's exuberance was catching."
+   }
+  },
+  {
+   "id": "emotions.petulant",
+   "t": {
+    "en": "petulant",
+    "uk": "вередливий",
+    "ru": "капризный",
+    "pl": "kapryśny",
+    "de": "bockig",
+    "fr": "capricieux",
+    "es": "caprichoso",
+    "it": "capriccioso",
+    "pt": "birrento",
+    "tr": "mızmız"
+   },
+   "ex": {
+    "en": "Don't be so petulant."
+   }
+  },
+  {
+   "id": "emotions.sanguine",
+   "t": {
+    "en": "sanguine",
+    "uk": "оптимістичний",
+    "ru": "оптимистичный",
+    "pl": "optymistyczny",
+    "de": "zuversichtlich",
+    "fr": "confiant",
+    "es": "optimista",
+    "it": "fiducioso",
+    "pt": "otimista",
+    "tr": "iyimser"
+   },
+   "ex": {
+    "en": "She's sanguine about the future."
+   }
+  },
+  {
+   "id": "emotions.touchy",
+   "t": {
+    "en": "touchy",
+    "uk": "образливий",
+    "ru": "обидчивый",
+    "pl": "drażliwy",
+    "de": "empfindlich",
+    "fr": "susceptible",
+    "es": "quisquilloso",
+    "it": "permaloso",
+    "pt": "suscetível",
+    "tr": "alıngan"
+   },
+   "ex": {
+    "en": "He's touchy about his age."
+   }
+  },
+  {
+   "id": "emotions.thin-skinned",
+   "t": {
+    "en": "thin-skinned",
+    "uk": "вразливий",
+    "ru": "ранимый",
+    "pl": "przewrażliwiony",
+    "de": "dünnhäutig",
+    "fr": "hypersensible",
+    "es": "hipersensible",
+    "it": "ipersensibile",
+    "pt": "melindroso",
+    "tr": "fazla hassas"
+   },
+   "ex": {
+    "en": "Don't be so thin-skinned."
+   }
+  },
+  {
+   "id": "emotions.tongue-tied",
+   "t": {
+    "en": "tongue-tied",
+    "uk": "безмовний",
+    "ru": "онемевший",
+    "pl": "oniemiały",
+    "de": "sprachlos",
+    "fr": "sans voix",
+    "es": "sin palabras",
+    "it": "senza parole",
+    "pt": "sem fala",
+    "tr": "dili tutulmuş"
+   },
+   "ex": {
+    "en": "I get tongue-tied around her."
+   }
+  },
+  {
+   "id": "emotions.pang-of-guilt",
+   "t": {
+    "en": "pang of guilt",
+    "uk": "докір сумління",
+    "ru": "укол совести",
+    "pl": "wyrzut sumienia",
+    "de": "Gewissensbiss",
+    "fr": "pointe de culpabilité",
+    "es": "punzada de culpa",
+    "it": "fitta di senso di colpa",
+    "pt": "pontada de culpa",
+    "tr": "vicdan azabı"
+   },
+   "ex": {
+    "en": "I felt a pang of guilt."
+   }
+  },
+  {
+   "id": "emotions.qualms",
+   "t": {
+    "en": "qualms",
+    "uk": "вагання",
+    "ru": "сомнения",
+    "pl": "skrupuły",
+    "de": "Skrupel",
+    "fr": "scrupules",
+    "es": "reparos",
+    "it": "scrupoli",
+    "pt": "escrúpulos",
+    "tr": "tereddüt"
+   },
+   "ex": {
+    "en": "He had no qualms about lying."
+   }
+  },
+  {
+   "id": "emotions.thick-skinned",
+   "t": {
+    "en": "thick-skinned",
+    "uk": "товстошкірий",
+    "ru": "толстокожий",
+    "pl": "gruboskórny",
+    "de": "dickfellig",
+    "fr": "blindé",
+    "es": "insensible",
+    "it": "coriaceo",
+    "pt": "casca-grossa",
+    "tr": "vurdumduymaz"
+   },
+   "ex": {
+    "en": "You need to be thick-skinned in politics."
    }
   }
  ]

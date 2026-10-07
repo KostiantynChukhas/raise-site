@@ -2,7 +2,7 @@
  "id": "business-a2",
  "topic": "business",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "business.to-negotiate",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "I will present the results on Friday."
+   }
+  },
+  {
+   "id": "business.stock",
+   "t": {
+    "en": "stock",
+    "uk": "запас",
+    "ru": "запас",
+    "pl": "zapas",
+    "de": "Vorrat",
+    "fr": "stock",
+    "es": "existencias",
+    "it": "scorte",
+    "pt": "estoque",
+    "tr": "stok"
+   },
+   "ex": {
+    "en": "We have no stock left."
+   }
+  },
+  {
+   "id": "business.late-payment",
+   "t": {
+    "en": "late payment",
+    "uk": "прострочений платіж",
+    "ru": "просроченный платёж",
+    "pl": "opóźniona płatność",
+    "de": "Zahlungsverzug",
+    "fr": "retard de paiement",
+    "es": "pago atrasado",
+    "it": "pagamento in ritardo",
+    "pt": "pagamento atrasado",
+    "tr": "geç ödeme"
+   },
+   "ex": {
+    "en": "Late payment costs extra."
+   }
+  },
+  {
+   "id": "business.to-accept-an-offer",
+   "t": {
+    "en": "to accept an offer",
+    "uk": "прийняти пропозицію",
+    "ru": "принять предложение",
+    "pl": "przyjąć ofertę",
+    "de": "ein Angebot annehmen",
+    "fr": "accepter une offre",
+    "es": "aceptar una oferta",
+    "it": "accettare un'offerta",
+    "pt": "aceitar uma oferta",
+    "tr": "teklifi kabul etmek"
+   },
+   "ex": {
+    "en": "We accept your offer."
+   }
+  },
+  {
+   "id": "business.deal",
+   "t": {
+    "en": "deal",
+    "uk": "угода",
+    "ru": "сделка",
+    "pl": "interes",
+    "de": "Geschäft",
+    "fr": "affaire",
+    "es": "trato",
+    "it": "affare",
+    "pt": "negócio",
+    "tr": "anlaşma"
+   },
+   "ex": {
+    "en": "It's a good deal for us."
+   }
+  },
+  {
+   "id": "business.to-forward-an-email",
+   "t": {
+    "en": "to forward an email",
+    "uk": "переслати лист",
+    "ru": "переслать письмо",
+    "pl": "przekazać e-mail",
+    "de": "eine E-Mail weiterleiten",
+    "fr": "transférer un e-mail",
+    "es": "reenviar un correo",
+    "it": "inoltrare un'e-mail",
+    "pt": "encaminhar um e-mail",
+    "tr": "e-postayı iletmek"
+   },
+   "ex": {
+    "en": "Please forward this email to me."
+   }
+  },
+  {
+   "id": "business.to-be-in-charge",
+   "t": {
+    "en": "to be in charge",
+    "uk": "відповідати за",
+    "ru": "отвечать за",
+    "pl": "być odpowiedzialnym",
+    "de": "verantwortlich sein",
+    "fr": "être responsable",
+    "es": "estar a cargo",
+    "it": "essere responsabile",
+    "pt": "estar encarregado",
+    "tr": "sorumlu olmak"
+   },
+   "ex": {
+    "en": "Who is in charge here?"
+   }
+  },
+  {
+   "id": "business.to-produce",
+   "t": {
+    "en": "to produce",
+    "uk": "виробляти",
+    "ru": "производить",
+    "pl": "produkować",
+    "de": "herstellen",
+    "fr": "produire",
+    "es": "producir",
+    "it": "produrre",
+    "pt": "produzir",
+    "tr": "üretmek"
+   },
+   "ex": {
+    "en": "They produce car parts."
+   }
+  },
+  {
+   "id": "business.industry",
+   "t": {
+    "en": "industry",
+    "uk": "промисловість",
+    "ru": "промышленность",
+    "pl": "przemysł",
+    "de": "Industrie",
+    "fr": "industrie",
+    "es": "industria",
+    "it": "industria",
+    "pt": "indústria",
+    "tr": "sanayi"
+   },
+   "ex": {
+    "en": "She works in the car industry."
+   }
+  },
+  {
+   "id": "business.order-number",
+   "t": {
+    "en": "order number",
+    "uk": "номер замовлення",
+    "ru": "номер заказа",
+    "pl": "numer zamówienia",
+    "de": "Bestellnummer",
+    "fr": "numéro de commande",
+    "es": "número de pedido",
+    "it": "numero d'ordine",
+    "pt": "número do pedido",
+    "tr": "sipariş numarası"
+   },
+   "ex": {
+    "en": "What is your order number?"
+   }
+  },
+  {
+   "id": "business.employee-of-the-month",
+   "t": {
+    "en": "employee of the month",
+    "uk": "працівник місяця",
+    "ru": "сотрудник месяца",
+    "pl": "pracownik miesiąca",
+    "de": "Mitarbeiter des Monats",
+    "fr": "employé du mois",
+    "es": "empleado del mes",
+    "it": "impiegato del mese",
+    "pt": "funcionário do mês",
+    "tr": "ayın çalışanı"
+   },
+   "ex": {
+    "en": "She was employee of the month."
+   }
+  },
+  {
+   "id": "business.complaint-form",
+   "t": {
+    "en": "complaint form",
+    "uk": "бланк скарги",
+    "ru": "бланк жалобы",
+    "pl": "formularz reklamacyjny",
+    "de": "Beschwerdeformular",
+    "fr": "formulaire de réclamation",
+    "es": "hoja de reclamación",
+    "it": "modulo di reclamo",
+    "pt": "formulário de reclamação",
+    "tr": "şikâyet formu"
+   },
+   "ex": {
+    "en": "Please fill in the complaint form."
+   }
+  },
+  {
+   "id": "business.to-compare-prices",
+   "t": {
+    "en": "to compare prices",
+    "uk": "порівнювати ціни",
+    "ru": "сравнивать цены",
+    "pl": "porównywać ceny",
+    "de": "Preise vergleichen",
+    "fr": "comparer les prix",
+    "es": "comparar precios",
+    "it": "confrontare i prezzi",
+    "pt": "comparar preços",
+    "tr": "fiyatları karşılaştırmak"
+   },
+   "ex": {
+    "en": "Always compare prices first."
+   }
+  },
+  {
+   "id": "business.to-rent-an-office",
+   "t": {
+    "en": "to rent an office",
+    "uk": "орендувати офіс",
+    "ru": "арендовать офис",
+    "pl": "wynająć biuro",
+    "de": "ein Büro mieten",
+    "fr": "louer un bureau",
+    "es": "alquilar una oficina",
+    "it": "affittare un ufficio",
+    "pt": "alugar um escritório",
+    "tr": "ofis kiralamak"
+   },
+   "ex": {
+    "en": "We rent an office in the centre."
+   }
+  },
+  {
+   "id": "business.owner-of-a-company",
+   "t": {
+    "en": "owner of a company",
+    "uk": "власник компанії",
+    "ru": "владелец компании",
+    "pl": "właściciel firmy",
+    "de": "Firmeninhaber",
+    "fr": "propriétaire d'une entreprise",
+    "es": "dueño de una empresa",
+    "it": "titolare di un'azienda",
+    "pt": "dono de uma empresa",
+    "tr": "şirket sahibi"
+   },
+   "ex": {
+    "en": "He is the owner of a company."
+   }
+  },
+  {
+   "id": "business.to-sell-out",
+   "t": {
+    "en": "to sell out",
+    "uk": "розпродати",
+    "ru": "распродать",
+    "pl": "wyprzedać",
+    "de": "ausverkaufen",
+    "fr": "tout vendre",
+    "es": "agotar",
+    "it": "esaurire",
+    "pt": "esgotar",
+    "tr": "tükenmek"
+   },
+   "ex": {
+    "en": "The new model sold out fast."
+   }
+  },
+  {
+   "id": "business.customer-number",
+   "t": {
+    "en": "customer number",
+    "uk": "номер клієнта",
+    "ru": "номер клиента",
+    "pl": "numer klienta",
+    "de": "Kundennummer",
+    "fr": "numéro client",
+    "es": "número de cliente",
+    "it": "codice cliente",
+    "pt": "número do cliente",
+    "tr": "müşteri numarası"
+   },
+   "ex": {
+    "en": "Please give me your customer number."
+   }
+  },
+  {
+   "id": "business.newsletter",
+   "t": {
+    "en": "newsletter",
+    "uk": "розсилка",
+    "ru": "рассылка",
+    "pl": "newsletter",
+    "de": "Newsletter",
+    "fr": "lettre d'information",
+    "es": "boletín",
+    "it": "newsletter",
+    "pt": "boletim informativo",
+    "tr": "bülten"
+   },
+   "ex": {
+    "en": "Our newsletter comes every week."
+   }
+  },
+  {
+   "id": "business.salesperson",
+   "t": {
+    "en": "salesperson",
+    "uk": "продавець",
+    "ru": "продавец",
+    "pl": "sprzedawca",
+    "de": "Verkäufer",
+    "fr": "vendeur",
+    "es": "vendedor",
+    "it": "venditore",
+    "pt": "vendedor",
+    "tr": "satış elemanı"
+   },
+   "ex": {
+    "en": "The salesperson was very helpful."
+   }
+  },
+  {
+   "id": "business.family-business",
+   "t": {
+    "en": "family business",
+    "uk": "сімейний бізнес",
+    "ru": "семейный бизнес",
+    "pl": "firma rodzinna",
+    "de": "Familienunternehmen",
+    "fr": "entreprise familiale",
+    "es": "empresa familiar",
+    "it": "azienda di famiglia",
+    "pt": "empresa familiar",
+    "tr": "aile şirketi"
+   },
+   "ex": {
+    "en": "It's a family business."
+   }
+  },
+  {
+   "id": "business.local-business",
+   "t": {
+    "en": "local business",
+    "uk": "місцевий бізнес",
+    "ru": "местный бизнес",
+    "pl": "lokalna firma",
+    "de": "lokales Unternehmen",
+    "fr": "commerce local",
+    "es": "negocio local",
+    "it": "attività locale",
+    "pt": "negócio local",
+    "tr": "yerel işletme"
+   },
+   "ex": {
+    "en": "Support your local business."
+   }
+  },
+  {
+   "id": "business.to-make-a-profit",
+   "t": {
+    "en": "to make a profit",
+    "uk": "отримувати прибуток",
+    "ru": "получать прибыль",
+    "pl": "osiągać zysk",
+    "de": "Gewinn machen",
+    "fr": "faire des bénéfices",
+    "es": "obtener beneficios",
+    "it": "fare profitto",
+    "pt": "ter lucro",
+    "tr": "kâr etmek"
+   },
+   "ex": {
+    "en": "We made a profit this year."
+   }
+  },
+  {
+   "id": "business.to-pay-in-advance",
+   "t": {
+    "en": "to pay in advance",
+    "uk": "платити наперед",
+    "ru": "платить заранее",
+    "pl": "płacić z góry",
+    "de": "im Voraus bezahlen",
+    "fr": "payer d'avance",
+    "es": "pagar por adelantado",
+    "it": "pagare in anticipo",
+    "pt": "pagar adiantado",
+    "tr": "peşin ödemek"
+   },
+   "ex": {
+    "en": "You must pay in advance."
+   }
+  },
+  {
+   "id": "business.retail-price",
+   "t": {
+    "en": "retail price",
+    "uk": "роздрібна ціна",
+    "ru": "розничная цена",
+    "pl": "cena detaliczna",
+    "de": "Einzelhandelspreis",
+    "fr": "prix de détail",
+    "es": "precio de venta al público",
+    "it": "prezzo al dettaglio",
+    "pt": "preço de varejo",
+    "tr": "perakende fiyatı"
+   },
+   "ex": {
+    "en": "The retail price is 50 euros."
+   }
+  },
+  {
+   "id": "business.wholesale-price",
+   "t": {
+    "en": "wholesale price",
+    "uk": "оптова ціна",
+    "ru": "оптовая цена",
+    "pl": "cena hurtowa",
+    "de": "Großhandelspreis",
+    "fr": "prix de gros",
+    "es": "precio al por mayor",
+    "it": "prezzo all'ingrosso",
+    "pt": "preço de atacado",
+    "tr": "toptan fiyat"
+   },
+   "ex": {
+    "en": "Shops pay the wholesale price."
+   }
+  },
+  {
+   "id": "business.product-launch",
+   "t": {
+    "en": "product launch",
+    "uk": "запуск продукту",
+    "ru": "запуск продукта",
+    "pl": "wprowadzenie produktu",
+    "de": "Produkteinführung",
+    "fr": "lancement de produit",
+    "es": "lanzamiento del producto",
+    "it": "lancio del prodotto",
+    "pt": "lançamento do produto",
+    "tr": "ürün lansmanı"
+   },
+   "ex": {
+    "en": "The product launch is next week."
+   }
+  },
+  {
+   "id": "business.new-customer",
+   "t": {
+    "en": "new customer",
+    "uk": "новий клієнт",
+    "ru": "новый клиент",
+    "pl": "nowy klient",
+    "de": "Neukunde",
+    "fr": "nouveau client",
+    "es": "cliente nuevo",
+    "it": "nuovo cliente",
+    "pt": "cliente novo",
+    "tr": "yeni müşteri"
+   },
+   "ex": {
+    "en": "New customers get 10% off."
+   }
+  },
+  {
+   "id": "business.to-attract-customers",
+   "t": {
+    "en": "to attract customers",
+    "uk": "залучати клієнтів",
+    "ru": "привлекать клиентов",
+    "pl": "przyciągać klientów",
+    "de": "Kunden gewinnen",
+    "fr": "attirer des clients",
+    "es": "atraer clientes",
+    "it": "attirare clienti",
+    "pt": "atrair clientes",
+    "tr": "müşteri çekmek"
+   },
+   "ex": {
+    "en": "Low prices attract customers."
+   }
+  },
+  {
+   "id": "business.to-sell-well",
+   "t": {
+    "en": "to sell well",
+    "uk": "добре продаватися",
+    "ru": "хорошо продаваться",
+    "pl": "dobrze się sprzedawać",
+    "de": "sich gut verkaufen",
+    "fr": "bien se vendre",
+    "es": "venderse bien",
+    "it": "vendere bene",
+    "pt": "vender bem",
+    "tr": "iyi satmak"
+   },
+   "ex": {
+    "en": "This model sells well."
+   }
+  },
+  {
+   "id": "business.free-trial",
+   "t": {
+    "en": "free trial",
+    "uk": "безкоштовний пробний період",
+    "ru": "бесплатный пробный период",
+    "pl": "darmowy okres próbny",
+    "de": "kostenlose Testphase",
+    "fr": "essai gratuit",
+    "es": "prueba gratuita",
+    "it": "prova gratuita",
+    "pt": "teste grátis",
+    "tr": "ücretsiz deneme"
+   },
+   "ex": {
+    "en": "Try it with a free trial."
+   }
+  },
+  {
+   "id": "business.to-close-down",
+   "t": {
+    "en": "to close down",
+    "uk": "закриватися",
+    "ru": "закрываться",
+    "pl": "zamknąć się",
+    "de": "schließen",
+    "fr": "fermer définitivement",
+    "es": "cerrar",
+    "it": "chiudere",
+    "pt": "fechar as portas",
+    "tr": "kapanmak"
+   },
+   "ex": {
+    "en": "The old shop closed down."
    }
   }
  ]

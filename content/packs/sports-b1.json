@@ -2,7 +2,7 @@
  "id": "sports-b1",
  "topic": "sports",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "sports.to-compete",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "She has done gymnastics since she was five."
+   }
+  },
+  {
+   "id": "sports.yellow-card",
+   "t": {
+    "en": "yellow card",
+    "uk": "жовта картка",
+    "ru": "жёлтая карточка",
+    "pl": "żółta kartka",
+    "de": "Gelbe Karte",
+    "fr": "carton jaune",
+    "es": "tarjeta amarilla",
+    "it": "cartellino giallo",
+    "pt": "cartão amarelo",
+    "tr": "sarı kart"
+   },
+   "ex": {
+    "en": "He got a yellow card for that foul."
+   }
+  },
+  {
+   "id": "sports.header",
+   "t": {
+    "en": "header",
+    "uk": "удар головою",
+    "ru": "удар головой",
+    "pl": "główka",
+    "de": "Kopfball",
+    "fr": "tête",
+    "es": "cabezazo",
+    "it": "colpo di testa",
+    "pt": "cabeçada",
+    "tr": "kafa vuruşu"
+   },
+   "ex": {
+    "en": "He scored with a header."
+   }
+  },
+  {
+   "id": "sports.shot",
+   "t": {
+    "en": "shot",
+    "uk": "удар",
+    "ru": "удар",
+    "pl": "strzał",
+    "de": "Schuss",
+    "fr": "tir",
+    "es": "tiro",
+    "it": "tiro",
+    "pt": "chute",
+    "tr": "şut"
+   },
+   "ex": {
+    "en": "What a great shot!"
+   }
+  },
+  {
+   "id": "sports.to-shoot",
+   "t": {
+    "en": "to shoot",
+    "uk": "бити по воротах",
+    "ru": "бить по воротам",
+    "pl": "strzelać",
+    "de": "schießen",
+    "fr": "tirer",
+    "es": "chutar",
+    "it": "tirare",
+    "pt": "chutar",
+    "tr": "şut çekmek"
+   },
+   "ex": {
+    "en": "Shoot now, you're free!"
+   }
+  },
+  {
+   "id": "sports.to-dribble",
+   "t": {
+    "en": "to dribble",
+    "uk": "вести м'яч",
+    "ru": "вести мяч",
+    "pl": "dryblować",
+    "de": "dribbeln",
+    "fr": "dribbler",
+    "es": "regatear",
+    "it": "dribblare",
+    "pt": "driblar",
+    "tr": "top sürmek"
+   },
+   "ex": {
+    "en": "He can dribble past anyone."
+   }
+  },
+  {
+   "id": "sports.throw-in",
+   "t": {
+    "en": "throw-in",
+    "uk": "вкидання",
+    "ru": "вбрасывание",
+    "pl": "wrzut z autu",
+    "de": "Einwurf",
+    "fr": "rentrée de touche",
+    "es": "saque de banda",
+    "it": "rimessa laterale",
+    "pt": "arremesso lateral",
+    "tr": "taç atışı"
+   },
+   "ex": {
+    "en": "It's a throw-in for the home team."
+   }
+  },
+  {
+   "id": "sports.stands",
+   "t": {
+    "en": "stands",
+    "uk": "трибуни",
+    "ru": "трибуны",
+    "pl": "trybuny",
+    "de": "Tribüne",
+    "fr": "tribunes",
+    "es": "gradas",
+    "it": "tribune",
+    "pt": "arquibancada",
+    "tr": "tribün"
+   },
+   "ex": {
+    "en": "The stands were full of fans."
+   }
+  },
+  {
+   "id": "sports.training-session",
+   "t": {
+    "en": "training session",
+    "uk": "тренування",
+    "ru": "тренировка",
+    "pl": "trening",
+    "de": "Trainingseinheit",
+    "fr": "séance d'entraînement",
+    "es": "sesión de entrenamiento",
+    "it": "sessione di allenamento",
+    "pt": "sessão de treino",
+    "tr": "antrenman"
+   },
+   "ex": {
+    "en": "The training session lasts two hours."
+   }
+  },
+  {
+   "id": "sports.sit-up",
+   "t": {
+    "en": "sit-up",
+    "uk": "скручування",
+    "ru": "скручивание",
+    "pl": "brzuszek",
+    "de": "Sit-up",
+    "fr": "abdo",
+    "es": "abdominal",
+    "it": "addominale",
+    "pt": "abdominal",
+    "tr": "mekik"
+   },
+   "ex": {
+    "en": "I do fifty sit-ups every morning."
+   }
+  },
+  {
+   "id": "sports.plank",
+   "t": {
+    "en": "plank",
+    "uk": "планка",
+    "ru": "планка",
+    "pl": "deska",
+    "de": "Plank",
+    "fr": "gainage",
+    "es": "plancha",
+    "it": "plank",
+    "pt": "prancha",
+    "tr": "plank"
+   },
+   "ex": {
+    "en": "Hold the plank for one minute."
+   }
+  },
+  {
+   "id": "sports.weightlifting",
+   "t": {
+    "en": "weightlifting",
+    "uk": "важка атлетика",
+    "ru": "тяжёлая атлетика",
+    "pl": "podnoszenie ciężarów",
+    "de": "Gewichtheben",
+    "fr": "haltérophilie",
+    "es": "halterofilia",
+    "it": "sollevamento pesi",
+    "pt": "levantamento de peso",
+    "tr": "halter"
+   },
+   "ex": {
+    "en": "Weightlifting needs good technique."
+   }
+  },
+  {
+   "id": "sports.long-jump",
+   "t": {
+    "en": "long jump",
+    "uk": "стрибки в довжину",
+    "ru": "прыжки в длину",
+    "pl": "skok w dal",
+    "de": "Weitsprung",
+    "fr": "saut en longueur",
+    "es": "salto de longitud",
+    "it": "salto in lungo",
+    "pt": "salto em distância",
+    "tr": "uzun atlama"
+   },
+   "ex": {
+    "en": "She came first in the long jump."
+   }
+  },
+  {
+   "id": "sports.high-jump",
+   "t": {
+    "en": "high jump",
+    "uk": "стрибки у висоту",
+    "ru": "прыжки в высоту",
+    "pl": "skok wzwyż",
+    "de": "Hochsprung",
+    "fr": "saut en hauteur",
+    "es": "salto de altura",
+    "it": "salto in alto",
+    "pt": "salto em altura",
+    "tr": "yüksek atlama"
+   },
+   "ex": {
+    "en": "The high jump bar is very high."
+   }
+  },
+  {
+   "id": "sports.hurdles",
+   "t": {
+    "en": "hurdles",
+    "uk": "бар'єрний біг",
+    "ru": "бег с барьерами",
+    "pl": "bieg przez płotki",
+    "de": "Hürdenlauf",
+    "fr": "course de haies",
+    "es": "carrera de vallas",
+    "it": "corsa a ostacoli",
+    "pt": "corrida com barreiras",
+    "tr": "engelli koşu"
+   },
+   "ex": {
+    "en": "He fell in the hurdles."
+   }
+  },
+  {
+   "id": "sports.triathlon",
+   "t": {
+    "en": "triathlon",
+    "uk": "тріатлон",
+    "ru": "триатлон",
+    "pl": "triathlon",
+    "de": "Triathlon",
+    "fr": "triathlon",
+    "es": "triatlón",
+    "it": "triathlon",
+    "pt": "triatlo",
+    "tr": "triatlon"
+   },
+   "ex": {
+    "en": "A triathlon includes swimming, cycling and running."
+   }
+  },
+  {
+   "id": "sports.champion",
+   "t": {
+    "en": "champion",
+    "uk": "чемпіон",
+    "ru": "чемпион",
+    "pl": "mistrz",
+    "de": "Meister",
+    "fr": "champion",
+    "es": "campeón",
+    "it": "campione",
+    "pt": "campeão",
+    "tr": "şampiyon"
+   },
+   "ex": {
+    "en": "She is the national champion."
+   }
+  },
+  {
+   "id": "sports.defence",
+   "t": {
+    "en": "defence",
+    "uk": "захист",
+    "ru": "защита",
+    "pl": "obrona",
+    "de": "Abwehr",
+    "fr": "défense",
+    "es": "defensa",
+    "it": "difesa",
+    "pt": "defesa",
+    "tr": "savunma"
+   },
+   "ex": {
+    "en": "Our defence was very strong."
+   }
+  },
+  {
+   "id": "sports.sports-injury",
+   "t": {
+    "en": "sports injury",
+    "uk": "спортивна травма",
+    "ru": "спортивная травма",
+    "pl": "kontuzja sportowa",
+    "de": "Sportverletzung",
+    "fr": "blessure sportive",
+    "es": "lesión deportiva",
+    "it": "infortunio sportivo",
+    "pt": "lesão esportiva",
+    "tr": "spor sakatlığı"
+   },
+   "ex": {
+    "en": "A sports injury can take weeks to heal."
+   }
+  },
+  {
+   "id": "sports.fitness-tracker",
+   "t": {
+    "en": "fitness tracker",
+    "uk": "фітнес-браслет",
+    "ru": "фитнес-браслет",
+    "pl": "opaska fitness",
+    "de": "Fitnesstracker",
+    "fr": "bracelet connecté",
+    "es": "pulsera de actividad",
+    "it": "braccialetto fitness",
+    "pt": "pulseira fitness",
+    "tr": "akıllı bileklik"
+   },
+   "ex": {
+    "en": "My fitness tracker counts my steps."
+   }
+  },
+  {
+   "id": "sports.to-burn-calories",
+   "t": {
+    "en": "to burn calories",
+    "uk": "спалювати калорії",
+    "ru": "сжигать калории",
+    "pl": "spalać kalorie",
+    "de": "Kalorien verbrennen",
+    "fr": "brûler des calories",
+    "es": "quemar calorías",
+    "it": "bruciare calorie",
+    "pt": "queimar calorias",
+    "tr": "kalori yakmak"
+   },
+   "ex": {
+    "en": "Swimming helps you burn calories."
+   }
+  },
+  {
+   "id": "sports.fitness-class",
+   "t": {
+    "en": "fitness class",
+    "uk": "фітнес-заняття",
+    "ru": "фитнес-занятие",
+    "pl": "zajęcia fitness",
+    "de": "Fitnesskurs",
+    "fr": "cours de fitness",
+    "es": "clase de fitness",
+    "it": "lezione di fitness",
+    "pt": "aula de ginástica",
+    "tr": "fitness dersi"
+   },
+   "ex": {
+    "en": "The fitness class starts at seven."
+   }
+  },
+  {
+   "id": "sports.final-whistle",
+   "t": {
+    "en": "final whistle",
+    "uk": "фінальний свисток",
+    "ru": "финальный свисток",
+    "pl": "końcowy gwizdek",
+    "de": "Schlusspfiff",
+    "fr": "coup de sifflet final",
+    "es": "pitido final",
+    "it": "fischio finale",
+    "pt": "apito final",
+    "tr": "bitiş düdüğü"
+   },
+   "ex": {
+    "en": "The fans cheered at the final whistle."
+   }
+  },
+  {
+   "id": "sports.mountain-biking",
+   "t": {
+    "en": "mountain biking",
+    "uk": "гірський велоспорт",
+    "ru": "горный велоспорт",
+    "pl": "kolarstwo górskie",
+    "de": "Mountainbiken",
+    "fr": "VTT",
+    "es": "ciclismo de montaña",
+    "it": "mountain bike",
+    "pt": "mountain bike",
+    "tr": "dağ bisikleti"
+   },
+   "ex": {
+    "en": "Mountain biking is popular here."
+   }
+  },
+  {
+   "id": "sports.skydiving",
+   "t": {
+    "en": "skydiving",
+    "uk": "стрибки з парашутом",
+    "ru": "прыжки с парашютом",
+    "pl": "skoki spadochronowe",
+    "de": "Fallschirmspringen",
+    "fr": "parachutisme",
+    "es": "paracaidismo",
+    "it": "paracadutismo",
+    "pt": "paraquedismo",
+    "tr": "paraşütle atlama"
+   },
+   "ex": {
+    "en": "He tried skydiving for his birthday."
+   }
+  },
+  {
+   "id": "sports.extreme-sports",
+   "t": {
+    "en": "extreme sports",
+    "uk": "екстремальні види спорту",
+    "ru": "экстремальные виды спорта",
+    "pl": "sporty ekstremalne",
+    "de": "Extremsport",
+    "fr": "sports extrêmes",
+    "es": "deportes extremos",
+    "it": "sport estremi",
+    "pt": "esportes radicais",
+    "tr": "ekstrem sporlar"
+   },
+   "ex": {
+    "en": "Extreme sports can be dangerous."
+   }
+  },
+  {
+   "id": "sports.fencing",
+   "t": {
+    "en": "fencing",
+    "uk": "фехтування",
+    "ru": "фехтование",
+    "pl": "szermierka",
+    "de": "Fechten",
+    "fr": "escrime",
+    "es": "esgrima",
+    "it": "scherma",
+    "pt": "esgrima",
+    "tr": "eskrim"
+   },
+   "ex": {
+    "en": "Fencing is an Olympic sport."
+   }
+  },
+  {
+   "id": "sports.wrestling",
+   "t": {
+    "en": "wrestling",
+    "uk": "боротьба",
+    "ru": "борьба",
+    "pl": "zapasy",
+    "de": "Ringen",
+    "fr": "lutte",
+    "es": "lucha",
+    "it": "lotta",
+    "pt": "luta",
+    "tr": "güreş"
+   },
+   "ex": {
+    "en": "Wrestling is a national sport in Turkey."
+   }
+  },
+  {
+   "id": "sports.archery",
+   "t": {
+    "en": "archery",
+    "uk": "стрільба з лука",
+    "ru": "стрельба из лука",
+    "pl": "łucznictwo",
+    "de": "Bogenschießen",
+    "fr": "tir à l'arc",
+    "es": "tiro con arco",
+    "it": "tiro con l'arco",
+    "pt": "tiro com arco",
+    "tr": "okçuluk"
+   },
+   "ex": {
+    "en": "Archery needs a steady hand."
+   }
+  },
+  {
+   "id": "sports.figure-skating",
+   "t": {
+    "en": "figure skating",
+    "uk": "фігурне катання",
+    "ru": "фигурное катание",
+    "pl": "łyżwiarstwo figurowe",
+    "de": "Eiskunstlauf",
+    "fr": "patinage artistique",
+    "es": "patinaje artístico",
+    "it": "pattinaggio artistico",
+    "pt": "patinação artística",
+    "tr": "artistik patinaj"
+   },
+   "ex": {
+    "en": "We watched figure skating on TV."
+   }
+  },
+  {
+   "id": "sports.kayak",
+   "t": {
+    "en": "kayak",
+    "uk": "байдарка",
+    "ru": "байдарка",
+    "pl": "kajak",
+    "de": "Kajak",
+    "fr": "kayak",
+    "es": "kayak",
+    "it": "kayak",
+    "pt": "caiaque",
+    "tr": "kano"
+   },
+   "ex": {
+    "en": "We paddled the kayak down the river."
+   }
+  },
+  {
+   "id": "sports.windsurfing",
+   "t": {
+    "en": "windsurfing",
+    "uk": "віндсерфінг",
+    "ru": "виндсёрфинг",
+    "pl": "windsurfing",
+    "de": "Windsurfen",
+    "fr": "planche à voile",
+    "es": "windsurf",
+    "it": "windsurf",
+    "pt": "windsurfe",
+    "tr": "rüzgar sörfü"
+   },
+   "ex": {
+    "en": "The lake is perfect for windsurfing."
+   }
+  },
+  {
+   "id": "sports.linesman",
+   "t": {
+    "en": "linesman",
+    "uk": "боковий суддя",
+    "ru": "боковой судья",
+    "pl": "sędzia liniowy",
+    "de": "Linienrichter",
+    "fr": "juge de touche",
+    "es": "juez de línea",
+    "it": "guardalinee",
+    "pt": "bandeirinha",
+    "tr": "yan hakem"
+   },
+   "ex": {
+    "en": "The linesman raised his flag."
+   }
+  },
+  {
+   "id": "sports.to-be-knocked-out",
+   "t": {
+    "en": "to be knocked out",
+    "uk": "вилетіти",
+    "ru": "вылететь",
+    "pl": "odpaść",
+    "de": "ausscheiden",
+    "fr": "être éliminé",
+    "es": "quedar eliminado",
+    "it": "essere eliminato",
+    "pt": "ser eliminado",
+    "tr": "elenmek"
+   },
+   "ex": {
+    "en": "We were knocked out in the first round."
+   }
+  },
+  {
+   "id": "sports.group-stage",
+   "t": {
+    "en": "group stage",
+    "uk": "груповий етап",
+    "ru": "групповой этап",
+    "pl": "faza grupowa",
+    "de": "Gruppenphase",
+    "fr": "phase de groupes",
+    "es": "fase de grupos",
+    "it": "fase a gironi",
+    "pt": "fase de grupos",
+    "tr": "grup aşaması"
+   },
+   "ex": {
+    "en": "They won every game in the group stage."
+   }
+  },
+  {
+   "id": "sports.world-cup",
+   "t": {
+    "en": "World Cup",
+    "uk": "чемпіонат світу",
+    "ru": "чемпионат мира",
+    "pl": "mistrzostwa świata",
+    "de": "Weltmeisterschaft",
+    "fr": "Coupe du monde",
+    "es": "Mundial",
+    "it": "Mondiali",
+    "pt": "Copa do Mundo",
+    "tr": "Dünya Kupası"
+   },
+   "ex": {
+    "en": "Who won the last World Cup?"
+   }
+  },
+  {
+   "id": "sports.workout-plan",
+   "t": {
+    "en": "workout plan",
+    "uk": "план тренувань",
+    "ru": "план тренировок",
+    "pl": "plan treningowy",
+    "de": "Trainingsplan",
+    "fr": "programme d'entraînement",
+    "es": "plan de entrenamiento",
+    "it": "programma di allenamento",
+    "pt": "plano de treino",
+    "tr": "antrenman programı"
+   },
+   "ex": {
+    "en": "My trainer made me a workout plan."
+   }
+  },
+  {
+   "id": "sports.abs",
+   "t": {
+    "en": "abs",
+    "uk": "прес",
+    "ru": "пресс",
+    "pl": "mięśnie brzucha",
+    "de": "Bauchmuskeln",
+    "fr": "abdos",
+    "es": "abdominales",
+    "it": "addominali",
+    "pt": "abdômen",
+    "tr": "karın kasları"
+   },
+   "ex": {
+    "en": "These exercises are great for your abs."
+   }
+  },
+  {
+   "id": "sports.serve",
+   "t": {
+    "en": "serve",
+    "uk": "подача",
+    "ru": "подача",
+    "pl": "serwis",
+    "de": "Aufschlag",
+    "fr": "service",
+    "es": "saque",
+    "it": "servizio",
+    "pt": "saque",
+    "tr": "servis"
+   },
+   "ex": {
+    "en": "Her serve is very fast."
+   }
+  },
+  {
+   "id": "sports.rowing-machine",
+   "t": {
+    "en": "rowing machine",
+    "uk": "гребний тренажер",
+    "ru": "гребной тренажёр",
+    "pl": "ergometr wioślarski",
+    "de": "Rudergerät",
+    "fr": "rameur",
+    "es": "máquina de remo",
+    "it": "vogatore",
+    "pt": "remo ergométrico",
+    "tr": "kürek makinesi"
+   },
+   "ex": {
+    "en": "I spent twenty minutes on the rowing machine."
+   }
+  },
+  {
+   "id": "sports.to-miss-a-penalty",
+   "t": {
+    "en": "to miss a penalty",
+    "uk": "не забити пенальті",
+    "ru": "не забить пенальти",
+    "pl": "zmarnować rzut karny",
+    "de": "einen Elfmeter verschießen",
+    "fr": "rater un penalty",
+    "es": "fallar un penalti",
+    "it": "sbagliare un rigore",
+    "pt": "perder um pênalti",
+    "tr": "penaltı kaçırmak"
+   },
+   "ex": {
+    "en": "He missed a penalty in the final."
+   }
+  },
+  {
+   "id": "sports.away-game",
+   "t": {
+    "en": "away game",
+    "uk": "гра на виїзді",
+    "ru": "игра на выезде",
+    "pl": "mecz wyjazdowy",
+    "de": "Auswärtsspiel",
+    "fr": "match à l'extérieur",
+    "es": "partido fuera de casa",
+    "it": "partita in trasferta",
+    "pt": "jogo fora de casa",
+    "tr": "deplasman maçı"
+   },
+   "ex": {
+    "en": "Away games are always harder."
+   }
+  },
+  {
+   "id": "sports.home-game",
+   "t": {
+    "en": "home game",
+    "uk": "домашній матч",
+    "ru": "домашний матч",
+    "pl": "mecz u siebie",
+    "de": "Heimspiel",
+    "fr": "match à domicile",
+    "es": "partido en casa",
+    "it": "partita in casa",
+    "pt": "jogo em casa",
+    "tr": "iç saha maçı"
+   },
+   "ex": {
+    "en": "We have a home game on Saturday."
+   }
+  },
+  {
+   "id": "sports.cross-country-skiing",
+   "t": {
+    "en": "cross-country skiing",
+    "uk": "лижні перегони",
+    "ru": "лыжные гонки",
+    "pl": "narciarstwo biegowe",
+    "de": "Langlauf",
+    "fr": "ski de fond",
+    "es": "esquí de fondo",
+    "it": "sci di fondo",
+    "pt": "esqui cross-country",
+    "tr": "kayaklı koşu"
+   },
+   "ex": {
+    "en": "Cross-country skiing is great exercise."
+   }
+  },
+  {
+   "id": "sports.shuttlecock",
+   "t": {
+    "en": "shuttlecock",
+    "uk": "волан",
+    "ru": "волан",
+    "pl": "lotka",
+    "de": "Federball",
+    "fr": "volant",
+    "es": "volante",
+    "it": "volano",
+    "pt": "peteca",
+    "tr": "badminton topu"
+   },
+   "ex": {
+    "en": "The shuttlecock landed on the line."
+   }
+  },
+  {
+   "id": "sports.puck",
+   "t": {
+    "en": "puck",
+    "uk": "шайба",
+    "ru": "шайба",
+    "pl": "krążek",
+    "de": "Puck",
+    "fr": "palet",
+    "es": "disco",
+    "it": "disco",
+    "pt": "disco",
+    "tr": "pak"
+   },
+   "ex": {
+    "en": "He hit the puck into the net."
+   }
+  },
+  {
+   "id": "sports.black-belt",
+   "t": {
+    "en": "black belt",
+    "uk": "чорний пояс",
+    "ru": "чёрный пояс",
+    "pl": "czarny pas",
+    "de": "schwarzer Gürtel",
+    "fr": "ceinture noire",
+    "es": "cinturón negro",
+    "it": "cintura nera",
+    "pt": "faixa preta",
+    "tr": "siyah kuşak"
+   },
+   "ex": {
+    "en": "She has a black belt in karate."
+   }
+  },
+  {
+   "id": "sports.boxing-ring",
+   "t": {
+    "en": "boxing ring",
+    "uk": "боксерський ринг",
+    "ru": "боксёрский ринг",
+    "pl": "ring bokserski",
+    "de": "Boxring",
+    "fr": "ring de boxe",
+    "es": "cuadrilátero",
+    "it": "ring",
+    "pt": "ringue",
+    "tr": "boks ringi"
+   },
+   "ex": {
+    "en": "The boxers entered the boxing ring."
+   }
+  },
+  {
+   "id": "sports.golf-club",
+   "t": {
+    "en": "golf club",
+    "uk": "ключка для гольфу",
+    "ru": "клюшка для гольфа",
+    "pl": "kij golfowy",
+    "de": "Golfschläger",
+    "fr": "club de golf",
+    "es": "palo de golf",
+    "it": "mazza da golf",
+    "pt": "taco de golfe",
+    "tr": "golf sopası"
+   },
+   "ex": {
+    "en": "He bought a new golf club."
+   }
+  },
+  {
+   "id": "sports.hockey-stick",
+   "t": {
+    "en": "hockey stick",
+    "uk": "хокейна ключка",
+    "ru": "хоккейная клюшка",
+    "pl": "kij hokejowy",
+    "de": "Hockeyschläger",
+    "fr": "crosse de hockey",
+    "es": "palo de hockey",
+    "it": "bastone da hockey",
+    "pt": "taco de hóquei",
+    "tr": "hokey sopası"
+   },
+   "ex": {
+    "en": "His hockey stick broke during the game."
+   }
+  },
+  {
+   "id": "sports.sports-drink",
+   "t": {
+    "en": "sports drink",
+    "uk": "спортивний напій",
+    "ru": "спортивный напиток",
+    "pl": "napój izotoniczny",
+    "de": "Sportgetränk",
+    "fr": "boisson énergétique",
+    "es": "bebida isotónica",
+    "it": "bevanda sportiva",
+    "pt": "isotônico",
+    "tr": "sporcu içeceği"
+   },
+   "ex": {
+    "en": "He had a sports drink after the race."
    }
   }
  ]

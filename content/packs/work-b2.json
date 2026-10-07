@@ -2,7 +2,7 @@
  "id": "work-b2",
  "topic": "work",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "work.to-headhunt",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "The director called a meeting for Monday."
+   }
+  },
+  {
+   "id": "work.to-burn-out",
+   "t": {
+    "en": "to burn out",
+    "uk": "вигоріти",
+    "ru": "выгореть",
+    "pl": "wypalić się",
+    "de": "ausbrennen",
+    "fr": "s'épuiser",
+    "es": "quemarse",
+    "it": "esaurirsi",
+    "pt": "ter burnout",
+    "tr": "tükenmek"
+   },
+   "ex": {
+    "en": "If you never rest, you'll burn out."
+   }
+  },
+  {
+   "id": "work.gender-pay-gap",
+   "t": {
+    "en": "gender pay gap",
+    "uk": "гендерний розрив в оплаті",
+    "ru": "гендерный разрыв в оплате",
+    "pl": "luka płacowa",
+    "de": "geschlechtsspezifisches Lohngefälle",
+    "fr": "écart salarial femmes-hommes",
+    "es": "brecha salarial de género",
+    "it": "divario retributivo di genere",
+    "pt": "disparidade salarial de gênero",
+    "tr": "cinsiyete dayalı ücret farkı"
+   },
+   "ex": {
+    "en": "The gender pay gap is still large."
+   }
+  },
+  {
+   "id": "work.accountability",
+   "t": {
+    "en": "accountability",
+    "uk": "підзвітність",
+    "ru": "подотчётность",
+    "pl": "odpowiedzialność",
+    "de": "Rechenschaftspflicht",
+    "fr": "responsabilité",
+    "es": "rendición de cuentas",
+    "it": "responsabilità",
+    "pt": "responsabilização",
+    "tr": "hesap verebilirlik"
+   },
+   "ex": {
+    "en": "Managers need more accountability."
+   }
+  },
+  {
+   "id": "work.to-sign-off-on",
+   "t": {
+    "en": "to sign off on",
+    "uk": "затвердити",
+    "ru": "утвердить",
+    "pl": "zatwierdzić",
+    "de": "absegnen",
+    "fr": "valider",
+    "es": "dar el visto bueno a",
+    "it": "approvare",
+    "pt": "aprovar",
+    "tr": "onaylamak"
+   },
+   "ex": {
+    "en": "The director must sign off on the budget."
+   }
+  },
+  {
+   "id": "work.to-work-flat-out",
+   "t": {
+    "en": "to work flat out",
+    "uk": "працювати на повну",
+    "ru": "работать на износ",
+    "pl": "pracować na pełnych obrotach",
+    "de": "auf Hochtouren arbeiten",
+    "fr": "travailler d'arrache-pied",
+    "es": "trabajar a tope",
+    "it": "lavorare a pieno ritmo",
+    "pt": "trabalhar a todo vapor",
+    "tr": "var gücüyle çalışmak"
+   },
+   "ex": {
+    "en": "We worked flat out to finish on time."
+   }
+  },
+  {
+   "id": "work.career-ladder",
+   "t": {
+    "en": "career ladder",
+    "uk": "кар'єрні сходи",
+    "ru": "карьерная лестница",
+    "pl": "szczebel kariery",
+    "de": "Karriereleiter",
+    "fr": "échelle professionnelle",
+    "es": "escalera profesional",
+    "it": "scala gerarchica",
+    "pt": "escada profissional",
+    "tr": "kariyer basamakları"
+   },
+   "ex": {
+    "en": "She moved quickly up the career ladder."
+   }
+  },
+  {
+   "id": "work.to-cover-for-someone",
+   "t": {
+    "en": "to cover for someone",
+    "uk": "підміняти когось",
+    "ru": "подменять кого-то",
+    "pl": "zastępować kogoś",
+    "de": "jemanden vertreten",
+    "fr": "remplacer quelqu'un",
+    "es": "cubrir a alguien",
+    "it": "sostituire qualcuno",
+    "pt": "cobrir alguém",
+    "tr": "birinin yerine bakmak"
+   },
+   "ex": {
+    "en": "Can you cover for me tomorrow?"
+   }
+  },
+  {
+   "id": "work.conscientious",
+   "t": {
+    "en": "conscientious",
+    "uk": "сумлінний",
+    "ru": "добросовестный",
+    "pl": "skrupulatny",
+    "de": "gewissenhaft",
+    "fr": "consciencieux",
+    "es": "concienzudo",
+    "it": "coscienzioso",
+    "pt": "consciencioso",
+    "tr": "vicdanlı"
+   },
+   "ex": {
+    "en": "She is conscientious about details."
+   }
+  },
+  {
+   "id": "work.assertive",
+   "t": {
+    "en": "assertive",
+    "uk": "наполегливий",
+    "ru": "напористый",
+    "pl": "asertywny",
+    "de": "durchsetzungsfähig",
+    "fr": "affirmé",
+    "es": "asertivo",
+    "it": "assertivo",
+    "pt": "assertivo",
+    "tr": "kendinden emin"
+   },
+   "ex": {
+    "en": "You need to be more assertive in meetings."
+   }
+  },
+  {
+   "id": "work.resourceful",
+   "t": {
+    "en": "resourceful",
+    "uk": "винахідливий",
+    "ru": "находчивый",
+    "pl": "zaradny",
+    "de": "einfallsreich",
+    "fr": "débrouillard",
+    "es": "ingenioso",
+    "it": "pieno di risorse",
+    "pt": "engenhoso",
+    "tr": "becerikli"
+   },
+   "ex": {
+    "en": "A resourceful employee finds solutions."
+   }
+  },
+  {
+   "id": "work.secondment",
+   "t": {
+    "en": "secondment",
+    "uk": "відрядження до іншого підрозділу",
+    "ru": "временный перевод",
+    "pl": "delegowanie",
+    "de": "Abordnung",
+    "fr": "détachement",
+    "es": "comisión de servicios",
+    "it": "distacco",
+    "pt": "cessão temporária",
+    "tr": "geçici görevlendirme"
+   },
+   "ex": {
+    "en": "She is on secondment to the Paris office."
+   }
+  },
+  {
+   "id": "work.compassionate-leave",
+   "t": {
+    "en": "compassionate leave",
+    "uk": "відпустка у зв'язку з утратою",
+    "ru": "отпуск по семейным обстоятельствам",
+    "pl": "urlop okolicznościowy",
+    "de": "Sonderurlaub",
+    "fr": "congé pour décès",
+    "es": "permiso por fallecimiento",
+    "it": "congedo per lutto",
+    "pt": "licença por luto",
+    "tr": "vefat izni"
+   },
+   "ex": {
+    "en": "He took compassionate leave after his father died."
+   }
+  },
+  {
+   "id": "work.hybrid-working",
+   "t": {
+    "en": "hybrid working",
+    "uk": "гібридна робота",
+    "ru": "гибридный формат работы",
+    "pl": "praca hybrydowa",
+    "de": "hybrides Arbeiten",
+    "fr": "travail hybride",
+    "es": "trabajo híbrido",
+    "it": "lavoro ibrido",
+    "pt": "trabalho híbrido",
+    "tr": "hibrit çalışma"
+   },
+   "ex": {
+    "en": "Hybrid working is now common."
+   }
+  },
+  {
+   "id": "work.hot-desking",
+   "t": {
+    "en": "hot-desking",
+    "uk": "робота без закріпленого місця",
+    "ru": "работа без закреплённого места",
+    "pl": "hot desking",
+    "de": "Desksharing",
+    "fr": "bureau partagé",
+    "es": "puesto de trabajo compartido",
+    "it": "postazione condivisa",
+    "pt": "mesa compartilhada",
+    "tr": "ortak masa sistemi"
+   },
+   "ex": {
+    "en": "With hot-desking, nobody has their own desk."
+   }
+  },
+  {
+   "id": "work.open-door-policy",
+   "t": {
+    "en": "open-door policy",
+    "uk": "політика відкритих дверей",
+    "ru": "политика открытых дверей",
+    "pl": "polityka otwartych drzwi",
+    "de": "Politik der offenen Tür",
+    "fr": "politique de la porte ouverte",
+    "es": "política de puertas abiertas",
+    "it": "politica della porta aperta",
+    "pt": "política de portas abertas",
+    "tr": "açık kapı politikası"
+   },
+   "ex": {
+    "en": "Our boss has an open-door policy."
+   }
+  },
+  {
+   "id": "work.chain-of-command",
+   "t": {
+    "en": "chain of command",
+    "uk": "ланцюг підпорядкування",
+    "ru": "цепочка подчинения",
+    "pl": "hierarchia służbowa",
+    "de": "Befehlskette",
+    "fr": "voie hiérarchique",
+    "es": "cadena de mando",
+    "it": "catena di comando",
+    "pt": "cadeia de comando",
+    "tr": "emir komuta zinciri"
+   },
+   "ex": {
+    "en": "Follow the chain of command."
+   }
+  },
+  {
+   "id": "work.direct-report",
+   "t": {
+    "en": "direct report",
+    "uk": "прямий підлеглий",
+    "ru": "прямой подчинённый",
+    "pl": "bezpośredni podwładny",
+    "de": "direkter Mitarbeiter",
+    "fr": "collaborateur direct",
+    "es": "subordinado directo",
+    "it": "diretto riporto",
+    "pt": "subordinado direto",
+    "tr": "doğrudan bağlı çalışan"
+   },
+   "ex": {
+    "en": "She has five direct reports."
+   }
+  },
+  {
+   "id": "work.middle-management",
+   "t": {
+    "en": "middle management",
+    "uk": "середня ланка керівництва",
+    "ru": "среднее звено управления",
+    "pl": "kadra średniego szczebla",
+    "de": "mittleres Management",
+    "fr": "cadres intermédiaires",
+    "es": "mandos intermedios",
+    "it": "quadri intermedi",
+    "pt": "gerência intermediária",
+    "tr": "orta kademe yönetim"
+   },
+   "ex": {
+    "en": "Middle management was cut by half."
+   }
+  },
+  {
+   "id": "work.senior-management",
+   "t": {
+    "en": "senior management",
+    "uk": "вище керівництво",
+    "ru": "высшее руководство",
+    "pl": "kadra kierownicza wyższego szczebla",
+    "de": "Geschäftsleitung",
+    "fr": "direction générale",
+    "es": "alta dirección",
+    "it": "alta dirigenza",
+    "pt": "alta gerência",
+    "tr": "üst yönetim"
+   },
+   "ex": {
+    "en": "Senior management approved the plan."
+   }
+  },
+  {
+   "id": "work.to-get-the-sack",
+   "t": {
+    "en": "to get the sack",
+    "uk": "вилетіти з роботи",
+    "ru": "вылететь с работы",
+    "pl": "wylecieć z pracy",
+    "de": "rausgeschmissen werden",
+    "fr": "se faire virer",
+    "es": "ser despedido",
+    "it": "essere licenziato",
+    "pt": "ser demitido",
+    "tr": "kovulmak"
+   },
+   "ex": {
+    "en": "He got the sack for being late."
+   }
+  },
+  {
+   "id": "work.to-be-let-go",
+   "t": {
+    "en": "to be let go",
+    "uk": "бути звільненим",
+    "ru": "быть уволенным",
+    "pl": "zostać zwolnionym",
+    "de": "entlassen werden",
+    "fr": "être licencié",
+    "es": "ser despedido",
+    "it": "venire licenziato",
+    "pt": "ser dispensado",
+    "tr": "işten çıkarılmak"
+   },
+   "ex": {
+    "en": "Ten people were let go last month."
+   }
+  },
+  {
+   "id": "work.talent-pool",
+   "t": {
+    "en": "talent pool",
+    "uk": "кадровий резерв",
+    "ru": "кадровый резерв",
+    "pl": "pula talentów",
+    "de": "Talentpool",
+    "fr": "vivier de talents",
+    "es": "cantera de talento",
+    "it": "bacino di talenti",
+    "pt": "banco de talentos",
+    "tr": "yetenek havuzu"
+   },
+   "ex": {
+    "en": "The city has a large talent pool."
+   }
+  },
+  {
+   "id": "work.absenteeism",
+   "t": {
+    "en": "absenteeism",
+    "uk": "прогули",
+    "ru": "прогулы",
+    "pl": "absencja",
+    "de": "Fehlzeiten",
+    "fr": "absentéisme",
+    "es": "absentismo",
+    "it": "assenteismo",
+    "pt": "absenteísmo",
+    "tr": "devamsızlık"
+   },
+   "ex": {
+    "en": "Absenteeism rises when morale is low."
+   }
+  },
+  {
+   "id": "work.foot-in-the-door",
+   "t": {
+    "en": "foot in the door",
+    "uk": "перший крок",
+    "ru": "первый шаг",
+    "pl": "pierwszy krok",
+    "de": "Fuß in der Tür",
+    "fr": "pied dans la porte",
+    "es": "primer paso",
+    "it": "piede nella porta",
+    "pt": "pé na porta",
+    "tr": "ilk adım"
+   },
+   "ex": {
+    "en": "An internship gets your foot in the door."
+   }
+  },
+  {
+   "id": "work.to-learn-the-ropes",
+   "t": {
+    "en": "to learn the ropes",
+    "uk": "освоїтися",
+    "ru": "освоиться",
+    "pl": "nauczyć się podstaw",
+    "de": "sich einarbeiten",
+    "fr": "apprendre les ficelles",
+    "es": "aprender el oficio",
+    "it": "imparare il mestiere",
+    "pt": "aprender o básico",
+    "tr": "işin inceliklerini öğrenmek"
+   },
+   "ex": {
+    "en": "It took me a month to learn the ropes."
+   }
+  },
+  {
+   "id": "work.to-think-on-your-feet",
+   "t": {
+    "en": "to think on your feet",
+    "uk": "швидко орієнтуватися",
+    "ru": "быстро соображать",
+    "pl": "szybko myśleć",
+    "de": "schnell reagieren",
+    "fr": "réagir vite",
+    "es": "pensar rápido",
+    "it": "pensare in fretta",
+    "pt": "pensar rápido",
+    "tr": "hızlı düşünmek"
+   },
+   "ex": {
+    "en": "Salespeople must think on their feet."
+   }
+  },
+  {
+   "id": "work.to-pull-the-plug",
+   "t": {
+    "en": "to pull the plug",
+    "uk": "припинити",
+    "ru": "прекратить",
+    "pl": "wstrzymać",
+    "de": "den Stecker ziehen",
+    "fr": "arrêter les frais",
+    "es": "cancelar",
+    "it": "staccare la spina",
+    "pt": "cancelar",
+    "tr": "fişini çekmek"
+   },
+   "ex": {
+    "en": "Management pulled the plug on the project."
+   }
+  },
+  {
+   "id": "work.to-drop-the-ball",
+   "t": {
+    "en": "to drop the ball",
+    "uk": "схибити",
+    "ru": "облажаться",
+    "pl": "zawalić sprawę",
+    "de": "Mist bauen",
+    "fr": "se planter",
+    "es": "meter la pata",
+    "it": "fare un errore",
+    "pt": "pisar na bola",
+    "tr": "işi berbat etmek"
+   },
+   "ex": {
+    "en": "Someone dropped the ball on this order."
+   }
+  },
+  {
+   "id": "work.handover",
+   "t": {
+    "en": "handover",
+    "uk": "передача справ",
+    "ru": "передача дел",
+    "pl": "przekazanie obowiązków",
+    "de": "Übergabe",
+    "fr": "passation",
+    "es": "traspaso",
+    "it": "passaggio di consegne",
+    "pt": "transição",
+    "tr": "devir teslim"
+   },
+   "ex": {
+    "en": "I'll write notes for the handover."
+   }
+  },
+  {
+   "id": "work.buy-in",
+   "t": {
+    "en": "buy-in",
+    "uk": "підтримка",
+    "ru": "поддержка",
+    "pl": "poparcie",
+    "de": "Rückhalt",
+    "fr": "adhésion",
+    "es": "apoyo",
+    "it": "consenso",
+    "pt": "adesão",
+    "tr": "destek"
+   },
+   "ex": {
+    "en": "We need buy-in from the whole team."
+   }
+  },
+  {
+   "id": "work.to-leverage",
+   "t": {
+    "en": "to leverage",
+    "uk": "використовувати",
+    "ru": "использовать",
+    "pl": "wykorzystać",
+    "de": "nutzen",
+    "fr": "tirer parti de",
+    "es": "aprovechar",
+    "it": "sfruttare",
+    "pt": "alavancar",
+    "tr": "yararlanmak"
+   },
+   "ex": {
+    "en": "We should leverage our experience."
+   }
+  },
+  {
+   "id": "work.restructuring",
+   "t": {
+    "en": "restructuring",
+    "uk": "реструктуризація",
+    "ru": "реструктуризация",
+    "pl": "restrukturyzacja",
+    "de": "Umstrukturierung",
+    "fr": "restructuration",
+    "es": "reestructuración",
+    "it": "ristrutturazione",
+    "pt": "reestruturação",
+    "tr": "yeniden yapılanma"
+   },
+   "ex": {
+    "en": "The restructuring cost 200 jobs."
+   }
+  },
+  {
+   "id": "work.redeployment",
+   "t": {
+    "en": "redeployment",
+    "uk": "переведення на іншу посаду",
+    "ru": "перевод на другую должность",
+    "pl": "przeniesienie",
+    "de": "Versetzung",
+    "fr": "redéploiement",
+    "es": "reasignación",
+    "it": "ricollocamento",
+    "pt": "realocação",
+    "tr": "yeniden görevlendirme"
+   },
+   "ex": {
+    "en": "Staff were offered redeployment."
+   }
+  },
+  {
+   "id": "work.high-flyer",
+   "t": {
+    "en": "high-flyer",
+    "uk": "успішна людина",
+    "ru": "успешный человек",
+    "pl": "osoba robiąca karierę",
+    "de": "Überflieger",
+    "fr": "personne brillante",
+    "es": "persona de éxito",
+    "it": "persona di successo",
+    "pt": "pessoa de sucesso",
+    "tr": "başarılı kişi"
+   },
+   "ex": {
+    "en": "She was a high-flyer at the bank."
+   }
+  },
+  {
+   "id": "work.slacker",
+   "t": {
+    "en": "slacker",
+    "uk": "ледар",
+    "ru": "лентяй",
+    "pl": "leń",
+    "de": "Faulenzer",
+    "fr": "tire-au-flanc",
+    "es": "vago",
+    "it": "scansafatiche",
+    "pt": "preguiçoso",
+    "tr": "tembel"
+   },
+   "ex": {
+    "en": "Nobody wants to work with a slacker."
+   }
+  },
+  {
+   "id": "work.skill-set",
+   "t": {
+    "en": "skill set",
+    "uk": "набір навичок",
+    "ru": "набор навыков",
+    "pl": "zestaw umiejętności",
+    "de": "Kompetenzprofil",
+    "fr": "ensemble de compétences",
+    "es": "conjunto de habilidades",
+    "it": "insieme di competenze",
+    "pt": "conjunto de habilidades",
+    "tr": "beceri seti"
+   },
+   "ex": {
+    "en": "Her skill set is perfect for this job."
+   }
+  },
+  {
+   "id": "work.professional-growth",
+   "t": {
+    "en": "professional growth",
+    "uk": "професійне зростання",
+    "ru": "профессиональный рост",
+    "pl": "rozwój zawodowy",
+    "de": "berufliche Entwicklung",
+    "fr": "évolution professionnelle",
+    "es": "crecimiento profesional",
+    "it": "crescita professionale",
+    "pt": "crescimento profissional",
+    "tr": "mesleki gelişim"
+   },
+   "ex": {
+    "en": "This job offers real professional growth."
+   }
+  },
+  {
+   "id": "work.conflict-of-interest",
+   "t": {
+    "en": "conflict of interest",
+    "uk": "конфлікт інтересів",
+    "ru": "конфликт интересов",
+    "pl": "konflikt interesów",
+    "de": "Interessenkonflikt",
+    "fr": "conflit d'intérêts",
+    "es": "conflicto de intereses",
+    "it": "conflitto di interessi",
+    "pt": "conflito de interesses",
+    "tr": "çıkar çatışması"
+   },
+   "ex": {
+    "en": "He left the board to avoid a conflict of interest."
+   }
+  },
+  {
+   "id": "work.nda",
+   "t": {
+    "en": "NDA",
+    "uk": "угода про нерозголошення",
+    "ru": "соглашение о неразглашении",
+    "pl": "umowa o poufności",
+    "de": "Geheimhaltungsvereinbarung",
+    "fr": "accord de confidentialité",
+    "es": "acuerdo de confidencialidad",
+    "it": "accordo di riservatezza",
+    "pt": "acordo de confidencialidade",
+    "tr": "gizlilik sözleşmesi"
+   },
+   "ex": {
+    "en": "Please sign the NDA first."
+   }
+  },
+  {
+   "id": "work.to-fast-track",
+   "t": {
+    "en": "to fast-track",
+    "uk": "прискорити",
+    "ru": "ускорить",
+    "pl": "przyspieszyć",
+    "de": "beschleunigen",
+    "fr": "accélérer",
+    "es": "acelerar",
+    "it": "accelerare",
+    "pt": "acelerar",
+    "tr": "hızlandırmak"
+   },
+   "ex": {
+    "en": "They fast-tracked her promotion."
+   }
+  },
+  {
+   "id": "work.four-day-week",
+   "t": {
+    "en": "four-day week",
+    "uk": "чотириденний робочий тиждень",
+    "ru": "четырёхдневная рабочая неделя",
+    "pl": "czterodniowy tydzień pracy",
+    "de": "Viertagewoche",
+    "fr": "semaine de quatre jours",
+    "es": "semana laboral de cuatro días",
+    "it": "settimana corta",
+    "pt": "semana de quatro dias",
+    "tr": "dört günlük çalışma haftası"
+   },
+   "ex": {
+    "en": "The company is testing a four-day week."
+   }
+  },
+  {
+   "id": "work.manual-labour",
+   "t": {
+    "en": "manual labour",
+    "uk": "фізична праця",
+    "ru": "физический труд",
+    "pl": "praca fizyczna",
+    "de": "körperliche Arbeit",
+    "fr": "travail manuel",
+    "es": "trabajo manual",
+    "it": "lavoro manuale",
+    "pt": "trabalho braçal",
+    "tr": "bedensel iş"
+   },
+   "ex": {
+    "en": "Manual labour is hard on the body."
+   }
+  },
+  {
+   "id": "work.blue-collar",
+   "t": {
+    "en": "blue-collar",
+    "uk": "робітничий",
+    "ru": "рабочий",
+    "pl": "fizyczny",
+    "de": "aus der Arbeiterschicht",
+    "fr": "ouvrier",
+    "es": "obrero",
+    "it": "operaio",
+    "pt": "operário",
+    "tr": "mavi yakalı"
+   },
+   "ex": {
+    "en": "He comes from a blue-collar family."
+   }
+  },
+  {
+   "id": "work.white-collar",
+   "t": {
+    "en": "white-collar",
+    "uk": "офісний",
+    "ru": "офисный",
+    "pl": "umysłowy",
+    "de": "im Büro tätig",
+    "fr": "col blanc",
+    "es": "administrativo",
+    "it": "impiegatizio",
+    "pt": "administrativo",
+    "tr": "beyaz yakalı"
+   },
+   "ex": {
+    "en": "White-collar jobs are moving online."
+   }
+  },
+  {
+   "id": "work.labour-shortage",
+   "t": {
+    "en": "labour shortage",
+    "uk": "нестача робочої сили",
+    "ru": "нехватка рабочей силы",
+    "pl": "niedobór siły roboczej",
+    "de": "Arbeitskräftemangel",
+    "fr": "pénurie de main-d'œuvre",
+    "es": "escasez de mano de obra",
+    "it": "carenza di manodopera",
+    "pt": "escassez de mão de obra",
+    "tr": "işgücü açığı"
+   },
+   "ex": {
+    "en": "Farms face a labour shortage."
+   }
+  },
+  {
+   "id": "work.overstaffed",
+   "t": {
+    "en": "overstaffed",
+    "uk": "з надлишком персоналу",
+    "ru": "с избытком персонала",
+    "pl": "przerośnięty kadrowo",
+    "de": "überbesetzt",
+    "fr": "en sureffectif",
+    "es": "con exceso de personal",
+    "it": "con personale in eccesso",
+    "pt": "com excesso de funcionários",
+    "tr": "fazla personelli"
+   },
+   "ex": {
+    "en": "The department is overstaffed."
+   }
+  },
+  {
+   "id": "work.quota",
+   "t": {
+    "en": "quota",
+    "uk": "квота",
+    "ru": "квота",
+    "pl": "norma",
+    "de": "Quote",
+    "fr": "quota",
+    "es": "cuota",
+    "it": "quota",
+    "pt": "cota",
+    "tr": "kota"
+   },
+   "ex": {
+    "en": "I met my sales quota early."
+   }
+  },
+  {
+   "id": "work.performance-bonus",
+   "t": {
+    "en": "performance bonus",
+    "uk": "премія за результати",
+    "ru": "премия за результаты",
+    "pl": "premia za wyniki",
+    "de": "Leistungsprämie",
+    "fr": "prime de performance",
+    "es": "bonificación por rendimiento",
+    "it": "premio di produzione",
+    "pt": "bônus por desempenho",
+    "tr": "performans primi"
+   },
+   "ex": {
+    "en": "He got a big performance bonus."
+   }
+  },
+  {
+   "id": "work.headcount",
+   "t": {
+    "en": "headcount",
+    "uk": "чисельність персоналу",
+    "ru": "численность персонала",
+    "pl": "liczba pracowników",
+    "de": "Mitarbeiterzahl",
+    "fr": "effectif",
+    "es": "plantilla",
+    "it": "organico",
+    "pt": "quadro de funcionários",
+    "tr": "personel sayısı"
+   },
+   "ex": {
+    "en": "We must reduce headcount by 10%."
+   }
+  },
+  {
+   "id": "work.hiring-freeze",
+   "t": {
+    "en": "hiring freeze",
+    "uk": "заморожування найму",
+    "ru": "заморозка найма",
+    "pl": "wstrzymanie zatrudnień",
+    "de": "Einstellungsstopp",
+    "fr": "gel des embauches",
+    "es": "congelación de contrataciones",
+    "it": "blocco delle assunzioni",
+    "pt": "congelamento de contratações",
+    "tr": "işe alım dondurma"
+   },
+   "ex": {
+    "en": "There is a hiring freeze until spring."
+   }
+  },
+  {
+   "id": "work.background-check",
+   "t": {
+    "en": "background check",
+    "uk": "перевірка біографії",
+    "ru": "проверка биографии",
+    "pl": "weryfikacja przeszłości",
+    "de": "Hintergrundprüfung",
+    "fr": "vérification des antécédents",
+    "es": "verificación de antecedentes",
+    "it": "controllo dei precedenti",
+    "pt": "verificação de antecedentes",
+    "tr": "geçmiş taraması"
+   },
+   "ex": {
+    "en": "All new staff need a background check."
    }
   }
  ]

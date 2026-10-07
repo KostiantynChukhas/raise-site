@@ -2,7 +2,7 @@
  "id": "shopping-a2",
  "topic": "shopping",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "shopping.shopping-mall",
@@ -884,6 +884,564 @@
    },
    "ex": {
     "en": "I carried the groceries home."
+   }
+  },
+  {
+   "id": "shopping.too-small",
+   "t": {
+    "en": "too small",
+    "uk": "замалий",
+    "ru": "слишком маленький",
+    "pl": "za mały",
+    "de": "zu klein",
+    "fr": "trop petit",
+    "es": "demasiado pequeño",
+    "it": "troppo piccolo",
+    "pt": "pequeno demais",
+    "tr": "çok küçük"
+   },
+   "ex": {
+    "en": "This shirt is too small."
+   }
+  },
+  {
+   "id": "shopping.hoodie",
+   "t": {
+    "en": "hoodie",
+    "uk": "худі",
+    "ru": "худи",
+    "pl": "bluza z kapturem",
+    "de": "Kapuzenpullover",
+    "fr": "sweat à capuche",
+    "es": "sudadera con capucha",
+    "it": "felpa con cappuccio",
+    "pt": "moletom com capuz",
+    "tr": "kapüşonlu sweatshirt"
+   },
+   "ex": {
+    "en": "I love this grey hoodie."
+   }
+  },
+  {
+   "id": "shopping.cardigan",
+   "t": {
+    "en": "cardigan",
+    "uk": "кардиган",
+    "ru": "кардиган",
+    "pl": "kardigan",
+    "de": "Strickjacke",
+    "fr": "cardigan",
+    "es": "chaqueta de punto",
+    "it": "cardigan",
+    "pt": "cardigã",
+    "tr": "hırka"
+   },
+   "ex": {
+    "en": "Take a cardigan, it's cold."
+   }
+  },
+  {
+   "id": "shopping.packet",
+   "t": {
+    "en": "packet",
+    "uk": "пачка",
+    "ru": "пачка",
+    "pl": "paczka",
+    "de": "Packung",
+    "fr": "paquet",
+    "es": "paquete",
+    "it": "pacchetto",
+    "pt": "pacote",
+    "tr": "paket"
+   },
+   "ex": {
+    "en": "A packet of biscuits, please."
+   }
+  },
+  {
+   "id": "shopping.newsagent-s",
+   "t": {
+    "en": "newsagent's",
+    "uk": "газетний кіоск",
+    "ru": "газетный киоск",
+    "pl": "kiosk z prasą",
+    "de": "Zeitschriftenladen",
+    "fr": "marchand de journaux",
+    "es": "quiosco de prensa",
+    "it": "edicola",
+    "pt": "banca de jornal",
+    "tr": "gazete bayii"
+   },
+   "ex": {
+    "en": "I buy magazines at the newsagent's."
+   }
+  },
+  {
+   "id": "shopping.to-wrap",
+   "t": {
+    "en": "to wrap",
+    "uk": "загортати",
+    "ru": "заворачивать",
+    "pl": "zapakować",
+    "de": "einpacken",
+    "fr": "emballer",
+    "es": "envolver",
+    "it": "incartare",
+    "pt": "embrulhar",
+    "tr": "paketlemek"
+   },
+   "ex": {
+    "en": "Can you wrap it as a gift?"
+   }
+  },
+  {
+   "id": "shopping.large-size",
+   "t": {
+    "en": "large size",
+    "uk": "великий розмір",
+    "ru": "большой размер",
+    "pl": "duży rozmiar",
+    "de": "große Größe",
+    "fr": "grande taille",
+    "es": "talla grande",
+    "it": "taglia grande",
+    "pt": "tamanho grande",
+    "tr": "büyük beden"
+   },
+   "ex": {
+    "en": "Do you have a large size?"
+   }
+  },
+  {
+   "id": "shopping.extra-large",
+   "t": {
+    "en": "extra large",
+    "uk": "дуже великий",
+    "ru": "очень большой",
+    "pl": "bardzo duży",
+    "de": "extragroß",
+    "fr": "très grand",
+    "es": "extragrande",
+    "it": "extra large",
+    "pt": "extragrande",
+    "tr": "ekstra büyük"
+   },
+   "ex": {
+    "en": "I need an extra large T-shirt."
+   }
+  },
+  {
+   "id": "shopping.to-pay-by-phone",
+   "t": {
+    "en": "to pay by phone",
+    "uk": "платити телефоном",
+    "ru": "платить телефоном",
+    "pl": "płacić telefonem",
+    "de": "mit dem Handy bezahlen",
+    "fr": "payer avec son téléphone",
+    "es": "pagar con el móvil",
+    "it": "pagare con il telefono",
+    "pt": "pagar com o celular",
+    "tr": "telefonla ödemek"
+   },
+   "ex": {
+    "en": "You can pay by phone here."
+   }
+  },
+  {
+   "id": "shopping.pin-number",
+   "t": {
+    "en": "PIN number",
+    "uk": "PIN-код",
+    "ru": "PIN-код",
+    "pl": "kod PIN",
+    "de": "PIN",
+    "fr": "code PIN",
+    "es": "PIN",
+    "it": "PIN",
+    "pt": "senha",
+    "tr": "PIN kodu"
+   },
+   "ex": {
+    "en": "Enter your PIN number."
+   }
+  },
+  {
+   "id": "shopping.cheaper",
+   "t": {
+    "en": "cheaper",
+    "uk": "дешевший",
+    "ru": "дешевле",
+    "pl": "tańszy",
+    "de": "billiger",
+    "fr": "moins cher",
+    "es": "más barato",
+    "it": "più economico",
+    "pt": "mais barato",
+    "tr": "daha ucuz"
+   },
+   "ex": {
+    "en": "Is there anything cheaper?"
+   }
+  },
+  {
+   "id": "shopping.the-cheapest",
+   "t": {
+    "en": "the cheapest",
+    "uk": "найдешевший",
+    "ru": "самый дешёвый",
+    "pl": "najtańszy",
+    "de": "der billigste",
+    "fr": "le moins cher",
+    "es": "el más barato",
+    "it": "il più economico",
+    "pt": "o mais barato",
+    "tr": "en ucuz"
+   },
+   "ex": {
+    "en": "I'll take the cheapest one."
+   }
+  },
+  {
+   "id": "shopping.to-buy-online",
+   "t": {
+    "en": "to buy online",
+    "uk": "купувати онлайн",
+    "ru": "покупать онлайн",
+    "pl": "kupować przez internet",
+    "de": "online kaufen",
+    "fr": "acheter en ligne",
+    "es": "comprar en línea",
+    "it": "comprare online",
+    "pt": "comprar online",
+    "tr": "internetten almak"
+   },
+   "ex": {
+    "en": "I buy most things online."
+   }
+  },
+  {
+   "id": "shopping.online-order",
+   "t": {
+    "en": "online order",
+    "uk": "онлайн-замовлення",
+    "ru": "онлайн-заказ",
+    "pl": "zamówienie internetowe",
+    "de": "Online-Bestellung",
+    "fr": "commande en ligne",
+    "es": "pedido en línea",
+    "it": "ordine online",
+    "pt": "pedido online",
+    "tr": "online sipariş"
+   },
+   "ex": {
+    "en": "My online order is late."
+   }
+  },
+  {
+   "id": "shopping.courier",
+   "t": {
+    "en": "courier",
+    "uk": "кур'єр",
+    "ru": "курьер",
+    "pl": "kurier",
+    "de": "Kurier",
+    "fr": "coursier",
+    "es": "mensajero",
+    "it": "corriere",
+    "pt": "entregador",
+    "tr": "kurye"
+   },
+   "ex": {
+    "en": "The courier left the parcel."
+   }
+  },
+  {
+   "id": "shopping.next-day-delivery",
+   "t": {
+    "en": "next-day delivery",
+    "uk": "доставка наступного дня",
+    "ru": "доставка на следующий день",
+    "pl": "dostawa następnego dnia",
+    "de": "Lieferung am nächsten Tag",
+    "fr": "livraison le lendemain",
+    "es": "entrega al día siguiente",
+    "it": "consegna il giorno dopo",
+    "pt": "entrega no dia seguinte",
+    "tr": "ertesi gün teslimat"
+   },
+   "ex": {
+    "en": "I paid for next-day delivery."
+   }
+  },
+  {
+   "id": "shopping.click-and-collect",
+   "t": {
+    "en": "click and collect",
+    "uk": "замовлення з самовивозом",
+    "ru": "заказ с самовывозом",
+    "pl": "zamów i odbierz",
+    "de": "Click & Collect",
+    "fr": "retrait en magasin",
+    "es": "recogida en tienda",
+    "it": "ritiro in negozio",
+    "pt": "retirada na loja",
+    "tr": "tıkla ve al"
+   },
+   "ex": {
+    "en": "I used click and collect."
+   }
+  },
+  {
+   "id": "shopping.aisle",
+   "t": {
+    "en": "aisle",
+    "uk": "прохід між полицями",
+    "ru": "проход между рядами",
+    "pl": "alejka",
+    "de": "Gang",
+    "fr": "rayon",
+    "es": "pasillo",
+    "it": "corsia",
+    "pt": "corredor",
+    "tr": "reyon"
+   },
+   "ex": {
+    "en": "Milk is in aisle five."
+   }
+  },
+  {
+   "id": "shopping.chemist-s",
+   "t": {
+    "en": "chemist's",
+    "uk": "аптека",
+    "ru": "аптека",
+    "pl": "drogeria",
+    "de": "Drogerie",
+    "fr": "droguerie",
+    "es": "droguería",
+    "it": "farmacia",
+    "pt": "drogaria",
+    "tr": "eczane"
+   },
+   "ex": {
+    "en": "I need shampoo from the chemist's."
+   }
+  },
+  {
+   "id": "shopping.jeweller-s",
+   "t": {
+    "en": "jeweller's",
+    "uk": "ювелірна крамниця",
+    "ru": "ювелирный магазин",
+    "pl": "jubiler",
+    "de": "Juweliergeschäft",
+    "fr": "bijouterie",
+    "es": "joyería",
+    "it": "gioielleria",
+    "pt": "joalheria",
+    "tr": "kuyumcu"
+   },
+   "ex": {
+    "en": "He bought a ring at the jeweller's."
+   }
+  },
+  {
+   "id": "shopping.electronics-shop",
+   "t": {
+    "en": "electronics shop",
+    "uk": "магазин електроніки",
+    "ru": "магазин электроники",
+    "pl": "sklep z elektroniką",
+    "de": "Elektronikgeschäft",
+    "fr": "magasin d'électronique",
+    "es": "tienda de electrónica",
+    "it": "negozio di elettronica",
+    "pt": "loja de eletrônicos",
+    "tr": "elektronik mağazası"
+   },
+   "ex": {
+    "en": "I bought headphones at the electronics shop."
+   }
+  },
+  {
+   "id": "shopping.sports-shop",
+   "t": {
+    "en": "sports shop",
+    "uk": "спортивний магазин",
+    "ru": "спортивный магазин",
+    "pl": "sklep sportowy",
+    "de": "Sportgeschäft",
+    "fr": "magasin de sport",
+    "es": "tienda de deportes",
+    "it": "negozio di articoli sportivi",
+    "pt": "loja de esportes",
+    "tr": "spor mağazası"
+   },
+   "ex": {
+    "en": "The sports shop has a sale."
+   }
+  },
+  {
+   "id": "shopping.hardware-store",
+   "t": {
+    "en": "hardware store",
+    "uk": "господарський магазин",
+    "ru": "хозяйственный магазин",
+    "pl": "sklep żelazny",
+    "de": "Baumarkt",
+    "fr": "quincaillerie",
+    "es": "ferretería",
+    "it": "ferramenta",
+    "pt": "loja de ferragens",
+    "tr": "hırdavatçı"
+   },
+   "ex": {
+    "en": "I need nails from the hardware store."
+   }
+  },
+  {
+   "id": "shopping.corner-shop",
+   "t": {
+    "en": "corner shop",
+    "uk": "крамничка біля дому",
+    "ru": "магазин у дома",
+    "pl": "sklep osiedlowy",
+    "de": "Tante-Emma-Laden",
+    "fr": "épicerie du coin",
+    "es": "tienda de barrio",
+    "it": "negozietto sotto casa",
+    "pt": "mercadinho",
+    "tr": "bakkal"
+   },
+   "ex": {
+    "en": "I got milk at the corner shop."
+   }
+  },
+  {
+   "id": "shopping.buy-one-get-one-free",
+   "t": {
+    "en": "buy one get one free",
+    "uk": "1+1 безкоштовно",
+    "ru": "1+1 бесплатно",
+    "pl": "drugi gratis",
+    "de": "2 für 1",
+    "fr": "un acheté, un offert",
+    "es": "dos por uno",
+    "it": "prendi due paghi uno",
+    "pt": "leve dois, pague um",
+    "tr": "bir alana bir bedava"
+   },
+   "ex": {
+    "en": "Shampoo is buy one get one free."
+   }
+  },
+  {
+   "id": "shopping.price-per-kilo",
+   "t": {
+    "en": "price per kilo",
+    "uk": "ціна за кілограм",
+    "ru": "цена за килограмм",
+    "pl": "cena za kilogram",
+    "de": "Kilopreis",
+    "fr": "prix au kilo",
+    "es": "precio por kilo",
+    "it": "prezzo al chilo",
+    "pt": "preço por quilo",
+    "tr": "kilo fiyatı"
+   },
+   "ex": {
+    "en": "What's the price per kilo?"
+   }
+  },
+  {
+   "id": "shopping.colourful",
+   "t": {
+    "en": "colourful",
+    "uk": "барвистий",
+    "ru": "яркий",
+    "pl": "kolorowy",
+    "de": "bunt",
+    "fr": "coloré",
+    "es": "colorido",
+    "it": "colorato",
+    "pt": "colorido",
+    "tr": "renkli"
+   },
+   "ex": {
+    "en": "She likes colourful clothes."
+   }
+  },
+  {
+   "id": "shopping.plain",
+   "t": {
+    "en": "plain",
+    "uk": "однотонний",
+    "ru": "однотонный",
+    "pl": "gładki",
+    "de": "einfarbig",
+    "fr": "uni",
+    "es": "liso",
+    "it": "tinta unita",
+    "pt": "liso",
+    "tr": "düz"
+   },
+   "ex": {
+    "en": "I prefer a plain white shirt."
+   }
+  },
+  {
+   "id": "shopping.checked",
+   "t": {
+    "en": "checked",
+    "uk": "картатий",
+    "ru": "в клетку",
+    "pl": "w kratkę",
+    "de": "kariert",
+    "fr": "à carreaux",
+    "es": "de cuadros",
+    "it": "a quadri",
+    "pt": "xadrez",
+    "tr": "kareli"
+   },
+   "ex": {
+    "en": "He wore a checked shirt."
+   }
+  },
+  {
+   "id": "shopping.spotted",
+   "t": {
+    "en": "spotted",
+    "uk": "у горошок",
+    "ru": "в горошек",
+    "pl": "w kropki",
+    "de": "gepunktet",
+    "fr": "à pois",
+    "es": "de lunares",
+    "it": "a pois",
+    "pt": "de bolinhas",
+    "tr": "puantiyeli"
+   },
+   "ex": {
+    "en": "I love this spotted dress."
+   }
+  },
+  {
+   "id": "shopping.high-heels",
+   "t": {
+    "en": "high heels",
+    "uk": "туфлі на підборах",
+    "ru": "туфли на каблуках",
+    "pl": "szpilki",
+    "de": "High Heels",
+    "fr": "talons hauts",
+    "es": "tacones",
+    "it": "tacchi alti",
+    "pt": "salto alto",
+    "tr": "topuklu ayakkabı"
+   },
+   "ex": {
+    "en": "She can't walk in high heels."
    }
   }
  ]

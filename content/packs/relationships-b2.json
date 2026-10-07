@@ -2,7 +2,7 @@
  "id": "relationships-b2",
  "topic": "relationships",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "relationships.to-take-someone-for-granted",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "We grew closer during the trip."
+   }
+  },
+  {
+   "id": "relationships.to-grow-apart",
+   "t": {
+    "en": "to grow apart",
+    "uk": "віддалитися одне від одного",
+    "ru": "отдалиться друг от друга",
+    "pl": "oddalić się od siebie",
+    "de": "sich auseinanderleben",
+    "fr": "s'éloigner l'un de l'autre",
+    "es": "distanciarse",
+    "it": "allontanarsi",
+    "pt": "se afastar",
+    "tr": "birbirinden uzaklaşmak"
+   },
+   "ex": {
+    "en": "Over the years they grew apart."
+   }
+  },
+  {
+   "id": "relationships.to-work-things-out",
+   "t": {
+    "en": "to work things out",
+    "uk": "залагодити все",
+    "ru": "всё уладить",
+    "pl": "dojść do porozumienia",
+    "de": "die Dinge klären",
+    "fr": "arranger les choses",
+    "es": "arreglar las cosas",
+    "it": "sistemare le cose",
+    "pt": "resolver as coisas",
+    "tr": "sorunları çözmek"
+   },
+   "ex": {
+    "en": "I hope they work things out."
+   }
+  },
+  {
+   "id": "relationships.to-make-it-work",
+   "t": {
+    "en": "to make it work",
+    "uk": "зберегти стосунки",
+    "ru": "сохранить отношения",
+    "pl": "sprawić, żeby się udało",
+    "de": "es hinkriegen",
+    "fr": "faire en sorte que ça marche",
+    "es": "hacer que funcione",
+    "it": "farla funzionare",
+    "pt": "fazer dar certo",
+    "tr": "yürütmek"
+   },
+   "ex": {
+    "en": "We'll make it work somehow."
+   }
+  },
+  {
+   "id": "relationships.to-be-on-a-break",
+   "t": {
+    "en": "to be on a break",
+    "uk": "бути на паузі",
+    "ru": "взять паузу в отношениях",
+    "pl": "mieć przerwę w związku",
+    "de": "eine Beziehungspause machen",
+    "fr": "faire une pause",
+    "es": "darse un tiempo",
+    "it": "prendersi una pausa",
+    "pt": "dar um tempo",
+    "tr": "ara vermek"
+   },
+   "ex": {
+    "en": "We were on a break!"
+   }
+  },
+  {
+   "id": "relationships.to-see-other-people",
+   "t": {
+    "en": "to see other people",
+    "uk": "зустрічатися з іншими",
+    "ru": "встречаться с другими",
+    "pl": "spotykać się z innymi",
+    "de": "andere Leute daten",
+    "fr": "voir d'autres personnes",
+    "es": "salir con otras personas",
+    "it": "frequentare altre persone",
+    "pt": "sair com outras pessoas",
+    "tr": "başkalarıyla görüşmek"
+   },
+   "ex": {
+    "en": "She wants to see other people."
+   }
+  },
+  {
+   "id": "relationships.open-relationship",
+   "t": {
+    "en": "open relationship",
+    "uk": "вільні стосунки",
+    "ru": "свободные отношения",
+    "pl": "otwarty związek",
+    "de": "offene Beziehung",
+    "fr": "relation libre",
+    "es": "relación abierta",
+    "it": "relazione aperta",
+    "pt": "relacionamento aberto",
+    "tr": "açık ilişki"
+   },
+   "ex": {
+    "en": "They are in an open relationship."
+   }
+  },
+  {
+   "id": "relationships.situationship",
+   "t": {
+    "en": "situationship",
+    "uk": "невизначені стосунки",
+    "ru": "неопределённые отношения",
+    "pl": "nieokreślona relacja",
+    "de": "Situationship",
+    "fr": "relation floue",
+    "es": "relación indefinida",
+    "it": "relazione indefinita",
+    "pt": "ficada",
+    "tr": "belirsiz ilişki"
+   },
+   "ex": {
+    "en": "It's not love, just a situationship."
+   }
+  },
+  {
+   "id": "relationships.friend-zone",
+   "t": {
+    "en": "friend zone",
+    "uk": "френдзона",
+    "ru": "френдзона",
+    "pl": "friendzone",
+    "de": "Friendzone",
+    "fr": "friendzone",
+    "es": "friendzone",
+    "it": "friendzone",
+    "pt": "friendzone",
+    "tr": "arkadaş bölgesi"
+   },
+   "ex": {
+    "en": "I'm stuck in the friend zone."
+   }
+  },
+  {
+   "id": "relationships.to-catfish",
+   "t": {
+    "en": "to catfish",
+    "uk": "обманювати фейковим профілем",
+    "ru": "обманывать фейковым профилем",
+    "pl": "udawać kogoś w sieci",
+    "de": "jemanden mit Fake-Profil täuschen",
+    "fr": "faire du catfishing",
+    "es": "engañar con un perfil falso",
+    "it": "ingannare con un profilo falso",
+    "pt": "enganhar com perfil falso",
+    "tr": "sahte profille kandırmak"
+   },
+   "ex": {
+    "en": "He was catfished by a fake profile."
+   }
+  },
+  {
+   "id": "relationships.love-bombing",
+   "t": {
+    "en": "love bombing",
+    "uk": "любовне бомбардування",
+    "ru": "любовная бомбардировка",
+    "pl": "love bombing",
+    "de": "Love Bombing",
+    "fr": "love bombing",
+    "es": "bombardeo de amor",
+    "it": "love bombing",
+    "pt": "bombardeio de amor",
+    "tr": "sevgi bombardımanı"
+   },
+   "ex": {
+    "en": "Love bombing is a warning sign."
+   }
+  },
+  {
+   "id": "relationships.gold-digger",
+   "t": {
+    "en": "gold digger",
+    "uk": "мисливиця за грошима",
+    "ru": "охотница за деньгами",
+    "pl": "łowczyni posagów",
+    "de": "Goldgräberin",
+    "fr": "croqueuse de diamants",
+    "es": "cazafortunas",
+    "it": "arrampicatrice sociale",
+    "pt": "interesseira",
+    "tr": "para avcısı"
+   },
+   "ex": {
+    "en": "People called her a gold digger."
+   }
+  },
+  {
+   "id": "relationships.to-settle-for",
+   "t": {
+    "en": "to settle for",
+    "uk": "задовольнитися",
+    "ru": "довольствоваться",
+    "pl": "zadowolić się",
+    "de": "sich zufriedengeben mit",
+    "fr": "se contenter de",
+    "es": "conformarse con",
+    "it": "accontentarsi di",
+    "pt": "se contentar com",
+    "tr": "yetinmek"
+   },
+   "ex": {
+    "en": "Don't settle for less than love."
+   }
+  },
+  {
+   "id": "relationships.to-two-time",
+   "t": {
+    "en": "to two-time",
+    "uk": "зраджувати двом",
+    "ru": "встречаться с двумя сразу",
+    "pl": "zdradzać na dwa fronty",
+    "de": "zweigleisig fahren",
+    "fr": "tromper",
+    "es": "poner los cuernos",
+    "it": "tradire",
+    "pt": "trair",
+    "tr": "iki kişiyle birden çıkmak"
+   },
+   "ex": {
+    "en": "He was two-timing his girlfriend."
+   }
+  },
+  {
+   "id": "relationships.cheater",
+   "t": {
+    "en": "cheater",
+    "uk": "зрадник",
+    "ru": "изменщик",
+    "pl": "zdrajca",
+    "de": "Fremdgänger",
+    "fr": "infidèle",
+    "es": "infiel",
+    "it": "traditore",
+    "pt": "traidor",
+    "tr": "aldatan"
+   },
+   "ex": {
+    "en": "Once a cheater, always a cheater."
+   }
+  },
+  {
+   "id": "relationships.grudge",
+   "t": {
+    "en": "grudge",
+    "uk": "образа",
+    "ru": "обида",
+    "pl": "uraza",
+    "de": "Groll",
+    "fr": "rancune",
+    "es": "rencor",
+    "it": "rancore",
+    "pt": "rancor",
+    "tr": "kin"
+   },
+   "ex": {
+    "en": "She doesn't hold a grudge."
+   }
+  },
+  {
+   "id": "relationships.bitterness",
+   "t": {
+    "en": "bitterness",
+    "uk": "гіркота",
+    "ru": "горечь",
+    "pl": "gorycz",
+    "de": "Verbitterung",
+    "fr": "amertume",
+    "es": "amargura",
+    "it": "amarezza",
+    "pt": "amargura",
+    "tr": "acı"
+   },
+   "ex": {
+    "en": "There was bitterness after the split."
+   }
+  },
+  {
+   "id": "relationships.confidant",
+   "t": {
+    "en": "confidant",
+    "uk": "довірена особа",
+    "ru": "доверенное лицо",
+    "pl": "powiernik",
+    "de": "Vertrauter",
+    "fr": "confident",
+    "es": "confidente",
+    "it": "confidente",
+    "pt": "confidente",
+    "tr": "sırdaş"
+   },
+   "ex": {
+    "en": "He was her closest confidant."
+   }
+  },
+  {
+   "id": "relationships.to-be-fond-of",
+   "t": {
+    "en": "to be fond of",
+    "uk": "мати прихильність до",
+    "ru": "питать симпатию к",
+    "pl": "darzyć sympatią",
+    "de": "jemanden gernhaben",
+    "fr": "avoir de l'affection pour",
+    "es": "tener cariño a",
+    "it": "voler bene a",
+    "pt": "ter carinho por",
+    "tr": "-e düşkün olmak"
+   },
+   "ex": {
+    "en": "I'm very fond of her."
+   }
+  },
+  {
+   "id": "relationships.fondness",
+   "t": {
+    "en": "fondness",
+    "uk": "прихильність",
+    "ru": "привязанность",
+    "pl": "sympatia",
+    "de": "Zuneigung",
+    "fr": "tendresse",
+    "es": "cariño",
+    "it": "affetto",
+    "pt": "carinho",
+    "tr": "düşkünlük"
+   },
+   "ex": {
+    "en": "He spoke of her with fondness."
+   }
+  },
+  {
+   "id": "relationships.emotionally-available",
+   "t": {
+    "en": "emotionally available",
+    "uk": "емоційно відкритий",
+    "ru": "эмоционально открытый",
+    "pl": "dostępny emocjonalnie",
+    "de": "emotional verfügbar",
+    "fr": "disponible émotionnellement",
+    "es": "emocionalmente disponible",
+    "it": "emotivamente disponibile",
+    "pt": "emocionalmente disponível",
+    "tr": "duygusal olarak hazır"
+   },
+   "ex": {
+    "en": "He's not emotionally available."
+   }
+  },
+  {
+   "id": "relationships.needy",
+   "t": {
+    "en": "needy",
+    "uk": "прилипливий",
+    "ru": "прилипчивый",
+    "pl": "potrzebujący uwagi",
+    "de": "bedürftig",
+    "fr": "en demande",
+    "es": "necesitado",
+    "it": "bisognoso d'attenzioni",
+    "pt": "carente",
+    "tr": "ilgiye muhtaç"
+   },
+   "ex": {
+    "en": "I don't want to seem needy."
+   }
+  },
+  {
+   "id": "relationships.distant",
+   "t": {
+    "en": "distant",
+    "uk": "відсторонений",
+    "ru": "отстранённый",
+    "pl": "zdystansowany",
+    "de": "distanziert",
+    "fr": "distant",
+    "es": "distante",
+    "it": "distante",
+    "pt": "distante",
+    "tr": "mesafeli"
+   },
+   "ex": {
+    "en": "He's been distant lately."
+   }
+  },
+  {
+   "id": "relationships.fling",
+   "t": {
+    "en": "fling",
+    "uk": "інтрижка",
+    "ru": "интрижка",
+    "pl": "przelotny romans",
+    "de": "Affäre",
+    "fr": "aventure",
+    "es": "aventura",
+    "it": "avventura",
+    "pt": "caso",
+    "tr": "kısa macera"
+   },
+   "ex": {
+    "en": "It was just a summer fling."
+   }
+  },
+  {
+   "id": "relationships.holiday-romance",
+   "t": {
+    "en": "holiday romance",
+    "uk": "курортний роман",
+    "ru": "курортный роман",
+    "pl": "wakacyjny romans",
+    "de": "Urlaubsflirt",
+    "fr": "amour de vacances",
+    "es": "amor de verano",
+    "it": "amore estivo",
+    "pt": "romance de férias",
+    "tr": "tatil aşkı"
+   },
+   "ex": {
+    "en": "They met in a holiday romance."
+   }
+  },
+  {
+   "id": "relationships.whirlwind-romance",
+   "t": {
+    "en": "whirlwind romance",
+    "uk": "бурхливий роман",
+    "ru": "бурный роман",
+    "pl": "burzliwy romans",
+    "de": "stürmische Romanze",
+    "fr": "idylle éclair",
+    "es": "romance relámpago",
+    "it": "storia lampo",
+    "pt": "romance relâmpago",
+    "tr": "hızlı gelişen aşk"
+   },
+   "ex": {
+    "en": "After a whirlwind romance, they wed."
+   }
+  },
+  {
+   "id": "relationships.cohabitation",
+   "t": {
+    "en": "cohabitation",
+    "uk": "співжиття",
+    "ru": "сожительство",
+    "pl": "konkubinat",
+    "de": "Zusammenleben",
+    "fr": "cohabitation",
+    "es": "convivencia",
+    "it": "convivenza",
+    "pt": "coabitação",
+    "tr": "birlikte yaşama"
+   },
+   "ex": {
+    "en": "Cohabitation before marriage is common."
+   }
+  },
+  {
+   "id": "relationships.to-file-for-divorce",
+   "t": {
+    "en": "to file for divorce",
+    "uk": "подати на розлучення",
+    "ru": "подать на развод",
+    "pl": "złożyć pozew o rozwód",
+    "de": "die Scheidung einreichen",
+    "fr": "demander le divorce",
+    "es": "pedir el divorcio",
+    "it": "chiedere il divorzio",
+    "pt": "pedir o divórcio",
+    "tr": "boşanma davası açmak"
+   },
+   "ex": {
+    "en": "She filed for divorce in March."
+   }
+  },
+  {
+   "id": "relationships.co-parenting",
+   "t": {
+    "en": "co-parenting",
+    "uk": "спільне виховання дітей",
+    "ru": "совместное воспитание",
+    "pl": "wspólne rodzicielstwo",
+    "de": "gemeinsame Elternschaft",
+    "fr": "coparentalité",
+    "es": "crianza compartida",
+    "it": "cogenitorialità",
+    "pt": "coparentalidade",
+    "tr": "ortak ebeveynlik"
+   },
+   "ex": {
+    "en": "Co-parenting takes patience."
+   }
+  },
+  {
+   "id": "relationships.to-remarry",
+   "t": {
+    "en": "to remarry",
+    "uk": "одружитися вдруге",
+    "ru": "вступить в повторный брак",
+    "pl": "ponownie wziąć ślub",
+    "de": "wieder heiraten",
+    "fr": "se remarier",
+    "es": "volver a casarse",
+    "it": "risposarsi",
+    "pt": "casar-se de novo",
+    "tr": "yeniden evlenmek"
+   },
+   "ex": {
+    "en": "He remarried after ten years."
+   }
+  },
+  {
+   "id": "relationships.to-reconcile",
+   "t": {
+    "en": "to reconcile",
+    "uk": "помиритися",
+    "ru": "помириться",
+    "pl": "pogodzić się",
+    "de": "sich versöhnen",
+    "fr": "se réconcilier",
+    "es": "reconciliarse",
+    "it": "riconciliarsi",
+    "pt": "se reconciliar",
+    "tr": "barışmak"
+   },
+   "ex": {
+    "en": "They reconciled after a month."
+   }
+  },
+  {
+   "id": "relationships.closure",
+   "t": {
+    "en": "closure",
+    "uk": "емоційне завершення",
+    "ru": "душевное завершение",
+    "pl": "zamknięcie rozdziału",
+    "de": "Abschluss",
+    "fr": "tourner la page",
+    "es": "cerrar el capítulo",
+    "it": "chiusura",
+    "pt": "ponto final",
+    "tr": "içsel kapanış"
+   },
+   "ex": {
+    "en": "I needed closure after the breakup."
+   }
+  },
+  {
+   "id": "relationships.emotional-abuse",
+   "t": {
+    "en": "emotional abuse",
+    "uk": "емоційне насильство",
+    "ru": "эмоциональное насилие",
+    "pl": "przemoc emocjonalna",
+    "de": "emotionaler Missbrauch",
+    "fr": "violence psychologique",
+    "es": "maltrato psicológico",
+    "it": "abuso emotivo",
+    "pt": "abuso emocional",
+    "tr": "duygusal istismar"
+   },
+   "ex": {
+    "en": "Emotional abuse leaves deep scars."
+   }
+  },
+  {
+   "id": "relationships.to-walk-all-over",
+   "t": {
+    "en": "to walk all over",
+    "uk": "витирати ноги об",
+    "ru": "вытирать ноги о",
+    "pl": "pomiatać kimś",
+    "de": "auf jemandem herumtrampeln",
+    "fr": "marcher sur les pieds de",
+    "es": "pisotear",
+    "it": "mettere i piedi in testa",
+    "pt": "pisar em alguém",
+    "tr": "ezip geçmek"
+   },
+   "ex": {
+    "en": "Don't let him walk all over you."
+   }
+  },
+  {
+   "id": "relationships.to-stand-by-someone",
+   "t": {
+    "en": "to stand by someone",
+    "uk": "бути поруч із кимось",
+    "ru": "быть рядом с кем-то",
+    "pl": "wspierać kogoś",
+    "de": "zu jemandem stehen",
+    "fr": "soutenir quelqu'un",
+    "es": "apoyar a alguien",
+    "it": "stare accanto a qualcuno",
+    "pt": "ficar ao lado de alguém",
+    "tr": "birinin yanında olmak"
+   },
+   "ex": {
+    "en": "She stood by him through it all."
+   }
+  },
+  {
+   "id": "relationships.to-see-eye-to-eye",
+   "t": {
+    "en": "to see eye to eye",
+    "uk": "сходитися в поглядах",
+    "ru": "сходиться во мнениях",
+    "pl": "zgadzać się",
+    "de": "einer Meinung sein",
+    "fr": "être sur la même longueur d'onde",
+    "es": "estar de acuerdo",
+    "it": "essere d'accordo",
+    "pt": "concordar",
+    "tr": "aynı fikirde olmak"
+   },
+   "ex": {
+    "en": "We don't always see eye to eye."
+   }
+  },
+  {
+   "id": "relationships.to-clash",
+   "t": {
+    "en": "to clash",
+    "uk": "конфліктувати",
+    "ru": "конфликтовать",
+    "pl": "ścierać się",
+    "de": "aneinandergeraten",
+    "fr": "s'affronter",
+    "es": "chocar",
+    "it": "scontrarsi",
+    "pt": "entrar em conflito",
+    "tr": "çatışmak"
+   },
+   "ex": {
+    "en": "Their personalities clash a lot."
+   }
+  },
+  {
+   "id": "relationships.to-tolerate",
+   "t": {
+    "en": "to tolerate",
+    "uk": "терпіти",
+    "ru": "терпеть",
+    "pl": "tolerować",
+    "de": "tolerieren",
+    "fr": "tolérer",
+    "es": "tolerar",
+    "it": "tollerare",
+    "pt": "tolerar",
+    "tr": "tahammül etmek"
+   },
+   "ex": {
+    "en": "I won't tolerate lies."
+   }
+  },
+  {
+   "id": "relationships.empathetic",
+   "t": {
+    "en": "empathetic",
+    "uk": "емпатійний",
+    "ru": "эмпатичный",
+    "pl": "empatyczny",
+    "de": "einfühlsam",
+    "fr": "empathique",
+    "es": "empático",
+    "it": "empatico",
+    "pt": "empático",
+    "tr": "empatik"
+   },
+   "ex": {
+    "en": "She's a very empathetic listener."
+   }
+  },
+  {
+   "id": "relationships.thoughtful",
+   "t": {
+    "en": "thoughtful",
+    "uk": "уважний",
+    "ru": "заботливый",
+    "pl": "troskliwy",
+    "de": "aufmerksam",
+    "fr": "attentionné",
+    "es": "considerado",
+    "it": "premuroso",
+    "pt": "atencioso",
+    "tr": "düşünceli"
+   },
+   "ex": {
+    "en": "What a thoughtful gift!"
+   }
+  },
+  {
+   "id": "relationships.attentive",
+   "t": {
+    "en": "attentive",
+    "uk": "уважний",
+    "ru": "внимательный",
+    "pl": "uważny",
+    "de": "aufmerksam",
+    "fr": "attentif",
+    "es": "atento",
+    "it": "attento",
+    "pt": "atento",
+    "tr": "ilgili"
+   },
+   "ex": {
+    "en": "He's an attentive boyfriend."
+   }
+  },
+  {
+   "id": "relationships.affectionate",
+   "t": {
+    "en": "affectionate",
+    "uk": "лагідний",
+    "ru": "ласковый",
+    "pl": "czuły",
+    "de": "liebevoll",
+    "fr": "affectueux",
+    "es": "cariñoso",
+    "it": "affettuoso",
+    "pt": "carinhoso",
+    "tr": "sevecen"
+   },
+   "ex": {
+    "en": "Our cat is very affectionate."
+   }
+  },
+  {
+   "id": "relationships.playful",
+   "t": {
+    "en": "playful",
+    "uk": "грайливий",
+    "ru": "игривый",
+    "pl": "figlarny",
+    "de": "verspielt",
+    "fr": "joueur",
+    "es": "juguetón",
+    "it": "giocoso",
+    "pt": "brincalhão",
+    "tr": "oyuncu"
+   },
+   "ex": {
+    "en": "She gave him a playful smile."
+   }
+  },
+  {
+   "id": "relationships.banter",
+   "t": {
+    "en": "banter",
+    "uk": "дружні підколки",
+    "ru": "подшучивание",
+    "pl": "przekomarzanie się",
+    "de": "Geplänkel",
+    "fr": "badinage",
+    "es": "bromas",
+    "it": "battute",
+    "pt": "brincadeira",
+    "tr": "şakalaşma"
+   },
+   "ex": {
+    "en": "I love our banter."
+   }
+  },
+  {
+   "id": "relationships.inside-joke",
+   "t": {
+    "en": "inside joke",
+    "uk": "жарт для своїх",
+    "ru": "шутка для своих",
+    "pl": "wewnętrzny żart",
+    "de": "Insider-Witz",
+    "fr": "blague privée",
+    "es": "chiste interno",
+    "it": "battuta tra noi",
+    "pt": "piada interna",
+    "tr": "aramızdaki espri"
+   },
+   "ex": {
+    "en": "It's an inside joke between us."
+   }
+  },
+  {
+   "id": "relationships.spark",
+   "t": {
+    "en": "spark",
+    "uk": "іскра",
+    "ru": "искра",
+    "pl": "iskra",
+    "de": "Funke",
+    "fr": "étincelle",
+    "es": "chispa",
+    "it": "scintilla",
+    "pt": "faísca",
+    "tr": "kıvılcım"
+   },
+   "ex": {
+    "en": "The spark is gone."
+   }
+  },
+  {
+   "id": "relationships.attraction",
+   "t": {
+    "en": "attraction",
+    "uk": "потяг",
+    "ru": "влечение",
+    "pl": "pociąg",
+    "de": "Anziehung",
+    "fr": "attirance",
+    "es": "atracción",
+    "it": "attrazione",
+    "pt": "atração",
+    "tr": "çekim"
+   },
+   "ex": {
+    "en": "There was an instant attraction."
+   }
+  },
+  {
+   "id": "relationships.to-wink-at",
+   "t": {
+    "en": "to wink at",
+    "uk": "підморгувати",
+    "ru": "подмигивать",
+    "pl": "mrugać do",
+    "de": "zuzwinkern",
+    "fr": "faire un clin d'œil à",
+    "es": "guiñar el ojo a",
+    "it": "fare l'occhiolino a",
+    "pt": "piscar para",
+    "tr": "göz kırpmak"
+   },
+   "ex": {
+    "en": "He winked at me across the room."
+   }
+  },
+  {
+   "id": "relationships.to-chat-someone-up",
+   "t": {
+    "en": "to chat someone up",
+    "uk": "залицятися",
+    "ru": "клеить кого-то",
+    "pl": "podrywać kogoś",
+    "de": "jemanden anbaggern",
+    "fr": "draguer quelqu'un",
+    "es": "ligar con alguien",
+    "it": "provarci con qualcuno",
+    "pt": "dar uma cantada",
+    "tr": "birine asılmak"
+   },
+   "ex": {
+    "en": "He tried to chat her up at the bar."
+   }
+  },
+  {
+   "id": "relationships.pick-up-line",
+   "t": {
+    "en": "pick-up line",
+    "uk": "фраза для знайомства",
+    "ru": "фраза для съёма",
+    "pl": "tekst na podryw",
+    "de": "Anmachspruch",
+    "fr": "phrase de drague",
+    "es": "frase para ligar",
+    "it": "frase per rimorchiare",
+    "pt": "cantada",
+    "tr": "tavlama repliği"
+   },
+   "ex": {
+    "en": "That's a terrible pick-up line."
+   }
+  },
+  {
+   "id": "relationships.to-check-someone-out",
+   "t": {
+    "en": "to check someone out",
+    "uk": "розглядати когось",
+    "ru": "разглядывать кого-то",
+    "pl": "lustrować kogoś",
+    "de": "jemanden abchecken",
+    "fr": "mater quelqu'un",
+    "es": "echarle un ojo a alguien",
+    "it": "squadrare qualcuno",
+    "pt": "secar alguém",
+    "tr": "birini süzmek"
+   },
+   "ex": {
+    "en": "Was he checking me out?"
+   }
+  },
+  {
+   "id": "relationships.tolerance",
+   "t": {
+    "en": "tolerance",
+    "uk": "терпимість",
+    "ru": "терпимость",
+    "pl": "tolerancja",
+    "de": "Toleranz",
+    "fr": "tolérance",
+    "es": "tolerancia",
+    "it": "tolleranza",
+    "pt": "tolerância",
+    "tr": "hoşgörü"
+   },
+   "ex": {
+    "en": "Love requires patience and tolerance."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "sports-a2",
  "topic": "sports",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "sports.to-score-a-goal",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "He was chosen as team captain."
+   }
+  },
+  {
+   "id": "sports.football-shirt",
+   "t": {
+    "en": "football shirt",
+    "uk": "футбольна футболка",
+    "ru": "футбольная футболка",
+    "pl": "koszulka piłkarska",
+    "de": "Trikot",
+    "fr": "maillot de foot",
+    "es": "camiseta de fútbol",
+    "it": "maglia da calcio",
+    "pt": "camisa de futebol",
+    "tr": "forma"
+   },
+   "ex": {
+    "en": "He bought a new football shirt."
+   }
+  },
+  {
+   "id": "sports.silver-medal",
+   "t": {
+    "en": "silver medal",
+    "uk": "срібна медаль",
+    "ru": "серебряная медаль",
+    "pl": "srebrny medal",
+    "de": "Silbermedaille",
+    "fr": "médaille d'argent",
+    "es": "medalla de plata",
+    "it": "medaglia d'argento",
+    "pt": "medalha de prata",
+    "tr": "gümüş madalya"
+   },
+   "ex": {
+    "en": "She won a silver medal."
+   }
+  },
+  {
+   "id": "sports.bronze-medal",
+   "t": {
+    "en": "bronze medal",
+    "uk": "бронзова медаль",
+    "ru": "бронзовая медаль",
+    "pl": "brązowy medal",
+    "de": "Bronzemedaille",
+    "fr": "médaille de bronze",
+    "es": "medalla de bronce",
+    "it": "medaglia di bronzo",
+    "pt": "medalha de bronze",
+    "tr": "bronz madalya"
+   },
+   "ex": {
+    "en": "Our team got the bronze medal."
+   }
+  },
+  {
+   "id": "sports.final-score",
+   "t": {
+    "en": "final score",
+    "uk": "остаточний рахунок",
+    "ru": "окончательный счёт",
+    "pl": "wynik końcowy",
+    "de": "Endstand",
+    "fr": "score final",
+    "es": "resultado final",
+    "it": "risultato finale",
+    "pt": "placar final",
+    "tr": "maç sonucu"
+   },
+   "ex": {
+    "en": "The final score was two–one."
+   }
+  },
+  {
+   "id": "sports.skier",
+   "t": {
+    "en": "skier",
+    "uk": "лижник",
+    "ru": "лыжник",
+    "pl": "narciarz",
+    "de": "Skifahrer",
+    "fr": "skieur",
+    "es": "esquiador",
+    "it": "sciatore",
+    "pt": "esquiador",
+    "tr": "kayakçı"
+   },
+   "ex": {
+    "en": "She is a very good skier."
+   }
+  },
+  {
+   "id": "sports.tennis-player",
+   "t": {
+    "en": "tennis player",
+    "uk": "тенісист",
+    "ru": "теннисист",
+    "pl": "tenisista",
+    "de": "Tennisspieler",
+    "fr": "joueur de tennis",
+    "es": "tenista",
+    "it": "tennista",
+    "pt": "tenista",
+    "tr": "tenisçi"
+   },
+   "ex": {
+    "en": "He wants to be a tennis player."
+   }
+  },
+  {
+   "id": "sports.footballer",
+   "t": {
+    "en": "footballer",
+    "uk": "футболіст",
+    "ru": "футболист",
+    "pl": "piłkarz",
+    "de": "Fußballspieler",
+    "fr": "footballeur",
+    "es": "futbolista",
+    "it": "calciatore",
+    "pt": "jogador de futebol",
+    "tr": "futbolcu"
+   },
+   "ex": {
+    "en": "My cousin is a professional footballer."
+   }
+  },
+  {
+   "id": "sports.boxer",
+   "t": {
+    "en": "boxer",
+    "uk": "боксер",
+    "ru": "боксёр",
+    "pl": "bokser",
+    "de": "Boxer",
+    "fr": "boxeur",
+    "es": "boxeador",
+    "it": "pugile",
+    "pt": "boxeador",
+    "tr": "boksör"
+   },
+   "ex": {
+    "en": "The boxer trains every day."
+   }
+  },
+  {
+   "id": "sports.boxing-gloves",
+   "t": {
+    "en": "boxing gloves",
+    "uk": "боксерські рукавиці",
+    "ru": "боксёрские перчатки",
+    "pl": "rękawice bokserskie",
+    "de": "Boxhandschuhe",
+    "fr": "gants de boxe",
+    "es": "guantes de boxeo",
+    "it": "guantoni da boxe",
+    "pt": "luvas de boxe",
+    "tr": "boks eldiveni"
+   },
+   "ex": {
+    "en": "Put on your boxing gloves."
+   }
+  },
+  {
+   "id": "sports.ski-slope",
+   "t": {
+    "en": "ski slope",
+    "uk": "лижний схил",
+    "ru": "горнолыжный склон",
+    "pl": "stok narciarski",
+    "de": "Skipiste",
+    "fr": "piste de ski",
+    "es": "pista de esquí",
+    "it": "pista da sci",
+    "pt": "pista de esqui",
+    "tr": "kayak pisti"
+   },
+   "ex": {
+    "en": "This ski slope is for beginners."
+   }
+  },
+  {
+   "id": "sports.snowboarding",
+   "t": {
+    "en": "snowboarding",
+    "uk": "сноубординг",
+    "ru": "сноубординг",
+    "pl": "snowboard",
+    "de": "Snowboarden",
+    "fr": "snowboard",
+    "es": "snowboard",
+    "it": "snowboard",
+    "pt": "snowboard",
+    "tr": "snowboard"
+   },
+   "ex": {
+    "en": "I want to try snowboarding."
+   }
+  },
+  {
+   "id": "sports.scuba-diving",
+   "t": {
+    "en": "scuba diving",
+    "uk": "дайвінг",
+    "ru": "дайвинг",
+    "pl": "nurkowanie",
+    "de": "Tauchen",
+    "fr": "plongée sous-marine",
+    "es": "buceo",
+    "it": "immersione subacquea",
+    "pt": "mergulho",
+    "tr": "tüplü dalış"
+   },
+   "ex": {
+    "en": "We went scuba diving in Egypt."
+   }
+  },
+  {
+   "id": "sports.exercise-bike",
+   "t": {
+    "en": "exercise bike",
+    "uk": "велотренажер",
+    "ru": "велотренажёр",
+    "pl": "rower stacjonarny",
+    "de": "Heimtrainer",
+    "fr": "vélo d'appartement",
+    "es": "bicicleta estática",
+    "it": "cyclette",
+    "pt": "bicicleta ergométrica",
+    "tr": "kondisyon bisikleti"
+   },
+   "ex": {
+    "en": "I use the exercise bike at home."
+   }
+  },
+  {
+   "id": "sports.yoga-mat",
+   "t": {
+    "en": "yoga mat",
+    "uk": "килимок для йоги",
+    "ru": "коврик для йоги",
+    "pl": "mata do jogi",
+    "de": "Yogamatte",
+    "fr": "tapis de yoga",
+    "es": "esterilla de yoga",
+    "it": "tappetino da yoga",
+    "pt": "tapete de ioga",
+    "tr": "yoga matı"
+   },
+   "ex": {
+    "en": "Bring your own yoga mat."
+   }
+  },
+  {
+   "id": "sports.hiking-boots",
+   "t": {
+    "en": "hiking boots",
+    "uk": "туристичні черевики",
+    "ru": "треккинговые ботинки",
+    "pl": "buty trekkingowe",
+    "de": "Wanderschuhe",
+    "fr": "chaussures de randonnée",
+    "es": "botas de montaña",
+    "it": "scarponi da trekking",
+    "pt": "botas de trilha",
+    "tr": "yürüyüş botu"
+   },
+   "ex": {
+    "en": "My hiking boots are wet."
+   }
+  },
+  {
+   "id": "sports.baseball-bat",
+   "t": {
+    "en": "baseball bat",
+    "uk": "бейсбольна бита",
+    "ru": "бейсбольная бита",
+    "pl": "kij baseballowy",
+    "de": "Baseballschläger",
+    "fr": "batte de baseball",
+    "es": "bate de béisbol",
+    "it": "mazza da baseball",
+    "pt": "taco de beisebol",
+    "tr": "beyzbol sopası"
+   },
+   "ex": {
+    "en": "He hit the ball with the baseball bat."
+   }
+  },
+  {
+   "id": "sports.sports-centre",
+   "t": {
+    "en": "sports centre",
+    "uk": "спортивний центр",
+    "ru": "спортивный центр",
+    "pl": "centrum sportowe",
+    "de": "Sportzentrum",
+    "fr": "centre sportif",
+    "es": "polideportivo",
+    "it": "centro sportivo",
+    "pt": "centro esportivo",
+    "tr": "spor merkezi"
+   },
+   "ex": {
+    "en": "The sports centre has a pool."
+   }
+  },
+  {
+   "id": "sports.swimming-lesson",
+   "t": {
+    "en": "swimming lesson",
+    "uk": "урок плавання",
+    "ru": "урок плавания",
+    "pl": "lekcja pływania",
+    "de": "Schwimmunterricht",
+    "fr": "cours de natation",
+    "es": "clase de natación",
+    "it": "lezione di nuoto",
+    "pt": "aula de natação",
+    "tr": "yüzme dersi"
+   },
+   "ex": {
+    "en": "My daughter has a swimming lesson today."
+   }
+  },
+  {
+   "id": "sports.to-do-sport",
+   "t": {
+    "en": "to do sport",
+    "uk": "займатися спортом",
+    "ru": "заниматься спортом",
+    "pl": "uprawiać sport",
+    "de": "Sport treiben",
+    "fr": "faire du sport",
+    "es": "hacer deporte",
+    "it": "fare sport",
+    "pt": "praticar esporte",
+    "tr": "spor yapmak"
+   },
+   "ex": {
+    "en": "I do sport three times a week."
+   }
+  },
+  {
+   "id": "sports.team-sport",
+   "t": {
+    "en": "team sport",
+    "uk": "командний вид спорту",
+    "ru": "командный вид спорта",
+    "pl": "sport drużynowy",
+    "de": "Mannschaftssport",
+    "fr": "sport d'équipe",
+    "es": "deporte de equipo",
+    "it": "sport di squadra",
+    "pt": "esporte coletivo",
+    "tr": "takım sporu"
+   },
+   "ex": {
+    "en": "Football is a team sport."
+   }
+  },
+  {
+   "id": "sports.water-sports",
+   "t": {
+    "en": "water sports",
+    "uk": "водні види спорту",
+    "ru": "водные виды спорта",
+    "pl": "sporty wodne",
+    "de": "Wassersport",
+    "fr": "sports nautiques",
+    "es": "deportes acuáticos",
+    "it": "sport acquatici",
+    "pt": "esportes aquáticos",
+    "tr": "su sporları"
+   },
+   "ex": {
+    "en": "The hotel offers water sports."
+   }
+  },
+  {
+   "id": "sports.winter-sports",
+   "t": {
+    "en": "winter sports",
+    "uk": "зимові види спорту",
+    "ru": "зимние виды спорта",
+    "pl": "sporty zimowe",
+    "de": "Wintersport",
+    "fr": "sports d'hiver",
+    "es": "deportes de invierno",
+    "it": "sport invernali",
+    "pt": "esportes de inverno",
+    "tr": "kış sporları"
+   },
+   "ex": {
+    "en": "I love winter sports."
+   }
+  },
+  {
+   "id": "sports.stopwatch",
+   "t": {
+    "en": "stopwatch",
+    "uk": "секундомір",
+    "ru": "секундомер",
+    "pl": "stoper",
+    "de": "Stoppuhr",
+    "fr": "chronomètre",
+    "es": "cronómetro",
+    "it": "cronometro",
+    "pt": "cronômetro",
+    "tr": "kronometre"
+   },
+   "ex": {
+    "en": "The coach used a stopwatch."
+   }
+  },
+  {
+   "id": "sports.surfboard",
+   "t": {
+    "en": "surfboard",
+    "uk": "дошка для серфінгу",
+    "ru": "доска для сёрфинга",
+    "pl": "deska surfingowa",
+    "de": "Surfbrett",
+    "fr": "planche de surf",
+    "es": "tabla de surf",
+    "it": "tavola da surf",
+    "pt": "prancha de surfe",
+    "tr": "sörf tahtası"
+   },
+   "ex": {
+    "en": "He carried his surfboard to the beach."
+   }
+  },
+  {
+   "id": "sports.rowing",
+   "t": {
+    "en": "rowing",
+    "uk": "веслування",
+    "ru": "гребля",
+    "pl": "wioślarstwo",
+    "de": "Rudern",
+    "fr": "aviron",
+    "es": "remo",
+    "it": "canottaggio",
+    "pt": "remo",
+    "tr": "kürek"
+   },
+   "ex": {
+    "en": "Rowing is hard work."
+   }
+  },
+  {
+   "id": "sports.athletics",
+   "t": {
+    "en": "athletics",
+    "uk": "легка атлетика",
+    "ru": "лёгкая атлетика",
+    "pl": "lekkoatletyka",
+    "de": "Leichtathletik",
+    "fr": "athlétisme",
+    "es": "atletismo",
+    "it": "atletica leggera",
+    "pt": "atletismo",
+    "tr": "atletizm"
+   },
+   "ex": {
+    "en": "She is good at athletics."
+   }
+  },
+  {
+   "id": "sports.ice-rink",
+   "t": {
+    "en": "ice rink",
+    "uk": "ковзанка",
+    "ru": "каток",
+    "pl": "lodowisko",
+    "de": "Eisbahn",
+    "fr": "patinoire",
+    "es": "pista de hielo",
+    "it": "pista di pattinaggio",
+    "pt": "pista de patinação",
+    "tr": "buz pisti"
+   },
+   "ex": {
+    "en": "The ice rink opens in December."
+   }
+  },
+  {
+   "id": "sports.ski-boots",
+   "t": {
+    "en": "ski boots",
+    "uk": "лижні черевики",
+    "ru": "горнолыжные ботинки",
+    "pl": "buty narciarskie",
+    "de": "Skischuhe",
+    "fr": "chaussures de ski",
+    "es": "botas de esquí",
+    "it": "scarponi da sci",
+    "pt": "botas de esqui",
+    "tr": "kayak botu"
+   },
+   "ex": {
+    "en": "These ski boots are too small."
+   }
+  },
+  {
+   "id": "sports.kick-off",
+   "t": {
+    "en": "kick-off",
+    "uk": "початок матчу",
+    "ru": "начало матча",
+    "pl": "rozpoczęcie meczu",
+    "de": "Anstoß",
+    "fr": "coup d'envoi",
+    "es": "saque inicial",
+    "it": "calcio d'inizio",
+    "pt": "pontapé inicial",
+    "tr": "başlama vuruşu"
+   },
+   "ex": {
+    "en": "Kick-off is at three o'clock."
+   }
+  },
+  {
+   "id": "sports.aerobics",
+   "t": {
+    "en": "aerobics",
+    "uk": "аеробіка",
+    "ru": "аэробика",
+    "pl": "aerobik",
+    "de": "Aerobic",
+    "fr": "aérobic",
+    "es": "aeróbic",
+    "it": "aerobica",
+    "pt": "aeróbica",
+    "tr": "aerobik"
+   },
+   "ex": {
+    "en": "My mum goes to aerobics."
    }
   }
  ]

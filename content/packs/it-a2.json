@@ -2,7 +2,7 @@
  "id": "it-a2",
  "topic": "it",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "it.update",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "The file is still in the recycle bin."
+   }
+  },
+  {
+   "id": "it.data-plan",
+   "t": {
+    "en": "data plan",
+    "uk": "тарифний план",
+    "ru": "тарифный план",
+    "pl": "pakiet danych",
+    "de": "Datentarif",
+    "fr": "forfait data",
+    "es": "tarifa de datos",
+    "it": "piano dati",
+    "pt": "plano de dados",
+    "tr": "veri paketi"
+   },
+   "ex": {
+    "en": "My data plan has 10 GB."
+   }
+  },
+  {
+   "id": "it.mobile-data",
+   "t": {
+    "en": "mobile data",
+    "uk": "мобільний інтернет",
+    "ru": "мобильный интернет",
+    "pl": "dane mobilne",
+    "de": "mobile Daten",
+    "fr": "données mobiles",
+    "es": "datos móviles",
+    "it": "dati mobili",
+    "pt": "dados móveis",
+    "tr": "mobil veri"
+   },
+   "ex": {
+    "en": "Turn off mobile data to save battery."
+   }
+  },
+  {
+   "id": "it.signal",
+   "t": {
+    "en": "signal",
+    "uk": "сигнал",
+    "ru": "сигнал",
+    "pl": "zasięg",
+    "de": "Empfang",
+    "fr": "réseau",
+    "es": "cobertura",
+    "it": "segnale",
+    "pt": "sinal",
+    "tr": "sinyal"
+   },
+   "ex": {
+    "en": "There's no signal in the basement."
+   }
+  },
+  {
+   "id": "it.to-go-online",
+   "t": {
+    "en": "to go online",
+    "uk": "вийти в інтернет",
+    "ru": "выйти в интернет",
+    "pl": "wejść do internetu",
+    "de": "online gehen",
+    "fr": "se connecter à Internet",
+    "es": "conectarse a internet",
+    "it": "andare online",
+    "pt": "entrar na internet",
+    "tr": "internete girmek"
+   },
+   "ex": {
+    "en": "I go online every evening."
+   }
+  },
+  {
+   "id": "it.to-stream",
+   "t": {
+    "en": "to stream",
+    "uk": "дивитися онлайн",
+    "ru": "смотреть онлайн",
+    "pl": "streamować",
+    "de": "streamen",
+    "fr": "regarder en streaming",
+    "es": "ver en streaming",
+    "it": "guardare in streaming",
+    "pt": "assistir por streaming",
+    "tr": "çevrimiçi izlemek"
+   },
+   "ex": {
+    "en": "We stream films at home."
+   }
+  },
+  {
+   "id": "it.to-sign-in",
+   "t": {
+    "en": "to sign in",
+    "uk": "увійти",
+    "ru": "войти",
+    "pl": "zalogować się",
+    "de": "sich anmelden",
+    "fr": "se connecter",
+    "es": "iniciar sesión",
+    "it": "accedere",
+    "pt": "entrar",
+    "tr": "giriş yapmak"
+   },
+   "ex": {
+    "en": "Sign in with your email address."
+   }
+  },
+  {
+   "id": "it.forgot-password",
+   "t": {
+    "en": "forgot password",
+    "uk": "забули пароль",
+    "ru": "забыли пароль",
+    "pl": "nie pamiętam hasła",
+    "de": "Passwort vergessen",
+    "fr": "mot de passe oublié",
+    "es": "he olvidado la contraseña",
+    "it": "password dimenticata",
+    "pt": "esqueci a senha",
+    "tr": "şifremi unuttum"
+   },
+   "ex": {
+    "en": "Click \"forgot password\" to reset it."
+   }
+  },
+  {
+   "id": "it.verification-code",
+   "t": {
+    "en": "verification code",
+    "uk": "код підтвердження",
+    "ru": "код подтверждения",
+    "pl": "kod weryfikacyjny",
+    "de": "Bestätigungscode",
+    "fr": "code de vérification",
+    "es": "código de verificación",
+    "it": "codice di verifica",
+    "pt": "código de verificação",
+    "tr": "doğrulama kodu"
+   },
+   "ex": {
+    "en": "Enter the verification code from the SMS."
+   }
+  },
+  {
+   "id": "it.to-mute",
+   "t": {
+    "en": "to mute",
+    "uk": "вимкнути звук",
+    "ru": "выключить звук",
+    "pl": "wyciszyć",
+    "de": "stummschalten",
+    "fr": "couper le son",
+    "es": "silenciar",
+    "it": "silenziare",
+    "pt": "silenciar",
+    "tr": "sesini kapatmak"
+   },
+   "ex": {
+    "en": "Please mute your microphone."
+   }
+  },
+  {
+   "id": "it.right-click",
+   "t": {
+    "en": "right-click",
+    "uk": "клацання правою кнопкою",
+    "ru": "щелчок правой кнопкой",
+    "pl": "kliknięcie prawym przyciskiem",
+    "de": "Rechtsklick",
+    "fr": "clic droit",
+    "es": "clic derecho",
+    "it": "clic destro",
+    "pt": "clique com o botão direito",
+    "tr": "sağ tık"
+   },
+   "ex": {
+    "en": "Use a right-click to see more options."
+   }
+  },
+  {
+   "id": "it.double-click",
+   "t": {
+    "en": "double-click",
+    "uk": "подвійне клацання",
+    "ru": "двойной щелчок",
+    "pl": "dwuklik",
+    "de": "Doppelklick",
+    "fr": "double-clic",
+    "es": "doble clic",
+    "it": "doppio clic",
+    "pt": "clique duplo",
+    "tr": "çift tıklama"
+   },
+   "ex": {
+    "en": "Open the file with a double-click."
+   }
+  },
+  {
+   "id": "it.to-select",
+   "t": {
+    "en": "to select",
+    "uk": "виділяти",
+    "ru": "выделять",
+    "pl": "zaznaczać",
+    "de": "auswählen",
+    "fr": "sélectionner",
+    "es": "seleccionar",
+    "it": "selezionare",
+    "pt": "selecionar",
+    "tr": "seçmek"
+   },
+   "ex": {
+    "en": "Select the text you want to copy."
+   }
+  },
+  {
+   "id": "it.to-paste",
+   "t": {
+    "en": "to paste",
+    "uk": "вставляти",
+    "ru": "вставлять",
+    "pl": "wklejać",
+    "de": "einfügen",
+    "fr": "coller",
+    "es": "pegar",
+    "it": "incollare",
+    "pt": "colar",
+    "tr": "yapıştırmak"
+   },
+   "ex": {
+    "en": "Paste the link here."
+   }
+  },
+  {
+   "id": "it.to-drag-and-drop",
+   "t": {
+    "en": "to drag and drop",
+    "uk": "перетягувати",
+    "ru": "перетаскивать",
+    "pl": "przeciągać i upuszczać",
+    "de": "ziehen und ablegen",
+    "fr": "glisser-déposer",
+    "es": "arrastrar y soltar",
+    "it": "trascinare",
+    "pt": "arrastar e soltar",
+    "tr": "sürükleyip bırakmak"
+   },
+   "ex": {
+    "en": "Drag and drop the photo into the box."
+   }
+  },
+  {
+   "id": "it.font",
+   "t": {
+    "en": "font",
+    "uk": "шрифт",
+    "ru": "шрифт",
+    "pl": "czcionka",
+    "de": "Schriftart",
+    "fr": "police",
+    "es": "fuente",
+    "it": "carattere",
+    "pt": "fonte",
+    "tr": "yazı tipi"
+   },
+   "ex": {
+    "en": "Use a bigger font, please."
+   }
+  },
+  {
+   "id": "it.pdf",
+   "t": {
+    "en": "PDF",
+    "uk": "PDF-файл",
+    "ru": "PDF-файл",
+    "pl": "plik PDF",
+    "de": "PDF",
+    "fr": "PDF",
+    "es": "PDF",
+    "it": "PDF",
+    "pt": "PDF",
+    "tr": "PDF"
+   },
+   "ex": {
+    "en": "I'll send you the ticket as a PDF."
+   }
+  },
+  {
+   "id": "it.to-attach",
+   "t": {
+    "en": "to attach",
+    "uk": "прикріпити",
+    "ru": "прикрепить",
+    "pl": "załączyć",
+    "de": "anhängen",
+    "fr": "joindre",
+    "es": "adjuntar",
+    "it": "allegare",
+    "pt": "anexar",
+    "tr": "eklemek"
+   },
+   "ex": {
+    "en": "I attached the photos to the email."
+   }
+  },
+  {
+   "id": "it.to-block",
+   "t": {
+    "en": "to block",
+    "uk": "блокувати",
+    "ru": "блокировать",
+    "pl": "blokować",
+    "de": "blockieren",
+    "fr": "bloquer",
+    "es": "bloquear",
+    "it": "bloccare",
+    "pt": "bloquear",
+    "tr": "engellemek"
+   },
+   "ex": {
+    "en": "You can block this number."
+   }
+  },
+  {
+   "id": "it.group-chat",
+   "t": {
+    "en": "group chat",
+    "uk": "груповий чат",
+    "ru": "групповой чат",
+    "pl": "czat grupowy",
+    "de": "Gruppenchat",
+    "fr": "discussion de groupe",
+    "es": "chat de grupo",
+    "it": "chat di gruppo",
+    "pt": "grupo",
+    "tr": "grup sohbeti"
+   },
+   "ex": {
+    "en": "I sent it to the family group chat."
+   }
+  },
+  {
+   "id": "it.emoji",
+   "t": {
+    "en": "emoji",
+    "uk": "емодзі",
+    "ru": "эмодзи",
+    "pl": "emoji",
+    "de": "Emoji",
+    "fr": "émoji",
+    "es": "emoji",
+    "it": "emoji",
+    "pt": "emoji",
+    "tr": "emoji"
+   },
+   "ex": {
+    "en": "She replied with a smiling emoji."
+   }
+  },
+  {
+   "id": "it.follower",
+   "t": {
+    "en": "follower",
+    "uk": "підписник",
+    "ru": "подписчик",
+    "pl": "obserwujący",
+    "de": "Follower",
+    "fr": "abonné",
+    "es": "seguidor",
+    "it": "follower",
+    "pt": "seguidor",
+    "tr": "takipçi"
+   },
+   "ex": {
+    "en": "She has a thousand followers."
+   }
+  },
+  {
+   "id": "it.to-follow",
+   "t": {
+    "en": "to follow",
+    "uk": "підписуватися",
+    "ru": "подписываться",
+    "pl": "obserwować",
+    "de": "folgen",
+    "fr": "suivre",
+    "es": "seguir",
+    "it": "seguire",
+    "pt": "seguir",
+    "tr": "takip etmek"
+   },
+   "ex": {
+    "en": "I follow her on Instagram."
+   }
+  },
+  {
+   "id": "it.hashtag",
+   "t": {
+    "en": "hashtag",
+    "uk": "хештег",
+    "ru": "хештег",
+    "pl": "hashtag",
+    "de": "Hashtag",
+    "fr": "hashtag",
+    "es": "hashtag",
+    "it": "hashtag",
+    "pt": "hashtag",
+    "tr": "hashtag"
+   },
+   "ex": {
+    "en": "Add a hashtag to your post."
+   }
+  },
+  {
+   "id": "it.to-unlock",
+   "t": {
+    "en": "to unlock",
+    "uk": "розблокувати",
+    "ru": "разблокировать",
+    "pl": "odblokować",
+    "de": "entsperren",
+    "fr": "déverrouiller",
+    "es": "desbloquear",
+    "it": "sbloccare",
+    "pt": "desbloquear",
+    "tr": "kilidini açmak"
+   },
+   "ex": {
+    "en": "Unlock your phone with your face."
+   }
+  },
+  {
+   "id": "it.fingerprint",
+   "t": {
+    "en": "fingerprint",
+    "uk": "відбиток пальця",
+    "ru": "отпечаток пальца",
+    "pl": "odcisk palca",
+    "de": "Fingerabdruck",
+    "fr": "empreinte digitale",
+    "es": "huella dactilar",
+    "it": "impronta digitale",
+    "pt": "impressão digital",
+    "tr": "parmak izi"
+   },
+   "ex": {
+    "en": "My phone opens with my fingerprint."
+   }
+  },
+  {
+   "id": "it.airplane-mode",
+   "t": {
+    "en": "airplane mode",
+    "uk": "режим польоту",
+    "ru": "режим полёта",
+    "pl": "tryb samolotowy",
+    "de": "Flugmodus",
+    "fr": "mode avion",
+    "es": "modo avión",
+    "it": "modalità aereo",
+    "pt": "modo avião",
+    "tr": "uçak modu"
+   },
+   "ex": {
+    "en": "Switch to airplane mode on the plane."
+   }
+  },
+  {
+   "id": "it.bluetooth",
+   "t": {
+    "en": "Bluetooth",
+    "uk": "Bluetooth",
+    "ru": "Bluetooth",
+    "pl": "Bluetooth",
+    "de": "Bluetooth",
+    "fr": "Bluetooth",
+    "es": "Bluetooth",
+    "it": "Bluetooth",
+    "pt": "Bluetooth",
+    "tr": "Bluetooth"
+   },
+   "ex": {
+    "en": "Connect the speaker via Bluetooth."
+   }
+  },
+  {
+   "id": "it.power-button",
+   "t": {
+    "en": "power button",
+    "uk": "кнопка живлення",
+    "ru": "кнопка питания",
+    "pl": "przycisk zasilania",
+    "de": "Ein-/Aus-Taste",
+    "fr": "bouton d'alimentation",
+    "es": "botón de encendido",
+    "it": "tasto di accensione",
+    "pt": "botão liga/desliga",
+    "tr": "güç düğmesi"
+   },
+   "ex": {
+    "en": "Hold the power button for five seconds."
+   }
+  },
+  {
+   "id": "it.app-store",
+   "t": {
+    "en": "app store",
+    "uk": "магазин застосунків",
+    "ru": "магазин приложений",
+    "pl": "sklep z aplikacjami",
+    "de": "App-Store",
+    "fr": "boutique d'applications",
+    "es": "tienda de aplicaciones",
+    "it": "negozio di app",
+    "pt": "loja de aplicativos",
+    "tr": "uygulama mağazası"
+   },
+   "ex": {
+    "en": "Download it from the app store."
+   }
+  },
+  {
+   "id": "it.password-manager",
+   "t": {
+    "en": "password manager",
+    "uk": "менеджер паролів",
+    "ru": "менеджер паролей",
+    "pl": "menedżer haseł",
+    "de": "Passwort-Manager",
+    "fr": "gestionnaire de mots de passe",
+    "es": "gestor de contraseñas",
+    "it": "gestore di password",
+    "pt": "gerenciador de senhas",
+    "tr": "şifre yöneticisi"
+   },
+   "ex": {
+    "en": "A password manager keeps your passwords safe."
    }
   }
  ]

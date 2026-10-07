@@ -2,7 +2,7 @@
  "id": "home-b1",
  "topic": "home",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "home.lease-agreement",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Someone is knocking on the door."
+   }
+  },
+  {
+   "id": "home.semi-detached-house",
+   "t": {
+    "en": "semi-detached house",
+    "uk": "будинок на дві сім'ї",
+    "ru": "дом на две семьи",
+    "pl": "bliźniak",
+    "de": "Doppelhaushälfte",
+    "fr": "maison jumelée",
+    "es": "casa pareada",
+    "it": "casa bifamiliare",
+    "pt": "casa geminada",
+    "tr": "ikiz ev"
+   },
+   "ex": {
+    "en": "They bought a semi-detached house."
+   }
+  },
+  {
+   "id": "home.bungalow",
+   "t": {
+    "en": "bungalow",
+    "uk": "одноповерховий будинок",
+    "ru": "одноэтажный дом",
+    "pl": "dom parterowy",
+    "de": "Bungalow",
+    "fr": "plain-pied",
+    "es": "casa de una planta",
+    "it": "villetta a un piano",
+    "pt": "casa térrea",
+    "tr": "tek katlı ev"
+   },
+   "ex": {
+    "en": "My grandparents live in a bungalow."
+   }
+  },
+  {
+   "id": "home.cottage",
+   "t": {
+    "en": "cottage",
+    "uk": "котедж",
+    "ru": "коттедж",
+    "pl": "domek",
+    "de": "Landhaus",
+    "fr": "cottage",
+    "es": "casita de campo",
+    "it": "cottage",
+    "pt": "chalé",
+    "tr": "kır evi"
+   },
+   "ex": {
+    "en": "We rented a cottage by the sea."
+   }
+  },
+  {
+   "id": "home.block-of-flats",
+   "t": {
+    "en": "block of flats",
+    "uk": "багатоквартирний будинок",
+    "ru": "многоквартирный дом",
+    "pl": "blok mieszkalny",
+    "de": "Wohnblock",
+    "fr": "immeuble",
+    "es": "bloque de pisos",
+    "it": "condominio",
+    "pt": "prédio",
+    "tr": "apartman"
+   },
+   "ex": {
+    "en": "I grew up in a block of flats."
+   }
+  },
+  {
+   "id": "home.penthouse",
+   "t": {
+    "en": "penthouse",
+    "uk": "пентхаус",
+    "ru": "пентхаус",
+    "pl": "penthouse",
+    "de": "Penthouse",
+    "fr": "penthouse",
+    "es": "ático",
+    "it": "attico",
+    "pt": "cobertura",
+    "tr": "çatı katı dairesi"
+   },
+   "ex": {
+    "en": "The penthouse has a great view."
+   }
+  },
+  {
+   "id": "home.homeless",
+   "t": {
+    "en": "homeless",
+    "uk": "бездомний",
+    "ru": "бездомный",
+    "pl": "bezdomny",
+    "de": "obdachlos",
+    "fr": "sans-abri",
+    "es": "sin hogar",
+    "it": "senzatetto",
+    "pt": "sem-teto",
+    "tr": "evsiz"
+   },
+   "ex": {
+    "en": "The charity helps homeless people."
+   }
+  },
+  {
+   "id": "home.housing",
+   "t": {
+    "en": "housing",
+    "uk": "житло",
+    "ru": "жильё",
+    "pl": "mieszkalnictwo",
+    "de": "Wohnraum",
+    "fr": "logement",
+    "es": "vivienda",
+    "it": "alloggi",
+    "pt": "moradia",
+    "tr": "konut"
+   },
+   "ex": {
+    "en": "Housing is expensive in this city."
+   }
+  },
+  {
+   "id": "home.to-rent-out",
+   "t": {
+    "en": "to rent out",
+    "uk": "здавати в оренду",
+    "ru": "сдавать в аренду",
+    "pl": "wynajmować",
+    "de": "vermieten",
+    "fr": "louer",
+    "es": "alquilar",
+    "it": "affittare",
+    "pt": "alugar",
+    "tr": "kiraya vermek"
+   },
+   "ex": {
+    "en": "They rent out their old flat."
+   }
+  },
+  {
+   "id": "home.monthly-rent",
+   "t": {
+    "en": "monthly rent",
+    "uk": "щомісячна орендна плата",
+    "ru": "ежемесячная арендная плата",
+    "pl": "czynsz miesięczny",
+    "de": "Monatsmiete",
+    "fr": "loyer mensuel",
+    "es": "alquiler mensual",
+    "it": "affitto mensile",
+    "pt": "aluguel mensal",
+    "tr": "aylık kira"
+   },
+   "ex": {
+    "en": "The monthly rent includes water."
+   }
+  },
+  {
+   "id": "home.to-view-a-flat",
+   "t": {
+    "en": "to view a flat",
+    "uk": "оглянути квартиру",
+    "ru": "посмотреть квартиру",
+    "pl": "obejrzeć mieszkanie",
+    "de": "eine Wohnung besichtigen",
+    "fr": "visiter un appartement",
+    "es": "ver un piso",
+    "it": "vedere un appartamento",
+    "pt": "visitar um apartamento",
+    "tr": "daire görmek"
+   },
+   "ex": {
+    "en": "We're going to view a flat tomorrow."
+   }
+  },
+  {
+   "id": "home.move-in-date",
+   "t": {
+    "en": "move-in date",
+    "uk": "дата заселення",
+    "ru": "дата въезда",
+    "pl": "data wprowadzenia się",
+    "de": "Einzugsdatum",
+    "fr": "date d'emménagement",
+    "es": "fecha de entrada",
+    "it": "data di trasloco",
+    "pt": "data de mudança",
+    "tr": "taşınma tarihi"
+   },
+   "ex": {
+    "en": "What is the move-in date?"
+   }
+  },
+  {
+   "id": "home.cardboard-box",
+   "t": {
+    "en": "cardboard box",
+    "uk": "картонна коробка",
+    "ru": "картонная коробка",
+    "pl": "karton",
+    "de": "Pappkarton",
+    "fr": "carton",
+    "es": "caja de cartón",
+    "it": "scatola di cartone",
+    "pt": "caixa de papelão",
+    "tr": "karton kutu"
+   },
+   "ex": {
+    "en": "Put the books in a cardboard box."
+   }
+  },
+  {
+   "id": "home.to-decorate",
+   "t": {
+    "en": "to decorate",
+    "uk": "прикрашати",
+    "ru": "украшать",
+    "pl": "urządzać",
+    "de": "einrichten",
+    "fr": "décorer",
+    "es": "decorar",
+    "it": "arredare",
+    "pt": "decorar",
+    "tr": "dekore etmek"
+   },
+   "ex": {
+    "en": "She loves to decorate her home."
+   }
+  },
+  {
+   "id": "home.to-hang-a-picture",
+   "t": {
+    "en": "to hang a picture",
+    "uk": "повісити картину",
+    "ru": "повесить картину",
+    "pl": "powiesić obraz",
+    "de": "ein Bild aufhängen",
+    "fr": "accrocher un tableau",
+    "es": "colgar un cuadro",
+    "it": "appendere un quadro",
+    "pt": "pendurar um quadro",
+    "tr": "tablo asmak"
+   },
+   "ex": {
+    "en": "Can you help me hang a picture?"
+   }
+  },
+  {
+   "id": "home.to-unblock-the-drain",
+   "t": {
+    "en": "to unblock the drain",
+    "uk": "прочистити стік",
+    "ru": "прочистить слив",
+    "pl": "udrożnić odpływ",
+    "de": "den Abfluss freimachen",
+    "fr": "déboucher l'évacuation",
+    "es": "desatascar el desagüe",
+    "it": "sturare lo scarico",
+    "pt": "desentupir o ralo",
+    "tr": "gideri açmak"
+   },
+   "ex": {
+    "en": "We called a plumber to unblock the drain."
+   }
+  },
+  {
+   "id": "home.carpenter",
+   "t": {
+    "en": "carpenter",
+    "uk": "тесля",
+    "ru": "плотник",
+    "pl": "stolarz",
+    "de": "Tischler",
+    "fr": "menuisier",
+    "es": "carpintero",
+    "it": "falegname",
+    "pt": "marceneiro",
+    "tr": "marangoz"
+   },
+   "ex": {
+    "en": "The carpenter fixed the door."
+   }
+  },
+  {
+   "id": "home.cleaning-rota",
+   "t": {
+    "en": "cleaning rota",
+    "uk": "графік прибирання",
+    "ru": "график уборки",
+    "pl": "grafik sprzątania",
+    "de": "Putzplan",
+    "fr": "planning de ménage",
+    "es": "turnos de limpieza",
+    "it": "turni delle pulizie",
+    "pt": "escala de limpeza",
+    "tr": "temizlik çizelgesi"
+   },
+   "ex": {
+    "en": "We have a cleaning rota in our flat."
+   }
+  },
+  {
+   "id": "home.recycling-bin",
+   "t": {
+    "en": "recycling bin",
+    "uk": "контейнер для вторсировини",
+    "ru": "контейнер для вторсырья",
+    "pl": "pojemnik na odpady segregowane",
+    "de": "Wertstofftonne",
+    "fr": "bac de recyclage",
+    "es": "contenedor de reciclaje",
+    "it": "bidone della raccolta differenziata",
+    "pt": "lixeira de reciclagem",
+    "tr": "geri dönüşüm kutusu"
+   },
+   "ex": {
+    "en": "Bottles go in the recycling bin."
+   }
+  },
+  {
+   "id": "home.to-sort-the-rubbish",
+   "t": {
+    "en": "to sort the rubbish",
+    "uk": "сортувати сміття",
+    "ru": "сортировать мусор",
+    "pl": "segregować śmieci",
+    "de": "den Müll trennen",
+    "fr": "trier les déchets",
+    "es": "separar la basura",
+    "it": "fare la raccolta differenziata",
+    "pt": "separar o lixo",
+    "tr": "çöpü ayırmak"
+   },
+   "ex": {
+    "en": "We sort the rubbish at home."
+   }
+  },
+  {
+   "id": "home.ironing-board",
+   "t": {
+    "en": "ironing board",
+    "uk": "прасувальна дошка",
+    "ru": "гладильная доска",
+    "pl": "deska do prasowania",
+    "de": "Bügelbrett",
+    "fr": "planche à repasser",
+    "es": "tabla de planchar",
+    "it": "asse da stiro",
+    "pt": "tábua de passar",
+    "tr": "ütü masası"
+   },
+   "ex": {
+    "en": "The ironing board is behind the door."
+   }
+  },
+  {
+   "id": "home.drying-rack",
+   "t": {
+    "en": "drying rack",
+    "uk": "сушарка для білизни",
+    "ru": "сушилка для белья",
+    "pl": "suszarka na pranie",
+    "de": "Wäscheständer",
+    "fr": "étendoir",
+    "es": "tendedero",
+    "it": "stendino",
+    "pt": "varal de chão",
+    "tr": "çamaşır kurutmalığı"
+   },
+   "ex": {
+    "en": "Hang the shirts on the drying rack."
+   }
+  },
+  {
+   "id": "home.tumble-dryer",
+   "t": {
+    "en": "tumble dryer",
+    "uk": "сушильна машина",
+    "ru": "сушильная машина",
+    "pl": "suszarka bębnowa",
+    "de": "Wäschetrockner",
+    "fr": "sèche-linge",
+    "es": "secadora",
+    "it": "asciugatrice",
+    "pt": "secadora",
+    "tr": "kurutma makinesi"
+   },
+   "ex": {
+    "en": "Don't put wool in the tumble dryer."
+   }
+  },
+  {
+   "id": "home.extractor-fan",
+   "t": {
+    "en": "extractor fan",
+    "uk": "витяжний вентилятор",
+    "ru": "вытяжной вентилятор",
+    "pl": "wentylator wyciągowy",
+    "de": "Abluftventilator",
+    "fr": "ventilateur d'extraction",
+    "es": "extractor",
+    "it": "aspiratore",
+    "pt": "exaustor",
+    "tr": "aspiratör"
+   },
+   "ex": {
+    "en": "Turn on the extractor fan."
+   }
+  },
+  {
+   "id": "home.air-conditioning",
+   "t": {
+    "en": "air conditioning",
+    "uk": "кондиціонер",
+    "ru": "кондиционер",
+    "pl": "klimatyzacja",
+    "de": "Klimaanlage",
+    "fr": "climatisation",
+    "es": "aire acondicionado",
+    "it": "aria condizionata",
+    "pt": "ar-condicionado",
+    "tr": "klima"
+   },
+   "ex": {
+    "en": "The flat has air conditioning."
+   }
+  },
+  {
+   "id": "home.central-heating",
+   "t": {
+    "en": "central heating",
+    "uk": "центральне опалення",
+    "ru": "центральное отопление",
+    "pl": "centralne ogrzewanie",
+    "de": "Zentralheizung",
+    "fr": "chauffage central",
+    "es": "calefacción central",
+    "it": "riscaldamento centralizzato",
+    "pt": "aquecimento central",
+    "tr": "merkezi ısıtma"
+   },
+   "ex": {
+    "en": "Does the house have central heating?"
+   }
+  },
+  {
+   "id": "home.to-turn-up-the-heating",
+   "t": {
+    "en": "to turn up the heating",
+    "uk": "збільшити опалення",
+    "ru": "прибавить отопление",
+    "pl": "podkręcić ogrzewanie",
+    "de": "die Heizung aufdrehen",
+    "fr": "monter le chauffage",
+    "es": "subir la calefacción",
+    "it": "alzare il riscaldamento",
+    "pt": "aumentar o aquecimento",
+    "tr": "kaloriferi açmak"
+   },
+   "ex": {
+    "en": "It's cold, turn up the heating."
+   }
+  },
+  {
+   "id": "home.energy-bill",
+   "t": {
+    "en": "energy bill",
+    "uk": "рахунок за енергію",
+    "ru": "счёт за электроэнергию",
+    "pl": "rachunek za energię",
+    "de": "Energierechnung",
+    "fr": "facture d'énergie",
+    "es": "factura de la luz",
+    "it": "bolletta dell'energia",
+    "pt": "conta de luz",
+    "tr": "enerji faturası"
+   },
+   "ex": {
+    "en": "Our energy bill went up again."
+   }
+  },
+  {
+   "id": "home.meter-reading",
+   "t": {
+    "en": "meter reading",
+    "uk": "показання лічильника",
+    "ru": "показания счётчика",
+    "pl": "odczyt licznika",
+    "de": "Zählerstand",
+    "fr": "relevé de compteur",
+    "es": "lectura del contador",
+    "it": "lettura del contatore",
+    "pt": "leitura do medidor",
+    "tr": "sayaç okuma"
+   },
+   "ex": {
+    "en": "Send the meter reading by Friday."
+   }
+  },
+  {
+   "id": "home.key-ring",
+   "t": {
+    "en": "key ring",
+    "uk": "брелок для ключів",
+    "ru": "брелок для ключей",
+    "pl": "breloczek",
+    "de": "Schlüsselring",
+    "fr": "porte-clés",
+    "es": "llavero",
+    "it": "portachiavi",
+    "pt": "chaveiro",
+    "tr": "anahtarlık"
+   },
+   "ex": {
+    "en": "My keys are on a red key ring."
+   }
+  },
+  {
+   "id": "home.to-lock-yourself-out",
+   "t": {
+    "en": "to lock yourself out",
+    "uk": "залишитися без ключів за дверима",
+    "ru": "захлопнуть дверь без ключей",
+    "pl": "zatrzasnąć drzwi bez kluczy",
+    "de": "sich aussperren",
+    "fr": "s'enfermer dehors",
+    "es": "quedarse fuera sin llaves",
+    "it": "chiudersi fuori",
+    "pt": "ficar trancado do lado de fora",
+    "tr": "kapıda kalmak"
+   },
+   "ex": {
+    "en": "I locked myself out again."
+   }
+  },
+  {
+   "id": "home.alarm-system",
+   "t": {
+    "en": "alarm system",
+    "uk": "система сигналізації",
+    "ru": "система сигнализации",
+    "pl": "system alarmowy",
+    "de": "Alarmanlage",
+    "fr": "système d'alarme",
+    "es": "sistema de alarma",
+    "it": "impianto d'allarme",
+    "pt": "sistema de alarme",
+    "tr": "alarm sistemi"
+   },
+   "ex": {
+    "en": "We installed an alarm system."
+   }
+  },
+  {
+   "id": "home.security-camera",
+   "t": {
+    "en": "security camera",
+    "uk": "камера спостереження",
+    "ru": "камера наблюдения",
+    "pl": "kamera monitoringu",
+    "de": "Überwachungskamera",
+    "fr": "caméra de surveillance",
+    "es": "cámara de seguridad",
+    "it": "telecamera di sicurezza",
+    "pt": "câmera de segurança",
+    "tr": "güvenlik kamerası"
+   },
+   "ex": {
+    "en": "There's a security camera at the door."
+   }
+  },
+  {
+   "id": "home.porch",
+   "t": {
+    "en": "porch",
+    "uk": "ґанок",
+    "ru": "крыльцо",
+    "pl": "ganek",
+    "de": "Veranda",
+    "fr": "porche",
+    "es": "porche",
+    "it": "portico",
+    "pt": "varanda",
+    "tr": "sundurma"
+   },
+   "ex": {
+    "en": "They sat on the porch."
+   }
+  },
+  {
+   "id": "home.driveway",
+   "t": {
+    "en": "driveway",
+    "uk": "під'їзна доріжка",
+    "ru": "подъездная дорожка",
+    "pl": "podjazd",
+    "de": "Einfahrt",
+    "fr": "allée",
+    "es": "entrada para coches",
+    "it": "vialetto",
+    "pt": "entrada da garagem",
+    "tr": "garaj yolu"
+   },
+   "ex": {
+    "en": "The car is in the driveway."
+   }
+  },
+  {
+   "id": "home.courtyard",
+   "t": {
+    "en": "courtyard",
+    "uk": "внутрішній двір",
+    "ru": "внутренний двор",
+    "pl": "dziedziniec",
+    "de": "Innenhof",
+    "fr": "cour",
+    "es": "patio",
+    "it": "cortile",
+    "pt": "pátio",
+    "tr": "avlu"
+   },
+   "ex": {
+    "en": "The windows face the courtyard."
+   }
+  },
+  {
+   "id": "home.airy",
+   "t": {
+    "en": "airy",
+    "uk": "просторий і світлий",
+    "ru": "просторный и светлый",
+    "pl": "przestronny",
+    "de": "luftig",
+    "fr": "aéré",
+    "es": "amplio y luminoso",
+    "it": "arioso",
+    "pt": "arejado",
+    "tr": "havadar"
+   },
+   "ex": {
+    "en": "The bedroom is light and airy."
+   }
+  },
+  {
+   "id": "home.unfurnished",
+   "t": {
+    "en": "unfurnished",
+    "uk": "без меблів",
+    "ru": "без мебели",
+    "pl": "nieumeblowany",
+    "de": "unmöbliert",
+    "fr": "non meublé",
+    "es": "sin amueblar",
+    "it": "non arredato",
+    "pt": "sem mobília",
+    "tr": "eşyasız"
+   },
+   "ex": {
+    "en": "The flat is unfurnished."
+   }
+  },
+  {
+   "id": "home.to-clear-the-table",
+   "t": {
+    "en": "to clear the table",
+    "uk": "прибрати зі столу",
+    "ru": "убрать со стола",
+    "pl": "sprzątnąć ze stołu",
+    "de": "den Tisch abräumen",
+    "fr": "débarrasser la table",
+    "es": "recoger la mesa",
+    "it": "sparecchiare",
+    "pt": "tirar a mesa",
+    "tr": "masayı toplamak"
+   },
+   "ex": {
+    "en": "Can you clear the table?"
+   }
+  },
+  {
+   "id": "home.to-load-the-dishwasher",
+   "t": {
+    "en": "to load the dishwasher",
+    "uk": "завантажити посудомийку",
+    "ru": "загрузить посудомойку",
+    "pl": "załadować zmywarkę",
+    "de": "die Spülmaschine einräumen",
+    "fr": "remplir le lave-vaisselle",
+    "es": "llenar el lavavajillas",
+    "it": "caricare la lavastoviglie",
+    "pt": "encher a lava-louças",
+    "tr": "bulaşık makinesini doldurmak"
+   },
+   "ex": {
+    "en": "It's your turn to load the dishwasher."
+   }
+  },
+  {
+   "id": "home.to-defrost-the-freezer",
+   "t": {
+    "en": "to defrost the freezer",
+    "uk": "розморозити морозилку",
+    "ru": "разморозить морозилку",
+    "pl": "rozmrozić zamrażarkę",
+    "de": "den Gefrierschrank abtauen",
+    "fr": "dégivrer le congélateur",
+    "es": "descongelar el congelador",
+    "it": "sbrinare il congelatore",
+    "pt": "descongelar o freezer",
+    "tr": "dondurucunun buzunu çözmek"
+   },
+   "ex": {
+    "en": "We need to defrost the freezer."
+   }
+  },
+  {
+   "id": "home.mousetrap",
+   "t": {
+    "en": "mousetrap",
+    "uk": "мишоловка",
+    "ru": "мышеловка",
+    "pl": "pułapka na myszy",
+    "de": "Mausefalle",
+    "fr": "souricière",
+    "es": "ratonera",
+    "it": "trappola per topi",
+    "pt": "ratoeira",
+    "tr": "fare kapanı"
+   },
+   "ex": {
+    "en": "We put a mousetrap in the kitchen."
+   }
+  },
+  {
+   "id": "home.cockroach",
+   "t": {
+    "en": "cockroach",
+    "uk": "тарган",
+    "ru": "таракан",
+    "pl": "karaluch",
+    "de": "Kakerlake",
+    "fr": "cafard",
+    "es": "cucaracha",
+    "it": "scarafaggio",
+    "pt": "barata",
+    "tr": "hamamböceği"
+   },
+   "ex": {
+    "en": "I saw a cockroach in the bathroom."
+   }
+  },
+  {
+   "id": "home.stain",
+   "t": {
+    "en": "stain",
+    "uk": "пляма",
+    "ru": "пятно",
+    "pl": "plama",
+    "de": "Fleck",
+    "fr": "tache",
+    "es": "mancha",
+    "it": "macchia",
+    "pt": "mancha",
+    "tr": "leke"
+   },
+   "ex": {
+    "en": "There's a stain on the carpet."
+   }
+  },
+  {
+   "id": "home.to-remove-a-stain",
+   "t": {
+    "en": "to remove a stain",
+    "uk": "вивести пляму",
+    "ru": "вывести пятно",
+    "pl": "usunąć plamę",
+    "de": "einen Fleck entfernen",
+    "fr": "enlever une tache",
+    "es": "quitar una mancha",
+    "it": "togliere una macchia",
+    "pt": "tirar uma mancha",
+    "tr": "leke çıkarmak"
+   },
+   "ex": {
+    "en": "Vinegar helps to remove a stain."
+   }
+  },
+  {
+   "id": "home.sponge",
+   "t": {
+    "en": "sponge",
+    "uk": "губка",
+    "ru": "губка",
+    "pl": "gąbka",
+    "de": "Schwamm",
+    "fr": "éponge",
+    "es": "esponja",
+    "it": "spugna",
+    "pt": "esponja",
+    "tr": "sünger"
+   },
+   "ex": {
+    "en": "Wash the pan with a sponge."
+   }
+  },
+  {
+   "id": "home.duster",
+   "t": {
+    "en": "duster",
+    "uk": "ганчірка для пилу",
+    "ru": "тряпка для пыли",
+    "pl": "ściereczka do kurzu",
+    "de": "Staubtuch",
+    "fr": "chiffon à poussière",
+    "es": "trapo del polvo",
+    "it": "straccio per la polvere",
+    "pt": "pano de pó",
+    "tr": "toz bezi"
+   },
+   "ex": {
+    "en": "Use a duster on the shelves."
+   }
+  },
+  {
+   "id": "home.landlady",
+   "t": {
+    "en": "landlady",
+    "uk": "орендодавиця",
+    "ru": "хозяйка квартиры",
+    "pl": "właścicielka mieszkania",
+    "de": "Vermieterin",
+    "fr": "propriétaire",
+    "es": "casera",
+    "it": "padrona di casa",
+    "pt": "senhoria",
+    "tr": "ev sahibi"
+   },
+   "ex": {
+    "en": "Our landlady lives downstairs."
+   }
+  },
+  {
+   "id": "home.to-lose-your-keys",
+   "t": {
+    "en": "to lose your keys",
+    "uk": "загубити ключі",
+    "ru": "потерять ключи",
+    "pl": "zgubić klucze",
+    "de": "die Schlüssel verlieren",
+    "fr": "perdre ses clés",
+    "es": "perder las llaves",
+    "it": "perdere le chiavi",
+    "pt": "perder as chaves",
+    "tr": "anahtarlarını kaybetmek"
+   },
+   "ex": {
+    "en": "Don't lose your keys again."
+   }
+  },
+  {
+   "id": "home.viewing",
+   "t": {
+    "en": "viewing",
+    "uk": "огляд житла",
+    "ru": "просмотр квартиры",
+    "pl": "oglądanie mieszkania",
+    "de": "Besichtigung",
+    "fr": "visite",
+    "es": "visita",
+    "it": "visita",
+    "pt": "visita",
+    "tr": "ev gezme"
+   },
+   "ex": {
+    "en": "The viewing is at six o'clock."
+   }
+  },
+  {
+   "id": "home.to-hire-a-cleaner",
+   "t": {
+    "en": "to hire a cleaner",
+    "uk": "найняти прибиральницю",
+    "ru": "нанять уборщицу",
+    "pl": "zatrudnić sprzątaczkę",
+    "de": "eine Putzkraft einstellen",
+    "fr": "engager une femme de ménage",
+    "es": "contratar a una asistenta",
+    "it": "assumere una donna delle pulizie",
+    "pt": "contratar uma faxineira",
+    "tr": "temizlikçi tutmak"
+   },
+   "ex": {
+    "en": "We decided to hire a cleaner."
    }
   }
  ]

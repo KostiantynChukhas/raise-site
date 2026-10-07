@@ -2,7 +2,7 @@
  "id": "family-b1",
  "topic": "family",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "family.relatives",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "My parents are both retired."
+   }
+  },
+  {
+   "id": "family.to-be-expecting",
+   "t": {
+    "en": "to be expecting",
+    "uk": "чекати дитину",
+    "ru": "ждать ребёнка",
+    "pl": "spodziewać się dziecka",
+    "de": "ein Kind erwarten",
+    "fr": "attendre un enfant",
+    "es": "estar esperando un bebé",
+    "it": "aspettare un bambino",
+    "pt": "estar esperando um bebê",
+    "tr": "bebek beklemek"
+   },
+   "ex": {
+    "en": "My sister is expecting twins."
+   }
+  },
+  {
+   "id": "family.parenthood",
+   "t": {
+    "en": "parenthood",
+    "uk": "роль батьків",
+    "ru": "родительство",
+    "pl": "rodzicielstwo",
+    "de": "Elternschaft",
+    "fr": "parentalité",
+    "es": "parentalidad",
+    "it": "genitorialità",
+    "pt": "parentalidade",
+    "tr": "ana babalık"
+   },
+   "ex": {
+    "en": "Parenthood changes your life."
+   }
+  },
+  {
+   "id": "family.motherhood",
+   "t": {
+    "en": "motherhood",
+    "uk": "материнство",
+    "ru": "материнство",
+    "pl": "macierzyństwo",
+    "de": "Mutterschaft",
+    "fr": "maternité",
+    "es": "maternidad",
+    "it": "maternità",
+    "pt": "maternidade",
+    "tr": "annelik"
+   },
+   "ex": {
+    "en": "She loves motherhood."
+   }
+  },
+  {
+   "id": "family.fatherhood",
+   "t": {
+    "en": "fatherhood",
+    "uk": "батьківство",
+    "ru": "отцовство",
+    "pl": "ojcostwo",
+    "de": "Vaterschaft",
+    "fr": "paternité",
+    "es": "paternidad",
+    "it": "paternità",
+    "pt": "paternidade",
+    "tr": "babalık"
+   },
+   "ex": {
+    "en": "Fatherhood suits him."
+   }
+  },
+  {
+   "id": "family.birth",
+   "t": {
+    "en": "birth",
+    "uk": "народження",
+    "ru": "рождение",
+    "pl": "narodziny",
+    "de": "Geburt",
+    "fr": "naissance",
+    "es": "nacimiento",
+    "it": "nascita",
+    "pt": "nascimento",
+    "tr": "doğum"
+   },
+   "ex": {
+    "en": "Congratulations on the birth!"
+   }
+  },
+  {
+   "id": "family.infant",
+   "t": {
+    "en": "infant",
+    "uk": "немовля",
+    "ru": "младенец",
+    "pl": "niemowlę",
+    "de": "Säugling",
+    "fr": "nourrisson",
+    "es": "lactante",
+    "it": "lattante",
+    "pt": "lactente",
+    "tr": "süt çocuğu"
+   },
+   "ex": {
+    "en": "Infants need lots of sleep."
+   }
+  },
+  {
+   "id": "family.adolescence",
+   "t": {
+    "en": "adolescence",
+    "uk": "підлітковий вік",
+    "ru": "подростковый возраст",
+    "pl": "okres dojrzewania",
+    "de": "Adoleszenz",
+    "fr": "adolescence",
+    "es": "adolescencia",
+    "it": "adolescenza",
+    "pt": "adolescência",
+    "tr": "ergenlik"
+   },
+   "ex": {
+    "en": "Adolescence can be difficult."
+   }
+  },
+  {
+   "id": "family.adulthood",
+   "t": {
+    "en": "adulthood",
+    "uk": "доросле життя",
+    "ru": "взрослая жизнь",
+    "pl": "dorosłość",
+    "de": "Erwachsenenalter",
+    "fr": "âge adulte",
+    "es": "edad adulta",
+    "it": "età adulta",
+    "pt": "idade adulta",
+    "tr": "yetişkinlik"
+   },
+   "ex": {
+    "en": "He finally reached adulthood."
+   }
+  },
+  {
+   "id": "family.old-age",
+   "t": {
+    "en": "old age",
+    "uk": "старість",
+    "ru": "старость",
+    "pl": "starość",
+    "de": "Alter",
+    "fr": "vieillesse",
+    "es": "vejez",
+    "it": "vecchiaia",
+    "pt": "velhice",
+    "tr": "yaşlılık"
+   },
+   "ex": {
+    "en": "She stayed active in old age."
+   }
+  },
+  {
+   "id": "family.pensioner",
+   "t": {
+    "en": "pensioner",
+    "uk": "пенсіонер",
+    "ru": "пенсионер",
+    "pl": "emeryt",
+    "de": "Rentner",
+    "fr": "retraité",
+    "es": "jubilado",
+    "it": "pensionato",
+    "pt": "aposentado",
+    "tr": "emekli"
+   },
+   "ex": {
+    "en": "Pensioners travel for free."
+   }
+  },
+  {
+   "id": "family.single-parent",
+   "t": {
+    "en": "single parent",
+    "uk": "одинокий батько",
+    "ru": "родитель-одиночка",
+    "pl": "samotny rodzic",
+    "de": "alleinerziehender Elternteil",
+    "fr": "parent isolé",
+    "es": "padre o madre soltero",
+    "it": "genitore single",
+    "pt": "pai ou mãe solo",
+    "tr": "yalnız ebeveyn"
+   },
+   "ex": {
+    "en": "Being a single parent is hard."
+   }
+  },
+  {
+   "id": "family.working-mother",
+   "t": {
+    "en": "working mother",
+    "uk": "працююча мати",
+    "ru": "работающая мать",
+    "pl": "pracująca matka",
+    "de": "berufstätige Mutter",
+    "fr": "mère qui travaille",
+    "es": "madre trabajadora",
+    "it": "madre lavoratrice",
+    "pt": "mãe que trabalha",
+    "tr": "çalışan anne"
+   },
+   "ex": {
+    "en": "She is a busy working mother."
+   }
+  },
+  {
+   "id": "family.stay-at-home-dad",
+   "t": {
+    "en": "stay-at-home dad",
+    "uk": "тато в декреті",
+    "ru": "папа в декрете",
+    "pl": "ojciec zajmujący się domem",
+    "de": "Hausmann",
+    "fr": "père au foyer",
+    "es": "amo de casa",
+    "it": "papà casalingo",
+    "pt": "pai dono de casa",
+    "tr": "ev babası"
+   },
+   "ex": {
+    "en": "He's a stay-at-home dad."
+   }
+  },
+  {
+   "id": "family.family-values",
+   "t": {
+    "en": "family values",
+    "uk": "сімейні цінності",
+    "ru": "семейные ценности",
+    "pl": "wartości rodzinne",
+    "de": "Familienwerte",
+    "fr": "valeurs familiales",
+    "es": "valores familiares",
+    "it": "valori familiari",
+    "pt": "valores familiares",
+    "tr": "aile değerleri"
+   },
+   "ex": {
+    "en": "They believe in family values."
+   }
+  },
+  {
+   "id": "family.punishment",
+   "t": {
+    "en": "punishment",
+    "uk": "покарання",
+    "ru": "наказание",
+    "pl": "kara",
+    "de": "Strafe",
+    "fr": "punition",
+    "es": "castigo",
+    "it": "punizione",
+    "pt": "castigo",
+    "tr": "ceza"
+   },
+   "ex": {
+    "en": "He got no punishment."
+   }
+  },
+  {
+   "id": "family.strict-parents",
+   "t": {
+    "en": "strict parents",
+    "uk": "суворі батьки",
+    "ru": "строгие родители",
+    "pl": "surowi rodzice",
+    "de": "strenge Eltern",
+    "fr": "parents stricts",
+    "es": "padres estrictos",
+    "it": "genitori severi",
+    "pt": "pais rígidos",
+    "tr": "katı ebeveynler"
+   },
+   "ex": {
+    "en": "She grew up with strict parents."
+   }
+  },
+  {
+   "id": "family.role-model",
+   "t": {
+    "en": "role model",
+    "uk": "приклад для наслідування",
+    "ru": "пример для подражания",
+    "pl": "wzór do naśladowania",
+    "de": "Vorbild",
+    "fr": "modèle",
+    "es": "modelo a seguir",
+    "it": "modello",
+    "pt": "exemplo",
+    "tr": "rol model"
+   },
+   "ex": {
+    "en": "My mother is my role model."
+   }
+  },
+  {
+   "id": "family.responsible",
+   "t": {
+    "en": "responsible",
+    "uk": "відповідальний",
+    "ru": "ответственный",
+    "pl": "odpowiedzialny",
+    "de": "verantwortungsvoll",
+    "fr": "responsable",
+    "es": "responsable",
+    "it": "responsabile",
+    "pt": "responsável",
+    "tr": "sorumlu"
+   },
+   "ex": {
+    "en": "She's very responsible for her age."
+   }
+  },
+  {
+   "id": "family.irresponsible",
+   "t": {
+    "en": "irresponsible",
+    "uk": "безвідповідальний",
+    "ru": "безответственный",
+    "pl": "nieodpowiedzialny",
+    "de": "verantwortungslos",
+    "fr": "irresponsable",
+    "es": "irresponsable",
+    "it": "irresponsabile",
+    "pt": "irresponsável",
+    "tr": "sorumsuz"
+   },
+   "ex": {
+    "en": "It was irresponsible to leave him alone."
+   }
+  },
+  {
+   "id": "family.independent",
+   "t": {
+    "en": "independent",
+    "uk": "самостійний",
+    "ru": "самостоятельный",
+    "pl": "samodzielny",
+    "de": "selbstständig",
+    "fr": "indépendant",
+    "es": "independiente",
+    "it": "indipendente",
+    "pt": "independente",
+    "tr": "bağımsız"
+   },
+   "ex": {
+    "en": "Kids should learn to be independent."
+   }
+  },
+  {
+   "id": "family.sociable",
+   "t": {
+    "en": "sociable",
+    "uk": "товариський",
+    "ru": "общительный",
+    "pl": "towarzyski",
+    "de": "gesellig",
+    "fr": "sociable",
+    "es": "sociable",
+    "it": "socievole",
+    "pt": "sociável",
+    "tr": "girişken"
+   },
+   "ex": {
+    "en": "My uncle is very sociable."
+   }
+  },
+  {
+   "id": "family.bossy",
+   "t": {
+    "en": "bossy",
+    "uk": "владний",
+    "ru": "властный",
+    "pl": "apodyktyczny",
+    "de": "herrisch",
+    "fr": "autoritaire",
+    "es": "mandón",
+    "it": "prepotente",
+    "pt": "mandão",
+    "tr": "patronluk taslayan"
+   },
+   "ex": {
+    "en": "Don't be so bossy!"
+   }
+  },
+  {
+   "id": "family.nosy",
+   "t": {
+    "en": "nosy",
+    "uk": "цікавський",
+    "ru": "любопытный",
+    "pl": "wścibski",
+    "de": "neugierig",
+    "fr": "fouineur",
+    "es": "cotilla",
+    "it": "ficcanaso",
+    "pt": "xereta",
+    "tr": "burnunu sokan"
+   },
+   "ex": {
+    "en": "Our neighbour is so nosy."
+   }
+  },
+  {
+   "id": "family.skinny",
+   "t": {
+    "en": "skinny",
+    "uk": "худий",
+    "ru": "тощий",
+    "pl": "chudy",
+    "de": "dürr",
+    "fr": "maigre",
+    "es": "flaco",
+    "it": "magrolino",
+    "pt": "magricela",
+    "tr": "sıska"
+   },
+   "ex": {
+    "en": "He was a skinny kid."
+   }
+  },
+  {
+   "id": "family.muscular",
+   "t": {
+    "en": "muscular",
+    "uk": "мускулистий",
+    "ru": "мускулистый",
+    "pl": "umięśniony",
+    "de": "muskulös",
+    "fr": "musclé",
+    "es": "musculoso",
+    "it": "muscoloso",
+    "pt": "musculoso",
+    "tr": "kaslı"
+   },
+   "ex": {
+    "en": "Her brother is tall and muscular."
+   }
+  },
+  {
+   "id": "family.in-his-thirties",
+   "t": {
+    "en": "in his thirties",
+    "uk": "йому за тридцять",
+    "ru": "ему за тридцать",
+    "pl": "po trzydziestce",
+    "de": "in den Dreißigern",
+    "fr": "dans la trentaine",
+    "es": "de treinta y tantos",
+    "it": "sulla trentina",
+    "pt": "na casa dos trinta",
+    "tr": "otuzlu yaşlarında"
+   },
+   "ex": {
+    "en": "My uncle is in his thirties."
+   }
+  },
+  {
+   "id": "family.to-grow-old",
+   "t": {
+    "en": "to grow old",
+    "uk": "старіти",
+    "ru": "стареть",
+    "pl": "starzeć się",
+    "de": "alt werden",
+    "fr": "vieillir",
+    "es": "envejecer",
+    "it": "invecchiare",
+    "pt": "envelhecer",
+    "tr": "yaşlanmak"
+   },
+   "ex": {
+    "en": "Let's grow old together."
+   }
+  },
+  {
+   "id": "family.family-gathering",
+   "t": {
+    "en": "family gathering",
+    "uk": "сімейне зібрання",
+    "ru": "семейная встреча",
+    "pl": "spotkanie rodzinne",
+    "de": "Familientreffen",
+    "fr": "réunion de famille",
+    "es": "reunión familiar",
+    "it": "riunione di famiglia",
+    "pt": "reunião de família",
+    "tr": "aile toplantısı"
+   },
+   "ex": {
+    "en": "We have a family gathering on Sunday."
+   }
+  },
+  {
+   "id": "family.family-tradition",
+   "t": {
+    "en": "family tradition",
+    "uk": "сімейна традиція",
+    "ru": "семейная традиция",
+    "pl": "tradycja rodzinna",
+    "de": "Familientradition",
+    "fr": "tradition familiale",
+    "es": "tradición familiar",
+    "it": "tradizione di famiglia",
+    "pt": "tradição familiar",
+    "tr": "aile geleneği"
+   },
+   "ex": {
+    "en": "Baking cookies is a family tradition."
+   }
+  },
+  {
+   "id": "family.godparents",
+   "t": {
+    "en": "godparents",
+    "uk": "хрещені батьки",
+    "ru": "крёстные родители",
+    "pl": "rodzice chrzestni",
+    "de": "Paten",
+    "fr": "parrain et marraine",
+    "es": "padrinos",
+    "it": "padrini",
+    "pt": "padrinhos",
+    "tr": "vaftiz ebeveynleri"
+   },
+   "ex": {
+    "en": "My godparents live in Rome."
+   }
+  },
+  {
+   "id": "family.to-name-after",
+   "t": {
+    "en": "to name after",
+    "uk": "називати на честь",
+    "ru": "называть в честь",
+    "pl": "nazwać po",
+    "de": "benennen nach",
+    "fr": "donner le nom de",
+    "es": "ponerle el nombre de",
+    "it": "chiamare come",
+    "pt": "dar o nome de",
+    "tr": "-in adını vermek"
+   },
+   "ex": {
+    "en": "They named him after his grandpa."
+   }
+  },
+  {
+   "id": "family.first-cousin",
+   "t": {
+    "en": "first cousin",
+    "uk": "двоюрідний брат",
+    "ru": "двоюродный брат",
+    "pl": "brat cioteczny",
+    "de": "Cousin ersten Grades",
+    "fr": "cousin germain",
+    "es": "primo hermano",
+    "it": "cugino di primo grado",
+    "pt": "primo de primeiro grau",
+    "tr": "birinci derece kuzen"
+   },
+   "ex": {
+    "en": "Sam is my first cousin."
+   }
+  },
+  {
+   "id": "family.twin-brother",
+   "t": {
+    "en": "twin brother",
+    "uk": "брат-близнюк",
+    "ru": "брат-близнец",
+    "pl": "brat bliźniak",
+    "de": "Zwillingsbruder",
+    "fr": "frère jumeau",
+    "es": "hermano gemelo",
+    "it": "fratello gemello",
+    "pt": "irmão gêmeo",
+    "tr": "ikiz erkek kardeş"
+   },
+   "ex": {
+    "en": "I have a twin brother."
+   }
+  },
+  {
+   "id": "family.twin-sister",
+   "t": {
+    "en": "twin sister",
+    "uk": "сестра-близнючка",
+    "ru": "сестра-близнец",
+    "pl": "siostra bliźniaczka",
+    "de": "Zwillingsschwester",
+    "fr": "sœur jumelle",
+    "es": "hermana gemela",
+    "it": "sorella gemella",
+    "pt": "irmã gêmea",
+    "tr": "ikiz kız kardeş"
+   },
+   "ex": {
+    "en": "Her twin sister lives in Paris."
+   }
+  },
+  {
+   "id": "family.orphanage",
+   "t": {
+    "en": "orphanage",
+    "uk": "дитячий будинок",
+    "ru": "детский дом",
+    "pl": "sierociniec",
+    "de": "Waisenhaus",
+    "fr": "orphelinat",
+    "es": "orfanato",
+    "it": "orfanotrofio",
+    "pt": "orfanato",
+    "tr": "yetimhane"
+   },
+   "ex": {
+    "en": "He grew up in an orphanage."
+   }
+  },
+  {
+   "id": "family.great-grandson",
+   "t": {
+    "en": "great-grandson",
+    "uk": "правнук",
+    "ru": "правнук",
+    "pl": "prawnuk",
+    "de": "Urenkel",
+    "fr": "arrière-petit-fils",
+    "es": "bisnieto",
+    "it": "pronipote",
+    "pt": "bisneto",
+    "tr": "torununun oğlu"
+   },
+   "ex": {
+    "en": "She met her first great-grandson."
+   }
+  },
+  {
+   "id": "family.second-cousin",
+   "t": {
+    "en": "second cousin",
+    "uk": "троюрідний брат",
+    "ru": "троюродный брат",
+    "pl": "kuzyn drugiego stopnia",
+    "de": "Cousin zweiten Grades",
+    "fr": "cousin issu de germain",
+    "es": "primo segundo",
+    "it": "cugino di secondo grado",
+    "pt": "primo de segundo grau",
+    "tr": "ikinci derece kuzen"
+   },
+   "ex": {
+    "en": "He's my second cousin."
+   }
+  },
+  {
+   "id": "family.single-dad",
+   "t": {
+    "en": "single dad",
+    "uk": "батько-одинак",
+    "ru": "отец-одиночка",
+    "pl": "samotny ojciec",
+    "de": "alleinerziehender Vater",
+    "fr": "père célibataire",
+    "es": "padre soltero",
+    "it": "papà single",
+    "pt": "pai solteiro",
+    "tr": "bekar baba"
+   },
+   "ex": {
+    "en": "He's a single dad of two."
+   }
+  },
+  {
+   "id": "family.adopted-child",
+   "t": {
+    "en": "adopted child",
+    "uk": "усиновлена дитина",
+    "ru": "усыновлённый ребёнок",
+    "pl": "adoptowane dziecko",
+    "de": "Adoptivkind",
+    "fr": "enfant adopté",
+    "es": "hijo adoptivo",
+    "it": "figlio adottivo",
+    "pt": "filho adotivo",
+    "tr": "evlatlık"
+   },
+   "ex": {
+    "en": "She is an adopted child."
+   }
+  },
+  {
+   "id": "family.stepchildren",
+   "t": {
+    "en": "stepchildren",
+    "uk": "пасинки та падчерки",
+    "ru": "пасынки и падчерицы",
+    "pl": "pasierbowie",
+    "de": "Stiefkinder",
+    "fr": "beaux-enfants",
+    "es": "hijastros",
+    "it": "figliastri",
+    "pt": "enteados",
+    "tr": "üvey çocuklar"
+   },
+   "ex": {
+    "en": "He gets on well with his stepchildren."
+   }
+  },
+  {
+   "id": "family.family-life",
+   "t": {
+    "en": "family life",
+    "uk": "сімейне життя",
+    "ru": "семейная жизнь",
+    "pl": "życie rodzinne",
+    "de": "Familienleben",
+    "fr": "vie de famille",
+    "es": "vida familiar",
+    "it": "vita familiare",
+    "pt": "vida familiar",
+    "tr": "aile hayatı"
+   },
+   "ex": {
+    "en": "I enjoy family life."
+   }
+  },
+  {
+   "id": "family.family-history",
+   "t": {
+    "en": "family history",
+    "uk": "історія родини",
+    "ru": "история семьи",
+    "pl": "historia rodziny",
+    "de": "Familiengeschichte",
+    "fr": "histoire familiale",
+    "es": "historia familiar",
+    "it": "storia di famiglia",
+    "pt": "história da família",
+    "tr": "aile tarihi"
+   },
+   "ex": {
+    "en": "Grandma told us our family history."
+   }
+  },
+  {
+   "id": "family.baby-shower",
+   "t": {
+    "en": "baby shower",
+    "uk": "свято на честь майбутньої дитини",
+    "ru": "праздник в честь будущего малыша",
+    "pl": "baby shower",
+    "de": "Babyparty",
+    "fr": "fête prénatale",
+    "es": "fiesta prenatal",
+    "it": "festa per il nascituro",
+    "pt": "chá de bebê",
+    "tr": "bebek partisi"
+   },
+   "ex": {
+    "en": "We're planning a baby shower."
+   }
+  },
+  {
+   "id": "family.christening",
+   "t": {
+    "en": "christening",
+    "uk": "хрестини",
+    "ru": "крестины",
+    "pl": "chrzciny",
+    "de": "Taufe",
+    "fr": "baptême",
+    "es": "bautizo",
+    "it": "battesimo",
+    "pt": "batizado",
+    "tr": "vaftiz töreni"
+   },
+   "ex": {
+    "en": "The christening is on Sunday."
+   }
+  },
+  {
+   "id": "family.foster-child",
+   "t": {
+    "en": "foster child",
+    "uk": "прийомна дитина",
+    "ru": "приёмный ребёнок",
+    "pl": "dziecko w rodzinie zastępczej",
+    "de": "Pflegekind",
+    "fr": "enfant placé",
+    "es": "niño de acogida",
+    "it": "bambino in affido",
+    "pt": "criança em acolhimento",
+    "tr": "koruyucu ailedeki çocuk"
+   },
+   "ex": {
+    "en": "They have a foster child."
+   }
+  },
+  {
+   "id": "family.great-granddaughter",
+   "t": {
+    "en": "great-granddaughter",
+    "uk": "правнучка",
+    "ru": "правнучка",
+    "pl": "prawnuczka",
+    "de": "Urenkelin",
+    "fr": "arrière-petite-fille",
+    "es": "bisnieta",
+    "it": "pronipote",
+    "pt": "bisneta",
+    "tr": "torununun kızı"
+   },
+   "ex": {
+    "en": "Her great-granddaughter is two."
+   }
+  },
+  {
+   "id": "family.granny",
+   "t": {
+    "en": "granny",
+    "uk": "бабуся",
+    "ru": "бабуля",
+    "pl": "babunia",
+    "de": "Omi",
+    "fr": "mamie",
+    "es": "abuelita",
+    "it": "nonnina",
+    "pt": "vovó",
+    "tr": "ninecik"
+   },
+   "ex": {
+    "en": "Granny makes the best soup."
+   }
+  },
+  {
+   "id": "family.bedtime",
+   "t": {
+    "en": "bedtime",
+    "uk": "час спати",
+    "ru": "время спать",
+    "pl": "pora spania",
+    "de": "Schlafenszeit",
+    "fr": "heure du coucher",
+    "es": "hora de dormir",
+    "it": "ora di andare a letto",
+    "pt": "hora de dormir",
+    "tr": "yatma vakti"
+   },
+   "ex": {
+    "en": "Bedtime is at eight o'clock."
+   }
+  },
+  {
+   "id": "family.to-leave-home",
+   "t": {
+    "en": "to leave home",
+    "uk": "почати жити окремо",
+    "ru": "уехать от родителей",
+    "pl": "wyprowadzić się z domu",
+    "de": "von zu Hause ausziehen",
+    "fr": "quitter la maison",
+    "es": "irse de casa",
+    "it": "andare via di casa",
+    "pt": "sair de casa",
+    "tr": "evden ayrılmak"
+   },
+   "ex": {
+    "en": "I left home at eighteen."
+   }
+  },
+  {
+   "id": "family.family-home",
+   "t": {
+    "en": "family home",
+    "uk": "родинний дім",
+    "ru": "семейный дом",
+    "pl": "dom rodzinny",
+    "de": "Elternhaus",
+    "fr": "maison familiale",
+    "es": "casa familiar",
+    "it": "casa di famiglia",
+    "pt": "casa da família",
+    "tr": "aile evi"
+   },
+   "ex": {
+    "en": "They sold the family home."
    }
   }
  ]

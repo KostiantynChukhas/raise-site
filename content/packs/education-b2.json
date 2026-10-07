@@ -2,7 +2,7 @@
  "id": "education-b2",
  "topic": "education",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "education.bachelors-degree",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "She published her first research paper."
+   }
+  },
+  {
+   "id": "education.assessment",
+   "t": {
+    "en": "assessment",
+    "uk": "оцінювання",
+    "ru": "оценивание",
+    "pl": "ocenianie",
+    "de": "Leistungsbeurteilung",
+    "fr": "évaluation",
+    "es": "evaluación",
+    "it": "valutazione",
+    "pt": "avaliação",
+    "tr": "değerlendirme"
+   },
+   "ex": {
+    "en": "The assessment is based on two essays."
+   }
+  },
+  {
+   "id": "education.continuous-assessment",
+   "t": {
+    "en": "continuous assessment",
+    "uk": "поточне оцінювання",
+    "ru": "текущий контроль",
+    "pl": "ocenianie ciągłe",
+    "de": "laufende Leistungskontrolle",
+    "fr": "contrôle continu",
+    "es": "evaluación continua",
+    "it": "valutazione continua",
+    "pt": "avaliação contínua",
+    "tr": "sürekli değerlendirme"
+   },
+   "ex": {
+    "en": "The course uses continuous assessment."
+   }
+  },
+  {
+   "id": "education.exam-paper",
+   "t": {
+    "en": "exam paper",
+    "uk": "екзаменаційна робота",
+    "ru": "экзаменационная работа",
+    "pl": "arkusz egzaminacyjny",
+    "de": "Prüfungsbogen",
+    "fr": "sujet d'examen",
+    "es": "hoja de examen",
+    "it": "foglio d'esame",
+    "pt": "prova",
+    "tr": "sınav kâğıdı"
+   },
+   "ex": {
+    "en": "Write your name on the exam paper."
+   }
+  },
+  {
+   "id": "education.pass-mark",
+   "t": {
+    "en": "pass mark",
+    "uk": "прохідний бал",
+    "ru": "проходной балл",
+    "pl": "próg zaliczenia",
+    "de": "Bestehensgrenze",
+    "fr": "seuil de réussite",
+    "es": "nota mínima para aprobar",
+    "it": "voto minimo",
+    "pt": "nota mínima",
+    "tr": "geçme notu"
+   },
+   "ex": {
+    "en": "The pass mark is fifty percent."
+   }
+  },
+  {
+   "id": "education.transcript",
+   "t": {
+    "en": "transcript",
+    "uk": "академічна довідка",
+    "ru": "академическая справка",
+    "pl": "wykaz ocen",
+    "de": "Notenübersicht",
+    "fr": "relevé de notes",
+    "es": "expediente académico",
+    "it": "certificato degli esami",
+    "pt": "histórico escolar",
+    "tr": "transkript"
+   },
+   "ex": {
+    "en": "Send your transcript with the form."
+   }
+  },
+  {
+   "id": "education.prerequisite",
+   "t": {
+    "en": "prerequisite",
+    "uk": "передумова",
+    "ru": "предварительное требование",
+    "pl": "warunek wstępny",
+    "de": "Voraussetzung",
+    "fr": "prérequis",
+    "es": "requisito previo",
+    "it": "prerequisito",
+    "pt": "pré-requisito",
+    "tr": "ön koşul"
+   },
+   "ex": {
+    "en": "Statistics is a prerequisite for this course."
+   }
+  },
+  {
+   "id": "education.core-subject",
+   "t": {
+    "en": "core subject",
+    "uk": "основний предмет",
+    "ru": "основной предмет",
+    "pl": "przedmiot podstawowy",
+    "de": "Kernfach",
+    "fr": "matière principale",
+    "es": "asignatura troncal",
+    "it": "materia fondamentale",
+    "pt": "matéria principal",
+    "tr": "temel ders"
+   },
+   "ex": {
+    "en": "English is a core subject."
+   }
+  },
+  {
+   "id": "education.module",
+   "t": {
+    "en": "module",
+    "uk": "модуль",
+    "ru": "модуль",
+    "pl": "moduł",
+    "de": "Modul",
+    "fr": "module",
+    "es": "módulo",
+    "it": "modulo",
+    "pt": "módulo",
+    "tr": "modül"
+   },
+   "ex": {
+    "en": "I chose a module on ethics."
+   }
+  },
+  {
+   "id": "education.lecture-notes",
+   "t": {
+    "en": "lecture notes",
+    "uk": "конспект лекцій",
+    "ru": "конспект лекций",
+    "pl": "notatki z wykładu",
+    "de": "Vorlesungsmitschrift",
+    "fr": "notes de cours",
+    "es": "apuntes",
+    "it": "appunti",
+    "pt": "anotações da aula",
+    "tr": "ders notları"
+   },
+   "ex": {
+    "en": "Can I borrow your lecture notes?"
+   }
+  },
+  {
+   "id": "education.reading-list",
+   "t": {
+    "en": "reading list",
+    "uk": "список обов'язкового читання",
+    "ru": "список обязательной литературы",
+    "pl": "lista lektur",
+    "de": "Literaturliste",
+    "fr": "liste de lectures",
+    "es": "lista de lecturas",
+    "it": "lista di letture",
+    "pt": "lista de leitura",
+    "tr": "okuma listesi"
+   },
+   "ex": {
+    "en": "The reading list is very long."
+   }
+  },
+  {
+   "id": "education.academic-writing",
+   "t": {
+    "en": "academic writing",
+    "uk": "академічне письмо",
+    "ru": "академическое письмо",
+    "pl": "pisanie akademickie",
+    "de": "wissenschaftliches Schreiben",
+    "fr": "rédaction universitaire",
+    "es": "redacción académica",
+    "it": "scrittura accademica",
+    "pt": "escrita acadêmica",
+    "tr": "akademik yazım"
+   },
+   "ex": {
+    "en": "Academic writing needs a formal style."
+   }
+  },
+  {
+   "id": "education.abstract",
+   "t": {
+    "en": "abstract",
+    "uk": "анотація",
+    "ru": "аннотация",
+    "pl": "abstrakt",
+    "de": "Abstract",
+    "fr": "résumé",
+    "es": "resumen",
+    "it": "abstract",
+    "pt": "resumo",
+    "tr": "özet"
+   },
+   "ex": {
+    "en": "Read the abstract before the article."
+   }
+  },
+  {
+   "id": "education.literature-review",
+   "t": {
+    "en": "literature review",
+    "uk": "огляд літератури",
+    "ru": "обзор литературы",
+    "pl": "przegląd literatury",
+    "de": "Literaturüberblick",
+    "fr": "revue de littérature",
+    "es": "revisión bibliográfica",
+    "it": "rassegna della letteratura",
+    "pt": "revisão de literatura",
+    "tr": "literatür taraması"
+   },
+   "ex": {
+    "en": "My literature review is almost done."
+   }
+  },
+  {
+   "id": "education.case-study",
+   "t": {
+    "en": "case study",
+    "uk": "аналіз конкретного випадку",
+    "ru": "анализ конкретного случая",
+    "pl": "studium przypadku",
+    "de": "Fallstudie",
+    "fr": "étude de cas",
+    "es": "estudio de caso",
+    "it": "caso di studio",
+    "pt": "estudo de caso",
+    "tr": "vaka çalışması"
+   },
+   "ex": {
+    "en": "We analysed a case study in class."
+   }
+  },
+  {
+   "id": "education.fieldwork",
+   "t": {
+    "en": "fieldwork",
+    "uk": "польові дослідження",
+    "ru": "полевые исследования",
+    "pl": "badania terenowe",
+    "de": "Feldforschung",
+    "fr": "travail de terrain",
+    "es": "trabajo de campo",
+    "it": "lavoro sul campo",
+    "pt": "trabalho de campo",
+    "tr": "saha çalışması"
+   },
+   "ex": {
+    "en": "She did fieldwork in Kenya."
+   }
+  },
+  {
+   "id": "education.data-collection",
+   "t": {
+    "en": "data collection",
+    "uk": "збір даних",
+    "ru": "сбор данных",
+    "pl": "zbieranie danych",
+    "de": "Datenerhebung",
+    "fr": "collecte de données",
+    "es": "recogida de datos",
+    "it": "raccolta dati",
+    "pt": "coleta de dados",
+    "tr": "veri toplama"
+   },
+   "ex": {
+    "en": "Data collection took six months."
+   }
+  },
+  {
+   "id": "education.findings",
+   "t": {
+    "en": "findings",
+    "uk": "результати дослідження",
+    "ru": "результаты исследования",
+    "pl": "wyniki badań",
+    "de": "Forschungsergebnisse",
+    "fr": "résultats de recherche",
+    "es": "hallazgos",
+    "it": "risultati della ricerca",
+    "pt": "resultados da pesquisa",
+    "tr": "bulgular"
+   },
+   "ex": {
+    "en": "The findings were surprising."
+   }
+  },
+  {
+   "id": "education.conclusion",
+   "t": {
+    "en": "conclusion",
+    "uk": "висновок",
+    "ru": "вывод",
+    "pl": "wniosek",
+    "de": "Schlussfolgerung",
+    "fr": "conclusion",
+    "es": "conclusión",
+    "it": "conclusione",
+    "pt": "conclusão",
+    "tr": "sonuç"
+   },
+   "ex": {
+    "en": "Your conclusion should be short."
+   }
+  },
+  {
+   "id": "education.to-draw-conclusions",
+   "t": {
+    "en": "to draw conclusions",
+    "uk": "робити висновки",
+    "ru": "делать выводы",
+    "pl": "wyciągać wnioski",
+    "de": "Schlüsse ziehen",
+    "fr": "tirer des conclusions",
+    "es": "sacar conclusiones",
+    "it": "trarre conclusioni",
+    "pt": "tirar conclusões",
+    "tr": "sonuç çıkarmak"
+   },
+   "ex": {
+    "en": "Don't draw conclusions too quickly."
+   }
+  },
+  {
+   "id": "education.citation",
+   "t": {
+    "en": "citation",
+    "uk": "цитування",
+    "ru": "цитирование",
+    "pl": "cytowanie",
+    "de": "Quellenangabe",
+    "fr": "citation",
+    "es": "cita",
+    "it": "citazione",
+    "pt": "citação",
+    "tr": "atıf"
+   },
+   "ex": {
+    "en": "Every citation needs a page number."
+   }
+  },
+  {
+   "id": "education.word-count",
+   "t": {
+    "en": "word count",
+    "uk": "кількість слів",
+    "ru": "количество слов",
+    "pl": "liczba słów",
+    "de": "Wortanzahl",
+    "fr": "nombre de mots",
+    "es": "número de palabras",
+    "it": "numero di parole",
+    "pt": "contagem de palavras",
+    "tr": "kelime sayısı"
+   },
+   "ex": {
+    "en": "The word count is 3,000."
+   }
+  },
+  {
+   "id": "education.draft",
+   "t": {
+    "en": "draft",
+    "uk": "чернетка",
+    "ru": "черновик",
+    "pl": "wersja robocza",
+    "de": "Entwurf",
+    "fr": "brouillon",
+    "es": "borrador",
+    "it": "bozza",
+    "pt": "rascunho",
+    "tr": "taslak"
+   },
+   "ex": {
+    "en": "Send me your first draft by Monday."
+   }
+  },
+  {
+   "id": "education.outline",
+   "t": {
+    "en": "outline",
+    "uk": "план",
+    "ru": "план",
+    "pl": "konspekt",
+    "de": "Gliederung",
+    "fr": "plan",
+    "es": "esquema",
+    "it": "scaletta",
+    "pt": "esboço",
+    "tr": "ana hat"
+   },
+   "ex": {
+    "en": "Make an outline before you write."
+   }
+  },
+  {
+   "id": "education.coherent",
+   "t": {
+    "en": "coherent",
+    "uk": "зв'язний",
+    "ru": "связный",
+    "pl": "spójny",
+    "de": "schlüssig",
+    "fr": "cohérent",
+    "es": "coherente",
+    "it": "coerente",
+    "pt": "coerente",
+    "tr": "tutarlı"
+   },
+   "ex": {
+    "en": "Your argument must be coherent."
+   }
+  },
+  {
+   "id": "education.concise",
+   "t": {
+    "en": "concise",
+    "uk": "стислий",
+    "ru": "сжатый",
+    "pl": "zwięzły",
+    "de": "prägnant",
+    "fr": "concis",
+    "es": "conciso",
+    "it": "conciso",
+    "pt": "conciso",
+    "tr": "öz"
+   },
+   "ex": {
+    "en": "Keep your answers concise."
+   }
+  },
+  {
+   "id": "education.well-structured",
+   "t": {
+    "en": "well-structured",
+    "uk": "добре структурований",
+    "ru": "хорошо структурированный",
+    "pl": "dobrze zbudowany",
+    "de": "gut gegliedert",
+    "fr": "bien structuré",
+    "es": "bien estructurado",
+    "it": "ben strutturato",
+    "pt": "bem estruturado",
+    "tr": "iyi yapılandırılmış"
+   },
+   "ex": {
+    "en": "It's a well-structured essay."
+   }
+  },
+  {
+   "id": "education.learning-difficulty",
+   "t": {
+    "en": "learning difficulty",
+    "uk": "труднощі в навчанні",
+    "ru": "трудности в обучении",
+    "pl": "trudności w uczeniu się",
+    "de": "Lernschwierigkeit",
+    "fr": "trouble d'apprentissage",
+    "es": "dificultad de aprendizaje",
+    "it": "difficoltà di apprendimento",
+    "pt": "dificuldade de aprendizagem",
+    "tr": "öğrenme güçlüğü"
+   },
+   "ex": {
+    "en": "He gets support for his learning difficulty."
+   }
+  },
+  {
+   "id": "education.dyslexia",
+   "t": {
+    "en": "dyslexia",
+    "uk": "дислексія",
+    "ru": "дислексия",
+    "pl": "dysleksja",
+    "de": "Legasthenie",
+    "fr": "dyslexie",
+    "es": "dislexia",
+    "it": "dislessia",
+    "pt": "dislexia",
+    "tr": "disleksi"
+   },
+   "ex": {
+    "en": "Dyslexia makes reading harder."
+   }
+  },
+  {
+   "id": "education.bullying",
+   "t": {
+    "en": "bullying",
+    "uk": "булінг",
+    "ru": "травля",
+    "pl": "przemoc rówieśnicza",
+    "de": "Mobbing",
+    "fr": "harcèlement scolaire",
+    "es": "acoso escolar",
+    "it": "bullismo",
+    "pt": "bullying",
+    "tr": "zorbalık"
+   },
+   "ex": {
+    "en": "The school has a policy against bullying."
+   }
+  },
+  {
+   "id": "education.to-bully",
+   "t": {
+    "en": "to bully",
+    "uk": "цькувати",
+    "ru": "травить",
+    "pl": "znęcać się nad",
+    "de": "mobben",
+    "fr": "harceler",
+    "es": "acosar",
+    "it": "vessare",
+    "pt": "intimidar",
+    "tr": "zorbalık yapmak"
+   },
+   "ex": {
+    "en": "Older boys bullied him at school."
+   }
+  },
+  {
+   "id": "education.peer-pressure",
+   "t": {
+    "en": "peer pressure",
+    "uk": "тиск однолітків",
+    "ru": "давление сверстников",
+    "pl": "presja rówieśników",
+    "de": "Gruppenzwang",
+    "fr": "pression des pairs",
+    "es": "presión de grupo",
+    "it": "pressione dei pari",
+    "pt": "pressão dos colegas",
+    "tr": "akran baskısı"
+   },
+   "ex": {
+    "en": "Teens often give in to peer pressure."
+   }
+  },
+  {
+   "id": "education.adult-education",
+   "t": {
+    "en": "adult education",
+    "uk": "освіта дорослих",
+    "ru": "образование взрослых",
+    "pl": "edukacja dorosłych",
+    "de": "Erwachsenenbildung",
+    "fr": "formation des adultes",
+    "es": "educación de adultos",
+    "it": "educazione degli adulti",
+    "pt": "educação de adultos",
+    "tr": "yetişkin eğitimi"
+   },
+   "ex": {
+    "en": "She teaches in adult education."
+   }
+  },
+  {
+   "id": "education.evening-classes",
+   "t": {
+    "en": "evening classes",
+    "uk": "вечірні курси",
+    "ru": "вечерние курсы",
+    "pl": "kursy wieczorowe",
+    "de": "Abendkurse",
+    "fr": "cours du soir",
+    "es": "clases nocturnas",
+    "it": "corsi serali",
+    "pt": "aulas noturnas",
+    "tr": "akşam kursları"
+   },
+   "ex": {
+    "en": "He takes evening classes in Spanish."
+   }
+  },
+  {
+   "id": "education.numeracy",
+   "t": {
+    "en": "numeracy",
+    "uk": "математична грамотність",
+    "ru": "математическая грамотность",
+    "pl": "umiejętności matematyczne",
+    "de": "Rechenfähigkeit",
+    "fr": "compétences en calcul",
+    "es": "competencia matemática",
+    "it": "capacità di calcolo",
+    "pt": "habilidade numérica",
+    "tr": "sayısal beceri"
+   },
+   "ex": {
+    "en": "Literacy and numeracy are basic skills."
+   }
+  },
+  {
+   "id": "education.to-tutor",
+   "t": {
+    "en": "to tutor",
+    "uk": "давати приватні уроки",
+    "ru": "заниматься репетиторством",
+    "pl": "udzielać korepetycji",
+    "de": "Nachhilfe geben",
+    "fr": "donner des cours particuliers",
+    "es": "dar clases particulares",
+    "it": "dare ripetizioni",
+    "pt": "dar aulas particulares",
+    "tr": "özel ders vermek"
+   },
+   "ex": {
+    "en": "She tutors students in maths."
+   }
+  },
+  {
+   "id": "education.student-debt",
+   "t": {
+    "en": "student debt",
+    "uk": "студентський борг",
+    "ru": "студенческий долг",
+    "pl": "zadłużenie studenckie",
+    "de": "Studienschulden",
+    "fr": "dette étudiante",
+    "es": "deuda estudiantil",
+    "it": "debito studentesco",
+    "pt": "dívida estudantil",
+    "tr": "öğrenci borcu"
+   },
+   "ex": {
+    "en": "Student debt is a serious problem."
+   }
+  },
+  {
+   "id": "education.student-housing",
+   "t": {
+    "en": "student housing",
+    "uk": "студентське житло",
+    "ru": "студенческое жильё",
+    "pl": "mieszkanie dla studentów",
+    "de": "Studentenwohnung",
+    "fr": "logement étudiant",
+    "es": "alojamiento para estudiantes",
+    "it": "alloggio per studenti",
+    "pt": "moradia estudantil",
+    "tr": "öğrenci konutu"
+   },
+   "ex": {
+    "en": "Student housing is expensive here."
+   }
+  },
+  {
+   "id": "education.fresher",
+   "t": {
+    "en": "fresher",
+    "uk": "першокурсник",
+    "ru": "первокурсник",
+    "pl": "pierwszoroczniak",
+    "de": "Erstsemester",
+    "fr": "étudiant de première année",
+    "es": "estudiante de primero",
+    "it": "matricola",
+    "pt": "calouro",
+    "tr": "birinci sınıf öğrencisi"
+   },
+   "ex": {
+    "en": "Freshers' week starts on Monday."
+   }
+  },
+  {
+   "id": "education.graduate",
+   "t": {
+    "en": "graduate",
+    "uk": "випускник",
+    "ru": "выпускник",
+    "pl": "absolwent",
+    "de": "Absolvent",
+    "fr": "diplômé",
+    "es": "graduado",
+    "it": "laureato",
+    "pt": "formado",
+    "tr": "mezun"
+   },
+   "ex": {
+    "en": "She is a graduate of Kyiv University."
+   }
+  },
+  {
+   "id": "education.admissions-office",
+   "t": {
+    "en": "admissions office",
+    "uk": "приймальна комісія",
+    "ru": "приёмная комиссия",
+    "pl": "biuro rekrutacji",
+    "de": "Zulassungsstelle",
+    "fr": "service des admissions",
+    "es": "oficina de admisiones",
+    "it": "ufficio ammissioni",
+    "pt": "setor de admissões",
+    "tr": "kabul ofisi"
+   },
+   "ex": {
+    "en": "Call the admissions office for details."
+   }
+  },
+  {
+   "id": "education.head-of-department",
+   "t": {
+    "en": "head of department",
+    "uk": "завідувач кафедри",
+    "ru": "заведующий кафедрой",
+    "pl": "kierownik katedry",
+    "de": "Fachbereichsleiter",
+    "fr": "chef de département",
+    "es": "jefe de departamento",
+    "it": "capo dipartimento",
+    "pt": "chefe de departamento",
+    "tr": "bölüm başkanı"
+   },
+   "ex": {
+    "en": "The head of department approved it."
+   }
+  },
+  {
+   "id": "education.educational",
+   "t": {
+    "en": "educational",
+    "uk": "освітній",
+    "ru": "образовательный",
+    "pl": "edukacyjny",
+    "de": "lehrreich",
+    "fr": "éducatif",
+    "es": "educativo",
+    "it": "educativo",
+    "pt": "educativo",
+    "tr": "eğitici"
+   },
+   "ex": {
+    "en": "It's a very educational game."
+   }
+  },
+  {
+   "id": "education.self-study",
+   "t": {
+    "en": "self-study",
+    "uk": "самостійне навчання",
+    "ru": "самостоятельное обучение",
+    "pl": "nauka własna",
+    "de": "Selbststudium",
+    "fr": "travail personnel",
+    "es": "estudio autónomo",
+    "it": "studio autonomo",
+    "pt": "estudo autônomo",
+    "tr": "kendi kendine çalışma"
+   },
+   "ex": {
+    "en": "The course needs ten hours of self-study."
+   }
+  },
+  {
+   "id": "education.to-specialise-in",
+   "t": {
+    "en": "to specialise in",
+    "uk": "спеціалізуватися на",
+    "ru": "специализироваться на",
+    "pl": "specjalizować się w",
+    "de": "sich spezialisieren auf",
+    "fr": "se spécialiser en",
+    "es": "especializarse en",
+    "it": "specializzarsi in",
+    "pt": "especializar-se em",
+    "tr": "uzmanlaşmak"
+   },
+   "ex": {
+    "en": "She specialises in child psychology."
+   }
+  },
+  {
+   "id": "education.teaching-assistant",
+   "t": {
+    "en": "teaching assistant",
+    "uk": "асистент викладача",
+    "ru": "ассистент преподавателя",
+    "pl": "asystent nauczyciela",
+    "de": "Lehrassistent",
+    "fr": "assistant pédagogique",
+    "es": "auxiliar docente",
+    "it": "assistente didattico",
+    "pt": "assistente de ensino",
+    "tr": "öğretim asistanı"
+   },
+   "ex": {
+    "en": "The teaching assistant marks our tests."
+   }
+  },
+  {
+   "id": "education.theoretical",
+   "t": {
+    "en": "theoretical",
+    "uk": "теоретичний",
+    "ru": "теоретический",
+    "pl": "teoretyczny",
+    "de": "theoretisch",
+    "fr": "théorique",
+    "es": "teórico",
+    "it": "teorico",
+    "pt": "teórico",
+    "tr": "teorik"
+   },
+   "ex": {
+    "en": "The course is too theoretical."
+   }
+  },
+  {
+   "id": "education.teacher-training",
+   "t": {
+    "en": "teacher training",
+    "uk": "підготовка вчителів",
+    "ru": "подготовка учителей",
+    "pl": "kształcenie nauczycieli",
+    "de": "Lehrerausbildung",
+    "fr": "formation des enseignants",
+    "es": "formación del profesorado",
+    "it": "formazione degli insegnanti",
+    "pt": "formação de professores",
+    "tr": "öğretmen yetiştirme"
+   },
+   "ex": {
+    "en": "She's doing teacher training this year."
+   }
+  },
+  {
+   "id": "education.open-book-exam",
+   "t": {
+    "en": "open-book exam",
+    "uk": "іспит із дозволом на матеріали",
+    "ru": "экзамен с разрешёнными материалами",
+    "pl": "egzamin z otwartą książką",
+    "de": "Open-Book-Prüfung",
+    "fr": "examen à livre ouvert",
+    "es": "examen a libro abierto",
+    "it": "esame a libro aperto",
+    "pt": "prova com consulta",
+    "tr": "açık kitap sınavı"
+   },
+   "ex": {
+    "en": "It's an open-book exam, so bring notes."
+   }
+  },
+  {
+   "id": "education.to-elaborate",
+   "t": {
+    "en": "to elaborate",
+    "uk": "докладно пояснювати",
+    "ru": "подробно излагать",
+    "pl": "rozwinąć myśl",
+    "de": "näher ausführen",
+    "fr": "développer",
+    "es": "desarrollar",
+    "it": "approfondire",
+    "pt": "detalhar",
+    "tr": "ayrıntılandırmak"
+   },
+   "ex": {
+    "en": "Could you elaborate on that point?"
+   }
+  },
+  {
+   "id": "education.counterargument",
+   "t": {
+    "en": "counterargument",
+    "uk": "контраргумент",
+    "ru": "контраргумент",
+    "pl": "kontrargument",
+    "de": "Gegenargument",
+    "fr": "contre-argument",
+    "es": "contraargumento",
+    "it": "controargomentazione",
+    "pt": "contra-argumento",
+    "tr": "karşı argüman"
+   },
+   "ex": {
+    "en": "Address the main counterargument."
    }
   }
  ]

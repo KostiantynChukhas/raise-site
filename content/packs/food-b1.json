@@ -2,7 +2,7 @@
  "id": "food-b1",
  "topic": "food",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "food.ingredient",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "The chef came out to greet us."
+   }
+  },
+  {
+   "id": "food.cauliflower",
+   "t": {
+    "en": "cauliflower",
+    "uk": "цвітна капуста",
+    "ru": "цветная капуста",
+    "pl": "kalafior",
+    "de": "Blumenkohl",
+    "fr": "chou-fleur",
+    "es": "coliflor",
+    "it": "cavolfiore",
+    "pt": "couve-flor",
+    "tr": "karnabahar"
+   },
+   "ex": {
+    "en": "Roast the cauliflower with spices."
+   }
+  },
+  {
+   "id": "food.courgette",
+   "t": {
+    "en": "courgette",
+    "uk": "кабачок",
+    "ru": "кабачок",
+    "pl": "cukinia",
+    "de": "Zucchini",
+    "fr": "courgette",
+    "es": "calabacín",
+    "it": "zucchina",
+    "pt": "abobrinha",
+    "tr": "kabak"
+   },
+   "ex": {
+    "en": "Slice the courgette thinly."
+   }
+  },
+  {
+   "id": "food.aubergine",
+   "t": {
+    "en": "aubergine",
+    "uk": "баклажан",
+    "ru": "баклажан",
+    "pl": "bakłażan",
+    "de": "Aubergine",
+    "fr": "aubergine",
+    "es": "berenjena",
+    "it": "melanzana",
+    "pt": "berinjela",
+    "tr": "patlıcan"
+   },
+   "ex": {
+    "en": "Moussaka is made with aubergine."
+   }
+  },
+  {
+   "id": "food.beetroot",
+   "t": {
+    "en": "beetroot",
+    "uk": "буряк",
+    "ru": "свёкла",
+    "pl": "burak",
+    "de": "Rote Bete",
+    "fr": "betterave",
+    "es": "remolacha",
+    "it": "barbabietola",
+    "pt": "beterraba",
+    "tr": "pancar"
+   },
+   "ex": {
+    "en": "Borscht is made from beetroot."
+   }
+  },
+  {
+   "id": "food.celery",
+   "t": {
+    "en": "celery",
+    "uk": "селера",
+    "ru": "сельдерей",
+    "pl": "seler",
+    "de": "Sellerie",
+    "fr": "céleri",
+    "es": "apio",
+    "it": "sedano",
+    "pt": "aipo",
+    "tr": "kereviz"
+   },
+   "ex": {
+    "en": "Chop the celery and carrots."
+   }
+  },
+  {
+   "id": "food.cinnamon",
+   "t": {
+    "en": "cinnamon",
+    "uk": "кориця",
+    "ru": "корица",
+    "pl": "cynamon",
+    "de": "Zimt",
+    "fr": "cannelle",
+    "es": "canela",
+    "it": "cannella",
+    "pt": "canela",
+    "tr": "tarçın"
+   },
+   "ex": {
+    "en": "Add a little cinnamon to the apples."
+   }
+  },
+  {
+   "id": "food.ginger",
+   "t": {
+    "en": "ginger",
+    "uk": "імбир",
+    "ru": "имбирь",
+    "pl": "imbir",
+    "de": "Ingwer",
+    "fr": "gingembre",
+    "es": "jengibre",
+    "it": "zenzero",
+    "pt": "gengibre",
+    "tr": "zencefil"
+   },
+   "ex": {
+    "en": "Ginger tea is good for a cold."
+   }
+  },
+  {
+   "id": "food.vanilla",
+   "t": {
+    "en": "vanilla",
+    "uk": "ваніль",
+    "ru": "ваниль",
+    "pl": "wanilia",
+    "de": "Vanille",
+    "fr": "vanille",
+    "es": "vainilla",
+    "it": "vaniglia",
+    "pt": "baunilha",
+    "tr": "vanilya"
+   },
+   "ex": {
+    "en": "I'd like vanilla ice cream."
+   }
+  },
+  {
+   "id": "food.parsley",
+   "t": {
+    "en": "parsley",
+    "uk": "петрушка",
+    "ru": "петрушка",
+    "pl": "pietruszka",
+    "de": "Petersilie",
+    "fr": "persil",
+    "es": "perejil",
+    "it": "prezzemolo",
+    "pt": "salsinha",
+    "tr": "maydanoz"
+   },
+   "ex": {
+    "en": "Sprinkle fresh parsley on top."
+   }
+  },
+  {
+   "id": "food.basil",
+   "t": {
+    "en": "basil",
+    "uk": "базилік",
+    "ru": "базилик",
+    "pl": "bazylia",
+    "de": "Basilikum",
+    "fr": "basilic",
+    "es": "albahaca",
+    "it": "basilico",
+    "pt": "manjericão",
+    "tr": "fesleğen"
+   },
+   "ex": {
+    "en": "Pesto is made with basil."
+   }
+  },
+  {
+   "id": "food.second-helping",
+   "t": {
+    "en": "second helping",
+    "uk": "добавка",
+    "ru": "добавка",
+    "pl": "dokładka",
+    "de": "Nachschlag",
+    "fr": "rab",
+    "es": "otra ración",
+    "it": "bis",
+    "pt": "mais uma porção",
+    "tr": "ikinci porsiyon"
+   },
+   "ex": {
+    "en": "Can I have a second helping?"
+   }
+  },
+  {
+   "id": "food.mint",
+   "t": {
+    "en": "mint",
+    "uk": "м'ята",
+    "ru": "мята",
+    "pl": "mięta",
+    "de": "Minze",
+    "fr": "menthe",
+    "es": "menta",
+    "it": "menta",
+    "pt": "hortelã",
+    "tr": "nane"
+   },
+   "ex": {
+    "en": "Add fresh mint to the drink."
+   }
+  },
+  {
+   "id": "food.lentils",
+   "t": {
+    "en": "lentils",
+    "uk": "сочевиця",
+    "ru": "чечевица",
+    "pl": "soczewica",
+    "de": "Linsen",
+    "fr": "lentilles",
+    "es": "lentejas",
+    "it": "lenticchie",
+    "pt": "lentilhas",
+    "tr": "mercimek"
+   },
+   "ex": {
+    "en": "Lentil soup is cheap and filling."
+   }
+  },
+  {
+   "id": "food.chickpeas",
+   "t": {
+    "en": "chickpeas",
+    "uk": "нут",
+    "ru": "нут",
+    "pl": "ciecierzyca",
+    "de": "Kichererbsen",
+    "fr": "pois chiches",
+    "es": "garbanzos",
+    "it": "ceci",
+    "pt": "grão-de-bico",
+    "tr": "nohut"
+   },
+   "ex": {
+    "en": "Hummus is made from chickpeas."
+   }
+  },
+  {
+   "id": "food.oats",
+   "t": {
+    "en": "oats",
+    "uk": "вівсяні пластівці",
+    "ru": "овсяные хлопья",
+    "pl": "płatki owsiane",
+    "de": "Haferflocken",
+    "fr": "flocons d'avoine",
+    "es": "copos de avena",
+    "it": "fiocchi d'avena",
+    "pt": "aveia",
+    "tr": "yulaf"
+   },
+   "ex": {
+    "en": "I cook oats with milk."
+   }
+  },
+  {
+   "id": "food.almond",
+   "t": {
+    "en": "almond",
+    "uk": "мигдаль",
+    "ru": "миндаль",
+    "pl": "migdał",
+    "de": "Mandel",
+    "fr": "amande",
+    "es": "almendra",
+    "it": "mandorla",
+    "pt": "amêndoa",
+    "tr": "badem"
+   },
+   "ex": {
+    "en": "The cake has almonds in it."
+   }
+  },
+  {
+   "id": "food.ready-meal",
+   "t": {
+    "en": "ready meal",
+    "uk": "готова страва",
+    "ru": "готовое блюдо",
+    "pl": "gotowe danie",
+    "de": "Fertiggericht",
+    "fr": "plat préparé",
+    "es": "plato preparado",
+    "it": "piatto pronto",
+    "pt": "comida pronta",
+    "tr": "hazır yemek"
+   },
+   "ex": {
+    "en": "I heated a ready meal in the microwave."
+   }
+  },
+  {
+   "id": "food.peanut",
+   "t": {
+    "en": "peanut",
+    "uk": "арахіс",
+    "ru": "арахис",
+    "pl": "orzeszek ziemny",
+    "de": "Erdnuss",
+    "fr": "cacahuète",
+    "es": "cacahuete",
+    "it": "arachide",
+    "pt": "amendoim",
+    "tr": "yer fıstığı"
+   },
+   "ex": {
+    "en": "He is allergic to peanuts."
+   }
+  },
+  {
+   "id": "food.raisins",
+   "t": {
+    "en": "raisins",
+    "uk": "родзинки",
+    "ru": "изюм",
+    "pl": "rodzynki",
+    "de": "Rosinen",
+    "fr": "raisins secs",
+    "es": "pasas",
+    "it": "uvetta",
+    "pt": "uvas-passas",
+    "tr": "kuru üzüm"
+   },
+   "ex": {
+    "en": "There are raisins in this bread."
+   }
+  },
+  {
+   "id": "food.poultry",
+   "t": {
+    "en": "poultry",
+    "uk": "свійська птиця",
+    "ru": "домашняя птица",
+    "pl": "drób",
+    "de": "Geflügel",
+    "fr": "volaille",
+    "es": "aves de corral",
+    "it": "pollame",
+    "pt": "aves",
+    "tr": "kümes hayvanları"
+   },
+   "ex": {
+    "en": "Chicken and turkey are poultry."
+   }
+  },
+  {
+   "id": "food.minced-meat",
+   "t": {
+    "en": "minced meat",
+    "uk": "фарш",
+    "ru": "фарш",
+    "pl": "mięso mielone",
+    "de": "Hackfleisch",
+    "fr": "viande hachée",
+    "es": "carne picada",
+    "it": "carne macinata",
+    "pt": "carne moída",
+    "tr": "kıyma"
+   },
+   "ex": {
+    "en": "Buy minced meat for the burgers."
+   }
+  },
+  {
+   "id": "food.fillet",
+   "t": {
+    "en": "fillet",
+    "uk": "філе",
+    "ru": "филе",
+    "pl": "filet",
+    "de": "Filet",
+    "fr": "filet",
+    "es": "filete",
+    "it": "filetto",
+    "pt": "filé",
+    "tr": "fileto"
+   },
+   "ex": {
+    "en": "I ordered a salmon fillet."
+   }
+  },
+  {
+   "id": "food.yeast",
+   "t": {
+    "en": "yeast",
+    "uk": "дріжджі",
+    "ru": "дрожжи",
+    "pl": "drożdże",
+    "de": "Hefe",
+    "fr": "levure",
+    "es": "levadura",
+    "it": "lievito",
+    "pt": "fermento biológico",
+    "tr": "maya"
+   },
+   "ex": {
+    "en": "Bread needs yeast to rise."
+   }
+  },
+  {
+   "id": "food.baking-powder",
+   "t": {
+    "en": "baking powder",
+    "uk": "розпушувач",
+    "ru": "разрыхлитель",
+    "pl": "proszek do pieczenia",
+    "de": "Backpulver",
+    "fr": "levure chimique",
+    "es": "levadura química",
+    "it": "lievito per dolci",
+    "pt": "fermento em pó",
+    "tr": "kabartma tozu"
+   },
+   "ex": {
+    "en": "Add a teaspoon of baking powder."
+   }
+  },
+  {
+   "id": "food.whipped-cream",
+   "t": {
+    "en": "whipped cream",
+    "uk": "збиті вершки",
+    "ru": "взбитые сливки",
+    "pl": "bita śmietana",
+    "de": "Schlagsahne",
+    "fr": "crème chantilly",
+    "es": "nata montada",
+    "it": "panna montata",
+    "pt": "chantili",
+    "tr": "krem şanti"
+   },
+   "ex": {
+    "en": "Strawberries with whipped cream!"
+   }
+  },
+  {
+   "id": "food.pastry",
+   "t": {
+    "en": "pastry",
+    "uk": "випічка",
+    "ru": "выпечка",
+    "pl": "ciastko",
+    "de": "Gebäck",
+    "fr": "pâtisserie",
+    "es": "bollo",
+    "it": "pasticcino",
+    "pt": "folhado",
+    "tr": "hamur işi"
+   },
+   "ex": {
+    "en": "We had coffee and a pastry."
+   }
+  },
+  {
+   "id": "food.dressing",
+   "t": {
+    "en": "dressing",
+    "uk": "заправка",
+    "ru": "заправка",
+    "pl": "sos sałatkowy",
+    "de": "Dressing",
+    "fr": "vinaigrette",
+    "es": "aliño",
+    "it": "condimento",
+    "pt": "molho para salada",
+    "tr": "salata sosu"
+   },
+   "ex": {
+    "en": "What dressing would you like?"
+   }
+  },
+  {
+   "id": "food.gravy",
+   "t": {
+    "en": "gravy",
+    "uk": "підлива",
+    "ru": "подливка",
+    "pl": "sos pieczeniowy",
+    "de": "Bratensoße",
+    "fr": "jus de viande",
+    "es": "salsa de carne",
+    "it": "sugo di carne",
+    "pt": "molho de carne",
+    "tr": "et sosu"
+   },
+   "ex": {
+    "en": "Pour gravy over the potatoes."
+   }
+  },
+  {
+   "id": "food.soy-sauce",
+   "t": {
+    "en": "soy sauce",
+    "uk": "соєвий соус",
+    "ru": "соевый соус",
+    "pl": "sos sojowy",
+    "de": "Sojasoße",
+    "fr": "sauce soja",
+    "es": "salsa de soja",
+    "it": "salsa di soia",
+    "pt": "molho shoyu",
+    "tr": "soya sosu"
+   },
+   "ex": {
+    "en": "Sushi is served with soy sauce."
+   }
+  },
+  {
+   "id": "food.to-squeeze",
+   "t": {
+    "en": "to squeeze",
+    "uk": "вичавлювати",
+    "ru": "выжимать",
+    "pl": "wyciskać",
+    "de": "auspressen",
+    "fr": "presser",
+    "es": "exprimir",
+    "it": "spremere",
+    "pt": "espremer",
+    "tr": "sıkmak"
+   },
+   "ex": {
+    "en": "Squeeze the lemon over the fish."
+   }
+  },
+  {
+   "id": "food.to-drain",
+   "t": {
+    "en": "to drain",
+    "uk": "зливати воду",
+    "ru": "сливать воду",
+    "pl": "odcedzać",
+    "de": "abgießen",
+    "fr": "égoutter",
+    "es": "escurrir",
+    "it": "scolare",
+    "pt": "escorrer",
+    "tr": "süzmek"
+   },
+   "ex": {
+    "en": "Drain the pasta and add the sauce."
+   }
+  },
+  {
+   "id": "food.to-spread",
+   "t": {
+    "en": "to spread",
+    "uk": "намазувати",
+    "ru": "намазывать",
+    "pl": "smarować",
+    "de": "streichen",
+    "fr": "tartiner",
+    "es": "untar",
+    "it": "spalmare",
+    "pt": "passar",
+    "tr": "sürmek"
+   },
+   "ex": {
+    "en": "Spread butter on the bread."
+   }
+  },
+  {
+   "id": "food.to-beat-eggs",
+   "t": {
+    "en": "to beat eggs",
+    "uk": "збивати яйця",
+    "ru": "взбивать яйца",
+    "pl": "ubijać jajka",
+    "de": "Eier schlagen",
+    "fr": "battre des œufs",
+    "es": "batir huevos",
+    "it": "sbattere le uova",
+    "pt": "bater ovos",
+    "tr": "yumurta çırpmak"
+   },
+   "ex": {
+    "en": "Beat the eggs with a fork."
+   }
+  },
+  {
+   "id": "food.to-rinse",
+   "t": {
+    "en": "to rinse",
+    "uk": "промивати",
+    "ru": "промывать",
+    "pl": "płukać",
+    "de": "abspülen",
+    "fr": "rincer",
+    "es": "enjuagar",
+    "it": "sciacquare",
+    "pt": "enxaguar",
+    "tr": "durulamak"
+   },
+   "ex": {
+    "en": "Rinse the rice before cooking."
+   }
+  },
+  {
+   "id": "food.grater",
+   "t": {
+    "en": "grater",
+    "uk": "тертка",
+    "ru": "тёрка",
+    "pl": "tarka",
+    "de": "Reibe",
+    "fr": "râpe",
+    "es": "rallador",
+    "it": "grattugia",
+    "pt": "ralador",
+    "tr": "rende"
+   },
+   "ex": {
+    "en": "Use the grater for the cheese."
+   }
+  },
+  {
+   "id": "food.colander",
+   "t": {
+    "en": "colander",
+    "uk": "друшляк",
+    "ru": "дуршлаг",
+    "pl": "durszlak",
+    "de": "Nudelsieb",
+    "fr": "passoire",
+    "es": "escurridor",
+    "it": "scolapasta",
+    "pt": "escorredor",
+    "tr": "süzgeç"
+   },
+   "ex": {
+    "en": "Put the pasta in the colander."
+   }
+  },
+  {
+   "id": "food.peeler",
+   "t": {
+    "en": "peeler",
+    "uk": "овочечистка",
+    "ru": "овощечистка",
+    "pl": "obieraczka",
+    "de": "Sparschäler",
+    "fr": "éplucheur",
+    "es": "pelador",
+    "it": "pelapatate",
+    "pt": "descascador",
+    "tr": "soyacak"
+   },
+   "ex": {
+    "en": "A peeler makes it quick."
+   }
+  },
+  {
+   "id": "food.rolling-pin",
+   "t": {
+    "en": "rolling pin",
+    "uk": "качалка",
+    "ru": "скалка",
+    "pl": "wałek do ciasta",
+    "de": "Nudelholz",
+    "fr": "rouleau à pâtisserie",
+    "es": "rodillo de cocina",
+    "it": "mattarello",
+    "pt": "rolo de massa",
+    "tr": "oklava"
+   },
+   "ex": {
+    "en": "Roll out the dough with a rolling pin."
+   }
+  },
+  {
+   "id": "food.baking-tray",
+   "t": {
+    "en": "baking tray",
+    "uk": "деко",
+    "ru": "противень",
+    "pl": "blacha do pieczenia",
+    "de": "Backblech",
+    "fr": "plaque de cuisson",
+    "es": "bandeja de horno",
+    "it": "teglia",
+    "pt": "assadeira",
+    "tr": "fırın tepsisi"
+   },
+   "ex": {
+    "en": "Put the cookies on a baking tray."
+   }
+  },
+  {
+   "id": "food.creamy",
+   "t": {
+    "en": "creamy",
+    "uk": "вершковий",
+    "ru": "сливочный",
+    "pl": "kremowy",
+    "de": "cremig",
+    "fr": "crémeux",
+    "es": "cremoso",
+    "it": "cremoso",
+    "pt": "cremoso",
+    "tr": "kremamsı"
+   },
+   "ex": {
+    "en": "This soup is rich and creamy."
+   }
+  },
+  {
+   "id": "food.crunchy",
+   "t": {
+    "en": "crunchy",
+    "uk": "хрусткий",
+    "ru": "хрустящий",
+    "pl": "chrupiący",
+    "de": "knackig",
+    "fr": "croquant",
+    "es": "crujiente",
+    "it": "croccante",
+    "pt": "crocante",
+    "tr": "kıtır"
+   },
+   "ex": {
+    "en": "I like crunchy apples."
+   }
+  },
+  {
+   "id": "food.greasy",
+   "t": {
+    "en": "greasy",
+    "uk": "жирний",
+    "ru": "жирный",
+    "pl": "tłusty",
+    "de": "fettig",
+    "fr": "gras",
+    "es": "grasiento",
+    "it": "unto",
+    "pt": "gorduroso",
+    "tr": "yağlı"
+   },
+   "ex": {
+    "en": "The chips were too greasy."
+   }
+  },
+  {
+   "id": "food.chewy",
+   "t": {
+    "en": "chewy",
+    "uk": "тягучий",
+    "ru": "тягучий",
+    "pl": "gumowaty",
+    "de": "zäh",
+    "fr": "caoutchouteux",
+    "es": "correoso",
+    "it": "gommoso",
+    "pt": "borrachudo",
+    "tr": "çiğnemesi zor"
+   },
+   "ex": {
+    "en": "The meat was a bit chewy."
+   }
+  },
+  {
+   "id": "food.tap-water",
+   "t": {
+    "en": "tap water",
+    "uk": "вода з-під крана",
+    "ru": "водопроводная вода",
+    "pl": "woda z kranu",
+    "de": "Leitungswasser",
+    "fr": "eau du robinet",
+    "es": "agua del grifo",
+    "it": "acqua del rubinetto",
+    "pt": "água da torneira",
+    "tr": "musluk suyu"
+   },
+   "ex": {
+    "en": "Is the tap water safe to drink?"
+   }
+  },
+  {
+   "id": "food.decaf",
+   "t": {
+    "en": "decaf",
+    "uk": "кава без кофеїну",
+    "ru": "кофе без кофеина",
+    "pl": "kawa bezkofeinowa",
+    "de": "entkoffeinierter Kaffee",
+    "fr": "déca",
+    "es": "descafeinado",
+    "it": "decaffeinato",
+    "pt": "descafeinado",
+    "tr": "kafeinsiz kahve"
+   },
+   "ex": {
+    "en": "I drink decaf in the evening."
+   }
+  },
+  {
+   "id": "food.dairy-free",
+   "t": {
+    "en": "dairy-free",
+    "uk": "без молочних продуктів",
+    "ru": "без молочных продуктов",
+    "pl": "bez nabiału",
+    "de": "milchfrei",
+    "fr": "sans produits laitiers",
+    "es": "sin lácteos",
+    "it": "senza latticini",
+    "pt": "sem laticínios",
+    "tr": "süt ürünü içermeyen"
+   },
+   "ex": {
+    "en": "Is this dessert dairy-free?"
+   }
+  },
+  {
+   "id": "food.picky-eater",
+   "t": {
+    "en": "picky eater",
+    "uk": "перебірливий у їжі",
+    "ru": "привередливый в еде",
+    "pl": "niejadek",
+    "de": "wählerischer Esser",
+    "fr": "mangeur difficile",
+    "es": "quisquilloso con la comida",
+    "it": "schizzinoso",
+    "pt": "chato para comer",
+    "tr": "yemek seçen"
+   },
+   "ex": {
+    "en": "My son is a picky eater."
+   }
+  },
+  {
+   "id": "food.todays-special",
+   "t": {
+    "en": "today's special",
+    "uk": "страва дня",
+    "ru": "блюдо дня",
+    "pl": "danie dnia",
+    "de": "Tagesgericht",
+    "fr": "plat du jour",
+    "es": "plato del día",
+    "it": "piatto del giorno",
+    "pt": "prato do dia",
+    "tr": "günün yemeği"
+   },
+   "ex": {
+    "en": "What's today's special?"
+   }
+  },
+  {
+   "id": "food.skimmed-milk",
+   "t": {
+    "en": "skimmed milk",
+    "uk": "знежирене молоко",
+    "ru": "обезжиренное молоко",
+    "pl": "mleko odtłuszczone",
+    "de": "Magermilch",
+    "fr": "lait écrémé",
+    "es": "leche desnatada",
+    "it": "latte scremato",
+    "pt": "leite desnatado",
+    "tr": "yağsız süt"
+   },
+   "ex": {
+    "en": "I use skimmed milk in my tea."
+   }
+  },
+  {
+   "id": "food.wine-list",
+   "t": {
+    "en": "wine list",
+    "uk": "винна карта",
+    "ru": "винная карта",
+    "pl": "karta win",
+    "de": "Weinkarte",
+    "fr": "carte des vins",
+    "es": "carta de vinos",
+    "it": "carta dei vini",
+    "pt": "carta de vinhos",
+    "tr": "şarap listesi"
+   },
+   "ex": {
+    "en": "Could we see the wine list?"
    }
   }
  ]

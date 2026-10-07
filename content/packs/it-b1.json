@@ -2,7 +2,7 @@
  "id": "it-b1",
  "topic": "it",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "it.software",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Our shop is first in the search results."
+   }
+  },
+  {
+   "id": "it.file-format",
+   "t": {
+    "en": "file format",
+    "uk": "формат файлу",
+    "ru": "формат файла",
+    "pl": "format pliku",
+    "de": "Dateiformat",
+    "fr": "format de fichier",
+    "es": "formato de archivo",
+    "it": "formato del file",
+    "pt": "formato de arquivo",
+    "tr": "dosya biçimi"
+   },
+   "ex": {
+    "en": "This file format is not supported."
+   }
+  },
+  {
+   "id": "it.file-size",
+   "t": {
+    "en": "file size",
+    "uk": "розмір файлу",
+    "ru": "размер файла",
+    "pl": "rozmiar pliku",
+    "de": "Dateigröße",
+    "fr": "taille du fichier",
+    "es": "tamaño del archivo",
+    "it": "dimensione del file",
+    "pt": "tamanho do arquivo",
+    "tr": "dosya boyutu"
+   },
+   "ex": {
+    "en": "The file size is too big to email."
+   }
+  },
+  {
+   "id": "it.zip-file",
+   "t": {
+    "en": "zip file",
+    "uk": "ZIP-архів",
+    "ru": "ZIP-архив",
+    "pl": "plik ZIP",
+    "de": "ZIP-Datei",
+    "fr": "fichier ZIP",
+    "es": "archivo ZIP",
+    "it": "file ZIP",
+    "pt": "arquivo ZIP",
+    "tr": "ZIP dosyası"
+   },
+   "ex": {
+    "en": "I'll send all the photos in a zip file."
+   }
+  },
+  {
+   "id": "it.to-unzip",
+   "t": {
+    "en": "to unzip",
+    "uk": "розпакувати",
+    "ru": "распаковать",
+    "pl": "rozpakować",
+    "de": "entpacken",
+    "fr": "décompresser",
+    "es": "descomprimir",
+    "it": "decomprimere",
+    "pt": "descompactar",
+    "tr": "zipten çıkarmak"
+   },
+   "ex": {
+    "en": "Unzip the folder before you open it."
+   }
+  },
+  {
+   "id": "it.to-convert",
+   "t": {
+    "en": "to convert",
+    "uk": "конвертувати",
+    "ru": "конвертировать",
+    "pl": "konwertować",
+    "de": "konvertieren",
+    "fr": "convertir",
+    "es": "convertir",
+    "it": "convertire",
+    "pt": "converter",
+    "tr": "dönüştürmek"
+   },
+   "ex": {
+    "en": "Convert the document to PDF."
+   }
+  },
+  {
+   "id": "it.security-update",
+   "t": {
+    "en": "security update",
+    "uk": "оновлення безпеки",
+    "ru": "обновление безопасности",
+    "pl": "aktualizacja zabezpieczeń",
+    "de": "Sicherheitsupdate",
+    "fr": "mise à jour de sécurité",
+    "es": "actualización de seguridad",
+    "it": "aggiornamento di sicurezza",
+    "pt": "atualização de segurança",
+    "tr": "güvenlik güncellemesi"
+   },
+   "ex": {
+    "en": "Install the security update today."
+   }
+  },
+  {
+   "id": "it.software-update",
+   "t": {
+    "en": "software update",
+    "uk": "оновлення програми",
+    "ru": "обновление программы",
+    "pl": "aktualizacja oprogramowania",
+    "de": "Softwareupdate",
+    "fr": "mise à jour logicielle",
+    "es": "actualización de software",
+    "it": "aggiornamento software",
+    "pt": "atualização de software",
+    "tr": "yazılım güncellemesi"
+   },
+   "ex": {
+    "en": "A software update is available."
+   }
+  },
+  {
+   "id": "it.incompatible",
+   "t": {
+    "en": "incompatible",
+    "uk": "несумісний",
+    "ru": "несовместимый",
+    "pl": "niekompatybilny",
+    "de": "inkompatibel",
+    "fr": "incompatible",
+    "es": "incompatible",
+    "it": "incompatibile",
+    "pt": "incompatível",
+    "tr": "uyumsuz"
+   },
+   "ex": {
+    "en": "This app is incompatible with my phone."
+   }
+  },
+  {
+   "id": "it.plug-in",
+   "t": {
+    "en": "plug-in",
+    "uk": "плагін",
+    "ru": "плагин",
+    "pl": "wtyczka",
+    "de": "Plug-in",
+    "fr": "plug-in",
+    "es": "complemento",
+    "it": "plug-in",
+    "pt": "plug-in",
+    "tr": "eklenti"
+   },
+   "ex": {
+    "en": "You need a plug-in to play the video."
+   }
+  },
+  {
+   "id": "it.cookie",
+   "t": {
+    "en": "cookie",
+    "uk": "файл cookie",
+    "ru": "файл cookie",
+    "pl": "plik cookie",
+    "de": "Cookie",
+    "fr": "cookie",
+    "es": "cookie",
+    "it": "cookie",
+    "pt": "cookie",
+    "tr": "çerez"
+   },
+   "ex": {
+    "en": "This website uses cookies."
+   }
+  },
+  {
+   "id": "it.to-clear-the-cache",
+   "t": {
+    "en": "to clear the cache",
+    "uk": "очистити кеш",
+    "ru": "очистить кэш",
+    "pl": "wyczyścić pamięć podręczną",
+    "de": "den Cache leeren",
+    "fr": "vider le cache",
+    "es": "borrar la caché",
+    "it": "svuotare la cache",
+    "pt": "limpar o cache",
+    "tr": "önbelleği temizlemek"
+   },
+   "ex": {
+    "en": "Try to clear the cache and reload."
+   }
+  },
+  {
+   "id": "it.browsing-history",
+   "t": {
+    "en": "browsing history",
+    "uk": "історія переглядів",
+    "ru": "история просмотров",
+    "pl": "historia przeglądania",
+    "de": "Browserverlauf",
+    "fr": "historique de navigation",
+    "es": "historial de navegación",
+    "it": "cronologia",
+    "pt": "histórico de navegação",
+    "tr": "tarama geçmişi"
+   },
+   "ex": {
+    "en": "I deleted my browsing history."
+   }
+  },
+  {
+   "id": "it.incognito-mode",
+   "t": {
+    "en": "incognito mode",
+    "uk": "режим інкогніто",
+    "ru": "режим инкогнито",
+    "pl": "tryb incognito",
+    "de": "Inkognito-Modus",
+    "fr": "navigation privée",
+    "es": "modo incógnito",
+    "it": "modalità in incognito",
+    "pt": "modo anônimo",
+    "tr": "gizli mod"
+   },
+   "ex": {
+    "en": "Use incognito mode on a shared computer."
+   }
+  },
+  {
+   "id": "it.ad-blocker",
+   "t": {
+    "en": "ad blocker",
+    "uk": "блокувальник реклами",
+    "ru": "блокировщик рекламы",
+    "pl": "bloker reklam",
+    "de": "Werbeblocker",
+    "fr": "bloqueur de publicités",
+    "es": "bloqueador de anuncios",
+    "it": "blocco annunci",
+    "pt": "bloqueador de anúncios",
+    "tr": "reklam engelleyici"
+   },
+   "ex": {
+    "en": "Please turn off your ad blocker."
+   }
+  },
+  {
+   "id": "it.to-report-a-bug",
+   "t": {
+    "en": "to report a bug",
+    "uk": "повідомити про помилку",
+    "ru": "сообщить об ошибке",
+    "pl": "zgłosić błąd",
+    "de": "einen Fehler melden",
+    "fr": "signaler un bug",
+    "es": "informar de un error",
+    "it": "segnalare un bug",
+    "pt": "relatar um bug",
+    "tr": "hata bildirmek"
+   },
+   "ex": {
+    "en": "Users can report a bug in the app."
+   }
+  },
+  {
+   "id": "it.help-desk",
+   "t": {
+    "en": "help desk",
+    "uk": "служба підтримки",
+    "ru": "служба поддержки",
+    "pl": "dział pomocy",
+    "de": "Helpdesk",
+    "fr": "service d'assistance",
+    "es": "servicio de asistencia",
+    "it": "help desk",
+    "pt": "central de ajuda",
+    "tr": "yardım masası"
+   },
+   "ex": {
+    "en": "Call the help desk if you can't log in."
+   }
+  },
+  {
+   "id": "it.it-department",
+   "t": {
+    "en": "IT department",
+    "uk": "ІТ-відділ",
+    "ru": "IT-отдел",
+    "pl": "dział IT",
+    "de": "IT-Abteilung",
+    "fr": "service informatique",
+    "es": "departamento de informática",
+    "it": "reparto IT",
+    "pt": "departamento de TI",
+    "tr": "BT departmanı"
+   },
+   "ex": {
+    "en": "The IT department gave me a new laptop."
+   }
+  },
+  {
+   "id": "it.administrator",
+   "t": {
+    "en": "administrator",
+    "uk": "адміністратор",
+    "ru": "администратор",
+    "pl": "administrator",
+    "de": "Administrator",
+    "fr": "administrateur",
+    "es": "administrador",
+    "it": "amministratore",
+    "pt": "administrador",
+    "tr": "yönetici"
+   },
+   "ex": {
+    "en": "Ask the administrator for access."
+   }
+  },
+  {
+   "id": "it.programmer",
+   "t": {
+    "en": "programmer",
+    "uk": "програміст",
+    "ru": "программист",
+    "pl": "programista",
+    "de": "Programmierer",
+    "fr": "programmeur",
+    "es": "programador",
+    "it": "programmatore",
+    "pt": "programador",
+    "tr": "programcı"
+   },
+   "ex": {
+    "en": "My brother works as a programmer."
+   }
+  },
+  {
+   "id": "it.web-developer",
+   "t": {
+    "en": "web developer",
+    "uk": "веброзробник",
+    "ru": "веб-разработчик",
+    "pl": "programista stron internetowych",
+    "de": "Webentwickler",
+    "fr": "développeur web",
+    "es": "desarrollador web",
+    "it": "sviluppatore web",
+    "pt": "desenvolvedor web",
+    "tr": "web geliştirici"
+   },
+   "ex": {
+    "en": "We hired a web developer for our site."
+   }
+  },
+  {
+   "id": "it.domain-name",
+   "t": {
+    "en": "domain name",
+    "uk": "доменне ім'я",
+    "ru": "доменное имя",
+    "pl": "nazwa domeny",
+    "de": "Domainname",
+    "fr": "nom de domaine",
+    "es": "nombre de dominio",
+    "it": "nome di dominio",
+    "pt": "nome de domínio",
+    "tr": "alan adı"
+   },
+   "ex": {
+    "en": "We bought a new domain name."
+   }
+  },
+  {
+   "id": "it.web-hosting",
+   "t": {
+    "en": "web hosting",
+    "uk": "вебхостинг",
+    "ru": "веб-хостинг",
+    "pl": "hosting",
+    "de": "Webhosting",
+    "fr": "hébergement web",
+    "es": "alojamiento web",
+    "it": "hosting",
+    "pt": "hospedagem de sites",
+    "tr": "web barındırma"
+   },
+   "ex": {
+    "en": "Web hosting costs ten euros a month."
+   }
+  },
+  {
+   "id": "it.url",
+   "t": {
+    "en": "URL",
+    "uk": "URL-адреса",
+    "ru": "URL-адрес",
+    "pl": "adres URL",
+    "de": "URL",
+    "fr": "URL",
+    "es": "URL",
+    "it": "URL",
+    "pt": "URL",
+    "tr": "URL"
+   },
+   "ex": {
+    "en": "Copy the URL from the address bar."
+   }
+  },
+  {
+   "id": "it.web-page",
+   "t": {
+    "en": "web page",
+    "uk": "вебсторінка",
+    "ru": "веб-страница",
+    "pl": "strona internetowa",
+    "de": "Webseite",
+    "fr": "page web",
+    "es": "página web",
+    "it": "pagina web",
+    "pt": "página da web",
+    "tr": "web sayfası"
+   },
+   "ex": {
+    "en": "The web page won't load."
+   }
+  },
+  {
+   "id": "it.online-form",
+   "t": {
+    "en": "online form",
+    "uk": "онлайн-форма",
+    "ru": "онлайн-форма",
+    "pl": "formularz online",
+    "de": "Online-Formular",
+    "fr": "formulaire en ligne",
+    "es": "formulario en línea",
+    "it": "modulo online",
+    "pt": "formulário on-line",
+    "tr": "çevrimiçi form"
+   },
+   "ex": {
+    "en": "Fill in the online form to register."
+   }
+  },
+  {
+   "id": "it.drop-down-menu",
+   "t": {
+    "en": "drop-down menu",
+    "uk": "випадне меню",
+    "ru": "выпадающее меню",
+    "pl": "menu rozwijane",
+    "de": "Dropdown-Menü",
+    "fr": "menu déroulant",
+    "es": "menú desplegable",
+    "it": "menu a tendina",
+    "pt": "menu suspenso",
+    "tr": "açılır menü"
+   },
+   "ex": {
+    "en": "Choose your country from the drop-down menu."
+   }
+  },
+  {
+   "id": "it.checkbox",
+   "t": {
+    "en": "checkbox",
+    "uk": "прапорець",
+    "ru": "флажок",
+    "pl": "pole wyboru",
+    "de": "Kontrollkästchen",
+    "fr": "case à cocher",
+    "es": "casilla",
+    "it": "casella di controllo",
+    "pt": "caixa de seleção",
+    "tr": "onay kutusu"
+   },
+   "ex": {
+    "en": "Tick the checkbox to agree."
+   }
+  },
+  {
+   "id": "it.toolbar",
+   "t": {
+    "en": "toolbar",
+    "uk": "панель інструментів",
+    "ru": "панель инструментов",
+    "pl": "pasek narzędzi",
+    "de": "Symbolleiste",
+    "fr": "barre d'outils",
+    "es": "barra de herramientas",
+    "it": "barra degli strumenti",
+    "pt": "barra de ferramentas",
+    "tr": "araç çubuğu"
+   },
+   "ex": {
+    "en": "The save button is on the toolbar."
+   }
+  },
+  {
+   "id": "it.sidebar",
+   "t": {
+    "en": "sidebar",
+    "uk": "бічна панель",
+    "ru": "боковая панель",
+    "pl": "pasek boczny",
+    "de": "Seitenleiste",
+    "fr": "barre latérale",
+    "es": "barra lateral",
+    "it": "barra laterale",
+    "pt": "barra lateral",
+    "tr": "kenar çubuğu"
+   },
+   "ex": {
+    "en": "Your folders are in the sidebar."
+   }
+  },
+  {
+   "id": "it.full-screen",
+   "t": {
+    "en": "full screen",
+    "uk": "повноекранний режим",
+    "ru": "полноэкранный режим",
+    "pl": "pełny ekran",
+    "de": "Vollbild",
+    "fr": "plein écran",
+    "es": "pantalla completa",
+    "it": "schermo intero",
+    "pt": "tela cheia",
+    "tr": "tam ekran"
+   },
+   "ex": {
+    "en": "Watch the video in full screen."
+   }
+  },
+  {
+   "id": "it.resolution",
+   "t": {
+    "en": "resolution",
+    "uk": "роздільна здатність",
+    "ru": "разрешение",
+    "pl": "rozdzielczość",
+    "de": "Auflösung",
+    "fr": "résolution",
+    "es": "resolución",
+    "it": "risoluzione",
+    "pt": "resolução",
+    "tr": "çözünürlük"
+   },
+   "ex": {
+    "en": "The screen has a high resolution."
+   }
+  },
+  {
+   "id": "it.pixel",
+   "t": {
+    "en": "pixel",
+    "uk": "піксель",
+    "ru": "пиксель",
+    "pl": "piksel",
+    "de": "Pixel",
+    "fr": "pixel",
+    "es": "píxel",
+    "it": "pixel",
+    "pt": "pixel",
+    "tr": "piksel"
+   },
+   "ex": {
+    "en": "The image is 800 pixels wide."
+   }
+  },
+  {
+   "id": "it.processor",
+   "t": {
+    "en": "processor",
+    "uk": "процесор",
+    "ru": "процессор",
+    "pl": "procesor",
+    "de": "Prozessor",
+    "fr": "processeur",
+    "es": "procesador",
+    "it": "processore",
+    "pt": "processador",
+    "tr": "işlemci"
+   },
+   "ex": {
+    "en": "This laptop has a fast processor."
+   }
+  },
+  {
+   "id": "it.ram",
+   "t": {
+    "en": "RAM",
+    "uk": "оперативна пам'ять",
+    "ru": "оперативная память",
+    "pl": "pamięć RAM",
+    "de": "Arbeitsspeicher",
+    "fr": "mémoire vive",
+    "es": "memoria RAM",
+    "it": "memoria RAM",
+    "pt": "memória RAM",
+    "tr": "RAM"
+   },
+   "ex": {
+    "en": "My computer needs more RAM."
+   }
+  },
+  {
+   "id": "it.graphics-card",
+   "t": {
+    "en": "graphics card",
+    "uk": "відеокарта",
+    "ru": "видеокарта",
+    "pl": "karta graficzna",
+    "de": "Grafikkarte",
+    "fr": "carte graphique",
+    "es": "tarjeta gráfica",
+    "it": "scheda grafica",
+    "pt": "placa de vídeo",
+    "tr": "ekran kartı"
+   },
+   "ex": {
+    "en": "Gamers need a good graphics card."
+   }
+  },
+  {
+   "id": "it.motherboard",
+   "t": {
+    "en": "motherboard",
+    "uk": "материнська плата",
+    "ru": "материнская плата",
+    "pl": "płyta główna",
+    "de": "Hauptplatine",
+    "fr": "carte mère",
+    "es": "placa base",
+    "it": "scheda madre",
+    "pt": "placa-mãe",
+    "tr": "anakart"
+   },
+   "ex": {
+    "en": "The motherboard is damaged."
+   }
+  },
+  {
+   "id": "it.port",
+   "t": {
+    "en": "port",
+    "uk": "порт",
+    "ru": "порт",
+    "pl": "port",
+    "de": "Anschluss",
+    "fr": "port",
+    "es": "puerto",
+    "it": "porta",
+    "pt": "porta",
+    "tr": "bağlantı noktası"
+   },
+   "ex": {
+    "en": "My laptop has only two USB ports."
+   }
+  },
+  {
+   "id": "it.hdmi-cable",
+   "t": {
+    "en": "HDMI cable",
+    "uk": "HDMI-кабель",
+    "ru": "HDMI-кабель",
+    "pl": "kabel HDMI",
+    "de": "HDMI-Kabel",
+    "fr": "câble HDMI",
+    "es": "cable HDMI",
+    "it": "cavo HDMI",
+    "pt": "cabo HDMI",
+    "tr": "HDMI kablosu"
+   },
+   "ex": {
+    "en": "Connect the laptop with an HDMI cable."
+   }
+  },
+  {
+   "id": "it.adapter",
+   "t": {
+    "en": "adapter",
+    "uk": "адаптер",
+    "ru": "адаптер",
+    "pl": "przejściówka",
+    "de": "Adapter",
+    "fr": "adaptateur",
+    "es": "adaptador",
+    "it": "adattatore",
+    "pt": "adaptador",
+    "tr": "adaptör"
+   },
+   "ex": {
+    "en": "I need an adapter for this port."
+   }
+  },
+  {
+   "id": "it.external-hard-drive",
+   "t": {
+    "en": "external hard drive",
+    "uk": "зовнішній жорсткий диск",
+    "ru": "внешний жёсткий диск",
+    "pl": "dysk zewnętrzny",
+    "de": "externe Festplatte",
+    "fr": "disque dur externe",
+    "es": "disco duro externo",
+    "it": "hard disk esterno",
+    "pt": "HD externo",
+    "tr": "harici sabit disk"
+   },
+   "ex": {
+    "en": "I keep my photos on an external hard drive."
+   }
+  },
+  {
+   "id": "it.tech-savvy",
+   "t": {
+    "en": "tech-savvy",
+    "uk": "обізнаний у технологіях",
+    "ru": "разбирающийся в технике",
+    "pl": "obeznany z technologią",
+    "de": "technikaffin",
+    "fr": "calé en informatique",
+    "es": "experto en tecnología",
+    "it": "esperto di tecnologia",
+    "pt": "antenado em tecnologia",
+    "tr": "teknolojiden anlayan"
+   },
+   "ex": {
+    "en": "My grandma is surprisingly tech-savvy."
+   }
+  },
+  {
+   "id": "it.computer-literate",
+   "t": {
+    "en": "computer literate",
+    "uk": "комп'ютерно грамотний",
+    "ru": "компьютерно грамотный",
+    "pl": "umiejący obsługiwać komputer",
+    "de": "computerkundig",
+    "fr": "à l'aise en informatique",
+    "es": "con conocimientos informáticos",
+    "it": "esperto di computer",
+    "pt": "com conhecimentos de informática",
+    "tr": "bilgisayar okuryazarı"
+   },
+   "ex": {
+    "en": "Applicants must be computer literate."
+   }
+  },
+  {
+   "id": "it.digital-skills",
+   "t": {
+    "en": "digital skills",
+    "uk": "цифрові навички",
+    "ru": "цифровые навыки",
+    "pl": "umiejętności cyfrowe",
+    "de": "digitale Kompetenzen",
+    "fr": "compétences numériques",
+    "es": "competencias digitales",
+    "it": "competenze digitali",
+    "pt": "habilidades digitais",
+    "tr": "dijital beceriler"
+   },
+   "ex": {
+    "en": "The course improves your digital skills."
+   }
+  },
+  {
+   "id": "it.video-conference",
+   "t": {
+    "en": "video conference",
+    "uk": "відеоконференція",
+    "ru": "видеоконференция",
+    "pl": "wideokonferencja",
+    "de": "Videokonferenz",
+    "fr": "visioconférence",
+    "es": "videoconferencia",
+    "it": "videoconferenza",
+    "pt": "videoconferência",
+    "tr": "video konferans"
+   },
+   "ex": {
+    "en": "We have a video conference at ten."
+   }
+  },
+  {
+   "id": "it.to-lag",
+   "t": {
+    "en": "to lag",
+    "uk": "гальмувати",
+    "ru": "тормозить",
+    "pl": "lagować",
+    "de": "ruckeln",
+    "fr": "ramer",
+    "es": "ir con retraso",
+    "it": "andare a scatti",
+    "pt": "travar",
+    "tr": "kasmak"
+   },
+   "ex": {
+    "en": "The game lags when the internet is slow."
+   }
+  },
+  {
+   "id": "it.buffering",
+   "t": {
+    "en": "buffering",
+    "uk": "буферизація",
+    "ru": "буферизация",
+    "pl": "buforowanie",
+    "de": "Puffern",
+    "fr": "mise en mémoire tampon",
+    "es": "almacenamiento en búfer",
+    "it": "buffering",
+    "pt": "carregamento",
+    "tr": "arabelleğe alma"
+   },
+   "ex": {
+    "en": "The video keeps buffering."
+   }
+  },
+  {
+   "id": "it.slow-connection",
+   "t": {
+    "en": "slow connection",
+    "uk": "повільне з'єднання",
+    "ru": "медленное соединение",
+    "pl": "wolne połączenie",
+    "de": "langsame Verbindung",
+    "fr": "connexion lente",
+    "es": "conexión lenta",
+    "it": "connessione lenta",
+    "pt": "conexão lenta",
+    "tr": "yavaş bağlantı"
+   },
+   "ex": {
+    "en": "I have a slow connection today."
+   }
+  },
+  {
+   "id": "it.to-overheat",
+   "t": {
+    "en": "to overheat",
+    "uk": "перегріватися",
+    "ru": "перегреваться",
+    "pl": "przegrzewać się",
+    "de": "überhitzen",
+    "fr": "surchauffer",
+    "es": "sobrecalentarse",
+    "it": "surriscaldarsi",
+    "pt": "superaquecer",
+    "tr": "aşırı ısınmak"
+   },
+   "ex": {
+    "en": "My laptop overheats in summer."
+   }
+  },
+  {
+   "id": "it.out-of-date",
+   "t": {
+    "en": "out of date",
+    "uk": "застарілий",
+    "ru": "устаревший",
+    "pl": "nieaktualny",
+    "de": "veraltet",
+    "fr": "obsolète",
+    "es": "obsoleto",
+    "it": "obsoleto",
+    "pt": "desatualizado",
+    "tr": "güncel olmayan"
+   },
+   "ex": {
+    "en": "Your browser is out of date."
+   }
+  },
+  {
+   "id": "it.it-technician",
+   "t": {
+    "en": "IT technician",
+    "uk": "ІТ-технік",
+    "ru": "IT-техник",
+    "pl": "technik IT",
+    "de": "IT-Techniker",
+    "fr": "technicien informatique",
+    "es": "técnico informático",
+    "it": "tecnico informatico",
+    "pt": "técnico de TI",
+    "tr": "BT teknisyeni"
+   },
+   "ex": {
+    "en": "The IT technician fixed my printer."
    }
   }
  ]

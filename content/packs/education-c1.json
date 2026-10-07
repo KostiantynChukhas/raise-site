@@ -2,7 +2,7 @@
  "id": "education-c1",
  "topic": "education",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "education.academia",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "My tutor is pedantic about commas."
+   }
+  },
+  {
+   "id": "education.to-matriculate",
+   "t": {
+    "en": "to matriculate",
+    "uk": "вступати до університету",
+    "ru": "поступать в университет",
+    "pl": "immatrykulować się",
+    "de": "sich immatrikulieren",
+    "fr": "s'inscrire à l'université",
+    "es": "matricularse",
+    "it": "immatricolarsi",
+    "pt": "matricular-se",
+    "tr": "üniversiteye kaydolmak"
+   },
+   "ex": {
+    "en": "He matriculated at Oxford in 1990."
+   }
+  },
+  {
+   "id": "education.professor-emeritus",
+   "t": {
+    "en": "professor emeritus",
+    "uk": "почесний професор",
+    "ru": "почётный профессор",
+    "pl": "profesor emerytowany",
+    "de": "emeritierter Professor",
+    "fr": "professeur émérite",
+    "es": "profesor emérito",
+    "it": "professore emerito",
+    "pt": "professor emérito",
+    "tr": "emekli profesör"
+   },
+   "ex": {
+    "en": "He is now a professor emeritus."
+   }
+  },
+  {
+   "id": "education.honorary-degree",
+   "t": {
+    "en": "honorary degree",
+    "uk": "почесний ступінь",
+    "ru": "почётная степень",
+    "pl": "doktorat honoris causa",
+    "de": "Ehrendoktorwürde",
+    "fr": "doctorat honoris causa",
+    "es": "doctorado honoris causa",
+    "it": "laurea honoris causa",
+    "pt": "doutorado honoris causa",
+    "tr": "fahri doktora"
+   },
+   "ex": {
+    "en": "She received an honorary degree."
+   }
+  },
+  {
+   "id": "education.postdoc",
+   "t": {
+    "en": "postdoc",
+    "uk": "постдок",
+    "ru": "постдок",
+    "pl": "postdok",
+    "de": "Postdoc",
+    "fr": "postdoctorant",
+    "es": "investigador posdoctoral",
+    "it": "ricercatore post-dottorato",
+    "pt": "pós-doutorando",
+    "tr": "doktora sonrası araştırmacı"
+   },
+   "ex": {
+    "en": "He works as a postdoc in Berlin."
+   }
+  },
+  {
+   "id": "education.research-grant",
+   "t": {
+    "en": "research grant",
+    "uk": "дослідницький грант",
+    "ru": "исследовательский грант",
+    "pl": "grant badawczy",
+    "de": "Forschungsstipendium",
+    "fr": "bourse de recherche",
+    "es": "beca de investigación",
+    "it": "borsa di ricerca",
+    "pt": "bolsa de pesquisa",
+    "tr": "araştırma bursu"
+   },
+   "ex": {
+    "en": "They won a large research grant."
+   }
+  },
+  {
+   "id": "education.grant-proposal",
+   "t": {
+    "en": "grant proposal",
+    "uk": "грантова заявка",
+    "ru": "грантовая заявка",
+    "pl": "wniosek grantowy",
+    "de": "Förderantrag",
+    "fr": "demande de subvention",
+    "es": "solicitud de subvención",
+    "it": "proposta di finanziamento",
+    "pt": "proposta de financiamento",
+    "tr": "hibe başvurusu"
+   },
+   "ex": {
+    "en": "The grant proposal is due in May."
+   }
+  },
+  {
+   "id": "education.impact-factor",
+   "t": {
+    "en": "impact factor",
+    "uk": "імпакт-фактор",
+    "ru": "импакт-фактор",
+    "pl": "współczynnik wpływu",
+    "de": "Impact-Faktor",
+    "fr": "facteur d'impact",
+    "es": "factor de impacto",
+    "it": "fattore di impatto",
+    "pt": "fator de impacto",
+    "tr": "etki faktörü"
+   },
+   "ex": {
+    "en": "The journal has a high impact factor."
+   }
+  },
+  {
+   "id": "education.to-publish",
+   "t": {
+    "en": "to publish",
+    "uk": "публікувати",
+    "ru": "публиковать",
+    "pl": "publikować",
+    "de": "veröffentlichen",
+    "fr": "publier",
+    "es": "publicar",
+    "it": "pubblicare",
+    "pt": "publicar",
+    "tr": "yayımlamak"
+   },
+   "ex": {
+    "en": "She published three papers last year."
+   }
+  },
+  {
+   "id": "education.journal-article",
+   "t": {
+    "en": "journal article",
+    "uk": "стаття в журналі",
+    "ru": "статья в журнале",
+    "pl": "artykuł w czasopiśmie",
+    "de": "Zeitschriftenartikel",
+    "fr": "article de revue",
+    "es": "artículo de revista",
+    "it": "articolo di rivista",
+    "pt": "artigo de periódico",
+    "tr": "dergi makalesi"
+   },
+   "ex": {
+    "en": "Cite at least five journal articles."
+   }
+  },
+  {
+   "id": "education.monograph",
+   "t": {
+    "en": "monograph",
+    "uk": "монографія",
+    "ru": "монография",
+    "pl": "monografia",
+    "de": "Monografie",
+    "fr": "monographie",
+    "es": "monografía",
+    "it": "monografia",
+    "pt": "monografia",
+    "tr": "monografi"
+   },
+   "ex": {
+    "en": "His monograph took ten years to write."
+   }
+  },
+  {
+   "id": "education.treatise",
+   "t": {
+    "en": "treatise",
+    "uk": "трактат",
+    "ru": "трактат",
+    "pl": "traktat",
+    "de": "Abhandlung",
+    "fr": "traité",
+    "es": "tratado",
+    "it": "trattato",
+    "pt": "tratado",
+    "tr": "risale"
+   },
+   "ex": {
+    "en": "It's a treatise on political power."
+   }
+  },
+  {
+   "id": "education.discourse",
+   "t": {
+    "en": "discourse",
+    "uk": "дискурс",
+    "ru": "дискурс",
+    "pl": "dyskurs",
+    "de": "Diskurs",
+    "fr": "discours",
+    "es": "discurso",
+    "it": "discorso",
+    "pt": "discurso",
+    "tr": "söylem"
+   },
+   "ex": {
+    "en": "Political discourse has become harsher."
+   }
+  },
+  {
+   "id": "education.epistemology",
+   "t": {
+    "en": "epistemology",
+    "uk": "епістемологія",
+    "ru": "эпистемология",
+    "pl": "epistemologia",
+    "de": "Erkenntnistheorie",
+    "fr": "épistémologie",
+    "es": "epistemología",
+    "it": "epistemologia",
+    "pt": "epistemologia",
+    "tr": "epistemoloji"
+   },
+   "ex": {
+    "en": "Epistemology studies knowledge itself."
+   }
+  },
+  {
+   "id": "education.empirical",
+   "t": {
+    "en": "empirical",
+    "uk": "емпіричний",
+    "ru": "эмпирический",
+    "pl": "empiryczny",
+    "de": "empirisch",
+    "fr": "empirique",
+    "es": "empírico",
+    "it": "empirico",
+    "pt": "empírico",
+    "tr": "ampirik"
+   },
+   "ex": {
+    "en": "There is little empirical evidence."
+   }
+  },
+  {
+   "id": "education.qualitative",
+   "t": {
+    "en": "qualitative",
+    "uk": "якісний",
+    "ru": "качественный",
+    "pl": "jakościowy",
+    "de": "qualitativ",
+    "fr": "qualitatif",
+    "es": "cualitativo",
+    "it": "qualitativo",
+    "pt": "qualitativo",
+    "tr": "nitel"
+   },
+   "ex": {
+    "en": "We used qualitative interviews."
+   }
+  },
+  {
+   "id": "education.quantitative",
+   "t": {
+    "en": "quantitative",
+    "uk": "кількісний",
+    "ru": "количественный",
+    "pl": "ilościowy",
+    "de": "quantitativ",
+    "fr": "quantitatif",
+    "es": "cuantitativo",
+    "it": "quantitativo",
+    "pt": "quantitativo",
+    "tr": "nicel"
+   },
+   "ex": {
+    "en": "The study uses quantitative data."
+   }
+  },
+  {
+   "id": "education.sample-size",
+   "t": {
+    "en": "sample size",
+    "uk": "розмір вибірки",
+    "ru": "размер выборки",
+    "pl": "wielkość próby",
+    "de": "Stichprobengröße",
+    "fr": "taille de l'échantillon",
+    "es": "tamaño de la muestra",
+    "it": "dimensione del campione",
+    "pt": "tamanho da amostra",
+    "tr": "örneklem büyüklüğü"
+   },
+   "ex": {
+    "en": "The sample size was too small."
+   }
+  },
+  {
+   "id": "education.correlation",
+   "t": {
+    "en": "correlation",
+    "uk": "кореляція",
+    "ru": "корреляция",
+    "pl": "korelacja",
+    "de": "Korrelation",
+    "fr": "corrélation",
+    "es": "correlación",
+    "it": "correlazione",
+    "pt": "correlação",
+    "tr": "korelasyon"
+   },
+   "ex": {
+    "en": "There's a strong correlation here."
+   }
+  },
+  {
+   "id": "education.to-substantiate",
+   "t": {
+    "en": "to substantiate",
+    "uk": "обґрунтовувати",
+    "ru": "обосновывать",
+    "pl": "uzasadniać",
+    "de": "untermauern",
+    "fr": "étayer",
+    "es": "fundamentar",
+    "it": "avvalorare",
+    "pt": "fundamentar",
+    "tr": "temellendirmek"
+   },
+   "ex": {
+    "en": "Can you substantiate that claim?"
+   }
+  },
+  {
+   "id": "education.to-corroborate",
+   "t": {
+    "en": "to corroborate",
+    "uk": "підтверджувати",
+    "ru": "подтверждать",
+    "pl": "potwierdzać",
+    "de": "bestätigen",
+    "fr": "corroborer",
+    "es": "corroborar",
+    "it": "corroborare",
+    "pt": "corroborar",
+    "tr": "doğrulamak"
+   },
+   "ex": {
+    "en": "Other studies corroborate these results."
+   }
+  },
+  {
+   "id": "education.to-refute",
+   "t": {
+    "en": "to refute",
+    "uk": "спростовувати",
+    "ru": "опровергать",
+    "pl": "obalać",
+    "de": "widerlegen",
+    "fr": "réfuter",
+    "es": "refutar",
+    "it": "confutare",
+    "pt": "refutar",
+    "tr": "çürütmek"
+   },
+   "ex": {
+    "en": "He refuted the theory convincingly."
+   }
+  },
+  {
+   "id": "education.to-postulate",
+   "t": {
+    "en": "to postulate",
+    "uk": "постулювати",
+    "ru": "постулировать",
+    "pl": "postulować",
+    "de": "postulieren",
+    "fr": "postuler",
+    "es": "postular",
+    "it": "postulare",
+    "pt": "postular",
+    "tr": "varsaymak"
+   },
+   "ex": {
+    "en": "Einstein postulated a constant speed of light."
+   }
+  },
+  {
+   "id": "education.to-extrapolate",
+   "t": {
+    "en": "to extrapolate",
+    "uk": "екстраполювати",
+    "ru": "экстраполировать",
+    "pl": "ekstrapolować",
+    "de": "extrapolieren",
+    "fr": "extrapoler",
+    "es": "extrapolar",
+    "it": "estrapolare",
+    "pt": "extrapolar",
+    "tr": "ekstrapolasyon yapmak"
+   },
+   "ex": {
+    "en": "We can't extrapolate from one case."
+   }
+  },
+  {
+   "id": "education.to-synthesise",
+   "t": {
+    "en": "to synthesise",
+    "uk": "синтезувати",
+    "ru": "синтезировать",
+    "pl": "syntetyzować",
+    "de": "zusammenführen",
+    "fr": "synthétiser",
+    "es": "sintetizar",
+    "it": "sintetizzare",
+    "pt": "sintetizar",
+    "tr": "sentezlemek"
+   },
+   "ex": {
+    "en": "Synthesise the main ideas in one page."
+   }
+  },
+  {
+   "id": "education.paradigm",
+   "t": {
+    "en": "paradigm",
+    "uk": "парадигма",
+    "ru": "парадигма",
+    "pl": "paradygmat",
+    "de": "Paradigma",
+    "fr": "paradigme",
+    "es": "paradigma",
+    "it": "paradigma",
+    "pt": "paradigma",
+    "tr": "paradigma"
+   },
+   "ex": {
+    "en": "It marked a paradigm shift in physics."
+   }
+  },
+  {
+   "id": "education.premise",
+   "t": {
+    "en": "premise",
+    "uk": "засновок",
+    "ru": "предпосылка",
+    "pl": "przesłanka",
+    "de": "Prämisse",
+    "fr": "prémisse",
+    "es": "premisa",
+    "it": "premessa",
+    "pt": "premissa",
+    "tr": "öncül"
+   },
+   "ex": {
+    "en": "The argument rests on a false premise."
+   }
+  },
+  {
+   "id": "education.caveat",
+   "t": {
+    "en": "caveat",
+    "uk": "застереження",
+    "ru": "оговорка",
+    "pl": "zastrzeżenie",
+    "de": "Vorbehalt",
+    "fr": "mise en garde",
+    "es": "salvedad",
+    "it": "avvertenza",
+    "pt": "ressalva",
+    "tr": "çekince"
+   },
+   "ex": {
+    "en": "There is one important caveat."
+   }
+  },
+  {
+   "id": "education.rationale",
+   "t": {
+    "en": "rationale",
+    "uk": "обґрунтування",
+    "ru": "обоснование",
+    "pl": "uzasadnienie",
+    "de": "Begründung",
+    "fr": "justification",
+    "es": "justificación",
+    "it": "motivazione",
+    "pt": "justificativa",
+    "tr": "gerekçe"
+   },
+   "ex": {
+    "en": "Explain the rationale for your choice."
+   }
+  },
+  {
+   "id": "education.academic-integrity",
+   "t": {
+    "en": "academic integrity",
+    "uk": "академічна доброчесність",
+    "ru": "академическая честность",
+    "pl": "uczciwość akademicka",
+    "de": "wissenschaftliche Integrität",
+    "fr": "intégrité académique",
+    "es": "integridad académica",
+    "it": "integrità accademica",
+    "pt": "integridade acadêmica",
+    "tr": "akademik dürüstlük"
+   },
+   "ex": {
+    "en": "Plagiarism violates academic integrity."
+   }
+  },
+  {
+   "id": "education.intellectual-property",
+   "t": {
+    "en": "intellectual property",
+    "uk": "інтелектуальна власність",
+    "ru": "интеллектуальная собственность",
+    "pl": "własność intelektualna",
+    "de": "geistiges Eigentum",
+    "fr": "propriété intellectuelle",
+    "es": "propiedad intelectual",
+    "it": "proprietà intellettuale",
+    "pt": "propriedade intelectual",
+    "tr": "fikri mülkiyet"
+   },
+   "ex": {
+    "en": "The university owns the intellectual property."
+   }
+  },
+  {
+   "id": "education.mentorship",
+   "t": {
+    "en": "mentorship",
+    "uk": "наставництво",
+    "ru": "наставничество",
+    "pl": "mentoring",
+    "de": "Mentoring",
+    "fr": "mentorat",
+    "es": "mentoría",
+    "it": "tutoraggio",
+    "pt": "mentoria",
+    "tr": "mentorluk"
+   },
+   "ex": {
+    "en": "Good mentorship shaped her career."
+   }
+  },
+  {
+   "id": "education.formative-assessment",
+   "t": {
+    "en": "formative assessment",
+    "uk": "формувальне оцінювання",
+    "ru": "формирующее оценивание",
+    "pl": "ocenianie kształtujące",
+    "de": "formative Leistungsbeurteilung",
+    "fr": "évaluation formative",
+    "es": "evaluación formativa",
+    "it": "valutazione formativa",
+    "pt": "avaliação formativa",
+    "tr": "biçimlendirici değerlendirme"
+   },
+   "ex": {
+    "en": "Formative assessment guides teaching."
+   }
+  },
+  {
+   "id": "education.summative-assessment",
+   "t": {
+    "en": "summative assessment",
+    "uk": "підсумкове оцінювання",
+    "ru": "итоговое оценивание",
+    "pl": "ocenianie sumujące",
+    "de": "summative Leistungsbeurteilung",
+    "fr": "évaluation sommative",
+    "es": "evaluación sumativa",
+    "it": "valutazione sommativa",
+    "pt": "avaliação somativa",
+    "tr": "özetleyici değerlendirme"
+   },
+   "ex": {
+    "en": "The final exam is a summative assessment."
+   }
+  },
+  {
+   "id": "education.learning-outcomes",
+   "t": {
+    "en": "learning outcomes",
+    "uk": "результати навчання",
+    "ru": "результаты обучения",
+    "pl": "efekty uczenia się",
+    "de": "Lernergebnisse",
+    "fr": "acquis d'apprentissage",
+    "es": "resultados de aprendizaje",
+    "it": "risultati di apprendimento",
+    "pt": "resultados de aprendizagem",
+    "tr": "öğrenme çıktıları"
+   },
+   "ex": {
+    "en": "Each module lists its learning outcomes."
+   }
+  },
+  {
+   "id": "education.proficiency",
+   "t": {
+    "en": "proficiency",
+    "uk": "рівень володіння",
+    "ru": "уровень владения",
+    "pl": "biegłość",
+    "de": "Beherrschung",
+    "fr": "maîtrise",
+    "es": "dominio",
+    "it": "padronanza",
+    "pt": "proficiência",
+    "tr": "yeterlilik"
+   },
+   "ex": {
+    "en": "You need proof of English proficiency."
+   }
+  },
+  {
+   "id": "education.erudition",
+   "t": {
+    "en": "erudition",
+    "uk": "ерудиція",
+    "ru": "эрудиция",
+    "pl": "erudycja",
+    "de": "Gelehrsamkeit",
+    "fr": "érudition",
+    "es": "erudición",
+    "it": "erudizione",
+    "pt": "erudição",
+    "tr": "engin bilgi"
+   },
+   "ex": {
+    "en": "His erudition impressed everyone."
+   }
+  },
+  {
+   "id": "education.didactic",
+   "t": {
+    "en": "didactic",
+    "uk": "дидактичний",
+    "ru": "дидактический",
+    "pl": "dydaktyczny",
+    "de": "didaktisch",
+    "fr": "didactique",
+    "es": "didáctico",
+    "it": "didattico",
+    "pt": "didático",
+    "tr": "didaktik"
+   },
+   "ex": {
+    "en": "The book is rather didactic in tone."
+   }
+  },
+  {
+   "id": "education.socratic-method",
+   "t": {
+    "en": "Socratic method",
+    "uk": "сократичний метод",
+    "ru": "сократический метод",
+    "pl": "metoda sokratejska",
+    "de": "sokratische Methode",
+    "fr": "méthode socratique",
+    "es": "método socrático",
+    "it": "metodo socratico",
+    "pt": "método socrático",
+    "tr": "Sokratik yöntem"
+   },
+   "ex": {
+    "en": "She teaches using the Socratic method."
+   }
+  },
+  {
+   "id": "education.seminal-work",
+   "t": {
+    "en": "seminal work",
+    "uk": "основоположна праця",
+    "ru": "основополагающий труд",
+    "pl": "przełomowe dzieło",
+    "de": "grundlegendes Werk",
+    "fr": "ouvrage fondateur",
+    "es": "obra fundamental",
+    "it": "opera fondamentale",
+    "pt": "obra seminal",
+    "tr": "çığır açan eser"
+   },
+   "ex": {
+    "en": "It is a seminal work in sociology."
+   }
+  },
+  {
+   "id": "education.liberal-arts",
+   "t": {
+    "en": "liberal arts",
+    "uk": "вільні мистецтва",
+    "ru": "свободные искусства",
+    "pl": "sztuki wyzwolone",
+    "de": "freie Künste",
+    "fr": "arts libéraux",
+    "es": "artes liberales",
+    "it": "arti liberali",
+    "pt": "artes liberais",
+    "tr": "liberal sanatlar"
+   },
+   "ex": {
+    "en": "She studied at a liberal arts college."
+   }
+  },
+  {
+   "id": "education.humanities",
+   "t": {
+    "en": "humanities",
+    "uk": "гуманітарні науки",
+    "ru": "гуманитарные науки",
+    "pl": "nauki humanistyczne",
+    "de": "Geisteswissenschaften",
+    "fr": "lettres et sciences humaines",
+    "es": "humanidades",
+    "it": "discipline umanistiche",
+    "pt": "ciências humanas",
+    "tr": "beşerî bilimler"
+   },
+   "ex": {
+    "en": "Funding for the humanities is falling."
+   }
+  },
+  {
+   "id": "education.social-sciences",
+   "t": {
+    "en": "social sciences",
+    "uk": "суспільні науки",
+    "ru": "общественные науки",
+    "pl": "nauki społeczne",
+    "de": "Sozialwissenschaften",
+    "fr": "sciences sociales",
+    "es": "ciencias sociales",
+    "it": "scienze sociali",
+    "pt": "ciências sociais",
+    "tr": "sosyal bilimler"
+   },
+   "ex": {
+    "en": "Economics is one of the social sciences."
+   }
+  },
+  {
+   "id": "education.polymath",
+   "t": {
+    "en": "polymath",
+    "uk": "енциклопедист",
+    "ru": "энциклопедист",
+    "pl": "wszechstronny uczony",
+    "de": "Universalgelehrter",
+    "fr": "esprit universel",
+    "es": "polímata",
+    "it": "genio universale",
+    "pt": "polímata",
+    "tr": "çok yönlü bilgin"
+   },
+   "ex": {
+    "en": "Leonardo da Vinci was a polymath."
+   }
+  },
+  {
+   "id": "education.well-read",
+   "t": {
+    "en": "well-read",
+    "uk": "начитаний",
+    "ru": "начитанный",
+    "pl": "oczytany",
+    "de": "belesen",
+    "fr": "cultivé",
+    "es": "leído",
+    "it": "colto",
+    "pt": "culto",
+    "tr": "çok okumuş"
+   },
+   "ex": {
+    "en": "She is extremely well-read."
+   }
+  },
+  {
+   "id": "education.studious",
+   "t": {
+    "en": "studious",
+    "uk": "старанний",
+    "ru": "прилежный",
+    "pl": "pilny",
+    "de": "fleißig",
+    "fr": "studieux",
+    "es": "estudioso",
+    "it": "diligente",
+    "pt": "aplicado",
+    "tr": "çalışkan"
+   },
+   "ex": {
+    "en": "He was a quiet, studious boy."
+   }
+  },
+  {
+   "id": "education.causation",
+   "t": {
+    "en": "causation",
+    "uk": "причинно-наслідковий зв'язок",
+    "ru": "причинно-следственная связь",
+    "pl": "związek przyczynowy",
+    "de": "Kausalität",
+    "fr": "causalité",
+    "es": "causalidad",
+    "it": "causalità",
+    "pt": "causalidade",
+    "tr": "nedensellik"
+   },
+   "ex": {
+    "en": "Correlation does not imply causation."
+   }
+  },
+  {
+   "id": "education.to-conceptualise",
+   "t": {
+    "en": "to conceptualise",
+    "uk": "концептуалізувати",
+    "ru": "концептуализировать",
+    "pl": "konceptualizować",
+    "de": "konzeptualisieren",
+    "fr": "conceptualiser",
+    "es": "conceptualizar",
+    "it": "concettualizzare",
+    "pt": "conceituar",
+    "tr": "kavramsallaştırmak"
+   },
+   "ex": {
+    "en": "How do we conceptualise intelligence?"
+   }
+  },
+  {
+   "id": "education.scholar",
+   "t": {
+    "en": "scholar",
+    "uk": "науковець",
+    "ru": "учёный",
+    "pl": "uczony",
+    "de": "Gelehrter",
+    "fr": "érudit",
+    "es": "erudito",
+    "it": "studioso",
+    "pt": "estudioso",
+    "tr": "âlim"
+   },
+   "ex": {
+    "en": "He was a respected Latin scholar."
+   }
+  },
+  {
+   "id": "education.attainment-gap",
+   "t": {
+    "en": "attainment gap",
+    "uk": "розрив в успішності",
+    "ru": "разрыв в успеваемости",
+    "pl": "luka w osiągnięciach",
+    "de": "Leistungsgefälle",
+    "fr": "écart de réussite",
+    "es": "brecha de rendimiento",
+    "it": "divario nei risultati",
+    "pt": "disparidade de desempenho",
+    "tr": "başarı açığı"
+   },
+   "ex": {
+    "en": "The attainment gap is widening."
+   }
+  },
+  {
+   "id": "education.academic-freedom",
+   "t": {
+    "en": "academic freedom",
+    "uk": "академічна свобода",
+    "ru": "академическая свобода",
+    "pl": "wolność akademicka",
+    "de": "Wissenschaftsfreiheit",
+    "fr": "liberté académique",
+    "es": "libertad académica",
+    "it": "libertà accademica",
+    "pt": "liberdade acadêmica",
+    "tr": "akademik özgürlük"
+   },
+   "ex": {
+    "en": "Academic freedom must be protected."
    }
   }
  ]

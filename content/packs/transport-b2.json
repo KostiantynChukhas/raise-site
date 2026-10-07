@@ -2,7 +2,7 @@
  "id": "transport-b2",
  "topic": "transport",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "transport.congestion-charge",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "The dashcam recorded the whole accident."
+   }
+  },
+  {
+   "id": "transport.to-derail",
+   "t": {
+    "en": "to derail",
+    "uk": "зійти з рейок",
+    "ru": "сойти с рельсов",
+    "pl": "wykoleić się",
+    "de": "entgleisen",
+    "fr": "dérailler",
+    "es": "descarrilar",
+    "it": "deragliare",
+    "pt": "descarrilar",
+    "tr": "raydan çıkmak"
+   },
+   "ex": {
+    "en": "The train derailed near the bridge."
+   }
+  },
+  {
+   "id": "transport.freight",
+   "t": {
+    "en": "freight",
+    "uk": "вантаж",
+    "ru": "груз",
+    "pl": "fracht",
+    "de": "Fracht",
+    "fr": "fret",
+    "es": "mercancías",
+    "it": "merci",
+    "pt": "carga",
+    "tr": "yük"
+   },
+   "ex": {
+    "en": "Most freight goes by road."
+   }
+  },
+  {
+   "id": "transport.to-reroute",
+   "t": {
+    "en": "to reroute",
+    "uk": "змінити маршрут",
+    "ru": "изменить маршрут",
+    "pl": "zmienić trasę",
+    "de": "umleiten",
+    "fr": "dévier",
+    "es": "desviar",
+    "it": "deviare",
+    "pt": "desviar",
+    "tr": "güzergahı değiştirmek"
+   },
+   "ex": {
+    "en": "Buses were rerouted because of the march."
+   }
+  },
+  {
+   "id": "transport.replacement-bus",
+   "t": {
+    "en": "replacement bus",
+    "uk": "автобус замість поїзда",
+    "ru": "автобус вместо поезда",
+    "pl": "zastępcza komunikacja autobusowa",
+    "de": "Schienenersatzverkehr",
+    "fr": "bus de substitution",
+    "es": "autobús de sustitución",
+    "it": "bus sostitutivo",
+    "pt": "ônibus substituto",
+    "tr": "yedek otobüs"
+   },
+   "ex": {
+    "en": "A replacement bus runs at weekends."
+   }
+  },
+  {
+   "id": "transport.signal-failure",
+   "t": {
+    "en": "signal failure",
+    "uk": "збій сигналізації",
+    "ru": "неисправность сигнализации",
+    "pl": "awaria sygnalizacji",
+    "de": "Signalstörung",
+    "fr": "panne de signalisation",
+    "es": "avería de señalización",
+    "it": "guasto al segnale",
+    "pt": "falha na sinalização",
+    "tr": "sinyal arızası"
+   },
+   "ex": {
+    "en": "Trains are delayed due to a signal failure."
+   }
+  },
+  {
+   "id": "transport.dual-carriageway",
+   "t": {
+    "en": "dual carriageway",
+    "uk": "дорога з розділювальною смугою",
+    "ru": "дорога с разделительной полосой",
+    "pl": "droga dwujezdniowa",
+    "de": "vierspurige Schnellstraße",
+    "fr": "route à quatre voies",
+    "es": "autovía",
+    "it": "superstrada",
+    "pt": "pista dupla",
+    "tr": "bölünmüş yol"
+   },
+   "ex": {
+    "en": "The speed limit on this dual carriageway is 70."
+   }
+  },
+  {
+   "id": "transport.crash-barrier",
+   "t": {
+    "en": "crash barrier",
+    "uk": "відбійник",
+    "ru": "отбойник",
+    "pl": "bariera ochronna",
+    "de": "Leitplanke",
+    "fr": "glissière de sécurité",
+    "es": "guardarraíl",
+    "it": "guardrail",
+    "pt": "guard-rail",
+    "tr": "bariyer"
+   },
+   "ex": {
+    "en": "The car hit the crash barrier."
+   }
+  },
+  {
+   "id": "transport.battery-range",
+   "t": {
+    "en": "battery range",
+    "uk": "запас ходу",
+    "ru": "запас хода",
+    "pl": "zasięg",
+    "de": "Reichweite",
+    "fr": "autonomie",
+    "es": "autonomía",
+    "it": "autonomia",
+    "pt": "autonomia",
+    "tr": "menzil"
+   },
+   "ex": {
+    "en": "The battery range is about 400 km."
+   }
+  },
+  {
+   "id": "transport.road-tax",
+   "t": {
+    "en": "road tax",
+    "uk": "дорожній податок",
+    "ru": "дорожный налог",
+    "pl": "podatek drogowy",
+    "de": "Kfz-Steuer",
+    "fr": "taxe sur les véhicules",
+    "es": "impuesto de circulación",
+    "it": "bollo auto",
+    "pt": "IPVA",
+    "tr": "motorlu taşıtlar vergisi"
+   },
+   "ex": {
+    "en": "Road tax depends on emissions."
+   }
+  },
+  {
+   "id": "transport.to-collide",
+   "t": {
+    "en": "to collide",
+    "uk": "зіткнутися",
+    "ru": "столкнуться",
+    "pl": "zderzyć się",
+    "de": "zusammenstoßen",
+    "fr": "entrer en collision",
+    "es": "chocar",
+    "it": "scontrarsi",
+    "pt": "colidir",
+    "tr": "çarpışmak"
+   },
+   "ex": {
+    "en": "Two cars collided at the junction."
+   }
+  },
+  {
+   "id": "transport.reckless-driving",
+   "t": {
+    "en": "reckless driving",
+    "uk": "безрозсудне водіння",
+    "ru": "безрассудное вождение",
+    "pl": "brawurowa jazda",
+    "de": "rücksichtsloses Fahren",
+    "fr": "conduite imprudente",
+    "es": "conducción temeraria",
+    "it": "guida spericolata",
+    "pt": "direção imprudente",
+    "tr": "pervasız sürüş"
+   },
+   "ex": {
+    "en": "He was fined for reckless driving."
+   }
+  },
+  {
+   "id": "transport.overcrowded",
+   "t": {
+    "en": "overcrowded",
+    "uk": "переповнений",
+    "ru": "переполненный",
+    "pl": "przepełniony",
+    "de": "überfüllt",
+    "fr": "bondé",
+    "es": "abarrotado",
+    "it": "sovraffollato",
+    "pt": "superlotado",
+    "tr": "aşırı kalabalık"
+   },
+   "ex": {
+    "en": "The morning trains are overcrowded."
+   }
+  },
+  {
+   "id": "transport.standing-room",
+   "t": {
+    "en": "standing room",
+    "uk": "стоячі місця",
+    "ru": "стоячие места",
+    "pl": "miejsca stojące",
+    "de": "Stehplätze",
+    "fr": "places debout",
+    "es": "plazas de pie",
+    "it": "posti in piedi",
+    "pt": "lugar em pé",
+    "tr": "ayakta durma yeri"
+   },
+   "ex": {
+    "en": "There was standing room only."
+   }
+  },
+  {
+   "id": "transport.reduced-fare",
+   "t": {
+    "en": "reduced fare",
+    "uk": "пільговий проїзд",
+    "ru": "льготный проезд",
+    "pl": "bilet ulgowy",
+    "de": "ermäßigter Fahrpreis",
+    "fr": "tarif réduit",
+    "es": "tarifa reducida",
+    "it": "tariffa ridotta",
+    "pt": "tarifa reduzida",
+    "tr": "indirimli bilet"
+   },
+   "ex": {
+    "en": "Students pay a reduced fare."
+   }
+  },
+  {
+   "id": "transport.to-tap-your-card",
+   "t": {
+    "en": "to tap your card",
+    "uk": "прикласти картку",
+    "ru": "приложить карту",
+    "pl": "przyłożyć kartę",
+    "de": "die Karte an den Leser halten",
+    "fr": "passer sa carte",
+    "es": "pasar la tarjeta",
+    "it": "avvicinare la carta",
+    "pt": "passar o cartão",
+    "tr": "kart okutmak"
+   },
+   "ex": {
+    "en": "Tap your card when you get on."
+   }
+  },
+  {
+   "id": "transport.light-rail",
+   "t": {
+    "en": "light rail",
+    "uk": "швидкісний трамвай",
+    "ru": "скоростной трамвай",
+    "pl": "szybki tramwaj",
+    "de": "Stadtbahn",
+    "fr": "métro léger",
+    "es": "metro ligero",
+    "it": "metropolitana leggera",
+    "pt": "VLT",
+    "tr": "hafif raylı sistem"
+   },
+   "ex": {
+    "en": "The new light rail links the airport."
+   }
+  },
+  {
+   "id": "transport.monorail",
+   "t": {
+    "en": "monorail",
+    "uk": "монорейка",
+    "ru": "монорельс",
+    "pl": "kolej jednoszynowa",
+    "de": "Einschienenbahn",
+    "fr": "monorail",
+    "es": "monorraíl",
+    "it": "monorotaia",
+    "pt": "monotrilho",
+    "tr": "monoray"
+   },
+   "ex": {
+    "en": "A monorail runs around the park."
+   }
+  },
+  {
+   "id": "transport.funicular",
+   "t": {
+    "en": "funicular",
+    "uk": "фунікулер",
+    "ru": "фуникулёр",
+    "pl": "kolej linowo-terenowa",
+    "de": "Standseilbahn",
+    "fr": "funiculaire",
+    "es": "funicular",
+    "it": "funicolare",
+    "pt": "funicular",
+    "tr": "füniküler"
+   },
+   "ex": {
+    "en": "Take the funicular up the hill."
+   }
+  },
+  {
+   "id": "transport.container-ship",
+   "t": {
+    "en": "container ship",
+    "uk": "контейнеровоз",
+    "ru": "контейнеровоз",
+    "pl": "kontenerowiec",
+    "de": "Containerschiff",
+    "fr": "porte-conteneurs",
+    "es": "buque portacontenedores",
+    "it": "nave portacontainer",
+    "pt": "navio porta-contêineres",
+    "tr": "konteyner gemisi"
+   },
+   "ex": {
+    "en": "A huge container ship entered the port."
+   }
+  },
+  {
+   "id": "transport.dock",
+   "t": {
+    "en": "dock",
+    "uk": "док",
+    "ru": "док",
+    "pl": "dok",
+    "de": "Dock",
+    "fr": "quai",
+    "es": "muelle",
+    "it": "banchina",
+    "pt": "doca",
+    "tr": "rıhtım"
+   },
+   "ex": {
+    "en": "The ship is in the dock for repairs."
+   }
+  },
+  {
+   "id": "transport.anchor",
+   "t": {
+    "en": "anchor",
+    "uk": "якір",
+    "ru": "якорь",
+    "pl": "kotwica",
+    "de": "Anker",
+    "fr": "ancre",
+    "es": "ancla",
+    "it": "ancora",
+    "pt": "âncora",
+    "tr": "çapa"
+   },
+   "ex": {
+    "en": "They dropped anchor near the island."
+   }
+  },
+  {
+   "id": "transport.transport-hub",
+   "t": {
+    "en": "transport hub",
+    "uk": "транспортний вузол",
+    "ru": "транспортный узел",
+    "pl": "węzeł komunikacyjny",
+    "de": "Verkehrsknotenpunkt",
+    "fr": "pôle d'échanges",
+    "es": "intercambiador",
+    "it": "nodo di trasporto",
+    "pt": "polo de transporte",
+    "tr": "ulaşım merkezi"
+   },
+   "ex": {
+    "en": "The station is a major transport hub."
+   }
+  },
+  {
+   "id": "transport.road-network",
+   "t": {
+    "en": "road network",
+    "uk": "дорожня мережа",
+    "ru": "дорожная сеть",
+    "pl": "sieć drogowa",
+    "de": "Straßennetz",
+    "fr": "réseau routier",
+    "es": "red de carreteras",
+    "it": "rete stradale",
+    "pt": "malha rodoviária",
+    "tr": "karayolu ağı"
+   },
+   "ex": {
+    "en": "The country has a good road network."
+   }
+  },
+  {
+   "id": "transport.bypass",
+   "t": {
+    "en": "bypass",
+    "uk": "об'їзна дорога",
+    "ru": "объездная дорога",
+    "pl": "obwodnica",
+    "de": "Umgehungsstraße",
+    "fr": "contournement",
+    "es": "variante",
+    "it": "circonvallazione",
+    "pt": "contorno rodoviário",
+    "tr": "çevre yolu"
+   },
+   "ex": {
+    "en": "Take the bypass to avoid the town centre."
+   }
+  },
+  {
+   "id": "transport.toll-booth",
+   "t": {
+    "en": "toll booth",
+    "uk": "пункт оплати проїзду",
+    "ru": "пункт оплаты проезда",
+    "pl": "punkt poboru opłat",
+    "de": "Mautstelle",
+    "fr": "péage",
+    "es": "cabina de peaje",
+    "it": "casello",
+    "pt": "praça de pedágio",
+    "tr": "gişe"
+   },
+   "ex": {
+    "en": "Have some change ready for the toll booth."
+   }
+  },
+  {
+   "id": "transport.to-jump-start",
+   "t": {
+    "en": "to jump-start",
+    "uk": "прикурити авто",
+    "ru": "прикурить машину",
+    "pl": "odpalić na kable",
+    "de": "Starthilfe geben",
+    "fr": "démarrer avec des câbles",
+    "es": "arrancar con pinzas",
+    "it": "avviare con i cavi",
+    "pt": "fazer chupeta",
+    "tr": "takviye kablosuyla çalıştırmak"
+   },
+   "ex": {
+    "en": "A neighbour helped me jump-start the car."
+   }
+  },
+  {
+   "id": "transport.brake-pads",
+   "t": {
+    "en": "brake pads",
+    "uk": "гальмівні колодки",
+    "ru": "тормозные колодки",
+    "pl": "klocki hamulcowe",
+    "de": "Bremsbeläge",
+    "fr": "plaquettes de frein",
+    "es": "pastillas de freno",
+    "it": "pastiglie dei freni",
+    "pt": "pastilhas de freio",
+    "tr": "fren balataları"
+   },
+   "ex": {
+    "en": "The mechanic replaced the brake pads."
+   }
+  },
+  {
+   "id": "transport.car-service",
+   "t": {
+    "en": "car service",
+    "uk": "техобслуговування",
+    "ru": "техобслуживание",
+    "pl": "przegląd samochodu",
+    "de": "Inspektion",
+    "fr": "révision",
+    "es": "revisión",
+    "it": "tagliando",
+    "pt": "revisão",
+    "tr": "araç bakımı"
+   },
+   "ex": {
+    "en": "The car is due for a service."
+   }
+  },
+  {
+   "id": "transport.horsepower",
+   "t": {
+    "en": "horsepower",
+    "uk": "кінська сила",
+    "ru": "лошадиная сила",
+    "pl": "koń mechaniczny",
+    "de": "Pferdestärke",
+    "fr": "cheval-vapeur",
+    "es": "caballo de vapor",
+    "it": "cavallo vapore",
+    "pt": "cavalo-vapor",
+    "tr": "beygir gücü"
+   },
+   "ex": {
+    "en": "The engine has 150 horsepower."
+   }
+  },
+  {
+   "id": "transport.traffic-warden",
+   "t": {
+    "en": "traffic warden",
+    "uk": "інспектор з паркування",
+    "ru": "инспектор по парковке",
+    "pl": "strażnik miejski",
+    "de": "Politesse",
+    "fr": "contractuel",
+    "es": "controlador de aparcamiento",
+    "it": "ausiliario del traffico",
+    "pt": "agente de trânsito",
+    "tr": "trafik görevlisi"
+   },
+   "ex": {
+    "en": "The traffic warden gave me a ticket."
+   }
+  },
+  {
+   "id": "transport.car-theft",
+   "t": {
+    "en": "car theft",
+    "uk": "викрадення автомобіля",
+    "ru": "угон автомобиля",
+    "pl": "kradzież samochodu",
+    "de": "Autodiebstahl",
+    "fr": "vol de voiture",
+    "es": "robo de coche",
+    "it": "furto d'auto",
+    "pt": "roubo de carro",
+    "tr": "araç hırsızlığı"
+   },
+   "ex": {
+    "en": "Car theft is rising in the city."
+   }
+  },
+  {
+   "id": "transport.sustainable-transport",
+   "t": {
+    "en": "sustainable transport",
+    "uk": "сталий транспорт",
+    "ru": "экологичный транспорт",
+    "pl": "transport zrównoważony",
+    "de": "nachhaltiger Verkehr",
+    "fr": "transport durable",
+    "es": "transporte sostenible",
+    "it": "trasporto sostenibile",
+    "pt": "transporte sustentável",
+    "tr": "sürdürülebilir ulaşım"
+   },
+   "ex": {
+    "en": "The city invests in sustainable transport."
+   }
+  },
+  {
+   "id": "transport.winter-tires",
+   "t": {
+    "en": "winter tires",
+    "uk": "зимові шини",
+    "ru": "зимние шины",
+    "pl": "opony zimowe",
+    "de": "Winterreifen",
+    "fr": "pneus hiver",
+    "es": "neumáticos de invierno",
+    "it": "pneumatici invernali",
+    "pt": "pneus de inverno",
+    "tr": "kış lastiği"
+   },
+   "ex": {
+    "en": "Winter tires are required here in December."
+   }
+  },
+  {
+   "id": "transport.snow-chains",
+   "t": {
+    "en": "snow chains",
+    "uk": "ланцюги проти ковзання",
+    "ru": "цепи противоскольжения",
+    "pl": "łańcuchy śniegowe",
+    "de": "Schneeketten",
+    "fr": "chaînes à neige",
+    "es": "cadenas para la nieve",
+    "it": "catene da neve",
+    "pt": "correntes para neve",
+    "tr": "kar zinciri"
+   },
+   "ex": {
+    "en": "You need snow chains on the mountain pass."
+   }
+  },
+  {
+   "id": "transport.visibility",
+   "t": {
+    "en": "visibility",
+    "uk": "видимість",
+    "ru": "видимость",
+    "pl": "widoczność",
+    "de": "Sicht",
+    "fr": "visibilité",
+    "es": "visibilidad",
+    "it": "visibilità",
+    "pt": "visibilidade",
+    "tr": "görüş mesafesi"
+   },
+   "ex": {
+    "en": "Visibility was poor because of the fog."
+   }
+  },
+  {
+   "id": "transport.fog-lights",
+   "t": {
+    "en": "fog lights",
+    "uk": "протитуманні фари",
+    "ru": "противотуманные фары",
+    "pl": "światła przeciwmgielne",
+    "de": "Nebelscheinwerfer",
+    "fr": "feux antibrouillard",
+    "es": "faros antiniebla",
+    "it": "fendinebbia",
+    "pt": "faróis de neblina",
+    "tr": "sis farları"
+   },
+   "ex": {
+    "en": "Switch on your fog lights."
+   }
+  },
+  {
+   "id": "transport.high-beams",
+   "t": {
+    "en": "high beams",
+    "uk": "дальнє світло",
+    "ru": "дальний свет",
+    "pl": "światła drogowe",
+    "de": "Fernlicht",
+    "fr": "feux de route",
+    "es": "luces largas",
+    "it": "abbaglianti",
+    "pt": "farol alto",
+    "tr": "uzun far"
+   },
+   "ex": {
+    "en": "Don't use your high beams in town."
+   }
+  },
+  {
+   "id": "transport.convertible",
+   "t": {
+    "en": "convertible",
+    "uk": "кабріолет",
+    "ru": "кабриолет",
+    "pl": "kabriolet",
+    "de": "Cabrio",
+    "fr": "cabriolet",
+    "es": "descapotable",
+    "it": "cabriolet",
+    "pt": "conversível",
+    "tr": "üstü açık araba"
+   },
+   "ex": {
+    "en": "They drove along the coast in a convertible."
+   }
+  },
+  {
+   "id": "transport.sedan",
+   "t": {
+    "en": "sedan",
+    "uk": "седан",
+    "ru": "седан",
+    "pl": "sedan",
+    "de": "Limousine",
+    "fr": "berline",
+    "es": "berlina",
+    "it": "berlina",
+    "pt": "sedã",
+    "tr": "sedan"
+   },
+   "ex": {
+    "en": "We need a sedan with a big boot."
+   }
+  },
+  {
+   "id": "transport.suv",
+   "t": {
+    "en": "SUV",
+    "uk": "позашляховик",
+    "ru": "внедорожник",
+    "pl": "SUV",
+    "de": "SUV",
+    "fr": "SUV",
+    "es": "todoterreno",
+    "it": "SUV",
+    "pt": "SUV",
+    "tr": "SUV"
+   },
+   "ex": {
+    "en": "Their SUV uses a lot of fuel."
+   }
+  },
+  {
+   "id": "transport.road-user",
+   "t": {
+    "en": "road user",
+    "uk": "учасник дорожнього руху",
+    "ru": "участник дорожного движения",
+    "pl": "uczestnik ruchu drogowego",
+    "de": "Verkehrsteilnehmer",
+    "fr": "usager de la route",
+    "es": "usuario de la vía",
+    "it": "utente della strada",
+    "pt": "usuário da via",
+    "tr": "yol kullanıcısı"
+   },
+   "ex": {
+    "en": "Cyclists are road users too."
+   }
+  },
+  {
+   "id": "transport.delivery-driver",
+   "t": {
+    "en": "delivery driver",
+    "uk": "водій доставки",
+    "ru": "водитель доставки",
+    "pl": "kierowca dostawczy",
+    "de": "Lieferfahrer",
+    "fr": "livreur",
+    "es": "repartidor",
+    "it": "fattorino",
+    "pt": "entregador",
+    "tr": "kurye"
+   },
+   "ex": {
+    "en": "The delivery driver left the box outside."
+   }
+  },
+  {
+   "id": "transport.fuel-gauge",
+   "t": {
+    "en": "fuel gauge",
+    "uk": "покажчик палива",
+    "ru": "указатель уровня топлива",
+    "pl": "wskaźnik paliwa",
+    "de": "Tankanzeige",
+    "fr": "jauge de carburant",
+    "es": "indicador de combustible",
+    "it": "indicatore del carburante",
+    "pt": "marcador de combustível",
+    "tr": "yakıt göstergesi"
+   },
+   "ex": {
+    "en": "The fuel gauge is nearly on empty."
+   }
+  },
+  {
+   "id": "transport.lane-markings",
+   "t": {
+    "en": "lane markings",
+    "uk": "дорожня розмітка",
+    "ru": "дорожная разметка",
+    "pl": "oznakowanie poziome",
+    "de": "Fahrbahnmarkierung",
+    "fr": "marquage au sol",
+    "es": "marcas viales",
+    "it": "segnaletica orizzontale",
+    "pt": "sinalização horizontal",
+    "tr": "yol çizgileri"
+   },
+   "ex": {
+    "en": "The lane markings are hard to see at night."
+   }
+  },
+  {
+   "id": "transport.low-floor-bus",
+   "t": {
+    "en": "low-floor bus",
+    "uk": "низькопідлоговий автобус",
+    "ru": "низкопольный автобус",
+    "pl": "autobus niskopodłogowy",
+    "de": "Niederflurbus",
+    "fr": "bus à plancher bas",
+    "es": "autobús de piso bajo",
+    "it": "autobus a pianale ribassato",
+    "pt": "ônibus de piso baixo",
+    "tr": "alçak tabanlı otobüs"
+   },
+   "ex": {
+    "en": "Low-floor buses are easier for wheelchairs."
+   }
+  },
+  {
+   "id": "transport.blowout",
+   "t": {
+    "en": "blowout",
+    "uk": "розрив шини",
+    "ru": "разрыв шины",
+    "pl": "pęknięcie opony",
+    "de": "Reifenplatzer",
+    "fr": "éclatement de pneu",
+    "es": "reventón",
+    "it": "scoppio di uno pneumatico",
+    "pt": "estouro de pneu",
+    "tr": "lastik patlaması"
+   },
+   "ex": {
+    "en": "A blowout at high speed is very dangerous."
+   }
+  },
+  {
+   "id": "transport.anti-lock-brakes",
+   "t": {
+    "en": "anti-lock brakes",
+    "uk": "антиблокувальна система",
+    "ru": "антиблокировочная система",
+    "pl": "układ ABS",
+    "de": "Antiblockiersystem",
+    "fr": "freinage ABS",
+    "es": "frenos ABS",
+    "it": "freni ABS",
+    "pt": "freios ABS",
+    "tr": "ABS fren sistemi"
+   },
+   "ex": {
+    "en": "Anti-lock brakes help you steer while braking."
+   }
+  },
+  {
+   "id": "transport.unleaded-petrol",
+   "t": {
+    "en": "unleaded petrol",
+    "uk": "неетилований бензин",
+    "ru": "неэтилированный бензин",
+    "pl": "benzyna bezołowiowa",
+    "de": "bleifreies Benzin",
+    "fr": "essence sans plomb",
+    "es": "gasolina sin plomo",
+    "it": "benzina senza piombo",
+    "pt": "gasolina sem chumbo",
+    "tr": "kurşunsuz benzin"
+   },
+   "ex": {
+    "en": "The car takes unleaded petrol."
+   }
+  },
+  {
+   "id": "transport.smart-card",
+   "t": {
+    "en": "smart card",
+    "uk": "смарт-картка",
+    "ru": "смарт-карта",
+    "pl": "karta miejska",
+    "de": "Chipkarte",
+    "fr": "carte à puce",
+    "es": "tarjeta inteligente",
+    "it": "tessera elettronica",
+    "pt": "cartão inteligente",
+    "tr": "akıllı kart"
+   },
+   "ex": {
+    "en": "Load money onto your smart card."
+   }
+  },
+  {
+   "id": "transport.car-pool-lane",
+   "t": {
+    "en": "car pool lane",
+    "uk": "смуга для автомобілів з пасажирами",
+    "ru": "полоса для машин с пассажирами",
+    "pl": "pas dla pojazdów z pasażerami",
+    "de": "Fahrgemeinschaftsspur",
+    "fr": "voie de covoiturage",
+    "es": "carril VAO",
+    "it": "corsia car pooling",
+    "pt": "faixa de carona",
+    "tr": "araç paylaşım şeridi"
+   },
+   "ex": {
+    "en": "We can use the car pool lane with three people."
    }
   }
  ]

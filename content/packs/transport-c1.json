@@ -2,7 +2,7 @@
  "id": "transport-c1",
  "topic": "transport",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "transport.backseat-driver",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "I left the car in the multi-storey car park."
+   }
+  },
+  {
+   "id": "transport.micromobility",
+   "t": {
+    "en": "micromobility",
+    "uk": "мікромобільність",
+    "ru": "микромобильность",
+    "pl": "mikromobilność",
+    "de": "Mikromobilität",
+    "fr": "micromobilité",
+    "es": "micromovilidad",
+    "it": "micromobilità",
+    "pt": "micromobilidade",
+    "tr": "mikromobilite"
+   },
+   "ex": {
+    "en": "E-scooters are part of micromobility."
+   }
+  },
+  {
+   "id": "transport.rush-hour-crush",
+   "t": {
+    "en": "rush-hour crush",
+    "uk": "тиснява в годину пік",
+    "ru": "давка в час пик",
+    "pl": "ścisk w godzinach szczytu",
+    "de": "Gedränge im Berufsverkehr",
+    "fr": "cohue de l'heure de pointe",
+    "es": "aglomeración en hora punta",
+    "it": "calca dell'ora di punta",
+    "pt": "aperto no horário de pico",
+    "tr": "yoğun saat izdihamı"
+   },
+   "ex": {
+    "en": "I avoid the rush-hour crush by cycling."
+   }
+  },
+  {
+   "id": "transport.packed-like-sardines",
+   "t": {
+    "en": "packed like sardines",
+    "uk": "набиті як оселедці",
+    "ru": "набиты как сельди в бочке",
+    "pl": "ściśnięci jak sardynki",
+    "de": "wie die Sardinen",
+    "fr": "serrés comme des sardines",
+    "es": "como sardinas en lata",
+    "it": "pigiati come sardine",
+    "pt": "como sardinha em lata",
+    "tr": "balık istifi"
+   },
+   "ex": {
+    "en": "We were packed like sardines on the train."
+   }
+  },
+  {
+   "id": "transport.to-rubberneck",
+   "t": {
+    "en": "to rubberneck",
+    "uk": "витріщатися на аварію",
+    "ru": "глазеть на аварию",
+    "pl": "gapić się na wypadek",
+    "de": "gaffen",
+    "fr": "jouer les badauds",
+    "es": "curiosear",
+    "it": "rallentare per curiosare",
+    "pt": "diminuir para olhar",
+    "tr": "kazaya bakmak için yavaşlamak"
+   },
+   "ex": {
+    "en": "Drivers slowed down to rubberneck."
+   }
+  },
+  {
+   "id": "transport.near-miss",
+   "t": {
+    "en": "near miss",
+    "uk": "ледь не аварія",
+    "ru": "едва не случившаяся авария",
+    "pl": "sytuacja o włos od wypadku",
+    "de": "Beinahe-Unfall",
+    "fr": "quasi-accident",
+    "es": "casi accidente",
+    "it": "mancato incidente",
+    "pt": "quase acidente",
+    "tr": "kıl payı kurtulma"
+   },
+   "ex": {
+    "en": "It was a near miss at the crossing."
+   }
+  },
+  {
+   "id": "transport.write-off",
+   "t": {
+    "en": "write-off",
+    "uk": "повна загибель авто",
+    "ru": "полная гибель автомобиля",
+    "pl": "szkoda całkowita",
+    "de": "Totalschaden",
+    "fr": "perte totale",
+    "es": "siniestro total",
+    "it": "perdita totale",
+    "pt": "perda total",
+    "tr": "pert araç"
+   },
+   "ex": {
+    "en": "The insurer declared the car a write-off."
+   }
+  },
+  {
+   "id": "transport.joyriding",
+   "t": {
+    "en": "joyriding",
+    "uk": "катання на викраденому авто",
+    "ru": "катание на угнанной машине",
+    "pl": "przejażdżka kradzionym autem",
+    "de": "Spritztour mit gestohlenem Auto",
+    "fr": "rodéo en voiture volée",
+    "es": "paseo en coche robado",
+    "it": "giro su auto rubata",
+    "pt": "passeio em carro roubado",
+    "tr": "çalıntı arabayla gezinti"
+   },
+   "ex": {
+    "en": "Two teenagers were arrested for joyriding."
+   }
+  },
+  {
+   "id": "transport.gradient",
+   "t": {
+    "en": "gradient",
+    "uk": "ухил",
+    "ru": "уклон",
+    "pl": "nachylenie",
+    "de": "Steigung",
+    "fr": "pente",
+    "es": "pendiente",
+    "it": "pendenza",
+    "pt": "inclinação",
+    "tr": "eğim"
+   },
+   "ex": {
+    "en": "The road has a steep gradient."
+   }
+  },
+  {
+   "id": "transport.grass-verge",
+   "t": {
+    "en": "grass verge",
+    "uk": "трав'яне узбіччя",
+    "ru": "травяная обочина",
+    "pl": "trawiaste pobocze",
+    "de": "Grünstreifen",
+    "fr": "bas-côté herbeux",
+    "es": "margen de hierba",
+    "it": "banchina erbosa",
+    "pt": "acostamento gramado",
+    "tr": "çimenli yol kenarı"
+   },
+   "ex": {
+    "en": "He parked on the grass verge."
+   }
+  },
+  {
+   "id": "transport.arterial-road",
+   "t": {
+    "en": "arterial road",
+    "uk": "магістраль",
+    "ru": "магистраль",
+    "pl": "arteria komunikacyjna",
+    "de": "Hauptverkehrsader",
+    "fr": "artère",
+    "es": "vía principal",
+    "it": "arteria stradale",
+    "pt": "via arterial",
+    "tr": "ana arter"
+   },
+   "ex": {
+    "en": "The arterial road was blocked for hours."
+   }
+  },
+  {
+   "id": "transport.rat-run",
+   "t": {
+    "en": "rat run",
+    "uk": "об'їзд житловими вулицями",
+    "ru": "объезд дворами",
+    "pl": "skrót przez osiedle",
+    "de": "Schleichweg",
+    "fr": "raccourci par les petites rues",
+    "es": "atajo por calles residenciales",
+    "it": "scorciatoia per vie secondarie",
+    "pt": "atalho por ruas residenciais",
+    "tr": "ara sokak kestirmesi"
+   },
+   "ex": {
+    "en": "Our street has become a rat run."
+   }
+  },
+  {
+   "id": "transport.to-take-a-shortcut",
+   "t": {
+    "en": "to take a shortcut",
+    "uk": "зрізати шлях",
+    "ru": "срезать путь",
+    "pl": "pójść na skróty",
+    "de": "eine Abkürzung nehmen",
+    "fr": "prendre un raccourci",
+    "es": "coger un atajo",
+    "it": "prendere una scorciatoia",
+    "pt": "pegar um atalho",
+    "tr": "kestirmeden gitmek"
+   },
+   "ex": {
+    "en": "We took a shortcut through the park."
+   }
+  },
+  {
+   "id": "transport.to-rev-the-engine",
+   "t": {
+    "en": "to rev the engine",
+    "uk": "газувати",
+    "ru": "газовать",
+    "pl": "dodawać gazu na luzie",
+    "de": "den Motor aufheulen lassen",
+    "fr": "faire rugir le moteur",
+    "es": "revolucionar el motor",
+    "it": "mandare su di giri il motore",
+    "pt": "acelerar o motor",
+    "tr": "motoru gazlamak"
+   },
+   "ex": {
+    "en": "He kept revving the engine at the lights."
+   }
+  },
+  {
+   "id": "transport.catalytic-converter",
+   "t": {
+    "en": "catalytic converter",
+    "uk": "каталізатор",
+    "ru": "катализатор",
+    "pl": "katalizator",
+    "de": "Katalysator",
+    "fr": "pot catalytique",
+    "es": "catalizador",
+    "it": "marmitta catalitica",
+    "pt": "catalisador",
+    "tr": "katalitik konvertör"
+   },
+   "ex": {
+    "en": "Thieves stole the catalytic converter."
+   }
+  },
+  {
+   "id": "transport.regenerative-braking",
+   "t": {
+    "en": "regenerative braking",
+    "uk": "рекуперативне гальмування",
+    "ru": "рекуперативное торможение",
+    "pl": "hamowanie rekuperacyjne",
+    "de": "Bremsenergierückgewinnung",
+    "fr": "freinage régénératif",
+    "es": "frenado regenerativo",
+    "it": "frenata rigenerativa",
+    "pt": "frenagem regenerativa",
+    "tr": "rejeneratif frenleme"
+   },
+   "ex": {
+    "en": "Regenerative braking charges the battery."
+   }
+  },
+  {
+   "id": "transport.range-anxiety",
+   "t": {
+    "en": "range anxiety",
+    "uk": "страх розрядки в дорозі",
+    "ru": "страх нехватки запаса хода",
+    "pl": "lęk przed brakiem zasięgu",
+    "de": "Reichweitenangst",
+    "fr": "anxiété d'autonomie",
+    "es": "ansiedad por autonomía",
+    "it": "ansia da autonomia",
+    "pt": "ansiedade de autonomia",
+    "tr": "menzil kaygısı"
+   },
+   "ex": {
+    "en": "Range anxiety puts people off electric cars."
+   }
+  },
+  {
+   "id": "transport.plug-in-hybrid",
+   "t": {
+    "en": "plug-in hybrid",
+    "uk": "підзаряджуваний гібрид",
+    "ru": "подзаряжаемый гибрид",
+    "pl": "hybryda plug-in",
+    "de": "Plug-in-Hybrid",
+    "fr": "hybride rechargeable",
+    "es": "híbrido enchufable",
+    "it": "ibrido plug-in",
+    "pt": "híbrido plug-in",
+    "tr": "şarj edilebilir hibrit"
+   },
+   "ex": {
+    "en": "A plug-in hybrid suits short commutes."
+   }
+  },
+  {
+   "id": "transport.surge-pricing",
+   "t": {
+    "en": "surge pricing",
+    "uk": "динамічний тариф",
+    "ru": "динамический тариф",
+    "pl": "taryfa dynamiczna",
+    "de": "dynamische Preisgestaltung",
+    "fr": "tarification dynamique",
+    "es": "tarifa dinámica",
+    "it": "tariffa dinamica",
+    "pt": "tarifa dinâmica",
+    "tr": "dinamik fiyatlandırma"
+   },
+   "ex": {
+    "en": "Surge pricing doubled the fare."
+   }
+  },
+  {
+   "id": "transport.track-gauge",
+   "t": {
+    "en": "track gauge",
+    "uk": "ширина колії",
+    "ru": "ширина колеи",
+    "pl": "rozstaw szyn",
+    "de": "Spurweite",
+    "fr": "écartement des rails",
+    "es": "ancho de vía",
+    "it": "scartamento",
+    "pt": "bitola",
+    "tr": "ray açıklığı"
+   },
+   "ex": {
+    "en": "Spain uses a different track gauge."
+   }
+  },
+  {
+   "id": "transport.overhead-line",
+   "t": {
+    "en": "overhead line",
+    "uk": "контактна мережа",
+    "ru": "контактная сеть",
+    "pl": "sieć trakcyjna",
+    "de": "Oberleitung",
+    "fr": "caténaire",
+    "es": "catenaria",
+    "it": "linea aerea",
+    "pt": "rede aérea",
+    "tr": "katener"
+   },
+   "ex": {
+    "en": "A fallen tree damaged the overhead line."
+   }
+  },
+  {
+   "id": "transport.rail-network",
+   "t": {
+    "en": "rail network",
+    "uk": "залізнична мережа",
+    "ru": "железнодорожная сеть",
+    "pl": "sieć kolejowa",
+    "de": "Schienennetz",
+    "fr": "réseau ferroviaire",
+    "es": "red ferroviaria",
+    "it": "rete ferroviaria",
+    "pt": "malha ferroviária",
+    "tr": "demiryolu ağı"
+   },
+   "ex": {
+    "en": "The rail network needs investment."
+   }
+  },
+  {
+   "id": "transport.service-disruption",
+   "t": {
+    "en": "service disruption",
+    "uk": "перебої в русі",
+    "ru": "перебои в движении",
+    "pl": "utrudnienia w ruchu",
+    "de": "Betriebsstörung",
+    "fr": "perturbation du trafic",
+    "es": "interrupción del servicio",
+    "it": "interruzione del servizio",
+    "pt": "interrupção do serviço",
+    "tr": "sefer aksaması"
+   },
+   "ex": {
+    "en": "Expect service disruption this weekend."
+   }
+  },
+  {
+   "id": "transport.knock-on-delays",
+   "t": {
+    "en": "knock-on delays",
+    "uk": "ланцюгові затримки",
+    "ru": "цепные задержки",
+    "pl": "opóźnienia lawinowe",
+    "de": "Folgeverspätungen",
+    "fr": "retards en cascade",
+    "es": "retrasos en cadena",
+    "it": "ritardi a catena",
+    "pt": "atrasos em cascata",
+    "tr": "zincirleme gecikmeler"
+   },
+   "ex": {
+    "en": "The accident caused knock-on delays."
+   }
+  },
+  {
+   "id": "transport.bumper-to-bumper",
+   "t": {
+    "en": "bumper-to-bumper",
+    "uk": "бампер у бампер",
+    "ru": "бампер к бамперу",
+    "pl": "zderzak w zderzak",
+    "de": "Stoßstange an Stoßstange",
+    "fr": "pare-chocs contre pare-chocs",
+    "es": "parachoques con parachoques",
+    "it": "paraurti contro paraurti",
+    "pt": "para-choque com para-choque",
+    "tr": "tampon tampona"
+   },
+   "ex": {
+    "en": "Traffic was bumper-to-bumper all the way."
+   }
+  },
+  {
+   "id": "transport.to-crawl-along",
+   "t": {
+    "en": "to crawl along",
+    "uk": "повзти",
+    "ru": "ползти",
+    "pl": "wlec się",
+    "de": "im Schneckentempo fahren",
+    "fr": "rouler au pas",
+    "es": "avanzar a paso de tortuga",
+    "it": "procedere a passo d'uomo",
+    "pt": "andar a passo de tartaruga",
+    "tr": "ağır ağır ilerlemek"
+   },
+   "ex": {
+    "en": "We crawled along the motorway for hours."
+   }
+  },
+  {
+   "id": "transport.sunday-driver",
+   "t": {
+    "en": "Sunday driver",
+    "uk": "недільний водій",
+    "ru": "воскресный водитель",
+    "pl": "niedzielny kierowca",
+    "de": "Sonntagsfahrer",
+    "fr": "conducteur du dimanche",
+    "es": "dominguero",
+    "it": "guidatore della domenica",
+    "pt": "motorista de domingo",
+    "tr": "acemi sürücü"
+   },
+   "ex": {
+    "en": "I got stuck behind a Sunday driver."
+   }
+  },
+  {
+   "id": "transport.third-party-insurance",
+   "t": {
+    "en": "third-party insurance",
+    "uk": "страхування цивільної відповідальності",
+    "ru": "страхование гражданской ответственности",
+    "pl": "ubezpieczenie OC",
+    "de": "Haftpflichtversicherung",
+    "fr": "assurance au tiers",
+    "es": "seguro a terceros",
+    "it": "assicurazione RC auto",
+    "pt": "seguro contra terceiros",
+    "tr": "zorunlu trafik sigortası"
+   },
+   "ex": {
+    "en": "Third-party insurance is compulsory."
+   }
+  },
+  {
+   "id": "transport.no-claims-bonus",
+   "t": {
+    "en": "no-claims bonus",
+    "uk": "бонус за безаварійність",
+    "ru": "скидка за безаварийность",
+    "pl": "zniżka za bezszkodową jazdę",
+    "de": "Schadenfreiheitsrabatt",
+    "fr": "bonus de non-sinistre",
+    "es": "bonificación por no siniestralidad",
+    "it": "classe di merito",
+    "pt": "bônus por não ter sinistros",
+    "tr": "hasarsızlık indirimi"
+   },
+   "ex": {
+    "en": "I lost my no-claims bonus after the accident."
+   }
+  },
+  {
+   "id": "transport.motorcade",
+   "t": {
+    "en": "motorcade",
+    "uk": "кортеж",
+    "ru": "кортеж",
+    "pl": "kolumna samochodów",
+    "de": "Autokolonne",
+    "fr": "cortège officiel",
+    "es": "comitiva",
+    "it": "corteo di auto",
+    "pt": "carreata",
+    "tr": "resmi araç konvoyu"
+   },
+   "ex": {
+    "en": "The president's motorcade passed by."
+   }
+  },
+  {
+   "id": "transport.chauffeur",
+   "t": {
+    "en": "chauffeur",
+    "uk": "особистий водій",
+    "ru": "личный водитель",
+    "pl": "szofer",
+    "de": "Chauffeur",
+    "fr": "chauffeur",
+    "es": "chófer",
+    "it": "autista privato",
+    "pt": "motorista particular",
+    "tr": "özel şoför"
+   },
+   "ex": {
+    "en": "A chauffeur drove them to the gala."
+   }
+  },
+  {
+   "id": "transport.jet-bridge",
+   "t": {
+    "en": "jet bridge",
+    "uk": "телетрап",
+    "ru": "телетрап",
+    "pl": "rękaw lotniczy",
+    "de": "Fluggastbrücke",
+    "fr": "passerelle d'embarquement",
+    "es": "pasarela de embarque",
+    "it": "pontile d'imbarco",
+    "pt": "ponte de embarque",
+    "tr": "körük"
+   },
+   "ex": {
+    "en": "We boarded via the jet bridge."
+   }
+  },
+  {
+   "id": "transport.to-taxi",
+   "t": {
+    "en": "to taxi",
+    "uk": "рулити",
+    "ru": "рулить",
+    "pl": "kołować",
+    "de": "rollen",
+    "fr": "rouler au sol",
+    "es": "rodar por la pista",
+    "it": "rullare",
+    "pt": "taxiar",
+    "tr": "taksi yapmak"
+   },
+   "ex": {
+    "en": "The plane taxied to the gate."
+   }
+  },
+  {
+   "id": "transport.airspace",
+   "t": {
+    "en": "airspace",
+    "uk": "повітряний простір",
+    "ru": "воздушное пространство",
+    "pl": "przestrzeń powietrzna",
+    "de": "Luftraum",
+    "fr": "espace aérien",
+    "es": "espacio aéreo",
+    "it": "spazio aereo",
+    "pt": "espaço aéreo",
+    "tr": "hava sahası"
+   },
+   "ex": {
+    "en": "The airspace was closed for hours."
+   }
+  },
+  {
+   "id": "transport.to-dock",
+   "t": {
+    "en": "to dock",
+    "uk": "причалити",
+    "ru": "причалить",
+    "pl": "zacumować",
+    "de": "anlegen",
+    "fr": "accoster",
+    "es": "atracar",
+    "it": "attraccare",
+    "pt": "atracar",
+    "tr": "yanaşmak"
+   },
+   "ex": {
+    "en": "The ferry docked at noon."
+   }
+  },
+  {
+   "id": "transport.to-capsize",
+   "t": {
+    "en": "to capsize",
+    "uk": "перекинутися",
+    "ru": "перевернуться",
+    "pl": "wywrócić się",
+    "de": "kentern",
+    "fr": "chavirer",
+    "es": "zozobrar",
+    "it": "capovolgersi",
+    "pt": "emborcar",
+    "tr": "alabora olmak"
+   },
+   "ex": {
+    "en": "The small boat capsized in the storm."
+   }
+  },
+  {
+   "id": "transport.shipwreck",
+   "t": {
+    "en": "shipwreck",
+    "uk": "корабельна аварія",
+    "ru": "кораблекрушение",
+    "pl": "katastrofa morska",
+    "de": "Schiffbruch",
+    "fr": "naufrage",
+    "es": "naufragio",
+    "it": "naufragio",
+    "pt": "naufrágio",
+    "tr": "gemi kazası"
+   },
+   "ex": {
+    "en": "Only two sailors survived the shipwreck."
+   }
+  },
+  {
+   "id": "transport.maritime",
+   "t": {
+    "en": "maritime",
+    "uk": "морський",
+    "ru": "морской",
+    "pl": "morski",
+    "de": "maritim",
+    "fr": "maritime",
+    "es": "marítimo",
+    "it": "marittimo",
+    "pt": "marítimo",
+    "tr": "denizcilik"
+   },
+   "ex": {
+    "en": "The city has a long maritime history."
+   }
+  },
+  {
+   "id": "transport.inland-waterway",
+   "t": {
+    "en": "inland waterway",
+    "uk": "внутрішній водний шлях",
+    "ru": "внутренний водный путь",
+    "pl": "śródlądowa droga wodna",
+    "de": "Binnenwasserstraße",
+    "fr": "voie navigable intérieure",
+    "es": "vía navegable interior",
+    "it": "via navigabile interna",
+    "pt": "hidrovia",
+    "tr": "iç su yolu"
+   },
+   "ex": {
+    "en": "Barges use the inland waterways."
+   }
+  },
+  {
+   "id": "transport.blind-corner",
+   "t": {
+    "en": "blind corner",
+    "uk": "сліпий поворот",
+    "ru": "слепой поворот",
+    "pl": "niewidoczny zakręt",
+    "de": "unübersichtliche Kurve",
+    "fr": "virage sans visibilité",
+    "es": "curva sin visibilidad",
+    "it": "curva cieca",
+    "pt": "curva cega",
+    "tr": "kör viraj"
+   },
+   "ex": {
+    "en": "Never overtake on a blind corner."
+   }
+  },
+  {
+   "id": "transport.road-hog",
+   "t": {
+    "en": "road hog",
+    "uk": "дорожній хам",
+    "ru": "дорожный хам",
+    "pl": "pirat drogowy",
+    "de": "Verkehrsrowdy",
+    "fr": "chauffard",
+    "es": "conductor temerario",
+    "it": "pirata della strada",
+    "pt": "motorista imprudente",
+    "tr": "trafik magandası"
+   },
+   "ex": {
+    "en": "Some road hog cut right in front of me."
+   }
+  },
+  {
+   "id": "transport.driver-fatigue",
+   "t": {
+    "en": "driver fatigue",
+    "uk": "втома водія",
+    "ru": "усталость водителя",
+    "pl": "zmęczenie kierowcy",
+    "de": "Übermüdung am Steuer",
+    "fr": "fatigue au volant",
+    "es": "fatiga al volante",
+    "it": "stanchezza alla guida",
+    "pt": "fadiga ao volante",
+    "tr": "sürücü yorgunluğu"
+   },
+   "ex": {
+    "en": "Driver fatigue causes many accidents."
+   }
+  },
+  {
+   "id": "transport.blood-alcohol-limit",
+   "t": {
+    "en": "blood alcohol limit",
+    "uk": "допустима норма алкоголю",
+    "ru": "допустимая норма алкоголя",
+    "pl": "dopuszczalny poziom alkoholu",
+    "de": "Promillegrenze",
+    "fr": "limite d'alcoolémie",
+    "es": "tasa de alcoholemia",
+    "it": "limite del tasso alcolemico",
+    "pt": "limite de álcool no sangue",
+    "tr": "yasal alkol sınırı"
+   },
+   "ex": {
+    "en": "He was over the blood alcohol limit."
+   }
+  },
+  {
+   "id": "transport.to-lose-ones-licence",
+   "t": {
+    "en": "to lose one's licence",
+    "uk": "позбутися прав",
+    "ru": "лишиться прав",
+    "pl": "stracić prawo jazdy",
+    "de": "den Führerschein verlieren",
+    "fr": "perdre son permis",
+    "es": "perder el carné",
+    "it": "perdere la patente",
+    "pt": "perder a habilitação",
+    "tr": "ehliyetini kaybetmek"
+   },
+   "ex": {
+    "en": "One more offence and he'll lose his licence."
+   }
+  },
+  {
+   "id": "transport.black-spot",
+   "t": {
+    "en": "black spot",
+    "uk": "аварійно-небезпечна ділянка",
+    "ru": "аварийно-опасный участок",
+    "pl": "czarny punkt",
+    "de": "Unfallschwerpunkt",
+    "fr": "point noir",
+    "es": "punto negro",
+    "it": "punto nero",
+    "pt": "ponto crítico",
+    "tr": "kara nokta"
+   },
+   "ex": {
+    "en": "This junction is an accident black spot."
+   }
+  },
+  {
+   "id": "transport.autopilot",
+   "t": {
+    "en": "autopilot",
+    "uk": "автопілот",
+    "ru": "автопилот",
+    "pl": "autopilot",
+    "de": "Autopilot",
+    "fr": "pilote automatique",
+    "es": "piloto automático",
+    "it": "pilota automatico",
+    "pt": "piloto automático",
+    "tr": "otopilot"
+   },
+   "ex": {
+    "en": "The plane was flying on autopilot."
+   }
+  },
+  {
+   "id": "transport.headwind",
+   "t": {
+    "en": "headwind",
+    "uk": "зустрічний вітер",
+    "ru": "встречный ветер",
+    "pl": "wiatr przeciwny",
+    "de": "Gegenwind",
+    "fr": "vent de face",
+    "es": "viento en contra",
+    "it": "vento contrario",
+    "pt": "vento contrário",
+    "tr": "karşıdan esen rüzgar"
+   },
+   "ex": {
+    "en": "A strong headwind slowed the flight."
+   }
+  },
+  {
+   "id": "transport.urban-mobility",
+   "t": {
+    "en": "urban mobility",
+    "uk": "міська мобільність",
+    "ru": "городская мобильность",
+    "pl": "mobilność miejska",
+    "de": "urbane Mobilität",
+    "fr": "mobilité urbaine",
+    "es": "movilidad urbana",
+    "it": "mobilità urbana",
+    "pt": "mobilidade urbana",
+    "tr": "kentsel hareketlilik"
+   },
+   "ex": {
+    "en": "Bike lanes are key to urban mobility."
+   }
+  },
+  {
+   "id": "transport.car-dependent",
+   "t": {
+    "en": "car-dependent",
+    "uk": "залежний від автомобіля",
+    "ru": "зависимый от автомобиля",
+    "pl": "uzależniony od samochodu",
+    "de": "autoabhängig",
+    "fr": "dépendant de la voiture",
+    "es": "dependiente del coche",
+    "it": "dipendente dall'auto",
+    "pt": "dependente do carro",
+    "tr": "araca bağımlı"
+   },
+   "ex": {
+    "en": "Suburbs are often car-dependent."
+   }
+  },
+  {
+   "id": "transport.fleet",
+   "t": {
+    "en": "fleet",
+    "uk": "автопарк",
+    "ru": "автопарк",
+    "pl": "flota",
+    "de": "Fuhrpark",
+    "fr": "flotte",
+    "es": "flota",
+    "it": "flotta",
+    "pt": "frota",
+    "tr": "filo"
+   },
+   "ex": {
+    "en": "The city's bus fleet is now electric."
+   }
+  },
+  {
+   "id": "transport.bus-depot",
+   "t": {
+    "en": "bus depot",
+    "uk": "автобусне депо",
+    "ru": "автобусный парк",
+    "pl": "zajezdnia autobusowa",
+    "de": "Busdepot",
+    "fr": "dépôt de bus",
+    "es": "cocheras de autobuses",
+    "it": "deposito degli autobus",
+    "pt": "garagem de ônibus",
+    "tr": "otobüs garajı"
+   },
+   "ex": {
+    "en": "The buses return to the bus depot at night."
    }
   }
  ]

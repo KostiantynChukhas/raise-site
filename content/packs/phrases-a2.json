@@ -2,7 +2,7 @@
  "id": "phrases-a2",
  "topic": "phrases",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "phrases.no-problem",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "Thanks for your help! My pleasure."
+   }
+  },
+  {
+   "id": "phrases.whats-up",
+   "t": {
+    "en": "what's up?",
+    "uk": "як справи?",
+    "ru": "как дела?",
+    "pl": "co słychać?",
+    "de": "was geht?",
+    "fr": "quoi de neuf ?",
+    "es": "¿qué tal?",
+    "it": "come va?",
+    "pt": "e aí?",
+    "tr": "naber?"
+   },
+   "ex": {
+    "en": "Hey, what's up?"
+   }
+  },
+  {
+   "id": "phrases.hows-it-going",
+   "t": {
+    "en": "how's it going?",
+    "uk": "як життя?",
+    "ru": "как жизнь?",
+    "pl": "jak leci?",
+    "de": "wie läuft's?",
+    "fr": "ça va ?",
+    "es": "¿cómo va todo?",
+    "it": "come va?",
+    "pt": "como vão as coisas?",
+    "tr": "nasıl gidiyor?"
+   },
+   "ex": {
+    "en": "Hi Tom, how's it going?"
+   }
+  },
+  {
+   "id": "phrases.enjoy",
+   "t": {
+    "en": "enjoy!",
+    "uk": "насолоджуйся!",
+    "ru": "наслаждайся!",
+    "pl": "miłej zabawy!",
+    "de": "viel Spaß!",
+    "fr": "profite bien !",
+    "es": "¡disfruta!",
+    "it": "divertiti!",
+    "pt": "aproveite!",
+    "tr": "tadını çıkar!"
+   },
+   "ex": {
+    "en": "Enjoy! See you after the show."
+   }
+  },
+  {
+   "id": "phrases.well-done",
+   "t": {
+    "en": "well done!",
+    "uk": "молодець!",
+    "ru": "молодец!",
+    "pl": "brawo!",
+    "de": "gut gemacht!",
+    "fr": "bravo !",
+    "es": "¡bien hecho!",
+    "it": "ben fatto!",
+    "pt": "muito bem!",
+    "tr": "aferin!"
+   },
+   "ex": {
+    "en": "Well done! You passed!"
+   }
+  },
+  {
+   "id": "phrases.good-job",
+   "t": {
+    "en": "good job!",
+    "uk": "чудова робота!",
+    "ru": "отличная работа!",
+    "pl": "dobra robota!",
+    "de": "gute Arbeit!",
+    "fr": "beau travail !",
+    "es": "¡buen trabajo!",
+    "it": "ottimo lavoro!",
+    "pt": "bom trabalho!",
+    "tr": "iyi iş!"
+   },
+   "ex": {
+    "en": "Good job on the report!"
+   }
+  },
+  {
+   "id": "phrases.i-hope-so",
+   "t": {
+    "en": "I hope so",
+    "uk": "сподіваюся, що так",
+    "ru": "надеюсь, что да",
+    "pl": "mam nadzieję",
+    "de": "hoffentlich",
+    "fr": "j'espère bien",
+    "es": "eso espero",
+    "it": "lo spero",
+    "pt": "espero que sim",
+    "tr": "umarım öyledir"
+   },
+   "ex": {
+    "en": "Will it be sunny? I hope so."
+   }
+  },
+  {
+   "id": "phrases.i-hope-not",
+   "t": {
+    "en": "I hope not",
+    "uk": "сподіваюся, що ні",
+    "ru": "надеюсь, что нет",
+    "pl": "mam nadzieję, że nie",
+    "de": "hoffentlich nicht",
+    "fr": "j'espère que non",
+    "es": "espero que no",
+    "it": "spero di no",
+    "pt": "espero que não",
+    "tr": "umarım değildir"
+   },
+   "ex": {
+    "en": "Is it going to rain? I hope not."
+   }
+  },
+  {
+   "id": "phrases.i-guess-so",
+   "t": {
+    "en": "I guess so",
+    "uk": "мабуть, так",
+    "ru": "наверное, да",
+    "pl": "chyba tak",
+    "de": "ich denke schon",
+    "fr": "je suppose que oui",
+    "es": "supongo que sí",
+    "it": "credo di sì",
+    "pt": "acho que sim",
+    "tr": "sanırım öyle"
+   },
+   "ex": {
+    "en": "Are you coming? I guess so."
+   }
+  },
+  {
+   "id": "phrases.thats-right",
+   "t": {
+    "en": "that's right",
+    "uk": "саме так",
+    "ru": "именно так",
+    "pl": "zgadza się",
+    "de": "genau",
+    "fr": "c'est ça",
+    "es": "eso es",
+    "it": "esatto",
+    "pt": "isso mesmo",
+    "tr": "aynen öyle"
+   },
+   "ex": {
+    "en": "That's right, the shop opens at nine."
+   }
+  },
+  {
+   "id": "phrases.thats-fine",
+   "t": {
+    "en": "that's fine",
+    "uk": "усе гаразд",
+    "ru": "всё в порядке",
+    "pl": "w porządku",
+    "de": "das ist in Ordnung",
+    "fr": "ça va",
+    "es": "está bien",
+    "it": "va bene",
+    "pt": "tudo bem",
+    "tr": "sorun değil"
+   },
+   "ex": {
+    "en": "Five o'clock? That's fine."
+   }
+  },
+  {
+   "id": "phrases.its-my-fault",
+   "t": {
+    "en": "it's my fault",
+    "uk": "це моя провина",
+    "ru": "это моя вина",
+    "pl": "to moja wina",
+    "de": "das ist meine Schuld",
+    "fr": "c'est ma faute",
+    "es": "es culpa mía",
+    "it": "è colpa mia",
+    "pt": "a culpa é minha",
+    "tr": "benim hatam"
+   },
+   "ex": {
+    "en": "Don't blame him, it's my fault."
+   }
+  },
+  {
+   "id": "phrases.could-you-help-me",
+   "t": {
+    "en": "could you help me?",
+    "uk": "можете мені допомогти?",
+    "ru": "не могли бы вы мне помочь?",
+    "pl": "czy może mi pan pomóc?",
+    "de": "können Sie mir helfen?",
+    "fr": "pourriez-vous m'aider ?",
+    "es": "¿podría ayudarme?",
+    "it": "potrebbe aiutarmi?",
+    "pt": "poderia me ajudar?",
+    "tr": "bana yardım eder misiniz?"
+   },
+   "ex": {
+    "en": "Excuse me, could you help me?"
+   }
+  },
+  {
+   "id": "phrases.how-about-you",
+   "t": {
+    "en": "how about you?",
+    "uk": "а ти?",
+    "ru": "а ты?",
+    "pl": "a ty?",
+    "de": "und du?",
+    "fr": "et toi ?",
+    "es": "¿y tú?",
+    "it": "e tu?",
+    "pt": "e você?",
+    "tr": "ya sen?"
+   },
+   "ex": {
+    "en": "I love tea. How about you?"
+   }
+  },
+  {
+   "id": "phrases.how-far-is-it",
+   "t": {
+    "en": "how far is it?",
+    "uk": "наскільки це далеко?",
+    "ru": "насколько это далеко?",
+    "pl": "jak daleko to jest?",
+    "de": "wie weit ist es?",
+    "fr": "c'est à quelle distance ?",
+    "es": "¿a qué distancia está?",
+    "it": "quanto è lontano?",
+    "pt": "qual é a distância?",
+    "tr": "ne kadar uzakta?"
+   },
+   "ex": {
+    "en": "How far is it to the station?"
+   }
+  },
+  {
+   "id": "phrases.ill-be-right-back",
+   "t": {
+    "en": "I'll be right back",
+    "uk": "я зараз повернуся",
+    "ru": "я сейчас вернусь",
+    "pl": "zaraz wracam",
+    "de": "ich bin gleich zurück",
+    "fr": "je reviens tout de suite",
+    "es": "ahora vuelvo",
+    "it": "torno subito",
+    "pt": "já volto",
+    "tr": "hemen dönerim"
+   },
+   "ex": {
+    "en": "Wait here, I'll be right back."
+   }
+  },
+  {
+   "id": "phrases.wait-for-me",
+   "t": {
+    "en": "wait for me",
+    "uk": "зачекай на мене",
+    "ru": "подожди меня",
+    "pl": "zaczekaj na mnie",
+    "de": "warte auf mich",
+    "fr": "attends-moi",
+    "es": "espérame",
+    "it": "aspettami",
+    "pt": "me espera",
+    "tr": "beni bekle"
+   },
+   "ex": {
+    "en": "Wait for me at the door."
+   }
+  },
+  {
+   "id": "phrases.sounds-good",
+   "t": {
+    "en": "sounds good",
+    "uk": "звучить добре",
+    "ru": "звучит хорошо",
+    "pl": "brzmi dobrze",
+    "de": "klingt gut",
+    "fr": "ça me va",
+    "es": "me parece bien",
+    "it": "mi sembra una buona idea",
+    "pt": "parece bom",
+    "tr": "kulağa hoş geliyor"
+   },
+   "ex": {
+    "en": "Lunch at one? Sounds good."
+   }
+  },
+  {
+   "id": "phrases.have-a-good-trip",
+   "t": {
+    "en": "have a good trip",
+    "uk": "щасливої дороги",
+    "ru": "счастливого пути",
+    "pl": "szczęśliwej podróży",
+    "de": "gute Reise",
+    "fr": "bon voyage",
+    "es": "buen viaje",
+    "it": "buon viaggio",
+    "pt": "boa viagem",
+    "tr": "iyi yolculuklar"
+   },
+   "ex": {
+    "en": "Have a good trip to Rome!"
+   }
+  },
+  {
+   "id": "phrases.watch-out",
+   "t": {
+    "en": "watch out!",
+    "uk": "обережно!",
+    "ru": "осторожно!",
+    "pl": "uważaj!",
+    "de": "pass auf!",
+    "fr": "attention !",
+    "es": "¡cuidado!",
+    "it": "attento!",
+    "pt": "cuidado!",
+    "tr": "dikkat et!"
+   },
+   "ex": {
+    "en": "Watch out! A car!"
+   }
+  },
+  {
+   "id": "phrases.thats-too-bad",
+   "t": {
+    "en": "that's too bad",
+    "uk": "шкода",
+    "ru": "жаль",
+    "pl": "szkoda",
+    "de": "schade",
+    "fr": "c'est dommage",
+    "es": "qué pena",
+    "it": "peccato",
+    "pt": "que pena",
+    "tr": "çok yazık"
+   },
+   "ex": {
+    "en": "You can't come? That's too bad."
+   }
+  },
+  {
+   "id": "phrases.let-me-know",
+   "t": {
+    "en": "let me know",
+    "uk": "дай мені знати",
+    "ru": "дай мне знать",
+    "pl": "daj mi znać",
+    "de": "sag mir Bescheid",
+    "fr": "tiens-moi au courant",
+    "es": "avísame",
+    "it": "fammi sapere",
+    "pt": "me avisa",
+    "tr": "bana haber ver"
+   },
+   "ex": {
+    "en": "Let me know if you need anything."
+   }
+  },
+  {
+   "id": "phrases.call-me",
+   "t": {
+    "en": "call me",
+    "uk": "подзвони мені",
+    "ru": "позвони мне",
+    "pl": "zadzwoń do mnie",
+    "de": "ruf mich an",
+    "fr": "appelle-moi",
+    "es": "llámame",
+    "it": "chiamami",
+    "pt": "me liga",
+    "tr": "beni ara"
+   },
+   "ex": {
+    "en": "Call me when you arrive."
+   }
+  },
+  {
+   "id": "phrases.nice-to-see-you",
+   "t": {
+    "en": "nice to see you",
+    "uk": "радий тебе бачити",
+    "ru": "рад тебя видеть",
+    "pl": "miło cię widzieć",
+    "de": "schön, dich zu sehen",
+    "fr": "ça fait plaisir de te voir",
+    "es": "me alegro de verte",
+    "it": "che piacere vederti",
+    "pt": "que bom te ver",
+    "tr": "seni görmek güzel"
+   },
+   "ex": {
+    "en": "Nice to see you again!"
+   }
+  },
+  {
+   "id": "phrases.talk-to-you-later",
+   "t": {
+    "en": "talk to you later",
+    "uk": "поговоримо пізніше",
+    "ru": "поговорим позже",
+    "pl": "pogadamy później",
+    "de": "bis später",
+    "fr": "on se parle plus tard",
+    "es": "hablamos luego",
+    "it": "ci sentiamo dopo",
+    "pt": "a gente se fala depois",
+    "tr": "sonra konuşuruz"
+   },
+   "ex": {
+    "en": "I have to go. Talk to you later."
+   }
+  },
+  {
+   "id": "phrases.youre-kidding",
+   "t": {
+    "en": "you're kidding",
+    "uk": "ти жартуєш",
+    "ru": "ты шутишь",
+    "pl": "żartujesz",
+    "de": "du machst Witze",
+    "fr": "tu plaisantes",
+    "es": "estás de broma",
+    "it": "stai scherzando",
+    "pt": "você está brincando",
+    "tr": "şaka yapıyorsun"
+   },
+   "ex": {
+    "en": "You won? You're kidding!"
+   }
+  },
+  {
+   "id": "phrases.is-this-seat-free",
+   "t": {
+    "en": "is this seat free?",
+    "uk": "це місце вільне?",
+    "ru": "это место свободно?",
+    "pl": "czy to miejsce jest wolne?",
+    "de": "ist dieser Platz frei?",
+    "fr": "cette place est libre ?",
+    "es": "¿está libre este asiento?",
+    "it": "è libero questo posto?",
+    "pt": "este lugar está livre?",
+    "tr": "bu koltuk boş mu?"
+   },
+   "ex": {
+    "en": "Excuse me, is this seat free?"
+   }
+  },
+  {
+   "id": "phrases.happy-holidays",
+   "t": {
+    "en": "happy holidays",
+    "uk": "щасливих свят",
+    "ru": "счастливых праздников",
+    "pl": "wesołych świąt",
+    "de": "schöne Feiertage",
+    "fr": "bonnes fêtes",
+    "es": "felices fiestas",
+    "it": "buone feste",
+    "pt": "boas festas",
+    "tr": "mutlu bayramlar"
+   },
+   "ex": {
+    "en": "Happy holidays to you and your family!"
+   }
+  },
+  {
+   "id": "phrases.not-yet",
+   "t": {
+    "en": "not yet",
+    "uk": "ще ні",
+    "ru": "ещё нет",
+    "pl": "jeszcze nie",
+    "de": "noch nicht",
+    "fr": "pas encore",
+    "es": "todavía no",
+    "it": "non ancora",
+    "pt": "ainda não",
+    "tr": "henüz değil"
+   },
+   "ex": {
+    "en": "Have you eaten? Not yet."
+   }
+  },
+  {
+   "id": "phrases.for-sure",
+   "t": {
+    "en": "for sure",
+    "uk": "точно",
+    "ru": "точно",
+    "pl": "na pewno",
+    "de": "auf jeden Fall",
+    "fr": "bien sûr",
+    "es": "seguro",
+    "it": "sicuramente",
+    "pt": "com certeza",
+    "tr": "kesinlikle"
+   },
+   "ex": {
+    "en": "I'll be there, for sure."
+   }
+  },
+  {
+   "id": "phrases.have-a-good-weekend",
+   "t": {
+    "en": "have a good weekend",
+    "uk": "гарних вихідних",
+    "ru": "хороших выходных",
+    "pl": "miłego weekendu",
+    "de": "schönes Wochenende",
+    "fr": "bon week-end",
+    "es": "buen fin de semana",
+    "it": "buon fine settimana",
+    "pt": "bom fim de semana",
+    "tr": "iyi hafta sonları"
+   },
+   "ex": {
+    "en": "Bye! Have a good weekend!"
    }
   }
  ]

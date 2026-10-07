@@ -2,7 +2,7 @@
  "id": "general-a1",
  "topic": "general",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "general.today",
@@ -848,6 +848,420 @@
    },
    "ex": {
     "en": "There is nothing in the box."
+   }
+  },
+  {
+   "id": "general.tuesday",
+   "t": {
+    "en": "Tuesday",
+    "uk": "вівторок",
+    "ru": "вторник",
+    "pl": "wtorek",
+    "de": "Dienstag",
+    "fr": "mardi",
+    "es": "martes",
+    "it": "martedì",
+    "pt": "terça-feira",
+    "tr": "salı"
+   },
+   "ex": {
+    "en": "I have English on Tuesday."
+   }
+  },
+  {
+   "id": "general.wednesday",
+   "t": {
+    "en": "Wednesday",
+    "uk": "середа",
+    "ru": "среда",
+    "pl": "środa",
+    "de": "Mittwoch",
+    "fr": "mercredi",
+    "es": "miércoles",
+    "it": "mercoledì",
+    "pt": "quarta-feira",
+    "tr": "çarşamba"
+   },
+   "ex": {
+    "en": "The shop is closed on Wednesday."
+   }
+  },
+  {
+   "id": "general.thursday",
+   "t": {
+    "en": "Thursday",
+    "uk": "четвер",
+    "ru": "четверг",
+    "pl": "czwartek",
+    "de": "Donnerstag",
+    "fr": "jeudi",
+    "es": "jueves",
+    "it": "giovedì",
+    "pt": "quinta-feira",
+    "tr": "perşembe"
+   },
+   "ex": {
+    "en": "See you on Thursday."
+   }
+  },
+  {
+   "id": "general.friday",
+   "t": {
+    "en": "Friday",
+    "uk": "п'ятниця",
+    "ru": "пятница",
+    "pl": "piątek",
+    "de": "Freitag",
+    "fr": "vendredi",
+    "es": "viernes",
+    "it": "venerdì",
+    "pt": "sexta-feira",
+    "tr": "cuma"
+   },
+   "ex": {
+    "en": "Friday is my favourite day."
+   }
+  },
+  {
+   "id": "general.saturday",
+   "t": {
+    "en": "Saturday",
+    "uk": "субота",
+    "ru": "суббота",
+    "pl": "sobota",
+    "de": "Samstag",
+    "fr": "samedi",
+    "es": "sábado",
+    "it": "sabato",
+    "pt": "sábado",
+    "tr": "cumartesi"
+   },
+   "ex": {
+    "en": "We sleep late on Saturday."
+   }
+  },
+  {
+   "id": "general.oclock",
+   "t": {
+    "en": "o'clock",
+    "uk": "година",
+    "ru": "час",
+    "pl": "godzina",
+    "de": "Uhr",
+    "fr": "heure",
+    "es": "en punto",
+    "it": "in punto",
+    "pt": "em ponto",
+    "tr": "saat"
+   },
+   "ex": {
+    "en": "It is three o'clock."
+   }
+  },
+  {
+   "id": "general.half-past",
+   "t": {
+    "en": "half past",
+    "uk": "пів на",
+    "ru": "половина",
+    "pl": "wpół do",
+    "de": "halb",
+    "fr": "et demie",
+    "es": "y media",
+    "it": "e mezza",
+    "pt": "e meia",
+    "tr": "buçuk"
+   },
+   "ex": {
+    "en": "It is half past six."
+   }
+  },
+  {
+   "id": "general.quarter-past",
+   "t": {
+    "en": "quarter past",
+    "uk": "чверть на",
+    "ru": "четверть",
+    "pl": "kwadrans po",
+    "de": "Viertel nach",
+    "fr": "et quart",
+    "es": "y cuarto",
+    "it": "e un quarto",
+    "pt": "e quinze",
+    "tr": "çeyrek geçe"
+   },
+   "ex": {
+    "en": "We meet at quarter past two."
+   }
+  },
+  {
+   "id": "general.every-day",
+   "t": {
+    "en": "every day",
+    "uk": "щодня",
+    "ru": "каждый день",
+    "pl": "codziennie",
+    "de": "jeden Tag",
+    "fr": "tous les jours",
+    "es": "todos los días",
+    "it": "ogni giorno",
+    "pt": "todo dia",
+    "tr": "her gün"
+   },
+   "ex": {
+    "en": "I walk to school every day."
+   }
+  },
+  {
+   "id": "general.this-week",
+   "t": {
+    "en": "this week",
+    "uk": "цього тижня",
+    "ru": "на этой неделе",
+    "pl": "w tym tygodniu",
+    "de": "diese Woche",
+    "fr": "cette semaine",
+    "es": "esta semana",
+    "it": "questa settimana",
+    "pt": "esta semana",
+    "tr": "bu hafta"
+   },
+   "ex": {
+    "en": "I am very busy this week."
+   }
+  },
+  {
+   "id": "general.every-week",
+   "t": {
+    "en": "every week",
+    "uk": "щотижня",
+    "ru": "каждую неделю",
+    "pl": "co tydzień",
+    "de": "jede Woche",
+    "fr": "toutes les semaines",
+    "es": "todas las semanas",
+    "it": "ogni settimana",
+    "pt": "toda semana",
+    "tr": "her hafta"
+   },
+   "ex": {
+    "en": "We play football every week."
+   }
+  },
+  {
+   "id": "general.to-be",
+   "t": {
+    "en": "to be",
+    "uk": "бути",
+    "ru": "быть",
+    "pl": "być",
+    "de": "sein",
+    "fr": "être",
+    "es": "ser / estar",
+    "it": "essere",
+    "pt": "ser / estar",
+    "tr": "olmak"
+   },
+   "ex": {
+    "en": "I want to be a teacher."
+   }
+  },
+  {
+   "id": "general.to-make",
+   "t": {
+    "en": "to make",
+    "uk": "робити",
+    "ru": "делать",
+    "pl": "robić",
+    "de": "machen",
+    "fr": "faire",
+    "es": "hacer",
+    "it": "fare",
+    "pt": "fazer",
+    "tr": "yapmak"
+   },
+   "ex": {
+    "en": "I make tea every morning."
+   }
+  },
+  {
+   "id": "general.to-put",
+   "t": {
+    "en": "to put",
+    "uk": "класти",
+    "ru": "класть",
+    "pl": "kłaść",
+    "de": "legen",
+    "fr": "mettre",
+    "es": "poner",
+    "it": "mettere",
+    "pt": "colocar",
+    "tr": "koymak"
+   },
+   "ex": {
+    "en": "Put the book on the table."
+   }
+  },
+  {
+   "id": "general.to-bring",
+   "t": {
+    "en": "to bring",
+    "uk": "приносити",
+    "ru": "приносить",
+    "pl": "przynosić",
+    "de": "bringen",
+    "fr": "apporter",
+    "es": "traer",
+    "it": "portare",
+    "pt": "trazer",
+    "tr": "getirmek"
+   },
+   "ex": {
+    "en": "Please bring some water."
+   }
+  },
+  {
+   "id": "general.to-show",
+   "t": {
+    "en": "to show",
+    "uk": "показувати",
+    "ru": "показывать",
+    "pl": "pokazywać",
+    "de": "zeigen",
+    "fr": "montrer",
+    "es": "mostrar",
+    "it": "mostrare",
+    "pt": "mostrar",
+    "tr": "göstermek"
+   },
+   "ex": {
+    "en": "Show me your photos."
+   }
+  },
+  {
+   "id": "general.to-tell",
+   "t": {
+    "en": "to tell",
+    "uk": "розповідати",
+    "ru": "рассказывать",
+    "pl": "opowiadać",
+    "de": "erzählen",
+    "fr": "raconter",
+    "es": "contar",
+    "it": "raccontare",
+    "pt": "contar",
+    "tr": "anlatmak"
+   },
+   "ex": {
+    "en": "Tell me about your day."
+   }
+  },
+  {
+   "id": "general.to-use",
+   "t": {
+    "en": "to use",
+    "uk": "використовувати",
+    "ru": "использовать",
+    "pl": "używać",
+    "de": "benutzen",
+    "fr": "utiliser",
+    "es": "usar",
+    "it": "usare",
+    "pt": "usar",
+    "tr": "kullanmak"
+   },
+   "ex": {
+    "en": "Can I use your phone?"
+   }
+  },
+  {
+   "id": "general.something",
+   "t": {
+    "en": "something",
+    "uk": "щось",
+    "ru": "что-то",
+    "pl": "coś",
+    "de": "etwas",
+    "fr": "quelque chose",
+    "es": "algo",
+    "it": "qualcosa",
+    "pt": "algo",
+    "tr": "bir şey"
+   },
+   "ex": {
+    "en": "I want something to eat."
+   }
+  },
+  {
+   "id": "general.everything",
+   "t": {
+    "en": "everything",
+    "uk": "усе",
+    "ru": "всё",
+    "pl": "wszystko",
+    "de": "alles",
+    "fr": "tout",
+    "es": "todo",
+    "it": "tutto",
+    "pt": "tudo",
+    "tr": "her şey"
+   },
+   "ex": {
+    "en": "Everything is fine."
+   }
+  },
+  {
+   "id": "general.why",
+   "t": {
+    "en": "why",
+    "uk": "чому",
+    "ru": "почему",
+    "pl": "dlaczego",
+    "de": "warum",
+    "fr": "pourquoi",
+    "es": "por qué",
+    "it": "perché",
+    "pt": "por que",
+    "tr": "neden"
+   },
+   "ex": {
+    "en": "Why are you sad?"
+   }
+  },
+  {
+   "id": "general.when",
+   "t": {
+    "en": "when",
+    "uk": "коли",
+    "ru": "когда",
+    "pl": "kiedy",
+    "de": "wann",
+    "fr": "quand",
+    "es": "cuándo",
+    "it": "quando",
+    "pt": "quando",
+    "tr": "ne zaman"
+   },
+   "ex": {
+    "en": "When do you start work?"
+   }
+  },
+  {
+   "id": "general.where",
+   "t": {
+    "en": "where",
+    "uk": "де",
+    "ru": "где",
+    "pl": "gdzie",
+    "de": "wo",
+    "fr": "où",
+    "es": "dónde",
+    "it": "dove",
+    "pt": "onde",
+    "tr": "nerede"
+   },
+   "ex": {
+    "en": "Where is the station?"
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "finance-a2",
  "topic": "finance",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "finance.bank-account",
@@ -902,6 +902,546 @@
    },
    "ex": {
     "en": "Many students are in debt."
+   }
+  },
+  {
+   "id": "finance.lost-card",
+   "t": {
+    "en": "lost card",
+    "uk": "загублена картка",
+    "ru": "потерянная карта",
+    "pl": "zgubiona karta",
+    "de": "verlorene Karte",
+    "fr": "carte perdue",
+    "es": "tarjeta perdida",
+    "it": "carta smarrita",
+    "pt": "cartão perdido",
+    "tr": "kayıp kart"
+   },
+   "ex": {
+    "en": "Call the bank about a lost card."
+   }
+  },
+  {
+   "id": "finance.to-receive-money",
+   "t": {
+    "en": "to receive money",
+    "uk": "отримувати гроші",
+    "ru": "получать деньги",
+    "pl": "otrzymywać pieniądze",
+    "de": "Geld erhalten",
+    "fr": "recevoir de l'argent",
+    "es": "recibir dinero",
+    "it": "ricevere soldi",
+    "pt": "receber dinheiro",
+    "tr": "para almak"
+   },
+   "ex": {
+    "en": "She received money from her aunt."
+   }
+  },
+  {
+   "id": "finance.to-send-money",
+   "t": {
+    "en": "to send money",
+    "uk": "надсилати гроші",
+    "ru": "отправлять деньги",
+    "pl": "wysyłać pieniądze",
+    "de": "Geld schicken",
+    "fr": "envoyer de l'argent",
+    "es": "enviar dinero",
+    "it": "inviare soldi",
+    "pt": "enviar dinheiro",
+    "tr": "para göndermek"
+   },
+   "ex": {
+    "en": "I send money to my parents."
+   }
+  },
+  {
+   "id": "finance.a-waste-of-money",
+   "t": {
+    "en": "a waste of money",
+    "uk": "марна трата грошей",
+    "ru": "пустая трата денег",
+    "pl": "strata pieniędzy",
+    "de": "Geldverschwendung",
+    "fr": "gaspillage d'argent",
+    "es": "un derroche de dinero",
+    "it": "uno spreco di soldi",
+    "pt": "desperdício de dinheiro",
+    "tr": "para israfı"
+   },
+   "ex": {
+    "en": "That film was a waste of money."
+   }
+  },
+  {
+   "id": "finance.electricity-bill",
+   "t": {
+    "en": "electricity bill",
+    "uk": "рахунок за електрику",
+    "ru": "счёт за электричество",
+    "pl": "rachunek za prąd",
+    "de": "Stromrechnung",
+    "fr": "facture d'électricité",
+    "es": "factura de la luz",
+    "it": "bolletta della luce",
+    "pt": "conta de luz",
+    "tr": "elektrik faturası"
+   },
+   "ex": {
+    "en": "The electricity bill is high this month."
+   }
+  },
+  {
+   "id": "finance.phone-bill",
+   "t": {
+    "en": "phone bill",
+    "uk": "рахунок за телефон",
+    "ru": "счёт за телефон",
+    "pl": "rachunek za telefon",
+    "de": "Telefonrechnung",
+    "fr": "facture de téléphone",
+    "es": "factura del teléfono",
+    "it": "bolletta del telefono",
+    "pt": "conta de telefone",
+    "tr": "telefon faturası"
+   },
+   "ex": {
+    "en": "I paid my phone bill online."
+   }
+  },
+  {
+   "id": "finance.to-pay-taxes",
+   "t": {
+    "en": "to pay taxes",
+    "uk": "сплачувати податки",
+    "ru": "платить налоги",
+    "pl": "płacić podatki",
+    "de": "Steuern zahlen",
+    "fr": "payer des impôts",
+    "es": "pagar impuestos",
+    "it": "pagare le tasse",
+    "pt": "pagar impostos",
+    "tr": "vergi ödemek"
+   },
+   "ex": {
+    "en": "Everyone has to pay taxes."
+   }
+  },
+  {
+   "id": "finance.security-code",
+   "t": {
+    "en": "security code",
+    "uk": "код безпеки",
+    "ru": "код безопасности",
+    "pl": "kod bezpieczeństwa",
+    "de": "Sicherheitscode",
+    "fr": "code de sécurité",
+    "es": "código de seguridad",
+    "it": "codice di sicurezza",
+    "pt": "código de segurança",
+    "tr": "güvenlik kodu"
+   },
+   "ex": {
+    "en": "Enter the security code on the back."
+   }
+  },
+  {
+   "id": "finance.money-transfer",
+   "t": {
+    "en": "money transfer",
+    "uk": "грошовий переказ",
+    "ru": "денежный перевод",
+    "pl": "przekaz pieniężny",
+    "de": "Geldtransfer",
+    "fr": "transfert d'argent",
+    "es": "envío de dinero",
+    "it": "trasferimento di denaro",
+    "pt": "transferência de dinheiro",
+    "tr": "para transferi"
+   },
+   "ex": {
+    "en": "The money transfer took one day."
+   }
+  },
+  {
+   "id": "finance.transfer-fee",
+   "t": {
+    "en": "transfer fee",
+    "uk": "комісія за переказ",
+    "ru": "комиссия за перевод",
+    "pl": "opłata za przelew",
+    "de": "Überweisungsgebühr",
+    "fr": "frais de virement",
+    "es": "comisión por transferencia",
+    "it": "commissione sul bonifico",
+    "pt": "taxa de transferência",
+    "tr": "havale ücreti"
+   },
+   "ex": {
+    "en": "Is there a transfer fee?"
+   }
+  },
+  {
+   "id": "finance.total-cost",
+   "t": {
+    "en": "total cost",
+    "uk": "загальна вартість",
+    "ru": "общая стоимость",
+    "pl": "całkowity koszt",
+    "de": "Gesamtkosten",
+    "fr": "coût total",
+    "es": "coste total",
+    "it": "costo totale",
+    "pt": "custo total",
+    "tr": "toplam maliyet"
+   },
+   "ex": {
+    "en": "What is the total cost?"
+   }
+  },
+  {
+   "id": "finance.extra-cost",
+   "t": {
+    "en": "extra cost",
+    "uk": "додаткові витрати",
+    "ru": "дополнительные расходы",
+    "pl": "dodatkowy koszt",
+    "de": "Zusatzkosten",
+    "fr": "coût supplémentaire",
+    "es": "coste adicional",
+    "it": "costo aggiuntivo",
+    "pt": "custo extra",
+    "tr": "ek maliyet"
+   },
+   "ex": {
+    "en": "Breakfast is an extra cost."
+   }
+  },
+  {
+   "id": "finance.to-lower-prices",
+   "t": {
+    "en": "to lower prices",
+    "uk": "знижувати ціни",
+    "ru": "снижать цены",
+    "pl": "obniżać ceny",
+    "de": "Preise senken",
+    "fr": "baisser les prix",
+    "es": "bajar los precios",
+    "it": "abbassare i prezzi",
+    "pt": "baixar os preços",
+    "tr": "fiyatları düşürmek"
+   },
+   "ex": {
+    "en": "Shops lower prices in January."
+   }
+  },
+  {
+   "id": "finance.card-reader",
+   "t": {
+    "en": "card reader",
+    "uk": "платіжний термінал",
+    "ru": "платёжный терминал",
+    "pl": "czytnik kart",
+    "de": "Kartenlesegerät",
+    "fr": "lecteur de carte",
+    "es": "lector de tarjetas",
+    "it": "lettore di carte",
+    "pt": "maquininha de cartão",
+    "tr": "kart okuyucu"
+   },
+   "ex": {
+    "en": "The card reader isn't working."
+   }
+  },
+  {
+   "id": "finance.stolen-card",
+   "t": {
+    "en": "stolen card",
+    "uk": "викрадена картка",
+    "ru": "украденная карта",
+    "pl": "skradziona karta",
+    "de": "gestohlene Karte",
+    "fr": "carte volée",
+    "es": "tarjeta robada",
+    "it": "carta rubata",
+    "pt": "cartão roubado",
+    "tr": "çalıntı kart"
+   },
+   "ex": {
+    "en": "I reported the stolen card."
+   }
+  },
+  {
+   "id": "finance.to-cancel-a-card",
+   "t": {
+    "en": "to cancel a card",
+    "uk": "скасувати картку",
+    "ru": "аннулировать карту",
+    "pl": "anulować kartę",
+    "de": "eine Karte kündigen",
+    "fr": "résilier une carte",
+    "es": "cancelar una tarjeta",
+    "it": "annullare una carta",
+    "pt": "cancelar um cartão",
+    "tr": "kartı iptal etmek"
+   },
+   "ex": {
+    "en": "I want to cancel my old card."
+   }
+  },
+  {
+   "id": "finance.bank-manager",
+   "t": {
+    "en": "bank manager",
+    "uk": "менеджер банку",
+    "ru": "управляющий банком",
+    "pl": "kierownik banku",
+    "de": "Bankdirektor",
+    "fr": "directeur de banque",
+    "es": "director del banco",
+    "it": "direttore di banca",
+    "pt": "gerente do banco",
+    "tr": "banka müdürü"
+   },
+   "ex": {
+    "en": "I spoke to the bank manager."
+   }
+  },
+  {
+   "id": "finance.cash-register",
+   "t": {
+    "en": "cash register",
+    "uk": "касовий апарат",
+    "ru": "кассовый аппарат",
+    "pl": "kasa fiskalna",
+    "de": "Registrierkasse",
+    "fr": "caisse enregistreuse",
+    "es": "caja registradora",
+    "it": "registratore di cassa",
+    "pt": "caixa registradora",
+    "tr": "yazar kasa"
+   },
+   "ex": {
+    "en": "The cash register is empty."
+   }
+  },
+  {
+   "id": "finance.amount",
+   "t": {
+    "en": "amount",
+    "uk": "сума",
+    "ru": "сумма",
+    "pl": "kwota",
+    "de": "Betrag",
+    "fr": "montant",
+    "es": "importe",
+    "it": "importo",
+    "pt": "valor",
+    "tr": "tutar"
+   },
+   "ex": {
+    "en": "Write the amount in words."
+   }
+  },
+  {
+   "id": "finance.car-loan",
+   "t": {
+    "en": "car loan",
+    "uk": "автокредит",
+    "ru": "автокредит",
+    "pl": "kredyt samochodowy",
+    "de": "Autokredit",
+    "fr": "prêt auto",
+    "es": "préstamo para el coche",
+    "it": "prestito auto",
+    "pt": "financiamento de carro",
+    "tr": "taşıt kredisi"
+   },
+   "ex": {
+    "en": "They took a car loan."
+   }
+  },
+  {
+   "id": "finance.bank-details",
+   "t": {
+    "en": "bank details",
+    "uk": "банківські реквізити",
+    "ru": "банковские реквизиты",
+    "pl": "dane bankowe",
+    "de": "Bankverbindung",
+    "fr": "coordonnées bancaires",
+    "es": "datos bancarios",
+    "it": "coordinate bancarie",
+    "pt": "dados bancários",
+    "tr": "banka bilgileri"
+   },
+   "ex": {
+    "en": "Send me your bank details."
+   }
+  },
+  {
+   "id": "finance.expired-card",
+   "t": {
+    "en": "expired card",
+    "uk": "прострочена картка",
+    "ru": "просроченная карта",
+    "pl": "nieważna karta",
+    "de": "abgelaufene Karte",
+    "fr": "carte expirée",
+    "es": "tarjeta caducada",
+    "it": "carta scaduta",
+    "pt": "cartão vencido",
+    "tr": "süresi dolmuş kart"
+   },
+   "ex": {
+    "en": "The shop refused my expired card."
+   }
+  },
+  {
+   "id": "finance.millionaire",
+   "t": {
+    "en": "millionaire",
+    "uk": "мільйонер",
+    "ru": "миллионер",
+    "pl": "milioner",
+    "de": "Millionär",
+    "fr": "millionnaire",
+    "es": "millonario",
+    "it": "milionario",
+    "pt": "milionário",
+    "tr": "milyoner"
+   },
+   "ex": {
+    "en": "He became a millionaire at thirty."
+   }
+  },
+  {
+   "id": "finance.poverty",
+   "t": {
+    "en": "poverty",
+    "uk": "бідність",
+    "ru": "бедность",
+    "pl": "bieda",
+    "de": "Armut",
+    "fr": "pauvreté",
+    "es": "pobreza",
+    "it": "povertà",
+    "pt": "pobreza",
+    "tr": "yoksulluk"
+   },
+   "ex": {
+    "en": "Many people live in poverty."
+   }
+  },
+  {
+   "id": "finance.to-tip",
+   "t": {
+    "en": "to tip",
+    "uk": "давати чайові",
+    "ru": "давать чаевые",
+    "pl": "dawać napiwek",
+    "de": "Trinkgeld geben",
+    "fr": "laisser un pourboire",
+    "es": "dejar propina",
+    "it": "lasciare la mancia",
+    "pt": "dar gorjeta",
+    "tr": "bahşiş vermek"
+   },
+   "ex": {
+    "en": "Do you tip in restaurants here?"
+   }
+  },
+  {
+   "id": "finance.to-buy-on-credit",
+   "t": {
+    "en": "to buy on credit",
+    "uk": "купувати в кредит",
+    "ru": "покупать в кредит",
+    "pl": "kupować na kredyt",
+    "de": "auf Kredit kaufen",
+    "fr": "acheter à crédit",
+    "es": "comprar a crédito",
+    "it": "comprare a credito",
+    "pt": "comprar a prazo",
+    "tr": "krediyle satın almak"
+   },
+   "ex": {
+    "en": "They bought the sofa on credit."
+   }
+  },
+  {
+   "id": "finance.household-bills",
+   "t": {
+    "en": "household bills",
+    "uk": "комунальні платежі",
+    "ru": "коммунальные платежи",
+    "pl": "rachunki domowe",
+    "de": "Haushaltsrechnungen",
+    "fr": "factures du ménage",
+    "es": "facturas de casa",
+    "it": "bollette di casa",
+    "pt": "contas da casa",
+    "tr": "ev faturaları"
+   },
+   "ex": {
+    "en": "We share the household bills."
+   }
+  },
+  {
+   "id": "finance.to-pay-in-full",
+   "t": {
+    "en": "to pay in full",
+    "uk": "сплатити повністю",
+    "ru": "оплатить полностью",
+    "pl": "zapłacić w całości",
+    "de": "vollständig bezahlen",
+    "fr": "payer en totalité",
+    "es": "pagar en su totalidad",
+    "it": "pagare per intero",
+    "pt": "pagar integralmente",
+    "tr": "tamamını ödemek"
+   },
+   "ex": {
+    "en": "You must pay in full before you travel."
+   }
+  },
+  {
+   "id": "finance.to-pay-up-front",
+   "t": {
+    "en": "to pay up front",
+    "uk": "платити наперед",
+    "ru": "платить вперёд",
+    "pl": "płacić z góry",
+    "de": "im Voraus zahlen",
+    "fr": "payer d'avance",
+    "es": "pagar por adelantado",
+    "it": "pagare in anticipo",
+    "pt": "pagar adiantado",
+    "tr": "peşin ödemek"
+   },
+   "ex": {
+    "en": "We had to pay up front for the room."
+   }
+  },
+  {
+   "id": "finance.cash-prize",
+   "t": {
+    "en": "cash prize",
+    "uk": "грошовий приз",
+    "ru": "денежный приз",
+    "pl": "nagroda pieniężna",
+    "de": "Geldpreis",
+    "fr": "prix en espèces",
+    "es": "premio en metálico",
+    "it": "premio in denaro",
+    "pt": "prêmio em dinheiro",
+    "tr": "para ödülü"
+   },
+   "ex": {
+    "en": "The winner gets a cash prize."
    }
   }
  ]

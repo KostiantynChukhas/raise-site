@@ -2,7 +2,7 @@
  "id": "relationships-a1",
  "topic": "relationships",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "relationships.boyfriend",
@@ -812,6 +812,456 @@
    },
    "ex": {
     "en": "We have been friends for years."
+   }
+  },
+  {
+   "id": "relationships.beautiful",
+   "t": {
+    "en": "beautiful",
+    "uk": "красивий",
+    "ru": "красивый",
+    "pl": "piękny",
+    "de": "schön",
+    "fr": "beau",
+    "es": "hermoso",
+    "it": "bello",
+    "pt": "lindo",
+    "tr": "güzel"
+   },
+   "ex": {
+    "en": "You look beautiful tonight."
+   }
+  },
+  {
+   "id": "relationships.to-say-goodbye",
+   "t": {
+    "en": "to say goodbye",
+    "uk": "прощатися",
+    "ru": "прощаться",
+    "pl": "żegnać się",
+    "de": "sich verabschieden",
+    "fr": "dire au revoir",
+    "es": "despedirse",
+    "it": "salutare",
+    "pt": "despedir-se",
+    "tr": "vedalaşmak"
+   },
+   "ex": {
+    "en": "It's hard to say goodbye."
+   }
+  },
+  {
+   "id": "relationships.to-say-hello",
+   "t": {
+    "en": "to say hello",
+    "uk": "вітатися",
+    "ru": "здороваться",
+    "pl": "przywitać się",
+    "de": "Hallo sagen",
+    "fr": "dire bonjour",
+    "es": "saludar",
+    "it": "salutare",
+    "pt": "cumprimentar",
+    "tr": "merhaba demek"
+   },
+   "ex": {
+    "en": "Go and say hello to her."
+   }
+  },
+  {
+   "id": "relationships.to-talk",
+   "t": {
+    "en": "to talk",
+    "uk": "розмовляти",
+    "ru": "разговаривать",
+    "pl": "rozmawiać",
+    "de": "reden",
+    "fr": "parler",
+    "es": "hablar",
+    "it": "parlare",
+    "pt": "conversar",
+    "tr": "konuşmak"
+   },
+   "ex": {
+    "en": "We talk every evening."
+   }
+  },
+  {
+   "id": "relationships.to-meet-up",
+   "t": {
+    "en": "to meet up",
+    "uk": "зустрічатися",
+    "ru": "встречаться",
+    "pl": "spotkać się",
+    "de": "sich treffen",
+    "fr": "se retrouver",
+    "es": "quedar",
+    "it": "vedersi",
+    "pt": "se encontrar",
+    "tr": "buluşmak"
+   },
+   "ex": {
+    "en": "Let's meet up on Friday."
+   }
+  },
+  {
+   "id": "relationships.to-hold",
+   "t": {
+    "en": "to hold",
+    "uk": "тримати",
+    "ru": "держать",
+    "pl": "trzymać",
+    "de": "halten",
+    "fr": "tenir",
+    "es": "sostener",
+    "it": "tenere",
+    "pt": "segurar",
+    "tr": "tutmak"
+   },
+   "ex": {
+    "en": "Can I hold your hand?"
+   }
+  },
+  {
+   "id": "relationships.to-like-each-other",
+   "t": {
+    "en": "to like each other",
+    "uk": "подобатися одне одному",
+    "ru": "нравиться друг другу",
+    "pl": "lubić się",
+    "de": "sich mögen",
+    "fr": "s'apprécier",
+    "es": "gustarse",
+    "it": "piacersi",
+    "pt": "gostar um do outro",
+    "tr": "birbirini sevmek"
+   },
+   "ex": {
+    "en": "I think they like each other."
+   }
+  },
+  {
+   "id": "relationships.dinner-date",
+   "t": {
+    "en": "dinner date",
+    "uk": "вечеря вдвох",
+    "ru": "ужин вдвоём",
+    "pl": "kolacja we dwoje",
+    "de": "Abendessen zu zweit",
+    "fr": "dîner en amoureux",
+    "es": "cena romántica",
+    "it": "cena romantica",
+    "pt": "jantar romântico",
+    "tr": "akşam yemeği randevusu"
+   },
+   "ex": {
+    "en": "We have a dinner date tonight."
+   }
+  },
+  {
+   "id": "relationships.guest",
+   "t": {
+    "en": "guest",
+    "uk": "гість",
+    "ru": "гость",
+    "pl": "gość",
+    "de": "Gast",
+    "fr": "invité",
+    "es": "invitado",
+    "it": "ospite",
+    "pt": "convidado",
+    "tr": "misafir"
+   },
+   "ex": {
+    "en": "She is our guest tonight."
+   }
+  },
+  {
+   "id": "relationships.old-friend",
+   "t": {
+    "en": "old friend",
+    "uk": "старий друг",
+    "ru": "старый друг",
+    "pl": "stary przyjaciel",
+    "de": "alter Freund",
+    "fr": "vieil ami",
+    "es": "viejo amigo",
+    "it": "vecchio amico",
+    "pt": "velho amigo",
+    "tr": "eski arkadaş"
+   },
+   "ex": {
+    "en": "He is an old friend of mine."
+   }
+  },
+  {
+   "id": "relationships.new-friend",
+   "t": {
+    "en": "new friend",
+    "uk": "новий друг",
+    "ru": "новый друг",
+    "pl": "nowy przyjaciel",
+    "de": "neuer Freund",
+    "fr": "nouvel ami",
+    "es": "nuevo amigo",
+    "it": "nuovo amico",
+    "pt": "novo amigo",
+    "tr": "yeni arkadaş"
+   },
+   "ex": {
+    "en": "I made a new friend today."
+   }
+  },
+  {
+   "id": "relationships.dear",
+   "t": {
+    "en": "dear",
+    "uk": "дорогий",
+    "ru": "дорогой",
+    "pl": "kochany",
+    "de": "lieb",
+    "fr": "cher",
+    "es": "querido",
+    "it": "caro",
+    "pt": "querido",
+    "tr": "sevgili"
+   },
+   "ex": {
+    "en": "My dear, are you tired?"
+   }
+  },
+  {
+   "id": "relationships.lovely",
+   "t": {
+    "en": "lovely",
+    "uk": "чудовий",
+    "ru": "чудесный",
+    "pl": "uroczy",
+    "de": "reizend",
+    "fr": "charmant",
+    "es": "encantador",
+    "it": "adorabile",
+    "pt": "encantador",
+    "tr": "hoş"
+   },
+   "ex": {
+    "en": "Your sister is lovely."
+   }
+  },
+  {
+   "id": "relationships.teddy-bear",
+   "t": {
+    "en": "teddy bear",
+    "uk": "плюшевий ведмедик",
+    "ru": "плюшевый мишка",
+    "pl": "miś pluszowy",
+    "de": "Teddybär",
+    "fr": "ours en peluche",
+    "es": "osito de peluche",
+    "it": "orsacchiotto",
+    "pt": "ursinho de pelúcia",
+    "tr": "oyuncak ayı"
+   },
+   "ex": {
+    "en": "He gave her a teddy bear."
+   }
+  },
+  {
+   "id": "relationships.chocolates",
+   "t": {
+    "en": "chocolates",
+    "uk": "цукерки",
+    "ru": "конфеты",
+    "pl": "czekoladki",
+    "de": "Pralinen",
+    "fr": "chocolats",
+    "es": "bombones",
+    "it": "cioccolatini",
+    "pt": "bombons",
+    "tr": "çikolatalar"
+   },
+   "ex": {
+    "en": "I bought her a box of chocolates."
+   }
+  },
+  {
+   "id": "relationships.i-like-you",
+   "t": {
+    "en": "I like you",
+    "uk": "ти мені подобаєшся",
+    "ru": "ты мне нравишься",
+    "pl": "lubię cię",
+    "de": "ich mag dich",
+    "fr": "tu me plais",
+    "es": "me gustas",
+    "it": "mi piaci",
+    "pt": "eu gosto de você",
+    "tr": "senden hoşlanıyorum"
+   },
+   "ex": {
+    "en": "I like you a lot."
+   }
+  },
+  {
+   "id": "relationships.fiance",
+   "t": {
+    "en": "fiancé",
+    "uk": "наречений",
+    "ru": "жених",
+    "pl": "narzeczony",
+    "de": "Verlobter",
+    "fr": "fiancé",
+    "es": "prometido",
+    "it": "fidanzato",
+    "pt": "noivo",
+    "tr": "nişanlı"
+   },
+   "ex": {
+    "en": "Her fiancé is very kind."
+   }
+  },
+  {
+   "id": "relationships.fiancee",
+   "t": {
+    "en": "fiancée",
+    "uk": "наречена",
+    "ru": "невеста",
+    "pl": "narzeczona",
+    "de": "Verlobte",
+    "fr": "fiancée",
+    "es": "prometida",
+    "it": "fidanzata",
+    "pt": "noiva",
+    "tr": "nişanlı"
+   },
+   "ex": {
+    "en": "This is my fiancée, Anna."
+   }
+  },
+  {
+   "id": "relationships.to-love-each-other",
+   "t": {
+    "en": "to love each other",
+    "uk": "кохати одне одного",
+    "ru": "любить друг друга",
+    "pl": "kochać się",
+    "de": "sich lieben",
+    "fr": "s'aimer",
+    "es": "quererse",
+    "it": "amarsi",
+    "pt": "se amar",
+    "tr": "birbirini sevmek"
+   },
+   "ex": {
+    "en": "They really love each other."
+   }
+  },
+  {
+   "id": "relationships.to-help-each-other",
+   "t": {
+    "en": "to help each other",
+    "uk": "допомагати одне одному",
+    "ru": "помогать друг другу",
+    "pl": "pomagać sobie",
+    "de": "sich helfen",
+    "fr": "s'entraider",
+    "es": "ayudarse",
+    "it": "aiutarsi",
+    "pt": "se ajudar",
+    "tr": "birbirine yardım etmek"
+   },
+   "ex": {
+    "en": "Good friends help each other."
+   }
+  },
+  {
+   "id": "relationships.picnic",
+   "t": {
+    "en": "picnic",
+    "uk": "пікнік",
+    "ru": "пикник",
+    "pl": "piknik",
+    "de": "Picknick",
+    "fr": "pique-nique",
+    "es": "pícnic",
+    "it": "picnic",
+    "pt": "piquenique",
+    "tr": "piknik"
+   },
+   "ex": {
+    "en": "We had a picnic in the park."
+   }
+  },
+  {
+   "id": "relationships.forever",
+   "t": {
+    "en": "forever",
+    "uk": "назавжди",
+    "ru": "навсегда",
+    "pl": "na zawsze",
+    "de": "für immer",
+    "fr": "pour toujours",
+    "es": "para siempre",
+    "it": "per sempre",
+    "pt": "para sempre",
+    "tr": "sonsuza dek"
+   },
+   "ex": {
+    "en": "I will love you forever."
+   }
+  },
+  {
+   "id": "relationships.to-be-together",
+   "t": {
+    "en": "to be together",
+    "uk": "бути разом",
+    "ru": "быть вместе",
+    "pl": "być razem",
+    "de": "zusammen sein",
+    "fr": "être ensemble",
+    "es": "estar juntos",
+    "it": "stare insieme",
+    "pt": "estar juntos",
+    "tr": "birlikte olmak"
+   },
+   "ex": {
+    "en": "We want to be together."
+   }
+  },
+  {
+   "id": "relationships.to-send-a-message",
+   "t": {
+    "en": "to send a message",
+    "uk": "надіслати повідомлення",
+    "ru": "отправить сообщение",
+    "pl": "wysłać wiadomość",
+    "de": "eine Nachricht schicken",
+    "fr": "envoyer un message",
+    "es": "enviar un mensaje",
+    "it": "mandare un messaggio",
+    "pt": "mandar uma mensagem",
+    "tr": "mesaj göndermek"
+   },
+   "ex": {
+    "en": "I will send you a message later."
+   }
+  },
+  {
+   "id": "relationships.to-walk-together",
+   "t": {
+    "en": "to walk together",
+    "uk": "гуляти разом",
+    "ru": "гулять вместе",
+    "pl": "spacerować razem",
+    "de": "zusammen spazieren",
+    "fr": "se promener ensemble",
+    "es": "pasear juntos",
+    "it": "passeggiare insieme",
+    "pt": "passear juntos",
+    "tr": "birlikte yürümek"
+   },
+   "ex": {
+    "en": "We like to walk together."
    }
   }
  ]

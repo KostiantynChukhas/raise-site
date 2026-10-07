@@ -2,7 +2,7 @@
  "id": "shopping-b2",
  "topic": "shopping",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "shopping.window-shopping",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "I chose cash on delivery."
+   }
+  },
+  {
+   "id": "shopping.own-brand",
+   "t": {
+    "en": "own brand",
+    "uk": "власна торгова марка",
+    "ru": "собственная марка",
+    "pl": "marka własna",
+    "de": "Eigenmarke",
+    "fr": "marque distributeur",
+    "es": "marca blanca",
+    "it": "marchio del distributore",
+    "pt": "marca própria",
+    "tr": "mağaza markası"
+   },
+   "ex": {
+    "en": "Own brand pasta is just as good."
+   }
+  },
+  {
+   "id": "shopping.high-end",
+   "t": {
+    "en": "high-end",
+    "uk": "преміальний",
+    "ru": "премиальный",
+    "pl": "z wyższej półki",
+    "de": "hochwertig",
+    "fr": "haut de gamme",
+    "es": "de alta gama",
+    "it": "di fascia alta",
+    "pt": "de alto padrão",
+    "tr": "üst segment"
+   },
+   "ex": {
+    "en": "They sell high-end furniture."
+   }
+  },
+  {
+   "id": "shopping.mid-range",
+   "t": {
+    "en": "mid-range",
+    "uk": "середнього класу",
+    "ru": "среднего класса",
+    "pl": "ze średniej półki",
+    "de": "Mittelklasse",
+    "fr": "milieu de gamme",
+    "es": "de gama media",
+    "it": "di fascia media",
+    "pt": "intermediário",
+    "tr": "orta segment"
+   },
+   "ex": {
+    "en": "I want a mid-range phone."
+   }
+  },
+  {
+   "id": "shopping.upmarket",
+   "t": {
+    "en": "upmarket",
+    "uk": "елітний",
+    "ru": "элитный",
+    "pl": "ekskluzywny",
+    "de": "gehoben",
+    "fr": "haut de gamme",
+    "es": "exclusivo",
+    "it": "di lusso",
+    "pt": "sofisticado",
+    "tr": "lüks"
+   },
+   "ex": {
+    "en": "It's an upmarket shopping street."
+   }
+  },
+  {
+   "id": "shopping.downmarket",
+   "t": {
+    "en": "downmarket",
+    "uk": "дешевий",
+    "ru": "дешёвый",
+    "pl": "tani",
+    "de": "billig",
+    "fr": "bas de gamme",
+    "es": "de gama baja",
+    "it": "di bassa fascia",
+    "pt": "popular",
+    "tr": "ucuz"
+   },
+   "ex": {
+    "en": "The brand went downmarket."
+   }
+  },
+  {
+   "id": "shopping.cut-price",
+   "t": {
+    "en": "cut-price",
+    "uk": "уцінений",
+    "ru": "уценённый",
+    "pl": "przeceniony",
+    "de": "zu herabgesetzten Preisen",
+    "fr": "à prix cassé",
+    "es": "a precio rebajado",
+    "it": "a prezzo stracciato",
+    "pt": "a preço reduzido",
+    "tr": "indirimli"
+   },
+   "ex": {
+    "en": "We found cut-price flights."
+   }
+  },
+  {
+   "id": "shopping.bargain-hunter",
+   "t": {
+    "en": "bargain hunter",
+    "uk": "мисливець за знижками",
+    "ru": "охотник за скидками",
+    "pl": "łowca okazji",
+    "de": "Schnäppchenjäger",
+    "fr": "chasseur de bonnes affaires",
+    "es": "cazador de gangas",
+    "it": "cacciatore di affari",
+    "pt": "caçador de pechinchas",
+    "tr": "kelepir avcısı"
+   },
+   "ex": {
+    "en": "Bargain hunters queued at dawn."
+   }
+  },
+  {
+   "id": "shopping.price-match",
+   "t": {
+    "en": "price match",
+    "uk": "вирівнювання ціни",
+    "ru": "выравнивание цены",
+    "pl": "dopasowanie ceny",
+    "de": "Preisgarantie",
+    "fr": "alignement de prix",
+    "es": "igualación de precio",
+    "it": "adeguamento del prezzo",
+    "pt": "cobertura de preço",
+    "tr": "fiyat eşleme"
+   },
+   "ex": {
+    "en": "Do you offer a price match?"
+   }
+  },
+  {
+   "id": "shopping.store-credit",
+   "t": {
+    "en": "store credit",
+    "uk": "кредит магазину",
+    "ru": "кредит магазина",
+    "pl": "bon sklepowy",
+    "de": "Gutschrift",
+    "fr": "avoir",
+    "es": "vale de tienda",
+    "it": "buono del negozio",
+    "pt": "crédito na loja",
+    "tr": "mağaza kredisi"
+   },
+   "ex": {
+    "en": "They gave me store credit, not cash."
+   }
+  },
+  {
+   "id": "shopping.gift-receipt",
+   "t": {
+    "en": "gift receipt",
+    "uk": "подарунковий чек",
+    "ru": "подарочный чек",
+    "pl": "paragon prezentowy",
+    "de": "Geschenkbeleg",
+    "fr": "ticket cadeau",
+    "es": "ticket regalo",
+    "it": "scontrino regalo",
+    "pt": "nota de presente",
+    "tr": "hediye fişi"
+   },
+   "ex": {
+    "en": "Can I have a gift receipt?"
+   }
+  },
+  {
+   "id": "shopping.non-refundable",
+   "t": {
+    "en": "non-refundable",
+    "uk": "без повернення коштів",
+    "ru": "невозвратный",
+    "pl": "bezzwrotny",
+    "de": "nicht erstattungsfähig",
+    "fr": "non remboursable",
+    "es": "no reembolsable",
+    "it": "non rimborsabile",
+    "pt": "não reembolsável",
+    "tr": "iade edilemez"
+   },
+   "ex": {
+    "en": "Sale items are non-refundable."
+   }
+  },
+  {
+   "id": "shopping.final-sale",
+   "t": {
+    "en": "final sale",
+    "uk": "без повернення",
+    "ru": "без возврата",
+    "pl": "wyprzedaż bez zwrotów",
+    "de": "Kauf ohne Rückgabe",
+    "fr": "vente finale",
+    "es": "venta final",
+    "it": "vendita finale",
+    "pt": "venda final",
+    "tr": "iadesiz satış"
+   },
+   "ex": {
+    "en": "All clearance items are final sale."
+   }
+  },
+  {
+   "id": "shopping.no-questions-asked",
+   "t": {
+    "en": "no questions asked",
+    "uk": "без зайвих питань",
+    "ru": "без лишних вопросов",
+    "pl": "bez zadawania pytań",
+    "de": "ohne Wenn und Aber",
+    "fr": "sans poser de questions",
+    "es": "sin preguntas",
+    "it": "senza fare domande",
+    "pt": "sem perguntas",
+    "tr": "soru sormadan"
+   },
+   "ex": {
+    "en": "Returns are accepted, no questions asked."
+   }
+  },
+  {
+   "id": "shopping.to-unsubscribe",
+   "t": {
+    "en": "to unsubscribe",
+    "uk": "відписатися",
+    "ru": "отписаться",
+    "pl": "wypisać się",
+    "de": "abbestellen",
+    "fr": "se désabonner",
+    "es": "darse de baja",
+    "it": "annullare l'iscrizione",
+    "pt": "cancelar a inscrição",
+    "tr": "abonelikten çıkmak"
+   },
+   "ex": {
+    "en": "I unsubscribed from their emails."
+   }
+  },
+  {
+   "id": "shopping.targeted-ads",
+   "t": {
+    "en": "targeted ads",
+    "uk": "таргетована реклама",
+    "ru": "таргетированная реклама",
+    "pl": "reklamy targetowane",
+    "de": "gezielte Werbung",
+    "fr": "publicité ciblée",
+    "es": "anuncios dirigidos",
+    "it": "pubblicità mirata",
+    "pt": "anúncios direcionados",
+    "tr": "hedefli reklamlar"
+   },
+   "ex": {
+    "en": "Targeted ads follow me everywhere."
+   }
+  },
+  {
+   "id": "shopping.wish-list",
+   "t": {
+    "en": "wish list",
+    "uk": "список бажань",
+    "ru": "список желаний",
+    "pl": "lista życzeń",
+    "de": "Wunschliste",
+    "fr": "liste de souhaits",
+    "es": "lista de deseos",
+    "it": "lista dei desideri",
+    "pt": "lista de desejos",
+    "tr": "istek listesi"
+   },
+   "ex": {
+    "en": "I added it to my wish list."
+   }
+  },
+  {
+   "id": "shopping.to-save-for-later",
+   "t": {
+    "en": "to save for later",
+    "uk": "зберегти на потім",
+    "ru": "сохранить на потом",
+    "pl": "zapisać na później",
+    "de": "für später speichern",
+    "fr": "enregistrer pour plus tard",
+    "es": "guardar para más tarde",
+    "it": "salvare per dopo",
+    "pt": "salvar para depois",
+    "tr": "sonraya kaydetmek"
+   },
+   "ex": {
+    "en": "I'll save it for later."
+   }
+  },
+  {
+   "id": "shopping.one-click-purchase",
+   "t": {
+    "en": "one-click purchase",
+    "uk": "покупка в один клік",
+    "ru": "покупка в один клик",
+    "pl": "zakup jednym kliknięciem",
+    "de": "Kauf mit einem Klick",
+    "fr": "achat en un clic",
+    "es": "compra con un clic",
+    "it": "acquisto con un clic",
+    "pt": "compra com um clique",
+    "tr": "tek tıkla satın alma"
+   },
+   "ex": {
+    "en": "One-click purchase is too easy."
+   }
+  },
+  {
+   "id": "shopping.to-be-charged-twice",
+   "t": {
+    "en": "to be charged twice",
+    "uk": "двічі списати кошти",
+    "ru": "дважды списать деньги",
+    "pl": "zostać obciążonym dwa razy",
+    "de": "doppelt belastet werden",
+    "fr": "être débité deux fois",
+    "es": "recibir un cargo doble",
+    "it": "ricevere un doppio addebito",
+    "pt": "ser cobrado duas vezes",
+    "tr": "iki kez ücretlendirilmek"
+   },
+   "ex": {
+    "en": "I was charged twice for my order."
+   }
+  },
+  {
+   "id": "shopping.payment-method",
+   "t": {
+    "en": "payment method",
+    "uk": "спосіб оплати",
+    "ru": "способ оплаты",
+    "pl": "metoda płatności",
+    "de": "Zahlungsmethode",
+    "fr": "moyen de paiement",
+    "es": "método de pago",
+    "it": "metodo di pagamento",
+    "pt": "forma de pagamento",
+    "tr": "ödeme yöntemi"
+   },
+   "ex": {
+    "en": "Choose your payment method."
+   }
+  },
+  {
+   "id": "shopping.billing-address",
+   "t": {
+    "en": "billing address",
+    "uk": "платіжна адреса",
+    "ru": "платёжный адрес",
+    "pl": "adres rozliczeniowy",
+    "de": "Rechnungsadresse",
+    "fr": "adresse de facturation",
+    "es": "dirección de facturación",
+    "it": "indirizzo di fatturazione",
+    "pt": "endereço de cobrança",
+    "tr": "fatura adresi"
+   },
+   "ex": {
+    "en": "Is the billing address the same?"
+   }
+  },
+  {
+   "id": "shopping.backorder",
+   "t": {
+    "en": "backorder",
+    "uk": "відкладене замовлення",
+    "ru": "отложенный заказ",
+    "pl": "zamówienie oczekujące",
+    "de": "Nachbestellung",
+    "fr": "commande en attente",
+    "es": "pedido pendiente",
+    "it": "ordine arretrato",
+    "pt": "pedido em espera",
+    "tr": "bekleyen sipariş"
+   },
+   "ex": {
+    "en": "The sofa is on backorder."
+   }
+  },
+  {
+   "id": "shopping.pre-owned",
+   "t": {
+    "en": "pre-owned",
+    "uk": "вживаний",
+    "ru": "подержанный",
+    "pl": "używany",
+    "de": "gebraucht",
+    "fr": "d'occasion",
+    "es": "de segunda mano",
+    "it": "usato",
+    "pt": "seminovo",
+    "tr": "ikinci el"
+   },
+   "ex": {
+    "en": "We sell pre-owned designer bags."
+   }
+  },
+  {
+   "id": "shopping.refurbished",
+   "t": {
+    "en": "refurbished",
+    "uk": "відновлений",
+    "ru": "восстановленный",
+    "pl": "odnowiony",
+    "de": "generalüberholt",
+    "fr": "reconditionné",
+    "es": "reacondicionado",
+    "it": "ricondizionato",
+    "pt": "recondicionado",
+    "tr": "yenilenmiş"
+   },
+   "ex": {
+    "en": "I bought a refurbished laptop."
+   }
+  },
+  {
+   "id": "shopping.mint-condition",
+   "t": {
+    "en": "mint condition",
+    "uk": "ідеальний стан",
+    "ru": "идеальное состояние",
+    "pl": "stan idealny",
+    "de": "neuwertiger Zustand",
+    "fr": "état neuf",
+    "es": "estado impecable",
+    "it": "condizioni perfette",
+    "pt": "estado de novo",
+    "tr": "kusursuz durum"
+   },
+   "ex": {
+    "en": "The camera is in mint condition."
+   }
+  },
+  {
+   "id": "shopping.defective",
+   "t": {
+    "en": "defective",
+    "uk": "бракований",
+    "ru": "бракованный",
+    "pl": "wadliwy",
+    "de": "defekt",
+    "fr": "défectueux",
+    "es": "defectuoso",
+    "it": "difettoso",
+    "pt": "defeituoso",
+    "tr": "kusurlu"
+   },
+   "ex": {
+    "en": "The charger was defective."
+   }
+  },
+  {
+   "id": "shopping.manufacturing-defect",
+   "t": {
+    "en": "manufacturing defect",
+    "uk": "заводський брак",
+    "ru": "заводской брак",
+    "pl": "wada fabryczna",
+    "de": "Herstellungsfehler",
+    "fr": "défaut de fabrication",
+    "es": "defecto de fábrica",
+    "it": "difetto di fabbricazione",
+    "pt": "defeito de fabricação",
+    "tr": "üretim hatası"
+   },
+   "ex": {
+    "en": "It's a manufacturing defect."
+   }
+  },
+  {
+   "id": "shopping.excess-packaging",
+   "t": {
+    "en": "excess packaging",
+    "uk": "надмірне пакування",
+    "ru": "лишняя упаковка",
+    "pl": "nadmiar opakowań",
+    "de": "übermäßige Verpackung",
+    "fr": "suremballage",
+    "es": "exceso de embalaje",
+    "it": "imballaggio eccessivo",
+    "pt": "excesso de embalagem",
+    "tr": "aşırı ambalaj"
+   },
+   "ex": {
+    "en": "I hate excess packaging."
+   }
+  },
+  {
+   "id": "shopping.sustainable-fashion",
+   "t": {
+    "en": "sustainable fashion",
+    "uk": "стала мода",
+    "ru": "устойчивая мода",
+    "pl": "moda zrównoważona",
+    "de": "nachhaltige Mode",
+    "fr": "mode durable",
+    "es": "moda sostenible",
+    "it": "moda sostenibile",
+    "pt": "moda sustentável",
+    "tr": "sürdürülebilir moda"
+   },
+   "ex": {
+    "en": "She only buys sustainable fashion."
+   }
+  },
+  {
+   "id": "shopping.ethical-brand",
+   "t": {
+    "en": "ethical brand",
+    "uk": "етичний бренд",
+    "ru": "этичный бренд",
+    "pl": "etyczna marka",
+    "de": "ethische Marke",
+    "fr": "marque éthique",
+    "es": "marca ética",
+    "it": "marchio etico",
+    "pt": "marca ética",
+    "tr": "etik marka"
+   },
+   "ex": {
+    "en": "It's an ethical brand."
+   }
+  },
+  {
+   "id": "shopping.fair-trade",
+   "t": {
+    "en": "fair trade",
+    "uk": "чесна торгівля",
+    "ru": "справедливая торговля",
+    "pl": "sprawiedliwy handel",
+    "de": "fairer Handel",
+    "fr": "commerce équitable",
+    "es": "comercio justo",
+    "it": "commercio equo",
+    "pt": "comércio justo",
+    "tr": "adil ticaret"
+   },
+   "ex": {
+    "en": "We buy fair trade coffee."
+   }
+  },
+  {
+   "id": "shopping.multipack",
+   "t": {
+    "en": "multipack",
+    "uk": "мультипак",
+    "ru": "мультипак",
+    "pl": "wielopak",
+    "de": "Multipack",
+    "fr": "lot",
+    "es": "pack múltiple",
+    "it": "confezione multipla",
+    "pt": "embalagem múltipla",
+    "tr": "çoklu paket"
+   },
+   "ex": {
+    "en": "A multipack is cheaper."
+   }
+  },
+  {
+   "id": "shopping.travel-size",
+   "t": {
+    "en": "travel size",
+    "uk": "дорожній розмір",
+    "ru": "дорожный формат",
+    "pl": "rozmiar podróżny",
+    "de": "Reisegröße",
+    "fr": "format voyage",
+    "es": "tamaño de viaje",
+    "it": "formato viaggio",
+    "pt": "tamanho de viagem",
+    "tr": "seyahat boyu"
+   },
+   "ex": {
+    "en": "I need travel size shampoo."
+   }
+  },
+  {
+   "id": "shopping.hidden-costs",
+   "t": {
+    "en": "hidden costs",
+    "uk": "приховані витрати",
+    "ru": "скрытые расходы",
+    "pl": "ukryte koszty",
+    "de": "versteckte Kosten",
+    "fr": "frais cachés",
+    "es": "costes ocultos",
+    "it": "costi nascosti",
+    "pt": "custos ocultos",
+    "tr": "gizli maliyetler"
+   },
+   "ex": {
+    "en": "Watch out for hidden costs."
+   }
+  },
+  {
+   "id": "shopping.delivery-slot",
+   "t": {
+    "en": "delivery slot",
+    "uk": "часовий проміжок доставки",
+    "ru": "интервал доставки",
+    "pl": "przedział czasowy dostawy",
+    "de": "Lieferzeitfenster",
+    "fr": "créneau de livraison",
+    "es": "franja de entrega",
+    "it": "fascia di consegna",
+    "pt": "horário de entrega",
+    "tr": "teslimat aralığı"
+   },
+   "ex": {
+    "en": "I booked a morning delivery slot."
+   }
+  },
+  {
+   "id": "shopping.to-sign-for",
+   "t": {
+    "en": "to sign for",
+    "uk": "розписатися за",
+    "ru": "расписаться за",
+    "pl": "pokwitować odbiór",
+    "de": "den Empfang quittieren",
+    "fr": "signer pour",
+    "es": "firmar la recepción",
+    "it": "firmare per",
+    "pt": "assinar o recebimento",
+    "tr": "imzalayarak teslim almak"
+   },
+   "ex": {
+    "en": "Someone must sign for the parcel."
+   }
+  },
+  {
+   "id": "shopping.parcel-locker",
+   "t": {
+    "en": "parcel locker",
+    "uk": "поштомат",
+    "ru": "постамат",
+    "pl": "paczkomat",
+    "de": "Paketstation",
+    "fr": "consigne à colis",
+    "es": "taquilla de paquetes",
+    "it": "armadietto pacchi",
+    "pt": "armário de encomendas",
+    "tr": "kargo dolabı"
+   },
+   "ex": {
+    "en": "I'll pick it up from the parcel locker."
+   }
+  },
+  {
+   "id": "shopping.returns-label",
+   "t": {
+    "en": "returns label",
+    "uk": "етикетка для повернення",
+    "ru": "этикетка для возврата",
+    "pl": "etykieta zwrotna",
+    "de": "Retourenetikett",
+    "fr": "étiquette de retour",
+    "es": "etiqueta de devolución",
+    "it": "etichetta di reso",
+    "pt": "etiqueta de devolução",
+    "tr": "iade etiketi"
+   },
+   "ex": {
+    "en": "Print the returns label."
+   }
+  },
+  {
+   "id": "shopping.to-send-back",
+   "t": {
+    "en": "to send back",
+    "uk": "відправити назад",
+    "ru": "отправить обратно",
+    "pl": "odesłać",
+    "de": "zurückschicken",
+    "fr": "renvoyer",
+    "es": "devolver",
+    "it": "rimandare indietro",
+    "pt": "devolver",
+    "tr": "geri göndermek"
+   },
+   "ex": {
+    "en": "I sent the shoes back."
+   }
+  },
+  {
+   "id": "shopping.cosmetic-damage",
+   "t": {
+    "en": "cosmetic damage",
+    "uk": "косметичні пошкодження",
+    "ru": "косметические повреждения",
+    "pl": "uszkodzenia kosmetyczne",
+    "de": "optische Mängel",
+    "fr": "défaut esthétique",
+    "es": "daño estético",
+    "it": "danno estetico",
+    "pt": "dano estético",
+    "tr": "kozmetik hasar"
+   },
+   "ex": {
+    "en": "There's only minor cosmetic damage."
+   }
+  },
+  {
+   "id": "shopping.pop-up-shop",
+   "t": {
+    "en": "pop-up shop",
+    "uk": "тимчасовий магазин",
+    "ru": "временный магазин",
+    "pl": "sklep tymczasowy",
+    "de": "Pop-up-Store",
+    "fr": "boutique éphémère",
+    "es": "tienda efímera",
+    "it": "negozio temporaneo",
+    "pt": "loja temporária",
+    "tr": "geçici mağaza"
+   },
+   "ex": {
+    "en": "A pop-up shop opened downtown."
+   }
+  },
+  {
+   "id": "shopping.shopping-arcade",
+   "t": {
+    "en": "shopping arcade",
+    "uk": "торговий пасаж",
+    "ru": "торговый пассаж",
+    "pl": "pasaż handlowy",
+    "de": "Einkaufspassage",
+    "fr": "galerie marchande",
+    "es": "galería comercial",
+    "it": "galleria commerciale",
+    "pt": "galeria comercial",
+    "tr": "alışveriş pasajı"
+   },
+   "ex": {
+    "en": "The shopping arcade is covered."
+   }
+  },
+  {
+   "id": "shopping.retail-park",
+   "t": {
+    "en": "retail park",
+    "uk": "торговий парк",
+    "ru": "торговый парк",
+    "pl": "park handlowy",
+    "de": "Fachmarktzentrum",
+    "fr": "zone commerciale",
+    "es": "parque comercial",
+    "it": "parco commerciale",
+    "pt": "centro comercial aberto",
+    "tr": "alışveriş parkı"
+   },
+   "ex": {
+    "en": "We drove to the retail park."
+   }
+  },
+  {
+   "id": "shopping.chain-store",
+   "t": {
+    "en": "chain store",
+    "uk": "мережевий магазин",
+    "ru": "сетевой магазин",
+    "pl": "sklep sieciowy",
+    "de": "Filiale einer Kette",
+    "fr": "magasin de chaîne",
+    "es": "tienda de cadena",
+    "it": "negozio di catena",
+    "pt": "loja de rede",
+    "tr": "zincir mağaza"
+   },
+   "ex": {
+    "en": "Chain stores look the same everywhere."
+   }
+  },
+  {
+   "id": "shopping.independent-shop",
+   "t": {
+    "en": "independent shop",
+    "uk": "незалежна крамниця",
+    "ru": "независимый магазин",
+    "pl": "sklep niezależny",
+    "de": "unabhängiges Geschäft",
+    "fr": "commerce indépendant",
+    "es": "tienda independiente",
+    "it": "negozio indipendente",
+    "pt": "loja independente",
+    "tr": "bağımsız dükkân"
+   },
+   "ex": {
+    "en": "Support your local independent shop."
+   }
+  },
+  {
+   "id": "shopping.formal-wear",
+   "t": {
+    "en": "formal wear",
+    "uk": "офіційний одяг",
+    "ru": "официальная одежда",
+    "pl": "strój wizytowy",
+    "de": "Abendgarderobe",
+    "fr": "tenue de soirée",
+    "es": "ropa formal",
+    "it": "abbigliamento formale",
+    "pt": "traje social",
+    "tr": "resmi kıyafet"
+   },
+   "ex": {
+    "en": "Formal wear is required."
+   }
+  },
+  {
+   "id": "shopping.tight-fitting",
+   "t": {
+    "en": "tight-fitting",
+    "uk": "облягаючий",
+    "ru": "облегающий",
+    "pl": "obcisły",
+    "de": "eng anliegend",
+    "fr": "moulant",
+    "es": "ajustado",
+    "it": "aderente",
+    "pt": "justo",
+    "tr": "dar"
+   },
+   "ex": {
+    "en": "She wore a tight-fitting dress."
+   }
+  },
+  {
+   "id": "shopping.embroidered",
+   "t": {
+    "en": "embroidered",
+    "uk": "вишитий",
+    "ru": "вышитый",
+    "pl": "haftowany",
+    "de": "bestickt",
+    "fr": "brodé",
+    "es": "bordado",
+    "it": "ricamato",
+    "pt": "bordado",
+    "tr": "işlemeli"
+   },
+   "ex": {
+    "en": "I bought an embroidered blouse."
+   }
+  },
+  {
+   "id": "shopping.personalised-offers",
+   "t": {
+    "en": "personalised offers",
+    "uk": "персональні пропозиції",
+    "ru": "персональные предложения",
+    "pl": "spersonalizowane oferty",
+    "de": "personalisierte Angebote",
+    "fr": "offres personnalisées",
+    "es": "ofertas personalizadas",
+    "it": "offerte personalizzate",
+    "pt": "ofertas personalizadas",
+    "tr": "kişiye özel teklifler"
+   },
+   "ex": {
+    "en": "The app sends personalised offers."
+   }
+  },
+  {
+   "id": "shopping.bargain-basement",
+   "t": {
+    "en": "bargain basement",
+    "uk": "відділ уцінки",
+    "ru": "отдел уценки",
+    "pl": "dział z przecenami",
+    "de": "Sonderangebotsabteilung",
+    "fr": "rayon soldes",
+    "es": "sección de saldos",
+    "it": "reparto occasioni",
+    "pt": "seção de pechinchas",
+    "tr": "indirim reyonu"
+   },
+   "ex": {
+    "en": "I found it in the bargain basement."
    }
   }
  ]

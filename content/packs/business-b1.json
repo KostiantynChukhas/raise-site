@@ -2,7 +2,7 @@
  "id": "business-b1",
  "topic": "business",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "business.to-make-a-deal",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Production stopped for two days."
+   }
+  },
+  {
+   "id": "business.negotiation",
+   "t": {
+    "en": "negotiation",
+    "uk": "переговори",
+    "ru": "переговоры",
+    "pl": "negocjacje",
+    "de": "Verhandlung",
+    "fr": "négociation",
+    "es": "negociación",
+    "it": "trattativa",
+    "pt": "negociação",
+    "tr": "müzakere"
+   },
+   "ex": {
+    "en": "The negotiation took three hours."
+   }
+  },
+  {
+   "id": "business.customer-satisfaction",
+   "t": {
+    "en": "customer satisfaction",
+    "uk": "задоволеність клієнтів",
+    "ru": "удовлетворённость клиентов",
+    "pl": "zadowolenie klientów",
+    "de": "Kundenzufriedenheit",
+    "fr": "satisfaction client",
+    "es": "satisfacción del cliente",
+    "it": "soddisfazione del cliente",
+    "pt": "satisfação do cliente",
+    "tr": "müşteri memnuniyeti"
+   },
+   "ex": {
+    "en": "Customer satisfaction is our goal."
+   }
+  },
+  {
+   "id": "business.target-market",
+   "t": {
+    "en": "target market",
+    "uk": "цільовий ринок",
+    "ru": "целевой рынок",
+    "pl": "rynek docelowy",
+    "de": "Zielmarkt",
+    "fr": "marché cible",
+    "es": "mercado objetivo",
+    "it": "mercato di riferimento",
+    "pt": "mercado-alvo",
+    "tr": "hedef pazar"
+   },
+   "ex": {
+    "en": "Students are our target market."
+   }
+  },
+  {
+   "id": "business.meeting-minutes",
+   "t": {
+    "en": "meeting minutes",
+    "uk": "протокол засідання",
+    "ru": "протокол совещания",
+    "pl": "protokół z zebrania",
+    "de": "Sitzungsprotokoll",
+    "fr": "compte rendu de réunion",
+    "es": "acta de la reunión",
+    "it": "verbale della riunione",
+    "pt": "ata da reunião",
+    "tr": "toplantı tutanağı"
+   },
+   "ex": {
+    "en": "Who is writing the meeting minutes?"
+   }
+  },
+  {
+   "id": "business.bulk-order",
+   "t": {
+    "en": "bulk order",
+    "uk": "оптове замовлення",
+    "ru": "оптовый заказ",
+    "pl": "zamówienie hurtowe",
+    "de": "Großbestellung",
+    "fr": "commande en gros",
+    "es": "pedido al por mayor",
+    "it": "ordine all'ingrosso",
+    "pt": "pedido no atacado",
+    "tr": "toplu sipariş"
+   },
+   "ex": {
+    "en": "We give discounts on bulk orders."
+   }
+  },
+  {
+   "id": "business.objective",
+   "t": {
+    "en": "objective",
+    "uk": "ціль",
+    "ru": "цель",
+    "pl": "cel",
+    "de": "Ziel",
+    "fr": "objectif",
+    "es": "objetivo",
+    "it": "obiettivo",
+    "pt": "objetivo",
+    "tr": "amaç"
+   },
+   "ex": {
+    "en": "Our main objective is growth."
+   }
+  },
+  {
+   "id": "business.to-set-a-price",
+   "t": {
+    "en": "to set a price",
+    "uk": "встановити ціну",
+    "ru": "установить цену",
+    "pl": "ustalić cenę",
+    "de": "einen Preis festlegen",
+    "fr": "fixer un prix",
+    "es": "fijar un precio",
+    "it": "fissare un prezzo",
+    "pt": "definir um preço",
+    "tr": "fiyat belirlemek"
+   },
+   "ex": {
+    "en": "We need to set a price."
+   }
+  },
+  {
+   "id": "business.pricing",
+   "t": {
+    "en": "pricing",
+    "uk": "ціноутворення",
+    "ru": "ценообразование",
+    "pl": "ustalanie cen",
+    "de": "Preisgestaltung",
+    "fr": "tarification",
+    "es": "fijación de precios",
+    "it": "determinazione dei prezzi",
+    "pt": "precificação",
+    "tr": "fiyatlandırma"
+   },
+   "ex": {
+    "en": "Our pricing is fair."
+   }
+  },
+  {
+   "id": "business.board-meeting",
+   "t": {
+    "en": "board meeting",
+    "uk": "засідання правління",
+    "ru": "заседание совета директоров",
+    "pl": "posiedzenie zarządu",
+    "de": "Vorstandssitzung",
+    "fr": "réunion du conseil d'administration",
+    "es": "reunión del consejo",
+    "it": "riunione del consiglio",
+    "pt": "reunião do conselho",
+    "tr": "yönetim kurulu toplantısı"
+   },
+   "ex": {
+    "en": "The board meeting is on Friday."
+   }
+  },
+  {
+   "id": "business.to-supply",
+   "t": {
+    "en": "to supply",
+    "uk": "постачати",
+    "ru": "поставлять",
+    "pl": "dostarczać",
+    "de": "liefern",
+    "fr": "fournir",
+    "es": "suministrar",
+    "it": "fornire",
+    "pt": "fornecer",
+    "tr": "tedarik etmek"
+   },
+   "ex": {
+    "en": "They supply us with paper."
+   }
+  },
+  {
+   "id": "business.logistics",
+   "t": {
+    "en": "logistics",
+    "uk": "логістика",
+    "ru": "логистика",
+    "pl": "logistyka",
+    "de": "Logistik",
+    "fr": "logistique",
+    "es": "logística",
+    "it": "logistica",
+    "pt": "logística",
+    "tr": "lojistik"
+   },
+   "ex": {
+    "en": "He works in logistics."
+   }
+  },
+  {
+   "id": "business.to-handle-complaints",
+   "t": {
+    "en": "to handle complaints",
+    "uk": "розглядати скарги",
+    "ru": "рассматривать жалобы",
+    "pl": "rozpatrywać reklamacje",
+    "de": "Beschwerden bearbeiten",
+    "fr": "traiter les réclamations",
+    "es": "gestionar reclamaciones",
+    "it": "gestire i reclami",
+    "pt": "lidar com reclamações",
+    "tr": "şikâyetlerle ilgilenmek"
+   },
+   "ex": {
+    "en": "She handles complaints well."
+   }
+  },
+  {
+   "id": "business.best-selling",
+   "t": {
+    "en": "best-selling",
+    "uk": "найпопулярніший",
+    "ru": "самый продаваемый",
+    "pl": "najlepiej sprzedający się",
+    "de": "meistverkauft",
+    "fr": "le plus vendu",
+    "es": "más vendido",
+    "it": "più venduto",
+    "pt": "mais vendido",
+    "tr": "en çok satan"
+   },
+   "ex": {
+    "en": "This is our best-selling product."
+   }
+  },
+  {
+   "id": "business.networking",
+   "t": {
+    "en": "networking",
+    "uk": "нетворкінг",
+    "ru": "нетворкинг",
+    "pl": "networking",
+    "de": "Networking",
+    "fr": "réseautage",
+    "es": "networking",
+    "it": "networking",
+    "pt": "networking",
+    "tr": "ağ kurma"
+   },
+   "ex": {
+    "en": "Networking is key in business."
+   }
+  },
+  {
+   "id": "business.partnership",
+   "t": {
+    "en": "partnership",
+    "uk": "партнерство",
+    "ru": "партнёрство",
+    "pl": "partnerstwo",
+    "de": "Partnerschaft",
+    "fr": "partenariat",
+    "es": "asociación",
+    "it": "partnership",
+    "pt": "parceria",
+    "tr": "ortaklık"
+   },
+   "ex": {
+    "en": "We formed a partnership."
+   }
+  },
+  {
+   "id": "business.consultant",
+   "t": {
+    "en": "consultant",
+    "uk": "консультант",
+    "ru": "консультант",
+    "pl": "konsultant",
+    "de": "Berater",
+    "fr": "consultant",
+    "es": "consultor",
+    "it": "consulente",
+    "pt": "consultor",
+    "tr": "danışman"
+   },
+   "ex": {
+    "en": "We hired a consultant."
+   }
+  },
+  {
+   "id": "business.wholesaler",
+   "t": {
+    "en": "wholesaler",
+    "uk": "оптовик",
+    "ru": "оптовик",
+    "pl": "hurtownik",
+    "de": "Großhändler",
+    "fr": "grossiste",
+    "es": "mayorista",
+    "it": "grossista",
+    "pt": "atacadista",
+    "tr": "toptancı"
+   },
+   "ex": {
+    "en": "We buy from a wholesaler."
+   }
+  },
+  {
+   "id": "business.distributor",
+   "t": {
+    "en": "distributor",
+    "uk": "дистриб'ютор",
+    "ru": "дистрибьютор",
+    "pl": "dystrybutor",
+    "de": "Vertriebspartner",
+    "fr": "distributeur",
+    "es": "distribuidor",
+    "it": "distributore",
+    "pt": "distribuidor",
+    "tr": "distribütör"
+   },
+   "ex": {
+    "en": "We need a distributor in Spain."
+   }
+  },
+  {
+   "id": "business.market-price",
+   "t": {
+    "en": "market price",
+    "uk": "ринкова ціна",
+    "ru": "рыночная цена",
+    "pl": "cena rynkowa",
+    "de": "Marktpreis",
+    "fr": "prix du marché",
+    "es": "precio de mercado",
+    "it": "prezzo di mercato",
+    "pt": "preço de mercado",
+    "tr": "piyasa fiyatı"
+   },
+   "ex": {
+    "en": "We sell below the market price."
+   }
+  },
+  {
+   "id": "business.to-boost-sales",
+   "t": {
+    "en": "to boost sales",
+    "uk": "збільшити продажі",
+    "ru": "увеличить продажи",
+    "pl": "zwiększyć sprzedaż",
+    "de": "den Absatz steigern",
+    "fr": "stimuler les ventes",
+    "es": "impulsar las ventas",
+    "it": "aumentare le vendite",
+    "pt": "impulsionar as vendas",
+    "tr": "satışları artırmak"
+   },
+   "ex": {
+    "en": "The ad helped boost sales."
+   }
+  },
+  {
+   "id": "business.sales-figures",
+   "t": {
+    "en": "sales figures",
+    "uk": "показники продажів",
+    "ru": "показатели продаж",
+    "pl": "wyniki sprzedaży",
+    "de": "Verkaufszahlen",
+    "fr": "chiffres de vente",
+    "es": "cifras de ventas",
+    "it": "dati di vendita",
+    "pt": "números de vendas",
+    "tr": "satış rakamları"
+   },
+   "ex": {
+    "en": "Sales figures are up this month."
+   }
+  },
+  {
+   "id": "business.to-sponsor",
+   "t": {
+    "en": "to sponsor",
+    "uk": "спонсорувати",
+    "ru": "спонсировать",
+    "pl": "sponsorować",
+    "de": "sponsern",
+    "fr": "sponsoriser",
+    "es": "patrocinar",
+    "it": "sponsorizzare",
+    "pt": "patrocinar",
+    "tr": "sponsor olmak"
+   },
+   "ex": {
+    "en": "A bank sponsors the festival."
+   }
+  },
+  {
+   "id": "business.business-opportunity",
+   "t": {
+    "en": "business opportunity",
+    "uk": "бізнес-можливість",
+    "ru": "деловая возможность",
+    "pl": "okazja biznesowa",
+    "de": "Geschäftsmöglichkeit",
+    "fr": "opportunité d'affaires",
+    "es": "oportunidad de negocio",
+    "it": "opportunità di business",
+    "pt": "oportunidade de negócio",
+    "tr": "iş fırsatı"
+   },
+   "ex": {
+    "en": "This is a great business opportunity."
+   }
+  },
+  {
+   "id": "business.online-sales",
+   "t": {
+    "en": "online sales",
+    "uk": "онлайн-продажі",
+    "ru": "онлайн-продажи",
+    "pl": "sprzedaż internetowa",
+    "de": "Onlineverkäufe",
+    "fr": "ventes en ligne",
+    "es": "ventas online",
+    "it": "vendite online",
+    "pt": "vendas on-line",
+    "tr": "online satışlar"
+   },
+   "ex": {
+    "en": "Online sales doubled this year."
+   }
+  },
+  {
+   "id": "business.profitable",
+   "t": {
+    "en": "profitable",
+    "uk": "прибутковий",
+    "ru": "прибыльный",
+    "pl": "dochodowy",
+    "de": "profitabel",
+    "fr": "rentable",
+    "es": "rentable",
+    "it": "redditizio",
+    "pt": "lucrativo",
+    "tr": "kârlı"
+   },
+   "ex": {
+    "en": "Is the business profitable?"
+   }
+  },
+  {
+   "id": "business.to-send-an-invoice",
+   "t": {
+    "en": "to send an invoice",
+    "uk": "надіслати рахунок",
+    "ru": "отправить счёт",
+    "pl": "wysłać fakturę",
+    "de": "eine Rechnung schicken",
+    "fr": "envoyer une facture",
+    "es": "enviar una factura",
+    "it": "inviare una fattura",
+    "pt": "enviar uma fatura",
+    "tr": "fatura göndermek"
+   },
+   "ex": {
+    "en": "I'll send an invoice tomorrow."
+   }
+  },
+  {
+   "id": "business.to-cut-costs",
+   "t": {
+    "en": "to cut costs",
+    "uk": "скоротити витрати",
+    "ru": "сократить расходы",
+    "pl": "obniżyć koszty",
+    "de": "Kosten senken",
+    "fr": "réduire les coûts",
+    "es": "reducir costes",
+    "it": "ridurre i costi",
+    "pt": "cortar custos",
+    "tr": "maliyetleri düşürmek"
+   },
+   "ex": {
+    "en": "We must cut costs this year."
+   }
+  },
+  {
+   "id": "business.purchase-order",
+   "t": {
+    "en": "purchase order",
+    "uk": "замовлення на закупівлю",
+    "ru": "заказ на поставку",
+    "pl": "zamówienie zakupu",
+    "de": "Bestellschein",
+    "fr": "bon de commande",
+    "es": "orden de compra",
+    "it": "ordine d'acquisto",
+    "pt": "pedido de compra",
+    "tr": "satın alma siparişi"
+   },
+   "ex": {
+    "en": "Please send us a purchase order."
+   }
+  },
+  {
+   "id": "business.to-purchase",
+   "t": {
+    "en": "to purchase",
+    "uk": "купувати",
+    "ru": "приобретать",
+    "pl": "nabywać",
+    "de": "erwerben",
+    "fr": "acheter",
+    "es": "adquirir",
+    "it": "acquistare",
+    "pt": "adquirir",
+    "tr": "satın almak"
+   },
+   "ex": {
+    "en": "The firm purchased new machines."
+   }
+  },
+  {
+   "id": "business.survey",
+   "t": {
+    "en": "survey",
+    "uk": "опитування",
+    "ru": "опрос",
+    "pl": "ankieta",
+    "de": "Umfrage",
+    "fr": "sondage",
+    "es": "encuesta",
+    "it": "sondaggio",
+    "pt": "pesquisa",
+    "tr": "anket"
+   },
+   "ex": {
+    "en": "We did a survey of our clients."
+   }
+  },
+  {
+   "id": "business.questionnaire",
+   "t": {
+    "en": "questionnaire",
+    "uk": "анкета",
+    "ru": "анкета",
+    "pl": "kwestionariusz",
+    "de": "Fragebogen",
+    "fr": "questionnaire",
+    "es": "cuestionario",
+    "it": "questionario",
+    "pt": "questionário",
+    "tr": "anket formu"
+   },
+   "ex": {
+    "en": "Please fill in this questionnaire."
+   }
+  },
+  {
+   "id": "business.to-attract-investors",
+   "t": {
+    "en": "to attract investors",
+    "uk": "залучати інвесторів",
+    "ru": "привлекать инвесторов",
+    "pl": "przyciągać inwestorów",
+    "de": "Investoren gewinnen",
+    "fr": "attirer des investisseurs",
+    "es": "atraer inversores",
+    "it": "attirare investitori",
+    "pt": "atrair investidores",
+    "tr": "yatırımcı çekmek"
+   },
+   "ex": {
+    "en": "We need to attract investors."
+   }
+  },
+  {
+   "id": "business.funding",
+   "t": {
+    "en": "funding",
+    "uk": "фінансування",
+    "ru": "финансирование",
+    "pl": "finansowanie",
+    "de": "Finanzierung",
+    "fr": "financement",
+    "es": "financiación",
+    "it": "finanziamento",
+    "pt": "financiamento",
+    "tr": "finansman"
+   },
+   "ex": {
+    "en": "The project needs more funding."
+   }
+  },
+  {
+   "id": "business.to-make-a-loss",
+   "t": {
+    "en": "to make a loss",
+    "uk": "зазнавати збитків",
+    "ru": "нести убытки",
+    "pl": "ponosić stratę",
+    "de": "Verlust machen",
+    "fr": "subir des pertes",
+    "es": "tener pérdidas",
+    "it": "subire una perdita",
+    "pt": "ter prejuízo",
+    "tr": "zarar etmek"
+   },
+   "ex": {
+    "en": "The shop made a loss last year."
+   }
+  },
+  {
+   "id": "business.annual-sales",
+   "t": {
+    "en": "annual sales",
+    "uk": "річний обсяг продажів",
+    "ru": "годовой объём продаж",
+    "pl": "roczna sprzedaż",
+    "de": "Jahresumsatz",
+    "fr": "ventes annuelles",
+    "es": "ventas anuales",
+    "it": "vendite annuali",
+    "pt": "vendas anuais",
+    "tr": "yıllık satışlar"
+   },
+   "ex": {
+    "en": "Annual sales reached a million."
+   }
+  },
+  {
+   "id": "business.sales-team",
+   "t": {
+    "en": "sales team",
+    "uk": "відділ продажів",
+    "ru": "команда продаж",
+    "pl": "zespół sprzedaży",
+    "de": "Vertriebsteam",
+    "fr": "équipe commerciale",
+    "es": "equipo de ventas",
+    "it": "team di vendita",
+    "pt": "equipe de vendas",
+    "tr": "satış ekibi"
+   },
+   "ex": {
+    "en": "Our sales team is growing."
+   }
+  },
+  {
+   "id": "business.marketing",
+   "t": {
+    "en": "marketing",
+    "uk": "маркетинг",
+    "ru": "маркетинг",
+    "pl": "marketing",
+    "de": "Marketing",
+    "fr": "marketing",
+    "es": "marketing",
+    "it": "marketing",
+    "pt": "marketing",
+    "tr": "pazarlama"
+   },
+   "ex": {
+    "en": "She works in marketing."
+   }
+  },
+  {
+   "id": "business.marketing-department",
+   "t": {
+    "en": "marketing department",
+    "uk": "відділ маркетингу",
+    "ru": "отдел маркетинга",
+    "pl": "dział marketingu",
+    "de": "Marketingabteilung",
+    "fr": "service marketing",
+    "es": "departamento de marketing",
+    "it": "reparto marketing",
+    "pt": "departamento de marketing",
+    "tr": "pazarlama departmanı"
+   },
+   "ex": {
+    "en": "Ask the marketing department."
+   }
+  },
+  {
+   "id": "business.legal-department",
+   "t": {
+    "en": "legal department",
+    "uk": "юридичний відділ",
+    "ru": "юридический отдел",
+    "pl": "dział prawny",
+    "de": "Rechtsabteilung",
+    "fr": "service juridique",
+    "es": "departamento jurídico",
+    "it": "ufficio legale",
+    "pt": "departamento jurídico",
+    "tr": "hukuk departmanı"
+   },
+   "ex": {
+    "en": "The legal department checked the contract."
+   }
+  },
+  {
+   "id": "business.to-open-a-branch",
+   "t": {
+    "en": "to open a branch",
+    "uk": "відкрити філію",
+    "ru": "открыть филиал",
+    "pl": "otworzyć oddział",
+    "de": "eine Filiale eröffnen",
+    "fr": "ouvrir une succursale",
+    "es": "abrir una sucursal",
+    "it": "aprire una filiale",
+    "pt": "abrir uma filial",
+    "tr": "şube açmak"
+   },
+   "ex": {
+    "en": "We will open a branch in Kyiv."
+   }
+  },
+  {
+   "id": "business.company-policy",
+   "t": {
+    "en": "company policy",
+    "uk": "політика компанії",
+    "ru": "политика компании",
+    "pl": "polityka firmy",
+    "de": "Firmenrichtlinie",
+    "fr": "politique de l'entreprise",
+    "es": "política de la empresa",
+    "it": "politica aziendale",
+    "pt": "política da empresa",
+    "tr": "şirket politikası"
+   },
+   "ex": {
+    "en": "It's against company policy."
+   }
+  },
+  {
+   "id": "business.to-win-a-contract",
+   "t": {
+    "en": "to win a contract",
+    "uk": "отримати контракт",
+    "ru": "получить контракт",
+    "pl": "zdobyć kontrakt",
+    "de": "einen Auftrag gewinnen",
+    "fr": "remporter un contrat",
+    "es": "ganar un contrato",
+    "it": "aggiudicarsi un contratto",
+    "pt": "ganhar um contrato",
+    "tr": "sözleşme kazanmak"
+   },
+   "ex": {
+    "en": "We won a big contract."
+   }
+  },
+  {
+   "id": "business.to-lose-a-client",
+   "t": {
+    "en": "to lose a client",
+    "uk": "втратити клієнта",
+    "ru": "потерять клиента",
+    "pl": "stracić klienta",
+    "de": "einen Kunden verlieren",
+    "fr": "perdre un client",
+    "es": "perder un cliente",
+    "it": "perdere un cliente",
+    "pt": "perder um cliente",
+    "tr": "müşteri kaybetmek"
+   },
+   "ex": {
+    "en": "We lost a client last month."
+   }
+  },
+  {
+   "id": "business.sales-pitch",
+   "t": {
+    "en": "sales pitch",
+    "uk": "рекламна презентація",
+    "ru": "рекламная презентация",
+    "pl": "prezentacja handlowa",
+    "de": "Verkaufsgespräch",
+    "fr": "argumentaire de vente",
+    "es": "discurso de venta",
+    "it": "discorso di vendita",
+    "pt": "discurso de vendas",
+    "tr": "satış konuşması"
+   },
+   "ex": {
+    "en": "His sales pitch was too long."
+   }
+  },
+  {
+   "id": "business.to-persuade",
+   "t": {
+    "en": "to persuade",
+    "uk": "переконувати",
+    "ru": "убеждать",
+    "pl": "przekonywać",
+    "de": "überzeugen",
+    "fr": "persuader",
+    "es": "persuadir",
+    "it": "persuadere",
+    "pt": "persuadir",
+    "tr": "ikna etmek"
+   },
+   "ex": {
+    "en": "She persuaded the client to buy."
+   }
+  },
+  {
+   "id": "business.to-make-an-offer",
+   "t": {
+    "en": "to make an offer",
+    "uk": "зробити пропозицію",
+    "ru": "сделать предложение",
+    "pl": "złożyć ofertę",
+    "de": "ein Angebot machen",
+    "fr": "faire une offre",
+    "es": "hacer una oferta",
+    "it": "fare un'offerta",
+    "pt": "fazer uma oferta",
+    "tr": "teklif vermek"
+   },
+   "ex": {
+    "en": "They made an offer for the shop."
+   }
+  },
+  {
+   "id": "business.final-offer",
+   "t": {
+    "en": "final offer",
+    "uk": "остаточна пропозиція",
+    "ru": "окончательное предложение",
+    "pl": "ostateczna oferta",
+    "de": "letztes Angebot",
+    "fr": "offre finale",
+    "es": "oferta final",
+    "it": "offerta finale",
+    "pt": "oferta final",
+    "tr": "son teklif"
+   },
+   "ex": {
+    "en": "This is our final offer."
+   }
+  },
+  {
+   "id": "business.to-turn-down-an-offer",
+   "t": {
+    "en": "to turn down an offer",
+    "uk": "відхилити пропозицію",
+    "ru": "отклонить предложение",
+    "pl": "odrzucić ofertę",
+    "de": "ein Angebot ablehnen",
+    "fr": "refuser une offre",
+    "es": "rechazar una oferta",
+    "it": "rifiutare un'offerta",
+    "pt": "recusar uma oferta",
+    "tr": "teklifi reddetmek"
+   },
+   "ex": {
+    "en": "She turned down the offer."
+   }
+  },
+  {
+   "id": "business.high-demand",
+   "t": {
+    "en": "high demand",
+    "uk": "високий попит",
+    "ru": "высокий спрос",
+    "pl": "duży popyt",
+    "de": "hohe Nachfrage",
+    "fr": "forte demande",
+    "es": "alta demanda",
+    "it": "forte domanda",
+    "pt": "alta demanda",
+    "tr": "yüksek talep"
+   },
+   "ex": {
+    "en": "There is high demand for bikes."
+   }
+  },
+  {
+   "id": "business.assembly-line",
+   "t": {
+    "en": "assembly line",
+    "uk": "конвеєр",
+    "ru": "конвейер",
+    "pl": "linia montażowa",
+    "de": "Fließband",
+    "fr": "chaîne de montage",
+    "es": "cadena de montaje",
+    "it": "catena di montaggio",
+    "pt": "linha de montagem",
+    "tr": "montaj hattı"
+   },
+   "ex": {
+    "en": "He works on an assembly line."
    }
   }
  ]

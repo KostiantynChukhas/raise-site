@@ -2,7 +2,7 @@
  "id": "work-a1",
  "topic": "work",
  "level": "a1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "work.phone-call",
@@ -848,6 +848,420 @@
    },
    "ex": {
     "en": "He went to the job center for help."
+   }
+  },
+  {
+   "id": "work.waitress",
+   "t": {
+    "en": "waitress",
+    "uk": "офіціантка",
+    "ru": "официантка",
+    "pl": "kelnerka",
+    "de": "Kellnerin",
+    "fr": "serveuse",
+    "es": "camarera",
+    "it": "cameriera",
+    "pt": "garçonete",
+    "tr": "kadın garson"
+   },
+   "ex": {
+    "en": "The waitress brought our coffee."
+   }
+  },
+  {
+   "id": "work.farmer",
+   "t": {
+    "en": "farmer",
+    "uk": "фермер",
+    "ru": "фермер",
+    "pl": "rolnik",
+    "de": "Bauer",
+    "fr": "agriculteur",
+    "es": "agricultor",
+    "it": "contadino",
+    "pt": "agricultor",
+    "tr": "çiftçi"
+   },
+   "ex": {
+    "en": "The farmer gets up at five."
+   }
+  },
+  {
+   "id": "work.factory",
+   "t": {
+    "en": "factory",
+    "uk": "фабрика",
+    "ru": "фабрика",
+    "pl": "fabryka",
+    "de": "Fabrik",
+    "fr": "usine",
+    "es": "fábrica",
+    "it": "fabbrica",
+    "pt": "fábrica",
+    "tr": "fabrika"
+   },
+   "ex": {
+    "en": "My father works in a factory."
+   }
+  },
+  {
+   "id": "work.work-clothes",
+   "t": {
+    "en": "work clothes",
+    "uk": "робочий одяг",
+    "ru": "рабочая одежда",
+    "pl": "ubranie robocze",
+    "de": "Arbeitskleidung",
+    "fr": "vêtements de travail",
+    "es": "ropa de trabajo",
+    "it": "abiti da lavoro",
+    "pt": "roupa de trabalho",
+    "tr": "iş kıyafeti"
+   },
+   "ex": {
+    "en": "I change into my work clothes."
+   }
+  },
+  {
+   "id": "work.workday",
+   "t": {
+    "en": "workday",
+    "uk": "робочий день",
+    "ru": "рабочий день",
+    "pl": "dzień roboczy",
+    "de": "Arbeitstag",
+    "fr": "journée de travail",
+    "es": "jornada laboral",
+    "it": "giornata lavorativa",
+    "pt": "dia de trabalho",
+    "tr": "iş günü"
+   },
+   "ex": {
+    "en": "My workday starts at nine."
+   }
+  },
+  {
+   "id": "work.lunch-hour",
+   "t": {
+    "en": "lunch hour",
+    "uk": "обідня перерва",
+    "ru": "обеденный перерыв",
+    "pl": "przerwa obiadowa",
+    "de": "Mittagspause",
+    "fr": "heure du déjeuner",
+    "es": "hora de comer",
+    "it": "pausa pranzo",
+    "pt": "hora do almoço",
+    "tr": "öğle arası"
+   },
+   "ex": {
+    "en": "I go for a walk in my lunch hour."
+   }
+  },
+  {
+   "id": "work.name-badge",
+   "t": {
+    "en": "name badge",
+    "uk": "бейдж",
+    "ru": "бейдж",
+    "pl": "identyfikator",
+    "de": "Namensschild",
+    "fr": "badge",
+    "es": "tarjeta identificativa",
+    "it": "cartellino",
+    "pt": "crachá",
+    "tr": "yaka kartı"
+   },
+   "ex": {
+    "en": "Please wear your name badge."
+   }
+  },
+  {
+   "id": "work.scientist",
+   "t": {
+    "en": "scientist",
+    "uk": "науковець",
+    "ru": "учёный",
+    "pl": "naukowiec",
+    "de": "Wissenschaftler",
+    "fr": "scientifique",
+    "es": "científico",
+    "it": "scienziato",
+    "pt": "cientista",
+    "tr": "bilim insanı"
+   },
+   "ex": {
+    "en": "She is a scientist at the university."
+   }
+  },
+  {
+   "id": "work.farm-worker",
+   "t": {
+    "en": "farm worker",
+    "uk": "сільськогосподарський робітник",
+    "ru": "сельскохозяйственный рабочий",
+    "pl": "robotnik rolny",
+    "de": "Landarbeiter",
+    "fr": "ouvrier agricole",
+    "es": "jornalero",
+    "it": "bracciante",
+    "pt": "trabalhador rural",
+    "tr": "tarım işçisi"
+   },
+   "ex": {
+    "en": "The farm workers start at dawn."
+   }
+  },
+  {
+   "id": "work.designer",
+   "t": {
+    "en": "designer",
+    "uk": "дизайнер",
+    "ru": "дизайнер",
+    "pl": "projektant",
+    "de": "Designer",
+    "fr": "designer",
+    "es": "diseñador",
+    "it": "designer",
+    "pt": "designer",
+    "tr": "tasarımcı"
+   },
+   "ex": {
+    "en": "The designer makes our website."
+   }
+  },
+  {
+   "id": "work.photographer",
+   "t": {
+    "en": "photographer",
+    "uk": "фотограф",
+    "ru": "фотограф",
+    "pl": "fotograf",
+    "de": "Fotograf",
+    "fr": "photographe",
+    "es": "fotógrafo",
+    "it": "fotografo",
+    "pt": "fotógrafo",
+    "tr": "fotoğrafçı"
+   },
+   "ex": {
+    "en": "The photographer takes pictures at weddings."
+   }
+  },
+  {
+   "id": "work.librarian",
+   "t": {
+    "en": "librarian",
+    "uk": "бібліотекар",
+    "ru": "библиотекарь",
+    "pl": "bibliotekarz",
+    "de": "Bibliothekar",
+    "fr": "bibliothécaire",
+    "es": "bibliotecario",
+    "it": "bibliotecario",
+    "pt": "bibliotecário",
+    "tr": "kütüphaneci"
+   },
+   "ex": {
+    "en": "The librarian helped me find a book."
+   }
+  },
+  {
+   "id": "work.home-office",
+   "t": {
+    "en": "home office",
+    "uk": "домашній офіс",
+    "ru": "домашний офис",
+    "pl": "domowe biuro",
+    "de": "Homeoffice",
+    "fr": "bureau à domicile",
+    "es": "despacho en casa",
+    "it": "ufficio in casa",
+    "pt": "escritório em casa",
+    "tr": "ev ofisi"
+   },
+   "ex": {
+    "en": "I work in my home office on Fridays."
+   }
+  },
+  {
+   "id": "work.assistant",
+   "t": {
+    "en": "assistant",
+    "uk": "помічник",
+    "ru": "помощник",
+    "pl": "asystent",
+    "de": "Assistent",
+    "fr": "assistant",
+    "es": "asistente",
+    "it": "assistente",
+    "pt": "assistente",
+    "tr": "asistan"
+   },
+   "ex": {
+    "en": "My assistant answers the phone."
+   }
+  },
+  {
+   "id": "work.project",
+   "t": {
+    "en": "project",
+    "uk": "проєкт",
+    "ru": "проект",
+    "pl": "projekt",
+    "de": "Projekt",
+    "fr": "projet",
+    "es": "proyecto",
+    "it": "progetto",
+    "pt": "projeto",
+    "tr": "proje"
+   },
+   "ex": {
+    "en": "We are working on a new project."
+   }
+  },
+  {
+   "id": "work.fisherman",
+   "t": {
+    "en": "fisherman",
+    "uk": "рибалка",
+    "ru": "рыбак",
+    "pl": "rybak",
+    "de": "Fischer",
+    "fr": "pêcheur",
+    "es": "pescador",
+    "it": "pescatore",
+    "pt": "pescador",
+    "tr": "balıkçı"
+   },
+   "ex": {
+    "en": "The fisherman goes out to sea early."
+   }
+  },
+  {
+   "id": "work.butcher",
+   "t": {
+    "en": "butcher",
+    "uk": "м'ясник",
+    "ru": "мясник",
+    "pl": "rzeźnik",
+    "de": "Metzger",
+    "fr": "boucher",
+    "es": "carnicero",
+    "it": "macellaio",
+    "pt": "açougueiro",
+    "tr": "kasap"
+   },
+   "ex": {
+    "en": "The butcher sells fresh meat."
+   }
+  },
+  {
+   "id": "work.truck-driver",
+   "t": {
+    "en": "truck driver",
+    "uk": "водій вантажівки",
+    "ru": "водитель грузовика",
+    "pl": "kierowca ciężarówki",
+    "de": "Lkw-Fahrer",
+    "fr": "chauffeur routier",
+    "es": "camionero",
+    "it": "camionista",
+    "pt": "caminhoneiro",
+    "tr": "kamyon şoförü"
+   },
+   "ex": {
+    "en": "He is a truck driver."
+   }
+  },
+  {
+   "id": "work.work-friend",
+   "t": {
+    "en": "work friend",
+    "uk": "друг з роботи",
+    "ru": "друг с работы",
+    "pl": "kolega z pracy",
+    "de": "Arbeitsfreund",
+    "fr": "ami du travail",
+    "es": "amigo del trabajo",
+    "it": "amico di lavoro",
+    "pt": "amigo do trabalho",
+    "tr": "iş arkadaşı"
+   },
+   "ex": {
+    "en": "I had lunch with a work friend."
+   }
+  },
+  {
+   "id": "work.salesman",
+   "t": {
+    "en": "salesman",
+    "uk": "продавець",
+    "ru": "продавец",
+    "pl": "sprzedawca",
+    "de": "Verkäufer",
+    "fr": "vendeur",
+    "es": "vendedor",
+    "it": "venditore",
+    "pt": "vendedor",
+    "tr": "satıcı"
+   },
+   "ex": {
+    "en": "The salesman showed us a new car."
+   }
+  },
+  {
+   "id": "work.day-shift",
+   "t": {
+    "en": "day shift",
+    "uk": "денна зміна",
+    "ru": "дневная смена",
+    "pl": "dzienna zmiana",
+    "de": "Tagschicht",
+    "fr": "équipe de jour",
+    "es": "turno de día",
+    "it": "turno di giorno",
+    "pt": "turno diurno",
+    "tr": "gündüz vardiyası"
+   },
+   "ex": {
+    "en": "She prefers the day shift."
+   }
+  },
+  {
+   "id": "work.to-work-as",
+   "t": {
+    "en": "to work as",
+    "uk": "працювати (ким)",
+    "ru": "работать (кем)",
+    "pl": "pracować jako",
+    "de": "arbeiten als",
+    "fr": "travailler comme",
+    "es": "trabajar de",
+    "it": "lavorare come",
+    "pt": "trabalhar como",
+    "tr": "olarak çalışmak"
+   },
+   "ex": {
+    "en": "I work as a nurse."
+   }
+  },
+  {
+   "id": "work.shop-owner",
+   "t": {
+    "en": "shop owner",
+    "uk": "власник крамниці",
+    "ru": "владелец магазина",
+    "pl": "właściciel sklepu",
+    "de": "Ladenbesitzer",
+    "fr": "commerçant",
+    "es": "dueño de una tienda",
+    "it": "negoziante",
+    "pt": "dono de loja",
+    "tr": "dükkân sahibi"
+   },
+   "ex": {
+    "en": "The shop owner opens at eight."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "travel-c1",
  "topic": "travel",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "travel.wanderlust",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "The tower offers a panoramic view."
+   }
+  },
+  {
+   "id": "travel.to-meander",
+   "t": {
+    "en": "to meander",
+    "uk": "петляти",
+    "ru": "петлять",
+    "pl": "wić się",
+    "de": "sich schlängeln",
+    "fr": "serpenter",
+    "es": "serpentear",
+    "it": "serpeggiare",
+    "pt": "serpentear",
+    "tr": "kıvrılarak ilerlemek"
+   },
+   "ex": {
+    "en": "The path meanders through the vineyards."
+   }
+  },
+  {
+   "id": "travel.to-roam",
+   "t": {
+    "en": "to roam",
+    "uk": "блукати",
+    "ru": "бродить",
+    "pl": "włóczyć się",
+    "de": "umherstreifen",
+    "fr": "errer",
+    "es": "vagar",
+    "it": "vagabondare",
+    "pt": "perambular",
+    "tr": "dolaşmak"
+   },
+   "ex": {
+    "en": "We roamed the streets of Lisbon all day."
+   }
+  },
+  {
+   "id": "travel.vagabond",
+   "t": {
+    "en": "vagabond",
+    "uk": "волоцюга",
+    "ru": "бродяга",
+    "pl": "włóczęga",
+    "de": "Vagabund",
+    "fr": "vagabond",
+    "es": "vagabundo",
+    "it": "vagabondo",
+    "pt": "vagabundo",
+    "tr": "serseri"
+   },
+   "ex": {
+    "en": "He lived like a vagabond for years."
+   }
+  },
+  {
+   "id": "travel.voyager",
+   "t": {
+    "en": "voyager",
+    "uk": "мандрівник",
+    "ru": "путешественник",
+    "pl": "podróżnik",
+    "de": "Reisender",
+    "fr": "voyageur",
+    "es": "viajero",
+    "it": "viaggiatore",
+    "pt": "viajante",
+    "tr": "seyyah"
+   },
+   "ex": {
+    "en": "Early voyagers crossed the ocean by sail."
+   }
+  },
+  {
+   "id": "travel.to-traverse",
+   "t": {
+    "en": "to traverse",
+    "uk": "перетинати",
+    "ru": "пересекать",
+    "pl": "przemierzać",
+    "de": "durchqueren",
+    "fr": "traverser",
+    "es": "atravesar",
+    "it": "attraversare",
+    "pt": "atravessar",
+    "tr": "kat etmek"
+   },
+   "ex": {
+    "en": "They traversed the desert on camels."
+   }
+  },
+  {
+   "id": "travel.to-circumnavigate",
+   "t": {
+    "en": "to circumnavigate",
+    "uk": "обійти навколо",
+    "ru": "совершить кругосветное плавание",
+    "pl": "opłynąć",
+    "de": "umsegeln",
+    "fr": "faire le tour de",
+    "es": "circunnavegar",
+    "it": "circumnavigare",
+    "pt": "circunavegar",
+    "tr": "etrafını dolaşmak"
+   },
+   "ex": {
+    "en": "She circumnavigated the globe alone."
+   }
+  },
+  {
+   "id": "travel.intrepid",
+   "t": {
+    "en": "intrepid",
+    "uk": "безстрашний",
+    "ru": "бесстрашный",
+    "pl": "nieustraszony",
+    "de": "unerschrocken",
+    "fr": "intrépide",
+    "es": "intrépido",
+    "it": "intrepido",
+    "pt": "intrépido",
+    "tr": "gözü pek"
+   },
+   "ex": {
+    "en": "An intrepid explorer crossed the Arctic."
+   }
+  },
+  {
+   "id": "travel.seasoned-traveller",
+   "t": {
+    "en": "seasoned traveller",
+    "uk": "досвідчений мандрівник",
+    "ru": "опытный путешественник",
+    "pl": "doświadczony podróżnik",
+    "de": "erfahrener Reisender",
+    "fr": "voyageur aguerri",
+    "es": "viajero experimentado",
+    "it": "viaggiatore esperto",
+    "pt": "viajante experiente",
+    "tr": "deneyimli gezgin"
+   },
+   "ex": {
+    "en": "As a seasoned traveller, she packs light."
+   }
+  },
+  {
+   "id": "travel.jet-setter",
+   "t": {
+    "en": "jet-setter",
+    "uk": "член джет-сету",
+    "ru": "член джет-сета",
+    "pl": "bywalec światowych kurortów",
+    "de": "Jetsetter",
+    "fr": "membre de la jet-set",
+    "es": "miembro de la jet set",
+    "it": "membro del jet set",
+    "pt": "membro do jet set",
+    "tr": "jet sosyete üyesi"
+   },
+   "ex": {
+    "en": "The island attracts jet-setters."
+   }
+  },
+  {
+   "id": "travel.wayfarer",
+   "t": {
+    "en": "wayfarer",
+    "uk": "подорожній",
+    "ru": "странник",
+    "pl": "piechur",
+    "de": "Wandersmann",
+    "fr": "voyageur à pied",
+    "es": "caminante",
+    "it": "viandante",
+    "pt": "andarilho",
+    "tr": "yolcu"
+   },
+   "ex": {
+    "en": "The inn welcomed every weary wayfarer."
+   }
+  },
+  {
+   "id": "travel.to-rough-it",
+   "t": {
+    "en": "to rough it",
+    "uk": "жити без зручностей",
+    "ru": "жить в спартанских условиях",
+    "pl": "żyć po spartańsku",
+    "de": "primitiv leben",
+    "fr": "vivre à la dure",
+    "es": "vivir sin comodidades",
+    "it": "vivere alla buona",
+    "pt": "viver sem conforto",
+    "tr": "zor şartlarda yaşamak"
+   },
+   "ex": {
+    "en": "We roughed it in the mountains for a week."
+   }
+  },
+  {
+   "id": "travel.opulent",
+   "t": {
+    "en": "opulent",
+    "uk": "розкішний",
+    "ru": "роскошный",
+    "pl": "okazały",
+    "de": "prunkvoll",
+    "fr": "somptueux",
+    "es": "opulento",
+    "it": "sfarzoso",
+    "pt": "opulento",
+    "tr": "gösterişli"
+   },
+   "ex": {
+    "en": "The palace has an opulent ballroom."
+   }
+  },
+  {
+   "id": "travel.rustic",
+   "t": {
+    "en": "rustic",
+    "uk": "сільський",
+    "ru": "деревенский",
+    "pl": "rustykalny",
+    "de": "rustikal",
+    "fr": "rustique",
+    "es": "rústico",
+    "it": "rustico",
+    "pt": "rústico",
+    "tr": "rustik"
+   },
+   "ex": {
+    "en": "We stayed in a rustic farmhouse."
+   }
+  },
+  {
+   "id": "travel.unspoilt",
+   "t": {
+    "en": "unspoilt",
+    "uk": "незайманий",
+    "ru": "нетронутый",
+    "pl": "dziewiczy",
+    "de": "unberührt",
+    "fr": "préservé",
+    "es": "virgen",
+    "it": "incontaminato",
+    "pt": "intocado",
+    "tr": "bozulmamış"
+   },
+   "ex": {
+    "en": "The coast is still unspoilt."
+   }
+  },
+  {
+   "id": "travel.rugged",
+   "t": {
+    "en": "rugged",
+    "uk": "суворий",
+    "ru": "суровый",
+    "pl": "surowy",
+    "de": "zerklüftet",
+    "fr": "accidenté",
+    "es": "escarpado",
+    "it": "aspro",
+    "pt": "acidentado",
+    "tr": "engebeli"
+   },
+   "ex": {
+    "en": "The rugged coastline is perfect for hiking."
+   }
+  },
+  {
+   "id": "travel.desolate",
+   "t": {
+    "en": "desolate",
+    "uk": "безлюдний",
+    "ru": "пустынный",
+    "pl": "wyludniony",
+    "de": "trostlos",
+    "fr": "désertique",
+    "es": "desolado",
+    "it": "desolato",
+    "pt": "desolado",
+    "tr": "ıssız"
+   },
+   "ex": {
+    "en": "We drove through a desolate landscape."
+   }
+  },
+  {
+   "id": "travel.atmospheric",
+   "t": {
+    "en": "atmospheric",
+    "uk": "атмосферний",
+    "ru": "атмосферный",
+    "pl": "klimatyczny",
+    "de": "stimmungsvoll",
+    "fr": "plein de charme",
+    "es": "con encanto",
+    "it": "suggestivo",
+    "pt": "cheio de atmosfera",
+    "tr": "atmosferik"
+   },
+   "ex": {
+    "en": "The old quarter is very atmospheric."
+   }
+  },
+  {
+   "id": "travel.vibrant",
+   "t": {
+    "en": "vibrant",
+    "uk": "яскравий",
+    "ru": "оживлённый",
+    "pl": "tętniący życiem",
+    "de": "pulsierend",
+    "fr": "animé",
+    "es": "vibrante",
+    "it": "vivace",
+    "pt": "vibrante",
+    "tr": "canlı"
+   },
+   "ex": {
+    "en": "Barcelona is a vibrant city."
+   }
+  },
+  {
+   "id": "travel.boarding-house",
+   "t": {
+    "en": "boarding house",
+    "uk": "пансіон",
+    "ru": "пансион",
+    "pl": "pensjonat",
+    "de": "Pension",
+    "fr": "pension de famille",
+    "es": "casa de huéspedes",
+    "it": "pensione",
+    "pt": "pensão",
+    "tr": "pansiyon"
+   },
+   "ex": {
+    "en": "He rented a room in a boarding house."
+   }
+  },
+  {
+   "id": "travel.tranquil",
+   "t": {
+    "en": "tranquil",
+    "uk": "спокійний",
+    "ru": "безмятежный",
+    "pl": "spokojny",
+    "de": "ruhig",
+    "fr": "paisible",
+    "es": "tranquilo",
+    "it": "tranquillo",
+    "pt": "tranquilo",
+    "tr": "sakin"
+   },
+   "ex": {
+    "en": "The lake is tranquil at dawn."
+   }
+  },
+  {
+   "id": "travel.majestic",
+   "t": {
+    "en": "majestic",
+    "uk": "величний",
+    "ru": "величественный",
+    "pl": "majestatyczny",
+    "de": "majestätisch",
+    "fr": "majestueux",
+    "es": "majestuoso",
+    "it": "maestoso",
+    "pt": "majestoso",
+    "tr": "görkemli"
+   },
+   "ex": {
+    "en": "We saw the majestic Alps."
+   }
+  },
+  {
+   "id": "travel.to-marvel-at",
+   "t": {
+    "en": "to marvel at",
+    "uk": "захоплюватися",
+    "ru": "восхищаться",
+    "pl": "zachwycać się",
+    "de": "bestaunen",
+    "fr": "s'émerveiller devant",
+    "es": "maravillarse de",
+    "it": "meravigliarsi di",
+    "pt": "maravilhar-se com",
+    "tr": "hayranlıkla bakmak"
+   },
+   "ex": {
+    "en": "We marvelled at the ancient temples."
+   }
+  },
+  {
+   "id": "travel.to-bask-in-the-sun",
+   "t": {
+    "en": "to bask in the sun",
+    "uk": "ніжитися на сонці",
+    "ru": "нежиться на солнце",
+    "pl": "wygrzewać się na słońcu",
+    "de": "sich in der Sonne aalen",
+    "fr": "se prélasser au soleil",
+    "es": "tostarse al sol",
+    "it": "crogiolarsi al sole",
+    "pt": "aproveitar o sol",
+    "tr": "güneşlenmek"
+   },
+   "ex": {
+    "en": "We basked in the sun all afternoon."
+   }
+  },
+  {
+   "id": "travel.to-take-in-the-sights",
+   "t": {
+    "en": "to take in the sights",
+    "uk": "оглядати визначні місця",
+    "ru": "осматривать достопримечательности",
+    "pl": "podziwiać widoki",
+    "de": "die Sehenswürdigkeiten genießen",
+    "fr": "admirer les sites",
+    "es": "contemplar los lugares",
+    "it": "godersi le attrazioni",
+    "pt": "apreciar as atrações",
+    "tr": "manzaranın tadını çıkarmak"
+   },
+   "ex": {
+    "en": "We walked slowly to take in the sights."
+   }
+  },
+  {
+   "id": "travel.to-backtrack",
+   "t": {
+    "en": "to backtrack",
+    "uk": "повертатися назад",
+    "ru": "возвращаться назад",
+    "pl": "zawrócić",
+    "de": "denselben Weg zurückgehen",
+    "fr": "rebrousser chemin",
+    "es": "desandar el camino",
+    "it": "tornare sui propri passi",
+    "pt": "voltar pelo mesmo caminho",
+    "tr": "geri dönmek"
+   },
+   "ex": {
+    "en": "We had to backtrack to the last village."
+   }
+  },
+  {
+   "id": "travel.a-change-of-scene",
+   "t": {
+    "en": "a change of scene",
+    "uk": "зміна обстановки",
+    "ru": "смена обстановки",
+    "pl": "zmiana otoczenia",
+    "de": "Tapetenwechsel",
+    "fr": "changement d'air",
+    "es": "cambio de aires",
+    "it": "cambiamento d'aria",
+    "pt": "mudança de ares",
+    "tr": "ortam değişikliği"
+   },
+   "ex": {
+    "en": "I need a change of scene."
+   }
+  },
+  {
+   "id": "travel.home-from-home",
+   "t": {
+    "en": "home from home",
+    "uk": "другий дім",
+    "ru": "второй дом",
+    "pl": "drugi dom",
+    "de": "zweites Zuhause",
+    "fr": "seconde maison",
+    "es": "segunda casa",
+    "it": "seconda casa",
+    "pt": "segunda casa",
+    "tr": "ikinci ev"
+   },
+   "ex": {
+    "en": "The little hotel felt like home from home."
+   }
+  },
+  {
+   "id": "travel.the-open-road",
+   "t": {
+    "en": "the open road",
+    "uk": "відкрита дорога",
+    "ru": "открытая дорога",
+    "pl": "otwarta droga",
+    "de": "die offene Straße",
+    "fr": "la route",
+    "es": "la carretera abierta",
+    "it": "la strada aperta",
+    "pt": "a estrada aberta",
+    "tr": "uçsuz bucaksız yol"
+   },
+   "ex": {
+    "en": "Nothing beats the freedom of the open road."
+   }
+  },
+  {
+   "id": "travel.to-blend-in",
+   "t": {
+    "en": "to blend in",
+    "uk": "злитися з оточенням",
+    "ru": "слиться с толпой",
+    "pl": "wtopić się w tłum",
+    "de": "nicht auffallen",
+    "fr": "se fondre dans la masse",
+    "es": "pasar desapercibido",
+    "it": "mimetizzarsi",
+    "pt": "passar despercebido",
+    "tr": "uyum sağlamak"
+   },
+   "ex": {
+    "en": "Dress simply to blend in with locals."
+   }
+  },
+  {
+   "id": "travel.cultural-immersion",
+   "t": {
+    "en": "cultural immersion",
+    "uk": "занурення в культуру",
+    "ru": "погружение в культуру",
+    "pl": "zanurzenie w kulturze",
+    "de": "kulturelles Eintauchen",
+    "fr": "immersion culturelle",
+    "es": "inmersión cultural",
+    "it": "immersione culturale",
+    "pt": "imersão cultural",
+    "tr": "kültürel deneyim"
+   },
+   "ex": {
+    "en": "A homestay offers real cultural immersion."
+   }
+  },
+  {
+   "id": "travel.voluntourism",
+   "t": {
+    "en": "voluntourism",
+    "uk": "волонтерський туризм",
+    "ru": "волонтёрский туризм",
+    "pl": "wolontariat turystyczny",
+    "de": "Voluntourismus",
+    "fr": "volontourisme",
+    "es": "voluntarismo turístico",
+    "it": "volonturismo",
+    "pt": "volunturismo",
+    "tr": "gönüllü turizm"
+   },
+   "ex": {
+    "en": "Critics say voluntourism can do harm."
+   }
+  },
+  {
+   "id": "travel.dark-tourism",
+   "t": {
+    "en": "dark tourism",
+    "uk": "темний туризм",
+    "ru": "тёмный туризм",
+    "pl": "czarna turystyka",
+    "de": "Dark Tourism",
+    "fr": "tourisme noir",
+    "es": "turismo oscuro",
+    "it": "turismo dell'orrore",
+    "pt": "turismo sombrio",
+    "tr": "karanlık turizm"
+   },
+   "ex": {
+    "en": "Visiting Chernobyl is a form of dark tourism."
+   }
+  },
+  {
+   "id": "travel.to-leave-no-trace",
+   "t": {
+    "en": "to leave no trace",
+    "uk": "не залишати слідів",
+    "ru": "не оставлять следов",
+    "pl": "nie zostawiać śladów",
+    "de": "keine Spuren hinterlassen",
+    "fr": "ne laisser aucune trace",
+    "es": "no dejar rastro",
+    "it": "non lasciare traccia",
+    "pt": "não deixar rastros",
+    "tr": "iz bırakmamak"
+   },
+   "ex": {
+    "en": "Hikers should always leave no trace."
+   }
+  },
+  {
+   "id": "travel.to-stow-luggage",
+   "t": {
+    "en": "to stow luggage",
+    "uk": "розмістити багаж",
+    "ru": "убрать багаж",
+    "pl": "schować bagaż",
+    "de": "Gepäck verstauen",
+    "fr": "ranger ses bagages",
+    "es": "guardar el equipaje",
+    "it": "sistemare il bagaglio",
+    "pt": "guardar a bagagem",
+    "tr": "bagajı yerleştirmek"
+   },
+   "ex": {
+    "en": "Please stow your luggage under the seat."
+   }
+  },
+  {
+   "id": "travel.flight-path",
+   "t": {
+    "en": "flight path",
+    "uk": "маршрут польоту",
+    "ru": "траектория полёта",
+    "pl": "trasa lotu",
+    "de": "Flugroute",
+    "fr": "trajectoire de vol",
+    "es": "ruta de vuelo",
+    "it": "rotta di volo",
+    "pt": "rota de voo",
+    "tr": "uçuş rotası"
+   },
+   "ex": {
+    "en": "Our house is under a flight path."
+   }
+  },
+  {
+   "id": "travel.hold-luggage",
+   "t": {
+    "en": "hold luggage",
+    "uk": "багаж у багажному відсіку",
+    "ru": "багаж в багажном отсеке",
+    "pl": "bagaż rejestrowany",
+    "de": "Gepäck im Frachtraum",
+    "fr": "bagage en soute",
+    "es": "equipaje de bodega",
+    "it": "bagaglio in stiva",
+    "pt": "bagagem de porão",
+    "tr": "ambar bagajı"
+   },
+   "ex": {
+    "en": "Knives must go in your hold luggage."
+   }
+  },
+  {
+   "id": "travel.travel-fatigue",
+   "t": {
+    "en": "travel fatigue",
+    "uk": "втома від подорожей",
+    "ru": "усталость от путешествий",
+    "pl": "zmęczenie podróżą",
+    "de": "Reisemüdigkeit",
+    "fr": "fatigue du voyage",
+    "es": "cansancio del viaje",
+    "it": "stanchezza da viaggio",
+    "pt": "cansaço de viagem",
+    "tr": "yolculuk yorgunluğu"
+   },
+   "ex": {
+    "en": "After two months, travel fatigue set in."
+   }
+  },
+  {
+   "id": "travel.wanderer",
+   "t": {
+    "en": "wanderer",
+    "uk": "блукач",
+    "ru": "скиталец",
+    "pl": "wędrowiec",
+    "de": "Wanderer",
+    "fr": "voyageur errant",
+    "es": "errante",
+    "it": "giramondo",
+    "pt": "andarilho",
+    "tr": "gezgin"
+   },
+   "ex": {
+    "en": "He was a wanderer with no fixed home."
+   }
+  },
+  {
+   "id": "travel.digital-nomad",
+   "t": {
+    "en": "digital nomad",
+    "uk": "цифровий кочівник",
+    "ru": "цифровой кочевник",
+    "pl": "cyfrowy nomada",
+    "de": "digitaler Nomade",
+    "fr": "nomade numérique",
+    "es": "nómada digital",
+    "it": "nomade digitale",
+    "pt": "nômade digital",
+    "tr": "dijital göçebe"
+   },
+   "ex": {
+    "en": "She works as a digital nomad in Bali."
+   }
+  },
+  {
+   "id": "travel.border-control",
+   "t": {
+    "en": "border control",
+    "uk": "прикордонний контроль",
+    "ru": "пограничный контроль",
+    "pl": "kontrola graniczna",
+    "de": "Grenzkontrolle",
+    "fr": "contrôle aux frontières",
+    "es": "control fronterizo",
+    "it": "controllo di frontiera",
+    "pt": "controle de fronteira",
+    "tr": "sınır kontrolü"
+   },
+   "ex": {
+    "en": "There was a long queue at border control."
+   }
+  },
+  {
+   "id": "travel.passport-stamp",
+   "t": {
+    "en": "passport stamp",
+    "uk": "штамп у паспорті",
+    "ru": "штамп в паспорте",
+    "pl": "pieczątka w paszporcie",
+    "de": "Passstempel",
+    "fr": "tampon sur le passeport",
+    "es": "sello del pasaporte",
+    "it": "timbro sul passaporto",
+    "pt": "carimbo no passaporte",
+    "tr": "pasaport damgası"
+   },
+   "ex": {
+    "en": "I collect passport stamps from every trip."
+   }
+  },
+  {
+   "id": "travel.to-smuggle",
+   "t": {
+    "en": "to smuggle",
+    "uk": "перевозити контрабанду",
+    "ru": "провозить контрабанду",
+    "pl": "przemycać",
+    "de": "schmuggeln",
+    "fr": "passer en contrebande",
+    "es": "contrabandear",
+    "it": "contrabbandare",
+    "pt": "contrabandear",
+    "tr": "kaçakçılık yapmak"
+   },
+   "ex": {
+    "en": "He tried to smuggle cigarettes."
+   }
+  },
+  {
+   "id": "travel.trailblazer",
+   "t": {
+    "en": "trailblazer",
+    "uk": "першопроходець",
+    "ru": "первопроходец",
+    "pl": "pionier",
+    "de": "Wegbereiter",
+    "fr": "pionnier",
+    "es": "pionero",
+    "it": "pioniere",
+    "pt": "pioneiro",
+    "tr": "öncü"
+   },
+   "ex": {
+    "en": "She was a trailblazer of solo travel."
+   }
+  },
+  {
+   "id": "travel.uncharted-territory",
+   "t": {
+    "en": "uncharted territory",
+    "uk": "незвідана територія",
+    "ru": "неизведанная территория",
+    "pl": "nieznany teren",
+    "de": "Neuland",
+    "fr": "terrain inconnu",
+    "es": "territorio inexplorado",
+    "it": "territorio inesplorato",
+    "pt": "território desconhecido",
+    "tr": "keşfedilmemiş bölge"
+   },
+   "ex": {
+    "en": "For us, the Arctic was uncharted territory."
+   }
+  },
+  {
+   "id": "travel.the-great-outdoors",
+   "t": {
+    "en": "the great outdoors",
+    "uk": "дика природа",
+    "ru": "природа на свежем воздухе",
+    "pl": "łono natury",
+    "de": "die freie Natur",
+    "fr": "la nature",
+    "es": "la naturaleza",
+    "it": "la natura",
+    "pt": "a natureza",
+    "tr": "açık hava"
+   },
+   "ex": {
+    "en": "We love camping in the great outdoors."
+   }
+  },
+  {
+   "id": "travel.jaw-dropping",
+   "t": {
+    "en": "jaw-dropping",
+    "uk": "приголомшливий",
+    "ru": "потрясающий",
+    "pl": "zapierający dech",
+    "de": "atemberaubend",
+    "fr": "époustouflant",
+    "es": "impresionante",
+    "it": "mozzafiato",
+    "pt": "de cair o queixo",
+    "tr": "nefes kesici"
+   },
+   "ex": {
+    "en": "The view from the summit is jaw-dropping."
+   }
+  },
+  {
+   "id": "travel.en-route",
+   "t": {
+    "en": "en route",
+    "uk": "дорогою",
+    "ru": "по пути",
+    "pl": "po drodze",
+    "de": "unterwegs",
+    "fr": "en route",
+    "es": "de camino",
+    "it": "strada facendo",
+    "pt": "a caminho",
+    "tr": "yolda"
+   },
+   "ex": {
+    "en": "We stopped in Lyon en route to Nice."
+   }
+  },
+  {
+   "id": "travel.to-set-sail",
+   "t": {
+    "en": "to set sail",
+    "uk": "вирушити в плавання",
+    "ru": "отправиться в плавание",
+    "pl": "wypłynąć",
+    "de": "in See stechen",
+    "fr": "mettre les voiles",
+    "es": "zarpar",
+    "it": "salpare",
+    "pt": "zarpar",
+    "tr": "yelken açmak"
+   },
+   "ex": {
+    "en": "The ship sets sail at dawn."
+   }
+  },
+  {
+   "id": "travel.maiden-voyage",
+   "t": {
+    "en": "maiden voyage",
+    "uk": "перший рейс",
+    "ru": "первый рейс",
+    "pl": "dziewiczy rejs",
+    "de": "Jungfernfahrt",
+    "fr": "voyage inaugural",
+    "es": "viaje inaugural",
+    "it": "viaggio inaugurale",
+    "pt": "viagem inaugural",
+    "tr": "ilk sefer"
+   },
+   "ex": {
+    "en": "The Titanic sank on its maiden voyage."
+   }
+  },
+  {
+   "id": "travel.concierge",
+   "t": {
+    "en": "concierge",
+    "uk": "консьєрж",
+    "ru": "консьерж",
+    "pl": "konsjerż",
+    "de": "Concierge",
+    "fr": "concierge",
+    "es": "conserje",
+    "it": "portiere",
+    "pt": "concierge",
+    "tr": "konsiyerj"
+   },
+   "ex": {
+    "en": "The concierge booked us a table."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "emergency-b2",
  "topic": "emergency",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emergency.bureaucracy",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "You have the right to an interpreter."
+   }
+  },
+  {
+   "id": "emergency.cpr",
+   "t": {
+    "en": "CPR",
+    "uk": "серцево-легенева реанімація",
+    "ru": "сердечно-лёгочная реанимация",
+    "pl": "resuscytacja krążeniowo-oddechowa",
+    "de": "Herz-Lungen-Wiederbelebung",
+    "fr": "réanimation cardio-pulmonaire",
+    "es": "reanimación cardiopulmonar",
+    "it": "rianimazione cardiopolmonare",
+    "pt": "reanimação cardiopulmonar",
+    "tr": "kalp masajı"
+   },
+   "ex": {
+    "en": "She gave him CPR until help came."
+   }
+  },
+  {
+   "id": "emergency.recovery-position",
+   "t": {
+    "en": "recovery position",
+    "uk": "стабільне бокове положення",
+    "ru": "восстановительное положение",
+    "pl": "pozycja boczna ustalona",
+    "de": "stabile Seitenlage",
+    "fr": "position latérale de sécurité",
+    "es": "posición lateral de seguridad",
+    "it": "posizione laterale di sicurezza",
+    "pt": "posição lateral de segurança",
+    "tr": "koma pozisyonu"
+   },
+   "ex": {
+    "en": "Put him in the recovery position."
+   }
+  },
+  {
+   "id": "emergency.chest-compressions",
+   "t": {
+    "en": "chest compressions",
+    "uk": "компресії грудної клітки",
+    "ru": "компрессии грудной клетки",
+    "pl": "uciśnięcia klatki piersiowej",
+    "de": "Herzdruckmassage",
+    "fr": "compressions thoraciques",
+    "es": "compresiones torácicas",
+    "it": "compressioni toraciche",
+    "pt": "compressões torácicas",
+    "tr": "göğüs kompresyonu"
+   },
+   "ex": {
+    "en": "Start chest compressions immediately."
+   }
+  },
+  {
+   "id": "emergency.airway",
+   "t": {
+    "en": "airway",
+    "uk": "дихальні шляхи",
+    "ru": "дыхательные пути",
+    "pl": "drogi oddechowe",
+    "de": "Atemwege",
+    "fr": "voies respiratoires",
+    "es": "vía respiratoria",
+    "it": "vie aeree",
+    "pt": "vias aéreas",
+    "tr": "hava yolu"
+   },
+   "ex": {
+    "en": "Check that the airway is clear."
+   }
+  },
+  {
+   "id": "emergency.to-stabilise",
+   "t": {
+    "en": "to stabilise",
+    "uk": "стабілізувати",
+    "ru": "стабилизировать",
+    "pl": "ustabilizować",
+    "de": "stabilisieren",
+    "fr": "stabiliser",
+    "es": "estabilizar",
+    "it": "stabilizzare",
+    "pt": "estabilizar",
+    "tr": "stabilize etmek"
+   },
+   "ex": {
+    "en": "Doctors managed to stabilise him."
+   }
+  },
+  {
+   "id": "emergency.casualty",
+   "t": {
+    "en": "casualty",
+    "uk": "постраждалий",
+    "ru": "пострадавший",
+    "pl": "poszkodowany",
+    "de": "Verletzter",
+    "fr": "blessé",
+    "es": "herido",
+    "it": "ferito",
+    "pt": "vítima",
+    "tr": "yaralı"
+   },
+   "ex": {
+    "en": "There were no casualties."
+   }
+  },
+  {
+   "id": "emergency.intensive-care",
+   "t": {
+    "en": "intensive care",
+    "uk": "інтенсивна терапія",
+    "ru": "реанимация",
+    "pl": "intensywna terapia",
+    "de": "Intensivstation",
+    "fr": "soins intensifs",
+    "es": "cuidados intensivos",
+    "it": "terapia intensiva",
+    "pt": "UTI",
+    "tr": "yoğun bakım"
+   },
+   "ex": {
+    "en": "He is still in intensive care."
+   }
+  },
+  {
+   "id": "emergency.life-support",
+   "t": {
+    "en": "life support",
+    "uk": "апарат життєзабезпечення",
+    "ru": "аппарат жизнеобеспечения",
+    "pl": "aparatura podtrzymująca życie",
+    "de": "lebenserhaltende Geräte",
+    "fr": "assistance respiratoire",
+    "es": "soporte vital",
+    "it": "supporto vitale",
+    "pt": "aparelhos de suporte vital",
+    "tr": "yaşam desteği"
+   },
+   "ex": {
+    "en": "The patient is on life support."
+   }
+  },
+  {
+   "id": "emergency.first-responder",
+   "t": {
+    "en": "first responder",
+    "uk": "перший рятувальник на місці",
+    "ru": "первый спасатель на месте",
+    "pl": "ratownik pierwszej pomocy",
+    "de": "Ersthelfer",
+    "fr": "premier intervenant",
+    "es": "primer interviniente",
+    "it": "primo soccorritore",
+    "pt": "socorrista",
+    "tr": "ilk müdahale ekibi"
+   },
+   "ex": {
+    "en": "First responders arrived in minutes."
+   }
+  },
+  {
+   "id": "emergency.search-and-rescue",
+   "t": {
+    "en": "search and rescue",
+    "uk": "пошуково-рятувальна операція",
+    "ru": "поисково-спасательная операция",
+    "pl": "akcja poszukiwawczo-ratownicza",
+    "de": "Suche und Rettung",
+    "fr": "recherche et sauvetage",
+    "es": "búsqueda y rescate",
+    "it": "ricerca e soccorso",
+    "pt": "busca e salvamento",
+    "tr": "arama kurtarma"
+   },
+   "ex": {
+    "en": "Search and rescue teams are working."
+   }
+  },
+  {
+   "id": "emergency.rubble",
+   "t": {
+    "en": "rubble",
+    "uk": "завали",
+    "ru": "завалы",
+    "pl": "gruzy",
+    "de": "Trümmer",
+    "fr": "décombres",
+    "es": "escombros",
+    "it": "macerie",
+    "pt": "escombros",
+    "tr": "enkaz"
+   },
+   "ex": {
+    "en": "They pulled a child from the rubble."
+   }
+  },
+  {
+   "id": "emergency.to-collapse",
+   "t": {
+    "en": "to collapse",
+    "uk": "обвалитися",
+    "ru": "обрушиться",
+    "pl": "zawalić się",
+    "de": "einstürzen",
+    "fr": "s'effondrer",
+    "es": "derrumbarse",
+    "it": "crollare",
+    "pt": "desabar",
+    "tr": "çökmek"
+   },
+   "ex": {
+    "en": "The old bridge collapsed."
+   }
+  },
+  {
+   "id": "emergency.debris",
+   "t": {
+    "en": "debris",
+    "uk": "уламки",
+    "ru": "обломки",
+    "pl": "szczątki",
+    "de": "Schutt",
+    "fr": "débris",
+    "es": "restos",
+    "it": "detriti",
+    "pt": "destroços",
+    "tr": "moloz"
+   },
+   "ex": {
+    "en": "Debris blocked the road."
+   }
+  },
+  {
+   "id": "emergency.survivor",
+   "t": {
+    "en": "survivor",
+    "uk": "той, хто вижив",
+    "ru": "выживший",
+    "pl": "ocalały",
+    "de": "Überlebender",
+    "fr": "survivant",
+    "es": "superviviente",
+    "it": "sopravvissuto",
+    "pt": "sobrevivente",
+    "tr": "hayatta kalan"
+   },
+   "ex": {
+    "en": "There was only one survivor."
+   }
+  },
+  {
+   "id": "emergency.death-toll",
+   "t": {
+    "en": "death toll",
+    "uk": "кількість загиблих",
+    "ru": "число погибших",
+    "pl": "liczba ofiar śmiertelnych",
+    "de": "Zahl der Todesopfer",
+    "fr": "bilan des morts",
+    "es": "número de víctimas mortales",
+    "it": "bilancio delle vittime",
+    "pt": "número de mortos",
+    "tr": "ölü sayısı"
+   },
+   "ex": {
+    "en": "The death toll has risen to forty."
+   }
+  },
+  {
+   "id": "emergency.trapped",
+   "t": {
+    "en": "trapped",
+    "uk": "заблокований",
+    "ru": "в ловушке",
+    "pl": "uwięziony",
+    "de": "eingeschlossen",
+    "fr": "coincé",
+    "es": "atrapado",
+    "it": "intrappolato",
+    "pt": "preso",
+    "tr": "mahsur"
+   },
+   "ex": {
+    "en": "Three miners are trapped underground."
+   }
+  },
+  {
+   "id": "emergency.relief-supplies",
+   "t": {
+    "en": "relief supplies",
+    "uk": "гуманітарні вантажі",
+    "ru": "гуманитарные грузы",
+    "pl": "dary pomocowe",
+    "de": "Hilfsgüter",
+    "fr": "fournitures de secours",
+    "es": "suministros de ayuda",
+    "it": "beni di soccorso",
+    "pt": "suprimentos de ajuda",
+    "tr": "yardım malzemeleri"
+   },
+   "ex": {
+    "en": "Relief supplies arrived by truck."
+   }
+  },
+  {
+   "id": "emergency.aid-worker",
+   "t": {
+    "en": "aid worker",
+    "uk": "гуманітарний працівник",
+    "ru": "сотрудник гуманитарной организации",
+    "pl": "pracownik pomocy humanitarnej",
+    "de": "Entwicklungshelfer",
+    "fr": "travailleur humanitaire",
+    "es": "cooperante",
+    "it": "operatore umanitario",
+    "pt": "agente humanitário",
+    "tr": "yardım görevlisi"
+   },
+   "ex": {
+    "en": "Aid workers distributed food."
+   }
+  },
+  {
+   "id": "emergency.disaster-zone",
+   "t": {
+    "en": "disaster zone",
+    "uk": "зона лиха",
+    "ru": "зона бедствия",
+    "pl": "strefa klęski",
+    "de": "Katastrophengebiet",
+    "fr": "zone sinistrée",
+    "es": "zona catastrófica",
+    "it": "zona disastrata",
+    "pt": "área de desastre",
+    "tr": "afet bölgesi"
+   },
+   "ex": {
+    "en": "The town was declared a disaster zone."
+   }
+  },
+  {
+   "id": "emergency.mudslide",
+   "t": {
+    "en": "mudslide",
+    "uk": "зсув ґрунту",
+    "ru": "сель",
+    "pl": "lawina błotna",
+    "de": "Schlammlawine",
+    "fr": "coulée de boue",
+    "es": "corrimiento de lodo",
+    "it": "colata di fango",
+    "pt": "deslizamento de lama",
+    "tr": "çamur kayması"
+   },
+   "ex": {
+    "en": "The mudslide buried several houses."
+   }
+  },
+  {
+   "id": "emergency.volcanic-eruption",
+   "t": {
+    "en": "volcanic eruption",
+    "uk": "виверження вулкана",
+    "ru": "извержение вулкана",
+    "pl": "erupcja wulkanu",
+    "de": "Vulkanausbruch",
+    "fr": "éruption volcanique",
+    "es": "erupción volcánica",
+    "it": "eruzione vulcanica",
+    "pt": "erupção vulcânica",
+    "tr": "volkan patlaması"
+   },
+   "ex": {
+    "en": "Flights stopped after the volcanic eruption."
+   }
+  },
+  {
+   "id": "emergency.evacuation-order",
+   "t": {
+    "en": "evacuation order",
+    "uk": "наказ про евакуацію",
+    "ru": "приказ об эвакуации",
+    "pl": "nakaz ewakuacji",
+    "de": "Evakuierungsbefehl",
+    "fr": "ordre d'évacuation",
+    "es": "orden de evacuación",
+    "it": "ordine di evacuazione",
+    "pt": "ordem de evacuação",
+    "tr": "tahliye emri"
+   },
+   "ex": {
+    "en": "An evacuation order was issued."
+   }
+  },
+  {
+   "id": "emergency.to-stockpile",
+   "t": {
+    "en": "to stockpile",
+    "uk": "робити запаси",
+    "ru": "делать запасы",
+    "pl": "gromadzić zapasy",
+    "de": "horten",
+    "fr": "stocker",
+    "es": "acaparar",
+    "it": "fare scorta",
+    "pt": "estocar",
+    "tr": "stoklamak"
+   },
+   "ex": {
+    "en": "People began to stockpile food."
+   }
+  },
+  {
+   "id": "emergency.contaminated",
+   "t": {
+    "en": "contaminated",
+    "uk": "забруднений",
+    "ru": "заражённый",
+    "pl": "skażony",
+    "de": "verseucht",
+    "fr": "contaminé",
+    "es": "contaminado",
+    "it": "contaminato",
+    "pt": "contaminado",
+    "tr": "kirlenmiş"
+   },
+   "ex": {
+    "en": "The water is contaminated."
+   }
+  },
+  {
+   "id": "emergency.protective-gear",
+   "t": {
+    "en": "protective gear",
+    "uk": "захисне спорядження",
+    "ru": "защитное снаряжение",
+    "pl": "sprzęt ochronny",
+    "de": "Schutzausrüstung",
+    "fr": "équipement de protection",
+    "es": "equipo de protección",
+    "it": "dispositivi di protezione",
+    "pt": "equipamento de proteção",
+    "tr": "koruyucu ekipman"
+   },
+   "ex": {
+    "en": "Wear protective gear at all times."
+   }
+  },
+  {
+   "id": "emergency.gas-mask",
+   "t": {
+    "en": "gas mask",
+    "uk": "протигаз",
+    "ru": "противогаз",
+    "pl": "maska gazowa",
+    "de": "Gasmaske",
+    "fr": "masque à gaz",
+    "es": "máscara de gas",
+    "it": "maschera antigas",
+    "pt": "máscara de gás",
+    "tr": "gaz maskesi"
+   },
+   "ex": {
+    "en": "The firefighter put on a gas mask."
+   }
+  },
+  {
+   "id": "emergency.terrorist-attack",
+   "t": {
+    "en": "terrorist attack",
+    "uk": "теракт",
+    "ru": "теракт",
+    "pl": "zamach terrorystyczny",
+    "de": "Terroranschlag",
+    "fr": "attentat terroriste",
+    "es": "atentado terrorista",
+    "it": "attacco terroristico",
+    "pt": "ataque terrorista",
+    "tr": "terör saldırısı"
+   },
+   "ex": {
+    "en": "Security was raised after the terrorist attack."
+   }
+  },
+  {
+   "id": "emergency.explosion",
+   "t": {
+    "en": "explosion",
+    "uk": "вибух",
+    "ru": "взрыв",
+    "pl": "wybuch",
+    "de": "Explosion",
+    "fr": "explosion",
+    "es": "explosión",
+    "it": "esplosione",
+    "pt": "explosão",
+    "tr": "patlama"
+   },
+   "ex": {
+    "en": "We heard a loud explosion."
+   }
+  },
+  {
+   "id": "emergency.gunshot",
+   "t": {
+    "en": "gunshot",
+    "uk": "постріл",
+    "ru": "выстрел",
+    "pl": "strzał",
+    "de": "Schuss",
+    "fr": "coup de feu",
+    "es": "disparo",
+    "it": "sparo",
+    "pt": "tiro",
+    "tr": "silah sesi"
+   },
+   "ex": {
+    "en": "Neighbours heard a gunshot at midnight."
+   }
+  },
+  {
+   "id": "emergency.arson",
+   "t": {
+    "en": "arson",
+    "uk": "підпал",
+    "ru": "поджог",
+    "pl": "podpalenie",
+    "de": "Brandstiftung",
+    "fr": "incendie criminel",
+    "es": "incendio provocado",
+    "it": "incendio doloso",
+    "pt": "incêndio criminoso",
+    "tr": "kundaklama"
+   },
+   "ex": {
+    "en": "Police suspect arson."
+   }
+  },
+  {
+   "id": "emergency.stab-wound",
+   "t": {
+    "en": "stab wound",
+    "uk": "ножове поранення",
+    "ru": "ножевое ранение",
+    "pl": "rana kłuta",
+    "de": "Stichwunde",
+    "fr": "coup de couteau",
+    "es": "herida de arma blanca",
+    "it": "ferita da taglio",
+    "pt": "facada",
+    "tr": "bıçak yarası"
+   },
+   "ex": {
+    "en": "He was treated for a stab wound."
+   }
+  },
+  {
+   "id": "emergency.ransom",
+   "t": {
+    "en": "ransom",
+    "uk": "викуп",
+    "ru": "выкуп",
+    "pl": "okup",
+    "de": "Lösegeld",
+    "fr": "rançon",
+    "es": "rescate",
+    "it": "riscatto",
+    "pt": "resgate",
+    "tr": "fidye"
+   },
+   "ex": {
+    "en": "The kidnappers demanded a ransom."
+   }
+  },
+  {
+   "id": "emergency.extortion",
+   "t": {
+    "en": "extortion",
+    "uk": "вимагання",
+    "ru": "вымогательство",
+    "pl": "wymuszenie",
+    "de": "Erpressung",
+    "fr": "extorsion",
+    "es": "extorsión",
+    "it": "estorsione",
+    "pt": "extorsão",
+    "tr": "haraç"
+   },
+   "ex": {
+    "en": "He was arrested for extortion."
+   }
+  },
+  {
+   "id": "emergency.blackmail",
+   "t": {
+    "en": "blackmail",
+    "uk": "шантаж",
+    "ru": "шантаж",
+    "pl": "szantaż",
+    "de": "Erpressung",
+    "fr": "chantage",
+    "es": "chantaje",
+    "it": "ricatto",
+    "pt": "chantagem",
+    "tr": "şantaj"
+   },
+   "ex": {
+    "en": "That's blackmail, and it's a crime."
+   }
+  },
+  {
+   "id": "emergency.police-custody",
+   "t": {
+    "en": "police custody",
+    "uk": "тримання під вартою",
+    "ru": "содержание под стражей",
+    "pl": "areszt policyjny",
+    "de": "Polizeigewahrsam",
+    "fr": "garde à vue",
+    "es": "detención policial",
+    "it": "fermo di polizia",
+    "pt": "custódia policial",
+    "tr": "gözaltı"
+   },
+   "ex": {
+    "en": "He is being held in police custody."
+   }
+  },
+  {
+   "id": "emergency.interrogation",
+   "t": {
+    "en": "interrogation",
+    "uk": "допит",
+    "ru": "допрос",
+    "pl": "przesłuchanie",
+    "de": "Verhör",
+    "fr": "interrogatoire",
+    "es": "interrogatorio",
+    "it": "interrogatorio",
+    "pt": "interrogatório",
+    "tr": "sorgu"
+   },
+   "ex": {
+    "en": "The interrogation lasted six hours."
+   }
+  },
+  {
+   "id": "emergency.lawsuit",
+   "t": {
+    "en": "lawsuit",
+    "uk": "судовий позов",
+    "ru": "судебный иск",
+    "pl": "pozew",
+    "de": "Klage",
+    "fr": "procès",
+    "es": "demanda",
+    "it": "causa",
+    "pt": "processo",
+    "tr": "dava"
+   },
+   "ex": {
+    "en": "They filed a lawsuit against the company."
+   }
+  },
+  {
+   "id": "emergency.residence-card",
+   "t": {
+    "en": "residence card",
+    "uk": "посвідка на проживання",
+    "ru": "вид на жительство",
+    "pl": "karta pobytu",
+    "de": "Aufenthaltskarte",
+    "fr": "carte de séjour",
+    "es": "tarjeta de residencia",
+    "it": "carta di soggiorno",
+    "pt": "carteira de residência",
+    "tr": "ikamet kartı"
+   },
+   "ex": {
+    "en": "My residence card expires next month."
+   }
+  },
+  {
+   "id": "emergency.supporting-documents",
+   "t": {
+    "en": "supporting documents",
+    "uk": "супровідні документи",
+    "ru": "подтверждающие документы",
+    "pl": "dokumenty uzupełniające",
+    "de": "Nachweise",
+    "fr": "pièces justificatives",
+    "es": "documentación justificativa",
+    "it": "documenti giustificativi",
+    "pt": "documentos comprobatórios",
+    "tr": "destekleyici belgeler"
+   },
+   "ex": {
+    "en": "Attach all supporting documents."
+   }
+  },
+  {
+   "id": "emergency.entry-ban",
+   "t": {
+    "en": "entry ban",
+    "uk": "заборона на в'їзд",
+    "ru": "запрет на въезд",
+    "pl": "zakaz wjazdu",
+    "de": "Einreiseverbot",
+    "fr": "interdiction d'entrée",
+    "es": "prohibición de entrada",
+    "it": "divieto d'ingresso",
+    "pt": "proibição de entrada",
+    "tr": "giriş yasağı"
+   },
+   "ex": {
+    "en": "He got a five-year entry ban."
+   }
+  },
+  {
+   "id": "emergency.to-overstay",
+   "t": {
+    "en": "to overstay",
+    "uk": "перевищити термін перебування",
+    "ru": "просрочить срок пребывания",
+    "pl": "przekroczyć okres pobytu",
+    "de": "die Aufenthaltsdauer überschreiten",
+    "fr": "dépasser la durée de séjour",
+    "es": "exceder el plazo de estancia",
+    "it": "superare il periodo di soggiorno",
+    "pt": "exceder o prazo de permanência",
+    "tr": "vize süresini aşmak"
+   },
+   "ex": {
+    "en": "Don't overstay your visa."
+   }
+  },
+  {
+   "id": "emergency.biometric-data",
+   "t": {
+    "en": "biometric data",
+    "uk": "біометричні дані",
+    "ru": "биометрические данные",
+    "pl": "dane biometryczne",
+    "de": "biometrische Daten",
+    "fr": "données biométriques",
+    "es": "datos biométricos",
+    "it": "dati biometrici",
+    "pt": "dados biométricos",
+    "tr": "biyometrik veriler"
+   },
+   "ex": {
+    "en": "They took my biometric data."
+   }
+  },
+  {
+   "id": "emergency.social-security-number",
+   "t": {
+    "en": "social security number",
+    "uk": "номер соціального страхування",
+    "ru": "номер социального страхования",
+    "pl": "numer ubezpieczenia społecznego",
+    "de": "Sozialversicherungsnummer",
+    "fr": "numéro de sécurité sociale",
+    "es": "número de la Seguridad Social",
+    "it": "numero di previdenza sociale",
+    "pt": "número da previdência social",
+    "tr": "sosyal güvenlik numarası"
+   },
+   "ex": {
+    "en": "You need a social security number to work."
+   }
+  },
+  {
+   "id": "emergency.dispatcher",
+   "t": {
+    "en": "dispatcher",
+    "uk": "диспетчер",
+    "ru": "диспетчер",
+    "pl": "dyspozytor",
+    "de": "Disponent",
+    "fr": "répartiteur",
+    "es": "operador de emergencias",
+    "it": "operatore della centrale",
+    "pt": "despachante",
+    "tr": "acil çağrı görevlisi"
+   },
+   "ex": {
+    "en": "The dispatcher sent an ambulance."
+   }
+  },
+  {
+   "id": "emergency.court",
+   "t": {
+    "en": "court",
+    "uk": "суд",
+    "ru": "суд",
+    "pl": "sąd",
+    "de": "Gericht",
+    "fr": "tribunal",
+    "es": "tribunal",
+    "it": "tribunale",
+    "pt": "tribunal",
+    "tr": "mahkeme"
+   },
+   "ex": {
+    "en": "The case went to court."
+   }
+  },
+  {
+   "id": "emergency.lifeboat",
+   "t": {
+    "en": "lifeboat",
+    "uk": "рятувальний човен",
+    "ru": "спасательная шлюпка",
+    "pl": "łódź ratunkowa",
+    "de": "Rettungsboot",
+    "fr": "canot de sauvetage",
+    "es": "bote salvavidas",
+    "it": "scialuppa di salvataggio",
+    "pt": "bote salva-vidas",
+    "tr": "cankurtaran filikası"
+   },
+   "ex": {
+    "en": "Passengers got into the lifeboats."
+   }
+  },
+  {
+   "id": "emergency.coastguard",
+   "t": {
+    "en": "coastguard",
+    "uk": "берегова охорона",
+    "ru": "береговая охрана",
+    "pl": "straż przybrzeżna",
+    "de": "Küstenwache",
+    "fr": "garde-côtes",
+    "es": "guardacostas",
+    "it": "guardia costiera",
+    "pt": "guarda costeira",
+    "tr": "sahil güvenlik"
+   },
+   "ex": {
+    "en": "The coastguard rescued two divers."
+   }
+  },
+  {
+   "id": "emergency.mountain-rescue",
+   "t": {
+    "en": "mountain rescue",
+    "uk": "гірська рятувальна служба",
+    "ru": "горноспасательная служба",
+    "pl": "ratownictwo górskie",
+    "de": "Bergwacht",
+    "fr": "secours en montagne",
+    "es": "rescate de montaña",
+    "it": "soccorso alpino",
+    "pt": "resgate em montanha",
+    "tr": "dağ kurtarma"
+   },
+   "ex": {
+    "en": "Mountain rescue found the climbers."
+   }
+  },
+  {
+   "id": "emergency.distress-signal",
+   "t": {
+    "en": "distress signal",
+    "uk": "сигнал лиха",
+    "ru": "сигнал бедствия",
+    "pl": "sygnał alarmowy",
+    "de": "Notsignal",
+    "fr": "signal de détresse",
+    "es": "señal de socorro",
+    "it": "segnale di soccorso",
+    "pt": "sinal de socorro",
+    "tr": "imdat sinyali"
+   },
+   "ex": {
+    "en": "The ship sent a distress signal."
+   }
+  },
+  {
+   "id": "emergency.tear-gas",
+   "t": {
+    "en": "tear gas",
+    "uk": "сльозогінний газ",
+    "ru": "слезоточивый газ",
+    "pl": "gaz łzawiący",
+    "de": "Tränengas",
+    "fr": "gaz lacrymogène",
+    "es": "gas lacrimógeno",
+    "it": "gas lacrimogeno",
+    "pt": "gás lacrimogêneo",
+    "tr": "göz yaşartıcı gaz"
+   },
+   "ex": {
+    "en": "Police fired tear gas at the crowd."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "emergency-c1",
  "topic": "emergency",
  "level": "c1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "emergency.naturalisation",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Don't worry, it was a false alarm."
+   }
+  },
+  {
+   "id": "emergency.internal-bleeding",
+   "t": {
+    "en": "internal bleeding",
+    "uk": "внутрішня кровотеча",
+    "ru": "внутреннее кровотечение",
+    "pl": "krwawienie wewnętrzne",
+    "de": "innere Blutung",
+    "fr": "hémorragie interne",
+    "es": "hemorragia interna",
+    "it": "emorragia interna",
+    "pt": "hemorragia interna",
+    "tr": "iç kanama"
+   },
+   "ex": {
+    "en": "Scans showed internal bleeding."
+   }
+  },
+  {
+   "id": "emergency.trauma",
+   "t": {
+    "en": "trauma",
+    "uk": "травма",
+    "ru": "травма",
+    "pl": "uraz",
+    "de": "Trauma",
+    "fr": "traumatisme",
+    "es": "traumatismo",
+    "it": "trauma",
+    "pt": "trauma",
+    "tr": "travma"
+   },
+   "ex": {
+    "en": "Survivors often suffer from trauma."
+   }
+  },
+  {
+   "id": "emergency.crisis-management",
+   "t": {
+    "en": "crisis management",
+    "uk": "кризовий менеджмент",
+    "ru": "антикризисное управление",
+    "pl": "zarządzanie kryzysowe",
+    "de": "Krisenmanagement",
+    "fr": "gestion de crise",
+    "es": "gestión de crisis",
+    "it": "gestione delle crisi",
+    "pt": "gestão de crises",
+    "tr": "kriz yönetimi"
+   },
+   "ex": {
+    "en": "Their crisis management was poor."
+   }
+  },
+  {
+   "id": "emergency.disaster-relief",
+   "t": {
+    "en": "disaster relief",
+    "uk": "допомога постраждалим від лиха",
+    "ru": "помощь пострадавшим от бедствия",
+    "pl": "pomoc dla poszkodowanych",
+    "de": "Katastrophenhilfe",
+    "fr": "aide aux sinistrés",
+    "es": "ayuda en catástrofes",
+    "it": "soccorso in caso di calamità",
+    "pt": "ajuda humanitária em desastres",
+    "tr": "afet yardımı"
+   },
+   "ex": {
+    "en": "They donated to disaster relief."
+   }
+  },
+  {
+   "id": "emergency.early-warning-system",
+   "t": {
+    "en": "early warning system",
+    "uk": "система раннього попередження",
+    "ru": "система раннего предупреждения",
+    "pl": "system wczesnego ostrzegania",
+    "de": "Frühwarnsystem",
+    "fr": "système d'alerte précoce",
+    "es": "sistema de alerta temprana",
+    "it": "sistema di allerta precoce",
+    "pt": "sistema de alerta precoce",
+    "tr": "erken uyarı sistemi"
+   },
+   "ex": {
+    "en": "The early warning system saved lives."
+   }
+  },
+  {
+   "id": "emergency.seismic",
+   "t": {
+    "en": "seismic",
+    "uk": "сейсмічний",
+    "ru": "сейсмический",
+    "pl": "sejsmiczny",
+    "de": "seismisch",
+    "fr": "sismique",
+    "es": "sísmico",
+    "it": "sismico",
+    "pt": "sísmico",
+    "tr": "sismik"
+   },
+   "ex": {
+    "en": "The region has high seismic activity."
+   }
+  },
+  {
+   "id": "emergency.epicentre",
+   "t": {
+    "en": "epicentre",
+    "uk": "епіцентр",
+    "ru": "эпицентр",
+    "pl": "epicentrum",
+    "de": "Epizentrum",
+    "fr": "épicentre",
+    "es": "epicentro",
+    "it": "epicentro",
+    "pt": "epicentro",
+    "tr": "merkez üssü"
+   },
+   "ex": {
+    "en": "The epicentre was near the coast."
+   }
+  },
+  {
+   "id": "emergency.magnitude",
+   "t": {
+    "en": "magnitude",
+    "uk": "магнітуда",
+    "ru": "магнитуда",
+    "pl": "magnituda",
+    "de": "Stärke",
+    "fr": "magnitude",
+    "es": "magnitud",
+    "it": "magnitudo",
+    "pt": "magnitude",
+    "tr": "büyüklük"
+   },
+   "ex": {
+    "en": "It was a quake of magnitude 7."
+   }
+  },
+  {
+   "id": "emergency.containment",
+   "t": {
+    "en": "containment",
+    "uk": "стримування",
+    "ru": "сдерживание",
+    "pl": "powstrzymanie",
+    "de": "Eindämmung",
+    "fr": "confinement",
+    "es": "contención",
+    "it": "contenimento",
+    "pt": "contenção",
+    "tr": "kontrol altına alma"
+   },
+   "ex": {
+    "en": "Containment of the fire took days."
+   }
+  },
+  {
+   "id": "emergency.toxic-spill",
+   "t": {
+    "en": "toxic spill",
+    "uk": "розлив токсичних речовин",
+    "ru": "разлив токсичных веществ",
+    "pl": "wyciek substancji toksycznych",
+    "de": "Giftunfall",
+    "fr": "déversement toxique",
+    "es": "vertido tóxico",
+    "it": "sversamento tossico",
+    "pt": "vazamento tóxico",
+    "tr": "zehirli madde sızıntısı"
+   },
+   "ex": {
+    "en": "The toxic spill killed the fish."
+   }
+  },
+  {
+   "id": "emergency.radiation",
+   "t": {
+    "en": "radiation",
+    "uk": "радіація",
+    "ru": "радиация",
+    "pl": "promieniowanie",
+    "de": "Strahlung",
+    "fr": "rayonnement",
+    "es": "radiación",
+    "it": "radiazione",
+    "pt": "radiação",
+    "tr": "radyasyon"
+   },
+   "ex": {
+    "en": "Radiation levels are still high."
+   }
+  },
+  {
+   "id": "emergency.decontamination",
+   "t": {
+    "en": "decontamination",
+    "uk": "дезактивація",
+    "ru": "дезактивация",
+    "pl": "dekontaminacja",
+    "de": "Dekontamination",
+    "fr": "décontamination",
+    "es": "descontaminación",
+    "it": "decontaminazione",
+    "pt": "descontaminação",
+    "tr": "dekontaminasyon"
+   },
+   "ex": {
+    "en": "All workers went through decontamination."
+   }
+  },
+  {
+   "id": "emergency.evacuee",
+   "t": {
+    "en": "evacuee",
+    "uk": "евакуйований",
+    "ru": "эвакуированный",
+    "pl": "ewakuowany",
+    "de": "Evakuierter",
+    "fr": "évacué",
+    "es": "evacuado",
+    "it": "sfollato",
+    "pt": "evacuado",
+    "tr": "tahliye edilen kişi"
+   },
+   "ex": {
+    "en": "Evacuees slept in the school gym."
+   }
+  },
+  {
+   "id": "emergency.to-relocate",
+   "t": {
+    "en": "to relocate",
+    "uk": "переселяти",
+    "ru": "переселять",
+    "pl": "przesiedlać",
+    "de": "umsiedeln",
+    "fr": "reloger",
+    "es": "reubicar",
+    "it": "trasferire",
+    "pt": "realocar",
+    "tr": "yerleştirmek"
+   },
+   "ex": {
+    "en": "The village was relocated after the flood."
+   }
+  },
+  {
+   "id": "emergency.asylum-seeker",
+   "t": {
+    "en": "asylum seeker",
+    "uk": "шукач притулку",
+    "ru": "соискатель убежища",
+    "pl": "osoba ubiegająca się o azyl",
+    "de": "Asylbewerber",
+    "fr": "demandeur d'asile",
+    "es": "solicitante de asilo",
+    "it": "richiedente asilo",
+    "pt": "requerente de asilo",
+    "tr": "sığınmacı"
+   },
+   "ex": {
+    "en": "Asylum seekers wait months for a decision."
+   }
+  },
+  {
+   "id": "emergency.refugee-camp",
+   "t": {
+    "en": "refugee camp",
+    "uk": "табір біженців",
+    "ru": "лагерь беженцев",
+    "pl": "obóz dla uchodźców",
+    "de": "Flüchtlingslager",
+    "fr": "camp de réfugiés",
+    "es": "campo de refugiados",
+    "it": "campo profughi",
+    "pt": "campo de refugiados",
+    "tr": "mülteci kampı"
+   },
+   "ex": {
+    "en": "Thousands live in the refugee camp."
+   }
+  },
+  {
+   "id": "emergency.humanitarian-corridor",
+   "t": {
+    "en": "humanitarian corridor",
+    "uk": "гуманітарний коридор",
+    "ru": "гуманитарный коридор",
+    "pl": "korytarz humanitarny",
+    "de": "humanitärer Korridor",
+    "fr": "couloir humanitaire",
+    "es": "corredor humanitario",
+    "it": "corridoio umanitario",
+    "pt": "corredor humanitário",
+    "tr": "insani koridor"
+   },
+   "ex": {
+    "en": "A humanitarian corridor was opened."
+   }
+  },
+  {
+   "id": "emergency.ceasefire",
+   "t": {
+    "en": "ceasefire",
+    "uk": "припинення вогню",
+    "ru": "прекращение огня",
+    "pl": "zawieszenie broni",
+    "de": "Waffenstillstand",
+    "fr": "cessez-le-feu",
+    "es": "alto el fuego",
+    "it": "cessate il fuoco",
+    "pt": "cessar-fogo",
+    "tr": "ateşkes"
+   },
+   "ex": {
+    "en": "The ceasefire held for two days."
+   }
+  },
+  {
+   "id": "emergency.martial-law",
+   "t": {
+    "en": "martial law",
+    "uk": "воєнний стан",
+    "ru": "военное положение",
+    "pl": "stan wojenny",
+    "de": "Kriegsrecht",
+    "fr": "loi martiale",
+    "es": "ley marcial",
+    "it": "legge marziale",
+    "pt": "lei marcial",
+    "tr": "sıkıyönetim"
+   },
+   "ex": {
+    "en": "The government declared martial law."
+   }
+  },
+  {
+   "id": "emergency.emergency-powers",
+   "t": {
+    "en": "emergency powers",
+    "uk": "надзвичайні повноваження",
+    "ru": "чрезвычайные полномочия",
+    "pl": "uprawnienia nadzwyczajne",
+    "de": "Notstandsbefugnisse",
+    "fr": "pouvoirs d'exception",
+    "es": "poderes de emergencia",
+    "it": "poteri d'emergenza",
+    "pt": "poderes de emergência",
+    "tr": "olağanüstü yetkiler"
+   },
+   "ex": {
+    "en": "Parliament granted emergency powers."
+   }
+  },
+  {
+   "id": "emergency.to-mobilise",
+   "t": {
+    "en": "to mobilise",
+    "uk": "мобілізувати",
+    "ru": "мобилизовать",
+    "pl": "mobilizować",
+    "de": "mobilisieren",
+    "fr": "mobiliser",
+    "es": "movilizar",
+    "it": "mobilitare",
+    "pt": "mobilizar",
+    "tr": "seferber etmek"
+   },
+   "ex": {
+    "en": "The army was mobilised to help."
+   }
+  },
+  {
+   "id": "emergency.reinforcements",
+   "t": {
+    "en": "reinforcements",
+    "uk": "підкріплення",
+    "ru": "подкрепление",
+    "pl": "posiłki",
+    "de": "Verstärkung",
+    "fr": "renforts",
+    "es": "refuerzos",
+    "it": "rinforzi",
+    "pt": "reforços",
+    "tr": "takviye"
+   },
+   "ex": {
+    "en": "Police called for reinforcements."
+   }
+  },
+  {
+   "id": "emergency.convoy",
+   "t": {
+    "en": "convoy",
+    "uk": "колона",
+    "ru": "колонна",
+    "pl": "konwój",
+    "de": "Konvoi",
+    "fr": "convoi",
+    "es": "convoy",
+    "it": "convoglio",
+    "pt": "comboio",
+    "tr": "konvoy"
+   },
+   "ex": {
+    "en": "An aid convoy reached the city."
+   }
+  },
+  {
+   "id": "emergency.to-airlift",
+   "t": {
+    "en": "to airlift",
+    "uk": "евакуювати повітрям",
+    "ru": "эвакуировать по воздуху",
+    "pl": "ewakuować drogą powietrzną",
+    "de": "ausfliegen",
+    "fr": "évacuer par hélicoptère",
+    "es": "evacuar por aire",
+    "it": "trasportare in elicottero",
+    "pt": "transportar por via aérea",
+    "tr": "havadan tahliye etmek"
+   },
+   "ex": {
+    "en": "The injured were airlifted to hospital."
+   }
+  },
+  {
+   "id": "emergency.coroner",
+   "t": {
+    "en": "coroner",
+    "uk": "коронер",
+    "ru": "коронер",
+    "pl": "koroner",
+    "de": "Leichenbeschauer",
+    "fr": "coroner",
+    "es": "médico forense",
+    "it": "medico legale",
+    "pt": "médico-legista",
+    "tr": "adli tabip"
+   },
+   "ex": {
+    "en": "The coroner will examine the body."
+   }
+  },
+  {
+   "id": "emergency.autopsy",
+   "t": {
+    "en": "autopsy",
+    "uk": "розтин",
+    "ru": "вскрытие",
+    "pl": "sekcja zwłok",
+    "de": "Obduktion",
+    "fr": "autopsie",
+    "es": "autopsia",
+    "it": "autopsia",
+    "pt": "autópsia",
+    "tr": "otopsi"
+   },
+   "ex": {
+    "en": "The autopsy revealed poisoning."
+   }
+  },
+  {
+   "id": "emergency.inquest",
+   "t": {
+    "en": "inquest",
+    "uk": "офіційне розслідування смерті",
+    "ru": "расследование причин смерти",
+    "pl": "dochodzenie w sprawie zgonu",
+    "de": "gerichtliche Untersuchung",
+    "fr": "enquête judiciaire",
+    "es": "investigación judicial",
+    "it": "inchiesta",
+    "pt": "inquérito",
+    "tr": "ölüm soruşturması"
+   },
+   "ex": {
+    "en": "An inquest will be held next month."
+   }
+  },
+  {
+   "id": "emergency.forensics",
+   "t": {
+    "en": "forensics",
+    "uk": "криміналістика",
+    "ru": "криминалистика",
+    "pl": "kryminalistyka",
+    "de": "Forensik",
+    "fr": "police scientifique",
+    "es": "policía científica",
+    "it": "scientifica",
+    "pt": "perícia criminal",
+    "tr": "adli tıp"
+   },
+   "ex": {
+    "en": "Forensics found DNA on the glass."
+   }
+  },
+  {
+   "id": "emergency.crime-scene",
+   "t": {
+    "en": "crime scene",
+    "uk": "місце злочину",
+    "ru": "место преступления",
+    "pl": "miejsce zbrodni",
+    "de": "Tatort",
+    "fr": "scène de crime",
+    "es": "escena del crimen",
+    "it": "scena del crimine",
+    "pt": "cena do crime",
+    "tr": "olay yeri"
+   },
+   "ex": {
+    "en": "Don't touch anything at the crime scene."
+   }
+  },
+  {
+   "id": "emergency.alibi",
+   "t": {
+    "en": "alibi",
+    "uk": "алібі",
+    "ru": "алиби",
+    "pl": "alibi",
+    "de": "Alibi",
+    "fr": "alibi",
+    "es": "coartada",
+    "it": "alibi",
+    "pt": "álibi",
+    "tr": "mazeret"
+   },
+   "ex": {
+    "en": "He has a solid alibi."
+   }
+  },
+  {
+   "id": "emergency.accomplice",
+   "t": {
+    "en": "accomplice",
+    "uk": "спільник",
+    "ru": "сообщник",
+    "pl": "wspólnik",
+    "de": "Komplize",
+    "fr": "complice",
+    "es": "cómplice",
+    "it": "complice",
+    "pt": "cúmplice",
+    "tr": "suç ortağı"
+   },
+   "ex": {
+    "en": "His accomplice was also arrested."
+   }
+  },
+  {
+   "id": "emergency.plea-bargain",
+   "t": {
+    "en": "plea bargain",
+    "uk": "угода зі слідством",
+    "ru": "сделка со следствием",
+    "pl": "ugoda z prokuraturą",
+    "de": "Absprache im Strafverfahren",
+    "fr": "plaider-coupable",
+    "es": "acuerdo de conformidad",
+    "it": "patteggiamento",
+    "pt": "delação premiada",
+    "tr": "itiraf pazarlığı"
+   },
+   "ex": {
+    "en": "He accepted a plea bargain."
+   }
+  },
+  {
+   "id": "emergency.testimony",
+   "t": {
+    "en": "testimony",
+    "uk": "свідчення",
+    "ru": "показания",
+    "pl": "zeznanie",
+    "de": "Zeugenaussage",
+    "fr": "témoignage",
+    "es": "testimonio",
+    "it": "testimonianza",
+    "pt": "depoimento",
+    "tr": "tanıklık"
+   },
+   "ex": {
+    "en": "Her testimony was crucial."
+   }
+  },
+  {
+   "id": "emergency.defendant",
+   "t": {
+    "en": "defendant",
+    "uk": "відповідач",
+    "ru": "обвиняемый",
+    "pl": "oskarżony",
+    "de": "Angeklagter",
+    "fr": "accusé",
+    "es": "acusado",
+    "it": "imputato",
+    "pt": "réu",
+    "tr": "sanık"
+   },
+   "ex": {
+    "en": "The defendant pleaded not guilty."
+   }
+  },
+  {
+   "id": "emergency.plaintiff",
+   "t": {
+    "en": "plaintiff",
+    "uk": "позивач",
+    "ru": "истец",
+    "pl": "powód",
+    "de": "Kläger",
+    "fr": "demandeur",
+    "es": "demandante",
+    "it": "attore",
+    "pt": "autor da ação",
+    "tr": "davacı"
+   },
+   "ex": {
+    "en": "The plaintiff demanded compensation."
+   }
+  },
+  {
+   "id": "emergency.prosecutor",
+   "t": {
+    "en": "prosecutor",
+    "uk": "прокурор",
+    "ru": "прокурор",
+    "pl": "prokurator",
+    "de": "Staatsanwalt",
+    "fr": "procureur",
+    "es": "fiscal",
+    "it": "pubblico ministero",
+    "pt": "promotor",
+    "tr": "savcı"
+   },
+   "ex": {
+    "en": "The prosecutor asked for ten years."
+   }
+  },
+  {
+   "id": "emergency.ruling",
+   "t": {
+    "en": "ruling",
+    "uk": "рішення суду",
+    "ru": "решение суда",
+    "pl": "orzeczenie",
+    "de": "Urteil",
+    "fr": "décision de justice",
+    "es": "fallo",
+    "it": "sentenza",
+    "pt": "decisão judicial",
+    "tr": "karar"
+   },
+   "ex": {
+    "en": "The court's ruling is final."
+   }
+  },
+  {
+   "id": "emergency.precedent",
+   "t": {
+    "en": "precedent",
+    "uk": "прецедент",
+    "ru": "прецедент",
+    "pl": "precedens",
+    "de": "Präzedenzfall",
+    "fr": "précédent",
+    "es": "precedente",
+    "it": "precedente",
+    "pt": "precedente",
+    "tr": "emsal"
+   },
+   "ex": {
+    "en": "The case set an important precedent."
+   }
+  },
+  {
+   "id": "emergency.to-notarise",
+   "t": {
+    "en": "to notarise",
+    "uk": "засвідчувати нотаріально",
+    "ru": "заверять нотариально",
+    "pl": "poświadczać notarialnie",
+    "de": "notariell beglaubigen",
+    "fr": "faire certifier par un notaire",
+    "es": "legalizar ante notario",
+    "it": "autenticare",
+    "pt": "reconhecer firma",
+    "tr": "noterden onaylatmak"
+   },
+   "ex": {
+    "en": "You must notarise the contract."
+   }
+  },
+  {
+   "id": "emergency.decree",
+   "t": {
+    "en": "decree",
+    "uk": "указ",
+    "ru": "указ",
+    "pl": "dekret",
+    "de": "Erlass",
+    "fr": "décret",
+    "es": "decreto",
+    "it": "decreto",
+    "pt": "decreto",
+    "tr": "kararname"
+   },
+   "ex": {
+    "en": "The president signed an emergency decree."
+   }
+  },
+  {
+   "id": "emergency.to-revoke",
+   "t": {
+    "en": "to revoke",
+    "uk": "анулювати",
+    "ru": "аннулировать",
+    "pl": "cofać",
+    "de": "widerrufen",
+    "fr": "révoquer",
+    "es": "revocar",
+    "it": "revocare",
+    "pt": "revogar",
+    "tr": "iptal etmek"
+   },
+   "ex": {
+    "en": "They revoked his residence permit."
+   }
+  },
+  {
+   "id": "emergency.deportation-order",
+   "t": {
+    "en": "deportation order",
+    "uk": "рішення про депортацію",
+    "ru": "постановление о депортации",
+    "pl": "nakaz deportacji",
+    "de": "Abschiebungsanordnung",
+    "fr": "arrêté d'expulsion",
+    "es": "orden de deportación",
+    "it": "decreto di espulsione",
+    "pt": "ordem de deportação",
+    "tr": "sınır dışı etme kararı"
+   },
+   "ex": {
+    "en": "He appealed against the deportation order."
+   }
+  },
+  {
+   "id": "emergency.residency",
+   "t": {
+    "en": "residency",
+    "uk": "право на проживання",
+    "ru": "право на проживание",
+    "pl": "prawo pobytu",
+    "de": "Aufenthaltsrecht",
+    "fr": "droit de séjour",
+    "es": "residencia",
+    "it": "diritto di soggiorno",
+    "pt": "residência",
+    "tr": "ikamet hakkı"
+   },
+   "ex": {
+    "en": "She applied for permanent residency."
+   }
+  },
+  {
+   "id": "emergency.loss-adjuster",
+   "t": {
+    "en": "loss adjuster",
+    "uk": "аварійний комісар",
+    "ru": "аварийный комиссар",
+    "pl": "likwidator szkód",
+    "de": "Schadensregulierer",
+    "fr": "expert en sinistres",
+    "es": "perito de seguros",
+    "it": "perito assicurativo",
+    "pt": "perito de seguros",
+    "tr": "hasar eksperi"
+   },
+   "ex": {
+    "en": "A loss adjuster inspected the damage."
+   }
+  },
+  {
+   "id": "emergency.stampede",
+   "t": {
+    "en": "stampede",
+    "uk": "тиснява",
+    "ru": "давка",
+    "pl": "panika w tłumie",
+    "de": "Massenpanik",
+    "fr": "bousculade",
+    "es": "estampida",
+    "it": "calca",
+    "pt": "pisoteamento",
+    "tr": "izdiham"
+   },
+   "ex": {
+    "en": "Ten people died in the stampede."
+   }
+  },
+  {
+   "id": "emergency.bomb-disposal",
+   "t": {
+    "en": "bomb disposal",
+    "uk": "знешкодження вибухівки",
+    "ru": "обезвреживание взрывчатки",
+    "pl": "rozbrajanie ładunków",
+    "de": "Kampfmittelbeseitigung",
+    "fr": "déminage",
+    "es": "desactivación de explosivos",
+    "it": "disinnesco di ordigni",
+    "pt": "desativação de bombas",
+    "tr": "bomba imha"
+   },
+   "ex": {
+    "en": "Bomb disposal experts were called in."
+   }
+  },
+  {
+   "id": "emergency.crowd-control",
+   "t": {
+    "en": "crowd control",
+    "uk": "контроль натовпу",
+    "ru": "контроль над толпой",
+    "pl": "kontrola tłumu",
+    "de": "Steuerung von Menschenmengen",
+    "fr": "contrôle des foules",
+    "es": "control de multitudes",
+    "it": "controllo della folla",
+    "pt": "controle de multidões",
+    "tr": "kalabalık kontrolü"
+   },
+   "ex": {
+    "en": "Crowd control failed at the concert."
+   }
+  },
+  {
+   "id": "emergency.hostage-negotiator",
+   "t": {
+    "en": "hostage negotiator",
+    "uk": "переговірник щодо заручників",
+    "ru": "переговорщик по заложникам",
+    "pl": "negocjator policyjny",
+    "de": "Verhandlungsführer",
+    "fr": "négociateur",
+    "es": "negociador de rehenes",
+    "it": "negoziatore",
+    "pt": "negociador de reféns",
+    "tr": "rehine müzakerecisi"
+   },
+   "ex": {
+    "en": "The hostage negotiator calmed him down."
+   }
+  },
+  {
+   "id": "emergency.frostbite",
+   "t": {
+    "en": "frostbite",
+    "uk": "обмороження",
+    "ru": "обморожение",
+    "pl": "odmrożenie",
+    "de": "Erfrierung",
+    "fr": "gelure",
+    "es": "congelación",
+    "it": "congelamento",
+    "pt": "queimadura de frio",
+    "tr": "donma"
+   },
+   "ex": {
+    "en": "He lost two toes to frostbite."
+   }
+  },
+  {
+   "id": "emergency.to-rescind",
+   "t": {
+    "en": "to rescind",
+    "uk": "скасовувати",
+    "ru": "отменять",
+    "pl": "uchylać",
+    "de": "aufheben",
+    "fr": "abroger",
+    "es": "rescindir",
+    "it": "abrogare",
+    "pt": "rescindir",
+    "tr": "feshetmek"
+   },
+   "ex": {
+    "en": "The ministry rescinded the order."
    }
   }
  ]

@@ -2,7 +2,7 @@
  "id": "finance-b2",
  "topic": "finance",
  "level": "b2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "finance.tax-return",
@@ -902,6 +902,906 @@
    },
    "ex": {
     "en": "Never borrow money from a loan shark."
+   }
+  },
+  {
+   "id": "finance.card-skimming",
+   "t": {
+    "en": "card skimming",
+    "uk": "скімінг карток",
+    "ru": "скимминг карт",
+    "pl": "skimming kart",
+    "de": "Skimming",
+    "fr": "clonage de carte",
+    "es": "clonación de tarjetas",
+    "it": "clonazione delle carte",
+    "pt": "clonagem de cartão",
+    "tr": "kart kopyalama"
+   },
+   "ex": {
+    "en": "Card skimming is common at old ATMs."
+   }
+  },
+  {
+   "id": "finance.penniless",
+   "t": {
+    "en": "penniless",
+    "uk": "без копійки",
+    "ru": "без гроша",
+    "pl": "bez grosza",
+    "de": "mittellos",
+    "fr": "sans le sou",
+    "es": "sin un céntimo",
+    "it": "senza un soldo",
+    "pt": "sem um tostão",
+    "tr": "meteliksiz"
+   },
+   "ex": {
+    "en": "He arrived in the city penniless."
+   }
+  },
+  {
+   "id": "finance.index-fund",
+   "t": {
+    "en": "index fund",
+    "uk": "індексний фонд",
+    "ru": "индексный фонд",
+    "pl": "fundusz indeksowy",
+    "de": "Indexfonds",
+    "fr": "fonds indiciel",
+    "es": "fondo indexado",
+    "it": "fondo indicizzato",
+    "pt": "fundo de índice",
+    "tr": "endeks fonu"
+   },
+   "ex": {
+    "en": "An index fund has low fees."
+   }
+  },
+  {
+   "id": "finance.stock-market-crash",
+   "t": {
+    "en": "stock market crash",
+    "uk": "обвал фондового ринку",
+    "ru": "обвал фондового рынка",
+    "pl": "krach na giełdzie",
+    "de": "Börsencrash",
+    "fr": "krach boursier",
+    "es": "desplome bursátil",
+    "it": "crollo della borsa",
+    "pt": "quebra da bolsa",
+    "tr": "borsa çöküşü"
+   },
+   "ex": {
+    "en": "He lost everything in the stock market crash."
+   }
+  },
+  {
+   "id": "finance.to-depreciate",
+   "t": {
+    "en": "to depreciate",
+    "uk": "знецінюватися",
+    "ru": "обесцениваться",
+    "pl": "tracić na wartości",
+    "de": "an Wert verlieren",
+    "fr": "se déprécier",
+    "es": "depreciarse",
+    "it": "deprezzarsi",
+    "pt": "desvalorizar",
+    "tr": "değer kaybetmek"
+   },
+   "ex": {
+    "en": "New cars depreciate quickly."
+   }
+  },
+  {
+   "id": "finance.to-refinance",
+   "t": {
+    "en": "to refinance",
+    "uk": "рефінансувати",
+    "ru": "рефинансировать",
+    "pl": "refinansować",
+    "de": "refinanzieren",
+    "fr": "refinancer",
+    "es": "refinanciar",
+    "it": "rifinanziare",
+    "pt": "refinanciar",
+    "tr": "yeniden finanse etmek"
+   },
+   "ex": {
+    "en": "We refinanced at a lower rate."
+   }
+  },
+  {
+   "id": "finance.foreclosure",
+   "t": {
+    "en": "foreclosure",
+    "uk": "позбавлення права викупу",
+    "ru": "лишение права выкупа",
+    "pl": "egzekucja hipoteczna",
+    "de": "Zwangsvollstreckung",
+    "fr": "saisie immobilière",
+    "es": "ejecución hipotecaria",
+    "it": "esecuzione ipotecaria",
+    "pt": "execução hipotecária",
+    "tr": "ipotek haczi"
+   },
+   "ex": {
+    "en": "The family faced foreclosure."
+   }
+  },
+  {
+   "id": "finance.repossession",
+   "t": {
+    "en": "repossession",
+    "uk": "вилучення майна",
+    "ru": "изъятие имущества",
+    "pl": "zajęcie mienia",
+    "de": "Pfändung",
+    "fr": "saisie",
+    "es": "embargo",
+    "it": "pignoramento",
+    "pt": "reintegração de posse",
+    "tr": "el koyma"
+   },
+   "ex": {
+    "en": "Missed payments led to repossession."
+   }
+  },
+  {
+   "id": "finance.bankruptcy",
+   "t": {
+    "en": "bankruptcy",
+    "uk": "банкрутство",
+    "ru": "банкротство",
+    "pl": "bankructwo",
+    "de": "Konkurs",
+    "fr": "faillite",
+    "es": "quiebra",
+    "it": "fallimento",
+    "pt": "falência",
+    "tr": "iflas"
+   },
+   "ex": {
+    "en": "The firm filed for bankruptcy."
+   }
+  },
+  {
+   "id": "finance.debt-relief",
+   "t": {
+    "en": "debt relief",
+    "uk": "списання боргів",
+    "ru": "списание долгов",
+    "pl": "umorzenie długów",
+    "de": "Schuldenerlass",
+    "fr": "allègement de la dette",
+    "es": "alivio de la deuda",
+    "it": "cancellazione del debito",
+    "pt": "perdão de dívidas",
+    "tr": "borç affı"
+   },
+   "ex": {
+    "en": "Poor countries asked for debt relief."
+   }
+  },
+  {
+   "id": "finance.debt-consolidation",
+   "t": {
+    "en": "debt consolidation",
+    "uk": "консолідація боргів",
+    "ru": "консолидация долгов",
+    "pl": "konsolidacja zadłużenia",
+    "de": "Schuldenkonsolidierung",
+    "fr": "regroupement de crédits",
+    "es": "consolidación de deudas",
+    "it": "consolidamento dei debiti",
+    "pt": "consolidação de dívidas",
+    "tr": "borç birleştirme"
+   },
+   "ex": {
+    "en": "Debt consolidation lowered her payments."
+   }
+  },
+  {
+   "id": "finance.bailiff",
+   "t": {
+    "en": "bailiff",
+    "uk": "судовий виконавець",
+    "ru": "судебный пристав",
+    "pl": "komornik",
+    "de": "Gerichtsvollzieher",
+    "fr": "huissier",
+    "es": "agente judicial",
+    "it": "ufficiale giudiziario",
+    "pt": "oficial de justiça",
+    "tr": "icra memuru"
+   },
+   "ex": {
+    "en": "The bailiff took the furniture."
+   }
+  },
+  {
+   "id": "finance.to-pawn",
+   "t": {
+    "en": "to pawn",
+    "uk": "закласти в ломбард",
+    "ru": "заложить в ломбард",
+    "pl": "zastawić",
+    "de": "verpfänden",
+    "fr": "mettre en gage",
+    "es": "empeñar",
+    "it": "impegnare",
+    "pt": "penhorar",
+    "tr": "rehine vermek"
+   },
+   "ex": {
+    "en": "She pawned her ring to pay rent."
+   }
+  },
+  {
+   "id": "finance.payday-loan",
+   "t": {
+    "en": "payday loan",
+    "uk": "позика до зарплати",
+    "ru": "займ до зарплаты",
+    "pl": "chwilówka",
+    "de": "Kurzzeitkredit",
+    "fr": "prêt sur salaire",
+    "es": "préstamo rápido",
+    "it": "prestito veloce",
+    "pt": "empréstimo rápido",
+    "tr": "kısa vadeli kredi"
+   },
+   "ex": {
+    "en": "Payday loans have huge interest rates."
+   }
+  },
+  {
+   "id": "finance.tax-bracket",
+   "t": {
+    "en": "tax bracket",
+    "uk": "податкова категорія",
+    "ru": "налоговая категория",
+    "pl": "próg podatkowy",
+    "de": "Steuerstufe",
+    "fr": "tranche d'imposition",
+    "es": "tramo impositivo",
+    "it": "scaglione d'imposta",
+    "pt": "faixa de imposto",
+    "tr": "vergi dilimi"
+   },
+   "ex": {
+    "en": "The raise moved him into a higher tax bracket."
+   }
+  },
+  {
+   "id": "finance.tax-allowance",
+   "t": {
+    "en": "tax allowance",
+    "uk": "неоподатковуваний мінімум",
+    "ru": "необлагаемый минимум",
+    "pl": "kwota wolna od podatku",
+    "de": "Steuerfreibetrag",
+    "fr": "abattement fiscal",
+    "es": "mínimo exento",
+    "it": "quota esente",
+    "pt": "faixa de isenção",
+    "tr": "vergiden muaf tutar"
+   },
+   "ex": {
+    "en": "Your tax allowance is 12,000 pounds."
+   }
+  },
+  {
+   "id": "finance.tax-relief",
+   "t": {
+    "en": "tax relief",
+    "uk": "податкова пільга",
+    "ru": "налоговая льгота",
+    "pl": "ulga podatkowa",
+    "de": "Steuererleichterung",
+    "fr": "allègement fiscal",
+    "es": "desgravación fiscal",
+    "it": "agevolazione fiscale",
+    "pt": "benefício fiscal",
+    "tr": "vergi kolaylığı"
+   },
+   "ex": {
+    "en": "You get tax relief on pension savings."
+   }
+  },
+  {
+   "id": "finance.taxpayer",
+   "t": {
+    "en": "taxpayer",
+    "uk": "платник податків",
+    "ru": "налогоплательщик",
+    "pl": "podatnik",
+    "de": "Steuerzahler",
+    "fr": "contribuable",
+    "es": "contribuyente",
+    "it": "contribuente",
+    "pt": "contribuinte",
+    "tr": "vergi mükellefi"
+   },
+   "ex": {
+    "en": "Taxpayers will pay for the new bridge."
+   }
+  },
+  {
+   "id": "finance.tax-avoidance",
+   "t": {
+    "en": "tax avoidance",
+    "uk": "податкова оптимізація",
+    "ru": "налоговая оптимизация",
+    "pl": "unikanie opodatkowania",
+    "de": "Steuervermeidung",
+    "fr": "évitement fiscal",
+    "es": "elusión fiscal",
+    "it": "elusione fiscale",
+    "pt": "elisão fiscal",
+    "tr": "vergiden kaçınma"
+   },
+   "ex": {
+    "en": "Tax avoidance is legal but unpopular."
+   }
+  },
+  {
+   "id": "finance.expenditure",
+   "t": {
+    "en": "expenditure",
+    "uk": "видатки",
+    "ru": "расходы",
+    "pl": "nakłady",
+    "de": "Aufwendungen",
+    "fr": "dépenses",
+    "es": "gastos",
+    "it": "spese",
+    "pt": "despesas",
+    "tr": "harcamalar"
+   },
+   "ex": {
+    "en": "Public expenditure on health rose."
+   }
+  },
+  {
+   "id": "finance.gdp",
+   "t": {
+    "en": "GDP",
+    "uk": "ВВП",
+    "ru": "ВВП",
+    "pl": "PKB",
+    "de": "BIP",
+    "fr": "PIB",
+    "es": "PIB",
+    "it": "PIL",
+    "pt": "PIB",
+    "tr": "GSYİH"
+   },
+   "ex": {
+    "en": "The country's GDP grew by two percent."
+   }
+  },
+  {
+   "id": "finance.trade-deficit",
+   "t": {
+    "en": "trade deficit",
+    "uk": "торговельний дефіцит",
+    "ru": "торговый дефицит",
+    "pl": "deficyt handlowy",
+    "de": "Handelsdefizit",
+    "fr": "déficit commercial",
+    "es": "déficit comercial",
+    "it": "deficit commerciale",
+    "pt": "déficit comercial",
+    "tr": "dış ticaret açığı"
+   },
+   "ex": {
+    "en": "The trade deficit is growing."
+   }
+  },
+  {
+   "id": "finance.devaluation",
+   "t": {
+    "en": "devaluation",
+    "uk": "девальвація",
+    "ru": "девальвация",
+    "pl": "dewaluacja",
+    "de": "Abwertung",
+    "fr": "dévaluation",
+    "es": "devaluación",
+    "it": "svalutazione",
+    "pt": "desvalorização",
+    "tr": "devalüasyon"
+   },
+   "ex": {
+    "en": "The devaluation made imports dearer."
+   }
+  },
+  {
+   "id": "finance.hyperinflation",
+   "t": {
+    "en": "hyperinflation",
+    "uk": "гіперінфляція",
+    "ru": "гиперинфляция",
+    "pl": "hiperinflacja",
+    "de": "Hyperinflation",
+    "fr": "hyperinflation",
+    "es": "hiperinflación",
+    "it": "iperinflazione",
+    "pt": "hiperinflação",
+    "tr": "hiperenflasyon"
+   },
+   "ex": {
+    "en": "Hyperinflation destroyed their savings."
+   }
+  },
+  {
+   "id": "finance.risky-investment",
+   "t": {
+    "en": "risky investment",
+    "uk": "ризикована інвестиція",
+    "ru": "рискованная инвестиция",
+    "pl": "ryzykowna inwestycja",
+    "de": "riskante Investition",
+    "fr": "investissement risqué",
+    "es": "inversión arriesgada",
+    "it": "investimento rischioso",
+    "pt": "investimento arriscado",
+    "tr": "riskli yatırım"
+   },
+   "ex": {
+    "en": "Crypto is a risky investment."
+   }
+  },
+  {
+   "id": "finance.high-risk",
+   "t": {
+    "en": "high-risk",
+    "uk": "високоризиковий",
+    "ru": "высокорисковый",
+    "pl": "wysokiego ryzyka",
+    "de": "risikoreich",
+    "fr": "à haut risque",
+    "es": "de alto riesgo",
+    "it": "ad alto rischio",
+    "pt": "de alto risco",
+    "tr": "yüksek riskli"
+   },
+   "ex": {
+    "en": "It's a high-risk strategy."
+   }
+  },
+  {
+   "id": "finance.low-risk",
+   "t": {
+    "en": "low-risk",
+    "uk": "низькоризиковий",
+    "ru": "низкорисковый",
+    "pl": "niskiego ryzyka",
+    "de": "risikoarm",
+    "fr": "à faible risque",
+    "es": "de bajo riesgo",
+    "it": "a basso rischio",
+    "pt": "de baixo risco",
+    "tr": "düşük riskli"
+   },
+   "ex": {
+    "en": "Bonds are a low-risk option."
+   }
+  },
+  {
+   "id": "finance.commodities",
+   "t": {
+    "en": "commodities",
+    "uk": "сировинні товари",
+    "ru": "сырьевые товары",
+    "pl": "surowce",
+    "de": "Rohstoffe",
+    "fr": "matières premières",
+    "es": "materias primas",
+    "it": "materie prime",
+    "pt": "commodities",
+    "tr": "emtia"
+   },
+   "ex": {
+    "en": "Oil and wheat are commodities."
+   }
+  },
+  {
+   "id": "finance.precious-metals",
+   "t": {
+    "en": "precious metals",
+    "uk": "дорогоцінні метали",
+    "ru": "драгоценные металлы",
+    "pl": "metale szlachetne",
+    "de": "Edelmetalle",
+    "fr": "métaux précieux",
+    "es": "metales preciosos",
+    "it": "metalli preziosi",
+    "pt": "metais preciosos",
+    "tr": "değerli metaller"
+   },
+   "ex": {
+    "en": "He invests in precious metals."
+   }
+  },
+  {
+   "id": "finance.gold-reserves",
+   "t": {
+    "en": "gold reserves",
+    "uk": "золотий запас",
+    "ru": "золотой запас",
+    "pl": "rezerwy złota",
+    "de": "Goldreserven",
+    "fr": "réserves d'or",
+    "es": "reservas de oro",
+    "it": "riserve auree",
+    "pt": "reservas de ouro",
+    "tr": "altın rezervleri"
+   },
+   "ex": {
+    "en": "The central bank increased its gold reserves."
+   }
+  },
+  {
+   "id": "finance.housing-bubble",
+   "t": {
+    "en": "housing bubble",
+    "uk": "житлова бульбашка",
+    "ru": "пузырь на рынке жилья",
+    "pl": "bańka mieszkaniowa",
+    "de": "Immobilienblase",
+    "fr": "bulle immobilière",
+    "es": "burbuja inmobiliaria",
+    "it": "bolla immobiliare",
+    "pt": "bolha imobiliária",
+    "tr": "konut balonu"
+   },
+   "ex": {
+    "en": "Experts warn of a housing bubble."
+   }
+  },
+  {
+   "id": "finance.speculation",
+   "t": {
+    "en": "speculation",
+    "uk": "спекуляція",
+    "ru": "спекуляция",
+    "pl": "spekulacja",
+    "de": "Spekulation",
+    "fr": "spéculation",
+    "es": "especulación",
+    "it": "speculazione",
+    "pt": "especulação",
+    "tr": "spekülasyon"
+   },
+   "ex": {
+    "en": "Speculation pushed prices up."
+   }
+  },
+  {
+   "id": "finance.to-speculate",
+   "t": {
+    "en": "to speculate",
+    "uk": "спекулювати",
+    "ru": "спекулировать",
+    "pl": "spekulować",
+    "de": "spekulieren",
+    "fr": "spéculer",
+    "es": "especular",
+    "it": "speculare",
+    "pt": "especular",
+    "tr": "spekülasyon yapmak"
+   },
+   "ex": {
+    "en": "He speculated on oil prices."
+   }
+  },
+  {
+   "id": "finance.trader",
+   "t": {
+    "en": "trader",
+    "uk": "трейдер",
+    "ru": "трейдер",
+    "pl": "trader",
+    "de": "Händler",
+    "fr": "trader",
+    "es": "operador bursátil",
+    "it": "trader",
+    "pt": "operador",
+    "tr": "borsacı"
+   },
+   "ex": {
+    "en": "The trader sold all his shares."
+   }
+  },
+  {
+   "id": "finance.stock-price",
+   "t": {
+    "en": "stock price",
+    "uk": "ціна акції",
+    "ru": "цена акции",
+    "pl": "cena akcji",
+    "de": "Aktienkurs",
+    "fr": "cours de l'action",
+    "es": "cotización",
+    "it": "prezzo delle azioni",
+    "pt": "preço da ação",
+    "tr": "hisse fiyatı"
+   },
+   "ex": {
+    "en": "The stock price doubled this year."
+   }
+  },
+  {
+   "id": "finance.startup-capital",
+   "t": {
+    "en": "startup capital",
+    "uk": "стартовий капітал",
+    "ru": "стартовый капитал",
+    "pl": "kapitał początkowy",
+    "de": "Startkapital",
+    "fr": "capital de départ",
+    "es": "capital inicial",
+    "it": "capitale iniziale",
+    "pt": "capital inicial",
+    "tr": "başlangıç sermayesi"
+   },
+   "ex": {
+    "en": "They need startup capital for the café."
+   }
+  },
+  {
+   "id": "finance.trust-fund",
+   "t": {
+    "en": "trust fund",
+    "uk": "трастовий фонд",
+    "ru": "трастовый фонд",
+    "pl": "fundusz powierniczy",
+    "de": "Treuhandfonds",
+    "fr": "fonds fiduciaire",
+    "es": "fondo fiduciario",
+    "it": "fondo fiduciario",
+    "pt": "fundo fiduciário",
+    "tr": "vakıf fonu"
+   },
+   "ex": {
+    "en": "Her grandparents set up a trust fund."
+   }
+  },
+  {
+   "id": "finance.inheritance-tax",
+   "t": {
+    "en": "inheritance tax",
+    "uk": "податок на спадщину",
+    "ru": "налог на наследство",
+    "pl": "podatek od spadków",
+    "de": "Erbschaftsteuer",
+    "fr": "droits de succession",
+    "es": "impuesto de sucesiones",
+    "it": "imposta di successione",
+    "pt": "imposto sobre herança",
+    "tr": "veraset vergisi"
+   },
+   "ex": {
+    "en": "They paid inheritance tax on the house."
+   }
+  },
+  {
+   "id": "finance.wealth-tax",
+   "t": {
+    "en": "wealth tax",
+    "uk": "податок на статки",
+    "ru": "налог на богатство",
+    "pl": "podatek majątkowy",
+    "de": "Vermögensteuer",
+    "fr": "impôt sur la fortune",
+    "es": "impuesto sobre el patrimonio",
+    "it": "imposta patrimoniale",
+    "pt": "imposto sobre grandes fortunas",
+    "tr": "servet vergisi"
+   },
+   "ex": {
+    "en": "Some want a wealth tax on billionaires."
+   }
+  },
+  {
+   "id": "finance.balance-sheet",
+   "t": {
+    "en": "balance sheet",
+    "uk": "бухгалтерський баланс",
+    "ru": "бухгалтерский баланс",
+    "pl": "bilans",
+    "de": "Bilanz",
+    "fr": "bilan",
+    "es": "balance de situación",
+    "it": "stato patrimoniale",
+    "pt": "balanço patrimonial",
+    "tr": "bilanço"
+   },
+   "ex": {
+    "en": "The balance sheet shows strong assets."
+   }
+  },
+  {
+   "id": "finance.outstanding-balance",
+   "t": {
+    "en": "outstanding balance",
+    "uk": "непогашений залишок",
+    "ru": "непогашенный остаток",
+    "pl": "kwota do spłaty",
+    "de": "offener Betrag",
+    "fr": "solde restant dû",
+    "es": "saldo pendiente",
+    "it": "saldo residuo",
+    "pt": "saldo devedor",
+    "tr": "kalan borç"
+   },
+   "ex": {
+    "en": "Please pay the outstanding balance."
+   }
+  },
+  {
+   "id": "finance.to-settle-a-debt",
+   "t": {
+    "en": "to settle a debt",
+    "uk": "погасити борг",
+    "ru": "погасить долг",
+    "pl": "uregulować dług",
+    "de": "eine Schuld begleichen",
+    "fr": "régler une dette",
+    "es": "saldar una deuda",
+    "it": "saldare un debito",
+    "pt": "quitar uma dívida",
+    "tr": "borcu kapatmak"
+   },
+   "ex": {
+    "en": "He finally settled his debt."
+   }
+  },
+  {
+   "id": "finance.capital",
+   "t": {
+    "en": "capital",
+    "uk": "капітал",
+    "ru": "капитал",
+    "pl": "kapitał",
+    "de": "Kapital",
+    "fr": "capital",
+    "es": "capital",
+    "it": "capitale",
+    "pt": "capital",
+    "tr": "sermaye"
+   },
+   "ex": {
+    "en": "They raised capital to expand."
+   }
+  },
+  {
+   "id": "finance.black-market",
+   "t": {
+    "en": "black market",
+    "uk": "чорний ринок",
+    "ru": "чёрный рынок",
+    "pl": "czarny rynek",
+    "de": "Schwarzmarkt",
+    "fr": "marché noir",
+    "es": "mercado negro",
+    "it": "mercato nero",
+    "pt": "mercado negro",
+    "tr": "karaborsa"
+   },
+   "ex": {
+    "en": "Dollars were sold on the black market."
+   }
+  },
+  {
+   "id": "finance.passive-income",
+   "t": {
+    "en": "passive income",
+    "uk": "пасивний дохід",
+    "ru": "пассивный доход",
+    "pl": "dochód pasywny",
+    "de": "passives Einkommen",
+    "fr": "revenu passif",
+    "es": "ingresos pasivos",
+    "it": "reddito passivo",
+    "pt": "renda passiva",
+    "tr": "pasif gelir"
+   },
+   "ex": {
+    "en": "Dividends give her a passive income."
+   }
+  },
+  {
+   "id": "finance.offshore-account",
+   "t": {
+    "en": "offshore account",
+    "uk": "офшорний рахунок",
+    "ru": "офшорный счёт",
+    "pl": "konto offshore",
+    "de": "Offshore-Konto",
+    "fr": "compte offshore",
+    "es": "cuenta en un paraíso fiscal",
+    "it": "conto offshore",
+    "pt": "conta offshore",
+    "tr": "offshore hesap"
+   },
+   "ex": {
+    "en": "He hid money in an offshore account."
+   }
+  },
+  {
+   "id": "finance.mortgage-rate",
+   "t": {
+    "en": "mortgage rate",
+    "uk": "іпотечна ставка",
+    "ru": "ипотечная ставка",
+    "pl": "oprocentowanie kredytu hipotecznego",
+    "de": "Hypothekenzins",
+    "fr": "taux hypothécaire",
+    "es": "tipo de interés hipotecario",
+    "it": "tasso del mutuo",
+    "pt": "taxa de financiamento imobiliário",
+    "tr": "konut kredisi faizi"
+   },
+   "ex": {
+    "en": "Mortgage rates went up again."
+   }
+  },
+  {
+   "id": "finance.consumer-debt",
+   "t": {
+    "en": "consumer debt",
+    "uk": "споживчий борг",
+    "ru": "потребительский долг",
+    "pl": "zadłużenie konsumenckie",
+    "de": "Verbraucherschulden",
+    "fr": "dette des ménages",
+    "es": "deuda de consumo",
+    "it": "debito al consumo",
+    "pt": "dívida de consumo",
+    "tr": "tüketici borcu"
+   },
+   "ex": {
+    "en": "Consumer debt is at a record high."
+   }
+  },
+  {
+   "id": "finance.base-rate",
+   "t": {
+    "en": "base rate",
+    "uk": "базова ставка",
+    "ru": "базовая ставка",
+    "pl": "stopa referencyjna",
+    "de": "Leitzins",
+    "fr": "taux directeur",
+    "es": "tipo de interés oficial",
+    "it": "tasso di riferimento",
+    "pt": "taxa básica de juros",
+    "tr": "politika faizi"
+   },
+   "ex": {
+    "en": "The central bank cut the base rate."
+   }
+  },
+  {
+   "id": "finance.cosigner",
+   "t": {
+    "en": "cosigner",
+    "uk": "співпозичальник",
+    "ru": "созаёмщик",
+    "pl": "współkredytobiorca",
+    "de": "Mitunterzeichner",
+    "fr": "cosignataire",
+    "es": "avalista",
+    "it": "cofirmatario",
+    "pt": "fiador",
+    "tr": "kefil"
+   },
+   "ex": {
+    "en": "Her father was the cosigner on the loan."
    }
   }
  ]

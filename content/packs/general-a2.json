@@ -2,7 +2,7 @@
  "id": "general-a2",
  "topic": "general",
  "level": "a2",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "general.to-wake-up",
@@ -884,6 +884,564 @@
    },
    "ex": {
     "en": "I take a nap after lunch."
+   }
+  },
+  {
+   "id": "general.fortnight",
+   "t": {
+    "en": "fortnight",
+    "uk": "два тижні",
+    "ru": "две недели",
+    "pl": "dwa tygodnie",
+    "de": "zwei Wochen",
+    "fr": "quinze jours",
+    "es": "quincena",
+    "it": "due settimane",
+    "pt": "quinzena",
+    "tr": "iki hafta"
+   },
+   "ex": {
+    "en": "I am on holiday for a fortnight."
+   }
+  },
+  {
+   "id": "general.to-stay",
+   "t": {
+    "en": "to stay",
+    "uk": "залишатися",
+    "ru": "оставаться",
+    "pl": "zostawać",
+    "de": "bleiben",
+    "fr": "rester",
+    "es": "quedarse",
+    "it": "restare",
+    "pt": "ficar",
+    "tr": "kalmak"
+   },
+   "ex": {
+    "en": "I want to stay at home today."
+   }
+  },
+  {
+   "id": "general.to-decide",
+   "t": {
+    "en": "to decide",
+    "uk": "вирішувати",
+    "ru": "решать",
+    "pl": "decydować",
+    "de": "entscheiden",
+    "fr": "décider",
+    "es": "decidir",
+    "it": "decidere",
+    "pt": "decidir",
+    "tr": "karar vermek"
+   },
+   "ex": {
+    "en": "We need to decide now."
+   }
+  },
+  {
+   "id": "general.to-change",
+   "t": {
+    "en": "to change",
+    "uk": "змінювати",
+    "ru": "менять",
+    "pl": "zmieniać",
+    "de": "ändern",
+    "fr": "changer",
+    "es": "cambiar",
+    "it": "cambiare",
+    "pt": "mudar",
+    "tr": "değiştirmek"
+   },
+   "ex": {
+    "en": "I want to change my plans."
+   }
+  },
+  {
+   "id": "general.to-happen",
+   "t": {
+    "en": "to happen",
+    "uk": "траплятися",
+    "ru": "случаться",
+    "pl": "zdarzać się",
+    "de": "passieren",
+    "fr": "arriver",
+    "es": "pasar",
+    "it": "succedere",
+    "pt": "acontecer",
+    "tr": "olmak"
+   },
+   "ex": {
+    "en": "What happened yesterday?"
+   }
+  },
+  {
+   "id": "general.to-spend-time",
+   "t": {
+    "en": "to spend time",
+    "uk": "проводити час",
+    "ru": "проводить время",
+    "pl": "spędzać czas",
+    "de": "Zeit verbringen",
+    "fr": "passer du temps",
+    "es": "pasar tiempo",
+    "it": "passare il tempo",
+    "pt": "passar tempo",
+    "tr": "vakit geçirmek"
+   },
+   "ex": {
+    "en": "I spend time with my family."
+   }
+  },
+  {
+   "id": "general.to-feel-like",
+   "t": {
+    "en": "to feel like",
+    "uk": "мати бажання",
+    "ru": "хотеться",
+    "pl": "mieć ochotę",
+    "de": "Lust haben",
+    "fr": "avoir envie de",
+    "es": "tener ganas de",
+    "it": "avere voglia di",
+    "pt": "estar com vontade de",
+    "tr": "canı istemek"
+   },
+   "ex": {
+    "en": "I feel like a cup of tea."
+   }
+  },
+  {
+   "id": "general.to-get-home",
+   "t": {
+    "en": "to get home",
+    "uk": "дістатися додому",
+    "ru": "добраться домой",
+    "pl": "dotrzeć do domu",
+    "de": "nach Hause kommen",
+    "fr": "rentrer à la maison",
+    "es": "llegar a casa",
+    "it": "arrivare a casa",
+    "pt": "chegar em casa",
+    "tr": "eve varmak"
+   },
+   "ex": {
+    "en": "I get home at six."
+   }
+  },
+  {
+   "id": "general.to-take-out-the-trash",
+   "t": {
+    "en": "to take out the trash",
+    "uk": "виносити сміття",
+    "ru": "выносить мусор",
+    "pl": "wynosić śmieci",
+    "de": "den Müll rausbringen",
+    "fr": "sortir les poubelles",
+    "es": "sacar la basura",
+    "it": "portare fuori la spazzatura",
+    "pt": "levar o lixo para fora",
+    "tr": "çöpü çıkarmak"
+   },
+   "ex": {
+    "en": "Can you take out the trash?"
+   }
+  },
+  {
+   "id": "general.to-walk-the-dog",
+   "t": {
+    "en": "to walk the dog",
+    "uk": "вигулювати собаку",
+    "ru": "выгуливать собаку",
+    "pl": "wyprowadzać psa",
+    "de": "mit dem Hund Gassi gehen",
+    "fr": "promener le chien",
+    "es": "pasear al perro",
+    "it": "portare fuori il cane",
+    "pt": "passear com o cachorro",
+    "tr": "köpeği gezdirmek"
+   },
+   "ex": {
+    "en": "I walk the dog every evening."
+   }
+  },
+  {
+   "id": "general.to-check-emails",
+   "t": {
+    "en": "to check emails",
+    "uk": "перевіряти пошту",
+    "ru": "проверять почту",
+    "pl": "sprawdzać pocztę",
+    "de": "E-Mails checken",
+    "fr": "consulter ses e-mails",
+    "es": "revisar el correo",
+    "it": "controllare la posta",
+    "pt": "checar os e-mails",
+    "tr": "e-postaları kontrol etmek"
+   },
+   "ex": {
+    "en": "I check emails after breakfast."
+   }
+  },
+  {
+   "id": "general.to-get-to-work",
+   "t": {
+    "en": "to get to work",
+    "uk": "діставатися на роботу",
+    "ru": "добираться до работы",
+    "pl": "dojeżdżać do pracy",
+    "de": "zur Arbeit kommen",
+    "fr": "aller au travail",
+    "es": "llegar al trabajo",
+    "it": "arrivare al lavoro",
+    "pt": "chegar ao trabalho",
+    "tr": "işe gitmek"
+   },
+   "ex": {
+    "en": "I get to work by bus."
+   }
+  },
+  {
+   "id": "general.quarter-to",
+   "t": {
+    "en": "quarter to",
+    "uk": "за чверть",
+    "ru": "без четверти",
+    "pl": "za kwadrans",
+    "de": "Viertel vor",
+    "fr": "moins le quart",
+    "es": "menos cuarto",
+    "it": "meno un quarto",
+    "pt": "quinze para",
+    "tr": "çeyrek kala"
+   },
+   "ex": {
+    "en": "The film starts at quarter to eight."
+   }
+  },
+  {
+   "id": "general.in-the-morning",
+   "t": {
+    "en": "in the morning",
+    "uk": "вранці",
+    "ru": "утром",
+    "pl": "rano",
+    "de": "morgens",
+    "fr": "le matin",
+    "es": "por la mañana",
+    "it": "di mattina",
+    "pt": "de manhã",
+    "tr": "sabahleyin"
+   },
+   "ex": {
+    "en": "I run in the morning."
+   }
+  },
+  {
+   "id": "general.every-morning",
+   "t": {
+    "en": "every morning",
+    "uk": "щоранку",
+    "ru": "каждое утро",
+    "pl": "każdego ranka",
+    "de": "jeden Morgen",
+    "fr": "tous les matins",
+    "es": "todas las mañanas",
+    "it": "ogni mattina",
+    "pt": "toda manhã",
+    "tr": "her sabah"
+   },
+   "ex": {
+    "en": "I drink coffee every morning."
+   }
+  },
+  {
+   "id": "general.daily-routine",
+   "t": {
+    "en": "daily routine",
+    "uk": "розпорядок дня",
+    "ru": "распорядок дня",
+    "pl": "codzienna rutyna",
+    "de": "Tagesablauf",
+    "fr": "routine quotidienne",
+    "es": "rutina diaria",
+    "it": "routine quotidiana",
+    "pt": "rotina diária",
+    "tr": "günlük rutin"
+   },
+   "ex": {
+    "en": "My daily routine is simple."
+   }
+  },
+  {
+   "id": "general.in-time",
+   "t": {
+    "en": "in time",
+    "uk": "вчасно",
+    "ru": "вовремя",
+    "pl": "na czas",
+    "de": "rechtzeitig",
+    "fr": "à temps",
+    "es": "a tiempo",
+    "it": "in tempo",
+    "pt": "a tempo",
+    "tr": "zamanında"
+   },
+   "ex": {
+    "en": "We arrived just in time."
+   }
+  },
+  {
+   "id": "general.yet",
+   "t": {
+    "en": "yet",
+    "uk": "ще",
+    "ru": "ещё",
+    "pl": "jeszcze",
+    "de": "noch",
+    "fr": "encore",
+    "es": "todavía",
+    "it": "ancora",
+    "pt": "ainda",
+    "tr": "henüz"
+   },
+   "ex": {
+    "en": "I haven't eaten yet."
+   }
+  },
+  {
+   "id": "general.recently",
+   "t": {
+    "en": "recently",
+    "uk": "нещодавно",
+    "ru": "недавно",
+    "pl": "niedawno",
+    "de": "neulich",
+    "fr": "récemment",
+    "es": "recientemente",
+    "it": "recentemente",
+    "pt": "recentemente",
+    "tr": "son zamanlarda"
+   },
+   "ex": {
+    "en": "I moved here recently."
+   }
+  },
+  {
+   "id": "general.until",
+   "t": {
+    "en": "until",
+    "uk": "до",
+    "ru": "до",
+    "pl": "do",
+    "de": "bis",
+    "fr": "jusqu'à",
+    "es": "hasta",
+    "it": "fino a",
+    "pt": "até",
+    "tr": "-e kadar"
+   },
+   "ex": {
+    "en": "I work until five."
+   }
+  },
+  {
+   "id": "general.since",
+   "t": {
+    "en": "since",
+    "uk": "з",
+    "ru": "с",
+    "pl": "od",
+    "de": "seit",
+    "fr": "depuis",
+    "es": "desde",
+    "it": "da",
+    "pt": "desde",
+    "tr": "-den beri"
+   },
+   "ex": {
+    "en": "I have lived here since May."
+   }
+  },
+  {
+   "id": "general.ago",
+   "t": {
+    "en": "ago",
+    "uk": "тому",
+    "ru": "назад",
+    "pl": "temu",
+    "de": "vor",
+    "fr": "il y a",
+    "es": "hace",
+    "it": "fa",
+    "pt": "atrás",
+    "tr": "önce"
+   },
+   "ex": {
+    "en": "I saw him two days ago."
+   }
+  },
+  {
+   "id": "general.during",
+   "t": {
+    "en": "during",
+    "uk": "під час",
+    "ru": "во время",
+    "pl": "podczas",
+    "de": "während",
+    "fr": "pendant",
+    "es": "durante",
+    "it": "durante",
+    "pt": "durante",
+    "tr": "sırasında"
+   },
+   "ex": {
+    "en": "Don't talk during the film."
+   }
+  },
+  {
+   "id": "general.next-month",
+   "t": {
+    "en": "next month",
+    "uk": "наступного місяця",
+    "ru": "в следующем месяце",
+    "pl": "w przyszłym miesiącu",
+    "de": "nächsten Monat",
+    "fr": "le mois prochain",
+    "es": "el mes que viene",
+    "it": "il mese prossimo",
+    "pt": "mês que vem",
+    "tr": "gelecek ay"
+   },
+   "ex": {
+    "en": "We move next month."
+   }
+  },
+  {
+   "id": "general.last-week",
+   "t": {
+    "en": "last week",
+    "uk": "минулого тижня",
+    "ru": "на прошлой неделе",
+    "pl": "w zeszłym tygodniu",
+    "de": "letzte Woche",
+    "fr": "la semaine dernière",
+    "es": "la semana pasada",
+    "it": "la settimana scorsa",
+    "pt": "semana passada",
+    "tr": "geçen hafta"
+   },
+   "ex": {
+    "en": "I was ill last week."
+   }
+  },
+  {
+   "id": "general.this-morning",
+   "t": {
+    "en": "this morning",
+    "uk": "сьогодні вранці",
+    "ru": "сегодня утром",
+    "pl": "dziś rano",
+    "de": "heute Morgen",
+    "fr": "ce matin",
+    "es": "esta mañana",
+    "it": "stamattina",
+    "pt": "hoje de manhã",
+    "tr": "bu sabah"
+   },
+   "ex": {
+    "en": "I saw her this morning."
+   }
+  },
+  {
+   "id": "general.to-be-free",
+   "t": {
+    "en": "to be free",
+    "uk": "бути вільним",
+    "ru": "быть свободным",
+    "pl": "być wolnym",
+    "de": "frei sein",
+    "fr": "être libre",
+    "es": "estar libre",
+    "it": "essere libero",
+    "pt": "estar livre",
+    "tr": "boş olmak"
+   },
+   "ex": {
+    "en": "Are you free on Friday?"
+   }
+  },
+  {
+   "id": "general.to-be-early",
+   "t": {
+    "en": "to be early",
+    "uk": "приходити рано",
+    "ru": "приходить рано",
+    "pl": "przychodzić wcześnie",
+    "de": "früh dran sein",
+    "fr": "être en avance",
+    "es": "llegar temprano",
+    "it": "essere in anticipo",
+    "pt": "chegar cedo",
+    "tr": "erken olmak"
+   },
+   "ex": {
+    "en": "We are early today."
+   }
+  },
+  {
+   "id": "general.to-have-time",
+   "t": {
+    "en": "to have time",
+    "uk": "мати час",
+    "ru": "иметь время",
+    "pl": "mieć czas",
+    "de": "Zeit haben",
+    "fr": "avoir le temps",
+    "es": "tener tiempo",
+    "it": "avere tempo",
+    "pt": "ter tempo",
+    "tr": "vakti olmak"
+   },
+   "ex": {
+    "en": "Do you have time for coffee?"
+   }
+  },
+  {
+   "id": "general.to-make-plans",
+   "t": {
+    "en": "to make plans",
+    "uk": "будувати плани",
+    "ru": "строить планы",
+    "pl": "robić plany",
+    "de": "Pläne machen",
+    "fr": "faire des projets",
+    "es": "hacer planes",
+    "it": "fare progetti",
+    "pt": "fazer planos",
+    "tr": "plan yapmak"
+   },
+   "ex": {
+    "en": "Let's make plans for Sunday."
+   }
+  },
+  {
+   "id": "general.to-set-the-table",
+   "t": {
+    "en": "to set the table",
+    "uk": "накривати на стіл",
+    "ru": "накрывать на стол",
+    "pl": "nakrywać do stołu",
+    "de": "den Tisch decken",
+    "fr": "mettre la table",
+    "es": "poner la mesa",
+    "it": "apparecchiare la tavola",
+    "pt": "pôr a mesa",
+    "tr": "sofrayı kurmak"
+   },
+   "ex": {
+    "en": "Can you set the table, please?"
    }
   }
  ]

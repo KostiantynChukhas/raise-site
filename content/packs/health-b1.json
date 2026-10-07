@@ -2,7 +2,7 @@
  "id": "health-b1",
  "topic": "health",
  "level": "b1",
- "version": 2,
+ "version": 3,
  "concepts": [
   {
    "id": "health.blood-pressure",
@@ -884,6 +884,924 @@
    },
    "ex": {
     "en": "Good hygiene prevents disease."
+   }
+  },
+  {
+   "id": "health.surgeon",
+   "t": {
+    "en": "surgeon",
+    "uk": "хірург",
+    "ru": "хирург",
+    "pl": "chirurg",
+    "de": "Chirurg",
+    "fr": "chirurgien",
+    "es": "cirujano",
+    "it": "chirurgo",
+    "pt": "cirurgião",
+    "tr": "cerrah"
+   },
+   "ex": {
+    "en": "The surgeon is very experienced."
+   }
+  },
+  {
+   "id": "health.injection",
+   "t": {
+    "en": "injection",
+    "uk": "укол",
+    "ru": "укол",
+    "pl": "zastrzyk",
+    "de": "Spritze",
+    "fr": "piqûre",
+    "es": "inyección",
+    "it": "iniezione",
+    "pt": "injeção",
+    "tr": "enjeksiyon"
+   },
+   "ex": {
+    "en": "The nurse gave me an injection."
+   }
+  },
+  {
+   "id": "health.needle",
+   "t": {
+    "en": "needle",
+    "uk": "голка",
+    "ru": "игла",
+    "pl": "igła",
+    "de": "Nadel",
+    "fr": "aiguille",
+    "es": "aguja",
+    "it": "ago",
+    "pt": "agulha",
+    "tr": "iğne"
+   },
+   "ex": {
+    "en": "I'm afraid of needles."
+   }
+  },
+  {
+   "id": "health.painful",
+   "t": {
+    "en": "painful",
+    "uk": "болісний",
+    "ru": "болезненный",
+    "pl": "bolesny",
+    "de": "schmerzhaft",
+    "fr": "douloureux",
+    "es": "doloroso",
+    "it": "doloroso",
+    "pt": "doloroso",
+    "tr": "acı verici"
+   },
+   "ex": {
+    "en": "The injury is very painful."
+   }
+  },
+  {
+   "id": "health.to-relieve-pain",
+   "t": {
+    "en": "to relieve pain",
+    "uk": "знімати біль",
+    "ru": "снимать боль",
+    "pl": "łagodzić ból",
+    "de": "Schmerzen lindern",
+    "fr": "soulager la douleur",
+    "es": "aliviar el dolor",
+    "it": "alleviare il dolore",
+    "pt": "aliviar a dor",
+    "tr": "ağrıyı dindirmek"
+   },
+   "ex": {
+    "en": "Ice can relieve pain."
+   }
+  },
+  {
+   "id": "health.unconscious",
+   "t": {
+    "en": "unconscious",
+    "uk": "непритомний",
+    "ru": "без сознания",
+    "pl": "nieprzytomny",
+    "de": "bewusstlos",
+    "fr": "inconscient",
+    "es": "inconsciente",
+    "it": "privo di sensi",
+    "pt": "inconsciente",
+    "tr": "baygın"
+   },
+   "ex": {
+    "en": "He was unconscious for a minute."
+   }
+  },
+  {
+   "id": "health.bump",
+   "t": {
+    "en": "bump",
+    "uk": "ґуля",
+    "ru": "шишка",
+    "pl": "guz",
+    "de": "Beule",
+    "fr": "bosse",
+    "es": "chichón",
+    "it": "bernoccolo",
+    "pt": "galo",
+    "tr": "şişlik"
+   },
+   "ex": {
+    "en": "I have a bump on my head."
+   }
+  },
+  {
+   "id": "health.lump",
+   "t": {
+    "en": "lump",
+    "uk": "ущільнення",
+    "ru": "уплотнение",
+    "pl": "guzek",
+    "de": "Knoten",
+    "fr": "grosseur",
+    "es": "bulto",
+    "it": "nodulo",
+    "pt": "caroço",
+    "tr": "yumru"
+   },
+   "ex": {
+    "en": "The doctor checked the lump."
+   }
+  },
+  {
+   "id": "health.to-inhale",
+   "t": {
+    "en": "to inhale",
+    "uk": "вдихати",
+    "ru": "вдыхать",
+    "pl": "wdychać",
+    "de": "einatmen",
+    "fr": "inspirer",
+    "es": "inspirar",
+    "it": "inspirare",
+    "pt": "inspirar",
+    "tr": "nefes almak"
+   },
+   "ex": {
+    "en": "Inhale through your nose."
+   }
+  },
+  {
+   "id": "health.to-exhale",
+   "t": {
+    "en": "to exhale",
+    "uk": "видихати",
+    "ru": "выдыхать",
+    "pl": "wydychać",
+    "de": "ausatmen",
+    "fr": "expirer",
+    "es": "espirar",
+    "it": "espirare",
+    "pt": "expirar",
+    "tr": "nefes vermek"
+   },
+   "ex": {
+    "en": "Now exhale slowly."
+   }
+  },
+  {
+   "id": "health.breath",
+   "t": {
+    "en": "breath",
+    "uk": "подих",
+    "ru": "дыхание",
+    "pl": "oddech",
+    "de": "Atem",
+    "fr": "souffle",
+    "es": "aliento",
+    "it": "respiro",
+    "pt": "fôlego",
+    "tr": "nefes"
+   },
+   "ex": {
+    "en": "Hold your breath."
+   }
+  },
+  {
+   "id": "health.out-of-breath",
+   "t": {
+    "en": "out of breath",
+    "uk": "задиханий",
+    "ru": "запыхавшийся",
+    "pl": "zdyszany",
+    "de": "außer Atem",
+    "fr": "essoufflé",
+    "es": "sin aliento",
+    "it": "senza fiato",
+    "pt": "sem fôlego",
+    "tr": "nefes nefese"
+   },
+   "ex": {
+    "en": "I was out of breath after the stairs."
+   }
+  },
+  {
+   "id": "health.to-bandage",
+   "t": {
+    "en": "to bandage",
+    "uk": "бинтувати",
+    "ru": "бинтовать",
+    "pl": "bandażować",
+    "de": "verbinden",
+    "fr": "bander",
+    "es": "vendar",
+    "it": "fasciare",
+    "pt": "enfaixar",
+    "tr": "sarmak"
+   },
+   "ex": {
+    "en": "The nurse bandaged my arm."
+   }
+  },
+  {
+   "id": "health.medical-certificate",
+   "t": {
+    "en": "medical certificate",
+    "uk": "медична довідка",
+    "ru": "медицинская справка",
+    "pl": "zaświadczenie lekarskie",
+    "de": "ärztliches Attest",
+    "fr": "certificat médical",
+    "es": "certificado médico",
+    "it": "certificato medico",
+    "pt": "atestado médico",
+    "tr": "sağlık raporu"
+   },
+   "ex": {
+    "en": "I need a medical certificate."
+   }
+  },
+  {
+   "id": "health.health-centre",
+   "t": {
+    "en": "health centre",
+    "uk": "поліклініка",
+    "ru": "поликлиника",
+    "pl": "przychodnia",
+    "de": "Gesundheitszentrum",
+    "fr": "centre de santé",
+    "es": "centro de salud",
+    "it": "ambulatorio",
+    "pt": "posto de saúde",
+    "tr": "sağlık ocağı"
+   },
+   "ex": {
+    "en": "The health centre opens at eight."
+   }
+  },
+  {
+   "id": "health.visiting-hours",
+   "t": {
+    "en": "visiting hours",
+    "uk": "години відвідування",
+    "ru": "часы посещения",
+    "pl": "godziny odwiedzin",
+    "de": "Besuchszeiten",
+    "fr": "heures de visite",
+    "es": "horario de visitas",
+    "it": "orario di visita",
+    "pt": "horário de visita",
+    "tr": "ziyaret saatleri"
+   },
+   "ex": {
+    "en": "Visiting hours end at seven."
+   }
+  },
+  {
+   "id": "health.to-suffer-from",
+   "t": {
+    "en": "to suffer from",
+    "uk": "страждати від",
+    "ru": "страдать от",
+    "pl": "cierpieć na",
+    "de": "leiden an",
+    "fr": "souffrir de",
+    "es": "sufrir de",
+    "it": "soffrire di",
+    "pt": "sofrer de",
+    "tr": "-den muzdarip olmak"
+   },
+   "ex": {
+    "en": "She suffers from back pain."
+   }
+  },
+  {
+   "id": "health.to-be-in-pain",
+   "t": {
+    "en": "to be in pain",
+    "uk": "відчувати біль",
+    "ru": "испытывать боль",
+    "pl": "cierpieć ból",
+    "de": "Schmerzen haben",
+    "fr": "avoir mal",
+    "es": "tener dolor",
+    "it": "avere dolore",
+    "pt": "estar com dor",
+    "tr": "acı çekmek"
+   },
+   "ex": {
+    "en": "Is the patient in pain?"
+   }
+  },
+  {
+   "id": "health.condition",
+   "t": {
+    "en": "condition",
+    "uk": "стан",
+    "ru": "состояние",
+    "pl": "stan",
+    "de": "Zustand",
+    "fr": "état",
+    "es": "estado",
+    "it": "condizione",
+    "pt": "estado",
+    "tr": "durum"
+   },
+   "ex": {
+    "en": "His condition is stable."
+   }
+  },
+  {
+   "id": "health.disease",
+   "t": {
+    "en": "disease",
+    "uk": "хвороба",
+    "ru": "болезнь",
+    "pl": "choroba",
+    "de": "Krankheit",
+    "fr": "maladie",
+    "es": "enfermedad",
+    "it": "malattia",
+    "pt": "doença",
+    "tr": "hastalık"
+   },
+   "ex": {
+    "en": "It's a rare disease."
+   }
+  },
+  {
+   "id": "health.illness",
+   "t": {
+    "en": "illness",
+    "uk": "недуга",
+    "ru": "недуг",
+    "pl": "dolegliwość",
+    "de": "Erkrankung",
+    "fr": "maladie",
+    "es": "dolencia",
+    "it": "malessere",
+    "pt": "enfermidade",
+    "tr": "rahatsızlık"
+   },
+   "ex": {
+    "en": "He's recovering from an illness."
+   }
+  },
+  {
+   "id": "health.germs",
+   "t": {
+    "en": "germs",
+    "uk": "мікроби",
+    "ru": "микробы",
+    "pl": "zarazki",
+    "de": "Keime",
+    "fr": "microbes",
+    "es": "gérmenes",
+    "it": "germi",
+    "pt": "germes",
+    "tr": "mikroplar"
+   },
+   "ex": {
+    "en": "Soap kills germs."
+   }
+  },
+  {
+   "id": "health.infectious",
+   "t": {
+    "en": "infectious",
+    "uk": "інфекційний",
+    "ru": "инфекционный",
+    "pl": "zakaźny",
+    "de": "ansteckend",
+    "fr": "infectieux",
+    "es": "infeccioso",
+    "it": "infettivo",
+    "pt": "infeccioso",
+    "tr": "bulaşıcı"
+   },
+   "ex": {
+    "en": "Flu is very infectious."
+   }
+  },
+  {
+   "id": "health.stamina",
+   "t": {
+    "en": "stamina",
+    "uk": "витривалість",
+    "ru": "выносливость",
+    "pl": "wytrzymałość",
+    "de": "Ausdauer",
+    "fr": "endurance",
+    "es": "resistencia",
+    "it": "resistenza",
+    "pt": "resistência",
+    "tr": "dayanıklılık"
+   },
+   "ex": {
+    "en": "Running builds stamina."
+   }
+  },
+  {
+   "id": "health.nutrition",
+   "t": {
+    "en": "nutrition",
+    "uk": "харчування",
+    "ru": "питание",
+    "pl": "odżywianie",
+    "de": "Ernährung",
+    "fr": "nutrition",
+    "es": "nutrición",
+    "it": "nutrizione",
+    "pt": "nutrição",
+    "tr": "beslenme"
+   },
+   "ex": {
+    "en": "Good nutrition is important."
+   }
+  },
+  {
+   "id": "health.healthy-eating",
+   "t": {
+    "en": "healthy eating",
+    "uk": "здорове харчування",
+    "ru": "здоровое питание",
+    "pl": "zdrowe odżywianie",
+    "de": "gesunde Ernährung",
+    "fr": "alimentation saine",
+    "es": "alimentación sana",
+    "it": "alimentazione sana",
+    "pt": "alimentação saudável",
+    "tr": "sağlıklı beslenme"
+   },
+   "ex": {
+    "en": "Healthy eating gives you energy."
+   }
+  },
+  {
+   "id": "health.to-cut-down-on",
+   "t": {
+    "en": "to cut down on",
+    "uk": "обмежувати",
+    "ru": "ограничивать",
+    "pl": "ograniczać",
+    "de": "reduzieren",
+    "fr": "diminuer",
+    "es": "reducir",
+    "it": "ridurre il consumo di",
+    "pt": "diminuir",
+    "tr": "azaltmak"
+   },
+   "ex": {
+    "en": "I'm cutting down on sugar."
+   }
+  },
+  {
+   "id": "health.whole-grains",
+   "t": {
+    "en": "whole grains",
+    "uk": "цільні злаки",
+    "ru": "цельные злаки",
+    "pl": "produkty pełnoziarniste",
+    "de": "Vollkorn",
+    "fr": "céréales complètes",
+    "es": "cereales integrales",
+    "it": "cereali integrali",
+    "pt": "grãos integrais",
+    "tr": "tam tahıllar"
+   },
+   "ex": {
+    "en": "Eat more whole grains."
+   }
+  },
+  {
+   "id": "health.to-skip-meals",
+   "t": {
+    "en": "to skip meals",
+    "uk": "пропускати прийоми їжі",
+    "ru": "пропускать приёмы пищи",
+    "pl": "pomijać posiłki",
+    "de": "Mahlzeiten auslassen",
+    "fr": "sauter des repas",
+    "es": "saltarse comidas",
+    "it": "saltare i pasti",
+    "pt": "pular refeições",
+    "tr": "öğün atlamak"
+   },
+   "ex": {
+    "en": "Don't skip meals."
+   }
+  },
+  {
+   "id": "health.to-stay-hydrated",
+   "t": {
+    "en": "to stay hydrated",
+    "uk": "пити достатньо води",
+    "ru": "пить достаточно воды",
+    "pl": "nawadniać się",
+    "de": "genug trinken",
+    "fr": "bien s'hydrater",
+    "es": "mantenerse hidratado",
+    "it": "idratarsi",
+    "pt": "manter-se hidratado",
+    "tr": "su ihtiyacını karşılamak"
+   },
+   "ex": {
+    "en": "Stay hydrated in hot weather."
+   }
+  },
+  {
+   "id": "health.out-of-shape",
+   "t": {
+    "en": "out of shape",
+    "uk": "не у формі",
+    "ru": "не в форме",
+    "pl": "bez formy",
+    "de": "nicht in Form",
+    "fr": "pas en forme",
+    "es": "en baja forma",
+    "it": "fuori forma",
+    "pt": "fora de forma",
+    "tr": "formda değil"
+   },
+   "ex": {
+    "en": "I'm really out of shape."
+   }
+  },
+  {
+   "id": "health.optician",
+   "t": {
+    "en": "optician",
+    "uk": "оптик",
+    "ru": "оптик",
+    "pl": "optyk",
+    "de": "Optiker",
+    "fr": "opticien",
+    "es": "óptico",
+    "it": "ottico",
+    "pt": "optometrista",
+    "tr": "gözlükçü"
+   },
+   "ex": {
+    "en": "The optician checked my eyes."
+   }
+  },
+  {
+   "id": "health.filling",
+   "t": {
+    "en": "filling",
+    "uk": "пломба",
+    "ru": "пломба",
+    "pl": "plomba",
+    "de": "Füllung",
+    "fr": "plombage",
+    "es": "empaste",
+    "it": "otturazione",
+    "pt": "obturação",
+    "tr": "dolgu"
+   },
+   "ex": {
+    "en": "I need a new filling."
+   }
+  },
+  {
+   "id": "health.cavity",
+   "t": {
+    "en": "cavity",
+    "uk": "карієс",
+    "ru": "кариес",
+    "pl": "próchnica",
+    "de": "Karies",
+    "fr": "carie",
+    "es": "caries",
+    "it": "carie",
+    "pt": "cárie",
+    "tr": "çürük"
+   },
+   "ex": {
+    "en": "The dentist found a cavity."
+   }
+  },
+  {
+   "id": "health.dental-floss",
+   "t": {
+    "en": "dental floss",
+    "uk": "зубна нитка",
+    "ru": "зубная нить",
+    "pl": "nić dentystyczna",
+    "de": "Zahnseide",
+    "fr": "fil dentaire",
+    "es": "hilo dental",
+    "it": "filo interdentale",
+    "pt": "fio dental",
+    "tr": "diş ipi"
+   },
+   "ex": {
+    "en": "Use dental floss every day."
+   }
+  },
+  {
+   "id": "health.antiseptic",
+   "t": {
+    "en": "antiseptic",
+    "uk": "антисептик",
+    "ru": "антисептик",
+    "pl": "środek antyseptyczny",
+    "de": "Desinfektionsmittel",
+    "fr": "antiseptique",
+    "es": "antiséptico",
+    "it": "antisettico",
+    "pt": "antisséptico",
+    "tr": "antiseptik"
+   },
+   "ex": {
+    "en": "Put antiseptic on the cut."
+   }
+  },
+  {
+   "id": "health.midwife",
+   "t": {
+    "en": "midwife",
+    "uk": "акушерка",
+    "ru": "акушерка",
+    "pl": "położna",
+    "de": "Hebamme",
+    "fr": "sage-femme",
+    "es": "matrona",
+    "it": "ostetrica",
+    "pt": "parteira",
+    "tr": "ebe"
+   },
+   "ex": {
+    "en": "The midwife helped deliver the baby."
+   }
+  },
+  {
+   "id": "health.to-give-birth",
+   "t": {
+    "en": "to give birth",
+    "uk": "народжувати",
+    "ru": "рожать",
+    "pl": "rodzić",
+    "de": "gebären",
+    "fr": "accoucher",
+    "es": "dar a luz",
+    "it": "partorire",
+    "pt": "dar à luz",
+    "tr": "doğum yapmak"
+   },
+   "ex": {
+    "en": "She gave birth to twins."
+   }
+  },
+  {
+   "id": "health.heatstroke",
+   "t": {
+    "en": "heatstroke",
+    "uk": "тепловий удар",
+    "ru": "тепловой удар",
+    "pl": "udar cieplny",
+    "de": "Hitzschlag",
+    "fr": "coup de chaleur",
+    "es": "golpe de calor",
+    "it": "colpo di calore",
+    "pt": "insolação",
+    "tr": "sıcak çarpması"
+   },
+   "ex": {
+    "en": "Drink water to avoid heatstroke."
+   }
+  },
+  {
+   "id": "health.sting",
+   "t": {
+    "en": "sting",
+    "uk": "ужалення",
+    "ru": "ужаление",
+    "pl": "użądlenie",
+    "de": "Stich",
+    "fr": "piqûre",
+    "es": "picadura",
+    "it": "puntura",
+    "pt": "picada",
+    "tr": "sokma"
+   },
+   "ex": {
+    "en": "A bee sting can be painful."
+   }
+  },
+  {
+   "id": "health.physical",
+   "t": {
+    "en": "physical",
+    "uk": "фізичний",
+    "ru": "физический",
+    "pl": "fizyczny",
+    "de": "körperlich",
+    "fr": "physique",
+    "es": "físico",
+    "it": "fisico",
+    "pt": "físico",
+    "tr": "fiziksel"
+   },
+   "ex": {
+    "en": "Physical activity is good for you."
+   }
+  },
+  {
+   "id": "health.painless",
+   "t": {
+    "en": "painless",
+    "uk": "безболісний",
+    "ru": "безболезненный",
+    "pl": "bezbolesny",
+    "de": "schmerzlos",
+    "fr": "indolore",
+    "es": "indoloro",
+    "it": "indolore",
+    "pt": "indolor",
+    "tr": "ağrısız"
+   },
+   "ex": {
+    "en": "The test is quick and painless."
+   }
+  },
+  {
+   "id": "health.spine",
+   "t": {
+    "en": "spine",
+    "uk": "хребет",
+    "ru": "позвоночник",
+    "pl": "kręgosłup",
+    "de": "Wirbelsäule",
+    "fr": "colonne vertébrale",
+    "es": "columna vertebral",
+    "it": "colonna vertebrale",
+    "pt": "coluna vertebral",
+    "tr": "omurga"
+   },
+   "ex": {
+    "en": "Sit straight to protect your spine."
+   }
+  },
+  {
+   "id": "health.liver",
+   "t": {
+    "en": "liver",
+    "uk": "печінка",
+    "ru": "печень",
+    "pl": "wątroba",
+    "de": "Leber",
+    "fr": "foie",
+    "es": "hígado",
+    "it": "fegato",
+    "pt": "fígado",
+    "tr": "karaciğer"
+   },
+   "ex": {
+    "en": "Alcohol damages the liver."
+   }
+  },
+  {
+   "id": "health.kidney",
+   "t": {
+    "en": "kidney",
+    "uk": "нирка",
+    "ru": "почка",
+    "pl": "nerka",
+    "de": "Niere",
+    "fr": "rein",
+    "es": "riñón",
+    "it": "rene",
+    "pt": "rim",
+    "tr": "böbrek"
+   },
+   "ex": {
+    "en": "He has a kidney problem."
+   }
+  },
+  {
+   "id": "health.throat-infection",
+   "t": {
+    "en": "throat infection",
+    "uk": "ангіна",
+    "ru": "ангина",
+    "pl": "angina",
+    "de": "Halsentzündung",
+    "fr": "angine",
+    "es": "faringitis",
+    "it": "infezione alla gola",
+    "pt": "infecção de garganta",
+    "tr": "boğaz enfeksiyonu"
+   },
+   "ex": {
+    "en": "I have a throat infection."
+   }
+  },
+  {
+   "id": "health.to-clean-a-wound",
+   "t": {
+    "en": "to clean a wound",
+    "uk": "промивати рану",
+    "ru": "промывать рану",
+    "pl": "przemywać ranę",
+    "de": "eine Wunde reinigen",
+    "fr": "nettoyer une plaie",
+    "es": "limpiar una herida",
+    "it": "pulire una ferita",
+    "pt": "limpar um ferimento",
+    "tr": "yarayı temizlemek"
+   },
+   "ex": {
+    "en": "First, clean the wound."
+   }
+  },
+  {
+   "id": "health.heart-disease",
+   "t": {
+    "en": "heart disease",
+    "uk": "хвороба серця",
+    "ru": "болезнь сердца",
+    "pl": "choroba serca",
+    "de": "Herzkrankheit",
+    "fr": "maladie cardiaque",
+    "es": "enfermedad cardíaca",
+    "it": "malattia cardiaca",
+    "pt": "doença cardíaca",
+    "tr": "kalp hastalığı"
+   },
+   "ex": {
+    "en": "Smoking causes heart disease."
+   }
+  },
+  {
+   "id": "health.pregnancy",
+   "t": {
+    "en": "pregnancy",
+    "uk": "вагітність",
+    "ru": "беременность",
+    "pl": "ciąża",
+    "de": "Schwangerschaft",
+    "fr": "grossesse",
+    "es": "embarazo",
+    "it": "gravidanza",
+    "pt": "gravidez",
+    "tr": "hamilelik"
+   },
+   "ex": {
+    "en": "She felt great during pregnancy."
+   }
+  },
+  {
+   "id": "health.to-take-a-deep-breath",
+   "t": {
+    "en": "to take a deep breath",
+    "uk": "глибоко вдихнути",
+    "ru": "глубоко вдохнуть",
+    "pl": "wziąć głęboki oddech",
+    "de": "tief durchatmen",
+    "fr": "respirer profondément",
+    "es": "respirar hondo",
+    "it": "fare un respiro profondo",
+    "pt": "respirar fundo",
+    "tr": "derin nefes almak"
+   },
+   "ex": {
+    "en": "Take a deep breath and relax."
+   }
+  },
+  {
+   "id": "health.hangover",
+   "t": {
+    "en": "hangover",
+    "uk": "похмілля",
+    "ru": "похмелье",
+    "pl": "kac",
+    "de": "Kater",
+    "fr": "gueule de bois",
+    "es": "resaca",
+    "it": "postumi della sbornia",
+    "pt": "ressaca",
+    "tr": "akşamdan kalmalık"
+   },
+   "ex": {
+    "en": "I have a terrible hangover."
    }
   }
  ]
