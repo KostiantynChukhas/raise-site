@@ -66,7 +66,8 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 <label class="f">Branch <input id="sBranch" value="main"></label>
 <label class="f">Content folder in repo <input id="sPath" value="content"></label>
 <label class="f" style="grid-column:1/3">GitHub token (fine-grained, Contents read/write) <input id="sToken" type="password" placeholder="github_pat_…"></label>
-<label class="f" style="grid-column:1/3">Anthropic API key (optional, for AI translations; stays in this browser) <input id="sAnthropic" type="password" placeholder="sk-ant-…"></label>
+<label class="f" style="grid-column:1/3">AI proxy URL (server/ai-proxy) <input id="sProxy" value="https://raise-ai.k-chukhas.workers.dev"></label>
+<label class="f" style="grid-column:1/3">Admin token (ADMIN_TOKEN of the proxy — not the OpenAI key) <input id="sAdmintoken" type="password"></label>
 </div>
 <p class="kbd">Everything is stored in this browser's localStorage only.</p>
 <div class="row" style="justify-content:flex-end"><button id="sCancel">Cancel</button><button class="primary" id="sSave">Save & connect</button></div></dialog>
@@ -92,7 +93,7 @@ let manifest=null, packs={}, shas={}, dirty=new Set(), current=null, deleted=new
 
 const $=s=>document.querySelector(s);
 function toast(msg,err){const t=$("#toast");t.textContent=msg;t.className="toast show"+(err?" err":"");clearTimeout(t._x);t._x=setTimeout(()=>t.className="toast",err?6000:3000)}
-function cfg(){return{owner:S.get("owner"),repo:S.get("repo"),branch:S.get("branch")||"main",path:(S.get("path")||"content").replace(/^\/|\/$/g,""),token:S.get("token"),anthropic:S.get("anthropic")}}
+function cfg(){return{owner:S.get("owner"),repo:S.get("repo"),branch:S.get("branch")||"main",path:(S.get("path")||"content").replace(/^\/|\/$/g,""),token:S.get("token"),proxy:(S.get("proxy")||"").replace(/\/$/,""),admintoken:S.get("admintoken")}}
 function api(p,opt={}){const c=cfg();return fetch("https://api.github.com"+p,{...opt,headers:{Authorization:"Bearer "+c.token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.headers||{})}})}
 const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
 
@@ -159,14 +160,14 @@ $("#btnNewPack").onclick=()=>$("#dlgNewPack").showModal();$("#npCancel").onclick
 $("#npCreate").onclick=()=>{const topic=slug($("#npTopic").value),level=$("#npLevel").value;if(!topic)return;const id=`${topic}-${level}`;if(packs[id]){toast("Pack exists",true);return}
   packs[id]={id,topic,level,version:0,concepts:[]};manifest.packs.push({id,topic,level,count:0,url:`packs/${id}.json`,version:0,premium:level!=="a1"});dirty.add(id);dirty.add("__manifest__");current=id;$("#dlgNewPack").close();updateDirty();renderList();renderEditor()};
 
-$("#btnAI").onclick=()=>{if(!current){toast("Pick a pack first",true);return}if(!cfg().anthropic){toast("Add an Anthropic API key in Settings",true);return}$("#aiPack").textContent=current;$("#dlgAI").showModal()};
+$("#btnAI").onclick=()=>{if(!current){toast("Pick a pack first",true);return}if(!cfg().proxy||!cfg().admintoken){toast("Add the AI proxy URL and admin token in Settings",true);return}$("#aiPack").textContent=current;$("#dlgAI").showModal()};
 $("#aiCancel").onclick=()=>$("#dlgAI").close();
 $("#aiRun").onclick=async()=>{const p=packs[current];const n=+$("#aiCount").value||10;const existing=new Set(Object.values(packs).flatMap(x=>x.concepts.map(c=>c.t.en.toLowerCase())));
   $("#aiRun").disabled=true;$("#aiRun").textContent="Generating…";
   try{
-    const sys=`You are a lexicographer. Return ONLY a JSON array of ${n} objects: {"en":"","uk":"","ru":"","pl":"","de":"","fr":"","es":"","it":"","pt":"","tr":"","ex":"<short English example>"}. Topic: ${p.topic}. CEFR level ${p.level.toUpperCase()}. Natural, most common equivalents (not literal); German nouns capitalised without articles; Brazilian Portuguese; verbs in infinitive; each string under 60 characters. Avoid these English terms: ${[...existing].slice(0,400).join(", ")}`;
-    const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":cfg().anthropic,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify({model:"claude-sonnet-4-5",max_tokens:4096,system:sys,messages:[{role:"user",content:$("#aiPrompt").value||"Add the most useful words for this topic and level."}]})});
-    if(!r.ok)throw new Error("Anthropic "+r.status);const j=await r.json();const text=j.content.map(b=>b.text||"").join("");const arr=JSON.parse(text.slice(text.indexOf("["),text.lastIndexOf("]")+1));
+    const r=await fetch(cfg().proxy+"/admin/pack",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+cfg().admintoken},body:JSON.stringify({topic:p.topic,level:p.level,count:n,avoid:[...existing].slice(0,400),prompt:$("#aiPrompt").value})});
+    if(!r.ok)throw new Error("proxy "+r.status+" "+(await r.text()).slice(0,160));
+    const arr=(await r.json()).words||[];
     let added=0;for(const row of arr){if(!row.en||existing.has(row.en.toLowerCase()))continue;addConcept(current,row,row.ex);added++}
     markDirty(current);renderEditor();$("#dlgAI").close();toast(`Added ${added} words — review, then publish`);
   }catch(e){toast("AI failed: "+e.message,true)}finally{$("#aiRun").disabled=false;$("#aiRun").textContent="Generate"}};
@@ -187,9 +188,9 @@ $("#btnPublish").onclick=async()=>{
   }catch(e){toast("Publish failed: "+e.message,true)}finally{btn.textContent="Publish changes";updateDirty()}
 };
 
-$("#btnSettings").onclick=()=>{["owner","repo","branch","path","token","anthropic"].forEach(k=>{const el=$("#s"+k[0].toUpperCase()+k.slice(1));el.value=S.get(k)||el.value});$("#dlgSettings").showModal()};
+$("#btnSettings").onclick=()=>{["owner","repo","branch","path","token","proxy","admintoken"].forEach(k=>{const el=$("#s"+k[0].toUpperCase()+k.slice(1));el.value=S.get(k)||el.value});$("#dlgSettings").showModal()};
 $("#sCancel").onclick=()=>$("#dlgSettings").close();
-$("#sSave").onclick=()=>{["owner","repo","branch","path","token","anthropic"].forEach(k=>S.set(k,$("#s"+k[0].toUpperCase()+k.slice(1)).value.trim()));$("#dlgSettings").close();load()};
+$("#sSave").onclick=()=>{["owner","repo","branch","path","token","proxy","admintoken"].forEach(k=>S.set(k,$("#s"+k[0].toUpperCase()+k.slice(1)).value.trim()));$("#dlgSettings").close();load()};
 $("#btnReload").onclick=()=>{if(dirty.size&&!confirm("Discard unpublished changes?"))return;load()};
 $("#search").oninput=()=>{renderList();if(current)renderEditor()};
 window.addEventListener("beforeunload",e=>{if(dirty.size||deleted.size){e.preventDefault();e.returnValue=""}});
