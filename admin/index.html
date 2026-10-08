@@ -60,10 +60,11 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 </div>
 
 <dialog id="dlgStats" style="width:min(1100px,96vw)"><div class="row" style="margin-top:0"><h3 style="margin:0">Analytics</h3><span class="sp" style="flex:1"></span>
+<div class="row" style="margin:0;gap:6px"><button class="stTab primary" data-t="overview">Overview</button><button class="stTab" data-t="users">Users</button><button class="stTab" data-t="events">All steps</button></div>
 <select id="stDays"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select>
 <button id="stLoad">Refresh</button><button onclick="this.closest('dialog').close()">Close</button></div>
 <div id="stBody" class="muted">Loading…</div></dialog>
-<style>.bar{height:22px;border-radius:7px;background:linear-gradient(90deg,var(--lime),var(--mint));min-width:2px}.brow{display:grid;grid-template-columns:170px 1fr 120px;gap:10px;align-items:center;margin:6px 0;font-size:13px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.kpi b{font-size:24px;display:block}.drop{color:var(--coral);font-size:12px}</style>
+<style>.bar{height:22px;border-radius:7px;background:linear-gradient(90deg,var(--lime),var(--mint));min-width:2px}.brow{display:grid;grid-template-columns:170px 1fr 120px;gap:10px;align-items:center;margin:6px 0;font-size:13px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.kpi b{font-size:24px;display:block}.drop{color:var(--coral);font-size:12px}.urow{cursor:pointer}.urow:hover td{background:rgba(255,255,255,.04)}.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px}.sess td{background:rgba(200,255,61,.08);font-weight:700}.pill{display:inline-block;padding:1px 7px;border-radius:99px;font-size:11px;background:var(--card);border:1px solid var(--stroke)}.pro{color:#000;background:var(--lime);border:0}</style>
 <dialog id="dlgSettings"><h3 style="margin-top:0">Settings</h3>
 <div class="grid10" style="grid-template-columns:1fr 1fr">
 <label class="f">GitHub owner <input id="sOwner" value="KostiantynChukhas" placeholder="your-github-username"></label>
@@ -204,7 +205,7 @@ const params=new URLSearchParams(location.search);if(params.get("owner")){S.set(
 load();
 
 // ---------- Analytics (proxy /admin/stats → D1) ----------
-const STEP_LABEL={first_open:"App opened",onb_welcome:"Welcome",onb_language:"Languages",onb_goals:"Goals",onb_watch:"Watch size",onb_level:"Level test",onb_result:"Result",paywall_view:"Paywall shown",trial_or_purchase:"Trial / purchase",face_installed:"Face installed"};
+const STEP_LABEL={screen_view:"Screen",app_open:"App opened (foreground)",app_background:"App closed / background",feature_tap:"Feature tapped",ai_generate:"AI set: generate",ai_result:"AI set: result",game_done:"Game finished",practice_done:"Practice finished",placement_answer:"Level test answer",restore:"Restore purchases",onb_done:"Onboarding finished",paywall_close:"Paywall closed",purchase_tap:"Buy tapped",first_open:"App opened",onb_welcome:"Welcome",onb_language:"Languages",onb_goals:"Goals",onb_watch:"Watch size",onb_level:"Level test",onb_result:"Result",paywall_view:"Paywall shown",trial_or_purchase:"Trial / purchase",face_installed:"Face installed"};
 async function loadStats(){
   const c=cfg(); if(!c.proxy||!c.admintoken){$("#stBody").innerHTML="Add the AI proxy URL and Admin token in <b>Settings</b> first.";return}
   $("#stBody").textContent="Loading…";
@@ -223,6 +224,50 @@ async function loadStats(){
     $("#stBody").innerHTML=h;
   }catch(e){$("#stBody").innerHTML=`<span class="dirty">Could not load: ${esc(e.message)}</span>`}
 }
-$("#btnStats").onclick=()=>{$("#dlgStats").showModal();loadStats()};
-$("#stLoad").onclick=loadStats;$("#stDays").onchange=loadStats;
+// ---------- Users & per-user timeline ----------
+let stTab="overview", stUid=null;
+async function statsApi(body){const c=cfg();if(!c.proxy||!c.admintoken)throw new Error("Add the AI proxy URL and Admin token in Settings first");
+  const r=await fetch(c.proxy+"/admin/stats",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+c.admintoken},body:JSON.stringify({days:+$("#stDays").value,...body})});
+  const d=await r.json();if(!r.ok)throw new Error(d.error||r.status);return d}
+const fmt=t=>t?new Date(t).toLocaleString():"—";
+const ago=t=>{if(!t)return"—";const m=Math.round((Date.now()-t)/6e4);return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"};
+const label=n=>STEP_LABEL[n]||n;
+async function loadUsers(){
+  $("#stBody").innerHTML=`<div class="row" style="margin-top:0"><input id="uSearch" placeholder="Search by user ID (device UUID) or Adapty ID…" style="flex:1" value="${esc(window.__uq||"")}"><button id="uGo">Search</button></div><div id="uList" class="muted">Loading…</div>`;
+  const go=async()=>{window.__uq=$("#uSearch").value.trim();$("#uList").textContent="Loading…";
+    try{const d=await statsApi({mode:"users",q:window.__uq});
+      if(!d.users.length){$("#uList").textContent="No users in this period.";return}
+      $("#uList").innerHTML=`<div class="muted" style="margin:6px 0">${d.users.length} users · click a row to see every step</div><div class="card" style="padding:0;overflow:auto"><table><tr><th>user id</th><th>plan</th><th>first seen</th><th>last seen</th><th>sessions</th><th>events</th><th>last step</th><th>lang</th><th>device</th><th>ver</th></tr>${d.users.map(u=>`<tr class="urow" data-uid="${esc(u.uid)}"><td class="mono">${esc(u.uid)}${u.aid?`<br><span class="muted">adapty: ${esc(u.aid)}</span>`:""}</td><td>${u.premium?'<span class="pill pro">Pro</span>':'<span class="pill">Free</span>'}${u.purchases?` <span class="pill">bought</span>`:""}</td><td>${fmt(u.first)}</td><td>${ago(u.last)}</td><td>${u.sessions||0}</td><td>${u.events}</td><td>${esc(label(u.lastEvent||""))}${u.lastScreen?`<br><span class="muted">${esc(u.lastScreen)}</span>`:""}</td><td>${esc(u.lang||"")}</td><td>${esc(u.device||"")}<br><span class="muted">${esc(u.os||"")}</span></td><td>${esc(u.ver||"")}</td></tr>`).join("")}</table></div>`;
+      document.querySelectorAll(".urow").forEach(tr=>tr.onclick=()=>{stUid=tr.dataset.uid;loadUser()});
+    }catch(e){$("#uList").innerHTML=`<span class="dirty">Could not load: ${esc(e.message)}</span>`}};
+  $("#uGo").onclick=go;$("#uSearch").onkeydown=e=>{if(e.key==="Enter")go()};go();
+}
+async function loadUser(){
+  $("#stBody").textContent="Loading…";
+  try{const d=await statsApi({mode:"user",uid:stUid});const ev=d.events;const f=ev[0]||{},l=ev[ev.length-1]||{};
+    let h=`<div class="row" style="margin-top:0"><button id="uBack">← All users</button><span class="mono">${esc(stUid)}</span><button id="uCopy">Copy ID</button></div>`;
+    h+=`<div class="kpis"><div class="card kpi"><span class="muted">First seen</span><b style="font-size:16px">${fmt(f.ts)}</b></div><div class="card kpi"><span class="muted">Last seen</span><b style="font-size:16px">${fmt(l.ts)}</b></div><div class="card kpi"><span class="muted">Events</span><b>${ev.length}</b></div><div class="card kpi"><span class="muted">Plan</span><b>${l.premium?"Pro":"Free"}</b></div></div>`;
+    h+=`<div class="muted" style="margin:8px 0">Adapty: <span class="mono">${esc(l.aid||"—")}</span> · ${esc(l.device||"")} iOS ${esc(l.os||"")} · app ${esc(l.ver||"")} · ${esc(l.lang||"")}</div>`;
+    h+=`<div class="card" style="padding:0;overflow:auto;max-height:60vh"><table><tr><th>time</th><th>+</th><th>step</th><th>screen</th><th>details</th></tr>`;
+    let prevSid=null,prevTs=null,n=0;
+    for(const e of ev){
+      if(e.sid!==prevSid){n++;h+=`<tr class="sess"><td colspan="5">Session ${n} · ${fmt(e.ts)}</td></tr>`;prevSid=e.sid;prevTs=null}
+      let p="";try{const o=e.props?JSON.parse(e.props):{};p=Object.entries(o).map(([k,v])=>`<span class="pill">${esc(k)}: ${esc(v)}</span>`).join(" ")}catch{p=esc(e.props||"")}
+      const dt=prevTs?Math.round((e.ts-prevTs)/1000):null;prevTs=e.ts;
+      h+=`<tr><td class="mono">${new Date(e.ts).toLocaleTimeString()}</td><td class="muted mono">${dt===null?"":dt<60?dt+"s":Math.round(dt/60)+"m"}</td><td>${esc(label(e.name))}</td><td>${esc(e.screen||"")}</td><td>${p}</td></tr>`}
+    h+=`</table></div>`;
+    $("#stBody").innerHTML=h;$("#uBack").onclick=()=>{stUid=null;loadUsers()};$("#uCopy").onclick=()=>{navigator.clipboard.writeText(stUid);toast("Copied")};
+  }catch(e){$("#stBody").innerHTML=`<span class="dirty">Could not load: ${esc(e.message)}</span>`}
+}
+async function loadEvents(){
+  $("#stBody").textContent="Loading…";
+  try{const d=await statsApi({mode:"events"});const top=Math.max(1,...d.events.map(x=>x.users));
+    $("#stBody").innerHTML=`<div class="muted" style="margin-bottom:8px">Every step users took (event + screen), by unique users</div><div class="card">${d.events.map(x=>`<div class="brow" style="grid-template-columns:260px 1fr 130px"><span>${esc(label(x.name))}${x.screen?` <span class="muted">· ${esc(x.screen)}</span>`:""}</span><div class="bar" style="width:${x.users/top*100}%"></div><span>${x.users} users · ${x.n}</span></div>`).join("")}</div>`;
+  }catch(e){$("#stBody").innerHTML=`<span class="dirty">Could not load: ${esc(e.message)}</span>`}
+}
+function refreshStats(){document.querySelectorAll(".stTab").forEach(b=>b.classList.toggle("primary",b.dataset.t===stTab));
+  if(stTab==="users")return stUid?loadUser():loadUsers();if(stTab==="events")return loadEvents();return loadStats()}
+document.querySelectorAll(".stTab").forEach(b=>b.onclick=()=>{stTab=b.dataset.t;stUid=null;refreshStats()});
+$("#btnStats").onclick=()=>{$("#dlgStats").showModal();refreshStats()};
+$("#stLoad").onclick=refreshStats;$("#stDays").onchange=refreshStats;
 </script></body></html>

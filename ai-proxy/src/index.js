@@ -113,6 +113,9 @@ async function ensureSchema(env) {
     env.DB.prepare("CREATE INDEX IF NOT EXISTS ev_uid ON events(uid, ts)"),
     env.DB.prepare("CREATE INDEX IF NOT EXISTS ev_name ON events(name, day)"),
   ]);
+  for (const col of ["aid TEXT", "sid TEXT", "device TEXT", "os TEXT"]) {
+    try { await env.DB.prepare(`ALTER TABLE events ADD COLUMN ${col}`).run(); } catch { /* already exists */ }
+  }
   schemaReady = true;
 }
 const clip = (v, n) => (v == null ? null : String(v).slice(0, n));
@@ -124,11 +127,12 @@ async function appEvents(b, req, env) {
   if (!evs.length) return json({ ok: true, n: 0 });
   await ensureSchema(env);
   const now = Date.now();
-  const stmt = env.DB.prepare("INSERT INTO events (ts, day, uid, name, screen, props, ver, lang, premium) VALUES (?,?,?,?,?,?,?,?,?)");
+  const stmt = env.DB.prepare("INSERT INTO events (ts, day, uid, name, screen, props, ver, lang, premium, aid, sid, device, os) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)");
   const rows = evs.map(e => {
     let ts = parseInt(e.ts) || now; if (Math.abs(ts - now) > 7 * 864e5) ts = now;
     return stmt.bind(ts, new Date(ts).toISOString().slice(0, 10), uid, clip(e.name, 48) || "event", clip(e.screen, 48),
-      e.props ? clip(JSON.stringify(e.props), 400) : null, clip(b.ver, 16), clip(b.lang, 8), b.premium ? 1 : 0);
+      e.props ? clip(JSON.stringify(e.props), 400) : null, clip(b.ver, 16), clip(b.lang, 8), b.premium ? 1 : 0,
+      clip(b.aid, 64), clip(e.sid || b.sid, 40), clip(b.device, 32), clip(b.os, 16));
   });
   await env.DB.batch(rows);
   return json({ ok: true, n: rows.length });
@@ -142,6 +146,30 @@ async function adminStats(b, req, env) {
   const days = Math.min(90, Math.max(1, parseInt(b.days) || 30));
   const from = new Date(Date.now() - (days - 1) * 864e5).toISOString().slice(0, 10);
   const q = (sql, ...a) => env.DB.prepare(sql).bind(...a).all().then(r => r.results || []);
+  if (b.mode === "users") {
+    const s = clip(b.q, 64) || "";
+    const like = `%${s}%`;
+    const users = await q(`SELECT uid, MAX(aid) aid, MIN(ts) first, MAX(ts) last, COUNT(*) events, COUNT(DISTINCT sid) sessions,
+        MAX(premium) premium, MAX(lang) lang, MAX(ver) ver, MAX(device) device, MAX(os) os,
+        SUM(name = 'trial_or_purchase') purchases, SUM(name = 'paywall_view') paywalls
+      FROM events WHERE day >= ? AND (? = '' OR uid LIKE ? OR aid LIKE ?) GROUP BY uid ORDER BY last DESC LIMIT 300`, from, s, like, like);
+    if (users.length) {
+      const ids = users.map(u => u.uid);
+      const last = await q(`SELECT uid, name, screen FROM (SELECT uid, name, screen, ROW_NUMBER() OVER (PARTITION BY uid ORDER BY ts DESC) rn FROM events WHERE uid IN (${ids.map(() => "?").join(",")})) WHERE rn = 1`, ...ids);
+      const lm = Object.fromEntries(last.map(r => [r.uid, r]));
+      users.forEach(u => { u.lastEvent = lm[u.uid]?.name; u.lastScreen = lm[u.uid]?.screen; });
+    }
+    return json({ from, days, users });
+  }
+  if (b.mode === "user") {
+    const uid = clip(b.uid, 64); if (!uid) return json({ error: "bad_request" }, 400);
+    const events = await q("SELECT ts, name, screen, props, sid, premium, ver, lang, aid, device, os FROM events WHERE uid = ? ORDER BY ts ASC LIMIT 3000", uid);
+    return json({ uid, events });
+  }
+  if (b.mode === "events") {
+    const events = await q("SELECT name, screen, COUNT(*) n, COUNT(DISTINCT uid) users FROM events WHERE day >= ? GROUP BY name, screen ORDER BY users DESC, n DESC LIMIT 300", from);
+    return json({ from, days, events });
+  }
   const [funnelRows, screens, lastScreens, daily, paywall, totals] = await Promise.all([
     q(`SELECT name, COUNT(DISTINCT uid) users FROM events WHERE day >= ? AND name IN (${FUNNEL.map(() => "?").join(",")}) GROUP BY name`, from, ...FUNNEL),
     q("SELECT screen, COUNT(*) views, COUNT(DISTINCT uid) users FROM events WHERE day >= ? AND name = 'screen_view' GROUP BY screen ORDER BY users DESC LIMIT 60", from),
