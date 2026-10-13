@@ -30,7 +30,7 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 <body>
 <header><b>Raise Admin</b><span class="muted" id="repoLabel">not connected</span><span class="sp"></span>
 <span id="dirtyLabel" class="dirty"></span>
-<button id="btnStats">Analytics</button><button id="btnSettings">Settings</button><button id="btnReload">Reload</button><button class="primary" id="btnPublish" disabled>Publish changes</button></header>
+<button id="btnStats">Analytics</button><button id="btnConfig">Remote config</button><button id="btnSettings">Settings</button><button id="btnReload">Reload</button><button class="primary" id="btnPublish" disabled>Publish changes</button></header>
 
 <div class="layout">
 <aside>
@@ -59,6 +59,12 @@ dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);b
 </main>
 </div>
 
+<dialog id="dlgConfig" style="width:min(640px,96vw)"><div class="row" style="margin-top:0"><h3 style="margin:0">Remote config</h3><span class="sp" style="flex:1"></span><button onclick="this.closest('dialog').close()">Close</button></div>
+<p class="muted" style="margin-top:0">Changes reach the app on its next launch (cached up to 1 minute).</p>
+<div class="card" style="display:flex;align-items:center;gap:14px"><div style="flex:1"><b>Rating request on onboarding</b><div class="muted" style="font-size:13px">Shows the App Store rating prompt on the 2nd onboarding screen (languages). Key: <code>onboarding_rating</code></div></div>
+<label style="display:flex;align-items:center;gap:8px"><input type="checkbox" id="rcRating" style="width:22px;height:22px"> <span id="rcRatingTxt">Off</span></label></div>
+<details style="margin-top:10px"><summary class="muted">Raw JSON (advanced)</summary><textarea id="rcRaw" style="width:100%;height:180px;margin-top:8px;font-family:ui-monospace,Menlo,monospace;font-size:13px"></textarea></details>
+<div class="row"><span id="rcMsg" class="muted"></span><span class="sp" style="flex:1"></span><button class="primary" id="rcSave">Save</button></div></dialog>
 <dialog id="dlgStats" style="width:min(1100px,96vw)"><div class="row" style="margin-top:0"><h3 style="margin:0">Analytics</h3><span class="sp" style="flex:1"></span>
 <div class="row" style="margin:0;gap:6px"><button class="stTab primary" data-t="overview">Overview</button><button class="stTab" data-t="users">Users</button><button class="stTab" data-t="events">All steps</button></div>
 <select id="stDays"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select>
@@ -217,6 +223,12 @@ async function loadStats(){
     h+=`<div class="card"><h3 style="margin-top:0">Funnel — where users drop off</h3>`;
     d.funnel.forEach((f,i)=>{const prev=i?d.funnel[i-1].users:0;const lost=i&&prev?Math.round((1-f.users/prev)*100):null;
       h+=`<div class="brow"><span>${esc(STEP_LABEL[f.step]||f.step)}</span><div class="bar" style="width:${f.users/top*100}%"></div><span>${f.users}${lost!==null&&lost>0?` <span class="drop">−${lost}%</span>`:""}</span></div>`});
+    if(d.faces){const f=d.faces,b=f.buckets,tot=Math.max(1,f.users);const pc=n=>Math.round(n/tot*100)+"%";
+      const fb=(label,n,col)=>`<div class="brow" style="grid-template-columns:230px 1fr 110px"><span>${label}</span><div class="bar" style="width:${n/tot*100}%;${col?`background:${col}`:""}"></div><span>${n} · ${pc(n)}</span></div>`;
+      h+=`</div><div class="card"><h3 style="margin-top:0">Watch face freshness — when users last put new words on the wrist</h3>
+      <div class="muted" style="margin-bottom:8px">${f.users} active users · ${f.installs} face installs · ${f.decks} daily decks built${f.avgDaysBetween?` · on average a new face every <b style="color:var(--ink)">${f.avgDaysBetween}</b> active days`:""}</div>
+      ${fb("Installed today",b.today)}${fb("Yesterday",b.d1)}${fb("2–3 days ago",b.d2_3,"var(--amber)")}${fb("4–7 days ago",b.d4_7,"var(--amber)")}${fb("8+ days ago",b.d8p,"var(--coral)")}${fb("Never installed",f.never,"var(--coral)")}
+      <div class="muted" style="margin-top:8px;font-size:12px">If most users sit in “2+ days” or “never”, people see stale words because the Photos face only changes when it is re-installed.</div>`}
     h+=`</div><div class="row" style="align-items:flex-start;gap:16px"><div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Last screen before leaving</h3><table><tr><th>screen</th><th>users</th></tr>${d.lastScreens.map(x=>`<tr><td>${esc(x.screen)}</td><td>${x.users}</td></tr>`).join("")}</table></div>`;
     h+=`<div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Screens</h3><table><tr><th>screen</th><th>users</th><th>views</th></tr>${d.screens.map(x=>`<tr><td>${esc(x.screen)}</td><td>${x.users}</td><td>${x.views}</td></tr>`).join("")}</table></div></div>`;
     h+=`<div class="row" style="align-items:flex-start;gap:16px"><div class="card" style="flex:1;min-width:300px"><h3 style="margin-top:0">Paywall by trigger</h3><table><tr><th>context</th><th>shown</th><th>bought</th><th>conv.</th></tr>${d.paywall.map(x=>`<tr><td>${esc(x.context||"—")}</td><td>${x.views}</td><td>${x.purchases}</td><td>${x.views?Math.round(x.purchases/x.views*1000)/10:0}%</td></tr>`).join("")}</table></div>`;
@@ -269,5 +281,15 @@ function refreshStats(){document.querySelectorAll(".stTab").forEach(b=>b.classLi
   if(stTab==="users")return stUid?loadUser():loadUsers();if(stTab==="events")return loadEvents();return loadStats()}
 document.querySelectorAll(".stTab").forEach(b=>b.onclick=()=>{stTab=b.dataset.t;stUid=null;refreshStats()});
 $("#btnStats").onclick=()=>{$("#dlgStats").showModal();refreshStats()};
+// ---------- Remote config ----------
+async function cfgApi(body){const c=cfg();if(!c.proxy||!c.admintoken)throw new Error("Add the AI proxy URL and Admin token in Settings first");
+  const r=await fetch(c.proxy+"/admin/config",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+c.admintoken},body:JSON.stringify(body||{})});
+  const d=await r.json();if(!r.ok)throw new Error(d.error||r.status);return d}
+function showCfg(conf){$("#rcRating").checked=!!conf.onboarding_rating;$("#rcRatingTxt").textContent=conf.onboarding_rating?"On":"Off";$("#rcRaw").value=JSON.stringify(conf,null,2)}
+$("#btnConfig").onclick=async()=>{$("#dlgConfig").showModal();$("#rcMsg").textContent="Loading…";
+  try{const d=await cfgApi();showCfg(d.config);$("#rcMsg").textContent=""}catch(e){$("#rcMsg").innerHTML=`<span class="dirty">${esc(e.message)}</span>`}};
+$("#rcRating").onchange=()=>{let o={};try{o=JSON.parse($("#rcRaw").value||"{}")}catch{};o.onboarding_rating=$("#rcRating").checked;showCfg(o)};
+$("#rcSave").onclick=async()=>{let o;try{o=JSON.parse($("#rcRaw").value||"{}")}catch(e){$("#rcMsg").innerHTML='<span class="dirty">Invalid JSON</span>';return}
+  $("#rcMsg").textContent="Saving…";try{const d=await cfgApi({config:o});showCfg(d.config);$("#rcMsg").textContent="Saved ✓";toast("Remote config saved")}catch(e){$("#rcMsg").innerHTML=`<span class="dirty">${esc(e.message)}</span>`}};
 $("#stLoad").onclick=refreshStats;$("#stDays").onchange=refreshStats;
 </script></body></html>

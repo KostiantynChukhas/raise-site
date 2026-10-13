@@ -9,6 +9,7 @@ export default {
 async function route(req, env) {
     const url = new URL(req.url);
     if (req.method === "OPTIONS") return new Response(null, { status: 204 });
+    if (req.method === "GET" && url.pathname === "/v1/config") return await appConfig(env);
     if (req.method !== "POST") return json({ error: "method_not_allowed" }, 405);
     let body;
     try { body = await req.json(); } catch { return json({ error: "bad_json" }, 400); }
@@ -17,6 +18,7 @@ async function route(req, env) {
       if (url.pathname === "/admin/pack") return await adminPack(body, req, env);
       if (url.pathname === "/v1/event") return await appEvents(body, req, env);
       if (url.pathname === "/admin/stats") return await adminStats(body, req, env);
+      if (url.pathname === "/admin/config") return await adminConfig(body, req, env);
       return json({ error: "not_found" }, 404);
     } catch (e) {
       return json({ error: "server", detail: String(e).slice(0, 200) }, 502);
@@ -103,7 +105,7 @@ function cors(res, env, req) {
   h.set("access-control-allow-origin", allowed.includes(origin) ? origin : allowed[0]);
   h.set("vary", "origin");
   h.set("access-control-allow-headers", "content-type, authorization");
-  h.set("access-control-allow-methods", "POST, OPTIONS");
+  h.set("access-control-allow-methods", "GET, POST, OPTIONS");
   return new Response(res.body, { status: res.status, headers: h });
 }
 
@@ -182,7 +184,48 @@ async function adminStats(b, req, env) {
     q("SELECT json_extract(props, '$.context') context, SUM(name = 'paywall_view') views, SUM(name = 'trial_or_purchase') purchases FROM events WHERE day >= ? AND name IN ('paywall_view','trial_or_purchase') GROUP BY context ORDER BY views DESC", from),
     q("SELECT COUNT(DISTINCT uid) users, COUNT(*) events, SUM(premium) premiumEvents FROM events WHERE day >= ?", from),
   ]);
+  // Watch-face freshness: how often users actually put new words on the wrist
+  const faceRows = await q(`SELECT uid, MAX(CASE WHEN name = 'face_installed' THEN ts END) lastInstall,
+      SUM(name = 'face_installed') installs, COUNT(DISTINCT CASE WHEN name = 'face_installed' THEN day END) installDays,
+      SUM(name = 'daily_deck_built') decks, COUNT(DISTINCT day) activeDays, MAX(ts) lastSeen
+    FROM events WHERE day >= ? GROUP BY uid`, from);
+  const now = Date.now(), DAY = 864e5;
+  const faces = { users: faceRows.length, never: 0, installs: 0, decks: 0, buckets: { today: 0, d1: 0, d2_3: 0, d4_7: 0, d8p: 0 }, avgDaysBetween: null };
+  let gapSum = 0, gapN = 0;
+  for (const r of faceRows) {
+    faces.installs += r.installs || 0; faces.decks += r.decks || 0;
+    if (!r.lastInstall) { faces.never++; continue; }
+    const age = Math.floor((now - r.lastInstall) / DAY);
+    faces.buckets[age < 1 ? "today" : age < 2 ? "d1" : age < 4 ? "d2_3" : age < 8 ? "d4_7" : "d8p"]++;
+    if (r.installDays > 1 && r.activeDays > 1) { gapSum += r.activeDays / r.installDays; gapN++; }
+  }
+  if (gapN) faces.avgDaysBetween = Math.round((gapSum / gapN) * 10) / 10;
   const fm = Object.fromEntries(funnelRows.map(r => [r.name, r.users]));
   const funnel = FUNNEL.map(n => ({ step: n, users: fm[n] || 0 }));
-  return json({ from, days, totals: totals[0] || {}, funnel, screens, lastScreens, daily, paywall });
+  return json({ from, days, totals: totals[0] || {}, funnel, screens, lastScreens, daily, paywall, faces });
+}
+
+// ---------- Remote config (KV "USAGE", key "remote_config") ----------
+// App: GET /v1/config → { flags... }   Admin: POST /admin/config { config?: {...} } (Bearer ADMIN_TOKEN)
+const CONFIG_KEY = "remote_config";
+const CONFIG_DEFAULTS = { onboarding_rating: false };
+async function readConfig(env) {
+  let saved = {};
+  try { saved = JSON.parse((env.USAGE && await env.USAGE.get(CONFIG_KEY)) || "{}"); } catch { saved = {}; }
+  return { ...CONFIG_DEFAULTS, ...saved };
+}
+async function appConfig(env) {
+  const cfg = await readConfig(env);
+  return new Response(JSON.stringify(cfg), { status: 200, headers: { "content-type": "application/json", "cache-control": "public, max-age=60" } });
+}
+async function adminConfig(b, req, env) {
+  const auth = req.headers.get("authorization") || "";
+  if (!env.ADMIN_TOKEN || auth !== `Bearer ${env.ADMIN_TOKEN}`) return json({ error: "unauthorized" }, 401);
+  if (!env.USAGE) return json({ error: "no_kv" }, 500);
+  if (b && b.config && typeof b.config === "object" && !Array.isArray(b.config)) {
+    const raw = JSON.stringify(b.config);
+    if (raw.length > 20000) return json({ error: "too_large" }, 400);
+    await env.USAGE.put(CONFIG_KEY, raw);
+  }
+  return json({ config: await readConfig(env), defaults: CONFIG_DEFAULTS });
 }
