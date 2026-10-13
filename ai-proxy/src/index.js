@@ -49,7 +49,7 @@ async function appSet(b, req, env) {
 }
 async function adminPack(b, req, env) {
   const auth = req.headers.get("authorization") || "";
-  if (!env.ADMIN_TOKEN || auth !== `Bearer ${env.ADMIN_TOKEN}`) return json({ error: "unauthorized" }, 401);
+  if (!isAdmin(req, env)) return json({ error: "unauthorized" }, 401);
   const topic = String(b.topic || "general").slice(0, 40), level = String(b.level || "a1").toLowerCase();
   const n = Math.min(40, Math.max(1, parseInt(b.count) || 10));
   const avoid = (Array.isArray(b.avoid) ? b.avoid : []).slice(0, 400).map(String).join(", ");
@@ -146,7 +146,7 @@ async function appEvents(b, req, env) {
 const FUNNEL = ["first_open", "onb_welcome", "onb_language", "onb_goals", "onb_watch", "onb_level", "onb_result", "paywall_view", "trial_or_purchase", "face_installed"];
 async function adminStats(b, req, env) {
   const auth = req.headers.get("authorization") || "";
-  if (!env.ADMIN_TOKEN || auth !== `Bearer ${env.ADMIN_TOKEN}`) return json({ error: "unauthorized" }, 401);
+  if (!isAdmin(req, env)) return json({ error: "unauthorized" }, 401);
   if (!env.DB) return json({ error: "no_db" }, 500);
   await ensureSchema(env);
   const days = Math.min(90, Math.max(1, parseInt(b.days) || 30));
@@ -220,7 +220,7 @@ async function appConfig(env) {
 }
 async function adminConfig(b, req, env) {
   const auth = req.headers.get("authorization") || "";
-  if (!env.ADMIN_TOKEN || auth !== `Bearer ${env.ADMIN_TOKEN}`) return json({ error: "unauthorized" }, 401);
+  if (!isAdmin(req, env)) return json({ error: "unauthorized" }, 401);
   if (!env.USAGE) return json({ error: "no_kv" }, 500);
   if (b && b.config && typeof b.config === "object" && !Array.isArray(b.config)) {
     const raw = JSON.stringify(b.config);
@@ -228,4 +228,11 @@ async function adminConfig(b, req, env) {
     await env.USAGE.put(CONFIG_KEY, raw);
   }
   return json({ config: await readConfig(env), defaults: CONFIG_DEFAULTS });
+}
+
+// Admin auth: tolerant to stray whitespace/newlines pasted into the secret or the admin field.
+function isAdmin(req, env) {
+  const want = String(env.ADMIN_TOKEN || "").trim();
+  const got = (req.headers.get("authorization") || "").replace(/^Bearer\s+/i, "").trim();
+  return want.length > 0 && got === want;
 }
