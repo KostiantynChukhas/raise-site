@@ -1,0 +1,28 @@
+{
+  // Raise — analytics API (events, Adapty webhook, admin API, remote config). Deploy: `npx wrangler deploy` in this folder.
+  // Admin UI: https://kostiantynchukhas.github.io/raise-site/admin/ (static, calls this Worker with the ADMIN_TOKEN).
+  "name": "raise-api",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  // KV = admin config overrides + server-side buffer when Supabase is down (created automatically on deploy).
+  "kv_namespaces": [
+    { "binding": "BUFFER", "id": "3f3db0e374b142cb946c6eb41dcba74b" }
+  ],
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "observability": { "enabled": true },
+  // admin/index.html is served at /admin too (same page as GitHub Pages)
+  "rules": [{ "type": "Text", "globs": ["**/*.html"], "fallthrough": true }],
+  "vars": {
+    // Not a real secret (it ships inside the app) — just keeps random bots away from /events.
+    "APP_KEY": "rw-7c41e9b2",
+    // Origins allowed to call /admin/api/* from a browser (comma-separated).
+    "ADMIN_ORIGIN": "https://kostiantynchukhas.github.io"
+  }
+  // Secrets (Dashboard → Workers & Pages → raise-api → Settings → Variables and Secrets, type "Secret"):
+  //   SUPABASE_URL               — https://<project-ref>.supabase.co
+  //   SUPABASE_SERVICE_ROLE_KEY  — Supabase → Project Settings → API Keys → service_role (secret)
+  //   ADAPTY_WEBHOOK_SECRET      — same string as "Authorization header value" in Adapty → Integrations → Webhook
+  //   ADMIN_TOKEN                — password for the admin
+  //   ALERT_WEBHOOK_URL          — optional Slack/Discord/Telegram-bridge webhook for alerts
+}

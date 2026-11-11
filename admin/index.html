@@ -1,199 +1,1293 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Raise Admin — word catalog</title>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex"/>
+<title>Raise · админка</title>
 <style>
-:root{--bg:#07080F;--panel:#0E1020;--card:rgba(255,255,255,.06);--stroke:rgba(255,255,255,.12);--ink:#fff;--muted:rgba(255,255,255,.62);--lime:#C8FF3D;--mint:#5CF2C2;--violet:#8B7CFF;--coral:#FF7A6B;--amber:#FFC65C}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,Inter,system-ui,sans-serif}
-header{display:flex;gap:14px;align-items:center;padding:14px 20px;border-bottom:1px solid var(--stroke);position:sticky;top:0;background:rgba(7,8,15,.9);backdrop-filter:blur(12px);z-index:5}
-header b{color:var(--lime);font-size:18px}header .sp{flex:1}
-.layout{display:grid;grid-template-columns:300px 1fr;min-height:calc(100vh - 57px)}
-aside{border-right:1px solid var(--stroke);padding:14px;overflow:auto;max-height:calc(100vh - 57px)}
-main{padding:20px;overflow:auto}
-input,select,textarea,button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--stroke);border-radius:10px;padding:8px 10px}
-input:focus,textarea:focus{outline:1px solid var(--lime)}
-button{cursor:pointer}button.primary{background:linear-gradient(135deg,var(--lime),var(--mint));color:#000;font-weight:800;border:0}
-button.danger{color:var(--coral)}button:disabled{opacity:.4;cursor:default}
-.pack{padding:8px 10px;border-radius:10px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px}.pack:hover{background:var(--card)}.pack.on{background:rgba(200,255,61,.12);outline:1px solid var(--lime)}
-.pack small{color:var(--muted)}.tag{font-size:11px;padding:2px 7px;border-radius:99px;background:rgba(255,255,255,.1)}.tag.pro{background:rgba(255,198,92,.18);color:var(--amber)}
-.topic{margin:12px 0 4px;font-size:11px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
-table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--stroke);vertical-align:top}th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-td input{width:100%;padding:5px 7px;border-radius:7px}td.id{color:var(--muted);font-size:12px;white-space:nowrap}
-.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0}
-.card{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:16px;margin-bottom:16px}
-.toast{position:fixed;right:20px;bottom:20px;background:#1a1d33;border:1px solid var(--stroke);padding:12px 16px;border-radius:12px;max-width:420px;display:none}
-.toast.show{display:block}.toast.err{border-color:var(--coral)}
-.dirty{color:var(--amber)}.muted{color:var(--muted)}.grid10{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
-label.f{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
-dialog{background:var(--panel);color:var(--ink);border:1px solid var(--stroke);border-radius:18px;padding:22px;width:min(760px,92vw)}dialog::backdrop{background:rgba(0,0,0,.6)}
-.kbd{font-size:11px;color:var(--muted)}
-</style></head>
-<body>
-<header><b>Raise Admin</b><span class="muted" id="repoLabel">not connected</span><span class="sp"></span>
-<span id="dirtyLabel" class="dirty"></span>
-<button id="btnSettings">Settings</button><button id="btnReload">Reload</button><button class="primary" id="btnPublish" disabled>Publish changes</button></header>
+/* Raise — shared styles (landing, legal, support). Deep blue + sky blue like the app. */
+:root{
+  --bg:#06122b; --panel:#0c1d45; --panel2:#10245a; --line:rgba(255,255,255,.09);
+  --ink:#f5f6fa; --muted:#9ba3b8; --gold:#3AA0FF; --gold2:#2171E0; --green:#76FF03;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.doc{max-width:820px}
 
-<div class="layout">
-<aside>
-  <div class="row"><input id="search" placeholder="Search word in any language…" style="flex:1"></div>
-  <div class="row"><button id="btnNewPack">+ New pack</button><button id="btnAI">✦ AI add words</button></div>
-  <div id="packList"></div>
+/* Nav */
+header{position:sticky;top:0;z-index:20;background:rgba(6,18,43,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:1080px;margin:0 auto;padding:0 24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:750;color:var(--ink);letter-spacing:.01em}
+.brand:hover{text-decoration:none}
+.brand img{width:30px;height:30px;border-radius:8px}
+.nav a.link{color:var(--muted);font-size:14px;margin-left:22px}
+.nav a.link:hover,.nav a.link.on{color:var(--ink);text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#fff;font-weight:750;font-size:15px;padding:12px 20px;border-radius:999px;transition:.15s;border:0;cursor:pointer}
+.btn:hover{filter:brightness(1.06);text-decoration:none}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.nav .btn{padding:9px 16px;font-size:14px;margin-left:22px}
+
+/* Landing */
+.hero{padding:72px 0 40px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--gold);border:1px solid rgba(58,160,255,.3);background:rgba(58,160,255,.07);padding:6px 12px;border-radius:999px;margin-bottom:18px}
+.hero h1{font-size:54px;line-height:1.04;font-weight:800;letter-spacing:-.025em}
+.hero h1 span{color:var(--gold)}
+.hero p.sub{color:var(--muted);font-size:18px;margin:18px 0 28px;max-width:46ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.hero-art{position:relative;border-radius:28px;overflow:hidden;border:1px solid var(--line);aspect-ratio:1/1;
+  background:radial-gradient(120% 90% at 70% 20%,rgba(58,160,255,.22),transparent 60%),linear-gradient(160deg,#2F94FC,#1747A6)}
+.hero-art img{position:absolute;inset:8% 8% 4%;width:84%;height:auto;object-fit:contain;filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+.rate-chip{position:absolute;left:18px;top:18px;background:rgba(6,18,43,.8);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:14px}
+.rate-chip b{color:var(--gold)}
+section.block{padding:48px 0}
+.sec-title{font-size:32px;font-weight:800;letter-spacing:-.015em;margin-bottom:8px}
+.sec-sub{color:var(--muted);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:rgba(58,160,255,.1);font-size:21px;margin-bottom:14px}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:14.5px}
+.band{margin:40px 0 64px;padding:44px;border-radius:26px;background:linear-gradient(135deg,#0d3a8a,#0c1d45 60%);border:1px solid var(--line);text-align:center}
+.band h2{font-size:30px;font-weight:800;margin-bottom:10px}
+.band p{color:var(--muted);margin-bottom:24px}
+
+/* Documents */
+main.docmain{padding-top:56px;padding-bottom:80px}
+.docmain h1{font-size:38px;line-height:1.15;font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+.meta{color:var(--muted);font-size:14px;margin-bottom:6px}
+.intro{color:var(--muted);font-size:17px;margin:22px 0 8px}
+.docmain h2{font-size:23px;font-weight:750;margin:44px 0 12px;padding-top:20px;border-top:1px solid var(--line)}
+.docmain h3{font-size:17.5px;font-weight:700;margin:24px 0 8px}
+.docmain p{margin:0 0 14px}
+.docmain ul{margin:0 0 16px;padding-left:22px}
+.docmain li{margin-bottom:8px}
+strong{font-weight:650}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:0 0 20px}
+.box p:last-child{margin-bottom:0}
+.box.warn{background:rgba(58,160,255,.06);border-color:rgba(58,160,255,.3)}
+.tablewrap{overflow-x:auto;margin:0 0 20px;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+th,td{text-align:left;vertical-align:top;padding:11px 14px;border:1px solid var(--line)}
+th{background:var(--panel);font-weight:650}
+td{color:var(--muted)}
+td strong{color:var(--ink)}
+.toc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:28px 0 8px}
+.toc h2{font-size:13px!important;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);border:0!important;margin:0 0 12px!important;padding:0!important}
+.toc ol{margin:0;padding-left:20px;columns:2;column-gap:28px}
+.toc li{margin-bottom:6px;font-size:14.5px}
+.toc a{color:var(--muted)}
+
+/* Support */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0 12px}
+.contact .card h3{margin-bottom:8px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:10px}
+details summary{cursor:pointer;font-weight:650;list-style:none;display:flex;justify-content:space-between;gap:12px}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";color:var(--gold);font-weight:800}
+details[open] summary::after{content:"–"}
+details p,details ul{color:var(--muted);margin-top:10px}
+details ul{padding-left:20px}
+.diag{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);background:var(--panel2);border-radius:10px;padding:10px 12px;margin-top:10px;white-space:pre-wrap;display:none}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:13.5px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center;max-width:1080px;margin:0 auto;padding:0 24px}
+.foot a{color:var(--muted);margin-left:18px}
+.foot a:hover{color:var(--ink);text-decoration:none}
+
+@media(max-width:860px){
+  .hero{grid-template-columns:1fr;padding:40px 0 20px}
+  .hero h1{font-size:40px}
+  .grid{grid-template-columns:1fr 1fr}
+  .contact{grid-template-columns:1fr}
+  .nav a.link{display:none}
+  .docmain h1{font-size:30px}
+  .toc ol{columns:1}
+}
+@media(max-width:540px){.grid{grid-template-columns:1fr}.band{padding:30px 20px}}
+
+/* Opened from the app with ?embed=1 — hide site chrome. */
+body.embed header,body.embed footer{display:none}
+body.embed main.docmain{padding-top:24px}
+
+</style>
+<style>
+:root{--bg:#f3f4f6;--panel:#fff;--panel2:#f6f7f9;--line:#e7e9ee;--ink:#111418;--muted:#6b7280;--gold:#2563eb;--gold2:#1d4ed8;
+ --lime:#c8f169;--side:#17191d;--side2:#24272d;--green:#16a34a;--red:#dc2626;--orange:#f59e0b;--violet:#7c3aed}
+body{font-size:14px;line-height:1.5;background:var(--bg);color:var(--ink)}
+a{color:var(--gold2)}
+.app{display:flex;min-height:100vh}
+/* sidebar */
+.side{width:248px;flex:none;background:var(--side);color:#e5e7eb;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;padding:22px 14px 16px;overflow-y:auto}
+.logo{font-weight:900;letter-spacing:.18em;font-size:16px;color:#fff;padding:0 12px 18px;display:flex;align-items:center;gap:10px}
+.logo i{width:26px;height:26px;border-radius:8px;background:linear-gradient(160deg,#3AA0FF,#1747A6);display:inline-block}
+.side h6{font-size:11px;letter-spacing:.14em;color:#8a8f98;font-weight:700;margin:18px 12px 6px}
+.sn{display:flex;align-items:center;gap:12px;width:100%;background:none;border:0;color:#e5e7eb;font:inherit;font-size:15px;font-weight:600;padding:11px 12px;border-radius:12px;cursor:pointer;text-align:left}
+.sn:hover{background:var(--side2)}
+.sn.on{background:var(--lime);color:#111418}
+.sn em{font-style:normal;width:20px;text-align:center}
+.sn .badge{margin-left:auto;background:#ef4444;color:#fff;font-size:11px;font-weight:800;border-radius:999px;padding:1px 7px}
+.sn.on .badge{background:#111418;color:var(--lime)}
+.side .grow{flex:1}
+.mbar{display:none;position:sticky;top:0;z-index:40;background:var(--side);color:#fff;align-items:center;justify-content:space-between;padding:12px 16px}
+.mbar .logo{padding:0;font-size:15px}
+.burger{background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer;padding:4px 6px}
+.sclose{display:none;margin-left:auto;width:40px;height:40px;border-radius:50%;border:0;background:#fff;color:#111418;font-size:16px;cursor:pointer}
+.side-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:58}
+.side-bg.on{display:block}
+.logout{margin-top:16px;background:#fff;color:#111418;border:0;border-radius:999px;padding:10px;font-weight:700;cursor:pointer}
+/* main */
+.main{flex:1;min-width:0}
+.page{display:none;max-width:1320px;margin:0 auto;padding:36px 40px 80px}.page.on{display:block}
+.head{display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.head h1{font-size:34px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.head .sub{color:var(--muted);font-size:13px;margin-top:4px}
+.head .right{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+select,input[type=text],input[type=search],input[type=password],input[type=number],input[type=date],textarea{background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:9px 12px;font-size:14px;font-family:inherit}
+.pills{display:inline-flex;background:#e9ebef;border-radius:14px;padding:4px}
+.pills button{background:none;border:0;padding:7px 14px;border-radius:10px;font-weight:700;color:var(--muted);cursor:pointer;font-size:13px}
+.pills button.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.btn.sm{padding:8px 14px;font-size:13px}
+.rng{position:relative}
+.calbtn{background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-weight:700;cursor:pointer;font-size:13px;color:var(--ink);white-space:nowrap}
+.calbtn.on{background:var(--side);color:var(--lime);border-color:var(--side)}
+.calpop{display:none;position:absolute;right:0;top:calc(100% + 8px);z-index:45;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 30px rgba(0,0,0,.14);padding:14px;width:310px}
+.calpop.on{display:grid;gap:12px}
+.calpop .q{display:flex;flex-wrap:wrap;gap:6px}
+.calpop .q button{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
+.calpop label{display:grid;gap:4px;font-size:12px;color:var(--muted)}
+.calpop input[type=date]{width:100%}
+.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:22px}
+.tabs button{background:none;border:0;color:var(--muted);padding:12px 18px;font-size:15px;font-weight:700;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+.tabs button.on{color:var(--ink);border-color:var(--lime)}
+section.tab{display:none}section.tab.on{display:block}
+.subtabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:22px}
+.subtabs button{background:none;border:0;color:var(--muted);padding:12px 18px;font-size:15px;font-weight:700;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+.subtabs button.on{color:var(--ink);border-color:var(--lime)}
+section.stab{display:none}section.stab.on{display:block}
+h2{font-size:18px;margin:30px 0 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+h2 small{color:var(--muted);font-weight:400;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+.kpi{min-height:118px}
+.kpi b{display:block;font-size:28px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.kpi span{color:var(--muted);font-size:13px;display:block;margin-top:6px}
+.kpi i{font-style:normal;font-size:12px;margin-left:6px;font-weight:700}
+#kpis .kpi:first-child,.kpi.dark{background:var(--side);border-color:var(--side)}
+#kpis .kpi:first-child b,.kpi.dark b{color:var(--lime)}#kpis .kpi:first-child span,.kpi.dark span{color:#a1a5ad}
+.kpi.red b{color:var(--red)}
+.up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:1000px){.two{grid-template-columns:1fr}}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:16px;background:#fff}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{position:sticky;top:0;background:var(--panel2);color:var(--muted);font-weight:700;text-align:left;padding:10px 12px;white-space:nowrap;cursor:pointer}
+td{padding:9px 12px;border-top:1px solid var(--line);white-space:nowrap}
+td.num{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+tr.click{cursor:pointer}tr.click:hover td{background:#f8fafc}
+.meta{color:var(--muted);font-size:12px}
+.err{color:var(--red)}.ok{color:var(--green)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:6px 0}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+svg text{fill:var(--muted);font-size:10px}
+.fbar{display:grid;grid-template-columns:230px 1fr 120px;gap:10px;align-items:center;margin:6px 0}
+.fbar .bar{height:22px;border-radius:7px;background:linear-gradient(90deg,#93c5fd,var(--gold));min-width:2px}
+.fbar .v{text-align:right;font-variant-numeric:tabular-nums}
+.ins{display:grid;gap:10px}
+.insbox{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px 22px}
+.insbox h2{margin-top:0}
+.ins .card{display:grid;grid-template-columns:26px 1fr;gap:8px;align-items:start;background:var(--panel2);border:0;border-left:4px solid var(--orange);border-radius:12px}
+.ins .card.bad{border-left-color:var(--red)}.ins .card.warn{border-left-color:var(--orange)}.ins .card.good{border-left-color:var(--green)}.ins .card.info{border-left-color:var(--gold)}
+.ins b{display:block;color:var(--ink);font-size:15px}.ins p{color:var(--muted);margin-top:2px}
+.cfg .row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.cfg .row:last-child{border-bottom:0}.cfg small{color:var(--muted);display:block;font-size:12px}
+.animgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-top:12px}
+.acard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:6px}
+.acard.off{opacity:.45}
+.acard .th{position:relative;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#000;cursor:pointer}
+.acard .th img,.acard .th video{width:100%;height:100%;object-fit:cover;display:block}
+.acard .th b{position:absolute;top:6px;right:6px;font-size:11px;padding:2px 7px;border-radius:6px;background:#fff;color:#0b1d42}
+.acard .th b.pro{background:var(--lime);color:#111418}
+.acard input[type=text]{background:var(--panel2);border-radius:8px;padding:6px 8px;font-size:13px;width:100%}
+.acard label{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer}
+.acard .r{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.acard .r button,.acard .up{background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:4px 8px;font-size:12px;cursor:pointer}
+.acard .up input{display:none}
+.newanim{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;align-items:end}
+.newanim input[type=text]{width:100%}
+.sw{position:relative;width:46px;height:26px;flex:none}.sw input{opacity:0;width:0;height:0}
+.sw i{position:absolute;inset:0;border-radius:26px;background:#cbd5e1;transition:.2s;cursor:pointer}
+.sw i:before{content:"";position:absolute;width:20px;height:20px;left:3px;top:3px;border-radius:50%;background:#fff;transition:.2s;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.sw input:checked+i{background:#22c55e}.sw input:checked+i:before{transform:translateX(20px)}
+.csv{background:#fff;border:1px solid var(--line);color:var(--muted);border-radius:8px;font-size:11px;padding:2px 8px;cursor:pointer}
+.hint{color:var(--muted);font-size:12px;margin:-4px 0 8px}
+/* CRM */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+.chips button{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-weight:700;font-size:13px;color:var(--muted);cursor:pointer}
+.chips button.on{background:var(--side);border-color:var(--side);color:var(--lime)}
+.st{display:inline-block;font-size:11px;font-weight:800;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.st.active{background:#dcfce7;color:#166534}.st.trial{background:#ede9fe;color:#5b21b6}.st.cancelled{background:#ffedd5;color:#9a3412}
+.st.billing_issue{background:#fee2e2;color:#991b1b}.st.expired{background:#e5e7eb;color:#374151}.st.free{background:#f3f4f6;color:#6b7280}
+.stars{color:#f59e0b;letter-spacing:1px;white-space:nowrap}.stars s{color:#d1d5db;text-decoration:none}
+.uid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.fb{display:grid;gap:12px}
+.fbc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+.fbc.low{border-left:4px solid var(--red)}.fbc .t{font-size:15px;margin:6px 0 8px;white-space:pre-wrap;word-break:break-word}
+.fbc .m{display:flex;gap:10px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px}
+.del{margin-left:auto;background:#fff;border:1px solid var(--line);color:var(--red);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;cursor:pointer}
+.del:hover{background:#fee2e2}
+.del.mini{margin-left:6px;padding:1px 7px;font-size:11px}
+.srow .v{display:flex;justify-content:flex-end;align-items:center;gap:4px;white-space:nowrap}
+.srow{grid-template-columns:120px 1fr 150px}
+.chips button .meta{font-weight:400;margin-left:2px}
+.drawer-bg{position:fixed;inset:0;background:rgba(17,20,24,.35);z-index:50;display:none}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--bg);z-index:51;transform:translateX(100%);transition:transform .25s;overflow-y:auto;box-shadow:-10px 0 40px rgba(0,0,0,.15)}
+.drawer.on{transform:none}.drawer-bg.on{display:block}
+.drawer .in{padding:24px}
+.drawer .x{position:sticky;top:0;float:right;background:#fff;border:1px solid var(--line);border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:16px}
+.kv{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.kv div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 12px}
+.kv span{display:block;font-size:11px;color:var(--muted)}.kv b{font-size:14px;word-break:break-all}
+.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:14px}
+.tl div{position:relative;padding:6px 0;font-size:13px}
+.tl div:before{content:"";position:absolute;left:-20px;top:12px;width:10px;height:10px;border-radius:50%;background:#cbd5e1;border:2px solid var(--bg)}
+.tl div.pay:before{background:var(--green)}.tl div.pw:before{background:var(--gold)}.tl div.fbk:before{background:var(--orange)}
+.tl code{font-size:11px;color:var(--muted);word-break:break-all}
+/* login */
+.login{position:fixed;inset:0;background:var(--side);z-index:60;display:none;align-items:center;justify-content:center}
+.login.on{display:flex}
+.login .box{background:#fff;border-radius:22px;padding:28px;width:min(380px,92%);display:grid;gap:12px}
+.login h3{font-size:22px}
+@media(max-width:860px){.app{display:block}
+ .mbar{display:flex}
+ .side{position:fixed;top:0;left:0;bottom:0;z-index:59;width:min(320px,84vw);height:100vh;transform:translateX(-100%);transition:transform .25s;box-shadow:10px 0 40px rgba(0,0,0,.3);padding-top:18px}
+ .side.open{transform:none}.sclose{display:inline-flex;align-items:center;justify-content:center}
+ .side .logo{padding-right:0}
+ .page{padding:20px 16px 60px}.head h1{font-size:28px}.head .right{margin-left:0;width:100%}.head .right input,.head .right select{width:100%}
+ .rng{position:static}.calpop{position:fixed;left:16px;right:16px;top:50%;transform:translateY(-50%);width:auto}
+ .tabs button,.subtabs button{padding:10px 12px;font-size:14px}
+ .fbar{grid-template-columns:110px 1fr 90px}.kv{grid-template-columns:1fr}}
+</style></head><body>
+<div class="login" id="login"><form class="box" id="loginf">
+ <div class="logo" style="color:#111418;padding:0"><i></i>RAISE</div><h3>Вход в админку</h3>
+ <input id="tok" type="password" placeholder="Admin token" autocomplete="current-password"/>
+ <button class="btn" type="submit">Войти</button><span id="loginmsg" class="err"></span></form></div>
+<div class="mbar" id="mbar"><div class="logo"><i></i>RAISE</div><button class="burger" id="burger" aria-label="Меню">☰</button></div>
+<div class="side-bg" id="sidebg"></div>
+<div class="app">
+<aside class="side" id="side">
+ <div class="logo"><i></i>RAISE<button class="sclose" id="sclose" aria-label="Закрыть">✕</button></div>
+ <button class="sn on" data-p="analytics"><em>📊</em>Аналитика</button>
+ <h6>ЛЮДИ</h6>
+ <button class="sn" data-p="users"><em>👤</em>Пользователи</button>
+ <button class="sn" data-p="feedback"><em>💬</em>Отзывы<span class="badge" id="fbbadge" style="display:none"></span></button>
+ <h6>ЭКСПЕРИМЕНТЫ</h6>
+ <button class="sn" data-p="abtests"><em>🧪</em>A/B тесты</button>
+ <h6>РЕКЛАМА</h6>
+ <button class="sn" data-p="ads"><em>📣</em>Расходы на рекламу</button>
+ <h6>КОНТЕНТ</h6>
+ <a class="sn" href="https://kostiantynchukhas.github.io/raise-site/admin/catalog.html" style="text-decoration:none;display:flex"><em>📚</em>Каталог слов</a>
+ <h6>СИСТЕМА</h6>
+ <button class="sn" data-p="settings"><em>⚙️</em>Конфиг</button>
+ <button class="sn" data-p="health"><em>📡</em>События</button>
+ <div class="grow"></div>
+ <button class="logout" id="logout">Выйти</button>
 </aside>
-<main>
-  <div id="empty" class="card"><h2 style="margin-top:0">Word catalog</h2>
-  <p class="muted">Pick a pack on the left. Edit any cell, add or delete words, then <b>Publish changes</b> — the admin commits the JSON straight to GitHub, bumps the pack version and rebuilds <code>manifest.json</code>. The app picks up the new version on its next sync. No server needed.</p>
-  <p class="muted">First time: open <b>Settings</b> and paste a GitHub token (fine-grained, <i>Contents: read & write</i> on this repo). Optionally add an Anthropic API key to translate new words automatically.</p></div>
-  <div id="editor" style="display:none">
-    <div class="card">
-      <div class="row">
-        <h2 id="packTitle" style="margin:0"></h2><span class="tag" id="packMeta"></span>
-        <span class="sp" style="flex:1"></span>
-        <label class="f">Level <select id="packLevel"><option>a1</option><option>a2</option><option>b1</option><option>b2</option><option>c1</option></select></label>
-        <label class="f">Pro <select id="packPremium"><option value="true">yes</option><option value="false">free</option></select></label>
-        <button id="btnAddRow">+ Add word</button>
-        <button class="danger" id="btnDeletePack">Delete pack</button>
-      </div>
-      <p class="muted" style="margin:4px 0 0">Tip: the app shows a word for a language pair only when both languages are filled. Keep strings short (≤ 60 chars) — they're rendered on a watch face.</p>
-    </div>
-    <div class="card" style="padding:0;overflow:auto"><table id="tbl"><thead><tr><th>id</th><th>en</th><th>uk</th><th>ru</th><th>pl</th><th>de</th><th>fr</th><th>es</th><th>it</th><th>pt</th><th>tr</th><th>example (en)</th><th></th></tr></thead><tbody></tbody></table></div>
+<div class="main">
+<div class="page on" id="p-analytics">
+ <div class="head"><div><h1>Аналитика</h1><div class="sub" id="msg"></div></div>
+  <div class="right">
+   <select id="seg" title="Сегмент пользователей"><option value="all">Все пользователи</option><option value="organic">Только органика</option>
+    <option value="paid">Только реклама</option><option value="unknown">Без атрибуции</option></select>
+   <select id="ctry" title="Страна"><option value="">🌍 Все страны</option></select>
+   <span class="pills" id="dpills"><button data-d="7">7 дн.</button><button data-d="30">30 дн.</button><button data-d="90">90 дн.</button><button data-d="365">365 дн.</button></span>
+   <span class="rng"><button class="calbtn" id="calbtn" type="button">📅 <span id="callbl">Календарь</span></button>
+    <div class="calpop" id="calpop">
+     <div class="q"><button data-q="today">Сегодня</button><button data-q="yesterday">Вчера</button><button data-q="week">Эта неделя</button><button data-q="month">Этот месяц</button><button data-q="lastmonth">Прошлый месяц</button></div>
+     <label>День или начало периода<input type="date" id="rfrom"/></label>
+     <label>Конец периода (пусто — один день)<input type="date" id="rto"/></label>
+     <div style="display:flex;gap:8px"><button class="btn sm" id="rgo" type="button">Показать</button><button class="btn sm ghost" id="rclear" type="button" style="background:#fff;color:var(--ink);border:1px solid var(--line)">Сбросить</button></div>
+    </div></span>
+   <input type="hidden" id="days" value="30"/><button class="btn sm" id="go" title="Обновить">↻</button>
+  </div></div>
+ <div class="tabs" id="tabs">
+  <button data-t="overview" class="on">Обзор</button><button data-t="funnel">Воронка</button>
+  <button data-t="acq">Источники</button><button data-t="geo">Страны</button><button data-t="money">Деньги</button>
+  <button data-t="ret">Удержание</button>
+ </div>
+<section class="tab on" id="t-overview">
+ <div class="grid" id="kpis"><p class="meta">Загрузка…</p></div>
+ <div class="insbox" style="margin-top:18px"><h2>Что улучшить <small>автоматические выводы по цифрам за период</small></h2><div class="ins" id="insights"></div></div>
+ <h2>Установки по дням <small>органика / реклама / без атрибуции</small></h2>
+ <div class="card"><div class="legend" id="lg1"></div><div id="ch1"></div></div>
+ <h2>Подписки и выручка по дням</h2>
+ <div class="card"><div class="legend" id="lg2"></div><div id="ch2"></div></div>
+</section>
+
+<section class="tab" id="t-funnel">
+ <h2>Воронка установок <small>доля установивших за период, дошедших до шага</small>
+  <select id="abv" style="margin-left:10px"><option value="">все пользователи</option><option value="A">только вариант A</option><option value="B">только вариант B</option></select></h2><div class="card" id="funnel"></div>
+ <p class="meta" style="margin:14px 0 0">Результаты A/B-тестов (пейвол, экран оценки) — в разделе «A/B тесты» слева.</p>
+ <div class="two"><div><h2>Онбординг <small>по экранам</small></h2><div class="card" id="onb"></div></div>
+ <div><h2>Когда покупают <small>от установки до триала/покупки</small></h2><div class="card" id="ttp"></div></div></div>
+ <h2>Пейвол по триггерам <small>где показали → нажали «купить» → купили</small></h2><div id="paywall"></div>
+ <h2>Закрытые функции → покупка <small>купили в течение 24 ч после упора в PRO</small></h2><div id="features"></div>
+</section>
+
+<section class="tab" id="t-acq">
+ <h2>Органика vs реклама <small>за выбранный период</small></h2><div id="compare"></div>
+ <h2>Источники и кампании <small>когорта установок периода: конверсия, выручка, расходы</small></h2><div id="sources"></div>
+ <h2>Ссылки и параметры <small>что пришло из AppsFlyer / OneLink: источник (pid) · кампания (c) · af_channel · deep_link_value · sub1</small></h2>
+ 
+ <div id="links"></div>
+</section>
+
+<section class="tab" id="t-geo">
+ <p class="hint" style="margin-top:14px">Нажмите на страну в таблице — вся админка (обзор, воронка, деньги, удержание) отфильтруется по ней. Сбросить — «Все страны» вверху.</p>
+ <div class="two"><div><h2>Выручка по странам <small>топ-12</small></h2><div class="card" id="geo-rev"></div></div>
+ <div><h2>Установки по странам <small>топ-12 · доля органики</small></h2><div class="card" id="geo-inst"></div></div></div>
+ <div class="two"><div><h2>Лучшая конверсия <small>уст→подписка, от 20 установок</small></h2><div class="card" id="geo-best"></div></div>
+ <div><h2>Самый высокий ARPU <small>выручка на установку, от 20 установок</small></h2><div class="card" id="geo-arpu"></div></div></div>
+ <h2>Все страны <small>когорта установок периода · органика и реклама</small></h2><div id="countries"></div>
+</section>
+
+<section class="tab" id="t-money">
+ <h2>Продукты <small>триалы, конверсии, продления, возвраты</small></h2><div id="products"></div>
+ <h2>Когорты триалов <small>по неделям старта триала</small></h2><div id="trials"></div>
+ <h2>LTV когорт <small>выручка на установку через 0 / 7 / 30 дней</small></h2><div id="ltv"></div>
+ <div class="two"><div><h2>Статусы подписок</h2><div id="status"></div></div><div><h2>Причины отмены <small>за период</small></h2><div id="reasons"></div>
+ <h2>Через сколько отменяют</h2><div id="cafter"></div></div></div>
+ <h2>Платёжные проблемы <small>Apple не смогла списать оплату → баннер «Обновите оплату» → оплата прошла</small></h2>
+ <div class="two"><div class="card" id="bill"></div><div id="billnow"></div></div>
+ <h2>Win-back <small>отключили автопродление → увидели скидку на возвращение → купили</small></h2><div class="card" id="winback"></div>
+ <h2>Время покупок <small>час UTC — для пушей и показа рекламы</small></h2><div class="card"><div class="legend" id="lg3"></div><div id="ch3"></div></div>
+</section>
+
+<section class="tab" id="t-ret">
+ <h2>Удержание <small>доля вернувшихся на день N (по неделям установки)</small></h2><div id="retention"></div>
+ <h2>Версии приложения <small>как конвертирует каждый релиз</small></h2><div id="versions"></div>
+ <h2>Что делают в приложении <small>и доля подписчиков среди них</small></h2><div id="engagement"></div>
+</section>
+
+<section class="tab" id="t-rel" style="display:none">
+ <p class="hint" style="margin-top:14px">Что изменили новые версии: пуш после старта триала, напоминания (день 1/3/7/14) и «Проверка безопасности». Данные появляются с версии 2.1. Фильтры сегмента, страны и периода сверху работают и здесь.</p>
+ <h2>По версиям <small>активные, триалы, отмены в тот же день, триал→оплата, проверка безопасности</small></h2><div id="rel_versions"></div>
+ <h2>Пуш после старта триала <small>снижает ли отмены в тот же день · триал→оплата считается для триалов старше 4 дней</small></h2><div id="rel_trialpush"></div>
+ <h2>Открытия пушей <small>по типу и версии · купили в течение 24 ч после нажатия</small></h2><div id="rel_push"></div>
+ <div class="two"><div><h2>Что находит проверка <small>последняя проверка каждого пользователя</small></h2><div class="card" id="rel_issues"></div></div>
+ <div><h2>Что нажимают в проверке <small>и покупки в течение 24 ч</small></h2><div id="rel_actions"></div></div></div>
+</section>
+
+</div>
+
+<div class="page" id="p-abtests">
+ <div class="head"><div><h1>A/B тесты</h1><div class="sub">кто в каком варианте, что делают и сколько платят · <span id="abperiod"></span></div></div>
+  <div class="right"><span class="pills" id="abpills"><button data-d="7">7 дн.</button><button data-d="30">30 дн.</button><button data-d="90">90 дн.</button><button data-d="365">365 дн.</button></span>
+   <button class="btn sm" id="abgo" title="Обновить">↻</button></div></div>
+ <div class="subtabs" id="abtabs"><button data-t="paywall" style="display:none">Пейвол</button><button data-t="rating" class="on">Оценка</button><button data-t="cfg">Управление</button></div>
+
+ <section class="stab" id="st-paywall">
+  <p class="meta" id="abstat_pay"></p>
+  <h2>Результаты по вариантам <small>когорта установок периода с назначенным вариантом</small></h2><div id="ab"></div>
+  <div class="two"><div><h2>Воронка · вариант A</h2><div class="card" id="abfa"></div></div><div><h2>Воронка · вариант B</h2><div class="card" id="abfb"></div></div></div>
+  <p class="meta" style="margin-top:12px">В тест попадают только новые пользователи, установившие приложение после включения теста. Фильтры сегмента и страны берутся со страницы «Аналитика».</p>
+ </section>
+
+ <section class="stab on" id="st-rating">
+  <p class="meta" id="abstat_rate"></p>
+  <div class="card" id="abverdict" style="margin-bottom:12px"></div>
+  <div id="abrate"><p class="meta">Загрузка…</p></div>
+  <p class="meta" style="margin-top:12px">A — экран «Как вам Raise?» с кнопкой «Не сейчас». B — экран «Оцените — и день Pro ваш»: звёзды и кнопка «Оценить и получить день Pro». «вне теста» — те, кто видел экран без назначенного варианта (тест выключен или старая версия). Считаем пользователей, а не события.</p>
+ </section>
+
+ <section class="stab" id="st-cfg">
+  <h2>Экран оценки <small>изменения применяются в течение ~5 мин, новым пользователям</small></h2>
+  <p class="meta" id="abstat_rate2"></p>
+  <div class="card cfg" id="abcfg_rate"><p class="meta">Загрузка…</p></div>
+  <h2 style="display:none">Пейвол</h2>
+  <div class="card cfg" id="abcfg_pay" style="display:none"><p class="meta">Загрузка…</p></div>
+  <p style="margin-top:8px"><button class="btn sm" id="absave" style="display:none">Сохранить</button> <span id="abcfgmsg" class="meta"></span></p>
+ </section>
+</div>
+
+<div class="page" id="p-users">
+ <div class="head"><div><h1>Пользователи</h1><div class="sub" id="umsg">последние активные за период · нажмите на строку — карточка пользователя</div></div>
+  <div class="right"><input type="search" id="uq" placeholder="Поиск по user_id / Adapty profile" size="30"/></div></div>
+ <div class="chips" id="uchips"><button data-f="new">🆕 Только новые</button><button data-f="all" class="on">Все</button><button data-f="paying">Платящие</button><button data-f="trial">Триал</button>
+  <button data-f="churned">Отменили / истекли</button><button data-f="free">Бесплатные</button><button data-f="feedback">Оставили оценку</button></div>
+ <div id="users"><p class="meta">Загрузка…</p></div>
+</div>
+
+<div class="page" id="p-feedback">
+ <div class="head"><div><h1>Отзывы</h1><div class="sub">оценки и отзывы из приложения: экран «Как вам Raise?» после подарка «1 день Pro бесплатно»</div></div>
+  <div class="right"><input type="search" id="fq" placeholder="Поиск по тексту" size="26"/></div></div>
+ <div class="chips" id="vchips"><button data-v="" class="on">Все версии</button></div>
+ <div class="grid" id="fbkpis"><p class="meta">Загрузка…</p></div>
+ <div class="two"><div><h2>Оценки <small>последняя оценка каждого пользователя · 🗑 удаляет все оценки этой строки за период</small></h2><div class="card" id="fbstars"></div></div>
+ <div><h2>Подарок: 1 день Pro <small>пейвол и оффер закрыты → «ты счастливчик» → оценка → день Pro</small> <button class="del mini" data-delgift="all" title="Очистить всю воронку подарка за период">🗑 очистить</button></h2><div class="card" id="fbgift"></div></div></div>
+ <h2>Все отзывы <small>текст после 1–3 звёзд, новые сверху</small></h2>
+ <div class="chips" id="fchips"><button data-s="" class="on">Все</button><button data-s="1">★ 1</button><button data-s="2">★ 2</button><button data-s="3">★ 3</button></div>
+ <div class="fb" id="fblist"></div>
+</div>
+
+<div class="page" id="p-ads">
+ <div class="head"><div><h1>Расходы на рекламу</h1><div class="sub">для CPI / CAC / ROAS во вкладке «Аналитика → Источники»</div></div></div>
+ <div class="card"><p class="hint">CSV с заголовком: date,source,campaign_id,campaign_name,adset_id,adset_name,spend_usd,impressions,clicks,installs — source и campaign_id как в AppsFlyer (media_source / campaign_id).</p>
+ <textarea id="spend" rows="8" style="width:100%" placeholder="2026-10-01,Apple Search Ads,123,Brand,,,25.40,1000,80,30"></textarea>
+ <p style="margin-top:8px"><button class="btn sm" id="spendgo">Импортировать</button> <span id="spendmsg" class="meta"></span></p></div>
+</div>
+
+<div class="page" id="p-anim">
+ <div class="head"><div><h1>Анимации зарядки</h1><div class="sub">видео хранятся в Cloudflare R2, приложение подхватывает изменения при открытии вкладки «Зарядка» или свайпе вниз</div></div></div>
+ <p class="hint">Порядок меняется стрелками ←/→. «Показывать» выключает анимацию в приложении без удаления файла. PRO — только для подписчиков. Нажмите на превью, чтобы посмотреть видео. Изменения применяются после «Сохранить».</p>
+ <p style="margin-top:10px"><button class="btn sm" id="anim-save">Сохранить</button> <button class="btn sm ghost" id="anim-add" style="background:#fff;color:var(--ink);border:1px solid var(--line)">+ Добавить анимацию</button> <span id="animmsg" class="meta"></span></p>
+ <div class="card" id="anim-new" style="display:none;margin-top:12px">
+  <div class="newanim">
+   <div><div class="meta">Название</div><input type="text" id="an-title" placeholder="Neon wave"/></div>
+   <div><div class="meta">Видео (.mp4, вертикальное 9:16, до 25 МБ)</div><input type="file" id="an-video" accept="video/mp4,video/quicktime"/></div>
+   <div><div class="meta">Превью (.jpg / .png, 9:16)</div><input type="file" id="an-thumb" accept="image/jpeg,image/png,image/webp"/></div>
+   <div><label class="meta"><input type="checkbox" id="an-pro" checked/> PRO</label></div>
+   <div><button class="btn sm" id="an-go">Загрузить и добавить</button></div>
   </div>
-</main>
+ </div>
+ <div class="animgrid" id="anim"><p class="meta">Загрузка…</p></div>
 </div>
 
-<dialog id="dlgSettings"><h3 style="margin-top:0">Settings</h3>
-<div class="grid10" style="grid-template-columns:1fr 1fr">
-<label class="f">GitHub owner <input id="sOwner" value="KostiantynChukhas" placeholder="your-github-username"></label>
-<label class="f">Repository <input id="sRepo" value="raise-site" placeholder="raise-site"></label>
-<label class="f">Branch <input id="sBranch" value="main"></label>
-<label class="f">Content folder in repo <input id="sPath" value="content"></label>
-<label class="f" style="grid-column:1/3">GitHub token (fine-grained, Contents read/write) <input id="sToken" type="password" placeholder="github_pat_…"></label>
-<label class="f" style="grid-column:1/3">AI proxy URL (server/ai-proxy) <input id="sProxy" value="https://raise-ai.k-chukhas.workers.dev"></label>
-<label class="f" style="grid-column:1/3">Admin token (ADMIN_TOKEN of the proxy — not the OpenAI key) <input id="sAdmintoken" type="password"></label>
+<div class="page" id="p-settings">
+ <div class="head"><div><h1>Конфиг</h1><div class="sub">настройки приложения · применяются в течение ~5 мин</div></div></div>
+ <div class="card cfg" id="cfg"><p class="meta">Загрузка…</p></div>
+ <p style="margin-top:8px"><button class="btn sm" id="save" style="display:none">Сохранить</button> <span id="cfgmsg" class="meta"></span></p>
 </div>
-<p class="kbd">Everything is stored in this browser's localStorage only.</p>
-<div class="row" style="justify-content:flex-end"><button id="sCancel">Cancel</button><button class="primary" id="sSave">Save & connect</button></div></dialog>
 
-<dialog id="dlgNewPack"><h3 style="margin-top:0">New pack</h3>
-<div class="grid10" style="grid-template-columns:1fr 1fr">
-<label class="f">Topic (a-z, used as id prefix) <input id="npTopic" placeholder="e.g. medicine"></label>
-<label class="f">Level <select id="npLevel"><option>a1</option><option>a2</option><option>b1</option><option>b2</option><option>c1</option></select></label>
-</div><p class="muted">Topics the app knows: general, travel, food, work, it, business, health, shopping, home, family, emotions, education, finance, transport, nature, sports, culture, relationships, emergency, phrases. A new topic name will show as “Everyday” in the app until the app adds it — prefer existing topics.</p>
-<div class="row" style="justify-content:flex-end"><button id="npCancel">Cancel</button><button class="primary" id="npCreate">Create</button></div></dialog>
-
-<dialog id="dlgAI"><h3 style="margin-top:0">AI: add words to <span id="aiPack"></span></h3>
-<label class="f">Describe what to add (or paste a list of English words)<textarea id="aiPrompt" rows="4" placeholder="e.g. 15 words about renting a car: deposit, insurance, mileage…"></textarea></label>
-<div class="row"><label class="f">How many <input id="aiCount" type="number" value="10" min="1" max="40" style="width:90px"></label><span class="muted">Translates into all 10 languages; you review before publishing.</span></div>
-<div class="row" style="justify-content:flex-end"><button id="aiCancel">Cancel</button><button class="primary" id="aiRun">Generate</button></div></dialog>
-
-<div class="toast" id="toast"></div>
+<div class="page" id="p-health">
+ <div class="head"><div><h1>События</h1><div class="sub">сбор событий из приложения: сколько пришло, что отклонено, вебхуки Adapty</div></div></div>
+ <div class="grid" id="health"></div>
+ <h2>Отклонённые события</h2><div id="rejected"></div>
+ <h2>Аномалии интеграций</h2><div id="anomalies"></div>
+</div>
+</div></div>
+<div class="drawer-bg" id="dbg"></div><aside class="drawer" id="drawer"><div class="in" id="dcont"></div></aside>
 <script>
-const LANGS=["en","uk","ru","pl","de","fr","es","it","pt","tr"];
-const LEVELS=["a1","a2","b1","b2","c1"];
-const S={get:k=>localStorage.getItem("raise_"+k)||"",set:(k,v)=>localStorage.setItem("raise_"+k,v)};
-let manifest=null, packs={}, shas={}, dirty=new Set(), current=null, deleted=new Set();
+(function(){
+var $ = function(id){ return document.getElementById(id); };
+var tok = $('tok');
+try { tok.value = localStorage.getItem('rw_admin') || ''; $('seg').value = localStorage.getItem('rw_seg') || 'all';
+      $('days').value = localStorage.getItem('rw_days') || '30'; } catch(e) {}
+var R = {}, CFG = null;
+var API = 'https://raise-api.raise-app.workers.dev';
+try { var qa = new URLSearchParams(location.search).get('api'); if (qa) localStorage.setItem('rw_api', qa.replace(/\/$/, '')); API = localStorage.getItem('rw_api') || API; } catch(e) {}
 
-const $=s=>document.querySelector(s);
-function toast(msg,err){const t=$("#toast");t.textContent=msg;t.className="toast show"+(err?" err":"");clearTimeout(t._x);t._x=setTimeout(()=>t.className="toast",err?6000:3000)}
-function cfg(){return{owner:S.get("owner"),repo:S.get("repo"),branch:S.get("branch")||"main",path:(S.get("path")||"content").replace(/^\/|\/$/g,""),token:S.get("token"),proxy:(S.get("proxy")||"").replace(/\/$/,""),admintoken:S.get("admintoken")}}
-function api(p,opt={}){const c=cfg();return fetch("https://api.github.com"+p,{...opt,headers:{Authorization:"Bearer "+c.token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.headers||{})}})}
-const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+// ---------- tabs ----------
+$('tabs').onclick = function(ev){
+  var t = ev.target.getAttribute('data-t'); if (!t) return;
+  [].forEach.call(document.querySelectorAll('.tabs button'), function(b){ b.classList.toggle('on', b === ev.target); });
+  [].forEach.call(document.querySelectorAll('section.tab'), function(s){ s.classList.toggle('on', s.id === 't-' + t); });
+  try { localStorage.setItem('rw_tab', t); } catch(e) {}
+};
+try { var lt = localStorage.getItem('rw_tab'); if (lt) { var b = document.querySelector('.tabs button[data-t="' + lt + '"]'); if (b) b.click(); } } catch(e) {}
 
-async function getFile(path){const c=cfg();const r=await api(`/repos/${c.owner}/${c.repo}/contents/${c.path}/${path}?ref=${c.branch}`);if(!r.ok)throw new Error(path+": "+r.status);const j=await r.json();return{sha:j.sha,text:b64d(j.content)}}
-async function putFile(path,text,msg,sha){const c=cfg();const r=await api(`/repos/${c.owner}/${c.repo}/contents/${c.path}/${path}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64e(text),branch:c.branch,...(sha?{sha}:{})})});if(!r.ok)throw new Error("PUT "+path+": "+r.status+" "+(await r.text()).slice(0,200));return(await r.json()).content.sha}
-async function delFile(path,msg,sha){const c=cfg();const r=await api(`/repos/${c.owner}/${c.repo}/contents/${c.path}/${path}`,{method:"DELETE",body:JSON.stringify({message:msg,sha,branch:c.branch})});if(!r.ok)throw new Error("DELETE "+path+": "+r.status)}
-
-async function load(){
-  const c=cfg();if(!c.owner||!c.repo||!c.token){$("#dlgSettings").showModal();return}
-  $("#repoLabel").textContent=`${c.owner}/${c.repo} · ${c.path}`;
-  try{
-    const m=await getFile("manifest.json");manifest=JSON.parse(m.text);shas["manifest.json"]=m.sha;
-    packs={};dirty.clear();deleted.clear();
-    await Promise.all(manifest.packs.map(async p=>{const f=await getFile(p.url);packs[p.id]=JSON.parse(f.text);shas[p.url]=f.sha}));
-    renderList();updateDirty();toast(`Loaded ${manifest.packs.length} packs, ${Object.values(packs).reduce((a,p)=>a+p.concepts.length,0)} words`);
-  }catch(e){toast("Load failed: "+e.message,true)}
+// ---------- formatting ----------
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+function n(v){ return v == null || v === '' ? null : Number(v); }
+function money(v){ v = n(v); return v == null ? '—' : '$' + v.toLocaleString('en-US', {minimumFractionDigits: v < 10 && v % 1 ? 2 : 0, maximumFractionDigits: 2}); }
+function pct(v){ v = n(v); return v == null ? '—' : (Math.round(v * 10) / 10) + '%'; }
+function num(v){ v = n(v); return v == null ? '—' : v.toLocaleString('en-US'); }
+var LABEL = {
+  trigger:'Триггер', viewers:'Увидели', tapped_buy:'Нажали купить', purchased:'Купили', cancelled_in_apple_sheet:'Отмена в окне Apple',
+  failed:'Ошибка', closed:'Закрыли', cr_pct:'CR, %', tap_to_buy_pct:'Нажал→купил, %', bought_weekly:'Неделя', bought_yearly:'Год', bought_offer:'Спецпредл.',
+  feature:'Функция', users_locked:'Упёрлись', bought_24h:'Купили за 24 ч',
+  variant:'Вариант', test:'Тест', saw_paywall:'Увидели пейвол', tapped_buy:'Нажали «купить»', used_app:'Учили слова / циферблат',
+  trial_converted:'Триал → оплата', refunded:'Возвраты', paywall_to_tap_pct:'Пейвол → «купить»', tap_to_start_pct:'«Купить» → триал/оплата',
+  segment:'Тип', source:'Источник', campaign:'Кампания', installs:'Установки', trials:'Триалы', payers:'Платящие',
+  install_to_trial_pct:'Уст→триал, %', install_to_paid_pct:'Уст→оплата, %', revenue_usd:'Выручка', arpu_usd:'ARPU', spend_usd:'Расход',
+  cpi_usd:'CPI', cac_usd:'CAC', roas_pct:'ROAS, %', country:'Страна', organic_pct:'Органика, %', paywall_viewers:'Видели пейвол',
+  install_to_sub_pct:'Уст→подписка, %', product_id:'Продукт', trial_to_paid_pct:'Триал→оплата, %', direct_purchases:'Покупки без триала',
+  trial_conversions:'Конверсии триала', renewals:'Продления', proceeds_usd:'Доход (после Apple)', refunds:'Возвраты', refund_rate_pct:'Возвраты, %',
+  active_paid:'Активные платные', active_trials:'Активные триалы', week:'Неделя', converted:'Оплатили', pending:'Ещё идут',
+  cancelled_auto_renew:'Выключили автопродление', arpu_d0:'ARPU д0', arpu_d7:'ARPU д7', arpu_d30:'ARPU д30', arpu_to_date:'ARPU сейчас',
+  d1_pct:'День 1', d3_pct:'День 3', d7_pct:'День 7', d14_pct:'День 14', d30_pct:'День 30', app_version:'Версия', first_install:'Первая установка',
+  saw_paywall_pct:'Видели пейвол, %', trial_pct:'Триал, %', paid_pct:'Оплата, %', status:'Статус', users:'Пользователи', reason:'Причина',
+  after:'Через', action:'Действие', events:'События', of_them_subscribers:'Из них подписчики', subscriber_pct:'Подписчики, %',
+  event_name:'Событие', rejection_reason:'Причина', n:'Кол-во', created_at:'Когда', kind:'Тип', details:'Детали', metric:'Метрика',
+  organic:'Органика', paid:'Реклама', installs_prev:'Установки (прошлый период)', organic_installs:'Органика', paid_installs:'Реклама',
+  active_users:'Активные', trial_push_sent_pct:'Пуш триала отправлен, %', trial_push_open_pct:'Пуш открыли, %',
+  cancel_same_day_pct:'Отмена в тот же день, %', security_users:'Открыли проверку', security_pct:'Открыли проверку, %',
+  security_scans:'Проверок', avg_security_score:'Средняя оценка', reengage_push_users:'Вернулись по напоминанию',
+  push_group:'Группа', matured:'Триалов старше 4 дней', push_kind:'Пуш', opens:'Открытия', check_name:'Проверка',
+  channel:'Канал (af_channel)', deep_link_value:'deep_link_value', sub1:'sub1',
+  organic_revenue_usd:'Выручка органики', paid_revenue_usd:'Выручка рекламы', arppu_usd:'ARPPU', step:'Шаг', when:'Когда', subscribers:'Подписчики', share_pct:'Доля, %',
+  seen:'Увидели экран', picked:'Выбрали звёзды', picked_pct:'Выбрали, %', submitted:'Нажали «Оценить»', submitted_pct:'Нажали «Оценить», %',
+  high:'4–5 ★', high_pct:'4–5 ★, %', low:'1–3 ★', low_pct:'1–3 ★, %', skipped:'Пропустили без оценки', skipped_pct:'Пропуск, %',
+  feedback:'Написали отзыв', system_prompt:'Окно App Store', system_pct:'Окно App Store, %', avg_stars:'Средняя ★'
+};
+var RN = null; try { RN = new Intl.DisplayNames(['ru'], {type: 'region'}); } catch(e) {}
+function flag(c){ return /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(127397 + c.charCodeAt(0), 127397 + c.charCodeAt(1)) : '🏳️'; }
+function cname(c){ if (!c || c === '??') return '🏳️ Неизвестно'; var nm = c; try { nm = RN ? RN.of(c) : c; } catch(e) {} return flag(c) + ' ' + nm + ' (' + c + ')'; }
+function cell(k, v){
+  if (k === 'country') return '<td><a href="#" data-country="' + esc(v) + '">' + esc(cname(v)) + '</a></td>';
+  if (v == null || v === '') return '<td class="num">—</td>';
+  if (/_usd$|^arpu_d|^arpu_to/.test(k)) return '<td class="num">' + money(v) + '</td>';
+  if (/_pct$/.test(k)) return '<td class="num">' + pct(v) + '</td>';
+  if (typeof v === 'number') return '<td class="num">' + num(v) + '</td>';
+  return '<td>' + esc(v) + '</td>';
 }
-function renderList(){
-  const q=$("#search").value.trim().toLowerCase();const el=$("#packList");el.innerHTML="";
-  const byTopic={};manifest.packs.forEach(p=>{(byTopic[p.topic]=byTopic[p.topic]||[]).push(p)});
-  for(const topic of Object.keys(byTopic).sort()){
-    const h=document.createElement("div");h.className="topic";h.textContent=topic;el.appendChild(h);
-    for(const p of byTopic[topic].sort((a,b)=>LEVELS.indexOf(a.level)-LEVELS.indexOf(b.level))){
-      const pk=packs[p.id];if(!pk)continue;
-      const hits=q?pk.concepts.filter(c=>Object.values(c.t).some(v=>v.toLowerCase().includes(q))).length:null;
-      if(q&&!hits)continue;
-      const d=document.createElement("div");d.className="pack"+(current===p.id?" on":"");
-      d.innerHTML=`<span>${p.level.toUpperCase()} <small>${pk.concepts.length} words${hits!=null?` · ${hits} hits`:""}</small>${dirty.has(p.id)?' <span class="dirty">●</span>':""}</span><span class="tag ${p.premium?"pro":""}">${p.premium?"Pro":"free"}</span>`;
-      d.onclick=()=>{current=p.id;renderList();renderEditor()};el.appendChild(d);
-    }
+var TABLES = {}, TOPTS = {};
+var KEYS = {
+  paywall: ['trigger','viewers','tapped_buy','purchased','cr_pct','tap_to_buy_pct','cancelled_in_apple_sheet','failed','closed','bought_weekly','bought_yearly','bought_offer'],
+  features: ['feature','users_locked','bought_24h','cr_pct'],
+  sources: ['segment','source','campaign','installs','trials','payers','install_to_trial_pct','install_to_paid_pct','revenue_usd','arpu_usd','spend_usd','cpi_usd','cac_usd','roas_pct'],
+  countries: ['country','installs','installs_prev','organic_installs','paid_installs','organic_pct','saw_paywall_pct','trials','payers','install_to_sub_pct','install_to_paid_pct','trial_to_paid_pct','revenue_usd','organic_revenue_usd','paid_revenue_usd','proceeds_usd','arpu_usd','arppu_usd','active_paid'],
+  products: ['product_id','trials','trial_to_paid_pct','trial_conversions','direct_purchases','renewals','revenue_usd','proceeds_usd','refunds','refund_rate_pct','active_paid','active_trials'],
+  trials: ['week','trials','converted','pending','trial_to_paid_pct','cancelled_auto_renew'],
+  ltv: ['week','installs','payers','arpu_d0','arpu_d7','arpu_d30','arpu_to_date','revenue_usd','proceeds_usd'],
+  status: ['status','product_id','users'], reasons: ['reason','users'], cafter: ['after','users'],
+  retention: ['week','installs','d1_pct','d3_pct','d7_pct','d14_pct','d30_pct'],
+  versions: ['app_version','first_install','installs','saw_paywall_pct','trial_pct','paid_pct','arpu_usd'],
+  engagement: ['action','users','events','of_them_subscribers','subscriber_pct'],
+  billnow: ['status','users'],
+  rel_versions: ['app_version','active_users','trials','trial_push_sent_pct','trial_push_open_pct','cancel_same_day_pct','trial_to_paid_pct','security_users','security_pct','security_scans','avg_security_score','reengage_push_users'],
+  rel_trialpush: ['app_version','push_group','trials','cancel_same_day_pct','matured','trial_to_paid_pct'],
+  rel_push: ['push_kind','app_version','opens','users','bought_24h'],
+  rel_actions: ['action','check_name','users','events','bought_24h'],
+  rejected: ['event_name','rejection_reason','app_version','n'], anomalies: ['created_at','kind','details'],
+  links: ['source','campaign','channel','deep_link_value','sub1','installs','trials','payers','install_to_paid_pct','revenue_usd']
+};
+function vcmp(a, b){ var x = String(a || '').split('.').map(Number), y = String(b || '').split('.').map(Number);
+  for (var i = 0; i < Math.max(x.length, y.length); i++) { var d = (y[i] || 0) - (x[i] || 0); if (d) return d; } return 0; }
+function table(id, rows, opts){
+  opts = opts || TOPTS[id] || {}; TOPTS[id] = opts; var el = $(id); if (!el) return;
+  if (rows && rows.error) { el.innerHTML = '<p class="err">' + (/analytics_ab/.test(rows.error)
+      ? 'Нет A/B-отчёта: выполните migrations/postgres/0005_ab_paywall.sql в Supabase → SQL Editor → Run, затем «Загрузить».'
+      : /PGRST202|analytics_release/.test(rows.error)
+      ? 'Нет отчётов по релизам: выполните migrations/postgres/0003_security_check.sql в Supabase → SQL Editor → Run, затем «Загрузить».'
+      : esc(rows.error)) + '</p>'; return; }
+  if (!rows || !rows.length) { el.innerHTML = '<p class="meta">Пока нет данных.</p>'; return; }
+  TABLES[id] = rows;
+  var keys = (opts.keys || KEYS[id] || Object.keys(rows[0])).filter(function(k){ return k in rows[0] || (KEYS[id] || []).indexOf(k) >= 0; });
+  var heat = opts.heat || [];
+  var h = '<div style="text-align:right;margin:-6px 0 4px"><button class="csv" data-csv="' + id + '">CSV</button></div><div class="tablewrap"><table><tr>' +
+    keys.map(function(k){ return '<th data-sort="' + id + '|' + k + '">' + esc(LABEL[k] || k) + '</th>'; }).join('') + '</tr>' +
+    rows.map(function(r){ return '<tr>' + keys.map(function(k){
+      var c = cell(k, r[k]);
+      if (heat.indexOf(k) >= 0 && r[k] != null) { var a = Math.min(1, Number(r[k]) / (opts.heatMax || 60)); c = c.replace('<td class="num">', '<td class="num" style="background:rgba(58,160,255,' + (0.08 + a * 0.5).toFixed(2) + ')">'); }
+      return c; }).join('') + '</tr>'; }).join('') + '</table></div>';
+  el.innerHTML = h;
+}
+document.addEventListener('click', function(ev){
+  var cc = ev.target.getAttribute && ev.target.getAttribute('data-country');
+  if (cc != null) { ev.preventDefault(); setCountry(cc); showPage('analytics'); var b = document.querySelector('.tabs button[data-t="overview"]'); if (b) b.click(); load(); return; }
+  var c = ev.target.getAttribute && ev.target.getAttribute('data-csv');
+  if (c && TABLES[c]) {
+    var rows = TABLES[c], keys = KEYS[c] || Object.keys(rows[0]);
+    var text = [keys.join(',')].concat(rows.map(function(r){ return keys.map(function(k){ var v = r[k] == null ? '' : String(r[k]); return /[",]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }).join(','); })).join('\n');
+    var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], {type: 'text/csv'})); a.download = c + '.csv'; a.click();
   }
-}
-function metaOf(id){return manifest.packs.find(p=>p.id===id)}
-function renderEditor(){
-  const p=packs[current],m=metaOf(current);if(!p){$("#editor").style.display="none";$("#empty").style.display="";return}
-  $("#empty").style.display="none";$("#editor").style.display="";
-  $("#packTitle").textContent=`${p.topic} · ${p.level.toUpperCase()}`;$("#packMeta").textContent=`v${p.version} · ${p.concepts.length} words`;
-  $("#packLevel").value=p.level;$("#packPremium").value=String(m.premium);
-  const q=$("#search").value.trim().toLowerCase();
-  const tb=$("#tbl tbody");tb.innerHTML="";
-  p.concepts.forEach((c,i)=>{
-    if(q&&!Object.values(c.t).some(v=>v.toLowerCase().includes(q)))return;
-    const tr=document.createElement("tr");
-    tr.innerHTML=`<td class="id">${c.id.replace(p.topic+".","")}</td>`+LANGS.map(l=>`<td><input data-i="${i}" data-l="${l}" value="${esc(c.t[l]||"")}"></td>`).join("")+`<td><input data-i="${i}" data-l="ex" value="${esc((c.ex&&c.ex.en)||"")}"></td><td><button class="danger" data-del="${i}">✕</button></td>`;
-    tb.appendChild(tr);
+  var s = ev.target.getAttribute && ev.target.getAttribute('data-sort');
+  if (s) {
+    var p = s.split('|'), id = p[0], k = p[1], rows = (TABLES[id] || []).slice();
+    var dir = ev.target.getAttribute('data-dir') === 'desc' ? 1 : -1;
+    rows.sort(function(a, b){ var x = a[k], y = b[k]; if (x == null) return 1; if (y == null) return -1;
+      return (isNaN(x) || isNaN(y) ? String(x).localeCompare(String(y)) : x - y) * dir; });
+    table(id, rows); var th = document.querySelector('[data-sort="' + s + '"]'); if (th) th.setAttribute('data-dir', dir === 1 ? 'asc' : 'desc');
+  }
+});
+
+// ---------- charts (inline SVG) ----------
+function legend(id, series){ $(id).innerHTML = series.map(function(s){ return '<span><i style="background:' + s.color + '"></i>' + esc(s.label) + '</span>'; }).join(''); }
+function bars(id, rows, xKey, series, line, lab){
+  lab = lab || function(v){ return String(v).slice(5); };
+  var el = $(id); if (!rows || !rows.length || rows.error) { el.innerHTML = '<p class="meta">Нет данных.</p>'; return; }
+  var W = 1000, H = 230, P = 34, bw = (W - P * 2) / rows.length;
+  var max = 1, lmax = 1;
+  rows.forEach(function(r){ var s = 0; series.forEach(function(se){ s += Number(r[se.key] || 0); }); max = Math.max(max, s); if (line) lmax = Math.max(lmax, Number(r[line.key] || 0)); });
+  var g = '';
+  for (var i = 0; i <= 4; i++) { var y = H - P - (H - P * 2) * i / 4; g += '<line x1="' + P + '" x2="' + (W - P) + '" y1="' + y + '" y2="' + y + '" stroke="rgba(17,24,39,.07)"/><text x="2" y="' + (y + 3) + '">' + Math.round(max * i / 4) + '</text>';
+    if (line) g += '<text x="' + (W - P + 4) + '" y="' + (y + 3) + '">' + (line.money ? '$' : '') + Math.round(lmax * i / 4) + '</text>'; }
+  rows.forEach(function(r, i){
+    var x = P + i * bw, y0 = H - P;
+    series.forEach(function(se){ var v = Number(r[se.key] || 0), h = (H - P * 2) * v / max; if (h > 0) { g += '<rect x="' + (x + bw * 0.15) + '" y="' + (y0 - h) + '" width="' + Math.max(1, bw * 0.7) + '" height="' + h + '" rx="2" fill="' + se.color + '"><title>' + esc(r[xKey]) + ' · ' + esc(se.label) + ': ' + v + '</title></rect>'; y0 -= h; } });
+    if (rows.length <= 40 ? i % Math.ceil(rows.length / 10) === 0 : i % Math.ceil(rows.length / 12) === 0) g += '<text x="' + (x + 2) + '" y="' + (H - 14) + '">' + esc(lab(r[xKey])) + '</text>';
   });
+  if (line) {
+    var pts = rows.map(function(r, i){ return (P + i * bw + bw / 2) + ',' + (H - P - (H - P * 2) * Number(r[line.key] || 0) / lmax); }).join(' ');
+    g += '<polyline points="' + pts + '" fill="none" stroke="' + line.color + '" stroke-width="2.2"/>';
+  }
+  el.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" preserveAspectRatio="none" style="height:230px">' + g + '</svg>';
 }
-const esc=s=>s.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
-function markDirty(id){dirty.add(id);updateDirty();renderList()}
-function updateDirty(){const n=dirty.size+deleted.size;$("#dirtyLabel").textContent=n?`${n} unpublished change${n>1?"s":""}`:"";$("#btnPublish").disabled=!n}
+function hbars(id, rows, labelKey, valKey, pctKey, fv){
+  fv = fv || num;
+  var el = $(id); if (!rows || !rows.length || rows.error) { el.innerHTML = '<p class="meta">Нет данных.</p>'; return; }
+  var max = Math.max.apply(null, rows.map(function(r){ return Number(r[valKey] || 0); }).concat([1]));
+  el.innerHTML = rows.map(function(r){ var v = Number(r[valKey] || 0);
+    return '<div class="fbar"><span>' + esc(r[labelKey]) + '</span><div class="bar" style="width:' + (100 * v / max).toFixed(1) + '%"></div><span class="v">' + fv(v) + (pctKey && r[pctKey] != null ? ' · ' + pct(r[pctKey]) : '') + '</span></div>'; }).join('');
+}
 
-$("#tbl").addEventListener("input",e=>{const i=+e.target.dataset.i,l=e.target.dataset.l;if(isNaN(i))return;const c=packs[current].concepts[i];
-  if(l==="ex"){c.ex=c.ex||{};c.ex.en=e.target.value}else c.t[l]=e.target.value;markDirty(current)});
-$("#tbl").addEventListener("click",e=>{const i=e.target.dataset.del;if(i==null)return;const c=packs[current].concepts[+i];if(!confirm(`Delete "${c.t.en}"?`))return;packs[current].concepts.splice(+i,1);markDirty(current);renderEditor()});
-$("#btnAddRow").onclick=()=>{const en=prompt("English word / phrase:");if(!en)return;addConcept(current,{en});renderEditor();markDirty(current);
-  const rows=$("#tbl tbody").children;rows[rows.length-1].scrollIntoView();};
-function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
-function addConcept(id,t,ex){const p=packs[id];let cid=p.topic+"."+slug(t.en||"word"),n=2;while(p.concepts.some(c=>c.id===cid))cid=p.topic+"."+slug(t.en)+"-"+n++;
-  const full={};LANGS.forEach(l=>full[l]=t[l]||"");p.concepts.push({id:cid,t:full,...(ex?{ex:{en:ex}}:{})})}
-$("#packLevel").onchange=e=>{const p=packs[current];const m=metaOf(current);p.level=e.target.value;m.level=p.level;markDirty(current);renderEditor()};
-$("#packPremium").onchange=e=>{metaOf(current).premium=e.target.value==="true";dirty.add("__manifest__");updateDirty();renderList()};
-$("#btnDeletePack").onclick=()=>{if(!confirm("Delete this whole pack from the catalog?"))return;const m=metaOf(current);deleted.add(m.url);manifest.packs=manifest.packs.filter(p=>p.id!==current);delete packs[current];dirty.delete(current);current=null;dirty.add("__manifest__");updateDirty();renderList();renderEditor()};
-$("#btnNewPack").onclick=()=>$("#dlgNewPack").showModal();$("#npCancel").onclick=()=>$("#dlgNewPack").close();
-$("#npCreate").onclick=()=>{const topic=slug($("#npTopic").value),level=$("#npLevel").value;if(!topic)return;const id=`${topic}-${level}`;if(packs[id]){toast("Pack exists",true);return}
-  packs[id]={id,topic,level,version:0,concepts:[]};manifest.packs.push({id,topic,level,count:0,url:`packs/${id}.json`,version:0,premium:level!=="a1"});dirty.add(id);dirty.add("__manifest__");current=id;$("#dlgNewPack").close();updateDirty();renderList();renderEditor()};
+function renderFunnel(){
+  var v = $('abv').value;
+  if (!v) { hbars('funnel', R.funnel, 'step', 'users', 'pct_of_installs'); return; }
+  var rows = (R.ab_funnel && R.ab_funnel.filter) ? R.ab_funnel.filter(function(r){ return r.variant === v; }) : [];
+  hbars('funnel', rows, 'step', 'users', 'pct_of_installs');
+}
+$('abv').onchange = renderFunnel;
 
-$("#btnAI").onclick=()=>{if(!current){toast("Pick a pack first",true);return}if(!cfg().proxy||!cfg().admintoken){toast("Add the AI proxy URL and admin token in Settings",true);return}$("#aiPack").textContent=current;$("#dlgAI").showModal()};
-$("#aiCancel").onclick=()=>$("#dlgAI").close();
-$("#aiRun").onclick=async()=>{const p=packs[current];const n=+$("#aiCount").value||10;const existing=new Set(Object.values(packs).flatMap(x=>x.concepts.map(c=>c.t.en.toLowerCase())));
-  $("#aiRun").disabled=true;$("#aiRun").textContent="Generating…";
-  try{
-    const r=await fetch(cfg().proxy+"/admin/pack",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+cfg().admintoken},body:JSON.stringify({topic:p.topic,level:p.level,count:n,avoid:[...existing].slice(0,400),prompt:$("#aiPrompt").value})});
-    if(!r.ok)throw new Error("proxy "+r.status+" "+(await r.text()).slice(0,160));
-    const arr=(await r.json()).words||[];
-    let added=0;for(const row of arr){if(!row.en||existing.has(row.en.toLowerCase()))continue;addConcept(current,row,row.ex);added++}
-    markDirty(current);renderEditor();$("#dlgAI").close();toast(`Added ${added} words — review, then publish`);
-  }catch(e){toast("AI failed: "+e.message,true)}finally{$("#aiRun").disabled=false;$("#aiRun").textContent="Generate"}};
+// ---------- A/B tests page (paywall, rating screen, settings) ----------
+var ABT = 'rating';
+function setAbTab(t, doLoad){
+  [].forEach.call($('abtabs').querySelectorAll('button'), function(b){ b.classList.toggle('on', b.getAttribute('data-t') === t); });
+  [].forEach.call(document.querySelectorAll('section.stab'), function(x){ x.classList.toggle('on', x.id === 'st-' + t); });
+  ABT = t; try { localStorage.setItem('rw_abtab', t); } catch(e) {}
+  if (doLoad && t === 'rating' && tok.value) loadRating();
+}
+$('abtabs').onclick = function(ev){ var t = ev.target.getAttribute && ev.target.getAttribute('data-t'); if (t) setAbTab(t, true); };
+try { var sat = localStorage.getItem('rw_abtab'); if (sat && $('st-' + sat)) setAbTab(sat, false); } catch(e) {}
+function renderAbPaywall(){
+  var rows = R.ab_summary;
+  table('ab', rows && rows.error ? rows : (rows || []), {keys: ['variant','test','users','saw_paywall','tapped_buy','cancelled_in_apple_sheet','paywall_to_tap_pct','tap_to_start_pct','trials','payers','trial_converted','install_to_trial_pct','install_to_paid_pct','revenue_usd','arpu_usd','refunded','used_app']});
+  var f = (R.ab_funnel && R.ab_funnel.filter) ? R.ab_funnel : [];
+  ['A', 'B'].forEach(function(v){ hbars('abf' + v.toLowerCase(), f.filter(function(r){ return r.variant === v; }), 'step', 'users', 'pct_of_installs'); });
+}
+function renderAbStatus(){
+  if (!CFG || !CFG.merged) return; var m = CFG.merged;
+  var skip = ' · «Не сейчас» в B: ' + (m.ab_rating_b_skip === 'delayed' ? 'появляется через 4 с' : 'нет кнопки');
+  var w = String(m.ab_rating_winner || '').toUpperCase(), sp = Number(m.ab_rating_split_b) || 0;
+  var rt = 'Тест экрана оценки — ' + (w ? 'всем принудительно вариант ' + w : sp > 0 ? 'идёт: ' + sp + '% пользователей видят B, остальные A' : 'выключен: все видят A (доля B = 0)') + skip;
+  var pw = String(m.ab_winner || '').toUpperCase(), ps = Number(m.ab_split_b) || 0;
+  var pt = 'Тест пейвола «' + (m.ab_test_name || '') + '» — ' + (pw ? 'всем принудительно вариант ' + pw : ps > 0 ? 'идёт: ' + ps + '% новых пользователей видят B' : 'выключен (доля B = 0)');
+  $('abstat_rate').textContent = rt; $('abstat_rate2').textContent = rt;
+}
+function renderAbCfg(){
+  if (!CFG) return;
+  cfgFill($('abcfg_rate'), CFG, function(k){ return /^ab_rating_/.test(k); });
+  cfgFill($('abcfg_pay'), CFG, function(k){ return /^ab_/.test(k) && !/^ab_rating_/.test(k); });
+  $('absave').style.display = ''; renderAbStatus();
+}
+$('absave').onclick = function(){ var b = {}, m = $('abcfgmsg');
+  [].forEach.call(document.querySelectorAll('#st-cfg input[type=text], #st-cfg input[type=number], #st-cfg select'), function(i){ var k = i.dataset.k;
+    if (k && i.value !== String(CFG.merged[k] == null ? '' : CFG.merged[k])) b[k] = (i.tagName !== 'SELECT' && i.value.trim() === '') ? null : i.value; });
+  if (!Object.keys(b).length) { m.className = 'meta'; m.textContent = 'Нет изменений'; return; }
+  saveCfg(b, 'abcfgmsg'); };
+function abVerdict(rows){
+  var a = null, b = null; rows.forEach(function(r){ if (r.variant === 'A') a = r; if (r.variant === 'B') b = r; });
+  if (!a || !b) return 'Нужны оба варианта. Выставьте ab_rating_split_b больше 0 во вкладке «Управление».';
+  function z(x1, n1, x2, n2){ var p = (x1 + x2) / (n1 + n2), se = Math.sqrt(p * (1 - p) * (1 / n1 + 1 / n2)); return se ? (x2 / n2 - x1 / n1) / se : 0; }
+  function line(name, k){ var d = 100 * (b[k] / b.users - a[k] / a.users), sig = Math.abs(z(a[k], a.users, b[k], b.users)) >= 1.96;
+    return '<b>' + name + ':</b> B ' + (d >= 0 ? '+' : '') + d.toFixed(1) + ' п.п. к A, ' + (sig ? 'различие значимо (95%)' : 'пока не значимо'); }
+  var small = Math.min(a.users, b.users) < 100 ? '<br><span class="meta">Данных мало: меньше 100 человек в варианте, выводы делать рано.</span>' : '';
+  return line('Поставили оценку', 'picked') + '<br>' + line('4–5 ★', 'high') + '<br>' + line('Пропустили без оценки', 'skipped') + small;
+}
+function loadRating(){
+  var el = $('abrate'); el.innerHTML = '<p class="meta">Загрузка…</p>';
+  api('/admin/api/ab_rating?days=' + effDays() + rangeQS()).then(function(rows){
+    if (rows && rows.error) throw new Error(rows.error);
+    rows = (rows || []).map(function(r){ r.seen = r.users; return r; });
+    $('abverdict').innerHTML = abVerdict(rows);
+    rows = rows.map(function(r){ var c = Object.assign({}, r); if (c.variant === '-') c.variant = 'вне теста'; return c; });
+    table('abrate', rows, {keys: ['variant','seen','picked','picked_pct','submitted','high','high_pct','low','skipped','skipped_pct','feedback','system_prompt','system_pct','avg_stars']});
+  }).catch(function(e){ $('abverdict').innerHTML = '';
+    el.innerHTML = '<p class="err">' + (/analytics_ab_rating|PGRST202/.test(String(e.message)) ? 'Нет отчёта по оценке: выполните raise-site/api/all-migrations.sql в Supabase → SQL Editor.' : esc(e.message)) + '</p>'; });
+}
+function loadAbtests(){
+  $('abperiod').textContent = RANGE ? rangeLabel() : 'последние ' + $('days').value + ' дн.';
+  renderAbPaywall(); renderAbCfg(); if (ABT === 'rating') loadRating();
+}
+$('abpills').onclick = function(ev){ var d = ev.target.getAttribute && ev.target.getAttribute('data-d'); if (!d) return; setRange(null); $('days').value = d; syncPills();
+  if (tok.value) { load().then(loadAbtests); loadCrm(); } };
+$('abgo').onclick = function(){ if (tok.value) { load().then(loadAbtests); } };
 
-$("#btnPublish").onclick=async()=>{
-  const btn=$("#btnPublish");btn.disabled=true;btn.textContent="Publishing…";
-  try{
-    for(const url of deleted){await delFile(url,`content: remove ${url}`,shas[url]);delete shas[url]}
-    for(const id of [...dirty]){if(id==="__manifest__")continue;const p=packs[id];const m=metaOf(id);
-      p.version=(p.version||0)+1;m.version=p.version;m.count=p.concepts.length;
-      // light validation
-      const bad=p.concepts.filter(c=>!c.t.en);if(bad.length)throw new Error(`${id}: ${bad.length} words without English`);
-      shas[m.url]=await putFile(m.url,JSON.stringify(p,null,1),`content: ${id} v${p.version} (${p.concepts.length} words)`,shas[m.url]);dirty.delete(id)}
-    manifest.version=(manifest.version||0)+1;manifest.updatedAt=new Date().toISOString();
-    manifest.packs.forEach(m=>{m.count=packs[m.id]?packs[m.id].concepts.length:m.count});
-    shas["manifest.json"]=await putFile("manifest.json",JSON.stringify(manifest,null,1),`content: manifest v${manifest.version}`,shas["manifest.json"]);
-    dirty.clear();deleted.clear();updateDirty();renderList();renderEditor();toast(`Published manifest v${manifest.version}. GitHub Pages updates in ~1 minute.`);
-  }catch(e){toast("Publish failed: "+e.message,true)}finally{btn.textContent="Publish changes";updateDirty()}
+// ---------- KPIs ----------
+var KPI = [
+  ['installs','Установки','num',1], ['organic_installs','Органические установки','num',1], ['paid_installs','Из рекламы','num',1],
+  ['trials','Триалы','num',1], ['new_paid','Новые платные подписки','num',1], ['revenue_usd','Выручка (gross)','money',1],
+  ['proceeds_usd','Доход после Apple','money',1], ['install_to_paywall_pct','Уст→пейвол','pct',1], ['install_to_trial_pct','Уст→триал','pct',1],
+  ['install_to_paid_pct','Уст→оплата','pct',1], ['trial_to_paid_pct','Триал→оплата','pct',1], ['arpu_usd','ARPU (выручка/установка)','money',1],
+  ['arppu_usd','ARPPU','money',1], ['renewals','Продления','num',1], ['refund_rate_pct','Возвраты','pct',-1], ['spend_usd','Расход на рекламу','money',0]
+];
+function fmtBy(t, v){ return t === 'money' ? money(v) : t === 'pct' ? pct(v) : num(v); }
+function renderKpis(k){
+  if (!k || k.error) { var e = String(k && k.error || '');
+    $('kpis').innerHTML = '<div class="card" style="grid-column:1/-1"><p class="err">' + (/PGRST202|analytics_growth/.test(e)
+      ? 'В базе нет отчётов: выполните migrations/postgres/0002_growth_reports.sql в Supabase → SQL Editor → Run, затем нажмите «Загрузить».'
+      : esc(e)) + '</p></div>'; return; }
+  var c = k.current || {}, p = k.previous || {}, s = k.snapshot || {};
+  var h = [['mrr_usd','MRR сейчас','money'], ['active_paid','Активные платные','num'], ['active_trials','Активные триалы','num'], ['auto_renew_off','Выключили автопродление','num']]
+    .map(function(x){ return '<div class="card kpi"><b>' + fmtBy(x[2], s[x[0]]) + '</b><span>' + x[1] + '</span></div>'; }).join('');
+  h += KPI.map(function(x){
+    var cur = n(c[x[0]]), prev = n(p[x[0]]), d = '';
+    if (cur != null && prev != null && x[3]) {
+      var diff = x[2] === 'pct' ? cur - prev : (prev ? (cur - prev) / prev * 100 : null);
+      if (diff != null && isFinite(diff)) { var good = diff * x[3] > 0, cls = Math.abs(diff) < 0.5 ? 'flat' : good ? 'up' : 'down';
+        d = '<i class="' + cls + '">' + (diff > 0 ? '▲' : diff < 0 ? '▼' : '') + Math.abs(Math.round(diff * 10) / 10) + (x[2] === 'pct' ? ' п.п.' : '%') + '</i>'; }
+    }
+    return '<div class="card kpi"><b>' + fmtBy(x[2], cur) + d + '</b><span>' + x[1] + '</span></div>';
+  }).join('');
+  $('kpis').innerHTML = h;
+}
+
+// ---------- insights: rule engine ----------
+function insights(){
+  var out = [], k = (R.kpis || {}).current || {}, kp = (R.kpis || {}).previous || {}, s = (R.kpis || {}).snapshot || {};
+  function add(level, title, text){ out.push({level: level, title: title, text: text}); }
+  var inst = n(k.installs) || 0;
+  if (!inst) { add('info', 'Мало данных', 'За период нет установок с отправленной аналитикой. Проверьте, что вышла сборка с аналитикой, и вкладку «Настройки» → состояние сбора.'); return out; }
+  if (inst < 100) add('info', 'Выборка маленькая (' + inst + ' установок)', 'Выводы ниже ориентировочные: дождитесь хотя бы 300–500 установок, прежде чем менять цены или пейвол.');
+
+  // organic growth
+  var org = n(k.organic_installs), orgP = n(kp.organic_installs);
+  if (org != null && orgP) { var g = (org - orgP) / orgP * 100;
+    if (g >= 15) add('good', 'Органика растёт: +' + Math.round(g) + '%', 'Органических установок ' + org + ' против ' + orgP + ' в прошлом периоде. Закрепите рост: обновите скриншоты и ключевые слова (ASO), просите оценку в момент успеха (после очистки), отвечайте на отзывы.');
+    else if (g <= -15) add('bad', 'Органика падает: ' + Math.round(g) + '%', 'Проверьте позиции по ключевым словам и рейтинг в App Store Connect → Analytics. Частые причины: упал рейтинг/отзывы, конкуренты в выдаче, старые скриншоты. Сделайте A/B тест скриншотов (Product Page Optimization).'); }
+  var unk = n(k.unknown_installs) || 0;
+  if (inst >= 30 && unk / inst > 0.3) add('warn', Math.round(unk / inst * 100) + '% установок без атрибуции', 'Приложение не прислало данные AppsFlyer для этих пользователей — органику и рекламу нельзя разделить. Проверьте, что AppsFlyer инициализируется на старте и событие attribution доходит (Настройки → отклонённые события).');
+
+  // paywall reach
+  var reach = n(k.install_to_paywall_pct);
+  if (reach != null && reach < 80) add('bad', 'Пейвол видят только ' + pct(reach) + ' установивших', 'Каждый, кто не увидел пейвол, — потерянная продажа. Показывайте пейвол сразу после онбординга всем (триггер onboarding_flow) и при каждом запуске для неплатящих.');
+
+  var pw = R.paywall || [], onb = null, exitO = null;
+  if (pw.forEach) pw.forEach(function(r){ if (r.trigger === 'onboarding_flow') onb = r; if (r.trigger === 'exit_offer') exitO = r; });
+  if (onb && n(onb.viewers) >= 50) {
+    var cr = n(onb.cr_pct);
+    if (cr < 3) add('bad', 'Пейвол после онбординга конвертирует ' + pct(cr), 'Норма для приложений изучения слов 4–8%. Что тестировать: крупно показать триал «3 дня бесплатно», переключатель «Включить бесплатный пробный период», цену в неделю для годового плана, социальное доказательство (рейтинг, «1M+ очищено»), результат сканирования («у вас 3,2 ГБ мусора») прямо на пейволе.');
+    else if (cr >= 6) add('good', 'Сильный пейвол после онбординга: ' + pct(cr), 'Можно тестировать повышение цены на 10–20% или убрать недельный план в пользу годового — конверсия выдержит.');
+    var t2b = n(onb.tap_to_buy_pct);
+    if (t2b != null && n(onb.tapped_buy) >= 20 && t2b < 45) add('warn', 'Только ' + pct(t2b) + ' нажавших «купить» доходят до оплаты', 'Люди отменяют в системном окне Apple — видят реальную цену. Пишите итоговую цену и период крупно рядом с кнопкой, для триала — «Сегодня $0, затем $6.99/нед, отмена в любой момент».');
+  }
+  if (exitO && onb && n(exitO.viewers) >= 30) {
+    if (n(exitO.cr_pct) > n(onb.cr_pct)) add('info', 'Спецпредложение конвертирует лучше основного пейвола', 'Скидочный годовой (' + pct(exitO.cr_pct) + ') продаёт лучше основного (' + pct(onb.cr_pct) + '). Попробуйте основной годовой план дешевле или показывайте спецпредложение не только один раз.');
+    else if (n(exitO.cr_pct) < 1) add('warn', 'Спецпредложение почти не продаёт (' + pct(exitO.cr_pct) + ')', 'Сделайте скидку заметнее (зачёркнутая цена, −45%), добавьте таймер и сравнение «в неделю».');
+  }
+
+  // trial
+  var t2p = n(k.trial_to_paid_pct);
+  if (t2p != null && n(k.trials_matured) >= 20) {
+    if (t2p < 30) add('bad', 'Триал → оплата всего ' + pct(t2p), 'Пользователи отменяют триал. Что помогает: локальное уведомление за 24 ч до конца триала с напоминанием о ценности (сколько ГБ освобождено), автоочистка и виджеты в триале, письмо/пуш «ваш телефон снова заполнился». Проверьте причины отмены во вкладке «Деньги».');
+    else if (t2p >= 55) add('good', 'Триал хорошо конвертируется: ' + pct(t2p), 'Пользователи ценят продукт — можно продвигать триал агрессивнее (сделать его выбранным по умолчанию).');
+  }
+  var i2t = n(k.install_to_trial_pct), i2p = n(k.install_to_paid_pct);
+  if (i2t != null && i2t + (i2p || 0) < 5 && inst >= 100) add('warn', 'Всего ' + pct(k.install_to_any_pct) + ' установивших начинают подписку', 'Цель для утилит — 8–12%. Самые сильные рычаги: пейвол после первого сканирования («найдено 2,4 ГБ — очистить»), онбординг с вопросом о проблеме, закрытие ценных функций.');
+
+  // refunds
+  var rr = n(k.refund_rate_pct);
+  if (rr != null && rr > 5 && n(k.refunds) >= 3) add('bad', 'Высокая доля возвратов: ' + pct(rr), 'Apple может это учитывать. Чаще всего возвращают недельные подписки после случайной покупки: сделайте цену и период понятнее, не включайте автоматически дорогой план, добавьте экран «Управление подпиской» в настройках.');
+
+  // time to purchase
+  var tt = R.time_to_purchase || [];
+  if (tt.length) { var early = 0, tot = 0; tt.forEach(function(r, i){ tot += Number(r.subscribers || 0); if (i < 2) early += Number(r.subscribers || 0); });
+    if (tot >= 20) { var sh = early / tot * 100;
+      if (sh >= 70) add('info', Math.round(sh) + '% подписок оформляют в первый час', 'Почти все деньги решаются онбордингом и первым пейволом — тестируйте их в первую очередь (Adapty A/B тесты на placement cleanx.placement).');
+      else add('info', Math.round(100 - sh) + '% подписок приходят позже первого часа', 'Повторные показы работают: добавьте пейвол при повторном запуске, после второй очистки и пуш через 1–2 дня с результатом сканирования.'); } }
+
+  // features
+  var f = (R.features || []).filter ? (R.features || []).filter(function(r){ return n(r.users_locked) >= 20; }) : [];
+  if (f.length > 1) { f.sort(function(a, b){ return n(b.cr_pct) - n(a.cr_pct); }); var best = f[0];
+    add('info', 'Лучше всего продаёт функция «' + best.feature + '» (' + pct(best.cr_pct) + ')', 'Выносите её на пейвол первой строкой, показывайте раньше в онбординге и на главном экране.'); }
+
+  // sources
+  (R.sources || []).forEach && (R.sources || []).forEach(function(r){
+    if (r.segment === 'paid' && n(r.spend_usd) > 50 && n(r.roas_pct) != null && n(r.roas_pct) < 60) add('bad', 'Кампания «' + r.campaign + '» (' + r.source + ') окупается на ' + pct(r.roas_pct), 'Расход ' + money(r.spend_usd) + ', выручка ' + money(r.revenue_usd) + '. Снизьте ставки или отключите; перенесите бюджет в источники с лучшим ARPU.');
+  });
+  var co = R['kpis@organic'] && R['kpis@organic'].current, cp = R['kpis@paid'] && R['kpis@paid'].current;
+  if (co && cp && n(co.installs) >= 30 && n(cp.installs) >= 30) {
+    var ao = n(co.arpu_usd) || 0, ap = n(cp.arpu_usd) || 0;
+    if (ap < ao * 0.6) add('warn', 'Реклама приносит пользователей хуже органики', 'ARPU рекламы ' + money(ap) + ' против ' + money(ao) + ' у органики. Проверьте таргетинг и креативы: обещание в рекламе должно совпадать с тем, что пользователь видит в онбординге.');
+  }
+
+  // countries
+  var cs = (R.countries || []).filter ? (R.countries || []).filter(function(r){ return n(r.installs) >= 25; }) : [];
+  if (cs.length >= 3) {
+    var tot2 = 0, sub2 = 0; cs.forEach(function(r){ tot2 += n(r.installs); sub2 += n(r.installs) * n(r.install_to_sub_pct) / 100; });
+    var avg = sub2 / tot2 * 100;
+    cs.forEach(function(r){
+      if (n(r.installs_prev) >= 20 && n(r.installs) >= n(r.installs_prev) * 1.5) add('good', cname(r.country) + ': установок в ' + (n(r.installs) / n(r.installs_prev)).toFixed(1) + '× больше, чем в прошлом периоде', 'Органика ' + pct(r.organic_pct) + '. Добавьте локализованные скриншоты и ключевые слова для этой страны, проверьте региональную цену.');
+      if (n(r.install_to_sub_pct) < avg * 0.4) add('warn', cname(r.country) + ': много установок, мало подписок (' + pct(r.install_to_sub_pct) + ')', 'Средняя конверсия ' + pct(avg) + '. Проверьте локализацию пейвола и региональную цену (App Store Connect → Subscriptions → цены по странам).');
+      else if (n(r.install_to_sub_pct) > avg * 1.8) add('good', cname(r.country) + ' конвертирует в ' + (n(r.install_to_sub_pct) / avg).toFixed(1) + '× лучше среднего', 'Хорошая страна для рекламы (Apple Search Ads) и локализованных скриншотов.');
+    });
+  }
+
+  // churn / billing
+  if (n(s.billing_issues) > 0) add('warn', n(s.billing_issues) + ' подписок с проблемой оплаты', 'Включите Billing Grace Period в App Store Connect (подписки → Billing Grace Period) — Apple сам будет повторять списание, а доступ сохранится.');
+  if (n(s.active_paid) >= 20 && n(s.auto_renew_off) / (n(s.active_paid) + n(s.active_trials)) > 0.25) add('warn', 'У ' + num(s.auto_renew_off) + ' активных выключено автопродление', 'Это будущий отток. Win-back оффер (placement com.raise.win_back) уже есть — проверьте, что он создан в Adapty, и добавьте пуш за 2 дня до окончания.');
+
+  // retention
+  var rt = (R.retention || []).filter ? (R.retention || []).filter(function(r){ return n(r.installs) >= 30 && r.d1_pct != null; }) : [];
+  if (rt.length) { var d1 = n(rt[0].d1_pct);
+    if (d1 < 20) add('warn', 'Удержание первого дня ' + pct(d1), 'Для приложений изучения слов норма 25–35%. Добавьте причину вернуться: виджеты, уведомление «память снова заполнилась», ежедневная быстрая очистка, анимация зарядки.'); }
+
+  // versions
+  var vs = (R.versions || []).filter ? (R.versions || []).filter(function(r){ return n(r.installs) >= 50; }).sort(function(a, b){ return vcmp(a.app_version, b.app_version); }) : [];
+  if (vs.length >= 2) { var a = vs[0], b = vs[1], da = n(a.trial_pct) + n(a.paid_pct), db = n(b.trial_pct) + n(b.paid_pct);
+    if (da < db * 0.8) add('bad', 'Версия ' + a.app_version + ' конвертирует хуже ' + b.app_version, 'Подписок на установку: ' + pct(da) + ' против ' + pct(db) + '. Проверьте, что пейвол и продукты загружаются в новой версии.');
+    else if (da > db * 1.2) add('good', 'Версия ' + a.app_version + ' продаёт лучше ' + b.app_version, pct(da) + ' против ' + pct(db) + ' подписок на установку.'); }
+
+  // payment problems + win-back
+  var bw = R.billing_winback || {}, bl = bw.billing || [], wb = bw.winback || [];
+  if (bl.length && n(bl[0].users) >= 5) {
+    var rec = n(bl[3] && bl[3].pct);
+    if (rec < 40) add('warn', 'Возвращается только ' + pct(rec) + ' платежей с ошибкой', 'Включите Billing Grace Period в App Store Connect (Subscriptions → Billing Grace Period, 16 дней, All Renewals): PRO не отключится, пока Apple повторяет списание, и больше людей успеют обновить карту.');
+    else add('good', 'Ошибки оплаты восстанавливаются: ' + pct(rec), 'Баннер «Обновите оплату» и Grace Period работают.'); }
+  if (wb.length >= 4 && n(wb[1].users) >= 20 && n(wb[3].pct) < 3) add('info', 'Win-back покупают ' + pct(wb[3].pct) + ' увидевших', 'Попробуйте в Adapty (плейсмент com.raise.win_back) другую скидку или месячный план вместо годового.');
+
+  // releases: trial push vs same-day cancels
+  var tp = (R.trial_push || []).filter ? R.trial_push : [];
+  function grp(f){ var t = 0, c = 0; tp.filter(f).forEach(function(r){ t += n(r.trials); c += n(r.trials) * n(r.cancel_same_day_pct) / 100; }); return {t: t, p: t ? 100 * c / t : null}; }
+  var op = grp(function(r){ return r.push_group === 'Открыли пуш'; }), no = grp(function(r){ return r.push_group !== 'Открыли пуш'; });
+  if (op.t >= 10 && no.t >= 10) {
+    if (op.p < no.p * 0.8) add('good', 'Пуш триала снижает отмены', 'Открывшие пуш отменяют в тот же день в ' + pct(op.p) + ' случаев против ' + pct(no.p) + ' у остальных. Можно тестировать задержку в Настройках.');
+    else add('info', 'Пуш триала пока не влияет на отмены', 'Отмены в тот же день: ' + pct(op.p) + ' у открывших против ' + pct(no.p) + '. Попробуйте другую задержку (Настройки → задержка пуша) или текст.'); }
+  var rv = (R.release_versions || []).filter ? R.release_versions.filter(function(r){ return n(r.trials) >= 10; }).sort(function(a, b){ return vcmp(a.app_version, b.app_version); }) : [];
+  if (rv.length >= 2) { var x = rv[0], y = rv[1];
+    if (n(x.cancel_same_day_pct) < n(y.cancel_same_day_pct) * 0.85) add('good', 'В ' + x.app_version + ' меньше отмен триала в тот же день', pct(x.cancel_same_day_pct) + ' против ' + pct(y.cancel_same_day_pct) + ' в ' + y.app_version + '.');
+    else if (n(x.cancel_same_day_pct) > n(y.cancel_same_day_pct) * 1.15) add('warn', 'В ' + x.app_version + ' больше отмен триала в тот же день', pct(x.cancel_same_day_pct) + ' против ' + pct(y.cancel_same_day_pct) + ' в ' + y.app_version + '.');
+    if (n(x.trial_push_sent_pct) != null && n(x.trial_push_sent_pct) < 50) add('info', 'Пуш триала получают только ' + pct(x.trial_push_sent_pct) + ' триальщиков', 'Остальные запретили уведомления. Чем раньше человек увидит пользу (первая очистка), тем чаще он разрешает уведомления.'); }
+  var lv = rv.length ? rv[0] : ((R.release_versions || []).filter ? R.release_versions.slice().sort(function(a, b){ return vcmp(a.app_version, b.app_version); })[0] : null);
+  if (lv && n(lv.active_users) >= 100 && n(lv.security_pct) < 10) add('info', 'Проверку безопасности открывают ' + pct(lv.security_pct) + ' пользователей ' + lv.app_version, 'Кнопку сверху замечают редко: можно показать проверку в онбординге или после первой очистки.');
+
+  if (!out.length) add('good', 'Явных проблем не найдено', 'Продолжайте A/B тесты пейвола в Adapty и следите за трендами.');
+  var order = {bad: 0, warn: 1, info: 2, good: 3};
+  return out.sort(function(a, b){ return order[a.level] - order[b.level]; });
+}
+function renderInsights(){
+  var ic = {bad: '🔴', warn: '🟠', info: '💡', good: '🟢'};
+  $('insights').innerHTML = insights().map(function(x){ return '<div class="card ' + x.level + '"><span>' + ic[x.level] + '</span><div><b>' + esc(x.title) + '</b><p>' + esc(x.text) + '</p></div></div>'; }).join('');
+}
+
+// ---------- API ----------
+function api(path, opts){
+  opts = opts || {}; opts.headers = Object.assign({Authorization: 'Bearer ' + tok.value, 'Content-Type': 'application/json'}, opts.headers || {});
+  return fetch(API + path, opts).then(function(r){ if (r.status === 401) { showLogin('Неверный токен'); throw new Error('неверный токен'); } return r.json().then(function(j){ if (!r.ok) throw new Error(j.error || r.status); return j; }); });
+}
+function load(){
+  var d = $('days').value, seg = $('seg').value, ct = $('ctry').value, msg = $('msg');
+  try { localStorage.setItem('rw_admin', tok.value); localStorage.setItem('rw_seg', seg); localStorage.setItem('rw_days', d); localStorage.setItem('rw_ctry', ct); } catch(e) {}
+  msg.className = 'meta'; msg.textContent = 'Загрузка…';
+  var names = 'country_list,kpis,daily,funnel,paywall,features,time_to_purchase,onboarding,sources,countries,kpis@organic,kpis@paid,products,trial_cohorts,ltv,churn,timing,retention,versions,engagement,release_versions,trial_push,push_opens,security_issues,security_actions,billing_winback,ab_summary,ab_funnel';
+  return api('/admin/api/growth?days=' + effDays() + rangeQS() + '&segment=' + seg + '&country=' + encodeURIComponent(ct) + '&names=' + names).then(function(j){
+    R = j.reports || {};
+    fillCountries(R.country_list, ct);
+    render();
+    msg.textContent = (RANGE ? rangeLabel() + ' · ' : '') + (ct ? cname(ct) + ' · ' : '') + 'обновлено ' + new Date().toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
+    loadSettings(d);
+  }).catch(function(e){ msg.className = 'err'; msg.textContent = 'Ошибка: ' + e.message; });
+}
+var SAVED_CT = ''; try { SAVED_CT = localStorage.getItem('rw_ctry') || ''; } catch(e) {}
+function setCountry(c){ var sel = $('ctry'); if (c && !sel.querySelector('option[value="' + c + '"]')) { var o = document.createElement('option'); o.value = c; o.textContent = cname(c); sel.appendChild(o); } sel.value = c; }
+function fillCountries(list, cur){
+  if (!list || !list.map) return; var sel = $('ctry');
+  sel.innerHTML = '<option value="">🌍 Все страны</option>' + list.map(function(r){ return '<option value="' + esc(r.country) + '">' + esc(cname(r.country)) + ' — ' + num(r.installs_period) + '</option>'; }).join('');
+  setCountry(cur || '');
+}
+setCountry(SAVED_CT);
+function render(){
+  renderKpis(R.kpis); renderInsights();
+  var daily = R.daily || [];
+  var s1 = [{key: 'organic', label: 'Органика', color: '#4ade80'}, {key: 'paid', label: 'Реклама', color: '#3AA0FF'}, {key: 'unknown', label: 'Без атрибуции', color: '#64748b'}];
+  legend('lg1', s1); bars('ch1', daily, 'day', s1);
+  var s2 = [{key: 'trials', label: 'Триалы', color: '#a78bfa'}, {key: 'new_paid', label: 'Новые платные', color: '#3AA0FF'}, {key: 'renewals', label: 'Продления', color: '#22d3ee'}];
+  legend('lg2', s2.concat([{label: 'Выручка, $ (линия)', color: '#fbbf24'}])); bars('ch2', daily, 'day', s2, {key: 'revenue_usd', color: '#fbbf24', money: true});
+
+  renderFunnel();
+  renderAbPaywall();
+  hbars('onb', (R.onboarding || []).map ? (R.onboarding || []).map(function(r){ return {step: r.idx + '. ' + (r.step || ''), users: r.users, pct: r.pct_of_installs}; }) : [], 'step', 'users', 'pct');
+  hbars('ttp', R.time_to_purchase, 'when', 'subscribers', 'share_pct');
+  table('paywall', R.paywall); table('features', R.features);
+
+  var co = R['kpis@organic'], cp = R['kpis@paid'];
+  if (co && cp && co.current && cp.current) {
+    var rows = [['installs','Установки'], ['install_to_paywall_pct','Уст→пейвол, %'], ['install_to_trial_pct','Уст→триал, %'], ['install_to_paid_pct','Уст→оплата, %'],
+      ['trial_to_paid_pct','Триал→оплата, %'], ['payers','Платящие'], ['revenue_usd','Выручка'], ['arpu_usd','ARPU'], ['arppu_usd','ARPPU'], ['refund_rate_pct','Возвраты, %']]
+      .map(function(x){ var o = {metric: x[1]}; o.organic = co.current[x[0]]; o.paid = cp.current[x[0]]; o._k = x[0]; return o; });
+    $('compare').innerHTML = '<div class="tablewrap"><table><tr><th>Метрика</th><th>Органика</th><th>Реклама</th></tr>' + rows.map(function(r){
+      return '<tr><td>' + r.metric + '</td>' + cell(r._k, r.organic) + cell(r._k, r.paid) + '</tr>'; }).join('') + '</table></div>';
+  }
+  table('sources', R.sources); table('countries', R.countries);
+  var cl = (R.countries || []).map ? (R.countries || []) : [];
+  function top(arr, key, minInst){ return arr.filter(function(r){ return !minInst || n(r.installs) >= minInst; }).slice().sort(function(a, b){ return n(b[key]) - n(a[key]); }).slice(0, 12)
+    .map(function(r){ return Object.assign({label: cname(r.country)}, r); }); }
+  hbars('geo-rev', top(cl, 'revenue_usd').filter(function(r){ return n(r.revenue_usd) > 0; }).map(function(r){ return {label: r.label, v: Math.round(n(r.revenue_usd)), p: r.install_to_sub_pct}; }), 'label', 'v', 'p', money);
+  hbars('geo-inst', top(cl, 'installs').map(function(r){ return {label: r.label, v: r.installs, p: r.organic_pct}; }), 'label', 'v', 'p');
+  hbars('geo-best', top(cl, 'install_to_sub_pct', 20).map(function(r){ return {label: r.label, v: r.payers + r.trials, p: r.install_to_sub_pct}; }), 'label', 'v', 'p');
+  hbars('geo-arpu', top(cl, 'arpu_usd', 20).map(function(r){ return {label: r.label, v: n(r.arpu_usd), p: null}; }), 'label', 'v', null, money);
+  table('products', R.products); table('trials', R.trial_cohorts); table('ltv', R.ltv);
+  var ch = R.churn || {}; table('status', ch.status); table('reasons', ch.cancel_reasons); table('cafter', ch.cancel_after_days);
+  var tm = [], byH = {}; (R.timing || []).forEach && (R.timing || []).forEach(function(r){ byH[r.hour_utc] = r; });
+  for (var h = 0; h < 24; h++) tm.push({hour: (h < 10 ? '0' : '') + h + ':00', trials: (byH[h] || {}).trials || 0, purchases: (byH[h] || {}).purchases || 0});
+  var s3 = [{key: 'trials', label: 'Триалы', color: '#a78bfa'}, {key: 'purchases', label: 'Покупки', color: '#3AA0FF'}];
+  legend('lg3', s3); bars('ch3', tm, 'hour', s3, null, function(v){ return v; });
+  table('retention', R.retention, {heat: ['d1_pct', 'd3_pct', 'd7_pct', 'd14_pct', 'd30_pct'], heatMax: 50});
+  table('versions', (R.versions || []).slice ? (R.versions || []).slice().sort(function(a, b){ return vcmp(a.app_version, b.app_version); }) : R.versions);
+  table('engagement', R.engagement);
+  renderRelease();
+  var bw = R.billing_winback || {};
+  if (bw.error) { ['bill', 'winback'].forEach(function(id){ $(id).innerHTML = '<p class="err">' + (/PGRST202|analytics_billing/.test(bw.error)
+      ? 'Выполните migrations/postgres/0004_billing_winback.sql в Supabase → SQL Editor → Run, затем «Загрузить».' : esc(bw.error)) + '</p>'; }); $('billnow').innerHTML = ''; }
+  else { hbars('bill', bw.billing, 'step', 'users', 'pct'); table('billnow', bw.billing_now); hbars('winback', bw.winback, 'step', 'users', 'pct'); }
+}
+
+// ---------- releases (0003_security_check.sql) ----------
+var CHECK_RU = {passcode: 'Код-пароль', biometrics: 'Face ID / Touch ID', ios: 'Версия iOS', photos: 'Скриншоты с личными данными',
+  location: 'Фото с геометкой', calendar: 'Спам в календаре', contacts: 'Дубли контактов', storage: 'Мало места', none: 'Всё в порядке', all: 'Весь экран'};
+var ACTION_RU = {how_to: 'Как исправить', review_photos: 'Открыли скриншоты', review_events: 'Открыли спам-события', fix_contacts: 'Исправить контакты',
+  fast_clean: 'Быстрая очистка', allow_calendar: 'Дали доступ к календарю', allow_contacts: 'Дали доступ к контактам', open_settings: 'Открыли настройки',
+  rescan: 'Повторная проверка', delete_photos: 'Удалили скриншоты', delete_events: 'Удалили спам-события'};
+var PUSH_RU = {trial: 'Триал (через ~25 мин)', d1: 'Напоминание · день 1', d3: 'Напоминание · день 3', d7: 'Напоминание · день 7', d14: 'Напоминание · день 14'};
+function mapRows(x, f){ return x && x.map ? x.map(function(r){ return f(Object.assign({}, r)); }) : x; }
+function renderRelease(){ return; // X Clean-only (pushes / security check)
+  var rv = R.release_versions;
+  table('rel_versions', rv && rv.slice ? rv.slice().sort(function(a, b){ return vcmp(a.app_version, b.app_version); }) : rv);
+  table('rel_trialpush', R.trial_push);
+  table('rel_push', mapRows(R.push_opens, function(r){ r.push_kind = PUSH_RU[r.push_kind] || r.push_kind; return r; }));
+  table('rel_actions', mapRows(R.security_actions, function(r){ r.action = ACTION_RU[r.action] || r.action; r.check_name = CHECK_RU[r.check_name] || r.check_name; return r; }));
+  var iss = R.security_issues;
+  if (iss && iss.error) { table('rel_issues', iss); return; }
+  hbars('rel_issues', iss && iss.map ? iss.map(function(r){ return {label: CHECK_RU[r.check_name] || r.check_name, v: r.users, p: r.share_pct}; }) : [], 'label', 'v', 'p');
+}
+
+// ---------- settings: config + health ----------
+function cfgCall(body){ return api('/admin/api/config', body ? {method: 'POST', body: JSON.stringify(body)} : {}); }
+function cfgRowHtml(c, k){
+  var s = c.schema[k], v = c.merged[k] == null ? '' : c.merged[k], over = k in c.overrides;
+  var note = '<small>' + k + (over ? ' · изменено (по умолчанию: ' + esc(c.defaults[k] == null ? '—' : c.defaults[k]) + ')' : ' · по умолчанию') + '</small>';
+  if (s.type === 'bool') return '<div class="row"><span>' + esc(s.label) + note + '</span><label class="sw"><input type="checkbox" data-k="' + k + '" ' + (String(v) === 'true' ? 'checked' : '') + '/><i></i></label></div>';
+  if (s.type === 'enum') return '<div class="row"><span>' + esc(s.label) + note + '</span><select data-k="' + k + '">' + s.values.map(function(o){ return '<option value="' + esc(o) + '"' + (String(v) === o ? ' selected' : '') + '>' + (o === '' ? '— пусто —' : esc(o)) + '</option>'; }).join('') + '</select></div>';
+  if (s.type === 'int') return '<div class="row"><span>' + esc(s.label) + note + '</span><input type="number" min="' + s.min + '" max="' + s.max + '" data-k="' + k + '" value="' + esc(v) + '" style="width:110px"/></div>';
+  return '<div class="row"><span>' + esc(s.label) + note + '</span><input type="text" data-k="' + k + '" value="' + esc(v) + '" style="flex:1;max-width:420px"/></div>';
+}
+function cfgFill(el, c, test){
+  el.innerHTML = Object.keys(c.schema).filter(test).map(function(k){ return cfgRowHtml(c, k); }).join('');
+  [].forEach.call(el.querySelectorAll('input[type=checkbox]'), function(i){ i.onchange = function(){ var b = {}; b[i.dataset.k] = i.checked; saveCfg(b); }; });
+}
+function renderCfg(c){
+  CFG = c;
+  cfgFill($('cfg'), c, function(){ return true; });
+  $('save').style.display = '';
+  renderAbCfg();
+}
+function saveCfg(body, msgId){ var m = $(msgId || 'cfgmsg'); m.className = 'meta'; m.textContent = 'Сохраняю…';
+  cfgCall(body).then(function(c){ renderCfg(c); m.className = 'ok'; m.textContent = 'Сохранено ✓ ' + new Date().toLocaleTimeString(); })
+  .catch(function(e){ m.className = 'err'; m.textContent = 'Ошибка: ' + e.message; }); }
+$('save').onclick = function(){ var b = {};
+  [].forEach.call(document.querySelectorAll('#cfg input[type=text], #cfg input[type=number]'), function(i){ var k = i.dataset.k; if (i.value !== String(CFG.merged[k] == null ? '' : CFG.merged[k])) b[k] = i.value.trim() === '' ? null : i.value; });
+  [].forEach.call(document.querySelectorAll('#cfg select'), function(i){ var k = i.dataset.k; if (i.value !== String(CFG.merged[k] == null ? '' : CFG.merged[k])) b[k] = i.value; });
+  [].forEach.call(document.querySelectorAll('#cfg input[type=checkbox]'), function(i){ b[i.dataset.k] = i.checked; });
+  saveCfg(b); };
+function loadSettings(d){
+  cfgCall().then(renderCfg).catch(function(e){ $('cfg').innerHTML = '<p class="err">' + esc(e.message) + '</p>'; });
+  api('/admin/api/report?name=health&days=' + d).then(function(j){ var h = (j.rows || [])[0] || {};
+    var L = {events_last_hour: 'Событий за час', events_last_day: 'Событий за сутки', rejected_last_hour: 'Отклонено за час', webhooks_24h: 'Вебхуков Adapty за сутки',
+      webhook_errors_24h: 'Ошибок вебхуков за сутки', anomalies_24h: 'Аномалий за сутки', open_sessions: 'Открытых сессий'};
+    $('health').innerHTML = Object.keys(L).map(function(k){ return '<div class="card kpi"><b>' + num(h[k]) + '</b><span>' + L[k] + '</span></div>'; }).join(''); }).catch(function(){});
+  api('/admin/api/report?name=rejected&days=' + d).then(function(j){ table('rejected', j.rows); }).catch(function(){});
+  api('/admin/api/report?name=anomalies&days=' + d).then(function(j){ table('anomalies', j.rows); }).catch(function(){});
+}
+$('spendgo').onclick = function(){ var m = $('spendmsg'); m.className = 'meta'; m.textContent = 'Импорт…';
+  var body = $('spend').value.trim(); if (body && !/^date,/.test(body)) body = 'date,source,campaign_id,campaign_name,adset_id,adset_name,spend_usd,impressions,clicks,installs\n' + body;
+  api('/admin/api/ad_spend', {method: 'POST', body: body, headers: {'Content-Type': 'text/csv'}}).then(function(j){ m.className = 'ok'; m.textContent = 'Загружено строк: ' + j.upserted; load(); })
+  .catch(function(e){ m.className = 'err'; m.textContent = 'Ошибка: ' + e.message; }); };
+
+// ---------- charging animations (src/charging.js) ----------
+var ANIM = null;
+function fileUrl(name, v){ return '/charging/files/' + encodeURIComponent(name) + (v ? '?v=' + v : ''); }
+function mb(b){ return b == null ? null : (b / 1048576).toFixed(1) + ' МБ'; }
+function ext(f){ var m = /\.([a-z0-9]+)$/i.exec(f.name || ''); return m ? m[1].toLowerCase() : 'bin'; }
+function slug(t){ var s = String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '').slice(0, 30); return s || 'anim'; }
+function upload(file, name){
+  return fetch('/admin/api/charging/file?name=' + encodeURIComponent(name), {method: 'PUT', headers: {Authorization: 'Bearer ' + tok.value}, body: file})
+    .then(function(r){ return r.json().then(function(j){ if (!r.ok) throw new Error(j.error || r.status); return j; }); });
+}
+function animMsg(t, cls){ var m = $('animmsg'); m.className = cls || 'meta'; m.textContent = t; }
+function loadAnim(){
+  api('/admin/api/charging').then(function(j){ ANIM = j; ANIM.items.sort(function(a, b){ return a.order - b.order; }); renderAnim();
+    if (!j.r2) animMsg('R2 не подключён: включите R2 в Cloudflare, запустите scripts/upload-charging.sh и npx wrangler deploy.', 'err'); })
+  .catch(function(e){ $('anim').innerHTML = '<p class="err">' + esc(e.message) + '</p>'; });
+}
+function renderAnim(){
+  var files = ANIM.files || {}, v = ANIM.version || 0;
+  $('anim').innerHTML = ANIM.items.map(function(x, i){
+    var vs = files[x.video], ts = files[x.thumb];
+    var warn = (vs == null ? '<div class="err" style="font-size:12px">нет видео в R2: ' + esc(x.video) + '</div>' : '') + (ts == null ? '<div class="err" style="font-size:12px">нет превью в R2: ' + esc(x.thumb) + '</div>' : '');
+    return '<div class="acard' + (x.enabled ? '' : ' off') + '" data-i="' + i + '">' +
+      '<div class="th" data-play="' + i + '"><img loading="lazy" src="' + fileUrl(x.thumb, v) + '" alt=""/><b class="' + (x.pro ? 'pro' : '') + '">' + (x.pro ? 'PRO' : 'FREE') + '</b></div>' +
+      '<input type="text" data-f="title" value="' + esc(x.title) + '"/>' +
+      '<div class="meta">#' + (i + 1) + ' · ' + esc(x.id) + (vs != null ? ' · ' + mb(vs) : '') + '</div>' + warn +
+      '<div class="r"><label><input type="checkbox" data-f="pro"' + (x.pro ? ' checked' : '') + '/> PRO</label>' +
+      '<label><input type="checkbox" data-f="enabled"' + (x.enabled ? ' checked' : '') + '/> Показывать</label></div>' +
+      '<div class="r"><button data-mv="-1">←</button><button data-mv="1">→</button>' +
+      '<span class="up">Видео<input type="file" data-up="video" accept="video/mp4,video/quicktime"/></span>' +
+      '<span class="up">Превью<input type="file" data-up="thumb" accept="image/jpeg,image/png,image/webp"/></span>' +
+      '<button data-del="1" title="Убрать из каталога">✕</button></div></div>';
+  }).join('') || '<p class="meta">Анимаций нет.</p>';
+}
+$('anim').addEventListener('click', function(ev){
+  var t = ev.target, card = t.closest && t.closest('.acard'); if (!card || !ANIM) return;
+  var i = +card.dataset.i, it = ANIM.items[i];
+  if (t.closest('[data-play]')) { var th = t.closest('.th'); th.innerHTML = '<video src="' + fileUrl(it.video, ANIM.version) + '" autoplay muted loop playsinline></video>'; return; }
+  if (t.dataset.mv) { var j = i + (+t.dataset.mv); if (j < 0 || j >= ANIM.items.length) return;
+    var tmp = ANIM.items[i]; ANIM.items[i] = ANIM.items[j]; ANIM.items[j] = tmp; renderAnim(); animMsg('Порядок изменён — нажмите «Сохранить»'); return; }
+  if (t.dataset.del) { if (!confirm('Убрать «' + it.title + '» из приложения? Файлы в R2 останутся.')) return;
+    ANIM.items.splice(i, 1); renderAnim(); animMsg('Удалено из списка — нажмите «Сохранить»'); }
+});
+$('anim').addEventListener('change', function(ev){
+  var t = ev.target, card = t.closest && t.closest('.acard'); if (!card || !ANIM) return;
+  var it = ANIM.items[+card.dataset.i];
+  if (t.dataset.f === 'pro' || t.dataset.f === 'enabled') { it[t.dataset.f] = t.checked; renderAnim(); animMsg('Изменено — нажмите «Сохранить»'); }
+  if (t.dataset.up && t.files && t.files[0]) {
+    var f = t.files[0], kind = t.dataset.up, name = it.id + '-' + Date.now().toString(36) + '.' + ext(f);
+    animMsg('Загружаю ' + f.name + ' (' + mb(f.size) + ')…');
+    upload(f, name).then(function(r){ it[kind] = name; ANIM.files[name] = r.size; return saveAnim(); })
+      .catch(function(e){ animMsg('Ошибка загрузки: ' + e.message, 'err'); });
+  }
+});
+$('anim').addEventListener('input', function(ev){
+  var t = ev.target, card = t.closest && t.closest('.acard'); if (!card || !ANIM || t.dataset.f !== 'title') return;
+  ANIM.items[+card.dataset.i].title = t.value; animMsg('Изменено — нажмите «Сохранить»');
+});
+function saveAnim(){
+  animMsg('Сохраняю…');
+  var items = ANIM.items.map(function(x, i){ return {id: x.id, title: x.title, video: x.video, thumb: x.thumb, pro: x.pro, enabled: x.enabled, order: i + 1}; });
+  return api('/admin/api/charging', {method: 'POST', body: JSON.stringify({items: items})}).then(function(){ animMsg('Сохранено ✓ ' + new Date().toLocaleTimeString(), 'ok'); loadAnim(); })
+    .catch(function(e){ animMsg('Ошибка: ' + e.message, 'err'); });
+}
+$('anim-save').onclick = function(){ if (ANIM) saveAnim(); };
+$('anim-add').onclick = function(){ var c = $('anim-new'); c.style.display = c.style.display === 'none' ? '' : 'none'; };
+$('an-go').onclick = function(){
+  if (!ANIM) return animMsg('Сначала загрузите данные', 'err');
+  var title = $('an-title').value.trim(), vf = $('an-video').files[0], tf = $('an-thumb').files[0];
+  if (!title || !vf || !tf) return animMsg('Нужны название, видео и превью', 'err');
+  if (vf.size > 60 * 1048576) return animMsg('Видео больше 60 МБ — сожмите его', 'err');
+  var id = slug(title), n = 2; while (ANIM.items.some(function(x){ return x.id === id; })) id = slug(title) + '_' + (n++);
+  var stamp = Date.now().toString(36), vname = id + '-' + stamp + '.' + ext(vf), tname = id + '-' + stamp + '.' + ext(tf);
+  animMsg('Загружаю видео (' + mb(vf.size) + ')…');
+  upload(vf, vname).then(function(r){ ANIM.files[vname] = r.size; animMsg('Загружаю превью…'); return upload(tf, tname); })
+    .then(function(r){ ANIM.files[tname] = r.size;
+      ANIM.items.push({id: id, title: title, video: vname, thumb: tname, pro: $('an-pro').checked, enabled: true});
+      $('an-title').value = ''; $('an-video').value = ''; $('an-thumb').value = ''; $('anim-new').style.display = 'none';
+      return saveAnim(); })
+    .catch(function(e){ animMsg('Ошибка: ' + e.message, 'err'); });
 };
 
-$("#btnSettings").onclick=()=>{["owner","repo","branch","path","token","proxy","admintoken"].forEach(k=>{const el=$("#s"+k[0].toUpperCase()+k.slice(1));el.value=S.get(k)||el.value});$("#dlgSettings").showModal()};
-$("#sCancel").onclick=()=>$("#dlgSettings").close();
-$("#sSave").onclick=()=>{["owner","repo","branch","path","token","proxy","admintoken"].forEach(k=>S.set(k,$("#s"+k[0].toUpperCase()+k.slice(1)).value.trim()));$("#dlgSettings").close();load()};
-$("#btnReload").onclick=()=>{if(dirty.size&&!confirm("Discard unpublished changes?"))return;load()};
-$("#search").oninput=()=>{renderList();if(current)renderEditor()};
-window.addEventListener("beforeunload",e=>{if(dirty.size||deleted.size){e.preventDefault();e.returnValue=""}});
-const params=new URLSearchParams(location.search);if(params.get("owner")){S.set("owner",params.get("owner"));S.set("repo",params.get("repo")||"raise-site")}
-load();
+// ---------- pages (sidebar) ----------
+var PAGE = 'analytics';
+function showPage(p){
+  if (!$('p-' + p)) p = 'analytics';
+  PAGE = p;
+  [].forEach.call(document.querySelectorAll('.sn'), function(b){ b.classList.toggle('on', b.getAttribute('data-p') === p); });
+  [].forEach.call(document.querySelectorAll('.page'), function(s){ s.classList.toggle('on', s.id === 'p-' + p); });
+  try { localStorage.setItem('rw_page', p); } catch(e) {}
+  if (tok.value && p === 'users') loadUsers();
+  if (tok.value && p === 'abtests') loadAbtests();
+  window.scrollTo(0, 0);
+}
+$('side').onclick = function(ev){ var b = ev.target.closest && ev.target.closest('.sn'); if (b) { showPage(b.getAttribute('data-p')); drawer(false); } };
+function drawer(open){ $('side').classList.toggle('open', open); $('sidebg').classList.toggle('on', open); }
+$('burger').onclick = function(){ drawer(true); };
+$('sclose').onclick = function(){ drawer(false); };
+$('sidebg').onclick = function(){ drawer(false); };
+
+// ---------- login ----------
+function showLogin(m){ $('login').classList.add('on'); $('loginmsg').textContent = m || ''; setTimeout(function(){ tok.focus(); }, 50); }
+$('loginf').onsubmit = function(ev){ ev.preventDefault(); if (!tok.value.trim()) return; $('login').classList.remove('on'); boot(); if (PAGE === 'users') loadUsers(); };
+$('logout').onclick = function(){ try { localStorage.removeItem('rw_admin'); } catch(e) {} tok.value = ''; showLogin(''); };
+
+// ---------- date range (calendar): one day or from … to … (0007_date_range.sql) ----------
+var RANGE = null; try { RANGE = JSON.parse(localStorage.getItem('rw_range') || 'null'); } catch(e) {}
+function ymd(dt){ return dt.getFullYear() + '-' + ('0' + (dt.getMonth() + 1)).slice(-2) + '-' + ('0' + dt.getDate()).slice(-2); }
+function pday(s){ var a = String(s).split('-').map(Number); return new Date(a[0], a[1] - 1, a[2]); }
+function rangeBounds(){ if (!RANGE) return null; var f = pday(RANGE.from), t = pday(RANGE.to || RANGE.from); t.setDate(t.getDate() + 1); return [f, t]; }
+function effDays(){ var b = rangeBounds(); return b ? Math.max(1, Math.round((b[1] - b[0]) / 86400000)) : $('days').value; }
+function rangeQS(){ var b = rangeBounds(); return b ? '&from=' + encodeURIComponent(b[0].toISOString()) + '&to=' + encodeURIComponent(b[1].toISOString()) : ''; }
+function fmtDay(s){ return pday(s).toLocaleDateString('ru-RU', {day: 'numeric', month: 'short'}); }
+function rangeLabel(){ if (!RANGE) return 'Календарь'; return !RANGE.to || RANGE.to === RANGE.from ? fmtDay(RANGE.from) : fmtDay(RANGE.from) + ' – ' + fmtDay(RANGE.to); }
+function setRange(r){
+  if (r && r.to && r.to < r.from) r = {from: r.to, to: r.from};
+  RANGE = r; try { r ? localStorage.setItem('rw_range', JSON.stringify(r)) : localStorage.removeItem('rw_range'); } catch(e) {}
+  $('callbl').textContent = rangeLabel(); $('calbtn').classList.toggle('on', !!r); syncPills();
+}
+$('calbtn').onclick = function(ev){ ev.stopPropagation(); var p = $('calpop'); p.classList.toggle('on');
+  if (p.classList.contains('on')) { $('rfrom').value = RANGE ? RANGE.from : ymd(new Date()); $('rto').value = RANGE && RANGE.to !== RANGE.from ? RANGE.to : ''; } };
+$('calpop').onclick = function(ev){ ev.stopPropagation(); var q = ev.target.getAttribute && ev.target.getAttribute('data-q'); if (!q) return;
+  var now = new Date(), f = new Date(now), t = new Date(now);
+  if (q === 'yesterday') { f.setDate(f.getDate() - 1); t = new Date(f); }
+  if (q === 'week') { f.setDate(f.getDate() - ((f.getDay() + 6) % 7)); }
+  if (q === 'month') { f = new Date(now.getFullYear(), now.getMonth(), 1); }
+  if (q === 'lastmonth') { f = new Date(now.getFullYear(), now.getMonth() - 1, 1); t = new Date(now.getFullYear(), now.getMonth(), 0); }
+  $('rfrom').value = ymd(f); $('rto').value = ymd(f) === ymd(t) ? '' : ymd(t); applyRange(); };
+function applyRange(){ var f = $('rfrom').value, t = $('rto').value || f; if (!f) return;
+  setRange({from: f, to: t}); $('calpop').classList.remove('on'); if (tok.value) { load(); loadCrm(); } }
+$('rgo').onclick = applyRange;
+$('rclear').onclick = function(){ setRange(null); $('calpop').classList.remove('on'); if (tok.value) { load(); loadCrm(); } };
+document.addEventListener('click', function(){ $('calpop').classList.remove('on'); });
+setRange(RANGE);
+
+// ---------- period pills ----------
+function syncPills(){ var d = $('days').value; [].forEach.call(document.querySelectorAll('#dpills button, #abpills button'), function(b){ b.classList.toggle('on', !RANGE && b.getAttribute('data-d') === d); }); }
+$('dpills').onclick = function(ev){ var d = ev.target.getAttribute && ev.target.getAttribute('data-d'); if (!d) return; setRange(null); $('days').value = d; syncPills(); if (tok.value) { load(); loadCrm(); } };
+syncPills();
+
+// ---------- CRM: users, feedback, user card (0006_crm_feedback.sql) ----------
+var ST_RU = {active: 'Платит', trial: 'Триал', cancelled: 'Отменил, ещё активен', billing_issue: 'Проблема с оплатой', expired: 'Истекла', free: 'Бесплатный'};
+function stChip(s){ s = s || 'free'; return '<span class="st ' + esc(s) + '">' + esc(ST_RU[s] || s) + '</span>'; }
+function starsHtml(v){ v = Number(v) || 0; if (!v) return '<span class="meta">—</span>'; var h = ''; for (var i = 1; i <= 5; i++) h += i <= v ? '★' : '<s>★</s>'; return '<span class="stars">' + h + '</span>'; }
+function shortId(id){ return '<span class="uid">' + esc(String(id || '').slice(0, 8)) + '</span>'; }
+function dt(v){ if (!v) return '—'; var d = new Date(v); if (isNaN(d)) return esc(v); return d.toLocaleDateString('ru-RU', {day: '2-digit', month: 'short'}) + ' ' + d.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'}); }
+function ago(v){ if (!v) return '—'; var s = (Date.now() - new Date(v).getTime()) / 1000; if (s < 3600) return Math.max(1, Math.round(s / 60)) + ' мин назад';
+  if (s < 86400) return Math.round(s / 3600) + ' ч назад'; return Math.round(s / 86400) + ' дн. назад'; }
+var VF = '';
+function crm(name, params, noVersion){ var q = 'name=' + name + '&days=' + effDays() + rangeQS() + (VF && !noVersion ? '&version=' + encodeURIComponent(VF) : '');
+  Object.keys(params || {}).forEach(function(k){ if (params[k] != null && params[k] !== '') q += '&' + k + '=' + encodeURIComponent(params[k]); });
+  return api('/admin/api/crm?' + q); }
+function crmErr(e){ var m = String(e && e.message || e);
+  return /PGRST202|analytics_crm/.test(m) ? 'Нет CRM-отчётов в базе: миграция migrations/postgres/0006_crm_feedback.sql ещё не применена (GitHub → Actions → DB migrations).' : esc(m); }
+
+var UF = 'all', UQ_T = null;
+function periodStart(){ var b = rangeBounds(); return b ? +b[0] : Date.now() - Number($('days').value || 30) * 86400000; }
+function loadUsers(){
+  var el = $('users'); el.innerHTML = '<p class="meta">Загрузка…</p>';
+  crm('users', {q: $('uq').value.trim(), filter: UF, limit: 200}).then(function(rows){
+    if (rows && rows.error) throw new Error(rows.error);
+    if (UF === 'new' && rows && rows.filter) {
+      // only installs inside the period (the server filters too — this also covers a database without migration 0016)
+      var since = periodStart();
+      rows = rows.filter(function(r){ return r.created_at && new Date(r.created_at).getTime() >= since; })
+        .sort(function(a, b){ return new Date(b.created_at) - new Date(a.created_at); });
+    }
+    if (!rows || !rows.length) { el.innerHTML = '<p class="meta">' + (UF === 'new' ? 'Новых пользователей за период нет.' : 'Никого не нашли.') + '</p>'; return; }
+    el.innerHTML = '<div class="tablewrap"><table><tr><th>Пользователь</th><th>Статус</th><th>Страна</th><th>Источник</th><th>Версия</th><th>Установка</th><th>Последний визит</th><th>Сессии</th><th>Выручка</th><th>Оценка</th><th>Отзыв</th></tr>' +
+      rows.map(function(r){ return '<tr class="click" data-user="' + esc(r.user_id) + '"><td>' + shortId(r.user_id) + '</td><td>' + stChip(r.status) +
+        (r.product_id ? ' <span class="meta">' + esc(String(r.product_id).replace(/^.*\./, '')) + '</span>' : '') + '</td><td>' + esc(cname(r.country)) + '</td><td>' + esc(r.source || '—') +
+        (r.campaign ? '<div class="meta">' + esc(r.campaign) + '</div>' : '') + '</td><td>' + esc(r.app_version || '—') + '</td><td>' + dt(r.created_at) + '</td><td>' + ago(r.last_seen_at) +
+        '</td><td class="num">' + num(r.sessions) + '</td><td class="num">' + money(r.revenue_usd) + '</td><td>' + starsHtml(r.stars) +
+        '</td><td style="max-width:260px;overflow:hidden;text-overflow:ellipsis" title="' + esc(r.feedback || '') + '">' + esc(r.feedback || '') + '</td></tr>'; }).join('') + '</table></div>';
+    $('umsg').textContent = rows.length + (rows.length >= 200 ? '+' : '') + (UF === 'new' ? ' новых (установили в выбранном периоде)' : ' пользователей') + ' · нажмите на строку — карточка пользователя';
+  }).catch(function(e){ el.innerHTML = '<p class="err">' + crmErr(e) + '</p>'; });
+}
+$('uchips').onclick = function(ev){ var f = ev.target.getAttribute && ev.target.getAttribute('data-f'); if (!f) return; UF = f;
+  [].forEach.call($('uchips').children, function(b){ b.classList.toggle('on', b === ev.target); }); loadUsers(); };
+$('uq').oninput = function(){ clearTimeout(UQ_T); UQ_T = setTimeout(loadUsers, 350); };
+
+var FS = '', FB = [], FQ_T = null;
+function loadVersions(){
+  crm('version_list', null, true).then(function(rows){ if (!rows || !rows.map) return;
+    $('vchips').innerHTML = '<button data-v="" class="' + (VF ? '' : 'on') + '">Все версии</button>' + rows.map(function(r){
+      return '<button data-v="' + esc(r.app_version) + '" class="' + (VF === r.app_version ? 'on' : '') + '">v' + esc(r.app_version) + ' <span class="meta">' + num(r.users) + '</span></button>'; }).join('');
+  }).catch(function(){});
+}
+$('vchips').onclick = function(ev){ var b = ev.target.closest && ev.target.closest('button[data-v]'); if (!b) return; VF = b.getAttribute('data-v');
+  [].forEach.call($('vchips').children, function(x){ x.classList.toggle('on', x === b); }); loadFeedback(); };
+function loadFeedback(){
+  loadVersions();
+  crm('feedback_summary').then(function(s){
+    if (s && s.error) throw new Error(s.error);
+    var k = [['avg_stars', 'Средняя оценка', function(v){ return v == null ? '—' : Number(v).toFixed(1) + ' ★'; }, 'dark'],
+      ['rated', 'Поставили оценку', num], ['high', '4–5 ★ → окно App Store', num], ['low', '1–3 ★', num, 'red'],
+      ['with_text', 'Написали отзыв', num], ['skipped', 'Пропустили', num], ['system_prompts', 'Запросили окно App Store', num]];
+    $('fbkpis').innerHTML = k.map(function(x){ return '<div class="card kpi ' + (x[3] || '') + '"><b>' + x[2](s[x[0]]) + '</b><span>' + x[1] + '</span></div>'; }).join('');
+    var st = s.stars || [], mx = Math.max.apply(null, st.map(function(r){ return r.users; }).concat([1]));
+    $('fbstars').innerHTML = st.map(function(r){ return '<div class="fbar srow"><span class="stars">' + new Array(r.stars + 1).join('★') + '</span>' +
+      '<div class="bar" style="width:' + (100 * r.users / mx).toFixed(1) + '%"></div><span class="v">' + num(r.users) + (s.rated ? ' · ' + pct(r.users * 100 / s.rated) : '') +
+      (r.users ? ' <button class="del mini" data-delstars="' + r.stars + '" title="Удалить все оценки ' + r.stars + '★ за период">🗑</button>' : '') + '</span></div>'; }).join('');
+    var g = s.gift || {}, gr = [{label: 'Показали подарок', k: 'shown', v: g.shown}, {label: 'Приняли', k: 'accepted', v: g.accepted},
+      {label: 'Отказались', k: 'declined', v: g.declined}, {label: 'Активировали день Pro', k: 'used', v: g.used}, {label: 'Купили после', k: '', v: g.bought_after}];
+    var gmx = Math.max.apply(null, gr.map(function(r){ return Number(r.v || 0); }).concat([1]));
+    $('fbgift').innerHTML = gr.map(function(r){ var v = Number(r.v || 0);
+      return '<div class="fbar"><span>' + r.label + '</span><div class="bar" style="width:' + (100 * v / gmx).toFixed(1) + '%"></div><span class="v">' + num(v) +
+        (g.shown ? ' · ' + pct(v * 100 / g.shown) : '') +
+        (v && r.k ? ' <button class="del mini" data-delgift="' + r.k + '" title="Удалить события «' + r.label + '» за период">🗑</button>' : '') + '</span></div>'; }).join('');
+    var b = $('fbbadge'); if (s.with_text) { b.textContent = s.with_text; b.style.display = ''; } else b.style.display = 'none';
+  }).catch(function(e){ $('fbkpis').innerHTML = '<p class="err">' + crmErr(e) + '</p>'; });
+  crm('feedback', {q: $('fq').value.trim(), limit: 500}).then(function(rows){ if (rows && rows.error) throw new Error(rows.error); FB = rows || []; renderFb(); })
+    .catch(function(e){ $('fblist').innerHTML = '<p class="err">' + crmErr(e) + '</p>'; });
+}
+function renderFb(){
+  var rows = FB.filter(function(r){ return !FS || String(r.stars) === FS; });
+  $('fblist').innerHTML = rows.length ? rows.map(function(r){ return '<div class="fbc' + (r.stars && r.stars <= 2 ? ' low' : '') + '">' + starsHtml(r.stars) +
+    '<div class="t">' + esc(r.text || '—') + '</div><div class="m"><span>' + dt(r.event_time) + '</span><span>' + esc(cname(r.country)) + '</span><span>v' + esc(r.app_version || '?') + '</span>' +
+    stChip(r.status) + '<a href="#" data-user="' + esc(r.user_id) + '">Профиль ' + shortId(r.user_id) + ' →</a>' +
+    '<button class="del" data-del="' + esc(r.event_id) + '" title="Удалить отзыв">🗑 Удалить</button></div></div>'; }).join('')
+    : '<p class="meta">Пока нет отзывов за период.</p>';
+}
+$('fchips').onclick = function(ev){ var s = ev.target.getAttribute && ev.target.getAttribute('data-s'); if (s == null) return; FS = s;
+  [].forEach.call($('fchips').children, function(b){ b.classList.toggle('on', b === ev.target); }); renderFb(); };
+$('fq').oninput = function(){ clearTimeout(FQ_T); FQ_T = setTimeout(loadFeedback, 350); };
+function loadLinks(){ crm('links', null, true).then(function(rows){ table('links', rows && rows.error ? rows : rows); }).catch(function(e){ $('links').innerHTML = '<p class="err">' + crmErr(e) + '</p>'; }); }
+function loadCrm(){ if (PAGE === 'users') loadUsers(); loadFeedback(); loadLinks(); }
+
+var EV_RU = {app_opened: 'Открыл приложение', first_visit: 'Первый запуск', onboarding_completed: 'Прошёл онбординг', onboarding_steps: 'Шаг онбординга',
+  paywall_shown: 'Пейвол показан', paywall_closed: 'Пейвол закрыт', special_offer_shown: 'Спецпредложение', pro_feature_locked: 'Упёрся в PRO',
+  practice_started: 'Начал тренировку', practice_completed: 'Закончил тренировку', word_learned: 'Выучил слово', face_installed: 'Поставил циферблат', face_created: 'Создал циферблат', set_created: 'Создал набор', set_opened: 'Открыл набор', level_check_completed: 'Прошёл тест уровня', language_changed: 'Сменил язык', achievement_unlocked: 'Достижение', free_day_started: 'День Pro активен', free_day_ended: 'День Pro закончился', tab_bar_tapped: 'Вкладка', attribution: 'Атрибуция', push_opened: 'Открыл пуш',
+  free_clean_gift_shown: 'Подарок «1 день Pro» показан', free_clean_gift_accepted: 'Подарок принят', free_clean_gift_declined: 'Подарок отклонён',
+  free_clean_gift_used: 'Активировал день Pro', rate_cleanup_shown: 'Экран оценки', rate_cleanup_stars: 'Поставил оценку', rate_cleanup_feedback: 'Написал отзыв',
+  rate_cleanup_skipped: 'Пропустил оценку', rate_cleanup_submitted: 'Нажал «Оценить»', rating_ab_assigned: 'Назначен вариант экрана оценки', review_prompt_shown: 'Системное окно оценки'};
+function openUser(id){
+  $('dbg').classList.add('on'); $('drawer').classList.add('on'); $('dcont').innerHTML = '<button class="x" id="dx">✕</button><p class="meta">Загрузка…</p>';
+  crm('user', {user: id}).then(function(u){ if (u && u.error) throw new Error(u.error); renderUser(u); })
+    .catch(function(e){ $('dcont').innerHTML = '<button class="x" id="dx">✕</button><p class="err">' + crmErr(e) + '</p>'; });
+}
+function closeUser(){ $('dbg').classList.remove('on'); $('drawer').classList.remove('on'); }
+$('dbg').onclick = closeUser;
+document.addEventListener('keydown', function(ev){ if (ev.key === 'Escape') closeUser(); });
+function kv(items){ return '<div class="kv">' + items.map(function(x){ var v = x[1];
+  return '<div><span>' + esc(x[0]) + '</span><b>' + (x[2] ? v : esc(v == null || v === '' ? '—' : v)) + '</b></div>'; }).join('') + '</div>'; }
+function renderUser(u){
+  var p = u.profile || {}, d = u.device || {}, a = u.attribution, s = u.subscription;
+  var h = '<button class="x" id="dx">✕</button><h1 style="font-size:26px;font-weight:800">Пользователь</h1><div class="uid" style="margin:4px 0 10px">' + esc(p.user_id) + '</div>' + stChip(s ? s.crm_status : 'free');
+  h += '<h2>Профиль</h2>' + kv([['Страна', cname(p.country)], ['Установка', dt(p.created_at)], ['Последний визит', ago(p.last_seen_at)], ['Версия', d.app_version || p.first_seen_app_version],
+    ['Устройство', d.device_model], ['iOS', d.os_version], ['Язык', d.locale], ['Часовой пояс', d.timezone], ['Сессий', num(d.sessions)], ['Минут в приложении', num(d.total_minutes)],
+    ['Пуши', d.push_permission_granted == null ? '—' : d.push_permission_granted ? 'разрешены' : 'запрещены'], ['Adapty profile', p.adapty_profile_id]]);
+  h += '<h2>Источник</h2>' + (a ? kv([['Тип', a.is_organic === 'organic' ? 'Органика' : 'Реклама'], ['Источник', a.utm_source], ['Кампания', a.campaign_name || a.campaign_id],
+    ['Группа', a.adset_name || a.adset_id], ['Объявление', a.ad_name || a.ad_id], ['Канал (af_channel)', a.channel], ['deep_link_value', a.deep_link_value], ['Установка', dt(a.install_at)]]) : '<p class="meta">Нет данных атрибуции.</p>');
+  var lp = a && a.params && Object.keys(a.params).length ? Object.keys(a.params).sort() : [];
+  if (lp.length) h += '<h2>Параметры ссылки <small>всё, что пришло из AppsFlyer</small></h2>' + kv(lp.map(function(k){ return [k, String(a.params[k])]; }));
+  h += '<h2>Подписка</h2>' + (s ? kv([['Статус', stChip(s.crm_status), true], ['Продукт', s.product_id], ['Автопродление', s.will_renew ? 'включено' : 'выключено'],
+    ['Истекает', dt(s.expires_at)], ['Отмена', s.cancel_date ? dt(s.cancel_date) : '—'], ['Причина отмены', s.cancellation_reason]]) : '<p class="meta">Не подписывался.</p>');
+  var pays = u.payments || [];
+  h += '<h2>Платежи <small>' + pays.length + '</small></h2>' + (pays.length ? '<div class="tablewrap"><table><tr><th>Когда</th><th>Тип</th><th>Продукт</th><th>Сумма</th><th>Возврат</th></tr>' +
+    pays.map(function(x){ return '<tr><td>' + dt(x.occurred_at) + '</td><td>' + esc(x.event_type) + '</td><td>' + esc(x.product_id) + '</td><td class="num">' + money(x.amount_usd) +
+      '</td><td>' + esc(x.refund || '') + '</td></tr>'; }).join('') + '</table></div>' : '<p class="meta">Платежей нет.</p>');
+  var fb = u.feedback || [];
+  if (fb.length) h += '<h2>Оценки и отзывы</h2><div class="fb">' + fb.map(function(x){ return '<div class="fbc">' + starsHtml(x.stars) +
+    (x.text ? '<div class="t">' + esc(x.text) + '</div>' : '') + '<div class="m">' + dt(x.event_time) +
+    '<button class="del" data-del="' + esc(x.event_id) + '" data-user-ref="' + esc(p.user_id) + '">🗑 Удалить оценку</button></div></div>'; }).join('') + '</div>';
+  var ev = u.events || [];
+  h += '<h2>Лента событий <small>последние ' + ev.length + '</small></h2><div class="tl">' + ev.map(function(x){
+    var nm = x.event_name, cls = /purchase|trial|subscri/.test(nm) ? 'pay' : /paywall|offer/.test(nm) ? 'pw' : /rate_|review|feedback/.test(nm) ? 'fbk' : '';
+    var pr = Object.assign({}, x.properties || {}); delete pr.ab_variant; var ps = Object.keys(pr).length ? JSON.stringify(pr) : '';
+    return '<div class="' + cls + '"><b>' + esc(EV_RU[nm] || nm) + '</b> <span class="meta">' + dt(x.event_time) + ' · v' + esc(x.app_version) + '</span>' +
+      (ps ? '<br/><code>' + esc(ps.slice(0, 300)) + '</code>' : '') + '</div>'; }).join('') + '</div>';
+  $('dcont').innerHTML = h;
+}
+function deleteStars(stars){
+  if (!confirm('Удалить ВСЕ оценки ' + stars + '★ за выбранный период' + (VF ? ' (версия ' + VF + ')' : '') + '? Вместе с ними удалятся отзывы этих пользователей. Это нельзя отменить.')) return;
+  api('/admin/api/crm/delete_stars' + '?days=' + effDays() + rangeQS() + (VF ? '&version=' + encodeURIComponent(VF) : ''), {method: 'POST', body: JSON.stringify({stars: stars})})
+    .then(function(){ loadFeedback(); }).catch(function(e){ alert('Не удалось удалить: ' + e.message); });
+}
+function deleteGift(step){
+  var what = step === 'all' ? 'ВСЮ воронку подарка «1 день Pro»' : 'события шага «' + ({shown: 'Показали подарок', accepted: 'Приняли', declined: 'Отказались', used: 'Активировали день Pro'}[step] || step) + '»';
+  if (!confirm('Удалить ' + what + ' за выбранный период' + (VF ? ' (версия ' + VF + ')' : '') + '? Оценки и отзывы не трогаем. Это нельзя отменить.')) return;
+  api('/admin/api/crm/delete_gift' + '?days=' + effDays() + rangeQS() + (VF ? '&version=' + encodeURIComponent(VF) : ''), {method: 'POST', body: JSON.stringify({step: step})})
+    .then(function(){ loadFeedback(); }).catch(function(e){ alert('Не удалось удалить: ' + e.message); });
+}
+function deleteFeedback(id, userRef){
+  if (!confirm('Удалить этот отзыв вместе с оценкой пользователя? Это нельзя отменить.')) return;
+  api('/admin/api/crm/delete', {method: 'POST', body: JSON.stringify({event_id: id})}).then(function(j){
+    FB = FB.filter(function(r){ return r.event_id !== id; }); renderFb(); loadFeedback();
+    if (userRef) openUser(userRef);
+  }).catch(function(e){ alert('Не удалось удалить: ' + e.message); });
+}
+document.addEventListener('click', function(ev){
+  var ds = ev.target.closest && ev.target.closest('[data-delstars]'); if (ds) { ev.preventDefault(); deleteStars(+ds.getAttribute('data-delstars')); return; }
+  var dg = ev.target.closest && ev.target.closest('[data-delgift]'); if (dg) { ev.preventDefault(); deleteGift(dg.getAttribute('data-delgift')); return; }
+  var d = ev.target.closest && ev.target.closest('[data-del]'); if (d) { ev.preventDefault(); deleteFeedback(d.getAttribute('data-del'), d.getAttribute('data-user-ref')); return; }
+  var t = ev.target.closest && ev.target.closest('[data-user]'); if (t) { ev.preventDefault(); openUser(t.getAttribute('data-user')); return; }
+  if (ev.target.id === 'dx') closeUser();
+});
+
+function boot(){ load(); loadFeedback(); loadLinks(); }
+$('ctry').onchange = function(){ if (tok.value) load(); };
+$('go').onclick = function(){ load(); loadCrm(); }; $('seg').onchange = function(){ if (tok.value) load(); };
+var LP = 'analytics'; try { LP = localStorage.getItem('rw_page') || 'analytics'; } catch(e) {}
+PAGE = LP; showPage(LP);
+if (tok.value) boot(); else showLogin('');
+})();
 </script></body></html>
