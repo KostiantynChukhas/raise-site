@@ -2,7 +2,7 @@
  "id": "travel-b2",
  "topic": "travel",
  "level": "b2",
- "version": 4,
+ "version": 5,
  "concepts": [
   {
    "id": "travel.overbooking",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˌbʊkɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The airline faced issues due to overbooking flights.",
+     "uk": "Авіакомпанія зіткнулася з проблемами через овербукінг.",
+     "ru": "Авиакомпания столкнулась с проблемами из-за овербукинга.",
+     "pl": "Linia lotnicza miała problemy z powodu overbookingu.",
+     "de": "Die Fluggesellschaft hatte Probleme wegen Überbuchungen.",
+     "fr": "La compagnie aérienne a rencontré des problèmes à cause de la surréservation.",
+     "es": "La aerolínea tuvo problemas debido a la sobreventa.",
+     "it": "La compagnia aerea ha avuto problemi a causa dell'overbooking.",
+     "pt": "A companhia aérea enfrentou problemas devido ao overbooking.",
+     "tr": "Havayolu fazla rezervasyon nedeniyle sorunlar yaşadı."
+    },
+    {
+     "en": "Overbooking can lead to passengers being denied boarding.",
+     "uk": "Овербукінг може призвести до відмови в посадці пасажирів.",
+     "ru": "Овербукинг может привести к отказу в посадке пассажиров.",
+     "pl": "Overbooking może prowadzić do odmowy wejścia na pokład pasażerów.",
+     "de": "Überbuchung kann dazu führen, dass Passagieren die Einschiffung verweigert wird.",
+     "fr": "La surréservation peut entraîner le refus d'embarquement des passagers.",
+     "es": "La sobreventa puede llevar a que se niegue el embarque a los pasajeros.",
+     "it": "L'overbooking può portare al rifiuto di imbarco dei passeggeri.",
+     "pt": "O overbooking pode levar a que os passageiros sejam negados embarque.",
+     "tr": "Fazla rezervasyon, yolcuların binişinin reddedilmesine neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.be-stranded",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/bi ˈstrændɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We were stranded at the airport overnight due to delays.",
+     "uk": "Ми застрягли в аеропорту на ніч через затримки.",
+     "ru": "Мы застряли в аэропорту на ночь из-за задержек.",
+     "pl": "Utknęliśmy na lotnisku na noc z powodu opóźnień.",
+     "de": "Wir saßen wegen Verzögerungen die Nacht am Flughafen fest.",
+     "fr": "Nous avons été bloqués à l'aéroport toute la nuit à cause des retards.",
+     "es": "Nos quedamos tirados en el aeropuerto toda la noche por retrasos.",
+     "it": "Siamo rimasti bloccati in aeroporto tutta la notte a causa dei ritardi.",
+     "pt": "Ficamos presos no aeroporto a noite toda devido a atrasos.",
+     "tr": "Gecikmeler nedeniyle gece boyunca havalimanında mahsur kaldık."
+    },
+    {
+     "en": "They were stranded on the island after the storm hit.",
+     "uk": "Вони застрягли на острові після шторму.",
+     "ru": "Они застряли на острове после шторма.",
+     "pl": "Utknęli na wyspie po uderzeniu burzy.",
+     "de": "Sie saßen nach dem Sturm auf der Insel fest.",
+     "fr": "Ils ont été bloqués sur l'île après le passage de la tempête.",
+     "es": "Quedaron tirados en la isla después de que pasó la tormenta.",
+     "it": "Sono rimasti bloccati sull'isola dopo il passaggio della tempesta.",
+     "pt": "Eles ficaram presos na ilha após a tempestade.",
+     "tr": "Fırtına vurduktan sonra adada mahsur kaldılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.compensation",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/ˌkɑmpənˈseɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Passengers are entitled to compensation for flight cancellations.",
+     "uk": "Пасажири мають право на компенсацію за скасування рейсів.",
+     "ru": "Пассажиры имеют право на компенсацию за отмену рейсов.",
+     "pl": "Pasażerowie mają prawo do odszkodowania za odwołane loty.",
+     "de": "Passagiere haben Anspruch auf Entschädigung bei Flugausfällen.",
+     "fr": "Les passagers ont droit à une indemnisation pour les annulations de vol.",
+     "es": "Los pasajeros tienen derecho a compensación por cancelaciones de vuelos.",
+     "it": "I passeggeri hanno diritto a risarcimento per le cancellazioni di volo.",
+     "pt": "Os passageiros têm direito a indenização por cancelamentos de voos.",
+     "tr": "Yolcular, uçuş iptalleri için tazminat alma hakkına sahiptir."
+    },
+    {
+     "en": "You can claim compensation for delayed luggage.",
+     "uk": "Ви можете подати заявку на компенсацію за затримане багаж.",
+     "ru": "Вы можете подать заявку на компенсацию за задержанный багаж.",
+     "pl": "Możesz ubiegać się o odszkodowanie za opóźniony bagaż.",
+     "de": "Sie können eine Entschädigung für verspätetes Gepäck beantragen.",
+     "fr": "Vous pouvez demander une indemnisation pour les bagages retardés.",
+     "es": "Puedes reclamar compensación por el equipaje retrasado.",
+     "it": "Puoi richiedere un risarcimento per il bagaglio in ritardo.",
+     "pt": "Você pode solicitar indenização por bagagem atrasada.",
+     "tr": "Geciken bagaj için tazminat talep edebilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.baggage-allowance",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈbæɡədʒ əˈlaʊəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check your airline's baggage allowance before packing.",
+     "uk": "Перевірте норму багажу вашої авіакомпанії перед пакуванням.",
+     "ru": "Проверьте норму багажа вашей авиакомпании перед упаковкой.",
+     "pl": "Sprawdź limit bagażu swojej linii lotniczej przed pakowaniem.",
+     "de": "Überprüfen Sie die Freigepäckgrenze Ihrer Fluggesellschaft vor dem Packen.",
+     "fr": "Vérifiez la franchise bagages de votre compagnie aérienne avant de faire vos valises.",
+     "es": "Verifica la franquicia de equipaje de tu aerolínea antes de empacar.",
+     "it": "Controlla la franchigia bagaglio della tua compagnia aerea prima di fare le valigie.",
+     "pt": "Verifique a franquia de bagagem da sua companhia aérea antes de fazer as malas.",
+     "tr": "Paketlemeden önce havayolunun bagaj hakkını kontrol edin."
+    },
+    {
+     "en": "Exceeding the baggage allowance may incur extra fees.",
+     "uk": "Перевищення норми багажу може призвести до додаткових зборів.",
+     "ru": "Превышение нормы багажа может повлечь дополнительные сборы.",
+     "pl": "Przekroczenie limitu bagażu może wiązać się z dodatkowymi opłatami.",
+     "de": "Das Überschreiten der Freigepäckgrenze kann zusätzliche Gebühren verursachen.",
+     "fr": "Dépasser la franchise bagages peut entraîner des frais supplémentaires.",
+     "es": "Superar la franquicia de equipaje puede incurrir en tarifas adicionales.",
+     "it": "Superare la franchigia bagaglio può comportare costi aggiuntivi.",
+     "pt": "Ultrapassar a franquia de bagagem pode resultar em taxas adicionais.",
+     "tr": "Bagaj hakkını aşmak ek ücretlere neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.excess-baggage",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈɛkˌsɛs ˈbæɡədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You will have to pay for excess baggage at check-in.",
+     "uk": "Вам доведеться заплатити за надлишок багажу під час реєстрації.",
+     "ru": "Вам придется заплатить за перевес багажа при регистрации.",
+     "pl": "Będziesz musiał zapłacić za nadbagaż podczas odprawy.",
+     "de": "Sie müssen beim Check-in für Übergepäck bezahlen.",
+     "fr": "Vous devrez payer pour l'excédent de bagages lors de l'enregistrement.",
+     "es": "Tendrás que pagar por el exceso de equipaje al hacer el check-in.",
+     "it": "Dovrai pagare per il bagaglio in eccesso al check-in.",
+     "pt": "Você terá que pagar pelo excesso de bagagem no check-in.",
+     "tr": "Check-in sırasında fazla bagaj için ödeme yapmanız gerekecek."
+    },
+    {
+     "en": "Avoid packing excess baggage to save on fees.",
+     "uk": "Уникайте пакування надлишку багажу, щоб заощадити на зборах.",
+     "ru": "Избегайте упаковки перевеса багажа, чтобы сэкономить на сборах.",
+     "pl": "Unikaj pakowania nadbagażu, aby zaoszczędzić na opłatach.",
+     "de": "Vermeiden Sie es, Übergepäck zu packen, um Gebühren zu sparen.",
+     "fr": "Évitez de faire des bagages excédentaires pour économiser sur les frais.",
+     "es": "Evita empacar exceso de equipaje para ahorrar en tarifas.",
+     "it": "Evita di imballare bagagli in eccesso per risparmiare sulle spese.",
+     "pt": "Evite fazer excesso de bagagem para economizar em taxas.",
+     "tr": "Ücretlerden tasarruf etmek için fazla bagaj paketlemekten kaçının."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.boarding-time",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈbɔrdɪŋ taɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Make sure to arrive before the boarding time.",
+     "uk": "Переконайтеся, що приїхали до часу посадки.",
+     "ru": "Убедитесь, что прибыли до времени посадки.",
+     "pl": "Upewnij się, że przybyłeś przed czasem wejścia na pokład.",
+     "de": "Stellen Sie sicher, dass Sie vor der Boardingzeit ankommen.",
+     "fr": "Assurez-vous d'arriver avant l'heure d'embarquement.",
+     "es": "Asegúrate de llegar antes de la hora de embarque.",
+     "it": "Assicurati di arrivare prima dell'orario d'imbarco.",
+     "pt": "Certifique-se de chegar antes do horário de embarque.",
+     "tr": "Biniş saatinden önce gelmeye dikkat edin."
+    },
+    {
+     "en": "The boarding time is usually announced at the gate.",
+     "uk": "Час посадки зазвичай оголошується біля виходу.",
+     "ru": "Время посадки обычно объявляется у выхода.",
+     "pl": "Czas wejścia na pokład zazwyczaj ogłaszany jest przy bramce.",
+     "de": "Die Boardingzeit wird normalerweise am Gate bekannt gegeben.",
+     "fr": "L'heure d'embarquement est généralement annoncée à la porte.",
+     "es": "La hora de embarque se anuncia generalmente en la puerta.",
+     "it": "L'orario d'imbarco viene solitamente annunciato al gate.",
+     "pt": "O horário de embarque é geralmente anunciado no portão.",
+     "tr": "Biniş saati genellikle kapıda duyurulur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.connecting-flight",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/kəˈnɛktɪŋ flaɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I missed my connecting flight due to a delay.",
+     "uk": "Я пропустив свій стикувальний рейс через затримку.",
+     "ru": "Я пропустил свой стыковочный рейс из-за задержки.",
+     "pl": "Przegapiłem mój lot przesiadkowy z powodu opóźnienia.",
+     "de": "Ich habe meinen Anschlussflug wegen einer Verspätung verpasst.",
+     "fr": "J'ai raté mon vol de correspondance à cause d'un retard.",
+     "es": "Perdí mi vuelo de conexión debido a un retraso.",
+     "it": "Ho perso il mio volo in coincidenza a causa di un ritardo.",
+     "pt": "Perdi meu voo de conexão devido a um atraso.",
+     "tr": "Bir gecikme nedeniyle bağlantılı uçuşumu kaçırdım."
+    },
+    {
+     "en": "Always check the gate for your connecting flight.",
+     "uk": "Завжди перевіряйте вихід для свого стикувального рейсу.",
+     "ru": "Всегда проверяйте выход для своего стыковочного рейса.",
+     "pl": "Zawsze sprawdzaj bramkę swojego lotu przesiadkowego.",
+     "de": "Überprüfen Sie immer das Gate für Ihren Anschlussflug.",
+     "fr": "Vérifiez toujours la porte pour votre vol de correspondance.",
+     "es": "Siempre verifica la puerta para tu vuelo de conexión.",
+     "it": "Controlla sempre il gate per il tuo volo in coincidenza.",
+     "pt": "Sempre verifique o portão para o seu voo de conexão.",
+     "tr": "Bağlantılı uçuşunuz için her zaman kapıyı kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.reschedule",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/riˈskɛdʒul/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to reschedule my flight for next week.",
+     "uk": "Мені потрібно перенести свій рейс на наступний тиждень.",
+     "ru": "Мне нужно перенести свой рейс на следующую неделю.",
+     "pl": "Muszę przełożyć mój lot na przyszły tydzień.",
+     "de": "Ich muss meinen Flug auf nächste Woche umbuchen.",
+     "fr": "Je dois reporter mon vol à la semaine prochaine.",
+     "es": "Necesito reprogramar mi vuelo para la próxima semana.",
+     "it": "Devo riprogrammare il mio volo per la prossima settimana.",
+     "pt": "Preciso remarcar meu voo para a próxima semana.",
+     "tr": "Gelecek hafta uçuşumu yeniden planlamam gerekiyor."
+    },
+    {
+     "en": "Can I reschedule my appointment for another day?",
+     "uk": "Чи можу я перенести свою зустріч на інший день?",
+     "ru": "Могу ли я перенести свою встречу на другой день?",
+     "pl": "Czy mogę przełożyć swoją wizytę na inny dzień?",
+     "de": "Kann ich meinen Termin auf einen anderen Tag umbuchen?",
+     "fr": "Puis-je reporter mon rendez-vous à un autre jour?",
+     "es": "¿Puedo reprogramar mi cita para otro día?",
+     "it": "Posso riprogrammare il mio appuntamento per un altro giorno?",
+     "pt": "Posso remarcar minha consulta para outro dia?",
+     "tr": "Randevumu başka bir güne yeniden planlayabilir miyim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.frequent-flyer-program",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈfrikwənt ˈflaɪɚ ˈproʊˌɡræm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Joining a frequent flyer program can save you money.",
+     "uk": "Приєднання до програми лояльності авіакомпанії може зекономити вам гроші.",
+     "ru": "Присоединение к программе для часто летающих может сэкономить вам деньги.",
+     "pl": "Dołączenie do programu dla często latających może zaoszczędzić pieniądze.",
+     "de": "Der Beitritt zu einem Vielfliegerprogramm kann Ihnen Geld sparen.",
+     "fr": "Rejoindre un programme de fidélité aérien peut vous faire économiser de l'argent.",
+     "es": "Unirse a un programa de viajero frecuente puede ahorrarte dinero.",
+     "it": "Iscriversi a un programma frequent flyer può farti risparmiare.",
+     "pt": "Ingressar em um programa de milhagem pode economizar dinheiro.",
+     "tr": "Sık uçan yolcu programına katılmak size para kazandırabilir."
+    },
+    {
+     "en": "Check the benefits of your frequent flyer program.",
+     "uk": "Перевірте переваги вашої програми лояльності авіакомпанії.",
+     "ru": "Проверьте преимущества вашей программы для часто летающих.",
+     "pl": "Sprawdź korzyści swojego programu dla często latających.",
+     "de": "Überprüfen Sie die Vorteile Ihres Vielfliegerprogramms.",
+     "fr": "Vérifiez les avantages de votre programme de fidélité aérien.",
+     "es": "Verifica los beneficios de tu programa de viajero frecuente.",
+     "it": "Controlla i vantaggi del tuo programma frequent flyer.",
+     "pt": "Verifique os benefícios do seu programa de milhagem.",
+     "tr": "Sık uçan yolcu programınızın avantajlarını kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.air-miles",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ɛr maɪlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You can earn air miles when you book flights.",
+     "uk": "Ви можете заробити бонусні милі, коли бронюєте рейси.",
+     "ru": "Вы можете заработать бонусные мили, когда бронируете рейсы.",
+     "pl": "Możesz zdobyć mile lotnicze, gdy rezerwujesz loty.",
+     "de": "Sie können Flugmeilen sammeln, wenn Sie Flüge buchen.",
+     "fr": "Vous pouvez gagner des miles aériens lorsque vous réservez des vols.",
+     "es": "Puedes ganar millas aéreas al reservar vuelos.",
+     "it": "Puoi guadagnare miglia aeree quando prenoti voli.",
+     "pt": "Você pode ganhar milhas aéreas ao reservar voos.",
+     "tr": "Uçuş rezervasyonu yaptığınızda uçuş milleri kazanabilirsiniz."
+    },
+    {
+     "en": "Check how many air miles you have accumulated.",
+     "uk": "Перевірте, скільки бонусних миль ви накопичили.",
+     "ru": "Проверьте, сколько бонусных миль вы накопили.",
+     "pl": "Sprawdź, ile mil lotniczych zgromadziłeś.",
+     "de": "Überprüfen Sie, wie viele Flugmeilen Sie gesammelt haben.",
+     "fr": "Vérifiez combien de miles aériens vous avez accumulés.",
+     "es": "Verifica cuántas millas aéreas has acumulado.",
+     "it": "Controlla quante miglia aeree hai accumulato.",
+     "pt": "Verifique quantas milhas aéreas você acumulou.",
+     "tr": "Ne kadar uçuş mili biriktirdiğinizi kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.business-class",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈbɪznəs klæs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I always fly in business class for comfort.",
+     "uk": "Я завжди літаю бізнес-класом для зручності.",
+     "ru": "Я всегда летаю бизнес-классом для комфорта.",
+     "pl": "Zawsze latam klasą biznes dla wygody.",
+     "de": "Ich fliege immer in der Businessclass für Komfort.",
+     "fr": "Je vole toujours en classe affaires pour le confort.",
+     "es": "Siempre vuelo en clase ejecutiva por comodidad.",
+     "it": "Volo sempre in business class per comodità.",
+     "pt": "Eu sempre viajo na classe executiva por conforto.",
+     "tr": "Her zaman konfor için business sınıfında uçuyorum."
+    },
+    {
+     "en": "Business class offers better meals and spacious seats.",
+     "uk": "Бізнес-клас пропонує кращі страви та простір.",
+     "ru": "Бизнес-класс предлагает лучшие блюда и просторные места.",
+     "pl": "Klasa biznes oferuje lepsze posiłki i przestronne miejsca.",
+     "de": "Die Businessclass bietet bessere Mahlzeiten und geräumige Sitze.",
+     "fr": "La classe affaires offre de meilleurs repas et des sièges spacieux.",
+     "es": "La clase ejecutiva ofrece mejores comidas y asientos espaciosos.",
+     "it": "La business class offre pasti migliori e sedili spaziosi.",
+     "pt": "A classe executiva oferece melhores refeições e assentos espaçosos.",
+     "tr": "Business sınıfı, daha iyi yemekler ve geniş koltuklar sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.economy-class",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ɪˈkɑnəmi klæs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I usually fly economy class to save money.",
+     "uk": "Я зазвичай літаю економкласом, щоб заощадити гроші.",
+     "ru": "Я обычно летаю экономклассом, чтобы сэкономить деньги.",
+     "pl": "Zazwyczaj latam klasą ekonomiczną, aby zaoszczędzić pieniądze.",
+     "de": "Ich fliege normalerweise in der Economyclass, um Geld zu sparen.",
+     "fr": "Je vole généralement en classe économique pour économiser de l'argent.",
+     "es": "Normalmente vuelo en clase turista para ahorrar dinero.",
+     "it": "Di solito volo in classe economica per risparmiare.",
+     "pt": "Normalmente viajo na classe econômica para economizar dinheiro.",
+     "tr": "Genellikle para tasarrufu için ekonomi sınıfında uçarım."
+    },
+    {
+     "en": "Economy class has less legroom than business class.",
+     "uk": "Економклас має менше місця для ніг, ніж бізнес-клас.",
+     "ru": "Экономкласс имеет меньше места для ног, чем бизнес-класс.",
+     "pl": "Klasa ekonomiczna ma mniej miejsca na nogi niż klasa biznes.",
+     "de": "Die Economyclass hat weniger Beinfreiheit als die Businessclass.",
+     "fr": "La classe économique a moins d'espace pour les jambes que la classe affaires.",
+     "es": "La clase turista tiene menos espacio para las piernas que la clase ejecutiva.",
+     "it": "La classe economica ha meno spazio per le gambe rispetto alla business class.",
+     "pt": "A classe econômica tem menos espaço para as pernas do que a classe executiva.",
+     "tr": "Ekonomi sınıfında business sınıfına göre daha az bacak alanı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.duty-free-shop",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˈduti fri ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought perfume at the duty-free shop.",
+     "uk": "Я купив парфуми в магазині дьюті-фрі.",
+     "ru": "Я купил духи в магазине дьюти-фри.",
+     "pl": "Kupiłem perfumy w sklepie wolnocłowym.",
+     "de": "Ich habe Parfüm im Duty-free-Shop gekauft.",
+     "fr": "J'ai acheté du parfum dans la boutique hors taxes.",
+     "es": "Compré perfume en la tienda libre de impuestos.",
+     "it": "Ho comprato profumo nel duty free.",
+     "pt": "Comprei perfume na loja free shop.",
+     "tr": "Gümrüksüz mağazada parfüm aldım."
+    },
+    {
+     "en": "The duty-free shop has great deals on alcohol.",
+     "uk": "У магазині дьюті-фрі чудові пропозиції на алкоголь.",
+     "ru": "В магазине дьюти-фри отличные предложения на алкоголь.",
+     "pl": "W sklepie wolnocłowym są świetne oferty na alkohol.",
+     "de": "Der Duty-free-Shop hat tolle Angebote für Alkohol.",
+     "fr": "La boutique hors taxes a d'excellentes offres sur l'alcool.",
+     "es": "La tienda libre de impuestos tiene grandes ofertas en alcohol.",
+     "it": "Il duty free ha ottime offerte su alcolici.",
+     "pt": "A loja free shop tem ótimas ofertas de álcool.",
+     "tr": "Gümrüksüz mağazada alkole harika fırsatlar var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.customs-declaration",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ˈkʌstəmz ˌdɛklɚˈeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need a customs declaration for your goods.",
+     "uk": "Вам потрібна митна декларація для ваших товарів.",
+     "ru": "Вам нужна таможенная декларация для ваших товаров.",
+     "pl": "Potrzebujesz deklaracji celnej dla swoich towarów.",
+     "de": "Sie benötigen eine Zollerklärung für Ihre Waren.",
+     "fr": "Vous avez besoin d'une déclaration en douane pour vos marchandises.",
+     "es": "Necesitas una declaración de aduana para tus mercancías.",
+     "it": "Hai bisogno di una dichiarazione doganale per le tue merci.",
+     "pt": "Você precisa de uma declaração alfandegária para suas mercadorias.",
+     "tr": "Mallarinız için gümrük beyannamesine ihtiyacınız var."
+    },
+    {
+     "en": "Fill out the customs declaration before your flight.",
+     "uk": "Заповніть митну декларацію перед вашим рейсом.",
+     "ru": "Заполните таможенную декларацию перед вашим рейсом.",
+     "pl": "Wypełnij deklarację celną przed swoim lotem.",
+     "de": "Füllen Sie die Zollerklärung vor Ihrem Flug aus.",
+     "fr": "Remplissez la déclaration en douane avant votre vol.",
+     "es": "Completa la declaración de aduana antes de tu vuelo.",
+     "it": "Compila la dichiarazione doganale prima del tuo volo.",
+     "pt": "Preencha a declaração alfandegária antes do seu voo.",
+     "tr": "Uçuşunuzdan önce gümrük beyannamesini doldurun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.declare-goods",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/dɪˈklɛr ɡʊdz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must declare goods when entering the country.",
+     "uk": "Ви повинні декларувати товари при в'їзді в країну.",
+     "ru": "Вы должны декларировать товары при въезде в страну.",
+     "pl": "Musisz zgłosić do oclenia towary przy wjeździe do kraju.",
+     "de": "Sie müssen Waren bei der Einreise verzollen.",
+     "fr": "Vous devez déclarer des marchandises en entrant dans le pays.",
+     "es": "Debes declarar mercancías al entrar al país.",
+     "it": "Devi dichiarare merci all'ingresso nel paese.",
+     "pt": "Você deve declarar mercadorias ao entrar no país.",
+     "tr": "Ülkeye girerken malları beyan etmelisiniz."
+    },
+    {
+     "en": "Don't forget to declare goods at customs.",
+     "uk": "Не забудьте декларувати товари на митниці.",
+     "ru": "Не забудьте декларировать товары на таможне.",
+     "pl": "Nie zapomnij zgłosić towarów na celnym.",
+     "de": "Vergessen Sie nicht, Waren beim Zoll zu verzollen.",
+     "fr": "N'oubliez pas de déclarer des marchandises à la douane.",
+     "es": "No olvides declarar mercancías en la aduana.",
+     "it": "Non dimenticare di dichiarare merci in dogana.",
+     "pt": "Não se esqueça de declarar mercadorias na alfândega.",
+     "tr": "Gümrükte malları beyan etmeyi unutmayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.entry-requirements",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈɛntri rɪˈkwaɪrmənts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check the entry requirements before traveling abroad.",
+     "uk": "Перевірте умови в'їзду перед поїздкою за кордон.",
+     "ru": "Проверьте условия въезда перед поездкой за границу.",
+     "pl": "Sprawdź wymogi wjazdowe przed podróżą za granicę.",
+     "de": "Überprüfen Sie die Einreisebestimmungen vor der Ausreise.",
+     "fr": "Vérifiez les conditions d'entrée avant de voyager à l'étranger.",
+     "es": "Verifica los requisitos de entrada antes de viajar al extranjero.",
+     "it": "Controlla i requisiti d'ingresso prima di viaggiare all'estero.",
+     "pt": "Verifique os requisitos de entrada antes de viajar para o exterior.",
+     "tr": "Yurt dışına seyahat etmeden önce giriş şartlarını kontrol edin."
+    },
+    {
+     "en": "Entry requirements vary by country and purpose of visit.",
+     "uk": "Умови в'їзду різняться залежно від країни та мети візиту.",
+     "ru": "Условия въезда различаются в зависимости от страны и цели визита.",
+     "pl": "Wymogi wjazdowe różnią się w zależności od kraju i celu wizyty.",
+     "de": "Die Einreisebestimmungen variieren je nach Land und Reisezweck.",
+     "fr": "Les conditions d'entrée varient selon le pays et le but de la visite.",
+     "es": "Los requisitos de entrada varían según el país y el propósito de la visita.",
+     "it": "I requisiti d'ingresso variano a seconda del paese e dello scopo della visita.",
+     "pt": "Os requisitos de entrada variam conforme o país e o propósito da visita.",
+     "tr": "Giriş şartları, ülkeye ve ziyaret amacına göre değişir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-advisory",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl ædˈvaɪzɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The government issued a travel advisory for the region.",
+     "uk": "Уряд видав попередження для мандрівників у регіоні.",
+     "ru": "Правительство выпустило предупреждение для путешественников в регионе.",
+     "pl": "Rząd wydał ostrzeżenie dla podróżnych w regionie.",
+     "de": "Die Regierung hat eine Reisewarnung für die Region herausgegeben.",
+     "fr": "Le gouvernement a émis un avis aux voyageurs pour la région.",
+     "es": "El gobierno emitió un aviso de viaje para la región.",
+     "it": "Il governo ha emesso un avviso di viaggio per la regione.",
+     "pt": "O governo emitiu um alerta de viagem para a região.",
+     "tr": "Hükümet, bölge için bir seyahat uyarısı yayınladı."
+    },
+    {
+     "en": "Always check travel advisories before planning your trip.",
+     "uk": "Завжди перевіряйте попередження для мандрівників перед плануванням подорожі.",
+     "ru": "Всегда проверяйте предупреждения для путешественников перед планированием поездки.",
+     "pl": "Zawsze sprawdzaj ostrzeżenia dla podróżnych przed planowaniem podróży.",
+     "de": "Überprüfen Sie immer die Reisewarnungen, bevor Sie Ihre Reise planen.",
+     "fr": "Vérifiez toujours les avis aux voyageurs avant de planifier votre voyage.",
+     "es": "Siempre verifica los avisos de viaje antes de planear tu viaje.",
+     "it": "Controlla sempre gli avvisi di viaggio prima di pianificare il tuo viaggio.",
+     "pt": "Sempre verifique os alertas de viagem antes de planejar sua viagem.",
+     "tr": "Seyahat planlamadan önce her zaman seyahat uyarılarını kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.miss-a-connection",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/mɪs ə kəˈnɛkʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I missed my connection and had to wait hours.",
+     "uk": "Я пропустив стикування і мусив чекати години.",
+     "ru": "Я опоздал на стыковку и должен был ждать часы.",
+     "pl": "Nie zdążyłem na przesiadkę i musiałem czekać godziny.",
+     "de": "Ich habe meinen Anschluss verpasst und musste Stunden warten.",
+     "fr": "J'ai raté ma correspondance et j'ai dû attendre des heures.",
+     "es": "Perdí mi conexión y tuve que esperar horas.",
+     "it": "Ho perso la coincidenza e ho dovuto aspettare ore.",
+     "pt": "Perdi a conexão e tive que esperar horas.",
+     "tr": "Aktarmayı kaçırdım ve saatlerce beklemek zorunda kaldım."
+    },
+    {
+     "en": "Don't miss your connection or you'll be delayed.",
+     "uk": "Не пропустіть стикування, інакше затримаєтеся.",
+     "ru": "Не опоздайте на стыковку, иначе задержитесь.",
+     "pl": "Nie spóźnij się na przesiadkę, inaczej się spóźnisz.",
+     "de": "Verpassen Sie nicht Ihren Anschluss, sonst werden Sie verspätet.",
+     "fr": "Ne ratez pas votre correspondance, sinon vous serez retardé.",
+     "es": "No pierdas tu conexión o te retrasarás.",
+     "it": "Non perdere la coincidenza o sarai in ritardo.",
+     "pt": "Não perca a conexão ou você será atrasado.",
+     "tr": "Aktarmayı kaçırma yoksa gecikeceksin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.peak-season",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/pik ˈsizən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Traveling during peak season can be expensive.",
+     "uk": "Подорожувати під час високого сезону може бути дорого.",
+     "ru": "Путешествовать в высокий сезон может быть дорого.",
+     "pl": "Podróżowanie w sezonie wysokim może być drogie.",
+     "de": "Reisen während der Hochsaison kann teuer sein.",
+     "fr": "Voyager pendant la haute saison peut être coûteux.",
+     "es": "Viajar durante la temporada alta puede ser caro.",
+     "it": "Viaggiare durante l'alta stagione può essere costoso.",
+     "pt": "Viajar durante a alta temporada pode ser caro.",
+     "tr": "Yüksek sezonda seyahat etmek pahalı olabilir."
+    },
+    {
+     "en": "Many tourists visit during the peak season.",
+     "uk": "Багато туристів відвідують під час високого сезону.",
+     "ru": "Многие туристы посещают в высокий сезон.",
+     "pl": "Wielu turystów odwiedza w sezonie wysokim.",
+     "de": "Viele Touristen besuchen während der Hochsaison.",
+     "fr": "De nombreux touristes visitent pendant la haute saison.",
+     "es": "Muchos turistas visitan durante la temporada alta.",
+     "it": "Molti turisti visitano durante l'alta stagione.",
+     "pt": "Muitos turistas visitam durante a alta temporada.",
+     "tr": "Birçok turist yüksek sezonda ziyaret ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.low-season",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/loʊ ˈsizən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Traveling in low season is more affordable.",
+     "uk": "Подорожувати в низький сезон дешевше.",
+     "ru": "Путешествовать в низкий сезон дешевле.",
+     "pl": "Podróżowanie w niskim sezonie jest tańsze.",
+     "de": "Reisen in der Nebensaison ist erschwinglicher.",
+     "fr": "Voyager en basse saison est plus abordable.",
+     "es": "Viajar en temporada baja es más asequible.",
+     "it": "Viaggiare in bassa stagione è più conveniente.",
+     "pt": "Viajar na baixa temporada é mais acessível.",
+     "tr": "Düşük sezonda seyahat etmek daha uygun."
+    },
+    {
+     "en": "Hotels offer discounts during the low season.",
+     "uk": "Готелі пропонують знижки в низький сезон.",
+     "ru": "Отели предлагают скидки в низкий сезон.",
+     "pl": "Hotele oferują zniżki w niskim sezonie.",
+     "de": "Hotels bieten Rabatte in der Nebensaison an.",
+     "fr": "Les hôtels offrent des réductions en basse saison.",
+     "es": "Los hoteles ofrecen descuentos durante la temporada baja.",
+     "it": "Gli hotel offrono sconti durante la bassa stagione.",
+     "pt": "Os hotéis oferecem descontos durante a baixa temporada.",
+     "tr": "Oteller, düşük sezonda indirimler sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.low-cost-airline",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/loʊ kɑst ˈɛrˌlaɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I booked a flight with a low-cost airline.",
+     "uk": "Я забронював рейс з лоукостером.",
+     "ru": "Я забронировал рейс с лоукостером.",
+     "pl": "Zarezerwowałem lot tanimi liniami lotniczymi.",
+     "de": "Ich habe einen Flug mit einer Billigfluglinie gebucht.",
+     "fr": "J'ai réservé un vol avec une compagnie low cost.",
+     "es": "Reservé un vuelo con una aerolínea de bajo coste.",
+     "it": "Ho prenotato un volo con una compagnia low cost.",
+     "pt": "Reservei um voo com uma companhia aérea de baixo custo.",
+     "tr": "Düşük maliyetli havayolu ile bir uçuş rezervasyonu yaptım."
+    },
+    {
+     "en": "Low-cost airlines often have cheaper tickets.",
+     "uk": "Лоукостери часто мають дешевші квитки.",
+     "ru": "Лоукостеры часто предлагают более дешевые билеты.",
+     "pl": "Tanie linie lotnicze często mają tańsze bilety.",
+     "de": "Billigfluglinien haben oft günstigere Tickets.",
+     "fr": "Les compagnies low cost ont souvent des billets moins chers.",
+     "es": "Las aerolíneas de bajo coste suelen tener billetes más baratos.",
+     "it": "Le compagnie low cost spesso hanno biglietti più economici.",
+     "pt": "As companhias aéreas de baixo custo costumam ter passagens mais baratas.",
+     "tr": "Düşük maliyetli havayolları genellikle daha ucuz biletler sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.get-around",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ɡɛt ɚˈaʊnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It's easy to get around the city by bus.",
+     "uk": "Легко пересуватися містом на автобусі.",
+     "ru": "Легко передвигаться по городу на автобусе.",
+     "pl": "Łatwo poruszać się po mieście autobusem.",
+     "de": "Es ist einfach, sich mit dem Bus fortzubewegen.",
+     "fr": "Il est facile de se déplacer en bus.",
+     "es": "Es fácil moverse por la ciudad en autobús.",
+     "it": "È facile spostarsi in città con l'autobus.",
+     "pt": "É fácil se locomover pela cidade de ônibus.",
+     "tr": "Şehirde otobüsle dolaşmak kolay."
+    },
+    {
+     "en": "You can get around by bike or on foot.",
+     "uk": "Ви можете пересуватися містом на велосипеді або пішки.",
+     "ru": "Вы можете передвигаться по городу на велосипеде или пешком.",
+     "pl": "Możesz poruszać się po mieście na rowerze lub pieszo.",
+     "de": "Man kann sich mit dem Fahrrad oder zu Fuß fortbewegen.",
+     "fr": "Vous pouvez vous déplacer à vélo ou à pied.",
+     "es": "Puedes moverte en bicicleta o a pie.",
+     "it": "Puoi spostarti in bicicletta o a piedi.",
+     "pt": "Você pode se locomover de bicicleta ou a pé.",
+     "tr": "Bisikletle veya yürüyerek dolaşabilirsin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.set-off",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/sɛt ɔf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We will set off early in the morning.",
+     "uk": "Ми вирушимо рано вранці.",
+     "ru": "Мы отправимся в путь рано утром.",
+     "pl": "Wyruszamy wcześnie rano.",
+     "de": "Wir brechen früh am Morgen auf.",
+     "fr": "Nous nous mettrons en route tôt le matin.",
+     "es": "Nos pondremos en camino temprano por la mañana.",
+     "it": "Ci metteremo in viaggio presto al mattino.",
+     "pt": "Vamos partir cedo pela manhã.",
+     "tr": "Sabah erken yola çıkacağız."
+    },
+    {
+     "en": "It's time to set off for our trip.",
+     "uk": "Час вирушати в нашу подорож.",
+     "ru": "Время отправляться в нашу поездку.",
+     "pl": "Czas wyruszać w naszą podróż.",
+     "de": "Es ist Zeit, für unsere Reise aufzubrechen.",
+     "fr": "Il est temps de se mettre en route pour notre voyage.",
+     "es": "Es hora de ponernos en camino para nuestro viaje.",
+     "it": "È ora di mettersi in viaggio per il nostro viaggio.",
+     "pt": "É hora de partir para nossa viagem.",
+     "tr": "Seyahatimize çıkma zamanı geldi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.airport-transfer",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈɛrˌpɔrt trænsˈfɝ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I arranged an airport transfer for my arrival.",
+     "uk": "Я організував трансфер з аеропорту на свій приїзд.",
+     "ru": "Я организовал трансфер из аэропорта для своего приезда.",
+     "pl": "Zorganizowałem transfer z lotniska na przyjazd.",
+     "de": "Ich habe einen Flughafentransfer für meine Ankunft organisiert.",
+     "fr": "J'ai organisé un transfert aéroport pour mon arrivée.",
+     "es": "He organizado un traslado al aeropuerto para mi llegada.",
+     "it": "Ho organizzato un transfer aeroportuale per il mio arrivo.",
+     "pt": "Organizei um transfer do aeroporto para minha chegada.",
+     "tr": "Varışım için havalimanı transferi ayarladım."
+    },
+    {
+     "en": "The hotel provides a free airport transfer service.",
+     "uk": "Готель надає безкоштовний трансфер з аеропорту.",
+     "ru": "Отель предоставляет бесплатный трансфер из аэропорта.",
+     "pl": "Hotel oferuje bezpłatny transfer z lotniska.",
+     "de": "Das Hotel bietet einen kostenlosen Flughafentransfer.",
+     "fr": "L'hôtel propose un service de transfert aéroport gratuit.",
+     "es": "El hotel ofrece un servicio de traslado al aeropuerto gratuito.",
+     "it": "L'hotel offre un servizio di transfer aeroportuale gratuito.",
+     "pt": "O hotel oferece um serviço de transfer do aeroporto gratuito.",
+     "tr": "Otel, havalimanı transferi hizmeti sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.motion-sickness",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˈmoʊʃən ˈsɪknəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He often suffers from motion sickness while traveling.",
+     "uk": "Він часто страждає від заколисування під час подорожей.",
+     "ru": "Он часто страдает от укачивания во время поездок.",
+     "pl": "Często cierpi na chorobę lokomocyjną podczas podróży.",
+     "de": "Er leidet oft unter Reisekrankheit während der Reisen.",
+     "fr": "Il souffre souvent de mal des transports en voyage.",
+     "es": "A menudo sufre de mareo mientras viaja.",
+     "it": "Spesso soffre di mal d'auto durante i viaggi.",
+     "pt": "Ele sofre frequentemente de enjoo durante as viagens.",
+     "tr": "Seyahat ederken sık sık araç tutmasından muzdarip."
+    },
+    {
+     "en": "Motion sickness can ruin a long car ride.",
+     "uk": "Заколисування може зіпсувати довгу поїздку на машині.",
+     "ru": "Укачивание может испортить долгую поездку на машине.",
+     "pl": "Choroba lokomocyjna może zepsuć długą podróż samochodem.",
+     "de": "Reisekrankheit kann eine lange Autofahrt ruinieren.",
+     "fr": "Le mal des transports peut gâcher un long trajet en voiture.",
+     "es": "El mareo puede arruinar un largo viaje en coche.",
+     "it": "Il mal d'auto può rovinare un lungo viaggio in auto.",
+     "pt": "O enjoo pode estragar uma longa viagem de carro.",
+     "tr": "Araç tutması uzun bir araba yolculuğunu mahvedebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.explore",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ɪkˈsplɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to explore new cities during my vacation.",
+     "uk": "Я хочу досліджувати нові міста під час відпустки.",
+     "ru": "Я хочу исследовать новые города во время отпуска.",
+     "pl": "Chcę eksplorować nowe miasta podczas wakacji.",
+     "de": "Ich möchte neue Städte während meines Urlaubs erkunden.",
+     "fr": "Je veux explorer de nouvelles villes pendant mes vacances.",
+     "es": "Quiero explorar nuevas ciudades durante mis vacaciones.",
+     "it": "Voglio esplorare nuove città durante le mie vacanze.",
+     "pt": "Quero explorar novas cidades durante as minhas férias.",
+     "tr": "Tatilimde yeni şehirleri keşfetmek istiyorum."
+    },
+    {
+     "en": "Let's explore the countryside this weekend.",
+     "uk": "Давайте дослідимо село цього вікенду.",
+     "ru": "Давайте исследуем сельскую местность в эти выходные.",
+     "pl": "Zbadajmy wieś w ten weekend.",
+     "de": "Lass uns am Wochenende die Landschaft erkunden.",
+     "fr": "Explorons la campagne ce week-end.",
+     "es": "Exploremos el campo este fin de semana.",
+     "it": "Esploriamo la campagna questo fine settimana.",
+     "pt": "Vamos explorar o campo neste fim de semana.",
+     "tr": "Bu hafta sonu kırsalı keşfedelim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.landmark",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈlændˌmɑrk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The Eiffel Tower is a famous landmark in Paris.",
+     "uk": "Ейфелева вежа - відома визначна пам'ятка в Парижі.",
+     "ru": "Эйфелева башня - известная достопримечательность в Париже.",
+     "pl": "Wieża Eiffla to znany zabytek w Paryżu.",
+     "de": "Der Eiffelturm ist ein berühmtes Wahrzeichen in Paris.",
+     "fr": "La tour Eiffel est un monument emblématique à Paris.",
+     "es": "La Torre Eiffel es un lugar emblemático en París.",
+     "it": "La Torre Eiffel è un punto di riferimento famoso a Parigi.",
+     "pt": "A Torre Eiffel é um ponto turístico famoso em Paris.",
+     "tr": "Eyfel Kulesi, Paris'teki ünlü bir simge yapıdır."
+    },
+    {
+     "en": "This city is known for its historical landmarks.",
+     "uk": "Це місто відоме своїми історичними пам'ятками.",
+     "ru": "Этот город известен своими историческими достопримечательностями.",
+     "pl": "To miasto słynie ze swoich historycznych zabytków.",
+     "de": "Diese Stadt ist bekannt für ihre historischen Wahrzeichen.",
+     "fr": "Cette ville est connue pour ses monuments emblématiques.",
+     "es": "Esta ciudad es conocida por sus lugares emblemáticos.",
+     "it": "Questa città è famosa per i suoi punti di riferimento storici.",
+     "pt": "Esta cidade é conhecida pelos seus pontos turísticos históricos.",
+     "tr": "Bu şehir, tarihi simge yapılarıyla ünlüdür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.tourist-trap",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˈtʊrəst træp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Avoid that restaurant; it's a tourist trap.",
+     "uk": "Уникайте цього ресторану; це пастка для туристів.",
+     "ru": "Избегайте этого ресторана; это ловушка для туристов.",
+     "pl": "Unikaj tej restauracji; to pułapka na turystów.",
+     "de": "Vermeide dieses Restaurant; es ist eine Touristenfalle.",
+     "fr": "Évitez ce restaurant; c'est un piège à touristes.",
+     "es": "Evita ese restaurante; es una trampa para turistas.",
+     "it": "Evita quel ristorante; è una trappola per turisti.",
+     "pt": "Evite aquele restaurante; é uma armadilha para turistas.",
+     "tr": "O restorana gitme; o bir turist tuzağı."
+    },
+    {
+     "en": "Many shops in the area are tourist traps.",
+     "uk": "Багато магазинів у цьому районі - пастки для туристів.",
+     "ru": "Многие магазины в этом районе - ловушки для туристов.",
+     "pl": "Wiele sklepów w okolicy to pułapki na turystów.",
+     "de": "Viele Geschäfte in der Gegend sind Touristenfallen.",
+     "fr": "De nombreux magasins dans la région sont des pièges à touristes.",
+     "es": "Muchas tiendas en la zona son trampas para turistas.",
+     "it": "Molti negozi nella zona sono trappole per turisti.",
+     "pt": "Muitas lojas na área são armadilhas para turistas.",
+     "tr": "Bölgedeki birçok dükkan turist tuzağıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-light",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl laɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to travel light to avoid extra fees.",
+     "uk": "Я надаю перевагу подорожувати без зайвого багажу, щоб уникнути додаткових зборів.",
+     "ru": "Я предпочитаю путешествовать налегке, чтобы избежать дополнительных сборов.",
+     "pl": "Wolę podróżować z lekkim bagażem, aby uniknąć dodatkowych opłat.",
+     "de": "Ich reise lieber mit leichtem Gepäck, um zusätzliche Gebühren zu vermeiden.",
+     "fr": "Je préfère voyager léger pour éviter des frais supplémentaires.",
+     "es": "Prefiero viajar ligero para evitar tarifas adicionales.",
+     "it": "Preferisco viaggiare leggero per evitare costi aggiuntivi.",
+     "pt": "Prefiro viajar leve para evitar taxas extras.",
+     "tr": "Ekstra ücretlerden kaçınmak için hafif seyahat etmeyi tercih ediyorum."
+    },
+    {
+     "en": "Traveling light makes moving between destinations easier.",
+     "uk": "Подорожувати без зайвого багажу легше переміщатися між пунктами призначення.",
+     "ru": "Путешествовать налегке проще перемещаться между пунктами назначения.",
+     "pl": "Podróżowanie z lekkim bagażem ułatwia przemieszczanie się między miejscami.",
+     "de": "Mit leichtem Gepäck zu reisen, erleichtert das Bewegen zwischen Zielen.",
+     "fr": "Voyager léger facilite les déplacements entre les destinations.",
+     "es": "Viajar ligero facilita el movimiento entre destinos.",
+     "it": "Viaggiare leggero rende più facile spostarsi tra le destinazioni.",
+     "pt": "Viajar leve facilita a movimentação entre os destinos.",
+     "tr": "Hafif seyahat etmek, varış noktaları arasında hareket etmeyi kolaylaştırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.stopover",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈstɑˌpoʊvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We have a stopover in New York before heading to London.",
+     "uk": "У нас є зупинка в дорозі в Нью-Йорку перед поїздкою до Лондона.",
+     "ru": "У нас промежуточная остановка в Нью-Йорке перед поездкой в Лондон.",
+     "pl": "Mamy przystanek w podróży w Nowym Jorku przed wyjazdem do Londynu.",
+     "de": "Wir haben einen Zwischenstopp in New York, bevor wir nach London weiterfliegen.",
+     "fr": "Nous avons une escale à New York avant de nous rendre à Londres.",
+     "es": "Tenemos una escala en Nueva York antes de ir a Londres.",
+     "it": "Abbiamo uno scalo a New York prima di andare a Londra.",
+     "pt": "Temos uma escala em Nova Iorque antes de ir para Londres.",
+     "tr": "Londra'ya gitmeden önce New York'ta bir ara durak var."
+    },
+    {
+     "en": "A stopover can make a long flight more enjoyable.",
+     "uk": "Зупинка в дорозі може зробити довгий рейс більш приємним.",
+     "ru": "Промежуточная остановка может сделать долгий рейс более приятным.",
+     "pl": "Przystanek w podróży może uczynić długi lot bardziej przyjemnym.",
+     "de": "Ein Zwischenstopp kann einen langen Flug angenehmer machen.",
+     "fr": "Une escale peut rendre un long vol plus agréable.",
+     "es": "Una escala puede hacer que un vuelo largo sea más agradable.",
+     "it": "Uno scalo può rendere un volo lungo più piacevole.",
+     "pt": "Uma escala pode tornar um voo longo mais agradável.",
+     "tr": "Bir ara durak, uzun bir uçuşu daha keyifli hale getirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.red-eye-flight",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/rɛd aɪ flaɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I took a red-eye flight to save time.",
+     "uk": "Я взяв нічний рейс, щоб заощадити час.",
+     "ru": "Я взял ночной рейс, чтобы сэкономить время.",
+     "pl": "Zrobiłem nocny lot, aby zaoszczędzić czas.",
+     "de": "Ich habe einen Nachtflug genommen, um Zeit zu sparen.",
+     "fr": "J'ai pris un vol de nuit pour gagner du temps.",
+     "es": "Tomé un vuelo nocturno para ahorrar tiempo.",
+     "it": "Ho preso un volo notturno per risparmiare tempo.",
+     "pt": "Peguei um voo noturno para economizar tempo.",
+     "tr": "Zaman kazanmak için gece uçuşu yaptım."
+    },
+    {
+     "en": "The red-eye flight arrived early in the morning.",
+     "uk": "Нічний рейс прибув рано вранці.",
+     "ru": "Ночной рейс прибыл рано утром.",
+     "pl": "Nocny lot przyleciał wcześnie rano.",
+     "de": "Der Nachtflug kam früh am Morgen an.",
+     "fr": "Le vol de nuit est arrivé tôt le matin.",
+     "es": "El vuelo nocturno llegó temprano por la mañana.",
+     "it": "Il volo notturno è arrivato presto al mattino.",
+     "pt": "O voo noturno chegou cedo de manhã.",
+     "tr": "Gece uçuşu sabah erken saatlerde geldi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.cancellation-fee",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/ˌkænsəˈleɪʃən fi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I had to pay a cancellation fee for my hotel.",
+     "uk": "Мені довелося сплатити плату за скасування готелю.",
+     "ru": "Мне пришлось заплатить плату за отмену отеля.",
+     "pl": "Musiałem zapłacić opłatę za anulowanie hotelu.",
+     "de": "Ich musste eine Stornogebühr für mein Hotel bezahlen.",
+     "fr": "J'ai dû payer des frais d'annulation pour mon hôtel.",
+     "es": "Tuve que pagar una tasa de cancelación por mi hotel.",
+     "it": "Ho dovuto pagare una penale di cancellazione per il mio hotel.",
+     "pt": "Tive que pagar uma taxa de cancelamento pelo meu hotel.",
+     "tr": "Otelim için iptal ücreti ödemek zorunda kaldım."
+    },
+    {
+     "en": "Check the cancellation fee before booking your flight.",
+     "uk": "Перевірте плату за скасування перед бронюванням рейсу.",
+     "ru": "Проверьте плату за отмену перед бронированием рейса.",
+     "pl": "Sprawdź opłatę za anulowanie przed rezerwacją lotu.",
+     "de": "Überprüfen Sie die Stornogebühr, bevor Sie Ihren Flug buchen.",
+     "fr": "Vérifiez les frais d'annulation avant de réserver votre vol.",
+     "es": "Verifica los gastos de cancelación antes de reservar tu vuelo.",
+     "it": "Controlla la penale di cancellazione prima di prenotare il volo.",
+     "pt": "Verifique a taxa de cancelamento antes de reservar seu voo.",
+     "tr": "Uçuşunuzu rezervasyondan önce iptal ücretini kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.heritage-site",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈhɛrətədʒ saɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The ancient ruins are a UNESCO heritage site.",
+     "uk": "Стародавні руїни є об'єктом спадщини ЮНЕСКО.",
+     "ru": "Древние руины являются объектом наследия ЮНЕСКО.",
+     "pl": "Starożytne ruiny są obiektem dziedzictwa UNESCO.",
+     "de": "Die antiken Ruinen sind eine UNESCO-Kulturerbestätte.",
+     "fr": "Les ruines anciennes sont un site du patrimoine de l'UNESCO.",
+     "es": "Las antiguas ruinas son un sitio patrimonial de la UNESCO.",
+     "it": "Le antiche rovine sono un sito patrimonio dell'UNESCO.",
+     "pt": "As antigas ruínas são um patrimônio histórico da UNESCO.",
+     "tr": "Antik kalıntılar, UNESCO miras alanıdır."
+    },
+    {
+     "en": "We visited a heritage site during our trip.",
+     "uk": "Ми відвідали об'єкт спадщини під час нашої подорожі.",
+     "ru": "Мы посетили объект наследия во время нашей поездки.",
+     "pl": "Podczas naszej podróży odwiedziliśmy obiekt dziedzictwa.",
+     "de": "Wir haben während unserer Reise eine Kulturerbestätte besucht.",
+     "fr": "Nous avons visité un site du patrimoine lors de notre voyage.",
+     "es": "Visitamos un sitio patrimonial durante nuestro viaje.",
+     "it": "Abbiamo visitato un sito patrimonio durante il nostro viaggio.",
+     "pt": "Visitamos um patrimônio histórico durante nossa viagem.",
+     "tr": "Seyahatimiz sırasında bir miras alanını ziyaret ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-voucher",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl ˈvaʊtʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I received a travel voucher for my canceled trip.",
+     "uk": "Я отримав ваучер на подорож за скасовану поїздку.",
+     "ru": "Я получил туристический ваучер за отмененную поездку.",
+     "pl": "Otrzymałem voucher podróżny za odwołaną podróż.",
+     "de": "Ich habe einen Reisegutschein für meine stornierte Reise erhalten.",
+     "fr": "J'ai reçu un bon de voyage pour mon voyage annulé.",
+     "es": "Recibí un bono de viaje por mi viaje cancelado.",
+     "it": "Ho ricevuto un voucher di viaggio per il mio viaggio annullato.",
+     "pt": "Recebi um voucher de viagem pela minha viagem cancelada.",
+     "tr": "İptal edilen seyahatim için bir seyahat kuponu aldım."
+    },
+    {
+     "en": "You can use the travel voucher for future bookings.",
+     "uk": "Ви можете використовувати ваучер на подорож для майбутніх бронювань.",
+     "ru": "Вы можете использовать туристический ваучер для будущих бронирований.",
+     "pl": "Możesz wykorzystać voucher podróżny na przyszłe rezerwacje.",
+     "de": "Sie können den Reisegutschein für zukünftige Buchungen verwenden.",
+     "fr": "Vous pouvez utiliser le bon de voyage pour des réservations futures.",
+     "es": "Puedes usar el bono de viaje para futuras reservas.",
+     "it": "Puoi utilizzare il voucher di viaggio per prenotazioni future.",
+     "pt": "Você pode usar o voucher de viagem para futuras reservas.",
+     "tr": "Gelecek rezervasyonlar için seyahat kuponunu kullanabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.priority-boarding",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/praɪˈɔrəti ˈbɔrdɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We enjoyed priority boarding at the airport.",
+     "uk": "Ми насолоджувалися пріоритетною посадкою в аеропорту.",
+     "ru": "Мы наслаждались приоритетной посадкой в аэропорту.",
+     "pl": "Cieszyliśmy się priorytetowym wejściem na pokład na lotnisku.",
+     "de": "Wir genossen das bevorzugte Boarding am Flughafen.",
+     "fr": "Nous avons profité de l'embarquement prioritaire à l'aéroport.",
+     "es": "Disfrutamos del embarque prioritario en el aeropuerto.",
+     "it": "Abbiamo goduto dell'imbarco prioritario in aeroporto.",
+     "pt": "Aproveitamos o embarque prioritário no aeroporto.",
+     "tr": "Havaalanında öncelikli binişin tadını çıkardık."
+    },
+    {
+     "en": "Priority boarding allows you to get on first.",
+     "uk": "Пріоритетна посадка дозволяє вам заходити першим.",
+     "ru": "Приоритетная посадка позволяет вам садиться первым.",
+     "pl": "Priorytetowe wejście na pokład pozwala ci wejść jako pierwszemu.",
+     "de": "Bevorzugtes Boarding ermöglicht es Ihnen, zuerst einzusteigen.",
+     "fr": "L'embarquement prioritaire vous permet d'embarquer en premier.",
+     "es": "El embarque prioritario te permite abordar primero.",
+     "it": "L'imbarco prioritario ti consente di salire per primo.",
+     "pt": "O embarque prioritário permite que você embarque primeiro.",
+     "tr": "Öncelikli biniş, ilk olarak biniş yapmanıza olanak tanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.legroom",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ləˈɡrum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This airplane has great legroom for tall passengers.",
+     "uk": "Цей літак має багато місця для ніг для високих пасажирів.",
+     "ru": "Этот самолет имеет много места для ног для высоких пассажиров.",
+     "pl": "Ten samolot ma dużo miejsca na nogi dla wysokich pasażerów.",
+     "de": "Dieses Flugzeug hat viel Beinfreiheit für große Passagiere.",
+     "fr": "Cet avion a beaucoup d'espace pour les jambes pour les passagers grands.",
+     "es": "Este avión tiene mucho espacio para las piernas para los pasajeros altos.",
+     "it": "Questo aereo ha molto spazio per le gambe per i passeggeri alti.",
+     "pt": "Este avião tem muito espaço para as pernas para passageiros altos.",
+     "tr": "Bu uçakta uzun yolcular için geniş diz mesafesi var."
+    },
+    {
+     "en": "I always look for legroom when booking flights.",
+     "uk": "Я завжди шукаю місце для ніг при бронюванні рейсів.",
+     "ru": "Я всегда ищу место для ног при бронировании рейсов.",
+     "pl": "Zawsze szukam miejsca na nogi przy rezerwacji lotów.",
+     "de": "Ich achte immer auf die Beinfreiheit bei der Buchung von Flügen.",
+     "fr": "Je cherche toujours de l'espace pour les jambes lors de la réservation de vols.",
+     "es": "Siempre busco espacio para las piernas al reservar vuelos.",
+     "it": "Cerco sempre spazio per le gambe quando prenoto voli.",
+     "pt": "Sempre procuro espaço para as pernas ao reservar voos.",
+     "tr": "Uçuş rezervasyonu yaparken her zaman diz mesafesine bakarım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-hit-the-road",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/hɪt ðə roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We are ready to hit the road early tomorrow.",
+     "uk": "Ми готові вирушити в дорогу рано завтра.",
+     "ru": "Мы готовы отправиться в путь рано завтра.",
+     "pl": "Jesteśmy gotowi ruszać w drogę wcześnie jutro.",
+     "de": "Wir sind bereit, uns morgen früh auf den Weg zu machen.",
+     "fr": "Nous sommes prêts à prendre la route tôt demain.",
+     "es": "Estamos listos para ponernos en camino temprano mañana.",
+     "it": "Siamo pronti a metterci in viaggio presto domani.",
+     "pt": "Estamos prontos para pegar a estrada cedo amanhã.",
+     "tr": "Yola çıkmak için yarın sabah erken hazırız."
+    },
+    {
+     "en": "It's time to hit the road for our vacation.",
+     "uk": "Час вирушати в дорогу на нашу відпустку.",
+     "ru": "Пора отправляться в путь на наш отпуск.",
+     "pl": "Czas ruszać w drogę na nasze wakacje.",
+     "de": "Es ist Zeit, sich auf den Weg zu machen für unseren Urlaub.",
+     "fr": "Il est temps de prendre la route pour nos vacances.",
+     "es": "Es hora de ponernos en camino para nuestras vacaciones.",
+     "it": "È ora di mettersi in viaggio per la nostra vacanza.",
+     "pt": "É hora de pegar a estrada para as nossas férias.",
+     "tr": "Tatilimiz için yola çıkma zamanı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-companion",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl kəmˈpænjən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My sister is my favorite travel companion.",
+     "uk": "Моя сестра - мій улюблений попутник.",
+     "ru": "Моя сестра - мой любимый попутчик.",
+     "pl": "Moja siostra jest moim ulubionym towarzyszem podróży.",
+     "de": "Meine Schwester ist mein Lieblings-Reisebegleiter.",
+     "fr": "Ma sœur est mon compagnon de voyage préféré.",
+     "es": "Mi hermana es mi compañero de viaje favorito.",
+     "it": "Mia sorella è il mio compagno di viaggio preferito.",
+     "pt": "Minha irmã é meu companheiro de viagem favorito.",
+     "tr": "Kız kardeşim, en sevdiğim yol arkadaşı."
+    },
+    {
+     "en": "I met a great travel companion during my trip.",
+     "uk": "Я зустрів чудового попутника під час моєї подорожі.",
+     "ru": "Я встретил отличного попутчика во время своей поездки.",
+     "pl": "Poznałem świetnego towarzysza podróży podczas mojej podróży.",
+     "de": "Ich habe während meiner Reise einen großartigen Reisebegleiter getroffen.",
+     "fr": "J'ai rencontré un excellent compagnon de voyage pendant mon voyage.",
+     "es": "Conocí a un gran compañero de viaje durante mi viaje.",
+     "it": "Ho incontrato un ottimo compagno di viaggio durante il mio viaggio.",
+     "pt": "Conheci um ótimo companheiro de viagem durante minha viagem.",
+     "tr": "Seyahatim sırasında harika bir yol arkadaşıyla tanıştım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.tourist-visa",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˈtʊrəst ˈvizə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a tourist visa to visit that country.",
+     "uk": "Мені потрібна туристична віза для відвідування цієї країни.",
+     "ru": "Мне нужна туристическая виза для посещения этой страны.",
+     "pl": "Potrzebuję wizy turystycznej, aby odwiedzić ten kraj.",
+     "de": "Ich benötige ein Touristenvisum, um dieses Land zu besuchen.",
+     "fr": "J'ai besoin d'un visa touristique pour visiter ce pays.",
+     "es": "Necesito un visado de turista para visitar ese país.",
+     "it": "Ho bisogno di un visto turistico per visitare quel paese.",
+     "pt": "Preciso de um visto de turista para visitar esse país.",
+     "tr": "O ülkeyi ziyaret etmek için turist vizesine ihtiyacım var."
+    },
+    {
+     "en": "Applying for a tourist visa can take time.",
+     "uk": "Подання заявки на туристичну візу може зайняти час.",
+     "ru": "Подать заявку на туристическую визу может занять время.",
+     "pl": "Złożenie wniosku o wizę turystyczną może zająć czas.",
+     "de": "Die Beantragung eines Touristenvisums kann Zeit in Anspruch nehmen.",
+     "fr": "Faire une demande de visa touristique peut prendre du temps.",
+     "es": "Solicitar un visado de turista puede llevar tiempo.",
+     "it": "Richiedere un visto turistico può richiedere tempo.",
+     "pt": "Solicitar um visto de turista pode levar tempo.",
+     "tr": "Turist vizesi başvurusu zaman alabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.local-cuisine",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/ˈloʊkəl kwɪˈzin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love trying local cuisine when I travel.",
+     "uk": "Я люблю пробувати місцеву кухню, коли подорожую.",
+     "ru": "Я люблю пробовать местную кухню, когда путешествую.",
+     "pl": "Uwielbiam próbować lokalnej kuchni, gdy podróżuję.",
+     "de": "Ich liebe es, einheimische Küche zu probieren, wenn ich reise.",
+     "fr": "J'adore essayer la cuisine locale quand je voyage.",
+     "es": "Me encanta probar la cocina local cuando viajo.",
+     "it": "Adoro provare la cucina locale quando viaggio.",
+     "pt": "Adoro experimentar a culinária local quando viajo.",
+     "tr": "Seyahat ederken yerel mutfağı denemeyi seviyorum."
+    },
+    {
+     "en": "Local cuisine reflects the culture of the region.",
+     "uk": "Місцева кухня відображає культуру регіону.",
+     "ru": "Местная кухня отражает культуру региона.",
+     "pl": "Lokalna kuchnia odzwierciedla kulturę regionu.",
+     "de": "Die einheimische Küche spiegelt die Kultur der Region wider.",
+     "fr": "La cuisine locale reflète la culture de la région.",
+     "es": "La cocina local refleja la cultura de la región.",
+     "it": "La cucina locale riflette la cultura della regione.",
+     "pt": "A culinária local reflete a cultura da região.",
+     "tr": "Yerel mutfak, bölgenin kültürünü yansıtır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.long-haul-flight",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/lɔŋ hɔl flaɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I booked a long-haul flight to Australia.",
+     "uk": "Я забронював далекомагістральний рейс до Австралії.",
+     "ru": "Я забронировал дальнемагистральный рейс в Австралию.",
+     "pl": "Zarezerwowałem lot długodystansowy do Australii.",
+     "de": "Ich habe einen Langstreckenflug nach Australien gebucht.",
+     "fr": "J'ai réservé un vol long-courrier pour l'Australie.",
+     "es": "Reservé un vuelo de larga distancia a Australia.",
+     "it": "Ho prenotato un volo a lungo raggio per l'Australia.",
+     "pt": "Reservei um voo de longa distância para a Austrália.",
+     "tr": "Avustralya'ya uzun mesafe uçuşu rezervasyonu yaptım."
+    },
+    {
+     "en": "Long-haul flights can be exhausting but worth it.",
+     "uk": "Далекомагістральні рейси можуть бути виснажливими, але того варті.",
+     "ru": "Дальнемагистральные рейсы могут быть утомительными, но это того стоит.",
+     "pl": "Loty długodystansowe mogą być męczące, ale warto.",
+     "de": "Langstreckenflüge können ermüdend sein, aber es lohnt sich.",
+     "fr": "Les vols long-courrier peuvent être épuisants mais en valent la peine.",
+     "es": "Los vuelos de larga distancia pueden ser agotadores, pero valen la pena.",
+     "it": "I voli a lungo raggio possono essere estenuanti, ma ne vale la pena.",
+     "pt": "Os voos de longa distância podem ser cansativos, mas valem a pena.",
+     "tr": "Uzun mesafe uçuşları yorucu olabilir ama buna değer."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.overhead-locker",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˈhɛd ˈlɑkɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please place your bag in the overhead locker.",
+     "uk": "Будь ласка, покладіть свою сумку на багажну полицю.",
+     "ru": "Пожалуйста, положите свою сумку на багажную полку.",
+     "pl": "Proszę umieścić torbę w schowku na bagaż.",
+     "de": "Bitte legen Sie Ihre Tasche ins Gepäckfach.",
+     "fr": "Veuillez placer votre sac dans le compartiment à bagages.",
+     "es": "Por favor, coloque su bolsa en el compartimento superior.",
+     "it": "Si prega di mettere la borsa nella cappelliera.",
+     "pt": "Por favor, coloque sua bolsa no bagageiro.",
+     "tr": "Lütfen çantanızı bagaj dolabına yerleştirin."
+    },
+    {
+     "en": "The overhead locker was full of luggage.",
+     "uk": "Багажна полиця була заповнена багажем.",
+     "ru": "Багажная полка была заполнена чемоданами.",
+     "pl": "Schowek na bagaż był pełen bagażu.",
+     "de": "Das Gepäckfach war voll mit Gepäck.",
+     "fr": "Le compartiment à bagages était plein de bagages.",
+     "es": "El compartimento superior estaba lleno de equipaje.",
+     "it": "La cappelliera era piena di bagagli.",
+     "pt": "O bagageiro estava cheio de bagagens.",
+     "tr": "Bagaj dolabı bagajlarla doluydu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hidden-gem",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈhɪdən dʒɛm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This restaurant is a hidden gem in the city.",
+     "uk": "Цей ресторан - прихована перлина в місті.",
+     "ru": "Этот ресторан - скрытая жемчужина города.",
+     "pl": "Ta restauracja to ukryta perełka w mieście.",
+     "de": "Dieses Restaurant ist ein Geheimtipp in der Stadt.",
+     "fr": "Ce restaurant est une pépite cachée dans la ville.",
+     "es": "Este restaurante es una joya escondida en la ciudad.",
+     "it": "Questo ristorante è un gioiello nascosto in città.",
+     "pt": "Este restaurante é uma joia escondida na cidade.",
+     "tr": "Bu restoran şehirdeki saklı cennettir."
+    },
+    {
+     "en": "We discovered a hidden gem while hiking.",
+     "uk": "Ми знайшли приховану перлину під час походу.",
+     "ru": "Мы обнаружили скрытую жемчужину во время похода.",
+     "pl": "Odkryliśmy ukrytą perełkę podczas wędrówki.",
+     "de": "Wir haben während der Wanderung einen Geheimtipp entdeckt.",
+     "fr": "Nous avons découvert une pépite cachée en randonnée.",
+     "es": "Descubrimos una joya escondida mientras hacíamos senderismo.",
+     "it": "Abbiamo scoperto un gioiello nascosto mentre facevamo escursioni.",
+     "pt": "Descobrimos uma joia escondida enquanto caminhávamos.",
+     "tr": "Yürüyüş yaparken saklı bir cennet keşfettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.day-trip",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/deɪ trɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We planned a day trip to the beach.",
+     "uk": "Ми запланували одноденну поїздку на пляж.",
+     "ru": "Мы запланировали однодневную поездку на пляж.",
+     "pl": "Zaplanowaliśmy wycieczkę jednodniową na plażę.",
+     "de": "Wir haben einen Tagesausflug zum Strand geplant.",
+     "fr": "Nous avons prévu une excursion d'une journée à la plage.",
+     "es": "Planeamos una excursión de un día a la playa.",
+     "it": "Abbiamo pianificato una gita di un giorno in spiaggia.",
+     "pt": "Planejamos um passeio de um dia para a praia.",
+     "tr": "Plaja günübirlik gezi planladık."
+    },
+    {
+     "en": "A day trip can be a great escape.",
+     "uk": "Одноденна поїздка може бути чудовим відпочинком.",
+     "ru": "Однодневная поездка может быть отличным отдыхом.",
+     "pl": "Wycieczka jednodniowa może być świetną ucieczką.",
+     "de": "Ein Tagesausflug kann eine großartige Flucht sein.",
+     "fr": "Une excursion d'une journée peut être une excellente échappatoire.",
+     "es": "Una excursión de un día puede ser una gran escapada.",
+     "it": "Una gita di un giorno può essere una grande fuga.",
+     "pt": "Um passeio de um dia pode ser uma ótima escapada.",
+     "tr": "Günübirlik gezi harika bir kaçış olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-ban",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl bæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The travel ban affected many tourists this year.",
+     "uk": "Заборона на поїздки цього року вплинула на багатьох туристів.",
+     "ru": "Запрет на поездки в этом году затронул многих туристов.",
+     "pl": "Zakaz podróży w tym roku wpłynął na wielu turystów.",
+     "de": "Das Reiseverbot hat in diesem Jahr viele Touristen betroffen.",
+     "fr": "L'interdiction de voyager a affecté de nombreux touristes cette année.",
+     "es": "La prohibición de viajar afectó a muchos turistas este año.",
+     "it": "Il divieto di viaggio ha colpito molti turisti quest'anno.",
+     "pt": "A proibição de viagens afetou muitos turistas este ano.",
+     "tr": "Seyahat yasağı bu yıl birçok turisti etkiledi."
+    },
+    {
+     "en": "They announced a travel ban due to health concerns.",
+     "uk": "Вони оголосили заборону на поїздки через проблеми зі здоров'ям.",
+     "ru": "Они объявили запрет на поездки из-за проблем со здоровьем.",
+     "pl": "Ogłosili zakaz podróży z powodu problemów zdrowotnych.",
+     "de": "Sie haben ein Reiseverbot aufgrund von Gesundheitsbedenken angekündigt.",
+     "fr": "Ils ont annoncé une interdiction de voyager pour des raisons de santé.",
+     "es": "Anunciaron una prohibición de viajar debido a preocupaciones de salud.",
+     "it": "Hanno annunciato un divieto di viaggio per motivi di salute.",
+     "pt": "Anunciaram uma proibição de viagens devido a preocupações de saúde.",
+     "tr": "Sağlık endişeleri nedeniyle seyahat yasağı duyurdular."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.border-crossing",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈbɔrdɚ ˈkrɔsɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We waited at the border crossing for hours.",
+     "uk": "Ми чекали на пункті пропуску кілька годин.",
+     "ru": "Мы ждали на пункте пропуска несколько часов.",
+     "pl": "Czekaliśmy na przejściu granicznym przez kilka godzin.",
+     "de": "Wir haben am Grenzübergang stundenlang gewartet.",
+     "fr": "Nous avons attendu au poste-frontière pendant des heures.",
+     "es": "Esperamos en el paso fronterizo durante horas.",
+     "it": "Abbiamo aspettato al valico di frontiera per ore.",
+     "pt": "Esperamos no posto de fronteira por horas.",
+     "tr": "Sınır kapısında saatlerce bekledik."
+    },
+    {
+     "en": "The border crossing was busy during the holidays.",
+     "uk": "Пункт пропуску був переповнений під час свят.",
+     "ru": "Пункт пропуска был загружен во время праздников.",
+     "pl": "Przejście graniczne było zatłoczone podczas świąt.",
+     "de": "Der Grenzübergang war während der Feiertage stark frequentiert.",
+     "fr": "Le poste-frontière était occupé pendant les vacances.",
+     "es": "El paso fronterizo estaba ocupado durante las vacaciones.",
+     "it": "Il valico di frontiera era affollato durante le vacanze.",
+     "pt": "O posto de fronteira estava movimentado durante as férias.",
+     "tr": "Sınır kapısı tatil döneminde yoğundu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-blogger",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl ˈblɔɡɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She is a popular travel blogger with many followers.",
+     "uk": "Вона популярний тревел-блогер з багатьма підписниками.",
+     "ru": "Она популярный тревел-блогер с множеством подписчиков.",
+     "pl": "Ona jest popularnym bloggerem podróżniczym z wieloma obserwatorami.",
+     "de": "Sie ist eine beliebte Reisebloggerin mit vielen Followern.",
+     "fr": "Elle est une blogueuse voyage populaire avec de nombreux abonnés.",
+     "es": "Ella es una popular bloguera de viajes con muchos seguidores.",
+     "it": "È una travel blogger popolare con molti follower.",
+     "pt": "Ela é uma blogueira de viagens popular com muitos seguidores.",
+     "tr": "O, birçok takipçisi olan popüler bir seyahat blogcusudur."
+    },
+    {
+     "en": "The travel blogger shared tips for solo travelers.",
+     "uk": "Тревел-блогер поділилася порадами для мандрівників-одинаків.",
+     "ru": "Тревел-блогер поделилась советами для одиночек.",
+     "pl": "Blogger podróżniczy podzielił się wskazówkami dla podróżników w pojedynkę.",
+     "de": "Der Reiseblogger teilte Tipps für Alleinreisende.",
+     "fr": "Le blogueur voyage a partagé des conseils pour les voyageurs en solo.",
+     "es": "El bloguero de viajes compartió consejos para viajeros solitarios.",
+     "it": "Il travel blogger ha condiviso consigli per viaggiatori solitari.",
+     "pt": "O blogueiro de viagens compartilhou dicas para viajantes solo.",
+     "tr": "Seyahat blogcusu yalnız seyahat edenler için ipuçları paylaştı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.complimentary",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˌkɑmpləˈmɛntɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel offered complimentary breakfast for all guests.",
+     "uk": "Готель пропонує безкоштовний сніданок для всіх гостей.",
+     "ru": "Отель предлагает бесплатный завтрак для всех гостей.",
+     "pl": "Hotel oferował bezpłatne śniadanie dla wszystkich gości.",
+     "de": "Das Hotel bot allen Gästen ein kostenloses Frühstück an.",
+     "fr": "L'hôtel a offert un petit-déjeuner offert à tous les clients.",
+     "es": "El hotel ofreció un desayuno de cortesía para todos los huéspedes.",
+     "it": "L'hotel ha offerto una colazione in omaggio a tutti gli ospiti.",
+     "pt": "O hotel ofereceu café da manhã de cortesia para todos os hóspedes.",
+     "tr": "Otel, tüm misafirlere ücretsiz kahvaltı sundu."
+    },
+    {
+     "en": "Guests receive complimentary drinks during happy hour.",
+     "uk": "Гості отримують безкоштовні напої під час щасливої години.",
+     "ru": "Гости получают бесплатные напитки во время счастливого часа.",
+     "pl": "Goście otrzymują bezpłatne napoje podczas happy hour.",
+     "de": "Gäste erhalten während der Happy Hour kostenlose Getränke.",
+     "fr": "Les clients reçoivent des boissons offertes pendant l'heure heureuse.",
+     "es": "Los huéspedes reciben bebidas de cortesía durante la hora feliz.",
+     "it": "Gli ospiti ricevono bevande in omaggio durante l'happy hour.",
+     "pt": "Os hóspedes recebem bebidas de cortesia durante a hora feliz.",
+     "tr": "Misafirler, mutlu saat sırasında ücretsiz içecek alır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.boutique-hotel",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/buˈtik hoʊˈtɛl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We stayed at a charming boutique hotel.",
+     "uk": "Ми зупинилися в чарівному бутик-готелі.",
+     "ru": "Мы остановились в очаровательном бутиковом отеле.",
+     "pl": "Zatrzymaliśmy się w urokliwym hotelu butikowym.",
+     "de": "Wir haben in einem charmanten Boutique-Hotel übernachtet.",
+     "fr": "Nous avons séjourné dans un charmant hôtel de charme.",
+     "es": "Nos alojamos en un encantador hotel boutique.",
+     "it": "Abbiamo soggiornato in un affascinante hotel boutique.",
+     "pt": "Ficamos em um encantador hotel boutique.",
+     "tr": "Şirin bir butik otelde kaldık."
+    },
+    {
+     "en": "The boutique hotel had unique decor and friendly staff.",
+     "uk": "Бутик-готель мав унікальний декор і привітний персонал.",
+     "ru": "Бутик-отель имел уникальный декор и дружелюбный персонал.",
+     "pl": "Hotel butikowy miał unikalny wystrój i przyjazny personel.",
+     "de": "Das Boutique-Hotel hatte eine einzigartige Dekoration und freundliches Personal.",
+     "fr": "L'hôtel de charme avait une décoration unique et un personnel amical.",
+     "es": "El hotel boutique tenía una decoración única y un personal amable.",
+     "it": "L'hotel boutique aveva un arredamento unico e personale gentile.",
+     "pt": "O hotel boutique tinha uma decoração única e uma equipe amigável.",
+     "tr": "Butik otel, benzersiz bir dekorasyona ve dost canlısı bir personele sahipti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.safari",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/səˈfɑri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We went on a safari in Kenya last summer.",
+     "uk": "Минулого літа ми були на сафарі в Кенії.",
+     "ru": "Прошлым летом мы были на сафари в Кении.",
+     "pl": "W zeszłym lecie byliśmy na safari w Kenii.",
+     "de": "Wir waren letzten Sommer auf Safari in Kenia.",
+     "fr": "Nous sommes allés en safari au Kenya l'été dernier.",
+     "es": "Hicimos un safari en Kenia el verano pasado.",
+     "it": "Siamo andati in safari in Kenya la scorsa estate.",
+     "pt": "Fizemos um safári no Quênia no verão passado.",
+     "tr": "Geçen yaz Kenya'da safariye çıktık."
+    },
+    {
+     "en": "A safari offers a unique wildlife experience.",
+     "uk": "Сафарі пропонує унікальний досвід спостереження за дикою природою.",
+     "ru": "Сафари предлагают уникальный опыт наблюдения за дикой природой.",
+     "pl": "Safari oferuje unikalne doświadczenie obserwacji dzikiej przyrody.",
+     "de": "Eine Safari bietet ein einzigartiges Erlebnis in der Tierwelt.",
+     "fr": "Un safari offre une expérience unique de la faune.",
+     "es": "Un safari ofrece una experiencia única de vida salvaje.",
+     "it": "Un safari offre un'esperienza unica nella fauna selvatica.",
+     "pt": "Um safári oferece uma experiência única de vida selvagem.",
+     "tr": "Bir safari, benzersiz bir yaban hayatı deneyimi sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-extend-a-stay",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ɪkˈstɛnd ə steɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We decided to extend our stay for another week.",
+     "uk": "Ми вирішили продовжити перебування на ще один тиждень.",
+     "ru": "Мы решили продлить пребывание еще на неделю.",
+     "pl": "Postanowiliśmy przedłużyć pobyt o kolejny tydzień.",
+     "de": "Wir haben beschlossen, den Aufenthalt um eine Woche zu verlängern.",
+     "fr": "Nous avons décidé de prolonger notre séjour d'une semaine.",
+     "es": "Decidimos prolongar nuestra estancia una semana más.",
+     "it": "Abbiamo deciso di prolungare il soggiorno di un'altra settimana.",
+     "pt": "Decidimos prolongar a estadia por mais uma semana.",
+     "tr": "Konaklamayı bir hafta daha uzatmaya karar verdik."
+    },
+    {
+     "en": "You can extend your stay at the reception desk.",
+     "uk": "Ви можете продовжити перебування на рецепції.",
+     "ru": "Вы можете продлить пребывание на стойке регистрации.",
+     "pl": "Możesz przedłużyć pobyt w recepcji.",
+     "de": "Sie können den Aufenthalt an der Rezeption verlängern.",
+     "fr": "Vous pouvez prolonger votre séjour à la réception.",
+     "es": "Puedes prolongar tu estancia en la recepción.",
+     "it": "Puoi prolungare il soggiorno alla reception.",
+     "pt": "Você pode prolongar a estadia na recepção.",
+     "tr": "Konaklamayı resepsiyonda uzatabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.cabin-crew",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˈkæbən kru/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The cabin crew provided excellent service during the flight.",
+     "uk": "Екіпаж салону забезпечив відмінне обслуговування під час польоту.",
+     "ru": "Бортпроводники оказали отличное обслуживание во время полета.",
+     "pl": "Personel pokładowy zapewnił doskonałą obsługę podczas lotu.",
+     "de": "Das Kabinenpersonal bot während des Fluges einen ausgezeichneten Service.",
+     "fr": "Le personnel de cabine a fourni un excellent service pendant le vol.",
+     "es": "La tripulación de cabina brindó un excelente servicio durante el vuelo.",
+     "it": "Il personale di bordo ha fornito un servizio eccellente durante il volo.",
+     "pt": "A tripulação de cabine prestou um excelente serviço durante o voo.",
+     "tr": "Kabin ekibi uçuş sırasında mükemmel hizmet sundu."
+    },
+    {
+     "en": "The cabin crew demonstrated safety procedures before takeoff.",
+     "uk": "Екіпаж салону продемонстрував процедури безпеки перед вильотом.",
+     "ru": "Бортпроводники продемонстрировали процедуры безопасности перед взлетом.",
+     "pl": "Personel pokładowy zaprezentował procedury bezpieczeństwa przed startem.",
+     "de": "Das Kabinenpersonal demonstrierte die Sicherheitsverfahren vor dem Start.",
+     "fr": "Le personnel de cabine a démontré les procédures de sécurité avant le décollage.",
+     "es": "La tripulación de cabina demostró los procedimientos de seguridad antes del despegue.",
+     "it": "Il personale di bordo ha dimostrato le procedure di sicurezza prima del decollo.",
+     "pt": "A tripulação de cabine demonstrou os procedimentos de segurança antes da decolagem.",
+     "tr": "Kabin ekibi kalkıştan önce güvenlik prosedürlerini gösterdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-hitchhike",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈhɪtʃˌhaɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to hitchhike across the country in summer.",
+     "uk": "Я люблю подорожувати автостопом по країні влітку.",
+     "ru": "Я люблю путешествовать автостопом по стране летом.",
+     "pl": "Uwielbiam jeździć autostopem po kraju latem.",
+     "de": "Ich liebe es, im Sommer durch das Land zu trampen.",
+     "fr": "J'adore faire de l'auto-stop à travers le pays en été.",
+     "es": "Me encanta hacer autoestop por el país en verano.",
+     "it": "Adoro fare l'autostop in giro per il paese in estate.",
+     "pt": "Adoro pegar carona pelo país no verão.",
+     "tr": "Yazın ülke genelinde otostop yapmayı seviyorum."
+    },
+    {
+     "en": "It's common to hitchhike in some rural areas.",
+     "uk": "В деяких сільських районах поширено подорожувати автостопом.",
+     "ru": "В некоторых сельских районах распространено путешествовать автостопом.",
+     "pl": "W niektórych wiejskich obszarach powszechnie jeździ się autostopem.",
+     "de": "In einigen ländlichen Gebieten ist es üblich zu trampen.",
+     "fr": "Il est courant de faire de l'auto-stop dans certaines zones rurales.",
+     "es": "Es común hacer autoestop en algunas áreas rurales.",
+     "it": "È comune fare l'autostop in alcune zone rurali.",
+     "pt": "É comum pegar carona em algumas áreas rurais.",
+     "tr": "Bazı kırsal alanlarda otostop yapmak yaygındır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.luggage-lock",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈlʌɡədʒ lɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I always use a luggage lock for security.",
+     "uk": "Я завжди використовую замок для валізи для безпеки.",
+     "ru": "Я всегда использую замок для чемодана для безопасности.",
+     "pl": "Zawsze używam kłódki do bagażu dla bezpieczeństwa.",
+     "de": "Ich benutze immer ein Kofferschloss zur Sicherheit.",
+     "fr": "J'utilise toujours un cadenas de valise pour la sécurité.",
+     "es": "Siempre uso un candado de maleta por seguridad.",
+     "it": "Uso sempre un lucchetto per valigia per sicurezza.",
+     "pt": "Sempre uso um cadeado de mala por segurança.",
+     "tr": "Her zaman güvenlik için bavul kilidi kullanırım."
+    },
+    {
+     "en": "Don't forget to lock your luggage before traveling.",
+     "uk": "Не забудьте закрити свій багаж перед поїздкою.",
+     "ru": "Не забудьте запереть свой багаж перед поездкой.",
+     "pl": "Nie zapomnij zapiąć swojego bagażu przed podróżą.",
+     "de": "Vergiss nicht, dein Gepäck vor der Reise abzuschließen.",
+     "fr": "N'oubliez pas de verrouiller vos bagages avant de voyager.",
+     "es": "No olvides cerrar tu equipaje antes de viajar.",
+     "it": "Non dimenticare di chiudere il tuo bagaglio prima di viaggiare.",
+     "pt": "Não se esqueça de trancar sua bagagem antes de viajar.",
+     "tr": "Seyahat etmeden önce bavulunu kilitlemeyi unutma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.voyage",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈvɔɪədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The voyage across the ocean was unforgettable.",
+     "uk": "Морська подорож через океан була незабутньою.",
+     "ru": "Морское путешествие через океан было незабываемым.",
+     "pl": "Rejs przez ocean był niezapomniany.",
+     "de": "Die Seereise über den Ozean war unvergesslich.",
+     "fr": "La traversée de l'océan était inoubliable.",
+     "es": "La travesía por el océano fue inolvidable.",
+     "it": "La traversata attraverso l'oceano è stata indimenticabile.",
+     "pt": "A viagem marítima pelo oceano foi inesquecível.",
+     "tr": "Okyanusta yapılan deniz yolculuğu unutulmazdı."
+    },
+    {
+     "en": "We planned a long voyage to explore new islands.",
+     "uk": "Ми спланували довгу морську подорож, щоб дослідити нові острови.",
+     "ru": "Мы запланировали долгую морскую поездку, чтобы исследовать новые острова.",
+     "pl": "Zaplanowaliśmy długi rejs, aby odkryć nowe wyspy.",
+     "de": "Wir haben eine lange Seereise geplant, um neue Inseln zu erkunden.",
+     "fr": "Nous avons prévu une longue traversée pour explorer de nouvelles îles.",
+     "es": "Planeamos una larga travesía para explorar nuevas islas.",
+     "it": "Abbiamo pianificato una lunga traversata per esplorare nuove isole.",
+     "pt": "Planejamos uma longa viagem marítima para explorar novas ilhas.",
+     "tr": "Yeni adaları keşfetmek için uzun bir deniz yolculuğu planladık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.off-season",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ɔf ˈsizən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Traveling off-season can save you a lot of money.",
+     "uk": "Подорожуючи міжсезонням, ви можете заощадити багато грошей.",
+     "ru": "Путешествие в межсезонье может сэкономить вам много денег.",
+     "pl": "Podróżowanie poza sezonem może zaoszczędzić dużo pieniędzy.",
+     "de": "Reisen in der Nebensaison kann Ihnen viel Geld sparen.",
+     "fr": "Voyager hors saison peut vous faire économiser beaucoup d'argent.",
+     "es": "Viajar en temporada baja puede ahorrarte mucho dinero.",
+     "it": "Viaggiare in bassa stagione può farti risparmiare molti soldi.",
+     "pt": "Viajar na baixa temporada pode economizar muito dinheiro.",
+     "tr": "Sezon dışı seyahat etmek size çok para kazandırabilir."
+    },
+    {
+     "en": "The beaches are quieter during the off-season.",
+     "uk": "Пляжі тихіші під час міжсезоння.",
+     "ru": "Пляжи тише в межсезонье.",
+     "pl": "Plaże są spokojniejsze poza sezonem.",
+     "de": "Die Strände sind in der Nebensaison ruhiger.",
+     "fr": "Les plages sont plus calmes hors saison.",
+     "es": "Las playas están más tranquilas durante la temporada baja.",
+     "it": "Le spiagge sono più tranquille in bassa stagione.",
+     "pt": "As praias são mais tranquilas durante a baixa temporada.",
+     "tr": "Plajlar sezon dışı daha sakindir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-expenses",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl ɪkˈspɛnsəz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Keep all receipts for your travel expenses.",
+     "uk": "Зберігайте всі чеки на витрати на подорож.",
+     "ru": "Сохраняйте все чеки на дорожные расходы.",
+     "pl": "Zachowaj wszystkie paragony za koszty podróży.",
+     "de": "Bewahren Sie alle Quittungen für Ihre Reisekosten auf.",
+     "fr": "Conservez tous les reçus pour vos frais de voyage.",
+     "es": "Guarda todos los recibos de tus gastos de viaje.",
+     "it": "Conserva tutte le ricevute per le spese di viaggio.",
+     "pt": "Guarde todos os recibos das suas despesas de viagem.",
+     "tr": "Seyahat masraflarınız için tüm fişleri saklayın."
+    },
+    {
+     "en": "You can claim travel expenses for work-related trips.",
+     "uk": "Ви можете заявити витрати на подорож для службових поїздок.",
+     "ru": "Вы можете заявить дорожные расходы за служебные поездки.",
+     "pl": "Możesz zgłosić koszty podróży za wyjazdy służbowe.",
+     "de": "Sie können Reisekosten für dienstliche Reisen geltend machen.",
+     "fr": "Vous pouvez demander des frais de voyage pour les déplacements professionnels.",
+     "es": "Puedes reclamar gastos de viaje por viajes relacionados con el trabajo.",
+     "it": "Puoi richiedere spese di viaggio per viaggi di lavoro.",
+     "pt": "Você pode reivindicar despesas de viagem para viagens relacionadas ao trabalho.",
+     "tr": "İş ile ilgili seyahatler için seyahat masraflarını talep edebilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.no-vacancies",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/noʊ ˈveɪkənsiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel sign said there are no vacancies.",
+     "uk": "На знаку готелю було написано, що немає вільних місць.",
+     "ru": "На знаке отеля было написано, что мест нет.",
+     "pl": "Na znaku hotelu było napisane, że brak wolnych miejsc.",
+     "de": "Das Schild am Hotel sagte, dass es belegt ist.",
+     "fr": "Le panneau de l'hôtel disait complet.",
+     "es": "El cartel del hotel decía que estaba completo.",
+     "it": "Il cartello dell'hotel diceva che era al completo.",
+     "pt": "A placa do hotel dizia que estava sem vagas.",
+     "tr": "Otel tabelasında boş oda yok yazıyordu."
+    },
+    {
+     "en": "We were disappointed to find no vacancies at the inn.",
+     "uk": "Ми були розчаровані, дізнавшись, що немає вільних місць у готелі.",
+     "ru": "Мы были разочарованы, узнав, что мест нет в гостинице.",
+     "pl": "Byliśmy rozczarowani, że nie ma wolnych miejsc w gospodzie.",
+     "de": "Wir waren enttäuscht, dass die Herberge belegt war.",
+     "fr": "Nous étions déçus de constater qu'il n'y avait pas de place à l'auberge.",
+     "es": "Nos decepcionó descubrir que no había vacantes en la posada.",
+     "it": "Siamo rimasti delusi nel scoprire che non c'erano posti all'osteria.",
+     "pt": "Ficamos desapontados ao descobrir que não havia vagas na pousada.",
+     "tr": "Han'da boş oda yok bulduğumuz için hayal kırıklığına uğradık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel-chain",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl tʃeɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer staying at a hotel chain for consistency.",
+     "uk": "Я вважаю за краще зупинятися в мережі готелів за стабільність.",
+     "ru": "Я предпочитаю останавливаться в сети отелей за стабильность.",
+     "pl": "Wolę zatrzymywać się w sieci hoteli dla spójności.",
+     "de": "Ich bevorzuge es, in einer Hotelkette zu übernachten, um Konsistenz zu haben.",
+     "fr": "Je préfère séjourner dans une chaîne hôtelière pour la cohérence.",
+     "es": "Prefiero alojarme en una cadena hotelera por consistencia.",
+     "it": "Preferisco soggiornare in una catena alberghiera per coerenza.",
+     "pt": "Prefiro ficar em uma rede de hotéis pela consistência.",
+     "tr": "Tutarlılık için bir otel zincirinde kalmayı tercih ediyorum."
+    },
+    {
+     "en": "This hotel chain offers great rewards for frequent guests.",
+     "uk": "Ця мережа готелів пропонує чудові нагороди для частих гостей.",
+     "ru": "Эта сеть отелей предлагает отличные награды для частых гостей.",
+     "pl": "Ta sieć hoteli oferuje świetne nagrody dla częstych gości.",
+     "de": "Diese Hotelkette bietet großartige Prämien für häufige Gäste.",
+     "fr": "Cette chaîne hôtelière offre d'excellentes récompenses pour les clients fréquents.",
+     "es": "Esta cadena hotelera ofrece grandes recompensas para los huéspedes frecuentes.",
+     "it": "Questa catena alberghiera offre ottimi premi per gli ospiti frequenti.",
+     "pt": "Esta rede de hotéis oferece grandes recompensas para hóspedes frequentes.",
+     "tr": "Bu otel zinciri sık sık konaklayanlar için harika ödüller sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.jet-lagged",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/dʒɛt læɡd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I felt jet-lagged after my long flight to Tokyo.",
+     "uk": "Я відчував себе змученим зміною часових поясів після довгого рейсу до Токіо.",
+     "ru": "Я чувствовал себя страдающим от джетлага после долгого рейса в Токио.",
+     "pl": "Czułem się zmęczony zmianą stref czasowych po długim locie do Tokio.",
+     "de": "Ich fühlte mich vom Jetlag geplagt nach meinem langen Flug nach Tokio.",
+     "fr": "Je me suis senti décalé après mon long vol vers Tokyo.",
+     "es": "Me sentí con desfase horario después de mi largo vuelo a Tokio.",
+     "it": "Mi sono sentito sotto jet lag dopo il mio lungo volo per Tokyo.",
+     "pt": "Senti-me com jet lag após meu longo voo para Tóquio.",
+     "tr": "Tokyo'ya uzun uçuşumdan sonra jet lag olmuş hissettim."
+    },
+    {
+     "en": "She was jet-lagged after traveling across several time zones.",
+     "uk": "Вона була змучена зміною часових поясів після подорожі через кілька часових зон.",
+     "ru": "Она страдала от джетлага после путешествия через несколько часовых поясов.",
+     "pl": "Była zmęczona zmianą stref czasowych po podróży przez kilka stref czasowych.",
+     "de": "Sie war vom Jetlag geplagt, nachdem sie durch mehrere Zeitzonen gereist war.",
+     "fr": "Elle était décalée après avoir voyagé à travers plusieurs fuseaux horaires.",
+     "es": "Estaba con desfase horario después de viajar por varios husos horarios.",
+     "it": "Era sotto jet lag dopo aver viaggiato attraverso diversi fusi orari.",
+     "pt": "Ela estava com jet lag depois de viajar por vários fusos horários.",
+     "tr": "Birçok zaman diliminden geçtikten sonra jet lag olmuştu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-rebook",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/riˈbʊk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to rebook my flight for tomorrow.",
+     "uk": "Мені потрібно перебронювати свій рейс на завтра.",
+     "ru": "Мне нужно перебронировать свой рейс на завтра.",
+     "pl": "Muszę zmienić rezerwację na jutrzejszy lot.",
+     "de": "Ich muss meinen Flug für morgen umbuchen.",
+     "fr": "Je dois modifier ma réservation pour demain.",
+     "es": "Necesito cambiar la reserva para mañana.",
+     "it": "Devo riprenotare il mio volo per domani.",
+     "pt": "Preciso remarcar meu voo para amanhã.",
+     "tr": "Yarınki uçuşumu yeniden rezervasyon yapmak zorundayım."
+    },
+    {
+     "en": "She decided to rebook her hotel for the weekend.",
+     "uk": "Вона вирішила перебронювати готель на вихідні.",
+     "ru": "Она решила перебронировать отель на выходные.",
+     "pl": "Postanowiła zmienić rezerwację hotelu na weekend.",
+     "de": "Sie hat beschlossen, ihr Hotel für das Wochenende umzubuchen.",
+     "fr": "Elle a décidé de modifier sa réservation d'hôtel pour le week-end.",
+     "es": "Decidió cambiar la reserva de su hotel para el fin de semana.",
+     "it": "Ha deciso di riprenotare il suo hotel per il fine settimana.",
+     "pt": "Ela decidiu remarcar o hotel para o fim de semana.",
+     "tr": "Hafta sonu için otelini yeniden rezervasyon yapmaya karar verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.refundable",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/rɪˈfʌndəbəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Make sure your ticket is refundable before buying.",
+     "uk": "Переконайтеся, що ваш квиток з поверненням коштів перед покупкою.",
+     "ru": "Убедитесь, что ваш билет возвратный перед покупкой.",
+     "pl": "Upewnij się, że twój bilet jest zwrotny przed zakupem.",
+     "de": "Stellen Sie sicher, dass Ihr Ticket erstattungsfähig ist, bevor Sie kaufen.",
+     "fr": "Assurez-vous que votre billet est remboursable avant d'acheter.",
+     "es": "Asegúrate de que tu billete sea reembolsable antes de comprar.",
+     "it": "Assicurati che il tuo biglietto sia rimborsabile prima di acquistare.",
+     "pt": "Certifique-se de que seu bilhete é reembolsável antes de comprar.",
+     "tr": "Satın almadan önce biletinizin iade edilebilir olduğundan emin olun."
+    },
+    {
+     "en": "Only refundable tickets are available for this flight.",
+     "uk": "Тільки квитки з поверненням коштів доступні для цього рейсу.",
+     "ru": "Для этого рейса доступны только возвратные билеты.",
+     "pl": "Dostępne są tylko zwrotne bilety na ten lot.",
+     "de": "Für diesen Flug sind nur erstattungsfähige Tickets verfügbar.",
+     "fr": "Seuls les billets remboursables sont disponibles pour ce vol.",
+     "es": "Solo hay disponibles boletos reembolsables para este vuelo.",
+     "it": "Solo i biglietti rimborsabili sono disponibili per questo volo.",
+     "pt": "Apenas bilhetes reembolsáveis estão disponíveis para este voo.",
+     "tr": "Bu uçuş için yalnızca iade edilebilir biletler mevcut."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-buddy",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl ˈbʌdi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a travel buddy for my trip to Spain.",
+     "uk": "Я знайшов компаньйона у подорожі до Іспанії.",
+     "ru": "Я нашел попутчика для поездки в Испанию.",
+     "pl": "Znalazłem towarzysza podróży na moją podróż do Hiszpanii.",
+     "de": "Ich habe einen Reisepartner für meine Reise nach Spanien gefunden.",
+     "fr": "J'ai trouvé un compagnon de route pour mon voyage en Espagne.",
+     "es": "Encontré un compañero de viaje para mi viaje a España.",
+     "it": "Ho trovato un compagno di viaggio per il mio viaggio in Spagna.",
+     "pt": "Encontrei um parceiro de viagem para minha viagem à Espanha.",
+     "tr": "İspanya'ya seyahatim için bir yol arkadaşı buldum."
+    },
+    {
+     "en": "Travel buddies can make the journey more enjoyable.",
+     "uk": "Компаньйони у подорожі можуть зробити подорож більш приємною.",
+     "ru": "Попутчики могут сделать поездку более приятной.",
+     "pl": "Towarzysze podróży mogą uczynić podróż przyjemniejszą.",
+     "de": "Reisepartner können die Reise angenehmer gestalten.",
+     "fr": "Les compagnons de route peuvent rendre le voyage plus agréable.",
+     "es": "Los compañeros de viaje pueden hacer el viaje más agradable.",
+     "it": "I compagni di viaggio possono rendere il viaggio più piacevole.",
+     "pt": "Os parceiros de viagem podem tornar a jornada mais agradável.",
+     "tr": "Yol arkadaşları yolculuğu daha keyifli hale getirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.transit-visa",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈtrænzɪt ˈvizə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You may need a transit visa for connecting flights.",
+     "uk": "Вам може знадобитися транзитна віза для стикувальних рейсів.",
+     "ru": "Вам может понадобиться транзитная виза для пересадочных рейсов.",
+     "pl": "Możesz potrzebować wizy tranzytowej na loty łączone.",
+     "de": "Sie benötigen möglicherweise ein Transitvisum für Anschlussflüge.",
+     "fr": "Vous pourriez avoir besoin d'un visa de transit pour les vols de correspondance.",
+     "es": "Es posible que necesites un visado de tránsito para vuelos de conexión.",
+     "it": "Potresti aver bisogno di un visto di transito per voli di collegamento.",
+     "pt": "Você pode precisar de um visto de trânsito para voos de conexão.",
+     "tr": "Bağlantılı uçuşlar için transit vizesi almanız gerekebilir."
+    },
+    {
+     "en": "Check if a transit visa is required for your trip.",
+     "uk": "Перевірте, чи потрібна транзитна віза для вашої подорожі.",
+     "ru": "Проверьте, нужна ли транзитная виза для вашей поездки.",
+     "pl": "Sprawdź, czy wiza tranzytowa jest wymagana na twoją podróż.",
+     "de": "Überprüfen Sie, ob für Ihre Reise ein Transitvisum erforderlich ist.",
+     "fr": "Vérifiez si un visa de transit est nécessaire pour votre voyage.",
+     "es": "Verifica si se necesita un visado de tránsito para tu viaje.",
+     "it": "Controlla se hai bisogno di un visto di transito per il tuo viaggio.",
+     "pt": "Verifique se um visto de trânsito é necessário para sua viagem.",
+     "tr": "Seyahatiniz için transit vizesinin gerekip gerekmediğini kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.visa-free",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/ˈvizə fri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many countries offer visa-free travel for tourists.",
+     "uk": "Багато країн пропонують безвізовий в'їзд для туристів.",
+     "ru": "Многие страны предлагают безвизовый въезд для туристов.",
+     "pl": "Wiele krajów oferuje bezwizowy wjazd dla turystów.",
+     "de": "Viele Länder bieten visumfreies Reisen für Touristen an.",
+     "fr": "De nombreux pays offrent un voyage sans visa pour les touristes.",
+     "es": "Muchos países ofrecen viajes sin visado para turistas.",
+     "it": "Molti paesi offrono viaggi senza visto per i turisti.",
+     "pt": "Muitos países oferecem viagens isentas de visto para turistas.",
+     "tr": "Birçok ülke turistler için vizesiz seyahat imkanı sunuyor."
+    },
+    {
+     "en": "Traveling visa-free makes planning much easier.",
+     "uk": "Подорожувати безвізово значно спрощує планування.",
+     "ru": "Путешествовать без визы значительно упрощает планирование.",
+     "pl": "Podróżowanie bezwizowe znacznie ułatwia planowanie.",
+     "de": "Visumfreies Reisen macht die Planung viel einfacher.",
+     "fr": "Voyager sans visa rend la planification beaucoup plus facile.",
+     "es": "Viajar sin visado facilita mucho la planificación.",
+     "it": "Viaggiare senza visto rende la pianificazione molto più semplice.",
+     "pt": "Viajar isento de visto torna o planejamento muito mais fácil.",
+     "tr": "Vizesiz seyahat etmek planlamayı çok daha kolaylaştırıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-clear-customs",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/klɪr ˈkʌstəmz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Prepare your documents to clear customs smoothly.",
+     "uk": "Підготуйте свої документи, щоб пройти митницю без проблем.",
+     "ru": "Подготовьте свои документы, чтобы пройти таможню без проблем.",
+     "pl": "Przygotuj dokumenty, aby przejść odprawę celną bez problemów.",
+     "de": "Bereiten Sie Ihre Dokumente vor, um problemlos durch den Zoll zu gehen.",
+     "fr": "Préparez vos documents pour passer la douane sans problème.",
+     "es": "Prepara tus documentos para pasar la aduana sin problemas.",
+     "it": "Prepara i tuoi documenti per passare la dogana senza problemi.",
+     "pt": "Prepare seus documentos para passar pela alfândega sem problemas.",
+     "tr": "Gümrükten geçmek için belgelerinizi sorunsuz hazırlayın."
+    },
+    {
+     "en": "You must declare items when you clear customs.",
+     "uk": "Ви повинні задекларувати предмети, коли проходите митницю.",
+     "ru": "Вы должны задекларировать предметы, когда проходите таможню.",
+     "pl": "Musisz zadeklarować przedmioty, gdy przechodzisz odprawę celną.",
+     "de": "Sie müssen Gegenstände deklarieren, wenn Sie durch den Zoll gehen.",
+     "fr": "Vous devez déclarer des articles lorsque vous passez la douane.",
+     "es": "Debes declarar artículos cuando pasas la aduana.",
+     "it": "Devi dichiarare gli articoli quando passi la dogana.",
+     "pt": "Você deve declarar itens ao passar pela alfândega.",
+     "tr": "Gümrükten geçerken eşyaları beyan etmelisiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.customs-officer",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈkʌstəmz ˈɔfəsɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The customs officer checked my luggage carefully.",
+     "uk": "Митник уважно перевірив мій багаж.",
+     "ru": "Таможенник внимательно проверил мой багаж.",
+     "pl": "Celnik dokładnie sprawdził mój bagaż.",
+     "de": "Der Zollbeamte hat mein Gepäck sorgfältig kontrolliert.",
+     "fr": "Le douanier a vérifié mes bagages avec soin.",
+     "es": "El agente de aduanas revisó mi equipaje cuidadosamente.",
+     "it": "Il doganiere ha controllato il mio bagaglio con attenzione.",
+     "pt": "O agente alfandegário verificou minha bagagem cuidadosamente.",
+     "tr": "Gümrük memuru bagajımı dikkatlice kontrol etti."
+    },
+    {
+     "en": "I spoke with the customs officer about my declaration.",
+     "uk": "Я поговорив з митником про свою декларацію.",
+     "ru": "Я поговорил с таможенником о своей декларации.",
+     "pl": "Rozmawiałem z celnikiem o moim zgłoszeniu.",
+     "de": "Ich habe mit dem Zollbeamten über meine Deklaration gesprochen.",
+     "fr": "J'ai parlé avec le douanier de ma déclaration.",
+     "es": "Hablé con el agente de aduanas sobre mi declaración.",
+     "it": "Ho parlato con il doganiere riguardo alla mia dichiarazione.",
+     "pt": "Conversei com o agente alfandegário sobre minha declaração.",
+     "tr": "Beyanım hakkında gümrük memuruyla konuştum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-go-through-security",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ θru sɪˈkjʊrəti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must go through security before boarding.",
+     "uk": "Вам потрібно пройти контроль безпеки перед посадкою.",
+     "ru": "Вы должны пройти досмотр перед посадкой.",
+     "pl": "Musisz przejść kontrolę bezpieczeństwa przed wejściem na pokład.",
+     "de": "Sie müssen die Sicherheitskontrolle vor dem Boarding durchlaufen.",
+     "fr": "Vous devez passer le contrôle de sécurité avant l'embarquement.",
+     "es": "Debes pasar el control de seguridad antes de embarcar.",
+     "it": "Devi passare i controlli di sicurezza prima di imbarcarti.",
+     "pt": "Você deve passar pela segurança antes de embarcar.",
+     "tr": "Uçağa binmeden önce güvenlikten geçmelisiniz."
+    },
+    {
+     "en": "Make sure to arrive early to go through security.",
+     "uk": "Переконайтеся, що приїхали рано, щоб пройти контроль безпеки.",
+     "ru": "Убедитесь, что вы пришли рано, чтобы пройти досмотр.",
+     "pl": "Upewnij się, że przyjechałeś wcześniej, aby przejść kontrolę bezpieczeństwa.",
+     "de": "Stellen Sie sicher, dass Sie früh ankommen, um die Sicherheitskontrolle zu durchlaufen.",
+     "fr": "Assurez-vous d'arriver tôt pour passer le contrôle de sécurité.",
+     "es": "Asegúrate de llegar temprano para pasar el control de seguridad.",
+     "it": "Assicurati di arrivare presto per passare i controlli di sicurezza.",
+     "pt": "Certifique-se de chegar cedo para passar pela segurança.",
+     "tr": "Güvenlikten geçmek için erken gelmeyi unutmayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.standby-ticket",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈstændˈbaɪ ˈtɪkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a standby ticket for the next flight.",
+     "uk": "Я купив квиток без гарантованого місця на наступний рейс.",
+     "ru": "Я купил билет без гарантии места на следующий рейс.",
+     "pl": "Kupiłem bilet standby na następny lot.",
+     "de": "Ich habe ein Standby-Ticket für den nächsten Flug gekauft.",
+     "fr": "J'ai acheté un billet en stand-by pour le prochain vol.",
+     "es": "Compré un billete en lista de espera para el siguiente vuelo.",
+     "it": "Ho comprato un biglietto in standby per il volo successivo.",
+     "pt": "Comprei uma passagem em lista de espera para o próximo voo.",
+     "tr": "Sonraki uçuş için standby bilet aldım."
+    },
+    {
+     "en": "Standby tickets can be cheaper than regular ones.",
+     "uk": "Квитки без гарантованого місця можуть бути дешевшими за звичайні.",
+     "ru": "Билеты без гарантии места могут быть дешевле обычных.",
+     "pl": "Bilety standby mogą być tańsze niż regularne.",
+     "de": "Standby-Tickets können günstiger sein als reguläre.",
+     "fr": "Les billets en stand-by peuvent être moins chers que les réguliers.",
+     "es": "Los billetes en lista de espera pueden ser más baratos que los regulares.",
+     "it": "I biglietti in standby possono essere più economici rispetto a quelli regolari.",
+     "pt": "Os bilhetes em lista de espera podem ser mais baratos que os regulares.",
+     "tr": "Standby biletler, normal biletlerden daha ucuz olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.checked-baggage",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/tʃɛkt ˈbæɡədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to travel with checked baggage.",
+     "uk": "Я віддаю перевагу подорожувати з зареєстрованим багажем.",
+     "ru": "Я предпочитаю путешествовать с зарегистрированным багажом.",
+     "pl": "Wolę podróżować z bagażem rejestrowanym.",
+     "de": "Ich reise lieber mit aufgegebenem Gepäck.",
+     "fr": "Je préfère voyager avec des bagages enregistrés.",
+     "es": "Prefiero viajar con equipaje facturado.",
+     "it": "Preferisco viaggiare con bagaglio da stiva.",
+     "pt": "Prefiro viajar com bagagem despachada.",
+     "tr": "Kayıtlı bagaj ile seyahat etmeyi tercih ediyorum."
+    },
+    {
+     "en": "Checked baggage often comes with extra fees.",
+     "uk": "Зареєстрований багаж часто має додаткові збори.",
+     "ru": "Зарегистрированный багаж часто имеет дополнительные сборы.",
+     "pl": "Bagaż rejestrowany często wiąże się z dodatkowymi opłatami.",
+     "de": "Aufgegebenes Gepäck hat oft zusätzliche Gebühren.",
+     "fr": "Le bagage enregistré entraîne souvent des frais supplémentaires.",
+     "es": "El equipaje facturado a menudo tiene costos adicionales.",
+     "it": "Il bagaglio da stiva spesso comporta costi aggiuntivi.",
+     "pt": "A bagagem despachada geralmente tem taxas adicionais.",
+     "tr": "Kayıtlı bagaj genellikle ek ücretlerle gelir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.fragile",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈfrædʒəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Handle the fragile items with care.",
+     "uk": "Обробляйте крихкі предмети обережно.",
+     "ru": "Обращайтесь с хрупкими предметами осторожно.",
+     "pl": "Obchodź się z kruchymi przedmiotami ostrożnie.",
+     "de": "Gehen Sie vorsichtig mit zerbrechlichen Gegenständen um.",
+     "fr": "Manipulez les objets fragiles avec soin.",
+     "es": "Maneja los objetos frágiles con cuidado.",
+     "it": "Maneggia gli oggetti fragili con cura.",
+     "pt": "Manuseie os itens frágeis com cuidado.",
+     "tr": "Kırılgan eşyaları dikkatlice taşıyın."
+    },
+    {
+     "en": "This box is marked fragile for a reason.",
+     "uk": "Ця коробка помічена як крихка не без причини.",
+     "ru": "Эта коробка помечена как хрупкая не без причины.",
+     "pl": "Ta skrzynka jest oznaczona jako krucha nie bez powodu.",
+     "de": "Diese Box ist aus einem Grund als zerbrechlich gekennzeichnet.",
+     "fr": "Cette boîte est marquée fragile pour une raison.",
+     "es": "Esta caja está marcada como frágil por una razón.",
+     "it": "Questa scatola è contrassegnata fragile per un motivo.",
+     "pt": "Esta caixa está marcada como frágil por um motivo.",
+     "tr": "Bu kutu bir sebepten kırılgan olarak işaretlenmiştir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.damaged-luggage",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/ˈdæmədʒd ˈlʌɡədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I reported my damaged luggage at the airport.",
+     "uk": "Я повідомив про свій пошкоджений багаж в аеропорту.",
+     "ru": "Я сообщил о своем повреждённом багаже в аэропорту.",
+     "pl": "Zgłosiłem mój uszkodzony bagaż na lotnisku.",
+     "de": "Ich habe mein beschädigtes Gepäck am Flughafen gemeldet.",
+     "fr": "J'ai signalé mon bagage endommagé à l'aéroport.",
+     "es": "Reporté mi equipaje dañado en el aeropuerto.",
+     "it": "Ho segnalato il mio bagaglio danneggiato all'aeroporto.",
+     "pt": "Relatei minha bagagem danificada no aeroporto.",
+     "tr": "Havalimanında hasarlı bagajımı bildirdim."
+    },
+    {
+     "en": "They gave me compensation for my damaged luggage.",
+     "uk": "Вони виплатили мені компенсацію за пошкоджений багаж.",
+     "ru": "Мне выплатили компенсацию за повреждённый багаж.",
+     "pl": "Dali mi odszkodowanie za uszkodzony bagaż.",
+     "de": "Sie gaben mir eine Entschädigung für mein beschädigtes Gepäck.",
+     "fr": "Ils m'ont donné une compensation pour mon bagage endommagé.",
+     "es": "Me dieron una compensación por mi equipaje dañado.",
+     "it": "Mi hanno dato un risarcimento per il mio bagaglio danneggiato.",
+     "pt": "Eles me deram uma compensação pela minha bagagem danificada.",
+     "tr": "Hasarlı bagajım için tazminat verdiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-file-a-claim",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/faɪl ə kleɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to file a claim for lost baggage.",
+     "uk": "Вам потрібно подати претензію на загублений багаж.",
+     "ru": "Вам нужно подать претензию на потерянный багаж.",
+     "pl": "Musisz złożyć reklamację na zgubiony bagaż.",
+     "de": "Sie müssen eine Schadensmeldung für das verlorene Gepäck einreichen.",
+     "fr": "Vous devez déposer une réclamation pour les bagages perdus.",
+     "es": "Necesitas presentar una reclamación por el equipaje perdido.",
+     "it": "Devi presentare un reclamo per il bagaglio smarrito.",
+     "pt": "Você precisa registrar uma reclamação por bagagem perdida.",
+     "tr": "Kayıp bagaj için talepte bulunmalısınız."
+    },
+    {
+     "en": "I will file a claim for the damaged item.",
+     "uk": "Я подам претензію на пошкоджений предмет.",
+     "ru": "Я подам претензию на повреждённый предмет.",
+     "pl": "Złożę reklamację na uszkodzony przedmiot.",
+     "de": "Ich werde eine Schadensmeldung für den beschädigten Artikel einreichen.",
+     "fr": "Je vais déposer une réclamation pour l'objet endommagé.",
+     "es": "Voy a presentar una reclamación por el artículo dañado.",
+     "it": "Presenterò un reclamo per l'oggetto danneggiato.",
+     "pt": "Vou registrar uma reclamação pelo item danificado.",
+     "tr": "Hasarlı ürün için talepte bulunacağım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.emergency-landing",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ɪˈmɝdʒənsi ˈlændɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The plane made an emergency landing due to engine failure.",
+     "uk": "Літак здійснив аварійну посадку через відмову двигуна.",
+     "ru": "Самолет совершил аварийную посадку из-за отказа двигателя.",
+     "pl": "Samolot awaryjnie wylądował z powodu awarii silnika.",
+     "de": "Das Flugzeug machte eine Notlandung aufgrund eines Triebwerksausfalls.",
+     "fr": "L'avion a effectué un atterrissage d'urgence en raison d'une panne moteur.",
+     "es": "El avión realizó un aterrizaje de emergencia debido a una falla del motor.",
+     "it": "L'aereo ha effettuato un atterraggio di emergenza a causa di un guasto al motore.",
+     "pt": "O avião fez um pouso de emergência devido a uma falha no motor.",
+     "tr": "Uçak motor arızası nedeniyle acil iniş yaptı."
+    },
+    {
+     "en": "Emergency landing procedures were followed by the crew.",
+     "uk": "Процедури аварійної посадки були дотримані екіпажем.",
+     "ru": "Экипаж следовал процедурам аварийной посадки.",
+     "pl": "Procedury awaryjnego lądowania zostały przestrzegane przez załogę.",
+     "de": "Die Notlandungsverfahren wurden vom Personal befolgt.",
+     "fr": "Les procédures d'atterrissage d'urgence ont été suivies par l'équipage.",
+     "es": "Los procedimientos de aterrizaje de emergencia fueron seguidos por la tripulación.",
+     "it": "Le procedure di atterraggio di emergenza sono state seguite dall'equipaggio.",
+     "pt": "Os procedimentos de pouso de emergência foram seguidos pela equipe.",
+     "tr": "Acil iniş prosedürleri mürettebat tarafından takip edildi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-be-grounded",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/bi ˈɡraʊndɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The flight was canceled, and we had to be grounded.",
+     "uk": "Рейс скасували, і ми були змушені залишитися на землі.",
+     "ru": "Рейс был отменен, и нас задержали на земле.",
+     "pl": "Lot został odwołany i musieliśmy zostać uziemieni.",
+     "de": "Der Flug wurde abgesagt und wir mussten am Boden bleiben.",
+     "fr": "Le vol a été annulé et nous avons dû être cloués au sol.",
+     "es": "El vuelo fue cancelado y tuvimos que quedarnos en tierra.",
+     "it": "Il volo è stato cancellato e abbiamo dovuto restare a terra.",
+     "pt": "O voo foi cancelado e tivemos que ficar retidos em terra.",
+     "tr": "Uçuş iptal edildi ve yerde kalmak zorunda kaldık."
+    },
+    {
+     "en": "Due to the storm, many flights had to be grounded.",
+     "uk": "Через шторм багато рейсів довелося затримати на землі.",
+     "ru": "Из-за шторма многие рейсы были задержаны на земле.",
+     "pl": "Z powodu burzy wiele lotów musiało zostać uziemionych.",
+     "de": "Wegen des Sturms mussten viele Flüge am Boden bleiben.",
+     "fr": "En raison de la tempête, de nombreux vols ont dû être cloués au sol.",
+     "es": "Debido a la tormenta, muchos vuelos tuvieron que quedarse en tierra.",
+     "it": "A causa della tempesta, molti voli hanno dovuto restare a terra.",
+     "pt": "Devido à tempestade, muitos voos tiveram que ficar retidos em terra.",
+     "tr": "Fırtına nedeniyle birçok uçuş yerde kalmak zorunda kaldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.air-traffic-control",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/ɛr ˈtræfɪk kənˈtroʊl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The air traffic control managed the busy airport efficiently.",
+     "uk": "Диспетчерська служба ефективно управляла завантаженим аеропортом.",
+     "ru": "Управление воздушным движением эффективно управляло загруженным аэропортом.",
+     "pl": "Kontrola ruchu lotniczego skutecznie zarządzała zatłoczonym lotniskiem.",
+     "de": "Die Flugsicherung verwaltete den stark frequentierten Flughafen effizient.",
+     "fr": "Le contrôle aérien a géré efficacement l'aéroport bondé.",
+     "es": "El control aéreo gestionó eficientemente el aeropuerto concurrido.",
+     "it": "Il controllo del traffico aereo ha gestito l'aeroporto trafficato in modo efficiente.",
+     "pt": "O controle de tráfego aéreo gerenciou o aeroporto movimentado de forma eficiente.",
+     "tr": "Hava trafik kontrolü, yoğun havalimanını verimli bir şekilde yönetti."
+    },
+    {
+     "en": "Air traffic control ensures safety during flights.",
+     "uk": "Диспетчерська служба забезпечує безпеку під час польотів.",
+     "ru": "Управление воздушным движением обеспечивает безопасность во время полетов.",
+     "pl": "Kontrola ruchu lotniczego zapewnia bezpieczeństwo podczas lotów.",
+     "de": "Die Flugsicherung sorgt für Sicherheit während der Flüge.",
+     "fr": "Le contrôle aérien assure la sécurité pendant les vols.",
+     "es": "El control aéreo asegura la seguridad durante los vuelos.",
+     "it": "Il controllo del traffico aereo garantisce la sicurezza durante i voli.",
+     "pt": "O controle de tráfego aéreo garante a segurança durante os voos.",
+     "tr": "Hava trafik kontrolü, uçuşlar sırasında güvenliği sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.airport-lounge",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˈɛrˌpɔrt laʊndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I relaxed in the airport lounge before my flight.",
+     "uk": "Я відпочив у бізнес-залі аеропорту перед рейсом.",
+     "ru": "Я отдохнул в бизнес-зале аэропорта перед рейсом.",
+     "pl": "Odpoczywałem w saloniku lotniskowym przed lotem.",
+     "de": "Ich habe mich vor meinem Flug in der Flughafenlounge entspannt.",
+     "fr": "Je me suis détendu dans le salon d'aéroport avant mon vol.",
+     "es": "Me relajé en la sala VIP antes de mi vuelo.",
+     "it": "Mi sono rilassato nel lounge aeroportuale prima del volo.",
+     "pt": "Eu relaxei na sala VIP antes do meu voo.",
+     "tr": "Uçuşumdan önce havalimanı salonunda dinlendim."
+    },
+    {
+     "en": "The airport lounge offers free snacks and drinks.",
+     "uk": "Бізнес-зала аеропорту пропонує безкоштовні закуски та напої.",
+     "ru": "Бизнес-зал предлагает бесплатные закуски и напитки.",
+     "pl": "Salonik lotniskowy oferuje darmowe przekąski i napoje.",
+     "de": "Die Flughafenlounge bietet kostenlose Snacks und Getränke an.",
+     "fr": "Le salon d'aéroport propose des collations et des boissons gratuites.",
+     "es": "La sala VIP ofrece bocadillos y bebidas gratis.",
+     "it": "Il lounge aeroportuale offre snack e bevande gratuiti.",
+     "pt": "A sala VIP oferece lanches e bebidas gratuitas.",
+     "tr": "Havalimanı salonu ücretsiz atıştırmalıklar ve içecekler sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.last-minute-deal",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/læst ˈmɪnət dil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a great last-minute deal for my vacation.",
+     "uk": "Я знайшов чудову гарячу пропозицію для моєї відпустки.",
+     "ru": "Я нашёл отличную горящую путёвку для своего отпуска.",
+     "pl": "Znalazłem świetną ofertę last minute na wakacje.",
+     "de": "Ich habe ein tolles Last-Minute-Angebot für meinen Urlaub gefunden.",
+     "fr": "J'ai trouvé une excellente offre de dernière minute pour mes vacances.",
+     "es": "Encontré una gran oferta de última hora para mis vacaciones.",
+     "it": "Ho trovato un'ottima offerta last minute per la mia vacanza.",
+     "pt": "Encontrei uma ótima promoção de última hora para as minhas férias.",
+     "tr": "Tatilim için harika bir son dakika fırsatı buldum."
+    },
+    {
+     "en": "Last-minute deals can save you a lot of money.",
+     "uk": "Гаряча пропозиція може заощадити вам багато грошей.",
+     "ru": "Горящие путёвки могут сэкономить вам много денег.",
+     "pl": "Oferty last minute mogą zaoszczędzić ci dużo pieniędzy.",
+     "de": "Last-Minute-Angebote können Ihnen viel Geld sparen.",
+     "fr": "Les offres de dernière minute peuvent vous faire économiser beaucoup d'argent.",
+     "es": "Las ofertas de última hora pueden ahorrarte mucho dinero.",
+     "it": "Le offerte last minute possono farti risparmiare molti soldi.",
+     "pt": "As promoções de última hora podem economizar muito dinheiro.",
+     "tr": "Son dakika fırsatları size çok para kazandırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.early-bird-discount",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈɝli bɝd dɪˈskaʊnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We booked our hotel early for the early bird discount.",
+     "uk": "Ми забронювали готель заздалегідь, щоб отримати знижку за раннє бронювання.",
+     "ru": "Мы забронировали отель заранее, чтобы получить скидку за раннее бронирование.",
+     "pl": "Zarezerwowaliśmy hotel wcześnie, aby uzyskać zniżkę za wczesną rezerwację.",
+     "de": "Wir haben unser Hotel früh gebucht, um den Frühbucherrabatt zu erhalten.",
+     "fr": "Nous avons réservé notre hôtel tôt pour bénéficier de la réduction pour réservation anticipée.",
+     "es": "Reservamos nuestro hotel temprano para obtener el descuento por reserva anticipada.",
+     "it": "Abbiamo prenotato il nostro hotel in anticipo per lo sconto prenota prima.",
+     "pt": "Reservamos nosso hotel cedo para obter o desconto antecipado.",
+     "tr": "Erken rezervasyon indirimi için otelimizi erken ayarladık."
+    },
+    {
+     "en": "The early bird discount saves us a significant amount.",
+     "uk": "Знижка за раннє бронювання заощаджує нам значну суму.",
+     "ru": "Скидка за раннее бронирование экономит нам значительную сумму.",
+     "pl": "Zniżka za wczesną rezerwację oszczędza nam znaczną kwotę.",
+     "de": "Der Frühbucherrabatt spart uns einen erheblichen Betrag.",
+     "fr": "La réduction pour réservation anticipée nous fait économiser une somme importante.",
+     "es": "El descuento por reserva anticipada nos ahorra una cantidad significativa.",
+     "it": "Lo sconto prenota prima ci fa risparmiare una somma significativa.",
+     "pt": "O desconto antecipado nos economiza uma quantia significativa.",
+     "tr": "Erken rezervasyon indirimi bize önemli bir miktar kazandırıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.eco-tourism",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ˈikoʊ ˈtʊˌrɪzəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Eco-tourism promotes sustainable travel and conservation.",
+     "uk": "Екотуризм сприяє сталому туризму та збереженню.",
+     "ru": "Экологический туризм способствует устойчивым поездкам и охране окружающей среды.",
+     "pl": "Ekoturystyka promuje zrównoważoną podróż i ochronę.",
+     "de": "Ökotourismus fördert nachhaltiges Reisen und Naturschutz.",
+     "fr": "L'écotourisme promeut des voyages durables et la conservation.",
+     "es": "El ecoturismo promueve viajes sostenibles y conservación.",
+     "it": "L'ecoturismo promuove viaggi sostenibili e conservazione.",
+     "pt": "O ecoturismo promove viagens sustentáveis e conservação.",
+     "tr": "Ekoturizm, sürdürülebilir seyahat ve korumayı teşvik eder."
+    },
+    {
+     "en": "I love eco-tourism for its focus on nature.",
+     "uk": "Я люблю екотуризм за його орієнтацію на природу.",
+     "ru": "Я люблю экотуризм за его внимание к природе.",
+     "pl": "Uwielbiam ekoturystykę za jej nacisk na naturę.",
+     "de": "Ich liebe den Ökotourismus wegen seines Fokus auf die Natur.",
+     "fr": "J'adore l'écotourisme pour son accent sur la nature.",
+     "es": "Me encanta el ecoturismo por su enfoque en la naturaleza.",
+     "it": "Amo l'ecoturismo per il suo focus sulla natura.",
+     "pt": "Adoro o ecoturismo pelo seu foco na natureza.",
+     "tr": "Ekoturizmi doğaya olan odaklanması nedeniyle seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.sustainable-travel",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/səˈsteɪnəbəl ˈtrævəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer sustainable travel to reduce my carbon footprint.",
+     "uk": "Я надаю перевагу сталому туризму, щоб зменшити свій вуглецевий слід.",
+     "ru": "Я предпочитаю устойчивый туризм, чтобы снизить свой углеродный след.",
+     "pl": "Preferuję zrównoważone podróżowanie, aby zmniejszyć swój ślad węglowy.",
+     "de": "Ich bevorzuge nachhaltiges Reisen, um meinen CO2-Fußabdruck zu reduzieren.",
+     "fr": "Je préfère le voyage durable pour réduire mon empreinte carbone.",
+     "es": "Prefiero el viaje sostenible para reducir mi huella de carbono.",
+     "it": "Preferisco il viaggio sostenibile per ridurre la mia impronta di carbonio.",
+     "pt": "Prefiro a viagem sustentável para reduzir minha pegada de carbono.",
+     "tr": "Karbon ayak izimi azaltmak için sürdürülebilir seyahati tercih ediyorum."
+    },
+    {
+     "en": "Sustainable travel helps protect the environment and local cultures.",
+     "uk": "Сталий туризм допомагає захищати навколишнє середовище та місцеві культури.",
+     "ru": "Устойчивый туризм помогает защищать окружающую среду и местные культуры.",
+     "pl": "Zrównoważone podróżowanie pomaga chronić środowisko i lokalne kultury.",
+     "de": "Nachhaltiges Reisen hilft, die Umwelt und lokale Kulturen zu schützen.",
+     "fr": "Le voyage durable aide à protéger l'environnement et les cultures locales.",
+     "es": "El viaje sostenible ayuda a proteger el medio ambiente y las culturas locales.",
+     "it": "Il viaggio sostenibile aiuta a proteggere l'ambiente e le culture locali.",
+     "pt": "A viagem sustentável ajuda a proteger o meio ambiente e as culturas locais.",
+     "tr": "Sürdürülebilir seyahat, çevreyi ve yerel kültürleri korumaya yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.working-holiday",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/ˈwɝkɪŋ ˈhɑləˌdeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I went on a working holiday to Australia last year.",
+     "uk": "Я поїхав у робочу відпустку до Австралії минулого року.",
+     "ru": "В прошлом году я поехал в рабочий отпуск в Австралию.",
+     "pl": "W zeszłym roku pojechałem na wakacje z pracą do Australii.",
+     "de": "Ich war letztes Jahr in Australien im Work and Travel.",
+     "fr": "Je suis allé en vacances-travail en Australie l'année dernière.",
+     "es": "El año pasado fui de vacaciones con trabajo a Australia.",
+     "it": "L'anno scorso sono andato in vacanza-lavoro in Australia.",
+     "pt": "No ano passado, fui para um intercâmbio de trabalho na Austrália.",
+     "tr": "Geçen yıl Avustralya'ya çalışma tatiline gittim."
+    },
+    {
+     "en": "A working holiday allows you to earn and travel.",
+     "uk": "Робоча відпустка дозволяє заробляти та подорожувати.",
+     "ru": "Рабочий отпуск позволяет зарабатывать и путешествовать.",
+     "pl": "Wakacje z pracą pozwalają zarabiać i podróżować.",
+     "de": "Eine Work and Travel-Erfahrung ermöglicht es, zu verdienen und zu reisen.",
+     "fr": "Les vacances-travail vous permettent de gagner de l'argent et de voyager.",
+     "es": "Las vacaciones con trabajo te permiten ganar y viajar.",
+     "it": "Una vacanza-lavoro ti permette di guadagnare e viaggiare.",
+     "pt": "Um intercâmbio de trabalho permite que você ganhe e viaje.",
+     "tr": "Çalışma tatili, kazanmanıza ve seyahat etmenize olanak tanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.language-barrier",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/ˈlæŋɡwədʒ ˈbæriɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The language barrier made communication difficult during my trip.",
+     "uk": "Мовний бар'єр ускладнив спілкування під час моєї подорожі.",
+     "ru": "Языковой барьер усложнил общение во время моей поездки.",
+     "pl": "Bariera językowa utrudniała komunikację podczas mojej podróży.",
+     "de": "Die Sprachbarriere erschwerte die Kommunikation während meiner Reise.",
+     "fr": "La barrière de la langue a rendu la communication difficile pendant mon voyage.",
+     "es": "La barrera del idioma dificultó la comunicación durante mi viaje.",
+     "it": "La barriera linguistica ha reso difficile la comunicazione durante il mio viaggio.",
+     "pt": "A barreira linguística dificultou a comunicação durante a minha viagem.",
+     "tr": "Dil engeli, seyahatim sırasında iletişimi zorlaştırdı."
+    },
+    {
+     "en": "Overcoming the language barrier can enhance your travel experience.",
+     "uk": "Подолання мовного бар'єру може покращити ваш досвід подорожей.",
+     "ru": "Преодоление языкового барьера может улучшить ваши впечатления от путешествий.",
+     "pl": "Pokonywanie bariery językowej może poprawić twoje doświadczenia podróżnicze.",
+     "de": "Die Überwindung der Sprachbarriere kann Ihr Reiseerlebnis verbessern.",
+     "fr": "Surmonter la barrière de la langue peut améliorer votre expérience de voyage.",
+     "es": "Superar la barrera del idioma puede mejorar tu experiencia de viaje.",
+     "it": "Superare la barriera linguistica può migliorare la tua esperienza di viaggio.",
+     "pt": "Superar a barreira linguística pode melhorar sua experiência de viagem.",
+     "tr": "Dil engelini aşmak, seyahat deneyiminizi geliştirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.local-customs",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/ˈloʊkəl ˈkʌstəmz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Learning about local customs enriches your travel experience.",
+     "uk": "Вивчення місцевих звичаїв збагачує ваш досвід подорожей.",
+     "ru": "Изучение местных обычаев обогащает ваш опыт путешествий.",
+     "pl": "Poznawanie lokalnych zwyczajów wzbogaca twoje doświadczenie podróżnicze.",
+     "de": "Das Lernen über örtliche Bräuche bereichert Ihr Reiseerlebnis.",
+     "fr": "Apprendre les coutumes locales enrichit votre expérience de voyage.",
+     "es": "Conocer las costumbres locales enriquece tu experiencia de viaje.",
+     "it": "Imparare le usanze locali arricchisce la tua esperienza di viaggio.",
+     "pt": "Aprender sobre os costumes locais enriquece sua experiência de viagem.",
+     "tr": "Yerel gelenekler hakkında bilgi edinmek, seyahat deneyiminizi zenginleştirir."
+    },
+    {
+     "en": "Respecting local customs is important when traveling abroad.",
+     "uk": "Повага до місцевих звичаїв важлива під час подорожей за кордон.",
+     "ru": "Уважение местных обычаев важно при поездках за границу.",
+     "pl": "Szacunek dla lokalnych zwyczajów jest ważny podczas podróży za granicę.",
+     "de": "Die Achtung örtlicher Bräuche ist wichtig, wenn man ins Ausland reist.",
+     "fr": "Respecter les coutumes locales est important lors de vos voyages à l'étranger.",
+     "es": "Respetar las costumbres locales es importante al viajar al extranjero.",
+     "it": "Rispettare le usanze locali è importante quando si viaggia all'estero.",
+     "pt": "Respeitar os costumes locais é importante ao viajar para o exterior.",
+     "tr": "Yurt dışında seyahat ederken yerel geleneklere saygı göstermek önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.etiquette",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/ˈɛtəkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Understanding local etiquette can prevent misunderstandings.",
+     "uk": "Розуміння місцевого етикету може запобігти непорозумінням.",
+     "ru": "Понимание местного этикета может предотвратить недоразумения.",
+     "pl": "Zrozumienie lokalnej etykiety może zapobiec nieporozumieniom.",
+     "de": "Das Verständnis der lokalen Etikette kann Missverständnisse vermeiden.",
+     "fr": "Comprendre l'étiquette locale peut éviter les malentendus.",
+     "es": "Entender la etiqueta local puede prevenir malentendidos.",
+     "it": "Comprendere il galateo locale può prevenire malintesi.",
+     "pt": "Compreender a etiqueta local pode evitar mal-entendidos.",
+     "tr": "Yerel görgü kurallarını anlamak, yanlış anlamaları önleyebilir."
+    },
+    {
+     "en": "It's essential to follow etiquette when dining abroad.",
+     "uk": "Дотримання етикету під час їжі за кордоном є важливим.",
+     "ru": "Важно следовать этикету при приеме пищи за границей.",
+     "pl": "Przestrzeganie etykiety podczas jedzenia za granicą jest istotne.",
+     "de": "Es ist wichtig, die Etikette beim Essen im Ausland zu befolgen.",
+     "fr": "Il est essentiel de respecter l'étiquette lors des repas à l'étranger.",
+     "es": "Es esencial seguir la etiqueta al comer en el extranjero.",
+     "it": "È fondamentale seguire il galateo quando si mangia all'estero.",
+     "pt": "É essencial seguir a etiqueta ao jantar no exterior.",
+     "tr": "Yurt dışında yemek yerken görgü kurallarına uymak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.cruise-ship",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/kruz ʃɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The cruise ship offered many activities for passengers.",
+     "uk": "Круїзний лайнер пропонував багато розваг для пасажирів.",
+     "ru": "Круизный лайнер предлагал множество развлечений для пассажиров.",
+     "pl": "Statek wycieczkowy oferował wiele atrakcji dla pasażerów.",
+     "de": "Das Kreuzfahrtschiff bot viele Aktivitäten für die Passagiere an.",
+     "fr": "Le navire de croisière offrait de nombreuses activités pour les passagers.",
+     "es": "El crucero ofrecía muchas actividades para los pasajeros.",
+     "it": "La nave da crociera offriva molte attività per i passeggeri.",
+     "pt": "O navio de cruzeiro ofereceu muitas atividades para os passageiros.",
+     "tr": "Yolcu gemisi, yolcular için birçok etkinlik sundu."
+    },
+    {
+     "en": "We enjoyed a wonderful vacation on a cruise ship.",
+     "uk": "Ми насолоджувалися чудовим відпочинком на круїзному лайнері.",
+     "ru": "Мы наслаждались прекрасным отдыхом на круизном лайнере.",
+     "pl": "Cieszyliśmy się wspaniałymi wakacjami na statku wycieczkowym.",
+     "de": "Wir genossen einen wunderbaren Urlaub auf einem Kreuzfahrtschiff.",
+     "fr": "Nous avons passé des vacances merveilleuses sur un navire de croisière.",
+     "es": "Disfrutamos de unas vacaciones maravillosas en un crucero.",
+     "it": "Abbiamo trascorso una meravigliosa vacanza su una nave da crociera.",
+     "pt": "Nós desfrutamos de umas férias maravilhosas em um navio de cruzeiro.",
+     "tr": "Bir yolcu gemisinde harika bir tatil geçirdik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.shore-excursion",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/ʃɔr ɪkˈskɝʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We booked a shore excursion to explore the island.",
+     "uk": "Ми забронювали берегову екскурсію, щоб дослідити острів.",
+     "ru": "Мы забронировали береговую экскурсию, чтобы исследовать остров.",
+     "pl": "Zarezerwowaliśmy wycieczkę na ląd, aby zwiedzić wyspę.",
+     "de": "Wir haben einen Landausflug gebucht, um die Insel zu erkunden.",
+     "fr": "Nous avons réservé une excursion à terre pour explorer l'île.",
+     "es": "Reservamos una excursión en tierra para explorar la isla.",
+     "it": "Abbiamo prenotato un'escursione a terra per esplorare l'isola.",
+     "pt": "Reservamos uma excursão em terra para explorar a ilha.",
+     "tr": "Adayı keşfetmek için bir kıyı turu rezervasyonu yaptırdık."
+    },
+    {
+     "en": "The shore excursion included a guided tour of the city.",
+     "uk": "Берегова екскурсія включала екскурсію по місту з гідом.",
+     "ru": "Береговая экскурсия включала в себя экскурсию по городу с гидом.",
+     "pl": "Wycieczka na ląd obejmowała zwiedzanie miasta z przewodnikiem.",
+     "de": "Der Landausflug beinhaltete eine geführte Tour durch die Stadt.",
+     "fr": "L'excursion à terre comprenait une visite guidée de la ville.",
+     "es": "La excursión en tierra incluía un recorrido guiado por la ciudad.",
+     "it": "L'escursione a terra includeva un tour guidato della città.",
+     "pt": "A excursão em terra incluía um tour guiado pela cidade.",
+     "tr": "Kıyı turu, şehri gezmeyi içeriyordu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.port-of-call",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/pɔrt ʌv kɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The cruise included several ports of call in the Caribbean.",
+     "uk": "Круїз включав кілька портів заходу в Карибському морі.",
+     "ru": "Круиз включал несколько портов захода в Карибском море.",
+     "pl": "Rejs obejmował kilka portów zawinięcia na Karaibach.",
+     "de": "Die Kreuzfahrt umfasste mehrere Anlaufhäfen in der Karibik.",
+     "fr": "La croisière incluait plusieurs escales dans les Caraïbes.",
+     "es": "El crucero incluía varios puertos de escala en el Caribe.",
+     "it": "La crociera includeva diversi porti di scalo nei Caraibi.",
+     "pt": "O cruzeiro incluía vários portos de escala no Caribe.",
+     "tr": "Kruvaziyer, Karibik'te birkaç uğrak limanı içeriyordu."
+    },
+    {
+     "en": "We visited a beautiful port of call on our journey.",
+     "uk": "Ми відвідали красивий порт заходу під час нашої подорожі.",
+     "ru": "Мы посетили красивый порт захода во время нашего путешествия.",
+     "pl": "Podczas naszej podróży odwiedziliśmy piękny port zawinięcia.",
+     "de": "Wir besuchten einen schönen Anlaufhafen auf unserer Reise.",
+     "fr": "Nous avons visité un beau port d'escale lors de notre voyage.",
+     "es": "Visitamos un hermoso puerto de escala en nuestro viaje.",
+     "it": "Abbiamo visitato un bellissimo porto di scalo durante il nostro viaggio.",
+     "pt": "Visitamos um lindo porto de escala em nossa viagem.",
+     "tr": "Seyahatimizde güzel bir uğrak limanı ziyaret ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.marina",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/mɚˈinə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The marina was filled with beautiful yachts and boats.",
+     "uk": "Яхтова гавань була заповнена красивими яхтами та човнами.",
+     "ru": "Яхтенная гавань была заполнена красивыми яхтами и лодками.",
+     "pl": "Marina była wypełniona pięknymi jachtami i łodziami.",
+     "de": "Der Jachthafen war mit schönen Yachten und Booten gefüllt.",
+     "fr": "La marina était remplie de magnifiques yachts et bateaux.",
+     "es": "La marina estaba llena de hermosos yates y barcos.",
+     "it": "Il porticciolo era pieno di bellissimi yacht e barche.",
+     "pt": "A marina estava cheia de belos iates e barcos.",
+     "tr": "Yat limanı güzel yatlar ve teknelerle doluydu."
+    },
+    {
+     "en": "We spent the day at the marina enjoying the sun.",
+     "uk": "Ми провели день у яхтовій гавані, насолоджуючись сонцем.",
+     "ru": "Мы провели день в яхтенной гавани, наслаждаясь солнцем.",
+     "pl": "Spędziliśmy dzień w marinie, ciesząc się słońcem.",
+     "de": "Wir verbrachten den Tag im Jachthafen und genossen die Sonne.",
+     "fr": "Nous avons passé la journée à la marina à profiter du soleil.",
+     "es": "Pasamos el día en la marina disfrutando del sol.",
+     "it": "Abbiamo trascorso la giornata al porticciolo godendo del sole.",
+     "pt": "Passamos o dia na marina aproveitando o sol.",
+     "tr": "Günü yat limanında güneşin tadını çıkararak geçirdik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.yacht",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/jɑt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "They rented a yacht for their summer vacation.",
+     "uk": "Вони орендували яхту на літню відпустку.",
+     "ru": "Они арендовали яхту на летний отпуск.",
+     "pl": "Wynajęli jacht na wakacje letnie.",
+     "de": "Sie mieteten eine Jacht für ihren Sommerurlaub.",
+     "fr": "Ils ont loué un yacht pour leurs vacances d'été.",
+     "es": "Alquilaron un yate para sus vacaciones de verano.",
+     "it": "Hanno noleggiato uno yacht per le loro vacanze estive.",
+     "pt": "Eles alugaram um iate para suas férias de verão.",
+     "tr": "Yaz tatilleri için bir yat kiraladılar."
+    },
+    {
+     "en": "The yacht sailed smoothly across the calm sea.",
+     "uk": "Яхта пливла плавно по спокійному морю.",
+     "ru": "Яхта плавно шла по спокойному морю.",
+     "pl": "Jacht płynął gładko po spokojnym morzu.",
+     "de": "Die Jacht segelte sanft über das ruhige Meer.",
+     "fr": "Le yacht a navigué doucement sur la mer calme.",
+     "es": "El yate navegó suavemente por el mar tranquilo.",
+     "it": "Lo yacht ha navigato dolcemente sul mare calmo.",
+     "pt": "O iate navegou suavemente pelo mar calmo.",
+     "tr": "Yat, sakin denizin üzerinde düzgün bir şekilde seyretti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.glamping",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/ˈɡlæmpɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We went glamping in the beautiful countryside.",
+     "uk": "Ми поїхали на глемпінг у прекрасну сільську місцевість.",
+     "ru": "Мы ездили на глэмпинг в красивую сельскую местность.",
+     "pl": "Pojechaliśmy na glamping w pięknej okolicy.",
+     "de": "Wir gingen glamping in der schönen Landschaft.",
+     "fr": "Nous sommes allés glamping dans la belle campagne.",
+     "es": "Fuimos de glamping en el hermoso campo.",
+     "it": "Siamo andati in glamping nella bellissima campagna.",
+     "pt": "Fomos glamping na bela zona rural.",
+     "tr": "Güzel kırsalda glamping yaptık."
+    },
+    {
+     "en": "Glamping combines luxury with nature for a unique experience.",
+     "uk": "Глемпінг поєднує розкіш з природою для унікального досвіду.",
+     "ru": "Глэмпинг сочетает роскошь с природой для уникального опыта.",
+     "pl": "Glamping łączy luksus z naturą dla wyjątkowych doświadczeń.",
+     "de": "Glamping kombiniert Luxus mit Natur für ein einzigartiges Erlebnis.",
+     "fr": "Le glamping combine luxe et nature pour une expérience unique.",
+     "es": "El glamping combina lujo con naturaleza para una experiencia única.",
+     "it": "Il glamping combina lusso e natura per un'esperienza unica.",
+     "pt": "O glamping combina luxo com a natureza para uma experiência única.",
+     "tr": "Glamping, lüks ile doğayı birleştirerek benzersiz bir deneyim sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-extend-a-visa",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ɪkˈstɛnd ə ˈvizə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to extend a visa for my stay.",
+     "uk": "Мені потрібно продовжити візу для мого перебування.",
+     "ru": "Мне нужно продлить визу для моего пребывания.",
+     "pl": "Muszę przedłużyć wizę na mój pobyt.",
+     "de": "Ich muss ein Visum für meinen Aufenthalt verlängern.",
+     "fr": "J'ai besoin de prolonger un visa pour mon séjour.",
+     "es": "Necesito prorrogar un visado para mi estancia.",
+     "it": "Devo prorogare un visto per il mio soggiorno.",
+     "pt": "Preciso prorrogar um visto para minha estadia.",
+     "tr": "Kalışım için vizeyi uzatmam gerekiyor."
+    },
+    {
+     "en": "You can extend a visa at the immigration office.",
+     "uk": "Візу можна продовжити в імміграційній службі.",
+     "ru": "Визу можно продлить в иммиграционном офисе.",
+     "pl": "Wizę można przedłużyć w biurze imigracyjnym.",
+     "de": "Man kann ein Visum im Einwanderungsbüro verlängern.",
+     "fr": "Vous pouvez prolonger un visa au bureau de l'immigration.",
+     "es": "Puedes prorrogar un visado en la oficina de inmigración.",
+     "it": "Puoi prorogare un visto presso l'ufficio immigrazione.",
+     "pt": "Você pode prorrogar um visto no escritório de imigração.",
+     "tr": "Vizeyi göçmenlik ofisinde uzatabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.shared-bathroom",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ʃɛrd ˈbæˌθrum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This hostel has a shared bathroom for all guests.",
+     "uk": "Цей хостел має спільну ванну кімнату для всіх гостей.",
+     "ru": "Этот хостел имеет общую ванную для всех гостей.",
+     "pl": "Ten hostel ma wspólną łazienkę dla wszystkich gości.",
+     "de": "Dieses Hostel hat ein Gemeinschaftsbad für alle Gäste.",
+     "fr": "Cette auberge a une salle de bains commune pour tous les clients.",
+     "es": "Este albergue tiene un baño compartido para todos los huéspedes.",
+     "it": "Questo ostello ha un bagno in comune per tutti gli ospiti.",
+     "pt": "Este albergue tem um banheiro compartilhado para todos os hóspedes.",
+     "tr": "Bu hostelde tüm misafirler için ortak banyo var."
+    },
+    {
+     "en": "I prefer a private room over a shared bathroom.",
+     "uk": "Я віддаю перевагу приватному номеру замість спільної ванної.",
+     "ru": "Я предпочитаю номер с отдельной ванной, чем общую ванную.",
+     "pl": "Wolę pokój prywatny niż wspólną łazienkę.",
+     "de": "Ich bevorzuge ein privates Zimmer gegenüber einem Gemeinschaftsbad.",
+     "fr": "Je préfère une chambre privée à une salle de bains commune.",
+     "es": "Prefiero una habitación privada a un baño compartido.",
+     "it": "Preferisco una camera privata a un bagno in comune.",
+     "pt": "Prefiro um quarto privado a um banheiro compartilhado.",
+     "tr": "Ortak banyo yerine özel odayı tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.amenities",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/əˈmɛnətiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel offers many amenities for its guests.",
+     "uk": "Готель пропонує багато зручностей для своїх гостей.",
+     "ru": "Отель предлагает много удобств для своих гостей.",
+     "pl": "Hotel oferuje wiele udogodnień dla swoich gości.",
+     "de": "Das Hotel bietet viele Annehmlichkeiten für seine Gäste.",
+     "fr": "L'hôtel propose de nombreux équipements pour ses clients.",
+     "es": "El hotel ofrece muchos servicios para sus huéspedes.",
+     "it": "L'hotel offre molti servizi per i suoi ospiti.",
+     "pt": "O hotel oferece muitas comodidades para os seus hóspedes.",
+     "tr": "Otel, misafirleri için birçok olanak sunuyor."
+    },
+    {
+     "en": "Check the amenities before booking your accommodation.",
+     "uk": "Перевірте зручності перед бронюванням житла.",
+     "ru": "Проверьте удобства перед бронированием жилья.",
+     "pl": "Sprawdź udogodnienia przed rezerwacją noclegu.",
+     "de": "Überprüfen Sie die Ausstattung vor der Buchung Ihrer Unterkunft.",
+     "fr": "Vérifiez les équipements avant de réserver votre hébergement.",
+     "es": "Verifica los servicios antes de reservar tu alojamiento.",
+     "it": "Controlla i servizi prima di prenotare il tuo alloggio.",
+     "pt": "Verifique as comodidades antes de reservar sua acomodação.",
+     "tr": "Konaklamanızı rezerve etmeden önce olanakları kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.self-guided-tour",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/sɛlf ˈɡaɪdəd tʊr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A self-guided tour allows you to explore at your own pace.",
+     "uk": "Самостійна екскурсія дозволяє вам досліджувати у своєму темпі.",
+     "ru": "Самостоятельная экскурсия позволяет вам исследовать в своем темпе.",
+     "pl": "Zwiedzanie na własną rękę pozwala odkrywać we własnym tempie.",
+     "de": "Eine Tour auf eigene Faust ermöglicht es Ihnen, in Ihrem eigenen Tempo zu erkunden.",
+     "fr": "Une visite libre vous permet d'explorer à votre rythme.",
+     "es": "Una visita por libre te permite explorar a tu propio ritmo.",
+     "it": "Una visita autoguidata ti consente di esplorare al tuo ritmo.",
+     "pt": "Um passeio autoguiado permite explorar no seu próprio ritmo.",
+     "tr": "Rehbersiz tur, kendi hızınızda keşfetmenizi sağlar."
+    },
+    {
+     "en": "I enjoyed the self-guided tour of the museum.",
+     "uk": "Мені сподобалась самостійна екскурсія музеєм.",
+     "ru": "Мне понравилась самостоятельная экскурсия по музею.",
+     "pl": "Podobała mi się zwiedzanie na własną rękę po muzeum.",
+     "de": "Mir hat die Tour auf eigene Faust durch das Museum gefallen.",
+     "fr": "J'ai aimé la visite libre du musée.",
+     "es": "Disfruté de la visita por libre al museo.",
+     "it": "Mi è piaciuta la visita autoguidata al museo.",
+     "pt": "Eu gostei do passeio autoguiado pelo museu.",
+     "tr": "Müzede rehbersiz turdan keyif aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.audio-guide",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˈɑdiˌoʊ ɡaɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The museum provides an audio guide for visitors.",
+     "uk": "Музей надає аудіогід для відвідувачів.",
+     "ru": "Музей предоставляет аудиогид для посетителей.",
+     "pl": "Muzeum zapewnia audioprzewodnik dla zwiedzających.",
+     "de": "Das Museum bietet einen Audioguide für Besucher an.",
+     "fr": "Le musée fournit un audioguide pour les visiteurs.",
+     "es": "El museo proporciona una audioguía para los visitantes.",
+     "it": "Il museo fornisce un'audioguida per i visitatori.",
+     "pt": "O museu fornece um audioguia para os visitantes.",
+     "tr": "Müze ziyaretçiler için sesli rehber sağlıyor."
+    },
+    {
+     "en": "I used an audio guide during my museum visit.",
+     "uk": "Я користувався аудіогідом під час відвідування музею.",
+     "ru": "Я использовал аудиогид во время посещения музея.",
+     "pl": "Użyłem audioprzewodnika podczas mojej wizyty w muzeum.",
+     "de": "Ich habe während meines Museumsbesuchs einen Audioguide benutzt.",
+     "fr": "J'ai utilisé un audioguide pendant ma visite au musée.",
+     "es": "Usé una audioguía durante mi visita al museo.",
+     "it": "Ho usato un'audioguida durante la mia visita al museo.",
+     "pt": "Usei um audioguia durante minha visita ao museu.",
+     "tr": "Müze ziyaretim sırasında sesli rehber kullandım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.entrance-fee",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/ˈɛntrəns fi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The entrance fee for the museum is ten dollars.",
+     "uk": "Вхідна плата до музею становить десять доларів.",
+     "ru": "Плата за вход в музей составляет десять долларов.",
+     "pl": "Opłata za wstęp do muzeum wynosi dziesięć dolarów.",
+     "de": "Die Eintrittsgebühr für das Museum beträgt zehn Dollar.",
+     "fr": "Le droit d'entrée pour le musée est de dix dollars.",
+     "es": "El precio de la entrada al museo es de diez dólares.",
+     "it": "Il biglietto d'ingresso per il museo è dieci dollari.",
+     "pt": "A taxa de entrada para o museu é de dez dólares.",
+     "tr": "Müze için giriş ücreti on dolar."
+    },
+    {
+     "en": "You must pay the entrance fee before entering.",
+     "uk": "Ви повинні сплатити вхідну плату перед входом.",
+     "ru": "Вы должны заплатить плату за вход перед входом.",
+     "pl": "Musisz zapłacić opłatę za wstęp przed wejściem.",
+     "de": "Sie müssen die Eintrittsgebühr vor dem Betreten bezahlen.",
+     "fr": "Vous devez payer le droit d'entrée avant d'entrer.",
+     "es": "Debes pagar el precio de la entrada antes de entrar.",
+     "it": "Devi pagare il biglietto d'ingresso prima di entrare.",
+     "pt": "Você deve pagar a taxa de entrada antes de entrar.",
+     "tr": "Girmeden önce giriş ücretini ödemeniz gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.travel-restrictions",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl riˈstrɪkʃənz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check the travel restrictions before planning your trip.",
+     "uk": "Перевірте обмеження на поїздки перед плануванням подорожі.",
+     "ru": "Проверьте ограничения на поездки перед планированием вашей поездки.",
+     "pl": "Sprawdź ograniczenia w podróżowaniu przed zaplanowaniem podróży.",
+     "de": "Überprüfen Sie die Reisebeschränkungen, bevor Sie Ihre Reise planen.",
+     "fr": "Vérifiez les restrictions de voyage avant de planifier votre voyage.",
+     "es": "Verifica las restricciones de viaje antes de planificar tu viaje.",
+     "it": "Controlla le restrizioni di viaggio prima di pianificare il tuo viaggio.",
+     "pt": "Verifique as restrições de viagem antes de planejar sua viagem.",
+     "tr": "Seyahatinizi planlamadan önce seyahat kısıtlamalarını kontrol edin."
+    },
+    {
+     "en": "There are new travel restrictions due to the pandemic.",
+     "uk": "Є нові обмеження на поїздки через пандемію.",
+     "ru": "Существуют новые ограничения на поездки из-за пандемии.",
+     "pl": "Są nowe ograniczenia w podróżowaniu z powodu pandemii.",
+     "de": "Es gibt neue Reisebeschränkungen aufgrund der Pandemie.",
+     "fr": "Il y a de nouvelles restrictions de voyage en raison de la pandémie.",
+     "es": "Hay nuevas restricciones de viaje debido a la pandemia.",
+     "it": "Ci sono nuove restrizioni di viaggio a causa della pandemia.",
+     "pt": "Existem novas restrições de viagem devido à pandemia.",
+     "tr": "Pandemi nedeniyle yeni seyahat kısıtlamaları var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.tourist-tax",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/ˈtʊrəst tæks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tourist tax is added to your hotel bill.",
+     "uk": "Туристичний збір додається до вашого рахунку в готелі.",
+     "ru": "Туристический налог добавляется к вашему счету в отеле.",
+     "pl": "Opłata turystyczna jest dodawana do twojego rachunku hotelowego.",
+     "de": "Die Kurtaxe wird zu Ihrer Hotelrechnung hinzugefügt.",
+     "fr": "La taxe de séjour est ajoutée à votre facture d'hôtel.",
+     "es": "La tasa turística se añade a tu factura del hotel.",
+     "it": "La tassa di soggiorno è aggiunta al tuo conto dell'hotel.",
+     "pt": "A taxa turística é adicionada à sua conta do hotel.",
+     "tr": "Turist vergisi, otel faturanıza eklenir."
+    },
+    {
+     "en": "Make sure to check the tourist tax in advance.",
+     "uk": "Переконайтеся, що ви перевірили туристичний збір заздалегідь.",
+     "ru": "Убедитесь, что вы проверили туристический налог заранее.",
+     "pl": "Upewnij się, że sprawdziłeś opłatę turystyczną z wyprzedzeniem.",
+     "de": "Stellen Sie sicher, dass Sie die Kurtaxe im Voraus überprüfen.",
+     "fr": "Assurez-vous de vérifier la taxe de séjour à l'avance.",
+     "es": "Asegúrate de verificar la tasa turística con anticipación.",
+     "it": "Assicurati di controllare la tassa di soggiorno in anticipo.",
+     "pt": "Certifique-se de verificar a taxa turística com antecedência.",
+     "tr": "Turist vergisini önceden kontrol ettiğinizden emin olun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.solo-travel",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/ˈsoʊˌloʊ ˈtrævəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Solo travel can be a great way to find yourself.",
+     "uk": "Самостійні подорожі можуть бути чудовим способом знайти себе.",
+     "ru": "Путешествия в одиночку могут быть отличным способом найти себя.",
+     "pl": "Podróżowanie w pojedynkę może być świetnym sposobem na odnalezienie siebie.",
+     "de": "Alleinreisen kann eine großartige Möglichkeit sein, sich selbst zu finden.",
+     "fr": "Le voyage en solo peut être un excellent moyen de se trouver.",
+     "es": "Viajar solo puede ser una gran manera de encontrarte.",
+     "it": "Viaggiare da soli può essere un ottimo modo per ritrovare te stesso.",
+     "pt": "Viajar solo pode ser uma ótima maneira de se encontrar.",
+     "tr": "Tek başına seyahat, kendinizi bulmanın harika bir yolu olabilir."
+    },
+    {
+     "en": "I enjoy solo travel for the freedom it offers.",
+     "uk": "Я насолоджуюсь самостійними подорожами за свободу, яку вони дають.",
+     "ru": "Мне нравятся путешествия в одиночку за свободу, которую они дают.",
+     "pl": "Cieszę się z podróżowania w pojedynkę za wolność, jaką daje.",
+     "de": "Ich genieße Alleinreisen wegen der Freiheit, die sie bieten.",
+     "fr": "J'apprécie le voyage en solo pour la liberté qu'il offre.",
+     "es": "Disfruto viajar solo por la libertad que ofrece.",
+     "it": "Mi piace viaggiare da solo per la libertà che offre.",
+     "pt": "Eu gosto de viajar solo pela liberdade que oferece.",
+     "tr": "Tek başına seyahat etmeyi, sunduğu özgürlük için seviyorum."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

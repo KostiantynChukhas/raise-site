@@ -2,7 +2,7 @@
  "id": "finance-b2",
  "topic": "finance",
  "level": "b2",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "finance.tax-return",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/tæks rɪˈtɝn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I filed my tax return yesterday.",
+     "uk": "Я подав податкову декларацію вчора.",
+     "ru": "Я подал налоговую декларацию вчера.",
+     "pl": "Wczoraj złożyłem zeznanie podatkowe.",
+     "de": "Ich habe gestern meine Steuererklärung eingereicht.",
+     "fr": "J'ai déposé ma déclaration de revenus hier.",
+     "es": "Presenté mi declaración de la renta ayer.",
+     "it": "Ho presentato la dichiarazione dei redditi ieri.",
+     "pt": "Eu enviei minha declaração de imposto de renda ontem.",
+     "tr": "Dün vergi beyannamesi verdim."
+    },
+    {
+     "en": "The tax return is due next week.",
+     "uk": "Податкова декларація має бути подана на наступному тижні.",
+     "ru": "Налоговая декларация должна быть подана на следующей неделе.",
+     "pl": "Zeznanie podatkowe jest do złożenia w przyszłym tygodniu.",
+     "de": "Die Steuererklärung muss nächste Woche eingereicht werden.",
+     "fr": "La déclaration de revenus est due la semaine prochaine.",
+     "es": "La declaración de la renta vence la próxima semana.",
+     "it": "La dichiarazione dei redditi scade la prossima settimana.",
+     "pt": "A declaração de imposto de renda vence na próxima semana.",
+     "tr": "Vergi beyannamesi önümüzdeki hafta son tarih."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tax-deduction",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/tæks dɪˈdʌkʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You can claim a tax deduction for medical expenses.",
+     "uk": "Ви можете отримати податкове вирахування на медичні витрати.",
+     "ru": "Вы можете получить налоговый вычет на медицинские расходы.",
+     "pl": "Możesz ubiegać się o odliczenie od podatku na wydatki medyczne.",
+     "de": "Sie können einen Steuerabzug für medizinische Ausgaben geltend machen.",
+     "fr": "Vous pouvez demander une déduction fiscale pour les frais médicaux.",
+     "es": "Puedes reclamar una deducción fiscal por gastos médicos.",
+     "it": "Puoi richiedere una detrazione fiscale per le spese mediche.",
+     "pt": "Você pode solicitar uma dedução fiscal para despesas médicas.",
+     "tr": "Tıbbi harcamalar için vergi indirimi talep edebilirsiniz."
+    },
+    {
+     "en": "The tax deduction helped reduce my overall tax bill.",
+     "uk": "Податкове вирахування допомогло зменшити мій загальний податковий рахунок.",
+     "ru": "Налоговый вычет помог снизить мой общий налог.",
+     "pl": "Odliczenie od podatku pomogło zmniejszyć mój całkowity podatek.",
+     "de": "Der Steuerabzug hat geholfen, meine Gesamtsteuerlast zu senken.",
+     "fr": "La déduction fiscale a aidé à réduire ma facture fiscale globale.",
+     "es": "La deducción fiscal ayudó a reducir mi factura de impuestos total.",
+     "it": "La detrazione fiscale ha aiutato a ridurre la mia bolletta fiscale complessiva.",
+     "pt": "A dedução fiscal ajudou a reduzir minha conta total de impostos.",
+     "tr": "Vergi indirimi, toplam vergi yükümü azaltmaya yardımcı oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.vat",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/væt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The VAT is included in the final price.",
+     "uk": "ПДВ включено в кінцеву ціну.",
+     "ru": "НДС включен в конечную цену.",
+     "pl": "VAT jest wliczony w ostateczną cenę.",
+     "de": "Die Mehrwertsteuer ist im Endpreis enthalten.",
+     "fr": "La TVA est incluse dans le prix final.",
+     "es": "El IVA está incluido en el precio final.",
+     "it": "L'IVA è inclusa nel prezzo finale.",
+     "pt": "O ICMS está incluído no preço final.",
+     "tr": "KDV nihai fiyata dahildir."
+    },
+    {
+     "en": "You need to register for VAT if you exceed the threshold.",
+     "uk": "Вам потрібно зареєструватися для ПДВ, якщо ви перевищите поріг.",
+     "ru": "Вам нужно зарегистрироваться для НДС, если вы превысите порог.",
+     "pl": "Musisz zarejestrować się do VAT, jeśli przekroczysz próg.",
+     "de": "Sie müssen sich für die Mehrwertsteuer registrieren, wenn Sie die Grenze überschreiten.",
+     "fr": "Vous devez vous inscrire à la TVA si vous dépassez le seuil.",
+     "es": "Necesitas registrarte para el IVA si superas el umbral.",
+     "it": "Devi registrarti per l'IVA se superi la soglia.",
+     "pt": "Você precisa se registrar para o ICMS se exceder o limite.",
+     "tr": "Eşiği aşarsanız KDV için kaydolmalısınız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.income-tax",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈɪnˌkʌm tæks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The income tax rate varies by country.",
+     "uk": "Ставка податку на доходи варіюється в залежності від країни.",
+     "ru": "Ставка подоходного налога варьируется в зависимости от страны.",
+     "pl": "Stawka podatku dochodowego różni się w zależności od kraju.",
+     "de": "Der Einkommensteuersatz variiert je nach Land.",
+     "fr": "Le taux d'impôt sur le revenu varie selon le pays.",
+     "es": "La tasa del impuesto sobre la renta varía según el país.",
+     "it": "L'aliquota dell'imposta sul reddito varia a seconda del paese.",
+     "pt": "A taxa do imposto de renda varia de acordo com o país.",
+     "tr": "Gelir vergisi oranı ülkeye göre değişir."
+    },
+    {
+     "en": "You must file your income tax return annually.",
+     "uk": "Вам потрібно щорічно подавати податкову декларацію на доходи.",
+     "ru": "Вы должны ежегодно подавать налоговую декларацию по доходам.",
+     "pl": "Musisz corocznie składać zeznanie podatkowe od dochodów.",
+     "de": "Sie müssen jährlich Ihre Einkommensteuererklärung einreichen.",
+     "fr": "Vous devez déposer votre déclaration d'impôt sur le revenu chaque année.",
+     "es": "Debes presentar tu declaración del impuesto sobre la renta anualmente.",
+     "it": "Devi presentare annualmente la tua dichiarazione dei redditi.",
+     "pt": "Você deve apresentar sua declaração de imposto de renda anualmente.",
+     "tr": "Yıllık gelir vergisi beyannamesi vermelisiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.shares",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ʃɛrz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought shares in a tech company last week.",
+     "uk": "Я купив акції технологічної компанії минулого тижня.",
+     "ru": "На прошлой неделе я купил акции технологической компании.",
+     "pl": "W zeszłym tygodniu kupiłem akcje firmy technologicznej.",
+     "de": "Ich habe letzte Woche Aktien eines Technologieunternehmens gekauft.",
+     "fr": "J'ai acheté des actions d'une entreprise technologique la semaine dernière.",
+     "es": "Compré acciones de una empresa de tecnología la semana pasada.",
+     "it": "Ho comprato azioni di un'azienda tecnologica la scorsa settimana.",
+     "pt": "Comprei ações de uma empresa de tecnologia na semana passada.",
+     "tr": "Geçen hafta bir teknoloji şirketinin hisse senetlerini aldım."
+    },
+    {
+     "en": "Shares can be volatile in the stock market.",
+     "uk": "Акції можуть бути нестабільними на фондовому ринку.",
+     "ru": "Акции могут быть нестабильными на фондовом рынке.",
+     "pl": "Akcje mogą być zmienne na giełdzie.",
+     "de": "Aktien können an der Börse volatil sein.",
+     "fr": "Les actions peuvent être volatiles sur le marché boursier.",
+     "es": "Las acciones pueden ser volátiles en el mercado de valores.",
+     "it": "Le azioni possono essere volatili nel mercato azionario.",
+     "pt": "As ações podem ser voláteis no mercado de ações.",
+     "tr": "Hisse senetleri borsa da dalgalı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bond",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/bɑnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He invested in a government bond for security.",
+     "uk": "Він інвестував в державну облігацію для безпеки.",
+     "ru": "Он инвестировал в государственную облигацию для безопасности.",
+     "pl": "Zainwestował w obligację rządową dla bezpieczeństwa.",
+     "de": "Er investierte in eine Staatsanleihe zur Sicherheit.",
+     "fr": "Il a investi dans une obligation d'État pour plus de sécurité.",
+     "es": "Invirtió en un bono del gobierno por seguridad.",
+     "it": "Ha investito in un'obbligazione governativa per sicurezza.",
+     "pt": "Ele investiu em um título do governo para segurança.",
+     "tr": "Güvenlik için bir devlet tahviline yatırım yaptı."
+    },
+    {
+     "en": "Bonds are generally considered safer than stocks.",
+     "uk": "Облігації зазвичай вважаються безпечнішими за акції.",
+     "ru": "Облигации обычно считаются более безопасными, чем акции.",
+     "pl": "Obligacje są zazwyczaj uważane za bezpieczniejsze niż akcje.",
+     "de": "Anleihen gelten im Allgemeinen als sicherer als Aktien.",
+     "fr": "Les obligations sont généralement considérées comme plus sûres que les actions.",
+     "es": "Los bonos se consideran generalmente más seguros que las acciones.",
+     "it": "Le obbligazioni sono generalmente considerate più sicure delle azioni.",
+     "pt": "Os títulos são geralmente considerados mais seguros que as ações.",
+     "tr": "Tahviller genellikle hisselerden daha güvenli kabul edilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.dividend",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/ˈdɪvɪˌdɛnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company announced a dividend increase this quarter.",
+     "uk": "Компанія оголосила про збільшення дивідендів цього кварталу.",
+     "ru": "Компания объявила об увеличении дивидендов в этом квартале.",
+     "pl": "Firma ogłosiła zwiększenie dywidendy w tym kwartale.",
+     "de": "Das Unternehmen kündigte eine Erhöhung der Dividende in diesem Quartal an.",
+     "fr": "L'entreprise a annoncé une augmentation du dividende ce trimestre.",
+     "es": "La empresa anunció un aumento del dividendo este trimestre.",
+     "it": "L'azienda ha annunciato un aumento del dividendo questo trimestre.",
+     "pt": "A empresa anunciou um aumento do dividendo neste trimestre.",
+     "tr": "Şirket bu çeyrekte temettü artışı duyurdu."
+    },
+    {
+     "en": "Investors are pleased with the high dividend payout.",
+     "uk": "Інвестори задоволені високими виплатами дивідендів.",
+     "ru": "Инвесторы довольны высокой выплатой дивидендов.",
+     "pl": "Inwestorzy są zadowoleni z wysokiej wypłaty dywidendy.",
+     "de": "Die Investoren sind mit der hohen Dividende zufrieden.",
+     "fr": "Les investisseurs sont satisfaits du versement élevé de dividendes.",
+     "es": "Los inversores están contentos con el alto pago de dividendos.",
+     "it": "Gli investitori sono soddisfatti dell'alto pagamento dei dividendi.",
+     "pt": "Os investidores estão satisfeitos com o alto pagamento de dividendos.",
+     "tr": "Yatırımcılar yüksek temettü ödemesinden memnun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.stock-exchange",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/stɑk ɪksˈtʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The stock exchange is open from 9 AM to 4 PM.",
+     "uk": "Фондова біржа відкрита з 9:00 до 16:00.",
+     "ru": "Фондовая биржа открыта с 9 до 16 часов.",
+     "pl": "Giełda jest otwarta od 9:00 do 16:00.",
+     "de": "Die Börse ist von 9 bis 16 Uhr geöffnet.",
+     "fr": "La bourse est ouverte de 9h à 16h.",
+     "es": "La bolsa de valores está abierta de 9 a 16 horas.",
+     "it": "La borsa è aperta dalle 9 alle 16.",
+     "pt": "A bolsa de valores está aberta das 9h às 16h.",
+     "tr": "Borsa, sabah 9'dan akşam 4'e kadar açıktır."
+    },
+    {
+     "en": "Many companies are listed on the stock exchange.",
+     "uk": "Багато компаній зареєстровано на фондовій біржі.",
+     "ru": "Многие компании зарегистрированы на фондовой бирже.",
+     "pl": "Wiele firm jest notowanych na giełdzie.",
+     "de": "Viele Unternehmen sind an der Börse notiert.",
+     "fr": "De nombreuses entreprises sont cotées en bourse.",
+     "es": "Muchas empresas están cotizadas en la bolsa de valores.",
+     "it": "Molte aziende sono quotate in borsa.",
+     "pt": "Muitas empresas estão listadas na bolsa de valores.",
+     "tr": "Birçok şirket borsa da işlem görmektedir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.portfolio",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/pɔrtˈfoʊliˌoʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to diversify my investment portfolio.",
+     "uk": "Мені потрібно диверсифікувати свій інвестиційний портфель.",
+     "ru": "Мне нужно диверсифицировать свой инвестиционный портфель.",
+     "pl": "Muszę zdywersyfikować swój portfel inwestycyjny.",
+     "de": "Ich muss mein Investitionsportfolio diversifizieren.",
+     "fr": "Je dois diversifier mon portefeuille d'investissement.",
+     "es": "Necesito diversificar mi cartera de inversiones.",
+     "it": "Devo diversificare il mio portafoglio di investimenti.",
+     "pt": "Preciso diversificar minha carteira de investimentos.",
+     "tr": "Yatırım portföyümü çeşitlendirmem gerekiyor."
+    },
+    {
+     "en": "A balanced portfolio minimizes risk and maximizes returns.",
+     "uk": "Збалансований портфель мінімізує ризики та максимізує доходи.",
+     "ru": "Сбалансированный портфель минимизирует риски и максимизирует доходы.",
+     "pl": "Zrównoważony portfel minimalizuje ryzyko i maksymalizuje zyski.",
+     "de": "Ein ausgewogenes Portfolio minimiert Risiken und maximiert Renditen.",
+     "fr": "Un portefeuille équilibré minimise les risques et maximise les rendements.",
+     "es": "Un portafolio equilibrado minimiza el riesgo y maximiza los retornos.",
+     "it": "Un portafoglio bilanciato minimizza il rischio e massimizza i rendimenti.",
+     "pt": "Um portfólio equilibrado minimiza riscos e maximiza retornos.",
+     "tr": "Dengeli bir portföy, riski en aza indirir ve getirileri maksimize eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.mutual-fund",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈmjutʃuəl fʌnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing in a mutual fund can be a smart choice.",
+     "uk": "Інвестування в інвестиційний фонд може бути розумним вибором.",
+     "ru": "Инвестирование в паевой фонд может быть разумным выбором.",
+     "pl": "Inwestowanie w fundusz inwestycyjny może być mądrym wyborem.",
+     "de": "In einen Investmentfonds zu investieren, kann eine kluge Wahl sein.",
+     "fr": "Investir dans un fonds commun de placement peut être un choix judicieux.",
+     "es": "Invertir en un fondo de inversión puede ser una decisión inteligente.",
+     "it": "Investire in un fondo comune può essere una scelta saggia.",
+     "pt": "Investir em um fundo de investimento pode ser uma escolha inteligente.",
+     "tr": "Yatırım fonuna yatırım yapmak akıllıca bir seçim olabilir."
+    },
+    {
+     "en": "Many people prefer mutual funds for their simplicity.",
+     "uk": "Багато людей віддають перевагу інвестиційним фондам за їх простоту.",
+     "ru": "Многие предпочитают паевые фонды за их простоту.",
+     "pl": "Wiele osób preferuje fundusze inwestycyjne za ich prostotę.",
+     "de": "Viele Menschen bevorzugen Investmentfonds wegen ihrer Einfachheit.",
+     "fr": "Beaucoup de gens préfèrent les fonds communs de placement pour leur simplicité.",
+     "es": "Muchas personas prefieren los fondos de inversión por su simplicidad.",
+     "it": "Molte persone preferiscono i fondi comuni per la loro semplicità.",
+     "pt": "Muitas pessoas preferem fundos de investimento pela sua simplicidade.",
+     "tr": "Birçok insan, basitlikleri nedeniyle yatırım fonlarını tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.return-on-investment",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/rɪˈtɝn ɑn ˌɪnˈvɛstmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The return on investment was higher than expected.",
+     "uk": "Прибутковість інвестицій була вищою, ніж очікувалося.",
+     "ru": "Доходность инвестиций была выше ожидаемой.",
+     "pl": "Zwrot z inwestycji był wyższy niż oczekiwano.",
+     "de": "Die Rendite war höher als erwartet.",
+     "fr": "Le retour sur investissement était plus élevé que prévu.",
+     "es": "La rentabilidad fue mayor de lo esperado.",
+     "it": "Il rendimento è stato superiore alle aspettative.",
+     "pt": "O retorno sobre investimento foi maior do que o esperado.",
+     "tr": "Yatırım getirisi beklenenden daha yüksekti."
+    },
+    {
+     "en": "Investors often analyze the return on investment carefully.",
+     "uk": "Інвестори часто ретельно аналізують прибутковість інвестицій.",
+     "ru": "Инвесторы часто тщательно анализируют доходность инвестиций.",
+     "pl": "Inwestorzy często dokładnie analizują zwrot z inwestycji.",
+     "de": "Investoren analysieren oft sorgfältig die Rendite.",
+     "fr": "Les investisseurs analysent souvent attentivement le retour sur investissement.",
+     "es": "Los inversores a menudo analizan cuidadosamente la rentabilidad.",
+     "it": "Gli investitori spesso analizzano attentamente il rendimento.",
+     "pt": "Os investidores costumam analisar cuidadosamente o retorno sobre investimento.",
+     "tr": "Yatırımcılar genellikle yatırım getirisini dikkatlice analiz eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.inflation",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈfleɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Inflation rates have increased significantly this year.",
+     "uk": "Рівень інфляції значно зріс цього року.",
+     "ru": "Уровни инфляции значительно увеличились в этом году.",
+     "pl": "Stopy inflacji znacznie wzrosły w tym roku.",
+     "de": "Die Inflationsraten sind in diesem Jahr erheblich gestiegen.",
+     "fr": "Les taux d'inflation ont considérablement augmenté cette année.",
+     "es": "Las tasas de inflación han aumentado significativamente este año.",
+     "it": "I tassi di inflazione sono aumentati significativamente quest'anno.",
+     "pt": "As taxas de inflação aumentaram significativamente este ano.",
+     "tr": "Enflasyon oranları bu yıl önemli ölçüde arttı."
+    },
+    {
+     "en": "Managing inflation is crucial for economic stability.",
+     "uk": "Управління інфляцією є важливим для економічної стабільності.",
+     "ru": "Управление инфляцией имеет решающее значение для экономической стабильности.",
+     "pl": "Zarządzanie inflacją jest kluczowe dla stabilności gospodarczej.",
+     "de": "Das Management der Inflation ist entscheidend für die wirtschaftliche Stabilität.",
+     "fr": "Gérer l'inflation est crucial pour la stabilité économique.",
+     "es": "Gestionar la inflación es crucial para la estabilidad económica.",
+     "it": "Gestire l'inflazione è fondamentale per la stabilità economica.",
+     "pt": "Gerenciar a inflação é crucial para a estabilidade econômica.",
+     "tr": "Enflasyonu yönetmek ekonomik istikrar için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.compound-interest",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˈkɑmpaʊnd ˈɪntrəst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Compound interest can significantly grow your savings over time.",
+     "uk": "Складні відсотки можуть суттєво збільшити ваші заощадження.",
+     "ru": "Сложные проценты могут значительно увеличить ваши сбережения.",
+     "pl": "Procent składany może znacznie zwiększyć twoje oszczędności.",
+     "de": "Zinseszinsen können Ihre Ersparnisse im Laufe der Zeit erheblich steigern.",
+     "fr": "Les intérêts composés peuvent considérablement accroître vos économies.",
+     "es": "El interés compuesto puede aumentar significativamente tus ahorros con el tiempo.",
+     "it": "L'interesse composto può far crescere significativamente i tuoi risparmi nel tempo.",
+     "pt": "Os juros compostos podem aumentar significativamente suas economias ao longo do tempo.",
+     "tr": "Bileşik faiz, tasarruflarınızı zamanla önemli ölçüde artırabilir."
+    },
+    {
+     "en": "Many banks offer accounts with compound interest benefits.",
+     "uk": "Багато банків пропонують рахунки з перевагами складних відсотків.",
+     "ru": "Многие банки предлагают счета с преимуществами сложных процентов.",
+     "pl": "Wiele banków oferuje konta z korzyściami procentu składanego.",
+     "de": "Viele Banken bieten Konten mit den Vorteilen von Zinseszinsen an.",
+     "fr": "De nombreuses banques proposent des comptes avec des avantages d'intérêts composés.",
+     "es": "Muchos bancos ofrecen cuentas con beneficios de interés compuesto.",
+     "it": "Molti banche offrono conti con vantaggi di interesse composto.",
+     "pt": "Muitos bancos oferecem contas com benefícios de juros compostos.",
+     "tr": "Birçok banka, bileşik faiz avantajları sunan hesaplar sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.down-payment",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/daʊn ˈpeɪmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need a down payment to secure the loan.",
+     "uk": "Вам потрібен перший внесок, щоб забезпечити кредит.",
+     "ru": "Вам нужен первоначальный взнос, чтобы обеспечить кредит.",
+     "pl": "Potrzebujesz wkładu własnego, aby zabezpieczyć pożyczkę.",
+     "de": "Sie benötigen eine Anzahlung, um das Darlehen zu sichern.",
+     "fr": "Vous avez besoin d'un apport initial pour garantir le prêt.",
+     "es": "Necesitas una entrada para asegurar el préstamo.",
+     "it": "Hai bisogno di un acconto per garantire il prestito.",
+     "pt": "Você precisa de uma entrada para garantir o empréstimo.",
+     "tr": "Krediyi güvence altına almak için peşinat gerekli."
+    },
+    {
+     "en": "The down payment is usually a percentage of the total price.",
+     "uk": "Перший внесок зазвичай становить відсоток від загальної ціни.",
+     "ru": "Первоначальный взнос обычно составляет процент от общей цены.",
+     "pl": "Wkład własny zazwyczaj wynosi procent od całkowitej ceny.",
+     "de": "Die Anzahlung beträgt in der Regel einen Prozentsatz des Gesamtpreises.",
+     "fr": "L'apport initial est généralement un pourcentage du prix total.",
+     "es": "La entrada suele ser un porcentaje del precio total.",
+     "it": "L'acconto è solitamente una percentuale del prezzo totale.",
+     "pt": "A entrada é geralmente uma porcentagem do preço total.",
+     "tr": "Peşinat genellikle toplam fiyatın bir yüzdesidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.collateral",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/kəˈlætɚəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must provide collateral to secure the loan.",
+     "uk": "Ви повинні надати заставу, щоб забезпечити кредит.",
+     "ru": "Вы должны предоставить залог, чтобы обеспечить кредит.",
+     "pl": "Musisz dostarczyć zabezpieczenie, aby zabezpieczyć pożyczkę.",
+     "de": "Sie müssen eine Sicherheit bereitstellen, um das Darlehen abzusichern.",
+     "fr": "Vous devez fournir une garantie pour garantir le prêt.",
+     "es": "Debes proporcionar una garantía para asegurar el préstamo.",
+     "it": "Devi fornire una garanzia per garantire il prestito.",
+     "pt": "Você deve fornecer uma garantia para garantir o empréstimo.",
+     "tr": "Krediyi güvence altına almak için teminat sağlamalısınız."
+    },
+    {
+     "en": "Collateral can be in the form of property or assets.",
+     "uk": "Застава може бути у формі нерухомості або активів.",
+     "ru": "Залог может быть в форме недвижимости или активов.",
+     "pl": "Zabezpieczenie może mieć formę nieruchomości lub aktywów.",
+     "de": "Die Sicherheit kann in Form von Eigentum oder Vermögenswerten erfolgen.",
+     "fr": "La garantie peut être sous forme de biens ou d'actifs.",
+     "es": "La garantía puede ser en forma de bienes o activos.",
+     "it": "La garanzia può essere sotto forma di proprietà o attivi.",
+     "pt": "A garantia pode ser na forma de propriedade ou ativos.",
+     "tr": "Teminat, mülk veya varlık şeklinde olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.guarantor",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˌɡɛrənˈtɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A guarantor is often required for large loans.",
+     "uk": "Поручитель часто потрібен для великих кредитів.",
+     "ru": "Поручитель часто требуется для крупных кредитов.",
+     "pl": "Poręczyciel jest często wymagany do dużych pożyczek.",
+     "de": "Ein Bürge ist oft für große Darlehen erforderlich.",
+     "fr": "Un garant est souvent requis pour les gros prêts.",
+     "es": "Se requiere un avalista para préstamos grandes.",
+     "it": "Un garante è spesso richiesto per prestiti elevati.",
+     "pt": "Um fiador é frequentemente necessário para grandes empréstimos.",
+     "tr": "Büyük krediler için genellikle bir kefil gereklidir."
+    },
+    {
+     "en": "The guarantor agrees to cover the debt if necessary.",
+     "uk": "Поручитель погоджується покрити борг у разі необхідності.",
+     "ru": "Поручитель соглашается покрыть долг в случае необходимости.",
+     "pl": "Poręczyciel zgadza się pokryć dług w razie potrzeby.",
+     "de": "Der Bürge erklärt sich bereit, die Schulden im Bedarfsfall zu übernehmen.",
+     "fr": "Le garant accepte de couvrir la dette si nécessaire.",
+     "es": "El avalista acepta cubrir la deuda si es necesario.",
+     "it": "Il garante accetta di coprire il debito se necessario.",
+     "pt": "O fiador concorda em cobrir a dívida, se necessário.",
+     "tr": "Kefil, gerektiğinde borcu ödemeyi kabul eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-go-bankrupt",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ˈbæŋkrəpt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many businesses had to go bankrupt during the crisis.",
+     "uk": "Багато бізнесів змушені були збанкрутувати під час кризи.",
+     "ru": "Многие компании были вынуждены обанкротиться во время кризиса.",
+     "pl": "Wiele firm musiało zbankrutować podczas kryzysu.",
+     "de": "Viele Unternehmen mussten während der Krise pleitegehen.",
+     "fr": "De nombreuses entreprises ont dû faire faillite pendant la crise.",
+     "es": "Muchas empresas tuvieron que quebrar durante la crisis.",
+     "it": "Molte aziende hanno dovuto fallire durante la crisi.",
+     "pt": "Muitas empresas tiveram que falir durante a crise.",
+     "tr": "Birçok işletme kriz sırasında iflas etmek zorunda kaldı."
+    },
+    {
+     "en": "It’s difficult to recover after going bankrupt.",
+     "uk": "Після банкрутства важко відновитися.",
+     "ru": "Восстановиться после банкротства трудно.",
+     "pl": "Trudno się odbudować po zbankrutowaniu.",
+     "de": "Es ist schwierig, sich nach dem Pleitegehen zu erholen.",
+     "fr": "Il est difficile de se remettre après avoir fait faillite.",
+     "es": "Es difícil recuperarse después de quebrar.",
+     "it": "È difficile riprendersi dopo essere falliti.",
+     "pt": "É difícil se recuperar após falir.",
+     "tr": "İflas ettikten sonra toparlanmak zordur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.credit-score",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈkrɛdət skɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A good credit score helps you get better loans.",
+     "uk": "Добрий кредитний рейтинг допомагає отримати кращі кредити.",
+     "ru": "Хороший кредитный рейтинг помогает получить лучшие займы.",
+     "pl": "Dobra zdolność kredytowa pomaga uzyskać lepsze pożyczki.",
+     "de": "Eine gute Bonität hilft Ihnen, bessere Kredite zu erhalten.",
+     "fr": "Un bon score de crédit vous aide à obtenir de meilleurs prêts.",
+     "es": "Un buen historial crediticio te ayuda a obtener mejores préstamos.",
+     "it": "Un buon punteggio di credito ti aiuta a ottenere prestiti migliori.",
+     "pt": "Um bom score de crédito ajuda você a conseguir melhores empréstimos.",
+     "tr": "İyi bir kredi notu, daha iyi krediler almanıza yardımcı olur."
+    },
+    {
+     "en": "Check your credit score regularly for any changes.",
+     "uk": "Регулярно перевіряйте свій кредитний рейтинг на наявність змін.",
+     "ru": "Регулярно проверяйте свой кредитный рейтинг на изменения.",
+     "pl": "Regularnie sprawdzaj swoją zdolność kredytową pod kątem zmian.",
+     "de": "Überprüfen Sie regelmäßig Ihre Bonität auf Änderungen.",
+     "fr": "Vérifiez régulièrement votre cote de crédit pour tout changement.",
+     "es": "Revisa tu historial crediticio regularmente para cualquier cambio.",
+     "it": "Controlla regolarmente la tua affidabilità creditizia per eventuali cambiamenti.",
+     "pt": "Verifique seu score de crédito regularmente para qualquer alteração.",
+     "tr": "Kredi notunuzu düzenli olarak değişiklikler için kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.financial-advisor",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/fəˈnænʃəl ædˈvaɪzɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A financial advisor can help you plan your investments.",
+     "uk": "Фінансовий консультант може допомогти вам спланувати інвестиції.",
+     "ru": "Финансовый консультант может помочь вам спланировать ваши инвестиции.",
+     "pl": "Doradca finansowy może pomóc w zaplanowaniu inwestycji.",
+     "de": "Ein Finanzberater kann Ihnen helfen, Ihre Investitionen zu planen.",
+     "fr": "Un conseiller financier peut vous aider à planifier vos investissements.",
+     "es": "Un asesor financiero puede ayudarte a planificar tus inversiones.",
+     "it": "Un consulente finanziario può aiutarti a pianificare i tuoi investimenti.",
+     "pt": "Um consultor financeiro pode ajudá-lo a planejar seus investimentos.",
+     "tr": "Bir finansal danışman, yatırımlarınızı planlamanıza yardımcı olabilir."
+    },
+    {
+     "en": "Consult a financial advisor for retirement planning.",
+     "uk": "Консультуйтеся з фінансовим консультантом щодо планування виходу на пенсію.",
+     "ru": "Консультируйтесь с финансовым консультантом по вопросам пенсионного планирования.",
+     "pl": "Skonsultuj się z doradcą finansowym w sprawie planowania emerytury.",
+     "de": "Konsultieren Sie einen Finanzberater für die Altersvorsorge.",
+     "fr": "Consultez un conseiller financier pour la planification de votre retraite.",
+     "es": "Consulta a un asesor financiero para la planificación de la jubilación.",
+     "it": "Consulta un consulente finanziario per la pianificazione della pensione.",
+     "pt": "Consulte um consultor financeiro para o planejamento da aposentadoria.",
+     "tr": "Emeklilik planlaması için bir finansal danışmanla görüşün."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.assets",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ˈæˌsɛts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investors should diversify their assets for better security.",
+     "uk": "Інвестори повинні диверсифікувати свої активи для кращої безпеки.",
+     "ru": "Инвесторы должны диверсифицировать свои активы для лучшей безопасности.",
+     "pl": "Inwestorzy powinni dywersyfikować swoje aktywa dla lepszej ochrony.",
+     "de": "Investoren sollten ihre Vermögenswerte zur besseren Sicherheit diversifizieren.",
+     "fr": "Les investisseurs devraient diversifier leurs actifs pour une meilleure sécurité.",
+     "es": "Los inversores deberían diversificar sus activos para una mejor seguridad.",
+     "it": "Gli investitori dovrebbero diversificare le proprie attività per una maggiore sicurezza.",
+     "pt": "Os investidores devem diversificar seus ativos para melhor segurança.",
+     "tr": "Yatırımcılar, daha iyi güvenlik için varlıklarını çeşitlendirmelidir."
+    },
+    {
+     "en": "The company's assets include real estate and equipment.",
+     "uk": "Активи компанії включають нерухомість та обладнання.",
+     "ru": "Активы компании включают недвижимость и оборудование.",
+     "pl": "Aktywa firmy obejmują nieruchomości i sprzęt.",
+     "de": "Die Vermögenswerte des Unternehmens umfassen Immobilien und Ausrüstung.",
+     "fr": "Les actifs de l'entreprise comprennent des biens immobiliers et de l'équipement.",
+     "es": "Los activos de la empresa incluyen bienes raíces y equipos.",
+     "it": "Gli attivi dell'azienda includono immobili e attrezzature.",
+     "pt": "Os ativos da empresa incluem imóveis e equipamentos.",
+     "tr": "Şirketin varlıkları gayrimenkul ve ekipmanları içerir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.liabilities",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/ˌlaɪəˈbɪlətiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company has high liabilities this quarter.",
+     "uk": "Компанія має високі зобов'язання цього кварталу.",
+     "ru": "У компании высокие обязательства в этом квартале.",
+     "pl": "Firma ma wysokie zobowiązania w tym kwartale.",
+     "de": "Das Unternehmen hat in diesem Quartal hohe Verbindlichkeiten.",
+     "fr": "L'entreprise a des passifs élevés ce trimestre.",
+     "es": "La empresa tiene altos pasivos este trimestre.",
+     "it": "L'azienda ha passività elevate questo trimestre.",
+     "pt": "A empresa tem altas obrigações neste trimestre.",
+     "tr": "Şirketin bu çeyrekte yüksek yükümlülükleri var."
+    },
+    {
+     "en": "Liabilities can affect a company's credit rating.",
+     "uk": "Зобов'язання можуть вплинути на кредитний рейтинг компанії.",
+     "ru": "Обязательства могут повлиять на кредитный рейтинг компании.",
+     "pl": "Zobowiązania mogą wpłynąć na rating kredytowy firmy.",
+     "de": "Verbindlichkeiten können die Kreditwürdigkeit eines Unternehmens beeinflussen.",
+     "fr": "Les passifs peuvent affecter la cote de crédit d'une entreprise.",
+     "es": "Los pasivos pueden afectar la calificación crediticia de una empresa.",
+     "it": "Le passività possono influenzare il rating creditizio di un'azienda.",
+     "pt": "As obrigações podem afetar a classificação de crédito de uma empresa.",
+     "tr": "Yükümlülükler, bir şirketin kredi notunu etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.emergency-fund",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ɪˈmɝdʒənsi fʌnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Having an emergency fund is essential for financial security.",
+     "uk": "Мати фінансову подушку є важливим для фінансової безпеки.",
+     "ru": "Наличие финансовой подушки необходимо для финансовой безопасности.",
+     "pl": "Posiadanie poduszki finansowej jest niezbędne dla bezpieczeństwa finansowego.",
+     "de": "Einen Notgroschen zu haben, ist entscheidend für die finanzielle Sicherheit.",
+     "fr": "Avoir un fonds d'urgence est essentiel pour la sécurité financière.",
+     "es": "Tener un fondo de emergencia es esencial para la seguridad financiera.",
+     "it": "Avere un fondo di emergenza è essenziale per la sicurezza finanziaria.",
+     "pt": "Ter uma reserva de emergência é essencial para a segurança financeira.",
+     "tr": "Acil durum fonuna sahip olmak, finansal güvenlik için gereklidir."
+    },
+    {
+     "en": "I saved money for my emergency fund last year.",
+     "uk": "Я заощадив гроші на фінансову подушку минулого року.",
+     "ru": "Я сэкономил деньги на финансовую подушку в прошлом году.",
+     "pl": "Oszczędzałem pieniądze na poduszkę finansową w zeszłym roku.",
+     "de": "Ich habe letztes Jahr Geld für meinen Notgroschen gespart.",
+     "fr": "J'ai économisé de l'argent pour mon fonds d'urgence l'année dernière.",
+     "es": "Ahorré dinero para mi fondo de emergencia el año pasado.",
+     "it": "Ho risparmiato soldi per il mio fondo di emergenza l'anno scorso.",
+     "pt": "Economizei dinheiro para minha reserva de emergência no ano passado.",
+     "tr": "Geçen yıl acil durum fonum için para biriktirdim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-diversify",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/daɪˈvɝsəˌfaɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investors should diversify their portfolios to reduce risk.",
+     "uk": "Інвестори повинні диверсифікувати свої портфелі для зменшення ризику.",
+     "ru": "Инвесторы должны диверсифицировать свои портфели, чтобы снизить риск.",
+     "pl": "Inwestorzy powinni dywersyfikować swoje portfele, aby zmniejszyć ryzyko.",
+     "de": "Investoren sollten ihre Portfolios diversifizieren, um das Risiko zu verringern.",
+     "fr": "Les investisseurs doivent diversifier leurs portefeuilles pour réduire le risque.",
+     "es": "Los inversores deben diversificar sus carteras para reducir el riesgo.",
+     "it": "Gli investitori dovrebbero diversificare i propri portafogli per ridurre il rischio.",
+     "pt": "Os investidores devem diversificar seus portfólios para reduzir o risco.",
+     "tr": "Yatırımcılar risk azaltmak için portföylerini çeşitlendirmelidir."
+    },
+    {
+     "en": "It's wise to diversify your investments over time.",
+     "uk": "Розумно диверсифікувати свої інвестиції з часом.",
+     "ru": "Разумно диверсифицировать свои инвестиции со временем.",
+     "pl": "Rozsądnie jest dywersyfikować swoje inwestycje z czasem.",
+     "de": "Es ist klug, seine Investitionen im Laufe der Zeit zu diversifizieren.",
+     "fr": "Il est sage de diversifier vos investissements au fil du temps.",
+     "es": "Es prudente diversificar tus inversiones con el tiempo.",
+     "it": "È saggio diversificare i propri investimenti nel tempo.",
+     "pt": "É sábio diversificar seus investimentos ao longo do tempo.",
+     "tr": "Zamanla yatırımlarınızı çeşitlendirmek akıllıca."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-default-on-a-loan",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/dɪˈfɔlt ɑn ə loʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He had to default on a loan due to job loss.",
+     "uk": "Він змушений був не виплатити кредит через втрату роботи.",
+     "ru": "Он был вынужден не выплатить кредит из-за потери работы.",
+     "pl": "Musiał nie spłacić kredytu z powodu utraty pracy.",
+     "de": "Er musste einen Kredit aufgrund von Arbeitsplatzverlust nicht bedienen.",
+     "fr": "Il a dû ne pas rembourser un prêt en raison de la perte d'emploi.",
+     "es": "Tuvo que incumplir un préstamo debido a la pérdida de trabajo.",
+     "it": "Ha dovuto non rimborsare un prestito a causa della perdita del lavoro.",
+     "pt": "Ele teve que dar calote no empréstimo devido à perda do emprego.",
+     "tr": "İş kaybı nedeniyle krediyi ödeyememek zorunda kaldı."
+    },
+    {
+     "en": "Defaulting on a loan can harm your credit score.",
+     "uk": "Не виплата кредиту може зашкодити вашому кредитному рейтингу.",
+     "ru": "Не выплата кредита может повредить вашему кредитному рейтингу.",
+     "pl": "Nie spłacenie kredytu może zaszkodzić twojemu ratingowi kredytowemu.",
+     "de": "Ein Kredit nicht zu bedienen, kann Ihre Kreditwürdigkeit schädigen.",
+     "fr": "Ne pas rembourser un prêt peut nuire à votre cote de crédit.",
+     "es": "Incumplir un préstamo puede dañar tu calificación crediticia.",
+     "it": "Non rimborsare un prestito può danneggiare il tuo punteggio di credito.",
+     "pt": "Dar calote no empréstimo pode prejudicar sua pontuação de crédito.",
+     "tr": "Krediyi ödeyememek, kredi notunuza zarar verebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.net-worth",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/nɛt wɝθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Her net worth increased significantly last year.",
+     "uk": "Її чисті статки значно зросли минулого року.",
+     "ru": "Ее чистый капитал значительно увеличился в прошлом году.",
+     "pl": "Jej majątek netto znacznie wzrósł w zeszłym roku.",
+     "de": "Ihr Nettovermögen ist im letzten Jahr erheblich gestiegen.",
+     "fr": "Son patrimoine net a considérablement augmenté l'année dernière.",
+     "es": "Su patrimonio neto aumentó significativamente el año pasado.",
+     "it": "Il suo patrimonio netto è aumentato significativamente lo scorso anno.",
+     "pt": "Seu patrimônio líquido aumentou significativamente no ano passado.",
+     "tr": "Geçen yıl net serveti önemli ölçüde arttı."
+    },
+    {
+     "en": "Calculating your net worth helps in financial planning.",
+     "uk": "Обчислення ваших чистих статків допомагає у фінансовому плануванні.",
+     "ru": "Расчет вашего чистого капитала помогает в финансовом планировании.",
+     "pl": "Obliczenie twojego majątku netto pomaga w planowaniu finansowym.",
+     "de": "Die Berechnung Ihres Nettovermögens hilft bei der Finanzplanung.",
+     "fr": "Calculer votre patrimoine net aide à la planification financière.",
+     "es": "Calcular tu patrimonio neto ayuda en la planificación financiera.",
+     "it": "Calcolare il tuo patrimonio netto aiuta nella pianificazione finanziaria.",
+     "pt": "Calcular seu patrimônio líquido ajuda no planejamento financeiro.",
+     "tr": "Net servetinizi hesaplamak, finansal planlamada yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cryptocurrency",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈkrɪptoʊˌkɝənsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cryptocurrency is becoming more popular among investors.",
+     "uk": "Криптовалюта стає все популярнішою серед інвесторів.",
+     "ru": "Криптовалюта становится все более популярной среди инвесторов.",
+     "pl": "Kryptowaluta staje się coraz bardziej popularna wśród inwestorów.",
+     "de": "Kryptowährung wird bei Investoren immer beliebter.",
+     "fr": "La cryptomonnaie devient de plus en plus populaire parmi les investisseurs.",
+     "es": "La criptomoneda se está volviendo más popular entre los inversores.",
+     "it": "La criptovaluta sta diventando sempre più popolare tra gli investitori.",
+     "pt": "A criptomoeda está se tornando mais popular entre os investidores.",
+     "tr": "Kripto para, yatırımcılar arasında giderek daha popüler hale geliyor."
+    },
+    {
+     "en": "Many people are investing in cryptocurrency these days.",
+     "uk": "Багато людей інвестують у криптовалюту в ці дні.",
+     "ru": "Многие люди инвестируют в криптовалюту в наши дни.",
+     "pl": "Wiele osób inwestuje w kryptowalutę w dzisiejszych czasach.",
+     "de": "Viele Menschen investieren heutzutage in Kryptowährung.",
+     "fr": "Beaucoup de gens investissent dans la cryptomonnaie ces jours-ci.",
+     "es": "Muchas personas están invirtiendo en criptomonedas en estos días.",
+     "it": "Molte persone stanno investendo in criptovalute in questi giorni.",
+     "pt": "Muitas pessoas estão investindo em criptomoedas hoje em dia.",
+     "tr": "Birçok insan son zamanlarda kripto paralara yatırım yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.retirement-plan",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/riˈtaɪɚmənt plæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It's important to start a retirement plan early.",
+     "uk": "Важливо почати пенсійний план рано.",
+     "ru": "Важно начать пенсионный план рано.",
+     "pl": "Ważne jest, aby wcześnie rozpocząć plan emerytalny.",
+     "de": "Es ist wichtig, früh mit der Altersvorsorge zu beginnen.",
+     "fr": "Il est important de commencer un plan de retraite tôt.",
+     "es": "Es importante comenzar un plan de pensiones temprano.",
+     "it": "È importante iniziare un piano pensionistico presto.",
+     "pt": "É importante começar um plano de previdência cedo.",
+     "tr": "Emeklilik planına erken başlamak önemlidir."
+    },
+    {
+     "en": "She reviewed her retirement plan with a financial advisor.",
+     "uk": "Вона переглянула свій пенсійний план з фінансовим консультантом.",
+     "ru": "Она пересмотрела свой пенсионный план с финансовым консультантом.",
+     "pl": "Ona przeglądała swój plan emerytalny z doradcą finansowym.",
+     "de": "Sie hat ihren Altersvorsorgeplan mit einem Finanzberater überprüft.",
+     "fr": "Elle a examiné son plan de retraite avec un conseiller financier.",
+     "es": "Ella revisó su plan de pensiones con un asesor financiero.",
+     "it": "Ha esaminato il suo piano pensionistico con un consulente finanziario.",
+     "pt": "Ela revisou seu plano de previdência com um consultor financeiro.",
+     "tr": "Emeklilik planını bir finans danışmanıyla gözden geçirdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.payslip",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪˌslɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I received my payslip in the mail today.",
+     "uk": "Сьогодні я отримав свій розрахунковий лист поштою.",
+     "ru": "Сегодня я получил свой расчетный лист по почте.",
+     "pl": "Dziś otrzymałem mój pasek wypłaty pocztą.",
+     "de": "Ich habe heute meine Gehaltsabrechnung per Post erhalten.",
+     "fr": "J'ai reçu ma fiche de paie par la poste aujourd'hui.",
+     "es": "Recibí mi nómina por correo hoy.",
+     "it": "Ho ricevuto la mia busta paga per posta oggi.",
+     "pt": "Recebi meu holerite pelo correio hoje.",
+     "tr": "Bugün maaş bordromu posta ile aldım."
+    },
+    {
+     "en": "Make sure to check your payslip for errors.",
+     "uk": "Переконайтеся, що перевірили свій розрахунковий лист на помилки.",
+     "ru": "Убедитесь, что проверили свой расчетный лист на ошибки.",
+     "pl": "Upewnij się, że sprawdziłeś swój pasek wypłaty pod kątem błędów.",
+     "de": "Stellen Sie sicher, dass Sie Ihre Gehaltsabrechnung auf Fehler überprüfen.",
+     "fr": "Assurez-vous de vérifier votre fiche de paie pour des erreurs.",
+     "es": "Asegúrate de revisar tu nómina en busca de errores.",
+     "it": "Assicurati di controllare la tua busta paga per errori.",
+     "pt": "Certifique-se de verificar seu holerite em busca de erros.",
+     "tr": "Hatalar için maaş bordronuzu kontrol ettiğinizden emin olun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.exchange-rate-fluctuations",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ɪksˈtʃeɪndʒ reɪt ˌflʌktʃuˈeɪʃənz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Exchange rate fluctuations can impact international trade.",
+     "uk": "Коливання курсу можуть вплинути на міжнародну торгівлю.",
+     "ru": "Колебания курса могут повлиять на международную торговлю.",
+     "pl": "Wahania kursu mogą wpłynąć na handel międzynarodowy.",
+     "de": "Wechselkursschwankungen können den internationalen Handel beeinflussen.",
+     "fr": "Les fluctuations du taux de change peuvent affecter le commerce international.",
+     "es": "Las fluctuaciones del tipo de cambio pueden afectar el comercio internacional.",
+     "it": "Le oscillazioni del cambio possono influenzare il commercio internazionale.",
+     "pt": "As oscilações do câmbio podem impactar o comércio internacional.",
+     "tr": "Kur dalgalanmaları uluslararası ticareti etkileyebilir."
+    },
+    {
+     "en": "Businesses must prepare for exchange rate fluctuations.",
+     "uk": "Підприємства повинні підготуватися до коливань курсу.",
+     "ru": "Бизнес должен подготовиться к колебаниям курса.",
+     "pl": "Firmy muszą przygotować się na wahania kursu.",
+     "de": "Unternehmen müssen sich auf Wechselkursschwankungen vorbereiten.",
+     "fr": "Les entreprises doivent se préparer aux fluctuations du taux de change.",
+     "es": "Las empresas deben prepararse para las fluctuaciones del tipo de cambio.",
+     "it": "Le aziende devono prepararsi alle oscillazioni del cambio.",
+     "pt": "As empresas devem se preparar para as oscilações do câmbio.",
+     "tr": "İşletmeler, kur dalgalanmalarına hazırlıklı olmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.counterfeit-money",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈkaʊntɚˌfɪt ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful not to accept counterfeit money.",
+     "uk": "Будьте обережні, щоб не прийняти фальшиві гроші.",
+     "ru": "Будьте осторожны, чтобы не принять фальшивые деньги.",
+     "pl": "Uważaj, aby nie przyjąć fałszywych pieniędzy.",
+     "de": "Seien Sie vorsichtig, um kein Falschgeld zu akzeptieren.",
+     "fr": "Faites attention à ne pas accepter de fausse monnaie.",
+     "es": "Ten cuidado de no aceptar dinero falso.",
+     "it": "Fai attenzione a non accettare denaro falso.",
+     "pt": "Tenha cuidado para não aceitar dinheiro falso.",
+     "tr": "Sahte para kabul etmemeye dikkat edin."
+    },
+    {
+     "en": "Counterfeit money can lead to serious legal issues.",
+     "uk": "Фальшиві гроші можуть призвести до серйозних юридичних проблем.",
+     "ru": "Фальшивые деньги могут привести к серьезным юридическим проблемам.",
+     "pl": "Fałszywe pieniądze mogą prowadzić do poważnych problemów prawnych.",
+     "de": "Falschgeld kann zu ernsthaften rechtlichen Problemen führen.",
+     "fr": "La fausse monnaie peut entraîner de graves problèmes juridiques.",
+     "es": "El dinero falso puede llevar a serios problemas legales.",
+     "it": "Il denaro falso può portare a gravi problemi legali.",
+     "pt": "Dinheiro falso pode levar a sérios problemas legais.",
+     "tr": "Sahte para ciddi yasal sorunlara yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.crowdfunding",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈkraʊdˌfʌndɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many startups rely on crowdfunding to launch their products.",
+     "uk": "Багато стартапів покладаються на краудфандинг для запуску продуктів.",
+     "ru": "Многие стартапы полагаются на краудфандинг для запуска своих продуктов.",
+     "pl": "Wiele startupów polega na crowdfunding, aby uruchomić swoje produkty.",
+     "de": "Viele Startups sind auf Crowdfunding angewiesen, um ihre Produkte zu starten.",
+     "fr": "De nombreuses startups comptent sur le financement participatif pour lancer leurs produits.",
+     "es": "Muchas startups dependen del micromecenazgo para lanzar sus productos.",
+     "it": "Molti startup si affidano al crowdfunding per lanciare i loro prodotti.",
+     "pt": "Muitas startups dependem do financiamento coletivo para lançar seus produtos.",
+     "tr": "Birçok girişim, ürünlerini piyasaya sürmek için kitlesel fonlamaya güveniyor."
+    },
+    {
+     "en": "Crowdfunding platforms help connect creators with potential investors.",
+     "uk": "Платформи краудфандингу допомагають зв'язати творців з потенційними інвесторами.",
+     "ru": "Платформы краудфандинга помогают соединять создателей с потенциальными инвесторами.",
+     "pl": "Platformy crowdfundingowe pomagają łączyć twórców z potencjalnymi inwestorami.",
+     "de": "Crowdfunding-Plattformen helfen, Kreative mit potenziellen Investoren zu verbinden.",
+     "fr": "Les plateformes de financement participatif aident à connecter les créateurs avec des investisseurs potentiels.",
+     "es": "Las plataformas de micromecenazgo ayudan a conectar a los creadores con inversores potenciales.",
+     "it": "Le piattaforme di crowdfunding aiutano a connettere i creatori con potenziali investitori.",
+     "pt": "As plataformas de financiamento coletivo ajudam a conectar criadores com investidores potenciais.",
+     "tr": "Kitlesel fonlama platformları, yaratıcıları potansiyel yatırımcılarla bir araya getirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.recession",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/rɪˈsɛʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The economy is facing a recession due to high inflation.",
+     "uk": "Економіка стикається з рецесією через високу інфляцію.",
+     "ru": "Экономика сталкивается с рецессией из-за высокой инфляции.",
+     "pl": "Gospodarka zmaga się z recesją z powodu wysokiej inflacji.",
+     "de": "Die Wirtschaft steht wegen der hohen Inflation vor einer Rezession.",
+     "fr": "L'économie fait face à une récession en raison de l'inflation élevée.",
+     "es": "La economía enfrenta una recesión debido a la alta inflación.",
+     "it": "L'economia sta affrontando una recessione a causa dell'alta inflazione.",
+     "pt": "A economia enfrenta uma recessão devido à alta inflação.",
+     "tr": "Ekonomi, yüksek enflasyon nedeniyle bir durgunlukla karşı karşıya."
+    },
+    {
+     "en": "Job losses increased during the recent recession period.",
+     "uk": "Втрата робочих місць зросла під час останньої рецесії.",
+     "ru": "Потери рабочих мест увеличились в период недавней рецессии.",
+     "pl": "Utrata miejsc pracy wzrosła w czasie ostatniej recesji.",
+     "de": "Die Arbeitsplatzverluste stiegen während der letzten Rezessionsperiode.",
+     "fr": "Les pertes d'emplois ont augmenté pendant la récente période de récession.",
+     "es": "Las pérdidas de empleo aumentaron durante el reciente período de recesión.",
+     "it": "Le perdite di posti di lavoro sono aumentate durante il recente periodo di recessione.",
+     "pt": "As perdas de empregos aumentaram durante o recente período de recessão.",
+     "tr": "İş kayıpları, son durgunluk döneminde arttı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.deflation",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/dɪˈfleɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Deflation can lead to decreased consumer spending and investment.",
+     "uk": "Дефляція може призвести до зменшення споживчих витрат та інвестицій.",
+     "ru": "Дефляция может привести к снижению потребительских расходов и инвестиций.",
+     "pl": "Deflacja może prowadzić do zmniejszenia wydatków konsumpcyjnych i inwestycji.",
+     "de": "Deflation kann zu einem Rückgang der Konsumausgaben und Investitionen führen.",
+     "fr": "La déflation peut entraîner une diminution des dépenses de consommation et des investissements.",
+     "es": "La deflación puede llevar a una disminución del gasto y la inversión.",
+     "it": "La deflazione può portare a una diminuzione della spesa dei consumatori e degli investimenti.",
+     "pt": "A deflação pode levar a uma diminuição dos gastos e dos investimentos.",
+     "tr": "Deflasyon, tüketici harcamaları ve yatırımların azalmasına yol açabilir."
+    },
+    {
+     "en": "During deflation, prices of goods and services fall significantly.",
+     "uk": "Під час дефляції ціни на товари та послуги значно знижуються.",
+     "ru": "Во время дефляции цены на товары и услуги значительно падают.",
+     "pl": "Podczas deflacji ceny towarów i usług znacznie spadają.",
+     "de": "Während der Deflation fallen die Preise für Waren und Dienstleistungen erheblich.",
+     "fr": "Pendant la déflation, les prix des biens et services chutent considérablement.",
+     "es": "Durante la deflación, los precios de bienes y servicios caen significativamente.",
+     "it": "Durante la deflazione, i prezzi di beni e servizi scendono significativamente.",
+     "pt": "Durante a deflação, os preços de bens e serviços caem significativamente.",
+     "tr": "Deflasyon sırasında, mal ve hizmetlerin fiyatları önemli ölçüde düşer."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.fixed-rate",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/fɪkst reɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer a fixed rate for my mortgage.",
+     "uk": "Я віддаю перевагу фіксованій ставці по іпотеці.",
+     "ru": "Я предпочитаю фиксированную ставку по ипотеке.",
+     "pl": "Wolę stałą stopę procentową dla mojego kredytu.",
+     "de": "Ich bevorzuge einen Festzins für mein Hypothekendarlehen.",
+     "fr": "Je préfère un taux fixe pour mon prêt hypothécaire.",
+     "es": "Prefiero un tipo fijo para mi hipoteca.",
+     "it": "Preferisco un tasso fisso per il mio mutuo.",
+     "pt": "Prefiro uma taxa fixa para o meu empréstimo.",
+     "tr": "Konut kredim için sabit faiz tercih ediyorum."
+    },
+    {
+     "en": "A fixed rate offers stability in payments.",
+     "uk": "Фіксована ставка забезпечує стабільність у платежах.",
+     "ru": "Фиксированная ставка обеспечивает стабильность платежей.",
+     "pl": "Stała stopa zapewnia stabilność w płatnościach.",
+     "de": "Ein Festzins bietet Stabilität bei den Zahlungen.",
+     "fr": "Un taux fixe offre de la stabilité dans les paiements.",
+     "es": "Un tipo fijo ofrece estabilidad en los pagos.",
+     "it": "Un tasso fisso offre stabilità nei pagamenti.",
+     "pt": "Uma taxa fixa oferece estabilidade nos pagamentos.",
+     "tr": "Sabit faiz, ödemelerde istikrar sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.variable-rate",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈvɛriəbəl reɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A variable rate can change over time.",
+     "uk": "Змінна ставка може змінюватися з часом.",
+     "ru": "Плавающая ставка может изменяться со временем.",
+     "pl": "Zmienna stopa może się zmieniać w czasie.",
+     "de": "Ein variabler Zins kann sich im Laufe der Zeit ändern.",
+     "fr": "Un taux variable peut changer avec le temps.",
+     "es": "Un tipo variable puede cambiar con el tiempo.",
+     "it": "Un tasso variabile può cambiare nel tempo.",
+     "pt": "Uma taxa variável pode mudar ao longo do tempo.",
+     "tr": "Değişken faiz zamanla değişebilir."
+    },
+    {
+     "en": "She chose a variable rate for her loan.",
+     "uk": "Вона обрала змінну ставку для свого кредиту.",
+     "ru": "Она выбрала плавающую ставку для своего кредита.",
+     "pl": "Wybrała zmienną stopę dla swojego kredytu.",
+     "de": "Sie wählte einen variablen Zins für ihr Darlehen.",
+     "fr": "Elle a choisi un taux variable pour son prêt.",
+     "es": "Ella eligió un tipo variable para su préstamo.",
+     "it": "Ha scelto un tasso variabile per il suo prestito.",
+     "pt": "Ela escolheu uma taxa variável para seu empréstimo.",
+     "tr": "Kredisi için değişken faiz seçti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.credit-history",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˈkrɛdət ˈhɪstɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Your credit history affects your loan approval.",
+     "uk": "Ваша кредитна історія впливає на затвердження кредиту.",
+     "ru": "Ваша кредитная история влияет на одобрение кредита.",
+     "pl": "Twoja historia kredytowa wpływa na zatwierdzenie kredytu.",
+     "de": "Ihre Kredithistorie beeinflusst die Genehmigung Ihres Darlehens.",
+     "fr": "Votre historique de crédit affecte l'approbation de votre prêt.",
+     "es": "Tu historial crediticio afecta la aprobación de tu préstamo.",
+     "it": "La tua storia creditizia influisce sull'approvazione del prestito.",
+     "pt": "Seu histórico de crédito afeta a aprovação do seu empréstimo.",
+     "tr": "Kredi geçmişiniz, kredi onayınızı etkiler."
+    },
+    {
+     "en": "Check your credit history before applying for a mortgage.",
+     "uk": "Перевірте свою кредитну історію перед подачею на іпотеку.",
+     "ru": "Проверьте свою кредитную историю перед подачей на ипотеку.",
+     "pl": "Sprawdź swoją historię kredytową przed złożeniem wniosku o kredyt.",
+     "de": "Überprüfen Sie Ihre Kredithistorie, bevor Sie einen Hypothekenantrag stellen.",
+     "fr": "Vérifiez votre historique de crédit avant de demander un prêt hypothécaire.",
+     "es": "Verifica tu historial crediticio antes de solicitar una hipoteca.",
+     "it": "Controlla la tua storia creditizia prima di richiedere un mutuo.",
+     "pt": "Verifique seu histórico de crédito antes de solicitar uma hipoteca.",
+     "tr": "Mortgage başvurusunda bulunmadan önce kredi geçmişinizi kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bounced-cheque",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/baʊnst tʃɛk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He received a bounced cheque from the buyer.",
+     "uk": "Він отримав чек без покриття від покупця.",
+     "ru": "Он получил чек без покрытия от покупателя.",
+     "pl": "Otrzymał czek bez pokrycia od kupującego.",
+     "de": "Er erhielt einen geplatzten Scheck vom Käufer.",
+     "fr": "Il a reçu un chèque sans provision de l'acheteur.",
+     "es": "Recibió un cheque sin fondos del comprador.",
+     "it": "Ha ricevuto un assegno scoperto dall'acquirente.",
+     "pt": "Recebeu um cheque sem fundos do comprador.",
+     "tr": "Alıcıdan karşılıksız çek aldı."
+    },
+    {
+     "en": "A bounced cheque can lead to bank fees.",
+     "uk": "Чек без покриття може призвести до банківських зборів.",
+     "ru": "Чек без покрытия может привести к банковским сборам.",
+     "pl": "Czek bez pokrycia może prowadzić do opłat bankowych.",
+     "de": "Ein geplatzter Scheck kann zu Bankgebühren führen.",
+     "fr": "Un chèque sans provision peut entraîner des frais bancaires.",
+     "es": "Un cheque sin fondos puede generar comisiones bancarias.",
+     "it": "Un assegno scoperto può portare a spese bancarie.",
+     "pt": "Um cheque sem fundos pode resultar em taxas bancárias.",
+     "tr": "Karşılıksız çek, banka ücretlerine yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.shareholder",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈʃɛrˌhoʊldɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Every shareholder has a say in company decisions.",
+     "uk": "Кожен акціонер має право голосу в рішеннях компанії.",
+     "ru": "Каждый акционер имеет право голоса в решениях компании.",
+     "pl": "Każdy akcjonariusz ma głos w decyzjach firmy.",
+     "de": "Jeder Aktionär hat ein Mitspracherecht bei Unternehmensentscheidungen.",
+     "fr": "Chaque actionnaire a son mot à dire dans les décisions de l'entreprise.",
+     "es": "Cada accionista tiene voz en las decisiones de la empresa.",
+     "it": "Ogni azionista ha voce in capitolo nelle decisioni aziendali.",
+     "pt": "Cada acionista tem voz nas decisões da empresa.",
+     "tr": "Her hissedar, şirket kararlarında söz sahibidir."
+    },
+    {
+     "en": "Shareholders receive dividends based on their ownership percentage.",
+     "uk": "Акціонери отримують дивіденди на основі відсотка власності.",
+     "ru": "Акционеры получают дивиденды в зависимости от процента владения.",
+     "pl": "Akcjonariusze otrzymują dywidendy w zależności od procentu własności.",
+     "de": "Aktionäre erhalten Dividenden basierend auf ihrem Eigentumsanteil.",
+     "fr": "Les actionnaires reçoivent des dividendes en fonction de leur pourcentage de propriété.",
+     "es": "Los accionistas reciben dividendos según su porcentaje de propiedad.",
+     "it": "Gli azionisti ricevono dividendi in base alla loro percentuale di proprietà.",
+     "pt": "Os acionistas recebem dividendos com base em seu percentual de propriedade.",
+     "tr": "Hissedarlar, sahiplik yüzdesine göre temettü alır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.stockbroker",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˈstɑkˌbroʊkɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A stockbroker helps clients buy and sell shares.",
+     "uk": "Біржовий брокер допомагає клієнтам купувати та продавати акції.",
+     "ru": "Биржевой брокер помогает клиентам покупать и продавать акции.",
+     "pl": "Makler giełdowy pomaga klientom kupować i sprzedawać akcje.",
+     "de": "Ein Börsenmakler hilft Kunden, Aktien zu kaufen und zu verkaufen.",
+     "fr": "Un courtier en bourse aide les clients à acheter et vendre des actions.",
+     "es": "Un corredor de bolsa ayuda a los clientes a comprar y vender acciones.",
+     "it": "Un agente di borsa aiuta i clienti a comprare e vendere azioni.",
+     "pt": "Um corretor da bolsa ajuda os clientes a comprar e vender ações.",
+     "tr": "Bir borsa aracısı, müşterilerin hisse alım satımına yardımcı olur."
+    },
+    {
+     "en": "Many investors rely on a stockbroker for market insights.",
+     "uk": "Багато інвесторів покладаються на біржового брокера для отримання інформації про ринок.",
+     "ru": "Многие инвесторы полагаются на биржевого брокера для получения информации о рынке.",
+     "pl": "Wielu inwestorów polega na maklerze giełdowym, aby uzyskać informacje o rynku.",
+     "de": "Viele Investoren verlassen sich auf einen Börsenmakler für Markteinblicke.",
+     "fr": "De nombreux investisseurs comptent sur un courtier en bourse pour des aperçus du marché.",
+     "es": "Muchos inversores dependen de un corredor de bolsa para obtener información del mercado.",
+     "it": "Molti investitori si affidano a un agente di borsa per avere informazioni di mercato.",
+     "pt": "Muitos investidores confiam em um corretor da bolsa para obter insights de mercado.",
+     "tr": "Birçok yatırımcı, piyasa içgörüleri için bir borsa aracısına güvenir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.lump-sum",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/lʌmp sʌm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He received a lump sum for his retirement.",
+     "uk": "Він отримав одноразову виплату на пенсію.",
+     "ru": "Он получил единовременную выплату на пенсию.",
+     "pl": "Otrzymał jednorazową wypłatę na emeryturę.",
+     "de": "Er erhielt eine Einmalzahlung für seine Rente.",
+     "fr": "Il a reçu une somme forfaitaire pour sa retraite.",
+     "es": "Recibió un pago único por su jubilación.",
+     "it": "Ha ricevuto una somma forfettaria per la sua pensione.",
+     "pt": "Recebeu um pagamento único pela sua aposentadoria.",
+     "tr": "Emekliliği için toplu ödeme aldı."
+    },
+    {
+     "en": "The project was funded by a lump sum payment.",
+     "uk": "Проект був профінансований одноразовою виплатою.",
+     "ru": "Проект был профинансирован единовременной выплатой.",
+     "pl": "Projekt został sfinansowany jednorazową wypłatą.",
+     "de": "Das Projekt wurde durch eine Einmalzahlung finanziert.",
+     "fr": "Le projet a été financé par un paiement forfaitaire.",
+     "es": "El proyecto fue financiado con un pago único.",
+     "it": "Il progetto è stato finanziato con un pagamento forfettario.",
+     "pt": "O projeto foi financiado com um pagamento único.",
+     "tr": "Proje, toplu ödeme ile finanse edildi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.overheads",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˌhɛdz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company's overheads have increased this year.",
+     "uk": "Накладні витрати компанії зросли цього року.",
+     "ru": "Накладные расходы компании увеличились в этом году.",
+     "pl": "Koszty ogólne firmy wzrosły w tym roku.",
+     "de": "Die Gemeinkosten des Unternehmens sind in diesem Jahr gestiegen.",
+     "fr": "Les frais généraux de l'entreprise ont augmenté cette année.",
+     "es": "Los gastos generales de la empresa han aumentado este año.",
+     "it": "Le spese generali dell'azienda sono aumentate quest'anno.",
+     "pt": "Os custos gerais da empresa aumentaram este ano.",
+     "tr": "Şirketin genel giderleri bu yıl arttı."
+    },
+    {
+     "en": "Managing overheads is crucial for business success.",
+     "uk": "Управління накладними витратами є важливим для успіху бізнесу.",
+     "ru": "Управление накладными расходами имеет решающее значение для успеха бизнеса.",
+     "pl": "Zarządzanie kosztami ogólnymi jest kluczowe dla sukcesu firmy.",
+     "de": "Das Management der Gemeinkosten ist entscheidend für den Geschäftserfolg.",
+     "fr": "La gestion des frais généraux est cruciale pour le succès de l'entreprise.",
+     "es": "La gestión de los gastos generales es crucial para el éxito empresarial.",
+     "it": "Gestire le spese generali è fondamentale per il successo aziendale.",
+     "pt": "Gerir as despesas gerais é crucial para o sucesso do negócio.",
+     "tr": "Genel giderleri yönetmek, iş başarısı için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.lucrative",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ˈlukrətɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She found a lucrative job in the tech industry.",
+     "uk": "Вона знайшла прибуткову роботу в технологічній галузі.",
+     "ru": "Она нашла прибыльную работу в технологической отрасли.",
+     "pl": "Znalazła lukratywną pracę w branży technologicznej.",
+     "de": "Sie fand einen lukrativen Job in der Technologiebranche.",
+     "fr": "Elle a trouvé un emploi lucratif dans l'industrie technologique.",
+     "es": "Encontró un trabajo lucrativo en la industria tecnológica.",
+     "it": "Ha trovato un lavoro redditizio nel settore tecnologico.",
+     "pt": "Ela encontrou um emprego lucrativo na indústria de tecnologia.",
+     "tr": "Teknoloji sektöründe kazançlı bir iş buldu."
+    },
+    {
+     "en": "Investing in real estate can be very lucrative.",
+     "uk": "Інвестування в нерухомість може бути дуже прибутковим.",
+     "ru": "Инвестирование в недвижимость может быть очень прибыльным.",
+     "pl": "Inwestowanie w nieruchomości może być bardzo lukratywne.",
+     "de": "Investieren in Immobilien kann sehr lukrativ sein.",
+     "fr": "Investir dans l'immobilier peut être très lucratif.",
+     "es": "Invertir en bienes raíces puede ser muy lucrativo.",
+     "it": "Investire nel settore immobiliare può essere molto redditizio.",
+     "pt": "Investir em imóveis pode ser muito lucrativo.",
+     "tr": "Gayrimenkul yatırımı çok kazançlı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-splash-out",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/splæʃ aʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I decided to splash out on a new phone.",
+     "uk": "Я вирішив розщедритися на новий телефон.",
+     "ru": "Я решил раскошелиться на новый телефон.",
+     "pl": "Postanowiłem zaszaleć na nowy telefon.",
+     "de": "Ich habe beschlossen, mir ein neues Handy zu gönnen.",
+     "fr": "J'ai décidé de faire une folie et d'acheter un nouveau téléphone.",
+     "es": "Decidí darme un capricho y comprar un nuevo teléfono.",
+     "it": "Ho deciso di concedermi uno sfizio e comprare un nuovo telefono.",
+     "pt": "Decidi fazer uma extravagância e comprar um novo celular.",
+     "tr": "Yeni bir telefon almak için cömertçe harcamaya karar verdim."
+    },
+    {
+     "en": "They splashed out on a fancy dinner last night.",
+     "uk": "Вони розщедрилися на розкішну вечерю минулої ночі.",
+     "ru": "Они раскошелились на шикарный ужин прошлой ночью.",
+     "pl": "Zaszaleli na elegancką kolację zeszłej nocy.",
+     "de": "Sie haben sich gestern Abend ein schickes Abendessen gegönnt.",
+     "fr": "Ils ont fait une folie pour un dîner chic hier soir.",
+     "es": "Se dieron un capricho con una cena elegante anoche.",
+     "it": "Hanno concesso uno sfizio con una cena elegante ieri sera.",
+     "pt": "Eles fizeram uma extravagância em um jantar chique na noite passada.",
+     "tr": "Dün gece şık bir akşam yemeği için cömertçe harcadılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-cost-a-fortune",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/kɑst ə ˈfɔrtʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Repairs for that car will cost a fortune.",
+     "uk": "Ремонт цього автомобіля коштуватиме цілий статок.",
+     "ru": "Ремонт этого автомобиля обойдется в целое состояние.",
+     "pl": "Naprawa tego samochodu będzie kosztować fortunę.",
+     "de": "Die Reparaturen für dieses Auto werden ein Vermögen kosten.",
+     "fr": "Les réparations de cette voiture vont coûter une fortune.",
+     "es": "Las reparaciones de ese coche costarán una fortuna.",
+     "it": "Le riparazioni per quell'auto costeranno una fortuna.",
+     "pt": "Os reparos para esse carro vão custar uma fortuna.",
+     "tr": "O arabanın tamiri bir servete mal olacak."
+    },
+    {
+     "en": "Living in the city can cost a fortune.",
+     "uk": "Життя в місті може коштувати цілий статок.",
+     "ru": "Жизнь в городе может стоить целое состояние.",
+     "pl": "Życie w mieście może kosztować fortunę.",
+     "de": "Das Leben in der Stadt kann ein Vermögen kosten.",
+     "fr": "Vivre en ville peut coûter une fortune.",
+     "es": "Vivir en la ciudad puede costar una fortuna.",
+     "it": "Vivere in città può costare una fortuna.",
+     "pt": "Viver na cidade pode custar uma fortuna.",
+     "tr": "Şehirde yaşamak bir servete mal olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.pension-fund",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈpɛnʃən fʌnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He contributes to his pension fund every month.",
+     "uk": "Він щомісяця робить внески до свого пенсійного фонду.",
+     "ru": "Он ежемесячно вносит деньги в свой пенсионный фонд.",
+     "pl": "Co miesiąc wpłaca do swojego funduszu emerytalnego.",
+     "de": "Er zahlt jeden Monat in seinen Pensionsfonds ein.",
+     "fr": "Il contribue à son fonds de pension chaque mois.",
+     "es": "Él contribuye a su fondo de pensiones cada mes.",
+     "it": "Contribuisce al suo fondo pensione ogni mese.",
+     "pt": "Ele contribui para seu fundo de pensão todo mês.",
+     "tr": "Her ay emeklilik fonuna katkıda bulunuyor."
+    },
+    {
+     "en": "A pension fund helps secure your financial future.",
+     "uk": "Пенсійний фонд допомагає забезпечити ваше фінансове майбутнє.",
+     "ru": "Пенсионный фонд помогает обеспечить ваше финансовое будущее.",
+     "pl": "Fundusz emerytalny pomaga zabezpieczyć twoją przyszłość finansową.",
+     "de": "Ein Pensionsfonds hilft, Ihre finanzielle Zukunft abzusichern.",
+     "fr": "Un fonds de pension aide à sécuriser votre avenir financier.",
+     "es": "Un fondo de pensiones ayuda a asegurar tu futuro financiero.",
+     "it": "Un fondo pensione aiuta a garantire il tuo futuro finanziario.",
+     "pt": "Um fundo de pensão ajuda a garantir seu futuro financeiro.",
+     "tr": "Bir emeklilik fonu, finansal geleceğinizi güvence altına almanıza yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.beneficiary",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˌbɛnəˈfɪʃiˌɛri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She is the beneficiary of her grandfather's will.",
+     "uk": "Вона є бенефіціаром заповіту свого діда.",
+     "ru": "Она является бенефициаром завещания своего деда.",
+     "pl": "Jest beneficjentem testamentu swojego dziadka.",
+     "de": "Sie ist die Begünstigte des Testaments ihres Großvaters.",
+     "fr": "Elle est la bénéficiaire du testament de son grand-père.",
+     "es": "Ella es la beneficiaria del testamento de su abuelo.",
+     "it": "È la beneficiaria del testamento di suo nonno.",
+     "pt": "Ela é a beneficiária do testamento de seu avô.",
+     "tr": "O, büyükannesinin vasiyetinin lehtarıdır."
+    },
+    {
+     "en": "The beneficiary must be notified of any changes.",
+     "uk": "Бенефіціар має бути сповіщений про будь-які зміни.",
+     "ru": "Бенефициар должен быть уведомлен о любых изменениях.",
+     "pl": "Beneficjent musi być powiadomiony o wszelkich zmianach.",
+     "de": "Der Begünstigte muss über Änderungen informiert werden.",
+     "fr": "Le bénéficiaire doit être informé de tout changement.",
+     "es": "El beneficiario debe ser notificado de cualquier cambio.",
+     "it": "Il beneficiario deve essere informato di eventuali cambiamenti.",
+     "pt": "O beneficiário deve ser notificado sobre quaisquer alterações.",
+     "tr": "Lehtar, herhangi bir değişiklikten haberdar edilmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.central-bank",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈsɛntrəl bæŋk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The central bank controls the country's money supply.",
+     "uk": "Центральний банк контролює грошову масу країни.",
+     "ru": "Центральный банк контролирует денежную массу страны.",
+     "pl": "Bank centralny kontroluje podaż pieniądza w kraju.",
+     "de": "Die Zentralbank kontrolliert die Geldmenge des Landes.",
+     "fr": "La banque centrale contrôle la masse monétaire du pays.",
+     "es": "El banco central controla la oferta monetaria del país.",
+     "it": "La banca centrale controlla l'offerta di moneta del paese.",
+     "pt": "O banco central controla a oferta de dinheiro do país.",
+     "tr": "Merkez bankası, ülkenin para arzını kontrol eder."
+    },
+    {
+     "en": "Interest rates are set by the central bank.",
+     "uk": "Процентні ставки встановлює центральний банк.",
+     "ru": "Процентные ставки устанавливает центральный банк.",
+     "pl": "Stopy procentowe ustala bank centralny.",
+     "de": "Die Zinssätze werden von der Zentralbank festgelegt.",
+     "fr": "Les taux d'intérêt sont fixés par la banque centrale.",
+     "es": "Las tasas de interés son establecidas por el banco central.",
+     "it": "I tassi di interesse sono stabiliti dalla banca centrale.",
+     "pt": "As taxas de juros são definidas pelo banco central.",
+     "tr": "Faiz oranları merkez bankası tarafından belirlenir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.economic-growth",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˌɛkəˈnɑmɪk ɡroʊθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Economic growth is vital for improving living standards.",
+     "uk": "Економічне зростання є життєво важливим для покращення рівня життя.",
+     "ru": "Экономический рост жизненно важен для улучшения уровня жизни.",
+     "pl": "Wzrost gospodarczy jest kluczowy dla poprawy standardu życia.",
+     "de": "Wirtschaftswachstum ist entscheidend für die Verbesserung des Lebensstandards.",
+     "fr": "La croissance économique est essentielle pour améliorer le niveau de vie.",
+     "es": "El crecimiento económico es vital para mejorar los niveles de vida.",
+     "it": "La crescita economica è fondamentale per migliorare gli standard di vita.",
+     "pt": "O crescimento econômico é vital para melhorar os padrões de vida.",
+     "tr": "Ekonomik büyüme, yaşam standartlarını artırmak için hayati öneme sahiptir."
+    },
+    {
+     "en": "Countries strive for sustainable economic growth.",
+     "uk": "Країни прагнуть до сталого економічного зростання.",
+     "ru": "Страны стремятся к устойчивому экономическому росту.",
+     "pl": "Kraje dążą do zrównoważonego wzrostu gospodarczego.",
+     "de": "Länder streben nach nachhaltigem Wirtschaftswachstum.",
+     "fr": "Les pays s'efforcent d'atteindre une croissance économique durable.",
+     "es": "Los países luchan por un crecimiento económico sostenible.",
+     "it": "I paesi cercano una crescita economica sostenibile.",
+     "pt": "Os países buscam um crescimento econômico sustentável.",
+     "tr": "Ülkeler sürdürülebilir ekonomik büyüme için çaba gösteriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.downturn",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈdaʊnˌtɝn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The economy is facing a downturn this quarter.",
+     "uk": "Економіка стикається зі спадом цього кварталу.",
+     "ru": "Экономика сталкивается со спадом в этом квартале.",
+     "pl": "Gospodarka zmaga się z spowolnieniem w tym kwartale.",
+     "de": "Die Wirtschaft steht in diesem Quartal vor einem Abschwung.",
+     "fr": "L'économie fait face à un ralentissement ce trimestre.",
+     "es": "La economía enfrenta una desaceleración este trimestre.",
+     "it": "L'economia sta affrontando una flessione questo trimestre.",
+     "pt": "A economia está enfrentando uma desaceleração neste trimestre.",
+     "tr": "Ekonomi bu çeyrekte bir gerileme yaşıyor."
+    },
+    {
+     "en": "A downturn can lead to increased unemployment rates.",
+     "uk": "Спад може призвести до зростання рівня безробіття.",
+     "ru": "Спад может привести к увеличению уровня безработицы.",
+     "pl": "Spowolnienie może prowadzić do wzrostu wskaźnika bezrobocia.",
+     "de": "Ein Abschwung kann zu einem Anstieg der Arbeitslosigkeit führen.",
+     "fr": "Un ralentissement peut entraîner une augmentation du taux de chômage.",
+     "es": "Una desaceleración puede llevar a un aumento en las tasas de desempleo.",
+     "it": "Una flessione può portare a un aumento dei tassi di disoccupazione.",
+     "pt": "Uma desaceleração pode levar a um aumento nas taxas de desemprego.",
+     "tr": "Bir gerileme, işsizlik oranlarının artmasına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.loan-shark",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/loʊn ʃɑrk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Avoid loan sharks who charge high interest rates.",
+     "uk": "Уникайте лихварів, які стягують високі відсоткові ставки.",
+     "ru": "Избегайте ростовщиков, которые берут высокие проценты.",
+     "pl": "Unikaj lichwiarzy, którzy pobierają wysokie oprocentowanie.",
+     "de": "Vermeiden Sie Kredithaie, die hohe Zinsen verlangen.",
+     "fr": "Évitez les usuriers qui facturent des taux d'intérêt élevés.",
+     "es": "Evita a los usureros que cobran altas tasas de interés.",
+     "it": "Evita gli strozzini che addebitano tassi di interesse elevati.",
+     "pt": "Evite agiotas que cobram altas taxas de juros.",
+     "tr": "Yüksek faiz oranları talep eden tefecilerden kaçının."
+    },
+    {
+     "en": "Loan sharks often target vulnerable individuals.",
+     "uk": "Лихварі часто націлюються на вразливих осіб.",
+     "ru": "Ростовщики часто нацеливаются на уязвимых людей.",
+     "pl": "Lichwiarze często celują w osoby w trudnej sytuacji.",
+     "de": "Kredithaie zielen oft auf schutzbedürftige Personen.",
+     "fr": "Les usuriers ciblent souvent des personnes vulnérables.",
+     "es": "Los usureros a menudo apuntan a personas vulnerables.",
+     "it": "Gli strozzini spesso prendono di mira persone vulnerabili.",
+     "pt": "Os agiotas costumam mirar em pessoas vulneráveis.",
+     "tr": "Tefeciler genellikle savunmasız bireyleri hedef alır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.card-skimming",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/kɑrd ˈskɪmɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Beware of card skimming at ATMs.",
+     "uk": "Остерігайтеся скімінгу карток біля банкоматів.",
+     "ru": "Осторожно скиммингом карт у банкоматов.",
+     "pl": "Uważaj na skimming kart w bankomatach.",
+     "de": "Achten Sie auf Skimming an Geldautomaten.",
+     "fr": "Méfiez-vous du clonage de carte aux distributeurs.",
+     "es": "Cuidado con la clonación de tarjetas en los cajeros.",
+     "it": "Fai attenzione al clonazione delle carte agli sportelli.",
+     "pt": "Cuidado com a clonagem de cartão nos caixas eletrônicos.",
+     "tr": "ATM'lerde kart kopyalamada dikkatli olun."
+    },
+    {
+     "en": "Card skimming is a growing threat worldwide.",
+     "uk": "Скімінг карток - це зростаюча загроза у всьому світі.",
+     "ru": "Скимминг карт становится растущей угрозой по всему миру.",
+     "pl": "Skimming kart to rosnące zagrożenie na całym świecie.",
+     "de": "Skimming ist eine wachsende Bedrohung weltweit.",
+     "fr": "Le clonage de carte est une menace croissante dans le monde.",
+     "es": "La clonación de tarjetas es una amenaza creciente en todo el mundo.",
+     "it": "Il clonazione delle carte è una minaccia crescente in tutto il mondo.",
+     "pt": "A clonagem de cartão é uma ameaça crescente em todo o mundo.",
+     "tr": "Kart kopyalama, dünya genelinde artan bir tehdit."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.penniless",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˈpɛniləs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "After losing his job, he was penniless.",
+     "uk": "Після втрати роботи він залишився без копійки.",
+     "ru": "После потери работы он остался без гроша.",
+     "pl": "Po utracie pracy był bez grosza.",
+     "de": "Nach dem Verlust seines Jobs war er mittellos.",
+     "fr": "Après avoir perdu son emploi, il était sans le sou.",
+     "es": "Después de perder su trabajo, estaba sin un céntimo.",
+     "it": "Dopo aver perso il lavoro, era senza un soldo.",
+     "pt": "Depois de perder o emprego, ele estava sem um tostão.",
+     "tr": "İşini kaybettikten sonra meteliksiz kaldı."
+    },
+    {
+     "en": "She felt penniless after paying all her bills.",
+     "uk": "Вона почувствувала себе без копійки після сплати всіх рахунків.",
+     "ru": "Она почувствовала себя без гроша после оплаты всех счетов.",
+     "pl": "Czuła się bez grosza po opłaceniu wszystkich rachunków.",
+     "de": "Sie fühlte sich mittellos, nachdem sie alle Rechnungen bezahlt hatte.",
+     "fr": "Elle se sentait sans le sou après avoir payé toutes ses factures.",
+     "es": "Se sintió sin un céntimo después de pagar todas sus cuentas.",
+     "it": "Si sentiva senza un soldo dopo aver pagato tutte le bollette.",
+     "pt": "Ela se sentiu sem um tostão depois de pagar todas as contas.",
+     "tr": "Tüm faturalarını ödedikten sonra meteliksiz hissetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.index-fund",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈɪndɛks fʌnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing in an index fund is a smart choice.",
+     "uk": "Інвестування в індексний фонд — це розумний вибір.",
+     "ru": "Инвестирование в индексный фонд — это разумный выбор.",
+     "pl": "Inwestowanie w fundusz indeksowy to mądry wybór.",
+     "de": "In einen Indexfonds zu investieren, ist eine kluge Wahl.",
+     "fr": "Investir dans un fonds indiciel est un choix judicieux.",
+     "es": "Invertir en un fondo indexado es una buena elección.",
+     "it": "Investire in un fondo indicizzato è una scelta intelligente.",
+     "pt": "Investir em um fundo de índice é uma escolha inteligente.",
+     "tr": "Bir endeks fonuna yatırım yapmak akıllıca bir seçimdir."
+    },
+    {
+     "en": "An index fund tracks a specific market index.",
+     "uk": "Індексний фонд відстежує певний ринковий індекс.",
+     "ru": "Индексный фонд отслеживает определенный рыночный индекс.",
+     "pl": "Fundusz indeksowy śledzi określony indeks rynkowy.",
+     "de": "Ein Indexfonds verfolgt einen bestimmten Marktindex.",
+     "fr": "Un fonds indiciel suit un indice de marché spécifique.",
+     "es": "Un fondo indexado sigue un índice de mercado específico.",
+     "it": "Un fondo indicizzato segue un indice di mercato specifico.",
+     "pt": "Um fundo de índice acompanha um índice de mercado específico.",
+     "tr": "Bir endeks fonu belirli bir piyasa endeksini takip eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.stock-market-crash",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/stɑk ˈmɑrkət kræʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The stock market crash shocked many investors.",
+     "uk": "Обвал фондового ринку шокував багатьох інвесторів.",
+     "ru": "Обвал фондового рынка шокировал многих инвесторов.",
+     "pl": "Krach na giełdzie zszokował wielu inwestorów.",
+     "de": "Der Börsencrash schockierte viele Anleger.",
+     "fr": "Le krach boursier a choqué de nombreux investisseurs.",
+     "es": "El desplome bursátil sorprendió a muchos inversores.",
+     "it": "Il crollo della borsa ha scioccato molti investitori.",
+     "pt": "A quebra da bolsa surpreendeu muitos investidores.",
+     "tr": "Borsa çöküşü birçok yatırımcıyı şok etti."
+    },
+    {
+     "en": "A stock market crash can lead to economic recession.",
+     "uk": "Обвал фондового ринку може призвести до економічної рецесії.",
+     "ru": "Обвал фондового рынка может привести к экономической рецессии.",
+     "pl": "Krach na giełdzie może prowadzić do recesji gospodarczej.",
+     "de": "Ein Börsencrash kann zu einer wirtschaftlichen Rezession führen.",
+     "fr": "Un krach boursier peut entraîner une récession économique.",
+     "es": "Un desplome bursátil puede llevar a una recesión económica.",
+     "it": "Un crollo della borsa può portare a una recessione economica.",
+     "pt": "Uma quebra da bolsa pode levar a uma recessão econômica.",
+     "tr": "Borsa çöküşü ekonomik bir durgunluğa yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-depreciate",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/dɪˈpriʃiˌeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cars tend to depreciate quickly after purchase.",
+     "uk": "Автомобілі, як правило, швидко знецінюються після покупки.",
+     "ru": "Автомобили, как правило, быстро обесцениваются после покупки.",
+     "pl": "Samochody mają tendencję do szybkiego tracenia wartości po zakupie.",
+     "de": "Autos verlieren nach dem Kauf schnell an Wert.",
+     "fr": "Les voitures ont tendance à se déprécier rapidement après l'achat.",
+     "es": "Los coches tienden a depreciarse rápidamente después de la compra.",
+     "it": "Le auto tendono a deprezzarsi rapidamente dopo l'acquisto.",
+     "pt": "Os carros tendem a desvalorizar rapidamente após a compra.",
+     "tr": "Arabalar satın alındıktan sonra hızla değer kaybeder."
+    },
+    {
+     "en": "The currency began to depreciate due to inflation.",
+     "uk": "Валюта почала знецінюватися через інфляцію.",
+     "ru": "Валюта начала обесцениваться из-за инфляции.",
+     "pl": "Waluta zaczęła tracić na wartości z powodu inflacji.",
+     "de": "Die Währung begann aufgrund der Inflation an Wert zu verlieren.",
+     "fr": "La monnaie a commencé à se déprécier en raison de l'inflation.",
+     "es": "La moneda comenzó a depreciarse debido a la inflación.",
+     "it": "La valuta ha iniziato a deprezzarsi a causa dell'inflazione.",
+     "pt": "A moeda começou a desvalorizar devido à inflação.",
+     "tr": "Para, enflasyondan dolayı değer kaybetmeye başladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-refinance",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˌrifəˈnæns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many homeowners choose to refinance their mortgages.",
+     "uk": "Багато власників будинків обирають рефінансувати свої іпотеки.",
+     "ru": "Многие домовладельцы выбирают рефинансировать свои ипотечные кредиты.",
+     "pl": "Wielu właścicieli domów decyduje się na refinansowanie swoich kredytów hipotecznych.",
+     "de": "Viele Hausbesitzer entscheiden sich, ihre Hypotheken zu refinanzieren.",
+     "fr": "De nombreux propriétaires choisissent de refinancer leurs hypothèques.",
+     "es": "Muchos propietarios eligen refinanciar sus hipotecas.",
+     "it": "Molti proprietari scelgono di rifinanziare i loro mutui.",
+     "pt": "Muitos proprietários optam por refinanciar suas hipotecas.",
+     "tr": "Birçok ev sahibi ipoteklerini yeniden finanse etmeyi tercih ediyor."
+    },
+    {
+     "en": "She plans to refinance her student loans next year.",
+     "uk": "Вона планує рефінансувати свої студентські кредити наступного року.",
+     "ru": "Она планирует рефинансировать свои студенческие кредиты в следующем году.",
+     "pl": "Planuje refinansować swoje kredyty studenckie w przyszłym roku.",
+     "de": "Sie plant, ihre Studienkredite im nächsten Jahr zu refinanzieren.",
+     "fr": "Elle prévoit de refinancer ses prêts étudiants l'année prochaine.",
+     "es": "Planea refinanciar sus préstamos estudiantiles el próximo año.",
+     "it": "Prevede di rifinanziare i suoi prestiti studenteschi l'anno prossimo.",
+     "pt": "Ela planeja refinanciar seus empréstimos estudantis no próximo ano.",
+     "tr": "Gelecek yıl öğrenci kredilerini yeniden finanse etmeyi planlıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.foreclosure",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/fɔrˈkloʊʒɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The house went into foreclosure last month.",
+     "uk": "Будинок потрапив під позбавлення права викупу минулого місяця.",
+     "ru": "Дом был лишен права выкупа в прошлом месяце.",
+     "pl": "Dom został objęty egzekucją hipoteczną w zeszłym miesiącu.",
+     "de": "Das Haus wurde letzten Monat zwangsversteigert.",
+     "fr": "La maison a été saisie le mois dernier.",
+     "es": "La casa fue ejecutada hipotecariamente el mes pasado.",
+     "it": "La casa è stata eseguita ipotecariamente il mese scorso.",
+     "pt": "A casa foi para execução hipotecária no mês passado.",
+     "tr": "Ev geçen ay ipotek haczına girdi."
+    },
+    {
+     "en": "Foreclosure can lead to losing your home.",
+     "uk": "Позбавлення права викупу може призвести до втрати будинку.",
+     "ru": "Лишение права выкупа может привести к потере дома.",
+     "pl": "Egzekucja hipoteczna może prowadzić do utraty domu.",
+     "de": "Die Zwangsvollstreckung kann dazu führen, dass man sein Zuhause verliert.",
+     "fr": "La saisie immobilière peut entraîner la perte de votre maison.",
+     "es": "La ejecución hipotecaria puede llevar a perder tu casa.",
+     "it": "L'esecuzione ipotecaria può portare alla perdita della tua casa.",
+     "pt": "A execução hipotecária pode levar à perda da sua casa.",
+     "tr": "İpotek haczi evinizi kaybetmenize neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.repossession",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ˌripəˈzɛʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The car was taken back due to repossession.",
+     "uk": "Автомобіль був вилучений через вилучення майна.",
+     "ru": "Машина была изъята из-за изъятия имущества.",
+     "pl": "Samochód został zajęty z powodu zajęcia mienia.",
+     "de": "Das Auto wurde wegen Pfändung zurückgenommen.",
+     "fr": "La voiture a été reprise en raison d'une saisie.",
+     "es": "El coche fue devuelto debido a un embargo.",
+     "it": "L'auto è stata ripresa a causa di un pignoramento.",
+     "pt": "O carro foi devolvido devido à reintegração de posse.",
+     "tr": "Araba el koyma nedeniyle geri alındı."
+    },
+    {
+     "en": "Repossession can happen if payments are missed.",
+     "uk": "Вилучення майна може статися, якщо пропущені платежі.",
+     "ru": "Изъятие имущества может произойти, если пропущены платежи.",
+     "pl": "Zajęcie mienia może nastąpić, jeśli płatności są spóźnione.",
+     "de": "Pfändung kann erfolgen, wenn Zahlungen versäumt werden.",
+     "fr": "La saisie peut se produire si les paiements sont manqués.",
+     "es": "El embargo puede ocurrir si se pierden pagos.",
+     "it": "Il pignoramento può avvenire se i pagamenti vengono persi.",
+     "pt": "A reintegração de posse pode ocorrer se os pagamentos forem perdidos.",
+     "tr": "Ödemeler kaçırılırsa el koyma gerçekleşebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bankruptcy",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈbæŋkrəpsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company declared bankruptcy after losing money.",
+     "uk": "Компанія оголосила банкрутство після втрати грошей.",
+     "ru": "Компания объявила о банкротстве после убытков.",
+     "pl": "Firma ogłosiła bankructwo po stracie pieniędzy.",
+     "de": "Die Firma meldete Konkurs nach einem Verlust an.",
+     "fr": "L'entreprise a déclaré faillite après avoir perdu de l'argent.",
+     "es": "La empresa declaró quiebra tras perder dinero.",
+     "it": "L'azienda ha dichiarato fallimento dopo aver perso denaro.",
+     "pt": "A empresa declarou falência após perder dinheiro.",
+     "tr": "Şirket para kaybettikten sonra iflas etti."
+    },
+    {
+     "en": "Bankruptcy can provide a fresh start for individuals.",
+     "uk": "Банкрутство може дати новий початок для осіб.",
+     "ru": "Банкротство может дать новый старт для людей.",
+     "pl": "Bankructwo może dać nowy początek dla osób.",
+     "de": "Der Konkurs kann einen Neuanfang für Einzelpersonen ermöglichen.",
+     "fr": "La faillite peut offrir un nouveau départ aux individus.",
+     "es": "La quiebra puede proporcionar un nuevo comienzo para las personas.",
+     "it": "Il fallimento può offrire un nuovo inizio per le persone.",
+     "pt": "A falência pode proporcionar um novo começo para os indivíduos.",
+     "tr": "İflas, bireyler için yeni bir başlangıç sağlayabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.debt-relief",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/dɛt rɪˈlif/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Debt relief programs can help struggling families.",
+     "uk": "Програми списання боргів можуть допомогти родинам у скруті.",
+     "ru": "Программы списания долгов могут помочь struggling семьям.",
+     "pl": "Programy umorzenia długów mogą pomóc zmagającym się rodzinom.",
+     "de": "Schuldenerlassprogramme können kämpfenden Familien helfen.",
+     "fr": "Les programmes d'allègement de la dette peuvent aider les familles en difficulté.",
+     "es": "Los programas de alivio de la deuda pueden ayudar a las familias en apuros.",
+     "it": "I programmi di cancellazione del debito possono aiutare le famiglie in difficoltà.",
+     "pt": "Os programas de perdão de dívidas podem ajudar famílias em dificuldades.",
+     "tr": "Borç affı programları zorlanan ailelere yardımcı olabilir."
+    },
+    {
+     "en": "Many people seek debt relief during economic crises.",
+     "uk": "Багато людей шукають списання боргів під час економічних криз.",
+     "ru": "Многие люди ищут списание долгов во время экономических кризисов.",
+     "pl": "Wiele osób szuka umorzenia długów podczas kryzysów gospodarczych.",
+     "de": "Viele Menschen suchen während wirtschaftlicher Krisen nach Schuldenerlass.",
+     "fr": "De nombreuses personnes recherchent un allègement de la dette pendant les crises économiques.",
+     "es": "Muchas personas buscan alivio de la deuda durante las crisis económicas.",
+     "it": "Molte persone cercano cancellazione del debito durante le crisi economiche.",
+     "pt": "Muitas pessoas buscam perdão de dívidas durante crises econômicas.",
+     "tr": "Birçok insan ekonomik krizler sırasında borç affı arıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.debt-consolidation",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/dɛt kənˌsɑləˈdeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Debt consolidation can simplify your monthly payments.",
+     "uk": "Консолідація боргів може спростити ваші щомісячні платежі.",
+     "ru": "Консолидация долгов может упростить ваши ежемесячные платежи.",
+     "pl": "Konsolidacja zadłużenia może uprościć twoje miesięczne płatności.",
+     "de": "Die Schuldenkonsolidierung kann Ihre monatlichen Zahlungen vereinfachen.",
+     "fr": "Le regroupement de crédits peut simplifier vos paiements mensuels.",
+     "es": "La consolidación de deudas puede simplificar tus pagos mensuales.",
+     "it": "Il consolidamento dei debiti può semplificare i tuoi pagamenti mensili.",
+     "pt": "A consolidação de dívidas pode simplificar seus pagamentos mensais.",
+     "tr": "Borç birleştirme, aylık ödemelerinizi basitleştirebilir."
+    },
+    {
+     "en": "Many people use debt consolidation to manage their finances.",
+     "uk": "Багато людей використовують консолідацію боргів для управління фінансами.",
+     "ru": "Многие люди используют консолидацию долгов для управления своими финансами.",
+     "pl": "Wiele osób korzysta z konsolidacji zadłużenia, aby zarządzać swoimi finansami.",
+     "de": "Viele Menschen nutzen die Schuldenkonsolidierung, um ihre Finanzen zu verwalten.",
+     "fr": "De nombreuses personnes utilisent le regroupement de crédits pour gérer leurs finances.",
+     "es": "Muchas personas utilizan la consolidación de deudas para gestionar sus finanzas.",
+     "it": "Molte persone usano il consolidamento dei debiti per gestire le proprie finanze.",
+     "pt": "Muitas pessoas usam a consolidação de dívidas para gerenciar suas finanças.",
+     "tr": "Birçok insan, finanslarını yönetmek için borç birleştirmeyi kullanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bailiff",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈbeɪləf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bailiff arrived to collect the unpaid debts.",
+     "uk": "Судовий виконавець прийшов стягнути непогашені борги.",
+     "ru": "Судебный пристав пришел взыскать неоплаченные долги.",
+     "pl": "Komornik przybył, aby ściągnąć nieopłacone długi.",
+     "de": "Der Gerichtsvollzieher kam, um die unbezahlten Schulden einzutreiben.",
+     "fr": "Le huissier est arrivé pour récupérer les dettes impayées.",
+     "es": "El agente judicial llegó para cobrar las deudas impagas.",
+     "it": "L'ufficiale giudiziario è arrivato per riscuotere i debiti non pagati.",
+     "pt": "O oficial de justiça chegou para cobrar as dívidas não pagas.",
+     "tr": "İcra memuru, ödenmemiş borçları tahsil etmek için geldi."
+    },
+    {
+     "en": "A bailiff can help enforce court orders.",
+     "uk": "Судовий виконавець може допомогти виконати судові рішення.",
+     "ru": "Судебный пристав может помочь в исполнении судебных решений.",
+     "pl": "Komornik może pomóc w egzekucji wyroków sądowych.",
+     "de": "Ein Gerichtsvollzieher kann helfen, Gerichtsbeschlüsse durchzusetzen.",
+     "fr": "Un huissier peut aider à faire respecter les décisions de justice.",
+     "es": "Un agente judicial puede ayudar a hacer cumplir las órdenes judiciales.",
+     "it": "Un ufficiale giudiziario può aiutare a far rispettare le sentenze.",
+     "pt": "Um oficial de justiça pode ajudar a cumprir as ordens judiciais.",
+     "tr": "İcra memuru, mahkeme kararlarını uygulamaya yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pawn",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/pɔn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to pawn my watch for some quick cash.",
+     "uk": "Мені потрібно закласти годинник за швидкі гроші.",
+     "ru": "Мне нужно заложить часы, чтобы получить деньги.",
+     "pl": "Muszę zastawić zegarek, żeby szybko zdobyć pieniądze.",
+     "de": "Ich muss meine Uhr verpfänden, um schnell Geld zu bekommen.",
+     "fr": "Je dois mettre en gage ma montre pour obtenir de l'argent rapidement.",
+     "es": "Necesito empeñar mi reloj para conseguir algo de dinero rápido.",
+     "it": "Devo impegnare il mio orologio per avere contante veloce.",
+     "pt": "Preciso penhorar meu relógio para conseguir dinheiro rápido.",
+     "tr": "Hızlı para almak için saatimi rehine vermem gerekiyor."
+    },
+    {
+     "en": "He decided to pawn his guitar for some extra money.",
+     "uk": "Він вирішив закласти гітару за додаткові гроші.",
+     "ru": "Он решил заложить гитару, чтобы получить дополнительные деньги.",
+     "pl": "Postanowił zastawić swoją gitarę, aby zdobyć dodatkowe pieniądze.",
+     "de": "Er entschied sich, seine Gitarre zu verpfänden, um zusätzliches Geld zu bekommen.",
+     "fr": "Il a décidé de mettre en gage sa guitare pour obtenir de l'argent supplémentaire.",
+     "es": "Decidió empeñar su guitarra para conseguir un dinero extra.",
+     "it": "Ha deciso di impegnare la sua chitarra per avere soldi extra.",
+     "pt": "Ele decidiu penhorar sua guitarra para conseguir um dinheiro extra.",
+     "tr": "Ekstra para kazanmak için gitarını rehine vermeye karar verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.payday-loan",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪˌdeɪ loʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A payday loan can help cover unexpected expenses.",
+     "uk": "Позика до зарплати може допомогти покрити непередбачені витрати.",
+     "ru": "Займ до зарплаты может помочь покрыть непредвиденные расходы.",
+     "pl": "Chwilówka może pomóc pokryć niespodziewane wydatki.",
+     "de": "Ein Kurzzeitkredit kann helfen, unerwartete Ausgaben zu decken.",
+     "fr": "Un prêt sur salaire peut aider à couvrir des dépenses imprévues.",
+     "es": "Un préstamo rápido puede ayudar a cubrir gastos inesperados.",
+     "it": "Un prestito veloce può aiutare a coprire spese impreviste.",
+     "pt": "Um empréstimo rápido pode ajudar a cobrir despesas inesperadas.",
+     "tr": "Kısa vadeli kredi, beklenmedik masrafları karşılamaya yardımcı olabilir."
+    },
+    {
+     "en": "Many people rely on payday loans for quick cash.",
+     "uk": "Багато людей покладаються на позики до зарплати для швидких грошей.",
+     "ru": "Многие люди полагаются на займы до зарплаты для быстрого получения денег.",
+     "pl": "Wiele osób polega na chwilówkach, aby szybko zdobyć pieniądze.",
+     "de": "Viele Menschen verlassen sich auf Kurzzeitkredite für schnelles Geld.",
+     "fr": "De nombreuses personnes comptent sur les prêts sur salaire pour obtenir de l'argent rapidement.",
+     "es": "Muchas personas dependen de los préstamos rápidos para obtener dinero rápido.",
+     "it": "Molte persone si affidano ai prestiti veloci per avere contante rapidamente.",
+     "pt": "Muitas pessoas dependem de empréstimos rápidos para conseguir dinheiro rapidamente.",
+     "tr": "Birçok insan, hızlı para için kısa vadeli kredilere güveniyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tax-bracket",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/tæks ˈbrækɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Your income determines your tax bracket each year.",
+     "uk": "Ваш дохід визначає вашу податкову категорію щороку.",
+     "ru": "Ваш доход определяет вашу налоговую категорию каждый год.",
+     "pl": "Twój dochód określa twój próg podatkowy każdego roku.",
+     "de": "Ihr Einkommen bestimmt Ihre Steuerstufe jedes Jahr.",
+     "fr": "Votre revenu détermine votre tranche d'imposition chaque année.",
+     "es": "Tus ingresos determinan tu tramo impositivo cada año.",
+     "it": "Il tuo reddito determina il tuo scaglione d'imposta ogni anno.",
+     "pt": "Sua renda determina sua faixa de imposto a cada ano.",
+     "tr": "Geliriniz her yıl vergi diliminizi belirler."
+    },
+    {
+     "en": "Understanding your tax bracket can help with planning.",
+     "uk": "Розуміння вашої податкової категорії може допомогти з плануванням.",
+     "ru": "Понимание вашей налоговой категории может помочь в планировании.",
+     "pl": "Zrozumienie swojego progu podatkowego może pomóc w planowaniu.",
+     "de": "Das Verständnis Ihrer Steuerstufe kann bei der Planung helfen.",
+     "fr": "Comprendre votre tranche d'imposition peut aider à la planification.",
+     "es": "Entender tu tramo impositivo puede ayudar con la planificación.",
+     "it": "Comprendere il proprio scaglione d'imposta può aiutare nella pianificazione.",
+     "pt": "Compreender sua faixa de imposto pode ajudar no planejamento.",
+     "tr": "Vergi diliminizi anlamak, planlama yapmanıza yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tax-allowance",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/tæks əˈlaʊəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tax allowance can reduce your taxable income.",
+     "uk": "Неоподатковуваний мінімум може зменшити ваш оподатковуваний дохід.",
+     "ru": "Необлагаемый минимум может снизить ваш налогооблагаемый доход.",
+     "pl": "Kwota wolna od podatku może zmniejszyć twój dochód do opodatkowania.",
+     "de": "Der Steuerfreibetrag kann Ihr zu versteuerndes Einkommen reduzieren.",
+     "fr": "L'abattement fiscal peut réduire votre revenu imposable.",
+     "es": "El mínimo exento puede reducir tu ingreso imponible.",
+     "it": "La quota esente può ridurre il tuo reddito imponibile.",
+     "pt": "A faixa de isenção pode reduzir sua renda tributável.",
+     "tr": "Vergiden muaf tutar, vergilendirilebilir gelirinizi azaltabilir."
+    },
+    {
+     "en": "You should check your tax allowance every year.",
+     "uk": "Вам слід перевіряти свій неоподатковуваний мінімум щороку.",
+     "ru": "Вам следует проверять свой необлагаемый минимум каждый год.",
+     "pl": "Powinieneś co roku sprawdzać swoją kwotę wolną od podatku.",
+     "de": "Sie sollten Ihren Steuerfreibetrag jedes Jahr überprüfen.",
+     "fr": "Vous devriez vérifier votre abattement fiscal chaque année.",
+     "es": "Deberías revisar tu mínimo exento cada año.",
+     "it": "Dovresti controllare la tua quota esente ogni anno.",
+     "pt": "Você deve verificar sua faixa de isenção a cada ano.",
+     "tr": "Her yıl vergiden muaf tutarınızı kontrol etmelisiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tax-relief",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/tæks rɪˈlif/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Tax relief can help lower your overall tax burden.",
+     "uk": "Податкова пільга може допомогти знизити ваше загальне податкове навантаження.",
+     "ru": "Налоговая льгота может помочь снизить ваше общее налоговое бремя.",
+     "pl": "Ulga podatkowa może pomóc obniżyć twoje ogólne obciążenie podatkowe.",
+     "de": "Die Steuererleichterung kann helfen, Ihre Gesamtsteuerlast zu senken.",
+     "fr": "L'allègement fiscal peut aider à réduire votre charge fiscale globale.",
+     "es": "La desgravación fiscal puede ayudar a reducir tu carga tributaria total.",
+     "it": "L'agevolazione fiscale può aiutare a ridurre il tuo carico fiscale complessivo.",
+     "pt": "O benefício fiscal pode ajudar a reduzir sua carga tributária total.",
+     "tr": "Vergi kolaylığı, toplam vergi yükünüzü azaltmanıza yardımcı olabilir."
+    },
+    {
+     "en": "Many taxpayers benefit from tax relief programs.",
+     "uk": "Багато платників податків отримують вигоду від програм податкових пільг.",
+     "ru": "Многие налогоплательщики получают выгоду от программ налоговых льгот.",
+     "pl": "Wielu podatników korzysta z programów ulg podatkowych.",
+     "de": "Viele Steuerzahler profitieren von Steuererleichterungsprogrammen.",
+     "fr": "De nombreux contribuables bénéficient de programmes d'allègement fiscal.",
+     "es": "Muchos contribuyentes se benefician de programas de desgravación fiscal.",
+     "it": "Molti contribuenti traggono vantaggio da programmi di agevolazione fiscale.",
+     "pt": "Muitos contribuintes se beneficiam de programas de benefícios fiscais.",
+     "tr": "Birçok vergi mükellefi, vergi kolaylığı programlarından faydalanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.taxpayer",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˈtækˌspeɪɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Every taxpayer has a responsibility to pay taxes.",
+     "uk": "Кожен платник податків несе відповідальність за сплату податків.",
+     "ru": "Каждый налогоплательщик несет ответственность за уплату налогов.",
+     "pl": "Każdy podatnik ma obowiązek płacić podatki.",
+     "de": "Jeder Steuerzahler hat die Verantwortung, Steuern zu zahlen.",
+     "fr": "Chaque contribuable a la responsabilité de payer des impôts.",
+     "es": "Cada contribuyente tiene la responsabilidad de pagar impuestos.",
+     "it": "Ogni contribuente ha la responsabilità di pagare le tasse.",
+     "pt": "Cada contribuinte tem a responsabilidade de pagar impostos.",
+     "tr": "Her vergi mükellefi, vergi ödemekle yükümlüdür."
+    },
+    {
+     "en": "Taxpayers should keep records of their income.",
+     "uk": "Платники податків повинні зберігати записи про свої доходи.",
+     "ru": "Налогоплательщики должны хранить записи о своих доходах.",
+     "pl": "Podatnicy powinni przechowywać dokumentację swoich dochodów.",
+     "de": "Steuerzahler sollten Aufzeichnungen über ihr Einkommen führen.",
+     "fr": "Les contribuables doivent conserver des enregistrements de leurs revenus.",
+     "es": "Los contribuyentes deben mantener registros de sus ingresos.",
+     "it": "I contribuenti devono tenere traccia dei loro redditi.",
+     "pt": "Os contribuintes devem manter registros de sua renda.",
+     "tr": "Vergi mükellefleri, gelirlerinin kayıtlarını tutmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tax-avoidance",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/tæks əˈvɔɪdəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Tax avoidance is legal but can be controversial.",
+     "uk": "Податкова оптимізація є законною, але може бути суперечною.",
+     "ru": "Налоговая оптимизация законна, но может быть противоречивой.",
+     "pl": "Unikanie opodatkowania jest legalne, ale może budzić kontrowersje.",
+     "de": "Steuervermeidung ist legal, kann aber umstritten sein.",
+     "fr": "L'évitement fiscal est légal mais peut être controversé.",
+     "es": "La elusión fiscal es legal, pero puede ser controvertida.",
+     "it": "L'elusione fiscale è legale ma può essere controversa.",
+     "pt": "A elisão fiscal é legal, mas pode ser controversa.",
+     "tr": "Vergiden kaçınma yasaldır, ancak tartışmalı olabilir."
+    },
+    {
+     "en": "Many companies engage in tax avoidance strategies.",
+     "uk": "Багато компаній займаються стратегіями податкової оптимізації.",
+     "ru": "Многие компании занимаются стратегиями налоговой оптимизации.",
+     "pl": "Wiele firm stosuje strategie unikania opodatkowania.",
+     "de": "Viele Unternehmen verfolgen Strategien zur Steuervermeidung.",
+     "fr": "De nombreuses entreprises adoptent des stratégies d'évitement fiscal.",
+     "es": "Muchas empresas participan en estrategias de elusión fiscal.",
+     "it": "Molte aziende adottano strategie di elusione fiscale.",
+     "pt": "Muitas empresas adotam estratégias de elisão fiscal.",
+     "tr": "Birçok şirket, vergiden kaçınma stratejileri uygular."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.expenditure",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ɪkˈspɛndətʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company's expenditure has increased this quarter.",
+     "uk": "Витрати компанії зросли цього кварталу.",
+     "ru": "Расходы компании увеличились в этом квартале.",
+     "pl": "Wydatki firmy wzrosły w tym kwartale.",
+     "de": "Die Ausgaben des Unternehmens sind in diesem Quartal gestiegen.",
+     "fr": "Les dépenses de l'entreprise ont augmenté ce trimestre.",
+     "es": "Los gastos de la empresa han aumentado este trimestre.",
+     "it": "Le spese dell'azienda sono aumentate in questo trimestre.",
+     "pt": "As despesas da empresa aumentaram neste trimestre.",
+     "tr": "Şirketin harcamaları bu çeyrekte arttı."
+    },
+    {
+     "en": "Reducing expenditure is essential for better financial health.",
+     "uk": "Зменшення витрат є важливим для покращення фінансового стану.",
+     "ru": "Снижение расходов имеет решающее значение для улучшения финансового состояния.",
+     "pl": "Redukcja wydatków jest niezbędna dla lepszej kondycji finansowej.",
+     "de": "Die Reduzierung der Aufwendungen ist entscheidend für eine bessere finanzielle Gesundheit.",
+     "fr": "Réduire les dépenses est essentiel pour une meilleure santé financière.",
+     "es": "Reducir los gastos es esencial para una mejor salud financiera.",
+     "it": "Ridurre le spese è essenziale per una migliore salute finanziaria.",
+     "pt": "Reduzir despesas é essencial para uma melhor saúde financeira.",
+     "tr": "Harcamaları azaltmak, daha iyi bir finansal sağlık için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.gdp",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈɡiˈdiˈpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The GDP of our country is steadily increasing.",
+     "uk": "ВВП нашої країни постійно зростає.",
+     "ru": "ВВП нашей страны постоянно растет.",
+     "pl": "PKB naszego kraju stale rośnie.",
+     "de": "Das BIP unseres Landes steigt stetig.",
+     "fr": "Le PIB de notre pays augmente régulièrement.",
+     "es": "El PIB de nuestro país está aumentando constantemente.",
+     "it": "Il PIL del nostro paese sta aumentando costantemente.",
+     "pt": "O PIB do nosso país está aumentando constantemente.",
+     "tr": "Ülkemizin GSYİH'si sürekli artıyor."
+    },
+    {
+     "en": "Many factors influence the GDP of a nation.",
+     "uk": "Багато факторів впливають на ВВП країни.",
+     "ru": "Многие факторы влияют на ВВП страны.",
+     "pl": "Wiele czynników wpływa na PKB kraju.",
+     "de": "Viele Faktoren beeinflussen das BIP eines Landes.",
+     "fr": "De nombreux facteurs influencent le PIB d'un pays.",
+     "es": "Muchos factores influyen en el PIB de una nación.",
+     "it": "Molti fattori influenzano il PIL di una nazione.",
+     "pt": "Muitos fatores influenciam o PIB de uma nação.",
+     "tr": "Bir ülkenin GSYİH'sini birçok faktör etkiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.trade-deficit",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/treɪd ˈdɛfəsət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The country is facing a significant trade deficit this year.",
+     "uk": "Країна цього року стикається з суттєвим торговельним дефіцитом.",
+     "ru": "Страна сталкивается с значительным торговым дефицитом в этом году.",
+     "pl": "Kraj w tym roku zmaga się z dużym deficytem handlowym.",
+     "de": "Das Land hat in diesem Jahr ein erhebliches Handelsdefizit.",
+     "fr": "Le pays fait face à un déficit commercial important cette année.",
+     "es": "El país enfrenta un déficit comercial significativo este año.",
+     "it": "Il paese sta affrontando un significativo deficit commerciale quest'anno.",
+     "pt": "O país enfrenta um déficit comercial significativo este ano.",
+     "tr": "Ülke bu yıl önemli bir dış ticaret açığıyla karşı karşıya."
+    },
+    {
+     "en": "A trade deficit can affect the economy negatively.",
+     "uk": "Торговельний дефіцит може негативно вплинути на економіку.",
+     "ru": "Торговый дефицит может негативно сказаться на экономике.",
+     "pl": "Deficyt handlowy może negatywnie wpłynąć na gospodarkę.",
+     "de": "Ein Handelsdefizit kann die Wirtschaft negativ beeinflussen.",
+     "fr": "Un déficit commercial peut affecter l'économie négativement.",
+     "es": "Un déficit comercial puede afectar negativamente a la economía.",
+     "it": "Un deficit commerciale può influenzare negativamente l'economia.",
+     "pt": "Um déficit comercial pode afetar negativamente a economia.",
+     "tr": "Bir dış ticaret açığı ekonomiyi olumsuz etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.devaluation",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/dɪˌvæljuˈeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The devaluation of the currency affected many businesses.",
+     "uk": "Девальвація валюти вплинула на багато бізнесів.",
+     "ru": "Девальвация валюты повлияла на многие бизнесы.",
+     "pl": "Dewaluacja waluty wpłynęła na wiele firm.",
+     "de": "Die Abwertung der Währung beeinflusste viele Unternehmen.",
+     "fr": "La dévaluation de la monnaie a affecté de nombreuses entreprises.",
+     "es": "La devaluación de la moneda afectó a muchas empresas.",
+     "it": "La svalutazione della valuta ha colpito molte imprese.",
+     "pt": "A desvalorização da moeda afetou muitas empresas.",
+     "tr": "Paranın devalüasyonu birçok işletmeyi etkiledi."
+    },
+    {
+     "en": "Devaluation can lead to higher inflation rates.",
+     "uk": "Девальвація може призвести до вищих темпів інфляції.",
+     "ru": "Девальвация может привести к более высоким темпам инфляции.",
+     "pl": "Dewaluacja może prowadzić do wyższych wskaźników inflacji.",
+     "de": "Die Abwertung kann zu höheren Inflationsraten führen.",
+     "fr": "La dévaluation peut entraîner des taux d'inflation plus élevés.",
+     "es": "La devaluación puede llevar a tasas de inflación más altas.",
+     "it": "La svalutazione può portare a tassi di inflazione più elevati.",
+     "pt": "A desvalorização pode levar a taxas de inflação mais altas.",
+     "tr": "Devalüasyon, daha yüksek enflasyon oranlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.hyperinflation",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ˌhaɪpɚɪnˈfleɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Hyperinflation can destroy the value of money quickly.",
+     "uk": "Гіперінфляція може швидко знищити вартість грошей.",
+     "ru": "Гиперинфляция может быстро уничтожить стоимость денег.",
+     "pl": "Hiperinflacja może szybko zniszczyć wartość pieniędzy.",
+     "de": "Hyperinflation kann den Wert des Geldes schnell zerstören.",
+     "fr": "L'hyperinflation peut rapidement détruire la valeur de l'argent.",
+     "es": "La hiperinflación puede destruir rápidamente el valor del dinero.",
+     "it": "L'iperinflazione può distruggere rapidamente il valore del denaro.",
+     "pt": "A hiperinflação pode destruir rapidamente o valor do dinheiro.",
+     "tr": "Hiperenflasyon, paranın değerini hızla yok edebilir."
+    },
+    {
+     "en": "Countries facing hyperinflation struggle to maintain stability.",
+     "uk": "Країни, які стикаються з гіперінфляцією, намагаються підтримувати стабільність.",
+     "ru": "Страны, сталкивающиеся с гиперинфляцией, пытаются сохранить стабильность.",
+     "pl": "Kraje borykające się z hiperinflacją mają trudności z utrzymaniem stabilności.",
+     "de": "Länder, die mit Hyperinflation konfrontiert sind, kämpfen um Stabilität.",
+     "fr": "Les pays confrontés à l'hyperinflation luttent pour maintenir la stabilité.",
+     "es": "Los países que enfrentan hiperinflación luchan por mantener la estabilidad.",
+     "it": "I paesi che affrontano l'iperinflazione lottano per mantenere la stabilità.",
+     "pt": "Os países que enfrentam a hiperinflação lutam para manter a estabilidade.",
+     "tr": "Hiperenflasyonla karşılaşan ülkeler istikrarı korumakta zorlanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.risky-investment",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/ˈrɪski ˌɪnˈvɛstmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing in startups is often a risky investment.",
+     "uk": "Інвестування в стартапи часто є ризикованою інвестицією.",
+     "ru": "Инвестирование в стартапы часто является рискованной инвестицией.",
+     "pl": "Inwestowanie w startupy często jest ryzykowną inwestycją.",
+     "de": "In Investitionen in Startups steckt oft ein hohes Risiko.",
+     "fr": "Investir dans des startups est souvent un investissement risqué.",
+     "es": "Invertir en startups es a menudo una inversión arriesgada.",
+     "it": "Investire in startup è spesso un investimento rischioso.",
+     "pt": "Investir em startups é frequentemente um investimento arriscado.",
+     "tr": "Girişimlere yatırım yapmak genellikle riskli bir yatırımdır."
+    },
+    {
+     "en": "Real estate can be a risky investment during market downturns.",
+     "uk": "Нерухомість може бути ризикованою інвестицією під час спаду ринку.",
+     "ru": "Недвижимость может быть рискованной инвестицией во время спада рынка.",
+     "pl": "Nieruchomości mogą być ryzykowną inwestycją podczas spadków rynkowych.",
+     "de": "Immobilien können während Marktrückgängen eine riskante Investition sein.",
+     "fr": "L'immobilier peut être un investissement risqué pendant les baisses du marché.",
+     "es": "Los bienes raíces pueden ser una inversión arriesgada durante las recesiones del mercado.",
+     "it": "Immobiliare può essere un investimento rischioso durante i cali del mercato.",
+     "pt": "Imóveis podem ser um investimento arriscado durante recessões de mercado.",
+     "tr": "Gayrimenkul, piyasa düşüşleri sırasında riskli bir yatırım olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.high-risk",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/haɪ rɪsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing in cryptocurrencies is considered high-risk.",
+     "uk": "Інвестування в криптовалюти вважається високоризиковим.",
+     "ru": "Инвестирование в криптовалюты считается высокорисковым.",
+     "pl": "Inwestowanie w kryptowaluty uważane jest za inwestycję wysokiego ryzyka.",
+     "de": "Investitionen in Kryptowährungen gelten als risikoreich.",
+     "fr": "Investir dans les cryptomonnaies est considéré comme à haut risque.",
+     "es": "Invertir en criptomonedas se considera de alto riesgo.",
+     "it": "Investire in criptovalute è considerato ad alto rischio.",
+     "pt": "Investir em criptomoedas é considerado de alto risco.",
+     "tr": "Kripto paralara yatırım yapmak yüksek riskli olarak kabul edilir."
+    },
+    {
+     "en": "High-risk investments can lead to significant losses.",
+     "uk": "Високоризикові інвестиції можуть призвести до значних втрат.",
+     "ru": "Высокорисковые инвестиции могут привести к значительным потерям.",
+     "pl": "Inwestycje wysokiego ryzyka mogą prowadzić do znacznych strat.",
+     "de": "Hochriskante Investitionen können zu erheblichen Verlusten führen.",
+     "fr": "Les investissements à haut risque peuvent entraîner des pertes importantes.",
+     "es": "Las inversiones de alto riesgo pueden llevar a pérdidas significativas.",
+     "it": "Gli investimenti ad alto rischio possono portare a perdite significative.",
+     "pt": "Investimentos de alto risco podem levar a perdas significativas.",
+     "tr": "Yüksek riskli yatırımlar önemli kayıplara yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.low-risk",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/loʊ rɪsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Government bonds are often considered low-risk investments.",
+     "uk": "Державні облігації часто вважаються низькоризиковими інвестиціями.",
+     "ru": "Государственные облигации часто считаются низкорисковыми инвестициями.",
+     "pl": "Obligacje skarbowe często są uważane za inwestycje niskiego ryzyka.",
+     "de": "Staatsanleihen gelten oft als risikoarme Investitionen.",
+     "fr": "Les obligations d'État sont souvent considérées comme des investissements à faible risque.",
+     "es": "Los bonos del gobierno a menudo se consideran inversiones de bajo riesgo.",
+     "it": "Le obbligazioni governative sono spesso considerate investimenti a basso rischio.",
+     "pt": "Os títulos do governo são frequentemente considerados investimentos de baixo risco.",
+     "tr": "Devlet tahvilleri genellikle düşük riskli yatırımlar olarak kabul edilir."
+    },
+    {
+     "en": "Investing in index funds is a low-risk strategy.",
+     "uk": "Інвестування в індексні фонди є стратегією низького ризику.",
+     "ru": "Инвестирование в индексные фонды - это стратегия низкого риска.",
+     "pl": "Inwestowanie w fundusze indeksowe to strategia niskiego ryzyka.",
+     "de": "Investitionen in Indexfonds sind eine risikoarme Strategie.",
+     "fr": "Investir dans des fonds indiciels est une stratégie à faible risque.",
+     "es": "Invertir en fondos indexados es una estrategia de bajo riesgo.",
+     "it": "Investire in fondi indicizzati è una strategia a basso rischio.",
+     "pt": "Investir em fundos de índice é uma estratégia de baixo risco.",
+     "tr": "Endeks fonlarına yatırım yapmak düşük riskli bir stratejidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.commodities",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/kəˈmɑdətiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investors are focusing on commodities for diversification.",
+     "uk": "Інвестори зосереджуються на сировинних товарах для диверсифікації.",
+     "ru": "Инвесторы сосредоточены на сырьевых товарах для диверсификации.",
+     "pl": "Inwestorzy koncentrują się na surowcach w celu dywersyfikacji.",
+     "de": "Investoren konzentrieren sich auf Rohstoffe zur Diversifizierung.",
+     "fr": "Les investisseurs se concentrent sur les matières premières pour la diversification.",
+     "es": "Los inversores se centran en las materias primas para diversificación.",
+     "it": "Gli investitori si concentrano sulle materie prime per diversificare.",
+     "pt": "Os investidores estão se concentrando em commodities para diversificação.",
+     "tr": "Yatırımcılar çeşitlendirme için emtialara odaklanıyor."
+    },
+    {
+     "en": "The prices of commodities can be very volatile.",
+     "uk": "Ціни на сировинні товари можуть бути дуже нестабільними.",
+     "ru": "Цены на сырьевые товары могут быть очень волатильными.",
+     "pl": "Ceny surowców mogą być bardzo zmienne.",
+     "de": "Die Preise für Rohstoffe können sehr volatil sein.",
+     "fr": "Les prix des matières premières peuvent être très volatils.",
+     "es": "Los precios de las materias primas pueden ser muy volátiles.",
+     "it": "I prezzi delle materie prime possono essere molto volatili.",
+     "pt": "Os preços das commodities podem ser muito voláteis.",
+     "tr": "Emtia fiyatları çok dalgalı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.precious-metals",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈprɛʃəs ˈmɛtəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing in precious metals is a safe option.",
+     "uk": "Інвестування в дорогоцінні метали є безпечним варіантом.",
+     "ru": "Инвестирование в драгоценные металлы - безопасный вариант.",
+     "pl": "Inwestowanie w metale szlachetne to bezpieczna opcja.",
+     "de": "In Investitionen in Edelmetalle ist eine sichere Option.",
+     "fr": "Investir dans des métaux précieux est une option sûre.",
+     "es": "Invertir en metales preciosos es una opción segura.",
+     "it": "Investire in metalli preziosi è un'opzione sicura.",
+     "pt": "Investir em metais preciosos é uma opção segura.",
+     "tr": "Değerli metallere yatırım yapmak güvenli bir seçenektir."
+    },
+    {
+     "en": "Precious metals often retain their value during crises.",
+     "uk": "Дорогоцінні метали часто зберігають свою вартість під час криз.",
+     "ru": "Драгоценные металлы часто сохраняют свою ценность во время кризисов.",
+     "pl": "Metale szlachetne często zachowują swoją wartość w czasie kryzysów.",
+     "de": "Edelmetalle behalten oft ihren Wert in Krisenzeiten.",
+     "fr": "Les métaux précieux conservent souvent leur valeur en période de crise.",
+     "es": "Los metales preciosos a menudo retienen su valor durante las crisis.",
+     "it": "I metalli preziosi spesso mantengono il loro valore durante le crisi.",
+     "pt": "Os metais preciosos frequentemente mantêm seu valor durante crises.",
+     "tr": "Değerli metaller genellikle kriz dönemlerinde değerlerini korur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.gold-reserves",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ɡoʊld rɪˈzɝvz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The country increased its gold reserves last year.",
+     "uk": "Країна минулого року збільшила свої золоті запаси.",
+     "ru": "Страна увеличила свои золотые запасы в прошлом году.",
+     "pl": "Kraj zwiększył swoje rezerwy złota w zeszłym roku.",
+     "de": "Das Land hat im letzten Jahr seine Goldreserven erhöht.",
+     "fr": "Le pays a augmenté ses réserves d'or l'année dernière.",
+     "es": "El país aumentó sus reservas de oro el año pasado.",
+     "it": "Il paese ha aumentato le sue riserve auree lo scorso anno.",
+     "pt": "O país aumentou suas reservas de ouro no ano passado.",
+     "tr": "Ülke, geçen yıl altın rezervlerini artırdı."
+    },
+    {
+     "en": "Gold reserves are important for economic stability.",
+     "uk": "Золоті запаси важливі для економічної стабільності.",
+     "ru": "Золотые запасы важны для экономической стабильности.",
+     "pl": "Rezerwy złota są ważne dla stabilności gospodarczej.",
+     "de": "Goldreserven sind wichtig für die wirtschaftliche Stabilität.",
+     "fr": "Les réserves d'or sont importantes pour la stabilité économique.",
+     "es": "Las reservas de oro son importantes para la estabilidad económica.",
+     "it": "Le riserve auree sono importanti per la stabilità economica.",
+     "pt": "As reservas de ouro são importantes para a estabilidade econômica.",
+     "tr": "Altın rezervleri, ekonomik istikrar için önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.housing-bubble",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/ˈhaʊzɪŋ ˈbʌbəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The housing bubble burst, causing prices to drop.",
+     "uk": "Житлова бульбашка лопнула, ціни впали.",
+     "ru": "Пузырь на рынке жилья лопнул, цены упали.",
+     "pl": "Bańka mieszkaniowa pękła, ceny spadły.",
+     "de": "Die Immobilienblase platzte, die Preise fielen.",
+     "fr": "La bulle immobilière a éclaté, les prix ont chuté.",
+     "es": "La burbuja inmobiliaria estalló, los precios cayeron.",
+     "it": "La bolla immobiliare è scoppiata, i prezzi sono scesi.",
+     "pt": "A bolha imobiliária estourou, os preços caíram.",
+     "tr": "Konut balonu patladı, fiyatlar düştü."
+    },
+    {
+     "en": "Many investors lost money during the housing bubble.",
+     "uk": "Багато інвесторів втратили гроші під час житлової бульбашки.",
+     "ru": "Многие инвесторы потеряли деньги во время пузыря на рынке жилья.",
+     "pl": "Wielu inwestorów straciło pieniądze podczas bańki mieszkaniowej.",
+     "de": "Viele Investoren verloren Geld während der Immobilienblase.",
+     "fr": "De nombreux investisseurs ont perdu de l'argent pendant la bulle immobilière.",
+     "es": "Muchos inversores perdieron dinero durante la burbuja inmobiliaria.",
+     "it": "Molti investitori hanno perso soldi durante la bolla immobiliare.",
+     "pt": "Muitos investidores perderam dinheiro durante a bolha imobiliária.",
+     "tr": "Birçok yatırımcı konut balonunda para kaybetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.speculation",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/ˌspɛkjəˈleɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Speculation in the market can lead to high risks.",
+     "uk": "Спекуляція на ринку може призвести до високих ризиків.",
+     "ru": "Спекуляция на рынке может привести к высоким рискам.",
+     "pl": "Spekulacja na rynku może prowadzić do wysokiego ryzyka.",
+     "de": "Spekulation auf dem Markt kann zu hohen Risiken führen.",
+     "fr": "La spéculation sur le marché peut entraîner des risques élevés.",
+     "es": "La especulación en el mercado puede llevar a altos riesgos.",
+     "it": "La speculazione nel mercato può comportare alti rischi.",
+     "pt": "A especulação no mercado pode levar a altos riscos.",
+     "tr": "Piyasada spekülasyon yüksek risklere yol açabilir."
+    },
+    {
+     "en": "Many investors engage in speculation for quick profits.",
+     "uk": "Багато інвесторів займаються спекуляцією для швидкого прибутку.",
+     "ru": "Многие инвесторы занимаются спекуляцией для быстрой прибыли.",
+     "pl": "Wielu inwestorów angażuje się w spekulację dla szybkich zysków.",
+     "de": "Viele Investoren engagieren sich in der Spekulation für schnelle Gewinne.",
+     "fr": "De nombreux investisseurs s'engagent dans la spéculation pour des profits rapides.",
+     "es": "Muchos inversores participan en la especulación para obtener ganancias rápidas.",
+     "it": "Molti investitori si dedicano alla speculazione per guadagni rapidi.",
+     "pt": "Muitos investidores se envolvem em especulação para lucros rápidos.",
+     "tr": "Birçok yatırımcı hızlı kazançlar için spekülasyona giriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-speculate",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/ˈspɛkjəˌleɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investors tend to speculate during economic uncertainty.",
+     "uk": "Інвестори схильні спекулювати під час економічної невизначеності.",
+     "ru": "Инвесторы склонны спекулировать во время экономической неопределенности.",
+     "pl": "Inwestorzy mają tendencję do spekulowania w czasie niepewności gospodarczej.",
+     "de": "Investoren neigen dazu, während wirtschaftlicher Unsicherheit zu spekulieren.",
+     "fr": "Les investisseurs ont tendance à spéculer en période d'incertitude économique.",
+     "es": "Los inversores tienden a especular durante la incertidumbre económica.",
+     "it": "Gli investitori tendono a speculare durante l'incertezza economica.",
+     "pt": "Os investidores tendem a especular durante a incerteza econômica.",
+     "tr": "Yatırımcılar ekonomik belirsizlik dönemlerinde spekülasyon yapma eğilimindedir."
+    },
+    {
+     "en": "It's risky to speculate without proper research.",
+     "uk": "Спекулювати без належного дослідження ризиковано.",
+     "ru": "Спекулировать без должного исследования рискованно.",
+     "pl": "Spekulować bez odpowiednich badań jest ryzykowne.",
+     "de": "Ohne ordnungsgemäße Recherche zu spekulieren, ist riskant.",
+     "fr": "Il est risqué de spéculer sans recherche appropriée.",
+     "es": "Es arriesgado especular sin la investigación adecuada.",
+     "it": "È rischioso speculare senza una ricerca adeguata.",
+     "pt": "É arriscado especular sem a pesquisa adequada.",
+     "tr": "Uygun araştırma yapmadan spekülasyon yapmak risklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.trader",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/ˈtreɪdɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A successful trader knows when to buy and sell.",
+     "uk": "Успішний трейдер знає, коли купувати і продавати.",
+     "ru": "Успешный трейдер знает, когда покупать и продавать.",
+     "pl": "Sukcesywny trader wie, kiedy kupować i sprzedawać.",
+     "de": "Ein erfolgreicher Händler weiß, wann er kaufen und verkaufen muss.",
+     "fr": "Un trader réussi sait quand acheter et vendre.",
+     "es": "Un trader exitoso sabe cuándo comprar y vender.",
+     "it": "Un trader di successo sa quando comprare e vendere.",
+     "pt": "Um trader de sucesso sabe quando comprar e vender.",
+     "tr": "Başarılı bir borsacı ne zaman alıp satacağını bilir."
+    },
+    {
+     "en": "Many traders use charts to analyze market trends.",
+     "uk": "Багато трейдерів використовують графіки для аналізу ринкових тенденцій.",
+     "ru": "Многие трейдеры используют графики для анализа рыночных тенденций.",
+     "pl": "Wielu traderów używa wykresów do analizy trendów rynkowych.",
+     "de": "Viele Händler verwenden Diagramme zur Analyse von Markttrends.",
+     "fr": "De nombreux traders utilisent des graphiques pour analyser les tendances du marché.",
+     "es": "Muchos operadores bursátiles utilizan gráficos para analizar tendencias del mercado.",
+     "it": "Molti trader usano grafici per analizzare le tendenze di mercato.",
+     "pt": "Muitos operadores usam gráficos para analisar tendências de mercado.",
+     "tr": "Birçok borsacı piyasa trendlerini analiz etmek için grafikler kullanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.stock-price",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/stɑk praɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The stock price rose significantly after the earnings report.",
+     "uk": "Ціна акції значно зросла після звіту про доходи.",
+     "ru": "Цена акции значительно выросла после отчета о доходах.",
+     "pl": "Cena akcji znacznie wzrosła po raporcie o zyskach.",
+     "de": "Der Aktienkurs stieg nach dem Gewinnbericht erheblich an.",
+     "fr": "Le cours de l'action a considérablement augmenté après le rapport sur les bénéfices.",
+     "es": "La cotización subió significativamente después del informe de ganancias.",
+     "it": "Il prezzo delle azioni è aumentato significativamente dopo il rapporto sugli utili.",
+     "pt": "O preço da ação subiu significativamente após o relatório de lucros.",
+     "tr": "Hisse fiyatı, kazanç raporunun ardından önemli ölçüde arttı."
+    },
+    {
+     "en": "Investors are watching the stock price closely today.",
+     "uk": "Інвестори уважно стежать за ціною акцій сьогодні.",
+     "ru": "Инвесторы внимательно следят за ценой акции сегодня.",
+     "pl": "Inwestorzy uważnie obserwują cenę akcji dzisiaj.",
+     "de": "Investoren beobachten heute den Aktienkurs genau.",
+     "fr": "Les investisseurs surveillent de près le cours de l'action aujourd'hui.",
+     "es": "Los inversores están observando de cerca la cotización hoy.",
+     "it": "Gli investitori stanno osservando da vicino il prezzo delle azioni oggi.",
+     "pt": "Os investidores estão observando de perto o preço da ação hoje.",
+     "tr": "Yatırımcılar bugün hisse fiyatını dikkatle izliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.startup-capital",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/ˈstɑrˌtʌp ˈkæpətəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She secured startup capital from several investors.",
+     "uk": "Вона отримала стартовий капітал від кількох інвесторів.",
+     "ru": "Она получила стартовый капитал от нескольких инвесторов.",
+     "pl": "Zabezpieczyła kapitał początkowy od kilku inwestorów.",
+     "de": "Sie sicherte sich Startkapital von mehreren Investoren.",
+     "fr": "Elle a obtenu un capital de départ de plusieurs investisseurs.",
+     "es": "Aseguró capital inicial de varios inversores.",
+     "it": "Ha ottenuto capitale iniziale da diversi investitori.",
+     "pt": "Ela garantiu capital inicial de vários investidores.",
+     "tr": "Birçok yatırımcıdan başlangıç sermayesi sağladı."
+    },
+    {
+     "en": "Finding startup capital can be challenging for new businesses.",
+     "uk": "Знайти стартовий капітал може бути складно для нових бізнесів.",
+     "ru": "Найти стартовый капитал может быть сложно для новых бизнесов.",
+     "pl": "Znalezienie kapitału początkowego może być trudne dla nowych firm.",
+     "de": "Startkapital für neue Unternehmen zu finden, kann eine Herausforderung sein.",
+     "fr": "Trouver un capital de départ peut être difficile pour les nouvelles entreprises.",
+     "es": "Encontrar capital inicial puede ser un desafío para nuevos negocios.",
+     "it": "Trovare capitale iniziale può essere una sfida per le nuove imprese.",
+     "pt": "Encontrar capital inicial pode ser um desafio para novos negócios.",
+     "tr": "Başlangıç sermayesi bulmak yeni işletmeler için zor olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.trust-fund",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/trʌst fʌnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She inherited a trust fund from her grandparents.",
+     "uk": "Вона успадкувала трастовий фонд від своїх бабусі та дідуся.",
+     "ru": "Она унаследовала трастовый фонд от своих бабушки и дедушки.",
+     "pl": "Ona odziedziczyła fundusz powierniczy po swoich dziadkach.",
+     "de": "Sie erbte einen Treuhandfonds von ihren Großeltern.",
+     "fr": "Elle a hérité d'un fonds fiduciaire de ses grands-parents.",
+     "es": "Ella heredó un fondo fiduciario de sus abuelos.",
+     "it": "Ha ereditato un fondo fiduciario dai suoi nonni.",
+     "pt": "Ela herdou um fundo fiduciário de seus avós.",
+     "tr": "Büyüklerinden bir vakıf fonu miras aldı."
+    },
+    {
+     "en": "Trust funds are often used for children's education.",
+     "uk": "Трастові фонди часто використовуються для освіти дітей.",
+     "ru": "Трастовые фонды часто используются для образования детей.",
+     "pl": "Fundusze powiernicze często są używane na edukację dzieci.",
+     "de": "Treuhandfonds werden oft für die Ausbildung von Kindern verwendet.",
+     "fr": "Les fonds fiduciaires sont souvent utilisés pour l'éducation des enfants.",
+     "es": "Los fondos fiduciarios se utilizan a menudo para la educación de los niños.",
+     "it": "I fondi fiduciari sono spesso utilizzati per l'istruzione dei bambini.",
+     "pt": "Os fundos fiduciários são frequentemente usados para a educação das crianças.",
+     "tr": "Vakıf fonları genellikle çocukların eğitimi için kullanılır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.inheritance-tax",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈhɛrətəns tæks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Inheritance tax can be a burden for many families.",
+     "uk": "Податок на спадщину може бути тягарем для багатьох сімей.",
+     "ru": "Налог на наследство может быть бременем для многих семей.",
+     "pl": "Podatek od spadków może być obciążeniem dla wielu rodzin.",
+     "de": "Die Erbschaftsteuer kann für viele Familien eine Belastung sein.",
+     "fr": "Les droits de succession peuvent être un fardeau pour de nombreuses familles.",
+     "es": "El impuesto de sucesiones puede ser una carga para muchas familias.",
+     "it": "L'imposta di successione può essere un peso per molte famiglie.",
+     "pt": "O imposto sobre herança pode ser um fardo para muitas famílias.",
+     "tr": "Miras vergisi birçok aile için bir yük olabilir."
+    },
+    {
+     "en": "Understanding inheritance tax is crucial for estate planning.",
+     "uk": "Розуміння податку на спадщину є важливим для планування спадщини.",
+     "ru": "Понимание налога на наследство имеет решающее значение для планирования наследства.",
+     "pl": "Zrozumienie podatku od spadków jest kluczowe dla planowania spadku.",
+     "de": "Das Verständnis der Erbschaftsteuer ist entscheidend für die Nachlassplanung.",
+     "fr": "Comprendre les droits de succession est crucial pour la planification successorale.",
+     "es": "Entender el impuesto de sucesiones es crucial para la planificación patrimonial.",
+     "it": "Comprendere l'imposta di successione è fondamentale per la pianificazione patrimoniale.",
+     "pt": "Entender o imposto sobre herança é crucial para o planejamento patrimonial.",
+     "tr": "Miras vergisini anlamak, mülk planlaması için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.wealth-tax",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/wɛlθ tæks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Wealth tax is often debated in political discussions.",
+     "uk": "Податок на статки часто обговорюється в політичних дискусіях.",
+     "ru": "Налог на богатство часто обсуждается в политических дискуссиях.",
+     "pl": "Podatek majątkowy jest często przedmiotem debat w dyskusjach politycznych.",
+     "de": "Die Vermögensteuer wird oft in politischen Diskussionen debattiert.",
+     "fr": "L'impôt sur la fortune est souvent débattu dans les discussions politiques.",
+     "es": "El impuesto sobre el patrimonio se debate a menudo en discusiones políticas.",
+     "it": "L'imposta patrimoniale è spesso dibattuta nelle discussioni politiche.",
+     "pt": "O imposto sobre grandes fortunas é frequentemente debatido em discussões políticas.",
+     "tr": "Servet vergisi, siyasi tartışmalarda sıkça tartışılır."
+    },
+    {
+     "en": "Some believe wealth tax can reduce inequality.",
+     "uk": "Дехто вважає, що податок на статки може зменшити нерівність.",
+     "ru": "Некоторые считают, что налог на богатство может уменьшить неравенство.",
+     "pl": "Niektórzy uważają, że podatek majątkowy może zmniejszyć nierówność.",
+     "de": "Einige glauben, dass die Vermögensteuer die Ungleichheit verringern kann.",
+     "fr": "Certains pensent que l'impôt sur la fortune peut réduire les inégalités.",
+     "es": "Algunos creen que el impuesto sobre el patrimonio puede reducir la desigualdad.",
+     "it": "Alcuni credono che l'imposta patrimoniale possa ridurre le disuguaglianze.",
+     "pt": "Alguns acreditam que o imposto sobre grandes fortunas pode reduzir a desigualdade.",
+     "tr": "Bazıları servet vergisinin eşitsizliği azaltabileceğine inanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.balance-sheet",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˈbæləns ʃit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The balance sheet shows the company's financial position.",
+     "uk": "Бухгалтерський баланс показує фінансовий стан компанії.",
+     "ru": "Бухгалтерский баланс показывает финансовое положение компании.",
+     "pl": "Bilans pokazuje sytuację finansową firmy.",
+     "de": "Die Bilanz zeigt die finanzielle Lage des Unternehmens.",
+     "fr": "Le bilan montre la situation financière de l'entreprise.",
+     "es": "El balance de situación muestra la posición financiera de la empresa.",
+     "it": "Lo stato patrimoniale mostra la posizione finanziaria dell'azienda.",
+     "pt": "O balanço patrimonial mostra a posição financeira da empresa.",
+     "tr": "Bilanço, şirketin mali durumunu gösterir."
+    },
+    {
+     "en": "A company must prepare a balance sheet annually.",
+     "uk": "Компанія повинна щорічно складати бухгалтерський баланс.",
+     "ru": "Компания должна ежегодно составлять бухгалтерский баланс.",
+     "pl": "Firma musi corocznie przygotowywać bilans.",
+     "de": "Ein Unternehmen muss jährlich eine Bilanz erstellen.",
+     "fr": "Une entreprise doit préparer un bilan chaque année.",
+     "es": "Una empresa debe preparar un balance de situación anualmente.",
+     "it": "Un'azienda deve preparare annualmente lo stato patrimoniale.",
+     "pt": "Uma empresa deve preparar um balanço patrimonial anualmente.",
+     "tr": "Bir şirket, yıllık olarak bilanço hazırlamalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.outstanding-balance",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/ˌaʊtˈstændɪŋ ˈbæləns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to check my outstanding balance today.",
+     "uk": "Мені потрібно перевірити мій непогашений залишок сьогодні.",
+     "ru": "Мне нужно проверить мой непогашенный остаток сегодня.",
+     "pl": "Muszę dzisiaj sprawdzić moją kwotę do spłaty.",
+     "de": "Ich muss heute meinen offenen Betrag überprüfen.",
+     "fr": "Je dois vérifier mon solde restant dû aujourd'hui.",
+     "es": "Necesito verificar mi saldo pendiente hoy.",
+     "it": "Devo controllare il mio saldo residuo oggi.",
+     "pt": "Preciso verificar meu saldo devedor hoje.",
+     "tr": "Bugün kalan borcumu kontrol etmem gerekiyor."
+    },
+    {
+     "en": "The outstanding balance is higher than I expected.",
+     "uk": "Непогашений залишок вищий, ніж я очікував.",
+     "ru": "Неоплаченный остаток выше, чем я ожидал.",
+     "pl": "Kwota do spłaty jest wyższa, niż się spodziewałem.",
+     "de": "Der offene Betrag ist höher als erwartet.",
+     "fr": "Le solde restant dû est plus élevé que prévu.",
+     "es": "El saldo pendiente es más alto de lo que esperaba.",
+     "it": "Il saldo residuo è più alto di quanto mi aspettassi.",
+     "pt": "O saldo devedor é maior do que eu esperava.",
+     "tr": "Kalan borç, beklediğimden daha yüksek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-settle-a-debt",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ˈsɛtəl ə dɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to settle a debt before the deadline.",
+     "uk": "Мені потрібно погасити борг до терміну.",
+     "ru": "Мне нужно погасить долг до срока.",
+     "pl": "Muszę uregulować dług przed terminem.",
+     "de": "Ich muss eine Schuld vor dem Fälligkeitsdatum begleichen.",
+     "fr": "Je dois régler une dette avant la date limite.",
+     "es": "Necesito saldar una deuda antes de la fecha límite.",
+     "it": "Devo saldare un debito prima della scadenza.",
+     "pt": "Preciso quitar uma dívida antes do prazo.",
+     "tr": "Son tarihten önce borcu kapatmam gerekiyor."
+    },
+    {
+     "en": "He managed to settle a debt quickly.",
+     "uk": "Він швидко погасив борг.",
+     "ru": "Он быстро погасил долг.",
+     "pl": "Szybko uregulował dług.",
+     "de": "Er hat eine Schuld schnell beglichen.",
+     "fr": "Il a réussi à régler une dette rapidement.",
+     "es": "Logró saldar una deuda rápidamente.",
+     "it": "È riuscito a saldare un debito rapidamente.",
+     "pt": "Ele conseguiu quitar uma dívida rapidamente.",
+     "tr": "Borcu hızlıca kapatmayı başardı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.capital",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈkæpətəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Investing capital is essential for business growth.",
+     "uk": "Інвестиційний капітал є важливим для зростання бізнесу.",
+     "ru": "Инвестиционный капитал важен для роста бизнеса.",
+     "pl": "Inwestycje kapitałowe są niezbędne do wzrostu firmy.",
+     "de": "Kapitalinvestitionen sind entscheidend für das Wachstum von Unternehmen.",
+     "fr": "Investir du capital est essentiel pour la croissance des entreprises.",
+     "es": "Invertir capital es esencial para el crecimiento empresarial.",
+     "it": "Investire capitale è essenziale per la crescita aziendale.",
+     "pt": "Investir capital é essencial para o crescimento dos negócios.",
+     "tr": "Sermaye yatırımı, iş büyümesi için esastır."
+    },
+    {
+     "en": "She has significant capital to invest in real estate.",
+     "uk": "Вона має значний капітал для інвестування в нерухомість.",
+     "ru": "У нее есть значительный капитал для инвестиций в недвижимость.",
+     "pl": "Ma znaczący kapitał do inwestowania w nieruchomości.",
+     "de": "Sie hat erhebliches Kapital, um in Immobilien zu investieren.",
+     "fr": "Elle a un capital important à investir dans l'immobilier.",
+     "es": "Ella tiene un capital significativo para invertir en bienes raíces.",
+     "it": "Ha un capitale significativo da investire in immobili.",
+     "pt": "Ela tem um capital significativo para investir em imóveis.",
+     "tr": "Gayrimenkule yatırım yapmak için önemli bir sermayesi var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.black-market",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/blæk ˈmɑrkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "They bought goods on the black market.",
+     "uk": "Вони купили товари на чорному ринку.",
+     "ru": "Они купили товары на черном рынке.",
+     "pl": "Kupili towary na czarnym rynku.",
+     "de": "Sie kauften Waren auf dem Schwarzmarkt.",
+     "fr": "Ils ont acheté des biens sur le marché noir.",
+     "es": "Compraron bienes en el mercado negro.",
+     "it": "Hanno comprato beni nel mercato nero.",
+     "pt": "Eles compraram produtos no mercado negro.",
+     "tr": "Karaborsadan ürün satın aldılar."
+    },
+    {
+     "en": "The black market thrives in times of crisis.",
+     "uk": "Чорний ринок процвітає в часи кризи.",
+     "ru": "Чёрный рынок процветает в кризисные времена.",
+     "pl": "Czarny rynek kwitnie w czasach kryzysu.",
+     "de": "Der Schwarzmarkt floriert in Krisenzeiten.",
+     "fr": "Le marché noir prospère en temps de crise.",
+     "es": "El mercado negro prospera en tiempos de crisis.",
+     "it": "Il mercato nero prospera in tempi di crisi.",
+     "pt": "O mercado negro prospera em tempos de crise.",
+     "tr": "Kriz zamanlarında karaborsa gelişiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.passive-income",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/ˈpæsɪv ˈɪnˌkʌm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She earns passive income from her rental properties.",
+     "uk": "Вона отримує пасивний дохід від своїх орендних властивостей.",
+     "ru": "Она получает пассивный доход от своей аренды.",
+     "pl": "Ona zarabia dochód pasywny z wynajmu nieruchomości.",
+     "de": "Sie verdient passives Einkommen aus ihren Mietobjekten.",
+     "fr": "Elle gagne un revenu passif grâce à ses propriétés locatives.",
+     "es": "Ella gana ingresos pasivos de sus propiedades en alquiler.",
+     "it": "Guadagna reddito passivo dalle sue proprietà in affitto.",
+     "pt": "Ela ganha renda passiva de seus imóveis alugados.",
+     "tr": "Kira mülklerinden pasif gelir elde ediyor."
+    },
+    {
+     "en": "Investing can generate passive income over time.",
+     "uk": "Інвестування може генерувати пасивний дохід з часом.",
+     "ru": "Инвестирование может приносить пассивный доход со временем.",
+     "pl": "Inwestowanie może generować dochód pasywny z czasem.",
+     "de": "Investitionen können im Laufe der Zeit passives Einkommen generieren.",
+     "fr": "Investir peut générer un revenu passif au fil du temps.",
+     "es": "Invertir puede generar ingresos pasivos con el tiempo.",
+     "it": "Investire può generare reddito passivo nel tempo.",
+     "pt": "Investir pode gerar renda passiva ao longo do tempo.",
+     "tr": "Yatırım yapmak zamanla pasif gelir sağlayabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.offshore-account",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˈɔfˈʃɔr əˈkaʊnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He opened an offshore account for tax benefits.",
+     "uk": "Він відкрив офшорний рахунок для податкових пільг.",
+     "ru": "Он открыл офшорный счёт для налоговых льгот.",
+     "pl": "Otworzył konto offshore dla korzyści podatkowych.",
+     "de": "Er eröffnete ein Offshore-Konto für steuerliche Vorteile.",
+     "fr": "Il a ouvert un compte offshore pour des avantages fiscaux.",
+     "es": "Abrió una cuenta en un paraíso fiscal para beneficios fiscales.",
+     "it": "Ha aperto un conto offshore per vantaggi fiscali.",
+     "pt": "Ele abriu uma conta offshore para benefícios fiscais.",
+     "tr": "Vergi avantajları için offshore hesap açtı."
+    },
+    {
+     "en": "Offshore accounts can be controversial in some countries.",
+     "uk": "Офшорні рахунки можуть бути суперечливими в деяких країнах.",
+     "ru": "Офшорные счета могут быть спорными в некоторых странах.",
+     "pl": "Konta offshore mogą budzić kontrowersje w niektórych krajach.",
+     "de": "Offshore-Konten können in einigen Ländern umstritten sein.",
+     "fr": "Les comptes offshore peuvent être controversés dans certains pays.",
+     "es": "Las cuentas en paraísos fiscales pueden ser controvertidas en algunos países.",
+     "it": "I conti offshore possono essere controversi in alcuni paesi.",
+     "pt": "Contas offshore podem ser controversas em alguns países.",
+     "tr": "Offshore hesaplar bazı ülkelerde tartışmalı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.mortgage-rate",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/ˈmɔrɡədʒ reɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The mortgage rate has increased this year.",
+     "uk": "Іпотечна ставка зросла цього року.",
+     "ru": "Ипотечная ставка увеличилась в этом году.",
+     "pl": "Oprocentowanie kredytu hipotecznego wzrosło w tym roku.",
+     "de": "Der Hypothekenzins ist in diesem Jahr gestiegen.",
+     "fr": "Le taux hypothécaire a augmenté cette année.",
+     "es": "El tipo de interés hipotecario ha aumentado este año.",
+     "it": "Il tasso del mutuo è aumentato quest'anno.",
+     "pt": "A taxa de financiamento imobiliário aumentou este ano.",
+     "tr": "Konut kredisi faizi bu yıl arttı."
+    },
+    {
+     "en": "Homebuyers are concerned about the rising mortgage rate.",
+     "uk": "Покупці житла стурбовані зростаючою іпотечною ставкою.",
+     "ru": "Покупатели жилья обеспокоены растущей ипотечной ставкой.",
+     "pl": "Kupujący domy są zaniepokojeni rosnącym oprocentowaniem kredytu hipotecznego.",
+     "de": "Hauskäufer sind besorgt über den steigenden Hypothekenzins.",
+     "fr": "Les acheteurs de maison s'inquiètent de la hausse du taux hypothécaire.",
+     "es": "Los compradores de vivienda están preocupados por el aumento del tipo de interés hipotecario.",
+     "it": "I compratori di case sono preoccupati per l'aumento del tasso del mutuo.",
+     "pt": "Os compradores de imóveis estão preocupados com a alta da taxa de financiamento imobiliário.",
+     "tr": "Ev alıcıları, artan konut kredisi faizinden endişeli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.consumer-debt",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/kənˈsumɚ dɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Consumer debt is rising in many countries.",
+     "uk": "Споживчий борг зростає в багатьох країнах.",
+     "ru": "Потребительский долг растет во многих странах.",
+     "pl": "Zadłużenie konsumenckie rośnie w wielu krajach.",
+     "de": "Die Verbraucherschulden steigen in vielen Ländern.",
+     "fr": "La dette des ménages augmente dans de nombreux pays.",
+     "es": "La deuda de consumo está aumentando en muchos países.",
+     "it": "Il debito al consumo sta aumentando in molti paesi.",
+     "pt": "A dívida de consumo está aumentando em muitos países.",
+     "tr": "Tüketici borcu birçok ülkede artıyor."
+    },
+    {
+     "en": "Managing consumer debt is essential for financial health.",
+     "uk": "Управління споживчим боргом є важливим для фінансового здоров'я.",
+     "ru": "Управление потребительским долгом жизненно важно для финансового здоровья.",
+     "pl": "Zarządzanie zadłużeniem konsumenckim jest kluczowe dla zdrowia finansowego.",
+     "de": "Das Management von Verbraucherschulden ist entscheidend für die finanzielle Gesundheit.",
+     "fr": "Gérer la dette des ménages est essentiel pour la santé financière.",
+     "es": "Gestionar la deuda de consumo es esencial para la salud financiera.",
+     "it": "Gestire il debito al consumo è essenziale per la salute finanziaria.",
+     "pt": "Gerenciar a dívida de consumo é essencial para a saúde financeira.",
+     "tr": "Tüketici borcunu yönetmek finansal sağlık için esastır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.base-rate",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/beɪs reɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The base rate influences borrowing costs for consumers.",
+     "uk": "Базова ставка впливає на витрати на позики для споживачів.",
+     "ru": "Базовая ставка влияет на стоимость заимствований для потребителей.",
+     "pl": "Stopa referencyjna wpływa na koszty pożyczek dla konsumentów.",
+     "de": "Der Leitzins beeinflusst die Kreditkosten für Verbraucher.",
+     "fr": "Le taux directeur influence les coûts d'emprunt pour les consommateurs.",
+     "es": "La tasa base influye en los costos de los préstamos para los consumidores.",
+     "it": "Il tasso di riferimento influisce sui costi di prestito per i consumatori.",
+     "pt": "A taxa básica de juros influencia os custos de empréstimos para os consumidores.",
+     "tr": "Politika faizi, tüketiciler için borçlanma maliyetlerini etkiler."
+    },
+    {
+     "en": "Central banks adjust the base rate to control inflation.",
+     "uk": "Центральні банки коригують базову ставку для контролю інфляції.",
+     "ru": "Центральные банки корректируют базовую ставку для контроля инфляции.",
+     "pl": "Banki centralne dostosowują stopę referencyjną, aby kontrolować inflację.",
+     "de": "Zentralbanken passen den Leitzins an, um die Inflation zu kontrollieren.",
+     "fr": "Les banques centrales ajustent le taux directeur pour contrôler l'inflation.",
+     "es": "Los bancos centrales ajustan el tipo de interés oficial para controlar la inflación.",
+     "it": "Le banche centrali aggiustano il tasso di riferimento per controllare l'inflazione.",
+     "pt": "Os bancos centrais ajustam a taxa básica de juros para controlar a inflação.",
+     "tr": "Merkez bankaları, enflasyonu kontrol etmek için politika faizini ayarlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cosigner",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/ˈkoʊˌsaɪnɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A cosigner can help secure a loan for you.",
+     "uk": "Співпозичальник може допомогти отримати кредит для вас.",
+     "ru": "Созаёмщик может помочь вам получить кредит.",
+     "pl": "Współkredytobiorca może pomóc w uzyskaniu pożyczki.",
+     "de": "Ein Mitunterzeichner kann Ihnen helfen, ein Darlehen zu sichern.",
+     "fr": "Un cosignataire peut vous aider à obtenir un prêt.",
+     "es": "Un avalista puede ayudarte a asegurar un préstamo.",
+     "it": "Un cofirmatario può aiutarti a garantire un prestito.",
+     "pt": "Um fiador pode ajudar a garantir um empréstimo.",
+     "tr": "Bir kefil, sizin için bir kredi güvence altına almanıza yardımcı olabilir."
+    },
+    {
+     "en": "She is my cosigner on the apartment lease.",
+     "uk": "Вона є моїм співпозичальником за договором оренди квартири.",
+     "ru": "Она мой созаёмщик по договору аренды квартиры.",
+     "pl": "Ona jest moim współkredytobiorcą w umowie najmu mieszkania.",
+     "de": "Sie ist meine Mitunterzeichnerin im Mietvertrag.",
+     "fr": "Elle est ma cosignataire sur le bail de l'appartement.",
+     "es": "Ella es mi avalista en el contrato de alquiler del apartamento.",
+     "it": "È la mia cofirmataria nel contratto d'affitto dell'appartamento.",
+     "pt": "Ela é minha fiadora no contrato de aluguel do apartamento.",
+     "tr": "O, dairenin kira sözleşmesinde benim kefilim."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

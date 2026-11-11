@@ -2,7 +2,7 @@
  "id": "transport-a1",
  "topic": "transport",
  "level": "a1",
- "version": 4,
+ "version": 5,
  "concepts": [
   {
    "id": "transport.car",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I drive my car to work every day.",
+     "uk": "Я їжу на своїй машині на роботу щодня.",
+     "ru": "Я каждый день езжу на своей машине на работу.",
+     "pl": "Codziennie jeżdżę samochodem do pracy.",
+     "de": "Ich fahre jeden Tag mit dem Auto zur Arbeit.",
+     "fr": "Je conduis ma voiture au travail tous les jours.",
+     "es": "Conduzco mi coche al trabajo todos los días.",
+     "it": "Guido la mia macchina al lavoro ogni giorno.",
+     "pt": "Eu dirijo meu carro para o trabalho todos os dias.",
+     "tr": "Her gün işe arabamla gidiyorum."
+    },
+    {
+     "en": "My car is red and very fast.",
+     "uk": "Моя машина червона і дуже швидка.",
+     "ru": "Моя машина красная и очень быстрая.",
+     "pl": "Mój samochód jest czerwony i bardzo szybki.",
+     "de": "Mein Auto ist rot und sehr schnell.",
+     "fr": "Ma voiture est rouge et très rapide.",
+     "es": "Mi coche es rojo y muy rápido.",
+     "it": "La mia macchina è rossa e molto veloce.",
+     "pt": "Meu carro é vermelho e muito rápido.",
+     "tr": "Arabam kırmızı ve çok hızlı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bicycle",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˈbaɪsɪkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ride my bicycle in the park.",
+     "uk": "Я їду на велосипеді в парку.",
+     "ru": "Я катаюсь на велосипеде в парке.",
+     "pl": "Jeżdżę na rowerze w parku.",
+     "de": "Ich fahre mit meinem Fahrrad im Park.",
+     "fr": "Je fais du vélo dans le parc.",
+     "es": "Monto mi bicicleta en el parque.",
+     "it": "Vado in bicicletta nel parco.",
+     "pt": "Eu ando de bicicleta no parque.",
+     "tr": "Parkta bisiklet sürüyorum."
+    },
+    {
+     "en": "My bicycle is blue and very light.",
+     "uk": "Мій велосипед синій і дуже легкий.",
+     "ru": "Мой велосипед синий и очень легкий.",
+     "pl": "Mój rower jest niebieski i bardzo lekki.",
+     "de": "Mein Fahrrad ist blau und sehr leicht.",
+     "fr": "Mon vélo est bleu et très léger.",
+     "es": "Mi bicicleta es azul y muy ligera.",
+     "it": "La mia bicicletta è blu e molto leggera.",
+     "pt": "Minha bicicleta é azul e muito leve.",
+     "tr": "Bisikletim mavi ve çok hafif."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.tram",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/træm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I take the tram to the city center.",
+     "uk": "Я їду на трамваї до центру міста.",
+     "ru": "Я еду на трамвае в центр города.",
+     "pl": "Jadę tramwajem do centrum miasta.",
+     "de": "Ich nehme die Straßenbahn ins Stadtzentrum.",
+     "fr": "Je prends le tramway pour le centre-ville.",
+     "es": "Tomo el tranvía al centro de la ciudad.",
+     "it": "Prendo il tram per il centro città.",
+     "pt": "Eu pego o bonde para o centro da cidade.",
+     "tr": "Şehir merkezine tramvayla gidiyorum."
+    },
+    {
+     "en": "The tram arrives every ten minutes.",
+     "uk": "Трамвай прибуває кожні десять хвилин.",
+     "ru": "Трамвай прибывает каждые десять минут.",
+     "pl": "Tramwaj przyjeżdża co dziesięć minut.",
+     "de": "Die Straßenbahn kommt alle zehn Minuten.",
+     "fr": "Le tramway arrive toutes les dix minutes.",
+     "es": "El tranvía llega cada diez minutos.",
+     "it": "Il tram arriva ogni dieci minuti.",
+     "pt": "O bonde chega a cada dez minutos.",
+     "tr": "Tramvay her on dakikada geliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.street",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/strit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The shop is on my street.",
+     "uk": "Магазин на моїй вулиці.",
+     "ru": "Магазин на моей улице.",
+     "pl": "Sklep jest na mojej ulicy.",
+     "de": "Der Laden ist in meiner Straße.",
+     "fr": "Le magasin est dans ma rue.",
+     "es": "La tienda está en mi calle.",
+     "it": "Il negozio è nella mia via.",
+     "pt": "A loja está na minha rua.",
+     "tr": "Dükkan benim sokakta."
+    },
+    {
+     "en": "Children play on the street every evening.",
+     "uk": "Діти грають на вулиці кожного вечора.",
+     "ru": "Дети играют на улице каждый вечер.",
+     "pl": "Dzieci bawią się na ulicy każdego wieczoru.",
+     "de": "Kinder spielen jeden Abend auf der Straße.",
+     "fr": "Les enfants jouent dans la rue chaque soir.",
+     "es": "Los niños juegan en la calle cada noche.",
+     "it": "I bambini giocano in strada ogni sera.",
+     "pt": "As crianças brincam na rua todas as noites.",
+     "tr": "Çocuklar her akşam sokakta oynar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.road",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The road is long and straight.",
+     "uk": "Дорога довга і пряма.",
+     "ru": "Дорога длинная и прямая.",
+     "pl": "Droga jest długa i prosta.",
+     "de": "Die Straße ist lang und gerade.",
+     "fr": "La route est longue et droite.",
+     "es": "La carretera es larga y recta.",
+     "it": "La strada è lunga e dritta.",
+     "pt": "A estrada é longa e reta.",
+     "tr": "Yol uzun ve düz."
+    },
+    {
+     "en": "There are many cars on the road today.",
+     "uk": "Сьогодні на дорозі багато машин.",
+     "ru": "Сегодня на дороге много машин.",
+     "pl": "Dziś na drodze jest wiele samochodów.",
+     "de": "Heute sind viele Autos auf der Landstraße.",
+     "fr": "Il y a beaucoup de voitures sur la route aujourd'hui.",
+     "es": "Hoy hay muchos coches en la carretera.",
+     "it": "Oggi ci sono molte auto sulla strada.",
+     "pt": "Hoje há muitos carros na estrada.",
+     "tr": "Bugün yolda çok araba var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-drive",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/draɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to drive on weekends.",
+     "uk": "Мені подобається водити машину на вихідних.",
+     "ru": "Мне нравится водить машину по выходным.",
+     "pl": "Lubię prowadzić samochód w weekendy.",
+     "de": "Ich fahre gerne am Wochenende.",
+     "fr": "J'aime conduire le week-end.",
+     "es": "Me gusta conducir los fines de semana.",
+     "it": "Mi piace guidare nei fine settimana.",
+     "pt": "Gosto de dirigir nos fins de semana.",
+     "tr": "Hafta sonları araba kullanmayı seviyorum."
+    },
+    {
+     "en": "Can you teach me to drive?",
+     "uk": "Ти можеш навчити мене водити машину?",
+     "ru": "Ты можешь научить меня водить машину?",
+     "pl": "Możesz mnie nauczyć prowadzić samochód?",
+     "de": "Kannst du mir das Autofahren beibringen?",
+     "fr": "Peux-tu m'apprendre à conduire?",
+     "es": "¿Puedes enseñarme a conducir?",
+     "it": "Puoi insegnarmi a guidare?",
+     "pt": "Você pode me ensinar a dirigir?",
+     "tr": "Bana araba kullanmayı öğretebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.station",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train leaves from the station at 5 PM.",
+     "uk": "Поїзд відправляється з вокзалу о 17:00.",
+     "ru": "Поезд отправляется с вокзала в 17:00.",
+     "pl": "Pociąg odjeżdża z dworca o 17:00.",
+     "de": "Der Zug fährt um 17:00 Uhr vom Bahnhof ab.",
+     "fr": "Le train part de la gare à 17h.",
+     "es": "El tren sale de la estación a las 5 PM.",
+     "it": "Il treno parte dalla stazione alle 17:00.",
+     "pt": "O trem sai da estação às 17h.",
+     "tr": "Tren istasyondan saat 17:00'de kalkıyor."
+    },
+    {
+     "en": "I will meet you at the station.",
+     "uk": "Я зустріну тебе на вокзалі.",
+     "ru": "Я встречу тебя на вокзале.",
+     "pl": "Spotkam cię na dworcu.",
+     "de": "Ich werde dich am Bahnhof treffen.",
+     "fr": "Je te rencontrerai à la gare.",
+     "es": "Te encontraré en la estación.",
+     "it": "Ti incontrerò alla stazione.",
+     "pt": "Eu vou te encontrar na estação.",
+     "tr": "Seni istasyonda bekleyeceğim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-turn-left",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/tɝn lɛft/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to turn left at the traffic light.",
+     "uk": "Тобі потрібно повернути ліворуч на світлофорі.",
+     "ru": "Тебе нужно повернуть налево на светофоре.",
+     "pl": "Musisz skręcić w lewo na sygnalizacji świetlnej.",
+     "de": "Du musst an der Ampel links abbiegen.",
+     "fr": "Tu dois tourner à gauche au feu.",
+     "es": "Debes girar a la izquierda en el semáforo.",
+     "it": "Devi girare a sinistra al semaforo.",
+     "pt": "Você precisa virar à esquerda no semáforo.",
+     "tr": "Işıkta sola dönmelisin."
+    },
+    {
+     "en": "Turn left at the next intersection.",
+     "uk": "Поверни ліворуч на наступному перехресті.",
+     "ru": "Поверни налево на следующем перекрестке.",
+     "pl": "Skręć w lewo na następnym skrzyżowaniu.",
+     "de": "Biege an der nächsten Kreuzung links ab.",
+     "fr": "Tourne à gauche au prochain carrefour.",
+     "es": "Gira a la izquierda en la próxima intersección.",
+     "it": "Gira a sinistra al prossimo incrocio.",
+     "pt": "Vire à esquerda na próxima interseção.",
+     "tr": "Son kavşakta sola dön."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-turn-right",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/tɝn raɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should turn right at the next light.",
+     "uk": "Тобі слід повернути праворуч на наступному світлі.",
+     "ru": "Тебе следует повернуть направо на следующем светофоре.",
+     "pl": "Powinieneś skręcić w prawo na następnej sygnalizacji.",
+     "de": "Du solltest an der nächsten Ampel rechts abbiegen.",
+     "fr": "Tu devrais tourner à droite au prochain feu.",
+     "es": "Debes girar a la derecha en el próximo semáforo.",
+     "it": "Devi girare a destra al prossimo semaforo.",
+     "pt": "Você deve virar à direita no próximo semáforo.",
+     "tr": "Son ışıkta sağa dönmelisin."
+    },
+    {
+     "en": "Turn right at the first intersection.",
+     "uk": "Поверни праворуч на першому перехресті.",
+     "ru": "Поверни направо на первом перекрестке.",
+     "pl": "Skręć w prawo na pierwszym skrzyżowaniu.",
+     "de": "Biege an der ersten Kreuzung rechts ab.",
+     "fr": "Tourne à droite au premier carrefour.",
+     "es": "Gira a la derecha en la primera intersección.",
+     "it": "Gira a destra al primo incrocio.",
+     "pt": "Vire à direita na primeira interseção.",
+     "tr": "İlk kavşakta sağa dön."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.straight-ahead",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/streɪt əˈhɛd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Go straight ahead for two blocks.",
+     "uk": "Іди прямо два квартали.",
+     "ru": "Иди прямо два квартала.",
+     "pl": "Idź prosto przez dwa bloki.",
+     "de": "Gehe geradeaus für zwei Blocks.",
+     "fr": "Vas tout droit pendant deux pâtés de maisons.",
+     "es": "Ve todo recto durante dos cuadras.",
+     "it": "Vai dritto per due isolati.",
+     "pt": "Vá em frente por duas quadras.",
+     "tr": "İki blok dümdüz git."
+    },
+    {
+     "en": "The store is straight ahead.",
+     "uk": "Магазин прямо попереду.",
+     "ru": "Магазин прямо впереди.",
+     "pl": "Sklep jest prosto przed tobą.",
+     "de": "Der Laden ist geradeaus.",
+     "fr": "Le magasin est tout droit.",
+     "es": "La tienda está todo recto.",
+     "it": "Il negozio è dritto.",
+     "pt": "A loja está em frente.",
+     "tr": "Dükkan dümdüz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.traffic-light",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈtræfɪk laɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The traffic light is red.",
+     "uk": "Світлофор червоний.",
+     "ru": "Светофор красный.",
+     "pl": "Sygnalizacja świetlna jest czerwona.",
+     "de": "Die Ampel ist rot.",
+     "fr": "Le feu rouge est rouge.",
+     "es": "El semáforo está en rojo.",
+     "it": "Il semaforo è rosso.",
+     "pt": "O semáforo está vermelho.",
+     "tr": "Trafik ışığı kırmızı."
+    },
+    {
+     "en": "Wait for the traffic light to change.",
+     "uk": "Чекайте, поки світлофор зміниться.",
+     "ru": "Ждите, пока светофор изменится.",
+     "pl": "Czekaj na zmianę sygnalizacji świetlnej.",
+     "de": "Warten Sie, bis die Ampel wechselt.",
+     "fr": "Attendez que le feu rouge change.",
+     "es": "Espera a que el semáforo cambie.",
+     "it": "Aspetta che il semaforo cambi.",
+     "pt": "Espere o semáforo mudar.",
+     "tr": "Trafik ışığının değişmesini bekleyin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-stop",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/stɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to stop at the sign.",
+     "uk": "Тобі потрібно зупинитися біля знака.",
+     "ru": "Тебе нужно остановиться у знака.",
+     "pl": "Musisz zatrzymać się przy znaku.",
+     "de": "Du musst am Schild anhalten.",
+     "fr": "Tu dois t'arrêter au panneau.",
+     "es": "Necesitas parar en la señal.",
+     "it": "Devi fermarti al segnale.",
+     "pt": "Você precisa parar no sinal.",
+     "tr": "Tabelanın önünde durmalısın."
+    },
+    {
+     "en": "Please stop the car here.",
+     "uk": "Будь ласка, зупини автомобіль тут.",
+     "ru": "Пожалуйста, остановите машину здесь.",
+     "pl": "Proszę zatrzymać samochód tutaj.",
+     "de": "Bitte halte das Auto hier an.",
+     "fr": "S'il te plaît, arrête la voiture ici.",
+     "es": "Por favor, para el coche aquí.",
+     "it": "Per favore, fermati qui con l'auto.",
+     "pt": "Por favor, pare o carro aqui.",
+     "tr": "Lütfen arabayı burada durdur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.near",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/nɪr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store is near my house.",
+     "uk": "Магазин поруч з моїм будинком.",
+     "ru": "Магазин рядом с моим домом.",
+     "pl": "Sklep jest blisko mojego domu.",
+     "de": "Der Laden ist in der Nähe meines Hauses.",
+     "fr": "Le magasin est près de ma maison.",
+     "es": "La tienda está cerca de mi casa.",
+     "it": "Il negozio è vicino a casa mia.",
+     "pt": "A loja está perto da minha casa.",
+     "tr": "Dükkan evime yakın."
+    },
+    {
+     "en": "There is a park near here.",
+     "uk": "Тут поруч є парк.",
+     "ru": "Здесь рядом есть парк.",
+     "pl": "Tutaj blisko jest park.",
+     "de": "Hier gibt es einen Park in der Nähe.",
+     "fr": "Il y a un parc près d'ici.",
+     "es": "Hay un parque cerca de aquí.",
+     "it": "C'è un parco vicino a qui.",
+     "pt": "Há um parque perto daqui.",
+     "tr": "Burada yakınlarda bir park var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.far",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/fɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The school is far from my home.",
+     "uk": "Школа далеко від мого дому.",
+     "ru": "Школа далеко от моего дома.",
+     "pl": "Szkoła jest daleko od mojego domu.",
+     "de": "Die Schule ist weit von meinem Zuhause entfernt.",
+     "fr": "L'école est loin de chez moi.",
+     "es": "La escuela está lejos de mi casa.",
+     "it": "La scuola è lontana da casa mia.",
+     "pt": "A escola está longe da minha casa.",
+     "tr": "Okul evimden uzak."
+    },
+    {
+     "en": "It is far to the next city.",
+     "uk": "До наступного міста далеко.",
+     "ru": "До следующего города далеко.",
+     "pl": "Do następnego miasta jest daleko.",
+     "de": "Es ist weit zur nächsten Stadt.",
+     "fr": "C'est loin de la prochaine ville.",
+     "es": "Está lejos de la próxima ciudad.",
+     "it": "È lontano dalla prossima città.",
+     "pt": "Está longe da próxima cidade.",
+     "tr": "Bir sonraki şehre uzak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.slow",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/sloʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please drive slow in this area.",
+     "uk": "Будь ласка, їдьте повільно в цій зоні.",
+     "ru": "Пожалуйста, езжайте медленно в этой зоне.",
+     "pl": "Proszę jechać powoli w tej okolicy.",
+     "de": "Bitte fahre langsam in diesem Bereich.",
+     "fr": "Veuillez conduire lentement dans cette zone.",
+     "es": "Por favor, conduce despacio en esta área.",
+     "it": "Per favore, guida lentamente in quest'area.",
+     "pt": "Por favor, dirija devagar nesta área.",
+     "tr": "Lütfen bu alanda yavaş sür."
+    },
+    {
+     "en": "The turtle moves very slow.",
+     "uk": "Черепаха рухається дуже повільно.",
+     "ru": "Черепаха движется очень медленно.",
+     "pl": "Żółw porusza się bardzo powoli.",
+     "de": "Die Schildkröte bewegt sich sehr langsam.",
+     "fr": "La tortue se déplace très lentement.",
+     "es": "La tortuga se mueve muy despacio.",
+     "it": "La tartaruga si muove molto lentamente.",
+     "pt": "A tartaruga se move muito devagar.",
+     "tr": "Kaplumbağa çok yavaş hareket eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.motorcycle",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈmoʊtɚˌsaɪkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ride my motorcycle on weekends.",
+     "uk": "Я їжджу на своєму мотоциклі у вихідні.",
+     "ru": "Я езжу на своем мотоцикле по выходным.",
+     "pl": "Jeżdżę na swoim motocyklu w weekendy.",
+     "de": "Ich fahre am Wochenende mit meinem Motorrad.",
+     "fr": "Je roule en moto le week-end.",
+     "es": "Manejo mi moto los fines de semana.",
+     "it": "Guido la mia moto nei fine settimana.",
+     "pt": "Eu ando de moto nos fins de semana.",
+     "tr": "Hafta sonları motosikletimle biniyorum."
+    },
+    {
+     "en": "He has a fast motorcycle.",
+     "uk": "Він має швидкий мотоцикл.",
+     "ru": "У него быстрый мотоцикл.",
+     "pl": "On ma szybki motocykl.",
+     "de": "Er hat ein schnelles Motorrad.",
+     "fr": "Il a une moto rapide.",
+     "es": "Él tiene una moto rápida.",
+     "it": "Lui ha una moto veloce.",
+     "pt": "Ele tem uma moto rápida.",
+     "tr": "Onun hızlı bir motosikleti var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.truck",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/trʌk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The truck is very big.",
+     "uk": "Вантажівка дуже велика.",
+     "ru": "Грузовик очень большой.",
+     "pl": "Ciężarówka jest bardzo duża.",
+     "de": "Der Lkw ist sehr groß.",
+     "fr": "Le camion est très grand.",
+     "es": "El camión es muy grande.",
+     "it": "Il camion è molto grande.",
+     "pt": "O caminhão é muito grande.",
+     "tr": "Kamyon çok büyük."
+    },
+    {
+     "en": "I saw a truck on the road.",
+     "uk": "Я бачив вантажівку на дорозі.",
+     "ru": "Я видел грузовик на дороге.",
+     "pl": "Widziałem ciężarówkę na drodze.",
+     "de": "Ich habe einen Lkw auf der Straße gesehen.",
+     "fr": "J'ai vu un camion sur la route.",
+     "es": "Vi un camión en la carretera.",
+     "it": "Ho visto un camion sulla strada.",
+     "pt": "Eu vi um caminhão na estrada.",
+     "tr": "Yolda bir kamyon gördüm."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bridge",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/brɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We crossed the bridge together.",
+     "uk": "Ми разом перетнули міст.",
+     "ru": "Мы вместе пересекли мост.",
+     "pl": "Przeszliśmy przez most razem.",
+     "de": "Wir sind zusammen über die Brücke gegangen.",
+     "fr": "Nous avons traversé le pont ensemble.",
+     "es": "Cruzamos el puente juntos.",
+     "it": "Abbiamo attraversato il ponte insieme.",
+     "pt": "Nós atravessamos a ponte juntos.",
+     "tr": "Birlikte köprüyü geçtik."
+    },
+    {
+     "en": "The bridge is very old.",
+     "uk": "Міст дуже старий.",
+     "ru": "Мост очень старый.",
+     "pl": "Most jest bardzo stary.",
+     "de": "Die Brücke ist sehr alt.",
+     "fr": "Le pont est très vieux.",
+     "es": "El puente es muy viejo.",
+     "it": "Il ponte è molto vecchio.",
+     "pt": "A ponte é muito velha.",
+     "tr": "Köprü çok eski."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.corner",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/ˈkɔrnɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Turn left at the corner.",
+     "uk": "Поверніть ліворуч на рогу.",
+     "ru": "Поверните налево на углу.",
+     "pl": "Skręć w lewo na rogu.",
+     "de": "Biegen Sie an der Ecke links ab.",
+     "fr": "Tournez à gauche au coin.",
+     "es": "Gira a la izquierda en la esquina.",
+     "it": "Svolta a sinistra all'angolo.",
+     "pt": "Vire à esquerda na esquina.",
+     "tr": "Köşeden sola dön."
+    },
+    {
+     "en": "There is a shop on the corner.",
+     "uk": "На рогу є магазин.",
+     "ru": "На углу есть магазин.",
+     "pl": "Na rogu jest sklep.",
+     "de": "An der Ecke gibt es einen Laden.",
+     "fr": "Il y a un magasin au coin.",
+     "es": "Hay una tienda en la esquina.",
+     "it": "C'è un negozio all'angolo.",
+     "pt": "Há uma loja na esquina.",
+     "tr": "Köşede bir dükkan var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.parking-lot",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ˈpɑrkɪŋ lɑt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The parking lot is full today.",
+     "uk": "Парковка сьогодні заповнена.",
+     "ru": "Парковка сегодня полна.",
+     "pl": "Parking jest dzisiaj pełny.",
+     "de": "Der Parkplatz ist heute voll.",
+     "fr": "Le parking est plein aujourd'hui.",
+     "es": "El aparcamiento está lleno hoy.",
+     "it": "Il parcheggio è pieno oggi.",
+     "pt": "O estacionamento está cheio hoje.",
+     "tr": "Otopark bugün dolu."
+    },
+    {
+     "en": "I found a spot in the parking lot.",
+     "uk": "Я знайшов місце на парковці.",
+     "ru": "Я нашел место на парковке.",
+     "pl": "Znalazłem miejsce na parkingu.",
+     "de": "Ich habe einen Platz auf dem Parkplatz gefunden.",
+     "fr": "J'ai trouvé une place dans le parking.",
+     "es": "Encontré un lugar en el aparcamiento.",
+     "it": "Ho trovato un posto nel parcheggio.",
+     "pt": "Encontrei um lugar no estacionamento.",
+     "tr": "Otoparkta bir yer buldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.gas-station",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/ɡæs ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to stop at the gas station.",
+     "uk": "Мені потрібно зупинитися на заправці.",
+     "ru": "Мне нужно остановиться на заправке.",
+     "pl": "Muszę zatrzymać się na stacji benzynowej.",
+     "de": "Ich muss an der Tankstelle halten.",
+     "fr": "Je dois m'arrêter à la station-service.",
+     "es": "Necesito parar en la gasolinera.",
+     "it": "Devo fermarmi al benzinaio.",
+     "pt": "Preciso parar no posto de gasolina.",
+     "tr": "Benzin istasyonunda durmam lazım."
+    },
+    {
+     "en": "The gas station is open 24 hours.",
+     "uk": "Заправка відкрита 24 години.",
+     "ru": "Заправка открыта 24 часа.",
+     "pl": "Stacja benzynowa jest otwarta 24 godziny.",
+     "de": "Die Tankstelle ist 24 Stunden geöffnet.",
+     "fr": "La station-service est ouverte 24 heures.",
+     "es": "La gasolinera está abierta 24 horas.",
+     "it": "Il benzinaio è aperto 24 ore.",
+     "pt": "O posto de gasolina está aberto 24 horas.",
+     "tr": "Benzin istasyonu 24 saat açık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.driver",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈdraɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The driver is very friendly and helpful.",
+     "uk": "Водій дуже дружній і корисний.",
+     "ru": "Водитель очень дружелюбный и полезный.",
+     "pl": "Kierowca jest bardzo przyjazny i pomocny.",
+     "de": "Der Fahrer ist sehr freundlich und hilfsbereit.",
+     "fr": "Le chauffeur est très amical et serviable.",
+     "es": "El conductor es muy amable y servicial.",
+     "it": "L'autista è molto amichevole e disponibile.",
+     "pt": "O motorista é muito amigável e prestativo.",
+     "tr": "Sürücü çok dostça ve yardımcı."
+    },
+    {
+     "en": "My brother is a bus driver in the city.",
+     "uk": "Мій брат - водій автобуса в місті.",
+     "ru": "Мой брат - водитель автобуса в городе.",
+     "pl": "Mój brat jest kierowcą autobusu w mieście.",
+     "de": "Mein Bruder ist Busfahrer in der Stadt.",
+     "fr": "Mon frère est chauffeur de bus dans la ville.",
+     "es": "Mi hermano es conductor de autobús en la ciudad.",
+     "it": "Mio fratello è autista di autobus in città.",
+     "pt": "Meu irmão é motorista de ônibus na cidade.",
+     "tr": "Kardeşim şehirde otobüs sürücüsüdür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.passenger",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈpæsəndʒɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The passenger sat quietly during the ride.",
+     "uk": "Пасажир тихо сидів під час поїздки.",
+     "ru": "Пассажир сидел тихо во время поездки.",
+     "pl": "Pasażer siedział cicho podczas jazdy.",
+     "de": "Der Fahrgast saß ruhig während der Fahrt.",
+     "fr": "Le passager était assis tranquillement pendant le trajet.",
+     "es": "El pasajero se sentó en silencio durante el viaje.",
+     "it": "Il passeggero sedeva in silenzio durante il viaggio.",
+     "pt": "O passageiro sentou-se em silêncio durante a viagem.",
+     "tr": "Yolcu yolculuk boyunca sessiz oturdu."
+    },
+    {
+     "en": "Every passenger must wear a seatbelt.",
+     "uk": "Кожен пасажир повинен пристібнутися.",
+     "ru": "Каждый пассажир должен пристегнуть ремень безопасности.",
+     "pl": "Każdy pasażer musi zapiąć pas bezpieczeństwa.",
+     "de": "Jeder Fahrgast muss den Sicherheitsgurt anlegen.",
+     "fr": "Chaque passager doit attacher sa ceinture de sécurité.",
+     "es": "Cada pasajero debe usar el cinturón de seguridad.",
+     "it": "Ogni passeggero deve allacciare la cintura di sicurezza.",
+     "pt": "Cada passageiro deve usar o cinto de segurança.",
+     "tr": "Her yolcu emniyet kemerini takmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-get-on",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ɡɛt ɑn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please get on the bus quickly.",
+     "uk": "Будь ласка, сідайте в автобус швидко.",
+     "ru": "Пожалуйста, садитесь в автобус быстро.",
+     "pl": "Proszę szybko wsiąść do autobusu.",
+     "de": "Bitte steigen Sie schnell in den Bus ein.",
+     "fr": "Veuillez monter dans le bus rapidement.",
+     "es": "Por favor, suba al autobús rápidamente.",
+     "it": "Per favore, sali sul bus in fretta.",
+     "pt": "Por favor, suba no ônibus rapidamente.",
+     "tr": "Lütfen otobüse hızlıca binin."
+    },
+    {
+     "en": "We will get on the train soon.",
+     "uk": "Ми скоро сядемо на поїзд.",
+     "ru": "Мы скоро сядем на поезд.",
+     "pl": "Wkrótce wsiądziemy do pociągu.",
+     "de": "Wir werden bald in den Zug einsteigen.",
+     "fr": "Nous allons bientôt monter dans le train.",
+     "es": "Pronto nos subiremos al tren.",
+     "it": "Presto saliremo sul treno.",
+     "pt": "Em breve vamos subir no trem.",
+     "tr": "Yakında trene bineceğiz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-get-off",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ɡɛt ɔf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to get off at the next stop.",
+     "uk": "Нам потрібно вийти на наступній зупинці.",
+     "ru": "Нам нужно выйти на следующей остановке.",
+     "pl": "Musimy wysiąść na następnym przystanku.",
+     "de": "Wir müssen an der nächsten Haltestelle aussteigen.",
+     "fr": "Nous devons descendre à l'arrêt suivant.",
+     "es": "Necesitamos bajar en la próxima parada.",
+     "it": "Dobbiamo scendere alla prossima fermata.",
+     "pt": "Precisamos descer na próxima parada.",
+     "tr": "Bir sonraki durakta inmeliyiz."
+    },
+    {
+     "en": "Please get off the bus in an orderly way.",
+     "uk": "Будь ласка, виходьте з автобуса в порядку.",
+     "ru": "Пожалуйста, выходите из автобуса организованно.",
+     "pl": "Proszę wysiadać z autobusu w porządku.",
+     "de": "Bitte steigen Sie geordnet aus dem Bus aus.",
+     "fr": "Veuillez descendre du bus de manière ordonnée.",
+     "es": "Por favor, baje del autobús de manera ordenada.",
+     "it": "Per favore, scendi dall'autobus in modo ordinato.",
+     "pt": "Por favor, desça do ônibus de forma ordenada.",
+     "tr": "Lütfen otobüsten düzenli bir şekilde inin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.next-stop",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/nɛkst stɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The next stop is at the city center.",
+     "uk": "Наступна зупинка - у центрі міста.",
+     "ru": "Следующая остановка - в центре города.",
+     "pl": "Następny przystanek jest w centrum miasta.",
+     "de": "Die nächste Haltestelle ist im Stadtzentrum.",
+     "fr": "Le prochain arrêt est au centre-ville.",
+     "es": "La próxima parada está en el centro de la ciudad.",
+     "it": "La prossima fermata è al centro della città.",
+     "pt": "A próxima parada é no centro da cidade.",
+     "tr": "Sonraki durak şehir merkezinde."
+    },
+    {
+     "en": "Please listen for the next stop announcement.",
+     "uk": "Будь ласка, слухайте оголошення про наступну зупинку.",
+     "ru": "Пожалуйста, слушайте объявление о следующей остановке.",
+     "pl": "Proszę słuchać ogłoszenia o następnym przystanku.",
+     "de": "Bitte hören Sie auf die Durchsage zur nächsten Haltestelle.",
+     "fr": "Veuillez écouter l'annonce du prochain arrêt.",
+     "es": "Por favor, escuche el anuncio de la próxima parada.",
+     "it": "Per favore, ascolta l'annuncio della prossima fermata.",
+     "pt": "Por favor, ouça o anúncio da próxima parada.",
+     "tr": "Lütfen bir sonraki durak duyurusunu dinleyin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.crosswalk",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈkrɑˌswɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Always use the crosswalk to cross the street.",
+     "uk": "Завжди користуйтеся пішохідним переходом, щоб перейти вулицю.",
+     "ru": "Всегда используйте пешеходный переход, чтобы перейти улицу.",
+     "pl": "Zawsze korzystaj z przejścia dla pieszych, aby przejść przez ulicę.",
+     "de": "Benutzen Sie immer den Zebrastreifen, um die Straße zu überqueren.",
+     "fr": "Utilisez toujours le passage piéton pour traverser la rue.",
+     "es": "Siempre usa el paso de peatones para cruzar la calle.",
+     "it": "Usa sempre le strisce pedonali per attraversare la strada.",
+     "pt": "Use sempre a faixa de pedestres para atravessar a rua.",
+     "tr": "Sokağı geçmek için her zaman yaya geçidini kullanın."
+    },
+    {
+     "en": "The crosswalk is marked with white lines.",
+     "uk": "Пішохідний перехід позначений білими лініями.",
+     "ru": "Пешеходный переход обозначен белыми линиями.",
+     "pl": "Przejście dla pieszych jest oznaczone białymi liniami.",
+     "de": "Der Zebrastreifen ist mit weißen Linien markiert.",
+     "fr": "Le passage piéton est marqué par des lignes blanches.",
+     "es": "El paso de peatones está marcado con líneas blancas.",
+     "it": "Le strisce pedonali sono contrassegnate da linee bianche.",
+     "pt": "A faixa de pedestres é marcada com linhas brancas.",
+     "tr": "Yaya geçidi beyaz çizgilerle işaretlenmiştir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.sidewalk",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˈsaɪˌdwɔk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please walk on the sidewalk for safety.",
+     "uk": "Будь ласка, йдіть по тротуару для безпеки.",
+     "ru": "Пожалуйста, идите по тротуару для безопасности.",
+     "pl": "Proszę chodzić po chodniku dla bezpieczeństwa.",
+     "de": "Bitte gehen Sie auf dem Bürgersteig zur Sicherheit.",
+     "fr": "Veuillez marcher sur le trottoir pour votre sécurité.",
+     "es": "Por favor, camina por la acera por seguridad.",
+     "it": "Per favore, cammina sul marciapiede per sicurezza.",
+     "pt": "Por favor, ande na calçada para sua segurança.",
+     "tr": "Lütfen güvenlik için kaldırımda yürüyün."
+    },
+    {
+     "en": "The sidewalk is clean and well-maintained.",
+     "uk": "Тротуар чистий і добре доглянутий.",
+     "ru": "Тротуар чистый и хорошо ухоженный.",
+     "pl": "Chodnik jest czysty i dobrze utrzymany.",
+     "de": "Der Bürgersteig ist sauber und gut gepflegt.",
+     "fr": "Le trottoir est propre et bien entretenu.",
+     "es": "La acera está limpia y bien cuidada.",
+     "it": "Il marciapiede è pulito e ben curato.",
+     "pt": "A calçada está limpa e bem cuidada.",
+     "tr": "Kaldırım temiz ve iyi bakımlı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.van",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/væn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The van is parked outside my house.",
+     "uk": "Фургон припаркований біля мого дому.",
+     "ru": "Фургон припаркован у меня под домом.",
+     "pl": "Furgonetka jest zaparkowana przed moim domem.",
+     "de": "Der Transporter ist vor meinem Haus geparkt.",
+     "fr": "La camionnette est garée devant ma maison.",
+     "es": "La furgoneta está estacionada fuera de mi casa.",
+     "it": "Il furgone è parcheggiato davanti a casa mia.",
+     "pt": "A van está estacionada na frente da minha casa.",
+     "tr": "Kamyonet evimin önünde park edilmiş."
+    },
+    {
+     "en": "I saw a delivery van on the street.",
+     "uk": "Я бачив фургон доставки на вулиці.",
+     "ru": "Я видел фургон доставки на улице.",
+     "pl": "Widziałem furgonetkę dostawczą na ulicy.",
+     "de": "Ich habe einen Lieferwagen auf der Straße gesehen.",
+     "fr": "J'ai vu une camionnette de livraison dans la rue.",
+     "es": "Vi una furgoneta de entrega en la calle.",
+     "it": "Ho visto un furgone di consegna per strada.",
+     "pt": "Vi uma van de entrega na rua.",
+     "tr": "Sokakta bir teslimat kamyoneti gördüm."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.wheel",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/wil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The wheel is broken and needs repair.",
+     "uk": "Колесо зламалося і потребує ремонту.",
+     "ru": "Колесо сломано и нуждается в ремонте.",
+     "pl": "Koło jest zepsute i wymaga naprawy.",
+     "de": "Das Rad ist kaputt und muss repariert werden.",
+     "fr": "La roue est cassée et doit être réparée.",
+     "es": "La rueda está rota y necesita reparación.",
+     "it": "La ruota è rotta e necessita di riparazione.",
+     "pt": "A roda está quebrada e precisa de reparo.",
+     "tr": "Tekerlek kırıldı ve onarıma ihtiyacı var."
+    },
+    {
+     "en": "I need to buy a new wheel for my bike.",
+     "uk": "Мені потрібно купити нове колесо для мого велосипеда.",
+     "ru": "Мне нужно купить новое колесо для моего велосипеда.",
+     "pl": "Muszę kupić nowe koło do mojego roweru.",
+     "de": "Ich muss ein neues Rad für mein Fahrrad kaufen.",
+     "fr": "Je dois acheter une nouvelle roue pour mon vélo.",
+     "es": "Necesito comprar una nueva rueda para mi bicicleta.",
+     "it": "Devo comprare una nuova ruota per la mia bici.",
+     "pt": "Preciso comprar uma nova roda para minha bicicleta.",
+     "tr": "Bisikletim için yeni bir tekerlek almam lazım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.on-foot",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ɑn fʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I walk to school on foot every day.",
+     "uk": "Я щодня йду до школи пішки.",
+     "ru": "Я хожу в школу пешком каждый день.",
+     "pl": "Codziennie idę do szkoły pieszo.",
+     "de": "Ich gehe jeden Tag zu Fuß zur Schule.",
+     "fr": "Je vais à l'école à pied tous les jours.",
+     "es": "Voy a la escuela a pie todos los días.",
+     "it": "Vado a scuola a piedi ogni giorno.",
+     "pt": "Vou para a escola a pé todos os dias.",
+     "tr": "Her gün okula yürüyerek gidiyorum."
+    },
+    {
+     "en": "They prefer to travel on foot in the city.",
+     "uk": "Вони віддають перевагу подорожувати пішки містом.",
+     "ru": "Они предпочитают путешествовать пешком по городу.",
+     "pl": "Oni wolą podróżować pieszo po mieście.",
+     "de": "Sie reisen lieber zu Fuß in der Stadt.",
+     "fr": "Ils préfèrent voyager à pied dans la ville.",
+     "es": "Prefieren viajar a pie por la ciudad.",
+     "it": "Preferiscono viaggiare a piedi in città.",
+     "pt": "Eles preferem viajar a pé pela cidade.",
+     "tr": "Şehirde yürüyerek seyahat etmeyi tercih ediyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.by-car",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/baɪ kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We travel to the beach by car every summer.",
+     "uk": "Ми їздимо на пляж на машині кожного літа.",
+     "ru": "Мы ездим на пляж на машине каждое лето.",
+     "pl": "Co roku latem jeździmy na plażę samochodem.",
+     "de": "Wir fahren jeden Sommer mit dem Auto zum Strand.",
+     "fr": "Nous allons à la plage en voiture chaque été.",
+     "es": "Viajamos a la playa en coche cada verano.",
+     "it": "Andiamo in spiaggia in macchina ogni estate.",
+     "pt": "Viajamos para a praia de carro todos os verões.",
+     "tr": "Her yaz plaja arabayla gidiyoruz."
+    },
+    {
+     "en": "She prefers to go to work by car.",
+     "uk": "Вона віддає перевагу їздити на роботу на машині.",
+     "ru": "Она предпочитает ездить на работу на машине.",
+     "pl": "Ona woli jeździć do pracy samochodem.",
+     "de": "Sie fährt lieber mit dem Auto zur Arbeit.",
+     "fr": "Elle préfère aller au travail en voiture.",
+     "es": "Prefiere ir al trabajo en coche.",
+     "it": "Preferisce andare al lavoro in macchina.",
+     "pt": "Ela prefere ir ao trabalho de carro.",
+     "tr": "İşe arabayla gitmeyi tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.by-bus",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/baɪ bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to college by bus every morning.",
+     "uk": "Я їду до коледжу автобусом щоранку.",
+     "ru": "Я каждое утро езжу в колледж на автобусе.",
+     "pl": "Codziennie rano jeżdżę do college'u autobusem.",
+     "de": "Ich fahre jeden Morgen mit dem Bus zur Hochschule.",
+     "fr": "Je vais au collège en bus tous les matins.",
+     "es": "Voy a la universidad en autobús cada mañana.",
+     "it": "Vado al college in autobus ogni mattina.",
+     "pt": "Vou para a faculdade de ônibus todas as manhãs.",
+     "tr": "Her sabah üniversiteye otobüsle gidiyorum."
+    },
+    {
+     "en": "They usually travel by bus to the city.",
+     "uk": "Вони зазвичай подорожують автобусом до міста.",
+     "ru": "Они обычно путешествуют на автобусе в город.",
+     "pl": "Oni zazwyczaj podróżują autobusem do miasta.",
+     "de": "Sie reisen normalerweise mit dem Bus in die Stadt.",
+     "fr": "Ils voyagent généralement en bus vers la ville.",
+     "es": "Normalmente viajan en autobús a la ciudad.",
+     "it": "Di solito viaggiano in autobus verso la città.",
+     "pt": "Eles costumam viajar de ônibus para a cidade.",
+     "tr": "Genellikle şehre otobüsle seyahat ediyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.by-bike",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/baɪ baɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ride my bike by bike to the park.",
+     "uk": "Я їду до парку на велосипеді.",
+     "ru": "Я еду в парк на велосипеде.",
+     "pl": "Jadę do parku rowerem.",
+     "de": "Ich fahre mit dem Fahrrad zum Park.",
+     "fr": "Je vais au parc à vélo.",
+     "es": "Voy al parque en bicicleta.",
+     "it": "Vado al parco in bicicletta.",
+     "pt": "Vou ao parque de bicicleta.",
+     "tr": "Parkta bisikletle gidiyorum."
+    },
+    {
+     "en": "They enjoy riding by bike on weekends.",
+     "uk": "Вони люблять їздити на велосипеді у вихідні.",
+     "ru": "Им нравится кататься на велосипеде по выходным.",
+     "pl": "Oni lubią jeździć rowerem w weekendy.",
+     "de": "Sie fahren am Wochenende gerne mit dem Fahrrad.",
+     "fr": "Ils aiment faire du vélo le week-end.",
+     "es": "Les gusta montar en bicicleta los fines de semana.",
+     "it": "A loro piace andare in bicicletta nei fine settimana.",
+     "pt": "Eles gostam de andar de bicicleta nos fins de semana.",
+     "tr": "Onlar hafta sonları bisiklet sürmeyi seviyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.helicopter",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈhɛlɪˌkɑptɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The helicopter flew over the city.",
+     "uk": "Гелікоптер пролетів над містом.",
+     "ru": "Вертолет пролетел над городом.",
+     "pl": "Helikopter przeleciał nad miastem.",
+     "de": "Der Hubschrauber flog über die Stadt.",
+     "fr": "L'hélicoptère a survolé la ville.",
+     "es": "El helicóptero voló sobre la ciudad.",
+     "it": "L'elicottero ha sorvolato la città.",
+     "pt": "O helicóptero sobrevoou a cidade.",
+     "tr": "Helikopter şehrin üzerinde uçtu."
+    },
+    {
+     "en": "She took a helicopter to the island.",
+     "uk": "Вона сіла на гелікоптер до острова.",
+     "ru": "Она села на вертолет на остров.",
+     "pl": "Ona wzięła helikopter na wyspę.",
+     "de": "Sie nahm einen Hubschrauber zur Insel.",
+     "fr": "Elle a pris un hélicoptère pour l'île.",
+     "es": "Ella tomó un helicóptero a la isla.",
+     "it": "Ha preso un elicottero per l'isola.",
+     "pt": "Ela pegou um helicóptero para a ilha.",
+     "tr": "Adaya helikopterle gitti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.ship",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ʃɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The ship sailed across the ocean.",
+     "uk": "Корабель перетнув океан.",
+     "ru": "Корабль пересек океан.",
+     "pl": "Statek przepłynął przez ocean.",
+     "de": "Das Schiff segelte über den Ozean.",
+     "fr": "Le navire a traversé l'océan.",
+     "es": "El buque navegó por el océano.",
+     "it": "La nave ha attraversato l'oceano.",
+     "pt": "O navio navegou pelo oceano.",
+     "tr": "Gemi okyanusu geçti."
+    },
+    {
+     "en": "They built a new ship for the voyage.",
+     "uk": "Вони побудували новий корабель для подорожі.",
+     "ru": "Они построили новый корабль для путешествия.",
+     "pl": "Zbudowali nowy statek na podróż.",
+     "de": "Sie bauten ein neues Schiff für die Reise.",
+     "fr": "Ils ont construit un nouveau navire pour le voyage.",
+     "es": "Construyeron un nuevo buque para el viaje.",
+     "it": "Hanno costruito una nuova nave per il viaggio.",
+     "pt": "Eles construíram um novo navio para a viagem.",
+     "tr": "Seyahat için yeni bir gemi inşa ettiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-cross-the-street",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/krɔs ðə strit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should look before you cross the street.",
+     "uk": "Тобі слід подивитися, перш ніж переходити вулицю.",
+     "ru": "Ты должен посмотреть, прежде чем переходить улицу.",
+     "pl": "Powinieneś spojrzeć, zanim przejdziesz przez ulicę.",
+     "de": "Du solltest schauen, bevor du die Straße überquerst.",
+     "fr": "Tu devrais regarder avant de traverser la rue.",
+     "es": "Debes mirar antes de cruzar la calle.",
+     "it": "Devi guardare prima di attraversare la strada.",
+     "pt": "Você deve olhar antes de atravessar a rua.",
+     "tr": "Caddeyi geçmeden önce bakmalısın."
+    },
+    {
+     "en": "It's safe to cross the street at the crosswalk.",
+     "uk": "Безпечно переходити вулицю на пішохідному переході.",
+     "ru": "Безопасно переходить улицу на пешеходном переходе.",
+     "pl": "Bezpiecznie jest przechodzić przez ulicę na przejściu dla pieszych.",
+     "de": "Es ist sicher, die Straße am Zebrastreifen zu überqueren.",
+     "fr": "Il est sûr de traverser la rue au passage piéton.",
+     "es": "Es seguro cruzar la calle en el paso de peatones.",
+     "it": "È sicuro attraversare la strada sulle strisce pedonali.",
+     "pt": "É seguro atravessar a rua na faixa de pedestres.",
+     "tr": "Yaya geçidinden caddeyi geçmek güvenlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bus-driver",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/bʌs ˈdraɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bus driver helped me find my way.",
+     "uk": "Водій автобуса допоміг мені знайти дорогу.",
+     "ru": "Водитель автобуса помог мне найти дорогу.",
+     "pl": "Kierowca autobusu pomógł mi znaleźć drogę.",
+     "de": "Der Busfahrer half mir, den Weg zu finden.",
+     "fr": "Le chauffeur de bus m'a aidé à trouver mon chemin.",
+     "es": "El conductor de autobús me ayudó a encontrar el camino.",
+     "it": "L'autista dell'autobus mi ha aiutato a trovare la strada.",
+     "pt": "O motorista de ônibus me ajudou a encontrar o caminho.",
+     "tr": "Otobüs şoförü yolumu bulmama yardım etti."
+    },
+    {
+     "en": "The bus driver was very friendly and polite.",
+     "uk": "Водій автобуса був дуже дружній і ввічливий.",
+     "ru": "Водитель автобуса был очень дружелюбным и вежливым.",
+     "pl": "Kierowca autobusu był bardzo przyjazny i uprzejmy.",
+     "de": "Der Busfahrer war sehr freundlich und höflich.",
+     "fr": "Le chauffeur de bus était très sympathique et poli.",
+     "es": "El conductor de autobús era muy amable y educado.",
+     "it": "L'autista dell'autobus era molto gentile e educato.",
+     "pt": "O motorista de ônibus era muito simpático e educado.",
+     "tr": "Otobüs şoförü çok dostça ve nazikti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-key",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/kɑr ki/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my car key in the park.",
+     "uk": "Я втратив ключ від машини в парку.",
+     "ru": "Я потерял ключ от машины в парке.",
+     "pl": "Zgubiłem kluczyk do samochodu w parku.",
+     "de": "Ich habe meinen Autoschlüssel im Park verloren.",
+     "fr": "J'ai perdu ma clé de voiture dans le parc.",
+     "es": "Perdí la llave del coche en el parque.",
+     "it": "Ho perso la chiave della macchina nel parco.",
+     "pt": "Perdi a chave do carro no parque.",
+     "tr": "Parkta araba anahtarımı kaybettim."
+    },
+    {
+     "en": "Can you help me find my car key?",
+     "uk": "Чи можеш допомогти мені знайти ключ від машини?",
+     "ru": "Ты можешь помочь мне найти ключ от машины?",
+     "pl": "Czy możesz mi pomóc znaleźć kluczyk do samochodu?",
+     "de": "Kannst du mir helfen, meinen Autoschlüssel zu finden?",
+     "fr": "Peux-tu m'aider à trouver ma clé de voiture?",
+     "es": "¿Puedes ayudarme a encontrar la llave del coche?",
+     "it": "Puoi aiutarmi a trovare la chiave della macchina?",
+     "pt": "Você pode me ajudar a encontrar a chave do carro?",
+     "tr": "Bana araba anahtarımı bulmamda yardım edebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.gasoline",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/ˈɡæsəˌlin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to buy gasoline for my car.",
+     "uk": "Мені потрібно купити бензин для машини.",
+     "ru": "Мне нужно купить бензин для машины.",
+     "pl": "Muszę kupić benzynę do samochodu.",
+     "de": "Ich muss Benzin für mein Auto kaufen.",
+     "fr": "J'ai besoin d'acheter de l'essence pour ma voiture.",
+     "es": "Necesito comprar gasolina para mi coche.",
+     "it": "Devo comprare benzina per la mia auto.",
+     "pt": "Preciso comprar gasolina para o meu carro.",
+     "tr": "Arabam için benzin almam gerekiyor."
+    },
+    {
+     "en": "The gasoline prices are very high now.",
+     "uk": "Ціни на бензин зараз дуже високі.",
+     "ru": "Цены на бензин сейчас очень высокие.",
+     "pl": "Ceny benzyny są teraz bardzo wysokie.",
+     "de": "Die Benzinpreise sind jetzt sehr hoch.",
+     "fr": "Les prix de l'essence sont très élevés maintenant.",
+     "es": "Los precios de la gasolina son muy altos ahora.",
+     "it": "I prezzi della benzina sono molto alti adesso.",
+     "pt": "Os preços da gasolina estão muito altos agora.",
+     "tr": "Benzin fiyatları şimdi çok yüksek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bus-ticket",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/bʌs ˈtɪkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a bus ticket for the trip.",
+     "uk": "Я купив квиток на автобус на поїздку.",
+     "ru": "Я купил билет на автобус на поездку.",
+     "pl": "Kupiłem bilet autobusowy na podróż.",
+     "de": "Ich habe eine Busfahrkarte für die Reise gekauft.",
+     "fr": "J'ai acheté un ticket de bus pour le voyage.",
+     "es": "Compré un billete de autobús para el viaje.",
+     "it": "Ho comprato un biglietto dell'autobus per il viaggio.",
+     "pt": "Comprei uma passagem de ônibus para a viagem.",
+     "tr": "Seyahat için bir otobüs bileti aldım."
+    },
+    {
+     "en": "Do you have a bus ticket for today?",
+     "uk": "Чи маєш квиток на автобус на сьогодні?",
+     "ru": "У тебя есть билет на автобус на сегодня?",
+     "pl": "Czy masz bilet autobusowy na dzisiaj?",
+     "de": "Hast du eine Busfahrkarte für heute?",
+     "fr": "As-tu un ticket de bus pour aujourd'hui?",
+     "es": "¿Tienes un billete de autobús para hoy?",
+     "it": "Hai un biglietto dell'autobus per oggi?",
+     "pt": "Você tem uma passagem de ônibus para hoje?",
+     "tr": "Bugün için bir otobüs bileti var mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.back-seat",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/bæk sit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I sat in the back seat of the car.",
+     "uk": "Я сів на заднє сидіння автомобіля.",
+     "ru": "Я сел на заднее сиденье машины.",
+     "pl": "Usiadłem na tylnym siedzeniu samochodu.",
+     "de": "Ich saß auf dem Rücksitz des Autos.",
+     "fr": "Je me suis assis sur le siège arrière de la voiture.",
+     "es": "Me senté en el asiento trasero del coche.",
+     "it": "Sono seduto sul sedile posteriore dell'auto.",
+     "pt": "Sentei-me no banco de trás do carro.",
+     "tr": "Araba arka koltuğuna oturdum."
+    },
+    {
+     "en": "Please buckle your seatbelt in the back seat.",
+     "uk": "Будь ласка, пристебніть ремінь на задньому сидінні.",
+     "ru": "Пожалуйста, пристегните ремень на заднем сиденье.",
+     "pl": "Proszę zapiąć pasy w tylnym siedzeniu.",
+     "de": "Bitte schnall dich auf dem Rücksitz an.",
+     "fr": "Veuillez attacher votre ceinture à l'arrière.",
+     "es": "Por favor, abróchate el cinturón en el asiento trasero.",
+     "it": "Per favore, allacciati la cintura sul sedile posteriore.",
+     "pt": "Por favor, coloque o cinto no banco de trás.",
+     "tr": "Lütfen arka koltukta emniyet kemerini takın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.front-seat",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/frʌnt sit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to sit in the front seat.",
+     "uk": "Я віддаю перевагу сидіти на передньому сидінні.",
+     "ru": "Я предпочитаю сидеть на переднем сиденье.",
+     "pl": "Wolę siedzieć na przednim siedzeniu.",
+     "de": "Ich sitze lieber auf dem Vordersitz.",
+     "fr": "Je préfère m'asseoir sur le siège avant.",
+     "es": "Prefiero sentarme en el asiento delantero.",
+     "it": "Preferisco sedermi sul sedile anteriore.",
+     "pt": "Prefiro sentar no banco da frente.",
+     "tr": "Ön koltukta oturmayı tercih ediyorum."
+    },
+    {
+     "en": "The driver is in the front seat.",
+     "uk": "Водій на передньому сидінні.",
+     "ru": "Водитель на переднем сиденье.",
+     "pl": "Kierowca jest na przednim siedzeniu.",
+     "de": "Der Fahrer sitzt auf dem Vordersitz.",
+     "fr": "Le conducteur est sur le siège avant.",
+     "es": "El conductor está en el asiento delantero.",
+     "it": "Il conducente è sul sedile anteriore.",
+     "pt": "O motorista está no banco da frente.",
+     "tr": "Sürücü ön koltukta."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.green-light",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ɡrin laɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The traffic light is green light now.",
+     "uk": "Світлофор зараз на зеленому світлі.",
+     "ru": "Светофор сейчас на зеленом свете.",
+     "pl": "Sygnał świetlny jest teraz zielony.",
+     "de": "Die Ampel ist jetzt grün.",
+     "fr": "Le feu de circulation est maintenant vert.",
+     "es": "El semáforo ahora está en luz verde.",
+     "it": "Il semaforo è verde adesso.",
+     "pt": "O semáforo está verde agora.",
+     "tr": "Trafik ışığı şimdi yeşil ışık."
+    },
+    {
+     "en": "You can go when the green light shows.",
+     "uk": "Ти можеш їхати, коли загориться зелене світло.",
+     "ru": "Ты можешь ехать, когда загорится зеленый свет.",
+     "pl": "Możesz jechać, gdy zapali się zielone światło.",
+     "de": "Du kannst fahren, wenn die grüne Ampel leuchtet.",
+     "fr": "Tu peux y aller quand le feu est vert.",
+     "es": "Puedes ir cuando la luz verde se encienda.",
+     "it": "Puoi andare quando il semaforo è verde.",
+     "pt": "Você pode ir quando o sinal estiver verde.",
+     "tr": "Yeşil ışık yandığında gidebilirsin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.red-light",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/rɛd laɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must stop at the red light.",
+     "uk": "Ти повинен зупинитися на червоному світлі.",
+     "ru": "Ты должен остановиться на красном свете.",
+     "pl": "Musisz zatrzymać się na czerwonym świetle.",
+     "de": "Du musst an der roten Ampel anhalten.",
+     "fr": "Tu dois t'arrêter au feu rouge.",
+     "es": "Debes parar en la luz roja.",
+     "it": "Devi fermarti al semaforo rosso.",
+     "pt": "Você deve parar no sinal vermelho.",
+     "tr": "Kırmızı ışıkta durmalısın."
+    },
+    {
+     "en": "The car stopped at the red light.",
+     "uk": "Автомобіль зупинився на червоному світлі.",
+     "ru": "Машина остановилась на красном свете.",
+     "pl": "Samochód zatrzymał się na czerwonym świetle.",
+     "de": "Das Auto hielt an der roten Ampel an.",
+     "fr": "La voiture s'est arrêtée au feu rouge.",
+     "es": "El coche se detuvo en la luz roja.",
+     "it": "L'auto si è fermata al semaforo rosso.",
+     "pt": "O carro parou no sinal vermelho.",
+     "tr": "Araba kırmızı ışıkta durdu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bus-station",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/bʌs ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bus station is near my house.",
+     "uk": "Автовокзал поруч з моїм будинком.",
+     "ru": "Автовокзал рядом с моим домом.",
+     "pl": "Dworzec autobusowy jest blisko mojego domu.",
+     "de": "Der Busbahnhof ist in der Nähe meines Hauses.",
+     "fr": "La gare routière est près de chez moi.",
+     "es": "La estación de autobuses está cerca de mi casa.",
+     "it": "La stazione degli autobus è vicino a casa mia.",
+     "pt": "A rodoviária é perto da minha casa.",
+     "tr": "Otogar evimin yakınında."
+    },
+    {
+     "en": "I will meet you at the bus station.",
+     "uk": "Я зустріну тебе на автовокзалі.",
+     "ru": "Я встречу тебя на автовокзале.",
+     "pl": "Spotkam cię na dworcu autobusowym.",
+     "de": "Ich treffe dich am Busbahnhof.",
+     "fr": "Je te rencontrerai à la gare routière.",
+     "es": "Te encontraré en la estación de autobuses.",
+     "it": "Ti incontrerò alla stazione degli autobus.",
+     "pt": "Eu vou te encontrar na rodoviária.",
+     "tr": "Seni otogarda buluşacağım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.tunnel",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈtʌnəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tunnel goes under the river.",
+     "uk": "Тунель проходить під річкою.",
+     "ru": "Тоннель идет под рекой.",
+     "pl": "Tunel przechodzi pod rzeką.",
+     "de": "Der Tunnel geht unter dem Fluss hindurch.",
+     "fr": "Le tunnel passe sous la rivière.",
+     "es": "El túnel pasa por debajo del río.",
+     "it": "Il tunnel passa sotto il fiume.",
+     "pt": "O túnel vai debaixo do rio.",
+     "tr": "Tünel nehrin altından geçiyor."
+    },
+    {
+     "en": "We drove through the tunnel yesterday.",
+     "uk": "Ми проїхали через тунель вчора.",
+     "ru": "Мы проехали через тоннель вчера.",
+     "pl": "Wczoraj przejechaliśmy przez tunel.",
+     "de": "Wir sind gestern durch den Tunnel gefahren.",
+     "fr": "Nous avons traversé le tunnel hier.",
+     "es": "Ayer pasamos por el túnel.",
+     "it": "Ieri siamo passati attraverso il tunnel.",
+     "pt": "Nós passamos pelo túnel ontem.",
+     "tr": "Dün tünelden geçtik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-wait-for-the-bus",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/weɪt fɔr ðə bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to wait for the bus now.",
+     "uk": "Мені потрібно чекати на автобус зараз.",
+     "ru": "Мне нужно ждать автобус сейчас.",
+     "pl": "Muszę czekać na autobus teraz.",
+     "de": "Ich muss jetzt auf den Bus warten.",
+     "fr": "Je dois attendre le bus maintenant.",
+     "es": "Necesito esperar el autobús ahora.",
+     "it": "Devo aspettare l'autobus adesso.",
+     "pt": "Preciso esperar o ônibus agora.",
+     "tr": "Şimdi otobüs beklemem lazım."
+    },
+    {
+     "en": "They are waiting for the bus at the stop.",
+     "uk": "Вони чекають на автобус на зупинці.",
+     "ru": "Они ждут автобус на остановке.",
+     "pl": "Czekają na autobus na przystanku.",
+     "de": "Sie warten auf den Bus an der Haltestelle.",
+     "fr": "Ils attendent le bus à l'arrêt.",
+     "es": "Están esperando el autobús en la parada.",
+     "it": "Stanno aspettando l'autobus alla fermata.",
+     "pt": "Eles estão esperando o ônibus na parada.",
+     "tr": "Onlar durakta otobüs bekliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.minibus",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈmɪniˌbʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We took a minibus to the city center.",
+     "uk": "Ми сіли в мікроавтобус до центру міста.",
+     "ru": "Мы сели в микроавтобус до центра города.",
+     "pl": "Wzięliśmy minibus do centrum miasta.",
+     "de": "Wir nahmen einen Kleinbus ins Stadtzentrum.",
+     "fr": "Nous avons pris un minibus jusqu'au centre-ville.",
+     "es": "Tomamos un microbús al centro de la ciudad.",
+     "it": "Abbiamo preso un minibus per il centro città.",
+     "pt": "Pegamos um micro-ônibus para o centro da cidade.",
+     "tr": "Şehir merkezine minibüsle gittik."
+    },
+    {
+     "en": "The minibus is very comfortable for short trips.",
+     "uk": "Мікроавтобус дуже зручний для коротких поїздок.",
+     "ru": "Микроавтобус очень удобен для коротких поездок.",
+     "pl": "Minibus jest bardzo wygodny na krótkie podróże.",
+     "de": "Der Kleinbus ist sehr bequem für kurze Fahrten.",
+     "fr": "Le minibus est très confortable pour de courts trajets.",
+     "es": "El microbús es muy cómodo para viajes cortos.",
+     "it": "Il minibus è molto comodo per viaggi brevi.",
+     "pt": "O micro-ônibus é muito confortável para viagens curtas.",
+     "tr": "Minibüs kısa yolculuklar için çok rahat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-turn-around",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/tɝn ɚˈaʊnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to turn around at the next street.",
+     "uk": "Тобі потрібно розвернутися на наступній вулиці.",
+     "ru": "Тебе нужно развернуться на следующей улице.",
+     "pl": "Musisz zawrócić na następnej ulicy.",
+     "de": "Du musst an der nächsten Straße wenden.",
+     "fr": "Tu dois faire demi-tour à la prochaine rue.",
+     "es": "Necesitas dar la vuelta en la próxima calle.",
+     "it": "Devi fare inversione alla prossima strada.",
+     "pt": "Você precisa dar meia-volta na próxima rua.",
+     "tr": "Bir sonraki sokakta geri dönmelisin."
+    },
+    {
+     "en": "I had to turn around because I missed the turn.",
+     "uk": "Мені довелося розвернутися, бо я пропустив поворот.",
+     "ru": "Мне пришлось развернуться, потому что я пропустил поворот.",
+     "pl": "Musiałem zawrócić, bo przeoczyłem zakręt.",
+     "de": "Ich musste wenden, weil ich die Kurve verpasst habe.",
+     "fr": "J'ai dû faire demi-tour parce que j'ai raté le virage.",
+     "es": "Tuve que dar la vuelta porque me perdí la salida.",
+     "it": "Ho dovuto fare inversione perché ho perso la svolta.",
+     "pt": "Tive que dar meia-volta porque perdi a curva.",
+     "tr": "Dönüşü kaçırdığım için geri dönmek zorunda kaldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.train-driver",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/treɪn ˈdraɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train driver starts the train at 8 AM.",
+     "uk": "Машиніст починає поїзд о 8 ранку.",
+     "ru": "Машинист начинает поезд в 8 утра.",
+     "pl": "Maszynista uruchamia pociąg o 8 rano.",
+     "de": "Der Lokführer startet den Zug um 8 Uhr.",
+     "fr": "Le conducteur de train démarre le train à 8 heures.",
+     "es": "El maquinista comienza el tren a las 8 de la mañana.",
+     "it": "Il macchinista avvia il treno alle 8 del mattino.",
+     "pt": "O maquinista inicia o trem às 8 da manhã.",
+     "tr": "Makinist treni sabah 8'de başlatır."
+    },
+    {
+     "en": "A train driver must be very careful.",
+     "uk": "Машиніст повинен бути дуже обережним.",
+     "ru": "Машинист должен быть очень осторожным.",
+     "pl": "Maszynista musi być bardzo ostrożny.",
+     "de": "Ein Lokführer muss sehr vorsichtig sein.",
+     "fr": "Un conducteur de train doit être très prudent.",
+     "es": "Un maquinista debe ser muy cuidadoso.",
+     "it": "Un macchinista deve essere molto attento.",
+     "pt": "Um maquinista deve ser muito cuidadoso.",
+     "tr": "Makinist çok dikkatli olmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.by-taxi",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/baɪ ˈtæksi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I went to the airport by taxi yesterday.",
+     "uk": "Вчора я поїхав до аеропорту на таксі.",
+     "ru": "Вчера я доехал до аэропорта на такси.",
+     "pl": "Wczoraj pojechałem na lotnisko taksówką.",
+     "de": "Ich bin gestern mit dem Taxi zum Flughafen gefahren.",
+     "fr": "Hier, je suis allé à l'aéroport en taxi.",
+     "es": "Ayer fui al aeropuerto en taxi.",
+     "it": "Ieri sono andato all'aeroporto in taxi.",
+     "pt": "Ontem fui ao aeroporto de táxi.",
+     "tr": "Dün havaalanına taksiyle gittim."
+    },
+    {
+     "en": "We can travel by taxi if it rains.",
+     "uk": "Якщо піде дощ, ми можемо їхати на таксі.",
+     "ru": "Если будет дождь, мы можем поехать на такси.",
+     "pl": "Jeśli będzie padać, możemy jechać taksówką.",
+     "de": "Wenn es regnet, können wir mit dem Taxi fahren.",
+     "fr": "Nous pouvons voyager en taxi s'il pleut.",
+     "es": "Podemos viajar en taxi si llueve.",
+     "it": "Possiamo viaggiare in taxi se piove.",
+     "pt": "Podemos viajar de táxi se chover.",
+     "tr": "Eğer yağmur yağarsa, taksiyle gidebiliriz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-take-the-bus",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/teɪk ðə bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to take the bus to school.",
+     "uk": "Мені потрібно сісти на автобус до школи.",
+     "ru": "Мне нужно поехать на автобусе в школу.",
+     "pl": "Muszę pojechać autobusem do szkoły.",
+     "de": "Ich muss den Bus zur Schule nehmen.",
+     "fr": "Je dois prendre le bus pour l'école.",
+     "es": "Necesito coger el autobús para ir a la escuela.",
+     "it": "Devo prendere l'autobus per andare a scuola.",
+     "pt": "Preciso pegar o ônibus para a escola.",
+     "tr": "Okula gitmek için otobüse binmem lazım."
+    },
+    {
+     "en": "She prefers to take the bus instead of walking.",
+     "uk": "Вона надає перевагу сісти на автобус, а не йти пішки.",
+     "ru": "Она предпочитает поехать на автобусе, а не идти пешком.",
+     "pl": "Ona woli pojechać autobusem, zamiast iść pieszo.",
+     "de": "Sie zieht es vor, den Bus zu nehmen, anstatt zu laufen.",
+     "fr": "Elle préfère prendre le bus plutôt que de marcher.",
+     "es": "Ella prefiere coger el autobús en lugar de caminar.",
+     "it": "Lei preferisce prendere l'autobus piuttosto che camminare.",
+     "pt": "Ela prefere pegar o ônibus em vez de andar.",
+     "tr": "Yürümek yerine otobüse binmeyi tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-take-a-taxi",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/teɪk ə ˈtæksi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to take a taxi home tonight.",
+     "uk": "Я хочу взяти таксі додому сьогодні ввечері.",
+     "ru": "Я хочу взять такси домой сегодня вечером.",
+     "pl": "Chcę wziąć taksówkę do domu dzisiaj wieczorem.",
+     "de": "Ich möchte heute Abend ein Taxi nach Hause nehmen.",
+     "fr": "Je veux prendre un taxi pour rentrer ce soir.",
+     "es": "Quiero coger un taxi a casa esta noche.",
+     "it": "Voglio prendere un taxi per tornare a casa stasera.",
+     "pt": "Quero pegar um táxi para casa esta noite.",
+     "tr": "Bu gece eve taksiyle gitmek istiyorum."
+    },
+    {
+     "en": "It's easier to take a taxi than to walk.",
+     "uk": "Легше взяти таксі, ніж йти пішки.",
+     "ru": "Легче взять такси, чем идти пешком.",
+     "pl": "Łatwiej wziąć taksówkę niż iść pieszo.",
+     "de": "Es ist einfacher, ein Taxi zu nehmen, als zu laufen.",
+     "fr": "C'est plus facile de prendre un taxi que de marcher.",
+     "es": "Es más fácil coger un taxi que caminar.",
+     "it": "È più facile prendere un taxi che camminare.",
+     "pt": "É mais fácil pegar um táxi do que andar.",
+     "tr": "Yürümektense taksiye binmek daha kolay."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.yellow-light",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈjɛloʊ laɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The yellow light means to slow down.",
+     "uk": "Жовте світло означає зменшити швидкість.",
+     "ru": "Жёлтый свет означает замедлиться.",
+     "pl": "Żółte światło oznacza zwolnić.",
+     "de": "Das gelbe Licht bedeutet, langsamer zu fahren.",
+     "fr": "Le feu orange signifie ralentir.",
+     "es": "La luz ámbar significa reducir la velocidad.",
+     "it": "La luce gialla significa rallentare.",
+     "pt": "O sinal amarelo significa desacelerar.",
+     "tr": "Sarı ışık yavaşlamak anlamına gelir."
+    },
+    {
+     "en": "You must stop at the yellow light.",
+     "uk": "Ви повинні зупинитися на жовтому світлі.",
+     "ru": "Вы должны остановиться на жёлтом свете.",
+     "pl": "Musisz zatrzymać się na żółtym świetle.",
+     "de": "Du musst am gelben Licht anhalten.",
+     "fr": "Vous devez vous arrêter au feu orange.",
+     "es": "Debes parar en la luz ámbar.",
+     "it": "Devi fermarti al semaforo giallo.",
+     "pt": "Você deve parar no sinal amarelo.",
+     "tr": "Sarı ışıkta durmalısın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.tractor",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˈtræktɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tractor is used for farming.",
+     "uk": "Трактор використовується для сільського господарства.",
+     "ru": "Трактор используется для сельского хозяйства.",
+     "pl": "Traktor jest używany w rolnictwie.",
+     "de": "Der Traktor wird in der Landwirtschaft eingesetzt.",
+     "fr": "Le tracteur est utilisé pour l'agriculture.",
+     "es": "El tractor se utiliza para la agricultura.",
+     "it": "Il trattore è usato per l'agricoltura.",
+     "pt": "O trator é usado para a agricultura.",
+     "tr": "Traktör tarım için kullanılır."
+    },
+    {
+     "en": "He drives a tractor on the farm.",
+     "uk": "Він їздить на тракторі на фермі.",
+     "ru": "Он управляет трактором на ферме.",
+     "pl": "On jeździ traktorem na farmie.",
+     "de": "Er fährt einen Traktor auf dem Bauernhof.",
+     "fr": "Il conduit un tracteur à la ferme.",
+     "es": "Él conduce un tractor en la granja.",
+     "it": "Lui guida un trattore nella fattoria.",
+     "pt": "Ele dirige um trator na fazenda.",
+     "tr": "O çiftlikte traktör kullanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.metro-station",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈmɛˌtroʊ ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The metro station is very crowded today.",
+     "uk": "Станція метро сьогодні дуже переповнена.",
+     "ru": "Станция метро сегодня очень переполнена.",
+     "pl": "Stacja metra jest dzisiaj bardzo zatłoczona.",
+     "de": "Die U-Bahn-Station ist heute sehr überfüllt.",
+     "fr": "La station de métro est très bondée aujourd'hui.",
+     "es": "La estación de metro está muy concurrida hoy.",
+     "it": "La stazione della metropolitana è molto affollata oggi.",
+     "pt": "A estação de metrô está muito cheia hoje.",
+     "tr": "Metro istasyonu bugün çok kalabalık."
+    },
+    {
+     "en": "She waits at the metro station every morning.",
+     "uk": "Вона чекає на станції метро щоранку.",
+     "ru": "Она ждет на станции метро каждое утро.",
+     "pl": "Ona czeka na stacji metra każdego ranka.",
+     "de": "Sie wartet jeden Morgen an der U-Bahn-Station.",
+     "fr": "Elle attend à la station de métro chaque matin.",
+     "es": "Ella espera en la estación de metro cada mañana.",
+     "it": "Lei aspetta alla stazione della metropolitana ogni mattina.",
+     "pt": "Ela espera na estação de metrô todas as manhãs.",
+     "tr": "Her sabah metro istasyonunda bekliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.electric-bike",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ɪˈlɛktrɪk baɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ride my electric bike to the park.",
+     "uk": "Я їжджу на своєму електровелосипеді до парку.",
+     "ru": "Я катаюсь на своем электровелосипеде в парк.",
+     "pl": "Jadę do parku na rowerze elektrycznym.",
+     "de": "Ich fahre mit meinem E-Bike zum Park.",
+     "fr": "Je monte sur mon vélo électrique pour aller au parc.",
+     "es": "Monto mi bicicleta eléctrica al parque.",
+     "it": "Vado al parco con la mia bici elettrica.",
+     "pt": "Vou para o parque de bicicleta elétrica.",
+     "tr": "Elektrikli bisikletimle parka gidiyorum."
+    },
+    {
+     "en": "Electric bikes are popular in the city.",
+     "uk": "Електровелосипеди популярні в місті.",
+     "ru": "Электровелосипеды популярны в городе.",
+     "pl": "Rowery elektryczne są popularne w mieście.",
+     "de": "E-Bikes sind in der Stadt beliebt.",
+     "fr": "Les vélos électriques sont populaires en ville.",
+     "es": "Las bicicletas eléctricas son populares en la ciudad.",
+     "it": "Le bici elettriche sono popolari in città.",
+     "pt": "As bicicletas elétricas são populares na cidade.",
+     "tr": "Elektrikli bisikletler şehirde popüler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.busy-road",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈbɪzi roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful when crossing the busy road.",
+     "uk": "Будьте обережні, коли переходите жваву дорогу.",
+     "ru": "Будьте осторожны, переходя оживленную дорогу.",
+     "pl": "Bądź ostrożny, przechodząc ruchliwą drogę.",
+     "de": "Sei vorsichtig, wenn du die stark befahrene Straße überquerst.",
+     "fr": "Faites attention en traversant la route fréquentée.",
+     "es": "Ten cuidado al cruzar la carretera con mucho tráfico.",
+     "it": "Fai attenzione quando attraversi la strada trafficata.",
+     "pt": "Tenha cuidado ao atravessar a rua movimentada.",
+     "tr": "İşlek yolu geçerken dikkatli ol."
+    },
+    {
+     "en": "The busy road is hard to cross safely.",
+     "uk": "Жваву дорогу важко перейти безпечно.",
+     "ru": "Оживленную дорогу трудно перейти безопасно.",
+     "pl": "Ruchliwą drogę trudno przejść bezpiecznie.",
+     "de": "Die stark befahrene Straße ist schwer sicher zu überqueren.",
+     "fr": "La route fréquentée est difficile à traverser en toute sécurité.",
+     "es": "La carretera con mucho tráfico es difícil de cruzar de forma segura.",
+     "it": "La strada trafficata è difficile da attraversare in sicurezza.",
+     "pt": "A rua movimentada é difícil de atravessar com segurança.",
+     "tr": "İşlek yolu güvenli bir şekilde geçmek zordur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.main-road",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/meɪn roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The main road is closed for repairs.",
+     "uk": "Головна дорога закрита на ремонт.",
+     "ru": "Главная дорога закрыта на ремонт.",
+     "pl": "Główna droga jest zamknięta z powodu remontu.",
+     "de": "Die Hauptstraße ist wegen Reparaturen gesperrt.",
+     "fr": "La route principale est fermée pour des réparations.",
+     "es": "La carretera principal está cerrada por reparaciones.",
+     "it": "La strada principale è chiusa per lavori.",
+     "pt": "A estrada principal está fechada para reparos.",
+     "tr": "Ana yol onarımlar için kapalı."
+    },
+    {
+     "en": "I live near the main road.",
+     "uk": "Я живу біля головної дороги.",
+     "ru": "Я живу рядом с главной дорогой.",
+     "pl": "Mieszkam blisko głównej drogi.",
+     "de": "Ich wohne in der Nähe der Hauptstraße.",
+     "fr": "J'habite près de la route principale.",
+     "es": "Vivo cerca de la carretera principal.",
+     "it": "Vivo vicino alla strada principale.",
+     "pt": "Eu moro perto da estrada principal.",
+     "tr": "Ana yolun yakınında yaşıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.night-bus",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/naɪt bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I took the night bus home yesterday.",
+     "uk": "Я вчора їхав нічним автобусом додому.",
+     "ru": "Я ехал на ночном автобусе домой вчера.",
+     "pl": "Wczoraj pojechałem autobusem nocnym do domu.",
+     "de": "Ich nahm gestern den Nachtbus nach Hause.",
+     "fr": "J'ai pris le bus de nuit chez moi hier.",
+     "es": "Tomé el autobús nocturno a casa ayer.",
+     "it": "Ieri ho preso l'autobus notturno a casa.",
+     "pt": "Peguei o ônibus noturno para casa ontem.",
+     "tr": "Dün gece otobüsüyle eve gittim."
+    },
+    {
+     "en": "The night bus runs every hour.",
+     "uk": "Нічний автобус ходить щогодини.",
+     "ru": "Ночной автобус ходит каждый час.",
+     "pl": "Autobus nocny kursuje co godzinę.",
+     "de": "Der Nachtbus fährt jede Stunde.",
+     "fr": "Le bus de nuit circule toutes les heures.",
+     "es": "El autobús nocturno pasa cada hora.",
+     "it": "L'autobus notturno passa ogni ora.",
+     "pt": "O ônibus noturno passa a cada hora.",
+     "tr": "Gece otobüsü her saat kalkıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.airport-bus",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈɛrˌpɔrt bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The airport bus leaves every 30 minutes.",
+     "uk": "Автобус до аеропорту відправляється кожні 30 хвилин.",
+     "ru": "Автобус в аэропорт уходит каждые 30 минут.",
+     "pl": "Autobus na lotnisko odjeżdża co 30 minut.",
+     "de": "Der Flughafenbus fährt alle 30 Minuten.",
+     "fr": "Le bus pour l'aéroport part toutes les 30 minutes.",
+     "es": "El autobús al aeropuerto sale cada 30 minutos.",
+     "it": "L'autobus per l'aeroporto parte ogni 30 minuti.",
+     "pt": "O ônibus para o aeroporto sai a cada 30 minutos.",
+     "tr": "Havalimanı otobüsü her 30 dakikada bir kalkıyor."
+    },
+    {
+     "en": "I took the airport bus to my flight.",
+     "uk": "Я взяв автобус до аеропорту на свій рейс.",
+     "ru": "Я сел на автобус в аэропорт на свой рейс.",
+     "pl": "Wziąłem autobus na lotnisko na mój lot.",
+     "de": "Ich nahm den Flughafenbus zu meinem Flug.",
+     "fr": "J'ai pris le bus pour l'aéroport pour mon vol.",
+     "es": "Tomé el autobús al aeropuerto para mi vuelo.",
+     "it": "Ho preso l'autobus per l'aeroporto per il mio volo.",
+     "pt": "Peguei o ônibus para o aeroporto para meu voo.",
+     "tr": "Uçuşum için havalimanı otobüsünü aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.electric-car",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ɪˈlɛktrɪk kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My neighbor has an electric car.",
+     "uk": "У мого сусіда є електромобіль.",
+     "ru": "У моего соседа есть электромобиль.",
+     "pl": "Mój sąsiad ma samochód elektryczny.",
+     "de": "Mein Nachbar hat ein Elektroauto.",
+     "fr": "Mon voisin a une voiture électrique.",
+     "es": "Mi vecino tiene un coche eléctrico.",
+     "it": "Il mio vicino ha un'auto elettrica.",
+     "pt": "Meu vizinho tem um carro elétrico.",
+     "tr": "Komşumun elektrikli arabası var."
+    },
+    {
+     "en": "Electric cars are good for the environment.",
+     "uk": "Електромобілі корисні для навколишнього середовища.",
+     "ru": "Электромобили полезны для окружающей среды.",
+     "pl": "Samochody elektryczne są dobre dla środowiska.",
+     "de": "Elektroautos sind gut für die Umwelt.",
+     "fr": "Les voitures électriques sont bonnes pour l'environnement.",
+     "es": "Los coches eléctricos son buenos para el medio ambiente.",
+     "it": "Le auto elettriche sono buone per l'ambiente.",
+     "pt": "Os carros elétricos são bons para o meio ambiente.",
+     "tr": "Elektrikli arabalar çevre için iyidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bus-lane",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/bʌs leɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Only buses can use the bus lane.",
+     "uk": "Тільки автобуси можуть використовувати смугу для автобусів.",
+     "ru": "Только автобусы могут использовать автобусную полосу.",
+     "pl": "Tylko autobusy mogą korzystać z buspasu.",
+     "de": "Nur Busse dürfen die Busspur benutzen.",
+     "fr": "Seuls les bus peuvent utiliser la voie de bus.",
+     "es": "Solo los autobuses pueden usar el carril bus.",
+     "it": "Solo gli autobus possono usare la corsia preferenziale.",
+     "pt": "Apenas os ônibus podem usar a faixa de ônibus.",
+     "tr": "Sadece otobüsler otobüs şeridini kullanabilir."
+    },
+    {
+     "en": "The bus lane is very busy during rush hour.",
+     "uk": "Смуга для автобусів дуже зайнята під час пік.",
+     "ru": "Автобусная полоса очень загружена в час пик.",
+     "pl": "Buspas jest bardzo zajęty w godzinach szczytu.",
+     "de": "Die Busspur ist während der Hauptverkehrszeit sehr beschäftigt.",
+     "fr": "La voie de bus est très fréquentée pendant les heures de pointe.",
+     "es": "El carril bus está muy ocupado durante la hora pico.",
+     "it": "La corsia preferenziale è molto affollata durante l'ora di punta.",
+     "pt": "A faixa de ônibus está muito ocupada durante o horário de pico.",
+     "tr": "Otobüs şeridi yoğun saatlerde çok kalabalık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.rowing-boat",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/ˈroʊɪŋ boʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We rented a rowing boat at the lake.",
+     "uk": "Ми орендували весловий човен на озері.",
+     "ru": "Мы арендовали вёсельную лодку на озере.",
+     "pl": "Wynajęliśmy łódź wiosłową nad jeziorem.",
+     "de": "Wir haben ein Ruderboot am See gemietet.",
+     "fr": "Nous avons loué une barque au lac.",
+     "es": "Alquilamos una barca de remos en el lago.",
+     "it": "Abbiamo affittato una barca a remi al lago.",
+     "pt": "Alugamos um barco a remo no lago.",
+     "tr": "Gölün yanında bir kayık kiraladık."
+    },
+    {
+     "en": "Rowing boats are fun to use in summer.",
+     "uk": "Веслові човни цікаво використовувати влітку.",
+     "ru": "Вёсельные лодки интересно использовать летом.",
+     "pl": "Łodzie wiosłowe są zabawne latem.",
+     "de": "Ruderboote machen im Sommer Spaß.",
+     "fr": "Les barques sont amusantes à utiliser en été.",
+     "es": "Las barcas de remos son divertidas de usar en verano.",
+     "it": "Le barche a remi sono divertenti da usare in estate.",
+     "pt": "Os barcos a remo são divertidos de usar no verão.",
+     "tr": "Yazın kayık kullanmak eğlencelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.sailboat",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈseɪlˌboʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I saw a sailboat on the water.",
+     "uk": "Я бачив вітрильник на воді.",
+     "ru": "Я видел парусник на воде.",
+     "pl": "Widziałem żaglówkę na wodzie.",
+     "de": "Ich sah ein Segelboot auf dem Wasser.",
+     "fr": "J'ai vu un voilier sur l'eau.",
+     "es": "Vi un velero en el agua.",
+     "it": "Ho visto una barca a vela sull'acqua.",
+     "pt": "Eu vi um veleiro na água.",
+     "tr": "Suda bir yelkenli gördüm."
+    },
+    {
+     "en": "Sailboats are great for sailing trips.",
+     "uk": "Вітрильники чудові для вітрильних подорожей.",
+     "ru": "Парусники отличны для парусных путешествий.",
+     "pl": "Żaglówki są świetne na rejsy.",
+     "de": "Segelboote sind großartig für Segeltörns.",
+     "fr": "Les voiliers sont parfaits pour les voyages en bateau.",
+     "es": "Los veleros son geniales para viajes en barco.",
+     "it": "I velieri sono fantastici per viaggi in barca.",
+     "pt": "Os veleiros são ótimos para viagens de barco.",
+     "tr": "Yelkenliler yelkenli geziler için harikadır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-door",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/kɑr dɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please close the car door carefully.",
+     "uk": "Будь ласка, закрийте дверцята машини обережно.",
+     "ru": "Пожалуйста, закройте дверь машины осторожно.",
+     "pl": "Proszę ostrożnie zamknąć drzwi samochodu.",
+     "de": "Bitte schließen Sie die Autotür vorsichtig.",
+     "fr": "Veuillez fermer la portière avec précaution.",
+     "es": "Por favor, cierra la puerta del coche con cuidado.",
+     "it": "Per favore, chiudi la portiera con attenzione.",
+     "pt": "Por favor, feche a porta do carro com cuidado.",
+     "tr": "Lütfen araba kapısını dikkatlice kapatın."
+    },
+    {
+     "en": "The car door is stuck and won't open.",
+     "uk": "Дверцята машини застрягла і не відкривається.",
+     "ru": "Дверь машины застряла и не открывается.",
+     "pl": "Drzwi samochodu się zacięły i nie otwierają się.",
+     "de": "Die Autotür klemmt und lässt sich nicht öffnen.",
+     "fr": "La portière est coincée et ne s'ouvre pas.",
+     "es": "La puerta del coche está atascada y no se abre.",
+     "it": "La portiera è bloccata e non si apre.",
+     "pt": "A porta do carro está presa e não abre.",
+     "tr": "Araba kapısı sıkıştı ve açılmıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bus-number",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/bʌs ˈnʌmbɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is the bus number to the city center?",
+     "uk": "Який номер автобуса до центру міста?",
+     "ru": "Какой номер автобуса до центра города?",
+     "pl": "Jaki jest numer autobusu do centrum miasta?",
+     "de": "Wie lautet die Busnummer zum Stadtzentrum?",
+     "fr": "Quel est le numéro de bus pour le centre-ville?",
+     "es": "¿Cuál es el número de autobús al centro de la ciudad?",
+     "it": "Qual è il numero dell'autobus per il centro città?",
+     "pt": "Qual é o número do ônibus para o centro da cidade?",
+     "tr": "Şehir merkezine giden otobüs numarası nedir?"
+    },
+    {
+     "en": "I forgot the bus number for my trip.",
+     "uk": "Я забув номер автобуса на свою поїздку.",
+     "ru": "Я забыл номер автобуса на свою поездку.",
+     "pl": "Zapomniałem numeru autobusu na swoją podróż.",
+     "de": "Ich habe die Busnummer für meine Reise vergessen.",
+     "fr": "J'ai oublié le numéro de bus pour mon voyage.",
+     "es": "Olvidé el número de autobús para mi viaje.",
+     "it": "Ho dimenticato il numero dell'autobus per il mio viaggio.",
+     "pt": "Esqueci o número do ônibus para a minha viagem.",
+     "tr": "Seyahatim için otobüs numarasını unuttum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.kick-scooter",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/kɪk ˈskutɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ride my kick scooter to school.",
+     "uk": "Я їжджу на самокат до школи.",
+     "ru": "Я катаюсь на самокате в школу.",
+     "pl": "Jeżdżę na hulajnodze do szkoły.",
+     "de": "Ich fahre mit meinem Tretroller zur Schule.",
+     "fr": "Je vais à l'école en trottinette.",
+     "es": "Voy a la escuela en patinete.",
+     "it": "Vado a scuola con il monopattino.",
+     "pt": "Vou para a escola de patinete.",
+     "tr": "Okula kick scooter ile gidiyorum."
+    },
+    {
+     "en": "Kick scooters are popular with kids.",
+     "uk": "Самокати популярні серед дітей.",
+     "ru": "Самокаты популярны среди детей.",
+     "pl": "Hulajnogi są popularne wśród dzieci.",
+     "de": "Tretroller sind bei Kindern beliebt.",
+     "fr": "Les trottinettes sont populaires auprès des enfants.",
+     "es": "Los patinetes son populares entre los niños.",
+     "it": "I monopattini sono popolari tra i bambini.",
+     "pt": "Os patinetes são populares entre as crianças.",
+     "tr": "Scooter'lar çocuklar arasında popülerdir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.ticket-price",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ˈtɪkət praɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is the ticket price for the train?",
+     "uk": "Яка ціна квитка на поїзд?",
+     "ru": "Какова цена билета на поезд?",
+     "pl": "Jaka jest cena biletu na pociąg?",
+     "de": "Wie hoch ist der Fahrpreis für den Zug?",
+     "fr": "Quel est le prix du billet pour le train?",
+     "es": "¿Cuál es el precio del billete para el tren?",
+     "it": "Qual è il prezzo del biglietto per il treno?",
+     "pt": "Qual é o preço da passagem para o trem?",
+     "tr": "Tren için bilet fiyatı nedir?"
+    },
+    {
+     "en": "The ticket price increased last week.",
+     "uk": "Ціна квитка зросла минулого тижня.",
+     "ru": "Цена билета увеличилась на прошлой неделе.",
+     "pl": "Cena biletu wzrosła w zeszłym tygodniu.",
+     "de": "Der Fahrpreis ist letzte Woche gestiegen.",
+     "fr": "Le prix du billet a augmenté la semaine dernière.",
+     "es": "El precio del billete aumentó la semana pasada.",
+     "it": "Il prezzo del biglietto è aumentato la settimana scorsa.",
+     "pt": "O preço da passagem aumentou na semana passada.",
+     "tr": "Bilet fiyatı geçen hafta arttı."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

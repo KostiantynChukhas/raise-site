@@ -2,7 +2,7 @@
  "id": "shopping-c1",
  "topic": "shopping",
  "level": "c1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "shopping.chargeback",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˈtʃɑrdʒˌbæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I filed a chargeback for the fraudulent transaction.",
+     "uk": "Я подав чарджбек на шахрайську транзакцію.",
+     "ru": "Я подал чарджбэк на мошенническую транзакцию.",
+     "pl": "Złożyłem obciążenie zwrotne na oszukańczą transakcję.",
+     "de": "Ich habe eine Rückbuchung für die betrügerische Transaktion beantragt.",
+     "fr": "J'ai déposé une rétrofacturation pour la transaction frauduleuse.",
+     "es": "Presenté un contracargo por la transacción fraudulenta.",
+     "it": "Ho presentato uno storno per la transazione fraudolenta.",
+     "pt": "Solicitei um estorno pela transação fraudulenta.",
+     "tr": "Sahte işlem için ters ibraz başvurusunda bulundum."
+    },
+    {
+     "en": "The chargeback process can take several weeks.",
+     "uk": "Процес чарджбеку може зайняти кілька тижнів.",
+     "ru": "Процесс чарджбэка может занять несколько недель.",
+     "pl": "Proces obciążenia zwrotnego może zająć kilka tygodni.",
+     "de": "Der Rückbuchungsprozess kann mehrere Wochen dauern.",
+     "fr": "Le processus de rétrofacturation peut prendre plusieurs semaines.",
+     "es": "El proceso de contracargo puede tardar varias semanas.",
+     "it": "Il processo di storno può richiedere diverse settimane.",
+     "pt": "O processo de estorno pode levar várias semanas.",
+     "tr": "Ters ibraz süreci birkaç hafta sürebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.dynamic-pricing",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/daɪˈnæmɪk ˈpraɪsɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Dynamic pricing helps businesses adjust to market demands.",
+     "uk": "Динамічне ціноутворення допомагає бізнесу адаптуватися до попиту.",
+     "ru": "Динамическое ценообразование помогает бизнесу адаптироваться к спросу.",
+     "pl": "Dynamiczne ustalanie cen pomaga firmom dostosować się do popytu.",
+     "de": "Dynamische Preisgestaltung hilft Unternehmen, sich an die Marktnachfrage anzupassen.",
+     "fr": "La tarification dynamique aide les entreprises à s'adapter à la demande du marché.",
+     "es": "La precios dinámicos ayudan a las empresas a ajustarse a la demanda del mercado.",
+     "it": "I prezzi dinamici aiutano le aziende ad adattarsi alla domanda di mercato.",
+     "pt": "A precificação dinâmica ajuda as empresas a se ajustarem à demanda do mercado.",
+     "tr": "Dinamik fiyatlandırma, işletmelerin piyasa taleplerine uyum sağlamasına yardımcı olur."
+    },
+    {
+     "en": "Many airlines use dynamic pricing for their tickets.",
+     "uk": "Багато авіакомпаній використовують динамічне ціноутворення для своїх квитків.",
+     "ru": "Многие авиакомпании используют динамическое ценообразование для своих билетов.",
+     "pl": "Wiele linii lotniczych stosuje dynamiczne ustalanie cen biletów.",
+     "de": "Viele Fluggesellschaften verwenden dynamische Preisgestaltung für ihre Tickets.",
+     "fr": "De nombreuses compagnies aériennes utilisent la tarification dynamique pour leurs billets.",
+     "es": "Muchas aerolíneas utilizan precios dinámicos para sus boletos.",
+     "it": "Molte compagnie aeree utilizzano prezzi dinamici per i loro biglietti.",
+     "pt": "Muitas companhias aéreas usam precificação dinâmica para seus bilhetes.",
+     "tr": "Birçok havayolu, biletleri için dinamik fiyatlandırma kullanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.price-gouging",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/praɪs ˈɡaʊdʒɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Price gouging is illegal during emergencies.",
+     "uk": "Цінове здирництво є незаконним під час надзвичайних ситуацій.",
+     "ru": "Взвинчивание цен незаконно во время чрезвычайных ситуаций.",
+     "pl": "Zawyżanie cen jest nielegalne w czasie kryzysu.",
+     "de": "Wucher ist in Notfällen illegal.",
+     "fr": "Les prix abusifs sont illégaux en cas d'urgence.",
+     "es": "La especulación de precios es ilegal durante emergencias.",
+     "it": "La speculazione sui prezzi è illegale durante le emergenze.",
+     "pt": "O abuso de preços é ilegal durante emergências.",
+     "tr": "Fahiş fiyat, acil durumlarda yasadışıdır."
+    },
+    {
+     "en": "Consumers should report any price gouging they encounter.",
+     "uk": "Споживачі повинні повідомляти про будь-яке цінове здирництво.",
+     "ru": "Потребители должны сообщать о любом взвинчивании цен.",
+     "pl": "Konsumenci powinni zgłaszać wszelkie przypadki zawyżania cen.",
+     "de": "Verbraucher sollten jede Wucherpraktik, na die sie stoßen, melden.",
+     "fr": "Les consommateurs doivent signaler tout prix abusif qu'ils rencontrent.",
+     "es": "Los consumidores deben informar sobre cualquier especulación de precios que encuentren.",
+     "it": "I consumatori devono segnalare qualsiasi speculazione sui prezzi che incontrano.",
+     "pt": "Os consumidores devem relatar qualquer abuso de preços que encontrarem.",
+     "tr": "Tüketiciler, karşılaştıkları fahiş fiyatları bildirmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.loss-leader",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/lɔs ˈlidɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store used a loss leader to attract customers.",
+     "uk": "Магазин використовував товар-приманку, щоб залучити клієнтів.",
+     "ru": "Магазин использовал товар-приманку для привлечения клиентов.",
+     "pl": "Sklep użył produktu wabika, aby przyciągnąć klientów.",
+     "de": "Der Laden verwendete ein Lockvogelangebot, um Kunden anzulocken.",
+     "fr": "Le magasin a utilisé un produit d'appel pour attirer des clients.",
+     "es": "La tienda utilizó un producto gancho para atraer clientes.",
+     "it": "Il negozio ha utilizzato un prodotto civetta per attrarre clienti.",
+     "pt": "A loja usou um produto isca para atrair clientes.",
+     "tr": "Mağaza, müşterileri çekmek için yem ürün kullandı."
+    },
+    {
+     "en": "Loss leaders can boost overall sales significantly.",
+     "uk": "Товари-приманки можуть суттєво підвищити загальні продажі.",
+     "ru": "Товары-приманки могут значительно увеличить общие продажи.",
+     "pl": "Produkty wabiki mogą znacznie zwiększyć całkowitą sprzedaż.",
+     "de": "Lockvogelangebote können den Gesamtverkauf erheblich steigern.",
+     "fr": "Les produits d'appel peuvent considérablement augmenter les ventes globales.",
+     "es": "Los productos gancho pueden aumentar significativamente las ventas totales.",
+     "it": "I prodotti civetta possono aumentare significativamente le vendite complessive.",
+     "pt": "Os produtos isca podem aumentar significativamente as vendas totais.",
+     "tr": "Yem ürünleri, toplam satışları önemli ölçüde artırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.upselling",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈʌpˌsɛlɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Upselling can increase a company's profit margins.",
+     "uk": "Апсейл може збільшити прибутковість компанії.",
+     "ru": "Апселлинг может увеличить прибыль компании.",
+     "pl": "Sprzedaż droższej wersji może zwiększyć zyski firmy.",
+     "de": "Upselling kann die Gewinnmargen eines Unternehmens erhöhen.",
+     "fr": "La montée en gamme peut augmenter les marges bénéficiaires d'une entreprise.",
+     "es": "El upselling puede aumentar los márgenes de beneficio de una empresa.",
+     "it": "L'upselling può aumentare i margini di profitto di un'azienda.",
+     "pt": "O upsell pode aumentar as margens de lucro de uma empresa.",
+     "tr": "Üst satış, bir şirketin kâr marjlarını artırabilir."
+    },
+    {
+     "en": "Salespeople often use upselling techniques to boost sales.",
+     "uk": "Продавці часто використовують техніки апсейлу для збільшення продажів.",
+     "ru": "Продавцы часто используют техники апселлинга для увеличения продаж.",
+     "pl": "Sprzedawcy często stosują techniki sprzedaży droższej wersji, aby zwiększyć sprzedaż.",
+     "de": "Verkäufer verwenden oft Upselling-Techniken, um den Umsatz zu steigern.",
+     "fr": "Les vendeurs utilisent souvent des techniques de montée en gamme pour augmenter les ventes.",
+     "es": "Los vendedores a menudo utilizan técnicas de upselling para aumentar las ventas.",
+     "it": "I venditori spesso utilizzano tecniche di upselling per aumentare le vendite.",
+     "pt": "Os vendedores costumam usar técnicas de upsell para aumentar as vendas.",
+     "tr": "Satış elemanları genellikle satışları artırmak için üst satış teknikleri kullanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bait-and-switch",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/beɪt ənd swɪtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bait and switch tactic is considered deceptive.",
+     "uk": "Тактика принади й підміни вважається обманною.",
+     "ru": "Тактика приманки и подмены считается обманной.",
+     "pl": "Taktyka reklamy-przynęty jest uważana za oszukańczą.",
+     "de": "Die Lockvogeltaktik wird als täuschend angesehen.",
+     "fr": "La publicité-appât est considérée comme trompeuse.",
+     "es": "La táctica de cebo y cambio se considera engañosa.",
+     "it": "La pubblicità civetta è considerata ingannevole.",
+     "pt": "A isca e troca é considerada enganosa.",
+     "tr": "Yemleme taktiği aldatıcı olarak kabul edilir."
+    },
+    {
+     "en": "Consumers should be aware of bait and switch offers.",
+     "uk": "Споживачі повинні бути обережними з пропозиціями принади й підміни.",
+     "ru": "Потребители должны быть осторожны с предложениями приманки и подмены.",
+     "pl": "Konsumenci powinni być ostrożni wobec ofert reklamy-przynęty.",
+     "de": "Verbraucher sollten sich vor Lockvogeltaktiken in Acht nehmen.",
+     "fr": "Les consommateurs doivent se méfier des offres publicitaires-appâts.",
+     "es": "Los consumidores deben tener cuidado con las ofertas de cebo y cambio.",
+     "it": "I consumatori devono stare attenti alle offerte di pubblicità civetta.",
+     "pt": "Os consumidores devem ter cuidado com as ofertas de isca e troca.",
+     "tr": "Tüketiciler, yemleme taktiklerine karşı dikkatli olmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.buyers-remorse",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/ˈbaɪɚz rɪˈmɔrs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I often experience buyer's remorse after large purchases.",
+     "uk": "Я часто відчуваю каяття покупця після великих покупок.",
+     "ru": "Я часто испытываю раскаяние покупателя после крупных покупок.",
+     "pl": "Często odczuwam wyrzuty sumienia po dużych zakupach.",
+     "de": "Ich habe oft Kaufreue nach großen Einkäufen.",
+     "fr": "Je ressens souvent un regret d'achat après de gros achats.",
+     "es": "A menudo siento arrepentimiento del comprador después de grandes compras.",
+     "it": "Spesso provo rimorso dell'acquirente dopo grandi acquisti.",
+     "pt": "Costumo sentir arrependimento da compra após grandes compras.",
+     "tr": "Büyük alışverişlerden sonra genellikle alışveriş pişmanlığı yaşıyorum."
+    },
+    {
+     "en": "Buyer's remorse can lead to returning items.",
+     "uk": "Каяти покупця може призвести до повернення товарів.",
+     "ru": "Раскаяние покупателя может привести к возврату товаров.",
+     "pl": "Wyrzuty sumienia po zakupie mogą prowadzić do zwrotu przedmiotów.",
+     "de": "Kaufreue kann dazu führen, dass Artikel zurückgegeben werden.",
+     "fr": "Le regret d'achat peut entraîner le retour d'articles.",
+     "es": "El arrepentimiento del comprador puede llevar al regreso de artículos.",
+     "it": "Il rimorso dell'acquirente può portare alla restituzione di articoli.",
+     "pt": "O arrependimento da compra pode levar à devolução de itens.",
+     "tr": "Alışveriş pişmanlığı, eşyaların iade edilmesine yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.retail-therapy",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˈriˌteɪl ˈθɛrəpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Retail therapy can lift your mood temporarily.",
+     "uk": "Шопінг-терапія може тимчасово підняти ваш настрій.",
+     "ru": "Шопинг-терапия может временно поднять ваше настроение.",
+     "pl": "Terapia zakupowa może tymczasowo poprawić nastrój.",
+     "de": "Shoppingtherapie kann Ihre Stimmung vorübergehend heben.",
+     "fr": "La thérapie par le shopping peut temporairement améliorer votre humeur.",
+     "es": "La terapia de compras puede levantar tu ánimo temporalmente.",
+     "it": "Lo shopping terapeutico può migliorare temporaneamente il tuo umore.",
+     "pt": "A terapia de compras pode levantar seu ânimo temporariamente.",
+     "tr": "Alışveriş terapisi, ruh halinizi geçici olarak yükseltebilir."
+    },
+    {
+     "en": "Many people enjoy retail therapy during stressful times.",
+     "uk": "Багато людей насолоджуються шопінг-терапією під час стресових часів.",
+     "ru": "Многие люди наслаждаются шопинг-терапией в стрессовые времена.",
+     "pl": "Wiele osób cieszy się terapią zakupową w stresujących czasach.",
+     "de": "Viele Menschen genießen Shoppingtherapie in stressigen Zeiten.",
+     "fr": "De nombreuses personnes apprécient la thérapie par le shopping en période de stress.",
+     "es": "Muchas personas disfrutan de la terapia de compras en momentos de estrés.",
+     "it": "Molte persone apprezzano lo shopping terapeutico nei momenti di stress.",
+     "pt": "Muitas pessoas desfrutam da terapia de compras em momentos estressantes.",
+     "tr": "Birçok insan stresli zamanlarda alışveriş terapisinden hoşlanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-splurge",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/splɝdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I decided to splurge on a new laptop.",
+     "uk": "Я вирішив розщедритися на новий ноутбук.",
+     "ru": "Я решил раскошелиться на новый ноутбук.",
+     "pl": "Postanowiłem zaszaleć na nowy laptop.",
+     "de": "Ich habe mich entschieden, mir einen neuen Laptop zu gönnen.",
+     "fr": "J'ai décidé de faire des folies pour un nouvel ordinateur portable.",
+     "es": "Decidí darme un capricho con una nueva computadora portátil.",
+     "it": "Ho deciso di fare una pazzia con un nuovo laptop.",
+     "pt": "Decidi esbanjar em um novo laptop.",
+     "tr": "Yeni bir dizüstü bilgisayara bol keseden harcamaya karar verdim."
+    },
+    {
+     "en": "Sometimes it's nice to splurge on yourself.",
+     "uk": "Іноді приємно розщедритися на себе.",
+     "ru": "Иногда приятно раскошелиться на себя.",
+     "pl": "Czasami miło jest zaszaleć dla siebie.",
+     "de": "Manchmal ist es schön, sich etwas zu gönnen.",
+     "fr": "Parfois, c'est agréable de faire des folies pour soi-même.",
+     "es": "A veces es bueno darse un capricho.",
+     "it": "A volte è bello fare una pazzia per se stessi.",
+     "pt": "Às vezes é bom esbanjar em si mesmo.",
+     "tr": "Bazen kendinize bol keseden harcamanız güzeldir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-skimp-on",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/skɪmp ɑn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't skimp on quality when buying a new car.",
+     "uk": "Не економте на якості, купуючи новий автомобіль.",
+     "ru": "Не экономьте на качестве, покупая новый автомобиль.",
+     "pl": "Nie oszczędzaj na jakości, kupując nowy samochód.",
+     "de": "Sparen Sie nicht an der Qualität, wenn Sie ein neues Auto kaufen.",
+     "fr": "Ne lésinez pas sur la qualité lors de l'achat d'une nouvelle voiture.",
+     "es": "No escatimes en calidad al comprar un coche nuevo.",
+     "it": "Non lesinare sulla qualità quando acquisti un'auto nuova.",
+     "pt": "Não economize na qualidade ao comprar um carro novo.",
+     "tr": "Yeni bir araba alırken kaliteden kısmayın."
+    },
+    {
+     "en": "It's tempting to skimp on groceries to save money.",
+     "uk": "Спокусливо економити на продуктах, щоб заощадити гроші.",
+     "ru": "Соблазнительно экономить на продуктах, чтобы сэкономить деньги.",
+     "pl": "Kuszące jest oszczędzać na artykułach spożywczych, aby zaoszczędzić pieniądze.",
+     "de": "Es ist verlockend, bei Lebensmitteln zu sparen, um Geld zu sparen.",
+     "fr": "Il est tentant de lésiner sur les courses pour économiser de l'argent.",
+     "es": "Es tentador escatimar en comestibles para ahorrar dinero.",
+     "it": "È allettante lesinare sui generi alimentari per risparmiare denaro.",
+     "pt": "É tentador economizar em compras para economizar dinheiro.",
+     "tr": "Para tasarrufu yapmak için market alışverişinden kısmak cazip geliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.conspicuous-consumption",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/kənˈspɪkjuəs kənˈsʌmpʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "His car is a symbol of conspicuous consumption.",
+     "uk": "Його автомобіль є символом показного споживання.",
+     "ru": "Его машина – символ демонстративного потребления.",
+     "pl": "Jego samochód jest symbolem konsumpcji na pokaz.",
+     "de": "Sein Auto ist ein Symbol für Geltungskonsum.",
+     "fr": "Sa voiture est un symbole de consommation ostentatoire.",
+     "es": "Su coche es un símbolo de consumo ostentoso.",
+     "it": "La sua auto è un simbolo di consumo vistoso.",
+     "pt": "O carro dele é um símbolo de consumo conspícuo.",
+     "tr": "Onun arabası, gösterişçi tüketimin bir sembolüdür."
+    },
+    {
+     "en": "Conspicuous consumption often leads to financial strain.",
+     "uk": "Показне споживання часто призводить до фінансових труднощів.",
+     "ru": "Демонстративное потребление часто приводит к финансовым трудностям.",
+     "pl": "Konsumpcja na pokaz często prowadzi do problemów finansowych.",
+     "de": "Geltungskonsum führt oft zu finanziellen Belastungen.",
+     "fr": "La consommation ostentatoire entraîne souvent des difficultés financières.",
+     "es": "El consumo ostentoso a menudo conduce a problemas financieros.",
+     "it": "Il consumo vistoso spesso porta a difficoltà finanziarie.",
+     "pt": "O consumo conspícuo muitas vezes leva a dificuldades financeiras.",
+     "tr": "Gösterişçi tüketim genellikle maddi zorluklara yol açar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-pay-through-the-nose",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/peɪ θru ðə noʊz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I had to pay through the nose for that hotel.",
+     "uk": "Я заплатив втридорога за той готель.",
+     "ru": "Я заплатил втридорога за этот отель.",
+     "pl": "Musiałem przepłacić za ten hotel.",
+     "de": "Ich musste mich dumm und dämlich zahlen für dieses Hotel.",
+     "fr": "J'ai dû payer les yeux de la tête pour cet hôtel.",
+     "es": "Tuve que pagar un ojo de la cara por ese hotel.",
+     "it": "Ho dovuto pagare un occhio della testa per quell'hotel.",
+     "pt": "Tive que pagar os olhos da cara por aquele hotel.",
+     "tr": "O otel için dünyanın parasını ödemek zorunda kaldım."
+    },
+    {
+     "en": "He paid through the nose for his new car.",
+     "uk": "Він заплатив втридорога за нову машину.",
+     "ru": "Он заплатил втридорога за свою новую машину.",
+     "pl": "On przepłacił za swój nowy samochód.",
+     "de": "Er hat sich dumm und dämlich gezahlt für sein neues Auto.",
+     "fr": "Il a payé les yeux de la tête pour sa nouvelle voiture.",
+     "es": "Pagó un ojo de la cara por su coche nuevo.",
+     "it": "Ha pagato un occhio della testa per la sua nuova auto.",
+     "pt": "Ele pagou os olhos da cara pelo carro novo.",
+     "tr": "Yeni arabası için dünyanın parasını ödedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.daylight-robbery",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪˌlaɪt ˈrɑbɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "That price feels like daylight robbery.",
+     "uk": "Ця ціна виглядає як грабіж серед білого дня.",
+     "ru": "Эта цена кажется грабежом средь бела дня.",
+     "pl": "Ta cena wygląda jak rozbój w biały dzień.",
+     "de": "Der Preis fühlt sich wie Nepp an.",
+     "fr": "Ce prix ressemble à un vol.",
+     "es": "Ese precio parece un robo a mano armada.",
+     "it": "Quel prezzo sembra una rapina a mano armata.",
+     "pt": "Esse preço parece um assalto.",
+     "tr": "O fiyat düpedüz soygun gibi."
+    },
+    {
+     "en": "Charging that much for a sandwich is daylight robbery.",
+     "uk": "Брати стільки за сендвіч – це грабіж серед білого дня.",
+     "ru": "Брать столько за сэндвич – это грабеж средь бела дня.",
+     "pl": "Brać tyle za kanapkę to rozbój w biały dzień.",
+     "de": "So viel für ein Sandwich zu verlangen, ist Nepp.",
+     "fr": "Faire payer autant pour un sandwich, c'est du vol.",
+     "es": "Cobrar tanto por un sándwich es un robo a mano armada.",
+     "it": "Chiedere così tanto per un panino è una rapina a mano armata.",
+     "pt": "Cobrar tanto por um sanduíche é um assalto.",
+     "tr": "Bir sandviç için bu kadar para istemek düpedüz soygun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.planned-obsolescence",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/plænd ˌɑbsəˈlɛsəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Planned obsolescence is common in electronics.",
+     "uk": "Запланована застарілість поширена в електроніці.",
+     "ru": "Запланированное устаревание распространено в электронике.",
+     "pl": "Planowane postarzanie produktu jest powszechne w elektronice.",
+     "de": "Geplante Obsoleszenz ist in der Elektronik verbreitet.",
+     "fr": "L'obsolescence programmée est courante dans l'électronique.",
+     "es": "La obsolescencia programada es común en la electrónica.",
+     "it": "L'obsolescenza programmata è comune nell'elettronica.",
+     "pt": "A obsolescência programada é comum na eletrônica.",
+     "tr": "Planlı eskitme, elektronik eşyalar için yaygındır."
+    },
+    {
+     "en": "Many consumers dislike planned obsolescence in products.",
+     "uk": "Багато споживачів не люблять заплановану застарілість у продуктах.",
+     "ru": "Многим потребителям не нравится запланированное устаревание в продуктах.",
+     "pl": "Wielu konsumentów nie lubi planowanego postarzania produktów.",
+     "de": "Viele Verbraucher mögen keine geplante Obsoleszenz bei Produkten.",
+     "fr": "De nombreux consommateurs n'aiment pas l'obsolescence programmée des produits.",
+     "es": "A muchos consumidores no les gusta la obsolescencia programada en los productos.",
+     "it": "Molti consumatori non amano l'obsolescenza programmata nei prodotti.",
+     "pt": "Muitos consumidores não gostam da obsolescência programada nos produtos.",
+     "tr": "Pek çok tüketici, ürünlerde planlı eskitmeyi sevmez."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.fast-fashion",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/fæst ˈfæʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Fast fashion promotes disposable clothing trends.",
+     "uk": "Швидка мода сприяє тенденціям одноразового одягу.",
+     "ru": "Быстрая мода способствует тенденциям одноразовой одежды.",
+     "pl": "Szybka moda promuje trendy jednorazowej odzieży.",
+     "de": "Fast Fashion fördert Trends für Wegwerfkleidung.",
+     "fr": "La mode jetable promeut les tendances de vêtements jetables.",
+     "es": "La moda rápida promueve tendencias de ropa desechable.",
+     "it": "La fast fashion promuove tendenze di abbigliamento usa e getta.",
+     "pt": "A moda rápida promove tendências de roupas descartáveis.",
+     "tr": "Hızlı moda, tek kullanımlık giysi trendlerini teşvik eder."
+    },
+    {
+     "en": "Many criticize fast fashion for its environmental impact.",
+     "uk": "Багато хто критикує швидку моду за її вплив на довкілля.",
+     "ru": "Многие критикуют быструю моду за ее влияние на окружающую среду.",
+     "pl": "Wielu krytykuje szybką modę za jej wpływ na środowisko.",
+     "de": "Viele kritisieren Fast Fashion wegen ihrer Umweltauswirkungen.",
+     "fr": "Beaucoup critiquent la mode jetable pour son impact environnemental.",
+     "es": "Muchos critican la moda rápida por su impacto ambiental.",
+     "it": "Molti criticano la fast fashion per il suo impatto ambientale.",
+     "pt": "Muitos criticam a moda rápida por seu impacto ambiental.",
+     "tr": "Birçok kişi hızlı modayı çevresel etkileri nedeniyle eleştiriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-take-in",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/teɪk ɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to take in this dress before the party.",
+     "uk": "Мені потрібно ушити цю сукню перед вечіркою.",
+     "ru": "Мне нужно ушить это платье перед вечеринкой.",
+     "pl": "Muszę zwęzić tę sukienkę przed przyjęciem.",
+     "de": "Ich muss dieses Kleid vor der Party enger machen.",
+     "fr": "Je dois reprendre cette robe avant la fête.",
+     "es": "Necesito estrechar este vestido antes de la fiesta.",
+     "it": "Devo stringere questo vestito prima della festa.",
+     "pt": "Preciso apertar este vestido antes da festa.",
+     "tr": "Partiden önce bu elbiseyi daraltmam gerekiyor."
+    },
+    {
+     "en": "Can you take in my trousers a bit?",
+     "uk": "Можеш трохи ушити мої штани?",
+     "ru": "Можешь немного ушить мои брюки?",
+     "pl": "Możesz trochę zwęzić moje spodnie?",
+     "de": "Kannst du meine Hose ein wenig enger machen?",
+     "fr": "Peux-tu reprendre un peu mon pantalon ?",
+     "es": "¿Puedes estrechar un poco mis pantalones?",
+     "it": "Puoi stringere un po' i miei pantaloni?",
+     "pt": "Você pode apertar um pouco minhas calças?",
+     "tr": "Pantolonumu biraz daraltabilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.off-the-rack",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ɔf ðə ræk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer off the rack clothes for convenience.",
+     "uk": "Я віддаю перевагу готовому одягу за зручність.",
+     "ru": "Я предпочитаю готовую одежду за удобство.",
+     "pl": "Wolę gotowy odzież dla wygody.",
+     "de": "Ich bevorzuge Kleidung von der Stange wegen der Bequemlichkeit.",
+     "fr": "Je préfère les vêtements prêt-à-porter pour leur commodité.",
+     "es": "Prefiero la ropa de confección por su comodidad.",
+     "it": "Preferisco i vestiti prêt-à-porter per comodità.",
+     "pt": "Prefiro roupas prêt-à-porter pela conveniência.",
+     "tr": "Kolaylık için hazır giyim tercih ediyorum."
+    },
+    {
+     "en": "Off the rack suits can be altered for a better fit.",
+     "uk": "Готові костюми можуть бути підкориговані для кращої посадки.",
+     "ru": "Готовые костюмы могут быть изменены для лучшей посадки.",
+     "pl": "Gotowe garnitury można przerobić, aby lepiej pasowały.",
+     "de": "Fertige Anzüge können für eine bessere Passform geändert werden.",
+     "fr": "Les costumes prêt-à-porter peuvent être ajustés pour un meilleur ajustement.",
+     "es": "Los trajes de confección se pueden alterar para un mejor ajuste.",
+     "it": "I completi prêt-à-porter possono essere modificati per una migliore vestibilità.",
+     "pt": "Os ternos prêt-à-porter podem ser alterados para um melhor ajuste.",
+     "tr": "Hazır takımlar, daha iyi bir uyum için değiştirilebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.garment",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈɡɑrmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This garment is made from organic cotton.",
+     "uk": "Цей предмет одягу виготовлений з органічної бавовни.",
+     "ru": "Этот предмет одежды сделан из органического хлопка.",
+     "pl": "Ten element garderoby jest wykonany из органicznej bawełny.",
+     "de": "Dieses Kleidungsstück besteht aus Bio-Baumwolle.",
+     "fr": "Ce vêtement est fabriqué en coton biologique.",
+     "es": "Esta prenda está hecha de algodón orgánico.",
+     "it": "Questo capo è realizzato in cotone biologico.",
+     "pt": "Esta peça de roupa é feita de algodão orgânico.",
+     "tr": "Bu giysi organik pamuktan yapılmıştır."
+    },
+    {
+     "en": "Each garment tells a story of its creation.",
+     "uk": "Кожен предмет одягу розповідає історію свого створення.",
+     "ru": "Каждый предмет одежды рассказывает историю своего создания.",
+     "pl": "Każda część garderoby opowiada historię swojego powstania.",
+     "de": "Jedes Kleidungsstück erzählt eine Geschichte seiner Herstellung.",
+     "fr": "Chaque vêtement raconte une histoire de sa création.",
+     "es": "Cada prenda cuenta una historia de su creación.",
+     "it": "Ogni capo racconta una storia della sua creazione.",
+     "pt": "Cada peça de roupa conta uma história de sua criação.",
+     "tr": "Her giysi, yaratılış hikayesini anlatır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shoplifting",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/ˈʃɑˌplɪftɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Shoplifting can lead to serious legal consequences.",
+     "uk": "Крадіжка в магазині може призвести до серйозних правових наслідків.",
+     "ru": "Магазинная кража может привести к серьезным юридическим последствиям.",
+     "pl": "Kradzież sklepowa może prowadzić do poważnych konsekwencji prawnych.",
+     "de": "Ladendiebstahl kann zu ernsthaften rechtlichen Konsequenzen führen.",
+     "fr": "Le vol à l'étalage peut entraîner de graves conséquences juridiques.",
+     "es": "El hurto en tiendas puede llevar a graves consecuencias legales.",
+     "it": "Il taccheggio può portare a gravi conseguenze legali.",
+     "pt": "O furto em loja pode levar a sérias consequências legais.",
+     "tr": "Mağaza hırsızlığı ciddi yasal sonuçlar doğurabilir."
+    },
+    {
+     "en": "Many stores have security to deter shoplifting.",
+     "uk": "Багато магазинів мають охорону, щоб запобігти крадіжкам.",
+     "ru": "Многие магазины имеют охрану, чтобы предотвратить магазинные кражи.",
+     "pl": "Wiele sklepów ma ochronę, aby zapobiec kradzieżom.",
+     "de": "Viele Geschäfte haben Sicherheit, um Ladendiebstahl abzuwenden.",
+     "fr": "De nombreux magasins ont une sécurité pour dissuader le vol à l'étalage.",
+     "es": "Muchas tiendas tienen seguridad para disuadir el hurto en tiendas.",
+     "it": "Molti negozi hanno sicurezza per scoraggiare il taccheggio.",
+     "pt": "Muitas lojas têm segurança para evitar o furto em loja.",
+     "tr": "Birçok mağaza, hırsızlığı önlemek için güvenlik bulunduruyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-recoup",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/rɪˈkup/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Businesses often recoup their costs through sales.",
+     "uk": "Бізнеси часто повертають витрати через продажі.",
+     "ru": "Бизнесы часто окупают затраты за счет продаж.",
+     "pl": "Firmy często odzyskują koszty dzięki sprzedaży.",
+     "de": "Unternehmen holen ihre Kosten oft durch Verkäufe wieder herein.",
+     "fr": "Les entreprises récupèrent souvent leurs frais grâce aux ventes.",
+     "es": "Las empresas a menudo recuperan lo invertido a través de ventas.",
+     "it": "Le aziende spesso recuperano le spese attraverso le vendite.",
+     "pt": "As empresas costumam recuperar o investimento por meio de vendas.",
+     "tr": "İşletmeler genellikle masraflarını satışlar yoluyla geri kazanır."
+    },
+    {
+     "en": "He hopes to recoup his losses by next year.",
+     "uk": "Він сподівається повернути свої витрати до наступного року.",
+     "ru": "Он надеется окупить свои затраты к следующему году.",
+     "pl": "On ma nadzieję odzyskać koszty do przyszłego roku.",
+     "de": "Er hofft, seine Kosten bis nächste Jahr wieder hereinholen zu können.",
+     "fr": "Il espère récupérer ses frais d'ici l'année prochaine.",
+     "es": "Él espera recuperar lo invertido para el próximo año.",
+     "it": "Spera di recuperare le spese entro l'anno prossimo.",
+     "pt": "Ele espera recuperar o investimento até o próximo ano.",
+     "tr": "Gelecek yıla kadar masrafı geri kazanmayı umuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.surcharge",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/sɚˈtʃɑrdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The airline added a surcharge for extra luggage.",
+     "uk": "Авіакомпанія додала доплату за додатковий багаж.",
+     "ru": "Авиакомпания добавила надбавку за дополнительный багаж.",
+     "pl": "Linie lotnicze dodały dopłatę za dodatkowy bagaż.",
+     "de": "Die Fluggesellschaft erhob einen Zuschlag für zusätzliches Gepäck.",
+     "fr": "La compagnie aérienne a ajouté un supplément pour les bagages supplémentaires.",
+     "es": "La aerolínea añadió un recargo por equipaje adicional.",
+     "it": "La compagnia aerea ha aggiunto un sovrapprezzo per bagagli extra.",
+     "pt": "A companhia aérea adicionou uma sobretaxa por bagagem extra.",
+     "tr": "Havayolu, fazladan bagaj için ek ücret ekledi."
+    },
+    {
+     "en": "Beware of hidden surcharges when booking online.",
+     "uk": "Остерігайтеся прихованих доплат під час бронювання онлайн.",
+     "ru": "Осторожно с скрытыми надбавками при бронировании онлайн.",
+     "pl": "Uważaj na ukryte dopłaty podczas rezerwacji online.",
+     "de": "Achten Sie auf versteckte Zuschläge bei der Online-Buchung.",
+     "fr": "Attention aux suppléments cachés lors de la réservation en ligne.",
+     "es": "Cuidado con los recargos ocultos al reservar en línea.",
+     "it": "Fai attenzione ai sovrapprezzi nascosti durante la prenotazione online.",
+     "pt": "Cuidado com as sobretaxas ocultas ao reservar online.",
+     "tr": "Çevrimiçi rezervasyon yaparken gizli ek ücretlere dikkat edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.itemised-receipt",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈaɪtəˌmaɪzd rɪˈsit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can I have an itemised receipt for my expenses?",
+     "uk": "Можна отримати детальний чек за мої витрати?",
+     "ru": "Можно получить детализированный чек за мои расходы?",
+     "pl": "Czy mogę otrzymać paragon z wyszczególnieniem moich wydatków?",
+     "de": "Kann ich eine Einzelaufstellung für meine Ausgaben haben?",
+     "fr": "Puis-je avoir un reçu détaillé pour mes dépenses?",
+     "es": "¿Puedo tener un recibo detallado de mis gastos?",
+     "it": "Posso avere una ricevuta dettagliata per le mie spese?",
+     "pt": "Posso ter um recibo detalhado das minhas despesas?",
+     "tr": "Giderlerim için ayrıntılı fiş alabilir miyim?"
+    },
+    {
+     "en": "The itemised receipt helped me track my spending.",
+     "uk": "Детальний чек допоміг мені відстежити свої витрати.",
+     "ru": "Детализированный чек помог мне отслеживать свои расходы.",
+     "pl": "Paragon z wyszczególnieniem pomógł mi śledzić wydatki.",
+     "de": "Die Einzelaufstellung hat mir geholfen, meine Ausgaben zu verfolgen.",
+     "fr": "Le reçu détaillé m'a aidé à suivre mes dépenses.",
+     "es": "El recibo detallado me ayudó a hacer un seguimiento de mis gastos.",
+     "it": "La ricevuta dettagliata mi ha aiutato a tenere traccia delle mie spese.",
+     "pt": "O recibo detalhado me ajudou a acompanhar meus gastos.",
+     "tr": "Ayrıntılı fiş, harcamalarımı takip etmeme yardımcı oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.cooling-off-period",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈkulɪŋ ɔf ˈpɪriəd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There’s a 14-day cooling-off period for online purchases.",
+     "uk": "Існує 14-денний період на відмову від покупки для онлайн-покупок.",
+     "ru": "Существует 14-дневный период охлаждения для онлайн-покупок.",
+     "pl": "Obowiązuje 14-dniowy okres na odstąpienie od umowy dla zakupów online.",
+     "de": "Es gibt eine 14-tägige Widerrufsfrist für Online-Käufe.",
+     "fr": "Il y a un délai de rétractation de 14 jours pour les achats en ligne.",
+     "es": "Hay un periodo de desistimiento de 14 días para compras en línea.",
+     "it": "C'è un periodo di ripensamento di 14 giorni per gli acquisti online.",
+     "pt": "Há um prazo de arrependimento de 14 dias para compras online.",
+     "tr": "Çevrimiçi satın alımlar için 14 günlük cayma süresi vardır."
+    },
+    {
+     "en": "Make sure to check the cooling-off period before buying.",
+     "uk": "Обов'язково перевірте період на відмову від покупки перед покупкою.",
+     "ru": "Обязательно проверьте период охлаждения перед покупкой.",
+     "pl": "Upewnij się, że sprawdziłeś okres na odstąpienie od umowy przed zakupem.",
+     "de": "Stellen Sie sicher, dass Sie die Widerrufsfrist vor dem Kauf überprüfen.",
+     "fr": "Assurez-vous de vérifier le délai de rétractation avant d'acheter.",
+     "es": "Asegúrate de verificar el periodo de desistimiento antes de comprar.",
+     "it": "Assicurati di controllare il periodo di ripensamento prima di acquistare.",
+     "pt": "Certifique-se de verificar o prazo de arrependimento antes de comprar.",
+     "tr": "Satın almadan önce cayma süresini kontrol ettiğinizden emin olun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.restocking-fee",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/riˈstɑkɪŋ fi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "They charged a restocking fee for returned items.",
+     "uk": "Вони стягнули плату за повернення на склад за повернені товари.",
+     "ru": "Они взяли плату за возврат на склад за возвращенные товары.",
+     "pl": "Pobrali opłatę za zwrot towaru za zwrócone przedmioty.",
+     "de": "Sie berechneten eine Wiedereinlagerungsgebühr für zurückgegebene Artikel.",
+     "fr": "Ils ont facturé des frais de remise en stock pour les articles retournés.",
+     "es": "Cobran un cargo por reposición por los artículos devueltos.",
+     "it": "Hanno addebitato spese di restocking per gli articoli restituiti.",
+     "pt": "Eles cobraram uma taxa de reposição para os itens devolvidos.",
+     "tr": "İade edilen ürünler için stoğa iade ücreti aldılar."
+    },
+    {
+     "en": "Be aware of the restocking fee before returning products.",
+     "uk": "Будьте обережні з платою за повернення на склад перед поверненням товарів.",
+     "ru": "Будьте осторожны с платой за возврат на склад перед возвратом товаров.",
+     "pl": "Zwróć uwagę na opłatę za zwrot towaru przed jego zwrotem.",
+     "de": "Achten Sie auf die Wiedereinlagerungsgebühr, bevor Sie Produkte zurückgeben.",
+     "fr": "Faites attention aux frais de remise en stock avant de retourner des produits.",
+     "es": "Ten en cuenta el cargo por reposición antes de devolver productos.",
+     "it": "Fai attenzione alle spese di restocking prima di restituire i prodotti.",
+     "pt": "Esteja ciente da taxa de reposição antes de devolver produtos.",
+     "tr": "Ürünleri iade etmeden önce stoğa iade ücretini dikkate alın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.knock-off",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/nɑk ɔf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "That watch is just a knock-off, not the real thing.",
+     "uk": "Цей годинник - лише дешева підробка, а не оригінал.",
+     "ru": "Эти часы - всего лишь дешевая подделка, а не оригинал.",
+     "pl": "Ten zegarek to tylko tania podróbka, a nie oryginał.",
+     "de": "Diese Uhr ist nur eine billige Kopie, kein Original.",
+     "fr": "Cette montre n'est qu'une copie bon marché, pas l'original.",
+     "es": "Ese reloj es solo una imitación barata, no el original.",
+     "it": "Quell'orologio è solo un tarocco, non l'originale.",
+     "pt": "Esse relógio é apenas uma imitação barata, não o original.",
+     "tr": "O saat sadece çakma, gerçek değil."
+    },
+    {
+     "en": "I can't believe I bought a knock-off handbag.",
+     "uk": "Не можу повірити, що купила дешеву підробку сумки.",
+     "ru": "Не могу поверить, что купила дешевую подделку сумки.",
+     "pl": "Nie mogę uwierzyć, że kupiłam tanią podróbkę torebki.",
+     "de": "Ich kann nicht glauben, dass ich eine billige Kopie der Handtasche gekauft habe.",
+     "fr": "Je n'arrive pas à croire que j'ai acheté un sac à main bon marché.",
+     "es": "No puedo creer que compré un bolso de imitación barata.",
+     "it": "Non posso credere di aver comprato una borsa tarocco.",
+     "pt": "Não consigo acreditar que comprei uma bolsa de imitação barata.",
+     "tr": "Bir çanta çakma aldığımı inanamıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-snap-up",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/snæp ʌp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I managed to snap up the last ticket.",
+     "uk": "Мені вдалося розхапати останній квиток.",
+     "ru": "Мне удалось расхватать последний билет.",
+     "pl": "Udało mi się rozchwytać ostatni bilet.",
+     "de": "Ich habe es geschafft, mir das letzte Ticket zu schnappen.",
+     "fr": "J'ai réussi à sauter sur le dernier billet.",
+     "es": "Logré pillar la última entrada.",
+     "it": "Sono riuscito ad accaparrarmi l'ultimo biglietto.",
+     "pt": "Consegui arrematar o último ingresso.",
+     "tr": "Son bileti kapmayı başardım."
+    },
+    {
+     "en": "He quickly snapped up the best deal available.",
+     "uk": "Він швидко розхапав найкращу пропозицію.",
+     "ru": "Он быстро расхватал лучшее предложение.",
+     "pl": "Szybko rozchwytał najlepszą ofertę.",
+     "de": "Er hat das beste Angebot schnell geschnappt.",
+     "fr": "Il a rapidement sauté sur la meilleure offre.",
+     "es": "Rápidamente pilló la mejor oferta disponible.",
+     "it": "Ha rapidamente accaparrato il miglior affare disponibile.",
+     "pt": "Ele rapidamente arrematou o melhor negócio disponível.",
+     "tr": "En iyi fırsatı hızla kapıştı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.penny-pincher",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈpɛni ˈpɪntʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He's such a penny-pincher when it comes to dining out.",
+     "uk": "Він такий скнара, коли справа доходить до обідів.",
+     "ru": "Он такой скряга, когда дело касается ужинов вне дома.",
+     "pl": "Jest takim skąpcem, jeśli chodzi o jedzenie na mieście.",
+     "de": "Er ist ein echter Pfennigfuchser, wenn es ums Essen geht.",
+     "fr": "C'est un radin quand il s'agit de sortir manger.",
+     "es": "Es un tacaño cuando se trata de salir a cenar.",
+     "it": "È un taccagno quando si tratta di mangiare fuori.",
+     "pt": "Ele é um pão-duro quando se trata de sair para jantar.",
+     "tr": "Dışarıda yemek söz konusu olduğunda çok cimri."
+    },
+    {
+     "en": "Being a penny-pincher can save you a lot of money.",
+     "uk": "Бути скнарою може заощадити багато грошей.",
+     "ru": "Быть скрягой может сэкономить много денег.",
+     "pl": "Bycie skąpcem może zaoszczędzić wiele pieniędzy.",
+     "de": "Ein Pfennigfuchser zu sein, kann viel Geld sparen.",
+     "fr": "Être radin peut vous faire économiser beaucoup d'argent.",
+     "es": "Ser tacaño puede ahorrarte mucho dinero.",
+     "it": "Essere un taccagno può farti risparmiare molti soldi.",
+     "pt": "Ser pão-duro pode te fazer economizar muito dinheiro.",
+     "tr": "Cimri olmak sana çok para kazandırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-shell-out",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ʃɛl aʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I had to shell out quite a bit for that laptop.",
+     "uk": "Мені довелося викласти чимало за цей ноутбук.",
+     "ru": "Мне пришлось выложить немало за этот ноутбук.",
+     "pl": "Musiałem wybulić sporo za ten laptop.",
+     "de": "Ich musste ganz schön blechen für den Laptop.",
+     "fr": "J'ai dû casquer pas mal pour cet ordinateur portable.",
+     "es": "Tuve que desembolsar bastante por esa laptop.",
+     "it": "Ho dovuto sborsare un bel po' per quel laptop.",
+     "pt": "Tive que desembolsar bastante por aquele laptop.",
+     "tr": "O dizüstü bilgisayar için oldukça fazla para bayılmak zorunda kaldım."
+    },
+    {
+     "en": "Don't shell out money for unnecessary items.",
+     "uk": "Не викладай гроші за непотрібні речі.",
+     "ru": "Не выкладывай деньги за ненужные вещи.",
+     "pl": "Nie wydawaj pieniędzy na niepotrzebne przedmioty.",
+     "de": "Gib kein Geld für unnötige Dinge aus.",
+     "fr": "Ne dépensez pas d'argent pour des articles inutiles.",
+     "es": "No gastes dinero en artículos innecesarios.",
+     "it": "Non spendere soldi per articoli non necessari.",
+     "pt": "Não gaste dinheiro com itens desnecessários.",
+     "tr": "Gereksiz eşyalar için para bayılma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.sticker-shock",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ˈstɪkɚ ʃɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I experienced sticker shock when I saw the bill.",
+     "uk": "Я відчув шок від ціни, коли побачив рахунок.",
+     "ru": "Я испытал шок от цены, когда увидел счет.",
+     "pl": "Doświadczyłem szoku cenowego, gdy zobaczyłem rachunek.",
+     "de": "Ich hatte einen Preisschock, als ich die Rechnung sah.",
+     "fr": "J'ai ressenti un choc du prix en voyant la facture.",
+     "es": "Experimenté un shock por el precio cuando vi la factura.",
+     "it": "Ho provato uno shock da prezzo quando ho visto il conto.",
+     "pt": "Experimentei um susto com o preço quando vi a conta.",
+     "tr": "Hesabı görünce fiyat şoku yaşadım."
+    },
+    {
+     "en": "Sticker shock is common after holiday shopping.",
+     "uk": "Шок від ціни - звична справа після святкового шопінгу.",
+     "ru": "Шок от цены - обычное явление после праздничных покупок.",
+     "pl": "Szok cenowy jest powszechny po zakupach świątecznych.",
+     "de": "Preisschock ist nach dem Feiertags-Shopping üblich.",
+     "fr": "Le choc du prix est courant après le shopping de vacances.",
+     "es": "El shock por el precio es común después de las compras navideñas.",
+     "it": "Lo shock da prezzo è comune dopo gli acquisti natalizi.",
+     "pt": "O susto com o preço é comum após as compras de Natal.",
+     "tr": "Tatil alışverişinden sonra fiyat şoku yaygındır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.consumerism",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/kənˈsumɚˌɪzəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Consumerism drives many marketing strategies today.",
+     "uk": "Споживацтво рухає багатьма маркетинговими стратегіями сьогодні.",
+     "ru": "Потребительство движет многими маркетинговыми стратегиями сегодня.",
+     "pl": "Konsumpcjonizm napędza wiele strategii marketingowych dzisiaj.",
+     "de": "Konsumismus treibt viele Marketingstrategien heute voran.",
+     "fr": "Le consumérisme motive de nombreuses stratégies marketing aujourd'hui.",
+     "es": "El consumismo impulsa muchas estrategias de marketing hoy.",
+     "it": "Il consumismo guida molte strategie di marketing oggi.",
+     "pt": "O consumismo impulsiona muitas estratégias de marketing hoje.",
+     "tr": "Tüketimcilik, günümüzde birçok pazarlama stratejisini yönlendiriyor."
+    },
+    {
+     "en": "We should question the impact of consumerism on society.",
+     "uk": "Ми повинні поставити під сумнів вплив споживацтва на суспільство.",
+     "ru": "Мы должны задаться вопросом о влиянии потребительства на общество.",
+     "pl": "Powinniśmy kwestionować wpływ konsumpcjonizmu na społeczeństwo.",
+     "de": "Wir sollten den Einfluss des Konsumismus auf die Gesellschaft hinterfragen.",
+     "fr": "Nous devrions remettre en question l'impact du consumérisme sur la société.",
+     "es": "Deberíamos cuestionar el impacto del consumismo en la sociedad.",
+     "it": "Dovremmo mettere in discussione l'impatto del consumismo sulla società.",
+     "pt": "Devemos questionar o impacto do consumismo na sociedade.",
+     "tr": "Tüketimciliğin topluma etkisini sorgulamalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.materialism",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/məˈtɪriəˌlɪzəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Materialism often leads to a lack of fulfillment.",
+     "uk": "Матеріалізм часто призводить до відсутності задоволення.",
+     "ru": "Материализм часто приводит к отсутствию удовлетворения.",
+     "pl": "Materializm często prowadzi do braku spełnienia.",
+     "de": "Materialismus führt oft zu einem Mangel an Erfüllung.",
+     "fr": "Le matérialisme mène souvent à un manque d'épanouissement.",
+     "es": "El materialismo a menudo conduce a una falta de satisfacción.",
+     "it": "Il materialismo spesso porta a una mancanza di realizzazione.",
+     "pt": "O materialismo muitas vezes leva à falta de realização.",
+     "tr": "Materyalizm genellikle tatminsizlikle sonuçlanır."
+    },
+    {
+     "en": "Her materialism affects her relationships negatively.",
+     "uk": "Її матеріалізм негативно впливає на стосунки.",
+     "ru": "Её материализм негативно сказывается на отношениях.",
+     "pl": "Jej materializm negatywnie wpływa na relacje.",
+     "de": "Ihr Materialismus wirkt sich negativ auf ihre Beziehungen aus.",
+     "fr": "Son matérialisme affecte négativement ses relations.",
+     "es": "Su materialismo afecta negativamente sus relaciones.",
+     "it": "Il suo materialismo influisce negativamente sulle relazioni.",
+     "pt": "O materialismo dela afeta negativamente seus relacionamentos.",
+     "tr": "Onun materyalizmi ilişkilerini olumsuz etkiliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.haute-couture",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/hoʊt kuˈtʊr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She wore a stunning piece of haute couture.",
+     "uk": "Вона одягла вражаючий витвір високої моди.",
+     "ru": "Она носила потрясающее изделие высокой моды.",
+     "pl": "Nosiła oszałamiający element haute couture.",
+     "de": "Sie trug ein atemberaubendes Stück Haute Couture.",
+     "fr": "Elle portait une pièce époustouflante de haute couture.",
+     "es": "Llevaba una pieza impresionante de alta costura.",
+     "it": "Indossava un pezzo sorprendente di alta moda.",
+     "pt": "Ela usava uma peça impressionante de alta costura.",
+     "tr": "Şahane bir yüksek moda parçası giyiyordu."
+    },
+    {
+     "en": "The show featured exclusive haute couture designs.",
+     "uk": "Шоу представило ексклюзивні дизайни високої моди.",
+     "ru": "Шоу представило эксклюзивные дизайны высокой моды.",
+     "pl": "Pokaz zaprezentował ekskluzywne projekty haute couture.",
+     "de": "Die Show zeigte exklusive Haute Couture Designs.",
+     "fr": "Le défilé présentait des créations de haute couture exclusives.",
+     "es": "El desfile presentó diseños exclusivos de alta costura.",
+     "it": "Lo spettacolo ha presentato design esclusivi di alta moda.",
+     "pt": "O desfile apresentou designs exclusivos de alta costura.",
+     "tr": "Gösteri, özel yüksek moda tasarımlarını sergiledi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-peruse",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/pɚˈuz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to peruse the latest fashion magazines.",
+     "uk": "Мені подобається уважно переглядати останні модні журнали.",
+     "ru": "Мне нравится внимательно просматривать последние модные журналы.",
+     "pl": "Lubię przeglądać najnowsze magazyny modowe.",
+     "de": "Ich schaue mir gerne die neuesten Modemagazine an.",
+     "fr": "J'aime parcourir les derniers magazines de mode.",
+     "es": "Me gusta examinar las últimas revistas de moda.",
+     "it": "Mi piace esaminare le ultime riviste di moda.",
+     "pt": "Gosto de examinar as últimas revistas de moda.",
+     "tr": "Son moda dergilerini incelemeyi severim."
+    },
+    {
+     "en": "She took time to peruse the menu carefully.",
+     "uk": "Вона витратила час, щоб уважно переглянути меню.",
+     "ru": "Она потратила время, чтобы внимательно просмотреть меню.",
+     "pl": "Spędziła czas, aby uważnie przeglądać menu.",
+     "de": "Sie nahm sich Zeit, um die Speisekarte durchzusehen.",
+     "fr": "Elle a pris le temps de parcourir le menu attentivement.",
+     "es": "Se tomó su tiempo para examinar el menú cuidadosamente.",
+     "it": "Ha dedicato tempo a esaminare attentamente il menu.",
+     "pt": "Ela levou tempo para examinar o menu cuidadosamente.",
+     "tr": "Menüyü dikkatlice incelemek için zaman ayırdı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.frugal",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈfruɡəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Being frugal helps save money for future needs.",
+     "uk": "Бути ощадливим допомагає заощаджувати гроші на майбутнє.",
+     "ru": "Бережливость помогает экономить деньги на будущее.",
+     "pl": "Bycie oszczędnym pomaga zaoszczędzić pieniądze na przyszłość.",
+     "de": "Sparsam zu sein hilft, Geld für die Zukunft zu sparen.",
+     "fr": "Être économe aide à économiser de l'argent pour l'avenir.",
+     "es": "Ser frugal ayuda a ahorrar dinero para el futuro.",
+     "it": "Essere parsimonioso aiuta a risparmiare per il futuro.",
+     "pt": "Ser poupador ajuda a economizar dinheiro para o futuro.",
+     "tr": "Tutumlu olmak, gelecekteki ihtiyaçlar için para biriktirmeye yardımcı olur."
+    },
+    {
+     "en": "She has a frugal lifestyle with minimal expenses.",
+     "uk": "Вона веде ощадливий спосіб життя з мінімальними витратами.",
+     "ru": "Она ведет бережливый образ жизни с минимальными расходами.",
+     "pl": "Prowadzi oszczędny styl życia z minimalnymi wydatkami.",
+     "de": "Sie führt einen sparsamen Lebensstil mit minimalen Ausgaben.",
+     "fr": "Elle a un mode de vie économe avec des dépenses minimales.",
+     "es": "Ella tiene un estilo de vida frugal con gastos mínimos.",
+     "it": "Ha uno stile di vita parsimonioso con spese minime.",
+     "pt": "Ela tem um estilo de vida poupador com despesas mínimas.",
+     "tr": "O, minimum harcama ile tutumlu bir yaşam tarzına sahip."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.spendthrift",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈspɛndˌθrɪft/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is a spendthrift, always buying unnecessary items.",
+     "uk": "Він марнотратник, завжди купуючи непотрібні речі.",
+     "ru": "Он транжира, всегда покупающий ненужные вещи.",
+     "pl": "On jest rozrzutnikiem, zawsze kupującym niepotrzebne rzeczy.",
+     "de": "Er ist ein Verschwender, der immer unnötige Dinge kauft.",
+     "fr": "C'est un dépensier, toujours en train d'acheter des choses inutiles.",
+     "es": "Es un manirroto, siempre comprando cosas innecesarias.",
+     "it": "È uno spendaccione, sempre a comprare cose inutili.",
+     "pt": "Ele é um gastador, sempre comprando itens desnecessários.",
+     "tr": "O, gereksiz eşyalar alarak savurganlık yapıyor."
+    },
+    {
+     "en": "Her spendthrift habits led to financial trouble.",
+     "uk": "Її марнотратні звички призвели до фінансових проблем.",
+     "ru": "Её транжирские привычки привели к финансовым проблемам.",
+     "pl": "Jej rozrzutne nawyki doprowadziły do problemów finansowych.",
+     "de": "Ihre verschwenderischen Gewohnheiten führten zu finanziellen Problemen.",
+     "fr": "Ses habitudes de dépensière ont conduit à des problèmes financiers.",
+     "es": "Sus hábitos manirrotos llevaron a problemas financieros.",
+     "it": "Le sue abitudini da spendaccione hanno portato a problemi finanziari.",
+     "pt": "Seus hábitos de gastador levaram a problemas financeiros.",
+     "tr": "Savurganlık alışkanlıkları finansal sorunlara yol açtı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.extravagant",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ɛkˈstrævəɡənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "His extravagant lifestyle shocked his friends.",
+     "uk": "Його марнотратний спосіб життя шокував його друзів.",
+     "ru": "Его расточительный образ жизни шокировал друзей.",
+     "pl": "Jego rozrzutny styl życia zszokował przyjaciół.",
+     "de": "Sein verschwenderischer Lebensstil schockierte seine Freunde.",
+     "fr": "Son mode de vie dispendieux a choqué ses amis.",
+     "es": "Su estilo de vida derrochador sorprendió a sus amigos.",
+     "it": "Il suo stile di vita dispendioso ha scioccato i suoi amici.",
+     "pt": "Seu estilo de vida extravagante chocou seus amigos.",
+     "tr": "Onun müsrif yaşam tarzı arkadaşlarını şok etti."
+    },
+    {
+     "en": "They threw an extravagant party for their anniversary.",
+     "uk": "Вони влаштували марнотратну вечірку на свою річницю.",
+     "ru": "Они устроили расточительную вечеринку на свою годовщину.",
+     "pl": "Zorganizowali rozrzutną imprezę na swoją rocznicę.",
+     "de": "Sie veranstalteten eine verschwenderische Party zu ihrem Jubiläum.",
+     "fr": "Ils ont organisé une fête dispendieuse pour leur anniversaire.",
+     "es": "Organizaron una fiesta derrochadora para su aniversario.",
+     "it": "Hanno organizzato una festa dispendiosa per il loro anniversario.",
+     "pt": "Eles fizeram uma festa extravagante para seu aniversário.",
+     "tr": "Yıldönümleri için müsrif bir parti verdiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-squander",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/ˈskwɑndɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't squander your time on trivial matters.",
+     "uk": "Не розтринькуйте свій час на дрібниці.",
+     "ru": "Не транжирьте свое время на пустяки.",
+     "pl": "Nie trwonić swojego czasu na błahostki.",
+     "de": "Verschwende deine Zeit nicht mit unwichtigen Dingen.",
+     "fr": "Ne gaspillez pas votre temps sur des choses triviales.",
+     "es": "No despilfarres tu tiempo en asuntos triviales.",
+     "it": "Non sperperare il tuo tempo in questioni banali.",
+     "pt": "Não esbanje seu tempo com assuntos triviais.",
+     "tr": "Zamanını önemsiz şeylere çarçur etme."
+    },
+    {
+     "en": "He squandered his inheritance on luxury items.",
+     "uk": "Він розтринькував свою спадщину на розкішні речі.",
+     "ru": "Он транжирил свое наследство на предметы роскоши.",
+     "pl": "Roztrwonił swoje dziedzictwo na luksusowe przedmioty.",
+     "de": "Er hat sein Erbe für Luxusartikel verschwendet.",
+     "fr": "Il a gaspillé son héritage en articles de luxe.",
+     "es": "Despilfarró su herencia en artículos de lujo.",
+     "it": "Ha sperperato la sua eredità in articoli di lusso.",
+     "pt": "Ele esbanjou sua herança em itens de luxo.",
+     "tr": "Mirasını lüks eşyalara çarçur etti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.exorbitant",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ɪɡˈzɔrbɪtənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The prices in that store are exorbitant.",
+     "uk": "Ціни в тому магазині непомірні.",
+     "ru": "Цены в том магазине непомерные.",
+     "pl": "Ceny w tym sklepie są wygórowane.",
+     "de": "Die Preise in diesem Geschäft sind überhöht.",
+     "fr": "Les prix dans ce magasin sont exorbitants.",
+     "es": "Los precios en esa tienda son desorbitados.",
+     "it": "I prezzi in quel negozio sono esorbitanti.",
+     "pt": "Os preços naquela loja são exorbitantes.",
+     "tr": "O dükkandaki fiyatlar fahiş."
+    },
+    {
+     "en": "They charged an exorbitant fee for the service.",
+     "uk": "Вони стягнули непомірну плату за послугу.",
+     "ru": "Они взяли непомерную плату за услугу.",
+     "pl": "Pobrali wygórowaną opłatę za usługę.",
+     "de": "Sie haben eine überhöhte Gebühr für den Service erhoben.",
+     "fr": "Ils ont facturé un tarif exorbitant pour le service.",
+     "es": "Cobran una tarifa desorbitada por el servicio.",
+     "it": "Hanno addebitato una tassa esorbitante per il servizio.",
+     "pt": "Eles cobraram uma taxa exorbitante pelo serviço.",
+     "tr": "Hizmet için fahiş bir ücret aldılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.price-point",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/praɪs pɔɪnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This product fits into a mid-range price point.",
+     "uk": "Цей продукт підходить до середньої цінової категорії.",
+     "ru": "Этот продукт попадает в средний ценовой сегмент.",
+     "pl": "Ten produkt mieści się w średnim pułapie cenowym.",
+     "de": "Dieses Produkt liegt im mittleren Preispunkt.",
+     "fr": "Ce produit se situe dans une fourchette de prix moyenne.",
+     "es": "Este producto se encuentra en un punto de precio medio.",
+     "it": "Questo prodotto rientra in un livello di prezzo medio.",
+     "pt": "Este produto se encaixa em um patamar de preço médio.",
+     "tr": "Bu ürün orta fiyat noktasına uyuyor."
+    },
+    {
+     "en": "They adjusted the price point to attract more customers.",
+     "uk": "Вони відкоригували цінову категорію, щоб залучити більше клієнтів.",
+     "ru": "Они скорректировали ценовую категорию, чтобы привлечь больше клиентов.",
+     "pl": "Dostosowali pułap cenowy, aby przyciągnąć więcej klientów.",
+     "de": "Sie haben den Preispunkt angepasst, um mehr Kunden anzuziehen.",
+     "fr": "Ils ont ajusté le niveau de prix pour attirer plus de clients.",
+     "es": "Ajustaron el punto de precio para atraer a más clientes.",
+     "it": "Hanno regolato il livello di prezzo per attrarre più clienti.",
+     "pt": "Ajustaram o patamar de preço para atrair mais clientes.",
+     "tr": "Daha fazla müşteri çekmek için fiyat noktasını ayarladılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.cross-selling",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/krɔs ˈsɛlɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cross-selling can increase overall sales significantly.",
+     "uk": "Перехресні продажі можуть суттєво збільшити загальні продажі.",
+     "ru": "Перекрестные продажи могут значительно увеличить общие продажи.",
+     "pl": "Sprzedaż krzyżowa może znacznie zwiększyć ogólną sprzedaż.",
+     "de": "Cross-Selling kann den Gesamtumsatz erheblich steigern.",
+     "fr": "La vente croisée peut augmenter considérablement les ventes globales.",
+     "es": "La venta cruzada puede aumentar significativamente las ventas totales.",
+     "it": "La vendita incrociata può aumentare significativamente le vendite complessive.",
+     "pt": "A venda cruzada pode aumentar significativamente as vendas totais.",
+     "tr": "Çapraz satış, toplam satışları önemli ölçüde artırabilir."
+    },
+    {
+     "en": "They implemented cross-selling strategies to boost profits.",
+     "uk": "Вони впровадили стратегії перехресних продажів для підвищення прибутків.",
+     "ru": "Они внедрили стратегии перекрестных продаж для увеличения прибыли.",
+     "pl": "Wdrożyli strategie sprzedaży krzyżowej, aby zwiększyć zyski.",
+     "de": "Sie haben Cross-Selling-Strategien implementiert, um den Gewinn zu steigern.",
+     "fr": "Ils ont mis en œuvre des stratégies de vente croisée pour augmenter les bénéfices.",
+     "es": "Implementaron estrategias de venta cruzada para aumentar las ganancias.",
+     "it": "Hanno implementato strategie di vendita incrociata per aumentare i profitti.",
+     "pt": "Eles implementaram estratégias de venda cruzada para aumentar os lucros.",
+     "tr": "Karları artırmak için çapraz satış stratejileri uyguladılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.footfall",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈfʊtˌfɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store's footfall increased during the holiday season.",
+     "uk": "Відвідуваність магазину зросла під час свят.",
+     "ru": "Посещаемость магазина возросла в праздничный сезон.",
+     "pl": "Ruch klientów wzrósł w okresie świątecznym.",
+     "de": "Die Kundenfrequenz stieg während der Feiertage.",
+     "fr": "La fréquentation du magasin a augmenté pendant les fêtes.",
+     "es": "La afluencia de clientes aumentó durante la temporada navideña.",
+     "it": "L'afflusso di clienti è aumentato durante le festività.",
+     "pt": "O fluxo de clientes aumentou durante a temporada de festas.",
+     "tr": "Mağazanın müşteri trafiği tatil sezonunda arttı."
+    },
+    {
+     "en": "High footfall is essential for retail success.",
+     "uk": "Висока відвідуваність є важливою для успіху роздрібної торгівлі.",
+     "ru": "Высокая посещаемость важна для успеха розничной торговли.",
+     "pl": "Wysoki ruch klientów jest kluczowy dla sukcesu detalicznego.",
+     "de": "Hohe Kundenfrequenz ist entscheidend für den Einzelhandelserfolg.",
+     "fr": "Une forte fréquentation est essentielle pour le succès du commerce de détail.",
+     "es": "Una alta afluencia de clientes es esencial para el éxito minorista.",
+     "it": "Un alto afflusso di clienti è fondamentale per il successo al dettaglio.",
+     "pt": "Um alto fluxo de clientes é essencial para o sucesso no varejo.",
+     "tr": "Yüksek müşteri trafiği, perakende başarısı için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.brick-and-mortar",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/brɪk ənd ˈmɔrtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many consumers prefer brick-and-mortar stores for shopping.",
+     "uk": "Багато споживачів надають перевагу офлайн-магазинам для покупок.",
+     "ru": "Многие потребители предпочитают офлайн-магазины для покупок.",
+     "pl": "Wielu konsumentów woli zakupy w sklepach stacjonarnych.",
+     "de": "Viele Verbraucher ziehen stationäre Geschäfte zum Einkaufen vor.",
+     "fr": "De nombreux consommateurs préfèrent les magasins physiques pour faire leurs courses.",
+     "es": "Muchos consumidores prefieren las tiendas físicas para comprar.",
+     "it": "Molti consumatori preferiscono i negozi fisici per fare acquisti.",
+     "pt": "Muitos consumidores preferem lojas físicas para fazer compras.",
+     "tr": "Birçok tüketici alışveriş için fiziksel mağazaları tercih ediyor."
+    },
+    {
+     "en": "Brick-and-mortar shops often provide a personal touch.",
+     "uk": "Офлайн-магазини часто пропонують особистий підхід.",
+     "ru": "Офлайн-магазины часто предлагают личный подход.",
+     "pl": "Sklepy stacjonarne często oferują osobiste podejście.",
+     "de": "Stationäre Geschäfte bieten oft eine persönliche Note.",
+     "fr": "Les magasins physiques offrent souvent une touche personnelle.",
+     "es": "Las tiendas físicas a menudo ofrecen un toque personal.",
+     "it": "I negozi fisici offrono spesso un tocco personale.",
+     "pt": "Lojas físicas costumam oferecer um toque pessoal.",
+     "tr": "Fiziksel mağazalar genellikle kişisel bir dokunuş sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.dropshipping",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈdrɑpˌʃɪpɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Dropshipping allows entrepreneurs to start without inventory.",
+     "uk": "Дропшипінг дозволяє підприємцям почати без запасів.",
+     "ru": "Дропшиппинг позволяет предпринимателям начать без запасов.",
+     "pl": "Dropshipping pozwala przedsiębiorcom rozpocząć bez zapasów.",
+     "de": "Dropshipping ermöglicht es Unternehmern, ohne Lagerbestand zu starten.",
+     "fr": "Le dropshipping permet aux entrepreneurs de commencer sans inventaire.",
+     "es": "El dropshipping permite a los emprendedores comenzar sin inventario.",
+     "it": "Il dropshipping consente agli imprenditori di iniziare senza inventario.",
+     "pt": "O dropshipping permite que os empreendedores comecem sem estoque.",
+     "tr": "Dropshipping, girişimcilerin envantersiz başlamasını sağlar."
+    },
+    {
+     "en": "Many online stores use dropshipping to reduce costs.",
+     "uk": "Багато інтернет-магазинів використовують дропшипінг для зниження витрат.",
+     "ru": "Многие интернет-магазины используют дропшиппинг для снижения затрат.",
+     "pl": "Wiele sklepów internetowych korzysta z dropshippingu, aby obniżyć koszty.",
+     "de": "Viele Online-Shops nutzen Dropshipping, um Kosten zu senken.",
+     "fr": "De nombreux magasins en ligne utilisent le dropshipping pour réduire les coûts.",
+     "es": "Muchas tiendas en línea utilizan dropshipping para reducir costos.",
+     "it": "Molti negozi online utilizzano il dropshipping per ridurre i costi.",
+     "pt": "Muitas lojas online usam dropshipping para reduzir custos.",
+     "tr": "Birçok çevrimiçi mağaza maliyetleri azaltmak için dropshipping kullanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.customs-duty",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ˈkʌstəmz ˈduti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Customs duty can significantly increase the cost of imports.",
+     "uk": "Мито може суттєво підвищити вартість імпорту.",
+     "ru": "Таможенная пошлина может значительно увеличить стоимость импорта.",
+     "pl": "Cło może znacznie zwiększyć koszty importu.",
+     "de": "Die Zollgebühren können die Importkosten erheblich erhöhen.",
+     "fr": "Les droits de douane peuvent augmenter considérablement le coût des importations.",
+     "es": "El arancel puede aumentar significativamente el costo de las importaciones.",
+     "it": "Il dazio doganale può aumentare significativamente il costo delle importazioni.",
+     "pt": "A taxa alfandegária pode aumentar significativamente o custo das importações.",
+     "tr": "Gümrük vergisi, ithalat maliyetlerini önemli ölçüde artırabilir."
+    },
+    {
+     "en": "Understanding customs duty is crucial for international trade.",
+     "uk": "Розуміння мита є вирішальним для міжнародної торгівлі.",
+     "ru": "Понимание таможенной пошлины имеет решающее значение для международной торговли.",
+     "pl": "Zrozumienie cła jest kluczowe dla handlu międzynarodowego.",
+     "de": "Das Verständnis von Zoll ist entscheidend für den internationalen Handel.",
+     "fr": "Comprendre les droits de douane est crucial pour le commerce international.",
+     "es": "Entender el arancel es crucial para el comercio internacional.",
+     "it": "Comprendere il dazio doganale è fondamentale per il commercio internazionale.",
+     "pt": "Compreender a taxa alfandegária é crucial para o comércio internacional.",
+     "tr": "Gümrük vergisini anlamak, uluslararası ticaret için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.haberdashery",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈhæbɚˌdæʃɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She bought buttons at the local haberdashery.",
+     "uk": "Вона купила гудзики в місцевій галантереї.",
+     "ru": "Она купила пуговицы в местной галантерее.",
+     "pl": "Kupiła guziki w lokalnej pasmanterii.",
+     "de": "Sie kaufte Knöpfe im örtlichen Kurzwarenladen.",
+     "fr": "Elle a acheté des boutons dans la mercerie locale.",
+     "es": "Compró botones en la mercería local.",
+     "it": "Ha comprato bottoni nella merceria locale.",
+     "pt": "Ela comprou botões na loja de armarinho local.",
+     "tr": "Yerel tuhafiye dükkanından düğmeler aldı."
+    },
+    {
+     "en": "The haberdashery has a wide selection of fabrics.",
+     "uk": "Галантерея має великий вибір тканин.",
+     "ru": "Галантерея предлагает широкий выбор тканей.",
+     "pl": "Pasmanteria ma szeroki wybór tkanin.",
+     "de": "Die Kurzwarenabteilung hat eine große Auswahl an Stoffen.",
+     "fr": "La mercerie propose un large choix de tissus.",
+     "es": "La mercería tiene una amplia selección de telas.",
+     "it": "La merceria ha una vasta selezione di tessuti.",
+     "pt": "O armarinho tem uma ampla seleção de tecidos.",
+     "tr": "Tuhafiye dükkanında geniş bir kumaş seçeneği var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.merchandise",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈmɝtʃənˌdaɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store offers a variety of merchandise for sale.",
+     "uk": "Магазин пропонує різноманітні товари на продаж.",
+     "ru": "Магазин предлагает разнообразные товары на продажу.",
+     "pl": "Sklep oferuje różnorodne towary na sprzedaż.",
+     "de": "Der Laden bietet eine Vielzahl von Waren zum Verkauf an.",
+     "fr": "Le magasin propose une variété de marchandises à vendre.",
+     "es": "La tienda ofrece una variedad de mercancías en venta.",
+     "it": "Il negozio offre una varietà di merce in vendita.",
+     "pt": "A loja oferece uma variedade de mercadorias à venda.",
+     "tr": "Mağaza, satışa sunulan çeşitli ticari mallar sunuyor."
+    },
+    {
+     "en": "New merchandise arrives every week at the shop.",
+     "uk": "Нові товари надходять щотижня в магазин.",
+     "ru": "Новые товары поступают в магазин каждую неделю.",
+     "pl": "Nowe towary przybywają do sklepu co tydzień.",
+     "de": "Neue Waren kommen jede Woche in den Laden.",
+     "fr": "De nouvelles marchandises arrivent chaque semaine dans le magasin.",
+     "es": "Nueva mercancía llega cada semana a la tienda.",
+     "it": "Nuova merce arriva ogni settimana nel negozio.",
+     "pt": "Novas mercadorias chegam toda semana à loja.",
+     "tr": "Yeni ticari mallar her hafta dükkana geliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.stockist",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈstɑkɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The stockist provided the latest models of the product.",
+     "uk": "Авторизований продавець надав останні моделі продукту.",
+     "ru": "Официальный продавец предоставил последние модели продукта.",
+     "pl": "Autoryzowany sprzedawca dostarczył najnowsze modele produktu.",
+     "de": "Der Vertragshändler lieferte die neuesten Modelle des Produkts.",
+     "fr": "Le revendeur agréé a fourni les derniers modèles du produit.",
+     "es": "El distribuidor autorizado proporcionó los últimos modelos del producto.",
+     "it": "Il rivenditore autorizzato ha fornito gli ultimi modelli del prodotto.",
+     "pt": "O revendedor autorizado forneceu os últimos modelos do produto.",
+     "tr": "Yetkili satıcı, ürünün en son modellerini sağladı."
+    },
+    {
+     "en": "Finding a reliable stockist is crucial for retailers.",
+     "uk": "Знайти надійного авторизованого продавця є важливим для роздрібної торгівлі.",
+     "ru": "Найти надежного официального продавца очень важно для розничной торговли.",
+     "pl": "Znalezienie wiarygodnego autoryzowanego sprzedawcy jest kluczowe dla detalistów.",
+     "de": "Einen zuverlässigen Vertragshändler zu finden, ist entscheidend für Einzelhändler.",
+     "fr": "Trouver un revendeur agréé fiable est crucial pour les détaillants.",
+     "es": "Encontrar un distribuidor autorizado confiable es crucial para los minoristas.",
+     "it": "Trovare un rivenditore autorizzato affidabile è fondamentale per i rivenditori.",
+     "pt": "Encontrar um revendedor autorizado confiável é crucial para os varejistas.",
+     "tr": "Güvenilir bir yetkili satıcı bulmak perakendeciler için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-rummage",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˈrʌmɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to rummage through old books at the market.",
+     "uk": "Я люблю нишпорити в старих книгах на ринку.",
+     "ru": "Я люблю рыться в старых книгах на рынке.",
+     "pl": "Uwielbiam szperać w starych książkach na targu.",
+     "de": "Ich liebe es, in alten Büchern auf dem Markt zu wühlen.",
+     "fr": "J'adore fouiller dans les vieux livres au marché.",
+     "es": "Me encanta hurgar entre los libros viejos en el mercado.",
+     "it": "Adoro frugare tra i vecchi libri al mercato.",
+     "pt": "Adoro remexer em livros antigos no mercado.",
+     "tr": "Pazarın eski kitaplarında eşelemekten hoşlanıyorum."
+    },
+    {
+     "en": "She rummaged through her bag looking for keys.",
+     "uk": "Вона нишпорила в своїй сумці в пошуках ключів.",
+     "ru": "Она рылась в своей сумке в поисках ключей.",
+     "pl": "Szperała w swojej torbie w poszukiwaniu kluczy.",
+     "de": "Sie wühlte in ihrer Tasche nach Schlüsseln.",
+     "fr": "Elle a fouillé dans son sac à la recherche de clés.",
+     "es": "Ella hurgó en su bolso buscando las llaves.",
+     "it": "Ha frugato nella sua borsa cercando le chiavi.",
+     "pt": "Ela remexeu na bolsa procurando as chaves.",
+     "tr": "Anahtarları ararken çantasını eşelemeye başladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.counterfeit",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈkaʊntɚˌfɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The market was full of counterfeit goods.",
+     "uk": "Ринок був переповнений підробленими товарами.",
+     "ru": "Рынок был полон поддельных товаров.",
+     "pl": "Rynek był pełen podrobionych towarów.",
+     "de": "Der Markt war voller gefälschter Waren.",
+     "fr": "Le marché était plein de produits contrefaits.",
+     "es": "El mercado estaba lleno de productos falsificados.",
+     "it": "Il mercato era pieno di beni contraffatti.",
+     "pt": "O mercado estava cheio de produtos falsificados.",
+     "tr": "Pazar, taklit ürünlerle doluydu."
+    },
+    {
+     "en": "It's illegal to sell counterfeit items.",
+     "uk": "Продаж підроблених товарів є незаконним.",
+     "ru": "Продавать поддельные товары незаконно.",
+     "pl": "Sprzedaż podrobionych przedmiotów jest nielegalna.",
+     "de": "Es ist illegal, gefälschte Artikel zu verkaufen.",
+     "fr": "Il est illégal de vendre des articles contrefaits.",
+     "es": "Es ilegal vender artículos falsificados.",
+     "it": "È illegale vendere articoli contraffatti.",
+     "pt": "É ilegal vender itens falsificados.",
+     "tr": "Taklit ürünler satmak yasadışıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.markdown",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/ˈmɑrkˌdaʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store had a markdown on winter clothing.",
+     "uk": "У магазині була уцінка на зимовий одяг.",
+     "ru": "В магазине была уценка на зимнюю одежду.",
+     "pl": "W sklepie była przecena na odzież zimową.",
+     "de": "Im Laden gab es einen Preisnachlass auf Winterkleidung.",
+     "fr": "Le magasin avait une démarque sur les vêtements d'hiver.",
+     "es": "La tienda tenía una rebaja en la ropa de invierno.",
+     "it": "Il negozio ha fatto un ribasso sui vestiti invernali.",
+     "pt": "A loja teve uma remarcação em roupas de inverno.",
+     "tr": "Mağazada kış giysileri için bir indirim vardı."
+    },
+    {
+     "en": "Markdowns attract more customers to the store.",
+     "uk": "Уцінки приваблюють більше клієнтів до магазину.",
+     "ru": "Уценки привлекают больше клиентов в магазин.",
+     "pl": "Przeceny przyciągają więcej klientów do sklepu.",
+     "de": "Preisnachlässe ziehen mehr Kunden in den Laden.",
+     "fr": "Les démarques attirent plus de clients dans le magasin.",
+     "es": "Las rebajas atraen a más clientes a la tienda.",
+     "it": "I ribassi attirano più clienti nel negozio.",
+     "pt": "As remarcações atraem mais clientes para a loja.",
+     "tr": "İndirimler, mağazaya daha fazla müşteri çekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.a-steal",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ə stil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This dress was a steal at that price.",
+     "uk": "Ця сукня була за безцінь.",
+     "ru": "Это платье было даром.",
+     "pl": "Ta sukienka była okazją.",
+     "de": "Dieses Kleid war ein Schnäppchen.",
+     "fr": "Cette robe était une affaire.",
+     "es": "Este vestido fue una ganga.",
+     "it": "Questo vestito era un affare.",
+     "pt": "Este vestido foi uma pechincha.",
+     "tr": "Bu elbise o fiyata kelepirdi."
+    },
+    {
+     "en": "I found a steal on shoes during the sale.",
+     "uk": "Я знайшов взуття за безцінь на розпродажі.",
+     "ru": "Я нашел обувь даром на распродаже.",
+     "pl": "Znalazłem okazję na buty podczas wyprzedaży.",
+     "de": "Ich habe ein Schnäppchen für Schuhe im Sale gefunden.",
+     "fr": "J'ai trouvé une affaire sur des chaussures pendant les soldes.",
+     "es": "Encontré una ganga en zapatos durante la venta.",
+     "it": "Ho trovato un affare per le scarpe durante i saldi.",
+     "pt": "Encontrei uma pechincha em sapatos durante a venda.",
+     "tr": "İndirimde ayakkabılarda kelepir buldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.going-for-a-song",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˈɡoʊɪŋ fɔr ə sɔŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "These books are going for a song at the sale.",
+     "uk": "Ці книги майже задарма на розпродажі.",
+     "ru": "Эти книги почти даром на распродаже.",
+     "pl": "Te książki są za grosze na wyprzedaży.",
+     "de": "Diese Bücher sind spottbillig im Sale.",
+     "fr": "Ces livres sont pour une bouchée de pain en solde.",
+     "es": "Estos libros están tirados de precio en la venta.",
+     "it": "Questi libri costano per quattro soldi in saldo.",
+     "pt": "Esses livros estão a preço de banana na venda.",
+     "tr": "Bu kitaplar indirimde yok pahasına."
+    },
+    {
+     "en": "I bought this vase going for a song.",
+     "uk": "Я купив цю вазу майже задарма.",
+     "ru": "Я купил эту вазу почти даром.",
+     "pl": "Kupiłem ten wazon za grosze.",
+     "de": "Ich habe diese Vase spottbillig gekauft.",
+     "fr": "J'ai acheté ce vase pour une bouchée de pain.",
+     "es": "Compré este jarrón tirado de precio.",
+     "it": "Ho comprato questo vaso per quattro soldi.",
+     "pt": "Comprei este vaso a preço de banana.",
+     "tr": "Bu vazoyu yok pahasına aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.pricey",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈpraɪsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This restaurant is quite pricey for a casual meal.",
+     "uk": "Цей ресторан досить дорогуватий для звичайної їжі.",
+     "ru": "Этот ресторан довольно дороговат для обычного обеда.",
+     "pl": "Ta restauracja jest dość drogawa na zwykły posiłek.",
+     "de": "Dieses Restaurant ist ziemlich teuer für ein einfaches Essen.",
+     "fr": "Ce restaurant est assez cher pour un repas décontracté.",
+     "es": "Este restaurante es bastante carillo para una comida casual.",
+     "it": "Questo ristorante è piuttosto caro per un pasto informale.",
+     "pt": "Este restaurante é bastante caro para uma refeição casual.",
+     "tr": "Bu restoran sıradan bir yemek için pahalıca."
+    },
+    {
+     "en": "The concert tickets are pretty pricey this year.",
+     "uk": "Квитки на концерт цього року досить дорогуваті.",
+     "ru": "Билеты на концерт в этом году довольно дороговатые.",
+     "pl": "Bilety na koncert w tym roku są dość drogawie.",
+     "de": "Die Konzertkarten sind dieses Jahr ziemlich teuer.",
+     "fr": "Les billets de concert sont assez chers cette année.",
+     "es": "Las entradas para el concierto son bastante carillas este año.",
+     "it": "I biglietti per il concerto sono piuttosto cari quest'anno.",
+     "pt": "Os ingressos para o concerto estão bastante caros este ano.",
+     "tr": "Bu yıl konser biletleri oldukça pahalıca."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.steep",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/stip/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The prices at that store are steep for the quality.",
+     "uk": "Ціни в тому магазині захмарні для якості.",
+     "ru": "Цены в том магазине заоблачные для такого качества.",
+     "pl": "Ceny w tym sklepie są wygórowane jak na jakość.",
+     "de": "Die Preise in diesem Geschäft sind gesalzen für die Qualität.",
+     "fr": "Les prix dans ce magasin sont salés pour la qualité.",
+     "es": "Los precios en esa tienda son desorbitados para la calidad.",
+     "it": "I prezzi in quel negozio sono salati per la qualità.",
+     "pt": "Os preços naquela loja são salgados para a qualidade.",
+     "tr": "O dükkandaki fiyatlar kaliteye göre fahiş."
+    },
+    {
+     "en": "Rent in this area is steep for most people.",
+     "uk": "Оренда в цій місцевості захмарна для більшості людей.",
+     "ru": "Аренда в этом районе заоблачная для большинства людей.",
+     "pl": "Czynsz w tej okolicy jest wygórowany dla większości ludzi.",
+     "de": "Die Miete in dieser Gegend ist gesalzen für die meisten Leute.",
+     "fr": "Le loyer dans ce quartier est salé pour la plupart des gens.",
+     "es": "El alquiler en esta zona es desorbitado para la mayoría de la gente.",
+     "it": "L'affitto in questa zona è salato per la maggior parte delle persone.",
+     "pt": "O aluguel nesta área é salgado para a maioria das pessoas.",
+     "tr": "Bu bölgedeki kira çoğu insan için fahiş."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.price-fixing",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/praɪs ˈfɪksɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company was accused of price-fixing in the market.",
+     "uk": "Компанію звинуватили в змові щодо цін на ринку.",
+     "ru": "Компания была обвинена в ценовом сговоре на рынке.",
+     "pl": "Firmę oskarżono o zmowę cenową na rynku.",
+     "de": "Das Unternehmen wurde der Preisabsprache im Markt beschuldigt.",
+     "fr": "L'entreprise a été accusée d'entente sur les prix sur le marché.",
+     "es": "La empresa fue acusada de fijación de precios en el mercado.",
+     "it": "L'azienda è stata accusata di cartello dei prezzi nel mercato.",
+     "pt": "A empresa foi acusada de cartel de preços no mercado.",
+     "tr": "Şirket, piyasada fiyat anlaşması yapmakla suçlandı."
+    },
+    {
+     "en": "Price-fixing can harm competition and consumers alike.",
+     "uk": "Змова щодо цін може зашкодити конкуренції та споживачам.",
+     "ru": "Ценовой сговор может навредить как конкуренции, так и потребителям.",
+     "pl": "Zmowa cenowa może zaszkodzić zarówno konkurencji, jak i konsumentom.",
+     "de": "Preisabsprache kann sowohl dem Wettbewerb als auch den Verbrauchern schaden.",
+     "fr": "L'entente sur les prix peut nuire à la concurrence et aux consommateurs.",
+     "es": "La fijación de precios puede dañar tanto a la competencia como a los consumidores.",
+     "it": "Il cartello dei prezzi può danneggiare sia la concorrenza che i consumatori.",
+     "pt": "O cartel de preços pode prejudicar tanto a concorrência quanto os consumidores.",
+     "tr": "Fiyat anlaşması hem rekabete hem de tüketicilere zarar verebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-mark-up",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/mɑrk ʌp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Retailers often mark up prices during holiday seasons.",
+     "uk": "Роздрібні продавці часто роблять націнку під час свят.",
+     "ru": "Розничные продавцы часто делают наценку в праздничные сезоны.",
+     "pl": "Detaliści często podnoszą ceny w okresie świątecznym.",
+     "de": "Einzelhändler schlagen oft die Preise während der Feiertage auf.",
+     "fr": "Les détaillants majorent souvent les prix pendant les fêtes.",
+     "es": "Los minoristas a menudo aumentan el precio durante las vacaciones.",
+     "it": "I rivenditori spesso ricaricano i prezzi durante le festività.",
+     "pt": "Os varejistas costumam remarcar para cima os preços durante as festas.",
+     "tr": "Perakendeciler genellikle tatil sezonlarında fiyat artırır."
+    },
+    {
+     "en": "They plan to mark up the new collection significantly.",
+     "uk": "Вони планують суттєво зробити націнку на нову колекцію.",
+     "ru": "Они планируют значительно сделать наценку на новую коллекцию.",
+     "pl": "Planują znacznie podnieść cenę nowej kolekcji.",
+     "de": "Sie planen, die neue Kollektion erheblich aufzuschlagen.",
+     "fr": "Ils prévoient de majorer considérablement la nouvelle collection.",
+     "es": "Planean aumentar el precio de la nueva colección significativamente.",
+     "it": "Prevedono di ricaricare significativamente la nuova collezione.",
+     "pt": "Eles planejam remarcar para cima significativamente a nova coleção.",
+     "tr": "Yeni koleksiyona önemli ölçüde fiyat artırmayı planlıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-slash-prices",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/slæʃ ˈpraɪsəz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store decided to slash prices for the clearance sale.",
+     "uk": "Магазин вирішив різко знизити ціни на розпродаж.",
+     "ru": "Магазин решил резко снизить цены на распродажу.",
+     "pl": "Sklep postanowił drastycznie obniżyć ceny na wyprzedaż.",
+     "de": "Der Laden beschloss, die Preise drastisch zu senken für den Ausverkauf.",
+     "fr": "Le magasin a décidé de casser les prix pour la vente.",
+     "es": "La tienda decidió bajar los precios drásticamente para la liquidación.",
+     "it": "Il negozio ha deciso di tagliare i prezzi per la svendita.",
+     "pt": "A loja decidiu cortar preços para a liquidação.",
+     "tr": "Dükkan, indirim için fiyatları düşürmeye karar verdi."
+    },
+    {
+     "en": "They plan to slash prices on electronics this weekend.",
+     "uk": "Вони планують різко знизити ціни на електроніку цього вікенду.",
+     "ru": "Они планируют резко снизить цены на электронику в эти выходные.",
+     "pl": "Planują drastycznie obniżyć ceny elektroniki w ten weekend.",
+     "de": "Sie planen, die Preise für Elektronik an diesem Wochenende drastisch zu senken.",
+     "fr": "Ils prévoient de casser les prix sur l'électronique ce week-end.",
+     "es": "Planean bajar los precios de la electrónica este fin de semana.",
+     "it": "Prevedono di tagliare i prezzi sull'elettronica questo fine settimana.",
+     "pt": "Eles planejam cortar preços na eletrônica neste fim de semana.",
+     "tr": "Bu hafta sonu elektronik ürünlerde fiyatları düşürmeyi planlıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.rock-bottom-prices",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/rɑk ˈbɑtəm ˈpraɪsəz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store offers rock-bottom prices on all items today.",
+     "uk": "Магазин пропонує найнижчі ціни на всі товари сьогодні.",
+     "ru": "Магазин предлагает самые низкие цены на все товары сегодня.",
+     "pl": "Sklep oferuje najniższe ceny na wszystkie przedmioty dzisiaj.",
+     "de": "Der Laden bietet heute Tiefstpreise für alle Artikel an.",
+     "fr": "Le magasin propose des prix plancher sur tous les articles aujourd'hui.",
+     "es": "La tienda ofrece precios de risa en todos los artículos hoy.",
+     "it": "Il negozio offre prezzi stracciati su tutti gli articoli oggi.",
+     "pt": "A loja oferece preços baixíssimos em todos os itens hoje.",
+     "tr": "Dükkan bugün tüm ürünlerde dip fiyatlar sunuyor."
+    },
+    {
+     "en": "You can find rock-bottom prices at the clearance event.",
+     "uk": "Ви можете знайти найнижчі ціни на розпродажу.",
+     "ru": "Вы можете найти самые низкие цены на распродаже.",
+     "pl": "Możesz znaleźć najniższe ceny na wyprzedaży.",
+     "de": "Sie können Tiefstpreise beim Ausverkauf finden.",
+     "fr": "Vous pouvez trouver des prix plancher lors de l'événement de liquidation.",
+     "es": "Puedes encontrar precios de risa en el evento de liquidación.",
+     "it": "Puoi trovare prezzi stracciati all'evento di svendita.",
+     "pt": "Você pode encontrar preços baixíssimos no evento de liquidação.",
+     "tr": "Temizlik etkinliğinde dip fiyatlar bulabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.discounter",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈdɪˌskaʊntɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer shopping at the discounter for better deals.",
+     "uk": "Я надаю перевагу покупкам в дискаунтері для кращих угод.",
+     "ru": "Я предпочитаю делать покупки в дискаунтере для лучших предложений.",
+     "pl": "Wolę zakupy w dyskoncie dla lepszych ofert.",
+     "de": "Ich kaufe lieber im Discounter für bessere Angebote.",
+     "fr": "Je préfère faire mes courses dans un magasin discount pour de meilleures affaires.",
+     "es": "Prefiero comprar en la tienda de descuento para mejores ofertas.",
+     "it": "Preferisco fare la spesa al discount per offerte migliori.",
+     "pt": "Prefiro fazer compras na loja de descontos para melhores ofertas.",
+     "tr": "Daha iyi fırsatlar için indirim marketinde alışveriş yapmayı tercih ediyorum."
+    },
+    {
+     "en": "The discounter has a wide variety of products available.",
+     "uk": "Дискаунтер має широкий асортимент продуктів.",
+     "ru": "Дискаунтер предлагает широкий ассортимент товаров.",
+     "pl": "Dyskont ma szeroki wybór produktów.",
+     "de": "Der Discounter hat eine große Auswahl an Produkten.",
+     "fr": "Le magasin discount a une large variété de produits disponibles.",
+     "es": "El descuento tiene una amplia variedad de productos disponibles.",
+     "it": "Il discount ha una vasta gamma di prodotti disponibili.",
+     "pt": "O desconto tem uma ampla variedade de produtos disponíveis.",
+     "tr": "İndirim marketi geniş bir ürün yelpazesi sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.pound-shop",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/paʊnd ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought some snacks at the pound shop yesterday.",
+     "uk": "Я купив деякі закуски в магазині усе по одній ціні вчора.",
+     "ru": "Вчера я купил закуски в магазине фиксированной цены.",
+     "pl": "Kupiłem przekąski w sklepie „wszystko za złotówkę” wczoraj.",
+     "de": "Ich habe gestern Snacks im Ein-Euro-Laden gekauft.",
+     "fr": "J'ai acheté des collations dans le magasin à un euro hier.",
+     "es": "Ayer compré algunos bocadillos en la tienda de todo a un euro.",
+     "it": "Ieri ho comprato degli snack nel negozio a un euro.",
+     "pt": "Comprei alguns lanches na loja de 1,99 ontem.",
+     "tr": "Dün her şey 1 lira dükkânında atıştırmalıklar aldım."
+    },
+    {
+     "en": "The pound shop has great deals on household items.",
+     "uk": "У магазині усе по одній ціні чудові пропозиції на побутові товари.",
+     "ru": "В магазине фиксированной цены отличные предложения на товары для дома.",
+     "pl": "W sklepie „wszystko za złotówkę” są świetne oferty na artykuły gospodarstwa domowego.",
+     "de": "Der Ein-Euro-Laden hat tolle Angebote für Haushaltsartikel.",
+     "fr": "Le magasin à un euro a de super offres sur les articles ménagers.",
+     "es": "La tienda de todo a un euro tiene grandes ofertas en artículos del hogar.",
+     "it": "Il negozio a un euro ha ottime offerte su articoli per la casa.",
+     "pt": "A loja de 1,99 tem ótimas ofertas em itens para casa.",
+     "tr": "Her şey 1 lira dükkânında ev eşyalarında harika fırsatlar var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.hypermarket",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈhaɪpɚˌmɑrkɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought groceries at the local hypermarket.",
+     "uk": "Я купив продукти в місцевому гіпермаркеті.",
+     "ru": "Я купил продукты в местном гипермаркете.",
+     "pl": "Kupiłem zakupy w lokalnym hipermarkecie.",
+     "de": "Ich habe Lebensmittel im örtlichen Verbrauchermarkt gekauft.",
+     "fr": "J'ai acheté des courses au hypermarché local.",
+     "es": "Compré víveres en el hipermercado local.",
+     "it": "Ho comprato generi alimentari all'ipermercato locale.",
+     "pt": "Comprei mantimentos no hipermercado local.",
+     "tr": "Yerel hipermarketten market alışverişi yaptım."
+    },
+    {
+     "en": "The hypermarket offers a wide variety of products.",
+     "uk": "Гіпермаркет пропонує широкий асортимент товарів.",
+     "ru": "Гипермаркет предлагает широкий ассортимент товаров.",
+     "pl": "Hipermarket oferuje szeroki asortyment produktów.",
+     "de": "Der Verbrauchermarkt bietet eine große Auswahl an Produkten.",
+     "fr": "Le hypermarché propose une large gamme de produits.",
+     "es": "El hipermercado ofrece una amplia variedad de productos.",
+     "it": "L'ipermercato offre una vasta gamma di prodotti.",
+     "pt": "O hipermercado oferece uma ampla variedade de produtos.",
+     "tr": "Hipermarket, geniş bir ürün yelpazesi sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.emporium",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˌɛmˈpɔriəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The emporium sells unique items from around the world.",
+     "uk": "Торговий дім продає унікальні товари з усього світу.",
+     "ru": "Торговый дом продает уникальные товары со всего мира.",
+     "pl": "Dom towarowy sprzedaje unikalne przedmioty z całego świata.",
+     "de": "Das Warenhaus verkauft einzigartige Artikel aus aller Welt.",
+     "fr": "Le grand magasin vend des articles uniques du monde entier.",
+     "es": "El emporio vende artículos únicos de todo el mundo.",
+     "it": "L'emporio vende articoli unici da tutto il mondo.",
+     "pt": "O empório vende itens únicos de todo o mundo.",
+     "tr": "Büyük mağaza, dünyanın dört bir yanından benzersiz eşyalar satıyor."
+    },
+    {
+     "en": "She found a rare book at the local emporium.",
+     "uk": "Вона знайшла рідкісну книгу в місцевому торговому домі.",
+     "ru": "Она нашла редкую книгу в местном торговом доме.",
+     "pl": "Znalazła rzadką książkę w lokalnym domu towarowym.",
+     "de": "Sie fand ein seltenes Buch im örtlichen Warenhaus.",
+     "fr": "Elle a trouvé un livre rare au grand magasin local.",
+     "es": "Encontró un libro raro en el emporio local.",
+     "it": "Ha trovato un libro raro nell'emporio locale.",
+     "pt": "Ela encontrou um livro raro no empório local.",
+     "tr": "Yerel büyük mağazada nadir bir kitap buldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.vendor",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈvɛndɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The vendor offered a discount on fresh produce.",
+     "uk": "Продавець запропонував знижку на свіжі продукти.",
+     "ru": "Продавец предложил скидку на свежие продукты.",
+     "pl": "Sprzedawca zaoferował rabat na świeże produkty.",
+     "de": "Der Verkäufer bot einen Rabatt auf frische Produkte an.",
+     "fr": "Le vendeur a proposé une réduction sur les produits frais.",
+     "es": "El vendedor ofreció un descuento en productos frescos.",
+     "it": "Il venditore ha offerto uno sconto su prodotti freschi.",
+     "pt": "O vendedor ofereceu um desconto em produtos frescos.",
+     "tr": "Satıcı, taze ürünlerde indirim teklif etti."
+    },
+    {
+     "en": "I spoke with the vendor about the new items.",
+     "uk": "Я говорив з продавцем про нові товари.",
+     "ru": "Я поговорил с продавцом о новых товарах.",
+     "pl": "Rozmawiałem ze sprzedawcą o nowych przedmiotach.",
+     "de": "Ich sprach mit dem Verkäufer über die neuen Artikel.",
+     "fr": "J'ai parlé au vendeur des nouveaux articles.",
+     "es": "Hablé con el vendedor sobre los nuevos artículos.",
+     "it": "Ho parlato con il venditore dei nuovi articoli.",
+     "pt": "Conversei com o vendedor sobre os novos itens.",
+     "tr": "Yeni ürünler hakkında satıcıyla konuştum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.hawker",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈhɔkɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hawker sold delicious snacks at the festival.",
+     "uk": "Вуличний торговець продавав смачні закуски на фестивалі.",
+     "ru": "Уличный торговец продавал вкусные закуски на фестивале.",
+     "pl": "Domokrążca sprzedawał pyszne przekąski na festiwalu.",
+     "de": "Der Straßenhändler verkaufte leckere Snacks beim Festival.",
+     "fr": "Le colporteur vendait des collations délicieuses au festival.",
+     "es": "El vendedor ambulante vendía deliciosos bocadillos en el festival.",
+     "it": "Il venditore ambulante vendeva snack deliziosi al festival.",
+     "pt": "O camelô vendia lanches deliciosos no festival.",
+     "tr": "Seyyar satıcı festivalde lezzetli atıştırmalıklar satıyordu."
+    },
+    {
+     "en": "I bought a drink from the hawker on the street.",
+     "uk": "Я купив напій у вуличного торговця.",
+     "ru": "Я купил напиток у уличного торговца.",
+     "pl": "Kupiłem napój od domokrążcy na ulicy.",
+     "de": "Ich kaufte ein Getränk beim Straßenhändler auf der Straße.",
+     "fr": "J'ai acheté une boisson au colporteur dans la rue.",
+     "es": "Compré una bebida al vendedor ambulante en la calle.",
+     "it": "Ho comprato una bevanda dal venditore ambulante per strada.",
+     "pt": "Comprei uma bebida do camelô na rua.",
+     "tr": "Sokakta seyyar satıcıdan bir içecek aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.street-vendor",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/strit ˈvɛndɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The street vendor sells delicious snacks at the park.",
+     "uk": "Вуличний продавець продає смачні закуски в парку.",
+     "ru": "Уличный продавец продает вкусные закуски в парке.",
+     "pl": "Sprzedawca uliczny sprzedaje pyszne przekąski w parku.",
+     "de": "Der fliegende Händler verkauft leckere Snacks im Park.",
+     "fr": "Le marchand ambulant vend de délicieuses collations au parc.",
+     "es": "El vendedor callejero vende deliciosos bocadillos en el parque.",
+     "it": "Il venditore di strada vende snack deliziosi nel parco.",
+     "pt": "O vendedor de rua vende lanches deliciosos no parque.",
+     "tr": "Sokak satıcısı parkta lezzetli atıştırmalıklar satıyor."
+    },
+    {
+     "en": "I bought fresh fruit from a street vendor yesterday.",
+     "uk": "Вчора я купив свіжі фрукти у вуличного продавця.",
+     "ru": "Вчера я купил свежие фрукты у уличного продавца.",
+     "pl": "Wczoraj kupiłem świeże owoce od sprzedawcy ulicznego.",
+     "de": "Gestern habe ich frisches Obst von einem fliegenden Händler gekauft.",
+     "fr": "Hier, j'ai acheté des fruits frais à un marchand ambulant.",
+     "es": "Ayer compré frutas frescas de un vendedor callejero.",
+     "it": "Ieri ho comprato frutta fresca da un venditore di strada.",
+     "pt": "Ontem comprei frutas frescas de um vendedor de rua.",
+     "tr": "Dün bir sokak satıcısından taze meyve aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-tout",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/taʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He tried to tout his products at the market.",
+     "uk": "Він намагався нав'язувати товар на ринку.",
+     "ru": "Он пытался навязывать свой товар на рынке.",
+     "pl": "Próbował naganiać klientów na rynku.",
+     "de": "Er versuchte, seine Produkte auf dem Markt anzupreisen.",
+     "fr": "Il a essayé de racoler ses produits au marché.",
+     "es": "Intentó pregonar sus productos en el mercado.",
+     "it": "Ha cercato di adescare clienti al mercato.",
+     "pt": "Ele tentou aliciar seus produtos no mercado.",
+     "tr": "Pazarında ürünlerini kovalamaya çalıştı."
+    },
+    {
+     "en": "It's not polite to tout your wares aggressively.",
+     "uk": "Непристойно нав'язувати свій товар агресивно.",
+     "ru": "Неприлично навязывать свой товар агрессивно.",
+     "pl": "Niegrzecznie jest naganiać klientów agresywnie.",
+     "de": "Es ist unhöflich, seine Waren aggressiv anzupreisen.",
+     "fr": "Il n'est pas poli de racoler agressivement vos marchandises.",
+     "es": "No es educado pregonar tus mercancías agresivamente.",
+     "it": "Non è educato adescare clienti in modo aggressivo.",
+     "pt": "Não é educado aliciar seus produtos de forma agressiva.",
+     "tr": "Eşyalarını agresif bir şekilde kovalamak nazik değil."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.mail-order",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/meɪl ˈɔrdɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer mail order for convenience and variety.",
+     "uk": "Я віддаю перевагу замовленню поштою за зручність та різноманітність.",
+     "ru": "Я предпочитаю заказ по почте из-за удобства и разнообразия.",
+     "pl": "Wolę sprzedaż wysyłkową ze względu na wygodę i różnorodność.",
+     "de": "Ich bevorzuge Versandhandel wegen Bequemlichkeit und Vielfalt.",
+     "fr": "Je préfère la vente par correspondance pour sa commodité et sa variété.",
+     "es": "Prefiero la venta por correo por su comodidad y variedad.",
+     "it": "Preferisco la vendita per corrispondenza per comodità e varietà.",
+     "pt": "Prefiro a venda por correspondência pela conveniência e variedade.",
+     "tr": "Kolaylık ve çeşitlilik için posta ile siparişi tercih ediyorum."
+    },
+    {
+     "en": "The catalog offers a wide selection for mail order purchases.",
+     "uk": "Каталог пропонує широкий вибір для замовлень поштою.",
+     "ru": "Каталог предлагает широкий выбор для заказов по почте.",
+     "pl": "Katalog oferuje szeroki wybór dla sprzedaży wysyłkowej.",
+     "de": "Der Katalog bietet eine große Auswahl für den Versandhandel.",
+     "fr": "Le catalogue propose un large choix pour la vente par correspondance.",
+     "es": "El catálogo ofrece una amplia selección para la venta por correo.",
+     "it": "Il catalogo offre una vasta selezione per la vendita per corrispondenza.",
+     "pt": "O catálogo oferece uma ampla seleção para a venda por correspondência.",
+     "tr": "Katalog, posta ile sipariş için geniş bir seçim sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.window-display",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˈwɪndoʊ dɪˈspleɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The window display attracted many customers to the store.",
+     "uk": "Вітрина привабила багато покупців до магазину.",
+     "ru": "Витрина привлекла много клиентов в магазин.",
+     "pl": "Ekspozycja witrynowa przyciągnęła wielu klientów do sklepu.",
+     "de": "Die Schaufensterauslage zog viele Kunden in den Laden.",
+     "fr": "La vitrine a attiré de nombreux clients dans le magasin.",
+     "es": "El escaparate atrajo a muchos clientes a la tienda.",
+     "it": "La vetrina ha attirato molti clienti nel negozio.",
+     "pt": "A vitrine atraiu muitos clientes para a loja.",
+     "tr": "Vitrin düzeni, mağazaya birçok müşteri çekti."
+    },
+    {
+     "en": "They redesigned the window display for the holiday season.",
+     "uk": "Вони переробили вітрину до святкового сезону.",
+     "ru": "Они переработали витрину к праздничному сезону.",
+     "pl": "Przerobili ekspozycję witrynową na sezon świąteczny.",
+     "de": "Sie haben die Schaufensterauslage für die Feiertage umgestaltet.",
+     "fr": "Ils ont redessiné la vitrine pour la saison des fêtes.",
+     "es": "Rediseñaron el escaparate para la temporada navideña.",
+     "it": "Hanno ridisegnato la vetrina per la stagione delle festività.",
+     "pt": "Eles redesenharam a vitrine para a temporada de festas.",
+     "tr": "Tatil sezonu için vitrin düzenini yeniden tasarladılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.merchandising",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈmɝtʃənˌdaɪzɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Effective merchandising can boost sales significantly.",
+     "uk": "Ефективний мерчандайзинг може суттєво збільшити продажі.",
+     "ru": "Эффективный мерчандайзинг может значительно увеличить продажи.",
+     "pl": "Skuteczny merchandising może znacznie zwiększyć sprzedaż.",
+     "de": "Effektives Merchandising kann den Umsatz erheblich steigern.",
+     "fr": "Un merchandising efficace peut augmenter considérablement les ventes.",
+     "es": "Un merchandising efectivo puede aumentar significativamente las ventas.",
+     "it": "Un merchandising efficace può aumentare significativamente le vendite.",
+     "pt": "Um merchandising eficaz pode aumentar significativamente as vendas.",
+     "tr": "Etkili ürün yerleştirme, satışları önemli ölçüde artırabilir."
+    },
+    {
+     "en": "The store's merchandising strategy attracted many customers.",
+     "uk": "Стратегія мерчандайзингу магазину привабила багато клієнтів.",
+     "ru": "Стратегия мерчандайзинга магазина привлекла много клиентов.",
+     "pl": "Strategia merchandisingu sklepu przyciągnęła wielu klientów.",
+     "de": "Die Merchandising-Strategie des Geschäfts zog viele Kunden an.",
+     "fr": "La stratégie de marchandisage du magasin a attiré de nombreux clients.",
+     "es": "La estrategia de merchandising de la tienda atrajo a muchos clientes.",
+     "it": "La strategia di merchandising del negozio ha attirato molti clienti.",
+     "pt": "A estratégia de merchandising da loja atraiu muitos clientes.",
+     "tr": "Mağazanın ürün yerleştirme stratejisi birçok müşteri çekti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.point-of-sale",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/pɔɪnt ʌv seɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The point of sale system was upgraded last week.",
+     "uk": "Система точки продажу була оновлена минулого тижня.",
+     "ru": "Система точки продаж была обновлена на прошлой неделе.",
+     "pl": "System punktu sprzedaży został zaktualizowany w zeszłym tygodniu.",
+     "de": "Das Kassensystem wurde letzte Woche aktualisiert.",
+     "fr": "Le système de point de vente a été mis à jour la semaine dernière.",
+     "es": "El sistema de punto de venta se actualizó la semana pasada.",
+     "it": "Il sistema di punto vendita è stato aggiornato la settimana scorsa.",
+     "pt": "O sistema de ponto de venda foi atualizado na semana passada.",
+     "tr": "Satış noktası sistemi geçen hafta güncellendi."
+    },
+    {
+     "en": "She works at the point of sale during weekends.",
+     "uk": "Вона працює в точці продажу по вихідних.",
+     "ru": "Она работает в точке продаж по выходным.",
+     "pl": "Pracuje w punkcie sprzedaży w weekendy.",
+     "de": "Sie arbeitet am Verkaufsstelle am Wochenende.",
+     "fr": "Elle travaille au point de vente pendant les week-ends.",
+     "es": "Ella trabaja en el punto de venta durante los fines de semana.",
+     "it": "Lavora al punto vendita durante i fine settimana.",
+     "pt": "Ela trabalha no ponto de venda durante os fins de semana.",
+     "tr": "Hafta sonları satış noktasında çalışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shrinkage",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈʃrɪŋkɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Shrinkage is a major issue for retail businesses.",
+     "uk": "Втрати товару є великою проблемою для роздрібної торгівлі.",
+     "ru": "Потери товара — это серьезная проблема для розничной торговли.",
+     "pl": "Ubytek towaru to poważny problem w handlu detalicznym.",
+     "de": "Inventurdifferenz ist ein großes Problem für den Einzelhandel.",
+     "fr": "La démarque inconnue est un problème majeur pour le commerce de détail.",
+     "es": "La merma es un problema importante para las tiendas.",
+     "it": "L'ammanco è un problema serio per il commercio al dettaglio.",
+     "pt": "A quebra de estoque é um grande problema para o varejo.",
+     "tr": "Stok kaybı, perakende için büyük bir sorundur."
+    },
+    {
+     "en": "We need to reduce shrinkage to improve profits.",
+     "uk": "Потрібно зменшити втрати товару, щоб покращити прибутки.",
+     "ru": "Нам нужно сократить потери товара, чтобы улучшить прибыль.",
+     "pl": "Musimy zmniejszyć ubytek towaru, aby poprawić zyski.",
+     "de": "Wir müssen die Inventurdifferenz reduzieren, um die Gewinne zu verbessern.",
+     "fr": "Nous devons réduire la démarque inconnue pour améliorer les bénéfices.",
+     "es": "Necesitamos reducir la merma para mejorar las ganancias.",
+     "it": "Dobbiamo ridurre l'ammanco per migliorare i profitti.",
+     "pt": "Precisamos reduzir a quebra de estoque para melhorar os lucros.",
+     "tr": "Karları artırmak için stok kaybını azaltmalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.stocktake",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/ˈstɑkˌteɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The annual stocktake helps us manage our inventory effectively.",
+     "uk": "Щорічна інвентаризація допомагає нам ефективно управляти запасами.",
+     "ru": "Ежегодная инвентаризация помогает нам эффективно управлять запасами.",
+     "pl": "Coroczna inwentaryzacja pomaga nam skutecznie zarządzać zapasami.",
+     "de": "Die jährliche Inventur hilft uns, unseren Bestand effektiv zu verwalten.",
+     "fr": "L'inventaire annuel nous aide à gérer efficacement notre stock.",
+     "es": "El inventario anual nos ayuda a gestionar nuestro stock de manera efectiva.",
+     "it": "L'inventario annuale ci aiuta a gestire efficacemente il nostro magazzino.",
+     "pt": "O inventário anual nos ajuda a gerenciar nosso estoque de forma eficaz.",
+     "tr": "Yıllık stok sayımı, envanterimizi etkili bir şekilde yönetmemize yardımcı olur."
+    },
+    {
+     "en": "We conduct a stocktake every six months to stay organized.",
+     "uk": "Ми проводимо інвентаризацію кожні шість місяців, щоб залишатися організованими.",
+     "ru": "Мы проводим инвентаризацию каждые шесть месяцев, чтобы оставаться организованными.",
+     "pl": "Przeprowadzamy inwentaryzację co sześć miesięcy, aby być zorganizowanym.",
+     "de": "Wir führen alle sechs Monate eine Inventur durch, um organisiert zu bleiben.",
+     "fr": "Nous effectuons un inventaire tous les six mois pour rester organisés.",
+     "es": "Realizamos un inventario cada seis meses para mantenernos organizados.",
+     "it": "Effettuiamo un inventario ogni sei mesi per rimanere organizzati.",
+     "pt": "Fazemos um inventário a cada seis meses para nos manter organizados.",
+     "tr": "Düzenli kalmak için her altı ayda bir stok sayımı yapıyoruz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.overstock",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˈstɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Overstock can lead to increased storage costs.",
+     "uk": "Надлишок товару може призвести до збільшення витрат на зберігання.",
+     "ru": "Излишек товара может привести к увеличению затрат на хранение.",
+     "pl": "Nadmiar towaru może prowadzić do zwiększenia kosztów przechowywania.",
+     "de": "Überbestand kann zu höheren Lagerkosten führen.",
+     "fr": "Le surstock peut entraîner des coûts de stockage plus élevés.",
+     "es": "El exceso de existencias puede llevar a un aumento de costos.",
+     "it": "Il sovrascorta può portare a costi di stoccaggio più elevati.",
+     "pt": "O excesso de estoque pode levar a custos de armazenamento mais altos.",
+     "tr": "Fazla stok, depolama maliyetlerinin artmasına neden olabilir."
+    },
+    {
+     "en": "We need to clear the overstock before the new shipment arrives.",
+     "uk": "Потрібно позбутися надлишку товару, перш ніж прибуде нова партія.",
+     "ru": "Нам нужно избавиться от излишка товара, прежде чем прибудет новая партия.",
+     "pl": "Musimy pozbyć się nadmiaru towaru, zanim przyjedzie nowa dostawa.",
+     "de": "Wir müssen den Überbestand räumen, bevor die neue Lieferung eintrifft.",
+     "fr": "Nous devons écouler le surstock avant l'arrivée de la nouvelle expédition.",
+     "es": "Necesitamos deshacernos del exceso de existencias antes de que llegue el nuevo envío.",
+     "it": "Dobbiamo liberare il sovrascorta prima che arrivi la nuova spedizione.",
+     "pt": "Precisamos limpar o excesso de estoque antes da nova remessa chegar.",
+     "tr": "Yeni sevkiyat gelmeden fazla stoku temizlememiz gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.end-of-line",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ɛnd ʌv laɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The end-of-line items are heavily discounted.",
+     "uk": "Товари, зняті з виробництва, сильно знижені.",
+     "ru": "Товары, снятые с производства, сильно уценены.",
+     "pl": "Końcówki serii są mocno przecenione.",
+     "de": "Die Auslaufmodelle sind stark reduziert.",
+     "fr": "Les fins de série sont fortement réduites.",
+     "es": "Los artículos de fin de serie tienen grandes descuentos.",
+     "it": "Gli articoli di fine serie sono fortemente scontati.",
+     "pt": "Os itens de ponta de estoque estão com grandes descontos.",
+     "tr": "Seri sonu ürünler büyük indirimde."
+    },
+    {
+     "en": "We have a sale on end-of-line products this weekend.",
+     "uk": "Цього вихідного у нас розпродаж товарів, знятих з виробництва.",
+     "ru": "На этих выходных у нас распродажа снятых с производства товаров.",
+     "pl": "W ten weekend mamy wyprzedaż końcówek serii.",
+     "de": "Dieses Wochenende haben wir einen Verkauf von Auslaufmodellen.",
+     "fr": "Ce week-end, nous avons une vente de fins de série.",
+     "es": "Este fin de semana tenemos una venta de artículos de fin de serie.",
+     "it": "Questo fine settimana abbiamo una vendita di articoli di fine serie.",
+     "pt": "Neste fim de semana, temos uma venda de ponta de estoque.",
+     "tr": "Bu hafta sonu seri sonu ürünlerde bir satışımız var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.factory-seconds",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/ˈfæktɚi ˈsɛkəndz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Factory seconds are sold at a reduced price.",
+     "uk": "Товари з дефектом продаються за зниженою ціною.",
+     "ru": "Товары с браком продаются по сниженной цене.",
+     "pl": "Towar drugiego gatunku sprzedawany jest w niższej cenie.",
+     "de": "Ware zweiter Wahl wird zu einem reduzierten Preis verkauft.",
+     "fr": "Les articles de second choix sont vendus à prix réduit.",
+     "es": "Los artículos con tara se venden a un precio reducido.",
+     "it": "Gli articoli di seconda scelta sono venduti a un prezzo ridotto.",
+     "pt": "Os produtos com defeito são vendidos a um preço reduzido.",
+     "tr": "Defolu ürünler indirimli fiyatla satılıyor."
+    },
+    {
+     "en": "Many people prefer factory seconds for their affordability.",
+     "uk": "Багато людей віддають перевагу товарам з дефектом через їх доступність.",
+     "ru": "Многие предпочитают товары с браком из-за их доступности.",
+     "pl": "Wiele osób wybiera towar drugiego gatunku ze względu na jego przystępność.",
+     "de": "Viele Menschen bevorzugen Ware zweiter Wahl wegen ihrer Erschwinglichkeit.",
+     "fr": "Beaucoup de gens préfèrent les articles de second choix pour leur prix abordable.",
+     "es": "Muchas personas prefieren los artículos con tara por su asequibilidad.",
+     "it": "Molte persone preferiscono gli articoli di seconda scelta per il loro prezzo accessibile.",
+     "pt": "Muitas pessoas preferem produtos com defeito por sua acessibilidade.",
+     "tr": "Birçok insan, uygun fiyatlı oldukları için defolu ürünleri tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.closing-down-sale",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/ˈkloʊzɪŋ daʊn seɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The closing-down sale attracted many bargain hunters.",
+     "uk": "Розпродаж через закриття привабив багато покупців зі знижками.",
+     "ru": "Распродажа из-за закрытия привлекла много охотников за выгодными предложениями.",
+     "pl": "Wyprzedaż likwidacyjna przyciągnęła wielu łowców okazji.",
+     "de": "Der Räumungsverkauf zog viele Schnäppchenjäger an.",
+     "fr": "La liquidation totale a attiré de nombreux chasseurs de bonnes affaires.",
+     "es": "La liquidación por cierre atrajo a muchos cazadores de ofertas.",
+     "it": "La svendita totale ha attratto molti cacciatori di occasioni.",
+     "pt": "A liquidação por fechamento atraiu muitos caçadores de ofertas.",
+     "tr": "Kapanış indirimi, birçok fırsat avcısını çekti."
+    },
+    {
+     "en": "Don't miss the closing-down sale this weekend!",
+     "uk": "Не пропустіть розпродаж через закриття цього вихідного!",
+     "ru": "Не пропустите распродажу из-за закрытия в эти выходные!",
+     "pl": "Nie przegap wyprzedaży likwidacyjnej w ten weekend!",
+     "de": "Verpassen Sie nicht den Räumungsverkauf an diesem Wochenende!",
+     "fr": "Ne manquez pas la liquidation totale ce week-end!",
+     "es": "¡No te pierdas la liquidación por cierre este fin de semana!",
+     "it": "Non perdere la svendita totale questo fine settimana!",
+     "pt": "Não perca a liquidação por fechamento neste fim de semana!",
+     "tr": "Bu hafta sonu kapanış indirimini kaçırmayın!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.liquidation",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˌlɪkwɪˈdeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company is facing liquidation due to financial troubles.",
+     "uk": "Компанія стикається з ліквідацією через фінансові труднощі.",
+     "ru": "Компания сталкивается с ликвидацией из-за финансовых проблем.",
+     "pl": "Firma stoi w obliczu likwidacji z powodu problemów finansowych.",
+     "de": "Das Unternehmen steht aufgrund finanzieller Schwierigkeiten vor der Liquidation.",
+     "fr": "L'entreprise fait face à une liquidation en raison de problèmes financiers.",
+     "es": "La empresa enfrenta una liquidación debido a problemas financieros.",
+     "it": "L'azienda sta affrontando una liquidazione a causa di difficoltà finanziarie.",
+     "pt": "A empresa está enfrentando liquidação devido a problemas financeiros.",
+     "tr": "Şirket, mali sıkıntılar nedeniyle tasfiye sürecinde."
+    },
+    {
+     "en": "Liquidation sales can offer great deals for customers.",
+     "uk": "Ліквідаційні розпродажі можуть запропонувати чудові угоди для покупців.",
+     "ru": "Ликвидационные распродажи могут предложить отличные сделки для клиентов.",
+     "pl": "Likwidacyjne wyprzedaże mogą oferować świetne okazje dla klientów.",
+     "de": "Liquidationsverkäufe können großartige Angebote für Kunden bieten.",
+     "fr": "Les ventes de liquidation peuvent offrir de bonnes affaires aux clients.",
+     "es": "Las liquidaciones pueden ofrecer grandes ofertas a los clientes.",
+     "it": "Le vendite di liquidazione possono offrire ottimi affari ai clienti.",
+     "pt": "As liquidações podem oferecer ótimos negócios para os clientes.",
+     "tr": "Tasfiye satışları, müşterilere harika fırsatlar sunabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.everything-must-go",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ˈɛvriˌθɪŋ mʌst ɡoʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "During the sale, everything must go at low prices.",
+     "uk": "Під час розпродажу все має зникнути за низькими цінами.",
+     "ru": "Во время распродажи распродаём все по низким ценам.",
+     "pl": "Podczas wyprzedaży wszystko musi zniknąć po niskich cenach.",
+     "de": "Während des Verkaufs muss alles zu niedrigen Preisen raus.",
+     "fr": "Pendant la vente, tout doit disparaître à bas prix.",
+     "es": "Durante la venta, se liquida todo a precios bajos.",
+     "it": "Durante la vendita, svendiamo tutto a prezzi bassi.",
+     "pt": "Durante a liquidação, queima total a preços baixos.",
+     "tr": "Satış sırasında, her şey düşük fiyatlarla satılmalı."
+    },
+    {
+     "en": "The store announced that everything must go this weekend.",
+     "uk": "Магазин оголосив, що цього вихідного все має зникнути.",
+     "ru": "Магазин объявил, что в эти выходные распродаём все.",
+     "pl": "Sklep ogłosił, że w ten weekend wszystko musi zniknąć.",
+     "de": "Der Laden hat angekündigt, dass alles muss raus dieses Wochenende.",
+     "fr": "Le magasin a annoncé que tout doit disparaître ce week-end.",
+     "es": "La tienda anunció que se liquida todo este fin de semana.",
+     "it": "Il negozio ha annunciato che svendiamo tutto questo fine settimana.",
+     "pt": "A loja anunciou que queima total neste fim de semana.",
+     "tr": "Mağaza, bu hafta sonu her şeyin satılacağını duyurdu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bundle",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈbʌndəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a bundle of books on sale.",
+     "uk": "Я купив комплект книг на розпродажі.",
+     "ru": "Я купил комплект книг на распродаже.",
+     "pl": "Kupiłem pakiet książek w promocji.",
+     "de": "Ich habe ein Paket Bücher im Angebot gekauft.",
+     "fr": "J'ai acheté un lot de livres en promotion.",
+     "es": "Compré un paquete de libros en oferta.",
+     "it": "Ho comprato un pacchetto di libri in offerta.",
+     "pt": "Comprei um pacote de livros em promoção.",
+     "tr": "İndirimde bir paket kitap aldım."
+    },
+    {
+     "en": "The bundle includes several items at a discounted price.",
+     "uk": "Комплект включає кілька товарів за зниженою ціною.",
+     "ru": "Комплект включает несколько товаров по сниженной цене.",
+     "pl": "Pakiet zawiera kilka przedmiotów w obniżonej cenie.",
+     "de": "Das Paket enthält mehrere Artikel zu einem reduzierten Preis.",
+     "fr": "Le lot comprend plusieurs articles à prix réduit.",
+     "es": "El paquete incluye varios artículos a un precio reducido.",
+     "it": "Il pacchetto include diversi articoli a un prezzo scontato.",
+     "pt": "O pacote inclui vários itens a um preço com desconto.",
+     "tr": "Paket, indirimli fiyata birkaç ürünü içeriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.add-on",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/æd ɑn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This software comes with a useful add-on for editing photos.",
+     "uk": "Цей програмне забезпечення має корисне доповнення для редагування фотографій.",
+     "ru": "Это программное обеспечение поставляется с полезным дополнением для редактирования фотографий.",
+     "pl": "To oprogramowanie ma przydatny dodatek do edytowania zdjęć.",
+     "de": "Diese Software kommt mit einem nützlichen Zusatzartikel zum Bearbeiten von Fotos.",
+     "fr": "Ce logiciel est livré avec une option utile pour éditer des photos.",
+     "es": "Este software viene con un complemento útil para editar fotos.",
+     "it": "Questo software viene fornito con un componente aggiuntivo utile per modificare le foto.",
+     "pt": "Este software vem com um complemento útil para editar fotos.",
+     "tr": "Bu yazılım, fotoğraf düzenleme için yararlı bir ek ürünle birlikte gelir."
+    },
+    {
+     "en": "You can purchase an add-on for more storage space.",
+     "uk": "Ви можете придбати доповнення для більшого обсягу пам'яті.",
+     "ru": "Вы можете купить дополнение для увеличения объема памяти.",
+     "pl": "Możesz kupić dodatek do zwiększenia przestrzeni pamięci.",
+     "de": "Sie können einen Zusatzartikel für mehr Speicherplatz kaufen.",
+     "fr": "Vous pouvez acheter une option pour plus d'espace de stockage.",
+     "es": "Puedes comprar un complemento para más espacio de almacenamiento.",
+     "it": "Puoi acquistare un componente aggiuntivo per più spazio di archiviazione.",
+     "pt": "Você pode comprar um complemento para mais espaço de armazenamento.",
+     "tr": "Daha fazla depolama alanı için bir ek ürün satın alabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.white-goods",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/waɪt ɡʊdz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to buy some white goods for my kitchen.",
+     "uk": "Мені потрібно купити велику побутову техніку для кухні.",
+     "ru": "Мне нужно купить крупную бытовую технику для кухни.",
+     "pl": "Muszę kupić sprzęt AGD do mojej kuchni.",
+     "de": "Ich muss einige weiße Ware für meine Küche kaufen.",
+     "fr": "J'ai besoin d'acheter des électroménagers pour ma cuisine.",
+     "es": "Necesito comprar electrodomésticos de línea blanca para mi cocina.",
+     "it": "Devo comprare elettrodomestici bianchi per la mia cucina.",
+     "pt": "Preciso comprar linha branca para minha cozinha.",
+     "tr": "Mutfağıma beyaz eşya almam gerekiyor."
+    },
+    {
+     "en": "The store has a great selection of white goods.",
+     "uk": "Магазин має великий вибір великої побутової техніки.",
+     "ru": "В магазине большой выбор крупной бытовой техники.",
+     "pl": "Sklep ma świetny wybór sprzętu AGD.",
+     "de": "Das Geschäft hat eine große Auswahl an weißer Ware.",
+     "fr": "Le magasin a une excellente sélection d'électroménagers.",
+     "es": "La tienda tiene una gran selección de electrodomésticos de línea blanca.",
+     "it": "Il negozio ha una grande selezione di elettrodomestici bianchi.",
+     "pt": "A loja tem uma ótima seleção de linha branca.",
+     "tr": "Mağazada harika bir beyaz eşya seçeneği var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.consumer-goods",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/kənˈsumɚ ɡʊdz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Consumer goods are essential for daily living.",
+     "uk": "Споживчі товари є необхідними для повсякденного життя.",
+     "ru": "Потребительские товары необходимы для повседневной жизни.",
+     "pl": "Dobra konsumpcyjne są niezbędne do codziennego życia.",
+     "de": "Konsumgüter sind für das tägliche Leben unerlässlich.",
+     "fr": "Les biens de consommation sont essentiels à la vie quotidienne.",
+     "es": "Los bienes de consumo son esenciales para la vida diaria.",
+     "it": "I beni di consumo sono essenziali per la vita quotidiana.",
+     "pt": "Os bens de consumo são essenciais para a vida diária.",
+     "tr": "Tüketim malları günlük yaşam için gereklidir."
+    },
+    {
+     "en": "The market for consumer goods is constantly evolving.",
+     "uk": "Ринок споживчих товарів постійно розвивається.",
+     "ru": "Рынок потребительских товаров постоянно развивается.",
+     "pl": "Rynek dóbr konsumpcyjnych ciągle się rozwija.",
+     "de": "Der Markt für Konsumgüter entwickelt sich ständig weiter.",
+     "fr": "Le marché des biens de consommation évolue constamment.",
+     "es": "El mercado de bienes de consumo está en constante evolución.",
+     "it": "Il mercato dei beni di consumo è in continua evoluzione.",
+     "pt": "O mercado de bens de consumo está em constante evolução.",
+     "tr": "Tüketim malları pazarı sürekli evrim geçiriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.non-essentials",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/nɑn ɛˈsɛnʃəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She loves buying non-essentials during sales.",
+     "uk": "Їй подобається купувати предмети не першої необхідності під час розпродажів.",
+     "ru": "Ей нравится покупать товары не первой необходимости на распродажах.",
+     "pl": "Ona uwielbia kupować rzeczy niekonieczne podczas wyprzedaży.",
+     "de": "Sie liebt es, nicht lebensnotwendige Waren während des Verkaufs zu kaufen.",
+     "fr": "Elle adore acheter des produits non essentiels pendant les soldes.",
+     "es": "Le encanta comprar productos no esenciales durante las rebajas.",
+     "it": "Le piace comprare beni non essenziali durante i saldi.",
+     "pt": "Ela adora comprar itens não essenciais durante as vendas.",
+     "tr": "İndirimlerde zorunlu olmayan ürünler satın almayı seviyor."
+    },
+    {
+     "en": "Non-essentials can add up quickly in your budget.",
+     "uk": "Предмети не першої необхідності можуть швидко накопичитися у вашому бюджеті.",
+     "ru": "Товары не первой необходимости могут быстро накопиться в вашем бюджете.",
+     "pl": "Rzeczy niekonieczne mogą szybko się kumulować w twoim budżecie.",
+     "de": "Nicht lebensnotwendige Waren können schnell in Ihrem Budget anfallen.",
+     "fr": "Les produits non essentiels peuvent rapidement s'accumuler dans votre budget.",
+     "es": "Los productos no esenciales pueden acumularse rápidamente en tu presupuesto.",
+     "it": "I beni non essenziali possono accumularsi rapidamente nel tuo budget.",
+     "pt": "Os itens não essenciais podem se acumular rapidamente no seu orçamento.",
+     "tr": "Zorunlu olmayan ürünler bütçenizde hızla birikebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.indulgence",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈdʌldʒəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I treat myself to small indulgences on weekends.",
+     "uk": "Я балую себе маленькими розкішами на вихідних.",
+     "ru": "Я балую себя маленькими баловствами по выходным.",
+     "pl": "W weekendy pozwalam sobie na małe przyjemności.",
+     "de": "Ich gönne mir am Wochenende kleine Luxusmomente.",
+     "fr": "Je me fais des petits plaisirs le week-end.",
+     "es": "Me doy caprichos pequeños los fines de semana.",
+     "it": "Mi concedo piccoli sfizi nei fine settimana.",
+     "pt": "Eu me permito pequenos luxos nos finais de semana.",
+     "tr": "Hafta sonları kendime küçük keyifler yaparım."
+    },
+    {
+     "en": "Indulgence can be a part of a balanced lifestyle.",
+     "uk": "Розкіш може бути частиною збалансованого способу життя.",
+     "ru": "Баловство может быть частью сбалансированного образа жизни.",
+     "pl": "Przyjemność może być częścią zrównoważonego stylu życia.",
+     "de": "Luxus kann Teil eines ausgewogenen Lebensstils sein.",
+     "fr": "Le petit plaisir peut faire partie d'un mode de vie équilibré.",
+     "es": "El capricho puede ser parte de un estilo de vida equilibrado.",
+     "it": "Lo sfizio può far parte di uno stile di vita equilibrato.",
+     "pt": "O luxo pode ser parte de um estilo de vida equilibrado.",
+     "tr": "Keyif, dengeli bir yaşam tarzının bir parçası olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.compulsive-buying",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/kəmˈpʌlsɪv ˈbaɪɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Compulsive buying can lead to financial difficulties.",
+     "uk": "Компульсивні покупки можуть призвести до фінансових труднощів.",
+     "ru": "Компульсивные покупки могут привести к финансовым трудностям.",
+     "pl": "Kompulsywne kupowanie może prowadzić do trudności finansowych.",
+     "de": "Kaufsucht kann zu finanziellen Schwierigkeiten führen.",
+     "fr": "L'achat compulsif peut entraîner des difficultés financières.",
+     "es": "La compra compulsiva puede llevar a dificultades financieras.",
+     "it": "L'acquisto compulsivo può portare a difficoltà finanziarie.",
+     "pt": "A compra compulsiva pode levar a dificuldades financeiras.",
+     "tr": "Kontrolsüz alışveriş finansal zorluklara yol açabilir."
+    },
+    {
+     "en": "She recognized her compulsive buying habits and sought help.",
+     "uk": "Вона визнала свої компульсивні покупки і звернулася по допомогу.",
+     "ru": "Она признала свои компульсивные покупки и обратилась за помощью.",
+     "pl": "Ona rozpoznała swoje kompulsywne kupowanie i poprosiła o pomoc.",
+     "de": "Sie erkannte ihre Kaufsucht und suchte Hilfe.",
+     "fr": "Elle a reconnu ses achats compulsifs et a cherché de l'aide.",
+     "es": "Ella reconoció sus hábitos de compra compulsiva y buscó ayuda.",
+     "it": "Ha riconosciuto le sue abitudini di acquisto compulsivo e ha cercato aiuto.",
+     "pt": "Ela reconheceu seus hábitos de compra compulsiva e procurou ajuda.",
+     "tr": "Kendine kontrolsüz alışveriş alışkanlıklarını tanıdı ve yardım aradı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-hoard",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/hɔrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "People tend to hoard items during uncertain times.",
+     "uk": "Люди мають звичку робити запаси в невизначені часи.",
+     "ru": "Люди склонны делать запасы в неопределенные времена.",
+     "pl": "Ludzie mają tendencję do gromadzenia rzeczy w niepewnych czasach.",
+     "de": "Menschen neigen dazu, während unsicherer Zeiten zu horten.",
+     "fr": "Les gens ont tendance à amasser des objets en période d'incertitude.",
+     "es": "Las personas tienden a acaparar artículos en tiempos inciertos.",
+     "it": "Le persone tendono ad accaparrare oggetti durante i periodi di incertezza.",
+     "pt": "As pessoas tendem a acumular itens em tempos incertos.",
+     "tr": "İnsanlar belirsiz zamanlarda ürünleri istifleme eğilimindedir."
+    },
+    {
+     "en": "It's not healthy to hoard unnecessary things.",
+     "uk": "Нездорово робити запаси непотрібних речей.",
+     "ru": "Нездорово делать запасы ненужных вещей.",
+     "pl": "To niezdrowe gromadzić niepotrzebne rzeczy.",
+     "de": "Es ist nicht gesund, unnötige Dinge zu horten.",
+     "fr": "Ce n'est pas sain d'amasser des choses inutiles.",
+     "es": "No es saludable acaparar cosas innecesarias.",
+     "it": "Non è salutare accaparrare cose inutili.",
+     "pt": "Não é saudável acumular coisas desnecessárias.",
+     "tr": "Gereksiz şeyleri istiflemek sağlıklı değil."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.thrift-store",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/θrɪft stɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a vintage dress at the thrift store.",
+     "uk": "Я знайшла вінтажну сукню в секонд-хенді.",
+     "ru": "Я нашла винтажное платье в секонд-хенде.",
+     "pl": "Znalazłem vintage sukienkę w sklepie z używaną odzieżą.",
+     "de": "Ich habe ein Vintage-Kleid im Secondhandladen gefunden.",
+     "fr": "J'ai trouvé une robe vintage dans la friperie.",
+     "es": "Encontré un vestido vintage en la tienda de segunda mano.",
+     "it": "Ho trovato un vestito vintage nel negozio dell'usato.",
+     "pt": "Encontrei um vestido vintage no brechó.",
+     "tr": "İkinci el mağazasında vintage bir elbise buldum."
+    },
+    {
+     "en": "Thrift stores often have unique and affordable items.",
+     "uk": "Секонд-хенди часто мають унікальні та доступні речі.",
+     "ru": "Секонд-хенды часто имеют уникальные и доступные вещи.",
+     "pl": "Sklepy z używaną odzieżą często mają unikalne i przystępne cenowo przedmioty.",
+     "de": "Secondhandläden haben oft einzigartige und erschwingliche Artikel.",
+     "fr": "Les friperies ont souvent des articles uniques et abordables.",
+     "es": "Las tiendas de segunda mano suelen tener artículos únicos y asequibles.",
+     "it": "I negozi dell'usato hanno spesso articoli unici e convenienti.",
+     "pt": "Os brechós costumam ter itens únicos e acessíveis.",
+     "tr": "İkinci el mağazalarında genellikle benzersiz ve uygun fiyatlı ürünler bulunur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-economise",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/ɪˈkɑnəˌmaɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to economise on my grocery bills this month.",
+     "uk": "Цього місяця мені потрібно заощаджувати на покупках.",
+     "ru": "В этом месяце мне нужно экономить на покупках.",
+     "pl": "Muszę oszczędzać na zakupach spożywczych w tym miesiącu.",
+     "de": "Ich muss diesen Monat bei meinen Lebensmitteleinkäufen sparen.",
+     "fr": "Je dois économiser sur mes courses ce mois-ci.",
+     "es": "Necesito economizar en mis compras de supermercado este mes.",
+     "it": "Devo risparmiare sulla spesa di questo mese.",
+     "pt": "Preciso economizar nas compras de supermercado este mês.",
+     "tr": "Bu ay market harcamalarımda tasarruf etmem gerekiyor."
+    },
+    {
+     "en": "It's wise to economise when planning a vacation.",
+     "uk": "Розумно заощаджувати при плануванні відпустки.",
+     "ru": "Разумно экономить при планировании отпуска.",
+     "pl": "To mądrze oszczędzać podczas planowania wakacji.",
+     "de": "Es ist klug, beim Planen eines Urlaubs zu sparen.",
+     "fr": "Il est sage d'économiser lors de la planification de vacances.",
+     "es": "Es prudente economizar al planear unas vacaciones.",
+     "it": "È saggio risparmiare quando si pianifica una vacanza.",
+     "pt": "É sábio economizar ao planejar uma viagem.",
+     "tr": "Bir tatil planlarken tasarruf etmek akıllıca."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.discerning",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/dɪˈsɝnɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is a discerning shopper who values quality.",
+     "uk": "Він вибагливий покупець, який цінує якість.",
+     "ru": "Он взыскательный покупатель, который ценит качество.",
+     "pl": "On jest wymagającym klientem, który ceni jakość.",
+     "de": "Er ist ein anspruchsvoller Käufer, der Qualität schätzt.",
+     "fr": "C'est un consommateur exigeant qui apprécie la qualité.",
+     "es": "Es un comprador exigente que valora la calidad.",
+     "it": "È un acquirente esigente che apprezza la qualità.",
+     "pt": "Ele é um consumidor exigente que valoriza a qualidade.",
+     "tr": "Kaliteyi önemseyen seçici bir alışverişçi."
+    },
+    {
+     "en": "Discerning customers often seek unique items.",
+     "uk": "Вибагливі клієнти часто шукають унікальні речі.",
+     "ru": "Взыскательные клиенты часто ищут уникальные вещи.",
+     "pl": "Wymagający klienci często szukają unikalnych przedmiotów.",
+     "de": "Anspruchsvolle Kunden suchen oft nach einzigartigen Artikeln.",
+     "fr": "Les clients exigeants recherchent souvent des articles uniques.",
+     "es": "Los clientes exigentes a menudo buscan artículos únicos.",
+     "it": "I clienti esigenti spesso cercano articoli unici.",
+     "pt": "Os clientes exigentes costumam procurar itens únicos.",
+     "tr": "Seçici müşteriler genellikle benzersiz ürünler arar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.savvy-shopper",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˈsævi ˈʃɑpɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A savvy shopper knows how to find the best deals.",
+     "uk": "Кмітливий покупець знає, як знайти найкращі пропозиції.",
+     "ru": "Расчетливый покупатель знает, как найти лучшие предложения.",
+     "pl": "Sprytny klient wie, jak znaleźć najlepsze oferty.",
+     "de": "Ein cleverer Käufer weiß, wie man die besten Angebote findet.",
+     "fr": "Un consommateur avisé sait comment trouver les meilleures offres.",
+     "es": "Un comprador astuto sabe cómo encontrar las mejores ofertas.",
+     "it": "Un acquirente accorto sa come trovare le migliori offerte.",
+     "pt": "Um consumidor esperto sabe como encontrar as melhores ofertas.",
+     "tr": "Bilinçli alışverişçi en iyi fırsatları nasıl bulacağını bilir."
+    },
+    {
+     "en": "Being a savvy shopper can save you a lot of money.",
+     "uk": "Бути кмітливим покупцем може заощадити вам багато грошей.",
+     "ru": "Быть расчетливым покупателем может сэкономить вам много денег.",
+     "pl": "Bycie sprytnym klientem może zaoszczędzić dużo pieniędzy.",
+     "de": "Ein cleverer Käufer kann Ihnen viel Geld sparen.",
+     "fr": "Être un consommateur avisé peut vous faire économiser beaucoup d'argent.",
+     "es": "Ser un comprador astuto puede ahorrarte mucho dinero.",
+     "it": "Essere un acquirente accorto può farti risparmiare molti soldi.",
+     "pt": "Ser um consumidor esperto pode economizar muito dinheiro.",
+     "tr": "Bilinçli alışverişçi olmak size çok para kazandırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-scrutinise",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/ˈskrutəˌnaɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She decided to scrutinise the contract thoroughly.",
+     "uk": "Вона вирішила ретельно вивчити контракт.",
+     "ru": "Она решила тщательно изучить контракт.",
+     "pl": "Postanowiła dokładnie analizować umowę.",
+     "de": "Sie beschloss, den Vertrag genau zu prüfen.",
+     "fr": "Elle a décidé d'examiner minutieusement le contrat.",
+     "es": "Decidió examinar el contrato a fondo.",
+     "it": "Ha deciso di esaminare attentamente il contratto.",
+     "pt": "Ela decidiu examinar o contrato minuciosamente.",
+     "tr": "Sözleşmeyi dikkatlice incelemeye karar verdi."
+    },
+    {
+     "en": "The researchers will scrutinise the data for accuracy.",
+     "uk": "Дослідники ретельно вивчатимуть дані на точність.",
+     "ru": "Исследователи тщательно изучат данные на точность.",
+     "pl": "Badacze dokładnie przeanalizują dane pod kątem dokładności.",
+     "de": "Die Forscher werden die Daten auf Genauigkeit prüfen.",
+     "fr": "Les chercheurs examineront minutieusement les données pour leur précision.",
+     "es": "Los investigadores examinarán los datos para verificar su precisión.",
+     "it": "I ricercatori esamineranno attentamente i dati per l'accuratezza.",
+     "pt": "Os pesquisadores examinarão os dados quanto à precisão.",
+     "tr": "Araştırmacılar verileri doğruluk açısından inceleyecek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-scour-the-shops",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ˈskaʊɚ ðə ʃɑps/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to scour the shops for a new dress.",
+     "uk": "Мені потрібно обійти всі магазини в пошуках нової сукні.",
+     "ru": "Мне нужно обойти все магазины в поисках нового платья.",
+     "pl": "Muszę przeszukać sklepy w poszukiwaniu nowej sukienki.",
+     "de": "Ich muss alle Läden abklappern, um ein neues Kleid zu finden.",
+     "fr": "Je dois écumer les magasins à la recherche d'une nouvelle robe.",
+     "es": "Necesito recorrer todas las tiendas para encontrar un vestido nuevo.",
+     "it": "Devo girare tutti i negozi per trovare un vestito nuovo.",
+     "pt": "Preciso percorrer as lojas em busca de um vestido novo.",
+     "tr": "Yeni bir elbise bulmak için dükkân dükkân dolaşmalıyım."
+    },
+    {
+     "en": "They spent the day scouring the shops for bargains.",
+     "uk": "Вони провели день, обходячи всі магазини в пошуках знижок.",
+     "ru": "Они провели день, обходя все магазины в поисках скидок.",
+     "pl": "Spędzili dzień, przeszukując sklepy w poszukiwaniu okazji.",
+     "de": "Sie verbrachten den Tag damit, alle Läden abzuklappern, um Schnäppchen zu finden.",
+     "fr": "Ils ont passé la journée à écumer les magasins pour des bonnes affaires.",
+     "es": "Pasaron el día recorriendo todas las tiendas en busca de ofertas.",
+     "it": "Hanno passato la giornata a girare tutti i negozi in cerca di affari.",
+     "pt": "Passaram o dia percorrendo as lojas em busca de pechinchas.",
+     "tr": "İndirimler için dükkân dükkân dolaşarak günü geçirdiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-rifle-through",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈraɪfəl θru/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He rifled through the drawer looking for his keys.",
+     "uk": "Він рився в шухляді, шукаючи свої ключі.",
+     "ru": "Он рыскал в ящике в поисках ключей.",
+     "pl": "Grzebał w szufladzie, szukając kluczy.",
+     "de": "Er durchwühlte die Schublade auf der Suche nach seinen Schlüsseln.",
+     "fr": "Il fouilla dans le tiroir à la recherche de ses clés.",
+     "es": "Rebuscó en el cajón buscando sus llaves.",
+     "it": "Frugò nel cassetto in cerca delle sue chiavi.",
+     "pt": "Ele vasculhou a gaveta em busca de suas chaves.",
+     "tr": "Anahtarlarını aramak için çekmecede karıştırdı."
+    },
+    {
+     "en": "She rifled through her bag for the receipt.",
+     "uk": "Вона рилася в своїй сумці в пошуках чека.",
+     "ru": "Она рыскала в своей сумке в поисках чека.",
+     "pl": "Grzebała w swojej torbie w poszukiwaniu paragonu.",
+     "de": "Sie durchwühlte ihre Tasche nach dem Beleg.",
+     "fr": "Elle fouilla dans son sac à la recherche du reçu.",
+     "es": "Rebuscó en su bolso en busca del recibo.",
+     "it": "Frugò nella sua borsa in cerca della ricevuta.",
+     "pt": "Ela vasculhou sua bolsa em busca do recibo.",
+     "tr": "Fişi bulmak için çantasını karıştırdı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bespoke",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/bʊˈspoʊk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wore a bespoke suit tailored just for him.",
+     "uk": "Він носив костюм на замовлення, пошитий спеціально для нього.",
+     "ru": "Он носил костюм на заказ, сшитый специально для него.",
+     "pl": "Miał na sobie szyty na miarę garnitur stworzony specjalnie dla niego.",
+     "de": "Er trug einen maßgeschneiderten Anzug, der nur für ihn gemacht wurde.",
+     "fr": "Il portait un costume sur mesure fait juste pour lui.",
+     "es": "Llevaba un traje a medida hecho solo para él.",
+     "it": "Indossava un abito su misura fatto apposta per lui.",
+     "pt": "Ele usava um terno sob medida feito só para ele.",
+     "tr": "Sadece onun için dikilmiş ısmarlama bir takım elbise giyiyordu."
+    },
+    {
+     "en": "The bespoke furniture fit perfectly in the room.",
+     "uk": "Меблі на замовлення ідеально підійшли до кімнати.",
+     "ru": "Мебель на заказ идеально вписалась в комнату.",
+     "pl": "Meble szyte na miarę idealnie pasowały do pokoju.",
+     "de": "Die maßgeschneiderte Möbel passten perfekt in den Raum.",
+     "fr": "Les meubles sur mesure s'intégraient parfaitement dans la pièce.",
+     "es": "Los muebles a medida encajaban perfectamente en la habitación.",
+     "it": "I mobili su misura si adattavano perfettamente alla stanza.",
+     "pt": "Os móveis sob medida se encaixavam perfeitamente na sala.",
+     "tr": "Özel yapım mobilyalar odaya mükemmel şekilde uydu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.ready-to-wear",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/ˈrɛdi tu wɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She prefers ready-to-wear clothing for convenience.",
+     "uk": "Вона віддає перевагу готовому одягу за зручність.",
+     "ru": "Она предпочитает готовую одежду за удобство.",
+     "pl": "Ona woli gotowy odzież dla wygody.",
+     "de": "Sie bevorzugt Konfektion wegen der Bequemlichkeit.",
+     "fr": "Elle préfère le prêt-à-porter pour sa commodité.",
+     "es": "Prefiere la ropa prêt-à-porter por su comodidad.",
+     "it": "Preferisce l'abbigliamento prêt-à-porter per la comodità.",
+     "pt": "Ela prefere roupas prontas para vestir pela conveniência.",
+     "tr": "Kolaylık için hazır giyimi tercih ediyor."
+    },
+    {
+     "en": "The store specializes in ready-to-wear fashion.",
+     "uk": "Магазин спеціалізується на готовому одязі.",
+     "ru": "Магазин специализируется на готовой одежде.",
+     "pl": "Sklep specjalizuje się w konfekcji.",
+     "de": "Der Laden ist auf Konfektion spezialisiert.",
+     "fr": "Le magasin est spécialisé dans le prêt-à-porter.",
+     "es": "La tienda se especializa en prêt-à-porter.",
+     "it": "Il negozio è specializzato in prêt-à-porter.",
+     "pt": "A loja é especializada em pronta entrega.",
+     "tr": "Mağaza hazır giyim konusunda uzmanlaşmıştır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.apparel",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/əˈpærəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store offers a wide range of apparel.",
+     "uk": "Магазин пропонує широкий асортимент одягу.",
+     "ru": "Магазин предлагает широкий ассортимент одежды.",
+     "pl": "Sklep oferuje szeroki wybór odzieży.",
+     "de": "Der Laden bietet eine große Auswahl an Bekleidung.",
+     "fr": "Le magasin propose une large gamme d'habillement.",
+     "es": "La tienda ofrece una amplia gama de ropa.",
+     "it": "Il negozio offre una vasta gamma di abbigliamento.",
+     "pt": "A loja oferece uma ampla gama de vestuário.",
+     "tr": "Mağaza geniş bir giyim yelpazesi sunuyor."
+    },
+    {
+     "en": "She donated her old apparel to charity.",
+     "uk": "Вона пожертвувала свій старий одяг на благодійність.",
+     "ru": "Она пожертвовала свою старую одежду на благотворительность.",
+     "pl": "Ona przekazała swoje stare ubrania na cele charytatywne.",
+     "de": "Sie spendete ihre alte Bekleidung für wohltätige Zwecke.",
+     "fr": "Elle a fait don de ses vieux vêtements à une œuvre de charité.",
+     "es": "Donó su ropa vieja a la caridad.",
+     "it": "Ha donato i suoi vecchi abiti in beneficenza.",
+     "pt": "Ela doou suas roupas velhas para a caridade.",
+     "tr": "Eski giysilerini hayır kurumuna bağışladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.attire",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/əˈtaɪɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Her attire was appropriate for the formal event.",
+     "uk": "Її вбрання було доречним для офіційної події.",
+     "ru": "Ее облачение было уместным для официального мероприятия.",
+     "pl": "Jej strój był odpowiedni na formalne wydarzenie.",
+     "de": "Ihre Kleidung war für die formelle Veranstaltung angemessen.",
+     "fr": "Sa tenue était appropriée pour l'événement formel.",
+     "es": "Su atuendo era apropiado para el evento formal.",
+     "it": "Il suo abbigliamento era appropriato per l'evento formale.",
+     "pt": "Seu traje era apropriado para o evento formal.",
+     "tr": "Kıyafeti resmi etkinlik için uygundu."
+    },
+    {
+     "en": "He chose casual attire for the party.",
+     "uk": "Він вибрав повсякденне вбрання для вечірки.",
+     "ru": "Он выбрал повседневное облачение для вечеринки.",
+     "pl": "Wybrał swobodny strój na imprezę.",
+     "de": "Er wählte legere Kleidung für die Party.",
+     "fr": "Il a choisi une tenue décontractée pour la fête.",
+     "es": "Eligió un atuendo casual para la fiesta.",
+     "it": "Ha scelto un abbigliamento informale per la festa.",
+     "pt": "Ele escolheu um traje casual para a festa.",
+     "tr": "Parti için rahat kıyafetler seçti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-accessorise",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/ækˈsɛsɚˌaɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She loves to accessorise her outfits creatively.",
+     "uk": "Їй подобається креативно доповнювати свої наряди.",
+     "ru": "Ей нравится креативно дополнять свои наряды.",
+     "pl": "Uwielbia kreatywnie dodawać dodatki do swoich strojów.",
+     "de": "Sie liebt es, ihre Outfits kreativ mit Accessoires zu kombinieren.",
+     "fr": "Elle adore accessoiriser ses tenues de manière créative.",
+     "es": "Le encanta complementar sus atuendos de manera creativa.",
+     "it": "Ama abbinare accessori ai suoi outfit in modo creativo.",
+     "pt": "Ela adora accessorizar suas roupas de forma criativa.",
+     "tr": "Elbiselerini yaratıcı bir şekilde aksesuarla tamamlamayı seviyor."
+    },
+    {
+     "en": "It's easy to accessorise a simple dress.",
+     "uk": "Легко доповнити аксесуарами просту сукню.",
+     "ru": "Легко дополнить простое платье аксессуарами.",
+     "pl": "Łatwo dodać dodatki do prostej sukienki.",
+     "de": "Es ist einfach, ein einfaches Kleid mit Accessoires zu kombinieren.",
+     "fr": "Il est facile d'accessoiriser une robe simple.",
+     "es": "Es fácil complementar un vestido simple.",
+     "it": "È facile abbinare accessori a un vestito semplice.",
+     "pt": "É fácil accessorizar um vestido simples.",
+     "tr": "Basit bir elbiseyi aksesuarla tamamlamak kolaydır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.statement-piece",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/ˈsteɪtmənt pis/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Her dress is a statement piece for the event.",
+     "uk": "Її сукня є акцентною річчю для заходу.",
+     "ru": "Ее платье — акцентная вещь для мероприятия.",
+     "pl": "Jej sukienka to element przyciągający uwagę na wydarzeniu.",
+     "de": "Ihr Kleid ist ein Statement-Piece für die Veranstaltung.",
+     "fr": "Sa robe est une pièce forte pour l'événement.",
+     "es": "Su vestido es una prenda estrella para el evento.",
+     "it": "Il suo vestito è un capo statement per l'evento.",
+     "pt": "O vestido dela é uma peça de destaque para o evento.",
+     "tr": "Elbisesi etkinlik için dikkat çekici bir parça."
+    },
+    {
+     "en": "A bold necklace can be a great statement piece.",
+     "uk": "Сміливе намисто може бути чудовою акцентною річчю.",
+     "ru": "Яркое ожерелье может стать отличной акцентной вещью.",
+     "pl": "Odważny naszyjnik może być świetnym elementem przyciągającym uwagę.",
+     "de": "Eine auffällige Halskette kann ein großartiges Statement-Piece sein.",
+     "fr": "Un collier audacieux peut être une excellente pièce forte.",
+     "es": "Un collar audaz puede ser una gran prenda estrella.",
+     "it": "Una collana audace può essere un ottimo capo statement.",
+     "pt": "Um colar ousado pode ser uma ótima peça de destaque.",
+     "tr": "Cesur bir kolye harika bir dikkat çekici parça olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.capsule-wardrobe",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/ˈkæpsəl ˈwɔrˌdroʊb/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She created a capsule wardrobe for easy mixing.",
+     "uk": "Вона створила капсульний гардероб для легкого комбінування.",
+     "ru": "Она создала капсульный гардероб для легкого сочетания.",
+     "pl": "Stworzyła garderobę kapsułową dla łatwego łączenia.",
+     "de": "Sie stellte eine Capsule Wardrobe für einfaches Kombinieren zusammen.",
+     "fr": "Elle a créé une garde-robe capsule pour un mélange facile.",
+     "es": "Creó un armario cápsula para mezclar fácilmente.",
+     "it": "Ha creato un guardaroba capsula per mescolare facilmente.",
+     "pt": "Ela criou um guarda-roupa cápsula para facilitar as combinações.",
+     "tr": "Kolay kombinasyonlar için bir kapsül gardırop oluşturdu."
+    },
+    {
+     "en": "A capsule wardrobe simplifies daily outfit choices.",
+     "uk": "Капсульний гардероб спрощує щоденний вибір одягу.",
+     "ru": "Капсульный гардероб упрощает ежедневный выбор одежды.",
+     "pl": "Garderoba kapsułowa upraszcza codzienny wybór stroju.",
+     "de": "Eine Capsule Wardrobe vereinfacht die tägliche Outfit-Auswahl.",
+     "fr": "Une garde-robe capsule simplifie le choix des tenues quotidiennes.",
+     "es": "Un armario cápsula simplifica las elecciones diarias de atuendo.",
+     "it": "Un guardaroba capsula semplifica le scelte quotidiane degli outfit.",
+     "pt": "Um guarda-roupa cápsula simplifica as escolhas diárias de roupas.",
+     "tr": "Kapsül gardırop, günlük kıyafet seçimlerini basitleştirir."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

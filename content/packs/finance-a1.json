@@ -2,7 +2,7 @@
  "id": "finance-a1",
  "topic": "finance",
  "level": "a1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "finance.coin",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/kɔɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a coin on the street.",
+     "uk": "Я знайшов монету на вулиці.",
+     "ru": "Я нашёл монету на улице.",
+     "pl": "Znalazłem monetę na ulicy.",
+     "de": "Ich habe eine Münze auf der Straße gefunden.",
+     "fr": "J'ai trouvé une pièce dans la rue.",
+     "es": "Encontré una moneda en la calle.",
+     "it": "Ho trovato una moneta per strada.",
+     "pt": "Encontrei uma moeda na rua.",
+     "tr": "Caddede bir madeni para buldum."
+    },
+    {
+     "en": "This coin is worth one dollar.",
+     "uk": "Ця монета варта одного долара.",
+     "ru": "Эта монета стоит один доллар.",
+     "pl": "Ta moneta jest warta jednego dolara.",
+     "de": "Diese Münze ist einen Dollar wert.",
+     "fr": "Cette pièce vaut un dollar.",
+     "es": "Esta moneda vale un dólar.",
+     "it": "Questa moneta vale un dollaro.",
+     "pt": "Esta moeda vale um dólar.",
+     "tr": "Bu madeni para bir dolar değerinde."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.banknote",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˈbæŋkˌnoʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I paid with a banknote.",
+     "uk": "Я заплатив банкнотою.",
+     "ru": "Я заплатил купюрой.",
+     "pl": "Zapłaciłem banknotem.",
+     "de": "Ich habe mit einem Geldschein bezahlt.",
+     "fr": "J'ai payé avec un billet.",
+     "es": "Pagué con un billete.",
+     "it": "Ho pagato con una banconota.",
+     "pt": "Paguei com uma nota.",
+     "tr": "Bir banknotla ödedim."
+    },
+    {
+     "en": "This banknote is very old.",
+     "uk": "Ця банкнота дуже стара.",
+     "ru": "Эта купюра очень старая.",
+     "pl": "Ten banknot jest bardzo stary.",
+     "de": "Dieser Geldschein ist sehr alt.",
+     "fr": "Ce billet est très vieux.",
+     "es": "Este billete es muy viejo.",
+     "it": "Questa banconota è molto vecchia.",
+     "pt": "Esta nota é muito antiga.",
+     "tr": "Bu banknot çok eski."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bank",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/bæŋk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to the bank every week.",
+     "uk": "Я ходжу до банку кожного тижня.",
+     "ru": "Я хожу в банк каждую неделю.",
+     "pl": "Chodzę do banku co tydzień.",
+     "de": "Ich gehe jede Woche zur Bank.",
+     "fr": "Je vais à la banque chaque semaine.",
+     "es": "Voy al banco cada semana.",
+     "it": "Vado in banca ogni settimana.",
+     "pt": "Vou ao banco toda semana.",
+     "tr": "Her hafta bankaya gidiyorum."
+    },
+    {
+     "en": "The bank is open on Saturdays.",
+     "uk": "Банк відкритий у суботу.",
+     "ru": "Банк открыт по субботам.",
+     "pl": "Bank jest otwarty w soboty.",
+     "de": "Die Bank hat samstags geöffnet.",
+     "fr": "La banque est ouverte le samedi.",
+     "es": "El banco está abierto los sábados.",
+     "it": "La banca è aperta il sabato.",
+     "pt": "O banco está aberto aos sábados.",
+     "tr": "Banka cumartesi günleri açıktır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.card",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/kɑrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a new card for my account.",
+     "uk": "Мені потрібна нова картка для мого рахунку.",
+     "ru": "Мне нужна новая карта для моего счёта.",
+     "pl": "Potrzebuję nowej karty do mojego konta.",
+     "de": "Ich brauche eine neue Karte für mein Konto.",
+     "fr": "J'ai besoin d'une nouvelle carte pour mon compte.",
+     "es": "Necesito una nueva tarjeta para mi cuenta.",
+     "it": "Ho bisogno di una nuova carta per il mio conto.",
+     "pt": "Preciso de um novo cartão para minha conta.",
+     "tr": "Hesabım için yeni bir karta ihtiyacım var."
+    },
+    {
+     "en": "Please sign the card at the bottom.",
+     "uk": "Будь ласка, підпишіть картку внизу.",
+     "ru": "Пожалуйста, подпишите карту внизу.",
+     "pl": "Proszę podpisać kartę na dole.",
+     "de": "Bitte unterschreiben Sie die Karte unten.",
+     "fr": "Veuillez signer la carte en bas.",
+     "es": "Por favor, firme la tarjeta en la parte inferior.",
+     "it": "Per favore, firma la carta in fondo.",
+     "pt": "Por favor, assine o cartão na parte inferior.",
+     "tr": "Lütfen kartı altta imzalayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.atm",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈeɪˌtiˈɛm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to find an ATM nearby.",
+     "uk": "Мені потрібно знайти банкомат поруч.",
+     "ru": "Мне нужно найти банкомат поблизости.",
+     "pl": "Muszę znaleźć bankomat w pobliżu.",
+     "de": "Ich muss einen Geldautomaten in der Nähe finden.",
+     "fr": "J'ai besoin de trouver un distributeur à proximité.",
+     "es": "Necesito encontrar un cajero automático cerca.",
+     "it": "Devo trovare un bancomat nelle vicinanze.",
+     "pt": "Preciso encontrar um caixa eletrônico perto.",
+     "tr": "Yakınlarda bir ATM bulmam gerekiyor."
+    },
+    {
+     "en": "The ATM is out of service today.",
+     "uk": "Банкомат сьогодні не працює.",
+     "ru": "Банкомат сегодня не работает.",
+     "pl": "Bankomat dzisiaj nie działa.",
+     "de": "Der Geldautomat ist heute außer Betrieb.",
+     "fr": "Le distributeur est hors service aujourd'hui.",
+     "es": "El cajero automático está fuera de servicio hoy.",
+     "it": "Il bancomat è fuori servizio oggi.",
+     "pt": "O caixa eletrônico está fora de serviço hoje.",
+     "tr": "ATM bugün hizmet dışı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.pin-code",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/pɪn koʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I forgot my PIN code for the bank.",
+     "uk": "Я забув свій пін-код для банку.",
+     "ru": "Я забыл свой пин-код для банка.",
+     "pl": "Zapomniałem mojego kodu PIN do banku.",
+     "de": "Ich habe meine PIN für die Bank vergessen.",
+     "fr": "J'ai oublié mon code PIN pour la banque.",
+     "es": "Olvidé mi código PIN para el banco.",
+     "it": "Ho dimenticato il mio codice PIN per la banca.",
+     "pt": "Esqueci meu PIN do banco.",
+     "tr": "Bankanın şifresini unuttum."
+    },
+    {
+     "en": "You need a PIN code to access your account.",
+     "uk": "Вам потрібен пін-код, щоб отримати доступ до рахунку.",
+     "ru": "Вам нужен пин-код, чтобы получить доступ к счету.",
+     "pl": "Potrzebujesz kodu PIN, aby uzyskać dostęp do konta.",
+     "de": "Sie benötigen eine PIN, um auf Ihr Konto zuzugreifen.",
+     "fr": "Vous avez besoin d'un code PIN pour accéder à votre compte.",
+     "es": "Necesitas un código PIN para acceder a tu cuenta.",
+     "it": "Hai bisogno di un codice PIN per accedere al tuo account.",
+     "pt": "Você precisa de um PIN para acessar sua conta.",
+     "tr": "Hesabınıza erişmek için bir şifreye ihtiyacınız var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-withdraw-money",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/wɪðˈdrɔ ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to withdraw money from the ATM.",
+     "uk": "Мені потрібно зняти гроші з банкомата.",
+     "ru": "Мне нужно снять деньги с банкомата.",
+     "pl": "Muszę wypłacić pieniądze z bankomatu.",
+     "de": "Ich muss Geld am Geldautomaten abheben.",
+     "fr": "Je dois retirer de l'argent au distributeur.",
+     "es": "Necesito sacar dinero del cajero automático.",
+     "it": "Devo prelevare soldi dal bancomat.",
+     "pt": "Preciso sacar dinheiro do caixa eletrônico.",
+     "tr": "ATM'den para çekmem gerekiyor."
+    },
+    {
+     "en": "She went to withdraw money for shopping.",
+     "uk": "Вона пішла знімати гроші для покупок.",
+     "ru": "Она пошла снимать деньги для покупок.",
+     "pl": "Poszła wypłacić pieniądze na zakupy.",
+     "de": "Sie ging Geld abheben für den Einkauf.",
+     "fr": "Elle est allée retirer de l'argent pour faire des courses.",
+     "es": "Ella fue a sacar dinero para comprar.",
+     "it": "È andata a prelevare soldi per fare la spesa.",
+     "pt": "Ela foi sacar dinheiro para fazer compras.",
+     "tr": "Alışveriş için para çekmeye gitti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.free",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/fri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The coffee is free today.",
+     "uk": "Кава сьогодні безкоштовна.",
+     "ru": "Кофе сегодня бесплатный.",
+     "pl": "Kawa jest dzisiaj bezpłatna.",
+     "de": "Der Kaffee ist heute kostenlos.",
+     "fr": "Le café est gratuit aujourd'hui.",
+     "es": "El café es gratis hoy.",
+     "it": "Il caffè è gratuito oggi.",
+     "pt": "O café é grátis hoje.",
+     "tr": "Kahve bugün ücretsiz."
+    },
+    {
+     "en": "This service is free for everyone.",
+     "uk": "Ця послуга безкоштовна для всіх.",
+     "ru": "Эта услуга бесплатная для всех.",
+     "pl": "Ta usługa jest bezpłatna dla wszystkich.",
+     "de": "Dieser Service ist kostenlos für alle.",
+     "fr": "Ce service est gratuit pour tout le monde.",
+     "es": "Este servicio es gratis para todos.",
+     "it": "Questo servizio è gratuito per tutti.",
+     "pt": "Este serviço é grátis para todos.",
+     "tr": "Bu hizmet herkes için ücretsiz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.change",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/tʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need my change back, please.",
+     "uk": "Мені, будь ласка, поверніть решту.",
+     "ru": "Пожалуйста, верните мне сдачу.",
+     "pl": "Proszę o zwrot reszty.",
+     "de": "Ich brauche mein Wechselgeld zurück, bitte.",
+     "fr": "J'ai besoin de ma monnaie, s'il vous plaît.",
+     "es": "Necesito mi cambio, por favor.",
+     "it": "Ho bisogno del mio resto, per favore.",
+     "pt": "Preciso do meu troco, por favor.",
+     "tr": "Lütfen, para üstümü geri verin."
+    },
+    {
+     "en": "The change is in the pocket.",
+     "uk": "Решта в кишені.",
+     "ru": "Сдача в кармане.",
+     "pl": "Reszta jest w kieszeni.",
+     "de": "Das Wechselgeld ist in der Tasche.",
+     "fr": "La monnaie est dans la poche.",
+     "es": "El cambio está en el bolsillo.",
+     "it": "Il resto è in tasca.",
+     "pt": "O troco está no bolso.",
+     "tr": "Para üstü cebimde."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.wallet",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈwɔlət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my wallet yesterday.",
+     "uk": "Я вчора втратив свій гаманець.",
+     "ru": "Я вчера потерял свой кошелёк.",
+     "pl": "Wczoraj zgubiłem mój portfel.",
+     "de": "Ich habe gestern meine Geldbörse verloren.",
+     "fr": "J'ai perdu mon portefeuille hier.",
+     "es": "Perdí mi cartera ayer.",
+     "it": "Ho perso il mio portafoglio ieri.",
+     "pt": "Perdi minha carteira ontem.",
+     "tr": "Dün cüzdanımı kaybettim."
+    },
+    {
+     "en": "My wallet is very old.",
+     "uk": "Мій гаманець дуже старий.",
+     "ru": "Мой кошелёк очень старый.",
+     "pl": "Mój portfel jest bardzo stary.",
+     "de": "Meine Geldbörse ist sehr alt.",
+     "fr": "Mon portefeuille est très vieux.",
+     "es": "Mi cartera es muy vieja.",
+     "it": "Il mio portafoglio è molto vecchio.",
+     "pt": "Minha carteira é muito velha.",
+     "tr": "Cüzdanım çok eski."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.how-much",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/haʊ mʌtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "How much does this book cost?",
+     "uk": "Скільки коштує ця книга?",
+     "ru": "Сколько стоит эта книга?",
+     "pl": "Ile kosztuje ta książka?",
+     "de": "Wie viel kostet dieses Buch?",
+     "fr": "Combien coûte ce livre?",
+     "es": "¿Cuánto cuesta este libro?",
+     "it": "Quanto costa questo libro?",
+     "pt": "Quanto custa este livro?",
+     "tr": "Bu kitap ne kadar?"
+    },
+    {
+     "en": "How much money do you have?",
+     "uk": "Скільки грошей у тебе?",
+     "ru": "Сколько у тебя денег?",
+     "pl": "Ile masz pieniędzy?",
+     "de": "Wie viel Geld hast du?",
+     "fr": "Combien d'argent as-tu?",
+     "es": "¿Cuánto dinero tienes?",
+     "it": "Quanto denaro hai?",
+     "pt": "Quanto dinheiro você tem?",
+     "tr": "Ne kadar paran var?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-cost",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/kɑst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This phone costs a lot of money.",
+     "uk": "Цей телефон коштує багато грошей.",
+     "ru": "Этот телефон стоит много денег.",
+     "pl": "Ten telefon kosztuje dużo pieniędzy.",
+     "de": "Dieses Telefon kostet viel Geld.",
+     "fr": "Ce téléphone coûte beaucoup d'argent.",
+     "es": "Este teléfono cuesta mucho dinero.",
+     "it": "Questo telefono costa molti soldi.",
+     "pt": "Este telefone custa muito dinheiro.",
+     "tr": "Bu telefon çok para ediyor."
+    },
+    {
+     "en": "How much does it cost to travel?",
+     "uk": "Скільки коштує подорожувати?",
+     "ru": "Сколько стоит путешествовать?",
+     "pl": "Ile kosztuje podróż?",
+     "de": "Wie viel kostet es zu reisen?",
+     "fr": "Combien ça coûte de voyager?",
+     "es": "¿Cuánto cuesta viajar?",
+     "it": "Quanto costa viaggiare?",
+     "pt": "Quanto custa viajar?",
+     "tr": "Seyahat etmek ne kadar?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bill",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/bɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to pay the bill today.",
+     "uk": "Мені потрібно оплатити рахунок сьогодні.",
+     "ru": "Мне нужно оплатить счет сегодня.",
+     "pl": "Muszę zapłacić rachunek dzisiaj.",
+     "de": "Ich muss die Rechnung heute bezahlen.",
+     "fr": "Je dois payer la facture aujourd'hui.",
+     "es": "Necesito pagar la factura hoy.",
+     "it": "Devo pagare la bolletta oggi.",
+     "pt": "Preciso pagar a conta hoje.",
+     "tr": "Bugün faturayı ödemem gerekiyor."
+    },
+    {
+     "en": "The restaurant gave us the bill.",
+     "uk": "Ресторан дав нам рахунок.",
+     "ru": "Ресторан дал нам счет.",
+     "pl": "Restauracja dała nam rachunek.",
+     "de": "Das Restaurant gab uns die Rechnung.",
+     "fr": "Le restaurant nous a donné la facture.",
+     "es": "El restaurante nos dio la factura.",
+     "it": "Il ristorante ci ha dato la bolletta.",
+     "pt": "O restaurante nos deu a conta.",
+     "tr": "Restoran bize faturayı verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-save-money",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/seɪv ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to save money for a vacation.",
+     "uk": "Я хочу заощаджувати гроші на відпустку.",
+     "ru": "Я хочу копить деньги на отпуск.",
+     "pl": "Chcę oszczędzać pieniądze na wakacje.",
+     "de": "Ich möchte Geld für einen Urlaub sparen.",
+     "fr": "Je veux économiser de l'argent pour des vacances.",
+     "es": "Quiero ahorrar dinero para unas vacaciones.",
+     "it": "Voglio risparmiare per una vacanza.",
+     "pt": "Quero economizar dinheiro para as férias.",
+     "tr": "Tatil için para biriktirmek istiyorum."
+    },
+    {
+     "en": "She is trying to save money every month.",
+     "uk": "Вона намагається заощаджувати гроші кожного місяця.",
+     "ru": "Она пытается копить деньги каждый месяц.",
+     "pl": "Ona stara się oszczędzać pieniądze każdego miesiąca.",
+     "de": "Sie versucht, jeden Monat Geld zu sparen.",
+     "fr": "Elle essaie d'économiser de l'argent chaque mois.",
+     "es": "Ella está tratando de ahorrar dinero cada mes.",
+     "it": "Sta cercando di risparmiare ogni mese.",
+     "pt": "Ela está tentando economizar dinheiro todo mês.",
+     "tr": "Her ay para biriktirmeye çalışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.rich",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/rɪtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is a rich man with many cars.",
+     "uk": "Він багатий чоловік з багатьма машинами.",
+     "ru": "Он богатый человек с многими машинами.",
+     "pl": "On jest bogatym człowiekiem z wieloma samochodami.",
+     "de": "Er ist ein reicher Mann mit vielen Autos.",
+     "fr": "C'est un homme riche avec beaucoup de voitures.",
+     "es": "Él es un hombre rico con muchos coches.",
+     "it": "È un uomo ricco con molte auto.",
+     "pt": "Ele é um homem rico com muitos carros.",
+     "tr": "O, birçok arabası olan zengin bir adam."
+    },
+    {
+     "en": "Many people want to be rich.",
+     "uk": "Багато людей хочуть бути багатими.",
+     "ru": "Многие люди хотят быть богатыми.",
+     "pl": "Wielu ludzi chce być bogatych.",
+     "de": "Viele Menschen wollen reich sein.",
+     "fr": "Beaucoup de gens veulent être riches.",
+     "es": "Mucha gente quiere ser rica.",
+     "it": "Molte persone vogliono essere ricche.",
+     "pt": "Muitas pessoas querem ser ricas.",
+     "tr": "Birçok insan zengin olmak istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.poor",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/pur/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is a poor man without a job.",
+     "uk": "Він бідний чоловік без роботи.",
+     "ru": "Он бедный человек без работы.",
+     "pl": "On jest biednym człowiekiem bez pracy.",
+     "de": "Er ist ein armer Mann ohne Job.",
+     "fr": "C'est un homme pauvre sans emploi.",
+     "es": "Él es un hombre pobre sin trabajo.",
+     "it": "È un uomo povero senza lavoro.",
+     "pt": "Ele é um homem pobre sem emprego.",
+     "tr": "O, işi olmayan fakir bir adam."
+    },
+    {
+     "en": "Many poor people need help.",
+     "uk": "Багато бідних людей потребують допомоги.",
+     "ru": "Многим бедным людям нужна помощь.",
+     "pl": "Wielu biednych ludzi potrzebuje pomocy.",
+     "de": "Viele arme Menschen brauchen Hilfe.",
+     "fr": "Beaucoup de gens pauvres ont besoin d'aide.",
+     "es": "Muchas personas pobres necesitan ayuda.",
+     "it": "Molte persone povere hanno bisogno di aiuto.",
+     "pt": "Muitas pessoas pobres precisam de ajuda.",
+     "tr": "Birçok fakir insana yardıma ihtiyacı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.euro",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˈjuroʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The price is 20 euro.",
+     "uk": "Ціна 20 євро.",
+     "ru": "Цена 20 евро.",
+     "pl": "Cena wynosi 20 euro.",
+     "de": "Der Preis beträgt 20 Euro.",
+     "fr": "Le prix est de 20 euros.",
+     "es": "El precio es de 20 euros.",
+     "it": "Il prezzo è di 20 euro.",
+     "pt": "O preço é de 20 euros.",
+     "tr": "Fiyat 20 avro."
+    },
+    {
+     "en": "I have ten euro in my wallet.",
+     "uk": "У мене десять євро в гаманці.",
+     "ru": "У меня десять евро в кошельке.",
+     "pl": "Mam dziesięć euro w portfelu.",
+     "de": "Ich habe zehn Euro in meiner Brieftasche.",
+     "fr": "J'ai dix euros dans mon portefeuille.",
+     "es": "Tengo diez euros en mi billetera.",
+     "it": "Ho dieci euro nel mio portafoglio.",
+     "pt": "Eu tenho dez euros na minha carteira.",
+     "tr": "Cüzdanımda on avro var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.dollar",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈdɑlɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This shirt costs 30 dollar.",
+     "uk": "Ця сорочка коштує 30 доларів.",
+     "ru": "Эта рубашка стоит 30 долларов.",
+     "pl": "Ta koszula kosztuje 30 dolarów.",
+     "de": "Dieses Hemd kostet 30 Dollar.",
+     "fr": "Cette chemise coûte 30 dollars.",
+     "es": "Esta camisa cuesta 30 dólares.",
+     "it": "Questa camicia costa 30 dollari.",
+     "pt": "Esta camisa custa 30 dólares.",
+     "tr": "Bu gömlek 30 dolar."
+    },
+    {
+     "en": "I need to exchange dollars for euros.",
+     "uk": "Мені потрібно обміняти долари на євро.",
+     "ru": "Мне нужно обменять доллары на евро.",
+     "pl": "Muszę wymienić dolary na euro.",
+     "de": "Ich muss Dollar in Euro umtauschen.",
+     "fr": "Je dois échanger des dollars contre des euros.",
+     "es": "Necesito cambiar dólares por euros.",
+     "it": "Devo cambiare dollari in euro.",
+     "pt": "Preciso trocar dólares por euros.",
+     "tr": "Dolarları euroya çevirmem gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.account",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/əˈkaʊnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I opened a new bank account.",
+     "uk": "Я відкрив новий рахунок у банку.",
+     "ru": "Я открыл новый счёт в банке.",
+     "pl": "Otworzyłem nowe konto w banku.",
+     "de": "Ich habe ein neues Bankkonto eröffnet.",
+     "fr": "J'ai ouvert un nouveau compte bancaire.",
+     "es": "Abrí una nueva cuenta bancaria.",
+     "it": "Ho aperto un nuovo conto in banca.",
+     "pt": "Abri uma nova conta bancária.",
+     "tr": "Yeni bir banka hesabı açtım."
+    },
+    {
+     "en": "Please check your bank account balance.",
+     "uk": "Будь ласка, перевірте баланс вашого рахунку у банку.",
+     "ru": "Пожалуйста, проверьте баланс вашего счёта в банке.",
+     "pl": "Proszę sprawdzić saldo swojego konta.",
+     "de": "Bitte überprüfen Sie den Kontostand Ihres Kontos.",
+     "fr": "Veuillez vérifier le solde de votre compte.",
+     "es": "Por favor, verifica el saldo de tu cuenta.",
+     "it": "Controlla il saldo del tuo conto, per favore.",
+     "pt": "Por favor, verifique o saldo da sua conta.",
+     "tr": "Lütfen banka hesabınızın bakiyesini kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-spend",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/spɛnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to spend time with my family.",
+     "uk": "Мені подобається витрачати час з родиною.",
+     "ru": "Мне нравится тратить время с семьей.",
+     "pl": "Lubię spędzać czas z rodziną.",
+     "de": "Ich verbringe gerne Zeit mit meiner Familie.",
+     "fr": "J'aime passer du temps avec ma famille.",
+     "es": "Me gusta pasar tiempo con mi familia.",
+     "it": "Mi piace trascorrere del tempo con la mia famiglia.",
+     "pt": "Gosto de passar tempo com minha família.",
+     "tr": "Ailemle zaman harcamayı seviyorum."
+    },
+    {
+     "en": "She wants to spend her money wisely.",
+     "uk": "Вона хоче витрачати свої гроші розумно.",
+     "ru": "Она хочет тратить свои деньги разумно.",
+     "pl": "Ona chce wydawać swoje pieniądze mądrze.",
+     "de": "Sie möchte ihr Geld klug ausgeben.",
+     "fr": "Elle veut dépenser son argent judicieusement.",
+     "es": "Ella quiere gastar su dinero sabiamente.",
+     "it": "Vuole spendere i suoi soldi saggiamente.",
+     "pt": "Ela quer gastar seu dinheiro sabiamente.",
+     "tr": "Parasını akıllıca harcamak istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.tip",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/tɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I left a tip for the waiter.",
+     "uk": "Я залишив чайові офіціанту.",
+     "ru": "Я оставил чаевые официанту.",
+     "pl": "Zostawiłem napiwek dla kelnera.",
+     "de": "Ich habe dem Kellner Trinkgeld gegeben.",
+     "fr": "J'ai laissé un pourboire au serveur.",
+     "es": "Dejé una propina al camarero.",
+     "it": "Ho lasciato una mancia al cameriere.",
+     "pt": "Deixei uma gorjeta para o garçom.",
+     "tr": "Garsona bahşiş bıraktım."
+    },
+    {
+     "en": "He gave her a tip for the service.",
+     "uk": "Він дав їй чайові за обслуговування.",
+     "ru": "Он дал ей чаевые за обслуживание.",
+     "pl": "Dał jej napiwek za obsługę.",
+     "de": "Er gab ihr Trinkgeld für den Service.",
+     "fr": "Il lui a donné un pourboire pour le service.",
+     "es": "Le dio una propina por el servicio.",
+     "it": "Le ha dato una mancia per il servizio.",
+     "pt": "Ele deu uma gorjeta pelo serviço.",
+     "tr": "Hizmet için ona bahşiş verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-lose-money",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/luz ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I do not want to lose money in this deal.",
+     "uk": "Я не хочу втрачати гроші в цій угоді.",
+     "ru": "Я не хочу терять деньги в этой сделке.",
+     "pl": "Nie chcę tracić pieniędzy w tej transakcji.",
+     "de": "Ich möchte kein Geld bei diesem Geschäft verlieren.",
+     "fr": "Je ne veux pas perdre de l'argent dans cette affaire.",
+     "es": "No quiero perder dinero en este trato.",
+     "it": "Non voglio perdere soldi in questo affare.",
+     "pt": "Não quero perder dinheiro neste negócio.",
+     "tr": "Bu anlaşmada para kaybetmek istemiyorum."
+    },
+    {
+     "en": "He often loses money in bad investments.",
+     "uk": "Він часто втрачає гроші на поганих інвестиціях.",
+     "ru": "Он часто теряет деньги на плохих инвестициях.",
+     "pl": "Często traci pieniądze na złych inwestycjach.",
+     "de": "Er verliert oft Geld bei schlechten Investitionen.",
+     "fr": "Il perd souvent de l'argent dans de mauvais investissements.",
+     "es": "A menudo pierde dinero en malas inversiones.",
+     "it": "Spesso perde soldi in cattive investimenti.",
+     "pt": "Ele frequentemente perde dinheiro em más investimentos.",
+     "tr": "Kötü yatırımlarda sık sık para kaybeder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.pound",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/paʊnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have five pounds in my wallet.",
+     "uk": "У мене є п'ять фунтів у гаманці.",
+     "ru": "У меня есть пять фунтов в кошельке.",
+     "pl": "Mam pięć funtów w portfelu.",
+     "de": "Ich habe fünf Pfund in meiner Geldbörse.",
+     "fr": "J'ai cinq livres dans mon portefeuille.",
+     "es": "Tengo cinco libras en mi billetera.",
+     "it": "Ho cinque sterline nel mio portafoglio.",
+     "pt": "Eu tenho cinco libras na minha carteira.",
+     "tr": "Cüzdanımda beş sterlin var."
+    },
+    {
+     "en": "The price is ten pounds.",
+     "uk": "Ціна становить десять фунтів.",
+     "ru": "Цена составляет десять фунтов.",
+     "pl": "Cena wynosi dziesięć funtów.",
+     "de": "Der Preis beträgt zehn Pfund.",
+     "fr": "Le prix est de dix livres.",
+     "es": "El precio es diez libras.",
+     "it": "Il prezzo è dieci sterline.",
+     "pt": "O preço é de dez libras.",
+     "tr": "Fiyat on sterlin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cent",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/sɛnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This candy costs fifty cents.",
+     "uk": "Цей цукерка коштує п'ятдесят центів.",
+     "ru": "Эта конфета стоит пятьдесят центов.",
+     "pl": "Ten cukierek kosztuje pięćdziesiąt centów.",
+     "de": "Diese Süßigkeit kostet fünfzig Cent.",
+     "fr": "Cette friandise coûte cinquante centimes.",
+     "es": "Este caramelo cuesta cincuenta céntimos.",
+     "it": "Questa caramella costa cinquanta centesimi.",
+     "pt": "Este doce custa cinquenta centavos.",
+     "tr": "Bu şeker elli sent."
+    },
+    {
+     "en": "I found a cent on the ground.",
+     "uk": "Я знайшов цент на землі.",
+     "ru": "Я нашел цент на земле.",
+     "pl": "Znalazłem cent na ziemi.",
+     "de": "Ich habe einen Cent auf dem Boden gefunden.",
+     "fr": "J'ai trouvé un centime par terre.",
+     "es": "Encontré un céntimo en el suelo.",
+     "it": "Ho trovato un centesimo per terra.",
+     "pt": "Encontrei um centavo no chão.",
+     "tr": "Yerde bir sent buldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-change-money",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/tʃeɪndʒ ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to change money for my trip.",
+     "uk": "Мені потрібно міняти гроші на поїздку.",
+     "ru": "Мне нужно менять деньги для поездки.",
+     "pl": "Muszę wymienić pieniądze na moją podróż.",
+     "de": "Ich muss Geld für meine Reise wechseln.",
+     "fr": "J'ai besoin de changer de l'argent pour mon voyage.",
+     "es": "Necesito cambiar dinero para mi viaje.",
+     "it": "Devo cambiare soldi per il mio viaggio.",
+     "pt": "Preciso trocar dinheiro para a minha viagem.",
+     "tr": "Seyahatim için para bozdurmam gerekiyor."
+    },
+    {
+     "en": "Where can I change money around here?",
+     "uk": "Де я можу поміняти гроші тут?",
+     "ru": "Где я могу поменять деньги здесь?",
+     "pl": "Gdzie mogę wymienić pieniądze w pobliżu?",
+     "de": "Wo kann ich hier Geld wechseln?",
+     "fr": "Où puis-je changer de l'argent ici?",
+     "es": "¿Dónde puedo cambiar dinero por aquí?",
+     "it": "Dove posso cambiare soldi qui?",
+     "pt": "Onde posso trocar dinheiro aqui?",
+     "tr": "Burada nerede para bozdurabilirim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.pocket-money",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈpɑkət ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I get pocket money every week.",
+     "uk": "Я отримую кишенькові гроші кожного тижня.",
+     "ru": "Я получаю карманные деньги каждую неделю.",
+     "pl": "Dostaję kieszonkowe co tydzień.",
+     "de": "Ich bekomme Taschengeld jede Woche.",
+     "fr": "Je reçois de l'argent de poche chaque semaine.",
+     "es": "Recibo paga cada semana.",
+     "it": "Ricevo paghetta ogni settimana.",
+     "pt": "Recebo mesada toda semana.",
+     "tr": "Her hafta harçlık alıyorum."
+    },
+    {
+     "en": "She saves her pocket money for a toy.",
+     "uk": "Вона заощаджує свої кишенькові гроші на іграшку.",
+     "ru": "Она копит свои карманные деньги на игрушку.",
+     "pl": "Ona oszczędza swoje kieszonkowe na zabawkę.",
+     "de": "Sie spart ihr Taschengeld für ein Spielzeug.",
+     "fr": "Elle économise son argent de poche pour un jouet.",
+     "es": "Ella ahorra su paga para un juguete.",
+     "it": "Lei risparmia la sua paghetta per un giocattolo.",
+     "pt": "Ela economiza sua mesada para um brinquedo.",
+     "tr": "O, harçlığını bir oyuncak için biriktiriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.purse",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/pɝs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I keep my coins in my purse.",
+     "uk": "Я зберігаю монети в гаманці.",
+     "ru": "Я храню монеты в кошельке.",
+     "pl": "Trzymam monety w portmonetce.",
+     "de": "Ich halte meine Münzen in meiner Geldbörse.",
+     "fr": "Je garde mes pièces dans mon porte-monnaie.",
+     "es": "Guardo mis monedas en mi monedero.",
+     "it": "Tengo le mie monete nel mio borsellino.",
+     "pt": "Eu guardo minhas moedas na minha carteira.",
+     "tr": "Bozuk paralarımı cüzdanımda tutuyorum."
+    },
+    {
+     "en": "My purse is red and very small.",
+     "uk": "Мій гаманець червоний і дуже маленький.",
+     "ru": "Мой кошелек красный и очень маленький.",
+     "pl": "Mój portmonetka jest czerwona i bardzo mała.",
+     "de": "Meine Geldbörse ist rot und sehr klein.",
+     "fr": "Mon porte-monnaie est rouge et très petit.",
+     "es": "Mi monedero es rojo y muy pequeño.",
+     "it": "Il mio borsellino è rosso e molto piccolo.",
+     "pt": "Minha carteira é vermelha e muito pequena.",
+     "tr": "Cüzdanım kırmızı ve çok küçük."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-count-money",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/kaʊnt ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to count money for my budget.",
+     "uk": "Мені потрібно рахувати гроші для мого бюджету.",
+     "ru": "Мне нужно считать деньги для моего бюджета.",
+     "pl": "Muszę liczyć pieniądze na mój budżet.",
+     "de": "Ich muss Geld für mein Budget zählen.",
+     "fr": "J'ai besoin de compter l'argent pour mon budget.",
+     "es": "Necesito contar el dinero para mi presupuesto.",
+     "it": "Devo contare i soldi per il mio budget.",
+     "pt": "Preciso contar o dinheiro para o meu orçamento.",
+     "tr": "Bütçem için para saymam gerekiyor."
+    },
+    {
+     "en": "Can you help me to count money?",
+     "uk": "Ти можеш допомогти мені рахувати гроші?",
+     "ru": "Ты можешь помочь мне считать деньги?",
+     "pl": "Czy możesz mi pomóc liczyć pieniądze?",
+     "de": "Kannst du mir helfen, Geld zu zählen?",
+     "fr": "Peux-tu m'aider à compter l'argent?",
+     "es": "¿Puedes ayudarme a contar el dinero?",
+     "it": "Puoi aiutarmi a contare i soldi?",
+     "pt": "Você pode me ajudar a contar o dinheiro?",
+     "tr": "Parayı saymama yardım edebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-in-cash",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/peɪ ɪn kæʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to pay in cash for small items.",
+     "uk": "Я вважаю за краще платити готівкою за дрібні речі.",
+     "ru": "Я предпочитаю платить наличными за мелочи.",
+     "pl": "Wolę płacić gotówką za drobne przedmioty.",
+     "de": "Ich bezahle lieber bar für kleine Artikel.",
+     "fr": "Je préfère payer en espèces pour les petits articles.",
+     "es": "Prefiero pagar en efectivo por artículos pequeños.",
+     "it": "Preferisco pagare in contanti per piccoli articoli.",
+     "pt": "Prefiro pagar em dinheiro por itens pequenos.",
+     "tr": "Küçük eşyalar için nakit ödemeyi tercih ederim."
+    },
+    {
+     "en": "Can I pay in cash at the restaurant?",
+     "uk": "Можу я заплатити готівкою в ресторані?",
+     "ru": "Могу ли я заплатить наличными в ресторане?",
+     "pl": "Czy mogę zapłacić gotówką w restauracji?",
+     "de": "Kann ich im Restaurant bar bezahlen?",
+     "fr": "Puis-je payer en espèces au restaurant?",
+     "es": "¿Puedo pagar en efectivo en el restaurante?",
+     "it": "Posso pagare in contanti al ristorante?",
+     "pt": "Posso pagar em dinheiro no restaurante?",
+     "tr": "Restoranda nakit ödeyebilir miyim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.pay-day",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/peɪ deɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Pay day is my favorite day of the month.",
+     "uk": "День зарплати - мій улюблений день місяця.",
+     "ru": "День зарплаты - мой любимый день месяца.",
+     "pl": "Dzień wypłaty to mój ulubiony dzień miesiąca.",
+     "de": "Der Zahltag ist mein Lieblingstag des Monats.",
+     "fr": "Le jour de paie est mon jour préféré du mois.",
+     "es": "El día de pago es mi día favorito del mes.",
+     "it": "Il giorno di paga è il mio giorno preferito del mese.",
+     "pt": "O dia do pagamento é o meu dia favorito do mês.",
+     "tr": "Maaş günü ayın en sevdiğim günü."
+    },
+    {
+     "en": "I plan to save money on pay day.",
+     "uk": "Я планую заощаджувати гроші в день зарплати.",
+     "ru": "Я планирую сэкономить деньги в день зарплаты.",
+     "pl": "Planuję oszczędzać pieniądze w dniu wypłaty.",
+     "de": "Ich plane, am Zahltag Geld zu sparen.",
+     "fr": "Je prévois d'économiser de l'argent le jour de paie.",
+     "es": "Planeo ahorrar dinero el día de pago.",
+     "it": "Piano di risparmiare soldi il giorno di paga.",
+     "pt": "Planejo economizar dinheiro no dia do pagamento.",
+     "tr": "Maaş günü para biriktirmeyi planlıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.piggy-bank",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈpɪɡi bæŋk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I put my coins in the piggy bank.",
+     "uk": "Я кладу монети в скарбничку.",
+     "ru": "Я кладу монеты в копилку.",
+     "pl": "Wkładam monety do skarbonki.",
+     "de": "Ich lege meine Münzen ins Sparschwein.",
+     "fr": "Je mets mes pièces dans la tirelire.",
+     "es": "Pongo mis monedas en la hucha.",
+     "it": "Metto le mie monete nel salvadanaio.",
+     "pt": "Coloco minhas moedas no cofrinho.",
+     "tr": "Paralarımı kumbara koyuyorum."
+    },
+    {
+     "en": "The piggy bank is full of money.",
+     "uk": "Скарбничка повна грошей.",
+     "ru": "Копилка полна денег.",
+     "pl": "Skarbonka jest pełna pieniędzy.",
+     "de": "Das Sparschwein ist voll mit Geld.",
+     "fr": "La tirelire est pleine d'argent.",
+     "es": "La hucha está llena de dinero.",
+     "it": "Il salvadanaio è pieno di soldi.",
+     "pt": "O cofre está cheio de dinheiro.",
+     "tr": "Kumbara para dolu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-back",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/peɪ bæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to pay back my friend.",
+     "uk": "Мені потрібно повернути гроші другу.",
+     "ru": "Мне нужно вернуть деньги другу.",
+     "pl": "Muszę oddać pieniądze przyjacielowi.",
+     "de": "Ich muss meinem Freund das Geld zurückzahlen.",
+     "fr": "Je dois rembourser mon ami.",
+     "es": "Necesito devolver el dinero a mi amigo.",
+     "it": "Devo restituire i soldi al mio amico.",
+     "pt": "Preciso devolver o dinheiro ao meu amigo.",
+     "tr": "Arkadaşıma geri ödemek zorundayım."
+    },
+    {
+     "en": "He will pay back the loan soon.",
+     "uk": "Він скоро поверне кредит.",
+     "ru": "Он скоро вернет кредит.",
+     "pl": "On wkrótce odda pożyczkę.",
+     "de": "Er wird das Darlehen bald zurückzahlen.",
+     "fr": "Il remboursera bientôt le prêt.",
+     "es": "Él devolverá el préstamo pronto.",
+     "it": "Restituirà il prestito presto.",
+     "pt": "Ele vai devolver o empréstimo em breve.",
+     "tr": "Krediyi yakında geri ödeyecek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cash-desk",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/kæʃ dɛsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I paid at the cash desk.",
+     "uk": "Я заплатив на касі.",
+     "ru": "Я заплатил на кассе.",
+     "pl": "Zapłaciłem przy kasie.",
+     "de": "Ich habe an der Kasse bezahlt.",
+     "fr": "J'ai payé à la caisse.",
+     "es": "Pagué en la caja.",
+     "it": "Ho pagato alla cassa.",
+     "pt": "Paguei na caixa.",
+     "tr": "Kasada ödedim."
+    },
+    {
+     "en": "The cash desk is very busy today.",
+     "uk": "Каса сьогодні дуже зайнята.",
+     "ru": "Касса сегодня очень занята.",
+     "pl": "Kasa jest dzisiaj bardzo zajęta.",
+     "de": "Die Kasse ist heute sehr beschäftigt.",
+     "fr": "La caisse est très occupée aujourd'hui.",
+     "es": "La caja está muy ocupada hoy.",
+     "it": "La cassa è molto occupata oggi.",
+     "pt": "A caixa está muito ocupada hoje.",
+     "tr": "Kasa bugün çok meşgul."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.bank-clerk",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/bæŋk klɝk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bank clerk helped me with my account.",
+     "uk": "Банківський службовець допоміг мені з рахунком.",
+     "ru": "Банковский служащий помог мне с моим счетом.",
+     "pl": "Urzędnik bankowy pomógł mi z kontem.",
+     "de": "Der Bankangestellte half mir mit meinem Konto.",
+     "fr": "L'employé de banque m'a aidé avec mon compte.",
+     "es": "El empleado de banco me ayudó con mi cuenta.",
+     "it": "L'impiegato di banca mi ha aiutato con il mio conto.",
+     "pt": "O bancário me ajudou com minha conta.",
+     "tr": "Banka memuru bana hesabımla yardımcı oldu."
+    },
+    {
+     "en": "I spoke to the bank clerk yesterday.",
+     "uk": "Я розмовляв з банківським службовцем вчора.",
+     "ru": "Я разговаривал с банковским служащим вчера.",
+     "pl": "Rozmawiałem z urzędnikiem bankowym wczoraj.",
+     "de": "Ich habe gestern mit dem Bankangestellten gesprochen.",
+     "fr": "J'ai parlé à l'employé de banque hier.",
+     "es": "Hablé con el empleado de banco ayer.",
+     "it": "Ho parlato con l'impiegato di banca ieri.",
+     "pt": "Falei com o bancário ontem.",
+     "tr": "Dün banka memuruyla konuştum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.a-lot-of-money",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ə lɑt ʌv ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has a lot of money saved.",
+     "uk": "Він зберіг багато грошей.",
+     "ru": "У него много денег сбережено.",
+     "pl": "On ma dużo pieniędzy zaoszczędzonych.",
+     "de": "Er hat viel Geld gespart.",
+     "fr": "Il a beaucoup d'argent économisé.",
+     "es": "Él tiene mucho dinero ahorrado.",
+     "it": "Lui ha risparmiato tanti soldi.",
+     "pt": "Ele tem muito dinheiro economizado.",
+     "tr": "Onun çok parası var."
+    },
+    {
+     "en": "She spent a lot of money on clothes.",
+     "uk": "Вона витратила багато грошей на одяг.",
+     "ru": "Она потратила много денег на одежду.",
+     "pl": "Wydała dużo pieniędzy na ubrania.",
+     "de": "Sie hat viel Geld für Kleidung ausgegeben.",
+     "fr": "Elle a dépensé beaucoup d'argent pour des vêtements.",
+     "es": "Ella gastó mucho dinero en ropa.",
+     "it": "Ha speso tanti soldi per i vestiti.",
+     "pt": "Ela gastou muito dinheiro em roupas.",
+     "tr": "O, giysilere çok para harcadı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-win-money",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/wɪn ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I hope to win money in the lottery.",
+     "uk": "Я сподіваюся виграти гроші в лотереї.",
+     "ru": "Я надеюсь выиграть деньги в лотерее.",
+     "pl": "Mam nadzieję wygrać pieniądze w loterii.",
+     "de": "Ich hoffe, Geld in der Lotterie zu gewinnen.",
+     "fr": "J'espère gagner de l'argent à la loterie.",
+     "es": "Espero ganar dinero en la lotería.",
+     "it": "Spero di vincere soldi alla lotteria.",
+     "pt": "Espero ganhar dinheiro na loteria.",
+     "tr": "Piyangada para kazanmayı umuyorum."
+    },
+    {
+     "en": "It is exciting to win money.",
+     "uk": "Це захоплююче виграти гроші.",
+     "ru": "Это волнительно выиграть деньги.",
+     "pl": "To ekscytujące wygrać pieniądze.",
+     "de": "Es ist aufregend, Geld zu gewinnen.",
+     "fr": "C'est excitant de gagner de l'argent.",
+     "es": "Es emocionante ganar dinero.",
+     "it": "È emozionante vincere soldi.",
+     "pt": "É emocionante ganhar dinheiro.",
+     "tr": "Para kazanmak heyecan verici."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.lottery",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/ˈlɑtɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a lottery ticket yesterday.",
+     "uk": "Я купив лотерейний квиток вчора.",
+     "ru": "Я купил лотерейный билет вчера.",
+     "pl": "Kupiłem los na loterię wczoraj.",
+     "de": "Ich habe gestern ein Lottoschein gekauft.",
+     "fr": "J'ai acheté un billet de loterie hier.",
+     "es": "Compré un billete de lotería ayer.",
+     "it": "Ho comprato un biglietto della lotteria ieri.",
+     "pt": "Comprei um bilhete de loteria ontem.",
+     "tr": "Dün piyango bileti aldım."
+    },
+    {
+     "en": "The lottery is very popular here.",
+     "uk": "Лотерея тут дуже популярна.",
+     "ru": "Лотерея здесь очень популярна.",
+     "pl": "Loteria jest tutaj bardzo popularna.",
+     "de": "Die Lotterie ist hier sehr beliebt.",
+     "fr": "La loterie est très populaire ici.",
+     "es": "La lotería es muy popular aquí.",
+     "it": "La lotteria è molto popolare qui.",
+     "pt": "A loteria é muito popular aqui.",
+     "tr": "Piyango burada çok popüler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.lottery-ticket",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈlɑtɚi ˈtɪkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my lottery ticket last week.",
+     "uk": "Я втратив свій лотерейний квиток минулого тижня.",
+     "ru": "Я потерял свой лотерейный билет на прошлой неделе.",
+     "pl": "Zgubiłem mój los na loterię w zeszłym tygodniu.",
+     "de": "Ich habe letzte Woche meinen Lottoschein verloren.",
+     "fr": "J'ai perdu mon billet de loterie la semaine dernière.",
+     "es": "Perdí mi billete de lotería la semana pasada.",
+     "it": "Ho perso il mio biglietto della lotteria la settimana scorsa.",
+     "pt": "Perdi meu bilhete de loteria na semana passada.",
+     "tr": "Geçen hafta piyango biletimi kaybettim."
+    },
+    {
+     "en": "Do you have a lottery ticket?",
+     "uk": "У тебе є лотерейний квиток?",
+     "ru": "У тебя есть лотерейный билет?",
+     "pl": "Czy masz los na loterię?",
+     "de": "Hast du einen Lottoschein?",
+     "fr": "As-tu un billet de loterie?",
+     "es": "¿Tienes un billete de lotería?",
+     "it": "Hai un biglietto della lotteria?",
+     "pt": "Você tem um bilhete de loteria?",
+     "tr": "Bir piyango biletin var mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-give-change",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ɡɪv tʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please give me change for this bill.",
+     "uk": "Будь ласка, дайте мені решту за цю купюру.",
+     "ru": "Пожалуйста, дайте мне сдачу за этот счет.",
+     "pl": "Proszę wydać mi resztę z tego banknotu.",
+     "de": "Bitte geben Sie mir Wechselgeld für diesen Schein.",
+     "fr": "Veuillez me rendre la monnaie pour ce billet.",
+     "es": "Por favor, dame el cambio por este billete.",
+     "it": "Per favore, dammi il resto per questa banconota.",
+     "pt": "Por favor, me dê o troco por esta nota.",
+     "tr": "Lütfen bu banknot için para üstü ver."
+    },
+    {
+     "en": "The cashier will give you change.",
+     "uk": "Касир дасть вам решту.",
+     "ru": "Кассир даст вам сдачу.",
+     "pl": "Kasjer wyda ci resztę.",
+     "de": "Der Kassierer wird Ihnen Wechselgeld geben.",
+     "fr": "Le caissier vous rendra la monnaie.",
+     "es": "El cajero te dará el cambio.",
+     "it": "Il cassiere ti darà il resto.",
+     "pt": "O caixa vai te dar o troco.",
+     "tr": "Kasiyer sana para üstü verecek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.i-have-no-money",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/aɪ hæv noʊ ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have no money for lunch today.",
+     "uk": "У мене немає грошей на обід сьогодні.",
+     "ru": "У меня нет денег на обед сегодня.",
+     "pl": "Nie mam pieniędzy na obiad dzisiaj.",
+     "de": "Ich habe kein Geld für das Mittagessen heute.",
+     "fr": "Je n'ai pas d'argent pour le déjeuner aujourd'hui.",
+     "es": "No tengo dinero para el almuerzo hoy.",
+     "it": "Non ho soldi per il pranzo oggi.",
+     "pt": "Não tenho dinheiro para o almoço hoje.",
+     "tr": "Bugün öğle yemeği için param yok."
+    },
+    {
+     "en": "I have no money to buy a gift.",
+     "uk": "У мене немає грошей, щоб купити подарунок.",
+     "ru": "У меня нет денег, чтобы купить подарок.",
+     "pl": "Nie mam pieniędzy, aby kupić prezent.",
+     "de": "Ich habe kein Geld, um ein Geschenk zu kaufen.",
+     "fr": "Je n'ai pas d'argent pour acheter un cadeau.",
+     "es": "No tengo dinero para comprar un regalo.",
+     "it": "Non ho soldi per comprare un regalo.",
+     "pt": "Não tenho dinheiro para comprar um presente.",
+     "tr": "Bir hediye almak için param yok."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.card-machine",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/kɑrd məˈʃin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can I use my card on the card machine?",
+     "uk": "Чи можу я розрахуватися карткою на платіжному терміналі?",
+     "ru": "Могу я расплатиться картой на платёжном терминале?",
+     "pl": "Czy mogę zapłacić kartą w terminalu płatniczym?",
+     "de": "Kann ich meine Karte am Kartenterminal benutzen?",
+     "fr": "Puis-je utiliser ma carte sur le terminal de paiement?",
+     "es": "¿Puedo usar mi tarjeta en el terminal de pago?",
+     "it": "Posso usare la mia carta sul terminale POS?",
+     "pt": "Posso usar meu cartão na máquina de cartão?",
+     "tr": "Kartımı POS cihazında kullanabilir miyim?"
+    },
+    {
+     "en": "The card machine is not working today.",
+     "uk": "Платіжний термінал сьогодні не працює.",
+     "ru": "Платёжный терминал сегодня не работает.",
+     "pl": "Terminal płatniczy dzisiaj nie działa.",
+     "de": "Der Kartenterminal funktioniert heute nicht.",
+     "fr": "Le terminal de paiement ne fonctionne pas aujourd'hui.",
+     "es": "El terminal de pago no está funcionando hoy.",
+     "it": "Il terminale POS non funziona oggi.",
+     "pt": "A máquina de cartão não está funcionando hoje.",
+     "tr": "POS cihazı bugün çalışmıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cash-only",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/kæʃ ˈoʊnli/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This store is cash only, no cards accepted.",
+     "uk": "Цей магазин працює тільки з готівкою, картки не приймають.",
+     "ru": "Этот магазин работает только с наличными, карты не принимаются.",
+     "pl": "Ten sklep obsługuje tylko gotówkę, karty nie są akceptowane.",
+     "de": "Dieser Laden akzeptiert nur Barzahlung, keine Karten.",
+     "fr": "Ce magasin n'accepte que les espèces, pas de cartes.",
+     "es": "Esta tienda es solo efectivo, no se aceptan tarjetas.",
+     "it": "Questo negozio accetta solo contanti, nessuna carta.",
+     "pt": "Esta loja aceita apenas dinheiro, não cartões.",
+     "tr": "Bu dükkan sadece nakit alıyor, kart kabul etmiyor."
+    },
+    {
+     "en": "Please remember, we are cash only today.",
+     "uk": "Будь ласка, пам'ятайте, що сьогодні тільки готівка.",
+     "ru": "Пожалуйста, помните, что сегодня только наличные.",
+     "pl": "Proszę pamiętać, że dzisiaj tylko gotówka.",
+     "de": "Bitte denken Sie daran, dass wir heute nur Barzahlung akzeptieren.",
+     "fr": "Veuillez vous rappeler que nous n'acceptons que les espèces aujourd'hui.",
+     "es": "Por favor, recuerde que hoy solo aceptamos efectivo.",
+     "it": "Si prega di ricordare che oggi accettiamo solo contanti.",
+     "pt": "Por favor, lembre-se de que hoje aceitamos apenas dinheiro.",
+     "tr": "Lütfen unutmayın, bugün sadece nakit kabul ediyoruz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.keep-the-change",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/kip ðə tʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You can keep the change, thank you!",
+     "uk": "Ви можете залишити решту, дякую!",
+     "ru": "Вы можете оставить сдачу, спасибо!",
+     "pl": "Możesz zatrzymać resztę, dziękuję!",
+     "de": "Sie können das Wechselgeld behalten, danke!",
+     "fr": "Vous pouvez garder la monnaie, merci !",
+     "es": "Puede quedarse con el cambio, ¡gracias!",
+     "it": "Puoi tenere il resto, grazie!",
+     "pt": "Você pode ficar com o troco, obrigado!",
+     "tr": "Üstü kalsın, teşekkürler!"
+    },
+    {
+     "en": "Just keep the change, I don't need it.",
+     "uk": "Просто залиште решту, вона мені не потрібна.",
+     "ru": "Просто оставьте сдачу, она мне не нужна.",
+     "pl": "Po prostu zatrzymaj resztę, nie potrzebuję jej.",
+     "de": "Behalten Sie einfach das Wechselgeld, ich brauche es nicht.",
+     "fr": "Gardez simplement la monnaie, je n'en ai pas besoin.",
+     "es": "Solo quédese con el cambio, no lo necesito.",
+     "it": "Tieni pure il resto, non ne ho bisogno.",
+     "pt": "Apenas fique com o troco, não preciso.",
+     "tr": "Sadece üstü kalsın, ona ihtiyacım yok."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.card-or-cash",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/kɑrd ɔr kæʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Would you like to pay card or cash?",
+     "uk": "Ви хочете заплатити карткою чи готівкою?",
+     "ru": "Вы хотите заплатить картой или наличными?",
+     "pl": "Czy chcesz zapłacić kartą czy gotówką?",
+     "de": "Möchten Sie mit Karte oder bar bezahlen?",
+     "fr": "Voulez-vous payer par carte ou en espèces ?",
+     "es": "¿Te gustaría pagar con tarjeta o en efectivo?",
+     "it": "Vuoi pagare con carta o contanti?",
+     "pt": "Você gostaria de pagar com cartão ou dinheiro?",
+     "tr": "Kart mı yoksa nakit mi ödemek istersiniz?"
+    },
+    {
+     "en": "At the register, it's card or cash?",
+     "uk": "На касі, карткою чи готівкою?",
+     "ru": "На кассе, картой или наличными?",
+     "pl": "Przy kasie, kartą czy gotówką?",
+     "de": "An der Kasse, Karte oder bar?",
+     "fr": "À la caisse, carte ou espèces ?",
+     "es": "En la caja, ¿tarjeta o efectivo?",
+     "it": "Alla cassa, carta o contanti?",
+     "pt": "No caixa, cartão ou dinheiro?",
+     "tr": "Kasada, kart mı yoksa nakit mi?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.paper-money",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪpɚ ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to carry paper money.",
+     "uk": "Я віддаю перевагу мати при собі паперові гроші.",
+     "ru": "Я предпочитаю носить бумажные деньги.",
+     "pl": "Wolę nosić pieniądze papierowe.",
+     "de": "Ich bevorzuge es, Papiergeld zu tragen.",
+     "fr": "Je préfère porter du papier-monnaie.",
+     "es": "Prefiero llevar papel moneda.",
+     "it": "Preferisco portare cartamoneta.",
+     "pt": "Prefiro carregar papel-moeda.",
+     "tr": "Kağıt para taşımayı tercih ederim."
+    },
+    {
+     "en": "Do you have any paper money?",
+     "uk": "У вас є паперові гроші?",
+     "ru": "У вас есть бумажные деньги?",
+     "pl": "Czy masz jakieś pieniądze papierowe?",
+     "de": "Haben Sie Papiergeld?",
+     "fr": "Avez-vous de la monnaie ?",
+     "es": "¿Tienes papel moneda?",
+     "it": "Hai della cartamoneta?",
+     "pt": "Você tem papel-moeda?",
+     "tr": "Kağıt paran var mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.gold-coin",
@@ -968,12 +2183,39 @@
    },
    "ipa": {
     "en": "/ɡoʊld kɔɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He found a gold coin in the sand.",
+     "uk": "Він знайшов золоту монету в піску.",
+     "ru": "Он нашел золотую монету в песке.",
+     "pl": "Znalazł złotą monetę w piasku.",
+     "de": "Er fand eine Goldmünze im Sand.",
+     "fr": "Il a trouvé une pièce d'or dans le sable.",
+     "es": "Encontró una moneda de oro en la arena.",
+     "it": "Ha trovato una moneta d'oro nella sabbia.",
+     "pt": "Ele encontrou uma moeda de ouro na areia.",
+     "tr": "Kumda bir altın sikke buldu."
+    },
+    {
+     "en": "This gold coin is very valuable.",
+     "uk": "Ця золота монета дуже цінна.",
+     "ru": "Эта золотая монета очень ценная.",
+     "pl": "Ta złota moneta jest bardzo cenna.",
+     "de": "Diese Goldmünze ist sehr wertvoll.",
+     "fr": "Cette pièce d'or est très précieuse.",
+     "es": "Esta moneda de oro es muy valiosa.",
+     "it": "Questa moneta d'oro è molto preziosa.",
+     "pt": "Esta moeda de ouro é muito valiosa.",
+     "tr": "Bu altın sikke çok değerli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.total",
    "t": {
-    "en": "total",
+    "en": "total, somme",
     "uk": "загальна сума",
     "ru": "итог",
     "pl": "suma",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈtoʊtəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The total is twenty dollars.",
+     "uk": "Загальна сума двадцять доларів.",
+     "ru": "Итог двадцать долларов.",
+     "pl": "Suma wynosi dwadzieścia dolarów.",
+     "de": "Der Gesamtbetrag beträgt zwanzig Dollar.",
+     "fr": "Le total est de vingt dollars.",
+     "es": "El total es de veinte dólares.",
+     "it": "Il totale è venti dollari.",
+     "pt": "O total é de vinte dólares.",
+     "tr": "Toplam yirmi dolardır."
+    },
+    {
+     "en": "Can you tell me the total amount?",
+     "uk": "Ви можете сказати мені загальну суму?",
+     "ru": "Вы можете сказать мне итоговую сумму?",
+     "pl": "Czy możesz mi powiedzieć całkowitą kwotę?",
+     "de": "Können Sie mir den Gesamtbetrag sagen?",
+     "fr": "Pouvez-vous me dire le montant total ?",
+     "es": "¿Puedes decirme el total?",
+     "it": "Puoi dirmi l'importo totale?",
+     "pt": "Você pode me dizer o total?",
+     "tr": "Bana toplam miktarı söyleyebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-too-much",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/peɪ tu mʌtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I don't want to pay too much for this.",
+     "uk": "Я не хочу переплатити за це.",
+     "ru": "Я не хочу переплатить за это.",
+     "pl": "Nie chcę przepłacić za to.",
+     "de": "Ich möchte nicht zu viel dafür bezahlen.",
+     "fr": "Je ne veux pas payer trop cher pour ça.",
+     "es": "No quiero pagar demasiado por esto.",
+     "it": "Non voglio pagare troppo per questo.",
+     "pt": "Não quero pagar demais por isso.",
+     "tr": "Bunun için fazla ödemek istemiyorum."
+    },
+    {
+     "en": "It's easy to pay too much sometimes.",
+     "uk": "Іноді легко переплатити.",
+     "ru": "Иногда легко переплатить.",
+     "pl": "Czasami łatwo przepłacić.",
+     "de": "Es ist manchmal einfach, zu viel zu bezahlen.",
+     "fr": "Parfois, il est facile de payer trop cher.",
+     "es": "A veces es fácil pagar demasiado.",
+     "it": "A volte è facile pagare troppo.",
+     "pt": "Às vezes é fácil pagar demais.",
+     "tr": "Bazen fazla ödemek kolaydır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-half",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/peɪ hæf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I will pay half of the bill.",
+     "uk": "Я заплачу половину рахунку.",
+     "ru": "Я заплачу половину счета.",
+     "pl": "Zapłacę połowę rachunku.",
+     "de": "Ich werde die Hälfte der Rechnung bezahlen.",
+     "fr": "Je vais payer la moitié de la facture.",
+     "es": "Voy a pagar la mitad de la cuenta.",
+     "it": "Pagherò la metà del conto.",
+     "pt": "Vou pagar a metade da conta.",
+     "tr": "Hesabın yarısını ödeyeceğim."
+    },
+    {
+     "en": "Can we agree to pay half each?",
+     "uk": "Чи можемо домовитися заплатити по половині?",
+     "ru": "Можем ли мы договориться заплатить по половине?",
+     "pl": "Czy możemy się zgodzić zapłacić po połowie?",
+     "de": "Können wir uns einigen, die Hälfte zu bezahlen?",
+     "fr": "Pouvons-nous convenir de payer la moitié chacun ?",
+     "es": "¿Podemos acordar pagar la mitad cada uno?",
+     "it": "Possiamo accordarci per pagare metà ciascuno?",
+     "pt": "Podemos concordar em pagar a metade cada um?",
+     "tr": "Her birimiz yarısını ödemek konusunda anlaşabilir miyiz?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-later",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/peɪ ˈleɪtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to pay later, not now.",
+     "uk": "Мені потрібно заплатити пізніше, не зараз.",
+     "ru": "Мне нужно заплатить позже, не сейчас.",
+     "pl": "Muszę zapłacić później, nie teraz.",
+     "de": "Ich muss später bezahlen, nicht jetzt.",
+     "fr": "Je dois payer plus tard, pas maintenant.",
+     "es": "Necesito pagar más tarde, no ahora.",
+     "it": "Devo pagare più tardi, non ora.",
+     "pt": "Preciso pagar mais tarde, não agora.",
+     "tr": "Sonra ödemem gerekiyor, şimdi değil."
+    },
+    {
+     "en": "Can I choose to pay later?",
+     "uk": "Чи можу я вибрати заплатити пізніше?",
+     "ru": "Могу ли я выбрать заплатить позже?",
+     "pl": "Czy mogę wybrać zapłatę później?",
+     "de": "Kann ich wählen, später zu bezahlen?",
+     "fr": "Puis-je choisir de payer plus tard ?",
+     "es": "¿Puedo elegir pagar más tarde?",
+     "it": "Posso scegliere di pagare più tardi?",
+     "pt": "Posso escolher pagar mais tarde?",
+     "tr": "Sonra ödemeyi seçebilir miyim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-have-money",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/hæv ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to have money for a new bike.",
+     "uk": "Я хочу мати гроші на новий велосипед.",
+     "ru": "Я хочу иметь деньги на новый велосипед.",
+     "pl": "Chcę mieć pieniądze na nowy rower.",
+     "de": "Ich möchte Geld für ein neues Fahrrad haben.",
+     "fr": "Je veux avoir de l'argent pour un nouveau vélo.",
+     "es": "Quiero tener dinero para una nueva bicicleta.",
+     "it": "Voglio avere soldi per una nuova bicicletta.",
+     "pt": "Quero ter dinheiro para uma nova bicicleta.",
+     "tr": "Yeni bir bisiklet almak için param olmasını istiyorum."
+    },
+    {
+     "en": "She is happy to have money for shopping.",
+     "uk": "Вона щаслива, що має гроші на покупки.",
+     "ru": "Она счастлива, что имеет деньги на покупки.",
+     "pl": "Ona jest szczęśliwa, że ma pieniądze na zakupy.",
+     "de": "Sie ist glücklich, Geld zum Einkaufen zu haben.",
+     "fr": "Elle est heureuse d'avoir de l'argent pour faire du shopping.",
+     "es": "Ella está feliz de tener dinero para comprar.",
+     "it": "È felice di avere soldi per fare shopping.",
+     "pt": "Ela está feliz por ter dinheiro para compras.",
+     "tr": "Alışveriş için parası olduğu için mutlu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-need-money",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/nid ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need money to buy a new phone.",
+     "uk": "Мені потрібно грошей, щоб купити новий телефон.",
+     "ru": "Мне нужны деньги, чтобы купить новый телефон.",
+     "pl": "Potrzebuję pieniędzy, aby kupić nowy telefon.",
+     "de": "Ich brauche Geld, um ein neues Handy zu kaufen.",
+     "fr": "J'ai besoin d'argent pour acheter un nouveau téléphone.",
+     "es": "Necesito dinero para comprar un nuevo teléfono.",
+     "it": "Ho bisogno di soldi per comprare un nuovo telefono.",
+     "pt": "Preciso de dinheiro para comprar um novo telefone.",
+     "tr": "Yeni bir telefon almak için paraya ihtiyacım var."
+    },
+    {
+     "en": "Do you need money for the bus?",
+     "uk": "Тобі потрібні гроші на автобус?",
+     "ru": "Тебе нужны деньги на автобус?",
+     "pl": "Czy potrzebujesz pieniędzy na autobus?",
+     "de": "Brauchst du Geld für den Bus?",
+     "fr": "As-tu besoin d'argent pour le bus?",
+     "es": "¿Necesitas dinero para el autobús?",
+     "it": "Hai bisogno di soldi per l'autobus?",
+     "pt": "Você precisa de dinheiro para o ônibus?",
+     "tr": "Otobüs için paraya mı ihtiyacın var?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.for-free",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/fɔr fri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You can get this book for free.",
+     "uk": "Ви можете отримати цю книгу безкоштовно.",
+     "ru": "Вы можете получить эту книгу бесплатно.",
+     "pl": "Możesz dostać tę książkę za darmo.",
+     "de": "Du kannst dieses Buch umsonst bekommen.",
+     "fr": "Vous pouvez obtenir ce livre gratuitement.",
+     "es": "Puedes conseguir este libro gratis.",
+     "it": "Puoi ottenere questo libro gratis.",
+     "pt": "Você pode conseguir este livro de graça.",
+     "tr": "Bu kitabı bedava alabilirsin."
+    },
+    {
+     "en": "The tickets are available for free today.",
+     "uk": "Квитки сьогодні доступні безкоштовно.",
+     "ru": "Билеты сегодня доступны бесплатно.",
+     "pl": "Bilety są dzisiaj dostępne za darmo.",
+     "de": "Die Tickets sind heute umsonst erhältlich.",
+     "fr": "Les billets sont disponibles gratuitement aujourd'hui.",
+     "es": "Las entradas están disponibles gratis hoy.",
+     "it": "I biglietti sono disponibili gratis oggi.",
+     "pt": "Os ingressos estão disponíveis de graça hoje.",
+     "tr": "Biletler bugün bedava."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.more-expensive",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/mɔr ɪkˈspɛnsɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This shirt is more expensive than that one.",
+     "uk": "Ця сорочка дорожча за ту.",
+     "ru": "Эта рубашка дороже той.",
+     "pl": "Ta koszula jest droższa od tamtej.",
+     "de": "Dieses Hemd ist teurer als das dort.",
+     "fr": "Cette chemise est plus chère que celle-là.",
+     "es": "Esta camisa es más cara que esa.",
+     "it": "Questa camicia è più cara di quella.",
+     "pt": "Esta camisa é mais cara do que aquela.",
+     "tr": "Bu gömlek olandan daha pahalı."
+    },
+    {
+     "en": "A car is usually more expensive than a bike.",
+     "uk": "Автомобіль зазвичай дорожчий за велосипед.",
+     "ru": "Машина обычно дороже велосипеда.",
+     "pl": "Samochód jest zazwyczaj droższy od roweru.",
+     "de": "Ein Auto ist normalerweise teurer als ein Fahrrad.",
+     "fr": "Une voiture est généralement plus chère qu'un vélo.",
+     "es": "Un coche suele ser más caro que una bicicleta.",
+     "it": "Un'auto è solitamente più cara di una bicicletta.",
+     "pt": "Um carro é geralmente mais caro do que uma bicicleta.",
+     "tr": "Bir araba genellikle bir bisikletten daha pahalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.best-price",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/bɛst praɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This store has the best price for shoes.",
+     "uk": "Цей магазин має найкращу ціну на взуття.",
+     "ru": "Этот магазин имеет лучшую цену на обувь.",
+     "pl": "Ten sklep ma najlepszą cenę na buty.",
+     "de": "Dieser Laden hat den besten Preis für Schuhe.",
+     "fr": "Ce magasin a le meilleur prix pour des chaussures.",
+     "es": "Esta tienda tiene el mejor precio para zapatos.",
+     "it": "Questo negozio ha il miglior prezzo per le scarpe.",
+     "pt": "Esta loja tem o melhor preço para sapatos.",
+     "tr": "Bu dükkanda ayakkabılar için en iyi fiyat var."
+    },
+    {
+     "en": "I found the best price online.",
+     "uk": "Я знайшов найкращу ціну в Інтернеті.",
+     "ru": "Я нашел лучшую цену в интернете.",
+     "pl": "Znalazłem najlepszą cenę w internecie.",
+     "de": "Ich habe den besten Preis online gefunden.",
+     "fr": "J'ai trouvé le meilleur prix en ligne.",
+     "es": "Encontré el mejor precio en línea.",
+     "it": "Ho trovato il miglior prezzo online.",
+     "pt": "Encontrei o melhor preço online.",
+     "tr": "Çevrimiçi en iyi fiyatı buldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-find-money",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/faɪnd ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I hope to find money on the street.",
+     "uk": "Я сподіваюся знайти гроші на вулиці.",
+     "ru": "Я надеюсь найти деньги на улице.",
+     "pl": "Mam nadzieję znaleźć pieniądze na ulicy.",
+     "de": "Ich hoffe, Geld auf der Straße zu finden.",
+     "fr": "J'espère trouver de l'argent dans la rue.",
+     "es": "Espero encontrar dinero en la calle.",
+     "it": "Spero di trovare soldi per strada.",
+     "pt": "Espero encontrar dinheiro na rua.",
+     "tr": "Sokakta para bulmayı umuyorum."
+    },
+    {
+     "en": "Did you find money in your old coat?",
+     "uk": "Ти знайшов гроші у своєму старому пальто?",
+     "ru": "Ты нашел деньги в своем старом пальто?",
+     "pl": "Czy znalazłeś pieniądze w swoim starym płaszczu?",
+     "de": "Hast du Geld in deinem alten Mantel gefunden?",
+     "fr": "As-tu trouvé de l'argent dans ton vieux manteau?",
+     "es": "¿Encontraste dinero en tu viejo abrigo?",
+     "it": "Hai trovato soldi nel tuo vecchio cappotto?",
+     "pt": "Você encontrou dinheiro no seu velho casaco?",
+     "tr": "Eski kabanında para buldun mu?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.exact-change",
@@ -1199,28 +2711,82 @@
    },
    "ipa": {
     "en": "/ɪɡˈzækt tʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please give me exact change for the bus.",
+     "uk": "Будь ласка, дайте мені точну суму на автобус.",
+     "ru": "Пожалуйста, дайте мне точную сумму на автобус.",
+     "pl": "Proszę dać mi odliczoną kwotę na autobus.",
+     "de": "Bitte geben Sie mir abgezähltes Geld für den Bus.",
+     "fr": "Veuillez me donner l'appoint pour le bus.",
+     "es": "Por favor, dame el importe exacto para el autobús.",
+     "it": "Per favore, dammi soldi contati per l'autobus.",
+     "pt": "Por favor, me dê o valor exato para o ônibus.",
+     "tr": "Lütfen otobüs için tam parayı ver."
+    },
+    {
+     "en": "I need exact change for my coffee.",
+     "uk": "Мені потрібна точна сума за каву.",
+     "ru": "Мне нужна точная сумма за кофе.",
+     "pl": "Potrzebuję odliczonej kwoty za kawę.",
+     "de": "Ich brauche abgezähltes Geld für meinen Kaffee.",
+     "fr": "J'ai besoin de l'appoint pour mon café.",
+     "es": "Necesito el importe exacto para mi café.",
+     "it": "Ho bisogno di soldi contati per il mio caffè.",
+     "pt": "Preciso do valor exato para o meu café.",
+     "tr": "Kahvem için tam paraya ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.cost",
    "t": {
-    "en": "cost",
-    "uk": "вартість",
-    "ru": "стоимость",
-    "pl": "koszt",
-    "de": "Kosten",
-    "fr": "coût",
+    "en": "cost, price",
+    "uk": "вартість, ціна",
+    "ru": "стоимость, цена",
+    "pl": "koszt, cena",
+    "de": "Kosten, Preis",
+    "fr": "coût, prix",
     "es": "coste",
-    "it": "costo",
-    "pt": "custo",
-    "tr": "maliyet"
+    "it": "costo, prezzo",
+    "pt": "custo, preço",
+    "tr": "maliyet, fiyat"
    },
    "ex": {
     "en": "The cost of the trip is low."
    },
    "ipa": {
     "en": "/kɑst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The cost of the meal was very high.",
+     "uk": "Вартість страви була дуже високою.",
+     "ru": "Стоимость блюда была очень высокой.",
+     "pl": "Koszt posiłku był bardzo wysoki.",
+     "de": "Die Kosten für die Mahlzeit waren sehr hoch.",
+     "fr": "Le coût du repas était très élevé.",
+     "es": "El costo de la comida era muy alto.",
+     "it": "Il costo del pasto era molto alto.",
+     "pt": "O custo da refeição foi muito alto.",
+     "tr": "Yemeğin maliyeti çok yüksekti."
+    },
+    {
+     "en": "What is the price of this book?",
+     "uk": "Яка вартість цієї книги?",
+     "ru": "Какова стоимость этой книги?",
+     "pl": "Jaka jest cena tej książki?",
+     "de": "Was kostet dieses Buch?",
+     "fr": "Quel est le prix de ce livre?",
+     "es": "¿Cuál es el precio de este libro?",
+     "it": "Qual è il prezzo di questo libro?",
+     "pt": "Qual é o preço deste livro?",
+     "tr": "Bu kitabın fiyatı nedir?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-for",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/peɪ fɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to pay for my groceries.",
+     "uk": "Мені потрібно платити за продукти.",
+     "ru": "Мне нужно платить за продукты.",
+     "pl": "Muszę płacić za zakupy.",
+     "de": "Ich muss für meine Lebensmittel bezahlen.",
+     "fr": "Je dois payer pour mes courses.",
+     "es": "Necesito pagar por mis compras.",
+     "it": "Devo pagare per la mia spesa.",
+     "pt": "Preciso pagar pelas minhas compras.",
+     "tr": "Alışverişimin parasını ödemem lazım."
+    },
+    {
+     "en": "Can I pay for my meal now?",
+     "uk": "Можу я зараз заплатити за їжу?",
+     "ru": "Могу я сейчас заплатить за еду?",
+     "pl": "Czy mogę teraz zapłacić za posiłek?",
+     "de": "Kann ich jetzt für mein Essen bezahlen?",
+     "fr": "Puis-je payer pour mon repas maintenant?",
+     "es": "¿Puedo pagar por mi comida ahora?",
+     "it": "Posso pagare per il mio pasto adesso?",
+     "pt": "Posso pagar pela minha refeição agora?",
+     "tr": "Yemeğimin parasını şimdi ödeyebilir miyim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.lost-wallet",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/lɔst ˈwɔlət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a lost wallet in the park.",
+     "uk": "Я знайшов загублений гаманець у парку.",
+     "ru": "Я нашел потерянный кошелек в парке.",
+     "pl": "Znalazłem zgubiony portfel w parku.",
+     "de": "Ich habe eine verlorene Geldbörse im Park gefunden.",
+     "fr": "J'ai trouvé un portefeuille perdu dans le parc.",
+     "es": "Encontré una cartera perdida en el parque.",
+     "it": "Ho trovato un portafoglio smarrito nel parco.",
+     "pt": "Encontrei uma carteira perdida no parque.",
+     "tr": "Parkta kayıp bir cüzdan buldum."
+    },
+    {
+     "en": "Have you seen my lost wallet?",
+     "uk": "Ви бачили мій загублений гаманець?",
+     "ru": "Вы видели мой потерянный кошелек?",
+     "pl": "Czy widziałeś mój zgubiony portfel?",
+     "de": "Hast du meine verlorene Geldbörse gesehen?",
+     "fr": "Avez-vous vu mon portefeuille perdu?",
+     "es": "¿Has visto mi cartera perdida?",
+     "it": "Hai visto il mio portafoglio smarrito?",
+     "pt": "Você viu minha carteira perdida?",
+     "tr": "Kayıp cüzdanımı gördün mü?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.money-back",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈmʌni bæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want my money back now.",
+     "uk": "Я хочу повернення грошей зараз.",
+     "ru": "Я хочу возврат денег сейчас.",
+     "pl": "Chcę zwrot pieniędzy teraz.",
+     "de": "Ich möchte jetzt mein Geld zurück.",
+     "fr": "Je veux mon argent remboursé maintenant.",
+     "es": "Quiero la devolución del dinero ahora.",
+     "it": "Voglio indietro i soldi ora.",
+     "pt": "Quero meu dinheiro de volta agora.",
+     "tr": "Şimdi para iadesi istiyorum."
+    },
+    {
+     "en": "You can get your money back easily.",
+     "uk": "Ви можете легко отримати повернення грошей.",
+     "ru": "Вы можете легко получить возврат денег.",
+     "pl": "Możesz łatwo uzyskać zwrot pieniędzy.",
+     "de": "Sie können Ihr Geld einfach zurückbekommen.",
+     "fr": "Vous pouvez facilement obtenir votre argent remboursé.",
+     "es": "Puedes obtener la devolución del dinero fácilmente.",
+     "it": "Puoi ottenere indietro i soldi facilmente.",
+     "pt": "Você pode facilmente obter seu dinheiro de volta.",
+     "tr": "Parayı kolayca geri alabilirsin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.ill-pay",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/aɪl peɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't worry, I'll pay for dinner.",
+     "uk": "Не хвилюйся, я заплачу за вечерю.",
+     "ru": "Не переживай, я заплачу за ужин.",
+     "pl": "Nie martw się, ja zapłacę za kolację.",
+     "de": "Mach dir keine Sorgen, ich zahle fürs Abendessen.",
+     "fr": "Ne t'inquiète pas, je paie le dîner.",
+     "es": "No te preocupes, yo pago la cena.",
+     "it": "Non ti preoccupare, pago io la cena.",
+     "pt": "Não se preocupe, eu pago o jantar.",
+     "tr": "Merak etme, akşam yemeğini ben ödeyeceğim."
+    },
+    {
+     "en": "I'll pay for the tickets now.",
+     "uk": "Я заплачу за квитки зараз.",
+     "ru": "Я заплачу за билеты сейчас.",
+     "pl": "Ja zapłacę za bilety teraz.",
+     "de": "Ich zahle jetzt für die Tickets.",
+     "fr": "Je paie maintenant pour les billets.",
+     "es": "Yo pago por las entradas ahora.",
+     "it": "Pago io per i biglietti ora.",
+     "pt": "Eu pago os ingressos agora.",
+     "tr": "Biletler için şimdi ben ödeyeceğim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-together",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/peɪ təˈɡɛðɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Let’s pay together for the meal.",
+     "uk": "Давай платити разом за їжу.",
+     "ru": "Давайте платить вместе за еду.",
+     "pl": "Zapłaćmy razem za posiłek.",
+     "de": "Lass uns zusammen für das Essen zahlen.",
+     "fr": "Payons ensemble pour le repas.",
+     "es": "Paguemos juntos por la comida.",
+     "it": "Paghiamo insieme per il pasto.",
+     "pt": "Vamos pagar juntos pela refeição.",
+     "tr": "Yemeği birlikte ödeyelim."
+    },
+    {
+     "en": "We can pay together at the restaurant.",
+     "uk": "Ми можемо платити разом у ресторані.",
+     "ru": "Мы можем платить вместе в ресторане.",
+     "pl": "Możemy płacić razem w restauracji.",
+     "de": "Wir können im Restaurant zusammen zahlen.",
+     "fr": "Nous pouvons payer ensemble au restaurant.",
+     "es": "Podemos pagar juntos en el restaurante.",
+     "it": "Possiamo pagare insieme al ristorante.",
+     "pt": "Podemos pagar juntos no restaurante.",
+     "tr": "Restoranda birlikte ödeyebiliriz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-pay-separately",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/peɪ ˈsɛpɚətli/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We will pay separately for our meals.",
+     "uk": "Ми будемо платити окремо за наші страви.",
+     "ru": "Мы будем платить отдельно за наши блюда.",
+     "pl": "Będziemy płacić osobno za nasze posiłki.",
+     "de": "Wir zahlen getrennt für unsere Mahlzeiten.",
+     "fr": "Nous allons payer séparément pour nos repas.",
+     "es": "Pagaremos por separado por nuestras comidas.",
+     "it": "Pagheremo separatamente per i nostri pasti.",
+     "pt": "Vamos pagar separado pelas nossas refeições.",
+     "tr": "Yemeklerimizi ayrı ödeyeceğiz."
+    },
+    {
+     "en": "Can we pay separately at the cafe?",
+     "uk": "Можемо платити окремо в кафе?",
+     "ru": "Можем ли мы платить отдельно в кафе?",
+     "pl": "Czy możemy płacić osobno w kawiarni?",
+     "de": "Können wir im Café getrennt zahlen?",
+     "fr": "Pouvons-nous payer séparément au café?",
+     "es": "¿Podemos pagar por separado en la cafetería?",
+     "it": "Possiamo pagare separatamente al bar?",
+     "pt": "Podemos pagar separado na cafeteria?",
+     "tr": "Kafede ayrı ödeyebilir miyiz?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.low-price",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/loʊ praɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This store has a low price for shoes.",
+     "uk": "Цей магазин має низьку ціну на взуття.",
+     "ru": "В этом магазине низкая цена на обувь.",
+     "pl": "Ten sklep ma niską cenę na buty.",
+     "de": "Dieser Laden hat einen niedrigen Preis für Schuhe.",
+     "fr": "Ce magasin a un prix bas pour les chaussures.",
+     "es": "Esta tienda tiene un precio bajo para zapatos.",
+     "it": "Questo negozio ha un prezzo basso per le scarpe.",
+     "pt": "Esta loja tem um preço baixo para sapatos.",
+     "tr": "Bu dükkanda ayakkabılar için düşük fiyat var."
+    },
+    {
+     "en": "I bought this dress at a low price.",
+     "uk": "Я купила цю сукню за низькою ціною.",
+     "ru": "Я купила это платье по низкой цене.",
+     "pl": "Kupiłem tę sukienkę w niskiej cenie.",
+     "de": "Ich habe dieses Kleid zu einem niedrigen Preis gekauft.",
+     "fr": "J'ai acheté cette robe à un prix bas.",
+     "es": "Compré este vestido a un precio bajo.",
+     "it": "Ho comprato questo vestito a un prezzo basso.",
+     "pt": "Comprei este vestido a um preço baixo.",
+     "tr": "Bu elbiseyi düşük fiyatla aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.high-price",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/haɪ praɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This car has a high price tag.",
+     "uk": "Ця машина має високу ціну.",
+     "ru": "У этой машины высокая цена.",
+     "pl": "Ten samochód ma wysoką cenę.",
+     "de": "Dieses Auto hat einen hohen Preis.",
+     "fr": "Cette voiture a un prix élevé.",
+     "es": "Este coche tiene un precio alto.",
+     "it": "Questa auto ha un prezzo alto.",
+     "pt": "Este carro tem um preço alto.",
+     "tr": "Bu arabanın yüksek fiyatı var."
+    },
+    {
+     "en": "I can't afford that high price.",
+     "uk": "Я не можу дозволити собі таку високу ціну.",
+     "ru": "Я не могу позволить себе такую высокую цену.",
+     "pl": "Nie mogę sobie pozwolić na tak wysoką cenę.",
+     "de": "Ich kann mir diesen hohen Preis nicht leisten.",
+     "fr": "Je ne peux pas me permettre ce prix élevé.",
+     "es": "No puedo permitirme ese precio alto.",
+     "it": "Non posso permettermi quel prezzo alto.",
+     "pt": "Não posso pagar esse preço alto.",
+     "tr": "O yüksek fiyata katlanamam."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-cost-a-lot",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/kɑst ə lɑt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This phone will cost a lot of money.",
+     "uk": "Цей телефон коштуватиме багато грошей.",
+     "ru": "Этот телефон будет стоить много денег.",
+     "pl": "Ten telefon będzie dużo kosztować.",
+     "de": "Dieses Telefon wird viel kosten.",
+     "fr": "Ce téléphone va coûter cher.",
+     "es": "Este teléfono costará mucho dinero.",
+     "it": "Questo telefono costerà molto.",
+     "pt": "Este telefone vai custar caro.",
+     "tr": "Bu telefon çok para tutacak."
+    },
+    {
+     "en": "It can cost a lot to travel abroad.",
+     "uk": "Подорож за кордон може коштувати багато.",
+     "ru": "Путешествие за границу может стоить много.",
+     "pl": "Podróż za granicę może dużo kosztować.",
+     "de": "Es kann viel kosten, ins Ausland zu reisen.",
+     "fr": "Voyager à l'étranger peut coûter cher.",
+     "es": "Viajar al extranjero puede costar mucho.",
+     "it": "Viaggiare all'estero può costare molto.",
+     "pt": "Viajar para o exterior pode custar caro.",
+     "tr": "Yurtdışına seyahat etmek çok para tutabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.a-little-money",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ə ˈlɪtəl ˈmʌni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a little money for snacks.",
+     "uk": "У мене трохи грошей на закуски.",
+     "ru": "У меня немного денег на закуски.",
+     "pl": "Mam trochę pieniędzy na przekąski.",
+     "de": "Ich habe ein bisschen Geld für Snacks.",
+     "fr": "J'ai un peu d'argent pour des collations.",
+     "es": "Tengo un poco de dinero para bocadillos.",
+     "it": "Ho un po' di soldi per gli snack.",
+     "pt": "Tenho um pouco de dinheiro para lanches.",
+     "tr": "Atıştırmalıklar için biraz param var."
+    },
+    {
+     "en": "Can you lend me a little money?",
+     "uk": "Ти можеш позичити мені трохи грошей?",
+     "ru": "Ты можешь одолжить мне немного денег?",
+     "pl": "Możesz pożyczyć mi trochę pieniędzy?",
+     "de": "Kannst du mir ein bisschen Geld leihen?",
+     "fr": "Peux-tu me prêter un peu d'argent?",
+     "es": "¿Puedes prestarme un poco de dinero?",
+     "it": "Puoi prestarmi un po' di soldi?",
+     "pt": "Você pode me emprestar um pouco de dinheiro?",
+     "tr": "Bana biraz para ödünç verebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.big-note",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/bɪɡ noʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a big note for the taxi.",
+     "uk": "Мені потрібна велика купюра для таксі.",
+     "ru": "Мне нужна крупная купюра для такси.",
+     "pl": "Potrzebuję dużego banknotu na taksówkę.",
+     "de": "Ich brauche einen großen Schein für das Taxi.",
+     "fr": "J'ai besoin d'une grosse coupure pour le taxi.",
+     "es": "Necesito un billete grande para el taxi.",
+     "it": "Ho bisogno di una banconota grossa per il taxi.",
+     "pt": "Preciso de uma nota alta para o táxi.",
+     "tr": "Taksi için büyük bir banknot lazım."
+    },
+    {
+     "en": "He paid with a big note.",
+     "uk": "Він заплатив великою купюрою.",
+     "ru": "Он заплатил крупной купюрой.",
+     "pl": "On zapłacił dużym banknotem.",
+     "de": "Er hat mit einem großen Schein bezahlt.",
+     "fr": "Il a payé avec une grosse coupure.",
+     "es": "Pagó con un billete grande.",
+     "it": "Ha pagato con una banconota grossa.",
+     "pt": "Ele pagou com uma nota alta.",
+     "tr": "O, büyük bir banknotla ödedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "finance.to-break-a-note",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/breɪk ə noʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can you help me to break a note?",
+     "uk": "Ти можеш допомогти мені розміняти купюру?",
+     "ru": "Ты можешь помочь мне разменять купюру?",
+     "pl": "Czy możesz mi pomóc rozmienić banknot?",
+     "de": "Kannst du mir helfen, einen Schein zu wechseln?",
+     "fr": "Peux-tu m'aider à faire de la monnaie?",
+     "es": "¿Puedes ayudarme a cambiar un billete?",
+     "it": "Puoi aiutarmi a cambiare una banconota?",
+     "pt": "Você pode me ajudar a trocar uma nota?",
+     "tr": "Bana bir banknot bozdurmakta yardım edebilir misin?"
+    },
+    {
+     "en": "I need to break a note for the bus.",
+     "uk": "Мені потрібно розміняти купюру на автобус.",
+     "ru": "Мне нужно разменять купюру на автобус.",
+     "pl": "Muszę rozmienić banknot na autobus.",
+     "de": "Ich muss einen Schein für den Bus wechseln.",
+     "fr": "J'ai besoin de faire de la monnaie pour le bus.",
+     "es": "Necesito cambiar un billete para el autobús.",
+     "it": "Devo cambiare una banconota per l'autobus.",
+     "pt": "Preciso trocar uma nota para o ônibus.",
+     "tr": "Otobüs için bir banknot bozdurmam lazım."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

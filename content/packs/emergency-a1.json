@@ -2,7 +2,7 @@
  "id": "emergency-a1",
  "topic": "emergency",
  "level": "a1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "emergency.help",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/hɛlp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need help with my homework.",
+     "uk": "Мені потрібна допомога з домашнім завданням.",
+     "ru": "Мне нужна помощь с домашним заданием.",
+     "pl": "Potrzebuję pomocy z pracą domową.",
+     "de": "Ich brauche Hilfe mit meinen Hausaufgaben.",
+     "fr": "J'ai besoin d'aide pour mes devoirs.",
+     "es": "Necesito ayuda con mi tarea.",
+     "it": "Ho bisogno di aiuto con i compiti.",
+     "pt": "Preciso de ajuda com meu dever de casa.",
+     "tr": "Ödevimle ilgili yardıma ihtiyacım var."
+    },
+    {
+     "en": "Can you help me find my keys?",
+     "uk": "Можеш допомогти мені знайти ключі?",
+     "ru": "Ты можешь помочь мне найти ключи?",
+     "pl": "Możesz mi pomóc znaleźć klucze?",
+     "de": "Kannst du mir helfen, meine Schlüssel zu finden?",
+     "fr": "Peux-tu m'aider à trouver mes clés?",
+     "es": "¿Puedes ayudarme a encontrar mis llaves?",
+     "it": "Puoi aiutarmi a trovare le mie chiavi?",
+     "pt": "Você pode me ajudar a encontrar minhas chaves?",
+     "tr": "Anahtarlarımı bulmama yardım eder misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.emergency",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ɪˈmɝdʒənsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Call for help in an emergency.",
+     "uk": "Подзвони на допомогу в надзвичайній ситуації.",
+     "ru": "Позвоните за помощью в чрезвычайной ситуации.",
+     "pl": "Zadzwoń po pomoc w nagłym wypadku.",
+     "de": "Rufen Sie im Notfall Hilfe.",
+     "fr": "Appelez à l'aide en cas d'urgence.",
+     "es": "Llama para pedir ayuda en una emergencia.",
+     "it": "Chiama aiuto in caso di emergenza.",
+     "pt": "Ligue para pedir ajuda em uma emergência.",
+     "tr": "Acil durumda yardım çağır."
+    },
+    {
+     "en": "Stay calm during an emergency.",
+     "uk": "Залишайтеся спокійними під час надзвичайної ситуації.",
+     "ru": "Оставайтесь спокойными в чрезвычайной ситуации.",
+     "pl": "Zachowaj spokój w nagłym wypadku.",
+     "de": "Bleiben Sie ruhig im Notfall.",
+     "fr": "Restez calme en cas d'urgence.",
+     "es": "Mantén la calma durante una emergencia.",
+     "it": "Rimani calmo durante un'emergenza.",
+     "pt": "Mantenha a calma durante uma emergência.",
+     "tr": "Acil durumda sakin kal."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.police",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/pəˈlis/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Call the police if you see trouble.",
+     "uk": "Зателефонуйте в поліцію, якщо бачите неприємності.",
+     "ru": "Позвоните в полицию, если видите неприятности.",
+     "pl": "Zadzwoń na policję, jeśli widzisz kłopoty.",
+     "de": "Rufen Sie die Polizei, wenn Sie Probleme sehen.",
+     "fr": "Appelez la police si vous voyez des problèmes.",
+     "es": "Llama a la policía si ves problemas.",
+     "it": "Chiama la polizia se vedi dei problemi.",
+     "pt": "Ligue para a polícia se você ver problemas.",
+     "tr": "Sorun görürseniz polisi arayın."
+    },
+    {
+     "en": "The police are here to help you.",
+     "uk": "Поліція тут, щоб допомогти вам.",
+     "ru": "Полиция здесь, чтобы помочь вам.",
+     "pl": "Policja jest tutaj, aby ci pomóc.",
+     "de": "Die Polizei ist hier, um Ihnen zu helfen.",
+     "fr": "La police est là pour vous aider.",
+     "es": "La policía está aquí para ayudarte.",
+     "it": "La polizia è qui per aiutarti.",
+     "pt": "A polícia está aqui para te ajudar.",
+     "tr": "Polis burada sana yardım etmek için."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.ambulance",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈæmbjələns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An ambulance is coming to help.",
+     "uk": "Швидка допомога їде, щоб допомогти.",
+     "ru": "Скорая помощь едет, чтобы помочь.",
+     "pl": "Karetka przyjeżdża, aby pomóc.",
+     "de": "Ein Krankenwagen kommt, um zu helfen.",
+     "fr": "Une ambulance arrive pour aider.",
+     "es": "Una ambulancia viene para ayudar.",
+     "it": "Un'ambulanza sta arrivando per aiutare.",
+     "pt": "Uma ambulância está vindo para ajudar.",
+     "tr": "Yardım etmek için bir ambulans geliyor."
+    },
+    {
+     "en": "The ambulance took the patient to the hospital.",
+     "uk": "Швидка допомога відвезла пацієнта до лікарні.",
+     "ru": "Скорая помощь отвезла пациента в больницу.",
+     "pl": "Karetka zabrała pacjenta do szpitala.",
+     "de": "Der Krankenwagen brachte den Patienten ins Krankenhaus.",
+     "fr": "L'ambulance a emmené le patient à l'hôpital.",
+     "es": "La ambulancia llevó al paciente al hospital.",
+     "it": "L'ambulanza ha portato il paziente in ospedale.",
+     "pt": "A ambulância levou o paciente para o hospital.",
+     "tr": "Ambulans hastayı hastaneye götürdü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.fire",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There is a fire in the building.",
+     "uk": "У будівлі є пожежа.",
+     "ru": "В здании пожар.",
+     "pl": "W budynku jest pożar.",
+     "de": "Es gibt ein Feuer im Gebäude.",
+     "fr": "Il y a un incendie dans le bâtiment.",
+     "es": "Hay un incendio en el edificio.",
+     "it": "C'è un incendio nell'edificio.",
+     "pt": "Há um incêndio no prédio.",
+     "tr": "Binalarda yangın var."
+    },
+    {
+     "en": "The fire is under control now.",
+     "uk": "Пожежа зараз під контролем.",
+     "ru": "Пожар сейчас под контролем.",
+     "pl": "Pożar jest teraz pod kontrolą.",
+     "de": "Das Feuer ist jetzt unter Kontrolle.",
+     "fr": "L'incendie est maintenant sous contrôle.",
+     "es": "El incendio está ahora bajo control.",
+     "it": "L'incendio è ora sotto controllo.",
+     "pt": "O incêndio está agora sob controle.",
+     "tr": "Yangın şimdi kontrol altında."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.fire-brigade",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪɚ brəˈɡeɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fire brigade is coming to help.",
+     "uk": "Пожежна служба їде на допомогу.",
+     "ru": "Пожарная служба едет на помощь.",
+     "pl": "Straż pożarna przyjeżdża, aby pomóc.",
+     "de": "Die Feuerwehr kommt zur Hilfe.",
+     "fr": "La brigade de pompiers arrive pour aider.",
+     "es": "La brigada de bomberos viene a ayudar.",
+     "it": "La vigili del fuoco sta arrivando per aiutare.",
+     "pt": "A brigada de bombeiros está vindo ajudar.",
+     "tr": "İtfaiye yardım etmek için geliyor."
+    },
+    {
+     "en": "Call the fire brigade in an emergency.",
+     "uk": "У разі надзвичайної ситуації телефонуйте до пожежної служби.",
+     "ru": "В экстренной ситуации позвоните в пожарную службу.",
+     "pl": "W nagłych wypadkach zadzwoń do straży pożarnej.",
+     "de": "Rufen Sie die Feuerwehr im Notfall an.",
+     "fr": "Appelez les pompiers en cas d'urgence.",
+     "es": "Llama a los bomberos en una emergencia.",
+     "it": "Chiama i vigili del fuoco in caso di emergenza.",
+     "pt": "Ligue para os bombeiros em uma emergência.",
+     "tr": "Acil durumda itfaiyeyi ara."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.doctor",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/ˈdɑktɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor will see you now.",
+     "uk": "Лікар зараз вас прийме.",
+     "ru": "Доктор вас сейчас примет.",
+     "pl": "Lekarz teraz cię przyjmie.",
+     "de": "Der Arzt wird Sie jetzt sehen.",
+     "fr": "Le médecin va vous voir maintenant.",
+     "es": "El médico te verá ahora.",
+     "it": "Il medico ti vedrà ora.",
+     "pt": "O médico vai te ver agora.",
+     "tr": "Doktor seni şimdi görecek."
+    },
+    {
+     "en": "I need to see a doctor.",
+     "uk": "Мені потрібно побачити лікаря.",
+     "ru": "Мне нужно увидеть врача.",
+     "pl": "Muszę zobaczyć lekarza.",
+     "de": "Ich muss einen Arzt sehen.",
+     "fr": "Je dois voir un médecin.",
+     "es": "Necesito ver a un médico.",
+     "it": "Devo vedere un medico.",
+     "pt": "Preciso ver um médico.",
+     "tr": "Bir doktora görünmem gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.hospital",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˈhɑˌspɪtəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hospital is near my house.",
+     "uk": "Лікарня поруч з моїм будинком.",
+     "ru": "Больница рядом с моим домом.",
+     "pl": "Szpital jest blisko mojego domu.",
+     "de": "Das Krankenhaus ist in der Nähe meines Hauses.",
+     "fr": "L'hôpital est près de ma maison.",
+     "es": "El hospital está cerca de mi casa.",
+     "it": "L'ospedale è vicino a casa mia.",
+     "pt": "O hospital fica perto da minha casa.",
+     "tr": "Hastane evimin yakınında."
+    },
+    {
+     "en": "He was taken to the hospital after the accident.",
+     "uk": "Його відвезли до лікарні після нещасного випадку.",
+     "ru": "Его доставили в больницу после несчастного случая.",
+     "pl": "Zabrano go do szpitala po wypadku.",
+     "de": "Er wurde nach dem Unfall ins Krankenhaus gebracht.",
+     "fr": "Il a été emmené à l'hôpital après l'accident.",
+     "es": "Fue llevado al hospital después del accidente.",
+     "it": "È stato portato in ospedale dopo l'incidente.",
+     "pt": "Ele foi levado para o hospital após o acidente.",
+     "tr": "Kaza sonrası hastaneye kaldırıldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.accident",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈæksədənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I saw an accident on the road.",
+     "uk": "Я бачив нещасний випадок на дорозі.",
+     "ru": "Я видел несчастный случай на дороге.",
+     "pl": "Widziałem wypadek na drodze.",
+     "de": "Ich habe einen Unfall auf der Straße gesehen.",
+     "fr": "J'ai vu un accident sur la route.",
+     "es": "Vi un accidente en la carretera.",
+     "it": "Ho visto un incidente sulla strada.",
+     "pt": "Eu vi um acidente na estrada.",
+     "tr": "Yolda bir kaza gördüm."
+    },
+    {
+     "en": "The accident happened last night.",
+     "uk": "Нещасний випадок стався вчора вночі.",
+     "ru": "Несчастный случай произошел прошлой ночью.",
+     "pl": "Wypadek zdarzył się zeszłej nocy.",
+     "de": "Der Unfall passierte letzte Nacht.",
+     "fr": "L'accident est arrivé la nuit dernière.",
+     "es": "El accidente ocurrió anoche.",
+     "it": "L'incidente è avvenuto ieri sera.",
+     "pt": "O acidente aconteceu na noite passada.",
+     "tr": "Kaza geçen gece oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.danger",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪndʒɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There is danger in the water.",
+     "uk": "Є небезпека у воді.",
+     "ru": "Есть опасность в воде.",
+     "pl": "Jest niebezpieczeństwo w wodzie.",
+     "de": "Es gibt Gefahr im Wasser.",
+     "fr": "Il y a danger dans l'eau.",
+     "es": "Hay peligro en el agua.",
+     "it": "C'è pericolo nell'acqua.",
+     "pt": "Há perigo na água.",
+     "tr": "Suda tehlike var."
+    },
+    {
+     "en": "You are in danger if you go there.",
+     "uk": "Ви в небезпеці, якщо туди підете.",
+     "ru": "Вы в опасности, если пойдете туда.",
+     "pl": "Jesteś w niebezpieczeństwie, jeśli tam pójdziesz.",
+     "de": "Du bist in Gefahr, wenn du dorthin gehst.",
+     "fr": "Vous êtes en danger si vous y allez.",
+     "es": "Estás en peligro si vas allí.",
+     "it": "Sei in pericolo se vai lì.",
+     "pt": "Você está em perigo se for lá.",
+     "tr": "Oraya gidersen tehlikedesin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.safe",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/seɪf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Stay safe during the storm tonight.",
+     "uk": "Залишайтеся у безпеці під час бурі сьогодні ввечері.",
+     "ru": "Оставайтесь в безопасности во время шторма сегодня ночью.",
+     "pl": "Zostań bezpieczny podczas burzy dzisiaj w nocy.",
+     "de": "Bleib sicher während des Sturms heute Nacht.",
+     "fr": "Restez en sécurité pendant la tempête de ce soir.",
+     "es": "Mantente a salvo durante la tormenta de esta noche.",
+     "it": "Rimani al sicuro durante la tempesta di stasera.",
+     "pt": "Fique seguro durante a tempestade desta noite.",
+     "tr": "Bu gece fırtına sırasında güvende kal."
+    },
+    {
+     "en": "The children are safe at home.",
+     "uk": "Діти у безпеці вдома.",
+     "ru": "Дети в безопасности дома.",
+     "pl": "Dzieci są bezpieczne w domu.",
+     "de": "Die Kinder sind sicher zu Hause.",
+     "fr": "Les enfants sont en sécurité à la maison.",
+     "es": "Los niños están a salvo en casa.",
+     "it": "I bambini sono al sicuro a casa.",
+     "pt": "As crianças estão seguras em casa.",
+     "tr": "Çocuklar evde güvende."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.hurt",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/hɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He was hurt in the accident yesterday.",
+     "uk": "Він був поранений у вчорашній аварії.",
+     "ru": "Он был ранен в аварии вчера.",
+     "pl": "On był ranny w wczorajszej wypadku.",
+     "de": "Er wurde gestern bei dem Unfall verletzt.",
+     "fr": "Il a été blessé dans l'accident d'hier.",
+     "es": "Él resultó herido en el accidente de ayer.",
+     "it": "È stato ferito nell'incidente di ieri.",
+     "pt": "Ele ficou machucado no acidente de ontem.",
+     "tr": "Dünki kazada yaralandı."
+    },
+    {
+     "en": "Don't touch it, it might hurt.",
+     "uk": "Не торкайся цього, це може поранити.",
+     "ru": "Не трогай это, это может повредить.",
+     "pl": "Nie dotykaj tego, to może zranić.",
+     "de": "Berühre es nicht, es könnte verletzen.",
+     "fr": "Ne le touche pas, cela pourrait blesser.",
+     "es": "No lo toques, podría herirte.",
+     "it": "Non toccarlo, potrebbe ferire.",
+     "pt": "Não toque nisso, pode machucar.",
+     "tr": "Buna dokunma, zarar verebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.to-call",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/kɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to call my friend now.",
+     "uk": "Мені потрібно дзвонити своєму другу зараз.",
+     "ru": "Мне нужно звонить другу сейчас.",
+     "pl": "Muszę teraz dzwonić do mojego przyjaciela.",
+     "de": "Ich muss jetzt meinen Freund anrufen.",
+     "fr": "Je dois appeler mon ami maintenant.",
+     "es": "Necesito llamar a mi amigo ahora.",
+     "it": "Devo chiamare il mio amico ora.",
+     "pt": "Preciso ligar para meu amigo agora.",
+     "tr": "Şimdi arkadaşımı aramam lazım."
+    },
+    {
+     "en": "Please remember to call me later.",
+     "uk": "Будь ласка, не забудь дзвонити мені пізніше.",
+     "ru": "Пожалуйста, не забудь позвонить мне позже.",
+     "pl": "Proszę, pamiętaj, aby do mnie zadzwonić później.",
+     "de": "Bitte vergiss nicht, mich später anzurufen.",
+     "fr": "S'il te plaît, n'oublie pas de m'appeler plus tard.",
+     "es": "Por favor, recuerda llamarme más tarde.",
+     "it": "Per favore, ricordati di chiamarmi più tardi.",
+     "pt": "Por favor, lembre-se de me ligar mais tarde.",
+     "tr": "Lütfen daha sonra beni aramayı unutma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.emergency-number",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ɪˈmɝdʒənsi ˈnʌmbɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should memorize the emergency number.",
+     "uk": "Вам слід запам'ятати номер екстреної служби.",
+     "ru": "Вам следует запомнить номер экстренной службы.",
+     "pl": "Powinieneś zapamiętać numer alarmowy.",
+     "de": "Du solltest die Notrufnummer auswendig lernen.",
+     "fr": "Vous devriez mémoriser le numéro d'urgence.",
+     "es": "Debes memorizar el número de emergencia.",
+     "it": "Dovresti memorizzare il numero di emergenza.",
+     "pt": "Você deve memorizar o número de emergência.",
+     "tr": "Acil numarayı ezberlemelisin."
+    },
+    {
+     "en": "The emergency number is easy to remember.",
+     "uk": "Номер екстреної служби легко запам'ятати.",
+     "ru": "Номер экстренной службы легко запомнить.",
+     "pl": "Numer alarmowy jest łatwy do zapamiętania.",
+     "de": "Die Notrufnummer ist leicht zu merken.",
+     "fr": "Le numéro d'urgence est facile à retenir.",
+     "es": "El número de emergencia es fácil de recordar.",
+     "it": "Il numero di emergenza è facile da ricordare.",
+     "pt": "O número de emergência é fácil de lembrar.",
+     "tr": "Acil numara hatırlaması kolay."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.lost",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/lɔst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my wallet at the park.",
+     "uk": "Я загубив гаманець у парку.",
+     "ru": "Я потерял кошелек в парке.",
+     "pl": "Zgubiłem portfel w parku.",
+     "de": "Ich habe meine Brieftasche im Park verloren.",
+     "fr": "J'ai perdu mon portefeuille au parc.",
+     "es": "Perdí mi billetera en el parque.",
+     "it": "Ho perso il mio portafoglio al parco.",
+     "pt": "Perdi minha carteira no parque.",
+     "tr": "Cüzdanımı parkta kaybettim."
+    },
+    {
+     "en": "She felt lost in the big city.",
+     "uk": "Вона почувствувала себе загубленою у великому місті.",
+     "ru": "Она чувствовала себя потерянной в большом городе.",
+     "pl": "Czuła się zgubiona w wielkim mieście.",
+     "de": "Sie fühlte sich verloren in der großen Stadt.",
+     "fr": "Elle se sentait perdue dans la grande ville.",
+     "es": "Ella se sentía perdida en la gran ciudad.",
+     "it": "Si sentiva persa nella grande città.",
+     "pt": "Ela se sentia perdida na grande cidade.",
+     "tr": "Büyük şehirde kaybolmuş gibi hissetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.stolen",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈstoʊlən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My bike was stolen last night.",
+     "uk": "Мій велосипед вкрали минулої ночі.",
+     "ru": "Мой велосипед украли прошлой ночью.",
+     "pl": "Mój rower został skradziony zeszłej nocy.",
+     "de": "Mein Fahrrad wurde letzte Nacht gestohlen.",
+     "fr": "Mon vélo a été volé hier soir.",
+     "es": "Mi bicicleta fue robada anoche.",
+     "it": "La mia bici è stata rubata ieri sera.",
+     "pt": "Minha bicicleta foi roubada ontem à noite.",
+     "tr": "Bisikletim dün gece çalındı."
+    },
+    {
+     "en": "Don't leave your bag, it might get stolen.",
+     "uk": "Не залишайте свою сумку, її можуть вкрасти.",
+     "ru": "Не оставляйте свою сумку, ее могут украсть.",
+     "pl": "Nie zostawiaj swojej torby, może zostać skradziona.",
+     "de": "Lass deine Tasche nicht liegen, sie könnte gestohlen werden.",
+     "fr": "Ne laissez pas votre sac, il pourrait être volé.",
+     "es": "No dejes tu bolso, podría ser robado.",
+     "it": "Non lasciare la tua borsa, potrebbe essere rubata.",
+     "pt": "Não deixe sua bolsa, pode ser roubada.",
+     "tr": "Çantanızı bırakmayın, çalınabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.thief",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/θif/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The thief ran away with my phone.",
+     "uk": "Злодій втік з моїм телефоном.",
+     "ru": "Вор убежал с моим телефоном.",
+     "pl": "Złodziej uciekł z moim telefonem.",
+     "de": "Der Dieb rannte mit meinem Telefon weg.",
+     "fr": "Le voleur s'est enfui avec mon téléphone.",
+     "es": "El ladrón huyó con mi teléfono.",
+     "it": "Il ladro è fuggito con il mio telefono.",
+     "pt": "O ladrão fugiu com meu telefone.",
+     "tr": "Hırsız telefonumla kaçtı."
+    },
+    {
+     "en": "Be careful, there is a thief around.",
+     "uk": "Будьте обережні, тут десь є злодій.",
+     "ru": "Будьте осторожны, здесь где-то вор.",
+     "pl": "Bądź ostrożny, gdzieś tu jest złodziej.",
+     "de": "Sei vorsichtig, hier ist irgendwo ein Dieb.",
+     "fr": "Faites attention, il y a un voleur dans les parages.",
+     "es": "Ten cuidado, hay un ladrón cerca.",
+     "it": "Fai attenzione, c'è un ladro nei paraggi.",
+     "pt": "Cuidado, há um ladrão por perto.",
+     "tr": "Dikkat et, etrafta bir hırsız var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.passport",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈpæˌspɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I forgot my passport at home.",
+     "uk": "Я забув свій паспорт вдома.",
+     "ru": "Я забыл свой паспорт дома.",
+     "pl": "Zapomniałem paszportu w domu.",
+     "de": "Ich habe meinen Reisepass zu Hause vergessen.",
+     "fr": "J'ai oublié mon passeport à la maison.",
+     "es": "Olvidé mi pasaporte en casa.",
+     "it": "Ho dimenticato il mio passaporto a casa.",
+     "pt": "Esqueci meu passaporte em casa.",
+     "tr": "Pasaportumu evde unuttum."
+    },
+    {
+     "en": "You need a passport to travel abroad.",
+     "uk": "Вам потрібен паспорт для поїздки за кордон.",
+     "ru": "Вам нужен паспорт для поездки за границу.",
+     "pl": "Potrzebujesz paszportu, aby podróżować za granicę.",
+     "de": "Du brauchst einen Reisepass, um ins Ausland zu reisen.",
+     "fr": "Vous avez besoin d'un passeport pour voyager à l'étranger.",
+     "es": "Necesitas un pasaporte para viajar al extranjero.",
+     "it": "Hai bisogno di un passaporto per viaggiare all'estero.",
+     "pt": "Você precisa de um passaporte para viajar para o exterior.",
+     "tr": "Yurtdışına seyahat etmek için pasaporta ihtiyacın var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.document",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/ˈdɑkjəmɛnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please sign this document.",
+     "uk": "Будь ласка, підпишіть цей документ.",
+     "ru": "Пожалуйста, подпишите этот документ.",
+     "pl": "Proszę podpisać ten dokument.",
+     "de": "Bitte unterschreiben Sie dieses Dokument.",
+     "fr": "Veuillez signer ce document.",
+     "es": "Por favor, firme este documento.",
+     "it": "Per favore, firma questo documento.",
+     "pt": "Por favor, assine este documento.",
+     "tr": "Lütfen bu belgeyi imzala."
+    },
+    {
+     "en": "I need a document for my application.",
+     "uk": "Мені потрібен документ для моєї заявки.",
+     "ru": "Мне нужен документ для моей заявки.",
+     "pl": "Potrzebuję dokumentu do mojej aplikacji.",
+     "de": "Ich brauche ein Dokument für meine Bewerbung.",
+     "fr": "J'ai besoin d'un document pour ma candidature.",
+     "es": "Necesito un documento para mi solicitud.",
+     "it": "Ho bisogno di un documento per la mia domanda.",
+     "pt": "Preciso de um documento para minha solicitação.",
+     "tr": "Başvurum için bir belgeye ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.visa",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ˈvizə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a visa to enter the country.",
+     "uk": "Мені потрібна віза, щоб в'їхати в країну.",
+     "ru": "Мне нужна виза, чтобы въехать в страну.",
+     "pl": "Potrzebuję wizy, aby wjechać do kraju.",
+     "de": "Ich benötige ein Visum, um ins Land einzureisen.",
+     "fr": "J'ai besoin d'un visa pour entrer dans le pays.",
+     "es": "Necesito un visado para entrar en el país.",
+     "it": "Ho bisogno di un visto per entrare nel paese.",
+     "pt": "Preciso de um visto para entrar no país.",
+     "tr": "Ülkeye girmek için vizeye ihtiyacım var."
+    },
+    {
+     "en": "The visa process takes a long time.",
+     "uk": "Процес отримання візи займає багато часу.",
+     "ru": "Процесс получения визы занимает много времени.",
+     "pl": "Proces uzyskania wizy trwa długo.",
+     "de": "Der Visumantrag dauert lange.",
+     "fr": "Le processus de visa prend beaucoup de temps.",
+     "es": "El proceso de visado toma mucho tiempo.",
+     "it": "Il processo per il visto richiede molto tempo.",
+     "pt": "O processo de visto leva muito tempo.",
+     "tr": "Vize süreci uzun sürüyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.name",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/neɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your name?",
+     "uk": "Як тебе звати?",
+     "ru": "Как тебя зовут?",
+     "pl": "Jak masz na imię?",
+     "de": "Wie heißt du?",
+     "fr": "Comment tu t'appelles?",
+     "es": "¿Cómo te llamas?",
+     "it": "Come ti chiami?",
+     "pt": "Qual é o seu nome?",
+     "tr": "Adın ne?"
+    },
+    {
+     "en": "My name is Anna.",
+     "uk": "Мене звати Анна.",
+     "ru": "Меня зовут Анна.",
+     "pl": "Mam na imię Anna.",
+     "de": "Ich heiße Anna.",
+     "fr": "Je m'appelle Anna.",
+     "es": "Me llamo Anna.",
+     "it": "Mi chiamo Anna.",
+     "pt": "Meu nome é Anna.",
+     "tr": "Adım Anna."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.surname",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈsɝˌneɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your surname?",
+     "uk": "Яке у вас прізвище?",
+     "ru": "Какова ваша фамилия?",
+     "pl": "Jakie jest twoje nazwisko?",
+     "de": "Wie ist Ihr Nachname?",
+     "fr": "Quel est votre nom de famille?",
+     "es": "¿Cuál es tu apellido?",
+     "it": "Qual è il tuo cognome?",
+     "pt": "Qual é o seu sobrenome?",
+     "tr": "Soyadın ne?"
+    },
+    {
+     "en": "Her surname is Smith.",
+     "uk": "Її прізвище Сміт.",
+     "ru": "Ее фамилия Смит.",
+     "pl": "Jej nazwisko to Smith.",
+     "de": "Ihr Nachname ist Smith.",
+     "fr": "Son nom de famille est Smith.",
+     "es": "Su apellido es Smith.",
+     "it": "Il suo cognome è Smith.",
+     "pt": "O sobrenome dela é Smith.",
+     "tr": "Soyadı Smith."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.date-of-birth",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/deɪt ʌv bɝθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your date of birth?",
+     "uk": "Яка ваша дата народження?",
+     "ru": "Какова ваша дата рождения?",
+     "pl": "Jaka jest twoja data urodzenia?",
+     "de": "Wie ist Ihr Geburtsdatum?",
+     "fr": "Quelle est votre date de naissance?",
+     "es": "¿Cuál es tu fecha de nacimiento?",
+     "it": "Qual è la tua data di nascita?",
+     "pt": "Qual é a sua data de nascimento?",
+     "tr": "Doğum tarihin ne?"
+    },
+    {
+     "en": "My date of birth is January 1.",
+     "uk": "Моя дата народження - 1 січня.",
+     "ru": "Моя дата рождения - 1 января.",
+     "pl": "Moja data urodzenia to 1 stycznia.",
+     "de": "Mein Geburtsdatum ist der 1. Januar.",
+     "fr": "Ma date de naissance est le 1er janvier.",
+     "es": "Mi fecha de nacimiento es el 1 de enero.",
+     "it": "La mia data di nascita è il 1 gennaio.",
+     "pt": "Minha data de nascimento é 1 de janeiro.",
+     "tr": "Doğum tarihim 1 Ocak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.address",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈæˌdrɛs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your address?",
+     "uk": "Яка у вас адреса?",
+     "ru": "Какой у вас адрес?",
+     "pl": "Jaki jest twój adres?",
+     "de": "Wie ist Ihre Adresse?",
+     "fr": "Quelle est votre adresse?",
+     "es": "¿Cuál es tu dirección?",
+     "it": "Qual è il tuo indirizzo?",
+     "pt": "Qual é o seu endereço?",
+     "tr": "Adresin ne?"
+    },
+    {
+     "en": "My address is 123 Main St.",
+     "uk": "Моя адреса - 123 Головна вулиця.",
+     "ru": "Мой адрес - 123 Мейн Стрит.",
+     "pl": "Mój adres to 123 Główna ulica.",
+     "de": "Meine Adresse ist die Hauptstraße 123.",
+     "fr": "Mon adresse est 123 rue principale.",
+     "es": "Mi dirección es 123 calle principal.",
+     "it": "Il mio indirizzo è via principale 123.",
+     "pt": "Meu endereço é 123 rua principal.",
+     "tr": "Adresim 123 Ana Cadde."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.phone-number",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/foʊn ˈnʌmbɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your phone number?",
+     "uk": "Який у вас номер телефону?",
+     "ru": "Какой у вас номер телефона?",
+     "pl": "Jaki jest twój numer telefonu?",
+     "de": "Wie ist Ihre Telefonnummer?",
+     "fr": "Quel est votre numéro de téléphone?",
+     "es": "¿Cuál es tu número de teléfono?",
+     "it": "Qual è il tuo numero di telefono?",
+     "pt": "Qual é o seu número de telefone?",
+     "tr": "Telefon numaran ne?"
+    },
+    {
+     "en": "My phone number is 555-1234.",
+     "uk": "Мій номер телефону - 555-1234.",
+     "ru": "Мой номер телефона - 555-1234.",
+     "pl": "Mój numer telefonu to 555-1234.",
+     "de": "Meine Telefonnummer ist 555-1234.",
+     "fr": "Mon numéro de téléphone est le 555-1234.",
+     "es": "Mi número de teléfono es 555-1234.",
+     "it": "Il mio numero di telefono è 555-1234.",
+     "pt": "Meu número de telefone é 555-1234.",
+     "tr": "Telefon numaram 555-1234."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.signature",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈsɪɡnətʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please sign your signature here.",
+     "uk": "Будь ласка, підпишіть тут.",
+     "ru": "Пожалуйста, подпишите здесь.",
+     "pl": "Proszę podpisać się tutaj.",
+     "de": "Bitte unterschreiben Sie hier.",
+     "fr": "Veuillez signer ici.",
+     "es": "Por favor, firme aquí.",
+     "it": "Per favore, firma qui.",
+     "pt": "Por favor, assine aqui.",
+     "tr": "Lütfen burada imzanızı atın."
+    },
+    {
+     "en": "I need your signature on this form.",
+     "uk": "Мені потрібен ваш підпис на цьому бланку.",
+     "ru": "Мне нужна ваша подпись на этом бланке.",
+     "pl": "Potrzebuję twojego podpisu na tym formularzu.",
+     "de": "Ich brauche Ihre Unterschrift auf diesem Formular.",
+     "fr": "J'ai besoin de votre signature sur ce formulaire.",
+     "es": "Necesito su firma en este formulario.",
+     "it": "Ho bisogno della tua firma su questo modulo.",
+     "pt": "Preciso da sua assinatura neste formulário.",
+     "tr": "Bu formda imzanıza ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.form",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/fɔrm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please fill out this form.",
+     "uk": "Будь ласка, заповніть цей бланк.",
+     "ru": "Пожалуйста, заполните этот бланк.",
+     "pl": "Proszę wypełnić ten formularz.",
+     "de": "Bitte füllen Sie dieses Formular aus.",
+     "fr": "Veuillez remplir ce formulaire.",
+     "es": "Por favor, complete este formulario.",
+     "it": "Per favore, compila questo modulo.",
+     "pt": "Por favor, preencha este formulário.",
+     "tr": "Lütfen bu formu doldurun."
+    },
+    {
+     "en": "This form is very important.",
+     "uk": "Цей бланк дуже важливий.",
+     "ru": "Этот бланк очень важен.",
+     "pl": "Ten formularz jest bardzo ważny.",
+     "de": "Dieses Formular ist sehr wichtig.",
+     "fr": "Ce formulaire est très important.",
+     "es": "Este formulario es muy importante.",
+     "it": "Questo modulo è molto importante.",
+     "pt": "Este formulário é muito importante.",
+     "tr": "Bu form çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.insurance",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈʃʊrəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Do you have health insurance?",
+     "uk": "Чи є у вас медичне страхування?",
+     "ru": "У вас есть медицинская страховка?",
+     "pl": "Czy masz ubezpieczenie zdrowotne?",
+     "de": "Haben Sie eine Krankenversicherung?",
+     "fr": "Avez-vous une assurance santé?",
+     "es": "¿Tienes seguro de salud?",
+     "it": "Hai un'assicurazione sanitaria?",
+     "pt": "Você tem seguro de saúde?",
+     "tr": "Sağlık sigortanız var mı?"
+    },
+    {
+     "en": "My insurance covers all medical costs.",
+     "uk": "Моє страхування покриває всі медичні витрати.",
+     "ru": "Моя страховка покрывает все медицинские расходы.",
+     "pl": "Moje ubezpieczenie pokrywa wszystkie koszty medyczne.",
+     "de": "Meine Versicherung deckt alle medizinischen Kosten.",
+     "fr": "Mon assurance couvre tous les frais médicaux.",
+     "es": "Mi seguro cubre todos los gastos médicos.",
+     "it": "La mia assicurazione copre tutti i costi medici.",
+     "pt": "Meu seguro cobre todos os custos médicos.",
+     "tr": "Sigortam tüm tıbbi masrafları karşılıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.call-the-police",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/kɔl ðə pəˈlis/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to call the police!",
+     "uk": "Вам потрібно викликати поліцію!",
+     "ru": "Вам нужно вызвать полицию!",
+     "pl": "Musisz wezwać policję!",
+     "de": "Sie müssen die Polizei rufen!",
+     "fr": "Vous devez appeler la police !",
+     "es": "¡Necesitas llamar a la policía!",
+     "it": "Devi chiamare la polizia!",
+     "pt": "Você precisa chamar a polícia!",
+     "tr": "Polisi aramalısın!"
+    },
+    {
+     "en": "Please call the police now!",
+     "uk": "Будь ласка, викличте поліцію зараз!",
+     "ru": "Пожалуйста, вызовите полицию сейчас!",
+     "pl": "Proszę wezwać policję teraz!",
+     "de": "Bitte rufen Sie jetzt die Polizei!",
+     "fr": "Veuillez appeler la police maintenant !",
+     "es": "¡Por favor, llame a la policía ahora!",
+     "it": "Per favore, chiama la polizia adesso!",
+     "pt": "Por favor, chame a polícia agora!",
+     "tr": "Lütfen şimdi polisi arayın!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.call-an-ambulance",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/kɔl æn ˈæmbjələns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must call an ambulance!",
+     "uk": "Вам потрібно викликати швидку!",
+     "ru": "Вам нужно вызвать скорую!",
+     "pl": "Musisz wezwać karetkę!",
+     "de": "Sie müssen einen Krankenwagen rufen!",
+     "fr": "Vous devez appeler une ambulance !",
+     "es": "¡Necesitas llamar a una ambulancia!",
+     "it": "Devi chiamare un'ambulanza!",
+     "pt": "Você precisa chamar uma ambulância!",
+     "tr": "Ambulans çağırmalısın!"
+    },
+    {
+     "en": "Please call an ambulance quickly!",
+     "uk": "Будь ласка, викличте швидку швидко!",
+     "ru": "Пожалуйста, вызовите скорую быстро!",
+     "pl": "Proszę szybko wezwać karetkę!",
+     "de": "Bitte rufen Sie schnell einen Krankenwagen!",
+     "fr": "Veuillez appeler une ambulance rapidement !",
+     "es": "¡Por favor, llame a una ambulancia rápido!",
+     "it": "Per favore, chiama un'ambulanza in fretta!",
+     "pt": "Por favor, chame uma ambulância rapidamente!",
+     "tr": "Lütfen hızlıca ambulans çağırın!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.be-careful",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/bi ˈkɛrfəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful when crossing the street.",
+     "uk": "Обережно, коли переходите вулицю.",
+     "ru": "Осторожно, когда переходите улицу.",
+     "pl": "Uważaj, gdy przechodzisz przez ulicę.",
+     "de": "Vorsicht, wenn du die Straße überquerst.",
+     "fr": "Attention en traversant la rue.",
+     "es": "¡Cuidado al cruzar la calle!",
+     "it": "Attenzione quando attraversi la strada.",
+     "pt": "Cuidado ao atravessar a rua.",
+     "tr": "Sokağa çıkarken dikkat et!"
+    },
+    {
+     "en": "Please be careful with that glass.",
+     "uk": "Будь ласка, обережно з тим склом.",
+     "ru": "Пожалуйста, будьте осторожны с этим стеклом.",
+     "pl": "Proszę uważać na ten szklankę.",
+     "de": "Bitte vorsichtig mit dem Glas sein.",
+     "fr": "S'il te plaît, fais attention avec ce verre.",
+     "es": "Por favor, ten cuidado con ese vaso.",
+     "it": "Per favore, fai attenzione con quel bicchiere.",
+     "pt": "Por favor, tenha cuidado com esse copo.",
+     "tr": "Lütfen o bardakla dikkat et!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.quick",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/kwɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to leave quick!",
+     "uk": "Потрібно йти швидко!",
+     "ru": "Нам нужно уйти быстро!",
+     "pl": "Musimy wyjść szybko!",
+     "de": "Wir müssen schnell gehen!",
+     "fr": "Nous devons partir vite !",
+     "es": "¡Tenemos que ir rápido!",
+     "it": "Dobbiamo andare presto!",
+     "pt": "Precisamos ir rápido!",
+     "tr": "Hızlı gitmemiz lazım!"
+    },
+    {
+     "en": "Please do it quick!",
+     "uk": "Будь ласка, зроби це швидко!",
+     "ru": "Пожалуйста, сделай это быстро!",
+     "pl": "Proszę, zrób to szybko!",
+     "de": "Bitte mach es schnell!",
+     "fr": "S'il te plaît, fais-le vite !",
+     "es": "¡Por favor, hazlo rápido!",
+     "it": "Per favore, fallo presto!",
+     "pt": "Por favor, faça isso rápido!",
+     "tr": "Lütfen bunu çabuk yap!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.firefighter",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪrˌfaɪtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The firefighter saved the cat from the tree.",
+     "uk": "Пожежник врятував кота з дерева.",
+     "ru": "Пожарный спас кота с дерева.",
+     "pl": "Strażak uratował kota z drzewa.",
+     "de": "Der Feuerwehrmann rettete die Katze vom Baum.",
+     "fr": "Le pompier a sauvé le chat de l'arbre.",
+     "es": "El bombero salvó al gato del árbol.",
+     "it": "Il vigile del fuoco ha salvato il gatto dall'albero.",
+     "pt": "O bombeiro salvou o gato da árvore.",
+     "tr": "İtfaiyeci, kediyi ağaçtan kurtardı."
+    },
+    {
+     "en": "The firefighter is very brave.",
+     "uk": "Пожежник дуже сміливий.",
+     "ru": "Пожарный очень смелый.",
+     "pl": "Strażak jest bardzo odważny.",
+     "de": "Der Feuerwehrmann ist sehr mutig.",
+     "fr": "Le pompier est très courageux.",
+     "es": "El bombero es muy valiente.",
+     "it": "Il vigile del fuoco è molto coraggioso.",
+     "pt": "O bombeiro é muito corajoso.",
+     "tr": "İtfaiyeci çok cesur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.first-name",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/fɝst neɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your first name?",
+     "uk": "Яке у вас ім'я?",
+     "ru": "Какое у вас имя?",
+     "pl": "Jakie jest twoje imię?",
+     "de": "Wie ist dein Vorname?",
+     "fr": "Quel est ton prénom ?",
+     "es": "¿Cuál es tu nombre de pila?",
+     "it": "Qual è il tuo nome di battesimo?",
+     "pt": "Qual é o seu primeiro nome?",
+     "tr": "Adın ne?"
+    },
+    {
+     "en": "My first name is Anna.",
+     "uk": "Моє ім'я - Анна.",
+     "ru": "Меня зовут Анна.",
+     "pl": "Mam na imię Anna.",
+     "de": "Mein Vorname ist Anna.",
+     "fr": "Mon prénom est Anna.",
+     "es": "Mi nombre de pila es Anna.",
+     "it": "Il mio nome di battesimo è Anna.",
+     "pt": "Meu primeiro nome é Anna.",
+     "tr": "Benim adım Anna."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.to-steal",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/stil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It is wrong to steal from others.",
+     "uk": "Це неправильно красти у інших.",
+     "ru": "Красть у других - это неправильно.",
+     "pl": "Kradzież od innych jest zła.",
+     "de": "Es ist falsch, von anderen zu stehlen.",
+     "fr": "C'est mal de voler aux autres.",
+     "es": "Es malo robar a los demás.",
+     "it": "È sbagliato rubare agli altri.",
+     "pt": "É errado roubar dos outros.",
+     "tr": "Başkalarından çalmak yanlıştır."
+    },
+    {
+     "en": "Do not try to steal anything.",
+     "uk": "Не намагайтеся нічого вкрасти.",
+     "ru": "Не пытайтесь ничего украсть.",
+     "pl": "Nie próbuj nic ukraść.",
+     "de": "Versuche nicht, etwas zu stehlen.",
+     "fr": "N'essaie pas de voler quoi que ce soit.",
+     "es": "No intentes robar nada.",
+     "it": "Non cercare di rubare nulla.",
+     "pt": "Não tente roubar nada.",
+     "tr": "Hiçbir şeyi çalmaya çalışma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.broken",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˈbroʊkən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My phone is broken.",
+     "uk": "Мій телефон зламаний.",
+     "ru": "Мой телефон сломан.",
+     "pl": "Mój telefon jest złamany.",
+     "de": "Mein Telefon ist gebrochen.",
+     "fr": "Mon téléphone est cassé.",
+     "es": "Mi teléfono está roto.",
+     "it": "Il mio telefono è rotto.",
+     "pt": "Meu telefone está quebrado.",
+     "tr": "Telefonum kırık."
+    },
+    {
+     "en": "The window is broken.",
+     "uk": "Вікно зламане.",
+     "ru": "Окно сломано.",
+     "pl": "Okno jest złamane.",
+     "de": "Das Fenster ist gebrochen.",
+     "fr": "La fenêtre est cassée.",
+     "es": "La ventana está rota.",
+     "it": "La finestra è rotta.",
+     "pt": "A janela está quebrada.",
+     "tr": "Pencere kırık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.are-you-ok",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/ɑr ju ˈoʊˈkeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Are you OK after the fall?",
+     "uk": "Ви в порядку після падіння?",
+     "ru": "Вы в порядке после падения?",
+     "pl": "Czy wszystko w porządku po upadku?",
+     "de": "Bist du nach dem Sturz in Ordnung?",
+     "fr": "Ça va après la chute ?",
+     "es": "¿Estás bien después de la caída?",
+     "it": "Stai bene dopo la caduta?",
+     "pt": "Você está bem depois da queda?",
+     "tr": "Düşmeden sonra iyi misiniz?"
+    },
+    {
+     "en": "I hope you are OK.",
+     "uk": "Сподіваюся, з вами все гаразд.",
+     "ru": "Надеюсь, с вами всё в порядке.",
+     "pl": "Mam nadzieję, że wszystko w porządku.",
+     "de": "Ich hoffe, es geht dir gut.",
+     "fr": "J'espère que ça va.",
+     "es": "Espero que estés bien.",
+     "it": "Spero che tu stia bene.",
+     "pt": "Espero que você esteja bem.",
+     "tr": "Umarım iyisinizdir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.i-need-help",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/aɪ nid hɛlp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need help with my homework.",
+     "uk": "Мені потрібна допомога з домашнім завданням.",
+     "ru": "Мне нужна помощь с домашним заданием.",
+     "pl": "Potrzebuję pomocy z pracą domową.",
+     "de": "Ich brauche Hilfe mit meinen Hausaufgaben.",
+     "fr": "J'ai besoin d'aide pour mes devoirs.",
+     "es": "Necesito ayuda con mi tarea.",
+     "it": "Ho bisogno di aiuto con i compiti.",
+     "pt": "Preciso de ajuda com meu dever de casa.",
+     "tr": "Ev ödevimde yardıma ihtiyacım var."
+    },
+    {
+     "en": "Please, I need help now!",
+     "uk": "Будь ласка, мені потрібна допомога зараз!",
+     "ru": "Пожалуйста, мне нужна помощь сейчас!",
+     "pl": "Proszę, potrzebuję pomocy teraz!",
+     "de": "Bitte, ich brauche jetzt Hilfe!",
+     "fr": "S'il te plaît, j'ai besoin d'aide maintenant !",
+     "es": "¡Por favor, necesito ayuda ahora!",
+     "it": "Per favore, ho bisogno di aiuto adesso!",
+     "pt": "Por favor, preciso de ajuda agora!",
+     "tr": "Lütfen, şimdi yardıma ihtiyacım var!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.dangerous",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪndʒɚəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "That road is dangerous at night.",
+     "uk": "Ця дорога небезпечна вночі.",
+     "ru": "Эта дорога опасна ночью.",
+     "pl": "Ta droga jest niebezpieczna w nocy.",
+     "de": "Diese Straße ist nachts gefährlich.",
+     "fr": "Cette route est dangereuse la nuit.",
+     "es": "Esa carretera es peligrosa por la noche.",
+     "it": "Quella strada è pericolosa di notte.",
+     "pt": "Essa estrada é perigosa à noite.",
+     "tr": "O yol gece tehlikeli."
+    },
+    {
+     "en": "It is dangerous to swim here.",
+     "uk": "Тут небезпечно плавати.",
+     "ru": "Здесь опасно плавать.",
+     "pl": "Tu jest niebezpiecznie pływać.",
+     "de": "Es ist gefährlich, hier zu schwimmen.",
+     "fr": "Il est dangereux de nager ici.",
+     "es": "Es peligroso nadar aquí.",
+     "it": "È pericoloso nuotare qui.",
+     "pt": "É perigoso nadar aqui.",
+     "tr": "Burada yüzmek tehlikeli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.stop",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/stɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Stop! You cannot go there.",
+     "uk": "Стій! Ти не можеш туди йти.",
+     "ru": "Стой! Ты не можешь туда идти.",
+     "pl": "Stój! Nie możesz tam iść.",
+     "de": "Halt! Du kannst da nicht hingehen.",
+     "fr": "Arrête ! Tu ne peux pas y aller.",
+     "es": "¡Alto! No puedes ir allí.",
+     "it": "Fermo! Non puoi andare lì.",
+     "pt": "Pare! Você não pode ir lá.",
+     "tr": "Dur! Oraya gidemezsin."
+    },
+    {
+     "en": "Stop! It's dangerous here.",
+     "uk": "Стій! Тут небезпечно.",
+     "ru": "Стой! Здесь опасно.",
+     "pl": "Stój! Tu jest niebezpiecznie.",
+     "de": "Halt! Es ist gefährlich hier.",
+     "fr": "Arrête ! C'est dangereux ici.",
+     "es": "¡Alto! Es peligroso aquí.",
+     "it": "Fermo! È pericoloso qui.",
+     "pt": "Pare! É perigoso aqui.",
+     "tr": "Dur! Burada tehlikeli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.age",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/eɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your age?",
+     "uk": "Який у вас вік?",
+     "ru": "Какой у вас возраст?",
+     "pl": "Jaki jest twój wiek?",
+     "de": "Wie alt bist du?",
+     "fr": "Quel est ton âge?",
+     "es": "¿Cuál es tu edad?",
+     "it": "Qual è la tua età?",
+     "pt": "Qual é a sua idade?",
+     "tr": "Senin yaşın kaç?"
+    },
+    {
+     "en": "She is of school age.",
+     "uk": "Вона шкільного віку.",
+     "ru": "Она школьного возраста.",
+     "pl": "Ona w wieku szkolnym.",
+     "de": "Sie ist im Schulalter.",
+     "fr": "Elle est en âge scolaire.",
+     "es": "Ella está en edad escolar.",
+     "it": "Lei è in età scolare.",
+     "pt": "Ela está em idade escolar.",
+     "tr": "O, okul çağında."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.to-shout",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ʃaʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to shout for help.",
+     "uk": "Мені потрібно кричати про допомогу.",
+     "ru": "Мне нужно кричать о помощи.",
+     "pl": "Muszę krzyczeć o pomoc.",
+     "de": "Ich muss um Hilfe schreien.",
+     "fr": "Je dois crier à l'aide.",
+     "es": "Necesito gritar por ayuda.",
+     "it": "Devo gridare aiuto.",
+     "pt": "Preciso gritar por ajuda.",
+     "tr": "Yardım için bağırmalıyım."
+    },
+    {
+     "en": "Don't shout in the library.",
+     "uk": "Не кричіть у бібліотеці.",
+     "ru": "Не кричите в библиотеке.",
+     "pl": "Nie krzycz w bibliotece.",
+     "de": "Schrei nicht in der Bibliothek.",
+     "fr": "Ne criez pas dans la bibliothèque.",
+     "es": "No grites en la biblioteca.",
+     "it": "Non urlare in biblioteca.",
+     "pt": "Não grite na biblioteca.",
+     "tr": "Kütüphanede bağırma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.police-car",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/pəˈlis kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The police car is parked outside.",
+     "uk": "Поліцейська машина припаркована зовні.",
+     "ru": "Полицейская машина припаркована снаружи.",
+     "pl": "Radiowóz jest zaparkowany na zewnątrz.",
+     "de": "Das Polizeiauto ist draußen geparkt.",
+     "fr": "La voiture de police est garée dehors.",
+     "es": "El coche de policía está aparcado afuera.",
+     "it": "L'auto della polizia è parcheggiata fuori.",
+     "pt": "A viatura policial está estacionada do lado de fora.",
+     "tr": "Polis arabası dışarıda park edilmiş."
+    },
+    {
+     "en": "A police car is chasing a suspect.",
+     "uk": "Поліцейська машина переслідує підозрюваного.",
+     "ru": "Полицейская машина преследует подозреваемого.",
+     "pl": "Radiowóz goni podejrzanego.",
+     "de": "Ein Polizeiauto verfolgt einen Verdächtigen.",
+     "fr": "Une voiture de police poursuit un suspect.",
+     "es": "Un coche de policía está persiguiendo a un sospechoso.",
+     "it": "Un'auto della polizia sta inseguendo un sospetto.",
+     "pt": "Um carro de polícia está perseguindo um suspeito.",
+     "tr": "Bir polis arabası bir şüpheliyi kovalıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.fire-engine",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪɚ ˈɛndʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fire engine arrived quickly.",
+     "uk": "Пожежна машина прибула швидко.",
+     "ru": "Пожарная машина приехала быстро.",
+     "pl": "Wóz strażacki przyjechał szybko.",
+     "de": "Das Feuerwehrauto kam schnell.",
+     "fr": "Le camion de pompiers est arrivé rapidement.",
+     "es": "El camión de bomberos llegó rápidamente.",
+     "it": "L'autopompa è arrivata rapidamente.",
+     "pt": "O caminhão de bombeiros chegou rapidamente.",
+     "tr": "İtfaiye aracı hızlı geldi."
+    },
+    {
+     "en": "The fire engine has a water tank.",
+     "uk": "Пожежна машина має водяний бак.",
+     "ru": "У пожарной машины есть водяной бак.",
+     "pl": "Wóz strażacki ma zbiornik na wodę.",
+     "de": "Das Feuerwehrauto hat einen Wassertank.",
+     "fr": "Le camion de pompiers a un réservoir d'eau.",
+     "es": "El camión de bomberos tiene un tanque de agua.",
+     "it": "L'autopompa ha un serbatoio d'acqua.",
+     "pt": "O caminhão de bombeiros tem um tanque de água.",
+     "tr": "İtfaiye aracının su deposu var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.im-hurt",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/aɪm hɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I'm hurt, please help me.",
+     "uk": "Я поранився, будь ласка, допоможи мені.",
+     "ru": "Я поранился, пожалуйста, помоги мне.",
+     "pl": "Jestem ranny, proszę, pomóż mi.",
+     "de": "Ich bin verletzt, bitte hilf mir.",
+     "fr": "Je suis blessé, s'il te plaît aide-moi.",
+     "es": "Estoy herido, por favor ayúdame.",
+     "it": "Sono ferito, per favore aiutami.",
+     "pt": "Estou ferido, por favor, me ajude.",
+     "tr": "Yaralandım, lütfen bana yardım et."
+    },
+    {
+     "en": "If I'm hurt, call a doctor.",
+     "uk": "Якщо я поранився, викликай лікаря.",
+     "ru": "Если я поранился, вызови врача.",
+     "pl": "Jeśli jestem ranny, zadzwoń po lekarza.",
+     "de": "Wenn ich verletzt bin, ruf einen Arzt.",
+     "fr": "Si je suis blessé, appelle un médecin.",
+     "es": "Si estoy herido, llama a un médico.",
+     "it": "Se sono ferito, chiama un dottore.",
+     "pt": "Se estou ferido, chame um médico.",
+     "tr": "Eğer yaralandıysam, bir doktor çağır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.urgent",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈɝdʒənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This is an urgent matter.",
+     "uk": "Це термінове питання.",
+     "ru": "Это срочный вопрос.",
+     "pl": "To jest pilna sprawa.",
+     "de": "Das ist eine dringende Angelegenheit.",
+     "fr": "C'est une affaire urgente.",
+     "es": "Este es un asunto urgente.",
+     "it": "Questo è un problema urgente.",
+     "pt": "Este é um assunto urgente.",
+     "tr": "Bu acil bir konu."
+    },
+    {
+     "en": "Call the doctor; it is urgent!",
+     "uk": "Зателефонуйте лікарю; це терміново!",
+     "ru": "Позвоните врачу; это срочно!",
+     "pl": "Zadzwoń do lekarza; to pilne!",
+     "de": "Ruf den Arzt an; es ist dringend!",
+     "fr": "Appelez le médecin; c'est urgent !",
+     "es": "¡Llama al médico; es urgente!",
+     "it": "Chiama il dottore; è urgente!",
+     "pt": "Ligue para o médico; é urgente!",
+     "tr": "Doktora çağır; bu acil!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.alarm",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/əˈlɑrm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The alarm is ringing.",
+     "uk": "Сигналізація дзвонить.",
+     "ru": "Сигнализация звонит.",
+     "pl": "Alarm dzwoni.",
+     "de": "Der Alarm läutet.",
+     "fr": "L'alarme sonne.",
+     "es": "La alarma está sonando.",
+     "it": "L'allarme sta suonando.",
+     "pt": "O alarme está tocando.",
+     "tr": "Alarm çalıyor."
+    },
+    {
+     "en": "Set the alarm for 7 AM.",
+     "uk": "Встановіть сигналізацію на 7 ранку.",
+     "ru": "Установите сигнализацию на 7 утра.",
+     "pl": "Ustaw alarm na 7 rano.",
+     "de": "Stelle den Alarm auf 7 Uhr.",
+     "fr": "Réglez l'alarme à 7 heures.",
+     "es": "Configura la alarma para las 7 AM.",
+     "it": "Imposta l'allarme per le 7 del mattino.",
+     "pt": "Defina o alarme para as 7 da manhã.",
+     "tr": "Alarmı sabah 7'ye kur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.to-find",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/faɪnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to find my keys.",
+     "uk": "Я хочу знайти свої ключі.",
+     "ru": "Я хочу найти свои ключи.",
+     "pl": "Chcę znaleźć moje klucze.",
+     "de": "Ich möchte meine Schlüssel finden.",
+     "fr": "Je veux trouver mes clés.",
+     "es": "Quiero encontrar mis llaves.",
+     "it": "Voglio trovare le mie chiavi.",
+     "pt": "Quero encontrar minhas chaves.",
+     "tr": "Anahtarlarımı bulmak istiyorum."
+    },
+    {
+     "en": "Can you help me find it?",
+     "uk": "Можеш допомогти мені це знайти?",
+     "ru": "Можешь помочь мне это найти?",
+     "pl": "Czy możesz mi pomóc to znaleźć?",
+     "de": "Kannst du mir helfen, es zu finden?",
+     "fr": "Peux-tu m'aider à le trouver?",
+     "es": "¿Puedes ayudarme a encontrarlo?",
+     "it": "Puoi aiutarmi a trovarlo?",
+     "pt": "Você pode me ajudar a encontrá-lo?",
+     "tr": "Bana bulmama yardım edebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.stay-calm",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/steɪ kɑm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must stay calm during the emergency.",
+     "uk": "Ви повинні зберігати спокій під час надзвичайної ситуації.",
+     "ru": "Вы должны сохранять спокойствие во время чрезвычайной ситуации.",
+     "pl": "Musisz zachować spokój podczas nagłej sytuacji.",
+     "de": "Sie müssen in einem Notfall Ruhe bewahren.",
+     "fr": "Vous devez rester calme pendant l'urgence.",
+     "es": "Debes mantener la calma durante la emergencia.",
+     "it": "Devi mantenere la calma durante l'emergenza.",
+     "pt": "Você deve manter a calma durante a emergência.",
+     "tr": "Acil durumda sakin olunmalısınız."
+    },
+    {
+     "en": "Stay calm and breathe deeply.",
+     "uk": "Зберігайте спокій та глибоко дихайте.",
+     "ru": "Сохраняйте спокойствие и дышите глубоко.",
+     "pl": "Zachowaj spokój i oddychaj głęboko.",
+     "de": "Bewahren Sie Ruhe und atmen Sie tief ein.",
+     "fr": "Restez calme et respirez profondément.",
+     "es": "Mantenga la calma y respire profundamente.",
+     "it": "Mantenga la calma e respiri profondamente.",
+     "pt": "Mantenha a calma e respire fundo.",
+     "tr": "Sakin olun ve derin nefes alın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.dont-move",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/doʊnt muv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't move until help arrives.",
+     "uk": "Не рухайтеся, поки не приїде допомога.",
+     "ru": "Не двигайтесь, пока не приедет помощь.",
+     "pl": "Nie ruszaj się, aż przyjedzie pomoc.",
+     "de": "Bewege dich nicht, bis Hilfe eintrifft.",
+     "fr": "Ne bougez pas jusqu'à ce que l'aide arrive.",
+     "es": "No se mueva hasta que llegue la ayuda.",
+     "it": "Non si muova finché non arriva aiuto.",
+     "pt": "Não se mexa até que a ajuda chegue.",
+     "tr": "Yardım gelene kadar kımıldamayın."
+    },
+    {
+     "en": "If you are hurt, don't move.",
+     "uk": "Якщо ви поранені, не рухайтеся.",
+     "ru": "Если вы ранены, не двигайтесь.",
+     "pl": "Jeśli jesteś ranny, nie ruszaj się.",
+     "de": "Wenn Sie verletzt sind, bewegen Sie sich nicht.",
+     "fr": "Si vous êtes blessé, ne bougez pas.",
+     "es": "Si estás herido, no te muevas.",
+     "it": "Se sei ferito, non muoverti.",
+     "pt": "Se você estiver ferido, não se mova.",
+     "tr": "Eğer yaralıysanız, kımıldamayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.to-escape",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ɪˈskeɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to escape from this place.",
+     "uk": "Мені потрібно втекти з цього місця.",
+     "ru": "Мне нужно убежать из этого места.",
+     "pl": "Muszę uciekać z tego miejsca.",
+     "de": "Ich muss von diesem Ort fliehen.",
+     "fr": "Je dois m'échapper de cet endroit.",
+     "es": "Necesito escapar de este lugar.",
+     "it": "Devo scappare da questo posto.",
+     "pt": "Preciso escapar deste lugar.",
+     "tr": "Bu yerden kaçmalıyım."
+    },
+    {
+     "en": "They plan to escape tonight.",
+     "uk": "Вони планують втекти сьогодні ввечері.",
+     "ru": "Они планируют убежать сегодня ночью.",
+     "pl": "Oni planują ucieczkę dzisiaj wieczorem.",
+     "de": "Sie planen, heute Nacht zu fliehen.",
+     "fr": "Ils prévoient de s'échapper ce soir.",
+     "es": "Ellos planean escapar esta noche.",
+     "it": "Loro pianificano di scappare stasera.",
+     "pt": "Eles planejam escapar esta noite.",
+     "tr": "Bu gece kaçmayı planlıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.call-a-doctor",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/kɔl ə ˈdɑktɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please call a doctor for me.",
+     "uk": "Будь ласка, викличте лікаря для мене.",
+     "ru": "Пожалуйста, вызовите врача для меня.",
+     "pl": "Proszę wezwać lekarza dla mnie.",
+     "de": "Bitte rufen Sie einen Arzt für mich an.",
+     "fr": "Veuillez appeler un médecin pour moi.",
+     "es": "Por favor, llamen a un médico para mí.",
+     "it": "Per favore, chiamate un medico per me.",
+     "pt": "Por favor, chamem um médico para mim.",
+     "tr": "Lütfen benim için doktor çağırın."
+    },
+    {
+     "en": "You should call a doctor now!",
+     "uk": "Вам слід викликати лікаря зараз!",
+     "ru": "Вам следует вызвать врача сейчас!",
+     "pl": "Powinieneś teraz wezwać lekarza!",
+     "de": "Sie sollten jetzt einen Arzt rufen!",
+     "fr": "Vous devriez appeler un médecin maintenant !",
+     "es": "¡Deberías llamar a un médico ahora!",
+     "it": "Dovresti chiamare un medico ora!",
+     "pt": "Você deve chamar um médico agora!",
+     "tr": "Şimdi bir doktor çağırmalısın!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.i-dont-feel-well",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/aɪ doʊnt fil wɛl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I don't feel well today.",
+     "uk": "Сьогодні мені погано.",
+     "ru": "Мне сегодня плохо.",
+     "pl": "Dziś źle się czuję.",
+     "de": "Mir geht es heute nicht gut.",
+     "fr": "Je ne me sens pas bien aujourd'hui.",
+     "es": "No me encuentro bien hoy.",
+     "it": "Non mi sento bene oggi.",
+     "pt": "Não estou me sentindo bem hoje.",
+     "tr": "Bugün kendimi iyi hissetmiyorum."
+    },
+    {
+     "en": "I don't feel well after eating.",
+     "uk": "Мені погано після їжі.",
+     "ru": "Мне плохо после еды.",
+     "pl": "Źle się czuję po jedzeniu.",
+     "de": "Mir geht es nach dem Essen nicht gut.",
+     "fr": "Je ne me sens pas bien après avoir mangé.",
+     "es": "No me encuentro bien después de comer.",
+     "it": "Non mi sento bene dopo aver mangiato.",
+     "pt": "Não estou me sentindo bem depois de comer.",
+     "tr": "Yemekten sonra kendimi iyi hissetmiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.im-ok",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/aɪm ˈoʊˈkeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I'm OK, thank you for asking.",
+     "uk": "Я в порядку, дякую за запитання.",
+     "ru": "Со мной всё в порядке, спасибо за вопрос.",
+     "pl": "Wszystko w porządku, dziękuję za pytanie.",
+     "de": "Mir geht's gut, danke für die Nachfrage.",
+     "fr": "Je vais bien, merci de demander.",
+     "es": "Estoy bien, gracias por preguntar.",
+     "it": "Sto bene, grazie per chiedere.",
+     "pt": "Estou bem, obrigado por perguntar.",
+     "tr": "İyiyim, sorduğun için teşekkürler."
+    },
+    {
+     "en": "I'm OK, just a little tired.",
+     "uk": "Я в порядку, просто трохи втомлений.",
+     "ru": "Со мной всё в порядке, просто немного устал.",
+     "pl": "Nic mi nie jest, tylko trochę zmęczony.",
+     "de": "Mir geht's gut, nur ein bisschen müde.",
+     "fr": "Je vais bien, juste un peu fatigué.",
+     "es": "Estoy bien, solo un poco cansado.",
+     "it": "Sto bene, solo un po' stanco.",
+     "pt": "Estou bem, só um pouco cansado.",
+     "tr": "İyiyim, sadece biraz yorgunum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.where-is-the-hospital",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/wɛr ɪz ðə ˈhɑˌspɪtəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can you tell me where is the hospital?",
+     "uk": "Чи можете сказати мені, де лікарня?",
+     "ru": "Можете сказать мне, где больница?",
+     "pl": "Czy możesz mi powiedzieć, gdzie jest szpital?",
+     "de": "Können Sie mir sagen, wo das Krankenhaus ist?",
+     "fr": "Pouvez-vous me dire où est l'hôpital ?",
+     "es": "¿Puedes decirme dónde está el hospital?",
+     "it": "Puoi dirmi dov'è l'ospedale?",
+     "pt": "Você pode me dizer onde fica o hospital?",
+     "tr": "Bana hastanenin nerede olduğunu söyleyebilir misin?"
+    },
+    {
+     "en": "Excuse me, where is the hospital?",
+     "uk": "Вибачте, де лікарня?",
+     "ru": "Извините, где больница?",
+     "pl": "Przepraszam, gdzie jest szpital?",
+     "de": "Entschuldigung, wo ist das Krankenhaus?",
+     "fr": "Excusez-moi, où est l'hôpital ?",
+     "es": "Disculpe, ¿dónde está el hospital?",
+     "it": "Scusi, dov'è l'ospedale?",
+     "pt": "Desculpe, onde fica o hospital?",
+     "tr": "Affedersiniz, hastane nerede?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.i-lost-my-passport",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/aɪ lɔst maɪ ˈpæˌspɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my passport at the airport.",
+     "uk": "Я загубив паспорт в аеропорту.",
+     "ru": "Я потерял паспорт в аэропорту.",
+     "pl": "Zgubiłem paszport na lotnisku.",
+     "de": "Ich habe meinen Pass am Flughafen verloren.",
+     "fr": "J'ai perdu mon passeport à l'aéroport.",
+     "es": "He perdido el pasaporte en el aeropuerto.",
+     "it": "Ho perso il passaporto all'aeroporto.",
+     "pt": "Perdi meu passaporte no aeroporto.",
+     "tr": "Pasaportumu havaalanında kaybettim."
+    },
+    {
+     "en": "Please help me, I lost my passport.",
+     "uk": "Будь ласка, допоможіть мені, я загубив паспорт.",
+     "ru": "Пожалуйста, помогите мне, я потерял паспорт.",
+     "pl": "Proszę, pomóż mi, zgubiłem paszport.",
+     "de": "Bitte helfen Sie mir, ich habe meinen Pass verloren.",
+     "fr": "S'il vous plaît, aidez-moi, j'ai perdu mon passeport.",
+     "es": "Por favor ayúdame, he perdido el pasaporte.",
+     "it": "Per favore aiutami, ho perso il passaporto.",
+     "pt": "Por favor, me ajude, perdi meu passaporte.",
+     "tr": "Lütfen bana yardım et, pasaportumu kaybettim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.leave-me-alone",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/liv mi əˈloʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please, leave me alone for a while.",
+     "uk": "Будь ласка, дайте мені спокій на деякий час.",
+     "ru": "Пожалуйста, оставьте меня в покое на некоторое время.",
+     "pl": "Proszę, zostaw mnie w spokoju na chwilę.",
+     "de": "Bitte lass mich eine Weile in Ruhe.",
+     "fr": "S'il vous plaît, laissez-moi tranquille un moment.",
+     "es": "Por favor, déjame en paz un rato.",
+     "it": "Per favore, lasciami in pace per un po'.",
+     "pt": "Por favor, me deixe em paz por um tempo.",
+     "tr": "Lütfen, bir süre beni rahat bırak."
+    },
+    {
+     "en": "I want to be left alone now!",
+     "uk": "Я хочу, щоб мене залишили в спокої зараз!",
+     "ru": "Я хочу, чтобы меня оставили в покое сейчас!",
+     "pl": "Chcę, żeby mnie teraz zostawiono w spokoju!",
+     "de": "Ich möchte jetzt in Ruhe gelassen werden!",
+     "fr": "Je veux qu'on me laisse tranquille maintenant !",
+     "es": "¡Quiero que me dejen en paz ahora!",
+     "it": "Voglio essere lasciato in pace adesso!",
+     "pt": "Quero ser deixado em paz agora!",
+     "tr": "Şimdi beni rahat bırakmanızı istiyorum!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.go-away",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ əˈweɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Go away! I need some space.",
+     "uk": "Ідіть геть! Мені потрібно місце.",
+     "ru": "Уходите! Мне нужно пространство.",
+     "pl": "Odejdź! Potrzebuję trochę miejsca.",
+     "de": "Geh weg! Ich brauche etwas Platz.",
+     "fr": "Allez-vous-en ! J'ai besoin d'espace.",
+     "es": "¡Vete! Necesito espacio.",
+     "it": "Vattene! Ho bisogno di spazio.",
+     "pt": "Vai embora! Eu preciso de espaço.",
+     "tr": "Git buradan! Biraz alana ihtiyacım var."
+    },
+    {
+     "en": "Go away! I'm busy right now.",
+     "uk": "Ідіть геть! Я зараз зайнятий.",
+     "ru": "Уходите! Я сейчас занят.",
+     "pl": "Odejdź! Jestem teraz zajęty.",
+     "de": "Geh weg! Ich bin gerade beschäftigt.",
+     "fr": "Allez-vous-en ! Je suis occupé en ce moment.",
+     "es": "¡Vete! Estoy ocupado ahora.",
+     "it": "Vattene! Sono occupato adesso.",
+     "pt": "Vai embora! Estou ocupado agora.",
+     "tr": "Git buradan! Şu anda meşgulüm."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.wait-here",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/weɪt hir/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please wait here for a moment.",
+     "uk": "Будь ласка, чекайте тут хвилинку.",
+     "ru": "Пожалуйста, подождите здесь минуту.",
+     "pl": "Proszę tu poczekać chwilę.",
+     "de": "Bitte warten Sie hier einen Moment.",
+     "fr": "Veuillez attendre ici un instant.",
+     "es": "Por favor, espere aquí un momento.",
+     "it": "Per favore, aspetti qui un momento.",
+     "pt": "Por favor, espere aqui um momento.",
+     "tr": "Lütfen burada bir dakika bekleyin."
+    },
+    {
+     "en": "You must wait here until I return.",
+     "uk": "Ви повинні чекати тут, поки я не повернусь.",
+     "ru": "Вы должны ждать здесь, пока я не вернусь.",
+     "pl": "Musisz tu poczekać, поки я не wrócę.",
+     "de": "Sie müssen hier warten, bis ich zurückkomme.",
+     "fr": "Vous devez attendre ici jusqu'à ce que je revienne.",
+     "es": "Debes esperar aquí hasta que regrese.",
+     "it": "Devi aspettare qui finché non torno.",
+     "pt": "Você deve esperar aqui até eu voltar.",
+     "tr": "Ben döne kadar burada beklemelisin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.hurry-up",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ˈhɝi ʌp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Hurry up! We are going to be late.",
+     "uk": "Швидше! Ми запізнюємося.",
+     "ru": "Быстрее! Мы опаздываем.",
+     "pl": "Pospiesz się! Spóźnimy się.",
+     "de": "Beeil dich! Wir werden zu spät sein.",
+     "fr": "Dépêche-toi ! Nous allons être en retard.",
+     "es": "¡Date prisa! Vamos a llegar tarde.",
+     "it": "Sbrigati! Stiamo per fare tardi.",
+     "pt": "Anda logo! Vamos nos atrasar.",
+     "tr": "Acele et! Geç kalacağız."
+    },
+    {
+     "en": "Hurry up! The bus is coming.",
+     "uk": "Швидше! Автобус їде.",
+     "ru": "Быстрее! Автобус приезжает.",
+     "pl": "Pospiesz się! Autobus nadjeżdża.",
+     "de": "Beeil dich! Der Bus kommt.",
+     "fr": "Dépêche-toi ! Le bus arrive.",
+     "es": "¡Date prisa! El autobús está viniendo.",
+     "it": "Sbrigati! L'autobus sta arrivando.",
+     "pt": "Anda logo! O ônibus está chegando.",
+     "tr": "Acele et! Otobüs geliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.nationality",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˌnæʃəˈnæləti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your nationality?",
+     "uk": "Яке у вас громадянство?",
+     "ru": "Какое у вас гражданство?",
+     "pl": "Jakie jest twoje obywatelstwo?",
+     "de": "Was ist Ihre Staatsangehörigkeit?",
+     "fr": "Quelle est votre nationalité ?",
+     "es": "¿Cuál es tu nacionalidad?",
+     "it": "Qual è la tua nazionalità?",
+     "pt": "Qual é a sua nacionalidade?",
+     "tr": "Senin uyruk nedir?"
+    },
+    {
+     "en": "She has dual nationality.",
+     "uk": "Вона має подвійне громадянство.",
+     "ru": "У нее двойное гражданство.",
+     "pl": "Ona ma podwójne obywatelstwo.",
+     "de": "Sie hat doppelte Staatsangehörigkeit.",
+     "fr": "Elle a une double nationalité.",
+     "es": "Ella tiene doble nacionalidad.",
+     "it": "Lei ha doppia nazionalità.",
+     "pt": "Ela tem dupla nacionalidade.",
+     "tr": "Onun çift uyrukluğu var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.can-you-help-me",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/kæn ju hɛlp mi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can you help me find my bag?",
+     "uk": "Можете мені допомогти знайти мою сумку?",
+     "ru": "Можете помочь мне найти мою сумку?",
+     "pl": "Może mi pan pomóc znaleźć moją torbę?",
+     "de": "Können Sie mir helfen, meine Tasche zu finden?",
+     "fr": "Vous pouvez m'aider à trouver mon sac ?",
+     "es": "¿Puede ayudarme a encontrar mi bolsa?",
+     "it": "Può aiutarmi a trovare la mia borsa?",
+     "pt": "Pode me ajudar a encontrar minha bolsa?",
+     "tr": "Bana çantamı bulmamda yardım edebilir misiniz?"
+    },
+    {
+     "en": "Can you help me with this problem?",
+     "uk": "Можете мені допомогти з цією проблемою?",
+     "ru": "Можете помочь мне с этой проблемой?",
+     "pl": "Może mi pan pomóc z tym problemem?",
+     "de": "Können Sie mir bei diesem Problem helfen?",
+     "fr": "Vous pouvez m'aider avec ce problème ?",
+     "es": "¿Puede ayudarme con este problema?",
+     "it": "Può aiutarmi con questo problema?",
+     "pt": "Pode me ajudar com este problema?",
+     "tr": "Bu sorunla bana yardım edebilir misiniz?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.its-an-emergency",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ɪts æn ɪˈmɝdʒənsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It's an emergency, call the police!",
+     "uk": "Це надзвичайна ситуація, викликайте поліцію!",
+     "ru": "Это экстренный случай, вызывайте полицию!",
+     "pl": "To nagły wypadek, dzwońcie na policję!",
+     "de": "Es ist ein Notfall, rufen Sie die Polizei!",
+     "fr": "C'est une urgence, appelez la police !",
+     "es": "¡Es una emergencia, llama a la policía!",
+     "it": "È un'emergenza, chiama la polizia!",
+     "pt": "É uma emergência, chame a polícia!",
+     "tr": "Bu acil bir durum, polisi arayın!"
+    },
+    {
+     "en": "It's an emergency, we need help now!",
+     "uk": "Це надзвичайна ситуація, нам потрібна допомога зараз!",
+     "ru": "Это экстренный случай, нам нужна помощь сейчас!",
+     "pl": "To nagły wypadek, potrzebujemy pomocy teraz!",
+     "de": "Es ist ein Notfall, wir brauchen jetzt Hilfe!",
+     "fr": "C'est une urgence, nous avons besoin d'aide maintenant !",
+     "es": "¡Es una emergencia, necesitamos ayuda ahora!",
+     "it": "È un'emergenza, abbiamo bisogno di aiuto ora!",
+     "pt": "É uma emergência, precisamos de ajuda agora!",
+     "tr": "Bu acil bir durum, şimdi yardıma ihtiyacımız var!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.dont-touch",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/doʊnt tʌtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't touch that hot stove!",
+     "uk": "Не чіпайте ту гарячу плиту!",
+     "ru": "Не трогайте ту горячую плиту!",
+     "pl": "Nie dotykaj tej gorącej kuchenki!",
+     "de": "Fass nicht auf den heißen Herd!",
+     "fr": "Ne touchez pas à cette cuisinière chaude !",
+     "es": "¡No toques esa estufa caliente!",
+     "it": "Non toccare quel fornello caldo!",
+     "pt": "Não toque naquele fogão quente!",
+     "tr": "O sıcak ocağa dokunma!"
+    },
+    {
+     "en": "Don't touch my things!",
+     "uk": "Не чіпайте мої речі!",
+     "ru": "Не трогайте мои вещи!",
+     "pl": "Nie dotykaj moich rzeczy!",
+     "de": "Fass meine Sachen nicht an!",
+     "fr": "Ne touchez pas à mes affaires !",
+     "es": "¡No toques mis cosas!",
+     "it": "Non toccare le mie cose!",
+     "pt": "Não toque nas minhas coisas!",
+     "tr": "Eşyalarıma dokunma!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.get-out",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/ɡɛt aʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Get out of the building now!",
+     "uk": "Виходьте з будівлі зараз!",
+     "ru": "Выходите из здания сейчас!",
+     "pl": "Wychodźcie z budynku teraz!",
+     "de": "Verlassen Sie jetzt das Gebäude!",
+     "fr": "Sortez du bâtiment maintenant !",
+     "es": "¡Salid del edificio ahora!",
+     "it": "Uscite dall'edificio adesso!",
+     "pt": "Saiam do prédio agora!",
+     "tr": "Şimdi binadan çıkın!"
+    },
+    {
+     "en": "Get out of my way!",
+     "uk": "Вийдіть з мого шляху!",
+     "ru": "Уйдите с моего пути!",
+     "pl": "Wychodźcie mi z drogi!",
+     "de": "Gehen Sie mir aus dem Weg!",
+     "fr": "Éloignez-vous de mon chemin !",
+     "es": "¡Salid de mi camino!",
+     "it": "Uscite dalla mia strada!",
+     "pt": "Saiam do meu caminho!",
+     "tr": "Yolumdan çık!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.im-scared",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/aɪm skɛrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I'm scared of the dark.",
+     "uk": "Мені страшно в темряві.",
+     "ru": "Мне страшно в темноте.",
+     "pl": "Boję się ciemności.",
+     "de": "Ich habe Angst vor der Dunkelheit.",
+     "fr": "J'ai peur du noir.",
+     "es": "Tengo miedo a la oscuridad.",
+     "it": "Ho paura del buio.",
+     "pt": "Estou com medo do escuro.",
+     "tr": "Karanlıktan korkuyorum."
+    },
+    {
+     "en": "I'm scared of spiders.",
+     "uk": "Мені страшно від павуків.",
+     "ru": "Мне страшно от пауков.",
+     "pl": "Boję się pająków.",
+     "de": "Ich habe Angst vor Spinnen.",
+     "fr": "J'ai peur des araignées.",
+     "es": "Tengo miedo a las arañas.",
+     "it": "Ho paura dei ragni.",
+     "pt": "Estou com medo de aranhas.",
+     "tr": "Alandan korkuyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.gender",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈdʒɛndɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your gender?",
+     "uk": "Яка у вас стать?",
+     "ru": "Какой у вас пол?",
+     "pl": "Jakie jest twoje płeć?",
+     "de": "Was ist Ihr Geschlecht?",
+     "fr": "Quel est votre sexe ?",
+     "es": "¿Cuál es tu sexo?",
+     "it": "Qual è il tuo sesso?",
+     "pt": "Qual é o seu sexo?",
+     "tr": "Senin cinsiyetin nedir?"
+    },
+    {
+     "en": "Gender is important in many cultures.",
+     "uk": "Стать важлива в багатьох культурах.",
+     "ru": "Пол важен во многих культурах.",
+     "pl": "Płeć jest ważna w wielu kulturach.",
+     "de": "Geschlecht ist in vielen Kulturen wichtig.",
+     "fr": "Le sexe est important dans de nombreuses cultures.",
+     "es": "El sexo es importante en muchas culturas.",
+     "it": "Il sesso è importante in molte culture.",
+     "pt": "O sexo é importante em muitas culturas.",
+     "tr": "Cinsiyet birçok kültürde önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.stop-thief",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/stɑp θif/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Stop, thief! Someone is stealing!",
+     "uk": "Тримайте злодія! Хтось краде!",
+     "ru": "Держите вора! Кто-то крадет!",
+     "pl": "Łapać złodzieja! Ktoś kradnie!",
+     "de": "Haltet den Dieb! Jemand stiehlt!",
+     "fr": "Au voleur ! Quelqu'un vole !",
+     "es": "¡Al ladrón! ¡Alguien está robando!",
+     "it": "Al ladro! Qualcuno sta rubando!",
+     "pt": "Pega ladrão! Alguém está roubando!",
+     "tr": "Hırsız var! Birisi çalıyor!"
+    },
+    {
+     "en": "Stop, thief! Call for help!",
+     "uk": "Тримайте злодія! Покличте на допомогу!",
+     "ru": "Держите вора! Позовите на помощь!",
+     "pl": "Łapać złodzieja! Wołajcie o pomoc!",
+     "de": "Haltet den Dieb! Ruft um Hilfe!",
+     "fr": "Au voleur ! Appelez à l'aide !",
+     "es": "¡Al ladrón! ¡Llama por ayuda!",
+     "it": "Al ladro! Chiama aiuto!",
+     "pt": "Pega ladrão! Chame ajuda!",
+     "tr": "Hırsız var! Yardım çağır!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.call-the-fire-brigade",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/kɔl ðə ˈfaɪɚ brəˈɡeɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Call the fire brigade, there is a fire!",
+     "uk": "Викличте пожежників, там пожежа!",
+     "ru": "Вызовите пожарных, там пожар!",
+     "pl": "Wezwijcie straż pożarną, tam jest pożar!",
+     "de": "Rufen Sie die Feuerwehr, es brennt!",
+     "fr": "Appelez les pompiers, il y a un feu !",
+     "es": "¡Llamen a los bomberos, hay un fuego!",
+     "it": "Chiamate i vigili del fuoco, c'è un incendio!",
+     "pt": "Chamem os bombeiros, há um incêndio!",
+     "tr": "İtfaiyeyi arayın, yangın var!"
+    },
+    {
+     "en": "Quick! Call the fire brigade now!",
+     "uk": "Швидко! Викличте пожежників зараз!",
+     "ru": "Быстро! Вызовите пожарных сейчас!",
+     "pl": "Szybko! Wezwijcie straż pożarną teraz!",
+     "de": "Schnell! Rufen Sie jetzt die Feuerwehr!",
+     "fr": "Vite ! Appelez les pompiers maintenant !",
+     "es": "¡Rápido! ¡Llamen a los bomberos ahora!",
+     "it": "In fretta! Chiamate i vigili del fuoco ora!",
+     "pt": "Rápido! Chamem os bombeiros agora!",
+     "tr": "Hızlı! İtfaiyeyi şimdi arayın!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "emergency.lost-child",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/lɔst tʃaɪld/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We are looking for a lost child.",
+     "uk": "Ми шукаємо загублену дитину.",
+     "ru": "Мы ищем потерявшегося ребёнка.",
+     "pl": "Szukamy zagubionego dziecka.",
+     "de": "Wir suchen ein vermisstes Kind.",
+     "fr": "Nous cherchons un enfant perdu.",
+     "es": "Estamos buscando a un niño perdido.",
+     "it": "Stiamo cercando un bambino smarrito.",
+     "pt": "Estamos procurando uma criança perdida.",
+     "tr": "Kayıp bir çocuğu arıyoruz."
+    },
+    {
+     "en": "A lost child needs help.",
+     "uk": "Загублена дитина потребує допомоги.",
+     "ru": "Потерявшийся ребёнок нуждается в помощи.",
+     "pl": "Zagubione dziecko potrzebuje pomocy.",
+     "de": "Ein vermisstes Kind braucht Hilfe.",
+     "fr": "Un enfant perdu a besoin d'aide.",
+     "es": "Un niño perdido necesita ayuda.",
+     "it": "Un bambino smarrito ha bisogno di aiuto.",
+     "pt": "Uma criança perdida precisa de ajuda.",
+     "tr": "Kayıp bir çocuğa yardıma ihtiyacı var."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

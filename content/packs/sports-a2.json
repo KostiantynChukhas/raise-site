@@ -2,7 +2,7 @@
  "id": "sports-a2",
  "topic": "sports",
  "level": "a2",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "sports.to-score-a-goal",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/skɔr ə ɡoʊl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wants to score a goal today.",
+     "uk": "Він хоче забити гол сьогодні.",
+     "ru": "Он хочет забить гол сегодня.",
+     "pl": "On chce strzelić gola dzisiaj.",
+     "de": "Er will heute ein Tor schießen.",
+     "fr": "Il veut marquer un but aujourd'hui.",
+     "es": "Él quiere marcar un gol hoy.",
+     "it": "Vuole segnare un gol oggi.",
+     "pt": "Ele quer marcar um gol hoje.",
+     "tr": "Bugün gol atmak istiyor."
+    },
+    {
+     "en": "They scored a goal in the last minute.",
+     "uk": "Вони забили гол в останню хвилину.",
+     "ru": "Они забили гол в последнюю минуту.",
+     "pl": "Oni strzelili gola w ostatniej minucie.",
+     "de": "Sie haben in der letzten Minute ein Tor geschossen.",
+     "fr": "Ils ont marqué un but dans la dernière minute.",
+     "es": "Marcaron un gol en el último minuto.",
+     "it": "Hanno segnato un gol all'ultimo minuto.",
+     "pt": "Eles marcaram um gol no último minuto.",
+     "tr": "Son dakikada gol attılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.referee",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˌrɛfɚˈi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The referee blew the whistle to start the game.",
+     "uk": "Суддя свиснув, щоб розпочати гру.",
+     "ru": "Судья свистнул, чтобы начать игру.",
+     "pl": "Sędzia zagwizdał, aby rozpocząć grę.",
+     "de": "Der Schiedsrichter pfiff, um das Spiel zu beginnen.",
+     "fr": "L'arbitre a sifflé pour commencer le match.",
+     "es": "El árbitro pitó para comenzar el juego.",
+     "it": "L'arbitro ha fischiato per iniziare la partita.",
+     "pt": "O árbitro apitou para começar o jogo.",
+     "tr": "Hakem, maçı başlatmak için düdüğe bastı."
+    },
+    {
+     "en": "The referee gave a yellow card to the player.",
+     "uk": "Суддя дав жовту картку гравцеві.",
+     "ru": "Судья показал желтую карточку игроку.",
+     "pl": "Sędzia pokazał żółtą kartkę zawodnikowi.",
+     "de": "Der Schiedsrichter zeigte dem Spieler eine gelbe Karte.",
+     "fr": "L'arbitre a donné un carton jaune au joueur.",
+     "es": "El árbitro le mostró una tarjeta amarilla al jugador.",
+     "it": "L'arbitro ha mostrato un cartellino giallo al giocatore.",
+     "pt": "O árbitro mostrou um cartão amarelo ao jogador.",
+     "tr": "Hakem, oyuncuya sarı kart gösterdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.fan",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/fæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fan cheered loudly during the match.",
+     "uk": "Вболівальник голосно вболівав під час матчу.",
+     "ru": "Болельщик громко болел во время матча.",
+     "pl": "Kibic głośno dopingował podczas meczu.",
+     "de": "Der Fan jubelte laut während des Spiels.",
+     "fr": "Le supporter a applaudi bruyamment pendant le match.",
+     "es": "El aficionado animó enérgicamente durante el partido.",
+     "it": "Il tifoso ha fatto il tifo durante la partita.",
+     "pt": "O torcedor torceu muito durante o jogo.",
+     "tr": "Taraftar maç boyunca coşkuyla destekledi."
+    },
+    {
+     "en": "She is a big fan of the team.",
+     "uk": "Вона великий вболівальник команди.",
+     "ru": "Она большой болельщик команды.",
+     "pl": "Ona jest wielkim kibicem drużyny.",
+     "de": "Sie ist ein großer Fan der Mannschaft.",
+     "fr": "Elle est une grande supportrice de l'équipe.",
+     "es": "Ella es una gran aficionada al equipo.",
+     "it": "Lei è una grande tifosa della squadra.",
+     "pt": "Ela é uma grande torcedora do time.",
+     "tr": "O, takımın büyük bir taraftarı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.championship",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈtʃæmpiənˌʃɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The championship will be held next month.",
+     "uk": "Чемпіонат відбудеться наступного місяця.",
+     "ru": "Чемпионат пройдет в следующем месяце.",
+     "pl": "Mistrzostwa odbędą się w następnym miesiąці.",
+     "de": "Die Meisterschaft findet nächsten Monat statt.",
+     "fr": "Le championnat aura lieu le mois prochain.",
+     "es": "El campeonato se llevará a cabo el próximo mes.",
+     "it": "Il campionato si terrà il mese prossimo.",
+     "pt": "O campeonato será realizado no próximo mês.",
+     "tr": "Şampiyona gelecek ay yapılacak."
+    },
+    {
+     "en": "Teams compete in the championship every year.",
+     "uk": "Команди змагаються в чемпіонаті щороку.",
+     "ru": "Команды соревнуются на чемпионате каждый год.",
+     "pl": "Drużyny rywalizują w mistrzostwach każdego roku.",
+     "de": "Teams treten jedes Jahr in der Meisterschaft gegeneinander an.",
+     "fr": "Les équipes s'affrontent dans le championnat chaque année.",
+     "es": "Los equipos compiten en el campeonato cada año.",
+     "it": "Le squadre competono nel campionato ogni anno.",
+     "pt": "As equipes competem no campeonato todos os anos.",
+     "tr": "Takımlar her yıl şampiyonada yarışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.medal",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈmɛdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She won a gold medal in the competition.",
+     "uk": "Вона виграла золоту медаль на змаганнях.",
+     "ru": "Она выиграла золотую медаль на соревнованиях.",
+     "pl": "Ona zdobyła złoty medal w zawodach.",
+     "de": "Sie gewann eine Goldmedaille im Wettbewerb.",
+     "fr": "Elle a remporté une médaille d'or dans la compétition.",
+     "es": "Ella ganó una medalla de oro en la competición.",
+     "it": "Ha vinto una medaglia d'oro nella competizione.",
+     "pt": "Ela ganhou uma medalha de ouro na competição.",
+     "tr": "Yarışmada altın madalya kazandı."
+    },
+    {
+     "en": "He received a silver medal for his performance.",
+     "uk": "Він отримав срібну медаль за свою гру.",
+     "ru": "Он получил серебряную медаль за свое выступление.",
+     "pl": "On otrzymał srebrny medal za swój występ.",
+     "de": "Er erhielt eine Silbermedaille für seine Leistung.",
+     "fr": "Il a reçu une médaille d'argent pour sa performance.",
+     "es": "Él recibió una medalla de plata por su actuación.",
+     "it": "Ha ricevuto una medaglia d'argento per la sua performance.",
+     "pt": "Ele recebeu uma medalha de prata por sua performance.",
+     "tr": "Performansı için gümüş madalya aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.workout",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈwɝˌkaʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a workout planned for this evening.",
+     "uk": "У мене заплановане тренування на цей вечір.",
+     "ru": "У меня запланирована тренировка на этот вечер.",
+     "pl": "Mam zaplanowany trening na ten wieczór.",
+     "de": "Ich habe ein Training für heute Abend geplant.",
+     "fr": "J'ai une séance de sport prévue pour ce soir.",
+     "es": "Tengo un entrenamiento planeado para esta noche.",
+     "it": "Ho un allenamento programmato per questa sera.",
+     "pt": "Tenho um treino planejado para esta noite.",
+     "tr": "Bu akşam için bir antrenman planım var."
+    },
+    {
+     "en": "Her workout routine is very effective.",
+     "uk": "Її тренувальна програма дуже ефективна.",
+     "ru": "Ее тренировка очень эффективна.",
+     "pl": "Jej trening jest bardzo skuteczny.",
+     "de": "Ihr Training ist sehr effektiv.",
+     "fr": "Sa séance de sport est très efficace.",
+     "es": "Su entrenamiento es muy efectivo.",
+     "it": "La sua routine di allenamento è molto efficace.",
+     "pt": "Sua rotina de treino é muito eficaz.",
+     "tr": "Onun antrenman rutini çok etkili."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.warm-up",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/wɔrm ʌp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A warm-up is important before exercising.",
+     "uk": "Розминка важлива перед тренуванням.",
+     "ru": "Разминка важна перед тренировкой.",
+     "pl": "Rozgrzewka jest ważna przed treningiem.",
+     "de": "Das Aufwärmen ist wichtig vor dem Training.",
+     "fr": "L'échauffement est important avant de s'exercer.",
+     "es": "El calentamiento es importante antes de hacer ejercicio.",
+     "it": "Il riscaldamento è importante prima di esercitarsi.",
+     "pt": "O aquecimento é importante antes de se exercitar.",
+     "tr": "Isınma, egzersiz yapmadan önce önemlidir."
+    },
+    {
+     "en": "Make sure to do a warm-up first.",
+     "uk": "Переконайтеся, що спочатку зробите розминку.",
+     "ru": "Убедитесь, что сначала сделаете разминку.",
+     "pl": "Upewnij się, że najpierw zrobisz rozgrzewkę.",
+     "de": "Stellen Sie sicher, dass Sie zuerst aufwärmen.",
+     "fr": "Assurez-vous de faire un échauffement d'abord.",
+     "es": "Asegúrate de hacer un calentamiento primero.",
+     "it": "Assicurati di fare un riscaldamento prima.",
+     "pt": "Certifique-se de fazer um aquecimento primeiro.",
+     "tr": "Öncelikle ısınma yaptığınızdan emin olun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-stretch",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/strɛtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It is good to stretch before running.",
+     "uk": "Добре розтягуватися перед бігом.",
+     "ru": "Хорошо растягиваться перед бегом.",
+     "pl": "Dobrze jest rozciągać się przed bieganiem.",
+     "de": "Es ist gut, sich vor dem Laufen zu dehnen.",
+     "fr": "C'est bien de s'étirer avant de courir.",
+     "es": "Es bueno estirar antes de correr.",
+     "it": "È bene fare stretching prima di correre.",
+     "pt": "É bom alongar antes de correr.",
+     "tr": "Koşmadan önce esnemek iyidir."
+    },
+    {
+     "en": "Don't forget to stretch after exercising.",
+     "uk": "Не забудьте розтягнутися після тренування.",
+     "ru": "Не забудьте растянуться после тренировки.",
+     "pl": "Nie zapomnij rozciągnąć się po treningu.",
+     "de": "Vergessen Sie nicht, sich nach dem Training zu dehnen.",
+     "fr": "N'oubliez pas de vous étirer après l'exercice.",
+     "es": "No olvides estirar después de hacer ejercicio.",
+     "it": "Non dimenticare di fare stretching dopo l'esercizio.",
+     "pt": "Não se esqueça de alongar após o exercício.",
+     "tr": "Egzersiz yaptıktan sonra esnemeyi unutmayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.muscle",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈmʌsəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has a strong muscle in his arm.",
+     "uk": "У нього сильний м'яз на руці.",
+     "ru": "У него сильная мышца на руке.",
+     "pl": "Ma silny mięsień w ramieniu.",
+     "de": "Er hat einen starken Muskel im Arm.",
+     "fr": "Il a un muscle fort dans son bras.",
+     "es": "Él tiene un músculo fuerte en el brazo.",
+     "it": "Ha un muscolo forte nel braccio.",
+     "pt": "Ele tem um músculo forte no braço.",
+     "tr": "Onun kolunda güçlü bir kas var."
+    },
+    {
+     "en": "Muscle pain can happen after a workout.",
+     "uk": "Біль у м'язах може з'явитися після тренування.",
+     "ru": "Боль в мышцах может возникнуть после тренировки.",
+     "pl": "Ból mięśni może wystąpić po treningu.",
+     "de": "Muskelkater kann nach dem Training auftreten.",
+     "fr": "La douleur musculaire peut survenir après un entraînement.",
+     "es": "El dolor muscular puede ocurrir después del entrenamiento.",
+     "it": "Il dolore muscolare può verificarsi dopo un allenamento.",
+     "pt": "A dor muscular pode ocorrer após o treino.",
+     "tr": "Antrenmandan sonra kas ağrısı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.fitness",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈfɪtnəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Regular exercise improves your fitness level.",
+     "uk": "Регулярні вправи покращують вашу фізичну форму.",
+     "ru": "Регулярные упражнения улучшают вашу физическую форму.",
+     "pl": "Regularne ćwiczenia poprawiają twoją kondycję.",
+     "de": "Regelmäßige Übungen verbessern Ihre Fitness.",
+     "fr": "L'exercice régulier améliore votre forme physique.",
+     "es": "El ejercicio regular mejora tu forma física.",
+     "it": "L'esercizio regolare migliora la tua forma fisica.",
+     "pt": "O exercício regular melhora seu condicionamento físico.",
+     "tr": "Düzenli egzersiz kondisyon seviyenizi artırır."
+    },
+    {
+     "en": "She is focused on her fitness goals.",
+     "uk": "Вона зосереджена на своїх цілях у фізичній формі.",
+     "ru": "Она сосредоточена на своих целях в физической форме.",
+     "pl": "Ona koncentruje się na swoich celach kondycyjnych.",
+     "de": "Sie konzentriert sich auf ihre Fitnessziele.",
+     "fr": "Elle est concentrée sur ses objectifs de forme physique.",
+     "es": "Ella está enfocada en sus objetivos de forma física.",
+     "it": "È concentrata sui suoi obiettivi di forma fisica.",
+     "pt": "Ela está focada em seus objetivos de condicionamento físico.",
+     "tr": "O, kondisyon hedeflerine odaklanmış durumda."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-go-jogging",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ˈdʒɑɡɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to go jogging in the morning.",
+     "uk": "Мені подобається бігати підтюпцем вранці.",
+     "ru": "Мне нравится бегать трусцой по утрам.",
+     "pl": "Lubię biegać rano.",
+     "de": "Ich gehe gerne joggen am Morgen.",
+     "fr": "J'aime faire du jogging le matin.",
+     "es": "Me gusta salir a correr por la mañana.",
+     "it": "Mi piace fare jogging al mattino.",
+     "pt": "Gosto de fazer corrida de manhã.",
+     "tr": "Sabahları koşuya çıkmayı seviyorum."
+    },
+    {
+     "en": "She goes jogging three times a week.",
+     "uk": "Вона бігає підтюпцем три рази на тиждень.",
+     "ru": "Она бегает трусцой три раза в неделю.",
+     "pl": "Ona biega trzy razy w tygodniu.",
+     "de": "Sie geht dreimal pro Woche joggen.",
+     "fr": "Elle fait du jogging trois fois par semaine.",
+     "es": "Ella sale a correr tres veces a la semana.",
+     "it": "Lei fa jogging tre volte a settimana.",
+     "pt": "Ela faz corrida três vezes por semana.",
+     "tr": "O, haftada üç kez koşuya çıkıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-go-hiking",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ˈhaɪkɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We love to go hiking in the mountains.",
+     "uk": "Ми любимо ходити в похід в горах.",
+     "ru": "Мы любим ходить в поход в горах.",
+     "pl": "Uwielbiamy chodzić po górach.",
+     "de": "Wir lieben es, wandern zu gehen in den Bergen.",
+     "fr": "Nous aimons faire de la randonnée en montagne.",
+     "es": "Nos encanta hacer senderismo en las montañas.",
+     "it": "Ci piace fare escursioni in montagna.",
+     "pt": "Adoramos fazer trilha nas montanhas.",
+     "tr": "Dağlarda doğa yürüyüşüne çıkmayı seviyoruz."
+    },
+    {
+     "en": "They went hiking last weekend.",
+     "uk": "Вони ходили в похід минулого вихідного.",
+     "ru": "Они ходили в поход в прошлые выходные.",
+     "pl": "Oni chodzili po górach w zeszły weekend.",
+     "de": "Sie sind letztes Wochenende wandern gegangen.",
+     "fr": "Ils ont fait de la randonnée le week-end dernier.",
+     "es": "Ellos hicieron senderismo el fin de semana pasado.",
+     "it": "Loro sono andati a fare escursioni lo scorso fine settimana.",
+     "pt": "Eles fizeram trilha no último fim de semana.",
+     "tr": "Onlar geçen hafta sonu doğa yürüyüşüne çıktılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.volleyball",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˈvɑliˌbɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I play volleyball every Saturday with my friends.",
+     "uk": "Я граю у волейбол кожну суботу з друзями.",
+     "ru": "Я играю в волейбол каждую субботу с друзьями.",
+     "pl": "Gram w siatkówkę w każdą sobotę z przyjaciółmi.",
+     "de": "Ich spiele jeden Samstag Volleyball mit meinen Freunden.",
+     "fr": "Je joue au volley-ball tous les samedis avec mes amis.",
+     "es": "Juego al voleibol todos los sábados con mis amigos.",
+     "it": "Gioco a pallavolo ogni sabato con i miei amici.",
+     "pt": "Eu jogo vôlei todo sábado com meus amigos.",
+     "tr": "Her cumartesi arkadaşlarımla voleybol oynarım."
+    },
+    {
+     "en": "She loves watching volleyball games on TV.",
+     "uk": "Вона любить дивитися ігри у волейбол по телевізору.",
+     "ru": "Она любит смотреть волейбольные игры по телевизору.",
+     "pl": "Ona uwielbia oglądać mecze siatkówki w telewizji.",
+     "de": "Sie liebt es, Volleyballspiele im Fernsehen zu schauen.",
+     "fr": "Elle adore regarder des matchs de volley-ball à la télévision.",
+     "es": "A ella le encanta ver partidos de voleibol en la televisión.",
+     "it": "Le piace guardare le partite di pallavolo in TV.",
+     "pt": "Ela adora assistir jogos de vôlei na TV.",
+     "tr": "O, televizyonda voleybol maçları izlemeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.boxing",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ˈbɑksɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He trains boxing every evening after work.",
+     "uk": "Він тренується з боксу кожного вечора після роботи.",
+     "ru": "Он тренируется по боксу каждый вечер после работы.",
+     "pl": "On trenuje boks każdego wieczoru po pracy.",
+     "de": "Er trainiert Boxen jeden Abend nach der Arbeit.",
+     "fr": "Il s'entraîne à la boxe tous les soirs après le travail.",
+     "es": "Él entrena boxeo cada noche después del trabajo.",
+     "it": "Lui si allena a pugilato ogni sera dopo il lavoro.",
+     "pt": "Ele treina boxe todas as noites depois do trabalho.",
+     "tr": "O, işten sonra her akşam boks antrenmanı yapıyor."
+    },
+    {
+     "en": "She wants to learn boxing for self-defense.",
+     "uk": "Вона хоче навчитися боксу для самооборони.",
+     "ru": "Она хочет научиться боксу для самообороны.",
+     "pl": "Ona chce nauczyć się boksu do samoobrony.",
+     "de": "Sie möchte Boxen lernen zur Selbstverteidigung.",
+     "fr": "Elle veut apprendre la boxe pour se défendre.",
+     "es": "Ella quiere aprender boxeo para defensa personal.",
+     "it": "Vuole imparare il pugilato per difesa personale.",
+     "pt": "Ela quer aprender boxe para defesa pessoal.",
+     "tr": "O, kendini savunmak için boks öğrenmek istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.yoga",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/ˈjoʊɡə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I practice yoga every morning before breakfast.",
+     "uk": "Я займаюся йогою щоранку перед сніданком.",
+     "ru": "Я занимаюсь йогой каждое утро перед завтраком.",
+     "pl": "Praktykuję jogę każdego ranka przed śniadaniem.",
+     "de": "Ich praktiziere Yoga jeden Morgen vor dem Frühstück.",
+     "fr": "Je pratique le yoga chaque matin avant le petit-déjeuner.",
+     "es": "Practico yoga cada mañana antes del desayuno.",
+     "it": "Pratico yoga ogni mattina prima della colazione.",
+     "pt": "Pratico ioga todas as manhãs antes do café da manhã.",
+     "tr": "Kahvaltıdan önce her sabah yoga yapıyorum."
+    },
+    {
+     "en": "She enjoys yoga classes at the local studio.",
+     "uk": "Вона любить заняття йогою в місцевій студії.",
+     "ru": "Ей нравятся занятия йогой в местной студии.",
+     "pl": "Ona lubi zajęcia jogi w lokalnym studiu.",
+     "de": "Sie genießt Yoga-Kurse im örtlichen Studio.",
+     "fr": "Elle aime les cours de yoga dans le studio local.",
+     "es": "A ella le gustan las clases de yoga en el estudio local.",
+     "it": "Le piacciono le lezioni di yoga nello studio locale.",
+     "pt": "Ela gosta das aulas de ioga no estúdio local.",
+     "tr": "O, yerel stüdyoda yoga derslerinden hoşlanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.helmet",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈhɛlmət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Always wear a helmet when riding a bike.",
+     "uk": "Завжди носіть шолом, коли їдете на велосипеді.",
+     "ru": "Всегда надевайте шлем, когда ездите на велосипеде.",
+     "pl": "Zawsze noś kask, gdy jeździsz na rowerze.",
+     "de": "Trage immer einen Helm, wenn du Fahrrad fährst.",
+     "fr": "Porte toujours un casque quand tu fais du vélo.",
+     "es": "Siempre usa un casco al montar en bicicleta.",
+     "it": "Indossa sempre un casco quando vai in bicicletta.",
+     "pt": "Use sempre um capacete ao andar de bicicleta.",
+     "tr": "Bisiklet sürerken her zaman kask tak."
+    },
+    {
+     "en": "He bought a new helmet for his motorcycle.",
+     "uk": "Він купив новий шолом для свого мотоцикла.",
+     "ru": "Он купил новый шлем для своего мотоцикла.",
+     "pl": "Kupił nowy kask do swojego motocykla.",
+     "de": "Er hat einen neuen Helm für sein Motorrad gekauft.",
+     "fr": "Il a acheté un nouveau casque pour sa moto.",
+     "es": "Él compró un nuevo casco para su motocicleta.",
+     "it": "Ha comprato un nuovo casco per la sua moto.",
+     "pt": "Ele comprou um capacete novo para sua motocicleta.",
+     "tr": "Motosikleti için yeni bir kask aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-kick",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/kɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He likes to kick the ball during practice.",
+     "uk": "Йому подобається бити ногою м'яч під час тренування.",
+     "ru": "Ему нравится пинать мяч во время тренировки.",
+     "pl": "Lubi kopać piłkę podczas treningu.",
+     "de": "Er tritt den Ball gerne während des Trainings.",
+     "fr": "Il aime frapper du pied le ballon pendant l'entraînement.",
+     "es": "A él le gusta patear el balón durante la práctica.",
+     "it": "A lui piace calciare la palla durante l'allenamento.",
+     "pt": "Ele gosta de chutar a bola durante o treino.",
+     "tr": "Antrenman sırasında topa tekmelemeyi seviyor."
+    },
+    {
+     "en": "Don't kick the door when you enter.",
+     "uk": "Не бийте ногою в двері, коли входите.",
+     "ru": "Не пинай дверь, когда входишь.",
+     "pl": "Nie kopnij drzwi, gdy wchodzisz.",
+     "de": "Tritt nicht gegen die Tür, wenn du reinkommst.",
+     "fr": "Ne frappe pas la porte en entrant.",
+     "es": "No patees la puerta al entrar.",
+     "it": "Non calciare la porta quando entri.",
+     "pt": "Não chute a porta ao entrar.",
+     "tr": "Girerken kapıya tekmeleme."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.final",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪnəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The final match is on Sunday at 5 PM.",
+     "uk": "Фінальний матч в неділю о 17:00.",
+     "ru": "Финальный матч в воскресенье в 17:00.",
+     "pl": "Finałowy mecz jest w niedzielę o 17:00.",
+     "de": "Das Finale ist am Sonntag um 17 Uhr.",
+     "fr": "La finale est dimanche à 17 heures.",
+     "es": "La final es el domingo a las 5 PM.",
+     "it": "La finale è domenica alle 17.",
+     "pt": "A final é no domingo às 17h.",
+     "tr": "Final maçının zamanı pazar günü saat 17:00."
+    },
+    {
+     "en": "I can't wait for the final game!",
+     "uk": "Не можу дочекатися фінальної гри!",
+     "ru": "Не могу дождаться финальной игры!",
+     "pl": "Nie mogę się doczekać finałowej gry!",
+     "de": "Ich kann das Finale kaum erwarten!",
+     "fr": "J'ai hâte de voir la finale !",
+     "es": "¡No puedo esperar para la final!",
+     "it": "Non vedo l'ora di vedere la finale!",
+     "pt": "Mal posso esperar pela final!",
+     "tr": "Final oyunu için sabırsızlanıyorum!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.draw",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/drɔ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The game ended in a draw after extra time.",
+     "uk": "Гра закінчилася нічією після додаткового часу.",
+     "ru": "Игра закончилась ничьей после дополнительного времени.",
+     "pl": "Mecz zakończył się remisem po dogrywce.",
+     "de": "Das Spiel endete nach Verlängerung Unentschieden.",
+     "fr": "Le match s'est terminé par un match nul après le temps supplémentaire.",
+     "es": "El juego terminó en empate después de la prórroga.",
+     "it": "La partita è finita in pareggio dopo i tempi supplementari.",
+     "pt": "O jogo terminou em empate após a prorrogação.",
+     "tr": "Maç, uzatma süresinden sonra beraberlikle sonuçlandı."
+    },
+    {
+     "en": "They celebrated the draw with their fans.",
+     "uk": "Вони відсвяткували нічію зі своїми вболівальниками.",
+     "ru": "Они отпраздновали ничью со своими болельщиками.",
+     "pl": "Świętowali remis z fanami.",
+     "de": "Sie feierten das Unentschieden mit ihren Fans.",
+     "fr": "Ils ont célébré le match nul avec leurs fans.",
+     "es": "Celebraron el empate con sus aficionados.",
+     "it": "Hanno festeggiato il pareggio con i loro tifosi.",
+     "pt": "Eles celebraram o empate com seus fãs.",
+     "tr": "Beraberliği taraftarlarıyla kutladılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-cheer",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/tʃɪr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We cheer for our team at every game.",
+     "uk": "Ми вболіваємо за нашу команду на кожній грі.",
+     "ru": "Мы болеем за нашу команду на каждой игре.",
+     "pl": "Kibicujemy naszej drużynie na każdym meczu.",
+     "de": "Wir feuern unser Team bei jedem Spiel an.",
+     "fr": "Nous encourageons notre équipe à chaque match.",
+     "es": "Animamos a nuestro equipo en cada juego.",
+     "it": "Facciamo il tifo per la nostra squadra in ogni partita.",
+     "pt": "Torcemos pelo nosso time em cada jogo.",
+     "tr": "Her maçta takımımız için tezahürat yapıyoruz."
+    },
+    {
+     "en": "She loves to cheer for her favorite player.",
+     "uk": "Вона любить вболівати за свого улюбленого гравця.",
+     "ru": "Она любит болеть за своего любимого игрока.",
+     "pl": "Ona uwielbia kibicować swojemu ulubionemu zawodnikowi.",
+     "de": "Sie liebt es, für ihren Lieblingsspieler zu feuern.",
+     "fr": "Elle adore encourager son joueur préféré.",
+     "es": "A ella le encanta animar a su jugador favorito.",
+     "it": "Le piace fare il tifo per il suo giocatore preferito.",
+     "pt": "Ela adora torcer pelo seu jogador favorito.",
+     "tr": "O, en sevdiği oyuncu için tezahürat yapmayı seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-lift-weights",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/lɪft weɪts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to lift weights at the gym.",
+     "uk": "Мені подобається піднімати вагу в спортзалі.",
+     "ru": "Мне нравится поднимать штангу в спортзале.",
+     "pl": "Lubię podnosić ciężary na siłowni.",
+     "de": "Ich hebe gerne Gewichte im Fitnessstudio.",
+     "fr": "J'aime soulever des poids à la salle de sport.",
+     "es": "Me gusta levantar pesas en el gimnasio.",
+     "it": "Mi piace sollevare pesi in palestra.",
+     "pt": "Gosto de levantar peso na academia.",
+     "tr": "Spor salonunda ağırlık kaldırmayı seviyorum."
+    },
+    {
+     "en": "He wants to lift weights to get stronger.",
+     "uk": "Він хоче піднімати вагу, щоб стати сильнішим.",
+     "ru": "Он хочет поднимать штангу, чтобы стать сильнее.",
+     "pl": "On chce podnosić ciężary, aby stać się silniejszym.",
+     "de": "Er möchte Gewichte heben, um stärker zu werden.",
+     "fr": "Il veut soulever des poids pour devenir plus fort.",
+     "es": "Él quiere levantar pesas para hacerse más fuerte.",
+     "it": "Vuole sollevare pesi per diventare più forte.",
+     "pt": "Ele quer levantar peso para ficar mais forte.",
+     "tr": "Daha güçlü olmak için ağırlık kaldırmak istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.gym-membership",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/dʒɪm ˈmɛmbɚˌʃɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a gym membership for the year.",
+     "uk": "Я купив абонемент у спортзал на рік.",
+     "ru": "Я купил абонемент в спортзал на год.",
+     "pl": "Kupiłem karnet na siłownię na rok.",
+     "de": "Ich habe eine Mitgliedschaft im Fitnessstudio für das Jahr gekauft.",
+     "fr": "J'ai acheté un abonnement à la salle pour l'année.",
+     "es": "Compré una suscripción al gimnasio para el año.",
+     "it": "Ho comprato un abbonamento in palestra per l'anno.",
+     "pt": "Comprei um plano da academia para o ano.",
+     "tr": "Yıl için spor salonu üyeliği aldım."
+    },
+    {
+     "en": "A gym membership helps me stay fit.",
+     "uk": "Абонемент у спортзал допомагає мені залишатися у формі.",
+     "ru": "Абонемент в спортзал помогает мне оставаться в форме.",
+     "pl": "Karnet na siłownię pomaga mi pozostać w formie.",
+     "de": "Eine Mitgliedschaft im Fitnessstudio hilft mir, fit zu bleiben.",
+     "fr": "Un abonnement à la salle m'aide à rester en forme.",
+     "es": "Una suscripción al gimnasio me ayuda a mantenerme en forma.",
+     "it": "Un abbonamento in palestra mi aiuta a rimanere in forma.",
+     "pt": "Um plano da academia me ajuda a ficar em forma.",
+     "tr": "Spor salonu üyeliği formda kalmama yardımcı oluyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.sports-equipment",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/spɔrts ɪˈkwɪpmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need new sports equipment for the team.",
+     "uk": "Нам потрібно новий спортивний інвентар для команди.",
+     "ru": "Нам нужно новое спортивное оборудование для команды.",
+     "pl": "Potrzebujemy nowego sprzętu sportowego dla drużyny.",
+     "de": "Wir brauchen neue Sportausrüstung für das Team.",
+     "fr": "Nous avons besoin de nouvel équipement sportif pour l'équipe.",
+     "es": "Necesitamos nuevo material deportivo para el equipo.",
+     "it": "Abbiamo bisogno di nuova attrezzatura sportiva per la squadra.",
+     "pt": "Precisamos de novo equipamento esportivo para o time.",
+     "tr": "Takım için yeni spor ekipmanına ihtiyacımız var."
+    },
+    {
+     "en": "She bought sports equipment for her workouts.",
+     "uk": "Вона купила спортивний інвентар для своїх тренувань.",
+     "ru": "Она купила спортивное оборудование для своих тренировок.",
+     "pl": "Kupiła sprzęt sportowy na swoje treningi.",
+     "de": "Sie kaufte Sportausrüstung für ihr Training.",
+     "fr": "Elle a acheté de l'équipement sportif pour ses entraînements.",
+     "es": "Ella compró material deportivo para sus entrenamientos.",
+     "it": "Ha comprato attrezzatura sportiva per i suoi allenamenti.",
+     "pt": "Ela comprou equipamento esportivo para seus treinos.",
+     "tr": "Antrenmanları için spor ekipmanı aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-be-in-shape",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/bi ɪn ʃeɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I exercise regularly to be in shape.",
+     "uk": "Я регулярно займаюся спортом, щоб бути у формі.",
+     "ru": "Я регулярно занимаюсь спортом, чтобы быть в форме.",
+     "pl": "Regularnie ćwiczę, aby być w formie.",
+     "de": "Ich trainiere regelmäßig, um in Form zu sein.",
+     "fr": "Je fais de l'exercice régulièrement pour être en forme.",
+     "es": "Hago ejercicio regularmente para estar en forma.",
+     "it": "Faccio esercizio regolarmente per essere in forma.",
+     "pt": "Eu me exercito regularmente para estar em forma.",
+     "tr": "Formda olmak için düzenli egzersiz yapıyorum."
+    },
+    {
+     "en": "She runs daily to be in shape.",
+     "uk": "Вона щодня бігає, щоб бути у формі.",
+     "ru": "Она бегает каждый день, чтобы быть в форме.",
+     "pl": "Ona biega codziennie, aby być w formie.",
+     "de": "Sie läuft täglich, um in Form zu sein.",
+     "fr": "Elle court tous les jours pour être en forme.",
+     "es": "Ella corre todos los días para estar en forma.",
+     "it": "Lei corre ogni giorno per essere in forma.",
+     "pt": "Ela corre todos os dias para estar em forma.",
+     "tr": "Formda olmak için her gün koşuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.tournament",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˈtʊrnəmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tournament will be held next weekend.",
+     "uk": "Турнір відбудеться наступного вихідного.",
+     "ru": "Турнир пройдет в следующие выходные.",
+     "pl": "Turniej odbędzie się w następny weekend.",
+     "de": "Das Turnier findet nächstes Wochenende statt.",
+     "fr": "Le tournoi aura lieu le week-end prochain.",
+     "es": "El torneo se llevará a cabo el próximo fin de semana.",
+     "it": "Il torneo si svolgerà il prossimo fine settimana.",
+     "pt": "O torneio será realizado no próximo fim de semana.",
+     "tr": "Turnuva gelecek hafta sonu yapılacak."
+    },
+    {
+     "en": "She won first place in the tournament.",
+     "uk": "Вона зайняла перше місце на турнірі.",
+     "ru": "Она заняла первое место на турнире.",
+     "pl": "Zajęła pierwsze miejsce w turnieju.",
+     "de": "Sie hat den ersten Platz im Turnier gewonnen.",
+     "fr": "Elle a remporté la première place au tournoi.",
+     "es": "Ella ganó el primer lugar en el torneo.",
+     "it": "Ha vinto il primo posto nel torneo.",
+     "pt": "Ela ganhou o primeiro lugar no torneio.",
+     "tr": "Turnuvada birinci oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.running-track",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈrʌnɪŋ træk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The running track is open for everyone.",
+     "uk": "Бігова доріжка відкрита для всіх.",
+     "ru": "Беговая дорожка открыта для всех.",
+     "pl": "Bieżnia jest otwarta dla wszystkich.",
+     "de": "Die Laufbahn ist für alle geöffnet.",
+     "fr": "La piste d'athlétisme est ouverte à tous.",
+     "es": "La pista de atletismo está abierta para todos.",
+     "it": "La pista di atletica è aperta a tutti.",
+     "pt": "A pista de corrida está aberta para todos.",
+     "tr": "Koşu pisti herkes için açık."
+    },
+    {
+     "en": "He trains on the running track every morning.",
+     "uk": "Він тренується на біговій доріжці щоранку.",
+     "ru": "Он тренируется на беговой дорожке каждое утро.",
+     "pl": "On trenuje na bieżni każdego ranka.",
+     "de": "Er trainiert jeden Morgen auf der Laufbahn.",
+     "fr": "Il s'entraîne sur la piste d'athlétisme chaque matin.",
+     "es": "Él entrena en la pista de atletismo cada mañana.",
+     "it": "Si allena sulla pista di atletica ogni mattina.",
+     "pt": "Ele treina na pista de corrida todas as manhãs.",
+     "tr": "Her sabah koşu pistinde antrenman yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-skate",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/skeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to skate in the winter.",
+     "uk": "Я люблю кататися на ковзанах взимку.",
+     "ru": "Я люблю кататься на коньках зимой.",
+     "pl": "Uwielbiam jeździć na łyżwach zimą.",
+     "de": "Ich liebe es, im Winter Schlittschuh zu laufen.",
+     "fr": "J'adore patiner en hiver.",
+     "es": "Me encanta patinar en invierno.",
+     "it": "Adoro pattinare in inverno.",
+     "pt": "Adoro patinar no inverno.",
+     "tr": "Kışın paten kaymayı seviyorum."
+    },
+    {
+     "en": "They go to skate at the ice rink.",
+     "uk": "Вони йдуть кататися на ковзанах на ковзанці.",
+     "ru": "Они идут кататься на коньках на катке.",
+     "pl": "Idą jeździć na łyżwach na lodowisko.",
+     "de": "Sie gehen im Eisbahn Schlittschuh laufen.",
+     "fr": "Ils vont patiner à la patinoire.",
+     "es": "Ellos van a patinar en la pista de hielo.",
+     "it": "Vanno a pattinare alla pista di ghiaccio.",
+     "pt": "Eles vão patinar na pista de gelo.",
+     "tr": "Buz pateninde kaymaya gidiyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.opponent",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/əˈpoʊnənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My opponent is very strong this time.",
+     "uk": "Мій суперник цього разу дуже сильний.",
+     "ru": "Мой соперник в этот раз очень сильный.",
+     "pl": "Mój przeciwnik jest w tym czasie bardzo silny.",
+     "de": "Mein Gegner ist dieses Mal sehr stark.",
+     "fr": "Mon adversaire est très fort cette fois.",
+     "es": "Mi rival es muy fuerte esta vez.",
+     "it": "Il mio avversario è molto forte questa volta.",
+     "pt": "Meu adversário é muito forte desta vez.",
+     "tr": "Bu sefer rakibim çok güçlü."
+    },
+    {
+     "en": "She defeated her opponent in the match.",
+     "uk": "Вона перемогла свого суперника в матчі.",
+     "ru": "Она победила своего соперника в матче.",
+     "pl": "Ona pokonała swojego przeciwnika w meczu.",
+     "de": "Sie besiegte ihren Gegner im Spiel.",
+     "fr": "Elle a battu son adversaire dans le match.",
+     "es": "Ella venció a su rival en el partido.",
+     "it": "Ha sconfitto il suo avversario nella partita.",
+     "pt": "Ela derrotou seu adversário na partida.",
+     "tr": "Maçta rakibini yendi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.locker-room",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ˈlɑkɚ rum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The locker room is next to the gym.",
+     "uk": "Роздягальня знаходиться поруч зі спортзалом.",
+     "ru": "Раздевалка находится рядом со спортзалом.",
+     "pl": "Szatnia znajduje się obok siłowni.",
+     "de": "Die Umkleidekabine ist neben dem Fitnessstudio.",
+     "fr": "Le vestiaire est à côté de la salle.",
+     "es": "El vestuario está al lado del gimnasio.",
+     "it": "Lo spogliatoio è accanto alla palestra.",
+     "pt": "O vestiário fica ao lado da academia.",
+     "tr": "Soyunma odası spor salonunun yanında."
+    },
+    {
+     "en": "Please leave your shoes in the locker room.",
+     "uk": "Будь ласка, залиште взуття в роздягальні.",
+     "ru": "Пожалуйста, оставьте обувь в раздевалке.",
+     "pl": "Proszę zostawić buty w szatni.",
+     "de": "Bitte lassen Sie Ihre Schuhe in der Umkleidekabine.",
+     "fr": "Veuillez laisser vos chaussures dans le vestiaire.",
+     "es": "Por favor, deja tus zapatos en el vestuario.",
+     "it": "Per favore, lascia le scarpe nello spogliatoio.",
+     "pt": "Por favor, deixe seus sapatos no vestiário.",
+     "tr": "Lütfen ayakkabılarınızı soyunma odasında bırakın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.half-time",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/hæf taɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The game will have a half-time break.",
+     "uk": "У гри буде перерва.",
+     "ru": "В игре будет перерыв.",
+     "pl": "W grze będzie przerwa.",
+     "de": "Das Spiel hat eine Halbzeitpause.",
+     "fr": "Le match aura une pause mi-temps.",
+     "es": "El juego tendrá un descanso.",
+     "it": "La partita avrà una pausa.",
+     "pt": "O jogo terá um intervalo.",
+     "tr": "Oyun devre arası verecek."
+    },
+    {
+     "en": "They discussed strategies during half-time.",
+     "uk": "Вони обговорювали стратегії під час перерви.",
+     "ru": "Они обсуждали стратегии во время перерыва.",
+     "pl": "Oni omawiali strategie podczas przerwy.",
+     "de": "Sie diskutierten Strategien während der Halbzeit.",
+     "fr": "Ils ont discuté des stratégies pendant la mi-temps.",
+     "es": "Discutieron estrategias durante el descanso.",
+     "it": "Hanno discusso strategie durante l'intervallo.",
+     "pt": "Eles discutiram estratégias durante o intervalo.",
+     "tr": "Devre arasında stratejileri tartıştılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.athlete",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈæθˌlit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The athlete trains every day for the competition.",
+     "uk": "Спортсмен тренується кожен день для змагань.",
+     "ru": "Спортсмен тренируется каждый день для соревнований.",
+     "pl": "Sportowiec trenuje codziennie na zawody.",
+     "de": "Der Sportler trainiert jeden Tag für den Wettkampf.",
+     "fr": "L'athlète s'entraîne tous les jours pour la compétition.",
+     "es": "El atleta entrena todos los días para la competición.",
+     "it": "L'atleta si allena ogni giorno per la competizione.",
+     "pt": "O atleta treina todos os dias para a competição.",
+     "tr": "Sporcu her gün yarışma için antrenman yapar."
+    },
+    {
+     "en": "She is a talented athlete in track and field.",
+     "uk": "Вона талановитий спортсмен у легкій атлетиці.",
+     "ru": "Она талантливый спортсмен в легкой атлетике.",
+     "pl": "Ona jest utalentowanym sportowcem w lekkoatletyce.",
+     "de": "Sie ist eine talentierte Sportlerin in der Leichtathletik.",
+     "fr": "C'est une athlète talentueuse en athlétisme.",
+     "es": "Ella es una atleta talentosa en atletismo.",
+     "it": "È un'atleta di talento nell'atletica leggera.",
+     "pt": "Ela é uma atleta talentosa em atletismo.",
+     "tr": "O, atletizmde yetenekli bir sporcu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.cycling",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/ˈsaɪkəlɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cycling is a fun way to stay fit.",
+     "uk": "Велоспорт — це веселий спосіб залишатися у формі.",
+     "ru": "Велоспорт — это веселый способ поддерживать форму.",
+     "pl": "Kolarstwo to zabawny sposób na utrzymanie formy.",
+     "de": "Radsport macht Spaß und hält fit.",
+     "fr": "Le cyclisme est un moyen amusant de rester en forme.",
+     "es": "El ciclismo es una forma divertida de mantenerse en forma.",
+     "it": "Il ciclismo è un modo divertente per rimanere in forma.",
+     "pt": "O ciclismo é uma maneira divertida de se manter em forma.",
+     "tr": "Bisiklet sporu, formda kalmanın eğlenceli bir yoludur."
+    },
+    {
+     "en": "He enjoys cycling on weekends with friends.",
+     "uk": "Він любить велоспорт на вихідних з друзями.",
+     "ru": "Он любит велоспорт по выходным с друзьями.",
+     "pl": "On lubi kolarstwo w weekendy z przyjaciółmi.",
+     "de": "Er fährt am Wochenende gerne Rad mit Freunden.",
+     "fr": "Il aime faire du cyclisme le week-end avec des amis.",
+     "es": "Le gusta el ciclismo los fines de semana con amigos.",
+     "it": "Gli piace andare in bicicletta nei fine settimana con gli amici.",
+     "pt": "Ele gosta de andar de bicicleta nos fins de semana com amigos.",
+     "tr": "Hafta sonları arkadaşlarıyla bisiklet sürmeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.sportswear",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈspɔrtˌswɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought new sportswear for my gym classes.",
+     "uk": "Я купив новий спортивний одяг для занять у спортзалі.",
+     "ru": "Я купил новую спортивную одежду для занятий в спортзале.",
+     "pl": "Kupiłem nową odzież sportową na zajęcia na siłowni.",
+     "de": "Ich habe neue Sportkleidung für meine Fitnesskurse gekauft.",
+     "fr": "J'ai acheté de nouveaux vêtements de sport pour mes cours de gym.",
+     "es": "Compré ropa deportiva nueva para mis clases de gimnasio.",
+     "it": "Ho comprato nuovi abbigliamenti sportivi per le mie lezioni in palestra.",
+     "pt": "Comprei roupas esportivas novas para minhas aulas de ginástica.",
+     "tr": "Spor salonu derslerim için yeni spor kıyafeti aldım."
+    },
+    {
+     "en": "She prefers comfortable sportswear for running.",
+     "uk": "Вона віддає перевагу зручному спортивному одягу для бігу.",
+     "ru": "Она предпочитает удобную спортивную одежду для бега.",
+     "pl": "Ona woli wygodną odzież sportową do biegania.",
+     "de": "Sie bevorzugt bequeme Sportkleidung zum Laufen.",
+     "fr": "Elle préfère des vêtements de sport confortables pour courir.",
+     "es": "Ella prefiere ropa deportiva cómoda para correr.",
+     "it": "Preferisce abbigliamento sportivo comodo per correre.",
+     "pt": "Ela prefere roupas esportivas confortáveis para correr.",
+     "tr": "Koşmak için rahat spor kıyafetlerini tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.tracksuit",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈtrækˌsut/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wears a tracksuit for his workouts.",
+     "uk": "Він носить спортивний костюм для своїх тренувань.",
+     "ru": "Он носит спортивный костюм для своих тренировок.",
+     "pl": "On nosi dres na swoje treningi.",
+     "de": "Er trägt einen Trainingsanzug für seine Workouts.",
+     "fr": "Il porte un survêtement pour ses entraînements.",
+     "es": "Lleva un chándal para sus entrenamientos.",
+     "it": "Indossa una tuta da ginnastica per i suoi allenamenti.",
+     "pt": "Ele usa um agasalho para seus treinos.",
+     "tr": "Antrenmanları için eşofman giyiyor."
+    },
+    {
+     "en": "She bought a new tracksuit for the gym.",
+     "uk": "Вона купила новий спортивний костюм для спортзалу.",
+     "ru": "Она купила новый спортивный костюм для спортзала.",
+     "pl": "Kupiła nowy dres na siłownię.",
+     "de": "Sie hat einen neuen Trainingsanzug für das Fitnessstudio gekauft.",
+     "fr": "Elle a acheté un nouveau survêtement pour la salle de sport.",
+     "es": "Ella compró un nuevo chándal para el gimnasio.",
+     "it": "Ha comprato una nuova tuta da ginnastica per la palestra.",
+     "pt": "Ela comprou um novo agasalho para a academia.",
+     "tr": "Spor salonu için yeni bir eşofman aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.handball",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈhændˌbɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "They play handball every Saturday at the park.",
+     "uk": "Вони грають у гандбол кожну суботу в парку.",
+     "ru": "Они играют в гандбол каждую субботу в парке.",
+     "pl": "Grają w piłkę ręczną w każdą sobotę w parku.",
+     "de": "Sie spielen jeden Samstag Handball im Park.",
+     "fr": "Ils jouent au handball tous les samedis au parc.",
+     "es": "Juegan al balonmano todos los sábados en el parque.",
+     "it": "Giocano a pallamano ogni sabato al parco.",
+     "pt": "Eles jogam handebol todo sábado no parque.",
+     "tr": "Her cumartesi parkta hentbol oynuyorlar."
+    },
+    {
+     "en": "She loves watching handball matches on TV.",
+     "uk": "Вона любить дивитися матчі з гандболу по телевізору.",
+     "ru": "Она любит смотреть матчи по гандболу по телевизору.",
+     "pl": "Ona uwielbia oglądać mecze piłki ręcznej w telewizji.",
+     "de": "Sie schaut gerne Handballspiele im Fernsehen.",
+     "fr": "Elle adore regarder des matchs de handball à la télévision.",
+     "es": "A ella le encanta ver partidos de balonmano en la televisión.",
+     "it": "Le piace guardare le partite di pallamano in TV.",
+     "pt": "Ela adora assistir a partidas de handebol na TV.",
+     "tr": "Televizyonda hentbol maçlarını izlemeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.table-tennis",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˈteɪbəl ˈtɛnəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love playing table tennis with my friends.",
+     "uk": "Я люблю грати в настільний теніс з друзями.",
+     "ru": "Мне нравится играть в настольный теннис с друзьями.",
+     "pl": "Uwielbiam grać w tenis stołowy z przyjaciółmi.",
+     "de": "Ich liebe es, Tischtennis mit meinen Freunden zu spielen.",
+     "fr": "J'adore jouer au tennis de table avec mes amis.",
+     "es": "Me encanta jugar al tenis de mesa con mis amigos.",
+     "it": "Adoro giocare a tennis da tavolo con i miei amici.",
+     "pt": "Adoro jogar tênis de mesa com meus amigos.",
+     "tr": "Arkadaşlarımla masa tenisi oynamayı seviyorum."
+    },
+    {
+     "en": "Table tennis is a fun and fast game.",
+     "uk": "Настільний теніс — це весела та швидка гра.",
+     "ru": "Настольный теннис — это веселая и быстрая игра.",
+     "pl": "Tenis stołowy to zabawna i szybka gra.",
+     "de": "Tischtennis ist ein lustiges und schnelles Spiel.",
+     "fr": "Le tennis de table est un jeu amusant et rapide.",
+     "es": "El tenis de mesa es un juego divertido y rápido.",
+     "it": "Il tennis da tavolo è un gioco divertente e veloce.",
+     "pt": "O tênis de mesa é um jogo divertido e rápido.",
+     "tr": "Masa tenisi eğlenceli ve hızlı bir oyundur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.badminton",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/ˈbædˌmɪntən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We play badminton in the park on weekends.",
+     "uk": "Ми граємо в бадмінтон у парку на вихідних.",
+     "ru": "Мы играем в бадминтон в парке по выходным.",
+     "pl": "Gramy w badminton w parku w weekendy.",
+     "de": "Wir spielen am Wochenende Badminton im Park.",
+     "fr": "Nous jouons au badminton au parc le week-end.",
+     "es": "Jugamos al bádminton en el parque los fines de semana.",
+     "it": "Giochiamo a badminton al parco nei fine settimana.",
+     "pt": "Jogamos badminton no parque nos fins de semana.",
+     "tr": "Hafta sonları parkta badminton oynuyoruz."
+    },
+    {
+     "en": "She practices badminton every morning before school.",
+     "uk": "Вона практикує бадмінтон щоранку перед школою.",
+     "ru": "Она занимается бадминтоном каждое утро перед школой.",
+     "pl": "Ona ćwiczy badminton każdego ranka przed szkołą.",
+     "de": "Sie übt jeden Morgen Badminton vor der Schule.",
+     "fr": "Elle pratique le badminton tous les matins avant l'école.",
+     "es": "Ella practica bádminton todas las mañanas antes de la escuela.",
+     "it": "Pratica badminton ogni mattina prima di scuola.",
+     "pt": "Ela pratica badminton todas as manhãs antes da escola.",
+     "tr": "Okuldan önce her sabah badminton oynuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.surfing",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈsɝfɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "They enjoy surfing at the beach every summer.",
+     "uk": "Вони насолоджуються серфінгом на пляжі кожного літа.",
+     "ru": "Они наслаждаются серфингом на пляже каждое лето.",
+     "pl": "Cieszą się surfingiem na plaży każdego lata.",
+     "de": "Sie genießen das Surfen am Strand jeden Sommer.",
+     "fr": "Ils aiment surfer à la plage chaque été.",
+     "es": "Disfrutan del surf en la playa cada verano.",
+     "it": "Si divertono a fare surf in spiaggia ogni estate.",
+     "pt": "Eles gostam de surfar na praia todo verão.",
+     "tr": "Her yaz plajda sörf yapmaktan keyif alıyorlar."
+    },
+    {
+     "en": "He took surfing lessons last weekend.",
+     "uk": "Він брав уроки серфінгу минулого вихідного.",
+     "ru": "Он брал уроки серфинга в прошлые выходные.",
+     "pl": "On brał lekcje surfingu w zeszły weekend.",
+     "de": "Er nahm am letzten Wochenende Surfstunden.",
+     "fr": "Il a pris des cours de surf le week-end dernier.",
+     "es": "Tomó clases de surf el fin de semana pasado.",
+     "it": "Ha preso lezioni di surf lo scorso fine settimana.",
+     "pt": "Ele fez aulas de surfe no último fim de semana.",
+     "tr": "Geçen hafta sonu sörf dersleri aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-sweat",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/swɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I start to sweat when I exercise hard.",
+     "uk": "Я починаю пітніти, коли важко тренуюся.",
+     "ru": "Я начинаю потеть, когда сильно тренируюсь.",
+     "pl": "Zaczynam się pocić, gdy intensywnie ćwiczę.",
+     "de": "Ich fange an zu schwitzen, wenn ich hart trainiere.",
+     "fr": "Je commence à transpirer quand je fais de l'exercice.",
+     "es": "Empiezo a sudar cuando hago ejercicio duro.",
+     "it": "Inizio a sudare quando mi alleno duramente.",
+     "pt": "Começo a suar quando me exercito muito.",
+     "tr": "Sıkı çalıştığımda terlemeye başlıyorum."
+    },
+    {
+     "en": "It's normal to sweat during a workout.",
+     "uk": "Це нормально пітніти під час тренування.",
+     "ru": "Нормально потеть во время тренировки.",
+     "pl": "To normalne pocić się podczas treningu.",
+     "de": "Es ist normal zu schwitzen während des Trainings.",
+     "fr": "Il est normal de transpirer pendant un entraînement.",
+     "es": "Es normal sudar durante un entrenamiento.",
+     "it": "È normale sudare durante un allenamento.",
+     "pt": "É normal suar durante um treino.",
+     "tr": "Antrenman sırasında terlemek normaldir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-pass-the-ball",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/pæs ðə bɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to pass the ball to your teammate.",
+     "uk": "Тобі потрібно передати м'яч товаришеві по команді.",
+     "ru": "Тебе нужно передать мяч своему товарищу по команде.",
+     "pl": "Musisz podać piłkę swojemu koledze z drużyny.",
+     "de": "Du musst den Ball an deinen Mitspieler abspielen.",
+     "fr": "Tu dois passer le ballon à ton coéquipier.",
+     "es": "Necesitas pasar el balón a tu compañero.",
+     "it": "Devi passare la palla al tuo compagno.",
+     "pt": "Você precisa passar a bola para seu companheiro.",
+     "tr": "Topu takım arkadaşına vermelisin."
+    },
+    {
+     "en": "It is important to pass the ball quickly.",
+     "uk": "Важливо швидко передавати м'яч.",
+     "ru": "Важно быстро передавать мяч.",
+     "pl": "Ważne jest, aby szybko podawać piłkę.",
+     "de": "Es ist wichtig, den Ball schnell abzuspielen.",
+     "fr": "Il est important de passer le ballon rapidement.",
+     "es": "Es importante pasar el balón rápidamente.",
+     "it": "È importante passare la palla rapidamente.",
+     "pt": "É importante passar a bola rapidamente.",
+     "tr": "Topu hızlı bir şekilde vermek önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.trophy",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈtroʊfi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She won a trophy for her performance.",
+     "uk": "Вона виграла трофей за свою гру.",
+     "ru": "Она выиграла трофей за свои достижения.",
+     "pl": "Ona wygrała trofeum za swoje osiągnięcia.",
+     "de": "Sie gewann eine Trophäe für ihre Leistung.",
+     "fr": "Elle a gagné un trophée pour sa performance.",
+     "es": "Ella ganó un trofeo por su actuación.",
+     "it": "Ha vinto un trofeo per la sua performance.",
+     "pt": "Ela ganhou um troféu pela sua performance.",
+     "tr": "Performansı için bir kupa kazandı."
+    },
+    {
+     "en": "The trophy is on the shelf.",
+     "uk": "Трофей стоїть на полиці.",
+     "ru": "Трофей стоит на полке.",
+     "pl": "Trofeum stoi na półce.",
+     "de": "Die Trophäe steht im Regal.",
+     "fr": "Le trophée est sur l'étagère.",
+     "es": "El trofeo está en la estantería.",
+     "it": "Il trofeo è sulla mensola.",
+     "pt": "O troféu está na prateleira.",
+     "tr": "Kupa rafta duruyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.gold-medal",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ɡoʊld ˈmɛdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She won a gold medal in swimming.",
+     "uk": "Вона виграла золоту медаль з плавання.",
+     "ru": "Она выиграла золотую медаль по плаванию.",
+     "pl": "Ona wygrała złoty medal w pływaniu.",
+     "de": "Sie gewann eine Goldmedaille im Schwimmen.",
+     "fr": "Elle a gagné une médaille d'or en natation.",
+     "es": "Ella ganó una medalla de oro en natación.",
+     "it": "Ha vinto una medaglia d'oro nel nuoto.",
+     "pt": "Ela ganhou uma medalha de ouro na natação.",
+     "tr": "Yüzmede altın madalya kazandı."
+    },
+    {
+     "en": "He dreams of a gold medal.",
+     "uk": "Він мріє про золоту медаль.",
+     "ru": "Он мечтает о золотой медали.",
+     "pl": "On marzy o złotym medalu.",
+     "de": "Er träumt von einer Goldmedaille.",
+     "fr": "Il rêve d'une médaille d'or.",
+     "es": "Él sueña con una medalla de oro.",
+     "it": "Lui sogna una medaglia d'oro.",
+     "pt": "Ele sonha com uma medalha de ouro.",
+     "tr": "Altın madalya hayali kuruyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.first-place",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/fɝst pleɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She finished in first place in the race.",
+     "uk": "Вона зайняла перше місце в гонці.",
+     "ru": "Она заняла первое место в гонке.",
+     "pl": "Ona zajęła pierwsze miejsce w wyścigu.",
+     "de": "Sie belegte den ersten Platz im Rennen.",
+     "fr": "Elle a terminé à la première place de la course.",
+     "es": "Ella terminó en primer puesto en la carrera.",
+     "it": "Ha finito al primo posto nella gara.",
+     "pt": "Ela terminou em primeiro lugar na corrida.",
+     "tr": "Yarışta birincilik elde etti."
+    },
+    {
+     "en": "He is proud of his first place finish.",
+     "uk": "Він пишається своїм першим місцем.",
+     "ru": "Он гордится своим первым местом.",
+     "pl": "On jest dumny ze swojego pierwszego miejsca.",
+     "de": "Er ist stolz auf seinen ersten Platz.",
+     "fr": "Il est fier de sa première place.",
+     "es": "Él está orgulloso de su primer puesto.",
+     "it": "È orgoglioso del suo primo posto.",
+     "pt": "Ele está orgulhoso do seu primeiro lugar.",
+     "tr": "Birinciliğiyle gurur duyuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.tennis-court",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ˈtɛnəs kɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We played on the tennis court today.",
+     "uk": "Ми сьогодні грали на тенісному корті.",
+     "ru": "Сегодня мы играли на теннисном корте.",
+     "pl": "Dziś graliśmy na korcie tenisowym.",
+     "de": "Wir haben heute auf dem Tennisplatz gespielt.",
+     "fr": "Nous avons joué sur le court de tennis aujourd'hui.",
+     "es": "Hoy jugamos en la pista de tenis.",
+     "it": "Oggi abbiamo giocato nel campo da tennis.",
+     "pt": "Hoje jogamos na quadra de tênis.",
+     "tr": "Bugün tenis kortunda oynadık."
+    },
+    {
+     "en": "The tennis court is very busy.",
+     "uk": "Тенісний корт дуже зайнятий.",
+     "ru": "Теннисный корт очень занят.",
+     "pl": "Kort tenisowy jest bardzo zajęty.",
+     "de": "Der Tennisplatz ist sehr beschäftigt.",
+     "fr": "Le court de tennis est très occupé.",
+     "es": "La pista de tenis está muy ocupada.",
+     "it": "Il campo da tennis è molto occupato.",
+     "pt": "A quadra de tênis está muito ocupada.",
+     "tr": "Tenis kortu çok meşgul."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.swimsuit",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈswɪmˌsut/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new swimsuit for the summer.",
+     "uk": "Я купив новий купальник на літо.",
+     "ru": "Я купил новый купальник на лето.",
+     "pl": "Kupiłem nowy kostium kąpielowy na lato.",
+     "de": "Ich habe einen neuen Badeanzug für den Sommer gekauft.",
+     "fr": "J'ai acheté un nouveau maillot de bain pour l'été.",
+     "es": "Compré un nuevo bañador para el verano.",
+     "it": "Ho comprato un nuovo costume da bagno per l'estate.",
+     "pt": "Comprei um novo maiô para o verão.",
+     "tr": "Yaz için yeni bir mayo aldım."
+    },
+    {
+     "en": "Her swimsuit is very colorful.",
+     "uk": "Її купальник дуже барвистий.",
+     "ru": "Ее купальник очень яркий.",
+     "pl": "Jej kostium kąpielowy jest bardzo kolorowy.",
+     "de": "Ihr Badeanzug ist sehr bunt.",
+     "fr": "Son maillot de bain est très coloré.",
+     "es": "Su bañador es muy colorido.",
+     "it": "Il suo costume da bagno è molto colorato.",
+     "pt": "Seu maiô é muito colorido.",
+     "tr": "Onun mayo çok renkli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.swimming-goggles",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈswɪmɪŋ ˈɡɑɡəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear swimming goggles when I swim.",
+     "uk": "Я ношу окуляри для плавання, коли плаваю.",
+     "ru": "Я ношу очки для плавания, когда плаваю.",
+     "pl": "Noszę okulary pływackie, gdy pływam.",
+     "de": "Ich trage beim Schwimmen eine Schwimmbrille.",
+     "fr": "Je porte des lunettes de natation quand je nage.",
+     "es": "Uso gafas de natación cuando nado.",
+     "it": "Indosso occhialini da nuoto quando nuoto.",
+     "pt": "Uso óculos de natação quando nado.",
+     "tr": "Yüzdüğümde yüzücü gözlüğü takarım."
+    },
+    {
+     "en": "Her swimming goggles are very stylish.",
+     "uk": "Її окуляри для плавання дуже стильні.",
+     "ru": "Ее очки для плавания очень стильные.",
+     "pl": "Jej okulary pływackie są bardzo stylowe.",
+     "de": "Ihre Schwimmbrille ist sehr stilvoll.",
+     "fr": "Ses lunettes de natation sont très élégantes.",
+     "es": "Sus gafas de natación son muy elegantes.",
+     "it": "I suoi occhialini da nuoto sono molto eleganti.",
+     "pt": "Seus óculos de natação são muito elegantes.",
+     "tr": "Onun yüzücü gözlüğü çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-dive",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/daɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to dive in the ocean.",
+     "uk": "Я люблю пірнати в океані.",
+     "ru": "Мне нравится нырять в океане.",
+     "pl": "Uwielbiam nurkować w oceanie.",
+     "de": "Ich liebe es, im Ozean zu tauchen.",
+     "fr": "J'adore plonger dans l'océan.",
+     "es": "Me encanta zambullirme en el océano.",
+     "it": "Adoro tuffarmi nell'oceano.",
+     "pt": "Adoro mergulhar no oceano.",
+     "tr": "Okyanusta dalmayı seviyorum."
+    },
+    {
+     "en": "He learned to dive last summer.",
+     "uk": "Він навчився пірнати минулого літа.",
+     "ru": "Он научился нырять прошлым летом.",
+     "pl": "On nauczył się nurkować zeszłego lata.",
+     "de": "Er hat letzten Sommer tauchen gelernt.",
+     "fr": "Il a appris à plonger l'été dernier.",
+     "es": "Él aprendió a zambullirse el verano pasado.",
+     "it": "Ha imparato a tuffarsi la scorsa estate.",
+     "pt": "Ele aprendeu a mergulhar no verão passado.",
+     "tr": "Geçen yaz dalmayı öğrendi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.sailing",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˈseɪlɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Sailing is my favorite hobby.",
+     "uk": "Вітрильний спорт - моє улюблене хобі.",
+     "ru": "Парусный спорт - мое любимое хобби.",
+     "pl": "Żeglarstwo to moje ulubione hobby.",
+     "de": "Segeln ist mein Lieblingshobby.",
+     "fr": "La voile est mon passe-temps préféré.",
+     "es": "La vela es mi pasatiempo favorito.",
+     "it": "La vela è il mio hobby preferito.",
+     "pt": "A vela é meu hobby favorito.",
+     "tr": "Yelken en sevdiğim hobim."
+    },
+    {
+     "en": "They enjoy sailing on weekends.",
+     "uk": "Вони люблять вітрильний спорт на вихідних.",
+     "ru": "Они любят парусный спорт по выходным.",
+     "pl": "Oni lubią żeglarstwo w weekendy.",
+     "de": "Sie genießen das Segeln am Wochenende.",
+     "fr": "Ils aiment faire de la voile le week-end.",
+     "es": "Ellos disfrutan de la vela los fines de semana.",
+     "it": "A loro piace andare a vela nei fine settimana.",
+     "pt": "Eles gostam de velejar nos fins de semana.",
+     "tr": "Onlar hafta sonları yelken yapmayı seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.horse-riding",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/hɔrs ˈraɪdɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She enjoys horse riding every weekend.",
+     "uk": "Вона насолоджується верховою їздою кожні вихідні.",
+     "ru": "Она любит верховую езду каждую неделю.",
+     "pl": "Ona cieszy się jazdą konną w każdy weekend.",
+     "de": "Sie genießt das Reiten jedes Wochenende.",
+     "fr": "Elle aime faire de l'équitation chaque week-end.",
+     "es": "A ella le gusta la equitación cada fin de semana.",
+     "it": "Le piace andare a cavallo ogni fine settimana.",
+     "pt": "Ela gosta de equitação todo fim de semana.",
+     "tr": "Her hafta sonu binicilik yapmayı seviyor."
+    },
+    {
+     "en": "Horse riding is a fun activity.",
+     "uk": "Верхова їзда - це весела діяльність.",
+     "ru": "Верховая езда - это веселое занятие.",
+     "pl": "Jazda konna to fajna aktywność.",
+     "de": "Reiten ist eine lustige Aktivität.",
+     "fr": "L'équitation est une activité amusante.",
+     "es": "La equitación es una actividad divertida.",
+     "it": "L'equitazione è un'attività divertente.",
+     "pt": "A equitação é uma atividade divertida.",
+     "tr": "Binicilik eğlenceli bir aktivitedir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.team-captain",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/tim ˈkæptən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is the team captain for our soccer team.",
+     "uk": "Він капітан команди нашої футбольної команди.",
+     "ru": "Он капитан нашей футбольной команды.",
+     "pl": "On jest kapitanem naszej drużyny piłkarskiej.",
+     "de": "Er ist der Mannschaftskapitän unserer Fußballmannschaft.",
+     "fr": "Il est le capitaine de notre équipe de football.",
+     "es": "Él es el capitán de nuestro equipo de fútbol.",
+     "it": "Lui è il capitano della nostra squadra di calcio.",
+     "pt": "Ele é o capitão do nosso time de futebol.",
+     "tr": "O, futbol takımımızın kaptanı."
+    },
+    {
+     "en": "The team captain motivates all the players.",
+     "uk": "Капітан команди мотивує всіх гравців.",
+     "ru": "Капитан команды мотивирует всех игроков.",
+     "pl": "Kapitan drużyny motywuje wszystkich graczy.",
+     "de": "Der Mannschaftskapitän motiviert alle Spieler.",
+     "fr": "Le capitaine d'équipe motive tous les joueurs.",
+     "es": "El capitán del equipo motiva a todos los jugadores.",
+     "it": "Il capitano della squadra motiva tutti i giocatori.",
+     "pt": "O capitão do time motiva todos os jogadores.",
+     "tr": "Takım kaptanı tüm oyuncuları motive ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.football-shirt",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈfʊtˌbɔl ʃɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new football shirt for the match.",
+     "uk": "Я купив нову футбольну футболку для матчу.",
+     "ru": "Я купил новую футбольную футболку для матча.",
+     "pl": "Kupiłem nową koszulkę piłkarską na mecz.",
+     "de": "Ich habe ein neues Trikot für das Spiel gekauft.",
+     "fr": "J'ai acheté un nouveau maillot de foot pour le match.",
+     "es": "Compré una nueva camiseta de fútbol para el partido.",
+     "it": "Ho comprato una nuova maglia da calcio per la partita.",
+     "pt": "Comprei uma nova camisa de futebol para o jogo.",
+     "tr": "Maç için yeni bir forma aldım."
+    },
+    {
+     "en": "He wore his favorite football shirt to the game.",
+     "uk": "Він надів свою улюблену футбольну футболку на гру.",
+     "ru": "Он надел свою любимую футбольную футболку на игру.",
+     "pl": "On założył swoją ulubioną koszulkę piłkarską na mecz.",
+     "de": "Er trug sein Lieblings-Trikot zum Spiel.",
+     "fr": "Il portait son maillot de foot préféré au match.",
+     "es": "Llevó su camiseta de fútbol favorita al partido.",
+     "it": "Indossava la sua maglia da calcio preferita per la partita.",
+     "pt": "Ele usou sua camisa de futebol favorita para o jogo.",
+     "tr": "Maç için en sevdiği formayı giydi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.silver-medal",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˈsɪlvɚ ˈmɛdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She won a silver medal in the competition.",
+     "uk": "Вона виграла срібну медаль на змаганні.",
+     "ru": "Она выиграла серебряную медаль на соревнованиях.",
+     "pl": "Wygrała srebrny medal w zawodach.",
+     "de": "Sie gewann eine Silbermedaille im Wettkampf.",
+     "fr": "Elle a gagné une médaille d'argent dans la compétition.",
+     "es": "Ganó una medalla de plata en la competencia.",
+     "it": "Ha vinto una medaglia d'argento nella competizione.",
+     "pt": "Ela ganhou uma medalha de prata na competição.",
+     "tr": "Yarışmada gümüş madalya kazandı."
+    },
+    {
+     "en": "He was proud to receive the silver medal.",
+     "uk": "Він гордився отриманням срібної медалі.",
+     "ru": "Он гордился получением серебряной медали.",
+     "pl": "Był dumny z otrzymania srebrnego medalu.",
+     "de": "Er war stolz, die Silbermedaille zu erhalten.",
+     "fr": "Il était fier de recevoir la médaille d'argent.",
+     "es": "Estaba orgulloso de recibir la medalla de plata.",
+     "it": "Era orgoglioso di ricevere la medaglia d'argento.",
+     "pt": "Ele estava orgulhoso de receber a medalha de prata.",
+     "tr": "Gümüş madalya almaktan gurur duyuyordu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.bronze-medal",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/brɑnz ˈmɛdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He earned a bronze medal in the tournament.",
+     "uk": "Він здобув бронзову медаль на турнірі.",
+     "ru": "Он завоевал бронзовую медаль на турнире.",
+     "pl": "Zdobył brązowy medal na turnieju.",
+     "de": "Er gewann eine Bronzemedaille im Turnier.",
+     "fr": "Il a gagné une médaille de bronze au tournoi.",
+     "es": "Ganó una medalla de bronce en el torneo.",
+     "it": "Ha vinto una medaglia di bronzo nel torneo.",
+     "pt": "Ele ganhou uma medalha de bronze no torneio.",
+     "tr": "Turnuvada bronz madalya kazandı."
+    },
+    {
+     "en": "She was happy to win the bronze medal.",
+     "uk": "Вона була щаслива виграти бронзову медаль.",
+     "ru": "Она была счастлива выиграть бронзовую медаль.",
+     "pl": "Była szczęśliwa, że zdobyła brązowy medal.",
+     "de": "Sie war glücklich, die Bronzemedaille zu gewinnen.",
+     "fr": "Elle était heureuse de gagner la médaille de bronze.",
+     "es": "Estaba feliz de ganar la medalla de bronce.",
+     "it": "Era felice di vincere la medaglia di bronzo.",
+     "pt": "Ela estava feliz por ganhar a medalha de bronze.",
+     "tr": "Bronz madalya kazandığı için mutluydu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.final-score",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪnəl skɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The final score was 3-2 in favor of our team.",
+     "uk": "Остаточний рахунок був 3-2 на користь нашої команди.",
+     "ru": "Окончательный счёт был 3-2 в пользу нашей команды.",
+     "pl": "Wynik końcowy to 3-2 dla naszej drużyny.",
+     "de": "Der Endstand war 3-2 zugunsten unseres Teams.",
+     "fr": "Le score final était de 3-2 en faveur de notre équipe.",
+     "es": "El resultado final fue 3-2 a favor de nuestro equipo.",
+     "it": "Il risultato finale è stato 3-2 a favore della nostra squadra.",
+     "pt": "O placar final foi 3-2 a favor do nosso time.",
+     "tr": "Maç sonucu 3-2 bizim takımın lehineydi."
+    },
+    {
+     "en": "Did you see the final score of the match?",
+     "uk": "Ти бачив остаточний рахунок матчу?",
+     "ru": "Ты видел окончательный счёт матча?",
+     "pl": "Czy widziałeś wynik końcowy meczu?",
+     "de": "Hast du den Endstand des Spiels gesehen?",
+     "fr": "As-tu vu le score final du match?",
+     "es": "¿Viste el resultado final del partido?",
+     "it": "Hai visto il risultato finale della partita?",
+     "pt": "Você viu o placar final da partida?",
+     "tr": "Maçın sonucunu gördün mü?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.skier",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/skaɪr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The skier raced down the mountain quickly.",
+     "uk": "Лижник швидко спустився з гори.",
+     "ru": "Лыжник быстро спустился с горы.",
+     "pl": "Narciarz szybko zjechał z góry.",
+     "de": "Der Skifahrer raste schnell den Berg hinunter.",
+     "fr": "Le skieur a descendu la montagne rapidement.",
+     "es": "El esquiador bajó rápidamente por la montaña.",
+     "it": "Lo sciatore è sceso rapidamente dalla montagna.",
+     "pt": "O esquiador desceu rapidamente a montanha.",
+     "tr": "Kayakçı dağdan hızlıca kaydı."
+    },
+    {
+     "en": "She is a talented skier who competes internationally.",
+     "uk": "Вона талановитий лижник, який змагається на міжнародному рівні.",
+     "ru": "Она талантливый лыжник, который соревнуется на международном уровне.",
+     "pl": "Ona jest utalentowanym narciarzem, który startuje w zawodach międzynarodowych.",
+     "de": "Sie ist eine talentierte Skifahrerin, die international konkurriert.",
+     "fr": "C'est une skieuse talentueuse qui concourt au niveau international.",
+     "es": "Es una esquiadora talentosa que compite internacionalmente.",
+     "it": "È una sciatrice talentuosa che compete a livello internazionale.",
+     "pt": "Ela é uma esquiadora talentosa que compete internacionalmente.",
+     "tr": "O, uluslararası düzeyde yarışan yetenekli bir kayakçı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.tennis-player",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˈtɛnəs ˈpleɪɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tennis player won the championship last year.",
+     "uk": "Тенісист виграв чемпіонат минулого року.",
+     "ru": "Теннисист выиграл чемпионат в прошлом году.",
+     "pl": "Tenisista wygrał mistrzostwa w zeszłym roku.",
+     "de": "Der Tennisspieler gewann die Meisterschaft im letzten Jahr.",
+     "fr": "Le joueur de tennis a remporté le championnat l'année dernière.",
+     "es": "El tenista ganó el campeonato el año pasado.",
+     "it": "Il tennista ha vinto il campionato l'anno scorso.",
+     "pt": "O tenista ganhou o campeonato no ano passado.",
+     "tr": "Tenisçi geçen yıl şampiyonayı kazandı."
+    },
+    {
+     "en": "She is a famous tennis player from Spain.",
+     "uk": "Вона відома тенісистка з Іспанії.",
+     "ru": "Она известная теннисистка из Испании.",
+     "pl": "Ona jest znanym tenisistą z Hiszpanii.",
+     "de": "Sie ist eine berühmte Tennisspielerin aus Spanien.",
+     "fr": "C'est une joueuse de tennis célèbre d'Espagne.",
+     "es": "Es una tenista famosa de España.",
+     "it": "È un tennista famoso della Spagna.",
+     "pt": "Ela é uma tenista famosa da Espanha.",
+     "tr": "O, İspanya'dan ünlü bir tenisçi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.footballer",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈfʊtˌbɔlɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The footballer scored two goals in the match.",
+     "uk": "Футболіст забив два голи в матчі.",
+     "ru": "Футболист забил два гола в матче.",
+     "pl": "Piłkarz strzelił dwa gole w meczu.",
+     "de": "Der Fußballspieler erzielte zwei Tore im Spiel.",
+     "fr": "Le footballeur a marqué deux buts dans le match.",
+     "es": "El futbolista anotó dos goles en el partido.",
+     "it": "Il calciatore ha segnato due gol nella partita.",
+     "pt": "O jogador de futebol marcou dois gols na partida.",
+     "tr": "Futbolcu maçta iki gol attı."
+    },
+    {
+     "en": "She is a talented footballer from Brazil.",
+     "uk": "Вона талановитий футболіст з Бразилії.",
+     "ru": "Она талантливый футболист из Бразилии.",
+     "pl": "Ona jest utalentowanym piłkarzem z Brazylii.",
+     "de": "Sie ist eine talentierte Fußballspielerin aus Brasilien.",
+     "fr": "C'est une footballeuse talentueuse du Brésil.",
+     "es": "Es una futbolista talentosa de Brasil.",
+     "it": "È un calciatore talentuoso del Brasile.",
+     "pt": "Ela é uma jogadora de futebol talentosa do Brasil.",
+     "tr": "O, Brezilyalı yetenekli bir futbolcu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.boxer",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ˈbɑksɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The boxer trained hard for the upcoming fight.",
+     "uk": "Боксер наполегливо тренувався до майбутнього бою.",
+     "ru": "Боксер усердно тренировался к предстоящему бою.",
+     "pl": "Bokser ciężko trenował przed nadchodzącą walką.",
+     "de": "Der Boxer trainierte hart für den bevorstehenden Kampf.",
+     "fr": "Le boxeur s'est entraîné dur pour le combat à venir.",
+     "es": "El boxeador entrenó duro para la próxima pelea.",
+     "it": "Il pugile si è allenato duramente per il prossimo incontro.",
+     "pt": "O boxeador treinou duro para a próxima luta.",
+     "tr": "Boksör, yaklaşan dövüş için sıkı çalıştı."
+    },
+    {
+     "en": "She is a world champion boxer.",
+     "uk": "Вона чемпіонка світу з боксу.",
+     "ru": "Она чемпионка мира по боксу.",
+     "pl": "Ona jest mistrzynią świata w boksie.",
+     "de": "Sie ist Weltmeisterin im Boxen.",
+     "fr": "C'est une boxeuse championne du monde.",
+     "es": "Es una boxeadora campeona del mundo.",
+     "it": "È una pugile campionessa del mondo.",
+     "pt": "Ela é uma boxeadora campeã mundial.",
+     "tr": "O, dünya şampiyonu bir boksör."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.boxing-gloves",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈbɑksɪŋ ɡlʌvz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He bought new boxing gloves for training.",
+     "uk": "Він купив нові боксерські рукавиці для тренування.",
+     "ru": "Он купил новые боксёрские перчатки для тренировки.",
+     "pl": "Kupił nowe rękawice bokserskie do treningu.",
+     "de": "Er kaufte neue Boxhandschuhe für das Training.",
+     "fr": "Il a acheté de nouveaux gants de boxe pour l'entraînement.",
+     "es": "Compró unos guantes de boxeo nuevos para entrenar.",
+     "it": "Ha comprato nuovi guantoni da boxe per l'allenamento.",
+     "pt": "Ele comprou novas luvas de boxe para o treino.",
+     "tr": "Antrenman için yeni boks eldiveni aldı."
+    },
+    {
+     "en": "The boxing gloves were too big for him.",
+     "uk": "Боксерські рукавиці були занадто великими для нього.",
+     "ru": "Боксёрские перчатки были слишком большими для него.",
+     "pl": "Rękawice bokserskie były dla niego za duże.",
+     "de": "Die Boxhandschuhe waren zu groß für ihn.",
+     "fr": "Les gants de boxe étaient trop grands pour lui.",
+     "es": "Los guantes de boxeo eran demasiado grandes para él.",
+     "it": "I guantoni da boxe erano troppo grandi per lui.",
+     "pt": "As luvas de boxe eram grandes demais para ele.",
+     "tr": "Boks eldivenleri onun için çok büyüktü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.ski-slope",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ski sloʊp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The ski slope was very crowded today.",
+     "uk": "Сьогодні лижний схил був дуже переповнений.",
+     "ru": "Сегодня горнолыжный склон был очень переполнен.",
+     "pl": "Dziś stok narciarski był bardzo zatłoczony.",
+     "de": "Die Skipiste war heute sehr voll.",
+     "fr": "La piste de ski était très bondée aujourd'hui.",
+     "es": "La pista de esquí estaba muy concurrida hoy.",
+     "it": "La pista da sci era molto affollata oggi.",
+     "pt": "A pista de esqui estava muito cheia hoje.",
+     "tr": "Kayak pisti bugün çok kalabalıktı."
+    },
+    {
+     "en": "He fell while skiing down the ski slope.",
+     "uk": "Він впав, спускаючись з лижного схилу.",
+     "ru": "Он упал, спускаясь с горнолыжного склона.",
+     "pl": "On upadł, zjeżdżając ze stoku narciarskiego.",
+     "de": "Er fiel, während er die Skipiste hinunterfuhr.",
+     "fr": "Il est tombé en descendant la piste de ski.",
+     "es": "Se cayó mientras esquiaba por la pista de esquí.",
+     "it": "È caduto mentre scendeva dalla pista da sci.",
+     "pt": "Ele caiu enquanto descia a pista de esqui.",
+     "tr": "Kayak yaparken kayak pistinden düştü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.snowboarding",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈsnoʊˌbɔrdɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love snowboarding in the winter.",
+     "uk": "Я люблю сноубординг взимку.",
+     "ru": "Я люблю сноубординг зимой.",
+     "pl": "Uwielbiam snowboard w zimie.",
+     "de": "Ich liebe Snowboarden im Winter.",
+     "fr": "J'adore le snowboard en hiver.",
+     "es": "Me encanta hacer snowboard en invierno.",
+     "it": "Adoro fare snowboard in inverno.",
+     "pt": "Adoro snowboard no inverno.",
+     "tr": "Kışın snowboard yapmayı seviyorum."
+    },
+    {
+     "en": "Snowboarding is exciting and fun.",
+     "uk": "Сноубординг - це захоплююче і весело.",
+     "ru": "Сноубординг - это захватывающе и весело.",
+     "pl": "Snowboard to ekscytujące i zabawne.",
+     "de": "Snowboarden ist aufregend und macht Spaß.",
+     "fr": "Le snowboard est excitant et amusant.",
+     "es": "El snowboard es emocionante y divertido.",
+     "it": "Lo snowboard è emozionante e divertente.",
+     "pt": "O snowboard é emocionante e divertido.",
+     "tr": "Snowboard heyecan verici ve eğlencelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.scuba-diving",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈskubə ˈdaɪvɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I went scuba diving in the ocean last summer.",
+     "uk": "Я займався дайвінгом в океані минулого літа.",
+     "ru": "Я занимался дайвингом в океане прошлым летом.",
+     "pl": "W zeszłe lato nurkowałem w oceanie.",
+     "de": "Ich bin letzten Sommer im Ozean tauchen gegangen.",
+     "fr": "J'ai fait de la plongée sous-marine dans l'océan l'été dernier.",
+     "es": "El verano pasado hice buceo en el océano.",
+     "it": "L'estate scorsa sono andato in immersione subacquea nell'oceano.",
+     "pt": "No verão passado, fiz mergulho no oceano.",
+     "tr": "Geçen yaz okyanusta tüplü dalış yaptım."
+    },
+    {
+     "en": "Scuba diving is an amazing underwater experience.",
+     "uk": "Дайвінг - це дивовижний підводний досвід.",
+     "ru": "Дайвинг - это удивительный подводный опыт.",
+     "pl": "Nurkowanie to niesamowite doświadczenie podwodne.",
+     "de": "Tauchen ist ein erstaunliches Unterwassererlebnis.",
+     "fr": "La plongée sous-marine est une expérience sous-marine incroyable.",
+     "es": "El buceo es una experiencia submarina increíble.",
+     "it": "L'immersione subacquea è un'esperienza sottomarina incredibile.",
+     "pt": "O mergulho é uma experiência subaquática incrível.",
+     "tr": "Tüplü dalış harika bir su altı deneyimidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.exercise-bike",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈɛksɚˌsaɪz baɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I use my exercise bike every morning.",
+     "uk": "Я користуюсь своїм велотренажером щоранку.",
+     "ru": "Я использую свой велотренажёр каждое утро.",
+     "pl": "Używam mojego roweru stacjonarnego każdego ranka.",
+     "de": "Ich benutze meinen Heimtrainer jeden Morgen.",
+     "fr": "J'utilise mon vélo d'appartement chaque matin.",
+     "es": "Uso mi bicicleta estática cada mañana.",
+     "it": "Uso la mia cyclette ogni mattina.",
+     "pt": "Uso minha bicicleta ergométrica todas as manhãs.",
+     "tr": "Her sabah kondisyon bisikletimi kullanıyorum."
+    },
+    {
+     "en": "The exercise bike is great for cardio workouts.",
+     "uk": "Велотренажер відмінно підходить для кардіотренувань.",
+     "ru": "Велотренажёр отлично подходит для кардиотренировок.",
+     "pl": "Rower stacjonarny jest świetny do treningu cardio.",
+     "de": "Der Heimtrainer ist großartig für das Herz-Kreislauf-Training.",
+     "fr": "Le vélo d'appartement est idéal pour les entraînements cardio.",
+     "es": "La bicicleta estática es genial para entrenamientos de cardio.",
+     "it": "La cyclette è ottima per gli allenamenti cardio.",
+     "pt": "A bicicleta ergométrica é ótima para treinos de cardio.",
+     "tr": "Kondisyon bisikleti kardiyo antrenmanları için harika."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.yoga-mat",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈjoʊɡə mæt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new yoga mat for my classes.",
+     "uk": "Я купив новий килимок для йоги для своїх занять.",
+     "ru": "Я купил новый коврик для йоги для своих занятий.",
+     "pl": "Kupiłem nową matę do jogi na moje zajęcia.",
+     "de": "Ich habe eine neue Yogamatte für meine Kurse gekauft.",
+     "fr": "J'ai acheté un nouveau tapis de yoga pour mes cours.",
+     "es": "Compré una nueva esterilla de yoga para mis clases.",
+     "it": "Ho comprato un nuovo tappetino da yoga per le mie lezioni.",
+     "pt": "Comprei um novo tapete de ioga para minhas aulas.",
+     "tr": "Derslerim için yeni bir yoga matı aldım."
+    },
+    {
+     "en": "A yoga mat helps with balance during poses.",
+     "uk": "Килимок для йоги допомагає з балансом під час поз.",
+     "ru": "Коврик для йоги помогает с балансом во время поз.",
+     "pl": "Mata do jogi pomaga w równowadze podczas pozycji.",
+     "de": "Eine Yogamatte hilft beim Gleichgewicht während der Posen.",
+     "fr": "Un tapis de yoga aide à l'équilibre pendant les poses.",
+     "es": "Una esterilla de yoga ayuda con el equilibrio durante las posturas.",
+     "it": "Un tappetino da yoga aiuta con l'equilibrio durante le pose.",
+     "pt": "Um tapete de ioga ajuda com o equilíbrio durante as posturas.",
+     "tr": "Bir yoga matı, pozlar sırasında dengeye yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.hiking-boots",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/ˈhaɪkɪŋ buts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear my hiking boots for mountain walks.",
+     "uk": "Я ношу туристичні черевики для гірських прогулянок.",
+     "ru": "Я ношу треккинговые ботинки для горных прогулок.",
+     "pl": "Noszę buty trekkingowe na górskie spacery.",
+     "de": "Ich trage meine Wanderschuhe für Bergwanderungen.",
+     "fr": "Je porte mes chaussures de randonnée pour les promenades en montagne.",
+     "es": "Uso mis botas de montaña para caminatas en la montaña.",
+     "it": "Indosso i miei scarponi da trekking per le passeggiate in montagna.",
+     "pt": "Uso minhas botas de trilha para caminhadas na montanha.",
+     "tr": "Dağ yürüyüşleri için yürüyüş botlarımı giyiyorum."
+    },
+    {
+     "en": "Hiking boots are essential for outdoor adventures.",
+     "uk": "Туристичні черевики є обов'язковими для пригод на природі.",
+     "ru": "Треккинговые ботинки необходимы для приключений на свежем воздухе.",
+     "pl": "Buty trekkingowe są niezbędne do przygód na świeżym powietrzu.",
+     "de": "Wanderschuhe sind für Outdoor-Abenteuer unerlässlich.",
+     "fr": "Les chaussures de randonnée sont essentielles pour les aventures en plein air.",
+     "es": "Las botas de montaña son esenciales para aventuras al aire libre.",
+     "it": "Gli scarponi da trekking sono essenziali per avventure all'aperto.",
+     "pt": "As botas de trilha são essenciais para aventuras ao ar livre.",
+     "tr": "Yürüyüş botları, açık hava maceraları için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.baseball-bat",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈbeɪsˈbɔl bæt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He swung the baseball bat to hit the ball.",
+     "uk": "Він розмахнув бейсбольною битою, щоб вдарити по м'ячу.",
+     "ru": "Он размахнулся бейсбольной битой, чтобы ударить по мячу.",
+     "pl": "On zamachnął kijem baseballowym, aby uderzyć w piłkę.",
+     "de": "Er schwang den Baseballschläger, um den Ball zu treffen.",
+     "fr": "Il a balancé la batte de baseball pour frapper la balle.",
+     "es": "Él balanceó el bate de béisbol para golpear la pelota.",
+     "it": "Ha oscillato la mazza da baseball per colpire la palla.",
+     "pt": "Ele balançou o taco de beisebol para acertar a bola.",
+     "tr": "Topa vurmak için beyzbol sopasını salladı."
+    },
+    {
+     "en": "The baseball bat is made of wood or metal.",
+     "uk": "Бейсбольна бита виготовлена з дерева або металу.",
+     "ru": "Бейсбольная бита сделана из дерева или металла.",
+     "pl": "Kij baseballowy jest wykonany z drewna lub metalu.",
+     "de": "Der Baseballschläger besteht aus Holz oder Metall.",
+     "fr": "La batte de baseball est faite de bois ou de métal.",
+     "es": "El bate de béisbol está hecho de madera o metal.",
+     "it": "La mazza da baseball è fatta di legno o metallo.",
+     "pt": "O taco de beisebol é feito de madeira ou metal.",
+     "tr": "Beyzbol sopası ahşap veya metalden yapılmıştır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.sports-centre",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/spɔrts ˈsɛntɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to the sports centre to play basketball.",
+     "uk": "Я ходжу до спортивного центру, щоб грати в баскетбол.",
+     "ru": "Я хожу в спортивный центр, чтобы играть в баскетбол.",
+     "pl": "Chodzę do centrum sportowego, aby grać w koszykówkę.",
+     "de": "Ich gehe ins Sportzentrum, um Basketball zu spielen.",
+     "fr": "Je vais au centre sportif pour jouer au basket.",
+     "es": "Voy al polideportivo para jugar al baloncesto.",
+     "it": "Vado al centro sportivo per giocare a basket.",
+     "pt": "Vou ao centro esportivo para jogar basquete.",
+     "tr": "Basketbol oynamak için spor merkezine gidiyorum."
+    },
+    {
+     "en": "The sports centre has a swimming pool and gym.",
+     "uk": "У спортивному центрі є басейн і тренажерний зал.",
+     "ru": "В спортивном центре есть бассейн и тренажерный зал.",
+     "pl": "W centrum sportowym jest basen i siłownia.",
+     "de": "Das Sportzentrum hat ein Schwimmbad und ein Fitnessstudio.",
+     "fr": "Le centre sportif a une piscine et une salle de sport.",
+     "es": "El polideportivo tiene una piscina y un gimnasio.",
+     "it": "Il centro sportivo ha una piscina e una palestra.",
+     "pt": "O centro esportivo tem uma piscina e uma academia.",
+     "tr": "Spor merkezinde bir yüzme havuzu ve spor salonu var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.swimming-lesson",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˈswɪmɪŋ ˈlɛsən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I take a swimming lesson every Saturday.",
+     "uk": "Я відвідую урок плавання кожну суботу.",
+     "ru": "Я посещаю урок плавания каждую субботу.",
+     "pl": "Biorę lekcję pływania w każdą sobotę.",
+     "de": "Ich nehme jeden Samstag Schwimmunterricht.",
+     "fr": "Je prends un cours de natation tous les samedis.",
+     "es": "Tomo una clase de natación todos los sábados.",
+     "it": "Faccio lezione di nuoto ogni sabato.",
+     "pt": "Faço aula de natação todo sábado.",
+     "tr": "Her Cumartesi yüzme dersi alıyorum."
+    },
+    {
+     "en": "Swimming lessons help me improve my skills.",
+     "uk": "Уроки плавання допомагають мені покращити свої навички.",
+     "ru": "Уроки плавания помогают мне улучшить свои навыки.",
+     "pl": "Lekcje pływania pomagają mi poprawić moje umiejętności.",
+     "de": "Schwimmunterricht hilft mir, meine Fähigkeiten zu verbessern.",
+     "fr": "Les cours de natation m'aident à améliorer mes compétences.",
+     "es": "Las clases de natación me ayudan a mejorar mis habilidades.",
+     "it": "Lezioni di nuoto mi aiutano a migliorare le mie abilità.",
+     "pt": "As aulas de natação me ajudam a melhorar minhas habilidades.",
+     "tr": "Yüzme dersleri, becerilerimi geliştirmeme yardımcı oluyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.to-do-sport",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/du spɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to do sport every day.",
+     "uk": "Мені подобається займатися спортом щодня.",
+     "ru": "Мне нравится заниматься спортом каждый день.",
+     "pl": "Lubię uprawiać sport codziennie.",
+     "de": "Ich mache jeden Tag Sport.",
+     "fr": "J'aime faire du sport tous les jours.",
+     "es": "Me gusta hacer deporte todos los días.",
+     "it": "Mi piace fare sport ogni giorno.",
+     "pt": "Gosto de praticar esporte todos os dias.",
+     "tr": "Her gün spor yapmayı seviyorum."
+    },
+    {
+     "en": "It's important to do sport for health.",
+     "uk": "Важливо займатися спортом для здоров'я.",
+     "ru": "Важно заниматься спортом для здоровья.",
+     "pl": "Ważne jest uprawianie sportu dla zdrowia.",
+     "de": "Es ist wichtig, Sport für die Gesundheit zu treiben.",
+     "fr": "C'est important de faire du sport pour la santé.",
+     "es": "Es importante hacer deporte para la salud.",
+     "it": "È importante fare sport per la salute.",
+     "pt": "É importante praticar esporte para a saúde.",
+     "tr": "Sağlık için spor yapmak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.team-sport",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/tim spɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Basketball is my favorite team sport.",
+     "uk": "Баскетбол - мій улюблений командний вид спорту.",
+     "ru": "Баскетбол - мой любимый командный вид спорта.",
+     "pl": "Koszykówka to mój ulubiony sport drużynowy.",
+     "de": "Basketball ist mein Lieblingsmannschaftssport.",
+     "fr": "Le basketball est mon sport d'équipe préféré.",
+     "es": "El baloncesto es mi deporte de equipo favorito.",
+     "it": "Il basket è il mio sport di squadra preferito.",
+     "pt": "O basquete é meu esporte coletivo favorito.",
+     "tr": "Basketbol benim en sevdiğim takım sporudur."
+    },
+    {
+     "en": "Playing a team sport builds friendships.",
+     "uk": "Гра в командний вид спорту будує дружбу.",
+     "ru": "Игра в командный вид спорта строит дружбу.",
+     "pl": "Gra w sport drużynowy buduje przyjaźnie.",
+     "de": "Mannschaftssport fördert Freundschaften.",
+     "fr": "Jouer à un sport d'équipe crée des amitiés.",
+     "es": "Jugar a un deporte de equipo crea amistades.",
+     "it": "Giocare a uno sport di squadra crea amicizie.",
+     "pt": "Jogar um esporte coletivo cria amizades.",
+     "tr": "Takım sporları oynamak arkadaşlıklar kurar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.water-sports",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈwɔtɚ spɔrts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I enjoy water sports during the summer.",
+     "uk": "Я люблю водні види спорту влітку.",
+     "ru": "Я люблю водные виды спорта летом.",
+     "pl": "Lubię sporty wodne latem.",
+     "de": "Ich genieße Wassersport im Sommer.",
+     "fr": "J'aime les sports nautiques en été.",
+     "es": "Disfruto de los deportes acuáticos en verano.",
+     "it": "Mi piacciono gli sport acquatici in estate.",
+     "pt": "Eu gosto de esportes aquáticos no verão.",
+     "tr": "Yazın su sporlarından keyif alırım."
+    },
+    {
+     "en": "Water sports are exciting and fun for everyone.",
+     "uk": "Водні види спорту захоплюючі та веселі для всіх.",
+     "ru": "Водные виды спорта захватывающие и веселые для всех.",
+     "pl": "Sporty wodne są ekscytujące i zabawne dla wszystkich.",
+     "de": "Wassersport ist spannend und macht allen Spaß.",
+     "fr": "Les sports nautiques sont passionnants et amusants pour tous.",
+     "es": "Los deportes acuáticos son emocionantes y divertidos para todos.",
+     "it": "Gli sport acquatici sono emozionanti e divertenti per tutti.",
+     "pt": "Os esportes aquáticos são emocionantes e divertidos para todos.",
+     "tr": "Su sporları herkes için heyecan verici ve eğlencelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.winter-sports",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/ˈwɪntɚ spɔrts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love winter sports like skiing and snowboarding.",
+     "uk": "Я люблю зимові види спорту, такі як лижі та сноубординг.",
+     "ru": "Я люблю зимние виды спорта, такие как лыжи и сноубординг.",
+     "pl": "Uwielbiam sporty zimowe, takie jak narciarstwo i snowboard.",
+     "de": "Ich liebe Wintersportarten wie Skifahren und Snowboarden.",
+     "fr": "J'adore les sports d'hiver comme le ski et le snowboard.",
+     "es": "Me encantan los deportes de invierno como el esquí y el snowboard.",
+     "it": "Amo gli sport invernali come lo sci e lo snowboard.",
+     "pt": "Eu adoro esportes de inverno como esqui e snowboard.",
+     "tr": "Kayak ve snowboard gibi kış sporlarını çok seviyorum."
+    },
+    {
+     "en": "Winter sports are popular in snowy regions.",
+     "uk": "Зимові види спорту популярні в снігових регіонах.",
+     "ru": "Зимние виды спорта популярны в снежных регионах.",
+     "pl": "Sporty zimowe są popularne w śnieżnych regionach.",
+     "de": "Wintersport ist in schneereichen Regionen beliebt.",
+     "fr": "Les sports d'hiver sont populaires dans les régions enneigées.",
+     "es": "Los deportes de invierno son populares en regiones nevadas.",
+     "it": "Gli sport invernali sono popolari nelle regioni nevose.",
+     "pt": "Os esportes de inverno são populares em regiões nevadas.",
+     "tr": "Kış sporları karla kaplı bölgelerde popülerdir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.stopwatch",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/ˈstɑpˌwɑtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a stopwatch for my running practice.",
+     "uk": "Мені потрібен секундомір для моїх бігових тренувань.",
+     "ru": "Мне нужен секундомер для моей тренировки по бегу.",
+     "pl": "Potrzebuję stopera na moje treningi biegowe.",
+     "de": "Ich brauche eine Stoppuhr für mein Lauftraining.",
+     "fr": "J'ai besoin d'un chronomètre pour mon entraînement de course.",
+     "es": "Necesito un cronómetro para mi práctica de correr.",
+     "it": "Ho bisogno di un cronometro per il mio allenamento di corsa.",
+     "pt": "Preciso de um cronômetro para meu treino de corrida.",
+     "tr": "Koşu antrenmanım için bir kronometreye ihtiyacım var."
+    },
+    {
+     "en": "Use a stopwatch to time the race.",
+     "uk": "Використовуйте секундомір, щоб виміряти час гонки.",
+     "ru": "Используйте секундомер, чтобы засечь время гонки.",
+     "pl": "Użyj stopera, aby zmierzyć czas wyścigu.",
+     "de": "Verwende eine Stoppuhr, um das Rennen zu stoppen.",
+     "fr": "Utilisez un chronomètre pour chronométrer la course.",
+     "es": "Usa un cronómetro para cronometrar la carrera.",
+     "it": "Usa un cronometro per cronometrare la gara.",
+     "pt": "Use um cronômetro para cronometrar a corrida.",
+     "tr": "Yarışı zamanlamak için bir kronometre kullan."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.surfboard",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ˈsɝfˌbɔrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new surfboard for the beach.",
+     "uk": "Я купив нову дошку для серфінгу для пляжу.",
+     "ru": "Я купил новую доску для сёрфинга для пляжа.",
+     "pl": "Kupiłem nową deskę surfingową na plażę.",
+     "de": "Ich habe ein neues Surfbrett für den Strand gekauft.",
+     "fr": "J'ai acheté une nouvelle planche de surf pour la plage.",
+     "es": "Compré una nueva tabla de surf para la playa.",
+     "it": "Ho comprato una nuova tavola da surf per la spiaggia.",
+     "pt": "Comprei uma nova prancha de surfe para a praia.",
+     "tr": "Plaj için yeni bir sörf tahtası aldım."
+    },
+    {
+     "en": "He practices surfing on his surfboard every weekend.",
+     "uk": "Він практикує серфінг на своїй дошці для серфінгу щовихідних.",
+     "ru": "Он практикует серфинг на своей доске для сёрфинга каждые выходные.",
+     "pl": "On ćwiczy surfing na swojej desce surfingowej w każdy weekend.",
+     "de": "Er übt jeden Sonntag auf seinem Surfbrett.",
+     "fr": "Il pratique le surf sur sa planche de surf tous les week-ends.",
+     "es": "Él practica surf en su tabla de surf todos los fines de semana.",
+     "it": "Lui pratica surf sulla sua tavola da surf ogni weekend.",
+     "pt": "Ele pratica surf na sua prancha de surfe todo fim de semana.",
+     "tr": "Her hafta sonu sörf tahtasında sörf yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.rowing",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/ˈroʊɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Rowing is a great workout for your arms.",
+     "uk": "Веслування – це чудова тренування для твоїх рук.",
+     "ru": "Гребля – отличная тренировка для ваших рук.",
+     "pl": "Wioślarstwo to świetny trening dla twoich ramion.",
+     "de": "Rudern ist ein tolles Training für deine Arme.",
+     "fr": "L'aviron est un excellent exercice pour vos bras.",
+     "es": "El remo es un gran ejercicio para tus brazos.",
+     "it": "Il canottaggio è un ottimo allenamento per le braccia.",
+     "pt": "O remo é um ótimo exercício para os braços.",
+     "tr": "Kürek çekmek, kollarınız için harika bir egzersizdir."
+    },
+    {
+     "en": "I enjoy rowing on the lake in summer.",
+     "uk": "Я люблю веслувати на озері влітку.",
+     "ru": "Я люблю греблю на озере летом.",
+     "pl": "Lubię wioślarstwo na jeziorze latem.",
+     "de": "Ich genieße das Rudern im Sommer auf dem See.",
+     "fr": "J'aime faire de l'aviron sur le lac en été.",
+     "es": "Disfruto del remo en el lago en verano.",
+     "it": "Mi piace il canottaggio sul lago in estate.",
+     "pt": "Eu gosto de remar no lago no verão.",
+     "tr": "Yazın gölde kürek çekmeyi seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.athletics",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/æθˈlɛtɪks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Athletics includes running, jumping, and throwing events.",
+     "uk": "Легка атлетика включає бігові, стрибкові та метальні дисципліни.",
+     "ru": "Легкая атлетика включает в себя бег, прыжки и метание.",
+     "pl": "Lekkoatletyka obejmuje biegi, skoki i rzuty.",
+     "de": "Leichtathletik umfasst Lauf-, Sprung- und Wurfdisziplinen.",
+     "fr": "L'athlétisme comprend des épreuves de course, de saut et de lancer.",
+     "es": "El atletismo incluye eventos de carrera, salto y lanzamiento.",
+     "it": "L'atletica leggera include eventi di corsa, salto e lancio.",
+     "pt": "O atletismo inclui eventos de corrida, salto e arremesso.",
+     "tr": "Atletizm koşu, atlama ve atış etkinliklerini içerir."
+    },
+    {
+     "en": "She trains in athletics every day after school.",
+     "uk": "Вона тренується з легкої атлетики щодня після школи.",
+     "ru": "Она тренируется по легкой атлетике каждый день после школы.",
+     "pl": "Ona trenuje lekkoatletykę codziennie po szkole.",
+     "de": "Sie trainiert jeden Tag nach der Schule in der Leichtathletik.",
+     "fr": "Elle s'entraîne en athlétisme tous les jours après l'école.",
+     "es": "Ella entrena en atletismo todos los días después de la escuela.",
+     "it": "Lei si allena in atletica leggera ogni giorno dopo scuola.",
+     "pt": "Ela treina atletismo todos os dias após a escola.",
+     "tr": "O, okuldan sonra her gün atletizm antrenmanı yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.ice-rink",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/aɪs rɪŋk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We went to the ice rink to skate.",
+     "uk": "Ми пішли на ковзанку кататися.",
+     "ru": "Мы пошли на каток кататься.",
+     "pl": "Poszliśmy na lodowisko, aby pojeździć.",
+     "de": "Wir gingen zur Eisbahn zum Schlittschuhlaufen.",
+     "fr": "Nous sommes allés à la patinoire pour patiner.",
+     "es": "Fuimos a la pista de hielo a patinar.",
+     "it": "Siamo andati alla pista di pattinaggio per pattinare.",
+     "pt": "Fomos à pista de patinação para patinar.",
+     "tr": "Kayak yapmak için buz pistine gittik."
+    },
+    {
+     "en": "The ice rink is open all winter long.",
+     "uk": "Ковзанка відкрита всю зиму.",
+     "ru": "Каток открыт всю зиму.",
+     "pl": "Lodowisko jest otwarte przez całą zimę.",
+     "de": "Die Eisbahn ist den ganzen Winter über geöffnet.",
+     "fr": "La patinoire est ouverte tout l'hiver.",
+     "es": "La pista de hielo está abierta todo el invierno.",
+     "it": "La pista di pattinaggio è aperta per tutto l'inverno.",
+     "pt": "A pista de patinação está aberta o inverno todo.",
+     "tr": "Buz pisti kış boyunca açıktır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.ski-boots",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ski buts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need new ski boots for the winter.",
+     "uk": "Мені потрібні нові лижні черевики на зиму.",
+     "ru": "Мне нужны новые горнолыжные ботинки на зиму.",
+     "pl": "Potrzebuję nowych butów narciarskich na zimę.",
+     "de": "Ich brauche neue Skischuhe für den Winter.",
+     "fr": "J'ai besoin de nouvelles chaussures de ski pour l'hiver.",
+     "es": "Necesito nuevas botas de esquí para el invierno.",
+     "it": "Ho bisogno di nuovi scarponi da sci per l'inverno.",
+     "pt": "Preciso de novas botas de esqui para o inverno.",
+     "tr": "Kış için yeni kayak botlarına ihtiyacım var."
+    },
+    {
+     "en": "These ski boots are very comfortable.",
+     "uk": "Ці лижні черевики дуже зручні.",
+     "ru": "Эти горнолыжные ботинки очень удобные.",
+     "pl": "Te buty narciarskie są bardzo wygodne.",
+     "de": "Diese Skischuhe sind sehr bequem.",
+     "fr": "Ces chaussures de ski sont très confortables.",
+     "es": "Estas botas de esquí son muy cómodas.",
+     "it": "Questi scarponi da sci sono molto comodi.",
+     "pt": "Essas botas de esqui são muito confortáveis.",
+     "tr": "Bu kayak botları çok rahat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.kick-off",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/kɪk ɔf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The kick-off is at 3 PM today.",
+     "uk": "Початок матчу сьогодні о 15:00.",
+     "ru": "Начало матча сегодня в 15:00.",
+     "pl": "Rozpoczęcie meczu jest dzisiaj o 15:00.",
+     "de": "Der Anstoß ist heute um 15 Uhr.",
+     "fr": "Le coup d'envoi est à 15 heures aujourd'hui.",
+     "es": "El saque inicial es hoy a las 3 PM.",
+     "it": "Il calcio d'inizio è oggi alle 15:00.",
+     "pt": "O pontapé inicial é hoje às 15h.",
+     "tr": "Başlama vuruşu bugün saat 15:00'te."
+    },
+    {
+     "en": "I arrived just before the kick-off.",
+     "uk": "Я приїхав прямо перед початком матчу.",
+     "ru": "Я приехал прямо перед началом матча.",
+     "pl": "Przyjechałem tuż przed rozpoczęciem meczu.",
+     "de": "Ich kam kurz vor dem Anstoß an.",
+     "fr": "Je suis arrivé juste avant le coup d'envoi.",
+     "es": "Llegué justo antes del saque inicial.",
+     "it": "Sono arrivato poco prima del calcio d'inizio.",
+     "pt": "Cheguei bem antes do pontapé inicial.",
+     "tr": "Başlama vuruşundan hemen önce geldim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "sports.aerobics",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ɚˈoʊbɪks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to aerobics classes twice a week.",
+     "uk": "Я ходжу на заняття аеробікою двічі на тиждень.",
+     "ru": "Я хожу на занятия аэробикой два раза в неделю.",
+     "pl": "Chodzę na zajęcia aerobiku dwa razy w tygodniu.",
+     "de": "Ich gehe zweimal pro Woche zu Aerobic-Kursen.",
+     "fr": "Je vais à des cours d'aérobic deux fois par semaine.",
+     "es": "Voy a clases de aeróbic dos veces por semana.",
+     "it": "Vado a corsi di aerobica due volte a settimana.",
+     "pt": "Vou a aulas de aeróbica duas vezes por semana.",
+     "tr": "Haftada iki kez aerobik derslerine gidiyorum."
+    },
+    {
+     "en": "Aerobics is a fun way to stay fit.",
+     "uk": "Аеробіка – це веселий спосіб залишатися у формі.",
+     "ru": "Аэробика – это веселый способ поддерживать форму.",
+     "pl": "Aerobik to świetny sposób na utrzymanie formy.",
+     "de": "Aerobic ist eine lustige Art, fit zu bleiben.",
+     "fr": "L'aérobic est un moyen amusant de rester en forme.",
+     "es": "El aeróbic es una forma divertida de mantenerse en forma.",
+     "it": "L'aerobica è un modo divertente per rimanere in forma.",
+     "pt": "A aeróbica é uma maneira divertida de se manter em forma.",
+     "tr": "Aerobik, formda kalmanın eğlenceli bir yoludur."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

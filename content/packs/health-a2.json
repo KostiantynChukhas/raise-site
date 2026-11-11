@@ -2,7 +2,7 @@
  "id": "health-a2",
  "topic": "health",
  "level": "a2",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "health.symptom",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˈsɪmptəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A fever is a common symptom of the flu.",
+     "uk": "Лихоманка - це поширений симптом грипу.",
+     "ru": "Лихорадка - это общий симптом гриппа.",
+     "pl": "Gorączka to powszechny objaw grypy.",
+     "de": "Fieber ist ein häufiges Symptom der Grippe.",
+     "fr": "La fièvre est un symptôme courant de la grippe.",
+     "es": "La fiebre es un síntoma común de la gripe.",
+     "it": "La febbre è un sintomo comune dell'influenza.",
+     "pt": "A febre é um sintoma comum da gripe.",
+     "tr": "Ateş, gripin yaygın bir belirtisidir."
+    },
+    {
+     "en": "Coughing can be a symptom of a cold.",
+     "uk": "Кашель може бути симптомом застуди.",
+     "ru": "Кашель может быть симптомом простуды.",
+     "pl": "Kaszel może być objawem przeziębienia.",
+     "de": "Husten kann ein Symptom einer Erkältung sein.",
+     "fr": "La toux peut être un symptôme d'un rhume.",
+     "es": "La tos puede ser un síntoma de un resfriado.",
+     "it": "La tosse può essere un sintomo di un raffreddore.",
+     "pt": "A tosse pode ser um sintoma de um resfriado.",
+     "tr": "Öksürük, soğuk algınlığının bir belirtisi olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.sore-throat",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/sɔr θroʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a sore throat and can't speak well.",
+     "uk": "У мене біль у горлі і я не можу добре говорити.",
+     "ru": "У меня боль в горле, и я не могу хорошо говорить.",
+     "pl": "Mam ból gardła i nie mogę dobrze mówić.",
+     "de": "Ich habe Halsschmerzen und kann nicht gut sprechen.",
+     "fr": "J'ai mal de gorge et je ne peux pas bien parler.",
+     "es": "Tengo dolor de garganta y no puedo hablar bien.",
+     "it": "Ho mal di gola e non riesco a parlare bene.",
+     "pt": "Estou com dor de garganta e não consigo falar bem.",
+     "tr": "Boğazım ağrıyor ve iyi konuşamıyorum."
+    },
+    {
+     "en": "Drinking warm tea helps my sore throat feel better.",
+     "uk": "Пиття теплого чаю допомагає зменшити біль у горлі.",
+     "ru": "Пить теплый чай помогает облегчить боль в горле.",
+     "pl": "Picie ciepłej herbaty pomaga złagodzić ból gardła.",
+     "de": "Warmer Tee hilft bei Halsschmerzen.",
+     "fr": "Boire du thé chaud aide à soulager le mal de gorge.",
+     "es": "Beber té caliente ayuda a aliviar el dolor de garganta.",
+     "it": "Bere tè caldo aiuta a lenire il mal di gola.",
+     "pt": "Beber chá quente ajuda a aliviar a dor de garganta.",
+     "tr": "Sıcak çay içmek boğaz ağrısını hafifletmeye yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.runny-nose",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/ˈrʌni noʊz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a runny nose because of my allergy.",
+     "uk": "У мене нежить через алергію.",
+     "ru": "У меня насморк из-за аллергии.",
+     "pl": "Mam katar z powodu alergii.",
+     "de": "Ich habe Schnupfen wegen meiner Allergie.",
+     "fr": "J'ai le nez qui coule à cause de mon allergie.",
+     "es": "Tengo mocos por mi alergia.",
+     "it": "Ho il naso che cola a causa della mia allergia.",
+     "pt": "Estou com o nariz escorrendo por causa da minha alergia.",
+     "tr": "Alerjim yüzünden burun akıntım var."
+    },
+    {
+     "en": "A runny nose often happens during a cold.",
+     "uk": "Нежить часто виникає під час застуди.",
+     "ru": "Насморк часто возникает при простуде.",
+     "pl": "Katar często występuje podczas przeziębienia.",
+     "de": "Schnupfen tritt oft bei einer Erkältung auf.",
+     "fr": "Le nez qui coule se produit souvent lors d'un rhume.",
+     "es": "Los mocos a menudo ocurren durante un resfriado.",
+     "it": "Il naso che cola si verifica spesso durante un raffreddore.",
+     "pt": "O nariz escorrendo muitas vezes acontece durante um resfriado.",
+     "tr": "Burun akıntısı genellikle soğuk algınlığı sırasında olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.flu",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/flu/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I caught the flu and need to rest.",
+     "uk": "Я підхопив грип і мені потрібно відпочити.",
+     "ru": "Я подхватил грипп и мне нужно отдохнуть.",
+     "pl": "Złapałem grypę i muszę odpocząć.",
+     "de": "Ich habe die Grippe erwischt und muss mich ausruhen.",
+     "fr": "J'ai attrapé la grippe et je dois me reposer.",
+     "es": "Contraje la gripe y necesito descansar.",
+     "it": "Ho preso l'influenza e devo riposare.",
+     "pt": "Peguei a gripe e preciso descansar.",
+     "tr": "Gribi kaptım ve dinlenmem gerekiyor."
+    },
+    {
+     "en": "The flu can cause fever and body aches.",
+     "uk": "Грип може викликати лихоманку та біль у тілі.",
+     "ru": "Грипп может вызывать лихорадку и боли в теле.",
+     "pl": "Grypa może powodować gorączkę i bóle ciała.",
+     "de": "Die Grippe kann Fieber und Gliederschmerzen verursachen.",
+     "fr": "La grippe peut provoquer de la fièvre et des douleurs corporelles.",
+     "es": "La gripe puede causar fiebre y dolores corporales.",
+     "it": "L'influenza può causare febbre e dolori muscolari.",
+     "pt": "A gripe pode causar febre e dores no corpo.",
+     "tr": "Grip ateş ve vücut ağrısına neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-sneeze",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/sniz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to sneeze, but I will hold it.",
+     "uk": "Мені потрібно чхати, але я стримаюсь.",
+     "ru": "Мне нужно чихнуть, но я сдержусь.",
+     "pl": "Muszę kichnąć, ale się powstrzymam.",
+     "de": "Ich muss niesen, aber ich werde es zurückhalten.",
+     "fr": "J'ai besoin d'éternuer, mais je vais me retenir.",
+     "es": "Necesito estornudar, pero me aguantaré.",
+     "it": "Ho bisogno di starnutire, ma mi trattengo.",
+     "pt": "Preciso espirrar, mas vou me segurar.",
+     "tr": "Hapşırmam gerekiyor ama kendimi tutacağım."
+    },
+    {
+     "en": "It's polite to cover your mouth when you sneeze.",
+     "uk": "Ввічливо закривати рот, коли чхаєш.",
+     "ru": "Вежливо закрывать рот, когда ты чихаешь.",
+     "pl": "To grzecznie zakrywać usta, gdy kichasz.",
+     "de": "Es ist höflich, den Mund zu bedecken, wenn man niest.",
+     "fr": "C'est poli de couvrir sa bouche quand on éternue.",
+     "es": "Es educado cubrirse la boca cuando estornudas.",
+     "it": "È educato coprire la bocca quando starnutisci.",
+     "pt": "É educado cobrir a boca quando você espirra.",
+     "tr": "Hapşırdığınızda ağzınızı kapatmak nazik bir davranıştır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.nausea",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈnɔziə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I feel nausea after eating too much.",
+     "uk": "Я відчуваю нудоту після того, як переїв.",
+     "ru": "Я чувствую тошноту после того, как переел.",
+     "pl": "Czuję mdłości po zjedzeniu zbyt dużo.",
+     "de": "Ich fühle Übelkeit, nachdem ich zu viel gegessen habe.",
+     "fr": "Je ressens de la nausée après avoir trop mangé.",
+     "es": "Siento náuseas después de comer demasiado.",
+     "it": "Sento nausea dopo aver mangiato troppo.",
+     "pt": "Estou com enjoo depois de comer demais.",
+     "tr": "Çok yedikten sonra mide bulantısı hissediyorum."
+    },
+    {
+     "en": "Nausea can be a sign of motion sickness.",
+     "uk": "Нудота може бути ознакою хвороби руху.",
+     "ru": "Тошнота может быть признаком укачивания.",
+     "pl": "Mdłości mogą być oznaką choroby lokomocyjnej.",
+     "de": "Übelkeit kann ein Zeichen von Reisekrankheit sein.",
+     "fr": "La nausée peut être un signe de mal des transports.",
+     "es": "La náusea puede ser un signo de mareo.",
+     "it": "La nausea può essere un segno di mal d'auto.",
+     "pt": "O enjoo pode ser um sinal de enjoo de movimento.",
+     "tr": "Mide bulantısı, hareket hastalığının bir işareti olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.i-feel-dizzy",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/aɪ fil ˈdɪzi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I feel dizzy after standing up too quickly.",
+     "uk": "У мене паморочиться в голові після швидкого підйому.",
+     "ru": "У меня кружится голова после быстрого вставания.",
+     "pl": "Kręci mi się w głowie po szybkim wstaniu.",
+     "de": "Mir ist schwindelig, nachdem ich zu schnell aufgestanden bin.",
+     "fr": "J'ai la tête qui tourne après m'être levé trop vite.",
+     "es": "Estoy mareado después de levantarme demasiado rápido.",
+     "it": "Mi gira la testa dopo essermi alzato troppo in fretta.",
+     "pt": "Estou tonto depois de me levantar muito rápido.",
+     "tr": "Çabuk kalktıktan sonra başım dönüyor."
+    },
+    {
+     "en": "When I spin, I feel dizzy.",
+     "uk": "Коли я обертаюся, у мене паморочиться в голові.",
+     "ru": "Когда я кручусь, у меня кружится голова.",
+     "pl": "Kiedy się kręcę, kręci mi się w głowie.",
+     "de": "Wenn ich mich drehe, wird mir schwindelig.",
+     "fr": "Quand je tourne, j'ai la tête qui tourne.",
+     "es": "Cuando giro, estoy mareado.",
+     "it": "Quando giro, mi gira la testa.",
+     "pt": "Quando giro, estou tonto.",
+     "tr": "Döndüğümde başım dönüyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.allergy",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˈælɚdʒi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have an allergy to nuts and peanuts.",
+     "uk": "У мене алергія на горіхи та арахіс.",
+     "ru": "У меня аллергия на орехи и арахис.",
+     "pl": "Mam alergię na orzechy i orzeszki ziemne.",
+     "de": "Ich habe eine Allergie gegen Nüsse und Erdnüsse.",
+     "fr": "J'ai une allergie aux noix et aux cacahuètes.",
+     "es": "Tengo alergia a las nueces y a los cacahuetes.",
+     "it": "Ho un'allergia alle noci e ai pinoli.",
+     "pt": "Tenho alergia a nozes e amendoins.",
+     "tr": "Kuruyemiş ve yer fıstığına alerjim var."
+    },
+    {
+     "en": "Allergy symptoms can include sneezing and itching.",
+     "uk": "Симптоми алергії можуть включати чхання та свербіж.",
+     "ru": "Симптомы аллергии могут включать чихание и зуд.",
+     "pl": "Objawy alergii mogą obejmować kichanie i swędzenie.",
+     "de": "Allergiesymptome können Niesen und Juckreiz umfassen.",
+     "fr": "Les symptômes d'allergie peuvent inclure des éternuements et des démangeaisons.",
+     "es": "Los síntomas de alergia pueden incluir estornudos y picazón.",
+     "it": "I sintomi di allergia possono includere starnuti e prurito.",
+     "pt": "Os sintomas de alergia podem incluir espirros e coceira.",
+     "tr": "Alerji belirtileri arasında hapşırma ve kaşıntı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.prescription",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/prəˈskrɪpʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a prescription for my medicine.",
+     "uk": "Мені потрібен рецепт на мої ліки.",
+     "ru": "Мне нужен рецепт на мои лекарства.",
+     "pl": "Potrzebuję recepty na moje leki.",
+     "de": "Ich brauche ein Rezept für meine Medikamente.",
+     "fr": "J'ai besoin d'une ordonnance pour mes médicaments.",
+     "es": "Necesito una receta para mi medicina.",
+     "it": "Ho bisogno di una ricetta per i miei farmaci.",
+     "pt": "Preciso de uma receita para o meu remédio.",
+     "tr": "İlacım için bir reçeteye ihtiyacım var."
+    },
+    {
+     "en": "The doctor wrote me a prescription yesterday.",
+     "uk": "Лікар написав мені рецепт вчора.",
+     "ru": "Врач написал мне рецепт вчера.",
+     "pl": "Lekarz napisał mi receptę wczoraj.",
+     "de": "Der Arzt hat mir gestern ein Rezept geschrieben.",
+     "fr": "Le médecin m'a écrit une ordonnance hier.",
+     "es": "El médico me escribió una receta ayer.",
+     "it": "Il dottore mi ha scritto una ricetta ieri.",
+     "pt": "O médico me escreveu uma receita ontem.",
+     "tr": "Doktor dün bana bir reçete yazdı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.painkiller",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪnˌkɪlɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I took a painkiller for my headache.",
+     "uk": "Я прийняв знеболювальне від головного болю.",
+     "ru": "Я принял обезболивающее от головной боли.",
+     "pl": "Wziąłem środek przeciwbólowy na ból głowy.",
+     "de": "Ich habe ein Schmerzmittel gegen meine Kopfschmerzen genommen.",
+     "fr": "J'ai pris un antidouleur pour mon mal de tête.",
+     "es": "Tomé un analgésico para mi dolor de cabeza.",
+     "it": "Ho preso un antidolorifico per il mal di testa.",
+     "pt": "Tomei um analgésico para a dor de cabeça.",
+     "tr": "Baş ağrım için bir ağrı kesici aldım."
+    },
+    {
+     "en": "The doctor gave me a strong painkiller.",
+     "uk": "Лікар дав мені сильне знеболювальне.",
+     "ru": "Врач дал мне сильное обезболивающее.",
+     "pl": "Lekarz dał mi silny środek przeciwbólowy.",
+     "de": "Der Arzt gab mir ein starkes Schmerzmittel.",
+     "fr": "Le médecin m'a donné un antidouleur fort.",
+     "es": "El médico me dio un analgésico fuerte.",
+     "it": "Il medico mi ha dato un antidolorifico forte.",
+     "pt": "O médico me deu um analgésico forte.",
+     "tr": "Doktor bana güçlü bir ağrı kesici verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.bandage",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈbændɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a bandage for my cut.",
+     "uk": "Мені потрібен бинт для моєї порізу.",
+     "ru": "Мне нужен бинт для моего пореза.",
+     "pl": "Potrzebuję bandażu na moje skaleczenie.",
+     "de": "Ich brauche einen Verband für meinen Schnitt.",
+     "fr": "J'ai besoin d'un bandage pour ma coupure.",
+     "es": "Necesito una venda para mi corte.",
+     "it": "Ho bisogno di una benda per il mio taglio.",
+     "pt": "Preciso de uma atadura para meu corte.",
+     "tr": "Kesim için bir bandaj lazım."
+    },
+    {
+     "en": "The nurse applied a bandage to the wound.",
+     "uk": "Медсестра наклала бинт на рану.",
+     "ru": "Медсестра наложила бинт на рану.",
+     "pl": "Pielęgniarka nałożyła bandaż na ranę.",
+     "de": "Die Krankenschwester legte einen Verband auf die Wunde.",
+     "fr": "L'infirmière a appliqué un bandage sur la plaie.",
+     "es": "La enfermera aplicó una venda en la herida.",
+     "it": "L'infermiera ha messo una benda sulla ferita.",
+     "pt": "A enfermeira aplicou uma atadura na ferida.",
+     "tr": "Hemşire yaraya bandaj uyguladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.band-aid",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/bænd eɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Put a band-aid on the small cut.",
+     "uk": "Поклади пластир на маленький поріз.",
+     "ru": "Наклей пластырь на маленький порез.",
+     "pl": "Załóż plaster na małe skaleczenie.",
+     "de": "Mach ein Pflaster auf den kleinen Schnitt.",
+     "fr": "Mets un pansement sur la petite coupure.",
+     "es": "Pon una tirita en el pequeño corte.",
+     "it": "Metti un cerotto sul piccolo taglio.",
+     "pt": "Coloque um curativo no pequeno corte.",
+     "tr": "Küçük kesik için yara bandı tak."
+    },
+    {
+     "en": "She always carries a band-aid in her bag.",
+     "uk": "Вона завжди носить пластир у своїй сумці.",
+     "ru": "Она всегда носит пластырь в своей сумке.",
+     "pl": "Ona zawsze nosi plaster w swojej torbie.",
+     "de": "Sie hat immer ein Pflaster in ihrer Tasche.",
+     "fr": "Elle porte toujours un pansement dans son sac.",
+     "es": "Siempre lleva una tirita en su bolso.",
+     "it": "Porta sempre un cerotto nella sua borsa.",
+     "pt": "Ela sempre leva um curativo na bolsa.",
+     "tr": "Her zaman çantasında yara bandı taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.thermometer",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/θɚˈmɑmətɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can you find the thermometer in the drawer?",
+     "uk": "Ти можеш знайти термометр у шухляді?",
+     "ru": "Ты можешь найти термометр в ящике?",
+     "pl": "Możesz znaleźć termometr w szufladzie?",
+     "de": "Kannst du das Thermometer in der Schublade finden?",
+     "fr": "Peux-tu trouver le thermomètre dans le tiroir?",
+     "es": "¿Puedes encontrar el termómetro en el cajón?",
+     "it": "Puoi trovare il termometro nel cassetto?",
+     "pt": "Você pode encontrar o termômetro na gaveta?",
+     "tr": "Termometreyi çekmecede bulabilir misin?"
+    },
+    {
+     "en": "I checked my temperature with a thermometer.",
+     "uk": "Я перевірив свою температуру термометром.",
+     "ru": "Я проверил свою температуру термометром.",
+     "pl": "Sprawdziłem swoją temperaturę termometrem.",
+     "de": "Ich habe meine Temperatur mit einem Thermometer gemessen.",
+     "fr": "J'ai vérifié ma température avec un thermomètre.",
+     "es": "Verifiqué mi temperatura con un termómetro.",
+     "it": "Ho controllato la mia temperatura con un termometro.",
+     "pt": "Verifiquei minha temperatura com um termômetro.",
+     "tr": "Ateşimi bir termometre ile kontrol ettim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.blood",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/blʌd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He lost a lot of blood from the injury.",
+     "uk": "Він втратив багато крові через травму.",
+     "ru": "Он потерял много крови из-за травмы.",
+     "pl": "Stracił dużo krwi z powodu urazu.",
+     "de": "Er hat viel Blut durch die Verletzung verloren.",
+     "fr": "Il a perdu beaucoup de sang à cause de la blessure.",
+     "es": "Perdió mucha sangre por la lesión.",
+     "it": "Ha perso molto sangue a causa dell'infortunio.",
+     "pt": "Ele perdeu muito sangue devido à lesão.",
+     "tr": "Yaradan dolayı çok kan kaybetti."
+    },
+    {
+     "en": "Blood is important for our body.",
+     "uk": "Кров важлива для нашого тіла.",
+     "ru": "Кровь важна для нашего тела.",
+     "pl": "Krew jest ważna dla naszego ciała.",
+     "de": "Blut ist wichtig für unseren Körper.",
+     "fr": "Le sang est important pour notre corps.",
+     "es": "La sangre es importante para nuestro cuerpo.",
+     "it": "Il sangue è importante per il nostro corpo.",
+     "pt": "O sangue é importante para o nosso corpo.",
+     "tr": "Kan vücudumuz için önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.tooth",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/tuθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a toothache and need to see a dentist.",
+     "uk": "У мене болить зуб, і мені потрібно йти до стоматолога.",
+     "ru": "У меня болит зуб, и мне нужно к стоматологу.",
+     "pl": "Boli mnie ząb, muszę iść do dentysty.",
+     "de": "Ich habe Zahnschmerzen und muss zum Zahnarzt.",
+     "fr": "J'ai mal aux dents et je dois voir un dentiste.",
+     "es": "Me duele un diente y necesito ver a un dentista.",
+     "it": "Ho mal di denti e devo andare dal dentista.",
+     "pt": "Estou com dor de dente e preciso ir ao dentista.",
+     "tr": "Dişim ağrıyor ve diş hekimine gitmem lazım."
+    },
+    {
+     "en": "She lost a tooth while eating an apple.",
+     "uk": "Вона втратила зуб, коли їла яблуко.",
+     "ru": "Она потеряла зуб, когда ела яблоко.",
+     "pl": "Straciła ząb, jedząc jabłko.",
+     "de": "Sie hat einen Zahn verloren, während sie einen Apfel aß.",
+     "fr": "Elle a perdu une dent en mangeant une pomme.",
+     "es": "Perdió un diente mientras comía una manzana.",
+     "it": "Ha perso un dente mentre mangiava una mela.",
+     "pt": "Ela perdeu um dente enquanto comia uma maçã.",
+     "tr": "Elma yerken bir dişini kaybetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.dentist",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈdɛntəst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have an appointment with the dentist tomorrow.",
+     "uk": "У мене запис до стоматолога на завтра.",
+     "ru": "У меня запись к стоматологу на завтра.",
+     "pl": "Mam wizytę u dentysty jutro.",
+     "de": "Ich habe morgen einen Termin beim Zahnarzt.",
+     "fr": "J'ai un rendez-vous chez le dentiste demain.",
+     "es": "Tengo una cita con el dentista mañana.",
+     "it": "Ho un appuntamento dal dentista domani.",
+     "pt": "Tenho uma consulta com o dentista amanhã.",
+     "tr": "Yarın diş hekimine randevum var."
+    },
+    {
+     "en": "The dentist gave me a filling for my cavity.",
+     "uk": "Стоматолог поставив мені пломбу на карієс.",
+     "ru": "Стоматолог поставил мне пломбу на кариес.",
+     "pl": "Dentysta dał mi plombę na ubytek.",
+     "de": "Der Zahnarzt hat mir eine Füllung für mein Loch gegeben.",
+     "fr": "Le dentiste m'a mis un plombage pour ma carie.",
+     "es": "El dentista me puso una amalgama para mi caries.",
+     "it": "Il dentista mi ha messo un'otturazione per la mia carie.",
+     "pt": "O dentista me deu uma obturação para a minha cárie.",
+     "tr": "Diş hekimi çürüğüm için dolgu yaptı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.back-pain",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/bæk peɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have back pain after lifting heavy boxes.",
+     "uk": "У мене біль у спині після підняття важких коробок.",
+     "ru": "У меня болит спина после поднятия тяжелых коробок.",
+     "pl": "Boli mnie plecy po podniesieniu ciężkich pudeł.",
+     "de": "Ich habe Rückenschmerzen nach dem Heben schwerer Kisten.",
+     "fr": "J'ai mal au dos après avoir soulevé des boîtes lourdes.",
+     "es": "Me duele la espalda después de levantar cajas pesadas.",
+     "it": "Ho mal di schiena dopo aver sollevato scatole pesanti.",
+     "pt": "Estou com dor nas costas depois de levantar caixas pesadas.",
+     "tr": "Ağır kutuları kaldırdıktan sonra sırtım ağrıyor."
+    },
+    {
+     "en": "Back pain can be relieved with rest and stretching.",
+     "uk": "Біль у спині можна полегшити відпочинком і розтяжкою.",
+     "ru": "Боль в спине можно облегчить отдыхом и растяжкой.",
+     "pl": "Ból pleców można złagodzić odpoczynkiem i rozciąganiem.",
+     "de": "Rückenschmerzen können durch Ruhe und Dehnen gelindert werden.",
+     "fr": "Le mal de dos peut être soulagé par le repos et les étirements.",
+     "es": "El dolor de espalda se puede aliviar con descanso y estiramientos.",
+     "it": "Il mal di schiena può essere alleviato con riposo e stretching.",
+     "pt": "A dor nas costas pode ser aliviada com descanso e alongamento.",
+     "tr": "Sırt ağrısı dinlenme ve esneme ile hafifletilebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-catch-a-cold",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/kætʃ ə koʊld/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I think I might catch a cold this week.",
+     "uk": "Я думаю, що можу застудитися цього тижня.",
+     "ru": "Я думаю, что могу простудиться на этой неделе.",
+     "pl": "Myślę, że mogę się przeziębić w tym tygodniu.",
+     "de": "Ich glaube, ich könnte mich diese Woche erkälten.",
+     "fr": "Je pense que je pourrais attraper un rhume cette semaine.",
+     "es": "Creo que podría resfriarme esta semana.",
+     "it": "Penso che potrei prendere il raffreddore questa settimana.",
+     "pt": "Acho que posso pegar um resfriado esta semana.",
+     "tr": "Bu hafta üşütebilir miyim diye düşünüyorum."
+    },
+    {
+     "en": "Be careful not to catch a cold outside.",
+     "uk": "Будь обережний, щоб не застудитися на вулиці.",
+     "ru": "Будь осторожен, чтобы не простудиться на улице.",
+     "pl": "Uważaj, aby się nie przeziębić na zewnątrz.",
+     "de": "Sei vorsichtig, dass du dich draußen nicht erkältest.",
+     "fr": "Fais attention à ne pas attraper un rhume dehors.",
+     "es": "Ten cuidado de no resfriarte afuera.",
+     "it": "Fai attenzione a non prendere il raffreddore fuori.",
+     "pt": "Cuidado para não pegar um resfriado lá fora.",
+     "tr": "Dışarıda üşütmemeye dikkat et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-take-medicine",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/teɪk ˈmɛdəsən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should take medicine for your headache.",
+     "uk": "Тобі слід приймати ліки від головного болю.",
+     "ru": "Тебе следует принимать лекарство от головной боли.",
+     "pl": "Powinieneś brać lekarstwo na ból głowy.",
+     "de": "Du solltest Medikamente gegen deine Kopfschmerzen nehmen.",
+     "fr": "Tu devrais prendre un médicament pour ton mal de tête.",
+     "es": "Deberías tomar medicamentos para tu dolor de cabeza.",
+     "it": "Dovresti prendere la medicina per il mal di testa.",
+     "pt": "Você deve tomar remédio para a dor de cabeça.",
+     "tr": "Baş ağrın için ilaç almalısın."
+    },
+    {
+     "en": "He forgot to take his medicine this morning.",
+     "uk": "Він забув прийняти ліки сьогодні вранці.",
+     "ru": "Он забыл принять лекарство сегодня утром.",
+     "pl": "Zapomniał wziąć lekarstwo dziś rano.",
+     "de": "Er hat vergessen, seine Medikamente heute Morgen zu nehmen.",
+     "fr": "Il a oublié de prendre son médicament ce matin.",
+     "es": "Olvidó tomar sus medicamentos esta mañana.",
+     "it": "Ha dimenticato di prendere la medicina questa mattina.",
+     "pt": "Ele esqueceu de tomar remédio esta manhã.",
+     "tr": "Bu sabah ilacını almayı unuttu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.injury",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ˈɪndʒɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has an injury on his arm from the fall.",
+     "uk": "У нього травма на руці від падіння.",
+     "ru": "У него травма на руке от падения.",
+     "pl": "Ma uraz na ramieniu od upadku.",
+     "de": "Er hat eine Verletzung am Arm vom Sturz.",
+     "fr": "Il a une blessure au bras à cause de la chute.",
+     "es": "Tiene una lesión en el brazo por la caída.",
+     "it": "Ha un infortunio al braccio a causa della caduta.",
+     "pt": "Ele tem uma lesão no braço devido à queda.",
+     "tr": "Düşme sonucu kolunda yaralanma var."
+    },
+    {
+     "en": "The injury needs to be treated immediately.",
+     "uk": "Травму потрібно лікувати негайно.",
+     "ru": "Травму нужно лечить немедленно.",
+     "pl": "Uraz należy leczyć natychmiast.",
+     "de": "Die Verletzung muss sofort behandelt werden.",
+     "fr": "La blessure doit être traitée immédiatement.",
+     "es": "La lesión debe ser tratada de inmediato.",
+     "it": "L'infortunio deve essere trattato immediatamente.",
+     "pt": "A lesão deve ser tratada imediatamente.",
+     "tr": "Yaralanma hemen tedavi edilmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-fall",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/fɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful not to fall on the ice.",
+     "uk": "Будь обережний, щоб не впасти на лід.",
+     "ru": "Будь осторожен, чтобы не упасть на лед.",
+     "pl": "Uważaj, żeby nie upaść na lodzie.",
+     "de": "Sei vorsichtig, dass du nicht auf dem Eis fällst.",
+     "fr": "Fais attention à ne pas tomber sur la glace.",
+     "es": "Ten cuidado de no caerte sobre el hielo.",
+     "it": "Fai attenzione a non cadere sul ghiaccio.",
+     "pt": "Cuidado para não cair no gelo.",
+     "tr": "Buzda düşmemeye dikkat et."
+    },
+    {
+     "en": "He might fall if he runs too fast.",
+     "uk": "Він може впасти, якщо буде бігти занадто швидко.",
+     "ru": "Он может упасть, если будет бегать слишком быстро.",
+     "pl": "Może upaść, jeśli pobiegnie za szybko.",
+     "de": "Er könnte fallen, wenn er zu schnell läuft.",
+     "fr": "Il pourrait tomber s'il court trop vite.",
+     "es": "Podría caerse si corre demasiado rápido.",
+     "it": "Potrebbe cadere se corre troppo veloce.",
+     "pt": "Ele pode cair se correr muito rápido.",
+     "tr": "Çok hızlı koşarsa düşebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-exercise",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈɛksɚˌsaɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to exercise in the morning.",
+     "uk": "Мені подобається займатися спортом вранці.",
+     "ru": "Мне нравится заниматься спортом утром.",
+     "pl": "Lubię ćwiczyć rano.",
+     "de": "Ich trainiere gerne morgens.",
+     "fr": "J'aime faire de l'exercice le matin.",
+     "es": "Me gusta hacer ejercicio por la mañana.",
+     "it": "Mi piace fare esercizio al mattino.",
+     "pt": "Gosto de fazer exercício de manhã.",
+     "tr": "Sabahları egzersiz yapmayı seviyorum."
+    },
+    {
+     "en": "She exercises at the gym every day.",
+     "uk": "Вона займається спортом у спортзалі кожного дня.",
+     "ru": "Она занимается спортом в спортзале каждый день.",
+     "pl": "Ona ćwiczy na siłowni codziennie.",
+     "de": "Sie trainiert jeden Tag im Fitnessstudio.",
+     "fr": "Elle fait de l'exercice à la salle de sport tous les jours.",
+     "es": "Ella hace ejercicio en el gimnasio todos los días.",
+     "it": "Lei fa esercizio in palestra ogni giorno.",
+     "pt": "Ela faz exercício na academia todos os dias.",
+     "tr": "O, her gün spor salonunda egzersiz yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.diet",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈdaɪət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I am following a healthy diet now.",
+     "uk": "Я зараз дотримуюсь здорової дієти.",
+     "ru": "Я сейчас придерживаюсь здоровой диеты.",
+     "pl": "Obecnie stosuję zdrową dietę.",
+     "de": "Ich folge jetzt einer gesunden Diät.",
+     "fr": "Je suis un régime sain maintenant.",
+     "es": "Ahora estoy siguiendo una dieta saludable.",
+     "it": "Ora sto seguendo una dieta sana.",
+     "pt": "Agora estou seguindo uma dieta saudável.",
+     "tr": "Şimdi sağlıklı bir diyete uyuyorum."
+    },
+    {
+     "en": "A balanced diet is very important for health.",
+     "uk": "Збалансована дієта дуже важлива для здоров'я.",
+     "ru": "Сбалансированная диета очень важна для здоровья.",
+     "pl": "Zrównoważona dieta jest bardzo ważna dla zdrowia.",
+     "de": "Eine ausgewogene Diät ist sehr wichtig für die Gesundheit.",
+     "fr": "Une alimentation équilibrée est très importante pour la santé.",
+     "es": "Una dieta equilibrada es muy importante para la salud.",
+     "it": "Una dieta equilibrata è molto importante per la salute.",
+     "pt": "Uma dieta equilibrada é muito importante para a saúde.",
+     "tr": "Dengeli bir diyet sağlık için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-lose-weight",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/luz weɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to lose weight for my health.",
+     "uk": "Я хочу схуднути для свого здоров'я.",
+     "ru": "Я хочу похудеть ради своего здоровья.",
+     "pl": "Chcę schudnąć dla zdrowia.",
+     "de": "Ich möchte für meine Gesundheit abnehmen.",
+     "fr": "Je veux maigrir pour ma santé.",
+     "es": "Quiero adelgazar por mi salud.",
+     "it": "Voglio dimagrire per la mia salute.",
+     "pt": "Quero emagrecer pela minha saúde.",
+     "tr": "Sağlığım için kilo vermek istiyorum."
+    },
+    {
+     "en": "She exercises daily to lose weight.",
+     "uk": "Вона займається щодня, щоб схуднути.",
+     "ru": "Она занимается каждый день, чтобы похудеть.",
+     "pl": "Ona ćwiczy codziennie, aby schudnąć.",
+     "de": "Sie trainiert täglich, um abzunehmen.",
+     "fr": "Elle s'entraîne tous les jours pour maigrir.",
+     "es": "Ella hace ejercicio todos los días para adelgazar.",
+     "it": "Lei si allena ogni giorno per dimagrire.",
+     "pt": "Ela se exercita todos os dias para emagrecer.",
+     "tr": "O, kilo vermek için her gün egzersiz yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.stress",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/strɛs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Too much stress can harm your health.",
+     "uk": "Занадто багато стресу може зашкодити вашому здоров'ю.",
+     "ru": "Слишком много стресса может навредить вашему здоровью.",
+     "pl": "Zbyt dużo stresu może zaszkodzić twojemu zdrowiu.",
+     "de": "Zu viel Stress kann Ihrer Gesundheit schaden.",
+     "fr": "Trop de stress peut nuire à votre santé.",
+     "es": "Demasiado estrés puede dañar tu salud.",
+     "it": "Troppo stress può danneggiare la tua salute.",
+     "pt": "Muito estresse pode prejudicar sua saúde.",
+     "tr": "Aşırı stres sağlığınıza zarar verebilir."
+    },
+    {
+     "en": "I feel stress before big exams.",
+     "uk": "Я відчуваю стрес перед великими іспитами.",
+     "ru": "Я чувствую стресс перед большими экзаменами.",
+     "pl": "Czuję stres przed dużymi egzaminami.",
+     "de": "Ich fühle Stress vor großen Prüfungen.",
+     "fr": "Je ressens du stress avant les grands examens.",
+     "es": "Siento estrés antes de los grandes exámenes.",
+     "it": "Sento stress prima dei grandi esami.",
+     "pt": "Sinto estresse antes das grandes provas.",
+     "tr": "Büyük sınavlardan önce stres hissediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.get-well-soon",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ɡɛt wɛl sun/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I hope you get well soon.",
+     "uk": "Сподіваюсь, ти одужаєш швидше.",
+     "ru": "Надеюсь, ты выздоровеешь быстро.",
+     "pl": "Mam nadzieję, że wrócisz do zdrowia.",
+     "de": "Ich hoffe, du hast gute Besserung.",
+     "fr": "J'espère que tu vas bien te rétablir.",
+     "es": "Espero que te mejores pronto.",
+     "it": "Spero che guarisci presto.",
+     "pt": "Espero que você melhore logo.",
+     "tr": "Umarım kısa sürede geçmiş olsun."
+    },
+    {
+     "en": "Get well soon, my friend!",
+     "uk": "Одужуй швидше, мій друже!",
+     "ru": "Выздоравливай, мой друг!",
+     "pl": "Wracaj do zdrowia, przyjacielu!",
+     "de": "Gute Besserung, mein Freund!",
+     "fr": "Bon rétablissement, mon ami !",
+     "es": "¡Que te mejores, amigo!",
+     "it": "Guarisci presto, amico!",
+     "pt": "Melhoras, meu amigo!",
+     "tr": "Geçmiş olsun, arkadaşım!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.earache",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈɪrˌeɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She has an earache and needs to see a doctor.",
+     "uk": "В неї біль у вусі, і їй потрібно звернутися до лікаря.",
+     "ru": "У нее болит ухо, и ей нужно обратиться к врачу.",
+     "pl": "Ona ma ból ucha i musi iść do lekarza.",
+     "de": "Sie hat Ohrenschmerzen und muss zum Arzt.",
+     "fr": "Elle a mal d'oreille et doit voir un médecin.",
+     "es": "Ella tiene dolor de oído y necesita ver a un médico.",
+     "it": "Lei ha mal d'orecchio e deve vedere un dottore.",
+     "pt": "Ela tem dor de ouvido e precisa ver um médico.",
+     "tr": "Onun kulak ağrısı var ve doktora görünmesi gerekiyor."
+    },
+    {
+     "en": "An earache can be very painful.",
+     "uk": "Біль у вусі може бути дуже болючим.",
+     "ru": "Боль в ухе может быть очень болезненной.",
+     "pl": "Ból ucha może być bardzo bolesny.",
+     "de": "Ohrenschmerzen können sehr schmerzhaft sein.",
+     "fr": "Le mal d'oreille peut être très douloureux.",
+     "es": "El dolor de oído puede ser muy doloroso.",
+     "it": "Il mal d'orecchio può essere molto doloroso.",
+     "pt": "A dor de ouvido pode ser muito dolorosa.",
+     "tr": "Kulak ağrısı çok acı verici olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.cut",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/kʌt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He got a cut on his finger while cooking.",
+     "uk": "Він порізав палець під час приготування їжі.",
+     "ru": "Он порезал палец во время готовки.",
+     "pl": "On skaleczył palec podczas gotowania.",
+     "de": "Er hat sich beim Kochen in den Finger geschnitten.",
+     "fr": "Il s'est coupé le doigt en cuisinant.",
+     "es": "Se cortó un dedo mientras cocinaba.",
+     "it": "Si è tagliato un dito mentre cucinava.",
+     "pt": "Ele cortou o dedo enquanto cozinhava.",
+     "tr": "Yemek yaparken parmağını kesti."
+    },
+    {
+     "en": "The cut on her arm needs a bandage.",
+     "uk": "Поріз на її руці потребує пов'язки.",
+     "ru": "Порез на ее руке нуждается в повязке.",
+     "pl": "Skaleczenie na jej ramieniu potrzebuje bandaża.",
+     "de": "Der Schnitt an ihrem Arm braucht einen Verband.",
+     "fr": "La coupure sur son bras a besoin d'un bandage.",
+     "es": "El corte en su brazo necesita una venda.",
+     "it": "Il taglio sul suo braccio ha bisogno di una benda.",
+     "pt": "O corte no braço dela precisa de um curativo.",
+     "tr": "Kolundaki kesik bir bandaja ihtiyaç duyuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.bruise",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/bruz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has a bruise on his leg from the game.",
+     "uk": "У нього синець на нозі від гри.",
+     "ru": "У него синяк на ноге от игры.",
+     "pl": "Ma siniaka na nodze od gry.",
+     "de": "Er hat einen blauen Fleck am Bein vom Spiel.",
+     "fr": "Il a un bleu à la jambe à cause du jeu.",
+     "es": "Él tiene un moratón en la pierna por el juego.",
+     "it": "Ha un livido sulla gamba a causa del gioco.",
+     "pt": "Ele tem um hematoma na perna por causa do jogo.",
+     "tr": "Oyun yüzünden bacağında morluk var."
+    },
+    {
+     "en": "A bruise can take time to heal.",
+     "uk": "Синець може зайняти час для загоєння.",
+     "ru": "Синяк может занять время для заживления.",
+     "pl": "Siniak może wymagać czasu na zagojenie.",
+     "de": "Ein blauer Fleck kann Zeit zum Heilen benötigen.",
+     "fr": "Un bleu peut prendre du temps à guérir.",
+     "es": "Un moratón puede tardar en sanar.",
+     "it": "Un livido può richiedere tempo per guarire.",
+     "pt": "Um hematoma pode levar tempo para cicatrizar.",
+     "tr": "Bir morluk iyileşmek için zaman alabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-vomit",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈvɑmət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I feel like I might vomit after eating.",
+     "uk": "Мені здається, що я можу блювати після їжі.",
+     "ru": "Мне кажется, что я могу вырвать после еды.",
+     "pl": "Czuję, że mogę wymiotować po jedzeniu.",
+     "de": "Ich habe das Gefühl, ich könnte mich nach dem Essen übergeben.",
+     "fr": "Je sens que je pourrais vomir après avoir mangé.",
+     "es": "Siento que podría vomitar después de comer.",
+     "it": "Sento che potrei vomitare dopo aver mangiato.",
+     "pt": "Sinto que posso vomitar depois de comer.",
+     "tr": "Yemekten sonra kusacak gibi hissediyorum."
+    },
+    {
+     "en": "It's not good to vomit often.",
+     "uk": "Не добре часто блювати.",
+     "ru": "Не хорошо часто рвать.",
+     "pl": "Nie jest dobrze często wymiotować.",
+     "de": "Es ist nicht gut, sich oft zu übergeben.",
+     "fr": "Ce n'est pas bon de vomir souvent.",
+     "es": "No es bueno vomitar a menudo.",
+     "it": "Non è buono vomitare spesso.",
+     "pt": "Não é bom vomitar com frequência.",
+     "tr": "Sık sık kusmak iyi değil."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.diarrhea",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˌdaɪɚˈiə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have diarrhea after eating that food.",
+     "uk": "У мене діарея після їжі цієї їжі.",
+     "ru": "У меня диарея после того, как я съел эту еду.",
+     "pl": "Mam biegunkę po zjedzeniu tego jedzenia.",
+     "de": "Ich habe Durchfall, nachdem ich dieses Essen gegessen habe.",
+     "fr": "J'ai la diarrhée après avoir mangé cette nourriture.",
+     "es": "Tengo diarrea después de comer esa comida.",
+     "it": "Ho la diarrea dopo aver mangiato quel cibo.",
+     "pt": "Estou com diarreia depois de comer essa comida.",
+     "tr": "O yiyecekten sonra ishalken oldum."
+    },
+    {
+     "en": "Diarrhea can be caused by many different things.",
+     "uk": "Діарея може бути викликана багатьма різними речами.",
+     "ru": "Диарея может быть вызвана многими разными вещами.",
+     "pl": "Biegunka może być spowodowana wieloma różnymi rzeczami.",
+     "de": "Durchfall kann durch viele verschiedene Dinge verursacht werden.",
+     "fr": "La diarrhée peut être causée par de nombreuses choses différentes.",
+     "es": "La diarrea puede ser causada por muchas cosas diferentes.",
+     "it": "La diarrea può essere causata da molte cose diverse.",
+     "pt": "A diarreia pode ser causada por muitas coisas diferentes.",
+     "tr": "İshal birçok farklı şeyden kaynaklanabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-hurt",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/hɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My head hurts after studying all night.",
+     "uk": "У мене болить голова після навчання всю ніч.",
+     "ru": "У меня болит голова после учебы всю ночь.",
+     "pl": "Boli mnie głowa po całonocnej nauce.",
+     "de": "Mein Kopf tut weh, nachdem ich die ganze Nacht gelernt habe.",
+     "fr": "Ma tête fait mal après avoir étudié toute la nuit.",
+     "es": "Me duele la cabeza después de estudiar toda la noche.",
+     "it": "Mi fa male la testa dopo aver studiato tutta la notte.",
+     "pt": "Minha cabeça dói depois de estudar a noite toda.",
+     "tr": "Tüm gece çalıştıktan sonra başım ağrıyor."
+    },
+    {
+     "en": "Be careful! That might hurt you.",
+     "uk": "Будь обережним! Це може тебе поранити.",
+     "ru": "Будь осторожен! Это может тебя повредить.",
+     "pl": "Uważaj! To może cię zranić.",
+     "de": "Sei vorsichtig! Das könnte dir wehtun.",
+     "fr": "Fais attention ! Cela pourrait te faire mal.",
+     "es": "¡Ten cuidado! Eso podría hacerte daño.",
+     "it": "Fai attenzione! Potrebbe farti male.",
+     "pt": "Cuidado! Isso pode te machucar.",
+     "tr": "Dikkat et! Bu sana zarar verebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.syrup",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈsɝəp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I take syrup when I have a cough.",
+     "uk": "Я приймаю сироп, коли у мене кашель.",
+     "ru": "Я принимаю сироп, когда у меня кашель.",
+     "pl": "Biorę syrop, gdy mam kaszel.",
+     "de": "Ich nehme Sirup, wenn ich Husten habe.",
+     "fr": "Je prends du sirop quand j'ai une toux.",
+     "es": "Tomo jarabe cuando tengo tos.",
+     "it": "Prendo sciroppo quando ho la tosse.",
+     "pt": "Eu tomo xarope quando estou com tosse.",
+     "tr": "Öksürüğüm olduğunda şurup alıyorum."
+    },
+    {
+     "en": "This syrup tastes very sweet and nice.",
+     "uk": "Цей сироп має дуже солодкий і приємний смак.",
+     "ru": "Этот сироп очень сладкий и вкусный.",
+     "pl": "Ten syrop smakuje bardzo słodko i przyjemnie.",
+     "de": "Dieser Sirup schmeckt sehr süß und lecker.",
+     "fr": "Ce sirop a un goût très sucré et agréable.",
+     "es": "Este jarabe sabe muy dulce y agradable.",
+     "it": "Questo sciroppo ha un sapore molto dolce e piacevole.",
+     "pt": "Este xarope tem um gosto muito doce e agradável.",
+     "tr": "Bu şurup çok tatlı ve güzel tadı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.tablet",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈtæblət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I take a tablet for my headache.",
+     "uk": "Я приймаю таблетку від головного болю.",
+     "ru": "Я принимаю таблетку от головной боли.",
+     "pl": "Biorę tabletkę na ból głowy.",
+     "de": "Ich nehme eine Tablette gegen Kopfschmerzen.",
+     "fr": "Je prends un comprimé pour mon mal de tête.",
+     "es": "Tomo un comprimido para mi dolor de cabeza.",
+     "it": "Prendo una compressa per il mal di testa.",
+     "pt": "Eu tomo um comprimido para a dor de cabeça.",
+     "tr": "Baş ağrım için bir tablet alıyorum."
+    },
+    {
+     "en": "This tablet is easy to swallow.",
+     "uk": "Цю таблетку легко проковтнути.",
+     "ru": "Эту таблетку легко проглотить.",
+     "pl": "Tę tabletkę łatwo połknąć.",
+     "de": "Diese Tablette ist leicht zu schlucken.",
+     "fr": "Ce comprimé est facile à avaler.",
+     "es": "Este comprimido es fácil de tragar.",
+     "it": "Questa compressa è facile da inghiottire.",
+     "pt": "Este comprimido é fácil de engolir.",
+     "tr": "Bu tablet yutması kolay."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.vitamin",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈvaɪtəmən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I take a vitamin every morning.",
+     "uk": "Я приймаю вітамін щоранку.",
+     "ru": "Я принимаю витамин каждое утро.",
+     "pl": "Biorę witaminę każdego rankу.",
+     "de": "Ich nehme jeden Morgen ein Vitamin.",
+     "fr": "Je prends une vitamine chaque matin.",
+     "es": "Tomo una vitamina cada mañana.",
+     "it": "Prendo una vitamina ogni mattina.",
+     "pt": "Eu tomo uma vitamina todas as manhãs.",
+     "tr": "Her sabah bir vitamin alıyorum."
+    },
+    {
+     "en": "Vitamins are important for good health.",
+     "uk": "Вітаміни важливі для доброго здоров'я.",
+     "ru": "Витамины важны для хорошего здоровья.",
+     "pl": "Witaminy są ważne dla dobrego zdrowia.",
+     "de": "Vitaminen sind wichtig für die Gesundheit.",
+     "fr": "Les vitamines sont importantes pour la bonne santé.",
+     "es": "Las vitaminas son importantes para una buena salud.",
+     "it": "Le vitamine sono importanti per una buona salute.",
+     "pt": "As vitaminas são importantes para uma boa saúde.",
+     "tr": "Vitaminler iyi sağlık için önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.ankle",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˈæŋkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I twisted my ankle while playing soccer.",
+     "uk": "Я вивихнув щиколотку, граючи у футбол.",
+     "ru": "Я вывихнул лодыжку, играя в футбол.",
+     "pl": "Skręciłem kostkę, grając w piłkę nożną.",
+     "de": "Ich habe mir den Knöchel verstaucht, während ich Fußball spielte.",
+     "fr": "Je me suis tordu la cheville en jouant au football.",
+     "es": "Me torcí el tobillo mientras jugaba al fútbol.",
+     "it": "Mi sono slogato la caviglia mentre giocavo a calcio.",
+     "pt": "Eu torci o tornozelo enquanto jogava futebol.",
+     "tr": "Futbol oynarken ayak bileğimi burktum."
+    },
+    {
+     "en": "My ankle hurts after the long walk.",
+     "uk": "Моя щиколотка болить після довгої прогулянки.",
+     "ru": "Моя лодыжка болит после долгой прогулки.",
+     "pl": "Moja kostka boli po długim spacerze.",
+     "de": "Mein Knöchel tut nach dem langen Spaziergang weh.",
+     "fr": "Ma cheville fait mal après la longue marche.",
+     "es": "Me duele el tobillo después de la larga caminata.",
+     "it": "La mia caviglia fa male dopo la lunga passeggiata.",
+     "pt": "Meu tornozelo dói depois da longa caminhada.",
+     "tr": "Uzun yürüyüşten sonra ayak bileğim ağrıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.wrist",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/rɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I hurt my wrist while lifting weights.",
+     "uk": "Я пошкодив зап'ясток під час піднімання ваг.",
+     "ru": "Я повредил запястье, поднимая тяжести.",
+     "pl": "Zraniłem nadgarstek podczas podnoszenia ciężarów.",
+     "de": "Ich habe mir das Handgelenk verletzt, während ich Gewichte hob.",
+     "fr": "Je me suis fait mal au poignet en soulevant des poids.",
+     "es": "Me lastimé la muñeca levantando pesas.",
+     "it": "Mi sono fatto male al polso sollevando pesi.",
+     "pt": "Machucuei meu pulso levantando pesos.",
+     "tr": "Ağırlık kaldırırken el bileğimi incittim."
+    },
+    {
+     "en": "I wear a bracelet on my wrist.",
+     "uk": "Я ношу браслет на зап'ясті.",
+     "ru": "Я ношу браслет на запястье.",
+     "pl": "Noszę bransoletkę na nadgarstku.",
+     "de": "Ich trage ein Armband am Handgelenk.",
+     "fr": "Je porte un bracelet au poignet.",
+     "es": "Llevo una pulsera en la muñeca.",
+     "it": "Indosso un braccialetto al polso.",
+     "pt": "Eu uso uma pulseira no pulso.",
+     "tr": "El bileğimde bir bilezik takıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.elbow",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈɛlˌboʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bumped my elbow on the table.",
+     "uk": "Я вдарив ліктем об стіл.",
+     "ru": "Я ударил локтем о стол.",
+     "pl": "Uderzyłem łokciem w stół.",
+     "de": "Ich habe meinen Ellbogen am Tisch gestoßen.",
+     "fr": "Je me suis cogné le coude sur la table.",
+     "es": "Me golpeé el codo en la mesa.",
+     "it": "Mi sono urtato il gomito sul tavolo.",
+     "pt": "Bati meu cotovelo na mesa.",
+     "tr": "Dirseğimi masaya çarptım."
+    },
+    {
+     "en": "My elbow hurts after the fall.",
+     "uk": "Мій лікоть болить після падіння.",
+     "ru": "Мой локоть болит после падения.",
+     "pl": "Mój łokieć boli po upadku.",
+     "de": "Mein Ellbogen tut nach dem Sturz weh.",
+     "fr": "Mon coude fait mal après la chute.",
+     "es": "Me duele el codo después de la caída.",
+     "it": "Il mio gomito fa male dopo la caduta.",
+     "pt": "Meu cotovelo dói depois da queda.",
+     "tr": "Düştükten sonra dirseğim ağrıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.toe",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/toʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I stubbed my toe on the door.",
+     "uk": "Я вдарився пальцем ноги об двері.",
+     "ru": "Я ударился пальцем ноги о дверь.",
+     "pl": "Uderzyłem palcem u nogi w drzwi.",
+     "de": "Ich habe mir den Zeh an der Tür gestoßen.",
+     "fr": "Je me suis cogné l'orteil contre la porte.",
+     "es": "Me golpeé el dedo del pie con la puerta.",
+     "it": "Mi sono colpito il dito del piede contro la porta.",
+     "pt": "Bati meu dedo do pé na porta.",
+     "tr": "Kapıya ayak parmağımı çarptım."
+    },
+    {
+     "en": "My toe hurts after I dropped something.",
+     "uk": "Мій палець ноги болить після того, як я щось впустив.",
+     "ru": "У меня болит палец ноги после того, как я уронил что-то.",
+     "pl": "Mój palec u nogi boli po tym, jak coś upuściłem.",
+     "de": "Mein Zeh tut weh, nachdem ich etwas fallen ließ.",
+     "fr": "Mon orteil fait mal après avoir fait tomber quelque chose.",
+     "es": "Me duele el dedo del pie después de dejar caer algo.",
+     "it": "Il mio dito del piede fa male dopo aver lasciato cadere qualcosa.",
+     "pt": "Meu dedo do pé dói depois de deixar cair algo.",
+     "tr": "Bir şey düşürdükten sonra ayak parmağım ağrıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.lungs",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/lʌŋz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I breathe with my lungs every day.",
+     "uk": "Я дихаю своїми легенями кожен день.",
+     "ru": "Я дышу своими легкими каждый день.",
+     "pl": "Oddycham swoimi płucami każdego dnia.",
+     "de": "Ich atme jeden Tag mit meinen Lungen.",
+     "fr": "Je respire avec mes poumons chaque jour.",
+     "es": "Respiro con mis pulmones todos los días.",
+     "it": "Respiro con i miei polmoni ogni giorno.",
+     "pt": "Eu respiro com meus pulmões todos os dias.",
+     "tr": "Her gün akciğerlerimle nefes alıyorum."
+    },
+    {
+     "en": "Smoking is bad for your lungs.",
+     "uk": "Куріння шкідливе для ваших легенів.",
+     "ru": "Курение вредно для ваших легких.",
+     "pl": "Palenie jest szkodliwe dla twoich płuc.",
+     "de": "Rauchen ist schlecht für deine Lungen.",
+     "fr": "Fumer est mauvais pour vos poumons.",
+     "es": "Fumar es malo para tus pulmones.",
+     "it": "Fumare è dannoso per i tuoi polmoni.",
+     "pt": "Fumar é ruim para os seus pulmões.",
+     "tr": "Sigara içmek akciğerlerin için kötüdür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.bone",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/boʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I broke a bone while playing football.",
+     "uk": "Я зламав кістку під час гри у футбол.",
+     "ru": "Я сломал кость, играя в футбол.",
+     "pl": "Złamałem kość podczas gry w piłkę.",
+     "de": "Ich habe mir beim Fußballspielen einen Knochen gebrochen.",
+     "fr": "Je me suis cassé un os en jouant au football.",
+     "es": "Me rompí un hueso jugando al fútbol.",
+     "it": "Mi sono rotto un osso giocando a calcio.",
+     "pt": "Quebrei um osso jogando futebol.",
+     "tr": "Futbol oynarken bir kemik kırdım."
+    },
+    {
+     "en": "The doctor checked my bone health.",
+     "uk": "Лікар перевірив здоров'я моїх кісток.",
+     "ru": "Доктор проверил здоровье моей кости.",
+     "pl": "Lekarz sprawdził zdrowie moich kości.",
+     "de": "Der Arzt hat meine Knochengesundheit überprüft.",
+     "fr": "Le médecin a vérifié ma santé osseuse.",
+     "es": "El médico revisó mi salud ósea.",
+     "it": "Il medico ha controllato la mia salute ossea.",
+     "pt": "O médico verificou minha saúde óssea.",
+     "tr": "Doktor kemik sağlığımı kontrol etti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-feel-better",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/fil ˈbɛtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I hope you start to feel better soon.",
+     "uk": "Сподіваюся, ти почнеш почуватися краще незабаром.",
+     "ru": "Надеюсь, ты скоро начнешь чувствовать себя лучше.",
+     "pl": "Mam nadzieję, że wkrótce poczujesz się lepiej.",
+     "de": "Ich hoffe, du fühlst dich bald besser.",
+     "fr": "J'espère que tu vas te sentir mieux bientôt.",
+     "es": "Espero que te sientas mejor pronto.",
+     "it": "Spero che ti sentirai meglio presto.",
+     "pt": "Espero que você se sinta melhor em breve.",
+     "tr": "Umarım yakında daha iyi hissedersin."
+    },
+    {
+     "en": "Take some rest to feel better.",
+     "uk": "Відпочинь, щоб почуватися краще.",
+     "ru": "Отдохни, чтобы чувствовать себя лучше.",
+     "pl": "Odpocznij, aby czuć się lepiej.",
+     "de": "Ruh dich aus, um dich besser zu fühlen.",
+     "fr": "Repose-toi pour te sentir mieux.",
+     "es": "Descansa para sentirte mejor.",
+     "it": "Riposa per sentirti meglio.",
+     "pt": "Descanse para se sentir melhor.",
+     "tr": "Daha iyi hissetmek için dinlen."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.clinic",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈklɪnɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I visited the clinic for a check-up.",
+     "uk": "Я відвідав клініку для огляду.",
+     "ru": "Я посетил клинику для осмотра.",
+     "pl": "Odwiedziłem przychodnię na badanie.",
+     "de": "Ich habe die Klinik für eine Untersuchung besucht.",
+     "fr": "J'ai visité la clinique pour un examen.",
+     "es": "Visité la clínica para un chequeo.",
+     "it": "Ho visitato la clinica per un controllo.",
+     "pt": "Visitei a clínica para um exame.",
+     "tr": "Kontrol için kliniği ziyaret ettim."
+    },
+    {
+     "en": "The clinic opens at 8 AM every day.",
+     "uk": "Клініка відкривається о 8 ранку щодня.",
+     "ru": "Клиника открывается в 8 утра каждый день.",
+     "pl": "Przychodnia otwiera się o 8 rano każdego dnia.",
+     "de": "Die Klinik öffnet jeden Tag um 8 Uhr.",
+     "fr": "La clinique ouvre à 8 heures tous les jours.",
+     "es": "La clínica abre a las 8 AM todos los días.",
+     "it": "La clinica apre alle 8 del mattino ogni giorno.",
+     "pt": "A clínica abre às 8 da manhã todos os dias.",
+     "tr": "Klinik her gün sabah 8'de açılır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-stay-in-bed",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/steɪ ɪn bɛd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to stay in bed on weekends.",
+     "uk": "Мені подобається лежати в ліжку на вихідних.",
+     "ru": "Мне нравится лежать в постели по выходным.",
+     "pl": "Lubię leżeć w łóżku w weekendy.",
+     "de": "Ich bleibe gerne am Wochenende im Bett.",
+     "fr": "J'aime rester au lit le week-end.",
+     "es": "Me gusta quedarme en cama los fines de semana.",
+     "it": "Mi piace restare a letto nei fine settimana.",
+     "pt": "Gosto de ficar de cama nos fins de semana.",
+     "tr": "Hafta sonları yatakta kalmayı seviyorum."
+    },
+    {
+     "en": "You should stay in bed if you're sick.",
+     "uk": "Тобі слід лежати в ліжку, якщо ти хворий.",
+     "ru": "Тебе следует лежать в постели, если ты болен.",
+     "pl": "Powinieneś leżeć w łóżku, jeśli jesteś chory.",
+     "de": "Du solltest im Bett bleiben, wenn du krank bist.",
+     "fr": "Tu devrais rester au lit si tu es malade.",
+     "es": "Deberías quedarte en cama si estás enfermo.",
+     "it": "Dovresti restare a letto se sei malato.",
+     "pt": "Você deve ficar de cama se estiver doente.",
+     "tr": "Hasta isen yatakta kalmalısın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-make-an-appointment",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/meɪk æn əˈpɔɪntmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to make an appointment with the doctor.",
+     "uk": "Мені потрібно записатися на прийом до лікаря.",
+     "ru": "Мне нужно записаться на приём к врачу.",
+     "pl": "Muszę umówić się na wizytę do lekarza.",
+     "de": "Ich muss einen Termin beim Arzt vereinbaren.",
+     "fr": "Je dois prendre rendez-vous avec le médecin.",
+     "es": "Necesito pedir cita con el médico.",
+     "it": "Devo prendere un appuntamento con il dottore.",
+     "pt": "Preciso marcar uma consulta com o médico.",
+     "tr": "Doktorla randevu almam gerekiyor."
+    },
+    {
+     "en": "Don't forget to make an appointment for your check-up.",
+     "uk": "Не забудь записатися на прийом для огляду.",
+     "ru": "Не забудь записаться на приём для осмотра.",
+     "pl": "Nie zapomnij umówić się na wizytę na badanie.",
+     "de": "Vergiss nicht, einen Termin für deine Untersuchung zu vereinbaren.",
+     "fr": "N'oublie pas de prendre rendez-vous pour ton examen.",
+     "es": "No olvides pedir cita para tu chequeo.",
+     "it": "Non dimenticare di prendere un appuntamento per il controllo.",
+     "pt": "Não se esqueça de marcar uma consulta para seu exame.",
+     "tr": "Kontrol için randevu almayı unutma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-be-allergic-to",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/bi əˈlɝdʒɪk tu/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I am allergic to peanuts and tree nuts.",
+     "uk": "Я маю алергію на арахіс і горіхи.",
+     "ru": "У меня аллергия на арахис и орехи.",
+     "pl": "Mam alergię na orzeszki ziemne i orzechy.",
+     "de": "Ich bin allergisch gegen Erdnüsse und Nüsse.",
+     "fr": "Je suis allergique aux cacahuètes et aux noix.",
+     "es": "Soy alérgico a los cacahuetes y a las nueces.",
+     "it": "Sono allergico a noccioline e noci.",
+     "pt": "Sou alérgico a amendoins e nozes.",
+     "tr": "Fıstık ve ceviz alerjim var."
+    },
+    {
+     "en": "He is allergic to pollen in spring.",
+     "uk": "Він має алергію на пилок навесні.",
+     "ru": "У него аллергия на пыльцу весной.",
+     "pl": "On ma alergię na pyłki wiosną.",
+     "de": "Er ist allergisch gegen Pollen im Frühling.",
+     "fr": "Il est allergique au pollen au printemps.",
+     "es": "Él es alérgico al polen en primavera.",
+     "it": "È allergico al polline in primavera.",
+     "pt": "Ele é alérgico ao pólen na primavera.",
+     "tr": "İlkbaharda polene alerjisi var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.blister",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈblɪstɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I got a blister from my new shoes.",
+     "uk": "Я отримав пухир від нових черевиків.",
+     "ru": "У меня появился волдырь от новых туфель.",
+     "pl": "Dostałem pęcherza od nowych butów.",
+     "de": "Ich habe eine Blase von meinen neuen Schuhen bekommen.",
+     "fr": "J'ai eu une ampoule à cause de mes nouvelles chaussures.",
+     "es": "Me salió una ampolla por mis zapatos nuevos.",
+     "it": "Ho avuto una vescica a causa delle mie nuove scarpe.",
+     "pt": "Eu tive uma bolha por causa dos meus sapatos novos.",
+     "tr": "Yeni ayakkabılarımdan dolayı su topladım."
+    },
+    {
+     "en": "The blister on my hand hurts.",
+     "uk": "Пухир на моїй руці болить.",
+     "ru": "Волдырь на моей руке болит.",
+     "pl": "Pęcherz na mojej ręce boli.",
+     "de": "Die Blase an meiner Hand tut weh.",
+     "fr": "L'ampoule sur ma main fait mal.",
+     "es": "La ampolla en mi mano duele.",
+     "it": "La vescica sulla mia mano fa male.",
+     "pt": "A bolha na minha mão dói.",
+     "tr": "Elimdeki su toplaması acıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.sunburn",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˈsʌnˌbɝn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I got a sunburn at the beach yesterday.",
+     "uk": "Вчора я отримав сонячний опік на пляжі.",
+     "ru": "Вчера я получил солнечный ожог на пляже.",
+     "pl": "Wczoraj dostałem oparzenie słoneczne na plaży.",
+     "de": "Ich habe gestern einen Sonnenbrand am Strand bekommen.",
+     "fr": "J'ai eu un coup de soleil à la plage hier.",
+     "es": "Ayer me quemé al sol en la playa.",
+     "it": "Ieri ho preso una scottatura in spiaggia.",
+     "pt": "Ontem eu tive uma queimadura solar na praia.",
+     "tr": "Dün plajda güneş yanığı oldum."
+    },
+    {
+     "en": "Use sunscreen to prevent sunburn.",
+     "uk": "Використовуйте сонцезахисний крем, щоб запобігти сонячному опіку.",
+     "ru": "Используйте солнцезащитный крем, чтобы предотвратить солнечный ожог.",
+     "pl": "Użyj kremu przeciwsłonecznego, aby zapobiec oparzeniu słonecznemu.",
+     "de": "Verwenden Sie Sonnencreme, um Sonnenbrand zu verhindern.",
+     "fr": "Utilisez de la crème solaire pour éviter les coups de soleil.",
+     "es": "Usa protector solar para prevenir quemaduras solares.",
+     "it": "Usa la crema solare per prevenire le scottature.",
+     "pt": "Use protetor solar para evitar queimaduras solares.",
+     "tr": "Güneş yanığını önlemek için güneş kremi kullanın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.heartburn",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈhɑrtˌbɝn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I often have heartburn after eating spicy food.",
+     "uk": "Я часто маю печію після їжі гострої їжі.",
+     "ru": "У меня часто бывает изжога после острого питания.",
+     "pl": "Często mam zgagę po jedzeniu pikantnych potraw.",
+     "de": "Ich habe oft Sodbrennen nach dem Essen von scharfen Speisen.",
+     "fr": "J'ai souvent des brûlures d'estomac après avoir mangé des plats épicés.",
+     "es": "A menudo tengo ardor de estómago después de comer comida picante.",
+     "it": "Spesso ho bruciore di stomaco dopo aver mangiato cibo piccante.",
+     "pt": "Eu frequentemente tenho azia após comer comida picante.",
+     "tr": "Baharatlı yemek yedikten sonra sık sık mide yanması yaşıyorum."
+    },
+    {
+     "en": "Heartburn can be uncomfortable and painful.",
+     "uk": "Печія може бути незручною і болісною.",
+     "ru": "Изжога может быть неприятной и болезненной.",
+     "pl": "Zgaga może być niewygodna i bolesna.",
+     "de": "Sodbrennen kann unangenehm und schmerzhaft sein.",
+     "fr": "Les brûlures d'estomac peuvent être inconfortables et douloureuses.",
+     "es": "El ardor de estómago puede ser incómodo y doloroso.",
+     "it": "Il bruciore di stomaco può essere scomodo e doloroso.",
+     "pt": "A azia pode ser desconfortável e dolorosa.",
+     "tr": "Mide yanması rahatsız edici ve acı verici olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.pharmacist",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/ˈfɑrməsɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The pharmacist gave me advice on my medicine.",
+     "uk": "Фармацевт дав мені пораду щодо моїх ліків.",
+     "ru": "Фармацевт дал мне совет по поводу моих лекарств.",
+     "pl": "Farmaceuta dał mi radę na temat moich leków.",
+     "de": "Der Apotheker gab mir einen Rat zu meinen Medikamenten.",
+     "fr": "Le pharmacien m'a donné des conseils sur mes médicaments.",
+     "es": "El farmacéutico me dio consejos sobre mis medicamentos.",
+     "it": "Il farmacista mi ha dato consigli sui miei farmaci.",
+     "pt": "O farmacêutico me deu conselhos sobre os meus medicamentos.",
+     "tr": "Eczacı, ilaçlarım hakkında bana tavsiyelerde bulundu."
+    },
+    {
+     "en": "I need to ask the pharmacist a question.",
+     "uk": "Мені потрібно задати питання фармацевту.",
+     "ru": "Мне нужно задать вопрос фармацевту.",
+     "pl": "Muszę zadać pytanie farmaceucie.",
+     "de": "Ich muss dem Apotheker eine Frage stellen.",
+     "fr": "Je dois poser une question au pharmacien.",
+     "es": "Necesito hacerle una pregunta al farmacéutico.",
+     "it": "Devo fare una domanda al farmacista.",
+     "pt": "Preciso fazer uma pergunta ao farmacêutico.",
+     "tr": "Eczacıya bir soru sormam gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-feel-sick",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/fil sɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I feel sick after eating too much.",
+     "uk": "Я відчуваю нудоту після того, як переїв.",
+     "ru": "Мне тошнит после того, как я переел.",
+     "pl": "Czuję mdłości po zjedzeniu za dużo.",
+     "de": "Ich fühle mich übel, nachdem ich zu viel gegessen habe.",
+     "fr": "J'ai mal au cœur après avoir trop mangé.",
+     "es": "Me siento mal después de comer demasiado.",
+     "it": "Mi sento male dopo aver mangiato troppo.",
+     "pt": "Estou enjoado depois de comer demais.",
+     "tr": "Çok yedikten sonra midesi bulanıyor."
+    },
+    {
+     "en": "She feels sick when she travels by car.",
+     "uk": "Вона відчуває нудоту, коли подорожує автомобілем.",
+     "ru": "Ей тошнит, когда она путешествует на машине.",
+     "pl": "Ona ma mdłości, gdy podróżuje samochodem.",
+     "de": "Sie fühlt sich übel, wenn sie mit dem Auto fährt.",
+     "fr": "Elle a mal au cœur quand elle voyage en voiture.",
+     "es": "Ella tiene náuseas cuando viaja en coche.",
+     "it": "Si sente male quando viaggia in auto.",
+     "pt": "Ela está enjoada quando viaja de carro.",
+     "tr": "Arabayla seyahat ederken midesi bulanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-burn-oneself",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/bɝn ˌwʌnˈsɛlf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful not to burn yourself while cooking.",
+     "uk": "Будь обережним, щоб не обпектися під час приготування.",
+     "ru": "Будь осторожен, чтобы не обжечься во время готовки.",
+     "pl": "Uważaj, żeby się nie oparzyć podczas gotowania.",
+     "de": "Sei vorsichtig, dass du dich beim Kochen nicht verbrennst.",
+     "fr": "Fais attention à ne pas te brûler en cuisinant.",
+     "es": "Ten cuidado de no quemarte mientras cocinas.",
+     "it": "Fai attenzione a non scottarti mentre cucini.",
+     "pt": "Tenha cuidado para não se queimar enquanto cozinha.",
+     "tr": "Yemek yaparken kendini yakmamaya dikkat et."
+    },
+    {
+     "en": "He burned himself on the hot stove.",
+     "uk": "Він обпікся об гарячу плиту.",
+     "ru": "Он обжегся о горячую плиту.",
+     "pl": "Oparzył się o gorącą kuchenkę.",
+     "de": "Er hat sich am heißen Herd verbrannt.",
+     "fr": "Il s'est brûlé sur le poêle chaud.",
+     "es": "Se quemó en la estufa caliente.",
+     "it": "Si è scottato sul fornello caldo.",
+     "pt": "Ele se queimou no fogão quente.",
+     "tr": "Sıcak ocakta kendini yaktı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-cut-oneself",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/kʌt ˌwʌnˈsɛlf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful not to cut yourself with the knife.",
+     "uk": "Будь обережним, щоб не порізатися ножем.",
+     "ru": "Будь осторожен, чтобы не порезаться ножом.",
+     "pl": "Uważaj, żeby się nie skaleczyć nożem.",
+     "de": "Sei vorsichtig, dass du dich nicht mit dem Messer schneidest.",
+     "fr": "Fais attention à ne pas te couper avec le couteau.",
+     "es": "Ten cuidado de no cortarte con el cuchillo.",
+     "it": "Fai attenzione a non tagliarti con il coltello.",
+     "pt": "Tenha cuidado para não se cortar com a faca.",
+     "tr": "Bıçakla kendini kesmemeye dikkat et."
+    },
+    {
+     "en": "She accidentally cut herself while preparing dinner.",
+     "uk": "Вона випадково порізалася, готуючи вечерю.",
+     "ru": "Она случайно порезалась, готовя ужин.",
+     "pl": "Ona przypadkowo skaleczyła się podczas przygotowywania kolacji.",
+     "de": "Sie hat sich beim Zubereiten des Abendessens versehentlich geschnitten.",
+     "fr": "Elle s'est accidentellement coupée en préparant le dîner.",
+     "es": "Ella se cortó accidentalmente mientras preparaba la cena.",
+     "it": "Si è tagliata accidentalmente mentre preparava la cena.",
+     "pt": "Ela se cortou acidentalmente enquanto preparava o jantar.",
+     "tr": "Akşam yemeği hazırlarken kendini yanlışlıkla kesti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-twist-ones-ankle",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/twɪst wʌnz ˈæŋkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I twisted my ankle while playing soccer.",
+     "uk": "Я підвернув ногу під час гри у футбол.",
+     "ru": "Я подвернул ногу, играя в футбол.",
+     "pl": "Skręciłem kostkę podczas gry w piłkę nożną.",
+     "de": "Ich habe mir den Knöchel verstaucht, als ich Fußball spielte.",
+     "fr": "Je me suis tordu la cheville en jouant au football.",
+     "es": "Me torcí el tobillo mientras jugaba al fútbol.",
+     "it": "Mi sono storto la caviglia mentre giocavo a calcio.",
+     "pt": "Torci o tornozelo enquanto jogava futebol.",
+     "tr": "Futbol oynarken bileğimi burktum."
+    },
+    {
+     "en": "He twisted his ankle on the uneven ground.",
+     "uk": "Він підвернув ногу на нерівній землі.",
+     "ru": "Он подвернул ногу на неровной земле.",
+     "pl": "On skręcił kostkę na nierównym terenie.",
+     "de": "Er hat sich den Knöchel auf dem unebenen Boden verstaucht.",
+     "fr": "Il s'est tordu la cheville sur le sol inégal.",
+     "es": "Se torció el tobillo en el terreno irregular.",
+     "it": "Si è storto la caviglia sul terreno irregolare.",
+     "pt": "Ele torceu o tornozelo no terreno irregular.",
+     "tr": "Düzensiz zeminde bileğini burktu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.weight",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/weɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My weight has changed since last year.",
+     "uk": "Моя вага змінилася з минулого року.",
+     "ru": "Мой вес изменился с прошлого года.",
+     "pl": "Moja waga zmieniła się od zeszłego roku.",
+     "de": "Mein Gewicht hat sich seit letztem Jahr verändert.",
+     "fr": "Mon poids a changé depuis l'année dernière.",
+     "es": "Mi peso ha cambiado desde el año pasado.",
+     "it": "Il mio peso è cambiato dall'anno scorso.",
+     "pt": "Meu peso mudou desde o ano passado.",
+     "tr": "Geçen yıldan beri kilom değişti."
+    },
+    {
+     "en": "He is trying to lose weight for the summer.",
+     "uk": "Він намагається скинути вагу до літа.",
+     "ru": "Он пытается сбросить вес к лету.",
+     "pl": "On stara się schudnąć na lato.",
+     "de": "Er versucht, Gewicht für den Sommer zu verlieren.",
+     "fr": "Il essaie de perdre du poids pour l'été.",
+     "es": "Él está tratando de perder peso para el verano.",
+     "it": "Sta cercando di perdere peso per l'estate.",
+     "pt": "Ele está tentando perder peso para o verão.",
+     "tr": "Yaz için kilo vermeye çalışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-put-on-weight",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/pʊt ɑn weɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to put on weight for my health.",
+     "uk": "Я хочу набрати вагу для свого здоров'я.",
+     "ru": "Я хочу набрать вес для своего здоровья.",
+     "pl": "Chcę przytyć dla swojego zdrowia.",
+     "de": "Ich möchte zunehmen für meine Gesundheit.",
+     "fr": "Je veux prendre du poids pour ma santé.",
+     "es": "Quiero engordar por mi salud.",
+     "it": "Voglio ingrassare per la mia salute.",
+     "pt": "Quero engordar pela minha saúde.",
+     "tr": "Sağlığım için kilo almak istiyorum."
+    },
+    {
+     "en": "He is trying to put on weight after his illness.",
+     "uk": "Він намагається набрати вагу після хвороби.",
+     "ru": "Он пытается набрать вес после болезни.",
+     "pl": "On stara się przytyć po chorobie.",
+     "de": "Er versucht, nach seiner Krankheit zuzunehmen.",
+     "fr": "Il essaie de prendre du poids après sa maladie.",
+     "es": "Él está tratando de engordar después de su enfermedad.",
+     "it": "Sta cercando di ingrassare dopo la sua malattia.",
+     "pt": "Ele está tentando engordar após sua doença.",
+     "tr": "Hastalığından sonra kilo almaya çalışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.healthy-lifestyle",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈhɛlθi ˈlaɪfˌstaɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A healthy lifestyle includes good food and exercise.",
+     "uk": "Здоровий спосіб життя включає хорошу їжу та фізичні вправи.",
+     "ru": "Здоровый образ жизни включает хорошую еду и физические упражнения.",
+     "pl": "Zdrowy tryb życia obejmuje dobrą żywność i ćwiczenia.",
+     "de": "Ein gesunder Lebensstil umfasst gutes Essen und Bewegung.",
+     "fr": "Un mode de vie sain comprend une bonne nourriture et de l'exercice.",
+     "es": "Un estilo de vida saludable incluye buena comida y ejercicio.",
+     "it": "Uno stile di vita sano include cibo buono e esercizio.",
+     "pt": "Um estilo de vida saudável inclui boa comida e exercício.",
+     "tr": "Sağlıklı bir yaşam tarzı iyi yemek ve egzersiz içerir."
+    },
+    {
+     "en": "He follows a healthy lifestyle every day.",
+     "uk": "Він дотримується здорового способу життя щодня.",
+     "ru": "Он ведет здоровый образ жизни каждый день.",
+     "pl": "On codziennie prowadzi zdrowy tryb życia.",
+     "de": "Er lebt jeden Tag einen gesunden Lebensstil.",
+     "fr": "Il suit un mode de vie sain chaque jour.",
+     "es": "Él sigue un estilo de vida saludable todos los días.",
+     "it": "Segui uno stile di vita sano ogni giorno.",
+     "pt": "Ele segue um estilo de vida saudável todos os dias.",
+     "tr": "Her gün sağlıklı bir yaşam tarzı izliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.unhealthy",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ənˈhɛlθi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Eating too much junk food is unhealthy.",
+     "uk": "Їсти занадто багато фастфуду шкідливо для здоров'я.",
+     "ru": "Есть слишком много фастфуда вредно для здоровья.",
+     "pl": "Jedzenie zbyt wielu śmieciowych jedzenia jest niezdrowe.",
+     "de": "Zu viel Junkfood zu essen ist ungesund.",
+     "fr": "Manger trop de malbouffe est malsain.",
+     "es": "Comer demasiada comida chatarra es poco saludable.",
+     "it": "Mangiare troppa spazzatura è malsano.",
+     "pt": "Comer muita comida não saudável é pouco saudável.",
+     "tr": "Çok fazla abur cubur yemek sağlıksızdır."
+    },
+    {
+     "en": "Smoking is an unhealthy habit.",
+     "uk": "Куріння - це шкідлива звичка.",
+     "ru": "Курение - это вредная привычка.",
+     "pl": "Palenie to niezdrowy nawyk.",
+     "de": "Rauchen ist eine ungesunde Gewohnheit.",
+     "fr": "Fumer est une habitude malsaine.",
+     "es": "Fumar es un hábito poco saludable.",
+     "it": "Fumare è un'abitudine malsana.",
+     "pt": "Fumar é um hábito pouco saudável.",
+     "tr": "Sigara içmek sağlıksız bir alışkanlıktır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-go-to-the-gym",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ tu ðə dʒɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to the gym three times a week.",
+     "uk": "Я ходжу в спортзал три рази на тиждень.",
+     "ru": "Я хожу в спортзал три раза в неделю.",
+     "pl": "Chodzę na siłownię trzy razy w tygodniu.",
+     "de": "Ich gehe dreimal pro Woche ins Fitnessstudio.",
+     "fr": "Je vais à la salle de sport trois fois par semaine.",
+     "es": "Voy al gimnasio tres veces a la semana.",
+     "it": "Vado in palestra tre volte a settimana.",
+     "pt": "Vou à academia três vezes por semana.",
+     "tr": "Haftada üç kez spor salonuna gidiyorum."
+    },
+    {
+     "en": "He prefers to go to the gym in the evening.",
+     "uk": "Він віддає перевагу ходити в спортзал ввечері.",
+     "ru": "Он предпочитает ходить в спортзал вечером.",
+     "pl": "On woli chodzić na siłownię wieczorem.",
+     "de": "Er geht lieber abends ins Fitnessstudio.",
+     "fr": "Il préfère aller à la salle de sport le soir.",
+     "es": "Él prefiere ir al gimnasio por la noche.",
+     "it": "Preferisce andare in palestra la sera.",
+     "pt": "Ele prefere ir à academia à noite.",
+     "tr": "Akşamları spor salonuna gitmeyi tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-jog",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/dʒɑɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to jog in the morning.",
+     "uk": "Мені подобається бігати підтюпцем вранці.",
+     "ru": "Мне нравится бегать трусцой утром.",
+     "pl": "Lubię biegać rano.",
+     "de": "Ich jogge gerne morgens.",
+     "fr": "J'aime faire du jogging le matin.",
+     "es": "Me gusta hacer footing por la mañana.",
+     "it": "Mi piace fare jogging al mattino.",
+     "pt": "Gosto de correr de manhã.",
+     "tr": "Sabahları koşu yapmayı seviyorum."
+    },
+    {
+     "en": "She jogs in the park every evening.",
+     "uk": "Вона бігає підтюпцем у парку що вечора.",
+     "ru": "Она бегает трусцой в парке каждый вечер.",
+     "pl": "Ona biega w parku każdego wieczoru.",
+     "de": "Sie joggt jeden Abend im Park.",
+     "fr": "Elle fait du jogging dans le parc chaque soir.",
+     "es": "Ella hace footing en el parque cada noche.",
+     "it": "Lei fa jogging nel parco ogni sera.",
+     "pt": "Ela corre no parque todas as noites.",
+     "tr": "O, her akşam parkta koşu yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-take-a-temperature",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/teɪk ə ˈtɛmprətʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to take a temperature every morning.",
+     "uk": "Мені потрібно міряти температуру щоранку.",
+     "ru": "Мне нужно мерить температуру каждое утро.",
+     "pl": "Muszę mierzyć temperaturę każdego ranka.",
+     "de": "Ich muss jeden Morgen Fieber messen.",
+     "fr": "Je dois prendre la température chaque matin.",
+     "es": "Necesito tomar la temperatura cada mañana.",
+     "it": "Devo misurare la febbre ogni mattina.",
+     "pt": "Preciso medir a temperatura todas as manhãs.",
+     "tr": "Her sabah ateş ölçmek zorundayım."
+    },
+    {
+     "en": "Please take a temperature before the doctor arrives.",
+     "uk": "Будь ласка, міряйте температуру перед приходом лікаря.",
+     "ru": "Пожалуйста, померьте температуру перед приходом врача.",
+     "pl": "Proszę zmierzyć temperaturę przed przybyciem lekarza.",
+     "de": "Bitte messen Sie die Temperatur, bevor der Arzt kommt.",
+     "fr": "Veuillez prendre la température avant l'arrivée du médecin.",
+     "es": "Por favor, toma la temperatura antes de que llegue el médico.",
+     "it": "Per favore, misura la febbre prima che arrivi il dottore.",
+     "pt": "Por favor, meça a temperatura antes da chegada do médico.",
+     "tr": "Lütfen doktor gelmeden önce ateş ölç."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.face-mask",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/feɪs mæsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must wear a face mask in the clinic.",
+     "uk": "Ви повинні носити медичну маску в клініці.",
+     "ru": "Вы должны носить медицинскую маску в клинике.",
+     "pl": "Musisz nosić maseczkę w klinice.",
+     "de": "Sie müssen im Krankenhaus einen Mundschutz tragen.",
+     "fr": "Vous devez porter un masque à la clinique.",
+     "es": "Debes usar una mascarilla en la clínica.",
+     "it": "Devi indossare una mascherina in clinica.",
+     "pt": "Você deve usar uma máscara na clínica.",
+     "tr": "Klinikte maske takmalısın."
+    },
+    {
+     "en": "I forgot my face mask at home.",
+     "uk": "Я забув медичну маску вдома.",
+     "ru": "Я забыл медицинскую маску дома.",
+     "pl": "Zapomniałem maseczki w domu.",
+     "de": "Ich habe meine Mundschutz zu Hause vergessen.",
+     "fr": "J'ai oublié mon masque à la maison.",
+     "es": "Olvidé mi mascarilla en casa.",
+     "it": "Ho dimenticato la mascherina a casa.",
+     "pt": "Esqueci minha máscara em casa.",
+     "tr": "Maskemi evde unuttum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.contact-lenses",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈkɑnˌtækt ˈlɛnzəz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear contact lenses instead of glasses.",
+     "uk": "Я ношу контактні лінзи замість окулярів.",
+     "ru": "Я ношу контактные линзы вместо очков.",
+     "pl": "Noszę soczewki kontaktowe zamiast okularów.",
+     "de": "Ich trage Kontaktlinsen statt einer Brille.",
+     "fr": "Je porte des lentilles de contact au lieu de lunettes.",
+     "es": "Uso lentillas en lugar de gafas.",
+     "it": "Indosso lenti a contatto invece degli occhiali.",
+     "pt": "Eu uso lentes de contato em vez de óculos.",
+     "tr": "Gözlük yerine kontakt lens takıyorum."
+    },
+    {
+     "en": "My contact lenses are comfortable to wear.",
+     "uk": "Мої контактні лінзи зручні для носіння.",
+     "ru": "Мои контактные линзы удобны для ношения.",
+     "pl": "Moje soczewki kontaktowe są wygodne w noszeniu.",
+     "de": "Meine Kontaktlinsen sind bequem zu tragen.",
+     "fr": "Mes lentilles de contact sont confortables à porter.",
+     "es": "Mis lentillas son cómodas de llevar.",
+     "it": "Le mie lenti a contatto sono comode da indossare.",
+     "pt": "Minhas lentes de contato são confortáveis de usar.",
+     "tr": "Kontakt lenslerim takması rahat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.deaf",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/dɛf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My friend is deaf and uses sign language.",
+     "uk": "Мій друг глухий і використовує жестову мову.",
+     "ru": "Мой друг глухой и использует жестовый язык.",
+     "pl": "Mój przyjaciel jest głuchy i używa języka migowego.",
+     "de": "Mein Freund ist taub und benutzt Gebärdensprache.",
+     "fr": "Mon ami est sourd et utilise la langue des signes.",
+     "es": "Mi amigo es sordo y usa el lenguaje de señas.",
+     "it": "Il mio amico è sordo e usa la lingua dei segni.",
+     "pt": "Meu amigo é surdo e usa a linguagem de sinais.",
+     "tr": "Arkadaşım sağır ve işaret dili kullanıyor."
+    },
+    {
+     "en": "She is deaf but communicates very well.",
+     "uk": "Вона глуха, але спілкується дуже добре.",
+     "ru": "Она глуха, но хорошо общается.",
+     "pl": "Ona jest głucha, ale komunikuje się bardzo dobrze.",
+     "de": "Sie ist taub, kommuniziert aber sehr gut.",
+     "fr": "Elle est sourde mais communique très bien.",
+     "es": "Ella es sorda pero se comunica muy bien.",
+     "it": "È sorda ma comunica molto bene.",
+     "pt": "Ela é surda, mas se comunica muito bem.",
+     "tr": "O sağır ama çok iyi iletişim kuruyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.blind",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/blaɪnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is blind and uses a cane to walk.",
+     "uk": "Він сліпий і використовує палицю для ходьби.",
+     "ru": "Он слепой и использует трость для ходьбы.",
+     "pl": "On jest niewidomy i używa laski do chodzenia.",
+     "de": "Er ist blind und benutzt einen Stock zum Gehen.",
+     "fr": "Il est aveugle et utilise une canne pour marcher.",
+     "es": "Él es ciego y usa un bastón para caminar.",
+     "it": "È cieco e usa un bastone per camminare.",
+     "pt": "Ele é cego e usa uma bengala para andar.",
+     "tr": "O kör ve yürümek için bir baston kullanıyor."
+    },
+    {
+     "en": "The blind man read the book in Braille.",
+     "uk": "Сліпий чоловік прочитав книгу шрифтом Брайля.",
+     "ru": "Слепой человек прочитал книгу шрифтом Брайля.",
+     "pl": "Niewidomy mężczyzna przeczytał książkę w alfabecie Braille'a.",
+     "de": "Der blinde Mann las das Buch in Brailleschrift.",
+     "fr": "L'homme aveugle a lu le livre en braille.",
+     "es": "El hombre ciego leyó el libro en braille.",
+     "it": "L'uomo cieco ha letto il libro in braille.",
+     "pt": "O homem cego leu o livro em braille.",
+     "tr": "Kör adam kitabı kabartma yazıyla okudu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.wheelchair",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈwilˌtʃɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She uses a wheelchair to move around.",
+     "uk": "Вона користується інвалідним візком, щоб пересуватися.",
+     "ru": "Она использует инвалидную коляску, чтобы передвигаться.",
+     "pl": "Ona używa wózka inwalidzkiego, aby się poruszać.",
+     "de": "Sie benutzt einen Rollstuhl, um sich fortzubewegen.",
+     "fr": "Elle utilise un fauteuil roulant pour se déplacer.",
+     "es": "Ella usa una silla de ruedas para moverse.",
+     "it": "Lei usa una sedia a rotelle per spostarsi.",
+     "pt": "Ela usa uma cadeira de rodas para se mover.",
+     "tr": "O, hareket etmek için tekerlekli sandalye kullanıyor."
+    },
+    {
+     "en": "The wheelchair is parked near the entrance.",
+     "uk": "Інвалідний візок припаркований біля входу.",
+     "ru": "Инвалидная коляска припаркована у входа.",
+     "pl": "Wózek inwalidzki jest zaparkowany przy wejściu.",
+     "de": "Der Rollstuhl ist am Eingang geparkt.",
+     "fr": "Le fauteuil roulant est garé près de l'entrée.",
+     "es": "La silla de ruedas está estacionada cerca de la entrada.",
+     "it": "La sedia a rotelle è parcheggiata vicino all'ingresso.",
+     "pt": "A cadeira de rodas está estacionada perto da entrada.",
+     "tr": "Tekerlekli sandalye girişin yanında park edilmiş."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.crutches",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈkrʌtʃɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He uses crutches after his leg injury.",
+     "uk": "Він користується милицями після травми ноги.",
+     "ru": "Он использует костыли после травмы ноги.",
+     "pl": "On używa kul po kontuzji nogi.",
+     "de": "Er benutzt Krücken nach seiner Beinverletzung.",
+     "fr": "Il utilise des béquilles après sa blessure à la jambe.",
+     "es": "Él usa muletas después de su lesión en la pierna.",
+     "it": "Lui usa le stampelle dopo il suo infortunio alla gamba.",
+     "pt": "Ele usa muletas após sua lesão na perna.",
+     "tr": "Bacağı yaralandıktan sonra koltuk değnekleri kullanıyor."
+    },
+    {
+     "en": "The crutches are leaning against the wall.",
+     "uk": "Милиці спираються на стіну.",
+     "ru": "Костыли опираются на стену.",
+     "pl": "Kule opierają się o ścianę.",
+     "de": "Die Krücken lehnen an der Wand.",
+     "fr": "Les béquilles sont appuyées contre le mur.",
+     "es": "Las muletas están apoyadas contra la pared.",
+     "it": "Le stampelle sono appoggiate contro il muro.",
+     "pt": "As muletas estão encostadas na parede.",
+     "tr": "Koltuk değnekleri duvara yaslanmış."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-smoke",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/smoʊk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to smoke after dinner.",
+     "uk": "Мені подобається курити після вечері.",
+     "ru": "Мне нравится курить после ужина.",
+     "pl": "Lubię palić po obiedzie.",
+     "de": "Ich rauche gerne nach dem Abendessen.",
+     "fr": "J'aime fumer après le dîner.",
+     "es": "Me gusta fumar después de la cena.",
+     "it": "Mi piace fumare dopo cena.",
+     "pt": "Gosto de fumar depois do jantar.",
+     "tr": "Akşam yemeğinden sonra sigara içmeyi seviyorum."
+    },
+    {
+     "en": "He decided to smoke less this year.",
+     "uk": "Він вирішив курити менше цього року.",
+     "ru": "Он решил курить меньше в этом году.",
+     "pl": "Postanowił palić mniej w tym roku.",
+     "de": "Er hat beschlossen, dieses Jahr weniger zu rauchen.",
+     "fr": "Il a décidé de fumer moins cette année.",
+     "es": "Decidió fumar menos este año.",
+     "it": "Ha deciso di fumare meno quest'anno.",
+     "pt": "Ele decidiu fumar menos este ano.",
+     "tr": "Bu yıl daha az sigara içmeye karar verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-shiver",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈʃɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I start to shiver when I'm cold.",
+     "uk": "Я починаю тремтіти, коли мені холодно.",
+     "ru": "Я начинаю дрожать, когда мне холодно.",
+     "pl": "Zaczynam drżeć, gdy jest mi zimno.",
+     "de": "Ich beginne zu zittern, wenn mir kalt ist.",
+     "fr": "Je commence à grelotter quand j'ai froid.",
+     "es": "Empiezo a tiritar cuando tengo frío.",
+     "it": "Inizio a tremare quando ho freddo.",
+     "pt": "Começo a tremer quando estou com frio.",
+     "tr": "Soğuduğumda titremeye başlıyorum."
+    },
+    {
+     "en": "The dog started to shiver during the storm.",
+     "uk": "Собака почала тремтіти під час бурі.",
+     "ru": "Собака начала дрожать во время шторма.",
+     "pl": "Pies zaczął drżeć podczas burzy.",
+     "de": "Der Hund begann während des Sturms zu zittern.",
+     "fr": "Le chien a commencé à grelotter pendant la tempête.",
+     "es": "El perro empezó a tiritar durante la tormenta.",
+     "it": "Il cane ha iniziato a tremare durante la tempesta.",
+     "pt": "O cachorro começou a tremer durante a tempestade.",
+     "tr": "Köpek fırtına sırasında titremeye başladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.itchy",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ˈɪtʃi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My skin is itchy after the mosquito bite.",
+     "uk": "Моя шкіра свербіжна після укусу комара.",
+     "ru": "Моя кожа зудит после укуса комара.",
+     "pl": "Moja skóra jest swędząca po ukąszeniu komara.",
+     "de": "Meine Haut juckt nach dem Mückenstich.",
+     "fr": "Ma peau est qui gratte après la piqûre de moustique.",
+     "es": "Mi piel está que pica después de la picadura de mosquito.",
+     "it": "La mia pelle è che prude dopo la puntura di zanzara.",
+     "pt": "Minha pele está que coça após a picada do mosquito.",
+     "tr": "Sivrisinek ısırdıktan sonra cildim kaşıntılı."
+    },
+    {
+     "en": "I have an itchy rash on my arm.",
+     "uk": "У мене свербіжна висипка на руці.",
+     "ru": "У меня зудящая сыпь на руке.",
+     "pl": "Mam swędzącą wysypkę na ręce.",
+     "de": "Ich habe einen juckenden Ausschlag am Arm.",
+     "fr": "J'ai une éruption qui gratte sur le bras.",
+     "es": "Tengo una erupción que pica en el brazo.",
+     "it": "Ho un'eruzione che prude sul braccio.",
+     "pt": "Eu tenho uma erupção que coça no braço.",
+     "tr": "Kollarımda kaşıntılı bir döküntü var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.sore",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/sɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My muscles feel sore after exercising.",
+     "uk": "Мої м'язи болючі після тренування.",
+     "ru": "Мои мышцы ноют после тренировки.",
+     "pl": "Moje mięśnie są obolałe po treningu.",
+     "de": "Meine Muskeln sind nach dem Training schmerzend.",
+     "fr": "Mes muscles sont douloureux après l'exercice.",
+     "es": "Mis músculos están doloridos después de hacer ejercicio.",
+     "it": "I miei muscoli sono doloranti dopo l'esercizio.",
+     "pt": "Meus músculos estão doloridos depois de malhar.",
+     "tr": "Kaslarım egzersiz yaptıktan sonra ağrıyor."
+    },
+    {
+     "en": "I have a sore throat today.",
+     "uk": "Сьогодні в мене болюче горло.",
+     "ru": "Сегодня у меня болит горло.",
+     "pl": "Dziś boli mnie gardło.",
+     "de": "Ich habe heute einen schmerzenden Hals.",
+     "fr": "J'ai mal à la gorge aujourd'hui.",
+     "es": "Hoy tengo dolor de garganta.",
+     "it": "Oggi ho mal di gola.",
+     "pt": "Hoje estou com dor de garganta.",
+     "tr": "Bugün boğazım ağrıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.stomach-bug",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/ˈstʌmək bʌɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I can't go out; I have a stomach bug.",
+     "uk": "Я не можу вийти; в мене кишкова інфекція.",
+     "ru": "Я не могу выйти; у меня кишечная инфекция.",
+     "pl": "Nie mogę wyjść; mam grypę żołądkową.",
+     "de": "Ich kann nicht raus; ich habe einen Magen-Darm-Infekt.",
+     "fr": "Je ne peux pas sortir; j'ai la gastro.",
+     "es": "No puedo salir; tengo un virus estomacal.",
+     "it": "Non posso uscire; ho un virus intestinale.",
+     "pt": "Não posso sair; estou com uma virose.",
+     "tr": "Dışarı çıkamam; mide virüsü var."
+    },
+    {
+     "en": "She caught a stomach bug from her friend.",
+     "uk": "Вона підхопила кишкову інфекцію від подруги.",
+     "ru": "Она подхватила кишечную инфекцию от подруги.",
+     "pl": "Złapała grypę żołądkową od przyjaciółki.",
+     "de": "Sie hat sich einen Magen-Darm-Infekt von ihrer Freundin geholt.",
+     "fr": "Elle a attrapé la gastro de son amie.",
+     "es": "Ella contrajo un virus estomacal de su amiga.",
+     "it": "Ha preso un virus intestinale dalla sua amica.",
+     "pt": "Ela pegou uma virose da amiga.",
+     "tr": "Arkadaşından mide virüsü kaptı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.insect-bite",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/ˈɪnˌsɛkt baɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have an insect bite on my arm.",
+     "uk": "У мене укус комахи на руці.",
+     "ru": "У меня укус насекомого на руке.",
+     "pl": "Mam ukąszenie owada na ręce.",
+     "de": "Ich habe einen Insektenstich am Arm.",
+     "fr": "J'ai une piqûre d'insecte sur le bras.",
+     "es": "Tengo una picadura de insecto en el brazo.",
+     "it": "Ho una puntura d'insetto sul braccio.",
+     "pt": "Tenho uma picada de inseto no braço.",
+     "tr": "Kolumda böcek ısırığı var."
+    },
+    {
+     "en": "Be careful of insect bites in the summer.",
+     "uk": "Обережно з укусами комах влітку.",
+     "ru": "Будьте осторожны с укусами насекомых летом.",
+     "pl": "Uważaj na ukąszenia owadów latem.",
+     "de": "Sei vorsichtig bei Insektenstichen im Sommer.",
+     "fr": "Faites attention aux piqûres d'insectes en été.",
+     "es": "Ten cuidado con las picaduras de insectos en verano.",
+     "it": "Fai attenzione alle punture d'insetto in estate.",
+     "pt": "Cuidado com picadas de inseto no verão.",
+     "tr": "Yazın böcek ısırıklarına dikkat et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.sleeping-pill",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ˈslipɪŋ pɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I took a sleeping pill to help me rest.",
+     "uk": "Я прийняв снодійне, щоб відпочити.",
+     "ru": "Я принял снотворное, чтобы отдохнуть.",
+     "pl": "Wziąłem tabletkę nasenną, aby odpocząć.",
+     "de": "Ich habe eine Schlaftablette genommen, um mich auszuruhen.",
+     "fr": "J'ai pris un somnifère pour m'aider à me reposer.",
+     "es": "Tomé un somnífero para ayudarme a descansar.",
+     "it": "Ho preso un sonnifero per aiutarmi a riposare.",
+     "pt": "Tomei um remédio para dormir para descansar.",
+     "tr": "Dinlenmek için uyku hapı aldım."
+    },
+    {
+     "en": "She needs a sleeping pill for her insomnia.",
+     "uk": "Їй потрібне снодійне для безсоння.",
+     "ru": "Ей нужно снотворное от бессонницы.",
+     "pl": "Potrzebuje tabletki nasennej na bezsenność.",
+     "de": "Sie braucht eine Schlaftablette gegen ihre Schlaflosigkeit.",
+     "fr": "Elle a besoin d'un somnifère pour son insomnie.",
+     "es": "Ella necesita un somnífero para su insomnio.",
+     "it": "Ha bisogno di un sonnifero per la sua insonnia.",
+     "pt": "Ela precisa de um remédio para dormir para a insônia.",
+     "tr": "Uykusuzluk için uyku hapına ihtiyacı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.cough-medicine",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/kɑf ˈmɛdəsən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought cough medicine for my cold.",
+     "uk": "Я купив ліки від кашлю для свого грипу.",
+     "ru": "Я купил лекарство от кашля для простуды.",
+     "pl": "Kupiłem lek na kaszel na przeziębienie.",
+     "de": "Ich habe Hustenmittel für meine Erkältung gekauft.",
+     "fr": "J'ai acheté un médicament contre la toux pour mon rhume.",
+     "es": "Compré jarabe para la tos para mi resfriado.",
+     "it": "Ho comprato medicina per la tosse per il mio raffreddore.",
+     "pt": "Comprei remédio para tosse para meu resfriado.",
+     "tr": "Soğuk algınlığı için öksürük ilacı aldım."
+    },
+    {
+     "en": "This cough medicine tastes very sweet.",
+     "uk": "Ці ліки від кашлю дуже солодкі.",
+     "ru": "Это лекарство от кашля очень сладкое.",
+     "pl": "Ten lek na kaszel jest bardzo słodki.",
+     "de": "Dieses Hustenmittel schmeckt sehr süß.",
+     "fr": "Ce médicament contre la toux a un goût très sucré.",
+     "es": "Este jarabe para la tos sabe muy dulce.",
+     "it": "Questo sciroppo per la tosse ha un sapore molto dolce.",
+     "pt": "Este remédio para tosse tem um gosto muito doce.",
+     "tr": "Bu öksürük ilacı çok tatlı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.eye-drops",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/aɪ drɑps/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need eye drops for my dry eyes.",
+     "uk": "Мені потрібні очні краплі для сухих очей.",
+     "ru": "Мне нужны глазные капли для сухих глаз.",
+     "pl": "Potrzebuję kropli do oczu na suche oczy.",
+     "de": "Ich brauche Augentropfen für meine trockenen Augen.",
+     "fr": "J'ai besoin de collyre pour mes yeux secs.",
+     "es": "Necesito colirio para mis ojos secos.",
+     "it": "Ho bisogno di collirio per i miei occhi secchi.",
+     "pt": "Preciso de colírio para meus olhos secos.",
+     "tr": "Kuru gözlerim için göz damlasına ihtiyacım var."
+    },
+    {
+     "en": "Apply the eye drops carefully.",
+     "uk": "Обережно нанесіть очні краплі.",
+     "ru": "Аккуратно закапайте глазные капли.",
+     "pl": "Aplikuj krople do oczu ostrożnie.",
+     "de": "Tragen Sie die Augentropfen vorsichtig auf.",
+     "fr": "Appliquez le collyre avec précaution.",
+     "es": "Aplica el colirio con cuidado.",
+     "it": "Applica il collirio con attenzione.",
+     "pt": "Aplique o colírio com cuidado.",
+     "tr": "Göz damlasını dikkatlice uygulayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.hearing-aid",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˈhirɪŋ eɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wears a hearing aid to help him hear.",
+     "uk": "Він носить слуховий апарат, щоб чути.",
+     "ru": "Он носит слуховой аппарат, чтобы слышать.",
+     "pl": "On nosi aparat słuchowy, aby lepiej słyszeć.",
+     "de": "Er trägt ein Hörgerät, um besser zu hören.",
+     "fr": "Il porte un appareil auditif pour l'aider à entendre.",
+     "es": "Él usa un audífono para ayudarle a oír.",
+     "it": "Lui indossa un apparecchio acustico per aiutarlo a sentire.",
+     "pt": "Ele usa um aparelho auditivo para ajudá-lo a ouvir.",
+     "tr": "Daha iyi duymak için işitme cihazı takıyor."
+    },
+    {
+     "en": "My grandfather has a hearing aid.",
+     "uk": "У мого дідуся є слуховий апарат.",
+     "ru": "У моего деда есть слуховой аппарат.",
+     "pl": "Mój dziadek ma aparat słuchowy.",
+     "de": "Mein Großvater hat ein Hörgerät.",
+     "fr": "Mon grand-père a un appareil auditif.",
+     "es": "Mi abuelo tiene un audífono.",
+     "it": "Mio nonno ha un apparecchio acustico.",
+     "pt": "Meu avô tem um aparelho auditivo.",
+     "tr": "Dedemin işitme cihazı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-get-sick",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ɡɛt sɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I don't want to get sick this winter.",
+     "uk": "Я не хочу захворіти цієї зими.",
+     "ru": "Я не хочу заболеть этой зимой.",
+     "pl": "Nie chcę zachorować tej zimy.",
+     "de": "Ich möchte diesen Winter nicht krank werden.",
+     "fr": "Je ne veux pas tomber malade cet hiver.",
+     "es": "No quiero ponerme enfermo este invierno.",
+     "it": "Non voglio ammalarmi quest'inverno.",
+     "pt": "Não quero ficar doente neste inverno.",
+     "tr": "Bu kış hastalanmak istemiyorum."
+    },
+    {
+     "en": "She tends to get sick easily.",
+     "uk": "Вона схильна легко захворіти.",
+     "ru": "Она склонна легко заболеть.",
+     "pl": "Ona łatwo zachorowuje.",
+     "de": "Sie neigt dazu, leicht krank zu werden.",
+     "fr": "Elle a tendance à tomber malade facilement.",
+     "es": "Ella tiende a ponerse enferma fácilmente.",
+     "it": "Tende ad ammalarsi facilmente.",
+     "pt": "Ela tende a ficar doente facilmente.",
+     "tr": "Kolayca hastalanma eğilimi var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.eyesight",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈaɪˌsaɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My eyesight is getting worse with age.",
+     "uk": "Мій зір погіршується з віком.",
+     "ru": "Мое зрение ухудшается с возрастом.",
+     "pl": "Mój wzrok pogarsza się z wiekiem.",
+     "de": "Mein Sehvermögen wird mit dem Alter schlechter.",
+     "fr": "Ma vue se détériore avec l'âge.",
+     "es": "Mi vista está empeorando con la edad.",
+     "it": "La mia vista sta peggiorando con l'età.",
+     "pt": "Minha visão está piorando com a idade.",
+     "tr": "Görme gücüm yaşlandıkça kötüleşiyor."
+    },
+    {
+     "en": "He has good eyesight for his age.",
+     "uk": "Він має хороший зір для свого віку.",
+     "ru": "У него хорошее зрение для его возраста.",
+     "pl": "Ma dobry wzrok jak na swój wiek.",
+     "de": "Er hat gutes Sehvermögen für sein Alter.",
+     "fr": "Il a une bonne vue pour son âge.",
+     "es": "Él tiene buena vista para su edad.",
+     "it": "Ha una buona vista per la sua età.",
+     "pt": "Ele tem boa visão para a idade dele.",
+     "tr": "Onun yaşı için iyi bir görme gücü var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.nosebleed",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ˈnoʊzˌblid/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He had a nosebleed after the game.",
+     "uk": "У нього була носова кровотеча після гри.",
+     "ru": "У него было носовое кровотечение после игры.",
+     "pl": "Miał krwawienie z nosa po meczu.",
+     "de": "Er hatte nach dem Spiel Nasenbluten.",
+     "fr": "Il a eu un saignement de nez après le match.",
+     "es": "Tuvo una hemorragia nasal después del partido.",
+     "it": "Ha avuto sangue dal naso dopo la partita.",
+     "pt": "Ele teve um sangramento nasal após o jogo.",
+     "tr": "Maçtan sonra burun kanaması geçirdi."
+    },
+    {
+     "en": "Nosebleeds can happen in dry weather.",
+     "uk": "Носові кровотечі можуть траплятися в суху погоду.",
+     "ru": "Носовые кровотечения могут происходить в сухую погоду.",
+     "pl": "Krwawienia z nosa mogą występować w suchą pogodę.",
+     "de": "Nasenbluten kann bei trockenem Wetter passieren.",
+     "fr": "Les saignements de nez peuvent se produire par temps sec.",
+     "es": "Las hemorragias nasales pueden ocurrir en clima seco.",
+     "it": "Le emorragie nasali possono verificarsi in tempo secco.",
+     "pt": "Sangramentos nasais podem acontecer em clima seco.",
+     "tr": "Burun kanamaları kuru havalarda olabilir."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

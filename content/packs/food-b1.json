@@ -2,7 +2,7 @@
  "id": "food-b1",
  "topic": "food",
  "level": "b1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "food.ingredient",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈɡridiənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The main ingredient is fresh basil.",
+     "uk": "Основний інгредієнт — свіжий базилік.",
+     "ru": "Основной ингредиент — свежий базилик.",
+     "pl": "Głównym składnikiem jest świeża bazylia.",
+     "de": "Die Hauptzutat ist frisches Basilikum.",
+     "fr": "L'ingrédient principal est le basilic frais.",
+     "es": "El ingrediente principal es albahaca fresca.",
+     "it": "L'ingrediente principale è il basilico fresco.",
+     "pt": "O ingrediente principal é manjericão fresco.",
+     "tr": "Ana malzeme taze fesleğendir."
+    },
+    {
+     "en": "You need one ingredient for this simple dish.",
+     "uk": "Для цієї простої страви потрібен один інгредієнт.",
+     "ru": "Для этого простого блюда нужен один ингредиент.",
+     "pl": "Potrzebujesz jednego składnika do tego prostego dania.",
+     "de": "Du brauchst eine Zutat für dieses einfache Gericht.",
+     "fr": "Vous avez besoin d'un ingrédient pour ce plat simple.",
+     "es": "Necesitas un ingrediente para este plato sencillo.",
+     "it": "Hai bisogno di un ingrediente per questo piatto semplice.",
+     "pt": "Você precisa de um ingrediente para este prato simples.",
+     "tr": "Bu basit yemek için bir malzeme gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.recipe",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˈrɛsəpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a delicious recipe for chocolate cake.",
+     "uk": "Я знайшов смачний рецепт шоколадного торта.",
+     "ru": "Я нашел вкусный рецепт шоколадного торта.",
+     "pl": "Znalazłem pyszny przepis na ciasto czekoladowe.",
+     "de": "Ich habe ein leckeres Rezept für Schokoladenkuchen gefunden.",
+     "fr": "J'ai trouvé une délicieuse recette de gâteau au chocolat.",
+     "es": "Encontré una deliciosa receta de pastel de chocolate.",
+     "it": "Ho trovato una deliziosa ricetta per la torta al cioccolato.",
+     "pt": "Encontrei uma receita deliciosa de bolo de chocolate.",
+     "tr": "Lezzetli bir çikolatalı kek tarifi buldum."
+    },
+    {
+     "en": "This recipe is easy to follow and quick.",
+     "uk": "Цей рецепт легко виконати і швидко.",
+     "ru": "Этот рецепт легко выполнить и быстро.",
+     "pl": "Ten przepis jest łatwy do wykonania i szybki.",
+     "de": "Dieses Rezept ist einfach zu befolgen und schnell.",
+     "fr": "Cette recette est facile à suivre et rapide.",
+     "es": "Esta receta es fácil de seguir y rápida.",
+     "it": "Questa ricetta è facile da seguire e veloce.",
+     "pt": "Esta receita é fácil de seguir e rápida.",
+     "tr": "Bu tarif takip etmesi kolay ve hızlı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-fry",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/fraɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to fry eggs for breakfast.",
+     "uk": "Мені подобається смажити яйця на сніданок.",
+     "ru": "Мне нравится жарить яйца на завтрак.",
+     "pl": "Lubię smażyć jajka na śniadanie.",
+     "de": "Ich brate gerne Eier zum Frühstück.",
+     "fr": "J'aime faire frire des œufs pour le petit-déjeuner.",
+     "es": "Me gusta freír huevos para el desayuno.",
+     "it": "Mi piace friggere le uova per colazione.",
+     "pt": "Gosto de fritar ovos para o café da manhã.",
+     "tr": "Kahvaltıda yumurta kızartmayı seviyorum."
+    },
+    {
+     "en": "You should fry the chicken until golden.",
+     "uk": "Ти повинен смажити курку до золотистого кольору.",
+     "ru": "Ты должен жарить курицу до золотистого цвета.",
+     "pl": "Powinieneś smażyć kurczaka na złoto.",
+     "de": "Du solltest das Hähnchen goldbraun braten.",
+     "fr": "Vous devez faire frire le poulet jusqu'à ce qu'il soit doré.",
+     "es": "Debes freír el pollo hasta que esté dorado.",
+     "it": "Dovresti friggere il pollo fino a dorarlo.",
+     "pt": "Você deve fritar o frango até que fique dourado.",
+     "tr": "Tavuğu altın rengi olana kadar kızartmalısın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-boil",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/bɔɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to boil the pasta for ten minutes.",
+     "uk": "Тобі потрібно варити пасту протягом десяти хвилин.",
+     "ru": "Тебе нужно варить пасту десять минут.",
+     "pl": "Musisz gotować makaron przez dziesięć minut.",
+     "de": "Du musst die Nudeln zehn Minuten kochen.",
+     "fr": "Vous devez faire bouillir les pâtes pendant dix minutes.",
+     "es": "Necesitas hervir la pasta durante diez minutos.",
+     "it": "Devi bollire la pasta per dieci minuti.",
+     "pt": "Você precisa ferver a massa por dez minutos.",
+     "tr": "Makarna on dakika haşlanmalı."
+    },
+    {
+     "en": "Boil the water before adding the vegetables.",
+     "uk": "Закип'ятіть воду перед додаванням овочів.",
+     "ru": "Вскипятите воду перед добавлением овощей.",
+     "pl": "Zagotuj wodę przed dodaniem warzyw.",
+     "de": "Koche das Wasser, bevor du das Gemüse hinzufügst.",
+     "fr": "Faites bouillir l'eau avant d'ajouter les légumes.",
+     "es": "Hierve el agua antes de añadir las verduras.",
+     "it": "Bollire l'acqua prima di aggiungere le verdure.",
+     "pt": "Ferva a água antes de adicionar os legumes.",
+     "tr": "Sebzeleri eklemeden önce suyu kaynat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-bake",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/beɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to bake cookies on weekends.",
+     "uk": "Я люблю пекти печиво на вихідних.",
+     "ru": "Я люблю печь печенье по выходным.",
+     "pl": "Uwielbiam piec ciastka w weekendy.",
+     "de": "Ich liebe es, am Wochenende Kekse zu backen.",
+     "fr": "J'adore cuire des biscuits le week-end.",
+     "es": "Me encanta hornear galletas los fines de semana.",
+     "it": "Adoro cuocere biscotti nei fine settimana.",
+     "pt": "Adoro assar biscoitos nos fins de semana.",
+     "tr": "Hafta sonları kurabiye pişirmeyi seviyorum."
+    },
+    {
+     "en": "You should bake the bread for thirty minutes.",
+     "uk": "Тобі потрібно пекти хліб тридцять хвилин.",
+     "ru": "Тебе нужно печь хлеб тридцать минут.",
+     "pl": "Musisz piec chleb przez trzydzieści minut.",
+     "de": "Du solltest das Brot dreißig Minuten backen.",
+     "fr": "Vous devez cuire le pain pendant trente minutes.",
+     "es": "Debes hornear el pan durante treinta minutos.",
+     "it": "Devi cuocere il pane per trenta minuti.",
+     "pt": "Você deve assar o pão por trinta minutos.",
+     "tr": "Ekmeği otuz dakika pişirmelisin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-grill",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ɡrɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We like to grill meat in the summer.",
+     "uk": "Ми любимо смажити м'ясо влітку.",
+     "ru": "Мы любим жарить мясо летом.",
+     "pl": "Lubiemy grillować mięso latem.",
+     "de": "Wir grillen im Sommer gerne Fleisch.",
+     "fr": "Nous aimons griller de la viande en été.",
+     "es": "Nos gusta asar carne en verano.",
+     "it": "Ci piace grigliare carne in estate.",
+     "pt": "Gostamos de grelhar carne no verão.",
+     "tr": "Yazın et ızgara yapmayı seviyoruz."
+    },
+    {
+     "en": "You can grill vegetables for a healthy meal.",
+     "uk": "Ти можеш смажити овочі для здорової їжі.",
+     "ru": "Ты можешь жарить овощи для здоровой еды.",
+     "pl": "Możesz grillować warzywa na zdrowy posiłek.",
+     "de": "Du kannst Gemüse für eine gesunde Mahlzeit grillen.",
+     "fr": "Vous pouvez griller des légumes pour un repas sain.",
+     "es": "Puedes asar verduras para una comida saludable.",
+     "it": "Puoi grigliare le verdure per un pasto sano.",
+     "pt": "Você pode grelhar legumes para uma refeição saudável.",
+     "tr": "Sağlıklı bir yemek için sebzeleri ızgara yapabilirsin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-chop",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/tʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please chop the onions for the salad.",
+     "uk": "Будь ласка, наріжте цибулю для салату.",
+     "ru": "Пожалуйста, нарежьте лук для салата.",
+     "pl": "Proszę posiekać cebulę do sałatki.",
+     "de": "Bitte hacke die Zwiebeln für den Salat.",
+     "fr": "Veuillez hacher les oignons pour la salade.",
+     "es": "Por favor, pica la cebolla para la ensalada.",
+     "it": "Per favore, trita le cipolle per l'insalata.",
+     "pt": "Por favor, pique a cebola para a salada.",
+     "tr": "Lütfen salata için soğan doğrayın."
+    },
+    {
+     "en": "I need to chop some vegetables for dinner.",
+     "uk": "Мені потрібно нарізати овочі на вечерю.",
+     "ru": "Мне нужно нарезать овощи на ужин.",
+     "pl": "Muszę posiekać kilka warzyw na kolację.",
+     "de": "Ich muss einige Gemüse für das Abendessen hacken.",
+     "fr": "Je dois hacher des légumes pour le dîner.",
+     "es": "Necesito picar algunas verduras para la cena.",
+     "it": "Devo tritare alcune verdure per la cena.",
+     "pt": "Preciso picar alguns legumes para o jantar.",
+     "tr": "Akşam yemeği için bazı sebzeleri doğramam gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-stir",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/stɝ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to stir the sauce while it cooks.",
+     "uk": "Тобі потрібно помішувати соус, поки він готується.",
+     "ru": "Тебе нужно помешивать соус, пока он готовится.",
+     "pl": "Musisz mieszać sos, gdy się gotuje.",
+     "de": "Du musst die Soße rühren, während sie kocht.",
+     "fr": "Vous devez remuer la sauce pendant qu'elle cuit.",
+     "es": "Necesitas remover la salsa mientras se cocina.",
+     "it": "Devi mescolare la salsa mentre cuoce.",
+     "pt": "Você precisa mexer o molho enquanto cozinha.",
+     "tr": "Sos pişerken karıştırmalısın."
+    },
+    {
+     "en": "Stir the mixture until it becomes smooth.",
+     "uk": "Помішуйте суміш, поки вона не стане гладкою.",
+     "ru": "Помешивайте смесь, пока она не станет однородной.",
+     "pl": "Mieszaj miksturę, aż stanie się gładka.",
+     "de": "Rühre die Mischung, bis sie glatt ist.",
+     "fr": "Remuez le mélange jusqu'à ce qu'il devienne lisse.",
+     "es": "Remueve la mezcla hasta que quede suave.",
+     "it": "Mescola il composto finché non diventa liscio.",
+     "pt": "Mexa a mistura até ficar suave.",
+     "tr": "Karışımı pürüzsüz olana kadar karıştırın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.frying-pan",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈfraɪɪŋ pæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a frying pan to cook the eggs.",
+     "uk": "Мені потрібна сковорода, щоб приготувати яйця.",
+     "ru": "Мне нужна сковорода, чтобы приготовить яйца.",
+     "pl": "Potrzebuję patelni, aby usmażyć jajka.",
+     "de": "Ich brauche eine Pfanne, um die Eier zu braten.",
+     "fr": "J'ai besoin d'une poêle pour cuire les œufs.",
+     "es": "Necesito una sartén para cocinar los huevos.",
+     "it": "Ho bisogno di una padella per cucinare le uova.",
+     "pt": "Preciso de uma frigideira para cozinhar os ovos.",
+     "tr": "Yumurtaları pişirmek için bir tavaya ihtiyacım var."
+    },
+    {
+     "en": "The frying pan is too hot to touch.",
+     "uk": "Сковорода занадто гаряча, щоб торкатися.",
+     "ru": "Сковорода слишком горячая, чтобы трогать.",
+     "pl": "Patelnia jest za gorąca, aby ją dotykać.",
+     "de": "Die Pfanne ist zu heiß, um sie zu berühren.",
+     "fr": "La poêle est trop chaude pour être touchée.",
+     "es": "La sartén está demasiado caliente para tocarla.",
+     "it": "La padella è troppo calda per essere toccata.",
+     "pt": "A frigideira está muito quente para tocar.",
+     "tr": "Tava dokunmak için çok sıcak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.starter",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈstɑrtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ordered a starter before the main course.",
+     "uk": "Я замовив закуску перед основною стравою.",
+     "ru": "Я заказал закуску перед основным блюдом.",
+     "pl": "Zamówiłem przystawkę przed daniem głównym.",
+     "de": "Ich habe eine Vorspeise vor dem Hauptgericht bestellt.",
+     "fr": "J'ai commandé une entrée avant le plat principal.",
+     "es": "Pedí un entrante antes del plato principal.",
+     "it": "Ho ordinato un antipasto prima del piatto principale.",
+     "pt": "Eu pedi uma entrada antes do prato principal.",
+     "tr": "Ana yemekten önce bir başlangıç sipariş ettim."
+    },
+    {
+     "en": "The starter was delicious and beautifully presented.",
+     "uk": "Закуска була смачною і красиво оформленою.",
+     "ru": "Закуска была вкусной и красиво оформленной.",
+     "pl": "Przystawka była pyszna i pięknie podana.",
+     "de": "Die Vorspeise war köstlich und schön präsentiert.",
+     "fr": "L'entrée était délicieuse et magnifiquement présentée.",
+     "es": "El entrante estaba delicioso y bellamente presentado.",
+     "it": "L'antipasto era delizioso e ben presentato.",
+     "pt": "A entrada estava deliciosa e lindamente apresentada.",
+     "tr": "Başlangıç lezzetli ve güzel sunulmuştu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.main-course",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/meɪn kɔrs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The main course was delicious and well presented.",
+     "uk": "Основна страва була смачною та гарно поданою.",
+     "ru": "Основное блюдо было вкусным и хорошо поданным.",
+     "pl": "Danie główne było pyszne i ładnie podane.",
+     "de": "Das Hauptgericht war köstlich und schön angerichtet.",
+     "fr": "Le plat principal était délicieux et bien présenté.",
+     "es": "El plato principal estaba delicioso y bien presentado.",
+     "it": "Il secondo era delizioso e ben presentato.",
+     "pt": "O prato principal estava delicioso e bem apresentado.",
+     "tr": "Ana yemek lezzetli ve güzel sunulmuştu."
+    },
+    {
+     "en": "I ordered the steak as my main course tonight.",
+     "uk": "Я замовив стейк як основну страву сьогодні ввечері.",
+     "ru": "Я заказал стейк в качестве основного блюда сегодня вечером.",
+     "pl": "Zamówiłem stek jako danie główne na dzisiaj wieczorem.",
+     "de": "Ich habe das Steak als Hauptgericht für heute Abend bestellt.",
+     "fr": "J'ai commandé le steak comme plat principal ce soir.",
+     "es": "Pedí el filete como plato principal esta noche.",
+     "it": "Ho ordinato la bistecca come secondo stasera.",
+     "pt": "Eu pedi o bife como prato principal esta noite.",
+     "tr": "Bu akşam ana yemek olarak biftek sipariş ettim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.side-dish",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/saɪd dɪʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ordered a side dish with my main meal.",
+     "uk": "Я замовив гарнір до основної страви.",
+     "ru": "Я заказал гарнир к основному блюду.",
+     "pl": "Zamówiłem dodatek do mojego dania głównego.",
+     "de": "Ich habe eine Beilage zu meinem Hauptgericht bestellt.",
+     "fr": "J'ai commandé un accompagnement avec mon plat principal.",
+     "es": "Pedí una guarnición con mi plato principal.",
+     "it": "Ho ordinato un contorno con il mio piatto principale.",
+     "pt": "Eu pedi um acompanhamento com a minha refeição principal.",
+     "tr": "Ana yemeğimle bir garnitür sipariş ettim."
+    },
+    {
+     "en": "The side dish was delicious and perfectly cooked.",
+     "uk": "Гарнір був смачний і ідеально приготований.",
+     "ru": "Гарнир был вкусным и идеально приготовленным.",
+     "pl": "Dodatek był pyszny i idealnie ugotowany.",
+     "de": "Die Beilage war köstlich und perfekt zubereitet.",
+     "fr": "L'accompagnement était délicieux et parfaitement cuit.",
+     "es": "La guarnición estaba deliciosa y perfectamente cocinada.",
+     "it": "Il contorno era delizioso e cotto alla perfezione.",
+     "pt": "O acompanhamento estava delicioso e perfeitamente cozido.",
+     "tr": "Garnitür lezzetli ve mükemmel pişirilmişti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.portion",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˈpɔrʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I had a large portion of pasta for dinner.",
+     "uk": "Я з'їв велику порцію пасти на вечерю.",
+     "ru": "Я съел большую порцию пасты на ужин.",
+     "pl": "Zjadłem dużą porcję makaronu na kolację.",
+     "de": "Ich hatte eine große Portion Pasta zum Abendessen.",
+     "fr": "J'ai eu une grande portion de pâtes pour le dîner.",
+     "es": "Tuve una gran porción de pasta para la cena.",
+     "it": "Ho avuto una grande porzione di pasta per cena.",
+     "pt": "Eu tive uma grande porção de massa no jantar.",
+     "tr": "Akşam yemeğinde büyük bir porsiyon makarna yedim."
+    },
+    {
+     "en": "Can I get a smaller portion, please?",
+     "uk": "Можна мені меншу порцію, будь ласка?",
+     "ru": "Можно мне меньшую порцию, пожалуйста?",
+     "pl": "Czy mogę prosić o mniejszą porcję?",
+     "de": "Kann ich bitte eine kleinere Portion bekommen?",
+     "fr": "Puis-je avoir une portion plus petite, s'il vous plaît?",
+     "es": "¿Puedo tener una porción más pequeña, por favor?",
+     "it": "Posso avere una porzione più piccola, per favore?",
+     "pt": "Posso receber uma porção menor, por favor?",
+     "tr": "Daha küçük bir porsiyon alabilir miyim, lütfen?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.leftovers",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ˈlɛfˌtoʊvɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We have leftovers from last night's dinner.",
+     "uk": "У нас залишки з вчорашньої вечері.",
+     "ru": "У нас остались остатки с ужина вчера.",
+     "pl": "Mamy resztki z wczorajszej kolacji.",
+     "de": "Wir haben Reste vom Abendessen gestern.",
+     "fr": "Nous avons des restes du dîner d'hier soir.",
+     "es": "Tenemos sobras de la cena de anoche.",
+     "it": "Abbiamo avanzi della cena di ieri sera.",
+     "pt": "Temos sobras do jantar de ontem.",
+     "tr": "Dün akşam yemeğinden artan yemek var."
+    },
+    {
+     "en": "I usually eat leftovers for lunch.",
+     "uk": "Я зазвичай їм залишки на обід.",
+     "ru": "Я обычно ем остатки на обед.",
+     "pl": "Zwykle jem resztki na lunch.",
+     "de": "Ich esse normalerweise Reste zum Mittagessen.",
+     "fr": "Je mange généralement des restes pour le déjeuner.",
+     "es": "Normalmente como sobras para el almuerzo.",
+     "it": "Di solito mangio avanzi per pranzo.",
+     "pt": "Normalmente como sobras no almoço.",
+     "tr": "Genellikle öğle yemeğinde artan yemek yerim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.sauce",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/sɔs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love the garlic sauce on my pizza.",
+     "uk": "Мені подобається часниковий соус на піці.",
+     "ru": "Мне нравится чесночный соус на моей пицце.",
+     "pl": "Uwielbiam czosnkowy sos na mojej pizzy.",
+     "de": "Ich liebe die Knoblauchsauce auf meiner Pizza.",
+     "fr": "J'adore la sauce à l'ail sur ma pizza.",
+     "es": "Me encanta la salsa de ajo en mi pizza.",
+     "it": "Adoro la salsa all'aglio sulla mia pizza.",
+     "pt": "Eu amo o molho de alho na minha pizza.",
+     "tr": "Pizzamda sarımsak sosunu seviyorum."
+    },
+    {
+     "en": "Can you pass the tomato sauce, please?",
+     "uk": "Можеш передати томатний соус, будь ласка?",
+     "ru": "Можешь передать томатный соус, пожалуйста?",
+     "pl": "Czy możesz podać sos pomidorowy, proszę?",
+     "de": "Kannst du bitte die Tomatensoße reichen?",
+     "fr": "Peux-tu passer la sauce tomate, s'il te plaît?",
+     "es": "¿Puedes pasar la salsa de tomate, por favor?",
+     "it": "Puoi passare la salsa di pomodoro, per favore?",
+     "pt": "Você pode passar o molho de tomate, por favor?",
+     "tr": "Domates sosunu uzatır mısın, lütfen?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.homemade",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈhoʊmˈmeɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer homemade cookies over store-bought ones.",
+     "uk": "Я віддаю перевагу домашнім печивом замість магазинних.",
+     "ru": "Я предпочитаю домашнее печенье магазинному.",
+     "pl": "Wolę domowe ciasteczka od kupnych.",
+     "de": "Ich bevorzuge hausgemachte Kekse gegenüber gekauften.",
+     "fr": "Je préfère les biscuits faits maison aux achetés.",
+     "es": "Prefiero las galletas caseras a las compradas.",
+     "it": "Preferisco i biscotti fatti in casa rispetto a quelli comprati.",
+     "pt": "Prefiro biscoitos caseiros a comprados.",
+     "tr": "Marketlerden alınanlara tercih ederim ev yapımı kurabiyeleri."
+    },
+    {
+     "en": "She brought a delicious homemade cake to the party.",
+     "uk": "Вона принесла смачний домашній торт на вечірку.",
+     "ru": "Она принесла вкусный домашний торт на вечеринку.",
+     "pl": "Przyniosła pyszne domowe ciasto na imprezę.",
+     "de": "Sie brachte einen leckeren hausgemachten Kuchen zur Party.",
+     "fr": "Elle a apporté un délicieux gâteau fait maison à la fête.",
+     "es": "Ella trajo un delicioso pastel casero a la fiesta.",
+     "it": "Ha portato una deliziosa torta fatta in casa alla festa.",
+     "pt": "Ela trouxe um delicioso bolo caseiro para a festa.",
+     "tr": "Partiye lezzetli bir ev yapımı kek getirdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.raw",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/rɑ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer raw vegetables in my salad.",
+     "uk": "Я віддаю перевагу сирим овочам у своєму салаті.",
+     "ru": "Я предпочитаю сырые овощи в своем салате.",
+     "pl": "Wolę surowe warzywa w sałatce.",
+     "de": "Ich bevorzuge rohe Gemüse in meinem Salat.",
+     "fr": "Je préfère les légumes crus dans ma salade.",
+     "es": "Prefiero las verduras crudas en mi ensalada.",
+     "it": "Preferisco le verdure crude nella mia insalata.",
+     "pt": "Prefiro vegetais crus na minha salada.",
+     "tr": "Salatamda çiğ sebzeleri tercih ederim."
+    },
+    {
+     "en": "Eating raw fish can be risky if not fresh.",
+     "uk": "Вживання сирої риби може бути ризикованим, якщо вона не свіжа.",
+     "ru": "Употребление сырой рыбы может быть рискованным, если она не свежая.",
+     "pl": "Jedzenie surowej ryby może być ryzykowne, jeśli nie jest świeża.",
+     "de": "Roher Fisch zu essen kann riskant sein, wenn er nicht frisch ist.",
+     "fr": "Manger du poisson cru peut être risqué s'il n'est pas frais.",
+     "es": "Comer pescado crudo puede ser arriesgado si no está fresco.",
+     "it": "Mangiare pesce crudo può essere rischioso se non è fresco.",
+     "pt": "Comer peixe cru pode ser arriscado se não estiver fresco.",
+     "tr": "Çiğ balık yemek, taze değilse riskli olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.well-done",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/wɛl dʌn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like my steak well done, not rare.",
+     "uk": "Я люблю свій стейк добре просмажений, а не з кров'ю.",
+     "ru": "Я люблю свой стейк хорошо прожаренным, а не с кровью.",
+     "pl": "Lubię mój stek dobrze wysmażony, a nie krwisty.",
+     "de": "Ich mag mein Steak durchgebraten, nicht blutig.",
+     "fr": "J'aime mon steak bien cuit, pas saignant.",
+     "es": "Me gusta mi filete muy hecho, no poco hecho.",
+     "it": "Mi piace la mia bistecca ben cotta, non al sangue.",
+     "pt": "Gosto do meu bife bem passado, não mal passado.",
+     "tr": "Steakimi iyi pişmiş severim, az pişmiş değil."
+    },
+    {
+     "en": "He ordered his burger well done and crispy.",
+     "uk": "Він замовив свій бургер добре просмажений і хрусткий.",
+     "ru": "Он заказал свой бургер хорошо прожаренным и хрустящим.",
+     "pl": "Zamówił swojego burgera dobrze wysmażonego i chrupiącego.",
+     "de": "Er bestellte seinen Burger durchgebraten und knusprig.",
+     "fr": "Il a commandé son burger bien cuit et croustillant.",
+     "es": "Pidió su hamburguesa muy hecha y crujiente.",
+     "it": "Ha ordinato il suo hamburger ben cotto e croccante.",
+     "pt": "Ele pediu seu hambúrguer bem passado e crocante.",
+     "tr": "Hamburgerini iyi pişmiş ve gevrek istedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.rare",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/rɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like my steak rare, with a red center.",
+     "uk": "Я люблю свій стейк з кров'ю, з червоним центром.",
+     "ru": "Я люблю свой стейк с кровью, с красным центром.",
+     "pl": "Lubię mój stek krwisty, z czerwonym środkiem.",
+     "de": "Ich mag mein Steak blutig, mit rotem Kern.",
+     "fr": "J'aime mon steak saignant, avec un centre rouge.",
+     "es": "Me gusta mi filete poco hecho, con un centro rojo.",
+     "it": "Mi piace la mia bistecca al sangue, con un centro rosso.",
+     "pt": "Gosto do meu bife mal passado, com um centro vermelho.",
+     "tr": "Steakimi az pişmiş, kırmızı bir merkezle severim."
+    },
+    {
+     "en": "He ordered his burger rare for extra flavor.",
+     "uk": "Він замовив свій бургер з кров'ю для додаткового смаку.",
+     "ru": "Он заказал свой бургер с кровью для дополнительного вкуса.",
+     "pl": "Zamówił swojego burgera krwistego dla dodatkowego smaku.",
+     "de": "Er bestellte seinen Burger blutig für zusätzlichen Geschmack.",
+     "fr": "Il a commandé son burger saignant pour plus de saveur.",
+     "es": "Pidió su hamburguesa poco hecha para más sabor.",
+     "it": "Ha ordinato il suo hamburger al sangue per un sapore extra.",
+     "pt": "Ele pediu seu hambúrguer mal passado para mais sabor.",
+     "tr": "Hamburgerini ekstra lezzet için az pişmiş istedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.allergic-to",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/əˈlɝdʒɪk tu/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I am allergic to nuts and can't eat them.",
+     "uk": "У мене алергія на горіхи, і я не можу їх їсти.",
+     "ru": "У меня аллергия на орехи, и я не могу их есть.",
+     "pl": "Mam uczulenie na orzechy i nie mogę ich jeść.",
+     "de": "Ich bin allergisch gegen Nüsse und kann sie nicht essen.",
+     "fr": "Je suis allergique aux noix et je ne peux pas les manger.",
+     "es": "Soy alérgico a los frutos secos y no puedo comerlos.",
+     "it": "Sono allergico alla frutta secca e non posso mangiarla.",
+     "pt": "Sou alérgico a nozes e não posso comê-las.",
+     "tr": "Kuruyemişlere alerjim var ve onları yiyemem."
+    },
+    {
+     "en": "She is allergic to dairy products and avoids them.",
+     "uk": "Вона має алергію на молочні продукти і уникає їх.",
+     "ru": "У нее аллергия на молочные продукты, и она избегает их.",
+     "pl": "Ona jest uczulona na nabiał i unika go.",
+     "de": "Sie ist allergisch gegen Milchprodukte und vermeidet sie.",
+     "fr": "Elle est allergique aux produits laitiers et les évite.",
+     "es": "Ella es alérgica a los productos lácteos y los evita.",
+     "it": "È allergica ai latticini e li evita.",
+     "pt": "Ela é alérgica a laticínios e os evita.",
+     "tr": "Süt ürünlerine alerjisi var ve onlardan kaçınıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.gluten-free",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/ˈɡlutən fri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This bread is gluten-free and safe to eat.",
+     "uk": "Цей хліб без глютену і безпечний для вживання.",
+     "ru": "Этот хлеб без глютена и безопасен для употребления.",
+     "pl": "Ten chleb jest bezglutenowy i bezpieczny do jedzenia.",
+     "de": "Dieses Brot ist glutenfrei und sicher zu essen.",
+     "fr": "Ce pain est sans gluten et sûr à manger.",
+     "es": "Este pan es sin gluten y seguro para comer.",
+     "it": "Questo pane è senza glutine e sicuro da mangiare.",
+     "pt": "Este pão é sem glúten e seguro para comer.",
+     "tr": "Bu ekmek glütensiz ve güvenli bir şekilde yenebilir."
+    },
+    {
+     "en": "I need gluten-free options at the restaurant.",
+     "uk": "Мені потрібні безглютенові варіанти в ресторані.",
+     "ru": "Мне нужны безглютеновые варианты в ресторане.",
+     "pl": "Potrzebuję bezglutenowych opcji w restauracji.",
+     "de": "Ich brauche glutenfreie Optionen im Restaurant.",
+     "fr": "J'ai besoin d'options sans gluten au restaurant.",
+     "es": "Necesito opciones sin gluten en el restaurante.",
+     "it": "Ho bisogno di opzioni senza glutine al ristorante.",
+     "pt": "Preciso de opções sem glúten no restaurante.",
+     "tr": "Restoranda glütensiz seçeneklere ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.lactose-intolerant",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈlæktoʊs ˌɪnˈtɑlɚənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She is lactose intolerant and avoids dairy products.",
+     "uk": "Вона має непереносимість лактози і уникає молочних продуктів.",
+     "ru": "Она непереносима к лактозе и избегает молочных продуктов.",
+     "pl": "Ona ma nietolerancję laktozy i unika nabiału.",
+     "de": "Sie ist laktoseintolerant und vermeidet Milchprodukte.",
+     "fr": "Elle est intolérante au lactose et évite les produits laitiers.",
+     "es": "Es intolerante a la lactosa y evita los lácteos.",
+     "it": "È intollerante al lattosio e evita i latticini.",
+     "pt": "Ela é intolerante à lactose e evita laticínios.",
+     "tr": "O laktoz intoleransı var ve süt ürünlerinden kaçınıyor."
+    },
+    {
+     "en": "Many lactose intolerant people choose almond milk.",
+     "uk": "Багато людей з непереносимістю лактози обирають мигдальне молоко.",
+     "ru": "Многие люди с непереносимостью лактозы выбирают миндальное молоко.",
+     "pl": "Wielu ludzi z nietolerancją laktozy wybiera mleko migdałowe.",
+     "de": "Viele laktoseintolerante Menschen wählen Mandelmilch.",
+     "fr": "Beaucoup de personnes intolérantes au lactose choisissent le lait d'amande.",
+     "es": "Muchas personas intolerantes a la lactosa eligen leche de almendras.",
+     "it": "Molte persone intolleranti al lattosio scelgono il latte di mandorle.",
+     "pt": "Muitas pessoas intolerantes à lactose escolhem leite de amêndoa.",
+     "tr": "Birçok laktoz intoleransı olan kişi badem sütü tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.dairy-products",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈdɛri ˈprɑdəkts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She loves all kinds of dairy products.",
+     "uk": "Вона любить усі види молочних продуктів.",
+     "ru": "Она любит все виды молочных продуктов.",
+     "pl": "Ona uwielbia wszystkie rodzaje nabiału.",
+     "de": "Sie liebt alle Arten von Milchprodukten.",
+     "fr": "Elle aime tous les types de produits laitiers.",
+     "es": "A ella le encantan todos los tipos de lácteos.",
+     "it": "Le piacciono tutti i tipi di latticini.",
+     "pt": "Ela adora todos os tipos de laticínios.",
+     "tr": "O her türlü süt ürününü seviyor."
+    },
+    {
+     "en": "Dairy products are rich in calcium and vitamins.",
+     "uk": "Молочні продукти багаті кальцієм і вітамінами.",
+     "ru": "Молочные продукты богаты кальцием и витаминами.",
+     "pl": "Nabiał jest bogaty w wapń i witaminy.",
+     "de": "Milchprodukte sind reich an Kalzium und Vitaminen.",
+     "fr": "Les produits laitiers sont riches en calcium et en vitamines.",
+     "es": "Los lácteos son ricos en calcio y vitaminas.",
+     "it": "I latticini sono ricchi di calcio e vitamine.",
+     "pt": "Os laticínios são ricos em cálcio e vitaminas.",
+     "tr": "Süt ürünleri kalsiyum ve vitamin bakımından zengindir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.home-delivery",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/hoʊm dɪˈlɪvɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ordered pizza with home delivery for dinner.",
+     "uk": "Я замовив піцу з доставкою додому на вечерю.",
+     "ru": "Я заказал пиццу с доставкой на дом на ужин.",
+     "pl": "Zamówiłem pizzę z dostawą do domu na kolację.",
+     "de": "Ich habe Pizza mit Lieferservice zum Abendessen bestellt.",
+     "fr": "J'ai commandé une pizza avec livraison à domicile pour le dîner.",
+     "es": "Pedí una pizza con entrega a domicilio para la cena.",
+     "it": "Ho ordinato una pizza con consegna a domicilio per cena.",
+     "pt": "Eu pedi uma pizza com entrega em casa para o jantar.",
+     "tr": "Akşam yemeği için eve teslimatla pizza sipariş ettim."
+    },
+    {
+     "en": "Home delivery is very convenient for busy people.",
+     "uk": "Доставка додому дуже зручна для зайнятих людей.",
+     "ru": "Доставка на дом очень удобна для занятых людей.",
+     "pl": "Dostawa do domu jest bardzo wygodna dla zapracowanych ludzi.",
+     "de": "Die Lieferung nach Hause ist sehr praktisch für beschäftigte Menschen.",
+     "fr": "La livraison à domicile est très pratique pour les personnes occupées.",
+     "es": "La entrega a domicilio es muy conveniente para las personas ocupadas.",
+     "it": "La consegna a domicilio è molto comoda per le persone impegnate.",
+     "pt": "A entrega em casa é muito conveniente para pessoas ocupadas.",
+     "tr": "Eve teslimat, meşgul insanlar için çok uygundur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-reheat",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/riˈhit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to reheat the soup before serving.",
+     "uk": "Тобі потрібно розігріти суп перед подачею.",
+     "ru": "Вам нужно разогреть суп перед подачей.",
+     "pl": "Musisz podgrzać zupę przed podaniem.",
+     "de": "Du musst die Suppe vor dem Servieren aufwärmen.",
+     "fr": "Vous devez réchauffer la soupe avant de servir.",
+     "es": "Necesitas recalentar la sopa antes de servir.",
+     "it": "Devi riscaldare la zuppa prima di servire.",
+     "pt": "Você precisa esquentar a sopa antes de servir.",
+     "tr": "Servis yapmadan önce çorbayı ısıtmalısın."
+    },
+    {
+     "en": "I like to reheat leftovers for lunch.",
+     "uk": "Мені подобається розігрівати залишки на обід.",
+     "ru": "Мне нравится разогревать остатки на обед.",
+     "pl": "Lubię podgrzewać resztki na lunch.",
+     "de": "Ich mag es, Reste zum Mittagessen aufzuwärmen.",
+     "fr": "J'aime réchauffer les restes pour le déjeuner.",
+     "es": "Me gusta recalentar las sobras para el almuerzo.",
+     "it": "Mi piace riscaldare gli avanzi per pranzo.",
+     "pt": "Gosto de esquentar as sobras para o almoço.",
+     "tr": "Öğle yemeği için artıkları ısıtmayı seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-taste",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/teɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should taste the sauce before serving it.",
+     "uk": "Тобі слід скуштувати соус перед подачею.",
+     "ru": "Вам следует попробовать соус перед подачей.",
+     "pl": "Powinieneś spróbować sosu przed podaniem.",
+     "de": "Du solltest die Sauce vor dem Servieren probieren.",
+     "fr": "Vous devriez goûter la sauce avant de la servir.",
+     "es": "Deberías probar la salsa antes de servirla.",
+     "it": "Dovresti assaggiare la salsa prima di servirla.",
+     "pt": "Você deve provar o molho antes de servi-lo.",
+     "tr": "Servis etmeden önce sosu tatmalısın."
+    },
+    {
+     "en": "I want to taste this new dessert.",
+     "uk": "Я хочу скуштувати цей новий десерт.",
+     "ru": "Я хочу попробовать этот новый десерт.",
+     "pl": "Chcę spróbować tego nowego deseru.",
+     "de": "Ich möchte dieses neue Dessert probieren.",
+     "fr": "Je veux goûter ce nouveau dessert.",
+     "es": "Quiero probar este nuevo postre.",
+     "it": "Voglio assaggiare questo nuovo dessert.",
+     "pt": "Quero provar esta nova sobremesa.",
+     "tr": "Bu yeni tatlıyı tatmak istiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.expiry-date",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˌɛkˈspaɪri deɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check the expiry date before buying any food.",
+     "uk": "Перевірте термін придатності перед покупкою їжі.",
+     "ru": "Проверьте срок годности перед покупкой еды.",
+     "pl": "Sprawdź datę ważności przed zakupem jedzenia.",
+     "de": "Überprüfen Sie das Haltbarkeitsdatum, bevor Sie Lebensmittel kaufen.",
+     "fr": "Vérifiez la date de péremption avant d'acheter de la nourriture.",
+     "es": "Verifica la fecha de caducidad antes de comprar alimentos.",
+     "it": "Controlla la data di scadenza prima di acquistare cibo.",
+     "pt": "Verifique a data de validade antes de comprar alimentos.",
+     "tr": "Herhangi bir gıda satın almadan önce son kullanma tarihini kontrol edin."
+    },
+    {
+     "en": "The expiry date is printed on the package.",
+     "uk": "Термін придатності вказано на упаковці.",
+     "ru": "Срок годности указан на упаковке.",
+     "pl": "Data ważności jest wydrukowana na opakowaniu.",
+     "de": "Das Haltbarkeitsdatum steht auf der Verpackung.",
+     "fr": "La date de péremption est imprimée sur l'emballage.",
+     "es": "La fecha de caducidad está impresa en el paquete.",
+     "it": "La data di scadenza è stampata sulla confezione.",
+     "pt": "A data de validade está impressa na embalagem.",
+     "tr": "Son kullanma tarihi ambalajın üzerine basılmıştır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.organic",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ɔrˈɡænɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to buy organic vegetables from the market.",
+     "uk": "Я віддаю перевагу купувати органічні овочі на ринку.",
+     "ru": "Я предпочитаю покупать органические овощи на рынке.",
+     "pl": "Wolę kupować ekologiczne warzywa na rynku.",
+     "de": "Ich kaufe lieber Bio-Gemüse auf dem Markt.",
+     "fr": "Je préfère acheter des légumes bio au marché.",
+     "es": "Prefiero comprar verduras ecológicas en el mercado.",
+     "it": "Preferisco comprare verdure biologiche al mercato.",
+     "pt": "Prefiro comprar vegetais orgânicos no mercado.",
+     "tr": "Pazar yerinden organik sebzeler almayı tercih ediyorum."
+    },
+    {
+     "en": "Organic food is often more expensive than regular food.",
+     "uk": "Органічні продукти часто дорожчі за звичайні.",
+     "ru": "Органическая еда часто дороже обычной.",
+     "pl": "Żywność ekologiczna jest często droższa niż zwykła.",
+     "de": "Bio-Lebensmittel sind oft teurer als normale Lebensmittel.",
+     "fr": "Les aliments bio sont souvent plus chers que les aliments ordinaires.",
+     "es": "Los alimentos ecológicos suelen ser más caros que los alimentos normales.",
+     "it": "Il cibo biologico è spesso più costoso del cibo normale.",
+     "pt": "Alimentos orgânicos costumam ser mais caros do que alimentos normais.",
+     "tr": "Organik gıda genellikle normal gıdalardan daha pahalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-go-off",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ɔf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Milk tends to go off quickly in warm weather.",
+     "uk": "Молоко має тенденцію швидко зіпсуватися в теплу погоду.",
+     "ru": "Молоко быстро портится в теплую погоду.",
+     "pl": "Mleko ma tendencję do szybkiego psucia się w ciepłej pogodzie.",
+     "de": "Milch wird bei warmem Wetter schnell schlecht.",
+     "fr": "Le lait a tendance à se gâter rapidement par temps chaud.",
+     "es": "La leche tiende a estropearse rápidamente en clima cálido.",
+     "it": "Il latte tende ad andare a male rapidamente con il caldo.",
+     "pt": "O leite tende a estragar rapidamente em clima quente.",
+     "tr": "Süt sıcak havalarda hızlı bir şekilde bozulma eğilimindedir."
+    },
+    {
+     "en": "Check your food regularly to see if it has gone off.",
+     "uk": "Регулярно перевіряйте їжу, щоб дізнатися, чи вона зіпсувалася.",
+     "ru": "Регулярно проверяйте свою еду, чтобы узнать, испортилась ли она.",
+     "pl": "Regularnie sprawdzaj jedzenie, aby zobaczyć, czy się zepsuło.",
+     "de": "Überprüfen Sie regelmäßig Ihre Lebensmittel, um zu sehen, ob sie schlecht geworden sind.",
+     "fr": "Vérifiez régulièrement vos aliments pour voir s'ils se sont gâtés.",
+     "es": "Revisa tu comida regularmente para ver si se ha estropeado.",
+     "it": "Controlla regolarmente il tuo cibo per vedere se è andato a male.",
+     "pt": "Verifique sua comida regularmente para ver se estragou.",
+     "tr": "Yiyeceklerinizi düzenli olarak kontrol edin, bozulup bozulmadığını görmek için."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.cutlery",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈkʌtlɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please set the table with cutlery and plates.",
+     "uk": "Будь ласка, накрийте стіл столовими приборами та тарілками.",
+     "ru": "Пожалуйста, накройте стол столовыми приборами и тарелками.",
+     "pl": "Proszę nakryć stół sztućcami i talerzami.",
+     "de": "Bitte decken Sie den Tisch mit Besteck und Tellern.",
+     "fr": "Veuillez mettre la table avec des couverts et des assiettes.",
+     "es": "Por favor, pon la mesa con cubiertos y platos.",
+     "it": "Per favore, apparecchia la tavola con posate e piatti.",
+     "pt": "Por favor, arrume a mesa com talheres e pratos.",
+     "tr": "Lütfen masayı çatal bıçak takımı ve tabaklarla kur."
+    },
+    {
+     "en": "I need to buy new cutlery for my kitchen.",
+     "uk": "Мені потрібно купити нові столові прибори для кухні.",
+     "ru": "Мне нужно купить новые столовые приборы для кухни.",
+     "pl": "Muszę kupić nowe sztućce do mojej kuchni.",
+     "de": "Ich muss neues Besteck für meine Küche kaufen.",
+     "fr": "J'ai besoin d'acheter de nouveaux couverts pour ma cuisine.",
+     "es": "Necesito comprar nuevos cubiertos para mi cocina.",
+     "it": "Devo comprare nuove posate per la mia cucina.",
+     "pt": "Preciso comprar novos talheres para minha cozinha.",
+     "tr": "Mutfak için yeni çatal bıçak takımı almam lazım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.appetite",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈæpəˌtaɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my appetite after feeling sick.",
+     "uk": "Я втратив апетит після того, як захворів.",
+     "ru": "Я потерял аппетит после болезни.",
+     "pl": "Straciłem apetyt po chorobie.",
+     "de": "Ich habe meinen Appetit nach der Krankheit verloren.",
+     "fr": "J'ai perdu mon appétit après être tombé malade.",
+     "es": "Perdí el apetito después de estar enfermo.",
+     "it": "Ho perso l'appetito dopo essermi ammalato.",
+     "pt": "Perdi o apetite depois de ficar doente.",
+     "tr": "Hastalandıktan sonra iştahımı kaybettim."
+    },
+    {
+     "en": "She has a big appetite for dessert.",
+     "uk": "У неї великий апетит до десерту.",
+     "ru": "У нее большой аппетит на десерт.",
+     "pl": "Ma duży apetyt na deser.",
+     "de": "Sie hat einen großen Appetit auf Dessert.",
+     "fr": "Elle a un grand appétit pour le dessert.",
+     "es": "Ella tiene un gran apetito por el postre.",
+     "it": "Ha un grande appetito per il dessert.",
+     "pt": "Ela tem um grande apetite por sobremesas.",
+     "tr": "Tatlıya karşı büyük bir iştahı var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-slice",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/slaɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please slice the bread for the sandwiches.",
+     "uk": "Будь ласка, наріжте хліб для сендвічів.",
+     "ru": "Пожалуйста, нарежьте хлеб для бутербродов.",
+     "pl": "Proszę pokroić chleb na kanapki.",
+     "de": "Bitte schneiden Sie das Brot für die Sandwiches.",
+     "fr": "Veuillez trancher le pain pour les sandwichs.",
+     "es": "Por favor, corta el pan para los sándwiches.",
+     "it": "Per favore, affetta il pane per i panini.",
+     "pt": "Por favor, fatie o pão para os sanduíches.",
+     "tr": "Lütfen sandviçler için ekmeği dilimleyin."
+    },
+    {
+     "en": "I like to slice vegetables for my salad.",
+     "uk": "Мені подобається нарізати овочі для мого салату.",
+     "ru": "Мне нравится нарезать овощи для моего салата.",
+     "pl": "Lubię kroić warzywa do mojej sałatki.",
+     "de": "Ich schneide gerne Gemüse für meinen Salat.",
+     "fr": "J'aime trancher des légumes pour ma salade.",
+     "es": "Me gusta cortar verduras para mi ensalada.",
+     "it": "Mi piace affettare le verdure per la mia insalata.",
+     "pt": "Gosto de fatiar legumes para minha salada.",
+     "tr": "Salatım için sebzeleri dilimlemeyi seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-grate",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ɡreɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to grate some cheese for the pasta.",
+     "uk": "Мені потрібно натерти трохи сиру для пасти.",
+     "ru": "Мне нужно натереть немного сыра для пасты.",
+     "pl": "Muszę zetrzeć trochę sera do makaronu.",
+     "de": "Ich muss etwas Käse für die Pasta reiben.",
+     "fr": "J'ai besoin de râper du fromage pour les pâtes.",
+     "es": "Necesito rallar un poco de queso para la pasta.",
+     "it": "Devo grattugiare un po' di formaggio per la pasta.",
+     "pt": "Preciso ralar um pouco de queijo para a massa.",
+     "tr": "Makarna için biraz peynir rendelemem gerekiyor."
+    },
+    {
+     "en": "She likes to grate carrots for her salad.",
+     "uk": "Їй подобається терти моркву для свого салату.",
+     "ru": "Ей нравится тереть морковь для своего салата.",
+     "pl": "Lubi zetrzeć marchewkę do swojej sałatki.",
+     "de": "Sie mag es, Karotten für ihren Salat zu reiben.",
+     "fr": "Elle aime râper des carottes pour sa salade.",
+     "es": "A ella le gusta rallar zanahorias para su ensalada.",
+     "it": "Le piace grattugiare carote per la sua insalata.",
+     "pt": "Ela gosta de ralar cenouras para sua salada.",
+     "tr": "Salatı için havuç rendelemeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-roast",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/roʊst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to roast vegetables in the oven.",
+     "uk": "Я люблю запікати овочі в духовці.",
+     "ru": "Я люблю запекать овощи в духовке.",
+     "pl": "Lubię piec warzywa w piekarniku.",
+     "de": "Ich liebe es, Gemüse im Ofen zu braten.",
+     "fr": "J'adore rôtir des légumes au four.",
+     "es": "Me encanta asar verduras en el horno.",
+     "it": "Adoro arrostire le verdure nel forno.",
+     "pt": "Adoro assar legumes no forno.",
+     "tr": "Fırında sebze kızartmayı seviyorum."
+    },
+    {
+     "en": "We will roast a chicken for dinner tonight.",
+     "uk": "Ми запечемо курку на вечерю сьогодні ввечері.",
+     "ru": "Мы запечем курицу на ужин сегодня вечером.",
+     "pl": "Upieczemy kurczaka na kolację dzisiaj wieczorem.",
+     "de": "Wir werden heute Abend ein Hähnchen braten.",
+     "fr": "Nous allons rôtir un poulet pour le dîner ce soir.",
+     "es": "Vamos a asar un pollo para la cena esta noche.",
+     "it": "Arrostiremo un pollo per cena stasera.",
+     "pt": "Vamos assar um frango para o jantar esta noite.",
+     "tr": "Bu akşam yemeği için bir tavuk kızartacağız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-steam",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/stim/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer to steam my vegetables for dinner.",
+     "uk": "Я віддаю перевагу готувати овочі на пару на вечерю.",
+     "ru": "Я предпочитаю готовить овощи на пару на ужин.",
+     "pl": "Wolę gotować warzywa na parze na kolację.",
+     "de": "Ich koche meine Gemüse lieber im Dampf zum Abendessen.",
+     "fr": "Je préfère cuire mes légumes à la vapeur pour le dîner.",
+     "es": "Prefiero cocinar mis verduras al vapor para la cena.",
+     "it": "Preferisco cuocere a vapore le mie verdure per cena.",
+     "pt": "Prefiro cozinhar meus legumes no vapor para o jantar.",
+     "tr": "Akşam yemeği için sebzelerimi buharda pişirmeyi tercih ediyorum."
+    },
+    {
+     "en": "She likes to steam fish for a healthy meal.",
+     "uk": "Їй подобається готувати рибу на пару для здорової їжі.",
+     "ru": "Ей нравится готовить рыбу на пару для здоровой пищи.",
+     "pl": "Lubi gotować rybę na parze na zdrowy posiłek.",
+     "de": "Sie mag es, Fisch zu dämpfen für eine gesunde Mahlzeit.",
+     "fr": "Elle aime cuire du poisson à la vapeur pour un repas sain.",
+     "es": "Le gusta cocinar pescado al vapor para una comida saludable.",
+     "it": "Le piace cuocere a vapore il pesce per un pasto sano.",
+     "pt": "Ela gosta de cozinhar peixe no vapor para uma refeição saudável.",
+     "tr": "Sağlıklı bir yemek için balığı buharda pişirmeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-defrost",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/dɪˈfrɔst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should defrost the meat before cooking.",
+     "uk": "Тобі слід розморозити м'ясо перед приготуванням.",
+     "ru": "Вам следует разморозить мясо перед готовкой.",
+     "pl": "Powinieneś rozmrozić mięso przed gotowaniem.",
+     "de": "Du solltest das Fleisch vor dem Kochen auftauen.",
+     "fr": "Vous devez décongeler la viande avant de cuisiner.",
+     "es": "Debes descongelar la carne antes de cocinar.",
+     "it": "Devi scongelare la carne prima di cucinarla.",
+     "pt": "Você deve descongelar a carne antes de cozinhar.",
+     "tr": "Pişirmeden önce eti çözmelisin."
+    },
+    {
+     "en": "I forgot to defrost the fish for dinner.",
+     "uk": "Я забув розморозити рибу на вечерю.",
+     "ru": "Я забыл разморозить рыбу на ужин.",
+     "pl": "Zapomniałem rozmrozić rybę na kolację.",
+     "de": "Ich habe vergessen, den Fisch aufzutauen für das Abendessen.",
+     "fr": "J'ai oublié de décongeler le poisson pour le dîner.",
+     "es": "Olvidé descongelar el pescado para la cena.",
+     "it": "Ho dimenticato di scongelare il pesce per cena.",
+     "pt": "Esqueci de descongelar o peixe para o jantar.",
+     "tr": "Akşam yemeği için balığı çözmeyi unuttum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.saucepan",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/ˈsɔˌspæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a saucepan to cook the soup.",
+     "uk": "Мені потрібна каструля, щоб приготувати суп.",
+     "ru": "Мне нужна кастрюля, чтобы приготовить суп.",
+     "pl": "Potrzebuję rondla, aby ugotować zupę.",
+     "de": "Ich brauche einen Kochtopf, um die Suppe zu kochen.",
+     "fr": "J'ai besoin d'une casserole pour cuire la soupe.",
+     "es": "Necesito una cacerola para cocinar la sopa.",
+     "it": "Ho bisogno di una pentola per cucinare la zuppa.",
+     "pt": "Preciso de uma panela para cozinhar a sopa.",
+     "tr": "Çorba pişirmek için bir tencereye ihtiyacım var."
+    },
+    {
+     "en": "The saucepan is on the stove.",
+     "uk": "Каструля на плиті.",
+     "ru": "Кастрюля на плите.",
+     "pl": "Rondel jest na kuchence.",
+     "de": "Der Kochtopf steht auf dem Herd.",
+     "fr": "La casserole est sur la cuisinière.",
+     "es": "La cacerola está en la estufa.",
+     "it": "La pentola è sul fornello.",
+     "pt": "A panela está no fogão.",
+     "tr": "Tencere ocakta."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.cutting-board",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈkʌtɪŋ bɔrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Use a cutting board to chop the vegetables.",
+     "uk": "Використовуйте обробну дошку, щоб нарізати овочі.",
+     "ru": "Используйте разделочную доску, чтобы нарезать овощи.",
+     "pl": "Użyj deski do krojenia, aby posiekać warzywa.",
+     "de": "Benutzen Sie ein Schneidebrett, um das Gemüse zu hacken.",
+     "fr": "Utilisez une planche à découper pour hacher les légumes.",
+     "es": "Usa una tabla de cortar para picar las verduras.",
+     "it": "Usa un tagliere per tritare le verdure.",
+     "pt": "Use uma tábua de corte para picar os legumes.",
+     "tr": "Sebzeleri doğramak için bir kesme tahtası kullanın."
+    },
+    {
+     "en": "I bought a new cutting board for the kitchen.",
+     "uk": "Я купив нову обробну дошку для кухні.",
+     "ru": "Я купил новую разделочную доску для кухни.",
+     "pl": "Kupiłem nową deskę do krojenia do kuchni.",
+     "de": "Ich habe ein neues Schneidebrett für die Küche gekauft.",
+     "fr": "J'ai acheté une nouvelle planche à découper pour la cuisine.",
+     "es": "Compré una nueva tabla de cortar para la cocina.",
+     "it": "Ho comprato un nuovo tagliere per la cucina.",
+     "pt": "Comprei uma nova tábua de corte para a cozinha.",
+     "tr": "Mutfağa yeni bir kesme tahtası aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.wholemeal",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˈhoʊlˌmil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer wholemeal bread for my sandwiches.",
+     "uk": "Я надаю перевагу цільнозерновому хлібу для своїх сендвічів.",
+     "ru": "Я предпочитаю цельнозерновой хлеб для своих бутербродов.",
+     "pl": "Wolę chleb pełnoziarnisty do moich kanapek.",
+     "de": "Ich bevorzuge Vollkornbrot für meine Sandwiches.",
+     "fr": "Je préfère le pain complet pour mes sandwichs.",
+     "es": "Prefiero el pan integral para mis sándwiches.",
+     "it": "Preferisco il pane integrale per i miei panini.",
+     "pt": "Prefiro pão integral para os meus sanduíches.",
+     "tr": "Sandviçlerim için tam buğday ekmeğini tercih ediyorum."
+    },
+    {
+     "en": "Wholemeal pasta is healthier than regular pasta.",
+     "uk": "Цільнозернова паста корисніша за звичайну пасту.",
+     "ru": "Цельнозерновая паста полезнее обычной пасты.",
+     "pl": "Pełnoziarnisty makaron jest zdrowszy od zwykłego makaronu.",
+     "de": "Vollkornnudeln sind gesünder als normale Nudeln.",
+     "fr": "Les pâtes complètes sont plus saines que les pâtes normales.",
+     "es": "La pasta integral es más saludable que la pasta regular.",
+     "it": "La pasta integrale è più sana della pasta normale.",
+     "pt": "A massa integral é mais saudável do que a massa normal.",
+     "tr": "Tam buğday makarna, normal makarnadan daha sağlıklıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.low-fat",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/loʊ fæt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer low-fat yogurt for my breakfast.",
+     "uk": "Я надаю перевагу знежиреному йогурту на сніданок.",
+     "ru": "Я предпочитаю обезжиренный йогурт на завтрак.",
+     "pl": "Wolę jogurt niskotłuszczowy na śniadanie.",
+     "de": "Ich bevorzuge fettarmen Joghurt zum Frühstück.",
+     "fr": "Je préfère le yaourt allégé pour mon petit-déjeuner.",
+     "es": "Prefiero el yogur bajo en grasa para el desayuno.",
+     "it": "Preferisco lo yogurt magro per colazione.",
+     "pt": "Prefiro iogurte com pouca gordura para o café da manhã.",
+     "tr": "Kahvaltım için az yağlı yoğurdu tercih ediyorum."
+    },
+    {
+     "en": "Low-fat cheese is a good option for snacks.",
+     "uk": "Знежирений сир - хороший варіант для перекусів.",
+     "ru": "Обезжиренный сыр - хороший вариант для перекусов.",
+     "pl": "Zneżony ser to dobry wybór na przekąski.",
+     "de": "Fettarmer Käse ist eine gute Option für Snacks.",
+     "fr": "Le fromage allégé est une bonne option pour les collations.",
+     "es": "El queso bajo en grasa es una buena opción para bocadillos.",
+     "it": "Il formaggio magro è una buona opzione per gli spuntini.",
+     "pt": "O queijo com pouca gordura é uma boa opção para lanches.",
+     "tr": "Az yağlı peynir, atıştırmalıklar için iyi bir seçenektir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.processed-food",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈprɑsɛst fud/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I try to avoid processed food.",
+     "uk": "Я намагаюся уникати оброблених продуктів.",
+     "ru": "Я стараюсь избегать обработанных продуктов.",
+     "pl": "Staram się unikać żywności przetworzonej.",
+     "de": "Ich versuche, verarbeitete Lebensmittel zu vermeiden.",
+     "fr": "J'essaie d'éviter les aliments transformés.",
+     "es": "Intento evitar los alimentos procesados.",
+     "it": "Cerco di evitare gli alimenti trasformati.",
+     "pt": "Eu tento evitar alimentos processados.",
+     "tr": "İşlenmiş gıdaları kaçınmaya çalışıyorum."
+    },
+    {
+     "en": "Processed food can be unhealthy for you.",
+     "uk": "Оброблені продукти можуть бути шкідливими для вас.",
+     "ru": "Обработанные продукты могут быть вредными для вас.",
+     "pl": "Żywność przetworzona może być niezdrowa dla ciebie.",
+     "de": "Verarbeitete Lebensmittel können ungesund für dich sein.",
+     "fr": "Les aliments transformés peuvent être malsains pour vous.",
+     "es": "Los alimentos procesados pueden ser poco saludables para ti.",
+     "it": "Gli alimenti trasformati possono essere poco salutari per te.",
+     "pt": "Alimentos processados podem ser prejudiciais para você.",
+     "tr": "İşlenmiş gıdalar sizin için sağlıksız olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.junk-food",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/dʒʌŋk fud/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Eating junk food is bad for your health.",
+     "uk": "Вживання шкідливої їжі шкодить здоров'ю.",
+     "ru": "Употребление вредной еды плохо для вашего здоровья.",
+     "pl": "Jedzenie niezdrowego jedzenia jest złe dla zdrowia.",
+     "de": "Junkfood zu essen ist schlecht für die Gesundheit.",
+     "fr": "Manger de la malbouffe est mauvais pour la santé.",
+     "es": "Comer comida basura es malo para la salud.",
+     "it": "Mangiare cibo spazzatura fa male alla salute.",
+     "pt": "Comer junk food é ruim para a saúde.",
+     "tr": "Abur cubur yemek sağlığınıza zararlıdır."
+    },
+    {
+     "en": "I try to avoid junk food when possible.",
+     "uk": "Я намагаюся уникати шкідливої їжі, коли можу.",
+     "ru": "Я стараюсь избегать вредной еды, когда это возможно.",
+     "pl": "Staram się unikać niezdrowego jedzenia, kiedy to możliwe.",
+     "de": "Ich versuche, Junkfood zu vermeiden, wenn es möglich ist.",
+     "fr": "J'essaie d'éviter la malbouffe quand c'est possible.",
+     "es": "Trato de evitar la comida basura cuando es posible.",
+     "it": "Cerco di evitare il cibo spazzatura quando posso.",
+     "pt": "Eu tento evitar junk food quando possível.",
+     "tr": "Mümkünse abur cuburdan kaçınıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.calories",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈkælɚiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I count my calories to stay healthy.",
+     "uk": "Я рахує свої калорії, щоб залишатися здоровим.",
+     "ru": "Я считаю свои калории, чтобы оставаться здоровым.",
+     "pl": "Licze kalorie, aby pozostać zdrowym.",
+     "de": "Ich zähle meine Kalorien, um gesund zu bleiben.",
+     "fr": "Je compte mes calories pour rester en bonne santé.",
+     "es": "Cuento mis calorías para mantenerme saludable.",
+     "it": "Conto le mie calorie per rimanere in salute.",
+     "pt": "Eu conto minhas calorias para me manter saudável.",
+     "tr": "Sağlıklı kalmak için kalorilerimi sayıyorum."
+    },
+    {
+     "en": "This snack has too many calories for my diet.",
+     "uk": "Ця закуска має занадто багато калорій для моєї дієти.",
+     "ru": "Эта закуска содержит слишком много калорий для моей диеты.",
+     "pl": "Ta przekąska ma zbyt wiele kalorii w mojej diecie.",
+     "de": "Dieser Snack hat zu viele Kalorien für meine Diät.",
+     "fr": "Cette collation a trop de calories pour mon régime.",
+     "es": "Este bocadillo tiene demasiadas calorías para mi dieta.",
+     "it": "Questo snack ha troppe calorie per la mia dieta.",
+     "pt": "Este lanche tem muitas calorias para a minha dieta.",
+     "tr": "Bu atıştırmalık diyetim için çok fazla kalori içeriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.herbs",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ɝbz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love adding fresh herbs to my dishes.",
+     "uk": "Я люблю додавати свіжі пряні трави до своїх страв.",
+     "ru": "Я люблю добавлять свежие пряные травы в свои блюда.",
+     "pl": "Uwielbiam dodawać świeże zioła do moich potraw.",
+     "de": "Ich liebe es, frische Kräuter zu meinen Gerichten hinzuzufügen.",
+     "fr": "J'adore ajouter des fines herbes fraîches à mes plats.",
+     "es": "Me encanta agregar hierbas aromáticas frescas a mis platos.",
+     "it": "Adoro aggiungere erbe aromatiche fresche ai miei piatti.",
+     "pt": "Adoro adicionar ervas frescas aos meus pratos.",
+     "tr": "Yemeklerime taze otlar eklemeyi seviyorum."
+    },
+    {
+     "en": "Herbs can enhance the flavor of any meal.",
+     "uk": "Пряні трави можуть покращити смак будь-якої страви.",
+     "ru": "Пряные травы могут улучшить вкус любого блюда.",
+     "pl": "Zioła mogą poprawić smak każdego posiłku.",
+     "de": "Kräuter können den Geschmack jedes Gerichts verbessern.",
+     "fr": "Les fines herbes peuvent rehausser la saveur de n'importe quel plat.",
+     "es": "Las hierbas aromáticas pueden mejorar el sabor de cualquier comida.",
+     "it": "Le erbe aromatiche possono migliorare il sapore di qualsiasi pasto.",
+     "pt": "As ervas podem realçar o sabor de qualquer refeição.",
+     "tr": "Otlar, herhangi bir yemeğin lezzetini artırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.spices",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈspaɪsəz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I use different spices to make my food tasty.",
+     "uk": "Я використовую різні спеції, щоб зробити їжу смачною.",
+     "ru": "Я использую разные специи, чтобы сделать еду вкусной.",
+     "pl": "Używam różnych przypraw, aby potrawy były smaczne.",
+     "de": "Ich benutze verschiedene Gewürze, um mein Essen schmackhaft zu machen.",
+     "fr": "J'utilise différentes épices pour rendre ma nourriture savoureuse.",
+     "es": "Uso diferentes especias para hacer mi comida sabrosa.",
+     "it": "Uso diverse spezie per rendere il mio cibo gustoso.",
+     "pt": "Uso diferentes especiarias para deixar minha comida saborosa.",
+     "tr": "Yemeklerimi lezzetli hale getirmek için farklı baharatlar kullanıyorum."
+    },
+    {
+     "en": "Spices can add color and flavor to dishes.",
+     "uk": "Спеції можуть додати колір і смак стравам.",
+     "ru": "Специи могут добавить цвет и вкус блюдам.",
+     "pl": "Przyprawy mogą dodać koloru i smaku potrawom.",
+     "de": "Gewürze können Gerichten Farbe und Geschmack verleihen.",
+     "fr": "Les épices peuvent ajouter de la couleur et de la saveur aux plats.",
+     "es": "Las especias pueden añadir color y sabor a los platos.",
+     "it": "Le spezie possono aggiungere colore e sapore ai piatti.",
+     "pt": "As especiarias podem adicionar cor e sabor aos pratos.",
+     "tr": "Baharatlar yemeklere renk ve lezzet katabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.flavour",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈfleɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The flavour of this dish is amazing.",
+     "uk": "Смак цієї страви вражаючий.",
+     "ru": "Вкус этого блюда потрясающий.",
+     "pl": "Smak tej potrawy jest niesamowity.",
+     "de": "Der Geschmack dieses Gerichts ist erstaunlich.",
+     "fr": "La saveur de ce plat est incroyable.",
+     "es": "El sabor de este plato es increíble.",
+     "it": "Il sapore di questo piatto è incredibile.",
+     "pt": "O sabor deste prato é incrível.",
+     "tr": "Bu yemeğin lezzeti harika."
+    },
+    {
+     "en": "I love the flavour of fresh herbs.",
+     "uk": "Я люблю смак свіжих пряних трав.",
+     "ru": "Мне нравится вкус свежих пряных трав.",
+     "pl": "Uwielbiam smak świeżych ziół.",
+     "de": "Ich liebe den Geschmack frischer Kräuter.",
+     "fr": "J'adore la saveur des fines herbes fraîches.",
+     "es": "Me encanta el sabor de las hierbas frescas.",
+     "it": "Adoro il sapore delle erbe fresche.",
+     "pt": "Eu adoro o sabor das ervas frescas.",
+     "tr": "Taze otların lezzetini seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-skip-a-meal",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/skɪp ə mil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I often skip a meal when I'm busy.",
+     "uk": "Я часто пропускаю прийом їжі, коли зайнятий.",
+     "ru": "Я часто пропускаю прием пищи, когда занят.",
+     "pl": "Często opuszczam posiłek, gdy jestem zajęty.",
+     "de": "Ich lasse oft eine Mahlzeit aus, wenn ich beschäftigt bin.",
+     "fr": "Je saute souvent un repas quand je suis occupé.",
+     "es": "A menudo me salto una comida cuando estoy ocupado.",
+     "it": "Spesso salto un pasto quando sono impegnato.",
+     "pt": "Eu frequentemente pulo uma refeição quando estou ocupado.",
+     "tr": "Meşgul olduğumda sık sık öğün atlarım."
+    },
+    {
+     "en": "It's not healthy to skip a meal regularly.",
+     "uk": "Це не корисно регулярно пропускати прийом їжі.",
+     "ru": "Регулярно пропускать прием пищи не полезно.",
+     "pl": "Nie jest zdrowo regularnie opuszczać posiłki.",
+     "de": "Es ist nicht gesund, regelmäßig eine Mahlzeit auszulassen.",
+     "fr": "Ce n'est pas sain de sauter un repas régulièrement.",
+     "es": "No es saludable saltarse una comida regularmente.",
+     "it": "Non è salutare saltare un pasto regolarmente.",
+     "pt": "Não é saudável pular uma refeição regularmente.",
+     "tr": "Düzenli olarak öğün atlamak sağlıklı değildir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-dine-out",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/daɪn aʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We love to dine out on weekends.",
+     "uk": "Ми любимо вечеряти поза домом у вихідні.",
+     "ru": "Мы любим ужинать в ресторане по выходным.",
+     "pl": "Uwielbiamy jeść na mieście w weekendy.",
+     "de": "Wir essen gerne auswärts am Wochenende.",
+     "fr": "Nous aimons dîner au restaurant le week-end.",
+     "es": "Nos encanta cenar fuera los fines de semana.",
+     "it": "Ci piace mangiare fuori nei fine settimana.",
+     "pt": "Adoramos comer fora nos finais de semana.",
+     "tr": "Hafta sonları dışarıda yemek yemeyi seviyoruz."
+    },
+    {
+     "en": "Let's dine out at that new restaurant tonight.",
+     "uk": "Давайте вечеряти в тому новому ресторані сьогодні ввечері.",
+     "ru": "Давайте поужинаем в том новом ресторане сегодня вечером.",
+     "pl": "Zjedzmy na mieście w tej nowej restauracji dzisiaj wieczorem.",
+     "de": "Lass uns heute Abend in diesem neuen Restaurant essen.",
+     "fr": "Dînons ce soir dans ce nouveau restaurant.",
+     "es": "Cenemos esta noche en ese nuevo restaurante.",
+     "it": "Ceniamo stasera in quel nuovo ristorante.",
+     "pt": "Vamos jantar naquele novo restaurante esta noite.",
+     "tr": "Bu akşam o yeni restoranda yemek yiyelim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.buffet",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈbʌfət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel offers a breakfast buffet every morning.",
+     "uk": "Готель пропонує сніданок шведський стіл щоранку.",
+     "ru": "Отель предлагает завтрак шведский стол каждое утро.",
+     "pl": "Hotel oferuje bufet śniadaniowy każdego ranka.",
+     "de": "Das Hotel bietet jeden Morgen ein Frühstücksbuffet an.",
+     "fr": "L'hôtel propose un buffet de petit-déjeuner chaque matin.",
+     "es": "El hotel ofrece un bufé de desayuno cada mañana.",
+     "it": "L'hotel offre un buffet per la colazione ogni mattina.",
+     "pt": "O hotel oferece um bufê de café da manhã todas as manhãs.",
+     "tr": "Otel her sabah kahvaltı açık büfesi sunuyor."
+    },
+    {
+     "en": "We enjoyed the buffet at the wedding reception.",
+     "uk": "Ми насолоджувалися шведським столом на весільному банкеті.",
+     "ru": "Мы наслаждались шведским столом на свадебном приеме.",
+     "pl": "Cieszyliśmy się bufetem na weselnej przyjęciu.",
+     "de": "Wir haben das Buffet bei der Hochzeitsfeier genossen.",
+     "fr": "Nous avons apprécié le buffet lors de la réception de mariage.",
+     "es": "Disfrutamos del bufé en la recepción de la boda.",
+     "it": "Abbiamo apprezzato il buffet al ricevimento di nozze.",
+     "pt": "Nós apreciamos o bufê na recepção do casamento.",
+     "tr": "Düğün resepsiyonundaki açık büfeden keyif aldık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.chef",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/ʃɛf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The chef prepared a delicious meal for us.",
+     "uk": "Шеф-кухар приготував для нас смачну страву.",
+     "ru": "Шеф-повар приготовил для нас вкусное блюдо.",
+     "pl": "Szef kuchni przygotował dla nas pyszne danie.",
+     "de": "Der Küchenchef hat ein köstliches Gericht für uns zubereitet.",
+     "fr": "Le chef a préparé un repas délicieux pour nous.",
+     "es": "El chef preparó una comida deliciosa para nosotros.",
+     "it": "Lo chef ha preparato un pasto delizioso per noi.",
+     "pt": "O chef preparou uma refeição deliciosa para nós.",
+     "tr": "Şef, bizim için lezzetli bir yemek hazırladı."
+    },
+    {
+     "en": "My friend wants to become a chef someday.",
+     "uk": "Мій друг хоче стати шеф-кухарем колись.",
+     "ru": "Мой друг хочет стать шеф-поваром когда-нибудь.",
+     "pl": "Mój przyjaciel chce kiedyś zostać szefem kuchni.",
+     "de": "Mein Freund möchte eines Tages Küchenchef werden.",
+     "fr": "Mon ami veut devenir chef un jour.",
+     "es": "Mi amigo quiere convertirse en chef algún día.",
+     "it": "Il mio amico vuole diventare chef un giorno.",
+     "pt": "Meu amigo quer se tornar chef um dia.",
+     "tr": "Arkadaşım bir gün şef olmak istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.cauliflower",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈkɑləˌflaʊɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I made a delicious cauliflower soup.",
+     "uk": "Я приготував смачний суп з цвітної капусти.",
+     "ru": "Я приготовил вкусный суп из цветной капусты.",
+     "pl": "Zrobiłem pyszny zupę z kalafiora.",
+     "de": "Ich habe eine köstliche Blumenkohlsuppe gemacht.",
+     "fr": "J'ai fait une délicieuse soupe au chou-fleur.",
+     "es": "Hice una deliciosa sopa de coliflor.",
+     "it": "Ho preparato una deliziosa zuppa di cavolfiore.",
+     "pt": "Fiz uma deliciosa sopa de couve-flor.",
+     "tr": "Lezzetli bir karnabahar çorbası yaptım."
+    },
+    {
+     "en": "Cauliflower is a great low-carb alternative.",
+     "uk": "Цвітна капуста - чудова nизьковуглецева альтернатива.",
+     "ru": "Цветная капуста - отличная низкоуглеводная альтернатива.",
+     "pl": "Kalafior to świetna niskowęglowodanowa alternatywa.",
+     "de": "Blumenkohl ist eine großartige kohlenhydratarme Alternative.",
+     "fr": "Le chou-fleur est une excellente alternative pauvre en glucides.",
+     "es": "La coliflor es una gran alternativa baja en carbohidratos.",
+     "it": "Il cavolfiore è una grande alternativa a basso contenuto di carboidrati.",
+     "pt": "A couve-flor é uma ótima alternativa com baixo carboidrato.",
+     "tr": "Karnabahar harika bir düşük karbonhidrat alternatifi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.courgette",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/kʊrˈʒɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love roasted courgette with olive oil.",
+     "uk": "Я люблю запечений кабачок з оливковою олією.",
+     "ru": "Я люблю запеченный кабачок с оливковым маслом.",
+     "pl": "Uwielbiam pieczoną cukinię z oliwą.",
+     "de": "Ich liebe geröstete Zucchini mit Olivenöl.",
+     "fr": "J'adore les courgettes rôties à l'huile d'olive.",
+     "es": "Me encanta el calabacín asado con aceite de oliva.",
+     "it": "Adoro la zucchina arrosto con olio d'oliva.",
+     "pt": "Adoro abobrinha assada com azeite.",
+     "tr": "Zeytinyağı ile fırınlanmış kabağı seviyorum."
+    },
+    {
+     "en": "Courgette pasta is a healthy option.",
+     "uk": "Паста з кабачків - це корисний варіант.",
+     "ru": "Паста из кабачков - это полезный вариант.",
+     "pl": "Makaron z cukinii to zdrowa opcja.",
+     "de": "Zucchini-Nudeln sind eine gesunde Option.",
+     "fr": "Les pâtes de courgette sont une option saine.",
+     "es": "La pasta de calabacín es una opción saludable.",
+     "it": "La pasta di zucchine è un'opzione sana.",
+     "pt": "A massa de abobrinha é uma opção saudável.",
+     "tr": "Kabak makarnası sağlıklı bir seçenektir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.aubergine",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈɔbɚˌdʒin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like grilled aubergine on my sandwiches.",
+     "uk": "Мені подобається грильований баклажан на моїх бутербродах.",
+     "ru": "Мне нравится жареный баклажан в моих бутербродах.",
+     "pl": "Lubię grillowany bakłażan w moich kanapkach.",
+     "de": "Ich mag gegrillte Aubergine auf meinen Sandwiches.",
+     "fr": "J'aime l'aubergine grillée dans mes sandwichs.",
+     "es": "Me gusta la berenjena a la parrilla en mis sándwiches.",
+     "it": "Mi piace la melanzana grigliata nei miei panini.",
+     "pt": "Eu gosto de berinjela grelhada nos meus sanduíches.",
+     "tr": "Sandviçlerimde ızgara patlıcanı severim."
+    },
+    {
+     "en": "Aubergine curry is my favorite dish.",
+     "uk": "Курка з баклажанів - моя улюблена страва.",
+     "ru": "Курица с баклажанами - мое любимое блюдо.",
+     "pl": "Curry z bakłażanów to moje ulubione danie.",
+     "de": "Auberginen-Curry ist mein Lieblingsgericht.",
+     "fr": "Le curry d'aubergine est mon plat préféré.",
+     "es": "El curry de berenjena es mi plato favorito.",
+     "it": "Il curry di melanzane è il mio piatto preferito.",
+     "pt": "O curry de berinjela é meu prato favorito.",
+     "tr": "Patlıcan köri benim en sevdiğim yemektir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.beetroot",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈbitˌrut/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Beetroot juice is very healthy.",
+     "uk": "Сік з буряка дуже корисний.",
+     "ru": "Сок из свеклы очень полезен.",
+     "pl": "Sok z buraka jest bardzo zdrowy.",
+     "de": "Rote-Bete-Saft ist sehr gesund.",
+     "fr": "Le jus de betterave est très sain.",
+     "es": "El jugo de remolacha es muy saludable.",
+     "it": "Il succo di barbabietola è molto salutare.",
+     "pt": "O suco de beterraba é muito saudável.",
+     "tr": "Pancar suyu çok sağlıklıdır."
+    },
+    {
+     "en": "I add beetroot to my salads.",
+     "uk": "Я додаю буряк до своїх салатів.",
+     "ru": "Я добавляю свеклу в свои салаты.",
+     "pl": "Dodaję buraka do moich sałatek.",
+     "de": "Ich füge Rote Bete zu meinen Salaten hinzu.",
+     "fr": "J'ajoute de la betterave à mes salades.",
+     "es": "Agrego remolacha a mis ensaladas.",
+     "it": "Aggiungo barbabietola alle mie insalate.",
+     "pt": "Eu adiciono beterraba às minhas saladas.",
+     "tr": "Salatalarıma pancar ekliyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.celery",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈsɛlɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Celery sticks are great for snacks.",
+     "uk": "Селерові палички чудово підходять для перекусів.",
+     "ru": "Сельдерейные палочки отлично подходят для перекусов.",
+     "pl": "Paski selera są świetne na przekąski.",
+     "de": "Selleriesticks sind großartig für Snacks.",
+     "fr": "Les bâtonnets de céleri sont parfaits pour les collations.",
+     "es": "Los palitos de apio son geniales para bocadillos.",
+     "it": "I bastoncini di sedano sono ottimi per gli spuntini.",
+     "pt": "Palitos de aipo são ótimos para lanches.",
+     "tr": "Kereviz çubukları atıştırmalıklar için harikadır."
+    },
+    {
+     "en": "I add celery to my soups.",
+     "uk": "Я додаю селеру до своїх супів.",
+     "ru": "Я добавляю сельдерей в свои супы.",
+     "pl": "Dodaję seler do moich zup.",
+     "de": "Ich füge Sellerie zu meinen Suppen hinzu.",
+     "fr": "J'ajoute du céleri à mes soupes.",
+     "es": "Agrego apio a mis sopas.",
+     "it": "Aggiungo sedano alle mie zuppe.",
+     "pt": "Eu adiciono aipo às minhas sopas.",
+     "tr": "Çorbalarıma kereviz ekliyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.cinnamon",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˈsɪnəmən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I sprinkle cinnamon on my toast.",
+     "uk": "Я посипаю корицею свій тост.",
+     "ru": "Я посыпаю корицей свой тост.",
+     "pl": "Posypuję cynamonem swoje tosty.",
+     "de": "Ich streue Zimt auf meinen Toast.",
+     "fr": "Je saupoudre de la cannelle sur mon toast.",
+     "es": "Espolvoreo canela sobre mi tostada.",
+     "it": "Cospargo di cannella il mio toast.",
+     "pt": "Eu polvilho canela no meu torrada.",
+     "tr": "Tostuma tarçın serpiştiriyorum."
+    },
+    {
+     "en": "Cinnamon adds flavor to many dishes.",
+     "uk": "Кориця надає смак багатьом стравам.",
+     "ru": "Корица добавляет вкус многим блюдам.",
+     "pl": "Cynamon dodaje smaku wielu potrawom.",
+     "de": "Zimt verleiht vielen Gerichten Geschmack.",
+     "fr": "La cannelle ajoute de la saveur à de nombreux plats.",
+     "es": "La canela añade sabor a muchos platos.",
+     "it": "La cannella aggiunge sapore a molti piatti.",
+     "pt": "A canela adiciona sabor a muitos pratos.",
+     "tr": "Tarçın birçok yemeğe lezzet katar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.ginger",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈdʒɪndʒɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love ginger tea in the winter.",
+     "uk": "Я люблю імбирний чай взимку.",
+     "ru": "Я люблю имбирный чай зимой.",
+     "pl": "Uwielbiam imbirową herbatę zimą.",
+     "de": "Ich liebe Ingwertee im Winter.",
+     "fr": "J'adore le thé au gingembre en hiver.",
+     "es": "Me encanta el té de jengibre en invierno.",
+     "it": "Adoro il tè allo zenzero in inverno.",
+     "pt": "Eu adoro chá de gengibre no inverno.",
+     "tr": "Kışın zencefil çayını seviyorum."
+    },
+    {
+     "en": "Ginger adds a nice flavor to stir-fries.",
+     "uk": "Імбир надає гарний смак смаженим стравам.",
+     "ru": "Имбирь придает приятный вкус жареным блюдам.",
+     "pl": "Imbir dodaje ładnego smaku potrawom stir-fry.",
+     "de": "Ingwer verleiht Wokgerichten einen schönen Geschmack.",
+     "fr": "Le gingembre ajoute une belle saveur aux sautés.",
+     "es": "El jengibre añade un buen sabor a los salteados.",
+     "it": "Lo zenzero aggiunge un buon sapore ai piatti saltati.",
+     "pt": "O gengibre adiciona um bom sabor aos refogados.",
+     "tr": "Zencefil, sote yemeklere güzel bir tat katar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.vanilla",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/vəˈnɪlə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love vanilla ice cream on hot days.",
+     "uk": "Я люблю ванільне морозиво в спекотні дні.",
+     "ru": "Я люблю ванильное мороженое в жаркие дни.",
+     "pl": "Uwielbiam waniliowe lody w gorące dni.",
+     "de": "Ich liebe Vanilleeis an heißen Tagen.",
+     "fr": "J'adore la glace à la vanille par temps chaud.",
+     "es": "Me encanta el helado de vainilla en días calurosos.",
+     "it": "Adoro il gelato alla vaniglia nei giorni caldi.",
+     "pt": "Eu adoro sorvete de baunilha em dias quentes.",
+     "tr": "Sıcak günlerde vanilyalı dondurmayı seviyorum."
+    },
+    {
+     "en": "Vanilla extract is used in many desserts.",
+     "uk": "Ванільний екстракт використовується в багатьох десертах.",
+     "ru": "Ванильный экстракт используется во многих десертах.",
+     "pl": "Ekstrakt waniliowy jest używany w wielu deserach.",
+     "de": "Vanilleextrakt wird in vielen Desserts verwendet.",
+     "fr": "L'extrait de vanille est utilisé dans de nombreux desserts.",
+     "es": "El extracto de vainilla se utiliza en muchos postres.",
+     "it": "L'estratto di vaniglia è usato in molti dessert.",
+     "pt": "O extrato de baunilha é usado em muitas sobremesas.",
+     "tr": "Vanilya özü birçok tatlıda kullanılır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.parsley",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈpɑrsli/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I sprinkle parsley on my pasta.",
+     "uk": "Я посипаю петрушкою свою пасту.",
+     "ru": "Я посыпаю петрушкой свою пасту.",
+     "pl": "Posypuję pietruszką mój makaron.",
+     "de": "Ich streue Petersilie über meine Pasta.",
+     "fr": "Je saupoudre du persil sur mes pâtes.",
+     "es": "Espolvoreo perejil sobre mi pasta.",
+     "it": "Cospargo di prezzemolo la mia pasta.",
+     "pt": "Eu polvilho salsinha na minha massa.",
+     "tr": "Makarama maydanoz serpiştiriyorum."
+    },
+    {
+     "en": "Parsley adds freshness to salads.",
+     "uk": "Петрушка надає свіжість салатам.",
+     "ru": "Петрушка придает свежесть салатам.",
+     "pl": "Pietruszka dodaje świeżości sałatkom.",
+     "de": "Petersilie verleiht Salaten Frische.",
+     "fr": "Le persil ajoute de la fraîcheur aux salades.",
+     "es": "El perejil añade frescura a las ensaladas.",
+     "it": "Il prezzemolo aggiunge freschezza alle insalate.",
+     "pt": "A salsinha adiciona frescor às saladas.",
+     "tr": "Maydanoz salatalara tazelik katar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.basil",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ˈbæzəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love basil on my pizza.",
+     "uk": "Я люблю базилік на своїй піці.",
+     "ru": "Я люблю базилик на своей пицце.",
+     "pl": "Uwielbiam bazylię na mojej pizzy.",
+     "de": "Ich liebe Basilikum auf meiner Pizza.",
+     "fr": "J'adore le basilic sur ma pizza.",
+     "es": "Me encanta la albahaca en mi pizza.",
+     "it": "Adoro il basilico sulla mia pizza.",
+     "pt": "Eu adoro manjericão na minha pizza.",
+     "tr": "Pizzamda fesleğen seviyorum."
+    },
+    {
+     "en": "Basil is great in salads.",
+     "uk": "Базилік чудово підходить для салатів.",
+     "ru": "Базилик отлично подходит для салатов.",
+     "pl": "Bazylia świetnie nadaje się do sałatek.",
+     "de": "Basilikum ist großartig in Salaten.",
+     "fr": "Le basilic est excellent dans les salades.",
+     "es": "La albahaca es excelente en ensaladas.",
+     "it": "Il basilico è ottimo nelle insalate.",
+     "pt": "O manjericão é ótimo em saladas.",
+     "tr": "Fesleğen salatalarda harikadır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.second-helping",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈsɛkənd ˈhɛlpɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I enjoyed my second helping of pasta.",
+     "uk": "Я насолоджувався добавкою пасти.",
+     "ru": "Мне понравилась добавка пасты.",
+     "pl": "Cieszyłem się dokładką makaronu.",
+     "de": "Ich habe meinen Nachschlag Pasta genossen.",
+     "fr": "J'ai apprécié ma rab de pâtes.",
+     "es": "Disfruté de mi otra ración de pasta.",
+     "it": "Ho apprezzato la mia bis di pasta.",
+     "pt": "Gostei da minha mais uma porção de massa.",
+     "tr": "Makarna için ikinci porsiyonumu keyifle yedim."
+    },
+    {
+     "en": "She asked for a second helping of dessert.",
+     "uk": "Вона попросила добавку десерту.",
+     "ru": "Она попросила добавку к десерту.",
+     "pl": "Ona poprosiła o dokładkę deseru.",
+     "de": "Sie bat um einen Nachschlag beim Dessert.",
+     "fr": "Elle a demandé un rab de dessert.",
+     "es": "Pidió otra ración de postre.",
+     "it": "Ha chiesto un bis di dessert.",
+     "pt": "Ela pediu mais uma porção de sobremesa.",
+     "tr": "Tatlı için ikinci porsiyon istedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.mint",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/mɪnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love mint tea in the summer.",
+     "uk": "Я люблю м'ятний чай влітку.",
+     "ru": "Я люблю мятный чай летом.",
+     "pl": "Uwielbiam miętową herbatę latem.",
+     "de": "Ich liebe Minztee im Sommer.",
+     "fr": "J'adore le thé à la menthe en été.",
+     "es": "Me encanta el té de menta en verano.",
+     "it": "Amo il tè alla menta in estate.",
+     "pt": "Eu adoro chá de hortelã no verão.",
+     "tr": "Yazın nane çayını severim."
+    },
+    {
+     "en": "Mint leaves add flavor to dishes.",
+     "uk": "Листя м'яти додає смаку стравам.",
+     "ru": "Листья мяты добавляют вкус блюдам.",
+     "pl": "Liście mięty dodają smaku potrawom.",
+     "de": "Minzblätter verleihen Gerichten Geschmack.",
+     "fr": "Les feuilles de menthe ajoutent de la saveur aux plats.",
+     "es": "Las hojas de menta añaden sabor a los platos.",
+     "it": "Le foglie di menta aggiungono sapore ai piatti.",
+     "pt": "As folhas de hortelã adicionam sabor aos pratos.",
+     "tr": "Nane yaprakları yemeklere lezzet katar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.lentils",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈlɛntəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Lentils are healthy and nutritious.",
+     "uk": "Сочевиця є здоровою та поживною.",
+     "ru": "Чечевица полезна и питательна.",
+     "pl": "Soczewica jest zdrowa i pożywna.",
+     "de": "Linsen sind gesund und nahrhaft.",
+     "fr": "Les lentilles sont saines et nutritives.",
+     "es": "Las lentejas son saludables y nutritivas.",
+     "it": "Le lenticchie sono sane e nutrienti.",
+     "pt": "As lentilhas são saudáveis e nutritivas.",
+     "tr": "Mercimek sağlıklı ve besleyicidir."
+    },
+    {
+     "en": "I made a lentil soup for dinner.",
+     "uk": "Я зробив суп із сочевиці на вечерю.",
+     "ru": "Я приготовил чечевичный суп на ужин.",
+     "pl": "Zrobiłem zupę soczewicową na kolację.",
+     "de": "Ich habe eine Linsensuppe zum Abendessen gemacht.",
+     "fr": "J'ai préparé une soupe de lentilles pour le dîner.",
+     "es": "Hice una sopa de lentejas para la cena.",
+     "it": "Ho preparato una zuppa di lenticchie per cena.",
+     "pt": "Fiz uma sopa de lentilhas para o jantar.",
+     "tr": "Akşam yemeği için mercimek çorbası yaptım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.chickpeas",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈtʃɪkˌpiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Chickpeas are great in salads.",
+     "uk": "Нут чудово підходить для салатів.",
+     "ru": "Нут отлично подходит для салатов.",
+     "pl": "Ciecierzyca świetnie nadaje się do sałatek.",
+     "de": "Kichererbsen sind großartig in Salaten.",
+     "fr": "Les pois chiches sont excellents dans les salades.",
+     "es": "Los garbanzos son geniales en ensaladas.",
+     "it": "I ceci sono ottimi nelle insalate.",
+     "pt": "Os grãos-de-bico são ótimos em saladas.",
+     "tr": "Nohutlar salatalarda harika."
+    },
+    {
+     "en": "I love hummus made from chickpeas.",
+     "uk": "Я люблю хумус з нуту.",
+     "ru": "Я люблю хумус из нута.",
+     "pl": "Uwielbiam hummus z ciecierzycy.",
+     "de": "Ich liebe Hummus aus Kichererbsen.",
+     "fr": "J'adore le houmous à base de pois chiches.",
+     "es": "Me encanta el hummus hecho de garbanzos.",
+     "it": "Adoro l'hummus fatto con i ceci.",
+     "pt": "Eu amo hummus feito de grão-de-bico.",
+     "tr": "Nohuttan yapılan humusu severim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.oats",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/oʊts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I eat oats for breakfast every day.",
+     "uk": "Я їм вівсяні пластівці на сніданок щодня.",
+     "ru": "Я ем овсяные хлопья на завтрак каждый день.",
+     "pl": "Codziennie jem płatki owsiane na śniadanie.",
+     "de": "Ich esse jeden Tag Haferflocken zum Frühstück.",
+     "fr": "Je mange des flocons d'avoine au petit-déjeuner chaque jour.",
+     "es": "Como copos de avena para el desayuno todos los días.",
+     "it": "Mangio fiocchi d'avena per colazione ogni giorno.",
+     "pt": "Eu como aveia no café da manhã todos os dias.",
+     "tr": "Her gün kahvaltıda yulaf yerim."
+    },
+    {
+     "en": "Oats are a good source of fiber.",
+     "uk": "Вівсяні пластівці є хорошим джерелом клітковини.",
+     "ru": "Овсяные хлопья являются хорошим источником клетчатки.",
+     "pl": "Płatki owsiane są dobrym źródłem błonnika.",
+     "de": "Haferflocken sind eine gute Quelle für Ballaststoffe.",
+     "fr": "Les flocons d'avoine sont une bonne source de fibres.",
+     "es": "Los copos de avena son una buena fuente de fibra.",
+     "it": "I fiocchi d'avena sono una buona fonte di fibre.",
+     "pt": "A aveia é uma boa fonte de fibra.",
+     "tr": "Yulaf iyi bir lif kaynağıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.almond",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈɑmənd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I often snack on almonds during the day.",
+     "uk": "Я часто перекушую мигдалем протягом дня.",
+     "ru": "Я часто перекусываю миндалем в течение дня.",
+     "pl": "Często podjadam migdały w ciągu dnia.",
+     "de": "Ich snacke tagsüber oft Mandeln.",
+     "fr": "Je grignote souvent des amandes pendant la journée.",
+     "es": "A menudo picoteo almendras durante el día.",
+     "it": "Spesso faccio uno spuntino con mandorle durante il giorno.",
+     "pt": "Costumo petiscar amêndoas durante o dia.",
+     "tr": "Gün içinde sık sık badem atıştırırım."
+    },
+    {
+     "en": "Almonds are rich in healthy fats.",
+     "uk": "Мигдаль багатий на корисні жири.",
+     "ru": "Миндаль богат полезными жирами.",
+     "pl": "Migdały są bogate w zdrowe tłuszcze.",
+     "de": "Mandeln sind reich an gesunden Fetten.",
+     "fr": "Les amandes sont riches en graisses saines.",
+     "es": "Las almendras son ricas en grasas saludables.",
+     "it": "Le mandorle sono ricche di grassi sani.",
+     "pt": "As amêndoas são ricas em gorduras saudáveis.",
+     "tr": "Bademler sağlıklı yağlar açısından zengindir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.ready-meal",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈrɛdi mil/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a ready meal for lunch today.",
+     "uk": "Я купив готову страву на обід сьогодні.",
+     "ru": "Я купил готовое блюдо на обед сегодня.",
+     "pl": "Kupiłem gotowe danie na obiad dzisiaj.",
+     "de": "Ich habe heute ein Fertiggericht zum Mittagessen gekauft.",
+     "fr": "J'ai acheté un plat préparé pour le déjeuner aujourd'hui.",
+     "es": "Hoy compré un plato preparado para el almuerzo.",
+     "it": "Oggi ho comprato un piatto pronto per pranzo.",
+     "pt": "Hoje comprei uma comida pronta para o almoço.",
+     "tr": "Bugün öğle yemeği için hazır yemek aldım."
+    },
+    {
+     "en": "Ready meals are convenient for busy days.",
+     "uk": "Готові страви зручні для зайнятих днів.",
+     "ru": "Готовые блюда удобны для занятых дней.",
+     "pl": "Gotowe dania są wygodne w zajęte dni.",
+     "de": "Fertiggerichte sind praktisch an stressigen Tagen.",
+     "fr": "Les plats préparés sont pratiques pour les journées chargées.",
+     "es": "Los platos preparados son convenientes para días ocupados.",
+     "it": "I piatti pronti sono comodi per le giornate impegnative.",
+     "pt": "As comidas prontas são convenientes para dias ocupados.",
+     "tr": "Hazır yemekler yoğun günler için kullanışlıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.peanut",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˈpinət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love peanut butter on toast.",
+     "uk": "Я люблю арахісове масло на тості.",
+     "ru": "Я люблю арахисовое масло на тосте.",
+     "pl": "Uwielbiam masło orzechowe na tostach.",
+     "de": "Ich liebe Erdnussbutter auf Toast.",
+     "fr": "J'adore le beurre de cacahuète sur du pain.",
+     "es": "Me encanta la mantequilla de cacahuete en tostadas.",
+     "it": "Adoro il burro di arachidi sul pane tostato.",
+     "pt": "Eu amo manteiga de amendoim na torrada.",
+     "tr": "Kızarmış ekmekte yer fıstığı ezmesini severim."
+    },
+    {
+     "en": "Peanuts are a great snack for energy.",
+     "uk": "Арахіс - чудова закуска для енергії.",
+     "ru": "Арахис - отличная закуска для энергии.",
+     "pl": "Arachidowe orzeszki to świetna przekąska na energię.",
+     "de": "Erdnüsse sind ein großartiger Snack für Energie.",
+     "fr": "Les cacahuètes sont une excellente collation pour l'énergie.",
+     "es": "Los cacahuetes son un gran bocadillo para energía.",
+     "it": "Le arachidi sono uno spuntino ottimo per l'energia.",
+     "pt": "Os amendoins são um ótimo lanche para energia.",
+     "tr": "Yer fıstığı enerji için harika bir atıştırmalıktır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.raisins",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈreɪzənz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I added raisins to my oatmeal.",
+     "uk": "Я додав родзинки до своїх вівсяних пластівців.",
+     "ru": "Я добавил изюм в свою овсянку.",
+     "pl": "Dodałem rodzynki do swoich płatków owsianych.",
+     "de": "Ich habe Rosinen zu meinen Haferflocken hinzugefügt.",
+     "fr": "J'ai ajouté des raisins secs à mon porridge.",
+     "es": "Añadí pasas a mi avena.",
+     "it": "Ho aggiunto uvetta ai miei fiocchi d'avena.",
+     "pt": "Adicionei uvas-passas à minha aveia.",
+     "tr": "Yulafıma kuru üzüm ekledim."
+    },
+    {
+     "en": "Raisins make a sweet addition to salads.",
+     "uk": "Родзинки роблять солодке доповнення до салатів.",
+     "ru": "Изюм делает сладкое дополнение к салатам.",
+     "pl": "Rodzynki to słodkie uzupełnienie sałatek.",
+     "de": "Rosinen sind eine süße Ergänzung zu Salaten.",
+     "fr": "Les raisins secs sont un ajout sucré aux salades.",
+     "es": "Las pasas son un dulce añadido a las ensaladas.",
+     "it": "L'uvetta è un'aggiunta dolce alle insalate.",
+     "pt": "As uvas-passas são uma adição doce às saladas.",
+     "tr": "Kuru üzüm salatalara tatlı bir ekleme yapar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.poultry",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ˈpoʊltri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Poultry is a popular choice for dinner.",
+     "uk": "Свійська птиця є популярним вибором для вечері.",
+     "ru": "Домашняя птица - популярный выбор для ужина.",
+     "pl": "Drób jest popularnym wyborem na kolację.",
+     "de": "Geflügel ist eine beliebte Wahl zum Abendessen.",
+     "fr": "La volaille est un choix populaire pour le dîner.",
+     "es": "La aves de corral son una elección popular para la cena.",
+     "it": "Il pollame è una scelta popolare per cena.",
+     "pt": "As aves são uma escolha popular para o jantar.",
+     "tr": "Kümes hayvanları akşam yemeği için popüler bir tercihtir."
+    },
+    {
+     "en": "I prefer poultry over red meat.",
+     "uk": "Я надаю перевагу свійській птиці замість червоного м'яса.",
+     "ru": "Я предпочитаю домашнюю птицу красному мясу.",
+     "pl": "Wolę drób od czerwonego mięsa.",
+     "de": "Ich bevorzuge Geflügel gegenüber rotem Fleisch.",
+     "fr": "Je préfère la volaille à la viande rouge.",
+     "es": "Prefiero las aves de corral a la carne roja.",
+     "it": "Preferisco il pollame alla carne rossa.",
+     "pt": "Prefiro aves a carne vermelha.",
+     "tr": "Kırmızı et yerine kümes hayvanlarını tercih ederim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.minced-meat",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/mɪnst mit/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought minced meat for dinner.",
+     "uk": "Я купив фарш на вечерю.",
+     "ru": "Я купил фарш на ужин.",
+     "pl": "Kupiłem mięso mielone na obiad.",
+     "de": "Ich habe Hackfleisch für das Abendessen gekauft.",
+     "fr": "J'ai acheté de la viande hachée pour le dîner.",
+     "es": "Compré carne picada para la cena.",
+     "it": "Ho comprato carne macinata per cena.",
+     "pt": "Comprei carne moída para o jantar.",
+     "tr": "Akşam yemeği için kıyma aldım."
+    },
+    {
+     "en": "Minced meat is used in many recipes.",
+     "uk": "Фарш використовується в багатьох рецептах.",
+     "ru": "Фарш используется во многих рецептах.",
+     "pl": "Mięso mielone jest używane w wielu przepisach.",
+     "de": "Hackfleisch wird in vielen Rezepten verwendet.",
+     "fr": "La viande hachée est utilisée dans de nombreuses recettes.",
+     "es": "La carne picada se usa en muchas recetas.",
+     "it": "La carne macinata è usata in molte ricette.",
+     "pt": "A carne moída é usada em muitas receitas.",
+     "tr": "Kıyma birçok tarifte kullanılır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.fillet",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/fəˈleɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ordered a salmon fillet for dinner.",
+     "uk": "Я замовив філе лосося на вечерю.",
+     "ru": "Я заказал филе лосося на ужин.",
+     "pl": "Zamówiłem filet z łososia na kolację.",
+     "de": "Ich habe ein Lachsfilet zum Abendessen bestellt.",
+     "fr": "J'ai commandé un filet de saumon pour le dîner.",
+     "es": "Pedí un filete de salmón para la cena.",
+     "it": "Ho ordinato un filetto di salmone per cena.",
+     "pt": "Eu pedi um filé de salmão para o jantar.",
+     "tr": "Akşam yemeği için somon filetosu sipariş ettim."
+    },
+    {
+     "en": "The chef prepared a chicken fillet beautifully.",
+     "uk": "Шеф приготував куряче філе красиво.",
+     "ru": "Шеф-повар красиво приготовил куриное филе.",
+     "pl": "Szef przygotował pięknie filet z kurczaka.",
+     "de": "Der Koch bereitete das Hähnchenfilet schön zu.",
+     "fr": "Le chef a préparé un filet de poulet magnifiquement.",
+     "es": "El chef preparó un filete de pollo hermosamente.",
+     "it": "Lo chef ha preparato un filetto di pollo magnificamente.",
+     "pt": "O chef preparou um filé de frango lindamente.",
+     "tr": "Şef, tavuk filetosunu güzel bir şekilde hazırladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.yeast",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/jist/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I added yeast to the bread dough.",
+     "uk": "Я додав дріжджі до тіста для хліба.",
+     "ru": "Я добавил дрожжи в тесто для хлеба.",
+     "pl": "Dodałem drożdże do ciasta na chleb.",
+     "de": "Ich habe Hefe zum Brotteig hinzugefügt.",
+     "fr": "J'ai ajouté de la levure à la pâte à pain.",
+     "es": "Añadí levadura a la masa del pan.",
+     "it": "Ho aggiunto lievito all'impasto del pane.",
+     "pt": "Adicionei fermento biológico à massa do pão.",
+     "tr": "Ekmek hamuruna maya ekledim."
+    },
+    {
+     "en": "Yeast helps the dough rise well.",
+     "uk": "Дріжджі допомагають тісту добре підніматися.",
+     "ru": "Дрожжи помогают тесту хорошо подниматься.",
+     "pl": "Drożdże pomagają ciastu dobrze rosnąć.",
+     "de": "Hefe hilft dem Teig gut aufzugehen.",
+     "fr": "La levure aide la pâte à bien lever.",
+     "es": "La levadura ayuda a que la masa suba bien.",
+     "it": "Il lievito aiuta l'impasto a lievitare bene.",
+     "pt": "O fermento biológico ajuda a massa a crescer bem.",
+     "tr": "Maya hamurun iyi kabarmasına yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.baking-powder",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ˈbeɪkɪŋ ˈpaʊdɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need baking powder for the cake recipe.",
+     "uk": "Мені потрібен розпушувач для рецепту торта.",
+     "ru": "Мне нужен разрыхлитель для рецепта торта.",
+     "pl": "Potrzebuję proszku do pieczenia do przepisu na ciasto.",
+     "de": "Ich brauche Backpulver für das Kuchenrezept.",
+     "fr": "J'ai besoin de levure chimique pour la recette du gâteau.",
+     "es": "Necesito levadura química para la receta del pastel.",
+     "it": "Ho bisogno di lievito per dolci per la ricetta della torta.",
+     "pt": "Preciso de fermento em pó para a receita do bolo.",
+     "tr": "Kek tarifi için kabartma tozu gerekiyor."
+    },
+    {
+     "en": "Baking powder makes cakes fluffy and light.",
+     "uk": "Розпушувач робить торти пухкими і легкими.",
+     "ru": "Разрыхлитель делает торты легкими и воздушными.",
+     "pl": "Proszek do pieczenia sprawia, że ciasta są puszyste.",
+     "de": "Backpulver macht Kuchen fluffig und leicht.",
+     "fr": "La levure chimique rend les gâteaux légers et aérés.",
+     "es": "La levadura química hace que los pasteles sean esponjosos.",
+     "it": "Il lievito per dolci rende le torte soffici.",
+     "pt": "O fermento em pó torna os bolos fofos.",
+     "tr": "Kabartma tozu kekleri hafif ve kabarık yapar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.whipped-cream",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/wɪpt krim/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I topped the dessert with whipped cream.",
+     "uk": "Я прикрасив десерт збитими вершками.",
+     "ru": "Я украсил десерт взбитыми сливками.",
+     "pl": "Udekorowałem deser bitą śmietaną.",
+     "de": "Ich habe das Dessert mit Schlagsahne dekoriert.",
+     "fr": "J'ai garni le dessert de crème chantilly.",
+     "es": "Cubrí el postre con nata montada.",
+     "it": "Ho guarnito il dessert con panna montata.",
+     "pt": "Cobri a sobremesa com chantili.",
+     "tr": "Tatlıyı krem şanti ile süsledim."
+    },
+    {
+     "en": "Whipped cream is perfect for cakes and pies.",
+     "uk": "Збиті вершки ідеально підходять для тортів і пирогів.",
+     "ru": "Взбитые сливки идеально подходят для тортов и пирогов.",
+     "pl": "Bita śmietana idealnie nadaje się do ciast i tart.",
+     "de": "Schlagsahne ist perfekt für Kuchen und Torten.",
+     "fr": "La crème chantilly est parfaite pour les gâteaux et les tartes.",
+     "es": "La nata montada es perfecta para pasteles y tartas.",
+     "it": "La panna montata è perfetta per torte e crostate.",
+     "pt": "O chantili é perfeito para bolos e tortas.",
+     "tr": "Krem şanti, kekler ve turtalar için mükemmeldir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.pastry",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪstri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love eating pastry with my coffee.",
+     "uk": "Я люблю їсти випічку з кавою.",
+     "ru": "Я люблю есть выпечку с кофе.",
+     "pl": "Uwielbiam jeść ciastka z kawą.",
+     "de": "Ich liebe es, Gebäck zu meinem Kaffee zu essen.",
+     "fr": "J'adore manger de la pâtisserie avec mon café.",
+     "es": "Me encanta comer bollo con mi café.",
+     "it": "Adoro mangiare un pasticcino con il mio caffè.",
+     "pt": "Adoro comer folhados com meu café.",
+     "tr": "Kahvemin yanında hamur işi yemeyi seviyorum."
+    },
+    {
+     "en": "The bakery sells fresh pastry every morning.",
+     "uk": "Пекарня продає свіжу випічку щоранку.",
+     "ru": "Пекарня продает свежую выпечку каждое утро.",
+     "pl": "Piekarnia sprzedaje świeże ciastka każdego ranka.",
+     "de": "Die Bäckerei verkauft jeden Morgen frisches Gebäck.",
+     "fr": "La boulangerie vend de la pâtisserie fraîche chaque matin.",
+     "es": "La panadería vende bollos frescos cada mañana.",
+     "it": "La panetteria vende pasticcini freschi ogni mattina.",
+     "pt": "A padaria vende folhados frescos todas as manhãs.",
+     "tr": "Fırın, her sabah taze hamur işleri satıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.dressing",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˈdrɛsɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I made a homemade dressing for the salad.",
+     "uk": "Я зробив домашню заправку для салату.",
+     "ru": "Я сделал домашнюю заправку для салата.",
+     "pl": "Zrobiłem domowy sos sałatkowy.",
+     "de": "Ich habe ein hausgemachtes Dressing für den Salat gemacht.",
+     "fr": "J'ai fait une vinaigrette maison pour la salade.",
+     "es": "Hice un aliño casero para la ensalada.",
+     "it": "Ho fatto un condimento fatto in casa per l'insalata.",
+     "pt": "Fiz um molho para salada caseiro.",
+     "tr": "Salata için ev yapımı sos yaptım."
+    },
+    {
+     "en": "The dressing adds flavor to the salad.",
+     "uk": "Заправка додає смаку салату.",
+     "ru": "Заправка добавляет вкус салату.",
+     "pl": "Sos sałatkowy dodaje smaku sałatce.",
+     "de": "Das Dressing verleiht dem Salat Geschmack.",
+     "fr": "La vinaigrette ajoute de la saveur à la salade.",
+     "es": "El aliño añade sabor a la ensalada.",
+     "it": "Il condimento aggiunge sapore all'insalata.",
+     "pt": "O molho para salada adiciona sabor à salada.",
+     "tr": "Salata sosu, salataya lezzet katar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.gravy",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ˈɡreɪvi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I poured gravy over the mashed potatoes.",
+     "uk": "Я налив підливу на картоплю пюре.",
+     "ru": "Я налил подливку на картофельное пюре.",
+     "pl": "Polałem sos pieczeniowy na puree ziemniaczane.",
+     "de": "Ich habe Bratensoße über das Kartoffelpüree gegossen.",
+     "fr": "J'ai versé du jus de viande sur la purée.",
+     "es": "Eché salsa de carne sobre el puré de patatas.",
+     "it": "Ho versato sugo di carne sul purè.",
+     "pt": "Despejei molho de carne sobre o purê de batatas.",
+     "tr": "Püre üzerine et sosu döktüm."
+    },
+    {
+     "en": "Gravy makes the meal more delicious.",
+     "uk": "Підлива робить страву смачнішою.",
+     "ru": "Подливка делает блюдо вкуснее.",
+     "pl": "Sos pieczeniowy sprawia, że danie jest smaczniejsze.",
+     "de": "Bratensoße macht die Mahlzeit schmackhafter.",
+     "fr": "Le jus de viande rend le repas plus savoureux.",
+     "es": "La salsa de carne hace que la comida sea más deliciosa.",
+     "it": "Il sugo di carne rende il pasto più delizioso.",
+     "pt": "O molho de carne torna a refeição mais deliciosa.",
+     "tr": "Et sosu yemeği daha lezzetli kılar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.soy-sauce",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/sɔɪ sɔs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to add soy sauce to my stir-fry.",
+     "uk": "Мені подобається додавати соєвий соус до мого стір-фрая.",
+     "ru": "Мне нравится добавлять соевый соус в мой стир-фрай.",
+     "pl": "Lubię dodawać sos sojowy do mojego stir-fry.",
+     "de": "Ich füge gerne Sojasoße zu meinem Wok-Gericht hinzu.",
+     "fr": "J'aime ajouter de la sauce soja à mon sauté.",
+     "es": "Me gusta añadir salsa de soja a mi salteado.",
+     "it": "Mi piace aggiungere salsa di soia al mio saltato.",
+     "pt": "Gosto de adicionar molho shoyu ao meu stir-fry.",
+     "tr": "Kızarttığım yemeğe soya sosu eklemeyi seviyorum."
+    },
+    {
+     "en": "Soy sauce is a key ingredient in sushi.",
+     "uk": "Соєвий соус є основним інгредієнтом суші.",
+     "ru": "Соевый соус является ключевым ингредиентом суши.",
+     "pl": "Sos sojowy jest kluczowym składnikiem sushi.",
+     "de": "Sojasoße ist eine wichtige Zutat in Sushi.",
+     "fr": "La sauce soja est un ingrédient clé dans les sushis.",
+     "es": "La salsa de soja es un ingrediente clave en el sushi.",
+     "it": "La salsa di soia è un ingrediente chiave nel sushi.",
+     "pt": "O molho shoyu é um ingrediente chave no sushi.",
+     "tr": "Soya sosu, suşide ana malzemedir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-squeeze",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/skwiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to squeeze the lemon for juice.",
+     "uk": "Мені потрібно вичавити лимон для соку.",
+     "ru": "Мне нужно выжать лимон для сока.",
+     "pl": "Muszę wycisnąć cytrynę na sok.",
+     "de": "Ich muss die Zitrone auspressen für den Saft.",
+     "fr": "Je dois presser le citron pour le jus.",
+     "es": "Necesito exprimir el limón para el jugo.",
+     "it": "Devo spremere il limone per il succo.",
+     "pt": "Preciso espremer o limão para o suco.",
+     "tr": "Sıvı için limonu sıkmam gerekiyor."
+    },
+    {
+     "en": "You can squeeze the sponge to remove water.",
+     "uk": "Ти можеш вичавити губку, щоб видалити воду.",
+     "ru": "Ты можешь выжать губку, чтобы удалить воду.",
+     "pl": "Możesz wycisnąć gąbkę, aby usunąć wodę.",
+     "de": "Du kannst den Schwamm auspressen, um Wasser zu entfernen.",
+     "fr": "Tu peux presser l'éponge pour enlever l'eau.",
+     "es": "Puedes exprimir la esponja para quitar el agua.",
+     "it": "Puoi spremere la spugna per rimuovere l'acqua.",
+     "pt": "Você pode espremer a esponja para remover a água.",
+     "tr": "Sudan kurtulmak için süngeri sıkabilirsin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-drain",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/dreɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please drain the pasta before serving.",
+     "uk": "Будь ласка, злийте воду з пасти перед подачею.",
+     "ru": "Пожалуйста, слейте воду с пасты перед подачей.",
+     "pl": "Proszę odcedzić makaron przed podaniem.",
+     "de": "Bitte gießen Sie die Nudeln ab, bevor Sie sie servieren.",
+     "fr": "Veuillez égoutter les pâtes avant de servir.",
+     "es": "Por favor, escurre la pasta antes de servir.",
+     "it": "Per favore, scola la pasta prima di servire.",
+     "pt": "Por favor, escorra a massa antes de servir.",
+     "tr": "Lütfen makarnayı servis etmeden önce süzün."
+    },
+    {
+     "en": "I need to drain the vegetables after boiling.",
+     "uk": "Мені потрібно зливати овочі після варіння.",
+     "ru": "Мне нужно слить воду с овощей после варки.",
+     "pl": "Muszę odcedzić warzywa po gotowaniu.",
+     "de": "Ich muss das Gemüse nach dem Kochen abgießen.",
+     "fr": "Je dois égoutter les légumes après les avoir bouillis.",
+     "es": "Necesito escurrir las verduras después de hervirlas.",
+     "it": "Devo scolare le verdure dopo averle bollite.",
+     "pt": "Preciso escorrer os vegetais após fervê-los.",
+     "tr": "Sebzeleri haşladıktan sonra süzmem gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-spread",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/sprɛd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to spread butter on my toast.",
+     "uk": "Мені подобається намазувати масло на тост.",
+     "ru": "Мне нравится намазывать масло на тост.",
+     "pl": "Lubię smarować masło na swoim toście.",
+     "de": "Ich mag es, Butter auf meinen Toast zu streichen.",
+     "fr": "J'aime tartiner du beurre sur mon pain grillé.",
+     "es": "Me gusta untar mantequilla en mi tostada.",
+     "it": "Mi piace spalmare burro sul mio toast.",
+     "pt": "Eu gosto de passar manteiga no meu pão tostado.",
+     "tr": "Tostuma tereyağı sürmeyi seviyorum."
+    },
+    {
+     "en": "Can you spread the jam evenly on the bread?",
+     "uk": "Чи можеш намазати варення рівномірно на хліб?",
+     "ru": "Можешь намазать варенье равномерно на хлеб?",
+     "pl": "Czy możesz smarować dżem równomiernie na chlebie?",
+     "de": "Kannst du die Marmelade gleichmäßig auf das Brot streichen?",
+     "fr": "Peux-tu tartiner la confiture uniformément sur le pain?",
+     "es": "¿Puedes untar la mermelada uniformemente en el pan?",
+     "it": "Puoi spalmare la marmellata uniformemente sul pane?",
+     "pt": "Você pode passar a geleia uniformemente no pão?",
+     "tr": "Reçeli ekmeğe eşit olarak sürebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-beat-eggs",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/bit ɛɡz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to beat eggs before adding them to the mixture.",
+     "uk": "Вам потрібно збити яйця перед додаванням їх до суміші.",
+     "ru": "Вам нужно взбить яйца перед добавлением их в смесь.",
+     "pl": "Musisz ubijać jajka przed dodaniem ich do mieszanki.",
+     "de": "Du musst die Eier schlagen, bevor du sie zur Mischung hinzufügst.",
+     "fr": "Vous devez battre les œufs avant de les ajouter au mélange.",
+     "es": "Necesitas batir los huevos antes de agregarlos a la mezcla.",
+     "it": "Devi sbattere le uova prima di aggiungerle al composto.",
+     "pt": "Você precisa bater os ovos antes de adicioná-los à mistura.",
+     "tr": "Karışıma eklemeden önce yumurtaları çırpmanız gerekiyor."
+    },
+    {
+     "en": "I will beat eggs for the cake batter.",
+     "uk": "Я зб'ю яйця для тіста на торт.",
+     "ru": "Я взобью яйца для теста для торта.",
+     "pl": "Zbiję jajka do ciasta.",
+     "de": "Ich werde die Eier für den Kuchenteig schlagen.",
+     "fr": "Je vais battre des œufs pour la pâte à gâteau.",
+     "es": "Voy a batir huevos para la masa del pastel.",
+     "it": "Batterò le uova per l'impasto della torta.",
+     "pt": "Vou bater ovos para a massa do bolo.",
+     "tr": "Kek hamuru için yumurtaları çırpacağım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.to-rinse",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/rɪns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Make sure to rinse the fruits before eating.",
+     "uk": "Переконайтеся, що ви промили фрукти перед вживанням.",
+     "ru": "Убедитесь, что вы промыли фрукты перед едой.",
+     "pl": "Upewnij się, że wypłukałeś owoce przed jedzeniem.",
+     "de": "Stellen Sie sicher, dass Sie das Obst vor dem Essen abspülen.",
+     "fr": "Assurez-vous de rincer les fruits avant de manger.",
+     "es": "Asegúrate de enjuagar las frutas antes de comer.",
+     "it": "Assicurati di sciacquare la frutta prima di mangiare.",
+     "pt": "Certifique-se de enxaguar as frutas antes de comer.",
+     "tr": "Yemeden önce meyveleri duruladığınızdan emin olun."
+    },
+    {
+     "en": "You should rinse the dishes after washing.",
+     "uk": "Вам слід промити посуд після миття.",
+     "ru": "Вам следует промыть посуду после мытья.",
+     "pl": "Powinieneś płukać naczynia po myciu.",
+     "de": "Du solltest das Geschirr nach dem Waschen abspülen.",
+     "fr": "Vous devez rincer la vaisselle après l'avoir lavée.",
+     "es": "Debes enjuagar los platos después de lavarlos.",
+     "it": "Dovresti sciacquare i piatti dopo averli lavati.",
+     "pt": "Você deve enxaguar os pratos após lavá-los.",
+     "tr": "Tabakları yıkadıktan sonra durulamalısın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.grater",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/ˈɡreɪtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a grater to prepare the cheese.",
+     "uk": "Мені потрібна тертка, щоб приготувати сир.",
+     "ru": "Мне нужна терка, чтобы приготовить сыр.",
+     "pl": "Potrzebuję tarki, aby przygotować ser.",
+     "de": "Ich brauche eine Reibe, um den Käse vorzubereiten.",
+     "fr": "J'ai besoin d'une râpe pour préparer le fromage.",
+     "es": "Necesito un rallador para preparar el queso.",
+     "it": "Ho bisogno di una grattugia per preparare il formaggio.",
+     "pt": "Preciso de um ralador para preparar o queijo.",
+     "tr": "Peyniri hazırlamak için bir rendeye ihtiyacım var."
+    },
+    {
+     "en": "Use a grater to make the vegetables smaller.",
+     "uk": "Використовуйте тертку, щоб зробити овочі меншими.",
+     "ru": "Используйте терку, чтобы сделать овощи меньше.",
+     "pl": "Użyj tarki, aby zmniejszyć warzywa.",
+     "de": "Verwenden Sie eine Reibe, um das Gemüse kleiner zu machen.",
+     "fr": "Utilisez une râpe pour réduire les légumes.",
+     "es": "Usa un rallador para hacer las verduras más pequeñas.",
+     "it": "Usa una grattugia per rendere le verdure più piccole.",
+     "pt": "Use um ralador para deixar os vegetais menores.",
+     "tr": "Sebzeleri daha küçük yapmak için bir rende kullanın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.colander",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/ˈkɑləndɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I use a colander to drain the pasta.",
+     "uk": "Я використовую друшляк, щоб зливати пасту.",
+     "ru": "Я использую дуршлаг, чтобы слить пасту.",
+     "pl": "Używam durszlaka, aby odcedzić makaron.",
+     "de": "Ich benutze ein Nudelsieb, um die Nudeln abzugießen.",
+     "fr": "J'utilise une passoire pour égoutter les pâtes.",
+     "es": "Uso un escurridor para escurrir la pasta.",
+     "it": "Uso uno scolapasta per scolare la pasta.",
+     "pt": "Eu uso um escorredor para escorrer a massa.",
+     "tr": "Makarna süzmek için bir süzgeç kullanıyorum."
+    },
+    {
+     "en": "A colander is essential for washing vegetables.",
+     "uk": "Друшляк є необхідним для миття овочів.",
+     "ru": "Дуршлаг необходим для мытья овощей.",
+     "pl": "Durszlak jest niezbędny do mycia warzyw.",
+     "de": "Ein Nudelsieb ist unerlässlich zum Waschen von Gemüse.",
+     "fr": "Une passoire est essentielle pour laver les légumes.",
+     "es": "Un escurridor es esencial para lavar verduras.",
+     "it": "Uno scolapasta è essenziale per lavare le verdure.",
+     "pt": "Um escorredor é essencial para lavar vegetais.",
+     "tr": "Sebzeleri yıkamak için bir süzgeç şarttır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.peeler",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/ˈpilɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new peeler for the potatoes.",
+     "uk": "Я купив нову овочечистку для картоплі.",
+     "ru": "Я купил новый овощечистку для картошки.",
+     "pl": "Kupiłem nową obieraczkę do ziemniaków.",
+     "de": "Ich habe einen neuen Sparschäler für die Kartoffeln gekauft.",
+     "fr": "J'ai acheté un nouvel éplucheur pour les pommes de terre.",
+     "es": "Compré un nuevo pelador para las patatas.",
+     "it": "Ho comprato un nuovo pelapatate per le patate.",
+     "pt": "Comprei um novo descascador para as batatas.",
+     "tr": "Patatesler için yeni bir soyacak aldım."
+    },
+    {
+     "en": "A good peeler makes cooking much easier.",
+     "uk": "Добра овочечистка робить приготування їжі набагато легшим.",
+     "ru": "Хорошая овощечистка значительно упрощает готовку.",
+     "pl": "Dobra obieraczka znacznie ułatwia gotowanie.",
+     "de": "Ein guter Sparschäler erleichtert das Kochen erheblich.",
+     "fr": "Un bon éplucheur rend la cuisine beaucoup plus facile.",
+     "es": "Un buen pelador hace que cocinar sea mucho más fácil.",
+     "it": "Un buon pelapatate rende la cucina molto più facile.",
+     "pt": "Um bom descascador torna o cozimento muito mais fácil.",
+     "tr": "İyi bir soyacak yemek pişirmeyi çok daha kolaylaştırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.rolling-pin",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/ˈroʊlɪŋ pɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I use a rolling pin to make dough.",
+     "uk": "Я використовую качалку, щоб робити тісто.",
+     "ru": "Я использую скалку, чтобы делать тесто.",
+     "pl": "Używam wałka do ciasta, aby zrobić ciasto.",
+     "de": "Ich benutze ein Nudelholz, um Teig zu machen.",
+     "fr": "J'utilise un rouleau à pâtisserie pour faire de la pâte.",
+     "es": "Uso un rodillo de cocina para hacer masa.",
+     "it": "Uso un mattarello per fare la pasta.",
+     "pt": "Eu uso um rolo de massa para fazer massa.",
+     "tr": "Hamur açmak için oklava kullanıyorum."
+    },
+    {
+     "en": "She rolled the pastry with a rolling pin.",
+     "uk": "Вона розкатала тісто з качалкою.",
+     "ru": "Она раскатала тесто с помощью скалки.",
+     "pl": "Ona rozwałkowała ciasto wałkiem do ciasta.",
+     "de": "Sie rollte den Teig mit einem Nudelholz aus.",
+     "fr": "Elle a étalé la pâte avec un rouleau à pâtisserie.",
+     "es": "Ella extendió la masa con un rodillo de cocina.",
+     "it": "Lei ha steso la pasta con un mattarello.",
+     "pt": "Ela estendeu a massa com um rolo de massa.",
+     "tr": "O, hamuru oklava ile açtı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.baking-tray",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/ˈbeɪkɪŋ treɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Place cookies on the baking tray to cool.",
+     "uk": "Покладіть печиво на деко, щоб охололо.",
+     "ru": "Положите печенье на противень, чтобы оно остыло.",
+     "pl": "Umieść ciasteczka na blachę do pieczenia, aby ostygły.",
+     "de": "Legen Sie die Kekse auf das Backblech zum Abkühlen.",
+     "fr": "Placez les biscuits sur la plaque de cuisson pour refroidir.",
+     "es": "Coloca las galletas en la bandeja de horno para enfriar.",
+     "it": "Metti i biscotti sulla teglia a raffreddare.",
+     "pt": "Coloque os biscoitos na assadeira para esfriar.",
+     "tr": "Kuruyacak şekilde fırın tepsisine kurabiyeleri yerleştirin."
+    },
+    {
+     "en": "I need a baking tray for the cake.",
+     "uk": "Мені потрібно деко для торта.",
+     "ru": "Мне нужен противень для торта.",
+     "pl": "Potrzebuję blachy do pieczenia na ciasto.",
+     "de": "Ich brauche ein Backblech für den Kuchen.",
+     "fr": "J'ai besoin d'une plaque de cuisson pour le gâteau.",
+     "es": "Necesito una bandeja de horno para el pastel.",
+     "it": "Ho bisogno di una teglia per la torta.",
+     "pt": "Preciso de uma assadeira para o bolo.",
+     "tr": "Kek için fırın tepsisine ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.creamy",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˈkrimi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This soup is very creamy and delicious.",
+     "uk": "Цей суп дуже вершковий і смачний.",
+     "ru": "Этот суп очень сливочный и вкусный.",
+     "pl": "Ta zupa jest bardzo kremowa i smaczna.",
+     "de": "Diese Suppe ist sehr cremig und lecker.",
+     "fr": "Cette soupe est très crémeuse et délicieuse.",
+     "es": "Esta sopa es muy cremosa y deliciosa.",
+     "it": "Questa zuppa è molto cremosa e deliziosa.",
+     "pt": "Esta sopa é muito cremosa e deliciosa.",
+     "tr": "Bu çorba çok kremamsı ve lezzetli."
+    },
+    {
+     "en": "I prefer creamy desserts over fruity ones.",
+     "uk": "Я віддаю перевагу вершковим десертам фруктовим.",
+     "ru": "Я предпочитаю сливочные десерты фруктовым.",
+     "pl": "Wolę kremowe desery od owocowych.",
+     "de": "Ich bevorzuge cremige Desserts gegenüber fruchtigen.",
+     "fr": "Je préfère les desserts crémeux aux fruités.",
+     "es": "Prefiero los postres cremosos a los afrutados.",
+     "it": "Preferisco i dessert cremosi a quelli di frutta.",
+     "pt": "Prefiro sobremesas cremosas a frutadas.",
+     "tr": "Meyveli tatlılar yerine kremamsı tatlıları tercih ederim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.crunchy",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/ˈkrʌntʃi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The salad has a crunchy texture that I love.",
+     "uk": "Салат має хрустку текстуру, яку я люблю.",
+     "ru": "У салата хрустящая текстура, которую я люблю.",
+     "pl": "Sałatka ma chrupiącą teksturę, którą uwielbiam.",
+     "de": "Der Salat hat eine knackige Textur, die ich liebe.",
+     "fr": "La salade a une texture croquante que j'adore.",
+     "es": "La ensalada tiene una textura crujiente que me encanta.",
+     "it": "L'insalata ha una consistenza croccante che adoro.",
+     "pt": "A salada tem uma textura crocante que eu adoro.",
+     "tr": "Salatanın kıtır bir dokusu var, çok seviyorum."
+    },
+    {
+     "en": "I prefer crunchy snacks over soft ones.",
+     "uk": "Я віддаю перевагу хрустким закускам замість м'яких.",
+     "ru": "Я предпочитаю хрустящие закуски вместо мягких.",
+     "pl": "Wolę chrupiące przekąski od miękkich.",
+     "de": "Ich bevorzuge knackige Snacks gegenüber weichen.",
+     "fr": "Je préfère les collations croquantes aux douces.",
+     "es": "Prefiero los aperitivos crujientes a los suaves.",
+     "it": "Preferisco gli snack croccanti a quelli morbidi.",
+     "pt": "Prefiro lanches crocantes a macios.",
+     "tr": "Yumuşak atıştırmalıklardan çok kıtır atıştırmalıkları tercih ederim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.greasy",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ˈɡrisi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fries were too greasy for my taste.",
+     "uk": "Фрі були занадто жирними для мого смаку.",
+     "ru": "Картофель фри был слишком жирным для моего вкуса.",
+     "pl": "Frytki były dla mnie zbyt tłuste.",
+     "de": "Die Pommes waren mir zu fettig.",
+     "fr": "Les frites étaient trop grasses à mon goût.",
+     "es": "Las papas fritas estaban demasiado grasientas para mi gusto.",
+     "it": "Le patatine erano troppo unte per i miei gusti.",
+     "pt": "As batatas fritas estavam muito gordurosas para o meu gosto.",
+     "tr": "Patates kızartması benim damak zevkim için çok yağlıydı."
+    },
+    {
+     "en": "I don't like greasy food; I prefer healthy options.",
+     "uk": "Я не люблю жирну їжу; я віддаю перевагу здоровим варіантам.",
+     "ru": "Я не люблю жирную еду; предпочитаю здоровые варианты.",
+     "pl": "Nie lubię tłustego jedzenia; wolę zdrowe opcje.",
+     "de": "Ich mag kein fettiges Essen; ich bevorzuge gesunde Optionen.",
+     "fr": "Je n'aime pas la nourriture grasse; je préfère les options saines.",
+     "es": "No me gusta la comida grasienta; prefiero opciones saludables.",
+     "it": "Non mi piace il cibo grasso; preferisco opzioni salutari.",
+     "pt": "Não gosto de comida gordurosa; prefiro opções saudáveis.",
+     "tr": "Yağlı yiyecekleri sevmiyorum; sağlıklı seçenekleri tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.chewy",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈtʃui/"
-   }
+   },
+   "exs": [
+    {
+     "en": "These candies are too chewy for my liking.",
+     "uk": "Ці цукерки занадто тягучі для мого смаку.",
+     "ru": "Эти конфеты слишком тягучие для моего вкуса.",
+     "pl": "Te cukierki są dla mnie zbyt gumowate.",
+     "de": "Diese Bonbons sind mir zu zäh.",
+     "fr": "Ces bonbons sont trop caoutchouteux à mon goût.",
+     "es": "Estos caramelos son demasiado correosos para mi gusto.",
+     "it": "Queste caramelle sono troppo gomose per i miei gusti.",
+     "pt": "Esses doces são muito borrachudos para o meu gosto.",
+     "tr": "Bu şekerlemeler benim için çok çiğnemesi zor."
+    },
+    {
+     "en": "I enjoy chewy cookies with chocolate chips.",
+     "uk": "Мені подобаються тягучі печива з шоколадними чіпсами.",
+     "ru": "Мне нравятся жевательные печенья с шоколадными чипсами.",
+     "pl": "Lubię gumowate ciasteczka z kawałkami czekolady.",
+     "de": "Ich mag zähe Kekse mit Schokoladenstückchen.",
+     "fr": "J'aime les biscuits caoutchouteux avec des pépites de chocolat.",
+     "es": "Disfruto de las galletas correosas con chispas de chocolate.",
+     "it": "Mi piacciono i biscotti gommosi con gocce di cioccolato.",
+     "pt": "Gosto de biscoitos borrachudos com pedaços de chocolate.",
+     "tr": "Çikolata parçacıklı çiğnemesi zor kurabiyeleri severim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.tap-water",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/tæp ˈwɔtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I drink tap water to stay hydrated.",
+     "uk": "Я п'ю воду з-під крана, щоб залишатися зволоженим.",
+     "ru": "Я пью водопроводную воду, чтобы поддерживать водный баланс.",
+     "pl": "Piję wodę z kranu, aby być nawodnionym.",
+     "de": "Ich trinke Leitungswasser, um hydratisiert zu bleiben.",
+     "fr": "Je bois de l'eau du robinet pour rester hydraté.",
+     "es": "Bebo agua del grifo para mantenerme hidratado.",
+     "it": "Bevo acqua del rubinetto per rimanere idratato.",
+     "pt": "Bebo água da torneira para me manter hidratado.",
+     "tr": "Hidrasyon için musluk suyu içiyorum."
+    },
+    {
+     "en": "Is the tap water safe to drink here?",
+     "uk": "Чи безпечно пити воду з-під крана тут?",
+     "ru": "Безопасно ли пить водопроводную воду здесь?",
+     "pl": "Czy woda z kranu jest tutaj bezpieczna do picia?",
+     "de": "Ist das Leitungswasser hier sicher zu trinken?",
+     "fr": "L'eau du robinet ici est-elle potable ?",
+     "es": "¿Es segura el agua del grifo aquí?",
+     "it": "L'acqua del rubinetto qui è sicura da bere?",
+     "pt": "A água da torneira aqui é segura para beber?",
+     "tr": "Buradaki musluk suyu içmek için güvenli mi?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.decaf",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/ˈdikæf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I ordered a decaf coffee at the café.",
+     "uk": "Я замовив каву без кофеїну в кафе.",
+     "ru": "Я заказал кофе без кофеина в кафе.",
+     "pl": "Zamówiłem kawę bezkofeinową w kawiarni.",
+     "de": "Ich habe einen entkoffeinierten Kaffee im Café bestellt.",
+     "fr": "J'ai commandé un déca au café.",
+     "es": "Pedí un descafeinado en la cafetería.",
+     "it": "Ho ordinato un decaffeinato al caffè.",
+     "pt": "Pedi um descafeinado no café.",
+     "tr": "Kafede kafeinsiz kahve sipariş ettim."
+    },
+    {
+     "en": "Do you want decaf or regular coffee?",
+     "uk": "Ти хочеш каву без кофеїну чи звичайну?",
+     "ru": "Ты хочешь кофе без кофеина или обычный?",
+     "pl": "Chcesz kawę bezkofeinową czy zwykłą?",
+     "de": "Möchtest du entkoffeinierten oder normalen Kaffee?",
+     "fr": "Veux-tu un déca ou un café normal ?",
+     "es": "¿Quieres descafeinado o café normal?",
+     "it": "Vuoi un decaffeinato o un caffè normale?",
+     "pt": "Você quer descafeinado ou café normal?",
+     "tr": "Kafeinsiz mi yoksa normal kahve mi istersin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.dairy-free",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˈdɛri fri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This cake is dairy-free and tastes delicious.",
+     "uk": "Цей торт без молочних продуктів і смачний.",
+     "ru": "Этот торт без молочных продуктов и очень вкусный.",
+     "pl": "To ciasto jest bez nabiału i smakuje pysznie.",
+     "de": "Dieser Kuchen ist milchfrei und schmeckt köstlich.",
+     "fr": "Ce gâteau est sans produits laitiers et délicieux.",
+     "es": "Este pastel es sin lácteos y sabe delicioso.",
+     "it": "Questa torta è senza latticini e ha un sapore delizioso.",
+     "pt": "Este bolo é sem laticínios e é delicioso.",
+     "tr": "Bu kek süt ürünü içermeyen ve harika bir tadı var."
+    },
+    {
+     "en": "I prefer dairy-free options for my diet.",
+     "uk": "Я віддаю перевагу варіантам без молочних продуктів у своїй дієті.",
+     "ru": "Я предпочитаю варианты без молочных продуктов в своем рационе.",
+     "pl": "W mojej diecie wolę opcje bez nabiału.",
+     "de": "Ich bevorzuge milchfreie Optionen für meine Ernährung.",
+     "fr": "Je préfère les options sans produits laitiers pour mon alimentation.",
+     "es": "Prefiero opciones sin lácteos para mi dieta.",
+     "it": "Preferisco opzioni senza latticini per la mia dieta.",
+     "pt": "Prefiro opções sem laticínios para minha dieta.",
+     "tr": "Diyetimde süt ürünü içermeyen seçenekleri tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.picky-eater",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/ˈpɪki ˈitɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My son is a picky eater and avoids vegetables.",
+     "uk": "Мій син перебірливий у їжі і уникає овочів.",
+     "ru": "Мой сын привередлив в еде и избегает овощей.",
+     "pl": "Mój syn jest niejadkiem i unika warzyw.",
+     "de": "Mein Sohn ist ein wählerischer Esser und meidet Gemüse.",
+     "fr": "Mon fils est un mangeur difficile et évite les légumes.",
+     "es": "Mi hijo es quisquilloso con la comida y evita las verduras.",
+     "it": "Mio figlio è schizzinoso e evita le verdure.",
+     "pt": "Meu filho é chato para comer e evita legumes.",
+     "tr": "Oğlum yemek seçiyor ve sebzelerden kaçınıyor."
+    },
+    {
+     "en": "Being a picky eater can make meal times challenging.",
+     "uk": "Бути перебірливим у їжі може ускладнити прийом їжі.",
+     "ru": "Быть привередливым в еде может усложнить время приема пищи.",
+     "pl": "Bycie niejadkiem może utrudnić posiłki.",
+     "de": "Wählerisch zu sein kann die Essenszeiten herausfordernd machen.",
+     "fr": "Être un mangeur difficile peut rendre les repas difficiles.",
+     "es": "Ser quisquilloso con la comida puede hacer que las comidas sean desafiantes.",
+     "it": "Essere schizzinoso può rendere i pasti impegnativi.",
+     "pt": "Ser chato para comer pode tornar as refeições desafiadoras.",
+     "tr": "Yemek seçmek, yemek zamanlarını zorlaştırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.todays-special",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/təˈdeɪz ˈspɛʃəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Today's special is a delicious seafood pasta.",
+     "uk": "Страва дня - смачна паста з морепродуктів.",
+     "ru": "Блюдо дня - вкусная паста с морепродуктами.",
+     "pl": "Danie dnia to pyszna pasta z owocami morza.",
+     "de": "Das Tagesgericht ist eine köstliche Meeresfrüchte-Pasta.",
+     "fr": "Le plat du jour est des pâtes aux fruits de mer délicieuses.",
+     "es": "El plato del día es una deliciosa pasta de mariscos.",
+     "it": "Il piatto del giorno è una deliziosa pasta di mare.",
+     "pt": "O prato do dia é uma deliciosa massa de frutos do mar.",
+     "tr": "Günün yemeği lezzetli bir deniz ürünleri makarnası."
+    },
+    {
+     "en": "I always check the board for today's special.",
+     "uk": "Я завжди перевіряю дошку на страву дня.",
+     "ru": "Я всегда проверяю доску на блюдо дня.",
+     "pl": "Zawsze sprawdzam tablicę na danie dnia.",
+     "de": "Ich schaue immer auf die Tafel für das Tagesgericht.",
+     "fr": "Je vérifie toujours le tableau pour le plat du jour.",
+     "es": "Siempre reviso el menú para el plato del día.",
+     "it": "Controllo sempre la bacheca per il piatto del giorno.",
+     "pt": "Sempre verifico o quadro para o prato do dia.",
+     "tr": "Her zaman günün yemeği için tahtayı kontrol ederim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.skimmed-milk",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/skɪmd mɪlk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I drink skimmed milk for a healthier diet.",
+     "uk": "Я п'ю знежирене молоко для здоровішої дієти.",
+     "ru": "Я пью обезжиренное молоко для более здорового питания.",
+     "pl": "Piję mleko odtłuszczone dla zdrowszej diety.",
+     "de": "Ich trinke Magermilch für eine gesündere Ernährung.",
+     "fr": "Je bois du lait écrémé pour une alimentation plus saine.",
+     "es": "Bebo leche desnatada para una dieta más saludable.",
+     "it": "Bevo latte scremato per una dieta più sana.",
+     "pt": "Bebo leite desnatado para uma dieta mais saudável.",
+     "tr": "Daha sağlıklı bir diyet için yağsız süt içiyorum."
+    },
+    {
+     "en": "Skimmed milk is a good option for coffee.",
+     "uk": "Знежирене молоко - хороший варіант для кави.",
+     "ru": "Обезжиренное молоко - хороший вариант для кофе.",
+     "pl": "Mleko odtłuszczone to dobry wybór do kawy.",
+     "de": "Magermilch ist eine gute Option für Kaffee.",
+     "fr": "Le lait écrémé est une bonne option pour le café.",
+     "es": "La leche desnatada es una buena opción para el café.",
+     "it": "Il latte scremato è una buona opzione per il caffè.",
+     "pt": "O leite desnatado é uma boa opção para o café.",
+     "tr": "Yağsız süt kahve için iyi bir seçenektir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "food.wine-list",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/waɪn lɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can I see the wine list, please?",
+     "uk": "Чи можу я побачити винну карту, будь ласка?",
+     "ru": "Можно мне посмотреть винную карту, пожалуйста?",
+     "pl": "Czy mogę zobaczyć kartę win, proszę?",
+     "de": "Kann ich bitte die Weinkarte sehen?",
+     "fr": "Puis-je voir la carte des vins, s'il vous plaît ?",
+     "es": "¿Puedo ver la carta de vinos, por favor?",
+     "it": "Posso vedere la carta dei vini, per favore?",
+     "pt": "Posso ver a carta de vinhos, por favor?",
+     "tr": "Şarap listesini görebilir miyim, lütfen?"
+    },
+    {
+     "en": "The wine list has some excellent choices.",
+     "uk": "У винній карті є кілька відмінних варіантів.",
+     "ru": "В винной карте есть несколько отличных вариантов.",
+     "pl": "W karcie win jest kilka doskonałych wyborów.",
+     "de": "Die Weinkarte hat einige ausgezeichnete Auswahlmöglichkeiten.",
+     "fr": "La carte des vins a d'excellents choix.",
+     "es": "La carta de vinos tiene algunas excelentes opciones.",
+     "it": "La carta dei vini ha alcune ottime scelte.",
+     "pt": "A carta de vinhos tem algumas excelentes opções.",
+     "tr": "Şarap listesinde mükemmel seçenekler var."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

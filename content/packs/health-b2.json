@@ -2,7 +2,7 @@
  "id": "health-b2",
  "topic": "health",
  "level": "b2",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "health.diagnosis",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˌdaɪəɡˈnoʊsəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The diagnosis was confirmed after several tests.",
+     "uk": "Діагноз було підтверджено після кількох тестів.",
+     "ru": "Диагноз был подтвержден после нескольких тестов.",
+     "pl": "Diagnoza została potwierdzona po kilku testach.",
+     "de": "Die Diagnose wurde nach mehreren Tests bestätigt.",
+     "fr": "Le diagnostic a été confirmé après plusieurs tests.",
+     "es": "El diagnóstico fue confirmado después de varias pruebas.",
+     "it": "La diagnosi è stata confermata dopo diversi test.",
+     "pt": "O diagnóstico foi confirmado após vários testes.",
+     "tr": "Teşhis birkaç testten sonra onaylandı."
+    },
+    {
+     "en": "She received a diagnosis from a specialist.",
+     "uk": "Вона отримала діагноз від спеціаліста.",
+     "ru": "Она получила диагноз от специалиста.",
+     "pl": "Ona otrzymała diagnozę od specjalisty.",
+     "de": "Sie erhielt eine Diagnose von einem Spezialisten.",
+     "fr": "Elle a reçu un diagnostic d'un spécialiste.",
+     "es": "Recibió un diagnóstico de un especialista.",
+     "it": "Ha ricevuto una diagnosi da uno specialista.",
+     "pt": "Ela recebeu um diagnóstico de um especialista.",
+     "tr": "Bir uzmandan teşhis aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.treatment",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˈtritmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The treatment for the illness was very effective.",
+     "uk": "Лікування хвороби було дуже ефективним.",
+     "ru": "Лечение болезни было очень эффективным.",
+     "pl": "Leczenie choroby było bardzo skuteczne.",
+     "de": "Die Behandlung der Krankheit war sehr effektiv.",
+     "fr": "Le traitement de la maladie était très efficace.",
+     "es": "El tratamiento para la enfermedad fue muy efectivo.",
+     "it": "Il trattamento per la malattia è stato molto efficace.",
+     "pt": "O tratamento da doença foi muito eficaz.",
+     "tr": "Hastalığın tedavisi çok etkiliydi."
+    },
+    {
+     "en": "He is undergoing treatment for his condition.",
+     "uk": "Він проходить лікування для свого стану.",
+     "ru": "Он проходит лечение для своего состояния.",
+     "pl": "On przechodzi leczenie swojego stanu.",
+     "de": "Er unterzieht sich einer Behandlung für seinen Zustand.",
+     "fr": "Il suit un traitement pour son état.",
+     "es": "Está recibiendo tratamiento para su condición.",
+     "it": "Sta seguendo un trattamento per la sua condizione.",
+     "pt": "Ele está passando por tratamento para sua condição.",
+     "tr": "Durumu için tedavi görüyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.surgery",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/ˈsɝdʒɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She had surgery to remove her appendix.",
+     "uk": "Вона перенесла операцію з видалення апендикса.",
+     "ru": "Она перенесла операцию по удалению аппендикса.",
+     "pl": "Przeszła operację usunięcia wyrostka robaczkowego.",
+     "de": "Sie hatte eine Operation zur Entfernung des Blinddarms.",
+     "fr": "Elle a subi une opération pour retirer son appendice.",
+     "es": "Se sometió a una cirugía para remover su apéndice.",
+     "it": "Ha subito un intervento chirurgico per rimuovere l'appendice.",
+     "pt": "Ela fez uma cirurgia para remover o apêndice.",
+     "tr": "Apandisitini almak için ameliyat oldu."
+    },
+    {
+     "en": "The surgery was successful and recovery began.",
+     "uk": "Операція була успішною, і почалося відновлення.",
+     "ru": "Операция прошла успешно, и началось восстановление.",
+     "pl": "Operacja była udana, a powrót do zdrowia się rozpoczął.",
+     "de": "Die Operation war erfolgreich und die Genesung begann.",
+     "fr": "L'opération a été un succès et la récupération a commencé.",
+     "es": "La cirugía fue exitosa y comenzó la recuperación.",
+     "it": "L'intervento chirurgico è stato un successo e il recupero è iniziato.",
+     "pt": "A cirurgia foi bem-sucedida e a recuperação começou.",
+     "tr": "Ameliyat başarılıydı ve iyileşme başladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.anaesthesia",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˌænəsˈθiʒə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The anaesthesia took effect quickly during the procedure.",
+     "uk": "Наркоз швидко подіяв під час процедури.",
+     "ru": "Наркоз быстро подействовал во время процедуры.",
+     "pl": "Znieczulenie szybko zadziałało podczas zabiegu.",
+     "de": "Die Narkose wirkte schnell während des Eingriffs.",
+     "fr": "L'anesthésie a agi rapidement pendant la procédure.",
+     "es": "La anestesia hizo efecto rápidamente durante el procedimiento.",
+     "it": "L'anestesia ha fatto effetto rapidamente durante la procedura.",
+     "pt": "A anestesia fez efeito rapidamente durante o procedimento.",
+     "tr": "Anestezi işlem sırasında hızla etkili oldu."
+    },
+    {
+     "en": "He experienced no pain thanks to the anaesthesia.",
+     "uk": "Він не відчував болю завдяки наркозу.",
+     "ru": "Он не испытывал боли благодаря наркозу.",
+     "pl": "Nie odczuwał bólu dzięki znieczuleniu.",
+     "de": "Er hatte keine Schmerzen dank der Narkose.",
+     "fr": "Il n'a ressenti aucune douleur grâce à l'anesthésie.",
+     "es": "No sintió dolor gracias a la anestesia.",
+     "it": "Non ha provato dolore grazie all'anestesia.",
+     "pt": "Ele não sentiu dor graças à anestesia.",
+     "tr": "Anestezi sayesinde acı hissetmedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.second-opinion",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈsɛkənd əˈpɪnjən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I decided to seek a second opinion for my diagnosis.",
+     "uk": "Я вирішив отримати думку іншого лікаря щодо мого діагнозу.",
+     "ru": "Я решил получить мнение другого врача о моем диагнозе.",
+     "pl": "Postanowiłem zasięgnąć drugiej opinii na temat mojej diagnozy.",
+     "de": "Ich habe beschlossen, eine Zweitmeinung zu meiner Diagnose einzuholen.",
+     "fr": "J'ai décidé de demander un deuxième avis pour mon diagnostic.",
+     "es": "Decidí buscar una segunda opinión sobre mi diagnóstico.",
+     "it": "Ho deciso di cercare un secondo parere per la mia diagnosi.",
+     "pt": "Decidi buscar uma segunda opinião sobre meu diagnóstico.",
+     "tr": "Teşhisim için ikinci bir görüş almak istedim."
+    },
+    {
+     "en": "Getting a second opinion can provide more clarity.",
+     "uk": "Отримання думки іншого лікаря може дати більше ясності.",
+     "ru": "Получение мнения другого врача может дать больше ясности.",
+     "pl": "Uzyskanie drugiej opinii może dać większą jasność.",
+     "de": "Eine Zweitmeinung kann mehr Klarheit bringen.",
+     "fr": "Obtenir un deuxième avis peut apporter plus de clarté.",
+     "es": "Obtener una segunda opinión puede proporcionar más claridad.",
+     "it": "Ottenere un secondo parere può fornire maggiore chiarezza.",
+     "pt": "Obter uma segunda opinião pode oferecer mais clareza.",
+     "tr": "İkinci bir görüş almak daha fazla netlik sağlayabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.over-the-counter",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚ ðə ˈkaʊntɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You can buy this medicine over-the-counter.",
+     "uk": "Цю ліки можна купити без рецепта.",
+     "ru": "Это лекарство можно купить без рецепта.",
+     "pl": "Ten lek można kupić bez recepty.",
+     "de": "Dieses Medikament kann rezeptfrei gekauft werden.",
+     "fr": "Vous pouvez acheter ce médicament sans ordonnance.",
+     "es": "Puedes comprar este medicamento sin receta.",
+     "it": "Puoi acquistare questo medicinale senza ricetta.",
+     "pt": "Você pode comprar este remédio sem receita.",
+     "tr": "Bu ilacı reçetesiz satın alabilirsiniz."
+    },
+    {
+     "en": "Many over-the-counter drugs are effective for minor ailments.",
+     "uk": "Багато ліків без рецепта є ефективними для незначних недуг.",
+     "ru": "Многие безрецептурные препараты эффективны при незначительных недугах.",
+     "pl": "Wiele leków bez recepty jest skutecznych w przypadku drobnych dolegliwości.",
+     "de": "Viele rezeptfreie Medikamente sind wirksam bei geringfügigen Beschwerden.",
+     "fr": "De nombreux médicaments sans ordonnance sont efficaces pour les maux mineurs.",
+     "es": "Muchos medicamentos sin receta son efectivos para dolencias menores.",
+     "it": "Molti farmaci senza ricetta sono efficaci per disturbi minori.",
+     "pt": "Muitos medicamentos sem receita são eficazes para doenças menores.",
+     "tr": "Birçok reçetesiz ilaç, küçük rahatsızlıklar için etkilidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.generic-drug",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/dʒəˈnɛrɪk drʌɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Generic drugs are often cheaper than brand-name ones.",
+     "uk": "Генерики часто дешевші за брендові.",
+     "ru": "Дженерики часто дешевле, чем брендовые.",
+     "pl": "Leki generyczne są często tańsze niż markowe.",
+     "de": "Generika sind oft günstiger als Markenprodukte.",
+     "fr": "Les médicaments génériques sont souvent moins chers que les marques.",
+     "es": "Los medicamentos genéricos suelen ser más baratos que los de marca.",
+     "it": "I farmaci generici sono spesso più economici dei marchi.",
+     "pt": "Os medicamentos genéricos costumam ser mais baratos que os de marca.",
+     "tr": "Jenerik ilaçlar genellikle markalı olanlardan daha ucuzdur."
+    },
+    {
+     "en": "Many doctors recommend generic drugs for their patients.",
+     "uk": "Багато лікарів рекомендують генерики своїм пацієнтам.",
+     "ru": "Многие врачи рекомендуют дженерики своим пациентам.",
+     "pl": "Wielu lekarzy zaleca leki generyczne swoim pacjentom.",
+     "de": "Viele Ärzte empfehlen Generika ihren Patienten.",
+     "fr": "De nombreux médecins recommandent des médicaments génériques à leurs patients.",
+     "es": "Muchos médicos recomiendan medicamentos genéricos a sus pacientes.",
+     "it": "Molti medici raccomandano farmaci generici ai loro pazienti.",
+     "pt": "Muitos médicos recomendam medicamentos genéricos para seus pacientes.",
+     "tr": "Birçok doktor, hastalarına jenerik ilaçları öneriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.contraindication",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˌkɑntrəˌɪndɪˈkeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor explained the contraindication of the medication.",
+     "uk": "Лікар пояснив протипоказання до препарату.",
+     "ru": "Врач объяснил противопоказание к препарату.",
+     "pl": "Lekarz wyjaśnił przeciwwskazanie do leku.",
+     "de": "Der Arzt erklärte die Gegenanzeige des Medikaments.",
+     "fr": "Le médecin a expliqué la contre-indication du médicament.",
+     "es": "El médico explicó la contraindicación del medicamento.",
+     "it": "Il medico ha spiegato la controindicazione del farmaco.",
+     "pt": "O médico explicou a contraindicação do medicamento.",
+     "tr": "Doktor, ilacın kontrendikasyonunu açıkladı."
+    },
+    {
+     "en": "Always check for contraindications before taking new medication.",
+     "uk": "Завжди перевіряйте протипоказання перед прийомом нового препарату.",
+     "ru": "Всегда проверяйте противопоказания перед приемом нового лекарства.",
+     "pl": "Zawsze sprawdzaj przeciwwskazania przed zażyciem nowego leku.",
+     "de": "Überprüfen Sie immer die Gegenanzeigen, bevor Sie neue Medikamente einnehmen.",
+     "fr": "Vérifiez toujours les contre-indications avant de prendre un nouveau médicament.",
+     "es": "Siempre verifique las contraindicaciones antes de tomar un nuevo medicamento.",
+     "it": "Controlla sempre le controindicazioni prima di assumere un nuovo farmaco.",
+     "pt": "Verifique sempre as contraindicações antes de tomar um novo medicamento.",
+     "tr": "Yeni bir ilaç almadan önce her zaman kontrendikasyonları kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.medical-history",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈmɛdəkəl ˈhɪstɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please provide your medical history during the appointment.",
+     "uk": "Будь ласка, надайте вашу історію хвороби під час прийому.",
+     "ru": "Пожалуйста, предоставьте свою историю болезни во время приема.",
+     "pl": "Proszę podać swoją historię choroby podczas wizyty.",
+     "de": "Bitte geben Sie Ihre Krankengeschichte während des Termins an.",
+     "fr": "Veuillez fournir vos antécédents médicaux lors du rendez-vous.",
+     "es": "Por favor, proporcione su historial médico durante la cita.",
+     "it": "Si prega di fornire la propria anamnesi durante l'appuntamento.",
+     "pt": "Por favor, forneça seu histórico médico durante a consulta.",
+     "tr": "Randevu sırasında tıbbi geçmişinizi lütfen belirtin."
+    },
+    {
+     "en": "The doctor reviewed my medical history before the examination.",
+     "uk": "Лікар переглянув мою історію хвороби перед обстеженням.",
+     "ru": "Врач просмотрел мою историю болезни перед обследованием.",
+     "pl": "Lekarz przejrzał moją historię choroby przed badaniem.",
+     "de": "Der Arzt hat meine Krankengeschichte vor der Untersuchung überprüft.",
+     "fr": "Le médecin a examiné mes antécédents médicaux avant l'examen.",
+     "es": "El médico revisó mi historial médico antes del examen.",
+     "it": "Il medico ha esaminato la mia anamnesi prima dell'esame.",
+     "pt": "O médico revisou meu histórico médico antes do exame.",
+     "tr": "Doktor, muayeneden önce tıbbi geçmişimi gözden geçirdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.immune-system",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˌɪˈmjun ˈsɪstəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A healthy diet boosts the immune system significantly.",
+     "uk": "Здорове харчування значно зміцнює імунітет.",
+     "ru": "Здоровое питание значительно укрепляет иммунитет.",
+     "pl": "Zdrowa dieta znacznie wzmacnia układ odpornościowy.",
+     "de": "Eine gesunde Ernährung stärkt das Immunsystem erheblich.",
+     "fr": "Une alimentation saine renforce considérablement le système immunitaire.",
+     "es": "Una dieta saludable refuerza significativamente el sistema inmunológico.",
+     "it": "Una dieta sana rinforza significativamente il sistema immunitario.",
+     "pt": "Uma dieta saudável fortalece significativamente o sistema imunológico.",
+     "tr": "Sağlıklı bir diyet, bağışıklık sistemini önemli ölçüde güçlendirir."
+    },
+    {
+     "en": "Stress can weaken the immune system over time.",
+     "uk": "Стрес може послабити імунітет з часом.",
+     "ru": "Стресс может со временем ослабить иммунитет.",
+     "pl": "Stres może osłabić układ odpornościowy z czasem.",
+     "de": "Stress kann das Immunsystem im Laufe der Zeit schwächen.",
+     "fr": "Le stress peut affaiblir le système immunitaire au fil du temps.",
+     "es": "El estrés puede debilitar el sistema inmunológico con el tiempo.",
+     "it": "Lo stress può indebolire il sistema immunitario nel tempo.",
+     "pt": "O estresse pode enfraquecer o sistema imunológico ao longo do tempo.",
+     "tr": "Stres, zamanla bağışıklık sistemini zayıflatabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.inflammation",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˌɪnfləˈmeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor explained the signs of inflammation.",
+     "uk": "Лікар пояснив ознаки запалення.",
+     "ru": "Доктор объяснил признаки воспаления.",
+     "pl": "Lekarz wyjaśnił objawy stanu zapalnego.",
+     "de": "Der Arzt erklärte die Anzeichen einer Entzündung.",
+     "fr": "Le médecin a expliqué les signes d'inflammation.",
+     "es": "El médico explicó los signos de inflamación.",
+     "it": "Il medico ha spiegato i segni di infiammazione.",
+     "pt": "O médico explicou os sinais de inflamação.",
+     "tr": "Doktor iltihap belirtilerini açıkladı."
+    },
+    {
+     "en": "Inflammation can cause pain and swelling.",
+     "uk": "Запалення може powodować біль і набряк.",
+     "ru": "Воспаление может вызывать боль и отек.",
+     "pl": "Stan zapalny może powodować ból i obrzęk.",
+     "de": "Entzündung kann Schmerzen und Schwellungen verursachen.",
+     "fr": "L'inflammation peut provoquer douleur et gonflement.",
+     "es": "La inflamación puede causar dolor e hinchazón.",
+     "it": "L'infiammazione può causare dolore e gonfiore.",
+     "pt": "A inflamação pode causar dor e inchaço.",
+     "tr": "İltihap ağrı ve şişlik yapabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.contagious",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/kənˈteɪdʒəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The flu is highly contagious in winter.",
+     "uk": "Грип дуже заразний взимку.",
+     "ru": "Грип очень заразный зимой.",
+     "pl": "Grypa jest bardzo zaraźliwa zimą.",
+     "de": "Die Grippe ist im Winter sehr ansteckend.",
+     "fr": "La grippe est très contagieuse en hiver.",
+     "es": "La gripe es muy contagiosa en invierno.",
+     "it": "L'influenza è molto contagiosa in inverno.",
+     "pt": "A gripe é altamente contagiosa no inverno.",
+     "tr": "Grip kışın oldukça bulaşıcıdır."
+    },
+    {
+     "en": "Some skin infections are contagious.",
+     "uk": "Деякі шкірні інфекції заразні.",
+     "ru": "Некоторые кожные инфекции заразны.",
+     "pl": "Niektóre infekcje skórne są zaraźliwe.",
+     "de": "Einige Hautinfektionen sind ansteckend.",
+     "fr": "Certaines infections cutanées sont contagieuses.",
+     "es": "Algunas infecciones de la piel son contagiosas.",
+     "it": "Alcune infezioni cutanee sono contagiose.",
+     "pt": "Algumas infecções de pele são contagiosas.",
+     "tr": "Bazı cilt enfeksiyonları bulaşıcıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-come-down-with",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/kʌm daʊn wɪð/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I think I’m coming down with a cold.",
+     "uk": "Я думаю, що я захворів на застуду.",
+     "ru": "Я думаю, что заболел простудой.",
+     "pl": "Myślę, że zachorowałem na przeziębienie.",
+     "de": "Ich glaube, ich komme mit einer Erkältung herunter.",
+     "fr": "Je pense que je vais attraper un rhume.",
+     "es": "Creo que voy a caer enfermo de un resfriado.",
+     "it": "Penso di ammalarmi di un raffreddore.",
+     "pt": "Acho que vou ficar doente de um resfriado.",
+     "tr": "Sanırım soğuk algınlığına yakalanıyorum."
+    },
+    {
+     "en": "She came down with the flu last week.",
+     "uk": "Вона захворіла на грип минулого тижня.",
+     "ru": "На прошлой неделе она заболела гриппом.",
+     "pl": "Ona zachorowała na grypę w zeszłym tygodniu.",
+     "de": "Sie ist letzte Woche an Grippe erkrankt.",
+     "fr": "Elle a attrapé la grippe la semaine dernière.",
+     "es": "Ella cayó enferma de gripe la semana pasada.",
+     "it": "Lei si è ammalata di influenza la settimana scorsa.",
+     "pt": "Ela ficou doente de gripe na semana passada.",
+     "tr": "Geçen hafta grip oldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.numb",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/nʌm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My fingers feel numb after the cold.",
+     "uk": "Мої пальці оніміли після холоду.",
+     "ru": "Мои пальцы онемели после холода.",
+     "pl": "Moje palce są zdrętwiałe po zimnie.",
+     "de": "Meine Finger sind nach der Kälte taub.",
+     "fr": "Mes doigts sont engourdis après le froid.",
+     "es": "Mis dedos están entumecidos después del frío.",
+     "it": "Le mie dita sono intorpidite dopo il freddo.",
+     "pt": "Meus dedos estão dormentes depois do frio.",
+     "tr": "Parmaklarım soğuktan uyuşmuş hissediyor."
+    },
+    {
+     "en": "He felt numb after hearing the bad news.",
+     "uk": "Він відчув онеміння після поганих новин.",
+     "ru": "Он почув онемение после плохих новостей.",
+     "pl": "Poczuł zdrętwienie po usłyszeniu złych wiadomości.",
+     "de": "Er fühlte sich taub, nachdem er die schlechten Nachrichten gehört hatte.",
+     "fr": "Il s'est senti engourdi après avoir entendu la mauvaise nouvelle.",
+     "es": "Se sintió entumecido tras escuchar las malas noticias.",
+     "it": "Si è sentito intorpidito dopo aver sentito le cattive notizie.",
+     "pt": "Ele se sentiu dormente após ouvir as más notícias.",
+     "tr": "Kötü haberleri duyduktan sonra uyuşmuş hissetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.shortness-of-breath",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/ˈʃɔrtnəs ʌv brɛθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He experienced shortness of breath while running.",
+     "uk": "Він відчував задишку під час бігу.",
+     "ru": "Он испытывал одышку во время бега.",
+     "pl": "On odczuwał duszność podczas biegu.",
+     "de": "Er hatte Atemnot beim Laufen.",
+     "fr": "Il a ressenti un essoufflement en courant.",
+     "es": "Sintió falta de aire mientras corría.",
+     "it": "Ha avvertito fiato corto mentre correva.",
+     "pt": "Ele sentiu falta de ar enquanto corria.",
+     "tr": "Koşarken nefes darlığı yaşadı."
+    },
+    {
+     "en": "Shortness of breath can indicate a serious condition.",
+     "uk": "Задишка може свідчити про серйозний стан.",
+     "ru": "Одышка может указывать на серьезное состояние.",
+     "pl": "Duszność może wskazywać na poważny stan.",
+     "de": "Atemnot kann auf einen ernsten Zustand hinweisen.",
+     "fr": "L'essoufflement peut indiquer une condition grave.",
+     "es": "La falta de aire puede indicar una condición seria.",
+     "it": "Il fiato corto può indicare una condizione seria.",
+     "pt": "A falta de ar pode indicar uma condição grave.",
+     "tr": "Nefes darlığı ciddi bir durumu gösterebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-prescribe",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/prəˈskraɪb/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor will prescribe medication for your condition.",
+     "uk": "Лікар випише ліки для вашого стану.",
+     "ru": "Доктор выпишет лекарства для вашего состояния.",
+     "pl": "Lekarz przepisze leki na twoją dolegliwość.",
+     "de": "Der Arzt wird Medikamente für Ihren Zustand verschreiben.",
+     "fr": "Le médecin va prescrire des médicaments pour votre état.",
+     "es": "El médico recetará medicamentos para su condición.",
+     "it": "Il medico prescriverà farmaci per la tua condizione.",
+     "pt": "O médico vai receitar medicamentos para sua condição.",
+     "tr": "Doktor, durumunuz için ilaç yazacak."
+    },
+    {
+     "en": "She forgot to prescribe the right dosage.",
+     "uk": "Вона забула виписати правильну дозу.",
+     "ru": "Она забыла выписать правильную дозу.",
+     "pl": "Zapomniała przepisać odpowiednią dawkę.",
+     "de": "Sie hat vergessen, die richtige Dosis zu verschreiben.",
+     "fr": "Elle a oublié de prescrire la bonne dose.",
+     "es": "Olvidó recetar la dosis correcta.",
+     "it": "Ha dimenticato di prescrivere il dosaggio corretto.",
+     "pt": "Ela esqueceu de receitar a dosagem correta.",
+     "tr": "Doğru dozu reçete yazmayı unuttu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.physiotherapy",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˌfɪzioʊˈθɛrəpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Physiotherapy helped me recover from my injury.",
+     "uk": "Фізіотерапія допомогла мені відновитися після травми.",
+     "ru": "Физиотерапия помогла мне восстановиться после травмы.",
+     "pl": "Fizjoterapia pomogła mi wrócić do zdrowia po urazie.",
+     "de": "Die Physiotherapie hat mir geholfen, mich von meiner Verletzung zu erholen.",
+     "fr": "La kinésithérapie m'a aidé à me remettre de ma blessure.",
+     "es": "La fisioterapia me ayudó a recuperarme de mi lesión.",
+     "it": "La fisioterapia mi ha aiutato a riprendermi dal mio infortunio.",
+     "pt": "A fisioterapia me ajudou a me recuperar da minha lesão.",
+     "tr": "Fizyoterapi, sakatlığımın üstesinden gelmeme yardımcı oldu."
+    },
+    {
+     "en": "She attends physiotherapy sessions twice a week.",
+     "uk": "Вона відвідує сеанси фізіотерапії два рази на тиждень.",
+     "ru": "Она посещает сеансы физиотерапии два раза в неделю.",
+     "pl": "Ona uczęszcza na sesje fizjoterapii dwa razy w tygodniu.",
+     "de": "Sie besucht zweimal pro Woche Physiotherapie-Sitzungen.",
+     "fr": "Elle assiste à des séances de kinésithérapie deux fois par semaine.",
+     "es": "Asiste a sesiones de fisioterapia dos veces por semana.",
+     "it": "Partecipa a sessioni di fisioterapia due volte a settimana.",
+     "pt": "Ela assiste a sessões de fisioterapia duas vezes por semana.",
+     "tr": "Haftada iki kez fizyoterapi seanslarına katılıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.insomnia",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈsɑmniə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Insomnia can affect your daily life significantly.",
+     "uk": "Безсоння може значно вплинути на ваше повсякденне життя.",
+     "ru": "Бессонница может значительно повлиять на вашу повседневную жизнь.",
+     "pl": "Bezsenność może znacząco wpłynąć na twoje codzienne życie.",
+     "de": "Schlaflosigkeit kann Ihr tägliches Leben erheblich beeinträchtigen.",
+     "fr": "L'insomnie peut affecter votre vie quotidienne de manière significative.",
+     "es": "El insomnio puede afectar significativamente tu vida diaria.",
+     "it": "L'insonnia può influenzare significativamente la tua vita quotidiana.",
+     "pt": "A insônia pode afetar significativamente sua vida diária.",
+     "tr": "Uykusuzluk günlük yaşamınızı önemli ölçüde etkileyebilir."
+    },
+    {
+     "en": "He struggles with insomnia every night.",
+     "uk": "Він бореться з безсонням щоночі.",
+     "ru": "Он борется с бессонницей каждую ночь.",
+     "pl": "On zmaga się z bezsennością każdej nocy.",
+     "de": "Er kämpft jede Nacht mit Schlaflosigkeit.",
+     "fr": "Il lutte contre l'insomnie chaque nuit.",
+     "es": "Él lucha contra el insomnio cada noche.",
+     "it": "Lui lotta contro l'insonnia ogni notte.",
+     "pt": "Ele luta contra a insônia todas as noites.",
+     "tr": "Her gece uykusuzlukla mücadele ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.burnout",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/ˈbɝˌnaʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She experienced burnout after working too many hours.",
+     "uk": "Вона пережила вигорання після роботи занадто багато годин.",
+     "ru": "Она испытала выгорание после слишком долгих часов работы.",
+     "pl": "Doświadczyła wypalenia po zbyt wielu godzinach pracy.",
+     "de": "Sie erlebte einen Burnout, nachdem sie zu viele Stunden gearbeitet hatte.",
+     "fr": "Elle a connu un burn-out après avoir travaillé trop d'heures.",
+     "es": "Experimentó agotamiento después de trabajar demasiadas horas.",
+     "it": "Ha vissuto un burnout dopo aver lavorato troppe ore.",
+     "pt": "Ela experimentou burnout após trabalhar horas demais.",
+     "tr": "Çok fazla çalıştıktan sonra tükenmişlik yaşadı."
+    },
+    {
+     "en": "Burnout can lead to serious health issues.",
+     "uk": "Вигорання може призвести до серйозних проблем зі здоров'ям.",
+     "ru": "Выгорание может привести к серьезным проблемам со здоровьем.",
+     "pl": "Wypalenie może prowadzić do poważnych problemów zdrowotnych.",
+     "de": "Burnout kann zu ernsthaften Gesundheitsproblemen führen.",
+     "fr": "Le burn-out peut entraîner de graves problèmes de santé.",
+     "es": "El agotamiento puede llevar a problemas de salud graves.",
+     "it": "Il burnout può portare a gravi problemi di salute.",
+     "pt": "O burnout pode levar a sérios problemas de saúde.",
+     "tr": "Tükenmişlik ciddi sağlık sorunlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.anxiety",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/æŋˈzaɪəti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She feels anxiety before public speaking.",
+     "uk": "Вона відчуває тривожність перед виступом.",
+     "ru": "Она испытывает тревожность перед публичным выступлением.",
+     "pl": "Ona odczuwa lęk przed wystąpieniami publicznymi.",
+     "de": "Sie fühlt Angstzustände vor öffentlichen Reden.",
+     "fr": "Elle ressent de l'anxiété avant de prendre la parole en public.",
+     "es": "Ella siente ansiedad antes de hablar en público.",
+     "it": "Lei prova ansia prima di parlare in pubblico.",
+     "pt": "Ela sente ansiedade antes de falar em público.",
+     "tr": "Topluluk önünde konuşmadan önce kaygı hissediyor."
+    },
+    {
+     "en": "Anxiety can affect your sleep patterns.",
+     "uk": "Тривожність може вплинути на ваші патерни сну.",
+     "ru": "Тревожность может повлиять на ваши схемы сна.",
+     "pl": "Lęk może wpłynąć na twoje wzorce snu.",
+     "de": "Angstzustände können Ihre Schlafmuster beeinflussen.",
+     "fr": "L'anxiété peut affecter vos habitudes de sommeil.",
+     "es": "La ansiedad puede afectar tus patrones de sueño.",
+     "it": "L'ansia può influenzare i tuoi schemi di sonno.",
+     "pt": "A ansiedade pode afetar seus padrões de sono.",
+     "tr": "Kaygı, uyku düzeninizi etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.therapist",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/ˈθɛrəpəst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I see a therapist every week for support.",
+     "uk": "Я відвідую психотерапевта щотижня для підтримки.",
+     "ru": "Я посещаю психотерапевта каждую неделю для поддержки.",
+     "pl": "Co tydzień chodzę do terapeuty po wsparcie.",
+     "de": "Ich sehe jede Woche einen Therapeuten zur Unterstützung.",
+     "fr": "Je vois un thérapeute chaque semaine pour du soutien.",
+     "es": "Veo a un terapeuta cada semana para apoyo.",
+     "it": "Vedo un terapeuta ogni settimana per supporto.",
+     "pt": "Vejo um terapeuta toda semana para apoio.",
+     "tr": "Her hafta destek için bir terapiste gidiyorum."
+    },
+    {
+     "en": "Finding a good therapist can be challenging.",
+     "uk": "Знайти гарного психотерапевта може бути важко.",
+     "ru": "Найти хорошего психотерапевта может быть трудно.",
+     "pl": "Znalezienie dobrego terapeuty może być trudne.",
+     "de": "Einen guten Therapeuten zu finden, kann herausfordernd sein.",
+     "fr": "Trouver un bon thérapeute peut être difficile.",
+     "es": "Encontrar un buen terapeuta puede ser un desafío.",
+     "it": "Trovare un buon terapeuta può essere difficile.",
+     "pt": "Encontrar um bom terapeuta pode ser desafiador.",
+     "tr": "İyi bir terapist bulmak zor olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-cope-with",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/koʊp wɪð/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I learned how to cope with stress effectively.",
+     "uk": "Я навчився ефективно справлятися з стресом.",
+     "ru": "Я научился эффективно справляться со стрессом.",
+     "pl": "Nauczyłem się efektywnie radzić sobie ze stresem.",
+     "de": "Ich habe gelernt, effektiv mit Stress umzugehen.",
+     "fr": "J'ai appris à faire face au stress de manière efficace.",
+     "es": "Aprendí a lidiar con el estrés de manera efectiva.",
+     "it": "Ho imparato a affrontare lo stress in modo efficace.",
+     "pt": "Aprendi a lidar com o estresse de forma eficaz.",
+     "tr": "Stresle etkili bir şekilde başa çıkmayı öğrendim."
+    },
+    {
+     "en": "It's important to cope with challenges positively.",
+     "uk": "Важливо позитивно справлятися з викликами.",
+     "ru": "Важно позитивно справляться с вызовами.",
+     "pl": "Ważne jest, aby pozytywnie radzić sobie z wyzwaniami.",
+     "de": "Es ist wichtig, positiv mit Herausforderungen umzugehen.",
+     "fr": "Il est important de faire face aux défis de manière positive.",
+     "es": "Es importante lidiar con los desafíos de manera positiva.",
+     "it": "È importante affrontare le sfide in modo positivo.",
+     "pt": "É importante lidar com os desafios de forma positiva.",
+     "tr": "Zorluklarla pozitif bir şekilde başa çıkmak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.metabolism",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/məˈtæbəˌlɪzəm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A fast metabolism helps in weight management.",
+     "uk": "Швидкий обмін речовин допомагає в управлінні вагою.",
+     "ru": "Быстрый обмен веществ помогает в управлении весом.",
+     "pl": "Szybki metabolizm pomaga w zarządzaniu wagą.",
+     "de": "Ein schneller Stoffwechsel hilft beim Gewichtsmanagement.",
+     "fr": "Un métabolisme rapide aide à gérer le poids.",
+     "es": "Un metabolismo rápido ayuda en el control del peso.",
+     "it": "Un metabolismo veloce aiuta nella gestione del peso.",
+     "pt": "Um metabolismo rápido ajuda no controle de peso.",
+     "tr": "Hızlı bir metabolizma kilo yönetimine yardımcı olur."
+    },
+    {
+     "en": "Exercise can boost your metabolism significantly.",
+     "uk": "Фізичні вправи можуть значно прискорити обмін речовин.",
+     "ru": "Упражнения могут значительно ускорить обмен веществ.",
+     "pl": "Ćwiczenia mogą znacznie przyspieszyć metabolizm.",
+     "de": "Bewegung kann Ihren Stoffwechsel erheblich ankurbeln.",
+     "fr": "L'exercice peut augmenter considérablement votre métabolisme.",
+     "es": "El ejercicio puede aumentar significativamente tu metabolismo.",
+     "it": "L'esercizio può aumentare significativamente il tuo metabolismo.",
+     "pt": "O exercício pode aumentar significativamente seu metabolismo.",
+     "tr": "Egzersiz metabolizmanızı önemli ölçüde artırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.protein",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈproʊˌtin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Protein is essential for muscle growth and repair.",
+     "uk": "Білок є необхідним для росту та відновлення м'язів.",
+     "ru": "Белок необходим для роста и восстановления мышц.",
+     "pl": "Białko jest niezbędne do wzrostu i regeneracji mięśni.",
+     "de": "Eiweiß ist wichtig für das Wachstum und die Reparatur von Muskeln.",
+     "fr": "Les protéines sont essentielles à la croissance et à la réparation musculaire.",
+     "es": "La proteína es esencial para el crecimiento y la reparación muscular.",
+     "it": "Le proteine sono essenziali per la crescita e la riparazione muscolare.",
+     "pt": "A proteína é essencial para o crescimento e a reparação muscular.",
+     "tr": "Protein, kas gelişimi ve onarımı için gereklidir."
+    },
+    {
+     "en": "You should include more protein in your diet.",
+     "uk": "Вам слід включити більше білка до свого раціону.",
+     "ru": "Вам следует включить больше белка в свой рацион.",
+     "pl": "Powinieneś włączyć więcej białka do swojej diety.",
+     "de": "Du solltest mehr Eiweiß in deine Ernährung aufnehmen.",
+     "fr": "Vous devriez inclure plus de protéines dans votre alimentation.",
+     "es": "Deberías incluir más proteína en tu dieta.",
+     "it": "Dovresti includere più proteine nella tua dieta.",
+     "pt": "Você deve incluir mais proteína na sua dieta.",
+     "tr": "Daha fazla protein alımını diyetinize eklemelisiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.dehydration",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˌdihaɪˈdreɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Dehydration can lead to serious health issues.",
+     "uk": "Зневоднення може призвести до серйозних проблем зі здоров'ям.",
+     "ru": "Обезвоживание может привести к серьезным проблемам со здоровьем.",
+     "pl": "Odwodnienie może prowadzić do poważnych problemów zdrowotnych.",
+     "de": "Dehydrierung kann zu ernsthaften Gesundheitsproblemen führen.",
+     "fr": "La déshydratation peut entraîner de graves problèmes de santé.",
+     "es": "La deshidratación puede causar problemas de salud graves.",
+     "it": "La disidratazione può portare a gravi problemi di salute.",
+     "pt": "A desidratação pode levar a sérios problemas de saúde.",
+     "tr": "Dehidrasyon, ciddi sağlık sorunlarına yol açabilir."
+    },
+    {
+     "en": "Drink water regularly to avoid dehydration.",
+     "uk": "Пийте воду регулярно, щоб уникнути зневоднення.",
+     "ru": "Пейте воду регулярно, чтобы избежать обезвоживания.",
+     "pl": "Pij wodę regularnie, aby uniknąć odwodnienia.",
+     "de": "Trinke regelmäßig Wasser, um Dehydrierung zu vermeiden.",
+     "fr": "Buvez de l'eau régulièrement pour éviter la déshydratation.",
+     "es": "Bebe agua regularmente para evitar la deshidratación.",
+     "it": "Bevi acqua regolarmente per evitare la disidratazione.",
+     "pt": "Beba água regularmente para evitar a desidratação.",
+     "tr": "Dehidrasyonu önlemek için düzenli olarak su için."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-overdo-it",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˈdu ɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't overdo it at the gym; take breaks.",
+     "uk": "Не перестарайся в спортзалі; роби перерви.",
+     "ru": "Не перестарайтесь в спортзале; делайте перерывы.",
+     "pl": "Nie przesadzaj na siłowni; rób przerwy.",
+     "de": "Übertreibe es nicht im Fitnessstudio; mach Pausen.",
+     "fr": "Ne fais pas trop au gym; prends des pauses.",
+     "es": "No te excedas en el gimnasio; toma descansos.",
+     "it": "Non esagerare in palestra; fai delle pause.",
+     "pt": "Não exagere na academia; faça pausas.",
+     "tr": "Spor salonunda aşırıya kaçma; molalar ver."
+    },
+    {
+     "en": "She tends to overdo it when she cooks.",
+     "uk": "Вона має звичку перестаратися, коли готує.",
+     "ru": "Она склонна перестараться, когда готовит.",
+     "pl": "Ona ma tendencję do przesadzania, gdy gotuje.",
+     "de": "Sie neigt dazu, es beim Kochen zu übertreiben.",
+     "fr": "Elle a tendance à en faire trop quand elle cuisine.",
+     "es": "Tiende a pasarse cuando cocina.",
+     "it": "Tende a esagerare quando cucina.",
+     "pt": "Ela tende a exagerar quando cozinha.",
+     "tr": "Yemek yaparken aşırıya kaçma eğiliminde."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.sedentary-lifestyle",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈsɛdənˌtɛri ˈlaɪfˌstaɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A sedentary lifestyle can lead to health problems.",
+     "uk": "Малорухливий спосіб життя може призвести до проблем зі здоров'ям.",
+     "ru": "Малоподвижный образ жизни может привести к проблемам со здоровьем.",
+     "pl": "Siedzący tryb życia może prowadzić do problemów zdrowotnych.",
+     "de": "Ein sitzender Lebensstil kann zu Gesundheitsproblemen führen.",
+     "fr": "Un mode de vie sédentaire peut entraîner des problèmes de santé.",
+     "es": "Un estilo de vida sedentario puede causar problemas de salud.",
+     "it": "Uno stile di vita sedentario può portare a problemi di salute.",
+     "pt": "Um estilo de vida sedentário pode levar a problemas de saúde.",
+     "tr": "Hareketsiz bir yaşam tarzı sağlık sorunlarına yol açabilir."
+    },
+    {
+     "en": "Try to reduce a sedentary lifestyle by exercising.",
+     "uk": "Спробуйте зменшити малорухливий спосіб життя, займаючись спортом.",
+     "ru": "Попробуйте сократить малоподвижный образ жизни, занимаясь спортом.",
+     "pl": "Spróbuj zmniejszyć siedzący tryb życia poprzez ćwiczenia.",
+     "de": "Versuche, einen sitzenden Lebensstil durch Bewegung zu reduzieren.",
+     "fr": "Essayez de réduire un mode de vie sédentaire en faisant de l'exercice.",
+     "es": "Intenta reducir un estilo de vida sedentario haciendo ejercicio.",
+     "it": "Cerca di ridurre uno stile di vita sedentario facendo esercizio.",
+     "pt": "Tente reduzir um estilo de vida sedentário fazendo exercícios.",
+     "tr": "Hareketsiz yaşam tarzını egzersiz yaparak azaltmaya çalış."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.follow-up-appointment",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˈfɑloʊ ʌp əˈpɔɪntmənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a follow-up appointment next week.",
+     "uk": "У мене повторний прийом наступного тижня.",
+     "ru": "У меня повторный прием на следующей неделе.",
+     "pl": "Mam wizytę kontrolną w przyszłym tygodniu.",
+     "de": "Ich habe nächste Woche einen Nachsorgetermin.",
+     "fr": "J'ai un rendez-vous de suivi la semaine prochaine.",
+     "es": "Tengo una cita de seguimiento la próxima semana.",
+     "it": "Ho una visita di controllo la prossima settimana.",
+     "pt": "Tenho uma consulta de retorno na próxima semana.",
+     "tr": "Gelecek hafta kontrol randevum var."
+    },
+    {
+     "en": "Don't forget your follow-up appointment after treatment.",
+     "uk": "Не забудьте про повторний прийом після лікування.",
+     "ru": "Не забудьте о повторном приеме после лечения.",
+     "pl": "Nie zapomnij o wizycie kontrolnej po leczeniu.",
+     "de": "Vergiss nicht deinen Nachsorgetermin nach der Behandlung.",
+     "fr": "N'oubliez pas votre rendez-vous de suivi après le traitement.",
+     "es": "No olvides tu cita de seguimiento después del tratamiento.",
+     "it": "Non dimenticare la visita di controllo dopo il trattamento.",
+     "pt": "Não se esqueça da sua consulta de retorno após o tratamento.",
+     "tr": "Tedaviden sonra kontrol randevunu unutma."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-diagnose",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ˌdaɪəɡˈnoʊs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor will diagnose the condition after tests.",
+     "uk": "Лікар діагностує стан після обстеження.",
+     "ru": "Доктор поставит диагноз после обследования.",
+     "pl": "Lekarz zdiagnozuje stan po badaniach.",
+     "de": "Der Arzt wird die Erkrankung nach Tests diagnostizieren.",
+     "fr": "Le médecin diagnostiquera l'état après des tests.",
+     "es": "El médico diagnosticará la condición después de las pruebas.",
+     "it": "Il medico diagnosticherà la condizione dopo i test.",
+     "pt": "O médico vai diagnosticar a condição após os testes.",
+     "tr": "Doktor, testlerden sonra durumu teşhis edecek."
+    },
+    {
+     "en": "It's challenging to diagnose complex illnesses.",
+     "uk": "Діагностувати складні захворювання важко.",
+     "ru": "Диагностировать сложные болезни сложно.",
+     "pl": "Trudno zdiagnozować złożone choroby.",
+     "de": "Es ist schwierig, komplexe Krankheiten zu diagnostizieren.",
+     "fr": "Il est difficile de diagnostiquer des maladies complexes.",
+     "es": "Es un desafío diagnosticar enfermedades complejas.",
+     "it": "È difficile diagnosticare malattie complesse.",
+     "pt": "É desafiador diagnosticar doenças complexas.",
+     "tr": "Karmaşık hastalıkları teşhis etmek zordur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-recuperate",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/rɪˈkupɚˌeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It takes time to recuperate from surgery.",
+     "uk": "Після операції потрібно час, щоб оговтатися.",
+     "ru": "После операции нужно время, чтобы поправиться.",
+     "pl": "Potrzebujesz czasu, aby dojść do siebie po operacji.",
+     "de": "Es dauert eine Weile, um sich von der Operation zu erholen.",
+     "fr": "Il faut du temps pour récupérer après une opération.",
+     "es": "Se necesita tiempo para recuperarse de la cirugía.",
+     "it": "Ci vuole tempo per rimettersi dopo un intervento.",
+     "pt": "Leva tempo para se recuperar da cirurgia.",
+     "tr": "Ameliyattan toparlanmak zaman alır."
+    },
+    {
+     "en": "He is slowly starting to recuperate after the illness.",
+     "uk": "Він повільно починає оговтуватися після хвороби.",
+     "ru": "Он медленно начинает поправляться после болезни.",
+     "pl": "Powoli zaczyna dochodzić do siebie po chorobie.",
+     "de": "Er beginnt langsam, sich nach der Krankheit zu erholen.",
+     "fr": "Il commence lentement à récupérer après la maladie.",
+     "es": "Está comenzando a recuperarse lentamente después de la enfermedad.",
+     "it": "Sta lentamente ricominciando a rimettersi dopo la malattia.",
+     "pt": "Ele está começando a se recuperar lentamente após a doença.",
+     "tr": "Hastalığı sonrası yavaş yavaş toparlanmaya başlıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.asymptomatic",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˌeɪˌsɪmptəˈmætɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many patients are asymptomatic during the early stages.",
+     "uk": "Багато пацієнтів безсимптомні на ранніх стадіях.",
+     "ru": "Многие пациенты бессимптомны на ранних стадиях.",
+     "pl": "Wielu pacjentów jest bezobjawowych we wczesnych stadiach.",
+     "de": "Viele Patienten sind asymptomatisch in den frühen Stadien.",
+     "fr": "De nombreux patients sont asymptomatiques au début.",
+     "es": "Muchos pacientes son asintomáticos en las primeras etapas.",
+     "it": "Molti pazienti sono asintomatici nelle fasi iniziali.",
+     "pt": "Muitos pacientes são assintomáticos nos estágios iniciais.",
+     "tr": "Birçok hasta erken aşamalarda asemptomatik."
+    },
+    {
+     "en": "Asymptomatic carriers can still spread the virus.",
+     "uk": "Безсимптомні носії все ще можуть поширювати вірус.",
+     "ru": "Бессимптомные носители все еще могут распространять вирус.",
+     "pl": "Bezobjawowi nosiciele wciąż mogą rozprzestrzeniać wirusa.",
+     "de": "Asymptomatische Träger können das Virus weiterhin verbreiten.",
+     "fr": "Les porteurs asymptomatiques peuvent toujours transmettre le virus.",
+     "es": "Los portadores asintomáticos aún pueden propagar el virus.",
+     "it": "I portatori asintomatici possono ancora diffondere il virus.",
+     "pt": "Os portadores assintomáticos ainda podem espalhar o vírus.",
+     "tr": "Asemptomatik taşıyıcılar hala virüsü yayabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.outbreak",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/ˈaʊtˌbreɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The outbreak of the disease was sudden and alarming.",
+     "uk": "Спалах хвороби був раптовим і тривожним.",
+     "ru": "Вспышка болезни была внезапной и тревожной.",
+     "pl": "Wybuch choroby był nagły i niepokojący.",
+     "de": "Der Ausbruch der Krankheit war plötzlich und alarmierend.",
+     "fr": "L'épidémie de la maladie était soudaine et alarmante.",
+     "es": "El brote de la enfermedad fue repentino y alarmante.",
+     "it": "L'epidemia della malattia è stata improvvisa e allarmante.",
+     "pt": "O surto da doença foi súbito e alarmante.",
+     "tr": "Hastalığın salgını ani ve endişe vericiydi."
+    },
+    {
+     "en": "Health officials responded quickly to the outbreak.",
+     "uk": "Медичні чиновники швидко відреагували на спалах.",
+     "ru": "Здравоохранительные чиновники быстро отреагировали на вспышку.",
+     "pl": "Urzędnicy zdrowia szybko zareagowali na wybuch.",
+     "de": "Die Gesundheitsbehörden reagierten schnell auf den Ausbruch.",
+     "fr": "Les responsables de la santé ont réagi rapidement à l'épidémie.",
+     "es": "Los funcionarios de salud respondieron rápidamente al brote.",
+     "it": "Le autorità sanitarie hanno risposto rapidamente all'epidemia.",
+     "pt": "As autoridades de saúde responderam rapidamente ao surto.",
+     "tr": "Sağlık yetkilileri salgına hızlı bir şekilde yanıt verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.epidemic",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˌɛpəˈdɛmɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The epidemic spread rapidly across the country.",
+     "uk": "Епідемія швидко поширилася по країні.",
+     "ru": "Эпидемия быстро распространилась по стране.",
+     "pl": "Epidemia szybko rozprzestrzeniła się po kraju.",
+     "de": "Die Epidemie breitete sich schnell im ganzen Land aus.",
+     "fr": "L'épidémie s'est propagée rapidement à travers le pays.",
+     "es": "La epidemia se propagó rápidamente por el país.",
+     "it": "L'epidemia si è diffusa rapidamente in tutto il paese.",
+     "pt": "A epidemia se espalhou rapidamente pelo país.",
+     "tr": "Epidemi ülke genelinde hızla yayıldı."
+    },
+    {
+     "en": "Health measures were implemented to control the epidemic.",
+     "uk": "Були вжиті заходи для контролю епідемії.",
+     "ru": "Были приняты меры для контроля эпидемии.",
+     "pl": "Wdrożono środki w celu kontrolowania epidemii.",
+     "de": "Es wurden Maßnahmen ergriffen, um die Epidemie zu kontrollieren.",
+     "fr": "Des mesures de santé ont été mises en œuvre pour contrôler l'épidémie.",
+     "es": "Se implementaron medidas de salud para controlar la epidemia.",
+     "it": "Sono state attuate misure sanitarie per controllare l'epidemia.",
+     "pt": "Foram implementadas medidas de saúde para controlar a epidemia.",
+     "tr": "Epidemiyi kontrol altına almak için sağlık önlemleri alındı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.nutrient",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈnutriənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Vitamins are an essential nutrient for our health.",
+     "uk": "Вітаміни є основною поживною речовиною для нашого здоров'я.",
+     "ru": "Витамины являются важным питательным веществом для нашего здоровья.",
+     "pl": "Witaminy są niezbędnym składnikiem odżywczym dla naszego zdrowia.",
+     "de": "Vitamine sind ein wichtiger Nährstoff für unsere Gesundheit.",
+     "fr": "Les vitamines sont un nutriment essentiel pour notre santé.",
+     "es": "Las vitaminas son un nutriente esencial para nuestra salud.",
+     "it": "Le vitamine sono un nutriente essenziale per la nostra salute.",
+     "pt": "As vitaminas são um nutriente essencial para a nossa saúde.",
+     "tr": "Vitaminler, sağlığımız için temel bir besin maddesidir."
+    },
+    {
+     "en": "A balanced diet provides all necessary nutrients.",
+     "uk": "Збалансоване харчування забезпечує всі необхідні поживні речовини.",
+     "ru": "Сбалансированное питание обеспечивает все необходимые питательные вещества.",
+     "pl": "Zrównoważona dieta dostarcza wszystkich niezbędnych składników odżywczych.",
+     "de": "Eine ausgewogene Ernährung liefert alle notwendigen Nährstoffe.",
+     "fr": "Une alimentation équilibrée fournit tous les nutriments nécessaires.",
+     "es": "Una dieta equilibrada proporciona todos los nutrientes necesarios.",
+     "it": "Una dieta equilibrata fornisce tutti i nutrienti necessari.",
+     "pt": "Uma dieta equilibrada fornece todos os nutrientes necessários.",
+     "tr": "Dengeli bir diyet, gerekli tüm besin maddelerini sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.fibre",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈfaɪbɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Eating fibre helps with digestion and gut health.",
+     "uk": "Вживання клітковини допомагає травленню та здоров'ю кишечника.",
+     "ru": "Употребление клетчатки помогает пищеварению и здоровью кишечника.",
+     "pl": "Spożywanie błonnika pomaga w trawieniu i zdrowiu jelit.",
+     "de": "Ballaststoffe fördern die Verdauung und die Gesundheit des Darms.",
+     "fr": "Manger des fibres aide à la digestion et à la santé intestinale.",
+     "es": "Comer fibra ayuda con la digestión y la salud intestinal.",
+     "it": "Mangiare fibre aiuta la digestione e la salute intestinale.",
+     "pt": "Comer fibra ajuda na digestão e na saúde intestinal.",
+     "tr": "Lif yemek sindirim ve bağırsak sağlığına yardımcı olur."
+    },
+    {
+     "en": "High-fibre foods are beneficial for heart health.",
+     "uk": "Продукти з високим вмістом клітковини корисні для серцевого здоров'я.",
+     "ru": "Продукты с высоким содержанием клетчатки полезны для здоровья сердца.",
+     "pl": "Produkty bogate w błonnik są korzystne dla zdrowia serca.",
+     "de": "Ballaststoffreiche Lebensmittel sind gut für die Herzgesundheit.",
+     "fr": "Les aliments riches en fibres sont bénéfiques pour la santé cardiaque.",
+     "es": "Los alimentos ricos en fibra son beneficiosos para la salud del corazón.",
+     "it": "I cibi ad alto contenuto di fibre sono benefici per la salute del cuore.",
+     "pt": "Alimentos ricos em fibra são benéficos para a saúde do coração.",
+     "tr": "Lif açısından zengin gıdalar kalp sağlığı için faydalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-undergo-surgery",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˌʌndɚˈɡoʊ ˈsɝdʒɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He had to undergo surgery for a serious injury.",
+     "uk": "Йому довелося перенести операцію через серйозну травму.",
+     "ru": "Ему пришлось перенести операцию из-за серьезной травмы.",
+     "pl": "Musiał przejść operację z powodu poważnej kontuzji.",
+     "de": "Er musste sich wegen einer schweren Verletzung operieren lassen.",
+     "fr": "Il a dû subir une opération pour une blessure grave.",
+     "es": "Tuvo que operarse por una lesión grave.",
+     "it": "Ha dovuto operarsi per un infortunio grave.",
+     "pt": "Ele teve que ser operado por uma lesão grave.",
+     "tr": "Ciddi bir yaralanma nedeniyle ameliyat olmak zorunda kaldı."
+    },
+    {
+     "en": "She will undergo surgery next week for her condition.",
+     "uk": "Вона перенесе операцію наступного тижня через свій стан.",
+     "ru": "Она перенесет операцию на следующей неделе из-за своего состояния.",
+     "pl": "Ona przejdzie operację w przyszłym tygodniu z powodu swojego stanu.",
+     "de": "Sie wird nächste Woche wegen ihres Zustands operiert.",
+     "fr": "Elle subira une opération la semaine prochaine pour son état.",
+     "es": "Ella se operará la próxima semana por su condición.",
+     "it": "Lei si opererà la prossima settimana per la sua condizione.",
+     "pt": "Ela será operada na próxima semana devido à sua condição.",
+     "tr": "Durumu nedeniyle gelecek hafta ameliyat olacak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-be-hospitalized",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/bi ˈhɑspɪtəˌlaɪzd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He had to be hospitalized after the accident.",
+     "uk": "Його довелося госпіталізувати після аварії.",
+     "ru": "Его пришлось госпитализировать после аварии.",
+     "pl": "Musiał trafić do szpitala po wypadku.",
+     "de": "Er musste nach dem Unfall ins Krankenhaus kommen.",
+     "fr": "Il a dû être hospitalisé après l'accident.",
+     "es": "Tuvo que ser hospitalizado tras el accidente.",
+     "it": "Ha dovuto essere ricoverato dopo l'incidente.",
+     "pt": "Ele teve que ser internado após o acidente.",
+     "tr": "Kaza sonrası hastaneye yatırılmak zorunda kaldı."
+    },
+    {
+     "en": "She will be hospitalized for further treatment.",
+     "uk": "Її госпіталізують для подальшого лікування.",
+     "ru": "Ее госпитализируют для дальнейшего лечения.",
+     "pl": "Ona trafi do szpitala na dalsze leczenie.",
+     "de": "Sie wird für eine weitere Behandlung ins Krankenhaus kommen.",
+     "fr": "Elle sera hospitalisée pour un traitement supplémentaire.",
+     "es": "Ella será hospitalizada para un tratamiento adicional.",
+     "it": "Lei sarà ricoverata per ulteriori trattamenti.",
+     "pt": "Ela será internada para um tratamento adicional.",
+     "tr": "Daha fazla tedavi için hastaneye yatırılacak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-be-discharged",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/bi dɪsˈtʃɑrdʒd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is expected to be discharged tomorrow.",
+     "uk": "Очікується, що його випишуть завтра.",
+     "ru": "Ожидается, что его выпишут завтра.",
+     "pl": "Oczekuje się, że zostanie wypisany jutro.",
+     "de": "Er wird voraussichtlich morgen entlassen.",
+     "fr": "Il devrait sortir de l'hôpital demain.",
+     "es": "Se espera que reciba el alta mañana.",
+     "it": "Si prevede che venga dimesso domani.",
+     "pt": "Espera-se que tenha alta amanhã.",
+     "tr": "Yarın taburcu olması bekleniyor."
+    },
+    {
+     "en": "After recovery, she will be discharged from the hospital.",
+     "uk": "Після відновлення її випишуть з лікарні.",
+     "ru": "После восстановления её выпишут из больницы.",
+     "pl": "Po wyzdrowieniu zostanie wypisana ze szpitala.",
+     "de": "Nach der Genesung wird sie aus dem Krankenhaus entlassen.",
+     "fr": "Après sa convalescence, elle sortira de l'hôpital.",
+     "es": "Después de recuperarse, será dada de alta del hospital.",
+     "it": "Dopo il recupero, sarà dimessa dall'ospedale.",
+     "pt": "Após a recuperação, ela terá alta do hospital.",
+     "tr": "İyileştikten sonra hastaneden taburcu olacak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.gp",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˌdʒiˈpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to schedule an appointment with my GP.",
+     "uk": "Мені потрібно записатися на прийом до сімейного лікаря.",
+     "ru": "Мне нужно записаться на прием к семейному врачу.",
+     "pl": "Muszę umówić się na wizytę u lekarza rodzinnego.",
+     "de": "Ich muss einen Termin bei meinem Hausarzt vereinbaren.",
+     "fr": "Je dois prendre rendez-vous avec mon médecin généraliste.",
+     "es": "Necesito concertar una cita con mi médico de cabecera.",
+     "it": "Devo prenotare un appuntamento con il mio medico di base.",
+     "pt": "Preciso marcar uma consulta com meu clínico geral.",
+     "tr": "Aile hekimimle randevu almam gerekiyor."
+    },
+    {
+     "en": "My GP recommended a specialist for further tests.",
+     "uk": "Мій сімейний лікар порекомендував спеціаліста для подальших обстежень.",
+     "ru": "Мой семейный врач порекомендовал специалиста для дальнейших анализов.",
+     "pl": "Mój lekarz rodzinny polecił specjalistę do dalszych badań.",
+     "de": "Mein Hausarzt hat einen Spezialisten für weitere Tests empfohlen.",
+     "fr": "Mon médecin généraliste m'a recommandé un spécialiste pour des tests supplémentaires.",
+     "es": "Mi médico de cabecera me recomendó un especialista para más pruebas.",
+     "it": "Il mio medico di base mi ha consigliato uno specialista per ulteriori esami.",
+     "pt": "Meu clínico geral recomendou um especialista para mais testes.",
+     "tr": "Aile hekimim, daha fazla test için bir uzmana yönlendirdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.referral",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/rɪˈfɝəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I received a referral to see a specialist.",
+     "uk": "Я отримав направлення до спеціаліста.",
+     "ru": "Я получил направление к специалисту.",
+     "pl": "Otrzymałem skierowanie do specjalisty.",
+     "de": "Ich habe eine Überweisung zu einem Spezialisten erhalten.",
+     "fr": "J'ai reçu une lettre d'orientation pour voir un spécialiste.",
+     "es": "Recibí una derivación para ver a un especialista.",
+     "it": "Ho ricevuto un'impegnativa per vedere uno specialista.",
+     "pt": "Recebi um encaminhamento para ver um especialista.",
+     "tr": "Bir uzmana gitmek için sevk aldım."
+    },
+    {
+     "en": "The referral process can take some time.",
+     "uk": "Процес направлення може зайняти деякий час.",
+     "ru": "Процесс направления может занять некоторое время.",
+     "pl": "Proces skierowania może zająć trochę czasu.",
+     "de": "Der Überweisungsprozess kann einige Zeit in Anspruch nehmen.",
+     "fr": "Le processus de lettre d'orientation peut prendre du temps.",
+     "es": "El proceso de derivación puede tardar un tiempo.",
+     "it": "Il processo di impegnativa può richiedere del tempo.",
+     "pt": "O processo de encaminhamento pode levar algum tempo.",
+     "tr": "Sevk süreci biraz zaman alabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.mri-scan",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˌɛˌmɑˈraɪ skæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to schedule an MRI scan this week.",
+     "uk": "Мені потрібно записатися на МРТ цього тижня.",
+     "ru": "Мне нужно записаться на МРТ на этой неделе.",
+     "pl": "Muszę umówić się na rezonans magnetyczny w tym tygodniu.",
+     "de": "Ich muss diese Woche ein MRT vereinbaren.",
+     "fr": "Je dois prendre rendez-vous pour une IRM cette semaine.",
+     "es": "Necesito programar una resonancia magnética esta semana.",
+     "it": "Devo prenotare una risonanza magnetica questa settimana.",
+     "pt": "Preciso agendar uma ressonância magnética esta semana.",
+     "tr": "Bu hafta MR çekimi randevusu almam gerekiyor."
+    },
+    {
+     "en": "The doctor recommended an MRI scan for my back pain.",
+     "uk": "Лікар рекомендував зробити МРТ для болю в спині.",
+     "ru": "Доктор рекомендовал МРТ для моей боли в спине.",
+     "pl": "Lekarz zalecił rezonans magnetyczny z powodu bólu pleców.",
+     "de": "Der Arzt empfahl ein MRT wegen meiner Rückenschmerzen.",
+     "fr": "Le médecin a recommandé une IRM pour mon mal de dos.",
+     "es": "El médico recomendó una resonancia magnética para mi dolor de espalda.",
+     "it": "Il medico ha raccomandato una risonanza magnetica per il mio mal di schiena.",
+     "pt": "O médico recomendou uma ressonância magnética para minha dor nas costas.",
+     "tr": "Doktor, sırt ağrım için MR çekimi önerdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.ultrasound",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ˌʌltrəˈsaʊnd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor will perform an ultrasound to check the baby.",
+     "uk": "Лікар зробить УЗД, щоб перевірити дитину.",
+     "ru": "Доктор проведет УЗИ, чтобы проверить ребенка.",
+     "pl": "Lekarz wykona USG, aby sprawdzić dziecko.",
+     "de": "Der Arzt wird einen Ultraschall machen, um das Baby zu überprüfen.",
+     "fr": "Le médecin fera une échographie pour vérifier le bébé.",
+     "es": "El médico realizará una ecografía para revisar al bebé.",
+     "it": "Il medico eseguirà un'ecografia per controllare il bambino.",
+     "pt": "O médico fará um ultrassom para verificar o bebê.",
+     "tr": "Doktor, bebeği kontrol etmek için ultrason yapacak."
+    },
+    {
+     "en": "An ultrasound is needed to diagnose the issue.",
+     "uk": "Необхідно зробити УЗД для діагностики проблеми.",
+     "ru": "Необходимо сделать УЗИ для диагностики проблемы.",
+     "pl": "Potrzebne jest USG do zdiagnozowania problemu.",
+     "de": "Ein Ultraschall ist notwendig, um das Problem zu diagnostizieren.",
+     "fr": "Une échographie est nécessaire pour diagnostiquer le problème.",
+     "es": "Se necesita una ecografía para diagnosticar el problema.",
+     "it": "È necessaria un'ecografia per diagnosticare il problema.",
+     "pt": "Um ultrassom é necessário para diagnosticar o problema.",
+     "tr": "Sorunu teşhis etmek için ultrason gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.blood-sugar",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/blʌd ˈʃʊɡɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She checks her blood sugar every morning.",
+     "uk": "Вона перевіряє цукор у крові щоранку.",
+     "ru": "Она проверяет сахар в крови каждое утро.",
+     "pl": "Ona sprawdza cukier we krwi każdego ranka.",
+     "de": "Sie überprüft ihren Blutzucker jeden Morgen.",
+     "fr": "Elle vérifie sa glycémie chaque matin.",
+     "es": "Ella verifica su azúcar en sangre cada mañana.",
+     "it": "Controlla la sua glicemia ogni mattina.",
+     "pt": "Ela verifica sua glicemia todas as manhãs.",
+     "tr": "Her sabah kan şekerini kontrol ediyor."
+    },
+    {
+     "en": "High blood sugar can lead to serious health issues.",
+     "uk": "Високий цукор у крові може призвести до серйозних проблем зі здоров'ям.",
+     "ru": "Высокий сахар в крови может привести к серьезным проблемам со здоровьем.",
+     "pl": "Wysoki cukier we krwi może prowadzić do poważnych problemów zdrowotnych.",
+     "de": "Hoher Blutzucker kann zu ernsthaften Gesundheitsproblemen führen.",
+     "fr": "Un taux de glycémie élevé peut entraîner de graves problèmes de santé.",
+     "es": "El azúcar en sangre alto puede causar problemas de salud graves.",
+     "it": "Un alto livello di glicemia può portare a gravi problemi di salute.",
+     "pt": "O açúcar no sangue elevado pode causar sérios problemas de saúde.",
+     "tr": "Yüksek kan şekeri ciddi sağlık sorunlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.obesity",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/oʊˈbisəti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Obesity can lead to various health problems.",
+     "uk": "Ожиріння може призвести до різних проблем зі здоров'ям.",
+     "ru": "Ожирение может привести к различным проблемам со здоровьем.",
+     "pl": "Otyłość może prowadzić do różnych problemów zdrowotnych.",
+     "de": "Fettleibigkeit kann zu verschiedenen Gesundheitsproblemen führen.",
+     "fr": "L'obésité peut entraîner divers problèmes de santé.",
+     "es": "La obesidad puede causar varios problemas de salud.",
+     "it": "L'obesità può portare a vari problemi di salute.",
+     "pt": "A obesidade pode levar a vários problemas de saúde.",
+     "tr": "Obezite, çeşitli sağlık sorunlarına yol açabilir."
+    },
+    {
+     "en": "Many countries are struggling with rising obesity rates.",
+     "uk": "Багато країн стикаються з зростанням рівня ожиріння.",
+     "ru": "Многие страны сталкиваются с ростом уровня ожирения.",
+     "pl": "Wiele krajów boryka się z rosnącym poziomem otyłości.",
+     "de": "Viele Länder kämpfen mit steigenden Raten von Fettleibigkeit.",
+     "fr": "De nombreux pays luttent contre l'augmentation des taux d'obésité.",
+     "es": "Muchos países están luchando con el aumento de las tasas de obesidad.",
+     "it": "Molti paesi stanno affrontando l'aumento dei tassi di obesità.",
+     "pt": "Muitos países estão lutando contra o aumento das taxas de obesidade.",
+     "tr": "Birçok ülke, artan obezite oranlarıyla mücadele ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.addiction",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/əˈdɪkʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "His addiction to alcohol is affecting his health.",
+     "uk": "Його залежність від алкоголю впливає на його здоров'я.",
+     "ru": "Его зависимость от алкоголя влияет на его здоровье.",
+     "pl": "Jego uzależnienie od alkoholu wpływa na jego zdrowie.",
+     "de": "Seine Sucht nach Alkohol beeinträchtigt seine Gesundheit.",
+     "fr": "Sa dépendance à l'alcool affecte sa santé.",
+     "es": "Su adicción al alcohol está afectando su salud.",
+     "it": "La sua dipendenza dall'alcol sta influenzando la sua salute.",
+     "pt": "Sua dependência de álcool está afetando sua saúde.",
+     "tr": "Alkol bağımlılığı sağlığını etkiliyor."
+    },
+    {
+     "en": "She is seeking help for her addiction to drugs.",
+     "uk": "Вона шукає допомоги для своєї залежності від наркотиків.",
+     "ru": "Она ищет помощь для своей зависимости от наркотиков.",
+     "pl": "Ona szuka pomocy w związku ze swoim uzależnieniem od narkotyków.",
+     "de": "Sie sucht Hilfe für ihre Sucht nach Drogen.",
+     "fr": "Elle cherche de l'aide pour sa dépendance aux drogues.",
+     "es": "Está buscando ayuda para su adicción a las drogas.",
+     "it": "Sta cercando aiuto per la sua dipendenza da droghe.",
+     "pt": "Ela está buscando ajuda para seu vício em drogas.",
+     "tr": "Uyuşturucu bağımlılığı için yardım arıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.eating-disorder",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈitɪŋ dɪˈsɔrdɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She is recovering from an eating disorder.",
+     "uk": "Вона одужує від розладу харчування.",
+     "ru": "Она восстанавливается после расстройства питания.",
+     "pl": "Ona dochodzi do siebie po zaburzeniu odżywiania.",
+     "de": "Sie erholt sich von einer Essstörung.",
+     "fr": "Elle se remet d'un trouble alimentaire.",
+     "es": "Ella se está recuperando de un trastorno alimentario.",
+     "it": "Si sta riprendendo da un disturbo alimentare.",
+     "pt": "Ela está se recuperando de um transtorno alimentar.",
+     "tr": "O, yeme bozukluğundan iyileşiyor."
+    },
+    {
+     "en": "Eating disorders can have serious health consequences.",
+     "uk": "Розлади харчування можуть мати серйозні наслідки для здоров'я.",
+     "ru": "Расстройства питания могут иметь серьезные последствия для здоровья.",
+     "pl": "Zaburzenia odżywiania mogą mieć poważne konsekwencje zdrowotne.",
+     "de": "Essstörungen können ernsthafte gesundheitliche Folgen haben.",
+     "fr": "Les troubles alimentaires peuvent avoir de graves conséquences sur la santé.",
+     "es": "Los trastornos alimentarios pueden tener graves consecuencias para la salud.",
+     "it": "I disturbi alimentari possono avere gravi conseguenze per la salute.",
+     "pt": "Os transtornos alimentares podem ter sérias consequências para a saúde.",
+     "tr": "Yeme bozuklukları ciddi sağlık sorunlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.depression",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/dɪˈprɛʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is struggling with depression and needs support.",
+     "uk": "Він бореться з депресією і потребує підтримки.",
+     "ru": "Он борется с депрессией и нуждается в поддержке.",
+     "pl": "On zmaga się z depresją i potrzebuje wsparcia.",
+     "de": "Er kämpft mit Depressionen und braucht Unterstützung.",
+     "fr": "Il lutte contre la dépression et a besoin de soutien.",
+     "es": "Él está luchando contra la depresión y necesita apoyo.",
+     "it": "Lui sta combattendo contro la depressione e ha bisogno di supporto.",
+     "pt": "Ele está lutando contra a depressão e precisa de apoio.",
+     "tr": "O, depresyonla mücadele ediyor ve desteğe ihtiyacı var."
+    },
+    {
+     "en": "Depression can affect anyone, regardless of age.",
+     "uk": "Депресія може вплинути на будь-кого, незалежно від віку.",
+     "ru": "Депрессия может затронуть любого, независимо от возраста.",
+     "pl": "Depresja może dotknąć każdego, niezależnie od wieku.",
+     "de": "Depression kann jeden betreffen, unabhängig vom Alter.",
+     "fr": "La dépression peut toucher n'importe qui, quel que soit l'âge.",
+     "es": "La depresión puede afectar a cualquiera, sin importar la edad.",
+     "it": "La depressione può colpire chiunque, indipendentemente dall'età.",
+     "pt": "A depressão pode afetar qualquer pessoa, independentemente da idade.",
+     "tr": "Depresyon, yaşa bakılmaksızın herkesi etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.hay-fever",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/heɪ ˈfivɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I suffer from hay fever every spring.",
+     "uk": "Я страждаю на сінну лихоманку кожної весни.",
+     "ru": "Я страдаю от сенной лихорадки каждую весну.",
+     "pl": "Cierpię na katar sienny każdej wiosny.",
+     "de": "Ich leide jeden Frühling unter Heuschnupfen.",
+     "fr": "Je souffre de rhume des foins chaque printemps.",
+     "es": "Sufro de fiebre del heno cada primavera.",
+     "it": "Soffro di raffreddore da fieno ogni primavera.",
+     "pt": "Sofro de rinite alérgica toda primavera.",
+     "tr": "Her bahar saman nezlesinden muzdarip oluyorum."
+    },
+    {
+     "en": "Hay fever makes me sneeze a lot in summer.",
+     "uk": "Сінна лихоманка змушує мене багато чхати влітку.",
+     "ru": "Сенная лихорадка заставляет меня много чихать летом.",
+     "pl": "Katar sienny sprawia, że dużo kicham latem.",
+     "de": "Heuschnupfen lässt mich im Sommer viel niesen.",
+     "fr": "Le rhume des foins me fait éternuer beaucoup en été.",
+     "es": "La fiebre del heno me hace estornudar mucho en verano.",
+     "it": "Il raffreddore da fieno mi fa starnutire molto in estate.",
+     "pt": "A rinite alérgica me faz espirrar muito no verão.",
+     "tr": "Saman nezlesi yazın çok hapşırmama neden oluyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.posture",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈpɑstʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Good posture is important for back health.",
+     "uk": "Добра постава важлива для здоров'я спини.",
+     "ru": "Хорошая осанка важна для здоровья спины.",
+     "pl": "Dobra postawa jest ważna dla zdrowia pleców.",
+     "de": "Eine gute Körperhaltung ist wichtig für die Rückengesundheit.",
+     "fr": "Une bonne posture est importante pour la santé du dos.",
+     "es": "Una buena postura es importante para la salud de la espalda.",
+     "it": "Una buona postura è importante per la salute della schiena.",
+     "pt": "Uma boa postura é importante para a saúde das costas.",
+     "tr": "İyi bir duruş, sırt sağlığı için önemlidir."
+    },
+    {
+     "en": "She corrected her posture while sitting at the desk.",
+     "uk": "Вона виправила свою поставу, сидячи за столом.",
+     "ru": "Она исправила свою осанку, сидя за столом.",
+     "pl": "Ona poprawiła swoją postawę, siedząc przy biurku.",
+     "de": "Sie korrigierte ihre Körperhaltung, während sie am Schreibtisch saß.",
+     "fr": "Elle a corrigé sa posture en s'asseyant à son bureau.",
+     "es": "Ella corrigió su postura mientras estaba sentada en el escritorio.",
+     "it": "Ha corretto la sua postura mentre era seduta alla scrivania.",
+     "pt": "Ela corrigiu sua postura enquanto estava sentada na mesa.",
+     "tr": "O, masada otururken duruşunu düzeltti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.joint-pain",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/dʒɔɪnt peɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He experiences joint pain after exercising.",
+     "uk": "Він відчуває біль у суглобах після тренування.",
+     "ru": "Он испытывает боль в суставах после тренировки.",
+     "pl": "On odczuwa ból stawów po ćwiczeniach.",
+     "de": "Er hat Gelenkschmerzen nach dem Training.",
+     "fr": "Il ressent des douleurs articulaires après l'exercice.",
+     "es": "Él siente dolor articular después de hacer ejercicio.",
+     "it": "Sente dolori articolari dopo aver fatto esercizio.",
+     "pt": "Ele sente dor nas articulações após o exercício.",
+     "tr": "Egzersiz yaptıktan sonra eklem ağrısı hissediyor."
+    },
+    {
+     "en": "Joint pain can be a sign of arthritis.",
+     "uk": "Біль у суглобах може бути ознакою артриту.",
+     "ru": "Боль в суставах может быть признаком артрита.",
+     "pl": "Ból stawów może być oznaką zapalenia stawów.",
+     "de": "Gelenkschmerzen können ein Zeichen für Arthritis sein.",
+     "fr": "Les douleurs articulaires peuvent être un signe d'arthrite.",
+     "es": "El dolor articular puede ser un signo de artritis.",
+     "it": "Il dolore articolare può essere un segno di artrite.",
+     "pt": "A dor nas articulações pode ser um sinal de artrite.",
+     "tr": "Eklem ağrısı artrit belirtisi olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.booster-shot",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈbustɚ ʃɑt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to get my booster shot soon.",
+     "uk": "Мені потрібно скоро отримати бустерну дозу.",
+     "ru": "Мне нужно скоро сделать бустерную дозу.",
+     "pl": "Muszę wkrótce dostać dawkę przypominającą.",
+     "de": "Ich muss bald meine Auffrischungsimpfung bekommen.",
+     "fr": "Je dois bientôt recevoir ma dose de rappel.",
+     "es": "Necesito recibir mi dosis de refuerzo pronto.",
+     "it": "Devo fare il richiamo presto.",
+     "pt": "Preciso tomar minha dose de reforço em breve.",
+     "tr": "Yakında hatırlatma dozumu yaptırmalıyım."
+    },
+    {
+     "en": "The booster shot enhances your immunity.",
+     "uk": "Бустерна доза підвищує ваш імунітет.",
+     "ru": "Бустерная доза усиливает ваш иммунитет.",
+     "pl": "Dawka przypominająca zwiększa twoją odporność.",
+     "de": "Die Auffrischungsimpfung stärkt Ihre Immunität.",
+     "fr": "La dose de rappel renforce votre immunité.",
+     "es": "La dosis de refuerzo mejora tu inmunidad.",
+     "it": "Il richiamo potenzia la tua immunità.",
+     "pt": "A dose de reforço melhora sua imunidade.",
+     "tr": "Hatırlatma dozu bağışıklığınızı güçlendirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.immunity",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˌɪˈmjunəti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Vaccination helps build immunity against diseases.",
+     "uk": "Вакцинація допомагає формувати імунітет проти хвороб.",
+     "ru": "Вакцинация помогает выработать иммунитет против болезней.",
+     "pl": "Szczepienia pomagają budować odporność na choroby.",
+     "de": "Impfungen helfen, Immunität gegen Krankheiten aufzubauen.",
+     "fr": "La vaccination aide à renforcer l'immunité contre les maladies.",
+     "es": "La vacunación ayuda a construir inmunidad contra enfermedades.",
+     "it": "La vaccinazione aiuta a costruire l'immunità contro le malattie.",
+     "pt": "A vacinação ajuda a construir imunidade contra doenças.",
+     "tr": "Aşılama, hastalıklara karşı bağışıklık kazandırır."
+    },
+    {
+     "en": "Her immunity improved after the booster shot.",
+     "uk": "Її імунітет покращився після бустерної дози.",
+     "ru": "Ее иммунитет улучшился после бустерной дозы.",
+     "pl": "Jej odporność poprawiła się po dawce przypominającej.",
+     "de": "Ihre Immunität verbesserte sich nach der Auffrischungsimpfung.",
+     "fr": "Son immunité s'est améliorée après la dose de rappel.",
+     "es": "Su inmunidad mejoró después de la dosis de refuerzo.",
+     "it": "La sua immunità è migliorata dopo il richiamo.",
+     "pt": "A imunidade dela melhorou após a dose de reforço.",
+     "tr": "Bağışıklığı hatırlatma dozundan sonra arttı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.antibodies",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈæntɪˌbɑdiz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Antibodies help fight infections in the body.",
+     "uk": "Антитіла допомагають боротися з інфекціями в організмі.",
+     "ru": "Антитела помогают бороться с инфекциями в организме.",
+     "pl": "Przeciwciała pomagają w walce z infekcjami w organizmie.",
+     "de": "Antikörper helfen, Infektionen im Körper zu bekämpfen.",
+     "fr": "Les anticorps aident à combattre les infections dans le corps.",
+     "es": "Los anticuerpos ayudan a combatir infecciones en el cuerpo.",
+     "it": "Gli anticorpi aiutano a combattere le infezioni nel corpo.",
+     "pt": "Os anticorpos ajudam a combater infecções no corpo.",
+     "tr": "Antikorlar, vücuttaki enfeksiyonlarla savaşmaya yardımcı olur."
+    },
+    {
+     "en": "The test showed she had enough antibodies.",
+     "uk": "Тест показав, що в неї достатньо антитіл.",
+     "ru": "Тест показал, что у нее достаточно антител.",
+     "pl": "Test pokazał, że ma wystarczającą ilość przeciwciał.",
+     "de": "Der Test zeigte, dass sie genügend Antikörper hatte.",
+     "fr": "Le test a montré qu'elle avait suffisamment d'anticorps.",
+     "es": "La prueba mostró que tenía suficientes anticuerpos.",
+     "it": "Il test ha mostrato che aveva abbastanza anticorpi.",
+     "pt": "O teste mostrou que ela tinha anticorpos suficientes.",
+     "tr": "Test, yeterli antikor olduğunu gösterdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.chronic-pain",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈkrɑnɪk peɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Chronic pain can be difficult to manage daily.",
+     "uk": "Хронічний біль може бути важким для щоденного управління.",
+     "ru": "Хроническая боль может быть трудно управляемой каждый день.",
+     "pl": "Przewlekły ból może być trudny do codziennego zarządzania.",
+     "de": "Chronische Schmerzen können schwer täglich zu bewältigen sein.",
+     "fr": "La douleur chronique peut être difficile à gérer au quotidien.",
+     "es": "El dolor crónico puede ser difícil de manejar a diario.",
+     "it": "Il dolore cronico può essere difficile da gestire quotidianamente.",
+     "pt": "A dor crônica pode ser difícil de gerenciar diariamente.",
+     "tr": "Kronik ağrı, günlük olarak yönetilmesi zor olabilir."
+    },
+    {
+     "en": "She suffers from chronic pain in her back.",
+     "uk": "Вона страждає від хронічного болю в спині.",
+     "ru": "Она страдает от хронической боли в спине.",
+     "pl": "Ona cierpi na przewlekły ból pleców.",
+     "de": "Sie leidet unter chronischen Schmerzen im Rücken.",
+     "fr": "Elle souffre de douleur chronique dans le dos.",
+     "es": "Ella sufre de dolor crónico en la espalda.",
+     "it": "Lei soffre di dolore cronico alla schiena.",
+     "pt": "Ela sofre de dor crônica nas costas.",
+     "tr": "Sırtında kronik ağrıdan muzdarip."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.coma",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈkoʊmə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has been in a coma for two weeks.",
+     "uk": "Він у комі вже два тижні.",
+     "ru": "Он в коме уже две недели.",
+     "pl": "On jest w śpiączce od dwóch tygodni.",
+     "de": "Er liegt seit zwei Wochen im Koma.",
+     "fr": "Il est dans le coma depuis deux semaines.",
+     "es": "Él ha estado en coma durante dos semanas.",
+     "it": "È in coma da due settimane.",
+     "pt": "Ele está em coma há duas semanas.",
+     "tr": "İki haftadır komada."
+    },
+    {
+     "en": "Doctors are hopeful he will wake from the coma.",
+     "uk": "Лікарі сподіваються, що він прокинеться з коми.",
+     "ru": "Врачи надеются, что он выйдет из комы.",
+     "pl": "Lekarze mają nadzieję, że obudzi się ze śpiączki.",
+     "de": "Die Ärzte hoffen, dass er aus dem Koma erwachen wird.",
+     "fr": "Les médecins espèrent qu'il se réveillera du coma.",
+     "es": "Los doctores tienen la esperanza de que él despierte del coma.",
+     "it": "I medici sperano che si svegli dal coma.",
+     "pt": "Os médicos estão esperançosos de que ele acordará do coma.",
+     "tr": "Doktorlar, onun komadan uyanmasını umuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.transplant",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/trænˈsplænt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He received a heart transplant last year.",
+     "uk": "Він отримав пересадку серця минулого року.",
+     "ru": "Он получил пересадку сердца в прошлом году.",
+     "pl": "Otrzymał przeszczep serca w zeszłym roku.",
+     "de": "Er erhielt letztes Jahr eine Herztransplantation.",
+     "fr": "Il a reçu une greffe de cœur l'année dernière.",
+     "es": "Recibió un trasplante de corazón el año pasado.",
+     "it": "Ha ricevuto un trapianto di cuore lo scorso anno.",
+     "pt": "Ele recebeu um transplante de coração no ano passado.",
+     "tr": "Geçen yıl kalp nakli oldu."
+    },
+    {
+     "en": "Organ transplant can save many lives.",
+     "uk": "Пересадка органів може врятувати багато життів.",
+     "ru": "Пересадка органов может спасти много жизней.",
+     "pl": "Przeszczep organów może uratować wiele żyć.",
+     "de": "Eine Organtransplantation kann viele Leben retten.",
+     "fr": "La greffe d'organes peut sauver de nombreuses vies.",
+     "es": "El trasplante de órganos puede salvar muchas vidas.",
+     "it": "Il trapianto di organi può salvare molte vite.",
+     "pt": "O transplante de órgãos pode salvar muitas vidas.",
+     "tr": "Organ nakli birçok hayat kurtarabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.organ-donor",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈɔrɡən ˈdoʊnɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Becoming an organ donor is a generous act.",
+     "uk": "Стати донором органів — це щедрий вчинок.",
+     "ru": "Стать донором органов — это благородный поступок.",
+     "pl": "Zostanie dawcą narządów to hojny czyn.",
+     "de": "Organspender zu werden ist eine großzügige Tat.",
+     "fr": "Devenir donneur d'organes est un acte généreux.",
+     "es": "Convertirse en donante de órganos es un acto generoso.",
+     "it": "Diventare donatore di organi è un atto generoso.",
+     "pt": "Tornar-se um doador de órgãos é um ato generoso.",
+     "tr": "Organ bağışçısı olmak cömert bir eylemdir."
+    },
+    {
+     "en": "Organ donors can help save lives every day.",
+     "uk": "Донори органів можуть допомогти врятувати життя щодня.",
+     "ru": "Доноры органов могут помочь спасти жизни каждый день.",
+     "pl": "Dawcy narządów mogą pomóc uratować życie każdego dnia.",
+     "de": "Organspender können jeden Tag Leben retten.",
+     "fr": "Les donneurs d'organes peuvent sauver des vies chaque jour.",
+     "es": "Los donantes de órganos pueden ayudar a salvar vidas todos los días.",
+     "it": "I donatori di organi possono aiutare a salvare vite ogni giorno.",
+     "pt": "Os doadores de órgãos podem ajudar a salvar vidas todos os dias.",
+     "tr": "Organ bağışçıları her gün hayat kurtarmaya yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.blood-transfusion",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/blʌd trænˈsfjuʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A blood transfusion can be life-saving in emergencies.",
+     "uk": "Переливання крові може врятувати життя в екстрених випадках.",
+     "ru": "Переливание крови может спасти жизнь в экстренных ситуациях.",
+     "pl": "Transfuzja krwi może uratować życie w nagłych wypadkach.",
+     "de": "Eine Bluttransfusion kann in Notfällen lebensrettend sein.",
+     "fr": "Une transfusion sanguine peut sauver des vies en cas d'urgence.",
+     "es": "Una transfusión de sangre puede salvar vidas en emergencias.",
+     "it": "Una trasfusione di sangue può salvare vite in situazioni di emergenza.",
+     "pt": "Uma transfusão de sangue pode salvar vidas em emergências.",
+     "tr": "Kan nakli acil durumlarda hayat kurtarıcı olabilir."
+    },
+    {
+     "en": "She needed a blood transfusion after the accident.",
+     "uk": "Їй знадобилося переливання крові після аварії.",
+     "ru": "Ей потребовалось переливание крови после аварии.",
+     "pl": "Po wypadku potrzebowała transfuzji krwi.",
+     "de": "Sie benötigte nach dem Unfall eine Bluttransfusion.",
+     "fr": "Elle a eu besoin d'une transfusion sanguine après l'accident.",
+     "es": "Necesitó una transfusión de sangre después del accidente.",
+     "it": "Ha avuto bisogno di una trasfusione di sangue dopo l'incidente.",
+     "pt": "Ela precisou de uma transfusão de sangue após o acidente.",
+     "tr": "Kaza sonrası kan nakline ihtiyaç duydu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.biopsy",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈbaɪɑpsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A biopsy is needed to diagnose the condition.",
+     "uk": "Для діагностики стану потрібна біопсія.",
+     "ru": "Для диагностики состояния нужна биопсия.",
+     "pl": "Do zdiagnozowania stanu potrzebna jest biopsja.",
+     "de": "Eine Biopsie ist erforderlich, um den Zustand zu diagnostizieren.",
+     "fr": "Une biopsie est nécessaire pour diagnostiquer l'état.",
+     "es": "Se necesita una biopsia para diagnosticar la condición.",
+     "it": "È necessaria una biopsia per diagnosticare la condizione.",
+     "pt": "Uma biópsia é necessária para diagnosticar a condição.",
+     "tr": "Durumun teşhisi için biyopsi gereklidir."
+    },
+    {
+     "en": "The doctor performed a biopsy to check for cancer.",
+     "uk": "Лікар провів біопсію, щоб перевірити на рак.",
+     "ru": "Доктор провел биопсию, чтобы проверить на рак.",
+     "pl": "Lekarz przeprowadził biopsję, aby sprawdzić pod kątem raka.",
+     "de": "Der Arzt führte eine Biopsie durch, um auf Krebs zu prüfen.",
+     "fr": "Le médecin a effectué une biopsie pour vérifier la présence de cancer.",
+     "es": "El médico realizó una biopsia para verificar si había cáncer.",
+     "it": "Il medico ha eseguito una biopsia per controllare il cancro.",
+     "pt": "O médico fez uma biópsia para verificar se havia câncer.",
+     "tr": "Doktor, kanser olup olmadığını kontrol etmek için biyopsi yaptı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.tumour",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ˈtumɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor found a tumour during the examination.",
+     "uk": "Лікар знайшов пухлину під час обстеження.",
+     "ru": "Врач обнаружил опухоль во время обследования.",
+     "pl": "Lekarz znalazł guz podczas badania.",
+     "de": "Der Arzt fand einen Tumor während der Untersuchung.",
+     "fr": "Le médecin a trouvé une tumeur lors de l'examen.",
+     "es": "El médico encontró un tumor durante el examen.",
+     "it": "Il medico ha trovato un tumore durante l'esame.",
+     "pt": "O médico encontrou um tumor durante o exame.",
+     "tr": "Doktor muayene sırasında bir tümör buldu."
+    },
+    {
+     "en": "He is undergoing treatment for a brain tumour.",
+     "uk": "Він проходить лікування пухлини мозку.",
+     "ru": "Он проходит лечение опухоли мозга.",
+     "pl": "Przechodzi leczenie guza mózgu.",
+     "de": "Er erhält eine Behandlung für einen Tumor im Gehirn.",
+     "fr": "Il suit un traitement pour une tumeur au cerveau.",
+     "es": "Está recibiendo tratamiento para un tumor cerebral.",
+     "it": "Sta seguendo un trattamento per un tumore al cervello.",
+     "pt": "Ele está em tratamento para um tumor cerebral.",
+     "tr": "Beyin tümörü için tedavi görüyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.cancer",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈkænsɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He was diagnosed with cancer last year.",
+     "uk": "Йому поставили діагноз рак минулого року.",
+     "ru": "Ему поставили диагноз рак в прошлом году.",
+     "pl": "Zdiagnozowano u niego raka w zeszłym roku.",
+     "de": "Bei ihm wurde letztes Jahr Krebs diagnostiziert.",
+     "fr": "Il a été diagnostiqué avec un cancer l'année dernière.",
+     "es": "Le diagnosticaron cáncer el año pasado.",
+     "it": "È stato diagnosticato con cancro lo scorso anno.",
+     "pt": "Ele foi diagnosticado com câncer no ano passado.",
+     "tr": "Geçen yıl kanser teşhisi kondu."
+    },
+    {
+     "en": "Cancer treatments can be very challenging.",
+     "uk": "Лікування раку може бути дуже складним.",
+     "ru": "Лечение рака может быть очень сложным.",
+     "pl": "Leczenie raka może być bardzo trudne.",
+     "de": "Krebsbehandlungen können sehr herausfordernd sein.",
+     "fr": "Les traitements du cancer peuvent être très difficiles.",
+     "es": "Los tratamientos contra el cáncer pueden ser muy desafiantes.",
+     "it": "I trattamenti per il cancro possono essere molto impegnativi.",
+     "pt": "Os tratamentos de câncer podem ser muito desafiadores.",
+     "tr": "Kanser tedavileri çok zorlayıcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.chemotherapy",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˌkimoʊˈθɛrəpi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She started chemotherapy to fight her cancer.",
+     "uk": "Вона почала хіміотерапію, щоб боротися з раком.",
+     "ru": "Она начала химиотерапию, чтобы бороться с раком.",
+     "pl": "Zaczęła chemioterapię, aby walczyć z rakiem.",
+     "de": "Sie begann mit der Chemotherapie, um ihren Krebs zu bekämpfen.",
+     "fr": "Elle a commencé la chimiothérapie pour lutter contre son cancer.",
+     "es": "Ella comenzó la quimioterapia para luchar contra su cáncer.",
+     "it": "Ha iniziato la chemioterapia per combattere il suo cancro.",
+     "pt": "Ela começou a quimioterapia para lutar contra seu câncer.",
+     "tr": "Kanseriyle savaşmak için kemoterapiye başladı."
+    },
+    {
+     "en": "Chemotherapy can have various side effects.",
+     "uk": "Хіміотерапія може мати різні побічні ефекти.",
+     "ru": "Химиотерапия может иметь различные побочные эффекты.",
+     "pl": "Chemioterapia może mieć różne skutki uboczne.",
+     "de": "Chemotherapie kann verschiedene Nebenwirkungen haben.",
+     "fr": "La chimiothérapie peut avoir divers effets secondaires.",
+     "es": "La quimioterapia puede tener varios efectos secundarios.",
+     "it": "La chemioterapia può avere vari effetti collaterali.",
+     "pt": "A quimioterapia pode ter vários efeitos colaterais.",
+     "tr": "Kemoterapinin çeşitli yan etkileri olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.pacemaker",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪˌsmeɪkɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He received a pacemaker to regulate his heartbeat.",
+     "uk": "Він отримав кардіостимулятор для регулювання серцебиття.",
+     "ru": "Он получил кардиостимулятор для регулирования сердечного ритма.",
+     "pl": "Otrzymał rozrusznik serca, aby regulować tętno.",
+     "de": "Er erhielt einen Herzschrittmacher, um seinen Herzschlag zu regulieren.",
+     "fr": "Il a reçu un stimulateur cardiaque pour réguler son rythme cardiaque.",
+     "es": "Recibió un marcapasos para regular su ritmo cardíaco.",
+     "it": "Ha ricevuto un pacemaker per regolare il battito cardiaco.",
+     "pt": "Ele recebeu um marca-passo para regular seu batimento cardíaco.",
+     "tr": "Kalp atışını düzenlemek için kalp pili aldı."
+    },
+    {
+     "en": "The pacemaker helps patients with arrhythmia.",
+     "uk": "Кардіостимулятор допомагає пацієнтам з аритмією.",
+     "ru": "Кардиостимулятор помогает пациентам с аритмией.",
+     "pl": "Rozrusznik serca pomaga pacjentom z arytmią.",
+     "de": "Der Herzschrittmacher hilft Patienten mit Arrhythmie.",
+     "fr": "Le stimulateur cardiaque aide les patients souffrant d'arythmie.",
+     "es": "El marcapasos ayuda a los pacientes con arritmia.",
+     "it": "Il pacemaker aiuta i pazienti con aritmia.",
+     "pt": "O marca-passo ajuda pacientes com arritmia.",
+     "tr": "Kalp pili, aritmi hastalarına yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-dislocate",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈdɪsloʊkeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He managed to dislocate his shoulder while playing.",
+     "uk": "Він зміг вивихнути плече під час гри.",
+     "ru": "Он смог вывихнуть плечо во время игры.",
+     "pl": "Udało mu się zwichnąć ramię podczas gry.",
+     "de": "Er schaffte es, sich beim Spielen das Schultergelenk auszurenken.",
+     "fr": "Il a réussi à se démettre l'épaule en jouant.",
+     "es": "Logró dislocarse el hombro mientras jugaba.",
+     "it": "È riuscito a slogarsi la spalla mentre giocava.",
+     "pt": "Ele conseguiu deslocar o ombro enquanto jogava.",
+     "tr": "Oyun oynarken omzunu yerinden çıkarmayı başardı."
+    },
+    {
+     "en": "Be careful not to dislocate your fingers.",
+     "uk": "Будь обережним, щоб не вивихнути пальці.",
+     "ru": "Будь осторожен, чтобы не вывихнуть пальцы.",
+     "pl": "Uważaj, żeby nie zwichnąć palców.",
+     "de": "Sei vorsichtig, dass du dir nicht die Finger ausrenkst.",
+     "fr": "Fais attention à ne pas te démettre les doigts.",
+     "es": "Ten cuidado de no dislocarte los dedos.",
+     "it": "Fai attenzione a non slogarti le dita.",
+     "pt": "Tenha cuidado para não deslocar os dedos.",
+     "tr": "Parmaklarını yerinden çıkarmamak için dikkat et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.slipped-disc",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/slɪpt dɪsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He suffers from a slipped disc in his back.",
+     "uk": "Він страждає від міжхребцевої грижі в спині.",
+     "ru": "Он страдает от межпозвоночной грыжи в спине.",
+     "pl": "Cierpi na wypadnięcie dysku w plecach.",
+     "de": "Er leidet an einem Bandscheibenvorfall im Rücken.",
+     "fr": "Il souffre d'une hernie discale dans le dos.",
+     "es": "Sufre de una hernia discal en la espalda.",
+     "it": "Soffre di un'ernia del disco nella schiena.",
+     "pt": "Ele sofre de uma hérnia de disco nas costas.",
+     "tr": "Sırtında bel fıtığı var."
+    },
+    {
+     "en": "A slipped disc can cause severe pain.",
+     "uk": "Міжхребцева грижа може спричинити сильний біль.",
+     "ru": "Межпозвоночная грыжа может вызвать сильную боль.",
+     "pl": "Wypadnięcie dysku może powodować silny ból.",
+     "de": "Ein Bandscheibenvorfall kann starke Schmerzen verursachen.",
+     "fr": "Une hernie discale peut causer des douleurs sévères.",
+     "es": "Una hernia discal puede causar un dolor intenso.",
+     "it": "Un'ernia del disco può causare dolore severo.",
+     "pt": "Uma hérnia de disco pode causar dor intensa.",
+     "tr": "Bel fıtığı şiddetli ağrıya neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.whiplash",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈwɪˌplæʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She suffered a whiplash after the car accident.",
+     "uk": "Вона отримала хлистову травму після автомобільної аварії.",
+     "ru": "Она получила хлыстовую травму после автомобильной аварии.",
+     "pl": "Doznała urazu kręgosłupa szyjnego po wypadku samochodowym.",
+     "de": "Sie erlitt ein Schleudertrauma nach dem Autounfall.",
+     "fr": "Elle a souffert d'un coup du lapin après l'accident de voiture.",
+     "es": "Sufrió un latigazo cervical tras el accidente de coche.",
+     "it": "Ha subito un colpo di frusta dopo l'incidente automobilistico.",
+     "pt": "Ela sofreu uma lesão cervical após o acidente de carro.",
+     "tr": "Araba kazasından sonra boyun incinmesi yaşadı."
+    },
+    {
+     "en": "Whiplash symptoms can take time to appear.",
+     "uk": "Симптоми хлистової травми можуть з'явитися через деякий час.",
+     "ru": "Симптомы хлыстовой травмы могут появиться через некоторое время.",
+     "pl": "Objawy urazu kręgosłupa szyjnego mogą pojawić się po pewnym czasie.",
+     "de": "Die Symptome eines Schleudertraumas können Zeit brauchen, um aufzutauchen.",
+     "fr": "Les symptômes d'un coup du lapin peuvent mettre du temps à apparaître.",
+     "es": "Los síntomas de un latigazo cervical pueden tardar en aparecer.",
+     "it": "I sintomi di un colpo di frusta possono richiedere tempo per apparire.",
+     "pt": "Os sintomas de uma lesão cervical podem demorar a aparecer.",
+     "tr": "Boyun incinmesi belirtileri ortaya çıkmak için zaman alabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.mobility",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/moʊˈbɪləti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Her mobility improved after physical therapy.",
+     "uk": "Її рухливість покращилася після фізичної терапії.",
+     "ru": "Ее подвижность улучшилась после физической терапии.",
+     "pl": "Jej sprawność ruchowa poprawiła się po fizjoterapii.",
+     "de": "Ihre Beweglichkeit verbesserte sich nach der Physiotherapie.",
+     "fr": "Sa mobilité s'est améliorée après la thérapie physique.",
+     "es": "Su movilidad mejoró después de la fisioterapia.",
+     "it": "La sua mobilità è migliorata dopo la terapia fisica.",
+     "pt": "A mobilidade dela melhorou após a fisioterapia.",
+     "tr": "Fizik tedaviden sonra hareket kabiliyeti gelişti."
+    },
+    {
+     "en": "Regular exercise enhances mobility in older adults.",
+     "uk": "Регулярні фізичні вправи покращують рухливість у літніх людей.",
+     "ru": "Регулярные физические упражнения улучшают подвижность у пожилых людей.",
+     "pl": "Regularne ćwiczenia poprawiają sprawność ruchową u osób starszych.",
+     "de": "Regelmäßige Bewegung verbessert die Beweglichkeit bei älteren Menschen.",
+     "fr": "L'exercice régulier améliore la mobilité des personnes âgées.",
+     "es": "El ejercicio regular mejora la movilidad en los adultos mayores.",
+     "it": "L'esercizio regolare migliora la mobilità negli anziani.",
+     "pt": "O exercício regular melhora a mobilidade em adultos mais velhos.",
+     "tr": "Düzenli egzersiz, yaşlılarda hareket kabiliyetini artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.disability",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˌdɪsəˈbɪlɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She advocates for disability rights and inclusion.",
+     "uk": "Вона виступає за права людей з інвалідністю та їхню інтеграцію.",
+     "ru": "Она выступает за права людей с инвалидностью и их интеграцию.",
+     "pl": "Ona walczy o prawa osób z niepełnosprawnością i ich integrację.",
+     "de": "Sie setzt sich für die Rechte von Menschen mit Behinderung und deren Integration ein.",
+     "fr": "Elle milite pour les droits des personnes en situation de handicap et leur inclusion.",
+     "es": "Ella aboga por los derechos de las personas con discapacidad y su inclusión.",
+     "it": "Lei sostiene i diritti delle persone con disabilità e la loro inclusione.",
+     "pt": "Ela defende os direitos das pessoas com deficiência e sua inclusão.",
+     "tr": "O, engelli bireylerin hakları ve entegrasyonu için savunuculuk yapıyor."
+    },
+    {
+     "en": "Disability can affect anyone at any time.",
+     "uk": "Інвалідність може вразити будь-кого в будь-який час.",
+     "ru": "Инвалидность может затронуть любого в любое время.",
+     "pl": "Niepełnosprawność może dotknąć każdego w dowolnym momencie.",
+     "de": "Behinderung kann jeden jederzeit betreffen.",
+     "fr": "Le handicap peut toucher n'importe qui à tout moment.",
+     "es": "La discapacidad puede afectar a cualquiera en cualquier momento.",
+     "it": "La disabilità può colpire chiunque in qualsiasi momento.",
+     "pt": "A deficiência pode afetar qualquer um a qualquer momento.",
+     "tr": "Engellilik, herkesi herhangi bir zamanda etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.hearing-loss",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈhirɪŋ lɔs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Hearing loss can be gradual over the years.",
+     "uk": "Втрата слуху може бути поступовою протягом років.",
+     "ru": "Потеря слуха может быть постепенной на протяжении многих лет.",
+     "pl": "Utrata słuchu może być stopniowa przez lata.",
+     "de": "Hörverlust kann über die Jahre allmählich auftreten.",
+     "fr": "La perte auditive peut être progressive au fil des ans.",
+     "es": "La pérdida auditiva puede ser gradual a lo largo de los años.",
+     "it": "La perdita dell'udito può essere graduale nel corso degli anni.",
+     "pt": "A perda auditiva pode ser gradual ao longo dos anos.",
+     "tr": "İşitme kaybı yıllar içinde kademeli olabilir."
+    },
+    {
+     "en": "Many factors contribute to hearing loss in adults.",
+     "uk": "Багато факторів сприяють втраті слуху у дорослих.",
+     "ru": "Многие факторы способствуют потере слуха у взрослых.",
+     "pl": "Wiele czynników przyczynia się do utraty słuchu u dorosłych.",
+     "de": "Viele Faktoren tragen zum Hörverlust bei Erwachsenen bei.",
+     "fr": "De nombreux facteurs contribuent à la perte auditive chez les adultes.",
+     "es": "Muchos factores contribuyen a la pérdida auditiva en adultos.",
+     "it": "Molti fattori contribuiscono alla perdita dell'udito negli adulti.",
+     "pt": "Muitos fatores contribuem para a perda auditiva em adultos.",
+     "tr": "Yetişkinlerde işitme kaybına katkıda bulunan birçok faktör vardır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.short-sighted",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ʃɔrt ˈsaɪtɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is short-sighted and needs glasses for reading.",
+     "uk": "Він короткозорий і потребує окулярів для читання.",
+     "ru": "Он близорукий и нуждается в очках для чтения.",
+     "pl": "Jest krótkowzroczny i potrzebuje okularów do czytania.",
+     "de": "Er ist kurzsichtig und braucht eine Brille zum Lesen.",
+     "fr": "Il est myope et a besoin de lunettes pour lire.",
+     "es": "Es miope y necesita gafas para leer.",
+     "it": "È miope e ha bisogno di occhiali per leggere.",
+     "pt": "Ele é míope e precisa de óculos para ler.",
+     "tr": "O, miyop ve okumak için gözlüğe ihtiyaç duyuyor."
+    },
+    {
+     "en": "Short-sighted people may struggle with distant vision.",
+     "uk": "Короткозорі люди можуть мати проблеми з віддаленим зором.",
+     "ru": "Близорукие люди могут испытывать трудности с дальним зрением.",
+     "pl": "Krótkowzroczne osoby mogą mieć trudności z widzeniem na odległość.",
+     "de": "Kurzsichtige Menschen haben möglicherweise Schwierigkeiten mit dem Sehen in der Ferne.",
+     "fr": "Les personnes myopes peuvent avoir des difficultés à voir de loin.",
+     "es": "Las personas miopes pueden tener dificultades para ver de lejos.",
+     "it": "Le persone miope possono avere difficoltà a vedere da lontano.",
+     "pt": "As pessoas míopes podem ter dificuldade em ver de longe.",
+     "tr": "Miyop kişiler uzak görüşte zorluk çekebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.long-sighted",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/lɔŋ ˈsaɪtɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He is long-sighted and needs glasses for reading.",
+     "uk": "Він далекозорий і потребує окулярів для читання.",
+     "ru": "Он дальнозоркий и нуждается в очках для чтения.",
+     "pl": "On jest dalekowzroczny i potrzebuje okularów do czytania.",
+     "de": "Er ist weitsichtig und braucht eine Brille zum Lesen.",
+     "fr": "Il est hypermétrope et a besoin de lunettes pour lire.",
+     "es": "Es hipermétrope y necesita gafas para leer.",
+     "it": "È presbite e ha bisogno di occhiali per leggere.",
+     "pt": "Ele é hipermetrope e precisa de óculos para ler.",
+     "tr": "O hipermetrop ve okumak için gözlüğe ihtiyaç duyuyor."
+    },
+    {
+     "en": "Being long-sighted can make driving difficult at night.",
+     "uk": "Бути далекозорим може ускладнити водіння вночі.",
+     "ru": "Быть дальнозорким может усложнить вождение ночью.",
+     "pl": "Bycie dalekowzrocznym może utrudniać prowadzenie samochodu w nocy.",
+     "de": "Weitsichtigkeit kann das Fahren bei Nacht erschweren.",
+     "fr": "Être hypermétrope peut rendre la conduite difficile la nuit.",
+     "es": "Ser hipermétrope puede dificultar la conducción de noche.",
+     "it": "Essere presbite può rendere difficile guidare di notte.",
+     "pt": "Ser hipermetrope pode dificultar a condução à noite.",
+     "tr": "Hipermetrop olmak, gece sürüşünü zorlaştırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.dementia",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/dɪˈmɛnʃiə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Dementia affects memory and daily functioning.",
+     "uk": "Деменція впливає на пам'ять і щоденне функціонування.",
+     "ru": "Деменция влияет на память и повседневную деятельность.",
+     "pl": "Demencja wpływa na pamięć i codzienne funkcjonowanie.",
+     "de": "Demenz beeinträchtigt das Gedächtnis und die tägliche Funktionsfähigkeit.",
+     "fr": "La démence affecte la mémoire et le fonctionnement quotidien.",
+     "es": "La demencia afecta la memoria y el funcionamiento diario.",
+     "it": "La demenza influisce sulla memoria e sul funzionamento quotidiano.",
+     "pt": "A demência afeta a memória e o funcionamento diário.",
+     "tr": "Demans, hafızayı ve günlük işlevselliği etkiler."
+    },
+    {
+     "en": "Early diagnosis of dementia can improve care options.",
+     "uk": "Рання діагностика деменції може покращити варіанти догляду.",
+     "ru": "Ранняя диагностика деменции может улучшить варианты ухода.",
+     "pl": "Wczesna diagnoza demencji może poprawić opcje opieki.",
+     "de": "Eine frühe Diagnose von Demenz kann die Pflegeoptionen verbessern.",
+     "fr": "Un diagnostic précoce de la démence peut améliorer les options de soins.",
+     "es": "Un diagnóstico temprano de demencia puede mejorar las opciones de cuidado.",
+     "it": "Una diagnosi precoce di demenza può migliorare le opzioni di cura.",
+     "pt": "Um diagnóstico precoce de demência pode melhorar as opções de cuidado.",
+     "tr": "Demansın erken teşhisi bakım seçeneklerini iyileştirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.arthritis",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/ɑrˈθraɪtəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Arthritis can cause joint pain and stiffness.",
+     "uk": "Артрит може викликати біль та скутість в суглобах.",
+     "ru": "Артрит может вызывать боль и скованность в суставах.",
+     "pl": "Zapalenie stawów może powodować ból i sztywność stawów.",
+     "de": "Arthritis kann Gelenkschmerzen und Steifheit verursachen.",
+     "fr": "L'arthrite peut provoquer des douleurs et de la raideur dans les articulations.",
+     "es": "La artritis puede causar dolor y rigidez en las articulaciones.",
+     "it": "L'artrite può causare dolore e rigidità alle articolazioni.",
+     "pt": "A artrite pode causar dor e rigidez nas articulações.",
+     "tr": "Artrit, eklem ağrısına ve sertliğine neden olabilir."
+    },
+    {
+     "en": "Managing arthritis requires regular exercise and medication.",
+     "uk": "Управління артритом вимагає регулярних вправ і медикаментів.",
+     "ru": "Управление артритом требует регулярных физических упражнений и медикаментов.",
+     "pl": "Zarządzanie zapaleniem stawów wymaga regularnych ćwiczeń i leków.",
+     "de": "Die Behandlung von Arthritis erfordert regelmäßige Bewegung und Medikamente.",
+     "fr": "Gérer l'arthrite nécessite de l'exercice régulier et des médicaments.",
+     "es": "Manejar la artritis requiere ejercicio regular y medicación.",
+     "it": "Gestire l'artrite richiede esercizio regolare e farmaci.",
+     "pt": "Gerenciar a artrite requer exercício regular e medicação.",
+     "tr": "Artriti yönetmek, düzenli egzersiz ve ilaç gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.pneumonia",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/nuˈmoʊnjə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Pneumonia can be serious and requires medical attention.",
+     "uk": "Запалення легень може бути серйозним і потребує медичної допомоги.",
+     "ru": "Пневмония может быть серьезной и требует медицинского внимания.",
+     "pl": "Zapalenie płuc może być poważne i wymaga pomocy medycznej.",
+     "de": "Eine Lungenentzündung kann ernst sein und erfordert medizinische Aufmerksamkeit.",
+     "fr": "La pneumonie peut être grave et nécessite une attention médicale.",
+     "es": "La neumonía puede ser grave y requiere atención médica.",
+     "it": "La polmonite può essere grave e richiede assistenza medica.",
+     "pt": "A pneumonia pode ser grave e requer atenção médica.",
+     "tr": "Zatürre ciddi olabilir ve tıbbi müdahale gerektirir."
+    },
+    {
+     "en": "Vaccination can help prevent pneumonia in children.",
+     "uk": "Вакцинація може допомогти запобігти запаленню легень у дітей.",
+     "ru": "Вакцинация может помочь предотвратить пневмонию у детей.",
+     "pl": "Szczepienie może pomóc zapobiec zapaleniu płuc u dzieci.",
+     "de": "Impfungen können helfen, eine Lungenentzündung bei Kindern zu verhindern.",
+     "fr": "La vaccination peut aider à prévenir la pneumonie chez les enfants.",
+     "es": "La vacunación puede ayudar a prevenir la neumonía en los niños.",
+     "it": "La vaccinazione può aiutare a prevenire la polmonite nei bambini.",
+     "pt": "A vacinação pode ajudar a prevenir a pneumonia em crianças.",
+     "tr": "Aşılama, çocuklarda zatürreyi önlemeye yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.bronchitis",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/brɑŋˈkaɪtəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Bronchitis often causes coughing and difficulty breathing.",
+     "uk": "Бронхіт часто викликає кашель і утруднене дихання.",
+     "ru": "Бронхит часто вызывает кашель и затрудненное дыхание.",
+     "pl": "Zapalenie oskrzeli często powoduje kaszel i trudności w oddychaniu.",
+     "de": "Bronchitis verursacht oft Husten und Atembeschwerden.",
+     "fr": "La bronchite provoque souvent de la toux et des difficultés respiratoires.",
+     "es": "La bronquitis a menudo causa tos y dificultad para respirar.",
+     "it": "La bronchite spesso causa tosse e difficoltà respiratorie.",
+     "pt": "A bronquite frequentemente causa tosse e dificuldade para respirar.",
+     "tr": "Bronşit genellikle öksürüğe ve nefes almada zorluğa neden olur."
+    },
+    {
+     "en": "Chronic bronchitis requires long-term treatment and care.",
+     "uk": "Хронічний бронхіт вимагає тривалого лікування та догляду.",
+     "ru": "Хронический бронхит требует длительного лечения и ухода.",
+     "pl": "Przewlekłe zapalenie oskrzeli wymaga długoterminowego leczenia i opieki.",
+     "de": "Chronische Bronchitis erfordert eine langfristige Behandlung und Pflege.",
+     "fr": "La bronchite chronique nécessite un traitement et des soins à long terme.",
+     "es": "La bronquitis crónica requiere tratamiento y cuidado a largo plazo.",
+     "it": "La bronchite cronica richiede un trattamento e una cura a lungo termine.",
+     "pt": "A bronquite crônica requer tratamento e cuidados a longo prazo.",
+     "tr": "Kronik bronşit, uzun vadeli tedavi ve bakım gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.measles",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/ˈmizəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Measles is a contagious disease that can be prevented.",
+     "uk": "Кір — це заразна хвороба, яку можна запобігти.",
+     "ru": "Корь — это заразное заболевание, которому можно предотвратить.",
+     "pl": "Odra to choroba zakaźna, której można zapobiec.",
+     "de": "Masern sind eine ansteckende Krankheit, die verhindert werden kann.",
+     "fr": "La rougeole est une maladie contagieuse qui peut être prévenue.",
+     "es": "El sarampión es una enfermedad contagiosa que se puede prevenir.",
+     "it": "Il morbillo è una malattia contagiosa che può essere prevenuta.",
+     "pt": "O sarampo é uma doença contagiosa que pode ser prevenida.",
+     "tr": "Kızamık, önlenebilir bulaşıcı bir hastalıktır."
+    },
+    {
+     "en": "Vaccination is essential to prevent measles outbreaks.",
+     "uk": "Вакцинація є важливою для запобігання спалахам кору.",
+     "ru": "Вакцинация необходима для предотвращения вспышек кори.",
+     "pl": "Szczepienia są niezbędne do zapobiegania wybuchom odry.",
+     "de": "Impfungen sind entscheidend, um Masernausbrüche zu verhindern.",
+     "fr": "La vaccination est essentielle pour prévenir les épidémies de rougeole.",
+     "es": "La vacunación es esencial para prevenir brotes de sarampión.",
+     "it": "La vaccinazione è essenziale per prevenire focolai di morbillo.",
+     "pt": "A vacinação é essencial para prevenir surtos de sarampo.",
+     "tr": "Aşılama, kızamık salgınlarını önlemek için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.chickenpox",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˈtʃɪkənˌpɑks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Chickenpox is highly contagious and often affects children.",
+     "uk": "Вітряна віспа є дуже заразною і часто вражає дітей.",
+     "ru": "Ветряная оспа очень заразна и часто поражает детей.",
+     "pl": "Ospa wietrzna jest bardzo zaraźliwa i często dotyka dzieci.",
+     "de": "Windpocken sind hoch ansteckend und betreffen oft Kinder.",
+     "fr": "La varicelle est très contagieuse et touche souvent les enfants.",
+     "es": "La varicela es altamente contagiosa y a menudo afecta a los niños.",
+     "it": "La varicella è altamente contagiosa e colpisce spesso i bambini.",
+     "pt": "A catapora é altamente contagiosa e muitas vezes afeta crianças.",
+     "tr": "Su çiçeği son derece bulaşıcıdır ve genellikle çocukları etkiler."
+    },
+    {
+     "en": "Vaccination can prevent chickenpox in healthy individuals.",
+     "uk": "Вакцинація може запобігти вітряній віспі у здорових людей.",
+     "ru": "Вакцинация может предотвратить ветряную оспу у здоровых людей.",
+     "pl": "Szczepienie może zapobiec ospie wietrznej u zdrowych osób.",
+     "de": "Impfungen können Windpocken bei gesunden Personen verhindern.",
+     "fr": "La vaccination peut prévenir la varicelle chez les personnes en bonne santé.",
+     "es": "La vacunación puede prevenir la varicela en personas sanas.",
+     "it": "La vaccinazione può prevenire la varicella in individui sani.",
+     "pt": "A vacinação pode prevenir a catapora em indivíduos saudáveis.",
+     "tr": "Aşılama, sağlıklı bireylerde su çiçeğini önleyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.eczema",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ˈɛksəmə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Eczema can cause itchy and inflamed skin.",
+     "uk": "Екзема може викликати свербіж і запалення шкіри.",
+     "ru": "Экзема может вызывать зуд и воспаление кожи.",
+     "pl": "Egzema może powodować swędzenie i stan zapalny skóry.",
+     "de": "Ekzem kann juckende und entzündete Haut verursachen.",
+     "fr": "L'eczéma peut provoquer des démangeaisons et une peau enflammée.",
+     "es": "El eccema puede causar picazón y piel inflamada.",
+     "it": "L'eczema può causare prurito e pelle infiammata.",
+     "pt": "O eczema pode causar coceira e pele inflamada.",
+     "tr": "Egzama, kaşıntılı ve iltihaplı cilde neden olabilir."
+    },
+    {
+     "en": "Managing eczema requires moisturizing and avoiding triggers.",
+     "uk": "Управління екземою вимагає зволоження та уникнення тригерів.",
+     "ru": "Управление экземой требует увлажнения и избегания триггеров.",
+     "pl": "Zarządzanie egzemą wymaga nawilżania i unikania czynników wyzwalających.",
+     "de": "Die Behandlung von Ekzemen erfordert Befeuchtung und das Vermeiden von Auslösern.",
+     "fr": "Gérer l'eczéma nécessite d'hydrater et d'éviter les déclencheurs.",
+     "es": "Manejar el eccema requiere humectación y evitar desencadenantes.",
+     "it": "Gestire l'eczema richiede idratazione ed evitare i fattori scatenanti.",
+     "pt": "Gerenciar o eczema requer hidratação e evitar gatilhos.",
+     "tr": "Egzamayı yönetmek, nemlendirme ve tetikleyicilerden kaçınmayı gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.acne",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈækni/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Acne is common among teenagers and young adults.",
+     "uk": "Акне є поширеним серед підлітків та молодих людей.",
+     "ru": "Акне распространено среди подростков и молодых людей.",
+     "pl": "Trądzik jest powszechny wśród nastolatków i młodych dorosłych.",
+     "de": "Akne ist häufig bei Teenagern und jungen Erwachsenen.",
+     "fr": "L'acné est courante chez les adolescents et les jeunes adultes.",
+     "es": "El acné es común entre los adolescentes y los jóvenes adultos.",
+     "it": "L'acne è comune tra gli adolescenti e i giovani adulti.",
+     "pt": "A acne é comum entre adolescentes e jovens adultos.",
+     "tr": "Sivilce, ergenler ve genç yetişkinler arasında yaygındır."
+    },
+    {
+     "en": "Treating acne often requires a consistent skincare routine.",
+     "uk": "Лікування акне часто вимагає постійного режиму догляду за шкірою.",
+     "ru": "Лечение акне часто требует постоянного ухода за кожей.",
+     "pl": "Leczenie trądziku często wymaga konsekwentnej rutyny pielęgnacyjnej.",
+     "de": "Die Behandlung von Akne erfordert oft eine konsistente Hautpflegeroutine.",
+     "fr": "Le traitement de l'acné nécessite souvent une routine de soins de la peau.",
+     "es": "El tratamiento del acné a menudo requiere una rutina de cuidado de la piel.",
+     "it": "Il trattamento dell'acne richiede spesso una routine di cura della pelle.",
+     "pt": "O tratamento da acne muitas vezes requer uma rotina consistente de cuidados com a pele.",
+     "tr": "Sivilce tedavisi genellikle tutarlı bir cilt bakım rutini gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.ulcer",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ˈʌlsɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An ulcer can cause severe abdominal pain.",
+     "uk": "Виразка може викликати сильний біль у животі.",
+     "ru": "Язва может вызывать сильную боль в животе.",
+     "pl": "Wrzód może powodować silny ból brzucha.",
+     "de": "Ein Geschwür kann starke Bauchschmerzen verursachen.",
+     "fr": "Un ulcère peut provoquer de fortes douleurs abdominales.",
+     "es": "Una úlcera puede causar un fuerte dolor abdominal.",
+     "it": "Un'ulcera può causare forti dolori addominali.",
+     "pt": "Uma úlcera pode causar dores abdominais intensas.",
+     "tr": "Bir ülser, şiddetli karın ağrısına neden olabilir."
+    },
+    {
+     "en": "Treatment for an ulcer often includes medication and diet changes.",
+     "uk": "Лікування виразки часто включає медикаменти та зміни в дієті.",
+     "ru": "Лечение язвы часто включает в себя медикаменты и изменения в диете.",
+     "pl": "Leczenie wrzodu często obejmuje leki i zmiany w diecie.",
+     "de": "Die Behandlung eines Geschwürs umfasst oft Medikamente und Ernährungsumstellungen.",
+     "fr": "Le traitement d'un ulcère comprend souvent des médicaments et des changements alimentaires.",
+     "es": "El tratamiento de una úlcera a menudo incluye medicamentos y cambios en la dieta.",
+     "it": "Il trattamento di un'ulcera spesso include farmaci e cambiamenti nella dieta.",
+     "pt": "O tratamento de uma úlcera muitas vezes inclui medicamentos e mudanças na dieta.",
+     "tr": "Bir ülserin tedavisi genellikle ilaç ve diyet değişikliklerini içerir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.appendicitis",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/əˌpɛnˌdɪˈsaɪtɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He was diagnosed with appendicitis last week.",
+     "uk": "Йому діагностували апендицит на минулому тижні.",
+     "ru": "У него диагностировали аппендицит на прошлой неделе.",
+     "pl": "Zdiagnozowano u niego zapalenie wyrostka w zeszłym tygodniu.",
+     "de": "Bei ihm wurde letzte Woche Blinddarmentzündung diagnostiziert.",
+     "fr": "Il a été diagnostiqué avec une appendicite la semaine dernière.",
+     "es": "Le diagnosticaron apendicitis la semana pasada.",
+     "it": "È stato diagnosticato con appendicite la settimana scorsa.",
+     "pt": "Ele foi diagnosticado com apendicite na semana passada.",
+     "tr": "Geçen hafta apandisit teşhisi konuldu."
+    },
+    {
+     "en": "Appendicitis can cause severe abdominal pain.",
+     "uk": "Апендицит може викликати сильний біль у животі.",
+     "ru": "Аппендицит может вызывать сильную боль в животе.",
+     "pl": "Zapalenie wyrostka może powodować silny ból brzucha.",
+     "de": "Blinddarmentzündung kann starke Bauchschmerzen verursachen.",
+     "fr": "L'appendicite peut provoquer des douleurs abdominales sévères.",
+     "es": "La apendicitis puede causar un dolor abdominal severo.",
+     "it": "L'appendicite può causare un forte dolore addominale.",
+     "pt": "A apendicite pode causar dor abdominal intensa.",
+     "tr": "Apandisit, şiddetli karın ağrısına neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.hormone",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/ˈhɔrˌmoʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Insulin is a crucial hormone for regulating blood sugar.",
+     "uk": "Інсулін є важливим гормоном для регулювання цукру в крові.",
+     "ru": "Инсулин - это важный гормон для регулирования сахара в крови.",
+     "pl": "Insulina to kluczowy hormon regulujący poziom cukru we krwi.",
+     "de": "Insulin ist ein wichtiges Hormon zur Regulierung des Blutzuckers.",
+     "fr": "L'insuline est une hormone cruciale pour réguler le sucre dans le sang.",
+     "es": "La insulina es una hormona crucial para regular el azúcar en sangre.",
+     "it": "L'insulina è un ormone cruciale per regolare il livello di zucchero nel sangue.",
+     "pt": "A insulina é um hormônio crucial para regular o açúcar no sangue.",
+     "tr": "İnsülin, kan şekerini düzenleyen önemli bir hormondur."
+    },
+    {
+     "en": "Stress can affect hormone levels in the body.",
+     "uk": "Стрес може впливати на рівень гормонів в організмі.",
+     "ru": "Стресс может влиять на уровень гормонов в организме.",
+     "pl": "Stres może wpływać na poziom hormonów w organizmie.",
+     "de": "Stress kann die Hormonspiegel im Körper beeinflussen.",
+     "fr": "Le stress peut affecter les niveaux d'hormones dans le corps.",
+     "es": "El estrés puede afectar los niveles hormonales en el cuerpo.",
+     "it": "Lo stress può influenzare i livelli ormonali nel corpo.",
+     "pt": "O estresse pode afetar os níveis hormonais no corpo.",
+     "tr": "Stres, vücuttaki hormon seviyelerini etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.fertility",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/fɚˈtɪləti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Fertility can be affected by various health factors.",
+     "uk": "На фертильність можуть впливати різні фактори здоров'я.",
+     "ru": "На фертильность могут влиять различные факторы здоровья.",
+     "pl": "Na płodność mogą wpływać różne czynniki zdrowotne.",
+     "de": "Die Fruchtbarkeit kann von verschiedenen Gesundheitsfaktoren beeinflusst werden.",
+     "fr": "La fertilité peut être affectée par divers facteurs de santé.",
+     "es": "La fertilidad puede verse afectada por varios factores de salud.",
+     "it": "La fertilità può essere influenzata da vari fattori di salute.",
+     "pt": "A fertilidade pode ser afetada por vários fatores de saúde.",
+     "tr": "Doğurganlık, çeşitli sağlık faktörlerinden etkilenebilir."
+    },
+    {
+     "en": "Many couples seek help for fertility issues.",
+     "uk": "Багато пар звертаються за допомогою з проблемами фертильності.",
+     "ru": "Многие пары ищут помощь по вопросам фертильности.",
+     "pl": "Wiele par szuka pomocy w kwestiach płodności.",
+     "de": "Viele Paare suchen Hilfe bei Fruchtbarkeitsproblemen.",
+     "fr": "De nombreux couples recherchent de l'aide pour des problèmes de fertilité.",
+     "es": "Muchas parejas buscan ayuda para problemas de fertilidad.",
+     "it": "Molte coppie cercano aiuto per problemi di fertilità.",
+     "pt": "Muitos casais buscam ajuda para problemas de fertilidade.",
+     "tr": "Birçok çift, doğurganlık sorunları için yardım arıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.miscarriage",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/mɪˈskɛrədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She experienced a miscarriage early in her pregnancy.",
+     "uk": "Вона пережила викидень на початку вагітності.",
+     "ru": "Она пережила выкидыш на ранних сроках беременности.",
+     "pl": "Doświadczyła poronienia na początku ciąży.",
+     "de": "Sie hatte eine Fehlgeburt zu Beginn ihrer Schwangerschaft.",
+     "fr": "Elle a fait une fausse couche tôt dans sa grossesse.",
+     "es": "Sufrió un aborto espontáneo al principio de su embarazo.",
+     "it": "Ha subito un aborto spontaneo all'inizio della gravidanza.",
+     "pt": "Ela teve um aborto espontâneo no início da gravidez.",
+     "tr": "Hamileliğinin başında düşük yaptı."
+    },
+    {
+     "en": "Miscarriage can be emotionally challenging for many women.",
+     "uk": "Викидень може бути емоційно важким для багатьох жінок.",
+     "ru": "Выкидыш может быть эмоционально сложным для многих женщин.",
+     "pl": "Poronienie może być emocjonalnie trudne dla wielu kobiet.",
+     "de": "Eine Fehlgeburt kann emotional herausfordernd für viele Frauen sein.",
+     "fr": "Une fausse couche peut être émotionnellement difficile pour de nombreuses femmes.",
+     "es": "Un aborto espontáneo puede ser emocionalmente difícil para muchas mujeres.",
+     "it": "Un aborto spontaneo può essere emotivamente difficile per molte donne.",
+     "pt": "Um aborto espontâneo pode ser emocionalmente desafiador para muitas mulheres.",
+     "tr": "Düşük, birçok kadın için duygusal olarak zorlayıcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.contraception",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/ˌkɑntrəˈsɛpʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Contraception helps prevent unwanted pregnancies.",
+     "uk": "Контрацепція допомагає запобігти небажаній вагітності.",
+     "ru": "Контрацепция помогает предотвратить нежелательную беременность.",
+     "pl": "Antykoncepcja pomaga zapobiegać niechcianym ciążom.",
+     "de": "Verhütung hilft, unerwünschte Schwangerschaften zu verhindern.",
+     "fr": "La contraception aide à prévenir les grossesses non désirées.",
+     "es": "La anticoncepción ayuda a prevenir embarazos no deseados.",
+     "it": "La contraccezione aiuta a prevenire gravidanze indesiderate.",
+     "pt": "A contracepção ajuda a prevenir gestações indesejadas.",
+     "tr": "Doğum kontrolü, istenmeyen gebelikleri önlemeye yardımcı olur."
+    },
+    {
+     "en": "Many people discuss contraception options with their doctors.",
+     "uk": "Багато людей обговорюють варіанти контрацепції зі своїми лікарями.",
+     "ru": "Многие обсуждают варианты контрацепции со своими врачами.",
+     "pl": "Wiele osób omawia opcje antykoncepcyjne ze swoimi lekarzami.",
+     "de": "Viele Menschen besprechen Verhütungsoptionen mit ihren Ärzten.",
+     "fr": "Beaucoup de gens discutent des options de contraception avec leurs médecins.",
+     "es": "Muchas personas discuten las opciones de anticoncepción con sus médicos.",
+     "it": "Molte persone discutono delle opzioni di contraccezione con i loro medici.",
+     "pt": "Muitas pessoas discutem opções de contracepção com seus médicos.",
+     "tr": "Birçok insan, doğum kontrolü seçeneklerini doktorlarıyla tartışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.carbohydrates",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/ˌkɑrboʊˈhaɪdreɪts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Carbohydrates are a primary source of energy for the body.",
+     "uk": "Вуглеводи є основним джерелом енергії для організму.",
+     "ru": "Углеводы являются основным источником энергии для организма.",
+     "pl": "Węglowodany są głównym źródłem energii dla organizmu.",
+     "de": "Kohlenhydrate sind eine primäre Energiequelle für den Körper.",
+     "fr": "Les glucides sont une source d'énergie principale pour le corps.",
+     "es": "Los hidratos de carbono son una fuente principal de energía para el cuerpo.",
+     "it": "I carboidrati sono una fonte primaria di energia per il corpo.",
+     "pt": "Os carboidratos são uma fonte primária de energia para o corpo.",
+     "tr": "Karbonhidratlar, vücut için birincil enerji kaynağıdır."
+    },
+    {
+     "en": "Many diets limit carbohydrate intake for weight loss.",
+     "uk": "Багато дієт обмежують споживання вуглеводів для схуднення.",
+     "ru": "Многие диеты ограничивают потребление углеводов для похудения.",
+     "pl": "Wiele diet ogranicza spożycie węglowodanów w celu utraty wagi.",
+     "de": "Viele Diäten beschränken die Kohlenhydrataufnahme zur Gewichtsreduktion.",
+     "fr": "De nombreux régimes limitent la consommation de glucides pour perdre du poids.",
+     "es": "Muchas dietas limitan la ingesta de hidratos de carbono para perder peso.",
+     "it": "Molte diete limitano l'assunzione di carboidrati per perdere peso.",
+     "pt": "Muitas dietas limitam a ingestão de carboidratos para perda de peso.",
+     "tr": "Birçok diyet, kilo vermek için karbonhidrat alımını sınırlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.saturated-fat",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/ˈsætʃɚˌeɪtɪd fæt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Saturated fat should be consumed in moderation for health.",
+     "uk": "Насичені жири слід вживати в помірних кількостях для здоров'я.",
+     "ru": "Насыщенные жиры следует употреблять в умеренных количествах для здоровья.",
+     "pl": "Tłuszcze nasycone należy spożywać umiarkowanie dla zdrowia.",
+     "de": "Gesättigte Fette sollten in Maßen für die Gesundheit konsumiert werden.",
+     "fr": "Les graisses saturées doivent être consommées avec modération pour la santé.",
+     "es": "Las grasas saturadas deben consumirse con moderación para la salud.",
+     "it": "I grassi saturi devono essere consumati con moderazione per la salute.",
+     "pt": "As gorduras saturadas devem ser consumidas com moderação para a saúde.",
+     "tr": "Doymuş yağlar, sağlık için ölçülü olarak tüketilmelidir."
+    },
+    {
+     "en": "Too much saturated fat can lead to health issues.",
+     "uk": "Занадто багато насичених жирів може призвести до проблем зі здоров'ям.",
+     "ru": "Слишком много насыщенных жиров может привести к проблемам со здоровьем.",
+     "pl": "Zbyt duża ilość tłuszczów nasyconych może prowadzić do problemów zdrowotnych.",
+     "de": "Zu viel gesättigtes Fett kann zu Gesundheitsproblemen führen.",
+     "fr": "Trop de graisses saturées peut entraîner des problèmes de santé.",
+     "es": "Demasiadas grasas saturadas pueden causar problemas de salud.",
+     "it": "Troppe grassi saturi possono portare a problemi di salute.",
+     "pt": "Demasiadas gorduras saturadas podem levar a problemas de saúde.",
+     "tr": "Aşırı doymuş yağ, sağlık sorunlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.fasting",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/ˈfæstɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Fasting can have health benefits when done correctly.",
+     "uk": "Голодування може мати користь для здоров'я, якщо його правильно виконати.",
+     "ru": "Голодание может иметь преимущества для здоровья, если его правильно проводить.",
+     "pl": "Post może przynieść korzyści zdrowotne, jeśli jest prawidłowo przeprowadzany.",
+     "de": "Fasten kann gesundheitliche Vorteile haben, wenn es richtig gemacht wird.",
+     "fr": "Le jeûne peut avoir des bienfaits pour la santé s'il est bien fait.",
+     "es": "El ayuno puede tener beneficios para la salud si se hace correctamente.",
+     "it": "Il digiuno può avere benefici per la salute se fatto correttamente.",
+     "pt": "O jejum pode trazer benefícios à saúde se feito corretamente.",
+     "tr": "Açlık, doğru yapıldığında sağlık yararları sağlayabilir."
+    },
+    {
+     "en": "Many people practice fasting for spiritual reasons.",
+     "uk": "Багато людей практикують голодування з духовних причин.",
+     "ru": "Многие люди практикуют голодание по духовным причинам.",
+     "pl": "Wiele osób praktykuje post z powodów duchowych.",
+     "de": "Viele Menschen praktizieren das Fasten aus spirituellen Gründen.",
+     "fr": "De nombreuses personnes pratiquent le jeûne pour des raisons spirituelles.",
+     "es": "Muchas personas practican el ayuno por razones espirituales.",
+     "it": "Molte persone praticano il digiuno per motivi spirituali.",
+     "pt": "Muitas pessoas praticam o jejum por razões espirituais.",
+     "tr": "Birçok insan, ruhsal nedenlerle açlık yapar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.supplements",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/ˈsʌpləmənts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Many people take vitamin supplements daily for health.",
+     "uk": "Багато людей щодня приймають вітамінні добавки для здоров'я.",
+     "ru": "Многие люди ежедневно принимают витаминные добавки для здоровья.",
+     "pl": "Wiele osób codziennie przyjmuje suplementy witaminowe dla zdrowia.",
+     "de": "Viele Menschen nehmen täglich Vitamine zur Gesundheitsförderung.",
+     "fr": "De nombreuses personnes prennent des compléments vitaminiques quotidiennement pour la santé.",
+     "es": "Muchas personas toman suplementos vitamínicos a diario para la salud.",
+     "it": "Molte persone assumono integratori vitaminici quotidianamente per la salute.",
+     "pt": "Muitas pessoas tomam suplementos vitamínicos diariamente para a saúde.",
+     "tr": "Birçok insan, sağlık için her gün vitamin takviyesi alır."
+    },
+    {
+     "en": "Supplements can help fill nutritional gaps in your diet.",
+     "uk": "Добавки можуть допомогти заповнити харчові дефіцити у вашій дієті.",
+     "ru": "Добавки могут помочь восполнить нехватку питательных веществ в вашем рационе.",
+     "pl": "Suplementy mogą pomóc wypełnić luki żywieniowe w twojej diecie.",
+     "de": "Nahrungsergänzungsmittel können helfen, Nährstofflücken in Ihrer Ernährung zu schließen.",
+     "fr": "Les compléments alimentaires peuvent aider à combler les lacunes nutritionnelles de votre alimentation.",
+     "es": "Los suplementos pueden ayudar a llenar los vacíos nutricionales en tu dieta.",
+     "it": "Gli integratori possono aiutare a colmare le lacune nutrizionali nella tua dieta.",
+     "pt": "Os suplementos podem ajudar a preencher as lacunas nutricionais na sua dieta.",
+     "tr": "Takviyeler, diyetinizdeki besin eksikliklerini gidermeye yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.wellbeing",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˌwɛlˈbiɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Regular exercise contributes to overall wellbeing and health.",
+     "uk": "Регулярні фізичні вправи сприяють загальному добробуту і здоров'ю.",
+     "ru": "Регулярные физические упражнения способствуют общему благополучию и здоровью.",
+     "pl": "Regularne ćwiczenia przyczyniają się do ogólnego dobrego samopoczucia i zdrowia.",
+     "de": "Regelmäßige Bewegung trägt zum allgemeinen Wohlbefinden und zur Gesundheit bei.",
+     "fr": "L'exercice régulier contribue au bien-être et à la santé en général.",
+     "es": "El ejercicio regular contribuye al bienestar y la salud en general.",
+     "it": "L'esercizio regolare contribuisce al benessere e alla salute generale.",
+     "pt": "O exercício regular contribui para o bem-estar e a saúde geral.",
+     "tr": "Düzenli egzersiz, genel esenlik ve sağlığa katkıda bulunur."
+    },
+    {
+     "en": "Mental wellbeing is just as important as physical health.",
+     "uk": "Психічний добробут так само важливий, як і фізичне здоров'я.",
+     "ru": "Психическое благополучие так же важно, как и физическое здоровье.",
+     "pl": "Dobrostan psychiczny jest tak samo ważny, jak zdrowie fizyczne.",
+     "de": "Das psychische Wohlbefinden ist ebenso wichtig wie die körperliche Gesundheit.",
+     "fr": "Le bien-être mental est tout aussi important que la santé physique.",
+     "es": "El bienestar mental es tan importante como la salud física.",
+     "it": "Il benessere mentale è altrettanto importante quanto la salute fisica.",
+     "pt": "O bem-estar mental é tão importante quanto a saúde física.",
+     "tr": "Zihinsel esenlik, fiziksel sağlık kadar önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.self-care",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/sɛlf kɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Self-care is essential for mental well-being.",
+     "uk": "Турбота про себе є важливою для психічного здоров'я.",
+     "ru": "Забота о себе важна для психического здоровья.",
+     "pl": "Dbanie o siebie jest istotne dla zdrowia psychicznego.",
+     "de": "Selbstfürsorge ist wichtig für das psychische Wohlbefinden.",
+     "fr": "Les soins personnels sont essentiels pour le bien-être mental.",
+     "es": "El autocuidado es esencial para el bienestar mental.",
+     "it": "La cura di sé è fondamentale per il benessere mentale.",
+     "pt": "O autocuidado é essencial para o bem-estar mental.",
+     "tr": "Öz bakım, zihinsel sağlık için önemlidir."
+    },
+    {
+     "en": "Practicing self-care can improve your overall health.",
+     "uk": "Практика турботи про себе може покращити ваше загальне здоров'я.",
+     "ru": "Практика заботы о себе может улучшить ваше общее здоровье.",
+     "pl": "Praktykowanie dbania o siebie może poprawić twoje ogólne zdrowie.",
+     "de": "Selbstfürsorge kann Ihre allgemeine Gesundheit verbessern.",
+     "fr": "Pratiquer les soins personnels peut améliorer votre santé globale.",
+     "es": "Practicar el autocuidado puede mejorar tu salud general.",
+     "it": "Praticare la cura di sé può migliorare la tua salute generale.",
+     "pt": "Praticar o autocuidado pode melhorar sua saúde geral.",
+     "tr": "Öz bakım yapmak genel sağlığınızı iyileştirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.panic-attack",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ˈpænɪk əˈtæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She experienced a panic attack during the presentation.",
+     "uk": "Вона пережила панічну атаку під час презентації.",
+     "ru": "У нее произошла паническая атака во время презентации.",
+     "pl": "Doświadczyła ataku paniki podczas prezentacji.",
+     "de": "Sie hatte während der Präsentation eine Panikattacke.",
+     "fr": "Elle a eu une crise de panique pendant la présentation.",
+     "es": "Ella experimentó un ataque de pánico durante la presentación.",
+     "it": "Ha avuto un attacco di panico durante la presentazione.",
+     "pt": "Ela teve um ataque de pânico durante a apresentação.",
+     "tr": "Sunum sırasında panik atak geçirdi."
+    },
+    {
+     "en": "Panic attacks can happen unexpectedly and without warning.",
+     "uk": "Панічні атаки можуть траплятися несподівано і без попередження.",
+     "ru": "Панические атаки могут происходить неожиданно и без предупреждения.",
+     "pl": "Ataki paniki mogą zdarzyć się niespodziewanie i bez ostrzeżenia.",
+     "de": "Panikattacken können unerwartet und ohne Vorwarnung auftreten.",
+     "fr": "Les crises de panique peuvent survenir de manière inattendue.",
+     "es": "Los ataques de pánico pueden ocurrir inesperadamente.",
+     "it": "Gli attacchi di panico possono verificarsi inaspettatamente.",
+     "pt": "Os ataques de pânico podem acontecer inesperadamente.",
+     "tr": "Panik ataklar beklenmedik bir şekilde ortaya çıkabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.counselling",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈkaʊnsəlɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Counselling helped him cope with his anxiety.",
+     "uk": "Консультація допомогла йому впоратися з тривогою.",
+     "ru": "Консультирование помогло ему справиться с тревогой.",
+     "pl": "Poradnictwo psychologiczne pomogło mu poradzić sobie z lękiem.",
+     "de": "Die psychologische Beratung half ihm, mit seiner Angst umzugehen.",
+     "fr": "Le soutien psychologique l'a aidé à faire face à son anxiété.",
+     "es": "La terapia psicológica le ayudó a lidiar con su ansiedad.",
+     "it": "La consulenza psicologica lo ha aiutato a gestire l'ansia.",
+     "pt": "O aconselhamento psicológico o ajudou a lidar com a ansiedade.",
+     "tr": "Psikolojik danışmanlık, kaygısıyla başa çıkmasına yardımcı oldu."
+    },
+    {
+     "en": "She seeks counselling for her emotional struggles.",
+     "uk": "Вона звертається за психологічним консультуванням через свої емоційні труднощі.",
+     "ru": "Она обращается за психологическим консультированием из-за своих эмоциональных трудностей.",
+     "pl": "Ona szuka poradnictwa psychologicznego w związku ze swoimi emocjami.",
+     "de": "Sie sucht psychologische Beratung wegen ihrer emotionalen Probleme.",
+     "fr": "Elle cherche du soutien psychologique pour ses luttes émotionnelles.",
+     "es": "Ella busca terapia psicológica por sus luchas emocionales.",
+     "it": "Cerca consulenza psicologica per le sue difficoltà emotive.",
+     "pt": "Ela procura aconselhamento psicológico para suas dificuldades emocionais.",
+     "tr": "Duygusal zorlukları için psikolojik danışmanlık arıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.psychiatrist",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/səˈkaɪətrəst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The psychiatrist prescribed medication for her condition.",
+     "uk": "Психіатр призначив ліки для її стану.",
+     "ru": "Психиатр назначил лекарства для ее состояния.",
+     "pl": "Psychiatra przepisał leki na jej stan.",
+     "de": "Der Psychiater verschrieb Medikamente für ihren Zustand.",
+     "fr": "Le psychiatre a prescrit des médicaments pour son état.",
+     "es": "El psiquiatra le recetó medicamentos para su condición.",
+     "it": "Lo psichiatra ha prescritto farmaci per la sua condizione.",
+     "pt": "O psiquiatra prescreveu medicamentos para a condição dela.",
+     "tr": "Psikiyatrist, durumu için ilaç yazdı."
+    },
+    {
+     "en": "She visits her psychiatrist every month for therapy.",
+     "uk": "Вона відвідує свого психіатра кожного місяця для терапії.",
+     "ru": "Она посещает своего психиатра каждый месяц для терапии.",
+     "pl": "Ona odwiedza swojego psychiatrę co miesiąc na terapii.",
+     "de": "Sie besucht ihren Psychiater jeden Monat zur Therapie.",
+     "fr": "Elle rend visite à son psychiatre tous les mois pour une thérapie.",
+     "es": "Ella visita a su psiquiatra cada mes para terapia.",
+     "it": "Visita il suo psichiatra ogni mese per terapia.",
+     "pt": "Ela visita seu psiquiatra todo mês para terapia.",
+     "tr": "Her ay terapisi için psikiyatristini ziyaret ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.psychologist",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/saɪˈkɑlədʒəst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The psychologist helped her understand her feelings better.",
+     "uk": "Психолог допоміг їй краще зрозуміти свої почуття.",
+     "ru": "Психолог помог ей лучше понять свои чувства.",
+     "pl": "Psycholog pomógł jej lepiej zrozumieć swoje uczucia.",
+     "de": "Der Psychologe half ihr, ihre Gefühle besser zu verstehen.",
+     "fr": "Le psychologue l'a aidée à mieux comprendre ses émotions.",
+     "es": "El psicólogo le ayudó a entender mejor sus sentimientos.",
+     "it": "Lo psicologo l'ha aiutata a capire meglio i suoi sentimenti.",
+     "pt": "O psicólogo a ajudou a entender melhor seus sentimentos.",
+     "tr": "Psikolog, duygularını daha iyi anlamasına yardımcı oldu."
+    },
+    {
+     "en": "She wants to become a psychologist in the future.",
+     "uk": "Вона хоче стати психологом у майбутньому.",
+     "ru": "Она хочет стать психологом в будущем.",
+     "pl": "Ona chce zostać psychologiem w przyszłości.",
+     "de": "Sie möchte in Zukunft Psychologe werden.",
+     "fr": "Elle veut devenir psychologue à l'avenir.",
+     "es": "Ella quiere convertirse en psicóloga en el futuro.",
+     "it": "Vuole diventare psicologa in futuro.",
+     "pt": "Ela quer se tornar psicóloga no futuro.",
+     "tr": "Gelecekte psikolog olmak istiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.antidepressants",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˌænˌtaɪdɪˈprɛsənts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He takes antidepressants to manage his depression.",
+     "uk": "Він приймає антидепресанти, щоб контролювати свою депресію.",
+     "ru": "Он принимает антидепрессанты для борьбы с депрессией.",
+     "pl": "On bierze leki przeciwdepresyjne, aby radzić sobie z depresją.",
+     "de": "Er nimmt Antidepressiva, um seine Depression zu bewältigen.",
+     "fr": "Il prend des antidépresseurs pour gérer sa dépression.",
+     "es": "Él toma antidepresivos para manejar su depresión.",
+     "it": "Prende antidepressivi per gestire la sua depressione.",
+     "pt": "Ele toma antidepressivos para controlar sua depressão.",
+     "tr": "Depresyonunu yönetmek için antidepresan alıyor."
+    },
+    {
+     "en": "Antidepressants can help improve mood and anxiety.",
+     "uk": "Антидепресанти можуть допомогти покращити настрій і тривогу.",
+     "ru": "Антидепрессанты могут помочь улучшить настроение и тревогу.",
+     "pl": "Leki przeciwdepresyjne mogą pomóc poprawić nastrój i lęk.",
+     "de": "Antidepressiva können helfen, die Stimmung und Angst zu verbessern.",
+     "fr": "Les antidépresseurs peuvent aider à améliorer l'humeur et l'anxiété.",
+     "es": "Los antidepresivos pueden ayudar a mejorar el estado de ánimo y la ansiedad.",
+     "it": "Gli antidepressivi possono aiutare a migliorare l'umore e l'ansia.",
+     "pt": "Os antidepressivos podem ajudar a melhorar o humor e a ansiedade.",
+     "tr": "Antidepresanlar, ruh halini ve kaygıyı iyileştirmeye yardımcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.to-snore",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/snɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He tends to snore loudly at night.",
+     "uk": "Він схильний хропіти вночі.",
+     "ru": "Он склонен храпеть по ночам.",
+     "pl": "On ma tendencję do głośnego chrapania w nocy.",
+     "de": "Er neigt dazu, nachts laut zu schnarchen.",
+     "fr": "Il a tendance à ronfler bruyamment la nuit.",
+     "es": "Tiende a roncar fuerte por la noche.",
+     "it": "Tende a russare forte di notte.",
+     "pt": "Ele tende a roncar alto à noite.",
+     "tr": "Gece yüksek sesle horlamaya meyilli."
+    },
+    {
+     "en": "She woke up because her partner snores.",
+     "uk": "Вона прокинулася, бо її партнер хропе.",
+     "ru": "Она проснулась, потому что ее партнер храпит.",
+     "pl": "Obudziła się, ponieważ jej partner chrapie.",
+     "de": "Sie wachte auf, weil ihr Partner schnarcht.",
+     "fr": "Elle s'est réveillée parce que son partenaire ronfle.",
+     "es": "Se despertó porque su pareja ronca.",
+     "it": "Si è svegliata perché il suo partner russa.",
+     "pt": "Ela acordou porque seu parceiro ronca.",
+     "tr": "Eşi horladığı için uyandı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.fatigue",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/fəˈtiɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Fatigue can affect your concentration and performance.",
+     "uk": "Втома може вплинути на вашу концентрацію та продуктивність.",
+     "ru": "Усталость может повлиять на вашу концентрацию и производительность.",
+     "pl": "Zmęczenie może wpływać na twoją koncentrację i wydajność.",
+     "de": "Erschöpfung kann Ihre Konzentration und Leistung beeinträchtigen.",
+     "fr": "La fatigue peut affecter votre concentration et vos performances.",
+     "es": "La fatiga puede afectar tu concentración y rendimiento.",
+     "it": "La fatica può influenzare la tua concentrazione e prestazioni.",
+     "pt": "A fadiga pode afetar sua concentração e desempenho.",
+     "tr": "Yorgunluk, konsantrasyonunuzu ve performansınızı etkileyebilir."
+    },
+    {
+     "en": "He felt extreme fatigue after the long hike.",
+     "uk": "Він відчував сильну втому після довгого походу.",
+     "ru": "Он чувствовал сильную усталость после долгого похода.",
+     "pl": "Czuł ogromne zmęczenie po długiej wędrówce.",
+     "de": "Er fühlte extreme Erschöpfung nach der langen Wanderung.",
+     "fr": "Il a ressenti une fatigue extrême après la longue randonnée.",
+     "es": "Sintió una fatiga extrema después de la larga caminata.",
+     "it": "Ha avvertito una fatica estrema dopo l'escursione.",
+     "pt": "Ele sentiu uma fadiga extrema após a longa caminhada.",
+     "tr": "Uzun yürüyüşten sonra aşırı yorgunluk hissetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.bedridden",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/ˈbɛˌdrɪdən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He has been bedridden for weeks due to illness.",
+     "uk": "Він був прикутий до ліжка протягом тижнів через хворобу.",
+     "ru": "Он был прикован к постели неделями из-за болезни.",
+     "pl": "Był przykuty do łóżka przez tygodnie z powodu choroby.",
+     "de": "Er war wegen Krankheit wochenlang bettlägerig.",
+     "fr": "Il a été alité pendant des semaines à cause de sa maladie.",
+     "es": "Ha estado postrado en cama durante semanas debido a una enfermedad.",
+     "it": "È stato costretto a letto per settimane a causa di una malattia.",
+     "pt": "Ele ficou acamado por semanas devido a uma doença.",
+     "tr": "Hastalığı nedeniyle haftalarca yatalak kaldı."
+    },
+    {
+     "en": "Being bedridden can be very challenging for patients.",
+     "uk": "Бути прикутим до ліжка може бути дуже важко для пацієнтів.",
+     "ru": "Быть прикованным к постели может быть очень сложно для пациентов.",
+     "pl": "Bycie przykuty do łóżka może być bardzo trudne dla pacjentów.",
+     "de": "Bettlägerigkeit kann für Patienten sehr herausfordernd sein.",
+     "fr": "Être alité peut être très difficile pour les patients.",
+     "es": "Estar postrado en cama puede ser muy desafiante para los pacientes.",
+     "it": "Essere costretti a letto può essere molto difficile per i pazienti.",
+     "pt": "Estar acamado pode ser muito desafiador para os pacientes.",
+     "tr": "Yatalak olmak, hastalar için çok zorlayıcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "health.anaemia",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/əˈnimiə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She was diagnosed with anaemia last month.",
+     "uk": "Їй поставили діагноз анемії минулого місяця.",
+     "ru": "Ей поставили диагноз анемия в прошлом месяце.",
+     "pl": "Zdiagnozowano u niej anemię w zeszłym miesiącu.",
+     "de": "Bei ihr wurde letzten Monat Anämie diagnostiziert.",
+     "fr": "Elle a été diagnostiquée avec une anémie le mois dernier.",
+     "es": "Le diagnosticaron anemia el mes pasado.",
+     "it": "Le è stata diagnosticata anemia il mese scorso.",
+     "pt": "Ela foi diagnosticada com anemia no mês passado.",
+     "tr": "Geçen ay anemi teşhisi konuldu."
+    },
+    {
+     "en": "Anaemia can cause fatigue and weakness.",
+     "uk": "Анемія може викликати втому та слабкість.",
+     "ru": "Анемия может вызвать усталость и слабость.",
+     "pl": "Anemia może powodować zmęczenie i osłabienie.",
+     "de": "Anämie kann Müdigkeit und Schwäche verursachen.",
+     "fr": "L'anémie peut provoquer de la fatigue et de la faiblesse.",
+     "es": "La anemia puede causar fatiga y debilidad.",
+     "it": "L'anemia può causare affaticamento e debolezza.",
+     "pt": "A anemia pode causar fadiga e fraqueza.",
+     "tr": "Anemi, yorgunluk ve zayıflığa neden olabilir."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

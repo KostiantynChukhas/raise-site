@@ -2,7 +2,7 @@
  "id": "shopping-a1",
  "topic": "shopping",
  "level": "a1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "shopping.bank-card",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/bæŋk kɑrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I paid with my bank card.",
+     "uk": "Я заплатив банківською карткою.",
+     "ru": "Я заплатил банковской картой.",
+     "pl": "Zapłaciłem kartą płatniczą.",
+     "de": "Ich habe mit meiner Bankkarte bezahlt.",
+     "fr": "J'ai payé avec ma carte bancaire.",
+     "es": "Pagué con mi tarjeta bancaria.",
+     "it": "Ho pagato con la mia carta bancaria.",
+     "pt": "Eu paguei com meu cartão.",
+     "tr": "Banka kartımla ödedim."
+    },
+    {
+     "en": "Do you have a bank card?",
+     "uk": "У тебе є банківська картка?",
+     "ru": "У тебя есть банковская карта?",
+     "pl": "Czy masz kartę płatniczą?",
+     "de": "Hast du eine Bankkarte?",
+     "fr": "As-tu une carte bancaire?",
+     "es": "¿Tienes una tarjeta bancaria?",
+     "it": "Hai una carta bancaria?",
+     "pt": "Você tem um cartão?",
+     "tr": "Bir banka kartın var mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.supermarket",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/ˈsupɚˌmɑrkɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to the supermarket every week.",
+     "uk": "Я ходжу до супермаркету кожного тижня.",
+     "ru": "Я хожу в супермаркет каждую неделю.",
+     "pl": "Chodzę do supermarketu co tydzień.",
+     "de": "Ich gehe jede Woche zum Supermarkt.",
+     "fr": "Je vais au supermarché chaque semaine.",
+     "es": "Voy al supermercado cada semana.",
+     "it": "Vado al supermercato ogni settimana.",
+     "pt": "Eu vou ao supermercado toda semana.",
+     "tr": "Her hafta süpermarkete gidiyorum."
+    },
+    {
+     "en": "The supermarket is near my house.",
+     "uk": "Супермаркет поруч з моїм будинком.",
+     "ru": "Супермаркет рядом с моим домом.",
+     "pl": "Supermarket jest blisko mojego domu.",
+     "de": "Der Supermarkt ist in der Nähe meines Hauses.",
+     "fr": "Le supermarché est près de ma maison.",
+     "es": "El supermercado está cerca de mi casa.",
+     "it": "Il supermercato è vicino a casa mia.",
+     "pt": "O supermercado fica perto da minha casa.",
+     "tr": "Süpermarket evimin yakınında."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.market",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/ˈmɑrkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I buy fruits at the market.",
+     "uk": "Я купую фрукти на ринку.",
+     "ru": "Я покупаю фрукты на рынке.",
+     "pl": "Kupuję owoce na targu.",
+     "de": "Ich kaufe Obst auf dem Markt.",
+     "fr": "J'achète des fruits au marché.",
+     "es": "Compro frutas en el mercado.",
+     "it": "Compro frutta al mercato.",
+     "pt": "Compro frutas na feira.",
+     "tr": "Pazar'dan meyve alıyorum."
+    },
+    {
+     "en": "The market opens at eight o'clock.",
+     "uk": "Ринок відкривається о восьмій годині.",
+     "ru": "Рынок открывается в восемь часов.",
+     "pl": "Targ otwiera się o ósmej.",
+     "de": "Der Markt öffnet um acht Uhr.",
+     "fr": "Le marché ouvre à huit heures.",
+     "es": "El mercado abre a las ocho.",
+     "it": "Il mercato apre alle otto.",
+     "pt": "O mercado abre às oito horas.",
+     "tr": "Pazar saat sekizde açılıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shopping-bag",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈʃɑpɪŋ bæɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a shopping bag for my groceries.",
+     "uk": "Мені потрібен пакет для продуктів.",
+     "ru": "Мне нужен пакет для продуктов.",
+     "pl": "Potrzebuję torby na zakupy.",
+     "de": "Ich brauche eine Einkaufstüte für meine Lebensmittel.",
+     "fr": "J'ai besoin d'un sac pour mes courses.",
+     "es": "Necesito una bolsa para mis compras.",
+     "it": "Ho bisogno di una busta per la spesa.",
+     "pt": "Preciso de uma sacola para as compras.",
+     "tr": "Alışverişim için bir poşete ihtiyacım var."
+    },
+    {
+     "en": "She carries a shopping bag to the store.",
+     "uk": "Вона несе пакет до магазину.",
+     "ru": "Она несет пакет в магазин.",
+     "pl": "Ona niesie torbę do sklepu.",
+     "de": "Sie trägt eine Einkaufstüte zum Laden.",
+     "fr": "Elle porte un sac au magasin.",
+     "es": "Ella lleva una bolsa a la tienda.",
+     "it": "Lei porta una busta al negozio.",
+     "pt": "Ela leva uma sacola para a loja.",
+     "tr": "O, dükkana bir poşet götürüyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.size",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/saɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What size do you wear?",
+     "uk": "Який розмір ти носиш?",
+     "ru": "Какой у тебя размер?",
+     "pl": "Jaki rozmiar nosisz?",
+     "de": "Welche Größe trägst du?",
+     "fr": "Quelle taille fais-tu?",
+     "es": "¿Qué talla usas?",
+     "it": "Che taglia porti?",
+     "pt": "Qual é o seu tamanho?",
+     "tr": "Hangi bedeni giyiyorsun?"
+    },
+    {
+     "en": "This shirt is my size.",
+     "uk": "Ця сорочка мого розміру.",
+     "ru": "Эта рубашка моего размера.",
+     "pl": "Ta koszula jest w moim rozmiarze.",
+     "de": "Dieses Hemd ist meine Größe.",
+     "fr": "Cette chemise est à ma taille.",
+     "es": "Esta camisa es mi talla.",
+     "it": "Questa camicia è della mia taglia.",
+     "pt": "Esta camisa é do meu tamanho.",
+     "tr": "Bu gömlek benim bedenim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.small",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/smɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want a small coffee, please.",
+     "uk": "Я хочу маленьку каву, будь ласка.",
+     "ru": "Я хочу маленький кофе, пожалуйста.",
+     "pl": "Chcę małą kawę, proszę.",
+     "de": "Ich möchte einen kleinen Kaffee, bitte.",
+     "fr": "Je veux un petit café, s'il vous plaît.",
+     "es": "Quiero un café pequeño, por favor.",
+     "it": "Voglio un caffè piccolo, per favore.",
+     "pt": "Quero um café pequeno, por favor.",
+     "tr": "Küçük bir kahve istiyorum, lütfen."
+    },
+    {
+     "en": "This box is too small.",
+     "uk": "Ця коробка занадто маленька.",
+     "ru": "Эта коробка слишком маленькая.",
+     "pl": "To pudełko jest za małe.",
+     "de": "Diese Box ist zu klein.",
+     "fr": "Cette boîte est trop petite.",
+     "es": "Esta caja es demasiado pequeña.",
+     "it": "Questa scatola è troppo piccola.",
+     "pt": "Esta caixa é muito pequena.",
+     "tr": "Bu kutu çok küçük."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.big",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/bɪɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a big dog.",
+     "uk": "У мене великий пес.",
+     "ru": "У меня большая собака.",
+     "pl": "Mam dużego psa.",
+     "de": "Ich habe einen großen Hund.",
+     "fr": "J'ai un grand chien.",
+     "es": "Tengo un perro grande.",
+     "it": "Ho un grande cane.",
+     "pt": "Eu tenho um cachorro grande.",
+     "tr": "Büyük bir köpeğim var."
+    },
+    {
+     "en": "This room is big and bright.",
+     "uk": "Ця кімната велика і світла.",
+     "ru": "Эта комната большая и светлая.",
+     "pl": "Ten pokój jest duży i jasny.",
+     "de": "Dieses Zimmer ist groß und hell.",
+     "fr": "Cette pièce est grande et lumineuse.",
+     "es": "Esta habitación es grande y luminosa.",
+     "it": "Questa stanza è grande e luminosa.",
+     "pt": "Este quarto é grande e claro.",
+     "tr": "Bu oda büyük ve aydınlık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-try-on",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/traɪ ɑn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to try on this dress.",
+     "uk": "Я хочу приміряти цю сукню.",
+     "ru": "Я хочу примерить это платье.",
+     "pl": "Chcę przymierzyć tę sukienkę.",
+     "de": "Ich möchte dieses Kleid anprobieren.",
+     "fr": "Je veux essayer cette robe.",
+     "es": "Quiero probarme este vestido.",
+     "it": "Voglio provare questo vestito.",
+     "pt": "Quero experimentar este vestido.",
+     "tr": "Bu elbiseyi denemek istiyorum."
+    },
+    {
+     "en": "Can I try on these shoes?",
+     "uk": "Можу приміряти ці черевики?",
+     "ru": "Могу примерить эти туфли?",
+     "pl": "Czy mogę przymierzyć te buty?",
+     "de": "Kann ich diese Schuhe anprobieren?",
+     "fr": "Puis-je essayer ces chaussures?",
+     "es": "¿Puedo probarme estos zapatos?",
+     "it": "Posso provare queste scarpe?",
+     "pt": "Posso experimentar estes sapatos?",
+     "tr": "Bu ayakkabıları denemek ister miyim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.fitting-room",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈfɪtɪŋ rum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fitting room is over there.",
+     "uk": "Примірочна там.",
+     "ru": "Примерочная там.",
+     "pl": "Przymierzalnia jest tam.",
+     "de": "Die Umkleidekabine ist dort.",
+     "fr": "La cabine d'essayage est là-bas.",
+     "es": "El probador está allí.",
+     "it": "Il camerino è laggiù.",
+     "pt": "O provador está ali.",
+     "tr": "Soyunma kabini orada."
+    },
+    {
+     "en": "I will wait in the fitting room.",
+     "uk": "Я буду чекати в примірочній.",
+     "ru": "Я буду ждать в примерочной.",
+     "pl": "Będę czekać w przymierzalni.",
+     "de": "Ich werde in der Umkleidekabine warten.",
+     "fr": "Je vais attendre dans la cabine d'essayage.",
+     "es": "Voy a esperar en el probador.",
+     "it": "Aspetterò nel camerino.",
+     "pt": "Vou esperar no provador.",
+     "tr": "Soyunma kabininde bekleyeceğim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shirt",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ʃɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new shirt yesterday.",
+     "uk": "Вчора я купив нову сорочку.",
+     "ru": "Вчера я купил новую рубашку.",
+     "pl": "Kupiłem nową koszulę wczoraj.",
+     "de": "Ich habe gestern ein neues Hemd gekauft.",
+     "fr": "J'ai acheté une nouvelle chemise hier.",
+     "es": "Ayer compré una camisa nueva.",
+     "it": "Ieri ho comprato una camicia nuova.",
+     "pt": "Comprei uma camisa nova ontem.",
+     "tr": "Dün yeni bir gömlek aldım."
+    },
+    {
+     "en": "This shirt fits me well.",
+     "uk": "Ця сорочка мені підходить.",
+     "ru": "Эта рубашка мне подходит.",
+     "pl": "Ta koszula dobrze na mnie leży.",
+     "de": "Dieses Hemd passt mir gut.",
+     "fr": "Cette chemise me va bien.",
+     "es": "Esta camisa me queda bien.",
+     "it": "Questa camicia mi sta bene.",
+     "pt": "Esta camisa me serve bem.",
+     "tr": "Bu gömlek bana iyi oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.trousers",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈtraʊzɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought new trousers yesterday.",
+     "uk": "Я купив нові штани вчора.",
+     "ru": "Я купил новые брюки вчера.",
+     "pl": "Kupiłem nowe spodnie wczoraj.",
+     "de": "Ich habe gestern neue Hose gekauft.",
+     "fr": "J'ai acheté un nouveau pantalon hier.",
+     "es": "Ayer compré unos pantalones nuevos.",
+     "it": "Ieri ho comprato dei pantaloni nuovi.",
+     "pt": "Comprei umas calças novas ontem.",
+     "tr": "Dün yeni pantolon aldım."
+    },
+    {
+     "en": "These trousers are too big for me.",
+     "uk": "Ці штани занадто великі для мене.",
+     "ru": "Эти брюки слишком большие для меня.",
+     "pl": "Te spodnie są za duże dla mnie.",
+     "de": "Diese Hose ist zu groß für mich.",
+     "fr": "Ce pantalon est trop grand pour moi.",
+     "es": "Estos pantalones son demasiado grandes para mí.",
+     "it": "Questi pantaloni sono troppo grandi per me.",
+     "pt": "Estas calças são muito grandes para mim.",
+     "tr": "Bu pantolon benim için çok büyük."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shoes",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ʃuz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need new shoes for the party.",
+     "uk": "Мені потрібні нові взуття на вечірку.",
+     "ru": "Мне нужна новая обувь для вечеринки.",
+     "pl": "Potrzebuję nowych butów na imprezę.",
+     "de": "Ich brauche neue Schuhe für die Party.",
+     "fr": "J'ai besoin de nouvelles chaussures pour la fête.",
+     "es": "Necesito zapatos nuevos para la fiesta.",
+     "it": "Ho bisogno di scarpe nuove per la festa.",
+     "pt": "Preciso de sapatos novos para a festa.",
+     "tr": "Parti için yeni ayakkabı almam lazım."
+    },
+    {
+     "en": "These shoes are very comfortable.",
+     "uk": "Ці взуття дуже зручні.",
+     "ru": "Эта обувь очень удобная.",
+     "pl": "Te buty są bardzo wygodne.",
+     "de": "Diese Schuhe sind sehr bequem.",
+     "fr": "Ces chaussures sont très confortables.",
+     "es": "Estos zapatos son muy cómodos.",
+     "it": "Queste scarpe sono molto comode.",
+     "pt": "Estes sapatos são muito confortáveis.",
+     "tr": "Bu ayakkabılar çok rahat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.dress",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/drɛs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She wore a beautiful dress to the event.",
+     "uk": "Вона вдягнула красиву сукню на захід.",
+     "ru": "Она надела красивое платье на мероприятие.",
+     "pl": "Ona miała na sobie piękną sukienkę na wydarzeniu.",
+     "de": "Sie trug ein schönes Kleid zur Veranstaltung.",
+     "fr": "Elle portait une belle robe à l'événement.",
+     "es": "Llevó un vestido hermoso al evento.",
+     "it": "Indossava un bel vestito all'evento.",
+     "pt": "Ela usou um vestido lindo para o evento.",
+     "tr": "Etkinliğe güzel bir elbise giydi."
+    },
+    {
+     "en": "I want to buy that red dress.",
+     "uk": "Я хочу купити ту червону сукню.",
+     "ru": "Я хочу купить то красное платье.",
+     "pl": "Chcę kupić tamtą czerwoną sukienkę.",
+     "de": "Ich möchte dieses rote Kleid kaufen.",
+     "fr": "Je veux acheter cette robe rouge.",
+     "es": "Quiero comprar ese vestido rojo.",
+     "it": "Voglio comprare quel vestito rosso.",
+     "pt": "Quero comprar aquele vestido vermelho.",
+     "tr": "O kırmızı elbiseyi satın almak istiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.jacket",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ˈdʒækət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It is cold, so wear your jacket.",
+     "uk": "Холодно, тому надягни свою куртку.",
+     "ru": "Холодно, так что надень свою куртку.",
+     "pl": "Jest zimno, więc załóż swoją kurtkę.",
+     "de": "Es ist kalt, also zieh deine Jacke an.",
+     "fr": "Il fait froid, alors mets ta veste.",
+     "es": "Hace frío, así que ponte tu chaqueta.",
+     "it": "Fa freddo, quindi indossa la tua giacca.",
+     "pt": "Está frio, então vista sua jaqueta.",
+     "tr": "Hava soğuk, bu yüzden ceketinizi giyin."
+    },
+    {
+     "en": "I bought a new jacket for winter.",
+     "uk": "Я купив нову куртку на зиму.",
+     "ru": "Я купил новую куртку на зиму.",
+     "pl": "Kupiłem nową kurtkę na zimę.",
+     "de": "Ich habe eine neue Jacke für den Winter gekauft.",
+     "fr": "J'ai acheté une nouvelle veste pour l'hiver.",
+     "es": "Compré una chaqueta nueva para el invierno.",
+     "it": "Ho comprato una nuova giacca per l'inverno.",
+     "pt": "Comprei uma nova jaqueta para o inverno.",
+     "tr": "Kış için yeni bir ceket aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.open",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/ˈoʊpən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store is open until 9 PM.",
+     "uk": "Магазин відкритий до 21:00.",
+     "ru": "Магазин открыт до 21:00.",
+     "pl": "Sklep jest otwarty do 21:00.",
+     "de": "Der Laden ist bis 21 Uhr geöffnet.",
+     "fr": "Le magasin est ouvert jusqu'à 21h.",
+     "es": "La tienda está abierta hasta las 21:00.",
+     "it": "Il negozio è aperto fino alle 21:00.",
+     "pt": "A loja está aberta até às 21h.",
+     "tr": "Dükkan akşam 9'a kadar açık."
+    },
+    {
+     "en": "Is the library open today?",
+     "uk": "Бібліотека сьогодні відчинена?",
+     "ru": "Библиотека сегодня открыта?",
+     "pl": "Czy biblioteka jest dzisiaj otwarta?",
+     "de": "Ist die Bibliothek heute geöffnet?",
+     "fr": "La bibliothèque est-elle ouverte aujourd'hui?",
+     "es": "¿Está abierta la biblioteca hoy?",
+     "it": "La biblioteca è aperta oggi?",
+     "pt": "A biblioteca está aberta hoje?",
+     "tr": "Kütüphane bugün açık mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.closed",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/kloʊzd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The shop is closed on Sundays.",
+     "uk": "Магазин зачинено по неділях.",
+     "ru": "Магазин закрыт по воскресеньям.",
+     "pl": "Sklep jest zamknięty w niedziele.",
+     "de": "Der Laden ist sonntags geschlossen.",
+     "fr": "Le magasin est fermé le dimanche.",
+     "es": "La tienda está cerrada los domingos.",
+     "it": "Il negozio è chiuso la domenica.",
+     "pt": "A loja está fechada aos domingos.",
+     "tr": "Dükkanlar pazar günleri kapalıdır."
+    },
+    {
+     "en": "Is this door closed?",
+     "uk": "Ці двері зачинені?",
+     "ru": "Эти двери закрыты?",
+     "pl": "Czy te drzwi są zamknięte?",
+     "de": "Ist diese Tür geschlossen?",
+     "fr": "Cette porte est-elle fermée?",
+     "es": "¿Está esta puerta cerrada?",
+     "it": "Questa porta è chiusa?",
+     "pt": "Esta porta está fechada?",
+     "tr": "Bu kapı kapalı mı?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.checkout",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˈtʃɛˌkaʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please go to the checkout to pay.",
+     "uk": "Будь ласка, йдіть до каси, щоб заплатити.",
+     "ru": "Пожалуйста, пройдите к кассе, чтобы заплатить.",
+     "pl": "Proszę udać się do kasy, aby zapłacić.",
+     "de": "Bitte gehen Sie zur Kasse, um zu bezahlen.",
+     "fr": "Veuillez vous rendre à la caisse pour payer.",
+     "es": "Por favor, dirígete a la caja para pagar.",
+     "it": "Per favore, vai alla cassa per pagare.",
+     "pt": "Por favor, vá até a caixa para pagar.",
+     "tr": "Lütfen ödeme yapmak için kasaya gidin."
+    },
+    {
+     "en": "The checkout line is very long.",
+     "uk": "Лінія до каси дуже довга.",
+     "ru": "Очередь к кассе очень длинная.",
+     "pl": "Kolejka do kasy jest bardzo długa.",
+     "de": "Die Schlange an der Kasse ist sehr lang.",
+     "fr": "La file d'attente à la caisse est très longue.",
+     "es": "La fila en la caja es muy larga.",
+     "it": "La fila alla cassa è molto lunga.",
+     "pt": "A fila na caixa é muito longa.",
+     "tr": "Kasada sıra çok uzun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shopping-list",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/ˈʃɑpɪŋ lɪst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wrote the shopping list yesterday.",
+     "uk": "Я вчора написав список покупок.",
+     "ru": "Я вчера составил список покупок.",
+     "pl": "Wczoraj napisałem listę zakupów.",
+     "de": "Ich habe gestern die Einkaufsliste geschrieben.",
+     "fr": "J'ai écrit la liste de courses hier.",
+     "es": "Escribí la lista de la compra ayer.",
+     "it": "Ho scritto la lista della spesa ieri.",
+     "pt": "Eu escrevi a lista de compras ontem.",
+     "tr": "Dün alışveriş listesi yazdım."
+    },
+    {
+     "en": "Please check the shopping list before going.",
+     "uk": "Будь ласка, перевірте список покупок перед виходом.",
+     "ru": "Пожалуйста, проверьте список покупок перед выходом.",
+     "pl": "Proszę sprawdzić listę zakupów przed wyjściem.",
+     "de": "Bitte überprüfe die Einkaufsliste, bevor du gehst.",
+     "fr": "Veuillez vérifier la liste de courses avant de partir.",
+     "es": "Por favor, revisa la lista de la compra antes de ir.",
+     "it": "Per favore, controlla la lista della spesa prima di andare.",
+     "pt": "Por favor, verifique a lista de compras antes de sair.",
+     "tr": "Lütfen çıkmadan önce alışveriş listesini kontrol et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-go-shopping",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ˈʃɑpɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to go shopping on weekends.",
+     "uk": "Я люблю ходити за покупками у вихідні.",
+     "ru": "Я люблю ходить за покупками по выходным.",
+     "pl": "Uwielbiam robić zakupy w weekendy.",
+     "de": "Ich liebe es, am Wochenende einkaufen zu gehen.",
+     "fr": "J'adore faire les courses le week-end.",
+     "es": "Me encanta ir de compras los fines de semana.",
+     "it": "Mi piace fare shopping nei fine settimana.",
+     "pt": "Adoro fazer compras aos fins de semana.",
+     "tr": "Hafta sonları alışverişe gitmeyi seviyorum."
+    },
+    {
+     "en": "Let's go shopping for some new clothes.",
+     "uk": "Давай підемо за покупками нового одягу.",
+     "ru": "Давай пойдем за покупками новой одежды.",
+     "pl": "Chodźmy na zakupy po nowe ubrania.",
+     "de": "Lass uns einkaufen gehen für neue Kleider.",
+     "fr": "Allons faire les courses pour des vêtements neufs.",
+     "es": "Vamos de compras por ropa nueva.",
+     "it": "Andiamo a fare shopping per dei vestiti nuovi.",
+     "pt": "Vamos fazer compras de roupas novas.",
+     "tr": "Yeni kıyafetler almak için alışverişe gidelim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.cashier",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/kæˈʃɪr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The cashier is very friendly.",
+     "uk": "Касир дуже дружній.",
+     "ru": "Кассир очень дружелюбный.",
+     "pl": "Kasjer jest bardzo przyjazny.",
+     "de": "Der Kassierer ist sehr freundlich.",
+     "fr": "Le caissier est très sympathique.",
+     "es": "El cajero es muy amable.",
+     "it": "Il cassiere è molto gentile.",
+     "pt": "O caixa é muito simpático.",
+     "tr": "Kasiyer çok dost canlısı."
+    },
+    {
+     "en": "I paid the cashier for my groceries.",
+     "uk": "Я заплатив касиру за свої продукти.",
+     "ru": "Я заплатил кассиру за свои продукты.",
+     "pl": "Zapłaciłem kasjerowi za moje zakupy.",
+     "de": "Ich habe dem Kassierer für meine Einkäufe bezahlt.",
+     "fr": "J'ai payé le caissier pour mes courses.",
+     "es": "Le pagué al cajero por mis compras.",
+     "it": "Ho pagato il cassiere per la mia spesa.",
+     "pt": "Paguei ao caixa pelas minhas compras.",
+     "tr": "Alışverişlerim için kasiyere ödeme yaptım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bag",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/bæɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new bag for school.",
+     "uk": "Я купив нову сумку для школи.",
+     "ru": "Я купил новую сумку для школы.",
+     "pl": "Kupiłem nową torbę do szkoły.",
+     "de": "Ich habe eine neue Tasche für die Schule gekauft.",
+     "fr": "J'ai acheté un nouveau sac pour l'école.",
+     "es": "Compré una bolsa nueva para la escuela.",
+     "it": "Ho comprato una nuova borsa per la scuola.",
+     "pt": "Comprei uma nova sacola para a escola.",
+     "tr": "Okul için yeni bir çanta aldım."
+    },
+    {
+     "en": "She carries a bag every day.",
+     "uk": "Вона носить сумку кожного дня.",
+     "ru": "Она носит сумку каждый день.",
+     "pl": "Ona nosi torbę codziennie.",
+     "de": "Sie trägt jeden Tag eine Tasche.",
+     "fr": "Elle porte un sac tous les jours.",
+     "es": "Ella lleva una bolsa todos los días.",
+     "it": "Lei porta una borsa ogni giorno.",
+     "pt": "Ela carrega uma sacola todos os dias.",
+     "tr": "Her gün bir çanta taşıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.clothes",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/kloʊðz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need new clothes for the summer.",
+     "uk": "Мені потрібен новий одяг на літо.",
+     "ru": "Мне нужна новая одежда на лето.",
+     "pl": "Potrzebuję nowych ubrań na lato.",
+     "de": "Ich brauche neue Kleidung für den Sommer.",
+     "fr": "J'ai besoin de nouveaux vêtements pour l'été.",
+     "es": "Necesito ropa nueva para el verano.",
+     "it": "Ho bisogno di vestiti nuovi per l'estate.",
+     "pt": "Preciso de roupas novas para o verão.",
+     "tr": "Yaz için yeni giysilere ihtiyacım var."
+    },
+    {
+     "en": "Her clothes are very stylish.",
+     "uk": "Її одяг дуже стильний.",
+     "ru": "Её одежда очень стильная.",
+     "pl": "Jej ubrania są bardzo stylowe.",
+     "de": "Ihre Kleidung ist sehr stilvoll.",
+     "fr": "Ses vêtements sont très élégants.",
+     "es": "Su ropa es muy elegante.",
+     "it": "I suoi vestiti sono molto eleganti.",
+     "pt": "As roupas dela são muito elegantes.",
+     "tr": "Onun giysileri çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.t-shirt",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ti ʃɝt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear a T-shirt in hot weather.",
+     "uk": "Я ношу футболку в спекотну погоду.",
+     "ru": "Я ношу футболку в жаркую погоду.",
+     "pl": "Noszę koszulkę w ciepłą pogodę.",
+     "de": "Ich trage ein T-Shirt bei heißem Wetter.",
+     "fr": "Je porte un t-shirt par temps chaud.",
+     "es": "Llevo una camiseta en clima cálido.",
+     "it": "Indosso una maglietta con tempo caldo.",
+     "pt": "Eu uso uma camiseta em tempo quente.",
+     "tr": "Sıcak havalarda tişört giyiyorum."
+    },
+    {
+     "en": "My favorite T-shirt is blue.",
+     "uk": "Моя улюблена футболка синя.",
+     "ru": "Моя любимая футболка синяя.",
+     "pl": "Moja ulubiona koszulka jest niebieska.",
+     "de": "Mein Lieblings-T-Shirt ist blau.",
+     "fr": "Mon t-shirt préféré est bleu.",
+     "es": "Mi camiseta favorita es azul.",
+     "it": "La mia maglietta preferita è blu.",
+     "pt": "Minha camiseta favorita é azul.",
+     "tr": "En sevdiğim tişört mavi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.coat",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/koʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a warm coat for winter.",
+     "uk": "Мені потрібне тепле пальто на зиму.",
+     "ru": "Мне нужно теплое пальто на зиму.",
+     "pl": "Potrzebuję ciepłego płaszcza na zimę.",
+     "de": "Ich brauche einen warmen Mantel für den Winter.",
+     "fr": "J'ai besoin d'un manteau chaud pour l'hiver.",
+     "es": "Necesito un abrigo caliente para el invierno.",
+     "it": "Ho bisogno di un cappotto caldo per l'inverno.",
+     "pt": "Preciso de um casaco quente para o inverno.",
+     "tr": "Kış için sıcak bir paltoya ihtiyacım var."
+    },
+    {
+     "en": "Her coat is very stylish.",
+     "uk": "Її пальто дуже стильне.",
+     "ru": "Её пальто очень стильное.",
+     "pl": "Jej płaszcz jest bardzo stylowy.",
+     "de": "Ihr Mantel ist sehr stilvoll.",
+     "fr": "Son manteau est très élégant.",
+     "es": "Su abrigo es muy elegante.",
+     "it": "Il suo cappotto è molto elegante.",
+     "pt": "O casaco dela é muito elegante.",
+     "tr": "Onun paltoyu çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.hat",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/hæt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear a hat in the sun.",
+     "uk": "Я ношу капелюх на сонці.",
+     "ru": "Я ношу шляпу на солнце.",
+     "pl": "Noszę kapelusz w słońcu.",
+     "de": "Ich trage einen Hut in der Sonne.",
+     "fr": "Je porte un chapeau au soleil.",
+     "es": "Llevo un sombrero al sol.",
+     "it": "Indosso un cappello al sole.",
+     "pt": "Eu uso um chapéu ao sol.",
+     "tr": "Güneşte şapka giyiyorum."
+    },
+    {
+     "en": "Her hat is very beautiful.",
+     "uk": "Її капелюх дуже красивий.",
+     "ru": "Её шляпа очень красивая.",
+     "pl": "Jej kapelusz jest bardzo piękny.",
+     "de": "Ihr Hut ist sehr schön.",
+     "fr": "Son chapeau est très beau.",
+     "es": "Su sombrero es muy bonito.",
+     "it": "Il suo cappello è molto bello.",
+     "pt": "O chapéu dela é muito bonito.",
+     "tr": "Onun şapkası çok güzel."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.too-expensive",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/tu ɪkˈspɛnsɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This dress is too expensive for me.",
+     "uk": "Ця сукня занадто дорога для мене.",
+     "ru": "Это платье слишком дорого для меня.",
+     "pl": "Ta sukienka jest za droga dla mnie.",
+     "de": "Dieses Kleid ist zu teuer für mich.",
+     "fr": "Cette robe est trop chère pour moi.",
+     "es": "Este vestido es demasiado caro para mí.",
+     "it": "Questo vestito è troppo caro per me.",
+     "pt": "Este vestido é caro demais para mim.",
+     "tr": "Bu elbise benim için çok pahalı."
+    },
+    {
+     "en": "The shoes are too expensive; I can't buy them.",
+     "uk": "Ці черевики занадто дорогі; я не можу їх купити.",
+     "ru": "Эти туфли слишком дорогие; я не могу их купить.",
+     "pl": "Te buty są za drogie; nie mogę ich kupić.",
+     "de": "Die Schuhe sind zu teuer; ich kann sie nicht kaufen.",
+     "fr": "Les chaussures sont trop chères; je ne peux pas les acheter.",
+     "es": "Los zapatos son demasiado caros; no puedo comprarlos.",
+     "it": "Le scarpe sono troppo care; non posso comprarle.",
+     "pt": "Os sapatos são caros demais; não posso comprá-los.",
+     "tr": "Ayakkabılar çok pahalı; onları alamam."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.i-m-just-looking",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/aɪm dʒʌst ˈlʊkɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I'm just looking at these shoes right now.",
+     "uk": "Я просто дивлюся на ці черевики зараз.",
+     "ru": "Я просто смотрю на эти туфли сейчас.",
+     "pl": "Tylko oglądam te buty teraz.",
+     "de": "Ich schaue mir gerade diese Schuhe nur an.",
+     "fr": "Je regarde seulement ces chaussures en ce moment.",
+     "es": "Solo estoy mirando estos zapatos ahora.",
+     "it": "Sto solo guardando queste scarpe adesso.",
+     "pt": "Só estou olhando para esses sapatos agora.",
+     "tr": "Şu anda sadece bu ayakkabılara bakıyorum."
+    },
+    {
+     "en": "When asked, I said I'm just looking.",
+     "uk": "Коли запитали, я сказав, що я просто дивлюся.",
+     "ru": "Когда спросили, я сказал, что я просто смотрю.",
+     "pl": "Kiedy zapytano, powiedziałem, że tylko oglądam.",
+     "de": "Als ich gefragt wurde, sagte ich, dass ich nur schaue.",
+     "fr": "Quand on m'a demandé, j'ai dit que je regardais seulement.",
+     "es": "Cuando me preguntaron, dije que solo estaba mirando.",
+     "it": "Quando mi hanno chiesto, ho detto che stavo solo guardando.",
+     "pt": "Quando me perguntaram, eu disse que só estava olhando.",
+     "tr": "Bana sorulduğunda, sadece bakıyorum dedim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-choose",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/tʃuz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to choose a new dress.",
+     "uk": "Я хочу вибрати нову сукню.",
+     "ru": "Я хочу выбрать новое платье.",
+     "pl": "Chcę wybrać nową sukienkę.",
+     "de": "Ich möchte ein neues Kleid auswählen.",
+     "fr": "Je veux choisir une nouvelle robe.",
+     "es": "Quiero elegir un vestido nuevo.",
+     "it": "Voglio scegliere un vestito nuovo.",
+     "pt": "Quero escolher um vestido novo.",
+     "tr": "Yeni bir elbise seçmek istiyorum."
+    },
+    {
+     "en": "It's hard to choose a gift.",
+     "uk": "Важко вибрати подарунок.",
+     "ru": "Трудно выбрать подарок.",
+     "pl": "Trudno wybrać prezent.",
+     "de": "Es ist schwer, ein Geschenk auszuwählen.",
+     "fr": "C'est difficile de choisir un cadeau.",
+     "es": "Es difícil elegir un regalo.",
+     "it": "È difficile scegliere un regalo.",
+     "pt": "É difícil escolher um presente.",
+     "tr": "Bir hediye seçmek zor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.opening-hours",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ˈoʊpənɪŋ ˈaʊɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What are the opening hours of the store?",
+     "uk": "Які години роботи магазину?",
+     "ru": "Каковы часы работы магазина?",
+     "pl": "Jakie są godziny otwarcia sklepu?",
+     "de": "Was sind die Öffnungszeiten des Geschäfts?",
+     "fr": "Quels sont les horaires d'ouverture du magasin ?",
+     "es": "¿Cuáles son las horas de apertura de la tienda?",
+     "it": "Quali sono gli orari di apertura del negozio?",
+     "pt": "Quais são os horários de funcionamento da loja?",
+     "tr": "Dükkanın çalışma saatleri nedir?"
+    },
+    {
+     "en": "The opening hours are from 9 AM to 5 PM.",
+     "uk": "Години роботи з 9:00 до 17:00.",
+     "ru": "Часы работы с 9:00 до 17:00.",
+     "pl": "Godziny otwarcia to od 9:00 do 17:00.",
+     "de": "Die Öffnungszeiten sind von 9 bis 17 Uhr.",
+     "fr": "Les horaires d'ouverture sont de 9h à 17h.",
+     "es": "El horario de apertura es de 9 a 17 horas.",
+     "it": "Gli orari di apertura sono dalle 9 alle 17.",
+     "pt": "O horário de funcionamento é das 9h às 17h.",
+     "tr": "Çalışma saatleri sabah 9'dan akşam 5'e kadar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bakery",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈbeɪkɚi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I buy bread at the bakery.",
+     "uk": "Я купую хліб у пекарні.",
+     "ru": "Я покупаю хлеб в булочной.",
+     "pl": "Kupuję chleb w piekarni.",
+     "de": "Ich kaufe Brot in der Bäckerei.",
+     "fr": "J'achète du pain à la boulangerie.",
+     "es": "Compro pan en la panadería.",
+     "it": "Compro pane nella panetteria.",
+     "pt": "Compro pão na padaria.",
+     "tr": "Fırından ekmek alıyorum."
+    },
+    {
+     "en": "The bakery smells so good.",
+     "uk": "У пекарні дуже смачно пахне.",
+     "ru": "В булочной очень вкусно пахнет.",
+     "pl": "W piekarni pachnie bardzo dobrze.",
+     "de": "Die Bäckerei riecht so gut.",
+     "fr": "La boulangerie sent si bon.",
+     "es": "La panadería huele tan bien.",
+     "it": "La panetteria profuma così bene.",
+     "pt": "A padaria cheira tão bem.",
+     "tr": "Fırın çok güzel kokuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.suit",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/sut/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wore a black suit to the wedding.",
+     "uk": "Він одягнув чорний костюм на весілля.",
+     "ru": "Он надел черный костюм на свадьбу.",
+     "pl": "Miał na sobie czarny garnitur na wesele.",
+     "de": "Er trug einen schwarzen Anzug zur Hochzeit.",
+     "fr": "Il portait un costume noir au mariage.",
+     "es": "Llevaba un traje negro a la boda.",
+     "it": "Indossava un completo nero al matrimonio.",
+     "pt": "Ele usou um terno preto no casamento.",
+     "tr": "Düğüne siyah bir takım elbise giydi."
+    },
+    {
+     "en": "My suit is new and very stylish.",
+     "uk": "Мій костюм новий і дуже стильний.",
+     "ru": "Мой костюм новый и очень стильный.",
+     "pl": "Mój garnitur jest nowy i bardzo stylowy.",
+     "de": "Mein Anzug ist neu und sehr stilvoll.",
+     "fr": "Mon costume est nouveau et très élégant.",
+     "es": "Mi traje es nuevo y muy elegante.",
+     "it": "Il mio completo è nuovo e molto elegante.",
+     "pt": "Meu terno é novo e muito elegante.",
+     "tr": "Takım elbisem yeni ve çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bookshop",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/ˈbʊkˌʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a book at the bookshop yesterday.",
+     "uk": "Вчора я купив книгу в книгарні.",
+     "ru": "Вчера я купил книгу в книжном магазине.",
+     "pl": "Kupiłem książkę w księgarni wczoraj.",
+     "de": "Ich habe gestern ein Buch in der Buchhandlung gekauft.",
+     "fr": "J'ai acheté un livre à la librairie hier.",
+     "es": "Ayer compré un libro en la librería.",
+     "it": "Ieri ho comprato un libro in libreria.",
+     "pt": "Comprei um livro na livraria ontem.",
+     "tr": "Dün kitapçıdan bir kitap aldım."
+    },
+    {
+     "en": "The bookshop has many interesting novels.",
+     "uk": "У книгарні є багато цікавих романів.",
+     "ru": "В книжном магазине много интересных романов.",
+     "pl": "W księgarni jest wiele interesujących powieści.",
+     "de": "Die Buchhandlung hat viele interessante Romane.",
+     "fr": "La librairie a beaucoup de romans intéressants.",
+     "es": "La librería tiene muchas novelas interesantes.",
+     "it": "La libreria ha molti romanzi interessanti.",
+     "pt": "A livraria tem muitos romances interessantes.",
+     "tr": "Kitapçıda birçok ilginç roman var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shoe-shop",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ʃu ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to find a shoe shop nearby.",
+     "uk": "Мені потрібно знайти взуттєвий магазин поблизу.",
+     "ru": "Мне нужно найти обувной магазин поблизости.",
+     "pl": "Muszę znaleźć sklep obuwniczy w pobliżu.",
+     "de": "Ich muss ein Schuhgeschäft in der Nähe finden.",
+     "fr": "Je dois trouver un magasin de chaussures à proximité.",
+     "es": "Necesito encontrar una zapatería cercana.",
+     "it": "Devo trovare un negozio di scarpe vicino.",
+     "pt": "Preciso encontrar uma sapataria perto.",
+     "tr": "Yakınlarda bir ayakkabı mağazası bulmalıyım."
+    },
+    {
+     "en": "The shoe shop has a sale this weekend.",
+     "uk": "У взуттєвому магазині в ці вихідні розпродаж.",
+     "ru": "В обувном магазине распродажа в эти выходные.",
+     "pl": "W sklepie obuwniczym jest wyprzedaż w ten weekend.",
+     "de": "Im Schuhgeschäft gibt es diesen Sonntag einen Verkauf.",
+     "fr": "Le magasin de chaussures a une vente ce week-end.",
+     "es": "La zapatería tiene una venta este fin de semana.",
+     "it": "Il negozio di scarpe ha una vendita questo fine settimana.",
+     "pt": "A sapataria tem uma venda neste fim de semana.",
+     "tr": "Ayakkabı mağazasında bu hafta sonu indirim var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.clothes-shop",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/kloʊðz ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a dress at the clothes shop.",
+     "uk": "Я купила сукню в магазині одягу.",
+     "ru": "Я купила платье в магазине одежды.",
+     "pl": "Kupiłem sukienkę w sklepie odzieżowym.",
+     "de": "Ich habe ein Kleid im Bekleidungsgeschäft gekauft.",
+     "fr": "J'ai acheté une robe au magasin de vêtements.",
+     "es": "Compré un vestido en la tienda de ropa.",
+     "it": "Ho comprato un vestito nel negozio di abbigliamento.",
+     "pt": "Comprei um vestido na loja de roupas.",
+     "tr": "Giyim mağazasından bir elbise aldım."
+    },
+    {
+     "en": "The clothes shop has many sales this month.",
+     "uk": "У магазині одягу цього місяця багато розпродажів.",
+     "ru": "В магазине одежды много распродаж в этом месяце.",
+     "pl": "W sklepie odzieżowym jest wiele wyprzedaży w tym miesiącu.",
+     "de": "Im Bekleidungsgeschäft gibt es diesen Monat viele Verkäufe.",
+     "fr": "Le magasin de vêtements a beaucoup de soldes ce mois-ci.",
+     "es": "La tienda de ropa tiene muchas rebajas este mes.",
+     "it": "Il negozio di abbigliamento ha molte vendite questo mese.",
+     "pt": "A loja de roupas tem muitas promoções este mês.",
+     "tr": "Giyim mağazasında bu ay birçok indirim var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.gloves",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ɡlʌvz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear gloves when it is cold outside.",
+     "uk": "Я одягаю рукавички, коли на вулиці холодно.",
+     "ru": "Я ношу перчатки, когда на улице холодно.",
+     "pl": "Noszę rękawiczki, gdy na dworze zimно.",
+     "de": "Ich trage Handschuhe, wenn es draußen kalt ist.",
+     "fr": "Je porte des gants quand il fait froid dehors.",
+     "es": "Uso guantes cuando hace frío afuera.",
+     "it": "Indosso i guanti quando fa freddo fuori.",
+     "pt": "Eu uso luvas quando está frio lá fora.",
+     "tr": "Dışarıda soğuk olduğunda eldiven giyiyorum."
+    },
+    {
+     "en": "My gloves are warm and comfortable.",
+     "uk": "Мої рукавички теплі та зручні.",
+     "ru": "Мои перчатки теплые и удобные.",
+     "pl": "Moje rękawiczki są ciepłe i wygodne.",
+     "de": "Meine Handschuhe sind warm und bequem.",
+     "fr": "Mes gants sont chauds et confortables.",
+     "es": "Mis guantes son cálidos y cómodos.",
+     "it": "I miei guanti sono caldi e comodi.",
+     "pt": "Minhas luvas são quentes e confortáveis.",
+     "tr": "Eldivenlerim sıcak ve rahattır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.scarf",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/skɑrf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear a scarf in winter to stay warm.",
+     "uk": "Я ношу шарф взимку, щоб зігрітися.",
+     "ru": "Я ношу шарф зимой, чтобы не замерзнуть.",
+     "pl": "Noszę szalik zimą, aby się ogrzać.",
+     "de": "Ich trage einen Schal im Winter, um warm zu bleiben.",
+     "fr": "Je porte une écharpe en hiver pour rester au chaud.",
+     "es": "Uso una bufanda en invierno para mantenerme caliente.",
+     "it": "Indosso una sciarpa in inverno per stare caldo.",
+     "pt": "Eu uso um cachecol no inverno para me manter aquecido.",
+     "tr": "Kışın sıcak kalmak için atkı takıyorum."
+    },
+    {
+     "en": "My scarf is red and very soft.",
+     "uk": "Мій шарф червоний і дуже м'який.",
+     "ru": "Мой шарф красный и очень мягкий.",
+     "pl": "Mój szalik jest czerwony i bardzo miękki.",
+     "de": "Mein Schal ist rot und sehr weich.",
+     "fr": "Mon écharpe est rouge et très douce.",
+     "es": "Mi bufanda es roja y muy suave.",
+     "it": "La mia sciarpa è rossa e molto morbida.",
+     "pt": "Meu cachecol é vermelho e muito macio.",
+     "tr": "Atkım kırmızı ve çok yumuşak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.belt",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/bɛlt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a new belt for my pants.",
+     "uk": "Мені потрібен новий ремінь для штанів.",
+     "ru": "Мне нужен новый ремень для моих брюк.",
+     "pl": "Potrzebuję nowego paska do moich spodni.",
+     "de": "Ich brauche einen neuen Gürtel für meine Hose.",
+     "fr": "J'ai besoin d'une nouvelle ceinture pour mon pantalon.",
+     "es": "Necesito un cinturón nuevo para mis pantalones.",
+     "it": "Ho bisogno di una nuova cintura per i miei pantaloni.",
+     "pt": "Preciso de um cinto novo para as minhas calças.",
+     "tr": "Pantolonum için yeni bir kemere ihtiyacım var."
+    },
+    {
+     "en": "My belt is brown and very stylish.",
+     "uk": "Мій ремінь коричневий і дуже стильний.",
+     "ru": "Мой ремень коричневый и очень стильный.",
+     "pl": "Mój pasek jest brązowy i bardzo stylowy.",
+     "de": "Mein Gürtel ist braun und sehr stilvoll.",
+     "fr": "Ma ceinture est marron et très élégante.",
+     "es": "Mi cinturón es marrón y muy elegante.",
+     "it": "La mia cintura è marrone e molto elegante.",
+     "pt": "Meu cinto é marrom e muito elegante.",
+     "tr": "Kemalim kahverengi ve çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.boots",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/buts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear boots when it snows outside.",
+     "uk": "Я ношу чоботи, коли на вулиці сніг.",
+     "ru": "Я ношу сапоги, когда на улице снег.",
+     "pl": "Noszę kozaki, gdy na dworze śnieg.",
+     "de": "Ich trage Stiefel, wenn es draußen schneit.",
+     "fr": "Je porte des bottes quand il neige dehors.",
+     "es": "Uso botas cuando nieva afuera.",
+     "it": "Indosso stivali quando nevica.",
+     "pt": "Eu uso botas quando neva lá fora.",
+     "tr": "Dışarıda kar yağdığında çizme giyiyorum."
+    },
+    {
+     "en": "My boots are waterproof and very warm.",
+     "uk": "Мої чоботи водонепроникні і дуже теплі.",
+     "ru": "Мои сапоги водонепроницаемые и очень теплые.",
+     "pl": "Moje kozaki są wodoodporne i bardzo ciepłe.",
+     "de": "Meine Stiefel sind wasserdicht und sehr warm.",
+     "fr": "Mes bottes sont imperméables et très chaudes.",
+     "es": "Mis botas son impermeables y muy cálidas.",
+     "it": "I miei stivali sono impermeabili e molto caldi.",
+     "pt": "Minhas botas são impermeáveis e muito quentes.",
+     "tr": "Botlarım su geçirmez ve çok sıcak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shorts",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ʃɔrts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear shorts in the summer to stay cool.",
+     "uk": "Я ношу шорти влітку, щоб не перегріватися.",
+     "ru": "Я ношу шорты летом, чтобы не перегреваться.",
+     "pl": "Noszę szorty latem, aby się nie przegrzać.",
+     "de": "Ich trage Shorts im Sommer, um kühl zu bleiben.",
+     "fr": "Je porte des shorts en été pour rester au frais.",
+     "es": "Uso pantalones cortos en verano para estar fresco.",
+     "it": "Indosso pantaloncini in estate per rimanere fresco.",
+     "pt": "Eu uso shorts no verão para ficar fresco.",
+     "tr": "Yazın serin kalmak için şort giyiyorum."
+    },
+    {
+     "en": "My shorts are comfortable and easy to wear.",
+     "uk": "Мої шорти зручні і легкі у носінні.",
+     "ru": "Мои шорты удобные и легкие в носке.",
+     "pl": "Moje szorty są wygodne i łatwe do noszenia.",
+     "de": "Meine Shorts sind bequem und leicht zu tragen.",
+     "fr": "Mes shorts sont confortables et faciles à porter.",
+     "es": "Mis pantalones cortos son cómodos y fáciles de llevar.",
+     "it": "I miei pantaloncini sono comodi e facili da indossare.",
+     "pt": "Meus shorts são confortáveis e fáceis de usar.",
+     "tr": "Şortlarım rahat ve giymesi kolay."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.blouse",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/blaʊs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new blouse for the party.",
+     "uk": "Я купила нову блузку для вечірки.",
+     "ru": "Я купила новую блузку для вечеринки.",
+     "pl": "Kupiłem nową bluzkę na imprezę.",
+     "de": "Ich habe eine neue Bluse für die Party gekauft.",
+     "fr": "J'ai acheté une nouvelle chemisier pour la fête.",
+     "es": "Compré una blusa nueva para la fiesta.",
+     "it": "Ho comprato una nuova camicetta per la festa.",
+     "pt": "Comprei uma nova blusa para a festa.",
+     "tr": "Parti için yeni bir bluz aldım."
+    },
+    {
+     "en": "My blouse is blue and very pretty.",
+     "uk": "Моя блузка синя і дуже гарна.",
+     "ru": "Моя блузка синяя и очень красивая.",
+     "pl": "Moja bluzka jest niebieska i bardzo ładna.",
+     "de": "Meine Bluse ist blau und sehr schön.",
+     "fr": "Ma chemisier est bleu et très joli.",
+     "es": "Mi blusa es azul y muy bonita.",
+     "it": "La mia camicetta è blu e molto carina.",
+     "pt": "Minha blusa é azul e muito bonita.",
+     "tr": "Bluzum mavi ve çok güzel."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.tie",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/taɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wore a blue tie to the meeting.",
+     "uk": "Він носив синю краватку на зустріч.",
+     "ru": "Он надел синий галстук на встречу.",
+     "pl": "On miał na sobie niebieski krawat na spotkaniu.",
+     "de": "Er trug eine blaue Krawatte zum Treffen.",
+     "fr": "Il portait une cravate bleue à la réunion.",
+     "es": "Llevaba una corbata azul a la reunión.",
+     "it": "Indossava una cravatta blu per l'incontro.",
+     "pt": "Ele usava uma gravata azul na reunião.",
+     "tr": "Toplantıya mavi bir kravat taktı."
+    },
+    {
+     "en": "I need to buy a new tie for the wedding.",
+     "uk": "Мені потрібно купити нову краватку для весілля.",
+     "ru": "Мне нужно купить новый галстук для свадьбы.",
+     "pl": "Muszę kupić nowy krawat na wesele.",
+     "de": "Ich muss eine neue Krawatte für die Hochzeit kaufen.",
+     "fr": "Je dois acheter une nouvelle cravate pour le mariage.",
+     "es": "Necesito comprar una nueva corbata para la boda.",
+     "it": "Devo comprare una nuova cravatta per il matrimonio.",
+     "pt": "Preciso comprar uma nova gravata para o casamento.",
+     "tr": "Düğün için yeni bir kravat almam lazım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-look-for",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/lʊk fɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to look for my keys.",
+     "uk": "Мені потрібно шукати свої ключі.",
+     "ru": "Мне нужно искать свои ключи.",
+     "pl": "Muszę szukać moich kluczy.",
+     "de": "Ich muss nach meinen Schlüsseln suchen.",
+     "fr": "Je dois chercher mes clés.",
+     "es": "Necesito buscar mis llaves.",
+     "it": "Devo cercare le mie chiavi.",
+     "pt": "Preciso procurar minhas chaves.",
+     "tr": "Anahtarlarımı aramak zorundayım."
+    },
+    {
+     "en": "She is looking for her book in the library.",
+     "uk": "Вона шукає свою книгу в бібліотеці.",
+     "ru": "Она ищет свою книгу в библиотеке.",
+     "pl": "Ona szuka swojej książki w bibliotece.",
+     "de": "Sie sucht ihr Buch in der Bibliothek.",
+     "fr": "Elle cherche son livre dans la bibliothèque.",
+     "es": "Ella está buscando su libro en la biblioteca.",
+     "it": "Sta cercando il suo libro in biblioteca.",
+     "pt": "Ela está procurando seu livro na biblioteca.",
+     "tr": "Kütüphanede kitabını arıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.grocery-store",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈɡroʊsɚi stɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I buy fruits at the grocery store.",
+     "uk": "Я купую фрукти в продуктовому магазині.",
+     "ru": "Я покупаю фрукты в продуктовом магазине.",
+     "pl": "Kupuję owoce w sklepie spożywczym.",
+     "de": "Ich kaufe Obst im Lebensmittelgeschäft.",
+     "fr": "J'achète des fruits à l'épicerie.",
+     "es": "Compro frutas en la tienda de alimentación.",
+     "it": "Compro frutta nel negozio di alimentari.",
+     "pt": "Compro frutas na mercearia.",
+     "tr": "Bakkaldan meyve alıyorum."
+    },
+    {
+     "en": "The grocery store is near my house.",
+     "uk": "Продуктовий магазин поруч з моїм будинком.",
+     "ru": "Продуктовый магазин рядом с моим домом.",
+     "pl": "Sklep spożywczy jest blisko mojego domu.",
+     "de": "Das Lebensmittelgeschäft ist in der Nähe meines Hauses.",
+     "fr": "L'épicerie est près de ma maison.",
+     "es": "La tienda de alimentación está cerca de mi casa.",
+     "it": "Il negozio di alimentari è vicino a casa mia.",
+     "pt": "A mercearia fica perto da minha casa.",
+     "tr": "Bakkal evimin yakınında."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.pyjamas",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/pəˈdʒɑməz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear my pyjamas at night.",
+     "uk": "Я ношу свою піжаму вночі.",
+     "ru": "Я ношу свою пижаму ночью.",
+     "pl": "Noszę swoją piżamę w nocy.",
+     "de": "Ich trage meinen Schlafanzug nachts.",
+     "fr": "Je porte mon pyjama la nuit.",
+     "es": "Uso mi pijama por la noche.",
+     "it": "Indosso il mio pigiama di notte.",
+     "pt": "Eu uso meu pijama à noite.",
+     "tr": "Gece pijamamı giyiyorum."
+    },
+    {
+     "en": "She bought new pyjamas for winter.",
+     "uk": "Вона купила нову піжаму на зиму.",
+     "ru": "Она купила новую пижаму на зиму.",
+     "pl": "Kupiła nową piżamę na zimę.",
+     "de": "Sie hat einen neuen Schlafanzug für den Winter gekauft.",
+     "fr": "Elle a acheté un nouveau pyjama pour l'hiver.",
+     "es": "Ella compró un pijama nuevo para el invierno.",
+     "it": "Ha comprato un nuovo pigiama per l'inverno.",
+     "pt": "Ela comprou um pijama novo para o inverno.",
+     "tr": "Kış için yeni bir pijama aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.kiosk",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈkiˌɔsk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a newspaper at the kiosk.",
+     "uk": "Я купив газету в кіоску.",
+     "ru": "Я купил газету в киоске.",
+     "pl": "Kupiłem gazetę w kiosku.",
+     "de": "Ich habe eine Zeitung am Kiosk gekauft.",
+     "fr": "J'ai acheté un journal au kiosque.",
+     "es": "Compré un periódico en el quiosco.",
+     "it": "Ho comprato un giornale all'edicola.",
+     "pt": "Comprei um jornal no quiosque.",
+     "tr": "Kioskdan bir gazete aldım."
+    },
+    {
+     "en": "The kiosk sells snacks and drinks.",
+     "uk": "Кіоск продає закуски та напої.",
+     "ru": "Киоск продает закуски и напитки.",
+     "pl": "Kiosk sprzedaje przekąski i napoje.",
+     "de": "Der Kiosk verkauft Snacks und Getränke.",
+     "fr": "Le kiosque vend des collations et des boissons.",
+     "es": "El quiosco vende bocadillos y bebidas.",
+     "it": "Il chiosco vende snack e bevande.",
+     "pt": "O quiosque vende lanches e bebidas.",
+     "tr": "Büfe atıştırmalık ve içecek satıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.flower-shop",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈflaʊɚ ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought flowers at the flower shop.",
+     "uk": "Я купив квіти в квітковому магазині.",
+     "ru": "Я купил цветы в цветочном магазине.",
+     "pl": "Kupiłem kwiaty w kwiaciarni.",
+     "de": "Ich habe Blumen im Blumenladen gekauft.",
+     "fr": "J'ai acheté des fleurs chez le fleuriste.",
+     "es": "Compré flores en la floristería.",
+     "it": "Ho comprato fiori dal fioraio.",
+     "pt": "Comprei flores na floricultura.",
+     "tr": "Çiçekçiden çiçek aldım."
+    },
+    {
+     "en": "The flower shop has many beautiful roses.",
+     "uk": "У квітковому магазині багато красивих троянд.",
+     "ru": "В цветочном магазине много красивых роз.",
+     "pl": "W kwiaciarni jest wiele pięknych róż.",
+     "de": "Im Blumenladen gibt es viele schöne Rosen.",
+     "fr": "Le fleuriste a beaucoup de belles roses.",
+     "es": "La floristería tiene muchas rosas hermosas.",
+     "it": "Il fioraio ha molte belle rose.",
+     "pt": "A floricultura tem muitas rosas bonitas.",
+     "tr": "Çiçekçide birçok güzel gül var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.toy-shop",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/tɔɪ ʃɑp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to go to the toy shop today.",
+     "uk": "Я хочу піти до магазину іграшок сьогодні.",
+     "ru": "Я хочу пойти в магазин игрушек сегодня.",
+     "pl": "Chcę dzisiaj iść do sklepu z zabawkami.",
+     "de": "Ich möchte heute ins Spielwarengeschäft gehen.",
+     "fr": "Je veux aller au magasin de jouets aujourd'hui.",
+     "es": "Quiero ir a la juguetería hoy.",
+     "it": "Voglio andare al negozio di giocattoli oggi.",
+     "pt": "Quero ir à loja de brinquedos hoje.",
+     "tr": "Bugün oyuncakçıya gitmek istiyorum."
+    },
+    {
+     "en": "The toy shop has many fun games.",
+     "uk": "У магазині іграшок багато веселих ігор.",
+     "ru": "В магазине игрушек много веселых игр.",
+     "pl": "W sklepie z zabawkami jest wiele fajnych gier.",
+     "de": "Im Spielwarengeschäft gibt es viele lustige Spiele.",
+     "fr": "Le magasin de jouets a beaucoup de jeux amusants.",
+     "es": "La juguetería tiene muchos juegos divertidos.",
+     "it": "Il negozio di giocattoli ha molti giochi divertenti.",
+     "pt": "A loja de brinquedos tem muitos jogos divertidos.",
+     "tr": "Oyuncakçıda birçok eğlenceli oyun var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.sandals",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˈsændəlz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear sandals in the summer.",
+     "uk": "Я ношу сандалі влітку.",
+     "ru": "Я ношу сандалии летом.",
+     "pl": "Noszę sandały latem.",
+     "de": "Ich trage Sandalen im Sommer.",
+     "fr": "Je porte des sandales en été.",
+     "es": "Uso sandalias en verano.",
+     "it": "Indosso sandali in estate.",
+     "pt": "Uso sandálias no verão.",
+     "tr": "Yazın sandalet giyiyorum."
+    },
+    {
+     "en": "She bought new sandals for the beach.",
+     "uk": "Вона купила нові сандалі для пляжу.",
+     "ru": "Она купила новые сандалии для пляжа.",
+     "pl": "Kupiła nowe sandały na plażę.",
+     "de": "Sie hat neue Sandalen für den Strand gekauft.",
+     "fr": "Elle a acheté des sandales neuves pour la plage.",
+     "es": "Ella compró sandalias nuevas para la playa.",
+     "it": "Ha comprato nuovi sandali per la spiaggia.",
+     "pt": "Ela comprou sandálias novas para a praia.",
+     "tr": "Plaj için yeni sandaletler aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.a-pair-of-shoes",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ə pɛr ʌv ʃuz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to buy a pair of shoes.",
+     "uk": "Мені потрібно купити пару взуття.",
+     "ru": "Мне нужно купить пару обуви.",
+     "pl": "Muszę kupić parę butów.",
+     "de": "Ich muss ein Paar Schuhe kaufen.",
+     "fr": "Je dois acheter une paire de chaussures.",
+     "es": "Necesito comprar un par de zapatos.",
+     "it": "Devo comprare un paio di scarpe.",
+     "pt": "Preciso comprar um par de sapatos.",
+     "tr": "Bir çift ayakkabı almam lazım."
+    },
+    {
+     "en": "She found a nice pair of shoes.",
+     "uk": "Вона знайшла гарну пару взуття.",
+     "ru": "Она нашла хорошую пару обуви.",
+     "pl": "Ona znalazła ładną parę butów.",
+     "de": "Sie hat ein schönes Paar Schuhe gefunden.",
+     "fr": "Elle a trouvé une belle paire de chaussures.",
+     "es": "Ella encontró un bonito par de zapatos.",
+     "it": "Ha trovato un bel paio di scarpe.",
+     "pt": "Ela encontrou um par de sapatos bonitos.",
+     "tr": "Güzel bir çift ayakkabı buldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.store",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/stɔr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I go to the store every week.",
+     "uk": "Я ходжу до магазину кожного тижня.",
+     "ru": "Я хожу в магазин каждую неделю.",
+     "pl": "Chodzę do sklepu co tydzień.",
+     "de": "Ich gehe jede Woche in den Laden.",
+     "fr": "Je vais au magasin chaque semaine.",
+     "es": "Voy a la tienda cada semana.",
+     "it": "Vado al negozio ogni settimana.",
+     "pt": "Vou à loja toda semana.",
+     "tr": "Her hafta mağazaya gidiyorum."
+    },
+    {
+     "en": "The store is open from nine to five.",
+     "uk": "Магазин відкритий з дев'ятої до п'ятої.",
+     "ru": "Магазин открыт с девяти до пяти.",
+     "pl": "Sklep jest otwarty od dziewiątej do piątej.",
+     "de": "Der Laden ist von neun bis fünf Uhr geöffnet.",
+     "fr": "Le magasin est ouvert de neuf à cinq heures.",
+     "es": "La tienda está abierta de nueve a cinco.",
+     "it": "Il negozio è aperto dalle nove alle cinque.",
+     "pt": "A loja está aberta das nove às cinco.",
+     "tr": "Mağaza sabah dokuzdan akşam beşe kadar açık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.colour",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈkʌlɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your favorite colour?",
+     "uk": "Який твій улюблений колір?",
+     "ru": "Какой твой любимый цвет?",
+     "pl": "Jaki jest twój ulubiony kolor?",
+     "de": "Was ist deine Lieblingsfarbe?",
+     "fr": "Quelle est ta couleur préférée?",
+     "es": "¿Cuál es tu color favorito?",
+     "it": "Qual è il tuo colore preferito?",
+     "pt": "Qual é a sua cor favorita?",
+     "tr": "En sevdiğin renk nedir?"
+    },
+    {
+     "en": "The colour of the sky is blue.",
+     "uk": "Колір неба синій.",
+     "ru": "Цвет неба синий.",
+     "pl": "Kolor nieba jest niebieski.",
+     "de": "Die Farbe des Himmels ist blau.",
+     "fr": "La couleur du ciel est bleue.",
+     "es": "El color del cielo es azul.",
+     "it": "Il colore del cielo è blu.",
+     "pt": "A cor do céu é azul.",
+     "tr": "Gökyüzünün rengi mavidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.shoe-size",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ʃu saɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your shoe size?",
+     "uk": "Який у вас розмір взуття?",
+     "ru": "Какой у вас размер обуви?",
+     "pl": "Jaki masz rozmiar buta?",
+     "de": "Was ist deine Schuhgröße?",
+     "fr": "Quelle est ta pointure?",
+     "es": "¿Cuál es tu número de pie?",
+     "it": "Qual è il tuo numero di scarpe?",
+     "pt": "Qual é o seu número do sapato?",
+     "tr": "Ayakkabı numaran ne?"
+    },
+    {
+     "en": "These shoes are not my shoe size.",
+     "uk": "Te черевики не мого розміру взуття.",
+     "ru": "Эти туфли не моего размера обуви.",
+     "pl": "Te buty nie są w moim rozmiarze.",
+     "de": "Diese Schuhe sind nicht meine Schuhgröße.",
+     "fr": "Ces chaussures ne sont pas ma pointure.",
+     "es": "Estos zapatos no son mi número de pie.",
+     "it": "Queste scarpe non sono il mio numero.",
+     "pt": "Esses sapatos não são o meu número.",
+     "tr": "Bu ayakkabılar benim ayakkabı numaram değil."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.i-would-like",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/aɪ wʊd laɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I would like a cup of coffee.",
+     "uk": "Я б хотів чашку кави.",
+     "ru": "Я бы хотел чашку кофе.",
+     "pl": "Chciałbym filiżankę kawy.",
+     "de": "Ich hätte gern eine Tasse Kaffee.",
+     "fr": "Je voudrais une tasse de café.",
+     "es": "Quisiera una taza de café.",
+     "it": "Vorrei una tazza di caffè.",
+     "pt": "Eu queria uma xícara de café.",
+     "tr": "Bir fincan kahve isterim."
+    },
+    {
+     "en": "I would like to buy a book.",
+     "uk": "Я б хотів купити книгу.",
+     "ru": "Я бы хотел купить книгу.",
+     "pl": "Chciałbym kupić książkę.",
+     "de": "Ich hätte gern ein Buch.",
+     "fr": "Je voudrais acheter un livre.",
+     "es": "Quisiera comprar un libro.",
+     "it": "Vorrei comprare un libro.",
+     "pt": "Eu queria comprar um livro.",
+     "tr": "Bir kitap almak isterim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.butcher-s",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈbʊtʃɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to go to the butcher's.",
+     "uk": "Мені потрібно йти в м'ясну крамницю.",
+     "ru": "Мне нужно пойти в мясную лавку.",
+     "pl": "Muszę iść do sklepu mięsnego.",
+     "de": "Ich muss zur Metzgerei gehen.",
+     "fr": "Je dois aller à la boucherie.",
+     "es": "Necesito ir a la carnicería.",
+     "it": "Devo andare in macelleria.",
+     "pt": "Preciso ir ao açougue.",
+     "tr": "Kasaba gitmem gerekiyor."
+    },
+    {
+     "en": "The butcher's sells fresh meat.",
+     "uk": "У м'ясній крамниці продають свіже м'ясо.",
+     "ru": "В мясной лавке продают свежее мясо.",
+     "pl": "W sklepie mięsnym sprzedają świeże mięso.",
+     "de": "In der Metzgerei verkauft man frisches Fleisch.",
+     "fr": "La boucherie vend de la viande fraîche.",
+     "es": "La carnicería vende carne fresca.",
+     "it": "La macelleria vende carne fresca.",
+     "pt": "O açougue vende carne fresca.",
+     "tr": "Kasap taze et satıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.greengrocer-s",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈɡrinˌɡroʊsɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I buy vegetables at the greengrocer's.",
+     "uk": "Я купую овочі в овочевій крамниці.",
+     "ru": "Я покупаю овощи в овощном магазине.",
+     "pl": "Kupuję warzywa w warzywniaku.",
+     "de": "Ich kaufe Gemüse im Gemüseladen.",
+     "fr": "J'achète des légumes chez le primeur.",
+     "es": "Compro verduras en la frutería.",
+     "it": "Comprare verdure dal fruttivendolo.",
+     "pt": "Compro legumes na quitanda.",
+     "tr": "Sebzeleri manavdan alıyorum."
+    },
+    {
+     "en": "The greengrocer's has fresh fruits.",
+     "uk": "У овочевій крамниці є свіжі фрукти.",
+     "ru": "В овощном магазине есть свежие фрукты.",
+     "pl": "W warzywniaku są świeże owoce.",
+     "de": "Im Gemüseladen gibt es frisches Obst.",
+     "fr": "Le primeur a des fruits frais.",
+     "es": "La frutería tiene frutas frescas.",
+     "it": "Il fruttivendolo ha frutta fresca.",
+     "pt": "A quitanda tem frutas frescas.",
+     "tr": "Manavda taze meyve var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.trainers",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˈtreɪnɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear trainers for running.",
+     "uk": "Я ношу кросівки для бігу.",
+     "ru": "Я ношу кроссовки для бега.",
+     "pl": "Noszę buty sportowe do biegania.",
+     "de": "Ich trage Turnschuhe zum Laufen.",
+     "fr": "Je porte des baskets pour courir.",
+     "es": "Llevo zapatillas de deporte para correr.",
+     "it": "Indosso scarpe da ginnastica per correre.",
+     "pt": "Eu uso tênis para correr.",
+     "tr": "Koşmak için spor ayakkabı giyiyorum."
+    },
+    {
+     "en": "These trainers are very comfortable.",
+     "uk": "Ці кросівки дуже зручні.",
+     "ru": "Эти кроссовки очень удобные.",
+     "pl": "Te buty sportowe są bardzo wygodne.",
+     "de": "Diese Turnschuhe sind sehr bequem.",
+     "fr": "Ces baskets sont très confortables.",
+     "es": "Estas zapatillas de deporte son muy cómodas.",
+     "it": "Queste scarpe da ginnastica sono molto comode.",
+     "pt": "Esses tênis são muito confortáveis.",
+     "tr": "Bu spor ayakkabılar çok rahat."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.handbag",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈhændˌbæɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a new handbag yesterday.",
+     "uk": "Я купила нову сумочку вчора.",
+     "ru": "Я купила новую сумочку вчера.",
+     "pl": "Kupiłem nową torebkę wczoraj.",
+     "de": "Ich habe gestern eine neue Handtasche gekauft.",
+     "fr": "J'ai acheté un nouveau sac à main hier.",
+     "es": "Ayer compré un bolso nuevo.",
+     "it": "Ieri ho comprato una nuova borsetta.",
+     "pt": "Comprei uma nova bolsa ontem.",
+     "tr": "Dün yeni bir el çantası aldım."
+    },
+    {
+     "en": "Her handbag is very stylish.",
+     "uk": "Її сумочка дуже стильна.",
+     "ru": "Её сумочка очень стильная.",
+     "pl": "Jej torebka jest bardzo stylowa.",
+     "de": "Ihre Handtasche ist sehr stylisch.",
+     "fr": "Son sac à main est très élégant.",
+     "es": "Su bolso es muy elegante.",
+     "it": "La sua borsetta è molto elegante.",
+     "pt": "A bolsa dela é muito elegante.",
+     "tr": "Onun el çantası çok şık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.watch",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/wɑtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a new watch.",
+     "uk": "Мені потрібен новий наручний годинник.",
+     "ru": "Мне нужны новые наручные часы.",
+     "pl": "Potrzebuję nowego zegarka.",
+     "de": "Ich brauche eine neue Armbanduhr.",
+     "fr": "J'ai besoin d'une nouvelle montre.",
+     "es": "Necesito un reloj nuevo.",
+     "it": "Ho bisogno di un orologio nuovo.",
+     "pt": "Preciso de um relógio novo.",
+     "tr": "Yeni bir kol saatiye ihtiyacım var."
+    },
+    {
+     "en": "This watch is very expensive.",
+     "uk": "Цей наручний годинник дуже дорогий.",
+     "ru": "Эти наручные часы очень дорогие.",
+     "pl": "Ten zegarek jest bardzo drogi.",
+     "de": "Diese Armbanduhr ist sehr teuer.",
+     "fr": "Cette montre est très chère.",
+     "es": "Este reloj es muy caro.",
+     "it": "Questo orologio è molto costoso.",
+     "pt": "Este relógio é muito caro.",
+     "tr": "Bu kol saati çok pahalı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.jewellery",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈdʒuəlri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She loves wearing jewellery.",
+     "uk": "Вона любить носити прикраси.",
+     "ru": "Она любит носить украшения.",
+     "pl": "Ona uwielbia nosić biżuterię.",
+     "de": "Sie liebt es, Schmuck zu tragen.",
+     "fr": "Elle aime porter des bijoux.",
+     "es": "A ella le encanta llevar joyas.",
+     "it": "Le piace indossare gioielli.",
+     "pt": "Ela adora usar joias.",
+     "tr": "Takı takmayı çok seviyor."
+    },
+    {
+     "en": "I bought some jewellery for my mother.",
+     "uk": "Я купив кілька прикрас для мами.",
+     "ru": "Я купил несколько украшений для мамы.",
+     "pl": "Kupiłem kilka biżuterii dla mojej mamy.",
+     "de": "Ich habe etwas Schmuck für meine Mutter gekauft.",
+     "fr": "J'ai acheté des bijoux pour ma mère.",
+     "es": "Compré algunas joyas para mi madre.",
+     "it": "Ho comprato dei gioielli per mia madre.",
+     "pt": "Comprei algumas joias para minha mãe.",
+     "tr": "Annem için bazı mücevherler aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.necklace",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ˈnɛkləs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She has a beautiful necklace.",
+     "uk": "У неї є гарне намисто.",
+     "ru": "У нее красивое ожерелье.",
+     "pl": "Ona ma piękny naszyjnik.",
+     "de": "Sie hat eine schöne Halskette.",
+     "fr": "Elle a un beau collier.",
+     "es": "Ella tiene un collar hermoso.",
+     "it": "Ha una bella collana.",
+     "pt": "Ela tem um lindo colar.",
+     "tr": "Onun güzel bir kolyesi var."
+    },
+    {
+     "en": "I want to buy a necklace.",
+     "uk": "Я хочу купити намисто.",
+     "ru": "Я хочу купить ожерелье.",
+     "pl": "Chcę kupić naszyjnik.",
+     "de": "Ich möchte eine Halskette kaufen.",
+     "fr": "Je veux acheter un collier.",
+     "es": "Quiero comprar un collar.",
+     "it": "Voglio comprare una collana.",
+     "pt": "Quero comprar um colar.",
+     "tr": "Bir kolye almak istiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.earrings",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈɪrɪŋz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought new earrings for the party.",
+     "uk": "Я купила нові сережки на вечірку.",
+     "ru": "Я купила новые серьги на вечеринку.",
+     "pl": "Kupiłam nowe kolczyki na imprezę.",
+     "de": "Ich habe neue Ohrringe für die Party gekauft.",
+     "fr": "J'ai acheté de nouvelles boucles d'oreilles pour la fête.",
+     "es": "Compré nuevos pendientes para la fiesta.",
+     "it": "Ho comprato nuovi orecchini per la festa.",
+     "pt": "Comprei novos brincos para a festa.",
+     "tr": "Parti için yeni küpeler aldım."
+    },
+    {
+     "en": "She wears beautiful earrings every day.",
+     "uk": "Вона носить красиві сережки щодня.",
+     "ru": "Она носит красивые серьги каждый день.",
+     "pl": "Ona nosi piękne kolczyki codziennie.",
+     "de": "Sie trägt jeden Tag schöne Ohrringe.",
+     "fr": "Elle porte de belles boucles d'oreilles tous les jours.",
+     "es": "Ella lleva pendientes hermosos todos los días.",
+     "it": "Lei indossa orecchini bellissimi ogni giorno.",
+     "pt": "Ela usa brincos bonitos todos os dias.",
+     "tr": "Her gün güzel küpeler takıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.bracelet",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈbreɪslət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I received a silver bracelet as a gift.",
+     "uk": "Я отримала срібний браслет у подарунок.",
+     "ru": "Я получила серебряный браслет в подарок.",
+     "pl": "Dostałem srebrną bransoletkę w prezencie.",
+     "de": "Ich habe ein silbernes Armband als Geschenk bekommen.",
+     "fr": "J'ai reçu un bracelet en argent en cadeau.",
+     "es": "Recibí una pulsera de plata como regalo.",
+     "it": "Ho ricevuto un braccialetto d'argento in regalo.",
+     "pt": "Recebi uma pulseira de prata como presente.",
+     "tr": "Gümüş bir bilezik hediye aldım."
+    },
+    {
+     "en": "She has a colorful bracelet on her wrist.",
+     "uk": "В неї на зап'ясті кольоровий браслет.",
+     "ru": "На её запястье цветной браслет.",
+     "pl": "Na jej nadgarstku jest kolorowa bransoletka.",
+     "de": "Sie hat ein buntes Armband an ihrem Handgelenk.",
+     "fr": "Elle a un bracelet coloré à son poignet.",
+     "es": "Ella tiene una pulsera colorida en la muñeca.",
+     "it": "Lei ha un braccialetto colorato al polso.",
+     "pt": "Ela tem uma pulseira colorida no pulso.",
+     "tr": "Onun bileğinde renkli bir bilezik var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.to-wear",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/wɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to wear comfortable shoes.",
+     "uk": "Мені подобається носити зручне взуття.",
+     "ru": "Мне нравится носить удобную обувь.",
+     "pl": "Lubię nosić wygodne buty.",
+     "de": "Ich trage gerne bequeme Schuhe.",
+     "fr": "J'aime porter des chaussures confortables.",
+     "es": "Me gusta llevar zapatos cómodos.",
+     "it": "Mi piace indossare scarpe comode.",
+     "pt": "Gosto de usar sapatos confortáveis.",
+     "tr": "Rahat ayakkabılar giymeyi seviyorum."
+    },
+    {
+     "en": "She decided to wear a dress today.",
+     "uk": "Вона вирішила сьогодні носити сукню.",
+     "ru": "Она решила сегодня носить платье.",
+     "pl": "Ona postanowiła dzisiaj nosić sukienkę.",
+     "de": "Sie hat beschlossen, heute ein Kleid zu tragen.",
+     "fr": "Elle a décidé de porter une robe aujourd'hui.",
+     "es": "Decidió llevar un vestido hoy.",
+     "it": "Ha deciso di indossare un vestito oggi.",
+     "pt": "Ela decidiu usar um vestido hoje.",
+     "tr": "Bugün bir elbise giymeye karar verdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.present",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈprɛzənt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wrapped the present for my friend.",
+     "uk": "Я загорнула подарунок для свого друга.",
+     "ru": "Я завернула подарок для своего друга.",
+     "pl": "Zapakowałem prezent dla mojego przyjaciela.",
+     "de": "Ich habe das Geschenk für meinen Freund eingepackt.",
+     "fr": "J'ai emballé le cadeau pour mon ami.",
+     "es": "Envolví el regalo para mi amigo.",
+     "it": "Ho incartato il regalo per il mio amico.",
+     "pt": "Eu embrulhei o presente para meu amigo.",
+     "tr": "Arkadaşım için hediyeyi sardım."
+    },
+    {
+     "en": "She received a lovely present on her birthday.",
+     "uk": "Вона отримала милий подарунок на свій день народження.",
+     "ru": "Она получила милый подарок на свой день рождения.",
+     "pl": "Ona otrzymała piękny prezent na urodziny.",
+     "de": "Sie hat ein schönes Geschenk zu ihrem Geburtstag bekommen.",
+     "fr": "Elle a reçu un joli cadeau pour son anniversaire.",
+     "es": "Recibió un bonito regalo en su cumpleaños.",
+     "it": "Ha ricevuto un bel regalo per il suo compleanno.",
+     "pt": "Ela recebeu um lindo presente no seu aniversário.",
+     "tr": "Doğum gününde güzel bir hediye aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.paper-bag",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/ˈpeɪpɚ bæɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a paper bag for my groceries.",
+     "uk": "Мені потрібен паперовий пакет для продуктів.",
+     "ru": "Мне нужен бумажный пакет для продуктов.",
+     "pl": "Potrzebuję torby papierowej na zakupy.",
+     "de": "Ich brauche eine Papiertüte für meine Einkäufe.",
+     "fr": "J'ai besoin d'un sac en papier pour mes courses.",
+     "es": "Necesito una bolsa de papel para mis compras.",
+     "it": "Ho bisogno di un sacchetto di carta per la spesa.",
+     "pt": "Preciso de um saco de papel para as minhas compras.",
+     "tr": "Alışverişim için bir kâğıt torbaya ihtiyacım var."
+    },
+    {
+     "en": "She carried her lunch in a paper bag.",
+     "uk": "Вона несла обід у паперовому пакеті.",
+     "ru": "Она несла свой обед в бумажном пакете.",
+     "pl": "Niosła swój obiad w torbie papierowej.",
+     "de": "Sie trug ihr Mittagessen in einer Papiertüte.",
+     "fr": "Elle a porté son déjeuner dans un sac en papier.",
+     "es": "Llevó su almuerzo en una bolsa de papel.",
+     "it": "Ha portato il suo pranzo in un sacchetto di carta.",
+     "pt": "Ela levou o almoço em um saco de papel.",
+     "tr": "Öğle yemeğini bir kâğıt torbada taşıdı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.till",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/tɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I paid at the till for my groceries.",
+     "uk": "Я заплатила на касі за свої продукти.",
+     "ru": "Я заплатила на кассе за свои продукты.",
+     "pl": "Zapłaciłem przy kasie za moje zakupy.",
+     "de": "Ich habe an der Kasse für meine Lebensmittel bezahlt.",
+     "fr": "J'ai payé à la caisse pour mes courses.",
+     "es": "Pagué en la caja por mis compras.",
+     "it": "Ho pagato alla cassa per la mia spesa.",
+     "pt": "Paguei na caixa pelas minhas compras.",
+     "tr": "Alışverişim için kasada ödeme yaptım."
+    },
+    {
+     "en": "The till is busy with many customers.",
+     "uk": "Каса зайнята багатьма клієнтами.",
+     "ru": "Касса занята многими клиентами.",
+     "pl": "Kasa jest zajęta wieloma klientami.",
+     "de": "Die Kasse ist beschäftigt mit vielen Kunden.",
+     "fr": "La caisse est occupée avec de nombreux clients.",
+     "es": "La caja está ocupada con muchos clientes.",
+     "it": "La cassa è occupata con molti clienti.",
+     "pt": "A caixa está ocupada com muitos clientes.",
+     "tr": "Kasa birçok müşteriyle meşguldür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.a-kilo-of",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ə ˈkɪˌloʊ ʌv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to buy a kilo of apples.",
+     "uk": "Я хочу купити кілограм яблук.",
+     "ru": "Я хочу купить килограмм яблок.",
+     "pl": "Chcę kupić kilogram jabłek.",
+     "de": "Ich möchte ein Kilo Äpfel kaufen.",
+     "fr": "Je veux acheter un kilo de pommes.",
+     "es": "Quiero comprar un kilo de manzanas.",
+     "it": "Voglio comprare un chilo di mele.",
+     "pt": "Quero comprar um quilo de maçãs.",
+     "tr": "Bir kilo elma almak istiyorum."
+    },
+    {
+     "en": "Please give me a kilo of tomatoes.",
+     "uk": "Будь ласка, дайте мені кілограм помідорів.",
+     "ru": "Пожалуйста, дайте мне килограмм помидоров.",
+     "pl": "Proszę dać mi kilogram pomidorów.",
+     "de": "Bitte geben Sie mir ein Kilo Tomaten.",
+     "fr": "Veuillez me donner un kilo de tomates.",
+     "es": "Por favor, dame un kilo de tomates.",
+     "it": "Per favore, dammi un chilo di pomodori.",
+     "pt": "Por favor, me dê um quilo de tomates.",
+     "tr": "Lütfen bana bir kilo domates ver."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.underwear",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ˈʌndɚˌwɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to buy new underwear this weekend.",
+     "uk": "Мені потрібно купити нову нижню білизну цього вихідного.",
+     "ru": "Мне нужно купить новое нижнее белье на этих выходных.",
+     "pl": "Muszę kupić nową bieliznę w ten weekend.",
+     "de": "Ich muss dieses Wochenende neue Unterwäsche kaufen.",
+     "fr": "Je dois acheter de nouveaux sous-vêtements ce week-end.",
+     "es": "Necesito comprar ropa interior nueva este fin de semana.",
+     "it": "Devo comprare nuova biancheria intima questo fine settimana.",
+     "pt": "Preciso comprar roupa íntima nova este fim de semana.",
+     "tr": "Bu hafta sonu yeni iç çamaşırı almam gerekiyor."
+    },
+    {
+     "en": "She bought colorful underwear for summer.",
+     "uk": "Вона купила кольорову нижню білизну на літо.",
+     "ru": "Она купила цветное нижнее белье на лето.",
+     "pl": "Kupiła kolorową bieliznę na lato.",
+     "de": "Sie hat bunte Unterwäsche für den Sommer gekauft.",
+     "fr": "Elle a acheté des sous-vêtements colorés pour l'été.",
+     "es": "Compró ropa interior colorida para el verano.",
+     "it": "Ha comprato biancheria intima colorata per l'estate.",
+     "pt": "Ela comprou roupa íntima colorida para o verão.",
+     "tr": "Yaz için renkli iç çamaşırı aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.cap",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/kæp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He wears a baseball cap every day.",
+     "uk": "Він носить бейсбольну кепку щодня.",
+     "ru": "Он носит бейсбольную кепку каждый день.",
+     "pl": "On nosi czapkę z daszkiem codziennie.",
+     "de": "Er trägt jeden Tag eine Baseballkappe.",
+     "fr": "Il porte une casquette de baseball tous les jours.",
+     "es": "Él usa una gorra de béisbol todos los días.",
+     "it": "Lui indossa un berretto da baseball ogni giorno.",
+     "pt": "Ele usa um boné de beisebol todos os dias.",
+     "tr": "Her gün bir beyzbol şapkası takıyor."
+    },
+    {
+     "en": "I bought a new cap for summer.",
+     "uk": "Я купила нову кепку на літо.",
+     "ru": "Я купила новую кепку на лето.",
+     "pl": "Kupiłem nową czapkę na lato.",
+     "de": "Ich habe eine neue Kappe für den Sommer gekauft.",
+     "fr": "J'ai acheté une nouvelle casquette pour l'été.",
+     "es": "Compré una gorra nueva para el verano.",
+     "it": "Ho comprato un nuovo berretto per l'estate.",
+     "pt": "Comprei um novo boné para o verão.",
+     "tr": "Yaz için yeni bir şapka aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "shopping.too-big",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/tu bɪɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This shirt is too big for me.",
+     "uk": "Ця сорочка занадто велика для мене.",
+     "ru": "Эта рубашка слишком большая для меня.",
+     "pl": "Ta koszula jest za duża dla mnie.",
+     "de": "Dieses Hemd ist zu groß für mich.",
+     "fr": "Cette chemise est trop grande pour moi.",
+     "es": "Esta camisa es demasiado grande para mí.",
+     "it": "Questa camicia è troppo grande per me.",
+     "pt": "Esta camisa é grande demais para mim.",
+     "tr": "Bu gömlek benim için çok büyük."
+    },
+    {
+     "en": "The box is too big to carry.",
+     "uk": "Ця коробка занадто велика, щоб її нести.",
+     "ru": "Эта коробка слишком большая, чтобы ее нести.",
+     "pl": "Ta pudełko jest za duże, aby je przenieść.",
+     "de": "Die Box ist zu groß, um sie zu tragen.",
+     "fr": "La boîte est trop grande pour porter.",
+     "es": "La caja es demasiado grande para llevar.",
+     "it": "La scatola è troppo grande per portare.",
+     "pt": "A caixa é grande demais para carregar.",
+     "tr": "Kutu taşımak için çok büyük."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

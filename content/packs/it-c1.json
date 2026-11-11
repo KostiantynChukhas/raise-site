@@ -2,7 +2,7 @@
  "id": "it-c1",
  "topic": "it",
  "level": "c1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "it.to-deprecate",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˈdɛprəˌkeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The software will deprecate older versions next month.",
+     "uk": "Програмне забезпечення оголосить застарілими старі версії наступного місяця.",
+     "ru": "Программное обеспечение объявит устаревшими старые версии в следующем месяце.",
+     "pl": "Oprogramowanie wycofa starsze wersje w przyszłym miesiącu.",
+     "de": "Die Software wird nächste Woche ältere Versionen als veraltet markieren.",
+     "fr": "Le logiciel rendra obsolètes les anciennes versions le mois prochain.",
+     "es": "El software dejará obsoleto las versiones anteriores el próximo mes.",
+     "it": "Il software deprecherà le versioni più vecchie il mese prossimo.",
+     "pt": "O software descontinuará versões mais antigas no próximo mês.",
+     "tr": "Yazılım, gelecek ay eski sürümleri kullanımdan kaldıracak."
+    },
+    {
+     "en": "We need to deprecate this method due to security issues.",
+     "uk": "Нам потрібно оголосити цей метод застарілим через проблеми з безпекою.",
+     "ru": "Мы должны объявить этот метод устаревшим из-за проблем с безопасностью.",
+     "pl": "Musimy wycofać tę metodę z powodu problemów z bezpieczeństwem.",
+     "de": "Wir müssen diese Methode aufgrund von Sicherheitsproblemen als veraltet markieren.",
+     "fr": "Nous devons rendre obsolète cette méthode en raison de problèmes de sécurité.",
+     "es": "Necesitamos dejar obsoleto este método debido a problemas de seguridad.",
+     "it": "Dobbiamo deprecare questo metodo a causa di problemi di sicurezza.",
+     "pt": "Precisamos descontinuar este método devido a problemas de segurança.",
+     "tr": "Bu yöntemi güvenlik sorunları nedeniyle kullanımdan kaldırmalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-refactor",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/riˈfæktɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We plan to refactor the codebase for better performance.",
+     "uk": "Ми плануємо рефакторити код для кращої продуктивності.",
+     "ru": "Мы планируем рефакторить код для улучшения производительности.",
+     "pl": "Planujemy refaktoryzować kod w celu lepszej wydajności.",
+     "de": "Wir planen, den Code für eine bessere Leistung zu refaktorisieren.",
+     "fr": "Nous prévoyons de refactoriser le code pour de meilleures performances.",
+     "es": "Planeamos refactorizar el código para un mejor rendimiento.",
+     "it": "Pianifichiamo di rifattorizzare il codice per migliorare le prestazioni.",
+     "pt": "Planejamos refatorar o código para melhor desempenho.",
+     "tr": "Daha iyi performans için kodu yeniden yapılandırmayı planlıyoruz."
+    },
+    {
+     "en": "It's essential to refactor legacy systems regularly.",
+     "uk": "Важливо регулярно рефакторити застарілі системи.",
+     "ru": "Важно регулярно рефакторить устаревшие системы.",
+     "pl": "Ważne jest, aby regularnie refaktoryzować systemy dziedziczone.",
+     "de": "Es ist wichtig, veraltete Systeme regelmäßig zu refaktorisieren.",
+     "fr": "Il est essentiel de refactoriser régulièrement les systèmes hérités.",
+     "es": "Es esencial refactorizar los sistemas heredados regularmente.",
+     "it": "È essenziale rifattorizzare regolarmente i sistemi legacy.",
+     "pt": "É essencial refatorar sistemas legados regularmente.",
+     "tr": "Eski sistemleri düzenli olarak yeniden yapılandırmak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.single-point-of-failure",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/ˈsɪŋɡəl pɔɪnt ʌv ˈfeɪljɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Identify the single point of failure in your system.",
+     "uk": "Визначте єдину точку відмови у вашій системі.",
+     "ru": "Определите единую точку отказа в вашей системе.",
+     "pl": "Zidentyfikuj pojedynczy punkt awarii w swoim systemie.",
+     "de": "Identifizieren Sie den Single Point of Failure in Ihrem System.",
+     "fr": "Identifiez le point de défaillance unique dans votre système.",
+     "es": "Identifique el punto único de fallo en su sistema.",
+     "it": "Identifica il singolo punto di guasto nel tuo sistema.",
+     "pt": "Identifique o ponto único de falha em seu sistema.",
+     "tr": "Sisteminizdeki tek hata noktasını belirleyin."
+    },
+    {
+     "en": "A single point of failure can jeopardize the entire project.",
+     "uk": "Єдина точка відмови може поставити під загрозу весь проект.",
+     "ru": "Единая точка отказа может поставить под угрозу весь проект.",
+     "pl": "Pojedynczy punkt awarii może zagrozić całemu projektowi.",
+     "de": "Ein Single Point of Failure kann das gesamte Projekt gefährden.",
+     "fr": "Un point de défaillance unique peut compromettre l'ensemble du projet.",
+     "es": "Un punto único de fallo puede poner en peligro todo el proyecto.",
+     "it": "Un singolo punto di guasto può compromettere l'intero progetto.",
+     "pt": "Um ponto único de falha pode comprometer todo o projeto.",
+     "tr": "Tek hata noktası tüm projeyi tehlikeye atabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.vendor-lock-in",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/ˈvɛndɚ lɑk ɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Avoid vendor lock-in by using open standards.",
+     "uk": "Уникайте прив'язки до постачальника, використовуючи відкриті стандарти.",
+     "ru": "Избегайте привязки к поставщику, используя открытые стандарты.",
+     "pl": "Unikaj uzależnienia od dostawcy, korzystając z otwartych standardów.",
+     "de": "Vermeiden Sie Anbieterabhängigkeit, indem Sie offene Standards verwenden.",
+     "fr": "Évitez la dépendance à un fournisseur en utilisant des normes ouvertes.",
+     "es": "Evite la dependencia del proveedor utilizando estándares abiertos.",
+     "it": "Evita il vincolo al fornitore utilizzando standard aperti.",
+     "pt": "Evite a dependência de fornecedor usando padrões abertos.",
+     "tr": "Açık standartlar kullanarak tedarikçi bağımlılığından kaçının."
+    },
+    {
+     "en": "Vendor lock-in can limit your flexibility and options.",
+     "uk": "Прив'язка до постачальника може обмежити вашу гнучкість та варіанти.",
+     "ru": "Привязка к поставщику может ограничить вашу гибкость и варианты.",
+     "pl": "Uzależnienie od dostawcy może ograniczyć twoją elastyczność i opcje.",
+     "de": "Anbieterabhängigkeit kann Ihre Flexibilität und Optionen einschränken.",
+     "fr": "La dépendance à un fournisseur peut limiter votre flexibilité et vos options.",
+     "es": "La dependencia del proveedor puede limitar tu flexibilidad y opciones.",
+     "it": "Il vincolo al fornitore può limitare la tua flessibilità e opzioni.",
+     "pt": "A dependência de fornecedor pode limitar sua flexibilidade e opções.",
+     "tr": "Tedarikçi bağımlılığı, esnekliğinizi ve seçeneklerinizi sınırlayabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-sunset",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈsʌnˌsɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company will sunset the outdated application next year.",
+     "uk": "Компанія припинить підтримку застарілого додатку наступного року.",
+     "ru": "Компания закроет устаревшее приложение в следующем году.",
+     "pl": "Firma wygasi przestarzałą aplikację w przyszłym roku.",
+     "de": "Das Unternehmen wird die veraltete Anwendung nächstes Jahr einstellen.",
+     "fr": "L'entreprise mettra fin à l'application obsolète l'année prochaine.",
+     "es": "La empresa retirará la aplicación obsoleta el próximo año.",
+     "it": "L'azienda dismetterà l'applicazione obsoleta l'anno prossimo.",
+     "pt": "A empresa descontinuará o aplicativo desatualizado no próximo ano.",
+     "tr": "Şirket, eski uygulamayı gelecek yıl sonlandıracak."
+    },
+    {
+     "en": "They plan to sunset the service due to low usage.",
+     "uk": "Вони планують припинити підтримку сервісу через низьке використання.",
+     "ru": "Они планируют закрыть сервис из-за низкого использования.",
+     "pl": "Planują wygasić usługę z powodu niskiego użycia.",
+     "de": "Sie planen, den Dienst aufgrund geringer Nutzung einzustellen.",
+     "fr": "Ils prévoient de mettre fin au service en raison d'une faible utilisation.",
+     "es": "Planean retirar el servicio debido a su bajo uso.",
+     "it": "Pianificano di dismettere il servizio a causa del basso utilizzo.",
+     "pt": "Eles planejam descontinuar o serviço devido ao baixo uso.",
+     "tr": "Düşük kullanım nedeniyle hizmeti sonlandırmayı planlıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.resilience",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/rɪˈzɪliəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Her resilience helped her overcome many challenges.",
+     "uk": "Її стійкість допомогла їй подолати багато труднощів.",
+     "ru": "Ее отказоустойчивость помогла ей преодолеть многие трудности.",
+     "pl": "Jej odporność pomogła jej pokonać wiele wyzwań.",
+     "de": "Ihre Ausfallsicherheit hat ihr geholfen, viele Herausforderungen zu meistern.",
+     "fr": "Sa résilience l'a aidée à surmonter de nombreux défis.",
+     "es": "Su resiliencia le ayudó a superar muchos desafíos.",
+     "it": "La sua resilienza l'ha aiutata a superare molte sfide.",
+     "pt": "Sua resiliência a ajudou a superar muitos desafios.",
+     "tr": "Onun dayanıklılığı, birçok zorluğun üstesinden gelmesine yardımcı oldu."
+    },
+    {
+     "en": "Building resilience is essential for long-term success.",
+     "uk": "Побудова стійкості є важливою для довгострокового успіху.",
+     "ru": "Построение отказоустойчивости имеет решающее значение для долгосрочного успеха.",
+     "pl": "Budowanie odporności jest kluczowe dla długoterminowego sukcesu.",
+     "de": "Der Aufbau von Ausfallsicherheit ist entscheidend für den langfristigen Erfolg.",
+     "fr": "Construire la résilience est essentiel pour le succès à long terme.",
+     "es": "Construir resiliencia es esencial para el éxito a largo plazo.",
+     "it": "Costruire resilienza è fondamentale per il successo a lungo termine.",
+     "pt": "Construir resiliência é essencial para o sucesso a longo prazo.",
+     "tr": "Dayanıklılığı inşa etmek, uzun vadeli başarı için esastır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.observability",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/əbˌzɝvəˈbɪlɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Observability is key to understanding system performance.",
+     "uk": "Спостережуваність є ключем до розуміння продуктивності системи.",
+     "ru": "Наблюдаемость является ключом к пониманию производительности системы.",
+     "pl": "Obserwowalność jest kluczowa dla zrozumienia wydajności systemu.",
+     "de": "Beobachtbarkeit ist der Schlüssel zum Verständnis der Systemleistung.",
+     "fr": "L'observabilité est essentielle pour comprendre la performance du système.",
+     "es": "La observabilidad es clave para entender el rendimiento del sistema.",
+     "it": "L'osservabilità è fondamentale per comprendere le prestazioni del sistema.",
+     "pt": "A observabilidade é fundamental para entender o desempenho do sistema.",
+     "tr": "Gözlemlenebilirlik, sistem performansını anlamanın anahtarıdır."
+    },
+    {
+     "en": "Improving observability can enhance troubleshooting efforts.",
+     "uk": "Покращення спостережуваності може підвищити зусилля з усунення неполадок.",
+     "ru": "Улучшение наблюдаемости может повысить усилия по устранению неполадок.",
+     "pl": "Poprawa obserwowalności może zwiększyć wysiłki w rozwiązywaniu problemów.",
+     "de": "Die Verbesserung der Beobachtbarkeit kann die Fehlersuche verbessern.",
+     "fr": "Améliorer l'observabilité peut renforcer les efforts de dépannage.",
+     "es": "Mejorar la observabilidad puede mejorar los esfuerzos de resolución de problemas.",
+     "it": "Migliorare l'osservabilità può potenziare gli sforzi di risoluzione dei problemi.",
+     "pt": "Melhorar a observabilidade pode aumentar os esforços de solução de problemas.",
+     "tr": "Gözlemlenebilirliği artırmak, sorun giderme çabalarını geliştirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.throughput",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˈθruˌpʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The system's throughput needs to be optimized for efficiency.",
+     "uk": "Пропускна спроможність системи повинна бути оптимізована для ефективності.",
+     "ru": "Производительность системы должна быть оптимизирована для повышения эффективности.",
+     "pl": "Przepustowość systemu musi być zoptymalizowana pod kątem wydajności.",
+     "de": "Der Durchsatz des Systems muss für die Effizienz optimiert werden.",
+     "fr": "Le débit du système doit être optimisé pour l'efficacité.",
+     "es": "El rendimiento del sistema necesita ser optimizado para la eficiencia.",
+     "it": "La velocità effettiva del sistema deve essere ottimizzata per l'efficienza.",
+     "pt": "A vazão do sistema precisa ser otimizada para eficiência.",
+     "tr": "Sistemin iş hacminin verimlilik için optimize edilmesi gerekiyor."
+    },
+    {
+     "en": "Increasing throughput can lead to better user experiences.",
+     "uk": "Збільшення пропускної спроможності може призвести до покращення досвіду користувачів.",
+     "ru": "Увеличение производительности может привести к лучшему пользовательскому опыту.",
+     "pl": "Zwiększenie przepustowości może prowadzić do lepszego doświadczenia użytkownika.",
+     "de": "Eine Erhöhung des Durchsatzes kann zu besseren Benutzererfahrungen führen.",
+     "fr": "Augmenter le débit peut améliorer l'expérience utilisateur.",
+     "es": "Aumentar el rendimiento puede llevar a una mejor experiencia del usuario.",
+     "it": "Aumentare la velocità effettiva può portare a migliori esperienze utente.",
+     "pt": "Aumentar a vazão pode levar a uma melhor experiência do usuário.",
+     "tr": "İş hacmini artırmak, kullanıcı deneyimlerini iyileştirebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.redundancy",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/rɪˈdʌndənsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Redundancy in systems increases reliability and availability.",
+     "uk": "Резервування в системах підвищує надійність і доступність.",
+     "ru": "Резервирование в системах повышает надежность и доступность.",
+     "pl": "Nadmiarowość w systemach zwiększa niezawodność i dostępność.",
+     "de": "Redundanz in Systemen erhöht die Zuverlässigkeit und Verfügbarkeit.",
+     "fr": "La redondance dans les systèmes augmente la fiabilité et la disponibilité.",
+     "es": "La redundancia en los sistemas aumenta la confiabilidad y disponibilidad.",
+     "it": "La ridondanza nei sistemi aumenta l'affidabilità e la disponibilità.",
+     "pt": "A redundância em sistemas aumenta a confiabilidade e a disponibilidade.",
+     "tr": "Sistemlerdeki yedeklilik, güvenilirliği ve kullanılabilirliği artırır."
+    },
+    {
+     "en": "Implementing redundancy can prevent system failures.",
+     "uk": "Впровадження резервування може запобігти відмовам системи.",
+     "ru": "Внедрение резервирования может предотвратить сбои системы.",
+     "pl": "Wdrożenie nadmiarowości może zapobiec awariom systemu.",
+     "de": "Die Implementierung von Redundanz kann Systemausfälle verhindern.",
+     "fr": "La mise en œuvre de la redondance peut prévenir les pannes du système.",
+     "es": "Implementar redundancia puede prevenir fallos del sistema.",
+     "it": "Implementare la ridondanza può prevenire i guasti del sistema.",
+     "pt": "Implementar redundância pode prevenir falhas do sistema.",
+     "tr": "Yedekliliği uygulamak, sistem arızalarını önleyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.failover",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ˈfeɪlˌoʊvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The system supports automatic failover for maximum uptime.",
+     "uk": "Система підтримує автоматичне аварійне перемикання для максимальної доступності.",
+     "ru": "Система поддерживает автоматическое аварийное переключение для максимального времени безотказной работы.",
+     "pl": "System obsługuje automatyczne przełączanie awaryjne dla maksymalnej dostępności.",
+     "de": "Das System unterstützt automatisches Failover für maximale Betriebszeit.",
+     "fr": "Le système prend en charge le basculement automatique pour un maximum de disponibilité.",
+     "es": "El sistema admite conmutación por error automática para el máximo tiempo de actividad.",
+     "it": "Il sistema supporta il failover automatico per il massimo tempo di attività.",
+     "pt": "O sistema suporta failover automático para o máximo de tempo de atividade.",
+     "tr": "Sistem, maksimum çalışma süresi için otomatik yük devretmeyi destekler."
+    },
+    {
+     "en": "Failover mechanisms ensure continuity during outages.",
+     "uk": "Механізми аварійного перемикання забезпечують безперервність під час відключень.",
+     "ru": "Механизмы аварийного переключения обеспечивают непрерывность во время отключений.",
+     "pl": "Mechanizmy przełączania awaryjnego zapewniają ciągłość podczas awarii.",
+     "de": "Failover-Mechanismen gewährleisten die Kontinuität während Ausfällen.",
+     "fr": "Les mécanismes de basculement garantissent la continuité pendant les pannes.",
+     "es": "Los mecanismos de conmutación por error garantizan la continuidad durante las interrupciones.",
+     "it": "I meccanismi di failover garantiscono la continuità durante le interruzioni.",
+     "pt": "Os mecanismos de failover garantem a continuidade durante as interrupções.",
+     "tr": "Acil geçiş mekanizmaları, kesintiler sırasında sürekliliği sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-provision",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/prəˈvɪʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to provision the team with necessary tools.",
+     "uk": "Нам потрібно виділити команді необхідні інструменти.",
+     "ru": "Нам нужно выделить команде необходимые инструменты.",
+     "pl": "Musimy udostępnić zespołowi niezbędne narzędzia.",
+     "de": "Wir müssen das Team mit notwendigen Werkzeugen bereitstellen.",
+     "fr": "Nous devons provisionner l'équipe avec les outils nécessaires.",
+     "es": "Necesitamos aprovisionar al equipo con las herramientas necesarias.",
+     "it": "Dobbiamo predisporre il team degli strumenti necessari.",
+     "pt": "Precisamos provisionar a equipe com as ferramentas necessárias.",
+     "tr": "Ekibi gerekli araçlarla sağlamalıyız."
+    },
+    {
+     "en": "The project manager will provision additional resources soon.",
+     "uk": "Менеджер проекту найближчим часом виділить додаткові ресурси.",
+     "ru": "Руководитель проекта вскоре выделит дополнительные ресурсы.",
+     "pl": "Kierownik projektu wkrótce udostępni dodatkowe zasoby.",
+     "de": "Der Projektmanager wird bald zusätzliche Ressourcen bereitstellen.",
+     "fr": "Le chef de projet va bientôt provisionner des ressources supplémentaires.",
+     "es": "El gerente del proyecto aprovisionará recursos adicionales pronto.",
+     "it": "Il project manager predisporrà presto risorse aggiuntive.",
+     "pt": "O gerente de projeto provisionará recursos adicionais em breve.",
+     "tr": "Proje yöneticisi yakında ek kaynaklar sağlayacak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.compliance",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/kəmˈplaɪəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company ensures compliance with all regulations.",
+     "uk": "Компанія забезпечує відповідність усім вимогам.",
+     "ru": "Компания обеспечивает соответствие всем требованиям.",
+     "pl": "Firma zapewnia zgodność ze wszystkimi przepisami.",
+     "de": "Das Unternehmen stellt die Compliance mit allen Vorschriften sicher.",
+     "fr": "L'entreprise garantit la conformité à toutes les réglementations.",
+     "es": "La empresa asegura el cumplimiento normativo de todas las regulaciones.",
+     "it": "L'azienda garantisce la conformità a tutte le normative.",
+     "pt": "A empresa garante a conformidade com todas as regulamentações.",
+     "tr": "Şirket, tüm düzenlemelere uyumu sağlıyor."
+    },
+    {
+     "en": "Compliance audits are conducted annually to ensure standards.",
+     "uk": "Аудити відповідності проводяться щорічно для забезпечення стандартів.",
+     "ru": "Аудиты соответствия проводятся ежегодно для обеспечения стандартов.",
+     "pl": "Audyty zgodności przeprowadzane są corocznie w celu zapewnienia standardów.",
+     "de": "Compliance-Prüfungen werden jährlich durchgeführt, um Standards zu gewährleisten.",
+     "fr": "Des audits de conformité sont effectués chaque année pour garantir les normes.",
+     "es": "Las auditorías de cumplimiento se realizan anualmente para asegurar estándares.",
+     "it": "Gli audit di conformità vengono effettuati annualmente per garantire standard.",
+     "pt": "Auditorias de conformidade são realizadas anualmente para garantir padrões.",
+     "tr": "Uyumluluk denetimleri, standartları sağlamak için yıllık olarak yapılır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.postmortem",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/ˌpoʊstˈmɔrtɛm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We held a postmortem to analyze the recent failure.",
+     "uk": "Ми провели розбір інциденту, щоб проаналізувати нещодавню помилку.",
+     "ru": "Мы провели разбор инцидента, чтобы проанализировать недавний сбой.",
+     "pl": "Przeprowadziliśmy analizę po incydencie, aby zbadać ostatnią awarię.",
+     "de": "Wir haben eine Nachbesprechung abgehalten, um den jüngsten Fehler zu analysieren.",
+     "fr": "Nous avons tenu une analyse post-incident pour examiner l'échec récent.",
+     "es": "Realizamos un análisis post mortem para examinar el fallo reciente.",
+     "it": "Abbiamo tenuto un'analisi post mortem per esaminare il recente fallimento.",
+     "pt": "Realizamos uma análise post-mortem para examinar a falha recente.",
+     "tr": "Son hatayı analiz etmek için olay sonrası bir analiz yaptık."
+    },
+    {
+     "en": "The postmortem revealed critical areas for improvement.",
+     "uk": "Розбір інциденту виявив критичні області для покращення.",
+     "ru": "Разбор инцидента выявил критические области для улучшения.",
+     "pl": "Analiza po incydencie ujawniła kluczowe obszary do poprawy.",
+     "de": "Die Nachbesprechung offenbarte kritische Verbesserungsbereiche.",
+     "fr": "L'analyse post-incident a révélé des domaines critiques à améliorer.",
+     "es": "El análisis post mortem reveló áreas críticas para mejorar.",
+     "it": "L'analisi post mortem ha rivelato aree critiche da migliorare.",
+     "pt": "A análise post-mortem revelou áreas críticas para melhoria.",
+     "tr": "Olay sonrası analiz, iyileştirilmesi gereken kritik alanları ortaya çıkardı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.root-cause",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/rut kɑz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Identifying the root cause is essential for effective solutions.",
+     "uk": "Визначення першопричини є важливим для ефективних рішень.",
+     "ru": "Определение первопричины необходимо для эффективных решений.",
+     "pl": "Identyfikacja przyczyny źródłowej jest kluczowa dla skutecznych rozwiązań.",
+     "de": "Die Identifizierung der Grundursache ist entscheidend für effektive Lösungen.",
+     "fr": "Identifier la cause profonde est essentiel pour des solutions efficaces.",
+     "es": "Identificar la causa raíz es esencial para soluciones efectivas.",
+     "it": "Identificare la causa principale è essenziale per soluzioni efficaci.",
+     "pt": "Identificar a causa raiz é essencial para soluções eficazes.",
+     "tr": "Kök nedenin belirlenmesi, etkili çözümler için önemlidir."
+    },
+    {
+     "en": "The team focused on the root cause of the issue.",
+     "uk": "Команда зосередилася на першопричині проблеми.",
+     "ru": "Команда сосредоточилась на первопричине проблемы.",
+     "pl": "Zespół skupił się na przyczynie źródłowej problemu.",
+     "de": "Das Team konzentrierte sich auf die Grundursache des Problems.",
+     "fr": "L'équipe s'est concentrée sur la cause profonde du problème.",
+     "es": "El equipo se centró en la causa raíz del problema.",
+     "it": "Il team si è concentrato sulla causa principale del problema.",
+     "pt": "A equipe se concentrou na causa raiz do problema.",
+     "tr": "Ekip, sorunun kök nedenine odaklandı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-mitigate",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/ˈmɪtəˌɡeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We must find ways to mitigate the risks involved.",
+     "uk": "Ми повинні знайти способи пом'якшити пов'язані ризики.",
+     "ru": "Мы должны найти способы смягчить связанные риски.",
+     "pl": "Musimy znaleźć sposoby, aby ograniczyć związane ryzyko.",
+     "de": "Wir müssen Wege finden, um die damit verbundenen Risiken abzumildern.",
+     "fr": "Nous devons trouver des moyens d'atténuer les risques impliqués.",
+     "es": "Debemos encontrar formas de mitigar los riesgos involucrados.",
+     "it": "Dobbiamo trovare modi per mitigare i rischi coinvolti.",
+     "pt": "Precisamos encontrar maneiras de mitigar os riscos envolvidos.",
+     "tr": "İlgili riskleri hafifletmenin yollarını bulmalıyız."
+    },
+    {
+     "en": "The new policy aims to mitigate environmental impacts.",
+     "uk": "Нова політика має на меті пом'якшити вплив на довкілля.",
+     "ru": "Новая политика направлена на смягчение воздействия на окружающую среду.",
+     "pl": "Nowa polityka ma na celu ograniczenie wpływu na środowisko.",
+     "de": "Die neue Richtlinie zielt darauf ab, die Umweltauswirkungen abzumildern.",
+     "fr": "La nouvelle politique vise à atténuer les impacts environnementaux.",
+     "es": "La nueva política tiene como objetivo mitigar los impactos ambientales.",
+     "it": "La nuova politica mira a mitigare gli impatti ambientali.",
+     "pt": "A nova política visa mitigar os impactos ambientais.",
+     "tr": "Yeni politika, çevresel etkileri hafifletmeyi hedefliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.edge-case",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ɛdʒ keɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This is an edge case that requires special handling.",
+     "uk": "Це граничний випадок, який потребує особливого підходу.",
+     "ru": "Это крайний случай, требующий особого подхода.",
+     "pl": "To przypadek brzegowy, który wymaga specjalnego traktowania.",
+     "de": "Dies ist ein Grenzfall, der eine besondere Behandlung erfordert.",
+     "fr": "C'est un cas limite qui nécessite un traitement spécial.",
+     "es": "Este es un caso límite que requiere un manejo especial.",
+     "it": "Questo è un caso limite che richiede un trattamento speciale.",
+     "pt": "Este é um caso extremo que requer um tratamento especial.",
+     "tr": "Bu, özel bir işlem gerektiren bir uç durumdur."
+    },
+    {
+     "en": "We need to document the edge case for future reference.",
+     "uk": "Нам потрібно задокументувати граничний випадок для майбутнього.",
+     "ru": "Нам нужно задокументировать крайний случай для будущего.",
+     "pl": "Musimy udokumentować przypadek brzegowy na przyszłość.",
+     "de": "Wir müssen den Grenzfall für zukünftige Referenz dokumentieren.",
+     "fr": "Nous devons documenter le cas limite pour référence future.",
+     "es": "Necesitamos documentar el caso límite para referencia futura.",
+     "it": "Dobbiamo documentare il caso limite per riferimento futuro.",
+     "pt": "Precisamos documentar o caso extremo para referência futura.",
+     "tr": "Gelecek için uç durumu belgelerle kayıt altına almalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.hotfix",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˈhɑtˌfɪks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The developer released a hotfix to address the bug.",
+     "uk": "Розробник випустив термінове виправлення для усунення помилки.",
+     "ru": "Разработчик выпустил хотфикс для устранения ошибки.",
+     "pl": "Programista wydał poprawkę awaryjną, aby naprawić błąd.",
+     "de": "Der Entwickler veröffentlichte einen Hotfix zur Behebung des Fehlers.",
+     "fr": "Le développeur a publié un correctif urgent pour résoudre le bogue.",
+     "es": "El desarrollador lanzó un parche urgente para solucionar el error.",
+     "it": "Lo sviluppatore ha rilasciato un hotfix per risolvere il bug.",
+     "pt": "O desenvolvedor lançou um hotfix para corrigir o bug.",
+     "tr": "Geliştirici hatayı gidermek için bir acil düzeltme yayınladı."
+    },
+    {
+     "en": "We need to apply the hotfix to the production server.",
+     "uk": "Нам потрібно застосувати термінове виправлення до виробничого сервера.",
+     "ru": "Нам нужно применить хотфикс к производственному серверу.",
+     "pl": "Musimy zastosować poprawkę awaryjną na serwerze produkcyjnym.",
+     "de": "Wir müssen den Hotfix auf dem Produktionsserver anwenden.",
+     "fr": "Nous devons appliquer le correctif urgent sur le serveur de production.",
+     "es": "Necesitamos aplicar el parche urgente en el servidor de producción.",
+     "it": "Dobbiamo applicare il hotfix al server di produzione.",
+     "pt": "Precisamos aplicar o hotfix no servidor de produção.",
+     "tr": "Üretim sunucusuna acil düzeltmeyi uygulamamız gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.regression",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/rəˈɡrɛʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The latest update caused a regression in performance.",
+     "uk": "Останнє оновлення викликало регресію в продуктивності.",
+     "ru": "Последнее обновление вызвало регрессию в производительности.",
+     "pl": "Ostatnia aktualizacja spowodowała regresję wydajności.",
+     "de": "Das letzte Update hat eine Regression in der Leistung verursacht.",
+     "fr": "La dernière mise à jour a provoqué une régression des performances.",
+     "es": "La última actualización causó una regresión en el rendimiento.",
+     "it": "L'ultimo aggiornamento ha causato una regressione nelle prestazioni.",
+     "pt": "A última atualização causou uma regressão no desempenho.",
+     "tr": "Son güncelleme, performansta bir gerilemeye neden oldu."
+    },
+    {
+     "en": "Regression testing is crucial before the final release.",
+     "uk": "Регресійне тестування є важливим перед фінальним релізом.",
+     "ru": "Регрессионное тестирование критически важно перед финальным релизом.",
+     "pl": "Testowanie regresji jest kluczowe przed ostatecznym wydaniem.",
+     "de": "Regressionstests sind entscheidend vor der endgültigen Veröffentlichung.",
+     "fr": "Les tests de régression sont cruciaux avant la publication finale.",
+     "es": "Las pruebas de regresión son cruciales antes del lanzamiento final.",
+     "it": "I test di regressione sono fondamentali prima del rilascio finale.",
+     "pt": "Os testes de regressão são cruciais antes do lançamento final.",
+     "tr": "Son sürümden önce regresyon testleri çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.churn",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/tʃɝn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company is facing high customer churn this quarter.",
+     "uk": "Компанія стикається з високим відтоком клієнтів цього кварталу.",
+     "ru": "Компания сталкивается с высоким оттоком клиентов в этом квартале.",
+     "pl": "Firma boryka się z wysokim odpływem klientów w tym kwartale.",
+     "de": "Das Unternehmen hat in diesem Quartal eine hohe Abwanderung.",
+     "fr": "L'entreprise fait face à une forte attrition ce trimestre.",
+     "es": "La empresa enfrenta una alta tasa de cancelación este trimestre.",
+     "it": "L'azienda sta affrontando un alto tasso di abbandono questo trimestre.",
+     "pt": "A empresa está enfrentando uma alta taxa de churn neste trimestre.",
+     "tr": "Şirket, bu çeyrekte yüksek müşteri kaybı yaşıyor."
+    },
+    {
+     "en": "Strategies are needed to reduce customer churn effectively.",
+     "uk": "Потрібні стратегії для ефективного зменшення відтоку клієнтів.",
+     "ru": "Необходимы стратегии для эффективного снижения оттока клиентов.",
+     "pl": "Potrzebne są strategie, aby skutecznie zmniejszyć odpływ klientów.",
+     "de": "Es werden Strategien benötigt, um die Abwanderung effektiv zu reduzieren.",
+     "fr": "Des stratégies sont nécessaires pour réduire efficacement l'attrition.",
+     "es": "Se necesitan estrategias para reducir efectivamente la tasa de cancelación.",
+     "it": "Sono necessarie strategie per ridurre efficacemente l'abbandono.",
+     "pt": "Estratégias são necessárias para reduzir efetivamente o churn.",
+     "tr": "Müşteri kaybını etkili bir şekilde azaltmak için stratejilere ihtiyaç var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-triage",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ˈtraɪɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to triage the tasks based on urgency.",
+     "uk": "Нам потрібно сортувати завдання за терміновістю.",
+     "ru": "Нам нужно триажировать задачи по срочности.",
+     "pl": "Musimy ustalić priorytety zadań na podstawie pilności.",
+     "de": "Wir müssen die Aufgaben nach Dringlichkeit sichten.",
+     "fr": "Nous devons trier les tâches en fonction de l'urgence.",
+     "es": "Necesitamos clasificar las tareas según su urgencia.",
+     "it": "Dobbiamo smistare i compiti in base all'urgenza.",
+     "pt": "Precisamos triar as tarefas com base na urgência.",
+     "tr": "Görevleri aciliyetine göre önceliğe göre ayırmalıyız."
+    },
+    {
+     "en": "Triage is essential in emergency response situations.",
+     "uk": "Сортування є необхідним у ситуаціях екстреного реагування.",
+     "ru": "Триажирование необходимо в ситуациях экстренного реагирования.",
+     "pl": "Ustalanie priorytetów jest kluczowe w sytuacjach awaryjnych.",
+     "de": "Sichten ist entscheidend in Notfallsituationen.",
+     "fr": "Le tri est essentiel dans les situations d'urgence.",
+     "es": "El triage es esencial en situaciones de emergencia.",
+     "it": "Lo smistamento è essenziale nelle situazioni di emergenza.",
+     "pt": "O triagem é essencial em situações de emergência.",
+     "tr": "Acil durumlarda önceliklendirme hayati önem taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-decouple",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/diˈkʌpəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to decouple these systems for better performance.",
+     "uk": "Нам потрібно роз'єднати ці системи для кращої продуктивності.",
+     "ru": "Нам нужно разделить эти системы для повышения производительности.",
+     "pl": "Musimy rozdzielić te systemy dla lepszej wydajności.",
+     "de": "Wir müssen diese Systeme entkoppeln, um die Leistung zu verbessern.",
+     "fr": "Nous devons découpler ces systèmes pour de meilleures performances.",
+     "es": "Necesitamos desacoplar estos sistemas para un mejor rendimiento.",
+     "it": "Dobbiamo disaccoppiare questi sistemi per migliorare le prestazioni.",
+     "pt": "Precisamos desacoplar esses sistemas para um melhor desempenho.",
+     "tr": "Bu sistemleri daha iyi performans için ayrıştırmamız gerekiyor."
+    },
+    {
+     "en": "Decoupling will allow for more flexibility in development.",
+     "uk": "Роз'єднання дозволить більше гнучкості в розробці.",
+     "ru": "Разделение позволит добиться большей гибкости в разработке.",
+     "pl": "Rozdzielenie pozwoli na większą elastyczność w rozwoju.",
+     "de": "Das Entkoppeln ermöglicht mehr Flexibilität in der Entwicklung.",
+     "fr": "Le découplage permettra plus de flexibilité dans le développement.",
+     "es": "El desacoplamiento permitirá más flexibilidad en el desarrollo.",
+     "it": "Il disaccoppiamento permetterà maggiore flessibilità nello sviluppo.",
+     "pt": "O desacoplamento permitirá mais flexibilidade no desenvolvimento.",
+     "tr": "Ayrıştırma, geliştirmede daha fazla esneklik sağlayacaktır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.interoperability",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˌɪntɚˌɑpɚəˈbɪlɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Interoperability is crucial for seamless communication between systems.",
+     "uk": "Сумісність є критично важливою для безперебійної комунікації між системами.",
+     "ru": "Совместимость важна для бесшовной связи между системами.",
+     "pl": "Interoperacyjność jest kluczowa dla płynnej komunikacji między systemami.",
+     "de": "Interoperabilität ist entscheidend für nahtlose Kommunikation zwischen Systemen.",
+     "fr": "L'interopérabilité est cruciale pour une communication fluide entre les systèmes.",
+     "es": "La interoperabilidad es crucial para una comunicación fluida entre sistemas.",
+     "it": "L'interoperabilità è fondamentale per una comunicazione fluida tra i sistemi.",
+     "pt": "A interoperabilidade é crucial para uma comunicação fluida entre sistemas.",
+     "tr": "Birlikte çalışabilirlik, sistemler arasında kesintisiz iletişim için çok önemlidir."
+    },
+    {
+     "en": "We must ensure interoperability to improve user experience.",
+     "uk": "Ми повинні забезпечити сумісність, щоб покращити досвід користувача.",
+     "ru": "Мы должны обеспечить совместимость, чтобы улучшить пользовательский опыт.",
+     "pl": "Musimy zapewnić interoperacyjność, aby poprawić doświadczenia użytkowników.",
+     "de": "Wir müssen die Interoperabilität sicherstellen, um das Nutzererlebnis zu verbessern.",
+     "fr": "Nous devons garantir l'interopérabilité pour améliorer l'expérience utilisateur.",
+     "es": "Debemos garantizar la interoperabilidad para mejorar la experiencia del usuario.",
+     "it": "Dobbiamo garantire l'interoperabilità per migliorare l'esperienza utente.",
+     "pt": "Devemos garantir a interoperabilidade para melhorar a experiência do usuário.",
+     "tr": "Kullanıcı deneyimini geliştirmek için birlikte çalışabilirliği sağlamalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.hardening",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈhɑrdənɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Hardening our systems is essential against cyber threats.",
+     "uk": "Посилення захисту наших систем є важливим проти кіберзагроз.",
+     "ru": "Усиление защиты наших систем необходимо против киберугроз.",
+     "pl": "Utwardzanie naszych systemów jest niezbędne w obliczu zagrożeń cybernetycznych.",
+     "de": "Die Härtung unserer Systeme ist entscheidend gegen Cyberbedrohungen.",
+     "fr": "Le durcissement de nos systèmes est essentiel contre les menaces cybernétiques.",
+     "es": "El endurecimiento de nuestros sistemas es esencial contra las amenazas cibernéticas.",
+     "it": "L'irrobustimento dei nostri sistemi è essenziale contro le minacce informatiche.",
+     "pt": "O fortalecimento de nossos sistemas é essencial contra ameaças cibernéticas.",
+     "tr": "Sistemlerimizi sıkılaştırmak, siber tehditlere karşı gereklidir."
+    },
+    {
+     "en": "We focus on hardening security measures regularly.",
+     "uk": "Ми регулярно зосереджуємося на посиленні заходів безпеки.",
+     "ru": "Мы регулярно сосредотачиваемся на усилении мер безопасности.",
+     "pl": "Regularnie koncentrujemy się na utwardzaniu środków bezpieczeństwa.",
+     "de": "Wir konzentrieren uns regelmäßig auf die Härtung von Sicherheitsmaßnahmen.",
+     "fr": "Nous nous concentrons régulièrement sur le durcissement des mesures de sécurité.",
+     "es": "Nos enfocamos regularmente en el endurecimiento de las medidas de seguridad.",
+     "it": "Ci concentriamo regolarmente sull'irrobustimento delle misure di sicurezza.",
+     "pt": "Focamos regularmente no fortalecimento das medidas de segurança.",
+     "tr": "Güvenlik önlemlerini düzenli olarak sıkılaştırmaya odaklanıyoruz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-future-proof",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈfjutʃɚ pruf/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We must future-proof our technology investments for sustainability.",
+     "uk": "Ми повинні зробити перспективними наші інвестиції в технології.",
+     "ru": "Мы должны защитить наши инвестиции в технологии от устаревания.",
+     "pl": "Musimy zabezpieczyć na przyszłość nasze inwestycje w technologie.",
+     "de": "Wir müssen unsere Technologieinvestitionen zukunftssicher machen.",
+     "fr": "Nous devons pérenniser nos investissements technologiques pour la durabilité.",
+     "es": "Debemos preparar nuestras inversiones tecnológicas para la sostenibilidad.",
+     "it": "Dobbiamo rendere a prova di futuro i nostri investimenti tecnologici.",
+     "pt": "Precisamos preparar nossos investimentos em tecnologia para a sustentabilidade.",
+     "tr": "Teknoloji yatırımlarımızı sürdürülebilirlik için geleceğe hazırlamalıyız."
+    },
+    {
+     "en": "Future-proofing ensures our solutions remain relevant over time.",
+     "uk": "Зроблення перспективними гарантує, що наші рішення залишаються актуальними з часом.",
+     "ru": "Защита от устаревания гарантирует, что наши решения остаются актуальными.",
+     "pl": "Zabezpieczenie na przyszłość zapewnia aktualność naszych rozwiązań w czasie.",
+     "de": "Zukunftssicherheit sorgt dafür, dass unsere Lösungen relevant bleiben.",
+     "fr": "La pérennisation garantit que nos solutions restent pertinentes dans le temps.",
+     "es": "Preparar para el futuro asegura que nuestras soluciones sigan siendo relevantes.",
+     "it": "Rendere a prova di futuro assicura che le nostre soluzioni rimangano rilevanti.",
+     "pt": "Preparar para o futuro garante que nossas soluções permaneçam relevantes.",
+     "tr": "Geleceğe hazırlamak, çözümlerimizin zamanla geçerliliğini korumasını sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.greenfield",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˈɡrinˌfild/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We are starting a greenfield project in the tech sector.",
+     "uk": "Ми починаємо проект з нуля в технологічному секторі.",
+     "ru": "Мы начинаем проект с нуля в технологическом секторе.",
+     "pl": "Rozpoczynamy projekt od zera w sektorze technologicznym.",
+     "de": "Wir starten ein Greenfield-Projekt im Technologiesektor.",
+     "fr": "Nous lançons un projet à partir de zéro dans le secteur technologique.",
+     "es": "Estamos comenzando un proyecto desde cero en el sector tecnológico.",
+     "it": "Stiamo avviando un progetto da zero nel settore tecnologico.",
+     "pt": "Estamos começando um projeto do zero no setor de tecnologia.",
+     "tr": "Teknoloji sektöründe sıfırdan bir proje başlatıyoruz."
+    },
+    {
+     "en": "Greenfield initiatives allow for innovative solutions without constraints.",
+     "uk": "Ініціативи з нуля дозволяють інноваційні рішення без обмежень.",
+     "ru": "Проекты с нуля позволяют создавать инновационные решения без ограничений.",
+     "pl": "Inicjatywy od zera pozwalają na innowacyjne rozwiązania bez ograniczeń.",
+     "de": "Greenfield-Initiativen ermöglichen innovative Lösungen ohne Einschränkungen.",
+     "fr": "Les initiatives à partir de zéro permettent des solutions innovantes sans contraintes.",
+     "es": "Las iniciativas desde cero permiten soluciones innovadoras sin restricciones.",
+     "it": "Le iniziative da zero consentono soluzioni innovative senza vincoli.",
+     "pt": "Iniciativas do zero permitem soluções inovadoras sem restrições.",
+     "tr": "Sıfırdan girişimler, kısıtlama olmaksızın yenilikçi çözümler sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-pivot",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/ˈpɪvət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to pivot our approach to meet customer needs.",
+     "uk": "Нам потрібно змінити стратегію, щоб задовольнити потреби клієнтів.",
+     "ru": "Нам нужно сменить стратегию, чтобы удовлетворить потребности клиентов.",
+     "pl": "Musimy zmienić strategię, aby zaspokoić potrzeby klientów.",
+     "de": "Wir müssen unsere Strategie umschwenken, um den Kundenbedürfnissen gerecht zu werden.",
+     "fr": "Nous devons pivoter notre approche pour répondre aux besoins des clients.",
+     "es": "Necesitamos pivotar nuestro enfoque para satisfacer las necesidades del cliente.",
+     "it": "Dobbiamo cambiare rotta per soddisfare le esigenze dei clienti.",
+     "pt": "Precisamos pivotar nossa abordagem para atender às necessidades dos clientes.",
+     "tr": "Müşteri ihtiyaçlarını karşılamak için yön değiştirmemiz gerekiyor."
+    },
+    {
+     "en": "Pivoting quickly can lead to better business outcomes.",
+     "uk": "Швидка зміна стратегії може призвести до кращих результатів.",
+     "ru": "Быстрая смена стратегии может привести к лучшим результатам.",
+     "pl": "Szybka zmiana strategii może prowadzić do lepszych wyników.",
+     "de": "Schnelles Umschwenken kann zu besseren Geschäftsergebnissen führen.",
+     "fr": "Pivoter rapidement peut conduire à de meilleurs résultats commerciaux.",
+     "es": "Pivotar rápidamente puede llevar a mejores resultados empresariales.",
+     "it": "Cambiare rotta rapidamente può portare a risultati migliori.",
+     "pt": "Pivotar rapidamente pode levar a melhores resultados nos negócios.",
+     "tr": "Hızla yön değiştirmek, daha iyi iş sonuçlarına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.runway",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/ˈrʌnˌweɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Startups need sufficient runway to develop their products.",
+     "uk": "Стартапам потрібен достатній запас коштів для розробки продуктів.",
+     "ru": "Стартапам нужен достаточный запас денег для разработки своих продуктов.",
+     "pl": "Startupy potrzebują wystarczającego zapasu gotówki, aby rozwijać swoje produkty.",
+     "de": "Startups benötigen ausreichende finanzielle Reichweite, um ihre Produkte zu entwickeln.",
+     "fr": "Les startups ont besoin d'une réserve de trésorerie suffisante pour développer leurs produits.",
+     "es": "Las startups necesitan un margen de liquidez suficiente para desarrollar sus productos.",
+     "it": "Le startup hanno bisogno di un'autonomia finanziaria sufficiente per sviluppare i loro prodotti.",
+     "pt": "As startups precisam de um fôlego financeiro suficiente para desenvolver seus produtos.",
+     "tr": "Girişimlerin ürünlerini geliştirmek için yeterli nakit ömrüne ihtiyacı var."
+    },
+    {
+     "en": "Increasing runway is vital for long-term business success.",
+     "uk": "Збільшення запасу коштів є важливим для успіху бізнесу в довгостроковій перспективі.",
+     "ru": "Увеличение запаса денег жизненно важно для долгосрочного успеха бизнеса.",
+     "pl": "Zwiększenie zapasu gotówki jest kluczowe dla długoterminowego sukcesu firmy.",
+     "de": "Die Erhöhung der finanziellen Reichweite ist entscheidend für den langfristigen Geschäftserfolg.",
+     "fr": "Augmenter la réserve de trésorerie est vital pour le succès à long terme.",
+     "es": "Aumentar el margen de liquidez es vital para el éxito empresarial a largo plazo.",
+     "it": "Aumentare l'autonomia finanziaria è fondamentale per il successo aziendale a lungo termine.",
+     "pt": "Aumentar o fôlego financeiro é vital para o sucesso empresarial a longo prazo.",
+     "tr": "Nakit ömrünü artırmak, uzun vadeli iş başarısı için hayati önem taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-dogfood",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ˈdɔɡˌfud/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We dogfood our software to ensure quality before release.",
+     "uk": "Ми тестуємо на собі наше програмне забезпечення перед випуском.",
+     "ru": "Мы тестируем наше программное обеспечение на себе перед выпуском.",
+     "pl": "Testujemy na sobie nasze oprogramowanie przed wydaniem.",
+     "de": "Wir nutzen unsere Software selbst, um die Qualität vor der Veröffentlichung zu gewährleisten.",
+     "fr": "Nous testons en interne notre logiciel avant sa sortie.",
+     "es": "Usamos internamente nuestro software para garantizar la calidad antes del lanzamiento.",
+     "it": "Usiamo internamente il nostro software per garantire la qualità prima del rilascio.",
+     "pt": "Usamos internamente nosso software para garantir a qualidade antes do lançamento.",
+     "tr": "Yazılımımızı piyasaya sürmeden önce kendi ürünümüzü kullanıyoruz."
+    },
+    {
+     "en": "Dogfooding helps identify issues early in the development process.",
+     "uk": "Тестування на собі допомагає виявити проблеми на ранніх стадіях розробки.",
+     "ru": "Тестирование на себе помогает выявить проблемы на ранних этапах разработки.",
+     "pl": "Testowanie na sobie pomaga zidentyfikować problemy na wczesnym etapie rozwoju.",
+     "de": "Selbstnutzung hilft, Probleme früh im Entwicklungsprozess zu identifizieren.",
+     "fr": "Tester en interne aide à identifier les problèmes tôt dans le processus de développement.",
+     "es": "Usar internamente ayuda a identificar problemas temprano en el proceso de desarrollo.",
+     "it": "Usare internamente aiuta a identificare i problemi precocemente nel processo di sviluppo.",
+     "pt": "Usar internamente ajuda a identificar problemas cedo no processo de desenvolvimento.",
+     "tr": "Kendi ürününü kullanmak, geliştirme sürecinin başlarında sorunları tespit etmeye yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.attack-surface",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/əˈtæk ˈsɝfəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Reducing the attack surface is essential for cybersecurity.",
+     "uk": "Зменшення поверхні атаки є важливим для кібербезпеки.",
+     "ru": "Снижение поверхности атаки имеет решающее значение для кибербезопасности.",
+     "pl": "Zmniejszenie powierzchni ataku jest kluczowe dla cyberbezpieczeństwa.",
+     "de": "Die Reduzierung der Angriffsfläche ist entscheidend für die Cybersicherheit.",
+     "fr": "Réduire la surface d'attaque est essentiel pour la cybersécurité.",
+     "es": "Reducir la superficie de ataque es esencial para la ciberseguridad.",
+     "it": "Ridurre la superficie di attacco è fondamentale per la cybersicurezza.",
+     "pt": "Reduzir a superfície de ataque é essencial para a cibersegurança.",
+     "tr": "Saldırı yüzeyini azaltmak, siber güvenlik için hayati önem taşır."
+    },
+    {
+     "en": "A larger attack surface increases vulnerability to threats.",
+     "uk": "Більша площа атаки збільшує вразливість до загроз.",
+     "ru": "Большая поверхность атаки увеличивает уязвимость к угрозам.",
+     "pl": "Większa powierzchnia ataku zwiększa podatność na zagrożenia.",
+     "de": "Eine größere Angriffsfläche erhöht die Anfälligkeit für Bedrohungen.",
+     "fr": "Une plus grande surface d'attaque augmente la vulnérabilité aux menaces.",
+     "es": "Una mayor superficie de ataque aumenta la vulnerabilidad a las amenazas.",
+     "it": "Una superficie di attacco più ampia aumenta la vulnerabilità alle minacce.",
+     "pt": "Uma maior superfície de ataque aumenta a vulnerabilidade a ameaças.",
+     "tr": "Daha büyük bir saldırı yüzeyi, tehditlere karşı savunmasızlığı artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.microservices",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈmaɪkroʊˌsɝvɪsɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Microservices architecture enhances scalability and flexibility.",
+     "uk": "Архітектура мікросервісів підвищує масштабованість і гнучкість.",
+     "ru": "Архитектура микросервисов повышает масштабируемость и гибкость.",
+     "pl": "Architektura mikroserwisów zwiększa skalowalność i elastyczność.",
+     "de": "Die Microservices-Architektur verbessert die Skalierbarkeit und Flexibilität.",
+     "fr": "L'architecture des microservices améliore l'évolutivité et la flexibilité.",
+     "es": "La arquitectura de microservicios mejora la escalabilidad y la flexibilidad.",
+     "it": "L'architettura a microservizi migliora la scalabilità e la flessibilità.",
+     "pt": "A arquitetura de microsserviços melhora a escalabilidade e a flexibilidade.",
+     "tr": "Mikro hizmetler mimarisi, ölçeklenebilirliği ve esnekliği artırır."
+    },
+    {
+     "en": "Using microservices can simplify complex application development.",
+     "uk": "Використання мікросервісів може спростити розробку складних додатків.",
+     "ru": "Использование микросервисов может упростить разработку сложных приложений.",
+     "pl": "Użycie mikroserwisów może uprościć rozwój złożonych aplikacji.",
+     "de": "Die Verwendung von Microservices kann die Entwicklung komplexer Anwendungen vereinfachen.",
+     "fr": "Utiliser des microservices peut simplifier le développement d'applications complexes.",
+     "es": "Usar microservicios puede simplificar el desarrollo de aplicaciones complejas.",
+     "it": "Utilizzare microservizi può semplificare lo sviluppo di applicazioni complesse.",
+     "pt": "Usar microsserviços pode simplificar o desenvolvimento de aplicações complexas.",
+     "tr": "Mikro hizmetler kullanmak, karmaşık uygulama geliştirmeyi kolaylaştırabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.containerization",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/kənˌteɪnɚɪˈzeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Containerization simplifies application deployment across multiple environments.",
+     "uk": "Контейнеризація спрощує розгортання застосунків у різних середовищах.",
+     "ru": "Контейнеризация упрощает развертывание приложений в разных средах.",
+     "pl": "Konteneryzacja upraszcza wdrażanie aplikacji w różnych środowiskach.",
+     "de": "Containerisierung vereinfacht die Bereitstellung von Anwendungen in verschiedenen Umgebungen.",
+     "fr": "La conteneurisation simplifie le déploiement d'applications dans différents environnements.",
+     "es": "La contenedorización simplifica el despliegue de aplicaciones en múltiples entornos.",
+     "it": "La containerizzazione semplifica il deployment delle applicazioni in diversi ambienti.",
+     "pt": "A conteinerização simplifica a implantação de aplicativos em diferentes ambientes.",
+     "tr": "Konteynerleştirme, uygulamaların farklı ortamlarda dağıtımını basitleştirir."
+    },
+    {
+     "en": "Many companies use containerization to enhance scalability and efficiency.",
+     "uk": "Багато компаній використовують контейнеризацію для підвищення масштабованості та ефективності.",
+     "ru": "Многие компании используют контейнеризацию для повышения масштабируемости и эффективности.",
+     "pl": "Wiele firm korzysta z konteneryzacji, aby zwiększyć skalowalność i efektywność.",
+     "de": "Viele Unternehmen nutzen Containerisierung, um Skalierbarkeit und Effizienz zu steigern.",
+     "fr": "De nombreuses entreprises utilisent la conteneurisation pour améliorer l'évolutivité et l'efficacité.",
+     "es": "Muchas empresas utilizan la contenedorización para mejorar la escalabilidad y la eficiencia.",
+     "it": "Molte aziende utilizzano la containerizzazione per migliorare scalabilità ed efficienza.",
+     "pt": "Muitas empresas usam a conteinerização para aumentar a escalabilidade e a eficiência.",
+     "tr": "Birçok şirket, ölçeklenebilirliği ve verimliliği artırmak için konteynerleştirme kullanıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.load-balancing",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/loʊd ˈbælənsɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Load balancing distributes traffic evenly across multiple servers.",
+     "uk": "Балансування навантаження рівномірно розподіляє трафік між кількома серверами.",
+     "ru": "Балансировка нагрузки равномерно распределяет трафик между несколькими серверами.",
+     "pl": "Równoważenie obciążenia równomiernie rozdziela ruch między wieloma serwerami.",
+     "de": "Lastverteilung verteilt den Verkehr gleichmäßig auf mehrere Server.",
+     "fr": "L'équilibrage de charge répartit le trafic de manière uniforme entre plusieurs serveurs.",
+     "es": "El balanceo de carga distribuye el tráfico uniformemente entre varios servidores.",
+     "it": "Il bilanciamento del carico distribuisce il traffico in modo uniforme tra più server.",
+     "pt": "O balanceamento de carga distribui o tráfego uniformemente entre vários servidores.",
+     "tr": "Yük dengeleme, trafiği birden fazla sunucuya eşit olarak dağıtır."
+    },
+    {
+     "en": "Effective load balancing improves application performance and user experience.",
+     "uk": "Ефективне балансування навантаження покращує продуктивність застосунків та досвід користувачів.",
+     "ru": "Эффективная балансировка нагрузки улучшает производительность приложений и пользовательский опыт.",
+     "pl": "Skuteczne równoważenie obciążenia poprawia wydajność aplikacji i doświadczenia użytkowników.",
+     "de": "Effektive Lastverteilung verbessert die Anwendungsleistung und die Benutzererfahrung.",
+     "fr": "Un équilibrage de charge efficace améliore la performance des applications et l'expérience utilisateur.",
+     "es": "Un balanceo de carga efectivo mejora el rendimiento de la aplicación y la experiencia del usuario.",
+     "it": "Un bilanciamento del carico efficace migliora le prestazioni delle applicazioni e l'esperienza degli utenti.",
+     "pt": "Um balanceamento de carga eficaz melhora o desempenho do aplicativo e a experiência do usuário.",
+     "tr": "Etkili yük dengeleme, uygulama performansını ve kullanıcı deneyimini iyileştirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.zero-day-exploit",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈzɪroʊ deɪ ˈɛkˌsplɔɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A zero-day exploit takes advantage of unpatched vulnerabilities.",
+     "uk": "Експлойт нульового дня використовує незакриті вразливості.",
+     "ru": "Эксплойт нулевого дня использует незапатченные уязвимости.",
+     "pl": "Exploit dnia zerowego wykorzystuje niezałatane luki.",
+     "de": "Ein Zero-Day-Exploit nutzt ungepatchte Sicherheitsanfälligkeiten aus.",
+     "fr": "Un exploit zero-day tire parti des vulnérabilités non corrigées.",
+     "es": "Un exploit de día cero aprovecha las vulnerabilidades sin parches.",
+     "it": "Un exploit zero-day sfrutta le vulnerabilità non corrette.",
+     "pt": "Um exploit de dia zero aproveita vulnerabilidades não corrigidas.",
+     "tr": "Sıfır gün açığı, yamanmamış güvenlik açıklarından yararlanır."
+    },
+    {
+     "en": "Organizations must protect against zero-day exploits proactively.",
+     "uk": "Організації повинні проактивно захищатися від експлойтів нульового дня.",
+     "ru": "Организации должны проактивно защищаться от эксплойтов нулевого дня.",
+     "pl": "Organizacje muszą proaktywnie chronić się przed exploitami dnia zerowego.",
+     "de": "Organisationen müssen sich proaktiv gegen Zero-Day-Exploits schützen.",
+     "fr": "Les organisations doivent se protéger proactivement contre les exploits zero-day.",
+     "es": "Las organizaciones deben protegerse proactivamente contra los exploits de día cero.",
+     "it": "Le organizzazioni devono proteggersi proattivamente dagli exploit zero-day.",
+     "pt": "As organizações devem se proteger proativamente contra exploits de dia zero.",
+     "tr": "Kuruluşlar, sıfır gün açıklarına karşı proaktif olarak korunmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.penetration-test",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˌpɛnəˈtreɪʃən tɛst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A penetration test identifies security weaknesses in systems.",
+     "uk": "Тест на проникнення виявляє вразливості безпеки в системах.",
+     "ru": "Тест на проникновение выявляет уязвимости безопасности в системах.",
+     "pl": "Test penetracyjny identyfikuje słabości bezpieczeństwa w systemach.",
+     "de": "Ein Penetrationstest identifiziert Sicherheitsanfälligkeiten in Systemen.",
+     "fr": "Un test d'intrusion identifie les faiblesses de sécurité des systèmes.",
+     "es": "Una prueba de penetración identifica debilidades de seguridad en los sistemas.",
+     "it": "Un test di penetrazione identifica le debolezze di sicurezza nei sistemi.",
+     "pt": "Um teste de invasão identifica fraquezas de segurança em sistemas.",
+     "tr": "Sızma testi, sistemlerdeki güvenlik zayıflıklarını belirler."
+    },
+    {
+     "en": "Regular penetration tests help maintain robust cybersecurity measures.",
+     "uk": "Регулярні тести на проникнення допомагають підтримувати надійні заходи кібербезпеки.",
+     "ru": "Регулярные тесты на проникновение помогают поддерживать надежные меры кибербезопасности.",
+     "pl": "Regularne testy penetracyjne pomagają utrzymać solidne środki cyberbezpieczeństwa.",
+     "de": "Regelmäßige Penetrationstests helfen, robuste Cybersicherheitsmaßnahmen aufrechtzuerhalten.",
+     "fr": "Des tests d'intrusion réguliers aident à maintenir des mesures de cybersécurité robustes.",
+     "es": "Las pruebas de penetración regulares ayudan a mantener medidas de ciberseguridad sólidas.",
+     "it": "I test di penetrazione regolari aiutano a mantenere robuste misure di cybersicurezza.",
+     "pt": "Testes de invasão regulares ajudam a manter medidas robustas de cibersegurança.",
+     "tr": "Düzenli sızma testleri, sağlam siber güvenlik önlemlerinin sürdürülmesine yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.uptime",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈʌpˌtaɪm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "High uptime is crucial for maintaining user satisfaction.",
+     "uk": "Високий час безвідмовної роботи є критично важливим для підтримки задоволеності користувачів.",
+     "ru": "Высокое время безотказной работы критически важно для поддержания удовлетворенности пользователей.",
+     "pl": "Wysoki czas dostępności jest kluczowy dla utrzymania satysfakcji użytkowników.",
+     "de": "Hohe Verfügbarkeit ist entscheidend für die Aufrechterhaltung der Benutzerzufriedenheit.",
+     "fr": "Une haute disponibilité est cruciale pour maintenir la satisfaction des utilisateurs.",
+     "es": "Un alto tiempo de actividad es crucial para mantener la satisfacción del usuario.",
+     "it": "Un alto tempo di attività è cruciale per mantenere la soddisfazione degli utenti.",
+     "pt": "Um alto tempo de atividade é crucial para manter a satisfação do usuário.",
+     "tr": "Yüksek çalışma süresi, kullanıcı memnuniyetini sürdürmek için çok önemlidir."
+    },
+    {
+     "en": "Monitoring uptime helps identify potential system issues early.",
+     "uk": "Моніторинг часу безвідмовної роботи допомагає рано виявляти потенційні проблеми системи.",
+     "ru": "Мониторинг времени безотказной работы помогает рано выявлять потенциальные проблемы системы.",
+     "pl": "Monitorowanie czasu dostępności pomaga wcześnie identyfikować potencjalne problemy systemu.",
+     "de": "Die Überwachung der Verfügbarkeit hilft, potenzielle Systemprobleme frühzeitig zu erkennen.",
+     "fr": "Surveiller la disponibilité aide à identifier rapidement les problèmes potentiels du système.",
+     "es": "Monitorear el tiempo de actividad ayuda a identificar problemas potenciales del sistema temprano.",
+     "it": "Monitorare il tempo di attività aiuta a identificare precocemente potenziali problemi di sistema.",
+     "pt": "Monitorar o tempo de atividade ajuda a identificar problemas potenciais do sistema precocemente.",
+     "tr": "Çalışma süresini izlemek, potansiyel sistem sorunlarını erken tespit etmeye yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.pipeline",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/ˈpaɪˌplaɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The pipeline processes data efficiently from start to finish.",
+     "uk": "Конвеєр обробляє дані ефективно від початку до кінця.",
+     "ru": "Конвейер эффективно обрабатывает данные от начала до конца.",
+     "pl": "Potok przetwarza dane efektywnie od początku do końca.",
+     "de": "Die Pipeline verarbeitet Daten effizient von Anfang bis Ende.",
+     "fr": "Le pipeline traite les données de manière efficace du début à la fin.",
+     "es": "El pipeline procesa datos de manera eficiente de principio a fin.",
+     "it": "Il pipeline elabora i dati in modo efficiente dall'inizio alla fine.",
+     "pt": "O pipeline processa dados de forma eficiente do início ao fim.",
+     "tr": "İşlem hattı, verileri başlangıçtan sona verimli bir şekilde işler."
+    },
+    {
+     "en": "Using a pipeline improves the speed of software delivery.",
+     "uk": "Використання конвеєра покращує швидкість доставки програмного забезпечення.",
+     "ru": "Использование конвейера улучшает скорость доставки программного обеспечения.",
+     "pl": "Użycie potoku poprawia szybkość dostarczania oprogramowania.",
+     "de": "Die Verwendung einer Pipeline verbessert die Geschwindigkeit der Softwarebereitstellung.",
+     "fr": "Utiliser un pipeline améliore la vitesse de livraison des logiciels.",
+     "es": "Usar un pipeline mejora la velocidad de entrega de software.",
+     "it": "Utilizzare un pipeline migliora la velocità di consegna del software.",
+     "pt": "Usar um pipeline melhora a velocidade de entrega de software.",
+     "tr": "Bir işlem hattı kullanmak, yazılım teslimatının hızını artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-roll-back",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/roʊl bæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You may need to roll back the software update.",
+     "uk": "Вам може знадобитися відкочувати оновлення програмного забезпечення.",
+     "ru": "Вам может понадобиться откатить обновление программного обеспечения.",
+     "pl": "Możesz potrzebować wycofać aktualizację oprogramowania.",
+     "de": "Sie müssen möglicherweise das Software-Update zurückrollen.",
+     "fr": "Vous devrez peut-être revenir en arrière sur la mise à jour du logiciel.",
+     "es": "Es posible que necesites revertir la actualización del software.",
+     "it": "Potresti dover ripristinare l'aggiornamento del software.",
+     "pt": "Você pode precisar reverter a atualização do software.",
+     "tr": "Yazılım güncellemesini geri döndürmeniz gerekebilir."
+    },
+    {
+     "en": "Rolling back changes can prevent system failures.",
+     "uk": "Відкочування змін може запобігти збоям системи.",
+     "ru": "Откат изменений может предотвратить сбои системы.",
+     "pl": "Wycofywanie zmian może zapobiec awariom systemu.",
+     "de": "Das Zurückrollen von Änderungen kann Systemausfälle verhindern.",
+     "fr": "Revenir en arrière sur des modifications peut prévenir les pannes système.",
+     "es": "Revertir cambios puede prevenir fallos del sistema.",
+     "it": "Ripristinare le modifiche può prevenire guasti di sistema.",
+     "pt": "Reverter alterações pode prevenir falhas do sistema.",
+     "tr": "Değişiklikleri geri döndürmek, sistem arızalarını önleyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.abstraction",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/æbˈstrækʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Abstraction helps simplify complex problems into manageable parts.",
+     "uk": "Абстракція допомагає спростити складні проблеми на керовані частини.",
+     "ru": "Абстракция помогает упростить сложные задачи на управляемые части.",
+     "pl": "Abstrakcja pomaga uprościć złożone problemy na zarządzalne części.",
+     "de": "Abstraktion hilft, komplexe Probleme in handhabbare Teile zu vereinfachen.",
+     "fr": "L'abstraction aide à simplifier des problèmes complexes en parties gérables.",
+     "es": "La abstracción ayuda a simplificar problemas complejos en partes manejables.",
+     "it": "L'astrazione aiuta a semplificare problemi complessi in parti gestibili.",
+     "pt": "A abstração ajuda a simplificar problemas complexos em partes gerenciáveis.",
+     "tr": "Soyutlama, karmaşık problemleri yönetilebilir parçalara ayırmaya yardımcı olur."
+    },
+    {
+     "en": "In programming, abstraction reduces complexity and increases efficiency.",
+     "uk": "У програмуванні абстракція зменшує складність і підвищує ефективність.",
+     "ru": "В программировании абстракция снижает сложность и увеличивает эффективность.",
+     "pl": "W programowaniu abstrakcja zmniejsza złożoność i zwiększa wydajność.",
+     "de": "In der Programmierung reduziert Abstraktion die Komplexität und erhöht die Effizienz.",
+     "fr": "En programmation, l'abstraction réduit la complexité et augmente l'efficacité.",
+     "es": "En programación, la abstracción reduce la complejidad y aumenta la eficiencia.",
+     "it": "Nella programmazione, l'astrazione riduce la complessità e aumenta l'efficienza.",
+     "pt": "Na programação, a abstração reduz a complexidade e aumenta a eficiência.",
+     "tr": "Programlamada soyutlama, karmaşıklığı azaltır ve verimliliği artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.codebase",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ˈkoʊdˌbeɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Maintaining a clean codebase is essential for future development.",
+     "uk": "Підтримка чистої кодової бази є важливою для подальшої розробки.",
+     "ru": "Поддержание чистой кодовой базы имеет решающее значение для дальнейшей разработки.",
+     "pl": "Utrzymanie czystej bazy kodu jest niezbędne dla przyszłego rozwoju.",
+     "de": "Eine saubere Codebasis ist entscheidend für die zukünftige Entwicklung.",
+     "fr": "Maintenir une base de code propre est essentiel pour le développement futur.",
+     "es": "Mantener una base de código limpia es esencial para el desarrollo futuro.",
+     "it": "Mantenere una base di codice pulita è essenziale per lo sviluppo futuro.",
+     "pt": "Manter uma base de código limpa é essencial para o desenvolvimento futuro.",
+     "tr": "Temiz bir kod tabanını korumak, gelecekteki geliştirme için esastır."
+    },
+    {
+     "en": "The codebase should be well-documented for new developers.",
+     "uk": "Кодова база повинна бути добре задокументована для нових розробників.",
+     "ru": "Кодовая база должна быть хорошо задокументирована для новых разработчиков.",
+     "pl": "Baza kodu powinna być dobrze udokumentowana dla nowych programistów.",
+     "de": "Die Codebasis sollte gut dokumentiert sein für neue Entwickler.",
+     "fr": "La base de code doit être bien documentée pour les nouveaux développeurs.",
+     "es": "La base de código debe estar bien documentada para nuevos desarrolladores.",
+     "it": "La base di codice deve essere ben documentata per i nuovi sviluppatori.",
+     "pt": "A base de código deve ser bem documentada para novos desenvolvedores.",
+     "tr": "Kod tabanı, yeni geliştiriciler için iyi bir şekilde belgelenmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.data-sovereignty",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪtə ˈsɑvrənti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Data sovereignty ensures local laws govern data usage.",
+     "uk": "Суверенітет даних гарантує, що місцеві закони регулюють використання даних.",
+     "ru": "Суверенитет данных гарантирует, что местные законы регулируют использование данных.",
+     "pl": "Suwerenność danych zapewnia, że lokalne przepisy regulują wykorzystanie danych.",
+     "de": "Datensouveränität stellt sicher, dass lokale Gesetze die Datennutzung regeln.",
+     "fr": "La souveraineté des données garantit que les lois locales régissent l'utilisation des données.",
+     "es": "La soberanía de datos asegura que las leyes locales regulen el uso de datos.",
+     "it": "La sovranità dei dati garantisce che le leggi locali regolino l'uso dei dati.",
+     "pt": "A soberania de dados garante que as leis locais regulem o uso de dados.",
+     "tr": "Veri egemenliği, yerel yasaların veri kullanımını düzenlemesini sağlar."
+    },
+    {
+     "en": "Companies must comply with data sovereignty regulations in each country.",
+     "uk": "Компанії повинні дотримуватися норм суверенітету даних у кожній країні.",
+     "ru": "Компании должны соблюдать правила суверенитета данных в каждой стране.",
+     "pl": "Firmy muszą przestrzegać przepisów dotyczących suwerenności danych w każdym kraju.",
+     "de": "Unternehmen müssen die Vorschriften zur Datensouveränität in jedem Land einhalten.",
+     "fr": "Les entreprises doivent se conformer aux réglementations sur la souveraineté des données dans chaque pays.",
+     "es": "Las empresas deben cumplir con las regulaciones de soberanía de datos en cada país.",
+     "it": "Le aziende devono rispettare le normative sulla sovranità dei dati in ogni paese.",
+     "pt": "As empresas devem cumprir as regulamentações de soberania de dados em cada país.",
+     "tr": "Şirketler, her ülkedeki veri egemenliği düzenlemelerine uymalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.sandbox",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈsændˌbɑks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The kids played happily in the sandbox.",
+     "uk": "Діти весело грали в пісочниці.",
+     "ru": "Дети весело играли в песочнице.",
+     "pl": "Dzieci bawiły się radośnie w piaskownicy.",
+     "de": "Die Kinder spielten glücklich im Sandbox.",
+     "fr": "Les enfants jouaient joyeusement dans le bac à sable.",
+     "es": "Los niños jugaban felices en el entorno aislado.",
+     "it": "I bambini giocavano felici nel sandbox.",
+     "pt": "As crianças brincavam felizes no sandbox.",
+     "tr": "Çocuklar korumalı alanda mutlu bir şekilde oynadı."
+    },
+    {
+     "en": "He set up a sandbox for testing the software.",
+     "uk": "Він налаштував пісочницю для тестування програмного забезпечення.",
+     "ru": "Он настроил песочницу для тестирования программного обеспечения.",
+     "pl": "Ustawił piaskownicę do testowania oprogramowania.",
+     "de": "Er richtete einen Sandbox zum Testen der Software ein.",
+     "fr": "Il a mis en place un bac à sable pour tester le logiciel.",
+     "es": "Configuró un entorno aislado para probar el software.",
+     "it": "Ha impostato un sandbox per testare il software.",
+     "pt": "Ele configurou um sandbox para testar o software.",
+     "tr": "Yazılımı test etmek için bir korumalı alan kurdu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.concurrency",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/kənˈkɝənsi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Concurrency is essential for efficient resource utilization.",
+     "uk": "Конкурентність є важливою для ефективного використання ресурсів.",
+     "ru": "Параллелизм необходим для эффективного использования ресурсов.",
+     "pl": "Współbieżność jest niezbędna do efektywnego wykorzystania zasobów.",
+     "de": "Nebenläufigkeit ist entscheidend für die effiziente Ressourcennutzung.",
+     "fr": "La concurrence est essentielle pour une utilisation efficace des ressources.",
+     "es": "La concurrencia es esencial para la utilización eficiente de recursos.",
+     "it": "La concorrenza è essenziale per un utilizzo efficiente delle risorse.",
+     "pt": "A concorrência é essencial para a utilização eficiente de recursos.",
+     "tr": "Eşzamanlılık, kaynakların verimli kullanımında esastır."
+    },
+    {
+     "en": "Understanding concurrency helps in designing scalable systems.",
+     "uk": "Розуміння конкурентності допомагає в проектуванні масштабованих систем.",
+     "ru": "Понимание параллелизма помогает в проектировании масштабируемых систем.",
+     "pl": "Zrozumienie współbieżności pomaga w projektowaniu skalowalnych systemów.",
+     "de": "Das Verständnis von Nebenläufigkeit hilft bei der Gestaltung skalierbarer Systeme.",
+     "fr": "Comprendre la concurrence aide à concevoir des systèmes évolutifs.",
+     "es": "Entender la concurrencia ayuda a diseñar sistemas escalables.",
+     "it": "Comprendere la concorrenza aiuta a progettare sistemi scalabili.",
+     "pt": "Entender a concorrência ajuda a projetar sistemas escaláveis.",
+     "tr": "Eşzamanlılığı anlamak, ölçeklenebilir sistemler tasarlamaya yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.feature-flag",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˈfitʃɚ flæɡ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We use a feature flag to control new features.",
+     "uk": "Ми використовуємо прапорець функції для контролю нових функцій.",
+     "ru": "Мы используем флаг функции для управления новыми функциями.",
+     "pl": "Używamy flagi funkcji do kontrolowania nowych funkcji.",
+     "de": "Wir verwenden ein Feature-Flag, um neue Funktionen zu steuern.",
+     "fr": "Nous utilisons un feature flag pour contrôler les nouvelles fonctionnalités.",
+     "es": "Usamos una bandera de funcionalidad para controlar nuevas características.",
+     "it": "Utilizziamo una feature flag per controllare le nuove funzionalità.",
+     "pt": "Usamos um sinalizador de recurso para controlar novos recursos.",
+     "tr": "Yeni özellikleri kontrol etmek için bir özellik bayrağı kullanıyoruz."
+    },
+    {
+     "en": "The feature flag allows gradual deployment of changes.",
+     "uk": "Прапорець функції дозволяє поступове впровадження змін.",
+     "ru": "Флаг функции позволяет поэтапное внедрение изменений.",
+     "pl": "Flaga funkcji pozwala na stopniowe wprowadzanie zmian.",
+     "de": "Das Feature-Flag ermöglicht eine schrittweise Bereitstellung von Änderungen.",
+     "fr": "Le feature flag permet un déploiement progressif des modifications.",
+     "es": "La bandera de funcionalidad permite un despliegue gradual de cambios.",
+     "it": "La feature flag consente un rilascio graduale delle modifiche.",
+     "pt": "O sinalizador de recurso permite a implementação gradual de mudanças.",
+     "tr": "Özellik bayrağı, değişikliklerin kademeli olarak uygulanmasını sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.zero-trust",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/ˈzɪroʊ trʌst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Zero trust enhances security in modern networks.",
+     "uk": "Нульова довіра підвищує рівень безпеки в сучасних мережах.",
+     "ru": "Нулевое доверие повышает безопасность в современных сетях.",
+     "pl": "Zero trust zwiększa bezpieczeństwo w nowoczesnych sieciach.",
+     "de": "Zero Trust verbessert die Sicherheit in modernen Netzwerken.",
+     "fr": "La confiance zéro renforce la sécurité dans les réseaux modernes.",
+     "es": "La confianza cero mejora la seguridad en las redes modernas.",
+     "it": "Zero trust migliora la sicurezza nelle reti moderne.",
+     "pt": "A confiança zero melhora a segurança em redes modernas.",
+     "tr": "Sıfır güven, modern ağlarda güvenliği artırır."
+    },
+    {
+     "en": "Implementing zero trust requires a cultural shift in organizations.",
+     "uk": "Впровадження нульової довіри вимагає культурних змін в організаціях.",
+     "ru": "Внедрение нулевого доверия требует культурных изменений в организациях.",
+     "pl": "Wdrażanie zero trust wymaga zmiany kulturowej w organizacjach.",
+     "de": "Die Implementierung von Zero Trust erfordert einen kulturellen Wandel in Organisationen.",
+     "fr": "La mise en œuvre de la confiance zéro nécessite un changement culturel dans les organisations.",
+     "es": "Implementar confianza cero requiere un cambio cultural en las organizaciones.",
+     "it": "Implementare zero trust richiede un cambiamento culturale nelle organizzazioni.",
+     "pt": "Implementar confiança zero requer uma mudança cultural nas organizações.",
+     "tr": "Sıfır güven uygulamak, organizasyonlarda kültürel bir değişim gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.single-sign-on",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/ˈsɪŋɡəl saɪn ɑn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Single sign-on simplifies access to multiple applications.",
+     "uk": "Єдиний вхід спрощує доступ до кількох програм.",
+     "ru": "Единый вход упрощает доступ к нескольким приложениям.",
+     "pl": "Logowanie jednokrotne upraszcza dostęp do wielu aplikacji.",
+     "de": "Single Sign-On vereinfacht den Zugriff auf mehrere Anwendungen.",
+     "fr": "L'authentification unique simplifie l'accès à plusieurs applications.",
+     "es": "El inicio de sesión único simplifica el acceso a múltiples aplicaciones.",
+     "it": "L'accesso unico semplifica l'accesso a più applicazioni.",
+     "pt": "O login único simplifica o acesso a várias aplicações.",
+     "tr": "Tek oturum açma, birden fazla uygulamaya erişimi basitleştirir."
+    },
+    {
+     "en": "With single sign-on, users save time during logins.",
+     "uk": "З єдиним входом користувачі економлять час під час входу.",
+     "ru": "С единым входом пользователи экономят время при входе.",
+     "pl": "Z logowaniem jednokrotnym użytkownicy oszczędzają czas podczas logowania.",
+     "de": "Mit Single Sign-On sparen Benutzer Zeit beim Anmelden.",
+     "fr": "Avec l'authentification unique, les utilisateurs gagnent du temps lors des connexions.",
+     "es": "Con el inicio de sesión único, los usuarios ahorran tiempo durante los inicios de sesión.",
+     "it": "Con l'accesso unico, gli utenti risparmiano tempo durante i login.",
+     "pt": "Com o login único, os usuários economizam tempo durante os logins.",
+     "tr": "Tek oturum açma ile kullanıcılar girişlerde zaman kazanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.disaster-recovery",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/dɪˈzæstɚ rɪˈkʌvri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Disaster recovery plans are critical for business continuity.",
+     "uk": "Плани аварійного відновлення критично важливі для безперервності бізнесу.",
+     "ru": "Планы аварийного восстановления критически важны для непрерывности бизнеса.",
+     "pl": "Plany odtwarzania po awarii są kluczowe dla ciągłości biznesu.",
+     "de": "Notfallwiederherstellungspläne sind entscheidend für die Geschäftskontinuität.",
+     "fr": "Les plans de reprise après sinistre sont essentiels pour la continuité des activités.",
+     "es": "Los planes de recuperación ante desastres son críticos para la continuidad del negocio.",
+     "it": "I piani di ripristino di emergenza sono fondamentali per la continuità aziendale.",
+     "pt": "Os planos de recuperação de desastres são críticos para a continuidade dos negócios.",
+     "tr": "Felaket kurtarma planları, iş sürekliliği için kritik öneme sahiptir."
+    },
+    {
+     "en": "Investing in disaster recovery can save your organization.",
+     "uk": "Інвестування в аварійне відновлення може врятувати вашу організацію.",
+     "ru": "Инвестиции в аварийное восстановление могут спасти вашу организацию.",
+     "pl": "Inwestowanie w odtwarzanie po awarii może uratować twoją organizację.",
+     "de": "Investitionen in die Notfallwiederherstellung können Ihre Organisation retten.",
+     "fr": "Investir dans la reprise après sinistre peut sauver votre organisation.",
+     "es": "Invertir en recuperación ante desastres puede salvar a tu organización.",
+     "it": "Investire nel ripristino di emergenza può salvare la tua organizzazione.",
+     "pt": "Investir em recuperação de desastres pode salvar sua organização.",
+     "tr": "Felaket kurtarmaya yatırım yapmak, organizasyonunuzu kurtarabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-throttle",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/ˈθrɑtəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to throttle the bandwidth during peak hours.",
+     "uk": "Вам потрібно обмежити швидкість під час пікових годин.",
+     "ru": "Вам нужно ограничить скорость в часы пик.",
+     "pl": "Musisz ograniczyć przepustowość w godzinach szczytu.",
+     "de": "Sie müssen die Bandbreite während der Spitzenzeiten drosseln.",
+     "fr": "Vous devez brider la bande passante pendant les heures de pointe.",
+     "es": "Debes limitar la velocidad durante las horas pico.",
+     "it": "Devi limitare la velocità durante le ore di punta.",
+     "pt": "Você precisa limitar a velocidade durante os horários de pico.",
+     "tr": "Yoğun saatlerde hızı kısıtlamanız gerekiyor."
+    },
+    {
+     "en": "The system will throttle connections to prevent overload.",
+     "uk": "Система обмежить з'єднання, щоб запобігти перевантаженню.",
+     "ru": "Система будет ограничивать соединения, чтобы предотвратить перегрузку.",
+     "pl": "System ograniczy połączenia, aby zapobiec przeciążeniu.",
+     "de": "Das System drosselt die Verbindungen, um eine Überlastung zu verhindern.",
+     "fr": "Le système va brider les connexions pour éviter la surcharge.",
+     "es": "El sistema limitará las conexiones para evitar sobrecargas.",
+     "it": "Il sistema limiterà le connessioni per prevenire il sovraccarico.",
+     "pt": "O sistema limitará as conexões para evitar sobrecargas.",
+     "tr": "Sistem, aşırı yüklenmeyi önlemek için bağlantıları kısıtlayacak."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.edge-computing",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ɛdʒ kəmˈpjutɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Edge computing reduces latency for real-time applications.",
+     "uk": "Граничні обчислення зменшують затримку для додатків в реальному часі.",
+     "ru": "Граничные вычисления уменьшают задержку для приложений в реальном времени.",
+     "pl": "Przetwarzanie brzegowe zmniejsza opóźnienia w aplikacjach czasu rzeczywistego.",
+     "de": "Edge-Computing reduziert die Latenz für Echtzeitanwendungen.",
+     "fr": "L'informatique en périphérie réduit la latence pour les applications en temps réel.",
+     "es": "La computación en el borde reduce la latencia para aplicaciones en tiempo real.",
+     "it": "L'edge computing riduce la latenza per le applicazioni in tempo reale.",
+     "pt": "A computação de borda reduz a latência para aplicações em tempo real.",
+     "tr": "Uç bilişim, gerçek zamanlı uygulamalar için gecikmeyi azaltır."
+    },
+    {
+     "en": "Companies are adopting edge computing for better data processing.",
+     "uk": "Компанії впроваджують граничні обчислення для кращої обробки даних.",
+     "ru": "Компании принимают граничные вычисления для лучшей обработки данных.",
+     "pl": "Firmy przyjmują przetwarzanie brzegowe dla lepszej obróbki danych.",
+     "de": "Unternehmen übernehmen Edge-Computing für eine bessere Datenverarbeitung.",
+     "fr": "Les entreprises adoptent l'informatique en périphérie pour un meilleur traitement des données.",
+     "es": "Las empresas están adoptando la computación en el borde para un mejor procesamiento de datos.",
+     "it": "Le aziende stanno adottando l'edge computing per una migliore elaborazione dei dati.",
+     "pt": "As empresas estão adotando a computação de borda para um melhor processamento de dados.",
+     "tr": "Şirketler, veri işleme için uç bilişimi benimsiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.caching",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/ˈkæʃɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Caching improves the speed of web applications significantly.",
+     "uk": "Кешування значно покращує швидкість веб-додатків.",
+     "ru": "Кэширование значительно улучшает скорость веб-приложений.",
+     "pl": "Buforowanie znacznie poprawia szybkość aplikacji internetowych.",
+     "de": "Caching verbessert die Geschwindigkeit von Webanwendungen erheblich.",
+     "fr": "La mise en cache améliore considérablement la vitesse des applications web.",
+     "es": "El almacenamiento en caché mejora significativamente la velocidad de las aplicaciones web.",
+     "it": "La memorizzazione nella cache migliora significativamente la velocità delle applicazioni web.",
+     "pt": "O armazenamento em cache melhora significativamente a velocidade das aplicações web.",
+     "tr": "Önbelleğe alma, web uygulamalarının hızını önemli ölçüde artırır."
+    },
+    {
+     "en": "Effective caching strategies can reduce server load.",
+     "uk": "Ефективні стратегії кешування можуть зменшити навантаження на сервер.",
+     "ru": "Эффективные стратегии кэширования могут снизить нагрузку на сервер.",
+     "pl": "Skuteczne strategie buforowania mogą zmniejszyć obciążenie serwera.",
+     "de": "Effektive Caching-Strategien können die Serverlast reduzieren.",
+     "fr": "Des stratégies de mise en cache efficaces peuvent réduire la charge du serveur.",
+     "es": "Estrategias de almacenamiento en caché efectivas pueden reducir la carga del servidor.",
+     "it": "Strategie di memorizzazione nella cache efficaci possono ridurre il carico del server.",
+     "pt": "Estratégias de armazenamento em cache eficazes podem reduzir a carga do servidor.",
+     "tr": "Etkili önbellekleme stratejileri, sunucu yükünü azaltabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.orchestration",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/ˌɔrkəˈstreɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Orchestration is key to managing complex systems.",
+     "uk": "Оркестрація є ключовою для управління складними системами.",
+     "ru": "Оркестрация является ключевым моментом в управлении сложными системами.",
+     "pl": "Orkiestracja jest kluczowa dla zarządzania złożonymi systemami.",
+     "de": "Orchestrierung ist der Schlüssel zur Verwaltung komplexer Systeme.",
+     "fr": "L'orchestration est essentielle pour gérer des systèmes complexes.",
+     "es": "La orquestación es clave para gestionar sistemas complejos.",
+     "it": "L'orchestrazione è fondamentale per gestire sistemi complessi.",
+     "pt": "A orquestração é fundamental para gerenciar sistemas complexos.",
+     "tr": "Orkestrasyon, karmaşık sistemleri yönetmek için anahtardır."
+    },
+    {
+     "en": "The orchestration of services ensures seamless integration.",
+     "uk": "Оркестрація служб забезпечує безшовну інтеграцію.",
+     "ru": "Оркестрация служб обеспечивает бесшовную интеграцию.",
+     "pl": "Orkiestracja usług zapewnia bezproblemową integrację.",
+     "de": "Die Orchestrierung von Diensten sorgt für nahtlose Integration.",
+     "fr": "L'orchestration des services garantit une intégration transparente.",
+     "es": "La orquestación de servicios asegura una integración fluida.",
+     "it": "L'orchestrazione dei servizi garantisce un'integrazione senza soluzione di continuità.",
+     "pt": "A orquestração de serviços garante uma integração perfeita.",
+     "tr": "Hizmetlerin orkestrasyonu, sorunsuz entegrasyonu sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.system-architecture",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈsɪstəm ˈɑrkəˌtɛktʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Understanding system architecture is crucial for developers.",
+     "uk": "Розуміння архітектури системи є важливим для розробників.",
+     "ru": "Понимание архитектуры системы крайне важно для разработчиков.",
+     "pl": "Zrozumienie architektury systemu jest kluczowe dla programistów.",
+     "de": "Das Verständnis der Systemarchitektur ist entscheidend für Entwickler.",
+     "fr": "Comprendre l'architecture système est crucial pour les développeurs.",
+     "es": "Entender la arquitectura del sistema es crucial para los desarrolladores.",
+     "it": "Comprendere l'architettura di sistema è cruciale per gli sviluppatori.",
+     "pt": "Entender a arquitetura de sistema é crucial para os desenvolvedores.",
+     "tr": "Sistem mimarisini anlamak geliştiriciler için çok önemlidir."
+    },
+    {
+     "en": "The system architecture determines the application's performance.",
+     "uk": "Архітектура системи визначає продуктивність програми.",
+     "ru": "Архитектура системы определяет производительность приложения.",
+     "pl": "Architektura systemu wpływa na wydajność aplikacji.",
+     "de": "Die Systemarchitektur bestimmt die Leistung der Anwendung.",
+     "fr": "L'architecture système détermine les performances de l'application.",
+     "es": "La arquitectura del sistema determina el rendimiento de la aplicación.",
+     "it": "L'architettura di sistema determina le prestazioni dell'applicazione.",
+     "pt": "A arquitetura de sistema determina o desempenho do aplicativo.",
+     "tr": "Sistem mimarisi, uygulamanın performansını belirler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.monolith",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/ˈmɑnəˌlɪθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The application was built as a monolith, complicating updates.",
+     "uk": "Додаток був побудований як моноліт, ускладнюючи оновлення.",
+     "ru": "Приложение было построено как монолит, усложняющее обновления.",
+     "pl": "Aplikacja została zbudowana jako monolit, co komplikuje aktualizacje.",
+     "de": "Die Anwendung wurde als Monolith entwickelt, was Updates kompliziert.",
+     "fr": "L'application a été construite comme un monolithe, compliquant les mises à jour.",
+     "es": "La aplicación se construyó como un monolito, complicando las actualizaciones.",
+     "it": "L'applicazione è stata costruita come un monolite, complicando gli aggiornamenti.",
+     "pt": "O aplicativo foi construído como um monólito, complicando as atualizações.",
+     "tr": "Uygulama bir monolit olarak inşa edildi, güncellemeleri zorlaştırdı."
+    },
+    {
+     "en": "Transitioning from a monolith to microservices can be challenging.",
+     "uk": "Перехід від моноліту до мікросервісів може бути складним.",
+     "ru": "Переход от монолита к микросервисам может быть сложным.",
+     "pl": "Przejście z monolitu na mikrousługi może być trudne.",
+     "de": "Der Übergang von einem Monolithen zu Microservices kann herausfordernd sein.",
+     "fr": "La transition d'un monolithe vers des microservices peut être difficile.",
+     "es": "La transición de un monolito a microservicios puede ser desafiante.",
+     "it": "La transizione da un monolite a microservizi può essere impegnativa.",
+     "pt": "A transição de um monólito para microserviços pode ser desafiadora.",
+     "tr": "Bir monolitten mikro hizmetlere geçmek zorlayıcı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.serverless",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/ˈsɝvɚləs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Serverless architecture reduces operational costs significantly.",
+     "uk": "Безсерверна архітектура значно знижує експлуатаційні витрати.",
+     "ru": "Безсерверная архитектура значительно снижает операционные расходы.",
+     "pl": "Architektura bezserwerowa znacznie obniża koszty operacyjne.",
+     "de": "Serverlose Architektur senkt die Betriebskosten erheblich.",
+     "fr": "L'architecture sans serveur réduit considérablement les coûts opérationnels.",
+     "es": "La arquitectura sin servidor reduce significativamente los costos operativos.",
+     "it": "L'architettura serverless riduce significativamente i costi operativi.",
+     "pt": "A arquitetura sem servidor reduz significativamente os custos operacionais.",
+     "tr": "Sunucusuz mimari, işletme maliyetlerini önemli ölçüde azaltır."
+    },
+    {
+     "en": "Many companies are adopting serverless solutions for scalability.",
+     "uk": "Багато компаній впроваджують безсерверні рішення для масштабованості.",
+     "ru": "Многие компании принимают бессерверные решения для масштабируемости.",
+     "pl": "Wiele firm przyjmuje rozwiązania bezserwerowe dla skalowalności.",
+     "de": "Viele Unternehmen setzen auf serverlose Lösungen zur Skalierbarkeit.",
+     "fr": "De nombreuses entreprises adoptent des solutions sans serveur pour la scalabilité.",
+     "es": "Muchas empresas están adoptando soluciones sin servidor para escalabilidad.",
+     "it": "Molte aziende stanno adottando soluzioni serverless per la scalabilità.",
+     "pt": "Muitas empresas estão adotando soluções sem servidor para escalabilidade.",
+     "tr": "Birçok şirket, ölçeklenebilirlik için sunucusuz çözümler benimsiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.virtual-machine",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/ˈvɝtʃuəl məˈʃin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A virtual machine allows multiple operating systems on one hardware.",
+     "uk": "Віртуальна машина дозволяє кільком операційним системам на одному апаратному забезпеченні.",
+     "ru": "Виртуальная машина позволяет нескольким операционным системам работать на одном оборудовании.",
+     "pl": "Maszyna wirtualna pozwala na uruchomienie wielu systemów operacyjnych na jednym sprzęcie.",
+     "de": "Eine virtuelle Maschine ermöglicht mehrere Betriebssysteme auf einer Hardware.",
+     "fr": "Une machine virtuelle permet plusieurs systèmes d'exploitation sur un matériel.",
+     "es": "Una máquina virtual permite múltiples sistemas operativos en un hardware.",
+     "it": "Una macchina virtuale consente più sistemi operativi su un hardware.",
+     "pt": "Uma máquina virtual permite vários sistemas operacionais em um único hardware.",
+     "tr": "Bir sanal makine, bir donanımda birden fazla işletim sistemi çalıştırır."
+    },
+    {
+     "en": "Developers often use virtual machines for testing applications.",
+     "uk": "Розробники часто використовують віртуальні машини для тестування додатків.",
+     "ru": "Разработчики часто используют виртуальные машины для тестирования приложений.",
+     "pl": "Programiści często używają maszyn wirtualnych do testowania aplikacji.",
+     "de": "Entwickler verwenden oft virtuelle Maschinen zum Testen von Anwendungen.",
+     "fr": "Les développeurs utilisent souvent des machines virtuelles pour tester des applications.",
+     "es": "Los desarrolladores a menudo utilizan máquinas virtuales para probar aplicaciones.",
+     "it": "Gli sviluppatori utilizzano spesso macchine virtuali per testare applicazioni.",
+     "pt": "Os desenvolvedores costumam usar máquinas virtuais para testar aplicativos.",
+     "tr": "Geliştiriciler genellikle uygulamaları test etmek için sanal makineler kullanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.virtualization",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˌvɝtʃuəlɪˈzeɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Virtualization enhances resource utilization and efficiency.",
+     "uk": "Віртуалізація підвищує використання ресурсів та ефективність.",
+     "ru": "Виртуализация повышает использование ресурсов и эффективность.",
+     "pl": "Wirtualizacja zwiększa wykorzystanie zasobów i efektywność.",
+     "de": "Virtualisierung verbessert die Ressourcennutzung und Effizienz.",
+     "fr": "La virtualisation améliore l'utilisation des ressources et l'efficacité.",
+     "es": "La virtualización mejora la utilización de recursos y la eficiencia.",
+     "it": "La virtualizzazione migliora l'utilizzo delle risorse e l'efficienza.",
+     "pt": "A virtualização melhora a utilização de recursos e a eficiência.",
+     "tr": "Sanallaştırma, kaynak kullanımını ve verimliliği artırır."
+    },
+    {
+     "en": "Many cloud providers offer virtualization services to clients.",
+     "uk": "Багато хмарних провайдерів пропонують послуги віртуалізації клієнтам.",
+     "ru": "Многие облачные провайдеры предлагают услуги виртуализации клиентам.",
+     "pl": "Wielu dostawców chmur oferuje usługi wirtualizacji dla klientów.",
+     "de": "Viele Cloud-Anbieter bieten Virtualisierungsdienste für Kunden an.",
+     "fr": "De nombreux fournisseurs de cloud proposent des services de virtualisation aux clients.",
+     "es": "Muchos proveedores de nube ofrecen servicios de virtualización a los clientes.",
+     "it": "Molti fornitori di cloud offrono servizi di virtualizzazione ai clienti.",
+     "pt": "Muitos provedores de nuvem oferecem serviços de virtualização para clientes.",
+     "tr": "Birçok bulut sağlayıcısı, müşterilere sanallaştırma hizmetleri sunar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.container",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/kənˈteɪnɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Containers help in deploying applications consistently across environments.",
+     "uk": "Контейнери допомагають у розгортанні додатків послідовно в різних середовищах.",
+     "ru": "Контейнеры помогают последовательно развертывать приложения в разных средах.",
+     "pl": "Kontenery pomagają w spójnym wdrażaniu aplikacji w różnych środowiskach.",
+     "de": "Container helfen, Anwendungen konsistent in verschiedenen Umgebungen bereitzustellen.",
+     "fr": "Les conteneurs aident à déployer des applications de manière cohérente dans différents environnements.",
+     "es": "Los contenedores ayudan a implementar aplicaciones de manera coherente en diferentes entornos.",
+     "it": "I container aiutano a distribuire le applicazioni in modo coerente tra gli ambienti.",
+     "pt": "Os contêineres ajudam a implantar aplicativos de forma consistente em diferentes ambientes.",
+     "tr": "Konteynerler, uygulamaları farklı ortamlarda tutarlı bir şekilde dağıtmaya yardımcı olur."
+    },
+    {
+     "en": "Using containers simplifies the development and deployment process.",
+     "uk": "Використання контейнерів спрощує процес розробки та розгортання.",
+     "ru": "Использование контейнеров упрощает процесс разработки и развертывания.",
+     "pl": "Użycie kontenerów upraszcza proces rozwoju i wdrożenia.",
+     "de": "Die Verwendung von Containern vereinfacht den Entwicklungs- und Bereitstellungsprozess.",
+     "fr": "L'utilisation de conteneurs simplifie le processus de développement et de déploiement.",
+     "es": "El uso de contenedores simplifica el proceso de desarrollo y despliegue.",
+     "it": "L'uso dei container semplifica il processo di sviluppo e distribuzione.",
+     "pt": "O uso de contêineres simplifica o processo de desenvolvimento e implantação.",
+     "tr": "Konteyner kullanımı, geliştirme ve dağıtım sürecini basitleştirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.cluster",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/ˈklʌstɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A cluster of servers can improve reliability and performance.",
+     "uk": "Кластер серверів може покращити надійність і продуктивність.",
+     "ru": "Кластер серверов может улучшить надежность и производительность.",
+     "pl": "Klaster serwerów może poprawić niezawodność i wydajność.",
+     "de": "Ein Cluster von Servern kann die Zuverlässigkeit und Leistung verbessern.",
+     "fr": "Un cluster de serveurs peut améliorer la fiabilité et les performances.",
+     "es": "Un clúster de servidores puede mejorar la fiabilidad y el rendimiento.",
+     "it": "Un cluster di server può migliorare l'affidabilità e le prestazioni.",
+     "pt": "Um cluster de servidores pode melhorar a confiabilidade e o desempenho.",
+     "tr": "Bir sunucu kümesi, güvenilirliği ve performansı artırabilir."
+    },
+    {
+     "en": "Clusters are essential for handling large-scale data processing.",
+     "uk": "Кластери є необхідними для обробки даних у великому масштабі.",
+     "ru": "Кластеры необходимы для обработки данных в больших масштабах.",
+     "pl": "Klastry są niezbędne do przetwarzania danych na dużą skalę.",
+     "de": "Cluster sind unerlässlich für die Verarbeitung großer Datenmengen.",
+     "fr": "Les clusters sont essentiels pour le traitement des données à grande échelle.",
+     "es": "Los clústeres son esenciales para manejar el procesamiento de datos a gran escala.",
+     "it": "I cluster sono essenziali per gestire l'elaborazione di grandi dati.",
+     "pt": "Clusters são essenciais para lidar com processamento de dados em grande escala.",
+     "tr": "Küme, büyük ölçekli veri işleme için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-spin-up",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/spɪn ʌp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to spin up new servers for the project.",
+     "uk": "Нам потрібно запустити нові сервери для проекту.",
+     "ru": "Нам нужно поднять новые серверы для проекта.",
+     "pl": "Musimy uruchomić nowe serwery dla projektu.",
+     "de": "Wir müssen neue Server für das Projekt hochfahren.",
+     "fr": "Nous devons lancer de nouveaux serveurs pour le projet.",
+     "es": "Necesitamos levantar nuevos servidores para el proyecto.",
+     "it": "Dobbiamo avviare nuovi server per il progetto.",
+     "pt": "Precisamos subir novos servidores para o projeto.",
+     "tr": "Projeye yeni sunucular ayağa kaldırmamız gerekiyor."
+    },
+    {
+     "en": "It's time to spin up the development environment.",
+     "uk": "Час запустити середовище розробки.",
+     "ru": "Пора поднять среду разработки.",
+     "pl": "Czas uruchomić środowisko deweloperskie.",
+     "de": "Es ist Zeit, die Entwicklungsumgebung hochzufahren.",
+     "fr": "Il est temps de lancer l'environnement de développement.",
+     "es": "Es hora de levantar el entorno de desarrollo.",
+     "it": "È tempo di avviare l'ambiente di sviluppo.",
+     "pt": "É hora de subir o ambiente de desenvolvimento.",
+     "tr": "Geliştirme ortamını ayağa kaldırma zamanı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.infrastructure-as-code",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˌɪnfrəˈstrʌktʃɚ æz koʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Infrastructure as code streamlines the deployment process.",
+     "uk": "Інфраструктура як код спрощує процес розгортання.",
+     "ru": "Инфраструктура как код упрощает процесс развертывания.",
+     "pl": "Infrastruktura jako kod upraszcza proces wdrażania.",
+     "de": "Infrastructure as Code optimiert den Bereitstellungsprozess.",
+     "fr": "L'infrastructure en tant que code simplifie le processus de déploiement.",
+     "es": "La infraestructura como código agiliza el proceso de implementación.",
+     "it": "L'infrastruttura come codice semplifica il processo di distribuzione.",
+     "pt": "A infraestrutura como código agiliza o processo de implantação.",
+     "tr": "Kod olarak altyapı, dağıtım sürecini kolaylaştırır."
+    },
+    {
+     "en": "Using infrastructure as code enhances collaboration among teams.",
+     "uk": "Використання інфраструктури як коду покращує співпрацю між командами.",
+     "ru": "Использование инфраструктуры как кода улучшает сотрудничество между командами.",
+     "pl": "Użycie infrastruktury jako kodu poprawia współpracę między zespołami.",
+     "de": "Die Verwendung von Infrastructure as Code verbessert die Zusammenarbeit zwischen Teams.",
+     "fr": "Utiliser l'infrastructure en tant que code améliore la collaboration entre les équipes.",
+     "es": "Usar infraestructura como código mejora la colaboración entre equipos.",
+     "it": "Utilizzare l'infrastruttura come codice migliora la collaborazione tra i team.",
+     "pt": "Usar infraestrutura como código melhora a colaboração entre equipes.",
+     "tr": "Kod olarak altyapı kullanmak, ekipler arasındaki iş birliğini artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.devops",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/ˈdɛvˌɑps/"
-   }
+   },
+   "exs": [
+    {
+     "en": "DevOps practices improve software delivery speed and quality.",
+     "uk": "Практики DevOps покращують швидкість і якість доставки програмного забезпечення.",
+     "ru": "Практики DevOps улучшают скорость и качество доставки программного обеспечения.",
+     "pl": "Praktyki DevOps poprawiają szybkość i jakość dostarczania oprogramowania.",
+     "de": "DevOps-Praktiken verbessern die Geschwindigkeit und Qualität der Softwarebereitstellung.",
+     "fr": "Les pratiques DevOps améliorent la vitesse et la qualité de livraison des logiciels.",
+     "es": "Las prácticas de DevOps mejoran la velocidad y calidad de entrega de software.",
+     "it": "Le pratiche DevOps migliorano la velocità e la qualità della consegna del software.",
+     "pt": "As práticas de DevOps melhoram a velocidade e a qualidade da entrega de software.",
+     "tr": "DevOps uygulamaları, yazılım teslimat hızını ve kalitesini artırır."
+    },
+    {
+     "en": "Many companies are adopting DevOps to enhance collaboration.",
+     "uk": "Багато компаній впроваджують DevOps для покращення співпраці.",
+     "ru": "Многие компании принимают DevOps для улучшения сотрудничества.",
+     "pl": "Wiele firm przyjmuje DevOps, aby poprawić współpracę.",
+     "de": "Viele Unternehmen setzen auf DevOps, um die Zusammenarbeit zu verbessern.",
+     "fr": "De nombreuses entreprises adoptent DevOps pour améliorer la collaboration.",
+     "es": "Muchas empresas están adoptando DevOps para mejorar la colaboración.",
+     "it": "Molte aziende stanno adottando DevOps per migliorare la collaborazione.",
+     "pt": "Muitas empresas estão adotando DevOps para melhorar a colaboração.",
+     "tr": "Birçok şirket, iş birliğini artırmak için DevOps'u benimsiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.on-call",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ɑn kɔl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The doctor is on-call this weekend.",
+     "uk": "Лікар черговий цього вихідного.",
+     "ru": "Врач дежурный в эти выходные.",
+     "pl": "Lekarz jest dyżurny w ten weekend.",
+     "de": "Der Arzt ist am Wochenende in Rufbereitschaft.",
+     "fr": "Le médecin est d'astreinte ce week-end.",
+     "es": "El médico está de guardia este fin de semana.",
+     "it": "Il medico è reperibile questo fine settimana.",
+     "pt": "O médico está de plantão neste fim de semana.",
+     "tr": "Doktor bu hafta sonu nöbetçi."
+    },
+    {
+     "en": "He's always on-call for emergencies.",
+     "uk": "Він завжди черговий для надзвичайних ситуацій.",
+     "ru": "Он всегда дежурный на случай чрезвычайных ситуаций.",
+     "pl": "On zawsze jest dyżurny w nagłych wypadkach.",
+     "de": "Er ist immer in Rufbereitschaft für Notfälle.",
+     "fr": "Il est toujours d'astreinte pour les urgences.",
+     "es": "Él siempre está de guardia para emergencias.",
+     "it": "È sempre reperibile per le emergenze.",
+     "pt": "Ele está sempre de plantão para emergências.",
+     "tr": "O her zaman acil durumlar için nöbetçi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.incident-response",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈɪnsədənt rɪˈspɑns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Effective incident response minimizes potential damage.",
+     "uk": "Ефективне реагування на інциденти мінімізує можливі збитки.",
+     "ru": "Эффективное реагирование на инциденты минимизирует потенциальный ущерб.",
+     "pl": "Skuteczne reagowanie na incydenty minimalizuje potencjalne szkody.",
+     "de": "Eine effektive Reaktion auf Vorfälle minimiert potenzielle Schäden.",
+     "fr": "Une réponse efficace aux incidents minimise les dommages potentiels.",
+     "es": "Una respuesta efectiva a incidentes minimiza el daño potencial.",
+     "it": "Una risposta agli incidenti efficace minimizza i danni potenziali.",
+     "pt": "Uma resposta a incidentes eficaz minimiza danos potenciais.",
+     "tr": "Etkili olay müdahalesi potansiyel hasarı en aza indirir."
+    },
+    {
+     "en": "Training is crucial for incident response teams.",
+     "uk": "Навчання є вирішальним для команд реагування на інциденти.",
+     "ru": "Обучение имеет решающее значение для команд реагирования на инциденты.",
+     "pl": "Szkolenie jest kluczowe dla zespołów reagujących na incydenty.",
+     "de": "Schulung ist entscheidend für Reaktionsteams.",
+     "fr": "La formation est cruciale pour les équipes de réponse aux incidents.",
+     "es": "La capacitación es crucial para los equipos de respuesta a incidentes.",
+     "it": "La formazione è fondamentale per le squadre di risposta agli incidenti.",
+     "pt": "O treinamento é crucial para as equipes de resposta a incidentes.",
+     "tr": "Eğitim, olay müdahale ekipleri için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.sla",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˌɛsˌɛlˈeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The SLA specifies response times for support requests.",
+     "uk": "SLA визначає часи реагування на запити підтримки.",
+     "ru": "SLA определяет время реакции на запросы поддержки.",
+     "pl": "SLA określa czasy reakcji na zgłoszenia wsparcia.",
+     "de": "Das SLA legt Reaktionszeiten für Supportanfragen fest.",
+     "fr": "Le SLA précise les délais de réponse aux demandes de support.",
+     "es": "El SLA especifica los tiempos de respuesta para solicitudes de soporte.",
+     "it": "L'SLA specifica i tempi di risposta per le richieste di supporto.",
+     "pt": "O SLA especifica os tempos de resposta para solicitações de suporte.",
+     "tr": "SLA, destek talepleri için yanıt sürelerini belirtir."
+    },
+    {
+     "en": "We need to review the SLA with our provider.",
+     "uk": "Нам потрібно переглянути SLA з нашим постачальником.",
+     "ru": "Нам нужно пересмотреть SLA с нашим поставщиком.",
+     "pl": "Musimy przejrzeć SLA z naszym dostawcą.",
+     "de": "Wir müssen das SLA mit unserem Anbieter überprüfen.",
+     "fr": "Nous devons revoir le SLA avec notre fournisseur.",
+     "es": "Necesitamos revisar el SLA con nuestro proveedor.",
+     "it": "Dobbiamo rivedere l'SLA con il nostro fornitore.",
+     "pt": "Precisamos revisar o SLA com nosso fornecedor.",
+     "tr": "Sağlayıcımızla SLA'yı gözden geçirmemiz gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.memory-leak",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/ˈmɛmɚi lik/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A memory leak can slow down the application significantly.",
+     "uk": "Витік пам'яті може значно сповільнити застосунок.",
+     "ru": "Утечка памяти может значительно замедлить приложение.",
+     "pl": "Wyciek pamięci może znacznie spowolnić aplikację.",
+     "de": "Ein Speicherleck kann die Anwendung erheblich verlangsamen.",
+     "fr": "Une fuite de mémoire peut ralentir considérablement l'application.",
+     "es": "Una fuga de memoria puede ralentizar significativamente la aplicación.",
+     "it": "Una perdita di memoria può rallentare significativamente l'applicazione.",
+     "pt": "Um vazamento de memória pode desacelerar significativamente o aplicativo.",
+     "tr": "Bir bellek sızıntısı uygulamayı önemli ölçüde yavaşlatabilir."
+    },
+    {
+     "en": "Developers must fix memory leaks promptly.",
+     "uk": "Розробники повинні своєчасно виправляти витоки пам'яті.",
+     "ru": "Разработчики должны быстро исправлять утечки памяти.",
+     "pl": "Programiści muszą szybko naprawić wycieki pamięci.",
+     "de": "Entwickler müssen Speicherlecks umgehend beheben.",
+     "fr": "Les développeurs doivent corriger rapidement les fuites de mémoire.",
+     "es": "Los desarrolladores deben corregir las fugas de memoria rápidamente.",
+     "it": "Gli sviluppatori devono correggere rapidamente le perdite di memoria.",
+     "pt": "Os desenvolvedores devem corrigir vazamentos de memória rapidamente.",
+     "tr": "Geliştiriciler bellek sızıntılarını hızlı bir şekilde düzeltmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.race-condition",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/reɪs kənˈdɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A race condition can lead to unpredictable behavior.",
+     "uk": "Стан гонитви може призвести до непередбачуваної поведінки.",
+     "ru": "Состояние гонки может привести к непредсказуемому поведению.",
+     "pl": "Wyścig może prowadzić do nieprzewidywalnego zachowania.",
+     "de": "Eine Race Condition kann zu unvorhersehbarem Verhalten führen.",
+     "fr": "Une situation de compétition peut entraîner un comportement imprévisible.",
+     "es": "Una condición de carrera puede llevar a un comportamiento impredecible.",
+     "it": "Una race condition può portare a comportamenti imprevedibili.",
+     "pt": "Uma condição de corrida pode levar a comportamentos imprevisíveis.",
+     "tr": "Bir yarış durumu öngörülemeyen davranışlara yol açabilir."
+    },
+    {
+     "en": "Avoiding race conditions is crucial in concurrent programming.",
+     "uk": "Уникнення станів гонитви є важливим у паралельному програмуванні.",
+     "ru": "Избежание состояний гонки имеет решающее значение в параллельном программировании.",
+     "pl": "Unikanie wyścigów jest kluczowe w programowaniu współbieżnym.",
+     "de": "Das Vermeiden von Race Conditions ist entscheidend in der nebenläufigen Programmierung.",
+     "fr": "Éviter les situations de compétition est crucial en programmation concurrente.",
+     "es": "Evitar condiciones de carrera es crucial en la programación concurrente.",
+     "it": "Evitare le race condition è fondamentale nella programmazione concorrente.",
+     "pt": "Evitar condições de corrida é crucial na programação concorrente.",
+     "tr": "Yarış durumlarını önlemek, eşzamanlı programlamada çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.deadlock",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/ˈdɛdˌlɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Deadlock can occur when two processes wait indefinitely.",
+     "uk": "Взаємне блокування може виникнути, коли два процеси чекають безкінечно.",
+     "ru": "Взаимная блокировка может возникнуть, когда два процесса ждут бесконечно.",
+     "pl": "Zakleszczenie może wystąpić, gdy dwa procesy czekają w nieskończoność.",
+     "de": "Ein Deadlock kann auftreten, wenn zwei Prozesse unbegrenzt warten.",
+     "fr": "Un interblocage peut se produire lorsque deux processus attendent indéfiniment.",
+     "es": "Un interbloqueo puede ocurrir cuando dos procesos esperan indefinidamente.",
+     "it": "Uno stallo può verificarsi quando due processi aspettano indefinitamente.",
+     "pt": "Um impasse pode ocorrer quando dois processos esperam indefinidamente.",
+     "tr": "Kilitlenme, iki sürecin sonsuz beklediği durumlarda ortaya çıkabilir."
+    },
+    {
+     "en": "Resolving a deadlock requires careful analysis.",
+     "uk": "Вирішення взаємного блокування вимагає ретельного аналізу.",
+     "ru": "Разрешение взаимной блокировки требует тщательного анализа.",
+     "pl": "Rozwiązanie zakleszczenia wymaga starannej analizy.",
+     "de": "Die Behebung eines Deadlocks erfordert sorgfältige Analyse.",
+     "fr": "Résoudre un interblocage nécessite une analyse approfondie.",
+     "es": "Resolver un interbloqueo requiere un análisis cuidadoso.",
+     "it": "Risolvi uno stallo richiede un'analisi attenta.",
+     "pt": "Resolver um impasse requer uma análise cuidadosa.",
+     "tr": "Kilitlenmeyi çözmek dikkatli bir analiz gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.stack-trace",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/stæk treɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A stack trace helps identify the source of errors.",
+     "uk": "Трасування стека допомагає виявити джерело помилок.",
+     "ru": "Трассировка стека помогает определить источник ошибок.",
+     "pl": "Ślad stosu pomaga zidentyfikować źródło błędów.",
+     "de": "Ein Stacktrace hilft, die Fehlerquelle zu identifizieren.",
+     "fr": "Une trace de la pile aide à identifier la source des erreurs.",
+     "es": "Una traza de la pila ayuda a identificar la fuente de errores.",
+     "it": "Uno stack trace aiuta a identificare la fonte degli errori.",
+     "pt": "Um rastreamento de pilha ajuda a identificar a fonte de erros.",
+     "tr": "Bir yığın izi hataların kaynağını belirlemeye yardımcı olur."
+    },
+    {
+     "en": "Developers analyze stack traces to debug applications.",
+     "uk": "Розробники аналізують трасування стека для налагодження застосунків.",
+     "ru": "Разработчики анализируют трассировку стека для отладки приложений.",
+     "pl": "Programiści analizują ślady stosu, aby debugować aplikacje.",
+     "de": "Entwickler analysieren Stacktraces, um Anwendungen zu debuggen.",
+     "fr": "Les développeurs analysent les traces de la pile pour déboguer les applications.",
+     "es": "Los desarrolladores analizan las trazas de la pila para depurar aplicaciones.",
+     "it": "Gli sviluppatori analizzano gli stack trace per eseguire il debug delle applicazioni.",
+     "pt": "Os desenvolvedores analisam o rastreamento de pilha para depurar aplicativos.",
+     "tr": "Geliştiriciler uygulamaları hata ayıklamak için yığın izlerini analiz eder."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.log-file",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/lɔɡ faɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The log file contains important information about system events.",
+     "uk": "Файл журналу містить важливу інформацію про системні події.",
+     "ru": "Файл журнала содержит важную информацию о системных событиях.",
+     "pl": "Plik dziennika zawiera ważne informacje o zdarzeniach systemowych.",
+     "de": "Die Logdatei enthält wichtige Informationen über Systemereignisse.",
+     "fr": "Le fichier journal contient des informations importantes sur les événements système.",
+     "es": "El archivo de registro contiene información importante sobre los eventos del sistema.",
+     "it": "Il file di log contiene informazioni importanti sugli eventi di sistema.",
+     "pt": "O arquivo de log contém informações importantes sobre eventos do sistema.",
+     "tr": "Günlük dosyası, sistem olayları hakkında önemli bilgiler içerir."
+    },
+    {
+     "en": "You should review the log file for errors.",
+     "uk": "Вам слід переглянути файл журналу на наявність помилок.",
+     "ru": "Вам следует просмотреть файл журнала на наличие ошибок.",
+     "pl": "Powinieneś sprawdzić plik dziennika pod kątem błędów.",
+     "de": "Sie sollten die Logdatei auf Fehler überprüfen.",
+     "fr": "Vous devriez examiner le fichier journal à la recherche d'erreurs.",
+     "es": "Deberías revisar el archivo de registro en busca de errores.",
+     "it": "Dovresti controllare il file di log per errori.",
+     "pt": "Você deve revisar o arquivo de log em busca de erros.",
+     "tr": "Hatalar için günlük dosyasını gözden geçirmelisiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.monitoring",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ˈmɑnətɚɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Monitoring network traffic is essential for security.",
+     "uk": "Моніторинг мережевого трафіку є важливим для безпеки.",
+     "ru": "Мониторинг сетевого трафика важен для безопасности.",
+     "pl": "Monitorowanie ruchu sieciowego jest niezbędne dla bezpieczeństwa.",
+     "de": "Die Überwachung des Netzwerkverkehrs ist entscheidend für die Sicherheit.",
+     "fr": "La surveillance du trafic réseau est essentielle pour la sécurité.",
+     "es": "La monitorización del tráfico de red es esencial para la seguridad.",
+     "it": "Il monitoraggio del traffico di rete è essenziale per la sicurezza.",
+     "pt": "O monitoramento do tráfego de rede é essencial para a segurança.",
+     "tr": "Ağ trafiğinin izlenmesi güvenlik için esastır."
+    },
+    {
+     "en": "Effective monitoring can prevent system failures.",
+     "uk": "Ефективний моніторинг може запобігти збоєм системи.",
+     "ru": "Эффективный мониторинг может предотвратить сбои системы.",
+     "pl": "Skuteczne monitorowanie może zapobiec awariom systemu.",
+     "de": "Eine effektive Überwachung kann Systemausfälle verhindern.",
+     "fr": "Une surveillance efficace peut prévenir les pannes système.",
+     "es": "Una monitorización efectiva puede prevenir fallos del sistema.",
+     "it": "Un monitoraggio efficace può prevenire i guasti di sistema.",
+     "pt": "Um monitoramento eficaz pode prevenir falhas no sistema.",
+     "tr": "Etkili izleme sistem arızalarını önleyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.telemetry",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/təˈlɛmətri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Telemetry data helps improve system performance.",
+     "uk": "Дані телеметрії допомагають покращити продуктивність системи.",
+     "ru": "Данные телеметрии помогают улучшить производительность системы.",
+     "pl": "Dane telemetrii pomagają poprawić wydajność systemu.",
+     "de": "Telemetriedaten helfen, die Systemleistung zu verbessern.",
+     "fr": "Les données de télémétrie aident à améliorer les performances du système.",
+     "es": "Los datos de telemetría ayudan a mejorar el rendimiento del sistema.",
+     "it": "I dati di telemetria aiutano a migliorare le prestazioni del sistema.",
+     "pt": "Os dados de telemetria ajudam a melhorar o desempenho do sistema.",
+     "tr": "Telemetri verileri, sistem performansını artırmaya yardımcı olur."
+    },
+    {
+     "en": "The system uses telemetry for real-time monitoring.",
+     "uk": "Система використовує телеметрію для моніторингу в реальному часі.",
+     "ru": "Система использует телеметрию для мониторинга в реальном времени.",
+     "pl": "System wykorzystuje telemetrię do monitorowania w czasie rzeczywistym.",
+     "de": "Das System verwendet Telemetrie für die Echtzeitüberwachung.",
+     "fr": "Le système utilise la télémétrie pour la surveillance en temps réel.",
+     "es": "El sistema utiliza telemetría para el monitoreo en tiempo real.",
+     "it": "Il sistema utilizza la telemetria per il monitoraggio in tempo reale.",
+     "pt": "O sistema usa telemetria para monitoramento em tempo real.",
+     "tr": "Sistem, gerçek zamanlı izleme için telemetri kullanır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.metrics",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈmɛtrɪks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to analyze the metrics from last quarter.",
+     "uk": "Нам потрібно проаналізувати метрики за минулий квартал.",
+     "ru": "Нам нужно проанализировать метрики за прошлый квартал.",
+     "pl": "Musimy przeanalizować metryki z ostatniego kwartału.",
+     "de": "Wir müssen die Metriken des letzten Quartals analysieren.",
+     "fr": "Nous devons analyser les métriques du dernier trimestre.",
+     "es": "Necesitamos analizar las métricas del último trimestre.",
+     "it": "Dobbiamo analizzare le metriche dell'ultimo trimestre.",
+     "pt": "Precisamos analisar as métricas do último trimestre.",
+     "tr": "Son çeyreğin metriklerini analiz etmemiz gerekiyor."
+    },
+    {
+     "en": "The metrics indicate a significant improvement in performance.",
+     "uk": "Метрики вказують на значне покращення продуктивності.",
+     "ru": "Метрики указывают на значительное улучшение производительности.",
+     "pl": "Metryki wskazują na znaczną poprawę wydajności.",
+     "de": "Die Metriken zeigen eine signifikante Verbesserung der Leistung.",
+     "fr": "Les métriques indiquent une amélioration significative des performances.",
+     "es": "Las métricas indican una mejora significativa en el rendimiento.",
+     "it": "Le metriche indicano un miglioramento significativo delle prestazioni.",
+     "pt": "As métricas indicam uma melhoria significativa no desempenho.",
+     "tr": "Metrikler, performansta önemli bir iyileşme olduğunu gösteriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.code-freeze",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/koʊd friz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We have reached the code freeze for this release.",
+     "uk": "Ми досягли заморожування коду для цього випуску.",
+     "ru": "Мы достигли заморозки кода для этого релиза.",
+     "pl": "Osiągnęliśmy zamrożenie kodu dla tego wydania.",
+     "de": "Wir haben den Code-Freeze für dieses Release erreicht.",
+     "fr": "Nous avons atteint le gel du code pour cette version.",
+     "es": "Hemos alcanzado la congelación del código para este lanzamiento.",
+     "it": "Abbiamo raggiunto il congelamento del codice per questa versione.",
+     "pt": "Chegamos ao congelamento de código para este lançamento.",
+     "tr": "Bu sürüm için kod dondurmaya ulaştık."
+    },
+    {
+     "en": "The code freeze will last until the end of the month.",
+     "uk": "Заморожування коду триватиме до кінця місяця.",
+     "ru": "Заморозка кода продлится до конца месяца.",
+     "pl": "Zamrożenie kodu potrwa do końca miesiąca.",
+     "de": "Der Code-Freeze wird bis Ende des Monats dauern.",
+     "fr": "Le gel du code durera jusqu'à la fin du mois.",
+     "es": "La congelación del código durará hasta fin de mes.",
+     "it": "Il congelamento del codice durerà fino alla fine del mese.",
+     "pt": "O congelamento de código durará até o final do mês.",
+     "tr": "Kod dondurma ay sonuna kadar sürecek."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.release-cycle",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/riˈlis ˈsaɪkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The release cycle is scheduled for every six weeks.",
+     "uk": "Цикл релізів заплановано на кожні шість тижнів.",
+     "ru": "Цикл релизов запланирован на каждые шесть недель.",
+     "pl": "Cykl wydań jest zaplanowany co sześć tygodni.",
+     "de": "Der Release-Zyklus ist auf alle sechs Wochen geplant.",
+     "fr": "Le cycle de publication est prévu tous les six semaines.",
+     "es": "El ciclo de lanzamiento está programado cada seis semanas.",
+     "it": "Il ciclo di rilascio è programmato ogni sei settimane.",
+     "pt": "O ciclo de lançamento está agendado para cada seis semanas.",
+     "tr": "Sürüm döngüsü her altı haftada bir planlandı."
+    },
+    {
+     "en": "We need to review the release cycle for efficiency.",
+     "uk": "Нам потрібно переглянути цикл релізів для підвищення ефективності.",
+     "ru": "Нам нужно пересмотреть цикл релизов для повышения эффективности.",
+     "pl": "Musimy przeanalizować cykl wydań pod kątem efektywności.",
+     "de": "Wir müssen den Release-Zyklus auf Effizienz überprüfen.",
+     "fr": "Nous devons examiner le cycle de publication pour l'efficacité.",
+     "es": "Necesitamos revisar el ciclo de lanzamiento para ser más eficientes.",
+     "it": "Dobbiamo rivedere il ciclo di rilascio per l'efficienza.",
+     "pt": "Precisamos revisar o ciclo de lançamento para eficiência.",
+     "tr": "Verimlilik için sürüm döngüsünü gözden geçirmemiz gerekiyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.release-notes",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/riˈlis noʊts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Please review the release notes before updating.",
+     "uk": "Будь ласка, перегляньте примітки до випуску перед оновленням.",
+     "ru": "Пожалуйста, ознакомьтесь с примечаниями к выпуску перед обновлением.",
+     "pl": "Proszę zapoznać się z informacjami o wydaniu przed aktualizacją.",
+     "de": "Bitte überprüfen Sie die Versionshinweise vor dem Update.",
+     "fr": "Veuillez consulter les notes de version avant la mise à jour.",
+     "es": "Por favor, revisa las notas de la versión antes de actualizar.",
+     "it": "Si prega di rivedere le note di rilascio prima dell'aggiornamento.",
+     "pt": "Por favor, revise as notas de versão antes de atualizar.",
+     "tr": "Güncellemeye geçmeden önce sürüm notlarını gözden geçirin."
+    },
+    {
+     "en": "The release notes detail all the changes made.",
+     "uk": "Примітки до випуску детально описують усі внесені зміни.",
+     "ru": "Примечания к выпуску подробно описывают все внесенные изменения.",
+     "pl": "Informacje o wydaniu szczegółowo opisują wszystkie wprowadzone zmiany.",
+     "de": "Die Versionshinweise beschreiben alle vorgenommenen Änderungen.",
+     "fr": "Les notes de version détaillent tous les changements apportés.",
+     "es": "Las notas de la versión detallan todos los cambios realizados.",
+     "it": "Le note di rilascio dettagliano tutte le modifiche apportate.",
+     "pt": "As notas de versão detalham todas as mudanças feitas.",
+     "tr": "Sürüm notları yapılan tüm değişiklikleri ayrıntılı olarak açıklar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.backwards-compatible",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/ˈbækwɚdz kəmˈpætəbəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The software is backwards compatible with earlier versions.",
+     "uk": "Програмне забезпечення є зворотно сумісним з попередніми версіями.",
+     "ru": "Программное обеспечение обратно совместимо с более ранними версиями.",
+     "pl": "Oprogramowanie jest kompatybilne wstecz z wcześniejszymi wersjami.",
+     "de": "Die Software ist abwärtskompatibel mit früheren Versionen.",
+     "fr": "Le logiciel est rétrocompatible avec les versions antérieures.",
+     "es": "El software es retrocompatible con versiones anteriores.",
+     "it": "Il software è retrocompatibile con le versioni precedenti.",
+     "pt": "O software é retrocompatível com versões anteriores.",
+     "tr": "Yazılım, önceki sürümlerle geriye dönük uyumlu."
+    },
+    {
+     "en": "Ensure the new features are backwards compatible.",
+     "uk": "Переконайтеся, що нові функції є зворотно сумісними.",
+     "ru": "Убедитесь, что новые функции обратно совместимы.",
+     "pl": "Upewnij się, że nowe funkcje są kompatybilne wstecz.",
+     "de": "Stellen Sie sicher, dass die neuen Funktionen abwärtskompatibel sind.",
+     "fr": "Assurez-vous que les nouvelles fonctionnalités sont rétrocompatibles.",
+     "es": "Asegúrate de que las nuevas funciones son retrocompatibles.",
+     "it": "Assicurati che le nuove funzionalità siano retrocompatibili.",
+     "pt": "Certifique-se de que os novos recursos são retrocompatíveis.",
+     "tr": "Yeni özelliklerin geriye dönük uyumlu olduğundan emin olun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.breaking-change",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/ˈbreɪkɪŋ tʃeɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This update includes a breaking change that requires attention.",
+     "uk": "Це оновлення містить несумісну зміну, яка потребує уваги.",
+     "ru": "Это обновление включает в себя ломающее изменение, требующее внимания.",
+     "pl": "To aktualizacja zawiera zmianę niekompatybilną, która wymaga uwagi.",
+     "de": "Dieses Update enthält eine Breaking Change, die Aufmerksamkeit erfordert.",
+     "fr": "Cette mise à jour inclut un changement incompatible qui nécessite une attention particulière.",
+     "es": "Esta actualización incluye un cambio incompatible que requiere atención.",
+     "it": "Questo aggiornamento include una modifica incompatibile che richiede attenzione.",
+     "pt": "Esta atualização inclui uma mudança incompatível que requer atenção.",
+     "tr": "Bu güncelleme, dikkat gerektiren uyumluluğu bozan bir değişiklik içeriyor."
+    },
+    {
+     "en": "Be cautious of breaking changes in the new version.",
+     "uk": "Будьте обережні з несумісними змінами в новій версії.",
+     "ru": "Будьте осторожны с ломающими изменениями в новой версии.",
+     "pl": "Bądź ostrożny z zmianami niekompatybilnymi w nowej wersji.",
+     "de": "Seien Sie vorsichtig mit Breaking Changes in der neuen Version.",
+     "fr": "Soyez prudent avec les changements incompatibles dans la nouvelle version.",
+     "es": "Ten cuidado con los cambios incompatibles en la nueva versión.",
+     "it": "Fai attenzione alle modifiche incompatibili nella nuova versione.",
+     "pt": "Tenha cuidado com as mudanças incompatíveis na nova versão.",
+     "tr": "Yeni versiyondaki uyumluluğu bozan değişikliklere dikkat edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-sanitise-input",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/ˈsænɪˌtaɪz ˈɪnˌpʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "It's essential to sanitise input to prevent security issues.",
+     "uk": "Важливо очищати вхідні дані, щоб уникнути проблем з безпекою.",
+     "ru": "Важно очищать входные данные, чтобы предотвратить проблемы с безопасностью.",
+     "pl": "Ważne jest, aby oczyszczać dane wejściowe, aby zapobiec problemom z bezpieczeństwem.",
+     "de": "Es ist wichtig, Eingaben zu bereinigen, um Sicherheitsprobleme zu verhindern.",
+     "fr": "Il est essentiel d'assainir les entrées pour éviter les problèmes de sécurité.",
+     "es": "Es esencial sanear la entrada para prevenir problemas de seguridad.",
+     "it": "È fondamentale sanificare l'input per prevenire problemi di sicurezza.",
+     "pt": "É essencial sanitizar a entrada para evitar problemas de segurança.",
+     "tr": "Güvenlik sorunlarını önlemek için girişi temizlemek önemlidir."
+    },
+    {
+     "en": "Developers must sanitise input to ensure data integrity.",
+     "uk": "Розробники повинні очищати вхідні дані, щоб забезпечити цілісність даних.",
+     "ru": "Разработчики должны очищать входные данные, чтобы обеспечить целостность данных.",
+     "pl": "Programiści muszą oczyszczać dane wejściowe, aby zapewnić integralność danych.",
+     "de": "Entwickler müssen Eingaben bereinigen, um die Datenintegrität sicherzustellen.",
+     "fr": "Les développeurs doivent assainir les entrées pour garantir l'intégrité des données.",
+     "es": "Los desarrolladores deben sanear la entrada para garantizar la integridad de los datos.",
+     "it": "Gli sviluppatori devono sanificare l'input per garantire l'integrità dei dati.",
+     "pt": "Os desenvolvedores devem sanitizar a entrada para garantir a integridade dos dados.",
+     "tr": "Geliştiricilerin veri bütünlüğünü sağlamak için girişi temizlemesi gerekir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.sql-injection",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/ˌɛˌskjuˈɛl ˌɪnˈdʒɛkʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "SQL injection can compromise the security of the database.",
+     "uk": "SQL-ін'єкція може поставити під загрозу безпеку бази даних.",
+     "ru": "SQL-инъекция может поставить под угрозу безопасность базы данных.",
+     "pl": "Wstrzyknięcie SQL może zagrozić bezpieczeństwu bazy danych.",
+     "de": "SQL-Injection kann die Sicherheit der Datenbank gefährden.",
+     "fr": "L'injection SQL peut compromettre la sécurité de la base de données.",
+     "es": "La inyección SQL puede comprometer la seguridad de la base de datos.",
+     "it": "L'SQL injection può compromettere la sicurezza del database.",
+     "pt": "A injeção de SQL pode comprometer a segurança do banco de dados.",
+     "tr": "SQL enjeksiyonu, veritabanının güvenliğini tehlikeye atabilir."
+    },
+    {
+     "en": "Preventing SQL injection is crucial for application security.",
+     "uk": "Запобігання SQL-ін'єкціям є важливим для безпеки програми.",
+     "ru": "Предотвращение SQL-инъекций имеет решающее значение для безопасности приложения.",
+     "pl": "Zapobieganie wstrzyknięciom SQL jest kluczowe dla bezpieczeństwa aplikacji.",
+     "de": "Die Verhinderung von SQL-Injection ist entscheidend für die Sicherheit der Anwendung.",
+     "fr": "Prévenir les injections SQL est crucial pour la sécurité de l'application.",
+     "es": "Prevenir la inyección SQL es crucial para la seguridad de la aplicación.",
+     "it": "Prevenire l'SQL injection è cruciale per la sicurezza dell'applicazione.",
+     "pt": "Prevenir a injeção de SQL é crucial para a segurança do aplicativo.",
+     "tr": "SQL enjeksiyonunu önlemek, uygulama güvenliği için hayati önem taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.cross-site-scripting",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈkrɔsˌsaɪt ˈskrɪptɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cross-site scripting can lead to serious security breaches.",
+     "uk": "Міжсайтовий скриптинг може призвести до серйозних порушень безпеки.",
+     "ru": "Межсайтовый скриптинг может привести к серьезным нарушениям безопасности.",
+     "pl": "Cross-site scripting może prowadzić do poważnych naruszeń bezpieczeństwa.",
+     "de": "Cross-Site-Scripting kann zu schwerwiegenden Sicherheitsverletzungen führen.",
+     "fr": "Le script intersite peut entraîner de graves violations de la sécurité.",
+     "es": "El scripting entre sitios puede dar lugar a graves violaciones de seguridad.",
+     "it": "Il cross-site scripting può portare a gravi violazioni della sicurezza.",
+     "pt": "O cross-site scripting pode levar a graves violações de segurança.",
+     "tr": "Siteler arası betik çalıştırma, ciddi güvenlik ihlallerine yol açabilir."
+    },
+    {
+     "en": "Mitigating cross-site scripting is essential for web applications.",
+     "uk": "Зменшення міжсайтового скриптингу є необхідним для веб-додатків.",
+     "ru": "Снижение межсайтового скриптинга необходимо для веб-приложений.",
+     "pl": "Ograniczenie cross-site scripting jest niezbędne dla aplikacji internetowych.",
+     "de": "Die Minderung von Cross-Site-Scripting ist für Webanwendungen unerlässlich.",
+     "fr": "Atténuer le script intersite est essentiel pour les applications Web.",
+     "es": "Mitigar el scripting entre sitios es esencial para las aplicaciones web.",
+     "it": "Mitigare il cross-site scripting è essenziale per le applicazioni web.",
+     "pt": "Mitigar o cross-site scripting é essencial para aplicativos da web.",
+     "tr": "Siteler arası betik çalıştırmayı hafifletmek, web uygulamaları için hayati önem taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.public-key",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ˈpʌblɪk ki/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The public key is used for encrypting data.",
+     "uk": "Відкритий ключ використовується для шифрування даних.",
+     "ru": "Открытый ключ используется для шифрования данных.",
+     "pl": "Klucz publiczny jest używany do szyfrowania danych.",
+     "de": "Der öffentliche Schlüssel wird zur Verschlüsselung von Daten verwendet.",
+     "fr": "La clé publique est utilisée pour chiffrer les données.",
+     "es": "La clave pública se utiliza para cifrar datos.",
+     "it": "La chiave pubblica viene utilizzata per crittografare i dati.",
+     "pt": "A chave pública é usada para criptografar dados.",
+     "tr": "Açık anahtar, verileri şifrelemek için kullanılır."
+    },
+    {
+     "en": "You need the public key to verify the signature.",
+     "uk": "Вам потрібен відкритий ключ, щоб перевірити підпис.",
+     "ru": "Вам нужен открытый ключ для проверки подписи.",
+     "pl": "Potrzebujesz klucza publicznego, aby zweryfikować podpis.",
+     "de": "Sie benötigen den öffentlichen Schlüssel, um die Signatur zu überprüfen.",
+     "fr": "Vous avez besoin de la clé publique pour vérifier la signature.",
+     "es": "Necesitas la clave pública para verificar la firma.",
+     "it": "Hai bisogno della chiave pubblica per verificare la firma.",
+     "pt": "Você precisa da chave pública para verificar a assinatura.",
+     "tr": "İmzanızı doğrulamak için açık anahtara ihtiyacınız var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.private-key",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/ˈpraɪvət ki/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my private key and can't access my files.",
+     "uk": "Я втратив свій закритий ключ і не можу отримати доступ до файлів.",
+     "ru": "Я потерял свой закрытый ключ и не могу получить доступ к файлам.",
+     "pl": "Zgubiłem mój klucz prywatny i nie mogę uzyskać dostępu do plików.",
+     "de": "Ich habe meinen privaten Schlüssel verloren und kann nicht auf meine Dateien zugreifen.",
+     "fr": "J'ai perdu ma clé privée et je ne peux pas accéder à mes fichiers.",
+     "es": "Perdí mi clave privada y no puedo acceder a mis archivos.",
+     "it": "Ho perso la mia chiave privata e non posso accedere ai miei file.",
+     "pt": "Perdi minha chave privada e não consigo acessar meus arquivos.",
+     "tr": "Özel anahtarımı kaybettim ve dosyalarıma erişemiyorum."
+    },
+    {
+     "en": "Keep your private key secure to prevent unauthorized access.",
+     "uk": "Зберігайте свій закритий ключ у безпеці, щоб запобігти несанкціонованому доступу.",
+     "ru": "Храните свой закрытый ключ в безопасности, чтобы предотвратить несанкционированный доступ.",
+     "pl": "Przechowuj swój klucz prywatny w bezpiecznym miejscu, aby zapobiec nieautoryzowanemu dostępowi.",
+     "de": "Bewahren Sie Ihren privaten Schlüssel sicher auf, um unbefugten Zugriff zu verhindern.",
+     "fr": "Gardez votre clé privée en sécurité pour éviter tout accès non autorisé.",
+     "es": "Mantén tu clave privada segura para prevenir accesos no autorizados.",
+     "it": "Tieni la tua chiave privata al sicuro per prevenire accessi non autorizzati.",
+     "pt": "Mantenha sua chave privada segura para evitar acessos não autorizados.",
+     "tr": "Özel anahtarınızı güvende tutun, böylece yetkisiz erişimi önleyin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.hashing",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/ˈhæʃɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Hashing ensures data integrity in storage systems.",
+     "uk": "Гешування забезпечує цілісність даних у системах зберігання.",
+     "ru": "Хеширование обеспечивает целостность данных в системах хранения.",
+     "pl": "Haszowanie zapewnia integralność danych w systemach przechowywania.",
+     "de": "Hashing gewährleistet die Integrität von Daten in Speichersystemen.",
+     "fr": "Le hachage garantit l'intégrité des données dans les systèmes de stockage.",
+     "es": "El hashing garantiza la integridad de los datos en los sistemas de almacenamiento.",
+     "it": "L'hashing garantisce l'integrità dei dati nei sistemi di archiviazione.",
+     "pt": "O hashing garante a integridade dos dados em sistemas de armazenamento.",
+     "tr": "Hash'leme, depolama sistemlerinde veri bütünlüğünü sağlar."
+    },
+    {
+     "en": "Effective hashing algorithms are crucial for cybersecurity.",
+     "uk": "Ефективні алгоритми гешування є важливими для кібербезпеки.",
+     "ru": "Эффективные алгоритмы хеширования имеют решающее значение для кибербезопасности.",
+     "pl": "Skuteczne algorytmy haszowania są kluczowe dla cyberbezpieczeństwa.",
+     "de": "Effektive Hashing-Algorithmen sind entscheidend für die Cybersicherheit.",
+     "fr": "Des algorithmes de hachage efficaces sont cruciaux pour la cybersécurité.",
+     "es": "Los algoritmos de hashing efectivos son cruciales para la ciberseguridad.",
+     "it": "Algoritmi di hashing efficaci sono cruciali per la cybersicurezza.",
+     "pt": "Algoritmos de hashing eficazes são cruciais para a cibersegurança.",
+     "tr": "Etkili hash'leme algoritmaları siber güvenlik için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.access-token",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/ˈækˌsɛs ˈtoʊkən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An access token grants permission to use the API.",
+     "uk": "Токен доступу надає дозвіл на використання API.",
+     "ru": "Токен доступа предоставляет разрешение на использование API.",
+     "pl": "Token dostępu przyznaje uprawnienia do korzystania z API.",
+     "de": "Ein Zugriffstoken gewährt die Berechtigung zur Nutzung der API.",
+     "fr": "Un jeton d'accès accorde l'autorisation d'utiliser l'API.",
+     "es": "Un token de acceso otorga permiso para usar la API.",
+     "it": "Un token di accesso concede il permesso di utilizzare l'API.",
+     "pt": "Um token de acesso concede permissão para usar a API.",
+     "tr": "Erişim belirteci, API'yi kullanma izni verir."
+    },
+    {
+     "en": "Always secure your access tokens to prevent misuse.",
+     "uk": "Завжди захищайте свої токени доступу, щоб запобігти зловживанням.",
+     "ru": "Всегда защищайте свои токены доступа, чтобы предотвратить злоупотребления.",
+     "pl": "Zawsze zabezpieczaj swoje tokeny dostępu, aby zapobiec nadużyciom.",
+     "de": "Sichern Sie immer Ihre Zugriffstoken, um Missbrauch zu verhindern.",
+     "fr": "Protégez toujours vos jetons d'accès pour éviter les abus.",
+     "es": "Siempre asegure sus tokens de acceso para prevenir el uso indebido.",
+     "it": "Proteggi sempre i tuoi token di accesso per prevenire abusi.",
+     "pt": "Sempre proteja seus tokens de acesso para evitar abusos.",
+     "tr": "Her zaman erişim belirteçlerinizi koruyun, böylece kötüye kullanımı önleyin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.least-privilege",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/list ˈprɪvlədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Implement least privilege to enhance security measures.",
+     "uk": "Впровадьте мінімальні привілеї для підвищення рівня безпеки.",
+     "ru": "Реализуйте минимальные привилегии для повышения уровня безопасности.",
+     "pl": "Wprowadź minimalne uprawnienia, aby zwiększyć środki bezpieczeństwa.",
+     "de": "Implementieren Sie minimale Rechtevergabe zur Verbesserung der Sicherheitsmaßnahmen.",
+     "fr": "Mettez en œuvre le moindre privilège pour renforcer les mesures de sécurité.",
+     "es": "Implementa el mínimo privilegio para mejorar las medidas de seguridad.",
+     "it": "Implementa il privilegio minimo per migliorare le misure di sicurezza.",
+     "pt": "Implemente o privilégio mínimo para melhorar as medidas de segurança.",
+     "tr": "Güvenlik önlemlerini artırmak için en az ayrıcalığı uygulayın."
+    },
+    {
+     "en": "The least privilege principle reduces the risk of data breaches.",
+     "uk": "Принцип мінімальних привілеїв знижує ризик витоків даних.",
+     "ru": "Принцип минимальных привилегий снижает риск утечек данных.",
+     "pl": "Zasada minimalnych uprawnień zmniejsza ryzyko naruszeń danych.",
+     "de": "Das Prinzip der minimalen Rechtevergabe verringert das Risiko von Datenverletzungen.",
+     "fr": "Le principe du moindre privilège réduit le risque de violations de données.",
+     "es": "El principio de mínimo privilegio reduce el riesgo de filtraciones de datos.",
+     "it": "Il principio del privilegio minimo riduce il rischio di violazioni dei dati.",
+     "pt": "O princípio do privilégio mínimo reduz o risco de vazamentos de dados.",
+     "tr": "En az ayrıcalık ilkesi, veri ihlali riskini azaltır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.threat-model",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/θrɛt ˈmɑdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Develop a threat model to identify potential vulnerabilities.",
+     "uk": "Розробіть модель загроз, щоб виявити потенційні вразливості.",
+     "ru": "Разработайте модель угроз, чтобы выявить потенциальные уязвимости.",
+     "pl": "Opracuj model zagrożeń, aby zidentyfikować potencjalne luki.",
+     "de": "Entwickeln Sie ein Bedrohungsmodell, um potenzielle Schwachstellen zu identifizieren.",
+     "fr": "Développez un modèle de menace pour identifier les vulnérabilités potentielles.",
+     "es": "Desarrolla un modelo de amenazas para identificar vulnerabilidades potenciales.",
+     "it": "Sviluppa un modello delle minacce per identificare potenziali vulnerabilità.",
+     "pt": "Desenvolva um modelo de ameaças para identificar vulnerabilidades potenciais.",
+     "tr": "Potansiyel zayıflıkları belirlemek için bir tehdit modeli geliştirin."
+    },
+    {
+     "en": "A comprehensive threat model helps mitigate security risks.",
+     "uk": "Комплексна модель загроз допомагає зменшити ризики безпеки.",
+     "ru": "Комплексная модель угроз помогает смягчить риски безопасности.",
+     "pl": "Kompleksowy model zagrożeń pomaga łagodzić ryzyko bezpieczeństwa.",
+     "de": "Ein umfassendes Bedrohungsmodell hilft, Sicherheitsrisiken zu mindern.",
+     "fr": "Un modèle de menace complet aide à atténuer les risques de sécurité.",
+     "es": "Un modelo de amenazas completo ayuda a mitigar los riesgos de seguridad.",
+     "it": "Un modello delle minacce completo aiuta a mitigare i rischi di sicurezza.",
+     "pt": "Um modelo de ameaças abrangente ajuda a mitigar riscos de segurança.",
+     "tr": "Kapsamlı bir tehdit modeli, güvenlik risklerini azaltmaya yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.security-audit",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/sɪˈkjʊrəti ˈɔdɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A security audit reveals weaknesses in the system.",
+     "uk": "Аудит безпеки виявляє слабкі місця у системі.",
+     "ru": "Аудит безопасности выявляет слабые места в системе.",
+     "pl": "Audyt bezpieczeństwa ujawnia słabości w systemie.",
+     "de": "Ein Sicherheitsaudit deckt Schwächen im System auf.",
+     "fr": "Un audit de sécurité révèle des faiblesses dans le système.",
+     "es": "Una auditoría de seguridad revela debilidades en el sistema.",
+     "it": "Un audit di sicurezza rivela debolezze nel sistema.",
+     "pt": "Uma auditoria de segurança revela fraquezas no sistema.",
+     "tr": "Bir güvenlik denetimi, sistemdeki zayıflıkları ortaya çıkarır."
+    },
+    {
+     "en": "Regular security audits are essential for maintaining compliance.",
+     "uk": "Регулярні аудити безпеки є необхідними для підтримки відповідності.",
+     "ru": "Регулярные аудиты безопасности необходимы для поддержания соответствия.",
+     "pl": "Regularne audyty bezpieczeństwa są niezbędne do utrzymania zgodności.",
+     "de": "Regelmäßige Sicherheitsaudits sind entscheidend für die Einhaltung von Vorschriften.",
+     "fr": "Les audits de sécurité réguliers sont essentiels pour maintenir la conformité.",
+     "es": "Las auditorías de seguridad regulares son esenciales para mantener la conformidad.",
+     "it": "Gli audit di sicurezza regolari sono essenziali per mantenere la conformità.",
+     "pt": "Auditorias de segurança regulares são essenciais para manter a conformidade.",
+     "tr": "Düzenli güvenlik denetimleri, uyumluluğun sürdürülmesi için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.bug-bounty",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/bʌɡ ˈbaʊnti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The company offers a bug bounty for reporting vulnerabilities.",
+     "uk": "Компанія пропонує винагороду за повідомлення про вразливості.",
+     "ru": "Компания предлагает вознаграждение за сообщение о уязвимостях.",
+     "pl": "Firma oferuje program bug bounty za zgłaszanie luk.",
+     "de": "Das Unternehmen bietet ein Bug-Bounty für die Meldung von Schwachstellen an.",
+     "fr": "L'entreprise propose une prime aux bogues pour signaler des vulnérabilités.",
+     "es": "La empresa ofrece una recompensa por errores al reportar vulnerabilidades.",
+     "it": "L'azienda offre un bug bounty per la segnalazione di vulnerabilità.",
+     "pt": "A empresa oferece uma recompensa por bugs ao relatar vulnerabilidades.",
+     "tr": "Şirket, zayıflıkları bildirenler için hata ödülü veriyor."
+    },
+    {
+     "en": "Participating in a bug bounty can be very rewarding.",
+     "uk": "Участь у програмі bug bounty може бути дуже вигідним.",
+     "ru": "Участие в программе bug bounty может быть очень прибыльным.",
+     "pl": "Uczestnictwo w programie bug bounty może być bardzo opłacalne.",
+     "de": "Die Teilnahme an einem Bug-Bounty kann sehr lohnend sein.",
+     "fr": "Participer à une prime aux bogues peut être très gratifiant.",
+     "es": "Participar en un programa de recompensas por errores puede ser muy gratificante.",
+     "it": "Partecipare a un bug bounty può essere molto gratificante.",
+     "pt": "Participar de um programa de recompensas por bugs pode ser muito gratificante.",
+     "tr": "Bir hata ödülüne katılmak çok kazançlı olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.social-engineering",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/ˈsoʊʃəl ˈɛndʒəˈnɪrɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Social engineering attacks manipulate individuals to gain access.",
+     "uk": "Атаки соціальної інженерії маніпулюють людьми для отримання доступу.",
+     "ru": "Атаки социальной инженерии манипулируют людьми для получения доступа.",
+     "pl": "Ataki socjotechniczne manipulują ludźmi, aby uzyskać dostęp.",
+     "de": "Angriffe durch Social Engineering manipulieren Personen, um Zugang zu erhalten.",
+     "fr": "Les attaques d'ingénierie sociale manipulent les individus pour obtenir un accès.",
+     "es": "Los ataques de ingeniería social manipulan a las personas para obtener acceso.",
+     "it": "Gli attacchi di ingegneria sociale manipolano le persone per ottenere accesso.",
+     "pt": "Ataques de engenharia social manipulam indivíduos para obter acesso.",
+     "tr": "Sosyal mühendislik saldırıları, erişim elde etmek için bireyleri manipüle eder."
+    },
+    {
+     "en": "Awareness of social engineering is crucial for security.",
+     "uk": "Увага до соціальної інженерії є важливою для безпеки.",
+     "ru": "Осведомленность о социальной инженерии имеет решающее значение для безопасности.",
+     "pl": "Świadomość socjotechniki jest kluczowa dla bezpieczeństwa.",
+     "de": "Bewusstsein für Social Engineering ist entscheidend für die Sicherheit.",
+     "fr": "La sensibilisation à l'ingénierie sociale est cruciale pour la sécurité.",
+     "es": "La conciencia sobre la ingeniería social es crucial para la seguridad.",
+     "it": "La consapevolezza dell'ingegneria sociale è cruciale per la sicurezza.",
+     "pt": "A conscientização sobre engenharia social é crucial para a segurança.",
+     "tr": "Sosyal mühendislik konusunda farkındalık, güvenlik için çok önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.insider-threat",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/ˌɪnˈsaɪdɚ θrɛt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An insider threat can come from employees or contractors.",
+     "uk": "Внутрішня загроза може походити від співробітників або підрядників.",
+     "ru": "Внутренняя угроза может исходить от сотрудников или подрядчиков.",
+     "pl": "Zagrożenie wewnętrzne może pochodzić od pracowników lub kontrahentów.",
+     "de": "Eine Insider-Bedrohung kann von Mitarbeitern oder Auftragnehmern ausgehen.",
+     "fr": "Une menace interne peut provenir d'employés ou de sous-traitants.",
+     "es": "Una amenaza interna puede provenir de empleados o contratistas.",
+     "it": "Una minaccia interna può provenire da dipendenti o appaltatori.",
+     "pt": "Uma ameaça interna pode vir de funcionários ou contratados.",
+     "tr": "İçeriden bir tehdit, çalışanlardan veya yüklenicilerden gelebilir."
+    },
+    {
+     "en": "Mitigating insider threats requires careful monitoring.",
+     "uk": "Зменшення внутрішніх загроз вимагає ретельного моніторингу.",
+     "ru": "Снижение внутренних угроз требует тщательного мониторинга.",
+     "pl": "Ograniczenie zagrożeń wewnętrznych wymaga starannego monitorowania.",
+     "de": "Die Minderung von Insider-Bedrohungen erfordert sorgfältige Überwachung.",
+     "fr": "L'atténuation des menaces internes nécessite une surveillance attentive.",
+     "es": "Mitigar las amenazas internas requiere un monitoreo cuidadoso.",
+     "it": "Mitigare le minacce interne richiede un monitoraggio attento.",
+     "pt": "Mitigar ameaças internas requer um monitoramento cuidadoso.",
+     "tr": "İçeriden tehditleri azaltmak, dikkatli bir izleme gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.data-warehouse",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪtə ˈwɛrˌhaʊs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A data warehouse consolidates data from multiple sources.",
+     "uk": "Сховище даних об'єднує дані з кількох джерел.",
+     "ru": "Хранилище данных объединяет данные из нескольких источников.",
+     "pl": "Hurtownia danych konsoliduje dane z wielu źródeł.",
+     "de": "Ein Data-Warehouse konsolidiert Daten aus mehreren Quellen.",
+     "fr": "Un entrepôt de données consolide les données provenant de plusieurs sources.",
+     "es": "Un almacén de datos consolida datos de múltiples fuentes.",
+     "it": "Un data warehouse consolida i dati provenienti da più fonti.",
+     "pt": "Um armazém de dados consolida dados de várias fontes.",
+     "tr": "Bir veri ambarı, birden fazla kaynaktan veri birleştirir."
+    },
+    {
+     "en": "Data warehouses support complex queries and analytics.",
+     "uk": "Сховища даних підтримують складні запити та аналітику.",
+     "ru": "Хранилища данных поддерживают сложные запросы и аналитику.",
+     "pl": "Hurtownie danych wspierają złożone zapytania i analizy.",
+     "de": "Data-Warehouses unterstützen komplexe Abfragen und Analysen.",
+     "fr": "Les entrepôts de données prennent en charge des requêtes et des analyses complexes.",
+     "es": "Los almacenes de datos admiten consultas y análisis complejos.",
+     "it": "I data warehouse supportano query e analisi complesse.",
+     "pt": "Os armazéns de dados suportam consultas e análises complexas.",
+     "tr": "Veri ambarları, karmaşık sorguları ve analitikleri destekler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.schema",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/ˈskimə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The schema outlines the project's main components.",
+     "uk": "Схема окреслює основні компоненти проекту.",
+     "ru": "Схема описывает основные компоненты проекта.",
+     "pl": "Schemat przedstawia główne elementy projektu.",
+     "de": "Das Schema umreißt die Hauptkomponenten des Projekts.",
+     "fr": "Le schéma décrit les principaux composants du projet.",
+     "es": "El esquema describe los principales componentes del proyecto.",
+     "it": "Lo schema delinea i principali componenti del progetto.",
+     "pt": "O esquema descreve os principais componentes do projeto.",
+     "tr": "Şema, projenin ana bileşenlerini özetler."
+    },
+    {
+     "en": "We need to revise the schema for better clarity.",
+     "uk": "Потрібно переглянути схему для кращої ясності.",
+     "ru": "Нам нужно пересмотреть схему для лучшей ясности.",
+     "pl": "Musimy poprawić schemat, aby był bardziej klarowny.",
+     "de": "Wir müssen das Schema überarbeiten, um mehr Klarheit zu schaffen.",
+     "fr": "Nous devons réviser le schéma pour plus de clarté.",
+     "es": "Necesitamos revisar el esquema para mayor claridad.",
+     "it": "Dobbiamo rivedere lo schema per maggiore chiarezza.",
+     "pt": "Precisamos revisar o esquema para mais clareza.",
+     "tr": "Daha iyi bir netlik için şemayı gözden geçirmeliyiz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.data-integrity",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪtə ˌɪnˈtɛɡrəti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Maintaining data integrity is crucial for our operations.",
+     "uk": "Підтримка цілісності даних є важливою для наших операцій.",
+     "ru": "Поддержание целостности данных критически важно для нашей работы.",
+     "pl": "Utrzymanie integralności danych jest kluczowe dla naszej działalności.",
+     "de": "Die Aufrechterhaltung der Datenintegrität ist entscheidend für unsere Abläufe.",
+     "fr": "Maintenir l'intégrité des données est crucial pour nos opérations.",
+     "es": "Mantener la integridad de los datos es crucial para nuestras operaciones.",
+     "it": "Mantenere l'integrità dei dati è fondamentale per le nostre operazioni.",
+     "pt": "Manter a integridade dos dados é crucial para nossas operações.",
+     "tr": "Veri bütünlüğünü korumak, operasyonlarımız için çok önemlidir."
+    },
+    {
+     "en": "Data integrity ensures accurate reporting and analysis.",
+     "uk": "Цілісність даних забезпечує точну звітність і аналіз.",
+     "ru": "Целостность данных обеспечивает точную отчетность и анализ.",
+     "pl": "Integralność danych zapewnia dokładne raportowanie i analizę.",
+     "de": "Die Datenintegrität gewährleistet eine genaue Berichterstattung und Analyse.",
+     "fr": "L'intégrité des données garantit un reporting et une analyse précis.",
+     "es": "La integridad de los datos garantiza informes y análisis precisos.",
+     "it": "L'integrità dei dati garantisce report e analisi accurati.",
+     "pt": "A integridade dos dados garante relatórios e análises precisos.",
+     "tr": "Veri bütünlüğü, doğru raporlama ve analiz sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.data-governance",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈdeɪtə ˈɡʌvɚnəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Effective data governance enhances compliance and security.",
+     "uk": "Ефективне управління даними підвищує відповідність і безпеку.",
+     "ru": "Эффективное управление данными повышает соответствие и безопасность.",
+     "pl": "Skuteczne zarządzanie danymi zwiększa zgodność i bezpieczeństwo.",
+     "de": "Eine effektive Data Governance verbessert die Compliance und Sicherheit.",
+     "fr": "Une gouvernance des données efficace renforce la conformité et la sécurité.",
+     "es": "Una gobernanza de datos efectiva mejora la conformidad y la seguridad.",
+     "it": "Una governance dei dati efficace migliora la conformità e la sicurezza.",
+     "pt": "Uma governança de dados eficaz melhora a conformidade e a segurança.",
+     "tr": "Etkin veri yönetişimi, uyumu ve güvenliği artırır."
+    },
+    {
+     "en": "Data governance frameworks help organizations manage their data assets.",
+     "uk": "Рамки управління даними допомагають організаціям управляти своїми даними.",
+     "ru": "Рамки управления данными помогают организациям управлять своими активами.",
+     "pl": "Ramki zarządzania danymi pomagają organizacjom zarządzać swoimi danymi.",
+     "de": "Data Governance-Rahmen helfen Organisationen, ihre Datenbestände zu verwalten.",
+     "fr": "Les cadres de gouvernance des données aident les organisations à gérer leurs actifs de données.",
+     "es": "Los marcos de gobernanza de datos ayudan a las organizaciones a gestionar sus activos de datos.",
+     "it": "I framework di governance dei dati aiutano le organizzazioni a gestire i loro beni informativi.",
+     "pt": "Os frameworks de governança de dados ajudam as organizações a gerenciar seus ativos de dados.",
+     "tr": "Veri yönetişimi çerçeveleri, kuruluşların veri varlıklarını yönetmelerine yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.large-language-model",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/lɑrdʒ ˈlæŋɡwədʒ ˈmɑdəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A large language model can generate human-like text.",
+     "uk": "Велика мовна модель може генерувати текст, подібний до людського.",
+     "ru": "Большая языковая модель может генерировать текст, похожий на человеческий.",
+     "pl": "Duży model językowy może generować tekst przypominający ludzki.",
+     "de": "Ein großes Sprachmodell kann menschenähnlichen Text generieren.",
+     "fr": "Un grand modèle de langage peut générer un texte semblable à celui des humains.",
+     "es": "Un modelo de lenguaje grande puede generar texto similar al humano.",
+     "it": "Un modello linguistico di grandi dimensioni può generare testo simile a quello umano.",
+     "pt": "Um modelo de linguagem grande pode gerar texto semelhante ao humano.",
+     "tr": "Büyük bir dil modeli, insan benzeri metin üretebilir."
+    },
+    {
+     "en": "Large language models are transforming natural language processing.",
+     "uk": "Великі мовні моделі трансформують обробку природної мови.",
+     "ru": "Большие языковые модели преобразуют обработку естественного языка.",
+     "pl": "Duże modele językowe transformują przetwarzanie języka naturalnego.",
+     "de": "Große Sprachmodelle transformieren die Verarbeitung natürlicher Sprache.",
+     "fr": "Les grands modèles de langage transforment le traitement du langage naturel.",
+     "es": "Los modelos de lenguaje grandes están transformando el procesamiento del lenguaje natural.",
+     "it": "I modelli linguistici di grandi dimensioni stanno trasformando l'elaborazione del linguaggio naturale.",
+     "pt": "Modelos de linguagem grandes estão transformando o processamento de linguagem natural.",
+     "tr": "Büyük dil modelleri, doğal dil işleme alanında devrim yaratıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.neural-network",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/ˈnʊrəl ˈnɛˌtwɝk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Neural networks are used for image recognition tasks.",
+     "uk": "Нейронні мережі використовуються для завдань розпізнавання зображень.",
+     "ru": "Нейронные сети используются для задач распознавания изображений.",
+     "pl": "Sieci neuronowe są używane do zadań rozpoznawania obrazów.",
+     "de": "Neuronale Netze werden für Bildverarbeitungsaufgaben verwendet.",
+     "fr": "Les réseaux de neurones sont utilisés pour des tâches de reconnaissance d'images.",
+     "es": "Las redes neuronales se utilizan para tareas de reconocimiento de imágenes.",
+     "it": "Le reti neurali sono utilizzate per compiti di riconoscimento delle immagini.",
+     "pt": "Redes neurais são usadas para tarefas de reconhecimento de imagens.",
+     "tr": "Sinir ağları, görüntü tanıma görevleri için kullanılır."
+    },
+    {
+     "en": "Training a neural network requires substantial computational resources.",
+     "uk": "Навчання нейронної мережі вимагає значних обчислювальних ресурсів.",
+     "ru": "Обучение нейронной сети требует значительных вычислительных ресурсов.",
+     "pl": "Szkolenie sieci neuronowej wymaga znacznych zasobów obliczeniowych.",
+     "de": "Das Training eines neuronalen Netzes erfordert erhebliche Rechenressourcen.",
+     "fr": "Former un réseau de neurones nécessite des ressources informatiques substantielles.",
+     "es": "Entrenar una red neuronal requiere recursos computacionales sustanciales.",
+     "it": "Addestrare una rete neurale richiede risorse computazionali sostanziali.",
+     "pt": "Treinar uma rede neural requer recursos computacionais substanciais.",
+     "tr": "Bir sinir ağını eğitmek, önemli hesaplama kaynakları gerektirir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.training-data",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˈtreɪnɪŋ ˈdeɪtə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Quality training data is essential for effective model performance.",
+     "uk": "Якісні навчальні дані є необхідними для ефективної роботи моделі.",
+     "ru": "Качественные обучающие данные необходимы для эффективной работы модели.",
+     "pl": "Jakość danych treningowych jest niezbędna do efektywnego działania modelu.",
+     "de": "Qualitäts-Trainingsdaten sind entscheidend für die effektive Leistung des Modells.",
+     "fr": "Des données d'entraînement de qualité sont essentielles pour la performance efficace du modèle.",
+     "es": "Los datos de entrenamiento de calidad son esenciales para el rendimiento efectivo del modelo.",
+     "it": "Dati di addestramento di qualità sono essenziali per le prestazioni efficaci del modello.",
+     "pt": "Dados de treinamento de qualidade são essenciais para o desempenho eficaz do modelo.",
+     "tr": "Kaliteli eğitim verileri, etkili model performansı için gereklidir."
+    },
+    {
+     "en": "We need diverse training data to improve the model's accuracy.",
+     "uk": "Нам потрібні різноманітні навчальні дані, щоб покращити точність моделі.",
+     "ru": "Нам нужны разнообразные обучающие данные, чтобы улучшить точность модели.",
+     "pl": "Potrzebujemy różnorodnych danych treningowych, aby poprawić dokładność modelu.",
+     "de": "Wir benötigen vielfältige Trainingsdaten, um die Genauigkeit des Modells zu verbessern.",
+     "fr": "Nous avons besoin de données d'entraînement diversifiées pour améliorer la précision du modèle.",
+     "es": "Necesitamos datos de entrenamiento diversos para mejorar la precisión del modelo.",
+     "it": "Abbiamo bisogno di dati di addestramento diversificati per migliorare la precisione del modello.",
+     "pt": "Precisamos de dados de treinamento diversos para melhorar a precisão do modelo.",
+     "tr": "Modelin doğruluğunu artırmak için çeşitli eğitim verilerine ihtiyacımız var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.to-fine-tune",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/faɪn tun/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need to fine-tune the settings for better performance.",
+     "uk": "Тобі потрібно донавчати налаштування для кращої продуктивності.",
+     "ru": "Вам нужно дообучить настройки для лучшей производительности.",
+     "pl": "Musisz dostrajać ustawienia, aby poprawić wydajność.",
+     "de": "Sie müssen die Einstellungen feinabstimmen, um die Leistung zu verbessern.",
+     "fr": "Vous devez affiner les paramètres pour de meilleures performances.",
+     "es": "Necesitas ajustar la configuración para un mejor rendimiento.",
+     "it": "Devi perfezionare le impostazioni per migliori prestazioni.",
+     "pt": "Você precisa ajustar finamente as configurações para melhor desempenho.",
+     "tr": "Daha iyi performans için ayarları ince ayar yapmalısınız."
+    },
+    {
+     "en": "We will fine-tune the model before deployment.",
+     "uk": "Ми донавчатимемо модель перед впровадженням.",
+     "ru": "Мы дообучим модель перед развертыванием.",
+     "pl": "Dostraimy model przed wdrożeniem.",
+     "de": "Wir werden das Modell vor der Bereitstellung feinabstimmen.",
+     "fr": "Nous allons affiner le modèle avant le déploiement.",
+     "es": "Ajustaremos el modelo antes de su implementación.",
+     "it": "Perfezioneremo il modello prima del rilascio.",
+     "pt": "Vamos ajustar finamente o modelo antes da implementação.",
+     "tr": "Dağıtımdan önce modeli ince ayar yapacağız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.hallucination",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/həˌlusəˈneɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The patient's hallucination was vivid and unsettling.",
+     "uk": "Галюцинація пацієнта була яскравою та тривожною.",
+     "ru": "Галлюцинация пациента была яркой и тревожной.",
+     "pl": "Halucynacja pacjenta była żywa i niepokojąca.",
+     "de": "Die Halluzination des Patienten war lebhaft und beunruhigend.",
+     "fr": "L'hallucination du patient était vive et troublante.",
+     "es": "La alucinación del paciente fue vívida e inquietante.",
+     "it": "L'allucinazione del paziente era vivida e inquietante.",
+     "pt": "A alucinação do paciente era vívida e inquietante.",
+     "tr": "Hastanın halüsinasyonu canlı ve rahatsız ediciydi."
+    },
+    {
+     "en": "He described a hallucination of a talking cat.",
+     "uk": "Він описав галюцинацію розмовляючого кота.",
+     "ru": "Он описал галлюцинацию говорящего кота.",
+     "pl": "Opisał halucynację rozmawiającego kota.",
+     "de": "Er beschrieb eine Halluzination einer sprechenden Katze.",
+     "fr": "Il a décrit une hallucination d'un chat parlant.",
+     "es": "Describió una alucinación de un gato que hablaba.",
+     "it": "Ha descritto un'allucinazione di un gatto che parlava.",
+     "pt": "Ele descreveu uma alucinação de um gato falante.",
+     "tr": "Konuşan bir kedinin halüsinasyonunu tarif etti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.explainability",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/ɪkˌspleɪnəˈbɪlɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The model's explainability is crucial for user trust.",
+     "uk": "Пояснюваність моделі є вирішальною для довіри користувачів.",
+     "ru": "Объяснимость модели имеет решающее значение для доверия пользователей.",
+     "pl": "Wyjaśnialność modelu jest kluczowa dla zaufania użytkowników.",
+     "de": "Die Erklärbarkeit des Modells ist entscheidend für das Vertrauen der Nutzer.",
+     "fr": "L'explicabilité du modèle est cruciale pour la confiance des utilisateurs.",
+     "es": "La explicabilidad del modelo es crucial para la confianza del usuario.",
+     "it": "La spiegabilità del modello è cruciale per la fiducia degli utenti.",
+     "pt": "A explicabilidade do modelo é crucial para a confiança do usuário.",
+     "tr": "Modelin açıklanabilirliği, kullanıcı güveni için çok önemlidir."
+    },
+    {
+     "en": "We must prioritize explainability in our AI systems.",
+     "uk": "Ми повинні пріоритизувати пояснюваність у наших системах ШІ.",
+     "ru": "Мы должны приоритизировать объяснимость в наших системах ИИ.",
+     "pl": "Musimy priorytetowo traktować wyjaśnialność w naszych systemach AI.",
+     "de": "Wir müssen die Erklärbarkeit in unseren KI-Systemen priorisieren.",
+     "fr": "Nous devons donner la priorité à l'explicabilité dans nos systèmes d'IA.",
+     "es": "Debemos priorizar la explicabilidad en nuestros sistemas de IA.",
+     "it": "Dobbiamo dare priorità alla spiegabilità nei nostri sistemi di IA.",
+     "pt": "Devemos priorizar a explicabilidade em nossos sistemas de IA.",
+     "tr": "Yapay zeka sistemlerimizde açıklanabilirliği önceliklendirmeliyiz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "it.technical-lead",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/ˈtɛknɪkəl lɛd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The technical lead oversees the development team’s progress.",
+     "uk": "Технічний лідер контролює прогрес команди розробників.",
+     "ru": "Технический руководитель контролирует прогресс команды разработчиков.",
+     "pl": "Lider techniczny nadzoruje postęp zespołu deweloperskiego.",
+     "de": "Der technische Leiter überwacht den Fortschritt des Entwicklungsteams.",
+     "fr": "Le responsable technique supervise les progrès de l'équipe de développement.",
+     "es": "El responsable técnico supervisa el progreso del equipo de desarrollo.",
+     "it": "Il responsabile tecnico supervisiona i progressi del team di sviluppo.",
+     "pt": "O líder técnico supervisiona o progresso da equipe de desenvolvimento.",
+     "tr": "Teknik lider, geliştirme ekibinin ilerlemesini denetler."
+    },
+    {
+     "en": "As a technical lead, I mentor junior developers.",
+     "uk": "Як технічний лідер, я наставляю молодших розробників.",
+     "ru": "Как технический руководитель, я наставляю младших разработчиков.",
+     "pl": "Jako lider techniczny, mentorym młodszych programistów.",
+     "de": "Als technischer Leiter betreue ich Junior-Entwickler.",
+     "fr": "En tant que responsable technique, je mentor des développeurs juniors.",
+     "es": "Como responsable técnico, mentorizo a desarrolladores junior.",
+     "it": "Come responsabile tecnico, faccio da mentore a sviluppatori junior.",
+     "pt": "Como líder técnico, eu mentoro desenvolvedores juniores.",
+     "tr": "Teknik lider olarak, genç geliştiricilere rehberlik ediyorum."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

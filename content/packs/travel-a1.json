@@ -2,7 +2,7 @@
  "id": "travel-a1",
  "topic": "travel",
  "level": "a1",
- "version": 4,
+ "version": 6,
  "concepts": [
   {
    "id": "travel.airport",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/ˈɛrˌpɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I will meet you at the airport.",
+     "uk": "Я зустріну тебе в аеропорту.",
+     "ru": "Я встречу тебя в аэропорту.",
+     "pl": "Spotkam cię na lotnisku.",
+     "de": "Ich treffe dich am Flughafen.",
+     "fr": "Je te rencontrerai à l'aéroport.",
+     "es": "Te encontraré en el aeropuerto.",
+     "it": "Ti incontrerò all'aeroporto.",
+     "pt": "Eu vou te encontrar no aeroporto.",
+     "tr": "Seni havalimanında bulacağım."
+    },
+    {
+     "en": "The airport is very busy today.",
+     "uk": "Аеропорт сьогодні дуже зайнятий.",
+     "ru": "Аэропорт сегодня очень загружен.",
+     "pl": "Lotnisko jest dzisiaj bardzo zatłoczone.",
+     "de": "Der Flughafen ist heute sehr beschäftigt.",
+     "fr": "L'aéroport est très occupé aujourd'hui.",
+     "es": "El aeropuerto está muy ocupado hoy.",
+     "it": "L'aeroporto è molto affollato oggi.",
+     "pt": "O aeroporto está muito movimentado hoje.",
+     "tr": "Havalimanı bugün çok kalabalık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We will stay at a nice hotel.",
+     "uk": "Ми зупинимося в хорошому готелі.",
+     "ru": "Мы остановимся в хорошем отеле.",
+     "pl": "Zatrzymamy się w ładnym hotelu.",
+     "de": "Wir werden in einem schönen Hotel bleiben.",
+     "fr": "Nous allons séjourner dans un bel hôtel.",
+     "es": "Nos quedaremos en un buen hotel.",
+     "it": "Ci fermeremo in un bel albergo.",
+     "pt": "Vamos ficar em um bom hotel.",
+     "tr": "Güzel bir otelde kalacağız."
+    },
+    {
+     "en": "The hotel is near the beach.",
+     "uk": "Готель знаходиться біля пляжу.",
+     "ru": "Отель находится рядом с пляжем.",
+     "pl": "Hotel jest blisko plaży.",
+     "de": "Das Hotel ist in der Nähe des Strandes.",
+     "fr": "L'hôtel est près de la plage.",
+     "es": "El hotel está cerca de la playa.",
+     "it": "L'albergo è vicino alla spiaggia.",
+     "pt": "O hotel fica perto da praia.",
+     "tr": "Otel plaja yakın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.train",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/treɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train leaves at 5 PM.",
+     "uk": "Потяг відправляється о 17:00.",
+     "ru": "Поезд уходит в 17:00.",
+     "pl": "Pociąg odjeżdża o 17:00.",
+     "de": "Der Zug fährt um 17 Uhr ab.",
+     "fr": "Le train part à 17 heures.",
+     "es": "El tren sale a las 5 PM.",
+     "it": "Il treno parte alle 17:00.",
+     "pt": "O trem sai às 17h.",
+     "tr": "Tren saat 17:00'de kalkıyor."
+    },
+    {
+     "en": "I take the train to work.",
+     "uk": "Я їду на потязі на роботу.",
+     "ru": "Я еду на поезде на работу.",
+     "pl": "Jadę do pracy pociągiem.",
+     "de": "Ich nehme den Zug zur Arbeit.",
+     "fr": "Je prends le train pour le travail.",
+     "es": "Tomo el tren para ir al trabajo.",
+     "it": "Prendo il treno per andare al lavoro.",
+     "pt": "Eu pego o trem para o trabalho.",
+     "tr": "İşe trenle gidiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.bus",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bus is very crowded today.",
+     "uk": "Сьогодні автобус дуже переповнений.",
+     "ru": "Сегодня автобус очень переполнен.",
+     "pl": "Autobus jest dzisiaj bardzo zatłoczony.",
+     "de": "Der Bus ist heute sehr voll.",
+     "fr": "Le bus est très bondé aujourd'hui.",
+     "es": "El autobús está muy lleno hoy.",
+     "it": "L'autobus è molto affollato oggi.",
+     "pt": "O ônibus está muito cheio hoje.",
+     "tr": "Otobüs bugün çok kalabalık."
+    },
+    {
+     "en": "I take the bus to school.",
+     "uk": "Я їду на автобусі до школи.",
+     "ru": "Я еду на автобусе в школу.",
+     "pl": "Jadę do szkoły autobusem.",
+     "de": "Ich nehme den Bus zur Schule.",
+     "fr": "Je prends le bus pour l'école.",
+     "es": "Tomo el autobús para ir a la escuela.",
+     "it": "Prendo l'autobus per andare a scuola.",
+     "pt": "Eu pego o ônibus para a escola.",
+     "tr": "Okula otobüsle gidiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.taxi",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/ˈtæksi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a taxi to the airport.",
+     "uk": "Мені потрібно таксі до аеропорту.",
+     "ru": "Мне нужно такси до аэропорта.",
+     "pl": "Potrzebuję taksówki na lotnisko.",
+     "de": "Ich brauche ein Taxi zum Flughafen.",
+     "fr": "J'ai besoin d'un taxi pour l'aéroport.",
+     "es": "Necesito un taxi al aeropuerto.",
+     "it": "Ho bisogno di un taxi per l'aeroporto.",
+     "pt": "Preciso de um táxi para o aeroporto.",
+     "tr": "Havalimanına gitmek için bir taksiye ihtiyacım var."
+    },
+    {
+     "en": "The taxi is waiting outside.",
+     "uk": "Таксі чекає зовні.",
+     "ru": "Такси ждет снаружи.",
+     "pl": "Taksówka czeka na zewnątrz.",
+     "de": "Das Taxi wartet draußen.",
+     "fr": "Le taxi attend dehors.",
+     "es": "El taxi está esperando afuera.",
+     "it": "Il taxi sta aspettando fuori.",
+     "pt": "O táxi está esperando lá fora.",
+     "tr": "Taksi dışarıda bekliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.map",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/mæp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Can you show me the map?",
+     "uk": "Можеш показати мені мапу?",
+     "ru": "Можешь показать мне карту?",
+     "pl": "Czy możesz pokazać mi mapę?",
+     "de": "Kannst du mir die Karte zeigen?",
+     "fr": "Peux-tu me montrer la carte?",
+     "es": "¿Puedes mostrarme el mapa?",
+     "it": "Puoi mostrarmi la mappa?",
+     "pt": "Você pode me mostrar o mapa?",
+     "tr": "Bana haritayı gösterebilir misin?"
+    },
+    {
+     "en": "I need a map of the city.",
+     "uk": "Мені потрібна мапа міста.",
+     "ru": "Мне нужна карта города.",
+     "pl": "Potrzebuję mapy miasta.",
+     "de": "Ich brauche eine Karte der Stadt.",
+     "fr": "J'ai besoin d'une carte de la ville.",
+     "es": "Necesito un mapa de la ciudad.",
+     "it": "Ho bisogno di una mappa della città.",
+     "pt": "Preciso de um mapa da cidade.",
+     "tr": "Şehrin haritasına ihtiyacım var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.left",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/lɛft/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Turn left at the traffic light.",
+     "uk": "Поверніть ліворуч на світлофорі.",
+     "ru": "Поверните налево на светофоре.",
+     "pl": "Skręć w lewo na światłach.",
+     "de": "Biegen Sie an der Ampel links ab.",
+     "fr": "Tournez à gauche au feu.",
+     "es": "Gira a la izquierda en el semáforo.",
+     "it": "Gira a sinistra al semaforo.",
+     "pt": "Vire à esquerda no semáforo.",
+     "tr": "Trafik ışığında sola dön."
+    },
+    {
+     "en": "The bank is on the left.",
+     "uk": "Банк знаходиться зліва.",
+     "ru": "Банк находится слева.",
+     "pl": "Bank jest po lewej stronie.",
+     "de": "Die Bank ist links.",
+     "fr": "La banque est à gauche.",
+     "es": "El banco está a la izquierda.",
+     "it": "La banca è a sinistra.",
+     "pt": "O banco está à esquerda.",
+     "tr": "Banka solda."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.right",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/raɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Turn right at the corner.",
+     "uk": "Поверніть праворуч на розі.",
+     "ru": "Поверните направо на углу.",
+     "pl": "Skręć w prawo na rogu.",
+     "de": "Biegen Sie an der Ecke rechts ab.",
+     "fr": "Tournez à droite au coin.",
+     "es": "Gira a la derecha en la esquina.",
+     "it": "Gira a destra all'angolo.",
+     "pt": "Vire à direita na esquina.",
+     "tr": "Köşeden sağa dön."
+    },
+    {
+     "en": "The store is on the right.",
+     "uk": "Магазин знаходиться праворуч.",
+     "ru": "Магазин находится справа.",
+     "pl": "Sklep jest po prawej stronie.",
+     "de": "Der Laden ist rechts.",
+     "fr": "Le magasin est à droite.",
+     "es": "La tienda está a la derecha.",
+     "it": "Il negozio è a destra.",
+     "pt": "A loja está à direita.",
+     "tr": "Dükkan sağda."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.how-much",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/haʊ mʌtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "How much does this shirt cost?",
+     "uk": "Скільки коштує ця сорочка?",
+     "ru": "Сколько стоит эта рубашка?",
+     "pl": "Ile kosztuje ta koszula?",
+     "de": "Wie viel kostet dieses Shirt?",
+     "fr": "Combien ça coûte cette chemise ?",
+     "es": "¿Cuánto cuesta esta camisa?",
+     "it": "Quanto costa questa camicia?",
+     "pt": "Quanto custa esta camisa?",
+     "tr": "Bu gömlek ne kadar?"
+    },
+    {
+     "en": "How much is the ticket?",
+     "uk": "Скільки коштує квиток?",
+     "ru": "Сколько стоит билет?",
+     "pl": "Ile kosztuje bilet?",
+     "de": "Wie viel kostet das Ticket?",
+     "fr": "Combien ça coûte le billet ?",
+     "es": "¿Cuánto cuesta el billete?",
+     "it": "Quanto costa il biglietto?",
+     "pt": "Quanto custa o bilhete?",
+     "tr": "Bilet ne kadar?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.where-is",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/wɛr ɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Where is the nearest bus stop?",
+     "uk": "Де знаходиться найближча автобусна зупинка?",
+     "ru": "Где находится ближайшая автобусная остановка?",
+     "pl": "Gdzie jest najbliższy przystanek autobusowy?",
+     "de": "Wo ist die nächste Bushaltestelle?",
+     "fr": "Où est l'arrêt de bus le plus proche ?",
+     "es": "¿Dónde está la parada de autobús más cercana?",
+     "it": "Dov'è la fermata dell'autobus più vicina?",
+     "pt": "Onde fica o ponto de ônibus mais próximo?",
+     "tr": "En yakın otobüs durağı nerede?"
+    },
+    {
+     "en": "Where is the train station?",
+     "uk": "Де знаходиться вокзал?",
+     "ru": "Где находится вокзал?",
+     "pl": "Gdzie jest dworzec kolejowy?",
+     "de": "Wo ist der Bahnhof?",
+     "fr": "Où est la gare ?",
+     "es": "¿Dónde está la estación de tren?",
+     "it": "Dov'è la stazione?",
+     "pt": "Onde fica a estação de trem?",
+     "tr": "Tren istasyonu nerede?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.luggage",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈlʌɡədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I lost my luggage at the airport.",
+     "uk": "Я втратив свій багаж в аеропорту.",
+     "ru": "Я потерял свой багаж в аэропорту.",
+     "pl": "Zgubiłem mój bagaż na lotnisku.",
+     "de": "Ich habe mein Gepäck am Flughafen verloren.",
+     "fr": "J'ai perdu mes bagages à l'aéroport.",
+     "es": "Perdí mi equipaje en el aeropuerto.",
+     "it": "Ho perso il mio bagaglio all'aeroporto.",
+     "pt": "Perdi minha bagagem no aeroporto.",
+     "tr": "Havalimanında bagajımı kaybettim."
+    },
+    {
+     "en": "Please check your luggage before leaving.",
+     "uk": "Будь ласка, перевірте свій багаж перед виходом.",
+     "ru": "Пожалуйста, проверьте свой багаж перед выходом.",
+     "pl": "Proszę sprawdzić swój bagaż przed wyjściem.",
+     "de": "Bitte überprüfen Sie Ihr Gepäck, bevor Sie gehen.",
+     "fr": "Veuillez vérifier vos bagages avant de partir.",
+     "es": "Por favor, revise su equipaje antes de salir.",
+     "it": "Per favore, controlla il tuo bagaglio prima di partire.",
+     "pt": "Por favor, verifique sua bagagem antes de sair.",
+     "tr": "Çıkmadan önce bagajınızı kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.exit",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ˈɛɡzɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The exit is on your right.",
+     "uk": "Вихід праворуч.",
+     "ru": "Выход находится справа.",
+     "pl": "Wyjście jest po twojej prawej.",
+     "de": "Der Ausgang ist rechts.",
+     "fr": "La sortie est à votre droite.",
+     "es": "La salida está a tu derecha.",
+     "it": "L'uscita è a destra.",
+     "pt": "A saída está à sua direita.",
+     "tr": "Çıkış sağda."
+    },
+    {
+     "en": "Please find the nearest exit.",
+     "uk": "Будь ласка, знайдіть найближчий вихід.",
+     "ru": "Пожалуйста, найдите ближайший выход.",
+     "pl": "Proszę znaleźć najbliższe wyjście.",
+     "de": "Bitte finden Sie den nächsten Ausgang.",
+     "fr": "Veuillez trouver la sortie la plus proche.",
+     "es": "Por favor, encuentre la salida más cercana.",
+     "it": "Per favore, trova l'uscita più vicina.",
+     "pt": "Por favor, encontre a saída mais próxima.",
+     "tr": "Lütfen en yakın çıkışı bulun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.delay",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/dɪˈleɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There is a delay in the flight schedule.",
+     "uk": "Є затримка в розкладі рейсів.",
+     "ru": "Есть задержка в расписании рейсов.",
+     "pl": "Jest opóźnienie w rozkładzie lotów.",
+     "de": "Es gibt eine Verspätung im Flugplan.",
+     "fr": "Il y a un retard dans l'horaire des vols.",
+     "es": "Hay un retraso en el horario de vuelos.",
+     "it": "C'è un ritardo nel programma dei voli.",
+     "pt": "Há um atraso no horário dos voos.",
+     "tr": "Uçuş programında gecikme var."
+    },
+    {
+     "en": "The train is running with a delay.",
+     "uk": "Поїзд їде з затримкою.",
+     "ru": "Поезд идет с задержкой.",
+     "pl": "Pociąg jedzie z opóźnieniem.",
+     "de": "Der Zug hat Verspätung.",
+     "fr": "Le train a du retard.",
+     "es": "El tren tiene retraso.",
+     "it": "Il treno è in ritardo.",
+     "pt": "O trem está atrasado.",
+     "tr": "Tren gecikmeli geliyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.reservation",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/ˌrɛzɚˈveɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I have a reservation for a hotel room.",
+     "uk": "У мене є бронювання на номер у готелі.",
+     "ru": "У меня есть бронь в гостинице.",
+     "pl": "Mam rezerwację na pokój w hotelu.",
+     "de": "Ich habe eine Reservierung für ein Hotelzimmer.",
+     "fr": "J'ai une réservation pour une chambre d'hôtel.",
+     "es": "Tengo una reserva para una habitación de hotel.",
+     "it": "Ho una prenotazione per una camera d'hotel.",
+     "pt": "Tenho uma reserva para um quarto de hotel.",
+     "tr": "Bir otel odası için rezervasyonum var."
+    },
+    {
+     "en": "Please confirm your reservation at the desk.",
+     "uk": "Будь ласка, підтвердіть своє бронювання на стійці.",
+     "ru": "Пожалуйста, подтвердите свою бронь на стойке.",
+     "pl": "Proszę potwierdzić swoją rezerwację w recepcji.",
+     "de": "Bitte bestätigen Sie Ihre Reservierung an der Rezeption.",
+     "fr": "Veuillez confirmer votre réservation au bureau.",
+     "es": "Por favor, confirme su reserva en la recepción.",
+     "it": "Per favore, conferma la tua prenotazione alla reception.",
+     "pt": "Por favor, confirme sua reserva na recepção.",
+     "tr": "Lütfen rezervasyonunuzu resepsiyonda onaylayın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.plane",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/pleɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The plane is ready for takeoff.",
+     "uk": "Літак готовий до вильоту.",
+     "ru": "Самолет готов к взлету.",
+     "pl": "Samolot jest gotowy do startu.",
+     "de": "Das Flugzeug ist bereit zum Abheben.",
+     "fr": "L'avion est prêt au décollage.",
+     "es": "El avión está listo para despegar.",
+     "it": "L'aereo è pronto per il decollo.",
+     "pt": "O avião está pronto para decolar.",
+     "tr": "Uçak kalkış için hazır."
+    },
+    {
+     "en": "I saw a big plane in the sky.",
+     "uk": "Я бачив великий літак у небі.",
+     "ru": "Я видел большой самолет в небе.",
+     "pl": "Widziałem duży samolot na niebie.",
+     "de": "Ich habe ein großes Flugzeug am Himmel gesehen.",
+     "fr": "J'ai vu un grand avion dans le ciel.",
+     "es": "Vi un gran avión en el cielo.",
+     "it": "Ho visto un grande aereo nel cielo.",
+     "pt": "Vi um grande avião no céu.",
+     "tr": "Gökyüzünde büyük bir uçak gördüm."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-travel",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈtrævəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love to travel to new places.",
+     "uk": "Я люблю подорожувати до нових місць.",
+     "ru": "Я люблю путешествовать в новые места.",
+     "pl": "Uwielbiam podróżować do nowych miejsc.",
+     "de": "Ich reise gerne an neue Orte.",
+     "fr": "J'adore voyager vers de nouveaux endroits.",
+     "es": "Me encanta viajar a nuevos lugares.",
+     "it": "Mi piace viaggiare in posti nuovi.",
+     "pt": "Adoro viajar para novos lugares.",
+     "tr": "Yeni yerlere seyahat etmekten hoşlanıyorum."
+    },
+    {
+     "en": "It's fun to travel with friends.",
+     "uk": "Цікаво подорожувати з друзями.",
+     "ru": "Весело путешествовать с друзьями.",
+     "pl": "Fajnie jest podróżować z przyjaciółmi.",
+     "de": "Es macht Spaß, mit Freunden zu reisen.",
+     "fr": "C'est amusant de voyager avec des amis.",
+     "es": "Es divertido viajar con amigos.",
+     "it": "È divertente viaggiare con gli amici.",
+     "pt": "É divertido viajar com amigos.",
+     "tr": "Arkadaşlarla seyahat etmek eğlenceli."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.suitcase",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/ˈsutˌkeɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I packed my clothes in the suitcase.",
+     "uk": "Я поклав свій одяг у валізу.",
+     "ru": "Я положил свою одежду в чемодан.",
+     "pl": "Spakowałem swoje ubrania do walizki.",
+     "de": "Ich habe meine Kleidung in den Koffer gepackt.",
+     "fr": "J'ai mis mes vêtements dans la valise.",
+     "es": "Metí mi ropa en la maleta.",
+     "it": "Ho messo i miei vestiti nella valigia.",
+     "pt": "Coloquei minhas roupas na mala.",
+     "tr": "Kıyafetlerimi bavula koydum."
+    },
+    {
+     "en": "My suitcase is heavy to carry.",
+     "uk": "Моя валіза важка для перенесення.",
+     "ru": "Мой чемодан тяжелый для переноски.",
+     "pl": "Moja walizka jest ciężka do noszenia.",
+     "de": "Mein Koffer ist schwer zu tragen.",
+     "fr": "Ma valise est lourde à porter.",
+     "es": "Mi maleta es pesada para llevar.",
+     "it": "La mia valigia è pesante da portare.",
+     "pt": "Minha mala é pesada para carregar.",
+     "tr": "Bavulum taşımak için ağır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-book",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/bʊk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to book a flight to Paris.",
+     "uk": "Я хочу забронювати рейс до Парижа.",
+     "ru": "Я хочу забронировать рейс в Париж.",
+     "pl": "Chcę zarezerwować lot do Paryża.",
+     "de": "Ich möchte einen Flug nach Paris buchen.",
+     "fr": "Je veux réserver un vol pour Paris.",
+     "es": "Quiero reservar un vuelo a París.",
+     "it": "Voglio prenotare un volo per Parigi.",
+     "pt": "Quero reservar um voo para Paris.",
+     "tr": "Paris'e uçuş rezervasyonu yapmak istiyorum."
+    },
+    {
+     "en": "Please help me to book a hotel.",
+     "uk": "Будь ласка, допоможіть мені забронювати готель.",
+     "ru": "Пожалуйста, помогите мне забронировать отель.",
+     "pl": "Proszę, pomóż mi zarezerwować hotel.",
+     "de": "Bitte helfen Sie mir, ein Hotel zu buchen.",
+     "fr": "Veuillez m'aider à réserver un hôtel.",
+     "es": "Por favor, ayúdame a reservar un hotel.",
+     "it": "Per favore, aiutami a prenotare un hotel.",
+     "pt": "Por favor, ajude-me a reservar um hotel.",
+     "tr": "Lütfen bana bir otel rezervasyonu yapmamda yardım et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.trip",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/trɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My trip to Italy was amazing.",
+     "uk": "Моя подорож до Італії була чудовою.",
+     "ru": "Моя поездка в Италию была потрясающей.",
+     "pl": "Moja podróż do Włoch była niesamowita.",
+     "de": "Meine Reise nach Italien war fantastisch.",
+     "fr": "Mon voyage en Italie était incroyable.",
+     "es": "Mi viaje a Italia fue increíble.",
+     "it": "Il mio viaggio in Italia è stato fantastico.",
+     "pt": "Minha viagem para a Itália foi incrível.",
+     "tr": "İtalya'ya yaptığım gezi harikaydı."
+    },
+    {
+     "en": "We planned a trip to the mountains.",
+     "uk": "Ми спланували подорож в гори.",
+     "ru": "Мы спланировали поездку в горы.",
+     "pl": "Zaplanowaliśmy podróż w góry.",
+     "de": "Wir haben eine Reise in die Berge geplant.",
+     "fr": "Nous avons prévu un voyage en montagne.",
+     "es": "Planeamos un viaje a las montañas.",
+     "it": "Abbiamo pianificato un viaggio in montagna.",
+     "pt": "Planejamos uma viagem para as montanhas.",
+     "tr": "Dağlara bir gezi planladık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-arrive",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/ɚˈaɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We are going to arrive at noon.",
+     "uk": "Ми прибудемо опівдні.",
+     "ru": "Мы прибудем в полдень.",
+     "pl": "Przyjedziemy w południe.",
+     "de": "Wir werden um zwölf Uhr ankommen.",
+     "fr": "Nous allons arriver à midi.",
+     "es": "Vamos a llegar al mediodía.",
+     "it": "Arriveremo a mezzogiorno.",
+     "pt": "Vamos chegar ao meio-dia.",
+     "tr": "Öğle vakti varacağız."
+    },
+    {
+     "en": "I hope to arrive on time.",
+     "uk": "Сподіваюсь, прибуду вчасно.",
+     "ru": "Надеюсь, прибуду вовремя.",
+     "pl": "Mam nadzieję, że przyjadę na czas.",
+     "de": "Ich hoffe, pünktlich anzukommen.",
+     "fr": "J'espère arriver à l'heure.",
+     "es": "Espero llegar a tiempo.",
+     "it": "Spero di arrivare in tempo.",
+     "pt": "Espero chegar a tempo.",
+     "tr": "Zamanında varmayı umuyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-leave",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/liv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to leave for the airport now.",
+     "uk": "Мені потрібно виїжджати в аеропорт.",
+     "ru": "Мне нужно уезжать в аэропорт.",
+     "pl": "Muszę wyjeżdżać na lotnisko.",
+     "de": "Ich muss jetzt zum Flughafen abfahren.",
+     "fr": "Je dois partir pour l'aéroport maintenant.",
+     "es": "Tengo que salir para el aeropuerto ahora.",
+     "it": "Devo partire per l'aeroporto ora.",
+     "pt": "Preciso partir para o aeroporto agora.",
+     "tr": "Şimdi havaalanına ayrılmam gerekiyor."
+    },
+    {
+     "en": "We will leave at 6 PM.",
+     "uk": "Ми від'їжджаємо о 18:00.",
+     "ru": "Мы уезжаем в 18:00.",
+     "pl": "Wyjeżdżamy o 18:00.",
+     "de": "Wir fahren um 18 Uhr ab.",
+     "fr": "Nous partons à 18 heures.",
+     "es": "Saldremos a las 6 PM.",
+     "it": "Partiremo alle 18:00.",
+     "pt": "Vamos partir às 18h.",
+     "tr": "Saat 18:00'de ayrılacağız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-fly",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/flaɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to fly to Paris next week.",
+     "uk": "Я хочу летіти до Парижа наступного тижня.",
+     "ru": "Я хочу лететь в Париж на следующей неделе.",
+     "pl": "Chcę lecieć do Paryża w przyszłym tygodniu.",
+     "de": "Ich möchte nächste Woche nach Paris fliegen.",
+     "fr": "Je veux prendre l'avion pour Paris la semaine prochaine.",
+     "es": "Quiero volar a París la próxima semana.",
+     "it": "Voglio volare a Parigi la prossima settimana.",
+     "pt": "Quero voar para Paris na próxima semana.",
+     "tr": "Gelecek hafta Paris'e uçmak istiyorum."
+    },
+    {
+     "en": "They will fly to New York tomorrow.",
+     "uk": "Вони летять до Нью-Йорка завтра.",
+     "ru": "Они летят в Нью-Йорк завтра.",
+     "pl": "Oni lecieć do Nowego Jorku jutro.",
+     "de": "Sie werden morgen nach New York fliegen.",
+     "fr": "Ils vont prendre l'avion pour New York demain.",
+     "es": "Ellos volarán a Nueva York mañana.",
+     "it": "Loro voleranno a New York domani.",
+     "pt": "Eles vão voar para Nova Iorque amanhã.",
+     "tr": "Yarın New York'a uçacaklar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.city",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/ˈsɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I live in a big city.",
+     "uk": "Я живу в великому місті.",
+     "ru": "Я живу в большом городе.",
+     "pl": "Mieszkam w dużym mieście.",
+     "de": "Ich wohne in einer großen Stadt.",
+     "fr": "Je vis dans une grande ville.",
+     "es": "Vivo en una gran ciudad.",
+     "it": "Vivo in una grande città.",
+     "pt": "Eu moro em uma grande cidade.",
+     "tr": "Büyük bir şehirde yaşıyorum."
+    },
+    {
+     "en": "The city is very beautiful at night.",
+     "uk": "Місто дуже красиве вночі.",
+     "ru": "Город очень красив ночью.",
+     "pl": "Miasto jest bardzo piękne nocą.",
+     "de": "Die Stadt ist nachts sehr schön.",
+     "fr": "La ville est très belle la nuit.",
+     "es": "La ciudad es muy hermosa por la noche.",
+     "it": "La città è molto bella di notte.",
+     "pt": "A cidade é muito bonita à noite.",
+     "tr": "Şehir gece çok güzel."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.country",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈkʌntri/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This country is very interesting.",
+     "uk": "Ця країна дуже цікава.",
+     "ru": "Эта страна очень интересная.",
+     "pl": "Ten kraj jest bardzo interesujący.",
+     "de": "Dieses Land ist sehr interessant.",
+     "fr": "Ce pays est très intéressant.",
+     "es": "Este país es muy interesante.",
+     "it": "Questo paese è molto interessante.",
+     "pt": "Este país é muito interessante.",
+     "tr": "Bu ülke çok ilginç."
+    },
+    {
+     "en": "I want to visit another country.",
+     "uk": "Я хочу відвідати іншу країну.",
+     "ru": "Я хочу посетить другую страну.",
+     "pl": "Chcę odwiedzić inny kraj.",
+     "de": "Ich möchte ein anderes Land besuchen.",
+     "fr": "Je veux visiter un autre pays.",
+     "es": "Quiero visitar otro país.",
+     "it": "Voglio visitare un altro paese.",
+     "pt": "Quero visitar outro país.",
+     "tr": "Başka bir ülkeyi ziyaret etmek istiyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-visit",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˈvɪzɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to visit my friend.",
+     "uk": "Я хочу відвідати свого друга.",
+     "ru": "Я хочу посетить своего друга.",
+     "pl": "Chcę odwiedzić mojego przyjaciela.",
+     "de": "Ich möchte meinen Freund besuchen.",
+     "fr": "Je veux visiter mon ami.",
+     "es": "Quiero visitar a mi amigo.",
+     "it": "Voglio visitare il mio amico.",
+     "pt": "Quero visitar meu amigo.",
+     "tr": "Arkadaşımı ziyaret etmek istiyorum."
+    },
+    {
+     "en": "We will visit the museum tomorrow.",
+     "uk": "Ми відвідаємо музей завтра.",
+     "ru": "Мы посетим музей завтра.",
+     "pl": "Odwiedzimy muzeum jutro.",
+     "de": "Wir werden morgen das Museum besuchen.",
+     "fr": "Nous allons visiter le musée demain.",
+     "es": "Visitaremos el museo mañana.",
+     "it": "Visiteremo il museo domani.",
+     "pt": "Vamos visitar o museu amanhã.",
+     "tr": "Yarın müzeyi ziyaret edeceğiz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.train-station",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/treɪn ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train station is very busy today.",
+     "uk": "Вокзал сьогодні дуже людний.",
+     "ru": "Вокзал сегодня очень многолюден.",
+     "pl": "Dworzec kolejowy jest dzisiaj bardzo zatłoczony.",
+     "de": "Der Bahnhof ist heute sehr belebt.",
+     "fr": "La gare est très animée aujourd'hui.",
+     "es": "La estación de tren está muy ocupada hoy.",
+     "it": "La stazione è molto affollata oggi.",
+     "pt": "A estação de trem está muito cheia hoje.",
+     "tr": "Tren istasyonu bugün çok kalabalık."
+    },
+    {
+     "en": "I will meet you at the train station.",
+     "uk": "Я зустріну тебе на вокзалі.",
+     "ru": "Я встречу тебя на вокзале.",
+     "pl": "Spotkam cię na dworcu kolejowym.",
+     "de": "Ich treffe dich am Bahnhof.",
+     "fr": "Je te retrouve à la gare.",
+     "es": "Te encontraré en la estación de tren.",
+     "it": "Ti incontrerò alla stazione.",
+     "pt": "Vou te encontrar na estação de trem.",
+     "tr": "Seni tren istasyonunda bulacağım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-check-in",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/tʃɛk ɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to check in at the hotel.",
+     "uk": "Мені потрібно зареєструватися в готелі.",
+     "ru": "Мне нужно зарегистрироваться в отеле.",
+     "pl": "Muszę się zameldować w hotelu.",
+     "de": "Ich muss im Hotel einchecken.",
+     "fr": "Je dois m'enregistrer à l'hôtel.",
+     "es": "Necesito hacer el check-in en el hotel.",
+     "it": "Devo fare il check-in in albergo.",
+     "pt": "Preciso fazer check-in no hotel.",
+     "tr": "Otel girişimi yapmalıyım."
+    },
+    {
+     "en": "Please check in before your flight.",
+     "uk": "Будь ласка, зареєструйтеся перед польотом.",
+     "ru": "Пожалуйста, зарегистрируйтесь перед вылетом.",
+     "pl": "Proszę zameldować się przed lotem.",
+     "de": "Bitte checken Sie vor Ihrem Flug ein.",
+     "fr": "Veuillez vous enregistrer avant votre vol.",
+     "es": "Por favor, haz el check-in antes de tu vuelo.",
+     "it": "Per favore, fai il check-in prima del volo.",
+     "pt": "Por favor, faça check-in antes do seu voo.",
+     "tr": "Lütfen uçuştan önce giriş yapın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.boat",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/boʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to ride a boat.",
+     "uk": "Я хочу покататися на човні.",
+     "ru": "Я хочу покататься на лодке.",
+     "pl": "Chcę popłynąć łodzią.",
+     "de": "Ich möchte mit dem Boot fahren.",
+     "fr": "Je veux faire un tour en bateau.",
+     "es": "Quiero montar en barco.",
+     "it": "Voglio andare in barca.",
+     "pt": "Quero andar de barco.",
+     "tr": "Bir tekneyle gezmek istiyorum."
+    },
+    {
+     "en": "The boat is on the water.",
+     "uk": "Човен на воді.",
+     "ru": "Лодка на воде.",
+     "pl": "Łódź jest na wodzie.",
+     "de": "Das Boot ist auf dem Wasser.",
+     "fr": "Le bateau est sur l'eau.",
+     "es": "El barco está en el agua.",
+     "it": "La barca è sull'acqua.",
+     "pt": "O barco está na água.",
+     "tr": "Tekne su üzerinde."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.i-m-lost",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/aɪm lɔst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I'm lost in this city.",
+     "uk": "Я заблукав у цьому місті.",
+     "ru": "Я заблудился в этом городе.",
+     "pl": "Zgubiłem się w tym mieście.",
+     "de": "Ich habe mich in dieser Stadt verlaufen.",
+     "fr": "Je suis perdu dans cette ville.",
+     "es": "Estoy perdido en esta ciudad.",
+     "it": "Mi sono perso in questa città.",
+     "pt": "Estou perdido nesta cidade.",
+     "tr": "Bu şehirde kayboldum."
+    },
+    {
+     "en": "Help! I'm lost!",
+     "uk": "Допоможіть! Я заблукав!",
+     "ru": "Помогите! Я заблудился!",
+     "pl": "Pomóż! Zgubiłem się!",
+     "de": "Hilfe! Ich habe mich verlaufen!",
+     "fr": "Au secours ! Je suis perdu !",
+     "es": "¡Ayuda! ¡Estoy perdido!",
+     "it": "Aiuto! Mi sono perso!",
+     "pt": "Ajuda! Estou perdido!",
+     "tr": "Yardım! Kayboldum!"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.postcard",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈpoʊstˌkɑrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I sent a postcard from my vacation.",
+     "uk": "Я надіслав листівку з моїх канікул.",
+     "ru": "Я отправил открытку из своего отпуска.",
+     "pl": "Wysłałem pocztówkę z wakacji.",
+     "de": "Ich habe eine Postkarte aus meinem Urlaub geschickt.",
+     "fr": "J'ai envoyé une carte postale de mes vacances.",
+     "es": "Envié una postal de mis vacaciones.",
+     "it": "Ho inviato una cartolina dalle mie vacanze.",
+     "pt": "Enviei um cartão-postal das minhas férias.",
+     "tr": "Tatilimden bir kartpostal gönderdim."
+    },
+    {
+     "en": "She collects postcards from different countries.",
+     "uk": "Вона збирає листівки з різних країн.",
+     "ru": "Она собирает открытки из разных стран.",
+     "pl": "Ona zbiera pocztówki z różnych krajów.",
+     "de": "Sie sammelt Postkarten aus verschiedenen Ländern.",
+     "fr": "Elle collectionne des cartes postales de différents pays.",
+     "es": "Ella colecciona postales de diferentes países.",
+     "it": "Lei colleziona cartoline di diversi paesi.",
+     "pt": "Ela coleciona cartões-postais de diferentes países.",
+     "tr": "Farklı ülkelerden kartpostal topluyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.holiday",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈhɑləˌdeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I am going on holiday next week.",
+     "uk": "Я їду у відпустку наступного тижня.",
+     "ru": "Я еду в отпуск на следующей неделе.",
+     "pl": "Jadę na wakacje w przyszłym tygodniu.",
+     "de": "Ich mache nächste Woche Urlaub.",
+     "fr": "Je pars en vacances la semaine prochaine.",
+     "es": "Me voy de vacaciones la próxima semana.",
+     "it": "Vado in vacanza la prossima settimana.",
+     "pt": "Vou sair de férias na próxima semana.",
+     "tr": "Gelecek hafta tatile gidiyorum."
+    },
+    {
+     "en": "She loves spending her holiday at the beach.",
+     "uk": "Вона любить проводити свою відпустку на пляжі.",
+     "ru": "Она любит проводить отпуск на пляже.",
+     "pl": "Ona uwielbia spędzać wakacje na plaży.",
+     "de": "Sie liebt es, ihren Urlaub am Strand zu verbringen.",
+     "fr": "Elle adore passer ses vacances à la plage.",
+     "es": "A ella le encanta pasar sus vacaciones en la playa.",
+     "it": "Le piace trascorrere le sue vacanze in spiaggia.",
+     "pt": "Ela adora passar as férias na praia.",
+     "tr": "O, tatilini plajda geçirmeyi seviyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.square",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/skwɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The square is full of people today.",
+     "uk": "Сьогодні площа повна людей.",
+     "ru": "Сегодня площадь полна людей.",
+     "pl": "Plac jest pełen ludzi dzisiaj.",
+     "de": "Der Platz ist heute voller Menschen.",
+     "fr": "La place est pleine de gens aujourd'hui.",
+     "es": "La plaza está llena de gente hoy.",
+     "it": "La piazza è piena di persone oggi.",
+     "pt": "A praça está cheia de pessoas hoje.",
+     "tr": "Meydan bugün insanlarla dolu."
+    },
+    {
+     "en": "Let's meet at the square after lunch.",
+     "uk": "Давай зустрінемось на площі після обіду.",
+     "ru": "Давайте встретимся на площади после обеда.",
+     "pl": "Spotkajmy się na placu po obiedzie.",
+     "de": "Lass uns nach dem Mittagessen auf dem Platz treffen.",
+     "fr": "Retrouvons-nous sur la place après le déjeuner.",
+     "es": "Nos encontramos en la plaza después del almuerzo.",
+     "it": "Incontriamoci in piazza dopo pranzo.",
+     "pt": "Vamos nos encontrar na praça depois do almoço.",
+     "tr": "Öğle yemekten sonra meydanda buluşalım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.old-town",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/oʊld taʊn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The old town is beautiful at night.",
+     "uk": "Старе місто красиве вночі.",
+     "ru": "Старый город красив ночью.",
+     "pl": "Stare miasto jest piękne nocą.",
+     "de": "Die Altstadt ist nachts schön.",
+     "fr": "La vieille ville est belle la nuit.",
+     "es": "El casco antiguo es hermoso por la noche.",
+     "it": "Il centro storico è bello di notte.",
+     "pt": "O centro histórico é bonito à noite.",
+     "tr": "Eski şehir gece güzel."
+    },
+    {
+     "en": "Let's walk around the old town.",
+     "uk": "Давай прогуляємось старим містом.",
+     "ru": "Давай прогуляемся по старому городу.",
+     "pl": "Chodźmy na spacer po starym mieście.",
+     "de": "Lass uns durch die Altstadt spazieren.",
+     "fr": "Allons nous promener dans la vieille ville.",
+     "es": "Vamos a pasear por el casco antiguo.",
+     "it": "Facciamo una passeggiata nel centro storico.",
+     "pt": "Vamos passear pelo centro histórico.",
+     "tr": "Eski şehirde yürüyüş yapalım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.village",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈvɪlədʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I live in a small village near the river.",
+     "uk": "Я живу в маленькому селі біля річки.",
+     "ru": "Я живу в маленькой деревне у реки.",
+     "pl": "Mieszkam w małej wsi koło rzeki.",
+     "de": "Ich wohne in einem kleinen Dorf am Fluss.",
+     "fr": "J'habite dans un petit village près de la rivière.",
+     "es": "Vivo en un pequeño pueblo cerca del río.",
+     "it": "Vivo in un piccolo paese vicino al fiume.",
+     "pt": "Eu moro em uma pequena aldeia perto do rio.",
+     "tr": "Ben nehir kenarındaki küçük bir köyde yaşıyorum."
+    },
+    {
+     "en": "The village has a beautiful church and park.",
+     "uk": "У селі є красива церква та парк.",
+     "ru": "В деревне есть красивая церковь и парк.",
+     "pl": "We wsi jest piękny kościół i park.",
+     "de": "Das Dorf hat eine schöne Kirche und einen Park.",
+     "fr": "Le village a une belle église et un parc.",
+     "es": "El pueblo tiene una hermosa iglesia y parque.",
+     "it": "Il paese ha una bella chiesa e un parco.",
+     "pt": "A aldeia tem uma bela igreja e parque.",
+     "tr": "Köyde güzel bir kilise ve park var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.sunglasses",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈsʌnˌɡlæsɪz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I wear sunglasses when it is sunny.",
+     "uk": "Я ношу сонцезахисні окуляри, коли сонячно.",
+     "ru": "Я ношу солнцезащитные очки, когда солнечно.",
+     "pl": "Noszę okulary przeciwsłoneczne, gdy jest słonecznie.",
+     "de": "Ich trage eine Sonnenbrille, wenn es sonnig ist.",
+     "fr": "Je porte des lunettes de soleil quand il fait soleil.",
+     "es": "Uso gafas de sol cuando hace sol.",
+     "it": "Indosso occhiali da sole quando c'è sole.",
+     "pt": "Uso óculos de sol quando está ensolarado.",
+     "tr": "Güneşli havalarda güneş gözlüğü takarım."
+    },
+    {
+     "en": "She bought new sunglasses for the summer.",
+     "uk": "Вона купила нові сонцезахисні окуляри на літо.",
+     "ru": "Она купила новые солнцезащитные очки на лето.",
+     "pl": "Kupiła nowe okulary przeciwsłoneczne na lato.",
+     "de": "Sie kaufte eine neue Sonnenbrille für den Sommer.",
+     "fr": "Elle a acheté de nouvelles lunettes de soleil pour l'été.",
+     "es": "Ella compró nuevas gafas de sol para el verano.",
+     "it": "Ha comprato nuovi occhiali da sole per l'estate.",
+     "pt": "Ela comprou novos óculos de sol para o verão.",
+     "tr": "Yaz için yeni güneş gözlüğü aldı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.train-ticket",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/treɪn ˈtɪkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I bought a train ticket yesterday.",
+     "uk": "Я купив квиток на потяг вчора.",
+     "ru": "Вчера я купил билет на поезд.",
+     "pl": "Kupiłem bilet na pociąg wczoraj.",
+     "de": "Ich habe gestern ein Zugticket gekauft.",
+     "fr": "J'ai acheté un billet de train hier.",
+     "es": "Compré un billete de tren ayer.",
+     "it": "Ho comprato un biglietto del treno ieri.",
+     "pt": "Comprei uma passagem de trem ontem.",
+     "tr": "Dün bir tren bileti aldım."
+    },
+    {
+     "en": "Where can I get a train ticket?",
+     "uk": "Де я можу купити квиток на потяг?",
+     "ru": "Где я могу купить билет на поезд?",
+     "pl": "Gdzie mogę kupić bilet na pociąg?",
+     "de": "Wo kann ich ein Zugticket bekommen?",
+     "fr": "Où puis-je acheter un billet de train ?",
+     "es": "¿Dónde puedo conseguir un billete de tren?",
+     "it": "Dove posso prendere un biglietto del treno?",
+     "pt": "Onde posso pegar uma passagem de trem?",
+     "tr": "Nereden tren bileti alabilirim?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.north",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/nɔrθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The north is cold in winter.",
+     "uk": "На півночі холодно взимку.",
+     "ru": "На севере холодно зимой.",
+     "pl": "Na północy jest zimno zimą.",
+     "de": "Der Norden ist im Winter kalt.",
+     "fr": "Le nord est froid en hiver.",
+     "es": "El norte es frío en invierno.",
+     "it": "Il nord è freddo in inverno.",
+     "pt": "O norte é frio no inverno.",
+     "tr": "Kuzey kışın soğuk."
+    },
+    {
+     "en": "We live in the north of the country.",
+     "uk": "Ми живемо на півночі країни.",
+     "ru": "Мы живем на севере страны.",
+     "pl": "Mieszkamy na północy kraju.",
+     "de": "Wir leben im Norden des Landes.",
+     "fr": "Nous vivons dans le nord du pays.",
+     "es": "Vivimos en el norte del país.",
+     "it": "Viviamo nel nord del paese.",
+     "pt": "Nós moramos no norte do país.",
+     "tr": "Biz ülkenin kuzeyinde yaşıyoruz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.south",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/saʊθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The south is warm in summer.",
+     "uk": "На півдні тепло влітку.",
+     "ru": "На юге тепло летом.",
+     "pl": "Na południu jest ciepło latem.",
+     "de": "Der Süden ist im Sommer warm.",
+     "fr": "Le sud est chaud en été.",
+     "es": "El sur es cálido en verano.",
+     "it": "Il sud è caldo in estate.",
+     "pt": "O sul é quente no verão.",
+     "tr": "Güney yazın sıcak."
+    },
+    {
+     "en": "We traveled to the south for our vacation.",
+     "uk": "Ми подорожували на південь на відпустку.",
+     "ru": "Мы поехали на юг на отпуск.",
+     "pl": "Podróżowaliśmy na południe na wakacje.",
+     "de": "Wir sind für unseren Urlaub in den Süden gereist.",
+     "fr": "Nous avons voyagé vers le sud pour nos vacances.",
+     "es": "Viajamos al sur para nuestras vacaciones.",
+     "it": "Siamo andati a sud per le nostre vacanze.",
+     "pt": "Viajamos para o sul para nossas férias.",
+     "tr": "Tatilimiz için güneye seyahat ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.east",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/ist/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The sun rises in the east every morning.",
+     "uk": "Сонце сходить на сході щоранку.",
+     "ru": "Солнце встает на востоке каждое утро.",
+     "pl": "Słońce wschodzi na wschodzie każdego ranka.",
+     "de": "Die Sonne geht jeden Morgen im Osten auf.",
+     "fr": "Le soleil se lève à l'est chaque matin.",
+     "es": "El sol sale por el este cada mañana.",
+     "it": "Il sole sorge a est ogni mattina.",
+     "pt": "O sol nasce no leste todas as manhãs.",
+     "tr": "Güneş her sabah doğudan doğar."
+    },
+    {
+     "en": "We drove east to reach the coast.",
+     "uk": "Ми їхали на схід, щоб дістатися до узбережжя.",
+     "ru": "Мы ехали на восток, чтобы добраться до побережья.",
+     "pl": "Pojechaliśmy na wschód, aby dotrzeć do wybrzeża.",
+     "de": "Wir fuhren nach Osten, um die Küste zu erreichen.",
+     "fr": "Nous avons conduit vers l'est pour atteindre la côte.",
+     "es": "Condujimos hacia el este para llegar a la costa.",
+     "it": "Abbiamo guidato a est per raggiungere la costa.",
+     "pt": "Dirigimos para o leste para chegar à costa.",
+     "tr": "Kıyıya ulaşmak için doğuya sürdük."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.west",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/wɛst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The west is known for its beautiful sunsets.",
+     "uk": "Захід відомий своїми красивими заходами сонця.",
+     "ru": "Запад известен своими красивыми закатами.",
+     "pl": "Zachód słynie z pięknych zachodów słońca.",
+     "de": "Der Westen ist bekannt für seine schönen Sonnenuntergänge.",
+     "fr": "L'ouest est connu pour ses beaux couchers de soleil.",
+     "es": "El oeste es conocido por sus hermosos atardeceres.",
+     "it": "L'ovest è noto per i suoi bellissimi tramonti.",
+     "pt": "O oeste é conhecido por seus belos pores do sol.",
+     "tr": "Batı, güzel gün batımlarıyla ünlüdür."
+    },
+    {
+     "en": "We traveled west to visit the mountains.",
+     "uk": "Ми подорожували на захід, щоб відвідати гори.",
+     "ru": "Мы путешествовали на запад, чтобы посетить горы.",
+     "pl": "Podróżowaliśmy na zachód, aby odwiedzić góry.",
+     "de": "Wir reisten nach Westen, um die Berge zu besuchen.",
+     "fr": "Nous avons voyagé vers l'ouest pour visiter les montagnes.",
+     "es": "Viajamos al oeste para visitar las montañas.",
+     "it": "Abbiamo viaggiato a ovest per visitare le montagne.",
+     "pt": "Viajamos para o oeste para visitar as montanhas.",
+     "tr": "Dağları ziyaret etmek için batıya seyahat ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.castle",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/ˈkæsəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The castle is on the hill.",
+     "uk": "Замок знаходиться на пагорбі.",
+     "ru": "Замок находится на холме.",
+     "pl": "Zamek jest na wzgórzu.",
+     "de": "Die Burg steht auf dem Hügel.",
+     "fr": "Le château est sur la colline.",
+     "es": "El castillo está en la colina.",
+     "it": "Il castello è sulla collina.",
+     "pt": "O castelo está na colina.",
+     "tr": "Kale tepenin üzerinde."
+    },
+    {
+     "en": "We visited the old castle yesterday.",
+     "uk": "Ми відвідали старий замок вчора.",
+     "ru": "Мы посетили старый замок вчера.",
+     "pl": "Wczoraj odwiedziliśmy stary zamek.",
+     "de": "Wir haben gestern die alte Burg besucht.",
+     "fr": "Nous avons visité le vieux château hier.",
+     "es": "Visitamos el viejo castillo ayer.",
+     "it": "Abbiamo visitato il vecchio castello ieri.",
+     "pt": "Visitamos o velho castelo ontem.",
+     "tr": "Dün eski kaleyi ziyaret ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.zoo",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/zu/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We went to the zoo last weekend.",
+     "uk": "Ми ходили до зоопарку минулого вихідного.",
+     "ru": "Мы ходили в зоопарк в прошлые выходные.",
+     "pl": "W zeszły weekend poszliśmy do zoo.",
+     "de": "Wir sind letztes Wochenende in den Zoo gegangen.",
+     "fr": "Nous sommes allés au zoo le week-end dernier.",
+     "es": "Fuimos al zoológico el fin de semana pasado.",
+     "it": "Siamo andati allo zoo lo scorso fine settimana.",
+     "pt": "Fomos ao zoológico no último fim de semana.",
+     "tr": "Geçen hafta sonu hayvanat bahçesine gittik."
+    },
+    {
+     "en": "The zoo has many different animals.",
+     "uk": "У зоопарку багато різних тварин.",
+     "ru": "В зоопарке много разных животных.",
+     "pl": "W zoo jest wiele różnych zwierząt.",
+     "de": "Der Zoo hat viele verschiedene Tiere.",
+     "fr": "Le zoo a de nombreux animaux différents.",
+     "es": "El zoológico tiene muchos animales diferentes.",
+     "it": "Lo zoo ha molti animali diversi.",
+     "pt": "O zoológico tem muitos animais diferentes.",
+     "tr": "Hayvanat bahçesinde birçok farklı hayvan var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.park",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/pɑrk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I like to walk in the park.",
+     "uk": "Мені подобається гуляти в парку.",
+     "ru": "Мне нравится гулять в парке.",
+     "pl": "Lubię spacerować w parku.",
+     "de": "Ich gehe gerne im Park spazieren.",
+     "fr": "J'aime me promener dans le parc.",
+     "es": "Me gusta caminar en el parque.",
+     "it": "Mi piace camminare nel parco.",
+     "pt": "Gosto de caminhar no parque.",
+     "tr": "Parkta yürüyüş yapmayı seviyorum."
+    },
+    {
+     "en": "The park is beautiful in spring.",
+     "uk": "Парк красивий навесні.",
+     "ru": "Парк красив весной.",
+     "pl": "Park jest piękny wiosną.",
+     "de": "Der Park ist im Frühling schön.",
+     "fr": "Le parc est beau au printemps.",
+     "es": "El parque es hermoso en primavera.",
+     "it": "Il parco è bello in primavera.",
+     "pt": "O parque é bonito na primavera.",
+     "tr": "Park baharda güzeldir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-come-back",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/kʌm bæk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I will come back tomorrow.",
+     "uk": "Я повернуся завтра.",
+     "ru": "Я вернусь завтра.",
+     "pl": "Wrócę jutro.",
+     "de": "Ich werde morgen zurückkommen.",
+     "fr": "Je reviendrai demain.",
+     "es": "Volveré mañana.",
+     "it": "Tornerò domani.",
+     "pt": "Voltarei amanhã.",
+     "tr": "Yarın geri döneceğim."
+    },
+    {
+     "en": "Please come back soon.",
+     "uk": "Будь ласка, повертайся швидше.",
+     "ru": "Пожалуйста, возвращайся скорее.",
+     "pl": "Proszę, wróć szybko.",
+     "de": "Bitte komm bald zurück.",
+     "fr": "S'il te plaît, reviens vite.",
+     "es": "Por favor, vuelve pronto.",
+     "it": "Per favore, torna presto.",
+     "pt": "Por favor, volte logo.",
+     "tr": "Lütfen çabuk geri dön."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.church",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/tʃɝtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The church is very old.",
+     "uk": "Церква дуже стара.",
+     "ru": "Церковь очень старая.",
+     "pl": "Kościół jest bardzo stary.",
+     "de": "Die Kirche ist sehr alt.",
+     "fr": "L'église est très ancienne.",
+     "es": "La iglesia es muy antigua.",
+     "it": "La chiesa è molto antica.",
+     "pt": "A igreja é muito antiga.",
+     "tr": "Kilise çok eski."
+    },
+    {
+     "en": "We go to church on Sundays.",
+     "uk": "Ми ходимо до церкви щонеділі.",
+     "ru": "Мы ходим в церковь по воскресеньям.",
+     "pl": "Chodzimy do kościoła w niedziele.",
+     "de": "Wir gehen sonntags in die Kirche.",
+     "fr": "Nous allons à l'église le dimanche.",
+     "es": "Vamos a la iglesia los domingos.",
+     "it": "Andiamo in chiesa la domenica.",
+     "pt": "Vamos à igreja aos domingos.",
+     "tr": "Pazar günleri kiliseye gidiyoruz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.tower",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/ˈtaʊɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The tower is very tall.",
+     "uk": "Вежа дуже висока.",
+     "ru": "Башня очень высокая.",
+     "pl": "Wieża jest bardzo wysoka.",
+     "de": "Der Turm ist sehr hoch.",
+     "fr": "La tour est très haute.",
+     "es": "La torre es muy alta.",
+     "it": "La torre è molto alta.",
+     "pt": "A torre é muito alta.",
+     "tr": "Kule çok yüksek."
+    },
+    {
+     "en": "We climbed the tower together.",
+     "uk": "Ми піднялися на вежу разом.",
+     "ru": "Мы поднялись на башню вместе.",
+     "pl": "Wspólnie weszliśmy na wieżę.",
+     "de": "Wir sind zusammen auf den Turm gestiegen.",
+     "fr": "Nous avons grimpé à la tour ensemble.",
+     "es": "Subimos a la torre juntos.",
+     "it": "Siamo saliti sulla torre insieme.",
+     "pt": "Subimos na torre juntos.",
+     "tr": "Birlikte kuleye tırmandık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel-room",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl rum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I booked a hotel room for two nights.",
+     "uk": "Я забронював готельний номер на дві ночі.",
+     "ru": "Я забронировал гостиничный номер на две ночи.",
+     "pl": "Zarezerwowałem pokój hotelowy na dwie noce.",
+     "de": "Ich habe ein Hotelzimmer für zwei Nächte gebucht.",
+     "fr": "J'ai réservé une chambre d'hôtel pour deux nuits.",
+     "es": "Reservé una habitación de hotel por dos noches.",
+     "it": "Ho prenotato una camera d'albergo per due notti.",
+     "pt": "Reservei um quarto de hotel por duas noites.",
+     "tr": "İki gece için bir otel odası ayırttım."
+    },
+    {
+     "en": "The hotel room has a nice view.",
+     "uk": "Готельний номер має гарний вид.",
+     "ru": "Гостиничный номер имеет хороший вид.",
+     "pl": "Pokój hotelowy ma ładny widok.",
+     "de": "Das Hotelzimmer hat eine schöne Aussicht.",
+     "fr": "La chambre d'hôtel a une belle vue.",
+     "es": "La habitación de hotel tiene una buena vista.",
+     "it": "La camera d'albergo ha una bella vista.",
+     "pt": "O quarto de hotel tem uma boa vista.",
+     "tr": "Otel odası güzel bir manzaraya sahip."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.entrance",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/ˈɛntrəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The entrance is on the left.",
+     "uk": "Вхід зліва.",
+     "ru": "Вход слева.",
+     "pl": "Wejście jest po lewej.",
+     "de": "Der Eingang ist links.",
+     "fr": "L'entrée est à gauche.",
+     "es": "La entrada está a la izquierda.",
+     "it": "L'ingresso è a sinistra.",
+     "pt": "A entrada está à esquerda.",
+     "tr": "Giriş solda."
+    },
+    {
+     "en": "Please use the main entrance.",
+     "uk": "Будь ласка, використовуйте головний вхід.",
+     "ru": "Пожалуйста, используйте главный вход.",
+     "pl": "Proszę używać głównego wejścia.",
+     "de": "Bitte benutzen Sie den Haupteingang.",
+     "fr": "Veuillez utiliser l'entrée principale.",
+     "es": "Por favor, use la entrada principal.",
+     "it": "Si prega di utilizzare l'ingresso principale.",
+     "pt": "Por favor, use a entrada principal.",
+     "tr": "Lütfen ana girişi kullanın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-take-a-photo",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/teɪk ə ˈfoʊˌtoʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to take a photo of the sunset.",
+     "uk": "Я хочу сфотографувати захід сонця.",
+     "ru": "Я хочу сфотографировать закат.",
+     "pl": "Chcę zrobić zdjęcie zachodu słońca.",
+     "de": "Ich möchte ein Foto vom Sonnenuntergang machen.",
+     "fr": "Je veux prendre une photo du coucher de soleil.",
+     "es": "Quiero sacar una foto del atardecer.",
+     "it": "Voglio fare una foto del tramonto.",
+     "pt": "Quero tirar uma foto do pôr do sol.",
+     "tr": "Güneş batımının fotoğrafını çekmek istiyorum."
+    },
+    {
+     "en": "Can you take a photo of us?",
+     "uk": "Можеш сфотографувати нас?",
+     "ru": "Можешь сфотографировать нас?",
+     "pl": "Możesz zrobić nam zdjęcie?",
+     "de": "Kannst du ein Foto von uns machen?",
+     "fr": "Peux-tu prendre une photo de nous ?",
+     "es": "¿Puedes sacar una foto de nosotros?",
+     "it": "Puoi fare una foto a noi?",
+     "pt": "Você pode tirar uma foto de nós?",
+     "tr": "Bizim fotoğrafımızı çekebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.room-key",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/rum ki/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need my room key to enter.",
+     "uk": "Мені потрібен ключ від номера, щоб увійти.",
+     "ru": "Мне нужен ключ от номера, чтобы войти.",
+     "pl": "Potrzebuję klucza do pokoju, aby wejść.",
+     "de": "Ich brauche meinen Zimmerschlüssel, um reinzukommen.",
+     "fr": "J'ai besoin de ma clé de la chambre pour entrer.",
+     "es": "Necesito mi llave de la habitación para entrar.",
+     "it": "Ho bisogno della mia chiave della camera per entrare.",
+     "pt": "Preciso da minha chave do quarto para entrar.",
+     "tr": "Girmek için oda anahtarına ihtiyacım var."
+    },
+    {
+     "en": "Where is my room key?",
+     "uk": "Де мій ключ від номера?",
+     "ru": "Где мой ключ от номера?",
+     "pl": "Gdzie jest mój klucz do pokoju?",
+     "de": "Wo ist mein Zimmerschlüssel?",
+     "fr": "Où est ma clé de la chambre ?",
+     "es": "¿Dónde está mi llave de la habitación?",
+     "it": "Dove è la mia chiave della camera?",
+     "pt": "Onde está minha chave do quarto?",
+     "tr": "Oda anahtarım nerede?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.holiday-home",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/ˈhɑləˌdeɪ hoʊm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We rented a holiday home by the lake.",
+     "uk": "Ми орендували будинок для відпочинку біля озера.",
+     "ru": "Мы арендовали дом для отдыха у озера.",
+     "pl": "Wynajęliśmy domek letniskowy nad jeziorem.",
+     "de": "Wir haben ein Ferienhaus am See gemietet.",
+     "fr": "Nous avons loué une maison de vacances au bord du lac.",
+     "es": "Alquilamos una casa de vacaciones junto al lago.",
+     "it": "Abbiamo affittato una casa vacanze vicino al lago.",
+     "pt": "Alugamos uma casa de férias perto do lago.",
+     "tr": "Göl kenarında bir yazlık kiraladık."
+    },
+    {
+     "en": "The holiday home was very cozy and comfortable.",
+     "uk": "Будинок для відпочинку був дуже затишним і комфортним.",
+     "ru": "Дом для отдыха был очень уютным и комфортным.",
+     "pl": "Domek letniskowy był bardzo przytulny i wygodny.",
+     "de": "Das Ferienhaus war sehr gemütlich und komfortabel.",
+     "fr": "La maison de vacances était très confortable et accueillante.",
+     "es": "La casa de vacaciones era muy acogedora y cómoda.",
+     "it": "La casa vacanze era molto accogliente e confortevole.",
+     "pt": "A casa de férias era muito aconchegante e confortável.",
+     "tr": "Yazlık çok rahat ve konforluydu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.by-train",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/baɪ treɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I travel by train to visit my family.",
+     "uk": "Я подорожую потягом, щоб відвідати родину.",
+     "ru": "Я путешествую на поезде, чтобы навестить семью.",
+     "pl": "Podróżuję pociągiem, aby odwiedzić rodzinę.",
+     "de": "Ich reise mit dem Zug, um meine Familie zu besuchen.",
+     "fr": "Je voyage en train pour rendre visite à ma famille.",
+     "es": "Viajo en tren para visitar a mi familia.",
+     "it": "Viaggio in treno per visitare la mia famiglia.",
+     "pt": "Viajo de trem para visitar minha família.",
+     "tr": "Ailemizi ziyaret etmek için trenle seyahat ediyorum."
+    },
+    {
+     "en": "We went by train to the beach.",
+     "uk": "Ми поїхали потягом на пляж.",
+     "ru": "Мы поехали на поезде на пляж.",
+     "pl": "Pojechaliśmy pociągiem na plażę.",
+     "de": "Wir sind mit dem Zug zum Strand gefahren.",
+     "fr": "Nous sommes allés à la plage en train.",
+     "es": "Fuimos a la playa en tren.",
+     "it": "Siamo andati in spiaggia in treno.",
+     "pt": "Fomos à praia de trem.",
+     "tr": "Plaja gitmek için trenle gittik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.by-plane",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/baɪ pleɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I will travel by plane to Paris.",
+     "uk": "Я буду подорожувати літаком до Парижа.",
+     "ru": "Я буду путешествовать на самолёте в Париж.",
+     "pl": "Będę podróżować samolotem do Paryża.",
+     "de": "Ich werde mit dem Flugzeug nach Paris fliegen.",
+     "fr": "Je vais voyager en avion vers Paris.",
+     "es": "Voy a viajar en avión a París.",
+     "it": "Viaggerò in aereo verso Parigi.",
+     "pt": "Vou viajar de avião para Paris.",
+     "tr": "Paris'e uçakla seyahat edeceğim."
+    },
+    {
+     "en": "She prefers to travel by plane.",
+     "uk": "Вона віддає перевагу подорожувати літаком.",
+     "ru": "Она предпочитает путешествовать на самолёте.",
+     "pl": "Ona woli podróżować samolotem.",
+     "de": "Sie reist lieber mit dem Flugzeug.",
+     "fr": "Elle préfère voyager en avion.",
+     "es": "Ella prefiere viajar en avión.",
+     "it": "Preferisce viaggiare in aereo.",
+     "pt": "Ela prefere viajar de avião.",
+     "tr": "Uçakla seyahat etmeyi tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.by-boat",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/baɪ boʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We went by boat to the island.",
+     "uk": "Ми поїхали човном на острів.",
+     "ru": "Мы поехали на лодке на остров.",
+     "pl": "Pojechaliśmy łodzią na wyspę.",
+     "de": "Wir sind mit dem Boot zur Insel gefahren.",
+     "fr": "Nous sommes allés à l'île en bateau.",
+     "es": "Fuimos a la isla en barco.",
+     "it": "Siamo andati all'isola in barca.",
+     "pt": "Fomos à ilha de barco.",
+     "tr": "Adaya tekneyle gittik."
+    },
+    {
+     "en": "He likes to travel by boat in summer.",
+     "uk": "Влітку йому подобається подорожувати човном.",
+     "ru": "Летом ему нравится путешествовать на лодке.",
+     "pl": "Latem lubi podróżować łodzią.",
+     "de": "Im Sommer reist er gerne mit dem Boot.",
+     "fr": "En été, il aime voyager en bateau.",
+     "es": "En verano le gusta viajar en barco.",
+     "it": "In estate gli piace viaggiare in barca.",
+     "pt": "No verão, ele gosta de viajar de barco.",
+     "tr": "Yazın tekneyle seyahat etmeyi sever."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel-bar",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl bɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We met at the hotel bar for drinks.",
+     "uk": "Ми зустрілися в барі готелю на напої.",
+     "ru": "Мы встретились в баре отеля на напитки.",
+     "pl": "Spotkaliśmy się w barze hotelowym na drinki.",
+     "de": "Wir trafen uns an der Hotelbar auf Drinks.",
+     "fr": "Nous nous sommes rencontrés au bar de l'hôtel pour prendre un verre.",
+     "es": "Nos encontramos en el bar del hotel para tomar algo.",
+     "it": "Ci siamo incontrati al bar dell'hotel per bere qualcosa.",
+     "pt": "Nos encontramos no bar do hotel para beber.",
+     "tr": "İçecekler için otel barında buluştuk."
+    },
+    {
+     "en": "The hotel bar has a nice atmosphere.",
+     "uk": "У барі готелю приємна атмосфера.",
+     "ru": "В баре отеля приятная атмосфера.",
+     "pl": "W barze hotelowej jest miła atmosfera.",
+     "de": "Die Hotelbar hat eine schöne Atmosphäre.",
+     "fr": "Le bar de l'hôtel a une belle ambiance.",
+     "es": "El bar del hotel tiene un buen ambiente.",
+     "it": "Il bar dell'hotel ha una bella atmosfera.",
+     "pt": "O bar do hotel tem um bom ambiente.",
+     "tr": "Otel barı güzel bir atmosfere sahip."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel-restaurant",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl ˈrɛstɚˌɑnt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We had dinner at the hotel restaurant.",
+     "uk": "Ми пообідали в ресторані готелю.",
+     "ru": "Мы поужинали в ресторане отеля.",
+     "pl": "Zjedliśmy kolację w restauracji hotelowej.",
+     "de": "Wir haben im Hotelrestaurant zu Abend gegessen.",
+     "fr": "Nous avons dîné au restaurant de l'hôtel.",
+     "es": "Cenamos en el restaurante del hotel.",
+     "it": "Abbiamo cenato al ristorante dell'hotel.",
+     "pt": "Jantamos no restaurante do hotel.",
+     "tr": "Otel restoranında akşam yemeği yedik."
+    },
+    {
+     "en": "The hotel restaurant serves delicious food.",
+     "uk": "Ресторан готелю подає смачну їжу.",
+     "ru": "Ресторан отеля предлагает вкусную еду.",
+     "pl": "Restauracja hotelowa serwuje pyszne jedzenie.",
+     "de": "Das Hotelrestaurant serviert köstliches Essen.",
+     "fr": "Le restaurant de l'hôtel sert de la nourriture délicieuse.",
+     "es": "El restaurante del hotel sirve comida deliciosa.",
+     "it": "Il ristorante dell'hotel serve cibo delizioso.",
+     "pt": "O restaurante do hotel serve comida deliciosa.",
+     "tr": "Otel restoranı lezzetli yemekler sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.nice-view",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/naɪs vju/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel room has a nice view of the mountains.",
+     "uk": "Номер в готелі має гарний краєвид на гори.",
+     "ru": "Номер в отеле имеет красивый вид на горы.",
+     "pl": "Pokój hotelowy ma ładny widok na góry.",
+     "de": "Das Hotelzimmer hat eine schöne Aussicht auf die Berge.",
+     "fr": "La chambre d'hôtel a une belle vue sur les montagnes.",
+     "es": "La habitación del hotel tiene bonitas vistas a las montañas.",
+     "it": "La camera dell'hotel ha una bella vista sulle montagne.",
+     "pt": "O quarto do hotel tem uma vista bonita para as montanhas.",
+     "tr": "Otel odası dağlara güzel bir manzaraya sahip."
+    },
+    {
+     "en": "We enjoyed the nice view from the balcony.",
+     "uk": "Ми насолоджувалися гарним краєвидом з балкона.",
+     "ru": "Мы наслаждались красивым видом с балкона.",
+     "pl": "Cieszyliśmy się ładnym widokiem z balkonu.",
+     "de": "Wir genossen die schöne Aussicht vom Balkon.",
+     "fr": "Nous avons apprécié la belle vue depuis le balcon.",
+     "es": "Disfrutamos de la bonitas vistas desde el balcón.",
+     "it": "Abbiamo goduto della bella vista dal balcone.",
+     "pt": "Apreciamos a vista bonita da varanda.",
+     "tr": "Balkondan güzel manzarayı izledik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.summer-holiday",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ˈsʌmɚ ˈhɑləˌdeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We are planning a summer holiday at the beach.",
+     "uk": "Ми плануємо літню відпустку на пляжі.",
+     "ru": "Мы планируем летний отпуск на пляже.",
+     "pl": "Planujemy wakacje letnie na plaży.",
+     "de": "Wir planen einen Sommerurlaub am Strand.",
+     "fr": "Nous prévoyons des vacances d'été à la plage.",
+     "es": "Estamos planeando unas vacaciones de verano en la playa.",
+     "it": "Stiamo pianificando delle vacanze estive al mare.",
+     "pt": "Estamos planejando férias de verão na praia.",
+     "tr": "Plajda yaz tatili planlıyoruz."
+    },
+    {
+     "en": "I love summer holidays with my friends.",
+     "uk": "Я люблю літні відпустки з друзями.",
+     "ru": "Я люблю летние отпуска с друзьями.",
+     "pl": "Uwielbiam wakacje letnie z przyjaciółmi.",
+     "de": "Ich liebe den Sommerurlaub mit meinen Freunden.",
+     "fr": "J'adore les vacances d'été avec mes amis.",
+     "es": "Me encantan las vacaciones de verano con mis amigos.",
+     "it": "Adoro le vacanze estive con i miei amici.",
+     "pt": "Adoro as férias de verão com meus amigos.",
+     "tr": "Arkadaşlarımla yaz tatillerini seviyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.city-map",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/ˈsɪti mæp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need a city map to find my way.",
+     "uk": "Мені потрібна мапа міста, щоб знайти дорогу.",
+     "ru": "Мне нужна карта города, чтобы найти дорогу.",
+     "pl": "Potrzebuję mapy miasta, aby znaleźć drogę.",
+     "de": "Ich brauche einen Stadtplan, um meinen Weg zu finden.",
+     "fr": "J'ai besoin d'un plan de la ville pour trouver mon chemin.",
+     "es": "Necesito un plano de la ciudad para encontrar mi camino.",
+     "it": "Ho bisogno di una piantina della città per trovare la strada.",
+     "pt": "Preciso de um mapa da cidade para encontrar o caminho.",
+     "tr": "Yolu bulmak için şehir haritasına ihtiyacım var."
+    },
+    {
+     "en": "The city map shows all the attractions.",
+     "uk": "Мапа міста показує всі визначні пам'ятки.",
+     "ru": "Карта города показывает все достопримечательности.",
+     "pl": "Mapa miasta pokazuje wszystkie atrakcje.",
+     "de": "Der Stadtplan zeigt alle Sehenswürdigkeiten.",
+     "fr": "Le plan de la ville montre toutes les attractions.",
+     "es": "El plano de la ciudad muestra todas las atracciones.",
+     "it": "La piantina della città mostra tutte le attrazioni.",
+     "pt": "O mapa da cidade mostra todas as atrações.",
+     "tr": "Şehir haritası tüm turistik yerleri gösteriyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.beach-holiday",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/bitʃ ˈhɑləˌdeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love a beach holiday in the summer.",
+     "uk": "Я люблю відпочинок на пляжі влітку.",
+     "ru": "Я люблю пляжный отдых летом.",
+     "pl": "Uwielbiam wakacje na plaży latem.",
+     "de": "Ich liebe den Strandurlaub im Sommer.",
+     "fr": "J'adore les vacances à la plage en été.",
+     "es": "Me encantan las vacaciones de playa en verano.",
+     "it": "Adoro la vacanza al mare in estate.",
+     "pt": "Adoro as férias na praia no verão.",
+     "tr": "Yazın plaj tatilini seviyorum."
+    },
+    {
+     "en": "We spent our beach holiday in Spain.",
+     "uk": "Ми провели наш відпочинок на пляжі в Іспанії.",
+     "ru": "Мы провели наш пляжный отдых в Испании.",
+     "pl": "Spędziliśmy nasze wakacje na plaży w Hiszpanii.",
+     "de": "Wir verbrachten unseren Strandurlaub in Spanien.",
+     "fr": "Nous avons passé nos vacances à la plage en Espagne.",
+     "es": "Pasamos nuestras vacaciones de playa en España.",
+     "it": "Abbiamo trascorso la nostra vacanza al mare in Spagna.",
+     "pt": "Passamos as nossas férias na praia na Espanha.",
+     "tr": "Plaj tatilimizi İspanya'da geçirdik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hotel-guest",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/hoʊˈtɛl ɡɛst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hotel guest checked in at 3 PM.",
+     "uk": "Гість готелю зареєструвався о 15:00.",
+     "ru": "Гость отеля зарегистрировался в 15:00.",
+     "pl": "Gość hotelowy zameldował się o 15:00.",
+     "de": "Der Hotelgast hat um 15 Uhr eingecheckt.",
+     "fr": "Le client de l'hôtel s'est enregistré à 15h.",
+     "es": "El huésped del hotel se registró a las 15:00.",
+     "it": "L'ospite dell'hotel si è registrato alle 15:00.",
+     "pt": "O hóspede do hotel fez check-in às 15:00.",
+     "tr": "Otel misafiri saat 15:00'te giriş yaptı."
+    },
+    {
+     "en": "A hotel guest needs a key for their room.",
+     "uk": "Гостю готелю потрібен ключ від кімнати.",
+     "ru": "Гостю отеля нужен ключ от номера.",
+     "pl": "Gościowi hotelowemu potrzebny jest klucz do pokoju.",
+     "de": "Ein Hotelgast benötigt einen Schlüssel für sein Zimmer.",
+     "fr": "Un client de l'hôtel a besoin d'une clé pour sa chambre.",
+     "es": "Un huésped del hotel necesita una llave para su habitación.",
+     "it": "Un ospite dell'hotel ha bisogno di una chiave per la sua camera.",
+     "pt": "Um hóspede do hotel precisa de uma chave para o seu quarto.",
+     "tr": "Otel misafiri, odası için bir anahtara ihtiyaç duyar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.pool",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/pul/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The kids are playing in the pool.",
+     "uk": "Діти грають у басейні.",
+     "ru": "Дети играют в бассейне.",
+     "pl": "Dzieci bawią się w basenie.",
+     "de": "Die Kinder spielen im Pool.",
+     "fr": "Les enfants jouent dans la piscine.",
+     "es": "Los niños están jugando en la piscina.",
+     "it": "I bambini stanno giocando nella piscina.",
+     "pt": "As crianças estão brincando na piscina.",
+     "tr": "Çocuklar havuzda oynuyor."
+    },
+    {
+     "en": "I like to swim in the pool.",
+     "uk": "Мені подобається плавати в басейні.",
+     "ru": "Мне нравится плавать в бассейне.",
+     "pl": "Lubię pływać w basenie.",
+     "de": "Ich schwimme gerne im Pool.",
+     "fr": "J'aime nager dans la piscine.",
+     "es": "Me gusta nadar en la piscina.",
+     "it": "Mi piace nuotare nella piscina.",
+     "pt": "Eu gosto de nadar na piscina.",
+     "tr": "Havuzda yüzmeyi severim."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.sunscreen",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/sənˈskrin/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't forget to put on sunscreen.",
+     "uk": "Не забувайте нанести сонцезахисний крем.",
+     "ru": "Не забудьте нанести солнцезащитный крем.",
+     "pl": "Nie zapomnij nałożyć kremu z filtrem.",
+     "de": "Vergiss nicht, Sonnencreme aufzutragen.",
+     "fr": "N'oubliez pas de mettre de la crème solaire.",
+     "es": "No olvides ponerte crema solar.",
+     "it": "Non dimenticare di mettere la crema solare.",
+     "pt": "Não se esqueça de passar protetor solar.",
+     "tr": "Güneş kremi sürmeyi unutma."
+    },
+    {
+     "en": "Sunscreen protects your skin from the sun.",
+     "uk": "Сонцезахисний крем захищає вашу шкіру від сонця.",
+     "ru": "Солнцезащитный крем защищает вашу кожу от солнца.",
+     "pl": "Krem z filtrem chroni twoją skórę przed słońcem.",
+     "de": "Sonnencreme schützt deine Haut vor der Sonne.",
+     "fr": "La crème solaire protège votre peau du soleil.",
+     "es": "La crema solar protege tu piel del sol.",
+     "it": "La crema solare protegge la tua pelle dal sole.",
+     "pt": "O protetor solar protege sua pele do sol.",
+     "tr": "Güneş kremi, cildinizi güneşten korur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.hot-water",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/hɑt ˈwɔtɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need hot water for my tea.",
+     "uk": "Мені потрібна гаряча вода для чаю.",
+     "ru": "Мне нужна горячая вода для чая.",
+     "pl": "Potrzebuję ciepłej wody do herbaty.",
+     "de": "Ich brauche warmes Wasser für meinen Tee.",
+     "fr": "J'ai besoin d'eau chaude pour mon thé.",
+     "es": "Necesito agua caliente para mi té.",
+     "it": "Ho bisogno di acqua calda per il mio tè.",
+     "pt": "Preciso de água quente para o meu chá.",
+     "tr": "Çayım için sıcak suya ihtiyacım var."
+    },
+    {
+     "en": "The shower has hot water and cold water.",
+     "uk": "Душ має гарячу і холодну воду.",
+     "ru": "Душ имеет горячую и холодную воду.",
+     "pl": "Prysznic ma ciepłą i zimną wodę.",
+     "de": "Die Dusche hat warmes und kaltes Wasser.",
+     "fr": "La douche a de l'eau chaude et de l'eau froide.",
+     "es": "La ducha tiene agua caliente y fría.",
+     "it": "La doccia ha acqua calda e fredda.",
+     "pt": "O chuveiro tem água quente e fria.",
+     "tr": "Duşta sıcak ve soğuk su var."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.room-number",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/rum ˈnʌmbɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "What is your room number?",
+     "uk": "Який у вас номер кімнати?",
+     "ru": "Какой у вас номер комнаты?",
+     "pl": "Jaki jest twój numer pokoju?",
+     "de": "Was ist Ihre Zimmernummer?",
+     "fr": "Quel est votre numéro de chambre ?",
+     "es": "¿Cuál es tu número de habitación?",
+     "it": "Qual è il tuo numero di camera?",
+     "pt": "Qual é o seu número do quarto?",
+     "tr": "Oda numaranız nedir?"
+    },
+    {
+     "en": "Please write your room number here.",
+     "uk": "Будь ласка, напишіть свій номер кімнати тут.",
+     "ru": "Пожалуйста, напишите свой номер комнаты здесь.",
+     "pl": "Proszę wpisać swój numer pokoju tutaj.",
+     "de": "Bitte schreiben Sie hier Ihre Zimmernummer.",
+     "fr": "Veuillez écrire votre numéro de chambre ici.",
+     "es": "Por favor, escribe tu número de habitación aquí.",
+     "it": "Per favore scrivi il tuo numero di camera qui.",
+     "pt": "Por favor, escreva seu número do quarto aqui.",
+     "tr": "Lütfen oda numaranızı buraya yazın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-buy-a-ticket",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/baɪ ə ˈtɪkət/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to buy a ticket for the train.",
+     "uk": "Мені потрібно купити квиток на поїзд.",
+     "ru": "Мне нужно купить билет на поезд.",
+     "pl": "Muszę kupić bilet na pociąg.",
+     "de": "Ich muss ein Ticket für den Zug kaufen.",
+     "fr": "J'ai besoin d'acheter un billet pour le train.",
+     "es": "Necesito comprar un billete para el tren.",
+     "it": "Ho bisogno di comprare un biglietto per il treno.",
+     "pt": "Preciso comprar uma passagem para o trem.",
+     "tr": "Tren için bilet almak zorundayım."
+    },
+    {
+     "en": "You can buy a ticket online.",
+     "uk": "Ви можете купити квиток онлайн.",
+     "ru": "Вы можете купить билет онлайн.",
+     "pl": "Możesz kupić bilet online.",
+     "de": "Sie können ein Ticket online kaufen.",
+     "fr": "Vous pouvez acheter un billet en ligne.",
+     "es": "Puedes comprar un billete en línea.",
+     "it": "Puoi comprare un biglietto online.",
+     "pt": "Você pode comprar uma passagem online.",
+     "tr": "Online bilet alabilirsiniz."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.seaside",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈsiˌsaɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We walked along the seaside at sunset.",
+     "uk": "Ми прогулялися узбережжям на заході сонця.",
+     "ru": "Мы прогулялись вдоль морского побережья на закате.",
+     "pl": "Spacerowaliśmy wzdłuż nadmorza o zachodzie słońca.",
+     "de": "Wir spazierten bei Sonnenuntergang an der Meeresküste.",
+     "fr": "Nous avons marché le long du bord de mer au coucher du soleil.",
+     "es": "Caminamos por la costa al atardecer.",
+     "it": "Abbiamo camminato lungo il mare al tramonto.",
+     "pt": "Nós caminhamos ao longo do litoral ao pôr do sol.",
+     "tr": "Gün batımında deniz kenarında yürüdük."
+    },
+    {
+     "en": "The seaside is beautiful in the summer.",
+     "uk": "Узбережжя прекрасне влітку.",
+     "ru": "Морское побережье прекрасно летом.",
+     "pl": "Nadmorze jest piękne latem.",
+     "de": "Die Meeresküste ist im Sommer schön.",
+     "fr": "Le bord de mer est magnifique en été.",
+     "es": "La costa es hermosa en verano.",
+     "it": "Il mare è bello in estate.",
+     "pt": "O litoral é bonito no verão.",
+     "tr": "Deniz kenarı yazın güzeldir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.to-go-on-holiday",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/ɡoʊ ɑn ˈhɑləˌdeɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I want to go on holiday next month.",
+     "uk": "Я хочу їхати у відпустку наступного місяця.",
+     "ru": "Я хочу поехать в отпуск в следующем месяце.",
+     "pl": "Chcę jechać na wakacje w przyszłym miesiącu.",
+     "de": "Ich möchte nächsten Monat in den Urlaub fahren.",
+     "fr": "Je veux partir en vacances le mois prochain.",
+     "es": "Quiero irme de vacaciones el próximo mes.",
+     "it": "Voglio andare in vacanza il mese prossimo.",
+     "pt": "Quero sair de férias no próximo mês.",
+     "tr": "Gelecek ay tatile gitmek istiyorum."
+    },
+    {
+     "en": "They plan to go on holiday together.",
+     "uk": "Вони планують їхати у відпустку разом.",
+     "ru": "Они планируют поехать в отпуск вместе.",
+     "pl": "Planują jechać na wakacje razem.",
+     "de": "Sie planen, zusammen in den Urlaub zu fahren.",
+     "fr": "Ils prévoient de partir en vacances ensemble.",
+     "es": "Ellos planean irse de vacaciones juntos.",
+     "it": "Loro pianificano di andare in vacanza insieme.",
+     "pt": "Eles planejam sair de férias juntos.",
+     "tr": "Birlikte tatile gitmeyi planlıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.on-the-left",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/ɑn ðə lɛft/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The store is on the left side of the street.",
+     "uk": "Магазин знаходиться ліворуч на вулиці.",
+     "ru": "Магазин находится слева на улице.",
+     "pl": "Sklep jest po lewej stronie ulicy.",
+     "de": "Der Laden ist links von der Straße.",
+     "fr": "Le magasin est à gauche de la rue.",
+     "es": "La tienda está a la izquierda de la calle.",
+     "it": "Il negozio è a sinistra della strada.",
+     "pt": "A loja está à esquerda da rua.",
+     "tr": "Dükkan, sokağın sol tarafında."
+    },
+    {
+     "en": "Turn left at the traffic light.",
+     "uk": "Поверніть ліворуч на світлофорі.",
+     "ru": "Поверните налево на светофоре.",
+     "pl": "Skręć w lewo na sygnalizacji świetlnej.",
+     "de": "Biegen Sie an der Ampel links ab.",
+     "fr": "Tournez à gauche au feu de circulation.",
+     "es": "Gira a la izquierda en el semáforo.",
+     "it": "Svolta a sinistra al semaforo.",
+     "pt": "Vire à esquerda no semáforo.",
+     "tr": "Trafik ışığında sola dön."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "travel.on-the-right",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/ɑn ðə raɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bank is on the right of the park.",
+     "uk": "Банк знаходиться праворуч від парку.",
+     "ru": "Банк находится справа от парка.",
+     "pl": "Bank jest po prawej stronie parku.",
+     "de": "Die Bank ist rechts vom Park.",
+     "fr": "La banque est à droite du parc.",
+     "es": "El banco está a la derecha del parque.",
+     "it": "La banca è a destra del parco.",
+     "pt": "O banco está à direita do parque.",
+     "tr": "Banka, parkın sağında."
+    },
+    {
+     "en": "You will find the restaurant on the right.",
+     "uk": "Ви знайдете ресторан праворуч.",
+     "ru": "Вы найдете ресторан справа.",
+     "pl": "Znajdziesz restaurację po prawej.",
+     "de": "Sie finden das Restaurant rechts.",
+     "fr": "Vous trouverez le restaurant à droite.",
+     "es": "Encontrarás el restaurante a la derecha.",
+     "it": "Troverai il ristorante a destra.",
+     "pt": "Você encontrará o restaurante à direita.",
+     "tr": "Restoranı sağda bulacaksınız."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }

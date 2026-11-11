@@ -2,7 +2,7 @@
  "id": "transport-b2",
  "topic": "transport",
  "level": "b2",
- "version": 4,
+ "version": 5,
  "concepts": [
   {
    "id": "transport.congestion-charge",
@@ -23,7 +23,34 @@
    },
    "ipa": {
     "en": "/kənˈdʒɛstʃən tʃɑrdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The congestion charge reduces traffic in the city center.",
+     "uk": "Плата за в'їзд у центр зменшує трафік у центрі міста.",
+     "ru": "Плата за въезд в центр снижает трафик в центре города.",
+     "pl": "Opłata za wjazd do centrum zmniejsza ruch w centrum.",
+     "de": "Die City-Maut reduziert den Verkehr im Stadtzentrum.",
+     "fr": "Le péage urbain réduit le trafic dans le centre-ville.",
+     "es": "La tasa de congestión reduce el tráfico en el centro.",
+     "it": "Il pedaggio urbano riduce il traffico nel centro città.",
+     "pt": "O pedágio urbano reduz o tráfego no centro da cidade.",
+     "tr": "Trafik yoğunluğu ücreti, şehir merkezindeki trafiği azaltır."
+    },
+    {
+     "en": "Drivers must pay the congestion charge daily.",
+     "uk": "Водії повинні щодня сплачувати плату за в'їзд у центр.",
+     "ru": "Водители должны ежедневно платить плату за въезд в центр.",
+     "pl": "Kierowcy muszą codziennie płacić opłatę za wjazd do centrum.",
+     "de": "Fahrer müssen täglich die City-Maut zahlen.",
+     "fr": "Les conducteurs doivent payer le péage urbain chaque jour.",
+     "es": "Los conductores deben pagar la tasa de congestión diariamente.",
+     "it": "Gli automobilisti devono pagare il pedaggio urbano ogni giorno.",
+     "pt": "Os motoristas devem pagar o pedágio urbano diariamente.",
+     "tr": "Sürücüler her gün trafik yoğunluğu ücretini ödemelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.drunk-driving",
@@ -44,7 +71,34 @@
    },
    "ipa": {
     "en": "/drʌŋk ˈdraɪvɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Drunk driving is a serious offense everywhere.",
+     "uk": "Водіння в нетверезому стані є серйозним злочином скрізь.",
+     "ru": "Вождение в нетрезвом виде является серьезным преступлением повсюду.",
+     "pl": "Jazda po pijanemu to poważne przestępstwo wszędzie.",
+     "de": "Trunkenheit am Steuer ist überall ein schweres Verbrechen.",
+     "fr": "La conduite en état d'ivresse est une infraction grave partout.",
+     "es": "Conducir ebrio es un delito grave en todas partes.",
+     "it": "La guida in stato di ebbrezza è un reato grave ovunque.",
+     "pt": "Dirigir embriagado é um crime sério em todo lugar.",
+     "tr": "Alkollü araç kullanma her yerde ciddi bir suçtur."
+    },
+    {
+     "en": "He was arrested for drunk driving last night.",
+     "uk": "Вчора ввечері його заарештували за водіння в нетверезому стані.",
+     "ru": "Вчера вечером его арестовали за вождение в нетрезвом виде.",
+     "pl": "Wczoraj wieczorem został aresztowany za jazdę po pijanemu.",
+     "de": "Er wurde gestern Abend wegen Trunkenheit am Steuer festgenommen.",
+     "fr": "Il a été arrêté pour conduite en état d'ivresse hier soir.",
+     "es": "Fue arrestado por conducir ebrio anoche.",
+     "it": "È stato arrestato per guida in stato di ebbrezza ieri sera.",
+     "pt": "Ele foi preso por dirigir embriagado ontem à noite.",
+     "tr": "Dün gece alkollü araç kullanmaktan tutuklandı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.speed-camera",
@@ -65,7 +119,34 @@
    },
    "ipa": {
     "en": "/spid ˈkæmɚə/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I saw a speed camera on the highway.",
+     "uk": "Я бачив камеру контролю швидкості на шосе.",
+     "ru": "Я видел камеру контроля скорости на шоссе.",
+     "pl": "Widziałem fotoradar na autostradzie.",
+     "de": "Ich habe einen Blitzer auf der Autobahn gesehen.",
+     "fr": "J'ai vu un radar sur l'autoroute.",
+     "es": "Vi un radar de velocidad en la carretera.",
+     "it": "Ho visto un autovelox in autostrada.",
+     "pt": "Vi um radar de velocidade na estrada.",
+     "tr": "Otoyolda bir hız kamerası gördüm."
+    },
+    {
+     "en": "The speed camera caught me speeding yesterday.",
+     "uk": "Камера контролю швидкості зафіксувала мою швидкість вчора.",
+     "ru": "Камера контроля скорости зафиксировала мое превышение скорости вчера.",
+     "pl": "Fotoradar uchwycił moje przekroczenie prędkości wczoraj.",
+     "de": "Der Blitzer hat mich gestern beim Rasen erwischt.",
+     "fr": "Le radar m'a pris en excès de vitesse hier.",
+     "es": "El radar de velocidad me atrapó excediendo la velocidad ayer.",
+     "it": "L'autovelox mi ha beccato in eccesso di velocità ieri.",
+     "pt": "O radar de velocidade me pegou acima da velocidade ontem.",
+     "tr": "Hız kamerası beni dün hız sınırını aşarken yakaladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-skid",
@@ -86,7 +167,34 @@
    },
    "ipa": {
     "en": "/skɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Be careful not to skid on the icy road.",
+     "uk": "Будьте обережні, щоб не піти в занос на ожеледицю.",
+     "ru": "Будьте осторожны, чтобы не пойти юзом на ледяной дороге.",
+     "pl": "Uważaj, aby nie wpaść w poślizg na oblodzonej drodze.",
+     "de": "Sei vorsichtig, dass du nicht ins Schleudern gerätst auf der eisigen Straße.",
+     "fr": "Faites attention à ne pas déraper sur la route glacée.",
+     "es": "Ten cuidado de no derrapar en la carretera helada.",
+     "it": "Fai attenzione a non sbandare sulla strada ghiacciata.",
+     "pt": "Tenha cuidado para não derrapar na estrada congelada.",
+     "tr": "Buzlu yolda kaymamaya dikkat et."
+    },
+    {
+     "en": "The car began to skid on the wet pavement.",
+     "uk": "Автомобіль почав йти в занос на мокрому асфальті.",
+     "ru": "Машина начала скользить по мокрому асфальту.",
+     "pl": "Samochód zaczął wpadać w poślizg na mokrej nawierzchni.",
+     "de": "Das Auto begann auf dem nassen Asphalt ins Schleudern zu geraten.",
+     "fr": "La voiture a commencé à déraper sur le bitume mouillé.",
+     "es": "El coche comenzó a derrapar en el pavimento mojado.",
+     "it": "L'auto ha cominciato a sbandare sul pavimento bagnato.",
+     "pt": "O carro começou a derrapar no pavimento molhado.",
+     "tr": "Araba ıslak kaldırımlarda kaymaya başladı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.black-ice",
@@ -107,7 +215,34 @@
    },
    "ipa": {
     "en": "/blæk aɪs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Black ice can be very dangerous for drivers.",
+     "uk": "Ожеледиця може бути дуже небезпечною для водіїв.",
+     "ru": "Гололед может быть очень опасен для водителей.",
+     "pl": "Gołoledź może być bardzo niebezpieczna dla kierowców.",
+     "de": "Glatteis kann für Autofahrer sehr gefährlich sein.",
+     "fr": "Le verglas peut être très dangereux pour les conducteurs.",
+     "es": "El placa de hielo puede ser muy peligroso para los conductores.",
+     "it": "Il ghiaccio sulla strada può essere molto pericoloso per gli automobilisti.",
+     "pt": "O gelo na pista pode ser muito perigoso para os motoristas.",
+     "tr": "Buzlanma sürücüler için çok tehlikeli olabilir."
+    },
+    {
+     "en": "Watch out for black ice when driving in winter.",
+     "uk": "Обережно з ожеледицею під час водіння взимку.",
+     "ru": "Осторожно с гололедом при вождении зимой.",
+     "pl": "Uważaj na gołoledź podczas jazdy zimą.",
+     "de": "Achte auf Glatteis beim Fahren im Winter.",
+     "fr": "Faites attention au verglas en conduisant en hiver.",
+     "es": "Ten cuidado con la placa de hielo al conducir en invierno.",
+     "it": "Fai attenzione al ghiaccio sulla strada quando guidi in inverno.",
+     "pt": "Cuidado com o gelo na pista ao dirigir no inverno.",
+     "tr": "Kışın sürerken buzlanmaya dikkat et."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.license-plate",
@@ -128,7 +263,34 @@
    },
    "ipa": {
     "en": "/ˈlaɪsəns pleɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Make sure your license plate is visible.",
+     "uk": "Переконайтеся, що ваш номерний знак видимий.",
+     "ru": "Убедитесь, что ваш номерной знак виден.",
+     "pl": "Upewnij się, że twoja tablica rejestracyjna jest widoczna.",
+     "de": "Stelle sicher, dass dein Nummernschild sichtbar ist.",
+     "fr": "Assurez-vous que votre plaque d'immatriculation est visible.",
+     "es": "Asegúrate de que tu matrícula sea visible.",
+     "it": "Assicurati che la tua targa sia visibile.",
+     "pt": "Certifique-se de que sua placa esteja visível.",
+     "tr": "Plakanızın görünür olduğundan emin olun."
+    },
+    {
+     "en": "The license plate was damaged in the accident.",
+     "uk": "Номерний знак був пошкоджений в аварії.",
+     "ru": "Номерной знак был поврежден в аварии.",
+     "pl": "Tablica rejestracyjna została uszkodzona w wypadku.",
+     "de": "Das Nummernschild wurde bei dem Unfall beschädigt.",
+     "fr": "La plaque d'immatriculation a été endommagée dans l'accident.",
+     "es": "La matrícula se dañó en el accidente.",
+     "it": "La targa è stata danneggiata nell'incidente.",
+     "pt": "A placa foi danificada no acidente.",
+     "tr": "Plaka kaza sırasında hasar gördü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.vehicle-registration",
@@ -149,7 +311,34 @@
    },
    "ipa": {
     "en": "/ˈvihɪkəl ˌrɛdʒɪˈstreɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Don't forget to bring your vehicle registration.",
+     "uk": "Не забудьте принести техпаспорт.",
+     "ru": "Не забудьте принести свидетельство о регистрации.",
+     "pl": "Nie zapomnij przynieść dowodu rejestracyjnego.",
+     "de": "Vergiss nicht, deinen Fahrzeugschein mitzubringen.",
+     "fr": "N'oubliez pas d'apporter votre carte grise.",
+     "es": "No olvides traer tu permiso de circulación.",
+     "it": "Non dimenticare di portare il libretto di circolazione.",
+     "pt": "Não esqueça de trazer o documento do veículo.",
+     "tr": "Ruhsatınızı getirmeyi unutmayın."
+    },
+    {
+     "en": "The vehicle registration must be renewed annually.",
+     "uk": "Техпаспорт потрібно оновлювати щороку.",
+     "ru": "Свидетельство о регистрации необходимо обновлять ежегодно.",
+     "pl": "Dowód rejestracyjny należy odnawiać co roku.",
+     "de": "Der Fahrzeugschein muss jährlich erneuert werden.",
+     "fr": "La carte grise doit être renouvelée chaque année.",
+     "es": "El permiso de circulación debe renovarse anualmente.",
+     "it": "Il libretto di circolazione deve essere rinnovato annualmente.",
+     "pt": "O documento do veículo deve ser renovado anualmente.",
+     "tr": "Ruhsat her yıl yenilenmelidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.roadworthiness-test",
@@ -170,7 +359,34 @@
    },
    "ipa": {
     "en": "/ˈroʊdˌwɝðinəs tɛst/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Every car must pass a roadworthiness test.",
+     "uk": "Кожна машина повинна пройти техогляд.",
+     "ru": "Каждый автомобиль должен пройти техосмотр.",
+     "pl": "Każdy samochód musi przejść przegląd techniczny.",
+     "de": "Jedes Auto muss den TÜV bestehen.",
+     "fr": "Chaque voiture doit passer un contrôle technique.",
+     "es": "Cada coche debe pasar una ITV.",
+     "it": "Ogni auto deve superare la revisione.",
+     "pt": "Todo carro deve passar pela vistoria.",
+     "tr": "Her arabanın muayeneden geçmesi gerekir."
+    },
+    {
+     "en": "The roadworthiness test is required every two years.",
+     "uk": "Техогляд необхідно проходити кожні два роки.",
+     "ru": "Техосмотр необходимо проходить каждые два года.",
+     "pl": "Przegląd techniczny należy przeprowadzać co dwa lata.",
+     "de": "Der TÜV ist alle zwei Jahre erforderlich.",
+     "fr": "Le contrôle technique est requis tous les deux ans.",
+     "es": "La ITV es obligatoria cada dos años.",
+     "it": "La revisione è obbligatoria ogni due anni.",
+     "pt": "A vistoria é obrigatória a cada dois anos.",
+     "tr": "Muayene her iki yılda bir zorunludur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.fuel-consumption",
@@ -191,7 +407,34 @@
    },
    "ipa": {
     "en": "/ˈfjuəl kənˈsʌmpʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The car's fuel consumption is very efficient.",
+     "uk": "Витрата пального автомобіля дуже ефективна.",
+     "ru": "Расход топлива автомобиля очень эффективен.",
+     "pl": "Zużycie paliwa w samochodzie jest bardzo efektywne.",
+     "de": "Der Kraftstoffverbrauch des Autos ist sehr effizient.",
+     "fr": "La consommation de carburant de la voiture est très efficace.",
+     "es": "El consumo de combustible del coche es muy eficiente.",
+     "it": "Il consumo di carburante dell'auto è molto efficiente.",
+     "pt": "O consumo de combustível do carro é muito eficiente.",
+     "tr": "Arabanın yakıt tüketimi çok verimli."
+    },
+    {
+     "en": "We need to reduce fuel consumption to save money.",
+     "uk": "Нам потрібно зменшити витрату пального, щоб заощадити гроші.",
+     "ru": "Нам нужно сократить расход топлива, чтобы сэкономить деньги.",
+     "pl": "Musimy zmniejszyć zużycie paliwa, aby zaoszczędzić pieniądze.",
+     "de": "Wir müssen den Kraftstoffverbrauch senken, um Geld zu sparen.",
+     "fr": "Nous devons réduire la consommation de carburant pour économiser de l'argent.",
+     "es": "Necesitamos reducir el consumo de combustible para ahorrar dinero.",
+     "it": "Dobbiamo ridurre il consumo di carburante per risparmiare denaro.",
+     "pt": "Precisamos reduzir o consumo de combustível para economizar dinheiro.",
+     "tr": "Para tasarruf etmek için yakıt tüketimini azaltmalıyız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.electric-vehicle",
@@ -212,7 +455,34 @@
    },
    "ipa": {
     "en": "/ɪˈlɛktrɪk ˈvihɪkəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An electric vehicle is more environmentally friendly.",
+     "uk": "Електромобіль є більш екологічним.",
+     "ru": "Электромобиль более экологичен.",
+     "pl": "Samochód elektryczny jest bardziej przyjazny dla środowiska.",
+     "de": "Ein Elektroauto ist umweltfreundlicher.",
+     "fr": "Une voiture électrique est plus respectueuse de l'environnement.",
+     "es": "Un coche eléctrico es más ecológico.",
+     "it": "Un'auto elettrica è più ecologica.",
+     "pt": "Um carro elétrico é mais ecológico.",
+     "tr": "Bir elektrikli araç daha çevre dostudur."
+    },
+    {
+     "en": "Many cities promote the use of electric vehicles.",
+     "uk": "Багато міст сприяють використанню електромобілів.",
+     "ru": "Многие города способствуют использованию электромобилей.",
+     "pl": "Wiele miast promuje użycie samochodów elektrycznych.",
+     "de": "Viele Städte fördern die Nutzung von Elektroautos.",
+     "fr": "De nombreuses villes encouragent l'utilisation de voitures électriques.",
+     "es": "Muchas ciudades promueven el uso de coches eléctricos.",
+     "it": "Molte città promuovono l'uso di auto elettriche.",
+     "pt": "Muitas cidades promovem o uso de carros elétricos.",
+     "tr": "Birçok şehir elektrikli araçların kullanımını teşvik ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.charging-station",
@@ -233,7 +503,34 @@
    },
    "ipa": {
     "en": "/ˈtʃɑrdʒɪŋ ˈsteɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I found a charging station near my house.",
+     "uk": "Я знайшов зарядну станцію біля свого дому.",
+     "ru": "Я нашел зарядную станцию рядом с домом.",
+     "pl": "Znalazłem stację ładowania w pobliżu mojego domu.",
+     "de": "Ich habe eine Ladestation in der Nähe meines Hauses gefunden.",
+     "fr": "J'ai trouvé une borne de recharge près de chez moi.",
+     "es": "Encontré un punto de recarga cerca de mi casa.",
+     "it": "Ho trovato una colonnina di ricarica vicino a casa.",
+     "pt": "Encontrei uma estação de recarga perto da minha casa.",
+     "tr": "Evimin yakınında bir şarj istasyonu buldum."
+    },
+    {
+     "en": "The charging station is always busy during weekends.",
+     "uk": "Зарядна станція завжди зайнята на вихідних.",
+     "ru": "Зарядная станция всегда занята по выходным.",
+     "pl": "Stacja ładowania jest zawsze zajęta w weekendy.",
+     "de": "Die Ladestation ist am Wochenende immer besetzt.",
+     "fr": "La borne de recharge est toujours occupée le week-end.",
+     "es": "El punto de recarga siempre está ocupado los fines de semana.",
+     "it": "La colonnina di ricarica è sempre occupata nei fine settimana.",
+     "pt": "A estação de recarga está sempre ocupada nos fins de semana.",
+     "tr": "Şarj istasyonu her zaman hafta sonları meşguldür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.public-transport",
@@ -254,7 +551,34 @@
    },
    "ipa": {
     "en": "/ˈpʌblɪk trænˈspɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Public transport is very convenient in this city.",
+     "uk": "Громадський транспорт дуже зручний у цьому місті.",
+     "ru": "Общественный транспорт очень удобен в этом городе.",
+     "pl": "Transport publiczny jest bardzo wygodny w tym mieście.",
+     "de": "Öffentliche Verkehrsmittel sind in dieser Stadt sehr bequem.",
+     "fr": "Les transports en commun sont très pratiques dans cette ville.",
+     "es": "El transporte público es muy conveniente en esta ciudad.",
+     "it": "Il trasporto pubblico è molto comodo in questa città.",
+     "pt": "O transporte público é muito conveniente nesta cidade.",
+     "tr": "Bu şehirde toplu taşıma çok kullanışlı."
+    },
+    {
+     "en": "I prefer using public transport instead of driving.",
+     "uk": "Я віддаю перевагу громадському транспорту замість водіння.",
+     "ru": "Я предпочитаю пользоваться общественным транспортом, а не водить.",
+     "pl": "Wolę korzystać z transportu publicznego zamiast prowadzić.",
+     "de": "Ich ziehe es vor, öffentliche Verkehrsmittel zu benutzen, anstatt zu fahren.",
+     "fr": "Je préfère utiliser les transports en commun plutôt que de conduire.",
+     "es": "Prefiero usar el transporte público en lugar de conducir.",
+     "it": "Preferisco usare il trasporto pubblico invece di guidare.",
+     "pt": "Prefiro usar o transporte público em vez de dirigir.",
+     "tr": "Araba kullanmak yerine toplu taşıma kullanmayı tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.fare-evasion",
@@ -275,7 +599,34 @@
    },
    "ipa": {
     "en": "/fɛr ɪˈveɪʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Fare evasion can lead to heavy fines.",
+     "uk": "Безквитковий проїзд може призвести до великих штрафів.",
+     "ru": "Безбилетный проезд может привести к большим штрафам.",
+     "pl": "Jazda na gapę może prowadzić do wysokich grzywien.",
+     "de": "Schwarzfahren kann zu hohen Geldstrafen führen.",
+     "fr": "La fraude dans les transports peut entraîner de lourdes amendes.",
+     "es": "Viajar sin billete puede llevar a multas altas.",
+     "it": "Viaggiare senza biglietto può portare a multe elevate.",
+     "pt": "Viajar sem pagar pode resultar em multas altas.",
+     "tr": "Kaçak yolculuk ağır cezalara yol açabilir."
+    },
+    {
+     "en": "Many people try fare evasion on trains.",
+     "uk": "Багато людей намагаються безквитковий проїзд на поїздах.",
+     "ru": "Многие люди пытаются безбилетный проезд в поездах.",
+     "pl": "Wielu ludzi próbuje jeździć na gapę w pociągach.",
+     "de": "Viele Menschen versuchen, beim Zugfahren schwarzzufahren.",
+     "fr": "Beaucoup de gens essaient de frauder dans les transports en train.",
+     "es": "Mucha gente intenta viajar sin billete en trenes.",
+     "it": "Molte persone cercano di viaggiare senza biglietto sui treni.",
+     "pt": "Muitas pessoas tentam viajar sem pagar nos trens.",
+     "tr": "Birçok insan trenlerde kaçak yolculuk yapmaya çalışıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.rear-view-mirror",
@@ -296,7 +647,34 @@
    },
    "ipa": {
     "en": "/rɪr vju ˈmɪrɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Adjust the rear-view mirror before driving.",
+     "uk": "Відрегулюйте дзеркало заднього виду перед поїздкою.",
+     "ru": "Отрегулируйте зеркало заднего вида перед поездкой.",
+     "pl": "Wyreguluj lusterko wsteczne przed jazdą.",
+     "de": "Stellen Sie den Rückspiegel vor der Fahrt ein.",
+     "fr": "Réglez le rétroviseur avant de conduire.",
+     "es": "Ajusta el retrovisor antes de conducir.",
+     "it": "Regola lo specchietto retrovisore prima di guidare.",
+     "pt": "Ajuste o retrovisor antes de dirigir.",
+     "tr": "Sürüşe başlamadan önce dikiz aynasını ayarlayın."
+    },
+    {
+     "en": "The rear-view mirror helps prevent accidents.",
+     "uk": "Дзеркало заднього виду допомагає запобігти аваріям.",
+     "ru": "Зеркало заднего вида помогает предотвратить аварии.",
+     "pl": "Lusterko wsteczne pomaga zapobiegać wypadkom.",
+     "de": "Der Rückspiegel hilft, Unfälle zu vermeiden.",
+     "fr": "Le rétroviseur aide à prévenir les accidents.",
+     "es": "El retrovisor ayuda a prevenir accidentes.",
+     "it": "Lo specchietto retrovisore aiuta a prevenire incidenti.",
+     "pt": "O retrovisor ajuda a prevenir acidentes.",
+     "tr": "Dikiz aynası kazaları önlemeye yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.blind-spot",
@@ -317,7 +695,34 @@
    },
    "ipa": {
     "en": "/blaɪnd spɑt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check your blind spot before changing lanes.",
+     "uk": "Перевірте сліпу зону перед зміною смуги.",
+     "ru": "Проверьте слепую зону перед сменой полосы.",
+     "pl": "Sprawdź martwe pole przed zmianą pasa.",
+     "de": "Überprüfen Sie Ihren toten Winkel, bevor Sie die Spur wechseln.",
+     "fr": "Vérifiez votre angle mort avant de changer de voie.",
+     "es": "Verifica tu ángulo muerto antes de cambiar de carril.",
+     "it": "Controlla il tuo angolo cieco prima di cambiare corsia.",
+     "pt": "Verifique seu ponto cego antes de mudar de faixa.",
+     "tr": "Şerit değiştirmeden önce kör noktanızı kontrol edin."
+    },
+    {
+     "en": "Blind spots can be dangerous for drivers.",
+     "uk": "Сліпі зони можуть бути небезпечними для водіїв.",
+     "ru": "Слепые зоны могут быть опасны для водителей.",
+     "pl": "Martwe pola mogą być niebezpieczne dla kierowców.",
+     "de": "Tote Winkel können für Fahrer gefährlich sein.",
+     "fr": "Les angles morts peuvent être dangereux pour les conducteurs.",
+     "es": "Los ángulos muertos pueden ser peligrosos para los conductores.",
+     "it": "Gli angoli ciechi possono essere pericolosi per i conducenti.",
+     "pt": "Os pontos cegos podem ser perigosos para os motoristas.",
+     "tr": "Kör noktalar sürücüler için tehlikeli olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-tailgate",
@@ -338,7 +743,34 @@
    },
    "ipa": {
     "en": "/ˈteɪlˌɡeɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Try not to tailgate the car in front of you.",
+     "uk": "Спробуйте не їхати впритул до автомобіля попереду.",
+     "ru": "Старайтесь не ехать впритык к машине впереди.",
+     "pl": "Postaraj się nie jechać na zderzaku do samochodu przed sobą.",
+     "de": "Versuchen Sie nicht, zu dicht auf das Auto vor Ihnen aufzufahren.",
+     "fr": "Essayez de ne pas coller au pare-chocs de la voiture devant vous.",
+     "es": "Intenta no pegarte al coche de delante.",
+     "it": "Cerca di non stare attaccato all'auto davanti a te.",
+     "pt": "Tente não colar no carro da frente.",
+     "tr": "Öndeki araca çok yakın takip etmeyin."
+    },
+    {
+     "en": "Tailgating can cause serious accidents on the road.",
+     "uk": "Їзда впритул може спричинити серйозні аварії на дорозі.",
+     "ru": "Езда впритык может вызвать серьезные аварии на дороге.",
+     "pl": "Jeżdżenie na zderzaku może spowodować poważne wypadki na drodze.",
+     "de": "Zu dichtes Auffahren kann zu schweren Unfällen auf der Straße führen.",
+     "fr": "Coller au pare-chocs peut provoquer des accidents graves sur la route.",
+     "es": "Pegar al coche de delante puede causar accidentes graves en la carretera.",
+     "it": "Stare attaccati può causare gravi incidenti sulla strada.",
+     "pt": "Colar no carro da frente pode causar acidentes graves na estrada.",
+     "tr": "Çok yakın takip etmek yolda ciddi kazalara neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-pull-over",
@@ -359,7 +791,34 @@
    },
    "ipa": {
     "en": "/pʊl ˈoʊvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You should pull over if you feel tired.",
+     "uk": "Вам слід з'їхати на узбіччя, якщо ви втомилися.",
+     "ru": "Вам следует съехать на обочину, если вы устали.",
+     "pl": "Powinieneś zjechać na pobocze, jeśli czujesz się zmęczony.",
+     "de": "Sie sollten an den Straßenrand fahren, wenn Sie müde sind.",
+     "fr": "Vous devriez vous ranger sur le côté si vous vous sentez fatigué.",
+     "es": "Debes apartarte a un lado si te sientes cansado.",
+     "it": "Dovresti accostare se ti senti stanco.",
+     "pt": "Você deve encostar se estiver cansado.",
+     "tr": "Yorgun hissediyorsanız kenara çekilmelisiniz."
+    },
+    {
+     "en": "The police asked him to pull over.",
+     "uk": "Поліція попросила його з'їхати на узбіччя.",
+     "ru": "Полиция попросила его съехать на обочину.",
+     "pl": "Policja poprosiła go o zjechanie na pobocze.",
+     "de": "Die Polizei bat ihn, an den Straßenrand zu fahren.",
+     "fr": "La police lui a demandé de se ranger sur le côté.",
+     "es": "La policía le pidió que se apartara a un lado.",
+     "it": "La polizia gli ha chiesto di accostare.",
+     "pt": "A polícia pediu que ele encostasse.",
+     "tr": "Polis ona kenara çekilmesini söyledi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.hard-shoulder",
@@ -380,7 +839,34 @@
    },
    "ipa": {
     "en": "/hɑrd ˈʃoʊldɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The hard shoulder is for emergencies only.",
+     "uk": "Узбіччя призначене лише для надзвичайних ситуацій.",
+     "ru": "Обочина предназначена только для экстренных случаев.",
+     "pl": "Pobocze jest przeznaczone tylko na sytuacje awaryjne.",
+     "de": "Der Standstreifen ist nur für Notfälle vorgesehen.",
+     "fr": "La bande d'arrêt d'urgence est réservée aux urgences.",
+     "es": "El arcén es solo para emergencias.",
+     "it": "La corsia d'emergenza è solo per emergenze.",
+     "pt": "O acostamento é apenas para emergências.",
+     "tr": "Emniyet şeridi yalnızca acil durumlar içindir."
+    },
+    {
+     "en": "You should never stop on the hard shoulder.",
+     "uk": "Ви ніколи не повинні зупинятися на узбіччі.",
+     "ru": "Вы никогда не должны останавливаться на обочине.",
+     "pl": "Nigdy nie powinieneś zatrzymywać się na poboczu.",
+     "de": "Sie sollten niemals auf dem Standstreifen anhalten.",
+     "fr": "Vous ne devez jamais vous arrêter sur la bande d'arrêt d'urgence.",
+     "es": "Nunca debes detenerte en el arcén.",
+     "it": "Non dovresti mai fermarti sulla corsia d'emergenza.",
+     "pt": "Você nunca deve parar no acostamento.",
+     "tr": "Emniyet şeridinde asla durmamalısınız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.diversion",
@@ -401,7 +887,34 @@
    },
    "ipa": {
     "en": "/daɪˈvɝʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There is a diversion due to road construction ahead.",
+     "uk": "Попереду є об'їзд через дорожні роботи.",
+     "ru": "Впереди объезд из-за дорожных работ.",
+     "pl": "Z przodu jest objazd z powodu robót drogowych.",
+     "de": "Es gibt eine Umleitung wegen Straßenbauarbeiten.",
+     "fr": "Il y a une déviation en raison de travaux routiers.",
+     "es": "Hay un desvío debido a la construcción de la carretera.",
+     "it": "C'è una deviazione a causa dei lavori stradali.",
+     "pt": "Há um desvio devido a obras na estrada.",
+     "tr": "İleride yol çalışmaları nedeniyle bir servis yolu var."
+    },
+    {
+     "en": "Follow the diversion signs to reach your destination.",
+     "uk": "Слідуйте знакам об'їзду, щоб дістатися до місця призначення.",
+     "ru": "Следуйте знакам объезда, чтобы добраться до места назначения.",
+     "pl": "Podążaj za znakami objazdu, aby dotrzeć do celu.",
+     "de": "Folgen Sie den Umleitungsschildern, um Ihr Ziel zu erreichen.",
+     "fr": "Suivez les panneaux de déviation pour atteindre votre destination.",
+     "es": "Sigue las señales de desvío para llegar a tu destino.",
+     "it": "Segui i segnali di deviazione per raggiungere la tua meta.",
+     "pt": "Siga as placas de desvio para chegar ao seu destino.",
+     "tr": "Hedefinize ulaşmak için sapma işaretlerini takip edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-swerve",
@@ -422,7 +935,34 @@
    },
    "ipa": {
     "en": "/swɝv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He had to swerve to avoid an obstacle.",
+     "uk": "Він змушений був різко вивернути кермо, щоб уникнути перешкоди.",
+     "ru": "Ему пришлось резко вильнуть, чтобы избежать препятствия.",
+     "pl": "Musiał gwałtownie skręcić, aby uniknąć przeszkody.",
+     "de": "Er musste ausweichen, um einem Hindernis zu entkommen.",
+     "fr": "Il a dû faire une embardée pour éviter un obstacle.",
+     "es": "Tuvo que dar un volantazo para evitar un obstáculo.",
+     "it": "Ha dovuto sterzare bruscamente per evitare un ostacolo.",
+     "pt": "Ele teve que desviar bruscamente para evitar um obstáculo.",
+     "tr": "Bir engelden kaçınmak için ani manevra yapmak zorunda kaldı."
+    },
+    {
+     "en": "Swerving can lead to loss of control.",
+     "uk": "Різке вивертання може призвести до втрати контролю.",
+     "ru": "Резкое вильнувание может привести к потере контроля.",
+     "pl": "Gwałtowne skręcanie może prowadzić do utraty kontroli.",
+     "de": "Das Ausweichen kann zu einem Kontrollverlust führen.",
+     "fr": "Faire une embardée peut entraîner une perte de contrôle.",
+     "es": "Dar un volantazo puede llevar a perder el control.",
+     "it": "Sterzare bruscamente può portare a perdere il controllo.",
+     "pt": "Desviar bruscamente pode levar à perda de controle.",
+     "tr": "Ani manevra yapmak kontrol kaybına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.stopping-distance",
@@ -443,7 +983,34 @@
    },
    "ipa": {
     "en": "/ˈstɑpɪŋ ˈdɪstəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The stopping distance increases on wet roads.",
+     "uk": "Гальмівний шлях збільшується на вологих дорогах.",
+     "ru": "Тормозной путь увеличивается на мокрой дороге.",
+     "pl": "Droga hamowania wydłuża się na mokrej nawierzchni.",
+     "de": "Der Bremsweg verlängert sich auf nassen Straßen.",
+     "fr": "La distance d'arrêt augmente sur les routes mouillées.",
+     "es": "La distancia de frenado aumenta en carreteras mojadas.",
+     "it": "Lo spazio di frenata aumenta su strade bagnate.",
+     "pt": "A distância de frenagem aumenta em estradas molhadas.",
+     "tr": "Fren mesafesi, ıslak yollarda artar."
+    },
+    {
+     "en": "Always maintain a safe stopping distance from the car ahead.",
+     "uk": "Завжди дотримуйтесь безпечного гальмівного шляху до автомобіля попереду.",
+     "ru": "Всегда поддерживайте безопасный тормозной путь до автомобиля впереди.",
+     "pl": "Zawsze zachowuj bezpieczną drogę hamowania do samochodu przed sobą.",
+     "de": "Halten Sie immer einen sicheren Bremsweg zum vorausfahrenden Auto ein.",
+     "fr": "Maintenez toujours une distance d'arrêt sécuritaire avec la voiture devant.",
+     "es": "Siempre mantén una distancia de frenado segura del coche delante.",
+     "it": "Mantieni sempre una distanza di frenata sicura dall'auto davanti.",
+     "pt": "Mantenha sempre uma distância de frenagem segura do carro à frente.",
+     "tr": "Her zaman önünüzdeki araca karşı güvenli bir fren mesafesi bırakın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.roadside-assistance",
@@ -464,7 +1031,34 @@
    },
    "ipa": {
     "en": "/ˈroʊdˌsaɪd əˈsɪstəns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I called roadside assistance when my car broke down.",
+     "uk": "Я зателефонував до допомоги на дорозі, коли автомобіль зламався.",
+     "ru": "Я позвонил в помощь на дороге, когда моя машина сломалась.",
+     "pl": "Zadzwoniłem po pomoc drogową, gdy mój samochód się zepsuł.",
+     "de": "Ich rief die Pannenhilfe, als mein Auto liegen blieb.",
+     "fr": "J'ai appelé l'assistance routière lorsque ma voiture est tombée en panne.",
+     "es": "Llamé a la asistencia en carretera cuando mi coche se averió.",
+     "it": "Ho chiamato il soccorso stradale quando la mia auto si è rotta.",
+     "pt": "Liguei para a assistência na estrada quando meu carro quebrou.",
+     "tr": "Arabam bozulduğunda yol yardımını aradım."
+    },
+    {
+     "en": "Roadside assistance is included in my insurance policy.",
+     "uk": "Допомога на дорозі включена в мою страховку.",
+     "ru": "Помощь на дороге включена в мою страховку.",
+     "pl": "Pomoc drogowa jest zawarta w mojej polisie ubezpieczeniowej.",
+     "de": "Die Pannenhilfe ist in meiner Versicherungspolice enthalten.",
+     "fr": "L'assistance routière est incluse dans ma police d'assurance.",
+     "es": "La asistencia en carretera está incluida en mi póliza de seguro.",
+     "it": "Il soccorso stradale è incluso nella mia polizza assicurativa.",
+     "pt": "A assistência na estrada está incluída na minha apólice de seguro.",
+     "tr": "Yol yardımı, sigorta poliçemde dahil."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.cruise-control",
@@ -485,7 +1079,34 @@
    },
    "ipa": {
     "en": "/kruz kənˈtroʊl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I set the cruise control for a smooth drive.",
+     "uk": "Я встановив круїз-контроль для комфортної їзди.",
+     "ru": "Я установил круиз-контроль для плавной езды.",
+     "pl": "Ustawiłem tempomat na płynną jazdę.",
+     "de": "Ich habe den Tempomat für eine angenehme Fahrt eingestellt.",
+     "fr": "J'ai réglé le régulateur de vitesse pour une conduite fluide.",
+     "es": "Configuré el control de crucero para un viaje suave.",
+     "it": "Ho impostato il cruise control per una guida fluida.",
+     "pt": "Defini o piloto automático para uma condução suave.",
+     "tr": "Sakin bir sürüş için hız sabitleyiciyi ayarladım."
+    },
+    {
+     "en": "Using cruise control saves fuel on long trips.",
+     "uk": "Використання круїз-контролю економить паливо під час тривалих поїздок.",
+     "ru": "Использование круиз-контроля экономит топливо в долгих поездках.",
+     "pl": "Używanie tempomatu oszczędza paliwo podczas długich podróży.",
+     "de": "Die Benutzung des Tempomats spart Kraftstoff auf langen Fahrten.",
+     "fr": "Utiliser le régulateur de vitesse permet d'économiser du carburant lors des longs trajets.",
+     "es": "Usar el control de crucero ahorra combustible en viajes largos.",
+     "it": "Usare il cruise control fa risparmiare carburante nei lunghi viaggi.",
+     "pt": "Usar o piloto automático economiza combustível em viagens longas.",
+     "tr": "Hız sabitleyici kullanmak, uzun yolculuklarda yakıt tasarrufu sağlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.gridlock",
@@ -506,7 +1127,34 @@
    },
    "ipa": {
     "en": "/ˈɡrɪdˌlɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The city experienced gridlock during rush hour.",
+     "uk": "Місто пережило повний затор під час години пік.",
+     "ru": "Город испытал глухую пробку в час пик.",
+     "pl": "Miasto doświadczyło paraliżu ruchu w godzinach szczytu.",
+     "de": "Die Stadt erlebte einen Verkehrskollaps während der Hauptverkehrszeit.",
+     "fr": "La ville a connu une paralysie du trafic pendant les heures de pointe.",
+     "es": "La ciudad experimentó un colapso circulatorio durante la hora pico.",
+     "it": "La città ha vissuto una paralisi del traffico durante l'ora di punta.",
+     "pt": "A cidade enfrentou congestionamento total durante o horário de pico.",
+     "tr": "Şehir, yoğun saatlerde trafik kilitlenmesi yaşadı."
+    },
+    {
+     "en": "Gridlock can be frustrating for commuters every day.",
+     "uk": "Повний затор може бути розчаровуючим для щоденних пасажирів.",
+     "ru": "Глухая пробка может быть разочарованием для пассажиров каждый день.",
+     "pl": "Paraliż ruchu może być frustrujący dla dojeżdżających codziennie.",
+     "de": "Verkehrskollaps kann für Pendler jeden Tag frustrierend sein.",
+     "fr": "La paralysie du trafic peut être frustrante pour les navetteurs chaque jour.",
+     "es": "El colapso circulatorio puede ser frustrante para los viajeros a diario.",
+     "it": "La paralisi del traffico può essere frustrante per i pendolari ogni giorno.",
+     "pt": "O congestionamento total pode ser frustrante para os passageiros todos os dias.",
+     "tr": "Trafik kilitlenmesi, her gün yolcular için sinir bozucu olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.designated-driver",
@@ -527,7 +1175,34 @@
    },
    "ipa": {
     "en": "/ˈdɛzɪɡˌneɪtɪd ˈdraɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We chose a designated driver for our night out.",
+     "uk": "Ми обрали тверезого водія для нашої вечірки.",
+     "ru": "Мы выбрали трезвого водителя для нашей вечеринки.",
+     "pl": "Wybraliśmy wyznaczonego kierowcę na naszą nocną imprezę.",
+     "de": "Wir haben einen Fahrer des Abends für unseren Ausflug gewählt.",
+     "fr": "Nous avons choisi un capitaine de soirée pour notre sortie.",
+     "es": "Elegimos un conductor designado para nuestra salida nocturna.",
+     "it": "Abbiamo scelto un guidatore designato per la nostra serata.",
+     "pt": "Escolhemos um motorista da rodada para nossa noite fora.",
+     "tr": "Gece dışarı çıkmak için ayık sürücü seçtik."
+    },
+    {
+     "en": "It's important to have a designated driver at parties.",
+     "uk": "Важливо мати тверезого водія на вечірках.",
+     "ru": "Важно иметь трезвого водителя на вечеринках.",
+     "pl": "To ważne, aby mieć wyznaczonego kierowcę na imprezach.",
+     "de": "Es ist wichtig, einen Fahrer des Abends bei Partys zu haben.",
+     "fr": "Il est important d'avoir un capitaine de soirée lors des fêtes.",
+     "es": "Es importante tener un conductor designado en las fiestas.",
+     "it": "È importante avere un guidatore designato alle feste.",
+     "pt": "É importante ter um motorista da rodada em festas.",
+     "tr": "Partilerde ayık sürücü bulundurmak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bike-sharing",
@@ -548,7 +1223,34 @@
    },
    "ipa": {
     "en": "/baɪk ˈʃɛrɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Bike sharing is popular in many cities worldwide.",
+     "uk": "Прокат велосипедів популярний у багатьох містах світу.",
+     "ru": "Прокат велосипедов популярен во многих городах мира.",
+     "pl": "Wynajem rowerów jest popularny w wielu miastach na całym świecie.",
+     "de": "Leihfahrräder sind in vielen Städten weltweit beliebt.",
+     "fr": "Le vélo en libre-service est populaire dans de nombreuses villes du monde.",
+     "es": "La bicicleta compartida es popular en muchas ciudades del mundo.",
+     "it": "Il bike sharing è popolare in molte città del mondo.",
+     "pt": "O aluguel de bicicletas é popular em muitas cidades do mundo.",
+     "tr": "Bisiklet paylaşımı, dünya genelinde birçok şehirde popülerdir."
+    },
+    {
+     "en": "I use bike sharing to commute to work daily.",
+     "uk": "Я користуюсь прокатом велосипедів, щоб щодня добиратися до роботи.",
+     "ru": "Я использую прокат велосипедов, чтобы добираться до работы каждый день.",
+     "pl": "Korzystam z roweru miejskiego, aby codziennie dojeżdżać do pracy.",
+     "de": "Ich nutze Leihfahrräder, um täglich zur Arbeit zu pendeln.",
+     "fr": "J'utilise les vélos en libre-service pour me rendre au travail chaque jour.",
+     "es": "Uso la bicicleta compartida para ir al trabajo todos los días.",
+     "it": "Uso il bike sharing per andare al lavoro ogni giorno.",
+     "pt": "Eu uso a bicicleta compartilhada para ir ao trabalho diariamente.",
+     "tr": "Her gün işe gitmek için bisiklet paylaşımını kullanıyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.park-and-ride",
@@ -569,7 +1271,34 @@
    },
    "ipa": {
     "en": "/pɑrk ənd raɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The park and ride facility is convenient for commuters.",
+     "uk": "Перехоплювальна парковка зручна для пасажирів.",
+     "ru": "Перехватывающая парковка удобна для пассажиров.",
+     "pl": "Parking P+R jest wygodny dla dojeżdżających.",
+     "de": "Der Park-and-ride-Platz ist bequem für Pendler.",
+     "fr": "Le parking relais est pratique pour les navetteurs.",
+     "es": "El aparcamiento disuasorio es conveniente para los viajeros.",
+     "it": "Il parcheggio di interscambio è comodo per i pendolari.",
+     "pt": "O estacionamento integrado é conveniente para os passageiros.",
+     "tr": "Park et devam et tesisi, yolcular için uygundur."
+    },
+    {
+     "en": "We parked at the park and ride before taking the bus.",
+     "uk": "Ми припаркувалися на перехоплювальній парковці перед тим, як сісти на автобус.",
+     "ru": "Мы припарковались на перехватывающей парковке перед тем, как сесть на автобус.",
+     "pl": "Zaparkowaliśmy na parkingu P+R przed wzięciem autobusu.",
+     "de": "Wir haben am Park-and-ride-Platz geparkt, bevor wir den Bus nahmen.",
+     "fr": "Nous avons garé notre voiture au parking relais avant de prendre le bus.",
+     "es": "Estacionamos en el aparcamiento disuasorio antes de tomar el autobús.",
+     "it": "Abbiamo parcheggiato nel parcheggio di interscambio prima di prendere l'autobus.",
+     "pt": "Estacionamos no estacionamento integrado antes de pegar o ônibus.",
+     "tr": "Otobüsü almadan önce park et devam et alanında park ettik."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.off-peak",
@@ -590,7 +1319,34 @@
    },
    "ipa": {
     "en": "/ɔf pik/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Traveling off-peak can save you time and money.",
+     "uk": "Подорож у непіковий час може зекономити ваш час і гроші.",
+     "ru": "Путешествие в непиковое время может сэкономить вам время и деньги.",
+     "pl": "Podróżowanie poza godzinami szczytu może zaoszczędzić czas i pieniądze.",
+     "de": "Reisen außerhalb der Stoßzeiten kann Zeit und Geld sparen.",
+     "fr": "Voyager pendant les heures creuses peut vous faire gagner du temps et de l'argent.",
+     "es": "Viajar en hora valle puede ahorrarte tiempo y dinero.",
+     "it": "Viaggiare in orario non di punta può farti risparmiare tempo e denaro.",
+     "pt": "Viajar fora do horário de pico pode economizar tempo e dinheiro.",
+     "tr": "Yoğun olmayan saatlerde seyahat etmek, zaman ve para kazandırabilir."
+    },
+    {
+     "en": "I prefer to shop off-peak to avoid crowds.",
+     "uk": "Я надаю перевагу покупкам у непіковий час, щоб уникнути натовпів.",
+     "ru": "Я предпочитаю делать покупки в непиковое время, чтобы избежать толпы.",
+     "pl": "Wolę robić zakupy poza godzinami szczytu, aby uniknąć tłumów.",
+     "de": "Ich gehe lieber außerhalb der Stoßzeiten einkaufen, um Menschenmengen zu vermeiden.",
+     "fr": "Je préfère faire mes courses pendant les heures creuses pour éviter la foule.",
+     "es": "Prefiero ir de compras en hora valle para evitar multitudes.",
+     "it": "Preferisco fare la spesa in orario non di punta per evitare la folla.",
+     "pt": "Prefiro fazer compras fora do horário de pico para evitar multidões.",
+     "tr": "Kalabalıktan kaçınmak için yoğun olmayan saatlerde alışveriş yapmayı tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.exhaust-fumes",
@@ -611,7 +1367,34 @@
    },
    "ipa": {
     "en": "/ɪɡˈzɔst fjumz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Exhaust fumes can be harmful to health.",
+     "uk": "Вихлопні гази можуть бути шкідливими для здоров'я.",
+     "ru": "Выхлопные газы могут быть вредны для здоровья.",
+     "pl": "Spaliny mogą być szkodliwe dla zdrowia.",
+     "de": "Abgase können gesundheitsschädlich sein.",
+     "fr": "Les gaz d'échappement peuvent être nocifs pour la santé.",
+     "es": "Los gases de escape pueden ser perjudiciales para la salud.",
+     "it": "I gas di scarico possono essere dannosi per la salute.",
+     "pt": "Os gases de escape podem ser prejudiciais à saúde.",
+     "tr": "Egzoz gazları sağlığa zararlı olabilir."
+    },
+    {
+     "en": "The car emitted exhaust fumes that smelled bad.",
+     "uk": "Автомобіль випускав вихлопні гази, які погано пахли.",
+     "ru": "Автомобиль выделял выхлопные газы с неприятным запахом.",
+     "pl": "Samochód wydzielał spaliny, które źle pachniały.",
+     "de": "Das Auto stieß Abgase aus, die schlecht rochen.",
+     "fr": "La voiture émettait des gaz d'échappement qui sentaient mauvais.",
+     "es": "El coche emitía gases de escape que olían mal.",
+     "it": "L'auto emetteva gas di scarico che puzzavano.",
+     "pt": "O carro emitiu gases de escape que cheiravam mal.",
+     "tr": "Araba kötü kokan egzoz gazları yayıyordu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.hybrid-car",
@@ -632,7 +1415,34 @@
    },
    "ipa": {
     "en": "/ˈhaɪbrəd kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I drive a hybrid car to save on fuel costs.",
+     "uk": "Я їжджу на гібридному автомобілі, щоб заощадити на паливі.",
+     "ru": "Я езжу на гибридном автомобиле, чтобы сэкономить на топливе.",
+     "pl": "Jeżdżę samochodem hybrydowym, aby zaoszczędzić na paliwie.",
+     "de": "Ich fahre ein Hybridauto, um Kraftstoffkosten zu sparen.",
+     "fr": "Je conduis une voiture hybride pour économiser sur le carburant.",
+     "es": "Conduzco un coche híbrido para ahorrar en costos de combustible.",
+     "it": "Guido un'auto ibrida per risparmiare sui costi del carburante.",
+     "pt": "Dirijo um carro híbrido para economizar nos custos de combustível.",
+     "tr": "Yakıt masraflarından tasarruf etmek için hibrit araç kullanıyorum."
+    },
+    {
+     "en": "Hybrid cars are better for the environment than traditional cars.",
+     "uk": "Гібридні автомобілі є кращими для довкілля, ніж традиційні автомобілі.",
+     "ru": "Гибридные автомобили лучше для окружающей среды, чем традиционные.",
+     "pl": "Samochody hybrydowe są lepsze dla środowiska niż tradycyjne samochody.",
+     "de": "Hybridautos sind besser für die Umwelt als herkömmliche Autos.",
+     "fr": "Les voitures hybrides sont meilleures pour l'environnement que les voitures traditionnelles.",
+     "es": "Los coches híbridos son mejores para el medio ambiente que los coches tradicionales.",
+     "it": "Le auto ibride sono migliori per l'ambiente rispetto alle auto tradizionali.",
+     "pt": "Os carros híbridos são melhores para o meio ambiente do que os carros tradicionais.",
+     "tr": "Hibrit araçlar, geleneksel araçlardan daha çevre dostudur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.traffic-offence",
@@ -653,7 +1463,34 @@
    },
    "ipa": {
     "en": "/ˈtræfɪk əˈfɛns/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He received a fine for a traffic offence.",
+     "uk": "Він отримав штраф за порушення ПДР.",
+     "ru": "Он получил штраф за нарушение ПДД.",
+     "pl": "Otrzymał mandat za wykroczenie drogowe.",
+     "de": "Er erhielt eine Geldstrafe für einen Verkehrsverstoß.",
+     "fr": "Il a reçu une amende pour une infraction routière.",
+     "es": "Recibió una multa por una infracción de tráfico.",
+     "it": "Ha ricevuto una multa per un'infrazione stradale.",
+     "pt": "Ele recebeu uma multa por infração de trânsito.",
+     "tr": "Bir trafik ihlali nedeniyle ceza aldı."
+    },
+    {
+     "en": "A traffic offence can lead to penalty points.",
+     "uk": "Порушення ПДР може призвести до штрафних балів.",
+     "ru": "Нарушение ПДД может привести к штрафным баллам.",
+     "pl": "Wykroczenie drogowe może prowadzić do punktów karnych.",
+     "de": "Ein Verkehrsverstoß kann zu Strafpunkten führen.",
+     "fr": "Une infraction routière peut entraîner des points de pénalité.",
+     "es": "Una infracción de tráfico puede llevar a puntos de penalización.",
+     "it": "Un'infrazione stradale può portare a punti di penalità.",
+     "pt": "Uma infração de trânsito pode levar a pontos na carteira.",
+     "tr": "Bir trafik ihlali ceza puanına yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.penalty-points",
@@ -674,7 +1511,34 @@
    },
    "ipa": {
     "en": "/ˈpɛnəlti pɔɪnts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "She lost penalty points for speeding.",
+     "uk": "Вона втратила штрафні бали за перевищення швидкості.",
+     "ru": "Она потеряла штрафные баллы за превышение скорости.",
+     "pl": "Straciła punkty karne za przekroczenie prędkości.",
+     "de": "Sie verlor Strafpunkte wegen Geschwindigkeitsüberschreitung.",
+     "fr": "Elle a perdu des points de pénalité pour excès de vitesse.",
+     "es": "Perdió puntos de penalización por exceso de velocidad.",
+     "it": "Ha perso punti di penalità per eccesso di velocità.",
+     "pt": "Ela perdeu pontos na carteira por excesso de velocidade.",
+     "tr": "Hız aşımından dolayı ceza puanı kaybetti."
+    },
+    {
+     "en": "Accumulating penalty points can result in a ban.",
+     "uk": "Накопичення штрафних балів може призвести до заборони.",
+     "ru": "Накопление штрафных баллов может привести к запрету.",
+     "pl": "Nagromadzenie punktów karnych może prowadzić do zakazu.",
+     "de": "Das Ansammeln von Strafpunkten kann zu einem Verbot führen.",
+     "fr": "Accumuler des points de pénalité peut entraîner une interdiction.",
+     "es": "Acumular puntos de penalización puede resultar en una prohibición.",
+     "it": "Accumulari punti di penalità può portare a un divieto.",
+     "pt": "Acumular pontos na carteira pode resultar em uma proibição.",
+     "tr": "Ceza puanı biriktirmek yasakla sonuçlanabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.driving-ban",
@@ -695,7 +1559,34 @@
    },
    "ipa": {
     "en": "/ˈdraɪvɪŋ bæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He faced a driving ban after multiple offences.",
+     "uk": "Він зіткнувся з позбавленням прав після кількох порушень.",
+     "ru": "Он столкнулся с лишением прав после нескольких нарушений.",
+     "pl": "Spotkał się z zakazem prowadzenia pojazdów po kilku wykroczeniach.",
+     "de": "Er sah sich einem Fahrverbot nach mehreren Verstößen gegenüber.",
+     "fr": "Il a fait face à une suspension de permis après plusieurs infractions.",
+     "es": "Enfrentó una retirada del carné tras múltiples infracciones.",
+     "it": "Ha affrontato una sospensione della patente dopo più infrazioni.",
+     "pt": "Enfrentou uma suspensão da carteira após várias infrações.",
+     "tr": "Birden fazla ihlalden sonra ehliyet iptaliyle karşılaştı."
+    },
+    {
+     "en": "A driving ban can last for several months.",
+     "uk": "Позбавлення прав може тривати кілька місяців.",
+     "ru": "Лишение прав может длиться несколько месяцев.",
+     "pl": "Zakaz prowadzenia pojazdów może trwać kilka miesięcy.",
+     "de": "Ein Fahrverbot kann mehrere Monate dauern.",
+     "fr": "Une suspension de permis peut durer plusieurs mois.",
+     "es": "Una retirada del carné puede durar varios meses.",
+     "it": "Una sospensione della patente può durare diversi mesi.",
+     "pt": "Uma suspensão da carteira pode durar vários meses.",
+     "tr": "Ehliyet iptali birkaç ay sürebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.breathalyser",
@@ -716,7 +1607,34 @@
    },
    "ipa": {
     "en": "/ˈbrɛθəˌlaɪzɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The police used a breathalyser during the check.",
+     "uk": "Поліція використала алкотестер під час перевірки.",
+     "ru": "Полиция использовала алкотестер во время проверки.",
+     "pl": "Policja użyła alkomatu podczas kontroli.",
+     "de": "Die Polizei verwendete einen Alkoholtester während der Kontrolle.",
+     "fr": "La police a utilisé un éthylotest lors du contrôle.",
+     "es": "La policía usó un alcoholímetro durante la revisión.",
+     "it": "La polizia ha usato un etilometro durante il controllo.",
+     "pt": "A polícia usou um bafômetro durante a verificação.",
+     "tr": "Polis, kontrol sırasında bir alkolmetre kullandı."
+    },
+    {
+     "en": "He failed the breathalyser test at the checkpoint.",
+     "uk": "Він провалив тест на алкотестері на контрольно-пропускному пункті.",
+     "ru": "Он провалил тест на алкотестере на контрольно-пропускном пункте.",
+     "pl": "Nie przeszedł testu alkomatu na punkcie kontrolnym.",
+     "de": "Er fiel beim Alkoholtester an der Kontrollstelle durch.",
+     "fr": "Il a échoué au test d'éthylotest au point de contrôle.",
+     "es": "Falló la prueba del alcoholímetro en el control.",
+     "it": "È risultato positivo al test dell'etilometro al posto di blocco.",
+     "pt": "Ele falhou no teste do bafômetro no ponto de controle.",
+     "tr": "Kontrol noktasında alkolmetre testini geçemedi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.traffic-flow",
@@ -737,7 +1655,34 @@
    },
    "ipa": {
     "en": "/ˈtræfɪk floʊ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The traffic flow improved after the new signals were installed.",
+     "uk": "Транспортний потік покращився після встановлення нових світлофорів.",
+     "ru": "Транспортный поток улучшился после установки новых светофоров.",
+     "pl": "Płynność ruchu poprawiła się po zainstalowaniu nowych sygnalizatorów.",
+     "de": "Der Verkehrsfluss verbesserte sich nach der Installation neuer Ampeln.",
+     "fr": "Le flux de circulation s'est amélioré après l'installation de nouveaux feux.",
+     "es": "El flujo de tráfico mejoró después de instalar nuevas señales.",
+     "it": "Il flusso del traffico è migliorato dopo l'installazione di nuovi segnali.",
+     "pt": "O fluxo de trânsito melhorou após a instalação de novos semáforos.",
+     "tr": "Yeni sinyallerin kurulmasından sonra trafik akışı iyileşti."
+    },
+    {
+     "en": "Heavy rain can disrupt traffic flow significantly.",
+     "uk": "Сильний дощ може значно порушити транспортний потік.",
+     "ru": "Сильный дождь может значительно нарушить транспортный поток.",
+     "pl": "Intensywne opady deszczu mogą znacznie zakłócić płynność ruchu.",
+     "de": "Starker Regen kann den Verkehrsfluss erheblich stören.",
+     "fr": "Une forte pluie peut perturber considérablement le flux de circulation.",
+     "es": "La lluvia intensa puede interrumpir significativamente el flujo de tráfico.",
+     "it": "La pioggia intensa può interrompere significativamente il flusso del traffico.",
+     "pt": "A chuva forte pode interromper significativamente o fluxo de trânsito.",
+     "tr": "Şiddetli yağmur, trafik akışını önemli ölçüde bozabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-lose-control",
@@ -758,7 +1703,34 @@
    },
    "ipa": {
     "en": "/luz kənˈtroʊl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He started to lose control of the vehicle.",
+     "uk": "Він почав втрачати керування над автомобілем.",
+     "ru": "Он начал терять управление над автомобилем.",
+     "pl": "Zaczął tracić panowanie nad pojazdem.",
+     "de": "Er begann die Kontrolle über das Fahrzeug zu verlieren.",
+     "fr": "Il a commencé à perdre le contrôle du véhicule.",
+     "es": "Empezó a perder el control del vehículo.",
+     "it": "Ha iniziato a perdere il controllo del veicolo.",
+     "pt": "Ele começou a perder o controle do veículo.",
+     "tr": "Araç üzerinde kontrolü kaybetmeye başladı."
+    },
+    {
+     "en": "Drivers must avoid situations that cause them to lose control.",
+     "uk": "Водії повинні уникати ситуацій, які призводять до втрати керування.",
+     "ru": "Водители должны избегать ситуаций, которые приводят к потере управления.",
+     "pl": "Kierowcy muszą unikać sytuacji, które mogą prowadzić do utraty kontroli.",
+     "de": "Fahrer müssen Situationen vermeiden, die dazu führen, dass sie die Kontrolle verlieren.",
+     "fr": "Les conducteurs doivent éviter les situations qui les font perdre le contrôle.",
+     "es": "Los conductores deben evitar situaciones que les hagan perder el control.",
+     "it": "I conducenti devono evitare situazioni che possono farli perdere il controllo.",
+     "pt": "Os motoristas devem evitar situações que os façam perder o controle.",
+     "tr": "Sürücüler, kontrolü kaybetmelerine neden olacak durumlardan kaçınmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.head-on-collision",
@@ -779,7 +1751,34 @@
    },
    "ipa": {
     "en": "/hɛd ɑn kəˈlɪʒən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The accident involved a head-on collision between two cars.",
+     "uk": "Аварія сталася внаслідок лобового зіткнення двох автомобілів.",
+     "ru": "Авария произошла в результате лобового столкновения двух автомобилей.",
+     "pl": "Wypadek dotyczył zderzenia czołowego dwóch samochodów.",
+     "de": "Der Unfall betraf einen Frontalzusammenstoß zwischen zwei Autos.",
+     "fr": "L'accident a impliqué une collision frontale entre deux voitures.",
+     "es": "El accidente involucró un choque frontal entre dos coches.",
+     "it": "L'incidente ha coinvolto uno scontro frontale tra due auto.",
+     "pt": "O acidente envolveu uma colisão frontal entre dois carros.",
+     "tr": "Kaza, iki aracın kafa kafaya çarpışmasıyla gerçekleşti."
+    },
+    {
+     "en": "Head-on collisions can result in serious injuries.",
+     "uk": "Лобові зіткнення можуть призвести до серйозних травм.",
+     "ru": "Лобовые столкновения могут привести к серьезным травмам.",
+     "pl": "Zderzenia czołowe mogą prowadzić do poważnych obrażeń.",
+     "de": "Frontalzusammenstöße können zu schweren Verletzungen führen.",
+     "fr": "Les collisions frontales peuvent entraîner des blessures graves.",
+     "es": "Los choques frontales pueden resultar en lesiones graves.",
+     "it": "Gli scontri frontali possono causare gravi infortuni.",
+     "pt": "Colisões frontais podem resultar em ferimentos graves.",
+     "tr": "Kafa kafaya çarpışmalar ciddi yaralanmalara neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.tire-pressure",
@@ -800,7 +1799,34 @@
    },
    "ipa": {
     "en": "/ˈtaɪɚ ˈprɛʃɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Check the tire pressure before a long trip.",
+     "uk": "Перевірте тиск у шинах перед довгою поїздкою.",
+     "ru": "Проверьте давление в шинах перед длительной поездкой.",
+     "pl": "Sprawdź ciśnienie w oponach przed długą podróżą.",
+     "de": "Überprüfen Sie den Reifendruck vor einer langen Reise.",
+     "fr": "Vérifiez la pression des pneus avant un long voyage.",
+     "es": "Verifica la presión de los neumáticos antes de un viaje largo.",
+     "it": "Controlla la pressione delle gomme prima di un lungo viaggio.",
+     "pt": "Verifique a pressão dos pneus antes de uma longa viagem.",
+     "tr": "Uzun bir yolculuktan önce lastik basıncını kontrol edin."
+    },
+    {
+     "en": "Low tire pressure can affect fuel efficiency.",
+     "uk": "Низький тиск у шинах може вплинути на паливну ефективність.",
+     "ru": "Низкое давление в шинах может повлиять на экономию топлива.",
+     "pl": "Niskie ciśnienie w oponach może wpłynąć na efektywność paliwową.",
+     "de": "Niedriger Reifendruck kann die Kraftstoffeffizienz beeinträchtigen.",
+     "fr": "Une pression des pneus basse peut affecter l'efficacité énergétique.",
+     "es": "Una baja presión de los neumáticos puede afectar la eficiencia del combustible.",
+     "it": "Una bassa pressione delle gomme può influire sull'efficienza del carburante.",
+     "pt": "Uma baixa pressão dos pneus pode afetar a eficiência do combustível.",
+     "tr": "Düşük lastik basıncı yakıt verimliliğini etkileyebilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.four-wheel-drive",
@@ -821,7 +1847,34 @@
    },
    "ipa": {
     "en": "/fɔr wil draɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "A four-wheel drive vehicle is great for off-road.",
+     "uk": "Автомобіль з повним приводом чудово підходить для бездоріжжя.",
+     "ru": "Автомобиль с полным приводом отлично подходит для бездорожья.",
+     "pl": "Samochód z napędem na cztery koła jest świetny do jazdy w terenie.",
+     "de": "Ein Allradantrieb-Fahrzeug ist großartig für Offroad.",
+     "fr": "Un véhicule à quatre roues motrices est idéal pour le hors route.",
+     "es": "Un vehículo de tracción a las cuatro ruedas es excelente para el campo.",
+     "it": "Un veicolo a trazione integrale è ottimo per il fuoristrada.",
+     "pt": "Um veículo com tração nas quatro rodas é ótimo para off-road.",
+     "tr": "Dört çeker bir araç, arazi için harikadır."
+    },
+    {
+     "en": "Four-wheel drive improves traction on slippery surfaces.",
+     "uk": "Повний привід покращує зчеплення на слизьких поверхнях.",
+     "ru": "Полный привод улучшает сцепление на скользких поверхностях.",
+     "pl": "Napęd na cztery koła poprawia przyczepność na śliskich nawierzchniach.",
+     "de": "Allradantrieb verbessert die Traktion auf rutschigen Oberflächen.",
+     "fr": "La traction intégrale améliore l'adhérence sur les surfaces glissantes.",
+     "es": "La tracción a las cuatro ruedas mejora la tracción en superficies resbaladizas.",
+     "it": "La trazione integrale migliora l'aderenza su superfici scivolose.",
+     "pt": "A tração nas quatro rodas melhora a aderência em superfícies escorregadias.",
+     "tr": "Dört çeker, kaygan yüzeylerde tutuşu artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.handbrake",
@@ -842,7 +1895,34 @@
    },
    "ipa": {
     "en": "/ˈhændˌbreɪk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Always engage the handbrake when parking.",
+     "uk": "Завжди ставте ручне гальмо при паркуванні.",
+     "ru": "Всегда включайте ручной тормоз при парковке.",
+     "pl": "Zawsze zaciągaj hamulec ręczny podczas parkowania.",
+     "de": "Ziehen Sie immer die Handbremse beim Parken an.",
+     "fr": "Engagez toujours le frein à main lors du stationnement.",
+     "es": "Siempre usa el freno de mano al estacionar.",
+     "it": "Attiva sempre il freno a mano quando parcheggi.",
+     "pt": "Sempre acione o freio de mão ao estacionar.",
+     "tr": "Her zaman park ederken el frenini çekin."
+    },
+    {
+     "en": "The handbrake failed during the descent.",
+     "uk": "Ручне гальмо відмовило під час спуску.",
+     "ru": "Ручной тормоз отказал во время спуска.",
+     "pl": "Hamulec ręczny zawiódł podczas zjazdu.",
+     "de": "Die Handbremse versagte während der Abfahrt.",
+     "fr": "Le frein à main a échoué pendant la descente.",
+     "es": "El freno de mano falló durante el descenso.",
+     "it": "Il freno a mano ha ceduto durante la discesa.",
+     "pt": "O freio de mão falhou durante a descida.",
+     "tr": "El freni, iniş sırasında arızalandı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.clutch",
@@ -863,7 +1943,34 @@
    },
    "ipa": {
     "en": "/klʌtʃ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I pressed the clutch to change gears.",
+     "uk": "Я натиснув зчеплення, щоб змінити передачі.",
+     "ru": "Я нажал сцепление, чтобы переключить передачи.",
+     "pl": "Nacisnąłem sprzęgło, aby zmienić biegi.",
+     "de": "Ich drückte die Kupplung, um die Gänge zu wechseln.",
+     "fr": "J'ai appuyé sur l'embrayage pour changer de vitesse.",
+     "es": "Presioné el embrague para cambiar de marcha.",
+     "it": "Ho premuto la frizione per cambiare marcia.",
+     "pt": "Eu apertei a embreagem para mudar de marcha.",
+     "tr": "Vites değiştirmek için debriyaja bastım."
+    },
+    {
+     "en": "The clutch is essential for driving a manual car.",
+     "uk": "Зчеплення є необхідним для водіння механічного автомобіля.",
+     "ru": "Сцепление необходимо для вождения механической машины.",
+     "pl": "Sprzęgło jest niezbędne do prowadzenia samochodu manualnego.",
+     "de": "Die Kupplung ist wichtig für das Fahren eines Schaltwagens.",
+     "fr": "L'embrayage est essentiel pour conduire une voiture manuelle.",
+     "es": "El embrague es esencial para conducir un coche manual.",
+     "it": "La frizione è essenziale per guidare un'auto manuale.",
+     "pt": "A embreagem é essencial para dirigir um carro manual.",
+     "tr": "Debriyaj, manuel bir aracı kullanmak için gereklidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.manual-transmission",
@@ -884,7 +1991,34 @@
    },
    "ipa": {
     "en": "/ˈmænjuəl trænˈsmɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I prefer driving a car with a manual transmission.",
+     "uk": "Я віддаю перевагу водити автомобіль з механічною коробкою передач.",
+     "ru": "Я предпочитаю водить машину с механической коробкой передач.",
+     "pl": "Wolę prowadzić samochód z manualną skrzynią biegów.",
+     "de": "Ich fahre lieber ein Auto mit Schaltgetriebe.",
+     "fr": "Je préfère conduire une voiture avec une boîte manuelle.",
+     "es": "Prefiero conducir un coche con cambio manual.",
+     "it": "Preferisco guidare un'auto con cambio manuale.",
+     "pt": "Prefiro dirigir um carro com câmbio manual.",
+     "tr": "Manuel şanzımanlı bir araç kullanmayı tercih ediyorum."
+    },
+    {
+     "en": "Learning to drive with a manual transmission is challenging.",
+     "uk": "Вчитися водити з механічною коробкою передач складно.",
+     "ru": "Учиться водить с механической коробкой передач сложно.",
+     "pl": "Nauka jazdy z manualną skrzynią biegów jest trudna.",
+     "de": "Das Fahren mit einem Schaltgetriebe zu lernen, ist herausfordernd.",
+     "fr": "Apprendre à conduire avec une boîte manuelle est difficile.",
+     "es": "Aprender a conducir con un cambio manual es un desafío.",
+     "it": "Imparare a guidare con un cambio manual è impegnativo.",
+     "pt": "Aprender a dirigir com câmbio manual é desafiador.",
+     "tr": "Manuel şanzımanla araç kullanmayı öğrenmek zordur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.automatic-transmission",
@@ -905,7 +2039,34 @@
    },
    "ipa": {
     "en": "/ˌɔtəˈmætɪk trænˈsmɪʃən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An automatic transmission makes driving easier in traffic.",
+     "uk": "Автоматична коробка передач полегшує водіння в трафіку.",
+     "ru": "Автоматическая коробка передач облегчает вождение в пробках.",
+     "pl": "Automatyczna skrzynia biegów ułatwia jazdę w ruchu.",
+     "de": "Ein Automatikgetriebe erleichtert das Fahren im Verkehr.",
+     "fr": "Une boîte automatique facilite la conduite dans le trafic.",
+     "es": "Un cambio automático facilita la conducción en el tráfico.",
+     "it": "Un cambio automatico rende più facile la guida nel traffico.",
+     "pt": "Um câmbio automático facilita a condução no trânsito.",
+     "tr": "Otomatik şanzıman, trafikte sürüşü kolaylaştırır."
+    },
+    {
+     "en": "Many people prefer cars with automatic transmission.",
+     "uk": "Багато людей віддають перевагу автомобілям з автоматичною коробкою передач.",
+     "ru": "Многие предпочитают автомобили с автоматической коробкой передач.",
+     "pl": "Wiele osób woli samochody z automatyczną skrzynią biegów.",
+     "de": "Viele Menschen bevorzugen Autos mit Automatikgetriebe.",
+     "fr": "Beaucoup de gens préfèrent les voitures à boîte automatique.",
+     "es": "Muchas personas prefieren coches con cambio automático.",
+     "it": "Molte persone preferiscono auto con cambio automatico.",
+     "pt": "Muitas pessoas preferem carros com câmbio automático.",
+     "tr": "Birçok insan otomatik şanzımanlı araçları tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.toll-road",
@@ -926,7 +2087,34 @@
    },
    "ipa": {
     "en": "/toʊl roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We took the toll road to avoid traffic jams.",
+     "uk": "Ми поїхали платною дорогою, щоб уникнути заторів.",
+     "ru": "Мы поехали по платной дороге, чтобы избежать пробок.",
+     "pl": "Pojechaliśmy płatną drogą, aby uniknąć korków.",
+     "de": "Wir nahmen die Mautstraße, um Staus zu vermeiden.",
+     "fr": "Nous avons pris la route à péage pour éviter les embouteillages.",
+     "es": "Tomamos la carretera de peaje para evitar atascos.",
+     "it": "Abbiamo preso la strada a pedaggio per evitare ingorghi.",
+     "pt": "Pegamos a estrada com pedágio para evitar engarrafamentos.",
+     "tr": "Trafik sıkışıklığını önlemek için ücretli yoldan gittik."
+    },
+    {
+     "en": "Driving on a toll road can be more convenient.",
+     "uk": "Їзда платною дорогою може бути зручнішою.",
+     "ru": "Вождение по платной дороге может быть удобнее.",
+     "pl": "Jazda płatną drogą może być wygodniejsza.",
+     "de": "Das Fahren auf einer Mautstraße kann bequemer sein.",
+     "fr": "Conduire sur une route à péage peut être plus pratique.",
+     "es": "Conducir por una carretera de peaje puede ser más conveniente.",
+     "it": "Guidare su una strada a pedaggio può essere più conveniente.",
+     "pt": "Dirigir em uma estrada com pedágio pode ser mais conveniente.",
+     "tr": "Ücretli yolda sürmek daha pratik olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.ring-road",
@@ -947,7 +2135,34 @@
    },
    "ipa": {
     "en": "/rɪŋ roʊd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The ring road helps to reduce city traffic.",
+     "uk": "Кільцева дорога допомагає зменшити міський трафік.",
+     "ru": "Кольцевая дорога помогает уменьшить городской трафик.",
+     "pl": "Obwodnica pomaga zmniejszyć ruch w mieście.",
+     "de": "Die Ringstraße hilft, den Stadtverkehr zu reduzieren.",
+     "fr": "Le périphérique aide à réduire le trafic urbain.",
+     "es": "La carretera de circunvalación ayuda a reducir el tráfico urbano.",
+     "it": "La tangenziale aiuta a ridurre il traffico cittadino.",
+     "pt": "O anel viário ajuda a reduzir o tráfego urbano.",
+     "tr": "Çevre yolu, şehir trafiğini azaltmaya yardımcı olur."
+    },
+    {
+     "en": "We drove around the ring road to reach our destination.",
+     "uk": "Ми об'їхали кільцевою дорогою, щоб дістатися до пункту призначення.",
+     "ru": "Мы объехали кольцевую дорогу, чтобы добраться до места назначения.",
+     "pl": "Objechaliśmy obwodnicą, aby dotrzeć do celu.",
+     "de": "Wir fuhren über die Ringstraße, um unser Ziel zu erreichen.",
+     "fr": "Nous avons contourné le périphérique pour atteindre notre destination.",
+     "es": "Dimos la vuelta por la carretera de circunvalación para llegar a nuestro destino.",
+     "it": "Abbiamo girato intorno alla tangenziale per raggiungere la nostra meta.",
+     "pt": "Rodamos pelo anel viário para chegar ao nosso destino.",
+     "tr": "Hedefimize ulaşmak için çevre yolundan döndük."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.ride-hailing-app",
@@ -968,7 +2183,34 @@
    },
    "ipa": {
     "en": "/raɪd ˈheɪlɪŋ æp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I booked a ride using a ride-hailing app.",
+     "uk": "Я забронював поїздку за допомогою застосунку для виклику таксі.",
+     "ru": "Я заказал поездку через приложение для вызова такси.",
+     "pl": "Zarezerwowałem przejazd za pomocą aplikacji przewozowej.",
+     "de": "Ich habe eine Fahrt über die Fahrdienst-App gebucht.",
+     "fr": "J'ai réservé un trajet avec l'application de VTC.",
+     "es": "Reservé un viaje usando la aplicación de VTC.",
+     "it": "Ho prenotato un passaggio usando l'app per prenotare corse.",
+     "pt": "Reservei uma corrida usando o aplicativo de transporte.",
+     "tr": "Araç çağırma uygulamasını kullanarak bir yolculuk rezervasyonu yaptım."
+    },
+    {
+     "en": "Ride-hailing apps are popular in many cities.",
+     "uk": "Застосунки для виклику таксі популярні в багатьох містах.",
+     "ru": "Приложения для вызова такси популярны во многих городах.",
+     "pl": "Aplikacje przewozowe są popularne w wielu miastach.",
+     "de": "Fahrdienst-Apps sind in vielen Städten beliebt.",
+     "fr": "Les applications de VTC sont populaires dans de nombreuses villes.",
+     "es": "Las aplicaciones de VTC son populares en muchas ciudades.",
+     "it": "Le app per prenotare corse sono popolari in molte città.",
+     "pt": "Os aplicativos de transporte são populares em muitas cidades.",
+     "tr": "Araç çağırma uygulamaları birçok şehirde popülerdir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.test-drive",
@@ -989,7 +2231,34 @@
    },
    "ipa": {
     "en": "/tɛst draɪv/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I scheduled a test drive for the new car.",
+     "uk": "Я запланував тест-драйв для нового автомобіля.",
+     "ru": "Я записался на тест-драйв нового автомобиля.",
+     "pl": "Umówiłem się na jazdę próbną nowego samochodu.",
+     "de": "Ich habe eine Probefahrt für das neue Auto vereinbart.",
+     "fr": "J'ai programmé un essai sur route pour la nouvelle voiture.",
+     "es": "Programé una prueba de conducción para el coche nuevo.",
+     "it": "Ho programmato un giro di prova per la nuova auto.",
+     "pt": "Agendei um test drive para o carro novo.",
+     "tr": "Yeni araba için bir test sürüşü planladım."
+    },
+    {
+     "en": "Taking a test drive is essential before buying a car.",
+     "uk": "Тест-драйв є необхідним перед покупкою автомобіля.",
+     "ru": "Тест-драйв необходим перед покупкой автомобиля.",
+     "pl": "Jazda próbna jest niezbędna przed zakupem samochodu.",
+     "de": "Eine Probefahrt ist wichtig, bevor man ein Auto kauft.",
+     "fr": "Faire un essai sur route est essentiel avant d'acheter une voiture.",
+     "es": "Hacer una prueba de conducción es esencial antes de comprar un coche.",
+     "it": "Fare un giro di prova è essenziale prima di acquistare un'auto.",
+     "pt": "Fazer um test drive é essencial antes de comprar um carro.",
+     "tr": "Bir araba almadan önce test sürüşü yapmak önemlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.used-car",
@@ -1010,7 +2279,34 @@
    },
    "ipa": {
     "en": "/juzd kɑr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Buying a used car can save you money.",
+     "uk": "Купівля вживаного автомобіля може заощадити ваші гроші.",
+     "ru": "Покупка подержанного автомобиля может сэкономить ваши деньги.",
+     "pl": "Kupno używanego samochodu może zaoszczędzić pieniądze.",
+     "de": "Der Kauf eines Gebrauchtwagens kann Geld sparen.",
+     "fr": "Acheter une voiture d'occasion peut vous faire économiser de l'argent.",
+     "es": "Comprar un coche de segunda mano puede ahorrarte dinero.",
+     "it": "Comprare un'auto usata può farti risparmiare denaro.",
+     "pt": "Comprar um carro usado pode economizar dinheiro.",
+     "tr": "İkinci el araba almak, para tasarrufu sağlayabilir."
+    },
+    {
+     "en": "I found a great deal on a used car.",
+     "uk": "Я знайшов чудову угоду на вживаний автомобіль.",
+     "ru": "Я нашел отличное предложение на подержанный автомобиль.",
+     "pl": "Znalazłem świetną ofertę na używany samochód.",
+     "de": "Ich habe ein tolles Angebot für einen Gebrauchtwagen gefunden.",
+     "fr": "J'ai trouvé une bonne affaire sur une voiture d'occasion.",
+     "es": "Encontré una gran oferta en un coche de segunda mano.",
+     "it": "Ho trovato un'ottima offerta su un'auto usata.",
+     "pt": "Encontrei um ótimo negócio em um carro usado.",
+     "tr": "İkinci el bir arabada harika bir fırsat buldum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-sharing",
@@ -1031,7 +2327,34 @@
    },
    "ipa": {
     "en": "/kɑr ˈʃɛrɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Car sharing is a convenient option for city dwellers.",
+     "uk": "Каршеринг - зручний варіант для міських жителів.",
+     "ru": "Каршеринг - удобный вариант для городских жителей.",
+     "pl": "Carsharing to wygodna opcja dla mieszkańców miast.",
+     "de": "Carsharing ist eine bequeme Option für Stadtbewohner.",
+     "fr": "L'autopartage est une option pratique pour les citadins.",
+     "es": "El coche compartido es una opción conveniente para los habitantes de la ciudad.",
+     "it": "Il car sharing è un'opzione comoda per i cittadini.",
+     "pt": "O compartilhamento de carros é uma opção conveniente para os moradores da cidade.",
+     "tr": "Araç paylaşımı, şehir sakinleri için pratik bir seçenektir."
+    },
+    {
+     "en": "Many cities offer car sharing services to reduce traffic.",
+     "uk": "Багато міст пропонують послуги каршерингу для зменшення трафіку.",
+     "ru": "Многие города предлагают услуги каршеринга для уменьшения трафика.",
+     "pl": "Wiele miast oferuje usługi carsharingu, aby zmniejszyć ruch.",
+     "de": "Viele Städte bieten Carsharing-Dienste an, um den Verkehr zu reduzieren.",
+     "fr": "De nombreuses villes proposent des services d'autopartage pour réduire le trafic.",
+     "es": "Muchas ciudades ofrecen servicios de coche compartido para reducir el tráfico.",
+     "it": "Molte città offrono servizi di car sharing per ridurre il traffico.",
+     "pt": "Muitas cidades oferecem serviços de compartilhamento de carros para reduzir o tráfego.",
+     "tr": "Birçok şehir, trafiği azaltmak için araç paylaşım hizmetleri sunuyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.dashcam",
@@ -1052,7 +2375,34 @@
    },
    "ipa": {
     "en": "/ˈdæʃˌkæm/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I installed a dashcam for safety while driving.",
+     "uk": "Я встановив відеореєстратор для безпеки під час водіння.",
+     "ru": "Я установил видеорегистратор для безопасности во время вождения.",
+     "pl": "Zainstalowałem wideorejestrator dla bezpieczeństwa podczas jazdy.",
+     "de": "Ich habe eine Dashcam für die Sicherheit beim Fahren installiert.",
+     "fr": "J'ai installé une caméra embarquée pour ma sécurité en conduisant.",
+     "es": "Instalé una cámara de salpicadero para mayor seguridad al conducir.",
+     "it": "Ho installato una telecamera da cruscotto per sicurezza mentre guido.",
+     "pt": "Instalei uma câmera veicular para segurança ao dirigir.",
+     "tr": "Sürüş sırasında güvenlik için bir araç kamerası kurdum."
+    },
+    {
+     "en": "The dashcam recorded the accident clearly.",
+     "uk": "Відеореєстратор чітко зафіксував аварію.",
+     "ru": "Видеорегистратор четко зафиксировал аварию.",
+     "pl": "Wideorejestrator wyraźnie zarejestrował wypadek.",
+     "de": "Die Dashcam hat den Unfall klar aufgezeichnet.",
+     "fr": "La caméra embarquée a clairement enregistré l'accident.",
+     "es": "La cámara de salpicadero grabó claramente el accidente.",
+     "it": "La telecamera da cruscotto ha registrato chiaramente l'incidente.",
+     "pt": "A câmera veicular gravou o acidente claramente.",
+     "tr": "Araç kamerası kazayı net bir şekilde kaydetti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-derail",
@@ -1073,7 +2423,34 @@
    },
    "ipa": {
     "en": "/dɪˈreɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train derailed after hitting a fallen tree.",
+     "uk": "Поїзд зійшов з рейок після зіткнення з деревом.",
+     "ru": "Поезд сошел с рельсов, столкнувшись с упавшим деревом.",
+     "pl": "Pociąg wykoleił się po uderzeniu w powalone drzewo.",
+     "de": "Der Zug entgleiste, nachdem er einen umgefallenen Baum getroffen hatte.",
+     "fr": "Le train a déraillé après avoir heurté un arbre tombé.",
+     "es": "El tren descarriló tras chocar con un árbol caído.",
+     "it": "Il treno è deragliato dopo aver colpito un albero caduto.",
+     "pt": "O trem descarrilou após colidir com uma árvore caída.",
+     "tr": "Tren, devrilen bir ağaca çarptıktan sonra raydan çıktı."
+    },
+    {
+     "en": "Heavy rain can cause trains to derail unexpectedly.",
+     "uk": "Сильний дощ може призвести до несподіваного сходження поїздів з рейок.",
+     "ru": "Сильный дождь может привести к неожиданному сходу поезда с рельсов.",
+     "pl": "Intensywne opady deszczu mogą spowodować wykolejenie pociągów.",
+     "de": "Starker Regen kann dazu führen, dass Züge unerwartet entgleisen.",
+     "fr": "De fortes pluies peuvent provoquer le déraillement inattendu des trains.",
+     "es": "La lluvia intensa puede causar que los trenes descarrilen inesperadamente.",
+     "it": "La pioggia intensa può causare deragliamenti imprevisti dei treni.",
+     "pt": "A chuva intensa pode fazer os trens descarrilarem inesperadamente.",
+     "tr": "Şiddetli yağmur, trenlerin beklenmedik bir şekilde raydan çıkmasına neden olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.freight",
@@ -1094,7 +2471,34 @@
    },
    "ipa": {
     "en": "/freɪt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The freight arrived on time at the shipping dock.",
+     "uk": "Вантаж прибув вчасно на вантажний причал.",
+     "ru": "Груз прибыл вовремя на грузовой терминал.",
+     "pl": "Fracht dotarł na czas do portu załadunkowego.",
+     "de": "Die Fracht kam pünktlich am Versanddocks an.",
+     "fr": "Le fret est arrivé à temps au quai d'expédition.",
+     "es": "La mercancía llegó a tiempo al muelle de carga.",
+     "it": "La merce è arrivata in tempo al molo di spedizione.",
+     "pt": "A carga chegou a tempo ao cais de embarque.",
+     "tr": "Yük, yükleme rıhtımına zamanında ulaştı."
+    },
+    {
+     "en": "They specialize in transporting heavy freight across the country.",
+     "uk": "Вони спеціалізуються на перевезенні важкого вантажу по країні.",
+     "ru": "Они специализируются на перевозке тяжелых грузов по стране.",
+     "pl": "Specjalizują się w transporcie ciężkiego frachtu po kraju.",
+     "de": "Sie sind auf den Transport schwerer Fracht im ganzen Land spezialisiert.",
+     "fr": "Ils se spécialisent dans le transport de fret lourd à travers le pays.",
+     "es": "Se especializan en el transporte de carga pesada por todo el país.",
+     "it": "Si specializzano nel trasporto di merci pesanti in tutto il paese.",
+     "pt": "Eles se especializam no transporte de carga pesada pelo país.",
+     "tr": "Ağır yük taşımacılığında ülke genelinde uzmanlaşıyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-reroute",
@@ -1115,7 +2519,34 @@
    },
    "ipa": {
     "en": "/riˈrut/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We need to reroute the delivery due to road construction.",
+     "uk": "Потрібно змінити маршрут доставки через будівництво дороги.",
+     "ru": "Нам нужно изменить маршрут доставки из-за дорожных работ.",
+     "pl": "Musimy zmienić trasę dostawy z powodu budowy drogi.",
+     "de": "Wir müssen die Lieferung wegen Straßenbau umleiten.",
+     "fr": "Nous devons dévier la livraison en raison de travaux routiers.",
+     "es": "Necesitamos desviar la entrega debido a la construcción de la carretera.",
+     "it": "Dobbiamo deviare la consegna a causa della costruzione stradale.",
+     "pt": "Precisamos desviar a entrega devido à construção da estrada.",
+     "tr": "Yol inşaatı nedeniyle teslimatı güzergahı değiştirmek zorundayız."
+    },
+    {
+     "en": "The GPS suggested to reroute us around the traffic jam.",
+     "uk": "GPS запропонував змінити маршрут, щоб обійти затор.",
+     "ru": "GPS предложил изменить маршрут, чтобы объехать пробку.",
+     "pl": "GPS zasugerował, aby zmienić trasę, aby ominąć korek.",
+     "de": "Das GPS schlug vor, uns um den Stau umzuleiten.",
+     "fr": "Le GPS a suggéré de nous dévier autour de l'embouteillage.",
+     "es": "El GPS sugirió desviar nuestra ruta alrededor del embotellamiento.",
+     "it": "Il GPS ha suggerito di deviare intorno all'ingorgo.",
+     "pt": "O GPS sugeriu desviar nossa rota ao redor do engarrafamento.",
+     "tr": "GPS, trafiği aşmak için güzergahı değiştirmemizi önerdi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.replacement-bus",
@@ -1136,7 +2567,34 @@
    },
    "ipa": {
     "en": "/rɪˈpleɪsmənt bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The replacement bus will arrive in ten minutes.",
+     "uk": "Автобус замість поїзда прибуде через десять хвилин.",
+     "ru": "Автобус вместо поезда прибудет через десять минут.",
+     "pl": "Zastępcza komunikacja autobusowa przyjedzie za dziesięć minut.",
+     "de": "Der Schienenersatzverkehr kommt in zehn Minuten an.",
+     "fr": "Le bus de substitution arrivera dans dix minutes.",
+     "es": "El autobús de sustitución llegará en diez minutos.",
+     "it": "Il bus sostitutivo arriverà tra dieci minuti.",
+     "pt": "O ônibus substituto chegará em dez minutos.",
+     "tr": "Yedek otobüs on dakika içinde gelecek."
+    },
+    {
+     "en": "Passengers must take the replacement bus during repairs.",
+     "uk": "Пасажири повинні скористатися автобусом замість поїзда під час ремонту.",
+     "ru": "Пассажирам необходимо воспользоваться автобусом вместо поезда во время ремонта.",
+     "pl": "Pasażerowie muszą skorzystać z zastępczej komunikacji autobusowej podczas napraw.",
+     "de": "Die Passagiere müssen während der Reparaturen den Schienenersatzverkehr nutzen.",
+     "fr": "Les passagers doivent prendre le bus de substitution pendant les réparations.",
+     "es": "Los pasajeros deben tomar el autobús de sustitución durante las reparaciones.",
+     "it": "I passeggeri devono prendere il bus sostitutivo durante i lavori.",
+     "pt": "Os passageiros devem pegar o ônibus substituto durante os reparos.",
+     "tr": "Yolcular, onarımlar sırasında yedek otobüsü kullanmak zorundadır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.signal-failure",
@@ -1157,7 +2615,34 @@
    },
    "ipa": {
     "en": "/ˈsɪɡnəl ˈfeɪljɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train was delayed due to a signal failure.",
+     "uk": "Поїзд затримали через збій сигналізації.",
+     "ru": "Поезд задержали из-за неисправности сигнализации.",
+     "pl": "Pociąg został opóźniony z powodu awarii sygnalizacji.",
+     "de": "Der Zug hatte Verspätung wegen einer Signalstörung.",
+     "fr": "Le train a été retardé en raison d'une panne de signalisation.",
+     "es": "El tren se retrasó debido a una avería de señalización.",
+     "it": "Il treno è stato ritardato a causa di un guasto al segnale.",
+     "pt": "O trem foi atrasado devido a uma falha na sinalização.",
+     "tr": "Tren, sinyal arızası nedeniyle gecikti."
+    },
+    {
+     "en": "A signal failure caused multiple trains to stop.",
+     "uk": "Збій сигналізації призвів до зупинки кількох потягів.",
+     "ru": "Неисправность сигнализации привела к остановке нескольких поездов.",
+     "pl": "Awaria sygnalizacji spowodowała zatrzymanie kilku pociągów.",
+     "de": "Eine Signalstörung führte dazu, dass mehrere Züge stoppten.",
+     "fr": "Une panne de signalisation a provoqué l'arrêt de plusieurs trains.",
+     "es": "Una avería de señalización provocó la detención de varios trenes.",
+     "it": "Un guasto al segnale ha causato l'arresto di più treni.",
+     "pt": "Uma falha na sinalização causou a parada de vários trens.",
+     "tr": "Bir sinyal arızası, birden fazla trenin durmasına neden oldu."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.dual-carriageway",
@@ -1178,7 +2663,34 @@
    },
    "ipa": {
     "en": "/ˈduəl ˈkærɪdʒˌweɪ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The dual carriageway allows for faster travel between cities.",
+     "uk": "Дорога з розділювальною смугою дозволяє швидше подорожувати між містами.",
+     "ru": "Дорога с разделительной полосой позволяет быстрее перемещаться между городами.",
+     "pl": "Droga dwujezdniowa umożliwia szybszą podróż między miastami.",
+     "de": "Die vierspurige Schnellstraße ermöglicht schnellere Reisen zwischen Städten.",
+     "fr": "La route à quatre voies permet de voyager plus rapidement entre les villes.",
+     "es": "La autovía permite viajar más rápido entre ciudades.",
+     "it": "La superstrada consente viaggi più veloci tra le città.",
+     "pt": "A pista dupla permite viagens mais rápidas entre cidades.",
+     "tr": "Bölünmüş yol, şehirler arasında daha hızlı seyahat etmeyi sağlar."
+    },
+    {
+     "en": "Watch for signs when driving on the dual carriageway.",
+     "uk": "Слідкуйте за знаками, коли їдете дорогою з розділювальною смугою.",
+     "ru": "Следите за знаками, когда едете по дороге с разделительной полосой.",
+     "pl": "Uważaj na znaki, gdy jedziesz drogą dwujezdniową.",
+     "de": "Achten Sie auf Schilder, wenn Sie auf der vierspurigen Schnellstraße fahren.",
+     "fr": "Faites attention aux panneaux lorsque vous conduisez sur la route à quatre voies.",
+     "es": "Presta atención a las señales al conducir por la autovía.",
+     "it": "Fai attenzione ai segnali quando guidi sulla superstrada.",
+     "pt": "Fique atento às placas ao dirigir na pista dupla.",
+     "tr": "Bölünmüş yolda sürüş yaparken tabelalara dikkat edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.crash-barrier",
@@ -1199,7 +2711,34 @@
    },
    "ipa": {
     "en": "/kræʃ ˈbæriɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The crash barrier prevented the car from going off the road.",
+     "uk": "Відбійник не дав автомобілю з’їхати з дороги.",
+     "ru": "Отбойник не позволил машине съехать с дороги.",
+     "pl": "Bariera ochronna zapobiegła zjechaniu samochodu z drogi.",
+     "de": "Die Leitplanke verhinderte, dass das Auto von der Straße abkam.",
+     "fr": "La glissière de sécurité a empêché la voiture de sortir de la route.",
+     "es": "El guardarraíl evitó que el coche se saliera de la carretera.",
+     "it": "Il guardrail ha impedito all'auto di uscire dalla strada.",
+     "pt": "O guard-rail impediu o carro de sair da estrada.",
+     "tr": "Bariyer, aracın yoldan çıkmasını engelledi."
+    },
+    {
+     "en": "Drivers should be cautious near crash barriers.",
+     "uk": "Водії повинні бути обережними поблизу відбійників.",
+     "ru": "Водители должны быть осторожны рядом с отбойниками.",
+     "pl": "Kierowcy powinni być ostrożni w pobliżu barier ochronnych.",
+     "de": "Fahrer sollten in der Nähe von Leitplanken vorsichtig sein.",
+     "fr": "Les conducteurs doivent être prudents près des glissières de sécurité.",
+     "es": "Los conductores deben tener cuidado cerca de los guardarraíles.",
+     "it": "I conducenti devono essere cauti vicino ai guardrail.",
+     "pt": "Os motoristas devem ter cuidado perto dos guard-rails.",
+     "tr": "Sürücüler, bariyerlerin yakınında dikkatli olmalıdır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.battery-range",
@@ -1220,7 +2759,34 @@
    },
    "ipa": {
     "en": "/ˈbætɚi reɪndʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The electric car has a battery range of 300 kilometers.",
+     "uk": "Електромобіль має запас ходу 300 кілометрів.",
+     "ru": "Электромобиль имеет запас хода 300 километров.",
+     "pl": "Samochód elektryczny ma zasięg 300 kilometrów.",
+     "de": "Das Elektroauto hat eine Reichweite von 300 Kilometern.",
+     "fr": "La voiture électrique a une autonomie de 300 kilomètres.",
+     "es": "El coche eléctrico tiene una autonomía de 300 kilómetros.",
+     "it": "L'auto elettrica ha un'autonomia di 300 chilometri.",
+     "pt": "O carro elétrico tem uma autonomia de 300 quilômetros.",
+     "tr": "Elektrikli aracın menzili 300 kilometredir."
+    },
+    {
+     "en": "Check the battery range before starting your journey.",
+     "uk": "Перевірте запас ходу перед початком подорожі.",
+     "ru": "Проверьте запас хода перед началом поездки.",
+     "pl": "Sprawdź zasięg przed rozpoczęciem podróży.",
+     "de": "Überprüfen Sie die Reichweite, bevor Sie Ihre Reise beginnen.",
+     "fr": "Vérifiez l'autonomie avant de commencer votre voyage.",
+     "es": "Verifique la autonomía antes de comenzar su viaje.",
+     "it": "Controlla l'autonomia prima di iniziare il tuo viaggio.",
+     "pt": "Verifique a autonomia antes de iniciar sua viagem.",
+     "tr": "Yola çıkmadan önce menzili kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.road-tax",
@@ -1241,7 +2807,34 @@
    },
    "ipa": {
     "en": "/roʊd tæks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You must pay road tax every year to drive legally.",
+     "uk": "Ви повинні платити дорожній податок щороку, щоб їздити легально.",
+     "ru": "Вы должны платить дорожный налог каждый год, чтобы ездить легально.",
+     "pl": "Musisz płacić podatek drogowy co roku, aby jeździć legalnie.",
+     "de": "Sie müssen die Kfz-Steuer jedes Jahr zahlen, um legal zu fahren.",
+     "fr": "Vous devez payer la taxe sur les véhicules chaque année pour conduire légalement.",
+     "es": "Debes pagar el impuesto de circulación cada año para conducir legalmente.",
+     "it": "Devi pagare il bollo auto ogni anno per guidare legalmente.",
+     "pt": "Você deve pagar o IPVA todo ano para dirigir legalmente.",
+     "tr": "Yasal olarak sürmek için her yıl motorlu taşıtlar vergisini ödemelisiniz."
+    },
+    {
+     "en": "Check your road tax status online for updates.",
+     "uk": "Перевірте статус дорожнього податку онлайн для оновлень.",
+     "ru": "Проверьте статус дорожного налога онлайн для обновлений.",
+     "pl": "Sprawdź status podatku drogowego online, aby uzyskać aktualizacje.",
+     "de": "Überprüfen Sie Ihren Kfz-Steuerstatus online auf Aktualisierungen.",
+     "fr": "Vérifiez votre statut de taxe sur les véhicules en ligne pour les mises à jour.",
+     "es": "Verifica tu estado de impuesto de circulación en línea para actualizaciones.",
+     "it": "Controlla il tuo stato del bollo auto online per aggiornamenti.",
+     "pt": "Verifique seu status do IPVA online para atualizações.",
+     "tr": "Güncellemeler için çevrimiçi olarak motorlu taşıtlar vergisi durumunuzu kontrol edin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-collide",
@@ -1262,7 +2855,34 @@
    },
    "ipa": {
     "en": "/kəˈlaɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The two cars collided at the intersection.",
+     "uk": "Два автомобілі зіткнулися на перехресті.",
+     "ru": "Два автомобиля столкнулись на перекрестке.",
+     "pl": "Dwa samochody zderzyły się na skrzyżowaniu.",
+     "de": "Die beiden Autos sind an der Kreuzung zusammengestoßen.",
+     "fr": "Les deux voitures sont entrées en collision au carrefour.",
+     "es": "Los dos coches chocaron en la intersección.",
+     "it": "Le due auto si sono scontrate all'incrocio.",
+     "pt": "Os dois carros colidiram na interseção.",
+     "tr": "İki araba kavşakta çarpıştı."
+    },
+    {
+     "en": "Avoid distractions to prevent accidents from colliding.",
+     "uk": "Уникайте відволікань, щоб запобігти зіткненням.",
+     "ru": "Избегайте отвлечений, чтобы предотвратить столкновения.",
+     "pl": "Unikaj rozproszeń, aby zapobiec wypadkom.",
+     "de": "Vermeiden Sie Ablenkungen, um Unfälle durch Zusammenstöße zu verhindern.",
+     "fr": "Évitez les distractions pour prévenir les accidents de collision.",
+     "es": "Evita distracciones para prevenir accidentes de choque.",
+     "it": "Evita distrazioni per prevenire incidenti da scontro.",
+     "pt": "Evite distrações para prevenir acidentes de colisão.",
+     "tr": "Çarpışmaları önlemek için dikkat dağıtıcı şeylerden kaçının."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.reckless-driving",
@@ -1283,7 +2903,34 @@
    },
    "ipa": {
     "en": "/ˈrɛkləs ˈdraɪvɪŋ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He got a ticket for reckless driving last week.",
+     "uk": "Він отримав штраф за безрозсудне водіння минулого тижня.",
+     "ru": "На прошлой неделе он получил штраф за безрассудное вождение.",
+     "pl": "W zeszłym tygodniu dostał mandat za brawurową jazdę.",
+     "de": "Er bekam letzte Woche einen Strafzettel für rücksichtsloses Fahren.",
+     "fr": "Il a reçu une amende pour conduite imprudente la semaine dernière.",
+     "es": "Recibió una multa por conducción temeraria la semana pasada.",
+     "it": "Ha ricevuto una multa per guida spericolata la settimana scorsa.",
+     "pt": "Ele recebeu uma multa por direção imprudente na semana passada.",
+     "tr": "Geçen hafta pervasız sürüşten ceza aldı."
+    },
+    {
+     "en": "Reckless driving can lead to serious accidents.",
+     "uk": "Безрозсудне водіння може призвести до серйозних аварій.",
+     "ru": "Безрассудное вождение может привести к серьезным авариям.",
+     "pl": "Brawurowa jazda może prowadzić do poważnych wypadków.",
+     "de": "Rücksichtsloses Fahren kann zu schweren Unfällen führen.",
+     "fr": "La conduite imprudente peut entraîner des accidents graves.",
+     "es": "La conducción temeraria puede provocar accidentes graves.",
+     "it": "La guida spericolata può portare a gravi incidenti.",
+     "pt": "A direção imprudente pode levar a acidentes graves.",
+     "tr": "Pervasız sürüş ciddi kazalara yol açabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.overcrowded",
@@ -1304,7 +2951,34 @@
    },
    "ipa": {
     "en": "/ˈoʊvɚˌkraʊdɪd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The train was overcrowded during rush hour.",
+     "uk": "Поїзд був переповнений під час години пік.",
+     "ru": "Поезд был переполнен в час пик.",
+     "pl": "Pociąg był przepełniony w godzinach szczytu.",
+     "de": "Der Zug war während der Hauptverkehrszeit überfüllt.",
+     "fr": "Le train était bondé pendant l'heure de pointe.",
+     "es": "El tren estaba abarrotado durante la hora pico.",
+     "it": "Il treno era sovraffollato durante l'ora di punta.",
+     "pt": "O trem estava superlotado durante o horário de pico.",
+     "tr": "Tren, yoğun saatlerde aşırı kalabalıktı."
+    },
+    {
+     "en": "Overcrowded buses can be uncomfortable for passengers.",
+     "uk": "Переповнені автобуси можуть бути незручними для пасажирів.",
+     "ru": "Переполненные автобусы могут быть неудобными для пассажиров.",
+     "pl": "Przepełnione autobusy mogą być niewygodne dla pasażerów.",
+     "de": "Überfüllte Busse können für die Fahrgäste unangenehm sein.",
+     "fr": "Les bus bondés peuvent être inconfortables pour les passagers.",
+     "es": "Los autobuses abarrotados pueden ser incómodos para los pasajeros.",
+     "it": "Gli autobus sovraffollati possono essere scomodi per i passeggeri.",
+     "pt": "Os ônibus superlotados podem ser desconfortáveis para os passageiros.",
+     "tr": "Aşırı kalabalık otobüsler yolcular için rahatsız edici olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.standing-room",
@@ -1325,7 +2999,34 @@
    },
    "ipa": {
     "en": "/ˈstændɪŋ rum/"
-   }
+   },
+   "exs": [
+    {
+     "en": "There are only standing room tickets available now.",
+     "uk": "Зараз доступні лише квитки на стоячі місця.",
+     "ru": "Сейчас доступны только билеты на стоячие места.",
+     "pl": "Teraz dostępne są tylko bilety na miejsca stojące.",
+     "de": "Jetzt sind nur Stehplatzkarten verfügbar.",
+     "fr": "Il n'y a que des billets pour places debout disponibles.",
+     "es": "Ahora solo hay boletos para plazas de pie disponibles.",
+     "it": "Ora ci sono solo biglietti per posti in piedi disponibili.",
+     "pt": "Agora só há ingressos para lugar em pé disponíveis.",
+     "tr": "Şu anda sadece ayakta durma yeri bileti mevcut."
+    },
+    {
+     "en": "The concert had limited standing room for fans.",
+     "uk": "На концерті було обмежене число стоячих місць для фанатів.",
+     "ru": "На концерте было ограниченное количество стоячих мест для фанатов.",
+     "pl": "Na koncercie było ograniczone miejsce stojące dla fanów.",
+     "de": "Das Konzert hatte nur begrenzte Stehplätze für Fans.",
+     "fr": "Le concert avait un nombre limité de places debout pour les fans.",
+     "es": "El concierto tenía un número limitado de plazas de pie para los fans.",
+     "it": "Il concerto aveva posti in piedi limitati per i fan.",
+     "pt": "O show tinha lugar em pé limitado para os fãs.",
+     "tr": "Konserde hayranlar için sınırlı ayakta durma yeri vardı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.reduced-fare",
@@ -1346,7 +3047,34 @@
    },
    "ipa": {
     "en": "/rəˈdust fɛr/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Students can apply for a reduced fare on public transport.",
+     "uk": "Студенти можуть подати заявку на пільговий проїзд у громадському транспорті.",
+     "ru": "Студенты могут подать заявку на льготный проезд в общественном транспорте.",
+     "pl": "Studenci mogą ubiegać się o bilet ulgowy w komunikacji miejskiej.",
+     "de": "Studenten können einen ermäßigten Fahrpreis für den öffentlichen Nahverkehr beantragen.",
+     "fr": "Les étudiants peuvent demander un tarif réduit pour les transports en commun.",
+     "es": "Los estudiantes pueden solicitar una tarifa reducida en el transporte público.",
+     "it": "Gli studenti possono richiedere una tariffa ridotta sui trasporti pubblici.",
+     "pt": "Os estudantes podem solicitar uma tarifa reduzida no transporte público.",
+     "tr": "Öğrenciler, toplu taşıma için indirimli bilet başvurusu yapabilir."
+    },
+    {
+     "en": "The reduced fare is available for seniors and children.",
+     "uk": "Пільговий проїзд доступний для пенсіонерів та дітей.",
+     "ru": "Льготный проезд доступен для пенсионеров и детей.",
+     "pl": "Bilet ulgowy jest dostępny dla seniorów i dzieci.",
+     "de": "Der ermäßigte Fahrpreis ist für Senioren und Kinder verfügbar.",
+     "fr": "Le tarif réduit est disponible pour les seniors et les enfants.",
+     "es": "La tarifa reducida está disponible para personas mayores y niños.",
+     "it": "La tariffa ridotta è disponibile per gli anziani e i bambini.",
+     "pt": "A tarifa reduzida está disponível para idosos e crianças.",
+     "tr": "İndirimli bilet, yaşlılar ve çocuklar için mevcuttur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-tap-your-card",
@@ -1367,7 +3095,34 @@
    },
    "ipa": {
     "en": "/tæp jɔr kɑrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Remember to tap your card before entering the bus.",
+     "uk": "Не забудьте прикласти картку перед входом в автобус.",
+     "ru": "Не забудьте приложить карту перед входом в автобус.",
+     "pl": "Pamiętaj, aby przyłożyć kartę przed wejściem do autobusu.",
+     "de": "Denken Sie daran, die Karte vor dem Betreten des Busses an den Leser zu halten.",
+     "fr": "N'oubliez pas de passer votre carte avant d'entrer dans le bus.",
+     "es": "Recuerda pasar la tarjeta antes de entrar al autobús.",
+     "it": "Ricorda di avvicinare la carta prima di entrare nell'autobus.",
+     "pt": "Lembre-se de passar o cartão antes de entrar no ônibus.",
+     "tr": "Otobüse girmeden önce kartı okutmayı unutmayın."
+    },
+    {
+     "en": "You need to tap your card to pay for the ride.",
+     "uk": "Вам потрібно прикласти картку, щоб оплатити поїздку.",
+     "ru": "Вам нужно приложить карту, чтобы оплатить поездку.",
+     "pl": "Musisz przyłożyć kartę, aby zapłacić za przejazd.",
+     "de": "Sie müssen die Karte an den Leser halten, um die Fahrt zu bezahlen.",
+     "fr": "Vous devez passer votre carte pour payer la course.",
+     "es": "Necesitas pasar la tarjeta para pagar el viaje.",
+     "it": "Devi avvicinare la carta per pagare il viaggio.",
+     "pt": "Você precisa passar o cartão para pagar a viagem.",
+     "tr": "Yolculuk için ödemek için kartı okutmalısınız."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.light-rail",
@@ -1388,7 +3143,34 @@
    },
    "ipa": {
     "en": "/laɪt reɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The light rail system connects the suburbs to the city.",
+     "uk": "Швидкісний трамвай з'єднує передмістя з містом.",
+     "ru": "Скоростной трамвай соединяет пригород с городом.",
+     "pl": "Szybki tramwaj łączy przedmieścia z miastem.",
+     "de": "Das Stadtbahnsystem verbindet die Vororte mit der Stadt.",
+     "fr": "Le métro léger relie les banlieues à la ville.",
+     "es": "El metro ligero conecta los suburbios con la ciudad.",
+     "it": "Il metropolitana leggera collega i sobborghi alla città.",
+     "pt": "O VLT conecta os subúrbios à cidade.",
+     "tr": "Hafif raylı sistem, banliyöleri şehre bağlıyor."
+    },
+    {
+     "en": "Many cities are investing in light rail infrastructure.",
+     "uk": "Багато міст інвестують у інфраструктуру швидкісного трамваю.",
+     "ru": "Многие города инвестируют в инфраструктуру скоростного трамвая.",
+     "pl": "Wiele miast inwestuje w infrastrukturę szybkiego tramwaju.",
+     "de": "Viele Städte investieren in die Stadtbahninfrastruktur.",
+     "fr": "De nombreuses villes investissent dans l'infrastructure du métro léger.",
+     "es": "Muchas ciudades están invirtiendo en infraestructura de metro ligero.",
+     "it": "Molte città stanno investendo nell'infrastruttura della metropolitana leggera.",
+     "pt": "Muitas cidades estão investindo em infraestrutura de VLT.",
+     "tr": "Birçok şehir hafif raylı sistem altyapısına yatırım yapıyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.monorail",
@@ -1409,7 +3191,34 @@
    },
    "ipa": {
     "en": "/ˈmɑnɚˌeɪl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The monorail offers a unique view of the city.",
+     "uk": "Монорейка пропонує унікальний вид на місто.",
+     "ru": "Монорельс предлагает уникальный вид на город.",
+     "pl": "Kolej jednoszynowa oferuje unikalny widok na miasto.",
+     "de": "Die Einschienenbahn bietet einen einzigartigen Blick auf die Stadt.",
+     "fr": "Le monorail offre une vue unique sur la ville.",
+     "es": "El monorraíl ofrece una vista única de la ciudad.",
+     "it": "La monorotaia offre una vista unica sulla città.",
+     "pt": "O monotrilho oferece uma vista única da cidade.",
+     "tr": "Monoray, şehrin benzersiz bir manzarasını sunuyor."
+    },
+    {
+     "en": "We rode the monorail during our trip to the expo.",
+     "uk": "Ми їздили на монорейці під час нашої поїздки на виставку.",
+     "ru": "Мы катались на монорельсе во время нашей поездки на выставку.",
+     "pl": "Podczas naszej podróży na wystawę jeździliśmy koleją jednoszynową.",
+     "de": "Wir fuhren mit der Einschienenbahn während unseres Ausflugs zur Messe.",
+     "fr": "Nous avons pris le monorail lors de notre voyage à l'exposition.",
+     "es": "Montamos en el monorraíl durante nuestro viaje a la expo.",
+     "it": "Abbiamo preso la monorotaia durante il nostro viaggio all'expo.",
+     "pt": "Andamos no monotrilho durante nossa viagem à exposição.",
+     "tr": "Fuar gezimiz sırasında monorayda yolculuk yaptık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.funicular",
@@ -1430,7 +3239,34 @@
    },
    "ipa": {
     "en": "/fjuˈnɪkjəlɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The funicular takes you up the steep hill.",
+     "uk": "Фунікулер піднімає вас на крутий пагорб.",
+     "ru": "Фуникулер поднимает вас на крутой холм.",
+     "pl": "Funiklar zabiera cię na stromy wzgórze.",
+     "de": "Die Standseilbahn bringt Sie den steilen Hügel hinauf.",
+     "fr": "Le funiculaire vous emmène au sommet de la colline.",
+     "es": "El funicular te lleva a la cima de la colina.",
+     "it": "La funicolare ti porta su per la ripida collina.",
+     "pt": "O funicular leva você morro acima.",
+     "tr": "Füniküler, sizi dik tepeye çıkarır."
+    },
+    {
+     "en": "We enjoyed the view from the funicular's cabin.",
+     "uk": "Ми насолоджувалися видом з кабіни фунікулера.",
+     "ru": "Мы наслаждались видом из кабины фуникулера.",
+     "pl": "Cieszyliśmy się widokiem z kabiny kolejki linowo-terenowej.",
+     "de": "Wir genossen die Aussicht aus der Kabine der Standseilbahn.",
+     "fr": "Nous avons apprécié la vue depuis la cabine du funiculaire.",
+     "es": "Disfrutamos de la vista desde la cabina del funicular.",
+     "it": "Abbiamo goduto della vista dalla cabina della funicolare.",
+     "pt": "Aproveitamos a vista da cabine do funicular.",
+     "tr": "Fünikülerin kabininden manzaranın tadını çıkardık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.container-ship",
@@ -1451,7 +3287,34 @@
    },
    "ipa": {
     "en": "/kənˈteɪnɚ ʃɪp/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The container ship docked at the port early in the morning.",
+     "uk": "Контейнеровоз пришвартувався в порту рано вранці.",
+     "ru": "Контейнеровоз пришвартовался в порту рано утром.",
+     "pl": "Kontenerowiec przybił do portu wcześnie rano.",
+     "de": "Das Containerschiff legte frühmorgens im Hafen an.",
+     "fr": "Le porte-conteneurs a accosté au port tôt le matin.",
+     "es": "El buque portacontenedores atracó en el puerto temprano por la mañana.",
+     "it": "La nave portacontainer è attraccata al porto di prima mattina.",
+     "pt": "O navio porta-contêineres atracou no porto cedo pela manhã.",
+     "tr": "Konteyner gemisi sabah erken saatlerde limana yanaştı."
+    },
+    {
+     "en": "Container ships transport goods across the oceans.",
+     "uk": "Контейнеровози перевозять вантажі через океани.",
+     "ru": "Контейнеровозы перевозят грузы через океаны.",
+     "pl": "Kontenerowce transportują towary przez oceany.",
+     "de": "Containerschiffe transportieren Waren über die Ozeane.",
+     "fr": "Les porte-conteneurs transportent des marchandises à travers les océans.",
+     "es": "Los buques portacontenedores transportan mercancías a través de los océanos.",
+     "it": "Le navi portacontainer trasportano merci attraverso gli oceani.",
+     "pt": "Os navios porta-contêineres transportam mercadorias pelos oceanos.",
+     "tr": "Konteyner gemileri, eşyaları okyanuslar boyunca taşır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.dock",
@@ -1472,7 +3335,34 @@
    },
    "ipa": {
     "en": "/dɑk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The ship is waiting at the dock for repairs.",
+     "uk": "Корабель чекає в доку на ремонт.",
+     "ru": "Корабль ждет в доке ремонта.",
+     "pl": "Statek czeka w doku na naprawy.",
+     "de": "Das Schiff wartet im Dock auf Reparaturen.",
+     "fr": "Le navire attend au quai pour des réparations.",
+     "es": "El barco está esperando en el muelle para reparaciones.",
+     "it": "La nave è in attesa al molo per riparazioni.",
+     "pt": "O navio está esperando no doca para reparos.",
+     "tr": "Gemi, onarımlar için rıhtımda bekliyor."
+    },
+    {
+     "en": "We walked along the dock, enjoying the sea breeze.",
+     "uk": "Ми гуляли по доку, насолоджуючись морським бризом.",
+     "ru": "Мы гуляли по доку, наслаждаясь морским бризом.",
+     "pl": "Spacerowaliśmy po doku, ciesząc się morską bryzą.",
+     "de": "Wir gingen entlang des Docks und genossen die Meeresbrise.",
+     "fr": "Nous avons marché le long du quai en profitant de la brise marine.",
+     "es": "Caminamos por el muelle disfrutando de la brisa marina.",
+     "it": "Abbiamo camminato lungo la banchina godendo della brezza marina.",
+     "pt": "Caminhamos ao longo da doca, aproveitando a brisa do mar.",
+     "tr": "Rıhtım boyunca yürüyerek deniz havasının tadını çıkardık."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.anchor",
@@ -1493,7 +3383,34 @@
    },
    "ipa": {
     "en": "/ˈæŋkɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The boat dropped anchor near the shore.",
+     "uk": "Човен скинув якір біля берега.",
+     "ru": "Лодка бросила якорь у берега.",
+     "pl": "Łódź opuściła kotwicę blisko brzegu.",
+     "de": "Das Boot ließ den Anker in der Nähe des Ufers fallen.",
+     "fr": "Le bateau a jeté l'ancre près de la côte.",
+     "es": "El barco echó el ancla cerca de la orilla.",
+     "it": "La barca ha gettato l'ancora vicino alla riva.",
+     "pt": "O barco lançou a âncora perto da costa.",
+     "tr": "Bot, kıyıya yakın çapa attı."
+    },
+    {
+     "en": "He used an anchor to secure the boat.",
+     "uk": "Він використав якір, щоб закріпити човен.",
+     "ru": "Он использовал якорь, чтобы закрепить лодку.",
+     "pl": "Użył kotwicy, aby zabezpieczyć łódź.",
+     "de": "Er benutzte einen Anker, um das Boot zu sichern.",
+     "fr": "Il a utilisé une ancre pour sécuriser le bateau.",
+     "es": "Usó un ancla para asegurar el barco.",
+     "it": "Ha usato un'ancora per fissare la barca.",
+     "pt": "Ele usou uma âncora para segurar o barco.",
+     "tr": "Botu güvence altına almak için çapa kullandı."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.transport-hub",
@@ -1514,7 +3431,34 @@
    },
    "ipa": {
     "en": "/trænˈspɔrt hʌb/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The city is known for its efficient transport hub.",
+     "uk": "Місто відоме своїм ефективним транспортним вузлом.",
+     "ru": "Город известен своим эффективным транспортным узлом.",
+     "pl": "Miasto jest znane z efektywnego węzła komunikacyjnego.",
+     "de": "Die Stadt ist bekannt für ihren effizienten Verkehrsknotenpunkt.",
+     "fr": "La ville est connue pour son pôle d'échanges efficace.",
+     "es": "La ciudad es conocida por su eficiente intercambiador.",
+     "it": "La città è conosciuta per il suo efficiente nodo di trasporto.",
+     "pt": "A cidade é conhecida por seu polo de transporte eficiente.",
+     "tr": "Şehir, verimli bir ulaşım merkezi ile tanınır."
+    },
+    {
+     "en": "They built a new transport hub downtown.",
+     "uk": "Вони побудували новий транспортний вузол в центрі міста.",
+     "ru": "Они построили новый транспортный узел в центре города.",
+     "pl": "Zbudowali nowy węzeł komunikacyjny w centrum.",
+     "de": "Sie haben einen neuen Verkehrsknotenpunkt in der Innenstadt gebaut.",
+     "fr": "Ils ont construit un nouveau pôle d'échanges au centre-ville.",
+     "es": "Construyeron un nuevo intercambiador en el centro de la ciudad.",
+     "it": "Hanno costruito un nuovo nodo di trasporto in centro.",
+     "pt": "Construíram um novo polo de transporte no centro da cidade.",
+     "tr": "Şehir merkezine yeni bir ulaşım merkezi inşa ettiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.road-network",
@@ -1535,7 +3479,34 @@
    },
    "ipa": {
     "en": "/roʊd ˈnɛˌtwɝk/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The road network in this area is very developed.",
+     "uk": "Дорожня мережа в цій області дуже розвинена.",
+     "ru": "Дорожная сеть в этом районе очень развита.",
+     "pl": "Sieć drogowa w tej okolicy jest bardzo rozwinięta.",
+     "de": "Das Straßennetz in dieser Gegend ist sehr entwickelt.",
+     "fr": "Le réseau routier dans cette région est très développé.",
+     "es": "La red de carreteras en esta zona está muy desarrollada.",
+     "it": "La rete stradale in quest'area è molto sviluppata.",
+     "pt": "A malha rodoviária nesta área é muito desenvolvida.",
+     "tr": "Bu bölgedeki karayolu ağı çok gelişmiş."
+    },
+    {
+     "en": "They are improving the road network for better traffic flow.",
+     "uk": "Вони покращують дорожню мережу для кращого руху.",
+     "ru": "Они улучшают дорожную сеть для лучшего движения.",
+     "pl": "Poprawiają sieć drogową, aby zwiększyć płynność ruchu.",
+     "de": "Sie verbessern das Straßennetz für einen besseren Verkehrsfluss.",
+     "fr": "Ils améliorent le réseau routier pour un meilleur flux de trafic.",
+     "es": "Están mejorando la red de carreteras para un mejor flujo de tráfico.",
+     "it": "Stanno migliorando la rete stradale per un migliore flusso di traffico.",
+     "pt": "Estão melhorando a malha rodoviária para um melhor fluxo de tráfego.",
+     "tr": "Daha iyi trafik akışı için karayolu ağını geliştiriyorlar."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.bypass",
@@ -1556,7 +3527,34 @@
    },
    "ipa": {
     "en": "/ˈbaɪˌpæs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The bypass helps reduce traffic in the city.",
+     "uk": "Об'їзна дорога допомагає зменшити рух у місті.",
+     "ru": "Объездная дорога помогает снизить движение в городе.",
+     "pl": "Obwodnica pomaga zmniejszyć ruch w mieście.",
+     "de": "Die Umgehungsstraße hilft, den Verkehr in der Stadt zu reduzieren.",
+     "fr": "Le contournement aide à réduire le trafic dans la ville.",
+     "es": "La variante ayuda a reducir el tráfico en la ciudad.",
+     "it": "La circonvallazione aiuta a ridurre il traffico in città.",
+     "pt": "O contorno rodoviário ajuda a reduzir o tráfego na cidade.",
+     "tr": "Çevre yolu, şehirdeki trafiği azaltmaya yardımcı oluyor."
+    },
+    {
+     "en": "They built a new bypass around the town.",
+     "uk": "Вони побудували нову об'їзну дорогу навколо міста.",
+     "ru": "Они построили новую объездную дорогу вокруг города.",
+     "pl": "Zbudowali nową obwodnicę wokół miasta.",
+     "de": "Sie haben eine neue Umgehungsstraße um die Stadt gebaut.",
+     "fr": "Ils ont construit un nouveau contournement autour de la ville.",
+     "es": "Construyeron una nueva variante alrededor del pueblo.",
+     "it": "Hanno costruito una nuova circonvallazione attorno alla città.",
+     "pt": "Construíram um novo contorno rodoviário ao redor da cidade.",
+     "tr": "Şehrin etrafında yeni bir çevre yolu inşa ettiler."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.toll-booth",
@@ -1577,7 +3575,34 @@
    },
    "ipa": {
     "en": "/toʊl buθ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "We stopped at the toll booth to pay.",
+     "uk": "Ми зупинилися на пункті оплати проїзду.",
+     "ru": "Мы остановились на пункте оплаты проезда.",
+     "pl": "Zatrzymaliśmy się przy punkcie poboru opłat.",
+     "de": "Wir hielten an der Mautstelle, um zu bezahlen.",
+     "fr": "Nous nous sommes arrêtés au péage pour payer.",
+     "es": "Nos detuvimos en la cabina de peaje para pagar.",
+     "it": "Ci siamo fermati al casello per pagare.",
+     "pt": "Paramos na praça de pedágio para pagar.",
+     "tr": "Ödeme yapmak için gişede durduk."
+    },
+    {
+     "en": "The toll booth was busy during rush hour.",
+     "uk": "Пункт оплати проїзду був зайнятий під час годин пік.",
+     "ru": "Пункт оплаты проезда был занят в час пик.",
+     "pl": "Punkt poboru opłat był zajęty w godzinach szczytu.",
+     "de": "Die Mautstelle war während der Hauptverkehrszeit beschäftigt.",
+     "fr": "Le péage était occupé pendant les heures de pointe.",
+     "es": "La cabina de peaje estaba ocupada durante la hora pico.",
+     "it": "Il casello era occupato durante l'ora di punta.",
+     "pt": "A praça de pedágio estava ocupada durante o horário de pico.",
+     "tr": "Gişe, yoğun saatlerde meşguldü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.to-jump-start",
@@ -1598,7 +3623,34 @@
    },
    "ipa": {
     "en": "/dʒʌmp stɑrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I had to jump-start my car this morning.",
+     "uk": "Сьогодні вранці мені довелося прикурити авто.",
+     "ru": "Мне пришлось прикурить машину сегодня утром.",
+     "pl": "Musiałem odpalić na kable mój samochód dzisiaj rano.",
+     "de": "Ich musste heute Morgen Starthilfe geben.",
+     "fr": "J'ai dû démarrer avec des câbles ce matin.",
+     "es": "Tuve que arrancar con pinzas mi coche esta mañana.",
+     "it": "Ho dovuto avviare con i cavi la mia auto stamattina.",
+     "pt": "Tive que fazer chupeta no meu carro esta manhã.",
+     "tr": "Bu sabah arabayı takviye kablosuyla çalıştırmak zorunda kaldım."
+    },
+    {
+     "en": "Can you help me jump-start my car?",
+     "uk": "Ти можеш допомогти мені прикурити авто?",
+     "ru": "Ты можешь помочь мне прикурить машину?",
+     "pl": "Możesz mi pomóc odpalić na kable samochód?",
+     "de": "Kannst du mir helfen, das Auto zu überbrücken?",
+     "fr": "Peux-tu m'aider à démarrer avec des câbles ma voiture?",
+     "es": "¿Puedes ayudarme a arrancar con pinzas mi coche?",
+     "it": "Puoi aiutarmi ad avviare con i cavi la mia auto?",
+     "pt": "Você pode me ajudar a fazer chupeta no meu carro?",
+     "tr": "Arabayı takviye kablosuyla çalıştırmama yardım edebilir misin?"
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.brake-pads",
@@ -1619,7 +3671,34 @@
    },
    "ipa": {
     "en": "/breɪk pædz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I need to replace my brake pads soon.",
+     "uk": "Мені потрібно незабаром замінити гальмівні колодки.",
+     "ru": "Мне нужно скоро заменить тормозные колодки.",
+     "pl": "Muszę wkrótce wymienić klocki hamulcowe.",
+     "de": "Ich muss bald meine Bremsbeläge ersetzen.",
+     "fr": "Je dois bientôt remplacer mes plaquettes de frein.",
+     "es": "Necesito reemplazar mis pastillas de freno pronto.",
+     "it": "Devo sostituire le pastiglie dei freni presto.",
+     "pt": "Preciso substituir minhas pastilhas de freio em breve.",
+     "tr": "Fren balatalarımı yakında değiştirmem gerekiyor."
+    },
+    {
+     "en": "The mechanic checked my brake pads for wear.",
+     "uk": "Механік перевірив мої гальмівні колодки на знос.",
+     "ru": "Механик проверил мои тормозные колодки на износ.",
+     "pl": "Mechanik sprawdził moje klocki hamulcowe pod kątem zużycia.",
+     "de": "Der Mechaniker hat meine Bremsbeläge auf Abnutzung überprüft.",
+     "fr": "Le mécanicien a vérifié mes plaquettes de frein pour l'usure.",
+     "es": "El mecánico revisó mis pastillas de freno por desgaste.",
+     "it": "Il meccanico ha controllato le mie pastiglie dei freni per usura.",
+     "pt": "O mecânico verificou minhas pastilhas de freio quanto ao desgaste.",
+     "tr": "Tamirci fren balatalarımı aşınma açısından kontrol etti."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-service",
@@ -1640,7 +3719,34 @@
    },
    "ipa": {
     "en": "/kɑr ˈsɝvəs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I scheduled a car service for next week.",
+     "uk": "Я запланував техобслуговування на наступний тиждень.",
+     "ru": "Я запланировал техобслуживание на следующую неделю.",
+     "pl": "Umówiłem przegląd samochodu na przyszły tydzień.",
+     "de": "Ich habe eine Inspektion für nächste Woche geplant.",
+     "fr": "J'ai programmé une révision pour la semaine prochaine.",
+     "es": "He programado una revisión para la próxima semana.",
+     "it": "Ho programmato un tagliando per la prossima settimana.",
+     "pt": "Agendei uma revisão para a próxima semana.",
+     "tr": "Gelecek hafta için araç bakımını planladım."
+    },
+    {
+     "en": "The car service took longer than expected.",
+     "uk": "Техобслуговування зайняло більше часу, ніж очікувалося.",
+     "ru": "Техобслуживание заняло больше времени, чем ожидалось.",
+     "pl": "Przegląd samochodu zajął więcej czasu, niż oczekiwano.",
+     "de": "Die Inspektion dauerte länger als erwartet.",
+     "fr": "La révision a duré plus longtemps que prévu.",
+     "es": "La revisión tardó más de lo esperado.",
+     "it": "Il tagliando ha impiegato più tempo del previsto.",
+     "pt": "A revisão demorou mais do que o esperado.",
+     "tr": "Araç bakımı beklenenden daha uzun sürdü."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.horsepower",
@@ -1661,7 +3767,34 @@
    },
    "ipa": {
     "en": "/ˈhɔrˌspaʊɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "This car has 200 horsepower under the hood.",
+     "uk": "Цей автомобіль має 200 кінських сил під капотом.",
+     "ru": "У этой машины 200 лошадиных сил под капотом.",
+     "pl": "Ten samochód ma 200 koni mechanicznych pod maską.",
+     "de": "Dieses Auto hat 200 Pferdestärken unter der Haube.",
+     "fr": "Cette voiture a 200 chevaux-vapeur sous le capot.",
+     "es": "Este coche tiene 200 caballos de vapor bajo el capó.",
+     "it": "Questa auto ha 200 cavalli vapore sotto il cofano.",
+     "pt": "Este carro tem 200 cavalos-vapor sob o capô.",
+     "tr": "Bu arabanın motorunda 200 beygir gücü var."
+    },
+    {
+     "en": "Horsepower is a measure of engine power.",
+     "uk": "Кінська сила - це міра потужності двигуна.",
+     "ru": "Лошадиная сила - это мера мощности двигателя.",
+     "pl": "Koń mechaniczny to miara mocy silnika.",
+     "de": "Pferdestärke ist ein Maß für die Motorleistung.",
+     "fr": "Le cheval-vapeur est une mesure de la puissance du moteur.",
+     "es": "El caballo de vapor es una medida de la potencia del motor.",
+     "it": "Il cavallo vapore è una misura della potenza del motore.",
+     "pt": "O cavalo-vapor é uma medida da potência do motor.",
+     "tr": "Beygir gücü, motor gücünün bir ölçüsüdür."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.traffic-warden",
@@ -1682,7 +3815,34 @@
    },
    "ipa": {
     "en": "/ˈtræfɪk ˈwɔrdən/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The traffic warden issued a ticket for illegal parking.",
+     "uk": "Інспектор з паркування виписав штраф за незаконну парковку.",
+     "ru": "Инспектор по парковке выписал штраф за незаконную парковку.",
+     "pl": "Strażnik miejski wystawił mandat za nielegalne parkowanie.",
+     "de": "Die Politesse stellte ein Ticket für illegales Parken aus.",
+     "fr": "Le contractuel a dressé un PV pour stationnement illégal.",
+     "es": "El controlador de aparcamiento emitió una multa por estacionamiento ilegal.",
+     "it": "L'ausiliario del traffico ha emesso un verbale per sosta illegale.",
+     "pt": "O agente de trânsito emitiu uma multa por estacionamento ilegal.",
+     "tr": "Trafik görevlisi, yasadışı park için ceza kesti."
+    },
+    {
+     "en": "A traffic warden is patrolling the parking lot.",
+     "uk": "Інспектор з паркування патрулює парковку.",
+     "ru": "Инспектор по парковке патрулирует парковку.",
+     "pl": "Strażnik miejski patroluje parking.",
+     "de": "Die Politesse patrouilliert auf dem Parkplatz.",
+     "fr": "Le contractuel patrouille dans le parking.",
+     "es": "El controlador de aparcamiento está patrullando el estacionamiento.",
+     "it": "L'ausiliario del traffico sta pattugliando il parcheggio.",
+     "pt": "O agente de trânsito está patrulhando o estacionamento.",
+     "tr": "Trafik görevlisi, otoparkta devriye geziyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-theft",
@@ -1703,7 +3863,34 @@
    },
    "ipa": {
     "en": "/kɑr θɛft/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Car theft is a serious issue in urban areas.",
+     "uk": "Викрадення автомобіля є серйозною проблемою в містах.",
+     "ru": "Угон автомобиля является серьезной проблемой в городах.",
+     "pl": "Kradzież samochodu to poważny problem w miastach.",
+     "de": "Autodiebstahl ist ein ernstes Problem in städtischen Gebieten.",
+     "fr": "Le vol de voiture est un problème sérieux dans les villes.",
+     "es": "El robo de coche es un problema serio en las ciudades.",
+     "it": "Il furto d'auto è un problema serio nelle città.",
+     "pt": "O roubo de carro é um problema sério nas cidades.",
+     "tr": "Araç hırsızlığı, şehirlerde ciddi bir sorundur."
+    },
+    {
+     "en": "Always lock your doors to prevent car theft.",
+     "uk": "Завжди зачиняйте двері, щоб уникнути викрадення автомобіля.",
+     "ru": "Всегда закрывайте двери, чтобы предотвратить угон автомобиля.",
+     "pl": "Zawsze zamykaj drzwi, aby zapobiec kradzieży samochodu.",
+     "de": "Schließen Sie immer Ihre Türen, um Autodiebstahl zu verhindern.",
+     "fr": "Fermez toujours vos portes pour éviter le vol de voiture.",
+     "es": "Siempre cierra tus puertas para prevenir el robo de coche.",
+     "it": "Chiudi sempre le porte per prevenire il furto d'auto.",
+     "pt": "Sempre feche suas portas para evitar o roubo de carro.",
+     "tr": "Araç hırsızlığını önlemek için her zaman kapılarınızı kilitleyin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.sustainable-transport",
@@ -1724,7 +3911,34 @@
    },
    "ipa": {
     "en": "/səˈsteɪnəbəl trænˈspɔrt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Cities should invest in sustainable transport solutions.",
+     "uk": "Міста повинні інвестувати в сталий транспорт.",
+     "ru": "Города должны инвестировать в экологичный транспорт.",
+     "pl": "Miasta powinny inwestować w transport zrównoważony.",
+     "de": "Städte sollten in nachhaltige Verkehrslösungen investieren.",
+     "fr": "Les villes devraient investir dans des solutions de transport durable.",
+     "es": "Las ciudades deberían invertir en soluciones de transporte sostenible.",
+     "it": "Le città dovrebbero investire in soluzioni di trasporto sostenibile.",
+     "pt": "As cidades devem investir em soluções de transporte sustentável.",
+     "tr": "Şehirler sürdürülebilir ulaşım çözümlerine yatırım yapmalıdır."
+    },
+    {
+     "en": "Using bicycles is a form of sustainable transport.",
+     "uk": "Використання велосипедів є формою сталого транспорту.",
+     "ru": "Использование велосипедов — это форма экологичного транспорта.",
+     "pl": "Używanie rowerów to forma transportu zrównoważonego.",
+     "de": "Die Nutzung von Fahrrädern ist eine Form des nachhaltigen Verkehrs.",
+     "fr": "Utiliser des vélos est une forme de transport durable.",
+     "es": "Usar bicicletas es una forma de transporte sostenible.",
+     "it": "Usare biciclette è una forma di trasporto sostenibile.",
+     "pt": "Usar bicicletas é uma forma de transporte sustentável.",
+     "tr": "Bisiklet kullanmak sürdürülebilir ulaşımın bir biçimidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.winter-tires",
@@ -1745,7 +3959,34 @@
    },
    "ipa": {
     "en": "/ˈwɪntɚ ˈtaɪɚz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Make sure to install winter tires before the snow falls.",
+     "uk": "Переконайтеся, що встановили зимові шини перед снігом.",
+     "ru": "Убедитесь, что установили зимние шины перед снегом.",
+     "pl": "Upewnij się, że założyłeś opony zimowe przed śniegiem.",
+     "de": "Stellen Sie sicher, dass Sie Winterreifen vor dem Schnee montieren.",
+     "fr": "Assurez-vous d'installer des pneus hiver avant la neige.",
+     "es": "Asegúrate de instalar neumáticos de invierno antes de la nieve.",
+     "it": "Assicurati di installare pneumatici invernali prima della neve.",
+     "pt": "Certifique-se de instalar pneus de inverno antes da neve.",
+     "tr": "Kar yağmadan önce kış lastiklerini takmayı unutmayın."
+    },
+    {
+     "en": "Winter tires improve traction on icy roads.",
+     "uk": "Зимові шини покращують зчеплення на слизьких дорогах.",
+     "ru": "Зимние шины улучшают сцепление на ледяных дорогах.",
+     "pl": "Opony zimowe poprawiają przyczepność na oblodzonych drogach.",
+     "de": "Winterreifen verbessern die Traktion auf eisigen Straßen.",
+     "fr": "Les pneus hiver améliorent l'adhérence sur les routes glissantes.",
+     "es": "Los neumáticos de invierno mejoran la tracción en carreteras heladas.",
+     "it": "I pneumatici invernali migliorano la trazione su strade ghiacciate.",
+     "pt": "Os pneus de inverno melhoram a tração em estradas geladas.",
+     "tr": "Kış lastıkları, buzlu yollarda tutuşu artırır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.snow-chains",
@@ -1766,7 +4007,34 @@
    },
    "ipa": {
     "en": "/snoʊ tʃeɪnz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Snow chains are essential for driving in heavy snow.",
+     "uk": "Ланцюги проти ковзання необхідні для їзди у важкому снігу.",
+     "ru": "Цепи противоскольжения необходимы для вождения в сильный снег.",
+     "pl": "Łańcuchy śniegowe są niezbędne do jazdy w dużym śniegu.",
+     "de": "Schneeketten sind unerlässlich für das Fahren im starken Schnee.",
+     "fr": "Les chaînes à neige sont essentielles pour conduire dans la neige épaisse.",
+     "es": "Las cadenas para la nieve son esenciales para conducir en nieve intensa.",
+     "it": "Le catene da neve sono essenziali per guidare nella neve pesante.",
+     "pt": "As correntes para neve são essenciais para dirigir na neve pesada.",
+     "tr": "Kar zincirleri, yoğun karla sürüş için gereklidir."
+    },
+    {
+     "en": "Always carry snow chains in winter for safety.",
+     "uk": "Завжди носіть ланцюги проти ковзання взимку для безпеки.",
+     "ru": "Всегда носите цепи противоскольжения зимой для безопасности.",
+     "pl": "Zawsze noś łańcuchy śniegowe zimą dla bezpieczeństwa.",
+     "de": "Tragen Sie immer Schneeketten im Winter zur Sicherheit.",
+     "fr": "Portez toujours des chaînes à neige en hiver pour votre sécurité.",
+     "es": "Siempre lleva cadenas para la nieve en invierno por seguridad.",
+     "it": "Porta sempre catene da neve in inverno per sicurezza.",
+     "pt": "Sempre leve correntes para neve no inverno por segurança.",
+     "tr": "Kışın güvenlik için her zaman kar zinciri taşıyın."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.visibility",
@@ -1787,7 +4055,34 @@
    },
    "ipa": {
     "en": "/ˌvɪzəˈbɪlɪti/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Good visibility is crucial for safe driving.",
+     "uk": "Добра видимість є важливою для безпечного водіння.",
+     "ru": "Хорошая видимость имеет решающее значение для безопасного вождения.",
+     "pl": "Dobra widoczność jest kluczowa dla bezpiecznej jazdy.",
+     "de": "Gute Sicht ist entscheidend für sicheres Fahren.",
+     "fr": "Une bonne visibilité est cruciale pour conduire en toute sécurité.",
+     "es": "Una buena visibilidad es crucial para conducir de manera segura.",
+     "it": "Una buona visibilità è cruciale per una guida sicura.",
+     "pt": "Uma boa visibilidade é crucial para dirigir com segurança.",
+     "tr": "İyi görüş mesafesi, güvenli sürüş için çok önemlidir."
+    },
+    {
+     "en": "Fog can reduce visibility on the road significantly.",
+     "uk": "Туман може значно зменшити видимість на дорозі.",
+     "ru": "Туман может значительно снизить видимость на дороге.",
+     "pl": "Mgła może znacznie zmniejszyć widoczność na drodze.",
+     "de": "Nebel kann die Sicht auf der Straße erheblich beeinträchtigen.",
+     "fr": "Le brouillard peut réduire considérablement la visibilité sur la route.",
+     "es": "La niebla puede reducir significativamente la visibilidad en la carretera.",
+     "it": "La nebbia può ridurre significativamente la visibilità sulla strada.",
+     "pt": "O nevoeiro pode reduzir significativamente a visibilidade na estrada.",
+     "tr": "Sis, yolda görüş mesafesini önemli ölçüde azaltabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.fog-lights",
@@ -1808,7 +4103,34 @@
    },
    "ipa": {
     "en": "/fɑɡ laɪts/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Use fog lights when driving in thick fog.",
+     "uk": "Використовуйте протитуманні фари при їзді в густому тумані.",
+     "ru": "Используйте противотуманные фары при вождении в густом тумане.",
+     "pl": "Używaj świateł przeciwmgielnych podczas jazdy w gęstej mgle.",
+     "de": "Verwenden Sie Nebelscheinwerfer beim Fahren im dichten Nebel.",
+     "fr": "Utilisez les feux antibrouillard lorsque vous conduisez dans le brouillard épais.",
+     "es": "Usa faros antiniebla al conducir en niebla densa.",
+     "it": "Usa i fendinebbia quando guidi nella nebbia fitta.",
+     "pt": "Use faróis de neblina ao dirigir em neblina densa.",
+     "tr": "Yoğun sisli havada sürerken sis farlarını kullanın."
+    },
+    {
+     "en": "Fog lights help improve visibility in poor conditions.",
+     "uk": "Протитуманні фари допомагають покращити видимість в поганих умовах.",
+     "ru": "Противотуманные фары помогают улучшить видимость в плохих условиях.",
+     "pl": "Światła przeciwmgielne pomagają poprawić widoczność w złych warunkach.",
+     "de": "Nebelscheinwerfer helfen, die Sicht bei schlechten Bedingungen zu verbessern.",
+     "fr": "Les feux antibrouillard aident à améliorer la visibilité dans de mauvaises conditions.",
+     "es": "Los faros antiniebla ayudan a mejorar la visibilidad en malas condiciones.",
+     "it": "I fendinebbia aiutano a migliorare la visibilità in condizioni avverse.",
+     "pt": "Os faróis de neblina ajudam a melhorar a visibilidade em condições ruins.",
+     "tr": "Sis farları, kötü koşullarda görünürlüğü artırmaya yardımcı olur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.high-beams",
@@ -1829,7 +4151,34 @@
    },
    "ipa": {
     "en": "/haɪ bimz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Use high beams on dark country roads for better visibility.",
+     "uk": "Використовуйте дальнє світло на темних сільських дорогах.",
+     "ru": "Используйте дальний свет на темных загородных дорогах.",
+     "pl": "Używaj świateł drogowych na ciemnych wiejskich drogach.",
+     "de": "Verwenden Sie das Fernlicht auf dunklen Landstraßen für bessere Sicht.",
+     "fr": "Utilisez les feux de route sur les routes de campagne sombres.",
+     "es": "Usa luces largas en carreteras rurales oscuras para mejor visibilidad.",
+     "it": "Usa gli abbaglianti su strade di campagna buie per una migliore visibilità.",
+     "pt": "Use farol alto em estradas rurais escuras para melhor visibilidade.",
+     "tr": "Karanlık köy yollarında daha iyi görünürlük için uzun farları kullanın."
+    },
+    {
+     "en": "Switch to high beams when there are no oncoming cars.",
+     "uk": "Перемикайте на дальнє світло, коли немає зустрічних автомобілів.",
+     "ru": "Переключайтесь на дальний свет, когда нет встречных машин.",
+     "pl": "Przełącz na światła drogowe, gdy nie ma nadjeżdżających samochodów.",
+     "de": "Schalten Sie auf Fernlicht um, wenn keine entgegenkommenden Autos kommen.",
+     "fr": "Passez aux feux de route lorsqu'il n'y a pas de voitures venant en sens inverse.",
+     "es": "Cambia a luces largas cuando no hay coches que vienen.",
+     "it": "Passa agli abbaglianti quando non ci sono auto in arrivo.",
+     "pt": "Mude para farol alto quando não há carros vindo.",
+     "tr": "Gelen araç yoksa uzun farlara geçin."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.convertible",
@@ -1850,7 +4199,34 @@
    },
    "ipa": {
     "en": "/kənˈvɝtəbəl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "I love driving my convertible on sunny days.",
+     "uk": "Я люблю їздити на своєму кабріолеті в сонячні дні.",
+     "ru": "Мне нравится ездить на своем кабриолет в солнечные дни.",
+     "pl": "Uwielbiam jeździć moim kabrioletem w słoneczne dni.",
+     "de": "Ich liebe es, an sonnigen Tagen mit meinem Cabrio zu fahren.",
+     "fr": "J'adore conduire mon cabriolet les jours ensoleillés.",
+     "es": "Me encanta conducir mi descapotable en días soleados.",
+     "it": "Adoro guidare il mio cabriolet nelle giornate di sole.",
+     "pt": "Adoro dirigir meu conversível em dias ensolarados.",
+     "tr": "Güneşli günlerde üstü açık arabamla sürmeyi seviyorum."
+    },
+    {
+     "en": "The convertible was perfect for our summer road trip.",
+     "uk": "Кабріолет був ідеальним для нашої літньої подорожі.",
+     "ru": "Кабриолет был идеален для нашего летнего путешествия.",
+     "pl": "Kabriolet był idealny na naszą letnią podróż.",
+     "de": "Das Cabrio war perfekt für unseren Sommerausflug.",
+     "fr": "Le cabriolet était parfait pour notre voyage d'été.",
+     "es": "El descapotable fue perfecto para nuestro viaje de verano.",
+     "it": "Il cabriolet era perfetto per il nostro viaggio estivo.",
+     "pt": "O conversível foi perfeito para nossa viagem de verão.",
+     "tr": "Kabriolet, yaz yolculuğumuz için mükemmeldi."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.sedan",
@@ -1871,7 +4247,34 @@
    },
    "ipa": {
     "en": "/səˈdæn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "My family prefers a sedan for long road trips.",
+     "uk": "Моя сім'я віддає перевагу седану для довгих подорожей.",
+     "ru": "Моя семья предпочитает седан для дальних поездок.",
+     "pl": "Moja rodzina woli sedan na długie podróże.",
+     "de": "Meine Familie bevorzugt eine Limousine für lange Reisen.",
+     "fr": "Ma famille préfère une berline pour les longs trajets.",
+     "es": "Mi familia prefiere una berlina para viajes largos.",
+     "it": "La mia famiglia preferisce una berlina per viaggi lunghi.",
+     "pt": "Minha família prefere um sedã para viagens longas.",
+     "tr": "Ailem, uzun yolculuklar için sedan tercih ediyor."
+    },
+    {
+     "en": "The sedan is spacious and comfortable for passengers.",
+     "uk": "Седан просторий і зручний для пасажирів.",
+     "ru": "Седан просторен и удобен для пассажиров.",
+     "pl": "Sedan jest przestronny i wygodny dla pasażerów.",
+     "de": "Die Limousine ist geräumig und komfortabel für Passagiere.",
+     "fr": "La berline est spacieuse et confortable pour les passagers.",
+     "es": "La berlina es espaciosa y cómoda para los pasajeros.",
+     "it": "La berlina è spaziosa e comoda per i passeggeri.",
+     "pt": "O sedã é espaçoso e confortável para os passageiros.",
+     "tr": "Sedan, yolcular için geniş ve rahattır."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.suv",
@@ -1892,7 +4295,34 @@
    },
    "ipa": {
     "en": "/ˌɛsˌjuˈvi/"
-   }
+   },
+   "exs": [
+    {
+     "en": "An SUV is great for off-road adventures.",
+     "uk": "Позашляховик ідеально підходить для позашляхових пригод.",
+     "ru": "Внедорожник отлично подходит для внедорожных приключений.",
+     "pl": "SUV jest świetny do przygód w terenie.",
+     "de": "Ein SUV ist großartig für Offroad-Abenteuer.",
+     "fr": "Un SUV est idéal pour les aventures tout-terrain.",
+     "es": "Un SUV es genial para aventuras fuera de la carretera.",
+     "it": "Un SUV è fantastico per avventure fuoristrada.",
+     "pt": "Um SUV é ótimo para aventuras fora de estrada.",
+     "tr": "Bir SUV, arazi maceraları için harikadır."
+    },
+    {
+     "en": "Many families choose an SUV for its space and safety.",
+     "uk": "Багато сімей обирають позашляховик за його простір і безпеку.",
+     "ru": "Многие семьи выбирают внедорожник за его пространство и безопасность.",
+     "pl": "Wiele rodzin wybiera SUV-a za jego przestronność i bezpieczeństwo.",
+     "de": "Viele Familien wählen einen SUV wegen seines Platzes und seiner Sicherheit.",
+     "fr": "De nombreuses familles choisissent un SUV pour son espace et sa sécurité.",
+     "es": "Muchas familias eligen un SUV por su espacio y seguridad.",
+     "it": "Molte famiglie scelgono un SUV per il suo spazio e sicurezza.",
+     "pt": "Muitas famílias escolhem um SUV por seu espaço e segurança.",
+     "tr": "Birçok aile, alanı ve güvenliği için SUV tercih ediyor."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.road-user",
@@ -1913,7 +4343,34 @@
    },
    "ipa": {
     "en": "/roʊd ˈjuzɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Every road user must follow the traffic rules.",
+     "uk": "Кожен учасник дорожнього руху повинен дотримуватись правил.",
+     "ru": "Каждый участник дорожного движения должен соблюдать правила.",
+     "pl": "Każdy uczestnik ruchu drogowego musi przestrzegać przepisów.",
+     "de": "Jeder Verkehrsteilnehmer muss die Verkehrsregeln befolgen.",
+     "fr": "Chaque usager de la route doit respecter le code de la route.",
+     "es": "Cada usuario de la vía debe seguir las normas de tráfico.",
+     "it": "Ogni utente della strada deve seguire le regole del traffico.",
+     "pt": "Todo usuário da via deve seguir as regras de trânsito.",
+     "tr": "Her yol kullanıcısı trafik kurallarına uymalı."
+    },
+    {
+     "en": "Cyclists are also considered road users in traffic.",
+     "uk": "Велосипедисти також вважаються учасниками дорожнього руху.",
+     "ru": "Велосипедисты также считаются участниками дорожного движения.",
+     "pl": "Rowerzyści są również uczestnikami ruchu drogowego.",
+     "de": "Radfahrer gelten auch als Verkehrsteilnehmer.",
+     "fr": "Les cyclistes sont également considérés comme des usagers de la route.",
+     "es": "Los ciclistas también son considerados usuarios de la vía.",
+     "it": "I ciclisti sono anche considerati utenti della strada.",
+     "pt": "Os ciclistas também são considerados usuários da via.",
+     "tr": "Bisikletliler de trafikte yol kullanıcısı olarak kabul edilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.delivery-driver",
@@ -1934,7 +4391,34 @@
    },
    "ipa": {
     "en": "/dɪˈlɪvɚi ˈdraɪvɚ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The delivery driver arrived with my package this morning.",
+     "uk": "Водій доставки приїхав з моєю посилкою сьогодні вранці.",
+     "ru": "Водитель доставки приехал с моей посылкой сегодня утром.",
+     "pl": "Kierowca dostawczy przyjechał z moją paczką dziś rano.",
+     "de": "Der Lieferfahrer kam heute Morgen mit meinem Paket an.",
+     "fr": "Le livreur est arrivé avec mon colis ce matin.",
+     "es": "El repartidor llegó con mi paquete esta mañana.",
+     "it": "Il fattorino è arrivato con il mio pacco stamattina.",
+     "pt": "O entregador chegou com meu pacote esta manhã.",
+     "tr": "Kurye bu sabah paketiyle geldi."
+    },
+    {
+     "en": "I tipped the delivery driver for his excellent service.",
+     "uk": "Я залишив чайові водію доставки за його відмінне обслуговування.",
+     "ru": "Я дал чаевые водителю доставки за его отличное обслуживание.",
+     "pl": "Dałem napiwek kierowcy dostawczemu za jego doskonałą obsługę.",
+     "de": "Ich gab dem Lieferfahrer ein Trinkgeld für seinen ausgezeichneten Service.",
+     "fr": "J'ai donné un pourboire au livreur pour son excellent service.",
+     "es": "Le di una propina al repartidor por su excelente servicio.",
+     "it": "Ho dato una mancia al fattorino per il suo ottimo servizio.",
+     "pt": "Dei uma gorjeta ao entregador pelo excelente serviço.",
+     "tr": "Kurye mükemmel hizmeti için bahşiş aldım."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.fuel-gauge",
@@ -1955,7 +4439,34 @@
    },
    "ipa": {
     "en": "/ˈfjuəl ɡeɪdʒ/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The fuel gauge shows that I need to refuel soon.",
+     "uk": "Покажчик палива показує, що мені потрібно заправити.",
+     "ru": "Указатель уровня топлива показывает, что мне нужно заправиться.",
+     "pl": "Wskaźnik paliwa pokazuje, że muszę wkrótce zatankować.",
+     "de": "Die Tankanzeige zeigt, dass ich bald tanken muss.",
+     "fr": "La jauge de carburant indique que je dois faire le plein bientôt.",
+     "es": "El indicador de combustible muestra que necesito repostar pronto.",
+     "it": "L'indicatore del carburante mostra che devo fare rifornimento presto.",
+     "pt": "O marcador de combustível mostra que preciso abastecer em breve.",
+     "tr": "Yakıt göstergesi, yakıt almam gerektiğini gösteriyor."
+    },
+    {
+     "en": "If the fuel gauge is low, find a gas station.",
+     "uk": "Якщо покажчик палива низький, знайдіть автозаправну станцію.",
+     "ru": "Если указатель уровня топлива низкий, найдите автозаправку.",
+     "pl": "Jeśli wskaźnik paliwa jest niski, znajdź stację benzynową.",
+     "de": "Wenn die Tankanzeige niedrig ist, suchen Sie eine Tankstelle.",
+     "fr": "Si la jauge de carburant est basse, trouvez une station-service.",
+     "es": "Si el indicador de combustible está bajo, busca una gasolinera.",
+     "it": "Se l'indicatore del carburante è basso, cerca una stazione di servizio.",
+     "pt": "Se o marcador de combustível estiver baixo, procure um posto de gasolina.",
+     "tr": "Eğer yakıt göstergesi düşükse, bir benzinci bul."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.lane-markings",
@@ -1976,7 +4487,34 @@
    },
    "ipa": {
     "en": "/leɪn ˈmɑrkɪŋz/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The lane markings help drivers stay in their lanes.",
+     "uk": "Дорожня розмітка допомагає водіям залишатися у своїх смугах.",
+     "ru": "Дорожная разметка помогает водителям оставаться в своих полосах.",
+     "pl": "Oznakowanie poziome pomaga kierowcom pozostać na swoich pasach.",
+     "de": "Die Fahrbahnmarkierungen helfen den Fahrern, in ihren Spuren zu bleiben.",
+     "fr": "Les marquages au sol aident les conducteurs à rester dans leur voie.",
+     "es": "Las marcas viales ayudan a los conductores a mantenerse en su carril.",
+     "it": "La segnaletica orizzontale aiuta gli automobilisti a rimanere nella loro corsia.",
+     "pt": "A sinalização horizontal ajuda os motoristas a manterem-se em suas faixas.",
+     "tr": "Yol çizgileri, sürücülerin şeritlerinde kalmasına yardımcı olur."
+    },
+    {
+     "en": "Always follow the lane markings when driving in traffic.",
+     "uk": "Завжди дотримуйтесь дорожньої розмітки під час водіння.",
+     "ru": "Всегда следуйте дорожной разметке при вождении.",
+     "pl": "Zawsze przestrzegaj oznakowania poziomego podczas jazdy.",
+     "de": "Befolgen Sie immer die Fahrbahnmarkierungen beim Fahren.",
+     "fr": "Suivez toujours le marquage au sol lorsque vous conduisez.",
+     "es": "Siempre sigue las marcas viales al conducir.",
+     "it": "Segui sempre la segnaletica orizzontale quando guidi.",
+     "pt": "Sempre siga a sinalização horizontal ao dirigir.",
+     "tr": "Trafikte sürerken her zaman yol çizgilerine uyun."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.low-floor-bus",
@@ -1997,7 +4535,34 @@
    },
    "ipa": {
     "en": "/loʊ flɔr bʌs/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The low-floor bus is accessible for everyone.",
+     "uk": "Низькопідлоговий автобус доступний для всіх.",
+     "ru": "Низкопольный автобус доступен для всех.",
+     "pl": "Autobus niskopodłogowy jest dostępny dla wszystkich.",
+     "de": "Der Niederflurbus ist für alle zugänglich.",
+     "fr": "Le bus à plancher bas est accessible à tous.",
+     "es": "El autobús de piso bajo es accesible para todos.",
+     "it": "L'autobus a pianale ribassato è accessibile a tutti.",
+     "pt": "O ônibus de piso baixo é acessível a todos.",
+     "tr": "Alçak tabanlı otobüs herkes için erişilebilir."
+    },
+    {
+     "en": "I prefer taking the low-floor bus for convenience.",
+     "uk": "Я надаю перевагу їздити на низькопідлоговому автобусі для зручності.",
+     "ru": "Я предпочитаю ездить на низкопольном автобусе для удобства.",
+     "pl": "Wolę jeździć autobusem niskopodłogowym dla wygody.",
+     "de": "Ich ziehe es vor, den Niederflurbus aus Bequemlichkeit zu nehmen.",
+     "fr": "Je préfère prendre le bus à plancher bas pour plus de confort.",
+     "es": "Prefiero tomar el autobús de piso bajo por conveniencia.",
+     "it": "Preferisco prendere l'autobus a pianale ribassato per comodità.",
+     "pt": "Prefiro pegar o ônibus de piso baixo pela conveniência.",
+     "tr": "Kolaylık için alçak tabanlı otobüsü tercih ediyorum."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.blowout",
@@ -2018,7 +4583,34 @@
    },
    "ipa": {
     "en": "/ˈbloʊˌaʊt/"
-   }
+   },
+   "exs": [
+    {
+     "en": "He experienced a blowout while driving on the highway.",
+     "uk": "Він зазнав розриву шини під час їзди шосе.",
+     "ru": "У него произошел разрыв шины во время вождения по шоссе.",
+     "pl": "Doświadczył pęknięcia opony podczas jazdy autostradą.",
+     "de": "Er hatte einen Reifenplatzer, während er auf der Autobahn fuhr.",
+     "fr": "Il a subi un éclatement de pneu en conduisant sur l'autoroute.",
+     "es": "Tuvo un reventón mientras conducía por la autopista.",
+     "it": "Ha avuto uno scoppio di uno pneumatico mentre guidava in autostrada.",
+     "pt": "Ele teve um estouro de pneu enquanto dirigia na estrada.",
+     "tr": "Otoyolda sürerken lastik patlaması yaşadı."
+    },
+    {
+     "en": "A sudden blowout can be very dangerous while driving.",
+     "uk": "Раптовий розрив шини може бути дуже небезпечним під час водіння.",
+     "ru": "Внезапный разрыв шины может быть очень опасен при вождении.",
+     "pl": "Nagłe pęknięcie opony może być bardzo niebezpieczne podczas jazdy.",
+     "de": "Ein plötzlicher Reifenplatzer kann beim Fahren sehr gefährlich sein.",
+     "fr": "Un éclatement de pneu soudain peut être très dangereux en conduisant.",
+     "es": "Un reventón repentino puede ser muy peligroso al conducir.",
+     "it": "Uno scoppio di uno pneumatico improvviso può essere molto pericoloso durante la guida.",
+     "pt": "Um estouro de pneu repentino pode ser muito perigoso ao dirigir.",
+     "tr": "Ani bir lastik patlaması sürüş sırasında çok tehlikeli olabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.anti-lock-brakes",
@@ -2039,7 +4631,34 @@
    },
    "ipa": {
     "en": "/ˈænˌti lɑk breɪks/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Anti-lock brakes prevent the wheels from locking up.",
+     "uk": "Антиблокувальна система запобігає блокуванню коліс.",
+     "ru": "Антиблокировочная система предотвращает блокировку колес.",
+     "pl": "Układ ABS zapobiega blokowaniu kół.",
+     "de": "Das Antiblockiersystem verhindert das Blockieren der Räder.",
+     "fr": "Le freinage ABS empêche les roues de se bloquer.",
+     "es": "Los frenos ABS evitan que las ruedas se bloqueen.",
+     "it": "I freni ABS impediscono il bloccaggio delle ruote.",
+     "pt": "Os freios ABS evitam que as rodas travem.",
+     "tr": "ABS fren sistemi, tekerleklerin kilitlenmesini önler."
+    },
+    {
+     "en": "Cars with anti-lock brakes are safer on wet roads.",
+     "uk": "Автомобілі з антиблокувальною системою безпечніші на вологих дорогах.",
+     "ru": "Автомобили с антиблокировочной системой безопаснее на мокрой дороге.",
+     "pl": "Samochody z układem ABS są bezpieczniejsze na mokrej nawierzchni.",
+     "de": "Autos mit Antiblockiersystem sind auf nassen Straßen sicherer.",
+     "fr": "Les voitures avec freinage ABS sont plus sûres sur les routes mouillées.",
+     "es": "Los coches con frenos ABS son más seguros en carreteras mojadas.",
+     "it": "Le auto con freni ABS sono più sicure su strade bagnate.",
+     "pt": "Os carros com freios ABS são mais seguros em estradas molhadas.",
+     "tr": "ABS fren sistemine sahip araçlar, ıslak yollarda daha güvenlidir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.unleaded-petrol",
@@ -2060,7 +4679,34 @@
    },
    "ipa": {
     "en": "/ənˈlɛdɪd ˈpɛtroʊl/"
-   }
+   },
+   "exs": [
+    {
+     "en": "Most cars today run on unleaded petrol.",
+     "uk": "Більшість автомобілів сьогодні працюють на неетилованому бензині.",
+     "ru": "Большинство автомобилей сегодня работают на неэтилированном бензине.",
+     "pl": "Większość samochodów dzisiaj jeździ na benzynie bezołowiowej.",
+     "de": "Die meisten Autos fahren heute mit bleifreiem Benzin.",
+     "fr": "La plupart des voitures d'aujourd'hui fonctionnent à l'essence sans plomb.",
+     "es": "La mayoría de los coches de hoy funcionan con gasolina sin plomo.",
+     "it": "La maggior parte delle auto di oggi funzionano con benzina senza piombo.",
+     "pt": "A maioria dos carros hoje funciona com gasolina sem chumbo.",
+     "tr": "Günümüzdeki çoğu araç kurşunsuz benzinle çalışıyor."
+    },
+    {
+     "en": "Unleaded petrol is better for the environment than leaded.",
+     "uk": "Неетилований бензин є кращим для довкілля, ніж етилований.",
+     "ru": "Неэтилированный бензин лучше для окружающей среды, чем этилованный.",
+     "pl": "Benzyna bezołowiowa jest lepsza dla środowiska niż etylowana.",
+     "de": "Bleifreies Benzin ist besser für die Umwelt als bleihaltiges.",
+     "fr": "L'essence sans plomb est meilleure pour l'environnement que l'essence plombée.",
+     "es": "La gasolina sin plomo es mejor para el medio ambiente que la con plomo.",
+     "it": "La benzina senza piombo è migliore per l'ambiente rispetto a quella con piombo.",
+     "pt": "A gasolina sem chumbo é melhor para o meio ambiente do que a com chumbo.",
+     "tr": "Kurşunsuz benzin, kurşunlu benzinden daha çevre dostudur."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.smart-card",
@@ -2081,7 +4727,34 @@
    },
    "ipa": {
     "en": "/smɑrt kɑrd/"
-   }
+   },
+   "exs": [
+    {
+     "en": "You need a smart card to use the public transport system.",
+     "uk": "Вам потрібна смарт-картка для користування системою громадського транспорту.",
+     "ru": "Вам нужна смарт-карта для использования системы общественного транспорта.",
+     "pl": "Potrzebujesz karty miejskiej, aby korzystać z systemu transportu publicznego.",
+     "de": "Sie benötigen eine Chipkarte, um das öffentliche Verkehrssystem zu nutzen.",
+     "fr": "Vous avez besoin d'une carte à puce pour utiliser le système de transport public.",
+     "es": "Necesitas una tarjeta inteligente para usar el sistema de transporte público.",
+     "it": "Hai bisogno di una tessera elettronica per utilizzare il sistema di trasporto pubblico.",
+     "pt": "Você precisa de um cartão inteligente para usar o sistema de transporte público.",
+     "tr": "Toplu taşıma sistemini kullanmak için akıllı karta ihtiyacınız var."
+    },
+    {
+     "en": "The smart card can be recharged easily at kiosks.",
+     "uk": "Смарт-картку можна легко поповнити в кіосках.",
+     "ru": "Смарт-карту можно легко пополнить в киосках.",
+     "pl": "Kartę miejską można łatwo doładować w kioskach.",
+     "de": "Die Chipkarte kann an Kiosken einfach aufgeladen werden.",
+     "fr": "La carte à puce peut être facilement rechargée aux kiosques.",
+     "es": "La tarjeta inteligente se puede recargar fácilmente en los quioscos.",
+     "it": "La tessera elettronica può essere facilmente ricaricata presso i chioschi.",
+     "pt": "O cartão inteligente pode ser recarregado facilmente em quiosques.",
+     "tr": "Akıllı kart, büfelerde kolayca doldurulabilir."
+    }
+   ],
+   "_alt": 1
   },
   {
    "id": "transport.car-pool-lane",
@@ -2102,7 +4775,34 @@
    },
    "ipa": {
     "en": "/kɑr pul leɪn/"
-   }
+   },
+   "exs": [
+    {
+     "en": "The car pool lane is reserved for vehicles with multiple passengers.",
+     "uk": "Смуга для автомобілів з пасажирами зарезервована для автомобілів з кількома пасажирами.",
+     "ru": "Полоса для машин с пассажирами зарезервирована для автомобилей с несколькими пассажирами.",
+     "pl": "Pas dla pojazdów z pasażerami jest zarezerwowany dla pojazdów z wieloma pasażerami.",
+     "de": "Die Fahrgemeinschaftsspur ist für Fahrzeuge mit mehreren Passagieren reserviert.",
+     "fr": "La voie de covoiturage est réservée aux véhicules avec plusieurs passagers.",
+     "es": "El carril VAO está reservado para vehículos con múltiples pasajeros.",
+     "it": "La corsia car pooling è riservata ai veicoli con più passeggeri.",
+     "pt": "A faixa de carona é reservada para veículos com múltiplos passageiros.",
+     "tr": "Araç paylaşım şeridi, birden fazla yolcu taşıyan araçlar için ayrılmıştır."
+    },
+    {
+     "en": "You can save time by using the car pool lane.",
+     "uk": "Ви можете зекономити час, використовуючи смугу для автомобілів з пасажирами.",
+     "ru": "Вы можете сэкономить время, используя полосу для машин с пассажирами.",
+     "pl": "Możesz zaoszczędzić czas, korzystając z pasa dla pojazdów z pasażerami.",
+     "de": "Sie können Zeit sparen, indem Sie die Fahrgemeinschaftsspur nutzen.",
+     "fr": "Vous pouvez gagner du temps en utilisant la voie de covoiturage.",
+     "es": "Puedes ahorrar tiempo usando el carril VAO.",
+     "it": "Puoi risparmiare tempo utilizzando la corsia car pooling.",
+     "pt": "Você pode economizar tempo usando a faixa de carona.",
+     "tr": "Araç paylaşım şeridini kullanarak zaman kazanabilirsiniz."
+    }
+   ],
+   "_alt": 1
   }
  ]
 }
